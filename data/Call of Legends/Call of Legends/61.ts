@@ -50,6 +50,7 @@ const card: Card = {
 
 	description: {
 		en: "For no reason, it jumps and splashes about, making it easy for predators like Pidgeotto to catch it mid-jump.",
+		de: "Es springt grundlos in die Luft. Das macht es einfach für Räuber wie TAUBOGA, es im Sprung zu fangen."
 	},
 
 	variants: [

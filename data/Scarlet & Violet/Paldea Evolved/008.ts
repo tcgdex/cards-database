@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "At night, Combee sleep in a group of about a hundred, packed closely together in a lump.",
+		de: "Des Nachts schmiegen sich bis zu 100 Wadribie aneinander und formieren sich so zum Schlafen zu einem großen Gebilde."
 	},
 }
 

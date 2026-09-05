@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Gastly"
+		en: "Gastly",
+		de: "Nebulak"
 	},
 
 	stage: "Stage1",
@@ -75,7 +76,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering."
+		en: "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
+		de: "Lauert in der Dunkelheit. Die Berührung seiner gasförmigen Hand erzeugt endloses Schaudern."
 	},
 
 	variants: [

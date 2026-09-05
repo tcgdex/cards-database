@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Tepig",
 		fr: "Gruikui",
+		de: "Floink"
 	},
 
 	stage: "Stage1",
@@ -82,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "The more it eats, the more fuel it has to make the fire in its stomach stronger. This fills it with even more power.",
+		de: "Je mehr es frisst, desto stärker werden die Flammen in seinem Magen. Dies führt zu rapiden Energieschüben."
 	},
 
 	thirdParty: {

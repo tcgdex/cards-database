@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Helix Fossil"
+		en: "Helix Fossil",
+		de: "Helixfossil"
 	},
 
 	stage: "Stage1",
@@ -37,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Draw 3 cards.",
-				de: "Ziehe 3 Karten"
+				de: "Ziehe 3 Karten."
 			},
 
 		},
@@ -52,7 +53,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -69,7 +70,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A Pokémon that was resurrected from a fossil using modern science. It swam in ancient seas."
+		en: "A Pokémon that was resurrected from a fossil using modern science. It swam in ancient seas.",
+		de: "Dieses PKMN wurde von der modernen Wissenschaft aus einem Fossil geschaffen. Es lebte im urzeitlichen Meer."
 	},
 
 	variants: [

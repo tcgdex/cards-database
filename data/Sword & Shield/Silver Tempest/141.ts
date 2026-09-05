@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "Each Spinda's spot pattern is different. With its stumbling movements, it evades opponents' attacks brilliantly!",
+		de: "Jedes Pandir hat ein anderes Fleckenmuster. Mit seinem taumelnden Gang weicht es gegnerischen Angriffen souverän aus."
 	},
 
 	variants: [

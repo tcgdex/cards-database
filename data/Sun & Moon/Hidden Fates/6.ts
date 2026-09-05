@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Pinsir GX",
 		fr: "Scarabrute-GX",
+		de: "Pinsir-GX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -34,6 +35,7 @@ const card: Card = {
 			name: {
 				en: "Superpowered Horns",
 				fr: "Cornes Surpuissantes",
+				de: "Superstarke Hörner"
 			},
 
 			damage: 110,
@@ -48,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Guillotine GX",
 				fr: "Guillotine-GX",
+				de: "Guillotine-GX"
 			},
 			effect: {
 				en: "(You can’t use more than 1 GX attack in a game.)",
 				fr: "(Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				de: "(Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: 160,
 

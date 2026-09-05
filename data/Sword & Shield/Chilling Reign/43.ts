@@ -77,7 +77,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "Its nictitating membranes let it pick out foes' weak points so it can precisely blast them with water that shoots from its fingertips at Mach 3."
+		en: "Its nictitating membranes let it pick out foes' weak points so it can precisely blast them with water that shoots from its fingertips at Mach 3.",
+		de: "Die Wasserschüsse aus seinen Fingern erreichen Geschwindigkeiten von bis zu Mach 3. Mit seiner Nickhaut erkennt es Schwachpunkte des Gegners."
 	},
 
 	variants: [

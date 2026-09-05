@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Silcoon",
 		fr: "Armulys",
+		de: "Schaloko"
 	},
 
 	stage: "Stage2",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Triple Energy",
 				fr: "Triple Énergie",
+				de: "Dreifach-Energie"
 			},
 			effect: {
 				en: "Search your deck for 3 different types of basic Energy cards and attach them to your Pokémon in any way you like. Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck 3 différents types de cartes Énergie de base et attachez-les à vos Pokémon de la manière que vous voulez. Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach 3 vom Typ her unterschiedlichen Basis-Energiekarten und lege sie beliebig an deine Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Drainpour",
 				fr: "Sangsue-Déluge",
+				de: "Gesundgulli"
 			},
 			effect: {
 				en: "Heal 40 damage from each of your Benched Pokémon.",
 				fr: "Soignez 40 dégâts à chacun de vos Pokémon de Banc.",
+				de: "Heile 40 Schadenspunkte bei jedem Pokémon auf deiner Bank."
 			},
 			damage: 40,
 
@@ -78,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Despite its looks, it is aggressive. It jabs with its long, thin mouth if disturbed while collecting pollen.",
+		de: "Stört man es, während es Pollen sucht, stößt es mit seinem langen, dünnen Mund zu."
 	},
 
 	thirdParty: {

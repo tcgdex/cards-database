@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "Flip a coin. If heads, draw 4 cards.",
 		fr: "Lancez une pièce. Si c'est face, piochez 4 cartes.",
-		de: "Flip a coin. If heads, draw 4 cards."
+		de: "Wirf eine Münze. Ziehe bei „Kopf“ vier Karten."
 	},
 
 

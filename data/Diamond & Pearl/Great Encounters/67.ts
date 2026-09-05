@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "It is famous for its shabby appearance. While populous, they tend to cluster in set locations.",
+		de: "Seine lumpige Gestalt ist berühmt. Es lebt mit anderen in Gruppen an bestimmten Orten."
 	},
 
 	thirdParty: {

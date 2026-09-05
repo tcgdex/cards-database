@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Flygon δ",
 		fr: "Libegon δ",
-		de: "Libelldra"
+		de: "Libelldra δ"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -26,7 +26,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Vibrava",
-		fr: "Vibraninf"
+		fr: "Vibraninf",
+		de: "Vibrava"
 	},
 
 	stage: "Stage2",

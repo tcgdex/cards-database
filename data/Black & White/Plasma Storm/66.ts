@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Trubbish",
 		fr: "Miamiasme",
+		de: "Unratütox"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Biosmog",
 				fr: "Brouillard Toxique",
+				de: "Biosmog"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned. Flip a coin. If heads, discard an Energy attached to that Pokémon.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Wirf 1 Münze. Lege bei „Kopf“ 1 an dieses Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 20,
 
@@ -58,6 +61,7 @@ const card: Card = {
 			name: {
 				en: "Sludge Bomb",
 				fr: "Bomb-Beurk",
+				de: "Matschbombe"
 			},
 
 			damage: 70,
@@ -76,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Consuming garbage makes new kinds of poison gases and liquids inside their bodies.",
+		de: "Jedes Mal, wenn es frischen Müll in sich aufsaugt, erzeugt es völlig neue Formen von Giftgasen und Toxinen."
 	},
 
 	thirdParty: {

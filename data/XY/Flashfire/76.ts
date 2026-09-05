@@ -56,7 +56,7 @@ const card: Card = {
 				es: "Si el Pokémon Defensor intenta atacar durante el próximo turno de tu rival, este lanza 1 moneda. Si sale cruz, ese ataque no hace nada.",
 				it: "Se durante il prossimo turno del tuo avversario il Pokémon difensore prova ad attaccare, il tuo avversario lancia una moneta. Se esce croce, quell'attacco non ha effetto.",
 				pt: "Se o Pokémon Defensor tentar atacar durante a próxima vez de jogar do seu oponente, seu oponente jogará uma moeda. Se sair coroa, o ataque não fará nada.",
-				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 
 		},
@@ -79,7 +79,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
 				pt: "Jogue uma moeda. Se sair cara, esse ataque causará 20 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -104,6 +104,7 @@ const card: Card = {
 
 	description: {
 		en: "The claws on its feet are well developed. It can carry prey such as an Exeggcute to its nest over 60 miles away.",
+		de: "Die Krallen an seinen Füßen sind sehr ausgeprägt. Es kann sogar ein Owei zu seinem Nest in 100 km Entfernung tragen."
 	},
 
 	thirdParty: {

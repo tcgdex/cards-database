@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Mira las 3 últimas cartas de tu baraja y ponlas en la parte superior de tu baraja en el orden que quieras.",
 		it: "Guarda le ultime tre carte del tuo mazzo e mettile in cima nell'ordine che preferisci.",
 		pt: "Olhe as 3 cartas de baixo do seu baralho e coloque-as como as cartas de cima do seu baralho em qualquer ordem.",
-		de: "Schau dir die untersten 3 Karten deines Decks an und lege sie in beliebiger Reihenfolge auf dein Deck."
+		de: "Schau dir die untersten 3 Karten deines Decks an und lege sie in beliebiger Reihenfolge auf dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

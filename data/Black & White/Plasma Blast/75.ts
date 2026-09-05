@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Fury Swipes",
 				fr: "Combo-Griffe",
+				de: "Kratzfurie"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 10,
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "It lets honey soak into its paws so it can lick them all the time. Every set of paws tastes unique.",
+		de: "Es lässt Honig in seine Pranken eindringen, so dass es immer welchen dabeihat."
 	},
 
 	thirdParty: {

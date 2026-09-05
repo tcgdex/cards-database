@@ -39,7 +39,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -64,7 +64,8 @@ const card: Card = {
 
 	description: {
 		en: "Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.",
-		fr: "Il rappelle des objets trouvés dans des sépultures anciennes. Nul ne sait qu'ils sont liés."
+		fr: "Il rappelle des objets trouvés dans des sépultures anciennes. Nul ne sait qu'ils sont liés.",
+		de: "Sein Körper sieht aus, als seien Teile davon in alten Gräbern gefunden worden."
 	},
 
 	thirdParty: {

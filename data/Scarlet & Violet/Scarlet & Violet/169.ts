@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Si te quedan más cartas de Premio que a tu rival, los ataques del Pokémon al que esté unida esta carta hacen 30 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 		it: "Se hai più carte Premio rimanenti del tuo avversario, gli attacchi del Pokémon a cui è assegnata questa carta infliggono 30 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
 		pt: "Se você tiver mais cartas de Prêmio restantes do que seu oponente, os ataques do Pokémon ao qual esta carta está ligada causam 30 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
-		de: "Wenn du mehr verbleibende Preiskarten hast als dein Gegner, fügen die Attacken des Pokémon, an das diese Karte angelegt ist, dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+		de: "Wenn du mehr verbleibende Preiskarten hast als dein Gegner, fügen die Attacken des Pokémon, an das diese Karte angelegt ist, dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden). Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt."
 	},
 
 	trainerType: "Tool",

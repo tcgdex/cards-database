@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "Every bit of Regirock's body is made of stone. As parts of its body erode, this Pokémon sticks rocks to itself to repair what's been lost.",
+		de: "Sein Körper besteht vollständig aus Steinen. Wenn Teile davon abbröckeln, ersetzt Regirock diese einfach durch neue Steine."
 	},
 
 	variants: [

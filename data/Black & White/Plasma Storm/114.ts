@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Tool Breaker",
 				fr: "Bris’Outil",
+				de: "Ausrüstungsbrecher"
 			},
 			effect: {
 				en: "Discard a Pokémon Tool card attached to the Defending Pokémon.",
 				fr: "Défaussez une carte Outil Pokémon attachée au Pokémon Défenseur.",
+				de: "Lege 1 an das Verteidigende Pokémon angelegte Pokémon-Ausrüstung auf den Ablagestapel deines Gegners."
 			},
 
 		},
@@ -53,6 +55,7 @@ const card: Card = {
 			name: {
 				en: "Hammer In",
 				fr: "Enfoncer",
+				de: "Einhämmern"
 			},
 
 			damage: 70,
@@ -71,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "They are known to charge so wildly that if a train were to enter their territory, they would send it flying.",
+		de: "Es rammt Gegner ungebändigt mit dem Kopf und schleudert selbst Züge, die sein Revier durchkreuzen, hinfort."
 	},
 
 	thirdParty: {

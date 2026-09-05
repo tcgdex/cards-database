@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Discard a Fire Energy card from your hand. Then, draw 3 cards.",
 				fr: "Défaussez une carte Énergie Fire de votre main. Ensuite, piochez 3 cartes.",
-				de: "Lege 1 -Energiekarte von deiner Hand auf deinen Ablagestapel. Ziehe danach 3 Karten."
+				de: "Lege 1 {R}-Energiekarte von deiner Hand auf deinen Ablagestapel. Ziehe danach 3 Karten."
 			},
 
 		},
@@ -67,7 +67,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The flaming magma it stores in the hump on its back is the source of its tremendous power."
+		en: "The flaming magma it stores in the hump on its back is the source of its tremendous power.",
+		de: "Das heiße Magma in seinem Höcker dient ihm als Energiereserve und verleiht ihm enorme Stärke."
 	},
 
 	variants: [

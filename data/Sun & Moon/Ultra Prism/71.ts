@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "Seen as a symbol of bad luck, it's generally disliked. Yet it gives presents—objects that sparkle or shine—to Trainers it's close to.",
+		de: "Es ist als Unglücksbringer verschrien, aber wenn es sich mit seinem Trainer gut versteht, schenkt es ihm allerlei funkelnde und glitzernde Objekte."
 	},
 
 	thirdParty: {

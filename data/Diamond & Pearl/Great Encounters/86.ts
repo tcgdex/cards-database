@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Swablu during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Tylton lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Wablu zugefügt würden."
+				de: "Wirf 1 Münze. Bei „Kopf“ verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Wablu zugefügt würden."
 			},
 
 		},
@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Its wings are like cotton tufts. If it perches on someone's head, it looks like a cotton hat.",
+		de: "Seine Flügel sehen aus wie Baumwolle. Legt es sie jemandem auf den Kopf, sehen sie wie ein Wollhut aus."
 	},
 
 	thirdParty: {

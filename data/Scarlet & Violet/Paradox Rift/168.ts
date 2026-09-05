@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Roba 2 cartas. Si el Pokémon Activo de tu rival es un Pokémon ex, roba 2 cartas más.",
 		it: "Pesca due carte. Se il Pokémon attivo del tuo avversario è un Pokémon-ex, pesca altre due carte.",
 		pt: "Compre 2 cartas. Se o Pokémon Ativo do seu oponente for um Pokémon ex, compre 2 cartas a mais.",
-		de: "Ziehe 2 Karten. Wenn das Aktive Pokémon deines Gegners ein Pokémon-ex ist, ziehe 2 Karten mehr."
+		de: "Ziehe 2 Karten. Wenn das Aktive Pokémon deines Gegners ein Pokémon-ex ist, ziehe 2 Karten mehr. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

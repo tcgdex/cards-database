@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Nidoran♀",
 		fr: "Nidoran♀",
+		de: "Nidoran♀"
 	},
 
 	stage: "Stage1",
@@ -52,7 +53,7 @@ const card: Card = {
 				es: "Pon 5 Pokémon Psychic de tu pila de descartes en tu baraja y baraja todas las cartas.",
 				it: "Rimischia cinque Pokémon Psychic dalla tua pila degli scarti nel tuo mazzo.",
 				pt: "Embaralhe 5 Pokémon Psychic da sua pilha de descarte no seu baralho.",
-				de: "Mische 5 Psychic-Pokémon aus deinem Ablagestapel in dein Deck."
+				de: "Mische 5 {P}-Pokémon aus deinem Ablagestapel in dein Deck."
 			},
 
 		},
@@ -86,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "The female has a gentle temperament. It emits ultrasonic cries that have the power to befuddle foes.",
+		de: "Das Weibchen ist ausgeglichener. Es stößt Schreie im Ultraschallwellenbereich aus, die den Gegner verwirren können."
 	},
 
 	thirdParty: {

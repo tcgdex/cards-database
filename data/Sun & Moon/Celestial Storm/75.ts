@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Larvitar",
 		fr: "Embrylex",
+		de: "Larvitar"
 	},
 
 	stage: "Stage1",
@@ -70,7 +71,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño a cada Pokémon no Fighting (tanto tuyos como de tu rival). (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 				it: "Questo attacco infligge 20 danni a ciascun Pokémon non di tipo Fighting, sia tuo che del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
 				pt: "Este ataque causa 20 pontos de dano a cada Pokémon que não for um Pokémon Fighting (seus e do seu oponente). (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
-				de: "Diese Attacke fügt jedem Pokémon (deinen und denen deines Gegners), das kein Fighting-Pokémon ist, 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Diese Attacke fügt jedem Pokémon (deinen und denen deines Gegners), das kein {F}-Pokémon ist, 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -87,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Its shell is as hard as sheet rock, and it is also very strong. Its thrashing can topple a mountain.",
+		de: "Es ist sehr stark und sein Panzer ist steinhart. Setzt es Fuchtler ein, kann es einen Berg umstürzen."
 	},
 
 	thirdParty: {

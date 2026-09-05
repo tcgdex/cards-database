@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "kodama",
 
 	description: {
-		en: "It evolved after experiencing numerous fights. While crossing its arms, it lets out a shout that would make any opponent flinch."
+		en: "It evolved after experiencing numerous fights. While crossing its arms, it lets out a shout that would make any opponent flinch.",
+		de: "Durch das Austragen unzähliger Kämpfe hat es sich entwickelt. Formt es mit den Armen ein „X“ und stößt einen Schrei aus, verschreckt das jeden."
 	},
 
 	attacks: [{

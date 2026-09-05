@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt."
+				de: "Wirf 1 Münze. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt."
 			},
 
 		},
@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -77,7 +77,8 @@ const card: Card = {
 
 	description: {
 		en: "It uses the leaf on its head to determine the temperature and humidity. It loves to sunbathe.",
-		fr: "Il jauge la température et l'humidité grâce à la feuille sur sa tête. Il raffole des bains de soleil."
+		fr: "Il jauge la température et l'humidité grâce à la feuille sur sa tête. Il raffole des bains de soleil.",
+		de: "Mit dem Blatt auf seinem Kopf bestimmt es die Temperatur und Feuchtigkeit. Es liebt Sonnenbäder."
 	},
 
 	thirdParty: {

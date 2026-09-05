@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Mew",
 		fr: "Mew",
+		de: "Mew"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -33,6 +34,7 @@ const card: Card = {
 			name: {
 				en: "Psyshot",
 				fr: "Piqûre Psy",
+				de: "Psychoschuss"
 			},
 
 			damage: 50,
@@ -51,6 +53,7 @@ const card: Card = {
 
 	description: {
 		en: "Because it can use all kinds of moves, many scientists believe Mew to be the ancestor of Pokémon.",
+		de: "Es beherrscht alle möglichen Attacken, daher sieht man in ihm den Vorfahren aller Pokémon."
 	},
 
 	thirdParty: {

@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "Search your deck for a basic Energy card and put it into your hand. Shuffle your deck afterward.",
 		fr: "Cherchez une carte Énergie de base dans votre deck et placez-la dans votre main. Mélangez ensuite votre deck.",
-		de: "Search your deck for a basic Energy card, reveal it, and put it into your hand. Shuffle your deck afterward."
+		de: "Suche in deinem Deck nach einer Basis-Energiekarte und nimm sie auf deine Hand. Mische dein Deck danach."
 	},
 
 

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Deerling",
 		fr: "Vivaldaim",
+		de: "Sesokitz"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Push Down",
 				fr: "Renversement",
+				de: "Runterdrücken"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 30,
 
@@ -58,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "This Pokémon does 20 damage to itself.",
 				fr: "Ce Pokémon s'inflige 20 dégâts.",
+				de: "Dieses Pokémon fügt sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -86,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "The plants growing on its horns change according to the season. The leaders of the herd possess magnificent horns.",
+		de: "Je nach Jahreszeit wächst eine andere Pflanze auf seinem Geweih. Exemplare mit prächtiger Krone führen die Herde an."
 	},
 
 	thirdParty: {

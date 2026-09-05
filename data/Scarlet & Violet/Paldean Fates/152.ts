@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "This odd Pokémon can see both the past and the future. It eyes the sun's movement all day.",
+		de: "Dieses kuriose Pokémon kann die Vergangenheit und die Zukunft sehen. Es beobachtet täglich den Lauf der Sonne."
 	},
 
 }

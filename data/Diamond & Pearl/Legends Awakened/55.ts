@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gligar",
 		fr: "Skorgla",
+		de: "Skorgla"
 	},
 
 	stage: "Stage1",
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 40 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 40 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 40 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus 40 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -86,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "It observes prey while hanging inverted from branches. When the chance presents itself, it swoops!",
-		fr: "Il guette sa proie, pendu à une branche la tête en bas, et s'en saisit à la première occasion."
+		fr: "Il guette sa proie, pendu à une branche la tête en bas, et s'en saisit à la première occasion.",
+		de: "Es hängt kopfüber von einem Ast und beobachtet seine Beute. Bei Gelegenheit stürzt es sich auf sie."
 	},
 
 	thirdParty: {

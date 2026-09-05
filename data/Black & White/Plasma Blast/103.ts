@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Double Draw",
 				fr: "Double Pioche",
+				de: "Zweifachzug"
 			},
 			effect: {
 				en: "Draw 2 cards.",
 				fr: "Piochez 2 cartes.",
+				de: "Ziehe 2 Karten."
 			},
 
 		},
@@ -51,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Leaf Wallop",
 				fr: "Rafale de Feuilles",
+				de: "Blattprügel"
 			},
 			effect: {
 				en: "During your next turn, this Pokémon's Leaf Wallop attack does 40 more damage (before applying Weakness and Resistance).",
 				fr: "Pendant votre prochain tour, l'attaque Rafale de Feuilles de ce Pokémon inflige 40 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				de: "Während deines nächsten Zuges fügt die Attacke Blattprügel dieses Pokémon 40 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 			damage: 40,
 
@@ -79,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
+		de: "Dieses sehr seltene Pokémon hat eine andere Farbe als üblich. Es ist schwer zu finden."
 	},
 
 	thirdParty: {

@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "It discovers what is going on around it by using the feelers on its head and tail. It is brutally aggressive.",
+		de: "Mit seinen Ruten und den Fühlern an seinem Kopf tastet es die Umgebung ab. Ein überaus aggressiver Geselle."
 	},
 
 	thirdParty: {

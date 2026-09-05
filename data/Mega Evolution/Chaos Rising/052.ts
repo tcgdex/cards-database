@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Experienced fishers say they try to catch Qwilfish in the brief moment that these Pokemon become defenseless just after launching poisonous spikes.",
+		de: "Angelveteranen zufolge sollte man Baldorfish unmittelbar nach Abschuss seiner Giftstacheln versuchen zu fangen, weil es dann wehrlos ist."
 	},
 
 

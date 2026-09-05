@@ -4,7 +4,7 @@ import Set from '../Diamond & Pearl'
 const card: Card = {
 	name: {
 		en: "Dusclops",
-		fr: "Teraclope",
+		fr: "Téraclope",
 		de: "Zwirrklop"
 	},
 
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Duskull",
-		fr: "Skélénox",
+		fr: "Skelénox",
+		de: "Zwirrlicht"
 	},
 
 	stage: "Stage1",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, put 2 damage counters on each of your opponent's Pokémon. If tails, put 2 damage counters on 1 of your Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, placez 2 marqueurs de dégât sur chacun des Pokémon de votre adversaire. Si c'est pile, placez 2 marqueurs de dégât sur 1 de vos Pokémon.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege 2 Schadensmarken auf jedes Pokémon deines Gegners. Bei \"Zahl\" lege 2 Schadensmarken auf 1 deiner Pokémon."
+				de: "Wirf 1 Münze. Bei „Kopf“ lege 2 Schadensmarken auf jedes Pokémon deines Gegners. Bei „Zahl“ lege 2 Schadensmarken auf 1 deiner Pokémon."
 			},
 
 		},
@@ -86,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "Its body is hollow. It is said that those who look into its body are sucked into the void.",
-		fr: "Son corps est creux. On raconte que celui qui regarde à l'intérieur finira aspiré par le néant."
+		fr: "Son corps est creux. On raconte que celui qui regarde à l'intérieur finira aspiré par le néant.",
+		de: "Sein Körper ist hohl. Man sagt, dass diejenigen, die in den Körper blicken, hineingezogen werden."
 	},
 
 	thirdParty: {

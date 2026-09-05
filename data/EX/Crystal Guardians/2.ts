@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Blastoise δ",
 		fr: "Tortank δ",
-		de: "Turtok"
+		de: "Turtok δ"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -26,7 +26,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wartortle",
-		fr: "Carabaffe"
+		fr: "Carabaffe",
+		de: "Schillok"
 	},
 
 	stage: "Stage2",

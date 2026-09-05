@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Iron Head",
 				fr: "Tête de Fer",
+				de: "Eisenschädel"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 10,
 
@@ -53,6 +55,7 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d'Boule",
+				de: "Kopfnuss"
 			},
 
 			damage: 30,
@@ -78,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "In order to build up its steel body, it eats iron ore. This pesky Pokémon is known to eat railroad tracks.",
+		de: "Es baut sich einen Körper aus Stahl auf, indem es Eisenerz verzehrt. Gelegentlich frisst es auch Schienenteile auf."
 	},
 
 	thirdParty: {

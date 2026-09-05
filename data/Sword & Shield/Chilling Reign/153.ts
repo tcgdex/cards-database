@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Elige hasta 2 de tus Pokémon Golpe Fluido y cura 60 puntos de daño a cada uno de ellos.",
 		it: "Scegli fino a due dei tuoi Pokémon Colpo Rapido e cura ciascuno di essi da 60 danni.",
 		pt: "Escolha até 2 dos seus Pokémon Golpe Fluido e cure 60 pontos de dano de cada um deles.",
-		de: "Wähle bis zu 2 deiner Fließender-Angriff-Pokémon und heile bei jedem von ihnen 60 Schadenspunkte."
+		de: "Wähle bis zu 2 deiner Fließender-Angriff-Pokémon und heile bei jedem von ihnen 60 Schadenspunkte. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "Due to its short wings, it can't fly long distances. It wanders about restlessly and pecks at bug Pokémon.",
+		de: "Aufgrund seiner kurzen Flügel kann es keine langen Strecken fliegen. Es rennt wild durch die Gegend, um Käfer-Pokémon aufzupicken."
 	},
 
 	variants: [

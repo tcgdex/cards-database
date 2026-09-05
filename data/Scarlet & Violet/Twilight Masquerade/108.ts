@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "Glimmet's toxic mineral crystals look just like flower petals. This Pokémon scatters poisonous powder like pollen to protect itself.",
+		de: "Die giftigen Kristalle sehen echten Blütenblättern zum Verwechseln ähnlich. Es schützt sich, indem es einen pollenartigen Giftpuder verstreut."
 	},
 
 	variants: [

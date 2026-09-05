@@ -71,7 +71,8 @@ const card: Card = {
 	description: {
 		en: "Its hooves are 10 times harder than diamonds. It can trample anything flat in moments.",
 		fr: "Ses sabots sont plus résistants que le diamant. Il peut aplatir n'importe quoi en le piétinant.",
-		it: "I suoi zoccoli sono più duri dei diamanti e schiacciano qualsiasi ostacolo in pochi secondi. LIV 10 N.77"
+		it: "I suoi zoccoli sono più duri dei diamanti e schiacciano qualsiasi ostacolo in pochi secondi. LIV 10 N.77",
+		de: "Seine Hufe sind 10 mal härter als Diamanten. Es kann alles in kürzester Zeit niedertrampeln."
 	},
 
 	variants: [
@@ -88,14 +89,16 @@ const card: Card = {
 			subtype: "shadowless",
 			stamp: ["1st-edition"],
 			thirdParty: {
-				cardmarket: 107057,
+				tcgplayer: 107057,
+				cardmarket: 660167
 			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				cardmarket: 107057,
+				tcgplayer: 107057,
+				cardmarket: 660167
 			},
 		},
 		{

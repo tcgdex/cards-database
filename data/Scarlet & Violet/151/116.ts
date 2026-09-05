@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "They swim with dance-like motions and cause whirlpools to form. Horsea compete to see which of them can generate the biggest whirlpool.",
+		de: "Es schwimmt elegant wie ein Tänzer und erzeugt dabei Wasserstrudel. Mit Artgenossen wetteifert es darum, wer den größten Strudel formen kann."
 	},
 
 	variants: [

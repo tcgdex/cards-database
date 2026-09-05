@@ -23,20 +23,10 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Vulpix",
-		fr: "Goupix"
+		fr: "Goupix",
+		de: "Vulpix"
 	},
 
-	abilities: [
-		{
-			type: "Poke-POWER",
-			name: {
-				en: "Ion Coating",
-			},
-			effect: {
-				en: "You may use this power once during each of your turns (before your attack). All Lightning Energy attached to your Active Pokémon becomes Water Energy for the rest of the turn. (This effect ends if your Active Pokémon retreats or is returned to your hand.) This power can't be used if Lanturn is affected by a Special Condition.",
-			},
-		},
-	],
 	stage: "Stage1",
 
 	attacks: [
@@ -48,12 +38,12 @@ const card: Card = {
 			name: {
 				en: "Mislead",
 				fr: "Tromperie",
-				de: "Mislead"
+				de: "Irreführen"
 			},
 			effect: {
 				en: "Flip 2 coins. If either of them is heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez 2 pièces. Si vous obtenez au moins une face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip 2 coins. If either of them is heads, the Defending Pokémon is now Confused."
+				de: "Wirf 2 Münzen. Falls mindestens eine von ihnen „Kopf“ zeigt, ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -66,12 +56,12 @@ const card: Card = {
 			name: {
 				en: "Ethereal Flame",
 				fr: "Flamme éthérée",
-				de: "Ethereal Flame"
+				de: "Ätherflamme"
 			},
 			effect: {
 				en: "Discard all Fire Energy cards attached to Ninetales. This attack does 30 damage plus 20 more damage for each card discarded this way.",
-				fr: "Défaussez-vous de toutes les cartes Énergie  attachées à Feunard. Cette carte inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque carte défaussée de cette manière.",
-				de: "Discard all  Energy cards attached to Ninetales. This attack does 30 damage plus 20 more damage for each card discarded this way."
+				fr: "Défaussez-vous de toutes les cartes Énergie {R} attachées à Feunard. Cette carte inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque carte défaussée de cette manière.",
+				de: "Lege alle an Vulnona angelegten {R}-Energiekarten auf deinen Ablagestapel. Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jede auf diese Weise abgeworfene Karte zu."
 			},
 			damage: "30+",
 

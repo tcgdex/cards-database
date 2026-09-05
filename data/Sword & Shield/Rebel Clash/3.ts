@@ -86,7 +86,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "In battle, it flaps its wings at great speed to release highly toxic dust into the air."
+		en: "In battle, it flaps its wings at great speed to release highly toxic dust into the air.",
+		de: "Wenn es sehr schnell mit den Flügeln schlägt, setzt es hochgiftigen Flügelstaub frei."
 	},
 
 	variants: [

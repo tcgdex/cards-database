@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Sharpedo ex",
 		fr: "Sharpedo ex",
-		de: "Tohaido ex"
+		de: "Tohaido-ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -62,7 +62,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may discard a Darkness Energy attached to Sharpedo ex. If you do, this attack does 60 damage plus 20 more damage and discard 1 Energy card attached to the Defending Pokémon.",
-				fr: "Vous pouvez défausser une Énergie  attachée à Sharpedo ex. Cette attaque inflige alors 60 dégâts plus 20 dégâts supplémentaires. Défaussez une carte Énergie attachée au Pokémon Défenseur.",
+				fr: "Vous pouvez défausser une Énergie {D} attachée à Sharpedo ex. Cette attaque inflige alors 60 dégâts plus 20 dégâts supplémentaires. Défaussez une carte Énergie attachée au Pokémon Défenseur.",
 				de: "You may discard a  Energy attached to Sharpedo ex. If you do, this attack does 60 damage plus 20 more damage and discard 1 Energy card attached to the Defending Pokémon."
 			},
 			damage: "60+",

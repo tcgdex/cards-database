@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "By reading the auras of all things, it can tell how others are feeling from over half a mile away.",
+		de: "Kann aus 1 km Entfernung die Gefühle anderer Wesen erfassen, indem es die Wellen liest, die sie aussenden."
 	},
 
 	thirdParty: {

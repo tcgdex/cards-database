@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Steady Punch",
 				fr: "Poing Énergétique",
+				de: "Ruhiger Schlag"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -57,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "In fights, they dominate with onslaughts of flowing, continuous attacks. With their sharp claws, they cut enemies.",
+		de: "Es deckt seine Gegner mit filigranen Attacken in Serie ein und schlitzt sie mit seinen spitzen Klauen auf."
 	},
 
 	thirdParty: {

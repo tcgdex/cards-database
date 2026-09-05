@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Finneon",
-		fr: "Ecayon",
+		fr: "Écayon",
 		de: "Finneon"
 	},
 
@@ -56,7 +56,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -74,7 +74,8 @@ const card: Card = {
 
 	description: {
 		en: "After long exposure to sunlight, the patterns on its tail fins shine vividly when darkness arrives.",
-		fr: "Après une longue exposition au soleil, les motifs de ses nageoires caudales luisent à la nuit tombée."
+		fr: "Après une longue exposition au soleil, les motifs de ses nageoires caudales luisent à la nuit tombée.",
+		de: "Wurden die Flossen lange dem Sonnenlicht ausgesetzt, leuchten sie in der Dunkelheit."
 	},
 
 	thirdParty: {

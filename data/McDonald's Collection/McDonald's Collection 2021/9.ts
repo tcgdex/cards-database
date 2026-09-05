@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Charmander",
 		fr: "Salamèche",
+		de: "Glumanda"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 10,
@@ -45,6 +47,7 @@ const card: Card = {
 			name: {
 				en: "Flame Tail",
 				fr: "Queue de Flammes",
+				de: "Flammenschweif"
 			},
 
 			damage: 20,
@@ -62,7 +65,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The flame on its tail indicates Charmander’s life force. If it is healthy, the flame burns brightly."
+		en: "The flame on its tail indicates Charmander’s life force. If it is healthy, the flame burns brightly.",
+		de: "Die Flamme auf seiner Schweifspitze zeigt die Lebensenergie an. Ist es gesund, leuchtet sie hell."
 	},
 
 	variants: [

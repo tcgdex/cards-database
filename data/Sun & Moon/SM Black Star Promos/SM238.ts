@@ -76,6 +76,16 @@ const card: Card = {
 	description: {
 		en: "It protects itself by freezing its fur into sharp needles. It can drop its body temperature below –75 degrees Fahrenheit.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 449123,
+				tcgplayer: 211628
+			}
+		}
+	],
 }
 
 export default card

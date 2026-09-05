@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Its entire body is burning. When it breathes, the temperature rises. When it sneezes, flames shoot out!",
+		de: "Mit seinem brennenden Körper und glühenden Atem heizt es seine Umgebung auf. Beim Niesen stößt es Flammen aus."
 	},
 
 	thirdParty: {

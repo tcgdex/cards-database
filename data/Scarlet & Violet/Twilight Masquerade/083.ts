@@ -61,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "Girafarig's tail has a small head. It instinctively bites at any foe that approaches the Pokémon from behind.",
+		de: "An seinem Schweif befindet sich ein kleiner Kopf. Dieser beißt instinktiv zu, wenn sich dem Pokémon ein Feind von hinten nähert."
 	},
 
 	variants: [

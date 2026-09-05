@@ -82,7 +82,8 @@ const card: Card = {
 
 	description: {
 		en: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
-		fr: "Il peut contrôler le temps. Les mythes de Sinnoh en parlent comme d'une divinité ancienne."
+		fr: "Il peut contrôler le temps. Les mythes de Sinnoh en parlent comme d'une divinité ancienne.",
+		de: "Es besitzt die Macht, die Zeit zu kontrollieren. In den Mythen von Sinnoh erscheint es als Gottheit."
 	},
 
 	thirdParty: {

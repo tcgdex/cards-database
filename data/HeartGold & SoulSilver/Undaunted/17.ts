@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Evoli"
+		fr: "Evoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -82,7 +83,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When you see Leafeon asleep in a patch of sunshine, you’ll know it is using photosynthesis to produce clean air."
+		en: "When you see Leafeon asleep in a patch of sunshine, you’ll know it is using photosynthesis to produce clean air.",
+		de: "An klaren Tagen erzeugt FOLIPURBA saubere Luft, indem es Photosynthese betreibt."
 	},
 
 	variants: [

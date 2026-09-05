@@ -65,7 +65,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lies still in the same pose for days in its web, waiting for its unsuspecting prey to wander close."
+		en: "It lies still in the same pose for days in its web, waiting for its unsuspecting prey to wander close.",
+		de: "Es sitzt tagelang regungslos in seinem Netz und lauert unvorsichtiger Beute auf, die ihm zu nahe kommt."
 	},
 
 	variants: [

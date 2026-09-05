@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Fin Smack",
 				fr: "Coup d'Aileron",
+				de: "Flossenklatscher"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 10,
 
@@ -57,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees.",
+		de: "Im Schatten von Korallen legt es sein Nest an. Bei Gefahr versprüht es Tinte und flieht."
 	},
 
 	thirdParty: {

@@ -71,7 +71,7 @@ const card: Card = {
 				es: "Si el Pokémon Defensor es un Pokémon Darkness o Fairy, no puede atacar durante el próximo turno de tu rival.",
 				it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può attaccare se è un Pokémon Darkness o Fairy.",
 				pt: "Se o Pokémon Defensor for um Pokémon Darkness ou Fairy, ele não poderá atacar durante a próxima vez de jogar do seu oponente.",
-				de: "Wenn das Verteidigende Pokémon ein Darkness- oder Fairy-Pokémon ist, kann es während des nächsten Zuges deines Gegners nicht angreifen."
+				de: "Wenn das Verteidigende Pokémon ein {D}- oder {FAIRY}-Pokémon ist, kann es während des nächsten Zuges deines Gegners nicht angreifen."
 			},
 			damage: 70,
 
@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It's hypothesized that it's monitoring those who destroy the ecosystem from deep in the cave where it lives.",
+		de: "Es wird gemutmaßt, dass es von seiner Höhle aus all jene beobachtet, die dem Ökosystem Schaden zufügen."
 	},
 
 	thirdParty: {

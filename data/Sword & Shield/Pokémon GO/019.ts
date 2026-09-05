@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "Slow-witted and oblivious, this Pokémon won't feel any pain if its tail gets eaten. It won't notice when its tail grows back, either.",
+		de: "Es ist so träge und unempfindlich, dass es keinen Schmerz verspürt, wenn seine Rute gegessen wird. Es bemerkt nicht einmal, dass sie nachwächst."
 	},
 
 	

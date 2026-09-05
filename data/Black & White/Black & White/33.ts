@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 10,
@@ -50,6 +51,7 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				de: "Aquaknarre"
 			},
 
 			damage: 30,
@@ -68,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "It does not thrive in dry environments. It keeps itself damp by shooting water stored in its head tuft from its tail.",
+		de: "Es wringt Wasser aus dem Büschel auf seinem Kopf und bespritzt damit Gegner. Kein Pokémon für trockene Gegenden."
 	},
 
 	thirdParty: {

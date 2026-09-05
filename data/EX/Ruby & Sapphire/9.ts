@@ -4,7 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Manectric",
-		fr: "Elecsprint",
+		fr: "Élecsprint",
 		de: "Voltenso"
 	},
 
@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Electrike",
-		fr: "Dynavolt"
+		fr: "Dynavolt",
+		de: "Frizelbliz"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Attract Current",
 				fr: "Courant électrique",
-				de: "Attract Current"
+				de: "Stromanziehung"
 			},
 			effect: {
 				en: "Search your deck for a Lightning Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck une carte Énergie  et attachez-la à un de vos Pokémon. Mélangez ensuite votre deck.",
-				de: "Search your deck for a  Energy card amd attach it to 1 of your Pokémon. Shuffle your deck afterward."
+				fr: "Choisissez dans votre deck une carte Énergie {L} et attachez-la à un de vos Pokémon. Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach einer {L}-Energiekarte und lege sie an 1 deiner Pokémon an. Mische dein Deck danach."
 			},
 			damage: 10,
 
@@ -55,12 +56,12 @@ const card: Card = {
 			name: {
 				en: "Thunder Jolt",
 				fr: "Secousse tonnerre",
-				de: "Thunder Jolt"
+				de: "Erschütternder Donner"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Manectric does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, Elecsprint s'inflige 10 dégâts.",
-				de: "Flip a coin. If tails, Manectric does 10 damage to itself."
+				de: "Wirf eine Münze. Bei „Zahl“ fügt sich Voltenso selbst 10 Schadenspunkte zu."
 			},
 			damage: 50,
 

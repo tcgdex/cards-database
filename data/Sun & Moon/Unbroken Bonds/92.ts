@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging Tackles.",
+		de: "Stark, aber nicht allzu klug, kann dieses Pokémon sogar Hochhäuser mit seinem Tackle-Angriff zum Einsturz bringen."
 	},
 
 	thirdParty: {

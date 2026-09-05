@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Si el Pokémon al que está unida esta carta queda Fuera de Combate por un ataque, pon ese Pokémon en tu mano. (Descarta todas las cartas unidas a ese Pokémon.)",
 		it: "Se il Pokémon a cui è assegnata questa carta viene messo K.O. dal danno di un attacco, riprendi in mano quel Pokémon, ma scarta tutte le carte assegnategli.",
 		pt: "Se o Pokémon ao qual esse card está ligado for Nocauteado por danos de um ataque, coloque esse Pokémon em sua mão. (Descarte todos os cards ligados a esse Pokémon.)",
-		de: "Nimm das Pokémon, an das diese Karte angelegt ist, auf die Hand, wenn es durch Schaden eines Angriffs kampfunfähig wird. (Lege alle an dieses Pokémon angelegten Karten auf deinen Ablagestapel.)"
+		de: "Lege lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Nimm das Pokémon, an das diese Karte angelegt ist, auf die Hand, wenn es durch Schaden eines Angriffs kampfunfähig wird. (Lege alle an dieses Pokémon angelegten Karten auf deinen Ablagestapel.) Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

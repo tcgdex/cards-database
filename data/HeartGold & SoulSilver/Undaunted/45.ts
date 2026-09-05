@@ -50,7 +50,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. If either of them is tails, this attack does nothing.",
 				fr: "Lancez 2 pièces. Si vous obtenez un côté pile, cette attaque ne fait rien.",
-				de: "Wirf 2 Münzen. Wenn eine oder beide Münzen \"Zahl\" gezeigt haben, hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 2 Münzen. Wenn eine oder beide Münzen „Zahl“ gezeigt haben, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 50,
 
@@ -74,7 +74,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "By alternately raising and lowering its two heads, it balances itself to be more stable while running."
+		en: "By alternately raising and lowering its two heads, it balances itself to be more stable while running.",
+		de: "Um beim Rennen nicht das Gleichgewicht zu verlieren, streckt es seine Köpfe abwechselnd voraus."
 	},
 
 	variants: [

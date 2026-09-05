@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "When it feels threatened, it draws its limbs inside its shell and sprays water from its mouth.",
+		de: "Fühlt es sich bedroht, verkriecht es sich in seinen Panzer und spuckt Wasser aus seinem Maul."
 	},
 
 	variants: [

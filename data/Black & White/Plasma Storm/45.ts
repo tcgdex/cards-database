@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Magnemite",
 		fr: "Magnéti",
+		de: "Magnetilo"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Knock Away",
 				fr: "Asticotage",
+				de: "Zurückschlagen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -63,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "The stronger electromagnetic waves from the three linked Magnemite are enough to dry out surrounding moisture.",
+		de: "Die vereinten elektromagnetischen Wellen von 3 Magnetilo bringen alles Wasser in der Umgebung zum Verdampfen."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pidove",
 		fr: "Poichigeon",
+		de: "Dusselgurr"
 	},
 
 	stage: "Stage1",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Many people believe that, deep in the forest where Tranquill live, there is a peaceful place where there is no war.",
+		de: "Viele Leute glauben, dass es tief in seinem heimatlichen Wald ein Land der Harmonie gibt, wo man keine Kriege kennt."
 	},
 
 	thirdParty: {

@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Los ataques de los Pokémon del rival hacen 20 puntos de daño menos a todos los Pokémon que tengan alguna Energía Water o Fighting unida a ellos (tanto tuyos como de tu rival) (después de aplicar Debilidad y Resistencia).",
 		it: "Tutti i Pokémon che hanno delle Energie Water o Fighting assegnate, sia tuoi che del tuo avversario, subiscono 20 danni in meno dagli attacchi dei Pokémon dell'avversario, dopo aver applicato debolezza e resistenza.",
 		pt: "Todos os Pokémon que tiverem alguma Energia Water ou Fighting ligadas a eles (seus e do seu oponente) recebem 20 pontos de dano a menos de ataques dos Pokémon do oponente (depois de aplicar Fraqueza e Resistência).",
-		de: "Allen Pokémon (deinen und denen deines Gegners), an die mindestens 1 Water- oder Fighting-Energie angelegt ist, werden durch Attacken von Pokémon des Gegners 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+		de: "Allen Pokémon (deinen und denen deines Gegners), an die mindestens 1 {W}- oder {F}-Energie angelegt ist, werden durch Attacken von Pokémon des Gegners 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden). Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

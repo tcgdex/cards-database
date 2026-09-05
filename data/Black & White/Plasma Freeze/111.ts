@@ -34,7 +34,7 @@ const card: Card = {
 				es: "Conectar Poder",
 				it: "Collegaforza",
 				pt: "Conexão de Poder",
-				de: "Volltreffer"
+				de: "Kraftkombo"
 			},
 			effect: {
 				en: "Your Team Plasma Pokémon’s attacks (excluding Deoxys-EX) do 10 more damage to the Active Pokémon (before applying Weakness and Resistance).",
@@ -42,7 +42,7 @@ const card: Card = {
 				es: "Los ataques de tus Pokémon del Equipo Plasma (excepto Deoxys-EX) hacen 10 puntos de daño más a los Pokémon Activos (antes de aplicar Debilidad y Resistencia).",
 				it: "Gli attacchi dei tuoi Pokémon Team Plasma (eccetto Deoxys-EX) infliggono 10 danni in più al Pokémon attivo, prima di aver applicato debolezza e resistenza.",
 				pt: "Os ataques dos seus Pokémon da Equipe Plasma (exceto Deoxys-EX) causam 10 de danos adicionais ao Pokémon Ativo (antes da aplicação de Fraqueza e Resistência).",
-				de: "Die Angriffe deiner Team-Plasma-Pokémon (mit Ausnahme von Deoxys-EX) fügen den Aktiven Pokémon 10 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+				de: "Die Angriffe deiner Team Plasma-Pokémon (mit Ausnahme von Deoxys-EX) fügen den Aktiven Pokémon 10 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 		},
 	],
@@ -55,10 +55,12 @@ const card: Card = {
 			name: {
 				en: "Helix Force",
 				fr: "Force Spirale",
+				de: "Helixkraft"
 			},
 			effect: {
 				en: "If this Pokémon has any Plasma Energy attached to it, this attack does 30 more damage for each Energy attached to the Defending Pokémon.",
 				fr: "Si de l'Énergie Plasma est attachée à ce Pokémon, cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
+				de: "Wenn an dieses Pokémon bereits Plasma-Energie angelegt ist, fügt dieser Angriff 30 weitere Schadenspunkte für jede an das Verteidigende Pokémon angelegte Energie zu."
 			},
 			damage: 30,
 

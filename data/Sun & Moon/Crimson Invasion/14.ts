@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Numel",
 		fr: "Chamallot",
+		de: "Camaub"
 	},
 
 	stage: "Stage1",
@@ -98,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "The volcanoes on its back have a major eruption every 10 years—or whenever it becomes really angry.",
+		de: "Seine Vulkanhöcker brechen nur alle zehn Jahre aus oder wenn es richtig wütend ist."
 	},
 
 	thirdParty: {

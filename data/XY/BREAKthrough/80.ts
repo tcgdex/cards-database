@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "If it smells something enticing, it dashes off headlong to find the source of the aroma.",
+		de: "Wenn es etwas Vielversprechendes erschnuppert, dann stürzt es in Windeseile darauf zu."
 	},
 
 	thirdParty: {

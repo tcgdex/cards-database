@@ -27,10 +27,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Nap"
+				en: "Nap",
+				de: "Nickerchen"
 			},
 			effect: {
-				en: "Heal 20 damage from this Pokémon."
+				en: "Heal 20 damage from this Pokémon.",
+				de: "Heile 20 Schadenspunkte bei diesem Pokémon."
 			}
 		},
 		{
@@ -39,7 +41,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Gnaw"
+				en: "Gnaw",
+				de: "Nagen"
 			},
 			damage: 20
 		},

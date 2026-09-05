@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "Although it's popular with young people, Granbull is timid and sensitive, so it's totally incompetent as a watchdog.",
+		de: "Es ist bei jungen Leuten sehr beliebt. Aufgrund seines feigen und sensiblen Charakters ist es als Wache allerdings völlig ungeeignet."
 	},
 
 	variants: [

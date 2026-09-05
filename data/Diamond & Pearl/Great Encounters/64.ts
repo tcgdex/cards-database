@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -70,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "It makes a single pearl during its lifetime. The pearl is said to amplify psychic power.",
+		de: "In seinem Leben erschafft es eine einzige Perle. Diese soll Psycho-Kräfte verstärken."
 	},
 
 	thirdParty: {

@@ -11,12 +11,16 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576743,
+				tcgplayer: 248731
+			}
+		},
+	],
 
 	name: {
 		en: "Greninja ☆",
@@ -72,11 +76,7 @@ const card: Card = {
 		}
 	}],
 
-	retreat: 1,
-
-	thirdParty: {
-		tcgplayer: 248731
-	}
+	retreat: 1
 }
 
 export default card

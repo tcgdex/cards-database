@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shuppet",
-		fr: "Polichombr"
+		fr: "Polichombr",
+		de: "Shuppet"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, choose 1 Energy card attached to 1 of your opponent's Pokémon and put it in the Lost Zone.",
 				fr: "Lancez une pièce. Si c’est face, choisissez une carte Énergie attachée à l’un des Pokémon de votre adversaire et placez-la dans la Zone Perdue.",
-				de: "Wirf eine Münze. Wähle bei \"Kopf\" 1 an 1 Pokémon deines Gegners angelegte Energiekarte und lege sie ins Nirgendwo."
+				de: "Wirf eine Münze. Wähle bei „Kopf“ 1 an 1 Pokémon deines Gegners angelegte Energiekarte und lege sie ins Nirgendwo."
 			},
 
 		},
@@ -82,7 +83,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon developed from an abandoned doll that amassed a grudge. It is seen in dark alleys."
+		en: "This Pokémon developed from an abandoned doll that amassed a grudge. It is seen in dark alleys.",
+		de: "Eine weggeworfene Puppe, die nun ganz von Hass durchdrungen ist. Man findet es in dunklen Gassen."
 	},
 
 	variants: [

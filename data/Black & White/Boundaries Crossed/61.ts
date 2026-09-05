@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Confuse Ray",
 				fr: "Onde Folie",
+				de: "Konfustrahl"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
 				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 
 		},
@@ -56,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "It loves the crying of children. It startles bad kids by passing through walls and making them cry.",
+		de: "Es mag das Weinen von Kindern. Erschreckt gemeine Kinder, indem es durch Wände geht."
 	},
 
 	thirdParty: {

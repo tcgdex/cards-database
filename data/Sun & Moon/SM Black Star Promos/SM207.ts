@@ -83,6 +83,16 @@ const card: Card = {
 	description: {
 		en: "It's so popular with the elderly that there's a magazine devoted to this Pokémon. Fans obsess over the particular length and angle of its arms.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 377535,
+				tcgplayer: 199488
+			}
+		}
+	],
 }
 
 export default card

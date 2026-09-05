@@ -96,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "This ancient bug Pokémon was altered by Team Plasma. They upgraded the cannon on its back.",
+		de: "Ein von Team Plasma modifiziertes Käfer-Pokémon aus dem Altertum. Die Kanone auf seinem Rücken ist nun noch stärker."
 	},
 
 	thirdParty: {

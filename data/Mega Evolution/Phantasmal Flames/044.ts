@@ -69,6 +69,7 @@ const card: Card = {
 
 	description: {
 		en: "Desserts that Alcremie have decorated with their cream have a rich, sweet flavor and bring happiness to all who eat them.",
+		de: "Von Pokusan verzierte Desserts haben solch eine vollmundige Süße, dass jeder glücklich wird, der davon kostet."
 	},
 
 	illustrator: "Narumi Sato",

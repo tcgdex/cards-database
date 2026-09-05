@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Luxio",
 		fr: "Luxio",
+		de: "Luxio"
 	},
 
 	stage: "Stage2",
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Move all Lightning Energy attached to Luxray to 1 of your Benched Pokémon. (Ignore this effect if you don't have any Benched Pokémon.)",
 				fr: "Déplacez toutes les Énergies Lightning attachées à Luxray sur 1 de vos Pokémon de Banc. (Ignorez cet effet si vous n'avez pas de Pokémon de Banc.)",
-				de: "Entferne alle an Luxtra angelegten -Energien und lege sie an 1 Pokémon auf deiner Bank an. (Dieser Effekt hat keine Auswirkungen, wenn du keine Pokémon auf der Bank hast.)"
+				de: "Entferne alle an Luxtra angelegten {L}-Energien und lege sie an 1 Pokémon auf deiner Bank an. (Dieser Effekt hat keine Auswirkungen, wenn du keine Pokémon auf der Bank hast.)"
 			},
 			damage: 80,
 
@@ -87,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It has eyes that can see through anything. It spots and captures prey hiding behind objects.",
+		de: "Mit seinen Augen kann es durch alles hindurch sehen. So findet es auch Beute, die sich versteckt hat."
 	},
 
 	thirdParty: {

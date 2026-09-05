@@ -57,14 +57,16 @@ const card: Card = {
 			subtype: "shadowless",
 			stamp: ["1st-edition"],
 			thirdParty: {
-				tcgplayer: 107023
+				tcgplayer: 107023,
+				cardmarket: 660202
 			}
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107023
+				tcgplayer: 107023,
+				cardmarket: 660202
 			}
 		},
 		{
@@ -84,7 +86,8 @@ const card: Card = {
 	description: {
 		en: "Long considered a mythical Pokémon until recently, when a small colony was found living underwater.",
 		fr: "Longtemps considéré comme légendaire, une colonie fut découverte dans les océans.",
-		it: "Da lungo tempo considerato un Pokémon mitologico fino a quando, recentemente, ne è stata rinvenuta una piccola colonia abitante sott'acqua."
+		it: "Da lungo tempo considerato un Pokémon mitologico fino a quando, recentemente, ne è stata rinvenuta una piccola colonia abitante sott'acqua.",
+		de: "Lange Zeit nur als Fabelwesen angesehen, wurde dieses Pokémon kürzlich in einer Unterwasserkolonie entdeckt."
 	}
 }
 

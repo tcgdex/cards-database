@@ -93,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "It sleeps under shallow ocean waters during the day, then looks for food at night when it's colder.",
+		de: "Des Nachts, wenn die Wassertemperatur fällt, schwimmt es auf der Suche nach Nahrung umher. Tagsüber schläft es im seichten Meereswasser."
 	},
 
 	illustrator: "satoma",

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Une 1 carta de Energía Básica de tu mano a 1 de tus Pokémon Grass, Fire o Water de Fase 2.",
 		it: "Assegna a uno dei tuoi Pokémon Grass, Fire o Water di Fase 2 una carta Energia base dalla tua mano.",
 		pt: "Ligue 1 carta de Energia básica da sua mão a 1 dos seus Pokémon Grass, Fire, ou Water Estágio 2.",
-		de: "Lege 1 Basis-Energiekarte aus deiner Hand an 1 deiner Grass-, Fire- oder Water-Phase-2-Pokémon an."
+		de: "Lege 1 Basis-Energiekarte aus deiner Hand an 1 deiner {G}-, {R}-, {W}-Phase-2-Pokémon an. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

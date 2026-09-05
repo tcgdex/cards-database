@@ -16,10 +16,6 @@ const card: Card = {
 	hp: 170,
 	types: ["Metal"],
 
-	description: {
-		en: "Its two sets of jaws thrash about violently as if\nthey each had a will of their own. One gnash from\nthem can turn a boulder to dust."
-	},
-
 	stage: "Basic",
 	suffix: "EX",
 

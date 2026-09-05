@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes curar 20 puntos de daño a 1 de tus Pokémon que tenga alguna Energía Water unida a él.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi curare da 20 danni uno dei tuoi Pokémon che ha Energie Water assegnate.",
 				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode curar 20 pontos de dano de 1 dos seus Pokémon que tiver alguma Energia Water ligada a ele.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 20 Schadenspunkte bei 1 deiner Pokémon heilen, an das mindestens 1 Water-Energie angelegt ist."
+				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 20 Schadenspunkte bei 1 deiner Pokémon heilen, an das mindestens 1 {W}-Energie angelegt ist."
 			},
 		},
 	],
@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "It is born with a wondrous power that lets it bond with any kind of Pokémon.",
+		de: "Es wird mit einer wundersamen Kraft geboren, die eine Bindung zu jedem anderen Pokémon möglich macht."
 	},
 
 	thirdParty: {

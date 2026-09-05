@@ -18,6 +18,7 @@ const card: Card = {
 	illustrator: "Naoki Saito",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
+	dexId: [35],
 	hp: 190,
 	types: ["Psychic"],
 	stage: "Basic",

@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "Vivillon with many different patterns are found all over the world. These patterns are affected by the climate of their habitat.",
+		de: "Vivillon kommen weltweit mit den unterschiedlichsten Musterungen vor. Das Klima ihres Habitats hat Einfluss auf ihre Flügelmusterung."
 	},
 
 	thirdParty: {

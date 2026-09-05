@@ -74,7 +74,7 @@ const card: Card = {
 				es: "Lanza 3 monedas. Este ataque hace 50 puntos de daño por cada cara. Este Pokémon pasa a estar Confundido.",
 				it: "Lancia tre volte una moneta. Questo attacco infligge 50 danni ogni volta che esce testa. Questo Pokémon viene confuso.",
 				pt: "Jogue 3 moedas. Esse ataque causa 50 de danos vezes o número de caras. Este Pokémon agora está Confuso.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu. Dieses Pokémon ist jetzt verwirrt."
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl „Kopf“ zu. Dieses Pokémon ist jetzt verwirrt."
 			},
 			damage: "50×",
 
@@ -99,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "It pulls up its shed skin to protect itself while it kicks. The bigger the crest, the more respected it is.",
+		de: "Es wehrt Angriffe mit seiner alten Haut ab und kontert mit Tritten. Sein Ego entspricht der Größe seines Kamms."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Honedge",
 		fr: "Monorpale",
+		de: "Gramokles"
 	},
 
 	stage: "Stage1",
@@ -77,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "When Honedge evolves, it divides into two swords, which cooperate via telepathy to coordinate attacks and slash their enemies to ribbons.",
+		de: "Bei seiner Entwicklung hat es sich in zwei Schwerter geteilt. Es begegnet seinen Gegnern mit Attacken, die es mittels Telepathie koordiniert."
 	},
 
 	thirdParty: {

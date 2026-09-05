@@ -54,7 +54,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "This hungry Pokémon swallows Arrokuda whole. Occasionally, it makes a mistake and tries to swallow a Pokémon other than its preferred prey."
+		en: "This hungry Pokémon swallows Arrokuda whole. Occasionally, it makes a mistake and tries to swallow a Pokémon other than its preferred prey.",
+		de: "Es ist ein Vielfraß, der seine Beute, Pikuda, im Ganzen verschlingt. Manchmal erwischt es jedoch irrtümlicherweise ein anderes Pokémon."
 	},
 
 	variants: [

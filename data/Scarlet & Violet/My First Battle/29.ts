@@ -13,9 +13,6 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 30,
 	types: ["Water"],
-	evolveFrom: {
-		en: "Magikarp",
-	},
 	stage: "Basic",
 
 	attacks: [{

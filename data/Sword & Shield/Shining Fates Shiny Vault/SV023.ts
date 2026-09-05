@@ -53,7 +53,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It lived in snowy areas for so long that its fire sac cooled off and atrophied. It now has an organ that generates cold instead."
+		en: "It lived in snowy areas for so long that its fire sac cooled off and atrophied. It now has an organ that generates cold instead.",
+		de: "Seit es in kälteren Gefilden lebt, hat sich sein innerer Flammensack zurückgebildet. Stattdessen wuchs ein Organ heran, das eiskalte Luft erzeugt."
 	},
 
 	variants: [

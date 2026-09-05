@@ -69,20 +69,20 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576734,
+				tcgplayer: 251091
+			}
+		},
+	],
 
 	hp: 160,
 	types: ["Metal"],
-	retreat: 2,
-
-	thirdParty: {
-		cardmarket: 491179
-	}
+	retreat: 2
 }
 
 export default card

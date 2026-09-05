@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wooper",
-		fr: "Axoloto"
+		fr: "Axoloto",
+		de: "Felino"
 	},
 
 	stage: "Stage1",
@@ -83,7 +84,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Due to its relaxed and carefree attitude, it often bumps its head on boulders and boat hulls as it swims."
+		en: "Due to its relaxed and carefree attitude, it often bumps its head on boulders and boat hulls as it swims.",
+		de: "Aufgrund seiner sorglosen Einstellung rammt es seinen Kopf oft gegen Felsen oder Schiffsrümpfe."
 	},
 
 	variants: [

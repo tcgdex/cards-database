@@ -22,7 +22,6 @@ import zhtw from '../../../generated/zh-tw/cards.json'
 import { getCardMarketPrice } from '../../libs/providers/cardmarket'
 import { getTCGPlayerPrice } from '../../libs/providers/tcgplayer'
 import { executeQuery, type Query } from '../../libs/QueryEngine/filter'
-import { deepOmit } from "../../util";
 
 // any is CompiledCard that is currently not mapped correctly
 const list: Record<`${string | any}${SupportedLanguages | string}`, any> = {}
@@ -149,7 +148,7 @@ async function loadCard(lang: SupportedLanguages, id: string): Promise<SDKCard |
 	// console.timeEnd('loading providers')
 	// console.time('remapping card')
 	const res = {
-		...deepOmit(card, 'thirdParty'),
+		...card,
 		pricing: {
 			cardmarket: cardmarket,
 			tcgplayer: tcgplayer

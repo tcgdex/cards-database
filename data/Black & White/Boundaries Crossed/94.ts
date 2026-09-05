@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Scyther",
 		fr: "Insécateur",
+		de: "Sichlor"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Steel Slash",
 				fr: "Tranche Acier",
+				de: "Stahlschlitzer"
 			},
 			effect: {
 				en: "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Pokémon-EX.",
 				fr: "Pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques de Pokémon-EX.",
+				de: "Verhindere allen Schaden, der diesem Pokémon während des nächsten Zuges deines Gegners durch Angriffe von Pokémon-EX zugefügt würde."
 			},
 			damage: 40,
 
@@ -59,10 +62,12 @@ const card: Card = {
 			name: {
 				en: "Slashing Strike",
 				fr: "Coup Déchirant",
+				de: "Schlitzender Schlag"
 			},
 			effect: {
 				en: "This Pokémon can't use Slashing Strike during your next turn.",
 				fr: "Ce Pokémon ne peut pas utiliser Coup Déchirant pendant votre prochain tour.",
+				de: "Dieses Pokémon kann Schlitzender Schlag während deines nächsten Zuges nicht einsetzen."
 			},
 			damage: 100,
 
@@ -87,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "It raises its pincers with eyelike markings for intimidation. It also swings them down dangerously.",
+		de: "Setzt seine mit Markierungen versehenen Scheren ein, um Gegner einzuschüchtern."
 	},
 
 	thirdParty: {

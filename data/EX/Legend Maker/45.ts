@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Tentacool",
-		fr: "Tentacool"
+		fr: "Tentacool",
+		de: "Tentacha"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Reactive Shield",
 				fr: "Bouclier réactif",
-				de: "Reactive Shield"
+				de: "Reaktiver Schild"
 			},
 			effect: {
 				en: "As long as Tentacruel has any React Energy cards attached to it, prevent all effects, including damage, done to any of your Tentacruel in play by attacks from your opponent's Pokémon-ex.",
 				fr: "Tant que Tentacruel possède des cartes Énergie réaction, prévenez tous les effets, dégâts inclus, infligés par des attaques de Pokémon-ex de votre adversaire aux Tentacruels que vous avez en jeu",
-				de: "As long as Tentacruel has any React Energy cards attached to it, prevent all effects, including damage, done to any of your Tentacruel in play by attacks from your opponent's Pokémon-ex."
+				de: "Solange an Tentoxa mindestens eine Reaktions-Energiekarte angelegt ist, verhindere alle Effekte, inklusive Schaden, die deinen Tentoxa im Spiel durch Angriffe der Pokémon-ex deines Gegners zugefügt werden."
 			},
 		},
 	],
@@ -54,12 +55,12 @@ const card: Card = {
 			name: {
 				en: "Water Arrow",
 				fr: "Flèche d'eau",
-				de: "Water Arrow"
+				de: "Wasserpfeil"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -71,12 +72,12 @@ const card: Card = {
 			name: {
 				en: "Fury Strikes",
 				fr: "Attaques furieuses",
-				de: "Futy Strikes"
+				de: "Zornschläge"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Flip 3 coins. This attack does 20 damage times the number of heads."
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20x",
 

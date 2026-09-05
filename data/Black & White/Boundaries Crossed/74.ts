@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Whirlipede",
 		fr: "Scobolide",
+		de: "Rollum"
 	},
 
 	stage: "Stage2",
@@ -66,10 +67,12 @@ const card: Card = {
 			name: {
 				en: "Venoshock",
 				fr: "Choc Venin",
+				de: "Giftschock"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Poisoned, this attack does 40 more damage.",
 				fr: "Si le Pokémon Défenseur est Empoisonné, cette attaque inflige 40 dégâts supplémentaires.",
+				de: "Wenn das Verteidigende Pokémon vergiftet ist, fügt dieser Angriff 40 weitere Schadenspunkte zu."
 			},
 			damage: 80,
 
@@ -87,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "It clasps its prey with the claws on its neck until it stops moving. Then it finishes it off with deadly poison.",
+		de: "Lähmt seine Beute, indem es sie mit den Zacken an seinem Hals aufspießt. Mit einer Ladung Gift gibt es ihr den Rest."
 	},
 
 	thirdParty: {

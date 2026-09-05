@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon that lives in warm seas. It inflates the flotation sac on its head to drift and search for food.",
+		de: "Es lebt in warmen Meeren. Geht es auf Nahrungssuche, füllt es den Beutel auf seinem Kopf mit Luft."
 	},
 
 	thirdParty: {

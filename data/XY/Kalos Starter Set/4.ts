@@ -93,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "It relies on its sturdy shell to deflect predators' attacks. It counterattacks with its sharp quills.",
+		de: "Der Panzer, der seinen Körper umgibt, bietet ihm Schutz vor Angreifern und straft direkte Angriffe postwendend mit spitzen Stacheln ab."
 	},
 
 	thirdParty: {

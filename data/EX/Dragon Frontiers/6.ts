@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Nidoking δ",
 		fr: "Nidoking δ",
-		de: "Nidoking"
+		de: "Nidoking δ"
 	},
 
 	illustrator: "Mitsuhiro Arita",

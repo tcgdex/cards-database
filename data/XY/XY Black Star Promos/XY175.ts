@@ -30,7 +30,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Prevent all effects of your opponent's attacks, except damage, done to each of your Pokémon that has any Metal Energy attached to it. (Existing effects are not removed.)",
-				fr: "Évitez tous les effets des attaques de votre adversaire, excepté les dégâts, infligés à chacun de vos Pokémon auquel de l'Énergie  est attachée. (Les effets déjà en action ne sont pas retirés.)"
+				fr: "Évitez tous les effets des attaques de votre adversaire, excepté les dégâts, infligés à chacun de vos Pokémon auquel de l'Énergie {M} est attachée. (Les effets déjà en action ne sont pas retirés.)"
 			},
 		},
 	],

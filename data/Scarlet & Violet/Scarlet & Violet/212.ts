@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ralts",
-		fr: "Tarsal"
+		fr: "Tarsal",
+		de: "Trasla"
 	},
 
 	stage: "Stage1",
@@ -88,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a psychic power that enables it to distort the space around it and see into the future.",
+		de: "Seine Psycho-Kräfte erlauben es ihm, den Raum um sich selbst zu verformen und so in die Zukunft zu sehen."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dewpider",
 		fr: "Araqua",
+		de: "Araqua"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Evita todo el daño infligido a este Pokémon por ataques de los Pokémon Fire de tu rival.",
 				it: "Previeni tutti i danni da attacchi inflitti a questo Pokémon dai Pokémon Fire del tuo avversario.",
 				pt: "Previne todo o dano causado a este Pokémon por ataques dos Pokémon Fire do seu oponente.",
-				de: "Verhindere allen Schaden, der diesem Pokémon durch Attacken von Fire-Pokémon deines Gegners zugefügt wird."
+				de: "Verhindere allen Schaden, der diesem Pokémon durch Attacken von {R}-Pokémon deines Gegners zugefügt wird."
 			},
 		},
 	],
@@ -87,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It delivers headbutts with the water bubble on its head. Small Pokémon get sucked into the bubble, where they drown.",
+		de: "Es verteilt mit seiner Wasserblase Kopfstöße. Kleine Pokémon werden dabei hineingezogen und ertrinken."
 	},
 
 	thirdParty: {

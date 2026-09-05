@@ -81,7 +81,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Este ataque hace 50 puntos de daño por cada cara.",
 				it: "Lancia due volte una moneta. Questo attacco infligge 50 danni ogni volta che esce testa.",
 				pt: "Jogue 2 moedas. Este ataque causa 50 de danos vezes o número de caras.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "50×",
 
@@ -99,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "To eat, it deftly shucks nuts with its two tails. It rarely uses its arms now.",
+		de: "Wenn es hungrig ist, knackt es Nüsse mit seinen beiden Schweifen. Nur selten verwendet es die Arme."
 	},
 
 	thirdParty: {

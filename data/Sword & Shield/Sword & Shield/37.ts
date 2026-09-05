@@ -78,7 +78,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot."
+		en: "It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot.",
+		de: "Mit dem entzündlichen Gas in seinem Körper erzeugt es Hitze. Die gelben Stellen an seinem Bauch werden besonders heiß."
 	},
 
 	dexId: [850],

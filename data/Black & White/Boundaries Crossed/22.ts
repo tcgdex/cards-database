@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Numel",
 		fr: "Chamallot",
+		de: "Camaub"
 	},
 
 	stage: "Stage1",
@@ -43,10 +44,12 @@ const card: Card = {
 			name: {
 				en: "Fire Shard",
 				fr: "Écharde de Feu",
+				de: "Feuerscherben"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned. Flip a coin. If heads, the Defending Pokémon is also Paralyzed.",
 				fr: "Le Pokémon Défenseur est maintenant Brûlé. Lancez une pièce. Si c'est face, le Pokémon Défenseur est aussi Paralysé.",
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt. Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt auch paralysiert."
 			},
 			damage: 60,
 
@@ -61,10 +64,12 @@ const card: Card = {
 			name: {
 				en: "Flamethrower",
 				fr: "Lance-Flamme",
+				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard an Energy attached to this Pokémon.",
 				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 80,
 
@@ -82,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "The volcanoes on its back have a major eruption every 10 years–or whenever it becomes really angry.",
+		de: "Seine Vulkanhöcker brechen nur alle zehn Jahre aus oder wenn es richtig wütend ist."
 	},
 
 	thirdParty: {

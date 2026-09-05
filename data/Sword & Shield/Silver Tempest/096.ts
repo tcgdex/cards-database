@@ -78,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "After evolution, this Pokémon emerged onto land. Its lower body has become stronger, and blows from its tail are devastating.",
+		de: "Nach seiner Entwicklung ging es an Land, sodass sich sein Unterkörper verstärkte. Ein Hieb seines Schweifs besitzt gewaltige Zerstörungskraft."
 	},
 
 	variants: [

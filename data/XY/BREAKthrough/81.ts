@@ -82,7 +82,7 @@ const card: Card = {
 				es: "Este ataque hace 10 puntos de daño más por cada Colorless en el Coste de Retirada de tus Swinub, Piloswine y Mamoswine.",
 				it: "Questo attacco infligge 10 danni in più per ogni Colorless nel costo di ritirata dei tuoi Swinub, Piloswine e Mamoswine.",
 				pt: "Este ataque causa 10 de danos adicionais para cada Colorless no Custo para Recuar dos seus Swinub, Piloswine e Mamoswine.",
-				de: "Dieser Angriff fügt 10 weitere Schadenspunkte für jedes Colorless-Symbol in den Rückzugskosten deiner Quiekel, Keifel und Mamutel zu."
+				de: "Dieser Angriff fügt 10 weitere Schadenspunkte für jedes {C}-Symbol in den Rückzugskosten deiner Quiekel, Keifel und Mamutel zu."
 			},
 			damage: "30+",
 
@@ -100,6 +100,7 @@ const card: Card = {
 
 	description: {
 		en: "Because the long hair all over its body obscures its sight, it just keeps charging repeatedly.",
+		de: "Da sein haariges Fell seine Sicht enorm beeinträchtigt, greift es ständig an, um den Gegner zu treffen."
 	},
 
 	thirdParty: {

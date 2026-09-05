@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Yuu Nishida",
 
 	description: {
-		en: "The six of them work together as one Pokémon. Teamwork is also their battle strategy, and they constantly change their formation as they fight."
+		en: "The six of them work together as one Pokémon. Teamwork is also their battle strategy, and they constantly change their formation as they fight.",
+		de: "Sie bilden zu sechst ein Pokémon. Es kann im Kampf seine Formation nach Belieben ändern und legt bemerkenswerte Teamarbeit an den Tag."
 	},
 
 	attacks: [{

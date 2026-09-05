@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Blitzle",
 		fr: "Zébibron",
+		de: "Elezeba"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Quick Attack",
 				fr: "Vive-Attaque",
+				de: "Ruckzuckhieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -58,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Shock Bolt",
 				fr: "Choc'Éclair",
+				de: "Schock-Blitz"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard all Lightning Energy attached to this Pokémon.",
 				fr: "Lancez une pièce. Si c'est pile, défaussez toutes les Énergies Lightning attachées à ce Pokémon.",
+				de: "Wirf 1 Münze. Lege bei „Zahl“ alle an dieses Pokémon angelegte {L}-Energie auf deinen Ablagestapel."
 			},
 			damage: 90,
 
@@ -79,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates.",
+		de: "Es ist explosiv wie ein Blitz. Galoppiert es mit voller Geschwindigkeit drauflos, kann man Donnerhall vernehmen."
 	},
 
 	thirdParty: {

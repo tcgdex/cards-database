@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Knock Back",
 				fr: "Dégagement",
+				de: "Schlag versetzen"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 20,
 
@@ -54,6 +56,7 @@ const card: Card = {
 			name: {
 				en: "Low Kick",
 				fr: "Balayage",
+				de: "Fußkick"
 			},
 
 			damage: 40,
@@ -72,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "Always carrying squared logs, they help out with construction. As they grow, they carry bigger logs.",
+		de: "Trägt stets einen Holzbalken bei sich und hilft auf Baustellen aus. Nach einer Weile sucht es sich einen größeren Balken."
 	},
 
 	thirdParty: {

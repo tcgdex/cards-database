@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Its actual appearance is unknown. A scholar who saw what was under its rag was overwhelmed by terror and died from the shock.",
+		de: "Niemand weiß, wie es wirklich aussieht. Ein Forscher, der unter seinen Lumpen blickte, soll sich buchstäblich zu Tode erschreckt haben."
 	},
 
 	thirdParty: {

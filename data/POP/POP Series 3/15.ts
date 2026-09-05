@@ -4,7 +4,8 @@ import Set from '../POP Series 3'
 const card: Card = {
 	name: {
 		en: "Marshtomp",
-		fr: "Flobio"
+		fr: "Flobio",
+		de: "Moorabbel"
 	},
 
 	illustrator: "Midori Harada",
@@ -22,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Mudkip",
-		fr: "Gobou"
+		fr: "Gobou",
+		de: "Hydropi"
 	},
 
 	stage: "Stage1",
@@ -34,7 +36,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Mud Slap",
-				fr: "Coud'boue"
+				fr: "Coud'boue",
+				de: "Lehmschelle"
 			},
 
 			damage: 20,
@@ -48,11 +51,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Double-edge",
-				fr: "Damoclès"
+				fr: "Damoclès",
+				de: "Austeiler"
 			},
 			effect: {
 				en: "Marshtomp does 10 damage to itself.",
-				fr: "Flobio s'inflige 10 dégâts."
+				fr: "Flobio s'inflige 10 dégâts.",
+				de: "Moorabbel fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 40,
 

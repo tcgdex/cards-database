@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Bellsprout",
 		fr: "Knofensa",
+		de: "Knofensa"
 	},
 
 	stage: "Stage1",
@@ -75,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon that appears to be a plant. It captures unwary prey by dousing them with a toxic powder.",
+		de: "Ein Pokémon, das wie eine Pflanze aussieht. Es fängt Beute, indem es giftigen Puder darüber verteilt."
 	},
 
 	thirdParty: {

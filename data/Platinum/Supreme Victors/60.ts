@@ -4,7 +4,7 @@ import Set from '../Supreme Victors'
 const card: Card = {
 	name: {
 		en: "Garchomp C",
-		fr: "Carchacrok ",
+		fr: "Carchacrok C",
 		de: "Knakrack C"
 	},
 	illustrator: "kawayoo",

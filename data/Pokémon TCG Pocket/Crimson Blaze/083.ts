@@ -20,10 +20,6 @@ const card: Card = {
 		en: "Ivysaur"
 	},
 
-	description: {
-		en: "In order to support its flower, which has grown\nlarger due to Mega Evolution, its back and legs\nhave become stronger."
-	},
-
 	stage: "Stage2",
 	suffix: "EX",
 

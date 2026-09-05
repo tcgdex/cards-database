@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "When it targets an enemy, it charges furiously while whipping its body with its long tails.",
+		de: "Wenn Tauros Beute ins Visier genommen hat, stürmt es direkt auf sie zu und benutzt seine Schweife als Peitsche, um sich anzutreiben."
 	},
 
 	variants: [

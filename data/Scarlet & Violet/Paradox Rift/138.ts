@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "When attacked, this Pokémon will wield the tendrils on its body like fists and pelt the opponent with a storm of punches.",
+		de: "Wird es angegriffen, setzt es seine Borsten wie Fäuste ein, um damit einen Sturm aus Hieben zu entfesseln."
 	},
 
 	variants: [

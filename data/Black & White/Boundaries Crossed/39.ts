@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Rain Splash",
 				fr: "Pluie Éclaboussante",
+				de: "Regenplatscher"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Seashell Attack",
 				fr: "Carap'Attaque",
+				de: "Seemuschelangriff"
 			},
 
 			damage: 20,
@@ -67,6 +69,7 @@ const card: Card = {
 
 	description: {
 		en: "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing.",
+		de: "Kämpft mit der Muschel auf seinem Bauch. Pariert es einen Angriff, schlägt es sofort mit einer Schnitt-Attacke zurück."
 	},
 
 	thirdParty: {

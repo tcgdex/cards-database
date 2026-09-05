@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Exeggcute",
-		fr: "Noeunoeuf"
+		fr: "Noeunoeuf",
+		de: "Owei"
 	},
 
 	stage: "Stage1",
@@ -57,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin for each Energy attached to Exeggutor. This attack does 40 damage times the number of heads.",
 				fr: "Lancez une pièce pour chaque carte Énergie attachée à Noadkoko. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
-				de: "Wirf für jede an Kokowei angelegte Energie 1 Münze. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf für jede an Kokowei angelegte Energie 1 Münze. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "40×",
 
@@ -74,7 +75,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "If a head drops off, it emits a telepathic call in search of others to form an Exeggcute cluster."
+		en: "If a head drops off, it emits a telepathic call in search of others to form an Exeggcute cluster.",
+		de: "Fällt einer der Köpfe ab, sendet er Telepathiewellen aus, um mit OWEI eine Gruppe zu bilden."
 	},
 
 	variants: [

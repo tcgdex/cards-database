@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Bronzor"
+		en: "Bronzor",
+		de: "Bronzel"
 	},
 
 	stage: "Stage1",
@@ -38,7 +39,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon that has any damage counters on it. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				de: "Wähle 1 Pokémon deines Gegners, auf den bereits mindestens 1 Schadensmarke liegt. Dieser Angriff fügt dem gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Wähle 1 Pokémon deines Gegners, auf dem bereits mindestens 1 Schadensmarke liegt. Dieser Angriff fügt dem gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -78,7 +79,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It brought rains by opening portals to another world. It was revered as a bringer of plentiful harvests."
+		en: "It brought rains by opening portals to another world. It was revered as a bringer of plentiful harvests.",
+		de: "Ihm wurden reiche Ernten zugeschrieben, da es durch Portale in andere Welten Regenfälle brachte."
 	},
 
 	variants: [

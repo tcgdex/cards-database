@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Horn Attack",
 				fr: "Koud'Korne",
+				de: "Hornattacke"
 			},
 
 			damage: 20,
@@ -51,10 +52,12 @@ const card: Card = {
 			name: {
 				en: "Double Stomp",
 				fr: "Double Écrasement",
+				de: "Doppelstampfer"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 30,
 
@@ -72,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "They charge wildly and headbutt everything. Their headbutts have enough destructive force to derail a train.",
+		de: "Rammt seine Gegner ohne Rücksicht auf Verluste mit dem Kopf und vermag damit sogar Züge zum Entgleisen zu bringen."
 	},
 
 	thirdParty: {

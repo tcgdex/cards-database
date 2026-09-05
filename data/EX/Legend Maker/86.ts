@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Dustox ex",
 		fr: "Papinox ex",
-		de: "Pudox ex"
+		de: "Pudox-ex"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cascoon",
-		fr: "Blindalys"
+		fr: "Blindalys",
+		de: "Panekon"
 	},
 
 	suffix: "ex",

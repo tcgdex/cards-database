@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Busca en tu baraja hasta 2 Amaura o Tyrunt, en cualquier combinación, y ponlos en tu Banca. Baraja las cartas de tu baraja después.",
 		it: "Cerca nel tuo mazzo fino a due Amaura o Tyrunt, in qualsiasi combinazione, e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure em seu baralho até 2 Amaura ou Tyrunt em qualquer combinação e coloque-os em seu Banco. Em seguida, embaralhe seus cards.",
-		de: "Durchsuche dein Deck nach einer beliebigen Kombination aus bis zu 2 Amarino oder Balgoras und lege sie auf deine Bank. Mische anschließend dein Deck."
+		de: "Durchsuche dein Deck nach einer beliebigen Kombination aus bis zu 2 Amarino oder Balgoras und lege sie auf deine Bank. Mische anschließend dein Deck. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

@@ -4,7 +4,8 @@ import Set from '../POP Series 1'
 const card: Card = {
 	name: {
 		en: "Rayquaza",
-		fr: "Rayquaza"
+		fr: "Rayquaza",
+		de: "Rayquaza"
 	},
 
 	illustrator: "Katsura Tabata",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Fly",
-				fr: "Vol"
+				fr: "Vol",
+				de: "Fliegen"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of an attack, including damage, done to Rayquaza during your opponent's next turn.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Rayquaza lors du prochain tour de votre adversaire."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Rayquaza lors du prochain tour de votre adversaire.",
+				de: "Wirf 1 Münze. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte von Angriffen (einschließlich Schaden), die Rayquaza zugefügt werden. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 10,
 
@@ -45,7 +48,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Dragon Claw",
-				fr: "Griffe de dragon"
+				fr: "Griffe de dragon",
+				de: "Drachenklaue"
 			},
 
 			damage: 30,

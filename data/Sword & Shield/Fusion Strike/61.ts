@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Saya Tsuruta",
 
 	description: {
-		en: "As it majestically swims, it doesn't care if Remoraid attach to it to scavenge for its leftovers."
+		en: "As it majestically swims, it doesn't care if Remoraid attach to it to scavenge for its leftovers.",
+		de: "Es schwimmt erhaben durch die Meere und duldet dabei etwaige Remoraid, die sich in der Hoffnung auf Futterreste an es heften."
 	},
 
 	attacks: [{

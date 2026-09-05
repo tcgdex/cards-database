@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -49,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Quick Attack",
 				fr: "Vive-Attaque",
+				de: "Ruckzuckhieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -70,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "Using electricity stored in its fur, it stimulates its muscles to heighten its reaction speed.",
+		de: "Die Elektrizität, die es im Fell speichert, nutzt es, um seine Muskeln zu stimulieren."
 	},
 
 	thirdParty: {

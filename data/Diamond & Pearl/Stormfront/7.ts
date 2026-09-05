@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Misdreavus",
 		fr: "Feuforêve",
+		de: "Traunfugil"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Choose up to 4 in any combination of Pokémon Tool cards and Technical Machine cards in play (both yours and your opponent's) and discard them. This attack does 20 damage times the number of cards discarded in this way.",
 				fr: "Choisissez n'importe quelle combinaison de jusqu'à 4 cartes Outil Pokémon et cartes Machine Technique en jeu (les vôtres et celles de votre adversaire) et défaussez-les. Cette attaque inflige 20 dégâts multipliés par le nombre de cartes défaussées de cette façon.",
-				de: "Wähle bis zu 4 Karten in beliebiger Kombination aus Pokémon-, Ausrüstungs- und Technische Maschine-Karten im Spiel (deine und die deines Gegners) und lege sie auf den Ablagestapel. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der auf diese Weise auf den Ablagestapel gelegten Karten zu."
+				de: "Wähle bis zu 4 Karten in beliebiger Kombination aus Pokémon-Ausrüstungs- und Technische Maschine-Karten im Spiel (deine und die deines Gegners) und lege sie auf den Ablagestapel. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der auf diese Weise auf den Ablagestapel gelegten Karten zu."
 			},
 			damage: "20x",
 

@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gastly",
-		fr: "Fantominus"
+		fr: "Fantominus",
+		de: "Nebulak"
 	},
 
 	stage: "Stage1",
@@ -81,7 +82,8 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Its tongue is made of gas. If licked, its victim starts shaking constantly until death eventually comes."
+		en: "Its tongue is made of gas. If licked, its victim starts shaking constantly until death eventually comes.",
+		de: "Seine Zunge ist aus Gas. Leckt es an einem Gegner, zittert er und verliert eventuell das Bewusstsein."
 	},
 
 	variants: [

@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Si este Pokémon es tu Pokémon Activo y queda Fuera de Combate por un ataque de tu rival, lanza 1 moneda. Si sala cara, pon 5 contadores de daño en el Pokémon Atacante.",
 				it: "Se questo Pokémon è il tuo Pokémon attivo e viene messo KO dai danni inflitti da un attacco del tuo avversario, lancia una moneta. Se esce testa, metti cinque segnalini danno sul Pokémon attaccante.",
 				pt: "Se este Pokémon for seu Pokémon Ativo e ele for Nocauteado por danos de um ataque do oponente, jogue uma moeda. Se sair cara, coloque 5 contadores de danos no Pokémon Atacante.",
-				de: "Wenn dieses Pokémon dein Aktives Pokémon ist und durch Schaden eines gegnerischen Angriffs kampfunfähig wird, wirf 1 Münze. Lege bei \"Kopf\" 5 Schadensmarken auf das Angreifende Pokémon."
+				de: "Wenn dieses Pokémon dein Aktives Pokémon ist und durch Schaden eines gegnerischen Angriffs kampfunfähig wird, wirf 1 Münze. Lege bei „Kopf“ 5 Schadensmarken auf das Angreifende Pokémon."
 			},
 		},
 	],
@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It was discovered when Poké Balls were introduced. It is said that there is some connection.",
+		de: "Es wurde entdeckt, als man Pokébälle einführte. Es scheint, als gäbe es da einen Zusammenhang."
 	},
 
 	thirdParty: {

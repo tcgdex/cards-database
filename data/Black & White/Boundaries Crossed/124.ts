@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pidove",
 		fr: "Poichigeon",
+		de: "Dusselgurr"
 	},
 
 	stage: "Stage1",
@@ -43,10 +44,12 @@ const card: Card = {
 			name: {
 				en: "Air Slash",
 				fr: "Lame d'Air",
+				de: "Luftschnitt"
 			},
 			effect: {
 				en: "Discard an Energy attached to this Pokémon.",
 				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 60,
 
@@ -71,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "No matter where in the world it goes, it knows where its nest is, so it never gets separated from its Trainer.",
+		de: "Findet selbst von der anderen Seite des Globus zu seinem Nest zurück. Nichts kann es von seinem Trainer trennen."
 	},
 
 	thirdParty: {

@@ -49,7 +49,7 @@ const card: Card = {
 			es: "Este ataque hace 50 puntos de daño por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
 			it: "Questo attacco infligge 50 danni per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
 			pt: "Este ataque causa 50 pontos de dano para cada Colorless no custo de Recuo do Pokémon Ativo do seu oponente.",
-			de: "Diese Attacke fügt für jedes Colorless in den Rückzugskosten des Aktiven Pokémon deines Gegners 50 Schadenspunkte zu."
+			de: "Diese Attacke fügt für jedes {C} in den Rückzugskosten des Aktiven Pokémon deines Gegners 50 Schadenspunkte zu."
 		},
 
 		damage: "50×"
@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon hides in the heart of sandstorms it creates and seldom appears where people can see it.",
+		de: "Da es sich stets im Zentrum des von ihm entfachten Sandsturms aufhält, bekommen Menschen es so gut wie nie zu Gesicht."
 	},
 
 	variants: [

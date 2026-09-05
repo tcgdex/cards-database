@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Diglett",
 		fr: "Taupiqueur d’Alola",
+		de: "Alola-Digda"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "El Coste de Retirada del Pokémon Activo de tu rival es de Colorless más.",
 				it: "Il costo di ritirata del Pokémon attivo del tuo avversario aumenta di Colorless.",
 				pt: "O custo de Recuo do Pokémon Ativo do seu oponente é Colorless a mais.",
-				de: "Die Rückzugskosten des Aktiven Pokémon deines Gegners erhöhen sich um Colorless."
+				de: "Die Rückzugskosten des Aktiven Pokémon deines Gegners erhöhen sich um {C}."
 			},
 		},
 	],
@@ -100,6 +101,7 @@ const card: Card = {
 
 	description: {
 		en: "Its shining gold hair provides it with protection. It's reputed that keeping any of its fallen hairs will bring bad luck.",
+		de: "Mit seinen golden leuchtenden Haaren schützt es sich. Es soll Unglück bringen, seine ausgefallenen Haare mitzunehmen."
 	},
 
 	thirdParty: {

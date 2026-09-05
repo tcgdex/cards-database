@@ -56,7 +56,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 50 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 50 danni in più.",
 				pt: "Jogue uma moeda. Se sair cara, este ataque causará 50 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 50 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 50 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "When a Slowpoke went hunting in the sea, its tail was bitten by a Shellder. That made it evolve into Slowbro.",
+		de: "Als Flegmon im Wasser jagen ging, wurde es von einem Muschas gebissen. Dadurch entwickelte es sich zu Lahmus."
 	},
 
 	thirdParty: {

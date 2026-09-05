@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "The fur on its belly retains heat exceptionally well. People used to make heavy winter clothing from fur shed by this Pokémon.",
+		de: "Das Fell an seinem Bauch hält es schön warm. Früher haben die Menschen daraus Kleidung gefertigt, die sie vor Kälte schützte."
 	},
 
 	variants: [

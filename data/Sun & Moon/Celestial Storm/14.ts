@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Nuzleaf",
 		fr: "Pifeuil",
+		de: "Blanas"
 	},
 
 	suffix: "GX",
@@ -94,7 +95,7 @@ const card: Card = {
 				es: "Antro de Perdición GX",
 				it: "Covo Maledetto-GX",
 				pt: "Toca da Crueldade GX",
-				de: "Höhle des Frevels GX"
+				de: "Höhle des Frevels-GX"
 			},
 			effect: {
 				en: "Choose 1 of your opponent’s Pokémon. Your opponent shuffles that Pokémon and all cards attached to it into their deck. (You can’t use more than 1 GX attack in a game.)",

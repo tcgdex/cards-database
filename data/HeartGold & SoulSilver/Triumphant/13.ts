@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Aipom",
-		fr: "Capumain"
+		fr: "Capumain",
+		de: "Griffel"
 	},
 
 	stage: "Stage1",
@@ -77,7 +78,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They live on large trees. They are said to communicate by connecting their tails to those of others."
+		en: "They live on large trees. They are said to communicate by connecting their tails to those of others.",
+		de: "Es bewohnt hohe Bäume. Man sagt, sie kommunizieren miteinander, indem sie einander beim Schweif fassen."
 	},
 
 	variants: [

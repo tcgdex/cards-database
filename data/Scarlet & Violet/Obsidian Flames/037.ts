@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "It lurks in cities, pretending to be a lamp. Once it finds someone whose death is near, it will trail quietly after them.",
+		de: "Es gibt sich als Lampe aus und lungert in Städten herum. Entdeckt es einen Menschen, dessen Todesstunde naht, folgt es ihm leise."
 	},
 
 	variants: [

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Crawdaunt"
+		en: "Crawdaunt",
+		fr: "Colhomard"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Corphish"
+		en: "Corphish",
+		fr: "Écrapince"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Guillotine"
+			en: "Guillotine",
+			fr: "Guillotine"
 		},
 
 		damage: 90,

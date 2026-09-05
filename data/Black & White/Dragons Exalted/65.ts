@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Stone Edge",
 				fr: "Lame de Roc",
+				de: "Steinkante"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -54,6 +56,7 @@ const card: Card = {
 			name: {
 				en: "Hammer In",
 				fr: "Enfoncer",
+				de: "Einhämmern"
 			},
 
 			damage: 40,
@@ -72,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "They were discovered a hundred years ago in an earthquake fissure. Inside each one is an energy core.",
+		de: "Wurde vor 100 Jahren nach einem großen Erdbeben in einer Erdspalte entdeckt. Es trägt eine Energiesphäre in sich."
 	},
 
 	thirdParty: {

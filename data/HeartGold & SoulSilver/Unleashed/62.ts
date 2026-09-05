@@ -72,7 +72,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It flaps its short wings to flush out insects from tall grass. It then plucks them with its stubby beak."
+		en: "It flaps its short wings to flush out insects from tall grass. It then plucks them with its stubby beak.",
+		de: "Es flattert mit seinen kleinen Flügeln, um Insekten aus dem Gras zu scheuchen und zu verspeisen."
 	},
 
 	variants: [

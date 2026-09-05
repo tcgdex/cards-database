@@ -29,12 +29,12 @@ const card: Card = {
 			name: {
 				en: "Call for Family",
 				fr: "Appel à la famille",
-				de: "Call for Family"
+				de: "Familienruf"
 			},
 			effect: {
 				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
 				fr: "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward."
+				de: "Durchsuche dein Deck nach einer Basis-Pokémon-Karte und lege sie auf deine Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -45,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Spring Out",
 				fr: "Surgir",
-				de: "Spring Out"
+				de: "Rausspringen"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -66,7 +66,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It digs into the ground with its tail and makes a mazelike nest. It can fly just a little."
+		en: "It digs into the ground with its tail and makes a mazelike nest. It can fly just a little.",
+		de: "Es gräbt sich mit seinem Schweif in die Erde und baut ein labyrinthartiges Nest. Es kann kaum fliegen."
 	},
 
 	variants: [

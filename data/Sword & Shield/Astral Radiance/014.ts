@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "When the turning of seasons brings the cruel winter to its end and the joyous people give thanks to the heavens, Shaymin appears and covers the withered land with flowers.",
+		de: "Richten die Menschen aus Freude über das Ende eines strengen Winters ihren Dank gen Himmel, erscheint dieses Pokémon und verwandelt das dürre Land in ein Blumenmeer."
 	},
 
 	variants: [

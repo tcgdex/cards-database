@@ -61,7 +61,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its favorite places are unsanitary ones. If you leave trash lying around, you could even find one of these Pokémon living in your room."
+		en: "Its favorite places are unsanitary ones. If you leave trash lying around, you could even find one of these Pokémon living in your room.",
+		de: "Es liebt schmutzige Orte. Angeblich zieht es auch in menschliche Behausungen ein, wenn man zu viel Müll herumliegen lässt."
 	},
 
 	variants: [

@@ -61,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "The leaves on its head are highly valued for medicinal purposes. Dry the leaves in the sun, boil them, and then drink the bitter decoction for remarkably effective relief from fatigue.",
+		de: "Ein Aufguss aus den sonnengetrockneten Blättern seines Hauptes schmeckt zwar bitter, ist jedoch als wirksames Mittel gegen Müdigkeit sehr geschätzt."
 	},
 
 	variants: [

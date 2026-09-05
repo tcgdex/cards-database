@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "It is extremely protective of its territory. If any foe approaches, it attacks using vicious tremors.",
+		de: "Es hat ein ausgeprägtes Revierverhalten. Nähert sich ein Feind, greift es diesen an, indem es die Erde heftig beben lässt."
 	},
 
 	variants: [

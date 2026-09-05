@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Phanpy",
-		fr: "Phanpy"
+		fr: "Phanpy",
+		de: "Phanpy"
 	},
 
 	stage: "Stage1",
@@ -63,7 +64,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 70 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 70 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 70 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 70 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "70×",
 
@@ -87,7 +88,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It has sharp, hard tusks and a rugged hide. Its tackle is strong enough to knock down a house."
+		en: "It has sharp, hard tusks and a rugged hide. Its tackle is strong enough to knock down a house.",
+		de: "Aufgrund seiner scharfen Stoßzähne und seiner rauen Haut könnte es mit Tackle ein Haus niederreißen."
 	},
 
 	variants: [

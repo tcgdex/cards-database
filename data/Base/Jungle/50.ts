@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Cubone",
 		fr: "Osselait",
+		it: "Cubone",
 		de: "Tragosso"
 	},
 
@@ -33,12 +34,14 @@ const card: Card = {
 			name: {
 				en: "Snivel",
 				fr: "Pleurnicherie",
+				it: "Piagnisteo",
 				de: "Geheule"
 			},
 			effect: {
 				en: "If the Defending Pokémon attacks Cubone during your opponent's next turn, any damage done by the attack is reduced by 20 (after applying Weakness and Resistance). (Benching either Pokémon ends this effect.)",
 				fr: "Si le Pokémon Défenseur attaque Osselait pendant le prochain tour de votre adversaire, les dégâts infligés par l'attaque sont réduits de 20 (après application de la Faiblesse et de la Résistance). (Si l'un des Pokémon bat en retraite, cet effet prend fin.)",
-				de: "Greift das verteidigende Pokémon Tragossi während des nächsten gegnerischen Zuges an, wird aller aufgrund dieses Angriffs zugefügte Schaden um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz abgerechnet wurden). (Kommt einer der beiden Pokémon auf die Bank, ist diese Wirkung nich weiter gültig.)"
+				it: "Se l'attuale Pokémon Difensore attacca Cubone durante il prossimo turno del tuo avversario, tutto il danno inflitto dall'attacco viene ridotto di 20 (dopo avere applicato Debolezza e Resistenza) (mettendo in Panchina uno dei due Pokémon l'effetto termina).",
+				de: "Greift das verteidigende Pokémon Tragosso während des nächsten gegnerischen Zuges an, wird aller aufgrund dieses Angriffs zugefügte Schaden um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz abgerechnet wurden). (Kommt einer der beiden Pokémon auf die Bank, ist diese Wirkung nicht weiter gültig.)"
 			},
 
 		},
@@ -50,11 +53,13 @@ const card: Card = {
 			name: {
 				en: "Rage",
 				fr: "Frénésie",
+				it: "Ira",
 				de: "Raserei"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on Cubone.",
 				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur Osselait.",
+				it: "Infligge 10 danni, più altri 10 danni per ogni segnalino danno presente su Cubone.",
 				de: "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Tragosso zu."
 			},
 			damage: "10+",
@@ -80,7 +85,9 @@ const card: Card = {
 
 	description: {
 		en: "Because it never removes its skull helmet, no one has ever seen this Pokémon's real face.",
-		fr: "Il ne retire jamais son casque en os. Personne n'a jamais vu le visage de ce Pokémon."
+		fr: "Il ne retire jamais son casque en os. Personne n'a jamais vu le visage de ce Pokémon.",
+		it: "Nessuno è mai riuscito a vedere la sua vera faccia, dal momento che non toglie mai il suo elmo-teschio.",
+		de: "Da es nie seinen Schädelhelm abnimmt, hat noch nie jemand das wahre Gesicht dieses Pokémon gesehen."
 	},
 
 

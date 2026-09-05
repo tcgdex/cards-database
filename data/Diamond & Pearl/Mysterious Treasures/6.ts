@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Bronzor",
-		fr: "Archéomire"
+		fr: "Archéomire",
+		de: "Bronzel"
 	},
 
 	stage: "Stage1",
@@ -86,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "One caused a news sensation when it was dug up at a construction site after a 2,000-year sleep.",
-		fr: "La découverte d'un de ces Pokémon sur un site de fouilles après 2 000 ans de sommeil a fait sensation."
+		fr: "La découverte d'un de ces Pokémon sur un site de fouilles après 2 000 ans de sommeil a fait sensation.",
+		de: "Dieses PKMN fand man bei Grabungen auf einer Baustelle, an deren Ort es 2 000 Jahre geschlafen hatte."
 	},
 
 	thirdParty: {

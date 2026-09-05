@@ -22,7 +22,7 @@ const card: Card = {
 		es: "El Silvally-GX al que esté unida esta carta es un Pokémon Lightning.",
 		it: "Il Silvally-GX a cui è assegnata questa carta è di tipo Lightning.",
 		pt: "O Pokémon Silvally-GX ao qual esta carta está ligada é um Pokémon Lightning.",
-		de: "Das Amigento-GX, an das diese Karte angelegt ist, ist ein Lightning-Pokémon."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Das Amigento-GX, an das diese Karte angelegt ist, ist ein {L}-Pokémon. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

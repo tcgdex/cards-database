@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Energy Kiss",
 				fr: "Bisou d'énergie",
-				de: "Energy Kiss"
+				de: "Energiekuss"
 			},
 			effect: {
 				en: "Flip a number of coins equal to the number of Energy cards attached to the Defending Pokémon. This attack does 10 damage times the number of heads.",
 				fr: "Lancez un nombre de pièces égal au nombre de cartes Énergie attachées au Pokémon Défenseur. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip a number of coins equal to the number of Energy cards attached to the Defending Pokémon. This attack does 10 damage times the number of heads."
+				de: "Wirf so viele Münzen, wie Energiekarten an das Verteidigende Pokémon angelegt sind. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10×",
 

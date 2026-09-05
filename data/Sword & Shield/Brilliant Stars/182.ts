@@ -40,7 +40,7 @@ const card: Card = {
 			es: "Los ataques de este Pokémon cuestan Colorless menos por cada uno de los Pokémon V en juego de tu rival.",
 			it: "Il costo degli attacchi di questo Pokémon è ridotto di Colorless per ogni Pokémon-V in gioco del tuo avversario.",
 			pt: "Os ataques deste Pokémon custam Colorless a menos para cada Pokémon V do seu oponente em jogo.",
-			de: "Die Kosten der Attacken dieses Pokémon verringern sich für jedes Pokémon-V deines Gegners im Spiel um Colorless."
+			de: "Die Kosten der Attacken dieses Pokémon verringern sich für jedes Pokémon-V deines Gegners im Spiel um {C}."
 		}
 	}],
 

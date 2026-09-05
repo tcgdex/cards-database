@@ -67,7 +67,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Be it Spheal or a Poké Ball, it will spin any round object on its nose with the greatest of ease."
+		en: "Be it Spheal or a Poké Ball, it will spin any round object on its nose with the greatest of ease.",
+		de: "Pokébälle, Seemops und alles, was sonst noch rund ist, balanciert es mit großem Geschick auf seiner Nasenspitze."
 	},
 
 	variants: [

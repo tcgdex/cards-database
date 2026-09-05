@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "The energetic, cheerful dance of these Oricorio is popular with children, but the Oricorio themselves are hard to find in Paldea.",
+		de: "Sein schwungvoller, heiterer Tanzstil macht dieses Pokémon zwar bei Kindern beliebt, doch in Paldea trifft man es kaum an."
 	},
 
 	variants: [

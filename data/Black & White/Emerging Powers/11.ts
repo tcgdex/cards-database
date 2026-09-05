@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cottonee",
 		fr: "Doudouvet",
+		de: "Waumboll"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Helping Hand",
 				fr: "Coup d'Main",
+				de: "Rechte Hand"
 			},
 			effect: {
 				en: "Search your deck for a basic Energy card and attach it to 1 of your Benched Pokémon. Shuffle your deck afterward.",
 				fr: "Cherchez une carte Énergie de base dans votre deck et attachez-la à 1 de vos Pokémon de Banc. Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach 1 Basis-Energiekarte und lege sie an 1 Pokémon auf deiner Bank an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -55,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Cotton Guard",
 				fr: "Cotogarde",
+				de: "Watteschild"
 			},
 			effect: {
 				en: "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 30 (after applying Weakness and Resistance).",
 				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés à ce Pokémon par des attaques sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
+				de: "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 30,
 
@@ -83,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Like the wind, it can slip through any gap, no matter how small. It leaves balls of white fluff behind.",
+		de: "Passiert wie ein Luftzug mühelos jeden noch so engen Spalt und hinterlässt dort nichts als ein weißes Fellknäuel."
 	},
 
 	thirdParty: {

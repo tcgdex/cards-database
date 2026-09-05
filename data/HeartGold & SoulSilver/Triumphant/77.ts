@@ -52,7 +52,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It bounces around on its tail to keep its heart pumping. It carries a pearl from Clamperl on its head."
+		en: "It bounces around on its tail to keep its heart pumping. It carries a pearl from Clamperl on its head.",
+		de: "Seine Hüpfbewegungen bringen sein Herz zum schlagen. Es trägt eine Perle von PERLU auf dem Kopf."
 	},
 
 	variants: [

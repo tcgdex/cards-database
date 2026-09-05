@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Clefairy",
 		fr: "Mélofée",
+		de: "Piepi"
 	},
 
 	stage: "Stage1",
@@ -65,6 +66,7 @@ const card: Card = {
 			name: {
 				en: "Moon Impact",
 				fr: "Impact Lunaire",
+				de: "Mondeinschlag"
 			},
 
 			damage: 50,
@@ -83,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Their ears are sensitive enough to hear a pin drop from over a mile away, so they're usually found in quiet places.",
+		de: "Ihr Gehör erfasst das Geräusch einer fallenden Nadel noch aus einem Kilometer Entfernung. Sie bevorzugen ruhige Orte."
 	},
 
 	thirdParty: {

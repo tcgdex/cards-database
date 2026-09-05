@@ -29,7 +29,7 @@ const card: Card = {
 			name: {
 				en: "Bad Sleeping Habits",
 				fr: "Mauvaises habitudes de dodo",
-				de: "Üble Schlafgewohnheit"
+				de: "Üble Schlafgewohnheiten"
 			},
 			effect: {
 				en: "As long as Snorlax is Asleep, your opponent's Active Pokémon can't retreat.",
@@ -73,7 +73,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 damage plus 40 more damage. If tails, Snorlax is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires. Si c'est pile, Ronflex est maintenant Endormi.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu. Bei \"Zahl\" schläft Relaxo jetzt."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu. Bei „Zahl“ schläft Relaxo jetzt."
 			},
 			damage: "40+",
 

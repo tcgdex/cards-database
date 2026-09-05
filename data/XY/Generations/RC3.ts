@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Charmander",
 		fr: "Salamèche",
+		de: "Glumanda"
 	},
 
 	illustrator: "Akira Komayama",
@@ -33,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Playful",
 				fr: "Garnement",
+				de: "Verspielt"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage times the number of damage counters on this Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte mal der Anzahl der Schadensmarken auf diesem Pokémon zu."
 			},
 			damage: "20×",
 
@@ -54,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "My Charmander is so rambunctious! I wonder if we can become good friends?",
+		de: "Mein Glumanda ist so ungestüm! Ich frage mich, ob wir gute Freunde werden?"
 	},
 
 	thirdParty: {

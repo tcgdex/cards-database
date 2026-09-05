@@ -32,7 +32,7 @@ const card: Card = {
 		es: "Pon 1 Pokémon y 1 carta de Herramienta Pokémon de tu pila de descartes en tu baraja, y baraja todas las cartas.",
 		it: "Rimischia un Pokémon e una carta Oggetto Pokémon dalla tua pila degli scarti nel tuo mazzo.",
 		pt: "Embaralhe 1 Pokémon e 1 carta de Ferramenta Pokémon da sua pilha de descarte no seu baralho.",
-		de: "Mische I Pokémon und 1 Pokémon-Ausrüstung aus deinem Ablagestapel in dein Deck."
+		de: "Mische I Pokémon und 1 Pokémon-Ausrüstung aus deinem Ablagestapel in dein Deck. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 	trainerType: "Item",
 

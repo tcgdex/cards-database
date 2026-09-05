@@ -16,7 +16,7 @@ const card: Card = {
 
 	effect: {
 		en: "Warp Energy provides Colorless Energy. When you attach this card from your hand to your Active Pokémon, switch that Pokémon with 1 of your Benched Pokémon.",
-		de: "Verkrümmungs-Energie liefert -Energie.\nWenn du die Verkrümmungs-Energie von der Hand an dein Aktives Pokémon anlegst, tausche dieses Pokémon mit 1 Pokémon auf deiner Bank aus.",
+		de: "Verkrümmungs-Energie liefert {C}-Energie. Wenn du die Verkrümmungs-Energie von der Hand an dein Aktives Pokémon anlegst, tausche dieses Pokémon mit 1 Pokémon auf deiner Bank aus.",
 		fr: "Énergie de distorsion fournit de l'Énergie Incolore. Lorsque vous attachez cette carte de votre main à votre Pokémon Actif, échangez ce Pokémon avec 1 des Pokémon de votre Banc.",
 	},
 

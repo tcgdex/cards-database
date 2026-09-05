@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "This form of Lycanroc is reckless. It charges headlong at its opponents, attacking without any care about what injuries it might receive.",
+		de: "Es ist von Natur aus draufgängerisch und stürzt sich unerschrocken auf seine Gegner, wobei es selbst Verletzungen in Kauf nimmt."
 	},
 
 	

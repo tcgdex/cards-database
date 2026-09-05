@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Espurr",
 		fr: "Psystigri",
+		de: "Psiau"
 	},
 
 	stage: "Stage1",
@@ -76,7 +77,7 @@ const card: Card = {
 				es: "La Debilidad del Pokémon Defensor pasa a ser Psychic hasta el final de tu próximo turno. (La cantidad de Debilidad no cambia).",
 				it: "La debolezza del Pokémon difensore diventa Psychic fino alla fine del tuo prossimo turno. Quanto è debole non cambia.",
 				pt: "A Fraqueza do Pokémon Defensor será Psychic até o final da sua próxima vez de jogar (a quantidade de Fraqueza não muda).",
-				de: "Bis zum Ende deines nächsten Zuges ist die Schwäche des Verteidigenden Pokémon jetzt Psychic. (Die Höhe der Schwäche ändert sich nicht.)"
+				de: "Bis zum Ende deines nächsten Zuges ist die Schwäche des Verteidigenden Pokémon jetzt {P}. (Die Höhe der Schwäche ändert sich nicht.)"
 			},
 			damage: 70,
 
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "When in danger, it raises its ears and releases enough psychic power to grind a 10-ton truck into dust.",
+		de: "In Gefahrensituationen hebt es seine Ohren an und setzt Psycho-Kräfte frei, die einen 10 t schweren LKW zu Schrott verarbeiten können."
 	},
 
 	thirdParty: {

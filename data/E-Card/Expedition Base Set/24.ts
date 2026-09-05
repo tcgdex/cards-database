@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Poliwhirl",
-		fr: "Têtarte"
+		fr: "Têtarte",
+		de: "Quaputzi"
 	},
 
 	stage: "Stage2",
@@ -34,12 +35,12 @@ const card: Card = {
 			name: {
 				en: "Plunge",
 				fr: "Plongeon",
-				de: "Plunge"
+				de: "Untertauchen"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if Poliwrath is on your Bench, you may flip a coin. If heads, take all Energy cards attached to your Active Pokémon, if any, and attach them to Poliwrath. Then switch Poliwrath with your Active Pokémon.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), si Tartard est sur votre Banc, vous pouvez lancer une pièce. Si c'est face, prenez toutes les cartes Énergie attachées à votre Pokémon Actif, s'il en possède, et attachez-les à Tartard. Échangez ensuite Tartard contre votre Pokémon Actif.",
-				de: "Once during your turn (before your attack), if Poliwrath is on your Bench, you may flip a coin. If heads, take all Energy cards attached to your Active Pokémon, if any, and attach them to Poliwrath. Then switch Poliwrath with your Active Pokémon."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, falls Quappo auf deiner Bank ist, eine Münze werfen. Nimm bei „Kopf“ alle an dein Aktives Pokémon angelegte Energiekarten, falls vorhanden, und lege sie an Quappo an. Tausche dann Quappo mit deinem aktiven Pokémon."
 			},
 		},
 	],
@@ -55,12 +56,12 @@ const card: Card = {
 			name: {
 				en: "Water Punch",
 				fr: "Poing d'O",
-				de: "Water Punch"
+				de: "Wasserhieb"
 			},
 			effect: {
 				en: "Flip a number of coins equal to the amount of Water Energy attached to Poliwrath. This attack does 40 damage plus 10 more damage for each heads.",
-				fr: "Lancez un nombre de pièces équivalent au nombre d'Énergie  attachées à Tartard. Cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque face.",
-				de: "Flip a number of coins equal to the amount of  Energy attached to Poliwrath. This attack does 40 damage plus 10 more damage for each heads."
+				fr: "Lancez un nombre de pièces équivalent au nombre d'Énergie {W} attachées à Tartard. Cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque face.",
+				de: "Wirf so viele Münzen, wie {W}-Energie an Quappo angelegt ist. Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte pro geworfenem „Kopf“ zu."
 			},
 			damage: "40+",
 

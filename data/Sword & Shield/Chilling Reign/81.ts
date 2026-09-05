@@ -85,7 +85,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "Sharply attuned to others' wishes for help, this Pokémon seeks out those in need and aids them in battle."
+		en: "Sharply attuned to others' wishes for help, this Pokémon seeks out those in need and aids them in battle.",
+		de: "Es spürt sofort, wenn jemand in Not ist, und eilt ihm unverzüglich zu Hilfe."
 	},
 
 	variants: [

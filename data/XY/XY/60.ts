@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Descarta la primera carta de tu baraja. Si es una carta de Energía Fighting, únela a este Pokémon.",
 				it: "Scarta la carta in cima al tuo mazzo. Se è una carta Energia Fighting, assegnala a questo Pokémon.",
 				pt: "Descarte o card de cima do seu baralho. Se esse card for um card de Energia Fighting, ligue-o a este Pokémon.",
-				de: "Lege die oberste Karte deines Decks auf deinen Ablagestapel. Handelt es sich um eine Fighting-Energiekarte, lege sie an dieses Pokémon an."
+				de: "Lege die oberste Karte deines Decks auf deinen Ablagestapel. Handelt es sich um eine {F}-Energiekarte, lege sie an dieses Pokémon an."
 			},
 			damage: 10,
 
@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging Tackles.",
+		de: "Stark, aber nicht allzu klug, kann dieses Pokémon sogar Hochhäuser mit seinem Tackle-Angriff zum Einsturz bringen."
 	},
 
 	thirdParty: {

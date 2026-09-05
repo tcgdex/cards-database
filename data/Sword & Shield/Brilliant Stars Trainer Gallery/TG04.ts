@@ -49,7 +49,7 @@ const card: Card = {
 			es: "Si este Pokémon tiene 1 Cápsula de Memoria unida a él, los Pokémon Water en juego (tanto tuyos como de tu rival) no tienen ninguna habilidad.",
 			it: "Se questo Pokémon ha una carta Capsula della Memoria assegnata, i Pokémon Water in gioco, sia tuoi che del tuo avversario, non hanno abilità.",
 			pt: "Se este Pokémon tiver 1 Cápsula de Memória ligada a ele, Pokémon Metal em jogo (seus e do seu oponente) não terão Habilidades.",
-			de: "Wenn an dieses Pokémon eine Gedächtniskapsel angelegt ist, haben Water-Pokémon im Spiel (deine und die deines Gegners) keine Fähigkeiten."
+			de: "Wenn an dieses Pokémon eine Gedächtniskapsel angelegt ist, haben {W}-Pokémon im Spiel (deine und die deines Gegners) keine Fähigkeiten."
 		}
 	}],
 
@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "If it is angered or startled, the fur all over its body bristles like sharp needles that pierce foes.",
+		de: "Wenn es erschrickt oder wütend wird, stellt sich sein Fell auf wie scharfe Nadeln und sticht den Gegner."
 	},
 
 	variants: [

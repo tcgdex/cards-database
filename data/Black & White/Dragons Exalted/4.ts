@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Whirlwind",
 				fr: "Cyclone",
+				de: "Wirbelwind"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 20,
 
@@ -65,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "It can hover in one spot by flapping its wings at high speed. It flits about to guard its territory.",
+		de: "Schwebt auf der Stelle durch das schnelle Schlagen seiner Flügel. Hat ein Auge auf sein Territorium."
 	},
 
 	thirdParty: {

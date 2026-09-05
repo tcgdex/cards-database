@@ -39,7 +39,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20x",
 
@@ -76,7 +76,8 @@ const card: Card = {
 
 	description: {
 		en: "It fights while spinning like a top. The centrifugal force boosts its destructive power by ten.",
-		fr: "Il combat en tournoyant comme une toupie. La force centrifuge décuple sa puissance destructrice."
+		fr: "Il combat en tournoyant comme une toupie. La force centrifuge décuple sa puissance destructrice.",
+		de: "Es kämpft, während es sich wie ein Kreisel dreht. Die Zentrifugalkraft erhöht die Kampfkraft um 10."
 	},
 
 	thirdParty: {

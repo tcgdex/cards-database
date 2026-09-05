@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Bronzor",
 		fr: "Archéomire",
+		de: "Bronzel"
 	},
 
 	stage: "Stage1",
@@ -77,7 +78,7 @@ const card: Card = {
 				es: "Si tu rival tiene algún Pokémon Psychic en juego, este ataque hace 60 puntos de daño más.",
 				it: "Se il tuo avversario ha dei Pokémon Psychic in gioco, questo attacco infligge 60 danni in più.",
 				pt: "Se o seu oponente tiver algum Pokémon Psychic em jogo, este ataque causará 60 pontos de dano a mais.",
-				de: "Wenn dein Gegner mindestens 1 Psychic-Pokémon im Spiel hat, fügt diese Attacke 60 Schadenspunkte mehr zu."
+				de: "Wenn dein Gegner mindestens 1 {P}-Pokémon im Spiel hat, fügt diese Attacke 60 Schadenspunkte mehr zu."
 			},
 			damage: "60+",
 
@@ -102,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "Ancient people believed that petitioning Bronzong for rain was the way to make crops grow.",
+		de: "Früher verehrten die Menschen die Bronzong, weil sie sich davon Regen oder gute Ernten erhofften."
 	},
 
 	thirdParty: {

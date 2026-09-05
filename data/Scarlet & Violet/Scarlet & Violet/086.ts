@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Kirlia",
-		fr: "Kirlia"
+		fr: "Kirlia",
+		de: "Kirlia"
 	},
 
 	stage: "Stage2",
@@ -96,9 +97,6 @@ const card: Card = {
 	suffix: "ex",
 	illustrator: "N-DESIGN Inc.",
 
-	description: {
-		en: "It has a psychic power that enables it to distort the space around it and see into the future.",
-	},
 
 	thirdParty: {
         cardmarket: 702382,

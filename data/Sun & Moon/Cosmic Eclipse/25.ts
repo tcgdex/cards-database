@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "If it inhales deeply, that's a sign it's about to attack. Prepare to be hit by flames of over 3,000 degrees Fahrenheit!",
+		de: "Wenn es tief einatmet, bereitet es gerade einen Angriff vor. Es kann bis zu 1 700 °C heiße Flammen speien."
 	},
 
 	thirdParty: {

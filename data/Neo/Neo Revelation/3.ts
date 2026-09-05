@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Time Travel",
 				fr: "Voyage temporel",
-				de: "Time Travel"
+				de: "Zeitreise"
 			},
 			effect: {
 				en: "If an opponent's attack would Knock Out Celebi, flip a coin. If heads, Celebi is not Knocked Out and you shuffle it and all cards attached to it into your deck. This power doesn't work if Celebi is already Asleep, Confused, or Paralyzed.",
 				fr: "Si l'attaque d'un adversaire doit mettre Celebi K.O., lancez une pièce. Si c'est face, Celebi n'est pas K.O. et il doit être mélangé à votre deck avec les cartes qui lui sont attachées. Ce pouvoir ne peut être utilisé si Celebi est déjà Endormi, Confus ou Paralysé.",
-				de: "If an opponent's attack would Knock Out Celebi, flip a coin. If heads, Celebi isn't Knocked Out and you shuffle it and all cards attached to it into your deck. This power doesn't work if Celebi is already Asleep, Confused, or Paralyzed."
+				de: "Wirf eine Münze, wenn ein Angriff eines Gegners Celebi kampfunfähig machen würde. Bei „Kopf“ ist Celebi nicht kampfunfähig, und du mischt es und alle an es angelegten Karten in dein Deck zurück. Diese Fähigkeit verliert ihre Wirkung, falls Celebi bereits schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -49,12 +49,12 @@ const card: Card = {
 			name: {
 				en: "Psychic Damage",
 				fr: "Dégâts Psy",
-				de: "Psychic Damage"
+				de: "Psychoschaden"
 			},
 			effect: {
 				en: "Flip 3 coins. For each heads, put 1 damage counter on the Defending Pokémon.",
 				fr: "Lancez 3 pièces. Pour chaque face, placez 1 marqueur de dégâts sur le Pokémon Défenseur.",
-				de: "Flip 3 coins. For each heads, put 1 damage counter on the Defending Pokémon."
+				de: "Wirf drei Münzen. Lege für jedesmal „Kopf“ eine Schadensmarke auf das verteidigende Pokémon."
 			},
 
 		},
@@ -71,7 +71,8 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon wanders across time. Grass and trees flourish in the forests in which it has appeared.",
-		fr: "Ce Pokémon voyage dans le temps. Les arbres et la végétation s'épanouissent dans les forêts où il apparaît."
+		fr: "Ce Pokémon voyage dans le temps. Les arbres et la végétation s'épanouissent dans les forêts où il apparaît.",
+		de: "Dieses Pokémon wandert durch die Zeit. In den Wäldern, in denen es erscheint, gedeihen Gras und Bäume besonders üppig."
 	},
 
 

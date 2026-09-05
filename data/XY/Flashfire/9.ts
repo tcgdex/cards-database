@@ -56,7 +56,7 @@ const card: Card = {
 				es: "Lanza 1 moneda hasta que salga cruz. Por cada cara, descarta 1 Energía unida al Pokémon Activo de tu rival.",
 				it: "Lancia una moneta finché non esce croce. Ogni volta che esce testa, scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
 				pt: "Jogue uma moeda até sair coroa. Para cada cara, descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
-				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Lege pro \"Kopf\" 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
+				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Lege pro „Kopf“ 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 
 		},
@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "Luring prey with a sweet scent, it uses poison whips on its arms to poison, bind, and finish off the prey.",
+		de: "Es lockt seine Beute mit süßem Duft an, um sie danach mit seinen dornigen Ranken zu peitschen oder zu würgen."
 	},
 
 	thirdParty: {

@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "When spread, the frills on its head act like solar panels, generating the power behind this Pokémon's electric moves.",
+		de: "Es breitet die Hautlappen an seinem Kopf aus, um mithilfe des Sonnenlichts Strom zu erzeugen und mächtige Elektro-Attacken einzusetzen."
 	},
 
 	variants: [

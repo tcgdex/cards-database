@@ -40,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf eine Münze. Bei 'Zahl' zeigt dieser Angriff keine Wirkung.",
+				de: "Wirf eine Münze. Bei „Zahl“ zeigt dieser Angriff keine Wirkung.",
 				it: "Lancia una moneta. Se esce croce, questo attacco non infligge alcun danno."
 			},
 			damage: 30,
@@ -60,6 +60,7 @@ const card: Card = {
 		en: "Stiffens its ears to sense danger. The larger, more powerful of its horns secretes venom.",
 		fr: "Son ouïe très fine l'avertit du danger. Plus ses cornes sont grandes, plus son poison est mortel.",
 		it: "Drizza le orecchie per sentire il pericolo. Il più grande e potente dei suoi corni secerne veleno.",
+		de: "Spitzt die Ohren, um Gefahr zu wittern. Das große, mächtige Horn sondert Gift ab."
 	},
 
 	variants: [
@@ -67,7 +68,8 @@ const card: Card = {
 			type: "normal",
 			subtype: "unlimited",
 			thirdParty: {
-				tcgplayer: 42399
+				tcgplayer: 42399,
+				cardmarket: 273750
 			},
 		},
 		{
@@ -75,14 +77,16 @@ const card: Card = {
 			subtype: "shadowless",
 			stamp: ["1st-edition"],
 			thirdParty: {
-				tcgplayer: 107052
+				tcgplayer: 107052,
+				cardmarket: 660173
 			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107052
+				tcgplayer: 107052,
+				cardmarket: 660173
 			},
 		},
 		{

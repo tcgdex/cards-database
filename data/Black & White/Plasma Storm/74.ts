@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Heat Burn",
 				fr: "Chaleur Brûlante",
+				de: "Brandwunde"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
 				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt."
 			},
 			damage: 20,
 
@@ -54,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Explosion",
 				fr: "Explosion",
+				de: "Explosion"
 			},
 			effect: {
 				en: "This Pokémon does 90 damage to itself.",
 				fr: "Ce Pokémon s'inflige 90 dégâts.",
+				de: "Dieses Pokémon fügt sich selbst 90 Schadenspunkte zu."
 			},
 			damage: 90,
 
@@ -75,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "Solar energy is the source of its power, so it is strong during the daytime. When it spins, its body shines.",
+		de: "Da es seine Energie aus Sonnenlicht gewinnt, ist es tagsüber am stärksten. Wenn es sich dreht, leuchtet es."
 	},
 
 	thirdParty: {

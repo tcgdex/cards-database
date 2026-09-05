@@ -38,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This attack does 10 damage to each of your opponent's Benched Pokémon for each Colorless in that Pokémon's Retreat Cost. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire pour chaque  dans le Coût de Retraite du Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+				fr: "Cette attaque inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire pour chaque {C} dans le Coût de Retraite du Pokémon. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 120,
 

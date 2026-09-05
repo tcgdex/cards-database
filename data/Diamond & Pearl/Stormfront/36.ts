@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Electrode",
-		fr: "Electrode",
+		fr: "Électrode",
 		de: "Lektrobal"
 	},
 
@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Voltorb",
 		fr: "Voltorbe",
+		de: "Voltobal"
 	},
 
 	stage: "Stage1",

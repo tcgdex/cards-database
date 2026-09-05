@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Patrat",
 		fr: "Ratentif",
+		de: "Nagelotz"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Fast Swipe",
 				fr: "Fauchage Éclair",
+				de: "Flinke Finger"
 			},
 			effect: {
 				en: "Discard a random card from your opponent's hand.",
 				fr: "Défaussez au hasard une carte de la main de votre adversaire.",
+				de: "Nimm 1 zufällige Karte aus der verdeckten Hand deines Gegners und lege sie auf dessen Ablagestapel."
 			},
 
 		},
@@ -56,10 +59,12 @@ const card: Card = {
 			name: {
 				en: "Biting Fang",
 				fr: "Croc Mordant",
+				de: "Reißfänge"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -77,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "Using luminescent matter, it makes its eyes and body glow and stuns attacking opponents.",
+		de: "Es kann mit einer körpereigenen Substanz seine Augen und seinen Torso aufleuchten lassen, um Gegner zu erschrecken."
 	},
 
 	thirdParty: {

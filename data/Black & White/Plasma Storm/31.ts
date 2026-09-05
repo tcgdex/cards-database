@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Lombre",
 		fr: "Lombre",
+		de: "Lombrero"
 	},
 
 	stage: "Stage2",
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Groovy Dance",
 				fr: "Danse Enivrée",
+				de: "Fetziger Reigen"
 			},
 			effect: {
 				en: "You may discard an Energy attached to this Pokémon. If you do, the Defending Pokémon is now Confused.",
 				fr: "Vous pouvez défausser une Énergie attachée à ce Pokémon. Dans ce cas, le Pokémon Défenseur est maintenant Confus.",
+				de: "Du kannst 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel legen. Wenn du das machst, ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 70,
 
@@ -86,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "If it hears festive music, all its muscles fill with energy. It can't help breaking out into a dance.",
+		de: "Hört es fröhliche Musik, füllen sich seine Muskeln mit Energie. Es muss dann einfach tanzen."
 	},
 
 	thirdParty: {

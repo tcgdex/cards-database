@@ -36,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rising Lunge",
-				fr: "Botte Secrète"
+				fr: "Botte Secrète",
+				de: "Aufwärtsstoß"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -65,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck.",
+		de: "Es zieht seine gummiartige Haut bis zum Hals hinauf und nimmt eine Abwehrhaltung ein, um sich vor Schaden zu schützen."
 	},
 
 	thirdParty: {

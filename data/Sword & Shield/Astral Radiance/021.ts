@@ -48,6 +48,7 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon live in herds out in the grassland. Newborn foals lack their fiery manes, which will develop about an hour after birth.",
+		de: "Sie leben in Herden auf Grasebenen. Bei der Geburt fehlt ihnen die feurige Mähne, doch sie wächst in nur einer Stunde vollständig heran."
 	},
 
 	variants: [

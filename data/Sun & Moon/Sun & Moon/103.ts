@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "Because it doesn't yelp, it's extremely popular with Trainers who live in apartment buildings.",
+		de: "Es jault nicht, weswegen es bei Trainern, die in Apartmenthäusern wohnen, sehr beliebt ist."
 	},
 
 	thirdParty: {

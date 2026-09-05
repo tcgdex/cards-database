@@ -27,7 +27,8 @@ const card: Card = {
 	evolveFrom: {
 		en: "Charmander",
 		fr: "Salamèche",
-		it: "Charmander"
+		it: "Charmander",
+		de: "Glumanda"
 	},
 
 	stage: "Stage1",
@@ -63,8 +64,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Charmeleon in order to use this attack.",
-				fr: "Défaussez 1 carte Énergie  attachée à Reptincel pour pouvoir utiliser cette attaque.",
-				de: "Entferne eine auf Glutexo abgelegte  Energiekarte, um diesen Angriff auszuführen.",
+				fr: "Défaussez 1 carte Énergie {R} attachée à Reptincel pour pouvoir utiliser cette attaque.",
+				de: "Entferne eine auf Glutexo abgelegte {R} Energiekarte, um diesen Angriff auszuführen.",
 				it: "Scarta una carta Energia Fuoco assegnata a Charmeleon per poter usare questo attacco."
 			},
 			damage: 50,
@@ -86,14 +87,16 @@ const card: Card = {
 			subtype: "shadowless",
 			stamp: ["1st-edition"],
 			thirdParty: {
-				tcgplayer: 107021
+				tcgplayer: 107021,
+				cardmarket: 660204
 			}
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107021
+				tcgplayer: 107021,
+				cardmarket: 660204
 			}
 		},
 		{
@@ -113,7 +116,8 @@ const card: Card = {
 	description: {
 		en: "When it swings its burning tail, it raises the temperature to unbearably high levels.",
 		fr: "En agitant sa queue, il peut élever le niveau de la température à un degré incroyable.",
-		it: "Quando rotea la coda incandescente, aumenta la temperatura a livelli insopportabilmente alti. LIV 32 N.5"
+		it: "Quando rotea la coda incandescente, aumenta la temperatura a livelli insopportabilmente alti. LIV 32 N.5",
+		de: "Wenn es mit seinem brennenden Schwanz wedelt, treibt es die Temperatur ins Unermeßliche!"
 	},
 }
 

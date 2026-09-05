@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It spreads its gorgeous wings widely to intimidate enemies. It races through the skies at Mach-2 speed.",
+		de: "Es breitet seine betörenden Schwingen aus, um den Gegner einzuschüchtern. Seine Fluggeschwindigkeit liegt bei Mach 2."
 	},
 
 	variants: [

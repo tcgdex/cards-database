@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Hard of heart and deft of blade, this rare form of Samurott is a product of the Pokémon's evolution in the region of Hisui. Its turbulent blows crash into foes like ceaseless pounding waves.",
+		de: "Unbarmherzig, doch meisterhaft im Umgang mit dem Schwert, lässt es seine Hiebe auf Gegner hereinbrechen wie Wellen in der Brandung. Diese seltene Form entwickelte sich in Hisui."
 	},
 
 	variants: [

@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "They stretch and then contract, yanking their rocks along with them in bold hops. They eat seaweed that washes up on the shoreline.",
+		de: "Sie bewegen sich fort, indem sie durch Strecken beider Extremitäten ihren Felsen anheben. Sie ernähren sich von Seetang, der an die Küste gespült wurde."
 	},
 
 	thirdParty: {

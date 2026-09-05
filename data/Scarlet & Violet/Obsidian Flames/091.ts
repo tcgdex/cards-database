@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It can perform odd dance steps to influence foes. Its style of dancing became hugely popular overseas.",
+		de: "Die seltsamen Tanzschritte, mit denen es seine Gegner kontrolliert, erfreuten sich einst in anderen Regionen großer Beliebtheit."
 	},
 
 	variants: [

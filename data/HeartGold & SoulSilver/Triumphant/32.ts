@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Dratini",
-		fr: "Minidraco"
+		fr: "Minidraco",
+		de: "Dratini"
 	},
 
 	stage: "Stage1",
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "40×",
 
@@ -77,7 +78,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its crystalline orbs appear to give this Pokémon the power to freely control the weather."
+		en: "Its crystalline orbs appear to give this Pokémon the power to freely control the weather.",
+		de: "Die kristallenen Bälle an seinem Schweif ermöglichen es ihm, das Wetter zu beeinflussen."
 	},
 
 	variants: [

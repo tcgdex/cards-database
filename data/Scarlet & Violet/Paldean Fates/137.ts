@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "It can see clearly through walls to track down its prey and seek its lost young.",
+		de: "Es kann durch Wände sehen und spürt auf diese Weise Beute und verloren gegangene Junge auf."
 	},
 
 }

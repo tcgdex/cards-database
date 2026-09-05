@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Mismagius GL LV.X",
-		fr: "Magirêve  Niv. X",
+		fr: "Magirêve GL Niv. X",
 		de: "Traunmagil GL"
 	},
 
@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As often as you like during your turn (before your attack), you may return a Pokémon Tool or Technical Machine card attached to your Pokémon to your hand. This power can't be used if Mismagius GL is affected by a Special Condition.",
-				fr: "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), vous pouvez reprendre dans votre main une carte Outil Pokémon ou une carte Machine Technique attachée à votre Pokémon. Ce pouvoir ne peut pas être utilisé si Magirêve  est affecté par un État Spécial.",
+				fr: "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), vous pouvez reprendre dans votre main une carte Outil Pokémon ou une carte Machine Technique attachée à votre Pokémon. Ce pouvoir ne peut pas être utilisé si Magirêve GL est affecté par un État Spécial.",
 				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 Pokémon-Ausrüstung oder Technische Maschine, die an 1 deiner Pokémon angelegt ist, auf deine Hand nehmen. Diese Poké-Power kann nicht benutzt werden, wenn Traunmagil GL von einem Speziellen Zustand betroffen ist."
 			}
 		},

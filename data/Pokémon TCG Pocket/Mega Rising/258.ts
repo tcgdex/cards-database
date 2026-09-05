@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mega Ampharos ex"
+		en: "Mega Ampharos ex",
+		fr: "Méga-Pharamp-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,11 +18,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Flaaffy"
-	},
-
-	description: {
-		en: "The tail's tip shines brightly and can be seen from\nfar away. It acts as a beacon for lost people."
+		en: "Flaaffy",
+		fr: "Lainergie"
 	},
 
 	stage: "Stage2",
@@ -29,14 +27,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Lightning Lancer"
+			en: "Lightning Lancer",
+			fr: "Lances Foudroyantes"
 		},
 
 		damage: 100,
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		effect: {
-			en: "1 of your opponent's Benched Pokémon is chosen at random 3 times. For each time a Pokémon was chosen, also do 20 damage to it."
+			en: "1 of your opponent's Benched Pokémon is chosen at random 3 times. For each time a Pokémon was chosen, also do 20 damage to it.",
+			fr: "Un des Pokémon de Banc de votre adversaire est choisi au hasard 3 fois. Pour chaque fois où un Pokémon est choisi, infligez-lui 20 dégâts."
 		}
 	}],
 

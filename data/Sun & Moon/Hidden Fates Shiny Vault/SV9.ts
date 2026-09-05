@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Wooper",
 		fr: "Axoloto",
+		de: "Felino"
 	},
 	illustrator: "Misa Tsutsui",
 	rarity: "Shiny rare",
@@ -30,6 +31,7 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				de: "Ramme"
 			},
 
 			damage: 10,
@@ -43,6 +45,7 @@ const card: Card = {
 			name: {
 				en: "Rain Splash",
 				fr: "Pluie Éclaboussante",
+				de: "Regenplatscher"
 			},
 
 			damage: 20,
@@ -63,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "When the temperature cools in the evening, they emerge from water to seek food along the shore.",
+		de: "Wenn es am Abend kühler wird, kommen sie an Land, um nach Nahrung zu suchen."
 	},
 }
 

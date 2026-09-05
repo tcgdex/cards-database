@@ -18,16 +18,6 @@ const card: Card = {
 		de: "Schaue dir die 4 untersten Karten deines Decks an. Nimm 2 dieser Karten auf deine Hand und lege die übrigen Karten in beliebiger Reihenfolge unter dein Deck zurück."
 	},
 
-	attacks: [
-		{
-			// name intentionally left blank
-			name: {},
-			effect: {
-				en: "Look at the bottom 4 cards of your deck. Put 2 of those cards into your hand, and then return the remaining cards to the bottom of your deck in any order."
-			}
-		}
-	],
-
 	variants: [
 		{
 			type: 'normal',

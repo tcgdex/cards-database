@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Lanza una moneda. Si sale cara, descarta una Energía unida a 1 de los Pokémon de tu rival.",
 		it: "Lancia una moneta. Se esce testa, scarta un'Energia assegnata a uno dei Pokémon del tuo avversario.",
 		pt: "Jogue uma moeda. Se sair cara, descarte uma Energia ligada a 1 dos Pokémon do seu oponente.",
-		de: "Wirf 1 Münze. Lege bei \"Kopf\" 1 an das gegnerische Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
+		de: "Wirf 1 Münze. Lege bei „Kopf“ 1 an ein gegnerisches Pokémon angelegte Energie auf den Ablagestapel deines Gegners. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

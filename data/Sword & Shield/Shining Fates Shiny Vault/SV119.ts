@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Métamorph-V",
-		en: "Ditto V"
+		en: "Ditto V",
+		de: "Ditto V"
 	},
 
 	attacks: [{

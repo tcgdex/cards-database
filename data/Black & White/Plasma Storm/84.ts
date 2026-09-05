@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Purrloin",
 		fr: "Chacripan",
+		de: "Felilou"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Silent Claw",
 				fr: "Griffe Silencieuse",
+				de: "Flüsterklaue"
 			},
 			effect: {
 				en: "Your opponent reveals his or her hand. Discard a Supporter card you find there. Use the effect of that card as the effect of this attack.",
 				fr: "Votre adversaire montre sa main. Défaussez une carte Supporter que vous y trouvez. Utilisez l'effet de la carte Supporter défaussée en tant qu'effet de cette attaque.",
+				de: "Dein Gegner deckt seine Handkarten auf. Befindet sich darunter 1 Unterstützerkarte, lege sie auf seinen Ablagestapel. Verwende den Effekt dieser Karte als Effekt dieses Angriffs."
 			},
 
 		},
@@ -56,10 +59,12 @@ const card: Card = {
 			name: {
 				en: "Fake Out",
 				fr: "Bluff",
+				de: "Mogelhieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 30,
 
@@ -84,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Their beautiful form comes from the muscles they have developed. They run silently in the night.",
+		de: "Sein anmutiges Auftreten verdankt es den Muskeln, die es entwickelt hat. Es prescht lautlos durch die Nacht."
 	},
 
 	thirdParty: {

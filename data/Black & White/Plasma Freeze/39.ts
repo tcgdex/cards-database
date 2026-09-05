@@ -38,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Mach Claw",
 				fr: "Instagriffe",
+				de: "Tempoklaue"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 50,
 
@@ -56,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Fusion Bolt",
 				fr: "Éclair Croix",
+				de: "Kreuzdonner"
 			},
 			effect: {
 				en: "If Reshiram is on your Bench, this attack does 40 more damage.",
 				fr: "Si Reshiram est sur votre Banc, cette attaque inflige 40 dégâts supplémentaires.",
+				de: "Wenn sich Reshiram auf deiner Bank befindet, fügt dieser Angriff 40 weitere Schadenspunkte zu."
 			},
 			damage: 80,
 
@@ -77,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "This legendary Pokémon can scorch the world with lightning. It assists those who want to build an ideal world.",
+		de: "Ein Legendäres Pokémon mit der Macht, die Welt durch Donner einzuäschern. Hilft allen, die einer Welt der Wünsche harren."
 	},
 
 	thirdParty: {

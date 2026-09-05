@@ -34,7 +34,7 @@ const card: Card = {
 			effect: {
 				en: "After your attack, remove from Nincada the number of damage counters equal to the damage you did to the Defending Pokémon. If Nincada has fewer damage counters than that, remove all of them.",
 				fr: "Après votre attaque, retirez à Ningale autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur. Si Ningale a moins de marqueurs de dégât que de dégâts infligés, retirez-les lui tous.",
-				de: "Nach dem Kampf entferne pro 10 Schadenspunkte, die Nincada dem Verteidigenden Pokémon zugefügt hat, 1 Schadensmarke von Nincada. Falls zu wenig Schadensmarken vorhanden sind, entferne alle."
+				de: "Nach dem Kampf entferne pro 10 Schadenspunkte, die Nincada dem Verteidigenden Pokémon zugefügt hat, 1 Schadensmarke von Nincada. Falls zuwenig Schadensmarken vorhanden sind, entferne alle."
 			},
 
 			cost: ["Grass"],

@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "Shiny particles are released from its wings like a veil. It is said to represent the crescent moon.",
+		de: "Seine Flügel geben schimmernde Partikel ab, wie einen Schleier. Man sagt, es steht für die Mondsichel."
 	},
 
 	thirdParty: {

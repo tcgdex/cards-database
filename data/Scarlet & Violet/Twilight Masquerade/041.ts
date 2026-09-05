@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "Its legs are newly grown, and it can't walk very well. It seems to prefer swimming through the water instead.",
+		de: "Da sich seine Beine gerade erst herausgebildet haben, kann es noch nicht gut laufen. Es scheint lieber im Wasser zu schwimmen."
 	},
 
 	variants: [

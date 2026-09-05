@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Houndoom E4",
-		fr: "Demolosse  Niv. 52",
+		fr: "Demolosse 4 Niv. 52",
 		de: "Hundemon 4"
 	},
 	illustrator: "Masakazu Fukuda",
@@ -34,7 +34,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le  Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				fr: "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
 				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 20,

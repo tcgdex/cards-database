@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "Only female Salandit can produce gas laden with pheromones. Males entranced by this gas will do whatever the females tell them.",
+		de: "Die Weibchen produzieren ein pheromonhaltiges Gas. Kommt ein Männchen damit in Kontakt, gehorcht es dem Weibchen aufs Wort."
 	},
 
 	variants: [

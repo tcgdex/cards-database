@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Metagross δ",
 		fr: "Metalosse δ",
-		de: "Metagross"
+		de: "Metagross δ"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -26,7 +26,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Metang",
-		fr: "Metang"
+		fr: "Métang"
 	},
 
 	stage: "Stage2",

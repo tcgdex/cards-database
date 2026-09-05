@@ -39,7 +39,7 @@ const card: Card = {
 			es: "Una vez durante tu turno, puedes buscar en tu baraja 1 carta de Energía Grass y unirla a 1 de tus Pokémon. Después, baraja las cartas de tu baraja. Si usas esta habilidad, tu turno termina.",
 			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo una carta Energia Grass e assegnarla a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo. Se usi questa abilità, il tuo turno finisce.",
 			pt: "Once during your turn, you may search your deck for a Grass Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck. If you use this Ability, your turn ends.",
-			de: "Einmal während deines Zuges kannst du dein Deck nach 1 Grass-Energiekarte durchsuchen und sie an 1 deiner Pokémon anlegen. Mische anschließend dein Deck. Wenn du diese Fähigkeit einsetzt, endet dein Zug."
+			de: "Einmal während deines Zuges kannst du dein Deck nach 1 {G}-Energiekarte durchsuchen und sie an 1 deiner Pokémon anlegen. Mische anschließend dein Deck. Wenn du diese Fähigkeit einsetzt, endet dein Zug."
 		}
 	}],
 
@@ -82,6 +82,14 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 574031,
 				tcgplayer: 246685
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['player-rewards-program'],
+			thirdParty: {
+				cardmarket: 574031,
+				tcgplayer: 475975
 			}
 		},
 	],

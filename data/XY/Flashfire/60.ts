@@ -46,7 +46,7 @@ const card: Card = {
 				es: "Tempestad de Espinas",
 				it: "Spintempesta",
 				pt: "Tempestade de Espinhos",
-				de: "Stachelsturm"
+				de: "Dornengewitter"
 			},
 			effect: {
 				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may put 1 damage counter on each of your opponent's Pokémon.",
@@ -79,7 +79,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño más por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
 				it: "Questo attacco infligge 20 danni in più per ogni Energia Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
 				pt: "Esse ataque causa 20 de danos adicionais para cada Colorless no Custo para Recuar do Pokémon Ativo do seu oponente.",
-				de: "Dieser Angriff fügt 20 weitere Schadenspunkte für jedes Colorless-Symbol in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
+				de: "Dieser Angriff fügt 20 weitere Schadenspunkte für jedes {C}-Symbol in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
 			},
 			damage: "20+",
 
@@ -104,6 +104,7 @@ const card: Card = {
 
 	description: {
 		en: "It is encased in a steel shell. Its peering eyes are all that can be seen of its mysterious innards.",
+		de: "Dieses Pokémon ist von einer Stahlhülle umgeben. Seine stechenden Augen sind alles, was man von ihm sieht."
 	},
 
 	thirdParty: {

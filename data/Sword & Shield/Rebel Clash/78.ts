@@ -65,7 +65,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Watch your step when wandering areas oceans once covered. What looks like a stone could be this Pokémon, and it will curse you if you kick it."
+		en: "Watch your step when wandering areas oceans once covered. What looks like a stone could be this Pokémon, and it will curse you if you kick it.",
+		de: "Man findet es oft an Orten, die vor langer Zeit vom Meer bedeckt waren. Wer es mit einem Stein verwechselt und herumkickt, wird verflucht."
 	},
 
 	variants: [

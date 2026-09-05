@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Seedot",
-		fr: "Grainipiot"
+		fr: "Grainipiot",
+		de: "Samurzel"
 	},
 
 	stage: "Stage1",
@@ -37,12 +38,12 @@ const card: Card = {
 			name: {
 				en: "Steady Punch",
 				fr: "Poing énergétique",
-				de: "Steady Punch"
+				de: "Ruhiger Schlag"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts.",
-				de: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -56,7 +57,7 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch'herbe",
-				de: "Razor Leaf"
+				de: "Rasierblatt"
 			},
 
 			damage: 40,

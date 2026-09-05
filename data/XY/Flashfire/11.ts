@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, busca en tu baraja hasta 3 cartas de Energía Básica y únelas a este Pokémon. Baraja las cartas de tu baraja después.",
 				it: "Lancia una moneta. Se esce testa, cerca nel tuo mazzo fino a tre carte Energia base e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
 				pt: "Jogue uma moeda. Se sair cara, procure em seu baralho até 3 cards de Energia básica e ligue-os a esse Pokémon. Em seguida, embaralhe seus cards.",
-				de: "Wirf 1 Münze. Durchsuche bei \"Kopf\" dein Deck nach bis zu 3 Basis-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+				de: "Wirf 1 Münze. Durchsuche bei „Kopf“ dein Deck nach bis zu 3 Basis-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},

@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Dracaufeu-V",
-		en: "Charizard V"
+		en: "Charizard V",
+		de: "Glurak V"
 	},
 
 	attacks: [{

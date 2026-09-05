@@ -62,7 +62,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Almost all of its body is its stomach. Its harsh digestive juices quickly dissolve anything it swallows."
+		en: "Almost all of its body is its stomach. Its harsh digestive juices quickly dissolve anything it swallows.",
+		de: "Sein Körper besteht fast nur aus Magen. Seine starken Verdauungssäfte zersetzen alles sehr schnell."
 	},
 
 	variants: [

@@ -35,7 +35,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -48,11 +49,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Take Down",
-				fr: "Bélier"
+				fr: "Bélier",
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "This Pokémon does 10 damage to itself.",
-				fr: "Ce Pokémon s'inflige 10 dégâts."
+				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				de: "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -70,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "The long hair around its face provides an amazing radar that lets it sense subtle changes in its surroundings.",
+		de: "Das lange Fell um sein Gesicht fungiert als Hightech-Radar, mit dem es fein säuberlich seine Umgebung abtastet."
 	},
 
 	thirdParty: {

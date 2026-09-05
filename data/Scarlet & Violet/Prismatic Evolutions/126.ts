@@ -22,7 +22,7 @@ const card: Card = {
 		es: "El Coste de Retirada del Pokémon al que esté unida esta carta es de {C} menos. Si a ese Pokémon le quedan 30 PS o menos, no tiene ningún Coste de Retirada.",
 		pt: "O custo de Recuo do Pokémon ao qual esta carta está ligada é {C} a menos. Se o PS restante daquele Pokémon for 30 ou menos, ele não terá custo de Recuo.",
 		it: "Il costo di ritirata del Pokémon a cui è assegnata questa carta è ridotto di {C}. Se i PS rimanenti di quel Pokémon sono 30 o meno, non ha costo di ritirata.",
-		de: "Die Rückzugskosten des Pokémon, an das diese Karte angelegt ist, verringern sich um {C}. Wenn jenes Pokémon 30 oder weniger verbleibende KP hat, hat es keine Rückzugskosten."
+		de: "Die Rückzugskosten des Pokémon, an das diese Karte angelegt ist, verringern sich um {C}. Wenn jenes Pokémon 30 oder weniger verbleibende KP hat, hat es keine Rückzugskosten. Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt."
 	},
 
 	trainerType: "Tool",

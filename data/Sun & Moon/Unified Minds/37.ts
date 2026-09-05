@@ -58,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "It feeds mainly on ice and snow. It's only able to survive in a limited number of places in the warm Alola region.",
+		de: "Es ernährt sich hauptsächlich von Eis und Schnee. Im warmen Alola kann es daher nur an wenigen Orten überleben."
 	},
 
 	thirdParty: {

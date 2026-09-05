@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Latios δ",
 		fr: "Latios δ",
-		de: "Latios"
+		de: "Latios δ"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If you have Latias or Latias ex in play, the attack cost of Latios's Psychic Force is now Lightning Metal Colorless.",
-				fr: "Si vous avez un Latias ou un Latias ex en jeu, le Coût de l'attaque Force psychique de Latios est maintenant .",
+				fr: "Si vous avez un Latias ou un Latias ex en jeu, le Coût de l'attaque Force psychique de Latios est maintenant {L}{M}{C}.",
 				de: "Wenn du Latias oder Latias ex im Spiel hast, kostet Latios Psychomacht nur noch   ."
 			},
 		},

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Roba 2 cartas. Si a tu rival le quedan exactamente 1, 3 o 5 cartas de Premio, roba 2 cartas más.",
 		it: "Pesca due carte. Se il tuo avversario ha esattamente una, tre o cinque carte Premio rimanenti, pesca altre due carte.",
 		pt: "Compre 2 cartas. Se o seu oponente tiver exatamente 1, 3 ou 5 cartas de Prêmio restantes, compre 2 cartas a mais.",
-		de: "Ziehe 2 Karten. Wenn dein Gegner genau 1, 3 oder 5 verbleibende Preiskarten hat, ziehe 2 Karten mehr."
+		de: "Ziehe 2 Karten. Wenn dein Gegner genau 1, 3 oder 5 verbleibende Preiskarten hat, ziehe 2 Karten mehr. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

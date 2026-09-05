@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Rapidash E4",
-		fr: "Galopa  Niv. 53",
+		fr: "Galopa 4 Niv. 53",
 		de: "Gallopa 4"
 	},
 	illustrator: "Masakazu Fukuda",
@@ -32,7 +32,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. For each heads, search your discard pile for a basic Energy card, show it to your opponent, and put it into your hand.",
 				fr: "Lancez 3 pièces. Pour chaque face, choisissez dans votre pile de défausse une carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main.",
-				de: "Wirf 3 Münzen. Durchsuche pro \"Kopf\" deinen Ablagestapel nach 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand."
+				de: "Wirf 3 Münzen. Durchsuche pro „Kopf“ deinen Ablagestapel nach 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand."
 			},
 
 		},

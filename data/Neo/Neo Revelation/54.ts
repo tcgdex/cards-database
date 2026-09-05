@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, choose a Special Energy card attached to 1 of your opponent's Pokémon. Your opponent shuffles that card into his or her deck.",
 				fr: "Lancez une pièce. Si c'est face, choisissez une carte Énergie Spéciale attachée à l'un des Pokémon de votre adversaire. Votre adversaire mélange ensuite cette carte à son deck.",
-				de: "Wirf eine Münze. Wähle bei 'Kopf' eine Spezial-Energiekarte, die an ein Pokémon deines Gegners angelegt ist. Dein Gegner mischt diese Karte in sein Deck."
+				de: "Wirf eine Münze. Wähle bei „Kopf“ eine Spezial-Energiekarte, die an ein Pokémon deines Gegners angelegt ist. Dein Gegner mischt diese Karte in sein Deck."
 			},
 
 		},
@@ -46,7 +46,8 @@ const card: Card = {
 
 	description: {
 		en: "It always rocks its head slowly backwards and forwards as if it is trying to kiss someone.",
-		fr: "Il remue toujours la tête d'avant en arrière comme s'il essayait de faire des bisous."
+		fr: "Il remue toujours la tête d'avant en arrière comme s'il essayait de faire des bisous.",
+		de: "Es bewegt seinen Kopf immer langsam nach vorne und wieder zurück, als ob es versuchen würde, jemand zu küssen."
 	},
 
 

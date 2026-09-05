@@ -69,7 +69,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its heart-shaped body makes it popular. In some places, you would give a Luvdisc to someone you love."
+		en: "Its heart-shaped body makes it popular. In some places, you would give a Luvdisc to someone you love.",
+		de: "Seine Herzform macht es beliebt. In einigen Gegenden schenken sich Liebende noch heute LIEBISKUS."
 	},
 
 	variants: [

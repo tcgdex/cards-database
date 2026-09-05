@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cyndaquil",
-		fr: "Héricendre"
+		fr: "Héricendre",
+		de: "Feurigel"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Show the top card of your opponent's deck to all players. If it's a Trainer card, discard it.",
 				fr: "Montrez la carte du dessus du deck de votre adversaire à tous les joueurs, si c'est une carte Dresseur, défaussez-vous en.",
-				de: "Zeige die oberste Karte deines Decks deines Gegners allen Spielern. Wenn es eine Trainer-Karte ist, lege diese auf seinen Ablagestapel."
+				de: "Zeige die oberste Karte des Decks deines Gegners allen Spielern. Wenn es eine Trainer-Karte ist, lege diese auf seinen Ablagestapel."
 			},
 
 		},
@@ -61,8 +62,8 @@ const card: Card = {
 
 			effect: {
 				en: "Discard the top 5 cards of your deck. (If there are fewer than 5 cards in your deck, discard all of them.) This attack does 20 damage for each Energy card you discarded in this way.",
-				fr: "Défaussez-vous des 5 premières cartes du dessus de votre deck. (Si vous avez moins de 5 cartes dans votre deck, défaussez-vous de toutes.) Cette attaque inflige 20 dégâts pour chaque carte Énergie  défaussée de cette manière.",
-				de: "Lege die obersten 5 Karten deines Decks auf deinen Ablagestapel. (Wenn weniger als 5 Karten in deinem Deck sind, lege sie alle ab.) Dieser Angriff fügt für jede so abgeworfene -Energiekarte 20 Schadenspunkte zu."
+				fr: "Défaussez-vous des 5 premières cartes du dessus de votre deck. (Si vous avez moins de 5 cartes dans votre deck, défaussez-vous de toutes.) Cette attaque inflige 20 dégâts pour chaque carte Énergie {R} défaussée de cette manière.",
+				de: "Lege die obersten 5 Karten deines Decks auf deinen Ablagestapel. (Wenn weniger als 5 Karten in deinem Deck sind, lege sie alle ab.) Dieser Angriff fügt für jede so abgeworfene {R}-Energiekarte 20 Schadenspunkte zu."
 			},
 
 			damage: "20x"
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "If it turns its back to an opponent, it is a sign that it is getting ready to attack.",
-		fr: "S'il tourne le dos à son adversaire, c'est signe qu'il se prépare à attaquer."
+		fr: "S'il tourne le dos à son adversaire, c'est signe qu'il se prépare à attaquer.",
+		de: "Wenn es einem Gegner den Rücken zukehrt, ist das ein Anzeichen dafür, dass es sich auf einen Angriff vorbereitet."
 	},
 
 

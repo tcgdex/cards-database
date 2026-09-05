@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Karrablast",
-		fr: "Carabing"
+		fr: "Carabing",
+		de: "Laukaps"
 	},
 
 	stage: "Stage1",
@@ -40,11 +41,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Joust",
-				fr: "Joute"
+				fr: "Joute",
+				de: "Lanzenstich"
 			},
 			effect: {
 				en: "Before doing damage, discard a Pokémon Tool card attached to the Defending Pokémon.",
-				fr: "Avant d'infliger des dégâts, défaussez une carte Outil Pokémon au Pokémon Défenseur."
+				fr: "Avant d'infliger des dégâts, défaussez une carte Outil Pokémon au Pokémon Défenseur.",
+				de: "Lege, bevor du Schaden zufügst, 1 an das Verteidigende Pokémon angelegte Pokémon-Ausrüstung auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 
@@ -57,11 +60,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Cavalry Lance",
-				fr: "Lance de Chevalier"
+				fr: "Lance de Chevalier",
+				de: "Kavallerielanze"
 			},
 			effect: {
 				en: "During your opponent's next turn, this Pokémon has no Weakness.",
-				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon n'a pas de Faiblesse."
+				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon n'a pas de Faiblesse.",
+				de: "Während des nächsten Zuges deines Gegners hat dieses Pokémon keine Schwäche."
 			},
 			damage: 70,
 
@@ -86,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "They fly around at high speed, striking with their pointed spears. Even when in trouble, they face opponents bravely.",
+		de: "Jagt durch die Luft und spießt Gegner mit seinen Lanzen auf. Auch überlegenen Gegnern stellt es sich ohne Furcht."
 	},
 
 	thirdParty: {

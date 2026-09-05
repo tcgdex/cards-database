@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Baltoy",
 		fr: "Balbuto",
+		de: "Puppance"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Rapid Spin",
 				fr: "Tour Rapide",
+				de: "Turbodreher"
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pok��mon.",
 				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc. Ensuite, votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus. Danach tauscht dein Gegner das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 30,
 
@@ -59,10 +62,12 @@ const card: Card = {
 			name: {
 				en: "Rock Smash",
 				fr: "Éclate-Roc",
+				de: "Zertrümmerer"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -80,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "An ancient clay figurine that came to life as a Pokémon from exposure to a mysterious ray of light.",
+		de: "Eine antike Lehmstatue, die durch ein mysteriöses Licht zum Leben erwacht ist."
 	},
 
 	thirdParty: {

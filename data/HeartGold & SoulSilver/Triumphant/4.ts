@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Skorupi",
-		fr: "Rapion"
+		fr: "Rapion",
+		de: "Pionskora"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d’un seul sur ce Pokémon entre deux tours.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf dieses Pokémon."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf dieses Pokémon."
 			},
 			damage: 40,
 
@@ -83,7 +84,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It attacks people and Pokémon that cross the desert. This has only furthered its bad reputation."
+		en: "It attacks people and Pokémon that cross the desert. This has only furthered its bad reputation.",
+		de: "Menschen wie Pokémon fürchten PIONDRAGI, das alle angreift, die wagen, die Wüste zu durchqueren."
 	},
 
 	variants: [		{

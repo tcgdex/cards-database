@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Spheal",
-		fr: "Obalie"
+		fr: "Obalie",
+		de: "Seemops"
 	},
 
 	stage: "Stage1",
@@ -61,7 +62,8 @@ const card: Card = {
 
 	description: {
 		en: "It habitually spins things on its nose. By doing so, it learns textures and odors.",
-		fr: "Il fait souvent tourner des objets sur son museau pour connaitre leur odeur et leur texture."
+		fr: "Il fait souvent tourner des objets sur son museau pour connaitre leur odeur et leur texture.",
+		de: "Es balanciert Dinge auf seiner Nase. Dabei lernt es etwas über die Beschaffenheit und den Geruch."
 	},
 
 	thirdParty: {

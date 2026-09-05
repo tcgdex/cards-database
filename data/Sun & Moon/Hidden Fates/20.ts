@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Raichu GX",
 		fr: "Raichu-GX",
+		de: "Raichu-GX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -25,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pikachu",
 		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	suffix: "GX",
@@ -39,6 +41,7 @@ const card: Card = {
 			name: {
 				en: "Thunderbolt",
 				fr: "Tonnerre",
+				de: "Donnerblitz"
 			},
 
 			damage: 120,
@@ -53,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Spark Ball GX",
 				fr: "Boule Étincelles-GX",
+				de: "Zündball-GX"
 			},
 			effect: {
 				en: "(You can’t use more than 1 GX attack in a game.)",
 				fr: "(Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				de: "(Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: 200,
 

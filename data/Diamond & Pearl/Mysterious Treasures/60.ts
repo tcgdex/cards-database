@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cyndaquil",
-		fr: "Héricendre"
+		fr: "Héricendre",
+		de: "Feurigel"
 	},
 
 	stage: "Stage1",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to Quilava.",
 				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Feurisson.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" lege 1 an Igelavar angelegte -Energie auf deinen Ablagestapel."
+				de: "Wirf 1 Münze. Bei „Zahl“ lege 1 an Igelavar angelegte {R}-Energie auf deinen Ablagestapel."
 			},
 			damage: 40,
 
@@ -62,7 +63,8 @@ const card: Card = {
 
 	description: {
 		en: "It intimidates foes with the heat of its flames. The fire burn more strongly when it readies to fight.",
-		fr: "La chaleur de ses flammes intimide l'ennemi. Elles s'intensifient lorsqu'il se prépare à combattre."
+		fr: "La chaleur de ses flammes intimide l'ennemi. Elles s'intensifient lorsqu'il se prépare à combattre.",
+		de: "Es bedroht seine Gegner mit der Hitze seiner Flammen. Ist es kampfbereit, lodern sie stärker."
 	},
 
 	thirdParty: {

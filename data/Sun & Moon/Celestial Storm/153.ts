@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Combusken",
 		fr: "Galifeu",
+		de: "Jungglut"
 	},
 
 	suffix: "GX",
@@ -71,7 +72,7 @@ const card: Card = {
 				es: "Descarta 2 Energías Fire de este Pokémon.",
 				it: "Scarta due Energie Fire assegnate a questo Pokémon.",
 				pt: "Descarte 2 Energias Fire deste Pokémon.",
-				de: "Lege 2 Fire-Energien von diesem Pokémon auf deinen Ablagestapel."
+				de: "Lege 2 {R}-Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 210,
 

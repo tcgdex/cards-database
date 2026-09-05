@@ -62,7 +62,7 @@ const card: Card = {
 				es: "Lanzamiento de Rocas",
 				it: "Scaglia Pietre",
 				pt: "Lançamento de Pedras",
-				de: "Steinschleuderer"
+				de: "Steinschleuder"
 			},
 			effect: {
 				en: "This attack’s damage isn’t affected by Resistance.",
@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "They battle with hard berries for weapons. Their techniques are passed from the boss to the group, generation upon generation.",
+		de: "Es setzt eine harte Beere im Kampf ein. Diese Technik wird vom Anführer der Gruppe von Generation zu Generation weitervererbt."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Spearow",
 		fr: "Piafabec",
+		de: "Habitak"
 	},
 
 	stage: "Stage1",
@@ -78,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "Carrying food through Fearow's territory is dangerous. It will snatch the food away from you in a flash!",
+		de: "Wer Essbares dabeihat, sollte sich nicht in Ibitaks Revier begeben, da sonst ein Überfall aus heiterem Himmel droht."
 	},
 
 	thirdParty: {

@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -48,10 +49,12 @@ const card: Card = {
 			name: {
 				en: "String Shot",
 				fr: "Sécrétion",
+				de: "Fadenschuss"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 
 		},
@@ -68,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "Leavanny dress it in clothes they made for it when it hatched. It hides its head in its hood while it is sleeping.",
+		de: "Gleich nach dem Schlüpfen näht Matrifol ihm ein Kleidchen. Wenn es schläft, verbirgt es den Kopf unter einer Haube."
 	},
 
 	thirdParty: {

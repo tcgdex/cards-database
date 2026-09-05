@@ -92,10 +92,23 @@ const card: Card = {
 	description: {
 		en: "On the night of a full moon, if shadows move on their own and laugh, it must be Gengar's doing."
 	},
-
-	thirdParty: {
-		cardmarket: 505880
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 665984,
+				tcgplayer: 285257
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				tcgplayer: 607368
+			}
+		},
+	],
 }
 
 export default card

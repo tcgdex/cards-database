@@ -35,7 +35,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Low Kick",
-				fr: "Balayage"
+				fr: "Balayage",
+				de: "Fußkick"
 			},
 
 			damage: 10,
@@ -49,7 +50,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Hammer In",
-				fr: "Enfoncer"
+				fr: "Enfoncer",
+				de: "Einhämmern"
 			},
 
 			damage: 30,
@@ -68,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon appear at building sites and help out with construction. They always carry squared logs.",
+		de: "Trägt stets einen Holzbalken bei sich. Es taucht hier und da auf Baustellen auf und hilft dort den Arbeitern aus."
 	},
 
 	thirdParty: {

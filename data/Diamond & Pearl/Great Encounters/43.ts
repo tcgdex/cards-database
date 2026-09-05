@@ -4,7 +4,7 @@ import Set from '../Great Encounters'
 const card: Card = {
 	name: {
 		en: "Linoone",
-		fr: "Lineon",
+		fr: "Linéon",
 		de: "Geradaks"
 	},
 
@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Zigzagoon",
 		fr: "Zigzaton",
+		de: "Zigzachs"
 	},
 
 	stage: "Stage1",
@@ -75,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "It charges prey at speeds over 60 mph. However, because it can only run straight, it often fails.",
+		de: "Es stürzt sich mit 100 km/h auf Beute. Aber es kann nur geradeaus laufen und die Jagd misslingt oft."
 	},
 
 	thirdParty: {

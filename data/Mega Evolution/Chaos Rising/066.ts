@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Thanks to the slimy membrane covering its body punches or kicks from its enemies slide right off it.",
+		de: "Sein von einer glitschigen Schleimhaut umhüllter Körper lässt gegnerische Tritte und Schläge abgleiten."
 	},
 
 

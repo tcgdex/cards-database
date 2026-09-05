@@ -42,20 +42,6 @@ const card: Card = {
 			damage: "80＋",
 
 		},
-		{
-			cost: [
-				"Darkness",
-				"Darkness",
-			],
-			name: {
-				fr: "Aile du Désastre",
-			},
-			effect: {
-				fr: "Défaussez la carte du dessus du deck de votre adversaire. Si c'est une carte Dresseur, cette attaque inflige 80 dégâts supplémentaires.",
-			},
-			damage: "80＋",
-
-		},
 	],
 	weaknesses: [
 		{

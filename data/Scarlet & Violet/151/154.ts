@@ -23,6 +23,7 @@ const card: Card = {
 		name: {
 			fr: "Protection Ambre",
 			en: "Amber Protection",
+			es: "Protección Ámbar",
 			it: "Ambradifesa",
 			pt: "Proteção Âmbar",
 			de: "Bernsteinschutz"
@@ -31,6 +32,7 @@ const card: Card = {
 		effect: {
 			fr: "Évitez tous les effets des talents des Pokémon de votre adversaire infligés à ce Pokémon.",
 			en: "Prevent all effects of your opponent's Pokémon's Abilities done to this Pokémon.",
+			es: "Se evitan todos los efectos de las habilidades de los Pokémon de tu rival infligidos a este Pokémon.",
 			it: "Previeni tutti gli effetti delle abilità dei Pokémon del tuo avversario inflitti a questo Pokémon.",
 			pt: "Previna todos os efeitos de Habilidades dos Pokémon do seu oponente causados a este Pokémon.",
 			de: "Verhindere alle Effekte von Fähigkeiten der Pokémon deines Gegners, die diesem Pokémon zugefügt werden."
@@ -43,21 +45,11 @@ const card: Card = {
 		es: "Juega esta carta como si fuera un Pokémon {C} Básico de 60 PS. Esta carta no puede verse afectada por ninguna Condición Especial y no puede retirarse.\n\nEn cualquier momento durante tu turno, puedes descartar esta carta del juego.",
 		it: "Gioca questa carta come se fosse un Pokémon Base {C} con 60 PS. Questa carta non può essere influenzata da condizioni speciali e non può ritirarsi.\nDurante il tuo turno, in qualsiasi momento, puoi scartare questa carta dal gioco.",
 		pt: "Jogue esta carta como se fosse um Pokémon {C} Básico com PS 60. Esta carta não pode ser afetada por quaisquer Condições Especiais e não pode recuar.\nA qualquer momento, durante o seu turno, você poderá descartar esta carta do jogo.",
-		de: "Spiele diese Karte, als ob sie ein Basis-{C}-Pokémon mit 60 KP wäre. Diese Karte kann von keinen Speziellen Zuständen betroffen werden und sich nicht zurückziehen.\nDu kannst diese Karte jederzeit während deines Zuges aus dem Spiel nehmen und auf deinen Ablagestapel legen."
+		de: "Spiele diese Karte, als ob sie ein Basis-{C}-Pokémon mit 60 KP wäre. Diese Karte kann von keinen Speziellen Zuständen betroffen werden und sich nicht zurückziehen. Du kannst diese Karte jederzeit während deines Zuges aus dem Spiel nehmen und auf deinen Ablagestapel legen."
 	},
 
 	trainerType: "Item",
 	regulationMark: "G",
-
-	attacks: [{
-		name: {
-			es: "Protección Ámbar"
-		},
-
-		effect: {
-			es: "Se evitan todos los efectos de las habilidades de los Pokémon de tu rival infligidos a este Pokémon."
-		}
-	}],
 
 	variants: [
 		{

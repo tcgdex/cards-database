@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Primeape δ",
 		fr: "Colossinge δ",
-		de: "Rasaff"
+		de: "Rasaff δ"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Mankey",
-		fr: "Férosinge"
+		fr: "Férosinge",
+		de: "Menki"
 	},
 
 	stage: "Stage1",

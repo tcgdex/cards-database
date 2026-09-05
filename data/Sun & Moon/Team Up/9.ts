@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "It gets into territorial disputes with Vikavolt. For some reason, it apparently gets along well with Heracross in Alola.",
+		de: "Es liefert sich Revierkämpfe mit Donarion. Aus noch unbekannten Gründen versteht es sich in Alola ausgesprochen gut mit Skaraborn."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Aron",
 		fr: "Galekid",
+		de: "Stollunior"
 	},
 
 	stage: "Stage1",
@@ -42,6 +43,7 @@ const card: Card = {
 			name: {
 				en: "Metal Claw",
 				fr: "Griffe Acier",
+				de: "Metallklaue"
 			},
 
 			damage: 30,
@@ -56,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Wreak Havoc",
 				fr: "Ravages",
+				de: "Chaos anrichten"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. For each heads, discard the top card of your opponent's deck.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Pour chaque côté face, défaussez la carte du dessus du deck de votre adversaire.",
+				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Lege pro „Kopf“ die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 60,
 
@@ -84,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "For food, it digs up iron ore. It smashes it steely body against others to fight over territory.",
+		de: "Es ernährt sich von Eisenerz. Um sein Revier zu sichern, setzt es seinen harten Körper ein."
 	},
 
 	thirdParty: {

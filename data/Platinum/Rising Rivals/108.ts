@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Infernape E4 LV.X",
-		fr: "Simiabraz  Niv. X",
+		fr: "Simiabraz 4 Niv. X",
 		de: "Panferno 4"
 	},
 	illustrator: "Ryo Ueda",
@@ -30,7 +30,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may have your opponent switch his or her Active Pokémon with 1 of his or her Benched Pokémon. This power can't be used if Infernape E4 is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez demander à votre adversaire d'échanger son Pokémon Actif avec 1 des Pokémon de son Banc. Ce pouvoir ne peut pas être utilisé si Simiabraz  est affecté par un État Spécial.",
+				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez demander à votre adversaire d'échanger son Pokémon Actif avec 1 des Pokémon de son Banc. Ce pouvoir ne peut pas être utilisé si Simiabraz 4 est affecté par un État Spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du deinen Gegner das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank austauschen lassen. Diese Poké-Power kann nicht benutzt werden, wenn Panferno 4 von einem Speziellen Zustand betroffen ist."
 			}
 		},
@@ -49,8 +49,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 2 Energy attached to Infernape E4.",
-				fr: "Défaussez 2 Énergies attachées à Simiabraz .",
-				de: "Lege 2 an Panferno 4 angelegte Energien auf deinen Ablagestapel."
+				fr: "Défaussez 2 Énergies attachées à Simiabraz 4.",
+				de: "Lege 2 an Panferno E4 angelegte Energien auf deinen Ablagestapel."
 			},
 			damage: 100,
 

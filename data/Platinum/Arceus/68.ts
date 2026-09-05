@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 
 		},
@@ -62,7 +62,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It toughens its body by slamming into thick trees. Many snapped trees can be found near its nest."
+		en: "It toughens its body by slamming into thick trees. Many snapped trees can be found near its nest.",
+		de: "Es stärkt seinen Körper, indem es gegen Bäume rennt. In seiner Nähe finden sich viele umgekippte Bäume."
 	},
 
 	variants: [

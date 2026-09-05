@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Farfetch’d",
 		fr: "Canarticho",
+		de: "Porenta"
 	},
 	illustrator: "Eri Yamaki",
 	rarity: "Uncommon",
@@ -31,6 +32,7 @@ const card: Card = {
 			name: {
 				en: "Leek Slap",
 				fr: "Coup d’Oignon",
+				de: "Lauchschlag"
 			},
 
 			damage: 30,
@@ -56,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "The plant stalk it holds is its weapon. The stalk is used like a sword to cut all sorts of things.",
+		de: "Dieses Pokémon nutzt eine Lauchstange als Waffe. Es setzt sie wie ein Schwert ein."
 	},
 }
 

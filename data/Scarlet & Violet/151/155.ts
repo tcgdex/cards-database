@@ -22,7 +22,7 @@ const card: Card = {
 		es: "El Pokémon de Fase 2 al que esté unida esta carta no tiene ningún Coste de Retirada.",
 		it: "Il Pokémon di Fase 2 a cui è assegnata questa carta non ha costo di ritirata.",
 		pt: "O Pokémon Estágio 2 ao qual esta carta está ligada não tem custo de Recuo.",
-		de: "Das Phase-2-Pokémon, an das diese Karte angelegt ist, hat keine Rückzugskosten."
+		de: "Das Phase-2-Pokémon, an das diese Karte angelegt ist, hat keine Rückzugskosten. Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt."
 	},
 
 	trainerType: "Tool",

@@ -49,8 +49,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy card attached to Torchic.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une carte Énergie  attachée à Poussifeu.",
-				de: "Wirf eine Münze. Entferne bei \"Zahl\" eine -Energiekarte von Flemmli."
+				fr: "Lancez une pièce. Si c'est pile, défaussez une carte Énergie {R} attachée à Poussifeu.",
+				de: "Wirf eine Münze. Entferne bei „Zahl“ eine {R}-Energiekarte von Flemmli."
 			},
 			damage: 30,
 

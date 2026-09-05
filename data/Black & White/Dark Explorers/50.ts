@@ -35,11 +35,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Supersonic",
-				fr: "Ultrason"
+				fr: "Ultrason",
+				de: "Superschall"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -50,7 +52,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Heart Stamp",
-				fr: "Crèvecœur"
+				fr: "Crèvecœur",
+				de: "Herzstempel"
 			},
 
 			damage: 20,
@@ -76,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "Suction from its nostrils enables it to stick to cave walls during sleep. It leaves a heart-shaped mark behind.",
+		de: "Wenn es schläft, saugt es sich mit seinem Nasenloch an einer Höhlenwand fest und hinterlässt dort eine herzförmige Spur."
 	},
 
 	thirdParty: {

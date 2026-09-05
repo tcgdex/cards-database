@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
+		de: "Es fügt seiner Schale schichtenweise Baumrinde hinzu. Die zusätzliche Belastung ist ihm gleich."
 	},
 
 	thirdParty: {

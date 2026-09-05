@@ -55,7 +55,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It wraps prey up with its heated body, cooking them in its coils. Once they're well-done, it will voraciously nibble them down to the last morsel."
+		en: "It wraps prey up with its heated body, cooking them in its coils. Once they're well-done, it will voraciously nibble them down to the last morsel.",
+		de: "Es nimmt Beute mit seinem aufgeheizten Körper in die Mangel. Sobald sie gut durchgebraten ist, frisst es sie genüsslich."
 	},
 
 	variants: [

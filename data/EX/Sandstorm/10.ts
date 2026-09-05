@@ -4,7 +4,7 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Sableye",
-		fr: "Tenefix",
+		fr: "Ténéfix",
 		de: "Zobiris"
 	},
 
@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Supernatural",
 				fr: "Surnaturel",
-				de: "Supernatural"
+				de: "Übernatürlich"
 			},
 			effect: {
 				en: "Look at your opponent's hand. You may use the effect of a Supporter card you find there as the effect of this attack. (The Supporter card remains in your opponent's hand.)",
 				fr: "Regardez la main de votre adversaire. Vous pouvez utiliser l'effet d'une carte Supporter pour cette attaque. (Votre adversaire garde la carte Supporter en main).",
-				de: "Look at your opponent's hand. You may use the effect of a Supporter card you find there as the effect of this attack. (The Supporter card remains in your opponent's hand.)"
+				de: "Schau dir die Handkarten deines Gegners an. Falls du dort eine Unterstützerkarte findest, kannst du ihren Effekt als Effekt dieses Angriffs nutzen. (Die Unterstützerkarte bleibt auf der Hand deines Gegners.)"
 			},
 
 		},
@@ -48,12 +48,12 @@ const card: Card = {
 			name: {
 				en: "Dark Bind",
 				fr: "Sombre étreinte",
-				de: "Dark Bind"
+				de: "Dunkle Bindung"
 			},
 			effect: {
 				en: "You may discard a Darkness Energy card attached to Sableye. If you do, the Defending Pokémon is now Paralyzed.",
-				fr: "Vous pouvez défausser une carte Énergie  attachée à Tenefix. Dans ce cas, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "You may discard a  Energy card attached to Sableye. If you do, the Defending Pokémon is now Paralyzed."
+				fr: "Vous pouvez défausser une carte Énergie {D} attachée à Tenefix. Dans ce cas, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Du kannst eine {D}-Energiekarte, die an Zobiris angelegt ist, auf den Ablagestapel legen. Wenn du das machst, ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 

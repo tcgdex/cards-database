@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Mankey δ",
 		fr: "Férosinge δ",
-		de: "Menki"
+		de: "Menki δ"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},

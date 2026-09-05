@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "It hides food under its long body hair. However, it forgets it has hidden the food.",
+		de: "Unter seinem langen Fell versteckt es Nahrung. Aber es vergisst, dass es sie dort versteckt hat."
 	},
 
 	thirdParty: {

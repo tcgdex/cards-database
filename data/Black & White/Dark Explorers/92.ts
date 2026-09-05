@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Si esta carta está unida a un Pokémon Darkness, cada uno de los ataques de ese Pokémon hace 20 puntos de daño más a los Pokémon Activos (antes de aplicar Debilidad y Resistencia).",
 		it: "Se questa carta è assegnata a un Pokémon Darkness, tutti gli attacchi di quel Pokémon infliggono 20 danni in più al Pokémon attivo, prima di aver applicato debolezza e resistenza,.",
 		pt: "Se este card estiver ligado a um Pokémon Darkness, cada um dos ataques desse Pokémon causará 20 de danos adicionais ao Pokémon Ativo (antes de aplicar Fraqueza e Resistência).",
-		de: "Wenn diese Karte an ein Darkness Pokémon angelegt ist, fügen alle Angriffe dieses Pokémon den Aktiven Pokémon 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn diese Karte an ein {D}-Pokémon angelegt ist, fügen alle Angriffe dieses Pokémon den Aktiven Pokémon 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden). Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	thirdParty: {

@@ -95,18 +95,25 @@ const card: Card = {
 
 	dexId: [573],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 437169
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 437169,
+				tcgplayer: 208266
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				tcgplayer: 208267
+			}
+		},
+	],
 }
 
 export default card

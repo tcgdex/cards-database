@@ -54,6 +54,7 @@ const card: Card = {
 
 	description: {
 		en: "It blasts enemies with cold air reaching −148 degrees Fahrenheit, freezing them solid. But it spares their lives afterward—it's a kind Pokémon.",
+		de: "Dieses Pokémon ist gutmütig. Es friert zwar Gegner mit kalter Luft von -100 ºC ein, raubt ihnen aber nie das Leben."
 	},
 
 	variants: [

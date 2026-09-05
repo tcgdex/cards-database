@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "It lies around all day, becoming active near dusk. At night, it wanders the city in search of loose change.",
+		de: "Tagsüber ist es faul und schläft ständig. Erst nach Sonnenuntergang wird es aktiv und durchstöbert die Stadt nach Münzen."
 	},
 
 	thirdParty: {

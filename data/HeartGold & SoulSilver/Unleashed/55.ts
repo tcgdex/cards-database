@@ -72,7 +72,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It usually forages for food on the ground but may, on rare occasions, hop onto branches to peck at shoots."
+		en: "It usually forages for food on the ground but may, on rare occasions, hop onto branches to peck at shoots.",
+		de: "Gewöhnlich sucht es am Boden nach Futter, aber manchmal springt es auch auf Äste, um dort zu suchen."
 	},
 
 	variants: [

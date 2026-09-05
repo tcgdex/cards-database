@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Totodile",
 		fr: "Kaiminus",
+		de: "Karnimani"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Fury Strikes",
 				fr: "Attaques Furieuses",
+				de: "Zornschläge"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10×",
 
@@ -52,7 +55,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is small but rough and tough. It won’t hesitate to take a bite out of anything that moves."
+		en: "It is small but rough and tough. It won’t hesitate to take a bite out of anything that moves.",
+		de: "Es ist klein, aber zäh und stark. Es zögert nicht, jeden anzugreifen, wenn dieser ihm zu nahe kommt."
 	},
 
     variants: [

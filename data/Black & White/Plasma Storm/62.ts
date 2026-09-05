@@ -38,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Hex",
 				fr: "Châtiment",
+				de: "Bürde"
 			},
 			effect: {
 				en: "If the Defending Pokémon is affected by a Special Condition, this attack does 50 more damage.",
 				fr: "Si le Pokémon Défenseur est affecté par un État Spécial, cette attaque inflige 50 dégâts supplémentaires.",
+				de: "Wenn das Verteidigende Pokémon von einem Speziellen Zustand betroffen ist, fügt dieser Angriff 50 weitere Schadenspunkte zu."
 			},
 			damage: 50,
 
@@ -56,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Shadow Claw",
 				fr: "Griffe Ombre",
+				de: "Dunkelklaue"
 			},
 			effect: {
 				en: "Discard a random card from your opponent's hand.",
 				fr: "Défaussez au hasard une carte de la main de votre adversaire.",
+				de: "Nimm 1 zufällige Karte aus der verdeckten Hand deines Gegners und lege sie auf dessen Ablagestapel."
 			},
 			damage: 90,
 
@@ -77,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
+		de: "Es wurde aufgrund seines Verhaltens verbannt. Aus der Zerrwelt schaut es auf die alte Welt."
 	},
 
 	thirdParty: {

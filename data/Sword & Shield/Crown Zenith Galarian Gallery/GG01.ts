@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "An enigmatic Pokémon that happens to bear a resemblance to a Poké Ball. When excited, it discharges the electric current it has stored in its belly, then lets out a great, uproarious laugh.",
+		de: "Ein rätselhaftes Pokémon, das rein zufällig einem Pokéball ähnelt. Je mehr Aufregung es verspürt, desto mehr seiner im Bauch gelagerten Elektrizität setzt es herzhaft lachend frei."
 	},
 
 	

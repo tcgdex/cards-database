@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Mudkip",
-		fr: "Gobou"
+		fr: "Gobou",
+		de: "Hydropi"
 	},
 
 	stage: "Stage1",
@@ -38,8 +39,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "When you attach a Water Energy card from your hand to Marshtomp, remove all Special Conditions from Marshtomp.",
-				fr: "Lorsque vous attachez une carte Énergie  de votre main à Flobio, retirez-lui tous ses États Spéciaux.",
-				de: "Wenn du eine -Energiekarte an Moorabbel anlegst, verlieren alle Speziellen Zustände auf Moorabbel ihre Wirkung."
+				fr: "Lorsque vous attachez une carte Énergie {W} de votre main à Flobio, retirez-lui tous ses États Spéciaux.",
+				de: "Wenn du eine {W}-Energiekarte an Moorabbel anlegst, verlieren alle Speziellen Zustände auf Moorabbel ihre Wirkung."
 			}
 		},
 	],

@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Nap",
 				fr: "Tit'Sieste",
+				de: "Nickerchen"
 			},
 			effect: {
 				en: "Heal 20 damage from this Pokémon.",
 				fr: "Soignez 20 dégâts à ce Pokémon.",
+				de: "Heile 20 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -52,6 +54,7 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch'Herbe",
+				de: "Rasierblatt"
 			},
 
 			damage: 30,
@@ -77,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "The shell on its back is made of soil. On a very healthy Turtwig, the shell should feel moist.",
+		de: "Der Panzer auf seinem Rücken besteht aus Erdreich. Bei gesunden Chelast ist der Panzer feucht."
 	},
 
 	thirdParty: {

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Drowzee",
-		fr: "Soporifik"
+		fr: "Soporifik",
+		de: "Traumato"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Look at up to 3 cards from the top of either player's deck and rearrange them as you like.",
 				fr: "Regardez jusqu'à 3 cartes du dessus du deck d'un des deux joueurs et réarrangez-les comme bon vous semble.",
-				de: "Schaue dir bis zu drei der obersten Karten vom Deck deines Gegners oder deinem eigenen Deck an und lege sie in beliebiger Reihenfolge wieder auf das Deck zurück."
+				de: "Schaue dir bis zu drei der obersten Karten vom Deck deines Gegners oder deinem eigenen Deck an, und lege sie in beliebiger Reihenfolge wieder auf das Deck zurück."
 			},
 
 		},
@@ -79,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "When it locks eyes with an enemy, it will use a mix of psi moves such as Hypnosis and Confusion.",
-		fr: "En fixant son adversaire, il l'assaille avec les attaques Psy Hypnose et Convulsion."
+		fr: "En fixant son adversaire, il l'assaille avec les attaques Psy Hypnose et Convulsion.",
+		de: "Wenn es den Gegner ins Auge fasst, setzt es eine Mischung aus Psi-Bewegungen wie Hypnose und Verwirrung ein."
 	},
 
 

@@ -1,4 +1,4 @@
-import Set from "."
+import Set from "../SC1a"
 import { Card } from "../../../interfaces"
 
 const card: Card = {
@@ -8,7 +8,9 @@ const card: Card = {
 		'zh-tw': "燈籠魚"
 	},
 
+	dexId: [170],
 	illustrator: "Sumiyoshi Kizuki",
+	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Lightning"],

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Voltorb",
 		fr: "Voltorbe",
+		de: "Voltobal"
 	},
 
 	suffix: "GX",
@@ -84,7 +85,7 @@ const card: Card = {
 				es: "Arrasar y Quemar GX",
 				it: "Spacca e Brucia-GX",
 				pt: "Esmagar e Queimar GX",
-				de: "Falten und Frittieren GX"
+				de: "Falten und Frittieren-GX"
 			},
 			effect: {
 				en: "Discard any amount of Energy from your Pokémon. This attack does 50 more damage for each card you discarded in this way. (You can’t use more than 1 GX attack in a game.)",

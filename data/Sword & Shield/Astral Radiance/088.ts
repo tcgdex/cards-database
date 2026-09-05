@@ -61,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "Fishers detest this troublesome Pokémon because it sprays poison from its spines, getting it everywhere. A different form of Qwilfish lives in other regions.",
+		de: "Fischer verabscheuen dieses Pokémon, da es über seine Stacheln Gift abgibt. In anderen Regionen ansässige Exemplare weisen eine unterschiedliche Form auf."
 	},
 
 	variants: [

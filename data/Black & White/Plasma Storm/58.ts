@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Koffing",
 		fr: "Smogo",
+		de: "Smogon"
 	},
 
 	stage: "Stage1",
@@ -64,10 +65,12 @@ const card: Card = {
 			name: {
 				en: "Smogbank",
 				fr: "Smog Envahissant",
+				de: "Smogbank"
 			},
 			effect: {
 				en: "This attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 20 dégâts à chacun des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt jedem Pokémon deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -84,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Inhaling toxic fumes from trash and mixing them inside its body lets it spread an even fouler stench.",
+		de: "Es saugt giftige Abgase aus dem Müll auf, die sich in seinem Körper zu einem noch übleren Gestank vermischen."
 	},
 
 	thirdParty: {

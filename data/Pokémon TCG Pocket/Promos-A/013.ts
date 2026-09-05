@@ -64,7 +64,9 @@ const card: Card = {
 	hp: 120,
 
 	evolveFrom: {
-		en: "Metapod"
+		en: "Metapod",
+		fr: "Chrysacier",
+		de: "Safcon"
 	},
 
 	description: {
@@ -72,7 +74,7 @@ const card: Card = {
 		fr: "En combat, il bat des ailes très rapidement pour\nprojeter de la poudre toxique sur ses ennemis.",
 		es: "Aletea a gran velocidad para lanzar al aire\nsus escamas extremadamente tóxicas.",
 		it: "Sbatte le ali a gran velocità per liberare\nle sue polveri tossiche nell'aria.",
-		de: "Wenn es sehr schnell mit den Flügeln schlägt,\nsetzt es hochgiftigen Flügelstaub frei.",
+		de: "Wenn es sehr schnell mit den Flügeln schlägt, setzt es hochgiftigen Flügelstaub frei.",
 		'pt-br': "Durante as batalhas, bate as asas muito rápido\npara liberar uma poeira altamente tóxica no ar.",
 		ko: "매우 빠르게 날갯짓하면\n맹독성의 인분이\n바람을 타고 날아간다."
 	},

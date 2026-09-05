@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Litwick",
 		fr: "Funécire",
+		de: "Lichtel"
 	},
 
 	stage: "Stage1",
@@ -42,6 +43,7 @@ const card: Card = {
 			name: {
 				en: "Live Coal",
 				fr: "Charbon Mutant",
+				de: "Glühende Kohlen"
 			},
 
 			damage: 20,
@@ -56,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Searing Flame",
 				fr: "Flammes Calcinantes",
+				de: "Sengende Flammen"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
 				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt."
 			},
 			damage: 40,
 
@@ -77,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "The spirits it absorbs fuel its baleful fire. It hangs around hospitals waiting for people to pass on.",
+		de: "Es nährt seine Flamme mit den Seelen seiner Opfer. Heutzutage irrt es auf der Suche nach Seelen durch Krankenhäuser."
 	},
 
 	thirdParty: {

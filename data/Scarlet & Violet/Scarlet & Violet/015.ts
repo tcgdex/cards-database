@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Floragato",
-		fr: "Matourgeon"
+		fr: "Matourgeon",
+		de: "Feliospa"
 	},
 
 	stage: "Stage2",
@@ -85,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon uses the reflective fur lining its cape to camouflage the stem of its flower, creating the illusion that the flower is floating.",
+		de: "Es erweckt den Eindruck, als würde seine Blume schweben, indem es ihren Stiel mit der Reflexion des Fells an der Innenseite seines Mantels tarnt."
 	},
 
 	thirdParty: {

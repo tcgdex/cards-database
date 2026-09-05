@@ -4,7 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Meditite",
-		fr: "Meditikka",
+		fr: "Méditikka",
 		de: "Meditie"
 	},
 
@@ -21,10 +21,6 @@ const card: Card = {
 		"Fighting"
 	],
 
-	evolveFrom: {
-		en: "Meditite",
-	},
-
 	stage: "Basic",
 
 	attacks: [
@@ -35,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Punch",
 				fr: "Koud'poing",
-				de: "Punch"
+				de: "Boxhieb"
 			},
 
 			damage: 10,
@@ -49,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Meditate",
 				fr: "Yoga",
-				de: "Meditate"
+				de: "Meditation"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
 				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur le Pokémon Défenseur.",
-				de: "Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+				de: "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf dem Verteidigenden Pokémon zu."
 			},
 			damage: "10+",
 

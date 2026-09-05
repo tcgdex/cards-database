@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Descarta 1 Energía Grass del Pokémon Activo de tu rival.",
 				it: "Scarta un’Energia Grass assegnata al Pokémon attivo del tuo avversario.",
 				pt: "Descarte 1 Energia Grass do Pokémon Ativo do seu oponente.",
-				de: "Lege 1 Grass-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+				de: "Lege 1 {G}-Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 10,
 
@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "The males will do whatever the females tell them. They give the females most of their food. Due to malnutrition, the males can't evolve.",
+		de: "Das Männchen ist dem Weibchen hörig. Da es diesem fast seine gesamte Beute gibt, leidet es an Unterernährung und entwickelt sich nicht."
 	},
 
 	thirdParty: {

@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Poliwag",
-		fr: "Ptitard"
+		fr: "Ptitard",
+		de: "Quapsel"
 	},
 
 	stage: "Stage1",
@@ -72,7 +73,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The skin on most of its body is moist. However, the skin on its belly spiral feels smooth."
+		en: "The skin on most of its body is moist. However, the skin on its belly spiral feels smooth.",
+		de: "Der Großteil seiner Haut ist feucht. Dennoch ist die Haut um seine Spirale glatt und weich."
 	},
 
 	variants: [

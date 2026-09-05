@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Si este Pokémon está Dormido, lanza 2 monedas en vez de 1 entre turnos. Si sale cruz en alguna de ellas, este Pokémon está todavía Dormido.",
 				it: "Se questo Pokémon è addormentato, tra un turno e l'altro, lancia due volte una moneta invece di una. Se esce almeno una volta croce, questo Pokémon resta addormentato.",
 				pt: "Se este Pokémon estiver Adormecido, jogue 2 moedas em vez de 1 entre as vezes de jogar. Se alguma delas for coroa, esse Pokémon permanecerá Adormecido.",
-				de: "Wenn dieses Pokémon schläft, wirf zwischen den Zügen 2 Münzen anstelle von 1 Münze. Wenn eine oder beide Münzen \"Zahl\" zeigen, schläft dieses Pokémon weiter."
+				de: "Wenn dieses Pokémon schläft, wirf zwischen den Zügen 2 Münzen anstelle von 1 Münze. Wenn eine oder beide Münzen „Zahl“ zeigen, schläft dieses Pokémon weiter."
 			},
 		},
 	],
@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
+		de: "Es ist erst satt, wenn es über 400 kg Nahrung am Tag gefressen hat. Ist es mit dem Essen fertig, schläft es sofort ein."
 	},
 
 	thirdParty: {

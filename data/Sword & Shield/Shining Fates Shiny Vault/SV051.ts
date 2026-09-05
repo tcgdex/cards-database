@@ -53,7 +53,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its upper whiskers are sensors that survey its surroundings. Its lower whiskers are organs that shoot electricity."
+		en: "Its upper whiskers are sensors that survey its surroundings. Its lower whiskers are organs that shoot electricity.",
+		de: "Seine oberen Schnurrhaare dienen ihm als Sensoren zum Abtasten der Umgebung. Seine unteren Schnurrhaare erzeugen Elektrizität."
 	},
 
 	variants: [

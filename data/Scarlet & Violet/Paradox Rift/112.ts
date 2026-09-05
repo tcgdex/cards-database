@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon flaps its four wings skillfully. Crobat can fly through cramped caves without needing to slow down.",
+		de: "Seine vier Flügel können unabhängig voneinander schlagen. So vermag es auch in engen Höhlen ohne Geschwindigkeitsverlust umherzufliegen."
 	},
 
 	variants: [

@@ -45,17 +45,18 @@ const card: Card = {
 		en: "The sight of it running over 6,200 miles in a single day and night has captivated many people.",
 	},
 
+	regulationMark: "F",
+
 	variants: [
 		{
 			type: "normal",
 			stamp: ["illustration-contest-2022"],
 			thirdParty: {
+				cardmarket: 690366,
 				tcgplayer: 485844
-			},
+			}
 		},
 	],
-
-	regulationMark: "F"
 }
 
 export default card

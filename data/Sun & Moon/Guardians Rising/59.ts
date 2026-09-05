@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Los ataques de tus Pokémon Metal hacen 10 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 				it: "Gli attacchi dei tuoi Pokémon Metal infliggono 10 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
 				pt: "Os ataques dos seus Pokémon Metal causam 10 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
-				de: "Die Attacken deiner Metal-Pokémon fügen dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+				de: "Die Attacken deiner {M}-Pokémon fügen dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 		},
 	],
@@ -96,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "Swinging its massive anchor, it can KO Wailord in a single blow. What appears to be green seaweed is actually its body.",
+		de: "Wenn es seinen riesigen Anker schwingt, kann es sogar ein Wailord mit einem Schlag K.O. hauen. Der grüne Seetang ist sein Körper."
 	},
 
 	thirdParty: {

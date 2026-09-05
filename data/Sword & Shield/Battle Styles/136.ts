@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Mientras el Pokémon al que esté unida esta carta esté en el Puesto Activo, las Herramientas Pokémon unidas al Pokémon Activo de tu rival no tienen efecto, excepto Inhibidor de Herramientas.",
 		it: "Fintanto che il Pokémon a cui è assegnata questa carta è in posizione attiva, le carte Oggetto Pokémon assegnate al Pokémon attivo del tuo avversario non hanno effetto, a eccezione di Bloccoggetti.",
 		pt: "Enquanto o Pokémon ao qual esta carta está ligada estiver no Campo Ativo, Ferramentas Pokémon ligadas ao Pokémon Ativo do seu oponente não têm efeito, exceto por Bloqueador de Ferramentas.",
-		de: "Solange das Pokémon, an das diese Karte angelegt ist, in der Aktiven Position ist, haben an das Aktive Pokémon deines Gegners angelegte Pokémon-Ausrüstungen keinen Effekt, außer Ausrüstungsstörer."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Solange das Pokémon, an das diese Karte angelegt ist, in der Aktiven Position ist, haben an das Aktive Pokémon deines Gegners angelegte Pokémon-Ausrüstungen keinen Effekt, außer Ausrüstungsstörer. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

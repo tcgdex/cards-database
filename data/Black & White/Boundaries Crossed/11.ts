@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Vine Whip",
 				fr: "Fouet Lianes",
+				de: "Rankenhieb"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Cut",
 				fr: "Coupe",
+				de: "Zerschneider"
 			},
 
 			damage: 20,
@@ -67,6 +69,7 @@ const card: Card = {
 
 	description: {
 		en: "It is very intelligent and calm. Being exposed to lots of sunlight makes its movements swifter.",
+		de: "Eine kühle Denkernatur. Bekommt es genügend Sonnenlicht ab, erhöht sich die Geschwindigkeit seiner Bewegungen."
 	},
 
 	thirdParty: {

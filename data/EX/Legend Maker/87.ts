@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Flygon ex",
 		fr: "Libegon ex",
-		de: "Libelldra ex"
+		de: "Libelldra-ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Vibrava",
-		fr: "Vibraninf"
+		fr: "Vibraninf",
+		de: "Vibrava"
 	},
 
 	suffix: "ex",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn, when you play Flygon ex from your hand to evolve 1 of your Pokémon, you may search your discard pile for up to 2 Energy cards and attach them to Flygon ex.",
 				fr: "Une seule fois lors de votre tour, lorsque vous jouez Libegon ex de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez choisir dans votre pile de défausse jusqu'à 2 cartes Énergie et les attacher à Libegon ex.",
-				de: "Einmal während deines Zuges, wenn du Libelldra ex von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du deinen Ablagestapel noch bis zu 2 Energiekarten durchsuchen und sie an Libelldra ex anlegen."
+				de: "Einmal während deines Zuges, wenn du Libelldra ex von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du deinen Ablagestapel nach bis zu 2 Energiekarten durchsuchen und sie an Libelldra ex anlegen."
 			},
 		},
 	],

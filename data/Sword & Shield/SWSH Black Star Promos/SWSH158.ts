@@ -14,12 +14,17 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	regulationMark: "E",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 572158,
+				tcgplayer: 248890
+			}
+		},
+	],
 
 	name: {
 		en: "Greninja V-UNION",
@@ -78,7 +83,7 @@ const card: Card = {
 
 		effect: {
 			en: "Attach up to 2 Water Energy cards from your discard pile to this Pokémon.",
-			fr: "Attachez jusqu'à 2 cartes Énergie  de votre pile de défausse à ce Pokémon."
+			fr: "Attachez jusqu'à 2 cartes Énergie {W} de votre pile de défausse à ce Pokémon."
 		}
 	}, {
 		cost: ["Water"],
@@ -116,14 +121,8 @@ const card: Card = {
 			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite."
 		}
 	}],
-
-	regulationMark: "E",
 	suffix: "V",
-	retreat: 0,
-
-	thirdParty: {
-		cardmarket: 572155
-	}
+	retreat: 0
 }
 
 export default card

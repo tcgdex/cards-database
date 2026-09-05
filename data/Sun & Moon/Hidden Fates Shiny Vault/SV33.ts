@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Kartana",
 		fr: "Katagami",
+		de: "Katagami"
 	},
 	illustrator: "Anesaki Dynamic",
 	rarity: "Shiny rare",
@@ -31,10 +32,12 @@ const card: Card = {
 			name: {
 				en: "Divine Paper",
 				fr: "Papier Sublime",
+				de: "Himmelspapier"
 			},
 			effect: {
 				en: "If your opponent has exactly 6 Prize cards remaining, this attack does 90 more damage.",
 				fr: "S’il reste exactement 6 cartes Récompense à votre adversaire, cette attaque inflige 90 dégâts supplémentaires.",
+				de: "Wenn dein Gegner genau 6 verbleibende Preiskarten hat, fügt diese Attacke 90 Schadenspunkte mehr zu."
 			},
 			damage: 40,
 
@@ -59,6 +62,7 @@ const card: Card = {
 
 	description: {
 		en: "One of the Ultra Beast life-forms, it was observed cutting down a gigantic steel tower with one stroke of its blade.",
+		de: "Diese Ultrabestie wurde dabei beobachtet, wie sie einen riesigen stählernen Turm mit nur einem Hieb ihrer Klingen zerteilte."
 	},
 }
 

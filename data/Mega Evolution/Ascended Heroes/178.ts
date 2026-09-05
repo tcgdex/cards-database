@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "The shell is made of crystallized Terastal energy. When struck by a move, this shell absorbs the move’s energy and transfers it to Terapagos.",
+		de: "Wird sein Terakristall-Panzer von einer gegnerischen Attacke getroffen, absorbiert es deren Energie und macht sie sich zu eigen."
 	},
 
 	variants: [

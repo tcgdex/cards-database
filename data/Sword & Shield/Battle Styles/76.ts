@@ -55,7 +55,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "They seclude themselves in the mountains and devote themselves to training. The form of their kicks and chops differs from pack to pack."
+		en: "They seclude themselves in the mountains and devote themselves to training. The form of their kicks and chops differs from pack to pack.",
+		de: "Mit seiner Gruppe zieht es sich tief in die Berge zurück, um dort zu trainieren. Jede der Gruppen entwickelt eigene Schlag- und Tritt-Techniken."
 	},
 
 	variants: [

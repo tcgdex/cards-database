@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Poliwhirl",
 		fr: "Têtarte",
+		de: "Quaputzi"
 	},
 
 	stage: "Stage2",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "They gather on moonlit nights to form a large chorus. Their cries sound angry and not at all pleasant, but they are certainly distinctive.",
+		de: "In klaren Mondnächten versammeln sie sich und singen im Chor. Ihr Gesang ist zwar nicht schön und klingt eher wie Geschrei, aber er hat Stil."
 	},
 
 	thirdParty: {

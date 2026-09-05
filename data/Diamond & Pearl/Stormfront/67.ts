@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Magnemite",
-		fr: "Magneti",
+		fr: "Magnéti",
 		de: "Magnetilo"
 	},
 
@@ -78,7 +78,8 @@ const card: Card = {
 
 	description: {
 		en: "The units at its sides generate electromagnetic waves that keep it airborne. It feeds on electricity.",
-		fr: "Ses extrémités génèrent les vagues électromagnétiques qui le font voler. Il se nourrit d'électricité."
+		fr: "Ses extrémités génèrent les vagues électromagnétiques qui le font voler. Il se nourrit d'électricité.",
+		de: "Die Vorrichtungen an seinem Körper generieren elektromagnetische Wellen, die es schweben lassen."
 	},
 
 	thirdParty: {

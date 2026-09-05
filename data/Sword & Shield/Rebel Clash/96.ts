@@ -71,7 +71,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It hunts without twitching a muscle by pulling in its prey with powerful magnetism. But sometimes it pulls natural enemies in close."
+		en: "It hunts without twitching a muscle by pulling in its prey with powerful magnetism. But sometimes it pulls natural enemies in close.",
+		de: "Es nutzt sein starkes Magnetfeld, um Beute zu sich heranzuziehen. Ebenso zieht es Objekte aus Eisen an, um sich mit ihnen zu schützen."
 	},
 
 	variants: [

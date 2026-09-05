@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Pachirisu fait partie des Pokémon aux joues électriques.\nIl libère l'énergie qu'il accumule par la queue.",
 		es: "Forma parte del grupo de Pokémon que\nposee bolsas de electricidad en las mejillas.\nDescarga por la cola la electricidad que acumula.",
 		it: "Appartiene alla tipologia di Pokémon\nmuniti di sacche elettriche sulle guance.\nRilascia dalla coda l'elettricità accumulata.",
-		de: "Pachirisu ist eines der Pokémon, die mit ihren\nBackentaschen Elektrizität erzeugen. Den so\ngesammelten Strom gibt es über den Schweif ab.",
+		de: "Pachirisu ist eines der Pokémon, die mit ihren Backentaschen Elektrizität erzeugen. Den so gesammelten Strom gibt es über den Schweif ab.",
 		'pt-br': "É um dos tipos de Pokémon com bolsas elétricas\nnas bochechas. Ele dispara cargas de sua cauda.",
 		ko: "볼에 전기 주머니를 가진 포켓몬의 일종.\n꼬리에 모인 전기를 방출한다."
 	},

@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "δ Rainbow Energy",
 		fr: "Énergie Multicolore δ",
-		de: "Delta Regenbogen-Energie"
+		de: "δ Regenbogen-Energie"
 	},
 
 	illustrator: "Takumi Akabane",
@@ -16,7 +16,7 @@ const card: Card = {
 
 	effect: {
 		en: "δ Rainbow Energy provides Colorless Energy. While attached to a Pokémon that has δ on its card, δ Rainbow Energy provides every type of Energy but provides only 1 Energy at a time. (Has no effect other than providing Energy.)",
-		de: "δ Regenbogen-Energie liefert  Energie. Wenn sie an ein Pokémon angelegt ist, auf dem δ zu sehen ist, zählt sie als jede beliebige Basis-Energietyp, spendet aber immer nur 1 Energie auf einmal. (Sie hat keinen Effekt, außer dass sie Energie spendet.)",
+		de: "δ Regenbogen-Energie liefert {C} Energie. Wenn sie an ein Pokémon angelegt ist, auf dem δ zu sehen ist, zählt sie als jede beliebige Basis-Energietyp, spendet aber immer nur 1 Energie auf einmal. (Sie hat keinen Effekt, außer dass sie Energie spendet.)",
 		fr: "Énergie Multicolore δ fournit de l'Énergie Incolore. Lorsqu'elle est attachée à un Pokémon possédant le symbole δ, elle fournit tous les types d'Énergie mais seulement 1 Énergie à la fois. (Elle n'a pas d'autre effet que de fournir de l'Énergie.)",
 	},
 

@@ -49,6 +49,7 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon nest in the ground and use their tusks to crush hard berries. Crushing berries is also how they test each other's strength.",
+		de: "Sie wohnen in Löchern, die sie selbst graben. Ab und an veranstalten sie mit harten Beeren Wettbewerbe, wer die stärksten Fangzähne hat."
 	},
 
 	variants: [

@@ -4,7 +4,7 @@ import Set from '../Triumphant'
 const card: Card = {
 	name: {
 		en: "Elekid",
-		fr: "Elekid",
+		fr: "Élekid",
 		de: "Elekid"
 	},
 
@@ -59,7 +59,8 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Even in the most vicious storm, this Pokémon plays happily if thunder rumbles in the sky."
+		en: "Even in the most vicious storm, this Pokémon plays happily if thunder rumbles in the sky.",
+		de: "Im schlimmsten Sturm, mit Blitzen und Donnergetöse, fühlt sich dieses Pokémon am wohlsten."
 	},
 
 	variants: [

@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Banette ex",
 		fr: "Branette ex",
-		de: "Banette ex"
+		de: "Banette-ex"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shuppet",
-		fr: "Polichombr"
+		fr: "Polichombr",
+		de: "Shuppet"
 	},
 
 	suffix: "ex",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), if Banette ex is your Active Pokémon, you may move 1 damage counter from either player's Pokémon to another Pokémon (yours or your opponent's). This power can't be used if Banette ex is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), si Branette ex est votre Pokémon Actif, vous pouvez déplacer 1 marqueur de dégât d'1 Pokémon de n'importe quel joueur sur 1 autre Pokémon (les vôtres ou ceux de votre adversaire). Ce pouvoir ne peut pas être utilisé si Branette ex est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff), wenn Banette ex dein Aktives Pokémon ist, verschiebe 1 Schadensmarke von 1 Pokémon (deines oder deines Gegners) auf ein anderes Pokémon (deines oder deines Gegners). Diese Poké-Power kann nicht benutzt werden, wenn Banette ex von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff), wenn Banette ex dein Aktives Pokémon ist, verschiebe 1 Schadensmarke von 1 Pokémon (deins oder deines Gegners) auf ein anderes Pokémon (deins oder deines Gegners). Diese Poké-Power kann nicht benutzt werden, wenn Banette ex von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],

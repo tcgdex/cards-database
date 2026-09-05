@@ -78,7 +78,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Fire Energy attached to Houndoom.",
-				fr: "Défaussez une Énergie  attachée à Demolosse.",
+				fr: "Défaussez une Énergie {R} attachée à Demolosse.",
 				de: "Discard a  Energy attached to Houndoom."
 			},
 			damage: 70,

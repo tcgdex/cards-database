@@ -4,7 +4,7 @@ import Set from '../Diamond & Pearl'
 const card: Card = {
 	name: {
 		en: "Elekid",
-		fr: "Elekid",
+		fr: "Élekid",
 		de: "Elekid"
 	},
 
@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Search your deck for a Lightning Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck une carte Énergie Lightning, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach einer -Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+				de: "Durchsuche dein Deck nach einer {L}-Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -76,7 +76,8 @@ const card: Card = {
 
 	description: {
 		en: "It generates electricity by whirling its arms. However, it can't store the energy it makes.",
-		fr: "Il génère de l'électricité en battant des bras, mais il n'a aucun moyen de stocker cette énergie."
+		fr: "Il génère de l'électricité en battant des bras, mais il n'a aucun moyen de stocker cette énergie.",
+		de: "Es bewegt seine Arme und generiert damit Elektrizität. Diese kann es aber nicht speichern."
 	},
 
 	thirdParty: {

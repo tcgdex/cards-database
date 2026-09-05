@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Aerodactyl ex",
 		fr: "Ptera ex",
-		de: "Aerodactyl ex"
+		de: "Aerodactyl-ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -24,7 +24,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Mysterious Fossil",
-		fr: "Mystérieux fossile"
+		fr: "Mystérieux fossile",
+		de: "Geheimnis-Fossil"
 	},
 
 	suffix: "ex",

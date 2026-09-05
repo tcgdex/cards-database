@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sunkern",
-		fr: "Tournegrin"
+		fr: "Tournegrin",
+		de: "Sonnkern"
 	},
 
 	stage: "Stage1",
@@ -39,12 +40,12 @@ const card: Card = {
 			name: {
 				en: "Reflected Sunlight",
 				fr: "Reflet du soleil",
-				de: "Reflected Sunlight"
+				de: "Reflektiertes Sonnenlicht"
 			},
 			effect: {
 				en: "Attach up to 2 Energy cards from your hand to 1 of your Pokémon.",
-				fr: "Attachez jusqu'à 2 cartes Énergie  de votre main à l'un de vos Pokémon .",
-				de: "Attached up to 2  Energy cards from your hand to 1 of your  Pokémon."
+				fr: "Attachez jusqu'à 2 cartes Énergie {G} de votre main à l'un de vos Pokémon {G}.",
+				de: "Lege bis zu zwei 2 {G}-Energiekarten aus deiner Hand an eines deiner {G}-Pokémon an."
 			},
 
 		},
@@ -57,7 +58,7 @@ const card: Card = {
 			name: {
 				en: "Solarbeam",
 				fr: "Lance-soleil",
-				de: "Solarbeam"
+				de: "Solarstrahl"
 			},
 
 			damage: 40,
@@ -76,7 +77,8 @@ const card: Card = {
 
 	description: {
 		en: "Although it is extremely active during the day, it stops moving entirely as soon as the sun sets.",
-		fr: "Bien qu'extrêmement actif durant la journée, il cesse de bouger dès que le soleil se couche."
+		fr: "Bien qu'extrêmement actif durant la journée, il cesse de bouger dès que le soleil se couche.",
+		de: "Obwohl es tagsüber unheimlich aktiv ist, bewegt es sich gar nicht mehr, sobald die Sonne untergegangen ist."
 	},
 
 

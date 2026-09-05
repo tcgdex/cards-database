@@ -76,7 +76,7 @@ const card: Card = {
 				es: "Descarta 1 Energía Fire unida a este Pokémon.",
 				it: "Scarta un'Energia Fire assegnata a questo Pokémon.",
 				pt: "Descarte uma Energia Fire ligada a este Pokémon.",
-				de: "Lege 1 an dieses Pokémon angelegte Fire-Energie auf deinen Ablagestapel."
+				de: "Lege 1 an dieses Pokémon angelegte {R}-Energie auf deinen Ablagestapel."
 			},
 			damage: 90,
 
@@ -94,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "It lashes about with its tail to knock down its foe. It then tears up the fallen opponent with sharp claws.",
+		de: "Es schlägt im Kampf mit seinem Schwanz nach seinen Gegnern. Anschließend zerfetzt es die Gegner mit seinen scharfen Klauen."
 	},
 
 	thirdParty: {

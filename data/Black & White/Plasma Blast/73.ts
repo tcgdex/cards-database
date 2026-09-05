@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Porygon",
 		fr: "Porygon",
+		de: "Porygon"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Destructive Beam",
 				fr: "Rayon Désintégrateur",
+				de: "Zerstörungsstrahler"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				de: "Wirf 1 Münze. Lege bei „Kopf“ 1 an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 
@@ -63,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "It was upgraded to enable the exploration of other planets. However, it failed to measure up.",
+		de: "Wurde zur Erforschung anderer Planeten weiterentwickelt. Diesem Anspruch wurde es nicht gerecht."
 	},
 
 	thirdParty: {

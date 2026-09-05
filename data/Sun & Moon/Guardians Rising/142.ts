@@ -87,7 +87,7 @@ const card: Card = {
 				es: "Gran Rueda GX",
 				it: "Gran Carosello-GX",
 				pt: "Roda Grande GX",
-				de: "Riesenrad GX"
+				de: "Riesenrad-GX"
 			},
 			effect: {
 				en: "Shuffle your hand into your deck. Then, draw 10 cards. (You can’t use more than 1 GX attack in a game.)",

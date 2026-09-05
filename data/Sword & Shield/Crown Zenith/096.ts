@@ -26,7 +26,7 @@ const card: Card = {
 		es: "Zacian V",
 		it: "Zacian-V",
 		pt: "Zacian V",
-		de: "Zacian-V"
+		de: "Zacian VSTAR"
 	},
 
 	stage: "VSTAR",

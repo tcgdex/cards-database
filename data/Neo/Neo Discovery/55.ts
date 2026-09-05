@@ -57,7 +57,8 @@ const card: Card = {
 
 	description: {
 		en: "Its body is so light, it must grip the ground firmly with its feet to keep from being blown away.",
-		fr: "Son corps est si léger qu'il doit s'accrocher fermement au sol avec ses pattes pour éviter d'être emporté par le vent."
+		fr: "Son corps est si léger qu'il doit s'accrocher fermement au sol avec ses pattes pour éviter d'être emporté par le vent.",
+		de: "Sein Körper ist so leicht, dass es sich mit seinen Füßen am Boden festkrallen muss, um nicht davongeweht zu werden."
 	},
 
 

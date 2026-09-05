@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "Using air of -150 degrees Fahrenheit, they freeze opponents solid. They live in herds above the snow line on mountains.",
+		de: "Es friert seine Gegner mittels eines -100 °C kalten Luftstromes ein. Mit seinen Artgenossen lebt es herdenweise auf Bergen inmitten des ewigen Eises."
 	},
 
 	thirdParty: {

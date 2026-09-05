@@ -56,7 +56,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It stores poison in an internal poison sac and secretes that poison through its skin. If you touch this Pokémon, a tingling sensation follows."
+		en: "It stores poison in an internal poison sac and secretes that poison through its skin. If you touch this Pokémon, a tingling sensation follows.",
+		de: "Das Gift aus dem Giftsack in seinem Körper sondert es über die Haut ab. Berührt man es, bekommt man einen lähmenden Schock verpasst."
 	},
 
 	variants: [

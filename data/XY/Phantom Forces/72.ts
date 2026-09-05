@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 10 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 10 danni in più.",
 				pt: "Jogue uma moeda. Se sair cara, esse ataque causará 10 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "They cannot see, so they tackle and bite to learn about their surroundings. Their bodies are covered in wounds.",
+		de: "Da es nichts sehen kann, sucht es seine Umgebung mit Rempel- und Bissattacken ab und ist immer mit Wunden übersät."
 	},
 
 	thirdParty: {

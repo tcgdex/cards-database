@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "If you have Uxie and Mesprit in play, the attack cost of each of your opponent's Basic Pokémon's attack is Colorless more. You can't use more than 1 Downer Material Poké-Body each turn.",
 				fr: "Si vous avez Créhelf ou Créfollet en jeu, le Coût d'attaque de l'attaque de chacun des Pokémon de base de votre adversaire est de Colorless de plus. Vous ne pouvez pas utiliser plus d'1 Poké-Body Matériel immobilisateur par tour.",
-				de: "Wenn du Selfe und Vesprit im Spiel hast, kosten die Angriffe der Basis-Pokémon deines Gegners 1 zusätzliche . Du kannst nicht mehr als 1 Beruhigungsmittel Poké-Body pro Zug einsetzen."
+				de: "Wenn du Selfe und Vesprit im Spiel hast, kosten die Angriffe der Basis-Pokémon deines Gegners 1 zusätzliche {C}. Du kannst nicht mehr als 1 Beruhigungsmittel Poké-Body pro Zug einsetzen."
 			},
 		},
 	],
@@ -72,7 +72,8 @@ const card: Card = {
 
 	description: {
 		en: "Known as \"The Being of Willpower.\" It sleeps at the bottom of a lake to keep the world in balance.",
-		fr: "On l'appelle \"être de la volonté\". Il dort au fond d'un lac pour maintenir l'équilibre du monde."
+		fr: "On l'appelle \"être de la volonté\". Il dort au fond d'un lac pour maintenir l'équilibre du monde.",
+		de: "„Das starke Wesen“. Es schläft auf dem Grund eines Sees und hält so die Welt in Balance."
 	},
 
 	thirdParty: {

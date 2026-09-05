@@ -27,6 +27,7 @@ const card: Card = {
 	illustrator: "nagimiso",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [555],
 	hp: 140,
 	types: ["Fire"],
 	stage: "Stage1",
@@ -92,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon’s power level rises along with the temperature of its fire, which can reach 2,500 degrees Fahrenheit.",
+		de: "Je heißer das Feuer in ihm brennt, desto mehr Kraft steht ihm zur Verfügung. Seine innere Temperatur erreicht mitunter mehr als 1 400 ºC."
 	},
 
 	variants: [

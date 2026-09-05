@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Wake-up Beam",
 				fr: "Rayon Vivifiant",
+				de: "Weckstrahl"
 			},
 			effect: {
 				en: "Remove all Special Conditions from the Defending Pokémon.",
 				fr: "Retirez tous les États Spéciaux du Pokémon Défenseur.",
+				de: "Alle Speziellen Zustände auf dem Verteidigenden Pokémon verlieren ihre Wirkung."
 			},
 			damage: 40,
 
@@ -54,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Drain Slap",
 				fr: "Baffe Sangsue",
+				de: "Watschensauger"
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
 				fr: "Soignez 30 dégâts à ce Pokémon.",
+				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 60,
 
@@ -75,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "Its auditory sense is astounding. It has radarlike ability to understand its surroundings through slight sounds.",
+		de: "Hat ein außerordentlich feines Gehör. Es tastet seine Umgebung auf jedes noch so leise Geräusch ab wie ein Radar."
 	},
 
 	thirdParty: {

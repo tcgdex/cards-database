@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shelgon",
-		fr: "Drackhaus"
+		fr: "Drackhaus",
+		de: "Draschel"
 	},
 
 	stage: "Stage2",
@@ -34,12 +35,12 @@ const card: Card = {
 			name: {
 				en: "Intimidating Fang",
 				fr: "Croc intimidant",
-				de: "Intimidating Fang"
+				de: "Beeindruckende Fangzähne"
 			},
 			effect: {
 				en: "As long as Salamence is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 10 (before applying Weakness and Resistance).",
 				fr: "Tant que Drattak est votre Pokémon Actif, les dégâts qui lui sont infligés par une attaque de votre adversaire sont réduits de 10 (avant application de la Faiblesse et de la Résistance).",
-				de: "As long as Salamence is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 10 (before applying Weakness and Resistance)."
+				de: "Solange Brutalanda dein Aktives Pokémon ist, wird aller Schaden, der deinen Pokémon durch gegnerische Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -54,12 +55,12 @@ const card: Card = {
 			name: {
 				en: "Dragon Flame",
 				fr: "Flamme de dragon",
-				de: "Dragon Flame"
+				de: "Drachenflamme"
 			},
 			effect: {
 				en: "You may discard an Energy card attached to Salamence. If you do, this attack does 40 damage plus 20 more damage.",
 				fr: "Vous pouvez défausser une carte Énergie attachée à Drattak. Cette attaque inflige alors 60 dégâts.",
-				de: "You may discard an Energy card attached to Salamence. If you do, this attack does 40 damage plus 20 more damage."
+				de: "Du kannst 1 Energiekarte, die an Brutalanda angelegt ist, auf den Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 

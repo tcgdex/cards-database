@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "Salazzle makes its opponents light-headed with poisonous gas, then captivates them with alluring movements to turn them into loyal servants.",
+		de: "Zuerst benebelt es Gegner mit Giftgas, um sie danach mit fesselnden Körperbewegungen zu betören und zu ergebenen Dienern zu machen."
 	},
 
 	variants: [

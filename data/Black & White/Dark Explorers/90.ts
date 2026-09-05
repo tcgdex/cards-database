@@ -36,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Blow Through",
-				fr: "Grosse Bourrasque"
+				fr: "Grosse Bourrasque",
+				de: "Durchdringender Strahl"
 			},
 			effect: {
 				en: "If there is any Stadium card in play, this attack does 30 more damage.",
-				fr: "S'il y a une carte Stade en jeu, cette attaque inflige 30 dégâts supplémentaires."
+				fr: "S'il y a une carte Stade en jeu, cette attaque inflige 30 dégâts supplémentaires.",
+				de: "Wenn eine Stadionkarte im Spiel ist, fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -53,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Power Blast",
-				fr: "Violente Déflagration"
+				fr: "Violente Déflagration",
+				de: "Powerschuß"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard an Energy attached to this Pokémon.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie attachée à ce Pokémon."
+				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie attachée à ce Pokémon.",
+				de: "Wirf 1 Münze. Lege bei „Zahl“ 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 100,
 
@@ -78,7 +82,13 @@ const card: Card = {
 		},
 	],
 
-	retreat: 1
+	retreat: 1,
+
+	variants: [
+		{
+			type: "holo"
+		}
+	]
 }
 
 export default card

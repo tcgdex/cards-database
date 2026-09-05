@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Rhydon",
 		fr: "Rhinoféros",
+		de: "Rizeros"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Cuando juegues este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon, puedes descartar las 3 primeras cartas de la baraja de tu rival.",
 				it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi scartare le tre carte in cima al mazzo del tuo avversario.",
 				pt: "Ao jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon, você pode descartar os 3 cards de cima do baralho do seu oponente.",
-				de: "Wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du die obersten 3 Karten vom Deck deines Gegners auf seinen Ablagestapel legen."
+				de: "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du die obersten 3 Karten vom Deck deines Gegners auf seinen Ablagestapel legen."
 			},
 		},
 	],
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "From holes in its palms, it fires out Geodude. Its carapace can withstand volcanic eruptions.",
+		de: "Es feuert Kleinstein aus seinen Handflächen. Durch seinen Schützer erträgt es sogar Vulkanausbrüche."
 	},
 
 	thirdParty: {

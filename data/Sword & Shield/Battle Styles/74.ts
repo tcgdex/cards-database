@@ -67,7 +67,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Gurdurr excels at demolition—construction is not its forte. In any case, there's skill in the way this Pokémon wields its metal beam."
+		en: "Gurdurr excels at demolition—construction is not its forte. In any case, there's skill in the way this Pokémon wields its metal beam.",
+		de: "Es ist gut im Tragen von Stahlträgern und im Abreißen von Häusern. Das Bauen dagegen liegt ihm nicht besonders."
 	},
 
 	variants: [

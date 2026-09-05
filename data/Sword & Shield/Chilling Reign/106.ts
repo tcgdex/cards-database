@@ -76,7 +76,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It is usually motionless, but when attacked, it rotates at high speed and then crashes into its opponent."
+		en: "It is usually motionless, but when attacked, it rotates at high speed and then crashes into its opponent.",
+		de: "An sich ist es harmlos. Bringt man es jedoch in Bedrängnis, setzt es sich mit blitzschnellen Rollattacken zur Wehr."
 	},
 
 	variants: [

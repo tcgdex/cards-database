@@ -9,23 +9,27 @@ const card: Card = {
 	dexId: [92],
 
 	description: {
-		en: "Should a strange light be seen flickering in an abandoned building, Gastly is lurking there."
+		en: "Should a strange light be seen flickering in an abandoned building, Gastly is lurking there.",
+		de: "Flackert in einem verlassenen alten Gebäude plötzlich ein rätselhaftes Licht auf, hält sich dort ein Nebulak versteckt."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Ominous Eyes"
+			en: "Ominous Eyes",
+			de: "Unheilvolle Augen"
 		},
 
 		effect: {
-			en: "Put 1 damage counter on 1 of your opponent’s Pokémon."
+			en: "Put 1 damage counter on 1 of your opponent’s Pokémon.",
+			de: "Lege 1 Schadensmarke auf 1 Pokémon deines Gegners."
 		}
 	}],
 
 	name: {
-		en: "Gastly"
+		en: "Gastly",
+		de: "Nebulak"
 	},
 
 	rarity: "None",

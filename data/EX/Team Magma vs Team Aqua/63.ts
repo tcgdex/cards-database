@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Kick Away",
 				fr: "Coud' pied éjecteur",
-				de: "Kick Away"
+				de: "Wegkicken"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc, s'il en a.",
-				de: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 10,
 
@@ -49,7 +49,7 @@ const card: Card = {
 			name: {
 				en: "Steady Firebreathing",
 				fr: "Crachage de feu régulier",
-				de: "Steady Firebreathing"
+				de: "Stetiger Feuerhauch"
 			},
 
 			damage: 20,

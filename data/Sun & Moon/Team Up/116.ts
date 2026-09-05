@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "It's still weak, so it lurks on the floor of bodies of water, eating whatever food sinks down and living a quiet life.",
+		de: "Dratini ist noch schwach und lebt daher ruhig und verborgen in tiefen Gewässern. Es ernährt sich von allem, was über ihm versinkt."
 	},
 
 	thirdParty: {

@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Does 10 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à chaque Pokémon de Banc de votre adversaire qui possède des marqueurs de dégât. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Fügt jedem gegnerischen Pokémon auf der Bank, auf dem bereits Schadensmarken liegen, 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Fügt jedem gegnerischen Pokémon auf der Bank, auf dem bereits Schadensmarken liegen, 10 Schadensmarken zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 50,
 

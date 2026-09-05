@@ -36,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Smash Turn",
-				fr: "Tour Fracassant"
+				fr: "Tour Fracassant",
+				de: "Abdrehender Schmetterer"
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc."
+				fr: "Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
+				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 			damage: 20,
 
@@ -65,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "Interlocking two bodies and spinning around generates the energy they need to live.",
+		de: "Es gewinnt lebenswichtige Energie, indem es seine zwei Einzelteile ineinander verzahnt und rotieren lässt."
 	},
 
 	thirdParty: {

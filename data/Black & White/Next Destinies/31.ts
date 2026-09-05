@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Beat",
 				fr: "Bataille",
+				de: "Verprügler"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Icy Snow",
 				fr: "Verglas",
+				de: "Eisiger Schnee"
 			},
 
 			damage: 20,
@@ -67,6 +69,7 @@ const card: Card = {
 
 	description: {
 		en: "The temperature of their breath is -58° F. They create snow crystals and make snow fall in the areas around them.",
+		de: "Die Temperatur seines Odems liegt bei minus 50° C. Es erzeugt Eiskristalle und lässt es in seiner Umgebung schneien."
 	},
 
 	thirdParty: {

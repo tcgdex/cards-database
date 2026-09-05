@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Sandygast",
 		fr: "Bacabouh",
+		de: "Sankabuh"
 	},
 
 	stage: "Stage1",
@@ -105,6 +106,7 @@ const card: Card = {
 
 	description: {
 		en: "Possessed people controlled by this Pokémon transformed its sand mound into a castle. As it evolved, its power to curse grew ever stronger.",
+		de: "Brachte Menschen dazu, den Sandhügel zu einer stattlichen Sandburg auszubauen. Auch seine Flüche haben an Stärke gewonnen."
 	},
 
 	thirdParty: {

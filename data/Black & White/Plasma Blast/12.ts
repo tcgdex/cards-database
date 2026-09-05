@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Flare",
 				fr: "Flamboiement",
+				de: "Flackern"
 			},
 
 			damage: 10,
@@ -49,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Ember",
 				fr: "Flammèche",
+				de: "Glut"
 			},
 			effect: {
 				en: "Discard an Energy attached to this Pokémon.",
 				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -70,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "Said to have been born from the sun, it spews fire from its horns and encases itself in a cocoon of fire when it evolves.",
+		de: "Es heißt, es sei ein Produkt der Sonne. Wenn es sich entwickelt, hüllt es sich in Flammen, die es aus seinen Hörnern bläst."
 	},
 
 	thirdParty: {

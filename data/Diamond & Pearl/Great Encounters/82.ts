@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "Although slow, it is skilled at fishing with its tail. It does not feel pain if its tail is bitten.",
+		de: "Es ist langsam, hat aber ein Talent, mit seinem Schweif zu fischen. Beißt etwas an, tut es ihm nicht weh."
 	},
 
 	thirdParty: {

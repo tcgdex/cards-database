@@ -34,12 +34,12 @@ const card: Card = {
 			name: {
 				en: "Quick Attack",
 				fr: "Vive-attaque",
-				de: "Ruckzuckhieb"
+				de: "Maronbeere"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 30 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				de: "Wenn Bamelin schläft, entferne am Ende jedes Zuges den Speziellen Zustand „schlafend“ von Bamelin."
 			},
 			damage: "10+",
 

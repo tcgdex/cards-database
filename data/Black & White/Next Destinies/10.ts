@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Stoke",
 				fr: "Attisement",
+				de: "Anheizen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your deck for a Fire Energy card and attach it to this Pokémon. Shuffle your deck afterward.",
 				fr: "Lancez une pièce. Si c'est face, cherchez une carte Énergie Fire dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
+				de: "Wirf 1 Münze. Durchsuche bei „Kopf“ dein Deck nach 1 {R}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -51,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Firebreathing",
 				fr: "Souffle-Feu",
+				de: "Feuerhauch"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -72,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon with a loyal nature, it will remain motionless until it is given an order by its Trainer.",
+		de: "Ein loyales Pokémon. Es wird erst dann aktiv, wenn sein Trainer ihm Anweisungen gegeben hat."
 	},
 
 	thirdParty: {

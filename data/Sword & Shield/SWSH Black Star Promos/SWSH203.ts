@@ -75,10 +75,15 @@ const card: Card = {
 	],
 	retreat: 2,
 	regulationMark: "E",
-
-	thirdParty: {
-		cardmarket: 609462
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 609462,
+				tcgplayer: 268712
+			}
+		},
+	],
 }
 
 export default card

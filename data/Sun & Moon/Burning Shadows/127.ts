@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cada jugador cuenta las cartas de su mano, pone esas cartas en su baraja y las baraja todas, y después roba ese mismo número de cartas.",
 		it: "Ciascun giocatore conta le carte che ha in mano, le rimischia nel proprio mazzo, quindi pesca lo stesso numero di carte.",
 		pt: "Cada jogador conta as cartas nas próprias mãos, embaralha-as no próprio baralho e em seguida compra aquele mesmo número de cartas.",
-		de: "Jeder Spieler zählt die Karten auf seiner Hand, mischt jene Karten in sein Deck und zieht anschließend dieselbe Anzahl Karten."
+		de: "Jeder Spieler zählt die Karten auf seiner Hand, mischt jene Karten in sein Deck und zieht anschließend dieselbe Anzahl Karten. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

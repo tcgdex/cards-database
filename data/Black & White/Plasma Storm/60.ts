@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Ralts",
 		fr: "Tarsal",
+		de: "Trasla"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Psy Bolt",
 				fr: "Choc Mental",
+				de: "Konfusion"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -62,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.",
+		de: "Ist sein Trainer glücklich, tanzt es in einem Schwall von Energie fröhlich umher."
 	},
 
 	thirdParty: {

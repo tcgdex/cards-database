@@ -38,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Ice Beam",
 				fr: "Laser Glace",
+				de: "Eisstrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 50,
 
@@ -56,6 +58,7 @@ const card: Card = {
 			name: {
 				en: "Ice Wing",
 				fr: "Aile Glace",
+				de: "Frostschwinge"
 			},
 
 			damage: 80,
@@ -81,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "A legendary bird Pokémon. It can create blizzards by freezing moisture in the air.",
+		de: "Ein Legendäres Vogel-Pokémon. Es kann Blizzards verursachen, indem es Feuchtigkeit gefriert."
 	},
 
 	thirdParty: {

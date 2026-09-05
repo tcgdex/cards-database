@@ -35,7 +35,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Peck",
-				fr: "Picpic"
+				fr: "Picpic",
+				de: "Schnabel"
 			},
 
 			damage: 10,
@@ -48,7 +49,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Live Coal",
-				fr: "Charbon Mutant"
+				fr: "Charbon Mutant",
+				de: "Glühende Kohlen"
 			},
 
 			damage: 20,
@@ -67,6 +69,7 @@ const card: Card = {
 
 	description: {
 		en: "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees F.",
+		de: "In seinem Inneren lodert ein Feuer. Es schleudert 1 000 Grad heiße Feuerbälle."
 	},
 
 	thirdParty: {

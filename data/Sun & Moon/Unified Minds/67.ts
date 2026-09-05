@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "Its skin is very hard, so it is unhurt even if stepped on by sumo wrestlers. It smiles when transmitting electricity.",
+		de: "Dank seiner dicken Haut hält es selbst das Gewicht eines Sumoringers aus. Wenn es Stromschläge verteilt, grinst es."
 	},
 
 	thirdParty: {

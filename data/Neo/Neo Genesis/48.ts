@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Horsea",
-		fr: "Hypotrempe"
+		fr: "Hypotrempe",
+		de: "Seeper"
 	},
 
 	stage: "Stage1",
@@ -38,12 +39,12 @@ const card: Card = {
 			name: {
 				en: "Bubble",
 				fr: "Écume",
-				de: "Bubble"
+				de: "Blubber"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -56,12 +57,12 @@ const card: Card = {
 			name: {
 				en: "Mud Splash",
 				fr: "Jet d'boue",
-				de: "Mud Splash"
+				de: "Schlammspritzer"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, choose 1 of them and flip a coin. If heads, this attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Si votre adversaire possède un ou plusieurs Pokémon sur son Banc, choisissez l'un d'eux et lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à ce Pokémon. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
-				de: "If your opponent has any Benched Pokémon, choose 1 of them and flip a coin. If heads, this attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				de: "Falls dein Gegner mindestens ein Pokémon auf der Bank hat, wähle eines von ihnen und wirf eine Münze. Bei „Kopf“ fügt dieser Angriff diesem Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 30,
 
@@ -79,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "An examination of its cells revealed the presence of a gene not found in Horsea. It became a hot topic.",
-		fr: "L'observation de ses cellules a révélé la présence d'un gène inexistant dans Hypotrempe. C'est devenu un sujet très débattu."
+		fr: "L'observation de ses cellules a révélé la présence d'un gène inexistant dans Hypotrempe. C'est devenu un sujet très débattu.",
+		de: "Eine Untersuchung seiner Zellen ergab die Präsenz eines in Seeper nicht vorhandenen Gens. Dies gab reichlich Anlass zu Spekulationen."
 	},
 
 

@@ -72,7 +72,8 @@ const card: Card = {
 
 	description: {
 		en: "Known as \"The Being of Knowledge.\" It is said that it can wipe out the memory of those who see its eyes.",
-		fr: "On l'appelle \"être du savoir\". On raconte que son regard a le pouvoir d'effacer la mémoire."
+		fr: "On l'appelle \"être du savoir\". On raconte que son regard a le pouvoir d'effacer la mémoire.",
+		de: "\"Das wissende Wesen\". Es soll die Erinnerungen derer löschen, die ihm in die Augen sehen."
 	},
 
 	thirdParty: {

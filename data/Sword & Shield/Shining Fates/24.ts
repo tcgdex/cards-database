@@ -68,7 +68,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon."
+		en: "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon.",
+		de: "Es besitzt die wundersame Fähigkeit, das Herz eines jeden anderen Pokémon anzurühren."
 	},
 
 	variants: [

@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wailmer",
-		fr: "Wailmer"
+		fr: "Wailmer",
+		de: "Wailmer"
 	},
 
 	stage: "Stage1",
@@ -42,7 +43,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. For each heads, remove 3 damage counters from Wailord.",
 				fr: "Lancez 2 pièces. Pour chaque côté face, retirez 3 marqueurs de dégât à Wailord.",
-				de: "Wirf 2 Münzen. Entferne pro \"Kopf\" 3 Schadensmarken von Wailord."
+				de: "Wirf 2 Münzen. Entferne pro „Kopf“ 3 Schadensmarken von Wailord."
 			},
 
 		},
@@ -78,7 +79,8 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It is the largest of all identified Pokémon. They jump as a pack to herd their prey."
+		en: "It is the largest of all identified Pokémon. They jump as a pack to herd their prey.",
+		de: "Das größte Pokémon. Es treibt seine Beute in der Gruppe zusammen, indem es aus dem Wasser springt."
 	},
 
 	variants: [

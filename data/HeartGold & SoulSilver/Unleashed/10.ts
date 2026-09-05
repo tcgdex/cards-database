@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Grotle",
-		fr: "Boskara"
+		fr: "Boskara",
+		de: "Chelcarain"
 	},
 
 	stage: "Stage2",
@@ -76,7 +77,8 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Ancient people imagined that beneath the ground, a gigantic Torterra dwelled."
+		en: "Ancient people imagined that beneath the ground, a gigantic Torterra dwelled.",
+		de: "In alten Zeiten malten die Menschen sich aus, die Erde ruhe auf dem Rücken eines riesigen CHELTERRAR."
 	},
 
 	variants: [

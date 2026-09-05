@@ -50,7 +50,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When its antennae hit each other, it sounds like the music of a xylophone."
+		en: "When its antennae hit each other, it sounds like the music of a xylophone.",
+		de: "Wenn seine zwei Antennen sich berühren, erklingt ein Ruf wie das Spiel eines Xylophons."
 	},
 
 	variants: [

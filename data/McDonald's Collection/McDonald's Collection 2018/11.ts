@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Eevee"
+		en: "Eevee",
+		de: "Evoli"
 	},
 
 	rarity: "None",
@@ -19,9 +20,11 @@ const card: Card = {
 			type: "Ability",
 			name: {
 				en: "Energy Evolution",
+				de: "Energie-Evolution"
 			},
 			effect: {
-				en: "When you attach a basic Energy card from your hand to this Pokémon during your turn, you may search your deck for a card that evolves from this Pokémon that is the same type as that Energy card and put it onto this Pokémon to evolve it. Then, shuffle your deck."
+				en: "When you attach a basic Energy card from your hand to this Pokémon during your turn, you may search your deck for a card that evolves from this Pokémon that is the same type as that Energy card and put it onto this Pokémon to evolve it. Then, shuffle your deck.",
+				de: "Wenn du während deines Zuges 1 Basis-Energiekarte aus deiner Hand an dieses Pokémon anlegst, kannst du dein Deck nach 1 Karte, die sich aus diesem Pokémon entwickelt und die denselben Typ wie jene Energiekarte hat, durchsuchen und sie auf dieses Pokémon legen, um es zu entwickeln. Mische anschließend dein Deck."
 			}
 		}
 	],
@@ -32,9 +35,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Draw",
+				de: "Schnellzieher"
 			},
 			effect: {
-				en: "Flip a coin. If heads, draw a card."
+				en: "Flip a coin. If heads, draw a card.",
+				de: "Wirf 1 Münze. Ziehe bei Kopf 1 Karte."
 			},
 			damage: 80,
 		}

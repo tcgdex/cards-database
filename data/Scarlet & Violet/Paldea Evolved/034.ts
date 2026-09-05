@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
+		de: "Es legt sich auf warme Steine und nimmt so über seine rechteckigen Schuppen Hitze auf, mit der es Feuer-Energie erzeugt."
 	},
 }
 

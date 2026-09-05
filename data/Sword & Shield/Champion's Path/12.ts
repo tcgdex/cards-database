@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Carvanha",
-		fr: "Carvanha"
+		fr: "Carvanha",
+		de: "Kanivanha"
 	},
 
 	attacks: [
@@ -74,7 +75,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It drinks in seawater and jets it from its rear to propel itself. It's very sensitive to the scent of blood."
+		en: "It drinks in seawater and jets it from its rear to propel itself. It's very sensitive to the scent of blood.",
+		de: "Es schwimmt, indem es das Meerwasser, das es trinkt, aus seinem Hinterteil ausstößt. Für den Geruch von Blut ist es sehr empfänglich."
 	},
 
 	thirdParty: {

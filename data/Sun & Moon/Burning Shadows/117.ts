@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cura 50 puntos de daño a cada uno de tus Pokémon que tenga alguna Energía Water unida a él.",
 		it: "Cura ciascuno dei tuoi Pokémon che abbia delle Energie Water assegnate da 50 danni.",
 		pt: "Cure 50 pontos de dano de cada um dos seus Pokémon que tiver alguma Energia Water ligada a ele.",
-		de: "Heile 50 Schadenspunkte bei jedem deiner Pokémon, an das mindestens 1 Water-Energie angelegt ist."
+		de: "Heile 50 Schadenspunkte bei jedem deiner Pokémon, an das mindestens 1 {W}-Energie angelegt ist. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

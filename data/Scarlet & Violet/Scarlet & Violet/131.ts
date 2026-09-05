@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Croagunk",
-		fr: "Cradopaud"
+		fr: "Cradopaud",
+		de: "Glibunkel"
 	},
 
 	stage: "Stage1",
@@ -86,9 +87,6 @@ const card: Card = {
 		}
 	],
 
-	description: {
-		en: "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.",
-	},
 
 	thirdParty: {
         cardmarket: 702426,

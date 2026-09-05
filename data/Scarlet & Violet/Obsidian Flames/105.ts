@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "Born deep underground, this Pokémon becomes a pupa after eating enough dirt to make a mountain.",
+		de: "Es wird tief im Erdreich geboren. Hat es einen Berg Erde gefressen, verpuppt sich dieses Pokémon."
 	},
 
 	variants: [
@@ -68,6 +69,14 @@ const card: Card = {
 				cardmarket: 725185,
 				tcgplayer: 509792,
 				cardtrader: 255790
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 786049,
+				tcgplayer: 602840,
 			}
 		},
 		{
@@ -82,7 +91,7 @@ const card: Card = {
 
 	illustrator: "KYUPIYAMA",
 
-	
+
 }
 
 export default card

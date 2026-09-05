@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Lileep",
 		fr: "Lilia",
+		de: "Liliep"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Lifesplosion",
 				fr: "Explovie",
+				de: "Lebenstaumel"
 			},
 			effect: {
 				en: "For each Energy attached to this Pokémon, search your deck for a Stage 2 Pokémon and put it onto your Bench. Shuffle your deck afterward.",
 				fr: "Pour chaque Énergie attachée à ce Pokémon, cherchez un Pokémon de Niveau 2 dans votre deck et placez-le sur votre Banc. Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach jeweils 1 Phase-2-Pokémon für jede an dieses Pokémon angelegte Energie und lege es auf deine Bank. Mische anschließend dein Deck."
 			},
 
 		},
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Spiral Drain",
 				fr: "Spirale Épuisante",
+				de: "Spiralsauger"
 			},
 			effect: {
 				en: "Heal 20 damage from this Pokémon.",
 				fr: "Soignez 20 dégâts à ce Pokémon.",
+				de: "Heile 20 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 60,
 
@@ -85,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives in the shallows of warm seas. When the tide goes out, it digs up prey from beaches.",
+		de: "Es lebt in seichten Stellen warmer Meere. Bei Ebbe sucht es im Sand nach Beute."
 	},
 
 	thirdParty: {

@@ -59,7 +59,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If Claydol has any Psychic Energy attached to it, the Defending Pokémon is now Confused. If Claydol has any Fighting Energy attached to it, this attack does 20 damage plus 20 more damage.",
-				fr: "Si Kaorine possède des Énergies , le Pokémon Défenseur est maintenant Confus. Si Kaorine possède des Énergies , cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				fr: "Si Kaorine possède des Énergies {P}, le Pokémon Défenseur est maintenant Confus. Si Kaorine possède des Énergies {F}, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
 				de: "If Claydol has any  Energy attached to it, the Defending Pokémon is now Confused. if Claydol has any  Energy attached to it, this attack does 20 damage plus 20 more damage."
 			},
 			damage: "20+",

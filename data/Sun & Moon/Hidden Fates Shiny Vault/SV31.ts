@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Metang",
 		fr: "Métang",
+		de: "Metang"
 	},
 	illustrator: "Saya Tsuruta",
 	rarity: "Shiny rare",
@@ -21,6 +22,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Beldum",
 		fr: "Terhal",
+		de: "Tanhel"
 	},
 	stage: "Stage1",
 
@@ -33,6 +35,7 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				de: "Ramme"
 			},
 
 			damage: 20,
@@ -47,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Core Beam",
 				fr: "Faisceau Central",
+				de: "Kernstrahl"
 			},
 			effect: {
 				en: "Discard a Metal Energy from this Pokémon.",
 				fr: "Défaussez une Énergie Metal de ce Pokémon.",
+				de: "Lege 1 {M}-Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 80,
 
@@ -75,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "When two Beldum link together, their psychic power is doubled. Their intelligence, however, remains unchanged.",
+		de: "Zwei Tanhel haben sich vereinigt und so ihre Psycho-Kräfte verdoppelt. Ihre Denkfähigkeit bleibt dabei aber unverändert."
 	},
 }
 

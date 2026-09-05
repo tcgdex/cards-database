@@ -4,7 +4,7 @@ import Set from '../Majestic Dawn'
 const card: Card = {
 	name: {
 		en: "Aerodactyl",
-		fr: "Ptera",
+		fr: "Ptéra",
 		de: "Aerodactyl"
 	},
 
@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Old Amber",
 		fr: "Vieil Ambre",
+		de: "Altbernstein"
 	},
 
 	stage: "Stage1",
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -85,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon that roamed the skies in the dinosaur era. Its teeth are like saw blades.",
+		de: "Dieses PKMN flog zu Zeiten der Dinosaurier am Himmel. Seine Zähne sind wie Sägeblätter."
 	},
 
 	thirdParty: {

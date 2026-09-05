@@ -4,7 +4,7 @@ import Set from '../Great Encounters'
 const card: Card = {
 	name: {
 		en: "Wingull",
-		fr: "Goelise",
+		fr: "Goélise",
 		de: "Wingull"
 	},
 
@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "It makes its nest on steep sea cliffs. Riding updrafts, it soars to great heights.",
+		de: "Es baut sein Nest auf steilen Klippen. Es nutzt die Aufwinde, um in größerer Höhe fliegen zu können."
 	},
 
 	thirdParty: {

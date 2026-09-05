@@ -103,21 +103,6 @@ const card: Card = {
 			damage: "200+",
 
 		},
-		{
-			cost: [
-				"Fire",
-				"Fire",
-				"Fire",
-			],
-			name: {
-				fr: "Double Brasier-GX",
-			},
-			effect: {
-				fr: "Si au moins 3 Énergies Fire supplémentaires sont attachées à ce Pokémon (en plus du coût de cette attaque), cette attaque inflige 100 dégâts supplémentaires, et les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-			},
-			damage: "200+",
-
-		},
 	],
 	weaknesses: [
 		{
@@ -128,8 +113,15 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 397969,
+				tcgplayer: 196347
+			}
+		}
+	],
 }
 
 export default card

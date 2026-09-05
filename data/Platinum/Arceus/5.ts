@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Luxio"
+		en: "Luxio",
+		de: "Luxio"
 	},
 
 	stage: "Stage2",
@@ -37,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -54,7 +55,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If Luxray has a Pokémon Tool card attached to it, you may do 100 damage instead of 60 to the Defending Pokémon. If you do, discard that Pokémon Tool card.",
-				de: "Wenn an Luxtra 1 Pokémon-Ausrüstung angelegt ist, kannst du diesen Angiff dem Verteidigenden Pokémon 100 Schadenspunkte anstelle von 60 Schadenspunkten zufügen lassen. Wenn du das machst, lege die Pokémon-Ausrüstung auf deinen Ablagestapel."
+				de: "Wenn an Luxtra 1 Pokémon-Ausrüstung angelegt ist, kannst du diesen Angriff dem Verteidigenden Pokémon 100 Schadenspunkte anstelle von 60 Schadenspunkten zufügen lassen. Wenn du das machst, lege die Pokémon-Ausrüstung auf deinen Ablagestapel."
 			},
 			damage: 60,
 
@@ -76,7 +77,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It can see clearly through walls to track down its prey and seek its lost young."
+		en: "It can see clearly through walls to track down its prey and seek its lost young.",
+		de: "Es kann durch Wände sehen und spürt auf diese Weise Beute und verlorengegangene Junge auf."
 	},
 
 	variants: [

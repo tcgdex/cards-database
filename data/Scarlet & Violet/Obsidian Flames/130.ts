@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "When exposed to the moon's aura, the rings on its body glow faintly and it gains a mysterious power.",
+		de: "Wird es der Aura des Mondes ausgesetzt, glühen die ringförmigen Muster auf seinem Körper leicht und es erhält eine mysteriöse Kraft."
 	},
 
 	variants: [
@@ -92,6 +93,13 @@ const card: Card = {
 				cardmarket: 725210,
 				tcgplayer: 509888,
 				cardtrader: 255815
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['trick-or-trade'],
+			thirdParty: {
+				cardmarket: 785587
 			}
 		},
 		{
@@ -127,7 +135,7 @@ const card: Card = {
 
 	illustrator: "rika",
 
-	
+
 }
 
 export default card

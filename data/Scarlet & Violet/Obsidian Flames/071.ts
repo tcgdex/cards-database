@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "It has no problem drinking dirty water. An organ inside Toxel's body filters such water into a poisonous liquid that is harmless to Toxel.",
+		de: "Es kann problemlos Schmutzwasser trinken. Ein Organ in seinem Körper filtert dieses zu einer giftigen Flüssigkeit, die ihm nichts anhaben kann."
 	},
 
 	variants: [

@@ -61,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "It performs throwing moves with first-rate skill. Over the course of many battles, Throh's belt grows darker as it absorbs its wearer's sweat.",
+		de: "Es verfügt über ein exzellentes Repertoire an Wurftechniken. Sein Gürtel färbt sich dunkler, je mehr Schweiß er bei Kämpfen in sich aufsaugt."
 	},
 
 	variants: [

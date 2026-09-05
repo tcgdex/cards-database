@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Slowpoke",
-		fr: "Ramoloss"
+		fr: "Ramoloss",
+		de: "Flegmon"
 	},
 
 	stage: "Stage1",
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Does 30 damage plus 20 more damage for each Psychic Energy attached to Slowbro.",
 				fr: "Inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque carte Énergie Psychic attachée à Flagadoss.",
-				de: "Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jede an Lahmus angelegte -Energie zu."
+				de: "Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte für jede an Lahmus angelegte {P}-Energie zu."
 			},
 			damage: "30+",
 
@@ -77,7 +78,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "If the tail-biting Shellder is thrown off in a harsh battle, it reverts to being an ordinary Slowpoke."
+		en: "If the tail-biting Shellder is thrown off in a harsh battle, it reverts to being an ordinary Slowpoke.",
+		de: "Wenn das MUSCHAS an seinem Schweif in einem Kampf abgeschüttelt wird, entwickelt es sich zu FLEGMON zurück."
 	},
 
 	variants: [

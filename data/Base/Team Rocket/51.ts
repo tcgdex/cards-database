@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Rattata",
-		fr: "Rattata"
+		fr: "Rattata",
+		de: "Rattfratz"
 	},
 
 	stage: "Stage1",
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. if tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei 'Zahl' fügt dieser Angriff keine Schadenspunkte zu."
+				de: "Wirf eine Münze. Bei „Zahl“ fügt dieser Angriff keine Schadenspunkte zu."
 			},
 
 			damage: 50
@@ -86,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "A Raticate's front teeth are incredibly powerful; it can destroy a two-story house with them in 5 minutes.",
-		fr: "Les incisives d'un Rattatac sont incroyablement puissantes ; grâce à elle, il est capable de détruire une maison de 2 étages en 5 minutes."
+		fr: "Les incisives d'un Rattatac sont incroyablement puissantes ; grâce à elle, il est capable de détruire une maison de 2 étages en 5 minutes.",
+		de: "Die Vorderzähne eines Rattikarl sind unglaublich stark; es kann damit ein zweistöckiges Haus in fünf Minuten zerstören."
 	},
 
 

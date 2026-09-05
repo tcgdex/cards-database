@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Masakazu Fukuda",
 
 	description: {
-		en: "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms."
+		en: "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms.",
+		de: "Es kann im Schwimmen ein großes Schiff ziehen. Seine Gegner schlägt es mit Schlägen seiner Arme zurück."
 	},
 
 	abilities: [{

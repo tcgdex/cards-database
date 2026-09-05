@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Grotle",
-		fr: "Boskara"
+		fr: "Boskara",
+		de: "Chelcarain"
 	},
 
 	stage: "Stage2",
@@ -38,12 +39,12 @@ const card: Card = {
 			name: {
 				en: "Green Blast",
 				fr: "Explosion verte",
-				de: "Green Blast"
+				de: "Naturstoß"
 			},
 			effect: {
 				en: "Does 40 damage plus 10 more damage for each Grass Energy attached to all of your Pokémon.",
 				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie Grass attachée à tous vos Pokémon.",
-				de: "Does 40 damage plus 10 more damage for each  Energy attached to all of your Pokémon."
+				de: "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede {G}-Energie, die an allen deinen Pokémon angelegt ist, zu."
 			},
 			damage: "40+",
 
@@ -58,12 +59,12 @@ const card: Card = {
 			name: {
 				en: "Soothing Scent",
 				fr: "Senteur apaisante",
-				de: "Soothing Scent"
+				de: "Beruhigender Duft"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 80,
 
@@ -80,7 +81,8 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Some Pokémon are born on a TORTERRA's back and spend their entire life there."
+		en: "Some Pokémon are born on a TORTERRA's back and spend their entire life there.",
+		de: "Manche PKMN werden auf dem Rücken eines CHELTERRAR geboren und verbringen ihr ganzes Leben dort."
 	},
 
 	variants: [

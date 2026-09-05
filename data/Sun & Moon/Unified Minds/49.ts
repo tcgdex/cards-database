@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dewpider",
 		fr: "Araqua",
+		de: "Araqua"
 	},
 
 	stage: "Stage1",
@@ -76,7 +77,7 @@ const card: Card = {
 				es: "Durante el próximo turno de tu rival, los ataques del Pokémon Defensor cuestan Colorless más, y su Coste de Retirada es de Colorless más.",
 				it: "Durante il prossimo turno del tuo avversario, gli attacchi del Pokémon difensore costano Colorless in più e il suo costo di ritirata aumenta di Colorless.",
 				pt: "Durante a próxima vez de jogar do seu oponente, o custo dos ataques do Pokémon Defensor será Colorless a mais e o seu custo de Recuo será Colorless a mais.",
-				de: "Während des nächsten Zuges deines Gegners erhöhen sich die Kosten der Attacken des Verteidigenden Pokémon und seine Rückzugskosten um Colorless."
+				de: "Während des nächsten Zuges deines Gegners erhöhen sich die Kosten der Attacken des Verteidigenden Pokémon und seine Rückzugskosten um {C}."
 			},
 			damage: 80,
 
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It usually passes its time in the water. When its belly is full, it stores its subdued prey in the water bubble on its head.",
+		de: "Es verlässt das Wasser nur sehr selten. Wenn es satt ist, bewahrt es erledigte Beute in der Wasserblase auf seinem Kopf auf."
 	},
 
 	thirdParty: {

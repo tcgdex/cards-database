@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "People used to mistake Oranguru for a human when they saw it issue command after command to the other Pokémon of the forest.",
+		de: "Wegen der Art und Weise, wie sie den Pokémon des Waldes ständig Befehle erteilen, hielt man sie vor langer Zeit für Menschen."
 	},
 }
 

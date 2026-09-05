@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "Possessing an unbalanced and unstable genetic makeup, it conceals many possible evolutions.",
+		de: "Sein instabiles Erbmaterial ermöglicht es ihm, sich zu verschiedenen Pokémon zu entwickeln."
 	},
 
 	thirdParty: {

@@ -61,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "Magmar dispatches its prey with fire. But it regrets this habit once it realizes that it has burned its intended prey to a charred crisp.",
+		de: "Magmar erlegt seine Beute mit Feuer. Manchmal röstet es diese zu seinem Bedauern so stark, dass sie versehentlich verkohlt."
 	},
 
 	variants: [

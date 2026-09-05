@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Alakazam E4",
-		fr: "Alakazam  Niv. 56",
+		fr: "Alakazam 4 Niv. 56",
 		de: "Simsala 4"
 	},
 	illustrator: "Mitsuhiro Arita",
@@ -33,8 +33,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Psychic Energy attached to Alakazam E4 and remove 4 damage counters from Alakazam E4.",
-				fr: "Défaussez une carte Énergie Psychic attachée à Alakazam  et retirez-lui 4 marqueurs de dégât.",
-				de: "Lege 1 an Simsala 4 angelegte -Energie auf deinen Ablagestapel und entferne 4 Schadensmarken von Simsala 4."
+				fr: "Défaussez une carte Énergie {P} attachée à Alakazam 4 et retirez-lui 4 marqueurs de dégât.",
+				de: "Lege 1 an Simsala 4 angelegte {P}-Energie auf deinen Ablagestapel und entferne 4 Schadensmarken von Simsala 4."
 			},
 
 		},
@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				de: "Wirf 1 Münze. Bei „Kopf“ lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 

@@ -4,7 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Magneton",
-		fr: "Magneton",
+		fr: "Magnéton",
 		de: "Magneton"
 	},
 
@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magnemite",
-		fr: "Magnéti"
+		fr: "Magnéti",
+		de: "Magnetilo"
 	},
 
 	stage: "Stage1",
@@ -57,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. This attack does 20 damage plus 20 more damage for each heads.",
 				fr: "Lancez trois pièces. Cette attaque inflige 20 dégâts plus 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte plus 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte plus 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20+",
 

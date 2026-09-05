@@ -102,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "The body that supports the ball barely moves. Therefore, it is thought that the true body of this Pokémon is actually inside the ball.",
+		de: "Der Körper, der die Kugel stützt, regt sich kaum. Daher nimmt man an, dass sich der wahre Körper des Pokémon im Inneren der Kugel befindet."
 	},
 
 }

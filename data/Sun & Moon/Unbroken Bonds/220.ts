@@ -84,7 +84,7 @@ const card: Card = {
 				es: "Mezcla Mugre Asquerosa GX",
 				it: "Miscuglio di Appiccicume GX",
 				pt: "Gosmas Nojentas Misturadas GX",
-				de: "Ekelschleim-Mix GX"
+				de: "Ekelschleim-Mix-GX"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Paralyzed and Poisoned. If this Pokémon has at least 4 extra Energy attached to it (in addition to this attack’s cost), put 15 damage counters instead of 1 on that Pokémon between turns. (You can’t use more than 1 GX attack in a game.)",

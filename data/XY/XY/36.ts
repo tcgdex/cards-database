@@ -70,7 +70,7 @@ const card: Card = {
 				es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 20 puntos de daño más por cada cara.",
 				it: "Lancia una moneta finché non esce croce. Ogni volta che esce testa, questo attacco infligge 20 danni in più.",
 				pt: "Jogue uma moeda até sair coroa. Esse ataque causa 20 de danos adicionais para cada cara.",
-				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20+",
 
@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It continuously sheds and grows. The tip of its head is prized as a treasure because of its beauty.",
+		de: "Es häutet sich ständig und wächst. Seine Kopfspitze wurde als Schatz der Schönheit ausgezeichnet."
 	},
 
 	thirdParty: {

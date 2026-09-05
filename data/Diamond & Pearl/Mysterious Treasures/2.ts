@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Kadabra",
-		fr: "Kadabra"
+		fr: "Kadabra",
+		de: "Kadabra"
 	},
 
 	stage: "Stage2",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Power Cancel",
 				fr: "Annulation de pouvoir",
-				de: "Power Ausschalten"
+				de: "Power ausschalten"
 			},
 			effect: {
 				en: "Once during your opponent's turn, when your opponent's Pokémon uses any Poké-Power, you may discard 2 cards from your hand and prevent all effects of that Poké-Power. (This counts as that Pokémon using its Poké-Power.) This power can't be used if Alakazam is affected by a Special Condition.",
 				fr: "Une seule fois lors du tour de votre adversaire, lorsque celui-ci utilise un Poké-Power, vous pouvez défausser 2 cartes de votre main et prévenir les effets de ce Poké-Power. (C'est ce Pokémon qui utilise ce Poké-Power.) Ce pouvoir ne peut pas être utilisé si Alakazam possède un État Spécial.",
-				de: "Einmal während des Zuges deines Gegners kannst du, wenn 1 Pokémon deines Gegners eine Poké-Power benutzt, 2 Karten von der Hand auf deinen Ablagestapel legen. Wenn du das machst, verhindere alle Effekte dieser Poké-Power. (Die Poké-Power gilt dennoch als benutzt.) Diese Poké-Power kann nicht benutzt werden, wenn Simsala von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während des Zuges deines Gegners kannst du, wenn 1 Pokémon deines Gegners eine Poké-Power benutzt, 2 Karten von deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, verhindere alle Effekte dieser Poké-Power. (Die Poké-Power gilt dennoch als benutzt.) Diese Poké-Power kann nicht benutzt werden, wenn Simsala von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -79,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "Its superb memory lets it recall everything it has experienced from birth. Its IQ exceeds 5,000.",
-		fr: "Grâce à sa mémoire exceptionnelle, il n'a rien oublié depuis sa naissance. Il a un Q.I. de 5 000."
+		fr: "Grâce à sa mémoire exceptionnelle, il n'a rien oublié depuis sa naissance. Il a un Q.I. de 5 000.",
+		de: "Es besitzt ein fantastisches Gedächtnis und erinnert sich an alles seit seiner Geburt. IQ: Über 5 000."
 	},
 
 	thirdParty: {

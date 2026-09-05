@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Vine Whip",
 				fr: "Fouet Lianes",
+				de: "Rankenhieb"
 			},
 
 			damage: 20,
@@ -74,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.",
+		de: "Fängt mit dem Schweif Sonnenlicht auf, um Fotosynthese zu betreiben. Fehlt ihm die Kraft, hängt sein Schweif schlaff herab."
 	},
 
 	thirdParty: {

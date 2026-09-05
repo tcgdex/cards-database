@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magikarp",
-		fr: "Magicarpe"
+		fr: "Magicarpe",
+		de: "Karpador"
 	},
 
 	stage: "Stage1",
@@ -81,9 +82,6 @@ const card: Card = {
 	suffix: "ex",
 	illustrator: "5ban Graphics",
 
-	description: {
-		en: "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet.",
-	},
 
 	thirdParty: {
         cardmarket: 702340,

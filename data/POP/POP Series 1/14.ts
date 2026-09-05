@@ -4,7 +4,8 @@ import Set from '../POP Series 1'
 const card: Card = {
 	name: {
 		en: "Surskit",
-		fr: "Arakdo"
+		fr: "Arakdo",
+		de: "Gehweiher"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Bubble",
-				fr: "Écume"
+				fr: "Écume",
+				de: "Blubber"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 

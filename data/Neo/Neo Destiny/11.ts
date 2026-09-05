@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pupitar",
-		fr: "Ymphect obscur"
+		fr: "Ymphect obscur",
+		de: "Pupitar"
 	},
 
 	stage: "Stage2",
@@ -38,12 +39,12 @@ const card: Card = {
 			name: {
 				en: "Mountain Smasher",
 				fr: "Casse-montagne",
-				de: "Mountain Smasher"
+				de: "Bergzertrümmerer"
 			},
 			effect: {
 				en: "Flip a number of coins equal to the number of Energy cards attached to Dark Tyranitar. This attack does 20 damage times the number of heads. Then, for each heads, discard the top card from your opponent's deck.",
-				fr: "Lancez un nombre de pièces égal au nombre de cartes Énergie  attachées à Tyranocif obscur. Cette attaque inflige 20 dégâts multipliés par le nombre de faces. Puis, pour chaque face, défaussez-vous de la carte du dessus du deck de votre adversaire.",
-				de: "Flip a number of coins equal to the number of  Energy cards attached to Dark Tyranitar. This attack does 20 damage times the number of heads. Then, for each heads, discard the top card from your opponent's deck."
+				fr: "Lancez un nombre de pièces égal au nombre de cartes Énergie {F} attachées à Tyranocif obscur. Cette attaque inflige 20 dégâts multipliés par le nombre de faces. Puis, pour chaque face, défaussez-vous de la carte du dessus du deck de votre adversaire.",
+				de: "Wirf so viele Münzen, wie an Dunkles Despotar {F}-Energiekarten angelegt sind. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu. Lege dann für jedes Mal „Kopf“ die oberste Karte vom Deck deines Gegners auf den Ablagestapel."
 			},
 			damage: "20x",
 
@@ -59,13 +60,13 @@ const card: Card = {
 			name: {
 				en: "Fling Away",
 				fr: "Catapulte",
-				de: "Fling Away"
+				de: "Wegschleudern"
 			},
 
 			effect: {
 				en: "If your opponent has any Benched Pokémon, this attack does 30 damage instead of 50 and choose 1 of those Benched Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Si votre adversaire a des Pokémon sur son Banc, cette attaque inflige 30 dégâts au lieu de 50 et vous choisissez un des Pokémon de son Banc. Cette attaque inflige 30 dégâts à ce Pokémon. (N'appliquez pas la Faiblesse et la Résistance pour les Pokémon du Banc.)",
-				de: "If your opponent has any Benched Pokémon, this attack does 30 damage instead of 50 and choose 1 of those Benched Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				de: "Falls dein Gegner mindestens ein Pokémon auf der Bank hat, fügt dieser Angriff 30 Schadenspunkte statt 50 zu und du bestimmst ein Pokémon auf der Bank deines Gegners. Dieser Angriff fügt diesem Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 			damage: 50
@@ -90,7 +91,8 @@ const card: Card = {
 
 	description: {
 		en: "Its power is such that not even mountains can stand in its way.",
-		fr: "Sa puissance est telle que même les montagnes ne lui résistent pas."
+		fr: "Sa puissance est telle que même les montagnes ne lui résistent pas.",
+		de: "Seine Kraft ist so groß, dass selbst Berge für ihn kein Hindernis darstellen."
 	},
 
 

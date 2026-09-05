@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Spoink",
-		fr: "Spoink"
+		fr: "Spoink",
+		de: "Spoink"
 	},
 
 	stage: "Stage1",
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Your opponent flips a coin for each of his or her Benched Pokémon. This attack does 40 damage times the number of tails. This attack's damage isn't affected by Weakness or Resistance.",
 				fr: "Votre adversaire lance une pièce pour chacun de ses Pokémon de Banc. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés pile. Les dégâts infligés par cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
-				de: "Dein Gegner wirft eine Münze für jedes Pokémon auf seiner Bank. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Zahl\" zu. Der Schaden dieses Angriffs wird durch Schwäche und Resistenz nicht verändert."
+				de: "Dein Gegner wirft eine Münze für jedes Pokémon auf seiner Bank. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Zahl“ zu. Der Schaden dieses Angriffs wird durch Schwäche und Resistenz nicht verändert."
 			},
 			damage: "40×",
 
@@ -78,7 +79,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It can perform odd dance steps to influence foes. Its style of dancing became hugely popular overseas."
+		en: "It can perform odd dance steps to influence foes. Its style of dancing became hugely popular overseas.",
+		de: "Die seltsamen Tanzschritte, mit denen es seine Gegner kontrolliert, sind eine alte, ausländische Mode."
 	},
 
 	variants: [

@@ -32,12 +32,12 @@ const card: Card = {
 			name: {
 				en: "Poison Reaction",
 				fr: "Allergie poison",
-				de: "Poison Reaction"
+				de: "Gifteinwirkung"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Poisoned, this attack does 20 damage plus 20 more damage.",
 				fr: "Si le Pokémon Défenseur est Empoisonné, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "If the Defending Pokémon is Poisoned, this attack does 20 damage plus 20 more damage."
+				de: "Wenn das Verteidigende Pokémon vergiftet ist, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -51,12 +51,12 @@ const card: Card = {
 			name: {
 				en: "Double Claw",
 				fr: "Double-griffe",
-				de: "Double Claw"
+				de: "Doppelklaue"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte plus 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30+",
 

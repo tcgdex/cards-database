@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Entei ex",
 		fr: "Entei ex",
-		de: "Entei ex"
+		de: "Entei-ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -32,12 +32,12 @@ const card: Card = {
 			name: {
 				en: "Searing Flame",
 				fr: "Flammes calcinantes",
-				de: "Searing Flame"
+				de: "Sengende Flamme"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Burned."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: 10,
 
@@ -51,12 +51,12 @@ const card: Card = {
 			name: {
 				en: "Bright Flame",
 				fr: "Flamme éclatante",
-				de: "Bright Flame"
+				de: "Helle Flamme"
 			},
 			effect: {
 				en: "Discard 2 Energy attached to Entei ex.",
 				fr: "Défaussez 2 Énergies attachées à Entei ex.",
-				de: "Discard 2 Energy attached to Entei ex."
+				de: "Lege 2 an Entei ex angelegte Energien auf deinen Ablagestapel."
 			},
 			damage: 90,
 

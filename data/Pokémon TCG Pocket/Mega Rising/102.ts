@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mega Altaria ex"
+		en: "Mega Altaria ex",
+		fr: "Méga-Altaria-ex"
 	},
 
 	illustrator: "PLANETA Igarashi",
@@ -17,11 +18,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Swablu"
-	},
-
-	description: {
-		en: "On sunny days, it flies freely through the sky and\nblends into the clouds. It sings in a beautiful\nsoprano."
+		en: "Swablu",
+		fr: "Tylton"
 	},
 
 	stage: "Stage1",
@@ -29,14 +27,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Mega Harmony"
+			en: "Mega Harmony",
+			fr: "Méga Harmonie"
 		},
 
 		damage: 40,
 		cost: ["Psychic", "Psychic"],
 
 		effect: {
-			en: "This attack does 30 more damage for each of your Benched Pokémon."
+			en: "This attack does 30 more damage for each of your Benched Pokémon.",
+			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chacun de vos Pokémon de Banc."
 		}
 	}],
 

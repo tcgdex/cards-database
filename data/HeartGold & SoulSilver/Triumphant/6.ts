@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nidorino",
-		fr: "Nidorino"
+		fr: "Nidorino",
+		de: "Nidorino"
 	},
 
 	stage: "Stage2",
@@ -84,7 +85,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its tail is thick and powerful. If it binds an enemy, it can render the victim helpless quite easily."
+		en: "Its tail is thick and powerful. If it binds an enemy, it can render the victim helpless quite easily.",
+		de: "Sein Schweif ist sehr stark. Wickelt es einen Gegner ein, kann es mühelos sein Rückgrat brechen."
 	},
 
 	variants: [

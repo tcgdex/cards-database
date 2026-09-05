@@ -77,7 +77,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Loads weighing up to 50 times as much as its own body weight pose no issue for this Pokémon. It's skilled at making use of mud."
+		en: "Loads weighing up to 50 times as much as its own body weight pose no issue for this Pokémon. It's skilled at making use of mud.",
+		de: "Es ist kräftig genug, um problemlos das 50-fache seines Gewichts tragen zu können. Im Umgang mit Schlamm ist es sehr geschickt."
 	},
 
 	dexId: [749],

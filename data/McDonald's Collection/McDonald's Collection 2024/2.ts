@@ -29,15 +29,18 @@ const card: Card = {
 			cost: ["Lightning"],
 			name: {
 				en: "Charge",
+				de: "Ladevorgang"
 			},
 			effect: {
-				en: "Search your deck for a Basic Lightning Energy card and attach it to this Pokémon. Then, shuffle your deck."
+				en: "Search your deck for a Basic Lightning Energy card and attach it to this Pokémon. Then, shuffle your deck.",
+				de: "Durchsuche dein Deck nach 1 Basis-{L}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 			}
 		},
 		{
 			cost: ["Lightning", "Lightning", "Colorless"],
 			name: {
 				en: "Pika Punch",
+				de: "Pikahieb"
 			},
 			damage: 50,
 		},

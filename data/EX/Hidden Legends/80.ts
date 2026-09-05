@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for a Lightning Energy card and attach it to Voltorb. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck une carte Énergie  et attachez-la à Voltorbe. Ensuite, mélangez votre deck.",
+				fr: "Choisissez dans votre deck une carte Énergie {L} et attachez-la à Voltorbe. Ensuite, mélangez votre deck.",
 				de: "Search your deck for a  Energy card and attach it to Voltorb. Shuffle your deck afterward."
 			},
 

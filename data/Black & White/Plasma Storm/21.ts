@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Surprise Attack",
 				fr: "Attaque Surprise",
+				de: "Überraschungsangriff"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -57,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "Its flame is usually out, but it starts shining when it absorbs life force from people or Pokémon.",
+		de: "Seine Flamme entzündet sich erst, wenn es einem Menschen oder einem Pokémon die Lebensenergie absaugt."
 	},
 
 	thirdParty: {

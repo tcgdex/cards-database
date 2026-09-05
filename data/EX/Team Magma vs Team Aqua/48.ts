@@ -31,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Wave Splash",
 				fr: "Grosse vague",
-				de: "Wave Splash"
+				de: "Wellenplatscher"
 			},
 
 			damage: 10,
@@ -45,7 +45,7 @@ const card: Card = {
 			name: {
 				en: "Razor Fin",
 				fr: "Aileron-rasoir",
-				de: "Razor Fin"
+				de: "Rasierflosse"
 			},
 
 			damage: 20,

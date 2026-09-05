@@ -52,6 +52,7 @@ const card: Card = {
 
 	description: {
 		en: "Abra can teleport in its sleep. Apparently the more deeply Abra sleeps, the farther its teleportations go.",
+		de: "Es kann sich im Schlaf teleportieren. Je tiefer Abra schläft, desto weiter entfernt soll der Ort sein, an den es sich teleportiert."
 	},
 
 	variants: [

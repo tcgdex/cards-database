@@ -29,6 +29,7 @@ const card: Card = {
 			cost: ["Colorless", "Colorless", "Colorless"],
 			name: {
 				en: "Claw Clash",
+				de: "Klauenschlitzer"
 			},
 			damage: 70,
 		},
@@ -36,10 +37,12 @@ const card: Card = {
 			cost: ["Fighting", "Fighting", "Fighting", "Colorless"],
 			name: {
 				en: "Wild Impact",
+				de: "Tobende Fänge"
 			},
 			damage: 190,
 			effect: {
 				en: "Discard 3 Energy from this Pokémon.",
+				de: "Lege 3 Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 		},
 	],

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Clefable",
 		fr: "Mélodelfe",
+		de: "Pixi"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -25,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Clefairy",
 		fr: "Mélofée",
+		de: "Piepi"
 	},
 
 	stage: "Stage1",
@@ -37,10 +39,12 @@ const card: Card = {
 			name: {
 				en: "Follow Me",
 				fr: "Par Ici",
+				de: "Spotlight"
 			},
 			effect: {
 				en: "Switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon.",
 				fr: "Échangez l'un des Pokémon de Banc de votre adversaire avec son Pokémon Actif.",
+				de: "Tausche 1 Pokémon auf der Bank deines Gegners gegen das Aktive Pokémon deines Gegners aus."
 			},
 
 		},
@@ -52,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Moonblast",
 				fr: "Pouvoir Lunaire",
+				de: "Mondgewalt"
 			},
 			effect: {
 				en: "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 30 (before applying Weakness and Resistance).",
 				fr: "Pendant le prochain tour de votre adversaire, tous les dégâts infligés par les attaques du Pokémon Défenseur sont réduits de 30 (avant application de la Faiblesse et de la Résistance).",
+				de: "Während des nächsten Zuges deines Gegners wird Schaden, der durch Angriffe des Verteidigenden Pokémon zugefügt wird, um 30 Schadenspunkte reduziert (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 			damage: 30,
 
@@ -80,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "Its hearing is so acute it can hear a pin drop over half a mile away. It lives on quiet mountains.",
+		de: "Es kann eine Nadel hören, die in 1 km Entfernung zu Boden fällt. Es lebt in der Stille der Berge."
 	},
 
 	thirdParty: {

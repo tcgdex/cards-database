@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "This ancient Pokémon was restored from part of its body that had been frozen in ice for over 100 million years.",
+		de: "Dieses antike Pokémon wurde aus Teilen seines Körpers neu belebt, die 100 Millionen Jahre lang im ewigen Eis geschlummert hatten."
 	},
 
 	thirdParty: {

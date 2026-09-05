@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Tranquill",
 		fr: "Colombeau",
+		de: "Navitaub"
 	},
 
 	stage: "Stage2",
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "Males swing their head plumage to threaten opponents. The females' flying abilities surpass those of the males.",
+		de: "Männchen schrecken Gegner ab, indem sie ihren Kopfschmuck schütteln. Weibchen verfügen über bessere Flugfertigkeiten."
 	},
 
 	thirdParty: {

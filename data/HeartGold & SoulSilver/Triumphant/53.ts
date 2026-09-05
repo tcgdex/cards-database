@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Bellsprout",
-		fr: "Chetiflor"
+		fr: "Chetiflor",
+		de: "Knofensa"
 	},
 
 	stage: "Stage1",
@@ -58,7 +59,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, look at your opponent's hand, choose 1 card, and discard it.",
 				fr: "Lancez une pièce. Si c’est face, regardez la main de votre adversaire, choisissez une carte et défaussez-la.",
-				de: "Wirf eine Münze. Schau dir bei \"Kopf\" die Handkarten deines Gegners an, wähle 1 davon und lege sie auf seinen Ablagestapel."
+				de: "Wirf eine Münze. Schau dir bei „Kopf“ die Handkarten deines Gegners an, wähle 1 davon und lege sie auf seinen Ablagestapel."
 			},
 			damage: 10,
 
@@ -75,7 +76,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Even though it is filled with acid, it does not melt because it also oozes a protective fluid."
+		en: "Even though it is filled with acid, it does not melt because it also oozes a protective fluid.",
+		de: "Obwohl es mit Säure angefüllt ist, verätzt es sich nicht, da es gegen Säure resistent ist."
 	},
 
 	variants: [

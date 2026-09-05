@@ -94,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "One of the legendary bird Pokémon. While it is flying, it makes crackling and snapping sounds.",
+		de: "Ein Legendäres Vogel-Pokémon. Beim Fliegen macht es knackende und schnappende Geräusche."
 	},
 
 	thirdParty: {

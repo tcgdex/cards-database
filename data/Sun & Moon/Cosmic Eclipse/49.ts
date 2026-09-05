@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "They can't swim well yet, and they move much faster by rolling. When they're happy, they clap fins.",
+		de: "Es ist noch kein guter Schwimmer und bewegt sich rollend schneller fort. Ist es froh, klatscht es mit seinen Flossen."
 	},
 
 	thirdParty: {

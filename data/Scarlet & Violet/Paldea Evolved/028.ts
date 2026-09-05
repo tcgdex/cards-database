@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "People call this kind of Tauros the Blaze Breed due to the hot air it snorts from its nostrils. Its three tails are intertwined.",
+		de: "Diese Form heißt „Flammenvariante“, da sie beim Schnauben heiße Luft aus der Nase ausstößt. Die drei Schweife sind miteinander verflochten."
 	},
 }
 

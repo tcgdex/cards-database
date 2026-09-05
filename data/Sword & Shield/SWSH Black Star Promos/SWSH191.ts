@@ -88,10 +88,16 @@ const card: Card = {
 	description: {
 		en: "This Pokémon's tail is blade sharp, with a fantastic cutting edge that can slice right though large trees."
 	},
-
-	thirdParty: {
-		cardmarket: 604996
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 606748,
+				tcgplayer: 264284
+			}
+		},
+	],
 }
 
 export default card

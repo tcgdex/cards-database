@@ -72,7 +72,7 @@ const card: Card = {
 			es: "Mira las 12 primeras cartas de tu baraja y une cualquier cantidad de cartas de Energía Water o Lightning que encuentres entre ellas a tus Pokémon de la manera que desees. Pon el resto de las cartas de nuevo en tu baraja y barájalas todas. (No puedes usar más de 1 Poder V-ASTRO en una partida).",
 			it: "Guarda le prime 12 carte del tuo mazzo e assegna un numero qualsiasi di carte Energia Water o Lightning presenti tra esse ai tuoi Pokémon nel modo che preferisci. Poi rimischia le altre carte nel tuo mazzo. Non puoi usare più di un Potere V ASTRO a partita.",
 			pt: "Olhe as 12 cartas de cima do seu baralho e ligue qualquer número de cartas de Energia Water ou Lightning que encontrar lá aos seus Pokémon como desejar. Embaralhe as demais cartas de volta no seu baralho (você não pode usar mais de 1 Poder V-ASTRO por partida).",
-			de: "Schau dir die obersten 12 Karten deines Decks an und lege beliebig viele Water- oder Lightning-Energiekarten, die du dort findest, beliebig an deine Pokémon an. Mische die anderen Karten zurück in dein Deck. (Du kannst pro Spiel nur 1 VSTAR-Power einsetzen.)"
+			de: "Schau dir die obersten 12 Karten deines Decks an und lege beliebig viele {W}- oder {L}-Energiekarten, die du dort findest, beliebig an deine Pokémon an. Mische die anderen Karten zurück in dein Deck. (Du kannst pro Spiel nur 1 VSTAR-Power einsetzen.)"
 		}
 	}],
 

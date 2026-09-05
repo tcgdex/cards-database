@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Houndour",
 		fr: "Malosse",
+		de: "Hunduster"
 	},
 
 	stage: "Stage1",
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "You may discard a Fire or Darkness Energy attached to Houndoom. If you discard a Fire Energy, the Defending Pokémon is now Burned. If you discard a Darkness Energy, this attack does 40 damage plus 30 more damage.",
 				fr: "Vous pouvez défausser une Énergie Fire ou Darkness attachée à Demolosse. Si vous défaussez une Énergie Fire, le Pokémon Défenseur est maintenant Brûlé. Si vous défaussez une Énergie (D), cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires.",
-				de: "Du kannst 1 an Hundemon angelegte - oder -Energie auf deinen Ablagestapel legen. Wenn du 1 -Energie auf deinen Ablagestapel legst, ist das Verteidigende Pokémon jetzt verbrannt. Wenn du 1 -Energie auf deinen Ablagestapel legst, fügt dieser Angriff 40 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				de: "Du kannst 1 an Hundemon angelegte {R}- oder {D}-Energie auf deinen Ablagestapel legen. Wenn du 1 {R}-Energie auf deinen Ablagestapel legst, ist das Verteidigende Pokémon jetzt verbrannt. Wenn du 1 {D}-Energie auf deinen Ablagestapel legst, fügt dieser Angriff 40 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -86,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Long ago, people imagined its eerie howls to be the call of the grim reaper.",
+		de: "In alten Zeiten glaubte man, das Heulen dieses PKMN sei der Ruf des Todes."
 	},
 
 	thirdParty: {

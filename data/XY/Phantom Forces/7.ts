@@ -80,7 +80,7 @@ const card: Card = {
 				es: "Cura 20 puntos de daño a cada uno de tus Pokémon Grass.",
 				it: "Cura ciascuno dei tuoi Pokémon Grass da 20 danni.",
 				pt: "Cure 20 de danos de cada um dos seus Pokémon Grass.",
-				de: "Heile 20 Schadenspunkte bei jedem deiner Grass-Pokémon."
+				de: "Heile 20 Schadenspunkte bei jedem deiner {G}-Pokémon."
 			},
 			damage: 70,
 
@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "Upon finding a small Pokémon, it weaves clothing for it from leaves by using the sticky silk secreted from its mouth.",
+		de: "Begegnet es einem jungen Pokémon, näht es ihm mit den klebrigen Fäden aus seinem Mund ein Kleid aus Blättern."
 	},
 
 	thirdParty: {

@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Ekans",
 		fr: "Abo",
+		de: "Rettan"
 	},
 
 	stage: "Stage1",
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 50,
 
@@ -80,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "The pattern on its belly is for intimidation. It constricts foes while they are frozen in fear.",
+		de: "Das Muster auf seinem Bauch schüchtert Gegner ein. Sind sie vor Angst erstarrt, umklammert es sie."
 	},
 
 	thirdParty: {

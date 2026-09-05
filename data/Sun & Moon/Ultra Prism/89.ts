@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Por cada uno de los Pokémon de tu rival en juego, une 1 carta de Energía Metal de tu pila de descartes a tus Pokémon de la manera que desees.",
 				it: "Per ogni Pokémon del tuo avversario in gioco, assegna a piacimento ai tuoi Pokémon una carta Energia Metal dalla tua pila degli scarti.",
 				pt: "Para cada Pokémon em jogo do seu oponente, ligue 1 carta de Energia Metal da sua pilha de descarte aos seus Pokémon como desejar.",
-				de: "Lege für jedes Pokémon deines Gegners im Spiel 1 Metal-Energiekarte aus deinem Ablagestapel beliebig an deine Pokémon an."
+				de: "Lege für jedes Pokémon deines Gegners im Spiel 1 {M}-Energiekarte aus deinem Ablagestapel beliebig an deine Pokémon an."
 			},
 
 		},
@@ -77,22 +77,6 @@ const card: Card = {
 			damage: 160,
 
 		},
-		{
-			cost: [
-				"Metal",
-				"Metal",
-				"Metal",
-				"Metal",
-			],
-			name: {
-				fr: "Impact de Couronne",
-			},
-			effect: {
-				fr: "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
-			},
-			damage: 160,
-
-		},
 	],
 
 	weaknesses: [
@@ -113,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is said to be a male evolution of Cosmog. At the activation of its third eye, it departs for another world.",
+		de: "Es heißt, es sei die männliche Endstufe der Entwicklungsreihe von Cosmog. Ist sein drittes Auge aktiviert, zieht es in eine andere Welt."
 	},
 
 	thirdParty: {

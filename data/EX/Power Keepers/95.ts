@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Metagross ex",
 		fr: "Metalosse ex",
-		de: "Metagross ex"
+		de: "Metagross-ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Metang",
-		fr: "Metang"
+		fr: "Métang",
+		de: "Metang"
 	},
 
 	suffix: "ex",

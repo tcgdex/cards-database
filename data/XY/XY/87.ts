@@ -63,7 +63,7 @@ const card: Card = {
 				es: "Descarta 1 Energía Darkness unida al Pokémon Activo de tu rival.",
 				it: "Scarta un'Energia Darkness assegnata al Pokémon attivo del tuo avversario.",
 				pt: "Descarte uma Energia Darkness ligada ao Pokémon Ativo do seu oponente.",
-				de: "Lege 1 an das Aktive Pokémon deines Gegners angelegte Darkness-Energie auf den Ablagestapel deines Gegners."
+				de: "Lege 1 an das Aktive Pokémon deines Gegners angelegte {D}-Energie auf den Ablagestapel deines Gegners."
 			},
 
 		},
@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It captivates foes with its huge, round eyes, then lulls them to sleep by singing a soothing melody.",
+		de: "Es fesselt die Gegner mit seinen großen, runden Augen und versetzt sie in Schlaf, indem es eine beruhigende Melodie singt."
 	},
 
 	thirdParty: {

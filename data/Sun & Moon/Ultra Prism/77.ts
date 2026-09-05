@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Cuando juegues este Pokémon de tu mano a tu Banca durante tu turno, puedes unirle 2 cartas de Energía Darkness de tu mano.",
 				it: "Quando giochi questo Pokémon dalla tua mano e lo metti in panchina durante il tuo turno, puoi assegnargli due carte Energia Darkness dalla tua mano.",
 				pt: "Quando você joga este Pokémon da sua mão para o seu Banco durante a sua vez de jogar, você pode ligar 2 cartas de Energia Darkness da sua mão a ele.",
-				de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand auf deine Bank spielst, kannst du 2 Darkness-Energiekarten aus deiner Hand an es anlegen."
+				de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand auf deine Bank spielst, kannst du 2 {D}-Energiekarten aus deiner Hand an es anlegen."
 			},
 		},
 	],
@@ -77,22 +77,6 @@ const card: Card = {
 			damage: 120,
 
 		},
-		{
-			cost: [
-				"Darkness",
-				"Darkness",
-				"Darkness",
-				"Darkness",
-			],
-			name: {
-				fr: "Sommeil Abyssal",
-			},
-			effect: {
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi. Votre adversaire lance 2 pièces au lieu d’une entre chaque tour. S’il obtient au moins un côté pile, le Pokémon reste Endormi.",
-			},
-			damage: 120,
-
-		},
 	],
 
 	weaknesses: [
@@ -113,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
+		de: "Es kann andere in Schlaf versetzen und ihnen Träume geben. Es ist nur bei Neumond aktiv."
 	},
 
 	thirdParty: {

@@ -4,7 +4,7 @@ import Set from '../Diamond & Pearl'
 const card: Card = {
 	name: {
 		en: "Roselia",
-		fr: "Roselia",
+		fr: "Rosélia",
 		de: "Roselia"
 	},
 
@@ -73,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "ROSELIA raised on clean drinking water are known to grow vividly colored flowers.",
-		fr: "Les Roselia élevés avec une eau claire et potable font de ravissantes fleurs bariolées."
+		fr: "Les Roselia élevés avec une eau claire et potable font de ravissantes fleurs bariolées.",
+		de: "ROSELIA, die mit klarem Wasser aufgezogen wurden, bekommen Blüten in leuchtenden Farben."
 	},
 
 	thirdParty: {

@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Its long tail serves as a ground to protect itself from its own high-voltage power.",
+		de: "Sein langer Schweif dient ihm zur Erdung. So bleibt es von der lähmenden Wirkung von Hochspannung selbst verschont."
 	},
 
 	variants: [

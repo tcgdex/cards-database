@@ -56,7 +56,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10x",
 
@@ -81,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on touch.",
-		fr: "Il ressemble à une Poké Ball. Ce Pokémon dangereux peut exploser ou s'électrifier au toucher."
+		fr: "Il ressemble à une Poké Ball. Ce Pokémon dangereux peut exploser ou s'électrifier au toucher.",
+		de: "Sieht aus wie ein Pokéball. Es ist gefährlich, da es bei Berührung explodieren kann."
 	},
 
 	thirdParty: {

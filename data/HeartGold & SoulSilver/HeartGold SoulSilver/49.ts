@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cyndaquil",
-		fr: "Héricendre"
+		fr: "Héricendre",
+		de: "Feurigel"
 	},
 
 	stage: "Stage1",
@@ -74,7 +75,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon is fully covered by nonflammable fur. It can withstand any kind of fire attack."
+		en: "This Pokémon is fully covered by nonflammable fur. It can withstand any kind of fire attack.",
+		de: "Das Fell dieses Pokémon ist nicht entflammbar. Es ist gegen jegliche Feuerattacken immun."
 	},
 
 	variants: [

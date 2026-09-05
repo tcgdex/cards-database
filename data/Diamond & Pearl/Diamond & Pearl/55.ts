@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Search your deck for a  grass Basic Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck un Pokémon de Base Water, montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach einer -Basis-Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+				de: "Durchsuche dein Deck nach einer {W}-Basis-Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -76,7 +76,8 @@ const card: Card = {
 
 	description: {
 		en: "A friendly Pokémon that captures the subtle flows of seawater using its two antennae.",
-		fr: "Un Pokémon amical qui analyse les mouvements subtils de l'eau de mer grâce à ses deux antennes."
+		fr: "Un Pokémon amical qui analyse les mouvements subtils de l'eau de mer grâce à ses deux antennes.",
+		de: "Ein freundliches PKMN, das mit seinen zwei Antennen die Strömungen des Meeres erkennt."
 	},
 
 	thirdParty: {

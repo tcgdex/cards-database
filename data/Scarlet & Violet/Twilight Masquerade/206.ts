@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Elige 1 opción:\n• Cambia tu Pokémon Activo por uno de tus Pokémon en Banca.\n• Durante este turno, los ataques usados por tus Pokémon hacen 30 puntos de daño más a\n los Pokémon ex y Pokémon V Activos de tu rival (antes de aplicar Debilidad y Resistencia).",
 		it: "Scegli un effetto:\n\n• Scambia il tuo Pokémon attivo con uno della tua panchina.\n\n• Durante questo turno, gli attacchi usati dai tuoi Pokémon infliggono 30 danni in più ai Pokémon-ex attivi e Pokémon-V attivi del tuo avversario, prima di aver applicato debolezza e resistenza.",
 		pt: "Escolha 1:\n\n• Troque o seu Pokémon Ativo por 1 dos seus Pokémon no Banco.\n\n• Durante este turno, os ataques usados pelos seus Pokémon causarão 30 pontos de dano a mais aos Pokémon ex Ativo e Pokémon V Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
-		de: "Wähle 1:\n• Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus.\n• Während dieses Zuges fügen die von deinen Pokémon eingesetzten Attacken dem Aktiven Pokémon-ex und Aktiven Pokémon-V deines Gegners 30 Schadenspunkte mehr zu\n(bevor Schwäche und Resistenz verrechnet werden)."
+		de: "Wähle 1: Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen. Während dieses Zuges fügen die von deinen Pokémon eingesetzten Attacken dem Aktiven Pokémon-ex und Aktiven Pokémon-V deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 	},
 
 	trainerType: "Supporter",

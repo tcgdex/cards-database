@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Quilava",
-		fr: "Fleurisson"
+		fr: "Fleurisson",
+		de: "Igelavar"
 	},
 
 	stage: "Stage2",
@@ -39,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may search your discard pile for a Fire Energy card and attach it to 1 of your Pokémon. If you do, put 1 damage counter on that Pokémon. This power can't be used if Typhlosion is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez chercher dans votre pile de défausse une carte Énergie Fire et l’attacher à l’un de vos Pokémon. Dans ce cas, ajoutez un marqueur de dégâts sur ce Pokémon. Ce pouvoir ne peut pas être utilisé si Typhlosion est affecté par un État spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du deinen Ablagestapel nach 1 -Energiekarte durchsuchen und sie an 1 deiner Pokémon anlegen. Wenn du das machst, lege 1 Schadensmarke auf dieses Pokémon. Diese Poké-Power kann nicht benutzt werden, wenn Tornupto von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du deinen Ablagestapel nach 1 {R}-Energiekarte durchsuchen und sie an 1 deiner Pokémon anlegen. Wenn du das machst, lege 1 Schadensmarke auf dieses Pokémon. Diese Poké-Power kann nicht benutzt werden, wenn Tornupto von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],

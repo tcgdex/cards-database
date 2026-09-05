@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Elige 1 opción:\n\n• Pon 1 Pokémon de tu pila de descartes en tu mano.\n• Pon 3 Pokémon de tu pila de descartes en tu baraja y baraja todas las cartas.",
 		it: "Scegli:\n\n• Prendi un Pokémon dalla tua pila degli scarti e aggiungilo alle carte che hai in mano.\n• Rimischia tre Pokémon dalla tua pila degli scarti nel tuo mazzo.",
 		pt: "Escolha 1:\n\n• Coloque 1 Pokémon da sua pilha de descarte na sua mão.\n• Embaralhe 3 Pokémon da sua pilha de descarte no seu baralho.",
-		de: "Wähle 1 aus:\n\n• Nimm 1 Pokémon aus deinem Ablagestapel auf deine Hand.\n• Mische 3 Pokémon aus deinem Ablagestapel in dein Deck."
+		de: "Wähle 1 aus: Nimm 1 Pokémon aus deinem Ablagestapel auf deine Hand. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen. Mische 3 Pokémon aus deinem Ablagestapel in dein Deck."
 	},
 
 	trainerType: "Item",

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Energy Crush",
 				fr: "Écras'Énergie",
+				de: "Zermalmende Energie"
 			},
 			effect: {
 				en: "Does 20 damage times the amount of Energy attached to all of your opponent's Pokémon.",
 				fr: "Inflige 20 dégâts multipliés par le nombre d'Énergies attachées à tous les Pokémon de votre adversaire.",
+				de: "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der an allen Pokémon deines Gegners angelegten Energien zu."
 			},
 			damage: 20,
 
@@ -58,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Leaf Blade",
 				fr: "Lame-Feuille",
+				de: "Laubklinge"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -86,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "With cells similar to those of plants, it performs photosynthesis inside its body and creates pure air.",
+		de: "Da seine Zellstruktur der von Pflanzen gleicht, kann sein Körper Photosynthese betreiben und saubere Luft erzeugen."
 	},
 
 	thirdParty: {

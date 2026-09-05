@@ -60,7 +60,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "To keep from being blown away by the wind, they gather in clusters. But they do enjoy gentle breezes."
+		en: "To keep from being blown away by the wind, they gather in clusters. But they do enjoy gentle breezes.",
+		de: "Um nicht vom Wind davongeweht zu werden, treten sie stets in Gruppen auf. Eine Brise gefällt ihnen."
 	},
 
 	variants: [

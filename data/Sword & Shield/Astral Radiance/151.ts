@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Tu Pokémon Activo pasa a estar Quemado. Cúrale 40 puntos de daño.",
 		it: "Il tuo Pokémon attivo viene bruciato. Curalo da 40 danni.",
 		pt: "O seu Pokémon Ativo agora está Queimado. Cure 40 pontos de dano dele.",
-		de: "Dein Aktives Pokémon ist jetzt verbrannt. Heile 40 Schadenspunkte bei jenem Pokémon."
+		de: "Dein Aktives Pokémon ist jetzt verbrannt. Heile 40 Schadenspunkte bei jenem Pokémon. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

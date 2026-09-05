@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Its four horns are a high-performance radar system. It uses them to sense sounds and smells, rather than using ears or a nose.",
+		de: "Seine vier Fühler fungieren als hochleistungsfähiges Radarsystem. Es setzt sie anstelle von Nase und Ohren zur Wahrnehmung von Gerüchen und Geräuschen ein."
 	},
 
 
@@ -27,7 +28,9 @@ const card: Card = {
 	types: ["Dragon"],
 
 	evolveFrom: {
-		en: "Goomy"
+		en: "Goomy",
+		fr: "Mucuscule",
+		de: "Viscora"
 	},
 
 	stage: "Stage1",

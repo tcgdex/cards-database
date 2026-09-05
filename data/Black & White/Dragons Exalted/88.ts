@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gible",
 		fr: "Griknot",
+		de: "Kaumalat"
 	},
 
 	stage: "Stage1",
@@ -41,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 20,
@@ -54,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Shred",
 				fr: "Déchiquetage",
+				de: "Zerfetzer"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by any effects on the Defending Pokémon.",
 				fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Défenseur.",
+				de: "Der Schaden dieses Angriffs wird durch Effekte auf dem Verteidigenden Pokémon nicht verändert."
 			},
 			damage: 40,
 
@@ -75,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest.",
+		de: "Es liebt funkelnde Dinge und sucht nach Schätzen in Höhlen, die es dann in seinem Nest hortet."
 	},
 
 	thirdParty: {

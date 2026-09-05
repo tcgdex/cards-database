@@ -73,7 +73,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Si ambas son cruz, este ataque no hace nada.",
 				it: "Lancia due volte una moneta. Se esce entrambe le volte croce, questo attacco non ha effetto.",
 				pt: "Jogue 2 moedas. Se ambas saírem coroa, este ataque não fará nada.",
-				de: "Wirf 2 Münzen. Wenn beide \"Zahl\" zeigen, hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 2 Münzen. Wenn beide „Zahl“ zeigen, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 100,
 
@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "It warms its body by absorbing sunlight with its wings. When its body temperature falls, it can no longer move.",
+		de: "Es erwärmt seinen Körper, indem es mit den Flügeln das Sonnenlicht einfängt. Kühlt sein Körper ab, erstarrt es."
 	},
 
 	thirdParty: {

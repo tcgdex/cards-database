@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives close to water. Its long tail is ridged with a fin, which is often mistaken for a mermaid's.",
+		de: "Dieses Pokémon lebt nahe an Gewässern. Wegen seiner fischähnlichen Schwanzflosse wird es manchmal für eine Meerjungfrau gehalten."
 	},
 
 	variants: [

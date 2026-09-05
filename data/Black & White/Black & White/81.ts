@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Collect",
 				fr: "Collectionner",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 20,
@@ -69,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "The long hair around its face provides an amazing radar that lets it sense subtle changes in its surroundings.",
+		de: "Das lange Fell um sein Gesicht fungiert als Hightech-Radar, mit dem es fein säuberlich seine Umgebung abtastet."
 	},
 
 	thirdParty: {

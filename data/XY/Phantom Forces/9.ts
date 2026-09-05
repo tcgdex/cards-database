@@ -92,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "From its beak, it expels embers that set the tall grass on fire. Then it pounces on the bewildered prey that pop out of the grass.",
+		de: "Es speit Funken aus seinem Schnabel und fängt die Beute, die überrascht aus dem angesengten Gras hervorspringt."
 	},
 
 	thirdParty: {

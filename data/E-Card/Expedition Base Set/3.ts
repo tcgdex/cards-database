@@ -23,20 +23,10 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ekans",
-		fr: "Abo"
+		fr: "Abo",
+		de: "Rettan"
 	},
 
-	abilities: [
-		{
-			type: "Poke-BODY",
-			name: {
-				en: "Gluey Slime",
-			},
-			effect: {
-				en: "As long as Ariados is in play, each player must pay an additional Colorless to retreat his or her Active Pokémon. Gluey Slime can't make a player pay more than an additional Colorless to retreat a Pokémon, even if there is more than 1 Ariados in play.",
-			},
-		},
-	],
 	stage: "Stage1",
 
 	attacks: [
@@ -47,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Poison Spray",
 				fr: "Jet-venin",
-				de: "Poison Spray"
+				de: "Giftspray"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned."
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			}
 		},
 		{
@@ -63,12 +53,12 @@ const card: Card = {
 			name: {
 				en: "Poison Reaction",
 				fr: "Allergie poison",
-				de: "Poison Reaction"
+				de: "Gifteinwirkung"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Poisoned, this attack does 20 damage plus 20 more damage.",
 				fr: "Si le Pokémon Défenseur est Empoisonné, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "If the Defending Pokémon is Poisoned, this attack does 20 damage plus 20 more damage."
+				de: "Wenn das Verteidigende Pokémon vergiftet ist, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 

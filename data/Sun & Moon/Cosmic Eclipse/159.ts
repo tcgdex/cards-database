@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "If a child it has made friends with is bullied, Drampa will find the bully's house and burn it to the ground.",
+		de: "Wenn eines der Kinder, mit denen es befreundet ist, von jemandem gehänselt wird, sucht es das Haus des Übeltäters auf und brennt es nieder."
 	},
 
 	thirdParty: {

@@ -67,7 +67,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Once the vines on Zarude's body tear off, they become nutrients in the soil. This helps the plants of the forest grow."
+		en: "Once the vines on Zarude's body tear off, they become nutrients in the soil. This helps the plants of the forest grow.",
+		de: "Reißen die an seinem Körper wachsenden Ranken ab, werden sie zu Nährstoffen für den Boden, was den Pflanzen im Wald zum Wachstum verhilft."
 	},
 
 	variants: [

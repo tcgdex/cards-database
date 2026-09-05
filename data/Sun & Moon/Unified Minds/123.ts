@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "The melodies sung by Meloetta have the power to make Pokémon that hear them happy or sad.",
+		de: "Es besitzt die Macht, Pokémon, die sich in seiner Nähe aufhalten, mit seinen Melodien froh oder traurig zu stimmen."
 	},
 
 	thirdParty: {

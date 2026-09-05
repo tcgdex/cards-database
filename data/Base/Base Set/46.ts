@@ -54,8 +54,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Charmander in order to use this attack.",
-				fr: "Défaussez 1 carte Énergie  attachée à Salamèche pour pouvoir utiliser cette attaque.",
-				de: "Entferne eine auf Glumanda abgelegte  Energiekarte, um diesen Angriff auszuführen.",
+				fr: "Défaussez 1 carte Énergie {R} attachée à Salamèche pour pouvoir utiliser cette attaque.",
+				de: "Entferne eine auf Glumanda abgelegte {R} Energiekarte, um diesen Angriff auszuführen.",
 				it: "Scarta una carta Energia Fuoco assegnata a Charmander per poter usare questo attacco.",
 			},
 			damage: 30,
@@ -75,7 +75,8 @@ const card: Card = {
 	description: {
 		en: "Obviously prefers hot places. If it gets caught in the rain, steam is said to spout from the tip of its tail.",
 		fr: "Il préfère les endroits chauds. En cas de pluie, de la vapeur se forme autour de sa queue.",
-		it: "Ovviamente preferisce luoghi molto caldi. Se gli capita di trovarsi sotto la pioggia, si dice che esca vapore dalla punta della sua coda."
+		it: "Ovviamente preferisce luoghi molto caldi. Se gli capita di trovarsi sotto la pioggia, si dice che esca vapore dalla punta della sua coda.",
+		de: "Bevorzugt natürlich heiße Stellen. Falls es in den Regen geht, wird sein Schwanz von Dampf umhüllt."
 	},
 
 	variants: [
@@ -92,20 +93,30 @@ const card: Card = {
 			subtype: "shadowless",
 			stamp: ["1st-edition"],
 			thirdParty: {
-				tcgplayer: 107043
+				tcgplayer: 107043,
+				cardmarket: 660182
 			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107043
+				tcgplayer: 107043,
+				cardmarket: 660182
 			},
 		},
 		{
 			type: "normal",
 			subtype: "1999-2000-copyright",
-		}
+		},
+		{
+			type: "normal",
+			size: "jumbo",
+			stamp: ["pikachu"],
+			thirdParty: {
+				cardmarket: 547241
+			},
+		},
 	],
 }
 

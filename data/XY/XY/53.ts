@@ -56,7 +56,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Este ataque hace 20 puntos de daño más por cada cara.",
 				it: "Lancia due volte una moneta. Ogni volta che esce testa, questo attacco infligge 20 danni in più.",
 				pt: "Jogue 2 moedas. Esse ataque causa 20 de danos adicionais para cada cara.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20+",
 
@@ -100,6 +100,7 @@ const card: Card = {
 
 	description: {
 		en: "It clasps its prey with the claws on its neck until it stops moving. Then it finishes it off with deadly poison.",
+		de: "Lähmt seine Beute,indem es sie mit den Zacken an seinem Hals aufspießt. Mit einer Ladung Gift gibt es ihr den Rest."
 	},
 
 	thirdParty: {

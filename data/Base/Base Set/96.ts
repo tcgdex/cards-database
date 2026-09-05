@@ -17,9 +17,9 @@ const card: Card = {
 
 	effect: {
 		en: "Provides {C}{C} energy.\nDoesn't count as a basic Energy card.",
-		de: "Liefert   Energie. Zählt nicht als Basis-Energiekarte.",
+		de: "Liefert {C}{C} Energie. Zählt nicht als Basis-Energiekarte.",
 		it: "Fornisce energia Incolore Incolore. Non conta come carta Energia base.",
-		fr: "Fournit Incolore Incolore énergies. Ne compte pas comme une carte Énergie de base.",
+		fr: "Fournit {C}{C} énergies. Ne compte pas comme une carte Énergie de base.",
 	},
 
 	variants: [
@@ -36,14 +36,16 @@ const card: Card = {
 			subtype: "shadowless",
 			stamp: ["1st-edition"],
 			thirdParty: {
-				tcgplayer: 107099
+				tcgplayer: 107099,
+				cardmarket: 660106
 			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107099
+				tcgplayer: 107099,
+				cardmarket: 660106
 			},
 		},
 		{

@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.",
+		de: "Es erfasst warme Gefühle von Menschen und Pokémon mit seinen Hörnern und wärmt sich daran auf."
 	},
 
 	thirdParty: {

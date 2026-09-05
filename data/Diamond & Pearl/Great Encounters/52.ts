@@ -4,7 +4,7 @@ import Set from '../Great Encounters'
 const card: Card = {
 	name: {
 		en: "Seviper",
-		fr: "Seviper",
+		fr: "Séviper",
 		de: "Vipitis"
 	},
 
@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, your opponent can't play any Trainer cards from his or her hand during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, votre adversaire ne peut pas jouer de cartes Dresseur de sa main lors de son prochain tour.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" kann dein Gegner in seinem nächsten Zug keine Trainerkarten von seiner Hand spielen."
+				de: "Wirf 1 Münze. Bei „Kopf“ kann dein Gegner in seinem nächsten Zug keine Trainerkarten von seiner Hand spielen."
 			},
 			damage: 20,
 
@@ -57,7 +57,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 30 more damage and the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 30 dégâts supplémentaires et le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt vergiftet."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: "30+",
 
@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "For many generations, it has feuded with ZANGOOSE. It whets its bladed tail on rocks for battle.",
+		de: "Seit Generationen ist es mit SENGO verfeindet. Es wetzt seinen scharfen Schweif an Felsen."
 	},
 
 	thirdParty: {

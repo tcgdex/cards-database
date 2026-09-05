@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Lotad",
 		fr: "Nénupiot",
+		de: "Loturzel"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Si este Pokémon tiene alguna Energía Water unida a él, no tiene ningún Coste de Retirada.",
 				it: "Se questo Pokémon ha delle Energie Water assegnate, non ha costo di ritirata.",
 				pt: "Se este Pokémon tiver alguma Energia Water ligada a ele, não terá custo de Recuo.",
-				de: "Wenn an dieses Pokémon mindestens 1 Water-Energie angelegt ist, hat es keine Rückzugskosten."
+				de: "Wenn an dieses Pokémon mindestens 1 {W}-Energie angelegt ist, hat es keine Rückzugskosten."
 			},
 		},
 	],
@@ -93,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a mischievous spirit. If it spots an angler, it will tug on the fishing line to interfere.",
+		de: "Es hat ein spitzbübisches Wesen. Sieht es einen Angler, zieht es an der Angelschnur, um ihn zu ärgern."
 	},
 
 	thirdParty: {

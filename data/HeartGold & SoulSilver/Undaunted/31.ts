@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Grimer",
-		fr: "Tadmorv"
+		fr: "Tadmorv",
+		de: "Sleima"
 	},
 
 	stage: "Stage1",
@@ -76,7 +77,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its body is made of a powerful poison. Touching it accidentally will cause a fever that requires bed rest."
+		en: "Its body is made of a powerful poison. Touching it accidentally will cause a fever that requires bed rest.",
+		de: "Sein Körper besteht aus Gift. Eine zufällige Berührung reicht aus, um fiebrig im Bett zu liegen."
 	},
 
 	variants: [

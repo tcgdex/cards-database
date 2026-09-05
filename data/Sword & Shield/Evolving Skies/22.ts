@@ -43,7 +43,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This hot-blooded Pokémon is filled with curiosity. When it gets angry or starts fighting, its short mane gets hot."
+		en: "This hot-blooded Pokémon is filled with curiosity. When it gets angry or starts fighting, its short mane gets hot.",
+		de: "Ein sehr aktives und neugieriges Pokémon. Bei Kampfbeginn und wenn es wütend ist, wird seine Mähne heiß."
 	},
 
 	dexId: [667],

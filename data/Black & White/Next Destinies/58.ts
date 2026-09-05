@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				de: "Ramme"
 			},
 
 			damage: 20,
@@ -55,6 +56,7 @@ const card: Card = {
 
 	description: {
 		en: "It eats the dreams of people and Pokémon. When it eats a pleasant dream, it expels pink-colored mist.",
+		de: "Es verschlingt die Träume der Menschen. Frisst es einen fröhlichen Traum, stößt es danach einen rosafarbenen Dunst aus."
 	},
 
 	thirdParty: {

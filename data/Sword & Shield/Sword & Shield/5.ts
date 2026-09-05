@@ -65,7 +65,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It shoots cotton from its body to protect itself. If it gets caught up in hurricane-strength winds, it can get sent to the other side of the Earth."
+		en: "It shoots cotton from its body to protect itself. If it gets caught up in hurricane-strength winds, it can get sent to the other side of the Earth.",
+		de: "Sie schützen sich, indem sie Watte verstreuen. Manche werden vom Wind bis ans andere Ende der Welt getragen."
 	},
 
 	thirdParty: {

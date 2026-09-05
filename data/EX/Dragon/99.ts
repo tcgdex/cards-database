@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Charmander",
-		fr: "Salamèche"
+		fr: "Salamèche",
+		de: "Glumanda"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Smokescreen",
 				fr: "Brouillard",
-				de: "Smokescreen"
+				de: "Rauchwolke"
 			},
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 				fr: "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est face, cette attaque est sans effet.",
-				de: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flip a coin. if tails, that attack does nothing."
+				de: "Falls das verteidigende Pokémon während des nächsten gegnerischen Zuges anzugreifen versucht, wirft dein Gegner 1 Münze. Bei „Zahl“ fügt dieser Angriff keine Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -54,12 +55,12 @@ const card: Card = {
 			name: {
 				en: "Fireworks",
 				fr: "Feux d'artifices",
-				de: "Fireworks"
+				de: "Feuerwerk"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy card attached to Charmeleon.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une carte Énergie  attachée à Reptincel.",
-				de: "Flip a coin. If tails, discard a  Energy card attached to Charmeleon."
+				fr: "Lancez une pièce. Si c'est pile, défaussez une carte Énergie {R} attachée à Reptincel.",
+				de: "Wirf 1 Münze. Entferne bei „Zahl“ eine {R}-Energiekarte von Glutexo."
 			},
 			damage: 40,
 

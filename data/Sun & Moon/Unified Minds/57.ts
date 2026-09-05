@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pikachu",
 		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -52,7 +53,7 @@ const card: Card = {
 				es: "Descarta cualquier cantidad de Energías Lightning de este Pokémon. Después, por cada Energía que hayas descartado de esta manera, elige 1 de los Pokémon de tu rival y hazle 30 puntos de daño. (Puedes elegir el mismo Pokémon más de una vez). Este daño no se ve afectado por Debilidad o Resistencia.",
 				it: "Scarta tutte le Energie Lightning che vuoi assegnate a questo Pokémon. Poi scegli uno dei Pokémon del tuo avversario per ogni Energia che hai scartato in questo modo e infliggigli 30 danni. Puoi scegliere lo stesso Pokémon più di una volta. Questi danni non sono influenzati dalla debolezza o dalla resistenza.",
 				pt: "Descarte qualquer quantidade de Energia Lightning deste Pokémon. Em seguida, para cada Energia descartada desta forma, escolha 1 dos Pokémon do seu oponente e cause 30 pontos de dano a ele (você pode escolher o mesmo Pokémon mais de uma vez). Este dano não é afetado por Fraqueza ou Resistência.",
-				de: "Lege beliebig viele Lightning-Energien von diesem Pokémon auf deinen Ablagestapel. Wähle anschließend für jede auf diese Weise auf deinen Ablagestapel gelegte Energie 1 Pokémon deines Gegners und füge ihm 30 Schadenspunkte zu. (Du kannst dasselbe Pokémon mehr als einmal wählen.) Dieser Schaden wird durch Schwäche und Resistenz nicht verändert."
+				de: "Lege beliebig viele {L}-Energien von diesem Pokémon auf deinen Ablagestapel. Wähle anschließend für jede auf diese Weise auf deinen Ablagestapel gelegte Energie 1 Pokémon deines Gegners und füge ihm 30 Schadenspunkte zu. (Du kannst dasselbe Pokémon mehr als einmal wählen.) Dieser Schaden wird durch Schwäche und Resistenz nicht verändert."
 			},
 
 		},
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "It focuses psychic energy into its tail and rides it like it's surfing. Another name for this Pokémon is \"hodad.\"",
+		de: "Es sammelt Psycho-Kräfte in seinem Schweif und bewegt sich wie ein Surfer auf diesem fort. Man nennt es daher auch den „Geländesurfer“."
 	},
 
 	thirdParty: {

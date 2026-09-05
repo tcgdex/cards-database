@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Electrike",
 		fr: "Dynavolt",
+		de: "Frizelbliz"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy attached to Manectric and this attack does 40 damage plus 30 more damage.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée à Elecsprint et cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei 'Kopf' lege 1 Energie, die an Voltenso angelegt ist, auf deinen Ablagestapel und dieser Angriff fügt 40 Schadenpunkte plus 30 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ lege 1 Energie, die an Voltenso angelegt ist, auf deinen Ablagestapel und dieser Angriff fügt 40 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -84,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+		de: "Aus seiner Mähne entlädt es Elektrizität. Es generiert eine Gewitterwolke, aus der es Blitze entlädt."
 	},
 
 	thirdParty: {

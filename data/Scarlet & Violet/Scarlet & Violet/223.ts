@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Tarountula",
-		fr: "Tissenboule"
+		fr: "Tissenboule",
+		de: "Tarundel"
 	},
 
 	stage: "Stage1",
@@ -90,9 +91,6 @@ const card: Card = {
 	suffix: "ex",
 	illustrator: "takuyoa",
 
-	description: {
-		en: "No matter how much it stuffs its belly with food, it is always anxious about getting hungry again. So, it stashes berries in its cheeks and tail.",
-	},
 
 	thirdParty: {
         cardmarket: 702519,

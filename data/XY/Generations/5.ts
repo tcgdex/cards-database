@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Butterfree",
 		fr: "Papilusion",
+		de: "Smettbo"
 	},
 
 	illustrator: "miki kudo",
@@ -25,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Metapod",
 		fr: "Chrysacier",
+		de: "Safcon"
 	},
 
 	stage: "Stage2",
@@ -37,10 +39,12 @@ const card: Card = {
 			name: {
 				en: "Quiver Dance",
 				fr: "Papillodanse",
+				de: "Falterreigen"
 			},
 			effect: {
 				en: "Search your deck for a basic Energy card and attach it to this Pokémon. Shuffle your deck afterward. If you attached Energy in this way, heal 40 damage from this Pokémon.",
 				fr: "Cherchez une carte Énergie de base dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck. Si vous avez attaché de l'Énergie de cette façon, soignez 40 dégâts à ce Pokémon.",
+				de: "Durchsuche dein Deck nach einer Basis-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck. Falls du auf diese Weise Energie angelegt hast, heile 40 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -53,6 +57,7 @@ const card: Card = {
 			name: {
 				en: "Gust",
 				fr: "Tornade",
+				de: "Windstoß"
 			},
 
 			damage: 70,
@@ -78,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "It loves the honey of flowers and can locate flower patches that have even tiny amounts of pollen.",
+		de: "Es liebt Blütenhonig. Es findet selbst Blumen, die sehr wenig Pollen haben."
 	},
 
 	thirdParty: {

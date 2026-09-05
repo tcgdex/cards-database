@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -48,7 +48,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20×",
 
@@ -65,7 +65,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is said that several Snorunt gather under giant leaves and live together in harmony."
+		en: "It is said that several Snorunt gather under giant leaves and live together in harmony.",
+		de: "Gerüchten zufolge sammeln sich SCHNEPPKE unter riesigen Blättern und leben dort friedlich zusammen."
 	},
 
 	variants: [

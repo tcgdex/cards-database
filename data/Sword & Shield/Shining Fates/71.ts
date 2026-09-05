@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Une hasta 2 cartas de Energía Básica de tu pila de descartes a 1 de tus Pokémon VMAX. Si has unido alguna carta de Energía de esta manera, descarta las cartas de tu mano.",
 		it: "Assegna a uno dei tuoi Pokémon-VMAX fino a due carte Energia base dalla tua pila degli scarti. Se hai assegnato delle carte Energia in questo modo, scarta le carte che hai in mano.",
 		pt: "Ligue até 2 cartas de Energia básica da sua pilha de descarte a 1 dos seus Pokémon VMAX. Se você ligou qualquer carta de Energia desta forma, descarte a sua mão.",
-		de: "Lege bis zu 2 Basis-Energiekarten aus deinem Ablagestapel an 1 deiner Pokémon-VMAX an. Wenn du auf diese Weise mindestens 1 Energiekarte angelegt hast, lege deine Handkarten auf deinen Ablagestapel."
+		de: "Lege bis zu 2 Basis-Energiekarten aus deinem Ablagestapel an 1 deiner Pokémon-VMAX an. Wenn du auf diese Weise mindestens 1 Energiekarte angelegt hast, lege deine Handkarten auf deinen Ablagestapel. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

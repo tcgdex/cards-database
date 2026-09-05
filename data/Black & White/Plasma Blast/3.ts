@@ -59,10 +59,12 @@ const card: Card = {
 			name: {
 				en: "Spiral Drain",
 				fr: "Spirale Épuisante",
+				de: "Spiralsauger"
 			},
 			effect: {
 				en: "Heal 10 damage from this Pokémon.",
 				fr: "Soignez 10 dégâts à ce Pokémon.",
+				de: "Heile 10 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 20,
 
@@ -87,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It lived on the seafloor 100 million years ago and was reanimated scientifically.",
+		de: "Vor 100 Millionen Jahren lebte dieses Pokémon auf dem Meeresgrund. Die Wissenschaft belebte es neu."
 	},
 
 	thirdParty: {

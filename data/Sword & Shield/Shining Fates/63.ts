@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Cura 50 puntos de daño a ambos Pokémon Activos.",
 		it: "Cura entrambi i Pokémon attivi da 50 danni.",
 		pt: "Cure 50 pontos de dano de ambos os Pokémon Ativos.",
-		de: "Heile 50 Schadenspunkte bei beiden Aktiven Pokémon."
+		de: "Heile 50 Schadenspunkte bei beiden Aktiven Pokémon. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

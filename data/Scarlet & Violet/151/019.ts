@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is common but hazardous. Its sharp incisors can easily cut right through hard wood.",
+		de: "Ein weitverbreitetes Pokémon, das nicht ganz ungefährlich ist. Selbst hartes Holz zerkleinert es mit seinen scharfen Nagezähnen mühelos."
 	},
 
 	variants: [

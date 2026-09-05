@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pupitar",
-		fr: "Ymphect"
+		fr: "Ymphect",
+		de: "Pupitar"
 	},
 
 	stage: "Stage2",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "This attack does 20 damage to each Pokémon in play (both yours and your opponent's) (excluding any Darkness Pokémon). (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 20 dégâts à chaque Pokémon en jeu (les vôtres et ceux de votre adversaire), à l’exception des Pokémon Darkness. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				de: "Dieser Angriff fügt jedem Pokémon im Spiel (deinen und denen deines Gegners) 10 Schadenspunkte zu. (-Pokémon sind hiervon ausgenommen.) (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Dieser Angriff fügt jedem Pokémon im Spiel (deinen und denen deines Gegners) 10 Schadenspunkte zu. ({D}-Pokémon sind hiervon ausgenommen.) (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},

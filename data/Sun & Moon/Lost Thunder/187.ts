@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Busca en tu baraja 1 Pokémon Grass Básico o 1 carta de Energía Grass, enseña esa carta y ponla en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Cerca nel tuo mazzo una carta Pokémon Base Grass o Energia Grass, mostrala e aggiungila a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure por 1 carta de Pokémon Grass Básico ou por 1 carta de Energia Grass no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Durchsuche dein Deck nach 1 Grass-Basis-Pokémon oder 1 Grass-Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Durchsuche dein Deck nach 1 {G}-Basis-Pokémon oder 1 {G}-Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

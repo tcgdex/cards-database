@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Sneasel",
 		fr: "Farfuret",
+		de: "Sniebel"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Dark Penalty",
 				fr: "Punition Obscure",
+				de: "Dunkle Strafe"
 			},
 			effect: {
 				en: "If the Defending Pokémon has no Pokémon Tool card attached to it, this attack does nothing.",
 				fr: "S'il n'y a pas de carte Outil Pokémon attachée au Pokémon Défenseur, cette attaque ne fait rien.",
+				de: "Wenn an das Verteidigende Pokémon keine Pokémon-Ausrüstung angelegt ist, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 90,
 
@@ -58,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Fury Swipes",
 				fr: "Combo-Griffe",
+				de: "Kratzfurie"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 30,
 
@@ -86,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "Evolution made it even more devious. It communicates by clawing signs in boulders.",
+		de: "Wird durch Entwicklung noch verschlagener. Kommuniziert durch in Felsen gekratzte Zeichen."
 	},
 
 	thirdParty: {

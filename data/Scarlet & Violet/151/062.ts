@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Poliwrath is skilled at both swimming and martial arts. It uses its well-trained arms to dish out powerful punches.",
+		de: "Es ist sowohl ein begnadeter Schwimmer als auch Kampfsportler. Mit seinen durchtrainierten Armen teilt es kräftige Schläge aus."
 	},
 
 	variants: [

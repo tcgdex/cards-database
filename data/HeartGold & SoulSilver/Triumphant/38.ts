@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lickitung",
-		fr: "Excelangue"
+		fr: "Excelangue",
+		de: "Schlurp"
 	},
 
 	stage: "Stage1",
@@ -76,7 +77,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It has space in its throat to store saliva. It can also roll up its tongue and store it in the same spot."
+		en: "It has space in its throat to store saliva. It can also roll up its tongue and store it in the same spot.",
+		de: "Tief in seinem Rachen sammelt sich Speichel. Es umklammert Gegner mit seiner Zunge und zieht sie dorthin hinab."
 	},
 
 	variants: [

@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "With four arms that react more quickly than it can think, it can execute many punches at once.",
+		de: "Seine vier Arme reagieren schneller, als es denken kann. Daher ist es in der Lage, unzählige Schläge reflexartig auszuführen."
 	},
 
 	variants: [

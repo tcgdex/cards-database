@@ -96,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "It swims by jetting water from its horns. The most notable characteristic of the Aqua Breed is its high body fat, which allows it to float easily.",
+		de: "Es schwimmt durch den Ausstoß von Wasser aus seinen Hörnern. Der hohe Körperfettanteil lässt diese „Flutenvariante“ auf dem Wasser treiben."
 	},
 }
 

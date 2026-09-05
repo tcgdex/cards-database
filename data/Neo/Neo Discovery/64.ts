@@ -41,7 +41,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt vergiftet."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 			damage: 20
@@ -59,7 +59,8 @@ const card: Card = {
 
 	description: {
 		en: "It spins a web using fine – but durable – thread. It then waits patiently for prey to be trapped.",
-		fr: "Il tisse une toile en utilisant un fil fin mais solide, puis il attend tranquillement sa proie."
+		fr: "Il tisse une toile en utilisant un fil fin mais solide, puis il attend tranquillement sa proie.",
+		de: "Es spinnt sein ein Netz aus feinem, aber haltbaren Faden. Dann wartet es geduldig auf Beute, die sich darin verfängt."
 	},
 
 

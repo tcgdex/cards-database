@@ -22,7 +22,7 @@ const card: Card = {
 		es: "El Pokémon al que esté unida esta carta no tiene ninguna Debilidad.",
 		it: "Il Pokémon a cui è assegnata questa carta non ha debolezza.",
 		pt: "O Pokémon ao qual esta carta está ligada não possui Fraqueza.",
-		de: "Das Pokémon, an das diese Karte angelegt ist, hat keine Schwäche."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Das Pokémon, an das diese Karte angelegt ist, hat keine Schwäche. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

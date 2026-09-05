@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Riolu",
 		fr: "Riolu",
+		de: "Riolu"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Si este Pokémon tiene alguna Energía Metal unida a él, el tipo de este Pokémon es Fighting y Metal.",
 				it: "Se questo Pokémon ha delle Energie Metal assegnate, il tipo di questo Pokémon è sia Fighting che Metal.",
 				pt: "Se este Pokémon possui alguma Energia Metal ligada a ele, o tipo desse Pokémon é Fighting e Metal.",
-				de: "Wenn an dieses Pokémon bereits Metal-Energie angelegt ist, ist dieses Pokémon sowohl vom Typ Fighting als auch Metal."
+				de: "Wenn an dieses Pokémon bereits {M}-Energie angelegt ist, ist dieses Pokémon sowohl vom Typ {F} als auch {M}."
 			},
 		},
 	],
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Hurricane Kick",
 				fr: "Pied Ouragan",
+				de: "Orkantritt"
 			},
 			effect: {
 				en: "Does 30 more damage for each Prize card your opponent has taken.",
 				fr: "Inflige 30 dégâts supplémentaires pour chaque carte Récompense que votre adversaire a récupérée.",
+				de: "Dieser Angriff fügt 30 weitere Schadenspunkte für jede Preiskarte zu, die dein Gegner bereits genommen hat."
 			},
 			damage: 60,
 
@@ -86,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "By reading the auras of all things, it can tell how others are feeling from over half a mile away.",
+		de: "Kann aus einem Kilometer Entfernung die Gefühle anderer Wesen erfassen, indem es die Wellen liest, die sie aussenden."
 	},
 
 	thirdParty: {

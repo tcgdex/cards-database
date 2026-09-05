@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Small roots that extend from the tips of this Pokémon's feet can tie into the trees of the forest and give Trevenant control over them.",
+		de: "Es streckt die dünnen Wurzeln an seinen Beinen aus, um sich so mit den Bäumen im Wald zu verbinden und sie nach Belieben zu kontrollieren."
 	},
 
 	variants: [

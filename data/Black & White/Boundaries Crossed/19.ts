@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Charmander",
 		fr: "Salamèche",
+		de: "Glumanda"
 	},
 
 	stage: "Stage1",
@@ -41,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Flare",
 				fr: "Flamboiement",
+				de: "Flackern"
 			},
 
 			damage: 20,
@@ -55,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Raging Claws",
 				fr: "Griffes Enragées",
+				de: "Wutklauen"
 			},
 			effect: {
 				en: "Does 10 more damage for each damage counter on this Pokémon.",
 				fr: "Inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon.",
+				de: "Dieser Angriff fügt 10 weitere Schadenspunkte für jede Schadensmarke auf diesem Pokémon zu."
 			},
 			damage: 50,
 
@@ -76,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "In the rocky mountains where Charmeleon live, their fiery tails shine at night like stars.",
+		de: "Glutexo leben in den Bergen. Die Flammen auf ihren Schweifspitzen leuchten in der Nacht wie Sterne."
 	},
 
 	thirdParty: {

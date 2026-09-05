@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Diglett",
 		fr: "Taupiqueur",
+		de: "Digda"
 	},
 
 	stage: "Stage1",
@@ -70,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "While the three of them normally get along splendidly, on rare occasions a huge fight will break out over which head gets to eat first.",
+		de: "Digdri sind Drillinge und normalerweise ein Herz und eine Seele. Nur ganz selten streiten sie sich, welcher Kopf zuerst ans Futter darf."
 	},
 
 	thirdParty: {

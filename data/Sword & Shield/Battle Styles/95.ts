@@ -46,7 +46,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "They make repeated eerie howls before dawn to call attention to their pack."
+		en: "They make repeated eerie howls before dawn to call attention to their pack.",
+		de: "Mit wiederholtem unheimlichen Heulen vor Tagesanbruch machen sie auf die Existenz ihres Rudels aufmerksam."
 	},
 
 	variants: [

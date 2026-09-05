@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Busca en tu baraja 1 carta de Estadio y 1 carta de Energía, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Cerca nel tuo mazzo una carta Stadio e una carta Energia, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure por uma carta de Estádio e uma carta de Energia no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Durchsuche dein Deck nach 1 Stadionkarte und 1 Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Durchsuche dein Deck nach 1 Stadionkarte und 1 Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

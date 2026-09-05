@@ -71,7 +71,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It emits light from its tail to communicate. It loves the sweet aroma given off by Illumise."
+		en: "It emits light from its tail to communicate. It loves the sweet aroma given off by Illumise.",
+		de: "Es kommuniziert mit seinen Artgenossen, indem es mit dem Hinterteil blinkt. Es liebt ILLUMISEs Duft."
 	},
 
 	variants: [

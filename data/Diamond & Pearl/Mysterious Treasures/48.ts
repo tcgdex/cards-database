@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gible",
-		fr: "Griknot"
+		fr: "Griknot",
+		de: "Kaumalat"
 	},
 
 	stage: "Stage1",
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, put 4 damage counters on 1 of your opponent's Pokémon. If tails, remove 4 damage counters from 1 of your Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, placez 4 marqueurs de dégât sur 1 des Pokémon de votre adversaire. Si c'est pile, retirez 4 marqueurs de dégât à 1 de vos Pokémon.",
-				de: "Wirf 1 Münze. Bei 'Kopf' lege 4 Schadensmarken auf 1 Pokémon deines Gegners. Bei 'Zahl' entferne 4 Schadensmarken von 1 deiner Pokémon."
+				de: "Wirf 1 Münze. Bei „Kopf“ lege 4 Schadensmarken auf 1 Pokémon deines Gegners. Bei „Zahl“ entferne 4 Schadensmarken von 1 deiner Pokémon."
 			},
 
 		},
@@ -77,7 +78,8 @@ const card: Card = {
 
 	description: {
 		en: "There is a long-held belief that medicine made from its scale will heal even incurable illnesses.",
-		fr: "Selon une croyance ancienne, on peut utiliser ses écailles pour guérir les maladies incurables."
+		fr: "Selon une croyance ancienne, on peut utiliser ses écailles pour guérir les maladies incurables.",
+		de: "Es gibt einen uralten Glauben, dass Medizin, die aus seinen Schuppen gewonnen wird, alles heilen kann."
 	},
 
 	thirdParty: {

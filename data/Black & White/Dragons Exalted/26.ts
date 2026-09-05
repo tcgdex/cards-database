@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Wailmer",
 		fr: "Wailmer",
+		de: "Wailmer"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Water Cannon",
 				fr: "Canon à O",
+				de: "Aquakanone"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage times the amount of Water Energy attached to this Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts multipliés par le nombre d'Énergies Water attachées à ce Pokémon.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte mal der Anzahl der an dieses Pokémon angelegten {W}-Energien zu."
 			},
 			damage: 30,
 
@@ -59,10 +62,12 @@ const card: Card = {
 			name: {
 				en: "Giant Wave",
 				fr: "Vague Géante",
+				de: "Riesenwelle"
 			},
 			effect: {
 				en: "This Pokémon can't use Giant Wave during your next turn.",
 				fr: "Ce Pokémon ne peut pas utiliser Vague Géante pendant votre prochain tour.",
+				de: "Dieses Pokémon kann während deines nächsten Zuges Riesenwelle nicht einsetzen."
 			},
 			damage: 80,
 
@@ -80,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "The biggest of all Pokémon. It can dive to a depth of almost 10,000 feet on only one breath.",
+		de: "Das größte Pokémon. Es kann mit nur einem Atemzug in Tiefen bis 3 000 Meter tauchen."
 	},
 
 	thirdParty: {

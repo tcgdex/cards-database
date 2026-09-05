@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gloom",
 		fr: "Duflor",
+		de: "Duflor"
 	},
 
 	stage: "Stage2",
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Does 40 damage plus 20 more damage for each Vileplume and each Bellossom you have in play. Flip a coin. If heads, the Defending Pokémon is now Burned.",
 				fr: "Inflige 40 dégâts plus 20 dégâts supplémentaires pour chaque Rafflesia et chaque Joliflor que vous avez en jeu. Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Dieser Angriff fügt 40 Schadenspunkte plus 20 weitere Schadenspunkte für jedes Giflor und jedes Blubella, das du im Spiel hast, zu. Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verbrannt."
+				de: "Dieser Angriff fügt 40 Schadenspunkte plus 20 weitere Schadenspunkte für jedes Giflor und jedes Blubella, das du im Spiel hast, zu. Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: "40+",
 
@@ -86,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "When the heavy rainfall season ends, it is drawn out by warm sunlight to dance in the open.",
-		fr: "À la fin de la saison des pluies, il sort danser en plein air, attiré par la chaleur du soleil."
+		fr: "À la fin de la saison des pluies, il sort danser en plein air, attiré par la chaleur du soleil.",
+		de: "Sobald die Regenzeit vorbei ist, wird es von der warmen Sonne nach draußen gezogen, wo es tanzt."
 	},
 
 	thirdParty: {

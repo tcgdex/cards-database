@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				de: "Ramme"
 			},
 
 			damage: 10,
@@ -50,6 +51,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 30,
@@ -68,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it.",
+		de: "Es beißt Angreifer und injiziert ihnen Gift, das selbst große Vogel-Pokémon, seine natürlichen Feinde, lähmt."
 	},
 
 	thirdParty: {

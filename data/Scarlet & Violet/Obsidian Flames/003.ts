@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Bellossom gather at times and appear to dance. They say that the dance is a ritual to summon the sun.",
+		de: "Von Zeit zu Zeit kommen Blubella zusammen, um zu tanzen. Man sagt, ihr Tanz sei ein Ritual, um die Sonne herbeizurufen."
 	},
 
 	variants: [

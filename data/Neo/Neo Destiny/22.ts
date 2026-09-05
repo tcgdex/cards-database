@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Dratini",
-		fr: "Minidraco"
+		fr: "Minidraco",
+		de: "Dratini"
 	},
 
 	stage: "Stage1",
@@ -39,12 +40,12 @@ const card: Card = {
 			name: {
 				en: "Healing Light",
 				fr: "Lumière soignante",
-				de: "Healing Light"
+				de: "Heilendes Licht"
 			},
 			effect: {
 				en: "Remove 1 damage counter from each of your Pokémon that has any damage counters on it.",
 				fr: "Retirez un marqueur de dégât de chacun de vos Pokémon ayant des marqueurs de dégâts.",
-				de: "Remove 1 damage counter from each of you Pokémon that has any damage counters on it."
+				de: "Entferne von jedem deiner Pokémon, auf dem Schadensmarken liegen, eine der Schadensmarken."
 			},
 
 		},
@@ -58,13 +59,13 @@ const card: Card = {
 			name: {
 				en: "Protective Wave",
 				fr: "Onde protectrice",
-				de: "Protective Wave"
+				de: "Schützende Welle"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Light Dragonair.",
 				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Draco lumineux.",
-				de: "Flip a coin. If heads, during your opponent's turn, prevent all effects of attacks, including damage, done to Light Dragonair."
+				de: "Wirf eine Münze. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Helles Dragonir zugefügt werden."
 			},
 
 			damage: 20
@@ -82,7 +83,8 @@ const card: Card = {
 
 	description: {
 		en: "The aura it projects from its body has an effect on the surrounding climate and weather.",
-		fr: "L'aura qui enveloppe son corps a un effet sur la météo et le climat environnants."
+		fr: "L'aura qui enveloppe son corps a un effet sur la météo et le climat environnants.",
+		de: "Die Aura, die sein Körper ausstrahlt, beeinflusst das Klima und Wetter seiner Umgebung."
 	},
 
 

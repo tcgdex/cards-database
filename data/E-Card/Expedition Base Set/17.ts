@@ -21,17 +21,6 @@ const card: Card = {
 		"Fire"
 	],
 
-	abilities: [
-		{
-			type: "Poke-BODY",
-			name: {
-				en: "Fluff",
-			},
-			effect: {
-				en: "During your opponent's turn, if Jumpluff would be damaged or affected by an opponent's attack and it already has at least 1 damage counter on it, flip a coin. If heads, prevent all effects of that attack (including damage).",
-			},
-		},
-	],
 	stage: "Baby",
 
 	resistances: [
@@ -59,7 +48,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, put a basic Energy card from your discard pile into your hand.",
 				fr: "Lancez une pièce. Si c'est face, ajoutez une carte Énergie de votre pile de défausse à votre main.",
-				de: "Wirf eine Münze. Nimm bei 'Kopf' eine Basis-Energiekarte von deinem Ablagestapel auf deine Hand."
+				de: "Wirf eine Münze. Nimm bei „Kopf“ eine Basis-Energiekarte von deinem Ablagestapel auf deine Hand."
 			},
 
 		},

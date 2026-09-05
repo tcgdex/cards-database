@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d'Boule",
+				de: "Kopfnuss"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Dragon Claw",
 				fr: "Dracogriffe",
+				de: "Drachenklaue"
 			},
 
 			damage: 20,
@@ -67,6 +69,7 @@ const card: Card = {
 
 	description: {
 		en: "Dreaming of one day flying, it practices by leaping off cliffs every day.",
+		de: "Es träumt davon, eines Tages fliegen zu können und springt daher jeden Tag von hohen Klippen."
 	},
 
 	thirdParty: {

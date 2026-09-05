@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Exeggcute",
 		fr: "Noeunoeuf",
+		de: "Owei"
 	},
 
 	stage: "Stage1",
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "It engages its enemies using psychic powers. Each of its three heads fires off psychokinetic energy, tripling its power.",
+		de: "Gegen Feinde setzt es Psycho-Kräfte ein. Seine drei Köpfe greifen unabhängig voneinander an, wodurch sich der Gesamtangriff verdreifacht."
 	},
 
 	thirdParty: {

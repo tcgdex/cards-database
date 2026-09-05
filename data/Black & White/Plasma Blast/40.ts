@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Munna",
 		fr: "Munna",
+		de: "Somniam"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Precognitive Dream",
 				fr: "Rêve Prémonitoire",
+				de: "Visionärer Traum"
 			},
 			effect: {
 				en: "Draw 3 cards. This Pokémon is now Asleep.",
 				fr: "Piochez 3 cartes. Ce Pokémon est maintenant Endormi.",
+				de: "Ziehe 3 Karten. Dieses Pokémon schläft jetzt."
 			},
 
 		},
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Psybeam",
 				fr: "Rafale Psy",
+				de: "Psystrahl"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
 				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 60,
 
@@ -78,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "The dream mist coming from its forehead changes into many different colors depending on the dream that was eaten.",
+		de: "Je nach Inhalt der Träume, die es frisst, nimmt der Dunst, der aus seiner Stirn austritt, unterschiedliche Farben an."
 	},
 
 	thirdParty: {

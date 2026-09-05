@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Desiring the strongest karate chop, they seclude themselves in mountains and train without sleeping.",
+		de: "Es lebt zurückgezogen in den Bergen und trainiert Tag und Nacht, um seinen Karateschlag zu perfektionieren."
 	},
 
 	thirdParty: {

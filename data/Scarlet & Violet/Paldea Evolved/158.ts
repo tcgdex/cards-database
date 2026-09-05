@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill.",
+		de: "Es nutzt Aufwinde, um wie ein Segelflugzeug hoch oben in den Lüften zu schweben, und trägt Futter in seinem Schnabel umher."
 	},
 }
 

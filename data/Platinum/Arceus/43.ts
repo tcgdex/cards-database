@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Shinx"
+		en: "Shinx",
+		de: "Sheinux"
 	},
 
 	stage: "Stage1",
@@ -51,7 +52,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard all Lightning Energy attached to Luxio. Flip a coin for each Energy card you discarded. This attack does 40 damage times the number of heads.",
-				de: "Entferne alle -Energien von Luxio und lege sie auf deinen Ablagestapel. Wirf für jede auf diese Weise auf deinen Ablagestapel gelegte Energiekarte 1 Münze. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Entferne alle {L}-Energien von Luxio und lege sie auf deinen Ablagestapel. Wirf für jede auf diese Weise auf deinen Ablagestapel gelegte Energiekarte 1 Münze. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "40×",
 
@@ -75,7 +76,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes."
+		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
+		de: "Durch die Spitzen seiner scharfen Krallen strömt Elektrizität. Selbst kleine Kratzer verursachen Ohnmacht."
 	},
 
 	variants: [

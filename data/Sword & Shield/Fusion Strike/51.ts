@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "nagimiso",
 
 	description: {
-		en: "Once it slams its shell shut, it is impossible to open, even by those with superior strength."
+		en: "Once it slams its shell shut, it is impossible to open, even by those with superior strength.",
+		de: "Ist seine Schale erst geschlossen, ist es selbst mit viel Kraft nicht mehr möglich, diese zu öffnen."
 	},
 
 	abilities: [{

@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Staravia",
-		fr: "Étourvol"
+		fr: "Étourvol",
+		de: "Staravia"
 	},
 
 	stage: "Stage2",
@@ -100,6 +101,7 @@ const card: Card = {
 
 	description: {
 		en: "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings.",
+		de: "Entwickelt sich Staravia zu Staraptor, verlässt es den Schwarm und lebt allein. Die Spannweite seiner Flügel ist gigantisch."
 	},
 
 	thirdParty: {

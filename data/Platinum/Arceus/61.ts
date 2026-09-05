@@ -62,7 +62,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It rarely fights fairly, but that is strictly to ensure survival. It is popular as a mascot."
+		en: "It rarely fights fairly, but that is strictly to ensure survival. It is popular as a mascot.",
+		de: "Aufgrund seines starken Überlebensdrangs kämpft es selten fair. Beliebt als Maskottchen."
 	},
 
 	variants: [

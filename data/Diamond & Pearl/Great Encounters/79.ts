@@ -70,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives in treetop colonies. If one becomes enraged, the whole colony rampages for no reason.",
+		de: "Es lebt mit anderen in Baumkronen. Wird eines von ihnen wütend, werden alle anderen auch wütend."
 	},
 
 	thirdParty: {

@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Meganium ex",
 		fr: "Meganium ex",
-		de: "Meganie ex"
+		de: "Meganie-ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -40,7 +40,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may attach a Grass Energy card from your hand to 1 of your Pokémon. If you do, remove 1 damage counter from that Pokémon. This power can't be used if Meganium ex is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez attacher à 1 de vos Pokémon une carte Énergie  de votre main. Retirez alors à ce Pokémon 1 marqueur de dégât. Ce pouvoir ne peut pas être utilisé si Meganium ex est affecté par un État Spécial.",
+				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez attacher à 1 de vos Pokémon une carte Énergie {G} de votre main. Retirez alors à ce Pokémon 1 marqueur de dégât. Ce pouvoir ne peut pas être utilisé si Meganium ex est affecté par un État Spécial.",
 				de: "Once during your turn (before your attack), you may attach a  Energy card from your hand to 1 of your Pokémon. If you do, remove 1 damage counter from that Pokémon. This power can't be used if Meganium ex is affected by a Special Condition"
 			},
 		},

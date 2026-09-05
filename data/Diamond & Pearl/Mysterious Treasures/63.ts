@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Armor Fossil",
-		fr: "Fossile armure"
+		fr: "Fossile Armure",
+		de: "Panzerfossil"
 	},
 
 	stage: "Stage1",
@@ -63,7 +64,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -88,7 +89,8 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon that lived in jungles around 100 million years ago. Its facial hide is extremely hard.",
-		fr: "Un Pokémon qui vivait dans la jungle il y a 100 millions d'années. Son visage est très dur."
+		fr: "Un Pokémon qui vivait dans la jungle il y a 100 millions d'années. Son visage est très dur.",
+		de: "Vor über 100 Millionen Jahren lebte es in den Dschungeln. Seine Gesichtshaut ist extrem hart."
 	},
 
 	thirdParty: {

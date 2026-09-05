@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Klang",
 		fr: "Clic",
+		de: "Kliklak"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes mover una Energía Metal unida a 1 de tus Pokémon a otro de tus Pokémon.",
 				it: "Durante il tuo turno, prima di attaccare, puoi distribuire a piacimento le Energie Metal assegnate ai tuoi Pokémon.",
 				pt: "Sempre que desejar, na sua vez de jogar (antes de atacar), você poderá mover uma Energia Metal ligada a 1 dos seus Pokémon para outro dos seus Pokémon.",
-				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 Metal-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon verschieben."
+				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 {M}-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon verschieben."
 			},
 		},
 	],
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Gear Grind",
 				fr: "Lancécrou",
+				de: "Klikkdiskus"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 80 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 80 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 80 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 80,
 
@@ -93,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "Its red core functions as an energy tank. It fires the charged energy through its spikes into an area.",
+		de: "Der rote Zentralbestandteil dient als Energiespeicher. Darin geladene Energie feuert es über seine Stacheln ab."
 	},
 
 	thirdParty: {

@@ -77,7 +77,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its entire body is burning. When it breathes, the temperature rises. When it sneezes, flames shoot out!"
+		en: "Its entire body is burning. When it breathes, the temperature rises. When it sneezes, flames shoot out!",
+		de: "Mit seinem brennenden Körper und glühenden Atem heizt es seine Umgebung auf. Beim Niesen stößt es Flammen aus."
 	},
 
 	variants: [

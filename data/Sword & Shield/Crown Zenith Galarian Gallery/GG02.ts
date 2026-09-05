@@ -49,7 +49,7 @@ const card: Card = {
 			es: "Tus Pokémon Grass en juego, excepto los Kricketune, obtienen 40 PS más. No puedes aplicar más de 1 habilidad Melodía Rebosante a la vez.",
 			it: "I tuoi Pokémon Grass in gioco, a eccezione di qualsiasi Kricketune, hanno 40 PS in più. Non puoi applicare più di un'abilità Melodia Amplificata alla volta.",
 			pt: "Seus Pokémon Grass em jogo, exceto por quaisquer Kricketune, recebem 40 PS a mais. Você não pode usar mais de 1 Habilidade Melodia Crescente por vez.",
-			de: "Deine Grass-Pokémon im Spiel, außer Zirpeise, erhalten +40 KP. Du kannst immer nur jeweils 1 Fähigkeit Schwellender Gesang einsetzen."
+			de: "Deine {G}-Pokémon im Spiel, außer Zirpeise, erhalten +40 KP. Du kannst immer nur jeweils 1 Fähigkeit Schwellender Gesang einsetzen."
 		}
 	}],
 
@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It signals its emotions with its melodies. Scientists are studying these melodic patterns.",
+		de: "Über seine Melodien teil es seine Gefühle mit. Wissenschaftler untersuchen das Muter der Melodien."
 	},
 
 	

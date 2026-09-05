@@ -56,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Rainbow Burn",
 				fr: "Brûlure Arc-en-ciel",
+				de: "Regenbogenfeuer"
 			},
 			effect: {
 				en: "Does 20 more damage for each different type of basic Energy attached to this Pokémon.",
 				fr: "Inflige 20 dégâts supplémentaires pour chaque différent type d'Énergie de base attaché à ce Pokémon.",
+				de: "Dieser Angriff fügt 20 weitere Schadenspunkte für jeden unterschiedlichen, an dieses Pokémon angelegten Basis-Energietyp zu."
 			},
 			damage: 20,
 

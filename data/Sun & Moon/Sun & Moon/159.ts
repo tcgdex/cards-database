@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Después de contar tus cartas de Premio, ponlas en tu baraja y barájalas todas. Después, coge la misma cantidad de cartas de la parte superior de tu baraja y ponlas boca abajo como tus cartas de Premio.",
 		it: "Dopo aver contato le tue carte Premio, rimischiale nel tuo mazzo. Poi prendi la stessa quantità di carte dalle carte in cima al tuo mazzo e mettile a faccia in giù come carte Premio.",
 		pt: "Após contar as suas cartas de Prêmio, embaralhe-as no seu baralho. Em seguida, pegue aquele mesmo número de cartas de cima do seu baralho e coloque-as viradas para baixo como as suas cartas de Prêmio.",
-		de: "Mische deine Preiskarten in dein Deck, nachdem du sie gezählt hast. Nimm anschließend dieselbe Anzahl Karten von deinem Deck und lege sie als deine verdeckten Preiskarten ab."
+		de: "Mische deine Preiskarten in dein Deck, nachdem du sie gezählt hast. Nimm anschließend dieselbe Anzahl Karten von deinem Deck und lege sie als deine verdeckten Preiskarten ab. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

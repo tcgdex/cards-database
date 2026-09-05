@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "Poltchageist looks like a regional form of Sinistea, but it was recently discovered that the two Pokémon are entirely unrelated.",
+		de: "Es sieht aus wie eine Regionalform von Fatalitee, doch vor Kurzem fand man heraus, dass zwischen den beiden Pokémon keine Verbindung besteht."
 	},
 
 	variants: [

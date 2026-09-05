@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It doesn't do anything other than eat and sleep. When prompted to make a serious effort, though, it apparently displays awesome power.",
+		de: "Wenn es nicht gerade frisst, dann schläft es. Macht es aber einmal Ernst, ist Schluss mit lustig."
 	},
 
 	thirdParty: {

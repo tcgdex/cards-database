@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "Coal is the source of Torkoal's energy. Large amounts of coal can be found in the mountains where they live.",
+		de: "Kohle ist die Quelle seiner Energie. Es lebt daher meist in Bergen, die ein großes Kohlevorkommen aufweisen."
 	},
 
 	variants: [

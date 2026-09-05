@@ -104,6 +104,7 @@ const card: Card = {
 
 	description: {
 		en: "If you get the feeling of being watched in darkness when nobody is around, Haunter is there.",
+		de: "Falls du im Dunkeln das Gefühl hast, beobachtet zu werden und niemand ist zu sehen, ist es bestimmt Alpollo."
 	},
 
 	thirdParty: {

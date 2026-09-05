@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Luxray GL",
-		fr: "Luxray  Niv. 48",
+		fr: "Luxray GL Niv. 48",
 		de: "Luxtra GL"
 	},
 

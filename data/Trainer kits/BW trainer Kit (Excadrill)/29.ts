@@ -30,7 +30,8 @@ const card: Card = {
 		],
 		name: {
 			en: "Pound",
-			fr: "Écras'Face"
+			fr: "Écras'Face",
+			de: "Pfund"
 		},
 		damage: 30
 	}],
@@ -44,7 +45,8 @@ const card: Card = {
 
 
 	description: {
-		en: "It fights by swinging a piece of lumber around. It is close to evolving when it can handle the lumber without difficulty."
+		en: "It fights by swinging a piece of lumber around. It is close to evolving when it can handle the lumber without difficulty.",
+		de: "Greift Gegner mit einem Holzbalken an. Fällt es ihm leicht, den schweren Balken zu tragen, ist seine Entwicklung nah."
 	},
 
 	retreat: 1,

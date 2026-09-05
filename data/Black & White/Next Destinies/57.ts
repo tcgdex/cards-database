@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Kirlia",
 		fr: "Kirlia",
+		de: "Kirlia"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Cada Energía Psychic Básica unida a tus Pokémon Psychic proporciona Energía PsychicPsychic. No puedes aplicar más de 1 Habilidad Espejismo Psíquico a la vez.",
 				it: "Ogni Energia base Psychic assegnata ai tuoi Pokémon Psychic fornisce PsychicPsychic. Può essere applicata solo un’abilità Psicomiraggio alla volta.",
 				pt: "Cada Energia Psychic básica ligada ao seu Pokémon Psychic fornece Energias PsychicPsychic. Não é possível aplicar mais de 1 habilidade Miragem Psíquica ao mesmo tempo.",
-				de: "Jede an deine Psychic-Pokémon angelegte Psychic-Basis-Energie liefert PsychicPsychic-Energie. Du kannst nicht mehr als jeweils 1 Fähigkeit Psycho-Trugbild anwenden."
+				de: "Jede an deine {P}-Pokémon angelegte {P}-Basis-Energie liefert {P}{P}-Energie. Du kannst nicht mehr als jeweils 1 Fähigkeit Psycho-Trugbild anwenden."
 			},
 		},
 	],
@@ -66,10 +67,12 @@ const card: Card = {
 			name: {
 				en: "Mind Shock",
 				fr: "Choc Cérébral",
+				de: "Verstandesschock"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Weakness or Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+				de: "Der Schaden dieses Angriffs wird durch Schwäche und Resistenz nicht verändert."
 			},
 			damage: 60,
 
@@ -87,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "To protect its Trainer, it will expend all its psychic power to create a small black hole.",
+		de: "Erzeugt ein kleines schwarzes Loch mithilfe all seiner Psycho-Kräfte, um seinen Trainer zu schützen."
 	},
 
 	thirdParty: {

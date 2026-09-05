@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Rhyperior E4",
-		fr: "Rhinastoc  Niv. 55",
+		fr: "Rhinastoc 4 Niv. 55",
 		de: "Rihornior 4"
 	},
 	illustrator: "Kagemaru Himeno",
@@ -35,7 +35,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30x",
 

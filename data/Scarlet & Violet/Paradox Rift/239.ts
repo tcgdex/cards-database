@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Elige hasta 2 de tus Pokémon del pasado y une 1 carta de Energía Básica de tu pila de descartes a cada uno de ellos. Si has unido alguna Energía de esta manera, roba 3 cartas.",
 		it: "Scegli fino a due dei tuoi Pokémon Tempo Passato e assegna a ognuno di essi una carta Energia base dalla tua pila degli scarti. Se hai assegnato delle Energie in questo modo, pesca tre carte.",
 		pt: "Escolha até 2 dos seus Pokémon Ancestrais e ligue uma carta de Energia Básica da sua pilha de descarte a cada um deles. Se você ligou qualquer Energia desta forma, compre 3 cartas.",
-		de: "Wähle bis zu 2 deiner Pokémon aus der Vergangenheit und lege 1 Basis-Energiekarte aus deinem Ablagestapel an jedes von ihnen an. Wenn du auf diese Weise mindestens 1 Energie angelegt hast, ziehe 3 Karten."
+		de: "Wähle bis zu 2 deiner Pokémon aus der Vergangenheit und lege 1 Basis-Energiekarte aus deinem Ablagestapel an jedes von ihnen an. Wenn du auf diese Weise mindestens 1 Energie angelegt hast, ziehe 3 Karten. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

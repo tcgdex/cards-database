@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "It uses three small units to catch prey and battle enemies. The main body mostly just gives orders.",
+		de: "Sein Körper selbst befehligt meist nur die drei kleinen Einheiten, die an seiner Stelle kämpfen und für die Nahrungssuche zuständig sind."
 	},
 
 	variants: [

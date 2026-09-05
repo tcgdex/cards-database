@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Hypnosis",
 				fr: "Hypnose",
+				de: "Hypnose"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -51,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Dream Eater",
 				fr: "Dévorêve",
+				de: "Traumfresser"
 			},
 			effect: {
 				en: "If the Defending Pokémon is not Asleep, this attack does nothing.",
 				fr: "Si le Pokémon Défenseur n’est pas Endormi, cette attaque ne fait rien.",
+				de: "Wenn das Verteidigende Pokémon nicht schläft, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 60,
 
@@ -72,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "Munna always float in the air. People whose dreams are eaten by them forget what the dreams had been about.",
+		de: "Frisst es den Traum eines Menschen, vergisst der Träumer dessen Inhalt. Es schwebt stets durch die Luft."
 	},
 
 	thirdParty: {

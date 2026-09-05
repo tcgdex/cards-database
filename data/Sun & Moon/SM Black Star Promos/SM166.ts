@@ -71,19 +71,6 @@ const card: Card = {
 			damage: 10,
 
 		},
-		{
-			cost: [
-				"Water",
-			],
-			name: {
-				fr: "Éclaboussure Imposante-GX",
-			},
-			effect: {
-				fr: "Si au moins 7 Énergies Water supplémentaires sont attachées à ce Pokémon (en plus du coût de cette attaque), cette attaque inflige 100 dégâts à chacun des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.) (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-			},
-			damage: 10,
-
-		},
 	],
 	weaknesses: [
 		{
@@ -94,8 +81,15 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 367078,
+				tcgplayer: 181694
+			}
+		}
+	],
 }
 
 export default card

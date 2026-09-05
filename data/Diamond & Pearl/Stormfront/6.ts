@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magneton",
-		fr: "Magneton",
+		fr: "Magnéton",
+		de: "Magneton"
 	},
 
 	stage: "Stage2",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may search your discard pile for a Lightning or Metal Energy card and attach it to your Active Pokémon. Then, put 1 damage counter on that Pokémon. This power can't be used if Magnezone is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez chercher dans votre pile de défausse une carte Énergie Lightning ou Metal et l'attacher à votre Pokémon Actif. Ensuite, placez 1 marqueur de dégât sur ce Pokémon. Ce pouvoir ne peut pas être utilisé si Magnézone est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du deinen Ablagestapel nach 1 - oder -Energiekarte durchsuchen und sie an dein Aktives Pokémon anlegen. Danach lege 1 Schadensmarke auf dieses Pokémon. Diese Poké-Power kann nicht benutzt werden, wenn Magnezone von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du deinen Ablagestapel nach 1 {L}- oder {M}-Energiekarte durchsuchen und sie an dein Aktives Pokémon anlegen. Danach lege 1 Schadensmarke auf dieses Pokémon. Diese Poké-Power kann nicht benutzt werden, wenn Magnezone von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -86,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
+		de: "Es entwickelte sich, als es einem besonderen Magnetfeld ausgesetzt wurde."
 	},
 
 	thirdParty: {

@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Riolu",
-		fr: "Riolu"
+		fr: "Riolu",
+		de: "Riolu"
 	},
 
 	stage: "Stage1",
@@ -72,7 +73,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It’s said that no foe can remain invisible to Lucario, since it can detect auras, even foes it could not otherwise see."
+		en: "It’s said that no foe can remain invisible to Lucario, since it can detect auras, even foes it could not otherwise see.",
+		de: "Man sagt, es sei fähig, die Aura anderer Pokémon zu sehen. So kann es unsichtbare Gegner ausmachen."
 	},
 
 	variants: [

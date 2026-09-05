@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Dizziness",
 				fr: "Vertige",
-				de: "Dizziness"
+				de: "Schwindelgefühl"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
-				de: "Draw a card."
+				de: "Ziehe eine Karte."
 			},
 
 		},
@@ -50,12 +50,12 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
-				de: "Water Gun"
+				de: "Aquaknarre"
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each Energy attached to Psyduck but not used to pay for this attack. You can't add more than 20 damage in this way.",
 				fr: "Inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque Énergie  attachée à Psykokwak en plus du coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
-				de: "Does 20 damage plus 10 more damage for each  Energy attached to Psyduck but not used to pay for this attack. You can't add more than 20 damage in this way."
+				de: "Fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf Enton abgelegte {W}-Energie zu, die nicht zum Zahlen für diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 20 Schadenspunkte hinzufügen."
 			},
 			damage: "20+",
 
@@ -73,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "It is often seen holding its head in its paws, as if it were suffering from a headache.",
-		fr: "On le voit souvent se prendre la tête entre les mains, comme s'il souffrait de migraines."
+		fr: "On le voit souvent se prendre la tête entre les mains, comme s'il souffrait de migraines.",
+		de: "Man sieht es oft mit den Pfoten überm Kopf, als ob es Kopfweh hätte."
 	},
 
 

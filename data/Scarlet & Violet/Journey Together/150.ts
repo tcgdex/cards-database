@@ -21,7 +21,7 @@ const card: Card = {
 		en: "Once during each player's turn, that player may put up to 2 Basic {L} Energy cards from their discard pile into their hand.",
 		fr: "Une fois pendant le tour de chaque joueur, ce joueur peut ajouter à sa main jusqu'à 2 cartes Énergie {L} de base de sa pile de défausse.",
 		es: "Una vez durante el turno de cada jugador, ese jugador puede poner hasta 2 cartas de Energía {L} Básica de su pila de descartes en su mano.",
-		de: "Einmal während des Zuges jedes Spielers kann jener Spieler bis zu 2 Basis-{L}-Energiekarten aus seinem Ablagestapel auf seine Hand nehmen.",
+		de: "Einmal während des Zuges jedes Spielers kann jener Spieler bis zu 2 Basis-{L}-Energiekarten aus seinem Ablagestapel auf seine Hand nehmen. Du kannst während deines Zuges nur 1 Stadionkarte spielen. Lege sie neben die Aktive Position, und lege sie auf den Ablagestapel, wenn eine andere Stadionkarte ins Spiel gebracht wird. Eine Stadionkarte mit demselben Namen kann nicht gespielt werden.",
 		it: "Una sola volta durante il turno di ciascun giocatore, quel giocatore può prendere fino a due carte Energia base {L} dalla propria pila degli scarti e aggiungerle alle carte che ha in mano.",
 		pt: "Uma vez durante o turno de cada jogador, aquele jogador poderá colocar até 2 cartas de Energia {L} Básica da própria pilha de descarte na própria mão.",
 		'es-mx': "Una vez durante el turno de cada jugador, ese jugador puede poner hasta 2 cartas de Energía Lightning Básica de su pila de descartes en su mano."

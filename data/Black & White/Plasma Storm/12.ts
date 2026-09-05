@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Astonish",
 				fr: "Étonnement",
+				de: "Erstauner"
 			},
 			effect: {
 				en: "Flip a coin. If heads, choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into his or her deck.",
 				fr: "Lancez une pièce. Si c'est face, choisissez une carte au hasard de la main de votre adversaire. Votre adversaire montre la carte choisie et la mélange avec son deck.",
+				de: "Wirf 1 Münze. Wähle bei „Kopf“ 1 zufällige Karte aus der verdeckten Hand deines Gegners. Dein Gegner zeigt diese Karte und mischt sie zurück in sein Deck."
 			},
 
 		},
@@ -63,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "It lures Pokémon with its pattern that looks just like a Poké Ball then releases poison spores.",
+		de: "Es ist gemustert wie ein Pokéball. Es lockt damit andere Pokémon an, um sie dann mit Giftsporen zu besprühen."
 	},
 
 	thirdParty: {

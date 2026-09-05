@@ -28,7 +28,7 @@ const card: Card = {
 
 		effect: {
 			en: "Attach up to 2 Lightning Energy cards from your discard pile to this Pokémon.",
-			fr: "Attachez jusqu'à 2 cartes Énergie  de votre pile de défausse à ce Pokémon."
+			fr: "Attachez jusqu'à 2 cartes Énergie {L} de votre pile de défausse à ce Pokémon."
 		}
 	}, {
 		cost: ["Lightning", "Colorless"],
@@ -78,20 +78,19 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 576739,
+				tcgplayer: 251096
+			}
+		},
+	],
 
 	hp: 300,
 	types: ["Lightning"],
-	retreat: 0,
-
-	thirdParty: {
-		cardmarket: 576738
-	}
+	retreat: 0
 }
 
 export default card

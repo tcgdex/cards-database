@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "Evolution made it even more devious. It communicates by clawing signs in boulders.",
+		de: "Snibunna wurde durch seine Entwicklung noch verschlagener. Es kommuniziert durch in Felsen gekratzte Zeichen."
 	},
 }
 

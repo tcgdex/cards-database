@@ -47,12 +47,12 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
-				de: "Take Down"
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "Swinub does 10 damage to itself.",
 				fr: "Marcacrin s'inflige 30 dégâts.",
-				de: "Swinub does 10 damage to itself."
+				de: "Quiekel fügt sich selber 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -77,7 +77,8 @@ const card: Card = {
 
 	description: {
 		en: "If it smells something enticing, it dashes headlong off to find the source of the aroma.",
-		fr: "S'il sent quelque chose d'alléchant, il se précipite vers la source de l'arôme."
+		fr: "S'il sent quelque chose d'alléchant, il se précipite vers la source de l'arôme.",
+		de: "Wenn es etwas Verlockendes riecht, rennt es halsüberkopf los, um herauszufinden, wo der Geruch herkommt."
 	},
 
 

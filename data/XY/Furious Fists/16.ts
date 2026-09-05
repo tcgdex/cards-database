@@ -92,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "It can live in or out of water. When out of water, it constantly sweats to keep its body slimy.",
+		de: "Dieses Pokémon kann im Wasser und auch an Land leben. An Land schwitzt es sich den Körper nass."
 	},
 
 	thirdParty: {

@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Misdreavus",
-		fr: "Feuforêve"
+		fr: "Feuforêve",
+		de: "Traunfugil"
 	},
 
 	stage: "Stage1",
@@ -39,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may move a Psychic Energy attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Mismagius is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez prendre une carte Énergie Psychic attachée à l’un de vos Pokémon et l’attacher à un autre Pokémon. Ce pouvoir ne peut pas être utilisé si Magirêve est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 -Energie, die an 1 deiner Pokémon angelegt ist, an 1 anderes deiner Pokémon anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Traunmagil von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 {P}-Energie, die an 1 deiner Pokémon angelegt ist, an 1 anderes deiner Pokémon anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Traunmagil von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],
@@ -81,7 +82,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its cries sound like incantations to torment the foe. It appears where you least expect it."
+		en: "Its cries sound like incantations to torment the foe. It appears where you least expect it.",
+		de: "Sein bizarrer, bannfluchartiger Ruf quält seine Gegner. Es verschwindet so plötzlich, wie es auftaucht."
 	},
 
 	variants: [

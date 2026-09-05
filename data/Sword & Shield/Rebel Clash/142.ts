@@ -83,7 +83,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It can learn and speak human words. If they gather, they all learn the same saying."
+		en: "It can learn and speak human words. If they gather, they all learn the same saying.",
+		de: "Es kann die menschliche Sprache nachahmen. Versammeln sie sich, bringen sich alle dasselbe bei."
 	},
 
 	variants: [

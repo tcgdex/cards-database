@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Dazzle Dance",
 				fr: "Danse Éblouissante",
+				de: "Verwirrender Tanz"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -56,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "Overwhelmed by enigmatic abilities, it suffers a constant headache. It sometimes uses mysterious powers.",
+		de: "Leidet unter stetigem Kopfschmerz, ausgelöst durch seltsame Kräfte, die es aber auch einsetzen kann."
 	},
 
 	thirdParty: {

@@ -49,8 +49,8 @@ const card: Card = {
 			fr: "Lancez une pièce jusqu'à obtenir un côté pile. Pour chaque côté face, choisissez une carte au hasard dans la main de votre adversaire. Votre adversaire montre ces cartes, puis les mélange avec son deck.",
 			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Wähle pro Kopf 1 zufällige Karte aus der Hand deines Gegners. Dein Gegner zeigt dir jene Karten und mischt sie in sein Deck.",
 			it: "Lancia una moneta finché non esce croce. Ogni volta che esce testa, scegli una carta a caso dalla mano del tuo avversario. Il tuo avversario mostra quelle carte e le rimischia nel proprio mazzo.",
-			es: "‌Lanza 1 moneda hasta que salga cruz. Por cada cara, elige 1 carta aleatoria de la mano de tu rival. Tu rival enseña esas cartas, las pone en su baraja y las baraja todas.",
-			pt: "‌Jogue uma moeda até sair coroa. Para cada cara, escolha uma carta aleatória da mão do seu oponente. Seu oponente revela aquelas cartas e as embaralha no baralho dele.",
+			es: "Lanza 1 moneda hasta que salga cruz. Por cada cara, elige 1 carta aleatoria de la mano de tu rival. Tu rival enseña esas cartas, las pone en su baraja y las baraja todas.",
+			pt: "Jogue uma moeda até sair coroa. Para cada cara, escolha uma carta aleatória da mão do seu oponente. Seu oponente revela aquelas cartas e as embaralha no baralho dele.",
 			'es-mx': "Lanza 1 moneda hasta que salga cruz. Por cada cara, elige 1 carta aleatoria de la mano de tu rival. Tu rival muestra esas cartas y las baraja en su mazo."
 		},
 

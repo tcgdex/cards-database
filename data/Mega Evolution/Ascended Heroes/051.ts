@@ -27,6 +27,7 @@ const card: Card = {
 	illustrator: "imoniii",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [584],
 	hp: 150,
 	types: ["Water"],
 	stage: "Stage2",

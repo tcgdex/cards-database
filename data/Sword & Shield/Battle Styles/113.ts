@@ -58,7 +58,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It licks filth clean with its tongue. Whatever it licks always stinks afterward, so whether it's really clean is…questionable."
+		en: "It licks filth clean with its tongue. Whatever it licks always stinks afterward, so whether it's really clean is…questionable.",
+		de: "Seine Zunge leckt jede Unreinheit sauber. Danach haftet allerdings ein übler Geruch daran, was wiederum am Ergebnis zweifeln lässt."
 	},
 
 	variants: [

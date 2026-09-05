@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Metapod",
 		fr: "Chrysacier",
+		de: "Safcon"
 	},
 
 	stage: "Stage2",
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi. Si c'est pile, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt. Bei \"Zahl\" ist das Verteidigende Pokémon jetzt vergiftet."
+				de: "Wirf 1 Münze. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt. Bei „Zahl“ ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 			damage: 60,
 
@@ -78,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "It loves the honey of flowers and can locate flower patches that have even tiny amounts of pollen.",
+		de: "Es liebt Blütenhonig. Es findet selbst Blumen, die sehr wenig Pollen haben."
 	},
 
 	thirdParty: {

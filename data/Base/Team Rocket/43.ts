@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Mankey",
-		fr: "Férosinge"
+		fr: "Férosinge",
+		de: "Menki"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Frenzy",
 				fr: "Pète les plombs",
-				de: "Frenzy"
+				de: "Wahnsinn"
 			},
 			effect: {
 				en: "If Dark Primeape does any damage while it's Confused (even to itself), it does 30 more damage.",
 				fr: "Si Colossinge obscur inflige des dégâts lorsqu'il est Confus (y compris à lui-même), il inflige 30 dégâts supplémentaires.",
-				de: "If Dark Primeape does any damage while it's Confused (even to itself), it dies 20 more damage."
+				de: "Falls Dunkles Rasaff irgendwelchen Schaden (sogar sich selbst) zufügt, während es verwirrt ist, fügt es 30 zusätzliche Schadenspunkte zu."
 			},
 		},
 	],
@@ -55,12 +56,12 @@ const card: Card = {
 			name: {
 				en: "Frenzied Attack",
 				fr: "Attaque frénétique",
-				de: "Frenzied Attack"
+				de: "Wahnsinnsangriff"
 			},
 			effect: {
 				en: "Dark Primeape is now Confused (after doing damage).",
 				fr: "Colossinge obscur est maintenant Confus (après application des dégâts).",
-				de: "Dark Primeape is now Confused (after doing damage)."
+				de: "Dunkles Rasaff ist jetzt verwirrt (nach der Schadensverteilung)."
 			},
 			damage: 40,
 
@@ -78,7 +79,8 @@ const card: Card = {
 
 	description: {
 		en: "Although Primeapes have always been mean, lately they seem to be becoming even more vicious and frenzied.",
-		fr: "Bien que les Colossinge aient toujours été mauvais, il semble que depuis peu, ils deviennent de plus en plus vicieux et frénétiques."
+		fr: "Bien que les Colossinge aient toujours été mauvais, il semble que depuis peu, ils deviennent de plus en plus vicieux et frénétiques.",
+		de: "Obwohl Rasaffs schon immer gemein gewesen sind, scheinen sie in neuester Zeit sogar noch bösartiger und frenetischer zu werden."
 	},
 
 

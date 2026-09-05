@@ -56,7 +56,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía unida a 1 de los Pokémon de tu rival.",
 				it: "Lancia una moneta. Se esce testa, scarta un'Energia assegnata a uno dei Pokémon del tuo avversario.",
 				pt: "Jogue uma moeda. Se sair cara, descarte uma Energia ligada a 1 dos Pokémon do seu oponente.",
-				de: "Wirf 1 Münze. Lege bei \"Kopf\" 1 an ein gegnerisches Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
+				de: "Wirf 1 Münze. Lege bei „Kopf“ 1 an ein gegnerisches Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 
 		},
@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "It explodes in response to even minor stimuli. It is feared, with the nickname of \"The Bomb Ball.\"",
+		de: "Es explodiert schon bei kleinsten Reizen. Sein Spitzname „Die Bombenkugel“ spiegelt die Furcht der Menschen wider."
 	},
 
 	thirdParty: {

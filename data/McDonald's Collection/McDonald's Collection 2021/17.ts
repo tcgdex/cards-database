@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Squirtle",
 		fr: "Carapuce",
+		de: "Schiggy"
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Bubble",
 				fr: "Écume",
+				de: "Blubber"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 10,
 
@@ -52,7 +55,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It shelters itself in its shell, then strikes back with spouts of water at every opportunity."
+		en: "It shelters itself in its shell, then strikes back with spouts of water at every opportunity.",
+		de: "Es zieht sich in seinen Panzer zurück und greift dann mit Wasserstrahlen seine Gegner an."
 	},
 
 	variants: [

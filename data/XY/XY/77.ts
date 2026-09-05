@@ -56,7 +56,7 @@ const card: Card = {
 				es: "Si el Pokémon Defensor intenta atacar durante el próximo turno de tu rival, este lanza 1 moneda. Si sale cruz, ese ataque no hace nada.",
 				it: "Se durante il prossimo turno del tuo avversario il Pokémon difensore prova ad attaccare, il tuo avversario lancia una moneta. Se esce croce, quell'attacco non ha effetto.",
 				pt: "Se o Pokémon Defensor tentar atacar durante a próxima vez de jogar do seu oponente, seu oponente jogará uma moeda. Se sair coroa, o ataque não fará nada.",
-				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -106,6 +106,7 @@ const card: Card = {
 
 	description: {
 		en: "It wields the most compelling hypnotic powers of any Pokémon, and it forces others to do whatever it wants.",
+		de: "Unter allen Pokémon verfügt es über die stärksten hypnotischen Kräfte, mit denen es Gegner nach Belieben kontrollieren kann."
 	},
 
 	thirdParty: {

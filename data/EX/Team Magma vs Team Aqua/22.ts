@@ -32,12 +32,12 @@ const card: Card = {
 			name: {
 				en: "Second Strike",
 				fr: "Deuxième coup",
-				de: "Second Strike"
+				de: "Sekundärschlag"
 			},
 			effect: {
 				en: "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 20 damage plus 20 more damage.",
 				fr: "Si le Pokémon Défenseur possède déjà au moins 2 marqueurs de dégâts, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 20 damage plus 20 more damage."
+				de: "Wenn bereits 2 oder mehr Schadensmarken auf dem Verteidigenden Pokémon liegen, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -51,12 +51,12 @@ const card: Card = {
 			name: {
 				en: "Land Crush",
 				fr: "Écrasement au sol",
-				de: "Land Crush"
+				de: "Schollenbrecher"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard an Energy card attached to Team Magma's Rhydon.",
 				fr: "Lancez une pièce. Si c'est pile, défaussez une carte Énergie attachée à Rhinoféros de Team Magma.",
-				de: "Flip a coin. If tails, discard and Energy card attached to Team Magma´s Rhydon."
+				de: "Wirf 1 Münze. Lege bei „Zahl“ eine an Team Magmas Rizeros angelegte Energiekarte auf den Ablagestapel."
 			},
 			damage: 60,
 

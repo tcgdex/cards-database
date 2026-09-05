@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Snubbull",
-		fr: "Snubbull"
+		fr: "Snubbull",
+		de: "Snubbull"
 	},
 
 	stage: "Stage1",
@@ -80,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "Because its fangs are too heavy, it always keeps its head tilted down. However, its bite is powerful.",
+		de: "Weil seine Reißzähne so schwer sind, ist sein Kopf gesenkt. Sein Biss ist jedoch schmerzhaft."
 	},
 
 	variants: [

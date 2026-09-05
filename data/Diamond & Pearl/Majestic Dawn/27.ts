@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				de: "Wirf 1 Münze. Bei „Kopf“ lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 
@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon that lives in warm seas. It inflates the flotation sac on its head to drift and search for food.",
+		de: "Es lebt in warmen Meeren. Geht es auf Nahrungssuche, füllt es den Beutel auf seinem Kopf mit Luft."
 	},
 
 	thirdParty: {

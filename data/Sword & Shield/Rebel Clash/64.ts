@@ -92,7 +92,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "A now-vanished desert culture treasured these Pokémon. Appropriately, when Heliolisk came to the Galar region, treasure came with them."
+		en: "A now-vanished desert culture treasured these Pokémon. Appropriately, when Heliolisk came to the Galar region, treasure came with them.",
+		de: "Es wurde in einem Wüstenreich, das vor langer Zeit unterging, sehr respektiert. Zusammen mit dessen Schätzen gelangte es in die Galar-Region."
 	},
 
 	variants: [

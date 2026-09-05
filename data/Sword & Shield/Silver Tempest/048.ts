@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It launches water bubbles with its legs, drowning prey within the bubbles. This Pokémon can then take its time to savor its meal.",
+		de: "Mit seinen Beinen verschießt es Wasserblasen, um Beute darin einzuschließen und zu ertränken. Dann verspeist es sie in aller Ruhe."
 	},
 
 	variants: [

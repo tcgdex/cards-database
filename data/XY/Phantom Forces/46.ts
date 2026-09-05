@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 20 puntos de daño por cada cara.",
 				it: "Lancia una moneta finché non esce croce. Questo attacco infligge 20 danni ogni volta che esce testa.",
 				pt: "Jogue uma moeda até sair coroa. Esse ataque causa 20 de danos vezes o número de caras.",
-				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20×",
 
@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "It usually clings to cliffs. When it spots its prey, it spreads its wings and glides down to attack.",
+		de: "Es hängt meist an Klippen. Erspäht es Beute, spreizt es seine Flügel und greift diese sofort an."
 	},
 
 	thirdParty: {

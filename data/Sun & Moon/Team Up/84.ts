@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Grimer",
 		fr: "Tadmorv d’Alola",
+		de: "Alola-Sleima"
 	},
 
 	stage: "Stage1",
@@ -101,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "While it's unexpectedly quiet and friendly, if it's not fed any trash for a while, it will smash its Trainer's furnishings and eat up the fragments.",
+		de: "Es kann sich unerwartet zahm verhalten, aber wenn man ihm lange keinen Müll zu fressen gibt, zerstört und verschlingt es die Möbel im Haus."
 	},
 
 	thirdParty: {

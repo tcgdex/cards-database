@@ -4,7 +4,7 @@ import Set from '../Unleashed'
 const card: Card = {
 	name: {
 		en: "Metagross",
-		fr: "Metalosse",
+		fr: "Métalosse",
 		de: "Metagross"
 	},
 
@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Metang",
-		fr: "Metang"
+		fr: "Métang",
+		de: "Metang"
 	},
 
 	stage: "Stage2",
@@ -39,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "If you have any Psychic Energy attached to your Active Pokémon, the Retreat Cost for that Pokémon is 0.",
 				fr: "Si une ou plusieurs cartes Énergie Psychic sont attachées à votre Pokémon Actif, le Coût de retraite de ce dernier est de 0.",
-				de: "Wenn an dein Aktives Pokémon mindestens 1 -Energie angelegt ist, hat dieses Pokémon Rückzugskosten von 0."
+				de: "Wenn an dein Aktives Pokémon mindestens 1 {P}-Energie angelegt ist, hat dieses Pokémon Rückzugskosten von 0."
 			}
 		},
 	],

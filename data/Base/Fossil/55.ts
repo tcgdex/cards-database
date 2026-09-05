@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, remove a damage counter from Slowpoke. This attack can't be used if Slowpoke has no damage counters on it.",
 				fr: "Lancez une pièce. Si c'est face, retirez un marqueur de dégâts de Ramoloss. Cette attaque ne peut pas être utilisée si Ramoloss n'a pas de marqueur de dégâts sur lui.",
-				de: "Wirf eine Münze. Bei 'Kopf' entferne eine Schadensmarke von Flegmon. Dieser Angriff kann nicht eingesetzt werden, falls auf Flegmon keine Schadensmarken liegen."
+				de: "Wirf eine Münze. Bei „Kopf“ entferne eine Schadensmarke von Flegmon. Dieser Angriff kann nicht eingesetzt werden, falls auf Flegmon keine Schadensmarken liegen."
 			},
 
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Discard 1 Energy card attached to Slowpoke in order to use this attack. Put a Trainer card from your discard pile into your hand.",
 				fr: "Défaussez 1 carte Énergie  attachée à Ramoloss afin de pouvoir utiliser cette attaque. Déplacez une carte Dresseur depuis votre pile de défausse vers votre main.",
-				de: "Entferne eine auf Flegmon abgelegte  Energiekarte, um diesen Angriff auszuführen. Nimm eine Trainerkarte aus deinem Ablagestapel auf deine Hand."
+				de: "Entferne eine auf Flegmon abgelegte {P} Energiekarte, um diesen Angriff auszuführen. Nimm eine Trainerkarte aus deinem Ablagestapel auf deine Hand."
 			},
 
 		},
@@ -72,7 +72,8 @@ const card: Card = {
 
 	description: {
 		en: "Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack.",
-		fr: "Très lent et endormi, il lui faut 5 secondes pour ressentir la douleur d'une attaque."
+		fr: "Très lent et endormi, il lui faut 5 secondes pour ressentir la douleur d'une attaque.",
+		de: "Unglaublich langsam und träge. Braucht nach einem Angriff fünf Sekunden, um Schmerzen zu fühlen."
 	},
 
 

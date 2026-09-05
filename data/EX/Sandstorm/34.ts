@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Skitty",
-		fr: "Skitty"
+		fr: "Skitty",
+		de: "Eneco"
 	},
 
 	stage: "Stage1",
@@ -57,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Does 10 damage times the number of basic Energy cards attached to all of the Active Pokémon (both yours and your opponent's).",
 				fr: "Inflige 10 dégâts multipliés par le nombre de cartes Énergie attachées aux Pokémon Actifs (les vôtres et ceux de votre adversaire).",
-				de: "Fügt für jede Basis-Energie, die an allen Aktiven Pokémon (deine und die des Gegners) angelegt ist, 10 Schadenspunkte zu."
+				de: "Fügt für jede Basis-Energie, die an allen Aktiven Pokémon (deine und die deines Gegners) angelegt ist, 10 Schadenspunkte zu."
 			},
 			damage: "10×",
 

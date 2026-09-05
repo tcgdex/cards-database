@@ -90,7 +90,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Resentment at being cast off made it spring into being. Some say that treating it well will satisfy it, and it will once more become a stuffed toy."
+		en: "Resentment at being cast off made it spring into being. Some say that treating it well will satisfy it, and it will once more become a stuffed toy.",
+		de: "Geboren aus Hass, weil es weggeworfen wurde, soll es sich wieder in eine Plüschpuppe zurückverwandeln, wenn es sich geliebt fühlt."
 	},
 
 	variants: [

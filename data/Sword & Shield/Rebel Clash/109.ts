@@ -82,7 +82,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Five of them are troopers, and one is the brass. The brass's orders are absolute."
+		en: "Five of them are troopers, and one is the brass. The brass's orders are absolute.",
+		de: "Dieses Pokémon besteht aus fünf Untergebenen und einem Anführer. Die Befehle des Anführers werden nie in Frage gestellt."
 	},
 
 	variants: [

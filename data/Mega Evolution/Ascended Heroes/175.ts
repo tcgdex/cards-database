@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "ryoma uratsuka",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [775],
 	hp: 90,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -80,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "A potent anesthetic can be made by diluting Komala’s drool. This anesthetic was used for surgeries in the past.",
+		de: "Verdünnt man Koalelus Speichel, so erhält man ein starkes Betäubungsmittel, das früher bei chirurgischen Eingriffen verwendet wurde."
 	},
 
 	variants: [

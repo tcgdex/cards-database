@@ -4,7 +4,7 @@ import Set from '../Diamond & Pearl'
 const card: Card = {
 	name: {
 		en: "Meditite",
-		fr: "Meditikka",
+		fr: "Méditikka",
 		de: "Meditie"
 	},
 
@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Meditite during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Meditikka lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Verhindere bei 'Kopf' während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Meditie zugefügt werden."
+				de: "Wirf 1 Münze. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Meditie zugefügt werden."
 			},
 
 		},
@@ -73,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "It eats just one berry a day. By enduring hunger, its spirit is tempered and made sharper.",
-		fr: "Il ne mange qu'une Baie par jour. La faim lui a forgé une volonté de fer."
+		fr: "Il ne mange qu'une Baie par jour. La faim lui a forgé une volonté de fer.",
+		de: "Es isst gerade mal eine Beere am Tag. Durch Hunger wird sein Geist ruhiger und schärfer."
 	},
 
 	thirdParty: {

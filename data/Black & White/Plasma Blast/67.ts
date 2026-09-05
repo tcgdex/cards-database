@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Strong Bond",
 				fr: "Attachement Profond",
+				de: "Starker Bund"
 			},
 			effect: {
 				en: "Search your deck for a Supporter card named Iris, reveal it, and put it into your hand. Shuffle your deck afterward.",
 				fr: "Cherchez une carte Supporter nommée Iris dans votre deck, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach 1 Unterstützerkarte namens Lilia, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Dragon Claw",
 				fr: "Dracogriffe",
+				de: "Drachenklaue"
 			},
 
 			damage: 20,
@@ -69,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "Its large tusks have a tendency to break, but each time they grow back, they grow in harder and sturdier.",
+		de: "Ihre Hauer sind noch sehr zerbrechlich, doch jedes neue Paar, das nachwächst, ist etwas robuster als das letzte."
 	},
 
 	thirdParty: {

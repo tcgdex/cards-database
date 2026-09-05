@@ -76,7 +76,8 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon formed by three others. It busily carries sweet floral honey to VESPIQUEN.",
-		fr: "Un Pokémon qui en regroupe trois autres. Il est toujours occupé à apporter du nectar à Apireine."
+		fr: "Un Pokémon qui en regroupe trois autres. Il est toujours occupé à apporter du nectar à Apireine.",
+		de: "Ein PKMN, geformt aus 3 einzelnen PKMN. Fleißig bringt es Blütenhonig zu HONWEISEL."
 	},
 
 	thirdParty: {

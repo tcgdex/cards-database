@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Terrorize",
 				fr: "Terreur",
-				de: "Terrorize"
+				de: "Terrorisieren"
 			},
 			effect: {
 				en: "If the Defending Pokémon is a Basic, choose 1 of its attacks. That Pokémon can't use that attack during your opponent's next turn.",
 				fr: "Si le Pokémon Défenseur est un Pokémon de base, choisissez 1 de ses attaques. Ce Pokémon ne peut pas utiliser cette attaque durant le prochain tour de votre adversaire.",
-				de: "If the Defending Pokémon is a Basic Pokémon, choose 1 of its attacks. That Pokémon can't use that attack during your opponent's next turn."
+				de: "Wenn das verteidigende Pokémon ein Basis-Pokémon ist, wähle einen seiner Angriffe. Dieses Pokémon kann diesen Angriff während des nächsten Zuges deines Gegners nicht verwenden."
 			},
 
 		},
@@ -51,12 +51,12 @@ const card: Card = {
 			name: {
 				en: "Overhead Toss",
 				fr: "Souléve'korne",
-				de: "Overhead Toss"
+				de: "Überkopfwurf"
 			},
 			effect: {
 				en: "If you have any Benched Pokémon, flip a coin. If tails, this attack does 10 damage to 1 of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Si vous avez des Pokémon sur votre Banc, lancez une pièce. Si c'est pile, cette attaque inflige 10 dégâts à l'un d'entre eux. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon sur le Banc.)",
-				de: "If you have any Benched Pokémon, flip a coin. If tails, this attack does 10 damage to 1 of them. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				de: "Wenn du mindestens ein Pokémon auf deiner Bank hast, wirf eine Münze. Bei „Zahl“ fügt dieser Angriff einem dieser Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 30,
 
@@ -81,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "Those who stare at its antlers will gradually lose control of their senses and be unable to stand.",
-		fr: "Quiconque fixe ses bois perd peu à peu le contrôle de ses sens et finit par ne plus pouvoir tenir debout."
+		fr: "Quiconque fixe ses bois perd peu à peu le contrôle de ses sens et finit par ne plus pouvoir tenir debout.",
+		de: "Wer sich ihr Geweih zu genau anschaut, verliert die Kontrolle über seine Sinne und bekommt Probleme, gerade zu stehen."
 	},
 
 

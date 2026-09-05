@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Helix Fossil",
 		fr: "Fossile Nautile",
+		de: "Helixfossil"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may flip a coin. If heads, search your discard pile for Helix Fossil, Dome Fossil, or Old Amber and put it onto your Bench. This power can't be used if Omanyte is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, cherchez Fossile Nautile, Fossile Dôme ou Vieil Ambre dans votre deck et placez-la sur votre Banc. Ce pouvoir ne peut pas être utilisé si Amonita est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Münze werfen. Bei \"Kopf\" durchsuche dein Deck nach 1 Helixfossil-, Domfossil- oder Altbernstein-Karte und lege sie auf deine Bank. Mische dein Deck danach. Diese Poké-Power kannst nicht benutzt werden, wenn Amonitas von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Münze werfen. Bei „Kopf“ durchsuche deinen Ablagestapel nach 1 Helixfossil-, Domfossil- oder Altbernstein-Karte und lege sie auf deine Bank. Diese Poké-Power kann nicht benutzt werden, wenn Amonitas von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],
@@ -78,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon that was resurrected from a fossil using modern science. It swam in ancient seas.",
+		de: "Dieses PKMN wurde von der modernen Wissenschaft aus einem Fossil geschaffen. Es lebte im urzeitlichen Meer."
 	},
 
 	thirdParty: {

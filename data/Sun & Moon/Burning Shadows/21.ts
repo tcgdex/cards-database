@@ -91,7 +91,7 @@ const card: Card = {
 				es: "Llama Eterna GX",
 				it: "Fiamma Eterna-GX",
 				pt: "Flama Perene GX",
-				de: "Ewige Flamme GX"
+				de: "Ewige Flamme-GX"
 			},
 			effect: {
 				en: "Put 3 in any combination of Fire Pokémon-GX or Fire Pokémon-EX from your discard pile onto your Bench. (You can’t use more than 1 GX attack in a game.)",
@@ -99,7 +99,7 @@ const card: Card = {
 				es: "Pon 3 Pokémon-GX Fire o Pokémon-EX Fire, en cualquier combinación, de tu pila de descartes en tu Banca. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Prendi tre Pokémon-GX Fire o Pokémon-EX Fire in qualsiasi combinazione dalla tua pila degli scarti e mettili nella tua panchina. Non puoi usare più di un attacco GX a partita.",
 				pt: "Coloque 3 Pokémon-GX Fire ou Pokémon-EX Fire da sua pilha de descarte no seu Banco em qualquer combinação (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Lege eine beliebige Kombination aus 3 Fire-Pokémon-GX oder Fire-Pokémon-EX aus deinem Ablagestapel auf deine Bank. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				de: "Lege eine beliebige Kombination aus 3 {R}-Pokémon-GX oder {R}-Pokémon-EX aus deinem Ablagestapel auf deine Bank. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 
 		},

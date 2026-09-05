@@ -29,11 +29,13 @@ const card: Card = {
 		],
 		name: {
 			en: "Hone Claws",
-			fr: "Aiguisage"
+			fr: "Aiguisage",
+			de: "Klauenwetzer"
 		},
 		effect: {
 			en: "During your next turn, each of this Pokémon's attacks does 30 more damage (before applying Weakness and Ressistance).",
-			fr: "Pendant votre prochain tour, chaque attaque de ce Pokémon inflige 30 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance)."
+			fr: "Pendant votre prochain tour, chaque attaque de ce Pokémon inflige 30 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+			de: "Während deines nächsten Zuges fügt jeder Angriff dieses Pokémon 30 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 		}
 	}, {
 		cost: [
@@ -41,7 +43,8 @@ const card: Card = {
 		],
 		name: {
 			en: "Scratch",
-			fr: "Griffe"
+			fr: "Griffe",
+			de: "Kratzer"
 		},
 		damage: 10
 	}],
@@ -60,7 +63,8 @@ const card: Card = {
 	}],
 
 	description: {
-		en: "It can dig through the ground at a speed of 30 mph. It could give a car running aboveground a good race."
+		en: "It can dig through the ground at a speed of 30 mph. It could give a car running aboveground a good race.",
+		de: "Es gräbt sich mit 50 km/h durch das Erdreich und kann beinahe schon mit den Autos an der Oberfläche Schritt halten."
 	},
 
 	retreat: 2,

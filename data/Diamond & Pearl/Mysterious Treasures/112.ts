@@ -17,7 +17,7 @@ const card: Card = {
 	effect: {
 		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. Apply Weakness for each Pokémon (both yours and your opponent's) as ×2 instead.",
 		fr: "Multipliez la Faiblesse de chaque Pokémon par 2 (les vôtres et ceux de votre adversaire).",
-		de: "Wenn Pokémon (deine und die deines Gegners) eine Schwäche haben, dann wird der entsprechende Schaden nicht um den Schwäche-Wert dieses Pokémon erhöht, sondern verdoppelt.",
+		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen. Wenn Pokémon (deine und die deines Gegners) eine Schwäche haben, dann wird der entsprechende Schaden nicht um den Schwäche-Wert dieses Pokémon erhöht, sondern verdoppelt.",
 	},
 
 	thirdParty: {

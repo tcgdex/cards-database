@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Glameow",
 		fr: "Chaglam",
+		de: "Charmian"
 	},
 
 	stage: "Stage1",
@@ -89,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "It would claim another Pokémon's nest as its own if it finds a nest sufficiently comfortable.",
+		de: "Behagt ihm die Behausung eines anderen Pokémon, bleibt Shnurgarst einfach da und nistet sich dort ein."
 	},
 
 	thirdParty: {

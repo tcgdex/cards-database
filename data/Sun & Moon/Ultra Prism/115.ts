@@ -84,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "The heavy control mask it wears suppresses its intrinsic capabilities. This Pokémon has some hidden special power.",
+		de: "Seine schwere Maske unterdrückt seine wahre Macht. In ihm schlummern nämlich besondere Kräfte."
 	},
 
 	thirdParty: {

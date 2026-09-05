@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Discard 2 cards from your hand. (If you can't discard 2 cards, this attack does nothing.) Flip 2 coins. This attack does 30 damage times the number of heads.",
 				fr: "Défaussez 2 cartes de votre main. (Si vous ne pouvez pas défausser 2 cartes, cette attaque est sans effet.) Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Lege 2 Karten von deiner Hand auf deinen Ablagestapel. (Wenn du keine 2 Karten auf den Ablagestapel legen kannst, hat dieser Angriff keine Auswirkungen.) Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl 'Kopf' zu."
+				de: "Lege 2 Karten von deiner Hand auf deinen Ablagestapel. (Wenn du keine 2 Karten auf den Ablagestapel legen kannst, hat dieser Angriff keine Auswirkungen.) Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30x",
 
@@ -72,7 +72,8 @@ const card: Card = {
 
 	description: {
 		en: "It wolfs down its weight in food once a day, swallowing food whole with almost no chewing.",
-		fr: "Il avale son poids en nourriture chaque jour. Il avale tout sans prendre le temps de mâcher."
+		fr: "Il avale son poids en nourriture chaque jour. Il avale tout sans prendre le temps de mâcher.",
+		de: "Einmal am Tag verschlingt es eine Nahrungsmenge, die seinem Gewicht entspricht. Und das ohne zu kauen."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Rockruff",
 		fr: "Rocabot",
+		de: "Wuffels"
 	},
 
 	stage: "Stage1",
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "The more intimidating the opponent it faces, the more this Pokémon's blood boils. It will attack with no regard for its own safety.",
+		de: "Je gefährlicher sein Gegner, desto mehr kommt es in Fahrt. Im Kampf ist es bereit, alles aufs Spiel zu setzen, um den Sieg zu erringen."
 	},
 
 	thirdParty: {

@@ -57,7 +57,7 @@ const card: Card = {
 			effect: {
 				en: "Discard 2 Fire Energy attached to Magmortar. Choose 1 of your opponent's Pokémon. This attack does 100 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) During your next turn, Magmortar can't use Flame Bluster.",
 				fr: "Défaussez 2 Énergies Fire attachées à Maganon. Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 100 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Lors de votre prochain tour, Maganon ne peut pas utiliser Rafale de flammes.",
-				de: "Lege 2 an Magbrant angelegte -Energien auf deinen Ablagestapel. Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 100 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Magbrant kann Flammengetöse in deinem nächsten Zug nicht einsetzen."
+				de: "Lege 2 an Magbrant angelegte {R}-Energien auf deinen Ablagestapel. Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 100 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Magbrant kann Flammengetöse in deinem nächsten Zug nicht einsetzen."
 			},
 
 		},

@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is brave and reckless. The white markings around a Rookidee's eyes intimidate fainthearted Pokémon.",
+		de: "Dieses Pokémon ist ebenso tapfer wie tollkühn. Die weiße Musterung um seine Augen schüchtert ängstliche Pokémon ein."
 	},
 }
 

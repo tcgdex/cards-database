@@ -54,7 +54,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "This sneaky Pokémon will slink behind its prey and immobilize it with poisonous gas before the prey even realizes Salandit is there."
+		en: "This sneaky Pokémon will slink behind its prey and immobilize it with poisonous gas before the prey even realizes Salandit is there.",
+		de: "Es schleicht sich von hinten an seine Beute heran. Noch bevor diese auf es aufmerksam wird, setzt es sie mit seinem Giftgas außer Gefecht."
 	},
 
 	variants: [

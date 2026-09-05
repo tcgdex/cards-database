@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Totodile",
-		fr: "Kaiminus"
+		fr: "Kaiminus",
+		de: "Karnimani"
 	},
 
 	stage: "Stage1",
@@ -77,7 +78,8 @@ const card: Card = {
 
 	description: {
 		en: "It opens its huge jaws wide when attacking. If it loses any fangs while biting, they grow back in.",
-		fr: "Il ouvre son immense mâchoire en grand lorsqu'il attaque. S'il perd un croc en mordant, celui-ci repoussera."
+		fr: "Il ouvre son immense mâchoire en grand lorsqu'il attaque. S'il perd un croc en mordant, celui-ci repoussera.",
+		de: "Es öffnet seine riesigen Kiefer bei Angriff weit. Falls es irgendwelche Giftzähne beim Beißen verliert, wachsen sie nach."
 	},
 
 

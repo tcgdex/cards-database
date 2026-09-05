@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Call for Backup",
 				fr: "Renforts",
+				de: "Back-up"
 			},
 			effect: {
 				en: "Search your deck for a Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.",
 				fr: "Cherchez un Pokémon dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -51,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Metal Jail",
 				fr: "Prison Métallique",
+				de: "Metallgefängnis"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				de: "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 			damage: 30,
 
@@ -79,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Individuals each play different roles in driving Heatmor, their natural predator, away from their colony.",
+		de: "Eine ausgeklügelte Rollenverteilung hilft ihnen dabei, ihren natürlichen Feind Furnifraß aus dem Nest zu verjagen."
 	},
 
 	thirdParty: {

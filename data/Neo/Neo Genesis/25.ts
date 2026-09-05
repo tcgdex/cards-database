@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Fury Swipes",
 				fr: "Combo-griffe",
-				de: "Fury Swipes"
+				de: "Kratzfurie"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip 3 coins. This attack does 10 damage times the number of heads."
+				de: "Wirf drei Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10x",
 
@@ -51,12 +51,12 @@ const card: Card = {
 			name: {
 				en: "Beat Up",
 				fr: "Baston",
-				de: "Beat Up"
+				de: "Prügler"
 			},
 			effect: {
 				en: "Flip a coin for each of your Pokémon in play (including this one). This attack does 20 damage times the number of heads.",
 				fr: "Lancez une pièce pour chacun de vos Pokémon en jeu (y compris celui-là). Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Flip a coin for each of your Pokémon in play (including this one). This attack does 20 damage times the number of heads."
+				de: "Wirf eine Münze für jedes deiner Pokémon im Spiel (einschließlich dieses Pokémon). Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20x",
 
@@ -72,7 +72,8 @@ const card: Card = {
 
 	description: {
 		en: "Its paws conceal sharp claws. If attacked, it suddenly extends the claws and startles its enemy.",
-		fr: "Ses pattes cachent des griffes aiguisées. S'il est attaqué, il sort ses griffes et transperce son ennemi."
+		fr: "Ses pattes cachent des griffes aiguisées. S'il est attaqué, il sort ses griffes et transperce son ennemi.",
+		de: "Seine Pfoten verbergen scharfe Krallen. Wenn es angegriffen wird, zeigt es plötzlich seine Krallen und erschreckt den Feind damit."
 	},
 
 

@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "Be careful if it turns its back during battle. It means that it will attack with the fire on its back.",
+		de: "Dreht es dir im Kampf den Rücken zu, wird es dich mit den Flammen seines Rückens angreifen."
 	},
 
 	thirdParty: {

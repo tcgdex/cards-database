@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Armaldo δ",
 		fr: "Armaldo δ",
-		de: "Armaldo"
+		de: "Armaldo δ"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -26,7 +26,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Anorith",
-		fr: "Anorith"
+		fr: "Anorith",
+		de: "Anorith"
 	},
 
 	stage: "Stage2",

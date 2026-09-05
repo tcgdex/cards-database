@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ledyba",
-		fr: "Ledyba",
+		fr: "Coxy",
+		de: "Ledyba"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 4 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20x",
 
@@ -86,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "It uses starlight as energy. When more stars appear at night, the patterns on its back grow larger.",
-		fr: "Il tire sa force de la lumière des étoiles. Plus il y en a et plus ses motifs dorsaux sont grands."
+		fr: "Il tire sa force de la lumière des étoiles. Plus il y en a et plus ses motifs dorsaux sont grands.",
+		de: "Es zieht Energie aus dem Licht der Sterne. Je mehr Sterne zu sehen sind, desto größer ist sein Muster."
 	},
 
 	thirdParty: {

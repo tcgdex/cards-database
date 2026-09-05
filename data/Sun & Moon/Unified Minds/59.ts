@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Magnemite",
 		fr: "Magnéti",
+		de: "Magnetilo"
 	},
 
 	stage: "Stage1",
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "Delicate equipment can malfunction in areas inhabited by Magneton, which send out mysterious electrical signals.",
+		de: "Es erzeugt seltsame Radiowellen, die Störungen an Präzisionsinstrumenten in seiner Umgebung verursachen."
 	},
 
 	thirdParty: {

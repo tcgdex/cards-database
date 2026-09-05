@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Swablu",
-		fr: "Tylton"
+		fr: "Tylton",
+		de: "Wablu"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Dragon Dance",
 				fr: "Danse de dragon",
-				de: "Dragon Dance"
+				de: "Drachentanz"
 			},
 			effect: {
 				en: "During your next turn, if any of your current Active Pokémon does damage to any Defending Pokémon, this attack does 40 more damage (before applying Weakness and Resistance).",
 				fr: "Lors de votre prochain tour, si un de vos Pokémon Actifs inflige des dégâts à un des Pokémon Défenseurs, cette attaque inflige 40 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
-				de: "During your next turn, if any of your current Active Pokémon does damage to any Defending Pokémon, the attack does 40 more damage (before applying Weakness and Resistance)."
+				de: "Falls eines deiner jetzigen Aktiven Pokémon im nächsten Zug einem Verteidigenden Pokémon Schaden zufügt, fügt der Angriff 40 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet wurden)."
 			},
 
 		},
@@ -53,12 +54,12 @@ const card: Card = {
 			name: {
 				en: "Dragon Song",
 				fr: "Chanson de dragon",
-				de: "Dragon Song"
+				de: "Drachenlied"
 			},
 			effect: {
 				en: "Each Defending Pokémon is now Asleep.",
 				fr: "Chaque Pokémon Défenseur est maintenant Endormi.",
-				de: "Each Defending Pokémon is now Asleep."
+				de: "Alle Verteidigenden Pokémon schlafen jetzt."
 			},
 			damage: 30,
 

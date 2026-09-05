@@ -38,10 +38,12 @@ const card: Card = {
 			name: {
 				en: "Flamethrower",
 				fr: "Lance-Flamme",
+				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard an Energy attached to this Pokémon.",
 				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 60,
 
@@ -59,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "The magma in its body reaches 2,200 degrees F. Its hump gets smaller when it uses Fire-type moves.",
+		de: "In seinem Körper fließt 1 200 Grad heißes Magma. Nach Einsatz einer Feuer-Attacke schrumpft sein Höcker."
 	},
 
 	thirdParty: {

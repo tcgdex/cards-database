@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cottonee",
 		fr: "Doudouvet",
+		de: "Waumboll"
 	},
 
 	stage: "Stage1",
@@ -92,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "This nuisance sneaks into people's homes, where it hides important things and scatters cotton all over the place.",
+		de: "Ein Störenfried, der heimlich in Wohnhäuser eindringt und dann wichtige Dinge versteckt sowie in allen Zimmern Watte verstreut."
 	},
 
 	thirdParty: {

@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon wears the skull of its deceased mother. Sometimes Cubone's dreams make it cry, but each tear Cubone sheds makes it stronger.",
+		de: "Es trägt den Schädel seiner verstorbenen Mutter. Manchmal weint Tragosso, während es träumt, doch jede vergossene Träne macht es stärker."
 	},
 
 	variants: [

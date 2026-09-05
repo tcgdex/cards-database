@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Archen",
-		fr: "Arkéapti"
+		fr: "Arkéapti",
+		de: "Flapteryx"
 	},
 
 	stage: "Stage1",
@@ -64,11 +65,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Rock Slide",
-				fr: "Éboulement"
+				fr: "Éboulement",
+				de: "Steinhagel"
 			},
 			effect: {
 				en: "Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à 2 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+				fr: "Inflige 10 dégâts à 2 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 2 Pokémon auf der Bank deines Gegners je 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 
@@ -86,7 +89,14 @@ const card: Card = {
 
 	description: {
 		en: "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
+		de: "Dieses sehr seltene Pokémon hat eine andere Farbe als üblich. Es ist schwer zu finden."
 	},
+
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 280438,

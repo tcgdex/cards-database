@@ -61,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "Though large and languid, Hippopotas is difficult to detect due to its tendency to burrow into and lurk beneath the soil. When agitated or excited, it expels sand from its nostrils.",
+		de: "Sie mögen groß und schwerfällig sein, doch es ist nicht leicht, sie zu Gesicht zu bekommen, weil sie sich im Boden vergraben. Wenn sie aufgeregt sind, blasen sie Sand aus ihrer Nase."
 	},
 
 	variants: [

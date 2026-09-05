@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack's base damage is 50 instead of 100.",
 				fr: "Lancez une pièce. Si c'est pile, les dégâts de base de cette attaque sont de 50 au lieu de 100.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" beträgt der Grundschaden dieses Angriffs 50 Schadenspunkte anstelle von 100 Schadenspunkten."
+				de: "Wirf 1 Münze. Bei „Zahl“ beträgt der Grundschaden dieses Angriffs 50 Schadenspunkte anstelle von 100 Schadenspunkten."
 			},
 			damage: 100,
 

@@ -79,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon's love gives rise to the budding of fresh life across Hisui.",
+		de: "Kommt es übers Meer geflogen, neigt sich der harsche Winter dem Ende zu. Der Volksmund sagt, dass dank seiner Liebe neues Leben in Hisui Knospen treibe."
 	},
 
 	

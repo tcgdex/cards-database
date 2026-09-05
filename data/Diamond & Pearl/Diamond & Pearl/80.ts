@@ -4,7 +4,7 @@ import Set from '../Diamond & Pearl'
 const card: Card = {
 	name: {
 		en: "Duskull",
-		fr: "Skélénox",
+		fr: "Skelénox",
 		de: "Zwirrlicht"
 	},
 
@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, choisissez 1 des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" wähle 1 Angriff des Verteidigenden Pokémon. Dieses Pokémon kann den gewählten Angriff im nächsten Zug deines Gegners nicht einsetzen."
+				de: "Wirf 1 Münze. Bei „Kopf“ wähle 1 Angriff des Verteidigenden Pokémon. Dieses Pokémon kann den gewählten Angriff im nächsten Zug deines Gegners nicht einsetzen."
 			},
 
 		},
@@ -80,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "It doggedly pursues its prey wherever it goes. However, the chase is abandoned at sunrise.",
-		fr: "Il poursuit assidûment sa proie, où qu'elle aille. Il n'abandonne sa traque qu'au lever du soleil."
+		fr: "Il poursuit assidûment sa proie, où qu'elle aille. Il n'abandonne sa traque qu'au lever du soleil.",
+		de: "Verbissen verfolgt es seine Beute überallhin. Doch sobald die Sonne aufgeht, ist die Jagd vorbei."
 	},
 
 	thirdParty: {

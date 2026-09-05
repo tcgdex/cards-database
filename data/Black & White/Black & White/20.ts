@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pignite",
 		fr: "Grotichon",
+		de: "Ferkokel"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes unir una carta de Energía Fire de tu mano a 1 de tus Pokémon.",
 				it: "Durante il tuo turno, prima di attaccare, puoi assegnare a piacimento le carte Energia Fire che hai in mano ai tuoi Pokémon.",
 				pt: "Sempre que desejar, na sua vez de jogar (antes de atacar), você poderá ligar um card de Energia Fire da sua mão a 1 dos seus Pokémon.",
-				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 Fire-Energiekarte von deiner Hand an 1 deiner Pokémon anlegen."
+				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 {R}-Energiekarte von deiner Hand an 1 deiner Pokémon anlegen."
 			},
 		},
 	],
@@ -66,6 +67,7 @@ const card: Card = {
 			name: {
 				en: "Heat Crash",
 				fr: "Tacle Feu",
+				de: "Brandstempel"
 			},
 
 			damage: 80,
@@ -84,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
+		de: "Steckt mit dem Feuer um sein Kinn seine Fäuste in Brand und holt zu feurigen Fausthieben aus. Zeigt großen Teamgeist."
 	},
 
 	thirdParty: {

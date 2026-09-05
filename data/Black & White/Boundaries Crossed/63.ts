@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dusclops",
 		fr: "Téraclope",
+		de: "Zwirrklop"
 	},
 
 	stage: "Stage2",
@@ -66,10 +67,12 @@ const card: Card = {
 			name: {
 				en: "Shadow Punch",
 				fr: "Poing Ombre",
+				de: "Finsterfaust"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 60,
 
@@ -87,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said to take lost spirits into its pliant body and guide them home.",
+		de: "Man sagt, dass es verlorene Seelen in seinem biegsamen Körper nach Hause geleite."
 	},
 
 	thirdParty: {

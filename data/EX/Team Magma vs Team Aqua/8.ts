@@ -30,12 +30,12 @@ const card: Card = {
 			name: {
 				en: "Magma Switch",
 				fr: "Échange de Magma",
-				de: "Magma Switch"
+				de: "Magmawechsel"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may move an Energy card attached to your Pokémon with Team Magma in its name to another of your Pokémon. This power can't be used if Team Magma's Claydol is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez déplacer une carte Énergie attachée à un Pokémon dont le nom comporte Team Magma à un autre de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Kaorine de Team Magma est affecté par un État Spécial.",
-				de: "Once during your turn (before your attack), you may move an Energy card attached to your Pokémon with Team Magma in its name to another of your Pokémon. This power can't be used if Team Magma's Claydol is affected by a Special Condition."
+				de: "Während deines Zuges (vor deinem Angriff) kannst du ein Mal beliebig viele an 1 deiner Pokémon mit „Team Magma“ im Namen angelegten Energiekarten an ein anderes deiner Pokémon anlegen. Diese Poké-Power kann nicht verwenden werden, falls Team Aquas Lepumentas von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],
@@ -50,12 +50,12 @@ const card: Card = {
 			name: {
 				en: "Dark Hand",
 				fr: "Main sombre",
-				de: "Dark Hand"
+				de: "Dunkle Hand"
 			},
 			effect: {
 				en: "If you have more cards in your hand than your opponent, this attack does 40 damage plus 20 more damage.",
 				fr: "Si vous avez plus de cartes en main que votre adversaire, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires.",
-				de: "If you have more cards in your hand than your opponent, this attack does 40 damage plus 20 more damage."
+				de: "Wenn du mehr Karten auf deiner Hand hast als dein Gegner, fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 

@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes.",
+		de: "Es ist von Natur aus tapfer und vertrauenswürdig. Es scheut nicht vor starken Gegnern zurück."
 	},
 
 	thirdParty: {

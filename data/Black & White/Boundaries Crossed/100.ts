@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Dual Claw",
 				fr: "Paire de Griffes",
+				de: "Doppelpranke"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 20,
 
@@ -55,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Flash Freeze",
 				fr: "Tonnerre de Glace",
+				de: "Froststrahl"
 			},
 			effect: {
 				en: "Discard an Energy attached to this Pokémon.",
 				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 100,
 
@@ -76,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "This legendary ice Pokémon waits for a hero to fill in the missing parts of its body with truth or ideals.",
+		de: "Ein Legendäres Eis-Pokémon, das auf den Helden wartet, der seinen verstümmelten Körper mit Wunsch und Wirklichkeit heilt."
 	},
 
 	thirdParty: {

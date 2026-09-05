@@ -37,8 +37,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your discard pile for a Lightning Energy card and attach it to Pikachu.",
-				fr: "Cherchez dans votre pile de défausse une carte Énergie  et attachez-la à Pikachu.",
-				de: "Durchsuche deinen Ablagestapel nach einer -Energiekarte und lege sie an Pikachu an."
+				fr: "Cherchez dans votre pile de défausse une carte Énergie {L} et attachez-la à Pikachu.",
+				de: "Durchsuche deinen Ablagestapel nach einer {L}-Energiekarte und lege sie an Pikachu an."
 			},
 
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20x",
 

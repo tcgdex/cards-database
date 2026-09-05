@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Swinub",
-		fr: "Marcacrin"
+		fr: "Marcacrin",
+		de: "Quiekel"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts à chaque Pokémon de Banc de votre adversaire. Si c’est pile, cette attaque inflige 10 dégâts à chacun de vos Pokémon de Banc. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. Bei \"Zahl\" fügt dieser Angriff jedem Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. Bei „Zahl“ fügt dieser Angriff jedem Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 40,
 
@@ -76,7 +77,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Because the long hair all over its body obscures its sight, it just keeps charging repeatedly."
+		en: "Because the long hair all over its body obscures its sight, it just keeps charging repeatedly.",
+		de: "Da sein haariges Fell seine Sicht enorm beeinträchtigt, greift es ständig an, um den Gegner zu treffen."
 	},
 
 	variants: [

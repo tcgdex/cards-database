@@ -4,7 +4,7 @@ import Set from '../Diamond & Pearl'
 const card: Card = {
 	name: {
 		en: "Staraptor",
-		fr: "Etouraptor",
+		fr: "Étouraptor",
 		de: "Staraptor"
 	},
 
@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Staravia",
 		fr: "Etourvol",
+		de: "Staravia"
 	},
 
 	stage: "Stage2",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing. If heads, prevent all damage done to Staraptor by attacks (both yours and your opponent's) until the end of your next turn.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet. Si c'est face, prévenez tous les dégâts infligés à Etouraptor par des attaques (les vôtres et celles de votre adversaire) jusqu'à la fin de votre prochain tour.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen. Bei \"Kopf\" verhindere alle Schadenspunkte, die Staraptor durch Angriffe von Pokémon (deine und die deines Gegners) bis zum Ende deines nächsten Zuges zugefügt werden."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen. Bei „Kopf“ verhindere alle Schadenspunkte, die Staraptor durch Angriffe von Pokémon (deine und die deines Gegners) bis zum Ende deines nächsten Zuges zugefügt werden."
 			},
 			damage: 30,
 
@@ -63,7 +64,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, Staraptor does 100 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, Etouraptor s'inflige 100 dégâts.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" fügt sich Staraptor selbst 100 Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Zahl“ fügt sich Staraptor selbst 100 Schadenspunkte zu."
 			},
 			damage: 100,
 
@@ -86,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "It has a savage nature. It will courageously challenge foes that are much larger.",
-		fr: "Un Pokémon sauvage qui a le courage de défier des ennemis beaucoup plus grands que lui."
+		fr: "Un Pokémon sauvage qui a le courage de défier des ennemis beaucoup plus grands que lui.",
+		de: "Es hat ein wildes Wesen. Mutig fordert es immer wieder Gegner heraus, die viel größer sind."
 	},
 
 	thirdParty: {

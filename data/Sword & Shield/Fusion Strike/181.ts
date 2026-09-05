@@ -46,7 +46,8 @@ const card: Card = {
 	illustrator: "Shigenori Negishi",
 
 	description: {
-		en: "After many battles, it evolved dangerous claws that come together to form daggers when extended."
+		en: "After many battles, it evolved dangerous claws that come together to form daggers when extended.",
+		de: "Es entwickelte sich nach einer langen Zeit voller Kämpfe. Nun kann es seine Krallen ausfahren, um sie als Dolche zu nutzen."
 	},
 
 	attacks: [{

@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Floatzel GL",
-		fr: "Mustéflott  Niv. 37",
+		fr: "Mustéflott GL Niv. 37",
 		de: "Bojelin GL"
 	},
 
@@ -50,7 +50,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Floatzel GL can't use Giant Wave during your next turn.",
-				fr: "Mustéflott  ne peut pas utiliser Vague géante lors de votre prochain tour.",
+				fr: "Mustéflott GL ne peut pas utiliser Vague géante lors de votre prochain tour.",
 				de: "Bojelin GL kann Riesenwelle in deinem nächsten Zug nicht einsetzen."
 			},
 			damage: 50,

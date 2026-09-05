@@ -68,7 +68,8 @@ const card: Card = {
 
 	description: {
 		en: "It's said that not even pro wrestlers can take down a Machop.",
-		fr: "Il est dit que même les lutteurs professionnels ne parviennent pas à battre un Machoc."
+		fr: "Il est dit que même les lutteurs professionnels ne parviennent pas à battre un Machoc.",
+		de: "Man sagt, dass selbst professionelle Ringer ein Machollo nicht bezwingen können."
 	},
 
 

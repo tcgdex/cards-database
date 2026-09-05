@@ -70,7 +70,8 @@ const card: Card = {
 
 	description: {
 		en: "Although it always pretends to be a tree, its composition appears to be closer to a rock than a plant.",
-		fr: "Bien qu'il prétende être un arbre, il ressemble plus à un rock qu'à une plante."
+		fr: "Bien qu'il prétende être un arbre, il ressemble plus à un rock qu'à une plante.",
+		de: "Obwohl es immer vorgibt, ein Baum zu sein, erinnert seine Aufmachung eher an einen Felsen als an eine Pflanze."
 	},
 
 

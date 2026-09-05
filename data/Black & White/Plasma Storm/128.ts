@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Descarta 2 cartas de tu mano. (Si no puedes descartar 2 cartas, no puedes jugar esta carta.) Pon una carta de Entrenador de tu pila de descartes en tu mano.",
 		it: "Scarta due delle carte che hai in mano (se non puoi scartare due carte, non potrai giocare questa carta). Prendi una carta Allenatore dalla tua pila degli scarti e aggiungila alle carte che hai in mano.",
 		pt: "Descarte 2 cards da sua mão. (Se você não puder descartar 2 cards, não poderá jogar esse card.) Coloque um card de Treinador da sua pilha de descarte em sua mão.",
-		de: "Lege 2 Karten von deiner Hand auf deinen Ablagestapel. (Wenn du keine 2 Karten auf deinen Ablagestapel legen kannst, kannst du diese Karte nicht spielen.) Nimm 1 Trainerkarte von deinem Ablagestapel auf deine Hand."
+		de: "Dein Deck darf nicht mehr als 1 ASS-KLASSE-Karte enthalten. Lege 2 Karten von deiner Hand auf deinen Ablagestapel. (Wenn du keine 2 Karten auf deinen Ablagestapel legen kannst, kannst du diese Karte nicht spielen.) Nimm 1 Trainerkarte von deinem Ablagestapel auf deine Hand. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Golbat",
 		fr: "Nosferalto",
+		de: "Golbat"
 	},
 
 	stage: "Stage2",
@@ -101,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "Its fangs are so sharp, if it bites you in the dark and sucks your blood, you won't notice any pain or realize you've been bitten.",
+		de: "Iksbat hat sehr scharfe Zähne, sodass seine Beute oft nichts davon merkt, wenn es in der Dunkelheit zubeißt und ihr Blut aussaugt."
 	},
 
 	thirdParty: {

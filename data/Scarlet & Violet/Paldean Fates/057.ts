@@ -106,6 +106,7 @@ const card: Card = {
 
 	description: {
 		en: "To steal the life of its target, it slips into the prey's shadow and silently waits for an opportunity.",
+		de: "Um Beute zu erlegen, versteckt es sich in deren Schatten und wartet still auf eine günstige Gelegenheit."
 	},
 
 }

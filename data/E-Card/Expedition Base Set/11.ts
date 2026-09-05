@@ -23,20 +23,10 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Spearow",
-		fr: "Piafabec"
+		fr: "Piafabec",
+		de: "Habitak"
 	},
 
-	abilities: [
-		{
-			type: "Poke-POWER",
-			name: {
-				en: "Energy Return",
-			},
-			effect: {
-				en: "As often as you like during your turn (before your attack), choose an Energy card attached to 1 of your Pokémon and return it to your hand. This power can't be used if Espeon is affected by a Special Condition.",
-			},
-		},
-	],
 	stage: "Stage1",
 
 	attacks: [
@@ -74,7 +64,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Wirkung."
+				de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 50,

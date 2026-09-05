@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Quagsire GL",
-		fr: "Maraiste  Niv. 34",
+		fr: "Maraiste GL Niv. 34",
 		de: "Morlord GL"
 	},
 
@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as Quagsire GL is on your Bench, prevent all damage done to Quagsire GL by attacks (both yours and your opponent's).",
-				fr: "Tant que Maraiste  est sur votre Banc, prévenez tous les dégâts qui lui sont infligés par des attaques (de vos Pokémon et des Pokémon de votre adversaire).",
+				fr: "Tant que Maraiste GL est sur votre Banc, prévenez tous les dégâts qui lui sont infligés par des attaques (de vos Pokémon et des Pokémon de votre adversaire).",
 				de: "Solange Morlord GL auf deiner Bank ist, verhindere allen Schaden, der Morlord GL durch Angriffe (deine und die deines Gegners) zugefügt würde."
 			}
 		},
@@ -53,7 +53,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may switch Quagsire GL with 1 of your Benched Pokémon.",
-				fr: "Vous pouvez échanger Maraiste  avec 1 des Pokémon de votre Banc.",
+				fr: "Vous pouvez échanger Maraiste GL avec 1 des Pokémon de votre Banc.",
 				de: "Du kannst Morlord GL gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 			damage: 40,

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Houndour",
-		fr: "Malosse"
+		fr: "Malosse",
+		de: "Hunduster"
 	},
 
 	stage: "Stage1",
@@ -38,12 +39,12 @@ const card: Card = {
 			name: {
 				en: "Eerie Howl",
 				fr: "Hurlement étrange",
-				de: "Eerie Howl"
+				de: "Schauriges Heulen"
 			},
 			effect: {
 				en: "If your opponent's Bench isn't full, look at his or her hand. If your opponent has any Baby Pokémon or Basic Pokémon there, choose 1 of them and put it on his or her Bench. Then, switch it with the Defending Pokémon.",
 				fr: "Si le Banc de votre adversaire n'est pas plein, regardez sa main. Si elle contient des Bébés Pokémon ou des Pokémon de base, choisissez-en un et placez-le sur son Banc. Puis échangez-le contre le Pokémon Défenseur.",
-				de: "If your opponent's Bench isn't full, look at his or her hand. If your opponent has any Baby Pokémon or Basic Pokémon there, choose 1 of them and put it on his or her Bench. Then, switch it with the Defending Pokémon."
+				de: "Wenn die Bank deines Gegners nicht voll ist, schaue dir die Karten auf seiner Hand an. Falls dein Gegner mindestens ein Baby-Pokémon oder Basis-Pokémon auf der Hand hat, wähle eines davon und lege es auf seine Bank. Tausche dieses Pokémon dann mit dem verteidigenden Pokémon aus."
 			},
 
 		},
@@ -55,12 +56,12 @@ const card: Card = {
 			name: {
 				en: "Dark Fire",
 				fr: "Sombre feu",
-				de: "Dark Fire"
+				de: "Finsteres Feuer"
 			},
 			effect: {
 				en: "If there are any Energy cards attached to Dark Houndoom, discard 1 of them and this attack does 30 damage plus 20 more damage (plus 10 more damage for the Energy you discarded). If there aren't any, this attack does 30 damage.",
-				fr: "S'il y a des cartes Énergie  attachées à Démolosse obscur, défaussez-vous en d'une. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires (plus 10 dégâts pour la carte Énergie  défaussée). Sinon, cette attaque inflige 30 dégâts.",
-				de: "If there are any  Energy cards attached to Dark Houndoom, discard 1 of them and this attack does 30 damage plus 20 more damage (plus 10 more damage for the  Energy you discarded). If there aren't any, this attack does 30 damage."
+				fr: "S'il y a des cartes Énergie {D} attachées à Démolosse obscur, défaussez-vous en d'une. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires (plus 10 dégâts pour la carte Énergie {D} défaussée). Sinon, cette attaque inflige 30 dégâts.",
+				de: "Falls mindestens eine {D}-Energiekarte an Dunkles Hundemon angelegt ist, lege eine davon auf deinen Ablagestapel, und dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte zu (plus 10 weitere für die abgelegte {D}-Energiekarte). Sonst fügt dieser Angriff 30 Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -78,7 +79,8 @@ const card: Card = {
 
 	description: {
 		en: "The flame it breathes is actually a volatile poison it produces internally that ignites when exposed to air.",
-		fr: "Les flammes qu'il crache sont en fait un poison qu'il sécrète et qui s'enflamme au contact de l'air."
+		fr: "Les flammes qu'il crache sont en fait un poison qu'il sécrète et qui s'enflamme au contact de l'air.",
+		de: "Das Feuer, das es spuckt, ist in Wirklichkeit ein dampfendes Gift, das es in seinem Magen bildet und das sich entzündet, wenn es an die Luft kommt."
 	},
 
 

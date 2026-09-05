@@ -68,7 +68,7 @@ const card: Card = {
 			es: "Descarta 3 Energías {L} de tus Pokémon.",
 			it: "Scarta tre Energie {L} dai tuoi Pokémon.",
 			pt: "Descarte 3 Energias {L} dos seus Pokémon.",
-			de: "Lege 3 {L}-Energien von deinen Pokémon auf deinen Ablagestapel."
+			de: "Lege 3 Energien von deinen Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 270

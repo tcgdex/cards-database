@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Larvitar",
-		fr: "Embrylex"
+		fr: "Embrylex",
+		de: "Larvitar"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage. If tails, Pupitar does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires. Si c'est pile, Ymphect s'inflige 10 dégâts.",
-				de: "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 30 Schadenspunkte plus 10 weitere Schadenspunkte zu. Bei 'Zahl' fügt sich Pupitar selber 10 Schadenspunkte zu."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus 10 weitere Schadenspunkte zu. Bei „Zahl“ fügt sich Pupitar selber 10 Schadenspunkte zu."
 			},
 			damage: "30+",
 

@@ -23,20 +23,10 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Diglett",
-		fr: "Taupiqueur"
+		fr: "Taupiqueur",
+		de: "Digda"
 	},
 
-	abilities: [
-		{
-			type: "Poke-BODY",
-			name: {
-				en: "Anti-Lightning",
-			},
-			effect: {
-				en: "You can't attach Lightning Energy cards from your hand to Zapdos.",
-			},
-		},
-	],
 	stage: "Stage1",
 
 	attacks: [
@@ -47,7 +37,7 @@ const card: Card = {
 			name: {
 				en: "Mud Slap",
 				fr: "Coud'boue",
-				de: "Mud Slap"
+				de: "Lehmschelle"
 			},
 
 			damage: 20,
@@ -62,12 +52,12 @@ const card: Card = {
 			name: {
 				en: "Magnitude",
 				fr: "Ampleur",
-				de: "Magnitude"
+				de: "Intensität"
 			},
 			effect: {
 				en: "Does 10 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à chaque Pokémon du Banc (le vôtre et celui de votre adversaire). (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
-				de: "Does 10 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				de: "Fügt allen Pokémon auf der Bank 10 Schadenspunkte zu (deinen und den gegnerischen). (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 40,
 

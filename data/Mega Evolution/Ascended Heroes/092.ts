@@ -40,7 +40,7 @@ const card: Card = {
 			fr: "Vous pouvez chercher dans votre deck le nombre voulu de Pokémon ayant \" Motisma \" dans leur nom, puis les placer sur votre Banc. Mélangez ensuite votre deck.",
 			es: "Puedes buscar en tu baraja cualquier cantidad de Pokémon que tengan \"Rotom\" en su nombre y ponerlos en tu Banca. Después, baraja las cartas de tu baraja.",
 			'es-mx': "Puedes buscar en tu mazo cualquier cantidad de Pokémon que tengan \"Rotom\" en su nombre y ponerlos en tu Banca. Después, baraja tu mazo.",
-			de: "Du kannst dein Deck nach beliebig vielen Pokémon durchsuchen, bei denen \"Rotom\" zum Namen gehört, und sie auf deine Bank legen. Mische anschließend dein Deck.",
+			de: "Du kannst dein Deck nach beliebig vielen Pokémon durchsuchen, bei denen „Rotom“ zum Namen gehört, und sie auf deine Bank legen. Mische anschließend dein Deck.",
 			it: "Puoi cercare nel tuo mazzo un numero qualsiasi di Pokémon che hanno \"Rotom\" nel nome e metterli nella tua panchina. Poi rimischia il tuo mazzo.",
 			pt: "Você pode procurar por qualquer número de Pokémon no seu baralho que têm \"Rotom\" em seu nome e colocá-los no seu Banco. Em seguida, embaralhe o seu baralho."
 		}
@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Research continues on this Pokémon, which could be the power source of a unique motor.",
+		de: "Dieses Pokémon wurde lange Zeit erforscht, um als Energiequelle für besondere Motoren zu dienen."
 	},
 
 	variants: [

@@ -84,7 +84,7 @@ const card: Card = {
 				es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 30 puntos de daño más por cada cara.",
 				it: "Lancia una moneta finché non esce croce. Ogni volta che esce testa, questo attacco infligge 30 danni in più.",
 				pt: "Jogue uma moeda até sair coroa. Este ataque causa 30 de danos adicionais para cada cara.",
-				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 30 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 30 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "60+",
 
@@ -102,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "It wraps things with its extensible tongue. Getting too close to it will leave you soaked with drool.",
+		de: "Es umklammert Dinge mit seiner dehnbaren Zunge. Kommt man ihm zu nahe, wird man eingespeichelt."
 	},
 
 	thirdParty: {

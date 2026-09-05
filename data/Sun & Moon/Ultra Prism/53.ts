@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It was bound to a fissure in an Odd Keystone as punishment for misdeeds 500 years ago.",
+		de: "Es wurde in einen Spalt eines Steins gebannt, als Sühne für Untaten, die es vor 500 Jahren begangen hatte."
 	},
 
 	thirdParty: {

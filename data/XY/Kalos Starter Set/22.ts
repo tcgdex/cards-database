@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "It has an active, playful nature. Many women like to frolic with it because of its affectionate ways.",
+		de: "Es ist von Natur aus verspielt. Es tollt mit vielen Frauen herum, da es ihnen zugeneigt ist."
 	},
 
 	thirdParty: {

@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Salamence ex",
 		fr: "Drattak ex",
-		de: "Brutalanda ex"
+		de: "Brutalanda-ex"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shelgon",
-		fr: "Drackhaus"
+		fr: "Drackhaus",
+		de: "Draschel"
 	},
 
 	suffix: "ex",
@@ -65,8 +66,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard all Water Energy attached to Salamence ex. This attack does 30 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Défaussez toutes les Énergies  attachées à Drattak ex. Cette attaque inflige 30 dégâts à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Lege alle -Energie, die an Brutalanda ex angelegt ist, auf deinen Ablagestapel. Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				fr: "Défaussez toutes les Énergies {W} attachées à Drattak ex. Cette attaque inflige 30 dégâts à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Lege alle {W}-Energie, die an Brutalanda ex angelegt ist, auf deinen Ablagestapel. Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},

@@ -62,7 +62,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms."
+		en: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
+		de: "Die Mythologie nennt dieses PKMN als Former des Universum, wobei es seine tausend Arme eingesetzt hat."
 	},
 
 	variants: [

@@ -72,7 +72,7 @@ const card: Card = {
 				es: "Descarta todas las Energías Lightning de este Pokémon. Este ataque hace 50 puntos de daño por cada carta que hayas descartado de esta manera.",
 				it: "Scarta tutte le Energie Lightning assegnate a questo Pokémon. Questo attacco infligge 50 danni per ogni carta che hai scartato in questo modo.",
 				pt: "Descarte todas as Energias Lightning deste Pokémon. Este ataque causa 50 pontos de dano para cada carta descartada desta forma.",
-				de: "Lege alle Lightning-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
+				de: "Lege alle {L}-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
 			},
 			damage: "50×",
 
@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "It electrifies its claws and tears its opponents apart with them. Even if they dodge its attack, they'll be electrocuted by the flying sparks.",
+		de: "Mit seinen elektrisierten Krallen reißt es Gegner in Stücke. Selbst wenn sie ausweichen, werden sie von elektrisch geladenen Funken getroffen."
 	},
 
 	thirdParty: {

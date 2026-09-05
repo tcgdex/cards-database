@@ -25,7 +25,7 @@ const card: Card = {
 		fr: "Piochez une carte pour chacun des Pokémon-ex Méga-Évolution en jeu de votre adversaire.",
 		es: "Roba 1 carta por cada uno de los Pokémon ex Megaevolución en juego de tu rival.",
 		'es-mx': "Roba 1 carta por cada uno de los Pokémon ex Megaevolución en juego de tu rival.",
-		de: "Ziehe 1 Karte für jedes Mega-Entwicklungs-Pokémon-ex deines Gegners im Spiel.",
+		de: "Ziehe 1 Karte für jedes Mega-Entwicklungs-Pokémon-ex deines Gegners im Spiel. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen.",
 		it: "Pesca una carta per ciascuno dei Pokémon-ex Megaevoluzione del tuo avversario in gioco.",
 		pt: "Compre uma carta para cada um dos Pokémon ex de Megaevolução do seu oponente em jogo."
 	},

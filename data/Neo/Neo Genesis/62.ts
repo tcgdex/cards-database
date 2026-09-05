@@ -34,12 +34,12 @@ const card: Card = {
 			name: {
 				en: "Fin Slap",
 				fr: "Koud' nageoire",
-				de: "Fin Slap"
+				de: "Flossenhieb"
 			},
 			effect: {
 				en: "If an attack damaged Horsea during your opponent's last turn, this attack does 20 damage plus 10 more damage. If not, this attack does 20 damage.",
 				fr: "Si une attaque a infligé des dégâts à Hypotrempe durant le dernier tour de votre adversaire, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires. Sinon, cette attaque inflige 20 dégâts.",
-				de: "If an attack damaged Horsea during your opponent's last turn, this attack does 20 damage plus 10 more damage. If not, this attack does 20 damage."
+				de: "Falls ein Angriff während des letzten gegnerischen Zugs Seeper Schadenspunkte zugefügt hat, fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu. Falls nicht, fügt dieser Angriff 20 Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -55,7 +55,8 @@ const card: Card = {
 
 	description: {
 		en: "If attacked by a larger enemy, it quickly swims to safety by adeptly controlling its dorsal fin.",
-		fr: "Lorsqu'il est attaqué par un ennemi plus gros que lui, il nage rapidement hors d'atteinte en contrôlant habilement sa nageoire dorsale."
+		fr: "Lorsqu'il est attaqué par un ennemi plus gros que lui, il nage rapidement hors d'atteinte en contrôlant habilement sa nageoire dorsale.",
+		de: "Wenn es von einem größeren Feind angegriffen wird, schwimmt es schnell in Sicherheit, indem es mit seiner Rückenflosse geschickt steuert."
 	},
 
 

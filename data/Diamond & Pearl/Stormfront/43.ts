@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Magneton",
-		fr: "Magneton",
+		fr: "Magnéton",
 		de: "Magneton"
 	},
 
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magnemite",
-		fr: "Magneti",
+		fr: "Magnéti",
+		de: "Magnetilo"
 	},
 
 	stage: "Stage1",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -63,7 +64,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				de: "Wirf 1 Münze. Bei „Kopf“ lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 50,
 
@@ -88,7 +89,8 @@ const card: Card = {
 
 	description: {
 		en: "It is actually three Magnemite linked by magnetism. A group can set off a magnetic storm.",
-		fr: "Il est formé de trois MAGNETI liés par magnétisme. En groupe, ils déclenchent un orage magnétique"
+		fr: "Il est formé de trois MAGNETI liés par magnétisme. En groupe, ils déclenchent un orage magnétique",
+		de: "Eigentlich sind es drei MAGNETILO, die durch Magnetismus verbunden sind."
 	},
 
 	thirdParty: {

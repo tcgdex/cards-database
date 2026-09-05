@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "It's said that a glimpse of a Milotic and its beauty will calm any hostile emotions you're feeling.",
+		de: "Es heißt, der Anblick seiner wunderschönen Gestalt könne selbst das verrohteste Herz erweichen."
 	},
 
 	variants: [

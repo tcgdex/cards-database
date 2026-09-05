@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Onix",
 		fr: "Onix",
+		de: "Onix"
 	},
 
 	stage: "Stage1",
@@ -43,10 +44,12 @@ const card: Card = {
 			name: {
 				en: "Metal Defender",
 				fr: "Défense Métallique",
+				de: "Metallverteidiger"
 			},
 			effect: {
 				en: "During your opponent's next turn, this Pokémon has no Weakness.",
 				fr: "Pendant le prochain tour de votre adversaire, ce Pokémon n'a pas de Faiblesse.",
+				de: "Während des nächsten Zuges deines Gegners hat dieses Pokémon keine Schwäche."
 			},
 			damage: 50,
 
@@ -62,6 +65,7 @@ const card: Card = {
 			name: {
 				en: "Heavy Impact",
 				fr: "Gros Impact",
+				de: "Schwerer Einschlag"
 			},
 
 			damage: 100,
@@ -87,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "The iron it ingested with the soil it swallowed transformed its body and made it harder than diamonds.",
+		de: "Durch all die eisenhaltige Erde, die es verschluckt hat, wurde sein Körper härter als ein Diamant."
 	},
 
 	thirdParty: {

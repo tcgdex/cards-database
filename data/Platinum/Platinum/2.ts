@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wartortle",
-		fr: "Carabaffe"
+		fr: "Carabaffe",
+		de: "Schillok"
 	},
 
 	stage: "Stage2",
@@ -34,12 +35,12 @@ const card: Card = {
 			name: {
 				en: "Dig Well",
 				fr: "Puits creusé",
-				de: "Dig Well"
+				de: "Brunnen graben"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may look at the top 3 cards of your deck, choose as many Water Energy cards as you like, and attach them to your Pokémon in any way you like. Discard the other cards. This power can't be used if Blastoise is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez regarder les 3 cartes du dessus de votre deck. Choisissez autant de cartes Énergie Water que vous voulez et attachez-les à vos Pokémon de la façon que vous voulez. Défaussez les autres cartes. Ce pouvoir ne peut pas être utilisé si Tortank est affecté par un État Spécial.",
-				de: "Once during your turn (before your attack), you may look at the top 3 cards of your deck, choose as many  Energy cards as you like, and attach them to your Pokémon in any way you like. Discard all other cards. This power can't be used if Blastoise is affected by a Special Condition."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dir die obersten 3 Karten deines Decks anschauen. Wähle beliebig viele {W}-Energiekarten, die du dort gefunden hast, und lege sie in beliebiger Verteilung an deine Pokémon an. Lege die anderen Karten auf deinen Ablagestapel. Diese Poké-Power kann nicht benutzt werden, wenn Turtok von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],
@@ -53,12 +54,12 @@ const card: Card = {
 			name: {
 				en: "Aqua Press",
 				fr: "Aqua presse",
-				de: "Aqua Press"
+				de: "Aquapresse"
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each Energy attached to all Pokémon (both yours and your opponent's).",
 				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie Water attachée à tous les Pokémon (les vôtres et ceux de votre adversaire).",
-				de: "Does 20 damage plus 10 more damage for each  Energy attached to all Pokémon (both yours and your opponent's)."
+				de: "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede {W}-Energie, die an allen Pokémon (deinen und denen deines Gegners) angelegt ist, zu."
 			},
 			damage: "20+",
 
@@ -73,12 +74,12 @@ const card: Card = {
 			name: {
 				en: "Double Launcher",
 				fr: "Double lanceur",
-				de: "Double Launcher"
+				de: "Zwillingswerfer"
 			},
 			effect: {
 				en: "Discard 2 Energy attached to Blastoise. Choose 2 of your opponent's Benched Pokémon. This attack does 60 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.) Blastoise can't use Double Launcher during your next turn.",
 				fr: "Défaussez 2 Énergies Water attachées à Tortank. Choisissez 2 des Pokémon de Banc de votre adversaire. Cette attaque leur inflige 60 dégâts chacun. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Tortank ne peut pas utiliser Double Lanceur lors de votre prochain tour.",
-				de: "Discard 2  Energy attached to Blastoise. Choose 2 of your opponent's Benched Pokémon. This attack does 60 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.) Blastoise can't use Double Launcher during your next turn."
+				de: "Lege 2 an Turtok angelegte {W}-Energien auf deinen Ablagestapel. Wähle 2 Pokémon auf der Bank deines Gegners. Dieser Angriff fügt den gewählten Pokémon 60 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Turtok kann Zwillingswerfer in deinem nächsten Zug nicht einsetzen."
 			},
 
 		},

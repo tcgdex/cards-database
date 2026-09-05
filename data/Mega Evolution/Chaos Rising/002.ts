@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Almost incapable of moving, this Pokémon can only harden its shell to protect itself when it is in danger.",
+		de: "Dieses Pokémon kann sich zwar kaum bewegen, aber bei drohender Gefahr scheint es sich zu seinem Schutz zu verhärten."
 	},
 
 	name: {
@@ -26,7 +27,9 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Weedle"
+		en: "Weedle",
+		fr: "Aspicot",
+		de: "Hornliu"
 	},
 
 	stage: "Stage1",

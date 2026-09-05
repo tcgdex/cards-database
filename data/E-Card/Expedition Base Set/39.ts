@@ -23,20 +23,10 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Charmeleon",
-		fr: "Reptincel"
+		fr: "Reptincel",
+		de: "Glutexo"
 	},
 
-	abilities: [
-		{
-			type: "Poke-POWER",
-			name: {
-				en: "Miracle Shift",
-			},
-			effect: {
-				en: "Once during your turn (before your attack), discard a basic Energy card attached to 1 of your Pokémon. Then, choose a basic Energy card from your discard pile and attach it to that Pokémon. This power can't be used if Togetic is affected by a Special Condition.",
-			},
-		},
-	],
 	stage: "Stage2",
 
 	attacks: [
@@ -54,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei Zahl hat dieser Angriff keine Auswirkungen."
+				de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 40,
@@ -72,8 +62,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 1 Fire Energy card attached to Charizard.",
-				fr: "Défaussez-vous d'une carte Énergie  attachée à Dracaufeu.",
-				de: "Lege 1 an Glurak angelegte  Energiekarte auf deinen Ablagestapel."
+				fr: "Défaussez-vous d'une carte Énergie {R} attachée à Dracaufeu.",
+				de: "Lege 1 an Glurak angelegte {R}-Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 60,
 

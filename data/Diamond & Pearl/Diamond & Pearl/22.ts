@@ -4,7 +4,7 @@ import Set from '../Diamond & Pearl'
 const card: Card = {
 	name: {
 		en: "Clefable",
-		fr: "Melodelfe",
+		fr: "Mélodelfe",
 		de: "Pixi"
 	},
 
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Clefairy",
-		fr: "Melofée",
+		fr: "Mélofée",
+		de: "Piepi"
 	},
 
 	stage: "Stage1",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Müntzen. Dieser Angrif fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30x",
 
@@ -63,7 +64,7 @@ const card: Card = {
 			effect: {
 				en: "Choose 1 of the Defending Pokémon's attacks. Metronome copies that attack except for its Energy cost. (You must still do anything else in order to use that attack.) Clefable performs that attack.",
 				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Métronome copie cette attaque, son Coût en Énergie excepté. (Vous devez toujours faire ce que l'attaque indique.) Melodelfe utilise cette attaque.",
-				de: "Wähle 1 Angriff des Verteidigenden Pokémon. Metronom kopiert diesen Angriff, mit Ausnahme der Energiekosten. (Du musst immer noch alles zun, was verlangt wird, um diesen Angriff durchzuführen). Pixi führt diesen Angriff aus."
+				de: "Wähle 1 Angriff des Verteidigenden Pokémon. Metronom kopiert diesen Angriff, mit Ausnahme der Energiekosten. (Du musst immer noch alles tun, was verlangt wird, um diesen Angriff durchzuführen.) Pixi führt diesen Angriff aus."
 			},
 
 		},
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "Rarely seen by people, it is said to be drawn by the full moon to play at deserted lakes.",
-		fr: "Il joue au bord des lacs déserts les soirs de pleine lune. Rares sont ceux qui l'ont aperçu."
+		fr: "Il joue au bord des lacs déserts les soirs de pleine lune. Rares sont ceux qui l'ont aperçu.",
+		de: "Man bekommt es selten zu sehen. Bei Vollmond soll es an den Ufern einsam gelegener Seen spielen."
 	},
 
 	thirdParty: {

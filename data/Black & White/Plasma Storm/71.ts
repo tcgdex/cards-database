@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -50,6 +51,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 50,
@@ -75,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
+		de: "Trotz seiner geringen Größe ist es stark. Es kann einen Erwachsenen mühelos auf dem Rücken tragen."
 	},
 
 	thirdParty: {

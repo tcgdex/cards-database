@@ -33,7 +33,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), if Unown Q is on your Bench, you may discard all cards attached to Unown Q and attach Unown Q to 1 of your Pokémon as a Pokémon Tool card. As long as Unown Q is attached to a Pokémon, you pay Colorless less to retreat that Pokémon.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), si Zarbi Q est sur votre Banc, vous pouvez défausser toutes les cartes qui lui sont attachées et attachez Zarbi Q à 1 de vos Pokémon comme carte Outil Pokémon. Tant que Zarbi Q est attachée à 1 Pokémon, vous payez 1 Colorless de moins pour le faire battre en retraite.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn Icignito Q auf deiner Bank ist, alle Karten die an Icognito Q angelegt sind, auf deinen Ablagestapel legen und Icognito Q an 1 deiner Pokémon als Pokémon-Ausrüstung anlegen. Solange Icognito Q an ein Pokémon angelegt ist, bezahlst du  weniger, um dieses Pokémon zurückzuziehen."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn Icognito Q auf deiner Bank ist, alle Karten, die an Icognito Q angelegt sind, auf deinen Ablagestapel legen und Icognito Q an 1 deiner Pokémon als Pokémon-Ausrüstung anlegen. Solange Icognito Q an ein Pokémon angelegt ist, bezahlst du {C} weniger, um dieses Pokémon zurückzuziehen."
 			},
 		},
 	],
@@ -61,6 +61,7 @@ const card: Card = {
 
 	description: {
 		en: "Shaped like ancient writing, it is a huge mystery whether language or Unown came first.",
+		de: "Seine Form sieht aus wie antike Schrift. Was war zuerst da? Die Sprache oder ICOGNITO?"
 	},
 
 	variants: [

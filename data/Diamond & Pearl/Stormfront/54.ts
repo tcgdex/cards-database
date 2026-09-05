@@ -58,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage to the Defending Pokémon. If tails, Bidoof does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts au Pokémon Défenseur. Si c'est pile, Keunotor s'inflige 10 dégâts.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff dem Verteidigenden Pokémon 30 Schadenspunkte zu. Bei \"Zahl\" fügt Bidiza sich selbst 10 Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff dem Verteidigenden Pokémon 30 Schadenspunkte zu. Bei „Zahl“ fügt Bidiza sich selbst 10 Schadenspunkte zu."
 			},
 
 		},
@@ -75,7 +75,8 @@ const card: Card = {
 
 	description: {
 		en: "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
-		fr: "Rien ne peut perturber ses nerfs d'acier. Il est plus agile et énergique qu'il y paraît."
+		fr: "Rien ne peut perturber ses nerfs d'acier. Il est plus agile et énergique qu'il y paraît.",
+		de: "Es hat Nerven wie Drahtseile, nichts kann es erschüttern. Es ist agiler und aktiver, als es scheint."
 	},
 
 	thirdParty: {

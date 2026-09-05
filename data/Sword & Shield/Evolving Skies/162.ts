@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Cambia 1 carta de tu mano por la primera carta de tu baraja.",
 		it: "Scambia una carta che hai in mano con la prima carta del tuo mazzo.",
 		pt: "Troque 1 carta da sua mão pela carta de cima do seu baralho.",
-		de: "Tausche 1 Karte aus deiner Hand gegen die oberste Karte deines Decks aus."
+		de: "Tausche 1 Karte aus deiner Hand gegen die oberste Karte deines Decks aus. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

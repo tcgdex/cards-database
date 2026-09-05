@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon's ancient genes have awakened. It is now so extraordinarily strong that it can easily lift a cruise ship with one fin.",
+		de: "Die uralten Gene dieses Pokémon sind erwacht. Es ist so übernatürlich stark, dass es mühelos mit einer Flosse ein Kreuzfahrtschiff anheben kann."
 	},
 
 }

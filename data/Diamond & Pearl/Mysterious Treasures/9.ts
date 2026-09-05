@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gabite",
-		fr: "Carmache"
+		fr: "Carmache",
+		de: "Knarksel"
 	},
 
 	stage: "Stage2",
@@ -73,7 +74,8 @@ const card: Card = {
 
 	description: {
 		en: "When it folds up its body and extends its wings, it looks like a jet plane. It flies at sonic speed.",
-		fr: "Quand il se recroqueville et étend ses ailes, on dirait un chasseur. Sa vitesse est supersonique."
+		fr: "Quand il se recroqueville et étend ses ailes, on dirait un chasseur. Sa vitesse est supersonique.",
+		de: "Spannt es seinen Körper und seine Flügel, sieht es aus wie ein Jet. Es fliegt mit Schallgeschwindigkeit."
 	},
 
 	thirdParty: {

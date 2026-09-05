@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Chikorita",
-		fr: "Germignon"
+		fr: "Germignon",
+		de: "Endivie"
 	},
 
 	stage: "Stage1",
@@ -40,13 +41,13 @@ const card: Card = {
 			name: {
 				en: "Poisonpowder",
 				fr: "Poudre toxik",
-				de: "Poisonpowder"
+				de: "Giftpuder"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 			damage: 20
@@ -60,12 +61,12 @@ const card: Card = {
 			name: {
 				en: "Pollen Shield",
 				fr: "Bouclier pollen",
-				de: "Pollen Shield"
+				de: "Pollenschild"
 			},
 			effect: {
 				en: "During your opponent's next turn, Bayleef can't become Asleep, Confused, Paralyzed, or Poisoned. (All other effects of attacks, Pokémon Powers, and Trainer cards still happen.)",
 				fr: "Pendant le prochain tour de votre adversaire, Macronium ne peut pas devenir Endormir, Confus, Paralysé ou Empoisonné. (Tous les autres effets d'attaques, Pouvoir Pokémon et cartes Dresseur sont toujours actifs.)",
-				de: "During your opponent's next turn, Bayleef can't become Asleep, Confused, Paralyzed, or Poisoned. (All other effects of attacks, Pokémon Powers, and Trainer cards still happen.)"
+				de: "Während des nächsten gegnerischen Zugs kann Lorblatt nicht einschlafen oder verwirrt, gelähmt oder vergiftet werden. (Alle anderen Effekte von Angriffen, Pokémon-Power und Trainerkarten finden immer noch statt.)"
 			},
 			damage: 30,
 
@@ -83,7 +84,8 @@ const card: Card = {
 
 	description: {
 		en: "A spicy aroma emanates from around its neck. The aroma acts as a stimulant to restore health.",
-		fr: "Un arôme épicé émane de son tour de cou. Cet arôme agit comme un stimulant réjuvénateur."
+		fr: "Un arôme épicé émane de son tour de cou. Cet arôme agit comme un stimulant réjuvénateur.",
+		de: "Ein würziges Aroma strömt aus seiner Halsgegend. Das Aroma wirkt wie ein Belebungsmittel, um die Gesundheit wiederherzustellen."
 	},
 
 

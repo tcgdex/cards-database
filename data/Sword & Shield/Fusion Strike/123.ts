@@ -36,7 +36,8 @@ const card: Card = {
 	illustrator: "Yukiko Baba",
 
 	description: {
-		en: "A discovery was made in the desert where Sigilyph fly. The ruins of what may have been an ancient city were found beneath the sands."
+		en: "A discovery was made in the desert where Sigilyph fly. The ruins of what may have been an ancient city were found beneath the sands.",
+		de: "In den Wüsten, in denen man Symvolara fliegen sieht, wurden Ruinen gefunden, die man für die Überreste einer Stadt aus uralten Zeiten hält."
 	},
 
 	attacks: [{

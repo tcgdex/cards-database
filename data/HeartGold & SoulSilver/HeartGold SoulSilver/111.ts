@@ -38,7 +38,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Legends claim this Pokémon flies the world’s skies continuously on its magnificent, seven-colored wings."
+		en: "Legends claim this Pokémon flies the world’s skies continuously on its magnificent, seven-colored wings.",
+		de: "Man sagt, dass dieses Pokémon auf seinen siebenfarbigen Schwingen durch die Lüfte fliegt."
 	},
 
 	variants: [
@@ -55,11 +56,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Sacred Rainbow",
-				fr: "Arc-en-ciel sacré"
+				fr: "Arc-en-ciel sacré",
+				de: "Heiliger Regenbogen"
 			},
 			effect: {
 				en: "All Energy attached to Ho-Oh LEGEND are Fire Energy instead of their usual type.",
-				fr: "Toutes les Énergies attachées à Ho-Oh LÉGENDE sont de type Feu et non de leur type habituel."
+				fr: "Toutes les Énergies attachées à Ho-Oh LÉGENDE sont de type Feu et non de leur type habituel.",
+				de: "Alle Energien, die an Ho-Oh-LEGENDE angelegt sind, liefern {R}-Energie anstelle ihres normalen Typs."
 			}
 		},
 	],

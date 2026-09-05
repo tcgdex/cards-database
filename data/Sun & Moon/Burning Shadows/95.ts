@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "It feeds on the nectar and pollen of flowers. Because it's able to sense auras, it can identify which flowers are about to bloom.",
+		de: "Es ernährt sich von Blütenstaub und Honig. Da es die Aura von Lebewesen wahrnehmen kann, spürt es, wenn eine Blume bald blühen wird."
 	},
 
 	thirdParty: {

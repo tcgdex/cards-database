@@ -4,7 +4,7 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Mantine",
-		fr: "Demanta",
+		fr: "Démanta",
 		de: "Mantax"
 	},
 
@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "If Mantyke is anywhere under Mantine, the Retreat Cost for each of your Water Pokémon is ColorlessColorless less.",
 				fr: "Si Babimanta se trouve sous Demanta, le coût de retraite de chacun de vos Pokémon Water est ColorlessColorless de moins.",
-				de: "Wenn Mantirps sich an beliebiger Stelle unter Mantax befindet, sind die Rückzugskosten deiner -Pokémon um   reduziert."
+				de: "Wenn Mantirps sich an beliebiger Stelle unter Mantax befindet, sind die Rückzugskosten deiner {W}-Pokémon um {C} {C} reduziert."
 			},
 		},
 	],
@@ -80,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "When the waves are calm, one may encounter a swarm of Mantine swimming as if they are in flight.",
-		fr: "Lorsque la mer est calme, il arrive de croiser un banc de Démanta nageant comme s'il volaient."
+		fr: "Lorsque la mer est calme, il arrive de croiser un banc de Démanta nageant comme s'il volaient.",
+		de: "Wenn das Meer ruhig ist, kann man vielleicht einen Schwarm MANTAX sehen, die schnell vorbeischwimmen."
 	},
 
 	thirdParty: {

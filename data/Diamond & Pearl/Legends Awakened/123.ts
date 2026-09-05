@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, put any 1 card from your discard pile into your hand.",
 				fr: "Lancez une pièce. Si c'est face, placez n'importe quelle carte de votre pile de défausse dans votre main.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" wähle 1 Karte aus deinem Ablagestapel und nimm sie auf deine Hand."
+				de: "Wirf 1 Münze. Bei „Kopf“ wähle 1 Karte aus deinem Ablagestapel und nimm sie auf deine Hand."
 			},
 
 		},
@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "It loves eating mushrooms that grow under dead grass. It also finds hot springs while foraging.",
+		de: "Es liebt Pilze, die unter totem Gras wachsen. Auf der Suche nach Nahrung findet es heiße Quellen."
 	},
 
 	thirdParty: {

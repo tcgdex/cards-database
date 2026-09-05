@@ -59,6 +59,7 @@ const card: Card = {
 			name: {
 				en: "Bug Bite",
 				fr: "Piqûre",
+				de: "Käferbiss"
 			},
 
 			damage: 20,
@@ -77,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "Using the feelers on its head and tail, it picks up vibrations in the air to determine its prey's location and state.",
+		de: "Analysiert mit den Fühlern an Kopf und Schweif Luftzüge, um seine Gegner zu orten und ihren Zustand zu erkennen."
 	},
 
 	thirdParty: {

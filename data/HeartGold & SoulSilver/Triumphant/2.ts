@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Swablu",
-		fr: "Tylton"
+		fr: "Tylton",
+		de: "Wablu"
 	},
 
 	stage: "Stage1",
@@ -84,7 +85,8 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It flies gracefully through the sky. Its melodic humming makes you feel like you’re in a dream."
+		en: "It flies gracefully through the sky. Its melodic humming makes you feel like you’re in a dream.",
+		de: "Es schwebt gemächlich durch den Himmel. Sein wunderschönes Summen löst verträumte Dösezustände aus."
 	},
 
 	variants: [		{

@@ -82,7 +82,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Este ataque hace 50 puntos de daño por cada cara.",
 				it: "Lancia due volte una moneta. Questo attacco infligge 50 danni ogni volta che esce testa.",
 				pt: "Jogue 2 moedas. Este ataque causa 50 de danos vezes o número de caras.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "50×",
 
@@ -100,6 +100,7 @@ const card: Card = {
 
 	description: {
 		en: "Its two legs are well developed. Even though it can live on the ground, it prefers living in water.",
+		de: "Seine beiden Beine sind gut entwickelt. Auch wenn es an Land leben kann, bevorzugt es das Leben im Wasser."
 	},
 
 	thirdParty: {

@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "NC Empire",
 
 	description: {
-		en: "With its sturdy jaws and fangs, it can easily chomp wooden boats to splinters. It fights with Basculin over food."
+		en: "With its sturdy jaws and fangs, it can easily chomp wooden boats to splinters. It fights with Basculin over food.",
+		de: "Mit seinem robusten Kiefer und starken Zähnen zerbeißt es mühelos Holzboote. Es streitet mit Barschuft um Futter."
 	},
 
 	attacks: [{

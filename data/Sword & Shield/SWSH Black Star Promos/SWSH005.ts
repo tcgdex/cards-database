@@ -71,18 +71,25 @@ const card: Card = {
 	retreat: 2,
 	dexId: [52],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 427101
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 427101,
+				tcgplayer: 205466
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 453338,
+				tcgplayer: 205467
+			}
+		},
+	],
 }
 
 export default card

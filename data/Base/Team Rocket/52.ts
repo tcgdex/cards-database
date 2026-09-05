@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after Applying Weakness and Resistance still happen.)",
 				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque inflige 10 dégâts à ce Pokémon. N'appliquez pas la Faiblesse et la Résistance. (Tous les autres effets ayant lieu après application de la Faiblesse et de la Résistance subsistent.)",
-				de: "Wähle ein Pokémon deines gegners. Dieser Angriff fügt diesem Pokémon 10 Schadenspunkte zu, aber ein kann uns keiner. Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und resistenz finden immer noch statt.)"
+				de: "Wähle ein Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 10 Schadenspunkte zu. Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
 			}
 
 		},
@@ -74,7 +74,8 @@ const card: Card = {
 
 	description: {
 		en: "It follows Onixes in their tunnels, looking for scraps of food they have left behind.",
-		fr: "Il suit les Onix dans leurs tunnels, à la recherche des restes de nourriture qu'ils ont laissé derrière eux."
+		fr: "Il suit les Onix dans leurs tunnels, à la recherche des restes de nourriture qu'ils ont laissé derrière eux.",
+		de: "Es folgt den Onix-Pokémon in ihre Tunnel, um dort nach übriggebliebenen Essensresten zu suchen."
 	},
 
 

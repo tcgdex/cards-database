@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Lanza 2 monedas. Por cada cara, pon 1 carta de Electropoder de tu pila de descartes en tu baraja y barájalas todas.",
 		it: "Lancia due volte una moneta. Ogni volta che esce testa, rimischia una carta Potenziatore Elettrico dalla tua pila degli scarti e aggiungila al tuo mazzo.",
 		pt: "Jogue 2 moedas. Para cada cara, embaralhe 1 carta Eletropoder da sua pilha de descarte no seu baralho.",
-		de: "Wirf 2 Münzen. Mische pro Kopf 1 Elektrokraft-Karte aus deinem Ablagestapel in dein Deck."
+		de: "Wirf 2 Münzen. Mische pro Kopf 1 Elektrokraft-Karte aus deinem Ablagestapel in dein Deck. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

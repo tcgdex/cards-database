@@ -20,12 +20,17 @@ const card: Card = {
 		},
 	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	regulationMark: "E",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 572166,
+				tcgplayer: 247367
+			}
+		},
+	],
 
 	name: {
 		en: "Zacian V-UNION",
@@ -50,7 +55,7 @@ const card: Card = {
 
 		effect: {
 			en: "Attach up to 2 Metal Energy cards from your discard pile to this Pokémon.",
-			fr: "Attachez jusqu'à 2 cartes Énergie  de votre pile de défausse à ce Pokémon."
+			fr: "Attachez jusqu'à 2 cartes Énergie {M} de votre pile de défausse à ce Pokémon."
 		}
 	}, {
 		cost: ["Metal", "Metal", "Colorless"],
@@ -90,14 +95,8 @@ const card: Card = {
 			fr: "Défaussez 3 Énergies de ce Pokémon."
 		}
 	}],
-
-	regulationMark: "E",
 	suffix: "V",
-	retreat: 0,
-
-	thirdParty: {
-		cardmarket: 572163
-	}
+	retreat: 0
 }
 
 export default card

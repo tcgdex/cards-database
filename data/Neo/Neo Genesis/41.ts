@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. Remove 2 damage counters times the number of heads from Miltank. If it has fewer damage counters than that, remove all of them.",
 				fr: "Lancez 2 pièces. Retirez de Écrémeuh 2 marqueurs de dégâts multipliés par le nombre de faces. S'il a moins de marqueurs de dégâts que cela, retirez-les tous.",
-				de: "Wirf zwei Münzen. Entferne zwei Schadensmarken mal der Anzahl 'Kopf' von Miltank. Falls es weniger Schadensmarken hat, entferne alle Schadensmarken von Miltank."
+				de: "Wirf zwei Münzen. Entferne zwei Schadensmarken mal der Anzahl „Kopf“ von Miltank. Falls es weniger Schadensmarken hat, entferne alle Schadensmarken von Miltank."
 			},
 
 		},
@@ -56,7 +56,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -81,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "Its milk is packed with nutrition, making it the ultimate beverage for the sick or weary.",
-		fr: "Son lait très riche est le meilleur breuvage pour les malades ou les souffreteux."
+		fr: "Son lait très riche est le meilleur breuvage pour les malades ou les souffreteux.",
+		de: "Die Milch ist voller Nährstoffe, was sie zum besten Getränk für Kranke und Schwache macht."
 	},
 
 

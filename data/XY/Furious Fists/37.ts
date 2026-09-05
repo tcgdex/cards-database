@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It wiggles its hips as it walks. It can cause people to dance in unison with it.",
+		de: "Der beschwingte Gang dieses Pokémon bezaubert Zuschauer und lässt sie im Takt dazu tanzen."
 	},
 
 	thirdParty: {

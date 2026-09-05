@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Pierce",
 				fr: "Transpercement",
+				de: "Durchbohren"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Cut",
 				fr: "Coupe",
+				de: "Zerschneider"
 			},
 
 			damage: 20,
@@ -74,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "Blades comprise this Pokémon's entire body. If battling dulls the blades, it sharpens them on stones by the river.",
+		de: "Sein Körper ist mit Klingen übersät, die es an Felsen eines Flussbettes schärft, wenn sie im Kampf schartig werden."
 	},
 
 	thirdParty: {

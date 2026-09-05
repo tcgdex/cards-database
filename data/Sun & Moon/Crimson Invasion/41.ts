@@ -58,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "It bounces constantly, using its tail like a spring. The shock of bouncing keeps its heart beating.",
+		de: "Es hüpft beständig umher, wobei es seinen Schweif als Feder verwendet. Nur so bleibt sein Herz aktiv."
 	},
 
 	thirdParty: {

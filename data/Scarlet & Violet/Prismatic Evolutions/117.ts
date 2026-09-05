@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Los ataques usados por el Pokémon al que esté unida esta carta hacen 50 puntos de daño más al Pokémon ex Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 		pt: "Os ataques usados pelo Pokémon ao qual esta carta está ligada causam 50 pontos de dano a mais ao Pokémon ex Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
 		it: "Gli attacchi usati dal Pokémon a cui è assegnata questa carta infliggono 50 danni in più al Pokémon-ex attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
-		de: "Die eingesetzten Attacken von dem Pokémon, an das diese Karte angelegt ist, fügen dem Aktiven Pokémon-ex deines Gegners 50 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+		de: "Du kannst nicht mehr als 1 ASS-KLASSE-Karte in deinem Deck haben. Die eingesetzten Attacken von dem Pokémon, an das diese Karte angelegt ist, fügen dem Aktiven Pokémon-ex deines Gegners 50 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden). Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt."
 	},
 
 	trainerType: "Tool",

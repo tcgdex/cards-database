@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey.",
+		de: "Sein süßlich riechender Speichel zieht Beute an, die es frisst. Es braucht einen Tag, sie zu fressen."
 	},
 
 	name: {

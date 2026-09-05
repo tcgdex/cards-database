@@ -38,10 +38,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Echoed Voice"
+				en: "Echoed Voice",
+				de: "Widerhall"
 			},
 			effect: {
-				en: "During your next turn, this Pokémon's Echoed Voice attack does 60 more damage (before applying Weakness and Resistance)."
+				en: "During your next turn, this Pokémon's Echoed Voice attack does 60 more damage (before applying Weakness and Resistance).",
+				de: "Während deines nächsten Zuges fügt die Attacke Widerhall dieses Pokémon 60 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 			damage: 60
 		},
@@ -52,10 +54,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Beak Blast"
+				en: "Beak Blast",
+				de: "Schnabelkanone"
 			},
 			effect: {
-				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Burned."
+				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Burned.",
+				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt verbrannt."
 			},
 			damage: 100
 		},

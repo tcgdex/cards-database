@@ -45,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Splatter",
 				fr: "Crépitement",
-				de: 'Verspritzer'
+				de: "Pirsifbeere"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
 				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
-				de: 'Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte zu. Der Schaden dieses angriffs wird durch Schwäche und Resistenz des gewählten Pokémon nicht verändert. '
+				de: "Wenn Plinfa vergiftet ist, entferne am Ende jedes Zuges den Speziellen Zustand „vergiftet“ von Plinfa."
 			},
 
 		}

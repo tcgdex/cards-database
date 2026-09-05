@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Yanmega E4",
-		fr: "Yanmega  Niv. 49",
+		fr: "Yanmega 4 Niv. 49",
 		de: "Yanmega 4"
 	},
 	illustrator: "Kouki Saitou",

@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pupitar",
-		fr: "Ymphect"
+		fr: "Ymphect",
+		de: "Pupitar"
 	},
 
 	stage: "Stage2",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -87,7 +88,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Extremely strong, it can change the landscape. It has an insolent nature that makes it not care about others."
+		en: "Extremely strong, it can change the landscape. It has an insolent nature that makes it not care about others.",
+		de: "Es ist so stark, dass es ganze Landstriche verwüsten kann. Es ist kaltblütig und rücksichtslos."
 	},
 
 	variants: [

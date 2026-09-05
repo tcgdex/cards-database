@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Luring Flame",
 				fr: "Flamme Attrayante",
+				de: "Verlockende Flamme"
 			},
 			effect: {
 				en: "Switch 1 of your opponent's Benched Pokémon with the Defending Pokémon. The new Defending Pokémon is now Burned.",
 				fr: "Échangez 1 des Pokémon de Banc de votre adversaire avec le Pokémon Défenseur. Le nouveau Pokémon Défenseur est maintenant Brûlé.",
+				de: "Tausche 1 Pokémon auf der Bank deines Gegners gegen das Verteidigende Pokémon aus. Das neue Verteidigende Pokémon ist jetzt verbrannt."
 			},
 
 		},
@@ -52,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Fiery Licks",
 				fr: "Léchouilles Incendiaires",
+				de: "Flammenzungen"
 			},
 			effect: {
 				en: "Discard the top 4 cards of your deck. This attack does 50 damage times the number of Fire Energy cards you discarded.",
 				fr: "Défaussez les 4 cartes du dessus de votre deck. Cette attaque inflige 50 dégâts multipliés par le nombre de cartes Énergie Fire que vous avez défaussées.",
+				de: "Lege die obersten 4 Karten deines Decks auf deinen Ablagestapel. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl abgelegter {R}-Energiekarten zu."
 			},
 			damage: 50,
 
@@ -73,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "It draws in air through its tail, transforms it into fire, and uses it like a tongue. It melts Durant and eats them.",
+		de: "Über den Schweif aufgesaugte Luft wird in eine Feuerzunge verwandelt, um damit Fermicula zu schmelzen und zu fressen."
 	},
 
 	thirdParty: {

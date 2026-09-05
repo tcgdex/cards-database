@@ -61,7 +61,7 @@ const card: Card = {
 				es: "Descarta 1 Energía Fighting de este Pokémon.",
 				it: "Scarta un'Energia Fighting da questo Pokémon.",
 				pt: "Descarte 1 Energia Fighting deste Pokémon.",
-				de: "Lege 1 Fighting-Energie von diesem Pokémon auf deinen Ablagestapel."
+				de: "Lege 1 {F}-Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 130,
 
@@ -88,7 +88,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Some say it can change to an even more powerful form when battling those who threaten the ecosystem."
+		en: "Some say it can change to an even more powerful form when battling those who threaten the ecosystem.",
+		de: "Im Kampf gegen all jene, die das Ökosystem in Gefahr bringen, nimmt es angeblich eine noch mächtigere Form an."
 	},
 
 	thirdParty: {

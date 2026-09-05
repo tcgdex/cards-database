@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Monferno",
 		fr: "Chimpenfeu",
+		de: "Panpyro"
 	},
 
 	stage: "Stage2",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu"
+				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30x",
 
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Discard all Fire Energy attached to Infernape.",
 				fr: "Défaussez toutes les Énergies Fire attachées à Simiabraz.",
-				de: "Entferne alle an Panferno angelegten  Energien und lege sie auf deinen Ablagestapel"
+				de: "Entferne alle an Panferno angelegten {R}-Energien und lege sie auf deinen Ablagestapel."
 			},
 			damage: 90,
 
@@ -77,6 +78,7 @@ const card: Card = {
 
 	description: {
 		en: "It uses a special kind of martial arts involving all its limbs. Its fire never goes out.",
+		de: "Es kämpft auf besondere Art, indem es alle Gliedmaßen einsetzt. Sein Feuer erlöscht nie."
 	},
 
 	thirdParty: {

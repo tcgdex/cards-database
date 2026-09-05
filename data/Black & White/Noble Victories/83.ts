@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Devour",
 				fr: "Voracité",
+				de: "Verschlinger"
 			},
 			effect: {
 				en: "For each of your Durant in play, discard the top card of your opponent's deck.",
 				fr: "Pour chacun de vos Fermite en jeu, défaussez la carte du dessus du deck de votre adversaire.",
+				de: "Lege für jedes deiner Fermicula im Spiel die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Vice Grip",
 				fr: "Force Poigne",
+				de: "Klammer"
 			},
 
 			damage: 30,
@@ -76,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "They attack in groups, covering themselves in steel armor to protect themselves against Heatmor.",
+		de: "Ein eiserner Panzer umgibt seinen Leib. Angriffe von Furnifraß, seinem Feind, schlägt es in der Gruppe zurück."
 	},
 
 	thirdParty: {

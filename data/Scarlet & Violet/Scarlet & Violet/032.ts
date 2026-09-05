@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Growlithe",
-		fr: "Caninos"
+		fr: "Caninos",
+		de: "Fukano"
 	},
 
 	stage: "Stage1",
@@ -90,9 +91,6 @@ const card: Card = {
 	suffix: "ex",
 	illustrator: "5ban Graphics",
 
-	description: {
-		en: "It's very friendly and faithful to people. It will try to repel enemies by barking and biting.",
-	},
 
 	thirdParty: {
         cardmarket: 702328,

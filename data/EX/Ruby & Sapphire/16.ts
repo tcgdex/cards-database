@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shroomish",
-		fr: "Balignon"
+		fr: "Balignon",
+		de: "Knilz"
 	},
 
 	stage: "Stage1",
@@ -37,7 +38,7 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d'boule",
-				de: "Headbutt"
+				de: "Kopfnuss"
 			},
 
 			damage: 20,
@@ -52,12 +53,12 @@ const card: Card = {
 			name: {
 				en: "Battle Blast",
 				fr: "Combat explosif",
-				de: "Battle Blast"
+				de: "Kampflust"
 			},
 			effect: {
 				en: "Does 40 damage plus 10 more damage for each Fighting Energy attached to Breloom.",
-				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Chapignon.",
-				de: "Does 40 damage plus 10 more damage for each  Energy card attached to Breloom."
+				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {F} attachée à Chapignon.",
+				de: "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Kapilz angelegte {F}-Energie zu."
 			},
 			damage: "40+",
 

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Elige hasta 2 cartas de Herramienta Pokémon unidas a Pokémon en juego (tuyos o de tu rival) y descártalas.",
 		it: "Scegli fino a due carte Oggetto Pokémon assegnate ai Pokémon in gioco, tuoi o del tuo avversario, e poi scartale.",
 		pt: "Escolha até 2 cards de Ferramenta Pokémon, que estejam ligados aos Pokémon em jogo (seus ou de seu oponente) e descarte-os.",
-		de: "Wähle bis zu 2 Pokémon-Ausrüstungen, die an Pokémon im Spiel angelegt sind (an deine oder die deines Gegners),und lege sie auf den entsprechenden Ablagestapel."
+		de: "Wähle bis zu 2 Pokémon-Ausrüstungen, die an Pokémon im Spiel angelegt sind (an deine oder die deines Gegners),und lege sie auf den entsprechenden Ablagestapel. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

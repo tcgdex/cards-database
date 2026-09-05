@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Lugia ex",
 		fr: "Lugia ex",
-		de: "Lugia ex"
+		de: "Lugia-ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -55,7 +55,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Fire Energy, Water Energy, and Lightning Energy attached to Lugia ex.",
-				fr: "Défaussez une Énergie , une Énergie  et une Énergie  attachée à Lugia ex.",
+				fr: "Défaussez une Énergie {R}, une Énergie {W} et une Énergie {L} attachée à Lugia ex.",
 				de: "Discard a  Energy,  Energy, and  Energy attached to Lugia ex."
 			},
 			damage: 200,

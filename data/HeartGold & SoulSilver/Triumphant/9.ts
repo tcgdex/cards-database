@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 				fr: "Si le Pokémon Défenseur essaie d’attaquer pendant le prochain tour de votre adversaire, ce dernier lance une pièce. Si c’est pile, cette attaque ne fait rien.",
-				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -69,7 +69,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When it rotates itself, it gives off light similar to the sun, thus blinding its foes."
+		en: "When it rotates itself, it gives off light similar to the sun, thus blinding its foes.",
+		de: "Es rotiert um die eigene Achse und strahlt dabei sonnengleiches Licht aus, mit dem es den Gegner blendet."
 	},
 
 	variants: [		{

@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It is merciless by nature. It is said that it never forgives the mistakes of its Murkrow followers.",
+		de: "Kramshef kennt kein Erbarmen. Man sagt, einem untergebenen Kramurx verzeihe es niemals einen Fehler."
 	},
 
 	illustrator: "Anesaki Dynamic",

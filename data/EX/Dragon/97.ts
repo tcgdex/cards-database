@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Rayquaza ex",
 		fr: "Rayquaza ex",
-		de: "Rayquaza ex"
+		de: "Rayquaza-ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -32,12 +32,12 @@ const card: Card = {
 			name: {
 				en: "Spiral Growth",
 				fr: "Croissance en spirale",
-				de: "Spiral Growth"
+				de: "Spiralwachstum"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. For each heads, search your discard pile for a basic Energy card and attach it to Rayquaza ex.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, cherchez dans votre deck une carte Énergie de base et attachez-la à Rayquaza ex.",
-				de: "Flip a coin until you get tails. For each heads, search your descard pile for a Energy card and attach it to Rayquaza ex."
+				de: "Wirf 1 Münze, bis du „Zahl“ wirfst. Jedesmal, wenn die Münze „Kopf“ zeigt, durchsuche deinen Ablagestapel nach 1 Basis-Energiekarte und lege sie an Rayquaza ex an."
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 			name: {
 				en: "Dragon Burst",
 				fr: "Jet de dragon",
-				de: "Dragon Burst"
+				de: "Drachensalve"
 			},
 			effect: {
 				en: "Discard either all Fire Energy or all Lightning Energy attached to Rayquaza ex. This attack does 40 damage times the amount of Fire or Lightning Energy discarded.",
-				fr: "Défaussez soit toutes les Énergies  soit toutes les Énergies  attachées à Rayquaza ex. Cette attaque inflige 40 dégâts multipliés par le nombre d'Énergie  ou  défaussées.",
-				de: "Discard either all  Energy or all  Energy attached to Rayquaza ex. This attack does 40 damage times the amount of  or  Energy discarded."
+				fr: "Défaussez soit toutes les Énergies {R} soit toutes les Énergies {L} attachées à Rayquaza ex. Cette attaque inflige 40 dégâts multipliés par le nombre d'Énergie {R} ou {L} défaussées.",
+				de: "Entferne entweder jede {R}-Energie oder jede {L}-Energie, die an Rayquaza ex angelegt ist, und lege sie auf deinen Ablagestapel. Dieser Angriff fügt für jede auf diese Weise abgelegte Energie 40 Schadenspunkte zu."
 			},
 			damage: "40×",
 

@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "It's possible that Iron Jugulis, an object described in an old book, may actually be this Pokémon.",
+		de: "Womöglich handelt es sich bei diesem Pokémon um ein Objekt namens Eisenhals, das in einer alten Schrift beschrieben wurde."
 	},
 
 	variants: [

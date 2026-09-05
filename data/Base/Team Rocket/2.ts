@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ekans",
-		fr: "Abo"
+		fr: "Abo",
+		de: "Rettan"
 	},
 
 	stage: "Stage1",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.) If that Pokémon has a Pokémon Power, that power stops working until the end of your opponent's next turn.",
 				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque inflige 10 dégâts à ce Pokémon. N'appliquez pas la Faiblesse et la Résistance pour cette attaque. (Tous les autres effets ayant lieu après application de la Faiblesse et de la Résistance subsistent.) Si ce Pokémon possède un Pouvoir Pokémon, ce pouvoir cesse de fonctionner jusqu'à la fin du prochain tour de votre adversaire.",
-				de: "Wähle ein Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 10 Schadenspunkte zu. Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.) Falls dieses Pokémon über Pokémon-Power verfügt, funkioniert diese Fähigkeit bis zum Ende des nächsten gegnerischen Zuges nicht mehr."
+				de: "Wähle ein Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 10 Schadenspunkte zu. Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.) Falls dieses Pokémon über Pokémon-Power verfügt, funktioniert diese Fähigkeit bis zum Ende des nächsten gegnerischen Zuges nicht mehr."
 			}
 
 		},
@@ -80,7 +81,8 @@ const card: Card = {
 
 	description: {
 		en: "Freezes its prey with its stare. If you should encounter one, remember not to look into its eyes.",
-		fr: "Il paralyse ses proies d'un regard. Si vous en rencontrez un, gardez-vous de le regarder dans les yeux ."
+		fr: "Il paralyse ses proies d'un regard. Si vous en rencontrez un, gardez-vous de le regarder dans les yeux .",
+		de: "Lässt seiner Beute mit seinem Starren das Blut in den Adern gefrieren. Falls du einem begegnen solltest, erinnere dich daran, ihm nicht in die Augen zu blicken."
 	},
 
 

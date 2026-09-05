@@ -22,8 +22,9 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Jiggylypuff",
-		fr: "Rondoudou"
+		en: "Jigglypuff",
+		fr: "Rondoudou",
+		de: "Pummeluff"
 	},
 
 	stage: "Stage1",
@@ -42,7 +43,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "40×",
 
@@ -78,7 +79,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a Body Slam."
+		en: "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a Body Slam.",
+		de: "Es hat ein weiches Fell. Verärgere es nicht, denn andernfalls setzt es ständig Bodyslam ein."
 	},
 
 	variants: [

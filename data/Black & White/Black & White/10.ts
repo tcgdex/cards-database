@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Petilil",
 		fr: "Chlorobule",
+		de: "Lilminip"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Petal Dance",
 				fr: "Danse-Fleur",
+				de: "Blättertanz"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 30 damage times the number of heads. This Pokémon is now Confused.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face. Ce Pokémon est maintenant Confus.",
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu. Dieses Pokémon ist jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Leaf Storm",
 				fr: "Tempêteverte",
+				de: "Blättersturm"
 			},
 			effect: {
 				en: "Heal 20 damage from each of your Grass Pokémon.",
 				fr: "Soignez 20 dégâts à chacun de vos Pokémon Grass.",
+				de: "Heile 20 Schadenspunkte bei jedem deiner {G}-Pokémon."
 			},
 			damage: 30,
 
@@ -85,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "The fragrance of the garland on its head has a relaxing effect. It withers if a Trainer does not take good care of it.",
+		de: "Der Duft des Blumenschmucks auf seinem Kopf wirkt beruhigend. Damit der Schmuck nicht verwelkt, muss man es gut pflegen."
 	},
 
 	thirdParty: {

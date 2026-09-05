@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Busca en tu baraja hasta 3 cartas de Energía Water, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo fino a tre carte Energia Water, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por até 3 cartas de Energia Water no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach bis zu 3 Water-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach bis zu 3 {W}-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -88,7 +88,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "If it builds up enough speed swimming, it can jump out above the waves and glide for over 300 feet."
+		en: "If it builds up enough speed swimming, it can jump out above the waves and glide for over 300 feet.",
+		de: "Schwimmt es schnell genug, kann es über die Wellen springen und bis zu 100 m durch die Lüfte gleiten."
 	},
 
 	thirdParty: {

@@ -22,7 +22,9 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Antique Armor Fossil"
+		en: "Antique Armor Fossil",
+		fr: "Fossile Armure Ancien",
+		de: "Antikes Panzerfossil"
 	},
 
 	stage: "Stage1",

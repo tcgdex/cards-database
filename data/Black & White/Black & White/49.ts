@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Munna",
 		fr: "Munna",
+		de: "Somniam"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Hypnotic Ray",
 				fr: "Onde Hypnotique",
+				de: "Hypnotischer Strahl"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Dream Eater",
 				fr: "Dévorêve",
+				de: "Traumfresser"
 			},
 			effect: {
 				en: "If the Defending Pokémon is not Asleep, this attack does nothing.",
 				fr: "Si le Pokémon Défenseur n’est pas Endormi, cette attaque ne fait rien.",
+				de: "Wenn das Verteidigende Pokémon nicht schläft, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 90,
 
@@ -78,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "The mist emanating from their foreheads is packed with the dreams of people and Pokémon.",
+		de: "Der Dunst, der aus seiner Stirn tritt, enthält die Träume unzähliger Menschen und Pokémon."
 	},
 
 	thirdParty: {

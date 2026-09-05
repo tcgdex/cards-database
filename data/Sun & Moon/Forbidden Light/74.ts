@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Mientras este Pokémon esté en tu Banca, los ataques de tus Pokémon Fighting hacen 20 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 				it: "Fintanto che questo Pokémon è nella tua panchina, gli attacchi dei tuoi Pokémon Fighting infliggono 20 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
 				pt: "Enquanto este Pokémon estiver no seu Banco, os ataques dos seus Pokémon Fighting causam 20 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
-				de: "Solang sich dieses Pokémon auf deiner Bank befindet, fügen die Attacken deiner Fighting-Pokémon dem Aktiven Pokémon deines Gegners 20 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+				de: "Solang sich dieses Pokémon auf deiner Bank befindet, fügen die Attacken deiner {F}-Pokémon dem Aktiven Pokémon deines Gegners 20 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 		},
 	],
@@ -76,21 +76,6 @@ const card: Card = {
 			damage: 90,
 
 		},
-		{
-			cost: [
-				"Fighting",
-				"Fighting",
-				"Fighting",
-			],
-			name: {
-				fr: "Pluie de Diamants",
-			},
-			effect: {
-				fr: "Soignez 30 dégâts à chacun de vos Pokémon de Banc.",
-			},
-			damage: 90,
-
-		},
 	],
 
 	weaknesses: [
@@ -104,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It can instantly create many diamonds by compressing the carbon in the air between its hands.",
+		de: "Es kann im Nu viele Diamanten erzeugen, indem es luftgebundene Kohlenstoffpartikel mit seinen Händen komprimiert."
 	},
 
 	thirdParty: {

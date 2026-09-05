@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Il détecte l'odeur de Délestin à plus de vingt mètres,\nce qui lui donne le temps de s'enfouir dans le sable.",
 		es: "Puede percibir el olor de los Veluza a 20 m de distancia,\nlo que le permite ocultarse bajo la arena a tiempo.",
 		it: "Fiuta l'odore di un Veluza da 20 metri\ndi distanza e si nasconde nella sabbia.",
-		de: "Es kann den Geruch eines Agiluza auf 20 m Entfernung\nwahrnehmen und versteckt sich daraufhin flugs im Sand.",
+		de: "Es kann den Geruch eines Agiluza auf 20 m Entfernung wahrnehmen und versteckt sich daraufhin flugs im Sand.",
 		'pt-br': "Este Pokémon é capaz de sentir o cheiro de Veluza\na mais de 20 metros de distância e se esconderá na areia.",
 		ko: "20m 떨어진 가비루사에게서 나는\n냄새도 맡을 수 있어서\n모래 속에 몸을 숨긴다."
 	},
@@ -51,7 +51,7 @@ const card: Card = {
 			fr: "Un des Pokémon de votre adversaire est choisi au hasard. Il subit 30 dégâts.",
 			es: "Se elige a un Pokémon aleatorio de tu rival. Hazle 30 puntos de daño.",
 			it: "Viene scelto un Pokémon avversario a caso. Quel Pokémon subisce 30 danni.",
-			de: "1 Pokémon des Gegners wird zufällig ausgewählt.\nFüge diesem Pokémon 30 Schadenspunkte zu.",
+			de: "1 Pokémon des Gegners wird zufällig ausgewählt. Füge diesem Pokémon 30 Schadenspunkte zu.",
 			'pt-br': "Um dos Pokémon do seu oponente é escolhido aleatoriamente. Cause 30 pontos de dano a ele.",
 			ko: "상대의 포켓몬이 랜덤으로 1번 선택되어 선택된 포켓몬에게 30데미지를 준다."
 		}

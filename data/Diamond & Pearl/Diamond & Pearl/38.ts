@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Onix",
 		fr: "Onix",
+		de: "Onix"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30x",
 
@@ -88,7 +89,8 @@ const card: Card = {
 
 	description: {
 		en: "Tempered underground under high pressure and heat, its body is harder than any metal.",
-		fr: "Grâce à la température élevée et la haute pression souterraines, son corps est plus dur que le métal."
+		fr: "Grâce à la température élevée et la haute pression souterraines, son corps est plus dur que le métal.",
+		de: "Hoher Druck und hohe Temperaturen haben seinen Körper härter als Stahl werden lassen."
 	},
 
 	thirdParty: {

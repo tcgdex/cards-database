@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Charmeleon"
+		en: "Charmeleon",
+		de: "Glutexo"
 	},
 
 	stage: "Stage2",
@@ -35,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Each of Charizard's attacks does 10 more damage for each Fire Pokémon on your Bench to your opponent's Active Pokémon (before applying Weakness and Resistance).",
-				de: "Jeder Angriff von Glurak fügt den Aktiven Pokémon deines Gegners für jedes -Pokémon auf deiner Bank 10 zusätzliche Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+				de: "Jeder Angriff von Glurak fügt den Aktiven Pokémon deines Gegners für jedes {R}-Pokémon auf deiner Bank 10 zusätzliche Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			}
 		},
 	],
@@ -65,7 +66,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Fire Energy attached to Charizard.",
-				de: "Lege 1 -Energie, die an Glurak angelegt ist, auf deinen Ablagestapel."
+				de: "Lege 1 {R}-Energie, die an Glurak angelegt ist, auf deinen Ablagestapel."
 			},
 			damage: 80,
 

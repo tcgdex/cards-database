@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "sui",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [69],
 	hp: 60,
 	types: ["Grass"],
 	stage: "Basic",
@@ -48,6 +49,7 @@ const card: Card = {
 
 	description: {
 		en: "Even though its body is extremely skinny, it is blindingly fast when catching its prey.",
+		de: "Obwohl sein Körper sehr schmal ist, schnappt es sich seine Beute mit Bewegungen, die so schnell sind, dass man sie mit bloßem Auge kaum sieht."
 	},
 
 	variants: [

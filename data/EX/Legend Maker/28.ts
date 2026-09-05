@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as Wobbuffet is an Evolved Pokémon, your opponent pays Colorless more to retreat his or her Active Pokémon.",
-				fr: "Tant que Qulbutoké est un Pokémon Évolué, votre adversaire paye un  supplémentaire pour faire battre en retraite son Pokémon Actif.",
+				fr: "Tant que Qulbutoké est un Pokémon Évolué, votre adversaire paye un {C} supplémentaire pour faire battre en retraite son Pokémon Actif.",
 				de: "Solange Woingenau ein entwickeltes Pokémon ist, muss dein Gegner zusätzlich 1  bezahlen, wenn er sein Aktives Pokémon zurückziehen will."
 			},
 		},
@@ -49,7 +49,7 @@ const card: Card = {
 			name: {
 				en: "Grind",
 				fr: "Écrase",
-				de: "Zermalmen"
+				de: "Zermahlen"
 			},
 			effect: {
 				en: "Does 10 damage times the amount of Energy attached to Wobbuffet.",

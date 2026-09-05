@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Lixy",
-		en: "Shinx"
+		en: "Shinx",
+		de: "Sheinux"
 	},
 
 	abilities: [{
@@ -73,7 +74,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes."
+		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
+		de: "Durch die Spitzen seiner scharfen Krallen strömt Elektrizität. Selbst kleine Kratzer verursachen Ohnmacht."
 	},
 
 	variants: [

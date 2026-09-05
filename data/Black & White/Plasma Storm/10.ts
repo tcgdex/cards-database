@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Swadloon",
 		fr: "Couverdure",
+		de: "Folikon"
 	},
 
 	stage: "Stage2",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Cleave",
 				fr: "Frappe Adhésive",
+				de: "Spalter"
 			},
 			effect: {
 				en: "Flip 2 coins. If both of them are heads, discard all Energy attached to the Defending Pokémon.",
 				fr: "Lancez 2 pièces. Si vous obtenez 2 côtés face, défaussez toutes les Énergies attachées au Pokémon Défenseur.",
+				de: "Wirf 2 Münzen. Zeigen beide „Kopf“, lege alle an das Verteidigende Pokémon angelegten Energien auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 
@@ -59,10 +62,12 @@ const card: Card = {
 			name: {
 				en: "Leaf Blade",
 				fr: "Lame-Feuille",
+				de: "Laubklinge"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 70,
 
@@ -80,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "Upon finding a small Pokémon, it weaves clothing for it from leaves by using the sticky silk secreted from its mouth.",
+		de: "Begegnet es einem jungen Pokémon, näht es ihm mit den klebrigen Fäden aus seinem Mund ein Kleid aus Blättern."
 	},
 
 	thirdParty: {

@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Search your deck for a Grass Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck 1 carte Énergie Grass et attachez-la à l’un de vos Pokémon. Mélangez ensuite votre deck.",
-				de: "Durchsuche dein Deck nach 1 -Energiekarte und lege sie an 1 deiner Pokémon an. Mische dein Deck anschließend."
+				de: "Durchsuche dein Deck nach 1 {G}-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "It tangles any moving thing with its vines. Their subtle shaking is ticklish if you get ensnared.",
+		de: "Es berührt alles, was sich bewegt, mit seinen Ranken. Diese Berührungen sind sehr kitzelig."
 	},
 
 	variants: [

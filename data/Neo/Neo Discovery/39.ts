@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Before doing damage, discard all Trainer cards attached to the Defending Pokémon.",
 				fr: "Avant d'infliger les dégâts, défaussez toutes les cartes Dresseur attachées au Pokémon Défenseur (avant qu'elles agissent sur les dégâts).",
-				de: "Lege alle Trainerkarten, die an das verteidigende Pokémon angelegt sind, auf den Ablagestapel deines gegners, bevor der Schaden zugefügt wird (bevor sie den Schaden beeinflussen können)."
+				de: "Lege alle Trainerkarten, die an das verteidigende Pokémon angelegt sind, auf den Ablagestapel deines Gegners, bevor der Schaden zugefügt wird (bevor sie den Schaden beeinflussen können)."
 			},
 			damage: 20,
 
@@ -70,7 +70,8 @@ const card: Card = {
 
 	description: {
 		en: "It uses different kinds of cries for communicating with others of its kind and for pursuing its prey.",
-		fr: "Il utilise différents types d'aboiements pour communiquer avec les autres de son espèce et pour chasser sa proie."
+		fr: "Il utilise différents types d'aboiements pour communiquer avec les autres de son espèce et pour chasser sa proie.",
+		de: "Es verwendet unterschiedliches Bellen, um mit anderen zu kommunizieren und um seine Beute zu verfolgen."
 	},
 
 

@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Chirp",
 				fr: "Gazouillis",
+				de: "Zwitscherer"
 			},
 			effect: {
 				en: "Search your deck for 2 Pokémon with Fighting Resistance, reveal them, and put them into your hand. Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck 2 Pokémon avec une Résistance à Fighting, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach 2 Pokémon mit {F}-Resistenz, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -51,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Sharp Beak",
 				fr: "Bec Aiguisé",
+				de: "Scharfschnabel"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -79,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "They crush berries with their talons. They bravely stand up to any opponent, no matter how strong it is.",
+		de: "Kann mit seinen Füßen Nüsse zermalmen. Es stellt sich jedem noch so starken Gegner tapfer zum Kampf."
 	},
 
 	thirdParty: {

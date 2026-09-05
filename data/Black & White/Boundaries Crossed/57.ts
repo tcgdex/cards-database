@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Blitzle",
 		fr: "Zébibron",
+		de: "Elezeba"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Flame Charge",
 				fr: "Nitrocharge",
+				de: "Nitroladung"
 			},
 			effect: {
 				en: "Search your deck for a Fire Energy card and attach it to this Pokémon. Shuffle your deck afterward.",
 				fr: "Cherchez une carte Énergie Fire dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach 1 {R}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Thunder",
 				fr: "Fatal-Foudre",
+				de: "Donner"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this Pokémon does 30 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige 30 dégâts.",
+				de: "Wirf 1 Münze. Bei „Zahl“ fügt sich dieses Pokémon selbst 30 Schadenspunkte zu."
 			},
 			damage: 90,
 
@@ -78,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "When this ill-tempered Pokémon runs wild, it shoots lightning from its mane in all directions.",
+		de: "Ein stürmischer Geselle. Wenn es wütend ist, feuert es über seine Mähne in alle Richtungen Stromsalven ab."
 	},
 
 	thirdParty: {

@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet.",
+		de: "Ein schwaches und jämmerliches Pokémon. Manchmal gelingen ihm hohe Sprünge, aber über 2 m kommt es selten hinaus."
 	},
 
 	thirdParty: {

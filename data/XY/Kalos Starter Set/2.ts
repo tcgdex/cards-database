@@ -70,7 +70,7 @@ const card: Card = {
 				es: "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
 				it: "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
 				pt: "Jogue 3 moedas. Este ataque causa 30 de danos vezes o número de caras.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10×",
 
@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It shares the leaf on its head with weary-looking Pokémon. These leaves are known to relieve stress.",
+		de: "Schwächelnden Pokémon gibt es ein paar der Kräuter auf seinem Kopf ab und hilft ihnen so wieder auf die Beine."
 	},
 
 	thirdParty: {

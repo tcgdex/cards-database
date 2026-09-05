@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Flygon ex",
 		fr: "Libegon ex",
-		de: "Libelldra ex"
+		de: "Libelldra-ex"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Vibrava",
-		fr: "Vibraninf"
+		fr: "Vibraninf",
+		de: "Vibrava"
 	},
 
 	suffix: "ex",
@@ -36,7 +37,7 @@ const card: Card = {
 			name: {
 				en: "Psychic Protector",
 				fr: "Protecteur psy",
-				de: "Psychoschuss"
+				de: "Psychoschutz"
 			},
 			effect: {
 				en: "If Flygon ex is damaged by an opponent's attack, you may discard up to 4 cards from your hand. If you do, any damage done to Flygon ex is reduced by 10 for each card you discarded.",
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, Flygon ex can't use Slashing Strike during your next turn.",
 				fr: "Lancez une pièce. Si c'est pile, Libegon ex ne peut pas utiliser Coup déchirant lors de votre prochain tour.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" kann Libelldra ex diesen Angriff in deinem nächsten Zug nicht benutzen."
+				de: "Wirf 1 Münze. Bei „Zahl“ kann Libelldra ex diesen Angriff in deinem nächsten Zug nicht benutzen."
 			},
 			damage: 70,
 

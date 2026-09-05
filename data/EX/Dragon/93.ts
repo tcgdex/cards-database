@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Latias ex",
 		fr: "Latias ex",
-		de: "Latias ex"
+		de: "Latias-ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -37,7 +37,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt."
+				de: "Wirf 1 Münze. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt."
 			},
 			damage: 10,
 
@@ -55,8 +55,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Fire Energy and a Water Energy attached to Latias ex.",
-				fr: "Défaussez une Énergie  et une Énergie  attachée à Latias ex.",
-				de: "Entferne 1 -Energie und 1 -Energie, die an Latias ex angelegt sind und lege sie auf deinen Ablagestapel."
+				fr: "Défaussez une Énergie {R} et une Énergie {W} attachée à Latias ex.",
+				de: "Entferne 1 {R}-Energie und 1 {W}-Energie, die an Latias ex angelegt sind und lege sie auf deinen Ablagestapel."
 			},
 			damage: 100,
 

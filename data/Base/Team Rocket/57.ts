@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Poison Gas",
 				fr: "Gaz toxik",
-				de: "Poison Gas"
+				de: "Giftwolke"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				de: "Das verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -50,12 +50,12 @@ const card: Card = {
 			name: {
 				en: "Sticky Hands",
 				fr: "Mains collantes",
-				de: "Sticky hands"
+				de: "Klebrige Hände"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage and the Defending Pokémon is now Paralyzed; if tails, this attack does 10 damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Paralysé ; si c'est pile, cette attaque inflige 10 dégâts.",
-				de: "Flip a coin. if heads, this attack does 10 damage plus 20 more damage and the defending Pokémon is now Paralyzed; if tails, this attack does 10 damage."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu und das verteidigende Pokémon ist jetzt gelähmt; bei „Zahl“ fügt dieser Angriff 10 Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -73,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "It has recently been found that Grimers are formed in waste-processing plants, and can move into towns via sewers.",
-		fr: "On a récemment découvert que les Tadmorv prennent forme dans les usines de traitement des déchets, et peuvent se déplacer vers les villes à travers les égouts.."
+		fr: "On a récemment découvert que les Tadmorv prennent forme dans les usines de traitement des déchets, et peuvent se déplacer vers les villes à travers les égouts..",
+		de: "Vor kurzem wurde festgestellt, dass Sleimas in Kläranlagen entstehen und über die Abwasserkanäle in die Stadt gelangen können."
 	},
 
 

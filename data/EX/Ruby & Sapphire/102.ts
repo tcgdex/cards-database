@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Scyther ex",
 		fr: "Insécateur ex",
-		de: "Sichlor ex"
+		de: "Sichlor-ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -32,12 +32,12 @@ const card: Card = {
 			name: {
 				en: "Agility",
 				fr: "Hâte",
-				de: "Agility"
+				de: "Agilität"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Scyther ex during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaque, y compris les dégâts, infligés à Insécateur Ex.",
-				de: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Scyther ex during your opponent's next turn"
+				de: "Wirf eine Münze. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte von Angriffen (einschließlich Schaden), die Sichlor zugefügt werden."
 			},
 			damage: 10,
 
@@ -51,7 +51,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
-				de: "Slash"
+				de: "Schlitzer"
 			},
 
 			damage: 50,

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Zubat",
 		fr: "Nosferapti",
+		de: "Zubat"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Spiral Drain",
 				fr: "Spirale Épuisante",
+				de: "Spiralsauger"
 			},
 			effect: {
 				en: "Heal 20 damage from this Pokémon.",
 				fr: "Soignez 20 dégâts à ce Pokémon.",
+				de: "Heile 20 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 20,
 
@@ -70,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "Flitting around in the dead of night, it sinks its fangs into its prey and drains a nearly fatal amount of blood.",
+		de: "Bei Nacht sucht es unermüdlich nach Beute, der es mit seinen scharfen Zähnen große Blutmengen absaugt."
 	},
 
 	thirdParty: {

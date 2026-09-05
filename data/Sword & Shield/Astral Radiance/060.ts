@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "Tends to prefer people with a chipper disposition to those who are gloomy, but it has shown no discrimination with regard to age or gender. Needs more research.",
+		de: "Unabhängig von Geschlecht und Alter scheint es heitere Gemüter jenen vorzuziehen, die zu Schwermut neigen. Dies muss jedoch noch genauer untersucht werden."
 	},
 
 	variants: [

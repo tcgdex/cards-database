@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Grotle",
 		fr: "Boskara",
+		de: "Chelcarain"
 	},
 
 	stage: "Stage2",
@@ -98,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "Small Pokémon occasionally gather on its unmoving back to begin building their nests.",
+		de: "Kleine Pokémon fangen manchmal an, auf dem bewegungslosen Rücken Nester zu bauen."
 	},
 
 	thirdParty: {

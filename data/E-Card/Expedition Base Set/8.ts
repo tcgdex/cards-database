@@ -23,20 +23,10 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shellder",
-		fr: "Kokiyas"
+		fr: "Kokiyas",
+		de: "Muschas"
 	},
 
-	abilities: [
-		{
-			type: "Poke-POWER",
-			name: {
-				en: "Super Dynamo",
-			},
-			effect: {
-				en: "Once during your turn (before your attack), if Electrode is your Active Pokémon, you may flip a coin. If heads, choose a Lightning Energy card from your discard pile and attach it to 1 of your Pokémon. This power can't be used if Electrode is affected by a Special Condition.",
-			},
-		},
-	],
 	stage: "Stage1",
 
 	attacks: [
@@ -53,7 +43,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -72,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 4 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
+				de: "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20×",
 

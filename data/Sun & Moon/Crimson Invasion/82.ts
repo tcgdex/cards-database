@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Starly",
 		fr: "Étourmi",
+		de: "Staralili"
 	},
 
 	stage: "Stage1",
@@ -88,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "They maintain huge flocks, although fierce scuffles break out between various flocks.",
+		de: "Es neigt dazu, sich in großen Gruppen zu bewegen. Zwischen ihnen kommt es zu heftigen Kämpfen."
 	},
 
 	thirdParty: {

@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Cuando juegues este Pokémon de tu mano a tu Banca durante tu turno, puedes unirle 2 cartas de Energía Psychic de tu mano.",
 				it: "Quando giochi questo Pokémon dalla tua mano e lo metti in panchina durante il tuo turno, puoi assegnargli due carte Energia Psychic dalla tua mano.",
 				pt: "Quando você joga este Pokémon da sua mão para o seu Banco durante a sua vez de jogar, você pode ligar 2 cartas de Energia Psychic da sua mão a ele.",
-				de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand auf deine Bank spielst, kannst du 2 Psychic-Energiekarten aus deiner Hand an es anlegen."
+				de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand auf deine Bank spielst, kannst du 2 {P}-Energiekarten aus deiner Hand an es anlegen."
 			},
 		},
 	],
@@ -77,22 +77,6 @@ const card: Card = {
 			damage: 160,
 
 		},
-		{
-			cost: [
-				"Psychic",
-				"Psychic",
-				"Psychic",
-				"Psychic",
-			],
-			name: {
-				fr: "Plongeon Critique",
-			},
-			effect: {
-				fr: "Défaussez 2 Énergies de ce Pokémon.",
-			},
-			damage: 160,
-
-		},
 	],
 
 	weaknesses: [
@@ -113,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
+		de: "Es wurde aufgrund seines Verhaltens verbannt. Aus der Zerrwelt schaut es auf die alte Welt."
 	},
 
 	thirdParty: {

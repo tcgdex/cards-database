@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It appears to have been born from clay dolls made by ancient people. It uses telekinesis to float and move.",
+		de: "Es scheint, sein Ursprung geht auf altertümliche Lehmpuppen zurück. Durch Telekinese kann es schweben und sich bewegen."
 	},
 
 	variants: [
@@ -108,11 +109,18 @@ const card: Card = {
 				cardtrader: 255780
 			}
 		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 756344
+			},
+		},
 	],
 
 	illustrator: "Shigenori Negishi",
 
-	
+
 }
 
 export default card

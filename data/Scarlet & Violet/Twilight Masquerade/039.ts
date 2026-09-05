@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "The envy accumulated within curved beads that sparked multiple conflicts has clad itself in fire and become a Pokémon.",
+		de: "Der Neid, der sich in Krummjuwelen sammelte, die viel Streit heraufbeschworen, hüllte sich in Feuer und wurde zu diesem Pokémon."
 	},
 
 	variants: [

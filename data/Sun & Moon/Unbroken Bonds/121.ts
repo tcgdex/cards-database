@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "Although it's powerful enough to dig right through volcanic rock, it doesn't allow itself to be seen very often.",
+		de: "Es ist so kräftig, dass es sich mühelos durch Schichten von Lavagestein graben kann. An der Oberfläche zeigt es sich nur selten."
 	},
 
 	thirdParty: {

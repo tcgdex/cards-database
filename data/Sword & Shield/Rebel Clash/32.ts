@@ -68,7 +68,7 @@ const card: Card = {
 				es: "Une 1 carta de Energía Fire de tu pila de descartes a 1 de tus Pokémon.",
 				it: "Assegna a uno dei tuoi Pokémon una carta Energia Fire dalla tua pila degli scarti.",
 				pt: "Ligue 1 carta de Energia Fire da sua pilha de descarte a 1 dos seus Pokémon.",
-				de: "Lege 1 Fire-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon an."
+				de: "Lege 1 {R}-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon an."
 			},
 			damage: 20,
 
@@ -91,7 +91,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "This Pokémon appears just before someone passes away, so it's feared as an emissary of death."
+		en: "This Pokémon appears just before someone passes away, so it's feared as an emissary of death.",
+		de: "Es wird als Todesbote gefürchtet, da es oft in der Nähe von Menschen auftaucht, deren Ende kurz bevorsteht."
 	},
 
 	variants: [

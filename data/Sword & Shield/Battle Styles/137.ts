@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Una vez durante el turno de cada jugador, ese jugador puede robar 2 cartas. Para poder usar este efecto, ese jugador debe descartar 1 carta de Golpe Brusco de su mano.",
 		it: "Una sola volta durante il turno di ciascun giocatore, quel giocatore può pescare due carte. Per usare questo effetto, quel giocatore deve scartare una carta Colpo Singolo che ha in mano.",
 		pt: "Uma vez durante o turno de cada jogador, aquele jogador poderá comprar 2 cartas. Para usar este efeito, aquele jogador deverá descartar 1 carta Golpe Decisivo da própria mão.",
-		de: "Einmal während des Zuges jedes Spielers, kann jener Spieler 2 Karten ziehen. Um diesen Effekt einzusetzen, muss jener Spieler 1 Fokussierter-Angriff-Karte von seiner Hand auf seinen Ablagestapel legen."
+		de: "Einmal während des Zuges jedes Spielers, kann jener Spieler 2 Karten ziehen. Um diesen Effekt einzusetzen, muss jener Spieler 1 Fokussierter-Angriff-Karte aus seiner Hand auf seinen Ablagestapel legen. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte auf den Ablagestapel, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit demselben Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	regulationMark: "E",

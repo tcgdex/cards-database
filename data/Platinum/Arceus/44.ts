@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Electrike"
+		en: "Electrike",
+		de: "Frizelbliz"
 	},
 
 	stage: "Stage1",
@@ -70,7 +71,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts."
+		en: "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+		de: "Aus seiner Mähne entlädt es Elektrizität. Es generiert eine Gewitterwolke, aus der es Blitze entlädt."
 	},
 
 	variants: [

@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Machoke",
-		fr: "Machopeur"
+		fr: "Machopeur",
+		de: "Maschock"
 	},
 
 	stage: "Stage2",
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Does 60 damage plus 10 more damage for each Fighting Energy attached to Machamp.",
 				fr: "Inflige 60 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie Fighting attachée à Mackogneur.",
-				de: "Dieser Angriff fügt 60 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Machomei angelegte -Energie zu."
+				de: "Dieser Angriff fügt 60 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Machomei angelegte {F}-Energie zu."
 			},
 			damage: "60+",
 
@@ -77,7 +78,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles."
+		en: "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles.",
+		de: "Es verwendet seine vier Arme, um seine Gegner mit Schlägen aus allen Winkeln einzudecken."
 	},
 
 	variants: [

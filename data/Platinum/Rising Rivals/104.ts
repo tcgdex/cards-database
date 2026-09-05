@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Floatzel GL LV.X",
-		fr: "Mustéflott  Niv. X",
+		fr: "Mustéflott GL Niv. X",
 		de: "Bojelin GL"
 	},
 
@@ -33,8 +33,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Whenever any of your Water Pokémon (excluding any Floatzel GL) is Knocked Out by damage from your opponent's attack, you may put that Pokémon and all cards that were attached to it from your discard pile into your hand.",
-				fr: "Lorsque que n'importe lequel de vos Pokémon Water (tous les Mustéflott  mis K.O par les dégâts d'une attaque de votre adversaire exclus), vous pouvez placer ce Pokémon ainsi que toutes les cartes qui lui sont attachées de votre pile de défausse à votre main.",
-				de: "Jedes Mal, wenn 1 deiner -Pokémon (außer allen Bojelin GL) durch einen Angriff deines Gegners kampfunfähig wird, kannst du dieses Pokémon und alle Karten, die an es angelegt waren, aus deinem Ablagestapel auf deine Hand nehmen."
+				fr: "Lorsque que n'importe lequel de vos Pokémon {W} (tous les Mustéflott GL mis K.O par les dégâts d'une attaque de votre adversaire exclus), vous pouvez placer ce Pokémon ainsi que toutes les cartes qui lui sont attachées de votre pile de défausse à votre main.",
+				de: "Jedes Mal, wenn 1 deiner {W}-Pokémon (außer allen Bojelin GL) durch einen Angriff deines Gegners kampfunfähig wird, kannst du dieses Pokémon und alle Karten, die an es angelegt waren, aus deinem Ablagestapel auf deine Hand nehmen."
 			}
 		},
 	],

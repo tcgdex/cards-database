@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Mientras este Pokémon tenga alguna carta de Energía Unidad FightingDarknessFairy unida a él, es un Pokémon Fighting, Darkness y Fairy.",
 				it: "Fintanto che ha delle carte Energia Unione FightingDarknessFairy assegnate, questo Pokémon è di tipo Fighting, Darkness e Fairy.",
 				pt: "Enquanto este Pokémon tiver Energia Unitária FightingDarknessFairy ligada a ele, será um Pokémon Fighting, Darkness e Fairy.",
-				de: "Solang an dieses Pokémon Aggregat-Energie FightingDarknessFairy angelegt ist, ist es ein Fighting-, Darkness- und Fairy-Pokémon."
+				de: "Solang an dieses Pokémon Aggregat-Energie {F}{D}{FAIRY} angelegt ist, ist es ein {F}-, {D}- und {FAIRY}-Pokémon."
 			},
 		},
 	],
@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "It changes its shading to match its surroundings so it can sneak up on prey. Only its belly patterns stay fixed.",
+		de: "Beim Beutefang passt es seine Farbe der Umgebung an. Nur das Muster auf seinem Bauch bleibt gleich."
 	},
 
 	thirdParty: {

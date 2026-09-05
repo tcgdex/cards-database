@@ -96,22 +96,6 @@ const card: Card = {
 			damage: 210,
 
 		},
-		{
-			cost: [
-				"Colorless",
-				"Colorless",
-				"Colorless",
-				"Colorless",
-			],
-			name: {
-				fr: "Amis Mégatonnes-GX",
-			},
-			effect: {
-				fr: "Si au moins une Énergie supplémentaire est attachée à ce Pokémon (en plus du coût de cette attaque), piochez jusqu’à avoir 10 cartes en main. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-			},
-			damage: 210,
-
-		},
 	],
 	weaknesses: [
 		{
@@ -122,8 +106,15 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 369469,
+				tcgplayer: 185986
+			}
+		}
+	],
 }
 
 export default card

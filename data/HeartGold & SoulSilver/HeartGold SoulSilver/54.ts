@@ -65,7 +65,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related."
+		en: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
+		de: "Ihr Äußeres erinnert an Hieroglyphen auf antiken Steinplatten. Man sagt, es gäbe einen Zusammenhang."
 	},
 
 	variants: [

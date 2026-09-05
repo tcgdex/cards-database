@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Swinub",
 		fr: "Marcacrin",
+		de: "Quiekel"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Ice Beam",
 				fr: "Laser Glace",
+				de: "Eisstrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -60,10 +63,12 @@ const card: Card = {
 			name: {
 				en: "Quintuple Headbutt",
 				fr: "Quintuple Coup d'Boule",
+				de: "Fünffache Kopfnuss"
 			},
 			effect: {
 				en: "Flip 5 coins. This attack does 40 damage times the number of heads.",
 				fr: "Lancez 5 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 5 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 40,
 
@@ -81,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "With its excellent sense of smell, it's even able to find mushrooms that are buried under frozen ground.",
+		de: "Sein Geruchssinn ist stark genug ausgeprägt, um damit Pilze unter vereisten Erdmassen aufzuspüren."
 	},
 
 	thirdParty: {

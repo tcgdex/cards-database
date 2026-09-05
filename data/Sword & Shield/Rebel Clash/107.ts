@@ -44,7 +44,7 @@ const card: Card = {
 				es: "Una vez durante tu turno, puedes unir 1 carta de Energía Fire, 1 carta de Energía Fighting o 1 de cada una de tu pila de descartes a tus Pokémon de la manera que desees.",
 				it: "Una sola volta durante il tuo turno, puoi assegnare ai tuoi Pokémon una carta Energia Fire, una carta Energia Fighting o entrambe dalla tua pila degli scarti nel modo che preferisci.",
 				pt: "Uma vez durante o seu turno, você poderá ligar 1 carta de Energia Fire, 1 carta de Energia Fighting, ou 1 de cada da sua pilha de descarte aos seus Pokémon como desejar.",
-				de: "Einmal während deines Zuges kannst du 1 Fire-Energiekarte, 1 Fighting-Energiekarte oder von beiden 1 aus deinem Ablagestapel beliebig an deine Pokémon anlegen."
+				de: "Einmal während deines Zuges kannst du 1 {R}-Energiekarte, 1 {F}-Energiekarte oder von beiden 1 aus deinem Ablagestapel beliebig an deine Pokémon anlegen."
 			},
 		},
 	],
@@ -87,7 +87,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "It's usually peaceful, but the vandalism of mines enrages it. Offenders will be incinerated with flames that reach 2,700 degrees Fahrenheit."
+		en: "It's usually peaceful, but the vandalism of mines enrages it. Offenders will be incinerated with flames that reach 2,700 degrees Fahrenheit.",
+		de: "Meist ist es friedfertig, aber wenn Menschen eine Mine zugrunde richten, sieht es rot und verbrennt sie mit 1 500 ºC heißen Flammen."
 	},
 
 	variants: [

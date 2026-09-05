@@ -21,17 +21,6 @@ const card: Card = {
 		"Grass"
 	],
 
-	abilities: [
-		{
-			type: "Poke-BODY",
-			name: {
-				en: "Energy Barrier",
-			},
-			effect: {
-				en: "If Mr. Mime would be damaged by an attack, reduce that damage by 10 for each basic Energy card attached to Mr. Mime. The maximum amount of damage that can be reduced by Energy Barrier is 20.",
-			},
-		},
-	],
 	stage: "Basic",
 
 	attacks: [

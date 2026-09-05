@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Zweilous",
 		fr: "Diamat",
+		de: "Duodino"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Todas las Energía unidas a este Pokémon son Energía Darkness en vez del tipo habitual.",
 				it: "Tutte le Energie assegnate a questo Pokémon sono Energie Darkness anziché del loro solito tipo.",
 				pt: "Toda Energia ligada a este Pokémon é Energia Darkness em vez do tipo usual.",
-				de: "Alle Energien, die an dieses Pokémon angelegt sind, liefern Darkness-Energie anstelle ihres normalen Typs."
+				de: "Alle Energien, die an dieses Pokémon angelegt sind, liefern {D}-Energie anstelle ihres normalen Typs."
 			},
 		},
 	],
@@ -66,10 +67,12 @@ const card: Card = {
 			name: {
 				en: "Berserker Blade",
 				fr: "Lame Folle",
+				de: "Berserkerklinge"
 			},
 			effect: {
 				en: "Does 40 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 40 dégâts à 2 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 2 Pokémon auf der Bank deines Gegners je 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 
@@ -94,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "The heads on their arms do not have brains. They use all three heads to consume and destroy everything.",
+		de: "Die Köpfe an seinen beiden Armen haben kein eigenes Gehirn. Seine drei Mäuler kauen alles radikal kurz und klein."
 	},
 
 	thirdParty: {

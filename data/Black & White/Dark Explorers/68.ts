@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Scraggy",
-		fr: "Baggiguane"
+		fr: "Baggiguane",
+		de: "Zurrokex"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
-				fr: "Coup d'Boule"
+				fr: "Coup d'Boule",
+				de: "Kopfnuss"
 			},
 
 			damage: 30,
@@ -55,11 +57,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Crushing Blow",
-				fr: "Coup Écrasant"
+				fr: "Coup Écrasant",
+				de: "Brechschlag"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie au Pokémon Défenseur."
+				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie au Pokémon Défenseur.",
+				de: "Wirf 1 Münze. Lege bei „Kopf“ 1 an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel."
 			},
 			damage: 70,
 
@@ -84,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Groups of them beat up anything that enters their territory. Each can spit acidic liquid from its mouth.",
+		de: "Es geht im Rudel gegen Eindringlinge vor. Aus seinem Mund speit es eine ätzende Flüssigkeit."
 	},
 
 	thirdParty: {

@@ -21,7 +21,8 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Treecko"
+		en: "Treecko",
+		de: "Geckarbor"
 	},
 
 	stage: "Stage1",
@@ -37,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Grovyle during your opponent's next turn.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Reptain zugefügt würden."
+				de: "Wirf 1 Münze. Bei „Kopf“ verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Reptain zugefügt würden."
 			},
 
 		},
@@ -73,7 +74,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch."
+		en: "It lives in dense jungles. While closing in on its prey, it leaps from branch to branch.",
+		de: "Es lebt im dichten Dschungel. Es springt von Ast zu Ast, wenn es sich einer Beute nähert."
 	},
 
 	variants: [

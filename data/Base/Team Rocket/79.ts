@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 		fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
-		de: "Wirf eine Münze. Bei 'Kopf' schläft das verteidigende Pokémon jetzt."
+		de: "Wirf eine Münze. Bei „Kopf“ schläft das verteidigende Pokémon jetzt."
 	},
 
 

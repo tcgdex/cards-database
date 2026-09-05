@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Una vez durante tu turno, si este Pokémon es tu Pokémon Activo, cuando le unas 1 carta de Energía Grass de tu mano, puedes cambiar 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
 				it: "Una sola volta durante il tuo turno, se questo Pokémon è il tuo Pokémon attivo, quando gli assegni una carta Energia Grass dalla tua mano, puoi scambiare uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
 				pt: "Uma vez durante a sua vez de jogar, se este Pokémon for o seu Pokémon Ativo, quando você ligar 1 carta de Energia Grass da sua mão a ele, você poderá trocar 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
-				de: "Einmal während deines Zuges, wenn dieses Pokémon dein Aktives Pokémon ist und wenn du 1 Grass-Energiekarte aus deiner Hand an es anlegst, kannst du 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon austauschen."
+				de: "Einmal während deines Zuges, wenn dieses Pokémon dein Aktives Pokémon ist und wenn du 1 {G}-Energiekarte aus deiner Hand an es anlegst, kannst du 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon austauschen."
 			},
 		},
 	],
@@ -84,7 +84,7 @@ const card: Card = {
 				es: "Planta Solar GX",
 				it: "Pianta Solare GX",
 				pt: "Usina Solar GX",
-				de: "Solargewächs GX"
+				de: "Solargewächs-GX"
 			},
 			effect: {
 				en: "This attack does 50 damage to each of your opponent’s Pokémon. If this Pokémon has at least 2 extra Energy attached to it (in addition to this attack’s cost), heal all damage from all of your Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) (You can’t use more than 1 GX attack in a game.)",

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Brionne",
 		fr: "Otarlette",
+		de: "Marikeck"
 	},
 
 	stage: "Stage2",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Its singing voice is its chief weapon in battle. This Pokémon's Trainer must prioritize the daily maintenance of its throat at all costs.",
+		de: "Es kämpft unter vollem Einsatz seiner Gesangsstimme. Zu den Aufgaben seines Trainers zählen somit Pflege und Schonung der Stimmbänder."
 	},
 
 	thirdParty: {

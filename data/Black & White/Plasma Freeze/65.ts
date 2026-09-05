@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Quick Attack",
 				fr: "Vive-Attaque",
+				de: "Ruckzuckhieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -65,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "A smart and sneaky Pokémon, it makes its opponents flinch by suddenly showing the claws hidden in its paws.",
+		de: "Dieses durchtriebene Pokémon lässt seine Gegner zurückschrecken, indem es auf einmal seine langen Krallen ausfährt."
 	},
 
 	thirdParty: {

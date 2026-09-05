@@ -65,7 +65,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Although it's tough, it can't handle cold well. When night falls, it buries itself in leafage and sleeps."
+		en: "Although it's tough, it can't handle cold well. When night falls, it buries itself in leafage and sleeps.",
+		de: "Es ist zwar robust, verträgt jedoch keine Kälte. Bei Anbruch der Nacht vergräbt es sich im Laub und schläft."
 	},
 
 	dexId: [127],

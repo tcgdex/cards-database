@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Tepig",
 		fr: "Gruikui",
+		de: "Floink"
 	},
 
 	stage: "Stage1",
@@ -42,6 +43,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 20,
@@ -56,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Flamethrower",
 				fr: "Lance-Flamme",
+				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard an Energy attached to this Pokémon.",
 				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 70,
 
@@ -77,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke.",
+		de: "Lodert das Feuer in ihm auf, bewegt es sich geschmeidiger und schneller. Bei Gefahr lässt es ordentlich Dampf ab."
 	},
 
 	thirdParty: {

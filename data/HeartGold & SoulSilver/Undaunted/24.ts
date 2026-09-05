@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gloom",
-		fr: "Ortide"
+		fr: "Ortide",
+		de: "Duflor"
 	},
 
 	stage: "Stage2",
@@ -59,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 50 damage plus 20 more damage. If tails, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires. Si c’est pile, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu. Bei \"Zahl\" ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu. Bei „Zahl“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: "50+",
 
@@ -76,7 +77,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has the world’s largest petals. With every step, the petals shake out heavy clouds of toxic pollen."
+		en: "It has the world’s largest petals. With every step, the petals shake out heavy clouds of toxic pollen.",
+		de: "Es besitzt die größten Blätter der Welt. Bei jedem Schritt streut es Giftpollen zu Boden."
 	},
 
 	variants: [

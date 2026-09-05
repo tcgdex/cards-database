@@ -95,7 +95,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "The vibrating of the bumps all over its body causes earthquake-like tremors. Seismitoad and Croagunk are similar species."
+		en: "The vibrating of the bumps all over its body causes earthquake-like tremors. Seismitoad and Croagunk are similar species.",
+		de: "Die Beulen, die seinen ganzen Körper bedecken, können Erschütterungen auf Erdbebenstärke erzeugen. Es ist artverwandt mit Glibunkel."
 	},
 
 	variants: [

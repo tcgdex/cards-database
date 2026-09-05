@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "The way Slakoth lolls around makes anyone who watches it feel like doing the same.",
+		de: "Allein bei Bummelz’ Anblick werden Gegner von Trägheit gepackt und schlummern alsbald ein."
 	},
 
 	thirdParty: {

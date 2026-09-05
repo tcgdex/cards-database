@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, put 1 of your Benched Pokémon and all cards attached to on top of your deck. Shuffle your deck afterward.",
 				fr: "Lancez une pièce. Si c'est face, placez 1 de vos Pokémon de Banc et toutes les cartes qui lui sont attachées au dessus de votre deck. Ensuite, mélangez votre deck.",
-				de: "Wirf 1 Münze. Bei 'Kopf' lege 1 der Pokémon auf deiner Bank und alle an es angelegten Karten auf dein Deck. Mische dein Deck danach."
+				de: "Wirf 1 Münze. Bei „Kopf“ lege 1 der Pokémon auf deiner Bank und alle an es angelegten Karten auf dein Deck. Mische dein Deck danach."
 			},
 
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused and can't retreat during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus et ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt und kann sich im nächsten Zug deines Gegners nicht zurückziehen."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt und kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 10,
 
@@ -80,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon formed by the spirits of people and Pokémon. It loves damp, humid seasons.",
-		fr: "Un Pokémon né de l'esprit des gens et des Pokémon. Il aime les saisons chaudes et humides."
+		fr: "Un Pokémon né de l'esprit des gens et des Pokémon. Il aime les saisons chaudes et humides.",
+		de: "Ein PKMN, entstanden aus den Gefühlen von Menschen und PKMN. Es mag feuchte Jahreszeiten."
 	},
 
 	thirdParty: {

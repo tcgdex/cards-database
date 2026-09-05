@@ -40,7 +40,7 @@ const card: Card = {
 			es: "Puedes unir 1 carta de Energía Darkness de tu mano a 1 de tus Pokémon en Banca.",
 			it: "Puoi assegnare a uno dei tuoi Pokémon in panchina una carta Energia Darkness dalla tua mano.",
 			pt: "Você pode ligar 1 carta de Energia Darkness da sua mão a 1 dos seus Pokémon no Banco.",
-			de: "Du kannst 1 Darkness-Energiekarte aus deiner Hand an 1 Pokémon auf deiner Bank anlegen."
+			de: "Du kannst 1 {D}-Energiekarte aus deiner Hand an 1 Pokémon auf deiner Bank anlegen."
 		},
 
 		damage: 30

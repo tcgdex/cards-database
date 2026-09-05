@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Snover",
-		fr: "Blizzi"
+		fr: "Blizzi",
+		de: "Shnebedeck"
 	},
 
 	stage: "Stage1",
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, put 1 damage counter on each of your opponent's Benched Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, placez 1 marqueur de dégât sur chaque Pokémon de Banc de votre adversaire.",
-				de: "Wirf 1 Münze. Bei 'Kopf' lege 1 Schadensmarke auf jedes Pokémon auf der Bank deines Gegners."
+				de: "Wirf 1 Münze. Bei „Kopf“ lege 1 Schadensmarke auf jedes Pokémon auf der Bank deines Gegners."
 			},
 			damage: 60,
 
@@ -79,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "It whips up blizzards in mountains that are always buried in snow. It is the abominable snowman.",
-		fr: "C'est l'abominable homme des neiges. Il ensevelit les montagnes sous ses blizzards."
+		fr: "C'est l'abominable homme des neiges. Il ensevelit les montagnes sous ses blizzards.",
+		de: "Es löst in den Bergen, wo ewiger Schnee liegt, Blizzards aus. Es ist ein scheußlicher Schneemann."
 	},
 
 	thirdParty: {

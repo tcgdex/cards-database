@@ -88,7 +88,7 @@ const card: Card = {
 				es: "Manos Diabólicas GX",
 				it: "Braccia Malefiche GX",
 				pt: "Mãos Malignas GX",
-				de: "Teufelshände GX"
+				de: "Teufelshände-GX"
 			},
 			effect: {
 				en: "Choose 1 of your opponent’s Pokémon-GX or Pokémon-EX 6 times. (You can choose the same Pokémon more than once.) For each time you chose a Pokémon, do 30 damage to it. This damage isn’t affected by Weakness or Resistance. (You can’t use more than 1 GX attack in a game.)",

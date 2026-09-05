@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Search your discard pile for 8 Fire Energy cards, show them to your opponent, and shuffle them into your deck. (This attack does nothing if you don't have 8 Fire Energy cards in your discard pile.)",
 				fr: "Choisissez dans votre pile de défausse 8 cartes Énergie Fire, montrez-les à votre adversaire et mélangez-les à votre deck. (Cette attaque est sans effet si vous n'avez pas 8 cartes Énergie Fire dans votre pile de défausse.)",
-				de: "Durchsuche deinen Ablagestapel nach 8 -Energiekarten, zeige sie deinem Gegner und mische sie in dein Deck. (Dieser Angriff hat keine Auswirklungen, wenn weniger als 8 -Energiekarten auf deinem Ablagestapel liegen.)"
+				de: "Durchsuche deinen Ablagestapel nach 8 {R}-Energiekarten, zeige sie deinem Gegner und mische sie in dein Deck. (Dieser Angriff hat keine Auswirkungen, wenn weniger als 8 {R}-Energiekarten auf deinem Ablagestapel liegen.)"
 			},
 			damage: 150,
 

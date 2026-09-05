@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pawniard",
-		fr: "Scalpion"
+		fr: "Scalpion",
+		de: "Gladiantri"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Slash",
-				fr: "Tranche"
+				fr: "Tranche",
+				de: "Schlitzer"
 			},
 
 			damage: 30,
@@ -55,11 +57,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Fury Cutter",
-				fr: "Taillade"
+				fr: "Taillade",
+				de: "Zornklinge"
 			},
 			effect: {
 				en: "Flip 3 coins. If 1 of them is heads, this attack does 10 more damage. If 2 of them are heads, this attack does 30 more damage. If all of them are heads, this attack does 60 more damage.",
-				fr: "Lancez 3 pièces. Si vous obtenez un côté face, cette attaque inflige 10 dégâts supplémentaires. Si vous obtenez 2 côtés face, cette attaque inflige 30 dégâts supplémentaires. Si vous obtenez seulement des côtés face, cette attaque inflige 60 dégâts supplémentaires."
+				fr: "Lancez 3 pièces. Si vous obtenez un côté face, cette attaque inflige 10 dégâts supplémentaires. Si vous obtenez 2 côtés face, cette attaque inflige 30 dégâts supplémentaires. Si vous obtenez seulement des côtés face, cette attaque inflige 60 dégâts supplémentaires.",
+				de: "Wirf 3 Münzen. Zeigt 1 davon „Kopf“, fügt dieser Angriff 10 weitere Schadenspunkte zu. Zeigen 2 davon „Kopf“, fügt dieser Angriff 30 weitere Schadenspunkte zu. Zeigen alle Münzen „Kopf“, fügt dieser Angriff 60 weitere Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -84,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Bisharp pursues prey in the company of a large group of Pawniard. Then Bisharp finishes off the prey.",
+		de: "Es rückt seinen Opfern mit einer Schar von Gladiantri im Gefolge auf den Pelz. Den letzten Hieb übernimmt es selbst."
 	},
 
 	thirdParty: {

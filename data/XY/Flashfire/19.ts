@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "The stronger the opponent it faces, the more heat surges from its mane and the more power flows through its body.",
+		de: "Je stärker sein Gegner ist, desto heißer wird seine Mähne und umso kraftvoller wird es."
 	},
 
 	thirdParty: {

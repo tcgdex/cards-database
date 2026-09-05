@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "Half of all sudden blackouts are caused by Electabuzz gathering at electric power plants and gobbling up electricity.",
+		de: "Für die Hälfte aller plötzlichen Stromausfälle sind Elektek verantwortlich. Sie belagern gerne Kraftwerke und zapfen ihnen Strom ab."
 	},
 
 	thirdParty: {

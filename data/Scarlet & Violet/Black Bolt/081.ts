@@ -21,7 +21,7 @@ const card: Card = {
 	effect: {
 		en: "Flip 2 coins. If both of them are heads, search your deck for a Basic Energy card and attach it to 1 of your Pokémon. Then, shuffle your deck.",
 		fr: "Lancez 2 pièces. Si vous obtenez 2 côtés face, cherchez dans votre deck une carte Énergie de base et attachez-la à l'un de vos Pokémon. Mélangez ensuite votre deck.",
-		de: "Wirf 2 Münzen. Zeigen beide Münzen Kopf, durchsuche dein Deck nach 1 Basis-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck.",
+		de: "Wirf 2 Münzen. Zeigen beide Münzen Kopf, durchsuche dein Deck nach 1 Basis-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen.",
 		it: "Lancia due volte una moneta. Se esce entrambe le volte testa, cerca nel tuo mazzo una carta Energia base e assegnala a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
 		pt: "Jogue 2 moedas. Se as duas saírem cara, procure por uma carta de Energia Básica no seu baralho e ligue-a a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho.",
 		es: "Lanza 2 monedas. Si sale cara en ambas, busca en tu baraja 1 carta de Energía Básica y únela a uno de tus Pokémon. Después, baraja las cartas de tu baraja.",

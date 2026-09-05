@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Double Stab",
 				fr: "Coup double",
-				de: "Double Stab"
+				de: "Doppelstich"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10×",
 
@@ -49,12 +49,12 @@ const card: Card = {
 			name: {
 				en: "Second Strike",
 				fr: "Deuxième coup",
-				de: "Second Strike"
+				de: "Sekundärschlag"
 			},
 			effect: {
 				en: "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 10 damage plus 20 more damage.",
 				fr: "Si le Pokémon Défenseur possède déjà 2 marqueurs de dégât, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "If the Defending Pokémon already has at least 2 damage counters on it, this attack does 10 damage plus 20 more damage."
+				de: "Wenn bereits 2 oder mehr Schadensmarken auf dem Verteidigenden Pokémon liegen, fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 

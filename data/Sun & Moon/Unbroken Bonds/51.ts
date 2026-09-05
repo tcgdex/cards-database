@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked.",
+		de: "Es stößt aus Brust und Rücken elastische Blasen aus, mit denen es gegnerische Angriffe abfängt und so den erlittenen Schaden verringert."
 	},
 
 	thirdParty: {

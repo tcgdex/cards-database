@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It finds really fun dreams tasty. When it makes friends with people, it may show them the most delicious dreams it's ever eaten.",
+		de: "Lustige Träume schmecken ihm am besten. Ist man nett zu ihm, zeigt es einem ab und an Träume, die ihm besonders gemundet haben."
 	},
 
 	thirdParty: {

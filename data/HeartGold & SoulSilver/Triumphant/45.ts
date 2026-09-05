@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nidoran♀",
-		fr: "Nidoran♀"
+		fr: "Nidoran♀",
+		de: "Nidoran♀"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -73,7 +74,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has a calm and caring nature. Because its horn grows slowly, it prefers not to fight."
+		en: "It has a calm and caring nature. Because its horn grows slowly, it prefers not to fight.",
+		de: "Es ist von Natur aus sehr ruhig und umsorgend. Da sein Horn langsam wächst, vermeidet es den Kampf."
 	},
 
 	variants: [

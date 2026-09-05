@@ -67,7 +67,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It loves anything that shines. It especially adores coins that it picks up and secretly hoards."
+		en: "It loves anything that shines. It especially adores coins that it picks up and secretly hoards.",
+		de: "Es liebt alles Glänzende. Es hat eine Vorliebe für Münzen, die es aufliest und unbemerkt hortet."
 	},
 
 	variants: [

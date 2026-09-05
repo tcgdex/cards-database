@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
-				de: "Ziehe eine Karte."
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Return Aipom and all cards attached to it to your hand. (If you don't have any Benched Pokémon, this attack does nothing.)",
 				fr: "Reprenez Capumain dans votre main ainsi que toutes les cartes qui lui sont attachées. (Si vous ne possédez pas de Pokémon de Banc, cette attaque est sans effet.)",
-				de: "Nimm Griffel und alle an es angelegten Karten zurück auf die Hand. (Dieser Angriff hat keine Auswirkungen, wenn du keine Pokémon auf der Bank hast.)"
+				de: "Nimm Griffel und alle daran angelegten Karten zurück auf die Hand. (Dieser Angriff hat keine Auswirkungen, wenn du keine Pokémon auf deiner Bank hast.)"
 			},
 			damage: 20,
 
@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "It lives atop giant trees. It wraps its tail around a branch so it won't fall off while asleep.",
+		de: "Es lebt in den Wipfeln von Riesenbäumen. Es wickelt seinen Schweif um einen Ast, um sich festzuhalten."
 	},
 
 	thirdParty: {

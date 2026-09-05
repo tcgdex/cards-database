@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sandshrew",
-		fr: "Sabelette"
+		fr: "Sabelette",
+		de: "Sandan"
 	},
 
 	stage: "Stage1",
@@ -86,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "It curls up, then rolls into foes with its back. Its sharp spines inflict severe damage.",
-		fr: "Il se met en boule pour percuter l'ennemi. Ses épines aiguisées font beaucoup de dégâts."
+		fr: "Il se met en boule pour percuter l'ennemi. Ses épines aiguisées font beaucoup de dégâts.",
+		de: "Es rollt sich zusammen und rollt dann auf Gegner zu, die durch seine Stacheln Schaden nehmen."
 	},
 
 	thirdParty: {

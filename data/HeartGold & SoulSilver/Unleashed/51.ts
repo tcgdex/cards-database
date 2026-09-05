@@ -70,7 +70,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is born deep underground. It can’t emerge until it has entirely consumed the soil around it."
+		en: "It is born deep underground. It can’t emerge until it has entirely consumed the soil around it.",
+		de: "Es wird tief unter der Erde geboren und kann erst an die Oberfläche, wenn es diese aufgefressen hat."
 	},
 
 	variants: [

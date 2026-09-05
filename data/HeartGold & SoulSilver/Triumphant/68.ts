@@ -4,7 +4,7 @@ import Set from '../Triumphant'
 const card: Card = {
 	name: {
 		en: "Magnemite",
-		fr: "Magneti",
+		fr: "Magnéti",
 		de: "Magnetilo"
 	},
 
@@ -53,7 +53,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -77,7 +77,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The units at the sides of its body generate antigravity energy to keep it aloft in the air."
+		en: "The units at the sides of its body generate antigravity energy to keep it aloft in the air.",
+		de: "Die Magneten an seinem Körper erzeugen ein AntiGrav.-Feld, um es ständig in der Schwebe zu halten."
 	},
 
 	variants: [

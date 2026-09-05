@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "When Tauros begins whipping itself with its tails, it's a warning that the Pokémon is about to charge with astounding speed.",
+		de: "Peitscht es seinen Körper mit seinen Schweifen aus, ist Vorsicht geboten, denn es steht kurz davor, mit Karacho auf sein Ziel loszustürmen."
 	},
 
 	

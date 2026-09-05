@@ -74,7 +74,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When it evolves, it sheds the steel carapace that covered its whole body and develops a new one."
+		en: "When it evolves, it sheds the steel carapace that covered its whole body and develops a new one.",
+		de: "Entwickelt es sich, wirft es seinen alten Stahlpanzer ab und bildet einen neuen aus."
 	},
 
 	variants: [

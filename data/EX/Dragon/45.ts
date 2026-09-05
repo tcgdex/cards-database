@@ -4,7 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Swellow",
-		fr: "Heledelle",
+		fr: "Hélédelle",
 		de: "Schwalboss"
 	},
 
@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Taillow",
-		fr: "Nirondelle"
+		fr: "Nirondelle",
+		de: "Schwalbini"
 	},
 
 	stage: "Stage1",
@@ -59,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, choose 1 of your opponent's Pokémon. This attack does 50 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
 				fr: "Lancez une pièce. Si c'est face, choisissez un des Pokémon de votre adversaire. Cette attaque lui inflige 50 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
-				de: "Wirf 1 Münze. Bei 'Kopf' wähle 1 gegnerisches Pokémon. Dieser Angriff fügt dem ausgewählten Pokémon 50 Schadenspunkte zu. Der Schaden dieses Angriffs wird durch die Schwäche und Resistenz des ausgewählten nicht verändert."
+				de: "Wirf 1 Münze. Bei „Kopf“ wähle 1 gegnerisches Pokémon. Dieser Angriff fügt dem ausgewählten Pokémon 50 Schadenspunkte zu. Der Schaden dieses Angriffs wird durch die Schwäche und Resistenz des ausgewählten nicht verändert."
 			},
 
 		},

@@ -39,7 +39,7 @@ const card: Card = {
 			effect: {
 				en: "Choose 1 of your opponent's Benched Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Flip a coin. If heads, prevent all effects of an attack, including damage, done to Giratina during your opponent's next turn.",
 				fr: "Choisissez 1 des Pokémon de Banc de votre adversaire. Cette attaque lui inflige 20 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Giratina lors du prochain tour de votre adversaire.",
-				de: "Wähle 1 Pokémon auf der Bank deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Wirf 1 Münze. Bei \"Kopf\" verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Giratina zugefügt würden."
+				de: "Wähle 1 Pokémon auf der Bank deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Wirf 1 Münze. Bei „Kopf“ verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Giratina zugefügt würden."
 			},
 
 		},
@@ -83,7 +83,8 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon that is said to live in a world on the reverse side of ours. It appears in an ancient cemetery.",
-		fr: "Un Pokémon censé vivre dans un monde à l'opposé du nôtre. Il apparaît dans un cimetière ancien."
+		fr: "Un Pokémon censé vivre dans un monde à l'opposé du nôtre. Il apparaît dans un cimetière ancien.",
+		de: "Ein PKMN, von dem man sagt, es lebe in der Spiegelwelt unserer Welt. Es erscheint auf alten Friedhöfen."
 	},
 
 	thirdParty: {

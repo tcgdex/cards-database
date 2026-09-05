@@ -53,7 +53,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, Snover does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, Blizzi s'inflige 10 dégâts.",
-				de: "Wirf 1 Münze. Bei 'Zahl' fügt sich Shnebedeck selbst 10 Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Zahl“ fügt sich Shnebedeck selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -71,7 +71,8 @@ const card: Card = {
 
 	description: {
 		en: "It lives on snowy mountains. Having had little contact with humans, it is boldly inquisitive.",
-		fr: "Il vit sur les monts enneigés. Ignorant des coutumes humaines, il lui arrive d'être très indiscret."
+		fr: "Il vit sur les monts enneigés. Ignorant des coutumes humaines, il lui arrive d'être très indiscret.",
+		de: "Es lebt im Schnee der Berge. Es hatte bisher kaum Kontakt zu Menschen und ist daher sehr neugierig."
 	},
 
 	thirdParty: {

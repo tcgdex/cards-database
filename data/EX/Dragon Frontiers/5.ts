@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Milotic δ",
 		fr: "Milobellus δ",
-		de: "Milotic"
+		de: "Milotic δ"
 	},
 
 	illustrator: "Midori Harada",

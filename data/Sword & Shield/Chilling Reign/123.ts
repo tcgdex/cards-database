@@ -81,7 +81,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers."
+		en: "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers.",
+		de: "Es heißt, wenn die Gracidea blühen, drückt es seine Dankbarkeit aus, indem es hoch in die Lüfte fliegt."
 	},
 
 	variants: [

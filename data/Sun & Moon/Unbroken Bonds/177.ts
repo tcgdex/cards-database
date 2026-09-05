@@ -32,7 +32,7 @@ const card: Card = {
 		es: "El Pokémon Activo de tu rival pasa a estar Confundido y Envenenado.",
 		it: "Il Pokémon attivo del tuo avversario viene confuso e avvelenato.",
 		pt: "O Pokémon Ativo do seu oponente agora está Confuso e Envenenado.",
-		de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt und vergiftet."
+		de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt und vergiftet. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 	trainerType: "Supporter",
 

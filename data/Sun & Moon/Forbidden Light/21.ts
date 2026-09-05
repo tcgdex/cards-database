@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Si este Pokémon tiene alguna Energía Water unida a él, no tiene ningún Coste de Retirada.",
 				it: "Se questo Pokémon ha delle Energie Water assegnate, non ha costo di ritirata.",
 				pt: "Se este Pokémon tiver alguma Energia Water ligada a ele, não terá custo de Recuo.",
-				de: "Wenn an dieses Pokémon mindestens 1 Water-Energie angelegt ist, hat es keine Rückzugskosten."
+				de: "Wenn an dieses Pokémon mindestens 1 {W}-Energie angelegt ist, hat es keine Rückzugskosten."
 			},
 		},
 	],
@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
+		de: "Es schützt seine Haut mit feinen Blasen, die seinen Körper umhüllen. Es mag unbekümmert aussehen, behält die Umgebung aber immer aufmerksam im Auge."
 	},
 
 	thirdParty: {

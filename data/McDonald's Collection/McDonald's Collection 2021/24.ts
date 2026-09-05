@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		en: "Sobble",
 		fr: "Larméléon",
+		de: "Memmeon"
 	},
 
 	illustrator: "Mizue",
@@ -29,10 +30,12 @@ const card: Card = {
 			name: {
 				en: "Bind",
 				fr: "Étreinte",
+				de: "Klammergriff"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -49,7 +52,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won’t be able to resist weeping."
+		en: "When scared, this Pokémon cries. Its tears pack the chemical punch of 100 onions, and attackers won’t be able to resist weeping.",
+		de: "Hat es Angst, vergießt es Tränen, die Reizstoffe enthalten, welche andere ebenfalls zum Weinen bringen. Sie sind so stark wie 100 Zwiebeln."
 	},
 	variants: [
 		{

@@ -23,7 +23,7 @@ const card: Card = {
 		es: "El Pokémon al que está unida esta carta obtiene 30 PS más.",
 		it: "Il Pokémon a cui è assegnata questa carta ha 30 PS in più.",
 		pt: "O Pokémon ao qual esta carta está ligada recebe 30 PS a mais.",
-		de: "Das Pokémon, an das diese Karte angelegt ist, erhält +30 KP."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Das Pokémon, an das diese Karte angelegt ist, erhält +30 KP. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

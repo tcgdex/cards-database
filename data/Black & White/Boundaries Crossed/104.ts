@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Paralyzing Gaze",
 				fr: "Regard Paralysant",
+				de: "Lähmender Blick"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 
 		},
@@ -56,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "It searches for food all day. It gnaws on hard objects to wear down its fangs, which grow constantly during its lifetime.",
+		de: "Sucht den lieben langen Tag nach Futter. Da seine Nagezähne immer nachwachsen, wetzt es sie an harten Objekten ab."
 	},
 
 	thirdParty: {

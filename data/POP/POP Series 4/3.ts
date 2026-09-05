@@ -4,7 +4,8 @@ import Set from '../POP Series 4'
 const card: Card = {
 	name: {
 		en: "Flygon",
-		fr: "Libegon"
+		fr: "Libegon",
+		de: "Libelldra"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -22,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Vibrava",
-		fr: "Vibraninf"
+		fr: "Vibraninf",
+		de: "Vibrava"
 	},
 
 	stage: "Stage2",
@@ -32,11 +34,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Levitate",
-				fr: "Lévitation"
+				fr: "Lévitation",
+				de: "Schwebe"
 			},
 			effect: {
 				en: "As long as Flygon has any Energy attached to it, the Retreat Cost for Flygon is 0.",
-				fr: "Tant que Libegon possède de l'Énergie, son Coût de retraite est de 0."
+				fr: "Tant que Libegon possède de l'Énergie, son Coût de retraite est de 0.",
+				de: "Solange mindestens eine Energie an Libelldra angelegt ist, betragen die Rückzugskosten von Libelldra 0."
 			},
 		},
 	],
@@ -49,7 +53,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Bite",
-				fr: "Morsure"
+				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 30,
@@ -64,11 +69,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sand Pit",
-				fr: "Bac à sable"
+				fr: "Bac à sable",
+				de: "Sandgrube"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire."
+				fr: "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 70,
 

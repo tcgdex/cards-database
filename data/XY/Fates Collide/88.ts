@@ -78,7 +78,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
 				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
 				pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 60,
 
@@ -96,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "Cinccino's body is coated in a special oil that helps it deflect attacks, such as punches.",
+		de: "Sein Körper ist mit einem speziellen Öl überzogen, an dem gegnerische Hiebe und ähnliche Angriffe einfach abgleiten."
 	},
 
 	thirdParty: {

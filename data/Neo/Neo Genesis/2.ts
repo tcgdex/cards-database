@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Marill",
-		fr: "Marill"
+		fr: "Marill",
+		de: "Marill"
 	},
 
 	stage: "Stage1",
@@ -54,12 +55,12 @@ const card: Card = {
 			name: {
 				en: "Bubble Shower",
 				fr: "Douche de bulles",
-				de: "Bubble Shower"
+				de: "Blubbdusche"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et cette attaque inflige 10 dégâts à chacun des Pokémon du Banc de votre adversaire. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt und dieser Angriff fügt jedem Pokémon auf der gegnerischen Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 30,
 
@@ -77,7 +78,8 @@ const card: Card = {
 
 	description: {
 		en: "By keeping still and listening intently, it can tell what is in even wild, fast-moving rivers.",
-		fr: "Lorsqu'il écoute attentivement sans bouger, il peut deviner ce qui se cache dans les rivières les plus sauvages et tumultueuses."
+		fr: "Lorsqu'il écoute attentivement sans bouger, il peut deviner ce qui se cache dans les rivières les plus sauvages et tumultueuses.",
+		de: "Indem es sich ruhig verhält und aufmerksam zuhört, kann es selbst in schnell fließendem Wildwasser andere ausmachen."
 	},
 
 

@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "La ligne qui fait le tour de son corps emmagasine\nl'énergie solaire et brille intensément la nuit.",
 		es: "La línea que le recorre el costado puede almacenar\nluz solar. Brilla con mucha fuerza por la noche.",
 		it: "La linea che contorna il suo corpo immagazzina la luce\nsolare. Di notte si illumina di una luce splendente.",
-		de: "Die Linie an seiner Seite kann Sonnenlicht\nspeichern. Nachts leuchtet es sehr intensiv.",
+		de: "Die Linie an seiner Seite kann Sonnenlicht speichern. Nachts leuchtet es sehr intensiv.",
 		'pt-br': "A linha na lateral de seu corpo armazena luz solar\ne brilha intensamente à noite.",
 		ko: "몸 옆쪽에 있는 줄에\n태양 빛을 모아 둘 수 있다.\n밤이 되면 아름답게 빛난다."
 	},

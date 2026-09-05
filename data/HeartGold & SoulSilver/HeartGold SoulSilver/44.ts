@@ -50,7 +50,7 @@ const card: Card = {
 			effect: {
 				en: "Igglybuff is now Asleep. During your opponent's next turn, the attack cost of each of the Defending Pokémon's attacks is Colorless more.",
 				fr: "Toudoudou est maintenant Endormi. Au prochain tour de votre adversaire, le coût de l’attaque de chaque Pokémon Défenseur est plus élevé de Colorless.",
-				de: "Fluffeluff schläft jetzt. Während des nächsten Zuges deines Gegners kosten die Angriffe jedes Verteidigenden Pokémons  mehr."
+				de: "Fluffeluff schläft jetzt. Während des nächsten Zuges deines Gegners kosten die Angriffe jedes Verteidigenden Pokémons {C} mehr."
 			},
 
 		},
@@ -59,7 +59,8 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Its extremely flexible and elastic body makes it bounce continuously—anytime, anywhere."
+		en: "Its extremely flexible and elastic body makes it bounce continuously—anytime, anywhere.",
+		de: "Aufgrund seines extrem flexiblen und elastischen Körpers springt es ständig überall umher."
 	},
 
 	variants: [

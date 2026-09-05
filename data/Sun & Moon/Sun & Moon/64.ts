@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "Its body is gaseous and frail. It slowly grows as it collects dust from the atmosphere.",
+		de: "Sein Körper besteht aus flüchtigem Gas. Es wächst durch das Sammeln von Staub aus der Luft."
 	},
 
 	thirdParty: {

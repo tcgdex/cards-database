@@ -82,7 +82,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "The defensive instinct of the males is strong. It's when they're protecting themselves or their partners that they unleash their full power."
+		en: "The defensive instinct of the males is strong. It's when they're protecting themselves or their partners that they unleash their full power.",
+		de: "Männliche Psiaugon haben einen ausgeprägten Beschützerinstinkt. Sie sind dann am stärksten, wenn sie sich oder ihren Trainer verteidigen."
 	},
 
 	variants: [

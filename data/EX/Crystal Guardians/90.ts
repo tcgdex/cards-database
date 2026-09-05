@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Blaziken ex",
 		fr: "Brasegali ex",
-		de: "Lohgock ex"
+		de: "Lohgock-ex"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Combusken",
-		fr: "Galifeu"
+		fr: "Galifeu",
+		de: "Jungglut"
 	},
 
 	suffix: "ex",

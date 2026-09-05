@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "Lee HyunJung",
 
 	description: {
-		en: "Its elegant and refined behavior clashes with that of the barbaric Perrserker. The relationship between the two is one of mutual disdain."
+		en: "Its elegant and refined behavior clashes with that of the barbaric Perrserker. The relationship between the two is one of mutual disdain.",
+		de: "Sein Auftreten ist anmutig und elegant. Es kommt mit Mauzingers grober Art nicht zurecht. Beide Arten strafen sich gegenseitig mit Verachtung."
 	},
 
 	attacks: [{

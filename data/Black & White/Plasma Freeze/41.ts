@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Nidoran♀",
 		fr: "Nidoran♀",
+		de: "Nidoran♀"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Poison Sting",
 				fr: "Dard-Venin",
+				de: "Giftstachel"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 20,
 
@@ -59,10 +62,12 @@ const card: Card = {
 			name: {
 				en: "Double Kick",
 				fr: "Double Pied",
+				de: "Doppelkick"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 40,
 
@@ -80,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "When it senses danger, it raises all the barbs on its body. These barbs grow slower than Nidorino's.",
+		de: "Bei Gefahr fährt es die Widerhaken am Körper aus. Diese wachsen langsamer als die von Nidorino."
 	},
 
 	thirdParty: {

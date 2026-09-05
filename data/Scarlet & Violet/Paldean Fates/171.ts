@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "It imbues its fists with the power of the rage that it kept hidden in its heart. Opponents struck by these imbued fists will be shattered to their core.",
+		de: "Es leitet den geballten Zorn, den es tief im Herzen trägt, in seine Fäuste. Wenn es zuschlägt, erschüttert es seinen Gegner bis ins Mark."
 	},
 
 }

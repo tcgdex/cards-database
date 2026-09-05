@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Drilbur",
-		fr: "Rototaupe"
+		fr: "Rototaupe",
+		de: "Rotomurf"
 	},
 
 	stage: "Stage1",
@@ -40,11 +41,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Tunnel Strike",
-				fr: "Frappe en Tunnel"
+				fr: "Frappe en Tunnel",
+				de: "Tunnelhieb"
 			},
 			effect: {
 				en: "This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Cette attaque inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+				fr: "Cette attaque inflige 30 dégâts à 1 des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -55,11 +58,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dig Uppercut",
-				fr: "Poing Excavateur"
+				fr: "Poing Excavateur",
+				de: "Schaufelhaken"
 			},
 			effect: {
 				en: "Put a card from your discard pile into your hand.",
-				fr: "Ajoutez une carte de votre pile de défausse à votre main."
+				fr: "Ajoutez une carte de votre pile de défausse à votre main.",
+				de: "Nimm 1 Karte von deinem Ablagestapel auf deine Hand."
 			},
 			damage: 50,
 
@@ -84,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "More than 300 feet below the surface, they build mazelike nests. Their activity can be destructive to subway tunnels.",
+		de: "Sein verworrener Bau liegt 100 Meter tief unter der Erde. Gelegentlich gräbt es auch U-Bahn-Schächte an."
 	},
 
 	thirdParty: {

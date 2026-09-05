@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, Pikachu does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, Pikachu s'inflige 10 dégâts.",
-				de: "Wirf eine Münze. Bei \"Zahl\" fügt Pikachu sich selbst 10 Schadenspunkte zu.",
+				de: "Wirf eine Münze. Bei „Zahl“ fügt Pikachu sich selbst 10 Schadenspunkte zu.",
 				it: "Lancia una moneta. Se esce croce, Pikachu si infligge 10 danni.",
 			},
 			damage: 30,
@@ -75,7 +75,8 @@ const card: Card = {
 	description: {
 		en: "When several of these Pokémon gather, their electricity can cause lightning storms.",
 		fr: "Quand plusieurs de ces Pokémon se réunissent, ils provoquent de gigantesques orages.",
-		it: "Quando diversi Pokémon di questo tipo si riuniscono, generano tanta energia elettrica da scatenare delle tempeste di fulmini. LIV 12 N.25"
+		it: "Quando diversi Pokémon di questo tipo si riuniscono, generano tanta energia elettrica da scatenare delle tempeste di fulmini. LIV 12 N.25",
+		de: "Wenn mehrere dieser Pokémon sich versammeln, kann ihre gesammelte Elektrizität sogar Gewitter verursachen."
 	},
 
 	variants: [
@@ -92,21 +93,24 @@ const card: Card = {
 			subtype: "shadowless",
 			stamp: ["1st-edition"],
 			thirdParty: {
-				tcgplayer: 107055
+				tcgplayer: 107055,
+				cardmarket: 660169
 			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107055
+				tcgplayer: 107055,
+				cardmarket: 660169
 			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless-red-cheek",
 			thirdParty: {
-				tcgplayer: 147229
+				tcgplayer: 147229,
+				cardmarket: 660170
 			},
 		},
 		{
@@ -114,13 +118,29 @@ const card: Card = {
 			subtype: "shadowless-red-cheek",
 			stamp: ["1st-edition"],
 			thirdParty: {
-				tcgplayer: 147229
+				tcgplayer: 147229,
+				cardmarket: 660170
 			},
 		},
 		{
 			type: "normal",
 			subtype: "1999-2000-copyright",
-		}
+		},
+		{
+			type: "normal",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 362859
+			},
+		},
+		{
+			type: "normal",
+			subtype: "unlimited",
+			stamp: ["poketour-99"],
+			thirdParty: {
+				cardmarket: 275586
+			},
+		},
 	],
 }
 

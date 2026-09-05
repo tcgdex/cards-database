@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Durante el próximo turno de tu rival, los ataques de los Pokémon de tu rival hacen 30 puntos de daño menos a todos tus Pokémon (después de aplicar Debilidad y Resistencia). (Esto incluye los nuevos Pokémon que entren en juego).",
 		it: "Durante il prossimo turno del tuo avversario, i tuoi Pokémon subiscono 30 danni in meno dagli attacchi dei Pokémon del tuo avversario, dopo aver applicato debolezza e resistenza. Questo include i nuovi Pokémon entrati in gioco.",
 		pt: "Durante o próximo turno do seu oponente, todos os seus Pokémon receberão 30 pontos de dano a menos de ataques dos Pokémon do seu oponente (depois de aplicar Fraqueza e Resistência). (Isto inclui novos Pokémon que entrarem em jogo.)",
-		de: "Während des nächsten Zuges deines Gegners werden allen deinen Pokémon durch Attacken von Pokémon deines Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden). (Dies schließt neue Pokémon ein, die ins Spiel gebracht werden.)"
+		de: "Während des nächsten Zuges deines Gegners werden allen deinen Pokémon durch Attacken von Pokémon deines Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden). (Dies schließt neue Pokémon ein, die ins Spiel gebracht werden.) Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

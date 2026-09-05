@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Zorua",
-		fr: "Zorua"
+		fr: "Zorua",
+		de: "Zorua"
 	},
 
 	stage: "Stage1",
@@ -41,11 +42,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Brutal Bash",
-				fr: "Ruée Brutale"
+				fr: "Ruée Brutale",
+				de: "Rabiate Krallen"
 			},
 			effect: {
 				en: "Does 20 damage times the number of Darkness Pokémon you have in play.",
-				fr: "Inflige 20 dégâts multipliés par le nombre de Pokémon  que vous avez en jeu."
+				fr: "Inflige 20 dégâts multipliés par le nombre de Pokémon  que vous avez en jeu.",
+				de: "Dieser Angriff fügt 20 Schadenspunkte für jedes {D}-Pokémon, das du im Spiel hast, zu."
 			},
 			damage: 20,
 
@@ -57,11 +60,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Dark Rush",
-				fr: "Assaut Obscur"
+				fr: "Assaut Obscur",
+				de: "Finstere Offensive"
 			},
 			effect: {
 				en: "Does 20 damage times the number of damage counters on this Pokémon.",
-				fr: "Inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon."
+				fr: "Inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts placés sur ce Pokémon.",
+				de: "Dieser Angriff fügt 20 Schadenspunkte für jede Schadensmarke auf diesem Pokémon zu."
 			},
 			damage: 20,
 
@@ -86,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.",
+		de: "Seit jeher beschützt es das Rudel, indem es die Gestalt des Feindes annimmt. Es ist sehr loyal zu seinen Artgenossen."
 	},
 
 	thirdParty: {

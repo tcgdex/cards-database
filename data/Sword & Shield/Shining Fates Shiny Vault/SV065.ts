@@ -53,7 +53,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "A clay slab with cursed engravings took possession of a Yamask. The slab is said to be absorbing the Yamask's dark power."
+		en: "A clay slab with cursed engravings took possession of a Yamask. The slab is said to be absorbing the Yamask's dark power.",
+		de: "Eine Tontafel, auf der ein Fluch eingeritzt wurde, hat Besitz von diesem Makabaja ergriffen. Man sagt, es ziehe seine Kraft aus dem Groll anderer."
 	},
 
 	variants: [

@@ -81,12 +81,13 @@ const card: Card = {
 
 	description: {
 		en: "They live on large trees. They are said to communicate by connecting their tails to those of others.",
+		de: "Sie leben auf hohen Bäumen. Man sagt, sie teilen sich ihre Gefühle mit, indem sie ihre Schweife miteinander verbinden."
 	},
 
 	illustrator: "hncl",
 	variants: [
 		{
-			type: 'normal',
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 857654,
 				tcgplayer: 662127

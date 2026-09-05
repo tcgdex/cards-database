@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Swablu",
 		fr: "Tylton",
+		de: "Wablu"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Bind Wound",
 				fr: "Blessure Pansée",
+				de: "Wunden verbinden"
 			},
 			effect: {
 				en: "Heal 20 damage from 1 of your Pokémon.",
 				fr: "Soignez 20 dégâts à l'un de vos Pokémon.",
+				de: "Heile 20 Schadenspunkte bei 1 deiner Pokémon."
 			},
 
 		},
@@ -59,6 +62,7 @@ const card: Card = {
 
 	description: {
 		en: "Wings and beaks. I like yours, and I like mine, too.",
+		de: "Flügel und Schnäbel. Ich mag deine und auch meine."
 	},
 
 	thirdParty: {

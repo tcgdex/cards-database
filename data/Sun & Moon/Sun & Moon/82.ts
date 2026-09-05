@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Carvanha",
 		fr: "Carvanha",
+		de: "Kanivanha"
 	},
 
 	stage: "Stage1",
@@ -76,7 +77,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño más por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
 				it: "Questo attacco infligge 20 danni in più per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
 				pt: "Este ataque causa 20 pontos de dano a mais para cada Colorless no custo de Recuo do Pokémon Ativo do seu oponente.",
-				de: "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der Colorless-Symbole in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
+				de: "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der {C}-Symbole in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
 			},
 			damage: "60+",
 
@@ -101,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a sad history. In the past, its dorsal fin was a treasured foodstuff, so this Pokémon became a victim of overfishing.",
+		de: "Tohaido hat eine traurige Vergangenheit: Seine Rückenflosse gilt als Delikatesse, weshalb es lange Zeit gnadenlos überfischt wurde."
 	},
 
 	thirdParty: {

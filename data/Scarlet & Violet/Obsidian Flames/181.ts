@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.",
+		de: "Es verfügt über einen fantastischen Geruchssinn, nutzt diesen aber ausschließlich zur Futtersuche, der es sich den lieben langen Tag widmet."
 	},
 
 	variants: [

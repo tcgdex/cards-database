@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cottonee",
 		fr: "Doudouvet",
+		de: "Waumboll"
 	},
 
 	stage: "Stage1",
@@ -92,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "It rides on the wind and slips into people's homes. After it has turned a room into a cotton-filled mess, it giggles to itself and takes off.",
+		de: "Über Luftzüge dringt es in Häuser ein, verstreut in allen Zimmern Watte und macht sich dann lächelnd davon."
 	},
 
 	thirdParty: {

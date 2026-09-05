@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Shelmet",
 		fr: "Escargaume",
+		de: "Schnuthelm"
 	},
 
 	stage: "Stage1",
@@ -86,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Having removed its heavy shell, it becomes very light and can fight with ninja-like movements.",
+		de: "Seit es die schwere Muschel abgestreift hat, ist es viel leichter. Nun gleichen seine Kampfbewegungen denen eines Ninja."
 	},
 
 	thirdParty: {

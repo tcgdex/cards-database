@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Bronzor",
-		fr: "Archeomire"
+		fr: "Archéomire",
+		de: "Bronzel"
 	},
 
 	stage: "Stage1",
@@ -82,7 +83,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Ancient people believed that petitioning Bronzong for rain was the way to make crops grow."
+		en: "Ancient people believed that petitioning Bronzong for rain was the way to make crops grow.",
+		de: "Früher verehrten die Menschen die BRONZONG, weil sie sich davon Regen oder gute Ernten erhofften."
 	},
 
 	variants: [

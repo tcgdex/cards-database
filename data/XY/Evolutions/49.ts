@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "A descendant of the legendary animal baku, which is said to eat dreams. It is skilled at hypnotism.",
+		de: "Ein Nachfahre des legendären Tieres Baku, das der Legende nach Träume fraß. Dieses Pokémon ist ein begnadeter Hypnotiseur."
 	},
 
 	thirdParty: {

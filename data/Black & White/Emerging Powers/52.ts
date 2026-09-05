@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Roggenrola",
 		fr: "Nodulithe",
+		de: "Kiesling"
 	},
 
 	stage: "Stage1",
@@ -42,6 +43,7 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d'Boule",
+				de: "Kopfnuss"
 			},
 
 			damage: 30,
@@ -56,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Hard Crash",
 				fr: "Grosse Gamelle",
+				de: "Einstürzer"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage. If tails, this Pokémon does 20 damage to itself.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires. Si c'est pile, ce Pokémon s'inflige 20 dégâts.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu. Bei „Zahl“ fügt sich dieses Pokémon selbst 20 Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -77,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "Because its energy was too great to be contained, the energy leaked and formed orange crystals.",
+		de: "Energie, die ungehindert aus seinem Körper austrat, hat sich an ihm zu orangefarbenen Kristallen verfestigt."
 	},
 
 	thirdParty: {

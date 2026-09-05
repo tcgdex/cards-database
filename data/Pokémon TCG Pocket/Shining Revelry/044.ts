@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "On pense qu'il fait un nœud à la base de son cou\nafin d'empêcher l'énergie qu'il accumule\ndans son ventre de s'échapper par son bec.",
 		es: "Al parecer, se anudan la base del cuello para\nimpedir que la energía que tienen almacenada\nen el estómago escape por el pico.",
 		it: "Sembra che il nodo che fa alla base del collo\nserva a evitare che l'energia accumulata\nnel suo stomaco fuoriesca dal becco.",
-		de: "Dieses Pokémon verknotet offenbar seinen Hals\nam Ansatz, damit die im Bauch gespeicherte Energie\nnicht über den Schnabel entweicht.",
+		de: "Dieses Pokémon verknotet offenbar seinen Hals am Ansatz, damit die im Bauch gespeicherte Energie nicht über den Schnabel entweicht.",
 		'pt-br': "Pelo visto, este Pokémon amarra a base de seu pescoço\nem um nó para que a energia armazenada\nem sua barriga não escape pelo bico.",
 		ko: "배에 비축해 둔 에너지가\n부리를 통해 새어 나오지 않게 하기 위해\n목 아래쪽을 꼬아 놓은 듯하다."
 	},

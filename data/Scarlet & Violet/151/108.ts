@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "Bug Pokémon are Lickitung's main food source. This Pokémon paralyzes its prey with a lick from its long tongue, then swallows the prey whole.",
+		de: "Es ernährt sich vorwiegend von Käfer-Pokémon. Hat es diese mit der langen Zunge abgeschleckt und dadurch gelähmt, verschlingt es sie im Nu."
 	},
 
 	variants: [

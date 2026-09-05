@@ -85,9 +85,17 @@ const card: Card = {
 
 	description: {
 		en: "Known as a bringer of blessings, it's been depicted on good-luck charms since ancient times.",
+		de: "Man sagt, es verteile Wohltaten. Aus diesem Grund wird sein Abbild seit Urzeiten für Glücksbringer verwendet."
 	},
 
 	variants: [
+		{
+			type: 'normal',
+			stamp: ['pre-release'],
+			thirdParty: {
+				cardmarket: 727120
+			}
+		},
 		{
 			type: 'holo',
 			thirdParty: {
@@ -100,14 +108,8 @@ const card: Card = {
 			type: 'holo',
 			foil: 'cosmos',
 			thirdParty: {
-				cardmarket: 785705
-			}
-		},
-		{
-			type: 'holo',
-			stamp: ['pre-release'],
-			thirdParty: {
-				cardmarket: 727120
+				cardmarket: 785705,
+				tcgplayer: 552783
 			}
 		},
 		{
@@ -122,7 +124,7 @@ const card: Card = {
 
 	illustrator: "Cona Nitanda",
 
-	
+
 }
 
 export default card

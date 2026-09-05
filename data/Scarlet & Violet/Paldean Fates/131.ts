@@ -78,7 +78,8 @@ const card: Card = {
 	illustrator: "Yuu Nishida",
 
 	description: {
-		en: "﻿When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
+		en: "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
+		de: "Ist es wütend, entlädt sich augenblicklich die Elektrizität, die es in seinen Backentaschen gespeichert hat."
 	},
 
 }

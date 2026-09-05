@@ -81,7 +81,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Este ataque hace 20 puntos de daño más por cada cara.",
 				it: "Lancia due volte una moneta. Ogni volta che esce testa, questo attacco infligge 20 danni in più.",
 				pt: "Jogue 2 moedas. Esse ataque causa 20 de danos adicionais para cada cara.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "50+",
 
@@ -106,6 +106,7 @@ const card: Card = {
 
 	description: {
 		en: "An enemy that takes its eyes off any of the three heads—even for a second—will get pecked severely.",
+		de: "Lässt ein Feind auch nur einen der drei Köpfe für nur eine Sekunde aus den Augen, wird er sofort gepickt."
 	},
 
 	thirdParty: {

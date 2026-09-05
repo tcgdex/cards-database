@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Leer",
 				fr: "Groz'yeux",
-				de: "Leer"
+				de: "Silberblick"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon can't attack Totodile during your opponent's next turn. (Benching or evolving either Pokémon ends this effect.)",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer Kaiminus pendant le prochain tour de votre adversaire. (Envoyer l'un des deux Pokémon sur son Banc ou le faire évoluer met fin à cet effet.)",
-				de: "Flip a coin. If heads, the Defending Pokémon can't attack Totodile during your opponent's next turn. (Benching or evolving either Pokémon ends this effect.)"
+				de: "Wirf eine Münze. Bei „Kopf“ kann das verteidigende Pokémon Karnimani während des nächsten Zuges deines Gegners nicht angreifen. (Kommt eins der beiden Pokémon auf die Bank oder entwickelt sich, endet diese Wirkung.)"
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 			name: {
 				en: "Fury Swipes",
 				fr: "Combo-griffe",
-				de: "Fury Swipes"
+				de: "Kratzfurie"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip 3 coins. This attack does 10 damage times the number of heads."
+				de: "Wirf drei Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10x",
 
@@ -72,7 +72,8 @@ const card: Card = {
 
 	description: {
 		en: "Its well-developed jaws are powerful and capable of crushing anything. Even its trainer must be careful.",
-		fr: "Sa mâchoire super développée est puissante et capable de broyer n'importe quoi. Même ses dresseurs doivent être prudents."
+		fr: "Sa mâchoire super développée est puissante et capable de broyer n'importe quoi. Même ses dresseurs doivent être prudents.",
+		de: "Seine gut entwickelten Kiefer sind kräftig und fähig, alles zu zermalmen. Selbst sein Trainer muss Vorsicht walten lassen."
 	},
 
 

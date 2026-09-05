@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Bellossom δ",
 		fr: "Joliflor δ",
-		de: "Blubella"
+		de: "Blubella δ"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gloom",
-		fr: "Ortide"
+		fr: "Ortide",
+		de: "Duflor"
 	},
 
 	stage: "Stage2",

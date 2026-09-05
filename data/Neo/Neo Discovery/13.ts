@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -39,7 +40,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
-				de: "Bite"
+				de: "Biss"
 			},
 
 			damage: 20,
@@ -55,13 +56,13 @@ const card: Card = {
 			name: {
 				en: "Feint Attack",
 				fr: "Feinte",
-				de: "Feint Attack"
+				de: "Finte"
 			},
 
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers or any other effects on the Defending Pokémon.",
 				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 30 dégâts. Les dégâts de l'attaque ne sont pas affectés par la Faiblesse, la Résistance, les Pouvoirs Pokémon ou tout autre effet en action sur le Pokémon Défenseur.",
-				de: "Choose 1 of your opponent's Pokémon. This attack doeas 30 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon."
+				de: "Wähle ein Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 30 Schadenspunkte zu. Die Schadenspunkte aus diesem Angriff werden von Schwäche, Resistenz, Pokémon-Power oder allen anderen Effekten auf das verteidigende Pokémon nicht beeinflusst."
 			},
 
 			damage: "30+"
@@ -79,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "When darkness falls, the rings on the body begin to glow, striking fear in the hearts of anyone nearby.",
-		fr: "Quand la nuit tombe, les anneaux de son corps se mettent à luire, éveillant la peur dans le cœur de ceux qui sont dans les parages."
+		fr: "Quand la nuit tombe, les anneaux de son corps se mettent à luire, éveillant la peur dans le cœur de ceux qui sont dans les parages.",
+		de: "Wenn es dunkel wird, fangen die Ringe in seinem Fell an zu glühen und jagen allen in der Nähe Angst ein."
 	},
 
 

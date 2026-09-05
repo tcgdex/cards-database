@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon 1 de tus Pokémon que no sea un Pokémon V o un Pokémon-GX en tu mano. (Descarta todas las cartas unidas a él).",
 		it: "Prendi uno dei tuoi Pokémon che non è Pokémon-V o un Pokémon-GX e aggiungilo alle carte che hai in mano. Scarta tutte le carte assegnate.",
 		pt: "Coloque 1 dos seus Pokémon que não seja um Pokémon V ou um Pokémon-GX na sua mão (descarte todas as cartas ligadas a ele).",
-		de: "Nimm 1 deiner Pokémon, das kein Pokémon-V oder Pokémon-GX ist, auf deine Hand. (Lege alle angelegten Karten auf deinen Ablagestapel.)"
+		de: "Nimm 1 deiner Pokémon, das kein Pokémon-V oder Pokémon-GX ist, auf deine Hand. (Lege alle angelegten Karten auf deinen Ablagestapel.) Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

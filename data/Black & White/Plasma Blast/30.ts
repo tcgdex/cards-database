@@ -35,10 +35,12 @@ const card: Card = {
 			name: {
 				en: "Outrage",
 				fr: "Colère",
+				de: "Wutanfall"
 			},
 			effect: {
 				en: "Does 10 more damage for each damage counter on this Pokémon.",
 				fr: "Inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon.",
+				de: "Dieser Angriff fügt 10 weitere Schadenspunkte für jede Schadensmarke auf diesem Pokémon zu."
 			},
 			damage: 30,
 
@@ -53,10 +55,12 @@ const card: Card = {
 			name: {
 				en: "Giga Frost",
 				fr: "Giga Givre",
+				de: "Gigafrost"
 			},
 			effect: {
 				en: "Discard 2 Water Energy attached to this Pokémon.",
 				fr: "Défaussez 2 Énergies Water attachées à ce Pokémon.",
+				de: "Lege 2 an dieses Pokémon angelegte {W}-Energien auf deinen Ablagestapel."
 			},
 			damage: 150,
 

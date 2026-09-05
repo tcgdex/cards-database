@@ -6,12 +6,41 @@ const card: Card = {
 	illustrator: "Ryuta Fuse",
 	category: "Trainer",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	regulationMark: "E",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 749245,
+				tcgplayer: 247299
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576725,
+				tcgplayer: 247300
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["professor-program"],
+			thirdParty: {
+				cardmarket: 664818,
+				tcgplayer: 278685
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["gabriel-fernandez"],
+			thirdParty: {
+				cardmarket: 832989,
+				tcgplayer: 541790
+			}
+		},
+	],
 
 	name: {
 		en: "Professor Burnet",
@@ -33,12 +62,6 @@ const card: Card = {
 		pt: "Procure por até 2 cartas no seu baralho e descarte-as. Em seguida, embaralhe o seu baralho.",
 		it: "Cerca nel tuo mazzo fino a due carte e scartale. Poi rimischia le carte del tuo mazzo."
 	},
-
-	regulationMark: "E",
-
-	thirdParty: {
-		cardmarket: 576725
-	}
 }
 
 export default card

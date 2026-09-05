@@ -55,7 +55,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It burrows through the ground at a shallow depth. It leaves raised earth in its wake, making it easy to spot."
+		en: "It burrows through the ground at a shallow depth. It leaves raised earth in its wake, making it easy to spot.",
+		de: "Es gräbt sich in geringer Tiefe durch den Erdboden. Da es dabei durchwühlte Erde an der Oberfläche hinterlässt, ist es leicht zu finden."
 	},
 
 	variants: [

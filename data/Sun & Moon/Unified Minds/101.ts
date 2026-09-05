@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "It looks somehow pained as it rages around in search of light, which serves as its energy. It's apparently from another world.",
+		de: "Diese Kreatur stammt wohl aus einer anderen Welt. Sie wirkt gequält, wenn sie auf der Suche nach Licht, seiner Energiequelle, herumwütet."
 	},
 
 	thirdParty: {

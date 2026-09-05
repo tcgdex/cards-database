@@ -4,7 +4,7 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Swellow",
-		fr: "Heledelle",
+		fr: "Hélédelle",
 		de: "Schwalboss"
 	},
 
@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Taillow",
-		fr: "Nirondelle"
+		fr: "Nirondelle",
+		de: "Schwalbini"
 	},
 
 	stage: "Stage1",

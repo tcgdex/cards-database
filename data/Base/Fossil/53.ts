@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Your opponent can't play Trainer cards during his or her next turn.",
 				fr: "Votre adversaire ne peut pas jouer de carte Dresseur durant son prochain tour.",
-				de: "Dein gegner kann während seines nächsten Zuges keine Trainerkarte spielen."
+				de: "Dein Gegner kann während des nächsten Zuges keine Trainerkarten spielen."
 			},
 
 		},
@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf drei Münzen. Dieser Angriff fügt jedesmal wenn die Münze 'Kopf' zeigt 10 Schadenspunkte zu."
+				de: "Wirf drei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 10 Schadenspunkte zu."
 			},
 			damage: "10x",
 
@@ -72,7 +72,8 @@ const card: Card = {
 
 	description: {
 		en: "While lulling its enemies with its vacant look, this wily Pokémon will use psychokinetic powers.",
-		fr: "Il distrait ses ennemis avec des grimaces débiles et les attaque ensuite avec ses pouvoirs psy."
+		fr: "Il distrait ses ennemis avec des grimaces débiles et les attaque ensuite avec ses pouvoirs psy.",
+		de: "Während es seine Gegner mit seinem leeren Blick hypnotisiert, setzt dieses listige Pokémon psychokinetische Kräfte ein."
 	},
 
 

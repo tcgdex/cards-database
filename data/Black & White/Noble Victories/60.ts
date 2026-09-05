@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Lampent",
 		fr: "Mélancolux",
+		de: "Laternecto"
 	},
 
 	stage: "Stage2",
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Eerie Glow",
 				fr: "Lueur Sinistre",
+				de: "Gruselglühen"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned and Confused.",
 				fr: "Le Pokémon Défenseur est maintenant Brûlé et Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt und verwirrt."
 			},
 			damage: 50,
 
@@ -86,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "It absorbs a spirit, which it then burns. By waving the flames on its arms, it puts its foes into a hypnotic trance.",
+		de: "Es saugt die Seelen seiner Opfer aus und verbrennt sie. Nutzt seine Arme als Pendel, um den Gegner zu hypnotisieren."
 	},
 
 	thirdParty: {

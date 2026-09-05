@@ -104,6 +104,7 @@ const card: Card = {
 
 	description: {
 		en: "When attacked, they create an electric barrier by spitting out many electrically charged threads.",
+		de: "Wird es angegriffen, spuckt es mit vielen elektrisch geladenen Fäden um sich und baut sich eine Elektrobarriere."
 	},
 
 	thirdParty: {

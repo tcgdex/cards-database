@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 20,
@@ -67,6 +69,7 @@ const card: Card = {
 
 	description: {
 		en: "It can deftly dodge its foe's attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
+		de: "Weicht flink gegnerischen Angriffen aus und schießt Flammen aus dem Rüssel, mit denen es gern auch mal Nüsse röstet."
 	},
 
 	thirdParty: {

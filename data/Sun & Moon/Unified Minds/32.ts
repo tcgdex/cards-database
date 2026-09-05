@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Fletchinder",
 		fr: "Braisillon",
+		de: "Dartignis"
 	},
 
 	stage: "Stage2",
@@ -94,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "Its tough wings don't allow fire to pass through them. A long time ago, firefighters' outfits were made from Talonflame wings.",
+		de: "Sein Gefieder ist robust und feuerfest. Früher fertigte man Feuerwehranzüge deshalb aus Fiaro-Federn."
 	},
 
 	thirdParty: {

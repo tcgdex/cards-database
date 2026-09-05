@@ -49,7 +49,7 @@ const card: Card = {
 			es: "El Coste de Retirada de los Pokémon Envenenados de tu rival es de Colorless más.",
 			it: "Il costo di ritirata dei Pokémon avvelenati del tuo avversario aumenta di Colorless.",
 			pt: "O custo de Recuo dos Pokémon Envenenados do seu oponente é Colorless a mais.",
-			de: "Die Rückzugskosten der vergifteten Pokémon deines Gegners erhöhen sich um Colorless."
+			de: "Die Rückzugskosten der vergifteten Pokémon deines Gegners erhöhen sich um {C}."
 		}
 	}],
 
@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Because they scatter germs everywhere, they've long been targeted for extermination, leading to a steep decline in their population.",
+		de: "Da es Krankheitskeime verbreitet, hat man lange versucht, es auszurotten. Heute sieht man es daher nur noch selten."
 	},
 
 	variants: [

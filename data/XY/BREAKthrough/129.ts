@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "They will challenge anything, even strong opponents, without fear. Their frequent fights help them become stronger.",
+		de: "Es zettelt willkürlich Kämpfe an, egal wie stark der Gegner auch ist. Es gewinnt an Stärke, indem es seine Fehler analysiert."
 	},
 
 	thirdParty: {

@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Chimchar",
-		fr: "Ouisticram"
+		fr: "Ouisticram",
+		de: "Panflam"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Fire Tail Slap",
 				fr: "Coup de queue enflammé",
-				de: "Fire Tail Slap"
+				de: "Feuerschweifschlag"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to Monferno.",
 				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Chimpenfeu.",
-				de: "Flip a coin. If tails, discard a  Energy attached to Monferno."
+				de: "Wirf 1 Münze. Bei „Zahl“ entferne 1 {R}-Energie, die an Panpyro angelegt ist, und lege sie auf deinen Ablagestapel."
 			},
 			damage: 40,
 
@@ -54,12 +55,12 @@ const card: Card = {
 			name: {
 				en: "Paralyzing Gaze",
 				fr: "Regard paralysant",
-				de: "Paralyzing Gaze"
+				de: "Lähmender Blick"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -74,7 +75,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It skillfully control the intensity of the fire on its tail to keep its foes at an ideal distance."
+		en: "It skillfully control the intensity of the fire on its tail to keep its foes at an ideal distance.",
+		de: "Es kontrolliert die Stärke des Feuers auf seinem Schweif geschickt, um Gegner auf Distanz zu halten."
 	},
 
 	variants: [

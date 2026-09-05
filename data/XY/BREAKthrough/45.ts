@@ -82,7 +82,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado. Si sale cruz, el Pokémon Activo de tu rival pasa a estar Confundido.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato. Se esce croce, il Pokémon attivo del tuo avversario viene confuso.",
 				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado. Se sair coroa, o Pokémon Ativo do seu oponente ficará Confuso.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert. Bei \"Zahl\" ist das Aktive Pokémon deines Gegners jetzt verwirrt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Aktive Pokémon deines Gegners jetzt paralysiert. Bei „Zahl“ ist das Aktive Pokémon deines Gegners jetzt verwirrt."
 			},
 			damage: 70,
 
@@ -100,6 +100,7 @@ const card: Card = {
 
 	description: {
 		en: "Swallowing large amounts of water, they make snow clouds inside their bodies and, when angry, cause violent blizzards.",
+		de: "Es verschluckt Unmengen an Wasser und wandelt es intern in Schneewolken um. Ist es wütend, erzeugt es Schneestürme."
 	},
 
 	thirdParty: {

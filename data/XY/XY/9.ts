@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Busca en tu baraja un Pokémon Grass, enséñalo y ponlo en tu mano. Baraja las cartas de tu baraja después.",
 				it: "Cerca nel tuo mazzo un Pokémon Grass, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure um Pokémon Grass em seu baralho, revele-o e coloque-o em sua mão. Em seguida, embaralhe seus cards.",
-				de: "Durchsuche dein Deck nach 1 Grass-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach 1 {G}-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 				es: "Lanza una moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
 				pt: "Jogue uma moeda. Se sair cara, este ataque causará 20 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: '20+',
 
@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Its fragrance attracts a swarm of Volbeat, so they draw over 200 patterns in the night sky.",
+		de: "Sein süßer Duft leitet Volbeat an, über 200 verschiedene Lichtmuster an den Nachthimmel zu malen."
 	},
 
 	thirdParty: {

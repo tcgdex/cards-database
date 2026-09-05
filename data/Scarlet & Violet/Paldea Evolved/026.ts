@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon creates a mud ball by mixing sand and dirt with psychic energy. It treasures its mud ball more than its own life.",
+		de: "Es vermischt Erde und Sand mit Psycho-Kräften, um eine Schlammkugel zu formen. Diese schätzt es mehr als sein eigenes Leben."
 	},
 }
 

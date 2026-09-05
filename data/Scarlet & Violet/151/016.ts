@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
+		de: "Reizt man dieses an sich gutmütige Pokémon, wehrt es sich wütend."
 	},
 
 	variants: [

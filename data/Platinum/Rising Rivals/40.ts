@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Gengar GL",
-		fr: "Ectoplasma  Niv. 65",
+		fr: "Ectoplasma GL Niv. 65",
 		de: "Gengar GL"
 	},
 
@@ -54,7 +54,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Put 3 damage counters on 1 of your opponent's Pokémon. You may shuffle Gengar GL and all cards attached to it back into your deck.",
-				fr: "Placez 3 marqueurs de dégât sur 1 des Pokémon de votre adversaire. Vous pouvez mélanger Ectoplasma  ainsi que toutes les cartes qui lui sont attachées avec votre deck.",
+				fr: "Placez 3 marqueurs de dégât sur 1 des Pokémon de votre adversaire. Vous pouvez mélanger Ectoplasma GL ainsi que toutes les cartes qui lui sont attachées avec votre deck.",
 				de: "Lege 3 Schadensmarken auf 1 Pokémon deines Gegners. Du kannst Gengar GL und alle Karten, die an es angelegt sind, in dein Deck mischen."
 			},
 

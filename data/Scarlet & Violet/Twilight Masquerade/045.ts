@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "In autumn, its body becomes more fatty in preparing to propose to a mate. It takes on beautiful colors.",
+		de: "Im Herbst legt es an Gewicht zu und erscheint in prächtigen Farben, um so einen Partner anzulocken."
 	},
 
 	variants: [

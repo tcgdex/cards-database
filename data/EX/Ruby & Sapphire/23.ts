@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Marshtomp",
-		fr: "Flobio"
+		fr: "Flobio",
+		de: "Moorabbel"
 	},
 
 	stage: "Stage2",
@@ -38,8 +39,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), when you attach a Water Energy card from your hand to Swampert, remove 1 damage counter from Swampert.",
-				fr: "Une seule fois pendant votre tour (avant votre attaque), si vous attachez une carte Énergie  de votre main à Laggron, retirez-lui un marqueur de dégât.",
-				de: "Einmal in deinem Zug (vor deinem Angriff), wenn du eine -Energiekarte von der Hand an Sumpex anlegst, entferne 1 Schadensmarke von Sumpex."
+				fr: "Une seule fois pendant votre tour (avant votre attaque), si vous attachez une carte Énergie {W} de votre main à Laggron, retirez-lui un marqueur de dégât.",
+				de: "Einmal in deinem Zug (vor deinem Angriff), wenn du eine {W}-Energiekarte von der Hand an Sumpex anlegst, entferne 1 Schadensmarke von Sumpex."
 			}
 		},
 	],
@@ -57,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Choisissez un des Pokémon de votre adversaire : cette attaque inflige 20 dégâts à ce Pokémon. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
-				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz für Pokémon auf der Bank nicht an.)"
+				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},

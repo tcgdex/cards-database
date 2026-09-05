@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "It is incredibly slow and dopey. It takes five seconds for it to feel pain when under attack.",
+		de: "Ein unglaublich träges und einfältiges Pokémon. Wenn es angegriffen wird, bemerkt es den Schmerz erst fünf Sekunden später."
 	},
 
 	variants: [

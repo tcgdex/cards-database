@@ -27,6 +27,7 @@ const card: Card = {
 	illustrator: "Fujimoto Gold",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [397],
 	hp: 90,
 	types: ["Colorless"],
 	stage: "Stage1",
@@ -78,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "They maintain huge flocks, although fierce scuffles break out between various flocks.",
+		de: "Es neigt dazu, sich in großen Schwärmen zu bewegen. Zwischen diesen kommt es zu heftigen Kämpfen."
 	},
 
 	variants: [

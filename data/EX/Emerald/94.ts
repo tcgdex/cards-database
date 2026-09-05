@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Dusclops ex",
 		fr: "Teraclope ex",
-		de: "Zwirrklop ex"
+		de: "Zwirrklop-ex"
 	},
 
 	illustrator: "Mitsuhiro Arita",

@@ -82,7 +82,8 @@ const card: Card = {
 
 	description: {
 		en: "It is nearly impossible to parry its attacking scythes. Its movements are like a ninja's.",
-		fr: "Ses coups de faux sont pratiquement imparables. Il se déplace comme un ninja."
+		fr: "Ses coups de faux sont pratiquement imparables. Il se déplace comme un ninja.",
+		de: "Es ist fast unmöglich, seinen Sensen auszuweichen, da es mit der Schnelligkeit eines Ninja zuschlägt."
 	},
 
 	thirdParty: {

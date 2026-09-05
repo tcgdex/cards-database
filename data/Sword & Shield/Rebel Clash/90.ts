@@ -91,7 +91,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It's capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve."
+		en: "It's capable of flying faster than 120 mph. It battles alongside Dreepy and dotes on them until they successfully evolve.",
+		de: "Beim Fliegen ist es bis zu 200 km/h schnell. Es kämpft gemeinsam mit Grolldra und kümmert sich bis zu dessen Entwicklung um es."
 	},
 
 	variants: [

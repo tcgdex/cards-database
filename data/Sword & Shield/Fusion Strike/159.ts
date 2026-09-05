@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Eri Yamaki",
 
 	description: {
-		en: "Thought to be the oldest form of Zigzagoon, it moves in zigzags and wreaks havoc upon its surroundings."
+		en: "Thought to be the oldest form of Zigzagoon, it moves in zigzags and wreaks havoc upon its surroundings.",
+		de: "Es hinterlässt überall ein riesiges Chaos, indem es sich im Zickzack bewegt. Hierbei handelt es sich offenbar um die älteste Form von Zigzachs."
 	},
 
 	attacks: [{

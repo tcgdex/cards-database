@@ -56,7 +56,7 @@ const card: Card = {
 				es: "Pon 3 cartas de Energía Fire de tu pila de descartes en tu mano.",
 				it: "Prendi tre carte Energia Fire dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
 				pt: "Coloque 3 cards de Energia Fire da sua pilha de descarte em sua mão.",
-				de: "Nimm 3 Fire-Energiekarten von deinem Ablagestapel auf deine Hand."
+				de: "Nimm 3 {R}-Energiekarten von deinem Ablagestapel auf deine Hand."
 			},
 
 		},
@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
+		de: "Ein hitziger Geselle, der im Kampf seinen dornigen Schweif umherschwingt. Auf seinem Kopf wachsen bittere Kräuter."
 	},
 
 	thirdParty: {

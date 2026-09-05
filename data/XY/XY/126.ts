@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Los Pokémon que tengan alguna Energía Darkness unida a ellos (tanto tuyos como de tu rival) no tienen ninguna Debilidad.",
 		it: "I Pokémon che hanno delle Energie Darkness assegnate, sia tuoi che del tuo avversario, non hanno debolezza.",
 		pt: "Qualquer Pokémon que possuir alguma Energia Darkness ligada a ele (seu e do seu oponente) não terá Fraqueza.",
-		de: "Jedes Pokémon (deine und die deines Gegners), an das Darkness-Energie angelegt ist, hat keine Schwäche."
+		de: "Jedes Pokémon (deine und die deines Gegners), an das {D}-Energie angelegt ist, hat keine Schwäche. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

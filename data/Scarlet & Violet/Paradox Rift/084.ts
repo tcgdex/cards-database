@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon make their homes in piles of scrap metal. They test the strength of each other's hammers by smashing them together.",
+		de: "Sie wohnen in Haufen aus Metallschrott. Um die Stärke ihrer Hämmer zu testen, schlagen sie diese kräftig gegeneinander."
 	},
 
 	variants: [

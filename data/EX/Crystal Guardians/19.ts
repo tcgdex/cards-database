@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Grovyle δ",
 		fr: "Massko δ",
-		de: "Reptain"
+		de: "Reptain δ"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Treecko",
-		fr: "Arcko"
+		fr: "Arcko",
+		de: "Geckarbor"
 	},
 
 	stage: "Stage1",

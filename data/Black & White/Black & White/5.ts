@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Servine",
 		fr: "Lianaja",
+		de: "Efoserp"
 	},
 
 	stage: "Stage2",
@@ -42,6 +43,7 @@ const card: Card = {
 			name: {
 				en: "Vine Whip",
 				fr: "Fouet Lianes",
+				de: "Rankenhieb"
 			},
 
 			damage: 40,
@@ -55,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Leaf Storm",
 				fr: "Tempêteverte",
+				de: "Blättersturm"
 			},
 			effect: {
 				en: "Heal 20 damage from each of your Grass Pokémon.",
 				fr: "Soignez 20 dégâts à chacun de vos Pokémon Grass.",
+				de: "Heile 20 Schadenspunkte bei jedem deiner {G}-Pokémon."
 			},
 			damage: 60,
 
@@ -83,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "They raise their heads to intimidate opponents but only give it their all when fighting a powerful opponent.",
+		de: "Versetzt Gegner in Ehrfurcht, indem es den Kopf weit in die Höhe streckt. Zeigt nur starken Gegnern seine wahre Macht."
 	},
 
 	thirdParty: {

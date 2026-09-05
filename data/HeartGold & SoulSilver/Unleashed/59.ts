@@ -4,7 +4,7 @@ import Set from '../Unleashed'
 const card: Card = {
 	name: {
 		en: "Remoraid",
-		fr: "Remoraid",
+		fr: "Rémoraid",
 		de: "Remoraid"
 	},
 
@@ -66,7 +66,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has superb accuracy. The water it shoots out can strike even moving prey from more than 300 feet."
+		en: "It has superb accuracy. The water it shoots out can strike even moving prey from more than 300 feet.",
+		de: "Es ist äußerst präzise. Es kann mit seinem Wasserschuss Beute erlegen, die 100 Meter entfernt ist."
 	},
 
 	variants: [

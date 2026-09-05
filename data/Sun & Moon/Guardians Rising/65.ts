@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Machoke",
 		fr: "Machopeur",
+		de: "Maschock"
 	},
 
 	stage: "Stage2",
@@ -96,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "It unleashes megaton-level punches that send opponents flying clear over the horizon.",
+		de: "Gegner, die sich ihm in den Weg stellen, werden mit einem Faustschlag, dessen Wucht 1 Million Tonnen übersteigt, gen Horizont geschleudert."
 	},
 
 	thirdParty: {

@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Busca en tu baraja hasta 2 Pokémon Fairy, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo fino a due Pokémon Fairy, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por até 2 Pokémon Fairy no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach bis zu 2 Fairy-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach bis zu 2 {FAIRY}-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "It's not safe without the power of a flower, but it will keep traveling around until it finds one with the color and shape it wants.",
+		de: "Ohne die Kräfte einer Blume ist es relativ schutzlos. Es sucht jedoch so lange, bis es eine findet, deren Form und Farbe ihm zusagt."
 	},
 
 	thirdParty: {

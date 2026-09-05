@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shieldon",
-		fr: "Dinoclier"
+		fr: "Dinoclier",
+		de: "Schilterus"
 	},
 
 	stage: "Stage2",
@@ -86,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "Any frontal attack is repulsed. It is a docile Pokémon that feeds on grass and berries.",
-		fr: "Il résiste à toute attaque frontale. C'est un Pokémon docile qui se nourrit d'herbe et de Baies."
+		fr: "Il résiste à toute attaque frontale. C'est un Pokémon docile qui se nourrit d'herbe et de Baies.",
+		de: "Jeder Frontalangriff wird abgeschmettert. Dieses friedliche PKMN ernährt sich von Gras und Beeren."
 	},
 
 	thirdParty: {

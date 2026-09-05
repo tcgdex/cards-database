@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "The steel section is Varoom's actual body. This Pokémon clings to rocks and converts the minerals within into energy to fuel its activities.",
+		de: "Der stählerne Teil ist sein eigentlicher Körper. Es heftet sich an Felsen, um deren Bestandteile in Energie für sich selbst umzuwandeln."
 	},
 
 	variants: [

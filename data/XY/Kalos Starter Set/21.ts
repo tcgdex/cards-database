@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 30 puntos de daño por cada cara.",
 				it: "Lancia una moneta finché non esce croce. Questo attacco infligge 30 danni ogni volta che esce testa.",
 				pt: "Jogue uma moeda até sair coroa. Esse ataque causa 30 de danos vezes o número de caras.",
-				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: '30x',
 
@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "Apparently this Pokémon is born when a departed spirit inhabits a sword. It attaches itself to people and drinks their life force.",
+		de: "Dieses Pokémon wird geboren, wenn die Seele eines Verstorbenen sich in einem Schwert festsetzt. Es heftet sich an Menschen und saugt deren Lebenskraft aus."
 	},
 
 	thirdParty: {

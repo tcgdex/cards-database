@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Its fangs are long and very sharp. They grow continuously, so it gnaws on hard things to whittle them down.",
+		de: "Seine Reißzähne sind lang und scharf. Da sie ständig wachsen, nagt es immerzu an etwas, um sie abzuwetzen."
 	},
 
 	thirdParty: {

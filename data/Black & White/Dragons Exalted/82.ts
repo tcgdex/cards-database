@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Nosepass",
 		fr: "Tarinor",
+		de: "Nasgnet"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Magnetic Lines",
 				fr: "Lignes Magnétiques",
+				de: "Magnetische Linien"
 			},
 			effect: {
 				en: "You may move an Energy attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon.",
 				fr: "Vous pouvez déplacer une Énergie attachée au Pokémon Défenseur vers 1 des Pokémon de Banc de votre adversaire.",
+				de: "Du kannst 1 an das Verteidigende Pokémon angelegte Energie auf 1 Pokémon auf der Bank deines Gegners verschieben."
 			},
 			damage: 30,
 
@@ -59,10 +62,12 @@ const card: Card = {
 			name: {
 				en: "Heavy Nose",
 				fr: "Pif Paf",
+				de: "Bleierner Zinken"
 			},
 			effect: {
 				en: "If the Defending Pokémon already has any damage counters on it, this attack does 30 more damage.",
 				fr: "Si le Pokémon Défenseur a déjà des marqueurs de dégâts, cette attaque inflige 30 dégâts supplémentaires.",
+				de: "Wenn auf dem Verteidigenden Pokémon bereits mindestens 1 Schadensmarke liegt, fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -87,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "It freely controls three small units called Mini-Noses using magnetic force.",
+		de: "Es steuert drei kleine Einheiten mithilfe von starkem Magnetismus. Man nennt sie Mininasen."
 	},
 
 	thirdParty: {

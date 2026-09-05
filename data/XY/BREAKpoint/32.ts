@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Cada uno de tus Pokémon que tenga alguna Energía Water unida a él no tiene ningún Coste de Retirada.",
 				it: "Nessuno dei tuoi Pokémon che ha delle Energie Water assegnate ha costo di ritirata.",
 				pt: "Cada um dos seus Pokémon que possuir alguma Energia Water ligada não possui Custo para Recuar.",
-				de: "Jedes deiner Pokémon, an das Water-Energie angelegt ist, hat keine Rückzugskosten."
+				de: "Jedes deiner Pokémon, an das {W}-Energie angelegt ist, hat keine Rückzugskosten."
 			},
 		},
 	],

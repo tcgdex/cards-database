@@ -95,7 +95,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "A single Electivire can provide enough electricity for all the buildings in a big city for a year."
+		en: "A single Electivire can provide enough electricity for all the buildings in a big city for a year.",
+		de: "Ein einzelnes Elevoltek erzeugt genügend Elektrizität, um eine Großstadt ein ganzes Jahr lang mit Strom zu versorgen."
 	},
 
 	variants: [

@@ -112,6 +112,7 @@ const card: Card = {
 
 	description: {
 		en: "Corviknight can't serve as a taxi service in Paldea because the Pokémon's natural predators will attack it while it flies, endangering the customer.",
+		de: "In Paldea dient es nicht als Flugtaxi, da die in der Luft erfolgenden Angriffe seiner natürlichen Feinde die Passagiere gefährden würden."
 	},
 }
 

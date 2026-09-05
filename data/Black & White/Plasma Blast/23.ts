@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Snorunt",
 		fr: "Stalgamin",
+		de: "Schneppke"
 	},
 
 	stage: "Stage1",
@@ -64,10 +65,12 @@ const card: Card = {
 			name: {
 				en: "Blizzard",
 				fr: "Blizzard",
+				de: "Blizzard"
 			},
 			effect: {
 				en: "Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 30,
 
@@ -85,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It freezes prey by blowing its -58 degrees F breath. It is said to then secretly display its prey.",
+		de: "Friert Beute durch seinen -50 Grad kalten Atem ein. Es soll diese Beute dann heimlich ausstellen."
 	},
 
 	thirdParty: {

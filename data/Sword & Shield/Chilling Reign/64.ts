@@ -26,7 +26,8 @@ const card: Card = {
 
 	description: {
 		en: "Those who sleep holding Cresselia's feather are assured of joyful dreams. It is said to represent the crescent moon.",
-		fr: "Dormir aec une de ses plumes à la main\npermet de faire de beaux rêves. On le\nsurnomme « avatar d croissant de lune »."
+		fr: "Dormir aec une de ses plumes à la main\npermet de faire de beaux rêves. On le\nsurnomme « avatar d croissant de lune ».",
+		de: "Hält man eine seiner Federn, träumt man süß. Manche glauben, es sei die Verkörperung der Mondsichel."
 	},
 
 	attacks: [
@@ -48,7 +49,7 @@ const card: Card = {
 				es: "Busca en tu baraja 1 carta de Energía Psychic y únela a 1 de tus Pokémon. Si sales segundo y es tu primer turno, busca hasta 3 cartas de Energía Psychic en vez de 1 y únelas a 1 de tus Pokémon. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo una carta Energia Psychic e assegnala a uno dei tuoi Pokémon. Se inizi per secondo ed è il tuo primo turno, invece cerca fino a tre carte Energia Psychic e assegnale a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por 1 carta de Energia Psychic no seu baralho e ligue-a a 1 dos seus Pokémon. Se você for o segundo a jogar e este for o seu primeiro turno, procure por até 3 cartas de Energia Psychic ao invés de 1 e ligue-as a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach 1 Psychic-Energiekarte und lege sie an 1 deiner Pokémon an. Wenn du als Zweiter am Zug bist und es dein erster Zug ist, durchsuche dein Deck stattdessen nach bis zu 3 Psychic-Energiekarten und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach 1 {P}-Energiekarte und lege sie an 1 deiner Pokémon an. Wenn du als Zweiter am Zug bist und es dein erster Zug ist, durchsuche dein Deck stattdessen nach bis zu 3 {P}-Energiekarten und lege sie beliebig an deine Pokémon an. Mische anschließend dein Deck."
 			}
 		},
 		{
@@ -70,7 +71,7 @@ const card: Card = {
 				es: "Si tienes por lo menos 5 Energías en juego, este ataque hace 90 puntos de daño más.",
 				it: "Se hai almeno cinque Energie in gioco, questo attacco infligge 90 danni in più.",
 				pt: "Se você tiver pelo menos 5 Energias em jogo, este ataque causará 90 pontos de dano a mais.",
-				de: "Wenn du mindestens 5 Energien im Spiel hast, fügt diese Attacke 90 Schadenspunkte mehr zu."
+				de: "Wenn du mindestens 5 Energiekarten im Spiel hast, fügt diese Attacke 90 Schadenspunkte mehr zu."
 			},
 			damage: '30+'
 		}

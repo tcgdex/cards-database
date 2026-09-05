@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "Within dense forests, this Pokémon lives in a pack with others of its kind. It's incredibly aggressive, and the other Pokémon of the forest fear it.",
+		de: "Zarude leben gruppenweise in dichten Wäldern und werden von den anderen Pokémon dort gefürchtet, da sie sehr aggressiv sind."
 	},
 
 	

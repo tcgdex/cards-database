@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Savage, violent Pokémon, red and blue Basculin are always fighting each other over territory.",
+		de: "Ein wildes und brutales Pokémon. Rot gestreifte und blau gestreifte Barschuft tragen ständig Kämpfe um ihr Territorium aus."
 	},
 
 	thirdParty: {

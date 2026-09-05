@@ -4,7 +4,7 @@ import Set from '../Triumphant'
 const card: Card = {
 	name: {
 		en: "Electivire",
-		fr: "Elekable",
+		fr: "Élekable",
 		de: "Elevoltek"
 	},
 
@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Electabuzz",
-		fr: "Elektek"
+		fr: "Elektek",
+		de: "Elektek"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Search your discard pile for a Lightning Energy card and attach it to Electivire.",
 				fr: "Cherchez une carte Énergie Lightning dans votre pile de défausse et attachez-la à Elekable.",
-				de: "Durchsuche deinen Ablagestapel nach einer -Energiekarte und lege sie an Elevoltek an."
+				de: "Durchsuche deinen Ablagestapel nach einer {L}-Energiekarte und lege sie an Elevoltek an."
 			},
 			damage: 30,
 
@@ -83,7 +84,8 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "As its electric charge amplifies, blue sparks begin to crackle between its horns."
+		en: "As its electric charge amplifies, blue sparks begin to crackle between its horns.",
+		de: "Bei voller Ladung zucken feurige, blass-weiße Funken zwischen seinen zwei Hörnern hin und her."
 	},
 
 	variants: [

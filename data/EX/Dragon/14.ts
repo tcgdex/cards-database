@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Dratini",
-		fr: "Minidraco"
+		fr: "Minidraco",
+		de: "Dratini"
 	},
 
 	stage: "Stage1",
@@ -37,12 +38,12 @@ const card: Card = {
 			name: {
 				en: "Dazzle Blast",
 				fr: "Explosion de lumière",
-				de: "Dazzle Blast"
+				de: "Blendende Explosion"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -56,12 +57,12 @@ const card: Card = {
 			name: {
 				en: "Healing Wave",
 				fr: "Vague guérisseuse",
-				de: "Healing Wave"
+				de: "Heilungswelle"
 			},
 			effect: {
 				en: "Remove 1 damage counter from each of your Active Pokémon.",
 				fr: "Retirez un marqueur de dégât à chacun de vos Pokémon Actifs.",
-				de: "Remove 1 damage counter from each of your Active Pokémon."
+				de: "Entferne 1 Schadensmarke von allen deinen Aktiven Pokémon."
 			},
 			damage: 30,
 

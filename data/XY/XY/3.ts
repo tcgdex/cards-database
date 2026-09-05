@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Si el Pokémon Activo de tu rival es un Pokémon Grass, este ataque hace 20 puntos de daño más.",
 				it: "Se il Pokémon attivo del tuo avversario è di tipo Grass, questo attacco infligge 20 danni in più.",
 				pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Grass, esse ataque causará 20 de danos adicionais.",
-				de: "Wenn das Aktive Pokémon deines Gegners ein Grass-Pokémon ist, fügt dieser Angriff 20 weitere Schadenspunkte zu."
+				de: "Wenn das Aktive Pokémon deines Gegners ein {G}-Pokémon ist, fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
+		de: "Es lebt bevorzugt in Wäldern und in hohem Gras. Auf dem Kopf trägt es einen circa 5 cm langen, spitzen, giftigen Stachel."
 	},
 
 	thirdParty: {

@@ -92,6 +92,7 @@ const card: Card = {
 
 	description: {
 		en: "It lets out billows of steam and disappears into the dense fog. It's said to live in mountains where humans do not tread.",
+		de: "Es stößt Wasserdampf aus und versteckt sich im dadurch entstehenden dichten Nebel. Es lebt in Bergen, die von Menschen gemieden werden."
 	},
 
 	thirdParty: {

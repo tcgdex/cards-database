@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
 				it: "Lancia una moneta. Se esce testa, scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
 				pt: "Jogue uma moeda. Se sair cara, troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo desse oponente.",
-				de: "Wirf 1 Münze. Tausche bei \"Kopf\" 1 Pokémon auf der Bank deines Gegners gegen das Aktive Pokémon deines Gegners aus."
+				de: "Wirf 1 Münze. Tausche bei „Kopf“ 1 Pokémon auf der Bank deines Gegners gegen das Aktive Pokémon deines Gegners aus."
 			},
 
 		},
@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "As it walks, it munches on a twig in place of a snack. It intimidates opponents by puffing hot air out of its ears.",
+		de: "Anstelle eines Snacks kaut es unterwegs auf einem Zweig herum. Es schreckt Gegner ab, indem es über seine Ohren heiße Luft ausstößt."
 	},
 
 	thirdParty: {

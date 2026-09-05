@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Charmeleon",
-		fr: "Reptincel obscur"
+		fr: "Reptincel obscur",
+		de: "Glutexo"
 	},
 
 	stage: "Stage2",
@@ -57,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a number of coins equal to the number of Energy cards attached to Dark Charizard. This attack does 50 damage times the number of heads. Discard a number of Energy cards attached to Dark Charizard equal to the number of heads.",
 				fr: "Lancez un nombre de pièces égal au nombre d'Énergies  attachées à Dracaufeu obscur. Cette attaque inflige 50 dégâts multipliés par le nombre de faces. Défaussez autant de cartes Énergies  attachées à Dracaufeu obscur que le nombre de faces.",
-				de: "Wirf eine Anzahl Münzen gleich der Anzahl  Energiekarten auf Dunkles Glurak. Dieser Angriff fügt jedesmal, wenn die Münze Kopf zeigt, 50 Schadenspunkte zu. Entferne soviele  Energiekarten von Dukles Glurak wie Kopf geworfen wurde."
+				de: "Wirf eine Anzahl Münzen gleich der Anzahl {R}-Energiekarten auf Dunkles Glurak. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 50 Schadenspunkte zu. Entferne soviele {R}-Energiekarten von Dunkles Glurak wie „Kopf“ geworfen wurde."
 			},
 			damage: "50x",
 
@@ -82,7 +83,8 @@ const card: Card = {
 
 	description: {
 		en: "Seemingly possessed, it spews fire like a volcano, trying to burn all it sees.",
-		fr: "Comme possédé, il crache du feu tel un volcan, essayant de brûler tout ce qu'il voit."
+		fr: "Comme possédé, il crache du feu tel un volcan, essayant de brûler tout ce qu'il voit.",
+		de: "Wie besessen speit es Feuer wie ein Vulkan und versucht alles in seinem Blickfeld zu verbrennen."
 	},
 
 

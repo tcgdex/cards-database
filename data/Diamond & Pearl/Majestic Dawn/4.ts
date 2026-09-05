@@ -44,7 +44,7 @@ const card: Card = {
 			name: {
 				en: "Time Shift",
 				fr: "Modification temporelle",
-				de: 'Zeitverschiebung'
+				de: "Adamant-Orb"
 			},
 			effect: {
 				en: "Draw cards until you have 6 cards in your hand.",
@@ -63,12 +63,12 @@ const card: Card = {
 			name: {
 				en: "Diamond Blast",
 				fr: "Explosion diamant",
-				de: 'Diamantschuss'
+				de: "Zeitverschiebung"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 60 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts plus 20 dégâts supplémentaires.",
-				de: 'Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 60 Schadenspunkte plus 20 weitere Schadenspunkte zu. '
+				de: "Ziehe so viele Karten, bis du 6 Karten auf der Hand hast."
 			},
 			damage: "60+",
 

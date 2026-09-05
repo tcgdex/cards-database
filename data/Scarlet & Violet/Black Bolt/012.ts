@@ -52,7 +52,7 @@ const card: Card = {
 	regulationMark: "I",
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 835926,
 				tcgplayer: 642461
@@ -86,7 +86,8 @@ const card: Card = {
 			foil: "cosmos", 
 			stamp: ["set-logo"],
 			thirdParty: {
-				cardmarket: 865205
+				cardmarket: 865205,
+				tcgplayer: 668956
 			}
 		} 
 	],

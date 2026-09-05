@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "Its spikes are harder than steel. This Pokémon crawls across rock walls by stabbing the spikes on its feelers into the stone.",
+		de: "Seine Dornen sind härter als Stahl. Es bewegt sich fort, indem es seine dornengespickten Schlingen in Felswänden verhakt und sich vorwärtszieht."
 	},
 
 	variants: [

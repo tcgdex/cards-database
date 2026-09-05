@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Stun Needle",
 				fr: "Para-Dard",
+				de: "Betäubungsnadel"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 10,
 
@@ -57,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch.",
+		de: "Es pflanzt sich an großen Pokémon fest und zapft ihnen elektrische Energie ab. Diese hortet es in seinen Ladetaschen."
 	},
 
 	thirdParty: {

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Remoraid",
-		fr: "Rémoraid"
+		fr: "Rémoraid",
+		de: "Remoraid"
 	},
 
 	stage: "Stage1",
@@ -79,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "It lives in the gaps of boulders and in holes on the seafloor. Its suction cups grip prey tightly.",
-		fr: "Il hante les fissures dans la roche et les trous au fond de la mer. Ses ventouses ne lâchent jamais prise."
+		fr: "Il hante les fissures dans la roche et les trous au fond de la mer. Ses ventouses ne lâchent jamais prise.",
+		de: "Es lebt in Gesteinsritzen und Löchern auf dem Meeresboden. Mit Saugnäpfen hält es Beute fest."
 	},
 
 	thirdParty: {

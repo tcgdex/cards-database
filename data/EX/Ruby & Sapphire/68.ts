@@ -31,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras'face",
-				de: "Pound"
+				de: "Pfund"
 			},
 
 			damage: 10,
@@ -45,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Link Blast",
 				fr: "Explosion en série",
-				de: "Link Blast"
+				de: "Vereinigende Explosion"
 			},
 			effect: {
 				en: "If Ralts and the Defending Pokémon have a different amount of Energy attached to them, this attack's base damage is 10 instead of 40.",
 				fr: "Si Tarsal et le Pokémon Défenseur ont un total d'Énergie différent, les dégâts de base de cette attaque sont de 10 et non de 40.",
-				de: "If Ralts and the Defending Pokémon have a different amount of Energy attached to them, this attack's base damage is 10 instead of 40."
+				de: "Wenn an Trasla und dem Verteidigenden Pokémon unterschiedlich viel Energie angelegt ist, beträgt der Grundschaden dieses Angriffs 10 statt 40."
 			},
 			damage: 40,
 

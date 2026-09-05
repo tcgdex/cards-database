@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Foongus",
 		fr: "Trompignon",
+		de: "Tarnpignon"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Toxic",
 				fr: "Toxik",
+				de: "Toxin"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on that Pokémon between turns.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégâts au lieu d'un sur le Pokémon ciblé entre chaque tour.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf das Pokémon."
 			},
 
 		},
@@ -56,10 +59,12 @@ const card: Card = {
 			name: {
 				en: "Body Slam",
 				fr: "Plaquage",
+				de: "Bodyslam"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 30,
 
@@ -84,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "They show off their Poké Ball caps to lure prey, but very few Pokémon are fooled by this.",
+		de: "Um Beute anzulocken, bietet es seinen Hut feil, der einem Pokéball ähnelt. Doch kaum ein Pokémon fällt darauf herein."
 	},
 
 	thirdParty: {

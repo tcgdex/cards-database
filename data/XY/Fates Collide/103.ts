@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Roba 1 carta por cada uno de los Pokémon Básicos en Banca de tu rival.",
 		it: "Pesca una carta per ogni Pokémon Base nella panchina del tuo avversario.",
 		pt: "Compre um card para cada Pokémon Básico no Banco do seu oponente.",
-		de: "Ziehe 1 Karte für jedes Basis-Pokémon auf der Bank deines Gegners."
+		de: "Ziehe 1 Karte für jedes Basis-Pokémon auf der Bank deines Gegners. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

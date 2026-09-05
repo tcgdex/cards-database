@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin for each Energy attached to Exeggcute. Choose 1 of your opponent's Pokémon. For each heads, this attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Lancez une pièce pour chaque Énergie attachée à Noeunoeuf. Choisissez un des Pokémon de votre adversaire. Pour chaque face, cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Wirf 1 Münze für jede an Owei angelegte Energie. Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte mal der Anzahl \"Kopf\" zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Wirf 1 Münze für jede an Owei angelegte Energie. Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte mal der Anzahl „Kopf“ zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -55,7 +55,8 @@ const card: Card = {
 
 	description: {
 		en: "Its six eggs converse using telepathy. They can quickly gather if they become separated.",
-		fr: "Ces six œufs communiquent par télépathie. Ils peuvent se réunir rapidement si on les sépare."
+		fr: "Ces six œufs communiquent par télépathie. Ils peuvent se réunir rapidement si on les sépare.",
+		de: "Die sechs Eier kommunizieren telepathisch. Werden sie getrennt, finden sie sich schnell wieder."
 	},
 
 	thirdParty: {

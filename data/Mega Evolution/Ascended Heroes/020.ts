@@ -49,6 +49,7 @@ const card: Card = {
 
 	description: {
 		en: "The flame on its tail indicates Charmander’s life force. If it is healthy, the flame burns brightly.",
+		de: "Die Flamme auf seiner Schwanzspitze ist ein Zeichen seiner Lebensenergie. Ist es gesund, lodert sie kräftig."
 	},
 
 	variants: [

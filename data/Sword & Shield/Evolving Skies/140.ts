@@ -58,7 +58,7 @@ const card: Card = {
 			es: "Si este Pokémon tiene alguna Energía Fire unida a él, este ataque hace 80 puntos de daño más.",
 			it: "Se questo Pokémon ha delle Energie Fire assegnate, questo attacco infligge 80 danni in più.",
 			pt: "If this Pokémon has any Fire Energy attached, this attack does 80 more damage.",
-			de: "Wenn an dieses Pokémon mindestens 1 Fire-Energie angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu."
+			de: "Wenn an dieses Pokémon mindestens 1 {R}-Energie angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "80+",
@@ -88,7 +88,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Bird Pokémon make up most of its diet. It approaches at high speeds and smacks them down to the ground with its powerful kick."
+		en: "Bird Pokémon make up most of its diet. It approaches at high speeds and smacks them down to the ground with its powerful kick.",
+		de: "Fiaro ernährt sich vor allem von Vogel-Pokémon. Es nähert sich überfallartig seiner Beute und befördert sie mit einem kräftigen Tritt zu Boden."
 	},
 
 	regulationMark: "E",

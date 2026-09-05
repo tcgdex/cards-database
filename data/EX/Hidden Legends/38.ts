@@ -58,7 +58,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may discard all Lightning Energy attached to Lanturn. If you do, this attack's base damage is 90 instead of 50.",
-				fr: "Vous pouvez défausser toutes les Énergies  attachées à Lanturn. Les dégâts de base de cette attaque sont alors de 90 au lieu de 50.",
+				fr: "Vous pouvez défausser toutes les Énergies {L} attachées à Lanturn. Les dégâts de base de cette attaque sont alors de 90 au lieu de 50.",
 				de: "You may discard all  Energy attached to Lanturn. If you do, this attack's base damage is 90 instead of 50."
 			},
 			damage: 50,

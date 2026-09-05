@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Elimina todas las Condiciones Especiales de tu Pokémon Activo.",
 		it: "Rimuovi tutte le Condizioni Speciali dal tuo Pokémon Attivo.",
 		pt: "Remova todas as Condições Especiais do seu Pokémon Ativo.",
-		de: "Alle Speziellen Zustände auf deinen Aktiven Pokémon verlieren ihre Wirkung."
+		de: "Dein Aktives Pokémon erholt sich von allen Speziellen Zuständen. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

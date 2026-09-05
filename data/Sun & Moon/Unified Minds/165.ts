@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "Every day, it tilts its head in the same rhythm. A long time ago, people raised these Pokémon to serve as clocks.",
+		de: "Es neigt seinen Kopf tagein, tagaus in einem festgelegten Rhythmus. Früher verwendete man es als Uhr."
 	},
 
 	thirdParty: {

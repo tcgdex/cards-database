@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Machop",
-		fr: "Machoc"
+		fr: "Machoc",
+		de: "Machollo"
 	},
 
 	stage: "Stage1",
@@ -73,7 +74,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It always goes at its full power, but this very tough and durable Pokémon never gets tired."
+		en: "It always goes at its full power, but this very tough and durable Pokémon never gets tired.",
+		de: "Es kämpft immer mit all seiner Kraft. Dieses Pokémon hat eine enorme Kondition und wird nie müde."
 	},
 
 	variants: [

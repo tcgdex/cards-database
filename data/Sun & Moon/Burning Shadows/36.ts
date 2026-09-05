@@ -58,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "The water stored inside the tuft on its head is full of nutrients. It waters plants with it using its tail.",
+		de: "Das Büschel auf seinem Kopf enthält eine sehr nahrhafte Flüssigkeit, mit der es über seinen Schweif Pflanzen wässert."
 	},
 
 	thirdParty: {

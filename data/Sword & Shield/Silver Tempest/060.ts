@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "It puts its prey to sleep and devours their dreams. It seems that bad dreams taste sour, so Drowzee doesn't particularly like eating them.",
+		de: "Traumato versetzt seine Beute in den Schlaf und frisst ihre Träume. Alpträume mag es aufgrund ihres säuerlichen Geschmacks nicht so gern."
 	},
 
 	variants: [

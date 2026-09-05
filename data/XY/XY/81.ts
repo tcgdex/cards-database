@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía unida al Pokémon Activo de tu rival.",
 				it: "Lancia una moneta. Se esce testa, scarta un'Energia assegnata al Pokémon attivo del tuo avversario.",
 				pt: "Jogue uma moeda. Se sair cara, descarte uma Energia ligada ao Pokémon Ativo do seu oponente.",
-				de: "Wirf 1 Münze. Lege bei \"Kopf\" 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
+				de: "Wirf 1 Münze. Lege bei „Kopf“ 1 an das Aktive Pokémon deines Gegners angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 
 		},
@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Blades comprise this Pokémon's entire body. If battling dulls the blades, it sharpens them on stones by the river.",
+		de: "Sein Körper ist mit Klingen übersät, die es an Felsen eines Fussbettes schärft, wenn sie im Kampf schartig werden."
 	},
 
 	thirdParty: {

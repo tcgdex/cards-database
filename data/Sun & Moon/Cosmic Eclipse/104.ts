@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "It slithers toward people. Then, without warning, it triggers the explosion of its own head. It's apparently one kind of Ultra Beast.",
+		de: "Dieses Wesen ist vermutlich eine Ultrabestie. Es nähert sich Menschen tänzelnd, nur um dann plötzlich seinen Kopf explodieren zu lassen."
 	},
 
 	thirdParty: {

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magneton",
-		fr: "Magneton",
+		fr: "Magnéton",
+		de: "Magneton"
 	},
 
 	stage: "Stage2",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may search your deck for a Lightning or Metal Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward. This power can't be used if Magnezone is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez chercher dans votre deck un Pokémon Lightning ou Metal. Montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck. Ce pouvoir ne peut être utilisé si Magnézone est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dein Deck nach 1 - oder -Pokémon-Karte durchsuchen, sie deinem Gegner zeigen und auf die Hand nehmen. Mische dein Deck danach. Diese Poké-Power kann nicht benutzt werden, wenn Magnezone von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dein Deck nach 1 {L}- oder {M}-Pokémon-Karte durchsuchen, sie deinem Gegner zeigen und auf die Hand nehmen. Mische dein Deck danach. Diese Poké-Power kann nicht benutzt werden, wenn Magnezone von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],

@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gligar",
-		fr: "Scorplane"
+		fr: "Scorplane",
+		de: "Skorgla"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "If, before Gliscor does damage, the Defending Pokémon has no damage counters on it and is then damaged by this attack (after applying Weakness and Resistance), the Defending Pokémon is now Paralyzed.",
 				fr: "Si, avant que Scorvol n’inflige de dégâts, le Pokémon Défenseur n’a aucun marqueur de dégât et qu’il subit ensuite des dégâts à cause de cette attaque (après application de la Faiblesse et de la Résistance), il est maintenant Paralysé.",
-				de: "Falls auf dem Verteidigendem Pokémon vor durch Skorgro zugefügtem Schaden keine Schadensmarken liegen, und ihm durch diesen Angriff Schaden zugefügt wird (nachdem Schwäche und Resistenz verrechnet wurden), ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Falls auf dem Verteidigenden Pokémon vor durch Skorgro zugefügtem Schaden keine Schadensmarken liegen, und ihm durch diesen Angriff Schaden zugefügt wird (nachdem Schwäche und Resistenz verrechnet wurden), ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -84,7 +85,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its flight is soundless. It uses its lengthy tail to carry off its prey… Then its elongated fangs do the rest."
+		en: "Its flight is soundless. It uses its lengthy tail to carry off its prey… Then its elongated fangs do the rest.",
+		de: "Es fliegt völlig lautlos. Erst fängt es seine Beute mit seinem langen Schweif, dann saugt es sie aus."
 	},
 
 	variants: [

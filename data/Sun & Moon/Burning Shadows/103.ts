@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Roughly 20 years ago, it was artificially created, utilizing the latest technology of the time.",
+		de: "Dieses Pokémon wurde vor 20 Jahren künstlich erschaffen. Damals stellte es das Nonplusultra der technischen Möglichkeiten dar."
 	},
 
 	thirdParty: {

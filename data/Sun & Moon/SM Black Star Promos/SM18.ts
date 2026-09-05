@@ -91,6 +91,16 @@ const card: Card = {
 	description: {
 		en: "Fleeing a volcanic eruption, it settled on a snowy mountain. As it races through the snowfields, it sends up a spray of snow.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297618,
+				tcgplayer: 131091
+			}
+		}
+	],
 }
 
 export default card

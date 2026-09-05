@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Klink",
-		fr: "Tic"
+		fr: "Tic",
+		de: "Klikk"
 	},
 
 	stage: "Stage1",
@@ -41,11 +42,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Charge Beam",
-				fr: "Rayon Chargé"
+				fr: "Rayon Chargé",
+				de: "Ladestrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, attach an Energy card from your discard pile to this Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, attachez une carte Énergie de votre pile de défausse à ce Pokémon."
+				fr: "Lancez une pièce. Si c'est face, attachez une carte Énergie de votre pile de défausse à ce Pokémon.",
+				de: "Wirf 1 Münze. Nimm bei „Kopf“ 1 Energiekarte von deinem Ablagestapel und lege sie an dieses Pokémon an."
 			},
 			damage: 20,
 
@@ -58,7 +61,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Vice Grip",
-				fr: "Force Poigne"
+				fr: "Force Poigne",
+				de: "Klammer"
 			},
 
 			damage: 50,
@@ -84,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Spinning minigears are rotated at high speed and repeatedly fired away. It is dangerous if the gears don't return.",
+		de: "Lässt seine Einzelteile rapide rotieren und feuert sie auf Gegner ab. Kehren sie nicht zurück, wird es brenzlig."
 	},
 
 	thirdParty: {

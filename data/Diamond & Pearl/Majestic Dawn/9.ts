@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Discard a Psychic Energy attached to Mewtwo and remove 6 damage counters from Mewtwo.",
 				fr: "Défaussez une Énergie Psychic attachée à Mewtwo et retirez-lui 6 marqueurs de dégât.",
-				de: "Lege 1 an Mewtu angelegte -Energie auf deinen Ablagestapel und entferne 6 Schadensmarken von Mewtu."
+				de: "Lege 1 an Mewtu angelegte {P}-Energie auf deinen Ablagestapel und entferne 6 Schadensmarken von Mewtu."
 			},
 
 		},
@@ -84,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.",
+		de: "Die Gene von MEW wurden neu angeordnet, wodurch dieses PKMN entstand. Es hat ein wildes Herz."
 	},
 
 	thirdParty: {

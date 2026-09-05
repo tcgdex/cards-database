@@ -79,7 +79,7 @@ const card: Card = {
 				es: "Descarta todas las Energías Fire unidas a este Pokémon.",
 				it: "Scarta tutte le Energie Fire assegnate a questo Pokémon.",
 				pt: "Descarte toda a Energia Fire ligada a este Pokémon.",
-				de: "Lege alle an dieses Pokémon angelegten Fire-Energien auf deinen Ablagestapel."
+				de: "Lege alle an dieses Pokémon angelegten {R}-Energien auf deinen Ablagestapel."
 			},
 			damage: 100,
 
@@ -104,6 +104,7 @@ const card: Card = {
 
 	description: {
 		en: "In the fever of an exciting battle, it showers embers from the gaps between its feathers and takes to the air.",
+		de: "Die Aufregung eines harten Kampfes veranlasst es dazu, im Flug Funken aus den Zwischenräumen seines Gefieders zu sprühen."
 	},
 
 	thirdParty: {

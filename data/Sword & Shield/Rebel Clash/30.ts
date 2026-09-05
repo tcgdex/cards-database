@@ -95,7 +95,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Magmortar takes down its enemies by shooting fireballs, which burn them to a blackened crisp. It avoids this method when hunting prey."
+		en: "Magmortar takes down its enemies by shooting fireballs, which burn them to a blackened crisp. It avoids this method when hunting prey.",
+		de: "Es schießt Feuerbälle auf seine Gegner. Da alles, was es damit trifft, verkohlt wird, sieht es auf der Jagd nach Beute von dieser Methode ab."
 	},
 
 	variants: [

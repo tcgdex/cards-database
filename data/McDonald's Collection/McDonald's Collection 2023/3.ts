@@ -41,6 +41,7 @@ const card: Card = {
 			cost: ["Water", "Colorless"],
 			name: {
 				en: "Kick",
+				de: "Tritt"
 			},
 			damage: 20,
 		},

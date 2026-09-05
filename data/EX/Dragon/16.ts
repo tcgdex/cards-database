@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Synchronized Search",
 				fr: "Recherche synchronisée",
-				de: "Synchronized Search"
+				de: "Synchronsuche"
 			},
 			effect: {
 				en: "If Girafarig and the Defending Pokémon have the same amount of Energy attached to them, pick any 1 card from your deck and put it into your hand. Shuffle your deck afterward.",
 				fr: "Si Girafarig et le Pokémon Défenseur possèdent le même total en Énergie, choisissez une carte dans votre deck, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
-				de: "If Girafarig and the Defending Pokémon have the same amount of Energy attached to them, pick any 1 card from your deck and put it into your hand. Shuffle your deck afterward."
+				de: "Falls an Girafarig und dem Verteidigenden Pokémon gleich viel Energie angelegt ist, wähle 1 Karte aus deinem Deck und nimm sie auf deine Hand."
 			},
 
 		},
@@ -48,12 +48,12 @@ const card: Card = {
 			name: {
 				en: "Breaking Impact",
 				fr: "Impact dévastateur",
-				de: "Breaking Impact"
+				de: "Brechender Einfluss"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage for each Colorless Energy in that Pokémon's Retreat Cost to that Pokémon (after applying effects to the Retreat Cost). (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Choisissez un des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts pour chaque Énergie  de son Coût de retraite (après application des effets sur le Coût de retraite). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
-				de: "Choose 1 of your opponent's Pokémon. This attack does 10 damage for each  Energy in that Pokémon's Retreat Cost to that Pokémon (after applying effects to the Retreat Cost). (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				fr: "Choisissez un des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts pour chaque Énergie {C} de son Coût de retraite (après application des effets sur le Coût de retraite). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
+				de: "Wähle 1 gegnerisches Pokémon. Dieser Angriff fügt 10 Schadenspunkte für jede {C}-Energie in den Rückzugskosten des gewählten Pokémon zu (nachdem alle Effekte auf die Rückzugskosten verrechnet wurden). (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},

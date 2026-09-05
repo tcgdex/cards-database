@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "As it flies, it scatters electricity around, so bird Pokémon keep their distance. That's why Emolga can keep all its food to itself.",
+		de: "Vogel-Pokémon halten sich von ihm fern, da es im Flug Strom entlädt. Frei von Konkurrenz kann es seine Beute so für sich allein beanspruchen."
 	},
 
 	

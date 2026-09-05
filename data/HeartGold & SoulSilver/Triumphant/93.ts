@@ -4,7 +4,7 @@ import Set from '../Triumphant'
 const card: Card = {
 	name: {
 		en: "Electrode",
-		fr: "Electrode",
+		fr: "Électrode",
 		de: "Lektrobal"
 	},
 
@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Voltorb",
-		fr: "Voltorbe"
+		fr: "Voltorbe",
+		de: "Voltobal"
 	},
 
 	stage: "Stage1",
@@ -39,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may use this power. If you do, Electrode is Knocked Out. Look at the top 7 cards of your deck. Choose as many Energy cards as you like and attach them to your Pokémon in any way you like. Discard the other cards. This power can't be used if Electrode is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez utiliser ce Poké-Power. Dans ce cas, Electrode est mis K.O. Regardez les 7 cartes du dessus de votre deck. Choisissez autant de cartes Énergie que vous le souhaitez et attachez-les à vos Pokémon comme bon vous semble. Défaussez les autres cartes. Ce Poké-Power ne peut pas être utilisé si Electrode est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du diese Poké-Power benutzen. Wenn du das machst, wird Lektrobal kampfunfähig. Schau dir die obersten 7 Karten deines Decks an. Wähle beliebig viele Energiekarten, die du dort gefunden hast, und lege sie in beliebiger Verteilung an deine Pokémon an. Lege die anderen Karten auf deinen Ablagestapel. Diese Poké-Power kann nicht verwendet werden, wenn Lektrobal von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du diese Poké-Power benutzen. Wenn du das machst, wird Lektrobal kampfunfähig. Schau dir die obersten 7 Karten deines Decks an. Wähle beliebig viele Energiekarten, die du dort gefunden hast, und lege sie in beliebiger Verteilung an deine Pokémon an. Lege die anderen Karten auf deinen Ablagestapel. Diese Poké-Power kann nicht benutzt werden, wenn Lektrobal von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],

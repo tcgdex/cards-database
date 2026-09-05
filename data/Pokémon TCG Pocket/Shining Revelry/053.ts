@@ -23,7 +23,9 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Tinkatink"
+		en: "Tinkatink",
+		fr: "Forgerette",
+		de: "Forgita"
 	},
 
 	description: {
@@ -31,7 +33,7 @@ const card: Card = {
 		fr: "Ce Pokémon attaque des cohortes de Scalpion\net de Scalproie pour rassembler le métal nécessaire\nà la confection d'un grand marteau robuste.",
 		es: "Asalta el séquito entero de un Bisharp para reunir\nmetal con el que forjar su enorme y robusto martillo.",
 		it: "Assalta i branchi capeggiati da Bisharp\nper procurarsi il metallo necessario a\nrealizzare il suo martello grande e resistente.",
-		de: "Es überfällt Gruppen von Gladiantri und Caesurio,\num Metall zu sammeln, das es zum Herstellen seines\ngroßen, robusten Hammers benötigt.",
+		de: "Es überfällt Gruppen von Gladiantri und Caesurio, um Metall zu sammeln, das es zum Herstellen seines großen, robusten Hammers benötigt.",
 		'pt-br': "Este Pokémon ataca grupos de Pawniard e Bisharp com\no intuito de coletar metal deles e\ncriar um martelo grande e resistente.",
 		ko: "크고 튼튼한 해머를 만들기 위해\n절각참 무리를 습격해서\n금속을 모은다."
 	},

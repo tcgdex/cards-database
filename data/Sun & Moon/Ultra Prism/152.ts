@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Roba 3 cartas de la parte inferior de tu baraja.",
 		it: "Pesca tre carte in fondo al tuo mazzo.",
 		pt: "Compre as 3 últimas cartas do seu baralho.",
-		de: "Ziehe 3 Karten von unten aus deinem Deck."
+		de: "Ziehe 3 Karten von unten aus deinem Deck. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

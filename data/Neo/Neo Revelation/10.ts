@@ -4,7 +4,7 @@ import Set from '../Neo Revelation'
 const card: Card = {
 	name: {
 		en: "Magneton",
-		fr: "Magneton",
+		fr: "Magnéton",
 		de: "Magneton"
 	},
 
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magnemite",
-		fr: "Magnéti"
+		fr: "Magnéti",
+		de: "Magnetilo"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Electromagnetic Power",
 				fr: "Pouvoir électromagnétique",
-				de: "Electromagnetic Power"
+				de: "Elektromagnet-Kraft"
 			},
 			effect: {
 				en: "As often as you like during your turn (before your attack), you may take 1 Energy card attached to 1 of your Magnemites, Magnetons, or Dark Magnetons and attach it to a different 1 of your Magnemites, Magnetons, or Dark Magnetons. This power can't be used if Magneton is Asleep, Confused, or Paralyzed.",
 				fr: "Aussi souvent que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez prendre 1 carte Énergie attachée à l'un de vos Magneti, Magneton ou Magneton Obscur et l'attacher à 1 Magneti, Magneton ou Magneton Obscur différent. Ce pouvoir ne peut être utilisé si Magneton est Endormi, Confus ou Paralysé.",
-				de: "As often as you like during your turn (before your attack), you may take 1 Energy card attached to 1 of your Magnemites, Magnetons, or Dark Magnetons and attach it to a different 1 of your Magnemites, Magnetons, or Dark Magnetons. This Power can't be used if Magneton is Asleep, Confused, or Paralyzed."
+				de: "Du darfst in deinem Zug so oft, wie du willst (vor deinem Angriff), eine Energiekarte, die an eines deiner Magnetilos, Magnetons oder Dunklen Magnetons angelegt ist, nehmen und an ein anderes deiner Magnetilos, Magnetons oder Dunklen Magnetons anlegen. Diese Fähigkeit kann nicht verwendet werden, falls Magneton schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "If there are any Energy cards in your discard pile, attach 1 of them to Magneton.",
 				fr: "S'il y a des cartes Énergie  dans votre pile de défausse, attachez-en une à Magneton.",
-				de: "If there are any  Energy cards in your discard pile, attach 1 of them to Magneton."
+				de: "Wenn mindestens eine {L}-Energiekarte in deinem Ablagestapel ist, lege eine davon an Magneton an."
 			},
 			damage: 30,
 
@@ -86,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "Three Magnemites are linked by a strong magnetic force. Earaches will occur if you get too close.",
-		fr: "Trois Magneti sont reliés par une puissante force magnétique. Vous risquez d'avoir mal aux oreilles si vous approchez de trop près."
+		fr: "Trois Magneti sont reliés par une puissante force magnétique. Vous risquez d'avoir mal aux oreilles si vous approchez de trop près.",
+		de: "Jeweils drei Magnetons werden von einer starken magnetischen Kraft zusammengehalten. Wenn du zu nahe herangehst, bekommst du Ohrenschmerzen."
 	},
 
 

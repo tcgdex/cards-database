@@ -16,7 +16,7 @@ const card: Card = {
 
 	effect: {
 		en: "Attach Multi Energy to 1 of your Pokémon. While in play, Multi Energy provides every type of Energy but provides only 1 Energy at a time. (Doesn't count as a basic Energy card when not in play.) Multi energy provides Colorless Energy when attached to a Pokémon that already has Special Energy cards attached to it.",
-		de: "Lege die Multienergiekarte an eines deiner Pokémon an. Die Multienergiekarte liefert jeden Typ von Energie, solange sie im Spiel ist, liefert aber nur eine Energie auf einmal. (Zählt außerhalb des Spiels nicht als Basaisenergiekarte.) Die Multienergiekarte liefert 1 Energie, wenn sie an ein Pokémon angelegt wird, das schon Spezialenergiekarten hat.",
+		de: "Lege Multi-Energie an 1 deiner Pokémon an. Während Multi-Energie im Spiel ist, zählt sie als jeder beliebige Basis-Energietyp, spendet aber immer nur eine Energie auf einmal. (Zählt nicht als Basis-Energiekarte, wenn sie nicht im Spiel ist.) Multi-Energie zählt als {C}-Energie, falls sie an ein Pokémon angelegt wird, an dem bereits eine Spezialenergiekarte angelegt ist.",
 		fr: "Attachez Énergies multiples à un de vos Pokémon. Lorsqu'elle est en jeu, Énergies multiples fournit tous les types d'énergie (un seul à la fois). (Elle ne compte pas comme carte Énergie de base lorsqu'elle n'est pas en jeu). Énergies multiples fournit une Énergie Incolore lorsqu'elle est attachée à un Pokémon qui possède déjà des cartes Énergie Spéciales."
 	},
 

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Vanillite",
 		fr: "Sorbébé",
+		de: "Gelatini"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Ice Beam",
 				fr: "Laser Glace",
+				de: "Eisstrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -58,6 +61,7 @@ const card: Card = {
 			name: {
 				en: "Frost Breath",
 				fr: "Souffle Glacé",
+				de: "Eisesodem"
 			},
 
 			damage: 40,
@@ -76,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It conceals itself from enemy eyes by creating many small ice particles and hiding among them.",
+		de: "Es erzeugt viele kleine Eiskörner, mit denen es sich vor seinen Gegnern versteckt."
 	},
 
 	thirdParty: {

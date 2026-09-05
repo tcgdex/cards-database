@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Frillish",
 		fr: "Viskuse",
+		de: "Quabbel"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Vengeful Wish",
 				fr: "Désir de Vengeance",
+				de: "Rachewunsch"
 			},
 			effect: {
 				en: "If this Pokémon was damaged by an attack during your opponent's last turn, this attack does the same amount of damage to the Defending Pokémon.",
 				fr: "Si ce Pokémon a subi les dégâts d'une attaque pendant le dernier tour de votre adversaire, cette attaque inflige la même quantité de dégâts au Pokémon Défenseur.",
+				de: "Falls diesem Pokémon während des letzten Zuges deines Gegners Schaden durch einen Angriff zugefügt wurde, fügt dieser Angriff dem Verteidigenden Pokémon genauso viel Schaden zu."
 			},
 
 		},
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Absorb Life",
 				fr: "Absorption",
+				de: "Lebensverkoster"
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
 				fr: "Soignez 30 dégâts à ce Pokémon.",
+				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 30,
 
@@ -78,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "They propel themselves by expelling absorbed seawater from their bodies. Their favorite food is life energy.",
+		de: "Es bewegt sich wie mit einer Düse fort, indem es Meerwasser ausstößt. Seine Leibspeise ist Lebensenergie."
 	},
 
 	thirdParty: {

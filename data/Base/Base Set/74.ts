@@ -17,7 +17,7 @@ const card: Card = {
 	effect: {
 		en: "Discard 2 of the other cards from your hand in order to put a Trainer card from your discard pile into your hand.",
 		fr: "Défaussez 2 des autres cartes de votre main pour placer une carte Dresseur de votre pile de défausse dans votre main.",
-		de: "Entferne 2 Karten Deiner Hand, um eine Trainerkarte aus Deinem Ablagestapel aufzunehmen.",
+		de: "Entferne 2 Karten aus Deiner Hand, um eine Trainerkarte aus Deinem Ablagestapel aufzunehmen.",
 		it: "Scarta 2 delle altre carte che hai in mano e sostituiscile con una carta Addestramento presa dalla tua pila degli scarti."
 	},
 
@@ -35,14 +35,16 @@ const card: Card = {
 			subtype: "shadowless",
 			stamp: ["1st-edition"],
 			thirdParty: {
-				tcgplayer: 107072
+				tcgplayer: 107072,
+				cardmarket: 660144
 			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107072
+				tcgplayer: 107072,
+				cardmarket: 660144
 			},
 		},
 		{

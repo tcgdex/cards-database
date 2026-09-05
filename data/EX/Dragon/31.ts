@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Treecko",
-		fr: "Arcko"
+		fr: "Arcko",
+		de: "Geckarbor"
 	},
 
 	stage: "Stage1",
@@ -37,12 +38,12 @@ const card: Card = {
 			name: {
 				en: "Fury Cutter",
 				fr: "Taillade",
-				de: "Fury Cutter"
+				de: "Zornklinge"
 			},
 			effect: {
 				en: "Flip 4 coins. If all of them are heads, this attack does 10 damage plus 60 more damage. If not, this attack does 10 damage plus 10 more damage for each heads.",
 				fr: "Lancez quatre pièces. Si ce sont quatre faces, cette attaque inflige 10 dégâts plus 60 dégâts supplémentaires. Sinon, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires multipliés par le nombre de faces.",
-				de: "Flip 4 coins. If all of them are heads, this attack does 10 damage plus 60 more damage. If not, this attack does 10 damage plus 10 more damage for each heads."
+				de: "Wirf 4 Münzen. Bei 4 mal „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 60 weitere Schadenspunkte zu. Ansonsten fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10+",
 

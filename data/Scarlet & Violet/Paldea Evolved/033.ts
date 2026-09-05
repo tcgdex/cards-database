@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is incredibly popular, possibly because its passionate dancing is a great match with the temperament of Paldean people.",
+		de: "Es ist in Paldea überaus beliebt, da sein feuriger Tanzstil gut zum Temperament der Bewohner zu passen scheint."
 	},
 }
 

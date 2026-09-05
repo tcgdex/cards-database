@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Nasty Goo",
 				fr: "Glu Fétide",
+				de: "Ekelschleim"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "It was born when sludge in a dirty stream was exposed to the moon's X-rays. It appears among filth.",
+		de: "Es wurde geboren, als Schlamm von den Strahlen des Mondes getroffen wurde. Es erscheint, wo Unrat ist."
 	},
 
 	thirdParty: {

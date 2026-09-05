@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Nap",
 				fr: "Tit'Sieste",
+				de: "Nickerchen"
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
 				fr: "Soignez 30 dégâts à ce Pokémon.",
+				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -52,6 +54,7 @@ const card: Card = {
 			name: {
 				en: "Vine Whip",
 				fr: "Fouet Lianes",
+				de: "Rankenhieb"
 			},
 
 			damage: 50,
@@ -77,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Many writhing vines cover it, so its true identity remains unknown. The blue vines grow its whole life long.",
+		de: "Aufgrund der Ranken, die seinen Körper bedecken, kennt keiner seine wahre Form. Die blauen Ranken wachsen immer weiter."
 	},
 
 	thirdParty: {

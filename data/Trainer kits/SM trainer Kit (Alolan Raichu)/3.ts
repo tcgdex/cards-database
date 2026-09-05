@@ -3,7 +3,8 @@ import Set from '../SM trainer Kit (Alolan Raichu)'
 
 const card: Card = {
 	name: {
-		en: "Lightning Energy"
+		en: "Lightning Energy",
+		de: "Elektro-Energie"
 	},
 
 	illustrator: "N/A",

@@ -4,6 +4,7 @@ import Set from '../POP Series 8'
 const card: Card = {
 	name: {
 		en: "Cherrim",
+		de: "Kinoso"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -23,6 +24,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cherubi",
+		de: "Kikugi"
 	},
 
 	stage: "Stage1",
@@ -34,9 +36,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Worry Seed",
+				de: "Sorgensamen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -48,9 +52,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Magical Leaf",
+				de: "Zauberblatt"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage and remove 3 damage counters from Cherrim.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu und entferne 3 Schadensmarken von Kinoso."
 			},
 			damage: "20+",
 
@@ -72,7 +78,8 @@ const card: Card = {
 	],
 
 	description: {
-		en: "It blooms during times of strong sunlight. It tries to make up for everything it endured as a bud."
+		en: "It blooms during times of strong sunlight. It tries to make up for everything it endured as a bud.",
+		de: "In Zeiten mit viel Sonnenschein blüht es auf. Es holt nach, was ihm als Knospe verwehrt blieb."
 	},
 
 	retreat: 2,

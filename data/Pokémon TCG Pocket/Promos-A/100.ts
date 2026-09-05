@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Weavile"
+		en: "Weavile",
+		de: "Snibunna"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -17,18 +18,21 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Sneasel"
+		en: "Sneasel",
+		de: "Sniebel"
 	},
 
 	description: {
-		en: "Evolution made it even more devious.\nIt communicates by clawing signs in boulders."
+		en: "Evolution made it even more devious.\nIt communicates by clawing signs in boulders.",
+		de: "Snibunna wurde durch seine Entwicklung noch verschlagener. Es kommuniziert durch in Felsen gekratzte Zeichen."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Slash"
+			en: "Slash",
+			de: "Schlitzer"
 		},
 
 		damage: 50,

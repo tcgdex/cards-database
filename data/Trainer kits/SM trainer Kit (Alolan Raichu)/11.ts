@@ -27,10 +27,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Astonish"
+				en: "Astonish",
+				de: "Erstauner"
 			},
 			effect: {
-				en: "Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into their deck."
+				en: "Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into their deck.",
+				de: "Wähle 1 zufällige Karte aus der Hand deines Gegners. Dein Gegner zeigt jene Karte und mischt sie in sein Deck."
 			}
 		},
 	],

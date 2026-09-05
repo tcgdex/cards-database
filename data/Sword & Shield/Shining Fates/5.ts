@@ -36,7 +36,7 @@ const card: Card = {
 			es: "Une hasta 2 cartas de Energía Grass de tu pila de descartes a tus Pokémon en Banca de la manera que desees.",
 			it: "Assegna ai tuoi Pokémon in panchina fino a due carte Energia Grass dalla tua pila degli scarti nel modo che preferisci.",
 			pt: "Ligue até 2 cartas de Energia Grass da sua pilha de descarte aos seus Pokémon no Banco como desejar.",
-			de: "Lege bis zu 2 Grass-Energiekarten aus deinem Ablagestapel beliebig an die Pokémon auf deiner Bank an."
+			de: "Lege bis zu 2 {G}-Energiekarten aus deinem Ablagestapel beliebig an die Pokémon auf deiner Bank an."
 		},
 
 		cost: ["Colorless"]
@@ -66,7 +66,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Bunches of delicious fruit grow around its neck. In warm areas, many ranches raise Tropius."
+		en: "Bunches of delicious fruit grow around its neck. In warm areas, many ranches raise Tropius.",
+		de: "Die leckeren Früchte an seinem Hals sind sehr beliebt. In warmen Gebieten gibt es viele Farmen, auf denen Tropius gezüchtet werden."
 	},
 
 	variants: [

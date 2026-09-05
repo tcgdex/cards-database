@@ -65,7 +65,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A very cautious Pokémon, it raises itself up using its tail to get a better view of its surroundings."
+		en: "A very cautious Pokémon, it raises itself up using its tail to get a better view of its surroundings.",
+		de: "Ein sehr vorsichtiges Pokémon. Es stellt sich auf seinen Schweif, um die Umgebung zu überblicken."
 	},
 
 	variants: [

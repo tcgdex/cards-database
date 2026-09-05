@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "It spins on its horn while dealing out elegant kicks. Its horn grows continuously through its lifetime.",
+		de: "Es dreht sich auf seinem Horn um die eigene Achse und teilt dabei elegante Tritte aus. Das Horn wächst sein ganzes Leben lang weiter."
 	},
 
 	variants: [

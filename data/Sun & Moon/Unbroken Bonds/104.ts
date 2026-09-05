@@ -84,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "Its hard pincers are well suited to both offense and defense. Fights between two Crabrawler are like boxing matches.",
+		de: "Seine harten Scheren eignen sich sowohl für offensive als auch defensive Techniken. Kämpfe zwischen zwei Krabbox ähneln Boxkämpfen."
 	},
 
 	thirdParty: {

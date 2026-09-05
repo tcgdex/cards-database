@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Una vez durante el turno de cada jugador, ese jugador puede poner 1 carta de su mano en la parte superior de su baraja.",
 		it: "Una sola volta durante il turno di ciascun giocatore, quel giocatore può prendere una carta che ha in mano e metterla in cima al suo mazzo.",
 		pt: "Uma vez durante o turno de cada jogador, aquele jogador poderá colocar uma carta da própria mão como a carta de cima do próprio baralho.",
-		de: "Einmal während des Zuges jedes Spielers kann jener Spieler 1 Karte aus seiner Hand auf sein Deck legen."
+		de: "Einmal während des Zuges jedes Spielers kann jener Spieler 1 Karte aus seiner Hand auf sein Deck legen. Du kannst während deines Zuges nur 1 Stadionkarte spielen. Lege sie neben die Aktive Position, und lege sie auf den Ablagestapel, wenn eine andere Stadionkarte ins Spiel gebracht wird. Eine Stadionkarte mit demselben Namen kann nicht gespielt werden."
 	},
 
 	trainerType: "Stadium",

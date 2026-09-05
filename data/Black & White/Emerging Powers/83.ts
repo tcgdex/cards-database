@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Powerful Slap",
 				fr: "Grosse Baffe",
+				de: "Kraftklatscher"
 			},
 			effect: {
 				en: "Flip a coin for each Energy attached to this Pokémon. This attack does 40 damage times the number of heads.",
 				fr: "Lancez une pièce pour chaque Énergie attachée à ce Pokémon. Cette attaque inflige 40 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf für jede an dieses Pokémon angelegte Energie 1 Münze. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 40,
 
@@ -53,10 +55,12 @@ const card: Card = {
 			name: {
 				en: "Heal Pulse",
 				fr: "Vibra Soin",
+				de: "Heilwoge"
 			},
 			effect: {
 				en: "Heal 50 damage from 1 of your Pokémon.",
 				fr: "Soignez 50 dégâts à 1 de vos Pokémon.",
+				de: "Heile 50 Schadenspunkte bei 1 deiner Pokémon."
 			},
 
 		},
@@ -73,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "Its auditory sense is astounding. It has a radar-like ability to understand its surrounding through slight sounds.",
+		de: "Hat ein außerordentlich feines Gehör. Es tastet seine Umgebung auf jedes noch so leise Geräusch ab wie ein Radar."
 	},
 
 	thirdParty: {

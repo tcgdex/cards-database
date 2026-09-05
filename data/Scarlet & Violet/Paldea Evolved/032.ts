@@ -104,6 +104,7 @@ const card: Card = {
 
 	description: {
 		en: "The females of a pride work together to bring down prey. It's thanks to them that their pride doesn't starve.",
+		de: "Die Weibchen arbeiten zusammen, um Beute zu erlegen, und stellen so sicher, dass ihr Rudel nicht hungern muss."
 	},
 }
 

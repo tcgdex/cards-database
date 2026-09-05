@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drifloon"
+		en: "Drifloon",
+		fr: "Baudrive"
 	},
 
 	illustrator: "Asako Ito",
@@ -24,13 +25,15 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Wind Blast"
+			en: "Wind Blast",
+			fr: "Vent Explosif"
 		},
 
 		cost: ["Psychic"],
 
 		effect: {
-			en: "This attack does 20 damage to 1 of your opponent's Benched Pokémon."
+			en: "This attack does 20 damage to 1 of your opponent's Benched Pokémon.",
+			fr: "Cette attaque inflige 20 dégâts à un des Pokémon de Banc de votre adversaire."
 		}
 	}],
 

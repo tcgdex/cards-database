@@ -49,7 +49,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chacun des Pokémon de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse ou la Résistance aux Pokémon de Banc).",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff allen Pokémon deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff allen Pokémon deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "Usually, its cries are like quiet murmurs.  If frightened, it shrieks at the same volume as a jet plane.",
+		de: "Normalerweise klingen seine Rufe wie Gemurmel. Hat es aber Angst, ist es so laut wie ein Flugzeug."
 	},
 
 	thirdParty: {

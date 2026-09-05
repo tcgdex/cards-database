@@ -76,21 +76,6 @@ const card: Card = {
 			damage: 160,
 
 		},
-		{
-			cost: [
-				"Fairy",
-				"Fairy",
-				"Fairy",
-			],
-			name: {
-				fr: "Cornes Lumineuses",
-			},
-			effect: {
-				fr: "Ce Pokémon ne peut pas utiliser Cornes Lumineuses pendant votre prochain tour.",
-			},
-			damage: 160,
-
-		},
 	],
 
 	weaknesses: [
@@ -111,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "When the horns on its head shine in seven colors, it is said to be sharing everlasting life.",
+		de: "Es heißt, dieses Pokémon spende ewiges Leben, sobald das Geweih auf seinem Haupt in sieben verschiedenen Farben leuchtet."
 	},
 
 	thirdParty: {

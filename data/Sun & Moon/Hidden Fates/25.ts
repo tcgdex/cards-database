@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Ekans",
 		fr: "Abo",
+		de: "Rettan"
 	},
 
 	illustrator: "MAHOU",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Wrap",
 				fr: "Ligotage",
+				de: "Wickel"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy from your opponent’s Active Pokémon.",
 				fr: "Lancez une pièce. Si c’est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
+				de: "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 10,
 
@@ -53,6 +56,7 @@ const card: Card = {
 
 	description: {
 		en: "By dislocating its jaw, it can swallow prey larger than itself. After a meal, it curls up and rests.",
+		de: "Es hängt seinen Kiefer aus und verschlingt so selbst größere Beute am Stück. Danach rollt es sich zusammen und ruht sich aus."
 	},
 
 	thirdParty: {

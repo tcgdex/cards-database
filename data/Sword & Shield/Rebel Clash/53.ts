@@ -61,7 +61,7 @@ const card: Card = {
 				es: "Descarta 2 cartas de Energía Water de tu mano. Si no lo haces, este ataque no hace nada.",
 				it: "Scarta due carte Energia Water che hai in mano. Se non lo fai, questo attacco non ha effetto.",
 				pt: "Descarte 2 cartas de Energia Water da sua mão. Se não fizer isto, este ataque não fará nada.",
-				de: "Lege 2 Water-Energiekarten aus deiner Hand auf deinen Ablagestapel. Wenn du das nicht machst, hat diese Attacke keine Auswirkungen."
+				de: "Lege 2 {W}-Energiekarten aus deiner Hand auf deinen Ablagestapel. Wenn du das nicht machst, hat diese Attacke keine Auswirkungen."
 			},
 			damage: 130,
 
@@ -84,7 +84,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "This Pokémon has a jaw that's as sharp as a spear and as strong as steel. Apparently Barraskewda's flesh is surprisingly tasty, too."
+		en: "This Pokémon has a jaw that's as sharp as a spear and as strong as steel. Apparently Barraskewda's flesh is surprisingly tasty, too.",
+		de: "Sein Kiefer ist spitz wie ein Speer und hart wie Stahl. Außerdem soll Barrakiefa überraschend deliziös sein."
 	},
 
 	variants: [

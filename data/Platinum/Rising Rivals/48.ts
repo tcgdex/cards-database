@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Scizor E4",
-		fr: "Cizayox  Niv. 49",
+		fr: "Cizayox 4 Niv. 49",
 		de: "Scherox 4"
 	},
 	illustrator: "Kouki Saitou",
@@ -49,7 +49,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				de: "Wirf 1 Münze. Bei „Kopf“ lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 40,
 

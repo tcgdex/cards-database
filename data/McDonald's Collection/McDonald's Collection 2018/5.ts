@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Slowpoke"
+		en: "Slowpoke",
+		de: "Flegmon"
 	},
 
 	rarity: "None",
@@ -21,6 +22,7 @@ const card: Card = {
 			],
 			name: {
 				en: "Headbutt",
+				de: "Kopfnuss"
 			},
 			damage: 10,
 		},
@@ -30,9 +32,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Whimsy Tackle",
+				de: "Launischer Tackle"
 			},
 			effect: {
-				en: "Flip a coin. If tails this attack does nothing."
+				en: "Flip a coin. If tails this attack does nothing.",
+				de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 			},
 			damage: 60
 		},

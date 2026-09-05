@@ -68,7 +68,8 @@ const card: Card = {
 
 	description: {
 		en: "It shakes its head back to front, causing its antennae to hit each other and sound like a xylophone.",
-		fr: "Quand il bascule sa tête d'avant en arrière, ses antennes se heurtent dans un son de xylophone."
+		fr: "Quand il bascule sa tête d'avant en arrière, ses antennes se heurtent dans un son de xylophone.",
+		de: "Es schüttelt seinen Kopf, so dass die beiden Antennen sich berühren und wie ein Xylophon klingen."
 	},
 
 	thirdParty: {

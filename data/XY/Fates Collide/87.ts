@@ -39,7 +39,7 @@ const card: Card = {
 				es: "Bofetón Cola",
 				it: "Codasberla",
 				pt: "Ataque de Cauda",
-				de: "Schweifstreich"
+				de: "Schweifschlag"
 			},
 
 			damage: 20,
@@ -58,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon prefer a tidy habitat. They are always sweeping and dusting, using their tails as brooms.",
+		de: "Ein Pokémon mit Putzfimmel. Es benutzt seinen Schweif als Staubwedel und fegt seinen Bau, bis alles picobello ist."
 	},
 
 	thirdParty: {

@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "The faster a Thwackey can beat out a rhythm with its two sticks, the more respect it wins from its peers.",
+		de: "Je wilder der Beat, den ein Chimstix mit seinen zwei Schlägeln erzeugt, desto mehr wird es von seinen Artgenossen respektiert."
 	},
 
 	variants: [

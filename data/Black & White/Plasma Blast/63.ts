@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Bagon",
 		fr: "Draby",
+		de: "Kindwurm"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Knock Away",
 				fr: "Asticotage",
+				de: "Zurückschlagen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -58,6 +61,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 50,
@@ -76,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.",
+		de: "Die Zellen seines Panzers fingen an, sich zu verändern. Er fällt ab, sobald sich das Pokémon entwickelt."
 	},
 
 	thirdParty: {

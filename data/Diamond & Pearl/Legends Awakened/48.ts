@@ -4,7 +4,7 @@ import Set from '../Legends Awakened'
 const card: Card = {
 	name: {
 		en: "Castform",
-		fr: "Morpheo",
+		fr: "Morphéo",
 		de: "Formeo"
 	},
 
@@ -50,7 +50,7 @@ const card: Card = {
 			name: {
 				en: "Weather Ball",
 				fr: "Ball'météo",
-				de: "Meterologe"
+				de: "Metereologe"
 			},
 			effect: {
 				en: "If you have a Stadium card in play, remove 3 damage counters from Castform. If your opponent has a Stadium card in play, this attack does 30 damage plus 30 more damage.",
@@ -73,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "Its appearance changes with the weather. Recently, its molecules were found to be just like water.",
-		fr: "Son aspect change avec la météo. On a récemment découvert que ses molécules étaient pareilles à l'eau."
+		fr: "Son aspect change avec la météo. On a récemment découvert que ses molécules étaient pareilles à l'eau.",
+		de: "Seine Gestalt ändert sich mit dem Wetter. Vor kurzem entdeckte man, dass seine Moleküle wie Wasser sind."
 	},
 
 	thirdParty: {

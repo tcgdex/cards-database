@@ -46,7 +46,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It was built 20 years ago by scientists who dreamed of exploring space. Their dreams have yet to come true."
+		en: "It was built 20 years ago by scientists who dreamed of exploring space. Their dreams have yet to come true.",
+		de: "Es wurde vor 20 Jahren von Wissenschaftlern erschaffen, die vom Erforschen des Weltraums träumten. Ihr Traum hat sich bisher nicht erfüllt."
 	},
 
 	variants: [

@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Razor Wind",
 				fr: "Coupe-Vent",
+				de: "Klingensturm"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -65,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "This very forgetful Pokémon will wait for a new order from its Trainer even though it already has one.",
+		de: "Wartet oft vergeblich auf Anweisungen, obwohl es bereits einen Befehl erhalten hat. Ein sehr zerstreutes Pokémon."
 	},
 
 	thirdParty: {

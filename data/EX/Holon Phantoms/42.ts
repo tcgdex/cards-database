@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Gloom δ",
 		fr: "Ortide δ",
-		de: "Duflor"
+		de: "Duflor δ"
 	},
 
 	illustrator: "Midori Harada",
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Oddish",
-		fr: "Mystherbe"
+		fr: "Mystherbe",
+		de: "Myrapla"
 	},
 
 	stage: "Stage1",

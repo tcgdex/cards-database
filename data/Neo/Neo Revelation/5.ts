@@ -39,7 +39,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. If exactly 1 is heads, this attack does 40 damage. If exactly 2 are heads, remove 3 damage counters from the Defending Pokémon. If the Defending Pokémon has fewer damage counters than that, remove all of them. If all 3 are heads, this attack does 60 damage. If all 3 are tails, remove all damage counters from the Defending Pokémon.",
 				fr: "Lancez 3 pièces. Si vous obtenez 1 face, cette attaque inflige 40 dégâts. Si vous obtenez 2 faces, retirez 3 marqueurs de dégâts sur le Pokémon Défenseur. Si le nombre de marqueurs de dégâts sur le Pokémon Défenseur est inférieur à ce chiffre, retirez-les tous. Si vous obtenez 3 faces, cette attaque inflige 60 dégâts. Si vous obtenez 3 piles, retirez tous les marqueurs de dégâts sur le Pokémon Défenseur.",
-				de: "Wirf 3 Münzen. Wenn du genau einmal 'Kopf' geworfen hast, fügt dieser Angriff 40 Schadenspunkte zu. Wenn du genau zweimal 'Kopf' geworfen hast, entferne 3 Schadensmarken vom verteidigenden Pokémon. Falls das verteidigende Pokémon weniger Schadensmarken hat, entferne alle. Wenn du genau dreimal 'Kopf' geworfen hast, fügt dieser Angriff 60 Schadenspunkte zu. Wenn du jedesmal 'Zahl' geworfen hast, entferne alle Schadensmarken vom verteidigenden Pokémon."
+				de: "Wirf drei Münzen. Wenn du genau einmal „Kopf“ geworfen hast, fügt dieser Angriff 40 Schadenspunkte zu. Wenn du genau zweimal „Kopf“ geworfen hast, entferne 3 Schadensmarken vom verteidigenden Pokémon. Falls das verteidigende Pokémon weniger Schadensmarken hat, entferne alle. Wenn du genau dreimal „Kopf“ geworfen hast, fügt dieser Angriff 60 Schadenspunkte zu. Wenn du jedesmal „Zahl“ geworfen hast, entferne alle Schadensmarken vom verteidigenden Pokémon."
 			},
 
 		},
@@ -63,7 +63,8 @@ const card: Card = {
 
 	description: {
 		en: "It carries food all day long. There are tales about lost people who were saved by the food it had.",
-		fr: "Il transporte des victuailles toute la journée. On raconte que des gens perdus ont été sauvés grâce à ses réserves de nourriture."
+		fr: "Il transporte des victuailles toute la journée. On raconte que des gens perdus ont été sauvés grâce à ses réserves de nourriture.",
+		de: "Es hat den ganzen Tag lang Essen bei sich. Es gibt Geschichten über Leute, die dadurch vor dem Verhungern gerettet wurden."
 	},
 
 

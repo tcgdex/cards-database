@@ -54,8 +54,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 2 Fighting Energy attached to Hippowdon and choose 2 of your opponent's Benched Pokémon. This attack does 40 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Défaussez 2 Énergies Fighting attachées à Hippodocus et choisissez 2 des Pokémon de Banc de votre adversaire. Cette attaque leur inflige 40 dégâts à chacun. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
-				de: "Lege 2 an Hippoterus angelegte -Energien auf deinen Ablagestapel und wähle 2 Pokémon auf der Bank deines Gegners. Dieser Angriff fügt den gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				fr: "Défaussez 2 Énergies {F} attachées à Hippodocus et choisissez 2 des Pokémon de Banc de votre adversaire. Cette attaque leur inflige 40 dégâts à chacun. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
+				de: "Lege 2 an Hippoterus angelegte {F}-Energien auf deinen Ablagestapel und wähle 2 Pokémon auf der Bank deines Gegners. Dieser Angriff fügt den gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},

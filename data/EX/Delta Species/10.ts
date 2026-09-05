@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Marowak δ",
 		fr: "Ossatueur δ",
-		de: "Knogga"
+		de: "Knogga δ"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -62,7 +62,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If the Defending Pokémon is Metal Pokémon, this attack's base damage is 90.",
-				fr: "Si le Pokémon Défenseur est un Pokémon , les dégâts de base de cette attaque sont de 90.",
+				fr: "Si le Pokémon Défenseur est un Pokémon {M}, les dégâts de base de cette attaque sont de 90.",
 				de: "Wenn das Verteidigende Pokémon ein -Pokémon ist, fügt dieser Angriff 90 Schadenspunkte zu."
 			},
 			damage: 50,

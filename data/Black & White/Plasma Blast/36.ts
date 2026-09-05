@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Psypower",
 				fr: "Puissance Psy",
+				de: "Psy-Power"
 			},
 			effect: {
 				en: "Put 3 damage counters on your opponent's Pokémon in any way you like.",
 				fr: "Placez 3 marqueurs de dégâts sur les Pokémon de votre adversaire, de la manière que vous voulez.",
+				de: "Verteile 3 Schadensmarken beliebig auf die Pokémon deines Gegners."
 			},
 
 		},
@@ -56,6 +58,7 @@ const card: Card = {
 
 	description: {
 		en: "When Uxie flew, people gained the ability to solve problems. It was the birth of knowledge.",
+		de: "Als Selfe flog, erlangten Menschen die Fähigkeit, Probleme zu lösen. Es war die Geburt des Wissens."
 	},
 
 	thirdParty: {

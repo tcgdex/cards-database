@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "They strengthen their lower bodies by running into one another. They are very kind and won't start fights.",
+		de: "Sie stärken ihren Unterleib, indem sie sich gegenseitig anrempeln. Sie sind sehr freundlich und würden niemals einen Streit anfangen."
 	},
 
 	name: {
@@ -26,7 +27,9 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Chespin"
+		en: "Chespin",
+		fr: "Marisson",
+		de: "Igamaro"
 	},
 
 	stage: "Stage1",

@@ -76,7 +76,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow."
+		en: "It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow.",
+		de: "Es ernährt sich von Erde. Nachdem es einen Berg verspeist hat, schläft es ein, um zu wachsen."
 	},
 
 	variants: [

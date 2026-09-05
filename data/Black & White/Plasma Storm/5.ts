@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Combee",
 		fr: "Apitrini",
+		de: "Wadribie"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Gather Order",
 				fr: "Ralliement",
+				de: "Antrittsappell"
 			},
 			effect: {
 				en: "Search your deck for as many Combee as you like and put them onto your Bench. Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck autant d'Apitrini que vous voulez et placez-les sur votre Banc. Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach beliebig vielen Wadribie und lege sie auf deine Bank. Mische anschließend dein Deck."
 			},
 
 		},
@@ -56,10 +59,12 @@ const card: Card = {
 			name: {
 				en: "Damage Beat",
 				fr: "Rouste Ravageuse",
+				de: "Heftige Prügel"
 			},
 			effect: {
 				en: "Does 20 damage times the number of damage counters on the Defending Pokémon.",
 				fr: "Inflige 20 dégâts multipliés par le nombre de marqueurs de dégâts placés sur le Pokémon Défenseur.",
+				de: "Dieser Angriff fügt 20 Schadenspunkte für jede Schadensmarke auf dem Verteidigenden Pokémon zu."
 			},
 			damage: 20,
 
@@ -77,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It houses its colony in cells in its body and releases various pheromones to make those grubs do its bidding.",
+		de: "Es beherbergt Jung-Pokémon in seinem Rumpf, die es mithilfe von verschiedenen Pheromonen frei herumkommandieren kann."
 	},
 
 	thirdParty: {

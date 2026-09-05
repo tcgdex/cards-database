@@ -40,7 +40,8 @@ const card: Card = {
 	illustrator: "tetsuya koizumi",
 
 	description: {
-		en: "Living on muddy ground that provides poor footing has made its legs sturdy."
+		en: "Living on muddy ground that provides poor footing has made its legs sturdy.",
+		de: "Der zähe Morast seiner Heimat hat seine Beine gestählt und ihnen gewaltige Kraft verliehen."
 	},
 
 	attacks: [{

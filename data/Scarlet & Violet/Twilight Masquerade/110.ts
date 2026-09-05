@@ -68,6 +68,7 @@ const card: Card = {
 
 	description: {
 		en: "It slowly brings its exceedingly heavy head down upon the ground, splitting the earth open with huge fissures that run over 160 feet deep.",
+		de: "Schwingt es seinen außerordentlich schweren Kopf langsam zu Boden, kann es gewaltige Erdspalten von 50 m Tiefe verursachen."
 	},
 
 	variants: [

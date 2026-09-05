@@ -4,7 +4,7 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Meganium",
-		fr: "Meganium",
+		fr: "Méganium",
 		de: "Meganie"
 	},
 
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Bayleef",
-		fr: "Macronium"
+		fr: "Macronium",
+		de: "Lorblatt"
 	},
 
 	stage: "Stage2",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. If the first coin is heads, the Defending Pokémon is now Poisoned. If the second coin is heads, the Defending Pokémon is now Burned. If the third coin is heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez 3 pièces. Si la première pièce est face, le Pokémon Défenseur est maintenant Empoisonné. Si la deuxième pièce est face, le Pokémon Défenseur est maintenant Brûlé. Si la troisième pièce est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 3 Münzen. Wenn der erste Wurf \"Kopf\" zeigt, ist das Verteidigende Pokémon jetzt vergiftet. Wenn der zweite Wurf \"Kopf\" zeigt, ist das Verteidigende Pokémon jetzt verbrannt. Wenn der dritte Wurf \"Kopf\" zeigt, ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 3 Münzen. Wenn der erste Wurf „Kopf“ zeigt, ist das Verteidigende Pokémon jetzt vergiftet. Wenn der zweite Wurf „Kopf“ zeigt, ist das Verteidigende Pokémon jetzt verbrannt. Wenn der dritte Wurf „Kopf“ zeigt, ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "If your opponent has any Fire Pokémon in play, this attack does 60 damage plus 30 more damage.",
 				fr: "Si votre adversaire possède des Pokémon Fire en jeu, cette attaque inflige 60 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wenn dein Gegner mindestens 1 -Pokémon im Spiel hat, fügt dieser Angriff 60 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				de: "Wenn dein Gegner mindestens 1 {R}-Pokémon im Spiel hat, fügt dieser Angriff 60 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "60+",
 
@@ -87,7 +88,8 @@ const card: Card = {
 
 	description: {
 		en: "Its breath has the fantastic ability to revive dead plants and flowers.",
-		fr: "Son souffle a l'incroyable capacité de ranimer les plantes et les fleurs flétries."
+		fr: "Son souffle a l'incroyable capacité de ranimer les plantes et les fleurs flétries.",
+		de: "Mit seinem Atem kann es tote Pflanzen und Blumen zu neuem Leben erwecken."
 	},
 
 	thirdParty: {

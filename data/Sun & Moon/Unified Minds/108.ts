@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Shroomish",
 		fr: "Balignon",
+		de: "Knilz"
 	},
 
 	stage: "Stage1",
@@ -92,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "Its short arms stretch when it throws punches. Its technique is equal to that of pro boxers.",
+		de: "Seine kurzen Arme dehnen sich aus, wenn es zuschlägt. Seine Technik ähnelt der von Profi-Boxern."
 	},
 
 	thirdParty: {

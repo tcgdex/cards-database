@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may attach a Water Energy card from your hand to Floatzel. This power can't be used if Floatzel is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie Water de votre main à Mustéflott. Ce pouvoir ne peut pas être utilisé si Mustéflott est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 -Energiekarte aus deiner Hand an Bojelin anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Bojelin von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 {W}-Energiekarte aus deiner Hand an Bojelin anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Bojelin von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],
@@ -71,7 +71,8 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives."
+		en: "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives.",
+		de: "Mit aufgeblasenem Schwimmreif kann es Menschen auf dem Rücken tragen. Lässt es Luft ab, taucht es unter."
 	},
 
 	variants: [

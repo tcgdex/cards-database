@@ -99,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "The pattern on its belly appears to be a frightening face. Weak foes will flee just at the sight of the pattern.",
+		de: "Das Muster auf seinem Bauch ähnelt einer Fratze. Schwache Gegner nehmen bereits beim Anblick Reißaus."
 	},
 
 	thirdParty: {

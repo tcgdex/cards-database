@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Roba cartas hasta que tengas el mismo número de cartas en tu mano que tu rival.",
 		it: "Pesca fino ad avere in mano lo stesso numero di carte del tuo avversario.",
 		pt: "Compre cards até ter em sua mão o mesmo número de cards do seu oponente.",
-		de: "Ziehe so lang Karten, bis du die gleiche Anzahl Karten auf der Hand hast wie dein Gegner."
+		de: "Ziehe so lang Karten, bis du die gleiche Anzahl Karten auf der Hand hast wie dein Gegner. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

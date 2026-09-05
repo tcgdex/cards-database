@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes unir 1 carta de Energía Metal de tu pila de descartes a 1 de tus Pokémon en Banca.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi assegnare a uno dei tuoi Pokémon in panchina una carta Energia Metal dalla tua pila degli scarti.",
 				pt: "Uma vez durante sua vez de jogar (antes de atacar), você poderá ligar um card de Energia Metal da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Metal-Energiekarte von deinem Ablagestapel an 1 Pokémon auf deiner Bank anlegen."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 {M}-Energiekarte von deinem Ablagestapel an 1 Pokémon auf deiner Bank anlegen."
 			},
 		},
 	],
@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "In ages past, this Pokémon was revered as a bringer of rain. It was found buried in the ground.",
+		de: "Man verehrt sie schon seit Urzeiten als Regenmacher. Manchmal findet man eines von ihnen im Boden vergraben."
 	},
 
 	thirdParty: {

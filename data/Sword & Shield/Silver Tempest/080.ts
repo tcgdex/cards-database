@@ -84,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "Whenever a Beheeyem visits a farm, a Dubwool mysteriously disappears.",
+		de: "Jedes Mal, wenn ein Megalon auf einer Farm auftaucht, verschwindet bald darauf ein Zwollock unter mysteriösen Umständen."
 	},
 
 	variants: [

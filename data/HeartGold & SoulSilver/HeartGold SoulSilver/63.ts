@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
 				fr: "Lancez une pièce jusqu’à ce qu’elle tombe sur pile. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf solange eine Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10×",
 
@@ -53,7 +53,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Using telepathy only they can employ, they always form a cluster of six Exeggcute."
+		en: "Using telepathy only they can employ, they always form a cluster of six Exeggcute.",
+		de: "Mit Telepathie, die nur sie verstehen, bilden sie stets eine Gruppe von sechs OWEI."
 	},
 
 	variants: [

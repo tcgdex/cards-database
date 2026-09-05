@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, evita todos los efectos de los ataques, incluido el daño, infligidos a este Pokémon durante el próximo turno de tu rival.",
 				it: "Lancia una moneta. Se esce testa, previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon durante il prossimo turno del tuo avversario.",
 				pt: "Jogue uma moeda. Se sair cara, todos os efeitos dos ataques causados a este Pokémon serão prevenidos, inclusive danos, durante a próxima vez de jogar do seu oponente.",
-				de: "Wirf 1 Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon zugefügt werden."
+				de: "Wirf 1 Münze. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon zugefügt werden."
 			},
 			damage: 10,
 
@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "Its paws conceal sharp claws. If attacked, it suddenly extends the claws and startles its enemy.",
+		de: "In seinen Pfoten stecken scharfe Krallen. Es fährt sie blitzschnell aus, um die Gegner zu überraschen."
 	},
 
 	thirdParty: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Inkay",
 		fr: "Sepiatop",
+		de: "Iscalar"
 	},
 
 	stage: "Stage1",
@@ -102,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "It wields the most compelling hypnotic powers of any Pokémon, and it forces others to do whatever it wants.",
+		de: "Unter allen Pokémon verfügt es über die stärksten hypnotischen Kräfte, mit denen es Gegner nach Belieben kontrollieren kann."
 	},
 
 	thirdParty: {

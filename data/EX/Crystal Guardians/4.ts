@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Charizard δ",
 		fr: "Dracaufeu δ",
-		de: "Glurak"
+		de: "Glurak δ"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -26,7 +26,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Charmeleon",
-		fr: "Reptincel"
+		fr: "Reptincel",
+		de: "Glutexo"
 	},
 
 	stage: "Stage2",
@@ -62,8 +63,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard all Metal Energy attached to Charizard.",
-				fr: "Défaussez toutes les Énergies  attachées à Dracaufeu.",
-				de: "Lege alle an Glurak angelegte -Energie auf deinen Ablagestapel."
+				fr: "Défaussez toutes les Énergies {M} attachées à Dracaufeu.",
+				de: "Lege alle an Glurak angelegte {M}-Energie auf deinen Ablagestapel."
 			},
 			damage: 120,
 

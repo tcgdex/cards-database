@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -40,11 +41,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Attack",
-				fr: "Vive-Attaque"
+				fr: "Vive-Attaque",
+				de: "Ruckzuckhieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -56,11 +59,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Reflect Energy",
-				fr: "Renvoi d'Énergie"
+				fr: "Renvoi d'Énergie",
+				de: "Energiereflexion"
 			},
 			effect: {
 				en: "Move an Energy from this Pokémon to 1 of your Benched Pokémon.",
-				fr: "Déplacez une Énergie de ce Pokémon vers 1 de vos Pokémon de Banc."
+				fr: "Déplacez une Énergie de ce Pokémon vers 1 de vos Pokémon de Banc.",
+				de: "Verschiebe 1 an dieses Pokémon angelegte Energie auf 1 Pokémon auf deiner Bank."
 			},
 			damage: 40,
 
@@ -78,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "By controlling its body heat, it can freeze the atmosphere around it to make a diamond-dust flurry.",
+		de: "Erzeugt ein Diamantstaubgestöber durch das Einfrieren der Luft um sich herum."
 	},
 
 	thirdParty: {

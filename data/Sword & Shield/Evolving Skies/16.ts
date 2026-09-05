@@ -83,7 +83,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "The cotton on the head of this Pokémon can be spun into a glossy, gorgeous yarn—a Galar regional specialty."
+		en: "The cotton on the head of this Pokémon can be spun into a glossy, gorgeous yarn—a Galar regional specialty.",
+		de: "Aus dem Flaum auf seinem Kopf werden wunderschöne, glänzende Fäden gesponnen. Die Galar-Region ist bekannt für dieses Produkt."
 	},
 
 	dexId: [830],

@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to Cyndaquil.",
 				fr: "Lancez une pièce. Si c’est pile, défaussez une Énergie Fire attachée à Héricendre.",
-				de: "Wirf eine Münze. Bei \"Zahl\" lege eine an Feurigel angelegte -Energiekarte auf deinen Ablagestapel."
+				de: "Wirf eine Münze. Bei „Zahl“ lege eine an Feurigel angelegte {R}-Energie auf deinen Ablagestapel."
 			},
 			damage: 20,
 
@@ -53,6 +53,7 @@ const card: Card = {
 
 	description: {
 		en: "It is timid, and always curls itself up in a ball. If attacked, it flares up its back for protection.",
+		de: "Es ist ruhig und kugelt sich stets zusammen. Zum Schutz entflammt es seinen Rücken."
 	},
 
 	variants: [

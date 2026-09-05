@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cura 90 puntos de daño a tu Pokémon Activo.",
 		it: "Cura il tuo Pokémon attivo da 90 danni.",
 		pt: "Cure 90 de danos do seu Pokémon Ativo.",
-		de: "Heile 90 Schadenspunkte bei deinem Aktiven Pokémon."
+		de: "Dein Deck darf nicht mehr als 1 ASS-KLASSE-Karte enthalten. Heile 90 Schadenspunkte bei deinem Aktiven Pokémon. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

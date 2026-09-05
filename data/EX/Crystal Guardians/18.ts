@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Fearow δ",
 		fr: "Rapasdepic δ",
-		de: "Ibitak"
+		de: "Ibitak δ"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Spearow",
-		fr: "Piafabec"
+		fr: "Piafabec",
+		de: "Habitak"
 	},
 
 	stage: "Stage1",

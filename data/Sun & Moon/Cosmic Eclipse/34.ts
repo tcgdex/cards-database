@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "When battling opponents, it sprays fire from its five horns. The max temperature of the flames can reach nearly 5,500 degrees Fahrenheit.",
+		de: "Es bekämpft seine Gegner mithilfe der Flammen, die es aus seinen fünf Hörnern auf sie abfeuert. Diese erreichen Temperaturen bis zu 3 000 °C."
 	},
 
 	thirdParty: {

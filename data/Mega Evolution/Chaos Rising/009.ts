@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years.",
+		de: "Es hat neun lange Schweife und sein Fell glänzt gülden. Man sagt, es soll mindestens 1000 Jahre lang leben."
 	},
 
 	name: {
@@ -26,7 +27,9 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Vulpix"
+		en: "Vulpix",
+		fr: "Goupix",
+		de: "Vulpix"
 	},
 
 	stage: "Stage1",

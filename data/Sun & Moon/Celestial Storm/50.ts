@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Chinchou",
 		fr: "Loupio",
+		de: "Lampi"
 	},
 
 	stage: "Stage1",
@@ -76,7 +77,7 @@ const card: Card = {
 				es: "Puedes descartar todas las Energías Lightning de este Pokémon. Si lo haces, este ataque hace 70 puntos de daño más.",
 				it: "Puoi scartare tutte le Energie Lightning assegnate a questo Pokémon. Se lo fai, questo attacco infligge 70 danni in più.",
 				pt: "Você pode descartar todas as Energias Lightning deste Pokémon. Se fizer isto, este ataque causará 70 pontos de dano a mais.",
-				de: "Du kannst alle Lightning-Energien von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke 70 Schadenspunkte mehr zu."
+				de: "Du kannst alle {L}-Energien von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke 70 Schadenspunkte mehr zu."
 			},
 			damage: "70+",
 
@@ -101,6 +102,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon flashes a bright light that blinds its prey. This creates an opening for it to deliver an electrical attack.",
+		de: "Es blendet seine Beute mit einem starken Blitz. Sieht es eine Chance zuzuschlagen, greift es sie mit Elektrizität an."
 	},
 
 	thirdParty: {

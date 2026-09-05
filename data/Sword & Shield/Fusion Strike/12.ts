@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "0313",
 
 	description: {
-		en: "Once each year, this Pokémon scatters its seeds. They're jam-packed with nutrients, making them a precious food source out in the desert."
+		en: "Once each year, this Pokémon scatters its seeds. They're jam-packed with nutrients, making them a precious food source out in the desert.",
+		de: "Es verstreut ein Mal im Jahr Samen, die jede Menge Nährstoffe enthalten und in der Wüste als kostbares Nahrungsmittel gelten."
 	},
 
 	attacks: [{

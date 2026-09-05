@@ -90,7 +90,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It begins to hoot at the same time every day. Some Trainers use them in place of clocks."
+		en: "It begins to hoot at the same time every day. Some Trainers use them in place of clocks.",
+		de: "Es stößt immer zur gleichen Uhrzeit seinen Ruf aus. Einige Trainer nehmen es deswegen statt einer Armbanduhr mit."
 	},
 
 	dexId: [163],

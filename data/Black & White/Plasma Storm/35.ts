@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Snow Squall",
 				fr: "Rafale de Neige",
+				de: "Schneeböe"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 10,
 
@@ -57,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "Theoretically, this Pokémon formed from icicles bathed in energy from the morning sun. Their breath is -58° F.",
+		de: "Ein Eiszapfen, der durch die Energie der aufgehenden Sonne zum Pokémon wurde. Es speit minus 50 Grad kalten Odem."
 	},
 
 	thirdParty: {

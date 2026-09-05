@@ -22,7 +22,7 @@ const card: Card = {
 		es: "El Pokémon-GX o Pokémon-EX al que esté unida esta carta tiene 100 PS menos y, cuando quede Fuera de Combate por el daño de un ataque de tu rival, ese jugador coge 1 carta de Premio menos.",
 		it: "Il Pokémon-GX o il Pokémon-EX a cui è assegnata questa carta ha 100 PS in meno e quando viene messo KO dai danni di un attacco dell’avversario, quel giocatore prende una carta Premio in meno.",
 		pt: "O Pokémon-GX ou Pokémon-EX ao qual esta carta está ligada recebe 100 PS a menos, e quando ele for Nocauteado pelo dano de um ataque do seu oponente, aquele jogador pegará 1 carta de Prêmio a menos.",
-		de: "Das Pokémon-GX oder Pokémon-EX, an das diese Karte angelegt ist, erhält 100 KP weniger, und wenn es durch Schaden einer Attacke des Gegners kampfunfähig wird, nimmt jener Spieler 1 Preiskarte weniger."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Das Pokémon-GX oder Pokémon-EX, an das diese Karte angelegt ist, erhält 100 KP weniger, und wenn es durch Schaden einer Attacke des Gegners kampfunfähig wird, nimmt jener Spieler 1 Preiskarte weniger. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

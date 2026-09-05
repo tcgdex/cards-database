@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d'Boule",
+				de: "Kopfnuss"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Beat",
 				fr: "Bataille",
+				de: "Verprügler"
 			},
 
 			damage: 20,
@@ -74,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "When it thinks of its dead mother, it cries. Its crying makes the skull it wears rattle hollowly.",
+		de: "Denkt es an seine verstorbene Mutter, weint es, wobei der Schädel auf seinem Kopf hohl klingt."
 	},
 
 	thirdParty: {

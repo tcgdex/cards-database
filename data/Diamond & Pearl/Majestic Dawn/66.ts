@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "It enshrouds itself with sand to protect itself from germs. It does not enjoy getting wet.",
+		de: "Es bedeckt sich mit Sand, um sich vor Keimen zu schützen. Es mag es gar nicht, wenn es nass wird."
 	},
 
 	thirdParty: {

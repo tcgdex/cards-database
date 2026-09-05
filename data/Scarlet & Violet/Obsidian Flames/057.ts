@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "Its swiftness is unparalleled. It can scale a tower of more than 600 metres in a minute's time.",
+		de: "Seine Flinkheit sucht ihresgleichen. Es kann einen 600 m hohen Turm in weniger als einer Minute erklimmen."
 	},
 
 	variants: [
@@ -78,7 +79,8 @@ const card: Card = {
 			type: 'holo',
 			foil: 'cosmos',
 			thirdParty: {
-				cardmarket: 781858
+				cardmarket: 781858,
+				tcgplayer: 562170
 			}
 		},
 		{
@@ -93,7 +95,7 @@ const card: Card = {
 
 	illustrator: "Tonji Matsuno",
 
-	
+
 }
 
 export default card

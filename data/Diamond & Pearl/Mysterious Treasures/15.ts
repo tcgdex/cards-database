@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pikachu",
-		fr: "Pikachu"
+		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Search your deck for up to 2 Lightning Energy cards and attach them to 1 of your Pokémon. Shuffle your deck afterward.",
 				fr: "Choisissez dans votre deck jusqu'à 2 cartes Énergie Lightning et attachez-les à 1 de vos Pokémon. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach bis zu 2 -Energiekarten und lege sie an 1 deiner Pokémon an. Mische dein Deck danach."
+				de: "Durchsuche dein Deck nach bis zu 2 {L}-Energiekarten und lege sie an 1 deiner Pokémon an. Mische dein Deck danach."
 			},
 
 		},
@@ -58,7 +59,7 @@ const card: Card = {
 			effect: {
 				en: "Discard all basic Lightning Energy cards attached to Raichu. This attack does 30 damage times the number of Lightning Energy cards you discarded.",
 				fr: "Défaussez toutes les cartes Énergie Lightning attachées à Raichu. Cette attaque inflige 30 dégâts multipliés par le nombre de cartes Énergie défaussées.",
-				de: "Lege alle an Raichu angelegten -Basis-Energiekarten auf deinen Ablagestapel. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl der auf diese Weise auf den Ablagestapel gelegten -Energiekarten zu."
+				de: "Lege alle an Raichu angelegten {L}-Basis-Energiekarten auf deinen Ablagestapel. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl der auf diese Weise auf den Ablagestapel gelegten {L}-Energiekarten zu."
 			},
 			damage: "30x",
 
@@ -83,7 +84,8 @@ const card: Card = {
 
 	description: {
 		en: "It turns aggressive if it has too much electricity in its body. It discharges power through its tail.",
-		fr: "Il devient agressif lorsque son corps contient trop d'électricité. Il la décharge par sa queue."
+		fr: "Il devient agressif lorsque son corps contient trop d'électricité. Il la décharge par sa queue.",
+		de: "Bei zu viel Elektrizität im Körper wird es aggressiv. Es entlädt sich über seinen Schweif."
 	},
 
 	thirdParty: {

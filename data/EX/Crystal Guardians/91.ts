@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Delcatty ex",
 		fr: "Delcatty ex",
-		de: "Enekoro ex"
+		de: "Enekoro-ex"
 	},
 
 	illustrator: "Shizurow",
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Skitty",
-		fr: "Skitty"
+		fr: "Skitty",
+		de: "Eneco"
 	},
 
 	suffix: "ex",

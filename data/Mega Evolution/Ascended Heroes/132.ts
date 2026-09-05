@@ -93,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "Its voice is staggering in volume. Obstagoon has a tendency to take on a threatening posture and shout—this move is known as Obstruct.",
+		de: "Es verfügt über eine beeindruckende Stimmkraft. Sein von Schreien begleitetes Drohverhalten nennt man auch „Abblocker“."
 	},
 
 	variants: [

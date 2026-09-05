@@ -92,6 +92,16 @@ const card: Card = {
 	description: {
 		en: "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 366050,
+				tcgplayer: 180528
+			}
+		}
+	],
 }
 
 export default card

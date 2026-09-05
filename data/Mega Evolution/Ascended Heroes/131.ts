@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "It uses its long tongue to taunt opponents. Once the opposition is enraged, this Pokémon hurls itself at the opponent, tackling them forcefully.",
+		de: "Mit seiner langen Zunge provoziert es seine Beute, bis diese vor Wut kocht. Danach rammt es sie mit voller Wucht."
 	},
 
 	variants: [

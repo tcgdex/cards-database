@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "The black orbs shine with an uncanny light when the Pokémon is erecting invisible barriers. The fur shed from its beard retains heat well and is a highly useful material for winter clothing.",
+		de: "Die schwarzen Kugeln leuchten auf ominöse Weise, wenn es unsichtbare Wände erschafft. Das Barthaar, das es verliert, wird als Material für warme Winterkleidung hoch geschätzt."
 	},
 
 	variants: [

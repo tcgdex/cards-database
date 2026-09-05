@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "tetsuya koizumi",
 
 	description: {
-		en: "No number of injuries can bother Staryu. Its amazing regenerative powers return it to its previous state in half a day!"
+		en: "No number of injuries can bother Staryu. Its amazing regenerative powers return it to its previous state in half a day!",
+		de: "Verletzungen machen diesem Pokémon nichts aus. Dank seiner Regenerationsfähigkeit ist es einen halben Tag später schon wieder wie neu."
 	},
 
 	attacks: [{

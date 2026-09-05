@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Fin Smack",
 				fr: "Coud'nageoire",
-				de: "Fin Smack"
+				de: "Flossenknaller"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
+				de: "Wirf zwei Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10x",
 
@@ -54,7 +54,8 @@ const card: Card = {
 
 	description: {
 		en: "Its dorsal, pectoral and tail fins wave elegantly in the water. That is why it is known as the water dancer.",
-		fr: "Ses nageoires dorsales, pectorales et sa queue s'agitent élégamment dans l'eau. C'est pour cette raison qu'on le surnomme le danseur aquatique."
+		fr: "Ses nageoires dorsales, pectorales et sa queue s'agitent élégamment dans l'eau. C'est pour cette raison qu'on le surnomme le danseur aquatique.",
+		de: "Seine Rücken-, Brust- und Schwanzflossen wedeln elegant zu Wasser. Daher nennt man sie auch Wassertänzer."
 	},
 
 

@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "It skillfully commands its grubs in battles with its enemies. The grubs are willing to risk their lives to defend Vespiquen.",
+		de: "Es hat die Kontrolle über seine Nachkommen. Diese würden im Kampf ihr Leben aufs Spiel setzen, um es vor Feinden zu schützen."
 	},
 
 	variants: [

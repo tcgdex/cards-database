@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Psyduck",
-		fr: "Psykokwak"
+		fr: "Psykokwak",
+		de: "Enton"
 	},
 
 	stage: "Stage1",
@@ -34,12 +35,12 @@ const card: Card = {
 			name: {
 				en: "Chaos Flash",
 				fr: "Flash chaotique",
-				de: "Chaos Flash"
+				de: "Chaosblitz"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if Golduck is your Active Pokémon, you may flip a coin. If heads, the Defending Pokémon (choose 1 if there are 2) is now Confused. This power can't be used if Golduck is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), si Akwakwak est votre Pokémon Actif, vous pouvez lancer une pièce. Si c'est face, le Pokémon Défenseur (choisissez en un s'il y en a deux) est maintenant Confus. Ce pouvoir ne peut pas être utilisé si Akwakwak est affecté par un État Spécial.",
-				de: "Once during your turn (before your attack), if Golduck is your Active Pokémon, you may flip a coin. If heads, the Defending Pokémon (choose 1 if there are 2) is now Confused. This power can't be used if Golduck is affected by a Special Condition."
+				de: "Einmal während deines Zuges (vor deinem Angriff), wenn Entoron dein Aktives Pokémon ist, kannst du eine Münze werfen. Bei „Kopf“ ist das Verteidigende Pokémon (wähle 1, falls es 2 gibt) jetzt verwirrt. Diese Poké-Power kann nicht verwendet werden, falls Entoron von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],
@@ -53,12 +54,12 @@ const card: Card = {
 			name: {
 				en: "Special Blow",
 				fr: "Coup spécial",
-				de: "Special Blow"
+				de: "Spezialschlag"
 			},
 			effect: {
 				en: "If the Defending Pokémon has any Special Energy cards attached to it, this attack does 30 damage plus 40 more damage.",
 				fr: "Si le Pokémon Défenseur possède une ou plusieurs cartes Énergie Spéciales, cette attaque inflige 70 dégâts.",
-				de: "If the Defending Pokémon has any Special Energy cards attached to it, this attack does 30 damage plus 40 more damage."
+				de: "Falls an dem Verteidigenden Pokémon Spezialenergiekarten angelegt sind, fügt dieser Angriff 30 Schadenspunkte plus 40 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 

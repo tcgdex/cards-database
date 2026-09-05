@@ -4,7 +4,7 @@ import Set from '../Diamond & Pearl'
 const card: Card = {
 	name: {
 		en: "Magnemite",
-		fr: "Magneti",
+		fr: "Magnéti",
 		de: "Magnetilo"
 	},
 
@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -80,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "The units at its sides generate electromagnetic waves that keep it airborne. It feeds on electricity.",
-		fr: "Ses extrémités génèrent les vagues électromagnétiques qui le font voler. Il se nourrit d'électricité."
+		fr: "Ses extrémités génèrent les vagues électromagnétiques qui le font voler. Il se nourrit d'électricité.",
+		de: "Die Vorrichtungen an seinem Körper generieren elektromagnetische Wellen, die es schweben lassen."
 	},
 
 	thirdParty: {

@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "A plan was recently announced to gather many Pikachu and make an electric power plant.",
+		de: "Vor Kurzem wurden Pläne verkündet, mithilfe einer großen Anzahl an Pikachu ein ganzes Kraftwerk zu betreiben."
 	},
 
 	thirdParty: {

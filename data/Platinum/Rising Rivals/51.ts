@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Steelix GL",
-		fr: "Steelix  Niv. 38",
+		fr: "Steelix GL Niv. 38",
 		de: "Stahlos GL"
 	},
 
@@ -36,8 +36,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your discard pile for a Metal Energy card and attach it to Steelix GL. If you do, remove 1 damage counter from Steelix GL.",
-				fr: "Choisissez dans votre pile de défausse une carte Énergie Metal et attachez-la à Steelix . Retirez alors à Steelix  1 marqueur de dégât.",
-				de: "Durchsuche deinen Ablagestapel nach 1 -Energiekarte und lege sie an Stahlos GL an. Wenn du das machst, entferne 1 Schadensmarke von Stahlos GL."
+				fr: "Choisissez dans votre pile de défausse une carte Énergie {M} et attachez-la à Steelix GL. Retirez alors à Steelix GL 1 marqueur de dégât.",
+				de: "Durchsuche deinen Ablagestapel nach 1 {M}-Energiekarte und lege sie an Stahlos GL an. Wenn du das machst, entferne 1 Schadensmarke von Stahlos GL."
 			},
 
 		},
@@ -56,7 +56,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 50 more damage and the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 50 dégâts supplémentaires et le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 50 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus 50 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt gelähmt."
 			},
 			damage: "30+",
 

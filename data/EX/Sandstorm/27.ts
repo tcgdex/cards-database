@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Claw Fossil",
-		fr: "Fossile griffe"
+		fr: "Fossile griffe",
+		de: "Klauenfossil"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Fast Evolution",
 				fr: "Évolution fulgurante",
-				de: "Fast Evolution"
+				de: "Schnelle Evolution"
 			},
 			effect: {
 				en: "Search your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 				fr: "Choisissez dans votre deck une carte Évolution, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck.",
-				de: "Search your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+				de: "Durchsuche dein Deck nach einer Evolutionskarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -53,7 +54,7 @@ const card: Card = {
 			name: {
 				en: "Pierce",
 				fr: "Transpercer",
-				de: "Pierce"
+				de: "Durchbohren"
 			},
 
 			damage: 30,

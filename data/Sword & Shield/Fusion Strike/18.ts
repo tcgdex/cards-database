@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Asako Ito",
 
 	description: {
-		en: "It uses its big jaws to dig nests into the forest floor, and it loves to feed on sweet tree sap."
+		en: "It uses its big jaws to dig nests into the forest floor, and it loves to feed on sweet tree sap.",
+		de: "Mit seinem großen Kiefer gräbt es sich seinen Bau im Waldboden. Zu seinen Leibspeisen gehört süßer Baumsaft."
 	},
 
 	attacks: [{

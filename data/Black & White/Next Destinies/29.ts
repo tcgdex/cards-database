@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Panpour",
 		fr: "Flotajou",
+		de: "Sodamak"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Collect",
 				fr: "Collecte",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw 3 cards.",
 				fr: "Piochez 3 cartes.",
+				de: "Ziehe 3 Karten."
 			},
 
 		},
@@ -56,10 +59,12 @@ const card: Card = {
 			name: {
 				en: "Stadium Wave",
 				fr: "Innondation du Stade",
+				de: "Stadionwoge"
 			},
 			effect: {
 				en: "If there is any Stadium card in play, this attack does 30 more damage and the Defending Pokémon is now Asleep.",
 				fr: "S'il y a une carte Stade en jeu, cette attaque inflige 30 dégâts supplémentaires et le Pokémon Défenseur est maintenant Endormi.",
+				de: "Wenn eine Stadionkarte im Spiel ist, fügt dieser Angriff 30 weitere Schadenspunkte zu und das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 30,
 
@@ -77,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "The tuft on its head holds water. When the level runs low, it replenishes the tuft by siphoning up water with its tail.",
+		de: "Speichert Wasser im Büschel auf seinem Kopf. Sinkt der Wasserstand, tankt es über seinen Schweif neue Flüssigkeit."
 	},
 
 	thirdParty: {

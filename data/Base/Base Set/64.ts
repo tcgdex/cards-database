@@ -27,7 +27,8 @@ const card: Card = {
 	evolveFrom: {
 		en: "Staryu",
 		fr: "Stari",
-		it: "Staryu"
+		it: "Staryu",
+		de: "Sterndu"
 	},
 
 	stage: "Stage1",
@@ -46,8 +47,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 1 Energy card to Starmie in order to use this attack. Remove all damage counters from Starmie.",
-				fr: "Défaussez 1 carte Énergie  attachée à Staross pour pouvoir utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Staross.",
-				de: "Entferne eine auf Starmie abgelegte  Energiekarte, um diesen Angriff auszuführen. Entferne alle Schadensmarken von Starmie.",
+				fr: "Défaussez 1 carte Énergie {W} attachée à Staross pour pouvoir utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Staross.",
+				de: "Entferne eine auf Starmie abgelegte {W} Energiekarte, um diesen Angriff auszuführen. Entferne alle Schadensmarken von Starmie.",
 				it: "Scarta una carta Energia Acqua assegnata a Starmie per poter usare questo attacco. Togli tutti i segnalini danno da Starmie.",
 			},
 
@@ -67,7 +68,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon gelähmt.",
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon gelähmt.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato.",
 			},
 			damage: 20,
@@ -87,7 +88,8 @@ const card: Card = {
 	description: {
 		en: "Its central core glows with the seven colors of the rainbow. Some people value this core as a gem.",
 		fr: "Son cœur brille des couleurs de l'arc-en-ciel. On raconte que c'est une pierre précieuse.",
-		it: "Il suo nucleo centrale brilla  dei sette colori dell'arcobaleno. Valutato da alcuni come una gemma preziosa. LIV 28 N.121"
+		it: "Il suo nucleo centrale brilla  dei sette colori dell'arcobaleno. Valutato da alcuni come una gemma preziosa. LIV 28 N.121",
+		de: "Sein Kern glüht in den Regenbogenfarben. Auch als Edelstein geschätzt."
 	},
 
 	variants: [
@@ -104,14 +106,16 @@ const card: Card = {
 			subtype: "shadowless",
 			stamp: ["1st-edition"],
 			thirdParty: {
-				tcgplayer: 107061
+				tcgplayer: 107061,
+				cardmarket: 660163
 			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107061
+				tcgplayer: 107061,
+				cardmarket: 660163
 			},
 		},
 		{

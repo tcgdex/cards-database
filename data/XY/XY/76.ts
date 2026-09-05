@@ -56,7 +56,7 @@ const card: Card = {
 				es: "Tu rival lanza 4 monedas. Por cada cruz, tu rival descarta 1 carta de su mano.",
 				it: "Il tuo avversario lancia quattro volte una moneta. Ogni volta che esce croce, il tuo avversario scarta una carta che ha in mano.",
 				pt: "Seu oponente joga 4 moedas. Para cada coroa, ele ou ela descarta um card da própria mão.",
-				de: "Dein Gegner wirft 4 Münzen und legt pro \"Zahl\" 1 Karte von seiner Hand auf seinen Ablagestapel."
+				de: "Dein Gegner wirft 4 Münzen und legt pro „Zahl“ 1 Karte von seiner Hand auf seinen Ablagestapel."
 			},
 
 		},
@@ -80,7 +80,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Dormido. Si sale cruz, el Pokémon Activo de tu rival pasa a estar Confundido.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene addormentato. Se esce croce, il Pokémon attivo del tuo avversario viene confuso.",
 				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Adormecido. Se sair coroa, o Pokémon Ativo do seu oponente ficará Confuso.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" schläft das Aktive Pokémon deines Gegners jetzt. Bei \"Zahl\" ist das Aktive Pokémon deines Gegners jetzt verwirrt."
+				de: "Wirf 1 Münze. Bei „Kopf“ schläft das Aktive Pokémon deines Gegners jetzt. Bei „Zahl“ ist das Aktive Pokémon deines Gegners jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -105,6 +105,7 @@ const card: Card = {
 
 	description: {
 		en: "It wields the most compelling hypnotic powers of any Pokémon, and it forces others to do whatever it wants.",
+		de: "Unter allen Pokémon verfügt es über die stärksten hypnotischen Kräfte, mit denen es Gegner nach Belieben kontrollieren kann."
 	},
 
 	thirdParty: {

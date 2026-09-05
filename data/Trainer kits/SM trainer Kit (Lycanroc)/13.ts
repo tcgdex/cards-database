@@ -37,7 +37,8 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Flap"
+				en: "Flap",
+				de: "Flattern"
 			},
 			damage: 20
 		},
@@ -47,10 +48,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Razor Wind"
+				en: "Razor Wind",
+				de: "Klingensturm"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing."
+				en: "Flip a coin. If tails, this attack does nothing.",
+				de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
 			},
 			damage: 40
 		},

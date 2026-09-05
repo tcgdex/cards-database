@@ -55,7 +55,8 @@ const card: Card = {
 
 	description: {
 		en: "It spends nearly all its time in a day sprawled out. Just seeing it makes one drowsy.",
-		fr: "Il passe le plus clair de son temps affalé. Rien qu'à le voir, on a envie de bâiller."
+		fr: "Il passe le plus clair de son temps affalé. Rien qu'à le voir, on a envie de bâiller.",
+		de: "Es verbringt fast den ganzen Tag mit Faulenzen und Schlafen. Selbst sein Anblick macht bereits müde."
 	},
 
 	thirdParty: {

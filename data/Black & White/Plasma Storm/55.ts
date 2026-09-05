@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Golbat",
 		fr: "Nosferalto",
+		de: "Golbat"
 	},
 
 	stage: "Stage2",
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Ultra-Toxic Fang",
 				fr: "Croc Ultratoxik",
+				de: "Hochgiftiger Zahn"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned. Put 4 damage counters instead of 1 on that Pokémon between turns.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Placez 4 marqueurs de dégâts au lieu d'un sur le Pokémon ciblé entre chaque tour.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Lege zwischen den Zügen 4 Schadensmarken anstelle von 1 Schadensmarke auf das Pokémon."
 			},
 			damage: 40,
 
@@ -93,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "Having four wings allows it to fly more quickly and quietly so it can sneak up on prey without its noticing.",
+		de: "Dank seiner 4 Flügel kann es sich seiner Beute noch schneller und leiser nähern, ohne dabei bemerkt zu werden."
 	},
 
 	thirdParty: {

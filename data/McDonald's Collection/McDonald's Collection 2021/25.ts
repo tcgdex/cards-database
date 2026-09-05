@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Pikachu",
 		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -32,10 +33,12 @@ const card: Card = {
 			name: {
 				en: "Meal Time",
 				fr: "À Belles Dents",
+				de: "Mahlzeit"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. For each heads, draw a card.",
 				fr: "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Pour chaque côté face, piochez une carte.",
+				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Ziehe pro Kopf 1 Karte."
 			},
 
 		},
@@ -47,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Gnaw",
 				fr: "Ronge",
+				de: "Nagen"
 			},
 
 			damage: 20,
@@ -71,7 +75,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its nature is to store up electricity. Forests where nests of Pikachu live are dangerous, since the trees are so often struck by lightning."
+		en: "Its nature is to store up electricity. Forests where nests of Pikachu live are dangerous, since the trees are so often struck by lightning.",
+		de: "Es liegt in seiner Natur, konstant Elektrizität zu speichern. Die Wälder, in denen Pikachu leben, bergen stets die Gefahr eines Blitzgewitters."
 	},
 	variants: [
 		{

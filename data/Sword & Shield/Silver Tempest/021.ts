@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "It can't run properly when it's newly born. As it races around with others of its kind, its legs grow stronger.",
+		de: "Nach der Geburt fällt ihm das Laufen schwer. Die Wettrennen, die es sich mit seinen Freunden liefert, stärken jedoch seine Beinmuskulatur."
 	},
 
 	variants: [

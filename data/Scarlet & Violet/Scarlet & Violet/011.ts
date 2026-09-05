@@ -70,6 +70,7 @@ const card: Card = {
 
 	description: {
 		en: "Until recently, people living in the mountains would ride on the back of these Pokémon to traverse the mountain paths.",
+		de: "Bis vor Kurzem ritten die in den Bergen lebenden Menschen auf dem Rücken dieses Pokémon, um sich auf den Bergpfaden fortzubewegen."
 	},
 
 	thirdParty: {

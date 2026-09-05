@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Dusclops",
-		fr: "Teraclope",
+		fr: "Téraclope",
+		de: "Zwirrklop"
 	},
 
 	stage: "Stage2",
@@ -86,7 +87,8 @@ const card: Card = {
 
 	description: {
 		en: "The antenna on its head captures radio waves from the world of spirits that command it to take people there.",
-		fr: "L'antenne sur sa tête capte les ondes radio du monde des esprits lui ordonnant d'y porter des gens."
+		fr: "L'antenne sur sa tête capte les ondes radio du monde des esprits lui ordonnant d'y porter des gens.",
+		de: "Die Antenne auf seinem Kopf empfängt Radiowellen aus einer anderen Dimension."
 	},
 
 	thirdParty: {

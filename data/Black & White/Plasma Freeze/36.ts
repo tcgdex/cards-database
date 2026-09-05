@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Chinchou",
 		fr: "Loupio",
+		de: "Lampi"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Special Tackle",
 				fr: "Charge Spéciale",
+				de: "Spezial-Tackle"
 			},
 			effect: {
 				en: "If this Pokémon has any Special Energy attached to it, this attack does 30 more damage.",
 				fr: "Si de l'Énergie spéciale est attachée à ce Pokémon, cette attaque inflige 30 dégâts supplémentaires.",
+				de: "Wenn an dieses Pokémon bereits Spezial-Energie angelegt ist, fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -58,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Extreme Current",
 				fr: "Courant Extrême",
+				de: "Extreme Strömung"
 			},
 			effect: {
 				en: "Discard an Energy attached to this Pokémon.",
 				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 90,
 
@@ -79,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "Lanturn's light can shine up from great depths. It is nicknamed \"The Deep-Sea Star.\"",
+		de: "Lanturns Licht kann aus großen Tiefen heraufscheinen. Man nennt es auch „Tiefseestern“."
 	},
 
 	thirdParty: {

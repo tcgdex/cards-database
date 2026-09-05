@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Une una carta de Energía Darkness Básica de tu pila de descartes a 1 de tus Pokémon Darkness en Banca.",
 		it: "Assegna a uno dei tuoi Pokémon Darkness in panchina una carta Energia base Darkness dalla tua pila degli scarti.",
 		pt: "Ligue um card de Energia Darkness da sua pilha de descarte a 1 dos seus Pokémon Darkness no Banco.",
-		de: "Lege 1 Darkness-Basis-Energiekarte von deinem Ablagestapel an 1 Darkness-Pokémon auf deiner Bank an."
+		de: "Lege 1 {D}-Basis-Energiekarte von deinem Ablagestapel an 1 {D}-Pokémon auf deiner Bank an. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	thirdParty: {

@@ -72,7 +72,8 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "It rapidly bores through the ground at 50 mph by squirming and twisting its massive, rugged body."
+		en: "It rapidly bores through the ground at 50 mph by squirming and twisting its massive, rugged body.",
+		de: "Es bohrt sich mit 80 km/h durch das Erdreich, indem es seinen massive, rauen Körper dreht und windet."
 	},
 
 	variants: [

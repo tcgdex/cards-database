@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Torracat",
 		fr: "Matoufeu",
+		de: "Miezunder"
 	},
 
 	stage: "Stage2",
@@ -78,7 +79,7 @@ const card: Card = {
 				es: "Descarta todas las Energías Fire de este Pokémon.",
 				it: "Scarta tutte le Energie Fire assegnate a questo Pokémon.",
 				pt: "Descarte todas as Energias Fire deste Pokémon.",
-				de: "Lege alle Fire-Energien von diesem Pokémon auf deinen Ablagestapel."
+				de: "Lege alle {R}-Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 180,
 
@@ -96,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon has a violent, selfish disposition. If it's not in the mood to listen, it will ignore its Trainer's orders with complete nonchalance.",
+		de: "Ein raues und selbstsüchtiges Pokémon. Wenn es keine Lust hat, ignoriert es auch schon mal die Befehle seines Trainers."
 	},
 
 	thirdParty: {

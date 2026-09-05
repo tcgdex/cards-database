@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Jump On",
 				fr: "Saut",
+				de: "Draufspringen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -57,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "Since it can't generate its own electricity, it sticks onto large-bodied Pokémon and absorbs static electricity.",
+		de: "Da es selbst keinen Strom erzeugen kann, klettert es auf andere Pokémon, um ihnen elektrostatische Energie abzusaugen."
 	},
 
 	thirdParty: {

@@ -42,7 +42,7 @@ const card: Card = {
 				es: "Cada uno de tus Pokémon que tenga cualquier Energía Grass unida a él no puede verse afectado por ninguna Condición Especial. (Elimina cualquier Condición Especial que afecte a esos Pokémon.)",
 				it: "Nessuno dei tuoi Pokémon che ha delle Energie Grass assegnate può essere influenzato da condizioni speciali (rimuovi tutte le condizioni speciali che influenzano tali Pokémon).",
 				pt: "Cada um de seus Pokémon que possuir qualquer Energia Grass ligado a ele não poderá ser afetado por nenhuma Condição Especial. (Remova quaisquer Condições Especiais que estejam afetando estes Pokémon.)",
-				de: "Jedes deiner Pokémon, an das Grass-Energie angelegt ist, kann nicht von Speziellen Zuständen betroffen werden. (Spezielle Zustände, von denen diese Pokémon betroffen sind, verlieren ihre Wirkung.)"
+				de: "Jedes deiner Pokémon, an das {G}-Energie angelegt ist, kann nicht von Speziellen Zuständen betroffen werden. (Spezielle Zustände, von denen diese Pokémon betroffen sind, verlieren ihre Wirkung.)"
 			},
 		},
 	],
@@ -55,10 +55,12 @@ const card: Card = {
 			name: {
 				en: "Emerald Slash",
 				fr: "Tranche Émeraude",
+				de: "Grünschnitt"
 			},
 			effect: {
 				en: "You may search your deck for 2 Grass Energy cards and attach them to 1 of your Benched Pokémon. Shuffle your deck afterward.",
 				fr: "Vous pouvez chercher 2 cartes Énergie Grass dans votre deck et les attacher à 1 de vos Pokémon de Banc. Mélangez ensuite votre deck.",
+				de: "Du kannst dein Deck nach 2 {G}-Energiekarten durchsuchen und sie an 1 Pokémon auf deiner Bank anlegen. Mische anschließend dein Deck."
 			},
 			damage: 50,
 

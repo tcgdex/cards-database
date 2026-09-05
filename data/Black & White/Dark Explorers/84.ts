@@ -35,7 +35,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Smash Kick",
-				fr: "Coud'Pattes"
+				fr: "Coud'Pattes",
+				de: "Schmetterkick"
 			},
 
 			damage: 10,
@@ -48,7 +49,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Whap",
-				fr: "Queue Battoir"
+				fr: "Queue Battoir",
+				de: "Schweifvertrimmer"
 			},
 
 			damage: 20,
@@ -67,6 +69,7 @@ const card: Card = {
 
 	description: {
 		en: "Because its genetic makeup is irregular, it quickly changes its form due to a variety of causes.",
+		de: "Aufgrund einer genetischen Anomalie kann es sehr schnell seine Form verändern."
 	},
 
 	thirdParty: {

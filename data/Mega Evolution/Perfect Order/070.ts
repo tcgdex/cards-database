@@ -49,7 +49,7 @@ const card: Card = {
 		fr: "Le Méga-Zygarde-ex auquel cette carte est attachée peut utiliser l'attaque sur cette carte. (Vous avez toujours besoin des Énergies nécessaires pour utiliser cette attaque.)",
 		es: "El Mega-Zygarde ex al que esté unida esta carta puede usar el ataque de esta carta. (Sigues necesitando las Energías requeridas para usar este ataque).",
 		'es-mx': "El Mega-Zygarde ex al que esté unida esta carta puede usar el ataque de esta carta. (Sigues necesitando las Energías requeridas para usar este ataque).",
-		de: "Das Mega-Zygarde-ex, an das diese Karte angelegt ist, kann die Attacke auf dieser Karte einsetzen. (Du benötigst jedoch die für diese Attacke notwendige Energie.)",
+		de: "Das Mega-Zygarde-ex, an das diese Karte angelegt ist, kann die Attacke auf dieser Karte einsetzen. (Du benötigst jedoch die für diese Attacke notwendige Energie.) Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt.",
 		it: "Il Mega Zygarde-ex a cui è assegnata questa carta può usare l'attacco di questa carta. Devi comunque avere l'Energia necessaria per usare questo attacco.",
 		pt: "O Mega Zygarde ex ao qual esta carta está ligada pode usar o ataque desta carta. (Você ainda precisa da Energia necessária para usar este ataque.)"
 	},

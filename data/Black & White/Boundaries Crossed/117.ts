@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Buneary",
 		fr: "Laporeille",
+		de: "Haspiror"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Healing Melody",
 				fr: "Mélodie Apaisante",
+				de: "Heilende Melodie"
 			},
 			effect: {
 				en: "Flip a coin. If heads, heal 60 damage from each of your Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, soignez 60 dégâts à chacun de vos Pokémon.",
+				de: "Wirf 1 Münze. Heile bei „Kopf“ 60 Schadenspunkte bei jedem deiner Pokémon."
 			},
 
 		},
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Kick Away",
 				fr: "Coud'Pied Éjecteur",
+				de: "Wegkicken"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 60,
 
@@ -78,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Extremely cautious, it quickly bounds off when it senses danger.",
+		de: "Es ist extrem vorsichtig. Wenn es Gefahr wittert, macht es sich mit flinken Sprüngen aus dem Staub."
 	},
 
 	thirdParty: {

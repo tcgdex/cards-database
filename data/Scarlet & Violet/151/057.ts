@@ -85,6 +85,7 @@ const card: Card = {
 
 	description: {
 		en: "It becomes wildly furious if it even senses someone looking at it. It chases anyone that meets its glare.",
+		de: "Spürt Rasaff, dass jemand es anblickt, wird es rasend vor Wut. Es verfolgt jeden, der es wagt, seinen Blick zu erwidern."
 	},
 
 	variants: [

@@ -49,7 +49,7 @@ const card: Card = {
 				es: "Este ataque hace 50 puntos de daño por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
 				it: "Questo attacco infligge 50 danni per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
 				pt: "Este ataque causa 50 pontos de dano para cada Colorless no custo de Recuo do Pokémon Ativo do seu oponente.",
-				de: "Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der Colorless-Symbole in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
+				de: "Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der {C}-Symbole in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
 			},
 			damage: "50×",
 
@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "It hates light and shock. If attacked, it inflates its body to build up its counterstrike.",
+		de: "Es hasst Licht und Schläge. Wird es angegriffen, pumpt es sich auf, um einen Gegenschlag vorzubereiten."
 	},
 
 	thirdParty: {

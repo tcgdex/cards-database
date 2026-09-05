@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "Its body is mostly seawater. It's said there's a castle of ships Jellicent have sunk on the seafloor.",
+		de: "Es heißt, am Meeresboden gebe es einen Palast aus Schiffen, die es versenkt hat. Es besteht fast nur aus Meerwasser."
 	},
 
 	thirdParty: {

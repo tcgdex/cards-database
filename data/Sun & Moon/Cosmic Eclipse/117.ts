@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Palpitoad",
 		fr: "Batracné",
+		de: "Mebrana"
 	},
 
 	stage: "Stage2",
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "It increases the power of its punches by vibrating the bumps on its fists. It can turn a boulder to rubble with one punch.",
+		de: "Wenn es die Beulen an seinen Fäusten zum Schwingen bringt, kann es doppelt so fest zuschlagen und Felsen zertrümmern."
 	},
 
 	thirdParty: {

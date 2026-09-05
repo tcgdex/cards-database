@@ -4,7 +4,7 @@ import Set from '../Great Encounters'
 const card: Card = {
 	name: {
 		en: "Lunatone",
-		fr: "Seleroc",
+		fr: "Séléroc",
 		de: "Lunastein"
 	},
 
@@ -72,6 +72,7 @@ const card: Card = {
 
 	description: {
 		en: "Because it turns active on nights of the full moon, it is said to have some link to the lunar phases.",
+		de: "Da es in Vollmondnächten aktiv wird, sagt man ihm nach, mit den Mondphasen in Verbindung zu stehen."
 	},
 
 	thirdParty: {

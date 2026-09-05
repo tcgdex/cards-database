@@ -4,7 +4,7 @@ import Set from '../Legend Maker'
 const card: Card = {
 	name: {
 		en: "Magneton",
-		fr: "Magneton",
+		fr: "Magnéton",
 		de: "Magneton"
 	},
 
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magnemite",
-		fr: "Magneti"
+		fr: "Magnéti",
+		de: "Magnetilo"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "If Magneton would be Knocked Out by damage from an opponent's attack, you may move any number of React Energy cards from Magneton to your Pokémon in any way you like.",
 				fr: "Si Magneton doit être mis K.O par les dégâts d'une attaque de votre adversaire, vous pouvez déplacer autant de cartes Énergie réaction que vous voulez de Magneton sur vos Pokémon, de la façon que vous voulez.",
-				de: "Wenn Magneton durch die Schadenspunkte eines gegnerischen Pokémons kampfunfähig gemacht würde, kannst du eine beliebige Anzahl von Reaktions-Energiekarten von Magneton beliebig auf deine anderen Pokémon verteilen."
+				de: "Wenn Magneton durch die Schadenspunkte eines gegnerischen Angriffs kampfunfähig gemacht würde, kannst du eine beliebige Anzahl an Reaktions-Energiekarten von Magneton beliebig auf deine anderen Pokémon verteilen."
 			},
 		},
 	],
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "If Magneton has any React Energy cards attached to it, this attack does 30 damage plus 10 more damage for each Magnemite and Magneton (both yours and your opponent's) in play.",
 				fr: "Si Magneton possède des cartes Énergie réaction, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Magneti et Magneton en jeu (les vôtres et ceux de votre adversaire).",
-				de: "Wenn an Magneton mindestens eine Reaktions-Energiekarte angelegt ist, fügt dieser Angriff 30 Schadenspunkte für jedes Magnetilo und Magneton zu, das sich im Spiel befindet (deine und die deines Gegners)."
+				de: "Wenn an Magneton mindestens eine Reaktions-Energiekarte angelegt ist, fügt dieser Angriff 30 Schadenspunkte plus 10 weitere Schadenspunkte für jedes Magnetilo oder Magneton zu, das sich im Spiel befindet (deine und die deines Gegners)."
 			},
 			damage: "30+",
 

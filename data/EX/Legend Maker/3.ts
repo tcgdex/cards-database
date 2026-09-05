@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lileep",
-		fr: "Lilia"
+		fr: "Lilia",
+		de: "Liliep"
 	},
 
 	stage: "Stage2",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "Count the number of React Energy cards attached to Cradily and choose up to that number of your opponent's Evolved Pokémon. Remove the highest Stage Evolution card from each of those Pokémon, then have your opponent shuffle those cards into his or her deck.",
 				fr: "Comptabilisez le nombre de cartes Énergie réaction attachées à Vacilys et choisissez autant de Pokémon Évolués de votre adversaire. Retirez à chacun de ces Pokémon la carte au niveau d'Évolution le plus élevé. Ensuite, demandez à votre adversaire de mélanger ces cartes à son deck.",
-				de: "Zähle die Anzahl an Wielie angelegten Reaktions-Energiekarten und wähle danach entwickelte Pokémon deines Gegners bis zu dieser Anzahl aus. Entferne die höchste Evolutionskarte von jedem der gewählten Pokémon. Danach mischt dein Gegner diese in sein Deck."
+				de: "Zähle die Anzahl der an Wielie angelegten Reaktions-Energiekarten und wähle danach entwickelte Pokémon deines Gegners bis zu dieser Anzahl aus. Entferne die höchste Evolutionskarte von jedem der gewählten Pokémon. Danach mischt dein Gegner diese in sein Deck."
 			},
 
 		},

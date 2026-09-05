@@ -4,7 +4,7 @@ import Set from '../Legend Maker'
 const card: Card = {
 	name: {
 		en: "Aerodactyl",
-		fr: "Ptera",
+		fr: "Ptéra",
 		de: "Aerodactyl"
 	},
 
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Mysterious Fossil",
-		fr: "Mystérieux fossile"
+		fr: "Mystérieux fossile",
+		de: "Geheimnis-Fossil"
 	},
 
 	stage: "Stage1",
@@ -59,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each Energy attached to Aerodactyl.",
 				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Ptera.",
-				de: "Dieser Angriff fürgt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Aerodactyl angelegte Energie zu."
+				de: "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Aerodactyl angelegte Energie zu."
 			},
 			damage: "10+",
 
@@ -78,7 +79,7 @@ const card: Card = {
 			effect: {
 				en: "During your opponent's next turn, prevent all effects, including damage, done to Aerodactyl by attacks from your opponent's Pokémon-ex.",
 				fr: "Lors du prochain tour de votre adversaire, prévenez tous les effets, dégâts inclus, infligés à Ptera par des attaques de Pokémon-ex de votre adversaire.",
-				de: "Verhindere während des nächsten Zugs deines Gegners alle Effekte von Angriffen inklusive Schaden, die Aerodactyl von gegnerischen Pokémon-ex zugefügt werden."
+				de: "Verhindere während des nächsten Zuges deines Gegners alle Effekte von Angriffen inklusive Schaden, die Aerodactyl von gegnerischen Pokémon-ex zugefügt werden."
 			},
 			damage: 40,
 

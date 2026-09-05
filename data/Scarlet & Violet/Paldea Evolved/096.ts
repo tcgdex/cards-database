@@ -103,6 +103,7 @@ const card: Card = {
 
 	description: {
 		en: "The terrifying Palossand drags smaller Pokémon into its sandy body. Once its victims are trapped, it drains them of their vitality whenever it pleases.",
+		de: "Das furchterregende Colossand zieht kleinere Pokémon in seinen Körper aus Sand und saugt ihnen nach Belieben die Lebenskraft aus."
 	},
 }
 

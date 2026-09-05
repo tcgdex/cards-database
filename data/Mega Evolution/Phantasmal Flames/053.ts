@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Known as the Desert Spirit, this Pokémon hides in the sandstorms it causes by beating its wings.",
+		de: "Dieses auch als „Geist der Wüste“ bekannte Pokémon versteckt sich in Sandstürmen, die es durch das Schlagen seiner Flügel erzeugt."
 	},
 
 	illustrator: "Jerky",
@@ -96,17 +97,26 @@ const card: Card = {
 			}
 		},
 		{
-			type: 'normal',
-			thirdParty: {
-				cardmarket: 858508
-			}
-		},
-		{
 			type: 'reverse',
 			thirdParty: {
 				cardmarket: 857628,
 				tcgplayer: 662159,
 				cardtrader: 356836
+			}
+		},
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 858508,
+				tcgplayer: 664006
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 891754,
+				tcgplayer: 696232
 			}
 		},
 	],

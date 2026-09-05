@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "The foul fluid from its rear is so revolting that it can make people feel queasy up to a mile and a quarter away.",
+		de: "Der Gestank der Flüssigkeit, die es aus seinem Hinterleib versprüht, dreht Menschen selbst auf 2 km Entfernung den Magen um."
 	},
 
 

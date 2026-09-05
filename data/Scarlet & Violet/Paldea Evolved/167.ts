@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "Exhibiting great teamwork, they use their incisors to cut pieces out of any material that might be useful for a nest, then make off with them.",
+		de: "Zwieps arbeiten perfekt im Team zusammen. Sie nagen mit den Vorderzähnen Material für den Nestbau ab und tragen es dann davon."
 	},
 }
 

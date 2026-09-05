@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. It now takes 20 Poison damage after each player's turn (even if it was already Poisoned).",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Il subit maintenant 20 dégâts Poison au lieu de 10 après le tour de chaque joueur (même s'il était déjà Empoisonné).",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt vergiftet. Es erleidet jetzt 20 statt 10 Schadenspunkte durch Gift nach dem Zug jedes Spielers (selbst wenn es bereits vergiftet war)."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet. Es erleidet jetzt 20 statt 10 Schadenspunkte durch Gift nach dem Zug jedes Spielers (selbst wenn es bereits vergiftet war)."
 			},
 
 		},
@@ -72,7 +72,8 @@ const card: Card = {
 
 	description: {
 		en: "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still.",
-		fr: "Il transporte des baies dans sa coquille. Pour éviter les attaques, il se cache sous les pierres et reste immobile."
+		fr: "Il transporte des baies dans sa coquille. Pour éviter les attaques, il se cache sous les pierres et reste immobile.",
+		de: "Es sammelt in seiner Muschel Beeren. Um Angriffe zu vermeiden, versteckt es sich zwischen Felsen und verhält sich ganz still."
 	},
 
 

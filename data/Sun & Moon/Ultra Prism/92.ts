@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It scatters spores that flicker and glow. Anyone seeing these lights falls into a deep slumber.",
+		de: "Es streut blinkende Sporen aus. Jeder der dieses Licht sieht, schläft fest ein."
 	},
 
 	thirdParty: {

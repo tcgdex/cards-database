@@ -4,7 +4,7 @@ import Set from '../Secret Wonders'
 const card: Card = {
 	name: {
 		en: "Electivire",
-		fr: "Elekable",
+		fr: "Élekable",
 		de: "Elevoltek"
 	},
 

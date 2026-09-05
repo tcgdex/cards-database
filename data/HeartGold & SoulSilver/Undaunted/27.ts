@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Oddish",
-		fr: "Mystherbe"
+		fr: "Mystherbe",
+		de: "Myrapla"
 	},
 
 	stage: "Stage1",
@@ -42,7 +43,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, choose 1 Special Condition. The Defending Pokémon is now affected by that Special Condition.",
 				fr: "Lancez une pièce. Si c’est face, choisissez un État Spécial. Le Pokémon Défenseur est maintenant affecté par cet État Spécial.",
-				de: "Wirf eine Münze. Wähle bei \"Kopf\" 1 Speziellen Zustand. Das Verteidigende Pokémon ist jetzt vom gewählten Speziellen Zustand betroffen."
+				de: "Wirf eine Münze. Wähle bei „Kopf“ 1 Speziellen Zustand. Das Verteidigende Pokémon ist jetzt vom gewählten Speziellen Zustand betroffen."
 			},
 			damage: 30,
 
@@ -59,7 +60,8 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "What appears to be drool is actually sweet honey. It is very sticky and clings stubbornly if touched."
+		en: "What appears to be drool is actually sweet honey. It is very sticky and clings stubbornly if touched.",
+		de: "Was wie Speichel aussieht, ist eigentlich Honig. Er ist zähflüssig und klebrig, wenn man ihn berührt."
 	},
 
 	variants: [

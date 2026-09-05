@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Frillish",
 		fr: "Viskuse",
+		de: "Quabbel"
 	},
 
 	stage: "Stage1",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "El Coste de Retirada de cada uno de los Pokémon en juego de tu rival es de Colorless más.",
 				it: "Il costo di ritirata di ciascun Pokémon in gioco del tuo avversario aumenta di Colorless.",
 				pt: "O Custo para Recuar de cada um dos Pokémon do seu oponente em jogo será de Colorless a mais.",
-				de: "Die Rückzugskosten aller Pokémon deines Gegners im Spiel erhöhen sich um Colorless."
+				de: "Die Rückzugskosten aller Pokémon deines Gegners im Spiel erhöhen sich um {C}."
 			},
 		},
 	],
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Eerie Light",
 				fr: "Lumière Étrange",
+				de: "Gespenstisches Licht"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 40,
 
@@ -86,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "Its body is mostly seawater. It's said there's a castle of ships Jellicent have sunk on the seafloor.",
+		de: "Es heißt, am Meeresboden gebe es einen Palast aus Schiffen, die es versenkt hat. Es besteht fast nur aus Meerwasser."
 	},
 
 	thirdParty: {

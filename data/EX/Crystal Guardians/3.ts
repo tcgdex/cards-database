@@ -4,7 +4,7 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Camerupt",
-		fr: "Camerupt",
+		fr: "Camérupt",
 		de: "Camerupt"
 	},
 
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Numel",
-		fr: "Chamallot"
+		fr: "Chamallot",
+		de: "Camaub"
 	},
 
 	stage: "Stage1",

@@ -78,7 +78,8 @@ const card: Card = {
 
 	description: {
 		en: "It is believed that seeing this Pokémon at night will bring about ominous occurrences.",
-		fr: "On dit que rencontrer un Cornèbre la nuit est signe de mauvais augure."
+		fr: "On dit que rencontrer un Cornèbre la nuit est signe de mauvais augure.",
+		de: "Sieht man dieses PKMN bei Nacht, sollen merkwürdige Dinge passieren."
 	},
 
 	thirdParty: {

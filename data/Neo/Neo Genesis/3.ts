@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Gloom",
-		fr: "Ortide"
+		fr: "Ortide",
+		de: "Duflor"
 	},
 
 	stage: "Stage2",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, remove all damage counters from 1 of your Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, retirez tous les marqueurs de dégâts d'un de vos Pokémon.",
-				de: "Wirf eine Münze. Entferne bei 'Kopf' alle Schadensmarken von einem deiner Pokémon."
+				de: "Wirf eine Münze. Entferne bei „Kopf“ alle Schadensmarken von einem deiner Pokémon."
 			},
 
 		},
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Does 30 damage times the number of cards with Bellossom in their names that you have in play (including this one).",
 				fr: "Inflige 30 dégâts multipliés par le nombre de cartes que vous avez en jeu et dont le nom contient Joliflor (y compris celle-ci).",
-				de: "Fügt 30 Schadenspunkte mal der Anzahl an Karten mit Blubella im Titel, die du im Spiel hast (einschließlich dieser), zu."
+				de: "Fügt 30 Schadenspunkte mal der Anzahl der Karten mit Blubella im Titel, die du im Spiel hast (einschließlich dieser), zu."
 			},
 			damage: "30x",
 
@@ -79,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "Plentiful in the tropics. When it dances, its petals rub together and make a pleasant ringing sound.",
-		fr: "Il pullule sous les tropiques. Lorsqu'il danse, ses pétales se frottent en faisant un agréable son de cloches."
+		fr: "Il pullule sous les tropiques. Lorsqu'il danse, ses pétales se frottent en faisant un agréable son de cloches.",
+		de: "Kommt in den Tropen reichlich vor. Beim Tanzen reibt es seine Blätter aneinander und erzeugt so ein angenehmes Raschelgeräusch."
 	},
 
 

@@ -78,7 +78,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "These intelligent Pokémon touch horns with each other to share information between them."
+		en: "These intelligent Pokémon touch horns with each other to share information between them.",
+		de: "Ein äußerst intelligentes Pokémon, das mit seinen Artgenossen kommuniziert, indem es die Hörner eines anderen Exemplars mit seinen berührt."
 	},
 
 	variants: [

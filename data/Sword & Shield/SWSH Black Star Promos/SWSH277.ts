@@ -88,10 +88,16 @@ const card: Card = {
 	description: {
 		en: "The one with the best drumming techniques becomes the boss of the troop. It has a gentle disposition and values harmony among its group.",
 	},
-
-	thirdParty: {
-		cardmarket: 437154
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 682974,
+				tcgplayer: 475621
+			}
+		},
+	],
 }
 
 export default card

@@ -4,7 +4,8 @@ import Set from '../POP Series 4'
 const card: Card = {
 	name: {
 		en: "Heal Energy",
-		fr: "Énergie guérisseuse"
+		fr: "Énergie guérisseuse",
+		de: "Heilungs-Energie"
 	},
 
 	illustrator: "Takumi Akabane",
@@ -15,7 +16,8 @@ const card: Card = {
 
 	effect: {
 		en: "Heal Energy provides Colorless Energy. When you attach this card from your hand to 1 of your Pokémon, remove 1 damage counter and all Special Conditions from that Pokémon. If Heal Energy is attached to Pokémon-ex, Heal Energy has no effect other than providing Energy.",
-		fr: "Énergie guérisseuse fournit une Énergie . Lorsque vous l'attachez de votre main à 1 de vos Pokémon, retirez à ce Pokémon 1 marqueur de dégât et tous ses États Spéciaux. Si Énergie guérisseuse est attachée à un Pokémon-ex, elle n'a pas d'autre effet que de fournir de l'Énergie."
+		fr: "Énergie guérisseuse fournit une Énergie . Lorsque vous l'attachez de votre main à 1 de vos Pokémon, retirez à ce Pokémon 1 marqueur de dégât et tous ses États Spéciaux. Si Énergie guérisseuse est attachée à un Pokémon-ex, elle n'a pas d'autre effet que de fournir de l'Énergie.",
+		de: "Heilungs-Energie liefert {C}-Energie. Wenn du diese Karte aus der Hand an 1 deiner Pokémon anlegst, entferne 1 Schadensmarke und alle Speziellen Zustände von diesem Pokémon. Wenn Heilungs-Energie an ein Pokémon-ex angelegt ist, hat sie keinen anderen Effekt, als Energie zu liefern."
 	},
 
 	variants: [

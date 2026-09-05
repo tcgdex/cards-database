@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "It's said that in ancient times, when volcanoes were more active, there were many more Slugma than there are now.",
+		de: "Vor Urzeiten, als die Vulkane noch aktiver waren, soll es viel mehr Schneckmag gegeben haben als heutzutage."
 	},
 
 	variants: [

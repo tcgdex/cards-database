@@ -23,7 +23,9 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Ekans"
+		en: "Ekans",
+		fr: "Abo",
+		de: "Rettan"
 	},
 
 	description: {
@@ -31,7 +33,7 @@ const card: Card = {
 		fr: "Il intimide sa proie grâce au motif situé sur\nle devant de son capuchon, puis l'enserre\njusqu'à ce que son cœur cesse de battre.",
 		es: "Tras confundir a su presa con el motivo de su cuerpo, se enrosca\na su alrededor y la aferra, a la espera de que su pulso se detenga.",
 		it: "Spiazza l'avversario con il disegno sul ventre,\npoi gli si avvinghia rapidamente e aspetta\nche il suo battito cardiaco si fermi.",
-		de: "Es schüchtert seinen Gegner mit dem Muster auf seinem\nBauch ein und nimmt ihn dann in den Würgegriff, bis es\nkeinen Widerstand mehr spürt.",
+		de: "Es schüchtert seinen Gegner mit dem Muster auf seinem Bauch ein und nimmt ihn dann in den Würgegriff, bis es keinen Widerstand mehr spürt.",
 		'pt-br': "Após atordoar os seus oponentes com as marcas\nem seu estômago, enrola-os rapidamente contra seu\ncorpo e espera eles pararem de se mover.",
 		ko: "배의 무늬로 풀이 죽게 한 뒤\n재빠르게 몸으로 조여서\n상대의 고동이 멈추기를 기다린다."
 	},

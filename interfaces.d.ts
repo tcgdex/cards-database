@@ -34,10 +34,9 @@ export type VariantStamps = '1st-edition' | 'w-promo' | 'pre-release' | 'pokemon
 	| 'zachary-bokhari' | 'shuto-itagaki' | 'snowflake' | 'trick-or-trade' | 'horizons' | 'gamestop' | 'eb-games'
 	| 'illustration-contest-2022' | 'illustration-contest-2024' | 'worlds-2025' | 'top-eight' | "champion" | "poke-ball-league" | "master-ball-league" | "ultra-ball-league" | "judge" | "asia-promo"
 	| "international-championship-europe" | "international-championship-latin-america" | "international-championship-north-america" | 'ace-trainer'
-	| 'pikachu' | 'bulbasaur' | 'squirtle' | 'charmander' | 'pokeball' | '30th-pokeday' | 'mcdonalds' | 'pokemon-together' | 'rain-city' | 'tournament-collection' | 'chicago-2009'
-	| 'worlds-2024' | 'worlds-2023' | 'asia-2023-24' | 'thank-you' | 'jr-stamp-rally' | 'grey-star' | 'pop-tournament' | 'chase-moloney' | 'pokemon-xd-gale-of-darkness' | 'legendary-pokemon' 
-	| 'scrye' | 'inquest-gamer' | 'jesse-parker' | 'gabriel-fernandez' | 'sakuya-ota' | 'shao-tong-yen'
-
+	| 'pikachu' | 'bulbasaur' | 'squirtle' | 'charmander' | 'pokeball' | '30th-pokeday' | 'mcdonalds' | 'pokemon-together' | 'rain-city' | 'tournament-collection' | 'fossil-museum' | 'pokemon-xd-gale-of-darkness' | 'legendary-pokemon' 
+	| 'worlds-2024' | 'worlds-2023' | 'worlds-2022' | 'asia-2023-24' | 'thank-you' | 'jr-stamp-rally' | 'grey-star' | 'pop-tournament' | 'chase-moloney' | 'chicago-2009' | 'scrye' | 'inquest-gamer'
+	| 'jesse-parker' | 'gabriel-fernandez' | 'sakuya-ota' | 'shao-tong-yen' | 'poketour-99'
 
 export interface variant_detailed {
 	/**

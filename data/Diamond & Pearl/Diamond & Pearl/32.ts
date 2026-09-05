@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Meditite",
-		fr: "Meditikka",
+		fr: "Méditikka",
+		de: "Meditie"
 	},
 
 	stage: "Stage1",
@@ -79,7 +80,8 @@ const card: Card = {
 
 	description: {
 		en: "Through yoga training, it has honed its sixth sense. Its movements are elegant.",
-		fr: "Il a développé son sixième sens grâce au yoga. Ses mouvements sont gracieux."
+		fr: "Il a développé son sixième sens grâce au yoga. Ses mouvements sont gracieux.",
+		de: "Mit Yoga-Training hat es seinen 6. Sinn geschärft. Seine Bewegungen sind sehr elegant."
 	},
 
 	thirdParty: {

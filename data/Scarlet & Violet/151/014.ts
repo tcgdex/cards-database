@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "While awaiting evolution, it hides from predators under leaves and in nooks of branches.",
+		de: "Während es auf seine Entwicklung wartet, versteckt es sich unter Blättern und zwischen Ästen."
 	},
 
 	variants: [

@@ -69,7 +69,7 @@ const card: Card = {
 				es: "Este ataque hace 30 puntos de daño más por cada Energía Water unida a este Pokémon.",
 				it: "Questo attacco infligge 30 danni in più per ogni Energia Water assegnata a questo Pokémon.",
 				pt: "Este ataque causa 30 pontos de dano a mais vezes a quantidade de Energia Water ligada a este Pokémon.",
-				de: "Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl der an dieses Pokémon angelegten Water-Energien zu."
+				de: "Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl der an dieses Pokémon angelegten {W}-Energien zu."
 			},
 			damage: "10+",
 
@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It likes swimming around with people on its back. In the Alola region, it's an important means of transportation over water.",
+		de: "Da es liebend gerne beim Schwimmen Menschen auf seinem Rücken trägt, gilt es in Alola als bedeutendes Transportmittel."
 	},
 
 	thirdParty: {

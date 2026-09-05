@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "Aggron has a horn sharp enough to perforate thick iron sheets. It brings down its opponents by ramming into them horn first.",
+		de: "Mit seinen spitzen Hörnern, die selbst massive Eisenplatten durchbohren können, rammt es seine Gegner und macht ihnen so den Garaus."
 	},
 
 	

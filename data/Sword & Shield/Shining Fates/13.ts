@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Badabouin",
-		en: "Thwackey"
+		en: "Thwackey",
+		de: "Chimstix"
 	},
 
 	abilities: [{
@@ -43,7 +44,7 @@ const card: Card = {
 			es: "Una vez durante tu turno, puedes buscar en tu baraja hasta 2 cartas de Energía Grass y unirlas a 1 de tus Pokémon. Después, baraja las cartas de tu baraja.",
 			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo fino a due carte Energia Grass e assegnarle a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
 			pt: "Uma vez durante o seu turno, você poderá procurar por até 2 cartas de Energia Grass no seu baralho e ligá-las a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho.",
-			de: "Einmal während deines Zuges kannst du dein Deck nach bis zu 2 Grass-Energiekarten durchsuchen und sie an 1 deiner Pokémon anlegen. Mische anschließend dein Deck."
+			de: "Einmal während deines Zuges kannst du dein Deck nach bis zu 2 {G}-Energiekarten durchsuchen und sie an 1 deiner Pokémon anlegen. Mische anschließend dein Deck."
 		}
 	}],
 
@@ -73,7 +74,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "By drumming, it taps into the power of its special tree stump. The roots of the stump follow its direction in battle."
+		en: "By drumming, it taps into the power of its special tree stump. The roots of the stump follow its direction in battle.",
+		de: "Es kontrolliert die Macht seines speziellen Baumstumpfes durch Trommeln. Im Kampf manipuliert es damit Wurzeln."
 	},
 
 	variants: [

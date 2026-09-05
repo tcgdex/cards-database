@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Rufflet",
 		fr: "Furaiglon",
+		de: "Geronimatz"
 	},
 
 	stage: "Stage1",
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Wild Edge",
 				fr: "Tranchant Sauvage",
+				de: "Wilder Degen"
 			},
 			effect: {
 				en: "You may do 20 more damage. If you do, this Pokémon does 20 damage to itself.",
 				fr: "Vous pouvez infliger 20 dégâts supplémentaires. Dans ce cas, ce Pokémon s'inflige 20 dégâts.",
+				de: "Du kannst mit diesem Angriff 20 weitere Schadenspunkte zufügen. Wenn du das machst, fügt dieses Pokémon sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -93,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "The more scars they have, the more respect these brave soldiers of the sky get from their peers.",
+		de: "Ein tapferer Krieger der Lüfte. Je mehr Narben es vorweisen kann, desto mehr Respekt zollen ihm seine Artgenossen."
 	},
 
 	thirdParty: {

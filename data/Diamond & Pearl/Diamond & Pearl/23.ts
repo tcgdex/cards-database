@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Skorupi",
 		fr: "Drapion",
+		de: "Pionskora"
 	},
 
 	stage: "Stage1",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -81,7 +82,8 @@ const card: Card = {
 
 	description: {
 		en: "It has the power in its clawed arms to make scrap of a car. The tips of its claws release poison.",
-		fr: "Il peut réduire une voiture en pièces avec ses pinces. Le bout de ses pinces contient du poison."
+		fr: "Il peut réduire une voiture en pièces avec ses pinces. Le bout de ses pinces contient du poison.",
+		de: "In seinen Armen steckt so viel Kraft, dass es mit seinen giftigen Krallen Autos zerquetschen kann."
 	},
 
 	thirdParty: {

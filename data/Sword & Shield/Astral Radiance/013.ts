@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Cells similar to those of plants have been found in its fur. Its hard tail can fell a large tree with one stroke, and the tail's sharpness exceeds even that of a sword crafted by a master.",
+		de: "In seinem Fell lassen sich pflanzenähnliche Zellen nachweisen. Sein robuster Schweif ist schärfer als ein meisterlich gefertigtes Schwert und kann mit einem Streich große Bäume zweiteilen."
 	},
 
 	variants: [

@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Kabuto δ",
 		fr: "Kabuto δ",
-		de: "Kabuto"
+		de: "Kabuto δ"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Mysterious Fossil",
-		fr: "Mystérieux fossile"
+		fr: "Mystérieux fossile",
+		de: "Geheimnis-Fossil"
 	},
 
 	stage: "Stage1",

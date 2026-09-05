@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn, when you put Zapdos from your hand onto your Bench, you may flip a coin. If heads, put 1 damage counter on each of your opponent's Pokémon.",
 				fr: "Une seule fois lors de votre tour, lorsque vous placez Electhor de votre main sur votre Banc, vous pouvez lancer une pièce. Si c'est face, placez 1 marqueur de dégât sur chacun des Pokémon de votre adversaire.",
-				de: "Einmal während deines Zuges kannst du, wenn du Zapdos von deiner Hand auf deine Bank legst, 1 Münze werfen. Bei \"Kopf\" lege 1 Schadensmarke auf jedes Pokémon deines Gegners."
+				de: "Einmal während deines Zuges kannst du, wenn du Zapdos von deiner Hand auf deine Bank legst, 1 Münze werfen. Bei „Kopf“ lege 1 Schadensmarke auf jedes Pokémon deines Gegners."
 			},
 		},
 	],
@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts.",
+		de: "Ein Legendäres Vogel-Pokémon, das in Gewitterwolken leben soll. Es kontrolliert Blitze."
 	},
 
 	thirdParty: {

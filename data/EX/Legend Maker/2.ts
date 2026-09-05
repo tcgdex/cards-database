@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lairon",
-		fr: "Galegon"
+		fr: "Galegon",
+		de: "Stollrak"
 	},
 
 	stage: "Stage2",
@@ -45,7 +46,7 @@ const card: Card = {
 			effect: {
 				en: "Does 70 damage minus 10 damage for each damage counter on Aggron. If Aggron has any React Energy cards attached to it, this attack does 70 damage instead.",
 				fr: "Inflige 70 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Galeking. Si Galeking possède des cartes Énergie réaction, cette attaque inflige 70 dégâts.",
-				de: "Dieser Angriff fügt 70 Schadenspunkte minus 10 Schadenspunkte für jede Schadensmarke an Stolloss zu. Wenn mindestens eine Reaktions-Energiekarte an Stolloss angelegt ist, fügt dieser Angriff stattdessen 70 Schadenspunkte zu."
+				de: "Dieser Angriff fügt 70 Schadenspunkte minus 10 Schadenspunkte für jede Schadensmarke auf Stolloss zu. Wenn mindestens eine Reaktions-Energiekarte an Stollos angelegt ist, fügt dieser Angriff stattdessen 70 Schadenspunkte zu."
 			},
 			damage: "70-",
 

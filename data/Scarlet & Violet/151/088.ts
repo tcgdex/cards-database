@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "Born from sludge, these Pokémon now gather in polluted places and increase the bacteria in their bodies.",
+		de: "Diese aus Schlamm entstandenen Pokémon scharen sich an dreckigen Orten, um ihre körpereigenen Bakterien zu kultivieren."
 	},
 
 	variants: [

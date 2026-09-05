@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Strafe",
 				fr: "Rase-Motte",
+				de: "Beharken"
 			},
 			effect: {
 				en: "You may switch this Pokémon with 1 of your Benched Pokémon.",
 				fr: "Vous pouvez échanger ce Pokémon avec 1 de vos Pokémon de Banc.",
+				de: "Du kannst dieses Pokémon gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 			damage: 50,
 
@@ -54,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Dimension Heal",
 				fr: "Soin Dimensionnel",
+				de: "Rundumheilung"
 			},
 			effect: {
 				en: "Heal from this Pokémon 20 damage for each Plasma Energy attached to this Pokémon.",
 				fr: "Soignez à ce Pokémon 20 dégâts pour chaque Énergie Plasma attachée à ce Pokémon.",
+				de: "Heile bei diesem Pokémon 20 Schadenspunkte für jede an dieses Pokémon angelegte Plasma-Energie."
 			},
 			damage: 80,
 

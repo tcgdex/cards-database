@@ -7,7 +7,8 @@ const card: Card = {
 
 	name: {
 		en: "Plusle",
-		fr: "Posipi"
+		fr: "Posipi",
+		de: "Plusle"
 	},
 
 	illustrator: "Katsura Tabata",
@@ -26,11 +27,13 @@ const card: Card = {
 		],
 		name: {
 			en: "Pickup Power",
-			fr: "Pouvoir ramassage"
+			fr: "Pouvoir ramassage",
+			de: "Kraft aufsammeln"
 		},
 		effect: {
 			en: "Search your discard pile for an Energy card, show it to your opponent, and put it into your hand.",
-			fr: "Choisissez une carte Énergie dans votre pile de défausse, montrez-la à votre adversaire et placez-la dans votre main."
+			fr: "Choisissez une carte Énergie dans votre pile de défausse, montrez-la à votre adversaire et placez-la dans votre main.",
+			de: "Durchsuche deinen Ablagestapel nach einer Energiekarte. Zeige sie deinem Gegner und nimm sie auf die Hand."
 		}
 	}, {
 		cost: [
@@ -39,11 +42,13 @@ const card: Card = {
 		],
 		name: {
 			en: "Rear Spark",
-			fr: "Étincelle arrière"
+			fr: "Étincelle arrière",
+			de: "Hinterer Funke"
 		},
 		effect: {
 			en: "Does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-			fr: "Inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+			fr: "Inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+			de: "Fügt 1 gegnerischen Pokémon auf der Bank 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		},
 		damage: 10
 	}],

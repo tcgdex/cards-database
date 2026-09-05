@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Roba cartas hasta que tengas 6 cartas en tu mano. Tu turno termina.",
 		it: "Pesca fino ad avere sei carte in mano. Il tuo turno finisce.",
 		pt: "Compre cartas até ter 6 cartas na sua mão. O seu turno acaba.",
-		de: "Ziehe so lange Karten, bis du 6 Karten auf deiner Hand hast. Dein Zug endet."
+		de: "Ziehe so lange Karten, bis du 6 Karten auf deiner Hand hast. Dein Zug endet. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

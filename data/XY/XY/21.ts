@@ -57,7 +57,7 @@ const card: Card = {
 				es: "Puedes descartar la primera carta de tu baraja. Si es una carta de Energía Fire, este ataque hace 50 puntos de daño más.",
 				it: "Puoi scartare la carta in cima al tuo mazzo. Se è una carta Energia Fire, questo attacco infligge 50 danni in più.",
 				pt: "Você pode descartar o card do topo do seu baralho. Se esse card for um card de Energia Fire, esse ataque causará 50 de danos adicionais.",
-				de: "Du kannst die oberste Karte deines Decks auf deinen Ablagestapel legen. Falls es eine Fire-Energiekarte ist, fügt dieser Angriff 50 weitere Schadenspunkte zu."
+				de: "Du kannst die oberste Karte deines Decks auf deinen Ablagestapel legen. Falls es eine {R}-Energiekarte ist, fügt dieser Angriff 50 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -93,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "Its brittle shell occasionally spouts intense flames that circulate throughout its body.",
+		de: "Aus seinem porösen Schneckengehäuse sprudeln Feuerfontänen, die seinen Körper durchfluten."
 	},
 
 	thirdParty: {

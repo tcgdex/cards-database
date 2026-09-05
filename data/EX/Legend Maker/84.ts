@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Armaldo ex",
 		fr: "Armaldo ex",
-		de: "Armaldo ex"
+		de: "Armaldo-ex"
 	},
 
 	illustrator: "Kimiya Masago",
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Anorith",
-		fr: "Anorith"
+		fr: "Anorith",
+		de: "Anorith"
 	},
 
 	suffix: "ex",
@@ -40,8 +41,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as Armaldo ex has any React Energy cards attached to it, Armaldo ex is both Grass and Fighting type.",
-				fr: "Tant qu'Armaldo ex possède des cartes Énergie réaction, il est de type  et .",
-				de: "Solange an Armaldo ex mindestens eine Reaktions-Energiekarte angelegt ist, ist Armaldo ex ein Pokémon vom Typ  und ."
+				fr: "Tant qu'Armaldo ex possède des cartes Énergie réaction, il est de type {G} et {F}.",
+				de: "Solange an Armaldo ex mindestens eine Reaktions-Energiekarte angelegt ist, ist Armaldo ex ein Pokémon vom Typ {G} und {F}."
 			},
 		},
 	],

@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, your opponent can't attach any Energy cards from his or her hand to the Active Pokémon during his or her next turn.",
 				fr: "Lancez une pièce. Si c'est face, votre adversaire ne peut pas attacher de cartes Énergie de sa main à son Pokémon Actif lors de son prochain tour.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" kann dein Gegner in seinem nächsten Zug keine Energiekarten von seiner Hand an die Aktiven Pokémon anlegen."
+				de: "Wirf 1 Münze. Bei „Kopf“ kann dein Gegner in seinem nächsten Zug keine Energiekarten von seiner Hand an die Aktiven Pokémon anlegen."
 			},
 			damage: 10,
 
@@ -63,7 +63,8 @@ const card: Card = {
 
 	description: {
 		en: "Using electricity stored in its fur, it stimulates its muscles to heighten its reaction speed.",
-		fr: "Il améliore ses réflexes en stimulant ses muscles grâce à l'électricité dans sa fourrure."
+		fr: "Il améliore ses réflexes en stimulant ses muscles grâce à l'électricité dans sa fourrure.",
+		de: "Die Elektrizität, die es im Fell speichert, nutzt es, um seine Muskeln zu stimulieren."
 	},
 
 	thirdParty: {

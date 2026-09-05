@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Goldeen",
 		fr: "Poissirène",
+		de: "Goldini"
 	},
 
 	stage: "Stage1",
@@ -70,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "Its horn spins like a drill to steadily hollow out rocks—even harder ones. The coloration of the male is more vivid.",
+		de: "Sein Horn rotiert wie ein Bohrer und höhlt selbst die härtesten Felsen aus. Männliche Golking erstrahlen in besonders prächtigen Farben."
 	},
 
 	thirdParty: {

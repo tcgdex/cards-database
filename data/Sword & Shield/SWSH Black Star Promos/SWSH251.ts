@@ -29,12 +29,15 @@ const card: Card = {
     regulationMark: "F",
     illustrator: "Mitsuhiro Arita",
 
-    variants: {
-        normal: false,
-        reverse: false,
-        holo: true,
-        firstEdition: false
-    }
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 691252,
+				tcgplayer: 489944
+			}
+		},
+	],
 }
 
 export default card

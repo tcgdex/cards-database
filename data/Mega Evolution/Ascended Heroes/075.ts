@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "It has an acute sense of hearing. It can easily hear a pin being dropped nearly 1,100 yards away.",
+		de: "Es besitzt ein exzellentes Hörvermögen. Darum kann es eine Nadel fallen hören, selbst wenn sie 1 km entfernt ist."
 	},
 
 	variants: [

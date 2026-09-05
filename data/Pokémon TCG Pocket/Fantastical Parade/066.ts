@@ -20,10 +20,6 @@ const card: Card = {
 		en: "Kirlia"
 	},
 
-	description: {
-		en: "When it opens the red plate on its chest and\nunleashes its heart, its strongest psychic power\nis released."
-	},
-
 	stage: "Stage2",
 	suffix: "EX",
 

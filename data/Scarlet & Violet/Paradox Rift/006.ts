@@ -46,6 +46,7 @@ const card: Card = {
 
 	description: {
 		en: "It first tries to find a rock to live in, but if there are no suitable rocks to be found, Dwebble may move in to the ports of a Hippowdon.",
+		de: "Wenn es keinen Stein findet, der sich als Haus eignet, lässt es sich manchmal in den Öffnungen im Körper eines Hippoterus’ nieder."
 	},
 
 	variants: [

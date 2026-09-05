@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Trapinch δ",
 		fr: "Kraknoix δ",
-		de: "Knacklion"
+		de: "Knacklion δ"
 	},
 
 	illustrator: "Yukiko Baba",

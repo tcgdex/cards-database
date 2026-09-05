@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Using psychokinesis gives it a headache, so it normally passes the time spacing out and doing as little as possible.",
+		de: "Wenn es seine Psycho-Kräfte einsetzt, bekommt es Kopfschmerzen. Deshalb steht es lieber untätig und geistesabwesend herum."
 	},
 
 	thirdParty: {

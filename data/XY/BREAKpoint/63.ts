@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, evita todos los efectos de los ataques, incluido el daño, infligidos a este Pokémon durante el próximo turno de tu rival.",
 				it: "Lancia una moneta. Se esce testa, previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon durante il prossimo turno del tuo avversario.",
 				pt: "Jogue uma moeda. Se sair cara, todos os efeitos dos ataques a este Pokémon serão previnidos, inclusive danos, durante a próxima vez de jogar do seu oponente.",
-				de: "Wirf 1 Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon zugefügt werden."
+				de: "Wirf 1 Münze. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon zugefügt werden."
 			},
 
 		},
@@ -64,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "It looks just like rotten kelp. It hides from foes while storing up power for its evolution.",
+		de: "Mit seinem an verfaulten Seetang erinnernden Aussehen führt es den Gegner in die Irre, während es selbst Energie zur Weiterentwicklung speichert."
 	},
 
 	thirdParty: {

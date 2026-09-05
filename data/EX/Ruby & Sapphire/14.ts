@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wailmer",
-		fr: "Wailmer"
+		fr: "Wailmer",
+		de: "Wailmer"
 	},
 
 	stage: "Stage1",
@@ -38,12 +39,12 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
-				de: "Take Down"
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "Wailord does 20 damage to itself.",
 				fr: "Wailord s'inflige 20 dégâts.",
-				de: "Wailord does 20 damage to itself."
+				de: "Wailord fügt sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 50,
 
@@ -59,7 +60,7 @@ const card: Card = {
 			name: {
 				en: "Surf",
 				fr: "Surf",
-				de: "Surf"
+				de: "Surfer"
 			},
 
 			damage: 70,

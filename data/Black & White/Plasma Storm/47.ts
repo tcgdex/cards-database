@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Magneton",
 		fr: "Magnéton",
+		de: "Magneton"
 	},
 
 	stage: "Stage2",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Double Assist",
 				fr: "Double Assistance",
+				de: "Doppelstütze"
 			},
 			effect: {
 				en: "Attach 2 basic Energy cards from your discard pile to 1 of your Pokémon.",
 				fr: "Attachez 2 cartes Énergie de base de votre pile de défausse à 1 de vos Pokémon.",
+				de: "Lege 2 Basis-Energiekarten von deinem Ablagestapel an 1 deiner Pokémon an."
 			},
 			damage: 30,
 
@@ -58,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Tumbling Attack",
 				fr: "Attaque Trébuchante",
+				de: "Taumler"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 70,
 
@@ -79,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "Sometimes the magnetism emitted by Magnezone is too strong, making them attract each other so they cannot move.",
+		de: "Gelegentlich erzeugen sie so starke Magnetfelder, dass sie sich gegenseitig anziehen und einander immobilisieren."
 	},
 
 	thirdParty: {

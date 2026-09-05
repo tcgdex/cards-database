@@ -35,11 +35,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sing",
-				fr: "Berceuse"
+				fr: "Berceuse",
+				de: "Gesang"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -51,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Double-Edge",
-				fr: "Damoclès"
+				fr: "Damoclès",
+				de: "Risikotackle"
 			},
 			effect: {
 				en: "This Pokémon does 30 damage to itself.",
-				fr: "Ce Pokémon s'inflige 30 dégâts."
+				fr: "Ce Pokémon s'inflige 30 dégâts.",
+				de: "Dieses Pokémon fügt sich selbst 30 Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -73,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "A kindly Pokémon that lays highly nutritious eggs and shares them with injured Pokémon or people.",
+		de: "Ein freundliches Pokémon, das seine nahrhaften Eier mit verletzten Pokémon und Menschen teilt."
 	},
 
 	thirdParty: {

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon 1 Energía unida al Pokémon Activo de tu rival en su mano. Si lo haces, une 1 carta de Energía de tu mano a tu Pokémon Activo.",
 		it: "Prendi un'Energia assegnata al Pokémon attivo del tuo avversario e aggiungila alle carte che ha in mano. Se lo fai, assegna al tuo Pokémon attivo una carta Energia dalla tua mano.",
 		pt: "Coloque uma Energia ligada ao Pokémon Ativo do seu oponente na mão dele. Se fizer isto, ligue uma carta de Energia da sua mão ao seu Pokémon Ativo.",
-		de: "Gib deinem Gegner 1 an sein Aktives Pokémon angelegte Energie auf seine Hand. Wenn du das machst, lege 1 Energiekarte aus deiner Hand an dein Aktives Pokémon an."
+		de: "Gib deinem Gegner 1 an sein Aktives Pokémon angelegte Energie auf seine Hand. Wenn du das machst, lege 1 Energiekarte aus deiner Hand an dein Aktives Pokémon an. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

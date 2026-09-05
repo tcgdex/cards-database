@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "[Bear]",
 				fr: "Bear",
-				de: "Bear"
+				de: "Bear [Bear]"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may move 1 damage counter from 1 of your Pokémon with Unown in its name to Unown . This power can't be used if Unown has 10 HP left. This power can be used even if Unown is Asleep, Confused, or Paralyzed.",
 				fr: "Une fois durant votre tour (avant votre attaque), vous pouvez déplacer 1 marqueur de dégâts d'un de vos Pokémon Zarbi sur Zarbi B. Ce pouvoir ne fonctionne pas si Zarbi B n'a que 10 PV. Ce pouvoir fonctionne même si Zarbi B est Endormi, Confus ou Paralysé.",
-				de: "Du kannst einmal während deines Zuges (vor deinem Angriff) eine Schadensmarke von einem deiner Pokémon, die Icognito in ihrem Namen haben, herunternehmen und auf Icognito B legen. Diese Fähigkeit kann nicht verwendet werden, wenn dadurch Icognito B kampfunfähig würde. (Diese Fähigkeit wirkt selbst dann, wenn icognito B schläft, verwirrt oder gelähmt ist.)"
+				de: "Du kannst einmal während deines Zuges (vor deinem Angriff) eine Schadensmarke von einem deiner Pokémon, die Icognito in ihrem Namen haben, herunternehmen und auf Icognito [B] legen. Diese Fähigkeit kann nicht verwendet werden, wenn dadurch Icognito [B] kampfunfähig würde. (Diese Fähigkeit wirkt selbst dann, wenn Icognito [B] schläft, verwirrt oder gelähmt ist.)"
 			},
 		},
 	],
@@ -68,7 +68,8 @@ const card: Card = {
 
 	description: {
 		en: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
-		fr: "Ils ressemblent à des hiéroglyphes inscrits sur d'antiques tablettes. On prétend qu'ils sont de la même origine."
+		fr: "Ils ressemblent à des hiéroglyphes inscrits sur d'antiques tablettes. On prétend qu'ils sont de la même origine.",
+		de: "Ihre Gestalt erinnert an Hieroglyphen auf alten Steintafeln. Ob ein Zusammenhang besteht, ist unklar."
 	},
 
 

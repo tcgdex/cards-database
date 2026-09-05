@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Turtwig",
 		fr: "Tortipouss",
+		de: "Chelast"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Attach a Grass Energy card from your hand to 1 of your Pokémon.",
 				fr: "Attachez une carte Énergie Grass de votre main à 1 de vos Pokémon.",
-				de: "Lege 1 -Energiekarte von deiner Hand an 1 deiner Pokémon an."
+				de: "Lege 1 {G}-Energiekarte von deiner Hand an 1 deiner Pokémon an."
 			},
 			damage: 20,
 
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 40,
 
@@ -87,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "The shell is hardened soil. Some Pokémon come to peck the berries growing on the trees on its back.",
+		de: "Seine Schale ist harter Lehm. PKMN naschen von den Beeren in den Bäumen auf seinem Rücken."
 	},
 
 	thirdParty: {

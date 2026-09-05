@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Drilbur",
-		fr: "Rototaupe"
+		fr: "Rototaupe",
+		de: "Rotomurf"
 	},
 
 	stage: "Stage1",
@@ -42,11 +43,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Reinforced Drill",
-				fr: "Perceuse Renforcée"
+				fr: "Perceuse Renforcée",
+				de: "Starkbohrer"
 			},
 			effect: {
 				en: "If this Pokémon has a Pokémon Tool card attached to it, this attack does 30 more damage.",
-				fr: "Si une carte Outil Pokémon est attachée à ce Pokémon, cette attaque inflige 30 dégâts supplémentaires."
+				fr: "Si une carte Outil Pokémon est attachée à ce Pokémon, cette attaque inflige 30 dégâts supplémentaires.",
+				de: "Wenn an dieses Pokémon eine Pokémon-Ausrüstung angelegt ist, fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: 50,
 
@@ -60,11 +63,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Mach Claw",
-				fr: "Instagriffe"
+				fr: "Instagriffe",
+				de: "Tempoklaue"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 70,
 
@@ -89,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "It can help in tunnel construction. Its drill has evolved into steel strong enough to bore through iron plates.",
+		de: "Seine zu Stahl weiterentwickelten Bohrer kriegen selbst Eisenplatten klein. Im Tunnelbau ist es ein absolutes Ass."
 	},
 
 	thirdParty: {

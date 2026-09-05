@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cura 80 puntos de puntos de daño a 1 de tus Pokémon que tenga por lo menos 1 Energía Psychic unida a él. Si has curado algún punto de daño de esta manera, descarta 1 Energía Psychic de ese Pokémon.",
 		it: "Cura uno dei tuoi Pokémon che ha almeno un'Energia Psychic assegnata da 80 danni. Se hai curato dei danni in questo modo, scarta un'Energia Psychic da quel Pokémon.",
 		pt: "Cure 80 pontos de dano de 1 dos seus Pokémon que tiver pelo menos 1 Energia Psychic ligada a ele. Se você curou qualquer dano desta forma, descarte 1 Energia Psychic daquele Pokémon.",
-		de: "Heile 80 Schadenspunkte bei 1 deiner Pokémon, an das mindestens 1 Psychic-Energie angelegt ist. Wenn du auf diese Weise Schaden geheilt hast, lege 1 Psychic-Energie von jenem Pokémon auf deinen Ablagestapel."
+		de: "Heile 80 Schadenspunkte bei 1 deiner Pokémon, an das mindestens 1 {P}-Energie angelegt ist. Wenn du auf diese Weise Schaden geheilt hast, lege 1 {P}-Energie von jenem Pokémon auf deinen Ablagestapel. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

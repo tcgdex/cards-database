@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes usar esta carta solo si alguno de tus Pokémon quedó Fuera de Combate durante el último turno de tu rival.\nUne 1 carta de Energía {R} Básica de tu pila de descartes a uno de tus Pokémon. Si lo haces, roba cartas hasta que tengas 6 cartas en tu mano.",
 		it: "Puoi usare questa carta solo se uno dei tuoi Pokémon è stato messo KO durante l'ultimo turno del tuo avversario.\nAssegna a uno dei tuoi Pokémon una carta Energia base {R} dalla tua pila degli scarti. Se lo fai, pesca fino ad avere sei carte in mano.",
 		pt: "Você só pode usar esta carta se algum dos seus Pokémon tiver sido Nocauteado durante o último turno do seu oponente.\nLigue uma carta de Energia {R} Básica da sua pilha de descarte a 1 dos seus Pokémon. Se fizer isto, compre cartas até ter 6 cartas na sua mão.",
-		de: "Du kannst diese Karte nur einsetzen, wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde.\nLege 1 Basis-{R}-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon an. Wenn du das machst, ziehe so lange Karten, bis du 6 Karten auf deiner Hand hast."
+		de: "Du kannst diese Karte nur einsetzen, wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde. Lege 1 Basis-{R}-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon an. Wenn du das machst, ziehe so lange Karten, bis du 6 Karten auf deiner Hand hast. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

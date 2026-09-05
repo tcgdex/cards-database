@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Paras",
-		fr: "Paras"
+		fr: "Paras",
+		de: "Paras"
 	},
 
 	stage: "Stage1",
@@ -72,7 +73,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The larger the mushroom on its back grows, the stronger the mushroom spores it scatters."
+		en: "The larger the mushroom on its back grows, the stronger the mushroom spores it scatters.",
+		de: "Je größer der Pilz auf seinem Rücken wird, desto stärker werden auch die Sporen, die es verteilt."
 	},
 
 	variants: [

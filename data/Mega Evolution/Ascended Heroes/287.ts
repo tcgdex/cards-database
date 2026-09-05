@@ -28,6 +28,7 @@ const card: Card = {
 	illustrator: "Ligton",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
+	dexId: [861],
 	hp: 320,
 	types: ["Darkness"],
 	stage: "Stage2",

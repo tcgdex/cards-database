@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Kirlia",
-		fr: "Kirlia"
+		fr: "Kirlia",
+		de: "Kirlia"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "",
 				it: "",
 				pt: "",
-				de: ""
+				de: "Jede an deine {P}-Pokémon angelegte {P}-Basis-Energie liefert {P}{P}-Energie. Du kannst nicht mehr als jeweils 1 Fähigkeit Psycho-Trugbild anwenden."
 			},
 		},
 	],
@@ -65,11 +66,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Mind Shock",
-				fr: "Choc Cérébral"
+				fr: "Choc Cérébral",
+				de: "Verstandesschock"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Weakness or Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance."
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
+				de: "Der Schaden dieses Angriffs wird durch Schwäche und Resistenz nicht verändert."
 			},
 			damage: 60,
 
@@ -87,7 +90,14 @@ const card: Card = {
 
 	description: {
 		en: "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
+		de: "Dieses sehr seltene Pokémon hat eine andere Farbe als normal. Es ist sehr schwer zu finden."
 	},
+
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	thirdParty: {
 		cardmarket: 280437,

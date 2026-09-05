@@ -4,12 +4,16 @@ import Set from '../SWSH Black Star Promos'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576745,
+				tcgplayer: 251103
+			}
+		},
+	],
 
 	name: {
 		en: "Poké Ball",
@@ -33,11 +37,7 @@ const card: Card = {
 		en: "Flip a coin. If heads, search your deck for a Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
 	},
 
-	trainerType: "Item",
-
-	thirdParty: {
-		cardmarket: 576745
-	}
+	trainerType: "Item"
 }
 
 export default card

@@ -30,7 +30,8 @@ const card: Card = {
 	illustrator: "Nagomi Nijo",
 
 	description: {
-		en: "Once diluted, its poison becomes medicinal. This Pokémon came into popularity after a pharmaceutical company chose it as a mascot."
+		en: "Once diluted, its poison becomes medicinal. This Pokémon came into popularity after a pharmaceutical company chose it as a mascot.",
+		de: "Verdünnt man sein Gift, wird es zu Medizin. Seit es zum Maskottchen eines Pharmakonzerns wurde, hat es viele neue Fans gewonnen."
 	},
 
 	attacks: [{

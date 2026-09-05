@@ -44,22 +44,6 @@ const card: Card = {
 			damage: "130+",
 
 		},
-		{
-			cost: [
-				"Water",
-				"Water",
-				"Colorless",
-				"Colorless",
-			],
-			name: {
-				fr: "Impact Bras d'Fer",
-			},
-			effect: {
-				fr: "Vous pouvez infliger 30 dégâts supplémentaires. Dans ce cas, défaussez les trois cartes du dessus du deck de chaque joueur.",
-			},
-			damage: "130+",
-
-		},
 	],
 	weaknesses: [
 		{

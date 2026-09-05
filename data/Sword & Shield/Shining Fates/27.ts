@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Khélocrok",
-		en: "Chewtle"
+		en: "Chewtle",
+		de: "Kamehaps"
 	},
 
 	abilities: [{
@@ -73,7 +74,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "This Pokémon rapidly extends its retractable neck to sink its sharp fangs into distant enemies and take them down."
+		en: "This Pokémon rapidly extends its retractable neck to sink its sharp fangs into distant enemies and take them down.",
+		de: "Sein streckbarer Hals ermöglicht es ihm, auch entfernte Gegner zu erreichen, die es dann mit seinen scharfen Zähnen ausschaltet."
 	},
 
 	variants: [

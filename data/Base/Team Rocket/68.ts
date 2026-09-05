@@ -53,7 +53,8 @@ const card: Card = {
 
 	description: {
 		en: "Cute Pokémon that charms people with its innocent eyes. Loves swimming all day long.",
-		fr: "Ce mignon Pokémon charme les gens avec ses yeux innocents. Il passe ses journées à nager"
+		fr: "Ce mignon Pokémon charme les gens avec ses yeux innocents. Il passe ses journées à nager",
+		de: "Niedliches Pokémon, das die Menschen mit seinen unschuldigen Augen verzaubert. Schwimmt am liebsten den ganzen Tag."
 	},
 
 

@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		fr: "Chaque joueur mélange sa main avec son deck, puis pioche 4 cartes (c’est vous qui piochez en premier).",
 		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Each player shuffles his or her hand into his or her deck and draws 4 cards.",
-		de: "Jeder Spieler mischt seine Handkarten in sein Deck und zieht 4 Karten."
+		de: "Du kannst in jedem Zug nur eine Unterstützerkarte spielen. Wenn du diese Karte ausspielst, lege sie neben dein Aktives Pokémon. Lege diese Karte am Ende deines Zuges auf deinen Ablagestapel. Jeder Spieler mischt seine Handkarten in sein Deck und zieht 4 Karten."
 	},
 
 	trainerType: "Supporter",

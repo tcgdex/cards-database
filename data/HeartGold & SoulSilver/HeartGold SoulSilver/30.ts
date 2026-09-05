@@ -59,7 +59,8 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Its lips are the most sensitive part of its body. It always uses its lips first to examine things."
+		en: "Its lips are the most sensitive part of its body. It always uses its lips first to examine things.",
+		de: "Die Lippen sind sein empfindlichster Körperteil. Neue Dinge untersucht es zuerst damit."
 	},
 
 	variants: [

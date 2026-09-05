@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Weedle",
 		fr: "Aspicot",
+		de: "Hornliu"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Hide",
 				fr: "Cachette",
+				de: "Verstecken"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
+				de: "Wirf 1 Münze. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon zugefügt werden."
 			},
 
 		},
@@ -61,6 +64,7 @@ const card: Card = {
 
 	description: {
 		en: "While awaiting evolution, it hides from predators under leaves and in nooks of branches.",
+		de: "Während es auf seine Entwicklung wartet, versteckt es sich unter Blättern und zwischen Ästen."
 	},
 
 	thirdParty: {

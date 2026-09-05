@@ -21,17 +21,6 @@ const card: Card = {
 		"Water"
 	],
 
-	abilities: [
-		{
-			type: "Poke-BODY",
-			name: {
-				en: "Lightweight",
-			},
-			effect: {
-				en: "You pay Colorless less to retreat Hoppip for each Grass Energy attached to it.",
-			},
-		},
-	],
 	stage: "Basic",
 
 	attacks: [
@@ -43,12 +32,12 @@ const card: Card = {
 			name: {
 				en: "Ice Punch",
 				fr: "Poinglace",
-				de: "Ice Punch"
+				de: "Eishieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -62,12 +51,12 @@ const card: Card = {
 			name: {
 				en: "Powder Snow",
 				fr: "Poudreuse",
-				de: "Powder Snow"
+				de: "Pulverschnee"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 

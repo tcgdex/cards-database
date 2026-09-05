@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "It's a fiend for gemstones, so it stalks Carbink. Unfortunately, Gabite almost always grabs them first.",
+		de: "Seine Liebe zu Edelsteinen treibt es dazu, Rocara nachzustellen. Knarksel kommt ihm allerdings immer zuvor."
 	},
 
 	thirdParty: {

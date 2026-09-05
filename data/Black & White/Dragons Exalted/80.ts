@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Lairon",
 		fr: "Galegon",
+		de: "Stollrak"
 	},
 
 	stage: "Stage2",
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Giga Horn",
 				fr: "Giga Corne",
+				de: "Gigahorn"
 			},
 			effect: {
 				en: "Flip 2 coins. If both of them are tails, this attack does nothing.",
 				fr: "Lancez 2 pièces. Si vous obtenez 2 côtés pile, cette attaque ne fait rien.",
+				de: "Wirf 2 Münzen. Wenn beide „Zahl“ zeigen, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 90,
 
@@ -93,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "While seeking iron for food, it digs tunnels by breaking through bedrock with its steel horns.",
+		de: "Auf der Suche nach Eisen, seiner Nahrung, gräbt es mit seinen Stahlhörnern sogar Tunnel durch Felsen."
 	},
 
 	thirdParty: {

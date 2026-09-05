@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Flaaffy",
 		fr: "Lainergie",
+		de: "Waaty"
 	},
 
 	suffix: "GX",
@@ -76,7 +77,7 @@ const card: Card = {
 				es: "Descarta todas las Energías Lightning de este Pokémon.",
 				it: "Scarta tutte le Energie Lightning assegnate a questo Pokémon.",
 				pt: "Descarte todas as Energias Lightning deste Pokémon.",
-				de: "Lege alle Lightning-Energien von diesem Pokémon auf deinen Ablagestapel."
+				de: "Lege alle {L}-Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 150,
 
@@ -91,7 +92,7 @@ const card: Card = {
 				es: "Eléctrico GX",
 				it: "Scossa GX",
 				pt: "Carga Elétrica GX",
-				de: "Elektrisch GX"
+				de: "Elektrisch-GX"
 			},
 			effect: {
 				en: "Search your deck for up to 7 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck. (You can’t use more than 1 GX attack in a game.)",

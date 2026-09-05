@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Los Pokémon Metal (tanto tuyos como de tu rival) no se pueden ver afectados por ninguna Condición Especial. (Elimina cualquier Condición Especial que afecte a esos Pokémon).",
 		it: "Nessun Pokémon Metal, sia tuo che del tuo avversario, può essere influenzato da condizioni speciali (rimuovi tutte le condizioni speciali che influenzano tale Pokémon).",
 		pt: "Nenhum Pokémon Metal (seus e do seu oponente) poderá ser afetado por Condições Especiais. (Remova todas as Condições Especiais que afetam esses Pokémon.)",
-		de: "Kein Metal-Pokémon (deine und die deines Gegners) kann von Speziellen Zuständen betroffen werden. (Alle Speziellen Zustände auf diesen Pokémon verlieren ihre Wirkung.)"
+		de: "Kein {M}-Pokémon (deine und die deines Gegners) kann von Speziellen Zuständen betroffen werden. (Alle Speziellen Zustände auf diesen Pokémon verlieren ihre Wirkung.) Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

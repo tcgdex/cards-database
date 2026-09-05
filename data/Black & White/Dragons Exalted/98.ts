@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Zweilous",
 		fr: "Diamat",
+		de: "Duodino"
 	},
 
 	stage: "Stage2",
@@ -43,10 +44,12 @@ const card: Card = {
 			name: {
 				en: "Consume",
 				fr: "Consumation",
+				de: "Verzehren"
 			},
 			effect: {
 				en: "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
 				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur.",
+				de: "Heile bei diesem Pokémon genauso viel Schaden, wie du dem Verteidigenden Pokémon zugefügt hast."
 			},
 			damage: 40,
 
@@ -61,10 +64,12 @@ const card: Card = {
 			name: {
 				en: "Destructor Beam",
 				fr: "Rayon Destructeur",
+				de: "Zerstörerstrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				de: "Wirf 1 Münze. Lege bei „Kopf“ 1 an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 90,
 
@@ -82,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "The heads on their arms do not have brains. They use all three heads to consume and destroy everything.",
+		de: "Die Köpfe an seinen beiden Armen haben kein eigenes Gehirn. Seine drei Mäuler kauen alles radikal kurz und klein."
 	},
 
 	thirdParty: {

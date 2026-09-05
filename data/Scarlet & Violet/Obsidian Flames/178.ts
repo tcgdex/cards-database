@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "It stores berries in its cheeks. When there are no berries to be found, Skwovet will stuff pebbles into its cheeks to stave off its cravings.",
+		de: "Es hortet Beeren in seinen Backentaschen. Falls es einmal keine findet, stopft es stattdessen Kiesel hinein, um Heißhungerattacken zu überwinden."
 	},
 
 	variants: [

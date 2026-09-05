@@ -95,6 +95,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon's pincers, which contain steel, can crush any hard object they get ahold of into bits.",
+		de: "Scherox’ Scheren bestehen zum Teil aus Stahl, wodurch es mit ihnen jedes noch so harte Objekt zerkleinern kann, das es zu fassen bekommt."
 	},
 
 }

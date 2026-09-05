@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Weepinbell",
 		fr: "Boustiflor",
+		de: "Ultrigaria"
 	},
 
 	stage: "Stage2",
@@ -95,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
+		de: "Dieses Pokémon soll in großen Kolonien tief im Dschungel leben, doch niemand kann dies bestätigen."
 	},
 
 	thirdParty: {

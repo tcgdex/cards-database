@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Lampent",
 		fr: "Mélancolux",
+		de: "Laternecto"
 	},
 
 	stage: "Stage2",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes buscar en tu baraja una carta de Energía Fire y unirla a 1 de tus Pokémon. Si lo haces, pon 1 contador de daño en ese Pokémon. Baraja las cartas de tu baraja después.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi cercare nel tuo mazzo una carta Energia Fire e assegnarla a uno dei tuoi Pokémon. Se lo fai, aggiungi un segnalino danno al Pokémon. Poi rimischia le carte del tuo mazzo.",
 				pt: "Uma vez durante sua vez de jogar (antes de atacar), você pode procurar um card de Energia Fire em seu baralho e ligá-lo a 1 de seus Pokémon. Se fizer isso, coloque 1 marcador de dano nesse Pokémon. Em seguida, embaralhe seus cards.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dein Deck nach 1 Fire-Energiekarte durchsuchen und sie an 1 deiner Pokémon anlegen. Wenn du das machst, lege 1 Schadensmarke auf dieses Pokémon. Mische anschließend dein Deck."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dein Deck nach 1 {R}-Energiekarte durchsuchen und sie an 1 deiner Pokémon anlegen. Wenn du das machst, lege 1 Schadensmarke auf das Pokémon. Mische anschließend dein Deck."
 			},
 		},
 	],
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Absorb Life",
 				fr: "Absorption",
+				de: "Lebensverkoster"
 			},
 			effect: {
 				en: "Heal 30 damage from this Pokémon.",
 				fr: "Soignez 30 dégâts à ce Pokémon.",
+				de: "Heile 30 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 70,
 
@@ -86,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "The spirits burned up in its ominous flame lose their way and wander this world forever.",
+		de: "Seelen, die das Feuer seiner schaurigen Flammen gekostet haben, irren bis ans Ende der Tage ziellos durch diese Welt."
 	},
 
 	thirdParty: {

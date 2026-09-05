@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Carvanha",
 		fr: "Carvanha",
+		de: "Kanivanha"
 	},
 
 	stage: "Stage1",
@@ -64,10 +65,12 @@ const card: Card = {
 			name: {
 				en: "Hard Bite",
 				fr: "Morsure Profonde",
+				de: "Kräftiger Biss"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 40,
 
@@ -85,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Its fangs rip through sheet iron. It swims at 75 mph and is known as",
+		de: "Seine Zähne durchdringen sogar Eisen. Es schwimmt mit 120 km/h und wird „Tyrann des Meeres“ genannt."
 	},
 
 	thirdParty: {

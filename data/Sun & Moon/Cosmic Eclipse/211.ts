@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gloom",
 		fr: "Ortide",
+		de: "Duflor"
 	},
 
 	suffix: "GX",
@@ -90,7 +91,7 @@ const card: Card = {
 				es: "Explosión Alérgica GX",
 				it: "Esplosione Allergica GX",
 				pt: "Explosão Alérgica GX",
-				de: "Allergische Explosion GX"
+				de: "Allergische Explosion-GX"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Burned, Paralyzed, and Poisoned. (You can’t use more than 1 GX attack in a game.)",
@@ -99,19 +100,6 @@ const card: Card = {
 				it: "Il Pokémon attivo del tuo avversario viene bruciato, paralizzato e avvelenato. Non puoi usare più di un attacco GX a partita.",
 				pt: "O Pokémon Ativo do seu oponente agora está Envenenado, Paralisado e Queimado (você não pode usar mais de 1 ataque GX por partida).",
 				de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt, paralysiert und vergiftet. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
-			},
-			damage: 50,
-
-		},
-		{
-			cost: [
-				"Grass",
-			],
-			name: {
-				fr: "Explosion Allergène-GX",
-			},
-			effect: {
-				fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé, Empoisonné et Paralysé. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 			damage: 50,
 

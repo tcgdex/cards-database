@@ -79,11 +79,16 @@ const card: Card = {
 	description: {
 		en: "Its hard skull is its distinguishing feature. It snapped trees by headbutting them, and then it fed on their ripe berries."
 	},
-
-	thirdParty: {
-		cardmarket: 684386,
-		tcgplayer: 454227
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 684386,
+				tcgplayer: 454227
+			}
+		},
+	],
 }
 
 export default card

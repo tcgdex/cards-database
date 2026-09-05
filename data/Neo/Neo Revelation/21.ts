@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pikachu",
-		fr: "Pikachu"
+		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -39,12 +40,12 @@ const card: Card = {
 			name: {
 				en: "Thundershock",
 				fr: "Éclair",
-				de: "Thundershock"
+				de: "Donnerschock"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt"
 			},
 			damage: 20,
 
@@ -59,13 +60,13 @@ const card: Card = {
 			name: {
 				en: "Lightning Strike",
 				fr: "Frap'éclair",
-				de: "Lightning Strike"
+				de: "Blitzschlag"
 			},
 
 			effect: {
 				en: "You may discard all Energy cards attached to Raichu. If you do, this attack does 80 damage.",
 				fr: "Vous pouvez défausser toutes les cartes Énergie  attachées à Raichu. Si vous le faites, cette attaque inflige 80 dégâts.",
-				de: "You may discard all @energie cards attached to Raichu. If you do, this attack does 80 damage."
+				de: "Du kannst alle {L}-Energiekarten, die an Raichu angelegt sind, auf deinen Ablagestapel legen. Falls du dies tust, fügt dieser Angriff 80 Schadenspunkte zu."
 			},
 
 			damage: 40
@@ -83,7 +84,8 @@ const card: Card = {
 
 	description: {
 		en: "If the electric pouches in its cheeks become fully charged, both ears will stand straight up.",
-		fr: "Si les poches électriques de ses joues sont complètement chargées, ses deux oreilles se dressent sur sa tête."
+		fr: "Si les poches électriques de ses joues sont complètement chargées, ses deux oreilles se dressent sur sa tête.",
+		de: "Wenn die Strombeutel in seinen Wangen ganz aufgeladen sind, stehen beide Ohren hoch."
 	},
 
 

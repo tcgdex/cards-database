@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Aron",
-		fr: "Galekid"
+		fr: "Galekid",
+		de: "Stollunior"
 	},
 
 	stage: "Stage1",
@@ -41,8 +42,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin for each Metal Energy attached to Lairon. This attack does 10 damage plus 20 more damage for each heads.",
-				fr: "Lancez une pièce pour chaque Énergie Metal attachée à Galegon. Cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires pour chaque face.",
-				de: "Wirf 1 Münze für jede an Stollrak angelegte -Energie. Dieser Angriff fügt 10 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				fr: "Lancez une pièce pour chaque Énergie {M} attachée à Galegon. Cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires pour chaque face.",
+				de: "Wirf 1 Münze für jede an Stollrak angelegte {M}-Energie. Dieser Angriff fügt 10 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10+",
 
@@ -83,7 +84,8 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "For food, it digs up iron ore. It smashes its steely body against others to fight over territory."
+		en: "For food, it digs up iron ore. It smashes its steely body against others to fight over territory.",
+		de: "Es ernährt sich von Eisenerz. Um sein Revier zu sichern, setzt es seinen harten Körper ein."
 	},
 
 	variants: [

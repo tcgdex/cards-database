@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Skitty",
-		fr: "Skitty"
+		fr: "Skitty",
+		de: "Eneco"
 	},
 
 	stage: "Stage1",
@@ -34,12 +35,12 @@ const card: Card = {
 			name: {
 				en: "Energy Draw",
 				fr: "Pioche d'énergie",
-				de: "Energy Draw"
+				de: "Ruf nach Energie"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may discard 1 Energy card from your hand. Then draw up to 3 cards from your deck. This power can't be used if Delcatty is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez défausser une carte Énergie de votre main. Ensuite, vous pouvez piocher jusqu'à trois cartes dans votre deck. Ce pouvoir ne peut être utilisé si Delcatty est affecté par un État Spécial.",
-				de: "Once during your turn (before your attack), your may discard 1 Energy card from your hand. Then draw up to 3 cards from your deck. This power can't be used if Delcatty is affected by a Special Condition."
+				de: "Während deines Zuges (vor deinem Angriff) kannst du einmal 1 Energiekarte von deiner Hand abwerfen. Ziehe danach bis zu 3 Karten von deinem Deck. Diese Poké-Power kann nicht angewendet werden, falls Enekoro von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],
@@ -52,12 +53,12 @@ const card: Card = {
 			name: {
 				en: "Max Energy Source",
 				fr: "Source d'énergie maximale",
-				de: "Max Energy Source"
+				de: "Maximale Energie"
 			},
 			effect: {
 				en: "Does 10 damage times the amount of Energy attached to all of your Active Pokémon.",
 				fr: "Inflige 10 dégâts pour chaque Énergie attachée à vos Pokémon Actifs.",
-				de: "Does 10 damage times the amount of Energy attached to all of your Active Pokémon."
+				de: "Dieser Angriff fügt für jede Energie, die an allen deinen Aktiven Pokémon angelegt ist, 10 Schadenspunkte zu."
 			},
 			damage: "10×",
 

@@ -54,7 +54,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy card attached to Cyndaquil.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une carte Énergie  attachée à Héricendre.",
+				fr: "Lancez une pièce. Si c'est pile, défaussez une carte Énergie {R} attachée à Héricendre.",
 				de: "Flip a coin. If tails, discard a  Energy card attached to Cyndaquil."
 			},
 			damage: 30,

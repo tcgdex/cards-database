@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Dragonite δ",
 		fr: "Dracolosse δ",
-		de: "Dragoran"
+		de: "Dragoran δ"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -41,7 +41,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may attach a Lightning Energy card from your discard pile to 1 of your Benched Pokémon. This power can't be used if Dragonite is affected by a Special Condition.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez attacher une carte Énergie  de votre pile de défausse à 1 de vos Pokémon de Banc. Ce pouvoir ne peut pas être utilisé si Dracolosse est affecté par un État Spécial.",
+				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez attacher une carte Énergie {L} de votre pile de défausse à 1 de vos Pokémon de Banc. Ce pouvoir ne peut pas être utilisé si Dracolosse est affecté par un État Spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du eine -Energiekarte von deinem Ablagestapel nehmen und an 1 Pokémon auf deiner Bank anlegen. Diese Poké-Power kann nicht verwendet werden, falls Dragoran von einem Speziellen Zustand betroffen ist."
 			},
 		},

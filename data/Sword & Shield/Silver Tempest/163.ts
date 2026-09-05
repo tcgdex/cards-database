@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Puedes usar 4 cartas de Piedra Cuádruple de una vez.\n• Si has usado 1 carta, cura 10 puntos de daño a tu Pokémon Activo.\n• Si has usado 4 cartas, cura todos los puntos de daño a cada uno de tus Pokémon. (Este efecto funciona una vez por 4 cartas).",
 		it: "Puoi usare quattro carte Tetrapietra alla volta.\n• Se hai usato una carta, cura il tuo Pokémon attivo da 10 danni.\n• Se hai usato quattro carte, cura ciascuno dei tuoi Pokémon da tutti i danni. Questo effetto si applica una volta ogni quattro carte.",
 		pt: "Você pode usar 4 cartas Pedra Quádrupla de uma vez.\n• Se você usou 1 carta, cure 10 pontos de dano do seu Pokémon Ativo.\n• Se você usou 4 cartas, cure todo o dano de cada um dos seus Pokémon\n(este efeito funciona uma vez para 4 cartas).",
-		de: "Du kannst 4 Quartettstein-Karten gleichzeitig verwenden.\n• Wenn du 1 Karte verwendet hast, heile 10 Schadenspunkte bei deinem Aktiven Pokémon.\n• Wenn du 4 Karten verwendet hast, heile allen Schaden bei jedem deiner Pokémon. (Dieser Effekt funktioniert einmal für 4 Karten.)"
+		de: "Du kannst 4 Quartettstein-Karten gleichzeitig verwenden. Wenn du 1 Karte verwendet hast, heile 10 Schadenspunkte bei deinem Aktiven Pokémon. Du kannst während deines Zuges beliebig viele Itemkarten spielen. Wenn du 4 Karten verwendet hast, heile allen Schaden bei jedem deiner Pokémon. (Dieser Effekt funktioniert einmal für 4 Karten.)"
 	},
 
 	trainerType: "Item",

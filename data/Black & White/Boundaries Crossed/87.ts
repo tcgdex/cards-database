@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras'Face",
+				de: "Pfund"
 			},
 
 			damage: 20,
@@ -54,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "It takes pride in the speed at which it can use moves. What it loses in power, it makes up for in quantity.",
+		de: "Schnelle Angriffe sind seine Spezialität. Es gleicht seine Schwächen mit der Vielfalt seines Attackenrepertoires aus."
 	},
 
 	thirdParty: {

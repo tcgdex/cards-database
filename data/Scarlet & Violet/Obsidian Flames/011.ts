@@ -46,6 +46,7 @@ const card: Card = {
 
 	description: {
 		en: "With a voice like a human child's, it cries out to lure adults deep into the forest, getting them lost among the trees.",
+		de: "Es imitiert das Schluchzen eines Menschenkindes, um Erwachsene tief in den Wald zu locken und dafür zu sorgen, dass diese sich verlaufen."
 	},
 
 	variants: [

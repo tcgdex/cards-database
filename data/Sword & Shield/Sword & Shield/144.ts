@@ -101,7 +101,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "When it needs to think, it rotates its head 180 degrees to sharpen its intellectual power."
+		en: "When it needs to think, it rotates its head 180 degrees to sharpen its intellectual power.",
+		de: "Muss es nachdenken, dreht es seinen Kopf um 180 Grad, um so seinen Intellekt zu schärfen."
 	},
 
 	dexId: [164],

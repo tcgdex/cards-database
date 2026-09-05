@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Tepig",
 		fr: "Gruikui",
+		de: "Floink"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Flame Charge",
 				fr: "Nitrocharge",
+				de: "Nitroladung"
 			},
 			effect: {
 				en: "Search your deck for a Fire Energy card and attach it to this Pokémon. Shuffle your deck afterward.",
 				fr: "Cherchez une carte Énergie Fire dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach 1 {R}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -57,6 +60,7 @@ const card: Card = {
 			name: {
 				en: "Heat Crash",
 				fr: "Tacle Feu",
+				de: "Brandstempel"
 			},
 
 			damage: 50,
@@ -75,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "When its internal fire flares up, its movements grow sharper and faster. When in trouble, it emits smoke.",
+		de: "Lodert das Feuer in ihm auf, bewegt es sich geschmeidiger und schneller. Bei Gefahr lässt es ordentlich Dampf ab."
 	},
 
 	thirdParty: {

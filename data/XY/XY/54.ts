@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "These Pokémon are created when spirits possess rotten tree stumps. They prefer to live in abandoned forests.",
+		de: "Bei diesen Pokémon handelt es sich um verrottete und von Geistern besessene Baumstümpfe, die sich in von Menschen gemiedene Wälder zurückziehen."
 	},
 
 	thirdParty: {

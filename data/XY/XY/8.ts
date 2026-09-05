@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It communicates with others by lighting up its rear at night. It loves Illumise's sweet aroma.",
+		de: "Es kommuniziert mit anderen, indem es sein Hinterteil zum Leuchten bringt. Es liebt Illumises Duft."
 	},
 
 	thirdParty: {

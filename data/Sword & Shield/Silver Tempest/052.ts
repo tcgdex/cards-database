@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "The light it emits is so bright that it can illuminate the sea's surface from a depth of over three miles.",
+		de: "Sein Licht ist so hell, dass es selbst aus 5 000 m Tiefe an die Meeresoberfläche dringt."
 	},
 
 	variants: [

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pignite",
 		fr: "Grotichon",
+		de: "Ferkokel"
 	},
 
 	stage: "Stage2",
@@ -43,10 +44,12 @@ const card: Card = {
 			name: {
 				en: "Firebreathing",
 				fr: "Souffle-Feu",
+				de: "Feuerhauch"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
 			},
 			damage: 40,
 
@@ -61,10 +64,12 @@ const card: Card = {
 			name: {
 				en: "Fire Blast",
 				fr: "Déflagration",
+				de: "Feuersturm"
 			},
 			effect: {
 				en: "Discard an Energy attached to this Pokémon.",
 				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 120,
 
@@ -82,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "It has mastered fast and powerful fighting moves. It grows a beard of fire.",
+		de: "Es trägt einen Backenbart aus Feuer und beherrscht Kampftechniken, die ebenso wuchtig wie schnell sind."
 	},
 
 	thirdParty: {

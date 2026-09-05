@@ -40,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "If the Defending Pokémon has a Weakness, you may change it to a type of your choice other than Colorless.",
 				fr: "Si le Pokémon Défenseur avait une Faiblesse, vous pouvez la changer pour le type de votre choix, excepté Incolore.",
-				de: "Falls das verteidigende Pokémon eine Schwäche hat, kannst Du sie auf einen Typ deiner Wahl (außer Farblos) ändern.",
+				de: "Falls das verteidigende Pokémon eine Schwäche hat, kannst Du sie auf einen Typ Deiner Wahl (außer Farblos) ändern.",
 				it: "Se il Pokémon Difensore ha una Debolezza, la puoi cambiare con un tipo a tua scelta, ad eccezione di Incolore.",
 			},
 
@@ -85,7 +85,8 @@ const card: Card = {
 	description: {
 		en: "A Pokémon that consists entirely of programming code. Capable of moving freely in cyberspace.",
 		fr: "Un Pokémon fait de programmes et d'algorithmes. Il peut survivre en milieu virtuel.",
-		it: "Pokémon costituito interamente da codici di programmazione. Capace di muoversi liberamente nel ciberspazio. LIV 12 N.137"
+		it: "Pokémon costituito interamente da codici di programmazione. Capace di muoversi liberamente nel ciberspazio. LIV 12 N.137",
+		de: "Ein Pokémon, das vollständig aus Programmiercodes besteht. Kann sich im Cyberspace frei bewegen."
 	},
 
 	variants: [
@@ -102,14 +103,16 @@ const card: Card = {
 			subtype: "shadowless",
 			stamp: ["1st-edition"],
 			thirdParty: {
-				tcgplayer: 107036
+				tcgplayer: 107036,
+				cardmarket: 660189
 			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
 			thirdParty: {
-				tcgplayer: 107036
+				tcgplayer: 107036,
+				cardmarket: 660189
 			},
 		},
 		{

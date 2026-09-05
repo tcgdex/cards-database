@@ -80,6 +80,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is very friendly when it's young. Its disposition becomes vicious once it matures, but it never forgets the kindness of its master.",
+		de: "Wuffels ist sehr zutraulich, solange es jung ist. Mit dem Alter wird es zunehmend wilder, doch es bleibt seinem Trainer auf ewig verbunden."
 	},
 }
 

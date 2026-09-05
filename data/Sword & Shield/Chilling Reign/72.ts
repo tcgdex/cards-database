@@ -69,7 +69,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Using the braids on its head, it pummels foes to get them to quiet down. One blow from those braids would knock out a professional boxer."
+		en: "Using the braids on its head, it pummels foes to get them to quiet down. One blow from those braids would knock out a professional boxer.",
+		de: "Ein Schlag mit den Quasten an seinem Kopf bringt Gegner zum Schweigen. Ein Treffer genügt, um einen Profiboxer auf die Bretter zu schicken."
 	},
 
 	variants: [

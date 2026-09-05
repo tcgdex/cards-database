@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Energy Catch",
 				fr: "Attrape-énergie",
-				de: "Energy Catch"
+				de: "Energieschnapper"
 			},
 			effect: {
 				en: "Search your discard pile for a basic Energy card, show it to your opponent, and put it into your hand.",
 				fr: "Choisissez dans votre pile de défausse une carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main.",
-				de: "Search your discard pile for a basic Energy card, show it to your opponent, and put it into your hand."
+				de: "Durchsuche deinen Ablagestapel nach 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand."
 			},
 
 		},
@@ -48,12 +48,12 @@ const card: Card = {
 			name: {
 				en: "Double-edge",
 				fr: "Damoclès",
-				de: "Double-Edge"
+				de: "Risikotackle"
 			},
 			effect: {
 				en: "Skitty does 10 damage to itself.",
 				fr: "Skitty s'inflige 10 dégâts.",
-				de: "Skitty does 10 damage to itself."
+				de: "Eneco fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 

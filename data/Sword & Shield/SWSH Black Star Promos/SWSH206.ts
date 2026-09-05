@@ -94,10 +94,20 @@ const card: Card = {
 	description: {
 		en: "The black orbs shine with an uncanny light when the Pokémon is erecting invisible barriers. The fur shed from its beard retains heat well and is a highly useful material for winter clothing."
 	},
-
-	thirdParty: {
-		cardmarket: 611337
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 611337,
+				tcgplayer: 273155
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"]
+		},
+	],
 }
 
 export default card

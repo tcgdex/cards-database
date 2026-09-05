@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Si el Pokémon al que está unida esta carta queda Fuera de Combate por el daño de un ataque de tu rival, descarta las 2 primeras cartas de la baraja de tu rival.",
 		it: "Se il Pokémon a cui è assegnata questa carta viene messo KO dai danni inflitti da un attacco dell'avversario, scarta le prime due carte del mazzo del tuo avversario.",
 		pt: "Se o Pokémon ao qual esta carta está ligada for Nocauteado pelo dano de um ataque do seu oponente, descarte as 2 cartas de cima do baralho do seu oponente.",
-		de: "Wenn das Pokémon, an das diese Karte angelegt ist, durch Schaden einer Attacke deines Gegners kampfunfähig wird, lege die obersten 2 Karten des Decks deines Gegners auf seinen Ablagestapel."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn das Pokémon, an das diese Karte angelegt ist, durch Schaden einer Attacke deines Gegners kampfunfähig wird, lege die obersten 2 Karten des Decks deines Gegners auf seinen Ablagestapel. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

@@ -84,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "When it isn't battling, it keeps Dreepy in the holes on its horns. Once a fight starts, it launches the Dreepy like supersonic missiles.",
+		de: "Es transportiert Grolldra in den Löchern an seinen Hörnern. Kommt es zum Kampf, schießt es diese mit Mach-Geschwindigkeit ab."
 	},
 
 	variants: [

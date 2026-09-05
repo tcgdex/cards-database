@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Absorb",
 				fr: "Vol-Vie",
+				de: "Absorber"
 			},
 			effect: {
 				en: "Heal 10 damage from this Pokémon.",
 				fr: "Soignez 10 dégâts à ce Pokémon.",
+				de: "Heile 10 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 10,
 
@@ -58,6 +60,7 @@ const card: Card = {
 
 	description: {
 		en: "If its veil-like arms stun and wrap a foe, that foe will be dragged miles below the surface, never to return.",
+		de: "Es schlingt seine schleierartigen Arme um seine Beute und entführt sie 8 000 Meter in die Tiefe, wo es sie schließlich tötet."
 	},
 
 	thirdParty: {

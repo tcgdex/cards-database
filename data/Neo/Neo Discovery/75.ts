@@ -16,7 +16,7 @@ const card: Card = {
 	effect: {
 		en: "Flip 2 coins. For each heads, search your deck for a Basic Energy card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward.",
 		fr: "Lancez 2 pièces. Pour chaque face, cherchez dans votre deck une carte Énergie de base. Montrez cette carte à votre adversaire, puis placez-la dans votre main. Mélangez ensuite votre deck.",
-		de: "Flip 2 coins. For each heads, search your deck for a Basic Energy card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
+		de: "Wirf zwei Münzen. Durchsuche jedesmal, wenn du „Kopf“ geworfen hast, dein Deck nach einer Basis-Energiekarte. Zeige diese Karte deinem Gegner und nimm sie auf deine Hand. Mische danach dein Deck."
 	},
 
 

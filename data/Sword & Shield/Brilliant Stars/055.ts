@@ -86,6 +86,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon has an organ known as its core. The organ glows in seven colors when Starmie is unleashing its potent psychic powers.",
+		de: "Das als Kern bezeichnete Organ dieses Pokémon erstrahlt in den sieben Farben des Regenbogens, wenn Starmie mächtige Psycho-Kräfte entfesselt."
 	},
 
 	variants: [

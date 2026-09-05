@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Burmy",
 		fr: "Cheniti",
+		de: "Burmy"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Any damage done by attacks from your Pokémon to the Defending Pokémon isn't affected by Resistance.",
 				fr: "Tous dégâts infligés par des attaques de vos Pokémon sur le Pokémon Défenseur ne sont pas affectés par la Résistance.",
-				de: "Schaden, der den Verteigigenden Pokémon durch deine Pokémon zugefügt wird, wird nicht durch Resistenz verändert."
+				de: "Schaden, der den Verteidigenden Pokémon durch deine Pokémon zugefügt wird, wird durch Resistenz nicht verändert."
 			},
 		},
 	],
@@ -77,7 +78,7 @@ const card: Card = {
 			effect: {
 				en: "You may switch Mothim with 1 of your Benched Pokémon. If you do, move as many Energy cards attached to Mothim as you like to the new Active Pokémon.",
 				fr: "Vous pouvez échanger Papilord avec 1 des Pokémon de votre Banc. Déplacez alors sur le nouveau Pokémon Actif autant de cartes Énergie attachées à Papilord que vous le voulez.",
-				de: "Du kannst Moterpel gegen 1 Pokémon auf deiner Bank austauschen. Wenn du das machst, kannst du eine belibige Anzahl an Moterpel angelegter Energiekarten entfernen, und an das neue Aktive Pokémon anlegen."
+				de: "Du kannst Moterpel gegen 1 Pokémon auf deiner Bank austauschen. Wenn du das machst, kannst du eine beliebige Anzahl an Moterpel angelegter Energiekarten entfernen und an das neue Aktive Pokémon anlegen."
 			},
 			damage: 40,
 
@@ -100,6 +101,7 @@ const card: Card = {
 
 	description: {
 		en: "It loves the honey of flowers and steals honey collected by Combee.",
+		de: "Es liebt Honig und stiehlt den Honig, der von WADRIBIE gesammelt wurde."
 	},
 
 	thirdParty: {

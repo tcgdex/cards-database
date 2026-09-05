@@ -22,7 +22,7 @@ const card: Card = {
 		es: "El Pokémon al que esté unida esta carta obtiene 20 PV más.",
 		it: "Il Pokémon a cui è assegnata questa carta ha 20 PV in più.",
 		pt: "O Pokémon ao qual este card está ligado recebe +20 PS.",
-		de: "Das Pokémon, an das diese Karte angelegt ist, erhält +20 KP."
+		de: "Lege lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Das Pokémon, an das diese Karte angelegt ist, erhält +20 KP. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

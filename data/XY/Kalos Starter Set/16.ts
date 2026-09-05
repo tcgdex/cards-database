@@ -66,6 +66,7 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted.",
+		de: "Ein beharrliches Pokémon, das seine Beute jagt, bis diese erschöpft ist."
 	},
 
 	thirdParty: {

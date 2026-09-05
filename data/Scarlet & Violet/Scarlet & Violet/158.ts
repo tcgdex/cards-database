@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lechonk",
-		fr: "Gourmelet"
+		fr: "Gourmelet",
+		de: "Ferkuli"
 	},
 
 	stage: "Stage1",
@@ -90,9 +91,6 @@ const card: Card = {
 	suffix: "ex",
 	illustrator: "aky CG Works",
 
-	description: {
-		en: "Oinkologne is proud of its fine, glossy skin. It emits a concentrated scent from the tip of its tail.",
-	},
 
 	thirdParty: {
         cardmarket: 702454,

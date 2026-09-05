@@ -23,7 +23,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Chinchou",
-		fr: "Loupio"
+		fr: "Loupio",
+		de: "Lampi"
 	},
 
 	stage: "Stage1",
@@ -39,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), you may use this power. Lanturn's type is Water until the end of your turn. This power can't be used if Lanturn is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Lanturn devient un Pokémon de type Water jusqu’à la fin de votre tour. Ce pouvoir ne peut pas être utilisé si Lanturn est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du diese Poké-Power verwenden. Lanturns Type ist  biz zum Ende des Zuges. Diese Poké-Power kann nicht benutzt werden, wenn Lanturn von einem Speziellen Zustand betroffen ist."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du diese Poké-Power verwenden. Lanturns Type ist {W} biz zum Ende des Zuges. Diese Poké-Power kann nicht benutzt werden, wenn Lanturn von einem Speziellen Zustand betroffen ist."
 			}
 		},
 	],

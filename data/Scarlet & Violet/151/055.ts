@@ -74,6 +74,7 @@ const card: Card = {
 
 	description: {
 		en: "When it swims at full speed using its long, webbed limbs, its forehead somehow begins to glow.",
+		de: "Wenn es mit den Schwimmflossen an seinen langen Gliedmaßen schnell durchs Wasser schwimmt, beginnt seine Stirn zu glühen."
 	},
 
 	variants: [

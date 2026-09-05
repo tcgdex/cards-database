@@ -73,10 +73,16 @@ const card: Card = {
 	description: {
 		en: "This Oricorio has sipped purple nectar. Some dancers use its graceful, elegant dancing as inspiration."
 	},
-
-	thirdParty: {
-		cardmarket: 580165
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 659062,
+				tcgplayer: 273585
+			}
+		},
+	],
 }
 
 export default card

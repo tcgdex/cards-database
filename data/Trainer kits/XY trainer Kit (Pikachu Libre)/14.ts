@@ -23,25 +23,29 @@ const card: Card = {
 	illustrator: "Yoshinobu Saito",
 
 	description: {
-		en: "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs."
+		en: "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs.",
+		de: "Es hat kleine Backentaschen, die mit Elektrizität gefüllt sind. Bei Gefahr entlädt es sie."
 	},
 
 	attacks: [{
 		name: {
 			en: "Quick Attack",
-			fr: "Vive-Attaque"
+			fr: "Vive-Attaque",
+			de: "Ruckzuckhieb"
 		},
 
 		damage: "10+",
 
 		effect: {
 			en: "Flip a coin. If heads, this attack does 30 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires."
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+			de: "Bei „Kopf“ fügt dieser Angriff 30 weitere Schadenspunkte zu."
 		}
 	}, {
 		name: {
 			en: "Flying Elekick",
-			fr: "Coup Élec' Volant"
+			fr: "Coup Élec' Volant",
+			de: "Fliegender Elekick"
 		},
 
 		damage: 50

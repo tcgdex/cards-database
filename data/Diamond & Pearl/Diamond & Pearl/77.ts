@@ -4,7 +4,7 @@ import Set from '../Diamond & Pearl'
 const card: Card = {
 	name: {
 		en: "Clefairy",
-		fr: "Melofée",
+		fr: "Mélofée",
 		de: "Piepi"
 	},
 
@@ -73,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "Thought to live with others on quiet mountains, it is popular for its adorable nature.",
-		fr: "Tout le monde craque pour cet adorable Pokémon. Il vit en groupe dans le calme des montagnes."
+		fr: "Tout le monde craque pour cet adorable Pokémon. Il vit en groupe dans le calme des montagnes.",
+		de: "Es ist bekannt für sein liebenswertes Wesen. Man sagt, es lebt in der Stille der Berge."
 	},
 
 	thirdParty: {

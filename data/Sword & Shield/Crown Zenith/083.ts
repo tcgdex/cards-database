@@ -57,6 +57,7 @@ const card: Card = {
 
 	description: {
 		en: "It gathers things it likes and passes them through its loop to teleport them to a secret place.",
+		de: "Mithilfe seiner Ringe hortet es Dinge, die ihm gefallen, an einem geheimen Ort. Es teleportiert diese, indem es sie durch seine Ringe bewegt."
 	},
 
 	

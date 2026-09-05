@@ -72,7 +72,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño más por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
 				it: "Questo attacco infligge 20 danni in più per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
 				pt: "Este ataque causa 20 de danos adicionais para cada Colorless no Custo para Recuar do Pokémon Ativo do seu oponente.",
-				de: "Dieser Angriff fügt 20 weitere Schadenspunkte für jedes Colorless-Symbol in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
+				de: "Dieser Angriff fügt 20 weitere Schadenspunkte für jedes {C}-Symbol in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
 			},
 			damage: "40+",
 
@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "It swings its long antlers wildly to attack. During cold periods, it hides deep in forests.",
+		de: "Beim Angriff verdreht es sein Geweih. In Kälteperioden versteckt es sich tief im Wald."
 	},
 
 	thirdParty: {

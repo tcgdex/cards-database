@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Lickitung",
 		fr: "Excelangue",
+		de: "Schlurp"
 	},
 
 	stage: "Stage1",
@@ -96,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "A contest is under way to determine which one can stick its tongue out the farthest. The current record is…more than 82 feet.",
+		de: "Es gibt Wettbewerbe dazu, welches Schlurplek seine Zunge am weitesten herausstrecken kann. Der Rekord liegt bei 25 m."
 	},
 
 	thirdParty: {

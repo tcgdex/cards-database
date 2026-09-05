@@ -96,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "It wraps its prey in green seaweed and sucks away their vitality. It only likes to go after big prey like Wailord.",
+		de: "Es wickelt grünes Seegras um seine Beute und saugt ihr die Energie aus. Auf seinem Speiseplan stehen nur große Pokémon wie Wailord."
 	},
 
 	thirdParty: {

@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Long Distance Hypnosis",
 				fr: "Hypnose longue distance",
-				de: "Long-Distance Hypnos"
+				de: "Fernhypnose"
 			},
 			effect: {
 				en: "Distance Hypnosis - Once during your turn (before your attack), you may flip a coin. If heads, the Defending Pokémon is now Asleep; if tails, your Active Pokémon is now Asleep. The power can't be used if Drowzee is Asleep, Confused, or Paralyzed.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi ; si c'est pile, votre Pokémon Actif est maintenant Endormi. Ce pouvoir ne peut être utilisé si Soporifik est Endormi, Confus ou Paralysé.",
-				de: "Once during your turn (before your attack), you may flip a coin. if heads, the defending Pokémon is now Asleep; If tails, your Active Pokémon is now Asleep. The power can't be used if Drowzee is Asleep, Confused, or Paralyzed."
+				de: "Einmal während deines Zuges (vor deinem Angriff) darfst du eine Münze werfen. Bei „Kopf“ schläft das verteidigende Pokémon jetzt; bei „Zahl“ schläft dein aktives Pokémon jetzt. Die Fähigkeit kann nicht eingesetzt werden, falls Traumato schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -50,12 +50,12 @@ const card: Card = {
 			name: {
 				en: "Nightmare",
 				fr: "Cauchemar",
-				de: "Nightmare"
+				de: "Alptraum"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				de: "Das verteidigende Pokémon schläft jetzt."
 			},
 			damage: 10,
 
@@ -73,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "Not popular with girls because of its attitude. Can often be heard muttering to itself in a low voice.",
-		fr: "Il n'a pas vraiment la cote auprès des filles en raison de son mauvais caractère. On le surprend souvent maugréant tout seul à voix basse."
+		fr: "Il n'a pas vraiment la cote auprès des filles en raison de son mauvais caractère. On le surprend souvent maugréant tout seul à voix basse.",
+		de: "Nicht sehr beliebt bei den Mädchen, weil es sich so unmöglich aufführt. Es murmelt oft gedankenverloren vor sich hin."
 	},
 
 

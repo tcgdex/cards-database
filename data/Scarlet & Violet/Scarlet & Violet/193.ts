@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Si el Pokémon al que está unida esta carta está en el Puesto Activo y resulta dañado por un ataque de los Pokémon de tu rival (incluso si queda Fuera de Combate), pon 2 contadores de daño en el Pokémon Atacante.",
 		it: "Se il Pokémon a cui è assegnata questa carta è in posizione attiva e viene danneggiato da un attacco di un Pokémon del tuo avversario, anche se viene messo KO, metti due segnalini danno sul Pokémon attaccante.",
 		pt: "Se o Pokémon ao qual esta carta está ligada estiver no Campo Ativo e for danificado por um ataque dos Pokémon do seu oponente (mesmo que ele seja Nocauteado), coloque 2 contadores de dano no Pokémon Atacante.",
-		de: "Wenn das Pokémon, an das diese Karte angelegt ist, in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält (auch wenn es dadurch kampfunfähig wird), lege 2 Schadensmarken auf das Angreifende Pokémon."
+		de: "Wenn das Pokémon, an das diese Karte angelegt ist, in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält (auch wenn es dadurch kampfunfähig wird), lege 2 Schadensmarken auf das Angreifende Pokémon. Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt."
 	},
 
 	trainerType: "Tool",

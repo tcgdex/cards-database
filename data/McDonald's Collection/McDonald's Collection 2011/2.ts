@@ -9,7 +9,8 @@ const card: Card = {
 	dexId: [556],
 
 	description: {
-		en: "It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds."
+		en: "It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds.",
+		de: "Verjagt Vogel-Pokémon, die auf seine Blüten aus sind, mit einem flotten Tänzchen und lauter Untermalung."
 	},
 
 	stage: "Basic",
@@ -17,32 +18,37 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Mega Drain",
-			fr: "Méga-Sangsue"
+			fr: "Méga-Sangsue",
+			de: "Megasauger"
 		},
 
 		damage: 20,
 
 		effect: {
 			en: "Heal 20 damage from this Pokémon.",
-			fr: "Soigne 20 dégâts infligés à ce Pokémon."
+			fr: "Soigne 20 dégâts infligés à ce Pokémon.",
+			de: "Heile 20 Schadenspunkte bei diesem Pokémon."
 		}
 	}, {
 		name: {
 			en: "Pin Missile",
-			fr: "Dard-Nuée"
+			fr: "Dard-Nuée",
+			de: "Nadelrakete"
 		},
 
 		damage: "20×",
 
 		effect: {
 			en: "Flip 4 coins. This attack does 20 damage times the number of heads.",
-			fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face."
+			fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+			de: "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 		}
 	}],
 
 	name: {
 		en: "Maractus",
-		fr: "Maracachi"
+		fr: "Maracachi",
+		de: "Maracamba"
 	},
 
 	rarity: "None",

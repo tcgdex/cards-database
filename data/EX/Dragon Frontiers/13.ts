@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Arbok δ",
 		fr: "Arbok δ",
-		de: "Arbok"
+		de: "Arbok δ"
 	},
 
 	illustrator: "Hisao Nakamura",

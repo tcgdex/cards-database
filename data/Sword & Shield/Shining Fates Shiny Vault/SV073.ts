@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Poulpaf",
-		en: "Clobbopus"
+		en: "Clobbopus",
+		de: "Klopptopus"
 	},
 
 	attacks: [{
@@ -41,7 +42,7 @@ const card: Card = {
 			es: "Hasta que este Grapploct deje el Puesto Activo, los ataques del Pokémon Defensor cuestan ColorlessColorless más, y el Pokémon Defensor no puede retirarse. Este efecto no puede aplicarse más de una vez.",
 			it: "Finché questo Grapploct è in posizione attiva, il costo degli attacchi del Pokémon difensore aumenta di ColorlessColorless e il Pokémon difensore non può ritirarsi. Questo effetto non può essere applicato più di una volta.",
 			pt: "Até este Grapploct sair do Campo Ativo, o custo dos ataques do Pokémon Defensor será ColorlessColorless a mais e o Pokémon Defensor não poderá recuar. Este efeito não pode ser aplicado mais de uma vez.",
-			de: "Bis dieses Kaocto die Aktive Position verlässt, erhöhen sich die Kosten der Attacken des Verteidigenden Pokémon um ColorlessColorless und das Verteidigende Pokémon kann sich nicht zurückziehen. Dieser Effekt kann nicht mehr als einmal angewandt werden."
+			de: "Bis dieses Kaocto die Aktive Position verlässt, erhöhen sich die Kosten der Attacken des Verteidigenden Pokémon um {C}{C} und das Verteidigende Pokémon kann sich nicht zurückziehen. Dieser Effekt kann nicht mehr als einmal angewandt werden."
 		},
 
 		cost: ["Fighting", "Fighting"]
@@ -78,7 +79,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "A body made up of nothing but muscle makes the grappling moves this Pokémon performs with its tentacles tremendously powerful."
+		en: "A body made up of nothing but muscle makes the grappling moves this Pokémon performs with its tentacles tremendously powerful.",
+		de: "Sein Körper besteht gänzlich aus Muskeln. Die schiere Stärke seines Würgegriffs, bei dem es seine Tentakel einsetzt, ist sagenhaft."
 	},
 
 	variants: [

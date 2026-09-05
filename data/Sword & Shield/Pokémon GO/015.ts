@@ -48,6 +48,7 @@ const card: Card = {
 
 	description: {
 		en: "When it retracts its long neck into its shell, it squirts out water with vigorous force.",
+		de: "Zieht es seinen langen Hals in seinen Panzer zurück, verspritzt es Wasser mit unbändiger Kraft."
 	},
 
 	

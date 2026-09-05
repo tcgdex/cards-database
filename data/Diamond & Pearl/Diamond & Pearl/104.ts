@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -73,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "It loves to eat leaves. If it is attacked by a STARLY, it will defend itself with its spiked rear.",
-		fr: "Il adore manger des feuilles. Si un Etourmi l'attaque, il riposte avec les piquants de son postérieur."
+		fr: "Il adore manger des feuilles. Si un Etourmi l'attaque, il riposte avec les piquants de son postérieur.",
+		de: "Es isst am liebsten Blätter. Wird es von einem STARALILI angegriffen, verteidigt es sich mit Stacheln."
 	},
 
 	thirdParty: {

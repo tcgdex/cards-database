@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20x",
 
@@ -73,7 +73,8 @@ const card: Card = {
 
 	description: {
 		en: "It sets a trap by spinning a web with thin but strong silk. It waits motionlessly for prey to arrive.",
-		fr: "Il tisse une toile fine mais solide pour poser des pièges et se poste dans l'attente d'une proie."
+		fr: "Il tisse une toile fine mais solide pour poser des pièges et se poste dans l'attente d'une proie.",
+		de: "Es baut eine Falle, indem es ein Netz mit dünner, starker Seide spinnt. Es wartet still auf Beute."
 	},
 
 	thirdParty: {
