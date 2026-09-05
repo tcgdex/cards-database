@@ -23,7 +23,11 @@ ADD --chown=bun:bun . .
 
 # build
 RUN cd server && \
-	bun run compile
+	bun run compile && \
+	printf '{"version":"%s","commit":"%s"}' \
+		"$(git describe --tags --abbrev=0 2>/dev/null || echo 'dev')" \
+		"$(git rev-parse --short=7 HEAD 2>/dev/null || echo 'unknown')" \
+		> generated/git-info.json
 
 # remove dev dependencies (bun do not yet support "prune")
 RUN cd server && \

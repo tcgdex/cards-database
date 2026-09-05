@@ -1,49 +1,26 @@
-import { objectKeys, objectLoop, objectMap } from '@dzeio/object-util'
 import express from 'express'
-import { findOneSerie } from './V2/Components/Serie'
-import { findOneSet } from './V2/Components/Set'
+import fs from 'node:fs'
+import path from 'node:path'
+import { execSync } from 'node:child_process'
 
-import de from '../generated/de/stats.json'
-import en from '../generated/en/stats.json'
-import es from '../generated/es/stats.json'
-import esMX from '../generated/es-mx/stats.json'
-import fr from '../generated/fr/stats.json'
-import id from '../generated/id/stats.json'
-import it from '../generated/it/stats.json'
-import ja from '../generated/ja/stats.json'
-import ko from '../generated/ko/stats.json'
-import nl from '../generated/nl/stats.json'
-import pl from '../generated/pl/stats.json'
-// import ptbr from '../generated/pt-br/stats.json'
-import ptpt from '../generated/pt-pt/stats.json'
-import pt from '../generated/pt/stats.json'
-import ru from '../generated/ru/stats.json'
-import th from '../generated/th/stats.json'
-import zhcn from '../generated/zh-cn/stats.json'
-import zhtw from '../generated/zh-tw/stats.json'
+const START_TIME = new Date()
 
-const langs = {
-	'zh-cn': zhcn,
-	'zh-tw': zhtw,
-	'nl': nl,
-	'en': en,
-	'fr': fr,
-	'de': de,
-	'id': id,
-	'it': it,
-	'ja': ja,
-	'ko': ko,
-	'pl': pl,
-	'pt': pt,
-	// 'pt-br': ptbr,
-	'pt-pt': ptpt,
-	'ru': ru,
-	'es': es,
-	'th': th,
-	'es-mx': esMX
-} as const
+const git = (cmd: string) => {
+	try { return execSync(cmd, { encoding: 'utf8', stdio: ['pipe', 'pipe', 'pipe'] }).trim() } catch { return null }
+}
+let GIT_VERSION = 'dev'
+let GIT_COMMIT  = 'unknown'
+try {
+	const info = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../generated/git-info.json'), 'utf8'))
+	GIT_VERSION = info.version ?? 'dev'
+	GIT_COMMIT  = info.commit  ?? 'unknown'
+} catch {
+	// dev environment — git-info.json not built yet, query git directly
+	GIT_VERSION = git('git describe --tags --abbrev=0') ?? 'dev'
+	GIT_COMMIT  = git('git rev-parse --short=7 HEAD')   ?? 'unknown'
+}
 
-const langsToName = {
+const langsToName: Record<string, string> = {
 	'zh-cn': 'Chinese (simplified)',
 	'zh-tw': 'Chinese (traditionnal)',
 	'nl': 'Dutch',
@@ -56,355 +33,993 @@ const langsToName = {
 	'ko': 'Korean',
 	'pl': 'Polish',
 	'pt': 'Portuguese (Brazil)',
-	// 'pt-br': 'Portuguese (brazil)',
 	'pt-pt': 'Portuguese (Portugal)',
 	'ru': 'Russian',
 	'es': 'Spanish',
 	'th': 'Thai',
-	'es-mx': 'Spanish (Latin America)'
-
-} as const
-
-/**
- * This file is meant to contains the TCGdex Project status page.
- */
-
-/**
- * Simple calculation of maximum and current count globally
- */
-const totalStats = {
-	count: objectMap(langs, (it) => it.count).reduce((p, c) => p + c, 0),
-	total: objectMap(langs, (it) => it.total).reduce((p, c) => p + c, 0),
-	images: objectMap(langs, (it) => it.images).reduce((p, c) => p + c, 0),
-}
-const asiaLangs = [
-	'ja',
-	'ko',
-	'zh-tw',
-	'id',
-	'th',
-	'zh-cn',
-]
-const totalInter = {
-	count: objectMap(langs, (it, key) => asiaLangs.includes(key) ? 0 : it.count).reduce((p, c) => p + c, 0),
-	total: objectMap(langs, (it, key) => asiaLangs.includes(key) ? 0 : it.total).reduce((p, c) => p + c, 0),
-	images: objectMap(langs, (it, key) => asiaLangs.includes(key) ? 0 : it.images).reduce((p, c) => p + c, 0),
-}
-const totalAsia = {
-	count: objectMap(langs, (it, key) => asiaLangs.includes(key) ? it.count : 0).reduce((p, c) => p + c, 0),
-	total: objectMap(langs, (it, key) => asiaLangs.includes(key) ? it.total : 0).reduce((p, c) => p + c, 0),
-	images: objectMap(langs, (it, key) => asiaLangs.includes(key) ? it.images : 0).reduce((p, c) => p + c, 0),
+	'es-mx': 'Spanish (Latin America)',
 }
 
-/**
- * Array containing data for sets, it also allow to display non english available sets
- * Serie
- * Set
- * Array of langs
- */
-const setsData: Record<string, Record<string, Array<string>>> = {}
+const asiaLangs = new Set(['ja', 'ko', 'zh-tw', 'id', 'th', 'zh-cn'])
 
-function preProcessSets(t: any, lang: keyof typeof langsToName) {
-	objectLoop(t.sets, (sets, serieId: string) => {
-		if (!(serieId in setsData)) {
-			setsData[serieId] = {}
+const GENERATED = path.resolve(__dirname, '../generated')
+
+// Load per-language stats at startup
+type LangStats = { count: number; total: number; images: number; sets: Record<string, Record<string, { name: string; count: number; images: number }>> }
+const langStats: Record<string, LangStats> = {}
+for (const lang of Object.keys(langsToName)) {
+	try {
+		langStats[lang] = JSON.parse(fs.readFileSync(path.join(GENERATED, lang, 'stats.json'), 'utf8'))
+	} catch {
+		// language not generated on this server
+	}
+}
+
+// Load series names
+const serieNames: Record<string, string> = {}
+try {
+	const series: Array<{ id: string; name: string }> = JSON.parse(
+		fs.readFileSync(path.join(GENERATED, 'en', 'series.json'), 'utf8')
+	)
+	for (const s of series) serieNames[s.id] = s.name
+} catch { }
+
+// Map set IDs to serie IDs using en stats structure
+const setToSerie: Record<string, string> = {}
+if (langStats.en) {
+	for (const [serieId, sets] of Object.entries(langStats.en.sets)) {
+		for (const setId of Object.keys(sets)) {
+			setToSerie[setId] = serieId
 		}
-		objectLoop(sets, (_, set: string) => {
-			if (!(set in setsData[serieId])) {
-				setsData[serieId][set] = []
+	}
+}
+
+// Cache Asian language series names
+const asiaSerieNames: Record<string, Record<string, string>> = {}
+for (const lang of asiaLangs) {
+	if (!langStats[lang]) continue
+	try {
+		const series: Array<{id: string; name: string}> = JSON.parse(
+			fs.readFileSync(path.join(GENERATED, lang, 'series.json'), 'utf8')
+		)
+		asiaSerieNames[lang] = Object.fromEntries(series.map((s: any) => [s.id, s.name]))
+	} catch {}
+}
+
+// Per-language card ID sets (for translation completeness)
+const langCardIds: Record<string, Set<string>> = {}
+for (const lang of Object.keys(langStats)) {
+	try {
+		const lc: any[] = JSON.parse(fs.readFileSync(path.join(GENERATED, lang, 'cards.json'), 'utf8'))
+		langCardIds[lang] = new Set(lc.map((c: any) => c.id?.toLowerCase()))
+	} catch { }
+}
+
+// Compute pricing completeness from en/cards.json at startup + index cards by set
+type CardEntry = { id: string; localId: string; name: string; image: boolean; hasCm: boolean; hasTp: boolean }
+type SetPricing = { name: string; total: number; withCardmarket: number; withTcgplayer: number }
+const pricing: { total: number; withCardmarket: number; withTcgplayer: number; bySet: Record<string, SetPricing> } = {
+	total: 0,
+	withCardmarket: 0,
+	withTcgplayer: 0,
+	bySet: {},
+}
+const cardsBySet: Record<string, CardEntry[]> = {}
+try {
+	const cards: any[] = JSON.parse(fs.readFileSync(path.join(GENERATED, 'en', 'cards.json'), 'utf8'))
+	pricing.total = cards.length
+	for (const card of cards) {
+		const variants: any[] = card.variants_detailed ?? []
+		const hasCm = variants.some((v) => v.thirdParty?.cardmarket != null)
+		const hasTp = variants.some((v) => v.thirdParty?.tcgplayer != null)
+		if (hasCm) pricing.withCardmarket++
+		if (hasTp) pricing.withTcgplayer++
+		const setId: string | undefined = card.set?.id
+		if (setId) {
+			if (!pricing.bySet[setId]) {
+				pricing.bySet[setId] = { name: card.set.name, total: 0, withCardmarket: 0, withTcgplayer: 0 }
 			}
-			setsData[serieId][set].push(lang)
+			pricing.bySet[setId].total++
+			if (hasCm) pricing.bySet[setId].withCardmarket++
+			if (hasTp) pricing.bySet[setId].withTcgplayer++
+			if (!cardsBySet[setId]) cardsBySet[setId] = []
+			cardsBySet[setId].push({ id: card.id, localId: card.localId, name: card.name, image: card.image != null, hasCm, hasTp })
+		}
+	}
+} catch (err) {
+	console.error('[status] failed to compute pricing stats:', err)
+}
+
+
+export default express.Router()
+
+	// JSON data endpoint — consumed by the status HTML page
+	.get('/data', (_req, res) => {
+		const now = Date.now()
+		res.json({
+			server: {
+				startedAt: START_TIME.toISOString(),
+				uptime: Math.floor((now - START_TIME.getTime()) / 1000),
+				version: GIT_VERSION,
+				commit: GIT_COMMIT,
+			},
+			languages: Object.fromEntries(
+				Object.entries(langStats).map(([lang, s]) => [lang, {
+					name: langsToName[lang],
+					group: asiaLangs.has(lang) ? 'asia' : 'inter',
+					count: s.count,
+					total: s.total,
+					images: s.images,
+				}])
+			),
+			pricing: {
+				total: pricing.total,
+				withCardmarket: pricing.withCardmarket,
+				withTcgplayer: pricing.withTcgplayer,
+				sets: Object.fromEntries(
+					Object.entries(pricing.bySet).map(([setId, s]) => [setId, {
+						...s,
+						serie: setToSerie[setId] ?? null,
+						serieName: serieNames[setToSerie[setId]] ?? null,
+					}])
+				),
+			},
+			sets: Object.fromEntries(
+				Object.entries(langStats.en?.sets ?? {}).map(([serieId, sets]) => [serieId, {
+					name: serieNames[serieId] ?? serieId,
+					sets: Object.fromEntries(
+						Object.entries(sets).map(([setId, setEn]) => [setId, {
+							name: setEn.name,
+							total: setEn.count,
+							langs: Object.fromEntries(
+								Object.entries(langStats)
+									.filter(([, ls]) => ls.sets[serieId]?.[setId])
+									.map(([lang, ls]) => [lang, {
+										count: ls.sets[serieId][setId].count,
+										images: ls.sets[serieId][setId].images,
+									}])
+							),
+						}])
+					),
+				}])
+			),
 		})
 	})
-}
 
-objectLoop(langs, (stats, key) => preProcessSets(stats, key))
+	// Per-set card completeness drill-down
+	.get('/data/sets/:setId', (req, res) => {
+		const setId = req.params.setId.toLowerCase()
+		const cards = cardsBySet[setId]
+		if (!cards) {
+			res.status(404).json({ error: 'set not found' })
+			return
+		}
+		const availableLangs = Object.keys(langCardIds)
+		res.json(cards.map((card) => {
+			const missingLangs = availableLangs.filter((l) => l !== 'en' && !langCardIds[l]?.has(card.id.toLowerCase()))
+			return {
+				id: card.id,
+				localId: card.localId,
+				name: card.name,
+				missing: {
+					image: !card.image,
+					cardmarket: !card.hasCm,
+					tcgplayer: !card.hasTp,
+					langs: missingLangs,
+				},
+			}
+		}))
+	})
 
-// <text fill="black"><tspan x="145.5" y="80.944">${enStats.count} of ${enStats.total}&#10;</tspan><tspan x="145.5" y="101.944">${(100 * enStats.count / enStats.total).toFixed(2)}%</tspan></text>
+	// Per-language Asia set hierarchy
+	.get('/data/asia/:lang', (req, res) => {
+		const lang = req.params.lang
+		if (!asiaLangs.has(lang) || !langStats[lang]) {
+			res.status(404).json({ error: 'language not found' })
+			return
+		}
+		const ls = langStats[lang]
+		res.json({
+			lang,
+			name: langsToName[lang],
+			count: ls.count,
+			total: ls.total,
+			images: ls.images,
+			series: Object.fromEntries(
+				Object.entries(ls.sets).map(([serieId, sets]) => [serieId, {
+					name: asiaSerieNames[lang]?.[serieId] ?? serieId,
+					sets: Object.fromEntries(
+						Object.entries(sets as Record<string, {name: string; count: number; images: number}>).map(([setId, s]) => [setId, {
+							name: s.name,
+							count: s.count,
+							images: s.images,
+						}])
+					),
+				}])
+			),
+		})
+	})
 
+	// GitHub SVG badge — dynamically generated from available language data
+	.get('/github.svg', (_req, res): void => {
+		const interEntries = Object.entries(langStats)
+			.filter(([l]) => !asiaLangs.has(l))
+			.sort(([a], [b]) => a.localeCompare(b))
+		const asiaEntries = Object.entries(langStats).filter(([l]) => asiaLangs.has(l))
 
-// Yes this is ugly
-export default express.Router()
-.get('/github.svg', async (_, res): Promise<void> => {
-	res.setHeader('Content-Type', 'image/svg+xml')
-	res.send(`<svg width="1429" height="726" viewBox="0 0 1429 726" fill="none" xmlns="http://www.w3.org/2000/svg">
-	<rect width="1429" height="726" fill="white"/>
-	<path d="M0 16C0 7.16344 7.16344 0 16 0H1413C1421.84 0 1429 7.16344 1429 16V47C1429 55.8366 1421.84 63 1413 63H16C7.1634 63 0 55.8366 0 47V16Z" fill="#EEEEEE"/>
-	<text fill="#757575" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="136.409" y="37.5">Dutch</tspan></text>
-	<text fill="#757575" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="252.227" y="37.5">English</tspan></text>
-	<text fill="#757575" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="374.545" y="37.5">French</tspan></text>
-	<text fill="#757575" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="490.364" y="37.5">German</tspan></text>
-	<text fill="#757575" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="616.182" y="37.5">Italian</tspan></text>
-	<text fill="#757575" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="740.5" y="37.5">Polish</tspan></text>
-	<text fill="#757575" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="839.763" y="27.5">Portuguese&#10;</tspan><tspan x="856.138" y="47.5">(Brazil)</tspan></text>
-	<text fill="#757575" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="960.582" y="27.5">Portuguese&#10;</tspan><tspan x="965.238" y="47.5">(Portugal)</tspan></text>
-	<text fill="#757575" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="1095.45" y="37.5">Russian</tspan></text>
-	<text fill="#757575" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="1215.77" y="37.5">Spanish</tspan></text>
-	<text fill="#757575" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="1325.59" y="37.5">Total Inter</tspan></text>
-	<rect width="1429" height="100" transform="translate(0 63)" fill="#FAFAFA"/>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="25.3359" y="109">Cards&#10;</tspan><tspan x="13.7266" y="129">Progress</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="129.616" y="89">${langs['nl'].count}&#10;</tspan><tspan x="149.506" y="109">of&#10;</tspan><tspan x="129.616" y="129">${langs['nl'].total}&#10;</tspan><tspan x="132.858" y="149">(${(100 * langs['nl'].count / langs['nl'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="250.707" y="89">${langs['en'].count}&#10;</tspan><tspan x="270.597" y="109">of&#10;</tspan><tspan x="250.707" y="129">${langs['en'].total}&#10;</tspan><tspan x="253.949" y="149">(${(100 * langs['en'].count / langs['en'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="371.798" y="89">${langs['fr'].count}&#10;</tspan><tspan x="391.688" y="109">of&#10;</tspan><tspan x="371.798" y="129">${langs['fr'].total}&#10;</tspan><tspan x="375.04" y="149">(${(100 * langs['fr'].count / langs['fr'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="492.888" y="89">${langs['de'].count}&#10;</tspan><tspan x="512.779" y="109">of&#10;</tspan><tspan x="492.888" y="129">${langs['de'].total}&#10;</tspan><tspan x="496.131" y="149">(${(100 * langs['de'].count / langs['de'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="613.979" y="89">${langs['it'].count}&#10;</tspan><tspan x="633.87" y="109">of&#10;</tspan><tspan x="613.979" y="129">${langs['it'].total}&#10;</tspan><tspan x="617.222" y="149">(${(100 * langs['it'].count / langs['it'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="735.07" y="89">${langs['pl'].count}&#10;</tspan><tspan x="754.961" y="109">of&#10;</tspan><tspan x="735.07" y="129">${langs['pl'].total}&#10;</tspan><tspan x="738.312" y="149">(${(100 * langs['pl'].count / langs['pl'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="856.161" y="89">${langs['pt'].count}&#10;</tspan><tspan x="876.052" y="109">of&#10;</tspan><tspan x="856.161" y="129">${langs['pt'].total}&#10;</tspan><tspan x="859.403" y="149">(${(100 * langs['pt'].count / langs['pt'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="977.252" y="89">${langs['pt-pt'].count}&#10;</tspan><tspan x="997.143" y="109">of&#10;</tspan><tspan x="977.252" y="129">${langs['pt-pt'].total}&#10;</tspan><tspan x="980.494" y="149">(${(100 * langs['pt-pt'].count / langs['pt-pt'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="1098.34" y="89">${langs['ru'].count}&#10;</tspan><tspan x="1118.23" y="109">of&#10;</tspan><tspan x="1098.34" y="129">${langs['ru'].total}&#10;</tspan><tspan x="1101.59" y="149">(${(100 * langs['ru'].count / langs['ru'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="1219.43" y="89">${langs['es'].count}&#10;</tspan><tspan x="1239.32" y="109">of&#10;</tspan><tspan x="1219.43" y="129">${langs['es'].total}&#10;</tspan><tspan x="1222.68" y="149">(${(100 * langs['es'].count / langs['es'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="1340.52" y="89">${totalInter.count}&#10;</tspan><tspan x="1360.42" y="109">of&#10;</tspan><tspan x="1340.52" y="129">${totalInter.total}&#10;</tspan><tspan x="1343.77" y="149">(${(100 * totalInter.count / totalInter.total).toFixed(2)}%)</tspan></text>
-	<rect width="1429" height="100" transform="translate(0 163)" fill="#FAFAFA"/>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="17.5391" y="209">Images&#10;</tspan><tspan x="13.7266" y="229">Progress</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="129.616" y="189">${langs['nl'].images}&#10;</tspan><tspan x="149.506" y="209">of&#10;</tspan><tspan x="129.616" y="229">${langs['nl'].total}&#10;</tspan><tspan x="132.858" y="249">(${(100 * langs['nl'].images / langs['nl'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="250.707" y="189">${langs['en'].images}&#10;</tspan><tspan x="270.597" y="209">of&#10;</tspan><tspan x="250.707" y="229">${langs['en'].total}&#10;</tspan><tspan x="253.949" y="249">(${(100 * langs['en'].images / langs['en'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="371.798" y="189">${langs['fr'].images}&#10;</tspan><tspan x="391.688" y="209">of&#10;</tspan><tspan x="371.798" y="229">${langs['fr'].total}&#10;</tspan><tspan x="375.04" y="249">(${(100 * langs['fr'].images / langs['fr'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="492.888" y="189">${langs['de'].images}&#10;</tspan><tspan x="512.779" y="209">of&#10;</tspan><tspan x="492.888" y="229">${langs['de'].total}&#10;</tspan><tspan x="496.131" y="249">(${(100 * langs['de'].images / langs['de'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="613.979" y="189">${langs['it'].images}&#10;</tspan><tspan x="633.87" y="209">of&#10;</tspan><tspan x="613.979" y="229">${langs['it'].total}&#10;</tspan><tspan x="617.222" y="249">(${(100 * langs['it'].images / langs['it'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="735.07" y="189">${langs['pl'].images}&#10;</tspan><tspan x="754.961" y="209">of&#10;</tspan><tspan x="735.07" y="229">${langs['pl'].total}&#10;</tspan><tspan x="738.312" y="249">(${(100 * langs['pl'].images / langs['pl'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="856.161" y="189">${langs['pt'].images}&#10;</tspan><tspan x="876.052" y="209">of&#10;</tspan><tspan x="856.161" y="229">${langs['pt'].total}&#10;</tspan><tspan x="859.403" y="249">(${(100 * langs['pt'].images / langs['pt'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="977.252" y="189">${langs['pt-pt'].images}&#10;</tspan><tspan x="997.143" y="209">of&#10;</tspan><tspan x="977.252" y="229">${langs['pt-pt'].total}&#10;</tspan><tspan x="980.494" y="249">(${(100 * langs['pt-pt'].images / langs['pt-pt'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="1098.34" y="189">${langs['ru'].images}&#10;</tspan><tspan x="1118.23" y="209">of&#10;</tspan><tspan x="1098.34" y="229">${langs['ru'].total}&#10;</tspan><tspan x="1101.59" y="249">(${(100 * langs['ru'].images / langs['ru'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="1219.43" y="189">${langs['es'].images}&#10;</tspan><tspan x="1239.32" y="209">of&#10;</tspan><tspan x="1219.43" y="229">${langs['es'].total}&#10;</tspan><tspan x="1222.68" y="249">(${(100 * langs['es'].images / langs['es'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="1340.52" y="189">${totalInter.images}&#10;</tspan><tspan x="1360.42" y="209">of&#10;</tspan><tspan x="1340.52" y="229">${totalInter.total}&#10;</tspan><tspan x="1343.77" y="249">(${(100 * totalInter.images / totalInter.total).toFixed(2)}%)</tspan></text>
-	<rect width="1429" height="100" transform="translate(0 263)" fill="#FAFAFA"/>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="28.5859" y="309">Total&#10;</tspan><tspan x="13.7266" y="329">Progress</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="129.616" y="289">${langs['nl'].count + langs['nl'].images}&#10;</tspan><tspan x="149.506" y="309">of&#10;</tspan><tspan x="129.616" y="329">${langs['nl'].total * 2}&#10;</tspan><tspan x="132.858" y="349">(${(100 * (langs['nl'].count + langs['nl'].images) / (langs['nl'].total * 2)).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="250.707" y="289">${langs['en'].count + langs['en'].images}&#10;</tspan><tspan x="270.597" y="309">of&#10;</tspan><tspan x="250.707" y="329">${langs['en'].total * 2}&#10;</tspan><tspan x="253.949" y="349">(${(100 * (langs['en'].count + langs['en'].images) / (langs['en'].total * 2)).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="371.798" y="289">${langs['fr'].count + langs['fr'].images}&#10;</tspan><tspan x="391.688" y="309">of&#10;</tspan><tspan x="371.798" y="329">${langs['fr'].total * 2}&#10;</tspan><tspan x="375.04" y="349">(${(100 * (langs['fr'].count + langs['fr'].images) / (langs['fr'].total * 2)).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="492.888" y="289">${langs['de'].count + langs['de'].images}&#10;</tspan><tspan x="512.779" y="309">of&#10;</tspan><tspan x="492.888" y="329">${langs['de'].total * 2}&#10;</tspan><tspan x="496.131" y="349">(${(100 * (langs['de'].count + langs['de'].images) / (langs['de'].total * 2)).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="613.979" y="289">${langs['it'].count + langs['it'].images}&#10;</tspan><tspan x="633.87" y="309">of&#10;</tspan><tspan x="613.979" y="329">${langs['it'].total * 2}&#10;</tspan><tspan x="617.222" y="349">(${(100 * (langs['it'].count + langs['it'].images) / (langs['it'].total * 2)).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="735.07" y="289">${langs['pl'].count + langs['pl'].images}&#10;</tspan><tspan x="754.961" y="309">of&#10;</tspan><tspan x="735.07" y="329">${langs['pl'].total * 2}&#10;</tspan><tspan x="738.312" y="349">(${(100 * (langs['pl'].count + langs['pl'].images) / (langs['pl'].total * 2)).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="856.161" y="289">${langs['pt'].count + langs['pt'].images}&#10;</tspan><tspan x="876.052" y="309">of&#10;</tspan><tspan x="856.161" y="329">${langs['pt'].total * 2}&#10;</tspan><tspan x="859.403" y="349">(${(100 * (langs['pt'].count + langs['pt'].images) / (langs['pt'].total * 2)).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="977.252" y="289">${langs['pt-pt'].count + langs['pt-pt'].images}&#10;</tspan><tspan x="997.143" y="309">of&#10;</tspan><tspan x="977.252" y="329">${langs['pt-pt'].total * 2}&#10;</tspan><tspan x="980.494" y="349">(${(100 * (langs['pt-pt'].count + langs['pt-pt'].images) / (langs['pt-pt'].total * 2)).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="1098.34" y="289">${langs['ru'].count + langs['ru'].images}&#10;</tspan><tspan x="1118.23" y="309">of&#10;</tspan><tspan x="1098.34" y="329">${langs['ru'].total * 2}&#10;</tspan><tspan x="1101.59" y="349">(${(100 * (langs['ru'].count + langs['ru'].images) / (langs['ru'].total * 2)).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="1219.43" y="289">${langs['es'].count + langs['es'].images}&#10;</tspan><tspan x="1239.32" y="309">of&#10;</tspan><tspan x="1219.43" y="329">${langs['es'].total * 2}&#10;</tspan><tspan x="1222.68" y="349">(${(100 * (langs['es'].count + langs['es'].images) / (langs['es'].total * 2)).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="1340.52" y="289">${totalInter.images + totalInter.count}&#10;</tspan><tspan x="1360.42" y="309">of&#10;</tspan><tspan x="1340.52" y="329">${totalInter.total * 2}&#10;</tspan><tspan x="1343.77" y="349">(${(100 * (totalInter.count + totalInter.images) / (totalInter.total * 2)).toFixed(2)}%)</tspan></text>
-	<path d="M0 379C0 370.163 7.16344 363 16 363H1413C1421.84 363 1429 370.163 1429 379V410C1429 418.837 1421.84 426 1413 426H16C7.1634 426 0 418.837 0 410V379Z" fill="#EEEEEE"/>
-	<text fill="#757575" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="163.718" y="390.5">Chinese&#10;</tspan><tspan x="139.975" y="410.5">(Traditionnal)</tspan></text>
-	<text fill="#757575" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="353.575" y="390.5">Chinese&#10;</tspan><tspan x="338.176" y="410.5">(Simplified)</tspan></text>
-	<text fill="#757575" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="528.643" y="400.5">Indonesian</tspan></text>
-	<text fill="#757575" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="725.5" y="400.5">Japanese</tspan></text>
-	<text fill="#757575" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="925.357" y="400.5">Korean</tspan></text>
-	<text fill="#757575" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="1126.21" y="400.5">Thai</tspan></text>
-	<text fill="#757575" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="1294.07" y="400.5">Total Asia</tspan></text>
-	<rect width="1429" height="100" transform="translate(0 426)" fill="#FAFAFA"/>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="25.3359" y="472">Cards&#10;</tspan><tspan x="13.7266" y="492">Progress</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="164.213" y="452">${langs['zh-tw'].count}&#10;</tspan><tspan x="184.104" y="472">of&#10;</tspan><tspan x="164.213" y="492">${langs['zh-tw'].total}&#10;</tspan><tspan x="167.455" y="512">(${(100 * langs['zh-tw'].count / langs['zh-tw'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="354.499" y="452">${langs['zh-cn'].count}&#10;</tspan><tspan x="374.39" y="472">of&#10;</tspan><tspan x="354.499" y="492">${langs['zh-cn'].total}&#10;</tspan><tspan x="357.741" y="512">(${(100 * langs['zh-cn'].count / langs['zh-cn'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="544.785" y="452">${langs['id'].count}&#10;</tspan><tspan x="564.675" y="472">of&#10;</tspan><tspan x="544.785" y="492">${langs['id'].total}&#10;</tspan><tspan x="548.027" y="512">(${(100 * langs['id'].count / langs['id'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="735.07" y="452">${langs['ja'].count}&#10;</tspan><tspan x="754.961" y="472">of&#10;</tspan><tspan x="735.07" y="492">${langs['ja'].total}&#10;</tspan><tspan x="738.312" y="512">(${(100 * langs['ja'].count / langs['ja'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="925.356" y="452">${langs['ko'].count}&#10;</tspan><tspan x="945.247" y="472">of&#10;</tspan><tspan x="925.356" y="492">${langs['ko'].total}&#10;</tspan><tspan x="928.598" y="512">(${(100 * langs['ko'].count / langs['ko'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="1115.64" y="452">${langs['th'].count}&#10;</tspan><tspan x="1135.53" y="472">of&#10;</tspan><tspan x="1115.64" y="492">${langs['th'].total}&#10;</tspan><tspan x="1118.88" y="512">(${(100 * langs['th'].count / langs['th'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="1305.93" y="452">${totalAsia.count}&#10;</tspan><tspan x="1325.82" y="472">of&#10;</tspan><tspan x="1305.93" y="492">${totalAsia.total}&#10;</tspan><tspan x="1309.17" y="512">(${(100 * totalAsia.count / totalAsia.total).toFixed(2)}%)</tspan></text>
-	<rect width="1429" height="100" transform="translate(0 526)" fill="#FAFAFA"/>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="17.5391" y="572">Images&#10;</tspan><tspan x="13.7266" y="592">Progress</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="164.213" y="552">${langs['zh-tw'].images}&#10;</tspan><tspan x="184.104" y="572">of&#10;</tspan><tspan x="164.213" y="592">${langs['zh-tw'].total}&#10;</tspan><tspan x="167.455" y="612">(${(100 * langs['zh-tw'].images / langs['zh-tw'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="354.499" y="552">${langs['zh-cn'].images}&#10;</tspan><tspan x="374.39" y="572">of&#10;</tspan><tspan x="354.499" y="592">${langs['zh-cn'].total}&#10;</tspan><tspan x="357.741" y="612">(${(100 * langs['zh-cn'].images / langs['zh-cn'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="544.785" y="552">${langs['id'].images}&#10;</tspan><tspan x="564.675" y="572">of&#10;</tspan><tspan x="544.785" y="592">${langs['id'].total}&#10;</tspan><tspan x="548.027" y="612">(${(100 * langs['id'].images / langs['id'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="735.07" y="552">${langs['ja'].images}&#10;</tspan><tspan x="754.961" y="572">of&#10;</tspan><tspan x="735.07" y="592">${langs['ja'].total}&#10;</tspan><tspan x="738.312" y="612">(${(100 * langs['ja'].images / langs['ja'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="925.356" y="552">${langs['ko'].images}&#10;</tspan><tspan x="945.247" y="572">of&#10;</tspan><tspan x="925.356" y="592">${langs['ko'].total}&#10;</tspan><tspan x="928.598" y="612">(${(100 * langs['ko'].images / langs['ko'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="1115.64" y="552">${langs['th'].images}&#10;</tspan><tspan x="1135.53" y="572">of&#10;</tspan><tspan x="1115.64" y="592">${langs['th'].total}&#10;</tspan><tspan x="1118.88" y="612">(${(100 * langs['th'].images / langs['th'].total).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="1305.93" y="552">${totalAsia.images}&#10;</tspan><tspan x="1325.82" y="572">of&#10;</tspan><tspan x="1305.93" y="592">${totalAsia.total}&#10;</tspan><tspan x="1309.17" y="612">(${(100 * totalAsia.images / totalAsia.total).toFixed(2)}%)</tspan></text>
-	<rect width="1429" height="100" transform="translate(0 626)" fill="#FAFAFA"/>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="28.5859" y="672">Total&#10;</tspan><tspan x="13.7266" y="692">Progress</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="164.213" y="652">${langs['zh-tw'].count + langs['zh-tw'].images}&#10;</tspan><tspan x="184.104" y="672">of&#10;</tspan><tspan x="164.213" y="692">${langs['zh-tw'].total * 2}&#10;</tspan><tspan x="167.455" y="712">(${(100 * (langs['zh-tw'].count + langs['zh-tw'].images) / (langs['zh-tw'].total * 2)).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="354.499" y="652">${langs['zh-cn'].count + langs['zh-cn'].images}&#10;</tspan><tspan x="374.39" y="672">of&#10;</tspan><tspan x="354.499" y="692">${langs['zh-cn'].total * 2}&#10;</tspan><tspan x="357.741" y="712">(${(100 * (langs['zh-cn'].count + langs['zh-cn'].images) / (langs['zh-cn'].total * 2)).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="544.785" y="652">${langs['id'].count + langs['id'].images}&#10;</tspan><tspan x="564.675" y="672">of&#10;</tspan><tspan x="544.785" y="692">${langs['id'].total * 2}&#10;</tspan><tspan x="548.027" y="712">(${(100 * (langs['id'].count + langs['id'].images) / (langs['id'].total * 2)).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="735.07" y="652">${langs['ja'].count + langs['ja'].images}&#10;</tspan><tspan x="754.961" y="672">of&#10;</tspan><tspan x="735.07" y="692">${langs['ja'].total * 2}&#10;</tspan><tspan x="738.312" y="712">(${(100 * (langs['ja'].count + langs['ja'].images) / (langs['ja'].total * 2)).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="925.356" y="652">${langs['ko'].count + langs['ko'].images}&#10;</tspan><tspan x="945.247" y="672">of&#10;</tspan><tspan x="925.356" y="692">${langs['ko'].total * 2}&#10;</tspan><tspan x="928.598" y="712">(${(100 * (langs['ko'].count + langs['ko'].images) / (langs['ko'].total * 2)).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="1115.64" y="652">${langs['th'].count + langs['th'].images}&#10;</tspan><tspan x="1135.53" y="672">of&#10;</tspan><tspan x="1115.64" y="692">${langs['th'].total * 2}&#10;</tspan><tspan x="1118.88" y="712">(${(100 * (langs['th'].count + langs['th'].images) / (langs['th'].total * 2)).toFixed(2)}%)</tspan></text>
-	<text fill="#212121" xml:space="preserve" style="white-space: pre" font-family="Arial" font-size="16" font-weight="600" letter-spacing="0em"><tspan x="1305.93" y="652">${totalAsia.count + totalAsia.images}&#10;</tspan><tspan x="1325.82" y="672">of&#10;</tspan><tspan x="1305.93" y="692">${totalAsia.total * 2}&#10;</tspan><tspan x="1309.17" y="712">(${(100 * (totalAsia.count + totalAsia.images) / (totalAsia.total * 2)).toFixed(2)}%)</tspan></text>
+		const sumStats = (entries: [string, LangStats][]) => entries.reduce(
+			(acc, [, s]) => { acc.count += s.count; acc.total += s.total; acc.images += s.images; return acc },
+			{ count: 0, total: 0, images: 0 }
+		)
+		const totalInter = sumStats(interEntries)
+		const totalAsia = sumStats(asiaEntries)
+		const hasAsia = asiaEntries.length > 0
+
+		const pct = (a: number, b: number) => `${(100 * a / (b || 1)).toFixed(2)}%`
+
+		// Layout
+		const LABEL_W = 110
+		const COL_W = 120
+		const HEADER_H = 63
+		const ROW_H = 100
+
+		type SvgCol = { label: string; count: number; total: number; images: number }
+		const cols: SvgCol[] = [
+			...interEntries.map(([l, s]) => ({ label: langsToName[l] ?? l, count: s.count, total: s.total, images: s.images })),
+			{ label: 'Total Inter', ...totalInter },
+			...(hasAsia ? [{ label: 'Total Asia', ...totalAsia }] : []),
+		]
+
+		const svgW = LABEL_W + cols.length * COL_W
+		const LANG_ROWS = 3
+		const PRICING_ROWS = 2
+		const svgH = HEADER_H + (LANG_ROWS + PRICING_ROWS) * ROW_H
+		const cx = (i: number) => LABEL_W + i * COL_W + Math.round(COL_W / 2)
+		const lx = Math.round(LABEL_W / 2)
+		const dataCenter = Math.round(LABEL_W + (svgW - LABEL_W) / 2)
+
+		// Split long names at '(' or at a space near the middle
+		const splitName = (name: string): [string, string | null] => {
+			const pi = name.indexOf('(')
+			if (pi > 0) return [name.slice(0, pi).trim(), name.slice(pi)]
+			if (name.length > 11) {
+				const mid = Math.floor(name.length / 2)
+				const sp = name.lastIndexOf(' ', mid + 3)
+				if (sp > 0) return [name.slice(0, sp), name.slice(sp + 1)]
+			}
+			return [name, null]
+		}
+
+		// Header
+		const headerTexts = cols.map((col, i) => {
+			const [l1, l2] = splitName(col.label)
+			const x = cx(i)
+			if (l2) {
+				return `<text fill="#757575" font-family="Arial" font-size="14" font-weight="600" text-anchor="middle"><tspan x="${x}" y="24">${l1}</tspan><tspan x="${x}" dy="18">${l2}</tspan></text>`
+			}
+			return `<text fill="#757575" font-family="Arial" font-size="14" font-weight="600" text-anchor="middle" x="${x}" y="37">${l1}</text>`
+		}).join('\n')
+
+		// Data rows: Cards Progress, Images Progress, Total Progress
+		const dataRows: Array<{ label: [string, string]; get: (c: SvgCol) => [number, number] }> = [
+			{ label: ['Cards',  'Progress'], get: c => [c.count,              c.total    ] },
+			{ label: ['Images', 'Progress'], get: c => [c.images,             c.total    ] },
+			{ label: ['Total',  'Progress'], get: c => [c.count + c.images,   c.total * 2] },
+		]
+
+		const rowsHtml = dataRows.map(({ label, get }, ri) => {
+			const ry = HEADER_H + ri * ROW_H
+			const bg = `<rect width="${svgW}" height="${ROW_H}" y="${ry}" fill="${ri % 2 === 0 ? '#FAFAFA' : '#FFFFFF'}"/>`
+			const rowLabel = `<text fill="#212121" font-family="Arial" font-size="14" font-weight="600" text-anchor="middle"><tspan x="${lx}" y="${ry + 37}">${label[0]}</tspan><tspan x="${lx}" dy="20">${label[1]}</tspan></text>`
+			const cells = cols.map((col, ci) => {
+				const [num, den] = get(col)
+				const x = cx(ci)
+				return `<text fill="#212121" font-family="Arial" font-size="14" font-weight="600" text-anchor="middle"><tspan x="${x}" y="${ry + 26}">${num}</tspan><tspan x="${x}" dy="20">of</tspan><tspan x="${x}" dy="20">${den}</tspan><tspan x="${x}" dy="20">(${pct(num, den)})</tspan></text>`
+			}).join('\n')
+			return `${bg}\n${rowLabel}\n${cells}`
+		}).join('\n')
+
+		// Pricing rows (EN-global, single centered cell)
+		const pricingBase = HEADER_H + LANG_ROWS * ROW_H
+		const pricingRowsHtml = [
+			{ label: ['CardMarket', 'Coverage'], num: pricing.withCardmarket, den: pricing.total },
+			{ label: ['TCGPlayer',  'Coverage'], num: pricing.withTcgplayer,  den: pricing.total },
+		].map(({ label, num, den }, ri) => {
+			const ry = pricingBase + ri * ROW_H
+			const bg = `<rect width="${svgW}" height="${ROW_H}" y="${ry}" fill="${ri % 2 === 0 ? '#FAFAFA' : '#FFFFFF'}"/>`
+			const rowLabel = `<text fill="#212121" font-family="Arial" font-size="14" font-weight="600" text-anchor="middle"><tspan x="${lx}" y="${ry + 37}">${label[0]}</tspan><tspan x="${lx}" dy="20">${label[1]}</tspan></text>`
+			const cell = `<text fill="#212121" font-family="Arial" font-size="14" font-weight="600" text-anchor="middle"><tspan x="${dataCenter}" y="${ry + 26}">${num}</tspan><tspan x="${dataCenter}" dy="20">of</tspan><tspan x="${dataCenter}" dy="20">${den}</tspan><tspan x="${dataCenter}" dy="20">(${pct(num, den)})</tspan></text>`
+			return `${bg}\n${rowLabel}\n${cell}`
+		}).join('\n')
+
+		// Separator between language rows and pricing rows
+		const separator = `<rect width="${svgW}" height="2" y="${pricingBase}" fill="#DDDDDD"/>`
+
+		// Grid lines
+		const vLines = Array.from({ length: cols.length + 1 }, (_, i) =>
+			`<line x1="${LABEL_W + i * COL_W}" y1="${HEADER_H}" x2="${LABEL_W + i * COL_W}" y2="${pricingBase}" stroke="#EEEEEE" stroke-width="1"/>`
+		).join('\n')
+		const hLines = Array.from({ length: LANG_ROWS + PRICING_ROWS }, (_, i) =>
+			`<line x1="0" y1="${HEADER_H + (i + 1) * ROW_H}" x2="${svgW}" y2="${HEADER_H + (i + 1) * ROW_H}" stroke="#EEEEEE" stroke-width="1"/>`
+		).join('\n')
+
+		res.setHeader('Content-Type', 'image/svg+xml')
+		res.send(`<svg width="${svgW}" height="${svgH}" viewBox="0 0 ${svgW} ${svgH}" xmlns="http://www.w3.org/2000/svg">
+<rect width="${svgW}" height="${svgH}" fill="white"/>
+<rect width="${svgW}" height="${HEADER_H}" fill="#EEEEEE"/>
+${headerTexts}
+${rowsHtml}
+${separator}
+${pricingRowsHtml}
+${vLines}
+${hLines}
 </svg>`)
-})
-.get('/', async (_, res): Promise<void> => {
+	})
 
-	res.send(`
-<!DOCTYPE html>
+	// Status HTML page — fetches /status/data client-side and renders it
+	.get(['/', ''], (_req, res): void => {
+		res.setHeader('Content-Type', 'text/html; charset=utf-8')
+		res.send(STATUS_HTML)
+	})
+
+const STATUS_HTML = `<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>TCGdex Project status</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<style>
-			td, th {
-				border-left: black 1px solid;
-				border-right: black 1px solid;
-				border-top: black 1px solid;
-				text-align: center;
-			}
-			tr:last-child td {
-				border-bottom: black 1px solid;
-			}
-			th.notop {
-				border-top: none;
-			}
-			th {
-				font-size: 1.2em;
-			}
-			table {
-				border-collapse: separate;
-				border-spacing: 1em 0;
-				min-width: 100%;
-			}
-			.serie td:not(:first-child), .completed {
-				background: gold;
-			}
-			.serie td.na, .na {
-				background: black;
-			}
-			.serie td.missing-cards, .missing-cards {
-				background: #3f17ff4f;
-			}
-			.serie td.missing-img, .missing-img {
-				background: #67e301;
-			}
-			.serie td.empty, .empty {
-				background: #ff000070;
-			}
-			.serie td.too-much, .too-much {
-				background: white;
-			}
-			h1, h2 {
-				margin: 1em 0;
-				text-align: center;
-			}
-		</style>
-	</head>
-	<body>
-	<h1>TCGdex Progress</h1>
-		<table>
-			<thead>
-				<tr>
-					<th class="na"></th>
-					${objectMap(langsToName, (name) => `<td>${name}</td>`).join('')}
-					<th>Total</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<th colspan="19">Card Progress</th>
-				</tr>
-				<tr>
-					<td>Cards</td>
-					${objectMap(langs, (it) => `<td>${it.count} of ${it.total}</td>`).join('')}
-					<td>${totalStats.count} of ${totalStats.total}</td>
-				</tr>
-				<tr>
-					<td>Percentage</td>
-					${objectMap(langs, (it) => `<td>${(100 * it.count / it.total).toFixed(2)}%</td>`).join('')}
-					<td>${(100 * totalStats.count / totalStats.total).toFixed(2)}%</td>
-				</tr><tr>
-					<td>Remaining</td>
-					${objectMap(langs, (it) => `<td>${it.total - it.count}</td>`).join('')}
-					<td>${totalStats.total - totalStats.count}</td>
-				</tr>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TCGdex Card Database Status</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300..700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #ffffff;
+  --bg2: #f6f6f6;
+  --fg: #393838;
+  --fg2: #8d8b8b;
+  --border: #eeeded;
+  --card: #ffffff;
+  --pill: #f6f6f6;
+  --pill-fg: #595858;
+  --pill-active: #c80040;
+  --pill-active-fg: #ffffff;
+  --ok: #16a34a;
+  --ok-bg: #dcfce7;
+  --warn: #d97706;
+  --warn-bg: #fef3c7;
+  --err: #dc2626;
+  --err-bg: #fee2e2;
+  --neutral: #c2c2c2;
+  --bar-bg: #eeeded;
+  --accent: #c80040;
+  --shadow: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.04);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #191818;
+    --bg2: #282626;
+    --fg: #c2c2c2;
+    --fg2: #8d8b8b;
+    --border: #393838;
+    --card: #282626;
+    --pill: #393838;
+    --pill-fg: #8d8b8b;
+    --pill-active: #c80040;
+    --pill-active-fg: #ffffff;
+    --ok: #4ade80;
+    --ok-bg: #14532d;
+    --warn: #fbbf24;
+    --warn-bg: #451a03;
+    --err: #f87171;
+    --err-bg: #450a0a;
+    --neutral: #595858;
+    --bar-bg: #393838;
+    --accent: #c80040;
+    --shadow: 0 1px 3px rgba(0,0,0,.4);
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #191818; --bg2: #282626; --fg: #c2c2c2; --fg2: #8d8b8b;
+  --border: #393838; --card: #282626; --pill: #393838; --pill-fg: #8d8b8b;
+  --pill-active: #c80040; --pill-active-fg: #ffffff;
+  --ok: #4ade80; --ok-bg: #14532d; --warn: #fbbf24; --warn-bg: #451a03;
+  --err: #f87171; --err-bg: #450a0a; --neutral: #595858; --bar-bg: #393838;
+  --accent: #c80040; --shadow: 0 1px 3px rgba(0,0,0,.4);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--fg); font-family: 'Lexend', ui-sans-serif, system-ui, sans-serif; font-size: 14px; line-height: 1.5; }
+a { color: var(--accent); }
 
-				<tr>
-					<th colspan="19">Images Progress</th>
-				</tr>
-				<tr>
-					<td>Cards</td>
-					${objectMap(langs, (it) => `<td>${it.images} of ${it.total}</td>`).join('')}
-					<td>${totalStats.images} of ${totalStats.total}</td>
-				</tr><tr>
-					<td>Percentage</td>
-					${objectMap(langs, (it) => `<td>${(100 * it.images / it.total).toFixed(2)}%</td>`).join('')}
-					<td>${(100 * totalStats.images / totalStats.total).toFixed(2)}%</td>
-				</tr><tr>
-					<td>Remaining</td>
-					${objectMap(langs, (it) => `<td>${it.total - it.images}</td>`).join('')}
-					<td>${totalStats.total - totalStats.images}</td>
-				</tr>
+.page { max-width: 1400px; margin: 0 auto; padding: 24px 16px 64px; }
 
-				<tr>
-					<th colspan="19">Total Progress</th>
-				</tr>
-				<tr>
-					<td>Cards</td>
-					${objectMap(langs, (it) => `<td>${it.images + it.count} of ${it.total * 2}</td>`).join('')}
-					<td>${totalStats.images + totalStats.count} of ${totalStats.total * 2}</td>
-				</tr><tr>
-					<td>Percentage</td>
-					${objectMap(langs, (it) => `<td>${(100 * (it.images + it.count) / (it.total * 2)).toFixed(2)}%</td>`).join('')}
-					<td>${(100 * (totalStats.images + totalStats.count) / (totalStats.total * 2)).toFixed(2)}%</td>
-				</tr><tr>
-					<td>Remaining</td>
-					${objectMap(langs, (it) => `<td>${it.total * 2 - (it.images + it.count)}</td>`).join('')}
-					<td>${totalStats.total * 2 - (totalStats.images + totalStats.count)}</td>
-				</tr>
-			</tbody>
-		</table>
+header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px; flex-wrap: wrap; gap: 12px; border-bottom: 1px solid var(--border); padding-bottom: 20px; }
+header h1 { font-size: 20px; font-weight: 700; display: flex; align-items: center; gap: 10px; }
+header h1::before { content: ''; display: inline-block; width: 4px; height: 20px; background: var(--accent); border-radius: 2px; }
+.uptime-badge { font-size: 12px; color: var(--fg2); background: var(--bg2); border: 1px solid var(--border); border-radius: 20px; padding: 4px 12px; }
 
-		<h2>Status</h2>
-		<ul>
-			<li class="completed">Completed</li>
-			<li class="missing-cards">Missing some cards informations</li>
-			<li class="missing-img">Missing some cards images</li>
-			<li class="empty">No Data</li>
-			<li class="na" style="color: white">Not Available</li>
-		</ul>
+/* Filter bar */
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 28px; }
+.filter-btn {
+  background: var(--pill); color: var(--pill-fg); border: none; border-radius: 20px;
+  padding: 6px 14px; font-size: 13px; font-weight: 500; cursor: pointer; transition: background .15s, color .15s;
+}
+.filter-btn.active { background: var(--pill-active); color: var(--pill-active-fg); }
+.filter-btn:hover:not(.active) { background: var(--border); }
+
+/* Sub-filter bar (within a section) */
+.sub-filters { display: flex; gap: 6px; margin-bottom: 16px; flex-wrap: wrap; }
+.sub-btn {
+  background: var(--pill); color: var(--pill-fg); border: 1px solid var(--border); border-radius: 6px;
+  padding: 4px 10px; font-size: 12px; cursor: pointer; transition: background .1s;
+}
+.sub-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+section { margin-bottom: 40px; }
+section[hidden] { display: none; }
+section.collapsed > *:not(.section-header) { display: none !important; }
+.section-header { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
+.section-header h2 { font-size: 16px; font-weight: 700; }
+.section-header .meta { font-size: 12px; color: var(--fg2); }
+.collapse-btn { margin-left: auto; background: none; border: 1px solid var(--border); border-radius: 4px; color: var(--fg2); cursor: pointer; font-size: 11px; padding: 2px 7px; transition: transform .2s; flex-shrink: 0; }
+.collapse-btn:hover { border-color: var(--fg2); }
+section.collapsed .collapse-btn { transform: rotate(-90deg); }
+
+/* Cards grid */
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; }
+.card {
+  background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+  padding: 14px 16px; box-shadow: var(--shadow);
+}
+.card-label { font-size: 12px; color: var(--fg2); margin-bottom: 4px; }
+.card-value { font-size: 15px; font-weight: 600; }
+.card-sub { font-size: 11px; color: var(--fg2); margin-top: 2px; }
 
 
-		<table class="serie">
-		${(await Promise.all(objectMap(setsData, async (serie, serieId) => {
-			// Loop through every series and name them
-			const name = (await findOneSerie('en', { id: serieId }))?.name ?? (await findOneSerie('ja' as any, { id: serieId }))?.name
-			return `
-				<thead>
-					<tr><th class="notop" colspan="35"><h2>${name} (${serieId})</h2></th></tr>
-					<tr>
-						<th rowspan="2">Set Name</th>
-						${objectMap(langsToName, (name) => `<th colspan="2">${name}</th>`).join('')}
-					</tr>
+/* Progress bar */
+.progress-wrap { display: flex; align-items: center; gap: 8px; }
+.bar { flex: 1; height: 6px; background: var(--bar-bg); border-radius: 3px; overflow: hidden; min-width: 60px; }
+.bar-fill { height: 100%; border-radius: 3px; transition: width .3s; }
+.pct-label { font-size: 12px; font-weight: 600; min-width: 42px; text-align: right; }
 
-					<tr>
-						${objectMap(langsToName, () => `<th>Cards</th><th>Images</th>`).join('')}
-					</tr>
-				</thead>
-				<tbody>
-					${(await Promise.all(objectMap(serie, async (data, setId) => {
-						// loop through every sets
+/* Table */
+.table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 10px; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th { background: var(--bg2); font-weight: 600; padding: 10px 12px; text-align: left; white-space: nowrap; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 1; }
+td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-align: middle; white-space: nowrap; }
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: var(--bg2); }
+.lang-group-header td { background: var(--bg2); font-weight: 700; font-size: 12px; color: var(--fg2); text-transform: uppercase; letter-spacing: .05em; padding: 6px 12px; }
 
-						// find the set in the first available language (Should be English globally)
-						const setTotal = await findOneSet(data[0] as 'en', { id: setId })
-						let str = '<tr>' + `<td>${setTotal?.name} (${setId}) <br />${setTotal?.cardCount.total ?? 1} cards</td>`
-						// let str = '<tr>' + `<td>${setId})</td>`
+.tag { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 10px; font-weight: 500; }
+.tag-ok { background: var(--ok-bg); color: var(--ok); }
+.tag-warn { background: var(--warn-bg); color: var(--warn); }
+.tag-err { background: var(--err-bg); color: var(--err); }
 
-						// Loop through every languages
-						const l = objectKeys(langs)
-						l.map((it) => {
+/* Sets accordion */
+.serie-block { margin-bottom: 12px; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.serie-toggle { width: 100%; text-align: left; background: var(--bg2); border: none; padding: 12px 16px; cursor: pointer; font-size: 14px; font-weight: 700; color: var(--fg); display: flex; justify-content: space-between; align-items: center; }
+.serie-toggle:hover { background: var(--border); }
+.serie-toggle .chevron { transition: transform .2s; font-size: 12px; }
+.serie-toggle.open .chevron { transform: rotate(180deg); }
+.serie-body { display: none; overflow-x: auto; }
+.serie-body.open { display: block; }
+.set-expand { background: none; border: 1px solid var(--border); border-radius: 4px; color: var(--fg2); cursor: pointer; font-size: 10px; padding: 1px 5px; margin-right: 6px; transition: transform .15s; vertical-align: middle; }
+.set-expand.open { transform: rotate(90deg); }
+.set-detail-body { padding: 12px 16px; background: var(--bg2); border-top: 1px solid var(--border); }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 8px; margin-top: 8px; }
+.card-item { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; font-size: 12px; }
+.card-item .card-id { color: var(--fg2); font-size: 11px; }
+.card-item .badges { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+.badge { padding: 2px 7px; border-radius: 99px; font-size: 10px; font-weight: 600; }
+.badge.ok { background: var(--ok-bg); color: var(--ok); }
+.badge.miss { background: var(--err-bg); color: var(--err); }
+.search-wrap { margin-bottom: 16px; }
+.search-wrap input { width: 100%; padding: 8px 12px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); color: var(--fg); font-size: 13px; }
+.search-wrap input:focus { outline: 2px solid var(--pill-active); }
+.loading { color: var(--fg2); font-size: 13px; padding: 24px; text-align: center; }
 
-							// Change the stats file depending on the language
-							let stats: any = langs[it]
+/* Pricing filter bar */
+.pricing-filter { margin-bottom: 12px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.pricing-filter label { font-size: 12px; color: var(--fg2); }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <h1>TCGdex Cards Database Status</h1>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+      <span class="uptime-badge" id="uptime-badge">Loading…</span>
+      <a class="uptime-badge" href="https://github.com/tcgdex/cards-database" target="_blank" rel="noopener" style="text-decoration:none" id="version-badge">Loading…</a>
+      <a class="uptime-badge" href="https://status.tcgdex.dev/" target="_blank" rel="noopener" style="text-decoration:none">Server Status ↗</a>
+    </div>
+  </header>
 
-							// Get the stats we want
-							const item = stats.sets[serieId]?.[setId] as {count: number, images: number} | undefined
+  <nav class="filters" id="filter-bar">
+    <button class="filter-btn active" data-section="all">All</button>
+    <button class="filter-btn" data-section="languages">Languages</button>
+    <button class="filter-btn" data-section="sets">Sets</button>
+    <button class="filter-btn" data-section="pricing">Pricing</button>
+  </nav>
 
-							// if item dont exist for the language skip it
-							if (!item) {
-								str += `<td class="na" /><td class="na" />`
-								return
-							}
+  <section id="sec-languages">
+    <div class="section-header">
+      <h2>Language Progress</h2>
+      <span class="meta" id="lang-meta"></span>
+      <button class="collapse-btn" onclick="toggleSection('sec-languages')">▼</button>
+    </div>
+    <div class="sub-filters">
+      <button class="sub-btn active" data-group="all">All</button>
+      <button class="sub-btn" data-group="inter">International</button>
+      <button class="sub-btn" data-group="asia">Asia</button>
+    </div>
+    <div class="table-wrap" id="lang-table-wrap"><div class="loading">Loading…</div></div>
+  </section>
 
-							// Calculate percentages and status
-							const percent = 100 * item.count / (setTotal?.cardCount.total ?? 1)
-							const imgPercent = 100 * item.images / (setTotal?.cardCount.total ?? 1)
-							// const percent = 100 //100 * item.count / (setTotal?.cardCount.total ?? 1)
-							// const imgPercent = 100 //100 * item.images / (setTotal?.cardCount.total ?? 1)
+  <section id="sec-sets">
+    <div class="section-header">
+      <h2>Set Completion</h2>
+      <button class="collapse-btn" onclick="toggleSection('sec-sets')">▼</button>
+    </div>
+    <div class="sub-filters" id="sets-lang-filters" style="margin-bottom:12px">
+      <button class="sub-btn active" data-slang="all">Summary</button>
+      <button class="sub-btn" data-slang="inter">International</button>
+      <button class="sub-btn" data-slang="asia">Asia</button>
+    </div>
+    <div class="search-wrap"><input type="text" id="set-search" placeholder="Filter sets by name or ID…"></div>
+    <div id="sets-container"><div class="loading">Loading…</div></div>
+  </section>
 
-							// append to string :D
-							str +=`<td class="${percent > 100 ? 'too-much' : percent === 100 ? '' : percent === 0 ? 'empty' : 'missing-cards'}">${percent.toFixed(2)}% <br />(${item.count})</td>
-							<td class="${imgPercent > 100 ? 'too-much' : imgPercent === 100 ? '' : imgPercent === 0 ? 'empty' : 'missing-img'}">${imgPercent.toFixed(2)}% <br />(${item.images})</td>`
-						})
+  <section id="sec-pricing">
+    <div class="section-header">
+      <h2>Pricing Coverage</h2>
+      <span class="meta" id="pricing-meta"></span>
+      <button class="collapse-btn" onclick="toggleSection('sec-pricing')">▼</button>
+    </div>
+    <div class="cards" id="pricing-summary" style="margin-bottom:16px"></div>
+    <div class="pricing-filter">
+      <label>Show sets:</label>
+      <button class="sub-btn active" data-pfilter="all">All</button>
+      <button class="sub-btn" data-pfilter="incomplete">Incomplete only</button>
+      <button class="sub-btn" data-pfilter="complete">Complete only</button>
+      <label style="margin-left:8px">Provider:</label>
+      <button class="sub-btn active" data-pprovider="both">Both</button>
+      <button class="sub-btn" data-pprovider="cardmarket">CardMarket</button>
+      <button class="sub-btn" data-pprovider="tcgplayer">TCGPlayer</button>
+    </div>
+    <div class="table-wrap" id="pricing-table-wrap"><div class="loading">Loading…</div></div>
+  </section>
+</div>
 
-						// finish Row
-						return str + '</tr>'
-					}))).join('')}
-				</tbody>
-			`}))).join('')}
-		</table>
-	</body>
-</html>
-`)
-})
+<script>
+(async () => {
+  const DATA_URL = '/status/data'
+  let data = null
+
+  // ── helpers ──────────────────────────────────────────────────────────────
+  function pct(a, b) { return b ? (100 * a / b) : 0 }
+  function pctStr(a, b) { return pct(a, b).toFixed(1) + '%' }
+  function barColor(p) {
+    if (p >= 100) return '#16a34a'
+    if (p >= 75)  return '#65a30d'
+    if (p >= 50)  return '#d97706'
+    return '#dc2626'
+  }
+  function bar(a, b, label) {
+    const p = pct(a, b)
+    return \`<div class="progress-wrap">
+      <div class="bar"><div class="bar-fill" style="width:\${Math.min(p,100)}%;background:\${barColor(p)}"></div></div>
+      <span class="pct-label" style="color:\${barColor(p)}">\${label ?? pctStr(a,b)}</span>
+    </div>\`
+  }
+  function tag(p) {
+    const cls = p >= 100 ? 'tag-ok' : p >= 75 ? 'tag-warn' : 'tag-err'
+    return \`<span class="tag \${cls}">\${p.toFixed(1)}%</span>\`
+  }
+  function fmtUptime(s) {
+    const d = Math.floor(s / 86400), h = Math.floor((s % 86400) / 3600), m = Math.floor((s % 3600) / 60)
+    if (d) return \`\${d}d \${h}h\`
+    if (h) return \`\${h}h \${m}m\`
+    return \`\${m}m \${s % 60}s\`
+  }
+  function fmtDate(iso) {
+    if (!iso) return '—'
+    const d = new Date(iso)
+    return d.toLocaleString()
+  }
+  function fmtAge(iso) {
+    if (!iso) return '—'
+    const age = (Date.now() - new Date(iso).getTime()) / 1000
+    return fmtUptime(Math.floor(age)) + ' ago'
+  }
+
+  // ── section filters ───────────────────────────────────────────────────────
+  const sections = { languages: 'sec-languages', sets: 'sec-sets', pricing: 'sec-pricing' }
+  document.getElementById('filter-bar').addEventListener('click', e => {
+    const btn = e.target.closest('.filter-btn')
+    if (!btn) return
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'))
+    btn.classList.add('active')
+    const sel = btn.dataset.section
+    Object.values(sections).forEach(id => {
+      document.getElementById(id).hidden = sel !== 'all' && !Object.keys(sections).some(k => k === sel && sections[k] === id)
+    })
+  })
+
+  // ── fetch data ────────────────────────────────────────────────────────────
+  try { data = await fetch(DATA_URL).then(r => r.json()) } catch {
+    document.querySelector('.page').innerHTML = '<p style="color:var(--err);padding:24px">Failed to load status data.</p>'
+    return
+  }
+
+  // ── uptime / version badges ───────────────────────────────────────────────
+  document.getElementById('uptime-badge').textContent = 'Up ' + fmtUptime(data.server.uptime)
+  document.getElementById('version-badge').textContent = data.server.version + ' (' + data.server.commit + ') ↗'
+
+  // ── language table ────────────────────────────────────────────────────────
+  const langs = data.languages
+  let langGroup = 'all'
+  const langOrder = Object.keys(langs)
+
+  function renderLangTable() {
+    const rows = langOrder.filter(l => langGroup === 'all' || langs[l].group === langGroup)
+    const totalCount = rows.reduce((s, l) => s + langs[l].count, 0)
+    const totalTotal = rows.reduce((s, l) => s + langs[l].total, 0)
+    const totalImages = rows.reduce((s, l) => s + langs[l].images, 0)
+    document.getElementById('lang-meta').textContent =
+      rows.length + ' languages · ' + totalCount.toLocaleString() + ' of ' + totalTotal.toLocaleString() + ' cards'
+
+    document.getElementById('lang-table-wrap').innerHTML = \`<table>
+      <thead><tr>
+        <th>Language</th>
+        <th>Cards</th><th>Card %</th>
+        <th>Images</th><th>Image %</th>
+        <th>Missing cards</th><th>Missing images</th>
+      </tr></thead>
+      <tbody>
+        \${rows.map(l => {
+          const s = langs[l]
+          const cp = pct(s.count, s.total)
+          const ip = pct(s.images, s.total)
+          return \`<tr>
+            <td><b>\${s.name}</b> <span style="color:var(--fg2);font-size:11px">\${l}</span></td>
+            <td>\${s.count.toLocaleString()} / \${s.total.toLocaleString()}</td>
+            <td>\${bar(s.count, s.total)}</td>
+            <td>\${s.images.toLocaleString()} / \${s.total.toLocaleString()}</td>
+            <td>\${bar(s.images, s.total)}</td>
+            <td>\${(s.total - s.count).toLocaleString()}</td>
+            <td>\${(s.total - s.images).toLocaleString()}</td>
+          </tr>\`
+        }).join('')}
+        <tr style="font-weight:700;border-top:2px solid var(--border)">
+          <td>Total</td>
+          <td>\${totalCount.toLocaleString()} / \${totalTotal.toLocaleString()}</td>
+          <td>\${bar(totalCount, totalTotal)}</td>
+          <td>\${totalImages.toLocaleString()} / \${totalTotal.toLocaleString()}</td>
+          <td>\${bar(totalImages, totalTotal)}</td>
+          <td>\${(totalTotal - totalCount).toLocaleString()}</td>
+          <td>\${(totalTotal - totalImages).toLocaleString()}</td>
+        </tr>
+      </tbody>
+    </table>\`
+  }
+  renderLangTable()
+
+  document.querySelector('.sub-filters').addEventListener('click', e => {
+    const btn = e.target.closest('.sub-btn')
+    if (!btn || !btn.dataset.group) return
+    document.querySelectorAll('[data-group]').forEach(b => b.classList.remove('active'))
+    btn.classList.add('active')
+    langGroup = btn.dataset.group
+    renderLangTable()
+  })
+
+  // ── pricing ───────────────────────────────────────────────────────────────
+  const pr = data.pricing
+  const cmPct = pct(pr.withCardmarket, pr.total)
+  const tpPct = pct(pr.withTcgplayer, pr.total)
+  document.getElementById('pricing-meta').textContent = pr.total.toLocaleString() + ' total cards (English)'
+  document.getElementById('pricing-summary').innerHTML = \`
+    <div class="card">
+      <div class="card-label">CardMarket coverage</div>
+      <div class="card-value">\${pr.withCardmarket.toLocaleString()} / \${pr.total.toLocaleString()}</div>
+      <div class="card-sub">\${bar(pr.withCardmarket, pr.total)}</div>
+    </div>
+    <div class="card">
+      <div class="card-label">TCGPlayer coverage</div>
+      <div class="card-value">\${pr.withTcgplayer.toLocaleString()} / \${pr.total.toLocaleString()}</div>
+      <div class="card-sub">\${bar(pr.withTcgplayer, pr.total)}</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Missing CardMarket</div>
+      <div class="card-value" style="color:var(--err)">\${(pr.total - pr.withCardmarket).toLocaleString()}</div>
+      <div class="card-sub">cards without pricing</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Missing TCGPlayer</div>
+      <div class="card-value" style="color:var(--err)">\${(pr.total - pr.withTcgplayer).toLocaleString()}</div>
+      <div class="card-sub">cards without pricing</div>
+    </div>
+  \`
+
+  let pricingFilter = 'all'
+  let pricingProvider = 'both'
+  const pricingSets = Object.entries(pr.sets)
+
+  function renderPricingTable() {
+    let rows = pricingSets
+    if (pricingFilter === 'incomplete') {
+      rows = rows.filter(([, s]) =>
+        (pricingProvider !== 'tcgplayer' && s.withCardmarket < s.total) ||
+        (pricingProvider !== 'cardmarket' && s.withTcgplayer < s.total)
+      )
+    } else if (pricingFilter === 'complete') {
+      rows = rows.filter(([, s]) =>
+        (pricingProvider === 'tcgplayer' || s.withCardmarket >= s.total) &&
+        (pricingProvider === 'cardmarket' || s.withTcgplayer >= s.total)
+      )
+    }
+
+    const showCm = pricingProvider !== 'tcgplayer'
+    const showTp = pricingProvider !== 'cardmarket'
+
+    document.getElementById('pricing-table-wrap').innerHTML = \`<table>
+      <thead><tr>
+        <th>Set</th><th>Serie</th><th>Total</th>
+        \${showCm ? '<th>CardMarket</th><th>CM %</th>' : ''}
+        \${showTp ? '<th>TCGPlayer</th><th>TP %</th>' : ''}
+      </tr></thead>
+      <tbody>
+        \${rows.map(([id, s]) => \`<tr>
+          <td><b>\${s.name}</b> <span style="color:var(--fg2);font-size:11px">\${id}</span></td>
+          <td>\${s.serieName ?? s.serie ?? '—'}</td>
+          <td>\${s.total}</td>
+          \${showCm ? \`<td>\${s.withCardmarket} / \${s.total}</td><td>\${bar(s.withCardmarket, s.total)}</td>\` : ''}
+          \${showTp ? \`<td>\${s.withTcgplayer} / \${s.total}</td><td>\${bar(s.withTcgplayer, s.total)}</td>\` : ''}
+        </tr>\`).join('')}
+      </tbody>
+    </table>\`
+  }
+  renderPricingTable()
+
+  document.querySelector('.pricing-filter').addEventListener('click', e => {
+    const btn = e.target.closest('.sub-btn')
+    if (!btn) return
+    if (btn.dataset.pfilter) {
+      document.querySelectorAll('[data-pfilter]').forEach(b => b.classList.remove('active'))
+      btn.classList.add('active')
+      pricingFilter = btn.dataset.pfilter
+    }
+    if (btn.dataset.pprovider) {
+      document.querySelectorAll('[data-pprovider]').forEach(b => b.classList.remove('active'))
+      btn.classList.add('active')
+      pricingProvider = btn.dataset.pprovider
+    }
+    renderPricingTable()
+  })
+
+  // ── sets ──────────────────────────────────────────────────────────────────
+  const seriesData = data.sets
+  const langKeys = Object.keys(data.languages)
+  let setSearchTerm = ''
+  let setsLangGroup = 'all'
+  let asiaActiveLang = null
+  const asiaDataCache = {}
+
+  // Asia view — own series/set hierarchy per language
+  async function renderAsiaView() {
+    const container = document.getElementById('sets-container')
+    const asiaLangsAvail = langKeys.filter(l => langs[l]?.group === 'asia')
+    if (!asiaActiveLang || !asiaLangsAvail.includes(asiaActiveLang)) {
+      asiaActiveLang = asiaLangsAvail[0] ?? null
+    }
+    if (!asiaActiveLang) {
+      container.innerHTML = '<div class="loading">No Asia language data available.</div>'
+      return
+    }
+    container.innerHTML = \`
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px" id="asia-lang-picker">
+        \${asiaLangsAvail.map(l => \`<button class="sub-btn \${l === asiaActiveLang ? 'active' : ''}" data-alang="\${l}">\${langs[l].name} <span style="opacity:.7;font-size:11px">\${l}</span></button>\`).join('')}
+      </div>
+      <div id="asia-content"><div class="loading">Loading…</div></div>
+    \`
+    document.getElementById('asia-lang-picker').addEventListener('click', async e => {
+      const btn = e.target.closest('[data-alang]')
+      if (!btn) return
+      document.querySelectorAll('[data-alang]').forEach(b => b.classList.remove('active'))
+      btn.classList.add('active')
+      asiaActiveLang = btn.dataset.alang
+      await loadAsiaContent()
+    })
+    await loadAsiaContent()
+  }
+
+  async function loadAsiaContent() {
+    const contentDiv = document.getElementById('asia-content')
+    if (!contentDiv) return
+    if (asiaDataCache[asiaActiveLang]) { renderAsiaData(asiaDataCache[asiaActiveLang]); return }
+    contentDiv.innerHTML = '<div class="loading">Loading…</div>'
+    try {
+      const d = await fetch('/status/data/asia/' + asiaActiveLang).then(r => r.json())
+      asiaDataCache[asiaActiveLang] = d
+      renderAsiaData(d)
+    } catch {
+      contentDiv.innerHTML = '<div style="color:var(--err)">Failed to load.</div>'
+    }
+  }
+
+  function renderAsiaData(d) {
+    const contentDiv = document.getElementById('asia-content')
+    if (!contentDiv) return
+    const term = setSearchTerm.toLowerCase()
+    const blocks = Object.entries(d.series).map(([serieId, serie]) => {
+      const setEntries = Object.entries(serie.sets).filter(([setId, s]) =>
+        !term || s.name.toLowerCase().includes(term) || setId.toLowerCase().includes(term) || serie.name.toLowerCase().includes(term)
+      )
+      if (!setEntries.length) return ''
+      const rows = setEntries.map(([setId, s]) => \`
+        <tr class="set-row" data-setid="\${setId}">
+          <td><b>\${s.name}</b><br><span style="color:var(--fg2);font-size:11px">\${setId} · \${s.count} cards</span></td>
+          <td>\${s.count}</td>
+          <td>\${s.images} / \${s.count}</td>
+          <td>\${bar(s.images, s.count)}</td>
+        </tr>\`).join('')
+      return \`<div class="serie-block" data-serie="\${serieId}">
+        <button class="serie-toggle" onclick="toggleSerie(this)">
+          <span>\${serie.name} <span style="font-size:12px;font-weight:400;color:var(--fg2)">\${serieId}</span></span>
+          <span class="chevron">▼</span>
+        </button>
+        <div class="serie-body">
+          <table>
+            <thead><tr><th>Set</th><th>Cards</th><th>Images</th><th>Image %</th></tr></thead>
+            <tbody>\${rows}</tbody>
+          </table>
+        </div>
+      </div>\`
+    }).join('')
+    contentDiv.innerHTML = blocks || '<div class="loading">No sets match your search.</div>'
+  }
+
+  // International/summary view — EN-centric sets with lang columns
+  function renderSets() {
+    if (setsLangGroup === 'asia') { renderAsiaView(); return }
+
+    const container = document.getElementById('sets-container')
+    const serieEntries = Object.entries(seriesData)
+    const term = setSearchTerm.toLowerCase()
+    const visLangs = setsLangGroup === 'all' ? null
+      : langKeys.filter(l => langs[l]?.group === setsLangGroup)
+
+    const blocks = serieEntries.map(([serieId, serie]) => {
+      const setEntries = Object.entries(serie.sets).filter(([setId, s]) =>
+        !term || s.name.toLowerCase().includes(term) || setId.toLowerCase().includes(term) || serie.name.toLowerCase().includes(term)
+      )
+      if (!setEntries.length) return ''
+
+      const rows = setEntries.map(([setId, s]) => {
+        let cells
+        if (!visLangs) {
+          const withData = langKeys.filter(l => langs[l]?.group === 'inter' && s.langs[l]).length
+          const interTotal = langKeys.filter(l => langs[l]?.group === 'inter').length
+          cells = \`<td>\${withData > 0 ? withData + ' / ' + interTotal : '<span style="color:var(--fg2)">—</span>'}</td>\`
+        } else {
+          cells = visLangs.map(l => {
+            const ld = s.langs[l]
+            if (!ld) return '<td class="na" style="background:var(--bg2);color:var(--fg2);text-align:center">—</td><td style="background:var(--bg2)"></td>'
+            const cp = pct(ld.count, s.total || 1)
+            const ip = pct(ld.images, s.total || 1)
+            return \`<td>\${tag(cp)}</td><td>\${tag(ip)}</td>\`
+          }).join('')
+        }
+        const colspan = visLangs ? 1 + visLangs.length * 2 : 2
+        return \`<tr class="set-row" data-setid="\${setId}">
+          <td>
+            <button class="set-expand" onclick="toggleSetDetail('\${setId}', this)" title="Show card detail">▶</button>
+            <b>\${s.name}</b><br><span style="color:var(--fg2);font-size:11px">\${setId} · \${s.total} cards</span>
+          </td>
+          \${cells}
+        </tr>
+        <tr class="set-detail-row" id="detail-\${setId}" style="display:none">
+          <td colspan="\${colspan}" style="padding:0">
+            <div class="set-detail-body" id="detail-body-\${setId}"></div>
+          </td>
+        </tr>\`
+      }).join('')
+
+      let langHeaders, subHeaders
+      if (!visLangs) {
+        langHeaders = '<th>International langs</th>'
+        subHeaders = '<th>with data</th>'
+      } else {
+        langHeaders = visLangs.map(l => \`<th colspan="2">\${langs[l]?.name ?? l} <span style="font-weight:400;font-size:11px;opacity:.6">\${l}</span></th>\`).join('')
+        subHeaders = visLangs.map(() => '<th>Cards</th><th>Images</th>').join('')
+      }
+
+      return \`<div class="serie-block" data-serie="\${serieId}">
+        <button class="serie-toggle" onclick="toggleSerie(this)">
+          <span>\${serie.name} <span style="font-size:12px;font-weight:400;color:var(--fg2)">\${serieId}</span></span>
+          <span class="chevron">▼</span>
+        </button>
+        <div class="serie-body">
+          <table>
+            <thead>
+              <tr><th rowspan="2">Set</th>\${langHeaders}</tr>
+              <tr>\${subHeaders}</tr>
+            </thead>
+            <tbody>\${rows}</tbody>
+          </table>
+        </div>
+      </div>\`
+    }).join('')
+
+    container.innerHTML = blocks || '<div class="loading">No sets match your search.</div>'
+  }
+  renderSets()
+
+  document.getElementById('set-search').addEventListener('input', e => {
+    setSearchTerm = e.target.value
+    if (setsLangGroup === 'asia' && asiaDataCache[asiaActiveLang]) {
+      renderAsiaData(asiaDataCache[asiaActiveLang])
+    } else {
+      renderSets()
+    }
+  })
+
+  document.getElementById('sets-lang-filters').addEventListener('click', e => {
+    const btn = e.target.closest('.sub-btn')
+    if (!btn || !btn.dataset.slang) return
+    document.querySelectorAll('[data-slang]').forEach(b => b.classList.remove('active'))
+    btn.classList.add('active')
+    setsLangGroup = btn.dataset.slang
+    renderSets()
+  })
+
+  window.toggleSection = function(id) {
+    document.getElementById(id).classList.toggle('collapsed')
+  }
+
+  window.toggleSerie = function(btn) {
+    btn.classList.toggle('open')
+    btn.nextElementSibling.classList.toggle('open')
+  }
+
+  const setDetailCache = {}
+  window.toggleSetDetail = async function(setId, btn) {
+    const detailRow = document.getElementById('detail-' + setId)
+    const body = document.getElementById('detail-body-' + setId)
+    const isOpen = detailRow.style.display !== 'none'
+    detailRow.style.display = isOpen ? 'none' : ''
+    btn.classList.toggle('open', !isOpen)
+    if (isOpen || setDetailCache[setId]) {
+      if (!isOpen) body.innerHTML = setDetailCache[setId]
+      return
+    }
+    body.innerHTML = '<div class="loading">Loading cards…</div>'
+    try {
+      const data = await fetch('/status/data/sets/' + setId).then(r => r.json())
+      const b = (label, ok) => \`<span class="badge \${ok ? 'ok' : 'miss'}">\${label}</span>\`
+      const cards = data.map(c => {
+        const m = c.missing
+        const badges = [
+          b('Image', !m.image),
+          b('CardMarket', !m.cardmarket),
+          b('TCGPlayer', !m.tcgplayer),
+          ...m.langs.map(l => b(l, false)),
+        ].join('')
+        return \`<div class="card-item">
+          <div class="card-id">\${c.localId}</div>
+          <div style="font-weight:600;margin-top:2px">\${c.name}</div>
+          <div class="badges">\${badges}</div>
+        </div>\`
+      }).join('')
+      const missing = data.filter(c => c.missing.image || c.missing.cardmarket || c.missing.tcgplayer || c.missing.langs.length).length
+      const html = \`<div style="margin-bottom:8px;font-size:12px;color:var(--fg2)">\${data.length} cards · \${missing} with missing data</div><div class="card-grid">\${cards}</div>\`
+      setDetailCache[setId] = html
+      body.innerHTML = html
+    } catch(e) {
+      body.innerHTML = '<div style="color:red">Failed to load card data</div>'
+    }
+  }
+
+})()
+</script>
+</body>
+</html>`
