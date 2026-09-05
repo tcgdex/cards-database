@@ -54,6 +54,20 @@ try {
 		await fs.writeFile(`${folder}/${id}.json`, JSON.stringify(products))
 	}
 
+	// Load prices (used as TCGCSV fallback by updatePricingFromTCGTracking)
+	console.log('Loading prices...')
+	const pricesFolder = baseFolder + '/prices'
+	await fs.mkdir(pricesFolder, { recursive: true })
+
+	for (const id of ids) {
+		console.log('Loading prices', id)
+		const prices = await fetch(`https://tcgcsv.com/tcgplayer/3/${id}/prices`, {
+			headers: { 'User-Agent': userAgent }
+		})
+			.then((it) => it.json())
+		await fs.writeFile(`${pricesFolder}/${id}.json`, JSON.stringify(prices))
+	}
+
 	console.log('done')
 
 } catch (error) {
