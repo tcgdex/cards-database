@@ -1,24 +1,24 @@
 import { Card } from '../../../interfaces'
-import Set from '../Legendary Treasures'
+import Set from '../Radiant Collection'
 
 const card: Card = {
 	name: {
-		en: "Ralts",
+		en: "Torchic",
 	},
 
-	illustrator: "Mizue",
+	illustrator: "Kanako Eo",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
 	dexId: [
-		280,
+		255,
 	],
 
-	hp: 40,
+	hp: 60,
 
 	types: [
-		"Psychic",
+		"Fire",
 	],
 
 	stage: "Basic",
@@ -26,23 +26,22 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Psychic",
+				"Fire",
 			],
 			name: {
-				en: "Hypnotic Gaze",
+				en: "Peck",
 			},
-			effect: {
-				en: "The Defending Pokémon is now Asleep.",
-			},
+
+			damage: 10,
 
 		},
 		{
 			cost: [
-				"Psychic",
+				"Fire",
 				"Colorless",
 			],
 			name: {
-				en: "Pound",
+				en: "Live Coal",
 			},
 
 			damage: 20,
@@ -52,7 +51,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Psychic",
+			type: "Water",
 			value: "×2"
 		},
 	],
@@ -60,11 +59,11 @@ const card: Card = {
 
 
 	description: {
-		en: "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.",
+		en: "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees F.",
 	},
 
 	thirdParty: {
-		cardmarket: 281143
+		cardmarket: 281145
 	}
 }
 

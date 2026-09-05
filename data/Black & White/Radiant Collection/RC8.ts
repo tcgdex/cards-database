@@ -1,31 +1,27 @@
 import { Card } from '../../../interfaces'
-import Set from '../Legendary Treasures'
+import Set from '../Radiant Collection'
 
 const card: Card = {
 	name: {
-		en: "Kirlia",
+		en: "Ralts",
 	},
 
-	illustrator: "Kagemaru Himeno",
+	illustrator: "Mizue",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
 	dexId: [
-		281,
+		280,
 	],
 
-	hp: 70,
+	hp: 40,
 
 	types: [
 		"Psychic",
 	],
 
-	evolveFrom: {
-		en: "Ralts",
-	},
-
-	stage: "Stage1",
+	stage: "Basic",
 
 	attacks: [
 		{
@@ -33,10 +29,10 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Tiptoe Step",
+				en: "Hypnotic Gaze",
 			},
 			effect: {
-				en: "Draw a card for each Psychic Energy attached to this Pokémon.",
+				en: "The Defending Pokémon is now Asleep.",
 			},
 
 		},
@@ -46,11 +42,9 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Double Slap",
+				en: "Pound",
 			},
-			effect: {
-				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
-			},
+
 			damage: 20,
 
 		},
@@ -66,11 +60,11 @@ const card: Card = {
 
 
 	description: {
-		en: "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.",
+		en: "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.",
 	},
 
 	thirdParty: {
-		cardmarket: 281144
+		cardmarket: 281143
 	}
 }
 

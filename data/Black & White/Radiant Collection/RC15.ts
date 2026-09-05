@@ -1,24 +1,24 @@
 import { Card } from '../../../interfaces'
-import Set from '../Legendary Treasures'
+import Set from '../Radiant Collection'
 
 const card: Card = {
 	name: {
-		en: "Torchic",
+		en: "Teddiursa",
 	},
 
-	illustrator: "Kanako Eo",
+	illustrator: "kirisAki",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
 
 	dexId: [
-		255,
+		216,
 	],
 
 	hp: 60,
 
 	types: [
-		"Fire",
+		"Colorless",
 	],
 
 	stage: "Basic",
@@ -26,22 +26,23 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Fire",
+				"Colorless",
 			],
 			name: {
-				en: "Peck",
+				en: "Honey Snack",
 			},
-
-			damage: 10,
+			effect: {
+				en: "Heal 20 damage from this Pokémon.",
+			},
 
 		},
 		{
 			cost: [
-				"Fire",
+				"Colorless",
 				"Colorless",
 			],
 			name: {
-				en: "Live Coal",
+				en: "Scratch",
 			},
 
 			damage: 20,
@@ -51,19 +52,19 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Water",
+			type: "Fighting",
 			value: "×2"
 		},
 	],
-	retreat: 1,
+	retreat: 3,
 
 
 	description: {
-		en: "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees F.",
+		en: "It lets honey soak into its paws so it can lick them all the time. Every set of paws tastes unique.",
 	},
 
 	thirdParty: {
-		cardmarket: 281145
+		cardmarket: 281133
 	}
 }
 
