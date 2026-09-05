@@ -3,12 +3,12 @@ import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Blastoise EX",
-		fr: "Tortank EX",
-		es: "Blastoise EX",
-		it: "Blastoise EX",
-		pt: "Blastoise EX",
-		de: "Turtok EX"
+		en: "Blastoise-EX",
+		fr: "Tortank-EX",
+		es: "Blastoise-EX",
+		it: "Blastoise-EX",
+		pt: "Blastoise-EX",
+		de: "Turtok-EX"
 	},
 
 	illustrator: "Ryo Ueda",

@@ -3,7 +3,7 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Mew EX",
+		en: "Mew-EX",
 		fr: "Mew-EX"
 	},
 

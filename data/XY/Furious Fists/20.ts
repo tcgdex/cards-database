@@ -3,12 +3,12 @@ import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Seismitoad EX",
-		fr: "Crapustule EX",
-		es: "Seismitoad EX",
-		it: "Seismitoad EX",
-		pt: "Seismitoad EX",
-		de: "Branawarz EX"
+		en: "Seismitoad-EX",
+		fr: "Crapustule-EX",
+		es: "Seismitoad-EX",
+		it: "Seismitoad-EX",
+		pt: "Seismitoad-EX",
+		de: "Branawarz-EX"
 	},
 
 	illustrator: "Eske Yoshinob",

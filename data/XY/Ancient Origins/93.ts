@@ -3,12 +3,12 @@ import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Giratina EX",
-		fr: "Giratina EX",
-		es: "Giratina EX",
-		it: "Giratina EX",
-		pt: "Giratina EX",
-		de: "Giratina EX"
+		en: "Giratina-EX",
+		fr: "Giratina-EX",
+		es: "Giratina-EX",
+		it: "Giratina-EX",
+		pt: "Giratina-EX",
+		de: "Giratina-EX"
 	},
 
 	illustrator: "Ryo Ueda",
