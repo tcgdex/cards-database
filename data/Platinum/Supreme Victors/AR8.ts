@@ -3,8 +3,7 @@ import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Arceus",
-		de: "Arceus"
+		fr: "Arceus",
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -30,12 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Break Ground",
-				de: "Boden gewinnen"
+				fr: "Casseur de sol",
 			},
 			effect: {
-				en: "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				de: "Dieser Angriff fügt jedem Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				fr: "Inflige 10 dégâts à chacun de vos Pokémon de Banc. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
 			},
 			damage: 60,
 
@@ -57,11 +54,6 @@ const card: Card = {
 	],
 
 	retreat: 2,
-
-	description: {
-		en: "It is said to have emerged from an egg in a place where there was nothing, then shaped the world.",
-		de: "Man sagt, es sei im Nichts aus einem Ei geschlüpft und habe dann die Welt geformt."
-	},
 
 	variants: [
 		{
