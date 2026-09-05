@@ -3,8 +3,7 @@ import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Arceus",
-		de: "Arceus"
+		fr: "Arceus",
 	},
 
 	illustrator: "Wataru Kawahara",
@@ -30,12 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bright Flame",
-				de: "Helle Flamme"
+				fr: "Flamme éclatante",
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard 2 Energy attached to Arceus.",
-				de: "Wirf 1 Münze. Bei „Zahl“ entferne 2 Energien, die an Arceus angelegt sind, und lege sie auf deinen Ablagestapel."
+				fr: "Lancez une pièce. Si c'est pile, défaussez 2 Énergies attachées à Arceus.",
 			},
 			damage: 80,
 
@@ -50,11 +47,6 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-	description: {
-		en: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
-		de: "Die Mythologie nennt dieses PKMN als Former des Universums, wobei es seine tausend Arme eingesetzt hat."
-	},
 
 	variants: [
 		{
