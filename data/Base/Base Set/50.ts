@@ -58,7 +58,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Gastly in order to use this attack. If a Pokémon Knocks Out Gastly during your opponent's next turn, Knock Out that Pokémon.",
-				fr: "Défaussez 1 carte Énergie  attachée à Fantominus pour pouvoir utiliser cette attaque. Si un Pokémon met Fantominus K.O. pendant le prochain tour de votre adversaire, mettez ce Pokémon K.O.",
+				fr: "Défaussez 1 carte Énergie {P} attachée à Fantominus pour pouvoir utiliser cette attaque. Si un Pokémon met Fantominus K.O. pendant le prochain tour de votre adversaire, mettez ce Pokémon K.O.",
 				de: "Entferne eine auf Nebulak abgelegte {P} Energiekarte, um diesen Angriff auszuführen. Falls ein Pokémon Nebulak während des nächsten gegnerischen Zugs kampfunfähig macht, mache dieses Pokémon kampfunfähig.",
 				it: "Scarta una carta Energia Psico assegnata a Gastly per usare questo attacco. Se un Pokémon mette K.O. Gastly durante il prossimo turno del tuo avversario, anche quel Pokémon verrà messo K.O."
 			},

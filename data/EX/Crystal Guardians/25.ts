@@ -41,7 +41,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as Medicham has any Psychic Energy cards attached to it, Medicham is both Psychic and Fighting type.",
-				fr: "Tant que Charmina possède des cartes Énergie , il est de type  et .",
+				fr: "Tant que Charmina possède des cartes Énergie {P}, il est de type {P} et {F}.",
 				de: "Solange an Meditalis mindestens eine {P}-Energiekarte angelegt ist, ist Meditalis ein Pokémon vom Typ {P} und {F}."
 			},
 		},

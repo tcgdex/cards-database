@@ -43,7 +43,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Attach a Darkness Energy card from your hand to Nuzleaf.",
-				fr: "Attachez une carte Énergie  de votre main à Pifeuil.",
+				fr: "Attachez une carte Énergie {D} de votre main à Pifeuil.",
 				de: "Lege eine {D}-Energiekarte von deiner Hand an Blanas an."
 			},
 

@@ -37,7 +37,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for up to 2 Grass Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck jusqu'à 2 Pokémon de base  et placez-les sur votre Banc. Ensuite, mélangez votre deck.",
+				fr: "Cherchez dans votre deck jusqu'à 2 Pokémon de base {G} et placez-les sur votre Banc. Ensuite, mélangez votre deck.",
 				de: "Search your deck for up to 2  Basic Pokémon and put them onto your bench. Suffle your deck afterward."
 			},
 
@@ -53,7 +53,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Grass Energy card attached to Weedle. The Defending Pokémon is now Poisoned.",
-				fr: "Défaussez une carte Énergie  attachée à Aspicot. Le Pokémon Défenseur est maintenant Empoisonné.",
+				fr: "Défaussez une carte Énergie {G} attachée à Aspicot. Le Pokémon Défenseur est maintenant Empoisonné.",
 				de: "Discard a  Energy Card attached to Weedle. The Defending Pokémon is now Poisoned."
 			},
 

@@ -40,7 +40,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "All Energy attached to Charizard ex are Fire Energy instead of its usual type.",
-				fr: "Toutes les Énergies attachées à Dracaufeu ex sont des Énergies .",
+				fr: "Toutes les Énergies attachées à Dracaufeu ex sont des Énergies {R}.",
 				de: "All Energy attached to Charizard ex are  Energy instead of its usual type."
 			},
 		},
@@ -77,7 +77,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 5 Fire Energy attached to Charizard ex. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, and any other effects on the Defending Pokémon.",
-				fr: "Défaussez 5 Énergies  attachées à Dracaufeu ex. Les dégâts de cette attaque ne sont pas affectés la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
+				fr: "Défaussez 5 Énergies {R} attachées à Dracaufeu ex. Les dégâts de cette attaque ne sont pas affectés la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
 				de: "Discard 5  Energy attached to Charizard ex. This attack's\ndamage isn't affected by Weakness, Resistance,\nPoké-Powers, Poké-Bodies, and any other effects on the\nDefending Pokémon."
 			},
 			damage: 200,
