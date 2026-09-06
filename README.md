@@ -17,7 +17,7 @@
 		<img src="https://img.shields.io/github/actions/workflow/status/TCGdex/cards-database/build.yml?style=flat-square" alt="Compiler build passing" />
 	</a>
 	<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<a href="#contributors-"><img src="https://img.shields.io/badge/all_contributors-53-orange.svg?style=flat-square" alt="All Contributors Badge" /></a>
+<a href="#contributors-"><img src="https://img.shields.io/badge/all_contributors-74-orange.svg?style=flat-square" alt="All Contributors Badge" /></a>
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 </p>
 
@@ -112,7 +112,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 </table>
 
 <details>
-<summary>View all contributors</summary>
+<summary>View all 74 contributors</summary>
 
 <table>
   <tbody>
@@ -166,6 +166,33 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/kvacquier"><img src="https://avatars.githubusercontent.com/kvacquier?v=4?s=100" width="100px;" alt="Kevin Vacquier"/><br /><sub><b>Kevin Vacquier</b></sub></a><br /><a href="#data-kvacquier" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/LoopingStudio"><img src="https://avatars.githubusercontent.com/LoopingStudio?v=4?s=100" width="100px;" alt="LoopingStudio"/><br /><sub><b>LoopingStudio</b></sub></a><br /><a href="#data-LoopingStudio" title="Data">🔣</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/jmandev88"><img src="https://avatars.githubusercontent.com/jmandev88?v=4?s=100" width="100px;" alt="jmandev88"/><br /><sub><b>jmandev88</b></sub></a><br /><a href="#data-jmandev88" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/dsnidr"><img src="https://avatars.githubusercontent.com/u/6261352?v=4?s=100" width="100px;" alt="Duncan"/><br /><sub><b>Duncan</b></sub></a><br /><a href="#data-dsnidr" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/advra"><img src="https://avatars.githubusercontent.com/advra?v=4?s=100" width="100px;" alt="Adrian"/><br /><sub><b>Adrian</b></sub></a><br /><a href="#data-advra" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/cbreish"><img src="https://avatars.githubusercontent.com/cbreish?v=4?s=100" width="100px;" alt="cbreish"/><br /><sub><b>cbreish</b></sub></a><br /><a href="#data-cbreish" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/dhaber"><img src="https://avatars.githubusercontent.com/dhaber?v=4?s=100" width="100px;" alt="dhaber"/><br /><sub><b>dhaber</b></sub></a><br /><a href="#data-dhaber" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/elintern"><img src="https://avatars.githubusercontent.com/elintern?v=4?s=100" width="100px;" alt="elintern"/><br /><sub><b>elintern</b></sub></a><br /><a href="#data-elintern" title="Data">🔣</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/FatalMistake02"><img src="https://avatars.githubusercontent.com/FatalMistake02?v=4?s=100" width="100px;" alt="FatalMistake02"/><br /><sub><b>FatalMistake02</b></sub></a><br /><a href="#data-FatalMistake02" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/fornacino"><img src="https://avatars.githubusercontent.com/fornacino?v=4?s=100" width="100px;" alt="fornacino"/><br /><sub><b>fornacino</b></sub></a><br /><a href="#data-fornacino" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/kazzaluis"><img src="https://avatars.githubusercontent.com/kazzaluis?v=4?s=100" width="100px;" alt="kazzaluis"/><br /><sub><b>kazzaluis</b></sub></a><br /><a href="#data-kazzaluis" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/kevgrisk"><img src="https://avatars.githubusercontent.com/kevgrisk?v=4?s=100" width="100px;" alt="kevgrisk"/><br /><sub><b>kevgrisk</b></sub></a><br /><a href="#data-kevgrisk" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/MineTommy"><img src="https://avatars.githubusercontent.com/MineTommy?v=4?s=100" width="100px;" alt="MineTommy"/><br /><sub><b>MineTommy</b></sub></a><br /><a href="#data-MineTommy" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/muraoyukiteru"><img src="https://avatars.githubusercontent.com/muraoyukiteru?v=4?s=100" width="100px;" alt="muraoyukiteru"/><br /><sub><b>muraoyukiteru</b></sub></a><br /><a href="#data-muraoyukiteru" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Octopixell"><img src="https://avatars.githubusercontent.com/Octopixell?v=4?s=100" width="100px;" alt="Octopixell"/><br /><sub><b>Octopixell</b></sub></a><br /><a href="#data-Octopixell" title="Data">🔣</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/PorygonVault"><img src="https://avatars.githubusercontent.com/PorygonVault?v=4?s=100" width="100px;" alt="PorygonVault"/><br /><sub><b>PorygonVault</b></sub></a><br /><a href="#data-PorygonVault" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/rafaelSallowicz"><img src="https://avatars.githubusercontent.com/rafaelSallowicz?v=4?s=100" width="100px;" alt="rafaelSallowicz"/><br /><sub><b>rafaelSallowicz</b></sub></a><br /><a href="#data-rafaelSallowicz" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/RiccardoCiacci"><img src="https://avatars.githubusercontent.com/RiccardoCiacci?v=4?s=100" width="100px;" alt="RiccardoCiacci"/><br /><sub><b>RiccardoCiacci</b></sub></a><br /><a href="#data-RiccardoCiacci" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/santichausis"><img src="https://avatars.githubusercontent.com/santichausis?v=4?s=100" width="100px;" alt="santichausis"/><br /><sub><b>santichausis</b></sub></a><br /><a href="#data-santichausis" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/thatvirtualboy"><img src="https://avatars.githubusercontent.com/thatvirtualboy?v=4?s=100" width="100px;" alt="thatvirtualboy"/><br /><sub><b>thatvirtualboy</b></sub></a><br /><a href="#data-thatvirtualboy" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ThugaPT"><img src="https://avatars.githubusercontent.com/ThugaPT?v=4?s=100" width="100px;" alt="ThugaPT"/><br /><sub><b>ThugaPT</b></sub></a><br /><a href="#data-ThugaPT" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Tomfricker"><img src="https://avatars.githubusercontent.com/Tomfricker?v=4?s=100" width="100px;" alt="Tomfricker"/><br /><sub><b>Tomfricker</b></sub></a><br /><a href="#data-Tomfricker" title="Data">🔣</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/usullu"><img src="https://avatars.githubusercontent.com/usullu?v=4?s=100" width="100px;" alt="usullu"/><br /><sub><b>usullu</b></sub></a><br /><a href="#data-usullu" title="Data">🔣</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/whosthatbloke"><img src="https://avatars.githubusercontent.com/whosthatbloke?v=4?s=100" width="100px;" alt="whosthatbloke"/><br /><sub><b>whosthatbloke</b></sub></a><br /><a href="#data-whosthatbloke" title="Data">🔣</a></td>
     </tr>
   </tbody>
 </table>
