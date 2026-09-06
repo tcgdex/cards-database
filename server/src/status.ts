@@ -8,17 +8,22 @@ const START_TIME = new Date()
 const git = (cmd: string) => {
 	try { return execSync(cmd, { encoding: 'utf8', stdio: ['pipe', 'pipe', 'pipe'] }).trim() } catch { return null }
 }
-let GIT_VERSION = 'dev'
-let GIT_COMMIT  = 'unknown'
+let GIT_VERSION     = 'dev'
+let GIT_COMMIT      = 'unknown'
+let GIT_GENERATED_AT = new Date().toISOString()
 try {
 	const info = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../generated/git-info.json'), 'utf8'))
-	GIT_VERSION = info.version ?? 'dev'
-	GIT_COMMIT  = info.commit  ?? 'unknown'
+	GIT_VERSION      = info.version     ?? 'dev'
+	GIT_COMMIT       = info.commit      ?? 'unknown'
+	GIT_GENERATED_AT = info.generatedAt ?? GIT_GENERATED_AT
 } catch {
 	// dev environment — git-info.json not built yet, query git directly
-	GIT_VERSION = git('git describe --tags --abbrev=0') ?? 'dev'
-	GIT_COMMIT  = git('git rev-parse --short=7 HEAD')   ?? 'unknown'
+	GIT_VERSION      = git('git describe --tags --abbrev=0')            ?? 'dev'
+	GIT_COMMIT       = git('git rev-parse --short=7 HEAD')              ?? 'unknown'
+	GIT_GENERATED_AT = git('git log -1 --format=%cI HEAD')              ?? GIT_GENERATED_AT
 }
+
+const SCHEMA_VERSION = 'v2'
 
 const langsToName: Record<string, string> = {
 	'zh-cn': 'Chinese (simplified)',
@@ -140,8 +145,12 @@ export default express.Router()
 			server: {
 				startedAt: START_TIME.toISOString(),
 				uptime: Math.floor((now - START_TIME.getTime()) / 1000),
+			},
+			dataset: {
 				version: GIT_VERSION,
 				commit: GIT_COMMIT,
+				generatedAt: GIT_GENERATED_AT,
+				schema: SCHEMA_VERSION,
 			},
 			languages: Object.fromEntries(
 				Object.entries(langStats).map(([lang, s]) => [lang, {
@@ -183,6 +192,16 @@ export default express.Router()
 					),
 				}])
 			),
+		})
+	})
+
+	// Dataset version info endpoint
+	.get('/data/version', (_req, res) => {
+		res.json({
+			version: GIT_VERSION,
+			commit: GIT_COMMIT,
+			generatedAt: GIT_GENERATED_AT,
+			schema: SCHEMA_VERSION,
 		})
 	})
 
@@ -529,6 +548,8 @@ tr:hover td { background: var(--bg2); }
     <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
       <span class="uptime-badge" id="uptime-badge">Loading…</span>
       <a class="uptime-badge" href="https://github.com/tcgdex/cards-database" target="_blank" rel="noopener" style="text-decoration:none" id="version-badge">Loading…</a>
+      <span class="uptime-badge" id="generated-badge">Loading…</span>
+      <span class="uptime-badge" id="schema-badge">Loading…</span>
       <a class="uptime-badge" href="https://status.tcgdex.dev/" target="_blank" rel="noopener" style="text-decoration:none">Server Status ↗</a>
     </div>
   </header>
@@ -652,7 +673,9 @@ tr:hover td { background: var(--bg2); }
 
   // ── uptime / version badges ───────────────────────────────────────────────
   document.getElementById('uptime-badge').textContent = 'Up ' + fmtUptime(data.server.uptime)
-  document.getElementById('version-badge').textContent = data.server.version + ' (' + data.server.commit + ') ↗'
+  document.getElementById('version-badge').textContent = data.dataset.version + ' (' + data.dataset.commit + ') ↗'
+  document.getElementById('generated-badge').textContent = 'Generated ' + new Date(data.dataset.generatedAt).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' })
+  document.getElementById('schema-badge').textContent = 'Schema ' + data.dataset.schema
 
   // ── language table ────────────────────────────────────────────────────────
   const langs = data.languages
