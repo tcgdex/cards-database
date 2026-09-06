@@ -61,7 +61,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 50 damage plus 20 more damage for each Water Energy attached to Blastoise but not used to pay for this attack's Energy cost. You can't add more than 40 damage in this way.",
-				fr: "Inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque Énergie  attachée à Tortank qui n'a pas été utilisée pour payer le Coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 40 dégâts de cette façon.",
+				fr: "Inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque Énergie {W} attachée à Tortank qui n'a pas été utilisée pour payer le Coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 40 dégâts de cette façon.",
 				de: "Dieser Angriff fügt 50 Schadenspunkte plus 20 weitere Schadenspunkte für jede an Turtok angelegte {W}-Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 40 Schadenspunkte hinzufügen."
 			},
 			damage: "50+",

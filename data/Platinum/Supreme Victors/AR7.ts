@@ -3,8 +3,7 @@ import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Arceus",
-		de: "Arceus"
+		fr: "Arceus",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -30,12 +29,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Mind Bend",
-				de: "Gedankenverbiegung"
+				fr: "Contrôleur d'esprit",
 			},
 			effect: {
-				en: "The Defending Pokémon is now Confused.",
-				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
+				fr: "Le Pokémon Défenseur est maintenant Confus.",
 			},
 			damage: 40,
 
@@ -50,11 +47,6 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-	description: {
-		en: "It is told in mythology that this Pokémon was born before the universe even existed.",
-		de: "Die Mythologie erzählt, dass dieses PKMN geboren wurde, bevor das Universum überhaupt existierte."
-	},
 
 	variants: [
 		{

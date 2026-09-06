@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as your opponent has any Pokémon-ex or Stage 2 Evolved Pokémon in play, Jirachi ex pays Colorless less Energy to use Shield Beam or Super Psy Bolt.",
-				fr: "Tant que votre adversaire possède des Pokémon-ex ou des Pokémon Évolués de Niveau 2 en jeu, Jirachi ex paye une Énergie  de moins pour utiliser Rayon protecteur ou Super psy.",
+				fr: "Tant que votre adversaire possède des Pokémon-ex ou des Pokémon Évolués de Niveau 2 en jeu, Jirachi ex paye une Énergie {C} de moins pour utiliser Rayon protecteur ou Super psy.",
 				de: "Solange dein Gegner mindestens 1 Pokémon-ex oder ein entwickeltes Pokémon der Phase 2 im Spiel hat, kosten Jirachi ex' Schildstrahl und Super-Psischlag 1 {C} weniger."
 			},
 		},

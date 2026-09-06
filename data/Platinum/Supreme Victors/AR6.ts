@@ -3,8 +3,7 @@ import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Arceus",
-		de: "Arceus"
+		fr: "Arceus",
 	},
 
 	illustrator: "Wataru Kawahara",
@@ -29,12 +28,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Lightning Turn",
-				de: "Blitzartige Drehung"
+				fr: "Tour éclair",
 			},
 			effect: {
-				en: "Switch Arceus with 1 of your Benched Pokémon.",
-				de: "Tausche Arceus gegen 1 Pokémon auf deiner Bank aus."
+				fr: "Échangez Arceus avec 1 des Pokémon de votre Banc.",
 			},
 			damage: 30,
 
@@ -56,11 +53,6 @@ const card: Card = {
 	],
 
 	retreat: 1,
-
-	description: {
-		en: "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
-		de: "Die Mythologie nennt dieses PKMN als Former des Universums, wobei es seine tausend Arme eingesetzt hat."
-	},
 
 	variants: [
 		{
