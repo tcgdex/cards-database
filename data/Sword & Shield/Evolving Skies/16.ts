@@ -108,7 +108,7 @@ const card: Card = {
 		{
 			type: 'normal',
 			thirdParty: {
-				cardmarket: 574040,
+				cardmarket: 701491,
 				tcgplayer: 247422
 			}
 		},
@@ -116,7 +116,7 @@ const card: Card = {
 			type: 'normal',
 			stamp: ['player-rewards-program'],
 			thirdParty: {
-				cardmarket: 574040,
+				cardmarket: 697069,
 				tcgplayer: 475978
 			}
 		},
