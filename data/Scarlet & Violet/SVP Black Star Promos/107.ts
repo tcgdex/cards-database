@@ -59,7 +59,11 @@ const card: Card = {
 	illustrator: "Orca",
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769403,
+				tcgplayer: 556923
+			},
 		}
 	],
 }

@@ -83,6 +83,13 @@ const card: Card = {
 				cardmarket: 703198,
 				tcgplayer: 500070
 			},
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				tcgplayer: 650725
+			}
 		}
 	],
 }
