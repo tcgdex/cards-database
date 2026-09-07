@@ -9,7 +9,9 @@
 		"dex:audit:report": "bun scripts/pokedexIdFixer/audit-dex-ids.ts --report",
 		"dex:fix:dry-run": "bun scripts/pokedexIdFixer/fix-dex-ids.ts --dry-run",
 		"dex:fix:apply": "bun scripts/pokedexIdFixer/fix-dex-ids.ts --apply",
-		"dex:lint": "bun scripts/pokedexIdFixer/lint-dex-ids.ts"
+		"dex:lint": "bun scripts/pokedexIdFixer/lint-dex-ids.ts",
+		"rename:dry-run": "bun scripts/pad-card-filenames.ts --dry-run",
+		"rename:apply": "bun scripts/pad-card-filenames.ts --apply"
 	},
 	"devDependencies": {
 		"@dzeio/object-util": "^1.9.2",
@@ -20,6 +22,7 @@
 		"glob": "^10.0.0",
 		"jscodeshift": "^17.3.0",
 		"openapi-typescript": "^7.10.1",
+		"ts-morph": "^28.0.0",
 		"ts-node": "^10.0.0",
 		"typescript": "^5.0.0"
 	}
