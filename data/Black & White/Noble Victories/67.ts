@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Bevor es abhebt, nimmt es am Boden Anlauf. Es ist schlau genug, seine Beute zusammen mit Artgenossen zu jagen."
 	},
 
-	thirdParty: {
-		cardmarket: 280190,
-		tcgplayer: 83609
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 280190,
+				tcgplayer: 83609
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 280190,
+				tcgplayer: 83609
+			}
+		}
+	]
 }
 
 export default card
