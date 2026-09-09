@@ -20,7 +20,7 @@ const card: Card = {
 
 	hp: 130,
 
-	types: ["Dragon"],
+	types: ["Colorless"],
 
 	stage: "Basic",
 
