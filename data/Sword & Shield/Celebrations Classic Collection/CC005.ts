@@ -7,7 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Dark Gyarados",
-		fr: "Pikachu Surfeur-V"
+		fr: "Léviator obscur"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -20,7 +20,7 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Ice Beam",
-			fr: "Surf"
+			fr: "Laser Glace"
 		},
 
 		effect: {
