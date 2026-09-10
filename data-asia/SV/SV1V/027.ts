@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SV1V"
 
 const card: Card = {
+	evolveFrom: { ja: "コイル" },
 	set: Set,
 
 	name: {
@@ -67,6 +68,7 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
+				cardtrader: 235604,
 				cardmarket: 693102,
 				tcgplayer: 568253,
 			},

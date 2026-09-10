@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SV1V"
 
 const card: Card = {
+	dexId: [1008],
 	set: Set,
 
 	name: {
@@ -66,6 +67,7 @@ const card: Card = {
 		{
 			type: "holo",
 			thirdParty: {
+				cardtrader: 235614,
 				cardmarket: 693112,
 				tcgplayer: 568263,
 			},

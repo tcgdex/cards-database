@@ -2,6 +2,9 @@ import { Card } from "../../../interfaces"
 import Set from "../SV1V"
 
 const card: Card = {
+	rarity: "Special illustration rare",
+	dexId: [990],
+	regulationMark: "G",
 	set: Set,
 
 	name: {
@@ -53,6 +56,7 @@ const card: Card = {
 		{
 			type: "holo",
 			thirdParty: {
+				cardtrader: 235680,
 				cardmarket: 693178,
 				tcgplayer: 568329,
 			},

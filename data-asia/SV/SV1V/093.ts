@@ -2,6 +2,10 @@ import { Card } from "../../../interfaces"
 import Set from "../SV1V"
 
 const card: Card = {
+	evolveFrom: { ja: "レアコイル" },
+	dexId: [462],
+	rarity: "Ultra Rare",
+	regulationMark: "G",
 	set: Set,
 
 	name: {
@@ -50,6 +54,7 @@ const card: Card = {
 		{
 			type: "holo",
 			thirdParty: {
+				cardtrader: 235670,
 				cardmarket: 693168,
 				tcgplayer: 568319,
 			},

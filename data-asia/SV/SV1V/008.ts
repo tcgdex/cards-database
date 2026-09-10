@@ -2,6 +2,8 @@ import { Card } from "../../../interfaces"
 import Set from "../SV1V"
 
 const card: Card = {
+	dexId: [918],
+	evolveFrom: { ja: "タマンチュラ" },
 	set: Set,
 
 	name: {
@@ -66,6 +68,7 @@ const card: Card = {
 		{
 			type: "holo",
 			thirdParty: {
+				cardtrader: 235585,
 				cardmarket: 693082,
 				tcgplayer: 568234,
 			},
