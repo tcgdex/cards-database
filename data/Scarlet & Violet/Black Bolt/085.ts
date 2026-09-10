@@ -53,6 +53,15 @@ const card: Card = {
 				tcgplayer: 642772
 			}
 		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			stamp: ["professor-program"],
+			thirdParty: {
+				cardmarket: 878014,
+				tcgplayer: 704476
+			}
+		},
 	]
 }
 

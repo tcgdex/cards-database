@@ -44,7 +44,7 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 835929,
+				cardmarket: 835928,
 				tcgplayer: 642462
 			}
 		},
@@ -72,9 +72,6 @@ const card: Card = {
 			}
 		}
 	],
-	 // thirdParty: {
-	 //	cardmarket: 835928
-	 // }
 }
 
 export default card
