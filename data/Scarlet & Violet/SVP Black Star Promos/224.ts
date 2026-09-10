@@ -34,6 +34,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["worlds-2025"],
 			thirdParty: {
+				cardmarket: 844367,
 				tcgplayer: 649232
 			},
 		},
@@ -41,6 +42,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["worlds-2025","staff"],
 			thirdParty: {
+				cardmarket: 845339,
 				tcgplayer: 649234
 			},
 		},
