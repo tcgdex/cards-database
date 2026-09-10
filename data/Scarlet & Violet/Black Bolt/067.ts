@@ -82,7 +82,30 @@ const card: Card = {
 				cardmarket: 836046,
 				tcgplayer: 642518
 			}
-		}
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 864365,
+				tcgplayer: 671556
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["liao-fu-guan"],
+			thirdParty: {
+				cardmarket: 884294,
+				tcgplayer: 689618
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["gym-challenge"],
+			thirdParty: {
+				tcgplayer: 714874
+			}
+		},
 	]
 }
 

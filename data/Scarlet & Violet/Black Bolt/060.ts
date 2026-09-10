@@ -87,7 +87,7 @@ const card: Card = {
 			foil: "masterball",
 			thirdParty: {
 				cardmarket: 836414,
-				tcgplayer: 642756
+				tcgplayer: 642683
 			}
 		}
 	]
