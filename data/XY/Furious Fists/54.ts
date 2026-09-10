@@ -3,12 +3,12 @@ import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Lucario EX",
-		fr: "Lucario EX",
-		es: "Lucario EX",
-		it: "Lucario EX",
-		pt: "Lucario EX",
-		de: "Lucario EX"
+		en: "Lucario-EX",
+		fr: "Lucario-EX",
+		es: "Lucario-EX",
+		it: "Lucario-EX",
+		pt: "Lucario-EX",
+		de: "Lucario-EX"
 	},
 
 	illustrator: "Eske Yoshinob",

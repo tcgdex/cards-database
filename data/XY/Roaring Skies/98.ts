@@ -3,12 +3,12 @@ import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Thundurus EX",
-		fr: "Fulguris EX",
-		es: "Thundurus EX",
-		it: "Thundurus EX",
-		pt: "Thundurus EX",
-		de: "Voltolos EX"
+		en: "Thundurus-EX",
+		fr: "Fulguris-EX",
+		es: "Thundurus-EX",
+		it: "Thundurus-EX",
+		pt: "Thundurus-EX",
+		de: "Voltolos-EX"
 	},
 
 	illustrator: "Ryo Ueda",

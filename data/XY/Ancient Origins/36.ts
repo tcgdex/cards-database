@@ -3,12 +3,12 @@ import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Hoopa EX",
-		fr: "Hoopa EX",
-		es: "Hoopa EX",
-		it: "Hoopa EX",
-		pt: "Hoopa EX",
-		de: "Hoopa EX"
+		en: "Hoopa-EX",
+		fr: "Hoopa-EX",
+		es: "Hoopa-EX",
+		it: "Hoopa-EX",
+		pt: "Hoopa-EX",
+		de: "Hoopa-EX"
 	},
 
 	illustrator: "Ryota Murayama",

@@ -3,12 +3,12 @@ import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Sceptile EX",
-		fr: "Jungko EX",
-		es: "Sceptile EX",
-		it: "Sceptile EX",
-		pt: "Sceptile EX",
-		de: "Gewaldro EX"
+		en: "Sceptile-EX",
+		fr: "Jungko-EX",
+		es: "Sceptile-EX",
+		it: "Sceptile-EX",
+		pt: "Sceptile-EX",
+		de: "Gewaldro-EX"
 	},
 
 	illustrator: "Ryo Ueda",
