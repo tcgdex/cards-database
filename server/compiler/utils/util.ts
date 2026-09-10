@@ -20,17 +20,31 @@ const fileCache: fileCacheInterface = {}
  */
 export async function fetchRemoteFile<T = any>(url: string): Promise<T> {
 	if (!fileCache[url]) {
-		const signal = new AbortController()
+		fileCache[url] = (async () => {
+			const signal = new AbortController()
 
-		const finished = setTimeout(() => {
-			signal.abort()
-		}, 60 * 1000);
+			const finished = setTimeout(() => {
+				signal.abort()
+			}, 60 * 1000);
 
-		const resp = await fetch(url, {
-			signal: signal.signal
-		})
-		clearTimeout(finished)
-		fileCache[url] = resp.json()
+			try {
+				const resp = await fetch(url, {
+					signal: signal.signal
+				})
+				clearTimeout(finished)
+				if (!resp.ok) {
+					const body = await resp.text()
+					throw new Error(
+						`Failed to fetch ${url}: ${resp.status} ${resp.statusText} body=${body.slice(0, 200)}`
+					)
+				}
+				return await resp.json()
+			} catch (error) {
+				clearTimeout(finished)
+				delete fileCache[url]
+				throw error
+			}
+		})()
 	}
 	return fileCache[url]
 }
