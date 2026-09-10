@@ -2,7 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Obsidian Flames"
 
 const card: Card = {
-	dexId: [921],
+	dexId: [923],
 	set: Set,
 
 	name: {

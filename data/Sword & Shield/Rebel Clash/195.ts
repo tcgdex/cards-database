@@ -2,7 +2,7 @@ import { Card } from '../../../interfaces'
 import Set from '../Rebel Clash'
 
 const card: Card = {
-	dexId: [888],
+	dexId: [818],
 	set: Set,
 
 	name: {
