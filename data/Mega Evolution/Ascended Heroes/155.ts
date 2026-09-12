@@ -90,7 +90,7 @@ const card: Card = {
 	},
 	{
 		type: "normal",
-		stamp: ["pokemon-center"],
+		stamp: ["player-rewards-program"],
 		thirdParty: {
 			cardmarket: 894179,
 			tcgplayer: 704446
@@ -98,7 +98,8 @@ const card: Card = {
 	},
 	{
 		type: "holo",
-		stamp: ["pokemon-center"],
+		foil: "cosmos",
+		stamp: ["player-rewards-program"],
 		thirdParty: {
 			cardmarket: 894178,
 			tcgplayer: 704447
