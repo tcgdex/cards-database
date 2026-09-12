@@ -48,7 +48,8 @@ const card: Card = {
 	},
 	{
 		type: "holo",
-		stamp: ["pokemon-center"],
+		foil: "cosmos",
+		stamp: ["player-rewards-program"],
 		thirdParty: {
 			cardmarket: 894203,
 			tcgplayer: 704401
