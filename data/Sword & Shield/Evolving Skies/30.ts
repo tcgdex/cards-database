@@ -91,6 +91,22 @@ const card: Card = {
 				tcgplayer: 246736
 			}
 		},
+		{ // Play! Pokémon Prize Pack Series One
+			type: 'holo',
+			stamp: ['player-rewards-program'],
+			thirdParty: {
+				cardmarket: 697082,
+				tcgplayer: 475993
+			}
+		},
+		{ // Play! Pokémon Prize Pack Series Two
+			type: 'holo',
+			stamp: ['player-rewards-program'],
+			thirdParty: {
+				cardmarket: 705139,
+				tcgplayer: 475993
+			}
+		},
 	],
 }
 
