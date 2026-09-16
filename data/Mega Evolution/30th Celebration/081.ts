@@ -1,0 +1,58 @@
+import { Card } from "../../../interfaces"
+import Set from "../30th Celebration"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		en: "Gimmighoul",
+		fr: "Mordudor",
+		de: "Gierspenst",
+		es: "Gimmighoul",
+		it: "Gimmighoul",
+		'es-mx': "Gimmighoul"
+	},
+
+	illustrator: "Fujimoto Gold",
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Psychic"],
+	stage: "Basic",
+
+	attacks: [{
+		name: {
+			en: "Strolls So Much",
+			fr: "Promenades à Gogo",
+			de: "Spaziergier",
+			es: "Caminata",
+			it: "In Lungo e in Largo",
+			'es-mx': "Larga Caminata"
+		},
+
+		effect: {
+			en: "Flip a coin. If heads, search your deck for a card and put it into your hand. Then, shuffle your deck.",
+			fr: "Lancez une pièce. Si c'est face, cherchez dans votre deck une carte, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+			de: "Wirf 1 Münze. Durchsuche bei Kopf dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+			es: "Lanza 1 moneda. Si sale cara, busca en tu baraja 1 carta y ponla en tu mano. Después, baraja las cartas de tu baraja.",
+			it: "Lancia una moneta. Se esce testa, cerca nel tuo mazzo una carta e aggiungila a quelle che hai in mano. Poi rimischia il tuo mazzo.",
+			'es-mx': "Lanza 1 moneda. Si sale cara, busca en tu mazo 1 carta y ponla en tu mano. Después, baraja tu mazo."
+		},
+
+		cost: ["Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Darkness",
+		value: "×2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "-30"
+	}],
+
+	retreat: 1
+}
+
+export default card

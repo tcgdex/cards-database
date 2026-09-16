@@ -1,0 +1,54 @@
+import { Card } from "../../../interfaces"
+import Set from "../30th Celebration"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		en: "Pikachu",
+		fr: "Pikachu",
+		de: "Pikachu",
+		es: "Pikachu",
+		it: "Pikachu",
+		'es-mx': "Pikachu"
+	},
+
+	illustrator: "USGMEN",
+	rarity: "Pikachu Rare",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Lightning"],
+	stage: "Basic",
+
+	attacks: [{
+		name: {
+			en: "Pika Chain",
+			fr: "Chaîne de Pika",
+			de: "Pikakette",
+			es: "Pika Cadena",
+			it: "Pika Catena",
+			'es-mx': "Pikalazo"
+		},
+
+		effect: {
+			en: "This attack does 40 damage for each of your Pikachu and Pikachu <em>ex</em> in play.",
+			fr: "Cette attaque inflige 40 dégâts pour chacun de vos Pikachu et Pikachu-<em>ex</em> en jeu.",
+			de: "Diese Attacke fügt für jedes deiner Pikachu und Pikachu-<em>ex</em> im Spiel 40 Schadenspunkte zu.",
+			es: "Este ataque hace 40 puntos de daño por cada uno de tus Pikachu y Pikachu <em>ex</em> en juego.",
+			it: "Questo attacco infligge 40 danni per ciascuno dei tuoi Pikachu e Pikachu-<em>ex</em> in gioco.",
+			'es-mx': "Este ataque hace 40 puntos de daño por cada uno de tus Pikachu y Pikachu <em>ex</em> en juego."
+		},
+
+		damage: "40×",
+		cost: ["Lightning", "Lightning", "Lightning"]
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "×2"
+	}],
+
+	retreat: 2
+}
+
+export default card
