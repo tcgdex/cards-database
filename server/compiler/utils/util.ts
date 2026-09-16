@@ -137,8 +137,8 @@ function normalizeGitPath(path: string): string {
 }
 export async function loadLastEdits() {
 	console.log('Loading Git File Tree...')
-	const firstCommand = 'git ls-tree -r --name-only HEAD ../data ../data-asia'
-	const files = (await runCommand(firstCommand)).split('\n').filter(Boolean)
+	const commandOutput = await runCommand('git ls-tree -r --name-only HEAD ../data ../data-asia')
+	const files = commandOutput.split('\n').filter(Boolean)
 	console.log('Loaded files tree', files.length, 'files')
 	console.log('Loading their last edit time')
 	const trackedFiles = new Set(files.map(normalizeGitPath))
