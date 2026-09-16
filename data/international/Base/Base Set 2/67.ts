@@ -1,10 +1,9 @@
-import { Card } from 'models/database/card'
+import { Card } from '../../../../meta/models/database/card'
 import Set from '../Base Set 2'
+import {Bulbasuar} from '../../../../meta/models/database/pokedex'
 
 const card: Card = {
-	name: {
-		'en-us': "Bulbasaur",
-	},
+	name: Bulbasuar.name.get('en-us'),
 
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Common",
