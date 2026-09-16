@@ -16,7 +16,11 @@ const DIST_FOLDER = './generated'
 
 	// Prefetch the pictures at the start as it can bug because of bad connection
 	console.log('1. Loading remote sources')
-	await fetchRemoteFile('https://assets.tcgdex.net/datas.json')
+	try {
+		await fetchRemoteFile('https://assets.tcgdex.net/datas.json')
+	} catch (error) {
+		console.warn('Skipping remote picture index:', error)
+	}
 
 	// Delete dist folder to be sure to have a clean base
 	try {
