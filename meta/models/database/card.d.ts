@@ -1,20 +1,11 @@
-import type { ISODate, LanguageSpecific, SupportedLanguages, TCGType } from '../globals'
+import type { ISODate, LanguageSpecific, SupportedLanguages, TCGType, Name } from '../globals'
 import type { Set } from './set'
 
 export interface Card {
 	/**
 	 * Card Name (Including the suffix if next to card name)
 	 */
-	name:
-		| LanguageSpecific<string>
-		/**
-		 * if the name is composed of multiple parts, decompose the name here
-		 */
-		| {
-			prefix?: LanguageSpecific<string>
-			main: LanguageSpecific<string>
-			suffix?: LanguageSpecific<string>
-		}
+	name: Name
 
 	/**
 	 * Card illustrator

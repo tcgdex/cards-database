@@ -1,14 +1,10 @@
-import { Card } from "models/database/card";
+import { Card } from "../../../../meta/models/database/card";
 import Set from "../SV2a";
+import {Bulbasuar} from '../../../../meta/models/database/pokedex'
 
 const card: Card = {
 	set: Set,
-	name: {
-		'ja-jp': "フシギダネ",
-		'zh-tw': "妙蛙種子",
-		'th-th': "ฟุชิกิดาเนะ",
-		'id-id': "Bulbasaur",
-	},
+	name: Bulbasuar.name.get('ja-jp', 'zh-tw', 'th-th', 'id-id'),
 
 	illustrator: "Yuu Nishida",
 	category: "Pokemon",

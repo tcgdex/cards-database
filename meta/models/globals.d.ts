@@ -29,3 +29,13 @@ export type TCGType =
 	| 'Metal'
 	| 'Psychic'
 	| 'Water'
+
+export type Name = | LanguageSpecific<string>
+	/**
+	 * if the name is composed of multiple parts, decompose the name here
+	 */
+	| {
+	prefix?: LanguageSpecific<string>
+	main: LanguageSpecific<string>
+	suffix?: LanguageSpecific<string>
+}
