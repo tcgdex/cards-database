@@ -46,7 +46,7 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "j",
+	regulationMark: "J",
 
 	weaknesses: [{
 		type: "Lightning",
