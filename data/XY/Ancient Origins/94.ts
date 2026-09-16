@@ -3,12 +3,12 @@ import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "Lugia EX",
-		fr: "Lugia EX",
-		es: "Lugia EX",
-		it: "Lugia EX",
-		pt: "Lugia EX",
-		de: "Lugia EX"
+		en: "Lugia-EX",
+		fr: "Lugia-EX",
+		es: "Lugia-EX",
+		it: "Lugia-EX",
+		pt: "Lugia-EX",
+		de: "Lugia-EX"
 	},
 
 	illustrator: "Ryo Ueda",

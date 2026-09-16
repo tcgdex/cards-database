@@ -3,12 +3,12 @@ import Set from '../XY'
 
 const card: Card = {
 	name: {
-		en: "Venusaur EX",
-		fr: "Florizarre EX",
-		es: "Venusaur EX",
-		it: "Venusaur EX",
-		pt: "Venusaur EX",
-		de: "Bisaflor EX"
+		en: "Venusaur-EX",
+		fr: "Florizarre-EX",
+		es: "Venusaur-EX",
+		it: "Venusaur-EX",
+		pt: "Venusaur-EX",
+		de: "Bisaflor-EX"
 	},
 
 	illustrator: "Eske Yoshinob",

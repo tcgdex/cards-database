@@ -3,12 +3,12 @@ import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Umbreon EX",
-		fr: "Noctali EX",
-		es: "Umbreon EX",
-		it: "Umbreon EX",
-		pt: "Umbreon EX",
-		de: "Nachtara EX"
+		en: "Umbreon-EX",
+		fr: "Noctali-EX",
+		es: "Umbreon-EX",
+		it: "Umbreon-EX",
+		pt: "Umbreon-EX",
+		de: "Nachtara-EX"
 	},
 
 	illustrator: "Ayaka Yoshida",
