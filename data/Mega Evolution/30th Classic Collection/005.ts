@@ -17,7 +17,7 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	rarity: "None",
 	category: "Trainer",
-	trainerType: "Entrenador"
+	trainerType: "Supporter"
 }
 
 export default card

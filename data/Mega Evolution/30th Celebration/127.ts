@@ -16,7 +16,7 @@ const card: Card = {
 	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Trainer",
-	trainerType: "Entrenador"
+	trainerType: "Item"
 }
 
 export default card
