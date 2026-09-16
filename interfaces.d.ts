@@ -241,6 +241,11 @@ export interface Card {
 			| 'Triple Rare'
 			// Japanese Character Rares (since SM11b Dream League)
 			| 'Character Rare' | 'Character Super Rare'
+			// 30th Celebration: the Futuristic Rare prints (157/158), the thirty Pikachu cards,
+			// and the red/green/blue Mew prints
+			| 'Futuristic Rare'
+			| 'Pikachu Rare'
+			| 'RGB Rare'
 			// Pokémon TCG Pocket Rarities
 			| 'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
 			| 'Promo'
