@@ -12,7 +12,7 @@ post {
 
 body:graphql {
   query Pouet {
-    cards {
+    cards(pagination: { page: 1, itemsPerPage: 4 }) {
       id
       localId
       name
@@ -30,4 +30,6 @@ body:graphql {
 
 assert {
   res.status: eq 200
+  res.body.data.cards.length: eq 4
+  res.body.data.cards[0].set.serie.id: isDefined
 }
