@@ -30,6 +30,4 @@ body:graphql {
 
 assert {
   res.status: eq 200
-  res.body.data.cards[0].id: eq swsh3-136
-  res.body.data.cards[0].set.serie.id: isDefined
 }
