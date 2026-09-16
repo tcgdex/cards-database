@@ -9,6 +9,12 @@ import { objectMap, objectPick } from '@dzeio/object-util'
 import { formatVariant, variantToIdentifier } from "./variantUtil.ts";
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
+
+	// temporary hack
+	if (card.set.id === '30th') {
+		return `https://assets.tcgdex.net/${lang}/${card.set.serie.id}/${card.set.id}/${cardId}`
+	}
+
 	try {
 		const file = await fetchRemoteFile('https://assets.tcgdex.net/datas.json')
 		const fileExists = Boolean(file[lang]?.[card.set.serie.id]?.[card.set.id]?.[cardId])

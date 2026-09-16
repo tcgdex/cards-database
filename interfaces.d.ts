@@ -21,7 +21,7 @@ export type VariantStamps = '1st-edition' | 'w-promo' | 'pre-release' | 'pokemon
 	| 'wotc' | 'd-edition-error' | '1st-edition-scratch-error' | "1st-edition-error" | '1st-movie' | '1st-movie-inverted'
 	| 'pokemon-4-ever' | 'pokemon-center-ny' | "winner" | '25th-celebration' | 'chris-fulop' | 'tsuguyoshi-yamato'
 	| 'reed-weichler' | 'kevin-nguyen' | 'professor-program' | 'takashi-yoneda' | 'michael-gonzalez' | 'curran-hill'
-	| 'jeremy-maron' | 'jimmy-ballard' | 'miska-saari' | 'hiroki-yano' | 'jason-klaczynski' | 'liao-fu-guan' | 'state-championships'
+	| 'jeremy-maron' | 'jimmy-ballard' | 'miska-saari' | 'hiroki-yano' | 'jason-klaczynski' | 'liao-fu-guan' | 'state-championships' | 'state-championships'
 	| 'national-championships' | 'gym-challenge' | 'city-championships' | 'jeremy-scharff-kim' | 'destiny-deoxys'
 	| 'pokemon-day' | 'regional-championships' | 'international-championships' | 'stadium-challenge' | '10th-anniversary' | 'wizard-world-philadelphia'
 	| 'wizard-world-chicago' | 'comic-con' | 'nintendo-world' | 'gen-con' | 'akira-miyazaki' | 'tom-roos'
@@ -243,7 +243,8 @@ export interface Card {
 			| 'Character Rare' | 'Character Super Rare'
 			// Pokémon TCG Pocket Rarities
 			| 'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
-			| 'Promo'
+			| 'Promo' | 'Prism Star'
+			| 'Pikachu Rare' | 'Futuristic Rare'
 
 	/**
 	 * Card Category

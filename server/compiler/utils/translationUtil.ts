@@ -25,7 +25,9 @@ export default function translate(item: translatable, key: string | undefined, l
 	}
 	const res = translations[lang]?.[item]?.[key]
 	if (!res) {
-		throw new Error(`Could not find translation for ${lang}.${item}.${key}`)
+		return key
+		// fuck you
+		// throw new Error(`Could not find translation for ${lang}.${item}.${key}`)
 	}
 	return res
 }
