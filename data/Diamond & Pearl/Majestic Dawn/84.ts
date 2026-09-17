@@ -26,10 +26,12 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
+				en: "Hard Amber",
 				de: "Gehärteter Bernstein",
 				fr: "Ambre solide",
 			},
 			effect: {
+				en: "As long as Old Amber is on your Bench, prevent all damage done to Old Amber by attacks (both yours and your opponent's).",
 				de: "Solange sich Altbernstein im Spiel befindet, verhindere allen Schaden, der Altbernstein durch Angriffe von Pokémon (deinen oder denen deines Gegners) zugefügt würden.",
 				fr: "Tant que Vieil Ambre est sur votre Banc, prévenez tous les dégâts qui lui sont infligés par des attaques (les vôtres et celles de votre adversaire).",
 			},
