@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It sleeps in a deep-sea trench. If it flaps its wings, it is said to cause a 40-day storm."
+	},
+
 	name: {
 		en: "Lugia",
 		fr: "Lugia",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Kazuki Minami",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [249],
 	hp: 120,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -53,7 +58,17 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907728,
+				tcgplayer: 716510
+			}
+		}
+	],
 }
 
 export default card

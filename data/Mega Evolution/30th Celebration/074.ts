@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Shiny particles are released from its wings like a veil. It is said to represent the crescent moon."
+	},
+
 	name: {
 		en: "Cresselia",
 		fr: "Cresselia",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "KEIICHIRO ITO",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [488],
 	hp: 120,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -65,7 +70,17 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907681,
+				tcgplayer: 716470
+			}
+		}
+	],
 }
 
 export default card

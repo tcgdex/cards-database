@@ -17,8 +17,8 @@ const card: Card = {
 		'es-mx': "Mew"
 	},
 
-	illustrator: "danciao",
-	rarity: "Rare",
+	illustrator: "YOSHIROTTEN",
+	rarity: "RGB Rare",
 	category: "Pokemon",
 	dexId: [151],
 	hp: 60,
@@ -62,11 +62,7 @@ const card: Card = {
 	regulationMark: "J",
 	variants: [
 		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 907672,
-				tcgplayer: 716464
-			}
+			type: "holo"
 		}
 	],
 }

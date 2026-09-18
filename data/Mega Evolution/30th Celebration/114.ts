@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It raises its offspring in its belly pouch. It lets its baby out to play only when it feels safe to do so."
+	},
+
 	name: {
 		en: "Kangaskhan",
 		fr: "Kangourex",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Pani Kobayashi",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [115],
 	hp: 130,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -60,7 +65,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907721,
+				tcgplayer: 716506
+			}
+		}
+	],
 }
 
 export default card

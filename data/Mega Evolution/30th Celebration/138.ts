@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "This Lycanroc has an extremely vicious temperament. It will happily sustain injuries for the sake of taking down its opponent."
+	},
+
 	name: {
 		en: "Lycanroc",
 		fr: "Lougaroc",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Raita Kazama",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [745],
 	hp: 130,
 	types: ["Fighting"],
 	stage: "Stage1",
@@ -60,7 +65,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 907746,
+				tcgplayer: 696685
+			}
+		}
+	],
 }
 
 export default card

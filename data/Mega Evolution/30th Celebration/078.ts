@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "This Pokémon came from another universe. Its gaseous body is so light that even a gentle breeze can blow it away."
+	},
+
 	name: {
 		en: "Cosmog",
 		fr: "Cosmog",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Mina Nakai",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [789],
 	hp: 60,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -44,7 +49,17 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907685,
+				tcgplayer: 716474
+			}
+		}
+	],
 }
 
 export default card

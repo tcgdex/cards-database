@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It bashes its scales to test its opponents' mettle. The sound of struck Kommo-o scales frightens weaker foes and sends them running."
+	},
+
 	name: {
 		en: "Kommo-o",
 		fr: "Ékaïser",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Gemi",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [784],
 	hp: 180,
 	types: ["Dragon"],
 	stage: "Stage2",
@@ -34,7 +39,16 @@ const card: Card = {
 		cost: ["Lightning", "Fighting", "Colorless"]
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 908352
+			}
+		}
+	],
 }
 
 export default card

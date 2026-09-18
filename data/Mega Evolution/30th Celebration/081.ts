@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It wanders around, carrying an old coin on its back. It survives by draining the life-force from humans who try to pick up its coin."
+	},
+
 	name: {
 		en: "Gimmighoul",
 		fr: "Mordudor",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Fujimoto Gold",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [999],
 	hp: 60,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -52,7 +57,17 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907688,
+				tcgplayer: 716477
+			}
+		}
+	],
 }
 
 export default card

@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck."
+	},
+
 	name: {
 		en: "Scraggy",
 		fr: "Baggiguane",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Souichirou Gunjima",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [559],
 	hp: 80,
 	types: ["Darkness"],
 	stage: "Basic",
@@ -59,7 +64,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907701,
+				tcgplayer: 716487
+			}
+		}
+	],
 }
 
 export default card

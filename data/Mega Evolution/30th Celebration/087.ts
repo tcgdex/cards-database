@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Females are more sensitive to smells than males. While foraging, they'll use their whiskers to check wind direction and stay downwind of predators."
+	},
+
 	name: {
 		en: "Nidoran♀",
 		fr: "Nidoran♀",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Taira Akitsu",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [29],
 	hp: 60,
 	types: ["Darkness"],
 	stage: "Basic",
@@ -59,7 +64,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907694,
+				tcgplayer: 716483
+			}
+		}
+	],
 }
 
 export default card

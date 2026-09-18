@@ -16,6 +16,7 @@ const card: Card = {
 	illustrator: "CHORISO",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
+	dexId: [94],
 	hp: 280,
 	types: ["Darkness"],
 	stage: "Basic",
@@ -70,7 +71,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 908355
+			}
+		}
+	],
 }
 
 export default card

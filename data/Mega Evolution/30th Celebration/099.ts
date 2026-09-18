@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It's said that Hydreigon grew ferocious because people in times long past loathed it, considering it to be evil incarnate and attacking it relentlessly."
+	},
+
 	name: {
 		en: "Hydreigon",
 		fr: "Trioxhydre",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Ryuta Fuse",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [635],
 	hp: 170,
 	types: ["Darkness"],
 	stage: "Stage2",
@@ -59,7 +64,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907706,
+				tcgplayer: 716492
+			}
+		}
+	],
 }
 
 export default card

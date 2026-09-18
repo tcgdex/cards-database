@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "By reading the auras of all things, it can tell how others are feeling from over half a mile away."
+	},
+
 	name: {
 		en: "Lucario",
 		fr: "Lucario",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Hideki Ishikawa",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [448],
 	hp: 120,
 	types: ["Fighting"],
 	stage: "Stage1",
@@ -48,7 +53,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907690,
+				tcgplayer: 716479
+			}
+		}
+	],
 }
 
 export default card

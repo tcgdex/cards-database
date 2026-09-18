@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It nests deep inside a cave. Food there is scarce, so Deino will sink its teeth into anything that moves and attempt to eat it."
+	},
+
 	name: {
 		en: "Deino",
 		fr: "Solochi",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Gapao",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [633],
 	hp: 70,
 	types: ["Darkness"],
 	stage: "Basic",
@@ -51,7 +56,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907704,
+				tcgplayer: 716490
+			}
+		}
+	],
 }
 
 export default card

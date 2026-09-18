@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "To protect themselves from danger, they hide their true identities by transforming into people and Pokémon."
+	},
+
 	name: {
 		en: "Zorua",
 		fr: "Zorua",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Atsuya Uki",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [570],
 	hp: 70,
 	types: ["Darkness"],
 	stage: "Basic",
@@ -39,7 +44,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907702,
+				tcgplayer: 716488
+			}
+		}
+	],
 }
 
 export default card

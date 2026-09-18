@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "The absorption of starlight fuels this Pokémon's growth. The shell that encases it is harder than any known material."
+	},
+
 	name: {
 		en: "Cosmoem",
 		fr: "Cosmovum",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Masako Tomii",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [790],
 	hp: 100,
 	types: ["Psychic"],
 	stage: "Stage1",
@@ -52,7 +57,17 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907686,
+				tcgplayer: 716475
+			}
+		}
+	],
 }
 
 export default card

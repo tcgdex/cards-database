@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "The light of the moon changed Eevee's genetic structure. It lurks in the darkness, waiting for prey."
+	},
+
 	name: {
 		en: "Umbreon",
 		fr: "Noctali",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Iori Suzuki",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [197],
 	hp: 110,
 	types: ["Darkness"],
 	stage: "Stage1",
@@ -60,7 +65,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907698,
+				tcgplayer: 696679
+			}
+		}
+	],
 }
 
 export default card

@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It lazes vacantly near water. If something bites its tail, it won't even notice for a whole day."
+	},
+
 	name: {
 		en: "Slowpoke",
 		fr: "Ramoloss",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Uninori",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [79],
 	hp: 80,
 	types: ["Water"],
 	stage: "Basic",
@@ -59,7 +64,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907622,
+				tcgplayer: 716449
+			}
+		}
+	],
 }
 
 export default card

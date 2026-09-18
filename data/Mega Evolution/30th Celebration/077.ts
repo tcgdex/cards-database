@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It prefers areas with lots of flowers. A Comfey adorned with flowers is a happy Comfey, and the flowers gain healing effects."
+	},
+
 	name: {
 		en: "Comfey",
 		fr: "Guérilande",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "sui",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [764],
 	hp: 70,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -59,7 +64,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907684,
+				tcgplayer: 716473
+			}
+		}
+	],
 }
 
 export default card

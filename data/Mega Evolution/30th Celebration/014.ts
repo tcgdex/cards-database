@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "This legendary Pokémon can scorch the world with fire. It helps those who want to build a world of truth."
+	},
+
 	name: {
 		en: "Reshiram",
 		fr: "Reshiram",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Uta",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [643],
 	hp: 130,
 	types: ["Fire"],
 	stage: "Basic",
@@ -60,7 +65,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907620,
+				tcgplayer: 716447
+			}
+		}
+	],
 }
 
 export default card

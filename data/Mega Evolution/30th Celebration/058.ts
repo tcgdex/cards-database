@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "This selfish, attention-seeking Pokémon stores poison and electricity in two different sacs inside its body."
+	},
+
 	name: {
 		en: "Toxel",
 		fr: "Toxizap",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Shimaris Yukichi",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [848],
 	hp: 70,
 	types: ["Lightning"],
 	stage: "Basic",
@@ -39,7 +44,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907665,
+				tcgplayer: 716457
+			}
+		}
+	],
 }
 
 export default card

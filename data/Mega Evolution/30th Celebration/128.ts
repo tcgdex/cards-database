@@ -16,7 +16,17 @@ const card: Card = {
 	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Trainer",
-	trainerType: "Item"
+	trainerType: "Item",
+	regulationMark: "I",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907735,
+				tcgplayer: 716517
+			}
+		}
+	],
 }
 
 export default card

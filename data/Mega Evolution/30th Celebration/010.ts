@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years."
+	},
+
 	name: {
 		en: "Ninetales",
 		fr: "Feunard",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "kodama",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [38],
 	hp: 110,
 	types: ["Fire"],
 	stage: "Stage1",
@@ -39,7 +44,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907736,
+				tcgplayer: 716444
+			}
+		}
+	],
 }
 
 export default card

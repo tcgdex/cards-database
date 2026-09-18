@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It likes to sing but is not yet good at it. With praise and encouragement, it will get better little by little."
+	},
+
 	name: {
 		en: "Igglybuff",
 		fr: "Toudoudou",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Kanami Ogata",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [174],
 	hp: 30,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -47,7 +52,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 0
+	retreat: 0,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907727,
+				tcgplayer: 716509
+			}
+		}
+	],
 }
 
 export default card

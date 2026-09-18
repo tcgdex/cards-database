@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It has a small stomach. If it isn't constantly eating the seeds it keeps in its pockets, it will get hungry immediately."
+	},
+
 	name: {
 		en: "Morpeko",
 		fr: "Morpeko",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Naoki Saito",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [877],
 	hp: 70,
 	types: ["Lightning"],
 	stage: "Basic",
@@ -59,7 +64,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907668,
+				tcgplayer: 716460
+			}
+		}
+	],
 }
 
 export default card

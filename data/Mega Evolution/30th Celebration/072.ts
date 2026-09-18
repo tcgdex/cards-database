@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Its flat, thin body is always stuck on walls. Its shape appears to have some meaning."
+	},
+
 	name: {
 		en: "Unown",
 		fr: "Zarbi",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "mingo",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [201],
 	hp: 80,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -53,7 +58,17 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907679,
+				tcgplayer: 716468
+			}
+		}
+	],
 }
 
 export default card
