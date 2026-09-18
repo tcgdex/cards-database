@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It fires itself up by striking its scales with force as it dances. Its roar is a battle cry."
+	},
+
 	name: {
 		en: "Hakamo-o",
 		fr: "Écaïd",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Jiro Sasumo",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [783],
 	hp: 90,
 	types: ["Dragon"],
 	stage: "Stage1",
@@ -46,7 +51,17 @@ const card: Card = {
 		cost: ["Lightning", "Fighting"]
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907718,
+				tcgplayer: 716504
+			}
+		}
+	],
 }
 
 export default card

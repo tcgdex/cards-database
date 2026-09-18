@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "After absorbing plenty of sunlight, Cherrim takes this form. It's full of energy while it's like this, and its liveliness will go on until sundown."
+	},
+
 	name: {
 		en: "Cherrim",
 		fr: "Ceriflor",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "takashi shiraishi",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [421],
 	hp: 80,
 	types: ["Grass"],
 	stage: "Stage1",
@@ -59,7 +64,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907613,
+				tcgplayer: 716441
+			}
+		}
+	],
 }
 
 export default card

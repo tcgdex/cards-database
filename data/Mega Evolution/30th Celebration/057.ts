@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It runs as fast as lightning strikes, shredding its opponents with its high-voltage claws."
+	},
+
 	name: {
 		en: "Zeraora",
 		fr: "Zeraora",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Bun Toujo",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [807],
 	hp: 110,
 	types: ["Lightning"],
 	stage: "Basic",
@@ -69,7 +74,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907664,
+				tcgplayer: 696831
+			}
+		}
+	],
 }
 
 export default card

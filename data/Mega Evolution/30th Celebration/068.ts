@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "By keeping still and listening intently, it can tell what is in even wild, fast-moving rivers."
+	},
+
 	name: {
 		en: "Azumarill",
 		fr: "Azumarill",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [184],
 	hp: 130,
 	types: ["Psychic"],
 	stage: "Stage1",
@@ -48,7 +53,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907675,
+				tcgplayer: 716467
+			}
+		}
+	],
 }
 
 export default card

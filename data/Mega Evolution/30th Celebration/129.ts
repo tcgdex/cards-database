@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "As it grew taller and taller, it outgrew its reliance on psychic powers, while within it awakened the power of the sleeping dragon."
+	},
+
 	name: {
 		en: "Alolan Exeggutor",
 		fr: "Noadkoko d'Alola",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "AYUMI ODASHIMA",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [103],
 	hp: 150,
 	types: ["Grass"],
 	stage: "Stage1",
@@ -70,7 +75,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 907737,
+				tcgplayer: 716218
+			}
+		}
+	],
 }
 
 export default card

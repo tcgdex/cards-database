@@ -16,6 +16,7 @@ const card: Card = {
 	illustrator: "Yano Keiji",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
+	dexId: [150],
 	hp: 230,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -74,7 +75,16 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 908353
+			}
+		}
+	],
 }
 
 export default card

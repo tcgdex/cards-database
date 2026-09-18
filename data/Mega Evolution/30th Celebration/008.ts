@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "This Pokémon was born in a special land. It scatters colorful, toxic scales from its wings during battle."
+	},
+
 	name: {
 		en: "Vivillon",
 		fr: "Prismillon",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Jerky",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [666],
 	hp: 120,
 	types: ["Grass"],
 	stage: "Stage2",
@@ -70,7 +75,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907614,
+				tcgplayer: 716442
+			}
+		}
+	],
 }
 
 export default card

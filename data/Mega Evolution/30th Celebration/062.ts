@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "This seems to be the Iron Serpent mentioned in an old book. The Iron Serpent is said to have turned the land to ash with its lightning."
+	},
+
 	name: {
 		en: "Miraidon",
 		fr: "Miraidon",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Kazumasa Yasukuni",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [1008],
 	hp: 120,
 	types: ["Lightning"],
 	stage: "Basic",
@@ -60,7 +65,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907669,
+				tcgplayer: 716461
+			}
+		}
+	],
 }
 
 export default card

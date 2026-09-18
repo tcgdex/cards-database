@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Its ability to deflect any attack led to it being known as the Fighting Master's Shield. It was feared and respected by all."
+	},
+
 	name: {
 		en: "Zamazenta",
 		fr: "Zamazenta",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Tsuyoshi Nagano",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [889],
 	hp: 130,
 	types: ["Metal"],
 	stage: "Basic",
@@ -74,7 +79,17 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907714,
+				tcgplayer: 716500
+			}
+		}
+	],
 }
 
 export default card

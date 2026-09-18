@@ -16,6 +16,7 @@ const card: Card = {
 	illustrator: "AKIRA EGAWA",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
+	dexId: [385],
 	hp: 160,
 	types: ["Metal"],
 	stage: "Basic",
@@ -74,7 +75,17 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 907759,
+				tcgplayer: 716232
+			}
+		}
+	],
 }
 
 export default card

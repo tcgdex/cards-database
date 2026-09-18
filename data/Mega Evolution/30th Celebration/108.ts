@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It has a sturdy body made up of stacked coins. Gholdengo overwhelms its enemies by firing coin after coin at them in quick succession."
+	},
+
 	name: {
 		en: "Gholdengo",
 		fr: "Gromago",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Sanosuke Sakuma",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [1000],
 	hp: 130,
 	types: ["Metal"],
 	stage: "Stage1",
@@ -73,7 +78,17 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907715,
+				tcgplayer: 716501
+			}
+		}
+	],
 }
 
 export default card

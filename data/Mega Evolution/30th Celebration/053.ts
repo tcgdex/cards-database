@@ -16,6 +16,7 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [25],
 	hp: 190,
 	types: ["Lightning"],
 	stage: "Basic",
@@ -69,7 +70,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 907660,
+				tcgplayer: 712951
+			}
+		}
+	],
 }
 
 export default card

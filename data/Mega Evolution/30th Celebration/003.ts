@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It flashes the light on its rear to communicate with other Volbeat. It loves the sweet aroma given off by Illumise."
+	},
+
 	name: {
 		en: "Volbeat",
 		fr: "Muciole",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Yoriyuki Ikegami",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [313],
 	hp: 80,
 	types: ["Grass"],
 	stage: "Basic",
@@ -59,7 +64,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907609,
+				tcgplayer: 716437
+			}
+		}
+	],
 }
 
 export default card

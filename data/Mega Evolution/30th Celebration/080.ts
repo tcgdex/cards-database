@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Known as the Beast That Calls the Moon, this Pokémon lives by taking in any and all light and converting it into its own energy."
+	},
+
 	name: {
 		en: "Lunala",
 		fr: "Lunala",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Bun Toujo",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [792],
 	hp: 160,
 	types: ["Psychic"],
 	stage: "Stage2",
@@ -65,7 +70,17 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907687,
+				tcgplayer: 716476
+			}
+		}
+	],
 }
 
 export default card

@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It can freely recombine its own cellular structure to transform into other life-forms."
+	},
+
 	name: {
 		en: "Ditto",
 		fr: "Métamorph",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Toshinao Aoki",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [132],
 	hp: 70,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -47,7 +52,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907722,
+				tcgplayer: 716507
+			}
+		}
+	],
 }
 
 export default card

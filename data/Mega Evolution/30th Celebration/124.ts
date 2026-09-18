@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It feeds on dust in the atmosphere. The color of its core is said to be determined by the composition of the dust it eats."
+	},
+
 	name: {
 		en: "Minior",
 		fr: "Météno",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "ryoma uratsuka",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [774],
 	hp: 90,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -52,7 +57,17 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907731,
+				tcgplayer: 716513
+			}
+		}
+	],
 }
 
 export default card

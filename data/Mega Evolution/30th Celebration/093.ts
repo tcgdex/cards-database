@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "If spotted, it will lure an unwary person into chasing it, then lose the pursuer on mountain trails."
+	},
+
 	name: {
 		en: "Murkrow",
 		fr: "Cornèbre",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [198],
 	hp: 80,
 	types: ["Darkness"],
 	stage: "Basic",
@@ -53,7 +58,17 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907700,
+				tcgplayer: 716486
+			}
+		}
+	],
 }
 
 export default card

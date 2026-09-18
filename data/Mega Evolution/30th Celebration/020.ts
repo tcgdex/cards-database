@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It is said to live in a gap in the spatial dimension parallel to ours. It appears in mythology."
+	},
+
 	name: {
 		en: "Palkia",
 		fr: "Palkia",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "kawayoo",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [484],
 	hp: 130,
 	types: ["Water"],
 	stage: "Basic",
@@ -48,7 +53,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907627,
+				tcgplayer: 716453
+			}
+		}
+	],
 }
 
 export default card

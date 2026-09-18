@@ -21,7 +21,16 @@ const card: Card = {
 	types: ["Psychic"],
 	stage: "Basic",
 	suffix: "Legend",
-	retreat: 0
+	retreat: 0,
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 907954,
+				tcgplayer: 716199
+			}
+		}
+	],
 }
 
 export default card

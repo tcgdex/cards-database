@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "A legend says that its body glows in seven colors. A rainbow is said to form behind it when it flies."
+	},
+
 	name: {
 		en: "Ho-Oh",
 		fr: "Ho-Oh",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Anesaki Dynamic",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [250],
 	hp: 130,
 	types: ["Fire"],
 	stage: "Basic",
@@ -59,7 +64,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907618,
+				tcgplayer: 716446
+			}
+		}
+	],
 }
 
 export default card

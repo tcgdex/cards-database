@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Because of the way it floats aimlessly, an old folktale calls it a “signpost for wandering spirits.”"
+	},
+
 	name: {
 		en: "Drifloon",
 		fr: "Baudrive",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Whisker",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [425],
 	hp: 70,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -53,7 +58,17 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 907744,
+				tcgplayer: 696684
+			}
+		}
+	],
 }
 
 export default card

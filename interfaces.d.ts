@@ -245,6 +245,8 @@ export interface Card {
 			| 'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
 			| 'Promo' | 'Prism Star'
 			| 'Pikachu Rare' | 'Futuristic Rare'
+			// the red/green/blue Mew prints of 30th Celebration
+			| 'RGB Rare'
 
 	/**
 	 * Card Category

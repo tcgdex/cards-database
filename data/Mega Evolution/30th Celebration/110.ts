@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "They communicate with their allies using the sounds their scales make when struck. A group of these Pokémon causes quite a racket."
+	},
+
 	name: {
 		en: "Jangmo-o",
 		fr: "Bébécaille",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "miki kudo",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [782],
 	hp: 70,
 	types: ["Dragon"],
 	stage: "Basic",
@@ -54,7 +59,17 @@ const card: Card = {
 		cost: ["Lightning", "Fighting"]
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907717,
+				tcgplayer: 716503
+			}
+		}
+	],
 }
 
 export default card

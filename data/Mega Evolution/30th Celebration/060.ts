@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "The jolts of electricity it launches by violently strumming the protrusions on its chest easily exceed 15,000 volts."
+	},
+
 	name: {
 		en: "Toxtricity",
 		fr: "Salarsen",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Yuriko Akase",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [849],
 	hp: 140,
 	types: ["Lightning"],
 	stage: "Stage1",
@@ -60,7 +65,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907667,
+				tcgplayer: 716459
+			}
+		}
+	],
 }
 
 export default card

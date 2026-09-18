@@ -73,7 +73,16 @@ const card: Card = {
 		type: "Psychic"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 907955,
+				tcgplayer: 716200
+			}
+		}
+	],
 }
 
 export default card

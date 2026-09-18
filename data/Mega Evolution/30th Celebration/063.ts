@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Created from the DNA of Mew, this Pokémon is a dangerous combination of overwhelming power and a savage heart."
+	},
+
 	name: {
 		en: "Mewtwo",
 		fr: "Mewtwo",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "nagimiso",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [150],
 	hp: 130,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -73,7 +78,17 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907670,
+				tcgplayer: 716462
+			}
+		}
+	],
 }
 
 export default card

@@ -16,6 +16,7 @@ const card: Card = {
 	illustrator: "You Iribi",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
+	dexId: [700],
 	hp: 270,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -49,7 +50,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 907758,
+				tcgplayer: 716231
+			}
+		}
+	],
 }
 
 export default card

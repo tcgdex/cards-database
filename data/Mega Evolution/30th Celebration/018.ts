@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It's said that this Pokémon's beautiful blue wings are made of ice. Articuno flies over snowy mountains, its long tail fluttering along behind it."
+	},
+
 	name: {
 		en: "Articuno",
 		fr: "Artikodin",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "HYOGONOSUKE",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [144],
 	hp: 120,
 	types: ["Water"],
 	stage: "Basic",
@@ -69,7 +74,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907624,
+				tcgplayer: 716451
+			}
+		}
+	],
 }
 
 export default card

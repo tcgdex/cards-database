@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "The vibrating of the bumps all over its body causes earthquake-like tremors. Seismitoad and Croagunk are similar species."
+	},
+
 	name: {
 		en: "Seismitoad",
 		fr: "Crapustule",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Kurata So",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [537],
 	hp: 160,
 	types: ["Fighting"],
 	stage: "Stage2",
@@ -60,7 +65,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 3
+	retreat: 3,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907691,
+				tcgplayer: 716480
+			}
+		}
+	],
 }
 
 export default card

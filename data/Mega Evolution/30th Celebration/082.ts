@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Groudon is said to have expanded the reach of dry land by evaporating water with raging heat. It battled ferociously against Kyogre."
+	},
+
 	name: {
 		en: "Groudon",
 		fr: "Groudon",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Takumi Wada",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [383],
 	hp: 140,
 	types: ["Fighting"],
 	stage: "Basic",
@@ -48,7 +53,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907689,
+				tcgplayer: 716478
+			}
+		}
+	],
 }
 
 export default card

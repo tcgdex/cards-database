@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "With its disheveled white fur, it looks like an embodiment of death. Heedless of its own safety, Zoroark attacks its nemeses with a bitter energy so intense, it lacerates Zoroark's own body."
+	},
+
 	name: {
 		en: "Hisuian Zoroark",
 		fr: "Zoroark de Hisui",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Kamome Shirahama",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [571],
 	hp: 120,
 	types: ["Colorless"],
 	stage: "Stage1",
@@ -59,7 +64,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907730,
+				tcgplayer: 716512
+			}
+		}
+	],
 }
 
 export default card

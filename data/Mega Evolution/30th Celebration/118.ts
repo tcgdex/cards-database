@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions."
+	},
+
 	name: {
 		en: "Eevee",
 		fr: "Évoli",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Hitoshi Ariga",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [133],
 	hp: 70,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -48,7 +53,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907725,
+				tcgplayer: 696833
+			}
+		}
+	],
 }
 
 export default card
