@@ -241,6 +241,10 @@ export interface Card {
 			| 'Triple Rare'
 			// Japanese Character Rares (since SM11b Dream League)
 			| 'Character Rare' | 'Character Super Rare'
+			// Japanese Futuristic Rare (since M6a 30th Celebration)
+			| 'Futuristic Rare'
+			// Japanese RGB Rare — the red/green/blue Mew prints of M6a 30th Celebration
+			| 'RGB Rare'
 			// Pokémon TCG Pocket Rarities
 			| 'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
 			| 'Promo' | 'Prism Star'
