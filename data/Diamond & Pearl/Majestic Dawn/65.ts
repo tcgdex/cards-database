@@ -43,10 +43,12 @@ const card: Card = {
 	attacks: [
 		{
 			name: {
+				en: "Call for Family",
 				de: "Familienruf",
 				fr: "Appel à la famille",
 			},
 			effect: {
+				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward.",
 				de: "Durchsuche dein Deck nach 1 Basis-Pokémon-Karte und lege sie auf diene Bank. Mische dein Deck danach.",
 				fr: "Choisissez dans votre deck un Pokémon de base et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
 			},
@@ -56,11 +58,13 @@ const card: Card = {
 		},
 		{
 			name: {
+				en: "Rip Claw",
 				de: "Reißklaue",
 				fr: "Griffe déchirante",
 			},
 			damage: 10,
 			effect: {
+				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
 				de: "Wirf 1 Münze. Bei 'Kopf' entferne 1 Energie, die an das Verteidigende Pokémon angelegt ist, und lege sie auf den Ablagestapel deines Gegners.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
