@@ -90,32 +90,22 @@ if (cluster.isPrimary) {
 
 	if (!('CI' in process.env)) {
 		// load cache before responsing to requests
+		const { resolve: resolveTcgPlayer, promise: tcgPlayerPromise } = Promise.withResolvers<void>();
+		const { resolve: resolveCardMarket, promise: cardMarketPromise } = Promise.withResolvers<void>();
+		process.on('message', (command: Command) => {
+			switch (command.type) {
+				case 'tcgplayer-update':
+					fillTCGPlayerCache(command.data as any)
+					resolveTcgPlayer();
+					break;
+				case 'cardmarket-update':
+					fillCardMarketDatas(command.data as any)
+					resolveCardMarket();
+					break;
+			}
+		});
 		// @ts-expect-error f*ck off
-		await new Promise<void>((res) => {
-			let oneDone = false
-			process.on('message', (command: Command) => {
-				switch (command.type) {
-					case 'tcgplayer-update': {
-						fillTCGPlayerCache(command.data as any)
-						if (oneDone) {
-							res()
-						} else {
-							oneDone = true
-						}
-						break
-					}
-					case 'cardmarket-update': {
-						fillCardMarketDatas(command.data as any)
-						if (oneDone) {
-							res()
-						} else {
-							oneDone = true
-						}
-						break
-					}
-				}
-			})
-		})
+		await Promise.all([tcgPlayerPromise, cardMarketPromise]);
 	}
 
 	// Current API version
