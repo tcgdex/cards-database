@@ -89,7 +89,6 @@ if (cluster.isPrimary) {
 } else {
 
 	if (!('CI' in process.env)) {
-		// load cache before responsing to requests
 		const { resolve: resolveTcgPlayer, promise: tcgPlayerPromise } = Promise.withResolvers<void>();
 		const { resolve: resolveCardMarket, promise: cardMarketPromise } = Promise.withResolvers<void>();
 		process.on('message', (command: Command) => {
@@ -104,6 +103,7 @@ if (cluster.isPrimary) {
 					break;
 			}
 		});
+		// ensure cache is loaded before responsing to requests
 		// @ts-expect-error f*ck off
 		await Promise.all([tcgPlayerPromise, cardMarketPromise]);
 	}
