@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "In myths, this Pokémon expanded the seas with torrential rains and great tsunamis. It battled ferociously against Groudon."
+	},
+
 	name: {
 		en: "Kyogre",
 		fr: "Kyogre",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Tonji Matsuno",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [382],
 	hp: 140,
 	types: ["Water"],
 	stage: "Basic",
@@ -48,7 +53,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907625,
+				tcgplayer: 716452
+			}
+		}
+	],
 }
 
 export default card

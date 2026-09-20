@@ -16,6 +16,7 @@ const card: Card = {
 	illustrator: "Ryota Murayama",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
+	dexId: [373],
 	hp: 330,
 	types: ["Dragon"],
 	stage: "Basic",
@@ -64,7 +65,17 @@ const card: Card = {
 		cost: ["Fire", "Water"]
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 907760,
+				tcgplayer: 716233
+			}
+		}
+	],
 }
 
 export default card

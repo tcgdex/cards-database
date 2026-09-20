@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It guides Volbeat to draw signs in the night sky. There are scholars who research the meaning of these signs."
+	},
+
 	name: {
 		en: "Illumise",
 		fr: "Lumivole",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Shibuzoh.",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [314],
 	hp: 80,
 	types: ["Grass"],
 	stage: "Basic",
@@ -61,7 +66,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907610,
+				tcgplayer: 716438
+			}
+		}
+	],
 }
 
 export default card

@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Each has the ability to fool a large group of people simultaneously. They protect their lair with illusory scenery."
+	},
+
 	name: {
 		en: "Zoroark",
 		fr: "Zoroark",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Shiburingaru",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [571],
 	hp: 120,
 	types: ["Darkness"],
 	stage: "Stage1",
@@ -61,7 +66,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907703,
+				tcgplayer: 716489
+			}
+		}
+	],
 }
 
 export default card

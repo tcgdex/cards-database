@@ -17,7 +17,16 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	rarity: "None",
 	category: "Trainer",
-	trainerType: "Supporter"
+	trainerType: "Supporter",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 907941,
+				tcgplayer: 716159
+			}
+		}
+	],
 }
 
 export default card

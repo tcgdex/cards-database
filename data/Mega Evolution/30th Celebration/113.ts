@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It loves things that sparkle. When it sees a shiny object, the gold coin on its head shines, too."
+	},
+
 	name: {
 		en: "Meowth",
 		fr: "Miaouss",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "MINAMINAMI Take",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [52],
 	hp: 60,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -48,7 +53,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907720,
+				tcgplayer: 714356
+			}
+		}
+	],
 }
 
 export default card

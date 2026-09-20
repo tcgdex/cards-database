@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "When the horns on its head shine in seven colors, it is said to be sharing everlasting life."
+	},
+
 	name: {
 		en: "Xerneas",
 		fr: "Xerneas",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "kodama",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [716],
 	hp: 120,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -59,7 +64,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907683,
+				tcgplayer: 716472
+			}
+		}
+	],
 }
 
 export default card

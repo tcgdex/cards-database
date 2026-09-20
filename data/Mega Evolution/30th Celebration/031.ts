@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It has small electric sacs on both its cheeks. When in a tough spot, this Pokémon discharges electricity."
+	},
+
 	name: {
 		en: "Pikachu",
 		fr: "Pikachu",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Atsushi Furusawa",
 	rarity: "Pikachu Rare",
 	category: "Pokemon",
+	dexId: [25],
 	hp: 50,
 	types: ["Lightning"],
 	stage: "Basic",
@@ -39,7 +44,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 0
+	retreat: 0,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 907638,
+				tcgplayer: 716312
+			}
+		}
+	],
 }
 
 export default card

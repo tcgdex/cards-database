@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It uses the fine fur on its body to sense movement in the air and predict the weather...as well as its foes' thoughts."
+	},
+
 	name: {
 		en: "Espeon",
 		fr: "Mentali",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "aspara",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [196],
 	hp: 110,
 	types: ["Psychic"],
 	stage: "Stage1",
@@ -64,7 +69,17 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907676,
+				tcgplayer: 696678
+			}
+		}
+	],
 }
 
 export default card

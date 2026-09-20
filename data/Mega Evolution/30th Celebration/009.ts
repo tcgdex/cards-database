@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "As its body grows larger, its six warm tails become more beautiful, with a more luxurious coat of fur."
+	},
+
 	name: {
 		en: "Vulpix",
 		fr: "Goupix",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "miki kudo",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [37],
 	hp: 70,
 	types: ["Fire"],
 	stage: "Basic",
@@ -48,7 +53,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907615,
+				tcgplayer: 716443
+			}
+		}
+	],
 }
 
 export default card

@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Using telepathy only fellow Exeggcute can pick up on, they always form a cluster of six."
+	},
+
 	name: {
 		en: "Exeggcute",
 		fr: "Noeunoeuf",
@@ -17,6 +21,7 @@ const card: Card = {
 	illustrator: "Nelnal",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [102],
 	hp: 60,
 	types: ["Grass"],
 	stage: "Basic",
@@ -50,7 +55,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907607,
+				tcgplayer: 716435
+			}
+		}
+	],
 }
 
 export default card

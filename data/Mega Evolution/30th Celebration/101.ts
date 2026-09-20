@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Living with a savage, seafaring people has toughened this Pokémon's body so much that parts of it have turned to iron."
+	},
+
 	name: {
 		en: "Galarian Meowth",
 		fr: "Miaouss de Galar",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Mékayu",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [52],
 	hp: 70,
 	types: ["Metal"],
 	stage: "Basic",
@@ -74,7 +79,17 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907708,
+				tcgplayer: 716494
+			}
+		}
+	],
 }
 
 export default card

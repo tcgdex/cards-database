@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Able to cut down anything with a single strike, it became known as the Fairy King's Sword, and it inspired awe in friend and foe alike."
+	},
+
 	name: {
 		en: "Zacian",
 		fr: "Zacian",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "AKIRA EGAWA",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [888],
 	hp: 130,
 	types: ["Metal"],
 	stage: "Basic",
@@ -74,7 +79,17 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907713,
+				tcgplayer: 716499
+			}
+		}
+	],
 }
 
 export default card

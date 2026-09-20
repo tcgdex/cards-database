@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It's accustomed to luxury because it used to live with Alolan royalty. As a result, it's very picky about food."
+	},
+
 	name: {
 		en: "Alolan Meowth",
 		fr: "Miaouss d'Alola",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "OKUBO",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [52],
 	hp: 60,
 	types: ["Darkness"],
 	stage: "Basic",
@@ -47,7 +52,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 907747,
+				tcgplayer: 714360
+			}
+		}
+	],
 }
 
 export default card

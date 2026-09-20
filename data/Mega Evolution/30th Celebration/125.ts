@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "The larger pair protects the little ones during battles. When facing strong opponents, the whole group will join the fight."
+	},
+
 	name: {
 		en: "Maushold",
 		fr: "Famignol",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Kariya",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [925],
 	hp: 80,
 	types: ["Colorless"],
 	stage: "Stage1",
@@ -59,7 +64,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907732,
+				tcgplayer: 716514
+			}
+		}
+	],
 }
 
 export default card

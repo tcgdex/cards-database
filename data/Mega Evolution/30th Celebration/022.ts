@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Individually, they're incredibly weak. It's by gathering up into schools that they're able to confront opponents."
+	},
+
 	name: {
 		en: "Wishiwashi",
 		fr: "Froussardine",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Narano",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [746],
 	hp: 30,
 	types: ["Water"],
 	stage: "Basic",
@@ -70,7 +75,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907629,
+				tcgplayer: 716454
+			}
+		}
+	],
 }
 
 export default card

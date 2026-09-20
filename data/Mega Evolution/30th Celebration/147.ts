@@ -16,6 +16,7 @@ const card: Card = {
 	illustrator: "Atsushi Furusawa",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
+	dexId: [909],
 	hp: 210,
 	types: ["Fire"],
 	stage: "Basic",
@@ -69,7 +70,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 907754,
+				tcgplayer: 716229
+			}
+		}
+	],
 }
 
 export default card

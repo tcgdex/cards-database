@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Able to understand human speech and very intelligent, it loves to swim in the sea with people on its back."
+	},
+
 	name: {
 		en: "Lapras",
 		fr: "Lokhlass",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Amelicart",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [131],
 	hp: 130,
 	types: ["Water"],
 	stage: "Basic",
@@ -68,7 +73,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 907739,
+				tcgplayer: 696683
+			}
+		}
+	],
 }
 
 export default card

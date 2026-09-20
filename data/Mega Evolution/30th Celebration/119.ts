@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Its stomach's digestive juices can dissolve any kind of poison. Eating things off the ground doesn't bother it at all."
+	},
+
 	name: {
 		en: "Snorlax",
 		fr: "Ronflex",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Aya Kusube",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [143],
 	hp: 160,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -70,7 +75,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907726,
+				tcgplayer: 716508
+			}
+		}
+	],
 }
 
 export default card

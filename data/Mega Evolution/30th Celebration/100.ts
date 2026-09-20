@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It's said that when its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more."
+	},
+
 	name: {
 		en: "Yveltal",
 		fr: "Yveltal",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "hncl",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [717],
 	hp: 120,
 	types: ["Darkness"],
 	stage: "Basic",
@@ -66,7 +71,17 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907707,
+				tcgplayer: 716493
+			}
+		}
+	],
 }
 
 export default card

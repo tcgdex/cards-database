@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "A Pokémon spoken of in legend. It is said that time began moving when Dialga was born."
+	},
+
 	name: {
 		en: "Dialga",
 		fr: "Dialga",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "toriyufu",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [483],
 	hp: 130,
 	types: ["Metal"],
 	stage: "Basic",
@@ -64,7 +69,17 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907710,
+				tcgplayer: 716496
+			}
+		}
+	],
 }
 
 export default card

@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "The two heads have different likes and dislikes. Because the heads fight with each other, Zweilous gets stronger without needing to rely on others."
+	},
+
 	name: {
 		en: "Zweilous",
 		fr: "Diamat",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "IKEDA Saki",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [634],
 	hp: 100,
 	types: ["Darkness"],
 	stage: "Stage1",
@@ -51,7 +56,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907705,
+				tcgplayer: 716491
+			}
+		}
+	],
 }
 
 export default card

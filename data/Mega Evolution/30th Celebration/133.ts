@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "This Pokémon has complete control over electricity. There are tales of Zapdos nesting in the dark depths of pitch-black thunderclouds."
+	},
+
 	name: {
 		en: "Zapdos",
 		fr: "Électhor",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "mashu",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [145],
 	hp: 120,
 	types: ["Lightning"],
 	stage: "Basic",
@@ -70,7 +75,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 907741,
+				tcgplayer: 716221
+			}
+		}
+	],
 }
 
 export default card

@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It nimbly dashes about to avoid getting pecked by bird Pokémon that would love to make off with its small, nutrient-rich storage ball."
+	},
+
 	name: {
 		en: "Cherubi",
 		fr: "Ceribou",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Kurata So",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [420],
 	hp: 40,
 	types: ["Grass"],
 	stage: "Basic",
@@ -59,7 +64,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907612,
+				tcgplayer: 716440
+			}
+		}
+	],
 }
 
 export default card

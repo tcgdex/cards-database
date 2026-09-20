@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "It's one of the legendary bird Pokémon. When Moltres flaps its flaming wings, they glimmer with a dazzling red glow."
+	},
+
 	name: {
 		en: "Moltres",
 		fr: "Sulfura",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "mashu",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [146],
 	hp: 120,
 	types: ["Fire"],
 	stage: "Basic",
@@ -70,7 +75,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 907738,
+				tcgplayer: 716219
+			}
+		}
+	],
 }
 
 export default card

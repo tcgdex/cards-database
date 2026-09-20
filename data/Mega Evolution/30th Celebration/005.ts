@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Delicious fruits grew out from around its neck because it always ate the same kind of fruit."
+	},
+
 	name: {
 		en: "Tropius",
 		fr: "Tropius",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Minahamu",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [357],
 	hp: 120,
 	types: ["Grass"],
 	stage: "Basic",
@@ -60,7 +65,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907611,
+				tcgplayer: 716439
+			}
+		}
+	],
 }
 
 export default card

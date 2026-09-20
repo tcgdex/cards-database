@@ -4,6 +4,10 @@ import Set from "../30th Celebration"
 const card: Card = {
 	set: Set,
 
+	description: {
+		en: "Solgaleo was once known as the Beast That Devours the Sun. Energy in the form of light radiates boundlessly from it."
+	},
+
 	name: {
 		en: "Solgaleo",
 		fr: "Solgaleo",
@@ -16,6 +20,7 @@ const card: Card = {
 	illustrator: "Nurikabe",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [791],
 	hp: 170,
 	types: ["Metal"],
 	stage: "Stage2",
@@ -75,7 +80,17 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	retreat: 2
+	retreat: 2,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 907712,
+				tcgplayer: 716498
+			}
+		}
+	],
 }
 
 export default card
