@@ -13,7 +13,7 @@ const card: Card = {
 		it: "Umbreon-ex",
 		de: "Nachtara-ex"
 	},
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Darkness"],

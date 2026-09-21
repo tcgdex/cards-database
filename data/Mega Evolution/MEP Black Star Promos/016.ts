@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Oswaldo KATO",
-  	rarity: "Promo",
+  	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fighting"],

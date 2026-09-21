@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Regigigas"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Colorless"],

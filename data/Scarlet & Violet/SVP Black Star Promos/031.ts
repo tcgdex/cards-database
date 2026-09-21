@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Granforgita-ex"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 300,
 	types: ["Psychic"],

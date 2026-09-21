@@ -49,7 +49,7 @@ const card: Card = {
 		it: "Mewtwo V UNIONE"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	hp: 310,
 	types: ["Psychic"],
 

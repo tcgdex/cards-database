@@ -16,7 +16,7 @@ const card: Card = {
 		it: "Dragapult V"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	dexId: [887],
 	hp: 210,
 	types: ["Psychic"],

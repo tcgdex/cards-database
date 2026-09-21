@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Megumi Higuchi",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Water"],

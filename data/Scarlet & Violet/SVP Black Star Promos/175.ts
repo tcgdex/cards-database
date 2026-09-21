@@ -13,7 +13,7 @@ const card: Card = {
 		it: "Espeon-ex",
 		de: "Psiana-ex"
 	},
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 270,
 	types: ["Psychic"],

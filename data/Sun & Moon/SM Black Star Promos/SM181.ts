@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "TOKIYA",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Metal"],

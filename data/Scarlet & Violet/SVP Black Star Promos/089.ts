@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Impergator"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Water"],

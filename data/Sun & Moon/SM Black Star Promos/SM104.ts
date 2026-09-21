@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Solgaleo GX"
 	},
 	illustrator: "PLANETA",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

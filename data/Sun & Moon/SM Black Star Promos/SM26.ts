@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Fruyal"
 	},
 	illustrator: "Naoki Saito",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

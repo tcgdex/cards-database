@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Apios",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Darkness"],

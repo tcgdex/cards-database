@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "You Iribi",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Fire"],

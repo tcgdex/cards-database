@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Tortunator"
 	},
 	illustrator: "TOKIYA",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

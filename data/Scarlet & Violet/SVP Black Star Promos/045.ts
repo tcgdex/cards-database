@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Paradies Resort"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Trainer",
 
 	effect: {

@@ -19,7 +19,7 @@ const card: Card = {
 	suffix: "ex",
 	illustrator: "Natsuko Shoji été",
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Colorless"],

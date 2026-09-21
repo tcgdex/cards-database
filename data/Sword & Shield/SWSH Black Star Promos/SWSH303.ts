@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Julie Hang",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Grass"],

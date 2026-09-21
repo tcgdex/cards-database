@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Gladimperio"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Darkness"],

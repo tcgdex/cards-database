@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Kleavor VSTAR"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 270,
 	types: ["Fighting"],

@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Framestore",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	set: Set,
 

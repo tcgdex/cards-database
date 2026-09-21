@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Epitaff-ex"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 320,
 	types: ["Fighting"],

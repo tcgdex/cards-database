@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Boltund V"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Lightning"],

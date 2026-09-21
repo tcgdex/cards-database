@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Alolan Exeggutor V"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 240,
 	types: ["Grass"],

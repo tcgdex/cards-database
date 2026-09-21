@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Krokel"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fire"],

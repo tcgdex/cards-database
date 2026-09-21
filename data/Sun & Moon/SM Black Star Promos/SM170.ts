@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Meisterdetektiv Pikachu"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Lightning"],

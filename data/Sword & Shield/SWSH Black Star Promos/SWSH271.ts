@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Kirlia"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Psychic"],

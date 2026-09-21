@@ -25,7 +25,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kazumasa Yasukuni",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Water"],

@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Articuno di Galar"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	dexId: [144],
 	hp: 120,
 	types: ["Psychic"],

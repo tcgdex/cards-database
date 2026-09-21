@@ -17,7 +17,7 @@ const card: Card = {
 		it: "Calyrex Cavaliere Spettrale V"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	hp: 210,
 	types: ["Psychic"],
 

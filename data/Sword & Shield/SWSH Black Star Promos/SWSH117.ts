@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Phanpy"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	dexId: [231],
 	hp: 70,
 	types: ["Fighting"],

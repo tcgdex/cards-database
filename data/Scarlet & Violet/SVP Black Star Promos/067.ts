@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Donnersichel-ex"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 230,
 	types: ["Darkness"],

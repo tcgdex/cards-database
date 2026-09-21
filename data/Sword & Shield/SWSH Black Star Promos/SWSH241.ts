@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Gengar"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Psychic"],

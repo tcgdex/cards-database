@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Eisenfels-ex"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 240,
 	types: ["Fighting"],

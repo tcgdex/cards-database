@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Togekiss"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Psychic"],

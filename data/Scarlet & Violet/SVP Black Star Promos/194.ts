@@ -19,7 +19,7 @@ const card: Card = {
 	suffix: "ex",
 	illustrator: "PLANETA Mochizuki",
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Lightning"],

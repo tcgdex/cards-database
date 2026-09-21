@@ -7,7 +7,7 @@ const card: Card = {
 	name: {
 		en: "Terapagos & Friends",
 	},
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	types: ["Colorless"],
 	hp: 90,

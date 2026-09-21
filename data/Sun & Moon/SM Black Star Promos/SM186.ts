@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Flamara"
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

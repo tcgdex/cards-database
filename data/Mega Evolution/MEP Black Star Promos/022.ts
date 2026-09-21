@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Teeziro",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Fire"],

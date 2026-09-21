@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA Mochizuki",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	stage: "Basic",
 

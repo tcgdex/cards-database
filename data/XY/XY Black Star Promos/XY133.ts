@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Sachanobi EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

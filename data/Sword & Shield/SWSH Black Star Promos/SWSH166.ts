@@ -41,7 +41,7 @@ const card: Card = {
 		it: "Zacian V UNIONE"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	hp: 320,
 	types: ["Metal"],
 

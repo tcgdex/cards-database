@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "kirisAki",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],

@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Knattox"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Metal"],

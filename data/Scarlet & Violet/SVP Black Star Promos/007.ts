@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Resladero"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Fighting"],

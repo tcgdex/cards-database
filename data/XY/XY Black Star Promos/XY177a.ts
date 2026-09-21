@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "You Iribi",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Trainer",
 	set: Set,
 	trainerType: "Supporter",

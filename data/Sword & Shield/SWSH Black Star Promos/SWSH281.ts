@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Regidrago V"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Dragon"],

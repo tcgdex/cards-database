@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Lokhlass"
 	},
 	illustrator: "Masakazu Fukuda",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

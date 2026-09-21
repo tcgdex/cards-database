@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "0313",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Water"],

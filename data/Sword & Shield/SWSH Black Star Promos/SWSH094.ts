@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Yuu Nishida",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Lightning"],

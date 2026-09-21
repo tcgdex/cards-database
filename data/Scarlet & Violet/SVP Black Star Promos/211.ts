@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "IKEDA Saki",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	dexId: [576],
 	hp: 150,

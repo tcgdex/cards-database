@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Bailonda"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Water"],

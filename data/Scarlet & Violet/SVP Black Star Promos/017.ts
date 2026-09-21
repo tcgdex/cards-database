@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Lucario-ex"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 260,
 	types: ["Fighting"],

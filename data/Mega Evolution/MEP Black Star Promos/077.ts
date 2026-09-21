@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "okayamatakatoshi",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Dragon"],

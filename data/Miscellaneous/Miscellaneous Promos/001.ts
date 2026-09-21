@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Ancient Mew",
 	},
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "satoma",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	dexId: [579],
 	hp: 140,

@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shimaris Yukichi",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],

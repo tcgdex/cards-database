@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Mimigma-ex"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Psychic"],

@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "Suicune"
 	},
 	illustrator: "Hideaki Hakozaki",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

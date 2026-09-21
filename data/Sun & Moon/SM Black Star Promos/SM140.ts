@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Brutalanda"
 	},
 	illustrator: "kawayoo",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shiburingaru",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	dexId: [888],
 	hp: 130,

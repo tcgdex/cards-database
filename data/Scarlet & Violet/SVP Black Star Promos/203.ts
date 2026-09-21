@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Saboteri",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	dexId: [202],
 	hp: 110,

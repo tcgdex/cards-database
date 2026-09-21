@@ -25,7 +25,7 @@ const card: Card = {
 	},
 
 	illustrator: "Krgc",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	dexId: [849],
 	hp: 140,

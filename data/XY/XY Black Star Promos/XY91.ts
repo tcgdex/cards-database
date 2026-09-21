@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Naoki Saito",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Trainer",
 	set: Set,
 

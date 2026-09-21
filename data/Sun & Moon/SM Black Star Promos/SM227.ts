@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "2019 Pikachu Project",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Lightning"],

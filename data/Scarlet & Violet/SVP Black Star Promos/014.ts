@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Koraidon"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fighting"],

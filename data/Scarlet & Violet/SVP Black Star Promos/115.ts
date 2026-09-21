@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Chimstix"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Grass"],

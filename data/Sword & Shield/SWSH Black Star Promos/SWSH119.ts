@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Snorlax"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	dexId: [143],
 	hp: 140,
 	types: ["Colorless"],

@@ -24,7 +24,7 @@ const card: Card = {
 		it: "Poké Ball"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Trainer",
 	types: ["Lightning"],
 

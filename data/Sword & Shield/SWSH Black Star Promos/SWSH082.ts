@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Bunnelby"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	dexId: [659],
 	hp: 40,
 	types: ["Colorless"],

@@ -16,7 +16,7 @@ const card: Card = {
 		it: "Eldegoss V"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	dexId: [830],
 	hp: 180,
 	types: ["Grass"],

@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "DOM",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Lightning"],

@@ -10,7 +10,7 @@ const card: Card = {
 	},
 
 	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Lightning"],

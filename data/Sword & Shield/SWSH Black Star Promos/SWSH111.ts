@@ -16,7 +16,7 @@ const card: Card = {
 		it: "Rapidash di Galar V"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	hp: 210,
 	types: ["Psychic"],
 

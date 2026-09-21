@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Inteleon"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Water"],

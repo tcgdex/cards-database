@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Nidoqueen"
 	},
 	illustrator: "Midori Harada",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

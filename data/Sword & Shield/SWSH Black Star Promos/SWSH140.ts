@@ -14,7 +14,7 @@ const card: Card = {
 		it: "Pikachu V UNIONE"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	stage: "V-UNION",
 

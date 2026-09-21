@@ -17,7 +17,7 @@ const card: Card = {
 
 	illustrator: "Susumu Maeya",
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Darkness"],

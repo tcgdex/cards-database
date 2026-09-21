@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Liberlo-ex"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 320,
 	types: ["Fire"],

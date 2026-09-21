@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Schimmerndes Celebi"
 	},
 	illustrator: "Sanosuke Sakuma",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 
 	set: Set,

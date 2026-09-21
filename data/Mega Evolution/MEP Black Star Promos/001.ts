@@ -25,7 +25,7 @@ const card: Card = {
 	},
 
 	illustrator: "Uninori",
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Grass"],

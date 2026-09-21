@@ -14,7 +14,7 @@ const card: Card = {
 		it: "Jolteon"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Lightning"],

@@ -16,7 +16,7 @@ const card: Card = {
 		it: "Boltund V"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	dexId: [836],
 	hp: 200,
 	types: ["Lightning"],
