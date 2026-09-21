@@ -5,6 +5,10 @@ const card: Card = {
     name: {
         en: "Basic Fighting Energy",
         fr: "Énergie Combat de base",
+		es: "Energía Lucha Básica",
+		de: "Basis-Kampf-Energie",
+		it: "Energia base Lotta",
+		pt: "Energia de Luta"
     },
 
     illustrator: "YOSHIROTTEN",

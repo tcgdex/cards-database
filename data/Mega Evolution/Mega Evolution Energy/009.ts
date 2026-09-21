@@ -5,6 +5,10 @@ const card: Card = {
     name: {
         en: "Basic Grass Energy",
         fr: "Énergie Plante de base",
+		es: "Energía Planta Básica",
+		de: "Basis-Pflanze-Energie",
+		it: "Energia base Erba",
+		pt: "Energia de Grama"
     },
 
     illustrator: "YOSHIROTTEN",

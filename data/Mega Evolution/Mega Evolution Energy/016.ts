@@ -5,6 +5,10 @@ const card: Card = {
     name: {
         en: "Basic Metal Energy",
         fr: "Énergie Métal de base",
+		es: "Energía Metálica Básica",
+		de: "Basis-Metall-Energie",
+		it: "Energia base Metallo",
+		pt: "Energia de Metal"
     },
 
     illustrator: "YOSHIROTTEN",

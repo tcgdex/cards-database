@@ -5,6 +5,10 @@ const card: Card = {
     name: {
         en: "Basic Lightning Energy",
         fr: "Énergie Electrik de base",
+		es: "Energía Rayo Básica",
+		de: "Basis-Elektro-Energie",
+		it: "Energia base Lampo",
+		pt: "Energia de Raios"
     },
 
     illustrator: "YOSHIROTTEN",

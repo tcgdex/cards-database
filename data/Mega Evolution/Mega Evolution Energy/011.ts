@@ -5,6 +5,10 @@ const card: Card = {
     name: {
         en: "Basic Water Energy",
         fr: "Énergie Eau de base",
+		es: "Energía Agua Básica",
+		de: "Basis-Wasser-Energie",
+		it: "Energia base Acqua",
+		pt: "Energia de Água"
     },
 
     illustrator: "YOSHIROTTEN",

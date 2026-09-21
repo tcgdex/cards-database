@@ -5,6 +5,10 @@ const card: Card = {
     name: {
         en: "Basic Darkness Energy",
         fr: "Énergie Obscurité de base",
+		es: "Energía Oscura Básica",
+		de: "Basis-Finsternis-Energie",
+		it: "Energia base Oscurità",
+		pt: "Energia de Escuridão"
     },
 
     illustrator: "YOSHIROTTEN",

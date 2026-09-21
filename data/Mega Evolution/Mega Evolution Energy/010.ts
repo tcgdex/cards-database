@@ -5,6 +5,10 @@ const card: Card = {
     name: {
         en: "Basic Fire Energy",
         fr: "Énergie Feu de base",
+		es: "Energía Fuego Básica",
+		de: "Basis-Feuer-Energie",
+		it: "Energia base Fuoco",
+		pt: "Energia de Fogo"
     },
 
     illustrator: "YOSHIROTTEN",
