@@ -15,7 +15,7 @@ const card: Card = {
 		en: "Morpeko V-UNION"
 	},
 
-	rarity: "Promo",
+	rarity: "Black Star Promo",
 	category: "Pokemon",
 	hp: 310,
 	types: ["Lightning"],
