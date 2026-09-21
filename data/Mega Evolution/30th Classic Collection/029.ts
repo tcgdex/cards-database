@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Naoyo Kimura",
-	rarity: "None",
+	rarity: "Classic Collection",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Colorless"],

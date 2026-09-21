@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Masakazu Fukuda",
-	rarity: "None",
+	rarity: "Classic Collection",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Lightning"],

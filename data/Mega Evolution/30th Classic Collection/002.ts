@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "None",
+	rarity: "Classic Collection",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Colorless"],

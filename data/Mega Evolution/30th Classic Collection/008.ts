@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "None",
+	rarity: "Classic Collection",
 	category: "Pokemon",
 	hp: 240,
 	types: ["Lightning"],

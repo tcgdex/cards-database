@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Makoto Imai",
-	rarity: "None",
+	rarity: "Classic Collection",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Psychic"],

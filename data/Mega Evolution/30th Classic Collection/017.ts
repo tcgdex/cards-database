@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA",
-	rarity: "None",
+	rarity: "Classic Collection",
 	category: "Pokemon",
 	hp: 250,
 	types: ["Metal"],

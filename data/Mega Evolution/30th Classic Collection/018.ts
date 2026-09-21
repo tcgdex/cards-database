@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Takashi Yamaguchi",
-	rarity: "None",
+	rarity: "Classic Collection",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Psychic"],

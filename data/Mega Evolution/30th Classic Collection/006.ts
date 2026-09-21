@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Nakaoka",
-	rarity: "None",
+	rarity: "Classic Collection",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Darkness"],

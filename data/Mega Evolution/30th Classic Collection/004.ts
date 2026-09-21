@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Eske Yoshinob",
-	rarity: "None",
+	rarity: "Classic Collection",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Grass"],
