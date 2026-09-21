@@ -4,6 +4,8 @@ import Set from "../30th Classic Collection"
 const card: Card = {
 	set: Set,
 
+	dexId: [25, 644],
+
 	name: {
 		en: "Pikachu & Zekrom GX",
 		fr: "Pikachu et Zekrom GX",

@@ -4,6 +4,8 @@ import Set from "../30th Classic Collection"
 const card: Card = {
 	set: Set,
 
+	dexId: [384],
+
 	name: {
 		en: "Rayquaza EX",
 		fr: "Rayquaza EX",
