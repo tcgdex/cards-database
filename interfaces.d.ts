@@ -37,7 +37,7 @@ export type VariantStamps = '1st-edition' | 'w-promo' | 'pre-release' | 'pokemon
 	| 'pikachu' | 'bulbasaur' | 'squirtle' | 'charmander' | 'pokeball' | '30th-pokeday' | 'mcdonalds' | 'pokemon-together' | 'rain-city' | 'tournament-collection' | 'fossil-museum'
 	| 'worlds-2024' | 'worlds-2023' | 'worlds-2022' | 'asia-2023-24' | 'thank-you' | 'jr-stamp-rally' | 'grey-star' | 'pop-tournament' | 'chase-moloney' | 'chicago-2009' | 'scrye' | 'inquest-gamer'
 	| 'jesse-parker' | 'gabriel-fernandez' | 'sakuya-ota' | 'shao-tong-yen' | 'poketour-99'
-	| 'jose-cruz-galindo-resendiz'
+	| 'jose-cruz-galindo-resendiz' | '30th-anniversary'
 
 export interface variant_detailed {
 	/**
