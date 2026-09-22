@@ -6,10 +6,6 @@ const card: Card = {
 
 	name: {
 		en: "Slowpoke",
-		es: "Slowpoke",
-		it: "Slowpoke",
-		pt: "Slowpoke",
-		de: "Flegmon"
 	},
 
 	illustrator: "miki kudo",
@@ -25,14 +21,10 @@ const card: Card = {
 
 		name: {
 			en: "Dopey Face",
-			de: "Dösiger Blick",
-			pt: "Rosto Atordoado"
 		},
 
 		effect: {
 			en: "This Pokémon can't be Confused.",
-			de: "Dieses Pokémon kann nicht verwirrt werden.",
-			pt: "Este Pokémon não pode ficar Confuso."
 		}
 	}],
 
@@ -41,10 +33,6 @@ const card: Card = {
 
 		name: {
 			en: "Super Psy Bolt",
-			es: "Superrayo Psi",
-			it: "Superpsico",
-			pt: "Super-raio Psíquico",
-			de: "Super-Psischlag"
 		},
 
 		damage: 50

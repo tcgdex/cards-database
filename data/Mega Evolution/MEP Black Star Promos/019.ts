@@ -6,10 +6,6 @@ const card: Card = {
 
 	name: {
 		en: "Whimsicott",
-		de: "Elfun",
-		it: "Whimsicott",
-		es: "Whimsicott",
-		pt: "Whimsicott"
 	},
 
 	illustrator: "Yuka Tanaka",
@@ -22,10 +18,6 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cottonee",
-		de: "Waumboll",
-		it: "Cottonee",
-		es: "Cottonee",
-		pt: "Cottonee"
 	},
 
 	attacks: [{
@@ -33,38 +25,22 @@ const card: Card = {
 
 		name: {
 			en: "Healing Fluff",
-			de: "Heilender Flausch",
-			it: "Batuffocura",
-			es: "Pelusa Sanadora",
-			pt: "Lanugem Curativa"
 		},
 
 		effect: {
 			en: "Heal all damage from 1 of your Benched Pokémon.",
-			de: "Heile allen Schaden bei 1 Pokémon auf deiner Bank.",
-			it: "Cura uno dei Pokémon nella tua panchina da tutti i danni.",
-			es: "Cura todos los puntos de daño a uno de tus Pokémon en Banca.",
-			pt: "Cure todo o dano de 1 dos seus Pokémon no Banco."
 		}
 	}, {
 		cost: ["Psychic"],
 
 		name: {
 			en: "U-turn",
-			de: "Kehrtwende",
-			it: "Retromarcia",
-			es: "Ida y Vuelta",
-			pt: "Fazer Retorno"
 		},
 
 		damage: 50,
 
 		effect: {
 			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus.",
-			it: "Scambia questo Pokémon con uno nella tua panchina.",
-			es: "Cambia este Pokémon por uno de tus Pokémon en Banca.",
-			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco."
 		}
 	}],
 
