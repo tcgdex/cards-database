@@ -7,7 +7,6 @@ const card: Card = {
 
 	name: {
 		en: "Bellibolt",
-		es: "Bellibolt",
 	},
 
 	rarity: "Promo",
@@ -16,7 +15,6 @@ const card: Card = {
 	types: ["Lightning"],
 	evolveFrom: {
 		en: "Tadbulb",
-		es: "Tadbulb",
 	},
 	stage: "Stage1",
 
@@ -25,24 +23,20 @@ const card: Card = {
 
 		name: {
 			en: "Thunder Wave",
-			es: "Onda Trueno",
 		},
 
 		effect: {
 			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 		}
 	}, {
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		name: {
 			en: "Two-Bump Bolt",
-			es: "Doble Panzazo Eléctrico",
 		},
 
 		effect: {
 			en: "You may discard up to 2 {L} Energy from this Pokémon. This attack does 80 more damage for each card you discarded in this way.",
-			es: "Puedes descartar hasta 2 Energías {L} de este Pokémon. Este ataque hace 80 puntos de daño más por cada carta que hayas descartado de esta manera.",
 		},
 
 		damage: "10+"

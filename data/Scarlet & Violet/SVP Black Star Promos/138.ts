@@ -7,7 +7,6 @@ const card: Card = {
 
 	name: {
 		en: "Porygon2",
-		es: "Porygon2",
 	},
 
 	rarity: "Promo",
@@ -16,7 +15,6 @@ const card: Card = {
 	types: ["Colorless"],
 	evolveFrom: {
 		en: "Porygon",
-		es: "Porygon",
 	},
 	stage: "Stage1",
 
@@ -25,12 +23,10 @@ const card: Card = {
 
 		name: {
 			en: "Powered Ball",
-			es: "Bola Cargada",
 		},
 
 		effect: {
 			en: "Discard an Energy from this Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
 		},
 
 		damage: 50

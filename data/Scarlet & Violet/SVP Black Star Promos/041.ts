@@ -7,7 +7,6 @@ const card: Card = {
 
 	name: {
 		en: "Paldean Wooper",
-		es: "Wooper de Paldea",
 	},
 
 	rarity: "Promo",
@@ -21,19 +20,16 @@ const card: Card = {
 
 		name: {
 			en: "Splattering Poison",
-			es: "Veneno Salpicante",
 		},
 
 		effect: {
 			en: "Both Active Pokémon are now Poisoned.",
-			es: "Ambos Pokémon Activos pasan a estar Envenenados.",
 		}
 	}, {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
 			en: "Tail Whap",
-			es: "Coletón",
 		},
 
 		damage: 30

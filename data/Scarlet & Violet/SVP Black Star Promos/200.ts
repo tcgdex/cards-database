@@ -6,7 +6,6 @@ const card: Card = {
 
 	name: {
 		en: "Eevee",
-		es: "Eevee",
 	},
 
 	illustrator: "Kariya",
@@ -22,19 +21,16 @@ const card: Card = {
 
 		name: {
 			en: "Call for Family",
-			es: "Llamar a la Familia",
 	},
 
 		effect: {
 			en: "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",
-			es: "Busca en tu baraja 1 Pokémon Básico y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
 	}
 	}, {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
 			en: "Gnaw",
-			es: "Roer",
 	},
 
 		damage: 20

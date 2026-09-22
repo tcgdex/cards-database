@@ -7,7 +7,6 @@ const card: Card = {
 
 	name: {
 		en: "Sinistea",
-		es: "Sinistea",
 	},
 
 	rarity: "Promo",
@@ -21,12 +20,10 @@ const card: Card = {
 
 		name: {
 			en: "Cold Tea",
-			es: "Té Frío",
 		},
 
 		effect: {
 			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 		},
 
 		damage: 10
