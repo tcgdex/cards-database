@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Zarude",
+		es: "Zarude",
 	},
 
 	illustrator: "Uninori",
@@ -21,20 +22,24 @@ const card: Card = {
 
 		name: {
 			en: "Pluck Off",
+			es: "Sacar",
 	},
 
 		effect: {
 			en: "Search your deck for up to 3 Basic {G} Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+			es: "Busca en tu baraja hasta 3 cartas de Energía {G} Básica, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 	}
 	}, {
 		cost: ["Grass", "Grass", "Grass"],
 
 		name: {
 			en: "Hammer Whip",
+			es: "Látigo Martillo",
 	},
 
 		effect: {
 			en: "During your next turn, this Pokémon can't attack.",
+			es: "Durante tu próximo turno, este Pokémon no puede atacar.",
 	},
 
 		damage: 130

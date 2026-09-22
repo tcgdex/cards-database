@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Scraggy",
+		es: "Scraggy",
 	},
 
 	illustrator: "OKUBO",
@@ -21,10 +22,12 @@ const card: Card = {
 
 		name: {
 			en: "Kick Shot",
+			es: "Disparo Patada",
 		},
 
 		effect: {
 			en: "Flip a coin. If tails, this attack does nothing.",
+			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
 		},
 
 		damage: 30

@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Yanma",
+		es: "Yanma",
 	},
 
 	illustrator: "Dsuke",
@@ -21,10 +22,12 @@ const card: Card = {
 
 		name: {
 			en: "Silent Wing",
+			es: "Ala Silenciosa",
 		},
 
 		effect: {
 			en: "Your opponent reveals their hand.",
+			es: "Tu rival enseña las cartas de su mano.",
 		},
 
 		damage: 20

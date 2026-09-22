@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Growlithe",
+		es: "Growlithe",
 	},
 
 	rarity: "Promo",
@@ -20,16 +21,19 @@ const card: Card = {
 
 		name: {
 			en: "Stoke",
+			es: "Atizador",
 		},
 
 		effect: {
 			en: "Search your deck for up to 2 Basic {R} Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
+			es: "Busca en tu baraja hasta 2 cartas de Energía {R} Básica y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
 		}
 	}, {
 		cost: ["Fire", "Fire", "Fire"],
 
 		name: {
 			en: "Fire Claws",
+			es: "Garras de Fuego",
 		},
 
 		damage: 70

@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Smoliv",
+		es: "Smoliv",
 	},
 
 	rarity: "Promo",
@@ -20,16 +21,19 @@ const card: Card = {
 
 		name: {
 			en: "Nutrients",
+			es: "Nutrientes",
 		},
 
 		effect: {
 			en: "Heal 30 damage from 1 of your Pokémon.",
+			es: "Cura 30 puntos de daño a uno de tus Pokémon.",
 		}
 	}, {
 		cost: ["Grass", "Colorless"],
 
 		name: {
 			en: "Spray Fluid",
+			es: "Fluido Rociado",
 		},
 
 		damage: 20

@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Pachirisu",
+		es: "Pachirisu",
 	},
 
 	rarity: "Promo",
@@ -20,16 +21,19 @@ const card: Card = {
 
 		name: {
 			en: "Crackling Charge",
+			es: "Carga Chispeante",
 		},
 
 		effect: {
 			en: "Flip 3 coins. Attach a number of Basic {L} Energy cards up to the number of heads from your discard pile to your Benched Pokémon in any way you like.",
+			es: "Lanza 3 monedas. Coge de tu pila de descartes una cantidad de cartas de Energía {L} Básica igual o inferior al número de caras que te hayan salido y únelas a tus Pokémon en Banca de la manera que desees.",
 		}
 	}, {
 		cost: ["Lightning", "Colorless"],
 
 		name: {
 			en: "Tiny Bolt",
+			es: "Relampaguito",
 		},
 
 		damage: 30

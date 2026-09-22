@@ -8,6 +8,7 @@ const card: Card = {
 
 	name: {
 		en: "Wooper",
+		es: "Wooper",
 	},
 
 	rarity: "Promo",
@@ -21,16 +22,19 @@ const card: Card = {
 
 		name: {
 			en: "Scoop Water",
+			es: "Palada de Agua",
 		},
 
 		effect: {
 			en: "Shuffle up to 3 Basic {W} Energy cards from your discard pile into your deck.",
+			es: "Pon hasta 3 cartas de Energía {W} Básica de tu pila de descartes en tu baraja y barájalas todas.",
 		}
 	}, {
 		cost: ["Water"],
 
 		name: {
 			en: "Headbutt",
+			es: "Golpe Cabeza",
 		},
 
 		damage: 10

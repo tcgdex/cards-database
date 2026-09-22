@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Pawmi",
+		es: "Pawmi",
 	},
 
 	rarity: "Promo",
@@ -20,10 +21,12 @@ const card: Card = {
 
 		name: {
 			en: "Static Slap",
+			es: "Bofetada Estática",
 		},
 
 		effect: {
 			en: "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
+			es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival.",
 		},
 
 		damage: 20

@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Pupitar",
+		es: "Pupitar",
 	},
 
 	rarity: "Promo",
@@ -15,6 +16,7 @@ const card: Card = {
 	types: ["Fighting"],
 	evolveFrom: {
 		en: "Larvitar",
+		es: "Larvitar",
 	},
 	stage: "Stage1",
 
@@ -23,6 +25,7 @@ const card: Card = {
 
 		name: {
 			en: "Rock Throw",
+			es: "Lanzarrocas",
 		},
 
 		damage: 20
@@ -31,10 +34,12 @@ const card: Card = {
 
 		name: {
 			en: "Blasting Tackle",
+			es: "Placaje Explosivo",
 		},
 
 		effect: {
 			en: "This attack also does 20 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			es: "Este ataque también hace 20 puntos de daño a uno de tus Pokémon en Banca. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 		},
 
 		damage: 60
