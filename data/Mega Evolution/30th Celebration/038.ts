@@ -57,6 +57,7 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			stamp: ["30th-anniversary"],
 			thirdParty: {
 				cardmarket: 907645,
 				tcgplayer: 712942

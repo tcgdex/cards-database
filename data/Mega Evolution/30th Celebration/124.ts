@@ -62,6 +62,7 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			stamp: ["30th-anniversary"],
 			thirdParty: {
 				cardmarket: 907731,
 				tcgplayer: 716513
