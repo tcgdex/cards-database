@@ -24,7 +24,7 @@ const card: Card = {
 
 	suffix: "ex",
 	illustrator: "Saboteri",
-	rarity: "Ultra Rare",
+	rarity: "Mega Attack Rare",
 	category: "Pokemon",
 	dexId: [478],
 	hp: 310,

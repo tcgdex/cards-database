@@ -25,7 +25,7 @@ const card: Card = {
 
 	suffix: "ex",
 	illustrator: "Taiga Kasai",
-	rarity: "Ultra Rare",
+	rarity: "Mega Attack Rare",
 	category: "Pokemon",
 	dexId: [560],
 	hp: 330,
