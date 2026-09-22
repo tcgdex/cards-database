@@ -7,10 +7,6 @@ const card: Card = {
 
 	name: {
 		en: "Pupitar",
-		es: "Pupitar",
-		it: "Pupitar",
-		pt: "Pupitar",
-		de: "Pupitar"
 	},
 
 	rarity: "Promo",
@@ -19,10 +15,6 @@ const card: Card = {
 	types: ["Fighting"],
 	evolveFrom: {
 		en: "Larvitar",
-		es: "Larvitar",
-		pt: "Larvitar",
-		it: "Larvitar",
-		de: "Larvitar"
 	},
 	stage: "Stage1",
 
@@ -31,10 +23,6 @@ const card: Card = {
 
 		name: {
 			en: "Rock Throw",
-			es: "Lanzarrocas",
-			it: "Sassata",
-			pt: "Lançamento de Rocha",
-			de: "Steinwurf"
 		},
 
 		damage: 20
@@ -43,18 +31,10 @@ const card: Card = {
 
 		name: {
 			en: "Blasting Tackle",
-			es: "Placaje Explosivo",
-			it: "Azione Propulsiva",
-			pt: "Investida Avassaladora",
-			de: "Explosiver Tackle"
 		},
 
 		effect: {
 			en: "This attack also does 20 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-			es: "Este ataque también hace 20 puntos de daño a uno de tus Pokémon en Banca. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
-			it: "Questo attacco infligge anche 20 danni a uno dei Pokémon nella tua panchina. Non applicare debolezza e resistenza ai Pokémon in panchina.",
-			pt: "Este ataque também causa 20 pontos de dano a 1 dos seus Pokémon no Banco. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
-			de: "Diese Attacke fügt auch 1 Pokémon auf deiner Bank 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		},
 
 		damage: 60

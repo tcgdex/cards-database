@@ -7,10 +7,6 @@ const card: Card = {
 
 	name: {
 		en: "Scraggy",
-		de: "Zurrokex",
-		es: "Scraggy",
-		it: "Scraggy",
-		pt: "Scraggy"
 	},
 
 	illustrator: "OKUBO",
@@ -25,18 +21,10 @@ const card: Card = {
 
 		name: {
 			en: "Kick Shot",
-			de: "Kickschuss",
-			es: "Disparo Patada",
-			it: "Colpocalcio",
-			pt: "Chute Tiro"
 		},
 
 		effect: {
 			en: "Flip a coin. If tails, this attack does nothing.",
-			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
-			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
-			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-			pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada."
 		},
 
 		damage: 30

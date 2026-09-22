@@ -7,10 +7,6 @@ const card: Card = {
 
 	name: {
 		en: "Pawmi",
-		es: "Pawmi",
-		it: "Pawmi",
-		pt: "Pawmi",
-		de: "Pamo"
 	},
 
 	rarity: "Promo",
@@ -24,18 +20,10 @@ const card: Card = {
 
 		name: {
 			en: "Static Slap",
-			es: "Bofetada Estática",
-			it: "Sberla Statica",
-			pt: "Tapa Estático",
-			de: "Statischer Stoß"
 		},
 
 		effect: {
 			en: "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
-			es: "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival.",
-			it: "Lancia una moneta. Se esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
-			pt: "Jogue uma moeda. Se sair cara, descarte uma Energia do Pokémon Ativo do seu oponente.",
-			de: "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 20

@@ -7,10 +7,6 @@ const card: Card = {
 
 	name: {
 		en: "Porygon2",
-		es: "Porygon2",
-		it: "Porygon2",
-		pt: "Porygon2",
-		de: "Porygon2"
 	},
 
 	rarity: "Promo",
@@ -19,10 +15,6 @@ const card: Card = {
 	types: ["Colorless"],
 	evolveFrom: {
 		en: "Porygon",
-		es: "Porygon",
-		it: "Porygon",
-		pt: "Porygon",
-		de: "Porygon"
 	},
 	stage: "Stage1",
 
@@ -31,18 +23,10 @@ const card: Card = {
 
 		name: {
 			en: "Powered Ball",
-			es: "Bola Cargada",
-			it: "Palla Potenziata",
-			pt: "Bola Energizada",
-			de: "Angetriebener Ball"
 		},
 
 		effect: {
 			en: "Discard an Energy from this Pokémon.",
-			es: "Descarta 1 Energía de este Pokémon.",
-			it: "Scarta un'Energia da questo Pokémon.",
-			pt: "Descarte uma Energia deste Pokémon.",
-			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 50

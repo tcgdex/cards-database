@@ -7,10 +7,6 @@ const card: Card = {
 
 	name: {
 		en: "Toxel",
-		es: "Toxel",
-		it: "Toxel",
-		pt: "Toxel",
-		de: "Toxel"
 	},
 
 	rarity: "Promo",
@@ -24,18 +20,10 @@ const card: Card = {
 
 		name: {
 			en: "Slight Intrusion",
-			es: "Ligera Intromisión",
-			it: "Coinvolgimento",
-			pt: "Leve Invasão",
-			de: "Vorwagen"
 		},
 
 		effect: {
 			en: "This Pokémon also does 10 damage to itself.",
-			es: "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
-			it: "Questo Pokémon infligge anche 10 danni a se stesso.",
-			pt: "Este Pokémon também causa 10 pontos de dano a si mesmo.",
-			de: "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
 		},
 
 		damage: 30
