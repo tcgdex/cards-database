@@ -62,7 +62,8 @@ const card: Card = {
 	regulationMark: "J",
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			stamp: ['30th-anniversary']
 		}
 	],
 }
