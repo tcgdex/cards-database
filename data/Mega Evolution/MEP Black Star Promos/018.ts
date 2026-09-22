@@ -6,7 +6,6 @@ const card: Card = {
 
 	name: {
 		en: "Cottonee",
-		fr: "Doudouvet",
 		de: "Waumboll",
 		it: "Cottonee",
 		es: "Cottonee",
@@ -26,7 +25,6 @@ const card: Card = {
 
 		name: {
 			en: "Collect",
-			fr: "Collecte",
 			de: "Sammeln",
 			it: "Tassa",
 			es: "Coleccionar",
@@ -35,7 +33,6 @@ const card: Card = {
 
 		effect: {
 			en: "Draw a card.",
-			fr: "Piochez une carte.",
 			de: "Ziehe 1 Karte.",
 			it: "Pesca una carta.",
 			es: "Roba 1 carta.",

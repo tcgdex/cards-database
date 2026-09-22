@@ -6,7 +6,6 @@ const card: Card = {
 
 	name: {
 		en: "Makuhita",
-		fr: "Makuhita",
 		de: "Makuhita",
 		it: "Makuhita",
 		es: "Makuhita",
@@ -27,7 +26,6 @@ const card: Card = {
 
 		name: {
 			en: "Corkscrew Punch",
-			fr: "Poing Tire-Bouchon",
 			de: "Korkenzieherhieb",
 			it: "Pugno Rotante",
 			es: "Puño Tirabuzón",
@@ -41,7 +39,6 @@ const card: Card = {
 
 		name: {
 			en: "Confront",
-			fr: "Confrontation",
 			de: "Konfrontieren",
 			it: "Confronto",
 			es: "Confrontar",

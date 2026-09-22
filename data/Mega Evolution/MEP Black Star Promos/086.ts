@@ -6,7 +6,6 @@ const card: Card = {
 
 	name: {
 		en: "Slowpoke",
-		fr: "Ramoloss",
 		es: "Slowpoke",
 		it: "Slowpoke",
 		pt: "Slowpoke",
@@ -42,7 +41,6 @@ const card: Card = {
 
 		name: {
 			en: "Super Psy Bolt",
-			fr: "Super Psy",
 			es: "Superrayo Psi",
 			it: "Superpsico",
 			pt: "Super-raio Psíquico",
