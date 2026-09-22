@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Drifloon",
+		es: "Drifloon",
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -22,10 +23,12 @@ const card: Card = {
 
 		name: {
 			en: "Pull",
+			es: "Tirar",
 		},
 
 		effect: {
 			en: "Flip a coin. If heads, switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
+			es: "Lanza 1 moneda. Si sale cara, cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
 		}
 	}],
 

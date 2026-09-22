@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Slowpoke",
+		es: "Slowpoke",
 	},
 
 	illustrator: "miki kudo",
@@ -33,6 +34,7 @@ const card: Card = {
 
 		name: {
 			en: "Super Psy Bolt",
+			es: "Superrayo Psi",
 		},
 
 		damage: 50
