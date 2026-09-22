@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA Mochizuki",
-	rarity: "Holo Rare VMAX",
+	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Psychic"],
