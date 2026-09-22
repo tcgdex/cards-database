@@ -7,7 +7,6 @@ const card: Card = {
 
 	name: {
 		en: "Pachirisu",
-		fr: "Pachirisu",
 		es: "Pachirisu",
 		it: "Pachirisu",
 		pt: "Pachirisu",
@@ -25,7 +24,6 @@ const card: Card = {
 
 		name: {
 			en: "Crackling Charge",
-			fr: "Charge Crépitante",
 			es: "Carga Chispeante",
 			it: "Carica Crepitante",
 			pt: "Carga Crépida",
@@ -34,7 +32,6 @@ const card: Card = {
 
 		effect: {
 			en: "Flip 3 coins. Attach a number of Basic {L} Energy cards up to the number of heads from your discard pile to your Benched Pokémon in any way you like.",
-			fr: "Lancez 3 pièces. Attachez à vos Pokémon de Banc un nombre de cartes Énergie {L} de base de votre pile de défausse inférieur ou égal au nombre de côtés face obtenus, comme il vous plaît.",
 			es: "Lanza 3 monedas. Coge de tu pila de descartes una cantidad de cartas de Energía {L} Básica igual o inferior al número de caras que te hayan salido y únelas a tus Pokémon en Banca de la manera que desees.",
 			it: "Lancia tre volte una moneta. Assegna ai tuoi Pokémon in panchina un numero di carte Energia base {L} dalla tua pila degli scarti uguale o inferiore al numero di volte in cui è uscito testa nel modo che preferisci.",
 			pt: "Jogue 3 moedas. Ligue um número de cartas de Energia {L} Básica até o número de caras da sua pilha de descarte aos seus Pokémon no Banco como desejar.",
@@ -45,7 +42,6 @@ const card: Card = {
 
 		name: {
 			en: "Tiny Bolt",
-			fr: "Foudre Minuscule",
 			es: "Relampaguito",
 			it: "Minifulmine",
 			pt: "Corisquinho",

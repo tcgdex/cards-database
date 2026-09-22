@@ -7,7 +7,6 @@ const card: Card = {
 
 	name: {
 		en: "Horsea",
-		fr: "Hypotrempe",
 		es: "Horsea",
 		it: "Horsea",
 		pt: "Horsea",
@@ -25,7 +24,6 @@ const card: Card = {
 
 		name: {
 			en: "Hook",
-			fr: "Crochet",
 			es: "Garfio",
 			it: "Uncino",
 			pt: "Gancho",

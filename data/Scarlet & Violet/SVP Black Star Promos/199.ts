@@ -6,7 +6,6 @@ const card: Card = {
 
 	name: {
 		en: "Zarude",
-		fr: "Zarude",
 		de: "Zarude",
 		it: "Zarude",
 		es: "Zarude",
@@ -26,7 +25,6 @@ const card: Card = {
 
 		name: {
 			en: "Pluck Off",
-			fr: "Retrait",
 			de: "Abrupfen",
 			it: "Cogliere",
 			es: "Sacar",
@@ -35,7 +33,6 @@ const card: Card = {
 
 		effect: {
 			en: "Search your deck for up to 3 Basic {G} Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu'à 3 cartes Énergie {G} de base, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 			de: "Durchsuche dein Deck nach bis zu 3 Basis-{G}-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
 			it: "Cerca nel tuo mazzo fino a tre carte Energia base {G}, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 			es: "Busca en tu baraja hasta 3 cartas de Energía {G} Básica, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
@@ -46,7 +43,6 @@ const card: Card = {
 
 		name: {
 			en: "Hammer Whip",
-			fr: "Fouet Marteau",
 			de: "Hammerpeitsche",
 			it: "Martelfrustata",
 			es: "Látigo Martillo",
@@ -55,7 +51,6 @@ const card: Card = {
 
 		effect: {
 			en: "During your next turn, this Pokémon can't attack.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
 			de: "Während deines nächsten Zuges kann dieses Pokémon nicht angreifen.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare.",
 			es: "Durante tu próximo turno, este Pokémon no puede atacar.",

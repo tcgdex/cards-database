@@ -7,7 +7,6 @@ const card: Card = {
 
 	name: {
 		en: "Growlithe",
-		fr: "Caninos",
 		es: "Growlithe",
 		it: "Growlithe",
 		pt: "Growlithe",
@@ -25,7 +24,6 @@ const card: Card = {
 
 		name: {
 			en: "Stoke",
-			fr: "Attisement",
 			es: "Atizador",
 			it: "Attizzatoio",
 			pt: "Carregar",
@@ -34,7 +32,6 @@ const card: Card = {
 
 		effect: {
 			en: "Search your deck for up to 2 Basic {R} Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck jusqu'à 2 cartes Énergie {R} de base, puis attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
 			es: "Busca en tu baraja hasta 2 cartas de Energía {R} Básica y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo fino a due carte Energia base {R} e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
 			pt: "Procure por até 2 cartas de Energia {R} Básica no seu baralho e ligue-as a este Pokémon. Em seguida, embaralhe o seu baralho.",
@@ -45,7 +42,6 @@ const card: Card = {
 
 		name: {
 			en: "Fire Claws",
-			fr: "Griffes Enflammées",
 			es: "Garras de Fuego",
 			it: "Artigli Infuocati",
 			pt: "Garras de Fogo",

@@ -6,7 +6,6 @@ const card: Card = {
 
 	name: {
 		en: "Eevee",
-		fr: "Évoli",
 		de: "Evoli",
 		it: "Eevee",
 		es: "Eevee",
@@ -26,7 +25,6 @@ const card: Card = {
 
 		name: {
 			en: "Call for Family",
-			fr: "Appel à la Famille",
 			de: "Familienruf",
 			it: "Cerca Famiglia",
 			es: "Llamar a la Familia",
@@ -35,7 +33,6 @@ const card: Card = {
 
 		effect: {
 			en: "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",
-			fr: "Cherchez dans votre deck un Pokémon de base, puis placez-le sur votre Banc. Mélangez ensuite votre deck.",
 			de: "Durchsuche dein Deck nach 1 Basis-Pokémon und lege es auf deine Bank. Mische anschließend dein Deck.",
 			it: "Cerca nel tuo mazzo un Pokémon Base e mettilo nella tua panchina. Poi rimischia le carte del tuo mazzo.",
 			es: "Busca en tu baraja 1 Pokémon Básico y ponlo en tu Banca. Después, baraja las cartas de tu baraja.",
@@ -46,7 +43,6 @@ const card: Card = {
 
 		name: {
 			en: "Gnaw",
-			fr: "Ronge",
 			de: "Nagen",
 			it: "Rosicchiamento",
 			es: "Roer",

@@ -7,7 +7,6 @@ const card: Card = {
 
 	name: {
 		en: "Paldean Wooper",
-		fr: "Axoloto de Paldea",
 		es: "Wooper de Paldea",
 		it: "Wooper di Paldea",
 		pt: "Wooper de Paldea",
@@ -25,7 +24,6 @@ const card: Card = {
 
 		name: {
 			en: "Splattering Poison",
-			fr: "Poison Éclaboussant",
 			es: "Veneno Salpicante",
 			it: "Spruzzata di Veleno",
 			pt: "Respingar Veneno",
@@ -34,7 +32,6 @@ const card: Card = {
 
 		effect: {
 			en: "Both Active Pokémon are now Poisoned.",
-			fr: "Les deux Pokémon Actifs sont maintenant Empoisonnés.",
 			es: "Ambos Pokémon Activos pasan a estar Envenenados.",
 			it: "Entrambi i Pokémon attivi vengono avvelenati.",
 			pt: "Ambos os Pokémon Ativos agora estão Envenenados.",
@@ -45,7 +42,6 @@ const card: Card = {
 
 		name: {
 			en: "Tail Whap",
-			fr: "Queue Battoir",
 			es: "Coletón",
 			it: "Codabotta",
 			pt: "Surra de Cauda",
