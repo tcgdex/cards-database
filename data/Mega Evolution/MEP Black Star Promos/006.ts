@@ -7,12 +7,10 @@ const card: Card = {
 
 	name: {
 		en: "Drifblim",
-		es: "Drifblim",
 	},
 
 	evolveFrom: {
 		en: "Drifloon",
-		es: "Drifloon",
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -28,26 +26,22 @@ const card: Card = {
 
 		name: {
 			en: "Disruptive Wind",
-			es: "Viento Perturbador",
 		},
 
 		effect: {
 			en: "Your opponent's Active Pokémon is now Confused.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
 		}
 	}, {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
 			en: "Balloon Return",
-			es: "Regreso Globo",
 		},
 
 		damage: 110,
 
 		effect: {
 			en: "Put this Pokémon and all attached cards into your hand.",
-			es: "Pon este Pokémon y todas las cartas unidas a él en tu mano.",
 		}
 	}],
 

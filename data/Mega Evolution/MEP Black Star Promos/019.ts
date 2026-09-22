@@ -6,7 +6,6 @@ const card: Card = {
 
 	name: {
 		en: "Whimsicott",
-		es: "Whimsicott",
 	},
 
 	illustrator: "Yuka Tanaka",
@@ -19,7 +18,6 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cottonee",
-		es: "Cottonee",
 	},
 
 	attacks: [{
@@ -27,26 +25,22 @@ const card: Card = {
 
 		name: {
 			en: "Healing Fluff",
-			es: "Pelusa Sanadora",
 		},
 
 		effect: {
 			en: "Heal all damage from 1 of your Benched Pokémon.",
-			es: "Cura todos los puntos de daño a uno de tus Pokémon en Banca.",
 		}
 	}, {
 		cost: ["Psychic"],
 
 		name: {
 			en: "U-turn",
-			es: "Ida y Vuelta",
 		},
 
 		damage: 50,
 
 		effect: {
 			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
-			es: "Cambia este Pokémon por uno de tus Pokémon en Banca.",
 		}
 	}],
 

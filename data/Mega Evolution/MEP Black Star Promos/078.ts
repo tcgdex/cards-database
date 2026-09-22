@@ -6,7 +6,6 @@ const card: Card = {
 
 	name: {
 		en: "Toxel",
-		es: "Toxel",
 	},
 
 	illustrator: "Mina Nakai",
@@ -22,19 +21,16 @@ const card: Card = {
 
 		name: {
 			en: "Call for Family",
-			es: "Llamar a la Familia",
 		},
 
 		effect: {
 			en: "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
-			es: "Busca en tu baraja hasta 2 Pokémon Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
 		}
 	}, {
 		cost: ["Darkness", "Colorless"],
 
 		name: {
 			en: "Playful Kick",
-			es: "Patada Juguetona",
 		},
 
 		damage: 20
