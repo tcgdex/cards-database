@@ -15,6 +15,10 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
+		cost: [
+			"Colorless",
+		],
+
 		name: {
 			en: "Metal Sound",
 			fr: "Strido-Son"
@@ -25,6 +29,12 @@ const card: Card = {
 			fr: "Le Pokémon Défenseur est maintenant Confus."
 		}
 	}, {
+		cost: [
+			"Metal",
+			"Metal",
+			"Colorless"
+		],
+
 		name: {
 			en: "Guard Press",
 			fr: "Pression de Garde"
@@ -57,7 +67,21 @@ const card: Card = {
 				tcgplayer: 86478
 			}
 		}
-	]
+	], 
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-20"
+		},
+	],
+	retreat: 1,
 }
 
 export default card

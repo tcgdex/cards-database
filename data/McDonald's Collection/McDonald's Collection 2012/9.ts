@@ -15,6 +15,10 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
+		cost: [
+			"Darkness", 
+			"Colorless"
+		],
 		name: {
 			en: "Knock Off",
 			fr: "Sabotage"
@@ -47,7 +51,21 @@ const card: Card = {
 				tcgplayer: 88463
 			}
 		}
-	]
+	], 
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-20"
+		},
+	],
+	retreat: 1,
 }
 
 export default card

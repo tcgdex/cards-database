@@ -15,6 +15,11 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
+		cost: [
+			"Psychic",
+			"Colorless"
+		],
+
 		name: {
 			en: "Psy Bolt",
 			fr: "Choc Mental"
@@ -47,7 +52,15 @@ const card: Card = {
 				tcgplayer: 90629
 			}
 		}
-	]
+	], 
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+	retreat: 1,
 }
 
 export default card

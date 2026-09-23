@@ -15,6 +15,11 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
+		cost: [
+			"Colorless",
+			"Colorless"
+		],
+
 		name: {
 			en: "Water Gun",
 			fr: "Pistolet à O"
@@ -22,6 +27,12 @@ const card: Card = {
 
 		damage: 30
 	}, {
+		cost: [
+			"Water",
+			"Water",
+			"Colorless"
+		],
+
 		name: {
 			en: "Razor Shell",
 			fr: "Coquilame"
@@ -54,7 +65,15 @@ const card: Card = {
 				tcgplayer: 84797
 			}
 		}
-	]
+	], 
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+	retreat: 1,
 }
 
 export default card

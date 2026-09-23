@@ -15,6 +15,10 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
+		cost: [
+			"Colorless"
+		],
+		
 		name: {
 			en: "Headbutt",
 			fr: "Coup d'Boule"
@@ -42,7 +46,21 @@ const card: Card = {
 				tcgplayer: 88986
 			}
 		}
-	]
+	], 
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-20"
+		},
+	],
+	retreat: 1,
 }
 
 export default card

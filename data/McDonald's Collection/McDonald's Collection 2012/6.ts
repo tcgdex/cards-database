@@ -15,6 +15,10 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
+		cost: [
+			"Lightning"
+		],
+
 		name: {
 			en: "Thundershock",
 			fr: "Éclair"
@@ -27,6 +31,11 @@ const card: Card = {
 			fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est Paralysé."
 		}
 	}, {
+		cost: [
+			"Colorless",
+			"Colorless"
+		],
+		
 		name: {
 			en: "Acrobatics",
 			fr: "Acrobatie"
@@ -59,7 +68,15 @@ const card: Card = {
 				tcgplayer: 85193
 			}
 		}
-	]
+	], 
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+	retreat: 0,
 }
 
 export default card
