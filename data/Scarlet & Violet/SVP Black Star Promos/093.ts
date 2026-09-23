@@ -7,11 +7,6 @@ const card: Card = {
 
 	name: {
 		en: "Carvanha",
-		fr: "Carvanha",
-		es: "Carvanha",
-		it: "Carvanha",
-		pt: "Carvanha",
-		de: "Kanivanha"
 	},
 
 	rarity: "Promo",
@@ -25,11 +20,6 @@ const card: Card = {
 
 		name: {
 			en: "Sharp Fang",
-			fr: "Croc Aiguisé",
-			es: "Colmillo Afilado",
-			it: "Zannaffilata",
-			pt: "Presa Afiada",
-			de: "Scharfe Fänge"
 		},
 
 		damage: 20
