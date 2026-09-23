@@ -12,7 +12,7 @@ const card: Card = {
 	rarity: "Promo",
 	category: "Trainer",
 	trainerType: "Stadium",
-	regulationMark: "I",
+	regulationMark: "J",
 
 	effect: {
 		en: "Once during each player's turn, that player may heal 10 damage from each of their Pokémon. If a player healed any damage in this way, their turn ends.",
@@ -21,11 +21,7 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
-			stamp: ["ace-trainer"],
-			thirdParty: {
-            	cardmarket: 850977,
-            	tcgplayer: 681244
-            }
+			stamp: ["ace-trainer"]
 		},
 	],
 }
