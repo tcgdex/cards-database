@@ -15,6 +15,10 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
+		cost: [
+			"Colorless"
+		],
+
 		name: {
 			en: "Collect",
 			fr: "Collecte"
@@ -25,6 +29,11 @@ const card: Card = {
 			fr: "Piochez une carte."
 		}
 	}, {
+		cost: [
+			"Colorless",
+			"Colorless"
+		],
+
 		name: {
 			en: "Scratch",
 			fr: "Griffe"
@@ -52,7 +61,21 @@ const card: Card = {
 				tcgplayer: 87937
 			}
 		}
-	]
+	], 
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+	resistances: [
+		{
+			type: "Water",
+			value: "-20"
+		},
+	],
+	retreat: 1,
 }
 
 export default card

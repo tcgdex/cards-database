@@ -15,6 +15,10 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
+		cost: [
+			"Colorless"
+		],
+
 		name: {
 			en: "Dual Chop",
 			fr: "Double Baffe"
@@ -47,7 +51,9 @@ const card: Card = {
 				tcgplayer: 83673
 			}
 		}
-	]
+	], 
+
+	retreat: 1,
 }
 
 export default card

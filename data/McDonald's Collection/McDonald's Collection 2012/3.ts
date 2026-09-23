@@ -15,6 +15,10 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
+		cost: [
+			"Colorless"
+		],
+
 		name: {
 			en: "Withdraw",
 			fr: "Repli"
@@ -25,6 +29,11 @@ const card: Card = {
 			fr: "Lancez une pièce. Si c'est face, évitez tous les dégâts infligés à ce Pokémon par des attaques durant le prochain tour de votre adversaire."
 		}
 	}, {
+		cost: [
+			"Grass",
+			"Colorless"
+		],
+
 		name: {
 			en: "Slash",
 			fr: "Tranche"
@@ -52,7 +61,15 @@ const card: Card = {
 				tcgplayer: 85065
 			}
 		}
-	]
+	], 
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+	retreat: 2,
 }
 
 export default card

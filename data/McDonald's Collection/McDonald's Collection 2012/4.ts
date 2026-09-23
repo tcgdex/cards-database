@@ -15,6 +15,10 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
+		cost: [
+			"Colorless"
+		],
+
 		name: {
 			en: "Flame Charge",
 			fr: "Nitrocharge"
@@ -25,6 +29,12 @@ const card: Card = {
 			fr: "Cherchez une carte Énergie  dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck."
 		}
 	}, {
+		cost: [
+			"Fire",
+			"Fire",
+			"Colorless"
+		],
+
 		name: {
 			en: "Heat Crash",
 			fr: "Tacle Feu"
@@ -52,7 +62,15 @@ const card: Card = {
 				tcgplayer: 88064
 			}
 		}
-	]
+	], 
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+	retreat: 3,
 }
 
 export default card

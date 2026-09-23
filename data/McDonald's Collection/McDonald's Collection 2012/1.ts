@@ -15,6 +15,10 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
+		cost: [
+			"Colorless"
+		],
+
 		name: {
 			en: "Wrap",
 			fr: "Ligotage"
@@ -27,6 +31,11 @@ const card: Card = {
 			fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
 		}
 	}, {
+		cost: [
+			"Grass",
+			"Colorless"
+		],
+
 		name: {
 			en: "Tackle",
 			fr: "Charge"
@@ -54,7 +63,21 @@ const card: Card = {
 				tcgplayer: 89081
 			}
 		}
-	]
+	], 
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+	resistances: [
+		{
+			type: "Water",
+			value: "-20"
+		},
+	],
+	retreat: 1,
 }
 
 export default card
