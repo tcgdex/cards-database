@@ -33,9 +33,11 @@ const card: Card = {
 		{
 			type: "Ancient Trait",
 			name: {
+				en: "α Growth",
 				fr: "Croissance α",
 			},
 			effect: {
+				en: "When you attach an Energy card from your hand to this Pokémon (except with an attack, Ability, or Trainer card), you may attach 2 Energy cards.",
 				fr: "Lorsque vous attachez une carte Énergie de votre main à ce Pokémon (excepté à la suite d'une attaque, d'un talent ou d'une carte Dresseur), vous pouvez attacher 2 cartes Énergie au lieu d'une.",
 			},
 		},
