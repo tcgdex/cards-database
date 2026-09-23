@@ -23,7 +23,7 @@ const card: Card = {
 				"Lightning",
 			],
 			name: {
-				en: "Thudner Wave",
+				en: "Thunder Wave",
 				fr: "Cage-Éclair",
 			},
 			effect: {
@@ -38,6 +38,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
+				en: "Electro Ball",
 				fr: "Boule Élek",
 			},
 			damage: "50",
