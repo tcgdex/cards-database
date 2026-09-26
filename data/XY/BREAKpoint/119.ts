@@ -3,12 +3,12 @@ import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Scizor EX",
-		fr: "Cizayox EX",
-		es: "Scizor EX",
-		it: "Scizor EX",
-		pt: "Scizor EX",
-		de: "Scherox EX"
+		en: "Scizor-EX",
+		fr: "Cizayox-EX",
+		es: "Scizor-EX",
+		it: "Scizor-EX",
+		pt: "Scizor-EX",
+		de: "Scherox-EX"
 	},
 
 	illustrator: "Ryo Ueda",
