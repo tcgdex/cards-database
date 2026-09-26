@@ -5,6 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		ja: "イルミーゼ",
+		id: "Illumise"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -14,6 +15,7 @@ const card: Card = {
 
 	description: {
 		ja: "バルビートを 誘導して 夜空に サインを 描く。 サインの 意味を 研究する 学者も いる。",
+		id: "Illumise mengarahkan Volbeat untuk menggambar tanda di langit malam. Ada juga cendikiawan yang meneliti arti tanda tersebut."
 	},
 
 	stage: "Basic",
@@ -21,16 +23,23 @@ const card: Card = {
 	abilities: [
 		{
 			type: "Ability",
-			name: { ja: "ばつぐんフェロモン" },
+			name: { 
+				ja: "ばつぐんフェロモン",
+				id: "Feromon Super Efektif"
+			},
 			effect: {
 				ja: "自分の場に「バルビート」がいるなら、はたらく。このポケモンがいるかぎり、おたがいのバトルポケモンの弱点は「×3」で計算する。",
+				id: "Berjalan jika ada Volbeat di Arena sendiri. Selama Pokémon ini ada di Arena, perhitungan kerusakan dari tipe yang menjadi Kelemahan Pokémon Bertarung kedua pemain adalah 3 kali lipat."
 			},
 		},
 	],
 
 	attacks: [
 		{
-			name: { ja: "ぶつかる" },
+			name: { 
+				ja: "ぶつかる",
+				id: "Menyeruduk"
+			},
 			damage: 30,
 			cost: ["Grass", "Colorless"],
 		},
