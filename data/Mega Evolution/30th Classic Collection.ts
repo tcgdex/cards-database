@@ -6,7 +6,7 @@ const set: Set = {
 
 	name: {
 		en: "30th Classic Collection",
-		fr: 'Collection Classique30ᵉ Anniversaire',
+		fr: 'Collection Classique 30ᵉ Anniversaire',
 		de: '30 Jahre: Klassische Sammlung',
 		it: 'Collzione Classica del 30°',
 		pt: 'Coleção Clássica de 30 Anos',
