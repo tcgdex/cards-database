@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Brutalanda-ex",
 		es: "Salamence ex",
 		it: "Salamence-ex",
-		'es-mx': "Salamence ex"
+		'es-mx': "Salamence ex",
+		pt: "Salamence ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -29,7 +30,8 @@ const card: Card = {
 			de: "Schallender Ruf",
 			es: "Llamada Estridente",
 			it: "Chiamata Fragorosa",
-			'es-mx': "Llamado Retumbante"
+			'es-mx': "Llamado Retumbante",
+			pt: "Chamado Estrondoso"
 		},
 
 		effect: {
@@ -38,7 +40,8 @@ const card: Card = {
 			de: "Lege bis zu 3 <span class=\"energy-symbol Dragon\" title=\"Drache\">Dragon</span>-Pokémon aus deinem Ablagestapel auf deine Bank.",
 			es: "Pon hasta 3 Pokémon <span class=\"energy-symbol Dragon\" title=\"Dragón\">Dragon</span> de tu pila de descartes en tu Banca.",
 			it: "Prendi fino a tre Pokémon <span class=\"energy-symbol Dragon\" title=\"Drago\">Dragon</span> dalla tua pila degli scarti e mettili nella tua panchina.",
-			'es-mx': "Pon hasta 3 Pokémon <span class=\"energy-symbol Dragon\" title=\"Dragón\">Dragon</span> de tu pila de descartes en tu Banca."
+			'es-mx': "Pon hasta 3 Pokémon <span class=\"energy-symbol Dragon\" title=\"Dragón\">Dragon</span> de tu pila de descartes en tu Banca.",
+			pt: "Coloque até 3 Pokémon Dragon da sua pilha de descarte no seu Banco."
 		},
 
 		cost: ["Colorless"]
@@ -49,7 +52,8 @@ const card: Card = {
 			de: "Drachenpuls",
 			es: "Pulso Dragón",
 			it: "Dragopulsar",
-			'es-mx': "Pulso Dragón"
+			'es-mx': "Pulso Dragón",
+			pt: "Pulso do Dragão"
 		},
 
 		effect: {
@@ -58,7 +62,8 @@ const card: Card = {
 			de: "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel.",
 			es: "Descarta las 2 primeras cartas de tu baraja.",
 			it: "Scarta le prime due carte del tuo mazzo.",
-			'es-mx': "Descarta las primeras 2 cartas de tu mazo."
+			'es-mx': "Descarta las primeras 2 cartas de tu mazo.",
+			pt: "Descarte as 2 cartas de cima do seu baralho."
 		},
 
 		damage: 240,

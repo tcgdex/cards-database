@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Marill",
 		es: "Marill",
 		it: "Marill",
-		'es-mx': "Marill"
+		'es-mx': "Marill",
+		pt: "Marill"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Tackle",
 			es: "Placaje",
 			it: "Azione",
-			'es-mx': "Tacleada"
+			'es-mx': "Tacleada",
+			pt: "Investida"
 		},
 
 		damage: 30,

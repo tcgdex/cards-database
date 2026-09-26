@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Skelabra",
 		es: "Chandelure",
 		it: "Chandelure",
-		'es-mx': "Chandelure"
+		'es-mx': "Chandelure",
+		pt: "Chandelure"
 	},
 
 	illustrator: "Yoshioka",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Gruselglühen",
 			es: "Resplandor Sobrecogedor",
 			it: "Lucemistero",
-			'es-mx': "Resplandor Inquietante"
+			'es-mx': "Resplandor Inquietante",
+			pt: "Brilho Misterioso"
 		},
 
 		effect: {
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt und verwirrt.",
 			es: "El Pokémon Activo de tu rival pasa a estar Confundido y Quemado.",
 			it: "Il Pokémon attivo del tuo avversario viene bruciato e confuso.",
-			'es-mx': "El Pokémon Activo de tu rival ahora está Confundido y Quemado."
+			'es-mx': "El Pokémon Activo de tu rival ahora está Confundido y Quemado.",
+			pt: "O Pokémon Ativo do seu oponente agora está Confuso e Queimado."
 		},
 
 		damage: 130,

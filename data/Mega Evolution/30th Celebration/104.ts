@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Tentantel",
 		es: "Ferrothorn",
 		it: "Ferrothorn",
-		'es-mx': "Ferrothorn"
+		'es-mx': "Ferrothorn",
+		pt: "Ferrothorn"
 	},
 
 	illustrator: "Po-Suzuki",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Stachelstich",
 			es: "Picotazo Púas",
 			it: "Aculeopuntura",
-			'es-mx': "Piquete de Púas"
+			'es-mx': "Piquete de Púas",
+			pt: "Ferroada de Espinhos"
 		},
 
 		damage: 50,
@@ -44,7 +46,8 @@ const card: Card = {
 			de: "Krawumm-Dornen",
 			es: "Bum Espinoso",
 			it: "Bombaculei",
-			'es-mx': "Espinas Detonantes"
+			'es-mx': "Espinas Detonantes",
+			pt: "Espetos Explosivos"
 		},
 
 		effect: {
@@ -53,7 +56,8 @@ const card: Card = {
 			de: "Diese Attacke fügt jedem Pokémon deines Gegners 50 Schadenspunkte zu. <em>(Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)</em> Dieses Pokémon fügt auch sich selbst 130 Schadenspunkte zu.",
 			es: "Este ataque hace 50 puntos de daño a cada uno de los Pokémon de tu rival. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca).</em> Este Pokémon también se hace 130 puntos de daño a sí mismo.",
 			it: "Questo attacco infligge 50 danni a ciascuno dei Pokémon del tuo avversario. <em>Non applicare debolezza e resistenza ai Pokémon in panchina</em>. Questo Pokémon infligge anche 130 danni a se stesso.",
-			'es-mx': "Este ataque hace 50 puntos de daño a cada uno de los Pokémon de tu rival. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca).</em> Este Pokémon también se hace 130 puntos de daño a sí mismo."
+			'es-mx': "Este ataque hace 50 puntos de daño a cada uno de los Pokémon de tu rival. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca).</em> Este Pokémon también se hace 130 puntos de daño a sí mismo.",
+			pt: "Este ataque causa 50 pontos de dano a cada um dos Pokémon do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.) Este Pokémon também causa 130 pontos de dano a si mesmo."
 		},
 
 		cost: ["Metal", "Metal"]

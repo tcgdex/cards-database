@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Solgaleo",
 		es: "Solgaleo",
 		it: "Solgaleo",
-		'es-mx': "Solgaleo"
+		'es-mx': "Solgaleo",
+		pt: "Solgaleo"
 	},
 
 	illustrator: "Nurikabe",
@@ -34,7 +35,8 @@ const card: Card = {
 			de: "Sonnenaufgang",
 			es: "Amanecer",
 			it: "Alba",
-			'es-mx': "Amanecer"
+			'es-mx': "Amanecer",
+			pt: "Alvorada"
 		},
 
 		effect: {
@@ -43,7 +45,8 @@ const card: Card = {
 			de: "Einmal während deines Zuges, wenn dieses Pokémon auf deiner Bank ist, kannst du diese Fähigkeit einsetzen. Durchsuche dein Deck nach bis zu 2 Basis-Metal-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck.",
 			es: "Una vez durante tu turno, si este Pokémon está en tu Banca, puedes usar esta habilidad. Busca en tu baraja hasta 2 cartas de Energía Metal Básica y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
 			it: "Una sola volta durante il tuo turno, se questo Pokémon è nella tua panchina, puoi usare questa abilità. Cerca nel tuo mazzo fino a due carte Energia base Metal e assegnale a questo Pokémon. Poi rimischia il tuo mazzo.",
-			'es-mx': "Una vez durante tu turno, si este Pokémon está en tu Banca, puedes usar esta Habilidad. Busca en tu mazo hasta 2 cartas de Energía Metal Básica y únelas a este Pokémon. Después, baraja tu mazo."
+			'es-mx': "Una vez durante tu turno, si este Pokémon está en tu Banca, puedes usar esta Habilidad. Busca en tu mazo hasta 2 cartas de Energía Metal Básica y únelas a este Pokémon. Después, baraja tu mazo.",
+			pt: "Uma vez durante o seu turno, se este Pokémon estiver no seu Banco, você poderá usar esta Habilidade. Procure por até 2 cartas de Energia Metal Básica no seu baralho e ligue-as a este Pokémon. Em seguida, embaralhe o seu baralho."
 		}
 	}],
 
@@ -54,7 +57,8 @@ const card: Card = {
 			de: "Stahlgestirn",
 			es: "Meteoimpacto",
 			it: "Astrocarica",
-			'es-mx': "Meteoimpacto"
+			'es-mx': "Meteoimpacto",
+			pt: "Ataque Solaraço"
 		},
 
 		effect: {
@@ -63,7 +67,8 @@ const card: Card = {
 			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel.",
 			es: "Descarta todas las Energías de este Pokémon.",
 			it: "Scarta tutte le Energie da questo Pokémon.",
-			'es-mx': "Descarta todas las Energías de este Pokémon."
+			'es-mx': "Descarta todas las Energías de este Pokémon.",
+			pt: "Descarte todas as Energias deste Pokémon."
 		},
 
 		damage: 220,

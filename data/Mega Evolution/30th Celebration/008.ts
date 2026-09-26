@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Vivillon",
 		es: "Vivillon",
 		it: "Vivillon",
-		'es-mx': "Vivillon"
+		'es-mx': "Vivillon",
+		pt: "Vivillon"
 	},
 
 	illustrator: "Jerky",
@@ -34,7 +35,8 @@ const card: Card = {
 			de: "Leitender Tanz",
 			es: "Danza Guía",
 			it: "Danza Guida",
-			'es-mx': "Danza Guía"
+			'es-mx': "Danza Guía",
+			pt: "Conduzir a Dança"
 		},
 
 		effect: {
@@ -43,7 +45,8 @@ const card: Card = {
 			de: "Einmal während deines Zuges kannst du diese Fähigkeit einsetzen. Wirf 1 Münze. Durchsuche bei Kopf dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck.",
 			es: "Una vez durante tu turno, puedes usar esta habilidad. Lanza 1 moneda. Si sale cara, busca en tu baraja 1 Pokémon, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
 			it: "Una sola volta durante il tuo turno, puoi usare questa abilità. Lancia una moneta. Se esce testa, cerca nel tuo mazzo un Pokémon, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia il tuo mazzo.",
-			'es-mx': "Una vez durante tu turno, puedes usar esta Habilidad. Lanza 1 moneda. Si sale cara, busca en tu mazo 1 Pokémon, muéstralo y ponlo en tu mano. Después, baraja tu mazo."
+			'es-mx': "Una vez durante tu turno, puedes usar esta Habilidad. Lanza 1 moneda. Si sale cara, busca en tu mazo 1 Pokémon, muéstralo y ponlo en tu mano. Después, baraja tu mazo.",
+			pt: "Uma vez durante o seu turno, você poderá usar esta Habilidade. Jogue uma moeda. Se sair cara, procure por um Pokémon no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho."
 		}
 	}],
 
@@ -54,7 +57,8 @@ const card: Card = {
 			de: "Giftpuder",
 			es: "Polvo Veneno",
 			it: "Velenpolvere",
-			'es-mx': "Polvo Venenoso"
+			'es-mx': "Polvo Venenoso",
+			pt: "Pó Venenoso"
 		},
 
 		effect: {
@@ -63,7 +67,8 @@ const card: Card = {
 			de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet.",
 			es: "El Pokémon Activo de tu rival pasa a estar Envenenado.",
 			it: "Il Pokémon attivo del tuo avversario viene avvelenato.",
-			'es-mx': "El Pokémon Activo de tu rival ahora está Envenenado."
+			'es-mx': "El Pokémon Activo de tu rival ahora está Envenenado.",
+			pt: "O Pokémon Ativo do seu oponente agora está Envenenado."
 		},
 
 		damage: 60,

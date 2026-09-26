@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu"
+		'es-mx': "Pikachu",
+		pt: "Pikachu"
 	},
 
 	illustrator: "Takeshi Nakamura",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Beäugen",
 			es: "Curiosear",
 			it: "Scrutare",
-			'es-mx': "Curiosear"
+			'es-mx': "Curiosear",
+			pt: "Espiadela"
 		},
 
 		effect: {
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Dein Gegner zeigt dir seine Handkarten.",
 			es: "Tu rival enseña las cartas de su mano.",
 			it: "Il tuo avversario mostra le carte che ha in mano.",
-			'es-mx': "Tu rival muestra su mano."
+			'es-mx': "Tu rival muestra su mano.",
+			pt: "Seu oponente revela a mão dele."
 		},
 
 		cost: ["Colorless"]
