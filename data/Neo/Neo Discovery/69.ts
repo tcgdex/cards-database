@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Observe",
+				en: "[Observe]",
 				fr: "[Observe]",
 				de: "Observe [Observe]"
 			},
