@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Lucario",
+		es: "Lucario",
 	},
 
 	illustrator: "Taiga Kasai",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Riolu",
+		es: "Riolu",
 	},
 
 	attacks: [{
@@ -25,10 +27,12 @@ const card: Card = {
 
 		name: {
 			en: "Aura Sphere",
+			es: "Esfera Aural",
 		},
 
 		effect: {
 			en: "This attack also does 60 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			es: "Este ataque también hace 60 puntos de daño a uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 		},
 
 		damage: 100

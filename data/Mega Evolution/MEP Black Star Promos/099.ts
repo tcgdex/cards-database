@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Greninja ex",
+		es: "Greninja ex.",
 	},
 
 	suffix: "ex",
@@ -19,6 +20,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Frogadier",
+		es: "Frogadier",
 	},
 
 	attacks: [{
@@ -26,10 +28,12 @@ const card: Card = {
 
 		name: {
 			en: "Stealthy Slash",
+			es: "Tajo Sigiloso",
 		},
 
 		effect: {
 			en: "This attack does 30 damage to 1 of your opponent's Pokémon for each damage counter on that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			es: "Este ataque hace 30 puntos de daño a uno de los Pokémon de tu rival por cada contador de daño en ese Pokémon. (No apliques Debilidad y Resistencia a los Pokémon de la Banca).",
 		}
 	},
 	{
@@ -37,6 +41,7 @@ const card: Card = {
 
 		name: {
 			en: "Aqua Edge",
+			es: "Filo Agua",
 		},
 
 		damage: 160
