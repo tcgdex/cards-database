@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Pikachu ex",
+		es: "Pikachu ex",
 	},
 
 	suffix: "ex",
@@ -22,10 +23,12 @@ const card: Card = {
 
 		name: {
 			en: "Pika-Pika Parade",
+			es: "Desfile Pika Pika",
 		},
 
 		effect: {
 			en: "Search your deck for any number of Basic Pokémon and put them onto your Bench. Then, shuffle your deck.",
+			es: "Busca en tu baraja cualquier cantidad de Pokémon Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
 		}
 	},
 	{
@@ -33,10 +36,12 @@ const card: Card = {
 
 		name: {
 			en: "Thunderbolt",
+			es: "Rayo",
 		},
 
 		effect: {
 			en: "Discard all Energy from this Pokémon.",
+			es: "Descarta todas las Energías de este Pokémon.",
 		},
 
 		damage: 200

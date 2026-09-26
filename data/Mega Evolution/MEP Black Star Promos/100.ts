@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Sylveon ex",
+		es: "Sylveon ex",
 	},
 
 	suffix: "ex",
@@ -19,6 +20,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
+		es: "Eevee",
 	},
 
 	attacks: [{
@@ -26,10 +28,12 @@ const card: Card = {
 
 		name: {
 			en: "Colorful Harmony",
+			es: "Armonía Colorida",
 		},
 
 		effect: {
 			en: "This attack does 50 damage for each type of Basic Energy attached to all of your Pokémon.",
+			es: "Este ataque hace 50 puntos de daño por cada tipo de Energía Básica unida a todos tus Pokémon.",
 		},
 
 		damage: "50×"
