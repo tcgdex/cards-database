@@ -156,6 +156,17 @@ export interface Set {
 	 * Partial list of abbreviations, this is currently a Work in Progress feature
 	 */
 	abbreviations?: Partial<Omit<Languages, 'en'> & { official?: string }>
+
+	/**
+	 * Optional declarative subsets inside a set. Each subset gets its own
+	 * id-prefix in card localIds and exposes its own official card count.
+	 */
+	subsets?: Record<string, {
+		name?: Languages
+		cardCount?: {
+			official?: number
+		}
+	}>
 	serie: Serie
 	tcgOnline?: string
 

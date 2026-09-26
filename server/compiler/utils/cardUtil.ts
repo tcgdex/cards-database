@@ -10,9 +10,10 @@ import { formatVariant, variantToIdentifier } from "./variantUtil.ts";
 
 export async function getCardPictures(cardId: string, card: Card, lang: SupportedLanguages): Promise<string | undefined> {
 
-	// temporary hack
-	if (card.set.id === '30th') {
-		return `https://assets.tcgdex.net/${lang}/${card.set.serie.id}/${card.set.id}/${cardId}`
+	// Numbered 30th scans are on the CDN under me/30th, not the set id 30C.
+	// Classic Collection (CC###) and letter ids stay empty.
+	if (card.set.id === '30C' && /^\d+$/.test(String(cardId))) {
+		return `https://assets.tcgdex.net/${lang}/me/30th/${cardId}`
 	}
 
 	try {
