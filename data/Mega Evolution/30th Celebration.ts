@@ -2,7 +2,7 @@ import { Set } from '../../interfaces'
 import serie from '../Mega Evolution'
 
 const set: Set = {
-	id: "30th",
+	id: "30C",
 
 	name: {
 		en: "30th Celebration",
@@ -20,10 +20,28 @@ const set: Set = {
 		official: 128
 	},
 
+	subsets: {
+		CC: {
+			name: {
+				en: "Classic Collection",
+				fr: "Collection Classique",
+				de: "Klassische Kollektion",
+				it: "Collezione Classica",
+				pt: "Coleção Clásica",
+				es: "Colección Clásica",
+				'es-mx': "Colección Clásica"
+			},
+			cardCount: {
+				official: 30
+			}
+		}
+	},
+
 	releaseDate: "2026-09-16",
 
 	abbreviations: {
-		official: "30C"
+		official: "30C",
+		fr: "ME05.5"
 	}
 }
 

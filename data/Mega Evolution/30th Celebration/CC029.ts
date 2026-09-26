@@ -1,5 +1,5 @@
 import { Card } from "../../../interfaces"
-import Set from "../30th Classic Collection"
+import Set from "../30th Celebration"
 
 const card: Card = {
 	set: Set,
@@ -17,7 +17,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Colorless"],
