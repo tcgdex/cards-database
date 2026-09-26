@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Lucario",
 		es: "Lucario",
 		it: "Lucario",
-		'es-mx': "Lucario"
+		'es-mx': "Lucario",
+		pt: "Lucario"
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Aurasphäre",
 			es: "Esfera Aural",
 			it: "Sferapulsar",
-			'es-mx': "Aura Esfera"
+			'es-mx': "Aura Esfera",
+			pt: "Aura Esférica"
 		},
 
 		effect: {
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 60 Schadenspunkte zu. <em>(Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)</em>",
 			es: "Este ataque también hace 60 puntos de daño a uno de los Pokémon en Banca de tu rival. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca)</em>.",
 			it: "Questo attacco infligge anche 60 danni a uno dei Pokémon nella panchina del tuo avversario. <em>Non applicare debolezza e resistenza ai Pokémon in panchina</em>.",
-			'es-mx': "Este ataque también hace 60 puntos de daño a 1 de los Pokémon en Banca de tu rival. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca).</em>"
+			'es-mx': "Este ataque también hace 60 puntos de daño a 1 de los Pokémon en Banca de tu rival. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca).</em>",
+			pt: "Este ataque também causa 60 pontos de dano a 1 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
 		},
 
 		damage: 100,

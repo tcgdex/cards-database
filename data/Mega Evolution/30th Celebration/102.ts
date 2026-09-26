@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Jirachi-ex",
 		es: "Jirachi ex",
 		it: "Jirachi-ex",
-		'es-mx': "Jirachi ex"
+		'es-mx': "Jirachi ex",
+		pt: "Jirachi ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -29,7 +30,8 @@ const card: Card = {
 			de: "Wunschgewährer",
 			es: "Concededeseos",
 			it: "Avveradesideri",
-			'es-mx': "Cumpledeseos"
+			'es-mx': "Cumpledeseos",
+			pt: "Conceder Desejo"
 		},
 
 		effect: {
@@ -38,7 +40,8 @@ const card: Card = {
 			de: "Ziehe so lange Karten, bis du 7 Karten auf deiner Hand hast.",
 			es: "Roba cartas hasta tener 7 cartas en tu mano.",
 			it: "Pesca fino ad avere sette carte in mano.",
-			'es-mx': "Roba cartas hasta que tengas 7 cartas en tu mano."
+			'es-mx': "Roba cartas hasta que tengas 7 cartas en tu mano.",
+			pt: "Compre cartas até ter 7 cartas na sua mão."
 		},
 
 		cost: ["Colorless"]
@@ -49,7 +52,8 @@ const card: Card = {
 			de: "Sternschauer",
 			es: "Meteoros",
 			it: "Comete",
-			'es-mx': "Meteoros"
+			'es-mx': "Meteoros",
+			pt: "Ataque Veloz"
 		},
 
 		effect: {
@@ -58,7 +62,8 @@ const card: Card = {
 			de: "Der Schaden dieser Attacke wird durch Schwäche oder Resistenz oder Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert.",
 			es: "El daño de este ataque no se ve afectado por Debilidad o Resistencia, ni por ningún efecto en el Pokémon Activo de tu rival.",
 			it: "I danni di questo attacco non sono influenzati dalla debolezza o dalla resistenza, o da alcun effetto presente sul Pokémon attivo del tuo avversario.",
-			'es-mx': "El daño de este ataque no se ve afectado por Debilidad o Resistencia, ni por ningún efecto en el Pokémon Activo de tu rival."
+			'es-mx': "El daño de este ataque no se ve afectado por Debilidad o Resistencia, ni por ningún efecto en el Pokémon Activo de tu rival.",
+			pt: "O dano deste ataque não é afetado por Fraqueza ou Resistência, ou por quaisquer efeitos no Pokémon Ativo do seu oponente."
 		},
 
 		damage: 150,

@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Miniras",
 		es: "Jangmo-o",
 		it: "Jangmo-o",
-		'es-mx': "Jangmo-o"
+		'es-mx': "Jangmo-o",
+		pt: "Jangmo-o"
 	},
 
 	illustrator: "miki kudo",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Kreideschrei",
 			es: "Chirrido",
 			it: "Stridio",
-			'es-mx': "Chillido"
+			'es-mx': "Chillido",
+			pt: "Agudo"
 		},
 
 		effect: {
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Während deines nächsten Zuges werden dem Verteidigenden Pokémon durch Attacken 30 Schadenspunkte mehr zugefügt <em>(nachdem Schwäche und Resistenz verrechnet wurden)</em>.",
 			es: "Durante tu próximo turno, los ataques hacen 30 puntos de daño más al Pokémon Defensor <em>(después de aplicar Debilidad y Resistencia)</em>.",
 			it: "Durante il tuo prossimo turno, il Pokémon difensore subisce 30 danni in più dagli attacchi, <em>dopo aver applicato debolezza e resistenza</em>.",
-			'es-mx': "Durante tu próximo turno, el Pokémon Defensor recibe 30 puntos de daño más de ataques <em>(después de aplicar Debilidad y Resistencia)</em>."
+			'es-mx': "Durante tu próximo turno, el Pokémon Defensor recibe 30 puntos de daño más de ataques <em>(después de aplicar Debilidad y Resistencia)</em>.",
+			pt: "Durante o seu próximo turno, o Pokémon Defensor receberá 30 pontos de dano a mais de ataques (depois de aplicar Fraqueza e Resistência)."
 		},
 
 		cost: ["Colorless"]
@@ -52,7 +55,8 @@ const card: Card = {
 			de: "Drachenklaue",
 			es: "Garra Dragón",
 			it: "Dragartigli",
-			'es-mx': "Garra Dragón"
+			'es-mx': "Garra Dragón",
+			pt: "Garra de Dragão"
 		},
 
 		damage: 40,

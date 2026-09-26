@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Mediras",
 		es: "Hakamo-o",
 		it: "Hakamo-o",
-		'es-mx': "Hakamo-o"
+		'es-mx': "Hakamo-o",
+		pt: "Hakamo-o"
 	},
 
 	illustrator: "Jiro Sasumo",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Scharfe Fänge",
 			es: "Colmillo Afilado",
 			it: "Zannaffilata",
-			'es-mx': "Colmillo Afilado"
+			'es-mx': "Colmillo Afilado",
+			pt: "Presa Afiada"
 		},
 
 		damage: 20,
@@ -44,7 +46,8 @@ const card: Card = {
 			de: "Drachenklaue",
 			es: "Garra Dragón",
 			it: "Dragartigli",
-			'es-mx': "Garra Dragón"
+			'es-mx': "Garra Dragón",
+			pt: "Garra de Dragão"
 		},
 
 		damage: 70,

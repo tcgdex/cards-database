@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Groudon",
 		es: "Groudon",
 		it: "Groudon",
-		'es-mx': "Groudon"
+		'es-mx': "Groudon",
+		pt: "Groudon"
 	},
 
 	illustrator: "Takumi Wada",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Boden gewinnen",
 			es: "Romper Suelo",
 			it: "Distruggiterra",
-			'es-mx': "Rompesuelo"
+			'es-mx': "Rompesuelo",
+			pt: "Quebra Chão"
 		},
 
 		effect: {
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Diese Attacke fügt auch jedem Pokémon auf deiner Bank 20 Schadenspunkte zu. <em>(Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)</em>",
 			es: "Este ataque también hace 20 puntos de daño a cada uno de tus Pokémon en Banca. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca</em>).",
 			it: "Questo attacco infligge anche 20 danni a ciascuno dei Pokémon nella tua panchina. <em>Non applicare debolezza e resistenza ai Pokémon in panchina</em>.",
-			'es-mx': "Este ataque también hace 20 puntos de daño a cada uno de tus Pokémon en Banca. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca).</em>"
+			'es-mx': "Este ataque también hace 20 puntos de daño a cada uno de tus Pokémon en Banca. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca).</em>",
+			pt: "Este ataque também causa 20 pontos de dano a cada um dos seus Pokémon no Banco. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
 		},
 
 		damage: 250,

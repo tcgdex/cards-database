@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Meteno",
 		es: "Minior",
 		it: "Minior",
-		'es-mx': "Minior"
+		'es-mx': "Minior",
+		pt: "Minior"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Meteorsalve",
 			es: "Disparo de Meteoros",
 			it: "Sparameteore",
-			'es-mx': "Meteodisparo"
+			'es-mx': "Meteodisparo",
+			pt: "Disparar Meteoros"
 		},
 
 		effect: {
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel, und diese Attacke fügt 1 Pokémon deines Gegners 120 Schadenspunkte zu. <em>(Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)</em>",
 			es: "Descarta todas las Energías de este Pokémon, y este ataque hace 120 puntos de daño a uno de los Pokémon de tu rival. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca)</em>.",
 			it: "Scarta tutte le Energie da questo Pokémon e questo attacco infligge 120 danni a uno dei Pokémon del tuo avversario. <em>Non applicare debolezza e resistenza ai Pokémon in panchina</em>.",
-			'es-mx': "Descarta todas las Energías de este Pokémon, y este ataque hace 120 puntos de daño a 1 de los Pokémon de tu rival. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca).</em>"
+			'es-mx': "Descarta todas las Energías de este Pokémon, y este ataque hace 120 puntos de daño a 1 de los Pokémon de tu rival. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca).</em>",
+			pt: "Descarte todas as Energias deste Pokémon, e este ataque causa 120 pontos de dano a 1 dos Pokémon do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
 		},
 
 		cost: ["Colorless", "Colorless", "Colorless"]

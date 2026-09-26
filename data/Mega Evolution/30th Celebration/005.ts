@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Tropius",
 		es: "Tropius",
 		it: "Tropius",
-		'es-mx': "Tropius"
+		'es-mx': "Tropius",
+		pt: "Tropius"
 	},
 
 	illustrator: "Minahamu",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Aufholjagd",
 			es: "Apoyo Vengativo",
 			it: "Radunata Rinforzi",
-			'es-mx': "Venganza Solidaria"
+			'es-mx': "Venganza Solidaria",
+			pt: "Responder à Altura"
 		},
 
 		effect: {
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke kampfunfähig wurde, fügt diese Attacke 90 Schadenspunkte mehr zu.",
 			es: "Si alguno de tus Pokémon quedó Fuera de Combate por el daño de un ataque durante el último turno de tu rival, este ataque hace 90 puntos de daño más.",
 			it: "Se uno qualsiasi dei tuoi Pokémon è stato messo KO dai danni inflitti da un attacco durante l'ultimo turno del tuo avversario, questo attacco infligge 90 danni in più.",
-			'es-mx': "Si alguno de tus Pokémon quedó Fuera de Combate por el daño de un ataque durante el último turno de tu rival, este ataque hace 90 puntos de daño más."
+			'es-mx': "Si alguno de tus Pokémon quedó Fuera de Combate por el daño de un ataque durante el último turno de tu rival, este ataque hace 90 puntos de daño más.",
+			pt: "Se algum dos seus Pokémon tiver sido Nocauteado pelo dano de um ataque durante o último turno do seu oponente, este ataque causará 90 pontos de dano a mais."
 		},
 
 		damage: "30+",
@@ -53,7 +56,8 @@ const card: Card = {
 			de: "Schneidender Wind",
 			es: "Viento Helado",
 			it: "Vento Tagliente",
-			'es-mx': "Viento Tajante"
+			'es-mx': "Viento Tajante",
+			pt: "Vento Dilacerante"
 		},
 
 		damage: 90,

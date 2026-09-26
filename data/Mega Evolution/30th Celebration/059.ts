@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Riffex",
 		es: "Toxtricity",
 		it: "Toxtricity",
-		'es-mx': "Toxtricity"
+		'es-mx': "Toxtricity",
+		pt: "Toxtricity"
 	},
 
 	illustrator: "Haru Akasaka",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Flotter Sprung",
 			es: "Rayo Mach",
 			it: "Fulmine Mach",
-			'es-mx': "Superrayo"
+			'es-mx': "Superrayo",
+			pt: "Raio Supersônico"
 		},
 
 		damage: 80,

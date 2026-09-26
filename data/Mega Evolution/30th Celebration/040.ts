@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu"
+		'es-mx': "Pikachu",
+		pt: "Pikachu"
 	},
 
 	illustrator: "Shinji Kanda",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Wechselblitz",
 			es: "Rayo Reemplazo",
 			it: "Fulmine Alterante",
-			'es-mx': "Rayo Reescritor"
+			'es-mx': "Rayo Reescritor",
+			pt: "Raio Sobrescritor"
 		},
 
 		effect: {
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Die Schwäche des Verteidigenden Pokémon ist bis zum Ende deines nächsten Zuges jetzt <span class=\"energy-symbol Lightning\" title=\"Elektro\">Lightning</span>. <em>(Verrechne Schwäche als ×2.)</em>",
 			es: "La Debilidad del Pokémon Defensor pasa a ser <span class=\"energy-symbol Lightning\" title=\"Rayo\">Lightning</span> hasta el final de tu próximo turno. <em>(Aplica una Debilidad de × 2)</em>.",
 			it: "La debolezza del Pokémon difensore diventa <span class=\"energy-symbol Lightning\" title=\"Lampo\">Lightning</span> fino alla fine del tuo prossimo turno. <em>La debolezza è</em><em> ×2</em>.",
-			'es-mx': "La Debilidad del Pokémon Defensor ahora es <span class=\"energy-symbol Lightning\" title=\"Rayo\">Lightning</span> hasta el final de tu próximo turno. <em>(Aplica</em> <em>Debilidad de × 2).</em>"
+			'es-mx': "La Debilidad del Pokémon Defensor ahora es <span class=\"energy-symbol Lightning\" title=\"Rayo\">Lightning</span> hasta el final de tu próximo turno. <em>(Aplica</em> <em>Debilidad de × 2).</em>",
+			pt: "A Fraqueza do Pokémon Defensor agora é Lightning até o final do seu próximo turno. (Aplique Fraqueza de ×2.)"
 		},
 
 		damage: 10,

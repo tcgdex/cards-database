@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu"
+		'es-mx': "Pikachu",
+		pt: "Pikachu"
 	},
 
 	illustrator: "Akira Komayama",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Ladespurt",
 			es: "Recarga Veloz",
 			it: "Caricascatto",
-			'es-mx': "Recarga Veloz"
+			'es-mx': "Recarga Veloz",
+			pt: "Disparada Carregada"
 		},
 
 		effect: {
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Durchsuche dein Deck nach bis zu so vielen Basis-<span class=\"energy-symbol Lightning\" title=\"Elektro\">Lightning</span>-Energien, wie du Kopf geworfen hast, und lege sie an dieses Pokémon an. Mische anschließend dein Deck.",
 			es: "Lanza 1 moneda hasta que salga cruz. Busca en tu baraja una cantidad de Energías <span class=\"energy-symbol Lightning\" title=\"Rayo\">Lightning</span> Básicas igual o inferior al número de caras que hayan salido y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
 			it: "Lancia una moneta finché non esce croce. Cerca nel tuo mazzo un numero di Energie base <span class=\"energy-symbol Lightning\" title=\"Lampo\">Lightning</span> uguale o inferiore al numero di volte in cui è uscito testa e assegnale a questo Pokémon. Poi rimischia il tuo mazzo.",
-			'es-mx': "Lanza 1 moneda hasta que salga cruz. Busca en tu mazo una cantidad de Energías <span class=\"energy-symbol Lightning\" title=\"Rayo\">Lightning</span> Básicas igual o inferior al número de caras que salieron y únelas a este Pokémon. Después, baraja tu mazo."
+			'es-mx': "Lanza 1 moneda hasta que salga cruz. Busca en tu mazo una cantidad de Energías <span class=\"energy-symbol Lightning\" title=\"Rayo\">Lightning</span> Básicas igual o inferior al número de caras que salieron y únelas a este Pokémon. Después, baraja tu mazo.",
+			pt: "Jogue uma moeda até sair coroa. Procure por uma quantidade de Energia Lightning Básica no seu baralho até o número de caras e ligue-as a este Pokémon. Em seguida, embaralhe o seu baralho."
 		},
 
 		cost: ["Colorless"]
@@ -52,7 +55,8 @@ const card: Card = {
 			de: "Pikaschuss",
 			es: "Rayo Pika",
 			it: "Pikafulmine",
-			'es-mx': "Pikarrayo"
+			'es-mx': "Pikarrayo",
+			pt: "Relâmpagochu"
 		},
 
 		damage: 50,

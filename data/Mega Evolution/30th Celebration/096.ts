@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Zoroark",
 		es: "Zoroark",
 		it: "Zoroark",
-		'es-mx': "Zoroark"
+		'es-mx': "Zoroark",
+		pt: "Zoroark"
 	},
 
 	illustrator: "Shiburingaru",
@@ -34,7 +35,8 @@ const card: Card = {
 			de: "Nächtlicher Schleichweg",
 			es: "Desvío Nocturno",
 			it: "Scorciatoia nell'Oscurità",
-			'es-mx': "Atajo Nocturno"
+			'es-mx': "Atajo Nocturno",
+			pt: "Atalho Noturno"
 		},
 
 		effect: {
@@ -43,7 +45,8 @@ const card: Card = {
 			de: "Solange sich dieses Pokémon auf deiner Bank befindet, verringern sich die Rückzugskosten deines Aktiven Pokémon um ColorlessColorless.",
 			es: "Mientras este Pokémon esté en tu Banca, el Coste de Retirada de tu Pokémon Activo es de ColorlessColorless menos.",
 			it: "Fintanto che questo Pokémon è nella tua panchina, il costo di ritirata del tuo Pokémon attivo è ridotto di ColorlessColorless.",
-			'es-mx': "Mientras este Pokémon esté en tu Banca, el Costo de Retirada de tu Pokémon Activo es de ColorlessColorless menos."
+			'es-mx': "Mientras este Pokémon esté en tu Banca, el Costo de Retirada de tu Pokémon Activo es de ColorlessColorless menos.",
+			pt: "Enquanto este Pokémon estiver no seu Banco, o Custo de Recuo do seu Pokémon Ativo será ColorlessColorless a menos."
 		}
 	}],
 
@@ -54,7 +57,8 @@ const card: Card = {
 			de: "Schlitzende Klaue",
 			es: "Garra Cuchillazo",
 			it: "Artigli Laceranti",
-			'es-mx': "Garra Cortante"
+			'es-mx': "Garra Cortante",
+			pt: "Garra Cortadora"
 		},
 
 		damage: 90,

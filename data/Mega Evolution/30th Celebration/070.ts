@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Psiana-ex",
 		es: "Espeon ex",
 		it: "Espeon-ex",
-		'es-mx': "Espeon ex"
+		'es-mx': "Espeon ex",
+		pt: "Espeon ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -29,7 +30,8 @@ const card: Card = {
 			de: "Solarniederprügler",
 			es: "Insolación",
 			it: "Batosta Solare",
-			'es-mx': "Derrumbe Solar"
+			'es-mx': "Derrumbe Solar",
+			pt: "Surra Solar 30×"
 		},
 
 		effect: {
@@ -38,7 +40,8 @@ const card: Card = {
 			de: "Diese Attacke fügt für jedes deiner Pokémon im Spiel 30 Schadenspunkte zu.",
 			es: "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon en juego.",
 			it: "Questo attacco infligge 30 danni per ciascuno dei tuoi Pokémon in gioco.",
-			'es-mx': "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon en juego."
+			'es-mx': "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon en juego.",
+			pt: "Este ataque causa 30 pontos de dano para cada um dos seus Pokémon em jogo."
 		},
 
 		damage: "30×",

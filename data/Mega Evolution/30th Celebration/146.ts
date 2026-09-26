@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Famieps",
 		es: "Maushold",
 		it: "Maushold",
-		'es-mx': "Maushold"
+		'es-mx': "Maushold",
+		pt: "Maushold"
 	},
 
 	illustrator: "osare",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Gemeinsames Nagen",
 			es: "Roer en Compañía",
 			it: "Rosicchiamento Collettivo",
-			'es-mx': "Mordisqueo en Compañía"
+			'es-mx': "Mordisqueo en Compañía",
+			pt: "Reunião de Roídas"
 		},
 
 		effect: {
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Wirf 1 Münze für jedes Famieps, das du im Spiel hast. Lege pro Kopf die obersten 2 Karten des Decks deines Gegners auf seinen Ablagestapel.",
 			es: "Lanza 1 moneda por cada Maushold que tengas en juego. Por cada cara, descarta las 2 primeras cartas de la baraja de tu rival.",
 			it: "Lancia una moneta per ogni Maushold che hai in gioco. Ogni volta che esce testa, scarta le prime due carte del mazzo del tuo avversario.",
-			'es-mx': "Lanza 1 moneda por cada Maushold que tengas en juego. Por cada cara, descarta las primeras 2 cartas del mazo de tu rival."
+			'es-mx': "Lanza 1 moneda por cada Maushold que tengas en juego. Por cada cara, descarta las primeras 2 cartas del mazo de tu rival.",
+			pt: "Jogue uma moeda para cada Maushold que você tem em jogo. Para cada cara, descarte as 2 cartas de cima do baralho do seu oponente."
 		},
 
 		cost: ["Colorless"]
@@ -52,7 +55,8 @@ const card: Card = {
 			de: "Klaps",
 			es: "Destructor",
 			it: "Botta",
-			'es-mx': "Destructor"
+			'es-mx': "Destructor",
+			pt: "Pancada"
 		},
 
 		damage: 40,

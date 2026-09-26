@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu"
+		'es-mx': "Pikachu",
+		pt: "Pikachu"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Energieschweif",
 			es: "Cola Energética",
 			it: "Coda Energizzata",
-			'es-mx': "Cola Energética"
+			'es-mx': "Cola Energética",
+			pt: "Cauda Energizada"
 		},
 
 		effect: {
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Durchsuche dein Deck nach 1 Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
 			es: "Busca en tu baraja 1 carta de Energía, enséñala y ponla en tu mano. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo una carta Energia, mostrala e aggiungila alle carte che hai in mano. Poi rimischia il tuo mazzo.",
-			'es-mx': "Busca en tu mazo 1 carta de Energía, muéstrala y ponla en tu mano. Después, baraja tu mazo."
+			'es-mx': "Busca en tu mazo 1 carta de Energía, muéstrala y ponla en tu mano. Después, baraja tu mazo.",
+			pt: "Procure por uma carta de Energia no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho."
 		},
 
 		cost: ["Colorless"]
@@ -52,7 +55,8 @@ const card: Card = {
 			de: "Pikahieb",
 			es: "Pika Puño",
 			it: "Pika Pugno",
-			'es-mx': "Pikapuño"
+			'es-mx': "Pikapuño",
+			pt: "Soco Pikachu"
 		},
 
 		damage: 30,

@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Icognito",
 		es: "Unown",
 		it: "Unown",
-		'es-mx': "Unown"
+		'es-mx': "Unown",
+		pt: "Unown"
 	},
 
 	illustrator: "mingo",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Geheimnisvolles Signal",
 			es: "Señal Misteriosa",
 			it: "Segnale Misterioso",
-			'es-mx': "Señal Misteriosa"
+			'es-mx': "Señal Misteriosa",
+			pt: "Sinal Misterioso"
 		},
 
 		effect: {
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Wenn das Pokémon deines Gegners durch Schaden dieser Attacke kampfunfähig wird, nimm 1 Preiskarte mehr.",
 			es: "Si un Pokémon de tu rival queda Fuera de Combate por el daño de este ataque, coge 1 carta de Premio más.",
 			it: "Se un Pokémon del tuo avversario viene messo KO dai danni di questo attacco, prendi una carta Premio in più.",
-			'es-mx': "Si el Pokémon de tu rival queda Fuera de Combate por el daño de este ataque, toma 1 carta de Premio más."
+			'es-mx': "Si el Pokémon de tu rival queda Fuera de Combate por el daño de este ataque, toma 1 carta de Premio más.",
+			pt: "Se o Pokémon do seu oponente for Nocauteado pelo dano deste ataque, pegue 1 carta de Prêmio a mais."
 		},
 
 		damage: 40,
