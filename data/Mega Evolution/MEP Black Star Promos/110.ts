@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Umbreon ex",
+		es: "Umbreon ex",
 	},
 
 	suffix: "ex",
@@ -19,6 +20,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
+		es: "Eevee",
 	},
 
 	attacks: [{
@@ -26,10 +28,12 @@ const card: Card = {
 
 		name: {
 			en: "Lunatic Claw",
+			es: "Garra Lunática",
 		},
 
 		effect: {
 			en: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 140 more damage.",
+			es: "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 140 puntos de daño más.",
 		},
 
 		damage: "100+"

@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Alolan Exeggutor",
+		es: "Exeggutor de Alola"
 	},
 
 	illustrator: "yuu",
@@ -18,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Exeggcute",
+		es: "Exeggcute"
 	},
 
 	abilities: [{
@@ -25,10 +27,12 @@ const card: Card = {
 
 		name: {
 			en: "Scale Up",
+			es: "Crecer",
 		},
 
 		effect: {
 			en: "If this Pokémon has 6 or more {G} Energy attached, it gets +250 HP.",
+			es: "Si este Pokémon tiene 6 Energías {G} o más unidas, obtiene 250 PS más.",
 		}
 	}],
 
@@ -37,10 +41,12 @@ const card: Card = {
 
 		name: {
 			en: "Mega Drain",
+			es: "Megaagotar",
 		},
 
 		effect: {
 			en: "Heal 50 damage from this Pokémon.",
+			es: "Cura 50 puntos de daño a este Pokémon.",
 		},
 
 		damage: 150

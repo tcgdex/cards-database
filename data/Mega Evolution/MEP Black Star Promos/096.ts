@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Moltres",
+		es: "Moltres",
 	},
 
 	illustrator: "Krgc",
@@ -21,10 +22,12 @@ const card: Card = {
 
 		name: {
 			en: "Fiery Flapping",
+			es: "Aleteo Abrasador",
 		},
 
 		effect: {
 			en: "Once during your turn, if you have Articuno and Zapdos in play, you may use this Ability. Attach a Basic {R} Energy card from your hand to this Pokémon.",
+			es: "Una vez durante tu turno, si tienes a Articuno y a Zapdos en juego, puedes usar esta habilidad. Une 1 carta de Energía {R} Básica de tu mano a este Pokémon.",
 		}
 	}],
 
@@ -33,10 +36,12 @@ const card: Card = {
 
 		name: {
 			en: "Fire Spin",
+			es: "Giro Fuego",
 		},
 
 		effect: {
 			en: "Discard 2 Energy from this Pokémon.",
+			es: "Descarta 2 energías de este Pokémon.",
 		},
 
 		damage: 130

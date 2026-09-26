@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Mewtwo",
+		es: "Mewtwo",
 	},
 
 	illustrator: "Nisota Niso",
@@ -21,10 +22,12 @@ const card: Card = {
 
 		name: {
 			en: "Empower",
+			es: "Empoderar",
 		},
 
 		effect: {
 			en: "Attach up to 2 Basic Energy cards from your discard pile to 1 of your Pokémon.",
+			es: "Une hasta 2 cartas de Energía Básica de tu pila de descartes a uno de tus Pokémon.",
 		}
 	},
 	{
@@ -32,10 +35,12 @@ const card: Card = {
 
 		name: {
 			en: "Psydrive",
+			es: "Guía Psi",
 		},
 
 		effect: {
 			en: "Discard an Energy from this Pokémon.",
+			es: "Descarta 1 Energía de este Pokémon.",
 		},
 
 		damage: 120
