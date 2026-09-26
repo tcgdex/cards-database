@@ -58,11 +58,13 @@ const card: Card = {
 
 	abilities: [{
 		name: {
+			en: "[Increase]",
 			fr: "[Increase]",
 			de: "Increase"
 		},
 
 		effect: {
+			en: "When you play Unown [I] from your hand, you may search your deck for a card with Unown in its name and put it onto your Bench. Shuffle your deck afterward. You can’t use this power if your Bench is full.",
 			fr: "Quand vous jouez Zarbi [I] depuis votre main, vous pouvez chercher dans votre deck une autre carte Zarbi et la placer sur votre Banc. Mélangez ensuite votre deck. Vous ne pouvez pas utiliser ce pouvoir si votre Banc est plein.",
 			de: "Wenn du Icognito I aus deiner hand ausspielst, kannst du dein Deck nach einer Karte, die icognito in ihren Namen hat, durchsuchen und diese auf deine Bank legen. Mische danach dein Deck. Du kannst diese Fähigkeit nicht anwenden, wenn deine Bank voll ist."
 		},
