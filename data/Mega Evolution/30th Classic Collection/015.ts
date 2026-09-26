@@ -17,7 +17,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "None",
+	rarity: "Classic Collection",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Colorless"],

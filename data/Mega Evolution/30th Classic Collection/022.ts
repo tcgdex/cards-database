@@ -17,7 +17,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ryo Ueda",
-	rarity: "None",
+	rarity: "Classic Collection",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Water"],

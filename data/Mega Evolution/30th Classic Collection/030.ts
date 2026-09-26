@@ -17,7 +17,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shinji Kanda",
-	rarity: "None",
+	rarity: "Classic Collection",
 	category: "Pokemon",
 	hp: 30,
 	types: ["Water"],

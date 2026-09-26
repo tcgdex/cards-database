@@ -17,7 +17,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shinji Higuchi",
-	rarity: "None",
+	rarity: "Classic Collection",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Psychic"],

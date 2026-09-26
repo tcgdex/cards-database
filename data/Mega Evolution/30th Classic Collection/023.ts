@@ -17,7 +17,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Classic Collection",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Fairy"],
