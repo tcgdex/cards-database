@@ -4,6 +4,8 @@ import Set from "../Surging Sparks"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [944],
+
 	name: {
 		en: "Gravity Mountain",
 		fr: "Montagne Gravité",

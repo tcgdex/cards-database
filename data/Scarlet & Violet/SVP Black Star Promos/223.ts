@@ -4,6 +4,8 @@ import Set from "../SVP Black Star Promos"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [823],
+
 	name: {
 		en: "Professor's Research",
 		fr: "Recherches Professorales",

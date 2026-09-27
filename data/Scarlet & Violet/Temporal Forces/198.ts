@@ -4,6 +4,8 @@ import Set from "../Temporal Forces"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [1008],
+
 	name: {
 		en: "Ciphermaniac's Codebreaking",
 		fr: "Décodage de Décryptomane",

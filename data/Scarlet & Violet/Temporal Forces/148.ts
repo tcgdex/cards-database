@@ -4,6 +4,8 @@ import Set from "../Temporal Forces"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [1007],
+
 	name: {
 		en: "Full Metal Lab",
 		fr: "Labo Métal Pur",

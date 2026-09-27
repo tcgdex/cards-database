@@ -4,6 +4,8 @@ import Set from "../Stellar Crown"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [345],
+
 	name: {
 		en: "Antique Root Fossil",
 		fr: "Fossile Racine Ancien",

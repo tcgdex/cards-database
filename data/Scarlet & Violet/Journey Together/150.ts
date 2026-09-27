@@ -4,6 +4,8 @@ import Set from "../Journey Together"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [479, 906, 910, 913],
+
 	name: {
 		en: "Levincia",
 		fr: "Levalendura",

@@ -4,6 +4,8 @@ import Set from "../Destined Rivals"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [276],
+
 	name: {
 		en: "Jamming Tower",
 		fr: "Tour de Brouillage",

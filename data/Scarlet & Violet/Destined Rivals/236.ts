@@ -4,6 +4,8 @@ import Set from "../Destined Rivals"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [155, 172, 218],
+
 	name: {
 		en: "Ethan's Adventure",
 		fr: "Aventure de Luth",
