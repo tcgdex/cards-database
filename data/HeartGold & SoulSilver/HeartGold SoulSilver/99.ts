@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [160, 233],
+
 	effect: {
 		fr: "Lancez une pièce. Si c’est face, choisissez un Pokémon du Banc de votre adversaire et échangez-le avec son Pokémon actif.",
 		en: "Flip a coin. If heads, choose 1 of your opponent's Benched Pokémon, and switch it with your opponent's Active Pokémon.",

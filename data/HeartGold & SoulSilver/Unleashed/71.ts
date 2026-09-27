@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [315, 374],
+
 	effect: {
 		fr: "Piochez 3 cartes. Votre adversaire peut piocher une carte.",
 		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Draw 3 cards. Your opponent may draw a card.",

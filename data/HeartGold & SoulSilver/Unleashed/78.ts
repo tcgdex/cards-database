@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [374],
+
 	effect: {
 		fr: "Chaque joueur mélange sa main avec son deck, puis pioche 4 cartes (c’est vous qui piochez en premier).",
 		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Each player shuffles his or her hand into his or her deck and draws 4 cards.",
