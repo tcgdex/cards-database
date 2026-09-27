@@ -12,6 +12,9 @@ const card: Card = {
 	rarity: "Common",
 	category: "Trainer",
 	set: Set,
+
+	cameoDexIds: [138, 141, 142],
+
 	hp: 50,
 	trainerType: "Item",
 

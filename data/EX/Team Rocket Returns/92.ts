@@ -11,6 +11,9 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
+
+	cameoDexIds: [258, 311],
+
 	trainerType: "Rocket's Secret Machine",
 
 	effect: {
