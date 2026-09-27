@@ -4,6 +4,8 @@ import Set from "../Perfect Order"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [698],
+
 	name: {
 		en: "Antique Sail Fossil",
 		fr: "Fossile Nageoire Ancien",

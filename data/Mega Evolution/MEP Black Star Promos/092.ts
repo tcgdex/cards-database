@@ -4,6 +4,8 @@ import Set from "../MEP Black Star Promos"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [25, 54, 185, 363, 700, 737, 926, 950, 999, 1018],
+
 	name: {
 		en: "Paradise Resort",
 	},

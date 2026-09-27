@@ -24,6 +24,9 @@ const card: Card = {
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	dexId: [181],
+
+	cameoDexIds: [179],
+
 	hp: 160,
 	types: ["Lightning"],
 

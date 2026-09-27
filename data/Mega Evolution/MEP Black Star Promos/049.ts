@@ -22,6 +22,10 @@ name: {
 	stage: "Basic",
 	dexId: [495],
 
+
+
+	cameoDexIds: [25, 582],
+
 	attacks: [{
 		cost: ["Colorless"],
 

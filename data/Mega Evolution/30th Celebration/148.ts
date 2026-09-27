@@ -17,6 +17,9 @@ const card: Card = {
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 	dexId: [658],
+
+	cameoDexIds: [25, 133, 314, 448],
+
 	hp: 300,
 	types: ["Water"],
 	stage: "Basic",

@@ -21,6 +21,9 @@ const card: Card = {
 	rarity: "Pikachu Rare",
 	category: "Pokemon",
 	dexId: [25],
+
+	cameoDexIds: [132, 172],
+
 	hp: 60,
 	types: ["Lightning"],
 	stage: "Basic",
