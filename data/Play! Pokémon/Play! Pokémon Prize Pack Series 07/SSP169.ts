@@ -1,0 +1,41 @@
+import { Card } from "../../../interfaces"
+import Set from "../Play! Pokémon Prize Pack Series 07"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		en: "Counter Gain",
+		fr: "Rattrape-Riposte",
+		es: "Alcance Contraataque",
+		it: "Contrappeso",
+		pt: "Contra-ataque de Alcance",
+		de: "Kontergewinn"
+	},
+
+	rarity: "Uncommon",
+	category: "Trainer",
+
+	effect: {
+		en: "If you have more Prize cards remaining than your opponent, attacks used by the Pokémon this card is attached to cost {C} less.",
+		fr: "S'il vous reste plus de cartes Récompense qu'à votre adversaire, les attaques utilisées par le Pokémon auquel cette carte est attachée coûtent {C} de moins.",
+		es: "Si te quedan más cartas de Premio que a tu rival, los ataques usados por el Pokémon al que esté unida esta carta cuestan {C} menos.",
+		it: "Se hai più carte Premio rimanenti del tuo avversario, il costo degli attacchi usati dal Pokémon a cui è assegnata questa carta è ridotto di {C}.",
+		pt: "Se você tiver mais cartas de Prêmio restantes do que seu oponente, os ataques usados pelo Pokémon ao qual esta carta está ligada custarão {C} a menos.",
+		de: "Wenn du mehr verbleibende Preiskarten hast als dein Gegner, verringern sich die Kosten der eingesetzten Attacken von dem Pokémon, an das diese Karte angelegt ist, um {C}. Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt."
+	},
+
+	trainerType: "Tool",
+	regulationMark: "H",
+
+	variants: [
+		{
+			type: "normal",
+		},
+	],
+
+	illustrator: "Toyste Beach",
+
+}
+
+export default card
