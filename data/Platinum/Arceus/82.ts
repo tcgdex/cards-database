@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [493],
+
 	effect: {
 		en: "Search your deck for Arceus, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 		de: "Durchsuche dein Deck nach 1 Arceus-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
