@@ -1,0 +1,82 @@
+import { Card } from "../../../interfaces"
+import Set from "../Play! Pokémon Prize Pack Series 03"
+
+const card: Card = {
+	dexId: [249],
+	set: Set,
+
+	name: {
+		en: "Lugia VSTAR",
+		fr: "Lugia VSTAR",
+		es: "Lugia V-ASTRO",
+		it: "Lugia V ASTRO",
+		pt: "Lugia V-ASTRO",
+		de: "Lugia VSTAR"
+	},
+
+	illustrator: "PLANETA Mochizuki",
+	rarity: "Holo Rare VSTAR",
+	category: "Pokemon",
+	hp: 280,
+	types: ["Colorless"],
+
+	evolveFrom: {
+		en: "Lugia V",
+		fr: "Lugia-V",
+		es: "Lugia V",
+		it: "Lugia-V",
+		pt: "Lugia V",
+		de: "Lugia VSTAR"
+	},
+
+	stage: "VSTAR",
+	suffix: "V",
+
+	attacks: [{
+		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+
+		name: {
+			en: "Tempest Dive",
+			fr: "Plongée Tempétueuse",
+			es: "Zambullida Tempestad",
+			it: "Immersione Tempestosa",
+			pt: "Mergulho Tempestuoso",
+			de: "Sturmwindflug"
+		},
+
+		effect: {
+			en: "You may discard a Stadium in play.",
+			fr: "Vous pouvez défausser un Stade en jeu.",
+			es: "Puedes descartar un Estadio en juego.",
+			it: "Puoi scartare una carta Stadio in gioco.",
+			pt: "Você pode descartar 1 Estádio em jogo.",
+			de: "Du kannst 1 Stadionkarte im Spiel auf den Ablagestapel legen."
+		},
+
+		damage: 220
+	}],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
+	retreat: 2,
+	regulationMark: "F",
+
+
+	variants: [
+		{
+			type: "holo",
+		},
+	],
+}
+
+export default card
