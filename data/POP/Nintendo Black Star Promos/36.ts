@@ -12,6 +12,8 @@ const card: Card = {
 
 	set: Set,
 
+	cameoDexIds: [25, 54, 320, 446],
+
 	trainerType: "Item",
 
 	variants: [
