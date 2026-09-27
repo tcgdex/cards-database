@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [506],
+
 	effect: {
 		fr: "Ajoute 20 PV à chacun des Pokémon Colorless en jeu (les vôtres et ceux de votre adversaire).",
 		en: "Each Colorless Pokémon in play (both yours and your opponent’s) gets +20 HP.",
