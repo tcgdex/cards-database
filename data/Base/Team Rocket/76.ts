@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [94, 109],
+
 	effect: {
 		en: "Discard a card from your hand in order to play this card. Your opponent shuffles his or her hand into his or her deck, then draws 4 cards.",
 		fr: "Défaussez une carte de votre main pour pouvoir jouer cette carte. Votre adversaire mélange sa main avec son deck, puis pioche 4 cartes.",

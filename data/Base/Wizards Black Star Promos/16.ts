@@ -11,6 +11,8 @@ const card: Card = {
 
 	set: Set,
 
+	cameoDexIds: [69, 81, 83, 95, 143],
+
 	effect: {
 		en: "You may draw up to 5 cards, then your opponent may draw up to 5 cards. Your turn is over now (you don't get to attack).",
 	},
