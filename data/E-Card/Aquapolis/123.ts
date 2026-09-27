@@ -14,6 +14,8 @@ const card: Card = {
 	trainerType: "Supporter",
 	set: Set,
 
+	cameoDexIds: [163, 164],
+
 	effect: {
 		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Shuffle your deck. Then, look at the top 7 cards of your deck. Choose 1 of those cards and put it into your hand. Shuffle the rest into your deck afterward.",
 		fr: "Mélangez votre deck. Regardez ensuite les 7 cartes du dessus de votre deck. Choisissez une de ces cartes et ajoutez-la à votre main. Mélangez ensuite le reste à votre deck.",

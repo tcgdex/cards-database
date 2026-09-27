@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [183],
+
 	effect: {
 		en: "Flip a coin. If heads, choose 1 Energy card attached to 1 of your opponent's Pokémon and discard it.",
 		fr: "Lancez une pièce. Si c'est face, choisissez une carte Énergie attachée à l'un des Pokémon de votre adversaire et obligez-le à s'en défausser.",
