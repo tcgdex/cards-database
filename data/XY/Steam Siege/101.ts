@@ -15,7 +15,6 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
-	cameoDexIds: [282],
 
 	effect: {
 		fr: "Votre tour ne se termine pas si le Pokémon auquel cette carte est attachée devient M-Gardevoir-EX.",

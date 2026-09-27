@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [504],
+
 	effect: {
 		fr: "Piochez des cartes jusqu'à ce que vous ayez le même nombre de cartes dans votre main que votre adversaire.",
 		en: "Draw cards until you have the same number of cards in your hand as your opponent.",

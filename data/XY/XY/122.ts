@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [548, 561, 562],
+
 	effect: {
 		fr: "Défaussez votre main et piochez 7 cartes.",
 		en: "Discard your hand and draw 7 cards.",
