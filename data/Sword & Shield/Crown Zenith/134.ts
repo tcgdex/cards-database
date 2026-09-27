@@ -4,6 +4,8 @@ import Set from "../Crown Zenith"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [823],
+
 	name: {
 		en: "Leon",
 		fr: "Tarak",

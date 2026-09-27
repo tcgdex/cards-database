@@ -3,6 +3,9 @@ import Set from "../Silver Tempest Trainer Gallery"
 
 const card: Card = {
 	dexId: [884],
+
+	cameoDexIds: [479],
+
 	set: Set,
 
 	name: {

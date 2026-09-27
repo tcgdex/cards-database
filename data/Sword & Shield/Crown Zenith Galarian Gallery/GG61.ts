@@ -4,6 +4,8 @@ import Set from "../Crown Zenith Galarian Gallery"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [2, 182, 420, 421],
+
 	name: {
 		en: "Gardenia's Vigor",
 		fr: "Vitalité de Flo",
