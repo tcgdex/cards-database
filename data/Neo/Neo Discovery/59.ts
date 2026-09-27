@@ -17,6 +17,10 @@ const card: Card = {
 		177,
 	],
 
+
+
+	cameoDexIds: [178],
+
 	hp: 40,
 
 	types: [
@@ -88,4 +92,3 @@ const card: Card = {
 }
 
 export default card
-
