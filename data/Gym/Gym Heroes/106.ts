@@ -11,6 +11,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [95],
+
 	effect: {
 		en: "Search your deck for a Basic Pokémon or Evolution card with Brock in its name. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
 	},
@@ -33,4 +35,3 @@ const card: Card = {
 }
 
 export default card
-

@@ -11,6 +11,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [125],
+
 	effect: {
 		en: "Your opponent chooses 1 of the following: everyone chooses 1 of his or her own Prizes and put it into his or her hand, or you draw a card."
 	},
@@ -33,4 +35,3 @@ const card: Card = {
 }
 
 export default card
-
