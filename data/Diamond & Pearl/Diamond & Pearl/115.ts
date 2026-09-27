@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [393],
+
 	effect: {
 		en: "Flip a coin. If heads, return 1 of your Pokémon and all cards attached to it to your hand.",
 		fr: "Lancez une pièce. Si c'est face, reprenez dans votre main 1 de vos Pokémon ainsi que toutes les cartes qui lui sont attachées.",

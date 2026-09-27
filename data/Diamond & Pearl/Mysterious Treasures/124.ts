@@ -12,6 +12,9 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Trainer",
 	set: Set,
+
+	cameoDexIds: [480, 481, 482],
+
 	trainerType: "Item",
 
 	effect: {
