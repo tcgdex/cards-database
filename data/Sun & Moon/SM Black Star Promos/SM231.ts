@@ -4,6 +4,8 @@ import Set from '../SM Black Star Promos'
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [1, 4, 7, 25, 54, 68, 103, 133, 235, 402, 479, 627, 656, 666, 673, 725, 741, 808],
+
 	name: {
 		en: "Champions Festival",
 		fr: "Festival des Champions",

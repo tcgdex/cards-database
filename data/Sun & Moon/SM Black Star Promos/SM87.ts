@@ -18,6 +18,9 @@ const card: Card = {
 	dexId: [
 		380,
 	],
+
+	cameoDexIds: [380, 381],
+
 	hp: 100,
 	types: [
 		"Psychic",

@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [94],
+
 	effect: {
 		fr: "Placez une carte de la pile de défausse de votre adversaire dans sa main.",
 		en: "Put a card from your opponent’s discard pile into their hand.",

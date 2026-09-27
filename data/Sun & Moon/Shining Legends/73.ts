@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [241],
+
 	effect: {
 		fr: "Piochez 2 cartes et soignez 20 dégâts à votre Pokémon Actif. Si votre deck ne contient aucune carte, vous ne pouvez pas jouer cette carte.",
 		en: "Draw 2 cards and heal 20 damage from your Active Pokémon. If you have no cards in your deck, you can’t play this card.",

@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [793],
+
 	effect: {
 		fr: "Placez une combinaison de 2 cartes Supporter et cartes Stade de votre pile de défausse dans votre main.",
 		en: "Put 2 in any combination of Supporter and Stadium cards from your discard pile into your hand.",
