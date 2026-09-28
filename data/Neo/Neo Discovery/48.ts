@@ -34,7 +34,7 @@ const card: Card = {
 				de: "Find [Find]"
 			},
 			effect: {
-				en: "Once during your turn (before you attack), if you have Unown F, Unown I, Unown N, and Unown D on your Bench, you may search your deck for a Trainer card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward.",
+				en: "Once during your turn (before you attack), if you have Unown [F], Unown [I], Unown [N], and Unown [D] on your Bench, you may search your deck for a Trainer card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward.",
 				fr: "Une fois pendant votre tour (avant votre attaque), si vous avez Zarbi [F], Zarbi [I], Zarbi [N], et Zarbi [D] sur votre Banc, vous pouvez chercher dans votre deck une carte Dresseur. Montrez cette carte à votre adversaire, puis placez-la dans votre main. Mélangez ensuite votre deck.",
 				de: "Du kannst einmal während deines Zuges (vor deinem Angriff) dein Deck nach einer Trainerkarte durchsuchen, wenn Icognito [F], Icognito [I], Icognito [N] und Icognito [D] auf deiner Bank sind. Zeige diese Karte deinem Gegner und nimm sie auf deine Hand. Mische danach dein Deck."
 			},
