@@ -26,7 +26,7 @@ const set: Set = {
 	},
 
 	thirdParty: {
-		cardmarket: 5432
+		cardmarket: 5519
 	}
 }
 
