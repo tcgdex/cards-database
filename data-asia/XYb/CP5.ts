@@ -4,8 +4,8 @@ import serie from '../XYb'
 const set: Set = {
 	id: 'CP5',
 	name: {
-		ja: '冷酷の反逆者',
-		ko: '냉혹한 반역자'
+		ja: '幻・伝説ドリームキラコレクション',
+		ko: '환상 전설 드림 컬렉션'
 	},
 
 	serie: serie,
