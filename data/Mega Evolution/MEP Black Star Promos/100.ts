@@ -19,6 +19,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
+		fr: "Évoli",
 	},
 
 	attacks: [{
@@ -26,10 +27,12 @@ const card: Card = {
 
 		name: {
 			en: "Colorful Harmony",
+			fr: "Harmonie Colorée",
 		},
 
 		effect: {
 			en: "This attack does 50 damage for each type of Basic Energy attached to all of your Pokémon.",
+			fr: "Cette attaque inflige 50 dégâts pour chaque type d'Énergie de base attachée à tous vos Pokémon.",
 		},
 
 		damage: "50×"

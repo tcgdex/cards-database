@@ -18,6 +18,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Exeggcute",
+		fr: "Noeunoeuf",
 	},
 
 	abilities: [{
@@ -25,10 +26,12 @@ const card: Card = {
 
 		name: {
 			en: "Scale Up",
+			fr: "Élongation",
 		},
 
 		effect: {
 			en: "If this Pokémon has 6 or more {G} Energy attached, it gets +250 HP.",
+			fr: "Si au moins 6 Énergies {G} sont attachées à ce Pokémon, il a +250 PV.",
 		}
 	}],
 
@@ -37,10 +40,12 @@ const card: Card = {
 
 		name: {
 			en: "Mega Drain",
+			fr: "Méga-Sangsue",
 		},
 
 		effect: {
 			en: "Heal 50 damage from this Pokémon.",
+			fr: "Soignez 50 dégâts de ce Pokémon.",
 		},
 
 		damage: 150
