@@ -3,12 +3,12 @@ import Set from '../Mega Evolution Energy'
 
 const card: Card = {
     name: {
-        en: "Metal Energy",
-        fr: "Énergie Métal",
-        es: "Energía Metálica",
-        it: "Energia Metallo",
-        pt: "Energia de Metal",
-        de: "Metall-Energie"
+        en: "Basic Metal Energy",
+        fr: "Énergie Métal de base",
+        es: "Energía Metálica Básica",
+        it: "Energia base Metallo",
+        pt: "Energia de Metal Básica",
+        de: "Basis-Metall-Energie"
     },
 
     rarity: "Common",

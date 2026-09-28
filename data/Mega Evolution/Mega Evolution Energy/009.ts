@@ -8,7 +8,7 @@ const card: Card = {
 		es: "Energía Planta Básica",
 		de: "Basis-Pflanze-Energie",
 		it: "Energia base Erba",
-		pt: "Energia de Grama"
+		pt: "Energia de Grama Básica"
     },
 
     illustrator: "YOSHIROTTEN",

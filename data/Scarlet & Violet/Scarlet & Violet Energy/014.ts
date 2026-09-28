@@ -3,12 +3,12 @@ import Set from '../Scarlet & Violet Energy'
 
 const card: Card = {
     name: {
-        en: "Fighting Energy",
-        fr: "Énergie Combat",
-        es: "Energía Lucha",
-        it: "Energia Lotta",
-        pt: "Energia de Luta",
-        de: "Kampf-Energie"
+        en: "Basic Fighting Energy",
+        fr: "Énergie Combat de base",
+        es: "Energía Lucha Básica",
+        it: "Energia base Lotta",
+        pt: "Energia de Luta Básica",
+        de: "Basis-Kampf-Energie"
     },
 
     rarity: "Common",
@@ -32,7 +32,11 @@ const card: Card = {
 			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 786118,
+				tcgplayer: 578867
+			}
 		},
 		{
 			type: "normal",
@@ -53,6 +57,9 @@ const card: Card = {
 			type: "reverse",
 			foil: "cosmos",
 			stamp: ["professor-program"],
+			thirdParty: {
+				tcgplayer: 604501
+			}
 		}
 	]
 

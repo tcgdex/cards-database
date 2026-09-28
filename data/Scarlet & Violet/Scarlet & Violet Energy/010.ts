@@ -3,12 +3,12 @@ import Set from '../Scarlet & Violet Energy'
 
 const card: Card = {
     name: {
-        en: "Fire Energy",
-        fr: "Énergie Feu",
-        es: "Energía Fuego",
-        it: "Energia Fuoco",
-        pt: "Energia de Fogo",
-        de: "Feuer-Energie"
+        en: "Basic Fire Energy",
+        fr: "Énergie Feu de base",
+        es: "Energía Fuego Básica",
+        it: "Energia base Fuoco",
+        pt: "Energia de Fogo Básica",
+        de: "Basis-Feuer-Energie"
     },
 
     rarity: "Common",
@@ -32,7 +32,11 @@ const card: Card = {
 			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 786114,
+				tcgplayer: 578863
+			}
 		},
 		{
 			type: "normal",
@@ -53,6 +57,9 @@ const card: Card = {
 			type: "reverse",
 			foil: "cosmos",
 			stamp: ["professor-program"],
+			thirdParty: {
+				tcgplayer: 604500
+			}
 		}
 	]
 

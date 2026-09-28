@@ -3,12 +3,12 @@ import Set from '../Scarlet & Violet Energy'
 
 const card: Card = {
     name: {
-        en: "Psychic Energy",
-        fr: "Énergie Psy",
-        es: "Energía Psíquica",
-        it: "Energia Psico",
-        pt: "Energia Psíquica",
-        de: "Psycho-Energie"
+        en: "Basic Psychic Energy",
+        fr: "Énergie Psy de base",
+        es: "Energía Psíquica Básica",
+        it: "Energia base Psico",
+        pt: "Energia Psíquica Básica",
+        de: "Basis-Psycho-Energie"
     },
 
     rarity: "Common",
@@ -32,7 +32,11 @@ const card: Card = {
 			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 786117,
+				tcgplayer: 578865
+			}
 		},
 		{
 			type: "normal",
@@ -53,6 +57,9 @@ const card: Card = {
 			type: "reverse",
 			foil: "cosmos",
 			stamp: ["professor-program"],
+			thirdParty: {
+				tcgplayer: 604497
+			}
 		}
 	]
 

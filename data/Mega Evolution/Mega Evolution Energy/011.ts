@@ -8,7 +8,7 @@ const card: Card = {
 		es: "Energía Agua Básica",
 		de: "Basis-Wasser-Energie",
 		it: "Energia base Acqua",
-		pt: "Energia de Água"
+		pt: "Energia de Água Básica"
     },
 
     illustrator: "YOSHIROTTEN",

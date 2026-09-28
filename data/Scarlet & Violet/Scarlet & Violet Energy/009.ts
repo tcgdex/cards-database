@@ -3,12 +3,12 @@ import Set from '../Scarlet & Violet Energy'
 
 const card: Card = {
     name: {
-        en: "Grass Energy",
-        fr: "Énergie Plante",
-        es: "Energía Planta",
-        it: "Energia Erba",
-        pt: "Energia de Grama",
-        de: "Pflanze-Energie"
+        en: "Basic Grass Energy",
+        fr: "Énergie Plante de base",
+        es: "Energía Planta Básica",
+        it: "Energia base Erba",
+        pt: "Energia de Grama Básica",
+        de: "Basis-Pflanze-Energie"
     },
 
     rarity: "Common",
@@ -25,6 +25,10 @@ const card: Card = {
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 786113,
+				tcgplayer: 578864
+			}
 		},
 		{
 			type: "reverse",
@@ -53,6 +57,9 @@ const card: Card = {
 			type: "reverse",
 			foil: "cosmos",
 			stamp: ["professor-program"],
+			thirdParty: {
+				tcgplayer: 604499
+			}
 		}
 	]
 

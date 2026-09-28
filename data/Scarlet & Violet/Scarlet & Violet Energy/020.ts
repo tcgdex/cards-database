@@ -3,12 +3,12 @@ import Set from '../Scarlet & Violet Energy'
 
 const card: Card = {
     name: {
-        en: "Lightning Energy",
-        fr: "Énergie Electrik",
-        es: "Energía Rayo",
-        it: "Energia Lampo",
-        pt: "Energia de Raios",
-        de: "Elektro-Energie"
+        en: "Basic Lightning Energy",
+        fr: "Énergie Electrik de base",
+        es: "Energía Rayo Básica",
+        it: "Energia base Lampo",
+        pt: "Energia de Raios Básica",
+        de: "Basis-Elektro-Energie"
     },
 
     rarity: "Common",

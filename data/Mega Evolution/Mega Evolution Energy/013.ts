@@ -8,7 +8,7 @@ const card: Card = {
 		es: "Energía Psíquica Básica",
 		de: "Basis-Psycho-Energie",
 		it: "Energia base Psico",
-		pt: "Energia Psíquica"
+		pt: "Energia Psíquica Básica"
     },
 
     illustrator: "YOSHIROTTEN",

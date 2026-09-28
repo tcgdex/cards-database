@@ -8,7 +8,7 @@ const card: Card = {
 		es: "Energía Lucha Básica",
 		de: "Basis-Kampf-Energie",
 		it: "Energia base Lotta",
-		pt: "Energia de Luta"
+		pt: "Energia de Luta Básica"
     },
 
     illustrator: "YOSHIROTTEN",

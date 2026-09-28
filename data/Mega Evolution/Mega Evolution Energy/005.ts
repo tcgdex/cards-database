@@ -3,12 +3,12 @@ import Set from '../Mega Evolution Energy'
 
 const card: Card = {
     name: {
-        en: "Psychic Energy",
-        fr: "Énergie Psy",
-        es: "Energía Psíquica",
-        it: "Energia Psico",
-        pt: "Energia Psíquica",
-        de: "Psycho-Energie"
+        en: "Basic Psychic Energy",
+        fr: "Énergie Psy de base",
+        es: "Energía Psíquica Básica",
+        it: "Energia base Psico",
+        pt: "Energia Psíquica Básica",
+        de: "Basis-Psycho-Energie"
     },
 
     rarity: "Common",

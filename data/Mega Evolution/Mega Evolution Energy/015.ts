@@ -8,7 +8,7 @@ const card: Card = {
 		es: "Energía Oscura Básica",
 		de: "Basis-Finsternis-Energie",
 		it: "Energia base Oscurità",
-		pt: "Energia de Escuridão"
+		pt: "Energia de Escuridão Básica"
     },
 
     illustrator: "YOSHIROTTEN",

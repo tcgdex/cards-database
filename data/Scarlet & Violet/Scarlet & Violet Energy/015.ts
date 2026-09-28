@@ -3,12 +3,12 @@ import Set from '../Scarlet & Violet Energy'
 
 const card: Card = {
     name: {
-        en: "Darkness Energy",
-        fr: "Énergie Obscurité",
-        es: "Energía Oscura",
-        it: "Energia Oscurità",
-        pt: "Energia de Escuridão",
-        de: "Finsternis-Energie"
+        en: "Basic Darkness Energy",
+        fr: "Énergie Obscurité de base",
+        es: "Energía Oscura Básica",
+        it: "Energia base Oscurità",
+        pt: "Energia de Escuridão Básica",
+        de: "Basis-Finsternis-Energie"
     },
 
     rarity: "Common",
@@ -32,7 +32,11 @@ const card: Card = {
 			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 786119,
+				tcgplayer: 578868
+			}
 		},
 		{
 			type: "normal",
@@ -53,6 +57,9 @@ const card: Card = {
 			type: "reverse",
 			foil: "cosmos",
 			stamp: ["professor-program"],
+			thirdParty: {
+				tcgplayer: 604494
+			}
 		}
 	]
 

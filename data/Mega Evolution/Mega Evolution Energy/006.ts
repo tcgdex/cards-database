@@ -3,12 +3,12 @@ import Set from '../Mega Evolution Energy'
 
 const card: Card = {
     name: {
-        en: "Fighting Energy",
-        fr: "Énergie Combat",
-        es: "Energía Lucha",
-        it: "Energia Lotta",
-        pt: "Energia de Luta",
-        de: "Kampf-Energie"
+        en: "Basic Fighting Energy",
+        fr: "Énergie Combat de base",
+        es: "Energía Lucha Básica",
+        it: "Energia base Lotta",
+        pt: "Energia de Luta Básica",
+        de: "Basis-Kampf-Energie"
     },
 
     rarity: "Common",

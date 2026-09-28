@@ -8,7 +8,7 @@ const card: Card = {
 		es: "Energía Fuego Básica",
 		de: "Basis-Feuer-Energie",
 		it: "Energia base Fuoco",
-		pt: "Energia de Fogo"
+		pt: "Energia de Fogo Básica"
     },
 
     illustrator: "YOSHIROTTEN",

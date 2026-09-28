@@ -8,7 +8,7 @@ const card: Card = {
 		es: "Energía Metálica Básica",
 		de: "Basis-Metall-Energie",
 		it: "Energia base Metallo",
-		pt: "Energia de Metal"
+		pt: "Energia de Metal Básica"
     },
 
     illustrator: "YOSHIROTTEN",

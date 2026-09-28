@@ -3,12 +3,12 @@ import Set from '../Scarlet & Violet Energy'
 
 const card: Card = {
     name: {
-        en: "Water Energy",
-        fr: "Énergie Eau",
-        es: "Energía Agua",
-        it: "Energia Acqua",
-        pt: "Energia de Água",
-        de: "Wasser-Energie"
+        en: "Basic Water Energy",
+        fr: "Énergie Eau de base",
+        es: "Energía Agua Básica",
+        it: "Energia base Acqua",
+        pt: "Energia de Água Básica",
+        de: "Basis-Wasser-Energie"
     },
 
     rarity: "Common",
@@ -32,7 +32,11 @@ const card: Card = {
 			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 786115,
+				tcgplayer: 578862
+			}
 		},
 		{
 			type: "normal",
@@ -53,6 +57,9 @@ const card: Card = {
 			type: "reverse",
 			foil: "cosmos",
 			stamp: ["professor-program"],
+			thirdParty: {
+				tcgplayer: 604496
+			}
 		}
 	]
 

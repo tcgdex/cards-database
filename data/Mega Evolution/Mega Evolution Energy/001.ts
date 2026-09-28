@@ -3,12 +3,12 @@ import Set from '../Mega Evolution Energy'
 
 const card: Card = {
     name: {
-        en: "Grass Energy",
-        fr: "Énergie Plante",
-        es: "Energía Planta",
-        it: "Energia Erba",
-        pt: "Energia de Grama",
-        de: "Pflanze-Energie"
+        en: "Basic Grass Energy",
+        fr: "Énergie Plante de base",
+        es: "Energía Planta Básica",
+        it: "Energia base Erba",
+        pt: "Energia de Grama Básica",
+        de: "Basis-Pflanze-Energie"
     },
 
     rarity: "Common",
