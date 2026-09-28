@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Pikachu ex",
+		es: "Pikachu ex.",
 	},
 
 	suffix: "ex",
@@ -22,10 +23,12 @@ const card: Card = {
 
 		name: {
 			en: "Zip-Zap Frenzy",
+			es: "Frenesí Eléctrico.",
 		},
 
 		effect: {
 			en: "You may attach any number of Basic Energy cards from your hand to your Pokémon in any way you like.",
+			es: "Puedes unir cualquier cantidad de cartas de Energía Básica de tu mano a tus Pokémon de la manera que desees.",
 		}
 	},
 	{
@@ -33,10 +36,12 @@ const card: Card = {
 
 		name: {
 			en: "Thunder",
+			es: "Trueno",
 		},
 
 		effect: {
 			en: "This Pokémon also does 30 damage to itself.",
+			es: "Este Pokémon también se hace 30 puntos de daño a si mismo.",
 		},
 
 		damage: 200
