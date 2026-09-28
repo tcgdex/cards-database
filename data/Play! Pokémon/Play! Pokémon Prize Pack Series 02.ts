@@ -23,9 +23,6 @@ const set: Set = {
 	abbreviations: {
 		official: "PPS2"
 	},
-	searchAliases: [
-		"PPS2"
-	],
 }
 
 export default set
