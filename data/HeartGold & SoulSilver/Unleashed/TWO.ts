@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [201],
+
 	effect: {
 		en: "Shuffle your deck!",
 		fr: "Mélangez votre deck.",

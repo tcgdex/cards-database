@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [201],
+
 	effect: {
 		fr: "Regardez la main de votre adversaire !",
 		en: "Look at your opponent's hand!",

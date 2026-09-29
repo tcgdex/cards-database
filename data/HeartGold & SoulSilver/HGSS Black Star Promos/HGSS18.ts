@@ -15,6 +15,9 @@ const card: Card = {
 		25,183,54,187
 	],
 
+
+	cameoDexIds: [25, 54, 183, 187],
+
 	effect: {
 		en: "Flip a coin. If heads, discard all Trainer and Stadium cards your opponent has in play. If tails, discard all Trainer and Stadium cards you have in play.",
 		fr: "Lancez une pièce. Si c'est face, défaussez toutes les cartes Dresseur et Stade que votre adversaire a en jeu. Si c'est pile, défaussez toutes les cartes Dresseur et Stade que vous avez en jeu."

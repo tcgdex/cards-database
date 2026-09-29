@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [172],
+
 	effect: {
 		fr: "Piochez 2 cartes. Ensuite, votre adversaire défausse une carte de sa main.",
 		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Draw 2 cards. Then, your opponent discards a card from his or her hand.",
