@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [52, 202],
+
 	effect: {
 		fr: "Chaque joueur défausse 2 cartes de sa main. Votre adversaire défausse en premier.",
 		en: "Each player discards 2 cards from their hand. Your opponent discards first.",

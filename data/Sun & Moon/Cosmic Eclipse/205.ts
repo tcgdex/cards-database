@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [109],
+
 	effect: {
 		fr: "Défaussez jusqu’à 2 Pokémon qui ne sont pas des Pokémon-GX ou des Pokémon-EX de votre main. Piochez 3 cartes pour chaque carte défaussée de cette façon.",
 		en: "Discard up to 2 Pokémon that aren’t Pokémon-GX or Pokémon-EX from your hand. Draw 3 cards for each card you discarded in this way.",

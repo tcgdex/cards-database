@@ -12,15 +12,7 @@ const card: Card = {
 
 	set: Set,
 
-
-
-
-
-
-
-
-
-
+	cameoDexIds: [150, 646],
 
 	effect: {
 		en: "Once during each player's turn, that player may flip a coin. If heads, the player draws a card. This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card.",

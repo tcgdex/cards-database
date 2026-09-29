@@ -11,6 +11,8 @@ const card: Card = {
 
 	set: Set,
 
+	cameoDexIds: [113],
+
 	effect: {
 		en: "Remove all damage counters from all of your own Pokémon with damage counters on them, then discard all Energy cards attached to those Pokémon.",
 	},

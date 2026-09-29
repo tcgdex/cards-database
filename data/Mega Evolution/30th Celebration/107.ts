@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Zamazenta",
 		es: "Zamazenta",
 		it: "Zamazenta",
-		'es-mx': "Zamazenta"
+		'es-mx': "Zamazenta",
+		pt: "Zamazenta"
 	},
 
 	illustrator: "Tsuyoshi Nagano",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Abwehren",
 			es: "Apartar",
 			it: "Tenere a Bada",
-			'es-mx': "Repeler"
+			'es-mx': "Repeler",
+			pt: "Repelir"
 		},
 
 		effect: {
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Bevor du Schaden zufügst, lege alle Pokémon-Ausrüstungen vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
 			es: "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival.",
 			it: "Prima di infliggere danni, scarta tutte le carte Oggetto Pokémon dal Pokémon attivo del tuo avversario.",
-			'es-mx': "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival."
+			'es-mx': "Antes de infligir daño, descarta todas las Herramientas Pokémon del Pokémon Activo de tu rival.",
+			pt: "Antes de causar dano, descarte todas as Ferramentas Pokémon do Pokémon Ativo do seu oponente."
 		},
 
 		damage: 20,
@@ -53,7 +56,8 @@ const card: Card = {
 			de: "Schildstoß",
 			es: "Presión Escudo",
 			it: "Scudopressa",
-			'es-mx': "Prensa Escudo"
+			'es-mx': "Prensa Escudo",
+			pt: "Compressão de Escudo"
 		},
 
 		effect: {
@@ -62,7 +66,8 @@ const card: Card = {
 			de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 50 Schadenspunkte weniger zugefügt <em>(nachdem Schwäche und Resistenz verrechnet wurden)</em>.",
 			es: "Durante el próximo turno de tu rival, los ataques hacen 50 puntos de daño menos a este Pokémon <em>(después de aplicar Debilidad y Resistencia)</em>.",
 			it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 50 danni in meno dagli attacchi, <em>dopo aver applicato debolezza e resistenza</em>.",
-			'es-mx': "Durante el próximo turno de tu rival, este Pokémon recibe 50 puntos de daño menos de ataques <em>(después de aplicar Debilidad y Resistencia)</em>."
+			'es-mx': "Durante el próximo turno de tu rival, este Pokémon recibe 50 puntos de daño menos de ataques <em>(después de aplicar Debilidad y Resistencia)</em>.",
+			pt: "Durante o próximo turno do seu oponente, este Pokémon receberá 50 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência)."
 		},
 
 		damage: 100,

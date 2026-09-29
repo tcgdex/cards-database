@@ -40,7 +40,8 @@ const card: Card = {
 			type: "normal",
 			stamp: ["professor-program"],
 			thirdParty: {
-				cardmarket: 878016
+				cardmarket: 878016,
+				tcgplayer: 704477
 			}
 		}
 	],

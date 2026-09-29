@@ -14,13 +14,17 @@ const card: Card = {
 		de: "Mauzi",
 		es: "Meowth",
 		it: "Meowth",
-		'es-mx': "Meowth"
+		'es-mx': "Meowth",
+		pt: "Meowth"
 	},
 
 	illustrator: "OKUBO",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	dexId: [52],
+
+	cameoDexIds: [52],
+
 	hp: 60,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -32,7 +36,8 @@ const card: Card = {
 			de: "Zahltag",
 			es: "Día de Pago",
 			it: "Giornopaga",
-			'es-mx': "Día de Pago"
+			'es-mx': "Día de Pago",
+			pt: "Dia de Pagamento"
 		},
 
 		effect: {
@@ -41,7 +46,8 @@ const card: Card = {
 			de: "Ziehe 1 Karte.",
 			es: "Roba 1 carta.",
 			it: "Pesca una carta.",
-			'es-mx': "Roba 1 carta."
+			'es-mx': "Roba 1 carta.",
+			pt: "Compre uma carta."
 		},
 
 		damage: 30,

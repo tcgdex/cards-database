@@ -22,12 +22,16 @@ const card: Card = {
 	stage: "Basic",
 	dexId: [501],
 
+
+
+	cameoDexIds: [595],
+
 	attacks: [{
 		cost: ["Water", "Colorless"],
 
 			name: {
 				en: "Razor Shell",
-				fr: "Coquilame",
+				fr: "Coqui-Lame",
 				es: "Concha Filo",
 				it: "Conchilama",
 				pt: "Concha Navalha",

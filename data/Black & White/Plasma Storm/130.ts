@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [494],
+
 	effect: {
 		fr: "Si cette carte est attachée à Victini-EX, Victini-EX peut utiliser ses attaques indépendamment de la quantité ou du type d’Énergie qui lui est attachée.",
 		en: "If this card is attached to Victini-EX, Victini-EX can use its attacks regardless of the amount or type of Energy attached to it.",

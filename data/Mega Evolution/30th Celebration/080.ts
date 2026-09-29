@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Lunala",
 		es: "Lunala",
 		it: "Lunala",
-		'es-mx': "Lunala"
+		'es-mx': "Lunala",
+		pt: "Lunala"
 	},
 
 	illustrator: "Bun Toujo",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Mitternachtsstrahl",
 			es: "Rayo de Medianoche",
 			it: "Raggio della Notte",
-			'es-mx': "Rayo de Medianoche"
+			'es-mx': "Rayo de Medianoche",
+			pt: "Feixe da Meia-noite"
 		},
 
 		effect: {
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Diese Attacke fügt für jede Energiekarte in deinem Ablagestapel 20 Schadenspunkte mehr zu.",
 			es: "Este ataque hace 20 puntos de daño más por cada carta de Energía en tu pila de descartes.",
 			it: "Questo attacco infligge 20 danni in più per ogni carta Energia nella tua pila degli scarti.",
-			'es-mx': "Este ataque hace 20 puntos de daño más por cada carta de Energía en tu pila de descartes."
+			'es-mx': "Este ataque hace 20 puntos de daño más por cada carta de Energía en tu pila de descartes.",
+			pt: "Este ataque causa 20 pontos de dano a mais para cada carta de Energia na sua pilha de descarte."
 		},
 
 		damage: "20+",
@@ -53,7 +56,8 @@ const card: Card = {
 			de: "Mondsturm",
 			es: "Explosión Lunar",
 			it: "Furia Lunare",
-			'es-mx': "Explosión Lunar"
+			'es-mx': "Explosión Lunar",
+			pt: "Detonação Lunar"
 		},
 
 		damage: 120,

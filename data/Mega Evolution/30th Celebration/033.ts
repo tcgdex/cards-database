@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu"
+		'es-mx': "Pikachu",
+		pt: "Pikachu"
 	},
 
 	illustrator: "Narumi Sato",
@@ -34,7 +35,8 @@ const card: Card = {
 			de: "Versteckt halten",
 			es: "A Escondidas",
 			it: "Stare Nascosto",
-			'es-mx': "Fuera de Vista"
+			'es-mx': "Fuera de Vista",
+			pt: "Ficar Escondido"
 		},
 
 		effect: {
@@ -43,7 +45,8 @@ const card: Card = {
 			de: "Solange dieses Pokémon auf deiner Bank ist, verhindere allen Schaden durch und alle Effekte von Attacken von Pokémon deines Gegners, die diesem Pokémon zugefügt werden.",
 			es: "Mientras este Pokémon esté en tu Banca, se evitan todo el daño y todos los efectos de los ataques de los Pokémon de tu rival infligidos a este Pokémon.",
 			it: "Fintanto che questo Pokémon è nella tua panchina, previeni sia i danni che gli effetti degli attacchi dei Pokémon del tuo avversario inflitti a questo Pokémon.",
-			'es-mx': "Mientras este Pokémon esté en tu Banca, se evitan todo el daño y todos los efectos de los ataques de los Pokémon de tu rival infligidos a este Pokémon."
+			'es-mx': "Mientras este Pokémon esté en tu Banca, se evitan todo el daño y todos los efectos de los ataques de los Pokémon de tu rival infligidos a este Pokémon.",
+			pt: "Enquanto este Pokémon estiver no seu Banco, previna todo o dano e os efeitos de ataques dos Pokémon do seu oponente causados a este Pokémon."
 		}
 	}],
 
@@ -54,7 +57,8 @@ const card: Card = {
 			de: "Mini-Stromstoß",
 			es: "Carga Diminuta",
 			it: "Sottocarica Minuscola",
-			'es-mx': "Minicarga"
+			'es-mx': "Minicarga",
+			pt: "Carga Pequenina"
 		},
 
 		damage: 10,

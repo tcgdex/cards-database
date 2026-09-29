@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [100],
+
 	effect: {
 		fr: "Les Pokémon-GX et Pokémon-EX en jeu (les vôtres et ceux de votre adversaire) n’ont pas de talent.",
 		en: "Pokémon-GX and Pokémon-EX in play (both yours and your opponent’s) have no Abilities.",

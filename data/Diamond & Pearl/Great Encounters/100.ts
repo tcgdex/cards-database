@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [488, 491],
+
 	effect: {
 		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. The Retreat Cost for each Psychic and Darkness Pokémon (both yours and your opponent's) is 0.",
 		fr: "Le Coût de retraite de chaque Pokémon Psy et Obscurité (les vôtres et ceux de votre adversaire) est de 0.",

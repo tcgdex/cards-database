@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Feelinara-ex",
 		es: "Sylveon ex",
 		it: "Sylveon-ex",
-		'es-mx': "Sylveon ex"
+		'es-mx': "Sylveon ex",
+		pt: "Sylveon ex"
 	},
 
 	illustrator: "5ban Graphics",
@@ -29,7 +30,8 @@ const card: Card = {
 			de: "Bunte Harmonie",
 			es: "Armonía Colorida",
 			it: "Armonia Variopinta",
-			'es-mx': "Armonía Colorida"
+			'es-mx': "Armonía Colorida",
+			pt: "Harmonia Colorida 50×"
 		},
 
 		effect: {
@@ -38,7 +40,8 @@ const card: Card = {
 			de: "Diese Attacke fügt für jeden an alle deine Pokémon angelegten Basis-Energietyp 50 Schadenspunkte zu.",
 			es: "Este ataque hace 50 puntos de daño por cada tipo de Energía Básica unida a todos tus Pokémon.",
 			it: "Questo attacco infligge 50 danni per ogni tipo di Energia base assegnata ai tuoi Pokémon.",
-			'es-mx': "Este ataque hace 50 puntos de daño por cada tipo de Energía Básica unida a todos tus Pokémon."
+			'es-mx': "Este ataque hace 50 puntos de daño por cada tipo de Energía Básica unida a todos tus Pokémon.",
+			pt: "Este ataque causa 50 pontos de dano para cada tipo de Energia Básica ligada a todos os seus Pokémon."
 		},
 
 		damage: "50×",

@@ -15,6 +15,9 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
+
+	cameoDexIds: [345, 347, 408, 410],
+
 	hp: 60,
 
 	effect: {

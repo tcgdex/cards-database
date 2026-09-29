@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [201],
+
 	effect: {
 		en: "Return any Stadium card in play to its player's hand!",
 		fr: "Toutes les cartes Stade en jeu sont restituées dans la main de leur joueur !",

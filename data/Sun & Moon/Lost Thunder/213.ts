@@ -16,15 +16,7 @@ const card: Card = {
 
 	set: Set,
 
-
-
-
-
-
-
-
-
-
+	cameoDexIds: [152, 155, 158],
 
 	effect: {
 		fr: "Cherchez jusqu’à 3 Pokémon avec 60 PV ou moins dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",

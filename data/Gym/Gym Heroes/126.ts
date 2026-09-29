@@ -11,6 +11,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [41],
+
 	effect: {
 		en: "Count the number of cards in your discard pile and shuffle them into your deck. Then discard that many cards from the top of your deck."
 	},
@@ -33,4 +35,3 @@ const card: Card = {
 }
 
 export default card
-

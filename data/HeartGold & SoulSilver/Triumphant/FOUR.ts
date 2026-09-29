@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [201],
+
 	effect: {
 		fr: "REGARDEZ TOUTES VOS CARTES RECOMPENSE QUI SONT FACE CACHEE!",
 		en: "LOOK AT ALL OF YOUR FACE DOWN PRIZE CARDS!",

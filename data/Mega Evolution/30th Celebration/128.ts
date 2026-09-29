@@ -10,12 +10,17 @@ const card: Card = {
 		de: "Hyperball",
 		es: "Ultra Ball",
 		it: "Ultra Ball",
-		'es-mx': "Ultrabola"
+		'es-mx': "Ultrabola",
+		pt: "Ultra Bola"
 	},
 
 	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Trainer",
+	effect: {
+		pt: "Você só pode usar esta carta se descartar outras 2 cartas da sua mão. Procure por um Pokémon no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho."
+	},
+
 	trainerType: "Item",
 	regulationMark: "I",
 	variants: [

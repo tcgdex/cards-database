@@ -13,15 +13,7 @@ const card: Card = {
 
 	set: Set,
 
-
-
-
-
-
-
-
-
-
+	cameoDexIds: [95],
 
 	effect: {
 		fr: "Attachez une carte Énergie de votre main à l’un de vos Racaillou, Gravalanch, Grolem, Onix-GX, Osselait, Rhinocorne, Rhinoféros ou Simularbre.",

@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Relaxo",
 		es: "Snorlax",
 		it: "Snorlax",
-		'es-mx': "Snorlax"
+		'es-mx': "Snorlax",
+		pt: "Snorlax"
 	},
 
 	illustrator: "Aya Kusube",
@@ -34,7 +35,8 @@ const card: Card = {
 			de: "Guter Schlaf",
 			es: "Sueño de los Dormilones",
 			it: "Sogni d'Oro",
-			'es-mx': "Sueño de los Dormilones"
+			'es-mx': "Sueño de los Dormilones",
+			pt: "Soninho Bom"
 		},
 
 		effect: {
@@ -43,7 +45,8 @@ const card: Card = {
 			de: "Wenn dieses Pokémon beim Pokémon-Check weiterhin schläft, heile allen Schaden bei diesem Pokémon.",
 			es: "Si este Pokémon permanece Dormido durante el Chequeo Pokémon, cura todos los puntos de daño a este Pokémon.",
 			it: "Se questo Pokémon resta addormentato durante il controllo Pokémon, curalo da tutti i danni.",
-			'es-mx': "Si este Pokémon permanece Dormido durante el Chequeo Pokémon, cura todos los puntos de daño a este Pokémon."
+			'es-mx': "Si este Pokémon permanece Dormido durante el Chequeo Pokémon, cura todos los puntos de daño a este Pokémon.",
+			pt: "Se este Pokémon permanecer Adormecido durante o Checape Pokémon, cure todo o dano deste Pokémon."
 		}
 	}],
 
@@ -54,7 +57,8 @@ const card: Card = {
 			de: "Kollaps",
 			es: "Colapso",
 			it: "Collassare",
-			'es-mx': "Colapso"
+			'es-mx': "Colapso",
+			pt: "Colapso"
 		},
 
 		effect: {
@@ -63,7 +67,8 @@ const card: Card = {
 			de: "Dieses Pokémon schläft jetzt.",
 			es: "Este Pokémon pasa a estar Dormido.",
 			it: "Questo Pokémon viene addormentato.",
-			'es-mx': "Este Pokémon ahora está Dormido."
+			'es-mx': "Este Pokémon ahora está Dormido.",
+			pt: "Este Pokémon agora está Adormecido."
 		},
 
 		damage: 130,

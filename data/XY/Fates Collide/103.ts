@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [315],
+
 	effect: {
 		fr: "Piochez une carte pour chaque Pokémon de base du Banc de votre adversaire.",
 		en: "Draw a card for each of your opponent's Benched Basic Pokémon.",

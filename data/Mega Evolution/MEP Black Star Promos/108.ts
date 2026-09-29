@@ -6,6 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Espeon ex",
+		fr: "Mentali-ex",
+		es: "Espeon ex",
 	},
 
 	suffix: "ex",
@@ -17,8 +19,13 @@ const card: Card = {
 	stage: "Stage1",
 	dexId: [196],
 
+
+	cameoDexIds: [37, 38, 115, 133, 151, 183, 184, 337, 357, 420, 421, 494, 764],
+
 	evolveFrom: {
 		en: "Eevee",
+		fr: "Évoli",
+		es: "Eevee",
 	},
 
 	attacks: [{
@@ -26,10 +33,14 @@ const card: Card = {
 
 		name: {
 			en: "Solar Beatdown",
+			fr: "Dérouillée Solaire",
+			es: "Insolación",
 		},
 
 		effect: {
 			en: "This attack does 30 damage for each of your Pokémon in play.",
+			fr: "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon en jeu.",
+			es: "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon en juego.",
 		},
 
 		damage: "30×"

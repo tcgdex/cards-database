@@ -10,12 +10,17 @@ const card: Card = {
 		de: "Tausch",
 		es: "Cambio",
 		it: "Scambio",
-		'es-mx': "Cambio"
+		'es-mx': "Cambio",
+		pt: "Substituição"
 	},
 
 	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Trainer",
+	effect: {
+		pt: "Troque o seu Pokémon Ativo por 1 dos seus Pokémon no Banco."
+	},
+
 	trainerType: "Item",
 	regulationMark: "I",
 	variants: [

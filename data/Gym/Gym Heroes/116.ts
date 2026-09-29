@@ -11,6 +11,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [80],
+
 	effect: {
 		en: "For your attack this turn, your Active Pokémon can use any attack from its Basic Pokémon card or any Evolution card attached to it. (You still have to pay for that attack's Energy cost.)"
 	},
@@ -33,4 +35,3 @@ const card: Card = {
 }
 
 export default card
-

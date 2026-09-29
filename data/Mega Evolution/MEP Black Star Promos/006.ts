@@ -7,10 +7,12 @@ const card: Card = {
 
 	name: {
 		en: "Drifblim",
+		fr: "Grodrive",
 	},
 
 	evolveFrom: {
 		en: "Drifloon",
+		fr: "Baudrive",
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -26,22 +28,26 @@ const card: Card = {
 
 		name: {
 			en: "Disruptive Wind",
+			fr: "Vent Perturbant",
 		},
 
 		effect: {
 			en: "Your opponent's Active Pokémon is now Confused.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
 		}
 	}, {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
 			en: "Balloon Return",
+			fr: "Retour Ballon",
 		},
 
 		damage: 110,
 
 		effect: {
 			en: "Put this Pokémon and all attached cards into your hand.",
+			fr: "Ajoutez à votre main ce Pokémon et toutes les cartes qui lui sont attachées.",
 		}
 	}],
 

@@ -13,15 +13,7 @@ const card: Card = {
 
 	set: Set,
 
-
-
-
-
-
-
-
-
-
+	cameoDexIds: [121],
 
 	effect: {
 		fr: "Déplacez autant d’Énergies Water que vous le voulez de vos Pokémon vers vos Psykokwak, Hypotrempe, Stari, Staross-GX, Magicarpe, Léviator ou Lokhlass, de la manière que vous voulez.",

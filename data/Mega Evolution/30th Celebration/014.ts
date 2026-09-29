@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Reshiram",
 		es: "Reshiram",
 		it: "Reshiram",
-		'es-mx': "Reshiram"
+		'es-mx': "Reshiram",
+		pt: "Reshiram"
 	},
 
 	illustrator: "Uta",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Schlitzer",
 			es: "Cuchillada",
 			it: "Lacerazione",
-			'es-mx': "Cuchillada"
+			'es-mx': "Cuchillada",
+			pt: "Talho"
 		},
 
 		damage: 50,
@@ -44,7 +46,8 @@ const card: Card = {
 			de: "Laserflamme",
 			es: "Llama Láser",
 			it: "Fiamma Laser",
-			'es-mx': "Fuego Láser"
+			'es-mx': "Fuego Láser",
+			pt: "Labareda Laser"
 		},
 
 		effect: {
@@ -53,7 +56,8 @@ const card: Card = {
 			de: "Wenn an dieses Pokémon mindestens 1 <span class=\"energy-symbol Lightning\" title=\"Elektro\">Lightning</span>-Energie angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu.",
 			es: "Si este Pokémon tiene alguna Energía <span class=\"energy-symbol Lightning\" title=\"Rayo\">Lightning</span> unida, este ataque hace 80 puntos de daño más.",
 			it: "Se questo Pokémon ha delle Energie <span class=\"energy-symbol Lightning\" title=\"Lampo\">Lightning</span> assegnate, questo attacco infligge 80 danni in più.",
-			'es-mx': "Si este Pokémon tiene alguna Energía <span class=\"energy-symbol Lightning\" title=\"Rayo\">Lightning</span> unida, este ataque hace 80 puntos de daño más."
+			'es-mx': "Si este Pokémon tiene alguna Energía <span class=\"energy-symbol Lightning\" title=\"Rayo\">Lightning</span> unida, este ataque hace 80 puntos de daño más.",
+			pt: "Se este Pokémon tiver alguma Energia Lightning ligada a ele, este ataque causará 80 pontos de dano a mais."
 		},
 
 		damage: "80+",

@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [25, 644],
+
 	effect: {
 		fr: "Piochez 2 cartes. Si votre Pokémon Actif est un Pokémon ESCOUADE, piochez 2 cartes supplémentaires.",
 		en: "Draw 2 cards. If your Active Pokémon is a TAG TEAM Pokémon, draw 2 more cards.",

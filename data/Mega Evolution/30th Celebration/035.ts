@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu"
+		'es-mx': "Pikachu",
+		pt: "Pikachu"
 	},
 
 	illustrator: "Susumu Maeya",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Walzer",
 			es: "Rodar",
 			it: "Rotolamento",
-			'es-mx': "Rodada"
+			'es-mx': "Rodada",
+			pt: "Rolagem"
 		},
 
 		damage: 30,

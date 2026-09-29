@@ -11,6 +11,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [44],
+
 	effect: {
 		en: "Look at your opponent's hand. If he or she has any Basic Pokémon cards there, you may put any number of them onto your opponent's Bench (as long as there's room)."
 	},
@@ -33,4 +35,3 @@ const card: Card = {
 }
 
 export default card
-

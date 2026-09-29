@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Mega Zeraora ex",
+		fr: "Méga-Zeraora-ex",
 	},
 
 	suffix: "ex",
@@ -22,10 +23,12 @@ const card: Card = {
 
 		name: {
 			en: "Thunderous Fist",
+			fr: "Poing Foudroyant",
 		},
 
 		effect: {
 			en: "This attack does 60 damage for each {L} Energy attached to this Pokémon.",
+			fr: "Cette attaque inflige 60 dégâts pour chaque Énergie {L} attachée à ce Pokémon.",
 		},
 
 		damage: "60×"
@@ -35,10 +38,12 @@ const card: Card = {
 
 		name: {
 			en: "Zepto Turn",
+			fr: "Zepto Tour",
 		},
 
 		effect: {
 			en: "Switch this Pokémon with 1 of your Benched Pokémon.",
+			fr: "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
 		},
 
 		damage: 150
