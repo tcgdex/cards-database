@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Hisui-Zorua",
 		es: "Zorua de Hisui",
 		it: "Zorua di Hisui",
-		'es-mx': "Zorua de Hisui"
+		'es-mx': "Zorua de Hisui",
+		pt: "Zorua de Hisui"
 	},
 
 	illustrator: "0313",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Kratzer",
 			es: "Arañazo",
 			it: "Graffio",
-			'es-mx': "Arañazo"
+			'es-mx': "Arañazo",
+			pt: "Arranhão"
 		},
 
 		damage: 20,

@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Zapdos",
 		es: "Zapdos",
 		it: "Zapdos",
-		'es-mx': "Zapdos"
+		'es-mx': "Zapdos",
+		pt: "Zapdos"
 	},
 
 	illustrator: "mashu",
@@ -34,7 +35,8 @@ const card: Card = {
 			de: "Funkendes Flattern",
 			es: "Aleteo Chisporroteante",
 			it: "Battito d'Ali Folgorante",
-			'es-mx': "Aleteo Chispeante"
+			'es-mx': "Aleteo Chispeante",
+			pt: "Asas Ampéricas"
 		},
 
 		effect: {
@@ -43,7 +45,8 @@ const card: Card = {
 			de: "Einmal während deines Zuges, wenn du Lavados und Arktos im Spiel hast, kannst du diese Fähigkeit einsetzen. Lege 1 Basis-Lightning-Energiekarte aus deiner Hand an dieses Pokémon an.",
 			es: "Una vez durante tu turno, si tienes a Moltres y a Articuno en juego, puedes usar esta habilidad. Une 1 carta de Energía Lightning Básica de tu mano a este Pokémon.",
 			it: "Una sola volta durante il tuo turno, se hai Moltres e Articuno in gioco, puoi usare questa abilità. Assegna a questo Pokémon una carta Energia base Lightning dalla tua mano.",
-			'es-mx': "Una vez durante tu turno, si tienes Moltres y Articuno en juego, puedes usar esta Habilidad. Une 1 carta de Energía Lightning Básica de tu mano a este Pokémon."
+			'es-mx': "Una vez durante tu turno, si tienes Moltres y Articuno en juego, puedes usar esta Habilidad. Une 1 carta de Energía Lightning Básica de tu mano a este Pokémon.",
+			pt: "Uma vez durante o seu turno, se você tiver Moltres e Articuno em jogo, você poderá usar esta Habilidade. Ligue uma carta de Energia Lightning Básica da sua mão a este Pokémon."
 		}
 	}],
 
@@ -54,7 +57,8 @@ const card: Card = {
 			de: "Donnernder Blitz",
 			es: "Relámpago Atronador",
 			it: "Saetta Roboante",
-			'es-mx': "Relámpago Atronador"
+			'es-mx': "Relámpago Atronador",
+			pt: "Relâmpago Trovejante"
 		},
 
 		effect: {
@@ -63,7 +67,8 @@ const card: Card = {
 			de: "Dieses Pokémon fügt auch sich selbst 60 Schadenspunkte zu.",
 			es: "Este Pokémon también se hace 60 puntos de daño a sí mismo.",
 			it: "Questo Pokémon infligge anche 60 danni a se stesso.",
-			'es-mx': "Este Pokémon también se hace 60 puntos de daño a sí mismo."
+			'es-mx': "Este Pokémon también se hace 60 puntos de daño a sí mismo.",
+			pt: "Este Pokémon também causa 60 pontos de dano a si mesmo."
 		},
 
 		damage: 210,

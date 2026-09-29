@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu"
+		'es-mx': "Pikachu",
+		pt: "Pikachu"
 	},
 
 	illustrator: "nagimiso",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Blitzstoß",
 			es: "Golpe Relámpago",
 			it: "Elettroschianto",
-			'es-mx': "Relampagolpe"
+			'es-mx': "Relampagolpe",
+			pt: "Relâmpago Acidental"
 		},
 
 		effect: {
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Lege alle <span class=\"energy-symbol Lightning\" title=\"Elektro\">Lightning</span>-Energien von diesem Pokémon auf deinen Ablagestapel, und diese Attacke fügt 1 Pokémon deines Gegners 90 Schadenspunkte zu. <em>(Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)</em>",
 			es: "Descarta todas las Energías <span class=\"energy-symbol Lightning\" title=\"Rayo\">Lightning</span> de este Pokémon, y este ataque hace 90 puntos de daño a uno de los Pokémon de tu rival. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca)</em>.",
 			it: "Scarta tutte le Energie <span class=\"energy-symbol Lightning\" title=\"Lampo\">Lightning</span> da questo Pokémon e questo attacco infligge 90 danni a uno dei Pokémon del tuo avversario. <em>Non applicare debolezza e resistenza ai Pokémon in panchina</em>.",
-			'es-mx': "Descarta todas las Energías <span class=\"energy-symbol Lightning\" title=\"Rayo\">Lightning</span> de este Pokémon, y este ataque hace 90 puntos de daño a 1 de los Pokémon de tu rival. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca).</em>"
+			'es-mx': "Descarta todas las Energías <span class=\"energy-symbol Lightning\" title=\"Rayo\">Lightning</span> de este Pokémon, y este ataque hace 90 puntos de daño a 1 de los Pokémon de tu rival. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca).</em>",
+			pt: "Descarte todas as Energias Lightning deste Pokémon, e este ataque causa 90 pontos de dano a 1 dos Pokémon do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
 		},
 
 		cost: ["Lightning", "Lightning", "Lightning"]

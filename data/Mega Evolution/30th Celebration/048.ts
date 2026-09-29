@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu"
+		'es-mx': "Pikachu",
+		pt: "Pikachu"
 	},
 
 	illustrator: "KIYOTAKA OSHIYAMA",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Aufstocken",
 			es: "Acopiar",
 			it: "Fare Scorta",
-			'es-mx': "Acopiar"
+			'es-mx': "Acopiar",
+			pt: "Armazenar"
 		},
 
 		effect: {
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Nimm bis zu 2 Basis-Energiekarten aus deinem Ablagestapel auf deine Hand.",
 			es: "Pon hasta 2 cartas de Energía Básica de tu pila de descartes en tu mano.",
 			it: "Prendi fino a due carte Energia base dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
-			'es-mx': "Pon hasta 2 cartas de Energía Básica de tu pila de descartes en tu mano."
+			'es-mx': "Pon hasta 2 cartas de Energía Básica de tu pila de descartes en tu mano.",
+			pt: "Coloque até 2 cartas de Energia Básica da sua pilha de descarte na sua mão."
 		},
 
 		cost: ["Colorless"]

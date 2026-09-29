@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Zeraora",
 		es: "Zeraora",
 		it: "Zeraora",
-		'es-mx': "Zeraora"
+		'es-mx': "Zeraora",
+		pt: "Zeraora"
 	},
 
 	illustrator: "Bun Toujo",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Schnellzieher",
 			es: "Robo Rápido",
 			it: "Pescalesto",
-			'es-mx': "Robo Rápido"
+			'es-mx': "Robo Rápido",
+			pt: "Retirada Rápida"
 		},
 
 		effect: {
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Ziehe 1 Karte.",
 			es: "Roba 1 carta.",
 			it: "Pesca una carta.",
-			'es-mx': "Roba 1 carta."
+			'es-mx': "Roba 1 carta.",
+			pt: "Compre uma carta."
 		},
 
 		damage: 20,
@@ -53,7 +56,8 @@ const card: Card = {
 			de: "Elektrokugel",
 			es: "Electrobala",
 			it: "Elettrodardo",
-			'es-mx': "Electrobala"
+			'es-mx': "Electrobala",
+			pt: "Bala Elétrica"
 		},
 
 		effect: {
@@ -62,7 +66,8 @@ const card: Card = {
 			de: "Diese Attacke fügt auch 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. <em>(Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)</em>",
 			es: "Este ataque también hace 20 puntos de daño a uno de los Pokémon en Banca de tu rival. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca)</em>.",
 			it: "Questo attacco infligge anche 20 danni a uno dei Pokémon nella panchina del tuo avversario. <em>Non applicare debolezza e resistenza ai Pokémon in panchina</em>.",
-			'es-mx': "Este ataque también hace 20 puntos de daño a 1 de los Pokémon en Banca de tu rival. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca).</em>"
+			'es-mx': "Este ataque también hace 20 puntos de daño a 1 de los Pokémon en Banca de tu rival. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca).</em>",
+			pt: "Este ataque também causa 20 pontos de dano a 1 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
 		},
 
 		damage: 50,

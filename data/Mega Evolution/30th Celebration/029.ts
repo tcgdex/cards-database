@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu"
+		'es-mx': "Pikachu",
+		pt: "Pikachu"
 	},
 
 	illustrator: "James Turner",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Freunde finden",
 			es: "Encontrar un Amigo",
 			it: "Trovamico",
-			'es-mx': "Encontrar un Amigo"
+			'es-mx': "Encontrar un Amigo",
+			pt: "Encontre um Amigo"
 		},
 
 		effect: {
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Durchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck.",
 			es: "Busca en tu baraja 1 Pokémon, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo un Pokémon, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia il tuo mazzo.",
-			'es-mx': "Busca en tu mazo 1 Pokémon, muéstralo y ponlo en tu mano. Después, baraja tu mazo."
+			'es-mx': "Busca en tu mazo 1 Pokémon, muéstralo y ponlo en tu mano. Después, baraja tu mazo.",
+			pt: "Procure por um Pokémon no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho."
 		},
 
 		cost: ["Colorless"]

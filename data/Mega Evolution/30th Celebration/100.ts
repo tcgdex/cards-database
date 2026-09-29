@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Yveltal",
 		es: "Yveltal",
 		it: "Yveltal",
-		'es-mx': "Yveltal"
+		'es-mx': "Yveltal",
+		pt: "Yveltal"
 	},
 
 	illustrator: "hncl",
@@ -34,7 +35,8 @@ const card: Card = {
 			de: "Lebenssperre",
 			es: "Bloqueo Vital",
 			it: "Vitalblocco",
-			'es-mx': "Bloqueo Vital"
+			'es-mx': "Bloqueo Vital",
+			pt: "Travar Vida"
 		},
 
 		effect: {
@@ -43,7 +45,8 @@ const card: Card = {
 			de: "Das Aktive Pokémon deines Gegners kann nicht geheilt werden.",
 			es: "El Pokémon Activo de tu rival no puede ser curado.",
 			it: "Il Pokémon attivo del tuo avversario non può essere curato.",
-			'es-mx': "El Pokémon Activo de tu rival no puede ser curado."
+			'es-mx': "El Pokémon Activo de tu rival no puede ser curado.",
+			pt: "O Pokémon Ativo do seu oponente não pode ser curado."
 		}
 	}],
 
@@ -54,7 +57,8 @@ const card: Card = {
 			de: "Dunkler Zerschneider",
 			es: "Cuchilla Oscura",
 			it: "Oscurotaglio",
-			'es-mx': "Corte Oscuro"
+			'es-mx': "Corte Oscuro",
+			pt: "Cortador de Escuridão"
 		},
 
 		damage: 90,

@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Psiana",
 		es: "Espeon",
 		it: "Espeon",
-		'es-mx': "Espeon"
+		'es-mx': "Espeon",
+		pt: "Espeon"
 	},
 
 	illustrator: "aspara",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Wundersamer Glanz",
 			es: "Brillo Milagroso",
 			it: "Bagliore Miracoloso",
-			'es-mx': "Brillo Milagroso"
+			'es-mx': "Brillo Milagroso",
+			pt: "Brilho Milagroso"
 		},
 
 		effect: {
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Rückentwickle jedes entwickelte Pokémon deines Gegners, indem du deinem Gegner die daraufliegende Karte mit der höchsten Entwicklungsphase auf die Hand gibst.",
 			es: "Haz involucionar a cada uno de los Pokémon evolucionados de tu rival poniendo la carta de Evolución de fase más alta que tengan sobre ellos en la mano de tu rival.",
 			it: "Annulla l'evoluzione di ciascuno dei Pokémon evoluti del tuo avversario prendendo la carta Evoluzione di fase più alta presente su di esso e aggiungendola alle carte nella mano del tuo avversario.",
-			'es-mx': "Haz involucionar a cada uno de los Pokémon evolucionados de tu rival poniendo la carta de Evolución de Fase más alta que esté sobre ellos en la mano de tu rival."
+			'es-mx': "Haz involucionar a cada uno de los Pokémon evolucionados de tu rival poniendo la carta de Evolución de Fase más alta que esté sobre ellos en la mano de tu rival.",
+			pt: "Involua cada um dos Pokémon evoluídos do seu oponente colocando a carta de Evolução de Estágio mais alto sobre ele na mão do seu oponente."
 		},
 
 		cost: ["Psychic", "Colorless"]
@@ -52,7 +55,8 @@ const card: Card = {
 			de: "Super-Psischlag",
 			es: "Superrayo Psi",
 			it: "Superpsico",
-			'es-mx': "Superpsicotrueno"
+			'es-mx': "Superpsicotrueno",
+			pt: "Super-raio Psíquico"
 		},
 
 		damage: 90,

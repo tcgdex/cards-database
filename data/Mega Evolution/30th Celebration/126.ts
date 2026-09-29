@@ -10,12 +10,17 @@ const card: Card = {
 		de: "Poképad",
 		es: "Pokétableta",
 		it: "Poké Pad",
-		'es-mx': "Pokétableta"
+		'es-mx': "Pokétableta",
+		pt: "Poké Tablet"
 	},
 
 	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Trainer",
+	effect: {
+		pt: "Procure no seu baralho por um Pokémon que não tiver uma Caixa de Regras, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho. (Pokémon ex, Pokémon V, etc. têm Caixas de Regras.)"
+	},
+
 	trainerType: "Item",
 	regulationMark: "J",
 	variants: [

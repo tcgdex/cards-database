@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Kyogre",
 		es: "Kyogre",
 		it: "Kyogre",
-		'es-mx': "Kyogre"
+		'es-mx': "Kyogre",
+		pt: "Kyogre"
 	},
 
 	illustrator: "Tonji Matsuno",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Hydropumpe",
 			es: "Hidrobomba",
 			it: "Idropompa",
-			'es-mx': "Hidrobomba"
+			'es-mx': "Hidrobomba",
+			pt: "Jato d'Água"
 		},
 
 		effect: {
@@ -41,7 +43,8 @@ const card: Card = {
 			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte <span class=\"energy-symbol Water\" title=\"Wasser\">Water</span>-Energie 30 Schadenspunkte mehr zu.",
 			es: "Este ataque hace 30 puntos de daño más por cada Energía <span class=\"energy-symbol Water\" title=\"Agua\">Water</span> unida a este Pokémon.",
 			it: "Questo attacco infligge 30 danni in più per ogni Energia <span class=\"energy-symbol Water\" title=\"Acqua\">Water</span> assegnata a questo Pokémon.",
-			'es-mx': "Este ataque hace 30 puntos de daño más por cada Energía <span class=\"energy-symbol Water\" title=\"Agua\">Water</span> unida a este Pokémon."
+			'es-mx': "Este ataque hace 30 puntos de daño más por cada Energía <span class=\"energy-symbol Water\" title=\"Agua\">Water</span> unida a este Pokémon.",
+			pt: "Este ataque causa 30 pontos de dano a mais para cada Energia Water ligada a este Pokémon."
 		},
 
 		damage: "60+",

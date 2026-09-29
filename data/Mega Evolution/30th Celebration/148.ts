@@ -10,7 +10,8 @@ const card: Card = {
 		de: "Quajutsu-ex",
 		es: "Greninja ex",
 		it: "Greninja-ex",
-		'es-mx': "Greninja ex"
+		'es-mx': "Greninja ex",
+		pt: "Greninja ex"
 	},
 
 	illustrator: "GIDORA",
@@ -29,7 +30,8 @@ const card: Card = {
 			de: "Tarnschlitzer",
 			es: "Tajo Sigiloso",
 			it: "Lacerazione Furtiva",
-			'es-mx': "Cuchillada Sigilosa"
+			'es-mx': "Cuchillada Sigilosa",
+			pt: "Talho Furtivo"
 		},
 
 		effect: {
@@ -38,7 +40,8 @@ const card: Card = {
 			de: "Diese Attacke fügt 1 Pokémon deines Gegners für jede Schadensmarke auf jenem Pokémon 30 Schadenspunkte zu. <em>(Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)</em>",
 			es: "Este ataque hace 30 puntos de daño a uno de los Pokémon de tu rival por cada contador de daño en ese Pokémon. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca)</em>.",
 			it: "Questo attacco infligge 30 danni a uno dei Pokémon del tuo avversario per ogni segnalino danno presente su quel Pokémon. <em>Non applicare debolezza e resistenza ai Pokémon in panchina</em>.",
-			'es-mx': "Este ataque hace 30 puntos de daño a 1 de los Pokémon de tu rival por cada contador de daño en ese Pokémon. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca).</em>"
+			'es-mx': "Este ataque hace 30 puntos de daño a 1 de los Pokémon de tu rival por cada contador de daño en ese Pokémon. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca).</em>",
+			pt: "Este ataque causa 30 pontos de dano a 1 dos Pokémon do seu oponente para cada contador de dano naquele Pokémon. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
 		},
 
 		cost: ["Water"]
@@ -49,7 +52,8 @@ const card: Card = {
 			de: "Aquaschneide",
 			es: "Filo Agua",
 			it: "Acquataglio",
-			'es-mx': "Filo Acuático"
+			'es-mx': "Filo Acuático",
+			pt: "Aqua Gume"
 		},
 
 		damage: 160,

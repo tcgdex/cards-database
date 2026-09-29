@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Kapuno",
 		es: "Deino",
 		it: "Deino",
-		'es-mx': "Deino"
+		'es-mx': "Deino",
+		pt: "Deino"
 	},
 
 	illustrator: "Gapao",
@@ -32,7 +33,8 @@ const card: Card = {
 			de: "Nagen",
 			es: "Roer",
 			it: "Rosicchiamento",
-			'es-mx': "Mordisquear"
+			'es-mx': "Mordisquear",
+			pt: "Roída"
 		},
 
 		damage: 10,
@@ -44,7 +46,8 @@ const card: Card = {
 			de: "Kopfnuss",
 			es: "Golpe Cabeza",
 			it: "Bottintesta",
-			'es-mx': "Golpe Cabeza"
+			'es-mx': "Golpe Cabeza",
+			pt: "Cabeçada"
 		},
 
 		damage: 20,
