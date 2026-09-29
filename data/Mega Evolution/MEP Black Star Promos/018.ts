@@ -7,10 +7,6 @@ const card: Card = {
 	name: {
 		en: "Cottonee",
 		fr: "Doudouvet",
-		es: "Cottonee",
-		de: "Waumboll",
-		it: "Cottonee",
-		pt: "Cottonee",
 	},
 
 	illustrator: "Kariya",
@@ -27,19 +23,11 @@ const card: Card = {
 		name: {
 			en: "Collect",
 			fr: "Collecte",
-			es: "Coleccionar",
-			de: "Sammeln",
-			it: "Tassa",
-			pt: "Coleta",
 		},
 
 		effect: {
 			en: "Draw a card.",
 			fr: "Piochez une carte.",
-			es: "Roba 1 carta.",
-			de: "Ziehe 1 Karte.",
-			it: "Pesca una carta.",
-			pt: "Compre uma carta.",
 		}
 	}],
 
