@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [25],
+
 	effect: {
 		fr: "Chaque joueur mélange sa main avec son deck, puis pioche 4 cartes.",
 		en: "Each player shuffles his or her hand into his or her deck and draws 4 cards.",
