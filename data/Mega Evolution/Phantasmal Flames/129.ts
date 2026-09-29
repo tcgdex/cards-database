@@ -4,6 +4,8 @@ import Set from "../Phantasmal Flames"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [396],
+
 	name: {
 		en: "Dawn",
 		fr: "Aurore",

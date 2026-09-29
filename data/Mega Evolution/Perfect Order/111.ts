@@ -4,6 +4,8 @@ import Set from "../Perfect Order"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [659],
+
 	name: {
 		en: "Lumiose City",
 		fr: "Illumis",

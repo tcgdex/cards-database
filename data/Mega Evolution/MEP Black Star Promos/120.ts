@@ -4,6 +4,8 @@ import Set from "../MEP Black Star Promos"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [25, 52, 337, 448, 492, 658],
+
 	name: {
 		en: "Celebratory Fanfare",
 	},

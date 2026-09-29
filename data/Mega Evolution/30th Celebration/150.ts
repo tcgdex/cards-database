@@ -18,6 +18,9 @@ const card: Card = {
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 	dexId: [25],
+
+	cameoDexIds: [29, 52, 94, 133, 143, 145, 150, 197, 314, 385, 448, 537, 559, 570, 571, 598, 609, 658, 745, 782, 784, 790, 849, 1000],
+
 	hp: 190,
 	types: ["Lightning"],
 	stage: "Basic",

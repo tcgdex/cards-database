@@ -22,6 +22,10 @@ const card: Card = {
 	stage: "Basic",
 	dexId: [255],
 
+
+
+	cameoDexIds: [278, 333],
+
 	attacks: [{
 		cost: ["Colorless"],
 

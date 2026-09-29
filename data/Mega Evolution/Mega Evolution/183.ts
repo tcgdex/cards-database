@@ -4,6 +4,8 @@ import Set from "../Mega Evolution"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [302, 426, 778],
+
 	name: {
 		en: "Acerola's Mischief",
 		fr: "Espièglerie de Margie",

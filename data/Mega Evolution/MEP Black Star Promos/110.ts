@@ -18,6 +18,9 @@ const card: Card = {
 	stage: "Stage1",
 	dexId: [197],
 
+
+	cameoDexIds: [133, 150, 198, 337, 488, 570, 571, 633, 634, 635, 774, 807, 848, 849],
+
 	evolveFrom: {
 		en: "Eevee",
 		es: "Eevee",
