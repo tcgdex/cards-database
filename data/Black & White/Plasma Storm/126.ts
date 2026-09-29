@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [109],
+
 	effect: {
 		fr: "Placez 2 marqueurs de dégâts supplémentaires sur les Pokémon Empoisonnés (les vôtres et ceux de votre adversaire) entre chaque tour.",
 		en: "Put 2 more damage counters on Poisoned Pokémon (both yours and your opponent’s) between turns.",
