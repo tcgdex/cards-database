@@ -4,6 +4,8 @@ import Set from "../Astral Radiance"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [872],
+
 	name: {
 		en: "Path to the Peak",
 		fr: "Sentier Blanche-Cime",

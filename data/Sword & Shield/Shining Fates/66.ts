@@ -4,6 +4,8 @@ import Set from '../Shining Fates'
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [396],
+
 	name: {
 		fr: "Ornithologue",
 		en: "Bird Keeper",

@@ -4,6 +4,8 @@ import Set from '../Shining Fates'
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [851],
+
 	name: {
 		fr: "Dresseurs d'Arène",
 		en: "Gym Trainer",
