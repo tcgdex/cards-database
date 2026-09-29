@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [173, 239],
+
 	effect: {
 		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Each player pays Colorless more to retreat a Baby Pokémon or Basic Pokémon.",
 		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-vous de cette carte si une autre carte Stade arrive en jeu.\n\nChaque joueur paie {C} supplémentaire pour faire battre en retraite un Bébé Pokémon ou un Pokémon de base.",
