@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "As it gulps down stagnant water and generates electricity in its body, a sound like a rhythm played by a bass guitar reverberates all around."
+		en: "As it gulps down stagnant water and generates electricity in its body, a sound like a rhythm played by a bass guitar reverberates all around.",
+		fr: "Lorsqu'il avale de l'eau stagnante et génère de l'électricité à l'intérieur de son corps, cela crée des vibrations semblables à celles d'une basse."
 	},
 
 	name: {

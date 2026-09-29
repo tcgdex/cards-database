@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Each has the ability to fool a large group of people simultaneously. They protect their lair with illusory scenery."
+		en: "Each has the ability to fool a large group of people simultaneously. They protect their lair with illusory scenery.",
+		fr: "Ce Pokémon peut mystifier instantanément des foules d'êtres humains. Il protège son habitat en créant des illusions de paysages."
 	},
 
 	name: {

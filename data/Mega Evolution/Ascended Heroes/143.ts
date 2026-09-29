@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Its peach-shaped shell serves as storage for a potent poison. It makes poisonous mochi and serves them to people and Pokémon.",
+		fr: "Il conserve du poison dans sa carapace en forme de pêche. Il s'en sert pour préparer des mochis qu'il donne aux êtres humains et aux Pokémon.",
 		de: "In der wie ein Pfirsich geformten Schale speichert es Gift und stellt daraus giftige Mochi her, die es Menschen und Pokémon anbietet."
 	},
 

@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "If spotted, it escapes by burrowing with its tail. It can float just slightly using its wings.",
+		fr: "S'il est repéré, il fuit en creusant un trou à l'aide de sa queue. Ses ailes lui permettent de léviter pendant quelques instants.",
 		de: "Wird es entdeckt, gräbt es sich mit seinem Schwanz ins Erdreich, um zu fliehen. Setzt es seine Flügel ein, kann es ein bisschen schweben."
 	},
 

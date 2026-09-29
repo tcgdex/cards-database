@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "The horn on its head has atrophied. It's thought that this happens so Nidorina's children won't get poked while their mother is feeding them."
+		en: "The horn on its head has atrophied. It's thought that this happens so Nidorina's children won't get poked while their mother is feeding them.",
+		fr: "On pense que sa corne frontale s'est atrophiée pour lui permettre de nourrir ses petits sans les blesser."
 	},
 
 	name: {

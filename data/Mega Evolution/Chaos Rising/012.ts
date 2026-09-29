@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "It keeps a twig in its tail. Using friction from its tail fur, it sets the twig on fire and launches into battle.",
+		fr: "Il a une branche plantée dans la queue. Lorsqu'il la dégaine pour se battre, celle-ci prend feu par friction avec ses poils.",
 		de: "In seinem Schweif steckt ein Zweig, den es mit der Reibungswärme seiner Schweifhaare anzündet, um zu kämpfen."
 	},
 

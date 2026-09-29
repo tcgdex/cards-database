@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists."
+		en: "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists.",
+		fr: "Il s'agirait d'« Ailes-Royales », une créature qui, d'après un vieux récit d'exploration, aurait fendu la terre par la force de ses poings."
 	},
 
 	name: {

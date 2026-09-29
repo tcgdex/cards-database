@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Groudon is said to have expanded the reach of dry land by evaporating water with raging heat. It battled ferociously against Kyogre."
+		en: "Groudon is said to have expanded the reach of dry land by evaporating water with raging heat. It battled ferociously against Kyogre.",
+		fr: "On dit que ce Pokémon a émis une forte chaleur pour évaporer l'eau et étendre les continents. Il a mené un combat sans merci contre Kyogre."
 	},
 
 	name: {

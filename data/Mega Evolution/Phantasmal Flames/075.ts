@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "It gathers static electricity from its surroundings. The beams it launches when down on all fours are tremendously powerful.",
+		fr: "Il accumule l'électricité statique alentour. Le rayon qu'il tire quand il se met à quatre pattes est d'une puissance colossale.",
 		de: "Es sammelt statische Elektrizität aus der Umgebung. Die Strahlen, die es auf allen Vieren abfeuert, sind extrem stark."
 	},
 

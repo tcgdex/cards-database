@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "With its disheveled white fur, it looks like an embodiment of death. Heedless of its own safety, Zoroark attacks its nemeses with a bitter energy so intense, it lacerates Zoroark's own body."
+		en: "With its disheveled white fur, it looks like an embodiment of death. Heedless of its own safety, Zoroark attacks its nemeses with a bitter energy so intense, it lacerates Zoroark's own body.",
+		fr: "Sa crinière blanche échevelée lui donne l'allure d'un dieu de la mort. Le ressentiment qu'il éprouve le déchire physiquement, mais lui donne une énergie telle qu'elle peut occire tout ennemi."
 	},
 
 	name: {

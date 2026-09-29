@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "By reading the auras of all things, it can tell how others are feeling from over half a mile away."
+		en: "By reading the auras of all things, it can tell how others are feeling from over half a mile away.",
+		fr: "Grâce à sa capacité à lire les auras, il peut identifier les émotions de tout être vivant à plus d'un kilomètre."
 	},
 
 	name: {

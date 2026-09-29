@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "This is a smart and sneaky Pokémon. A pair may work together to steal eggs by having one lure the parents away.",
+		fr: "Ces Pokémon rusés agissent parfois à deux pour voler des Œufs : l'un d'eux fait diversion, pendant que l'autre commet le méfait.",
 		de: "Diese raffinierten Pokémon arbeiten bisweilen zu zweit, um Nester auszurauben. Während eines die Eltern weglockt, holt sich das andere die Eier."
 	},
 

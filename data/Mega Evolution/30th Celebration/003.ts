@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It flashes the light on its rear to communicate with other Volbeat. It loves the sweet aroma given off by Illumise."
+		en: "It flashes the light on its rear to communicate with other Volbeat. It loves the sweet aroma given off by Illumise.",
+		fr: "Pour communiquer avec ses semblables, ce Pokémon fait clignoter son postérieur. Il adore le doux parfum que dégagent les Lumivole."
 	},
 
 	name: {

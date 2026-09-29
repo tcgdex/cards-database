@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "They cool down the surrounding air and create ice particles, which they use to freeze their foes.",
+		fr: "Ce Pokémon refroidit l'air ambiant et crée ainsi des petites particules de glace dont il se sert pour geler ses ennemis.",
 		de: "Es produziert Eiskörner, indem es die Luft um sich herum abkühlt, und friert mit diesen seine Gegner ein."
 	},
 

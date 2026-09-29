@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "According to old tales, these Pokémon are stumps possessed by the spirits of children who died while lost in the forest.",
+		fr: "Cette espèce de Pokémon aurait vu le jour après que des âmes d'enfants perdus dans la forêt auraient élu domicile dans des souches d'arbres.",
 		de: "Bei diesen Pokémon soll es sich um die Seelen von Kindern handeln, die sich im Wald verliefen und ums Leben kamen und nun in Baumstümpfen hausen."
 	},
 

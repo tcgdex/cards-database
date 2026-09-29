@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Its instinct is to bury itself in holes. It often steals the nesting holes of others to sleep in them.",
+		fr: "Il se cache dans des trous. Il lui arrive même de voler les trous de ses semblables.",
 		de: "Es schläft instinktiv in Löchern. Oft usupiert es die Schlafplätze von anderen."
 	},
 

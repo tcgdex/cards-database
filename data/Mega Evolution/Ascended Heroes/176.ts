@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a compassionate personality, but if it is angered, it completely destroys its surroundings with its intense breath.",
+		fr: "C'est une bonne pâte de nature, mais si par malheur il s'énerve, il détruit tout ce qui l'entoure de son souffle puissant.",
 		de: "Es hat ein freundliches Wesen, aber wenn es zur Weißglut gebracht wird, zerstört es mit einem heftigen Hauch die gesamte Umgebung."
 	},
 

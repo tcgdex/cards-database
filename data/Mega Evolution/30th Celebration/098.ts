@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "The two heads have different likes and dislikes. Because the heads fight with each other, Zweilous gets stronger without needing to rely on others."
+		en: "The two heads have different likes and dislikes. Because the heads fight with each other, Zweilous gets stronger without needing to rely on others.",
+		fr: "Ses deux têtes aiment des choses différentes. Comme elles se disputent constamment, elles se renforcent sans avoir besoin de qui que ce soit."
 	},
 
 	name: {

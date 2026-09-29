@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It runs as fast as lightning strikes, shredding its opponents with its high-voltage claws."
+		en: "It runs as fast as lightning strikes, shredding its opponents with its high-voltage claws.",
+		fr: "Il fonce sur ses ennemis à la vitesse de l'éclair et les déchiquette à l'aide de ses griffes chargées à haute tension."
 	},
 
 	name: {

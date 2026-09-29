@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
+		fr: "Ce Pokémon redouté et peu aimé porterait malheur à quiconque l'aperçoit la nuit.",
 		de: "Viele verabscheuen und hassen es, da sie glauben, es bringe Unglück, wenn sie ihm nachts begegnen."
 	},
 

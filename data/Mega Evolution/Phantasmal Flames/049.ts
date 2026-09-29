@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "It builds its nest on a steep cliff. When it is done gliding, it hops along the ground back to its nest.",
+		fr: "Il construit son nid sur des falaises escarpées. Quand il a fini de planer, il y retourne en sautillant.",
 		de: "Skorgla baut sein Nest an steilen Klippen. Wenn es seinen Gleitflug beendet, hüpft es ins Nest zurück."
 	},
 

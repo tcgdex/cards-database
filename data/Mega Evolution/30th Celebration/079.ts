@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "The absorption of starlight fuels this Pokémon's growth. The shell that encases it is harder than any known material."
+		en: "The absorption of starlight fuels this Pokémon's growth. The shell that encases it is harder than any known material.",
+		fr: "La carapace qui le recouvre est plus dure que tout ce qui est connu par l'Homme. Il grandit en absorbant la lumière des étoiles."
 	},
 
 	name: {

@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon lives in dark places untouched by sunlight. When it appears before humans, it hides itself under a cloth that resembles a Pikachu.",
+		fr: "Il vit dans les lieux sombres, à l'abri du soleil. Lorsqu'il se montre, il dissimule tout son corps sous un déguisement qui rappelle Pikachu.",
 		de: "Es lebt an dunklen Orten ohne Sonnenlicht. Menschen zeigt es sich nur, wenn es mit einem Lumpen bedeckt ist, der aussieht wie ein Pikachu."
 	},
 

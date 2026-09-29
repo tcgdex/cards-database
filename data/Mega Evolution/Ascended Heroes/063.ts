@@ -49,6 +49,7 @@ const card: Card = {
 
 	description: {
 		en: "The frills on either side of its head have cells that generate electricity when exposed to sunlight.",
+		fr: "Les plis de peau de chaque côté de sa tête sont dotés de cellules produisant de l'électricité quand elles sont exposées à la lumière du soleil.",
 		de: "Die Zellen der Hautlappen, die sich beidseitig an seinem Kopf befinden, erzeugen Strom, wenn sie von Sonnenstrahlen beschienen werden."
 	},
 

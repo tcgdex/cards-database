@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "It is constantly wracked by a headache. When the headache turns intense, it begins using mysterious powers.",
+		fr: "Ce Pokémon a tout le temps la migraine. Quand la douleur devient trop intense, il se met à utiliser des pouvoirs mystérieux.",
 		de: "Es wird permanent von Kopfschmerzen geplagt. Wird der Schmerz stärker, setzt es geheimnisvolle Kräfte ein."
 	},
 

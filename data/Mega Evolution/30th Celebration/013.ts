@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter."
+		en: "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
+		fr: "Un Pokémon qui amène la victoire. On dit que les Dresseurs qui le possèdent peuvent gagner n'importe quel combat."
 	},
 
 	name: {

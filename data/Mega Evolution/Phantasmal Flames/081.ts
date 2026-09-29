@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "A Pokémon with abundant curiosity. It shows an interest in everything, so it always zigzags.",
+		fr: "Un Pokémon d'une curiosité insatiable. Il montre de l'intérêt pour tout ce qui l'entoure et passe d'un endroit à un autre en zigzaguant pour tout regarder.",
 		de: "Ein sehr neugieriges Pokémon. Es zeigt an allem Interesse, daher läuft es zickzack."
 	},
 

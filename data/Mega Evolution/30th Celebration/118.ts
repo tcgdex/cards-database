@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions."
+		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.",
+		fr: "L'ADN de ce Pokémon très particulier lui ouvre de nombreuses possibilités d'évolution."
 	},
 
 	name: {

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It fires itself up by striking its scales with force as it dances. Its roar is a battle cry."
+		en: "It fires itself up by striking its scales with force as it dances. Its roar is a battle cry.",
+		fr: "Il danse en frappant violemment ses écailles, ce qui le galvanise. Son cri de guerre signale qu'il est sur le point d'engager le combat."
 	},
 
 	name: {

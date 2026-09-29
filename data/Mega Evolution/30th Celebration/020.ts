@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It is said to live in a gap in the spatial dimension parallel to ours. It appears in mythology."
+		en: "It is said to live in a gap in the spatial dimension parallel to ours. It appears in mythology.",
+		fr: "On dit qu'il hante une faille d'une dimension parallèle à la nôtre. Il apparaît dans la mythologie."
 	},
 
 	name: {

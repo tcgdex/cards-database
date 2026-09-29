@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It feeds on dust in the atmosphere. The color of its core is said to be determined by the composition of the dust it eats."
+		en: "It feeds on dust in the atmosphere. The color of its core is said to be determined by the composition of the dust it eats.",
+		fr: "Il se nourrit de particules en suspension dans l'atmosphère. La composition de ces dernières influerait sur la couleur de son noyau."
 	},
 
 	name: {

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "As it grew taller and taller, it outgrew its reliance on psychic powers, while within it awakened the power of the sleeping dragon."
+		en: "As it grew taller and taller, it outgrew its reliance on psychic powers, while within it awakened the power of the sleeping dragon.",
+		fr: "Au fil de sa croissance, ses pouvoirs psychiques sont devenus inutiles, tandis que le pouvoir des dragons qui sommeillait en lui s'est réveillé."
 	},
 
 	name: {

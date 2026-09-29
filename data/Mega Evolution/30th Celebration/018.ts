@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It's said that this Pokémon's beautiful blue wings are made of ice. Articuno flies over snowy mountains, its long tail fluttering along behind it."
+		en: "It's said that this Pokémon's beautiful blue wings are made of ice. Articuno flies over snowy mountains, its long tail fluttering along behind it.",
+		fr: "On raconte que ses belles plumes bleues sont faites de glace. Sa longue queue flotte au vent lorsqu'il vole au-dessus des monts enneigés."
 	},
 
 	name: {

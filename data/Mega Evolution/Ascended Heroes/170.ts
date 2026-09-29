@@ -99,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "It never stops attacking even if it is injured. It fusses over the shape of its comb.",
+		fr: "Même blessé, ce Pokémon combattra sans relâche. Il se soucie beaucoup de la forme de sa huppe.",
 		de: "Selbst mit einer Verletzung greift es immer weiter an. Es legt großen Wert auf das Aussehen seines Kamms."
 	},
 

@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "They communicate with one another by using magnetic pulses. In a swarm, they move in perfect unison.",
+		fr: "Ces Pokémon communiquent entre eux par impulsions magnétiques. Lorsqu'ils sont en bande, ils se déplacent à l'unisson.",
 		de: "Es kommuniziert durch magnetische Impulse mit seinen Artgenossen. Im Schwarm bewegen sie sich als perfekte Einheit."
 	},
 

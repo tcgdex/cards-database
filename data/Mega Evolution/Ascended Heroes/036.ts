@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "Fire energy gathers in the pads of its feet, raising their temperature. Once hot, Scorbunny’s footpads can deal heavy damage to opponents.",
+		fr: "Lorsqu'il concentre son énergie incandescente dans ses coussinets, ses pattes deviennent brûlantes et il peut infliger d'énormes dégâts.",
 		de: "Die Ballen an seinen Läufen werden aufgrund der Feuer-Energie, die sich dort sammelt, sehr heiß und können Gegnern großen Schaden zufügen."
 	},
 

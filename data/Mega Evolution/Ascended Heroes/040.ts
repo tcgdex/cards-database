@@ -93,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "When it swims at full speed using its long, webbed limbs, its forehead somehow begins to glow.",
+		fr: "Quand il nage à vitesse maximale grâce à ses pattes palmées, son front se met à luire pour une raison inconnue.",
 		de: "Wenn es mit den Schwimmflossen an seinen langen Gliedmaßen schnell durchs Wasser schwimmt, beginnt seine Stirn zu glühen."
 	},
 

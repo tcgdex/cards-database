@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "It dwells in the darkness of caves. It uses its sharp claws to dig up gems to nourish itself.",
+		fr: "Ce Pokémon vit dans les grottes obscures et mange des pierres précieuses qu'il déterre à l'aide de ses griffes acérées.",
 		de: "Es haust in düsteren Höhlen, wo es mit seinen spitzen Klauen Edelsteine ausgräbt und verspeist."
 	},
 

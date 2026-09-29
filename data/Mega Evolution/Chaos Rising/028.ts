@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "If its coat becomes fully charged with electricity, its tail lights up. Flaaffy can fire wool that zaps on impact.",
+		fr: "Lorsque sa toison est complètement chargée d'électricité, sa queue s'allume. Il projette des poils qui lancent une décharge à leur contact.",
 		de: "Ist sein Fell vollständig elektrisch geladen, leuchtet sein Schweif. Es feuert Haare ab, die sich bei Berührung entladen."
 	},
 

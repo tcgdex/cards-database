@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Able to understand human speech and very intelligent, it loves to swim in the sea with people on its back."
+		en: "Able to understand human speech and very intelligent, it loves to swim in the sea with people on its back.",
+		fr: "Ce Pokémon très intelligent comprend le langage humain. Il adore parcourir les mers avec des gens sur le dos."
 	},
 
 	name: {

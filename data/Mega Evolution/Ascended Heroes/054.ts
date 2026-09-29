@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Glastrier emits intense cold from its hooves. It’s also a belligerent Pokémon—anything it wants, it takes by force.",
+		fr: "Violent au point de s'emparer de tout ce qu'il désire par la force, ce Pokémon est capable de libérer un puissant air glacial de ses sabots.",
 		de: "Aus seinen Hufen verströmt es eisige Kälte. Dieses ungestüme Pokémon nimmt sich alles, was es will, mit roher Gewalt."
 	},
 

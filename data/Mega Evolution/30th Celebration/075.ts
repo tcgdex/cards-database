@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Being consumed in Chandelure's flame burns up the spirit, leaving the body behind."
+		en: "Being consumed in Chandelure's flame burns up the spirit, leaving the body behind.",
+		fr: "Lugulabre enveloppe sa victime de ses flammes, puis aspire son âme et la consume, ne laissant que son corps, telle une coquille vide."
 	},
 
 	name: {

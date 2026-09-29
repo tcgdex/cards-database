@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Its tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.",
+		fr: "Il est si puissant qu'il peut renverser un char de 50 tonnes d'un seul assaut. Il se sert de son corps comme d'un bouclier pour protéger ses alliés.",
 		de: "Es ist so stark, dass es selbst 50 t schwere Panzer umkippen kann. Es schützt Kameraden, indem es sich ihnen als Schild anbietet."
 	},
 

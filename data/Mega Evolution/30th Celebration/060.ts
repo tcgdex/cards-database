@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "The jolts of electricity it launches by violently strumming the protrusions on its chest easily exceed 15,000 volts."
+		en: "The jolts of electricity it launches by violently strumming the protrusions on its chest easily exceed 15,000 volts.",
+		fr: "Les décharges électriques qu'il envoie lorsqu'il gratte furieusement les excroissances sur son torse dépassent sans problème les 15 000 volts."
 	},
 
 	name: {

@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon developed from an abandoned doll that amassed a grudge. It is seen in dark alleys.",
+		fr: "Ce Pokémon est une poupée abandonnée que la rancune a animée. Il hante les ruelles sombres.",
 		de: "Es war einst eine weggeworfene Plüschpuppe, die durch einen tiefen Groll zu einem Pokémon wurde. Man findet es in dunklen Gassen."
 	},
 

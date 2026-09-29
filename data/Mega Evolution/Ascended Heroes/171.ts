@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "There are several appliances that Rotom can inspirit, but the first one to be developed was the electric fan.",
+		fr: "Motisma est capable de prendre possession de différents types d'appareils ménagers, mais le premier à avoir été développé est le ventilateur.",
 		de: "Es gibt eine Reihe elektrischer Haushaltsgeräte, in die Rotom eindringen kann, doch das erste, das entwickelt wurde, war der Ventilator."
 	},
 

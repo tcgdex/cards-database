@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "The combination of garbage bags and industrial waste caused the chemical reaction that created this Pokémon.",
+		fr: "Ce Pokémon est né d'une réaction chimique provoquée par des déchets industriels dans un sac poubelle.",
 		de: "Dieses Pokémon entstand durch eine chemische Reaktion zwischen Industrieabfällen und einer Mülltüte."
 	},
 

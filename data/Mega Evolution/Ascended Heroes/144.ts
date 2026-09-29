@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "Attached to its head is a huge set of jaws formed by horns. It can chew through iron beams.",
+		fr: "La grande mâchoire sur sa tête est le résultat de la déformation des cornes qu'il possédait à l'origine. Elle peut broyer des poutres en fer.",
 		de: "Der riesige Kiefer auf seinem Kopf entstand aus Hörnern und ist stark genug, um selbst Stahlgerüste zu zermalmen."
 	},
 

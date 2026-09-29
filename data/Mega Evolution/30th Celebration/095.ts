@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "To protect themselves from danger, they hide their true identities by transforming into people and Pokémon."
+		en: "To protect themselves from danger, they hide their true identities by transforming into people and Pokémon.",
+		fr: "Il peut se transformer en être humain ou en d'autres Pokémon. Il se protège du danger en dissimulant sa véritable identité."
 	},
 
 	name: {

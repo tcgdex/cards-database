@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Shiny particles are released from its wings like a veil. It is said to represent the crescent moon."
+		en: "Shiny particles are released from its wings like a veil. It is said to represent the crescent moon.",
+		fr: "Ses ailes libèrent un rideau de particules brillantes. Ce Pokémon symboliserait le croissant de lune."
 	},
 
 	name: {

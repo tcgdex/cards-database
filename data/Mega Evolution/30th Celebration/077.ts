@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It prefers areas with lots of flowers. A Comfey adorned with flowers is a happy Comfey, and the flowers gain healing effects."
+		en: "It prefers areas with lots of flowers. A Comfey adorned with flowers is a happy Comfey, and the flowers gain healing effects.",
+		fr: "Se parer de fleurs l'emplit de joie et lui permet de dégager une aura apaisante. Il se plaît dans les endroits où les fleurs poussent en abondance."
 	},
 
 	name: {

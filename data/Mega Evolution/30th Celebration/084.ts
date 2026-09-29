@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "The vibrating of the bumps all over its body causes earthquake-like tremors. Seismitoad and Croagunk are similar species."
+		en: "The vibrating of the bumps all over its body causes earthquake-like tremors. Seismitoad and Croagunk are similar species.",
+		fr: "En faisant vibrer tous les pustules de son corps, il peut provoquer des secousses similaires à celles d'un séisme. Il est proche des Cradopaud."
 	},
 
 	name: {

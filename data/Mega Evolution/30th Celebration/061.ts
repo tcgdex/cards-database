@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It has a small stomach. If it isn't constantly eating the seeds it keeps in its pockets, it will get hungry immediately."
+		en: "It has a small stomach. If it isn't constantly eating the seeds it keeps in its pockets, it will get hungry immediately.",
+		fr: "S'il ne mange pas constamment les graines qu'il emmagasine dans ses poches, son petit estomac se vide et il a immédiatement faim."
 	},
 
 	name: {

@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "There are stories of this Pokémon using its radiant, flame-cloaked wings to light up paths for those lost in the mountains.",
+		fr: "On raconte qu'il a sauvé des personnes perdues en montagne en illuminant les sentiers à l'aide de ses splendides ailes flamboyantes.",
 		de: "Überlieferungen nach soll Lavados mit seinen wunderschön lodernden Flügeln Bergpfade erleuchtet und dadurch Verirrten geholfen haben."
 	},
 

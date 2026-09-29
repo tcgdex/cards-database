@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It's said that Hydreigon grew ferocious because people in times long past loathed it, considering it to be evil incarnate and attacking it relentlessly."
+		en: "It's said that Hydreigon grew ferocious because people in times long past loathed it, considering it to be evil incarnate and attacking it relentlessly.",
+		fr: "Il serait devenu brutal à cause des êtres humains, qui le considéraient jadis comme le mal incarné et s'en prenaient sans cesse à lui."
 	},
 
 	name: {

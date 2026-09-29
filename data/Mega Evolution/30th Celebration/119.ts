@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Its stomach's digestive juices can dissolve any kind of poison. Eating things off the ground doesn't bother it at all."
+		en: "Its stomach's digestive juices can dissolve any kind of poison. Eating things off the ground doesn't bother it at all.",
+		fr: "Ses sucs digestifs peuvent dissoudre n'importe quel poison. Il n'a donc pas peur de manger des aliments trouvés par terre."
 	},
 
 	name: {

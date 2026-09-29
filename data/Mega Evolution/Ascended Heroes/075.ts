@@ -81,6 +81,7 @@ const card: Card = {
 
 	description: {
 		en: "It has an acute sense of hearing. It can easily hear a pin being dropped nearly 1,100 yards away.",
+		fr: "Ce Pokémon possède une ouïe très développée. Il peut facilement entendre une épingle tomber à 1 km de distance.",
 		de: "Es besitzt ein exzellentes Hörvermögen. Darum kann es eine Nadel fallen hören, selbst wenn sie 1 km entfernt ist."
 	},
 

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "This Lycanroc has an extremely vicious temperament. It will happily sustain injuries for the sake of taking down its opponent."
+		en: "This Lycanroc has an extremely vicious temperament. It will happily sustain injuries for the sake of taking down its opponent.",
+		fr: "Ce Pokémon particulièrement féroce n'a pas peur de se blesser si cela lui permet d'achever son adversaire."
 	},
 
 	name: {

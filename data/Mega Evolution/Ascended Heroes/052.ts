@@ -49,6 +49,7 @@ const card: Card = {
 
 	description: {
 		en: "Within its internal organs, Snom amplifies the frigid air it gets from eating snow and then uses this amplified air to create icicle-like spikes.",
+		fr: "Il amplifie l'air froid qu'il absorbe en mangeant de la neige, ce qui lui permet de créer ses pointes semblables à des pics de glace.",
 		de: "Mit den inneren Organen verstärkt es die Kälte, die es mit dem Schnee aufnimmt. Dadurch kann es Stacheln formen, die wie Eiszapfen aussehen."
 	},
 

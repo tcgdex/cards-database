@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Its ice-covered body is as hard as steel. Its enormous frame crushes anything that stands in its way.",
+		fr: "Son immense corps recouvert de glace est aussi solide que de l'acier. Quand il se déplace, il écrase tout ce qui se trouve sur son passage.",
 		de: "Sein eisbedeckter Körper ist so hart wie Stahl. Es nutzt diese stahlharte Hülle, um Hindernisse zu zerschmettern und sich so seinen Weg zu bahnen."
 	},
 

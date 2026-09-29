@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Its flat, thin body is always stuck on walls. Its shape appears to have some meaning."
+		en: "Its flat, thin body is always stuck on walls. Its shape appears to have some meaning.",
+		fr: "Son corps plat et fin est toujours collé aux murs. On pense que sa forme a une signification."
 	},
 
 	name: {

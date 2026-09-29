@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It's accustomed to luxury because it used to live with Alolan royalty. As a result, it's very picky about food."
+		en: "It's accustomed to luxury because it used to live with Alolan royalty. As a result, it's very picky about food.",
+		fr: "Par le passé, il menait une vie de luxe auprès de la famille royale d'Alola, et il en a gardé des goûts alimentaires très sélectifs."
 	},
 
 	name: {

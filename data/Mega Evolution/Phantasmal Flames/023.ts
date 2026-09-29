@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "It searches for food by digging into the ground with its snout. Even frozen ground doesn't give it any trouble.",
+		fr: "Il creuse la terre avec le bout de son nez pour trouver de la nourriture. Même un sol gelé ne lui résiste pas.",
 		de: "Mit seiner Nase gräbt es nach Nahrung. Selbst gefrorener Boden bereitet ihm keine Probleme."
 	},
 

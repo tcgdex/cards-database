@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "A Pokémon spoken of in legend. It is said that time began moving when Dialga was born."
+		en: "A Pokémon spoken of in legend. It is said that time began moving when Dialga was born.",
+		fr: "Les mythes parlent de ce Pokémon. On dit que le temps s'est mis en mouvement à sa naissance."
 	},
 
 	name: {

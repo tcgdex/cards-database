@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It lazes vacantly near water. If something bites its tail, it won't even notice for a whole day."
+		en: "It lazes vacantly near water. If something bites its tail, it won't even notice for a whole day.",
+		fr: "Ce Pokémon se prélasse mollement au bord de l'eau. Il est si distrait qu'il lui faut une journée pour remarquer qu'on lui mord la queue."
 	},
 
 	name: {

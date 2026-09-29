@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It bashes its scales to test its opponents' mettle. The sound of struck Kommo-o scales frightens weaker foes and sends them running."
+		en: "It bashes its scales to test its opponents' mettle. The sound of struck Kommo-o scales frightens weaker foes and sends them running.",
+		fr: "Il met à l'épreuve la bravoure de ses adversaires en entrechoquant ses écailles. Ce son suffit à faire déguerpir les plus faibles."
 	},
 
 	name: {

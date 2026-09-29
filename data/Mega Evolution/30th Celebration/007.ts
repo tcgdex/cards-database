@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "After absorbing plenty of sunlight, Cherrim takes this form. It's full of energy while it's like this, and its liveliness will go on until sundown."
+		en: "After absorbing plenty of sunlight, Cherrim takes this form. It's full of energy while it's like this, and its liveliness will go on until sundown.",
+		fr: "Il prend cette forme lorsqu'il a fait le plein de soleil. Il déborde alors d'énergie et reste très actif jusqu'au crépuscule."
 	},
 
 	name: {

@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "It sharpens its swordlike tail on hard rocks. It hides in tall grass and strikes unwary prey with venomous fangs.",
+		fr: "Il affûte sa queue tranchante comme une épée sur les rochers et se cache dans les hautes herbes pour attaquer sa proie avec ses crocs venimeux.",
 		de: "Es schärft den klingenartigen Schwanz an Steinen. Im Dickicht versteckt nähert es sich ahnungsloser Beute und greift diese mit seinen Giftzähnen an."
 	},
 

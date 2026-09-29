@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Cramorant instinctively swallow everything whole. They’re at their most formidable when they’re struggling to swallow overly large prey.",
+		fr: "Les Nigosier avalent tout en une bouchée. Ils sont particulièrement redoutables lorsqu'ils se démènent pour gober une proie trop grosse.",
 		de: "Es hat die Angewohnheit, alles in einem Stück zu verschlingen. Je mehr es damit ringt, übergroße Beute runterzuschlucken, desto zäher wird es."
 	},
 

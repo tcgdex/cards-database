@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "It uses its explosive speed and razor-sharp claws to bring down prey. Running along winding paths is not its strong suit.",
+		fr: "Il se sert de sa force de propulsion et de ses griffes aiguisées pour achever ses proies. Il a du mal à courir sur les routes sinueuses.",
 		de: "Es erlegt seine Beute mit schnellen Bewegungen und scharfen Klauen. Kurven zu nehmen bereitet ihm aber große Schwierigkeiten."
 	},
 

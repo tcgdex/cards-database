@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "In myths, this Pokémon expanded the seas with torrential rains and great tsunamis. It battled ferociously against Groudon."
+		en: "In myths, this Pokémon expanded the seas with torrential rains and great tsunamis. It battled ferociously against Groudon.",
+		fr: "Ce Pokémon de légende a étendu les mers en causant déluges et raz de marée. Il a mené un combat sans merci contre Groudon."
 	},
 
 	name: {

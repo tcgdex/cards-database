@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it.",
+		fr: "Sa voix si particulière lui permet de chanter des mélodies qui ensorcellent les gens et modifient leurs émotions.",
 		de: "Wer die Melodie hört, die es in einer speziellen Stimmlage von sich gibt, steht voll in seinem Bann."
 	},
 

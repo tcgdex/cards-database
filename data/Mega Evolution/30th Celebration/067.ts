@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "The oil-filled tail functions as a buoy, so it's fine even in rivers with strong currents."
+		en: "The oil-filled tail functions as a buoy, so it's fine even in rivers with strong currents.",
+		fr: "Sa queue à l'extrémité remplie d'huile fait office de flotteur et lui permet de nager dans les rapides sans problème."
 	},
 
 	name: {

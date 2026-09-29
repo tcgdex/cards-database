@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "By keeping still and listening intently, it can tell what is in even wild, fast-moving rivers."
+		en: "By keeping still and listening intently, it can tell what is in even wild, fast-moving rivers.",
+		fr: "S'il tend l'oreille en restant parfaitement immobile, il peut discerner ce qu'il y a au fond des fleuves les plus agités."
 	},
 
 	name: {
