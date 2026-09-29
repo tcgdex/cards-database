@@ -46,7 +46,7 @@ const card: Card = {
 		effect: {
 			en: "Discard 2 Energy from this Pokémon.",
 			fr: "Défaussez 2 Énergies de ce Pokémon.",
-			es: "Descarta 2 Energías de este Pokémon.",
+			es: "Descarta 2 energías de este Pokémon.",
 		},
 
 		damage: 130

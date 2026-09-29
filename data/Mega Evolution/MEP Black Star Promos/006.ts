@@ -27,7 +27,7 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Creepy Wind",
+			en: "Disruptive Wind",
 			fr: "Vent Perturbant",
 		},
 

@@ -39,7 +39,7 @@ const card: Card = {
 			fr: "Inferno X",
 			de: "Inferno X",
 			it: "Inferno X",
-			es: "Infierno X",
+			es: "Inferno X",
 			pt: "Inferno X"
 		},
 
@@ -48,10 +48,10 @@ const card: Card = {
 		effect: {
 			en: "Discard any amount of [R] Energy from among your Pokémon, and this attack does 90 damage for each card you discarded in this way.",
 			fr: "Défaussez autant d'Énergies [R] que vous le voulez parmi vos Pokémon. Cette attaque inflige 90 dégâts pour chaque carte défaussée de cette façon.",
-			de: "Lege beliebig viele {R}-Energien von deinen Pokémon auf deinen Ablagestapel, und diese Attacke fügt für jede Karte, die du auf diese Weise auf den Ablagestapel gelegt hast, 90 Schadenspunkte zu.",
-			it: "Scarta un numero qualsiasi di Energie {R} dai tuoi Pokémon e questo attacco infligge 90 danni per ogni carta che hai scartato in questo modo.",
-			es: "Descarta cualquier cantidad de Energías {R} de tus Pokémon, y este ataque hace 90 puntos de daño por cada carta que hayas descartado de esta manera.",
-			pt: "Descarte qualquer quantidade de Energia {R} dentre seus Pokémon, e este ataque causa 90 pontos de dano para cada carta descartada desta forma."
+			de: "Lege beliebig viele [R] Energiekarten von deinen Pokémon auf deinen Ablagestapel und diese Attacke fügt für jede auf diese Weise abgelegte Karte 90 Schadenspunkte zu.",
+			it: "Scarta qualsiasi numero di carte Energia [R] dai tuoi Pokémon. Questo attacco infligge 90 danni per ogni carta che hai scartato in questo modo.",
+			es: "Descarta cualquier cantidad de cartas de Energía [R] de entre tus Pokémon, y este ataque hace 90 puntos de daño por cada carta que hayas descartado de esta manera.",
+			pt: "Descarte qualquer quantidade de cartas de Energia [R] dentre seus Pokémon, e este ataque causará 90 pontos de dano para cada carta descartada desta forma."
 		}
 	}],
 

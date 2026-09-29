@@ -50,7 +50,7 @@ const card: Card = {
 			de: "Hacker",
 			it: "Ceffone",
 			es: "Cortar",
-			pt: "Trincar"
+			pt: "Cortar"
 		},
 
 		damage: 10

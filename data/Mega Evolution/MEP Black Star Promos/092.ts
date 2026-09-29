@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Paradise Resort",
+		fr: "Hôtel « Au paradis des Pokémon »",
 	},
 
 	illustrator: "Naoki Saito",
@@ -15,6 +16,7 @@ const card: Card = {
 
 	effect: {
 		en: "The Retreat Cost of each Psyduck in play (both yours and your opponent's) is {C} less.",
+		fr: "Le Coût de Retraite de chacun des Psykokwak en jeu (les vôtres et ceux de votre adversaire) est diminué de {C}."
 	},
 	regulationMark: "J",
 

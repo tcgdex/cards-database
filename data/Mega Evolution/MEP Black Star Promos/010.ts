@@ -29,8 +29,8 @@ const card: Card = {
 			fr: "Poignard Accélérateur",
 			de: "Beschleunigter Stich",
 			it: "Pugnalata Rapida",
-			es: "Puñalada Aceleradora",
-			pt: "Estocada Aceleratória"
+			es: "Puñalada Acelerada",
+			pt: "Facada Acelerada"
 		},
 
 		damage: 30,
@@ -40,8 +40,8 @@ const card: Card = {
 			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Poignard Accélérateur.",
 			de: "Während deines nächsten Zuges kann dieses Pokémon Beschleunigter Stich nicht einsetzen.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Pugnalata Rapida.",
-			es: "Durante tu próximo turno, este Pokémon no puede usar Puñalada Aceleradora.",
-			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Estocada Aceleratória."
+			es: "Durante tu próximo turno, este Pokémon no puede usar Puñalada Acelerada.",
+			pt: "Durante o seu próximo turno, este Pokémon não poderá usar Facada Acelerada."
 		}
 	}],
 
