@@ -11,6 +11,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [123],
+
 	effect: {
 		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Each player pays Colorless more to retreat his or her Active Pokémon."
 	},
@@ -34,4 +36,3 @@ const card: Card = {
 }
 
 export default card
-
