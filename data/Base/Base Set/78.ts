@@ -14,6 +14,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [13],
+
 	effect: {
 		en: "Choose 1 of your Pokémon in play and return its Basic Pokémon card to your hand. (Discard all cards attached to that card.)",
 		fr: "Choisissez 1 de vos Pokémon en jeu et reprenez sa carte Pokémon de base dans votre main. (Défaussez toutes les cartes attachées à cette carte.)",

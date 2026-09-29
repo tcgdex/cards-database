@@ -14,6 +14,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [83],
+
 	effect: {
 		en: "Trade 1 of the Basic Pokémon or Evolution cards in your hand for 1 of the Basic Pokémon or Evolution cards from your deck. Show both cards to your opponent. Shuffle your deck afterward.",
 		fr: "Échangez 1 carte Pokémon de base ou Évolution de votre main contre 1 carte Pokémon de base ou Évolution de votre deck. Montrez les deux cartes à votre adversaire. Ensuite, mélangez votre deck.",
