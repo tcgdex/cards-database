@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Espeon ex",
+		fr: "Mentali-ex",
 		es: "Espeon ex",
 	},
 
@@ -23,6 +24,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
+		fr: "Évoli",
 		es: "Eevee",
 	},
 
@@ -31,11 +33,13 @@ const card: Card = {
 
 		name: {
 			en: "Solar Beatdown",
+			fr: "Dérouillée Solaire",
 			es: "Insolación",
 		},
 
 		effect: {
 			en: "This attack does 30 damage for each of your Pokémon in play.",
+			fr: "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon en jeu.",
 			es: "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon en juego.",
 		},
 

@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Lucario",
+		fr: "Lucario",
 		es: "Lucario",
 	},
 
@@ -19,6 +20,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Riolu",
+		fr: "Riolu",
 		es: "Riolu",
 	},
 
@@ -27,11 +29,13 @@ const card: Card = {
 
 		name: {
 			en: "Aura Sphere",
+			fr: "Aurasphère",
 			es: "Esfera Aural",
 		},
 
 		effect: {
 			en: "This attack also does 60 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			fr: "Cette attaque inflige aussi 60 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			es: "Este ataque también hace 60 puntos de daño a uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 		},
 

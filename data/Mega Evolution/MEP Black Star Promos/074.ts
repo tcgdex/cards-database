@@ -47,7 +47,7 @@ const card: Card = {
 
 		effect: {
 			en: "Once during your turn, you may discard a Basic Fire Energy card from your hand in order to use this Ability. Draw cards until you have 7 cards in your hand.",
-			fr: "Une fois pendant votre tour, vous pouvez défausser une carte Énergie Fire de base de votre main pour utiliser ce talent. Piochez des cartes jusqu'à en avoir 7 en main.",
+			fr: "Une fois pendant votre tour, vous pouvez défausser une carte Énergie {R} de base de votre main pour utiliser ce talent. Piochez des cartes jusqu'à en avoir 7 en main.",
 			es: "Una vez durante tu turno, puedes descartar 1 carta de Energía Fire Básica de tu mano para poder usar esta habilidad. Roba cartas hasta tener 7 cartas en tu mano.",
 			'es-mx': "Una vez durante tu turno, puedes descartar 1 carta de Energía Fire Básica de tu mano para poder usar esta habilidad. Roba cartas hasta tener 7 cartas en tu mano.",
 			de: "Einmal während deines Zuges kannst du 1 Basis-Fire-Energiekarte aus deiner Hand auf deinen Ablagestapel legen, um diese Fähigkeit einzusetzen. Ziehe so lange Karten, bis du 7 Karten auf deiner Hand hast.",

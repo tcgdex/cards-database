@@ -31,7 +31,7 @@ const card: Card = {
 
 			name: {
 				en: "Razor Shell",
-				fr: "Coquilame",
+				fr: "Coqui-Lame",
 				es: "Concha Filo",
 				it: "Conchilama",
 				pt: "Concha Navalha",

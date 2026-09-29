@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Slowpoke",
+		fr: "Ramoloss",
 	},
 
 	illustrator: "miki kudo",
@@ -21,10 +22,12 @@ const card: Card = {
 
 		name: {
 			en: "Dopey Face",
+			fr: "Tête de Crétin",
 		},
 
 		effect: {
 			en: "This Pokémon can't be Confused.",
+			fr: "Ce Pokémon ne peut pas être Confus.",
 		}
 	}],
 
@@ -33,6 +36,7 @@ const card: Card = {
 
 		name: {
 			en: "Super Psy Bolt",
+			fr: "Super Psy",
 		},
 
 		damage: 50

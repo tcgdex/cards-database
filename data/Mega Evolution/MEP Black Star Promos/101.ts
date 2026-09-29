@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Nidorina",
+		fr: "Nidorina",
 		es: "Nidorina",
 	},
 
@@ -19,6 +20,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nidoran♀",
+		fr: "Nidoran♀",
 		es: "Nidoran♀",
 	},
 
@@ -27,11 +29,13 @@ const card: Card = {
 
 		name: {
 			en: "Share Happiness",
+			fr: "Partage de Bonheur",
 			es: "Felicidad Compartida",
 		},
 
 		effect: {
 			en: "Once during your turn, you may use this Ability. Heal 30 damage from 1 of your Pokémon.",
+			fr: "Une fois pendant votre tour, vous pouvez utiliser ce talent. Soignez 30 dégâts de l'un de vos Pokémon.",
 			es: "Una vez durante tu turno, puedes usar esta habilidad. Cura 30 puntos de daño a uno de tus Pokémon.",
 		}
 	}],
@@ -41,6 +45,7 @@ const card: Card = {
 
 		name: {
 			en: "Bite",
+			fr: "Morsure",
 			es: "Mordisco",
 		},
 

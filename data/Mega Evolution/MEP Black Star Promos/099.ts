@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Greninja ex",
+		fr: "Amphinobi-ex",
 		es: "Greninja ex.",
 	},
 
@@ -20,6 +21,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Frogadier",
+		fr: "Croâporal",
 		es: "Frogadier",
 	},
 
@@ -28,11 +30,13 @@ const card: Card = {
 
 		name: {
 			en: "Stealthy Slash",
+			fr: "Tranche Furtive",
 			es: "Tajo Sigiloso",
 		},
 
 		effect: {
 			en: "This attack does 30 damage to 1 of your opponent's Pokémon for each damage counter on that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			fr: "Cette attaque inflige 30 dégâts à l'un des Pokémon de votre adversaire pour chaque marqueur de dégâts sur ce Pokémon-là. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 			es: "Este ataque hace 30 puntos de daño a uno de los Pokémon de tu rival por cada contador de daño en ese Pokémon. (No apliques Debilidad y Resistencia a los Pokémon de la Banca).",
 		}
 	},
@@ -41,6 +45,7 @@ const card: Card = {
 
 		name: {
 			en: "Aqua Edge",
+			fr: "Aqua-Dague",
 			es: "Filo Agua",
 		},
 
