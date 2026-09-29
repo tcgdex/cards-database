@@ -20,7 +20,7 @@ const card: Card = {
 	hp: 190,
 	types: ["Lightning"],
 	stage: "Basic",
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [{
 		name: {

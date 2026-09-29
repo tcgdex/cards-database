@@ -20,7 +20,7 @@ const card: Card = {
 	hp: 300,
 	types: ["Water"],
 	stage: "Basic",
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [{
 		name: {

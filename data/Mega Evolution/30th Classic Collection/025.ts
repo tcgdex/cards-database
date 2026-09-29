@@ -22,7 +22,7 @@ const card: Card = {
 	hp: 120,
 	types: ["Metal"],
 	stage: "Basic",
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [{
 		name: {

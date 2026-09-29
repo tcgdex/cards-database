@@ -25,6 +25,7 @@ const card: Card = {
 		pt: "Charmeleon",
 	},
 
+	suffix: "ex",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 

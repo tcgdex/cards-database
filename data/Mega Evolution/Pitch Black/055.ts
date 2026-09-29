@@ -21,7 +21,7 @@ const card: Card = {
 	hp: 180,
 	types: ["Darkness"],
 	stage: "Basic",
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [{
 		name: {

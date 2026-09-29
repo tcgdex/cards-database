@@ -20,7 +20,7 @@ const card: Card = {
 	hp: 160,
 	types: ["Psychic"],
 	stage: "Basic",
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [{
 		type: "Ability",
