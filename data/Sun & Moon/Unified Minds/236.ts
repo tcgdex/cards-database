@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [79],
+
 	effect: {
 		fr: "Cherchez dans votre deck jusqu’à 3 Pokémon avec un Coût de Retraite de 4, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 		en: "Search your deck for up to 3 Pokémon that have a Retreat Cost of exactly 4, reveal them, and put them into your hand. Then, shuffle your deck.",

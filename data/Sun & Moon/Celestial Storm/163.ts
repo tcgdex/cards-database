@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [25],
+
 	effect: {
 		fr: "Mélangez votre main avec votre deck. Ensuite, piochez une carte pour chaque carte dans la main de votre adversaire.",
 		en: "Shuffle your hand into your deck. Then, draw a card for each card in your opponent’s hand.",

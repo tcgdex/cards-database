@@ -16,15 +16,7 @@ const card: Card = {
 
 	set: Set,
 
-
-
-
-
-
-
-
-
-
+	cameoDexIds: [53],
 
 	effect: {
 		fr: "Défaussez jusqu’à 2 de vos Pokémon de Banc qui n’ont pas de marqueurs de dégâts, ainsi que toutes les cartes qui leur sont attachées.",

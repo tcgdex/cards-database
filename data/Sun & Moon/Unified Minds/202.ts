@@ -16,15 +16,7 @@ const card: Card = {
 
 	set: Set,
 
-
-
-
-
-
-
-
-
-
+	cameoDexIds: [87, 121],
 
 	effect: {
 		fr: "Cherchez jusqu’à 3 cartes Supporter dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",

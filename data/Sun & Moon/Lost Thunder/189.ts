@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [583],
+
 	effect: {
 		fr: "Vous pouvez défausser autant de cartes que vous voulez de votre main. Ensuite, piochez des cartes jusqu’à ce que vous ayez 5 cartes en main. Si vous ne pouvez pas piocher de carte de cette façon, vous ne pouvez pas jouer cette carte.",
 		en: "You may discard any number of cards from your hand. Then, draw cards until you have 5 cards in your hand. If you can’t draw any cards in this way, you can’t play this card.",

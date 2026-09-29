@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [756],
+
 	effect: {
 		fr: "Si un Pokémon est Endormi, son propriétaire lance 2 pièces au lieu d’une pour cet État Spécial entre chaque tour. S’il obtient au moins un côté pile, le Pokémon reste Endormi.",
 		en: "If a Pokémon is Asleep, its owner flips 2 coins instead of 1 for that Special Condition between turns. If either of them is tails, that Pokémon is still Asleep.",

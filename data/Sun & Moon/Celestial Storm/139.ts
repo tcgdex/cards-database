@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [6],
+
 	effect: {
 		fr: "Attachez une carte Énergie de base de votre main à l’un de vos Pokémon Grass, Fire ou Water de Niveau 2.",
 		en: "Attach a basic Energy card from your hand to one of your Stage 2 Grass, Fire, or Water Pokémon.",
