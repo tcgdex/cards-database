@@ -35,6 +35,16 @@ const card: Card = {
 			'es-mx': "Ascuas"
 		},
 
+		effect: {
+			en: "Discard an Energy from this Pokémon.",
+			fr: "Défaussez une Énergie de ce Pokémon.",
+			de: "Lege 1 Energie von diesem Pokémon auf deinen Ablagestapel.",
+			it: "Scarta un'Energia da questo Pokémon.",
+			es: "Descarta 1 Energía de este Pokémon.",
+			pt: "Descarte uma Energia deste Pokémon.",
+			'es-mx': "Descarta 1 Energía de este Pokémon."
+		},
+
 		damage: 40
 	}],
 

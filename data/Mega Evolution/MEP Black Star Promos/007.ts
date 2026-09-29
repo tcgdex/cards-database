@@ -30,16 +30,16 @@ const card: Card = {
 			de: "Feuchtigkeit",
 			it: "Umidità",
 			es: "Humedad",
-			pt: "Umidade"
+			pt: "Ensopado"
 		},
 
 		effect: {
-			en: "Pokémon in play (both yours and your opponent's) lose all Abilities that require those Pokémon to be Knocked Out.",
+			en: "Pokémon in play (both yours and your opponent's) lose any Ability that requires the Pokémon using it to Knock Out itself.",
 			fr: "Les Pokémon en jeu (les vôtres et ceux de votre adversaire) perdent tout talent qui demande au Pokémon l'utilisant de se mettre K.O.",
-			de: "Pokémon im Spiel (deine und die deines Gegners) verlieren alle Fähigkeiten, die erfordern, dass diese Pokémon kampfunfähig gemacht werden.",
-			it: "I Pokémon in gioco (sia tuoi che del tuo avversario) perdono tutte le abilità che richiedono che quei Pokémon vengano messi KO.",
-			es: "Los Pokémon en juego (tanto tuyos como de tu rival) pierden todas las habilidades que requieren que esos Pokémon sean Fuera de Combate.",
-			pt: "Os Pokémon em jogo (tanto seus quanto do seu oponente) perdem todas as Habilidades que exigem que esses Pokémon sejam Nocauteados."
+			de: "Pokémon im Spiel (deine und die deines Gegners) verlieren jede Fähigkeit, die vom Pokémon, das sie einsetzt, erfordert, sich selbst kampfunfähig zu machen.",
+			it: "I Pokémon in gioco, sia tuoi che del tuo avversario, perdono qualsiasi abilità che richieda al Pokémon che la usa di mettere KO se stesso.",
+			es: "Los Pokémon en juego (tanto tuyos como de tu rival) pierden cualquier habilidad que requiera que el Pokémon que la use se deje Fuera de Combate a sí mismo.",
+			pt: "Os Pokémon em jogo (seus e do seu oponente) perdem qualquer Habilidade que exija que o Pokémon que a use Nocauteie a si mesmo."
 		}
 	}],
 
@@ -47,12 +47,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"],
 
 		name: {
-			en: "Collision",
+			en: "Ram",
 			fr: "Collision",
-			de: "Kollision",
-			it: "Collisione",
-			es: "Colisión",
-			pt: "Colisão"
+			de: "Ramme",
+			it: "Carica",
+			es: "Apisonar",
+			pt: "Aríete"
 		},
 
 		damage: 20

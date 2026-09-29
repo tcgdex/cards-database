@@ -6,6 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Makuhita",
+		fr: "Makuhita",
+		es: "Makuhita",
+		de: "Makuhita",
+		it: "Makuhita",
+		pt: "Makuhita",
 	},
 
 	illustrator: "Takeshi Nakamura",
@@ -21,6 +26,11 @@ const card: Card = {
 
 		name: {
 			en: "Corkscrew Punch",
+			fr: "Poing Tire-Bouchon",
+			es: "Puño Tirabuzón",
+			de: "Korkenzieherhieb",
+			it: "Pugno Rotante",
+			pt: "Soco Saca-rolha",
 		},
 
 		damage: 10
@@ -29,6 +39,11 @@ const card: Card = {
 
 		name: {
 			en: "Confront",
+			fr: "Confrontation",
+			es: "Confrontar",
+			de: "Konfrontieren",
+			it: "Confronto",
+			pt: "Confrontar",
 		},
 
 		damage: 30

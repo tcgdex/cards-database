@@ -30,7 +30,7 @@ const card: Card = {
 			es: "Destructor",
 			it: "Botta",
 			pt: "Pancada",
-			de: "Pfund"
+			de: "Klaps"
 		},
 
 		damage: 20

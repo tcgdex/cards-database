@@ -7,10 +7,20 @@ const card: Card = {
 
 	name: {
 		en: "Drifblim",
+		fr: "Grodrive",
+		es: "Drifblim",
+		de: "Drifzepeli",
+		it: "Drifblim",
+		pt: "Drifblim",
 	},
 
 	evolveFrom: {
 		en: "Drifloon",
+		fr: "Baudrive",
+		es: "Drifloon",
+		de: "Driftlon",
+		it: "Drifloon",
+		pt: "Drifloon",
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -25,23 +35,43 @@ const card: Card = {
 		cost: ["Psychic"],
 
 		name: {
-			en: "Disruptive Wind",
+			en: "Creepy Wind",
+			fr: "Vent Perturbant",
+			es: "Viento Escalofriante",
+			de: "Schauriger Wind",
+			it: "Ventolosco",
+			pt: "Vento Amedrontador",
 		},
 
 		effect: {
 			en: "Your opponent's Active Pokémon is now Confused.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
+			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
+			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
+			it: "Il Pokémon attivo del tuo avversario viene confuso.",
+			pt: "O Pokémon Ativo do seu oponente agora está Confuso.",
 		}
 	}, {
 		cost: ["Psychic", "Psychic"],
 
 		name: {
 			en: "Balloon Return",
+			fr: "Retour Ballon",
+			es: "Globo Retorno",
+			de: "Ballonrückkehr",
+			it: "Pallone di Ritorno",
+			pt: "Retorno Balonista",
 		},
 
 		damage: 110,
 
 		effect: {
 			en: "Put this Pokémon and all attached cards into your hand.",
+			fr: "Ajoutez à votre main ce Pokémon et toutes les cartes qui lui sont attachées.",
+			es: "Pon este Pokémon y todas las cartas unidas a él en tu mano.",
+			de: "Nimm dieses Pokémon und alle angelegten Karten auf deine Hand.",
+			it: "Riprendi in mano questo Pokémon e tutte le carte a esso assegnate.",
+			pt: "Coloque este Pokémon e todas as cartas ligadas a ele na sua mão.",
 		}
 	}],
 

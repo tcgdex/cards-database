@@ -9,7 +9,7 @@ const card: Card = {
 		fr: "Méga-Florizarre-ex",
 		de: "Mega-Bisaflor-ex",
 		it: "Mega Venusaur-ex",
-		es: "Mega Venusaur ex",
+		es: "Mega-Venusaur ex",
 		pt: "Mega Venusaur ex",
 		'es-mx': "Mega Venusaur ex"
 	},

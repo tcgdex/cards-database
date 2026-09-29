@@ -6,6 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Slowpoke",
+		fr: "Ramoloss",
+		es: "Slowpoke",
+		de: "Flegmon",
+		it: "Slowpoke",
+		pt: "Slowpoke",
 	},
 
 	illustrator: "miki kudo",
@@ -21,10 +26,20 @@ const card: Card = {
 
 		name: {
 			en: "Dopey Face",
+			fr: "Tête de Crétin",
+			es: "Carita Atontada",
+			de: "Schnarchergesicht",
+			it: "Muso da Ronfone",
+			pt: "Rosto Atordoado",
 		},
 
 		effect: {
 			en: "This Pokémon can't be Confused.",
+			fr: "Ce Pokémon ne peut pas être Confus.",
+			es: "Este Pokémon no puede pasar a estar Confundido.",
+			de: "Dieses Pokémon kann nicht verwirrt werden.",
+			it: "Questo Pokémon non può venire confuso.",
+			pt: "Este Pokémon não pode ficar Confuso.",
 		}
 	}],
 
@@ -33,6 +48,11 @@ const card: Card = {
 
 		name: {
 			en: "Super Psy Bolt",
+			fr: "Super Psy",
+			es: "Superrayo Psi",
+			de: "Super-Psischlag",
+			it: "Superpsico",
+			pt: "Super-raio Psíquico",
 		},
 
 		damage: 50
