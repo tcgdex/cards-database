@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Pupitar",
+		fr: "Ymphect",
 	},
 
 	rarity: "Promo",
@@ -15,6 +16,7 @@ const card: Card = {
 	types: ["Fighting"],
 	evolveFrom: {
 		en: "Larvitar",
+		fr: "Embrylex",
 	},
 	stage: "Stage1",
 
@@ -23,6 +25,7 @@ const card: Card = {
 
 		name: {
 			en: "Rock Throw",
+			fr: "Jet-Pierres",
 		},
 
 		damage: 20
@@ -31,10 +34,12 @@ const card: Card = {
 
 		name: {
 			en: "Blasting Tackle",
+			fr: "Charge Explosive",
 		},
 
 		effect: {
 			en: "This attack also does 20 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			fr: "Cette attaque inflige aussi 20 dégâts à l'un de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 		},
 
 		damage: 60

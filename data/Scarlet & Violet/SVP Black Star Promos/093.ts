@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Carvanha",
+		fr: "Carvanha",
 	},
 
 	rarity: "Promo",
@@ -20,6 +21,7 @@ const card: Card = {
 
 		name: {
 			en: "Sharp Fang",
+			fr: "Croc Aiguisé",
 		},
 
 		damage: 20

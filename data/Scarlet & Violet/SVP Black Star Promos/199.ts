@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Zarude",
+		fr: "Zarude",
 	},
 
 	illustrator: "Uninori",
@@ -21,20 +22,24 @@ const card: Card = {
 
 		name: {
 			en: "Pluck Off",
+			fr: "Retrait",
 	},
 
 		effect: {
 			en: "Search your deck for up to 3 Basic {G} Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck jusqu'à 3 cartes Énergie {G} de base, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 	}
 	}, {
 		cost: ["Grass", "Grass", "Grass"],
 
 		name: {
 			en: "Hammer Whip",
+			fr: "Fouet Marteau",
 	},
 
 		effect: {
 			en: "During your next turn, this Pokémon can't attack.",
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
 	},
 
 		damage: 130

@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Toxel",
+		fr: "Toxizap",
 	},
 
 	rarity: "Promo",
@@ -20,10 +21,12 @@ const card: Card = {
 
 		name: {
 			en: "Slight Intrusion",
+			fr: "Légère Intrusion",
 		},
 
 		effect: {
 			en: "This Pokémon also does 10 damage to itself.",
+			fr: "Ce Pokémon s'inflige aussi 10 dégâts.",
 		},
 
 		damage: 30

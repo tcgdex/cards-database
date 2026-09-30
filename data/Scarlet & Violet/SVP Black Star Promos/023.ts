@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Smoliv",
+		fr: "Olivini",
 	},
 
 	rarity: "Promo",
@@ -20,16 +21,19 @@ const card: Card = {
 
 		name: {
 			en: "Nutrients",
+			fr: "Nutriments",
 		},
 
 		effect: {
 			en: "Heal 30 damage from 1 of your Pokémon.",
+			fr: "Soignez 30 dégâts de l'un de vos Pokémon.",
 		}
 	}, {
 		cost: ["Grass", "Colorless"],
 
 		name: {
 			en: "Spray Fluid",
+			fr: "Fluide Éclaboussant",
 		},
 
 		damage: 20
