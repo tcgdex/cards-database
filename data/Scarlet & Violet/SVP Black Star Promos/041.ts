@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Paldean Wooper",
+		fr: "Axoloto de Paldea",
 	},
 
 	rarity: "Promo",
@@ -20,16 +21,19 @@ const card: Card = {
 
 		name: {
 			en: "Splattering Poison",
+			fr: "Poison Éclaboussant",
 		},
 
 		effect: {
 			en: "Both Active Pokémon are now Poisoned.",
+			fr: "Les deux Pokémon Actifs sont maintenant Empoisonnés.",
 		}
 	}, {
 		cost: ["Darkness", "Colorless", "Colorless"],
 
 		name: {
 			en: "Tail Whap",
+			fr: "Queue Battoir",
 		},
 
 		damage: 30
@@ -46,6 +50,7 @@ const card: Card = {
 	illustrator: "kirisAki",
 	description: {
 		en: "After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.",
+		fr: "Depuis qu'une dispute territoriale l'a contraint à vivre sur la terre ferme, il protège son corps en le recouvrant d'un fluide toxique.",
 	},
 	variants: [
 		{

@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Pawmi",
+		fr: "Pohm",
 	},
 
 	rarity: "Promo",
@@ -20,10 +21,12 @@ const card: Card = {
 
 		name: {
 			en: "Static Slap",
+			fr: "Gifle Statique",
 		},
 
 		effect: {
 			en: "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon.",
+			fr: "Lancez une pièce. Si c'est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
 		},
 
 		damage: 20
@@ -40,6 +43,7 @@ const card: Card = {
 	illustrator: "Ryuta Fuse",
 	description: {
 		en: "It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws.",
+		fr: "Les poches sur ses joues sont peu développées. Elles ne produisent de l'électricité que lorsqu'il les frotte avec ses coussinets.",
 	},
 	variants: [
 		{
