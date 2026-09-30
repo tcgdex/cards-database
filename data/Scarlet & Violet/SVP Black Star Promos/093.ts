@@ -38,6 +38,7 @@ const card: Card = {
 	illustrator: "Tonji Matsuno",
 	description: {
 		en: "These Pokémon have sharp fangs and powerful jaws. Sailors avoid Carvanha dens at all costs.",
+		fr: "Il possède une mâchoire puissante garnie de dents acérées. Les marins ne s'approchent jamais des eaux habitées par les Carvanha.",
 	},
 	variants: [
 		{

@@ -47,6 +47,7 @@ const card: Card = {
 	illustrator: "GOSSAN",
 	description: {
 		en: "After artificial intelligence was implemented in Porygon2, the Pokémon began using a strange language that only other Porygon2 understand.",
+		fr: "Depuis qu'on l'a doté d'une intelligence artificielle, il parle un langage mystérieux que seuls ses congénères comprennent.",
 	},
 	variants: [
 		{

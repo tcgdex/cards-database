@@ -56,6 +56,7 @@ const card: Card = {
 	illustrator: "Shiburingaru",
 	description: {
 		en: "This pupa flies around wildly by venting with great force the gas pressurized inside its body.",
+		fr: "Cette chrysalide file comme une fusée en expulsant les gaz sous pression enfermés dans son corps, sans pouvoir contrôler sa trajectoire.",
 	},
 	variants: [
 		{

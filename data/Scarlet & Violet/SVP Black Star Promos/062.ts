@@ -49,6 +49,7 @@ const card: Card = {
 	illustrator: "kurumitsu",
 	description: {
 		en: "The soul of someone who died alone possessed some leftover tea. This Pokémon appears in hotels and houses.",
+		fr: "Ce Pokémon naît quand l'âme d'une personne esseulée prend possession des restes de thé noir. Il apparaît dans les hôtels et les maisons.",
 	},
 	variants: [
 		{

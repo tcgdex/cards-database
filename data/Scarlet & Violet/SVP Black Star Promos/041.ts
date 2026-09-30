@@ -50,6 +50,7 @@ const card: Card = {
 	illustrator: "kirisAki",
 	description: {
 		en: "After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.",
+		fr: "Depuis qu'une dispute territoriale l'a contraint à vivre sur la terre ferme, il protège son corps en le recouvrant d'un fluide toxique.",
 	},
 	variants: [
 		{

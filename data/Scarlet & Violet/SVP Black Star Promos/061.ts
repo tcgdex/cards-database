@@ -38,6 +38,7 @@ const card: Card = {
 	illustrator: "Nobuhiro Imagawa",
 	description: {
 		en: "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
+		fr: "Ce Pokémon renforce sa carapace en y ajoutant des écorces d'arbre. Il devient alors plus lourd, mais cela ne le dérange pas.",
 	},
 	variants: [
 		{

@@ -50,6 +50,7 @@ const card: Card = {
 	illustrator: "Uta",
 	description: {
 		en: "It's very friendly and faithful to people. It will try to repel enemies by barking and biting.",
+		fr: "Ce Pokémon est particulièrement affectueux et loyal. Il aboie et mord pour se débarrasser de ses adversaires.",
 	},
 	variants: [
 		{

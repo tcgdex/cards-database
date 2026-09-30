@@ -43,6 +43,7 @@ const card: Card = {
 	illustrator: "Natsumi Yoshida",
 	description: {
 		en: "It has no problem drinking dirty water. An organ inside Toxel's body filters such water into a poisonous liquid that is harmless to Toxel.",
+		fr: "Il peut boire de l'eau sale sans aucun problème grâce à son organe filtrant, qui transforme les liquides en un poison sans danger pour lui.",
 	},
 	variants: [
 		{

@@ -43,6 +43,7 @@ const card: Card = {
 	illustrator: "Ryuta Fuse",
 	description: {
 		en: "It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws.",
+		fr: "Les poches sur ses joues sont peu développées. Elles ne produisent de l'électricité que lorsqu'il les frotte avec ses coussinets.",
 	},
 	variants: [
 		{
