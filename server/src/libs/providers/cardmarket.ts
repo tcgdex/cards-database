@@ -74,12 +74,11 @@ export async function updateDatas(): Promise<boolean> {
 	return true
 }
 
-export async function getCardMarketPrice(card: { thirdParty: { cardmarket?: number } }): Promise<any> {
+export async function getCardMarketPrice(card: { thirdParty?: { cardmarket?: number } }): Promise<any> {
 	const id = card.thirdParty?.cardmarket
 	if (typeof id !== 'number') {
 		return null
 	}
-
 	if (!dataCache) {
 		return null
 	}
@@ -92,4 +91,12 @@ export async function getCardMarketPrice(card: { thirdParty: { cardmarket?: numb
 		unit: 'EUR'
 	}, objectOmit(input, 'idCategory'))
 
+}
+
+export function getCardMarketStatus() {
+	return {
+		lastUpdate: lastUpdate?.toISOString() ?? null,
+		lastFetch: lastFetch?.toISOString() ?? null,
+		entriesLoaded: dataCache.filter(Boolean).length,
+	}
 }

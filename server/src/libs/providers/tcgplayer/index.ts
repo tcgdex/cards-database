@@ -84,6 +84,13 @@ export async function getTCGPlayerPrice(card: { thirdParty: { tcgplayer?: number
 	return res
 }
 
+export function getTCGPlayerStatus() {
+	return {
+		lastFetch: lastFetch?.toISOString() ?? null,
+		productsLoaded: Object.keys(cache).length,
+	}
+}
+
 export function getTCGPlayer(): TCGPlayerAPI {
 	try {
 		return TCGPlayerProxy.getInstance()
