@@ -69,6 +69,7 @@ const card: Card = {
 
 	description: {
 		en: "It secretes a sticky, drool-like nectar. Though sweet, it smells too repulsive to get very close.",
+		fr: "Il sécrète un nectar gluant, semblable à de la bave. Ce nectar est sucré, mais sent bien trop mauvais pour qu'on puisse s'en approcher.",
 		de: "Es scheidet klebrigen, speichelähnlichen Nektar aus. Obwohl dieser sehr süß ist, stinkt er so schlimm, dass man sich ihm nicht nähern kann."
 	},
 

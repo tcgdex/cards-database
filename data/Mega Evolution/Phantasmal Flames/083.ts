@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "Buneary can attack by rolling up their ears and then striking with the force created by unrolling them. This attack becomes stronger with training.",
+		fr: "Plus il s'entraîne, plus les coups qu'il assène en déroulant vigoureusement ses oreilles gagnent en puissance.",
 		de: "Es greift an, indem es seine Ohren aufrollt und mit viel Schwung wieder entrollt. Durch Training kann Haspiror die Kraft dieser Attacke steigern."
 	},
 

@@ -67,6 +67,7 @@ const card: Card = {
 
 	description: {
 		en: "According to myth, if people ignore truth and let themselves become consumed by greed, Reshiram will arrive to burn their kingdoms down.",
+		fr: "Selon un mythe, lorsque les gens ne font aucun cas de la Réalité et s'abandonnent à la cupidité, Reshiram rase le pays entier avec ses flammes.",
 		de: "Alte Mythen warnen, dass es alle Welt in Brand setzen wird, wenn die Menschen die Wirklichkeit missachten und der Gier verfallen."
 	},
 

@@ -43,6 +43,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon is full of life energy. It continually sheds its skin and grows steadily larger.",
+		fr: "Ce Pokémon est plein de vitalité. Il grandit de plus en plus chaque fois qu'il mue.",
 		de: "Dieses Pokémon strotzt vor Lebensenergie. Es häutet sich ständig und wird dadurch größer."
 	},
 

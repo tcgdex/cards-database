@@ -49,6 +49,7 @@ const card: Card = {
 
 	description: {
 		en: "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly.",
+		fr: "Sa coquille est remplie de joie. On dit que s'il est bien traité, il porte chance.",
 		de: "Seine Schale ist voll von Freude. Es heißt, wenn man es freundlich und gut behandelt, teile es sein Glück."
 	},
 

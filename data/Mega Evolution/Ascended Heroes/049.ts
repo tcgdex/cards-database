@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "The temperature of their breath is -58 degrees Fahrenheit. They create snow crystals and make snow fall in the areas around them.",
+		fr: "Ce Pokémon fait tomber la neige autour de lui en créant des cristaux de glace. La température de son souffle descend à -50 °C.",
 		de: "Die Temperatur seines Odems liegt bei −50 °C. Es erzeugt Eiskristalle und lässt es in seiner Umgebung schneien."
 	},
 

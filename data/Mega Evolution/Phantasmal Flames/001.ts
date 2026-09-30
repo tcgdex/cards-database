@@ -50,6 +50,7 @@ const card: Card = {
 
 	description: {
 		en: "Its scientific name is Oddium wanderus. It is said to cover distances as far as 1,000 feet when night falls, walking on its two roots.",
+		fr: "Son nom scientifique est « Têtkim Archus ». On dit que lorsqu'il fait nuit, il peut marcher sur plus de 300 mètres à l'aide de ses deux racines.",
 		de: "Es ist auch als „Oddium Wanderus“ bekannt. Nachts kann es knapp 300 m auf seinen zwei Wurzeln zurücklegen."
 	},
 

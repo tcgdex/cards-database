@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "It will always obey the commands of a skilled Trainer. Its behavior arises from its living in packs in ancient times.",
+		fr: "Il obéit toujours aux ordres de son Dresseur si celui-ci est très doué. Son comportement vient de l'époque reculée où il vivait en meute.",
 		de: "Es wird stets die Befehle eines begabten Trainers befolgen. Dieses Verhalten geht darauf zurück, dass es früher im Rudel lebte."
 	},
 

@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "They fight each other by locking horns. The herd's protectors take pride in their battle-scarred horns.",
+		fr: "Les Tauros se battent entre eux avec leurs cornes. Ceux qui protègent leur troupeau sont fiers de leurs cornes couvertes d'éraflures.",
 		de: "Sie kämpfen mit ihren Hörnern. Starke Tauros, welche die Herde beschützen, sind stolz auf ihre mit vielen Kampfspuren versehenen Hörner."
 	},
 

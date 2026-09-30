@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Individually, they're incredibly weak. It's by gathering up into schools that they're able to confront opponents."
+		en: "Individually, they're incredibly weak. It's by gathering up into schools that they're able to confront opponents.",
+		fr: "Individuellement, ils sont très faibles. Ils ont donc développé une tactique de déplacement en banc pour résister aux ennemis."
 	},
 
 	name: {

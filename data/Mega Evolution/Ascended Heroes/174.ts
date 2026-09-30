@@ -99,6 +99,7 @@ const card: Card = {
 
 	description: {
 		en: "For the sake of its friends, this brave warrior of the sky will not stop battling, even if injured.",
+		fr: "Un guerrier du ciel, brave et intrépide. Pour les siens, il combat au mépris du danger, sans jamais fléchir.",
 		de: "Ein tapferer Krieger der Lüfte, der für seine Kameraden ohne Rücksicht auf eigene Verletzungen immer weiterkämpft."
 	},
 

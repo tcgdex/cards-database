@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Because of the way it floats aimlessly, an old folktale calls it a “signpost for wandering spirits.”"
+		en: "Because of the way it floats aimlessly, an old folktale calls it a “signpost for wandering spirits.”",
+		fr: "Sa façon de flotter dans les airs sans but, au gré du vent, lui a valu le surnom de « bouée des esprits égarés »."
 	},
 
 	name: {

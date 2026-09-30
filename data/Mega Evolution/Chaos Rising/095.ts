@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Its four horns are a high-performance radar system. It uses them to sense sounds and smells, rather than using ears or a nose.",
+		fr: "En lieu et place d'un nez et d'oreilles, ses quatre cornes agissent comme un puissant radar qu'il utilise pour percevoir les odeurs et les sons.",
 		de: "Seine vier Fühler fungieren als hochleistungsfähiges Radarsystem. Es setzt sie anstelle von Nase und Ohren zur Wahrnehmung von Gerüchen und Geräuschen ein."
 	},
 

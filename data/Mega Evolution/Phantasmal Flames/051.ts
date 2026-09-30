@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon lives in arid deserts. It patiently awaits prey inside its funnel- shaped nest.",
+		fr: "Ce Pokémon vit dans les déserts arides. Il attend patiemment ses proies dans son terrier en forme d'entonnoir.",
 		de: "Es lebt in trockenen Wüstengebieten, wo es in seinem trichterförmigen Bau geduldig auf Beute wartet."
 	},
 

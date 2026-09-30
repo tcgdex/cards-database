@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Delicious fruits grew out from around its neck because it always ate the same kind of fruit."
+		en: "Delicious fruits grew out from around its neck because it always ate the same kind of fruit.",
+		fr: "Comme il mangeait toujours le même type de fruit, ce dernier a fini par pousser sur son cou."
 	},
 
 	name: {

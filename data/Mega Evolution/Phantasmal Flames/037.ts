@@ -49,6 +49,7 @@ const card: Card = {
 
 	description: {
 		en: "In truth, it is a cowardly Pokémon. It growls eagerly in order to hide its fear from its opponent.",
+		fr: "En dépit des apparences, c'est un Pokémon craintif. Il grogne de toutes ses forces pour dissimuler sa peur.",
 		de: "Snubbull ist eigentlich ein feiges Pokémon. Es knurrt lautstark, um so seine Angst zu verbergen."
 	},
 

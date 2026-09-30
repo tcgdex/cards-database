@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It nests deep inside a cave. Food there is scarce, so Deino will sink its teeth into anything that moves and attempt to eat it."
+		en: "It nests deep inside a cave. Food there is scarce, so Deino will sink its teeth into anything that moves and attempt to eat it.",
+		fr: "Il vit au plus profond des cavernes. Comme la nourriture y est rare, il mord dans tout ce qui bouge pour essayer de le manger."
 	},
 
 	name: {

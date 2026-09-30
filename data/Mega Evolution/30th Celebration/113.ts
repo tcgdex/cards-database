@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It loves things that sparkle. When it sees a shiny object, the gold coin on its head shines, too."
+		en: "It loves things that sparkle. When it sees a shiny object, the gold coin on its head shines, too.",
+		fr: "Il est fasciné par les objets brillants. Lorsqu'il en voit un, la pièce sur son front se met à luire."
 	},
 
 	name: {

@@ -22,6 +22,7 @@ const card: Card = {
 		pt: "Misdreavus",
 	},
 
+	suffix: "ex",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 

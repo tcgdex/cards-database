@@ -24,6 +24,7 @@ const card: Card = {
 		pt: "Prinplup",
 	},
 
+	suffix: "ex",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 

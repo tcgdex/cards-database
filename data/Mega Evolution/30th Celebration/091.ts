@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "The light of the moon changed Eevee's genetic structure. It lurks in the darkness, waiting for prey."
+		en: "The light of the moon changed Eevee's genetic structure. It lurks in the darkness, waiting for prey.",
+		fr: "La lumière de la lune a modifié l'ADN d'Évoli, ce qui a donné naissance à ce Pokémon. Il reste tapi dans l'ombre, dans l'attente d'une proie."
 	},
 
 	name: {

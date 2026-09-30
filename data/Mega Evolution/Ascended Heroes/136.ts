@@ -49,6 +49,7 @@ const card: Card = {
 
 	description: {
 		en: "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child.",
+		fr: "Il prend l'apparence des autres afin de les surprendre. On dit qu'il se transforme souvent en petit enfant silencieux.",
 		de: "Es übertölpelt andere, indem es deren Gestalt annimmt. Angeblich tarnt es sich oft als wortkarges Kind."
 	},
 

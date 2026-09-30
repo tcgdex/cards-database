@@ -23,6 +23,7 @@ const card: Card = {
 		pt: "Haunter",
 	},
 
+	suffix: "ex",
 	rarity: "Double rare",
 	category: "Pokemon",
 

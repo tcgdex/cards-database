@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "In battle, it digs through the ground and strikes the unsuspecting foe from an unexpected direction.",
+		fr: "En combat, il s'enfouit sous terre pour pouvoir frapper ses adversaires par surprise depuis n'importe quelle direction.",
 		de: "Im Kampf gräbt es sich ein und attackiert den Gegner plötzlich aus einer unvorhersehbaren Richtung."
 	},
 

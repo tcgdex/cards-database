@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Solgaleo was once known as the Beast That Devours the Sun. Energy in the form of light radiates boundlessly from it."
+		en: "Solgaleo was once known as the Beast That Devours the Sun. Energy in the form of light radiates boundlessly from it.",
+		fr: "Jadis, on le surnommait « celui qui dévore le soleil ». Une lumière inextinguible rayonne de son corps."
 	},
 
 	name: {

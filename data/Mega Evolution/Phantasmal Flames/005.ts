@@ -49,6 +49,7 @@ const card: Card = {
 
 	description: {
 		en: "The leaf on its head is naturally dirt repellent and will stay clean even after transporting Pokémon that are covered in mud.",
+		fr: "La feuille sur sa tête repousse la saleté et reste toujours propre, même s'il est amené à transporter un Pokémon boueux.",
 		de: "Das Blatt auf seinem Kopf ist schmutzabweisend. Daher bleibt es selbst dann sauber, wenn ein furchtbar dreckiges Pokémon darauf reitet."
 	},
 

@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years.",
+		fr: "Il a neuf longues queues et une fourrure qui brille comme de l'or. On dit qu'il peut vivre 1 000 ans.",
 		de: "Es hat neun lange Schweife und sein Fell glänzt gülden. Man sagt, es soll mindestens 1000 Jahre lang leben."
 	},
 

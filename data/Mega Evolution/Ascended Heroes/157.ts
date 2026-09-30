@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "They fly around on moonless nights and attack careless prey. Nothing can beat them in a battle in the dark.",
+		fr: "Les nuits sans lune, il sillonne le ciel et attaque les proies distraites. Dans l'obscurité, rien ni personne ne peut rivaliser avec lui en combat.",
 		de: "Es fliegt in finsterer, mondloser Nacht umher und macht Jagd auf achtlose Beute. Bei Dunkelheit ist es im Kampf jedem Gegner überlegen."
 	},
 

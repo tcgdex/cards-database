@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It likes to sing but is not yet good at it. With praise and encouragement, it will get better little by little."
+		en: "It likes to sing but is not yet good at it. With praise and encouragement, it will get better little by little.",
+		fr: "Ce Pokémon adore chanter, mais il n'est pas encore très doué. Il s'améliore progressivement si on le complimente suffisamment."
 	},
 
 	name: {

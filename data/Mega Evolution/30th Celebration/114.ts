@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It raises its offspring in its belly pouch. It lets its baby out to play only when it feels safe to do so."
+		en: "It raises its offspring in its belly pouch. It lets its baby out to play only when it feels safe to do so.",
+		fr: "Ce Pokémon élève son petit dans sa poche ventrale et il ne le laisse jouer dehors que lorsque l'environnement est suffisamment sûr."
 	},
 
 	name: {

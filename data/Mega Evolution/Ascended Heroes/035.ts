@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "When two Salazzle meet, they will use their pheromone gas to fight over the males in each other’s group.",
+		fr: "Lorsque deux spécimens se rencontrent, ils tentent de séduire les mâles du groupe opposé en utilisant leur gaz de phéromones.",
 		de: "Wenn sich zwei Amfira begegnen, kämpfen sie mit Pheromongas um die Männchen in ihren Gruppen."
 	},
 

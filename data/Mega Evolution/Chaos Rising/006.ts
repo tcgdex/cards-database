@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "They strengthen their lower bodies by running into one another. They are very kind and won't start fights.",
+		fr: "Il renforce ses membres inférieurs en se ruant sur ses congénères. Naturellement paisible, il ne provoque jamais un combat.",
 		de: "Sie stärken ihren Unterleib, indem sie sich gegenseitig anrempeln. Sie sind sehr freundlich und würden niemals einen Streit anfangen."
 	},
 

@@ -23,6 +23,7 @@ const card: Card = {
 		pt: "Buneary",
 	},
 
+	suffix: "ex",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 

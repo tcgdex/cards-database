@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "It was discovered at the site of a meteor strike 40 years ago. Its stare can lull its foes to sleep.",
+		fr: "Il a été découvert dans le cratère d'une météorite il y a 40 ans. Un simple regard de sa part endort ses ennemis.",
 		de: "Es wurde erstmals vor 40 Jahren bei einem Meteoritenkrater entdeckt. Gegner versetzt es allein mit seinem Blick in Schlaf."
 	},
 

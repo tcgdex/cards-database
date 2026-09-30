@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It uses the fine fur on its body to sense movement in the air and predict the weather...as well as its foes' thoughts."
+		en: "It uses the fine fur on its body to sense movement in the air and predict the weather...as well as its foes' thoughts.",
+		fr: "Sa fourrure délicate détecte les vibrations de l'air. Il peut ainsi prédire la météo ou lire les pensées de ses ennemis."
 	},
 
 	name: {

@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam.",
+		fr: "Il a une très belle fourrure. Mieux vaut éviter de le mettre en colère, ou il gonflera avant d'attaquer de tout son corps.",
 		de: "Es hat sehr feines Fell. Doch Vorsicht: Verärgert man Knuddeluff, bläst es sich stark auf und stürzt sich mit seinem ganzen Körper auf einen."
 	},
 

@@ -97,6 +97,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said that on rare occasions, one of its heads will drop off and continue on as an Exeggcute.",
+		fr: "On raconte qu'en de très rares occasions, une de ses têtes tombe au sol et devient un Noeunoeuf.",
 		de: "Es heißt, in sehr seltenen Fällen falle einer seiner Köpfe zu Boden und lebe als Owei weiter."
 	},
 

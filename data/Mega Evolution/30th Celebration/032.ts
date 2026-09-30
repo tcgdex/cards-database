@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It has small electric sacs on both its cheeks. When in a tough spot, this Pokémon discharges electricity."
+		en: "It has small electric sacs on both its cheeks. When in a tough spot, this Pokémon discharges electricity.",
+		fr: "Ce Pokémon a de petites poches pleines d'électricité sur les joues. S'il se sent menacé, il laisse s'échapper des décharges électriques."
 	},
 
 	name: {

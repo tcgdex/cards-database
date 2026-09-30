@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Known as the Beast That Calls the Moon, this Pokémon lives by taking in any and all light and converting it into its own energy."
+		en: "Known as the Beast That Calls the Moon, this Pokémon lives by taking in any and all light and converting it into its own energy.",
+		fr: "Il a pour surnom « celui qui invite la lune ». Il vit en transformant toutes sortes de lumière en énergie."
 	},
 
 	name: {

@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "When the horns on its head shine in seven colors, it is said to be sharing everlasting life.",
+		fr: "On raconte que quand ses bois brillent de sept couleurs, cela signifie qu'il fait don de la vie éternelle.",
 		de: "Es heißt, dieses Pokémon spende ewiges Leben, sobald das Geweih auf seinem Haupt in sieben verschiedenen Farben leuchtet."
 	},
 

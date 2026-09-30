@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Able to cut down anything with a single strike, it became known as the Fairy King's Sword, and it inspired awe in friend and foe alike."
+		en: "Able to cut down anything with a single strike, it became known as the Fairy King's Sword, and it inspired awe in friend and foe alike.",
+		fr: "Craint et respecté de ses ennemis comme de ses alliés, il a reçu le nom de « lame du roi des fées », car rien ne peut résister à son tranchant."
 	},
 
 	name: {

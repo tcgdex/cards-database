@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It sleeps in a deep-sea trench. If it flaps its wings, it is said to cause a 40-day storm."
+		en: "It sleeps in a deep-sea trench. If it flaps its wings, it is said to cause a 40-day storm.",
+		fr: "Il dort dans une faille des grands fonds. Ses battements d'ailes génèrent une tempête de 40 jours."
 	},
 
 	name: {

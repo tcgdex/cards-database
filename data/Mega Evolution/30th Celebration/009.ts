@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "As its body grows larger, its six warm tails become more beautiful, with a more luxurious coat of fur."
+		en: "As its body grows larger, its six warm tails become more beautiful, with a more luxurious coat of fur.",
+		fr: "Ses six queues dégagent de la chaleur. Quand Goupix grandit, elles embellissent et leur fourrure devient plus épaisse."
 	},
 
 	name: {

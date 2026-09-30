@@ -49,6 +49,7 @@ const card: Card = {
 
 	description: {
 		en: "Chunks of the surface of this Pokémon’s body that have grown old and flaked off have long been used for fuel as an alternative to coal.",
+		fr: "Au fil du temps, de petits morceaux de ce Pokémon se détachent. On s'en sert comme combustible à la place du charbon.",
 		de: "Bruchstücke der Oberfläche dieses Pokémon, die altersbedingt herabfallen, werden seit jeher als Brennstoffersatz für Steinkohle verwendet."
 	},
 

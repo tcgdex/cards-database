@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "A once-departed soul, returned to life in Hisui. Derives power from resentment, which rises as energy atop its head and takes on the forms of foes. In this way, Zorua vents lingering malice."
+		en: "A once-departed soul, returned to life in Hisui. Derives power from resentment, which rises as energy atop its head and takes on the forms of foes. In this way, Zorua vents lingering malice.",
+		fr: "Zorua serait une âme disparue, ressuscitée à Hisui. Sa rancœur émane sous forme d'énergie au-dessus de sa tête, puis adopte l'apparence de ses ennemis, et finit par se dissiper."
 	},
 
 	name: {

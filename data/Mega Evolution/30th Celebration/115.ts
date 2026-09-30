@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It can freely recombine its own cellular structure to transform into other life-forms."
+		en: "It can freely recombine its own cellular structure to transform into other life-forms.",
+		fr: "Métamorph peut modifier sa structure cellulaire à sa guise pour se transformer en n'importe quelle forme de vie."
 	},
 
 	name: {

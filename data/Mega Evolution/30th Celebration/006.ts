@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It nimbly dashes about to avoid getting pecked by bird Pokémon that would love to make off with its small, nutrient-rich storage ball."
+		en: "It nimbly dashes about to avoid getting pecked by bird Pokémon that would love to make off with its small, nutrient-rich storage ball.",
+		fr: "Il s'enfuit à la vue des Pokémon oiseaux, dont le mets favori est sa petite boule remplie de nutriments."
 	},
 
 	name: {

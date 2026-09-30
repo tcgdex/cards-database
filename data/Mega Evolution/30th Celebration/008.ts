@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "This Pokémon was born in a special land. It scatters colorful, toxic scales from its wings during battle."
+		en: "This Pokémon was born in a special land. It scatters colorful, toxic scales from its wings during battle.",
+		fr: "Il est originaire de terres spéciales. En combat, ses ailes disséminent des écailles empoisonnées aux couleurs vives."
 	},
 
 	name: {

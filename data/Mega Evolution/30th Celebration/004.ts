@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It guides Volbeat to draw signs in the night sky. There are scholars who research the meaning of these signs."
+		en: "It guides Volbeat to draw signs in the night sky. There are scholars who research the meaning of these signs.",
+		fr: "La nuit, il guide des Muciole pour dessiner des symboles dans le ciel. Des scientifiques en étudient les significations."
 	},
 
 	name: {

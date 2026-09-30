@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "This legendary Pokémon can scorch the world with fire. It helps those who want to build a world of truth."
+		en: "This legendary Pokémon can scorch the world with fire. It helps those who want to build a world of truth.",
+		fr: "Un Pokémon légendaire assez puissant pour embraser le monde entier. Il soutient les défenseurs de la Réalité."
 	},
 
 	name: {

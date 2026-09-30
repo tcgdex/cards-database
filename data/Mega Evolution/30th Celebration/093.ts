@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "If spotted, it will lure an unwary person into chasing it, then lose the pursuer on mountain trails."
+		en: "If spotted, it will lure an unwary person into chasing it, then lose the pursuer on mountain trails.",
+		fr: "Cornèbre attire, puis abandonne dans les montagnes quiconque l'aperçoit et tente de le suivre."
 	},
 
 	name: {

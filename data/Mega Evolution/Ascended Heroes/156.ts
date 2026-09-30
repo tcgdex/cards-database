@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Even a robust wrestler will become dizzy and unable to stand when exposed to its 200,000-hertz ultrasonic waves.",
+		fr: "Les ultrasons à 200 000 Hz qu'il émet peuvent étourdir même les plus robustes des lutteurs ou des lutteuses.",
 		de: "Die 200 000 Hz hohen Ultraschallwellen dieses Pokémon machen selbst einen gestandenen Ringer schwindelig und zwingen ihn in die Knie."
 	},
 

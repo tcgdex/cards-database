@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "When the horns on its head shine in seven colors, it is said to be sharing everlasting life."
+		en: "When the horns on its head shine in seven colors, it is said to be sharing everlasting life.",
+		fr: "On raconte que quand ses bois brillent de sept couleurs, cela signifie qu'il fait don de la vie éternelle."
 	},
 
 	name: {

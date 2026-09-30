@@ -21,7 +21,7 @@ const card: Card = {
 	hp: 210,
 	types: ["Fire"],
 	stage: "Basic",
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [{
 		name: {

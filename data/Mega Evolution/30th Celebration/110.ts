@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "They communicate with their allies using the sounds their scales make when struck. A group of these Pokémon causes quite a racket."
+		en: "They communicate with their allies using the sounds their scales make when struck. A group of these Pokémon causes quite a racket.",
+		fr: "Il communique avec ses congénères en faisant cliqueter ses écailles. Un rassemblement de Bébécaille est un spectacle extrêmement bruyant."
 	},
 
 	name: {

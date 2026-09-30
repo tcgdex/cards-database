@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Living with a savage, seafaring people has toughened this Pokémon's body so much that parts of it have turned to iron."
+		en: "Living with a savage, seafaring people has toughened this Pokémon's body so much that parts of it have turned to iron.",
+		fr: "Après avoir longtemps vécu avec une tribu de barbares des mers, il est devenu plus musclé, et des éléments métalliques lui ont poussé ici et là."
 	},
 
 	name: {

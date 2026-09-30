@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It has a sturdy body made up of stacked coins. Gholdengo overwhelms its enemies by firing coin after coin at them in quick succession."
+		en: "It has a sturdy body made up of stacked coins. Gholdengo overwhelms its enemies by firing coin after coin at them in quick succession.",
+		fr: "Son corps robuste est composé de pièces empilées. Il accable ses adversaires en leur lançant des rafales de pièces."
 	},
 
 	name: {

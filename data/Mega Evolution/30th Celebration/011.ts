@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It's one of the legendary bird Pokémon. When Moltres flaps its flaming wings, they glimmer with a dazzling red glow."
+		en: "It's one of the legendary bird Pokémon. When Moltres flaps its flaming wings, they glimmer with a dazzling red glow.",
+		fr: "Il s'agit d'un des Pokémon oiseaux légendaires. Des flammes rouges d'une grande beauté étincellent lorsqu'il bat des ailes."
 	},
 
 	name: {

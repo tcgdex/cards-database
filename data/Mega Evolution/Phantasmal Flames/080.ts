@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "Once a Smeargle reaches adulthood, it will have other members of its species leave paw prints on its back.",
+		fr: "Ces Pokémon ont pour coutume d'apposer l'empreinte de leur patte sur le dos de leurs congénères ayant atteint l'âge adulte.",
 		de: "Sobald Farbeagle das Erwachsenenalter erreicht haben, ist es üblich, dass Artgenossen mit den Pfoten Abdrücke auf ihren Rücken hinterlassen."
 	},
 

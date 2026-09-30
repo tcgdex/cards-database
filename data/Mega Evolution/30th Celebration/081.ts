@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It wanders around, carrying an old coin on its back. It survives by draining the life-force from humans who try to pick up its coin."
+		en: "It wanders around, carrying an old coin on its back. It survives by draining the life-force from humans who try to pick up its coin.",
+		fr: "Ce Pokémon erre en portant une vieille pièce sur son dos. Il aspire la vitalité des personnes qui tentent de la ramasser."
 	},
 
 	name: {

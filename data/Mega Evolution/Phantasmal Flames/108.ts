@@ -15,6 +15,7 @@ const card: Card = {
 		pt: "Mega Heracross ex"
 	},
 
+	suffix: "ex",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 

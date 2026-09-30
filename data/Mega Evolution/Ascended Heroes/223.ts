@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "The magma in its body reaches 2,200 degrees Fahrenheit. Its hump gets smaller when it uses Fire-type moves.",
+		fr: "Son corps renferme du magma à 1 200 °C. Sa bosse se dégonfle lorsqu'il utilise des capacités de feu.",
 		de: "In seinem Körper fließt 1200 °C heißes Magma. Nach Einsatz einer Feuer-Attacke schrumpft sein Höcker."
 	},
 

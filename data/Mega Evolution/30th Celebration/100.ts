@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It's said that when its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more."
+		en: "It's said that when its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more.",
+		fr: "Quand il sent que la fin de sa vie est proche, il aspire la force vitale de tous les êtres vivants et retourne à l'état de cocon."
 	},
 
 	name: {

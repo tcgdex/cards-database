@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "It does its level best to glare and pull a scary face, but it can’t help grinning if anyone pats its head.",
+		fr: "Il tente à tout prix de se donner un air menaçant, mais ne peut pas s'empêcher de sourire dès qu'on lui caresse la tête.",
 		de: "Es gibt alles, um ein finsteres Gesicht zu machen und sein Gegenüber böse anzustarren, aber wenn es am Kopf gestreichelt wird, muss es unwillkürlich grinsen."
 	},
 

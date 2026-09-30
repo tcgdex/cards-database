@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "It submerges itself in sand and moves as if swimming. This wise behavior keeps its enemies from finding it and maintains its temperature.",
+		fr: "Ce Pokémon avance tapi dans le sable, ce qui lui permet de se cacher des prédateurs et de maintenir sa température corporelle.",
 		de: "Es bewegt sich verborgen im Sand mithilfe von Schwimmbewegungen fort. So versteckt es sich vor Gegnern und bleibt immer schön warm."
 	},
 

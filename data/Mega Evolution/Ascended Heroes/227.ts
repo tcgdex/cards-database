@@ -49,6 +49,7 @@ const card: Card = {
 
 	description: {
 		en: "In some snowy lands, certain folklore says a house will prosper if a Snorunt lives there.",
+		fr: "D'après une légende des régions enneigées, il apporte la prospérité aux habitants des demeures dans lesquelles il s'installe.",
 		de: "In schneereichen Gebieten erzählt man sich, dass Reichtum in Häuser einziehe, in denen sich Schneppke niederlassen."
 	},
 

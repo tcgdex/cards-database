@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "It dislikes dirty places. It often searches for a comfortable place in which to groom itself.",
+		fr: "Il déteste la saleté et passe son temps à entretenir sa fourrure, confortablement installé.",
 		de: "Hasst schmutzige Orte. Behagt ihm ein Platz, fängt es sofort an, sein glänzendes Fell zu pflegen."
 	},
 

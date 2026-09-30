@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "This Pokémon scrapes its spikes across rocks, and then uses the tips of its feelers to absorb the nutrients it finds within the stone."
+		en: "This Pokémon scrapes its spikes across rocks, and then uses the tips of its feelers to absorb the nutrients it finds within the stone.",
+		fr: "Il fissure la roche avec ses épines pour ensuite absorber les nutriments qui s'y trouvent grâce à l'extrémité de ses tentacules."
 	},
 
 	name: {

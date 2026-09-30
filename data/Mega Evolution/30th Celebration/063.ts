@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Created from the DNA of Mew, this Pokémon is a dangerous combination of overwhelming power and a savage heart."
+		en: "Created from the DNA of Mew, this Pokémon is a dangerous combination of overwhelming power and a savage heart.",
+		fr: "Créé à partir des gènes de Mew, ce Pokémon est doté d'une puissance remarquable et animé par une grande férocité."
 	},
 
 	name: {

@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "It's nature's cleaner-it eats anything and everything, including garbage and rotten things. The ground near its nest is always clean.",
+		fr: "Ce véritable nettoyeur de la nature mange tout, même la nourriture avariée et les déchets. Les environs de son nid sont toujours impeccables.",
 		de: "Sie sind natürliche Reinigungskräfte und fressen alles, inklusive vergammeltem Essen und Müll. In der Nähe ihrer Nester ist es immer sauber."
 	},
 

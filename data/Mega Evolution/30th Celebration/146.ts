@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "The larger pair protects the little ones during battles. When facing strong opponents, the whole group will join the fight."
+		en: "The larger pair protects the little ones during battles. When facing strong opponents, the whole group will join the fight.",
+		fr: "Les deux grands se battent et protègent les petits. Face à des adversaires puissants, ils prennent tous part au combat."
 	},
 
 	name: {

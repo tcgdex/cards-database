@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "The more sweet aromas it absorbs, the more its body swells. Milcery will deflate when its energy level drops.",
+		fr: "Son corps gonfle à mesure qu'il absorbe des arômes sucrés, mais il se rétrécit quand il perd de l'énergie.",
 		de: "Je mehr süße Düfte es aufnimmt, desto weiter dehnt sich sein Körper aus. Jedoch schrumpft es zusammen, wenn sein Energielevel sinkt."
 	},
 

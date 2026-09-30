@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+		fr: "Quand ses grands yeux luisent, il chante une berceuse mystérieuse et agréable qui pousse ses ennemis à s'endormir.",
 		de: "Wenn seine Kulleraugen zu flackern beginnen, singt es ein mysteriöses, wohlklingendes Lied, das Zuhörer in Schlaf versetzt."
 	},
 

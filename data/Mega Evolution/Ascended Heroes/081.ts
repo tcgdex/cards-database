@@ -69,6 +69,7 @@ const card: Card = {
 
 	description: {
 		en: "They say that it will appear before kindhearted, caring people and shower them with happiness.",
+		fr: "On dit qu'il se montre aux personnes dotées d'un cœur pur pour leur apporter joie et bonheur.",
 		de: "Man sagt, es zeige sich nur gutherzigen und einfühlsamen Menschen und überschütte sie dann mit Freude."
 	},
 

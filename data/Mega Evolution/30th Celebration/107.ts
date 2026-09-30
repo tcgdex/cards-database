@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Its ability to deflect any attack led to it being known as the Fighting Master's Shield. It was feared and respected by all."
+		en: "Its ability to deflect any attack led to it being known as the Fighting Master's Shield. It was feared and respected by all.",
+		fr: "Craint et respecté de tous, il était surnommé le « bouclier du roi guerrier », car il pouvait repousser n'importe quelle attaque."
 	},
 
 	name: {
