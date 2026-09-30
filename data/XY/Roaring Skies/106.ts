@@ -3,12 +3,12 @@ import Set from '../Roaring Skies'
 
 const card: Card = {
 	name: {
-		en: "Shaymin EX",
-		fr: "Shaymin EX",
-		es: "Shaymin EX",
-		it: "Shaymin EX",
-		pt: "Shaymin EX",
-		de: "Shaymin EX"
+		en: "Shaymin-EX",
+		fr: "Shaymin-EX",
+		es: "Shaymin-EX",
+		it: "Shaymin-EX",
+		pt: "Shaymin-EX",
+		de: "Shaymin-EX"
 	},
 
 	illustrator: "Ryo Ueda",
