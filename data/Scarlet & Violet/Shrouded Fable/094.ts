@@ -4,6 +4,8 @@ import Set from "../Shrouded Fable"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [133, 479, 700],
+
 	name: {
 		en: "Cassiopeia",
 		fr: "Cassiopée",

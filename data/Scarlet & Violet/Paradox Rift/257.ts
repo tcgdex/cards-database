@@ -4,6 +4,8 @@ import Set from "../Paradox Rift"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [967],
+
 	name: {
 		en: "Professor Turo's Scenario",
 		fr: "Plan du Professeur Turum",

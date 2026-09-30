@@ -4,6 +4,8 @@ import Set from "../151"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [140],
+
 	name: {
 		fr: "Charisme de Giovanni",
 		en: "Giovanni's Charisma",
