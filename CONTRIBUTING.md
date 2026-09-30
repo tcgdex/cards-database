@@ -174,7 +174,7 @@ cd server
 bun run compile
 ```
 
-> **Note:** The full compilation processes all 18 languages and runs `git log` on ~34,000 files to collect last-edit timestamps. This can take 10+ minutes depending on your machine. See [Faster Local Build](#faster-local-build) below for how to speed this up during development.
+> **Note:** The full compilation processes all 18 languages.
 
 #### Start the Server
 
@@ -202,7 +202,7 @@ Once running, the following endpoints are available:
 
 #### Faster Local Build
 
-During development you may not need all 18 languages or the full git-log timestamps. To speed up compilation:
+During development you may not need all 18 languages. To speed up compilation:
 
 1. **Limit languages** — In `server/compiler/index.ts`, temporarily change the `LANGS` array to only include the languages you need:
 
@@ -210,9 +210,7 @@ During development you may not need all 18 languages or the full git-log timesta
     const LANGS: Array<SupportedLanguages> = ['en']
     ```
 
-2. **Skip git-log timestamps** — In `server/compiler/utils/util.ts`, temporarily replace the `loadLastEdits()` function body with an empty implementation. The `getLastEdit()` function already falls back to the current date when no cached date is found.
-
-3. **Create stub files for skipped languages** — The server imports data files for every language at startup, so you need empty stubs for any language you didn't compile:
+2. **Create stub files for skipped languages** — The server imports data files for every language at startup, so you need empty stubs for any language you didn't compile:
 
     ```bash
     cd server
@@ -225,7 +223,7 @@ During development you may not need all 18 languages or the full git-log timesta
     done
     ```
 
-> **Remember** to revert these changes before committing — they are only meant for local development.
+> **Remember** to revert language changes and remove generated stubs before committing — they are only meant for local development.
 
 #### Using Docker
 
