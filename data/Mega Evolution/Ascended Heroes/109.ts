@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "It skulks in caves, and when prey or an enemy passes by, it leaps out and chomps them. The force of its attack sometimes chips its teeth.",
+		fr: "Il attend qu'une proie passe pour bondir hors de son trou et la croquer. Dans son élan, il se casse parfois les dents.",
 		de: "Es verbirgt sich in kleinen Höhlen, aus denen es herausspringt und vorbeilaufende Gegner oder Beute beißt. Manchmal bricht dabei ein Zahn ab."
 	},
 

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It has small electric sacs on both its cheeks. When in a tough spot, this Pokémon discharges electricity."
+		en: "It has small electric sacs on both its cheeks. When in a tough spot, this Pokémon discharges electricity.",
+		fr: "Ce Pokémon a de petites poches pleines d'électricité sur les joues. S'il se sent menacé, il laisse s'échapper des décharges électriques."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu"
+		'es-mx': "Pikachu",
+		pt: "Pikachu"
 	},
 
 	illustrator: "Teeziro",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Eisenschweif",
 			es: "Cola Férrea",
 			it: "Codacciaio",
-			'es-mx': "Cola de Hierro"
+			'es-mx': "Cola de Hierro",
+			pt: "Cauda de Ferro 20×"
 		},
 
 		effect: {
@@ -41,7 +44,8 @@ const card: Card = {
 			de: "Wirf so lange 1 Münze, bis sie Zahl zeigt. Diese Attacke fügt 20 Schadenspunkte pro Kopf zu.",
 			es: "Lanza 1 moneda hasta que salga cruz. Este ataque hace 20 puntos de daño por cada cara.",
 			it: "Lancia una moneta finché non esce croce. Questo attacco infligge 20 danni ogni volta che esce testa.",
-			'es-mx': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 20 puntos de daño por cada cara."
+			'es-mx': "Lanza 1 moneda hasta que salga cruz. Este ataque hace 20 puntos de daño por cada cara.",
+			pt: "Jogue uma moeda até sair coroa. Este ataque causa 20 pontos de dano para cada cara."
 		},
 
 		damage: "20×",

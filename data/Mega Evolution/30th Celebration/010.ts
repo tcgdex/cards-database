@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years."
+		en: "It has nine long tails and fur that gleams gold. It is said to live for 1,000 years.",
+		fr: "Il a neuf longues queues et une fourrure qui brille comme de l'or. On dit qu'il peut vivre 1 000 ans."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Vulnona",
 		es: "Ninetales",
 		it: "Ninetales",
-		'es-mx': "Ninetales"
+		'es-mx': "Ninetales",
+		pt: "Ninetales"
 	},
 
 	illustrator: "kodama",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Flammenschweif",
 			es: "Cola de Fuego",
 			it: "Codafiamma",
-			'es-mx': "Cola de Fuego"
+			'es-mx': "Cola de Fuego",
+			pt: "Cauda de Chamas"
 		},
 
 		damage: 60,

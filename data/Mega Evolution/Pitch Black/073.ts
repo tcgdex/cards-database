@@ -4,6 +4,8 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [408],
+
 	name: {
 		en: "Antique Skull Fossil",
 		fr: "Fossile Crâne Ancien",

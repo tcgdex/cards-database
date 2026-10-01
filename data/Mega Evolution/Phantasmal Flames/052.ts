@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "Rather than using its underdeveloped wings for flight, it rubs them together, emitting ultrasonic waves to attack its enemies.",
+		fr: "Ses ailes encore peu développées lui servent moins à voler qu'à envoyer des ultrasons créés pour attaquer ses adversaires.",
 		de: "Vibravas Flügel sind zum Fliegen kaum geeignet. Es reibt sie aneinander, um Ultraschallwellen zu erzeugen und so seine Gegner anzugreifen."
 	},
 

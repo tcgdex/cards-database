@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [270],
+
 	effect: {
 		fr: "Cherchez 1 Pokémon-EX de base ou 3 Pokémon de base dans votre deck (à part les Pokémon-EX) et placez-les sur votre Banc. Mélangez ensuite votre deck.",
 		en: "Search your deck for 1 Basic Pokémon-EX or 3 Basic Pokémon (except for Pokémon-EX) and put them onto your Bench. Shuffle your deck afterward.",

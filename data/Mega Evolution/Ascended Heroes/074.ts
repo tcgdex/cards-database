@@ -49,6 +49,7 @@ const card: Card = {
 
 	description: {
 		en: "On nights with a full moon, they gather together and dance. The surrounding area is enveloped in an abnormal magnetic field.",
+		fr: "Les nuits de pleine lune, ils se rassemblent pour danser, ce qui génère un mystérieux champ magnétique autour d'eux.",
 		de: "Bei Vollmond versammeln sie sich und tanzen gemeinsam. Um sie herum entsteht dadurch ein ungewöhnliches Magnetfeld."
 	},
 

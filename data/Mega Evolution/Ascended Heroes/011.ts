@@ -49,6 +49,7 @@ const card: Card = {
 
 	description: {
 		en: "It loves to eat leaves. If it is attacked by a Starly, it will defend itself with its spiked rear.",
+		fr: "Il adore manger des feuilles. Si un Étourmi l'attaque, il riposte avec les piquants de son postérieur.",
 		de: "Es isst am liebsten Blätter. Wird es von einem Staralili angegriffen, verteidigt es sich mit Stacheln."
 	},
 

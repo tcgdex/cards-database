@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "It spits out Poison Powder to immobilize the enemy and then finishes it with a spray of Acid.",
+		fr: "Il crache de la poudre toxique pour immobiliser sa proie, puis l'achève avec de l'acide.",
 		de: "Dieses Pokémon spuckt Giftpuder, um den Gegner zu lähmen, bevor es ihn mit Säure erledigt."
 	},
 

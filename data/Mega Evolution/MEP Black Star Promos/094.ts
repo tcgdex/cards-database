@@ -6,6 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Alolan Exeggutor",
+		fr: "Noadkoko d'Alola",
+		es: "Exeggutor de Alola"
 	},
 
 	illustrator: "yuu",
@@ -18,6 +20,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Exeggcute",
+		fr: "Noeunoeuf",
+		es: "Exeggcute"
 	},
 
 	abilities: [{
@@ -25,10 +29,14 @@ const card: Card = {
 
 		name: {
 			en: "Scale Up",
+			fr: "Élongation",
+			es: "Crecer",
 		},
 
 		effect: {
 			en: "If this Pokémon has 6 or more {G} Energy attached, it gets +250 HP.",
+			fr: "Si au moins 6 Énergies {G} sont attachées à ce Pokémon, il a +250 PV.",
+			es: "Si este Pokémon tiene 6 Energías {G} o más unidas, obtiene 250 PS más.",
 		}
 	}],
 
@@ -37,10 +45,14 @@ const card: Card = {
 
 		name: {
 			en: "Mega Drain",
+			fr: "Méga-Sangsue",
+			es: "Megaagotar",
 		},
 
 		effect: {
 			en: "Heal 50 damage from this Pokémon.",
+			fr: "Soignez 50 dégâts de ce Pokémon.",
+			es: "Cura 50 puntos de daño a este Pokémon.",
 		},
 
 		damage: 150

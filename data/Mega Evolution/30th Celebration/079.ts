@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "The absorption of starlight fuels this Pokémon's growth. The shell that encases it is harder than any known material."
+		en: "The absorption of starlight fuels this Pokémon's growth. The shell that encases it is harder than any known material.",
+		fr: "La carapace qui le recouvre est plus dure que tout ce qui est connu par l'Homme. Il grandit en absorbant la lumière des étoiles."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Cosmovum",
 		es: "Cosmoem",
 		it: "Cosmoem",
-		'es-mx': "Cosmoem"
+		'es-mx': "Cosmoem",
+		pt: "Cosmoem"
 	},
 
 	illustrator: "Masako Tomii",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Verhärten",
 			es: "Endurecimiento",
 			it: "Indurimento",
-			'es-mx': "Fortalecimiento"
+			'es-mx': "Fortalecimiento",
+			pt: "Fortificar"
 		},
 
 		effect: {
@@ -41,7 +44,8 @@ const card: Card = {
 			de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken 60 Schadenspunkte weniger zugefügt <em>(nachdem Schwäche und Resistenz verrechnet wurden)</em>.",
 			es: "Durante el próximo turno de tu rival, los ataques hacen 60 puntos de daño menos a este Pokémon <em>(después de aplicar Debilidad y Resistencia)</em>.",
 			it: "Durante il prossimo turno del tuo avversario, questo Pokémon subisce 60 danni in meno dagli attacchi, <em>dopo aver applicato debolezza e resistenza</em>.",
-			'es-mx': "Durante el próximo turno de tu rival, este Pokémon recibe 60 puntos de daño menos de ataques <em>(después de aplicar Debilidad y Resistencia)</em>."
+			'es-mx': "Durante el próximo turno de tu rival, este Pokémon recibe 60 puntos de daño menos de ataques <em>(después de aplicar Debilidad y Resistencia)</em>.",
+			pt: "Durante o próximo turno do seu oponente, este Pokémon receberá 60 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência)."
 		},
 
 		cost: ["Colorless", "Colorless"]

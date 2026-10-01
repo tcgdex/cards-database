@@ -4,6 +4,8 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [110],
+
 	name: {
 		en: "Rust Syndicate Grunt",
 		fr: "Sbire du Clan Dérouillard",

@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "The ball of threads wrapped around its body is elastic enough to deflect the scythes of Scyther, this Pokémon’s natural enemy.",
+		fr: "La boule de fil qui entoure son corps est assez élastique pour repousser les faux d'Insécateur, son ennemi juré.",
 		de: "Die Fadenkugel, die seinen Körper umgibt, ist sehr elastisch. Selbst die Sicheln seines natürlichen Feindes Sichlor prallen an ihr ab."
 	},
 

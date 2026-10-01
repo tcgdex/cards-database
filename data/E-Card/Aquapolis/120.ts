@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [183, 194],
+
 	effect: {
 		en: "Move a basic Energy card attached to 1 of your Pokémon to another of your Pokémon.",
 		fr: "Prenez une carte Énergie de base attachée à l'un de vos Pokémon et attachez-la à un autre de vos Pokémon.",

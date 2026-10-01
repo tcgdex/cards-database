@@ -4,6 +4,8 @@ import Set from "../Stellar Crown"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [970],
+
 	name: {
 		en: "Area Zero Underdepths",
 		fr: "Abîme Zéro",

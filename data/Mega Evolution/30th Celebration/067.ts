@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "The oil-filled tail functions as a buoy, so it's fine even in rivers with strong currents."
+		en: "The oil-filled tail functions as a buoy, so it's fine even in rivers with strong currents.",
+		fr: "Sa queue à l'extrémité remplie d'huile fait office de flotteur et lui permet de nager dans les rapides sans problème."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Marill",
 		es: "Marill",
 		it: "Marill",
-		'es-mx': "Marill"
+		'es-mx': "Marill",
+		pt: "Marill"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Tackle",
 			es: "Placaje",
 			it: "Azione",
-			'es-mx': "Tacleada"
+			'es-mx': "Tacleada",
+			pt: "Investida"
 		},
 
 		damage: 30,

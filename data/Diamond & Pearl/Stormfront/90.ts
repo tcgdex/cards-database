@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [393, 427],
+
 	effect: {
 		en: "You may play 2 Poké Healer + at the same time. If you play 1 Poké Healer +, remove 1 damage counter and a Special Condition from 1 of your Active Pokémon. If you play 2 Poké Healer +, remove 8 damage counters and all Special Conditions from 1 of your Active Pokémon.",
 		fr: "Vous pouvez jouer 2 Poké Guérison + en même temps. Si vous jouez 1 Poké Guérison +, retirez à 1 de vos Pokémon Actifs 1 marqueur de dégât et un État Spécial. Si vous jouez 2 Poké Guérison +, retirez à 1 de vos Pokémon Actifs 8 marqueurs de dégât et tous ses États Spéciaux.",

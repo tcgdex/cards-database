@@ -14,6 +14,8 @@ const card: Card = {
 	trainerType: "Supporter",
 	set: Set,
 
+	cameoDexIds: [1, 7, 163, 194],
+
 	effect: {
 		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Take 5 Baby Pokémon, Basic Pokémon, Evolution, and/or basic Energy cards from your discard pile and then show them to your opponent. Shuffle them into your deck.",
 		fr: "Prenez 5 cartes Bébé Pokémon, Pokémon de base, Évolution et/ou Énergie de base de votre pile de défausse et montrez-les à votre adversaire. Mélangez-les ensuite à votre deck.",

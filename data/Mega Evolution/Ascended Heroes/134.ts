@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck.",
+		fr: "Il remonte sa peau jusqu'à son cou pour se protéger. Elle a une constitution élastique qui absorbe les coups.",
 		de: "Es nimmt eine Abwehrhaltung ein, indem es seine Haut bis zum Hals hochzieht. Da sie elastisch wie Gummi ist, nimmt es so weniger Schaden."
 	},
 

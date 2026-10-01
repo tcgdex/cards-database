@@ -47,6 +47,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["worlds-2025"],
 			thirdParty: {
+				cardmarket: 832224,
 				tcgplayer: 648631
 			},
 		},
@@ -55,6 +56,7 @@ const card: Card = {
 			foil: "league",
 			stamp: ["winner"],
 			thirdParty: {
+				cardmarket: 838393,
 				tcgplayer: 649940
 			},
 		},

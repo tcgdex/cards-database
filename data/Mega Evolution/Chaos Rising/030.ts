@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "The energy made in its cheeks' electric pouches is stored inside its patagial membranes and released while it is gliding.",
+		fr: "Il accumule dans ses membranes l'électricité qu'il produit dans les poches de ses joues, puis la relâche tout en planant.",
 		de: "Den Strom, den es in seinen Backentaschen erzeugt, speichert es auf den Innenseiten seiner Membranen. Beim Gleiten entlädt es ihn wieder."
 	},
 

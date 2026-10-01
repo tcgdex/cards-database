@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Individually, they're incredibly weak. It's by gathering up into schools that they're able to confront opponents."
+		en: "Individually, they're incredibly weak. It's by gathering up into schools that they're able to confront opponents.",
+		fr: "Individuellement, ils sont très faibles. Ils ont donc développé une tactique de déplacement en banc pour résister aux ennemis."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Lusardin",
 		es: "Wishiwashi",
 		it: "Wishiwashi",
-		'es-mx': "Wishiwashi"
+		'es-mx': "Wishiwashi",
+		pt: "Wishiwashi"
 	},
 
 	illustrator: "Narano",
@@ -34,7 +36,8 @@ const card: Card = {
 			de: "Konterschwarm",
 			es: "Contraataque Organizado",
 			it: "Contrattacco Collettivo",
-			'es-mx': "Contraataque Colectivo"
+			'es-mx': "Contraataque Colectivo",
+			pt: "Contra-ataque Coletivo"
 		},
 
 		effect: {
@@ -43,7 +46,8 @@ const card: Card = {
 			de: "Wenn dein Lusardin oder Lusardin-ex in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält (auch wenn dein Pokémon dadurch kampfunfähig wird), lege 3 Schadensmarken auf das Angreifende Pokémon.",
 			es: "Si tu Wishiwashi o Wishiwashi ex está en el Puesto Activo y resulta dañado por un ataque de los Pokémon de tu rival (incluso si queda Fuera de Combate), pon 3 contadores de daño en el Pokémon Atacante.",
 			it: "Se il tuo Wishiwashi o Wishiwashi-ex è in posizione attiva e viene danneggiato da un attacco di un Pokémon del tuo avversario, anche se viene messo KO, metti tre segnalini danno sul Pokémon attaccante.",
-			'es-mx': "Si tu Wishiwashi o Wishiwashi ex está en el Puesto Activo y recibe daño de un ataque de los Pokémon de tu rival (incluso si queda Fuera de Combate), pon 3 contadores de daño en el Pokémon Atacante."
+			'es-mx': "Si tu Wishiwashi o Wishiwashi ex está en el Puesto Activo y recibe daño de un ataque de los Pokémon de tu rival (incluso si queda Fuera de Combate), pon 3 contadores de daño en el Pokémon Atacante.",
+			pt: "Se o seu Wishiwashi ou Wishiwashi ex estiver no Campo Ativo e for danificado por um ataque dos Pokémon do seu oponente (mesmo que o seu Pokémon seja Nocauteado), coloque 3 contadores de dano no Pokémon Atacante."
 		}
 	}],
 
@@ -54,7 +58,8 @@ const card: Card = {
 			de: "Überraschungsangriff",
 			es: "Ataque Sorpresa",
 			it: "Attacco a Sorpresa",
-			'es-mx': "Ataque Sorpresa"
+			'es-mx': "Ataque Sorpresa",
+			pt: "Ataque Surpresa"
 		},
 
 		effect: {
@@ -63,7 +68,8 @@ const card: Card = {
 			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
 			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
 			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-			'es-mx': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada."
+			'es-mx': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada."
 		},
 
 		damage: 30,

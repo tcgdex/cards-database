@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "The two heads have different likes and dislikes. Because the heads fight with each other, Zweilous gets stronger without needing to rely on others."
+		en: "The two heads have different likes and dislikes. Because the heads fight with each other, Zweilous gets stronger without needing to rely on others.",
+		fr: "Ses deux têtes aiment des choses différentes. Comme elles se disputent constamment, elles se renforcent sans avoir besoin de qui que ce soit."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Duodino",
 		es: "Zweilous",
 		it: "Zweilous",
-		'es-mx': "Zweilous"
+		'es-mx': "Zweilous",
+		pt: "Zweilous"
 	},
 
 	illustrator: "IKEDA Saki",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Biss",
 			es: "Mordisco",
 			it: "Morso",
-			'es-mx': "Mordida"
+			'es-mx': "Mordida",
+			pt: "Mordida"
 		},
 
 		damage: 20,
@@ -44,7 +47,8 @@ const card: Card = {
 			de: "Einhämmern",
 			es: "Martillear",
 			it: "Martello",
-			'es-mx': "Martillar"
+			'es-mx': "Martillar",
+			pt: "Martelada"
 		},
 
 		damage: 50,

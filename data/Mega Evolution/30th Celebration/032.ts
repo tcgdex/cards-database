@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It has small electric sacs on both its cheeks. When in a tough spot, this Pokémon discharges electricity."
+		en: "It has small electric sacs on both its cheeks. When in a tough spot, this Pokémon discharges electricity.",
+		fr: "Ce Pokémon a de petites poches pleines d'électricité sur les joues. S'il se sent menacé, il laisse s'échapper des décharges électriques."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu"
+		'es-mx': "Pikachu",
+		pt: "Pikachu"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Herumwuseln",
 			es: "Escabullida",
 			it: "Scatto Frenetico",
-			'es-mx': "Escabullida"
+			'es-mx': "Escabullida",
+			pt: "Chispar"
 		},
 
 		effect: {
@@ -41,7 +44,8 @@ const card: Card = {
 			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus.",
 			es: "Cambia este Pokémon por uno de tus Pokémon en Banca.",
 			it: "Scambia questo Pokémon con uno nella tua panchina.",
-			'es-mx': "Cambia este Pokémon por 1 de tus Pokémon en Banca."
+			'es-mx': "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
+			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco."
 		},
 
 		cost: ["Colorless"]

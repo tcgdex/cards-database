@@ -4,6 +4,8 @@ import Set from "../White Flare"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [566],
+
 	name: {
 		en: "Antique Plume Fossil",
 		fr: "Fossile Plume Ancien",

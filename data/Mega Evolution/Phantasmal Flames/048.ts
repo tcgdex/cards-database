@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon has a muscular body and excels at close-quarters combat. It uses its short horns to strike the opponent's weak spots.",
+		fr: "Ce Pokémon aux muscles développés excelle en combat rapproché. Il vise le point faible de ses adversaires avec ses courtes cornes.",
 		de: "Es hat einen muskulösen Körper und zeichnet sich im Nahkampf aus. Mit seinen kurzen Hörnern zielt es auf die Schwachstellen des Gegners ab."
 	},
 

@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [315],
+
 	effect: {
 		fr: "Lancez une pièce. Si c’est face, piochez 3 cartes. Si c’est pile, piochez 2 cartes.",
 		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Flip a coin. If heads, draw 3 cards. If tails, draw 2 cards.",

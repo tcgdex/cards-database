@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [13, 25, 60, 104, 108],
+
 	effect: {
 		en: "Choose a Pokémon on your Bench. Shuffle it and any cards attached to it into your deck.",
 		fr: "Choisissez un Pokémon de votre Banc. Mélangez-le dans votre deck avec toutes les cartes qui lui sont attachées.",

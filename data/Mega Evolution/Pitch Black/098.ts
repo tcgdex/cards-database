@@ -18,10 +18,13 @@ const card: Card = {
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	dexId: [807],
+
+	cameoDexIds: [807, 943],
+
 	hp: 270,
 	types: ["Lightning"],
 	stage: "Basic",
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [{
 		name: {

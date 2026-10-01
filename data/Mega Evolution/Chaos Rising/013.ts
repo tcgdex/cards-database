@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Using psychic power, it generates a fiery vortex of 5,400 degrees Fahrenheit, incinerating foes swept into this whirl of flame.",
+		fr: "Ses pouvoirs psychiques lui permettent de créer des tourbillons de flammes à 3 000 °C qui enveloppent et consument ses ennemis.",
 		de: "Mit seinen Psycho-Kräften kontrolliert es einen 3000 °C heißen Flammenwirbel, mit dem es seine Gegner umhüllt und sie verbrennt."
 	},
 

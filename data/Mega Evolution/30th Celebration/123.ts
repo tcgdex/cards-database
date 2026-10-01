@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "With its disheveled white fur, it looks like an embodiment of death. Heedless of its own safety, Zoroark attacks its nemeses with a bitter energy so intense, it lacerates Zoroark's own body."
+		en: "With its disheveled white fur, it looks like an embodiment of death. Heedless of its own safety, Zoroark attacks its nemeses with a bitter energy so intense, it lacerates Zoroark's own body.",
+		fr: "Sa crinière blanche échevelée lui donne l'allure d'un dieu de la mort. Le ressentiment qu'il éprouve le déchire physiquement, mais lui donne une énergie telle qu'elle peut occire tout ennemi."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Hisui-Zoroark",
 		es: "Zoroark de Hisui",
 		it: "Zoroark di Hisui",
-		'es-mx': "Zoroark de Hisui"
+		'es-mx': "Zoroark de Hisui",
+		pt: "Zoroark de Hisui"
 	},
 
 	illustrator: "Kamome Shirahama",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Kratzer",
 			es: "Arañazo",
 			it: "Graffio",
-			'es-mx': "Arañazo"
+			'es-mx': "Arañazo",
+			pt: "Arranhão"
 		},
 
 		damage: 30,
@@ -44,7 +47,8 @@ const card: Card = {
 			de: "Wirbelnder Groll",
 			es: "Rencor en Espiral",
 			it: "Rancore Vorticoso",
-			'es-mx': "Rencor Espiral"
+			'es-mx': "Rencor Espiral",
+			pt: "Rancor Rodopiante"
 		},
 
 		effect: {
@@ -53,7 +57,8 @@ const card: Card = {
 			de: "Lege so lange Schadensmarken auf das Aktive Pokémon deines Gegners, bis seine verbleibenden KP gleich 50 sind.",
 			es: "Pon contadores de daño en el Pokémon Activo de tu rival hasta que le queden 50 PS.",
 			it: "Metti dei segnalini danno sul Pokémon attivo del tuo avversario finché i suoi PS rimanenti diventano 50.",
-			'es-mx': "Pon contadores de daño en el Pokémon Activo de tu rival hasta que le queden 50 PS."
+			'es-mx': "Pon contadores de daño en el Pokémon Activo de tu rival hasta que le queden 50 PS.",
+			pt: "Coloque contadores de dano no Pokémon Ativo do seu oponente até o PS restante dele ser 50."
 		},
 
 		cost: ["Colorless", "Colorless", "Colorless"]

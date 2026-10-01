@@ -93,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "The volcanoes on its back have a major eruption every 10 years--or whenever it becomes really angry.",
+		fr: "Les volcans sur son dos entrent en éruption tous les dix ans ou chaque fois qu'il se met en colère.",
 		de: "Alle zehn Jahre kommt es zu einer großen Eruption der Vulkanhöcker auf seinem Rücken. Sie brechen auch aus, wenn es sehr wütend ist."
 	},
 

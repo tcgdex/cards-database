@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions."
+		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.",
+		fr: "L'ADN de ce Pokémon très particulier lui ouvre de nombreuses possibilités d'évolution."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Evoli",
 		es: "Eevee",
 		it: "Eevee",
-		'es-mx': "Eevee"
+		'es-mx': "Eevee",
+		pt: "Eevee"
 	},
 
 	illustrator: "En Morikura",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Ruckzuckhieb",
 			es: "Ataque Rápido",
 			it: "Attacco Rapido",
-			'es-mx': "Ataque Rápido"
+			'es-mx': "Ataque Rápido",
+			pt: "Ataque Rápido"
 		},
 
 		effect: {
@@ -41,7 +44,8 @@ const card: Card = {
 			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu.",
 			es: "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
 			it: "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
-			'es-mx': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más."
+			'es-mx': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+			pt: "Jogue uma moeda. Se sair cara, este ataque causará 20 pontos de dano a mais."
 		},
 
 		damage: "20+",

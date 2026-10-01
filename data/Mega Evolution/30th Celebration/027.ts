@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It has small electric sacs on both its cheeks. When in a tough spot, this Pokémon discharges electricity."
+		en: "It has small electric sacs on both its cheeks. When in a tough spot, this Pokémon discharges electricity.",
+		fr: "Ce Pokémon a de petites poches pleines d'électricité sur les joues. S'il se sent menacé, il laisse s'échapper des décharges électriques."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu"
+		'es-mx': "Pikachu",
+		pt: "Pikachu"
 	},
 
 	illustrator: "Asako Ito",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Nickerchen",
 			es: "Siesta",
 			it: "Pausa",
-			'es-mx': "Siesta"
+			'es-mx': "Siesta",
+			pt: "Soneca"
 		},
 
 		effect: {
@@ -41,7 +44,8 @@ const card: Card = {
 			de: "Heile 30 Schadenspunkte bei diesem Pokémon.",
 			es: "Cura 30 puntos de daño a este Pokémon.",
 			it: "Cura questo Pokémon da 30 danni.",
-			'es-mx': "Cura 30 puntos de daño a este Pokémon."
+			'es-mx': "Cura 30 puntos de daño a este Pokémon.",
+			pt: "Cure 30 pontos de dano deste Pokémon."
 		},
 
 		cost: ["Colorless"]

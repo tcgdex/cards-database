@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [25],
+
 	effect: {
 		fr: "Défaussez 2 cartes de votre main. Dans ce cas, piochez 4 cartes.",
 		en: "Discard 2 cards from your hand. If you do, draw 4 cards.",

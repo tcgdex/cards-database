@@ -4,6 +4,8 @@ import Set from "../SVP Black Star Promos"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [25, 54, 93, 103, 108, 133, 173, 446, 870, 877, 925, 966, 973],
+
 	name: {
 		en: "Paradise Resort",
 		fr: "Hôtel « Au paradis des Pokémon »",
@@ -34,6 +36,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["worlds-2025"],
 			thirdParty: {
+				cardmarket: 844367,
 				tcgplayer: 649232
 			},
 		},
@@ -41,6 +44,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["worlds-2025","staff"],
 			thirdParty: {
+				cardmarket: 845339,
 				tcgplayer: 649234
 			},
 		},

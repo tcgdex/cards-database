@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [306, 612, 621],
+
 	name: {
 		en: "Iris's Fighting Spirit",
 		fr: "Esprit Combatif d'Iris",

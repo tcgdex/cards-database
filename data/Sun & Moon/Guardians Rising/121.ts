@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [57],
+
 	effect: {
 		fr: "Les attaques du Pokémon auquel cette carte est attachée infligent 30 dégâts supplémentaires au Pokémon-GX Actif ou au Pokémon-EX Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
 		en: "The attacks of the Pokémon this card is attached to do 30 more damage to your opponent’s Active Pokémon-GX or Active Pokémon-EX (before applying Weakness and Resistance).",

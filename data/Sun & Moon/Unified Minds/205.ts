@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [138, 142],
+
 	effect: {
 		fr: "Une seule fois pendant le tour de chaque joueur, ce joueur peut chercher dans son deck jusqu’à 2 Pokémon qui évoluent de Fossile Inconnu, les placer sur son Banc, puis mélanger son deck. Si un joueur cherche son deck de cette façon, son tour se termine.",
 		en: "Once during each player’s turn, that player may search their deck for up to 2 Pokémon that evolve from Unidentified Fossil, put those Pokémon onto their Bench, and shuffle their deck. If a player searches their deck in this way, their turn ends.",

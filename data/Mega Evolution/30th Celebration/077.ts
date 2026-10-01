@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It prefers areas with lots of flowers. A Comfey adorned with flowers is a happy Comfey, and the flowers gain healing effects."
+		en: "It prefers areas with lots of flowers. A Comfey adorned with flowers is a happy Comfey, and the flowers gain healing effects.",
+		fr: "Se parer de fleurs l'emplit de joie et lui permet de dégager une aura apaisante. Il se plaît dans les endroits où les fleurs poussent en abondance."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Curelei",
 		es: "Comfey",
 		it: "Comfey",
-		'es-mx': "Comfey"
+		'es-mx': "Comfey",
+		pt: "Comfey"
 	},
 
 	illustrator: "sui",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Kurierendes Aroma",
 			es: "Aroma Reconfortante",
 			it: "Aroma Confortante",
-			'es-mx': "Aroma Reconfortante"
+			'es-mx': "Aroma Reconfortante",
+			pt: "Aroma Acolhedor"
 		},
 
 		effect: {
@@ -41,7 +44,8 @@ const card: Card = {
 			de: "Heile 80 Schadenspunkte bei 1 Pokémon auf deiner Bank.",
 			es: "Cura 80 puntos de daño a uno de tus Pokémon en Banca.",
 			it: "Cura uno dei Pokémon nella tua panchina da 80 danni.",
-			'es-mx': "Cura 80 puntos de daño a 1 de tus Pokémon en Banca."
+			'es-mx': "Cura 80 puntos de daño a 1 de tus Pokémon en Banca.",
+			pt: "Cure 80 pontos de dano de 1 dos seus Pokémon no Banco."
 		},
 
 		cost: ["Colorless"]
@@ -52,7 +56,8 @@ const card: Card = {
 			de: "Magischer Schuss",
 			es: "Disparo Mágico",
 			it: "Magicolpo",
-			'es-mx': "Disparo Mágico"
+			'es-mx': "Disparo Mágico",
+			pt: "Tiro Mágico"
 		},
 
 		damage: 30,

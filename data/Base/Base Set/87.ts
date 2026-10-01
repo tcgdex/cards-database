@@ -14,6 +14,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [51],
+
 	effect: {
 		en: "Look at up to 5 cards from the top of your deck and rearrange them as you like.",
 		fr: "Regardez jusqu'à 5 des 5 premières cartes du dessus de votre deck et triez-les comme bon vous semble.",

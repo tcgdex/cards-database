@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "Only female Salandit can produce gas laden with pheromones. Males entranced by this gas will do whatever the females tell them.",
+		fr: "Les Tritox femelles sont capables de produire un gaz chargé de phéromones. Sous l'effet de ce dernier, les mâles obéissent aveuglément.",
 		de: "Die Weibchen produzieren ein pheromonhaltiges Gas. Kommt ein Männchen damit in Kontakt, gehorcht es dem Weibchen aufs Wort."
 	},
 

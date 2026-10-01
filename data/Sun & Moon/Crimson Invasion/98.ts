@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [773],
+
 	effect: {
 		fr: "Le Silvallié-GX auquel cette carte est attachée est un Pokémon Psychic.",
 		en: "The Silvally-GX this card is attached to is a Psychic Pokémon.",

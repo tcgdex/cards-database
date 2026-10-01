@@ -14,6 +14,9 @@ const card: Card = {
 	dexId: [
 		133,
 	],
+
+	cameoDexIds: [25],
+
 	hp: 60,
 	types: [
 		"Colorless",

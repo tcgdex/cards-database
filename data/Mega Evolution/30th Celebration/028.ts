@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It has small electric sacs on both its cheeks. When in a tough spot, this Pokémon discharges electricity."
+		en: "It has small electric sacs on both its cheeks. When in a tough spot, this Pokémon discharges electricity.",
+		fr: "Ce Pokémon a de petites poches pleines d'électricité sur les joues. S'il se sent menacé, il laisse s'échapper des décharges électriques."
 	},
 
 	name: {
@@ -14,13 +15,17 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu"
+		'es-mx': "Pikachu",
+		pt: "Pikachu"
 	},
 
 	illustrator: "sowsow",
 	rarity: "Pikachu Rare",
 	category: "Pokemon",
 	dexId: [25],
+
+	cameoDexIds: [132, 172],
+
 	hp: 60,
 	types: ["Lightning"],
 	stage: "Basic",
@@ -34,7 +39,8 @@ const card: Card = {
 			de: "Einsamer Blick",
 			es: "Mirada Solitaria",
 			it: "Sguardo Malinconico",
-			'es-mx': "Mirada Solitaria"
+			'es-mx': "Mirada Solitaria",
+			pt: "Olhar Solitário"
 		},
 
 		effect: {
@@ -43,7 +49,8 @@ const card: Card = {
 			de: "Solange dieses Pokémon in der Aktiven Position ist, fügen die vom Aktiven Pokémon deines Gegners eingesetzten Attacken 20 Schadenspunkte weniger zu (bevor Schwäche und Resistenz verrechnet werden).",
 			es: "Mientras este Pokémon esté en el Puesto Activo, los ataques usados por el Pokémon Activo de tu rival hacen 20 puntos de daño menos (antes de aplicar Debilidad y Resistencia).",
 			it: "Fintanto che questo Pokémon è in posizione attiva, gli attacchi usati dal Pokémon attivo del tuo avversario infliggono 20 danni in meno, prima di aver applicato debolezza e resistenza.",
-			'es-mx': "Mientras este Pokémon esté en el Puesto Activo, los ataques usados por el Pokémon Activo de tu rival hacen 20 puntos de daño menos (antes de aplicar Debilidad y Resistencia)."
+			'es-mx': "Mientras este Pokémon esté en el Puesto Activo, los ataques usados por el Pokémon Activo de tu rival hacen 20 puntos de daño menos (antes de aplicar Debilidad y Resistencia).",
+			pt: "Enquanto este Pokémon estiver no Campo Ativo, os ataques usados pelo Pokémon Ativo do seu oponente causarão 20 pontos de dano a menos (antes de aplicar Fraqueza e Resistência)."
 		}
 	}],
 
@@ -54,7 +61,8 @@ const card: Card = {
 			de: "Pikaball",
 			es: "Pika Ball",
 			it: "Pikasfera",
-			'es-mx': "Pikabola"
+			'es-mx': "Pikabola",
+			pt: "Bola Pikachu"
 		},
 
 		damage: 20,

@@ -93,6 +93,7 @@ const card: Card = {
 
 	description: {
 		en: "It causes blizzards as it flies around with its huge, chill-emanating wings. Clean meltwater is its favorite thing to drink.",
+		fr: "Ce Pokémon provoque des blizzards en battant de ses grandes ailes, qui dégagent de l'air froid. Il aime l'eau pure de la neige fraîchement fondue.",
 		de: "Seine großen Flügel setzen beim Fliegen eine Eiseskälte frei, wodurch es Schneestürme auslöst. Klares Schmelzwasser trinkt es besonders gern."
 	},
 

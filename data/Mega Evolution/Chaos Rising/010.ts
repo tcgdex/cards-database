@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "A legend says that its body glows in seven colors. A rainbow is said to form behind it when it flies.",
+		fr: "Son corps brille des sept couleurs de l'arc-en-ciel, arc-en-ciel qui se constitue derrière lui quand il vole.",
 		de: "Sein Körper soll in sieben Farben leuchten. Im Flug zieht es einen Regenbogen hinter sich her."
 	},
 

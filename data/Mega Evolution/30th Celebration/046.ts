@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It has small electric sacs on both its cheeks. When in a tough spot, this Pokémon discharges electricity."
+		en: "It has small electric sacs on both its cheeks. When in a tough spot, this Pokémon discharges electricity.",
+		fr: "Ce Pokémon a de petites poches pleines d'électricité sur les joues. S'il se sent menacé, il laisse s'échapper des décharges électriques."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu"
+		'es-mx': "Pikachu",
+		pt: "Pikachu"
 	},
 
 	illustrator: "svlt",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Frischluft",
 			es: "Aire Fresco",
 			it: "Prendere Aria",
-			'es-mx': "Aire Fresco"
+			'es-mx': "Aire Fresco",
+			pt: "Espairecer"
 		},
 
 		effect: {
@@ -41,7 +44,8 @@ const card: Card = {
 			de: "Dieses Pokémon erholt sich von allen Speziellen Zuständen.",
 			es: "Este Pokémon se recupera de todas las Condiciones Especiales.",
 			it: "Questo Pokémon guarisce da tutte le condizioni speciali.",
-			'es-mx': "Este Pokémon se recupera de todas las Condiciones Especiales."
+			'es-mx': "Este Pokémon se recupera de todas las Condiciones Especiales.",
+			pt: "Este Pokémon se recupera de todas as Condições Especiais."
 		},
 
 		cost: ["Colorless"]
@@ -52,7 +56,8 @@ const card: Card = {
 			de: "Schmetterkick",
 			es: "Patada Destrucción",
 			it: "Calcio Esplosivo",
-			'es-mx': "Patada Devastadora"
+			'es-mx': "Patada Devastadora",
+			pt: "Chute Poderoso"
 		},
 
 		damage: 20,

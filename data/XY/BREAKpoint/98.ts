@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [312],
+
 	effect: {
 		fr: "Défaussez toute carte Stade en jeu. Dans ce cas, votre adversaire défausse 3 cartes de sa main.",
 		en: "Discard any Stadium card in play. If you do, your opponent discards 3 cards from his or her hand.",

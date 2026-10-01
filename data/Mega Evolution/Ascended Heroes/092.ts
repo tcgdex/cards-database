@@ -87,6 +87,7 @@ const card: Card = {
 
 	description: {
 		en: "Research continues on this Pokémon, which could be the power source of a unique motor.",
+		fr: "On étudie depuis longtemps sa capacité à servir de source d'énergie pour certains moteurs.",
 		de: "Dieses Pokémon wurde lange Zeit erforscht, um als Energiequelle für besondere Motoren zu dienen."
 	},
 

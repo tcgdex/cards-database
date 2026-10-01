@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "This legendary Pokémon can scorch the world with lightning. It assists those who want to build an ideal world."
+		en: "This legendary Pokémon can scorch the world with lightning. It assists those who want to build an ideal world.",
+		fr: "Un Pokémon légendaire assez puissant pour foudroyer le monde entier. Il soutient ceux qui suivent leur Idéal."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Zekrom",
 		es: "Zekrom",
 		it: "Zekrom",
-		'es-mx': "Zekrom"
+		'es-mx': "Zekrom",
+		pt: "Zekrom"
 	},
 
 	illustrator: "akagi",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Schlitzer",
 			es: "Cuchillada",
 			it: "Lacerazione",
-			'es-mx': "Cuchillada"
+			'es-mx': "Cuchillada",
+			pt: "Talho"
 		},
 
 		damage: 50,
@@ -44,7 +47,8 @@ const card: Card = {
 			de: "Nitrodonner",
 			es: "Nitrotrueno",
 			it: "Tuono Propulsivo",
-			'es-mx': "Nitrotrueno"
+			'es-mx': "Nitrotrueno",
+			pt: "Trovão Nitro"
 		},
 
 		effect: {
@@ -53,7 +57,8 @@ const card: Card = {
 			de: "Wenn an dieses Pokémon mindestens 1 <span class=\"energy-symbol Fire\" title=\"Feuer\">Fire</span>-Energie angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu.",
 			es: "Si este Pokémon tiene alguna Energía <span class=\"energy-symbol Fire\" title=\"Fuego\">Fire</span> unida, este ataque hace 80 puntos de daño más.",
 			it: "Se questo Pokémon ha delle Energie <span class=\"energy-symbol Fire\" title=\"Fuoco\">Fire</span> assegnate, questo attacco infligge 80 danni in più.",
-			'es-mx': "Si este Pokémon tiene alguna Energía <span class=\"energy-symbol Fire\" title=\"Fuego\">Fire</span> unida, este ataque hace 80 puntos de daño más."
+			'es-mx': "Si este Pokémon tiene alguna Energía <span class=\"energy-symbol Fire\" title=\"Fuego\">Fire</span> unida, este ataque hace 80 puntos de daño más.",
+			pt: "Se este Pokémon tiver alguma Energia Fire ligada a ele, este ataque causará 80 pontos de dano a mais."
 		},
 
 		damage: "80+",

@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [26],
+
 	effect: {
 		fr: "Piochez 3 cartes.",
 		en: "Draw 3 cards.",

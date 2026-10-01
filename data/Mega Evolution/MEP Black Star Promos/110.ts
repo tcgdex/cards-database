@@ -6,6 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Umbreon ex",
+		fr: "Noctali-ex",
+		es: "Umbreon ex",
 	},
 
 	suffix: "ex",
@@ -17,8 +19,13 @@ const card: Card = {
 	stage: "Stage1",
 	dexId: [197],
 
+
+	cameoDexIds: [133, 150, 198, 337, 488, 570, 571, 633, 634, 635, 774, 807, 848, 849],
+
 	evolveFrom: {
 		en: "Eevee",
+		fr: "Évoli",
+		es: "Eevee",
 	},
 
 	attacks: [{
@@ -26,10 +33,14 @@ const card: Card = {
 
 		name: {
 			en: "Lunatic Claw",
+			fr: "Griffe Lunatique",
+			es: "Garra Lunática",
 		},
 
 		effect: {
 			en: "If your opponent's Active Pokémon already has any damage counters on it, this attack does 140 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire a déjà au moins un marqueur de dégâts, cette attaque inflige 140 dégâts supplémentaires.",
+			es: "Si el Pokémon Activo de tu rival ya tiene algún contador de daño sobre él, este ataque hace 140 puntos de daño más.",
 		},
 
 		damage: "100+"

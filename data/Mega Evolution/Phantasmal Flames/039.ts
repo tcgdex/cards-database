@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "Shiny particles are released from its wings like a veil. It is said to represent the crescent moon.",
+		fr: "Ses ailes libèrent un rideau de particules brillantes. Ce Pokémon symboliserait le croissant de lune.",
 		de: "Seine Flügel geben schimmernde Partikel ab, die wie ein Schleier herabrieseln. Man sagt, es verkörpere die Mondsichel."
 	},
 

@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "Said to have expanded the lands by evaporating water with raging heat. It battled titanically with Kyogre.",
+		fr: "Ennemi juré de Kyogre, sa haute chaleur corporelle aurait fait évaporer l'eau et permis aux continents de s'étendre.",
 		de: "Sein Feuer erschuf einst das Land. Es und Kyogre lieferten sich einen langen Kampf."
 	},
 

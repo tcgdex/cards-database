@@ -12,6 +12,8 @@ const card: Card = {
 
 	set: Set,
 
+	cameoDexIds: [54, 252, 255, 258],
+
 	variants: [
 		{
 			type: 'normal',

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It's accustomed to luxury because it used to live with Alolan royalty. As a result, it's very picky about food."
+		en: "It's accustomed to luxury because it used to live with Alolan royalty. As a result, it's very picky about food.",
+		fr: "Par le passé, il menait une vie de luxe auprès de la famille royale d'Alola, et il en a gardé des goûts alimentaires très sélectifs."
 	},
 
 	name: {
@@ -14,13 +15,17 @@ const card: Card = {
 		de: "Alola-Mauzi",
 		es: "Meowth de Alola",
 		it: "Meowth di Alola",
-		'es-mx': "Meowth de Alola"
+		'es-mx': "Meowth de Alola",
+		pt: "Meowth de Alola"
 	},
 
 	illustrator: "OKUBO",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	dexId: [52],
+
+	cameoDexIds: [52],
+
 	hp: 60,
 	types: ["Darkness"],
 	stage: "Basic",
@@ -32,7 +37,8 @@ const card: Card = {
 			de: "Zahltag",
 			es: "Día de Pago",
 			it: "Giornopaga",
-			'es-mx': "Día de Pago"
+			'es-mx': "Día de Pago",
+			pt: "Dia de Pagamento"
 		},
 
 		effect: {
@@ -41,7 +47,8 @@ const card: Card = {
 			de: "Ziehe 1 Karte.",
 			es: "Roba 1 carta.",
 			it: "Pesca una carta.",
-			'es-mx': "Roba 1 carta."
+			'es-mx': "Roba 1 carta.",
+			pt: "Compre uma carta."
 		},
 
 		damage: 10

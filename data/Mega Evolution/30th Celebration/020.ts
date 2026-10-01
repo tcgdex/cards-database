@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It is said to live in a gap in the spatial dimension parallel to ours. It appears in mythology."
+		en: "It is said to live in a gap in the spatial dimension parallel to ours. It appears in mythology.",
+		fr: "On dit qu'il hante une faille d'une dimension parallèle à la nôtre. Il apparaît dans la mythologie."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Palkia",
 		es: "Palkia",
 		it: "Palkia",
-		'es-mx': "Palkia"
+		'es-mx': "Palkia",
+		pt: "Palkia"
 	},
 
 	illustrator: "kawayoo",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Wurmloch",
 			es: "Agujero de Gusano",
 			it: "Tunnel Gravitazionale",
-			'es-mx': "Agujero Espaciotemporal"
+			'es-mx': "Agujero Espaciotemporal",
+			pt: "Buraco de Minhoca"
 		},
 
 		effect: {
@@ -41,7 +44,8 @@ const card: Card = {
 			de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus. Wenn du das machst, wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. <em>(Dein Gegner wählt das neue Aktive Pokémon.)</em>",
 			es: "Cambia este Pokémon por uno de tus Pokémon en Banca. Si lo haces, mueve el Pokémon Activo de tu rival a la Banca. <em>(Tu rival elige el nuevo Pokémon Activo)</em>.",
 			it: "Scambia questo Pokémon con uno nella tua panchina. Se lo fai, sposta il Pokémon attivo del tuo avversario nella sua panchina. <em>Il tuo avversario sceglie il nuovo Pokémon attivo</em>.",
-			'es-mx': "Cambia este Pokémon por 1 de tus Pokémon en Banca. Si lo haces, mueve el Pokémon Activo de tu rival a la Banca. <em>(Tu rival elige el nuevo Pokémon Activo).</em>"
+			'es-mx': "Cambia este Pokémon por 1 de tus Pokémon en Banca. Si lo haces, mueve el Pokémon Activo de tu rival a la Banca. <em>(Tu rival elige el nuevo Pokémon Activo).</em>",
+			pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco. Se fizer isso, mande o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)"
 		},
 
 		damage: 100,

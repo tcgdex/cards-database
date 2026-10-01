@@ -4,6 +4,8 @@ import Set from "../Paldean Fates"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [133, 197],
+
 	name: {
 		en: "Penny",
 		fr: "Pania",

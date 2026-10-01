@@ -59,6 +59,7 @@ const card: Card = {
 
 	description: {
 		en: "When it is woken by moonlight, it wanders about. But during the day, it stays still underground.",
+		fr: "Il vagabonde la nuit, réveillé par la lumière de la lune. En journée, il reste immobile, enfoui sous terre.",
 		de: "Es erwacht bei Mondschein und wandert umher. Tagsüber verharrt es still unter der Erde."
 	},
 

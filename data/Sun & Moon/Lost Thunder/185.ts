@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [241],
+
 	effect: {
 		fr: "Choisissez l’un de vos Pokémon, puis lancez 2 pièces. Pour chaque côté face, soignez 30 dégâts à ce Pokémon-là.",
 		en: "Choose 1 of your Pokémon, and then flip 2 coins. For each heads, heal 30 damage from that Pokémon.",

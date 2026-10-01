@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "To avoid being attacked, it does nothing but mimic a tree. It hates water and flees from rain.",
+		fr: "Il prend l'apparence d'un arbre pour éviter les attaques, mais il déteste l'eau et fuit la pluie.",
 		de: "Um nicht angegriffen zu werden, gibt es vor, ein Baum zu sein. Es hasst jedoch Wasser und flieht vor Regen."
 	},
 

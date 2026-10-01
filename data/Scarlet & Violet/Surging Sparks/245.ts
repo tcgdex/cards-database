@@ -4,6 +4,8 @@ import Set from "../Surging Sparks"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [869],
+
 	name: {
 		en: "Jasmine's Gaze",
 		fr: "Regard de Jasmine",

@@ -28,7 +28,7 @@ const card: Card = {
 	rarity: "Mega Hyper Rare",
 
 	stage: "Stage2",
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [{
 		type: "Ability",

@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Mega Diancie ex"
 	},
 
+	suffix: "ex",
 	rarity: "Double rare",
 	category: "Pokemon",
 

@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "This mysterious Pokémon started life as an ancient clay figurine made over 20,000 years ago.",
+		fr: "Ce Pokémon mystérieux serait né d'une figurine d'argile vieille de près de 20 000 ans.",
 		de: "Dieses rätselhafte Pokémon ist aus einer Lehmpuppe entstanden, die vor 20 000 Jahren von einem uralten Volk angefertigt wurde."
 	},
 

@@ -11,7 +11,9 @@ const card: Card = {
 	rarity: "Promo",
 	category: "Trainer",
 	set: Set,
+
 	cameoDexIds: [15],
+
 	trainerType: "Tool",
 
 	effect: {

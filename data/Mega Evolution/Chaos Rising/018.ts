@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "It carries food rolled up in its tail. It has a habit of sharing food with people lost in the mountains.",
+		fr: "Il enveloppe sa nourriture dans sa queue pour la transporter et partage volontiers ses victuailles avec les victimes d'accidents en montagne.",
 		de: "Das Futter, das es in seinen Schweif eingewickelt bei sich trägt, teilt es mit Menschen, die sich in den Bergen verlaufen haben."
 	},
 

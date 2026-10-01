@@ -4,6 +4,8 @@ import Set from "../Temporal Forces"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [16, 94],
+
 	name: {
 		en: "Morty's Conviction",
 		fr: "Conviction de Mortimer",

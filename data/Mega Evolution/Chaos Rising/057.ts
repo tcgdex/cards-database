@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Consuming garbage makes new kinds of poison gases and liquids inside their bodies.",
+		fr: "En aspirant des déchets, il produit de nouveaux types de gaz et de fluides toxiques dans son corps.",
 		de: "Durch das Aufsaugen von Abfall erzeugt es in seinem Inneren völlig neue Formen von Giftgasen und Toxinen."
 	},
 

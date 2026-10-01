@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It has small electric sacs on both its cheeks. When in a tough spot, this Pokémon discharges electricity."
+		en: "It has small electric sacs on both its cheeks. When in a tough spot, this Pokémon discharges electricity.",
+		fr: "Ce Pokémon a de petites poches pleines d'électricité sur les joues. S'il se sent menacé, il laisse s'échapper des décharges électriques."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu"
+		'es-mx': "Pikachu",
+		pt: "Pikachu"
 	},
 
 	illustrator: "Rianti Hidayat",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Herunterhängen",
 			es: "Prender",
 			it: "Tirar Giù",
-			'es-mx': "Colgadera"
+			'es-mx': "Colgadera",
+			pt: "Dependurar"
 		},
 
 		damage: 10,
@@ -44,7 +47,8 @@ const card: Card = {
 			de: "Stromtritt",
 			es: "Electropatada",
 			it: "Dinamocalcio",
-			'es-mx': "Electropatada"
+			'es-mx': "Electropatada",
+			pt: "Chute Zap"
 		},
 
 		damage: 40,

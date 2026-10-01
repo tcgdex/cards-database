@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Both of its legs have turned into wings. Without a sound, Crobat flies swiftly toward its prey and sinks its fangs into the nape of its target's neck.",
+		fr: "Ses pattes sont devenues des ailes. Il fond sur sa proie furtivement puis plante ses crocs dans sa nuque.",
 		de: "Seine zwei Beine wurden zu Flügeln. Es fliegt schnell und lautlos zu seiner Beute, um ihr dann die Zähne in den Nacken zu bohren."
 	},
 

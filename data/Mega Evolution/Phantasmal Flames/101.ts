@@ -84,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "Known as the Desert Spirit, this Pokémon hides in the sandstorms it causes by beating its wings.",
+		fr: "On l'appelle « l'esprit du désert ». Il se dissimule dans des tempêtes de sable qu'il provoque en battant des ailes.",
 		de: "Dieses auch als „Geist der Wüste“ bekannte Pokémon versteckt sich in Sandstürmen, die es durch das Schlagen seiner Flügel erzeugt."
 	},
 

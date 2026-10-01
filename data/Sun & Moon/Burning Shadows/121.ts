@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [23, 767],
+
 	effect: {
 		fr: "Chaque fois qu’un joueur joue un Pokémon de sa main pour faire évoluer l’un de ses Pokémon, placez 3 marqueurs de dégâts sur ce Pokémon.",
 		en: "Whenever any player plays a Pokémon from their hand to evolve 1 of their Pokémon, put 3 damage counters on that Pokémon.",

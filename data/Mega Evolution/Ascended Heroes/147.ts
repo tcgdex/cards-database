@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "Bisharp mercilessly cuts its opponents to pieces with the sharp blades covering its body. It will do anything to win.",
+		fr: "Ce Pokémon découpe ses ennemis sans pitié à l'aide des lames tranchantes sur son corps. Il est prêt à tout pour remporter la victoire.",
 		de: "Mit den scharfen Klingen an seinem Körper hackt es Gegner gnadenlos in Stücke. Um den Sieg zu erringen, ist ihm jedes Mittel recht."
 	},
 

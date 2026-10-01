@@ -14,6 +14,7 @@ const card: Card = {
 		pt: "Oricorio ex"
 	},
 
+	suffix: "ex",
 	rarity: "Double rare",
 	category: "Pokemon",
 

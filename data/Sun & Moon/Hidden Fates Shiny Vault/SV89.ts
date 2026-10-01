@@ -13,15 +13,7 @@ const card: Card = {
 
 	set: Set,
 
-
-
-
-
-
-
-
-
-
+	cameoDexIds: [396],
 
 	effect: {
 		en: "Once during each player's turn, that player may put 2 Metal Energy cards from their discard pile into their hand. This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card.",

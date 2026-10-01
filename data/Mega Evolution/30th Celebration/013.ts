@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter."
+		en: "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
+		fr: "Un Pokémon qui amène la victoire. On dit que les Dresseurs qui le possèdent peuvent gagner n'importe quel combat."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Victini",
 		es: "Victini",
 		it: "Victini",
-		'es-mx': "Victini"
+		'es-mx': "Victini",
+		pt: "Victini"
 	},
 
 	illustrator: "Jiro Sasumo",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Familienruf",
 			es: "Llamar a la Familia",
 			it: "Cerca Famiglia",
-			'es-mx': "Llamar a la Familia"
+			'es-mx': "Llamar a la Familia",
+			pt: "Chamar a Família"
 		},
 
 		effect: {
@@ -41,7 +44,8 @@ const card: Card = {
 			de: "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck.",
 			es: "Busca en tu baraja hasta 2 Pokémon Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo fino a due Pokémon Base e mettili nella tua panchina. Poi rimischia il tuo mazzo.",
-			'es-mx': "Busca en tu mazo hasta 2 Pokémon Básicos y ponlos en tu Banca. Después, baraja tu mazo."
+			'es-mx': "Busca en tu mazo hasta 2 Pokémon Básicos y ponlos en tu Banca. Después, baraja tu mazo.",
+			pt: "Procure por até 2 Pokémon Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho."
 		},
 
 		cost: ["Colorless"]
@@ -52,7 +56,8 @@ const card: Card = {
 			de: "V-Flamme",
 			es: "Llama V",
 			it: "Fiamma V",
-			'es-mx': "Llama V"
+			'es-mx': "Llama V",
+			pt: "Chama V"
 		},
 
 		damage: 50,

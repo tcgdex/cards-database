@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [206],
+
 	effect: {
 		fr: "Soignez 120 dégâts à l’un de vos Pokémon auquel il reste 30 PV ou moins.",
 		en: "Heal 120 damage from 1 of your Pokémon that has 30 HP or less remaining.",

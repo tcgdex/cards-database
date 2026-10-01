@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "It is actually timid and easily spooked. If attacked, it desperately flails its limbs about in an attempt to repel its opponent.",
+		fr: "Il est en fait timide et assez peureux. Lorsque des adversaires l'attaquent, il tente de les repousser en agitant ses pattes de toutes ses forces.",
 		de: "Granbull ist in Wahrheit ängstlich und scheu. Wird es angegriffen, fuchtelt es wild mit den Armen und Beinen, um Gegner zu verscheuchen."
 	},
 

@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [794, 800, 806],
+
 	effect: {
 		fr: "Vous ne pouvez jouer cette carte que s’il reste exactement 3 ou 4 cartes Récompense à votre adversaire.\n\nCherchez jusqu’à 2 cartes Énergie de base dans votre deck et attachez-les à l’une de vos Ultra-Chimères. Mélangez ensuite votre deck.",
 		en: "You can play this card only if your opponent has exactly 3 or 4 Prize cards remaining.\n\nSearch your deck for up to 2 basic Energy cards and attach them to 1 of your Ultra Beasts. Then, shuffle your deck.",

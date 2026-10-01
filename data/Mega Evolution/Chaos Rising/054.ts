@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "It attacks by spraying a repugnant fluid from its tail, but the stench dulls after a few squirts.",
+		fr: "Il attaque en projetant un liquide nauséabond sur ses adversaires. L'odeur s'atténue quand il tire en rafale.",
 		de: "Es greift an, indem es eine stinkende Flüssigkeit aus der Spitze seines Schweifs versprüht. Feuert es sie wiederholt ab, lässt der Geruch nach."
 	},
 

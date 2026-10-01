@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "It is formed by two Beldum joining together. Its steel body won't be scratched if it collides with a jet.",
+		fr: "Ce Pokémon est né de la fusion de deux Terhal. S'il entrait en collision avec un avion à réaction, son corps d'acier en ressortirait indemne.",
 		de: "Zwei Tanhel haben sich zu diesem Pokémon vereint. Sein stählerner Körper bleibt sogar bei einer Kollision mit einem Jet unversehrt."
 	},
 

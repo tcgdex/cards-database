@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [417],
+
 	effect: {
 		en: "Flip a coin. If heads, search your discard pile for a basic Energy card and attach it to 1 of your Pokémon.",
 		fr: "Lancez une pièce. Si c'est face, choisissez dans votre pile de défausse une carte Énergie de base et attachez-la à 1 de vos Pokémon.",

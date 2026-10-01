@@ -11,6 +11,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [34],
+
 	effect: {
 		en: "Remove all damage counters from 1 of your Pokémon with Giovanni in its name. Then discard your hand."
 	},

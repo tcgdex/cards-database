@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Living with a savage, seafaring people has toughened this Pokémon's body so much that parts of it have turned to iron."
+		en: "Living with a savage, seafaring people has toughened this Pokémon's body so much that parts of it have turned to iron.",
+		fr: "Après avoir longtemps vécu avec une tribu de barbares des mers, il est devenu plus musclé, et des éléments métalliques lui ont poussé ici et là."
 	},
 
 	name: {
@@ -14,13 +15,17 @@ const card: Card = {
 		de: "Galar-Mauzi",
 		es: "Meowth de Galar",
 		it: "Meowth di Galar",
-		'es-mx': "Meowth de Galar"
+		'es-mx': "Meowth de Galar",
+		pt: "Meowth de Galar"
 	},
 
 	illustrator: "OKUBO",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	dexId: [52],
+
+	cameoDexIds: [52],
+
 	hp: 70,
 	types: ["Metal"],
 	stage: "Basic",
@@ -32,7 +37,8 @@ const card: Card = {
 			de: "Zahltag",
 			es: "Día de Pago",
 			it: "Giornopaga",
-			'es-mx': "Día de Pago"
+			'es-mx': "Día de Pago",
+			pt: "Dia de Pagamento"
 		},
 
 		effect: {
@@ -41,7 +47,8 @@ const card: Card = {
 			de: "Ziehe 1 Karte.",
 			es: "Roba 1 carta.",
 			it: "Pesca una carta.",
-			'es-mx': "Roba 1 carta."
+			'es-mx': "Roba 1 carta.",
+			pt: "Compre uma carta."
 		},
 
 		damage: 10,
@@ -53,7 +60,8 @@ const card: Card = {
 			de: "Schatzhatz",
 			es: "Embestida Tesoro",
 			it: "Sfrecciatesoro",
-			'es-mx': "Embestida del Tesoro"
+			'es-mx': "Embestida del Tesoro",
+			pt: "Corrida ao Tesouro 10×"
 		},
 
 		effect: {
@@ -62,7 +70,8 @@ const card: Card = {
 			de: "Diese Attacke fügt für jede Karte auf deiner Hand 10 Schadenspunkte zu.",
 			es: "Este ataque hace 10 puntos de daño por cada carta en tu mano.",
 			it: "Questo attacco infligge 10 danni per ogni carta che hai in mano.",
-			'es-mx': "Este ataque hace 10 puntos de daño por cada carta en tu mano."
+			'es-mx': "Este ataque hace 10 puntos de daño por cada carta en tu mano.",
+			pt: "Este ataque causa 10 pontos de dano para cada carta na sua mão."
 		},
 
 		damage: "10×",

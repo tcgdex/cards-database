@@ -16,15 +16,7 @@ const card: Card = {
 
 	set: Set,
 
-
-
-
-
-
-
-
-
-
+	cameoDexIds: [126],
 
 	effect: {
 		fr: "Placez un Pokémon de votre main devant vous, face cachée, et dites à votre adversaire le nom de l’une de ses attaques. Votre adversaire devine le nom de ce Pokémon, puis vous le retournez. Si votre adversaire a bien deviné, il pioche 4 cartes. S’il a mal deviné, vous piochez 4 cartes. Remettez ce Pokémon dans votre main.",

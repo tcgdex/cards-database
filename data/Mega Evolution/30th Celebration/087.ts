@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Females are more sensitive to smells than males. While foraging, they'll use their whiskers to check wind direction and stay downwind of predators."
+		en: "Females are more sensitive to smells than males. While foraging, they'll use their whiskers to check wind direction and stay downwind of predators.",
+		fr: "Son odorat est plus développé que celui du mâle. Quand Nidoran♀ cherche à manger, il reste dans le sens du vent, qu'il détecte avec ses vibrisses."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Nidoran♀",
 		es: "Nidoran♀",
 		it: "Nidoran♀",
-		'es-mx': "Nidoran♀"
+		'es-mx': "Nidoran♀",
+		pt: "Nidoran♀"
 	},
 
 	illustrator: "Taira Akitsu",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Heuler",
 			es: "Gruñido",
 			it: "Ruggito",
-			'es-mx': "Gruñido"
+			'es-mx': "Gruñido",
+			pt: "Rosnadura"
 		},
 
 		effect: {
@@ -41,7 +44,8 @@ const card: Card = {
 			de: "Während des nächsten Zuges deines Gegners fügen die vom Verteidigenden Pokémon eingesetzten Attacken 30 Schadenspunkte weniger zu <em>(bevor Schwäche und Resistenz verrechnet werden)</em>.",
 			es: "Durante el próximo turno de tu rival, los ataques usados por el Pokémon Defensor hacen 30 puntos de daño menos <em>(antes de aplicar Debilidad y Resistencia)</em>.",
 			it: "Durante il prossimo turno del tuo avversario, gli attacchi usati dal Pokémon difensore infliggono 30 danni in meno, <em>prima di aver applicato debolezza e resistenza</em>.",
-			'es-mx': "Durante el próximo turno de tu rival, los ataques usados por el Pokémon Defensor hacen 30 puntos de daño menos <em>(antes de aplicar Debilidad y Resistencia)</em>."
+			'es-mx': "Durante el próximo turno de tu rival, los ataques usados por el Pokémon Defensor hacen 30 puntos de daño menos <em>(antes de aplicar Debilidad y Resistencia)</em>.",
+			pt: "Durante o próximo turno do seu oponente, os ataques usados pelo Pokémon Defensor causarão 30 pontos de dano a menos (antes de aplicar Fraqueza e Resistência)."
 		},
 
 		cost: ["Colorless"]
@@ -52,7 +56,8 @@ const card: Card = {
 			de: "Kopfnuss",
 			es: "Golpe Cabeza",
 			it: "Bottintesta",
-			'es-mx': "Golpe Cabeza"
+			'es-mx': "Golpe Cabeza",
+			pt: "Cabeçada"
 		},
 
 		damage: 10,

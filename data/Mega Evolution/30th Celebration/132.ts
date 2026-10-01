@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It's said that this Pokémon's beautiful blue wings are made of ice. Articuno flies over snowy mountains, its long tail fluttering along behind it."
+		en: "It's said that this Pokémon's beautiful blue wings are made of ice. Articuno flies over snowy mountains, its long tail fluttering along behind it.",
+		fr: "On raconte que ses belles plumes bleues sont faites de glace. Sa longue queue flotte au vent lorsqu'il vole au-dessus des monts enneigés."
 	},
 
 	name: {
@@ -14,13 +15,17 @@ const card: Card = {
 		de: "Arktos",
 		es: "Articuno",
 		it: "Articuno",
-		'es-mx': "Articuno"
+		'es-mx': "Articuno",
+		pt: "Articuno"
 	},
 
 	illustrator: "mashu",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	dexId: [144],
+
+	cameoDexIds: [145, 146],
+
 	hp: 120,
 	types: ["Water"],
 	stage: "Basic",
@@ -34,7 +39,8 @@ const card: Card = {
 			de: "Frostkaltes Flattern",
 			es: "Aleteo Helador",
 			it: "Battito d'Ali Gelido",
-			'es-mx': "Aleteo Congelante"
+			'es-mx': "Aleteo Congelante",
+			pt: "Asas Árticas"
 		},
 
 		effect: {
@@ -43,7 +49,8 @@ const card: Card = {
 			de: "Einmal während deines Zuges, wenn du Lavados und Zapdos im Spiel hast, kannst du diese Fähigkeit einsetzen. Lege 1 Basis-Water-Energiekarte aus deiner Hand an dieses Pokémon an.",
 			es: "Una vez durante tu turno, si tienes a Moltres y a Zapdos en juego, puedes usar esta habilidad. Une 1 carta de Energía Water Básica de tu mano a este Pokémon.",
 			it: "Una sola volta durante il tuo turno, se hai Moltres e Zapdos in gioco, puoi usare questa abilità. Assegna a questo Pokémon una carta Energia base Water dalla tua mano.",
-			'es-mx': "Una vez durante tu turno, si tienes Moltres y Zapdos en juego, puedes usar esta Habilidad. Une 1 carta de Energía Water Básica de tu mano a este Pokémon."
+			'es-mx': "Una vez durante tu turno, si tienes Moltres y Zapdos en juego, puedes usar esta Habilidad. Une 1 carta de Energía Water Básica de tu mano a este Pokémon.",
+			pt: "Uma vez durante o seu turno, se você tiver Moltres e Zapdos em jogo, você poderá usar esta Habilidade. Ligue uma carta de Energia Water Básica da sua mão a este Pokémon."
 		}
 	}],
 
@@ -54,7 +61,8 @@ const card: Card = {
 			de: "Hagelsturm",
 			es: "Granizo",
 			it: "Grandine",
-			'es-mx': "Granizo"
+			'es-mx': "Granizo",
+			pt: "Granizo"
 		},
 
 		effect: {
@@ -63,7 +71,8 @@ const card: Card = {
 			de: "Diese Attacke fügt jedem Pokémon deines Gegners 30 Schadenspunkte zu. <em>(Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)</em>",
 			es: "Este ataque hace 30 puntos de daño a cada uno de los Pokémon de tu rival. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca)</em>.",
 			it: "Questo attacco infligge 30 danni a ciascuno dei Pokémon del tuo avversario. <em>Non applicare debolezza e resistenza ai Pokémon in panchina</em>.",
-			'es-mx': "Este ataque hace 30 puntos de daño a cada uno de los Pokémon de tu rival. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca).</em>"
+			'es-mx': "Este ataque hace 30 puntos de daño a cada uno de los Pokémon de tu rival. <em>(No apliques Debilidad y Resistencia a los Pokémon en Banca).</em>",
+			pt: "Este ataque causa 30 pontos de dano a cada um dos Pokémon do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
 		},
 
 		cost: ["Water", "Water", "Colorless"]

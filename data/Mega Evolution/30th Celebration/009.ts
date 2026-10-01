@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "As its body grows larger, its six warm tails become more beautiful, with a more luxurious coat of fur."
+		en: "As its body grows larger, its six warm tails become more beautiful, with a more luxurious coat of fur.",
+		fr: "Ses six queues dégagent de la chaleur. Quand Goupix grandit, elles embellissent et leur fourrure devient plus épaisse."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Vulpix",
 		es: "Vulpix",
 		it: "Vulpix",
-		'es-mx': "Vulpix"
+		'es-mx': "Vulpix",
+		pt: "Vulpix"
 	},
 
 	illustrator: "miki kudo",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Stürmischer Kick",
 			es: "Patada Salvaje",
 			it: "Calcio Selvaggio",
-			'es-mx': "Patada Salvaje"
+			'es-mx': "Patada Salvaje",
+			pt: "Chute sem Pontaria"
 		},
 
 		effect: {
@@ -41,7 +44,8 @@ const card: Card = {
 			de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen.",
 			es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
 			it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
-			'es-mx': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada."
+			'es-mx': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			pt: "Jogue uma moeda. Se sair coroa, este ataque não fará nada."
 		},
 
 		damage: 30,

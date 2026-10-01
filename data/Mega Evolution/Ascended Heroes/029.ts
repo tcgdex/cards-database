@@ -49,6 +49,7 @@ const card: Card = {
 
 	description: {
 		en: "It can deftly dodge its foe’s attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
+		fr: "Il évite agilement les attaques ennemies et lance des boules de feu par le groin. Il aime griller des Baies pour les manger.",
 		de: "Es weicht flink gegnerischen Angriffen aus und schießt Feuerbälle aus seinem Rüssel. Bevor es Beeren verspeist, röstet es sie mit Flammen."
 	},
 

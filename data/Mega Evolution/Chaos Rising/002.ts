@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Almost incapable of moving, this Pokémon can only harden its shell to protect itself when it is in danger.",
+		fr: "Presque incapable de se déplacer par ses propres moyens, il se protège en durcissant sa carapace quand il est en danger.",
 		de: "Dieses Pokémon kann sich zwar kaum bewegen, aber bei drohender Gefahr scheint es sich zu seinem Schutz zu verhärten."
 	},
 

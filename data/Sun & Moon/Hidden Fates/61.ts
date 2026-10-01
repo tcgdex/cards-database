@@ -13,15 +13,7 @@ const card: Card = {
 
 	set: Set,
 
-
-
-
-
-
-
-
-
-
+	cameoDexIds: [7, 72, 87, 98, 118, 120, 121],
 
 	effect: {
 		fr: "Les attaques des Staross-GX (les vôtres et ceux de votre adversaire) infligent 40 dégâts supplémentaires au Pokémon Actif de l’adversaire (avant application de la Faiblesse et de la Résistance).",

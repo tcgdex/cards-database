@@ -18,6 +18,9 @@ const card: Card = {
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	dexId: [609],
+
+	cameoDexIds: [609],
+
 	hp: 350,
 	types: ["Psychic"],
 
@@ -28,7 +31,7 @@ const card: Card = {
 	},
 
 	stage: "Stage2",
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [{
 		type: "Ability",

@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "A single cry from this nocturnal Pokémon, and more than 100 of its Murkrow cronies will assemble.",
+		fr: "D'un simple croassement, ce Pokémon nocturne peut rassembler une centaine de ses sbires, les Cornèbre.",
 		de: "Dieses nachtaktive Pokémon kann mit einem einzigen Ruf über 100 seiner untergebenen Kramurx versammeln."
 	},
 

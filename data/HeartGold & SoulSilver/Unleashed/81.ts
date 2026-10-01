@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [455],
+
 	effect: {
 		fr: "Votre adversaire échange son Pokémon Actif avec l’un des Pokémon de son Banc.",
 		en: "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",

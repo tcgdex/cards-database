@@ -6,6 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Mew",
+		fr: "Mew",
+		es: "Mew",
 	},
 
 	illustrator: "Cona Nitanda",
@@ -21,10 +23,14 @@ const card: Card = {
 
 		name: {
 			en: "Psychic",
+			fr: "Psyko",
+			es: "Psíquico",
 		},
 
 		effect: {
 			en: "This attack does 40 more damage for each Energy attached to your opponent's Active Pokémon.",
+			fr: "Cette attaque inflige 40 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Actif de votre adversaire.",
+			es: "Este ataque hace 40 puntos de daño más por cada Energía unida al Pokémon Activo de tu rival.",
 		},
 
 		damage: "10+"

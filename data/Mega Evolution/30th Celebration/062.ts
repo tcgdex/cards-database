@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "This seems to be the Iron Serpent mentioned in an old book. The Iron Serpent is said to have turned the land to ash with its lightning."
+		en: "This seems to be the Iron Serpent mentioned in an old book. The Iron Serpent is said to have turned the land to ash with its lightning.",
+		fr: "Il semble être le « Serpent-de-Fer » mentionné dans un livre ancien. Il aurait réduit la terre en cendres en la foudroyant."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Miraidon",
 		es: "Miraidon",
 		it: "Miraidon",
-		'es-mx': "Miraidon"
+		'es-mx': "Miraidon",
+		pt: "Miraidon"
 	},
 
 	illustrator: "Kazumasa Yasukuni",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Flotter Sprung",
 			es: "Rayo Mach",
 			it: "Fulmine Mach",
-			'es-mx': "Superrayo"
+			'es-mx': "Superrayo",
+			pt: "Raio Supersônico"
 		},
 
 		damage: 20,
@@ -44,7 +47,8 @@ const card: Card = {
 			de: "Blitztour",
 			es: "Electroderrape",
 			it: "Fulmiscatto",
-			'es-mx': "Electroderrape"
+			'es-mx': "Electroderrape",
+			pt: "Derrapada Elétrica"
 		},
 
 		effect: {
@@ -53,7 +57,8 @@ const card: Card = {
 			de: "Lege 2 <span class=\"energy-symbol Lightning\" title=\"Elektro\">Lightning</span>-Energien von diesem Pokémon auf deinen Ablagestapel.",
 			es: "Descarta 2 Energías <span class=\"energy-symbol Lightning\" title=\"Rayo\">Lightning</span> de este Pokémon.",
 			it: "Scarta due Energie <span class=\"energy-symbol Lightning\" title=\"Lampo\">Lightning</span> da questo Pokémon.",
-			'es-mx': "Descarta 2 Energías <span class=\"energy-symbol Lightning\" title=\"Rayo\">Lightning</span> de este Pokémon."
+			'es-mx': "Descarta 2 Energías <span class=\"energy-symbol Lightning\" title=\"Rayo\">Lightning</span> de este Pokémon.",
+			pt: "Descarte 2 Energias Lightning deste Pokémon."
 		},
 
 		damage: 140,

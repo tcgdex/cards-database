@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "A once-departed soul, returned to life in Hisui. Derives power from resentment, which rises as energy atop its head and takes on the forms of foes. In this way, Zorua vents lingering malice."
+		en: "A once-departed soul, returned to life in Hisui. Derives power from resentment, which rises as energy atop its head and takes on the forms of foes. In this way, Zorua vents lingering malice.",
+		fr: "Zorua serait une âme disparue, ressuscitée à Hisui. Sa rancœur émane sous forme d'énergie au-dessus de sa tête, puis adopte l'apparence de ses ennemis, et finit par se dissiper."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Hisui-Zorua",
 		es: "Zorua de Hisui",
 		it: "Zorua di Hisui",
-		'es-mx': "Zorua de Hisui"
+		'es-mx': "Zorua de Hisui",
+		pt: "Zorua de Hisui"
 	},
 
 	illustrator: "0313",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Kratzer",
 			es: "Arañazo",
 			it: "Graffio",
-			'es-mx': "Arañazo"
+			'es-mx': "Arañazo",
+			pt: "Arranhão"
 		},
 
 		damage: 20,

@@ -49,6 +49,7 @@ const card: Card = {
 
 	description: {
 		en: "Its lava body can cool and chip away at times, but a magma bath will heal it right up.",
+		fr: "Lorsqu'il se refroidit, son corps constitué de lave peut parfois se fissurer. Il lui suffit alors de s'immerger dans le magma pour se régénérer.",
 		de: "Es kommt vor, dass sein Lavakörper zu bröckeln beginnt, wenn er auskühlt. Badet es in Magma, regeneriert es sich aber wieder."
 	},
 

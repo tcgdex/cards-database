@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [84],
+
 	effect: {
 		en: "Flip a coin. If tails, do 10 damage to your Active Pokémon. If heads, your opponent flips a coin. If tails, your opponent does 10 damage to his or her Active Pokémon. If heads, you flip a coin. Keep doing this until a player gets tails.",
 		fr: "Lancez une pièce. Si c'est pile, infligez 10 dégâts à votre Pokémon Actif. Si c'est face, votre adversaire lance une pièce. Si c'est pile, votre adversaire inflige 10 dégâts à son Pokémon Actif. Si c'est face, vous lancez une pièce. Continuez ainsi jusqu'à ce que l'un des joueurs obtienne pile.",

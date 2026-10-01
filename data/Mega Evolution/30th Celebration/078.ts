@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "This Pokémon came from another universe. Its gaseous body is so light that even a gentle breeze can blow it away."
+		en: "This Pokémon came from another universe. Its gaseous body is so light that even a gentle breeze can blow it away.",
+		fr: "Il vient d'un autre univers. Son corps gazeux est si léger que la moindre brise peut l'emporter."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Cosmog",
 		es: "Cosmog",
 		it: "Cosmog",
-		'es-mx': "Cosmog"
+		'es-mx': "Cosmog",
+		pt: "Cosmog"
 	},
 
 	illustrator: "Mina Nakai",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Platscher",
 			es: "Salpicadura",
 			it: "Splash",
-			'es-mx': "Salpicadura"
+			'es-mx': "Salpicadura",
+			pt: "Borrifada"
 		},
 
 		damage: 10,

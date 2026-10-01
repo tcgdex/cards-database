@@ -4,6 +4,8 @@ import Set from "../Paldea Evolved"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [81],
+
 	name: {
 		fr: "Mashynn",
 		en: "Iono",

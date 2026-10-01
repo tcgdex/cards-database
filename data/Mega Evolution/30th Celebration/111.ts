@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It fires itself up by striking its scales with force as it dances. Its roar is a battle cry."
+		en: "It fires itself up by striking its scales with force as it dances. Its roar is a battle cry.",
+		fr: "Il danse en frappant violemment ses écailles, ce qui le galvanise. Son cri de guerre signale qu'il est sur le point d'engager le combat."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Mediras",
 		es: "Hakamo-o",
 		it: "Hakamo-o",
-		'es-mx': "Hakamo-o"
+		'es-mx': "Hakamo-o",
+		pt: "Hakamo-o"
 	},
 
 	illustrator: "Jiro Sasumo",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Scharfe Fänge",
 			es: "Colmillo Afilado",
 			it: "Zannaffilata",
-			'es-mx': "Colmillo Afilado"
+			'es-mx': "Colmillo Afilado",
+			pt: "Presa Afiada"
 		},
 
 		damage: 20,
@@ -44,7 +47,8 @@ const card: Card = {
 			de: "Drachenklaue",
 			es: "Garra Dragón",
 			it: "Dragartigli",
-			'es-mx': "Garra Dragón"
+			'es-mx': "Garra Dragón",
+			pt: "Garra de Dragão"
 		},
 
 		damage: 70,

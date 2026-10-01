@@ -4,6 +4,8 @@ import Set from "../Mega Evolution"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [280],
+
 	name: {
 		en: "Mystery Garden",
 		fr: "Jardin Mystère",

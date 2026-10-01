@@ -83,6 +83,7 @@ const card: Card = {
 
 	description: {
 		en: "Covered by a shaggy coat, it is resistant to the cold. Its tusks of ice thicken when it snows.",
+		fr: "Sa longue et épaisse fourrure le protège du froid. Ses défenses de glace deviennent plus épaisses quand il neige.",
 		de: "Durch sein langes Fell ist es resistent gegen Kälte. Seine Stoßzähne aus Eis werden dicker, wenn es schneit."
 	},
 

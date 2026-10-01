@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "To protect themselves from danger, they hide their true identities by transforming into people and Pokémon."
+		en: "To protect themselves from danger, they hide their true identities by transforming into people and Pokémon.",
+		fr: "Il peut se transformer en être humain ou en d'autres Pokémon. Il se protège du danger en dissimulant sa véritable identité."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Zorua",
 		es: "Zorua",
 		it: "Zorua",
-		'es-mx': "Zorua"
+		'es-mx': "Zorua",
+		pt: "Zorua"
 	},
 
 	illustrator: "Atsuya Uki",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Fänge der Dunkelheit",
 			es: "Colmillo de Oscuridad",
 			it: "Oscurizanna",
-			'es-mx': "Colmillo de Oscuridad"
+			'es-mx': "Colmillo de Oscuridad",
+			pt: "Presa Sombria"
 		},
 
 		damage: 40,

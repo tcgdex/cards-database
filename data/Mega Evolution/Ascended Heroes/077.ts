@@ -65,6 +65,7 @@ const card: Card = {
 
 	description: {
 		en: "Using telepathy only fellow Exeggcute can pick up on, they always form a cluster of six.",
+		fr: "En utilisant un pouvoir télépathique que seuls les Noeunoeuf perçoivent, ses six têtes peuvent rester groupées en toutes circonstances.",
 		de: "Die Köpfe nutzen untereinander Telepathie, die nur sie wahrnehmen können, um stets eine Gruppe von sechs Exemplaren zu bilden."
 	},
 

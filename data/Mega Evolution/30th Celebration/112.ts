@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It bashes its scales to test its opponents' mettle. The sound of struck Kommo-o scales frightens weaker foes and sends them running."
+		en: "It bashes its scales to test its opponents' mettle. The sound of struck Kommo-o scales frightens weaker foes and sends them running.",
+		fr: "Il met à l'épreuve la bravoure de ses adversaires en entrechoquant ses écailles. Ce son suffit à faire déguerpir les plus faibles."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Grandiras",
 		es: "Kommo-o",
 		it: "Kommo-o",
-		'es-mx': "Kommo-o"
+		'es-mx': "Kommo-o",
+		pt: "Kommo-o"
 	},
 
 	illustrator: "MARINA Chikazawa",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Lodernder Kinnhaken",
 			es: "Gancho Abrasador",
 			it: "Montante Divampante",
-			'es-mx': "Uppercut Implacable"
+			'es-mx': "Uppercut Implacable",
+			pt: "Gancho Flamejante"
 		},
 
 		damage: 250,

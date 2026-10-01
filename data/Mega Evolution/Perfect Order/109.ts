@@ -4,6 +4,8 @@ import Set from "../Perfect Order"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [664],
+
 	name: {
 		en: "Forest of Vitality",
 		fr: "Forêt de Vitalité",

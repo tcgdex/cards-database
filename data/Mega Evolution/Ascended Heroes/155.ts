@@ -77,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "When the interior part of its tail spins like a motor, Zekrom can generate many bolts of lightning to blast its surroundings.",
+		fr: "Lorsque sa queue se met à tourner comme un réacteur, il produit des éclairs qui transpercent tout autour de lui.",
 		de: "Rotiert das Innere seines Schweifs wie eine Turbine, werden dadurch unzählige Blitze erzeugt, welche die Umgebung durchzucken."
 	},
 

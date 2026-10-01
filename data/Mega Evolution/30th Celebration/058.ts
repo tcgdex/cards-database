@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "This selfish, attention-seeking Pokémon stores poison and electricity in two different sacs inside its body."
+		en: "This selfish, attention-seeking Pokémon stores poison and electricity in two different sacs inside its body.",
+		fr: "Ce Pokémon égoïste aime l'attention. Son corps contient deux poches qui lui permettent d'emmagasiner du poison et de l'électricité."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Toxel",
 		es: "Toxel",
 		it: "Toxel",
-		'es-mx': "Toxel"
+		'es-mx': "Toxel",
+		pt: "Toxel"
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Ramme",
 			es: "Apisonar",
 			it: "Carica",
-			'es-mx': "Colisión"
+			'es-mx': "Colisión",
+			pt: "Aríete"
 		},
 
 		damage: 10,

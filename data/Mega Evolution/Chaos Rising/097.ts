@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "Using luminescent matter within its body, it makes its eyes and body glow and stuns attacking opponents.",
+		fr: "Il intimide ses assaillants en faisant briller son pelage et ses yeux grâce à une substance luminescente dans son corps.",
 		de: "Mit einer körpereigenen Leuchtsubstanz lässt es seine Augen und die Markierungen an seinem Körper aufleuchten. Dies schreckt seine Angreifer ab."
 	},
 

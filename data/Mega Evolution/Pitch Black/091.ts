@@ -18,6 +18,9 @@ const card: Card = {
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	dexId: [781],
+
+	cameoDexIds: [353, 354, 983, 1012, 1013],
+
 	hp: 140,
 	types: ["Psychic"],
 	stage: "Basic",

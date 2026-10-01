@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [143],
+
 	effect: {
 		en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 		fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",

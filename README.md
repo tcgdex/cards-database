@@ -61,9 +61,12 @@ _[Support us as a sponsor](https://github.com/sponsors/tcgdex) and have your log
   <a href="https://folio.fyi" target="_blank" title="Dzeio">
     <img height="128" width="32%" src="./.github/sponsors/folio.svg" alt="TCGdex Sponsor Folio.fyi" />
   </a>
+  <a href="https://www.ripcompass.com/" target="_blank" title="Dzeio">
+    <img height="128" width="32%" src="./.github/sponsors/ripcompass.svg" alt="TCGdex Sponsor RipCompass" />
+  </a>
 </p>
 
-<p align="left">
+<p align="center">
   <a href="https://cardcodex.com/" target="_blank" title="Card-Codex"><img height="80" width="19%" src="./.github/sponsors/cardcodex.svg" alt="TCGdex Sponsor Card-Codex" /></a>
   <a href="https://ninthpocket.com/" target="_blank" title="ninthpocket.com"><img height="80" width="19%" src="./.github/sponsors/ninthpocket.svg" alt="TCGdex Sponsor ninthpocket.com" /></a>
   <a href="https://pcc-grading.com/" target="blank" title="pcc-grading.com"><img height="80" width="19%" src="./.github/sponsors/pcc.svg" alt="TCGdex Sponsor PCC Grading" /></a>

@@ -4,6 +4,8 @@ import Set from "../SVP Black Star Promos"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [25, 54, 131, 906, 909, 912, 925],
+
 	name: {
 		en: "Paradise Resort",
 		fr: "Hôtel \" Au paradis des Pokémon \"",

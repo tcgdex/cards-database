@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "After absorbing plenty of sunlight, Cherrim takes this form. It's full of energy while it's like this, and its liveliness will go on until sundown."
+		en: "After absorbing plenty of sunlight, Cherrim takes this form. It's full of energy while it's like this, and its liveliness will go on until sundown.",
+		fr: "Il prend cette forme lorsqu'il a fait le plein de soleil. Il déborde alors d'énergie et reste très actif jusqu'au crépuscule."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Kinoso",
 		es: "Cherrim",
 		it: "Cherrim",
-		'es-mx': "Cherrim"
+		'es-mx': "Cherrim",
+		pt: "Cherrim"
 	},
 
 	illustrator: "takashi shiraishi",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Energiegabe",
 			es: "Regalo de Energía",
 			it: "Donergia",
-			'es-mx': "Regalo de Energía"
+			'es-mx': "Regalo de Energía",
+			pt: "Presente de Energia"
 		},
 
 		effect: {
@@ -41,7 +44,8 @@ const card: Card = {
 			de: "Durchsuche dein Deck nach bis zu 2 Basis-Energiekarten und lege sie beliebig an deine Pokémon an. Mische anschließend dein Deck.",
 			es: "Busca en tu baraja hasta 2 cartas de Energía Básica y únelas a tus Pokémon de la manera que desees. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo fino a due carte Energia base e assegnale ai tuoi Pokémon nel modo che preferisci. Poi rimischia il tuo mazzo.",
-			'es-mx': "Busca en tu mazo hasta 2 cartas de Energía Básica y únelas a tus Pokémon de la manera que quieras. Después, baraja tu mazo."
+			'es-mx': "Busca en tu mazo hasta 2 cartas de Energía Básica y únelas a tus Pokémon de la manera que quieras. Después, baraja tu mazo.",
+			pt: "Procure por até 2 cartas de Energia Básica no seu baralho e ligue-as aos seus Pokémon como desejar. Em seguida, embaralhe o seu baralho."
 		},
 
 		cost: ["Colorless"]
@@ -52,7 +56,8 @@ const card: Card = {
 			de: "Blattwerk",
 			es: "Follaje",
 			it: "Fogliame",
-			'es-mx': "Follaje"
+			'es-mx': "Follaje",
+			pt: "Folhagem"
 		},
 
 		damage: 50,

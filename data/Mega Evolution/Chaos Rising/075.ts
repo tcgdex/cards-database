@@ -4,6 +4,7 @@ import Set from "../Chaos Rising"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [670],
 
 	name: {
 		en: "Ange Floette",

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It's said that Hydreigon grew ferocious because people in times long past loathed it, considering it to be evil incarnate and attacking it relentlessly."
+		en: "It's said that Hydreigon grew ferocious because people in times long past loathed it, considering it to be evil incarnate and attacking it relentlessly.",
+		fr: "Il serait devenu brutal à cause des êtres humains, qui le considéraient jadis comme le mal incarné et s'en prenaient sans cesse à lui."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Trikephalo",
 		es: "Hydreigon",
 		it: "Hydreigon",
-		'es-mx': "Hydreigon"
+		'es-mx': "Hydreigon",
+		pt: "Hydreigon"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Dreiköpfiger Biss",
 			es: "Mordisco Tritesta",
 			it: "Morso Tricefalo",
-			'es-mx': "Mordida Tricéfala"
+			'es-mx': "Mordida Tricéfala",
+			pt: "Mordida Tricéfala"
 		},
 
 		effect: {
@@ -41,7 +44,8 @@ const card: Card = {
 			de: "Wirf 3 Münzen. Lege pro Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel.",
 			es: "Lanza 3 monedas. Por cada cara, descarta 1 Energía del Pokémon Activo de tu rival.",
 			it: "Lancia tre volte una moneta. Ogni volta che esce testa, scarta un'Energia dal Pokémon attivo del tuo avversario.",
-			'es-mx': "Lanza 3 monedas. Por cada cara, descarta 1 Energía del Pokémon Activo de tu rival."
+			'es-mx': "Lanza 3 monedas. Por cada cara, descarta 1 Energía del Pokémon Activo de tu rival.",
+			pt: "Jogue 3 moedas. Para cada cara, descarte uma Energia do Pokémon Ativo do seu oponente."
 		},
 
 		cost: ["Darkness"]
@@ -52,7 +56,8 @@ const card: Card = {
 			de: "Pechschwarze Fänge",
 			es: "Colmillos Azabaches",
 			it: "Zanne Buiopesto",
-			'es-mx': "Colmillos Umbríos"
+			'es-mx': "Colmillos Umbríos",
+			pt: "Presas do Breu"
 		},
 
 		damage: 140,

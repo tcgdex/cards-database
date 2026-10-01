@@ -4,6 +4,8 @@ import Set from "../Pitch Black"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [607, 609],
+
 	name: {
 		en: "Gwynn",
 		fr: "Albia",

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It has small electric sacs on both its cheeks. When in a tough spot, this Pokémon discharges electricity."
+		en: "It has small electric sacs on both its cheeks. When in a tough spot, this Pokémon discharges electricity.",
+		fr: "Ce Pokémon a de petites poches pleines d'électricité sur les joues. S'il se sent menacé, il laisse s'échapper des décharges électriques."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Pikachu",
 		es: "Pikachu",
 		it: "Pikachu",
-		'es-mx': "Pikachu"
+		'es-mx': "Pikachu",
+		pt: "Pikachu"
 	},
 
 	illustrator: "USGMEN",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Pikakette",
 			es: "Pika Cadena",
 			it: "Pika Catena",
-			'es-mx': "Pikalazo"
+			'es-mx': "Pikalazo",
+			pt: "Corrente Pikachu 40×"
 		},
 
 		effect: {
@@ -41,7 +44,8 @@ const card: Card = {
 			de: "Diese Attacke fügt für jedes deiner Pikachu und Pikachu-<em>ex</em> im Spiel 40 Schadenspunkte zu.",
 			es: "Este ataque hace 40 puntos de daño por cada uno de tus Pikachu y Pikachu <em>ex</em> en juego.",
 			it: "Questo attacco infligge 40 danni per ciascuno dei tuoi Pikachu e Pikachu-<em>ex</em> in gioco.",
-			'es-mx': "Este ataque hace 40 puntos de daño por cada uno de tus Pikachu y Pikachu <em>ex</em> en juego."
+			'es-mx': "Este ataque hace 40 puntos de daño por cada uno de tus Pikachu y Pikachu <em>ex</em> en juego.",
+			pt: "Este ataque causa 40 pontos de dano para cada um dos seus Pikachu e Pikachu ex em jogo."
 		},
 
 		damage: "40×",

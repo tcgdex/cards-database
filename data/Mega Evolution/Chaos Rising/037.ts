@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "When in danger, it raises its ears and releases enough psychic power to grind a 10-ton truck into dust.",
+		fr: "S'il se sent menacé, il lève les oreilles et déchaîne des pouvoirs psychiques capables de broyer un camion de 10 tonnes.",
 		de: "In Gefahrensituationen hebt es seine Ohren an und setzt Psycho-Kräfte frei, die einen 10 t schweren LKW zu Schrott verarbeiten können."
 	},
 

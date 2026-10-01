@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It wanders around, carrying an old coin on its back. It survives by draining the life-force from humans who try to pick up its coin."
+		en: "It wanders around, carrying an old coin on its back. It survives by draining the life-force from humans who try to pick up its coin.",
+		fr: "Ce Pokémon erre en portant une vieille pièce sur son dos. Il aspire la vitalité des personnes qui tentent de la ramasser."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Gierspenst",
 		es: "Gimmighoul",
 		it: "Gimmighoul",
-		'es-mx': "Gimmighoul"
+		'es-mx': "Gimmighoul",
+		pt: "Gimmighoul"
 	},
 
 	illustrator: "Fujimoto Gold",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Spaziergier",
 			es: "Caminata",
 			it: "In Lungo e in Largo",
-			'es-mx': "Larga Caminata"
+			'es-mx': "Larga Caminata",
+			pt: "Bater Perna"
 		},
 
 		effect: {
@@ -41,7 +44,8 @@ const card: Card = {
 			de: "Wirf 1 Münze. Durchsuche bei Kopf dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck.",
 			es: "Lanza 1 moneda. Si sale cara, busca en tu baraja 1 carta y ponla en tu mano. Después, baraja las cartas de tu baraja.",
 			it: "Lancia una moneta. Se esce testa, cerca nel tuo mazzo una carta e aggiungila a quelle che hai in mano. Poi rimischia il tuo mazzo.",
-			'es-mx': "Lanza 1 moneda. Si sale cara, busca en tu mazo 1 carta y ponla en tu mano. Después, baraja tu mazo."
+			'es-mx': "Lanza 1 moneda. Si sale cara, busca en tu mazo 1 carta y ponla en tu mano. Después, baraja tu mazo.",
+			pt: "Jogue uma moeda. Se sair cara, procure por uma carta no seu baralho e coloque-a na sua mão. Em seguida, embaralhe o seu baralho."
 		},
 
 		cost: ["Colorless"]

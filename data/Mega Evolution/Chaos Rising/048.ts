@@ -29,7 +29,7 @@ const card: Card = {
 	},
 
 	stage: "Stage2",
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [{
 		name: {

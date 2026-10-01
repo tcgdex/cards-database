@@ -4,6 +4,8 @@ import Set from "../Scarlet & Violet"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [943],
+
 	name: {
 		en: "Arven",
 		fr: "Pepper",

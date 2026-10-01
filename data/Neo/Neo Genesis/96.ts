@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [155],
+
 	effect: {
 		en: "Shuffle your hand into your deck. Then, draw 7 cards. You can't play any more Trainer cards this turn.",
 		fr: "Mélangez votre main avec votre deck. Ensuite, piochez 7 cartes. Vous ne pouvez plus jouer de cartes Dresseur pendant ce tour.",

@@ -11,6 +11,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [54],
+
 	effect: {
 		en: "Look at the top 7 cards of your deck. Choose 2 of those cards and put them into your hand. Discard the rest."
 	},
@@ -33,4 +35,3 @@ const card: Card = {
 }
 
 export default card
-

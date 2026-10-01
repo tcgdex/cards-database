@@ -55,6 +55,7 @@ const card: Card = {
 
 	description: {
 		en: "Its healthy appetite leads to visible growth spurts. It often has to replace the bones it wears as its size increases.",
+		fr: "Son gros appétit entraîne des poussées de croissance rapides. Il doit donc régulièrement changer le crâne qui lui sert de couche.",
 		de: "Durch seinen ständigen Appetit hat Skallyk fortlaufend Wachstumsschübe. Deshalb muss es seine Schädelwindel immerzu auswechseln."
 	},
 

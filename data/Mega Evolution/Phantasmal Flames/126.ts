@@ -14,10 +14,15 @@ const card: Card = {
 		pt: "Rotom ex"
 	},
 
+	suffix: "ex",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
 
 	dexId: [479],
+
+
+	cameoDexIds: [479],
+
 	hp: 190,
 	types: ["Lightning"],
 	stage: "Basic",

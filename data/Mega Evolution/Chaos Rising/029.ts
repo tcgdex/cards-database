@@ -6,6 +6,7 @@ const card: Card = {
 
 	description: {
 		en: "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
+		fr: "Le bout de sa queue brille si intensément qu'il est visible de très loin. Il sert de balise aux personnes égarées.",
 		de: "Seine Schwanzspitze leuchtet hell. Ihr Licht ist von Weitem zu sehen und dient all jenen, die sich verirrt haben, als Orientierungspunkt."
 	},
 

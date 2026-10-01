@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "Able to understand human speech and very intelligent, it loves to swim in the sea with people on its back."
+		en: "Able to understand human speech and very intelligent, it loves to swim in the sea with people on its back.",
+		fr: "Ce Pokémon très intelligent comprend le langage humain. Il adore parcourir les mers avec des gens sur le dos."
 	},
 
 	name: {
@@ -14,13 +15,17 @@ const card: Card = {
 		de: "Lapras",
 		es: "Lapras",
 		it: "Lapras",
-		'es-mx': "Lapras"
+		'es-mx': "Lapras",
+		pt: "Lapras"
 	},
 
 	illustrator: "Amelicart",
 	rarity: "Illustration rare",
 	category: "Pokemon",
 	dexId: [131],
+
+	cameoDexIds: [54, 363, 492],
+
 	hp: 130,
 	types: ["Water"],
 	stage: "Basic",
@@ -32,7 +37,8 @@ const card: Card = {
 			de: "Fährfahrt",
 			es: "Travesía en Ferry",
 			it: "Dorsotrasporto",
-			'es-mx': "Nadotransporte"
+			'es-mx': "Nadotransporte",
+			pt: "Travessia de Barca"
 		},
 
 		effect: {
@@ -41,7 +47,8 @@ const card: Card = {
 			de: "Durchsuche dein Deck nach 1 Unterstützerkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
 			es: "Busca en tu baraja 1 carta de Partidario, enséñala y ponla en tu mano. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo una carta Aiuto, mostrala e aggiungila alle carte che hai in mano. Poi rimischia il tuo mazzo.",
-			'es-mx': "Busca en tu mazo 1 carta de Partidario, muéstrala y ponla en tu mano. Después, baraja tu mazo."
+			'es-mx': "Busca en tu mazo 1 carta de Partidario, muéstrala y ponla en tu mano. Después, baraja tu mazo.",
+			pt: "Procure por uma carta de Apoiador no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho."
 		},
 
 		cost: ["Colorless"]
@@ -52,7 +59,8 @@ const card: Card = {
 			de: "Eisstrahl",
 			es: "Rayo Hielo",
 			it: "Geloraggio",
-			'es-mx': "Rayo de Hielo"
+			'es-mx': "Rayo de Hielo",
+			pt: "Raio Congelante"
 		},
 
 		effect: {
@@ -61,7 +69,8 @@ const card: Card = {
 			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
 			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			'es-mx': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival ahora está Paralizado."
+			'es-mx': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival ahora está Paralizado.",
+			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado."
 		},
 
 		damage: 80,

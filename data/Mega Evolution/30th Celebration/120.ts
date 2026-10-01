@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	description: {
-		en: "It likes to sing but is not yet good at it. With praise and encouragement, it will get better little by little."
+		en: "It likes to sing but is not yet good at it. With praise and encouragement, it will get better little by little.",
+		fr: "Ce Pokémon adore chanter, mais il n'est pas encore très doué. Il s'améliore progressivement si on le complimente suffisamment."
 	},
 
 	name: {
@@ -14,7 +15,8 @@ const card: Card = {
 		de: "Fluffeluff",
 		es: "Igglybuff",
 		it: "Igglybuff",
-		'es-mx': "Igglybuff"
+		'es-mx': "Igglybuff",
+		pt: "Igglybuff"
 	},
 
 	illustrator: "Kanami Ogata",
@@ -32,7 +34,8 @@ const card: Card = {
 			de: "Hüpfkreis",
 			es: "Círculo Elástico",
 			it: "Cerchio Elastico",
-			'es-mx': "Círculo Rebotón"
+			'es-mx': "Círculo Rebotón",
+			pt: "Círculo Saltitante 30×"
 		},
 
 		effect: {
@@ -41,7 +44,8 @@ const card: Card = {
 			de: "Diese Attacke fügt für jedes Pokémon auf deiner Bank, das ein Maximum von<strong> </strong>30 KP hat, 30 Schadenspunkte zu.",
 			es: "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon en Banca cuyos PS máximos sean 30.",
 			it: "Questo attacco infligge 30 danni per ciascuno dei Pokémon nella tua panchina i cui PS massimi sono 30.",
-			'es-mx': "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon en Banca cuyos PS máximos sean 30."
+			'es-mx': "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon en Banca cuyos PS máximos sean 30.",
+			pt: "Este ataque causa 30 pontos de dano para cada um dos seus Pokémon no Banco que tem um PS máximo de 30."
 		},
 
 		damage: "30×"
