@@ -23,7 +23,7 @@ const card: Card = {
 	types: ["Dark", "Psychic"],
 	stage: "Basic",
 	suffix: "Legend",
-	retreat: 2,
+	retreat: 0,
 	variants: [
 		{
 			type: "holo",
