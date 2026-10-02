@@ -16,11 +16,11 @@ const card: Card = {
 		'es-mx': "Darkrai & Cresselia LEYENDA"
 	},
 
-	illustrator: "Shinji Higuchi",
+	illustrator: "Shinji Higuchi + Noriko Takaya",
 	rarity: "None",
 	category: "Pokemon",
 	hp: 150,
-	types: ["Psychic"],
+	types: ["Dark", "Psychic"],
 	stage: "Basic",
 	suffix: "Legend",
 
@@ -72,7 +72,11 @@ const card: Card = {
 	}],
 
 	weaknesses: [{
-		type: "Psychic"
+		type: "Fighting",
+		value: "x2"
+	},{
+		type: "Psychic",
+		value: "x2"
 	}],
 
 	retreat: 2,
