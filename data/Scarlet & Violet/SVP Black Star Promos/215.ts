@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Lightning","Lightning","Colorless"],
 			name: {
-				en: "Stumming Thunder",
+				en: "Strumming Thunder",
 			},
 			effect: {
 				en:	"Discard 2 Energy from this Pokémon."
