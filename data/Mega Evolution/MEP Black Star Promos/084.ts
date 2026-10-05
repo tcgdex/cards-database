@@ -71,6 +71,13 @@ const card: Card = {
 
 			}
 		},
+		{
+			type: "holo",
+			stamp: ["staff"],
+			thirdParty: {
+				cardmarket: 903007
+			}
+		}
 	],
 }
 
