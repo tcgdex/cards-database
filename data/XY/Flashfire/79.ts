@@ -3,12 +3,12 @@ import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "M Kangaskhan EX",
-		fr: "M-Kangourex EX",
-		es: "M-Kangaskhan EX",
-		it: "M Kangaskhan EX",
-		pt: "M-Kangaskhan EX",
-		de: "M-Kangama EX"
+		en: "M Kangaskhan-EX",
+		fr: "M-Kangourex-EX",
+		es: "M-Kangaskhan-EX",
+		it: "M Kangaskhan-EX",
+		pt: "M-Kangaskhan-EX",
+		de: "M-Kangama-EX"
 	},
 
 	illustrator: "5ban Graphics",

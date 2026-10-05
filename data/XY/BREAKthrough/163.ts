@@ -3,12 +3,12 @@ import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Mewtwo EX",
-		fr: "Mewtwo EX",
-		es: "Mewtwo EX",
-		it: "Mewtwo EX",
-		pt: "Mewtwo EX",
-		de: "Mewtu EX"
+		en: "Mewtwo-EX",
+		fr: "Mewtwo-EX",
+		es: "Mewtwo-EX",
+		it: "Mewtwo-EX",
+		pt: "Mewtwo-EX",
+		de: "Mewtu-EX"
 	},
 
 	illustrator: "Mitsuhiro Arita",

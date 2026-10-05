@@ -3,12 +3,12 @@ import Set from '../Evolutions'
 
 const card: Card = {
 	name: {
-		en: "M Slowbro EX",
-		fr: "M-Flagadoss EX",
-		es: "M-Slowbro EX",
-		it: "M Slowbro EX",
-		pt: "M-Slowbro EX",
-		de: "M-Lahmus EX"
+		en: "M Slowbro-EX",
+		fr: "M-Flagadoss-EX",
+		es: "M-Slowbro-EX",
+		it: "M Slowbro-EX",
+		pt: "M-Slowbro-EX",
+		de: "M-Lahmus-EX"
 	},
 
 	illustrator: "5ban Graphics",

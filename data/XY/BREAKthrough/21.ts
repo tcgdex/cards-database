@@ -3,12 +3,12 @@ import Set from '../BREAKthrough'
 
 const card: Card = {
 	name: {
-		en: "Houndoom EX",
-		fr: "Démolosse EX",
-		es: "Houndoom EX",
-		it: "Houndoom EX",
-		pt: "Houndoom EX",
-		de: "Hundemon EX"
+		en: "Houndoom-EX",
+		fr: "Démolosse-EX",
+		es: "Houndoom-EX",
+		it: "Houndoom-EX",
+		pt: "Houndoom-EX",
+		de: "Hundemon-EX"
 	},
 
 	illustrator: "Eske Yoshinob",

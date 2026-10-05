@@ -3,12 +3,12 @@ import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "M Alakazam EX",
-		fr: "M-Alakazam EX",
-		es: "M-Alakazam EX",
-		it: "M Alakazam EX",
-		pt: "M-Alakazam EX",
-		de: "M-Simsala EX"
+		en: "M Alakazam-EX",
+		fr: "M-Alakazam-EX",
+		es: "M-Alakazam-EX",
+		it: "M Alakazam-EX",
+		pt: "M-Alakazam-EX",
+		de: "M-Simsala-EX"
 	},
 
 	illustrator: "5ban Graphics",

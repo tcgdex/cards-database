@@ -3,12 +3,12 @@ import Set from '../Phantom Forces'
 
 const card: Card = {
 	name: {
-		en: "Dialga EX",
-		fr: "Dialga EX",
-		es: "Dialga EX",
-		it: "Dialga EX",
-		pt: "Dialga EX",
-		de: "Dialga EX"
+		en: "Dialga-EX",
+		fr: "Dialga-EX",
+		es: "Dialga-EX",
+		it: "Dialga-EX",
+		pt: "Dialga-EX",
+		de: "Dialga-EX"
 	},
 
 	illustrator: "Ayaka Yoshida",
