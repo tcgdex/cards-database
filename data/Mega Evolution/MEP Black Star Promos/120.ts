@@ -25,6 +25,12 @@ const card: Card = {
 			type: "holo",
 			stamp: ["ace-trainer"]
 		},
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 903004
+			}
+		}
 	],
 }
 

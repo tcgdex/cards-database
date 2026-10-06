@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Growlithe",
+		fr: "Caninos",
 	},
 
 	rarity: "Promo",
@@ -20,16 +21,19 @@ const card: Card = {
 
 		name: {
 			en: "Stoke",
+			fr: "Attisement",
 		},
 
 		effect: {
 			en: "Search your deck for up to 2 Basic {R} Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck jusqu'à 2 cartes Énergie {R} de base, puis attachez-les à ce Pokémon. Mélangez ensuite votre deck.",
 		}
 	}, {
 		cost: ["Fire", "Fire", "Fire"],
 
 		name: {
 			en: "Fire Claws",
+			fr: "Griffes Enflammées",
 		},
 
 		damage: 70
@@ -46,6 +50,7 @@ const card: Card = {
 	illustrator: "Uta",
 	description: {
 		en: "It's very friendly and faithful to people. It will try to repel enemies by barking and biting.",
+		fr: "Ce Pokémon est particulièrement affectueux et loyal. Il aboie et mord pour se débarrasser de ses adversaires.",
 	},
 	variants: [
 		{

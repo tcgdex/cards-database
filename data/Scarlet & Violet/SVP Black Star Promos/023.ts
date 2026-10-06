@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Smoliv",
+		fr: "Olivini",
 	},
 
 	rarity: "Promo",
@@ -20,16 +21,19 @@ const card: Card = {
 
 		name: {
 			en: "Nutrients",
+			fr: "Nutriments",
 		},
 
 		effect: {
 			en: "Heal 30 damage from 1 of your Pokémon.",
+			fr: "Soignez 30 dégâts de l'un de vos Pokémon.",
 		}
 	}, {
 		cost: ["Grass", "Colorless"],
 
 		name: {
 			en: "Spray Fluid",
+			fr: "Fluide Éclaboussant",
 		},
 
 		damage: 20
@@ -46,6 +50,7 @@ const card: Card = {
 	illustrator: "Misa Tsutsui",
 	description: {
 		en: "It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.",
+		fr: "Le fruit qui surmonte sa tête sécrète une huile qui le protège de ses adversaires. Ce liquide a un goût si désagréable qu'il fait grimacer.",
 	},
 	variants: [
 		{

@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Horsea",
+		fr: "Hypotrempe",
 	},
 
 	rarity: "Promo",
@@ -20,6 +21,7 @@ const card: Card = {
 
 		name: {
 			en: "Hook",
+			fr: "Crochet",
 		},
 
 		damage: 20
@@ -36,6 +38,7 @@ const card: Card = {
 	illustrator: "MAHOU",
 	description: {
 		en: "They swim with dance-like motions and cause whirlpools to form. Horsea compete to see which of them can generate the biggest whirlpool.",
+		fr: "Hypotrempe crée des tourbillons en dansant sous l'eau. Il s'amuse à comparer la taille des remous qu'il fait avec ceux de ses congénères.",
 	},
 	variants: [
 		{

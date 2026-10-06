@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Scraggy",
+		fr: "Baggiguane",
 	},
 
 	illustrator: "OKUBO",
@@ -21,10 +22,12 @@ const card: Card = {
 
 		name: {
 			en: "Kick Shot",
+			fr: "Coup d'Ergots",
 		},
 
 		effect: {
 			en: "Flip a coin. If tails, this attack does nothing.",
+			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
 		},
 
 		damage: 30
