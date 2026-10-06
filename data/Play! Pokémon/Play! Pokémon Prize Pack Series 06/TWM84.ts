@@ -97,6 +97,7 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			stamp: ["player-rewards-program"],
 		},
 	],
 

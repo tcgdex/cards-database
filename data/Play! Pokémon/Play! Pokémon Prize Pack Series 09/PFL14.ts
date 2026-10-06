@@ -66,9 +66,11 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			stamp: ["player-rewards-program"],
 		},
 		{
 			type: "holo",
+			stamp: ["player-rewards-program"],
 		},
 	],
 }
