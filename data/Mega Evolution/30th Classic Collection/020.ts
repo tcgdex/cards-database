@@ -20,7 +20,7 @@ const card: Card = {
 	rarity: "None",
 	category: "Pokemon",
 	hp: 150,
-	types: ["Dark", "Psychic"],
+	types: ["Darkness", "Psychic"],
 	stage: "Basic",
 	suffix: "Legend",
 
