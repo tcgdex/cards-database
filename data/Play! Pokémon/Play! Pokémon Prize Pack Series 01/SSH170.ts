@@ -1,0 +1,43 @@
+import { Card } from '../../../interfaces'
+import Set from "../Play! Pokémon Prize Pack Series 01"
+
+const card: Card = {
+	name: {
+		en: "Metal Saucer",
+		fr: "Écusson Métal",
+		es: "Platillo Metálico",
+		it: "Piatto di Metallo",
+		pt: "Disco de Metal",
+		de: "Metallplatte"
+	},
+
+	illustrator: "Toyste Beach",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		en: "Attach a Metal Energy card from your discard pile to 1 of your Benched Metal Pokémon.",
+		fr: "Attachez une carte Énergie Metal de votre pile de défausse à l'un de vos Pokémon Metal de Banc.",
+		es: "Une 1 carta de Energía Metal de tu pila de descartes a 1 de tus Pokémon Metal en Banca.",
+		it: "Assegna a uno dei tuoi Pokémon Metal in panchina una carta Energia Metal dalla tua pila degli scarti.",
+		pt: "Ligue 1 carta de Energia Metal da sua pilha de descarte a 1 dos seus Pokémon Metal no Banco.",
+		de: "Lege 1 {M}-Energiekarte aus deinem Ablagestapel an 1 {M}-Pokémon auf deiner Bank an. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
+	},
+
+	trainerType: "Item",
+	regulationMark: "D",
+
+	variants: [
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"],
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+		},
+	],
+}
+
+export default card

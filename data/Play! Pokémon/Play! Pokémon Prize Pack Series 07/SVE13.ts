@@ -1,0 +1,38 @@
+import { Card } from '../../../interfaces'
+import Set from "../Play! Pokémon Prize Pack Series 07"
+
+const card: Card = {
+    name: {
+        en: "Psychic Energy",
+        fr: "Énergie Psy",
+        es: "Energía Psíquica",
+        it: "Energia Psico",
+        pt: "Energia Psíquica",
+        de: "Psycho-Energie"
+    },
+
+    rarity: "Common",
+    category: "Energy",
+    set: Set,
+    energyType: "Normal",
+	variants: [
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 842743,
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 842744,
+			},
+		},
+	]
+
+
+}
+
+export default card
