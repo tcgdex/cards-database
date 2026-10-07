@@ -2,9 +2,12 @@ import { Card } from "../../../interfaces"
 import Set from "../S5R"
 
 const card: Card = {
+	dexId: [619],
+	rarity: "Common",
 	set: Set,
 
 	name: {
+		ja: "コジョフー",
 		'zh-tw': "功夫鼬",
 		th: "โคโจฟู"
 	},
@@ -15,6 +18,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
+		ja: "山奥に こもり 群れの 仲間と 修行に 励む。 群れによって キックや チョップの型が 違う。",
 		'zh-tw': "與群體的夥伴們一起在深山裡閉關修行。不同的群體有著不同的踢腿和手刀技法。",
 		th: "จะซุ่มตัวอยู่กลางป่าลึก หมั่นฝึกตนกันเป็นฝูง ท่าเตะและท่าสับจะต่างกันไปตามฝูง"
 	},
@@ -23,11 +27,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
+			ja: "にどづき",
 			'zh-tw': "二連撞",
 			th: "พุ่งชนสองครั้ง"
 		},
 
 		effect: {
+			ja: "コインを2回投げ、オモテの数×30ダメージ。",
 			'zh-tw': "擲2次硬幣，造成正面出現的次數×30點傷害。",
 			th: "ทอยเหรียญ 2 ครั้ง แดเมจจะเท่ากับ จำนวนครั้งที่ออกหัว x30"
 		},
@@ -42,7 +48,10 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "E"
+	regulationMark: "E",
+	variants: [
+		{ type: "normal", thirdParty: { cardmarket: 533797, tcgplayer: 569086, cardtrader: 240054 } }
+	]
 }
 
 export default card

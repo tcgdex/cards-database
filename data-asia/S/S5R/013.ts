@@ -2,9 +2,13 @@ import { Card } from "../../../interfaces"
 import Set from "../S5R"
 
 const card: Card = {
+	dexId: [494],
+	evolveFrom: { ja: "ビクティニV" },
+	rarity: "Triple Rare",
 	set: Set,
 
 	name: {
+		ja: "ビクティニVMAX",
 		'zh-tw': "比克提尼VMAX",
 		th: "วิคทินีVMAX"
 	},
@@ -17,11 +21,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
+			ja: "ひろがるほのお",
 			'zh-tw': "火焰鋪展",
 			th: "ไฟลุกลาม"
 		},
 
 		effect: {
+			ja: "自分のトラッシュから[炎]エネルギーを3枚まで選び、自分のポケモンに好きなようにつける。",
 			'zh-tw': "從自己的棄牌區選擇最多3張【火】能量卡，以任意方式附於自己的寶可夢身上。",
 			th: "เลือกการ์ดพลังงาน [ไฟ] ได้สูงสุด 3 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา แล้วติดที่โปเกมอนฝ่ายเราตามชอบ"
 		},
@@ -29,11 +35,13 @@ const card: Card = {
 		cost: ["Colorless"]
 	}, {
 		name: {
+			ja: "ダイビクトリー",
 			'zh-tw': "極巨勝利",
 			th: "ไดวิคทอรี่"
 		},
 
 		effect: {
+			ja: "相手のバトルポケモンが「ポケモンV」なら、120ダメージ追加。",
 			'zh-tw': "若對手的戰鬥寶可夢為「寶可夢【V】」，則增加120點傷害。",
 			th: "ถ้าโปเกมอนบนตำแหน่งต่อสู้ของฝ่ายตรงข้ามเป็น [โปเกมอน【V】] การโจมตีนี้จะเพิ่มแดเมจอีก 120"
 		},
@@ -48,7 +56,10 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "E"
+	regulationMark: "E",
+	variants: [
+		{ type: "holo", thirdParty: { cardmarket: 533637, tcgplayer: 569054, cardtrader: 240018 } }
+	]
 }
 
 export default card

@@ -2,9 +2,13 @@ import { Card } from "../../../interfaces"
 import Set from "../S5R"
 
 const card: Card = {
+	evolveFrom: { ja: "カリキリ" },
+	dexId: [754],
+	rarity: "Uncommon",
 	set: Set,
 
 	name: {
+		ja: "ラランテス",
 		'zh-tw': "蘭螳花",
 		th: "รารันเทส"
 	},
@@ -15,6 +19,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
+		ja: "舞を 舞うように 敵を 切り裂く。 雅な 姿 から もっとも 艶やかな くさポケモンと 呼ばれる。",
 		'zh-tw': "斬斷敵人的動作就像是跳舞一般。優雅的姿態使得牠被稱為最豔麗的草屬性寶可夢。",
 		th: "เชือดเฉือนศัตรูด้วยการเต้นรำ จากรูปร่างที่งามสง่านี้ทำให้ถูกเรียกว่าเป็นโปเกมอนหญ้าที่มีเสน่ห์เย้ายวนที่สุด"
 	},
@@ -23,11 +28,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
+			ja: "リーフドレイン",
 			'zh-tw': "綠葉吸取",
 			th: "ลีฟเดรน"
 		},
 
 		effect: {
+			ja: "このポケモンのHPを「30」回復する。",
 			'zh-tw': "將這隻寶可夢恢復「30」HP。",
 			th: "ฟื้นฟู HP ของโปเกมอนนี้ [30]"
 		},
@@ -36,6 +43,7 @@ const card: Card = {
 		cost: ["Grass"]
 	}, {
 		name: {
+			ja: "ソーラーカッター",
 			'zh-tw': "日光刀",
 			th: "โซลาร์คัตเตอร์"
 		},
@@ -50,7 +58,10 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "E"
+	regulationMark: "E",
+	variants: [
+		{ type: "normal", thirdParty: { cardmarket: 533617, tcgplayer: 569050, cardtrader: 240009 } }
+	]
 }
 
 export default card
