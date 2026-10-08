@@ -277,7 +277,7 @@ export interface Card {
 	 *
 	 * note: added from Sword & Shield
 	 */
-	regulationMark?: string
+	regulationMark?: 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J'
 
 	/**
 	 * Pokemon only elements
