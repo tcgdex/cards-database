@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "威圧的な鎧",
 			},
 			effect: {
-				ja: "Aggron ExがあなたのアクティブなPokã©Monである限り、あなたの相手の基本的なPokã©Monは、Pokã©PowersまたはPokã©-Bodiesを攻撃または使用することはできません。",
+				ja: "Aggron ExがあなたのアクティブなPokéMonである限り、あなたの相手の基本的なPokéMonは、PokéPowersまたはPoké-Bodiesを攻撃または使用することはできません。",
 			},
 		}],
 

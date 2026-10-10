@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "デュアルオーラ",
 			},
 			effect: {
-				ja: "LatiasまたはLatias Exがプレイしている限り、各プレイヤーの進化したPokã©Mon（Pokã©Mon-Exを除く）はPokã©-Bodiesを使用できません。",
+				ja: "LatiasまたはLatias Exがプレイしている限り、各プレイヤーの進化したPokéMon（PokéMon-Exを除く）はPoké-Bodiesを使用できません。",
 			},
 		}],
 

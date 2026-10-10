@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "暗い目",
 			},
 			effect: {
-				ja: "相手のPokã©MonがPokã©Powerを使用した後、そのPokã©Monに2つのダメージカウンターを入れます。",
+				ja: "相手のPokéMonがPokéPowerを使用した後、そのPokéMonに2つのダメージカウンターを入れます。",
 			},
 		}],
 

@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "ハイドロバリア",
 			},
 			effect: {
-				ja: "RayquazaにHolon Energy Cardsが付いている限り、それぞれのWaterPokã©Monには弱点はありません。",
+				ja: "RayquazaにHolon Energy Cardsが付いている限り、それぞれのWaterPokéMonには弱点はありません。",
 			},
 		}],
 

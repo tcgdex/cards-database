@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "反応性の香り",
 			},
 			effect: {
-				ja: "RoseliaにReact Energy Cardsが取り付けられている限り、ターンの間にReact Energy Cardを取り付けているPokã©Mon（Pokã©Mon-Exを除く）のそれぞれから1つのダメージカウンターを削除します。 1ターンを1ターン以上使用することはできません。",
+				ja: "RoseliaにReact Energy Cardsが取り付けられている限り、ターンの間にReact Energy Cardを取り付けているPokéMon（PokéMon-Exを除く）のそれぞれから1つのダメージカウンターを削除します。 1ターンを1ターン以上使用することはできません。",
 			},
 		}],
 
