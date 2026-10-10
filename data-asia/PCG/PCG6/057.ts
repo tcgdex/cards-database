@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "デルタストーム",
 			},
 			effect: {
-				ja: "SandslashがアクティブなPokã©Monである限り、ターンの間に対戦相手のPokã©Mon-Exのそれぞれに1つのダメージカウンターを置きます。",
+				ja: "SandslashがアクティブなPokéMonである限り、ターンの間に対戦相手のPokéMon-Exのそれぞれに1つのダメージカウンターを置きます。",
 			},
 		}],
 

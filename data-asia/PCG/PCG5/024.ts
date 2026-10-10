@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "古代の牙",
 			},
 			effect: {
-				ja: "Kabuto、Kabutops、またはKabutopsがプレイしている限り、Omastarの攻撃は、防御するPokã©Monに20のダメージを与えます（脱力感と抵抗を適用する前に）。",
+				ja: "Kabuto、Kabutops、またはKabutopsがプレイしている限り、Omastarの攻撃は、防御するPokéMonに20のダメージを与えます（脱力感と抵抗を適用する前に）。",
 			},
 		}],
 

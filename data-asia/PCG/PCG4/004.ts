@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "癒しの香り",
 			},
 			effect: {
-				ja: "MeganiumがアクティブなPokã©Monである限り、各Pokã©Mon（Pokã©Mon-Exを除く）（あなたと対戦相手の両方を除く）から1つのダメージカウンターを削除します。",
+				ja: "MeganiumがアクティブなPokéMonである限り、各PokéMon（PokéMon-Exを除く）（あなたと対戦相手の両方を除く）から1つのダメージカウンターを削除します。",
 			},
 		}],
 

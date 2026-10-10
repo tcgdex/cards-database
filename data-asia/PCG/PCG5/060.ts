@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "反応性保護",
 			},
 			effect: {
-				ja: "対戦相手のPokã©Monからの攻撃によってAerodactylに与えられた損傷は、Aerodactylに取り付けられた各Reactエネルギーカードに対して（脱力感と抵抗を適用した後）10削減されます。",
+				ja: "対戦相手のPokéMonからの攻撃によってAerodactylに与えられた損傷は、Aerodactylに取り付けられた各Reactエネルギーカードに対して（脱力感と抵抗を適用した後）10削減されます。",
 			},
 		}],
 

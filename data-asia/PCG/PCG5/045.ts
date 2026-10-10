@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "ソルシェード",
 			},
 			effect: {
-				ja: "Solrockがプレイしている限り、各プレイヤーのFirePokã©Mon（Pokã©Mon-Exを除く）はPokã©Powersを使用できません。",
+				ja: "Solrockがプレイしている限り、各プレイヤーのFirePokéMon（PokéMon-Exを除く）はPokéPowersを使用できません。",
 			},
 		}],
 
