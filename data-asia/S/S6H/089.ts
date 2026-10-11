@@ -7,7 +7,7 @@ const card: Card = {
 		ja: "ドクター",
 	},
 
-	illustrator: "Sonosuke Skauma",
+	illustrator: "Sanosuke Sakuma",
 	category: "Trainer",
 
 	effect: {
