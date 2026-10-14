@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Fluffige Beere"
 	},
 
-	illustrator: undefined,
+	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
