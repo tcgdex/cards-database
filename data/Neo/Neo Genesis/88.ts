@@ -8,7 +8,7 @@ const card: Card = {
 		de: "PokéCom"
 	},
 
-	illustrator: undefined,
+	illustrator: "Katsura Tabata, CR CG gangs",
 	rarity: "Rare",
 	category: "Trainer",
 	set: Set,

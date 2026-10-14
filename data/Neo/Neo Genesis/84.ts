@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Ecogym*"
 	},
 
-	illustrator: undefined,
+	illustrator: "Shin-ichi Yoshikawa, CR CG gangs",
 	rarity: "Rare",
 	category: "Trainer",
 	set: Set,

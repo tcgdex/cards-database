@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Spielautomat"
 	},
 
-	illustrator: undefined,
+	illustrator: "K. Hoshiba, CR CG gangs",
 	rarity: "Rare",
 	category: "Trainer",
 	set: Set,

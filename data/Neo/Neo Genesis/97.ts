@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Sprösslings-Turm"
 	},
 
-	illustrator: undefined,
+	illustrator: "Hiromichi Sugiyama, CR CG gangs",
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,

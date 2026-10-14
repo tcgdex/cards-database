@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Wunderbeere"
 	},
 
-	illustrator: undefined,
+	illustrator: "Yousuke Hirata, CR CG gangs",
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,

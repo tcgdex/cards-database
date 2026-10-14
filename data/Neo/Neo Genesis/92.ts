@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Ratespiel"
 	},
 
-	illustrator: undefined,
+	illustrator: "K. Hoshiba, CR CG gangs",
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,

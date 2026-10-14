@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Goldbeere"
 	},
 
-	illustrator: undefined,
+	illustrator: "Ryuta Kusumi, CR CG gangs",
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
