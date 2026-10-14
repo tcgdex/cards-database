@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Starmie"
 	},
 
-	illustrator: undefined,
+	illustrator: "Keita Komatsuya",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,

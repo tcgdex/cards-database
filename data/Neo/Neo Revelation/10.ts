@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Magneton"
 	},
 
-	illustrator: undefined,
+	illustrator: "\"Big Mama\" Tagawa, CR CG gangs",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
