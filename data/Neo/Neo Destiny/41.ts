@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Skaraborn"
 	},
 
-	illustrator: undefined,
+	illustrator: "K. Hoshiba, CR CG gangs",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,

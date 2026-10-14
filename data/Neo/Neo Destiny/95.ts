@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Radio Turm"
 	},
 
-	illustrator: undefined,
+	illustrator: "Yousuke Hirata, CR CG gangs",
 	rarity: "Rare",
 	category: "Trainer",
 	set: Set,

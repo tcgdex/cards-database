@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Porygon"
 	},
 
-	illustrator: undefined,
+	illustrator: "Hiromichi Sugiyama, CR CG gangs",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,

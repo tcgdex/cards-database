@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Dunkles Porygon2"
 	},
 
-	illustrator: undefined,
+	illustrator: "Shin-ichi Yoshikawa, CR CG gangs",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,

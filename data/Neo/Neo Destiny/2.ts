@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Dunkles Iksbat"
 	},
 
-	illustrator: undefined,
+	illustrator: "Shin-ichi Yoshikawa, CR CG gangs",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,

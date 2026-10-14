@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Remoraid"
 	},
 
-	illustrator: undefined,
+	illustrator: "Jungo Suzuki, CR CG gangs",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,

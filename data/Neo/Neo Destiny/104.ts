@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Heilpuder"
 	},
 
-	illustrator: undefined,
+	illustrator: "Ryuta Kusumi, CR CG gangs",
 	rarity: "Common",
 	category: "Trainer",
 	set: Set,
