@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Brief vom Prof."
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "None",
 	category: "Trainer",
 
