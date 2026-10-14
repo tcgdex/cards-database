@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Regieleki V"
 	},
 
+	illustrator: "Eske Yoshinob",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 200,

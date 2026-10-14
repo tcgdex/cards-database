@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Rapidash"
 	},
 
+	illustrator: "aoki",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 100,

@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Magnezone"
 	},
 
+	illustrator: "zig",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 150,

@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Croagunk"
 	},
 
+	illustrator: "Yuya Oka",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,

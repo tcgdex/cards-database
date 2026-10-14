@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Lucario VSTAR"
 	},
 
+	illustrator: "aky CG Works",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 270,

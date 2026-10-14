@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Jolteon VMAX"
 	},
 
+	illustrator: "Hasuno",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 300,

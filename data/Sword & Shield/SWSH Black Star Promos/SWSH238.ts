@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Hisuian Decidueye V"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 220,

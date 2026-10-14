@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Pikachu V"
 	},
 
+	illustrator: "You Iribi",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 200,

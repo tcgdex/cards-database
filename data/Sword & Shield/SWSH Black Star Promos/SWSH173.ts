@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Blitzle"
 	},
 
+	illustrator: "Oswaldo KATO",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,

@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Vaporeon V"
 	},
 
+	illustrator: "Tika Matsuno",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 210,

@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Melmetal V"
 	},
 
+	illustrator: "sadaji",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 220,

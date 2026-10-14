@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Kleavor V"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 210,

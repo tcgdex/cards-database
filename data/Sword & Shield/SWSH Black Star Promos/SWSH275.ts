@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Manaphy"
 	},
 
+	illustrator: "NC Empire",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,

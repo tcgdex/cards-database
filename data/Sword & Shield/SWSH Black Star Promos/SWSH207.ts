@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Hisuian Samurott"
 	},
 
+	illustrator: "Oswaldo KATO",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 170,

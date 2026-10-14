@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Regigigas"
 	},
 
+	illustrator: "GOSSAN",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 150,

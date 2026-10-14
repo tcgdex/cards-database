@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Glaceon VSTAR"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 260,

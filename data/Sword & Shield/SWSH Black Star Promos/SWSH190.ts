@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Eevee"
 	},
 
+	illustrator: "OKACHEKE",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,

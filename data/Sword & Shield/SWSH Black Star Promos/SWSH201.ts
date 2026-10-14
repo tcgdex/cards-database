@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Espeon V"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 200,

@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Origin Forme Palkia VSTAR"
 	},
 
+	illustrator: "aky CG Works",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 280,

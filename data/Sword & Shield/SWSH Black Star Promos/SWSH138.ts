@@ -40,6 +40,7 @@ const card: Card = {
 		it: "Hydreigon C"
 	},
 
+	illustrator: "kawayoo",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,

@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Jolteon V"
 	},
 
+	illustrator: "nagimiso",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 190,

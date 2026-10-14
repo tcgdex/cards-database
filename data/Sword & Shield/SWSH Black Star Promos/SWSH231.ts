@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Bulbasaur"
 	},
 
+	illustrator: "Shibuzoh.",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,

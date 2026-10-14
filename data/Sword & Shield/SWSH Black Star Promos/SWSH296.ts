@@ -13,6 +13,7 @@ const card: Card = {
 		en: "Champions Festival"
 	},
 
+	illustrator: "Naoki Saito",
 	rarity: "Promo",
 	category: "Trainer",
 

@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Pikachu VMAX"
 	},
 
+	illustrator: "AKIRA EGAWA",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 310,

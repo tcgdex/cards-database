@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Flapple"
 	},
 
+	illustrator: "nagimiso",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 80,

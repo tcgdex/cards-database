@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Sylveon V"
 	},
 
+	illustrator: "aky CG Works",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 200,

@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Glaceon"
 	},
 
+	illustrator: "OKACHEKE",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,

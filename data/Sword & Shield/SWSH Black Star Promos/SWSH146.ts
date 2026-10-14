@@ -24,6 +24,7 @@ const card: Card = {
 		it: "Poké Ball"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Promo",
 	category: "Trainer",
 	types: ["Lightning"],

@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Dragonite VSTAR"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 280,

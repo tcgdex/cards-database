@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Infernape V"
 	},
 
+	illustrator: "Ayaka Yoshida",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 200,

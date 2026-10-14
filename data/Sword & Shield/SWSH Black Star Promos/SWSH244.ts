@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Scorbunny"
 	},
 
+	illustrator: "Taira Akitsu",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,

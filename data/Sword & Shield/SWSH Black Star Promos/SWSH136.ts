@@ -40,6 +40,7 @@ const card: Card = {
 		it: "Mimikyu"
 	},
 
+	illustrator: "Hasuno",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,

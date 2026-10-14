@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Lycanroc V"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 200,

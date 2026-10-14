@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Espeon"
 	},
 
+	illustrator: "Tika Matsuno",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,

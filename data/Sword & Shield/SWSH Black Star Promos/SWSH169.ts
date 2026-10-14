@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Pyukumuku"
 	},
 
+	illustrator: "Narumi Sato",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 80,

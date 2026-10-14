@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Deoxys"
 	},
 
+	illustrator: "Souichirou Gunjima",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,

@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Charizard VMAX"
 	},
 
+	illustrator: "Shiburingaru",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 330,

@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Morpeko V-UNION"
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Promo",
 	category: "Pokemon",
 	suffix: "V",

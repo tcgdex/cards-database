@@ -13,6 +13,7 @@ const card: Card = {
 		en: "Spark"
 	},
 
+	illustrator: "Naoki Saito",
 	rarity: "Promo",
 	category: "Trainer",
 

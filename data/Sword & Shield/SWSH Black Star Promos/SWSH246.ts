@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Weavile"
 	},
 
+	illustrator: "Shin Nagasawa",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,

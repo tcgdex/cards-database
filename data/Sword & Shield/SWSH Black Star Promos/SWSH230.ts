@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Radiant Eevee"
 	},
 
+	illustrator: "Souichirou Gunjima",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 90,

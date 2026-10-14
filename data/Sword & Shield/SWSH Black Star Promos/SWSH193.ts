@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Galarian Obstagoon"
 	},
 
+	illustrator: "Megumi Higuchi",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 170,

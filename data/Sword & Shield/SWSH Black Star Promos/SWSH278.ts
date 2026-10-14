@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Cinderace"
 	},
 
+	illustrator: "Yuya Oka",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 170,

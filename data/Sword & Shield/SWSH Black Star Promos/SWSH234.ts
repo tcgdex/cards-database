@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Pikachu"
 	},
 
+	illustrator: "Ryota Murayama",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,

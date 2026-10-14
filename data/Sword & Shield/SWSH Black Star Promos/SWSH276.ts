@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Togetic"
 	},
 
+	illustrator: "Narumi Sato",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 80,
