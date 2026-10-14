@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Tropical Tidal Wave",
 		fr: "Raz-de-marée tropical"
 	},
-	illustrator: undefined,
+	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
 	category: "Trainer",
 
