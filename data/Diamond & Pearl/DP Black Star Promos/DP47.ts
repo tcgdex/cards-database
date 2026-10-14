@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Rayquaza C",
 		de: "Rayquaza C"
 	},
-	illustrator: undefined,
+	illustrator: "Shizurow",
 	rarity: "Common",
 	category: "Pokemon",
 
