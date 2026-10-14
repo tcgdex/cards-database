@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Tropical Beach",
 		fr: "Plage Tropicale",
 	},
-	illustrator: undefined,
+	illustrator: "Naoki Saito",
 	rarity: "Common",
 	category: "Trainer",
 
