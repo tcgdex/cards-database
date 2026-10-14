@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Pokémon-Umkehrung"
 	},
 
-	illustrator: undefined,
+	illustrator: "\"Big Mama\" Tagawa",
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,

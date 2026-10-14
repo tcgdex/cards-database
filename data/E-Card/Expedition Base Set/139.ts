@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Dual Ball*"
 	},
 
-	illustrator: undefined,
+	illustrator: "\"Big Mama\" Tagawa",
 	rarity: "Uncommon",
 	category: "Trainer",
 	trainerType: "Stadium",
