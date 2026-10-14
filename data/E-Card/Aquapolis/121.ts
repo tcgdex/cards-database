@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Kampf-Würfel 01"
 	},
 
-	illustrator: undefined,
+	illustrator: "\"Big Mama\" Tagawa",
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
