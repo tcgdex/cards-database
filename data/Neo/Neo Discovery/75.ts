@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Energy Ark"
 	},
 
-	illustrator: undefined,
+	illustrator: "\"Big Mama\" Tagawa & Benimaru Itoh",
 	rarity: "Common",
 	category: "Trainer",
 	set: Set,

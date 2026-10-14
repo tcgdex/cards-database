@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Magnetilo"
 	},
 
-	illustrator: undefined,
+	illustrator: "K. Hoshiba, CR CG gangs",
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,

@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Ruinenwand"
 	},
 
-	illustrator: undefined,
+	illustrator: "\"Big Mama\" Tagawa, CR CG gangs",
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
