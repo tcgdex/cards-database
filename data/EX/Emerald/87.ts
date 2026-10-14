@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Doppelte Regenbogen Energie"
 	},
 
-	illustrator: undefined,
+	illustrator: "Takumi Akabane",
 	rarity: "Rare",
 	category: "Energy",
 	set: Set,
