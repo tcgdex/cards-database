@@ -82,6 +82,7 @@ const card: Card = {
 
 	description: {
 		en: "It's so popular with the elderly that there's a magazine devoted to this Pokémon. Fans obsess over the particular length and angle of its arms.",
+		de: "Es ist sehr beliebt bei Senioren und hat sogar seine eigene Fachzeitschrift. Auf Länge und Winkel seiner Arme legen Fans besonderen Wert."
 	},
 
 	variants: [

@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magikarp",
-		fr: "Magicarpe"
+		fr: "Magicarpe",
+		de: "Karpador"
 	},
 
 	stage: "Stage1",
@@ -66,7 +67,7 @@ const card: Card = {
 				es: "Hiperrayo GX",
 				it: "Iper Raggio GX",
 				pt: "Hiper-raio GX",
-				de: "Hyperstrahl GX"
+				de: "Hyperstrahl-GX"
 			},
 			effect: {
 				en: "(You can’t use more than 1 GX attack in a game.)",

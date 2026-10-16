@@ -87,7 +87,7 @@ const card: Card = {
 				es: "Combo Familiar GX",
 				it: "Combo Familiare GX",
 				pt: "Combo Familiar GX",
-				de: "Familienbund GX"
+				de: "Familienbund-GX"
 			},
 			effect: {
 				fr: "Piochez 5 cartes. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",

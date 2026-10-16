@@ -75,6 +75,7 @@ const card: Card = {
 
 	description: {
 		en: "It's considered to be a good Pokémon for beginners because of its friendliness, but its disposition grows rougher as it grows up.",
+		de: "Dieses sehr zutrauliche Pokémon wird oft frischgebackenen Trainern empfohlen. Mit dem Alter wird es jedoch immer wilder."
 	},
 
 	variants: [

@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Steenee",
 		fr: "Candine",
+		de: "Frubaila"
 	},
 
 	suffix: "GX",
@@ -89,7 +90,7 @@ const card: Card = {
 				es: "Orden Regia GX",
 				it: "Ordine della Regina GX",
 				pt: "Comando da Rainha GX",
-				de: "Befehl der Königin GX"
+				de: "Befehl der Königin-GX"
 			},
 			effect: {
 				en: "Your opponent discards 4 cards from their hand. (You can’t use more than 1 GX attack in a game.)",

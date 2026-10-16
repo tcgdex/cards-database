@@ -79,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "This is Zygarde's form at times when it uses its overwhelming power to suppress those who endanger the ecosystem.",
+		de: "Diese Form nimmt es an, um Lebewesen, die eine Bedrohung für das Ökosystem darstellen, mit überwältigender Kraft zu bezwingen."
 	},
 
 	variants: [

@@ -64,7 +64,7 @@ const card: Card = {
 				es: "Lanza una moneda. Si sale cara, el Pokémon Defensor pasa a estar Paralizado.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato.",
 				pt: "Jogue uma moeda. Se sair cara, o Pokémon Defensor será Paralisado.",
-				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
+				de: "Wird 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 
 		},
@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "It grows close to others easily and is also easily spoiled. The disparity between its face and its actions makes many young people wild about it.",
+		de: "Es wird schnell zahm und wird gerne verwöhnt. Viele lieben den Kontrast zwischen seiner mürrischen Miene und dem putzigen Charakter."
 	},
 
 	variants: [

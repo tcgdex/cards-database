@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Zorua",
 		fr: "Zorua",
+		de: "Zorua"
 	},
 	stage: "Stage1",
 
@@ -74,7 +75,7 @@ const card: Card = {
 				es: "Descarta 1 Energía Darkness de este Pokémon.",
 				it: "Scarta un’Energia Darkness assegnata a questo Pokémon.",
 				pt: "Descarte 1 Energia Darkness deste Pokémon.",
-				de: "Lege 1 Darkness-Energie von diesem Pokémon auf deinen Ablagestapel."
+				de: "Lege 1 {D}-Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 120,
 
@@ -99,6 +100,7 @@ const card: Card = {
 
 	description: {
 		en: "Each has the ability to fool a large group of people simultaneously. They protect their lair with illusory scenery.",
+		de: "Kann auf einen Schlag große Massen von Menschen täuschen. Es kreiert Illusionen, um sein Revier zu schützen."
 	},
 
 	variants: [

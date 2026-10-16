@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Busca en tu baraja hasta 2 cartas de Energía Básica, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.\n\nCuando juegues esta carta, puedes descartar otras 5 cartas de tu mano. Si lo haces, también puedes buscar hasta 3 Pokémon de diferentes tipos de esta manera.",
 		it: "Cerca nel tuo mazzo fino a 2 carte Energia base, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.\n\nQuando giochi questa carta, puoi scartare altre 5 carte che hai in mano. Se lo fai, puoi anche cercare fino a 3 Pokémon di tipi diversi in questo modo.",
 		pt: "Procure por até 2 cartas de Energia básica no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.\n\nQuando você jogar este card, você poderá descartar 5 outras cartas da sua mão. Se fizer isto, você também poderá procurar por até 3 Pokémon de tipos diferentes desta forma.",
-		de: "Durchsuche dein Deck nach bis zu 2 Basis-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.\n\nWenn du diese Karte spielst, kannst du 5 andere Karten aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, kannst du auf diese Weise auch nach bis zu 3 Pokémon unterschiedlichen Typs suchen."
+		de: "Durchsuche dein Deck nach bis zu 2 Basis-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck. Wenn du diese Karte spielst, kannst du 5 andere Karten aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, kannst du auf diese Weise auch nach bis zu 3 Pokémon verschiedenen Typs suchen. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

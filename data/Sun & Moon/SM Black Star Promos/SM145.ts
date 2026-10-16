@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "A legendary bird Pokémon that is said to appear from clouds while dropping enormous lightning bolts.",
+		de: "Ein Legendäres Vogel-Pokémon, das im Sturzflug aus den Wolken bricht und Blitze schleudert."
 	},
 
 	variants: [
