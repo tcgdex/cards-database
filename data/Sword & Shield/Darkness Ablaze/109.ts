@@ -84,7 +84,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "While hunting for prey, Zweilous wanders its territory, its two heads often bickering over which way to go."
+		en: "While hunting for prey, Zweilous wanders its territory, its two heads often bickering over which way to go.",
+		de: "Es durchstreift sein Revier auf der Suche nach Beute. Die zwei Köpfe streiten sich oft darüber, welche Richtung sie einschlagen sollten."
 	},
 
 	variants: [

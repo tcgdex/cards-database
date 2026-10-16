@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Lanza 1 moneda. Si sale cara, une 1 carta de Energía Básica de tu pila de descartes a 1 de tus Pokémon Básicos que no sea 1 Pokémon-GX.",
 		it: "Lancia una moneta. Se esce testa, assegna a uno dei tuoi Pokémon Base che non è un Pokémon-GX una carta Energia base dalla tua pila degli scarti.",
 		pt: "Jogue 1 moeda. Se sair cara, ligue 1 carta de Energia básica da sua pilha de descarte a 1 dos seus Pokémon Básicos que não seja um Pokémon-GX.",
-		de: "Wirf 1 Münze. Lege bei Kopf 1 Basis-Energiekarte aus deinem Ablagestapel an 1 deiner Basis-Pokémon an, das kein Pokémon-GX ist."
+		de: "Wirf 1 Münze. Lege bei Kopf 1 Basis-Energiekarte aus deinem Ablagestapel an 1 deiner Basis-Pokémon an, das kein Pokémon-GX ist. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

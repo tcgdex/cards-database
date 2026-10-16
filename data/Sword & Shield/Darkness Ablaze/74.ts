@@ -102,7 +102,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It's said that when stars shine in the night sky, this Pokémon will spirit away sleeping children. Some call it the Witch of Punishment."
+		en: "It's said that when stars shine in the night sky, this Pokémon will spirit away sleeping children. Some call it the Witch of Punishment.",
+		de: "In sternklaren Nächten entführt es angeblich schlafende Kinder aus ihren Betten. Man nennt es auch die „Hexe der Bestrafung“."
 	},
 
 	variants: [

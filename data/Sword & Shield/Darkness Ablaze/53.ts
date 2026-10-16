@@ -88,7 +88,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Powerful legs and jaws made it the apex predator of its time. Its own overhunting of its prey was what drove it to extinction."
+		en: "Powerful legs and jaws made it the apex predator of its time. Its own overhunting of its prey was what drove it to extinction.",
+		de: "Dank der enormen Kraft seiner Beine und seines Kiefers war es in der Urzeit unbesiegbar, doch es fing seine Beute restlos weg und starb daher aus."
 	},
 
 	variants: [

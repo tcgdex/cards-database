@@ -96,7 +96,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "They use shells they've stolen from Shelmet to arm and protect themselves. They're very popular Pokémon in the Galar region."
+		en: "They use shells they've stolen from Shelmet to arm and protect themselves. They're very popular Pokémon in the Galar region.",
+		de: "In der Galar-Region ist es besonders beliebt. Es stiehlt die Muschel eines Schnuthelms und vollendet damit seine Ganzkörperrüstung."
 	},
 
 	variants: [

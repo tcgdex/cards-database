@@ -62,7 +62,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind."
+		en: "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind.",
+		de: "Es stellt sich auf den Schweif, um weiter zu blicken. Erspäht es einen Feind, schreit es laut auf."
 	},
 
 	variants: [

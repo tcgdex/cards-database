@@ -79,7 +79,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Its speed right after takeoff already puts it in the top speed class of all bird Pokémon."
+		en: "Its speed right after takeoff already puts it in the top speed class of all bird Pokémon.",
+		de: "Kaum ein anderes Vogel-Pokémon gewinnt direkt nach dem Abflug so schnell an Tempo wie Dartignis."
 	},
 
 	variants: [

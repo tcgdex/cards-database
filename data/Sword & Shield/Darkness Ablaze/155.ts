@@ -97,7 +97,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Smart enough to use tools in battle, these Pokémon have been seen picking up rocks and flinging them or using ropes to wrap up enemies."
+		en: "Smart enough to use tools in battle, these Pokémon have been seen picking up rocks and flinging them or using ropes to wrap up enemies.",
+		de: "Es weiß Objekte geschickt einzusetzen. So greift und wirft es zum Beispiel kleine Steine mit seinen Krallen oder wickelt Seile um Gegner."
 	},
 
 	variants: [

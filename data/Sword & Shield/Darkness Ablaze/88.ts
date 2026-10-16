@@ -100,7 +100,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "Its body can't be harmed by any sort of attack, so it is very eager to make challenges against enemies."
+		en: "Its body can't be harmed by any sort of attack, so it is very eager to make challenges against enemies.",
+		de: "Dank seines starken Körpers fürchtet es sich vor keiner Form von Angriff. Deshalb zettelt es ununterbrochen Kämpfe an."
 	},
 
 	variants: [

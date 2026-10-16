@@ -22,7 +22,7 @@ const card: Card = {
 		es: "El Pokémon Básico al que esté unida esta carta obtiene 50 PS más, excepto los Pokémon-GX.",
 		it: "Il Pokémon Base a cui è assegnata questa carta ha 50 PS in più, a eccezione dei Pokémon-GX.",
 		pt: "O Pokémon Básico ao qual esta carta está ligada recebe 50 PS a mais, exceto por Pokémon-GX .",
-		de: "Das Basis-Pokémon, an das diese Karte angelegt ist, erhält +50 KP, außer Pokémon-GX."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Das Basis-Pokémon, an das diese Karte angelegt ist, erhält +50 KP, außer Pokémon-GX. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",
