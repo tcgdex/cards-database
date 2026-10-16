@@ -9,6 +9,7 @@ const card: Card = {
 	name: {
 		en: "Popplio",
 		fr: "Otaquin",
+		de: "Robball"
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -25,6 +26,7 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras'Face",
+				de: "Pfund"
 			},
 			damage: "10",
 		},
@@ -36,6 +38,7 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				de: "Aquaknarre"
 			},
 			damage: "20",
 		},

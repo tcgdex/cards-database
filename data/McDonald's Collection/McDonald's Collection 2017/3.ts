@@ -9,6 +9,7 @@ const card: Card = {
 	name: {
 		en: "Litten",
 		fr: "Flamiaou",
+		de: "Flamiau"
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -25,6 +26,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				de: "Biss"
 			},
 			damage: "10",
 		},
@@ -36,6 +38,7 @@ const card: Card = {
 			name: {
 				en: "Flare",
 				fr: "Flamboiement",
+				de: "Flackern"
 			},
 			damage: "20",
 		},

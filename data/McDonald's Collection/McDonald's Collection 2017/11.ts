@@ -9,6 +9,7 @@ const card: Card = {
 	name: {
 		en: "Pikipek",
 		fr: "Picassaut",
+		de: "Peppeck"
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -25,11 +26,13 @@ const card: Card = {
 			name: {
 				en: "Rock Smash",
 				fr: "Éclate-Roc",
+				de: "Zertrümmerer"
 			},
 			damage: "10+",
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 10 Schadenspunkte mehr zu."
 			},
 		},
 	],
