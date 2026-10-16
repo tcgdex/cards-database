@@ -90,19 +90,19 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			stamp: ["1st-edition"],
 			thirdParty: {
 				cardmarket: 273858,
 				tcgplayer: 45164
 			}
 		},
 		{
-			type: "normal",
-			stamp: ["1st-edition"],
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 273858,
 				tcgplayer: 45164
 			}
-		}
+		},
 	],
 }
 

@@ -101,19 +101,19 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			stamp: ["1st-edition"],
 			thirdParty: {
 				cardmarket: 273842,
 				tcgplayer: 45148
 			}
 		},
 		{
-			type: "normal",
-			stamp: ["1st-edition"],
+			type: 'reverse',
 			thirdParty: {
 				cardmarket: 273842,
 				tcgplayer: 45148
 			}
-		}
+		},
 	],
 }
 
