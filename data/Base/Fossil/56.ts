@@ -74,7 +74,14 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273917,
+				tcgplayer: 44458
+			}
+		},
+		{
+			type: "normal",
 			thirdParty: {
 				cardmarket: 273917,
 				tcgplayer: 44458
@@ -83,17 +90,12 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy",
 			thirdParty: {
 				cardmarket: 273917,
 				tcgplayer: 44458
 			}
 		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright"
-		}
-	]
+	],
 }
 
 export default card
