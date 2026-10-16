@@ -6,6 +6,7 @@ const rc: Set = {
 
 	name: {
 		en: "Radiant Collection",
+		es: "Colección Radiante",
 		fr: "Radiant Collection"
 	},
 
