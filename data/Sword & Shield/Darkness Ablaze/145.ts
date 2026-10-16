@@ -92,7 +92,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying."
+		en: "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying.",
+		de: "Auf der Suche nach Käfer-Pokémon fliegen Schwärme von ihnen durchs Land. Ihr Ruf erzeugt großen Lärm."
 	},
 
 	variants: [

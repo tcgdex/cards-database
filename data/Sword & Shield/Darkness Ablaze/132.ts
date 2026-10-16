@@ -104,7 +104,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "They came over from another region long ago and worked together with humans. Their green skin is resistant to water."
+		en: "They came over from another region long ago and worked together with humans. Their green skin is resistant to water.",
+		de: "Seine grüne Haut ist wasserresistent. Es kam vor langer Zeit aus einer anderen Region und verrichtete mit den Menschen Arbeiten."
 	},
 
 	variants: [

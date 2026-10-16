@@ -96,7 +96,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "This Pokémon hides in the heart of sandstorms it creates and seldom appears where people can see it."
+		en: "This Pokémon hides in the heart of sandstorms it creates and seldom appears where people can see it.",
+		de: "Da es sich stets im Zentrum des von ihm entfachten Sandsturms aufhält, bekommen Menschen es so gut wie nie zu Gesicht."
 	},
 
 	variants: [

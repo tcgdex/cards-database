@@ -98,7 +98,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "From its spikes, it launches powerful blasts of electricity. Its red core contains an enormous amount of energy."
+		en: "From its spikes, it launches powerful blasts of electricity. Its red core contains an enormous amount of energy.",
+		de: "Die Stachelspitzen können starke Elektrizität abfeuern. Im roten Zentralbestandteil sind Unmengen von Energie gespeichert."
 	},
 
 	variants: [

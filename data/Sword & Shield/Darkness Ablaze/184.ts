@@ -39,7 +39,7 @@ const card: Card = {
 				es: "Este Pokémon obtiene 20 PS más por cada Energía Metal unida a él.",
 				it: "Questo Pokémon ha 20 PS in più per ogni Energia Metal a esso assegnata.",
 				pt: "Este Pokémon recebe 20 PS a mais para cada Energia Metal ligada a ele.",
-				de: "Dieses Pokémon erhält für jede an es angelegte Metal-Energie +20 KP."
+				de: "Dieses Pokémon erhält für jede an es angelegte {M}-Energie +20 KP."
 			},
 		},
 	],

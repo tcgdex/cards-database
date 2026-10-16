@@ -88,7 +88,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "When its anger reaches a breaking point, this Pokémon unleashes a fierce blizzard that freezes every creature around it, be they friend or foe."
+		en: "When its anger reaches a breaking point, this Pokémon unleashes a fierce blizzard that freezes every creature around it, be they friend or foe.",
+		de: "Wenn es in Rage gerät, erzeugt es gewaltige Eisböen, die sowohl Freund als auch Feind zu Eisklötzen gefrieren lassen."
 	},
 
 	variants: [

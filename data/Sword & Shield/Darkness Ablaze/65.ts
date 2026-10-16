@@ -97,7 +97,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "In ancient times, it was unbeatable thanks to its powerful lower body, but it went extinct anyway after it depleted all its plant-based food sources."
+		en: "In ancient times, it was unbeatable thanks to its powerful lower body, but it went extinct anyway after it depleted all its plant-based food sources.",
+		de: "Dank seines kräftigen Unterkörpers war es in der Urzeit unbesiegbar, doch es fraß seine Pflanzennahrung restlos auf und starb daher aus."
 	},
 
 	variants: [

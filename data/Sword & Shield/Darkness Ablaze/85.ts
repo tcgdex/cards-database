@@ -89,7 +89,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground."
+		en: "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
+		de: "Diese Digda-Drillinge graben sich manchmal bis zu 100 km tief in den Erdboden und lösen dadurch Erdbeben aus."
 	},
 
 	variants: [

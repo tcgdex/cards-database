@@ -80,7 +80,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The lightning-wielding guardian deity of Melemele, Tapu Koko is brimming with curiosity and appears before people from time to time."
+		en: "The lightning-wielding guardian deity of Melemele, Tapu Koko is brimming with curiosity and appears before people from time to time.",
+		de: "Der Schutzpatron Mele-Meles gebietet über Blitz und Donner. Dieses lebhafte, neugierige Pokémon zeigt sich ab und an den Menschen."
 	},
 
 	variants: [

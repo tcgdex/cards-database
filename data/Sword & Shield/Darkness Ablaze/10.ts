@@ -66,7 +66,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It moves with blinding speed and lobs poison at foes. Featuring Accelgor as a main character is a surefire way to make a movie or comic popular."
+		en: "It moves with blinding speed and lobs poison at foes. Featuring Accelgor as a main character is a surefire way to make a movie or comic popular.",
+		de: "Im Kampf spuckt es mit flinken Bewegungen Gift. Filme und Comics mit Hydragil in der Hauptrolle erfreuen sich großer Beliebtheit."
 	},
 
 	variants: [
