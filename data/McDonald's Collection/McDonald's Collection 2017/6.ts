@@ -9,6 +9,7 @@ const card: Card = {
 	name: {
 		en: "Cosmog",
 		fr: "Cosmog",
+		de: "Cosmog"
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -25,10 +26,12 @@ const card: Card = {
 			name: {
 				en: "Dust Gathering",
 				fr: "Ramasse Poussière",
+				de: "Staubfänger"
 			},
 			effect: {
 				en: "Draw a card",
 				fr: "Piochez une carte.",
+				de: "Ziehe 1 Karte."
 			},
 		},
 	],

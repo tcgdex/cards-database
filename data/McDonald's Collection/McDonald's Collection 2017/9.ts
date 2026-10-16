@@ -9,6 +9,7 @@ const card: Card = {
 	name: {
 		en: "Alolan Diglett",
 		fr: "Taupiqueur d'Alola",
+		de: "Alola-Digda"
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -23,10 +24,12 @@ const card: Card = {
 			name: {
 				en: "Spelunk",
 				fr: "Spéléologue",
+				de: "Höhlenkunde"
 			},
 			effect: {
 				en: "Look at the top 3 cards of your deck and put them back in any order.",
 				fr: "Regardez les 3 cartes du dessus de votre deck et replacez-les dans l'ordre de votre choix.",
+				de: "Schau dir die obersten 3 Karten deines Decks an und lege sie in beliebiger Reihenfolge zurück auf dein Deck."
 			},
 		},
 		{
@@ -36,6 +39,7 @@ const card: Card = {
 			name: {
 				en: "Mud-Slap",
 				fr: "Coud'Boue",
+				de: "Lehmschelle"
 			},
 			damage: "10",
 		},

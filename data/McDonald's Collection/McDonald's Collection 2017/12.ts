@@ -9,6 +9,7 @@ const card: Card = {
 	name: {
 		en: "Yungoos",
 		fr: "Manglouton",
+		de: "Mangunior"
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -25,6 +26,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 			damage: "10",
 		},
@@ -36,6 +38,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				de: "Biss"
 			},
 			damage: "20",
 		},

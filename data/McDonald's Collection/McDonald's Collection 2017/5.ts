@@ -9,6 +9,7 @@ const card: Card = {
 	name: {
 		en: "Pikachu",
 		fr: "Pikachu",
+		de: "Pikachu"
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -25,10 +26,12 @@ const card: Card = {
 			name: {
 				en: "Thunder Wave",
 				fr: "Cage-Éclair",
+				de: "Donnerwelle"
 			},
 			effect: {
 				en: "Flip a coin, If heads your opponent's active Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 		},
 		{
@@ -40,6 +43,7 @@ const card: Card = {
 			name: {
 				en: "Electro Ball",
 				fr: "Boule Élek",
+				de: "Elektroball"
 			},
 			damage: "50",
 		},
