@@ -3,12 +3,12 @@ import Set from '../Furious Fists'
 
 const card: Card = {
 	name: {
-		en: "Dragonite EX",
-		fr: "Dracolosse EX",
-		es: "Dragonite EX",
-		it: "Dragonite EX",
-		pt: "Dragonite EX",
-		de: "Dragoran EX"
+		en: "Dragonite-EX",
+		fr: "Dracolosse-EX",
+		es: "Dragonite-EX",
+		it: "Dragonite-EX",
+		pt: "Dragonite-EX",
+		de: "Dragoran-EX"
 	},
 
 	illustrator: "Eske Yoshinob",
