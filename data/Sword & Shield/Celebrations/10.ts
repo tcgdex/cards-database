@@ -74,7 +74,8 @@ const card: Card = {
 	regulationMark: "E",
 
 	description: {
-		en: "Concealing itself in lightning clouds, it flies throughout the Unova region. It creates electricity in its tail."
+		en: "Concealing itself in lightning clouds, it flies throughout the Unova region. It creates electricity in its tail.",
+		de: "Sein Schweif erzeugt Strom. Es verbirgt sich hinter dichten Gewitterwolken und fliegt durch den Luftraum über Einall."
 	},
 
 	dexId: [644],
