@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Este ataque hace 50 puntos de daño a 1 de los Pokémon de tu rival. Este daño no se ve afectado por Debilidad o Resistencia.",
 				it: "Questo attacco infligge 50 danni a uno dei Pokémon del tuo avversario. Questi danni non sono influenzati dalla debolezza o dalla resistenza.",
 				pt: "Este ataque causa 50 pontos de dano a 1 dos Pokémon do seu oponente. Este dano não é afetado por Fraqueza ou Resistência.",
-				de: "Diese Attacke fügt 1 Pokémon deines Gegners 50 Schadenspunkte zu. Der Schaden dieser Attacke wird durch Schwäche und Resistenz nicht verändert."
+				de: "Diese Attacke fügt 1 Pokémon deines Gegners 50 Schadenspunkte zu. Der Schaden dieser Attacke wird durch Schwäche und Resistenz nicht verändert"
 			},
 
 		},
@@ -91,7 +91,7 @@ const card: Card = {
 				es: "Estrella Psíquica GX",
 				it: "Psiconova GX",
 				pt: "Supernova Psíquica GX",
-				de: "Psycho-Nova GX"
+				de: "Psycho-Nova-GX"
 			},
 			effect: {
 				en: "Prevent all damage done to this Pokémon by attacks during your opponent’s next turn. (You can’t use more than 1 GX attack in a game.)",

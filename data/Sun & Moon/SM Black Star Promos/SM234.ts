@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "It's in its nature to store electricity. It feels stressed now and then if it's unable to fully discharge the electricity.",
+		de: "Es liegt in seiner Natur, konstant Elektrizität in sich anzustauen. Kann es diese nicht regelmäßig entladen, löst dies Stress aus."
 	},
 
 	variants: [

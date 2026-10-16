@@ -46,7 +46,7 @@ const card: Card = {
 				es: "El Pokémon Defensor pasa a estar Dormido.",
 				it: "Il Pokémon Difensore è Addormentato.",
 				pt: "O Pokémon Defensor agora está Adormecido.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				de: "Das Aktive Pokémon deines Gegners schläft jetzt."
 			},
 			damage: 30,
 
@@ -71,7 +71,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cruz, descarta 1 Energía Fire y 1 Energía Psychic de este Pokémon.",
 				it: "Lancia una moneta. Se esce croce, scarta un’Energia Fire e un’Energia Psychic assegnate a questo Pokémon.",
 				pt: "Jogue 1 moeda. Se sair coroa, descarte 1 Energia Fire e 1 Energia Psychic deste Pokémon.",
-				de: "Wirf 1 Münze. Lege bei Zahl 1 Fire-Energie und 1 Psychic-Energie von diesem Pokémon auf deinen Ablagestapel."
+				de: "Wirf 1 Münze. Lege bei Zahl 1 {R}-Energie und 1 {P}-Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 110,
 
@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "It can telepathically communicate with people. It changes its appearance using its down that refracts light.",
+		de: "Mittels Telepathie kann es mit Menschen kommunizieren. Mit seinen Daunen, die das Licht brechen, kann es sein Aussehen verändern."
 	},
 
 	variants: [

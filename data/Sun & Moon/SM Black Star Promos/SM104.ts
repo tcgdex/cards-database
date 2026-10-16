@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cosmoem",
 		fr: "Cosmovum",
+		de: "Cosmovum"
 	},
 	stage: "Stage2",
 	suffix: "GX",
@@ -85,7 +86,7 @@ const card: Card = {
 				es: "Prominencia GX",
 				it: "Statura GX",
 				pt: "Proeminência GX",
-				de: "Prominenz GX"
+				de: "Prominenz-GX"
 			},
 			effect: {
 				en: "Heal all damage from all of your Pokémon. (You can’t use more than 1 GX attack in a game.)",

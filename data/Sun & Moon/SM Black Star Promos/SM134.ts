@@ -81,7 +81,7 @@ const card: Card = {
 				es: "Ciclón Destructivo GX",
 				it: "Ciclone Distruttivo GX",
 				pt: "Ciclone Destruidor GX",
-				de: "Zerstörerisches Sturmtief GX"
+				de: "Zerstörerisches Sturmtief-GX"
 			},
 			effect: {
 				en: "Discard all Energy from your opponent’s Active Pokémon. (You can’t use more than 1 GX attack in a game.)",

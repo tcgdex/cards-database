@@ -39,7 +39,7 @@ const card: Card = {
 			es: "Descarta cartas aleatorias de la mano de tu rival hasta que este tenga 5 cartas en su mano.",
 			it: "Scarta delle carte a caso dalla mano del tuo avversario fino a lasciarlo con cinque carte in mano.",
 			pt: "Descarte cartas aleatórias da mão do seu oponente até que ele(a) tenha 5 cartas na própria mão.",
-			de: "Lege so lang zufällige Karten aus der Hand deines Gegners auf seinen Ablagestapel, bis er 5 Karten auf der Hand hat."
+			de: "Lege so lang zufällige Karten aus der Hand deines Gegners auf seinen Ablagestapel, bis er 5 Karten auf seiner Hand hat."
 		},
 
 		cost: ["Colorless"]
@@ -76,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "As it did more and more with its tail, its hands became clumsy. It makes its nest high in the treetops.",
+		de: "Der übermäßige Einsatz seines Schweifes hatte die Zurückbildung seiner Hände zur Folge. Es lebt in den Kronen hoher Bäume."
 	},
 
 	variants: [

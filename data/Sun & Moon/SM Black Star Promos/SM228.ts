@@ -53,6 +53,7 @@ const card: Card = {
 
 	description: {
 		en: "Mewtwo was on a rampage searching for meaning to its existence in this world when Giovanni suppressed and controlled its power.",
+		de: "Voller Rage war Mewtu auf der Suche nach dem Sinn seiner Existenz in dieser Welt, als Giovanni seine Macht unterdrückte und kontrollierte."
 	},
 
 	variants: [
