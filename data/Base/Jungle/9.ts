@@ -93,7 +93,7 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"],
+			subtype: "missing-expansion-symbol",
 			thirdParty: {
 				cardmarket: 273806,
 				tcgplayer: 45135
@@ -101,7 +101,11 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			subtype: "missing-expansion-symbol",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273806,
+				tcgplayer: 45135
+			}
 		},
 		{
 			type: "holo",
