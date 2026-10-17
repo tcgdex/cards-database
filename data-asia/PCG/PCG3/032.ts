@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "ドラゴンベール",
 			},
 			effect: {
-				ja: "Kingdraが遊んでいる限り、それぞれのアクティブなPokã©Monには弱点はありません。",
+				ja: "Kingdraが遊んでいる限り、それぞれのアクティブなPokéMonには弱点はありません。",
 			},
 		}],
 

@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "デルタスイッチ",
 			},
 			effect: {
-				ja: "ターン中に、手からMewtwoをベンチに置くと、Pokã©Monに取り付けられた基本エネルギーカードを他のPokã©Mon（Mewtwoを除く）に任意の方法で移動できます。",
+				ja: "ターン中に、手からMewtwoをベンチに置くと、PokéMonに取り付けられた基本エネルギーカードを他のPokéMon（Mewtwoを除く）に任意の方法で移動できます。",
 			},
 		}],
 

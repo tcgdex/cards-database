@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "充電充電",
 			},
 			effect: {
-				ja: "ターン中に、手からフライゴンEXをプレイしてPokã©Monの1つを進化させると、Discard Pileを最大2枚のエネルギーカードで検索し、Flygon Exに取り付けることができます。",
+				ja: "ターン中に、手からフライゴンEXをプレイしてPokéMonの1つを進化させると、Discard Pileを最大2枚のエネルギーカードで検索し、Flygon Exに取り付けることができます。",
 			},
 		}],
 

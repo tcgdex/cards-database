@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "ストライクバック",
 			},
 			effect: {
-				ja: "RocketのHitmonchan Exがアクティブなポカモンであり、対戦相手の攻撃によって損傷を受けている場合（RocketのHitmonchan Exがノックアウトされたとしても）、攻撃するPokã©Monに2つのダメージカウンターを置きます。",
+				ja: "RocketのHitmonchan Exがアクティブなポカモンであり、対戦相手の攻撃によって損傷を受けている場合（RocketのHitmonchan Exがノックアウトされたとしても）、攻撃するPokéMonに2つのダメージカウンターを置きます。",
 			},
 		}],
 

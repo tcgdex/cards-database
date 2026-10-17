@@ -21,7 +21,7 @@ const card: Card = {
                 ja: "保護",
             },
             effect: {
-                ja: "対戦相手のPokã©Mon-ExによってDewgongに行われた損害を含む攻撃のすべての影響を防ぎます。",
+                ja: "対戦相手のPokéMon-ExによってDewgongに行われた損害を含む攻撃のすべての影響を防ぎます。",
             },
         }],
 

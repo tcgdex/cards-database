@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "悪臭",
 			},
 			effect: {
-				ja: "MUKがあなたのアクティブなポカモンである限り、各プレイヤーのPokã©MonはPokã©Powersを使用できません。",
+				ja: "MUKがあなたのアクティブなポカモンである限り、各プレイヤーのPokéMonはPokéPowersを使用できません。",
 			},
 		}],
 
