@@ -2,9 +2,12 @@ import { Card } from "../../../interfaces"
 import Set from "../S5R"
 
 const card: Card = {
+	dexId: [870],
+	rarity: "Uncommon",
 	set: Set,
 
 	name: {
+		ja: "タイレーツ",
 		'zh-tw': "列陣兵",
 		th: "ไทเรสึ"
 	},
@@ -15,6 +18,7 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
+		ja: "６匹で １匹の ポケモン。 隊列を 組み替えながら チームワークで 戦うのだ。",
 		'zh-tw': "６隻為一體的寶可夢。慣於團隊行動，會一邊變換陣形一邊戰鬥。",
 		th: "โปเกมอน 6 ตัวรวมกันเป็น 1 ตัว เปลี่ยนรูปแบบการเรียงแถวไปพลางต่อสู้กันเป็นทีมเวิร์ก"
 	},
@@ -23,11 +27,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
+			ja: "れんげきのじん",
 			'zh-tw': "連擊之陣",
 			th: "กองพลจู่โจมต่อเนื่อง"
 		},
 
 		effect: {
+			ja: "自分の場の「れんげき」のポケモンの数×20ダメージ。",
 			'zh-tw': "造成自己的場上「連擊」寶可夢的數量×20點傷害。",
 			th: "แดเมจจะเท่ากับจำนวนโปเกมอน บนกระดานฝ่ายเรา x20"
 		},
@@ -42,7 +48,10 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "E"
+	regulationMark: "E",
+	variants: [
+		{ type: "normal", thirdParty: { cardmarket: 533817, tcgplayer: 569090, cardtrader: 240058 } }
+	]
 }
 
 export default card
