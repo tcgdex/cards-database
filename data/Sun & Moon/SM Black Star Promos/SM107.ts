@@ -94,6 +94,7 @@ const card: Card = {
 
 	description: {
 		en: "This is its form with it is devouring the light of Solgaleo. It pounces on its foes and then slashes them with the claws on its four limbs and back.",
+		de: "Necrozma nimmt diese Form an, wenn es das Licht von Solgaleo verschlingt. Es schlitzt Gegner mit seinen vielen scharfen Krallen auf."
 	},
 
 	variants: [

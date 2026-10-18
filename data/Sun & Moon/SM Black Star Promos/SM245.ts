@@ -59,7 +59,7 @@ const card: Card = {
 			es: "Nohahex",
 			it: "Nohahex",
 			pt: "Nohahex",
-			de: "Nohahex"
+			de: "Nonafluch"
 		},
 
 		effect: {
@@ -88,6 +88,7 @@ const card: Card = {
 
 	description: {
 		en: "Feared for its wrath and the curses it spreads, this Pokémon will also, on a whim, cast spells that help people.",
+		de: "Es wird für seine Flüche und Beschwörungen gefürchtet. Wenn ihm danach ist, spricht es auch mal Bannsprüche, die Menschen helfen."
 	},
 
 	variants: [
