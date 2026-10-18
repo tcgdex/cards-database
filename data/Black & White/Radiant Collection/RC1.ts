@@ -7,7 +7,7 @@ const card: Card = {
 		es: "Chikorita",
 	},
 
-	illustrator: "Sonosuke Sakuma",
+	illustrator: "Sanosuke Sakuma",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
@@ -31,11 +31,12 @@ const card: Card = {
 			],
 			name: {
 				en: "Run Around",
+				es: "Correr Alrededor",
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon.",
+				es: "Cambia este Pokémon por 1 de tus Pokémon en Banca.",
 			},
-
 		},
 		{
 			cost: [
@@ -44,10 +45,10 @@ const card: Card = {
 			],
 			name: {
 				en: "Vine Whip",
+				es: "Látigo Cepa",
 			},
 
 			damage: 20,
-
 		},
 	],
 
@@ -58,19 +59,15 @@ const card: Card = {
 		},
 	],
 
-	resistances: [
-		
-	],
-
 	retreat: 1,
 
 	description: {
 		en: "Running around, climbing trees, playing hide-and-seek! Another wonderful day begins!",
+		es: "¡Correteando, subiendo a los árboles y jugando al escondite! ¡Comienza otro maravilloso día!",
 	},
 
 	thirdParty: {
-		cardmarket: 280741,
-		tcgplayer: 90081
+		tcgplayer: 113742
 	}
 }
 
