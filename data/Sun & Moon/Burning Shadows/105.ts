@@ -98,19 +98,22 @@ const card: Card = {
 		de: "Zusätzliche Software wurde installiert, um das Pokémon zu verbessern. Etwas ging jedoch schief und seitdem benimmt es sich seltsam."
 	},
 
-	thirdParty: {
-		cardmarket: 299506,
-		tcgplayer: 138601
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 299506,
+				tcgplayer: 138601
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299506,
+				tcgplayer: 138601
+			}
+		},
+	],
 }
 
 export default card

@@ -86,22 +86,25 @@ const card: Card = {
 		de: "Es schlägt im Kampf mit seinem Schwanz nach seinen Gegnern. Anschließend zerfetzt es die Gegner mit seinen scharfen Klauen."
 	},
 
-	thirdParty: {
-		cardmarket: 299425,
-		tcgplayer: 138485
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299425,
+				tcgplayer: 138485
+			}
 		},
 		{
 			type: "holo"
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299425,
+				tcgplayer: 138485
+			}
+		},
+	],
 }
 
 export default card

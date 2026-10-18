@@ -109,19 +109,22 @@ const card: Card = {
 		de: "Es berührt Gegner mit seinen Schweifspitzen und entlädt dann starke Elektrizität. So kann es sie im Nullkommanichts verkohlen."
 	},
 
-	thirdParty: {
-		cardmarket: 299447,
-		tcgplayer: 138525
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299447,
+				tcgplayer: 138525
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299447,
+				tcgplayer: 138525
+			}
+		},
+	],
 }
 
 export default card

@@ -95,19 +95,22 @@ const card: Card = {
 		de: "Sleima, die zur Lösung der Abfallproblematik aus anderen Regionen nach Alola gebracht wurden, entwickelten sich eines Tages zu dieser Form."
 	},
 
-	thirdParty: {
-		cardmarket: 299485,
-		tcgplayer: 138571
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299485,
+				tcgplayer: 138571
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299485,
+				tcgplayer: 138571
+			}
+		},
+	],
 }
 
 export default card

@@ -92,19 +92,22 @@ const card: Card = {
 		de: "Wenn es über den Fortsatz an seinem Kopf Psycho-Kräfte freisetzt, ertönt in seiner Umgebung ein unangenehmes Zähneknirschen."
 	},
 
-	thirdParty: {
-		cardmarket: 299443,
-		tcgplayer: 138518
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299443,
+				tcgplayer: 138518
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299443,
+				tcgplayer: 138518
+			}
+		},
+	],
 }
 
 export default card

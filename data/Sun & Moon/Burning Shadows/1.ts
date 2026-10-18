@@ -68,19 +68,22 @@ const card: Card = {
 		de: "Es versucht, angreifende Vogel-Pokémon mit dem Gestank aus seinen Antennen in die Flucht zu schlagen. Das gelingt ihm aber nicht immer."
 	},
 
-	thirdParty: {
-		cardmarket: 299408,
-		tcgplayer: 138271
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299408,
+				tcgplayer: 138271
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299408,
+				tcgplayer: 138271
+			}
+		},
+	],
 }
 
 export default card

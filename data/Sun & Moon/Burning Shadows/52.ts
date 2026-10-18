@@ -105,19 +105,22 @@ const card: Card = {
 		de: "Blickt man direkt in den Feuerball in seinem Inneren, wird einem die Seele ausgesaugt."
 	},
 
-	thirdParty: {
-		cardmarket: 299456,
-		tcgplayer: 138534
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299456,
+				tcgplayer: 138534
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299456,
+				tcgplayer: 138534
+			}
+		},
+	],
 }
 
 export default card

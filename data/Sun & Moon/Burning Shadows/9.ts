@@ -68,19 +68,22 @@ const card: Card = {
 		de: "Es ist scheu und fürchtet sich, wenn es nicht Teil des Schwarms ist. Das Muster auf seinem Rücken ist bei jedem Exemplar minimal anders."
 	},
 
-	thirdParty: {
-		cardmarket: 299416,
-		tcgplayer: 138279
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299416,
+				tcgplayer: 138279
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299416,
+				tcgplayer: 138279
+			}
+		},
+	],
 }
 
 export default card

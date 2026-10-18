@@ -97,19 +97,22 @@ const card: Card = {
 		de: "Man sagt, es hause in Unterwasserhöhlen. Es kann mächtige Strudel generieren, wenn es gähnt."
 	},
 
-	thirdParty: {
-		cardmarket: 299568,
-		tcgplayer: 138511
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 299568,
+				tcgplayer: 138511
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299568,
+				tcgplayer: 138511
+			}
+		},
+	],
 }
 
 export default card

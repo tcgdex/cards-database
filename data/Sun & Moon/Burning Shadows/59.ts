@@ -67,19 +67,22 @@ const card: Card = {
 		de: "Damit die starken Psycho-Kräfte dieses Pokémon nicht unkontrolliert nach außen dringen, ist das Organ, das diese freisetzt, von seinen Ohren bedeckt."
 	},
 
-	thirdParty: {
-		cardmarket: 299463,
-		tcgplayer: 138541
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299463,
+				tcgplayer: 138541
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299463,
+				tcgplayer: 138541
+			}
+		},
+	],
 }
 
 export default card

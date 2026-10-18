@@ -106,19 +106,22 @@ const card: Card = {
 		de: "Unter allen Pokémon verfügt es über die stärksten hypnotischen Kräfte, mit denen es Gegner nach Belieben kontrollieren kann."
 	},
 
-	thirdParty: {
-		cardmarket: 299492,
-		tcgplayer: 138582
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299492,
+				tcgplayer: 138582
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299492,
+				tcgplayer: 138582
+			}
+		},
+	],
 }
 
 export default card

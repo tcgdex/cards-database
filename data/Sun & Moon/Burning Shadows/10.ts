@@ -99,19 +99,22 @@ const card: Card = {
 		de: "Es heißt, es ziehe seine Energie aus dem Licht der Sterne, aber es frisst trotzdem mit Wonne Beeren. Tagsüber schläft es im Gras."
 	},
 
-	thirdParty: {
-		cardmarket: 299417,
-		tcgplayer: 138280
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299417,
+				tcgplayer: 138280
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299417,
+				tcgplayer: 138280
+			}
+		},
+	],
 }
 
 export default card

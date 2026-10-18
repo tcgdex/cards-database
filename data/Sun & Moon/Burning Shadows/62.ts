@@ -109,19 +109,22 @@ const card: Card = {
 		de: "Brachte Menschen dazu, den Sandhügel zu einer stattlichen Sandburg auszubauen. Auch seine Flüche haben an Stärke gewonnen."
 	},
 
-	thirdParty: {
-		cardmarket: 299466,
-		tcgplayer: 138544
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 299466,
+				tcgplayer: 138544
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299466,
+				tcgplayer: 138544
+			}
+		},
+	],
 }
 
 export default card

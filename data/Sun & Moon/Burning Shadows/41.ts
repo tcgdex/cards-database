@@ -106,19 +106,50 @@ const card: Card = {
 		de: "Seine elektrischen Ladungen erreichen bis zu 100 000 V. Bei unvorsichtigem Kontakt wird sogar ein indischer Elefant bewusstlos."
 	},
 
-	thirdParty: {
-		cardmarket: 299445,
-		tcgplayer: 138523
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 299445,
+				tcgplayer: 138523
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: 'holo',
+			stamp: ['3rd-place', 'poke-ball-league'],
+			thirdParty: {
+				cardmarket: 450213
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['4th-place', 'poke-ball-league'],
+			thirdParty: {
+				cardmarket: 450218
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['1st-place', 'poke-ball-league'],
+			thirdParty: {
+				cardmarket: 450203
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['2nd-place', 'poke-ball-league'],
+			thirdParty: {
+				cardmarket: 450208
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299445,
+				tcgplayer: 138523
+			}
+		},
+	],
 }
 
 export default card

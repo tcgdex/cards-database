@@ -98,19 +98,29 @@ const card: Card = {
 		de: "Dieses Pokémon ist eine Mutation von Rocara. Sein rosafarben schimmernder Körper gilt als schönster Anblick überhaupt."
 	},
 
-	thirdParty: {
-		cardmarket: 299495,
-		tcgplayer: 138588
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 299495,
+				tcgplayer: 138588
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: 'holo',
+			stamp: ['poke-ball-league'],
+			thirdParty: {
+				cardmarket: 371622
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299495,
+				tcgplayer: 138588
+			}
+		},
+	],
 }
 
 export default card

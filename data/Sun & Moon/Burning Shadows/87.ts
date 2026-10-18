@@ -101,19 +101,29 @@ const card: Card = {
 		de: "Es vertreibt Eindringlinge aus seinem Revier, indem es sie in Schlaf versetzt und mit Alpträumen quält."
 	},
 
-	thirdParty: {
-		cardmarket: 299489,
-		tcgplayer: 138577
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 299489,
+				tcgplayer: 138577
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: 'holo',
+			stamp: ['poke-ball-league'],
+			thirdParty: {
+				cardmarket: 371621
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299489,
+				tcgplayer: 138577
+			}
+		},
+	],
 }
 
 export default card
