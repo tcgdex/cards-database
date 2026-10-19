@@ -83,6 +83,14 @@ const card: Card = {
 		},
 		{
 			type: "normal",
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273911,
+				tcgplayer: 44452
+			}
+		},
+		{
+			type: "normal",
 			stamp: ["1st-edition"],
 			thirdParty: {
 				cardmarket: 273911,
@@ -93,11 +101,7 @@ const card: Card = {
 			type: "normal",
 			stamp: ["wotc"]
 		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright"
-		}
-	]
+	],
 }
 
 export default card
