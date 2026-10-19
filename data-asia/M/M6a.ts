@@ -5,6 +5,7 @@ const set: Set = {
 	id: "M6a",
 	name: {
 		ja: "30th CELEBRATION",
+		id: "Perayaan 30 Tahun",
 	},
 
 	serie: serie,

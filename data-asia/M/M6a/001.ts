@@ -5,6 +5,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		ja: "タマタマ",
+		id: "Exeggcute",
 	},
 
 	illustrator: "Nelnal",
@@ -14,16 +15,21 @@ const card: Card = {
 
 	description: {
 		ja: "タマタマだけに 伝わる テレパシーを 出し合っているので どんなときでも ６匹 集まれる。",
+		id: "Karena saling mengirimkan telepati yang hanya diterima oleh Exeggcute, Pokémon ini selalu terkumpul 6 ekor pada saat apa pun.",
 	},
 
 	stage: "Basic",
 
 	attacks: [
 		{
-			name: { ja: "さいみんじゅつ" },
+			name: { 
+				ja: "さいみんじゅつ" , 
+				id: "Hipnotis",
+			},
 			cost: ["Colorless"],
 			effect: {
 				ja: "相手のバトルポケモンをねむりにする。",
+				id: "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur.",
 			},
 		},
 	],
