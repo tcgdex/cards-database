@@ -3,12 +3,12 @@ import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Toxicroak EX",
-		fr: "Coatox EX",
-		es: "Toxicroak EX",
-		it: "Toxicroak EX",
-		pt: "Toxicroak EX",
-		de: "Toxiquak EX"
+		en: "Toxicroak-EX",
+		fr: "Coatox-EX",
+		es: "Toxicroak-EX",
+		it: "Toxicroak-EX",
+		pt: "Toxicroak-EX",
+		de: "Toxiquak-EX"
 	},
 
 	illustrator: "PLANETA",

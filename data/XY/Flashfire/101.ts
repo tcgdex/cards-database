@@ -3,12 +3,12 @@ import Set from '../Flashfire'
 
 const card: Card = {
 	name: {
-		en: "Magnezone EX",
-		fr: "Magnézone EX",
-		es: "Magnezone EX",
-		it: "Magnezone EX",
-		pt: "Magnezone EX",
-		de: "Magnezone EX"
+		en: "Magnezone-EX",
+		fr: "Magnézone-EX",
+		es: "Magnezone-EX",
+		it: "Magnezone-EX",
+		pt: "Magnezone-EX",
+		de: "Magnezone-EX"
 	},
 
 	illustrator: "Ryo Ueda",

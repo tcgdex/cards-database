@@ -3,12 +3,12 @@ import Set from '../Steam Siege'
 
 const card: Card = {
 	name: {
-		en: "M Gardevoir EX",
-		fr: "M-Gardevoir EX",
-		es: "M-Gardevoir EX",
-		it: "M Gardevoir EX",
-		pt: "M-Gardevoir EX",
-		de: "M-Guardevoir EX"
+		en: "M Gardevoir-EX",
+		fr: "M-Gardevoir-EX",
+		es: "M-Gardevoir-EX",
+		it: "M Gardevoir-EX",
+		pt: "M-Gardevoir-EX",
+		de: "M-Guardevoir-EX"
 	},
 
 	illustrator: "5ban Graphics",
