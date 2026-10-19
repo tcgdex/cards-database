@@ -2,9 +2,13 @@ import { Card } from "../../../interfaces"
 import Set from "../S5R"
 
 const card: Card = {
+	evolveFrom: { ja: "コマタナ" },
+	dexId: [625],
+	rarity: "Common",
 	set: Set,
 
 	name: {
+		ja: "キリキザン",
 		'zh-tw': "劈斬司令",
 		th: "คิริคิซัน"
 	},
@@ -15,6 +19,7 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
+		ja: "刃を 研ぐ 石が ある 場所を めぐって オノンドと 激しい 争いを 繰りひろげる。",
 		'zh-tw': "為了搶佔能找到磨刀石的地方，和斧牙龍展開了激烈的鬥爭。",
 		th: "เปิดศึกอย่างรุนแรงกับโอโนนโดะเกี่ยวกับเรื่องสถานที่ที่มีหินลับดาบ"
 	},
@@ -23,6 +28,7 @@ const card: Card = {
 
 	attacks: [{
 		name: {
+			ja: "きりさく",
 			'zh-tw': "劈開",
 			th: "ฟันแหลก"
 		},
@@ -31,11 +37,13 @@ const card: Card = {
 		cost: ["Colorless"]
 	}, {
 		name: {
+			ja: "はがねぎり",
 			'zh-tw': "鋼斬",
 			th: "ตัดโลหะ"
 		},
 
 		effect: {
+			ja: "相手のバトルポケモンが[鋼]ポケモンなら、90ダメージ追加。",
 			'zh-tw': "若對手的戰鬥寶可夢為【鋼】寶可夢，則增加90點傷害。",
 			th: "ถ้าโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นโปเกมอน [โลหะ] การโจมตีนี้จะเพิ่มแดเมจอีก 90"
 		},
@@ -55,7 +63,10 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "E"
+	regulationMark: "E",
+	variants: [
+		{ type: "normal", thirdParty: { cardmarket: 533842, tcgplayer: 569095, cardtrader: 240065 } }
+	]
 }
 
 export default card
