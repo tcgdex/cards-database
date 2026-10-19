@@ -1,0 +1,48 @@
+import { Card } from "../../../interfaces"
+import Set from "../Play! Pokémon Prize Pack Series 06"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		en: "Night Stretcher",
+		fr: "Civière Nocturne",
+		es: "Camilla Nocturna",
+		it: "Barella Notturna",
+		pt: "Maca Noturna",
+		de: "Nachttrage"
+	},
+
+	rarity: "Uncommon",
+	category: "Trainer",
+
+	effect: {
+		en: "Put a Pokémon or a Basic Energy card from your discard pile into your hand.",
+		fr: "Ajoutez un Pokémon ou une carte Énergie de base de votre pile de défausse à votre main.",
+		es: "Pon 1 Pokémon o 1 carta de Energía Básica de tu pila de descartes en tu mano.",
+		it: "Prendi un Pokémon o una carta Energia base dalla tua pila degli scarti e aggiungi la carta a quelle che hai in mano.",
+		pt: "Coloque um Pokémon ou uma carta de Energia Básica da sua pilha de descarte na sua mão.",
+		de: "Nimm 1 Pokémon oder 1 Basis-Energiekarte aus deinem Ablagestapel auf deine Hand. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
+	},
+
+	trainerType: "Item",
+	regulationMark: "H",
+
+
+	illustrator: "Toyste Beach",
+
+	
+
+	variants: [
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"],
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+		},
+	],
+}
+
+export default card
