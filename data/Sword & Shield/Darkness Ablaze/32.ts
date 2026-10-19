@@ -103,7 +103,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "Bird Pokémon make up most of its diet. It approaches at high speeds and smacks them down to the ground with its powerful kick."
+		en: "Bird Pokémon make up most of its diet. It approaches at high speeds and smacks them down to the ground with its powerful kick.",
+		de: "Fiaro ernährt sich vor allem von Vogel-Pokémon. Es nähert sich überfallartig seiner Beute und befördert sie mit einem kräftigen Tritt zu Boden."
 	},
 
 	variants: [

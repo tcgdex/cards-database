@@ -93,7 +93,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The phase of the moon apparently has some effect on its power. It's active on the night of a full moon."
+		en: "The phase of the moon apparently has some effect on its power. It's active on the night of a full moon.",
+		de: "Anscheinend steht die Zunahme seiner Kraft mit den Mondphasen in Verbindung, da es bei Vollmond aktiv wird."
 	},
 
 	variants: [

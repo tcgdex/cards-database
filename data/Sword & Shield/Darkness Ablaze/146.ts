@@ -96,7 +96,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It lives in forests and fields. Squabbles over territory occur when flocks collide."
+		en: "It lives in forests and fields. Squabbles over territory occur when flocks collide.",
+		de: "Es lebt in Wäldern und auf Wiesen. Treffen Schwärme aufeinander, streiten sie sich um das Revier."
 	},
 
 	variants: [

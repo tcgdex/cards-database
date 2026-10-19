@@ -40,7 +40,7 @@ const card: Card = {
 				es: "Si este Pokémon tiene alguna Energía Darkness unida a él, los ataques le hacen 20 puntos de daño menos (después de aplicar Debilidad y Resistencia).",
 				it: "Se questo Pokémon ha delle Energie Darkness assegnate, subisce 20 danni in meno dagli attacchi, dopo aver applicato debolezza e resistenza.",
 				pt: "Se este Pokémon tiver alguma Energia Darkness ligada a ele, receberá 20 pontos de dano a menos de ataques (depois de aplicar Fraqueza e Resistência).",
-				de: "Wenn an dieses Pokémon mindestens 1 Darkness-Energie angelegt ist, werden ihm durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+				de: "Wenn an dieses Pokémon mindestens 1 {D}-Energie angelegt ist, werden ihm durch Attacken 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -66,7 +66,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño más por cada Energía Darkness unida a este Pokémon.",
 				it: "Questo attacco infligge 20 danni in più per ogni Energia Darkness assegnata a questo Pokémon.",
 				pt: "Este ataque causa 20 pontos de dano a mais para cada Energia Darkness ligada a este Pokémon.",
-				de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Darkness-Energie 20 Schadenspunkte mehr zu."
+				de: "Diese Attacke fügt für jede an dieses Pokémon angelegten {D}-Energie 20 Schadenspunkte mehr zu."
 			},
 			damage: "60+",
 
@@ -87,7 +87,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It can lull people to sleep and make them dream. It is active during nights of the new moon."
+		en: "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
+		de: "Es kann andere in Schlaf versetzen und ihnen Träume geben. Es ist nur bei Neumond aktiv."
 	},
 
 	variants: [

@@ -72,7 +72,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "By drinking pure water, it grows its icy body. This Pokémon can be hard to find on days with warm, sunny weather."
+		en: "By drinking pure water, it grows its icy body. This Pokémon can be hard to find on days with warm, sunny weather.",
+		de: "Es vergrößert seinen Eiskörper, indem es klares Wasser trinkt. Bei gutem Wetter ist es eher selten anzutreffen."
 	},
 
 	variants: [

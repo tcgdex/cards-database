@@ -90,7 +90,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Because they scatter germs everywhere, they've long been targeted for extermination, leading to a steep decline in their population."
+		en: "Because they scatter germs everywhere, they've long been targeted for extermination, leading to a steep decline in their population.",
+		de: "Da es Krankheitskeime verbreitet, hat man lange versucht, es auszurotten. Heute sieht man es daher nur noch selten."
 	},
 
 	variants: [

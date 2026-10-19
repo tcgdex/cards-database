@@ -80,7 +80,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It dissolves and eats metal. Circulating liquid metal within its body is how it generates energy."
+		en: "It dissolves and eats metal. Circulating liquid metal within its body is how it generates energy.",
+		de: "Es schmilzt Metall ein und frisst es. In seinem Körper wandelt es das flüssig gewordene Metall in Energie um."
 	},
 
 	variants: [

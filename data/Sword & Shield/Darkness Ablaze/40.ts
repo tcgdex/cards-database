@@ -79,7 +79,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The reason it hasn't changed at all in a hundred million years is that it's apparently already a perfect life-form."
+		en: "The reason it hasn't changed at all in a hundred million years is that it's apparently already a perfect life-form.",
+		de: "Seine seit 100 Millionen Jahren unveränderte Gestalt wird als Zeichen dafür gesehen, dass es eine vollendete Lebensform ist."
 	},
 
 	variants: [

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Una vez durante el turno de cada jugador, ese jugador puede robar cartas hasta que tenga 3 cartas en su mano.",
 		it: "Una sola volta durante il turno di ciascun giocatore, quel giocatore può pescare fino ad avere tre carte in mano.",
 		pt: "Uma vez durante o turno de cada jogador, aquele jogador poderá comprar cartas até ter 3 cartas na própria mão.",
-		de: "Einmal während des Zuges jedes Spielers kann jener Spieler so lange Karten ziehen, bis er 3 Karten auf der Hand hat."
+		de: "Einmal während des Zuges jedes Spielers kann jener Spieler so lange Karten ziehen, bis er 3 Karten auf der Hand hat. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte auf den Ablagestapel, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit demselben Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

@@ -102,7 +102,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "This species lives in antique teapots. Most pots are forgeries, but on rare occasions, an authentic work is found."
+		en: "This species lives in antique teapots. Most pots are forgeries, but on rare occasions, an authentic work is found.",
+		de: "Sie lassen sich in alten Teekannen nieder. Die meisten dieser Kannen sind billige Fälschungen, aber es gibt auch ein paar sehr seltene Originale."
 	},
 
 	variants: [

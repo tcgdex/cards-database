@@ -96,7 +96,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Capable of generating 15,000 volts of electricity, this Pokémon looks down on all that would challenge it."
+		en: "Capable of generating 15,000 volts of electricity, this Pokémon looks down on all that would challenge it.",
+		de: "Dieses Pokémon kann 15 000 V starke Elektrizität generieren. Es nimmt keinen Gegner wirklich ernst."
 	},
 
 	variants: [
