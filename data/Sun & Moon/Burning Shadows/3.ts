@@ -98,19 +98,22 @@ const card: Card = {
 		de: "Bei genauerer Betrachtung zeigt sich, dass seine zwei großen Augen jeweils aus einer Vielzahl an kleineren Augen bestehen."
 	},
 
-	thirdParty: {
-		cardmarket: 299410,
-		tcgplayer: 138273
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299410,
+				tcgplayer: 138273
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299410,
+				tcgplayer: 138273
+			}
+		},
+	],
 }
 
 export default card

@@ -89,19 +89,29 @@ const card: Card = {
 		de: "Diese Form nimmt es an, um Lebewesen, die eine Bedrohung für das Ökosystem darstellen, mit überwältigender Kraft zu bezwingen."
 	},
 
-	thirdParty: {
-		cardmarket: 299501,
-		tcgplayer: 138596
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 299501,
+				tcgplayer: 138596
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: 'holo',
+			stamp: ['poke-ball-league'],
+			thirdParty: {
+				cardmarket: 371623
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299501,
+				tcgplayer: 138596
+			}
+		},
+	],
 }
 
 export default card

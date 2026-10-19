@@ -106,19 +106,22 @@ const card: Card = {
 		de: "Sein Sehvermögen ist hervorragend. Selbst bei schwachem Licht kann es jedes Detail erkennen."
 	},
 
-	thirdParty: {
-		cardmarket: 299508,
-		tcgplayer: 138603
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299508,
+				tcgplayer: 138603
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299508,
+				tcgplayer: 138603
+			}
+		},
+	],
 }
 
 export default card

@@ -84,19 +84,29 @@ const card: Card = {
 		de: "Es sieht sehr süß aus, aber wehe, es wird wütend. Mit seinen Armen wirbelnd haut es selbst den stärksten Wrestler um."
 	},
 
-	thirdParty: {
-		cardmarket: 299511,
-		tcgplayer: 138606
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299511,
+				tcgplayer: 138606
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: 'normal',
+			stamp: ['toys-r-us'],
+			thirdParty: {
+				cardmarket: 359285
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299511,
+				tcgplayer: 138606
+			}
+		},
+	],
 }
 
 export default card

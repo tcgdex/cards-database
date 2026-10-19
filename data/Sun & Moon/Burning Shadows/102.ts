@@ -89,19 +89,22 @@ const card: Card = {
 		de: "Sieht man diesem ungestümen Pokémon nur in die Augen, fällt es einen bereits an. Seine scharfen Klauen hinterlassen tiefe Wunden."
 	},
 
-	thirdParty: {
-		cardmarket: 299503,
-		tcgplayer: 138598
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299503,
+				tcgplayer: 138598
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299503,
+				tcgplayer: 138598
+			}
+		},
+	],
 }
 
 export default card

@@ -68,19 +68,22 @@ const card: Card = {
 		de: "Aufgrund der Ranken, die seinen Körper bedecken, kennt keiner seine wahre Form. Die blauen Ranken wachsen immer weiter."
 	},
 
-	thirdParty: {
-		cardmarket: 299414,
-		tcgplayer: 138277
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299414,
+				tcgplayer: 138277
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299414,
+				tcgplayer: 138277
+			}
+		},
+	],
 }
 
 export default card

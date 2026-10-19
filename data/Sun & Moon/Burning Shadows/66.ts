@@ -102,19 +102,22 @@ const card: Card = {
 		de: "Durch seine panzerähnliche Körperhülle kann es in bis zu 2 000 °C heißer Lava leben."
 	},
 
-	thirdParty: {
-		cardmarket: 299569,
-		tcgplayer: 138552
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299569,
+				tcgplayer: 138552
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299569,
+				tcgplayer: 138552
+			}
+		},
+	],
 }
 
 export default card

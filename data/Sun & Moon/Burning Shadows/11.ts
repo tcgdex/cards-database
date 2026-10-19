@@ -91,19 +91,22 @@ const card: Card = {
 		de: "Dieses kräftige Pokémon rammt sein stolzes Horn unter den Rumpf des Gegners und wirft ihn um."
 	},
 
-	thirdParty: {
-		cardmarket: 299418,
-		tcgplayer: 138281
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299418,
+				tcgplayer: 138281
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299418,
+				tcgplayer: 138281
+			}
+		},
+	],
 }
 
 export default card

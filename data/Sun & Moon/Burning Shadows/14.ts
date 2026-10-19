@@ -69,19 +69,22 @@ const card: Card = {
 		de: "Die Futtersuche treibt es an Land. Eine Wasserblase versorgt es mit Atemluft und schützt zugleich seinen weichen Kopf."
 	},
 
-	thirdParty: {
-		cardmarket: 299421,
-		tcgplayer: 138284
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299421,
+				tcgplayer: 138284
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299421,
+				tcgplayer: 138284
+			}
+		},
+	],
 }
 
 export default card

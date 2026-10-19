@@ -86,28 +86,29 @@ const card: Card = {
 		de: "Irritiert seine Feinde mit schnellen Bewegungen. Als Waffen hat es nicht nur Krallen und Hauer, sondern auch die spitzen Felsen seiner Mähne."
 	},
 
-	thirdParty: {
-		cardmarket: 299477,
-		tcgplayer: 138562
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299478,
+				tcgplayer: 138562
+			}
 		},
 		{
 			type: "holo",
 			foil: "cracked-ice",
-	thirdParty: {
-		tcgplayer: 173088
-	},
-
-
+			thirdParty: {
+				tcgplayer: 173088
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299478,
+				tcgplayer: 138562
+			}
+		},
+	],
 }
 
 export default card

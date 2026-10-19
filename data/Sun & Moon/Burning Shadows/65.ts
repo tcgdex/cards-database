@@ -80,19 +80,22 @@ const card: Card = {
 		de: "Stark, aber nicht allzu klug, kann dieses Pokémon sogar Hochhäuser mit seinem Tackle-Angriff zum Einsturz bringen."
 	},
 
-	thirdParty: {
-		cardmarket: 299468,
-		tcgplayer: 138551
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299468,
+				tcgplayer: 138551
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299468,
+				tcgplayer: 138551
+			}
+		},
+	],
 }
 
 export default card

@@ -62,19 +62,22 @@ const card: Card = {
 		de: "Schützt mit den Scheren seine Schwachstellen und bereitet einen Gegenschlag vor. Verliert es, bläst es Trübsal."
 	},
 
-	thirdParty: {
-		cardmarket: 299475,
-		tcgplayer: 138559
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299475,
+				tcgplayer: 138559
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299475,
+				tcgplayer: 138559
+			}
+		},
+	],
 }
 
 export default card

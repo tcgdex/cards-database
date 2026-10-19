@@ -61,19 +61,22 @@ const card: Card = {
 		de: "Schwächelnden Pokémon gibt es ein paar der Kräuter auf seinem Kopf ab und hilft ihnen so wieder auf die Beine."
 	},
 
-	thirdParty: {
-		cardmarket: 299419,
-		tcgplayer: 138282
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299419,
+				tcgplayer: 138282
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299419,
+				tcgplayer: 138282
+			}
+		},
+	],
 }
 
 export default card

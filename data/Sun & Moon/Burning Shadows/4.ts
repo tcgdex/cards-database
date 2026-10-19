@@ -67,19 +67,22 @@ const card: Card = {
 		de: "Tagsüber versteckt es sich in der kalten Erde, um die Sonne zu meiden. Es wächst im Mondschein."
 	},
 
-	thirdParty: {
-		cardmarket: 299411,
-		tcgplayer: 138274
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299411,
+				tcgplayer: 138274
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299411,
+				tcgplayer: 138274
+			}
+		},
+	],
 }
 
 export default card

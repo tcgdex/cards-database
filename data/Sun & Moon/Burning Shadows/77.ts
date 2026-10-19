@@ -69,19 +69,22 @@ const card: Card = {
 		de: "Der ganze Schlamm an seinen Füßen sorgt für die nötige Bodenhaftung, die es für seinen kraftvollen Lauf braucht."
 	},
 
-	thirdParty: {
-		cardmarket: 299479,
-		tcgplayer: 138563
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299479,
+				tcgplayer: 138563
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299479,
+				tcgplayer: 138563
+			}
+		},
+	],
 }
 
 export default card

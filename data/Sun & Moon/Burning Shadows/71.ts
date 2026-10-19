@@ -91,19 +91,22 @@ const card: Card = {
 		de: "Es kann Auren nicht nur wahrnehmen, sondern auch manipulieren. Diese Fähigkeit nutzt es beim Kämpfen."
 	},
 
-	thirdParty: {
-		cardmarket: 299473,
-		tcgplayer: 138557
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 299473,
+				tcgplayer: 138557
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299473,
+				tcgplayer: 138557
+			}
+		},
+	],
 }
 
 export default card

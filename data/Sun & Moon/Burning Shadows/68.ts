@@ -84,19 +84,22 @@ const card: Card = {
 		de: "Da es in Vollmondnächten aktiv wird, sagt man ihm nach, mit den Mondphasen in Verbindung zu stehen."
 	},
 
-	thirdParty: {
-		cardmarket: 299470,
-		tcgplayer: 138554
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299470,
+				tcgplayer: 138554
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299470,
+				tcgplayer: 138554
+			}
+		},
+	],
 }
 
 export default card

@@ -96,19 +96,22 @@ const card: Card = {
 		de: "Dieses Pokémon rollt Blütenstaub zu Kugeln. Manche dieser Pollenknödel dienen als Nahrung, andere setzt es aber auch im Kampf ein."
 	},
 
-	thirdParty: {
-		cardmarket: 299497,
-		tcgplayer: 138590
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299497,
+				tcgplayer: 138590
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299497,
+				tcgplayer: 138590
+			}
+		},
+	],
 }
 
 export default card

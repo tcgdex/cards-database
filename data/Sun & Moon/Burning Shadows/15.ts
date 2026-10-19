@@ -94,19 +94,22 @@ const card: Card = {
 		de: "Es verteilt mit seiner Wasserblase Kopfstöße. Kleine Pokémon werden dabei hineingezogen und ertrinken."
 	},
 
-	thirdParty: {
-		cardmarket: 299422,
-		tcgplayer: 138285
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299422,
+				tcgplayer: 138285
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299422,
+				tcgplayer: 138285
+			}
+		},
+	],
 }
 
 export default card

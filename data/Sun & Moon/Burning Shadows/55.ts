@@ -101,19 +101,22 @@ const card: Card = {
 		de: "Verfügt über einen Giftsack an seiner Kehle. Quakt es, schäumt das Gift und wird so noch stärker."
 	},
 
-	thirdParty: {
-		cardmarket: 299459,
-		tcgplayer: 138537
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299459,
+				tcgplayer: 138537
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299459,
+				tcgplayer: 138537
+			}
+		},
+	],
 }
 
 export default card

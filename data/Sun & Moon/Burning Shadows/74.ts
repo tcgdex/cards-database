@@ -99,19 +99,22 @@ const card: Card = {
 		de: "Es wollte auf eine verschneite Bergspitze, hat sich aber verlaufen. In der Kälte wuchs ihm dann ein Fell und es entwickelte sich weiter."
 	},
 
-	thirdParty: {
-		cardmarket: 299476,
-		tcgplayer: 138560
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299476,
+				tcgplayer: 138560
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299476,
+				tcgplayer: 138560
+			}
+		},
+	],
 }
 
 export default card

@@ -68,19 +68,22 @@ const card: Card = {
 		de: "Tagsüber ist es faul und schläft ständig. Erst nach Sonnenuntergang wird es aktiv und durchstöbert die Stadt nach Münzen."
 	},
 
-	thirdParty: {
-		cardmarket: 299502,
-		tcgplayer: 138597
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299502,
+				tcgplayer: 138597
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299502,
+				tcgplayer: 138597
+			}
+		},
+	],
 }
 
 export default card

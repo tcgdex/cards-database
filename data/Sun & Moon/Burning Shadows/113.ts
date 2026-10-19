@@ -27,23 +27,33 @@ const card: Card = {
 
 	trainerType: "Tool",
 
-	thirdParty: {
-		cardmarket: 299514,
-		tcgplayer: 138622
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299514,
+				tcgplayer: 138622
+			}
 		},
 		{
-			type: "reverse"
+			type: 'normal',
+			stamp: ['poke-ball-league'],
+			thirdParty: {
+				cardmarket: 371654
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299514,
+				tcgplayer: 138622
+			}
 		},
 		{
 			type: "reverse",
 			stamp: ["staff"]
-		}
-	]
+		},
+	],
 }
 
 export default card

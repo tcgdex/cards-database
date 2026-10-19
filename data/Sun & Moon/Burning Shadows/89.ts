@@ -91,19 +91,22 @@ const card: Card = {
 		de: "Gegner, die auf die blinkenden Punkte an seinem Körper blicken, werden geblendet und verlieren den Willen zu kämpfen."
 	},
 
-	thirdParty: {
-		cardmarket: 299491,
-		tcgplayer: 138581
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299491,
+				tcgplayer: 138581
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299491,
+				tcgplayer: 138581
+			}
+		},
+	],
 }
 
 export default card
