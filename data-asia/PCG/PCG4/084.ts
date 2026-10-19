@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "威圧的なリング",
 			},
 			effect: {
-				ja: "UrsaringがアクティブなPokã©Monである限り、相手の基本的なPokã©MonはPokã©Powersを攻撃したり使用したりすることはできません。",
+				ja: "UrsaringがアクティブなPokéMonである限り、相手の基本的なPokéMonはPokéPowersを攻撃したり使用したりすることはできません。",
 			},
 		}],
 

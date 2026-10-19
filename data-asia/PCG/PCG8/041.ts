@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "星光",
 			},
 			effect: {
-				ja: "対戦相手がPokã©Mon-ExまたはStage 2 EvolvedPokã©Mon in Playを持っている限り、Jirachi Exは{{e}}シールドビームまたはスーパーPSYボルトを使用するエネルギーを少なくします。",
+				ja: "対戦相手がPokéMon-ExまたはStage 2 EvolvedPokéMon in Playを持っている限り、Jirachi Exは{{e}}シールドビームまたはスーパーPSYボルトを使用するエネルギーを少なくします。",
 			},
 		}],
 

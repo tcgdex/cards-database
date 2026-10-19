@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "進化の段階",
 			},
 			effect: {
-				ja: "Hitmonleeが進化したポカモンである限り、Hitmonlee攻撃は対戦相手のPokã©Monに20個のダメージを与えます（弱さと抵抗を適用する前）。",
+				ja: "Hitmonleeが進化したポカモンである限り、Hitmonlee攻撃は対戦相手のPokéMonに20個のダメージを与えます（弱さと抵抗を適用する前）。",
 			},
 		}],
 

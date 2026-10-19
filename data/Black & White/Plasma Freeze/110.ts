@@ -57,7 +57,7 @@ const card: Card = {
 				de: "Donnerschall"
 			},
 			effect: {
-				en: "If this Pok��mon has any Plasma Energy attached to it, discard an Energy attached to the Defending Pokémon.",
+				en: "If this Pokémon has any Plasma Energy attached to it, discard an Energy attached to the Defending Pokémon.",
 				fr: "Si de l'Énergie Plasma est attachée à ce Pokémon, défaussez une Énergie attachée au Pokémon Défenseur.",
 				de: "Wenn an dieses Pokémon bereits Plasma-Energie angelegt ist, lege 1 an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 			},
