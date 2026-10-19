@@ -73,7 +73,8 @@ const card: Card = {
 	regulationMark: "E",
 
 	description: {
-		en: "When Reshiram's tail flares, the heat energy moves the atmosphere and changes the world's weather."
+		en: "When Reshiram's tail flares, the heat energy moves the atmosphere and changes the world's weather.",
+		de: "Lodert das Feuer in seinem Schweif auf, gerät die Erdatmosphäre durch die Hitze in Wallung und das Weltklima ändert sich."
 	},
 
 	dexId: [643],

@@ -71,7 +71,8 @@ const card: Card = {
 	regulationMark: "E",
 
 	description: {
-		en: "Its DNA is said to contain the genetic codes of all Pokémon, so it can use all kinds of techniques."
+		en: "Its DNA is said to contain the genetic codes of all Pokémon, so it can use all kinds of techniques.",
+		de: "Seine DNS soll den genetischen Code aller Pokémon beinhalten. Dadurch kann es alle Attacken erlernen."
 	},
 
 	dexId: [151],

@@ -40,7 +40,7 @@ const card: Card = {
 			es: "Una vez durante tu turno, puedes buscar en tu baraja 1 carta de Energía Psychic y unirla a 1 de tus Pokémon. Después, baraja las cartas de tu baraja. Si usas esta habilidad, tu turno termina.",
 			it: "Una sola volta durante il tuo turno, puoi cercare nel tuo mazzo una carta Energia Psychic e assegnarla a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo. Se usi questa abilità, il tuo turno finisce.",
 			pt: "Uma vez durante o seu turno, você poderá procurar por 1 carta de Energia Psychic no seu baralho e ligá-la a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho. Se você usar esta Habilidade, o seu turno acabará.",
-			de: "Einmal während deines Zuges kannst du dein Deck nach 1 Psychic-Energiekarte durchsuchen und sie an 1 deiner Pokémon anlegen. Mische anschließend dein Deck. Wenn du diese Fähigkeit einsetzt, endet dein Zug."
+			de: "Einmal während deines Zuges kannst du dein Deck nach 1 {P}-Energiekarte durchsuchen und sie an 1 deiner Pokémon anlegen. Mische anschließend dein Deck. Wenn du diese Fähigkeit einsetzt, endet dein Zug."
 		}
 	}],
 

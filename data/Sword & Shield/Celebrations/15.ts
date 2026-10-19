@@ -88,7 +88,8 @@ const card: Card = {
 	regulationMark: "E",
 
 	description: {
-		en: "It sometimes summons unknown powers and life-forms here to this world from holes that lead to other worlds."
+		en: "It sometimes summons unknown powers and life-forms here to this world from holes that lead to other worlds.",
+		de: "Öffnet es eine Ultrapforte, ebnet es mitunter für fremde Kräfte und Lebewesen den Weg in unsere Welt."
 	},
 
 	dexId: [792],
