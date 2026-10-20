@@ -4,6 +4,7 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [479],
 
 	name: {
 		en: "Raihan",

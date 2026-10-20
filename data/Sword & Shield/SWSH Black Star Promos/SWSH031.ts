@@ -76,6 +76,9 @@ const card: Card = {
 	stage: "Basic",
 	dexId: [877],
 
+
+	cameoDexIds: [177, 840],
+
 	regulationMark: "D",
 
 	variants: [

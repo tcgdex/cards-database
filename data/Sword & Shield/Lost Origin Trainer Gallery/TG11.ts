@@ -3,6 +3,9 @@ import Set from "../Lost Origin Trainer Gallery"
 
 const card: Card = {
 	dexId: [351],
+
+	cameoDexIds: [505],
+
 	set: Set,
 
 	name: {

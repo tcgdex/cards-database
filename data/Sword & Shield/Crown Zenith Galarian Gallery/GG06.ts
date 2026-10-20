@@ -3,6 +3,9 @@ import Set from "../Crown Zenith Galarian Gallery"
 
 const card: Card = {
 	dexId: [490],
+
+	cameoDexIds: [731, 746, 748, 767, 771, 779],
+
 	set: Set,
 
 	name: {

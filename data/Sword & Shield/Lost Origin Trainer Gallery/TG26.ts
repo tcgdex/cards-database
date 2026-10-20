@@ -4,6 +4,8 @@ import Set from "../Lost Origin Trainer Gallery"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [851],
+
 	name: {
 		en: "Kabu",
 		fr: "Kabu",

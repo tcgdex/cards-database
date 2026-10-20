@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [815, 863],
+
 	effect: {
 		en: "Draw 2 cards. If Wyndon Stadium is in play, draw 2 more cards.",
 		fr: "Piochez 2 cartes. Si Stade de Winscor est en jeu, piochez 2 cartes supplémentaires.",

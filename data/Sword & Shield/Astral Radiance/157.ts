@@ -4,6 +4,8 @@ import Set from "../Astral Radiance"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [138, 408, 410, 698],
+
 	name: {
 		en: "Unidentified Fossil",
 		fr: "Fossile Inconnu",
