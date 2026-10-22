@@ -54,7 +54,8 @@ export async function getSets(serie = '*', lang: SupportedLanguages): Promise<Ar
 export async function getSetPictures(set: Set, lang: SupportedLanguages): Promise<[string | undefined, string | undefined]> {
 	try {
 		const file = await fetchRemoteFile('https://assets.tcgdex.net/datas.json')
-		const logoExists = file[lang]?.[set.serie.id]?.[set.id]?.logo ? `https://assets.tcgdex.net/${lang}/${set.serie.id}/${set.id}/logo` : undefined
+		// temporary hack, same as getCardPictures: 30th is missing from datas.json but its logos are uploaded
+		const logoExists = set.id === '30th' || file[lang]?.[set.serie.id]?.[set.id]?.logo ? `https://assets.tcgdex.net/${lang}/${set.serie.id}/${set.id}/logo` : undefined
 		const symbolExists = file.univ?.[set.serie.id]?.[set.id]?.symbol ? `https://assets.tcgdex.net/univ/${set.serie.id}/${set.id}/symbol` : undefined
 		return [
 			logoExists,
