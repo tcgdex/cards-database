@@ -2,20 +2,22 @@ import { Set } from '../../interfaces'
 import serie from '../Black & White'
 
 const rc: Set = {
-	id: "rc",
+    id: "rc",
 
-	name: {
-		en: "Radiant Collection",
-		fr: "Radiant Collection"
-	},
+    name: {
+        en: "Radiant Collection",
+        fr: "Radiant Collection",
+        es: "Colección Radiante"
+    },
 
-	serie: serie,
+    serie: serie,
 
-	cardCount: {
-		official: 25
-	},
+    cardCount: {
+        official: 25
+    },
 
-	releaseDate: "2013-11-06"
+
+    releaseDate: "2013-11-06"
 }
 
 export default rc
