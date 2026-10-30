@@ -84,9 +84,9 @@ const card: Card = {
 			stamp: ["1st-movie"],
 			thirdParty: {
 				tcgplayer: 87414
-			},
-		}
-	]
+			}
+		},
+	],
 }
 
 export default card
