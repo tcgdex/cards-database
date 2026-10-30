@@ -91,7 +91,7 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
-				cardmarket: 274055,
+				cardmarket: 274072,
 				tcgplayer: 84564
 			}
 		},
@@ -106,8 +106,8 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["wotc"]
-		}
-	]
+		},
+	],
 }
 
 export default card

@@ -110,9 +110,12 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			stamp: ["pre-release"]
-		}
-	]
+			stamp: ["pre-release"],
+			thirdParty: {
+				cardmarket: 275574
+			}
+		},
+	],
 }
 
 export default card
