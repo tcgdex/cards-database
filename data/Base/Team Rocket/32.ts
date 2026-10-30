@@ -104,8 +104,8 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["w-promo"]
-		}
-	]
+		},
+	],
 }
 
 export default card
