@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Wenn der Morgen dämmert, fangen sie an zu tanzen. Das Swaroness in der Mitte führt die Gruppe an."
 	},
 
-	thirdParty: {
-		cardmarket: 279775,
-		tcgplayer: 89684
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279775,
+				tcgplayer: 89684
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279775,
+				tcgplayer: 89684
+			}
+		},
+	],
 }
 
 export default card

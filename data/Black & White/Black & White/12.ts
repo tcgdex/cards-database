@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Erzeugt durch rhythmische Bewegungen Laute, die dem Klang von Maracas ähneln. Lebt an trockenen Orten."
 	},
 
-	thirdParty: {
-		cardmarket: 279749,
-		tcgplayer: 87188
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279750,
+				tcgplayer: 87188
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279750,
+				tcgplayer: 87188
+			}
+		},
+	],
 }
 
 export default card

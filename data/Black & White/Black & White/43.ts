@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Es ist explosiv wie ein Blitz. Galoppiert es mit voller Geschwindigkeit drauflos, kann es man Donnerhall vernehmen."
 	},
 
-	thirdParty: {
-		cardmarket: 279780,
-		tcgplayer: 90728
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279781,
+				tcgplayer: 90728
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279781,
+				tcgplayer: 90728
+			}
+		},
+	],
 }
 
 export default card

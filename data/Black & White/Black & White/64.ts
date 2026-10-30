@@ -90,10 +90,29 @@ const card: Card = {
 		de: "Die spezielle Membran um seine Augen fungiert als Wärmesensor, durch den es sich auch im Dunkeln zurechtfindet."
 	},
 
-	thirdParty: {
-		cardmarket: 279802,
-		tcgplayer: 86536
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279802,
+				tcgplayer: 86536
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['player-rewards-program'],
+			thirdParty: {
+				cardmarket: 371586
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279802,
+				tcgplayer: 86536
+			}
+		},
+	],
 }
 
 export default card

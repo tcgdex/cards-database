@@ -94,10 +94,22 @@ const card: Card = {
 		de: "Teilt Artgenossen seine Gefühlslage mit, indem es die Umlaufrichtung ändert. Wenn es wütend ist, dreht es sich schneller."
 	},
 
-	thirdParty: {
-		cardmarket: 279813,
-		tcgplayer: 86474
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279813,
+				tcgplayer: 86474
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279813,
+				tcgplayer: 86474
+			}
+		},
+	],
 }
 
 export default card

@@ -73,10 +73,22 @@ const card: Card = {
 		de: "Ist es wütend, erreicht das Büschel auf seinem Kopf Temperaturen von bis zu 300 Grad. Es röstet sich damit auch Nüsse."
 	},
 
-	thirdParty: {
-		cardmarket: 279759,
-		tcgplayer: 87940
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279759,
+				tcgplayer: 87940
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279759,
+				tcgplayer: 87940
+			}
+		},
+	],
 }
 
 export default card

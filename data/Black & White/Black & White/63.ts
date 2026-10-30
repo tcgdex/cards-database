@@ -84,10 +84,22 @@ const card: Card = {
 		de: "Wenn es sich durch den Sand gräbt, ragen nur noch Nase und Augen hervor. Die schwarze Haut dient als Augenschutz."
 	},
 
-	thirdParty: {
-		cardmarket: 279801,
-		tcgplayer: 88912
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279801,
+				tcgplayer: 88912
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279801,
+				tcgplayer: 88912
+			}
+		},
+	],
 }
 
 export default card

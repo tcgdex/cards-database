@@ -74,10 +74,22 @@ const card: Card = {
 		de: "Ein kluges Pokémon, das sich zwar tapfer auch starken Gegnern zum Kampf stellt, aber unfaire Begegnungen zu meiden weiß."
 	},
 
-	thirdParty: {
-		cardmarket: 279818,
-		tcgplayer: 86797
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279818,
+				tcgplayer: 86797
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279818,
+				tcgplayer: 86797
+			}
+		},
+	],
 }
 
 export default card

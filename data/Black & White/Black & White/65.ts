@@ -96,10 +96,22 @@ const card: Card = {
 		de: "Seine Augen können wie ein Fernglas weit entfernte Objekte näher heranholen."
 	},
 
-	thirdParty: {
-		cardmarket: 279803,
-		tcgplayer: 86541
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 279803,
+				tcgplayer: 86541
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279803,
+				tcgplayer: 86541
+			}
+		},
+	],
 }
 
 export default card

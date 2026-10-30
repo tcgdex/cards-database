@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Folgt treu den Befehlen seines Trainers. Schon seit jeher ist es als rechte Hand der Pokémon-Trainer bekannt."
 	},
 
-	thirdParty: {
-		cardmarket: 279820,
-		tcgplayer: 86069
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279820,
+				tcgplayer: 86069
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279820,
+				tcgplayer: 86069
+			}
+		},
+	],
 }
 
 export default card

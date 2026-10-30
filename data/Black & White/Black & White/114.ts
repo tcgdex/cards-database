@@ -82,10 +82,15 @@ const card: Card = {
 		de: "Ein Pokémon, von dem schon in Sagen die Rede ist. Sein Schweif enthält ein gewaltiges Organ zur Stromerzeugung."
 	},
 
-	thirdParty: {
-		cardmarket: 279785,
-		tcgplayer: 90738
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 279852,
+				tcgplayer: 90738
+			}
+		},
+	],
 }
 
 export default card

@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Steckt mit dem Feuer um sein Kinn seine Fäuste in Brand und holt zu feurigen Fausthieben aus. Zeigt großen Teamgeist."
 	},
 
-	thirdParty: {
-		cardmarket: 279757,
-		tcgplayer: 85181
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 279757,
+				tcgplayer: 85181
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279757,
+				tcgplayer: 85181
+			}
+		},
+	],
 }
 
 export default card

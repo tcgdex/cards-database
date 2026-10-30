@@ -79,10 +79,29 @@ const card: Card = {
 		de: "Fängt mit dem Schweif Sonnenlicht auf, um Fotosynthese zu betreiben. Fehlt ihm die Kraft, hängt sein Schweif schlaff herab."
 	},
 
-	thirdParty: {
-		cardmarket: 279739,
-		tcgplayer: 89375
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279739,
+				tcgplayer: 89375
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279739,
+				tcgplayer: 89375
+			}
+		},
+		{
+			type: 'reverse',
+			foil: 'player-reward',
+			thirdParty: {
+				cardmarket: 371569
+			}
+		},
+	],
 }
 
 export default card
