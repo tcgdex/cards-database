@@ -88,10 +88,29 @@ const card: Card = {
 		de: "Ein stürmischer Geselle. Besonders gefährlich ist es, wenn es wütend ist und in alle Richtungen Stromsalven entlädt."
 	},
 
-	thirdParty: {
-		cardmarket: 279780,
-		tcgplayer: 90727
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279780,
+				tcgplayer: 90727
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['player-rewards-program'],
+			thirdParty: {
+				cardmarket: 371590
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279780,
+				tcgplayer: 90727
+			}
+		},
+	],
 }
 
 export default card

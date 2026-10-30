@@ -89,10 +89,22 @@ const card: Card = {
 		de: "Egal wie weit es auch von seinem Trainer entfernt ist, es findet immer wieder zu ihm zurück."
 	},
 
-	thirdParty: {
-		cardmarket: 279823,
-		tcgplayer: 90014
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279823,
+				tcgplayer: 90014
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279823,
+				tcgplayer: 90014
+			}
+		},
+	],
 }
 
 export default card

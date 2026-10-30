@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Der Dunst, der aus seiner Stirn tritt, enthält die Träume unzähliger Menschen und Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 279787,
-		tcgplayer: 87659
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279787,
+				tcgplayer: 87659
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279787,
+				tcgplayer: 87659
+			}
+		},
+	],
 }
 
 export default card

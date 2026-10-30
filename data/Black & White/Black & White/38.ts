@@ -75,10 +75,22 @@ const card: Card = {
 		de: "Es treibt durch den Ozean. Findet es ein verletztes Pokémon, nimmt es dieses auf und trägt es zurück an Land."
 	},
 
-	thirdParty: {
-		cardmarket: 279776,
-		tcgplayer: 83505
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279776,
+				tcgplayer: 83505
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279776,
+				tcgplayer: 83505
+			}
+		},
+	],
 }
 
 export default card

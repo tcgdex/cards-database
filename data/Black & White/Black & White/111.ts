@@ -27,10 +27,36 @@ const card: Card = {
 		de: ""
 	},
 
-	thirdParty: {
-		cardmarket: 279849,
-		tcgplayer: 84679
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279849,
+				tcgplayer: 84679
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['poke-ball-league'],
+			thirdParty: {
+				cardmarket: 371583
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['player-rewards-program'],
+			thirdParty: {
+				cardmarket: 449383
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279849,
+				tcgplayer: 84679
+			}
+		},
+	],
 }
 
 export default card

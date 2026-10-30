@@ -98,10 +98,22 @@ const card: Card = {
 		de: "Versetzt Gegner in Ehrfurcht, indem es den Kopf weit in die Höhe streckt. Zeigt nur starken Gegnern seine wahre Macht."
 	},
 
-	thirdParty: {
-		cardmarket: 279743,
-		tcgplayer: 89070
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 279744,
+				tcgplayer: 89070
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279744,
+				tcgplayer: 89070
+			}
+		},
+	],
 }
 
 export default card

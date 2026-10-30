@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Sein Fell nimmt Farbe und Duft des Feldes oder des Grases unter ihm an. Bei Gefahr sucht es im hohen Gras Schutz."
 	},
 
-	thirdParty: {
-		cardmarket: 279751,
-		tcgplayer: 84724
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279751,
+				tcgplayer: 84724
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279751,
+				tcgplayer: 84724
+			}
+		},
+	],
 }
 
 export default card

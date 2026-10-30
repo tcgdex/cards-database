@@ -70,10 +70,22 @@ const card: Card = {
 		de: "Es tarnt sich als Mensch oder als andere Pokémon. Es schützt sich vor Gefahren, indem es seine wahre Gestalt geheim hält."
 	},
 
-	thirdParty: {
-		cardmarket: 279808,
-		tcgplayer: 90757
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279808,
+				tcgplayer: 90757
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279808,
+				tcgplayer: 90757
+			}
+		},
+	],
 }
 
 export default card

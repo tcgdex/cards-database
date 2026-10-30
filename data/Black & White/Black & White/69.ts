@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Es geht im Rudel gegen Eindringlinge vor. Aus seinem Mund speit es eine ätzende Flüssigkeit."
 	},
 
-	thirdParty: {
-		cardmarket: 279807,
-		tcgplayer: 88977
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279807,
+				tcgplayer: 88977
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279807,
+				tcgplayer: 88977
+			}
+		},
+	],
 }
 
 export default card

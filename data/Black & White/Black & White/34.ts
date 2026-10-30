@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Es schießt mit so hohem Druck Wasser aus seinem Schweif, dass selbst Betonwände den Kürzeren ziehen."
 	},
 
-	thirdParty: {
-		cardmarket: 279772,
-		tcgplayer: 89217
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279772,
+				tcgplayer: 89217
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279772,
+				tcgplayer: 89217
+			}
+		},
+	],
 }
 
 export default card

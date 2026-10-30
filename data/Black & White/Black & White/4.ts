@@ -76,10 +76,22 @@ const card: Card = {
 		de: "Es verschwindet im wuchernden Dickicht, um Angriffen auszuweichen, und kontert mit einem gekonnten Rutenhieb."
 	},
 
-	thirdParty: {
-		cardmarket: 279741,
-		tcgplayer: 89077
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279742,
+				tcgplayer: 89077
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279742,
+				tcgplayer: 89077
+			}
+		},
+	],
 }
 
 export default card

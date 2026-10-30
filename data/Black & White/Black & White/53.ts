@@ -84,10 +84,29 @@ const card: Card = {
 		de: "Von einem harten Schutzpanzer umgeben. Es greift seine Gegner an, indem es mit Karacho wie ein Rad in sie hineinrollt."
 	},
 
-	thirdParty: {
-		cardmarket: 279791,
-		tcgplayer: 90570
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279791,
+				tcgplayer: 90570
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['player-rewards-program'],
+			thirdParty: {
+				cardmarket: 371585
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279791,
+				tcgplayer: 90570
+			}
+		},
+	],
 }
 
 export default card

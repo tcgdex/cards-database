@@ -73,10 +73,22 @@ const card: Card = {
 		de: "Es wringt Wasser aus dem Büschel auf seinem Kopf und bespritzt damit Gegner. Kein Pokémon für trockene Gegenden."
 	},
 
-	thirdParty: {
-		cardmarket: 279771,
-		tcgplayer: 87927
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279771,
+				tcgplayer: 87927
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279771,
+				tcgplayer: 87927
+			}
+		},
+	],
 }
 
 export default card

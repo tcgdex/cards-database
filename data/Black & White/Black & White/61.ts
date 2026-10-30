@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Hat von Natur aus den Drang, Gegner zu werfen, die größer sind als es selbst. Es bildet stets Fünferrudel."
 	},
 
-	thirdParty: {
-		cardmarket: 279799,
-		tcgplayer: 89899
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279799,
+				tcgplayer: 89899
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279799,
+				tcgplayer: 89899
+			}
+		},
+	],
 }
 
 export default card

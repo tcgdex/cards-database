@@ -59,10 +59,22 @@ const card: Card = {
 		de: "Es erscheint, wenn Gewitterwolken den Himmel verdunkeln. Es fängt mit seiner Mähne Blitze und hortet ihre Energie."
 	},
 
-	thirdParty: {
-		cardmarket: 279778,
-		tcgplayer: 83927
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279778,
+				tcgplayer: 83927
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279778,
+				tcgplayer: 83927
+			}
+		},
+	],
 }
 
 export default card

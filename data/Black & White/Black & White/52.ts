@@ -73,10 +73,22 @@ const card: Card = {
 		de: "Es beißt Angreifer und injiziert ihnen Gift, das selbst große Vogel-Pokémon, seine natürlichen Feinde, lähmt."
 	},
 
-	thirdParty: {
-		cardmarket: 279790,
-		tcgplayer: 90294
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279790,
+				tcgplayer: 90294
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279790,
+				tcgplayer: 90294
+			}
+		},
+	],
 }
 
 export default card
