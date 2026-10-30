@@ -12,7 +12,7 @@ ADD --chown=bun:bun server/package.json server/bun.lock ./server/
 
 # install prod deps dependencies
 RUN cd server && \
-	bun install --frozen-install --production
+	bun install --frozen-lockfile --production
 
 # go to another VM
 FROM docker.io/oven/bun:1-alpine AS prod
