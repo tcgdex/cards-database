@@ -6,6 +6,7 @@ const bw10: Set = {
 
 	name: {
 		en: "Plasma Blast",
+		es: "Explosión Plasma",
 		fr: "Explosion Plasma",
 		it: "Esplosione Plasma",
 		de: "Plasma-Blaster",
