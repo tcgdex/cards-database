@@ -64,17 +64,18 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 275470,
 				tcgplayer: 88575
-			},
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["pokemon-center-ny"],
 			thirdParty: {
 				tcgplayer: 244347
-			},
-		}
-	]
+			}
+		},
+	],
 }
 
 export default card
