@@ -89,10 +89,15 @@ const card: Card = {
 		de: "Sein Körper und sein Herz sind aus Stahl. Ein böser Blick genügt und selbst die wildesten Pokémon unterwerfen sich ihm."
 	},
 
-	thirdParty: {
-		cardmarket: 280207,
-		tcgplayer: 84381
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280223,
+				tcgplayer: 84381
+			}
+		},
+	],
 }
 
 export default card

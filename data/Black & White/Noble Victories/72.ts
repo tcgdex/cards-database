@@ -97,10 +97,22 @@ const card: Card = {
 		de: "Man munkelt, sein Schöpfer habe ihm aufgetragen, schützend über Pokémon und Menschen zu wachen."
 	},
 
-	thirdParty: {
-		cardmarket: 280195,
-		tcgplayer: 85835
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280195,
+				tcgplayer: 85835
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280195,
+				tcgplayer: 85835
+			}
+		},
+	],
 }
 
 export default card

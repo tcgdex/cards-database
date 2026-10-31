@@ -62,10 +62,22 @@ const card: Card = {
 		de: "Greift Gegner mit einem Holzbalken an. Fällt es ihm leicht, den schweren Balken zu tragen, ist seine Entwicklung nah."
 	},
 
-	thirdParty: {
-		cardmarket: 280185,
-		tcgplayer: 89914
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280185,
+				tcgplayer: 89914
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280185,
+				tcgplayer: 89914
+			}
+		},
+	],
 }
 
 export default card

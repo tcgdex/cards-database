@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Ein eiserner Panzer umgibt seinen Leib. Angriffe von Furnifraß, seinem Feind, schlägt es in der Gruppe zurück."
 	},
 
-	thirdParty: {
-		cardmarket: 280206,
-		tcgplayer: 85020
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280206,
+				tcgplayer: 85020
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280206,
+				tcgplayer: 85020
+			}
+		},
+	],
 }
 
 export default card

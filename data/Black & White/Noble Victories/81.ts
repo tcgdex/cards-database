@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Sein Körper ist mit Klingen übersät, die es an Felsen eines Flussbettes schärft, wenn sie im Kampf schartig werden."
 	},
 
-	thirdParty: {
-		cardmarket: 280198,
-		tcgplayer: 87968
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280204,
+				tcgplayer: 87968
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280204,
+				tcgplayer: 87968
+			}
+		},
+	],
 }
 
 export default card

@@ -94,10 +94,22 @@ const card: Card = {
 		de: "Anführer einer Schar von Gladiantri. Verliert es den Kampf um den Titel des Anführers, wird es ausgestoßen."
 	},
 
-	thirdParty: {
-		cardmarket: 280199,
-		tcgplayer: 83843
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280205,
+				tcgplayer: 83843
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280205,
+				tcgplayer: 83843
+			}
+		},
+	],
 }
 
 export default card

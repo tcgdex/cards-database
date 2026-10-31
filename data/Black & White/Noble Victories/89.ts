@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Es jagt durch enge Höhlengänge und spießt seine Gegner mit spitzen Klauen auf. Seine Kopfhaut ist fester als Stein."
 	},
 
-	thirdParty: {
-		cardmarket: 280212,
-		tcgplayer: 84978
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280212,
+				tcgplayer: 84978
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280212,
+				tcgplayer: 84978
+			}
+		},
+	],
 }
 
 export default card

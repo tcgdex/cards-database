@@ -55,10 +55,22 @@ const card: Card = {
 		de: "Es knackt sich mit seinen Hauern Nüsse. Brechen seine Fangzähne ab, wächst an ihrer Stelle ein stärkeres Ersatzpaar."
 	},
 
-	thirdParty: {
-		cardmarket: 280209,
-		tcgplayer: 83668
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280209,
+				tcgplayer: 83668
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280209,
+				tcgplayer: 83668
+			}
+		},
+	],
 }
 
 export default card

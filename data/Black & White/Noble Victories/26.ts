@@ -93,10 +93,22 @@ const card: Card = {
 		de: "Es lebt im Meer und an Land. Es ist so stark, dass es mit einem einzigen Hieb ein Loch in ein Schiff reißen kann."
 	},
 
-	thirdParty: {
-		cardmarket: 280149,
-		tcgplayer: 84109
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280149,
+				tcgplayer: 84109
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280149,
+				tcgplayer: 84109
+			}
+		},
+	],
 }
 
 export default card

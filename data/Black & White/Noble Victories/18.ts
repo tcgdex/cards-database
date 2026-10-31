@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Mit seiner brandheißen Zunge bringt es Fermicula zum Schmelzen, um so an sein weiches Inneres zu gelangen."
 	},
 
-	thirdParty: {
-		cardmarket: 280141,
-		tcgplayer: 86044
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280141,
+				tcgplayer: 86044
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280141,
+				tcgplayer: 86044
+			}
+		},
+	],
 }
 
 export default card

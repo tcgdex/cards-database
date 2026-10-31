@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Da es nichts sehen kann, sucht es seine Umgebung mit Rempel- und Bissattacken ab und ist immer mit Wunden übersät."
 	},
 
-	thirdParty: {
-		cardmarket: 280200,
-		tcgplayer: 84728
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280200,
+				tcgplayer: 84728
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280200,
+				tcgplayer: 84728
+			}
+		},
+	],
 }
 
 export default card

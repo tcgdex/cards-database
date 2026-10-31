@@ -70,10 +70,22 @@ const card: Card = {
 		de: "Man nimmt an, dass es ein Produkt der verblüffenden wissenschaftlichen Künste einer uralten Zivilisation sei."
 	},
 
-	thirdParty: {
-		cardmarket: 280194,
-		tcgplayer: 85832
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280194,
+				tcgplayer: 85832
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280194,
+				tcgplayer: 85832
+			}
+		},
+	],
 }
 
 export default card

@@ -62,10 +62,22 @@ const card: Card = {
 		de: "Es entzündet ein Licht und gibt vor, dem Gegner den Weg zu weisen, doch eigtl. saugt es ihm seine Lebensenergie ab."
 	},
 
-	thirdParty: {
-		cardmarket: 280180,
-		tcgplayer: 86809
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280181,
+				tcgplayer: 86809
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280181,
+				tcgplayer: 86809
+			}
+		},
+	],
 }
 
 export default card

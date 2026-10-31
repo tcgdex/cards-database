@@ -62,10 +62,22 @@ const card: Card = {
 		de: "Bislang vermutet man, es sei ein Produkt der Sonne. Bei der Entwicklung ist sein ganzer Körper in Flammen gehüllt."
 	},
 
-	thirdParty: {
-		cardmarket: 280142,
-		tcgplayer: 86627
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280142,
+				tcgplayer: 86627
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280142,
+				tcgplayer: 86627
+			}
+		},
+	],
 }
 
 export default card

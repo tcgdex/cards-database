@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Bringt man beide Köpfe in Rage, stößt sein Horn heftige Eisböen aus, und alles in seiner Umgebung versinkt in Schnee."
 	},
 
-	thirdParty: {
-		cardmarket: 280152,
-		tcgplayer: 90273
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280152,
+				tcgplayer: 90273
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280152,
+				tcgplayer: 90273
+			}
+		},
+	],
 }
 
 export default card

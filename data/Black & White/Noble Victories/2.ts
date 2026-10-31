@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Es wandelt herabgefallenes Laub in Nährstoffe um. In Wäldern, wo es Folikon gibt, fühlen sich Pflanzen pudelwohl."
 	},
 
-	thirdParty: {
-		cardmarket: 280125,
-		tcgplayer: 89667
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280125,
+				tcgplayer: 89667
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280125,
+				tcgplayer: 89667
+			}
+		},
+	],
 }
 
 export default card

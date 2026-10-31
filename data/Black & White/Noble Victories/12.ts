@@ -85,10 +85,29 @@ const card: Card = {
 		de: "Seit es die schwere Muschel abgestreift hat, ist es viel leichter. Nun gleichen seine Kampfbewegungen denen eines Ninja."
 	},
 
-	thirdParty: {
-		cardmarket: 280135,
-		tcgplayer: 83459
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280135,
+				tcgplayer: 83459
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['regional-championships'],
+			thirdParty: {
+				cardmarket: 449238
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280135,
+				tcgplayer: 83459
+			}
+		},
+	],
 }
 
 export default card

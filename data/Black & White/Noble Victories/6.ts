@@ -75,10 +75,22 @@ const card: Card = {
 		de: "Das ätzende Sekret aus seinem Mund erlaubt es ihm, ohne Weiteres Steine auszuhöhlen."
 	},
 
-	thirdParty: {
-		cardmarket: 280129,
-		tcgplayer: 85061
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280129,
+				tcgplayer: 85061
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280129,
+				tcgplayer: 85061
+			}
+		},
+	],
 }
 
 export default card

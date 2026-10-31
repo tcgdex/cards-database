@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Es schleppt sich mithilfe seiner Arme an Land, schnappt nach seiner Beute und zerrt sie augenblicklich ins Meer."
 	},
 
-	thirdParty: {
-		cardmarket: 280164,
-		tcgplayer: 85070
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280164,
+				tcgplayer: 85070
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280164,
+				tcgplayer: 85070
+			}
+		},
+	],
 }
 
 export default card

@@ -91,10 +91,22 @@ const card: Card = {
 		de: "Dringt ein Schiff in sein Revier ein, bringt es dieses zum Kentern und saugt die Lebensenergie aus der Besatzung."
 	},
 
-	thirdParty: {
-		cardmarket: 280154,
-		tcgplayer: 86305
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280154,
+				tcgplayer: 86305
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280154,
+				tcgplayer: 86305
+			}
+		},
+	],
 }
 
 export default card

@@ -74,10 +74,29 @@ const card: Card = {
 		de: "Führt man ihm mit Laukaps elektrische Energie zu, entwickelt es sich. Niemand kennt den Grund dafür."
 	},
 
-	thirdParty: {
-		cardmarket: 280134,
-		tcgplayer: 89146
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280134,
+				tcgplayer: 89146
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['regional-championships'],
+			thirdParty: {
+				cardmarket: 450378
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280134,
+				tcgplayer: 89146
+			}
+		},
+	],
 }
 
 export default card

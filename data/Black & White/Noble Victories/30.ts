@@ -59,10 +59,22 @@ const card: Card = {
 		de: "Schlingt seine dünnen, schleierartigen Arme um den Gegner und lässt sich mit ihm zum Meeresgrund sinken."
 	},
 
-	thirdParty: {
-		cardmarket: 280153,
-		tcgplayer: 85563
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280153,
+				tcgplayer: 85563
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280153,
+				tcgplayer: 85563
+			}
+		},
+	],
 }
 
 export default card

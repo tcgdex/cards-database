@@ -62,10 +62,22 @@ const card: Card = {
 		de: "Seine Maske ist ein Abbild des Gesichts, das es als Mensch hatte. Manchmal weint es, wenn man ihm in die Augen sieht."
 	},
 
-	thirdParty: {
-		cardmarket: 280167,
-		tcgplayer: 90675
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280167,
+				tcgplayer: 90675
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280167,
+				tcgplayer: 90675
+			}
+		},
+	],
 }
 
 export default card
