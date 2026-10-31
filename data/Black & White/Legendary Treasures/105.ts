@@ -70,10 +70,22 @@ const card: Card = {
 		en: "Their white fur is coated in a special oil that makes it easy for them to deflect attacks.",
 	},
 
-	thirdParty: {
-		cardmarket: 281127,
-		tcgplayer: 84320
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281256,
+				tcgplayer: 84320
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281256,
+				tcgplayer: 84320
+			}
+		},
+	],
 }
 
 export default card

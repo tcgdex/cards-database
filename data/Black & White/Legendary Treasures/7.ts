@@ -64,10 +64,22 @@ const card: Card = {
 		en: "They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques.",
 	},
 
-	thirdParty: {
-		cardmarket: 281129,
-		tcgplayer: 89079
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281158,
+				tcgplayer: 89079
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281158,
+				tcgplayer: 89079
+			}
+		},
+	],
 }
 
 export default card

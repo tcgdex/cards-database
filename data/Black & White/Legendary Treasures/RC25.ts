@@ -60,13 +60,14 @@ const card: Card = {
 	],
 	retreat: 1,
 
-
-
-	thirdParty: {
-		cardmarket: 281149
-	}
-
-
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281149
+			}
+		},
+	],
 }
 
 export default card

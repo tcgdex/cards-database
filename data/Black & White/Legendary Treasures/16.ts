@@ -66,10 +66,22 @@ const card: Card = {
 		en: "This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.",
 	},
 
-	thirdParty: {
-		cardmarket: 281167,
-		tcgplayer: 85662
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281167,
+				tcgplayer: 85662
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281167,
+				tcgplayer: 85662
+			}
+		},
+	],
 }
 
 export default card

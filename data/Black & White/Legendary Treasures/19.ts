@@ -74,10 +74,22 @@ const card: Card = {
 		en: "It is said that Charizard's fire burns hotter if it has experienced harsh battles.",
 	},
 
-	thirdParty: {
-		cardmarket: 281170,
-		tcgplayer: 84194
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281170,
+				tcgplayer: 84194
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281170,
+				tcgplayer: 84194
+			}
+		},
+	],
 }
 
 export default card

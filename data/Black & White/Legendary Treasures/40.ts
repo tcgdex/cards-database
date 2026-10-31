@@ -62,10 +62,22 @@ const card: Card = {
 		en: "By vibrating its cheeks, it emits sound waves imperceptible to humans. It uses the rhythm of these sounds to talk.",
 	},
 
-	thirdParty: {
-		cardmarket: 281191,
-		tcgplayer: 90092
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281191,
+				tcgplayer: 90092
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281191,
+				tcgplayer: 90092
+			}
+		},
+	],
 }
 
 export default card

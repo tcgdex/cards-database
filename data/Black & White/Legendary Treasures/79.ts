@@ -64,10 +64,22 @@ const card: Card = {
 		en: "It has the peculiar power of being able to see emotions such as joy and rage in the form of waves.",
 	},
 
-	thirdParty: {
-		cardmarket: 281230,
-		tcgplayer: 88763
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281230,
+				tcgplayer: 88763
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281230,
+				tcgplayer: 88763
+			}
+		},
+	],
 }
 
 export default card

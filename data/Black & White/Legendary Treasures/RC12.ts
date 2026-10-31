@@ -71,9 +71,22 @@ const card: Card = {
 		en: "When its opponent can't be paralyzed, it contorts itself with unexpected speed and flops away.",
 	},
 
-	thirdParty: {
-		cardmarket: 281136
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281136,
+				tcgplayer: 89582
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281136,
+				tcgplayer: 89582
+			}
+		},
+	],
 }
 
 export default card

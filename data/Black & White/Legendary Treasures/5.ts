@@ -60,10 +60,22 @@ const card: Card = {
 		en: "Using its tentacles to lash itself to trees, it lies in wait for prey, luring it close with sweet-smelling drool.",
 	},
 
-	thirdParty: {
-		cardmarket: 281156,
-		tcgplayer: 84107
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281156,
+				tcgplayer: 84107
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281156,
+				tcgplayer: 84107
+			}
+		},
+	],
 }
 
 export default card

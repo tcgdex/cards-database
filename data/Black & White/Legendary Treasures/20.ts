@@ -53,10 +53,22 @@ const card: Card = {
 		en: "As each tail grows, its fur becomes more lustrous. When held, it feels slightly warm.",
 	},
 
-	thirdParty: {
-		cardmarket: 281171,
-		tcgplayer: 90448
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281171,
+				tcgplayer: 90448
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281171,
+				tcgplayer: 90448
+			}
+		},
+	],
 }
 
 export default card

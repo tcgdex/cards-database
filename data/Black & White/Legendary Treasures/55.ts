@@ -52,10 +52,22 @@ const card: Card = {
 		en: "It picks food from cactus plants, deftly avoiding buds and spines. It seems to skip about to move.",
 	},
 
-	thirdParty: {
-		cardmarket: 281206,
-		tcgplayer: 87688
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281206,
+				tcgplayer: 87688
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281206,
+				tcgplayer: 87688
+			}
+		},
+	],
 }
 
 export default card

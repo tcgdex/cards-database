@@ -71,10 +71,22 @@ const card: Card = {
 		en: "This brutal Pokémon travels the skies on its six wings. Anything that moves seems like a foe to it, triggering its attack.",
 	},
 
-	thirdParty: {
-		cardmarket: 281250,
-		tcgplayer: 86243
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281250,
+				tcgplayer: 86243
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281250,
+				tcgplayer: 86243
+			}
+		},
+	],
 }
 
 export default card

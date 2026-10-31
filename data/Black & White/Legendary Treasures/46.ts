@@ -76,10 +76,22 @@ const card: Card = {
 		en: "A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts.",
 	},
 
-	thirdParty: {
-		cardmarket: 281197,
-		tcgplayer: 90722
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281197,
+				tcgplayer: 90722
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281197,
+				tcgplayer: 90722
+			}
+		},
+	],
 }
 
 export default card

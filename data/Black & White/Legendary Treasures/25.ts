@@ -53,10 +53,22 @@ const card: Card = {
 		en: "It can deftly dodge its foe's attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
 	},
 
-	thirdParty: {
-		cardmarket: 281176,
-		tcgplayer: 89885
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281176,
+				tcgplayer: 89885
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281176,
+				tcgplayer: 89885
+			}
+		},
+	],
 }
 
 export default card

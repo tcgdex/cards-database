@@ -53,10 +53,22 @@ const card: Card = {
 		en: "It stares intently at everything. It can become so obsessed with watching that it doesn't notice attacks.",
 	},
 
-	thirdParty: {
-		cardmarket: 281220,
-		tcgplayer: 85850
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281221,
+				tcgplayer: 85850
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281221,
+				tcgplayer: 85850
+			}
+		},
+	],
 }
 
 export default card

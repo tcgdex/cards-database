@@ -68,10 +68,16 @@ const card: Card = {
 		en: "This Pokémon appears in legends. In its tail, it has a giant generator that creates electricity.",
 	},
 
-	thirdParty: {
-		cardmarket: 281202,
-		tcgplayer: 90739
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 281266,
+				tcgplayer: 90739
+			}
+		},
+	],
 }
 
 export default card

@@ -59,10 +59,22 @@ const card: Card = {
 		en: "The small ball is not only filled with nutrients, it is also tasty. Starly try to peck it off.",
 	},
 
-	thirdParty: {
-		cardmarket: 281155,
-		tcgplayer: 84266
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281155,
+				tcgplayer: 84266
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281155,
+				tcgplayer: 84266
+			}
+		},
+	],
 }
 
 export default card
