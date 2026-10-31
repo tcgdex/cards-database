@@ -4,7 +4,8 @@ import Set from '../HGSS Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Typhlosion",
-		fr: "Typhlosion"
+		fr: "Typhlosion",
+		es: "Typhlosion"
 	},
 	illustrator: "Wataru Kawahara",
 	rarity: "Promo",

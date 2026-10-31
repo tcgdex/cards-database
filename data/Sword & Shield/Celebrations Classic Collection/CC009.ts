@@ -8,6 +8,7 @@ const card: Card = {
 	name: {
 		en: "Cleffa",
 		fr: "Mélo",
+		es: "Cleffa",
 	},
 
 	illustrator: "Kagemaru Himeno",

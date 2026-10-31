@@ -38,6 +38,7 @@ const card: Card = {
 	name: {
 		en: "Drilbur",
 		fr: "Rototaupe",
+		es: "Drilbur",
 	},
 	rarity: "None",
 	hp: 70,

@@ -7,7 +7,8 @@ const card: Card = {
 	dexId: [168],
 
 	name: {
-		en: "Ariados"
+		en: "Ariados",
+		es: "Ariados"
 	},
 
 	illustrator: "Tika Matsuno",

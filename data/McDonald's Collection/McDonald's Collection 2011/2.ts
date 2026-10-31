@@ -48,6 +48,7 @@ const card: Card = {
 	name: {
 		en: "Maractus",
 		fr: "Maracachi",
+		es: "Maractus",
 		de: "Maracamba"
 	},
 

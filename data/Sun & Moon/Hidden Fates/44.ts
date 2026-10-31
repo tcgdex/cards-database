@@ -4,6 +4,7 @@ import Set from '../Hidden Fates'
 const card: Card = {
 	name: {
 		en: "Moltres & Zapdos & Articuno GX",
+		es: "Moltres, Zapdos y Articuno GX",
 		fr: "Sulfura, Électhor et Artikodin-GX",
 		de: "Lavados & Zapdos & Arktos-GX"
 	},

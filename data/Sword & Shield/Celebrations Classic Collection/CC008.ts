@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "_____'s Pikachu",
+		es: "Pikachu de ________",
 		fr: "Pikachu de ________",
 	},
 

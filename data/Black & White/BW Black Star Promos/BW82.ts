@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Deoxys-EX",
 		fr: "Deoxys ex",
+		es: "Deoxys-EX",
 	},
 	illustrator: "Eske Yoshinob",
 	rarity: "Rare",

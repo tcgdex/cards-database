@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Meloetta",
 		fr: "Meloetta",
+		es: "Meloetta",
 	},
 	illustrator: "Shin Nagasawa",
 	rarity: "Common",

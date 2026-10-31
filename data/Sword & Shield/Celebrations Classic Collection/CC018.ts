@@ -7,7 +7,8 @@ const card: Card = {
 
 	name: {
 		en: "Garchomp C LV.X",
-		fr: "Carchacrok C NIV.X"
+		fr: "Carchacrok C NIV.X",
+		es: "Garchomp C Niv.X"
 	},
 
 	illustrator: "Shizurow",

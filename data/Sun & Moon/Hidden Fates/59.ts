@@ -4,6 +4,7 @@ import Set from '../Hidden Fates'
 const card: Card = {
 	name: {
 		en: "Koga’s Trap",
+		es: "Trampa de Koga",
 		fr: "Piège de Koga",
 		de: "Kogas Falle"
 	},

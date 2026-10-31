@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Greninja EX",
 		fr: "Amphinobi EX",
+		es: "Greninja EX",
 	},
 
 	illustrator: "5ban Graphics",

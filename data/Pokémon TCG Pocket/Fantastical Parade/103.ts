@@ -7,7 +7,8 @@ const card: Card = {
 	dexId: [442],
 
 	name: {
-		en: "Spiritomb"
+		en: "Spiritomb",
+		es: "Spiritomb"
 	},
 
 	illustrator: "Kouki Saitou",

@@ -6,6 +6,7 @@ const set: Set = {
 
 	name: {
 		en: "My First Battle",
+		es: "Mi Primera Combate",
 	},
 
 	serie: serie,

@@ -14,6 +14,7 @@ const card: Card = {
 	name: {
 		en: "Chespin",
 		fr: "Marisson",
+		es: "Chespin",
 	},
 	rarity: "None",
 

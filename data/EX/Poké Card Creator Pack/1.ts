@@ -3,7 +3,8 @@ import Set from '../Poké Card Creator Pack'
 
 const card: Card = {
 	name: {
-		en: "Treecko"
+		en: "Treecko",
+		es: "Treecko"
 	},
 
 	illustrator: "Mark Kraus",

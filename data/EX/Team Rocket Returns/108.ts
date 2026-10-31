@@ -4,6 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Torchic ☆",
+		es: "Torchic ☆",
 		de: "Flemmli ☆"
 	},
 

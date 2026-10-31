@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Yanmega",
-		fr: "Yanmega"
+		fr: "Yanmega",
+		es: "Yanmega"
 	},
 
 	illustrator: "Uta",

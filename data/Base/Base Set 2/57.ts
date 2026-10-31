@@ -4,6 +4,7 @@ import Set from '../Base Set 2'
 const card: Card = {
 	name: {
 		en: "Poliwhirl",
+		es: "Poliwhirl",
 	},
 
 	illustrator: "Ken Sugimori",

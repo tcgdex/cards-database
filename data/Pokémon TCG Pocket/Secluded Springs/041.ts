@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Dugtrio",
-		fr: "Triopikeur"
+		fr: "Triopikeur",
+		es: "Dugtrio"
 	},
 
 	illustrator: "Tomokazu Komiya",

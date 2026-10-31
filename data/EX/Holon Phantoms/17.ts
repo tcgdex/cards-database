@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Vileplume δ",
 		fr: "Rafflesia δ",
+		es: "Vileplume δ",
 		de: "Giflor δ"
 	},
 

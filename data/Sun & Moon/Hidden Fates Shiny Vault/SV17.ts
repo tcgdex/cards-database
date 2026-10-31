@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Inkay",
 		fr: "Sepiatop",
+		es: "Inkay",
 		de: "Iscalar"
 	},
 	illustrator: "Shigenori Negishi",

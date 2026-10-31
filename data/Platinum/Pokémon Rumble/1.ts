@@ -3,7 +3,8 @@ import Set from '../Pokémon Rumble'
 
 const card: Card = {
 	name: {
-		en: "Venusaur"
+		en: "Venusaur",
+		es: "Venusaur"
 	},
 
 	illustrator: undefined,

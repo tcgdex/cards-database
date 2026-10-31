@@ -7,7 +7,8 @@ const card: Card = {
 	dexId: [855],
 
 	name: {
-		en: "Polteageist"
+		en: "Polteageist",
+		es: "Polteageist"
 	},
 
 	illustrator: "Shin Nagasawa",

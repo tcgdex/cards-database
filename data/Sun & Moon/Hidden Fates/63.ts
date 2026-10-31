@@ -4,6 +4,7 @@ import Set from '../Hidden Fates'
 const card: Card = {
 	name: {
 		en: "Misty’s Water Command",
+		es: "Control de Agua de Misty",
 		fr: "Maîtrise Aquatique d’Ondine",
 		de: "Mistys Wasserkontrolle"
 	},

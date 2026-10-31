@@ -4,6 +4,7 @@ import Set from '../Hidden Fates Shiny Vault'
 const card: Card = {
 	name: {
 		en: "Alolan Vulpix",
+		es: "Vulpix de Alola",
 		fr: "Goupix d’Alola",
 		de: "Alola-Vulpix"
 	},

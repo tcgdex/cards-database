@@ -31,6 +31,7 @@ const card: Card = {
 
 	name: {
 		en: "Pikachu",
+		es: "Pikachu",
 		de: "Pikachu"
 	},
 

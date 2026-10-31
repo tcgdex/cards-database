@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Decidueye",
-		fr: "Archéduc"
+		fr: "Archéduc",
+		es: "Decidueye"
 	},
 
 	illustrator: "Souichirou Gunjima",

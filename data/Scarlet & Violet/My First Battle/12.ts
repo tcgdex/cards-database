@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Ninetales",
+		es: "Ninetales",
 	},
 
 	rarity: "None",

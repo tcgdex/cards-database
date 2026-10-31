@@ -8,6 +8,7 @@ const card: Card = {
 	name: {
 		en: "Claydol",
 		fr: "Kaorine",
+		es: "Claydol",
 	},
 
 	illustrator: "Midori Harada",

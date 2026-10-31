@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Ninetales",
 		fr: "Feunard",
+		es: "Ninetales",
 	},
 	illustrator: "Hideaki Hakozaki",
 	rarity: "Common",

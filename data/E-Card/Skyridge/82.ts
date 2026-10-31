@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Nidoran ♀",
+		es: "Nidoran ♀",
 		de: "Nidoran W"
 	},
 	illustrator: "Masako Yamashita",

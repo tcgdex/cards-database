@@ -7,7 +7,8 @@ const card: Card = {
 
 	name: {
 		en: "Gardevoir ex",
-		fr: "Gardevoir ex δ"
+		fr: "Gardevoir ex δ",
+		es: "Gardevoir ex"
 	},
 
 	illustrator: "Masahiko Ishii",

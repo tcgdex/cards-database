@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Leafeon",
 		fr: "Phyllali Niv. 49",
+		es: "Leafeon",
 		de: "Folipurba"
 	},
 

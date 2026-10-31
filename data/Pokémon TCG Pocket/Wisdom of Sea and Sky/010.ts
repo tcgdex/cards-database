@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Meganium",
-		fr: "Méganium"
+		fr: "Méganium",
+		es: "Meganium"
 	},
 
 	illustrator: "Hajime Kusajima",

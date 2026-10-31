@@ -7,7 +7,8 @@ const card: Card = {
 	dexId: [233],
 
 	name: {
-		en: "Porygon2"
+		en: "Porygon2",
+		es: "Porygon2"
 	},
 
 	illustrator: "Kent Kanetsuna",

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Kirlia",
 		fr: "Kirlia",
+		es: "Kirlia",
 		de: "Kirlia"
 	},
 	illustrator: "Sumiyoshi Kizuki",

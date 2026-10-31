@@ -8,6 +8,7 @@ const card: Card = {
 	name: {
 		en: "Umbreon ☆",
 		fr: "Noctali ☆",
+		es: "Umbreon ☆",
 	},
 
 	illustrator: "Masakazu Fukuda",

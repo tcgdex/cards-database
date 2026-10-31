@@ -7,7 +7,8 @@ const card: Card = {
 	dexId: [697],
 
 	name: {
-		en: "Tyrantrum"
+		en: "Tyrantrum",
+		es: "Tyrantrum"
 	},
 
 	illustrator: "Yuriko Akase",

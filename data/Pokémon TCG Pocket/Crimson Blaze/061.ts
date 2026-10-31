@@ -7,7 +7,8 @@ const card: Card = {
 	dexId: [398],
 
 	name: {
-		en: "Staraptor"
+		en: "Staraptor",
+		es: "Staraptor"
 	},
 
 	illustrator: "AKIRA EGAWA",

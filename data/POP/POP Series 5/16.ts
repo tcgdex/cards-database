@@ -4,7 +4,8 @@ import Set from '../POP Series 5'
 const card: Card = {
 	name: {
 		en: "Espeon ★",
-		fr: "Mentali ☆"
+		fr: "Mentali ☆",
+		es: "Espeon ★"
 	},
 
 	illustrator: "Masakazu Fukuda",

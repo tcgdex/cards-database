@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Bulbasaur",
+		es: "Bulbasaur",
 	},
 
 	illustrator: "Julie Hang",

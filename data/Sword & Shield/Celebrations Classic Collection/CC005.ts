@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Dark Gyarados",
+		es: "Gyarados Oscuro",
 		fr: "Léviator obscur"
 	},
 

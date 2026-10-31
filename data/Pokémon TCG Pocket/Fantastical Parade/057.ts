@@ -7,7 +7,8 @@ const card: Card = {
 	dexId: [939],
 
 	name: {
-		en: "Bellibolt"
+		en: "Bellibolt",
+		es: "Bellibolt"
 	},
 
 	illustrator: "Oswaldo KATO",

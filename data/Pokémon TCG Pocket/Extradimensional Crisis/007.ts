@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Pheromosa",
-		fr: "Cancrelove"
+		fr: "Cancrelove",
+		es: "Pheromosa"
 	},
 
 	illustrator: "Shin Nagasawa",

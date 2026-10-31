@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Virizion",
-		fr: "Viridium"
+		fr: "Viridium",
+		es: "Virizion"
 	},
 
 	illustrator: "Takeshi Nakamura",

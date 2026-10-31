@@ -7,7 +7,8 @@ const card: Card = {
 
 	name: {
 		en: "Seaking",
-		fr: "Poissoroy"
+		fr: "Poissoroy",
+		es: "Seaking"
 	},
 
 	illustrator: "Atsuko Nishida",

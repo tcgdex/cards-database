@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Pikachu ex",
-		fr: "Pikachu-ex"
+		fr: "Pikachu-ex",
+		es: "Pikachu ex"
 	},
 
 	illustrator: "PLANETA Igarashi",

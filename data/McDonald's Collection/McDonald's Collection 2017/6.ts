@@ -9,6 +9,7 @@ const card: Card = {
 	name: {
 		en: "Cosmog",
 		fr: "Cosmog",
+		es: "Cosmog",
 		de: "Cosmog"
 	},
 	rarity: "None",

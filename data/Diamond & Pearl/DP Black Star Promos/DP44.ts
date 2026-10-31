@@ -4,6 +4,7 @@ import Set from '../DP Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Magnezone",
+		es: "Magnezone",
 		de: "Magnezone"
 	},
 	illustrator: "Kagemaru Himeno",

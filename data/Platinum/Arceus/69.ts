@@ -4,6 +4,7 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Nosepass",
+		es: "Nosepass",
 		de: "Nasgnet"
 	},
 

@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Porygon",
-		fr: "Porygon"
+		fr: "Porygon",
+		es: "Porygon"
 	},
 
 	illustrator: "ryoma uratsuka",

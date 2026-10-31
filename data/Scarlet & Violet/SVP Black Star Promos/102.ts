@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Oddish"
+		en: "Oddish",
+		es: "Oddish"
 	},
 
 	illustrator: "Miranda Branley",

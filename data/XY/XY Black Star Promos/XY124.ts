@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Pikachu EX",
 		fr: "Pikachu EX",
+		es: "Pikachu EX",
 	},
 
 	illustrator: "Megumi Mizutani",

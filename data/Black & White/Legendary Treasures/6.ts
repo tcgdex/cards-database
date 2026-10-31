@@ -4,6 +4,7 @@ import Set from '../Legendary Treasures'
 const card: Card = {
 	name: {
 		en: "Snivy",
+		es: "Snivy",
 	},
 
 	illustrator: "Aya Kusube",

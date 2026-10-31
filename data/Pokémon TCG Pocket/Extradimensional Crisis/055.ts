@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Herdier",
-		fr: "Ponchien"
+		fr: "Ponchien",
+		es: "Herdier"
 	},
 
 	illustrator: "Midori Harada",

@@ -7,7 +7,8 @@ const card: Card = {
 	dexId: [407],
 
 	name: {
-		en: "Roserade"
+		en: "Roserade",
+		es: "Roserade"
 	},
 
 	illustrator: "tono",

@@ -3,7 +3,8 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Ponyta"
+		en: "Ponyta",
+		es: "Ponyta"
 	},
 
 	illustrator: "Ken Sugimori",

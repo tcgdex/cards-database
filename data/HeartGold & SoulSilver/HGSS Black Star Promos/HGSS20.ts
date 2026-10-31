@@ -4,7 +4,8 @@ import Set from '../HGSS Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Entei",
-		fr: "Entei"
+		fr: "Entei",
+		es: "Entei"
 	},
 	illustrator: "Yuri Umemura",
 	rarity: "Promo",

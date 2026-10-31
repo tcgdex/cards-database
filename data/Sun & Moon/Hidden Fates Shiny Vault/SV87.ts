@@ -4,6 +4,7 @@ import Set from '../Hidden Fates Shiny Vault'
 const card: Card = {
 	name: {
 		en: "Aether Paradise Conservation Area",
+		es: "Reserva Paraíso Æther",
 		fr: "Réserve Naturelle du Paradis Æther",
 		de: "Schutzzone des Æther-Paradieses"
 	},

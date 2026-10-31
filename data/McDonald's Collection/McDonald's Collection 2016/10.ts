@@ -43,7 +43,8 @@ const card: Card = {
 
 	name: {
 		en: "Dedenne",
-		fr: "Dedenne"
+		fr: "Dedenne",
+		es: "Dedenne"
 	},
 
 	rarity: "None",

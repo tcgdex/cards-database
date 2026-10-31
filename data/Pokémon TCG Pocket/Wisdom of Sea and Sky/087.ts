@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Girafarig",
-		fr: "Girafarig"
+		fr: "Girafarig",
+		es: "Girafarig"
 	},
 
 	illustrator: "Miki Tanaka",

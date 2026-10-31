@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Scraggy",
 		fr: "Baggiguane",
+		es: "Scraggy",
 	},
 	illustrator: "Akira Komayama",
 	rarity: "Common",

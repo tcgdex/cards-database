@@ -31,6 +31,7 @@ const card: Card = {
 
 	name: {
 		en: "Alolan Dugtrio",
+		es: "Dugtrio de Alola",
 		de: "Alola-Digdri"
 	},
 

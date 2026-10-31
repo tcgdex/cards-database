@@ -8,6 +8,7 @@ const card: Card = {
 	name: {
 		en: "Pikachu",
 		fr: "Pikachu",
+		es: "Pikachu",
 		de: "Pikachu"
 	},
 

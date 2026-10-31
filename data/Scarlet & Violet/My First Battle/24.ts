@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Lightning Energy",
+		es: "Energía Rayo",
 	},
 
 	rarity: "None",

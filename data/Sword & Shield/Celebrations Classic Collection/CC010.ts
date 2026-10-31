@@ -7,7 +7,8 @@ const card: Card = {
 
 	name: {
 		en: "Shining Magikarp",
-		fr: "Magicarpe Brillant"
+		fr: "Magicarpe Brillant",
+		es: "Magicark Luminoso"
 	},
 
 	illustrator: "Ken Sugimori",

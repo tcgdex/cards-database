@@ -7,7 +7,8 @@ const card: Card = {
 
 	name: {
 		en: "Luxray GL LV.X",
-		fr: "Luxray GL NIV.X"
+		fr: "Luxray GL NIV.X",
+		es: "Luxray GL Niv.X"
 	},
 
 	illustrator: "Mitsuhiro Arita",

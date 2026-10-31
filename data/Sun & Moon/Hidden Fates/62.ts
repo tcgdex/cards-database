@@ -4,6 +4,7 @@ import Set from '../Hidden Fates'
 const card: Card = {
 	name: {
 		en: "Misty’s Determination",
+		es: "Determinación de Misty",
 		fr: "Détermination d’Ondine",
 		de: "Mistys Entschlossenheit"
 	},

@@ -4,7 +4,8 @@ import Set from '../BW Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Raichu",
-		fr: "Raichu"
+		fr: "Raichu",
+		es: "Raichu"
 	},
 	illustrator: "Mizue",
 	rarity: "Common",

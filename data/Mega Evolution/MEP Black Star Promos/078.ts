@@ -7,6 +7,7 @@ const card: Card = {
 	name: {
 		en: "Toxel",
 		fr: "Toxizap",
+		es: "Toxel",
 	},
 
 	illustrator: "Mina Nakai",

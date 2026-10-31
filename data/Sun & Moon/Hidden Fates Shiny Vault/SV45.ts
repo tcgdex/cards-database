@@ -5,6 +5,7 @@ const card: Card = {
 	dexId: [772],
 	name: {
 		en: "Type: Null",
+		es: "Código Cero",
 		fr: "Type:0",
 		de: "Typ:Null"
 	},

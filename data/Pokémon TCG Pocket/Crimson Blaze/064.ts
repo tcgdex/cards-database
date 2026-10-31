@@ -7,7 +7,8 @@ const card: Card = {
 	dexId: [626],
 
 	name: {
-		en: "Bouffalant"
+		en: "Bouffalant",
+		es: "Bouffalant"
 	},
 
 	illustrator: "Sanosuke Sakuma",

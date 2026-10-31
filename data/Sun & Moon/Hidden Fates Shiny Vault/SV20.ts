@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Sudowoodo",
 		fr: "Simularbre",
+		es: "Sudowoodo",
 		de: "Mogelbaum"
 	},
 	illustrator: "Kyoko Umemoto",

@@ -4,6 +4,7 @@ import Set from '../Southern Islands'
 const card: Card = {
 	name: {
 		en: "Lickitung",
+		es: "Lickitung",
 	},
 
 	illustrator: "Naoyo Kimura",

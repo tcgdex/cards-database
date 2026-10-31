@@ -7,7 +7,8 @@ const card: Card = {
 
 	name: {
 		en: "Gyarados",
-		fr: "Léviator"
+		fr: "Léviator",
+		es: "Gyarados"
 	},
 
 	illustrator: "Mitsuhiro Arita",

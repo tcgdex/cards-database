@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Jolteon-EX",
 		fr: "Voltali-ex",
+		es: "Jolteon-EX",
 	},
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",

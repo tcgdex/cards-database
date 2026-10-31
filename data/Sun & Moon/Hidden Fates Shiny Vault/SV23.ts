@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Rockruff",
 		fr: "Rocabot",
+		es: "Rockruff",
 		de: "Wuffels"
 	},
 	illustrator: "Masakazu Fukuda",

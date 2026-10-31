@@ -4,6 +4,7 @@ import Set from '../Wizards Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Entei",
+		es: "Entei",
 	},
 	illustrator: "Ken Sugimori",
 	rarity: "Common",

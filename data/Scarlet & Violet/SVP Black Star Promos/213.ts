@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Feraligatr",
+		es: "Feraligatr",
 	},
 	rarity: "Promo",
 	category: "Pokemon",

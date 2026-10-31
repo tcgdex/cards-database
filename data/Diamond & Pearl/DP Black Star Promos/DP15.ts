@@ -4,6 +4,7 @@ import Set from '../DP Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Shinx",
+		es: "Shinx",
 		de: "Sheinux"
 	},
 	illustrator: "Kagemaru Himeno",

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Chesnaught",
 		fr: "Blindépique",
+		es: "Chesnaught",
 	},
 
 	illustrator: "Mitsuhiro Arita",

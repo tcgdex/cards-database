@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Tyrantrum EX",
 		fr: "Rexillius EX",
+		es: "Tyrantrum EX",
 	},
 
 	illustrator: "Eske Yoshinob",

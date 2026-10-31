@@ -8,6 +8,7 @@ const card: Card = {
 	name: {
 		en: "Scraggy",
 		fr: "Baggiguane",
+		es: "Scraggy",
 	},
 
 	illustrator: "OKUBO",

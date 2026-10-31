@@ -7,7 +7,8 @@ const card: Card = {
 
 	name: {
 		en: "Team Magma's Groudon",
-		fr: "Groudon de Team Magma"
+		fr: "Groudon de Team Magma",
+		es: "Groudon del Team Magma"
 	},
 
 	illustrator: "Kazuo Yazawa",

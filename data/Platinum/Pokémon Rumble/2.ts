@@ -3,7 +3,8 @@ import Set from '../Pokémon Rumble'
 
 const card: Card = {
 	name: {
-		en: "Cherrim"
+		en: "Cherrim",
+		es: "Cherrim"
 	},
 
 	illustrator: undefined,

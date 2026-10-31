@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Lycanroc ex",
-		fr: "Lougaroc-ex"
+		fr: "Lougaroc-ex",
+		es: "Lycanroc ex"
 	},
 
 	illustrator: "Jiro Sasumo",

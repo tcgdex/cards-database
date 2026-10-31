@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Greninja",
 		fr: "Amphinobi",
+		es: "Greninja",
 	},
 
 	illustrator: "Akira Komayama",

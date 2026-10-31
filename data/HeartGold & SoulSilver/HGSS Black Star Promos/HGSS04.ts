@@ -4,7 +4,8 @@ import Set from '../HGSS Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Wobbuffet",
-		fr: "Qulbutoké"
+		fr: "Qulbutoké",
+		es: "Wobbuffet"
 	},
 	illustrator: "match",
 	rarity: "Promo",

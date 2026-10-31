@@ -8,6 +8,7 @@ const card: Card = {
 	name: {
 		en: "Beldum",
 		fr: "Terhal",
+		es: "Beldum",
 		de: "Tanhel"
 	},
 

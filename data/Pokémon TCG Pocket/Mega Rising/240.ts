@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Makuhita",
-		fr: "Makuhita"
+		fr: "Makuhita",
+		es: "Makuhita"
 	},
 
 	illustrator: "Koji Nakata",

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Mewtwo-GX",
 		fr: "Mewtwo-GX",
+		es: "Mewtwo-GX",
 		de: "Mewtu-GX"
 	},
 	illustrator: "5ban Graphics",

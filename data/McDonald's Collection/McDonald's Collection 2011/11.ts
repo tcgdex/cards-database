@@ -40,6 +40,7 @@ const card: Card = {
 	name: {
 		en: "Pidove",
 		fr: "Poichigeon",
+		es: "Pidove",
 		de: "Dusselgurr"
 	},
 

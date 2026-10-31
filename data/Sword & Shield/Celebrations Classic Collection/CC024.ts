@@ -7,7 +7,8 @@ const card: Card = {
 
 	name: {
 		en: "M Rayquaza EX",
-		fr: "M-Rayquaza-EX"
+		fr: "M-Rayquaza-EX",
+		es: "M Rayquaza EX"
 	},
 
 	illustrator: "5ban Graphics",

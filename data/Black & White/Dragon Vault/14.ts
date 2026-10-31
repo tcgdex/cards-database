@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Fraxure",
 		fr: "Incisache",
+		es: "Fraxure",
 	},
 
 	illustrator: "Shin Nagasawa",

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Zorua",
 		fr: "Zorua",
+		es: "Zorua",
 		de: "Zorua"
 	},
 	illustrator: "Saya Tsuruta",

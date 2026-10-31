@@ -9,6 +9,7 @@ const card: Card = {
 	name: {
 		en: "Grubbin",
 		fr: "Larvibule",
+		es: "Grubbin",
 		de: "Mabula"
 	},
 	rarity: "None",

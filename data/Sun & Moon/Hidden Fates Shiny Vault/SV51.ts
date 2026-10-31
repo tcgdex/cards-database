@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Reshiram-GX",
 		fr: "Reshiram-GX",
+		es: "Reshiram-GX",
 		de: "Reshiram-GX"
 	},
 	illustrator: "PLANETA Igarashi",

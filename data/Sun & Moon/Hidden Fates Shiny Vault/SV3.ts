@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Dartrix",
 		fr: "Efflèche",
+		es: "Dartrix",
 		de: "Arboretoss"
 	},
 	illustrator: "Shigenori Negishi",

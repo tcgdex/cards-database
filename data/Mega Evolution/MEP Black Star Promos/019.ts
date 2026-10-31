@@ -7,6 +7,7 @@ const card: Card = {
 	name: {
 		en: "Whimsicott",
 		fr: "Farfaduvet",
+		es: "Whimsicott",
 	},
 
 	illustrator: "Yuka Tanaka",

@@ -7,7 +7,8 @@ const card: Card = {
 	dexId: [924],
 
 	name: {
-		en: "Tandemaus"
+		en: "Tandemaus",
+		es: "Tandemaus"
 	},
 
 	illustrator: "Shimaris Yukichi",

@@ -6,7 +6,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hitmonchan"
+		en: "Hitmonchan",
+		es: "Hitmonchan"
 	},
 
 	illustrator: "Ken Sugimori",

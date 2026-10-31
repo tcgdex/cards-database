@@ -7,7 +7,8 @@ const card: Card = {
 
 	name: {
 		en: "Floatzel",
-		fr: "Mustéflott"
+		fr: "Mustéflott",
+		es: "Floatzel"
 	},
 
 	illustrator: "Masahiko Ishii",

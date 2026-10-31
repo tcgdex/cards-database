@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Minccino",
 		fr: "Chinchidou",
+		es: "Minccino",
 	},
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",

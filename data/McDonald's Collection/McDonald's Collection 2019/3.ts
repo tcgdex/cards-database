@@ -41,6 +41,7 @@ const card: Card = {
 
 	name: {
 		en: "Magmar",
+		es: "Magmar",
 		de: "Magmar"
 	},
 

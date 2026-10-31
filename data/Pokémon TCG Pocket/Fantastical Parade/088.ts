@@ -7,7 +7,8 @@ const card: Card = {
 	dexId: [529],
 
 	name: {
-		en: "Drilbur"
+		en: "Drilbur",
+		es: "Drilbur"
 	},
 
 	illustrator: "Midori Harada",

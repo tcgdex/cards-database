@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Pancham",
-		fr: "Pandespiègle"
+		fr: "Pandespiègle",
+		es: "Pancham"
 	},
 
 	illustrator: "Yukihiro Tada",

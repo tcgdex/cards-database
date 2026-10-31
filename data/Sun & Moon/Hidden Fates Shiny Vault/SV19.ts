@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Poipole",
 		fr: "Vémini",
+		es: "Poipole",
 		de: "Venicro"
 	},
 	illustrator: "Akira Komayama",

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Oranguru",
 		fr: "Gouroutan",
+		es: "Oranguru",
 		de: "Kommandutan"
 	},
 	illustrator: "Akira Komayama",

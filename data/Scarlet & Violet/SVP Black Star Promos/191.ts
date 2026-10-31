@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Sprigatito",
-		fr: "Poussacha"
+		fr: "Poussacha",
+		es: "Sprigatito"
 	},
 
 	rarity: "Promo",

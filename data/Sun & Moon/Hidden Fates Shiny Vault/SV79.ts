@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Silvally-GX",
 		fr: "Silvallié-GX",
+		es: "Silvally-GX",
 		de: "Amigento-GX"
 	},
 	illustrator: "5ban Graphics",
@@ -21,6 +22,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Type: Null",
+		es: "Código Cero",
 		fr: "Type:0",
 		de: "Typ:Null"
 	},

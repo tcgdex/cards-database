@@ -4,6 +4,7 @@ import Set from '../Hidden Fates'
 const card: Card = {
 	name: {
 		en: "Blaine’s Last Stand",
+		es: "Último Recurso de Blaine",
 		fr: "Dernière Chance d’Auguste",
 		de: "Pyros letzter Widerstand"
 	},

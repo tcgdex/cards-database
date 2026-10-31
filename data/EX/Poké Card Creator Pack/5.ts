@@ -3,7 +3,8 @@ import Set from '../Poké Card Creator Pack'
 
 const card: Card = {
 	name: {
-		en: "Pikachu"
+		en: "Pikachu",
+		es: "Pikachu"
 	},
 
 	illustrator: "Sylvia Forrest",

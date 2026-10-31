@@ -105,6 +105,14 @@ const card: Card = {
 				cardmarket: 899378,
 				tcgplayer: 706251
 			}
+		},
+		{
+			type: "normal",
+			stamp: ["30th-favorite"],
+			thirdParty: {
+				cardmarket: 899378,
+				tcgplayer: 706251
+			}
 		}
 	],
 }

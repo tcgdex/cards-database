@@ -4,7 +4,8 @@ import Set from '../Dragon Vault'
 const card: Card = {
 	name: {
 		en: "Kyurem",
-		fr: "Kyurem"
+		fr: "Kyurem",
+		es: "Kyurem"
 	},
 
 	illustrator: "Ryo Ueda",

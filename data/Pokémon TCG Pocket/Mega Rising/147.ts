@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Coalossal",
-		fr: "Monthracite"
+		fr: "Monthracite",
+		es: "Coalossal"
 	},
 
 	illustrator: "AKIRA EGAWA",

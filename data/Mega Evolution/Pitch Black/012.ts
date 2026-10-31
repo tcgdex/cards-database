@@ -78,6 +78,14 @@ const card: Card = {
 				tcgplayer: 704769
 			}
 		},
+		{
+			type: "normal",
+			stamp: ["30th-favorite"],
+			thirdParty: {
+				cardmarket: 895800,
+				tcgplayer: 704769
+			}
+		},
 	],
 }
 

@@ -7,7 +7,8 @@ const card: Card = {
 	dexId: [806],
 
 	name: {
-		en: "Blacephalon ex"
+		en: "Blacephalon ex",
+		es: "Blacephalon ex"
 	},
 
 	illustrator: "YASHIRO Nanaco",

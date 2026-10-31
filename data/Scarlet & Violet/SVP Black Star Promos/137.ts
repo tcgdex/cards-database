@@ -8,6 +8,7 @@ const card: Card = {
 	name: {
 		en: "Horsea",
 		fr: "Hypotrempe",
+		es: "Horsea",
 	},
 
 	rarity: "Promo",

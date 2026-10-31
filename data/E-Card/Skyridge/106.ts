@@ -4,6 +4,7 @@ import Set from '../Skyridge'
 const card: Card = {
 	name: {
 		en: "Sunkern",
+		es: "Sunkern",
 		de: "Sonnkern"
 	},
 

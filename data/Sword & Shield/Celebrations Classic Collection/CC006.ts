@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Here Comes Team Rocket!",
+		es: "!Aquí viene el Team Rocket!",
 		fr: "Et voila les Team Rocket !",
 	},
 

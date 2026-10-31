@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Paldean Wooper",
+		es: "Wooper de Paldea",
 		fr: "Axoloto de Paldea",
 	},
 

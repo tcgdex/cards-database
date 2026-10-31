@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Togepi",
 		fr: "Togepi",
+		es: "Togepi",
 		de: "Togepi"
 	},
 

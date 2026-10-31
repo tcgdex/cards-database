@@ -45,7 +45,8 @@ const card: Card = {
 
 	name: {
 		en: "Pignite",
-		fr: "Grotichon"
+		fr: "Grotichon",
+		es: "Pignite"
 	},
 
 	rarity: "None",

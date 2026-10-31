@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Nidoran♀ δ",
 		fr: "Nidoran ♀ δ",
+		es: "Nidoran♀ δ",
 		de: "Nidoran W δ"
 	},
 	illustrator: "Hajime Kusajima",

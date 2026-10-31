@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Poliwag",
+		es: "Poliwag",
 	},
 
 	rarity: "None",

@@ -9,6 +9,7 @@ const card: Card = {
 	name: {
 		en: "Zigzagoon",
 		fr: "Zigzaton",
+		es: "Zigzagoon",
 	},
 	rarity: "None",
 	category: "Pokemon",

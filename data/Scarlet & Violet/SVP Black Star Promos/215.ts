@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Toxtricity ex",
+		es: "Toxtricity ex",
 	},
 
 	suffix: "ex",

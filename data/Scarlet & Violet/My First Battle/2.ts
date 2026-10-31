@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Ivysaur",
+		es: "Ivysaur",
 	},
 
 	rarity: "None",

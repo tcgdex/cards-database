@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Magcargo",
-		fr: "Volcaropod"
+		fr: "Volcaropod",
+		es: "Magcargo"
 	},
 
 	illustrator: "Eri Yamaki",

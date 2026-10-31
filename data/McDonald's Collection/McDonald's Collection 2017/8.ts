@@ -8,6 +8,7 @@ const card: Card = {
 	set: Set,
 	name: {
 		en: "Alolan Meowth",
+		es: "Meowth de Alola",
 		fr: "Miaouss d'Alola",
 		de: "Alola-Mauzi"
 	},

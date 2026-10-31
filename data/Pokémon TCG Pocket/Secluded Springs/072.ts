@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Milotic",
-		fr: "Milobellus"
+		fr: "Milobellus",
+		es: "Milotic"
 	},
 
 	illustrator: "YASHIRO Nanaco",

@@ -4,7 +4,8 @@ import Set from '../HGSS Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Lapras",
-		fr: "Lokhlass"
+		fr: "Lokhlass",
+		es: "Lapras"
 	},
 	illustrator: "Masakazu Fukuda",
 	rarity: "Promo",

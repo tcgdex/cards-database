@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Hippowdon",
 		fr: "Hippodocus Niv. 48",
+		es: "Hippowdon",
 		de: "Hippoterus"
 	},
 

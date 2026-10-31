@@ -4,6 +4,7 @@ import Set from '../Hidden Fates Shiny Vault'
 const card: Card = {
 	name: {
 		en: "Shrine of Punishment",
+		es: "Santuario del Castigo",
 		fr: "Chapelle des Châtiments",
 		de: "Schrein der Bestrafung"
 	},

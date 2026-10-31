@@ -4,6 +4,7 @@ import Set from '../Hidden Fates'
 const card: Card = {
 	name: {
 		en: "Giovanni’s Exile",
+		es: "Exilio de Giovanni",
 		fr: "Exil de Giovanni",
 		de: "Giovannis Exil"
 	},

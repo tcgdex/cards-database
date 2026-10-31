@@ -33,7 +33,8 @@ const card: Card = {
 
 	name: {
 		en: "Magikarp",
-		fr: "Magicarpe"
+		fr: "Magicarpe",
+		es: "Magikarp"
 	},
 
 	rarity: "None",

@@ -7,7 +7,8 @@ const card: Card = {
 	dexId: [597],
 
 	name: {
-		en: "Ferroseed"
+		en: "Ferroseed",
+		es: "Ferroseed"
 	},
 
 	illustrator: "Satoshi Shirai",

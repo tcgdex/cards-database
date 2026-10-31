@@ -34,6 +34,7 @@ const card: Card = {
 	name: {
 		en: "Sandile",
 		fr: "Mascaïman",
+		es: "Sandile",
 		de: "Ganovil"
 	},
 

@@ -26,6 +26,7 @@ const card: Card = {
 
 	name: {
 		en: "Eevee",
+		es: "Eevee",
 		de: "Evoli"
 	},
 

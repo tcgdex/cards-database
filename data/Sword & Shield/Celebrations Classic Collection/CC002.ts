@@ -8,6 +8,7 @@ const card: Card = {
 	name: {
 		en: "Charizard",
 		fr: "Dracaufeu",
+		es: "Charizard",
 	},
 
 	illustrator: "Mitsuhiro Arita",

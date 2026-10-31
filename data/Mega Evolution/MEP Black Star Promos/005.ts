@@ -7,7 +7,10 @@ const card: Card = {
 
 	name: {
 		en: "Drifloon",
+		es: "Drifloon",
 		fr: "Baudrive",
+		de: "Driftlon",
+		it: "Drifloon",
 	},
 
 	illustrator: "Shimaris Yukichi",

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Pikachu",
 		fr: "Pikachu Niv. 12",
+		es: "Pikachu",
 		de: "Pikachu"
 	},
 

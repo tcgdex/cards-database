@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Water Energy",
+		es: "Energía Agua",
 	},
 
 	rarity: "None",

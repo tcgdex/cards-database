@@ -13,6 +13,7 @@ const card: Card = {
 	name: {
 		en: "Pikachu",
 		fr: "Pikachu",
+		es: "Pikachu",
 	},
 	rarity: "None",
 	category: "Pokemon",

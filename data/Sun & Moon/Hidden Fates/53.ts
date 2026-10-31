@@ -4,6 +4,7 @@ import Set from '../Hidden Fates'
 const card: Card = {
 	name: {
 		en: "Brock’s Grit",
+		es: "Valentía de Brock",
 		fr: "Vaillance de Pierre",
 		de: "Rockos Durchhaltevermögen"
 	},

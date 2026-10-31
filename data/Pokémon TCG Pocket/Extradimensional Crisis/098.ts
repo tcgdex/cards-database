@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Aerodactyl",
-		fr: "Ptéra"
+		fr: "Ptéra",
+		es: "Aerodactyl"
 	},
 
 	illustrator: "Masakazu Fukuda",

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Magnezone",
 		fr: "Magnézone",
+		es: "Magnezone",
 		de: "Magnezone"
 	},
 	illustrator: "Misa Tsutsui",

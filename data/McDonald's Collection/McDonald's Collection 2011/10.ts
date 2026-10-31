@@ -42,6 +42,7 @@ const card: Card = {
 	name: {
 		en: "Klink",
 		fr: "Tic",
+		es: "Klink",
 		de: "Klikk"
 	},
 

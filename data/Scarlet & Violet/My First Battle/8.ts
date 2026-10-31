@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Grass Energy",
+		es: "Energía Planta",
 	},
 
 	rarity: "None",

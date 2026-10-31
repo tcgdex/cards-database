@@ -4,7 +4,8 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Mew EX",
-		fr: "Mew-EX"
+		fr: "Mew-EX",
+		es: "Mew EX"
 	},
 
 	illustrator: "Eske Yoshinob",

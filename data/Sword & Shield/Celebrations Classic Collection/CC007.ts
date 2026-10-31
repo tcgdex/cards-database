@@ -7,6 +7,7 @@ const card: Card = {
 
 	name: {
 		en: "Rocket's Zapdos",
+		es: "Zapdos del Rocket",
 		fr: "Électhor de Rocket",
 	},
 

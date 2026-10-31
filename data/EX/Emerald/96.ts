@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Milotic ex",
 		fr: "Milobellus ex",
+		es: "Milotic ex",
 		de: "Milotic-ex"
 	},
 

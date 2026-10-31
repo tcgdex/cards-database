@@ -7,7 +7,8 @@ const card: Card = {
 
 	name: {
 		en: "Minun",
-		fr: "Négapi"
+		fr: "Négapi",
+		es: "Minun"
 	},
 
 	illustrator: "Katsura Tabata",

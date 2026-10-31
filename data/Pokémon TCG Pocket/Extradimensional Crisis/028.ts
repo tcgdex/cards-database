@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Meditite",
-		fr: "Méditikka"
+		fr: "Méditikka",
+		es: "Meditite"
 	},
 
 	illustrator: "Yukiko Baba",

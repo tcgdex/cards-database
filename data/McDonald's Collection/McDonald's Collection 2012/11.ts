@@ -50,7 +50,8 @@ const card: Card = {
 
 	name: {
 		en: "Klang",
-		fr: "Clic"
+		fr: "Clic",
+		es: "Klang"
 	},
 
 	rarity: "None",

@@ -4,6 +4,7 @@ import Set from '../Hidden Fates'
 const card: Card = {
 	name: {
 		en: "Brock’s Pewter City Gym",
+		es: "Gimnasio de Ciudad Plateada de Brock",
 		fr: "Arène d’Argenta de Pierre",
 		de: "Rockos Marmoria-Arena"
 	},

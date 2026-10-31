@@ -7,7 +7,8 @@ const card: Card = {
 	dexId: [462],
 
 	name: {
-		en: "Magnezone"
+		en: "Magnezone",
+		es: "Magnezone"
 	},
 
 	illustrator: "Kagemaru Himeno",

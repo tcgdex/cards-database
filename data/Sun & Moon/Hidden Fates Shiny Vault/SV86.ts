@@ -4,6 +4,7 @@ import Set from '../Hidden Fates Shiny Vault'
 const card: Card = {
 	name: {
 		en: "Lady",
+		es: "Damisela",
 		fr: "Mademoiselle",
 		de: "Lady"
 	},

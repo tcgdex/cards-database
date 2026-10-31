@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Umbreon",
 		fr: "Noctali",
+		es: "Umbreon",
 	},
 	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
 	rarity: "Common",

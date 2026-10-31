@@ -35,7 +35,8 @@ const card: Card = {
 
 	name: {
 		en: "Woobat",
-		fr: "Chovsourir"
+		fr: "Chovsourir",
+		es: "Woobat"
 	},
 
 	rarity: "None",

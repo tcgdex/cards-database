@@ -4,6 +4,7 @@ import Set from '../Hidden Fates Shiny Vault'
 const card: Card = {
 	name: {
 		en: "Brooklet Hill",
+		es: "Colina Saltagua",
 		fr: "Colline Clapotis",
 		de: "Plätscherhügel"
 	},

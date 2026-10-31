@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Clawitzer",
 		fr: "Gamblast",
+		es: "Clawitzer",
 	},
 
 	illustrator: "Mitsuhiro Arita",

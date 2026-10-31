@@ -8,6 +8,7 @@ const card: Card = {
 
 	name: {
 		en: "Paradise Resort",
+		es: "Complejo Turístico Paraíso",
 		fr: "Hôtel « Au paradis des Pokémon »",
 	},
 

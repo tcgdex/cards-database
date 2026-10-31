@@ -6,6 +6,7 @@ const card: Card = {
 
 	name: {
 		en: "Pikachu",
+		es: "Pikachu",
 	},
 	rarity: "Promo",
 	category: "Pokemon",

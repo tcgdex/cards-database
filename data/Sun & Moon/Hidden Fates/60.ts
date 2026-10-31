@@ -4,6 +4,7 @@ import Set from '../Hidden Fates'
 const card: Card = {
 	name: {
 		en: "Lt. Surge’s Strategy",
+		es: "Estrategia del Teniente Surge",
 		fr: "Stratégie de Major Bob",
 		de: "Major Bobs Strategie"
 	},

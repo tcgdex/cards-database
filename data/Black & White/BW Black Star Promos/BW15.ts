@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Pidove",
 		fr: "Poichigeon",
+		es: "Pidove",
 	},
 	illustrator: "Naoki Saito",
 	rarity: "Common",
