@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Es schließt seine Nasenlöcher und reist dann durch den Sand. Bildet Kolonien mit einer Größe von ca. 10."
 	},
 
-	thirdParty: {
-		cardmarket: 280290,
-		tcgplayer: 86082
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280290,
+				tcgplayer: 86082
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280290,
+				tcgplayer: 86082
+			}
+		},
+	],
 }
 
 export default card

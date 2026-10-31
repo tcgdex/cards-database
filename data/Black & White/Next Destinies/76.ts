@@ -99,10 +99,22 @@ const card: Card = {
 		de: "Ihm wurden reiche Ernten zugeschrieben, da es durch Portale in andere Welten Regenfälle brachte."
 	},
 
-	thirdParty: {
-		cardmarket: 280301,
-		tcgplayer: 83998
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280301,
+				tcgplayer: 83998
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280301,
+				tcgplayer: 83998
+			}
+		},
+	],
 }
 
 export default card

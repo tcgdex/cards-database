@@ -59,10 +59,22 @@ const card: Card = {
 		de: "Es verschlingt die Träume der Menschen. Frisst es einen fröhlichen Traum, stößt es danach einen rosafarbenen Dunst aus."
 	},
 
-	thirdParty: {
-		cardmarket: 280283,
-		tcgplayer: 87643
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280283,
+				tcgplayer: 87643
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280283,
+				tcgplayer: 87643
+			}
+		},
+	],
 }
 
 export default card

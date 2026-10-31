@@ -93,10 +93,22 @@ const card: Card = {
 		de: "Erzeugt ein kleines schwarzes Loch mithilfe all seiner Psycho-Kräfte, um seinen Trainer zu schützen."
 	},
 
-	thirdParty: {
-		cardmarket: 280282,
-		tcgplayer: 85637
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280282,
+				tcgplayer: 85637
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280282,
+				tcgplayer: 85637
+			}
+		},
+	],
 }
 
 export default card

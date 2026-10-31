@@ -85,10 +85,22 @@ const card: Card = {
 		de: "Am liebsten isst es Süßigkeiten. Es wandelt sie in Energie um, mit der es das Feuer in seinem Körper schürt."
 	},
 
-	thirdParty: {
-		cardmarket: 280241,
-		tcgplayer: 89228
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280241,
+				tcgplayer: 89228
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280241,
+				tcgplayer: 89228
+			}
+		},
+	],
 }
 
 export default card

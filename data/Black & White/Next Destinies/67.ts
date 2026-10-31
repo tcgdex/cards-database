@@ -62,10 +62,22 @@ const card: Card = {
 		de: "Ein Meister der Attacken in Serie. Wenn es sich geistig sammelt, werden die Attacken geschmeidiger und flotter."
 	},
 
-	thirdParty: {
-		cardmarket: 280292,
-		tcgplayer: 87437
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280292,
+				tcgplayer: 87437
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280292,
+				tcgplayer: 87437
+			}
+		},
+	],
 }
 
 export default card

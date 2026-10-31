@@ -89,10 +89,22 @@ const card: Card = {
 		de: "Sein Körper sondert eine giftige Substanz ab, die bei Kontakt Pflanzen und Bäume vernichtet."
 	},
 
-	thirdParty: {
-		cardmarket: 280278,
-		tcgplayer: 87626
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280278,
+				tcgplayer: 87626
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280278,
+				tcgplayer: 87626
+			}
+		},
+	],
 }
 
 export default card

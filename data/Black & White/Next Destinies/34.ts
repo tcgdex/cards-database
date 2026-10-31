@@ -78,10 +78,22 @@ const card: Card = {
 		de: "Es lähmt seine Beute mit Gift und verschleppt sie in seinen Unterschlupf, acht Kilometer unter dem Meeresspiegel."
 	},
 
-	thirdParty: {
-		cardmarket: 280259,
-		tcgplayer: 85564
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280259,
+				tcgplayer: 85564
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280259,
+				tcgplayer: 85564
+			}
+		},
+	],
 }
 
 export default card

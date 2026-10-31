@@ -91,10 +91,22 @@ const card: Card = {
 		de: "Eines der Legendären Vogel-Pokémon. Es wird als Bote des Frühlings angesehen."
 	},
 
-	thirdParty: {
-		cardmarket: 280239,
-		tcgplayer: 87564
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280239,
+				tcgplayer: 87564
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280239,
+				tcgplayer: 87564
+			}
+		},
+	],
 }
 
 export default card

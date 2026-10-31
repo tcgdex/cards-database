@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Durch die Spitzen seiner scharfen Krallen strömt Elektrizität. Selbst kleine Kratzer verursachen Ohnmacht."
 	},
 
-	thirdParty: {
-		cardmarket: 280269,
-		tcgplayer: 86944
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280270,
+				tcgplayer: 86944
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280270,
+				tcgplayer: 86944
+			}
+		},
+	],
 }
 
 export default card

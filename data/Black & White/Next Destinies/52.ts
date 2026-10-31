@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Es wurde geboren, als Schlamm von den Strahlen des Mondes getroffen wurde. Es erscheint, wo Unrat ist."
 	},
 
-	thirdParty: {
-		cardmarket: 280277,
-		tcgplayer: 85914
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280277,
+				tcgplayer: 85914
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280277,
+				tcgplayer: 85914
+			}
+		},
+	],
 }
 
 export default card

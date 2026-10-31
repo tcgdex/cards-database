@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Sobald es mit seinen großen, runden Augen rollt, fängt es an, ein Lied zu singen und jeder schläft ein."
 	},
 
-	thirdParty: {
-		cardmarket: 280303,
-		tcgplayer: 86320
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280303,
+				tcgplayer: 86320
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280303,
+				tcgplayer: 86320
+			}
+		},
+	],
 }
 
 export default card

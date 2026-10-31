@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Es lebt auf schneebedeckten Bergen. Vor vielen Jahren fand es während einer Eiszeit seinen Weg in den Süden."
 	},
 
-	thirdParty: {
-		cardmarket: 280257,
-		tcgplayer: 90264
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280257,
+				tcgplayer: 90264
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280257,
+				tcgplayer: 90264
+			}
+		},
+	],
 }
 
 export default card

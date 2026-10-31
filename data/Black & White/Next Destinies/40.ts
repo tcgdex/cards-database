@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Es entlädt Elektrizität in den Boden, um sich auf diese Weise vor elektrischen Schlägen zu schützen."
 	},
 
-	thirdParty: {
-		cardmarket: 280265,
-		tcgplayer: 88522
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280265,
+				tcgplayer: 88522
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280265,
+				tcgplayer: 88522
+			}
+		},
+	],
 }
 
 export default card

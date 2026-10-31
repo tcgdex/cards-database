@@ -77,10 +77,22 @@ const card: Card = {
 		de: "Es liebt es, das Meer mit Pokémon und Menschen auf dem Rücken zu überqueren. Es versteht die Menschen."
 	},
 
-	thirdParty: {
-		cardmarket: 280250,
-		tcgplayer: 86623
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280251,
+				tcgplayer: 86623
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280251,
+				tcgplayer: 86623
+			}
+		},
+	],
 }
 
 export default card

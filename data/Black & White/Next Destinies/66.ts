@@ -97,10 +97,22 @@ const card: Card = {
 		de: "Es wird überraschend schnell wütend. Als Zeichen seiner Stärke sperrt es sein Maul auf."
 	},
 
-	thirdParty: {
-		cardmarket: 280291,
-		tcgplayer: 86086
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280291,
+				tcgplayer: 86086
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280291,
+				tcgplayer: 86086
+			}
+		},
+	],
 }
 
 export default card

@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Ein Legendäres Vogel-Pokémon. Es kann Blizzards verursachen, indem es Feuchtigkeit gefriert."
 	},
 
-	thirdParty: {
-		cardmarket: 280252,
-		tcgplayer: 83652
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280252,
+				tcgplayer: 83652
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280252,
+				tcgplayer: 83652
+			}
+		},
+	],
 }
 
 export default card

@@ -76,10 +76,22 @@ const card: Card = {
 		de: "Der Ton seiner Grasflöte beunruhigt die, die ihn hören. Es lebt tief in den Wäldern."
 	},
 
-	thirdParty: {
-		cardmarket: 280296,
-		tcgplayer: 87827
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280296,
+				tcgplayer: 87827
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280296,
+				tcgplayer: 87827
+			}
+		},
+	],
 }
 
 export default card

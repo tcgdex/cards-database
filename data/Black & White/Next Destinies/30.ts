@@ -75,10 +75,22 @@ const card: Card = {
 		de: "Rot gestreifte und blau gestreifte Exemplare sind sich feindlich gesonnen. Doch ist jeder Schwarm bunt gemischt."
 	},
 
-	thirdParty: {
-		cardmarket: 280255,
-		tcgplayer: 83733
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280255,
+				tcgplayer: 83733
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280255,
+				tcgplayer: 83733
+			}
+		},
+	],
 }
 
 export default card

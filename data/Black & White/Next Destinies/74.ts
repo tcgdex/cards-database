@@ -94,10 +94,22 @@ const card: Card = {
 		de: "Wählt seinen Anführer über die Größe des Kamms auf dem Kopf. Ein Tritt von ihm reicht, um Betonblöcke zu zertrümmern."
 	},
 
-	thirdParty: {
-		cardmarket: 280299,
-		tcgplayer: 88978
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280299,
+				tcgplayer: 88978
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280299,
+				tcgplayer: 88978
+			}
+		},
+	],
 }
 
 export default card

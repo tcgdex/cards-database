@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Es hat einen dicken Schädel und versetzt jedem, mit dem sich sein Blick kreuzt, eine Kopfnuss."
 	},
 
-	thirdParty: {
-		cardmarket: 280298,
-		tcgplayer: 88983
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280298,
+				tcgplayer: 88983
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280298,
+				tcgplayer: 88983
+			}
+		},
+	],
 }
 
 export default card

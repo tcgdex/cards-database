@@ -85,10 +85,22 @@ const card: Card = {
 		de: "Manche Forscher glauben, dass dieses Pokémon in der Vergangenheit wie ein Spiegel reflektierte."
 	},
 
-	thirdParty: {
-		cardmarket: 280300,
-		tcgplayer: 84007
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280300,
+				tcgplayer: 84007
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280300,
+				tcgplayer: 84007
+			}
+		},
+	],
 }
 
 export default card
