@@ -70,10 +70,15 @@ const card: Card = {
 		en: "Its body is covered in a down that can refract light in such a way that it becomes invisible.",
 	},
 
-	thirdParty: {
-		cardmarket: 281009,
-		tcgplayer: 86654
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281009,
+				tcgplayer: 86654
+			}
+		},
+	],
 }
 
 export default card

@@ -72,10 +72,15 @@ const card: Card = {
 		en: "It lives in the ozone layer far above the clouds and cannot be seen from the ground.",
 	},
 
-	thirdParty: {
-		cardmarket: 281011,
-		tcgplayer: 88631
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281011,
+				tcgplayer: 88631
+			}
+		},
+	],
 }
 
 export default card

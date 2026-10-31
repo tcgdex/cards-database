@@ -73,10 +73,15 @@ const card: Card = {
 		en: "Since a broken tusk will not grow back, they diligently sharpen their tusks on river rocks after they've been fighting.",
 	},
 
-	thirdParty: {
-		cardmarket: 281014,
-		tcgplayer: 85559
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281014,
+				tcgplayer: 85559
+			}
+		},
+	],
 }
 
 export default card
