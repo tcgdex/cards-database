@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Ein Vergleich zeigte, dass die Vorderzähne von Bidiza und Rattfratz gleich schnell wachsen."
 	},
 
-	thirdParty: {
-		cardmarket: 280545,
-		tcgplayer: 83829
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280545,
+				tcgplayer: 83829
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280545,
+				tcgplayer: 83829
+			}
+		},
+	],
 }
 
 export default card

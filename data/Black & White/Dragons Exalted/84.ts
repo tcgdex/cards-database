@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Freundet es sich mit jemandem an, hüllt es den Freund sanft mit den Flügeln ein und singt dann."
 	},
 
-	thirdParty: {
-		cardmarket: 280523,
-		tcgplayer: 83519
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280523,
+				tcgplayer: 83519
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280523,
+				tcgplayer: 83519
+			}
+		},
+	],
 }
 
 export default card

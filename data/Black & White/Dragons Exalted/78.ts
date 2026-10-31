@@ -70,10 +70,22 @@ const card: Card = {
 		de: "Normalerweise lebt es in dunklen Bergen. Ist es hungrig, frisst es auch Eisenbahnschienen und Autos."
 	},
 
-	thirdParty: {
-		cardmarket: 280517,
-		tcgplayer: 83640
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280517,
+				tcgplayer: 83640
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280517,
+				tcgplayer: 83640
+			}
+		},
+	],
 }
 
 export default card

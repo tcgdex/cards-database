@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Die schnelle Bewegung seiner Flügel erzeugt regelrechte Klingen des Windes, die Bäume fällen können."
 	},
 
-	thirdParty: {
-		cardmarket: 280529,
-		tcgplayer: 85625
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280530,
+				tcgplayer: 85625
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280530,
+				tcgplayer: 85625
+			}
+		},
+	],
 }
 
 export default card

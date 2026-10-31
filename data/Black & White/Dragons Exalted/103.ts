@@ -93,10 +93,22 @@ const card: Card = {
 		de: "Das faulste Pokémon der Welt. Wenn es faulenzt, sammelt es in Wahrheit Energie, um zuzuschlagen."
 	},
 
-	thirdParty: {
-		cardmarket: 280542,
-		tcgplayer: 89293
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280542,
+				tcgplayer: 89293
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280542,
+				tcgplayer: 89293
+			}
+		},
+	],
 }
 
 export default card

@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Es rollt über Eisschollen, um Land zu erreichen, da sein Körper zum Schwimmen nicht geeignet ist."
 	},
 
-	thirdParty: {
-		cardmarket: 280468,
-		tcgplayer: 89450
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280468,
+				tcgplayer: 89450
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280468,
+				tcgplayer: 89450
+			}
+		},
+	],
 }
 
 export default card

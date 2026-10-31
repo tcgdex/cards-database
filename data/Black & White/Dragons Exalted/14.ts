@@ -94,10 +94,22 @@ const card: Card = {
 		de: "Es kann mit beiden Händen verheerend angreifen. Seine Hände enthalten unterschiedliche Gifte."
 	},
 
-	thirdParty: {
-		cardmarket: 280453,
-		tcgplayer: 88831
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280453,
+				tcgplayer: 88831
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280453,
+				tcgplayer: 88831
+			}
+		},
+	],
 }
 
 export default card

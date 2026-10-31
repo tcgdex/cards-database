@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Greift mit einer Substanz aus der Spitze seines Schweifs an. Angriffe von oben verblüffen es."
 	},
 
-	thirdParty: {
-		cardmarket: 280516,
-		tcgplayer: 89283
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280516,
+				tcgplayer: 89283
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280516,
+				tcgplayer: 89283
+			}
+		},
+	],
 }
 
 export default card

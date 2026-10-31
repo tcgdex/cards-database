@@ -84,10 +84,22 @@ const card: Card = {
 		de: "Wenn es sein Revier leergejagt hat, sucht es sich ein neues. Seine beiden Köpfe liegen ständig im Streit."
 	},
 
-	thirdParty: {
-		cardmarket: 280534,
-		tcgplayer: 90780
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280534,
+				tcgplayer: 90780
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280534,
+				tcgplayer: 90780
+			}
+		},
+	],
 }
 
 export default card

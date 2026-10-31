@@ -73,10 +73,22 @@ const card: Card = {
 		de: "Atmet es tief ein, bilden sich Hitzewellen um seinen Körper, was wiederum die Sicht beeinträchtigt."
 	},
 
-	thirdParty: {
-		cardmarket: 280459,
-		tcgplayer: 87053
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280459,
+				tcgplayer: 87053
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280459,
+				tcgplayer: 87053
+			}
+		},
+	],
 }
 
 export default card

@@ -62,10 +62,22 @@ const card: Card = {
 		de: "Erzeugt mit seinen Wangen für Menschen unhörbare Schallwellen. Es verständigt sich über den Rhythmus dieser Wellen."
 	},
 
-	thirdParty: {
-		cardmarket: 280473,
-		tcgplayer: 90090
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280473,
+				tcgplayer: 90090
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280473,
+				tcgplayer: 90090
+			}
+		},
+	],
 }
 
 export default card

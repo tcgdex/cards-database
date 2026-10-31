@@ -62,10 +62,22 @@ const card: Card = {
 		de: "Lebt in den Baumwipfeln. Kann seinen Schweif genauso gut wie seine Hände verwenden."
 	},
 
-	thirdParty: {
-		cardmarket: 280538,
-		tcgplayer: 83494
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280538,
+				tcgplayer: 83494
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280538,
+				tcgplayer: 83494
+			}
+		},
+	],
 }
 
 export default card

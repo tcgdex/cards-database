@@ -62,10 +62,22 @@ const card: Card = {
 		de: "Ein älteres Karpador kann mit Platscher Berge überspringen. Die Attacke ist trotzdem eher nutzlos."
 	},
 
-	thirdParty: {
-		cardmarket: 280462,
-		tcgplayer: 87036
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280462,
+				tcgplayer: 87036
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280462,
+				tcgplayer: 87036
+			}
+		},
+	],
 }
 
 export default card

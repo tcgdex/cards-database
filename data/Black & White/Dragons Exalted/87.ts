@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Greift mit seinem riesigen Maul an. Obwohl seine Angriffe mächtig sind, verletzt es sich dabei auch selbst."
 	},
 
-	thirdParty: {
-		cardmarket: 280525,
-		tcgplayer: 85703
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280526,
+				tcgplayer: 85703
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280526,
+				tcgplayer: 85703
+			}
+		},
+	],
 }
 
 export default card

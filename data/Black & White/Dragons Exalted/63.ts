@@ -75,10 +75,22 @@ const card: Card = {
 		de: "Es bewegt sich, indem es sich auf seinem Fuß dreht. Ein seltenes Pokémon, das in alten Ruinen lebte."
 	},
 
-	thirdParty: {
-		cardmarket: 280502,
-		tcgplayer: 83718
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280502,
+				tcgplayer: 83718
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280502,
+				tcgplayer: 83718
+			}
+		},
+	],
 }
 
 export default card

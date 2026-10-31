@@ -59,10 +59,22 @@ const card: Card = {
 		de: "Es schützt sich bei Gefahr durch Gegenstände aus Eisen, die es mit erhöhtem Magnetismus an sich zieht."
 	},
 
-	thirdParty: {
-		cardmarket: 280501,
-		tcgplayer: 87804
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280501,
+				tcgplayer: 87804
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280501,
+				tcgplayer: 87804
+			}
+		},
+	],
 }
 
 export default card

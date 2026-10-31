@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Hat es sich mit Elektrizität aufgeladen, leuchtet sein Schweif und es feuert Haare ab, die sich entladen."
 	},
 
-	thirdParty: {
-		cardmarket: 280478,
-		tcgplayer: 85486
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280478,
+				tcgplayer: 85486
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280478,
+				tcgplayer: 85486
+			}
+		},
+	],
 }
 
 export default card

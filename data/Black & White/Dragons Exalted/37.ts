@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Die spezielle Schleimschicht, die seinen Körper umgibt, besitzt heilende Kräfte."
 	},
 
-	thirdParty: {
-		cardmarket: 280476,
-		tcgplayer: 83508
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280476,
+				tcgplayer: 83508
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280476,
+				tcgplayer: 83508
+			}
+		},
+	],
 }
 
 export default card

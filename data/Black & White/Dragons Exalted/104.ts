@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Es kann nicht entspannen, wenn es oder seine Umgebung dreckig ist. Säubert alles mit den Flügeln"
 	},
 
-	thirdParty: {
-		cardmarket: 280543,
-		tcgplayer: 89661
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280543,
+				tcgplayer: 89661
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280543,
+				tcgplayer: 89661
+			}
+		},
+	],
 }
 
 export default card

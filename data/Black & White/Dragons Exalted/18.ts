@@ -61,10 +61,22 @@ const card: Card = {
 		de: "Es beherrscht Feuerbälle. Während es wächst, teilen sich seine sechs Schweife, um weitere zu bilden."
 	},
 
-	thirdParty: {
-		cardmarket: 280457,
-		tcgplayer: 90447
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280457,
+				tcgplayer: 90447
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280457,
+				tcgplayer: 90447
+			}
+		},
+	],
 }
 
 export default card

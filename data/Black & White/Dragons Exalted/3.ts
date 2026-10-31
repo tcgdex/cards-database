@@ -97,10 +97,22 @@ const card: Card = {
 		de: "Es lässt sich von den Winden um den Globus tragen und verteilt auf seinem Flug Baumwollsamen."
 	},
 
-	thirdParty: {
-		cardmarket: 280442,
-		tcgplayer: 86368
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280442,
+				tcgplayer: 86368
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280442,
+				tcgplayer: 86368
+			}
+		},
+	],
 }
 
 export default card

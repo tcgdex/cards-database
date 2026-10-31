@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Es bindet sich mit Seide an Äste und trinkt Regenwasser, während es starr auf seine Entwicklung wartet."
 	},
 
-	thirdParty: {
-		cardmarket: 280446,
-		tcgplayer: 89214
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280446,
+				tcgplayer: 89214
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280446,
+				tcgplayer: 89214
+			}
+		},
+	],
 }
 
 export default card

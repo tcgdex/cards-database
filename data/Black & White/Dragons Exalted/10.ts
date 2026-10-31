@@ -62,10 +62,22 @@ const card: Card = {
 		de: "Es wächst unterirdisch heran und nimmt seine Umgebung mit Antennen wahr, da es nahezu blind ist."
 	},
 
-	thirdParty: {
-		cardmarket: 280449,
-		tcgplayer: 87762
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280449,
+				tcgplayer: 87762
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280449,
+				tcgplayer: 87762
+			}
+		},
+	],
 }
 
 export default card

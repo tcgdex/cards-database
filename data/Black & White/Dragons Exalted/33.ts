@@ -78,10 +78,22 @@ const card: Card = {
 		de: "Man findet es oft in der Nähe von Häfen. Rettet dort Menschen, schleppt aber auch Beute hinfort."
 	},
 
-	thirdParty: {
-		cardmarket: 280472,
-		tcgplayer: 85516
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280472,
+				tcgplayer: 85516
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280472,
+				tcgplayer: 85516
+			}
+		},
+	],
 }
 
 export default card

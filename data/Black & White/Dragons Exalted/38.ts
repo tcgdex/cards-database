@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Sein weiches Fell wird doppelt so dick, wenn sich Elektrizität aufbaut."
 	},
 
-	thirdParty: {
-		cardmarket: 280477,
-		tcgplayer: 87208
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280477,
+				tcgplayer: 87208
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280477,
+				tcgplayer: 87208
+			}
+		},
+	],
 }
 
 export default card

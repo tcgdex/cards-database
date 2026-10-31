@@ -61,10 +61,22 @@ const card: Card = {
 		de: "Es wird oft von Vogel-Pokémon angegriffen, wehrt sich aber mit Gift aus seinen Schwanzspitzen."
 	},
 
-	thirdParty: {
-		cardmarket: 280445,
-		tcgplayer: 90653
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280445,
+				tcgplayer: 90653
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280445,
+				tcgplayer: 90653
+			}
+		},
+	],
 }
 
 export default card
