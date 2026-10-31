@@ -78,10 +78,22 @@ const card: Card = {
 		de: "Es baut an dunklen Orten Labyrinthe. Wird es von jemandem entdeckt, gräbt es ein Loch und versucht zu entkommen."
 	},
 
-	thirdParty: {
-		cardmarket: 280698,
-		tcgplayer: 85014
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280698,
+				tcgplayer: 85014
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280698,
+				tcgplayer: 85014
+			}
+		},
+	],
 }
 
 export default card

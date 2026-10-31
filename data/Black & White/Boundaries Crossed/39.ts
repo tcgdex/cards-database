@@ -72,10 +72,22 @@ const card: Card = {
 		de: "Kämpft mit der Muschel auf seinem Bauch. Pariert es einen Angriff, schlägt es sofort mit einer Schnitt-Attacke zurück."
 	},
 
-	thirdParty: {
-		cardmarket: 280626,
-		tcgplayer: 87895
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280626,
+				tcgplayer: 87895
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280626,
+				tcgplayer: 87895
+			}
+		},
+	],
 }
 
 export default card

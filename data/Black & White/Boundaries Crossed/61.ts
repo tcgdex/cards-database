@@ -61,10 +61,22 @@ const card: Card = {
 		de: "Es mag das Weinen von Kindern. Erschreckt gemeine Kinder, indem es durch Wände geht."
 	},
 
-	thirdParty: {
-		cardmarket: 280648,
-		tcgplayer: 85055
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280648,
+				tcgplayer: 85055
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280648,
+				tcgplayer: 85055
+			}
+		},
+	],
 }
 
 export default card

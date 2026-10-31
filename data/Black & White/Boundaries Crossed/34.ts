@@ -81,10 +81,22 @@ const card: Card = {
 		de: "Die gut ausgeprägten Flossen ermöglichen einen sowohl eleganten als auch dynamischen Schwimmstil."
 	},
 
-	thirdParty: {
-		cardmarket: 280621,
-		tcgplayer: 85818
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280621,
+				tcgplayer: 85818
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280621,
+				tcgplayer: 85818
+			}
+		},
+	],
 }
 
 export default card

@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Bläst es seine Giftbeutel auf, ertönt ein unheimliches Geräusch, das Gegner zurückschrecken lässt und vergiftet."
 	},
 
-	thirdParty: {
-		cardmarket: 280651,
-		tcgplayer: 84480
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280652,
+				tcgplayer: 84480
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280652,
+				tcgplayer: 84480
+			}
+		},
+	],
 }
 
 export default card

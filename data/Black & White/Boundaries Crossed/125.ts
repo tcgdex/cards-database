@@ -95,10 +95,22 @@ const card: Card = {
 		de: "Männchen schrecken Gegner ab, indem sie ihren Kopfschmuck schütteln. Weibchen verfügen über bessere Flugfertigkeiten."
 	},
 
-	thirdParty: {
-		cardmarket: 280712,
-		tcgplayer: 90161
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280712,
+				tcgplayer: 90161
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280712,
+				tcgplayer: 90161
+			}
+		},
+	],
 }
 
 export default card

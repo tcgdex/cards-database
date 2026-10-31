@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Sein anmutiges Auftreten verdankt es den Muskeln, die es entwickelt hat. Es prescht lautlos durch die Nacht."
 	},
 
-	thirdParty: {
-		cardmarket: 280678,
-		tcgplayer: 86727
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280678,
+				tcgplayer: 86727
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280678,
+				tcgplayer: 86727
+			}
+		},
+	],
 }
 
 export default card

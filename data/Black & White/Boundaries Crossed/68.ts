@@ -81,10 +81,22 @@ const card: Card = {
 		de: "Es erscheint vor schlafenden Menschen und Pokémon und frisst ihre Alpträume."
 	},
 
-	thirdParty: {
-		cardmarket: 280655,
-		tcgplayer: 87644
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280655,
+				tcgplayer: 87644
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280655,
+				tcgplayer: 87644
+			}
+		},
+	],
 }
 
 export default card

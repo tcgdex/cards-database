@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Beim Abfeuern seiner Ultraschallwellen, mit denen es selbst Beton zertrümmern kann, wedelt es eifrig mit dem Schweif."
 	},
 
-	thirdParty: {
-		cardmarket: 280658,
-		tcgplayer: 89726
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280658,
+				tcgplayer: 89726
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280658,
+				tcgplayer: 89726
+			}
+		},
+	],
 }
 
 export default card

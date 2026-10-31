@@ -84,10 +84,22 @@ const card: Card = {
 		de: "Es manipuliert Pokémon und Menschen mit Hypnosetricks. In Märchen tritt es oft als Entführer auf."
 	},
 
-	thirdParty: {
-		cardmarket: 280663,
-		tcgplayer: 85858
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280663,
+				tcgplayer: 85858
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280663,
+				tcgplayer: 85858
+			}
+		},
+	],
 }
 
 export default card

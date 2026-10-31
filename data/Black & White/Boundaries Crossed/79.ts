@@ -95,10 +95,22 @@ const card: Card = {
 		de: "Seine Stacheln sind erhärtete Haut. Im Kampf rollt es sich zusammen und greift den Gegner mit den Stacheln an."
 	},
 
-	thirdParty: {
-		cardmarket: 280666,
-		tcgplayer: 88935
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280666,
+				tcgplayer: 88935
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280666,
+				tcgplayer: 88935
+			}
+		},
+	],
 }
 
 export default card

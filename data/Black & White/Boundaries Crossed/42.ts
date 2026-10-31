@@ -66,10 +66,22 @@ const card: Card = {
 		de: "Es schwimmt besser, als es fliegen kann. Am liebsten taucht es ins kühle Nass ab, um Torfmoos, seine Leibspeise, zu essen."
 	},
 
-	thirdParty: {
-		cardmarket: 280629,
-		tcgplayer: 84994
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280629,
+				tcgplayer: 84994
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280629,
+				tcgplayer: 84994
+			}
+		},
+	],
 }
 
 export default card

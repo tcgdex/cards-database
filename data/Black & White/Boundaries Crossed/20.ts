@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Man sagt, Gluraks Feuer lodert stärker, wenn es harte Kämpfe überstanden hat."
 	},
 
-	thirdParty: {
-		cardmarket: 280607,
-		tcgplayer: 84192
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280607,
+				tcgplayer: 84192
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280607,
+				tcgplayer: 84192
+			}
+		},
+	],
 }
 
 export default card

@@ -77,10 +77,22 @@ const card: Card = {
 		de: "Es verwendet hin und wieder Elektrizität, um ein anderes, geschwächtes Pikachu aufzuladen."
 	},
 
-	thirdParty: {
-		cardmarket: 280637,
-		tcgplayer: 88103
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280637,
+				tcgplayer: 88103
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280637,
+				tcgplayer: 88103
+			}
+		},
+	],
 }
 
 export default card

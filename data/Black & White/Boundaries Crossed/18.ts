@@ -75,10 +75,22 @@ const card: Card = {
 		de: "Lodert die Flamme auf seiner Schweifspitze hell, ist Glumanda gesund."
 	},
 
-	thirdParty: {
-		cardmarket: 280605,
-		tcgplayer: 84218
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280605,
+				tcgplayer: 84218
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280605,
+				tcgplayer: 84218
+			}
+		},
+	],
 }
 
 export default card

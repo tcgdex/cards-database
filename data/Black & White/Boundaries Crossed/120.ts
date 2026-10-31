@@ -75,10 +75,22 @@ const card: Card = {
 		de: "Ein tapferes Pokémon, das jedoch klug genug ist, seinen Gegner zu mustern, bevor es sich auf einen Kampf einlässt."
 	},
 
-	thirdParty: {
-		cardmarket: 280707,
-		tcgplayer: 86800
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280707,
+				tcgplayer: 86800
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280707,
+				tcgplayer: 86800
+			}
+		},
+	],
 }
 
 export default card

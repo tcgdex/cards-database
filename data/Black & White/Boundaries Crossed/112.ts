@@ -65,10 +65,22 @@ const card: Card = {
 		de: "Es ist sehr mutig und stellt sich auch starken Gegnern. Es sucht ständig nach warmen Regionen."
 	},
 
-	thirdParty: {
-		cardmarket: 280699,
-		tcgplayer: 89736
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280699,
+				tcgplayer: 89736
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280699,
+				tcgplayer: 89736
+			}
+		},
+	],
 }
 
 export default card

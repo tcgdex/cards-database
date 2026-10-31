@@ -76,10 +76,22 @@ const card: Card = {
 		de: "Es zeigt gerne seine niedliche Seite, indem es seinen eigenen Schweif jagt, bis ihm schwindlig wird."
 	},
 
-	thirdParty: {
-		cardmarket: 280700,
-		tcgplayer: 89269
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280700,
+				tcgplayer: 89269
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280700,
+				tcgplayer: 89269
+			}
+		},
+	],
 }
 
 export default card

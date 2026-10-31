@@ -94,10 +94,22 @@ const card: Card = {
 		de: "Sobald die Regenzeit vorbei ist, wird es von der warmen Sonne nach draußen gezogen, wo es tanzt."
 	},
 
-	thirdParty: {
-		cardmarket: 280591,
-		tcgplayer: 83802
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280591,
+				tcgplayer: 83802
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280591,
+				tcgplayer: 83802
+			}
+		},
+	],
 }
 
 export default card

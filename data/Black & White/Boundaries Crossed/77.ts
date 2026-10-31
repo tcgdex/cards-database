@@ -81,10 +81,22 @@ const card: Card = {
 		de: "Es besitzt die Macht, Pokémon, die sich in deiner Nähe aufhalten, mit seinen Melodien froh oder traurig zu stimmen."
 	},
 
-	thirdParty: {
-		cardmarket: 280664,
-		tcgplayer: 87299
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280664,
+				tcgplayer: 87299
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280664,
+				tcgplayer: 87299
+			}
+		},
+	],
 }
 
 export default card

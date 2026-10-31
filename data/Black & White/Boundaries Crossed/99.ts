@@ -93,10 +93,22 @@ const card: Card = {
 		de: "Auch bekannt als „Geist der Wüste“. Es versteckt sich in Sandstürmen, die es durch seinen Flügelschlag erzeugt."
 	},
 
-	thirdParty: {
-		cardmarket: 280686,
-		tcgplayer: 85527
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280686,
+				tcgplayer: 85527
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280686,
+				tcgplayer: 85527
+			}
+		},
+	],
 }
 
 export default card

@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Es ist extrem vorsichtig. Wenn es Gefahr wittert, macht es sich mit flinken Sprüngen aus dem Staub."
 	},
 
-	thirdParty: {
-		cardmarket: 280704,
-		tcgplayer: 86828
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280704,
+				tcgplayer: 86828
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280704,
+				tcgplayer: 86828
+			}
+		},
+	],
 }
 
 export default card

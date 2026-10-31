@@ -72,10 +72,22 @@ const card: Card = {
 		de: "Die scharfen Sensen an den Unterarmen werden durch das Schneiden harter Objekte noch schärfer."
 	},
 
-	thirdParty: {
-		cardmarket: 280594,
-		tcgplayer: 89006
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280594,
+				tcgplayer: 89006
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280594,
+				tcgplayer: 89006
+			}
+		},
+	],
 }
 
 export default card

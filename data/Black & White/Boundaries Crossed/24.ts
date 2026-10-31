@@ -72,10 +72,22 @@ const card: Card = {
 		de: "Es schießt Flammen aus seinem Rüssel. Ist es erkältet, kommt statt Feuer aber nur pechschwarzer Rauch zum Vorschein."
 	},
 
-	thirdParty: {
-		cardmarket: 280611,
-		tcgplayer: 89884
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280611,
+				tcgplayer: 89884
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280611,
+				tcgplayer: 89884
+			}
+		},
+	],
 }
 
 export default card

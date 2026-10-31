@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Aufgrund seines starken Überlebensdrangs kämpft es selten fair. Beliebt als Maskottchen."
 	},
 
-	thirdParty: {
-		cardmarket: 280651,
-		tcgplayer: 84479
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280651,
+				tcgplayer: 84479
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280651,
+				tcgplayer: 84479
+			}
+		},
+	],
 }
 
 export default card

@@ -74,10 +74,22 @@ const card: Card = {
 		de: "Sein ölgefüllter Schweif dient ihm als Rettungsboje, die es vor der Strömung reißender Flüsse schützt."
 	},
 
-	thirdParty: {
-		cardmarket: 280623,
-		tcgplayer: 87222
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280623,
+				tcgplayer: 87222
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280623,
+				tcgplayer: 87222
+			}
+		},
+	],
 }
 
 export default card
