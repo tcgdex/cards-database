@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Angeblich verschlingt es jeden, der sich ihm auch nur nähert. Besonders gern frisst es Klumpen aus reinem Gold."
 	},
 
-	thirdParty: {
-		cardmarket: 280380,
-		tcgplayer: 84386
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280380,
+				tcgplayer: 84386
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280380,
+				tcgplayer: 84386
+			}
+		},
+	],
 }
 
 export default card

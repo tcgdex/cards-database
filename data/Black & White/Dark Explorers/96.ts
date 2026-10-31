@@ -26,10 +26,22 @@ const card: Card = {
 		de: "Jeder Spieler mischt seine Hand zurück in sein Deck. Anschließend zieht jeder Spieler eine Karte für jede seiner noch übrigen Preiskarten. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
-	thirdParty: {
-		cardmarket: 280424,
-		tcgplayer: 87676
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280424,
+				tcgplayer: 87676
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280424,
+				tcgplayer: 87676
+			}
+		},
+	],
 }
 
 export default card

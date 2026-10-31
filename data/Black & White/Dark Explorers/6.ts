@@ -93,10 +93,22 @@ const card: Card = {
 		de: "Mit seiner pflanzenähnlichen Zellstruktur betreibt es Photosynthese. Es kämpft eigentlich nie."
 	},
 
-	thirdParty: {
-		cardmarket: 280334,
-		tcgplayer: 86682
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280334,
+				tcgplayer: 86682
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280334,
+				tcgplayer: 86682
+			}
+		},
+	],
 }
 
 export default card

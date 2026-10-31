@@ -26,10 +26,22 @@ const card: Card = {
 		de: "Decke solang Karten von deinem Deck auf, bis du eine Unterstützerkarte aufdeckst. Nimm sie auf deine Hand. Mische die anderen Karten zurück in dein Deck. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
-	thirdParty: {
-		cardmarket: 280427,
-		tcgplayer: 88573
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280427,
+				tcgplayer: 88573
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280427,
+				tcgplayer: 88573
+			}
+		},
+	],
 }
 
 export default card

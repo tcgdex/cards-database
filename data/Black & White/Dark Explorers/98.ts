@@ -29,10 +29,29 @@ const card: Card = {
 		de: "Lege deine Handkarten auf deinen Ablagestapel und ziehe 7 neue Karten. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
-	thirdParty: {
-		cardmarket: 280426,
-		tcgplayer: 88396
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280426,
+				tcgplayer: 88396
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['professor-program'],
+			thirdParty: {
+				cardmarket: 450653
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280426,
+				tcgplayer: 88396
+			}
+		},
+	],
 }
 
 export default card

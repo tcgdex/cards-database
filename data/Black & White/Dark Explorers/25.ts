@@ -87,10 +87,29 @@ const card: Card = {
 		de: "Seine Zellstruktur ist der von Wassermolekülen ähnlich. Daher kann es mit Wasser eins werden."
 	},
 
-	thirdParty: {
-		cardmarket: 280353,
-		tcgplayer: 90288
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280353,
+				tcgplayer: 90288
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['regional-championships'],
+			thirdParty: {
+				cardmarket: 449318
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280353,
+				tcgplayer: 90288
+			}
+		},
+	],
 }
 
 export default card

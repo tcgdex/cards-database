@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Aus seinen Handgelenken kommt Feuer, das seine Knöchel umhüllt. Schläge verbrennen den Gegner."
 	},
 
-	thirdParty: {
-		cardmarket: 280345,
-		tcgplayer: 83911
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280345,
+				tcgplayer: 83911
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280345,
+				tcgplayer: 83911
+			}
+		},
+	],
 }
 
 export default card

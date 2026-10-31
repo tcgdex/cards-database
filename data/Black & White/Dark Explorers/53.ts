@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Dieses Pokémon flog zu Zeiten der Dinosaurier am Himmel. Seine Zähne sind wie Sägeblätter."
 	},
 
-	thirdParty: {
-		cardmarket: 280381,
-		tcgplayer: 83471
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280381,
+				tcgplayer: 83471
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280381,
+				tcgplayer: 83471
+			}
+		},
+	],
 }
 
 export default card

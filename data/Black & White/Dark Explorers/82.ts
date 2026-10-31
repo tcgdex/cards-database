@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Eier, die es legt, stecken voller Fröhlichkeit. Schon ein Bissen erzeugt ein breites Lächeln."
 	},
 
-	thirdParty: {
-		cardmarket: 280410,
-		tcgplayer: 83925
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280410,
+				tcgplayer: 83925
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280410,
+				tcgplayer: 83925
+			}
+		},
+	],
 }
 
 export default card

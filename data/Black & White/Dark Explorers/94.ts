@@ -26,10 +26,29 @@ const card: Card = {
 		de: "Lege 1 an ein gegnerisches Pokémon angelegte Spezial-Energie auf den Ablagestapel deines Gegners. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
-	thirdParty: {
-		cardmarket: 280422,
-		tcgplayer: 85265
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280422,
+				tcgplayer: 85265
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['poke-ball-league'],
+			thirdParty: {
+				cardmarket: 371594
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280422,
+				tcgplayer: 85265
+			}
+		},
+	],
 }
 
 export default card

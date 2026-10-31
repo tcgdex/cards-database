@@ -70,10 +70,22 @@ const card: Card = {
 		de: "Es schwimmt das Gewässer auf der Suche nach Torfmoos, seiner Leibspeise, ab. Ein talentierter Taucher."
 	},
 
-	thirdParty: {
-		cardmarket: 280363,
-		tcgplayer: 84993
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280363,
+				tcgplayer: 84993
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280363,
+				tcgplayer: 84993
+			}
+		},
+	],
 }
 
 export default card

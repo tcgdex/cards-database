@@ -89,10 +89,22 @@ const card: Card = {
 		de: "Mit dem Saugnapf an seinem Maul hakt es sich an seiner Beute fest und versetzt ihr über seine Fangzähne Stromschläge."
 	},
 
-	thirdParty: {
-		cardmarket: 280375,
-		tcgplayer: 85071
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280375,
+				tcgplayer: 85071
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280375,
+				tcgplayer: 85071
+			}
+		},
+	],
 }
 
 export default card

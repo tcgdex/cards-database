@@ -72,10 +72,29 @@ const card: Card = {
 		de: "Aufgrund einer genetischen Anomalie kann es sehr schnell seine Form verändern."
 	},
 
-	thirdParty: {
-		cardmarket: 280411,
-		tcgplayer: 85091
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280412,
+				tcgplayer: 85091
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['regional-championships'],
+			thirdParty: {
+				cardmarket: 449458
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280412,
+				tcgplayer: 85091
+			}
+		},
+	],
 }
 
 export default card

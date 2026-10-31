@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Wenn es mit seinen robusten Hauern Stahl durchbohrt, bleiben diese unversehrt. Es ist von einem festen Panzer umgeben."
 	},
 
-	thirdParty: {
-		cardmarket: 280417,
-		tcgplayer: 86033
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280417,
+				tcgplayer: 86033
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280417,
+				tcgplayer: 86033
+			}
+		},
+	],
 }
 
 export default card

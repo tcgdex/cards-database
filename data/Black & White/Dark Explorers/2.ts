@@ -95,10 +95,22 @@ const card: Card = {
 		de: "Sobald die Knospe auf seinem Rücken ein süßes Aroma abgibt, steht die Blüte kurz bevor."
 	},
 
-	thirdParty: {
-		cardmarket: 280330,
-		tcgplayer: 86304
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280330,
+				tcgplayer: 86304
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280330,
+				tcgplayer: 86304
+			}
+		},
+	],
 }
 
 export default card

@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Es rettet Menschen, die aufgrund eines Schneesturmes im Gebirge festsitzen. Sein langes Fell schützt es vor Kälte."
 	},
 
-	thirdParty: {
-		cardmarket: 280416,
-		tcgplayer: 89571
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280416,
+				tcgplayer: 89571
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280416,
+				tcgplayer: 89571
+			}
+		},
+	],
 }
 
 export default card
