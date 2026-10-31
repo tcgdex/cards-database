@@ -93,10 +93,29 @@ const card: Card = {
 		de: "Männliche Exemplare tragen eine Verzierung am Kopf. Lässt sich von Natur aus nur auf seinen Trainer ein."
 	},
 
-	thirdParty: {
-		cardmarket: 280047,
-		tcgplayer: 90160
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280047,
+				tcgplayer: 90160
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['player-rewards-program'],
+			thirdParty: {
+				cardmarket: 371587
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280047,
+				tcgplayer: 90160
+			}
+		},
+	],
 }
 
 export default card

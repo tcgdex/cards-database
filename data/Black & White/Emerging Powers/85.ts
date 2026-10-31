@@ -85,10 +85,22 @@ const card: Card = {
 		de: "Sein weißer Flaum fühlt sich wunderbar flauschig an und zieht weder Staub noch statische Elektrizität an."
 	},
 
-	thirdParty: {
-		cardmarket: 280050,
-		tcgplayer: 84318
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280050,
+				tcgplayer: 84318
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280050,
+				tcgplayer: 84318
+			}
+		},
+	],
 }
 
 export default card

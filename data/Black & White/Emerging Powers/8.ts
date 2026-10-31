@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Nutzt die Hitze kompostierenden Laubes zum Ausbrüten von Eiern. Es fertigt aus Blättern Kleidchen für Strawickl an."
 	},
 
-	thirdParty: {
-		cardmarket: 279972,
-		tcgplayer: 86686
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279973,
+				tcgplayer: 86686
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279973,
+				tcgplayer: 86686
+			}
+		},
+	],
 }
 
 export default card

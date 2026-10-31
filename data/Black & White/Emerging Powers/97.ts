@@ -80,10 +80,15 @@ const card: Card = {
 		de: "Es greift mit elektrischer Ladung aus den Dornen seiner Rute an und bombardiert Einall aus der Luft mit Blitzen."
 	},
 
-	thirdParty: {
-		cardmarket: 280000,
-		tcgplayer: 89906
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280062,
+				tcgplayer: 89906
+			}
+		},
+	],
 }
 
 export default card

@@ -85,10 +85,22 @@ const card: Card = {
 		de: "Wenn es voller Kraft steckt, funkeln die orangefarbenen Kristalle an seinem Leib. Es sucht Höhlen nach Grundwasser ab."
 	},
 
-	thirdParty: {
-		cardmarket: 280016,
-		tcgplayer: 83933
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280016,
+				tcgplayer: 83933
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280016,
+				tcgplayer: 83933
+			}
+		},
+	],
 }
 
 export default card

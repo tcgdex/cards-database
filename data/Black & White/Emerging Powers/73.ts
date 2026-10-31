@@ -91,10 +91,22 @@ const card: Card = {
 		de: "Seine drei dornengespickten Schlingen, unter denen sogar große Felsen zu Bruch gehen, dienen ihm als Angriffswerkzeug."
 	},
 
-	thirdParty: {
-		cardmarket: 280037,
-		tcgplayer: 85429
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280038,
+				tcgplayer: 85429
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280038,
+				tcgplayer: 85429
+			}
+		},
+	],
 }
 
 export default card

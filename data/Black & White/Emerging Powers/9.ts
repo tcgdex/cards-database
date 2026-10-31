@@ -69,10 +69,22 @@ const card: Card = {
 		de: "Lässt sich unbekümmert vom Wind treiben. Regen beschwert seinen Körper, sodass es unter großen Bäumen Schutz sucht."
 	},
 
-	thirdParty: {
-		cardmarket: 279974,
-		tcgplayer: 84445
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279974,
+				tcgplayer: 84445
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279974,
+				tcgplayer: 84445
+			}
+		},
+	],
 }
 
 export default card

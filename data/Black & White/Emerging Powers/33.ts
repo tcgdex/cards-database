@@ -58,10 +58,22 @@ const card: Card = {
 		de: "Wattzapf, die in der Stadt leben, haben die Fähigkeit, aus den Steckdosen von Wohnhäusern Strom abzuzapfen."
 	},
 
-	thirdParty: {
-		cardmarket: 279998,
-		tcgplayer: 86355
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279998,
+				tcgplayer: 86355
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279998,
+				tcgplayer: 86355
+			}
+		},
+	],
 }
 
 export default card

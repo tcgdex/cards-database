@@ -93,10 +93,22 @@ const card: Card = {
 		de: "Es überblickt das Areal aus der Luft und stürzt sich auf ein geschwächtes Opfer. Trägt gern Knochenschmuck."
 	},
 
-	thirdParty: {
-		cardmarket: 280034,
-		tcgplayer: 87151
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280034,
+				tcgplayer: 87151
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280034,
+				tcgplayer: 87151
+			}
+		},
+	],
 }
 
 export default card

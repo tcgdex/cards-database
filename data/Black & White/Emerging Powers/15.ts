@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Sein Fell und sein Geruch ändern sich mit dem Wechsel der Jahreszeiten. Es ist der Bote des Saisonwechsels."
 	},
 
-	thirdParty: {
-		cardmarket: 279980,
-		tcgplayer: 84725
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279980,
+				tcgplayer: 84725
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279980,
+				tcgplayer: 84725
+			}
+		},
+	],
 }
 
 export default card

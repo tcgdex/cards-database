@@ -85,10 +85,22 @@ const card: Card = {
 		de: "Bespuckt Gegner mit Kernen von Beeren aus seinen Backentaschen. Erspäht es einen Feind, richtet es den Schweif auf."
 	},
 
-	thirdParty: {
-		cardmarket: 280044,
-		tcgplayer: 90496
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280044,
+				tcgplayer: 90496
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280044,
+				tcgplayer: 90496
+			}
+		},
+	],
 }
 
 export default card

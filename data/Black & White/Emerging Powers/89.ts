@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Sein Unterkörper ist in eine wolkenartige Energieschicht gehüllt. Es jagt mit bis zu 300 km/h durch die Lüfte."
 	},
 
-	thirdParty: {
-		cardmarket: 280054,
-		tcgplayer: 89974
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280054,
+				tcgplayer: 89974
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280054,
+				tcgplayer: 89974
+			}
+		},
+	],
 }
 
 export default card

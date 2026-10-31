@@ -75,10 +75,22 @@ const card: Card = {
 		de: "Mit seinen Ruten und den Fühlern an seinem Kopf tastet es die Umgebung ab. Ein überaus aggressiver Geselle."
 	},
 
-	thirdParty: {
-		cardmarket: 280003,
-		tcgplayer: 90295
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280003,
+				tcgplayer: 90295
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280003,
+				tcgplayer: 90295
+			}
+		},
+	],
 }
 
 export default card

@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Es zettelt willkürlich Kämpfe an, egal wie stark der Gegner auch ist. Es gewinnt an Stärke, indem es seine Fehler analysiert."
 	},
 
-	thirdParty: {
-		cardmarket: 280051,
-		tcgplayer: 88841
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280051,
+				tcgplayer: 88841
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280051,
+				tcgplayer: 88841
+			}
+		},
+	],
 }
 
 export default card

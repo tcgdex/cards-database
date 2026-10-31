@@ -67,10 +67,22 @@ const card: Card = {
 		de: "Es führt seine beiden Klauen zusammen, dreht sich rapide um die eigene Achse und gräbt sich ratzfatz durch das Erdreich."
 	},
 
-	thirdParty: {
-		cardmarket: 280019,
-		tcgplayer: 84965
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280020,
+				tcgplayer: 84965
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280020,
+				tcgplayer: 84965
+			}
+		},
+	],
 }
 
 export default card

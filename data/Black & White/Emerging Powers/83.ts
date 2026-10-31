@@ -80,10 +80,22 @@ const card: Card = {
 		de: "Hat ein außerordentlich feines Gehör. Es tastet seine Umgebung auf jedes noch so leise Geräusch ab wie ein Radar."
 	},
 
-	thirdParty: {
-		cardmarket: 280048,
-		tcgplayer: 83661
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280048,
+				tcgplayer: 83661
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280048,
+				tcgplayer: 83661
+			}
+		},
+	],
 }
 
 export default card

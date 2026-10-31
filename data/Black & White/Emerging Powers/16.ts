@@ -94,10 +94,22 @@ const card: Card = {
 		de: "Je nach Jahreszeit wächst eine andere Pflanze auf seinem Geweih. Exemplare mit prächtiger Krone führen die Herde an."
 	},
 
-	thirdParty: {
-		cardmarket: 279981,
-		tcgplayer: 88942
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279981,
+				tcgplayer: 88942
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279981,
+				tcgplayer: 88942
+			}
+		},
+	],
 }
 
 export default card

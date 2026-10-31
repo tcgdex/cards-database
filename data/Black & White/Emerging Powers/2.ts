@@ -91,10 +91,22 @@ const card: Card = {
 		de: "Ein hitziger Geselle, der im Kampf seinen dornigen Schweif umherschwingt. Auf seinem Kopf wachsen bittere Kräuter."
 	},
 
-	thirdParty: {
-		cardmarket: 279967,
-		tcgplayer: 89222
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279967,
+				tcgplayer: 89222
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279967,
+				tcgplayer: 89222
+			}
+		},
+	],
 }
 
 export default card

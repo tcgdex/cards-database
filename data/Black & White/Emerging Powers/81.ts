@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Viele Leute glauben, dass es tief in seinem heimatlichen Wald ein Land der Harmonie gibt, wo man keine Kriege kennt."
 	},
 
-	thirdParty: {
-		cardmarket: 280046,
-		tcgplayer: 90015
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280046,
+				tcgplayer: 90015
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280046,
+				tcgplayer: 90015
+			}
+		},
+	],
 }
 
 export default card
