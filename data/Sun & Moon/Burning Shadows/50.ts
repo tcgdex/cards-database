@@ -92,19 +92,22 @@ const card: Card = {
 		de: "Die flinken Angriffe von Sengo kontert es mit seinem messerscharfen Schweif, aus dem Gift austritt."
 	},
 
-	thirdParty: {
-		cardmarket: 299454,
-		tcgplayer: 138532
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299454,
+				tcgplayer: 138532
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299454,
+				tcgplayer: 138532
+			}
+		},
+	],
 }
 
 export default card

@@ -2,9 +2,12 @@ import { Card } from "../../../interfaces"
 import Set from "../S5R"
 
 const card: Card = {
+	dexId: [494],
+	rarity: "Double rare",
 	set: Set,
 
 	name: {
+		ja: "ビクティニV",
 		'zh-tw': "比克提尼V",
 		th: "วิคทินีV"
 	},
@@ -18,11 +21,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
+			ja: "Vバレット",
 			'zh-tw': "V子彈",
 			th: "V บูลเล็ท"
 		},
 
 		effect: {
+			ja: "相手のバトルポケモンが「ポケモンV」なら、50ダメージ追加。",
 			'zh-tw': "若對手的戰鬥寶可夢為「寶可夢【V】」，則增加50點傷害。",
 			th: "ถ้าโปเกมอนบนตำแหน่งต่อสู้ของฝ่ายตรงข้ามเป็น [โปเกมอน【V】] การโจมตีนี้จะเพิ่มแดเมจอีก 50"
 		},
@@ -31,11 +36,13 @@ const card: Card = {
 		cost: ["Fire"]
 	}, {
 		name: {
+			ja: "フレアシュート",
 			'zh-tw': "閃焰射擊",
 			th: "แฟลร์ชูต"
 		},
 
 		effect: {
+			ja: "このポケモンについているエネルギーを、すべてトラッシュする。",
 			'zh-tw': "將這隻寶可夢身上附加的能量全部丟棄。",
 			th: "ทิ้งพลังงานที่ติดกับโปเกมอนนี้ทั้งหมดที่ตำแหน่งทิ้งการ์ด"
 		},
@@ -50,7 +57,10 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "E"
+	regulationMark: "E",
+	variants: [
+		{ type: "holo", thirdParty: { cardmarket: 533632, tcgplayer: 569053, cardtrader: 240016 } }
+	]
 }
 
 export default card

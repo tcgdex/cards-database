@@ -98,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "It sleeps in a deep-sea trench. If it flaps its wings, it is said to cause a 40-day storm.",
+		de: "Es schläft in einem Tiefseegraben. Schwingt es seine Flügel, entsteht ein Sturm, der 40 Tage dauert."
 	},
 
 	variants: [

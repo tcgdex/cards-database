@@ -89,6 +89,7 @@ const card: Card = {
 
 	description: {
 		en: "A legendary bird Pokémon. It can create blizzards by freezing moisture in the air.",
+		de: "Ein Legendäres Vogel-Pokémon. Es kann Blizzards verursachen, indem es Feuchtigkeit gefriert."
 	},
 
 	variants: [

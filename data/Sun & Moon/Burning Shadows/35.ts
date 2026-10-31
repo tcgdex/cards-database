@@ -91,19 +91,22 @@ const card: Card = {
 		de: "Seine langen Ohren sind hervorragende Sensoren. Mit ihnen kann es Bewegungen im Fluss wahrnehmen."
 	},
 
-	thirdParty: {
-		cardmarket: 299440,
-		tcgplayer: 138515
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299440,
+				tcgplayer: 138515
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299440,
+				tcgplayer: 138515
+			}
+		},
+	],
 }
 
 export default card

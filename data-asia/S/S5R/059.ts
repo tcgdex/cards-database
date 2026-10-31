@@ -2,9 +2,12 @@ import { Card } from "../../../interfaces"
 import Set from "../S5R"
 
 const card: Card = {
+	dexId: [626],
+	rarity: "Common",
 	set: Set,
 
 	name: {
+		ja: "バッフロン",
 		'zh-tw': "爆炸頭水牛",
 		th: "บัฟฟรอน"
 	},
@@ -15,26 +18,37 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
+		ja: "激しい 頭突きを 食らわせても ふさふさの 体毛が ダメージを 吸収して くれるのだ。",
 		'zh-tw': "就算使出猛烈的頭錘，蓬鬆的體毛也能將傷害都吸收掉。",
 		th: "แม้จะโดนหัวพุ่งชนรุนแรงแค่ไหน ขนที่ฟูฟ่องก็จะดูดซับความเสียหายให้"
 	},
 
 	stage: "Basic",
 
-	attacks: [{
+	abilities: [{
+		type: "Ability",
+
 		name: {
-			'zh-tw': "食草"
+			ja: "そうしょく",
+			'zh-tw': "食草",
+			th: "กินพืช"
 		},
 
 		effect: {
-			'zh-tw': "這隻寶可夢使用的招式，對對手的【草】寶可夢造成的傷害「+60」點。"
+			ja: "このポケモンが使うワザの、相手の[草]ポケモンへのダメージは「+60」される。",
+			'zh-tw': "這隻寶可夢使用的招式，對對手的【草】寶可夢造成的傷害「+60」點。",
+			th: "แดเมจของท่าต่อสู้ที่โปเกมอนนี้ใช้ทำกับโปเกมอน [หญ้า] ของฝ่ายตรงข้าม จะถูก [+60]"
 		}
-	}, {
+	}],
+
+	attacks: [{
 		name: {
+			ja: "アフロブレイク",
 			'zh-tw': "爆炸頭突擊"
 		},
 
 		effect: {
+			ja: "このポケモンにも30ダメージ。",
 			'zh-tw': "這隻寶可夢也受到30點傷害。"
 		},
 
@@ -49,18 +63,9 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "E",
-
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			th: "กินพืช"
-		},
-
-		effect: {
-			th: "แดเมจของท่าต่อสู้ที่โปเกมอนนี้ใช้ทำกับโปเกมอน [หญ้า] ของฝ่ายตรงข้าม จะถูก [+60]"
-		}
-	}]
+	variants: [
+		{ type: "normal", thirdParty: { cardmarket: 533867, tcgplayer: 569100, cardtrader: 240070 } }
+	]
 }
 
 export default card

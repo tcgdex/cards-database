@@ -56,7 +56,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "When attacked, it tightly shuts the lid of its shell. This reaction fails to protect it from Karrablast, however, because they can still get into the shell."
+		en: "When attacked, it tightly shuts the lid of its shell. This reaction fails to protect it from Karrablast, however, because they can still get into the shell.",
+		de: "Wird es angegriffen, schließt es, so fest es kann, das Visier seiner Muschel. Gegen Laukaps erweist sich dieser Schutz allerdings als nutzlos."
 	},
 
 	variants: [

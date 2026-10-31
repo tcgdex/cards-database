@@ -67,7 +67,6 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
-			foil: "galaxy",
 			thirdParty: {
 				cardmarket: 273876,
 				tcgplayer: 44424
@@ -76,12 +75,10 @@ const card: Card = {
 		{
 			type: "holo",
 			subtype: "evolution-box-error",
-			foil: "galaxy"
 		},
 		{
 			type: "holo",
 			stamp: ["1st-edition"],
-			foil: "galaxy",
 			thirdParty: {
 				cardmarket: 273876,
 				tcgplayer: 44424
@@ -96,8 +93,8 @@ const card: Card = {
 			type: "holo",
 			foil: "cosmos",
 			subtype: "1999-copyright"
-		}
-	]
+		},
+	],
 }
 
 export default card

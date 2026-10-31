@@ -90,19 +90,22 @@ const card: Card = {
 		de: "Sein harter Panzer birgt ein weiches Inneres. Um zu vermeiden, dass dieses versehentlich ausläuft, bewegt es sich kaum."
 	},
 
-	thirdParty: {
-		cardmarket: 299409,
-		tcgplayer: 138272
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299409,
+				tcgplayer: 138272
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299409,
+				tcgplayer: 138272
+			}
+		},
+	],
 }
 
 export default card

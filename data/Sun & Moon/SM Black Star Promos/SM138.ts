@@ -89,7 +89,7 @@ const card: Card = {
 				es: "Furia Fulgor GX",
 				it: "Bolide Impazzito GX",
 				pt: "Ataque de Raios Veloz",
-				de: "Turboblitzschlag"
+				de: "Wutschlag-GX"
 			},
 			effect: {
 				en: "This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon. (You can’t use more than 1 GX attack in a game.)",
@@ -97,7 +97,7 @@ const card: Card = {
 				es: "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "I danni di questo attacco non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario. Non puoi usare più di un attacco GX a partita.",
 				pt: "Jogue 2 moedas. Este ataque causa 60 pontos de dano a mais para cada cara.",
-				de: "Wirf 2 Münzen. Diese Attacke fügt 60 Schadenspunkte mehr pro Kopf zu."
+				de: "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: 200,
 

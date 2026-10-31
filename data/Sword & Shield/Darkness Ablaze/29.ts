@@ -62,7 +62,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It protects itself with flame. Long years ago, people believed Larvesta had a nest on the sun."
+		en: "It protects itself with flame. Long years ago, people believed Larvesta had a nest on the sun.",
+		de: "Es schützt sich mithilfe von Flammen. Früher glaubte man, dass sich sein Nest in der Sonne selbst befände."
 	},
 
 	variants: [

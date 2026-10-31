@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "反応シールド",
 			},
 			effect: {
-				ja: "TentacruelにReact Energy Cardsが取り付けられている限り、対戦相手のPokã©Mon-Exからの攻撃によってプレイ中のTentacruelのいずれかに対して行われたダメージを含むすべての効果を防​​ぎます。",
+				ja: "TentacruelにReact Energy Cardsが取り付けられている限り、対戦相手のPokéMon-Exからの攻撃によってプレイ中のTentacruelのいずれかに対して行われたダメージを含むすべての効果を防​​ぎます。",
 			},
 		}],
 

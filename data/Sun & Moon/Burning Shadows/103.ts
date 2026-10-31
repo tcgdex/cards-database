@@ -83,19 +83,22 @@ const card: Card = {
 		de: "Dieses Pokémon wurde vor 20 Jahren künstlich erschaffen. Damals stellte es das Nonplusultra der technischen Möglichkeiten dar."
 	},
 
-	thirdParty: {
-		cardmarket: 299504,
-		tcgplayer: 138599
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299504,
+				tcgplayer: 138599
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299504,
+				tcgplayer: 138599
+			}
+		},
+	],
 }
 
 export default card

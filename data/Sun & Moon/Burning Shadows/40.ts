@@ -92,19 +92,22 @@ const card: Card = {
 		de: "Vor Kurzem wurden Pläne verkündet, mithilfe einer großen Anzahl an Pikachu ein ganzes Kraftwerk zu betreiben."
 	},
 
-	thirdParty: {
-		cardmarket: 299444,
-		tcgplayer: 138522
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299444,
+				tcgplayer: 138522
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299444,
+				tcgplayer: 138522
+			}
+		},
+	],
 }
 
 export default card

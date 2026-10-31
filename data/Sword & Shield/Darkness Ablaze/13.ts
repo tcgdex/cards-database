@@ -95,7 +95,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "As if wielding a bow, it launches the arrow quills hidden among the feathers of its wings. Decidueye's shots never miss."
+		en: "As if wielding a bow, it launches the arrow quills hidden among the feathers of its wings. Decidueye's shots never miss.",
+		de: "Dieses Pokémon kann die Federn seiner Flügel wie Pfeile abschießen. Hat es sein Ziel angepeilt, trifft es garantiert."
 	},
 
 	variants: [

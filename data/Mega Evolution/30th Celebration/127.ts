@@ -18,6 +18,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Trainer",
 	effect: {
+		en: "Switch your Active Pokémon with 1 of your Benched Pokémon.",
 		pt: "Troque o seu Pokémon Ativo por 1 dos seus Pokémon no Banco."
 	},
 

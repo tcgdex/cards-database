@@ -97,19 +97,22 @@ const card: Card = {
 		de: "In Gefahrensituationen hebt es seine Ohren an und setzt Psycho-Kräfte frei, die einen 10 t schweren LKW zu Schrott verarbeiten können."
 	},
 
-	thirdParty: {
-		cardmarket: 299464,
-		tcgplayer: 138542
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299464,
+				tcgplayer: 138542
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299464,
+				tcgplayer: 138542
+			}
+		},
+	],
 }
 
 export default card

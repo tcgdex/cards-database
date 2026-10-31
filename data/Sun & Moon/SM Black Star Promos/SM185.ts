@@ -46,7 +46,7 @@ const card: Card = {
 				es: "Busca en tu baraja hasta 3 cartas de Energía Fire y únelas a tus Pokémon de la manera que desees. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo fino a tre carte Energia Fire e assegnale a piacimento ai tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por até 3 cartas de Energia Fire no seu baralho e ligue-as aos seus Pokémon como desejar. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach bis zu 3 Fire-Energiekarten und lege sie beliebig an deine Pokémon an. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach bis zu 3 {R}-Energiekarten und lege sie beliebig an deine Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions.",
+		de: "Es verfügt über eine verheerende Geheimattacke. Es reibt sein Fell, um Explosionen zu erzeugen."
 	},
 
 	variants: [

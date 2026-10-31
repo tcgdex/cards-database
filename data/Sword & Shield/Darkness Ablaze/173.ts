@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Ambos Pokémon Activos pasan a estar Confundidos.",
 		it: "Entrambi i Pokémon attivi vengono confusi.",
 		pt: "Ambos os Pokémon Ativos agora estão Confusos.",
-		de: "Beide Aktiven Pokémon sind jetzt verwirrt."
+		de: "Beide Aktiven Pokémon sind jetzt verwirrt. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

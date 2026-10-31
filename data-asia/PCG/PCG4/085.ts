@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "3Dリセット",
 			},
 			effect: {
-				ja: "ターン中に（攻撃の前に）好きなように、Pokã©Monに取り付けられたPokã©Mon Tool Cardを手に返します。 Porygon2が特別な状態の影響を受ける場合、このパワーは使用できません。",
+				ja: "ターン中に（攻撃の前に）好きなように、PokéMonに取り付けられたPokéMon Tool Cardを手に返します。 Porygon2が特別な状態の影響を受ける場合、このパワーは使用できません。",
 			},
 		}],
 

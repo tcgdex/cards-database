@@ -42,7 +42,7 @@ const card: Card = {
 				es: "Busca en tu baraja 1 Pokémon Metal, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo un Pokémon Metal, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por 1 Pokémon Metal no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach 1 Metal-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach 1 {M}-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -69,7 +69,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "The two minigears that compose this Pokémon are closer than twins. They mesh well only with each other."
+		en: "The two minigears that compose this Pokémon are closer than twins. They mesh well only with each other.",
+		de: "Seine zwei Teile stehen einander näher als Zwillinge. Eine andere Kombination würde nicht halb so gut ineinandergreifen."
 	},
 
 	variants: [

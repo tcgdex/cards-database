@@ -87,19 +87,22 @@ const card: Card = {
 		de: "Es gründet Gruppen von etwa 20 Exemplaren. Der Zusammenhalt der Gruppe ist extrem stark, kein Kamerad wird jemals im Stich gelassen."
 	},
 
-	thirdParty: {
-		cardmarket: 299481,
-		tcgplayer: 138565
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299481,
+				tcgplayer: 138565
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299481,
+				tcgplayer: 138565
+			}
+		},
+	],
 }
 
 export default card

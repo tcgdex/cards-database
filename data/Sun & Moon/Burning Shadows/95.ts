@@ -68,19 +68,22 @@ const card: Card = {
 		de: "Es ernährt sich von Blütenstaub und Honig. Da es die Aura von Lebewesen wahrnehmen kann, spürt es, wenn eine Blume bald blühen wird."
 	},
 
-	thirdParty: {
-		cardmarket: 299496,
-		tcgplayer: 138589
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299496,
+				tcgplayer: 138589
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299496,
+				tcgplayer: 138589
+			}
+		},
+	],
 }
 
 export default card

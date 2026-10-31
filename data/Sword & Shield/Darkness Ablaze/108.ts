@@ -56,7 +56,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "When it encounters something, its first urge is usually to bite it. If it likes what it tastes, it will commit the associated scent to memory."
+		en: "When it encounters something, its first urge is usually to bite it. If it likes what it tastes, it will commit the associated scent to memory.",
+		de: "Es hat die Angewohnheit, in alles zu beißen, was es findet. Stellt sich etwas als lecker heraus, prägt es sich den Geruch davon gut ein."
 	},
 
 	variants: [

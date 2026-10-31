@@ -90,19 +90,22 @@ const card: Card = {
 		de: "Dieses Pokémon sondert einen übelriechenden Geruch ab. Trotzdem halten einige Leute es im Haus."
 	},
 
-	thirdParty: {
-		cardmarket: 299412,
-		tcgplayer: 138275
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299412,
+				tcgplayer: 138275
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299412,
+				tcgplayer: 138275
+			}
+		},
+	],
 }
 
 export default card

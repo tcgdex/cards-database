@@ -100,19 +100,22 @@ const card: Card = {
 		de: "Es umwickelt Beute, indem es seine Arme, die aus Ranken bestehen, verlängert."
 	},
 
-	thirdParty: {
-		cardmarket: 299415,
-		tcgplayer: 138278
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299415,
+				tcgplayer: 138278
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299415,
+				tcgplayer: 138278
+			}
+		},
+	],
 }
 
 export default card

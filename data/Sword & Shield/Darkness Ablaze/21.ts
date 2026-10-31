@@ -58,7 +58,7 @@ const card: Card = {
 				es: "Llama Vengativa",
 				it: "Fiamme Livorose",
 				pt: "Chamas Vingativas",
-				de: "Rachsüchtige Flamme"
+				de: "Rachsüchtige Flammen"
 			},
 			effect: {
 				en: "If your Benched Fire Pokémon have any damage counters on them, this attack does 100 more damage.",
@@ -66,7 +66,7 @@ const card: Card = {
 				es: "Si tus Pokémon Fire en Banca tienen algún contador de daño sobre ellos, este ataque hace 100 puntos de daño más.",
 				it: "Se i tuoi Pokémon Fire in panchina hanno dei segnalini danno, questo attacco infligge 100 danni in più.",
 				pt: "Se os seus Pokémon Fire no Banco tiverem algum contador de dano neles, este ataque causará 100 pontos de dano a mais.",
-				de: "Wenn auf den Fire-Pokémon auf deiner Bank mindestens 1 Schadensmarke liegt, fügt diese Attacke 100 Schadenspunkte mehr zu."
+				de: "Wenn auf den {R}-Pokémon auf deiner Bank mindestens 1 Schadensmarke liegt, fügt diese Attacke 100 Schadenspunkte mehr zu."
 			},
 			damage: "100+",
 

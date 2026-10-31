@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Riolu",
 		fr: "Riolu",
+		de: "Riolu"
 	},
 	stage: "Stage1",
 
@@ -83,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "Not only does it perceive auras, but it has also gained the power to control them. It employs them in battle.",
+		de: "Es kann Auren nicht nur wahrnehmen, sondern auch manipulieren. Diese Fähigkeit nutzt es beim Kämpfen."
 	},
 
 	variants: [

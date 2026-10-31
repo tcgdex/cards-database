@@ -94,19 +94,22 @@ const card: Card = {
 		de: "Für die Hälfte aller plötzlichen Stromausfälle sind Elektek verantwortlich. Sie belagern gerne Kraftwerke und zapfen ihnen Strom ab."
 	},
 
-	thirdParty: {
-		cardmarket: 299446,
-		tcgplayer: 138524
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299446,
+				tcgplayer: 138524
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299446,
+				tcgplayer: 138524
+			}
+		},
+	],
 }
 
 export default card

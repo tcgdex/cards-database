@@ -85,19 +85,22 @@ const card: Card = {
 		de: "Es ist so feige, dass es wild mit seinen vielen Füßen herumschlägt und verzweifelt davonläuft. Nach seiner Flucht glänzt der Boden herrlich."
 	},
 
-	thirdParty: {
-		cardmarket: 299423,
-		tcgplayer: 138286
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299423,
+				tcgplayer: 138286
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299423,
+				tcgplayer: 138286
+			}
+		},
+	],
 }
 
 export default card

@@ -88,19 +88,22 @@ const card: Card = {
 		de: "Mithilfe seiner Vorderzähne knabbert es sich durch Wohnungstüren. Vibrierende Schnurrhaare helfen ihm, Futter zu finden und es zu stehlen."
 	},
 
-	thirdParty: {
-		cardmarket: 299483,
-		tcgplayer: 138569
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299483,
+				tcgplayer: 138569
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299483,
+				tcgplayer: 138569
+			}
+		},
+	],
 }
 
 export default card

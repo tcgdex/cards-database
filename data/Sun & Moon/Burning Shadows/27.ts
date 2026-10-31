@@ -82,19 +82,22 @@ const card: Card = {
 		de: "Sein eisiger Atem beträgt -50 °C. Einige der älteren Einwohner von Alola nennen es bei seinem früheren Namen „Ke’oke’o“."
 	},
 
-	thirdParty: {
-		cardmarket: 299433,
-		tcgplayer: 138507
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299433,
+				tcgplayer: 138507
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299433,
+				tcgplayer: 138507
+			}
+		},
+	],
 }
 
 export default card

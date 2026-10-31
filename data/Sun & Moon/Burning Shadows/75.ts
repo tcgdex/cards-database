@@ -99,19 +99,22 @@ const card: Card = {
 		de: "Je gefährlicher sein Gegner, desto mehr kommt es in Fahrt. Im Kampf ist es bereit, alles aufs Spiel zu setzen, um den Sieg zu erringen."
 	},
 
-	thirdParty: {
-		cardmarket: 299477,
-		tcgplayer: 138561
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 299477,
+				tcgplayer: 138561
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299477,
+				tcgplayer: 138561
+			}
+		},
+	],
 }
 
 export default card

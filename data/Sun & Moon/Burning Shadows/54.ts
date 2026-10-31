@@ -86,19 +86,22 @@ const card: Card = {
 		de: "In seinen Backen sammelt sich Gift. Es versucht, Beute zu überraschen und mit Giftfingern zu schnappen."
 	},
 
-	thirdParty: {
-		cardmarket: 299458,
-		tcgplayer: 138536
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299458,
+				tcgplayer: 138536
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299458,
+				tcgplayer: 138536
+			}
+		},
+	],
 }
 
 export default card

@@ -92,19 +92,22 @@ const card: Card = {
 		de: "Normalerweise liegen seine Stacheln am Rücken an, aber wenn es sich aufregt, stellen sie sich auf und stechen angreifende Gegner."
 	},
 
-	thirdParty: {
-		cardmarket: 299451,
-		tcgplayer: 138529
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299451,
+				tcgplayer: 138529
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299451,
+				tcgplayer: 138529
+			}
+		},
+	],
 }
 
 export default card

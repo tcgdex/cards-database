@@ -18,6 +18,9 @@ const card: Card = {
 	rarity: "None",
 	category: "Trainer",
 	trainerType: "Supporter",
+	effect: {
+		en: "Each player shuffles his or her hand into his or her deck. Then, each player draws a card for each of his or her remaining Prize cards."
+	},
 	variants: [
 		{
 			type: "holo",

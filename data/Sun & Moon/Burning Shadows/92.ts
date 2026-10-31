@@ -91,19 +91,22 @@ const card: Card = {
 		de: "Die fröhliche Stimmung seines Trainers verleiht ihm Energie für psychokinetische Kraft. Wenn es glücklich ist, tanzt und dreht es sich."
 	},
 
-	thirdParty: {
-		cardmarket: 299494,
-		tcgplayer: 138584
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299494,
+				tcgplayer: 138584
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299494,
+				tcgplayer: 138584
+			}
+		},
+	],
 }
 
 export default card

@@ -73,6 +73,7 @@ const card: Card = {
 
 	description: {
 		en: "It can peck at a rate of 16 times a second to drill holes in trees. It uses holes for food storage and for nesting.",
+		de: "Pickt 16-mal pro Sekunde auf Bäume ein, um Löcher ins Holz zu schlagen. Diese nutzt es dann als Futterspeicher oder Nest."
 	},
 
 	variants: [

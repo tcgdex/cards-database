@@ -83,7 +83,7 @@ const card: Card = {
 				es: "Amigos Megatón GX",
 				it: "Amici Megatonici GX",
 				pt: "Amigos Megaton GX",
-				de: "Megatonnen-Freunde GX"
+				de: "Megatonnen-Freunde-GX"
 			},
 			effect: {
 				fr: "Si au moins une Énergie supplémentaire est attachée à ce Pokémon (en plus du coût de cette attaque), piochez jusqu’à avoir 10 cartes en main. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",

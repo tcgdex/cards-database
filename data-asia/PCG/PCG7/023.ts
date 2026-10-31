@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "デルタリザーブ",
 			},
 			effect: {
-				ja: "PidgeotにHolon Energy Cardsが接続されている限り、各プレイヤーのPokã©Mon（カードにデルタを持っているPokã©Monを除く）はPokã©Powersを使用できません。",
+				ja: "PidgeotにHolon Energy Cardsが接続されている限り、各プレイヤーのPokéMon（カードにデルタを持っているPokéMonを除く）はPokéPowersを使用できません。",
 			},
 		}],
 

@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "熱心",
 			},
 			effect: {
-				ja: "対戦相手がPokã©Mon-Exをプレイしている場合、Ludicoloのそれぞれの攻撃は、Pokã©Monに30件のダメージを与えます。",
+				ja: "対戦相手がPokéMon-Exをプレイしている場合、Ludicoloのそれぞれの攻撃は、PokéMonに30件のダメージを与えます。",
 			},
 		}],
 

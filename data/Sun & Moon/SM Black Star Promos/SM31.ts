@@ -90,6 +90,7 @@ const card: Card = {
 
 	description: {
 		en: "This guardian deity of Melemele is brimming with curiosity. It summons thunderclouds and stores their lightning inside its body.",
+		de: "Der neugierige und lebhafte Schutzpatron von Mele-Mele. Es kann Gewitterwolken rufen und Blitze in seinem Körper speichern."
 	},
 
 	variants: [

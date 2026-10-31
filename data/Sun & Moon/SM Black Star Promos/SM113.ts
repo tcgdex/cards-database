@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Ash's Pikachu",
 		fr: "Pikachu de Sacha",
+		de: "Ashs Pikachu"
 	},
 	illustrator: "2017 Pikachu Project",
 	rarity: "Promo",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Iron Tail",
 				fr: "Queue de Fer",
+				de: "Eisenschweif"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 20 damage for each heads.",
 				fr: "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 20 Schadenspunkte pro Kopf zu."
 			},
 			damage: 20,
 
@@ -47,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Electro Ball",
 				fr: "Boule Élek",
+				de: "Elektroball"
 			},
 
 			damage: 50,
@@ -72,6 +76,7 @@ const card: Card = {
 
 	description: {
 		en: "This form of Pikachu is somewhat rare. It wears the hat of its Trainer, who is also its partner.",
+		de: "Dieses Pikachu trägt die Kappe des Trainers, mit dem es sich zusammengeschlossen hat. Ein Anblick, den man nicht alle Tage sieht!"
 	},
 
 	variants: [

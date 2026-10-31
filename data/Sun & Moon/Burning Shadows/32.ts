@@ -68,19 +68,22 @@ const card: Card = {
 		de: "Es ist schwach und unzuverlässig, aber es vermehrt sich unglaublich schnell. Deshalb trifft man es auch öfter an, als einem lieb ist."
 	},
 
-	thirdParty: {
-		cardmarket: 299437,
-		tcgplayer: 138512
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299437,
+				tcgplayer: 138512
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299437,
+				tcgplayer: 138512
+			}
+		},
+	],
 }
 
 export default card

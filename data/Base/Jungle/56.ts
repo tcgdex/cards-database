@@ -83,16 +83,20 @@ const card: Card = {
 		},
 		{
 			type: "normal",
+			subtype: "gold-border",
+			thirdParty: {
+				cardmarket: 275571,
+				tcgplayer: 45159
+			}
+		},
+		{
+			type: "normal",
 			stamp: ["1st-edition"],
 			thirdParty: {
 				cardmarket: 273853,
 				tcgplayer: 45159
 			}
 		},
-		{
-			type: "normal",
-			subtype: "gold-border",
-		}
 	],
 }
 

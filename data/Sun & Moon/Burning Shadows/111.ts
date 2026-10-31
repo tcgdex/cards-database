@@ -99,19 +99,22 @@ const card: Card = {
 		de: "Dieses Pokémon verfügt über immense Muskelkraft und ist äußerst gefährlich. Sein Habitat ist generell Sperrgebiet."
 	},
 
-	thirdParty: {
-		cardmarket: 299512,
-		tcgplayer: 138607
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299512,
+				tcgplayer: 138607
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299512,
+				tcgplayer: 138607
+			}
+		},
+	],
 }
 
 export default card

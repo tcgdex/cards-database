@@ -79,7 +79,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It shows its cute side by chasing its own tail until it gets dizzy."
+		en: "It shows its cute side by chasing its own tail until it gets dizzy.",
+		de: "Es zeigt gerne seine niedliche Seite, indem es seinen eigenen Schweif jagt, bis ihm schwindlig wird."
 	},
 
 	variants: [

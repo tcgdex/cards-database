@@ -32,7 +32,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Foongus",
-		fr: "Trompignon"
+		fr: "Trompignon",
+		de: "Tarnpignon"
 	},
 
 	stage: "Stage1",
@@ -97,6 +98,7 @@ const card: Card = {
 
 	description: {
 		en: "They show off their Poké Ball caps to lure prey, but very few Pokémon are fooled by this.",
+		de: "Um Beute anzulocken, bietet es seinen Hut feil, der einem Pokéball ähnelt. Doch kaum ein Pokémon fällt darauf herein."
 	},
 
 	variants: [

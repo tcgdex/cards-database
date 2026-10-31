@@ -51,7 +51,7 @@ const card: Card = {
 				es: "Busca en tu baraja 1 Pokémon Metal, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo un Pokémon Metal, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por 1 Pokémon Metal no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach 1 Metal-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach 1 {M}-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -96,7 +96,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "When Klang goes all out, the minigear links up perfectly with the outer part of the big gear, and this Pokémon's rotation speed increases sharply."
+		en: "When Klang goes all out, the minigear links up perfectly with the outer part of the big gear, and this Pokémon's rotation speed increases sharply.",
+		de: "Macht es Ernst, greift das kleine äußere Rad in das große Rad, was die Drehgeschwindigkeit merklich erhöht."
 	},
 
 	variants: [

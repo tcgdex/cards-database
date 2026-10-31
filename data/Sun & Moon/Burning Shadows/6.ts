@@ -98,19 +98,22 @@ const card: Card = {
 		de: "Je größer die Blütenblätter, desto mehr giftige Pollen sind in der Blüte enthalten."
 	},
 
-	thirdParty: {
-		cardmarket: 299413,
-		tcgplayer: 138276
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 299413,
+				tcgplayer: 138276
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299413,
+				tcgplayer: 138276
+			}
+		},
+	],
 }
 
 export default card

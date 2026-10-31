@@ -27,7 +27,7 @@ const card: Card = {
 			es: "Encontrar un Amigo",
 			it: "Trovamico",
 			pt: "Encontre um Amigo",
-			de: "Freunde finden"
+			de: "Freunde finde"
 		},
 
 		effect: {
@@ -63,6 +63,7 @@ const card: Card = {
 
 	description: {
 		en: "Current studies show it can evolve into an incredible eight different species of Pokémon.",
+		de: "Nach derzeitigem Forschungsstand kann es sich zu acht verschiedenen Pokémon entwickeln."
 	},
 
 	variants: [

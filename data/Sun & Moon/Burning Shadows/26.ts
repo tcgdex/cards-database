@@ -87,19 +87,22 @@ const card: Card = {
 		de: "Sein Rückenpanzer ist explosiv, man sollte ihm also niemals auf den Rücken klopfen. Das Loch in seinem Bauch ist seine Schwachstelle."
 	},
 
-	thirdParty: {
-		cardmarket: 299432,
-		tcgplayer: 138506
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299432,
+				tcgplayer: 138506
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299432,
+				tcgplayer: 138506
+			}
+		},
+	],
 }
 
 export default card

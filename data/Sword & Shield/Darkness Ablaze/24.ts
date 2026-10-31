@@ -49,7 +49,7 @@ const card: Card = {
 				es: "Mientras este Pokémon esté en juego, es de tipo Fire y Fighting.",
 				it: "Fintanto che questo Pokémon è in gioco, è di tipo Fire e Fighting.",
 				pt: "Enquanto este Pokémon estiver em jogo, será um Pokémon de tipo Fire e Fighting.",
-				de: "Solange dieses Pokémon im Spiel ist, ist es vom Typ Fire und Fighting."
+				de: "Solange dieses Pokémon im Spiel ist, ist es vom Typ {R} und {F}."
 			},
 		},
 	],
@@ -96,7 +96,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "When facing a tough foe, it looses flames from its wrists. Its powerful legs let it jump clear over buildings."
+		en: "When facing a tough foe, it looses flames from its wrists. Its powerful legs let it jump clear over buildings.",
+		de: "Trifft es auf einen hartnäckigen Gegner, schießen Flammen aus seinen Handgelenken. Seine starken Beine ermöglichen ihm, über Häuser zu springen."
 	},
 
 	variants: [

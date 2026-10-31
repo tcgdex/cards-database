@@ -49,7 +49,7 @@ const card: Card = {
 				es: "Todas las veces que quieras durante tu turno, puedes unir 1 carta de Energía Darkness de tu mano a 1 de tus Pokémon.",
 				it: "Durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon una carta Energia Darkness dalla tua mano tutte le volte che vuoi.",
 				pt: "Quantas vezes desejar durante o seu turno, você poderá ligar 1 carta de Energia Darkness da sua mão a 1 dos seus Pokémon.",
-				de: "Beliebig oft während deines Zuges kannst du 1 Darkness-Energiekarte aus deiner Hand an 1 deiner Pokémon anlegen."
+				de: "Beliebig oft während deines Zuges kannst du 1 {D}-Energiekarte aus deiner Hand an 1 deiner Pokémon anlegen."
 			},
 		},
 	],
@@ -89,7 +89,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "There are a slew of stories about villages that were destroyed by Hydreigon. It bites anything that moves."
+		en: "There are a slew of stories about villages that were destroyed by Hydreigon. It bites anything that moves.",
+		de: "Es beißt alles, was sich bewegt. In zahlreichen alten Sagen wird von Trikephalo berichtet, die ganze Dörfer in Schutt und Asche gelegt haben."
 	},
 
 	variants: [

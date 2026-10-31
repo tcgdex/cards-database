@@ -61,19 +61,22 @@ const card: Card = {
 		de: "Das Büschel auf seinem Kopf enthält eine sehr nahrhafte Flüssigkeit, mit der es über seinen Schweif Pflanzen wässert."
 	},
 
-	thirdParty: {
-		cardmarket: 299441,
-		tcgplayer: 138516
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299441,
+				tcgplayer: 138516
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299441,
+				tcgplayer: 138516
+			}
+		},
+	],
 }
 
 export default card

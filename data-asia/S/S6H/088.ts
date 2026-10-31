@@ -7,7 +7,7 @@ const card: Card = {
 		ja: "アスナ",
 	},
 
-	illustrator: "Ryta Fuse",
+	illustrator: "Ryuta Fuse",
 	category: "Trainer",
 
 	effect: {

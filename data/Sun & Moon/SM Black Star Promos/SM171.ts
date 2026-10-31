@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	suffix: "GX",
@@ -48,7 +49,7 @@ const card: Card = {
 				es: "Puedes unir hasta 3 cartas de Energía Fire de tu mano a tus Pokémon de la manera que desees.",
 				it: "Puoi assegnare a piacimento ai tuoi Pokémon fino a tre carte Energia Fire dalla tua mano.",
 				pt: "Você pode ligar até 3 cartas de Energia Fire da sua mão aos seus Pokémon como desejar.",
-				de: "Du kannst bis zu 3 Fire-Energiekarten aus deiner Hand beliebig an deine Pokémon anlegen."
+				de: "Du kannst bis zu 3 {R}-Energiekarten aus deiner Hand beliebig an deine Pokémon anlegen."
 			},
 			damage: 30,
 
@@ -73,7 +74,7 @@ const card: Card = {
 				es: "Descarta 2 Energías Fire de este Pokémon.",
 				it: "Scarta due Energie Fire assegnate a questo Pokémon.",
 				pt: "Descarte 2 Energias Fire deste Pokémon.",
-				de: "Lege 2 Fire-Energien von diesem Pokémon auf den Ablagestapel."
+				de: "Lege 2 {R}-Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 190,
 
@@ -88,7 +89,7 @@ const card: Card = {
 				es: "Fogón Vigoroso GX",
 				it: "Combustione Energetica GX",
 				pt: "Queimador Poderoso GX",
-				de: "Powerbrenner GX"
+				de: "Powerbrenner-GX"
 			},
 			effect: {
 				en: "This attack does 20 damage for each Fire Energy card in your discard pile. (You can’t use more than 1 GX attack in a game.)",
@@ -96,7 +97,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño por cada carta de Energía Fire en tu pila de descartes. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Questo attacco infligge 20 danni per ogni carta Energia Fire nella tua pila degli scarti. Non puoi usare più di un attacco GX a partita.",
 				pt: "Este ataque causa 20 pontos de dano para cada carta de Energia Fire na sua pilha de descarte (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl der Fire-Energiekarten in deinem Ablagestapel zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				de: "Diese Attacke fügt 20 Schadenspunkte mal der Anzahl der {R}-Energiekarten in deinem Ablagestapel zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: "20×",
 

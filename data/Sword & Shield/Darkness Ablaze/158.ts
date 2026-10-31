@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Si el Pokémon al que está unida esta carta queda Fuera de Combate por el daño de un ataque de los Pokémon de tu rival, ese jugador descarta cualquier carta de Premio que hubiera cogido por ese Fuera de Combate en vez de poner esas cartas en su mano.",
 		it: "Se il Pokémon a cui è assegnata questa carta viene messo KO dai danni inflitti da un attacco di un Pokémon del tuo avversario, quel giocatore scarta le carte Premio che avrebbe preso per effetto di quel KO invece di aggiungerle alle carte che ha in mano.",
 		pt: "Se o Pokémon ao qual esta carta está ligada for Nocauteado pelo dano de um ataque dos Pokémon do seu oponente, aquele jogador descartará quaisquer cartas de Prêmio que pegaria daquele Nocaute ao invés de colocá-las na mão dele(a).",
-		de: "Wenn das Pokémon, an das diese Karte angelegt ist, durch Schaden einer Attacke der Pokémon deines Gegners kampfunfähig wird, legt jener Spieler alle Preiskarten, die er für jenen K. o. auf seine Hand nehmen würde, stattdessen auf seinen Ablagestapel."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn das Pokémon, an das diese Karte angelegt ist, durch Schaden einer Attacke der Pokémon deines Gegners kampfunfähig wird, legt jener Spieler alle Preiskarten, die er für jenen K. o. auf seine Hand nehmen würde, stattdessen auf seinen Ablagestapel. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

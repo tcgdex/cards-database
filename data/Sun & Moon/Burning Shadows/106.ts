@@ -91,19 +91,22 @@ const card: Card = {
 		de: "Sein Zeitgefühl ist perfekt. Was auch immer passiert, es behält den Rhythmus, da sein Kopf wackelt."
 	},
 
-	thirdParty: {
-		cardmarket: 299507,
-		tcgplayer: 138602
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299507,
+				tcgplayer: 138602
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299507,
+				tcgplayer: 138602
+			}
+		},
+	],
 }
 
 export default card

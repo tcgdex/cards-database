@@ -84,19 +84,22 @@ const card: Card = {
 		de: "Sein Fell ist von Natur aus wasserabweisend. Es bleibt trocken, auch wenn es im Wasser spielt."
 	},
 
-	thirdParty: {
-		cardmarket: 299439,
-		tcgplayer: 138514
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299439,
+				tcgplayer: 138514
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299439,
+				tcgplayer: 138514
+			}
+		},
+	],
 }
 
 export default card

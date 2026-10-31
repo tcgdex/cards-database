@@ -9,6 +9,7 @@ const card: Card = {
 	name: {
 		en: "Grubbin",
 		fr: "Larvibule",
+		de: "Mabula"
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -26,6 +27,7 @@ const card: Card = {
 			name: {
 				en: "Vice Grips",
 				fr: "Force Poigne",
+				de: "Klammer"
 			},
 			damage: "20",
 		},

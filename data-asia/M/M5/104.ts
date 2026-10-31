@@ -7,7 +7,7 @@ const card: Card = {
 		ja: "クラッシュハンマー",
 	},
 
-	illustrator: "Ayako Yoshida",
+	illustrator: "Ayaka Yoshida",
 	category: "Trainer",
 
 	effect: {

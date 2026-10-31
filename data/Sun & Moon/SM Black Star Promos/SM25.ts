@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Fomantis",
 		fr: "Mimantis",
+		de: "Imantis"
 	},
 	stage: "Stage1",
 
@@ -45,7 +46,7 @@ const card: Card = {
 				es: "Los ataques de tus Pokémon Grass y Pokémon Fire hacen 20 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 				it: "Gli attacchi dei tuoi Pokémon Grass e dei tuoi Pokémon Fire infliggono 20 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
 				pt: "Os ataques dos seus Pokémon Grass e Pokémon Fire causam 20 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
-				de: "Die Attacken deiner Grass-Pokémon und Fire-Pokémon fügen dem Aktiven Pokémon deines Gegners 20 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+				de: "Die Attacken deiner {G}-Pokémon und {R}-Pokémon fügen dem Aktiven Pokémon deines Gegners 20 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 		},
 	],
@@ -83,6 +84,7 @@ const card: Card = {
 
 	description: {
 		en: "It requires a lot of effort to maintain Lurantis's vivid coloring, but some collectors enjoy this work and treat it as their hobby.",
+		de: "Es erfordert viel Arbeit, seine Farbenpracht zu erhalten, doch zum Glück gibt es Passionierte, die den hohen Aufwand nicht scheuen."
 	},
 
 	variants: [

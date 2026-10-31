@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "反応性リフト",
 			},
 			effect: {
-				ja: "WailordにはReact Energy Cardsが付属している限り、Pokã©Mon（Pokã©Mon-Exを除く）のリトリートコストは0です。",
+				ja: "WailordにはReact Energy Cardsが付属している限り、PokéMon（PokéMon-Exを除く）のリトリートコストは0です。",
 			},
 		}],
 

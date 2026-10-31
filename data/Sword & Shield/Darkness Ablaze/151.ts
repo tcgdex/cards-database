@@ -63,7 +63,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its body is always warm. Trainers who live in cold areas apparently sleep with it in their bed."
+		en: "Its body is always warm. Trainers who live in cold areas apparently sleep with it in their bed.",
+		de: "Sein Körper ist immer warm. In kalten Gebieten schlafen Trainer deshalb oft in einem Bett mit ihm.ü"
 	},
 
 	variants: [

@@ -2,9 +2,13 @@ import { Card } from "../../../interfaces"
 import Set from "../S5R"
 
 const card: Card = {
+	dexId: [71],
+	rarity: "Uncommon",
+	evolveFrom: { ja: "ウツドン" },
 	set: Set,
 
 	name: {
+		ja: "ウツボット",
 		'zh-tw': "大食花",
 		th: "อุซึบ็อท"
 	},
@@ -15,6 +19,7 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
+		ja: "体内に 取りこまれた ものは どんなに 硬くても 溶解液で 跡形なく 溶かされてしまう。",
 		'zh-tw': "被牠吞進體內的東西不管有多硬，都會被溶解液不留痕跡地融化掉。",
 		th: "สิ่งที่เอาใส่เข้าไปในร่างกายไม่ว่าจะแข็งแค่ไหนก็จะถูกละลายด้วยของเหลวทำละลายจนไม่เหลือซาก"
 	},
@@ -23,11 +28,13 @@ const card: Card = {
 
 	attacks: [{
 		name: {
+			ja: "パニックバイン",
 			'zh-tw': "恐慌藤蔓",
 			th: "แพนิกไวน์"
 		},
 
 		effect: {
+			ja: "相手のバトルポケモンをこんらんにする。次の相手の番、このワザを受けたポケモンは、にげられない。",
 			'zh-tw': "將對手的戰鬥寶可夢【混亂】。在下個對手的回合，受到這個招式的寶可夢無法撤退。",
 			th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ของฝ่ายตรงข้ามเป็นสภาวะ [สับสน] ในเทิร์นถัดไปของฝ่ายตรงข้าม โปเกมอนที่ได้รับท่าต่อสู้นี้จะหนีไม่ได้"
 		},
@@ -36,6 +43,7 @@ const card: Card = {
 		cost: ["Grass"]
 	}, {
 		name: {
+			ja: "ソーラービーム",
 			'zh-tw': "日光束",
 			th: "โซล่าร์บีม"
 		},
@@ -50,7 +58,10 @@ const card: Card = {
 	}],
 
 	retreat: 3,
-	regulationMark: "E"
+	regulationMark: "E",
+	variants: [
+		{ type: "normal", thirdParty: { cardmarket: 533587, tcgplayer: 569044, cardtrader: 240000 } }
+	]
 }
 
 export default card

@@ -82,7 +82,6 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
-			foil: "galaxy",
 			thirdParty: {
 				cardmarket: 273871,
 				tcgplayer: 44419
@@ -91,13 +90,12 @@ const card: Card = {
 		{
 			type: "holo",
 			stamp: ["1st-edition"],
-			foil: "galaxy",
 			thirdParty: {
 				cardmarket: 273871,
 				tcgplayer: 44419
 			}
 		},
-	]
+	],
 }
 
 export default card

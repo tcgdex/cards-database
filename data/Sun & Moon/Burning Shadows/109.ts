@@ -75,19 +75,22 @@ const card: Card = {
 		de: "Es lebt im Inneren pechschwarzer Höhlen. Seine riesigen Ohren setzen Ultraschallwellen von 200 000 Hz frei."
 	},
 
-	thirdParty: {
-		cardmarket: 299510,
-		tcgplayer: 138605
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299510,
+				tcgplayer: 138605
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299510,
+				tcgplayer: 138605
+			}
+		},
+	],
 }
 
 export default card

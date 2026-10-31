@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Charmeleon",
-		fr: "Reptincel"
+		fr: "Reptincel",
+		de: "Glutexo"
 	},
 
 	stage: "Stage2",
@@ -66,7 +67,7 @@ const card: Card = {
 				es: "Envite Ígneo GX",
 				it: "Fuococarica GX",
 				pt: "Blitz de Labaredas GX",
-				de: "Flammenblitz GX"
+				de: "Flammenblitz-GX"
 			},
 			effect: {
 				en: "(You can’t use more than 1 GX attack in a game.)",

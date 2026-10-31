@@ -78,22 +78,25 @@ const card: Card = {
 		de: "Die Flamme auf seiner Schweifspitze zeigt die Lebensenergie an. Ist es gesund, leuchtet sie hell."
 	},
 
-	thirdParty: {
-		cardmarket: 299424,
-		tcgplayer: 138454
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299424,
+				tcgplayer: 138454
+			}
 		},
 		{
 			type: "holo"
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299424,
+				tcgplayer: 138454
+			}
+		},
+	],
 }
 
 export default card

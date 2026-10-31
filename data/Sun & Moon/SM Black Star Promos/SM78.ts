@@ -26,7 +26,7 @@ const card: Card = {
 		es: "Una vez durante el turno de cada jugador, si ese jugador tiene a 6 Pokémon en juego, puede curar 10 puntos de daño a cada uno de sus Pokémon.",
 		it: "Una sola volta durante il turno di ciascun giocatore, se quel giocatore ha sei Pokémon in gioco, può curare 10 danni da ciascuno dei suoi Pokémon.",
 		pt: "Uma vez durante a vez de jogar de cada jogador, se esse jogador possuir 6 Pokémon em jogo, ele ou ela poderá curar 10 de danos de cada um de seus próprios Pokémon.",
-		de: "Einmal während seines Zuges darf jeder Spieler, falls er 6 Pokémon im Spiel hat, 10 Schadenspunkte bei jedem seiner Pokémon heilen."
+		de: "Einmal während seines Zuges darf jeder Spieler, falls er 6 Pokémon im Spiel hat, 10 Schadenspunkte bei jedem seiner Pokémon heilen. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	variants: [

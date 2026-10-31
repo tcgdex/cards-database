@@ -87,7 +87,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Displaying amazing teamwork, they follow the orders of their boss as they all help out in the search for their favorite berries."
+		en: "Displaying amazing teamwork, they follow the orders of their boss as they all help out in the search for their favorite berries.",
+		de: "Bei der Beerensuche stellen sie ihre legendäre Teamfähigkeit unter Beweis, indem sie als Gruppe die Befehle des Anführers befolgen."
 	},
 
 	variants: [

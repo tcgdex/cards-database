@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "It is said to be the legendary bird Pokémon of fire. Every flap of its wings creates a dazzling flare of flames.",
+		de: "Dieses Pokémon ist der Legendäre Feuervogel. Sein Flügelschlag entfacht ein helles Feuermeer."
 	},
 
 	variants: [

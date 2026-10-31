@@ -91,26 +91,29 @@ const card: Card = {
 		de: "Es greift seine Feinde mittels Eiskristallen an, die es mit seinem Fell erzeugt. Wer es wütend macht, wird in Sekundenschnelle tiefgefroren."
 	},
 
-	thirdParty: {
-		cardmarket: 299434,
-		tcgplayer: 138508
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299434,
+				tcgplayer: 138508
+			}
 		},
 		{
 			type: "holo",
 			foil: "cracked-ice",
 			thirdParty: {
 				tcgplayer: 178762
-			},
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299434,
+				tcgplayer: 138508
+			}
+		},
+	],
 }
 
 export default card

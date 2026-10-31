@@ -78,7 +78,8 @@ const card: Card = {
 	regulationMark: "E",
 
 	description: {
-		en: "It will reveal itself before a pure-hearted Trainer by shining its bright, rainbow-colored wings."
+		en: "It will reveal itself before a pure-hearted Trainer by shining its bright, rainbow-colored wings.",
+		de: "Es wird sich dem Trainer offenbaren, der reinen Herzens ist, und ihm seine bunten Schwingen zeigen."
 	},
 
 	dexId: [250],

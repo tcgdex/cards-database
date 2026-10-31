@@ -9,6 +9,7 @@ const card: Card = {
 	name: {
 		en: "Crabrawler",
 		fr: "Crabagarre",
+		de: "Krabbox"
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -26,6 +27,7 @@ const card: Card = {
 			name: {
 				en: "Punch",
 				fr: "Koud'Poing",
+				de: "Boxhieb"
 			},
 			damage: "20",
 		},
@@ -38,6 +40,7 @@ const card: Card = {
 			name: {
 				en: "Crabhammer",
 				fr: "Pince-Masse",
+				de: "Krabbhammer"
 			},
 			damage: "40",
 		},

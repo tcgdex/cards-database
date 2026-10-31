@@ -38,7 +38,7 @@ const card: Card = {
 			es: "Si este Pokémon es tu Pokémon Activo y resulta dañado por un ataque de tu rival (incluso si este Pokémon queda Fuera de Combate), pon 3 contadores de daño en el Pokémon Atacante.",
 			it: "Se questo Pokémon è il tuo Pokémon attivo e viene danneggiato da un attacco del tuo avversario, anche se viene messo KO, metti tre segnalini danno sul Pokémon attaccante.",
 			pt: "Se este Pokémon for seu Pokémon Ativo e ele for danificado pelo ataque de um oponente (mesmo se esse Pokémon for Nocauteado), coloque 3 contadores de danos no Pokémon Atacante.",
-			de: "Wenn dieses Pokémon dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 3 Schadensmarken auf das Angreifende Pokémon."
+			de: "Wenn dieses Pokémon dein Aktives Pokémon ist und durch einen Attacke deines Gegners Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 3 Schadensmarken auf das Angreifende Pokémon."
 		}
 	}],
 
@@ -61,7 +61,7 @@ const card: Card = {
 			es: "Tormenta Espinosa GX",
 			it: "Agotempesta GX",
 			pt: "Tempestade Espinhosa GX",
-			de: "Stachel-Offensive GX"
+			de: "Stachel-Offensive-GX"
 		},
 
 		effect: {
@@ -70,7 +70,7 @@ const card: Card = {
 			es: "Este ataque hace 100 puntos de daño a cada uno de los Pokémon de tu rival que tenga algún contador de daño sobre él. (No apliques Debilidad y Resistencia a los Pokémon en Banca). (No puedes usar más de 1 ataque GX en una partida).",
 			it: "Questo attacco infligge 100 danni a ciascuno dei Pokémon del tuo avversario che abbia dei segnalini danno. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina. Non puoi usare più di un attacco GX a partita.",
 			pt: "Este ataque causa 100 pontos de dano a cada um dos Pokémon do seu oponente que tiver algum contador de dano nele (não aplique Fraqueza e Resistência aos Pokémon no Banco). (Você não pode usar mais de 1 ataque GX por partida.)",
-			de: "Diese Attacke fügt jedem Pokémon deines Gegners, auf dem mindestens 1 Schadensmarke liegt, 100 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+			de: "Diese Attacke fügt jedem Pokémon deines Gegners, auf dem bereits mindestens 1 Schadensmarke liegt, 100 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 		},
 
 		cost: ["Water", "Colorless", "Colorless"]

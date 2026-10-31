@@ -96,6 +96,7 @@ const card: Card = {
 
 	description: {
 		en: "Boiling blood, like plasma, circulates through its body. It makes its dwelling place in volcanic caves.",
+		de: "Das Blut, das durch seinen Körper fließt, brodelt heiß wie Magma. Es lebt in vulkanischen Höhlen."
 	},
 
 	variants: [

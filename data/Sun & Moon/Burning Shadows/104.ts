@@ -91,19 +91,22 @@ const card: Card = {
 		de: "In der Absicht, andere Planeten zu erforschen, verpasste man Porygon ein Upgrade auf dem höchsten Stand der damaligen Technologie."
 	},
 
-	thirdParty: {
-		cardmarket: 299505,
-		tcgplayer: 138600
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299505,
+				tcgplayer: 138600
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299505,
+				tcgplayer: 138600
+			}
+		},
+	],
 }
 
 export default card

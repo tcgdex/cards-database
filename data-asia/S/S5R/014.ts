@@ -2,9 +2,12 @@ import { Card } from "../../../interfaces"
 import Set from "../S5R"
 
 const card: Card = {
+	dexId: [631],
+	rarity: "Common",
 	set: Set,
 
 	name: {
+		ja: "クイタラン",
 		'zh-tw': "熔蟻獸",
 		th: "คุยทาแรน"
 	},
@@ -15,6 +18,7 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
+		ja: "炎を ベロの ように 使う。 アイアントの 硬い 外骨格を じわじわと 溶かし いただくのだ。",
 		'zh-tw': "將火焰當成舌頭來使用。會一點一點地熔化鐵蟻堅硬的外骨骼，然後把牠吃掉。",
 		th: "ใช้เปลวไฟเหมือนกับเป็นลิ้น ค่อย ๆ ละลายโครงกระดูกส่วนนอกแข็ง ๆ ของไอแอนท์แล้วสวาปาม"
 	},
@@ -23,6 +27,7 @@ const card: Card = {
 
 	attacks: [{
 		name: {
+			ja: "ほのお",
 			'zh-tw': "火焰",
 			th: "ไฟ"
 		},
@@ -31,11 +36,13 @@ const card: Card = {
 		cost: ["Fire"]
 	}, {
 		name: {
+			ja: "ベロベロバーナー",
 			'zh-tw': "舔舔燃燒",
 			th: "เผาไหม้ลามเลีย"
 		},
 
 		effect: {
+			ja: "コインを2回投げ、オモテの数ぶん、相手のバトルポケモンについているエネルギーを選び、トラッシュする。",
 			'zh-tw': "擲2次硬幣，選擇與正面出現的次數相同數量的對手的戰鬥寶可夢身上附加的能量，將其丟棄。",
 			th: "ทอยเหรียญ 2 ครั้ง ทิ้งพลังงานที่ติดกับโปเกมอนบนตำแหน่งต่อสู้ของฝ่ายตรงข้ามตามจำนวนครั้งที่ออกหัวที่ตำแหน่งทิ้งการ์ด"
 		},
@@ -50,7 +57,10 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "E"
+	regulationMark: "E",
+	variants: [
+		{ type: "normal", thirdParty: { cardmarket: 533642, tcgplayer: 569055, cardtrader: 240019 } }
+	]
 }
 
 export default card

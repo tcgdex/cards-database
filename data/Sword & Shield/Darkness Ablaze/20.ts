@@ -28,7 +28,7 @@ const card: Card = {
 		es: "Charizard V",
 		it: "Charizard-V",
 		pt: "Charizard V",
-		de: "Glurak-V"
+		de: "Glurak VMAX"
 	},
 
 	attacks: [

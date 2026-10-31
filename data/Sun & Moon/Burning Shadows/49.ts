@@ -70,19 +70,22 @@ const card: Card = {
 		de: "Es hasst Licht und Schläge. Wird es angegriffen, pumpt es sich auf, um einen Gegenschlag vorzubereiten."
 	},
 
-	thirdParty: {
-		cardmarket: 299453,
-		tcgplayer: 138531
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299453,
+				tcgplayer: 138531
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299453,
+				tcgplayer: 138531
+			}
+		},
+	],
 }
 
 export default card

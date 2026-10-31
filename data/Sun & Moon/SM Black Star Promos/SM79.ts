@@ -42,7 +42,7 @@ const card: Card = {
 				es: "Cada uno de tus Pokémon evolucionados puede usar cualquier ataque de sus Evoluciones anteriores. (Sigues necesitando la Energía necesaria para usar cada ataque.)",
 				it: "I tuoi Pokémon evoluti possono usare gli attacchi dei loro stadi evolutivi precedenti. Devi comunque avere l’Energia necessaria per usare quegli attacchi.",
 				pt: "Cada um dos seus Pokémon evoluídos pode usar qualquer ataque de suas evoluções anteriores. (Você ainda precisa da Energia necessária para usar cada ataque.)",
-				de: "Jedes deiner entwickelten Pokémon kann die Angriffe aus vorangegangenen Entwicklungsstufen verwenden. (Du benötigst dazu die für jeden der Angriffe erforderlichen Energien.)"
+				de: "Jedes deiner entwickelten Pokémon kann die Attacken aus vorangegangenen Entwicklungen verwenden. (Du benötigst jedoch die jeweils für die Attacke notwendige Energie.)"
 			},
 		},
 	],
@@ -79,6 +79,7 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon wanders across time. Grass and trees flourish in the forests in which it has appeared.",
+		de: "Dieses Pokémon reist durch Zeit und Raum. Bäume und Wiesen wuchern, wenn es in der Nähe ist."
 	},
 
 	variants: [

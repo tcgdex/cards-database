@@ -75,7 +75,8 @@ const card: Card = {
 	regulationMark: "E",
 
 	description: {
-		en: "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology."
+		en: "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology.",
+		de: "Es hat die Macht, den Raum zu krümmen. In den Mythen von Sinnoh erscheint es als Gottheit."
 	},
 
 	dexId: [484],

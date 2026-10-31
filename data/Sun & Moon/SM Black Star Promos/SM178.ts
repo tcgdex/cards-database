@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Meltan",
 		fr: "Meltan",
+		de: "Meltan"
 	},
 
 	suffix: "GX",
@@ -71,7 +72,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño más por cada Energía Metal unida a este Pokémon.",
 				it: "Questo attacco infligge 20 danni in più per ogni Energia Metal assegnata a questo Pokémon.",
 				pt: "Este ataque causa 20 pontos de dano a mais vezes a quantidade de Energia Metal ligada a este Pokémon.",
-				de: "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der an dieses Pokémon angelegten Metal-Energien zu."
+				de: "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der an dieses Pokémon angelegten {M}-Energien zu."
 			},
 			damage: "110+",
 
@@ -86,7 +87,7 @@ const card: Card = {
 				es: "Fuerza Férrea GX",
 				it: "Potere del Metallo GX",
 				pt: "Força Férrea GX",
-				de: "Eisenkraft GX"
+				de: "Eisenkraft-GX"
 			},
 			effect: {
 				en: "Attach any number of Metal Energy cards from your discard pile to this Pokémon. (You can’t use more than 1 GX attack in a game.)",
@@ -94,7 +95,7 @@ const card: Card = {
 				es: "Une cualquier cantidad de cartas de Energía Metal de tu pila de descartes a este Pokémon. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Assegna un numero qualsiasi di carte Energia Metal dalla tua pila degli scarti a questo Pokémon. Non puoi usare più di un attacco GX a partita.",
 				pt: "Ligue qualquer número de cartas de Energia Metal da sua pilha de descarte a este Pokémon (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Lege beliebig viele Metal-Energiekarten aus deinem Ablagestapel an dieses Pokémon an. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				de: "Lege beliebig viele {M}-Energiekarten aus deinem Ablagestapel an dieses Pokémon an. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 
 		},

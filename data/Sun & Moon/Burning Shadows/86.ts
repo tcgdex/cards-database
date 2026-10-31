@@ -97,19 +97,22 @@ const card: Card = {
 		de: "Sie sind immer zu viert oder fünft unterwegs. Bei der Jagd arbeiten sie zusammen, indem sie Zeichen in Felsen und Bäume ritzen."
 	},
 
-	thirdParty: {
-		cardmarket: 299488,
-		tcgplayer: 138576
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299488,
+				tcgplayer: 138576
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299488,
+				tcgplayer: 138576
+			}
+		},
+	],
 }
 
 export default card

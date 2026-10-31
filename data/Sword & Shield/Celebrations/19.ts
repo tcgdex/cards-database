@@ -37,7 +37,7 @@ const card: Card = {
 			es: "Descarta hasta 3 Energías Especiales de los Pokémon de tu rival.",
 			it: "Scarta fino a tre Energie speciali dai Pokémon del tuo avversario.",
 			pt: "Descarte até 3 Energias Especiais dos Pokémon do seu oponente.",
-			de: "Lege bis zu 3 Spezial-Energien von Pokémon deines Gegners auf seinen Ablagestapel."
+			de: "Lege bis zu 3 Spezial-Energien von Pokémon deines Gegners auf seinen Ablagestapel"
 		},
 
 		cost: ["Colorless", "Colorless"]
@@ -69,7 +69,8 @@ const card: Card = {
 	regulationMark: "E",
 
 	description: {
-		en: "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more."
+		en: "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more.",
+		de: "Neigt sich seine Lebensspanne dem Ende zu, entzieht es anderen Lebewesen deren Energie und verwandelt sich zurück in einen Kokon."
 	},
 
 	dexId: [717],

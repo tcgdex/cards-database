@@ -91,19 +91,22 @@ const card: Card = {
 		de: "Wer sich mit diesem temperamentvollen Pokémon anlegt, bekommt seinen mit Dornen bestückten Schweif zu spüren."
 	},
 
-	thirdParty: {
-		cardmarket: 299420,
-		tcgplayer: 138283
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299420,
+				tcgplayer: 138283
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299420,
+				tcgplayer: 138283
+			}
+		},
+	],
 }
 
 export default card

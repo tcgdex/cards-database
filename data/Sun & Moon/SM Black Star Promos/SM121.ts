@@ -83,7 +83,7 @@ const card: Card = {
 				es: "Lluvia Atronadora GX",
 				it: "Pioggia Tonante GX",
 				pt: "Chuva Estrondosa GX",
-				de: "Donnerregen GX"
+				de: "Donnerregen-GX"
 			},
 			effect: {
 				en: "This attack does 100 damage to each of your opponent’s Pokémon that has any Energy attached to it. (Don’t apply Weakness and Resistance for Benched Pokémon.) (You can’t use more than 1 GX attack in a game.)",

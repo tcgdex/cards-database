@@ -67,7 +67,8 @@ const card: Card = {
 	regulationMark: "E",
 
 	description: {
-		en: "As it absorbs light, Cosmoem continues to grow. Its golden shell is surprisingly solid."
+		en: "As it absorbs light, Cosmoem continues to grow. Its golden shell is surprisingly solid.",
+		de: "Es nimmt Licht in sich auf und wächst so immer weiter. Seine goldene Schale ist überraschend hart."
 	},
 
 	dexId: [790],

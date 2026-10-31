@@ -82,7 +82,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "It moves through the sands with its mouth open, swallowing sand along with its prey. It gets rid of the sand by spouting it from its nose."
+		en: "It moves through the sands with its mouth open, swallowing sand along with its prey. It gets rid of the sand by spouting it from its nose.",
+		de: "Es bewegt sich mit geöffnetem Maul und verschluckt seine Beute mit jeder Menge Sand, den es durch seine Nasenlöcher wieder ausstößt."
 	},
 
 	variants: [

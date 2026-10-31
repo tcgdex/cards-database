@@ -102,19 +102,22 @@ const card: Card = {
 		de: "Der Schlamm, den es ausspuckt, schützt gegen Wind und Wetter, wenn er hart wird. Deshalb hat man früher auch Hauswände damit verstärkt."
 	},
 
-	thirdParty: {
-		cardmarket: 299480,
-		tcgplayer: 138564
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299480,
+				tcgplayer: 138564
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299480,
+				tcgplayer: 138564
+			}
+		},
+	],
 }
 
 export default card

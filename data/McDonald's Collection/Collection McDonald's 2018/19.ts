@@ -8,7 +8,7 @@ const card: Card = {
 
     rarity: "None",
     category: "Pokemon",
-    illustrator: "Ayoko Yoshida",
+    illustrator: "Ayaka Yoshida",
 
     set: Set,
     dexId: [170],

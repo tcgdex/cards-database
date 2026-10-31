@@ -78,19 +78,22 @@ const card: Card = {
 		de: "Es sieht sowohl die Gefühle von Menschen und Pokémon als auch die ihn umgebende Natur in Form von Wellen, die Aura genannt werden."
 	},
 
-	thirdParty: {
-		cardmarket: 299472,
-		tcgplayer: 138556
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299472,
+				tcgplayer: 138556
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299472,
+				tcgplayer: 138556
+			}
+		},
+	],
 }
 
 export default card

@@ -90,7 +90,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "During a battle, the hot flame in its body increases. Its kicks have outstanding destructive power."
+		en: "During a battle, the hot flame in its body increases. Its kicks have outstanding destructive power.",
+		de: "Im Kampf lodert sein inneres Feuer hoch auf. Wo seine mächtigen Tritte landen, wächst kein Gras mehr."
 	},
 
 	variants: [

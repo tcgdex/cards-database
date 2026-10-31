@@ -21,7 +21,7 @@ const card: Card = {
                 ja: "伝説的な上昇",
             },
             effect: {
-                ja: "ターン中に、Moltre Exを手からベンチに置くと、Moltre exでアクティブなPokã©Monの1を切り替えることができます。そうした場合、Pokã©Monに取り付けられた数の基本的な火エネルギーカードをMoltres exに移動することもできます。",
+                ja: "ターン中に、Moltre Exを手からベンチに置くと、Moltre exでアクティブなPokéMonの1を切り替えることができます。そうした場合、PokéMonに取り付けられた数の基本的な火エネルギーカードをMoltres exに移動することもできます。",
             },
         }],
 

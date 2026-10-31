@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cosmoem",
 		fr: "Cosmovum",
+		de: "Cosmovum"
 	},
 
 	stage: "Stage2",
@@ -73,7 +74,7 @@ const card: Card = {
 				es: "Descarta 2 Energías Psychic de este Pokémon.",
 				it: "Scarta due Energie Psychic assegnate a questo Pokémon.",
 				pt: "Descarte 2 Energias Psychic deste Pokémon.",
-				de: "Lege 2 Psychic-Energien von diesem Pokémon auf deinen Ablagestapel."
+				de: "Lege 2 {P}-Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 200,
 
@@ -91,7 +92,7 @@ const card: Card = {
 				es: "Réquiem GX",
 				it: "Requiem GX",
 				pt: "Réquiem GX",
-				de: "Requiem GX"
+				de: "Requiem-GX"
 			},
 			effect: {
 				en: "(You can’t use more than 1 GX attack in a game.)",

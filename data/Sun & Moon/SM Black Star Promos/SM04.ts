@@ -4,7 +4,8 @@ import Set from '../SM Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Pikachu",
-		fr: "Pikachu"
+		fr: "Pikachu",
+		de: "Pikachu"
 	},
 	illustrator: "kirisAki",
 	rarity: "Promo",
@@ -29,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Wave",
-				fr: "Cage-Éclair"
+				fr: "Cage-Éclair",
+				de: "Donnerwelle"
 			},
 			effect: {
 				en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 
 		},
@@ -45,7 +48,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Electro Ball",
-				fr: "Boule Élek"
+				fr: "Boule Élek",
+				de: "Elektroball"
 			},
 
 			damage: 50,
@@ -73,6 +77,7 @@ const card: Card = {
 
 	description: {
 		en: "A plan was recently announced to gather many Pikachu and make an electric power plant.",
+		de: "Vor Kurzem wurden Pläne verkündet, mithilfe einer großen Anzahl an Pikachu ein ganzes Kraftwerk zu betreiben."
 	},
 
 	variants: [

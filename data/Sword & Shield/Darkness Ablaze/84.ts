@@ -56,7 +56,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "If a Diglett digs through a field, it leaves the soil perfectly tilled and ideal for planting crops."
+		en: "If a Diglett digs through a field, it leaves the soil perfectly tilled and ideal for planting crops.",
+		de: "Bewegt sich ein Digda unterirdisch fort, pflügt es dabei den Erdboden gleich mit und bereitet so den Anbau von Feldfrüchten vor."
 	},
 
 	variants: [

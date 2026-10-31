@@ -79,7 +79,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "When it rotates itself, it gives off light similar to the sun, thus blinding its foes."
+		en: "When it rotates itself, it gives off light similar to the sun, thus blinding its foes.",
+		de: "Es rotiert um die eigene Achse und strahlt dabei sonnengleiches Licht aus, mit dem es den Gegner blendet."
 	},
 
 	variants: [

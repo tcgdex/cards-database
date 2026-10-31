@@ -40,7 +40,7 @@ const card: Card = {
 			es: "Los ataques de los Pokémon VMAX de tu rival hacen 20 puntos de daño menos a todos tus Pokémon Fighting (después de aplicar Debilidad y Resistencia). No puedes aplicar más de 1 habilidad Gruñido del Escudo a la vez.",
 			it: "I tuoi Pokémon Fighting subiscono 20 danni in meno dagli attacchi dei Pokémon-VMAX del tuo avversario, dopo aver applicato debolezza e resistenza. Non puoi applicare più di un'abilità Ruggito dello Scudo alla volta.",
 			pt: "Todos os seus Pokémon Fighting recebem 20 pontos de dano a menos de ataques dos Pokémon VMAX do seu oponente (depois de aplicar Fraqueza e Resistência). Você não pode usar mais de 1 Habilidade Rosnado do Escudo por vez.",
-			de: "Allen deinen Fighting-Pokémon werden durch Attacken von Pokémon-VMAX deines Gegners 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden). Du kannst immer nur jeweils 1 Fähigkeit Knurren des Schildes einsetzen."
+			de: "Allen deinen {F}-Pokémon werden durch Attacken von Pokémon-VMAX deines Gegners 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden). Du kannst immer nur jeweils 1 Fähigkeit Knurren des Schildes einsetzen."
 		}
 	}],
 

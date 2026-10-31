@@ -97,7 +97,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It stimulates its own muscles with electricity, so it can move quickly. It eases its soreness with electricity, too, so it can recover quickly as well."
+		en: "It stimulates its own muscles with electricity, so it can move quickly. It eases its soreness with electricity, too, so it can recover quickly as well.",
+		de: "Da es seine Muskeln mit Elektrizität stimuliert, kann es sich sehr schnell bewegen. Auch Muskelkater heilt es sofort mit Strom."
 	},
 
 	variants: [

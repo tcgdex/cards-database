@@ -88,7 +88,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "As it twirls like a dancer, a sweet smell spreads out around it. Anyone who inhales the scent will feel a surge of happiness."
+		en: "As it twirls like a dancer, a sweet smell spreads out around it. Anyone who inhales the scent will feel a surge of happiness.",
+		de: "Es dreht sich tänzerisch um sich selbst und verströmt einen süßen Duft, der jeden glücklich macht, der ihn riecht."
 	},
 
 	variants: [

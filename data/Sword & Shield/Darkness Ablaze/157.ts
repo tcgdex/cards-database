@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Mientras el Pokémon al que esté unida esta carta esté en el Puesto Activo, evita todos los efectos de los ataques de los Pokémon de tu rival infligidos a todos tus Pokémon. (No se eliminan los efectos ya existentes. El daño no es un efecto).",
 		it: "Fintanto che il Pokémon a cui è assegnata questa carta è in posizione attiva, previeni tutti gli effetti degli attacchi inflitti ai tuoi Pokémon dai Pokémon del tuo avversario. Gli effetti esistenti non vengono rimossi. I danni non sono un effetto.",
 		pt: "Enquanto o Pokémon ao qual esta carta está ligada estiver no Campo Ativo, previna todos os efeitos de ataques dos Pokémon do seu oponente causados a todos os seus Pokémon (efeitos existentes não são removidos e dano não é um efeito).",
-		de: "Solange das Pokémon, an das diese Karte angelegt ist, in der Aktiven Position ist, verhindere alle Effekte von Attacken der Pokémon deines Gegners, die allen deinen Pokémon zugefügt werden. (Bestehende Effekte werden nicht entfernt. Schaden ist kein Effekt.)"
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Solange das Pokémon, an das diese Karte angelegt ist, in der Aktiven Position ist, verhindere alle Effekte von Attacken der Pokémon deines Gegners, die allen deinen Pokémon zugefügt werden. (Bestehende Effekte werden nicht entfernt. Schaden ist kein Effekt.) Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

@@ -276,7 +276,12 @@
 		"jose-cruz-galindo-resendiz": "Jose Cruz Galindo-Resendiz",
 		"sakuya-ota": "sakuya-ota",
 		"poketour-99": "PokeTour 1999",
-		"fossil-museum": "Fossil Museum"
+		"fossil-museum": "Fossil Museum",
+		"4th-place": "4th lugar",
+		"3rd-place": "3rd lugar",
+		"2nd-place": "2nd lugar",
+		"1st-place": "1st lugar",
+		"toys-r-us": "Toys R Us"
 	},
 	"variantSubtype": {
 		"shadowless": "sem sombra",

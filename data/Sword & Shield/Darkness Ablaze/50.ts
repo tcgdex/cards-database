@@ -78,7 +78,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Individually, they're incredibly weak. It's by gathering up into schools that they're able to confront opponents."
+		en: "Individually, they're incredibly weak. It's by gathering up into schools that they're able to confront opponents.",
+		de: "Weil es alleine unheimlich schwach ist, hat es die Fähigkeit erworben, einen Schwarm zu formen. So kann es sich seinen Gegnern stellen."
 	},
 
 	variants: [

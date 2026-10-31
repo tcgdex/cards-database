@@ -9,6 +9,7 @@ const card: Card = {
 	name: {
 		en: "Rowlet",
 		fr: "Brindibou",
+		de: "Bauz"
 	},
 	rarity: "None",
 	category: "Pokemon",
@@ -25,6 +26,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 			damage: "10",
 		},
@@ -36,6 +38,7 @@ const card: Card = {
 			name: {
 				en: "Leafage",
 				fr: "Feuillage",
+				de: "Blattwerk"
 			},
 			damage: "20",
 		},

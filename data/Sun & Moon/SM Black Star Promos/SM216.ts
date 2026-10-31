@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Porygon2",
-		fr: "Porygon"
+		fr: "Porygon",
+		de: "Porygon2"
 	},
 
 	stage: "Stage2",
@@ -91,7 +92,7 @@ const card: Card = {
 				es: "Error Crítico GX",
 				it: "Errore Critico GX",
 				pt: "Erro Crítico GX",
-				de: "Kritischer Fehler GX"
+				de: "Kritischer Fehler-GX"
 			},
 			effect: {
 				en: "Search your deck for up to 10 cards and discard them. Then, shuffle your deck. (You can’t use more than 1 GX attack in a game.)",

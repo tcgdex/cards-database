@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "スクランブル",
 			},
 			effect: {
-				ja: "対戦相手が彼または彼女のアクティブなPokã©MonとしてPokã©Mon-Exを持っている限り、Rattataのリトリートコストは0です。",
+				ja: "対戦相手が彼または彼女のアクティブなPokéMonとしてPokéMon-Exを持っている限り、Rattataのリトリートコストは0です。",
 			},
 		}],
 

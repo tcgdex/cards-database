@@ -67,19 +67,22 @@ const card: Card = {
 		de: "Dieses Pokémon schießt mit Tinte auf über der Wasseroberfläche fliegende Insekten."
 	},
 
-	thirdParty: {
-		cardmarket: 299435,
-		tcgplayer: 138509
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299435,
+				tcgplayer: 138509
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299435,
+				tcgplayer: 138509
+			}
+		},
+	],
 }
 
 export default card

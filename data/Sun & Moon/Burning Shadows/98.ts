@@ -107,19 +107,22 @@ const card: Card = {
 		de: "Nachts sollte man Wälder meiden, in denen Lamellux leben. Ihr unheimliches Licht raubt jedem die Orientierung."
 	},
 
-	thirdParty: {
-		cardmarket: 299499,
-		tcgplayer: 138592
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299499,
+				tcgplayer: 138592
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299499,
+				tcgplayer: 138592
+			}
+		},
+	],
 }
 
 export default card

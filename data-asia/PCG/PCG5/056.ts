@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "ルナシェード",
 			},
 			effect: {
-				ja: "Lunatoneがプレイしている限り、各プレイヤーの無色のPokã©Mon（Pokã©Mon-Exを除く）はPokã©Powersを使用できません。",
+				ja: "Lunatoneがプレイしている限り、各プレイヤーの無色のPokéMon（PokéMon-Exを除く）はPokéPowersを使用できません。",
 			},
 		}],
 

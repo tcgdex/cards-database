@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Una vez durante el turno de cada jugador, después de que ese jugador lance las monedas para un ataque, puede ignorar todos los resultados de esos lanzamientos de monedas y lanzar esas monedas de nuevo.",
 		it: "Una sola volta durante il turno di ciascun giocatore, dopo che quel giocatore ha lanciato una moneta come richiesto da un attacco, questi può ignorare i risultati di quei lanci e lanciare nuovamente la moneta lo stesso numero di volte.",
 		pt: "Uma vez durante o turno de cada jogador, após aquele jogador jogar moedas para um ataque, ele(a) poderá ignorar os resultados das moedas e jogá-las novamente.",
-		de: "Einmal Während des Zuges jedes Spielers, nachdem jener Spieler eine oder mehrere Münzen für eine Attacke geworfen hat, kann er alle Ergebnisse jener Münzwürfe ignorieren und jene Münzen erneut werfen."
+		de: "Einmal während des Zuges jedes Spielers, nachdem jener Spieler eine oder mehrere Münzen für eine Attacke geworfen hat, kann er alle Ergebnisse jener Münzwürfe ignorieren und jene Münzen erneut werfen. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte auf den Ablagestapel, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit demselben Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

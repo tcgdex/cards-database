@@ -101,19 +101,22 @@ const card: Card = {
 		de: "Es heißt, es habe eine ganze Stadt, deren Bewohner es verärgert hatten, über Nacht vollständig in Schutt und Asche gelegt."
 	},
 
-	thirdParty: {
-		cardmarket: 299438,
-		tcgplayer: 138513
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 299438,
+				tcgplayer: 138513
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299438,
+				tcgplayer: 138513
+			}
+		},
+	],
 }
 
 export default card

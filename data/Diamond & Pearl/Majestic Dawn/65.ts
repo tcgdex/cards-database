@@ -65,7 +65,7 @@ const card: Card = {
 			damage: 10,
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
-				de: "Wirf 1 Münze. Bei 'Kopf' entferne 1 Energie, die an das Verteidigende Pokémon angelegt ist, und lege sie auf den Ablagestapel deines Gegners.",
+				de: "Wirf 1 Münze. Bei „Kopf“ entferne 1 Energie, die an das Verteidigende Pokémon angelegt ist, und lege sie auf den Ablagestapel deines Gegners.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
 			},
 			cost: [

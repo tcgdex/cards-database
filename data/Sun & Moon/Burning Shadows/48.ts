@@ -98,19 +98,22 @@ const card: Card = {
 		de: "Durch einen giftigen Biss wurde es zu einer wahren Intelligenzbestie. Es verfügt über Psycho-Kräfte."
 	},
 
-	thirdParty: {
-		cardmarket: 299452,
-		tcgplayer: 138530
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299452,
+				tcgplayer: 138530
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299452,
+				tcgplayer: 138530
+			}
+		},
+	],
 }
 
 export default card

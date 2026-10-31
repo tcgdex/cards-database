@@ -68,19 +68,22 @@ const card: Card = {
 		de: "Es streut blinkende Sporen aus. Jeder, der dieses Licht sieht, schläft fest ein."
 	},
 
-	thirdParty: {
-		cardmarket: 299498,
-		tcgplayer: 138591
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299498,
+				tcgplayer: 138591
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299498,
+				tcgplayer: 138591
+			}
+		},
+	],
 }
 
 export default card

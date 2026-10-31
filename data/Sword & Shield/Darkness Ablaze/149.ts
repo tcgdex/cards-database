@@ -103,7 +103,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock."
+		en: "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock.",
+		de: "Wenn der Morgen dämmert, fangen sie an zu tanzen. Das Swaroness in der Mitte führt die Gruppe an."
 	},
 
 	variants: [

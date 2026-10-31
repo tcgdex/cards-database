@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "危険の認識",
 			},
 			effect: {
-				ja: "Scizor Exの残りのHPが60以下である限り、Scizor Exは防御するPokã©Monに40個のダメージを与えます（脱力感と抵抗を適用する前）。",
+				ja: "Scizor Exの残りのHPが60以下である限り、Scizor Exは防御するPokéMonに40個のダメージを与えます（脱力感と抵抗を適用する前）。",
 			},
 		}],
 

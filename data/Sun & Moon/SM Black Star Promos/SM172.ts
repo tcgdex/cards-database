@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	suffix: "GX",
@@ -45,7 +46,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes curar 30 puntos de daño a tu Pokémon Water Activo.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi curare il tuo Pokémon attivo Water da 30 danni.",
 				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode curar 30 pontos de dano do seu Pokémon Water Ativo.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 30 Schadenspunkte bei deinem Aktiven Water-Pokémon heilen."
+				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 30 Schadenspunkte bei deinem Aktiven {W}-Pokémon heilen."
 			},
 		},
 	],
@@ -70,7 +71,7 @@ const card: Card = {
 				es: "Este ataque hace 30 puntos de daño más por cada Energía Water unida a este Pokémon.",
 				it: "Questo attacco infligge 30 danni in più per ogni Energia Water assegnata a questo Pokémon.",
 				pt: "Este ataque causa 30 pontos de dano a mais vezes a quantidade de Energia Water ligada a este Pokémon.",
-				de: "Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl der an dieses Pokémon angelegten Water-Energien zu."
+				de: "Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl der an dieses Pokémon angelegten {W}-Energien zu."
 			},
 			damage: "40+",
 
@@ -85,7 +86,7 @@ const card: Card = {
 				es: "Ducha Curativa GX",
 				it: "Pioggia Curativa GX",
 				pt: "Chuva de Cura GX",
-				de: "Heilender Schauer GX"
+				de: "Heilender Schauer-GX"
 			},
 			effect: {
 				en: "Heal all damage from all of your Water Pokémon. (You can’t use more than 1 GX attack in a game.)",
@@ -93,7 +94,7 @@ const card: Card = {
 				es: "Cura todos los puntos de daño a todos tus Pokémon Water. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Cura tutti i tuoi Pokémon Water da tutti i danni. Non puoi usare più di un attacco GX a partita.",
 				pt: "Cure todo o dano de todos os seus Pokémon Water (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Heile allen Schaden bei jedem deiner Water-Pokémon. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				de: "Heile allen Schaden bei jedem deiner {W}-Pokémon. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 
 		},

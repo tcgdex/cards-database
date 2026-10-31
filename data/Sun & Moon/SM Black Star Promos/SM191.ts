@@ -60,7 +60,7 @@ const card: Card = {
 				es: "Dúo Milagroso GX",
 				it: "Duo Miracoloso GX",
 				pt: "Duo Milagroso GX",
-				de: "Wunderduo GX"
+				de: "Wunderduo-GX"
 			},
 			effect: {
 				en: "If this Pokémon has at least 1 extra Energy attached to it (in addition to this attack’s cost), heal all damage from all of your Pokémon. (You can’t use more than 1 GX attack in a game.)",

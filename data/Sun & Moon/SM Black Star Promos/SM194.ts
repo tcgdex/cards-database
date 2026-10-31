@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "Skilled in deduction, he's a self-proclaimed \"great detective.\" His detective hat is his trademark.",
+		de: "Aufgrund seiner außergewöhnlichen Kombinationsgabe hat er sich selbst zum „Meisterdetektiv“ ernannt. Seine Detektivmütze ist sein Markenzeichen."
 	},
 
 	variants: [

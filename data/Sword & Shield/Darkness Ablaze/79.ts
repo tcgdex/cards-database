@@ -79,7 +79,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Pokémon living in the forest eat the delicious caps on Morelull's head. The caps regrow overnight."
+		en: "Pokémon living in the forest eat the delicious caps on Morelull's head. The caps regrow overnight.",
+		de: "Sein Pilzhut ist sehr schmackhaft. Er wird zwar häufig von den Pokémon des Waldes verspeist, wächst aber über Nacht wieder nach."
 	},
 
 	variants: [

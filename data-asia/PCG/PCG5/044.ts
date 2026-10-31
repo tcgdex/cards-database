@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "リアセンサー",
 			},
 			effect: {
-				ja: "各プレイヤーのアクティブな基本的なPokã©Mon（Pokã©Mon-Exを除く）は、Pokã©Powersを使用できません。",
+				ja: "各プレイヤーのアクティブな基本的なPokéMon（PokéMon-Exを除く）は、PokéPowersを使用できません。",
 			},
 		}],
 

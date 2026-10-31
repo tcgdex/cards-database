@@ -102,19 +102,22 @@ const card: Card = {
 		de: "Schart eine Gruppe Rattfratz um sich. Zwischen den Gruppen, die jeweils ihr eigenes Territorium besitzen, entbrennen oft Kämpfe um Futter."
 	},
 
-	thirdParty: {
-		cardmarket: 299484,
-		tcgplayer: 138570
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299484,
+				tcgplayer: 138570
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299484,
+				tcgplayer: 138570
+			}
+		},
+	],
 }
 
 export default card

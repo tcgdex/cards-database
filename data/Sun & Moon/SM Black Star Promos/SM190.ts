@@ -71,6 +71,7 @@ const card: Card = {
 
 	description: {
 		en: "He was the partner of Tim's father, Harry, who has gone missing. This Pikachu loves the dark coffee at the Hi-Hat Cafe.",
+		de: "Er war der Partner von Tims Vater Harry, der spurlos verschwunden ist. Dieses Pikachu liebt den starken Kaffee im Hi-Hat Café."
 	},
 
 	variants: [

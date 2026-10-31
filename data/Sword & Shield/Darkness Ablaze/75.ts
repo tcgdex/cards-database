@@ -103,7 +103,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	description: {
-		en: "It has tremendous psychic power, but it dislikes conflict. It's also able to predict the future based on the movement of the stars."
+		en: "It has tremendous psychic power, but it dislikes conflict. It's also able to predict the future based on the movement of the stars.",
+		de: "Es liest die Zukunft aus Sternenkonstellationen. Seine Psycho-Kräfte sind gewaltig, aber es ist von Natur aus konfliktscheu."
 	},
 
 	variants: [

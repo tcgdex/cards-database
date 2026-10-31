@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "It pulls large trees up by the roots and swings them around. It causes vegetation to grow, and then it absorbs energy from the growth.",
+		de: "Dieses Pokémon entwurzelt große Bäume und schwingt sie herum. Es lässt Pflanzen üppig gedeihen und absorbiert dann ihre Energie."
 	},
 
 	variants: [

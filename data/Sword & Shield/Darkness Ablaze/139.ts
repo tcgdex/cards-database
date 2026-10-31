@@ -93,7 +93,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Although it has a large body, it is quite skilled at climbing trees. It eats and sleeps in the treetops."
+		en: "Although it has a large body, it is quite skilled at climbing trees. It eats and sleeps in the treetops.",
+		de: "Trotz seines riesigen Körpers ist es ein guter Kletterer. Es frisst und schläft in Baumkronen."
 	},
 
 	variants: [

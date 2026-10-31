@@ -75,19 +75,22 @@ const card: Card = {
 		de: "Der Groll eines verstorbenen Reisenden fuhr in einen Sandhügel, den ein Kind gebaut hatte, und brachte dieses Pokémon in die Welt."
 	},
 
-	thirdParty: {
-		cardmarket: 299465,
-		tcgplayer: 138543
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299465,
+				tcgplayer: 138543
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299465,
+				tcgplayer: 138543
+			}
+		},
+	],
 }
 
 export default card

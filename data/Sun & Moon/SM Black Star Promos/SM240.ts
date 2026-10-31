@@ -38,7 +38,7 @@ const card: Card = {
 			es: "Este ataque hace 30 puntos de daño más por cada uno de tus Pokémon Psychic en Banca.",
 			it: "Questo attacco infligge 30 danni in più per ogni Pokémon Psychic nella tua panchina.",
 			pt: "Este ataque causa 30 pontos de dano a mais para cada Pokémon Psychic no seu Banco.",
-			de: "Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl der Psychic-Pokémon auf deiner Bank zu."
+			de: "Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl der {P}-Pokémon auf deiner Bank zu."
 		},
 
 		cost: ["Psychic", "Colorless", "Colorless"]
@@ -49,7 +49,7 @@ const card: Card = {
 			es: "División Cruzada GX",
 			it: "Distribuzione Incrociata GX",
 			pt: "Divisão Cruzada GX",
-			de: "Kreuzdivision GX"
+			de: "Kreuzdivision-GX"
 		},
 
 		effect: {

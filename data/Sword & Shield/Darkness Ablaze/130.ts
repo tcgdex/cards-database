@@ -97,7 +97,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "At the end of its life-span, Melmetal will rust and fall apart. The small shards left behind will eventually be reborn as Meltan."
+		en: "At the end of its life-span, Melmetal will rust and fall apart. The small shards left behind will eventually be reborn as Meltan.",
+		de: "Geht sein Leben dem Ende zu, rostet sein Körper und fällt auseinander. Kurz darauf erwachen die verbliebenen Fragmente als Meltan zum Leben."
 	},
 
 	variants: [

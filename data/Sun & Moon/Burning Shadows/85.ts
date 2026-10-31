@@ -91,19 +91,22 @@ const card: Card = {
 		de: "Dieses Pokémon hat ein durchtriebenes, grausames Wesen. Es sucht nach unbewachten Nestern und stiehlt die Eier."
 	},
 
-	thirdParty: {
-		cardmarket: 299487,
-		tcgplayer: 138575
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299487,
+				tcgplayer: 138575
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299487,
+				tcgplayer: 138575
+			}
+		},
+	],
 }
 
 export default card

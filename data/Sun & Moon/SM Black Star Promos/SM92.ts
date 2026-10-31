@@ -71,7 +71,7 @@ const card: Card = {
 				es: "Si alguno de tus Pokémon Water fue curado durante este turno, este ataque hace 60 puntos de daño más.",
 				it: "Se uno qualsiasi dei tuoi Pokémon Water è stato curato durante questo turno, questo attacco infligge 60 danni in più.",
 				pt: "Se algum dos seus Pokémon Water forem curados durante esta vez de jogar, este ataque causará 60 pontos de dano a mais.",
-				de: "Wenn mindestens 1 deiner Water Pokémon während dieses Zuges geheilt wurde, fügt diese Attacke 60 Schadenspunkte mehr zu."
+				de: "Wenn mindestens 1 deiner {W} Pokémon während dieses Zuges geheilt wurde, fügt diese Attacke 60 Schadenspunkte mehr zu."
 			},
 			damage: "60+",
 
@@ -91,6 +91,7 @@ const card: Card = {
 
 	description: {
 		en: "The dense fog it creates brings the downfall and destruction of its confused enemies. Ocean currents are the source of its energy.",
+		de: "Es führt Gegner mit dichtem Nebel in die Irre und schickt sie so in ihren Untergang. Seine Energie gewinnt es aus der Meeresströmung."
 	},
 
 	variants: [
