@@ -1,12 +1,14 @@
-import {Card} from "../../../interfaces"
-import Set from "../PMCG4"
+import { Card } from "../../../interfaces";
+import Set from "../PMCG4";
 
 const card: Card = {
 	set: Set,
 	name: {
 		ja: "わるいリザードン",
 	},
-
+	evolveFrom: {
+		ja: "わるいリザード",
+	},
 	illustrator: "Ken Sugimori",
 	rarity: "Holo Rare",
 	category: "Pokemon",
@@ -14,22 +16,29 @@ const card: Card = {
 	hp: 80,
 	types: ["Fire"],
 	stage: "Stage2",
+	level: 38,
+	weight: "90.5 kg",
+
+	description: {
+		ja: "とりつかれたように炎の塊を吐き出して、あらゆるものを焼きつくそうとする。",
+	},
 
 	attacks: [
 		{
 			cost: ["Colorless"],
 			name: {
-				ja: "ネイルフリック",
+				ja: "つめではじく",
 			},
 			damage: 10,
 		},
 		{
 			cost: ["Fire", "Fire"],
 			name: {
-				ja: "連続した火の玉",
+				ja: "れんぞくファイヤーボール",
 			},
+			damage: "50×",
 			effect: {
-				ja: "ダークチャリザードに取り付けられた消防エネルギーカードの数に等しい多数のコインをひっくり返します。この攻撃は、ヘッド数の50回のダメージ時間を実行します。頭の数に等しい暗いリザードに取り付けられた多くの火エネルギーカードを廃棄します。",
+				ja: "このカードについている「炎」エネルギーカードの数だけコインを投げ、「おもて」の数×50のダメージ。その後、「おもて」の数ぶんの「炎」エネルギーカードを、このカードからはがしてトラッシュする。（トラッシュできない時、このワザのダメージは0になる）",
 			},
 		},
 	],
@@ -40,10 +49,24 @@ const card: Card = {
 		{
 			type: "holo",
 			thirdParty: {
-				tcgplayer: 575744
+				tcgplayer: 575744,
 			},
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
 		},
 	],
 };
 
-export default card
+export default card;
