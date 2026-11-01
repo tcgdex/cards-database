@@ -71,31 +71,32 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 275420,
 				tcgplayer: 121772
-			},
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition-error"],
 			thirdParty: {
 				tcgplayer: 88065
-			},
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["pikachu-tail"],
 			thirdParty: {
 				tcgplayer: 161750
-			},
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["grey-star"],
 			thirdParty: {
 				tcgplayer: 696103
-			},
+			}
 		},
-	]
+	],
 }
 
 export default card

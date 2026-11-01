@@ -63,20 +63,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo",
-			foil: "cosmos",
-			thirdParty: {
-				tcgplayer: 85074
-			},
-		},
-		{
 			type: "normal",
 			stamp: ["jr-stamp-rally"],
 			thirdParty: {
 				tcgplayer: 618732
-			},
-		}
-	]
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 85074
+			}
+		},
+	],
 }
 
 export default card
