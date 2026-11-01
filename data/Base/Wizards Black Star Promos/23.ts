@@ -66,14 +66,19 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 275442,
 				tcgplayer: 90713
-			},
+			}
 		},
 		{
 			type: "normal",
-			subtype: "aoki-error"
-		}
-	]
+			subtype: "aoki-error",
+			thirdParty: {
+				cardmarket: 275442,
+				tcgplayer: 90713
+			}
+		},
+	],
 }
 
 export default card

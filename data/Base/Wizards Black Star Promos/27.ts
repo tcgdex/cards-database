@@ -64,18 +64,19 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["pikachu-tail"],
 			thirdParty: {
-				tcgplayer: 161747
-			},
+				cardmarket: 275446,
+				tcgplayer: 88069
+			}
 		},
 		{
 			type: "normal",
+			stamp: ["pikachu-tail"],
 			thirdParty: {
-				tcgplayer: 88069
-			},
-		}
-	]
+				tcgplayer: 161747
+			}
+		},
+	],
 }
 
 export default card
