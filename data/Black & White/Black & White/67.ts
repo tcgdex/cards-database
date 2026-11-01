@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Verbirgt seine Aura und nähert sich seinem Gegner völlig unbemerkt von hinten, um ihm den Garaus zu machen."
 	},
 
-	thirdParty: {
-		cardmarket: 279805,
-		tcgplayer: 86725
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279805,
+				tcgplayer: 86725
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279805,
+				tcgplayer: 86725
+			}
+		},
+	],
 }
 
 export default card

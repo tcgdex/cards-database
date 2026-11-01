@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Schüchtert Gegner allein durch seinen Ruf ein. Ein Teil der Panzerung an seinen Vorderbeinen dient ihm als Langschwert."
 	},
 
-	thirdParty: {
-		cardmarket: 279769,
-		tcgplayer: 88908
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 279770,
+				tcgplayer: 88908
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279770,
+				tcgplayer: 88908
+			}
+		},
+	],
 }
 
 export default card

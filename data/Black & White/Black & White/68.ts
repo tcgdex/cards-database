@@ -65,10 +65,22 @@ const card: Card = {
 		de: "Es zieht seine gummiartige Haut bis zum Hals hinauf und nimmt eine Abwehrhaltung ein, um sich vor Schaden zu schützen."
 	},
 
-	thirdParty: {
-		cardmarket: 279806,
-		tcgplayer: 88981
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279806,
+				tcgplayer: 88981
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279806,
+				tcgplayer: 88981
+			}
+		},
+	],
 }
 
 export default card

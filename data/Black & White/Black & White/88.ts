@@ -62,10 +62,22 @@ const card: Card = {
 		de: "Sie sorgen dafür, dass ihre Schweife stets schön sauber sind, da sie diese zur Begrüßung aneinanderreiben."
 	},
 
-	thirdParty: {
-		cardmarket: 279826,
-		tcgplayer: 87473
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279826,
+				tcgplayer: 87473
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279826,
+				tcgplayer: 87473
+			}
+		},
+	],
 }
 
 export default card
