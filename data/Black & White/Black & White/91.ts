@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Sein zotteliges Fell fängt selbst nach einer seiner wuchtigen Rempelattacken einiges an Schaden ab."
 	},
 
-	thirdParty: {
-		cardmarket: 279828,
-		tcgplayer: 83943
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279829,
+				tcgplayer: 83943
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279829,
+				tcgplayer: 83943
+			}
+		},
+	],
 }
 
 export default card

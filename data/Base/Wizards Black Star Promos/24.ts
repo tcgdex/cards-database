@@ -66,16 +66,16 @@ const card: Card = {
 			stamp: ["pikachu-tail"],
 			thirdParty: {
 				tcgplayer: 159115
-			},
+			}
 		},
 		{
 			type: "holo",
 			foil: "cosmos",
 			thirdParty: {
 				tcgplayer: 90784
-			},
-		}
-	]
+			}
+		},
+	],
 }
 
 export default card
