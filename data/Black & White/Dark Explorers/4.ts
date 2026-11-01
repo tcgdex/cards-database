@@ -74,28 +74,28 @@ const card: Card = {
 		},
 		{
 			type: 'holo',
-			stamp: ['1st-place. poke-ball-league'],
+			stamp: ['1st-place', 'poke-ball-league'],
 			thirdParty: {
 				cardmarket: 450328
 			}
 		},
 		{
 			type: 'holo',
-			stamp: ['2nd-place. poke-ball-league'],
+			stamp: ['2nd-place', 'poke-ball-league'],
 			thirdParty: {
 				cardmarket: 450333
 			}
 		},
 		{
 			type: 'holo',
-			stamp: ['3rd-place. poke-ball-league'],
+			stamp: ['3rd-place', 'poke-ball-league'],
 			thirdParty: {
 				cardmarket: 450338
 			}
 		},
 		{
 			type: 'holo',
-			stamp: ['4th-place. poke-ball-league'],
+			stamp: ['4th-place', 'poke-ball-league'],
 			thirdParty: {
 				cardmarket: 450343
 			}
