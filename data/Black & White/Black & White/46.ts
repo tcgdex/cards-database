@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Lässt seine Beute in elektrisch geladene Fäden tappen. Solang diese durch den Schock gelähmt ist, labt es sich an ihr."
 	},
 
-	thirdParty: {
-		cardmarket: 279784,
-		tcgplayer: 85610
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279784,
+				tcgplayer: 85610
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279784,
+				tcgplayer: 85610
+			}
+		},
+	],
 }
 
 export default card

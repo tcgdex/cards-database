@@ -72,10 +72,22 @@ const card: Card = {
 		de: "Hortet in seinen Backentaschen Futter, um tagelang Wache stehen zu können, und gibt Kameraden über seine Rute Signale."
 	},
 
-	thirdParty: {
-		cardmarket: 279815,
-		tcgplayer: 87961
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279815,
+				tcgplayer: 87961
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279815,
+				tcgplayer: 87961
+			}
+		},
+	],
 }
 
 export default card

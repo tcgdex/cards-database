@@ -75,10 +75,29 @@ const card: Card = {
 		de: "Das lange Fell um sein Gesicht fungiert als Hightech-Radar, mit dem es fein säuberlich seine Umgebung abtastet."
 	},
 
-	thirdParty: {
-		cardmarket: 279818,
-		tcgplayer: 86798
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279819,
+				tcgplayer: 86798
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['player-rewards-program'],
+			thirdParty: {
+				cardmarket: 371575
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279819,
+				tcgplayer: 86798
+			}
+		},
+	],
 }
 
 export default card

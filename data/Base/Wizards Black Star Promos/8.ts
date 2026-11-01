@@ -75,17 +75,19 @@ const card: Card = {
 		{
 			type: "normal",
 			thirdParty: {
+				cardmarket: 275427,
 				tcgplayer: 87394
-			},
-		}, 
+			}
+		},
 		{
 			type: "normal",
 			subtype: "glossy",
 			thirdParty: {
+				cardmarket: 275427,
 				tcgplayer: 607818
-			},
+			}
 		},
-	]
+	],
 }
 
 export default card

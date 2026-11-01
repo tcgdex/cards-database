@@ -72,10 +72,22 @@ const card: Card = {
 		de: "Am Fuß von Bergen, wo Karadonis trainiert, ertönt das Echo von Fäusten, die gegen Felsen und Bäume schlagen."
 	},
 
-	thirdParty: {
-		cardmarket: 279800,
-		tcgplayer: 88937
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279800,
+				tcgplayer: 88937
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279800,
+				tcgplayer: 88937
+			}
+		},
+	],
 }
 
 export default card

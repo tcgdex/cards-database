@@ -62,10 +62,22 @@ const card: Card = {
 		de: "Früher nutzte man die heißen Ausscheidungen von Flampion, um sich den Körper zu wärmen."
 	},
 
-	thirdParty: {
-		cardmarket: 279761,
-		tcgplayer: 84717
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279761,
+				tcgplayer: 84717
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279761,
+				tcgplayer: 84717
+			}
+		},
+	],
 }
 
 export default card

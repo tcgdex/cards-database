@@ -88,10 +88,29 @@ const card: Card = {
 		de: "Schwächt man es im Kampf, wird es reglos wie ein Stein und horcht in sich hinein, um mit der Kraft seines Geistes zu kämpfen."
 	},
 
-	thirdParty: {
-		cardmarket: 279763,
-		tcgplayer: 84713
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279763,
+				tcgplayer: 84713
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['set-logo'],
+			thirdParty: {
+				cardmarket: 576682
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279763,
+				tcgplayer: 84713
+			}
+		},
+	],
 }
 
 export default card

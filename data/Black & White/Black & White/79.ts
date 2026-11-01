@@ -86,10 +86,29 @@ const card: Card = {
 		de: "Schüchtert Gegner ein, indem es die Maserung seines Fells aufblitzen lässt. Auch im Dunkeln entgeht ihm nichts."
 	},
 
-	thirdParty: {
-		cardmarket: 279817,
-		tcgplayer: 90495
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279817,
+				tcgplayer: 90495
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['player-rewards-program'],
+			thirdParty: {
+				cardmarket: 371584
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279817,
+				tcgplayer: 90495
+			}
+		},
+	],
 }
 
 export default card

@@ -58,6 +58,11 @@ const card: Card = {
 	retreat: 2,
 
 
+
+	description: {
+		en: "Its body always burns with an orange glow that enables it to hide perfectly among flames.",
+	},
+
 	variants: [
 		{
 			type: "normal",
@@ -65,12 +70,8 @@ const card: Card = {
 				cardmarket: 275463,
 				tcgplayer: 87043
 			}
-		}
+		},
 	],
-
-	description: {
-		en: "Its body always burns with an orange glow that enables it to hide perfectly among flames.",
-	},
 }
 
 export default card

@@ -106,8 +106,8 @@ const card: Card = {
 				cardmarket: 274059,
 				tcgplayer: 84588
 			}
-		}
-	]
+		},
+	],
 }
 
 export default card
