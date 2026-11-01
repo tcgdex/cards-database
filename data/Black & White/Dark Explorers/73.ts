@@ -69,10 +69,22 @@ const card: Card = {
 		de: "Seine Flügel sind noch zu klein zum Fliegen. Kurz bevor es sich entwickelt, wirft es seine Schädelwindel ab."
 	},
 
-	thirdParty: {
-		cardmarket: 280401,
-		tcgplayer: 90430
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280401,
+				tcgplayer: 90430
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280401,
+				tcgplayer: 90430
+			}
+		},
+	],
 }
 
 export default card

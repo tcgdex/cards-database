@@ -87,10 +87,29 @@ const card: Card = {
 		de: "Bringt man es aus der Ruhe, verwendet es Elektrizität, um kleine Knäuel seines Fells abzufeuern."
 	},
 
-	thirdParty: {
-		cardmarket: 280365,
-		tcgplayer: 86347
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280365,
+				tcgplayer: 86347
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['regional-championships'],
+			thirdParty: {
+				cardmarket: 449643
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280365,
+				tcgplayer: 86347
+			}
+		},
+	],
 }
 
 export default card

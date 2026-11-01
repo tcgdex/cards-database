@@ -77,10 +77,22 @@ const card: Card = {
 		de: "Ein mysteriöses Pokémon, das sich entwickelt, wenn es zusammen mit Schnuthelm einen Stromschlag abbekommt."
 	},
 
-	thirdParty: {
-		cardmarket: 280337,
-		tcgplayer: 86426
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280337,
+				tcgplayer: 86426
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280337,
+				tcgplayer: 86426
+			}
+		},
+	],
 }
 
 export default card

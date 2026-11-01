@@ -84,10 +84,22 @@ const card: Card = {
 		de: "Es ist hart genug im Nehmen, um misamt seines schweren Felsens mehrere Tage durch trockene Gebiete zu wandern."
 	},
 
-	thirdParty: {
-		cardmarket: 280336,
-		tcgplayer: 84509
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280336,
+				tcgplayer: 84509
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280336,
+				tcgplayer: 84509
+			}
+		},
+	],
 }
 
 export default card

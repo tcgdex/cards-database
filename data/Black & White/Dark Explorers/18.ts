@@ -77,10 +77,22 @@ const card: Card = {
 		de: "In seinem Panzer verbrennt es Kohle und gewinnt daraus Energie. Bei Gefahr sondert es Ruß ab."
 	},
 
-	thirdParty: {
-		cardmarket: 280346,
-		tcgplayer: 89973
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280346,
+				tcgplayer: 89973
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280346,
+				tcgplayer: 89973
+			}
+		},
+	],
 }
 
 export default card

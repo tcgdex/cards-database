@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Es feuert Freunde mit Pompons an, die aus Funken bestehen. Es holt sich Energie aus Telegrafenmasten."
 	},
 
-	thirdParty: {
-		cardmarket: 280367,
-		tcgplayer: 88173
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280367,
+				tcgplayer: 88173
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280367,
+				tcgplayer: 88173
+			}
+		},
+	],
 }
 
 export default card

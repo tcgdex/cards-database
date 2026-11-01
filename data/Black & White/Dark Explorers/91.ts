@@ -29,10 +29,22 @@ const card: Card = {
 		de: "Ziehe 3 Karten. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
-	thirdParty: {
-		cardmarket: 280419,
-		tcgplayer: 84249
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280419,
+				tcgplayer: 84249
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280419,
+				tcgplayer: 84249
+			}
+		},
+	],
 }
 
 export default card

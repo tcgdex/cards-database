@@ -26,10 +26,22 @@ const card: Card = {
 		de: "Einmal während seines Zuges darf jeder Spieler 1 Münze werfen. Bei „Kopf“ legt der Spieler 1 Erweckt-Pokémon von seiner Hand auf seine Bank. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
-	thirdParty: {
-		cardmarket: 280429,
-		tcgplayer: 90087
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280429,
+				tcgplayer: 90087
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280429,
+				tcgplayer: 90087
+			}
+		},
+	],
 }
 
 export default card

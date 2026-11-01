@@ -73,10 +73,22 @@ const card: Card = {
 		de: "Höhlt sich einen brauchbaren Stein aus, um darin zu wohnen. Geht er zu Bruch, ruht es nicht, bis es einen neuen findet."
 	},
 
-	thirdParty: {
-		cardmarket: 280335,
-		tcgplayer: 85062
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280335,
+				tcgplayer: 85062
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280335,
+				tcgplayer: 85062
+			}
+		},
+	],
 }
 
 export default card

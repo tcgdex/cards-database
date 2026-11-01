@@ -100,10 +100,22 @@ const card: Card = {
 		de: "Nach einem Regentag riecht die Blume auf seinem Rücken intensiver. Das Aroma zieht andere Pokémon an."
 	},
 
-	thirdParty: {
-		cardmarket: 280331,
-		tcgplayer: 90322
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280331,
+				tcgplayer: 90322
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280331,
+				tcgplayer: 90322
+			}
+		},
+	],
 }
 
 export default card

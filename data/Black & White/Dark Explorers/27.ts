@@ -62,10 +62,22 @@ const card: Card = {
 		de: "Es fällt leider oft hin. Allerdings ist es sehr stolz und so rappelt es sich immer wieder ohne Sorge auf."
 	},
 
-	thirdParty: {
-		cardmarket: 280355,
-		tcgplayer: 88152
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280355,
+				tcgplayer: 88152
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280355,
+				tcgplayer: 88152
+			}
+		},
+	],
 }
 
 export default card

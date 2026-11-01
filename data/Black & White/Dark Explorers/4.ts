@@ -64,10 +64,50 @@ const card: Card = {
 		de: "Die scharfen Sensen an den Unterarmen werden durch das Schneiden harter Objekte noch schärfer."
 	},
 
-	thirdParty: {
-		cardmarket: 280332,
-		tcgplayer: 89005
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280332,
+				tcgplayer: 89005
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['1st-place', 'poke-ball-league'],
+			thirdParty: {
+				cardmarket: 450328
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['2nd-place', 'poke-ball-league'],
+			thirdParty: {
+				cardmarket: 450333
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['3rd-place', 'poke-ball-league'],
+			thirdParty: {
+				cardmarket: 450338
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['4th-place', 'poke-ball-league'],
+			thirdParty: {
+				cardmarket: 450343
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280332,
+				tcgplayer: 89005
+			}
+		},
+	],
 }
 
 export default card

@@ -81,10 +81,22 @@ const card: Card = {
 		de: "Das dunkle Fell, das es wie ein Mantel umgibt, ist äußerst widerstandsfähig und mindert den Schaden durch Attacken."
 	},
 
-	thirdParty: {
-		cardmarket: 280415,
-		tcgplayer: 86070
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280415,
+				tcgplayer: 86070
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280415,
+				tcgplayer: 86070
+			}
+		},
+	],
 }
 
 export default card

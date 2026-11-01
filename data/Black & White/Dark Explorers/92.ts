@@ -26,10 +26,22 @@ const card: Card = {
 		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn diese Karte an ein {D}-Pokémon angelegt ist, fügen alle Angriffe dieses Pokémon den Aktiven Pokémon 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden). Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
-	thirdParty: {
-		cardmarket: 280420,
-		tcgplayer: 84575
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280420,
+				tcgplayer: 84575
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280420,
+				tcgplayer: 84575
+			}
+		},
+	],
 }
 
 export default card

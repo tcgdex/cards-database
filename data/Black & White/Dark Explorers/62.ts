@@ -71,10 +71,22 @@ const card: Card = {
 		de: "Es versteckt sich im Dunkeln von Höhlen. Seine Augen sind Edelsteine."
 	},
 
-	thirdParty: {
-		cardmarket: 280390,
-		tcgplayer: 88855
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280390,
+				tcgplayer: 88855
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280390,
+				tcgplayer: 88855
+			}
+		},
+	],
 }
 
 export default card
