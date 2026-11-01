@@ -75,10 +75,22 @@ const card: Card = {
 		de: "Es verfügt über mächtige Psycho-Kräfte, mit denen es die Hirne seiner Gegner verwirrt, um ihnen Kopfweh zu bereiten."
 	},
 
-	thirdParty: {
-		cardmarket: 280177,
-		tcgplayer: 85176
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280178,
+				tcgplayer: 85176
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280178,
+				tcgplayer: 85176
+			}
+		},
+	],
 }
 
 export default card

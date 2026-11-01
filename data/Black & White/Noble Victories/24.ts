@@ -84,10 +84,22 @@ const card: Card = {
 		de: "Wenn es die Beulen an seinen Fäusten zum Schwingen bringt, kann es doppelt so fest zuschlagen und Felsen zertrümmern."
 	},
 
-	thirdParty: {
-		cardmarket: 280147,
-		tcgplayer: 89057
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280147,
+				tcgplayer: 89057
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280147,
+				tcgplayer: 89057
+			}
+		},
+	],
 }
 
 export default card

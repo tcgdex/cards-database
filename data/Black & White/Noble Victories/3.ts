@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Findet es ein junges Pokémon, kann es nicht anders, als ihm mit seinen Scheren und Klebefäden ein Kleidchen zu nähen."
 	},
 
-	thirdParty: {
-		cardmarket: 280126,
-		tcgplayer: 86687
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280126,
+				tcgplayer: 86687
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280126,
+				tcgplayer: 86687
+			}
+		},
+	],
 }
 
 export default card

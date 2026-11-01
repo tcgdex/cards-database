@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Besitzt die Fähigkeit, die Säulen, die es als Gehstöcke verwendet, ganz ohne Krafteinsatz umherzuschwingen."
 	},
 
-	thirdParty: {
-		cardmarket: 280187,
-		tcgplayer: 84419
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280188,
+				tcgplayer: 84419
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280188,
+				tcgplayer: 84419
+			}
+		},
+	],
 }
 
 export default card

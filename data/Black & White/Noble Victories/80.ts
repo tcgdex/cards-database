@@ -95,10 +95,29 @@ const card: Card = {
 		de: "Es ist bei der Entwicklung in die Muschel eines Schnuthelm geschlüpft. Die Eisenrüstung schützt seinen ganzen Körper."
 	},
 
-	thirdParty: {
-		cardmarket: 280203,
-		tcgplayer: 85313
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280203,
+				tcgplayer: 85313
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['regional-championships'],
+			thirdParty: {
+				cardmarket: 449488
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280203,
+				tcgplayer: 85313
+			}
+		},
+	],
 }
 
 export default card

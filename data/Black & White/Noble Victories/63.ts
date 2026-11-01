@@ -84,10 +84,22 @@ const card: Card = {
 		de: "Selbst wenn es mit voller Wucht von einem Profi-Ringer angegriffen wird, lässt es dies dank seines Muskeltrainings kalt."
 	},
 
-	thirdParty: {
-		cardmarket: 280186,
-		tcgplayer: 85981
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280186,
+				tcgplayer: 85981
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280186,
+				tcgplayer: 85981
+			}
+		},
+	],
 }
 
 export default card

@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Es saugt die Seelen seiner Opfer aus und verbrennt sie. Nutzt seine Arme als Pendel, um den Gegner zu hypnotisieren."
 	},
 
-	thirdParty: {
-		cardmarket: 280183,
-		tcgplayer: 84164
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280183,
+				tcgplayer: 84164
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280183,
+				tcgplayer: 84164
+			}
+		},
+	],
 }
 
 export default card

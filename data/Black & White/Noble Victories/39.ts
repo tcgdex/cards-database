@@ -58,10 +58,22 @@ const card: Card = {
 		de: "Allein erzeugt es nur wenig Strom, doch tritt es geschlossen im Schwarm auf, gleicht seine Kraft der eines Blitzes."
 	},
 
-	thirdParty: {
-		cardmarket: 280161,
-		tcgplayer: 90094
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280162,
+				tcgplayer: 90094
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280162,
+				tcgplayer: 90094
+			}
+		},
+	],
 }
 
 export default card

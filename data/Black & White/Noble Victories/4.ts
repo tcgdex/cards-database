@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Da es nährstoffreiche Erde bevorzugt, kann man in Gebieten, in denen es lebt, für gewöhnlich reiche Ernten erwarten."
 	},
 
-	thirdParty: {
-		cardmarket: 280127,
-		tcgplayer: 87992
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280127,
+				tcgplayer: 87992
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280127,
+				tcgplayer: 87992
+			}
+		},
+	],
 }
 
 export default card

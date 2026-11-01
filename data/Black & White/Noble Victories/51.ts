@@ -64,10 +64,22 @@ const card: Card = {
 		de: "Wegen seines gespaltenen Denkapparates kann es vorkommen, dass es sich abrupt einer anderen Tätigkeit zuwendet."
 	},
 
-	thirdParty: {
-		cardmarket: 280174,
-		tcgplayer: 85017
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280174,
+				tcgplayer: 85017
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280174,
+				tcgplayer: 85017
+			}
+		},
+	],
 }
 
 export default card

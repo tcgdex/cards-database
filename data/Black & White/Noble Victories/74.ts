@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Da an Orten, wo es sich blicken lässt, mit reicher Ernte zu rechnen ist, nennt man es auch den „Herrn des Ackerbaus“."
 	},
 
-	thirdParty: {
-		cardmarket: 280197,
-		tcgplayer: 86591
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280197,
+				tcgplayer: 86591
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280197,
+				tcgplayer: 86591
+			}
+		},
+	],
 }
 
 export default card

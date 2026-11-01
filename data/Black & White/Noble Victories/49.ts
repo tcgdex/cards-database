@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Es verschlingt Abfall und macht ihn zu einem Teil seines Körpers. Mit seinen rechten Fingerspitzen versprüht es Gift."
 	},
 
-	thirdParty: {
-		cardmarket: 280172,
-		tcgplayer: 85615
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280172,
+				tcgplayer: 85615
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280172,
+				tcgplayer: 85615
+			}
+		},
+	],
 }
 
 export default card

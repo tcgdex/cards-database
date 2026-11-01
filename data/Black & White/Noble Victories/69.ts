@@ -72,10 +72,22 @@ const card: Card = {
 		de: "Es deckt seine Gegner mit filigranen Attacken in Serie ein und schlitzt sie mit seinen spitzen Klauen auf."
 	},
 
-	thirdParty: {
-		cardmarket: 280192,
-		tcgplayer: 87436
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280192,
+				tcgplayer: 87436
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280192,
+				tcgplayer: 87436
+			}
+		},
+	],
 }
 
 export default card

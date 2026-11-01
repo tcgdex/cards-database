@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Es entfacht eine Flamme, die von der Lebensenergie eines Menschen oder eines Pokémon zehrt."
 	},
 
-	thirdParty: {
-		cardmarket: 280180,
-		tcgplayer: 86808
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280180,
+				tcgplayer: 86808
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280180,
+				tcgplayer: 86808
+			}
+		},
+	],
 }
 
 export default card

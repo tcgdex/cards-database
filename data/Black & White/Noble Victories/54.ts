@@ -74,10 +74,22 @@ const card: Card = {
 		de: "Bevor es vor 50 Jahren urplötzlich aus den Tiefen der Wüste erschien, hatte es kein Mensch je zuvor gesehen."
 	},
 
-	thirdParty: {
-		cardmarket: 280177,
-		tcgplayer: 85175
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280177,
+				tcgplayer: 85175
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280177,
+				tcgplayer: 85175
+			}
+		},
+	],
 }
 
 export default card

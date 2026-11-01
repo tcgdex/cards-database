@@ -81,10 +81,22 @@ const card: Card = {
 		de: "Hat eine eher sanfte Natur, doch bei Eindringlingen kennt es keine Gnade. Seine Stoßzähne durchbohren sogar Eisen."
 	},
 
-	thirdParty: {
-		cardmarket: 280211,
-		tcgplayer: 86032
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280211,
+				tcgplayer: 86032
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280211,
+				tcgplayer: 86032
+			}
+		},
+	],
 }
 
 export default card

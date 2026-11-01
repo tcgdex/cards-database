@@ -93,10 +93,22 @@ const card: Card = {
 		de: "Man nimmt an, dass es der Menschheit vor ca. 2 000 Jahren das Betonmischen beigebracht hat."
 	},
 
-	thirdParty: {
-		cardmarket: 280187,
-		tcgplayer: 84418
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280187,
+				tcgplayer: 84418
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280187,
+				tcgplayer: 84418
+			}
+		},
+	],
 }
 
 export default card

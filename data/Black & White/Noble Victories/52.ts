@@ -84,10 +84,22 @@ const card: Card = {
 		de: "Schütteln sich zwei von ihnen die Hände, bilden ihre Denkapparate ein Netzwerk und ihre Psycho-Kräfte werden stärker."
 	},
 
-	thirdParty: {
-		cardmarket: 280175,
-		tcgplayer: 88720
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280175,
+				tcgplayer: 88720
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280175,
+				tcgplayer: 88720
+			}
+		},
+	],
 }
 
 export default card

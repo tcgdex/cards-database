@@ -79,10 +79,29 @@ const card: Card = {
 		de: "Fühlt es sich bedroht, wehrt es sich, indem es ätzende Flüssigkeit speit. Hat es auf Schnuthelm abgesehen."
 	},
 
-	thirdParty: {
-		cardmarket: 280131,
-		tcgplayer: 86425
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280131,
+				tcgplayer: 86425
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['regional-championships'],
+			thirdParty: {
+				cardmarket: 449653
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280131,
+				tcgplayer: 86425
+			}
+		},
+	],
 }
 
 export default card

@@ -91,10 +91,22 @@ const card: Card = {
 		de: "Es tarnt sich als prächtiger Sarkophag und zieht Grabräubern die Ohren lang. Sein Körper ist mit Gold überzogen."
 	},
 
-	thirdParty: {
-		cardmarket: 280169,
-		tcgplayer: 84385
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280170,
+				tcgplayer: 84385
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280170,
+				tcgplayer: 84385
+			}
+		},
+	],
 }
 
 export default card

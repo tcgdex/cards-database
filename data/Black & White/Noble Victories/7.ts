@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Revierkonflikte führen oft zu heftigen Kämpfen zwischen ihnen. Gewonnen hat, wer das gegnerische Haus zerstört."
 	},
 
-	thirdParty: {
-		cardmarket: 280130,
-		tcgplayer: 84508
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280130,
+				tcgplayer: 84508
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280130,
+				tcgplayer: 84508
+			}
+		},
+	],
 }
 
 export default card
