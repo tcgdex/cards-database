@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Zu Trainingszwecken trägt es immer einen Stahlträger bei sich. Unter Kollegen gibt es nur zu gern mit seinen Muskeln an."
 	},
 
-	thirdParty: {
-		cardmarket: 279798,
-		tcgplayer: 85980
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279798,
+				tcgplayer: 85980
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279798,
+				tcgplayer: 85980
+			}
+		},
+	],
 }
 
 export default card

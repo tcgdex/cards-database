@@ -62,10 +62,22 @@ const card: Card = {
 		de: "Sie sind von Natur aus vorsichtig und bewachen in Schichten ihren Bau. Hält niemand Wache, werden sie unruhig."
 	},
 
-	thirdParty: {
-		cardmarket: 279815,
-		tcgplayer: 87962
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279816,
+				tcgplayer: 87962
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279816,
+				tcgplayer: 87962
+			}
+		},
+	],
 }
 
 export default card

@@ -93,10 +93,22 @@ const card: Card = {
 		de: "Der Duft des Blumenschmucks auf seinem Kopf wirkt beruhigend. Damit der Schmuck nicht verwelkt, muss man es gut pflegen."
 	},
 
-	thirdParty: {
-		cardmarket: 279748,
-		tcgplayer: 86792
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279748,
+				tcgplayer: 86792
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279748,
+				tcgplayer: 86792
+			}
+		},
+	],
 }
 
 export default card

@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Weicht flink gegnerischen Angriffen aus und schießt Flammen aus dem Rüssel, mit denen es gern auch mal Nüsse röstet."
 	},
 
-	thirdParty: {
-		cardmarket: 279753,
-		tcgplayer: 89880
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279754,
+				tcgplayer: 89880
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279754,
+				tcgplayer: 89880
+			}
+		},
+	],
 }
 
 export default card

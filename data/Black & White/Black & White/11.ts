@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Verjagt Vogel-Pokémon, die auf seine Blüten aus sind, mit einem flotten Tänzchen und lauter Untermalung."
 	},
 
-	thirdParty: {
-		cardmarket: 279749,
-		tcgplayer: 87187
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279749,
+				tcgplayer: 87187
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279749,
+				tcgplayer: 87187
+			}
+		},
+	],
 }
 
 export default card

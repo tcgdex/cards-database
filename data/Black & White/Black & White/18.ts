@@ -84,10 +84,22 @@ const card: Card = {
 		de: "Lodert das Feuer in ihm auf, bewegt es sich geschmeidiger und schneller. Bei Gefahr lässt es ordentlich Dampf ab."
 	},
 
-	thirdParty: {
-		cardmarket: 279755,
-		tcgplayer: 88061
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279756,
+				tcgplayer: 88061
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279756,
+				tcgplayer: 88061
+			}
+		},
+	],
 }
 
 export default card
