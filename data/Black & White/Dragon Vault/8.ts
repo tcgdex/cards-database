@@ -77,10 +77,22 @@ const card: Card = {
 		en: "As a result of its long-held dream of flying, its cellular structure changed, and wings grew out.",
 	},
 
-	thirdParty: {
-		cardmarket: 281008,
-		tcgplayer: 88900
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281008,
+				tcgplayer: 88900
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['regional-championships'],
+			thirdParty: {
+				cardmarket: 450323
+			}
+		},
+	],
 }
 
 export default card
