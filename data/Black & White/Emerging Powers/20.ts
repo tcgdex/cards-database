@@ -73,10 +73,22 @@ const card: Card = {
 		de: "Solang das Feuer in ihm brennt, rennt es rastlos durch die Gegend. Geht ihm das Brennmaterial aus, wird es schläfrig."
 	},
 
-	thirdParty: {
-		cardmarket: 279985,
-		tcgplayer: 84719
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279985,
+				tcgplayer: 84719
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279985,
+				tcgplayer: 84719
+			}
+		},
+	],
 }
 
 export default card

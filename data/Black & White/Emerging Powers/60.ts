@@ -59,10 +59,22 @@ const card: Card = {
 		de: "Es lebt im Wüstensand. Der durch die Sonne erhitzte Sand gewährleistet, dass es immer schön warm eingepackt ist."
 	},
 
-	thirdParty: {
-		cardmarket: 280025,
-		tcgplayer: 88914
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280025,
+				tcgplayer: 88914
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280025,
+				tcgplayer: 88914
+			}
+		},
+	],
 }
 
 export default card

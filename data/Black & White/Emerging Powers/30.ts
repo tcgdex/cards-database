@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Kann seinen eigenen Atem zum Gefrieren bringen. Es schwimmt auf der Suche nach Beute die nördlichen Meere ab."
 	},
 
-	thirdParty: {
-		cardmarket: 279995,
-		tcgplayer: 83751
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 279995,
+				tcgplayer: 83751
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279995,
+				tcgplayer: 83751
+			}
+		},
+	],
 }
 
 export default card

@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Wohnt in dunklen Wäldern und Höhlen. Es sendet Ultraschallwellen mit seiner Nase aus, um die Gegend abzutasten."
 	},
 
-	thirdParty: {
-		cardmarket: 280001,
-		tcgplayer: 90625
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280001,
+				tcgplayer: 90625
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280001,
+				tcgplayer: 90625
+			}
+		},
+	],
 }
 
 export default card

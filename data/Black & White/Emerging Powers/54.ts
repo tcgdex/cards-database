@@ -81,10 +81,22 @@ const card: Card = {
 		de: "Es gräbt sich mit 50 km/h durch das Erdreich und kann beinahe schon mit den Autos an der Oberfläche Schritt halten."
 	},
 
-	thirdParty: {
-		cardmarket: 280019,
-		tcgplayer: 84964
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280019,
+				tcgplayer: 84964
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280019,
+				tcgplayer: 84964
+			}
+		},
+	],
 }
 
 export default card

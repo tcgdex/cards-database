@@ -81,10 +81,22 @@ const card: Card = {
 		de: "Rot gestreifte und blau gestreifte Exemplare kriegen sich sofort in die Haare. Ein äußerst aggressives Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 279989,
-		tcgplayer: 83731
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279989,
+				tcgplayer: 83731
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279989,
+				tcgplayer: 83731
+			}
+		},
+	],
 }
 
 export default card

@@ -93,10 +93,22 @@ const card: Card = {
 		de: "Kommt und geht, wann es will. Sein reizendes Aussehen und Fell ziehen Trainer in Scharen an."
 	},
 
-	thirdParty: {
-		cardmarket: 280030,
-		tcgplayer: 86726
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280030,
+				tcgplayer: 86726
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280030,
+				tcgplayer: 86726
+			}
+		},
+	],
 }
 
 export default card

@@ -95,10 +95,22 @@ const card: Card = {
 		de: "Es beugt seinen langen Hals, um mehrmals in Folge mit seinem Schnabel zu einer gnadenlosen Pick-Attacke anzusetzen."
 	},
 
-	thirdParty: {
-		cardmarket: 279992,
-		tcgplayer: 89685
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279992,
+				tcgplayer: 89685
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279992,
+				tcgplayer: 89685
+			}
+		},
+	],
 }
 
 export default card

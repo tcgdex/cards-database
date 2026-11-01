@@ -89,10 +89,22 @@ const card: Card = {
 		de: "Es kämpfte einst gegen die Menschen, um seine Freunde zu beschützen. Nun erzählt man sich Legenden von ihm."
 	},
 
-	thirdParty: {
-		cardmarket: 279982,
-		tcgplayer: 90387
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 279982,
+				tcgplayer: 90387
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279982,
+				tcgplayer: 90387
+			}
+		},
+	],
 }
 
 export default card

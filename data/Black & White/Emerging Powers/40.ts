@@ -88,10 +88,29 @@ const card: Card = {
 		de: "Holt Gegner flinken Fußes ein und greift sie mit den Hörnern an seinem Kopf an. Gnade ist ihm ein Fremdwort."
 	},
 
-	thirdParty: {
-		cardmarket: 280005,
-		tcgplayer: 88969
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280005,
+				tcgplayer: 88969
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cracked-ice',
+			thirdParty: {
+				cardmarket: 750082
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280005,
+				tcgplayer: 88969
+			}
+		},
+	],
 }
 
 export default card

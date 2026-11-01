@@ -89,10 +89,22 @@ const card: Card = {
 		de: "Ein Legendäres Pokémon, das sich zum Schutz der Pokémon mit den Menschen anlegte. Eine kühle, gelassene Natur."
 	},
 
-	thirdParty: {
-		cardmarket: 280042,
-		tcgplayer: 84377
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280042,
+				tcgplayer: 84377
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280042,
+				tcgplayer: 84377
+			}
+		},
+	],
 }
 
 export default card

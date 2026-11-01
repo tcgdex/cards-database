@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Erinnerungen an seine Tage als Wächter einer uralten Stadt veranlassen es, Tag für Tag dieselbe Route abzufliegen."
 	},
 
-	thirdParty: {
-		cardmarket: 280006,
-		tcgplayer: 89205
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280007,
+				tcgplayer: 89205
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280007,
+				tcgplayer: 89205
+			}
+		},
+	],
 }
 
 export default card

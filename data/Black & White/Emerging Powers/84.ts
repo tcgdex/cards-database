@@ -62,10 +62,22 @@ const card: Card = {
 		de: "Ein Pokémon mit Putzfimmel. Es benutzt seinen Schweif als Staubwedel und fegt seinen Bau, bis alles picobello ist."
 	},
 
-	thirdParty: {
-		cardmarket: 280049,
-		tcgplayer: 87474
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280049,
+				tcgplayer: 87474
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280049,
+				tcgplayer: 87474
+			}
+		},
+	],
 }
 
 export default card

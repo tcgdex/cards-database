@@ -93,10 +93,22 @@ const card: Card = {
 		de: "Es kommt auf Sturmböen geritten und dringt durch kleine Spalten in Häuser ein, um dort Schabernack zu treiben."
 	},
 
-	thirdParty: {
-		cardmarket: 279976,
-		tcgplayer: 90568
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279977,
+				tcgplayer: 90568
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279977,
+				tcgplayer: 90568
+			}
+		},
+	],
 }
 
 export default card

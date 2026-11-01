@@ -78,10 +78,22 @@ const card: Card = {
 		de: "Einst bäumte es sich gegen die Menschen auf, deren Kriege zahllose Pokémon heimatlos gemacht hatten."
 	},
 
-	thirdParty: {
-		cardmarket: 280028,
-		tcgplayer: 89886
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280028,
+				tcgplayer: 89886
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280028,
+				tcgplayer: 89886
+			}
+		},
+	],
 }
 
 export default card

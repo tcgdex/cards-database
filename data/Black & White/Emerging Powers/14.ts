@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Bei Promis ist es sehr beliebt. Auch gestandene Trainer tun sich schwer damit, seine Blüte schön aufblühen zu lassen."
 	},
 
-	thirdParty: {
-		cardmarket: 279979,
-		tcgplayer: 86793
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279979,
+				tcgplayer: 86793
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279979,
+				tcgplayer: 86793
+			}
+		},
+	],
 }
 
 export default card

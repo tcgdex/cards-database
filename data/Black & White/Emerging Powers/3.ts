@@ -74,10 +74,22 @@ const card: Card = {
 		de: "Gleich nach dem Schlüpfen näht Matrifol ihm ein Kleidchen. Wenn es schläft, verbirgt es den Kopf unter einer Haube."
 	},
 
-	thirdParty: {
-		cardmarket: 279968,
-		tcgplayer: 89089
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279968,
+				tcgplayer: 89089
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279968,
+				tcgplayer: 89089
+			}
+		},
+	],
 }
 
 export default card

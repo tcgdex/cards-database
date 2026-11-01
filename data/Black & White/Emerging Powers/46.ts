@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Zieht seine Energie aus dem Sternenlicht. Bei Nacht bringt es Steine zum Schweben und bildet damit Sternzeichen nach."
 	},
 
-	thirdParty: {
-		cardmarket: 280010,
-		tcgplayer: 85856
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280011,
+				tcgplayer: 85856
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280011,
+				tcgplayer: 85856
+			}
+		},
+	],
 }
 
 export default card
