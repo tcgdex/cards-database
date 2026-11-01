@@ -99,10 +99,22 @@ const card: Card = {
 		de: "Hat es seine Beute erblickt, gibt es kein Entrinnen mehr. Sein mächtiger Kiefer knackt selbst Karosserien."
 	},
 
-	thirdParty: {
-		cardmarket: 280027,
-		tcgplayer: 86542
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280027,
+				tcgplayer: 86542
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280027,
+				tcgplayer: 86542
+			}
+		},
+	],
 }
 
 export default card

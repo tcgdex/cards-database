@@ -91,10 +91,22 @@ const card: Card = {
 		de: "Passiert wie ein Luftzug mühelos jeden noch so engen Spalt und hinterlässt dort nichts als ein weißes Fellknäuel."
 	},
 
-	thirdParty: {
-		cardmarket: 279976,
-		tcgplayer: 90567
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279976,
+				tcgplayer: 90567
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279976,
+				tcgplayer: 90567
+			}
+		},
+	],
 }
 
 export default card

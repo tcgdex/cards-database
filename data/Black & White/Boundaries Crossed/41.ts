@@ -85,10 +85,22 @@ const card: Card = {
 		de: "Besiegt Gegner durch einen einzigen Hieb mit der Klinge an seinem Panzer. Ein böser Blick und seine Feinde verstummen."
 	},
 
-	thirdParty: {
-		cardmarket: 280628,
-		tcgplayer: 88910
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280628,
+				tcgplayer: 88910
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280628,
+				tcgplayer: 88910
+			}
+		},
+	],
 }
 
 export default card

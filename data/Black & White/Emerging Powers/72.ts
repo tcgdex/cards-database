@@ -94,10 +94,22 @@ const card: Card = {
 		de: "Es setzt sich an der Decke von Höhlen fest und wirft seine dornengespickten Schlingen auf vorbeigehende Beute ab."
 	},
 
-	thirdParty: {
-		cardmarket: 280037,
-		tcgplayer: 85428
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280037,
+				tcgplayer: 85428
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280037,
+				tcgplayer: 85428
+			}
+		},
+	],
 }
 
 export default card

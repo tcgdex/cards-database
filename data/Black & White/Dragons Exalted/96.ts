@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Seine zwei Köpfe liegen stets im Streit. So wird jede Mahlzeit ein Wettstreit für sie, bei dem sich beide überfressen."
 	},
 
-	thirdParty: {
-		cardmarket: 280534,
-		tcgplayer: 90781
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280535,
+				tcgplayer: 90781
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280535,
+				tcgplayer: 90781
+			}
+		},
+	],
 }
 
 export default card

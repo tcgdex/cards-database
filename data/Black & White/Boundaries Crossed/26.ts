@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Es trägt einen Backenbart aus Feuer und beherrscht Kampftechniken, die ebenso wuchtig wie schnell sind."
 	},
 
-	thirdParty: {
-		cardmarket: 280613,
-		tcgplayer: 85185
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280613,
+				tcgplayer: 85185
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280613,
+				tcgplayer: 85185
+			}
+		},
+	],
 }
 
 export default card

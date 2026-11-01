@@ -73,10 +73,15 @@ const card: Card = {
 		en: "It races through narrow caves, using its sharp claws to catch prey. The skin on its face is harder than a rock.",
 	},
 
-	thirdParty: {
-		cardmarket: 281017,
-		tcgplayer: 84979
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281017,
+				tcgplayer: 84979
+			}
+		},
+	],
 }
 
 export default card

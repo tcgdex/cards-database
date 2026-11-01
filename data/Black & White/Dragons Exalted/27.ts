@@ -61,10 +61,22 @@ const card: Card = {
 		de: "Ein schäbiges, ja sogar hässliches Pokémon. Dafür ist es abgehärtet und überlebt mit wenig Wasser."
 	},
 
-	thirdParty: {
-		cardmarket: 280466,
-		tcgplayer: 85406
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280466,
+				tcgplayer: 85406
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280466,
+				tcgplayer: 85406
+			}
+		},
+	],
 }
 
 export default card

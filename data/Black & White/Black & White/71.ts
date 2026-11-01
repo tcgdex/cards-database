@@ -91,10 +91,22 @@ const card: Card = {
 		de: "Kann auf einen Schlag große Massen von Menschen täuschen. Es kreiert Illusionen, um sein Revier zu schützen."
 	},
 
-	thirdParty: {
-		cardmarket: 279809,
-		tcgplayer: 90749
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 279809,
+				tcgplayer: 90749
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279809,
+				tcgplayer: 90749
+			}
+		},
+	],
 }
 
 export default card

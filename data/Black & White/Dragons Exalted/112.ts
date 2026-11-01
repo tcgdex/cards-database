@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Für Freunde stürzt es sich selbstlos in den Kampf. Es kann mit seinen Krallen Autos durch die Lüfte tragen."
 	},
 
-	thirdParty: {
-		cardmarket: 280551,
-		tcgplayer: 83951
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280551,
+				tcgplayer: 83951
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280551,
+				tcgplayer: 83951
+			}
+		},
+	],
 }
 
 export default card

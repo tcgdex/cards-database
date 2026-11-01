@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Die schleifenförmigen Fühler erhöhen seine Psycho-Kräfte. Es scheint stets irgendetwas anzustarren."
 	},
 
-	thirdParty: {
-		cardmarket: 280008,
-		tcgplayer: 85845
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280008,
+				tcgplayer: 85845
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280008,
+				tcgplayer: 85845
+			}
+		},
+	],
 }
 
 export default card

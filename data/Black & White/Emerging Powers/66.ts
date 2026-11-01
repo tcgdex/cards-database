@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Es übertölpelt andere, indem es verschiedene Gestalten annimmt. Angeblich tarnt es sich oft als wortkarges Kind."
 	},
 
-	thirdParty: {
-		cardmarket: 280031,
-		tcgplayer: 90759
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280031,
+				tcgplayer: 90759
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280031,
+				tcgplayer: 90759
+			}
+		},
+	],
 }
 
 export default card

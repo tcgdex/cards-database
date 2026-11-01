@@ -72,10 +72,15 @@ const card: Card = {
 		en: "It can produce ultracold air. Its body is frozen.",
 	},
 
-	thirdParty: {
-		cardmarket: 281021,
-		tcgplayer: 86563
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281021,
+				tcgplayer: 86563
+			}
+		},
+	],
 }
 
 export default card

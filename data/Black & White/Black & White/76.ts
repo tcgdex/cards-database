@@ -99,10 +99,22 @@ const card: Card = {
 		de: "Der rote Zentralbestandteil dient als Energiespeicher. Darin geladene Energie feuert es über seine Stacheln ab."
 	},
 
-	thirdParty: {
-		cardmarket: 279814,
-		tcgplayer: 86485
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 279814,
+				tcgplayer: 86485
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279814,
+				tcgplayer: 86485
+			}
+		},
+	],
 }
 
 export default card

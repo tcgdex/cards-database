@@ -80,10 +80,22 @@ const card: Card = {
 		de: "Es jagt in Rudeln und kommuniziert über eine ganze Reihe von Rufen mit anderen Hunduster."
 	},
 
-	thirdParty: {
-		cardmarket: 280513,
-		tcgplayer: 86233
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280513,
+				tcgplayer: 86233
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280513,
+				tcgplayer: 86233
+			}
+		},
+	],
 }
 
 export default card

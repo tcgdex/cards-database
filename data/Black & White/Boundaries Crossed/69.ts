@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Je nach Inhalt der Träume, die es frisst, nimmt der Dunst, der aus seiner Stirn austritt, unterschiedliche Farben an."
 	},
 
-	thirdParty: {
-		cardmarket: 280656,
-		tcgplayer: 87661
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280656,
+				tcgplayer: 87661
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280656,
+				tcgplayer: 87661
+			}
+		},
+	],
 }
 
 export default card

@@ -70,10 +70,22 @@ const card: Card = {
 		de: "Seine zwei Teile greifen ineinander wie ein Uhrwerk. Jedes andere Objekt, das man mit ihm kombinieren will, wird abgestoßen."
 	},
 
-	thirdParty: {
-		cardmarket: 280684,
-		tcgplayer: 86483
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280684,
+				tcgplayer: 86483
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280684,
+				tcgplayer: 86483
+			}
+		},
+	],
 }
 
 export default card

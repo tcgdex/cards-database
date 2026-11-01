@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Seine Stärke ist es, Menschen zu retten, die auf hoher See oder in den Bergen in Not geraten. Ein sehr kluges Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 279821,
-		tcgplayer: 89570
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279821,
+				tcgplayer: 89570
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279821,
+				tcgplayer: 89570
+			}
+		},
+	],
 }
 
 export default card

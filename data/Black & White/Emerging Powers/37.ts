@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Wer den Ultraschallwellen eines Männchens in der Balz ausgesetzt wird, verfällt in eine euphorische Stimmung."
 	},
 
-	thirdParty: {
-		cardmarket: 280002,
-		tcgplayer: 89725
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280002,
+				tcgplayer: 89725
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280002,
+				tcgplayer: 89725
+			}
+		},
+	],
 }
 
 export default card

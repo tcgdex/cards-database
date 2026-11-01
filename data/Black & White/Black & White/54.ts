@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Rammt den Gegner mit den Zacken an seinem Hals und verpasst ihm eine Ladung Gift. Von Natur aus sehr angriffslustig."
 	},
 
-	thirdParty: {
-		cardmarket: 279792,
-		tcgplayer: 88968
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279792,
+				tcgplayer: 88968
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279792,
+				tcgplayer: 88968
+			}
+		},
+	],
 }
 
 export default card

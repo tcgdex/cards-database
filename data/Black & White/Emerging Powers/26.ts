@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Gerät es in Gefahr, versprüht es Wasser aus seinem Federkleid und nutzt den Sprühregen, um Reißaus zu nehmen."
 	},
 
-	thirdParty: {
-		cardmarket: 279991,
-		tcgplayer: 84991
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279991,
+				tcgplayer: 84991
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279991,
+				tcgplayer: 84991
+			}
+		},
+	],
 }
 
 export default card

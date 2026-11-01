@@ -72,10 +72,22 @@ const card: Card = {
 		de: "Laut einer alten Volkssage nennt man es den „Wegweiser für umherstreifende Geister“."
 	},
 
-	thirdParty: {
-		cardmarket: 280488,
-		tcgplayer: 84962
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280489,
+				tcgplayer: 84962
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280489,
+				tcgplayer: 84962
+			}
+		},
+	],
 }
 
 export default card

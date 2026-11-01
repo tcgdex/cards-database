@@ -87,10 +87,22 @@ const card: Card = {
 		de: "An sich ist es harmlos. Bringt man es jedoch in Bedrängnis, setzt es sich mit blitzschnellen Rollattacken zur Wehr."
 	},
 
-	thirdParty: {
-		cardmarket: 280004,
-		tcgplayer: 90571
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280004,
+				tcgplayer: 90571
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280004,
+				tcgplayer: 90571
+			}
+		},
+	],
 }
 
 export default card

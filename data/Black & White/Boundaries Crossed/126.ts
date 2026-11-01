@@ -85,10 +85,22 @@ const card: Card = {
 		de: "Über die Fühler an seinen Ohren kann es ertasten, wie es einer Person geht oder wann ein Pokémon aus seinem Ei schlüpft."
 	},
 
-	thirdParty: {
-		cardmarket: 280713,
-		tcgplayer: 83664
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280713,
+				tcgplayer: 83664
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280713,
+				tcgplayer: 83664
+			}
+		},
+	],
 }
 
 export default card

@@ -84,10 +84,22 @@ const card: Card = {
 		de: "Es gewinnt lebenswichtige Energie, indem es seine zwei Einzelteile ineinander verzahnt und rotieren lässt."
 	},
 
-	thirdParty: {
-		cardmarket: 280039,
-		tcgplayer: 86481
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280039,
+				tcgplayer: 86481
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280039,
+				tcgplayer: 86481
+			}
+		},
+	],
 }
 
 export default card

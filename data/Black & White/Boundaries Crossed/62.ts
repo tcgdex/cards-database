@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Sucht dahintreibende Irrlichter und saugt sie in seinen leeren Körper. Alles andere ist ein Rätsel."
 	},
 
-	thirdParty: {
-		cardmarket: 280649,
-		tcgplayer: 85031
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280649,
+				tcgplayer: 85031
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280649,
+				tcgplayer: 85031
+			}
+		},
+	],
 }
 
 export default card

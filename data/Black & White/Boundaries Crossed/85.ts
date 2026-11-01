@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Wird bei Revierkämpfen der Stein auf seinem Rücken zerschlagen, fühlt es sich verwundbar und wird langsam schwächer."
 	},
 
-	thirdParty: {
-		cardmarket: 280672,
-		tcgplayer: 84510
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280672,
+				tcgplayer: 84510
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280672,
+				tcgplayer: 84510
+			}
+		},
+	],
 }
 
 export default card

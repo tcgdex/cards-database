@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Sein langes Fell ist sehr bequem und kann einen Menschen eine ganze Nacht lang auf einem schneebedeckten Berg warmhalten."
 	},
 
-	thirdParty: {
-		cardmarket: 280709,
-		tcgplayer: 89572
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280709,
+				tcgplayer: 89572
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280709,
+				tcgplayer: 89572
+			}
+		},
+	],
 }
 
 export default card

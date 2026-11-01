@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Kann anhand der Sternenkonstellationen die Zukunft voraussagen. Es weiß sogar, wie alt sein Trainer werden wird."
 	},
 
-	thirdParty: {
-		cardmarket: 280012,
-		tcgplayer: 85852
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280013,
+				tcgplayer: 85852
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280013,
+				tcgplayer: 85852
+			}
+		},
+	],
 }
 
 export default card

@@ -61,10 +61,22 @@ const card: Card = {
 		de: "Eines dieser vorsichtigen Pokémon steht immer vor ihrem Bau Wache. Nähert sich jedoch ein Feind von hinten, ist es aus."
 	},
 
-	thirdParty: {
-		cardmarket: 280705,
-		tcgplayer: 87964
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280705,
+				tcgplayer: 87964
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280705,
+				tcgplayer: 87964
+			}
+		},
+	],
 }
 
 export default card

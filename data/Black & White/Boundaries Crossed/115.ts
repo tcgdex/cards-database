@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Das Muster eines Pandir ist wie ein Fingerabdruck. Sein Taumeln senkt die gegnerische Zielsicherheit."
 	},
 
-	thirdParty: {
-		cardmarket: 280702,
-		tcgplayer: 89464
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280702,
+				tcgplayer: 89464
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280702,
+				tcgplayer: 89464
+			}
+		},
+	],
 }
 
 export default card

@@ -78,10 +78,22 @@ const card: Card = {
 		de: "Es kann auf dem Wasser laufen und reist auf Flüssen und Meeren um die Welt. Zu sehen in malerischen Küstengebieten."
 	},
 
-	thirdParty: {
-		cardmarket: 280634,
-		tcgplayer: 86433
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280634,
+				tcgplayer: 86433
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280634,
+				tcgplayer: 86433
+			}
+		},
+	],
 }
 
 export default card

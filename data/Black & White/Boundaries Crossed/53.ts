@@ -74,10 +74,22 @@ const card: Card = {
 		de: "Experimente, Elektek als flexiblen Speicher für frei einsetzbare Blitze zu verwenden, zeigen erste Erfolge."
 	},
 
-	thirdParty: {
-		cardmarket: 280640,
-		tcgplayer: 85118
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280640,
+				tcgplayer: 85118
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280640,
+				tcgplayer: 85118
+			}
+		},
+	],
 }
 
 export default card

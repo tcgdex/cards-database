@@ -77,10 +77,15 @@ const card: Card = {
 		de: "Du hast diese sehr seltene Pikachu-Karte gefunden. Du Glückspilz!"
 	},
 
-	thirdParty: {
-		cardmarket: 279853,
-		tcgplayer: 88101
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 279853,
+				tcgplayer: 88101
+			}
+		},
+	],
 }
 
 export default card

@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Das größte Pokémon. Es kann mit nur einem Atemzug in Tiefen bis 3 000 Meter tauchen."
 	},
 
-	thirdParty: {
-		cardmarket: 280465,
-		tcgplayer: 90462
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280465,
+				tcgplayer: 90462
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280465,
+				tcgplayer: 90462
+			}
+		},
+	],
 }
 
 export default card

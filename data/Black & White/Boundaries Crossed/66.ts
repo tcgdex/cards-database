@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Vor einem Kampf gibt es einen Quaklaut von sich, um das Gift in seinem Giftbeutel umzurühren."
 	},
 
-	thirdParty: {
-		cardmarket: 280653,
-		tcgplayer: 90010
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280653,
+				tcgplayer: 90010
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280653,
+				tcgplayer: 90010
+			}
+		},
+	],
 }
 
 export default card

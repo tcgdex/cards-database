@@ -56,10 +56,15 @@ const card: Card = {
 		en: "They mark their territory by leaving gashes in trees with their tusks. If a tusk breaks, a new one grows in quickly.",
 	},
 
-	thirdParty: {
-		cardmarket: 281012,
-		tcgplayer: 83671
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281013,
+				tcgplayer: 83671
+			}
+		},
+	],
 }
 
 export default card

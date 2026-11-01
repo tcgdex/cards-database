@@ -94,10 +94,22 @@ const card: Card = {
 		de: "An seinem Geweih kann man ablesen, wann eine neue Jahreszeit beginnt. Sein Revier wechselt mit jeder neuen Jahreszeit."
 	},
 
-	thirdParty: {
-		cardmarket: 279752,
-		tcgplayer: 88941
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279752,
+				tcgplayer: 88941
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279752,
+				tcgplayer: 88941
+			}
+		},
+	],
 }
 
 export default card

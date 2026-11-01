@@ -76,10 +76,22 @@ const card: Card = {
 		de: "Hat ein sechseckiges Ohr. Sein durch das Erdreich gepresster Körper steht Stahl in Sachen Härte in nichts nach."
 	},
 
-	thirdParty: {
-		cardmarket: 280014,
-		tcgplayer: 88805
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280014,
+				tcgplayer: 88805
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280014,
+				tcgplayer: 88805
+			}
+		},
+	],
 }
 
 export default card

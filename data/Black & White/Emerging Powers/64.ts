@@ -70,10 +70,22 @@ const card: Card = {
 		de: "Es stibitzt den Leuten spaßeshalber ihr Hab und Gut, doch dank seiner reizenden Natur kann ihm niemand lang böse sein."
 	},
 
-	thirdParty: {
-		cardmarket: 280029,
-		tcgplayer: 88458
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280029,
+				tcgplayer: 88458
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280029,
+				tcgplayer: 88458
+			}
+		},
+	],
 }
 
 export default card

@@ -69,10 +69,22 @@ const card: Card = {
 		de: "Es reitet auf dem Wind. Man sagt, wenn sich Hoppspross versammeln, kommt der Frühling bald."
 	},
 
-	thirdParty: {
-		cardmarket: 280440,
-		tcgplayer: 86183
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280440,
+				tcgplayer: 86183
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280440,
+				tcgplayer: 86183
+			}
+		},
+	],
 }
 
 export default card

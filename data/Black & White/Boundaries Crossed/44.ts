@@ -60,10 +60,22 @@ const card: Card = {
 		de: "Es schlingt seine schleierartigen Arme um seine Beute und entführt sie 8 000 Meter in die Tiefe, wo es sie schließlich tötet."
 	},
 
-	thirdParty: {
-		cardmarket: 280631,
-		tcgplayer: 85565
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280631,
+				tcgplayer: 85565
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280631,
+				tcgplayer: 85565
+			}
+		},
+	],
 }
 
 export default card

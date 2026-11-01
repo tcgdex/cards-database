@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Es erzeugt im Inneren seines Körpers grenzenlose Energie, die es mit jedem teilt, der mit ihm in Berührung kommt."
 	},
 
-	thirdParty: {
-		cardmarket: 280610,
-		tcgplayer: 90347
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280610,
+				tcgplayer: 90347
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280610,
+				tcgplayer: 90347
+			}
+		},
+	],
 }
 
 export default card

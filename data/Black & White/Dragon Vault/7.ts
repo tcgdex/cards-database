@@ -74,10 +74,22 @@ const card: Card = {
 		en: "Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.",
 	},
 
-	thirdParty: {
-		cardmarket: 281007,
-		tcgplayer: 89130
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281007,
+				tcgplayer: 89130
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['regional-championships'],
+			thirdParty: {
+				cardmarket: 450353
+			}
+		},
+	],
 }
 
 export default card

@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Wenn es seine fast 2 000 Grad heißen Feuerbälle abfeuert, nimmt sein Körper eine weißliche Farbe an."
 	},
 
-	thirdParty: {
-		cardmarket: 280460,
-		tcgplayer: 87062
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280460,
+				tcgplayer: 87062
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280460,
+				tcgplayer: 87062
+			}
+		},
+	],
 }
 
 export default card

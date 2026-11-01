@@ -61,10 +61,22 @@ const card: Card = {
 		de: "Werden die Zellen seines Hirns durch starke Kopfschmerzen stimuliert, erhält es geheimnisvolle Kräfte."
 	},
 
-	thirdParty: {
-		cardmarket: 280619,
-		tcgplayer: 88442
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280620,
+				tcgplayer: 88442
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280620,
+				tcgplayer: 88442
+			}
+		},
+	],
 }
 
 export default card

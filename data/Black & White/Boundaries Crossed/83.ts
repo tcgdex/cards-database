@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Es baut sich ein trichterförmiges Loch, aus dem es kein Entrinnen gibt, und wartet, bis Beute hineinfällt."
 	},
 
-	thirdParty: {
-		cardmarket: 280670,
-		tcgplayer: 90025
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280670,
+				tcgplayer: 90025
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280670,
+				tcgplayer: 90025
+			}
+		},
+	],
 }
 
 export default card

@@ -80,10 +80,15 @@ const card: Card = {
 		en: "It is said to make its home somewhere in the sea. It guides crews of shipwrecks to shore.",
 	},
 
-	thirdParty: {
-		cardmarket: 281005,
-		tcgplayer: 84915
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281005,
+				tcgplayer: 84915
+			}
+		},
+	],
 }
 
 export default card

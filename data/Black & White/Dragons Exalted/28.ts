@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Seine Schuppen sind regenbogenfarben. Die jeweiligen Farben verändern sich je nach Blickwinkel."
 	},
 
-	thirdParty: {
-		cardmarket: 280467,
-		tcgplayer: 87457
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280467,
+				tcgplayer: 87457
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280467,
+				tcgplayer: 87457
+			}
+		},
+	],
 }
 
 export default card

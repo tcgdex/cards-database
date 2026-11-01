@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Energie, die ungehindert aus seinem Körper austrat, hat sich an ihm zu orangefarbenen Kristallen verfestigt."
 	},
 
-	thirdParty: {
-		cardmarket: 280505,
-		tcgplayer: 83935
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280505,
+				tcgplayer: 83935
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280505,
+				tcgplayer: 83935
+			}
+		},
+	],
 }
 
 export default card

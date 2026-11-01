@@ -93,10 +93,22 @@ const card: Card = {
 		de: "Es fliegt lautlos am Himmel. Sobald es sich seiner Beute genähert hat, landet es augenblicklich einen Volltreffer."
 	},
 
-	thirdParty: {
-		cardmarket: 280668,
-		tcgplayer: 85775
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280668,
+				tcgplayer: 85775
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280668,
+				tcgplayer: 85775
+			}
+		},
+	],
 }
 
 export default card

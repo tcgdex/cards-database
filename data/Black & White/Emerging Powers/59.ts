@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Zieht es den Gürtel fest, werden seine Hiebe stärker. Kann es gar nicht leiden, wenn man es beim Training stört."
 	},
 
-	thirdParty: {
-		cardmarket: 280024,
-		tcgplayer: 88938
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280024,
+				tcgplayer: 88938
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280024,
+				tcgplayer: 88938
+			}
+		},
+	],
 }
 
 export default card

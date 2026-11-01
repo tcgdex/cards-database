@@ -94,10 +94,22 @@ const card: Card = {
 		de: "Indem es das Rad mit dem roten Zentrum mit hohem Tempo zum Rotieren bringt, kann es eine Turboladung durchführen."
 	},
 
-	thirdParty: {
-		cardmarket: 280041,
-		tcgplayer: 86486
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280041,
+				tcgplayer: 86486
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280041,
+				tcgplayer: 86486
+			}
+		},
+	],
 }
 
 export default card

@@ -58,10 +58,22 @@ const card: Card = {
 		de: "Um mit Artgenossen zu kommunizieren, nutzt es das Aufblitzen seiner Mähne beim Entladen von Strom als Morsecode."
 	},
 
-	thirdParty: {
-		cardmarket: 280643,
-		tcgplayer: 83932
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280643,
+				tcgplayer: 83932
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280643,
+				tcgplayer: 83932
+			}
+		},
+	],
 }
 
 export default card

@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Wird es umarmt, empfindet es Dankbarkeit, was wiederum dazu führt, dass seine Blumen blühen."
 	},
 
-	thirdParty: {
-		cardmarket: 280597,
-		tcgplayer: 89110
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280597,
+				tcgplayer: 89110
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280597,
+				tcgplayer: 89110
+			}
+		},
+	],
 }
 
 export default card

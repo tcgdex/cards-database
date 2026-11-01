@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Es hebt ein komplexes Tunnelsystem im Berginneren aus und nutzt dieses Labyrinth als seinen Bau."
 	},
 
-	thirdParty: {
-		cardmarket: 280522,
-		tcgplayer: 85021
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280522,
+				tcgplayer: 85021
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280522,
+				tcgplayer: 85021
+			}
+		},
+	],
 }
 
 export default card

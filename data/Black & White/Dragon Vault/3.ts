@@ -75,10 +75,15 @@ const card: Card = {
 		en: "If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.",
 	},
 
-	thirdParty: {
-		cardmarket: 281003,
-		tcgplayer: 84902
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281003,
+				tcgplayer: 84902
+			}
+		},
+	],
 }
 
 export default card

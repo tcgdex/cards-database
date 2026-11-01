@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Ist es wütend, spuckt es giftige Flammen. Die Schmerzen der Verbrennungen dauern ewig an."
 	},
 
-	thirdParty: {
-		cardmarket: 280514,
-		tcgplayer: 86212
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280514,
+				tcgplayer: 86212
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280514,
+				tcgplayer: 86212
+			}
+		},
+	],
 }
 
 export default card

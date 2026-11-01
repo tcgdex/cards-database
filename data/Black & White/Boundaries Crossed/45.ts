@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Es heißt, am Meeresboden gebe es einen Palast aus Schiffen, die es versenkt hat. Es besteht fast nur aus Meerwasser."
 	},
 
-	thirdParty: {
-		cardmarket: 280632,
-		tcgplayer: 86307
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280632,
+				tcgplayer: 86307
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280632,
+				tcgplayer: 86307
+			}
+		},
+	],
 }
 
 export default card

@@ -69,10 +69,22 @@ const card: Card = {
 		de: "Es ähnelt einem Pokéball. Versucht man, es zu fangen, widersetzt es sich, indem es Giftsporen versprüht."
 	},
 
-	thirdParty: {
-		cardmarket: 280456,
-		tcgplayer: 85539
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280456,
+				tcgplayer: 85539
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280456,
+				tcgplayer: 85539
+			}
+		},
+	],
 }
 
 export default card

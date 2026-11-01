@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Durch seine mächtigen Psycho-Kräfte krümmt sich der Raum und Bilder eines Lichtjahre entfernten Ortes erscheinen."
 	},
 
-	thirdParty: {
-		cardmarket: 280012,
-		tcgplayer: 85851
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280012,
+				tcgplayer: 85851
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280012,
+				tcgplayer: 85851
+			}
+		},
+	],
 }
 
 export default card

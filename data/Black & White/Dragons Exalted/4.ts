@@ -70,10 +70,22 @@ const card: Card = {
 		de: "Schwebt auf der Stelle durch das schnelle Schlagen seiner Flügel. Hat ein Auge auf sein Territorium."
 	},
 
-	thirdParty: {
-		cardmarket: 280443,
-		tcgplayer: 90689
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280443,
+				tcgplayer: 90689
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280443,
+				tcgplayer: 90689
+			}
+		},
+	],
 }
 
 export default card

@@ -85,10 +85,22 @@ const card: Card = {
 		de: "Je gesünder das Roselia, desto angenehmer das Aroma seiner Blume, das Menschen so sehr entspannt."
 	},
 
-	thirdParty: {
-		cardmarket: 280451,
-		tcgplayer: 88824
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280451,
+				tcgplayer: 88824
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280451,
+				tcgplayer: 88824
+			}
+		},
+	],
 }
 
 export default card

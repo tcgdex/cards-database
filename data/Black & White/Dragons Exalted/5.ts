@@ -91,10 +91,22 @@ const card: Card = {
 		de: "Die Kraft seines Kiefers ist unglaublich. Es kann daher aus dem Flug heraus hart zubeißen."
 	},
 
-	thirdParty: {
-		cardmarket: 280444,
-		tcgplayer: 90695
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280444,
+				tcgplayer: 90695
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280444,
+				tcgplayer: 90695
+			}
+		},
+	],
 }
 
 export default card

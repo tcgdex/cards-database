@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Es schlüpft in einen passenden Schädel, um sein Hinterteil zu schützen, und scheucht schwache Pokémon umher."
 	},
 
-	thirdParty: {
-		cardmarket: 280679,
-		tcgplayer: 90431
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280679,
+				tcgplayer: 90431
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280679,
+				tcgplayer: 90431
+			}
+		},
+	],
 }
 
 export default card

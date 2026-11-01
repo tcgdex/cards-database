@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Es schützt sich vor Kälte, indem es sich in Blätter einwickelt. Es durchstreift Wälder und frisst herabgefallenes Laub."
 	},
 
-	thirdParty: {
-		cardmarket: 279970,
-		tcgplayer: 89665
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279970,
+				tcgplayer: 89665
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279970,
+				tcgplayer: 89665
+			}
+		},
+	],
 }
 
 export default card

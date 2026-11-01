@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Wenn es die Beulen auf seinem Kopf zum Schwingen bringt, tobt je nach Umgebung entweder das Wasser oder die Erde bebt."
 	},
 
-	thirdParty: {
-		cardmarket: 280474,
-		tcgplayer: 87924
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280474,
+				tcgplayer: 87924
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280474,
+				tcgplayer: 87924
+			}
+		},
+	],
 }
 
 export default card

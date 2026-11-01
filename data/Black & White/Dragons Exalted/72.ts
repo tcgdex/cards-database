@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Wird es entdeckt, lockt es seinen Verfolger auf eine Jagd in die Berge, wo es ihn dann abschüttelt."
 	},
 
-	thirdParty: {
-		cardmarket: 280511,
-		tcgplayer: 87657
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280511,
+				tcgplayer: 87657
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280511,
+				tcgplayer: 87657
+			}
+		},
+	],
 }
 
 export default card

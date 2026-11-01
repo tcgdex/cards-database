@@ -89,10 +89,22 @@ const card: Card = {
 		de: "Erhitzt das Innere seines Körpers auf 1400 Grad und erlangt so dieKraft, um mit der Faust Laster zu zerstören."
 	},
 
-	thirdParty: {
-		cardmarket: 279986,
-		tcgplayer: 84714
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279986,
+				tcgplayer: 84714
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279986,
+				tcgplayer: 84714
+			}
+		},
+	],
 }
 
 export default card

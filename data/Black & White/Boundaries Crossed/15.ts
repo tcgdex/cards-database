@@ -91,10 +91,22 @@ const card: Card = {
 		de: "Sie erscheinen mit Orkanböen und spielen den Leuten Streiche, indem sie in Häusern Möbel verrücken oder Watte verstreuen."
 	},
 
-	thirdParty: {
-		cardmarket: 280602,
-		tcgplayer: 90569
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280602,
+				tcgplayer: 90569
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280602,
+				tcgplayer: 90569
+			}
+		},
+	],
 }
 
 export default card

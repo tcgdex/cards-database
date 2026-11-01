@@ -95,10 +95,22 @@ const card: Card = {
 		de: "Sie wirken zerbrechlich, aber ihre starken Schwingen tragen sie in einem Stück bis zu 1 000 Kilometer weit."
 	},
 
-	thirdParty: {
-		cardmarket: 280630,
-		tcgplayer: 89687
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280630,
+				tcgplayer: 89687
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280630,
+				tcgplayer: 89687
+			}
+		},
+	],
 }
 
 export default card

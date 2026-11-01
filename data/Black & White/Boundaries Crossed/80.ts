@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Es klammert sich an seiner Beute fest und nutzt den Überraschungseffekt, um seinen Giftstachel in sie zu bohren."
 	},
 
-	thirdParty: {
-		cardmarket: 280667,
-		tcgplayer: 85769
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280667,
+				tcgplayer: 85769
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280667,
+				tcgplayer: 85769
+			}
+		},
+	],
 }
 
 export default card

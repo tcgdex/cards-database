@@ -69,10 +69,22 @@ const card: Card = {
 		de: "Die Blätter auf seinem Kopf schmecken äußerst bitter, wirken aber erfrischend. Fallen sie aus, wachsen sie sofort nach."
 	},
 
-	thirdParty: {
-		cardmarket: 280603,
-		tcgplayer: 87993
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280603,
+				tcgplayer: 87993
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280603,
+				tcgplayer: 87993
+			}
+		},
+	],
 }
 
 export default card

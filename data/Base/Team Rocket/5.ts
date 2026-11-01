@@ -98,6 +98,14 @@ const card: Card = {
 		},
 		{
 			type: "holo",
+			subtype: "no-holo-error",
+			thirdParty: {
+				cardmarket: 274058,
+				tcgplayer: 84584
+			}
+		},
+		{
+			type: "holo",
 			stamp: ["1st-edition"],
 			thirdParty: {
 				cardmarket: 274058,
@@ -106,14 +114,13 @@ const card: Card = {
 		},
 		{
 			type: "holo",
-			subtype: "no-holo-error"
-		},
-		{
-			type: "holo",
 			subtype: "no-holo-error",
-			stamp: ["1st-edition"]
-		}
-	]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 84584
+			}
+		},
+	],
 }
 
 export default card

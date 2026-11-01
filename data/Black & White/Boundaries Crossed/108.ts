@@ -64,10 +64,22 @@ const card: Card = {
 		de: "Ruht es sich nicht aus, kann es seine Zellstruktur so verändern, dass es sich in alles verwandeln kann, was es sieht."
 	},
 
-	thirdParty: {
-		cardmarket: 280695,
-		tcgplayer: 84845
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280695,
+				tcgplayer: 84845
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280695,
+				tcgplayer: 84845
+			}
+		},
+	],
 }
 
 export default card

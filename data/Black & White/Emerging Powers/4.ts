@@ -72,10 +72,22 @@ const card: Card = {
 		de: "Schneidert sich ein Kleid, indem es sich Blätter zurechtbeißt und sie mit Klebefäden aus seinem Mund zusammennäht."
 	},
 
-	thirdParty: {
-		cardmarket: 279968,
-		tcgplayer: 89090
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279969,
+				tcgplayer: 89090
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279969,
+				tcgplayer: 89090
+			}
+		},
+	],
 }
 
 export default card

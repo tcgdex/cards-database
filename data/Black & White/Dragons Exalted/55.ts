@@ -61,10 +61,22 @@ const card: Card = {
 		de: "Beobachtet andere Pokémon und Trainer mit durchdringendem Blick, als könne es etwas erkennen, das keiner sonst sieht."
 	},
 
-	thirdParty: {
-		cardmarket: 280494,
-		tcgplayer: 85847
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280494,
+				tcgplayer: 85847
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280494,
+				tcgplayer: 85847
+			}
+		},
+	],
 }
 
 export default card

@@ -72,10 +72,22 @@ const card: Card = {
 		de: "Trägt stets einen Holzbalken bei sich. Es taucht hier und da auf Baustellen auf und hilft dort den Arbeitern aus."
 	},
 
-	thirdParty: {
-		cardmarket: 279796,
-		tcgplayer: 89913
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279797,
+				tcgplayer: 89913
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279797,
+				tcgplayer: 89913
+			}
+		},
+	],
 }
 
 export default card

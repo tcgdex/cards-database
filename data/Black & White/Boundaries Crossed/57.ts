@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Ein stürmischer Geselle. Wenn es wütend ist, feuert es über seine Mähne in alle Richtungen Stromsalven ab."
 	},
 
-	thirdParty: {
-		cardmarket: 280644,
-		tcgplayer: 90731
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280644,
+				tcgplayer: 90731
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280644,
+				tcgplayer: 90731
+			}
+		},
+	],
 }
 
 export default card

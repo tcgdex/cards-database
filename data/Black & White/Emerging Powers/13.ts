@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Die Blätter auf seinem Kopf schmecken furchtbar bitter, doch sie helfen ausgezeichnet gegen Erschöpfung."
 	},
 
-	thirdParty: {
-		cardmarket: 279978,
-		tcgplayer: 87991
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279978,
+				tcgplayer: 87991
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279978,
+				tcgplayer: 87991
+			}
+		},
+	],
 }
 
 export default card

@@ -58,10 +58,22 @@ const card: Card = {
 		de: "Schnelle Angriffe sind seine Spezialität. Es gleicht seine Schwächen mit der Vielfalt seines Attackenrepertoires aus."
 	},
 
-	thirdParty: {
-		cardmarket: 280673,
-		tcgplayer: 87439
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280674,
+				tcgplayer: 87439
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280674,
+				tcgplayer: 87439
+			}
+		},
+	],
 }
 
 export default card

@@ -70,10 +70,22 @@ const card: Card = {
 		de: "Es hakt sich mit seinen Dornen in den Wänden von Höhlen fest und saugt die Mineralien aus dem Gestein."
 	},
 
-	thirdParty: {
-		cardmarket: 280035,
-		tcgplayer: 85425
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280035,
+				tcgplayer: 85425
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280035,
+				tcgplayer: 85425
+			}
+		},
+	],
 }
 
 export default card

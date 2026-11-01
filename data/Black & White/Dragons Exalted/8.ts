@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Stört man es, während es Pollen sucht, stößt es mit seinem langen, dünnen Mund zu."
 	},
 
-	thirdParty: {
-		cardmarket: 280447,
-		tcgplayer: 83760
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280447,
+				tcgplayer: 83760
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280447,
+				tcgplayer: 83760
+			}
+		},
+	],
 }
 
 export default card

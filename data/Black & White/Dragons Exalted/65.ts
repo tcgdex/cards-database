@@ -78,10 +78,22 @@ const card: Card = {
 		de: "Wurde vor 100 Jahren nach einem großen Erdbeben in einer Erdspalte entdeckt. Es trägt eine Energiesphäre in sich."
 	},
 
-	thirdParty: {
-		cardmarket: 280504,
-		tcgplayer: 88807
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280504,
+				tcgplayer: 88807
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280504,
+				tcgplayer: 88807
+			}
+		},
+	],
 }
 
 export default card

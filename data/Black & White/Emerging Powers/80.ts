@@ -66,10 +66,22 @@ const card: Card = {
 		de: "Gewöhnlich hört es zwar auf das, was sein Trainer sagt, doch manchmal kommt es mit komplizierten Befehlen nicht klar."
 	},
 
-	thirdParty: {
-		cardmarket: 280045,
-		tcgplayer: 88056
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280045,
+				tcgplayer: 88056
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280045,
+				tcgplayer: 88056
+			}
+		},
+	],
 }
 
 export default card

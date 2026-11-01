@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Niemand kann es aufhalten, wenn es eine Angriffsserie mit seinen peitschenartigen Armen startet."
 	},
 
-	thirdParty: {
-		cardmarket: 280675,
-		tcgplayer: 87442
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280675,
+				tcgplayer: 87442
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280675,
+				tcgplayer: 87442
+			}
+		},
+	],
 }
 
 export default card

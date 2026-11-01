@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Glutexo leben in den Bergen. Die Flammen auf ihren Schweifspitzen leuchten in der Nacht wie Sterne."
 	},
 
-	thirdParty: {
-		cardmarket: 280606,
-		tcgplayer: 84234
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280606,
+				tcgplayer: 84234
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280606,
+				tcgplayer: 84234
+			}
+		},
+	],
 }
 
 export default card

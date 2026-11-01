@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Zurrt es seinen Gürtel fest, gewinnt es an Kraft. Wilde Exemplare flechten sich ihren Gürtel in Handarbeit aus Ranken."
 	},
 
-	thirdParty: {
-		cardmarket: 280023,
-		tcgplayer: 89900
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280023,
+				tcgplayer: 89900
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280023,
+				tcgplayer: 89900
+			}
+		},
+	],
 }
 
 export default card

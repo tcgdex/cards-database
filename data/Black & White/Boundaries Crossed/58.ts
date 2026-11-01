@@ -60,10 +60,22 @@ const card: Card = {
 		de: "Verzweifelt versucht es, seinen schwarzen Schweif zu verstecken. Er soll ein Geheimnis enthalten"
 	},
 
-	thirdParty: {
-		cardmarket: 280645,
-		tcgplayer: 90623
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280645,
+				tcgplayer: 90623
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280645,
+				tcgplayer: 90623
+			}
+		},
+	],
 }
 
 export default card

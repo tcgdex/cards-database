@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Ein nachtaktives Pokémon. Sieht es etwas Schimmerndes, fangen seine Augen an zu glänzen."
 	},
 
-	thirdParty: {
-		cardmarket: 280693,
-		tcgplayer: 87328
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280693,
+				tcgplayer: 87328
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280693,
+				tcgplayer: 87328
+			}
+		},
+	],
 }
 
 export default card

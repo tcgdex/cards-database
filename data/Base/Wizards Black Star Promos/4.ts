@@ -87,16 +87,16 @@ const card: Card = {
 			stamp: ["1st-movie"],
 			thirdParty: {
 				tcgplayer: 88066
-			},
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["pikachu-tail"],
 			thirdParty: {
 				tcgplayer: 161752
-			},
-		}
-	]
+			}
+		},
+	],
 }
 
 export default card

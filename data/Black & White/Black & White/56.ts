@@ -81,10 +81,22 @@ const card: Card = {
 		de: "Kommen beide Hälften seines gespaltenen Denkapparates auf dieselbe Idee, entfesselt sich seine volle Kraft."
 	},
 
-	thirdParty: {
-		cardmarket: 279794,
-		tcgplayer: 85016
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279794,
+				tcgplayer: 85016
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279794,
+				tcgplayer: 85016
+			}
+		},
+	],
 }
 
 export default card

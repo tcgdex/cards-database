@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Kämpft mit Reißzähnen aus Eis, die es aus gefrorenem Atem herstellt. Es lebt im Norden, wo es kalt ist."
 	},
 
-	thirdParty: {
-		cardmarket: 279995,
-		tcgplayer: 83752
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279996,
+				tcgplayer: 83752
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279996,
+				tcgplayer: 83752
+			}
+		},
+	],
 }
 
 export default card

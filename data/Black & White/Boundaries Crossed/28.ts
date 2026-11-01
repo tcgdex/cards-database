@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Nimmt es in einem heißen Kampf Schaden, wird es hart wie Stein und fällt in eine Trance, um seinen Verstand zu schärfen."
 	},
 
-	thirdParty: {
-		cardmarket: 280615,
-		tcgplayer: 84716
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280615,
+				tcgplayer: 84716
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280615,
+				tcgplayer: 84716
+			}
+		},
+	],
 }
 
 export default card

@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Die Schallwellen, die es durch eine hohe Flügelschlagfrequenz erzeugt, verursachen heftige Kopfschmerzen."
 	},
 
-	thirdParty: {
-		cardmarket: 280685,
-		tcgplayer: 90339
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280685,
+				tcgplayer: 90339
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280685,
+				tcgplayer: 90339
+			}
+		},
+	],
 }
 
 export default card

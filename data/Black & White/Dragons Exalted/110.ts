@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Rammt seine Gegner ohne Rücksicht auf Verluste mit dem Kopf und vermag damit sogar Züge zum Entgleisen zu bringen."
 	},
 
-	thirdParty: {
-		cardmarket: 280549,
-		tcgplayer: 83944
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280549,
+				tcgplayer: 83944
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280549,
+				tcgplayer: 83944
+			}
+		},
+	],
 }
 
 export default card

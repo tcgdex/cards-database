@@ -69,10 +69,22 @@ const card: Card = {
 		de: "Wird es angegriffen, verstreut es zur Täuschung Watte. Es flieht, während der Gegner nach dem wahren Waumboll sucht."
 	},
 
-	thirdParty: {
-		cardmarket: 279974,
-		tcgplayer: 84446
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279975,
+				tcgplayer: 84446
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279975,
+				tcgplayer: 84446
+			}
+		},
+	],
 }
 
 export default card

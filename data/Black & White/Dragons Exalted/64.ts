@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Eine antike Lehmstatue, die durch ein mysteriöses Licht zum Leben erwacht ist."
 	},
 
-	thirdParty: {
-		cardmarket: 280503,
-		tcgplayer: 84339
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280503,
+				tcgplayer: 84339
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280503,
+				tcgplayer: 84339
+			}
+		},
+	],
 }
 
 export default card

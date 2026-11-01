@@ -93,10 +93,22 @@ const card: Card = {
 		de: "Man sagt, dass es verlorene Seelen in seinem biegsamen Körper nach Hause geleite."
 	},
 
-	thirdParty: {
-		cardmarket: 280650,
-		tcgplayer: 85040
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280650,
+				tcgplayer: 85040
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280650,
+				tcgplayer: 85040
+			}
+		},
+	],
 }
 
 export default card

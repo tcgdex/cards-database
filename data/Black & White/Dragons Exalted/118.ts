@@ -36,6 +36,30 @@ const card: Card = {
 	},
 
 energyType: "Special",
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280557,
+				tcgplayer: 83917
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['player-rewards-program'],
+			thirdParty: {
+				cardmarket: 449308
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280557,
+				tcgplayer: 83917
+			}
+		},
+	],
 }
 
 export default card

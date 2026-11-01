@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Bringt Gegner mit einem einzigen kühlen Blick zum Erstarren. In seinem Inneren verstärkt es die Energie der Sonne."
 	},
 
-	thirdParty: {
-		cardmarket: 280600,
-		tcgplayer: 89073
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280600,
+				tcgplayer: 89073
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280600,
+				tcgplayer: 89073
+			}
+		},
+	],
 }
 
 export default card

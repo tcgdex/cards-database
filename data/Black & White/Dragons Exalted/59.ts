@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Es jagt mit Schallgeschwindigkeit durch die Lüfte. Nimmt man das Siegel auf der Brust ab, gerät es außer Kontrolle."
 	},
 
-	thirdParty: {
-		cardmarket: 280498,
-		tcgplayer: 85836
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280498,
+				tcgplayer: 85836
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280498,
+				tcgplayer: 85836
+			}
+		},
+	],
 }
 
 export default card

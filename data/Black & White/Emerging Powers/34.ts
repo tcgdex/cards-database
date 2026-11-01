@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Wird es angegriffen, spuckt es mit vielen elektrisch geladenen Fäden um sich und baut sich eine Elektrobarriere."
 	},
 
-	thirdParty: {
-		cardmarket: 279999,
-		tcgplayer: 85611
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279999,
+				tcgplayer: 85611
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279999,
+				tcgplayer: 85611
+			}
+		},
+	],
 }
 
 export default card

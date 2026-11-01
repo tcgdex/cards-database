@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Wenn es kränkelt, wird der Schleim aus seiner Nase flüssiger und seine Eis-Attacken verlieren an Stärke."
 	},
 
-	thirdParty: {
-		cardmarket: 279993,
-		tcgplayer: 84523
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279993,
+				tcgplayer: 84523
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279993,
+				tcgplayer: 84523
+			}
+		},
+	],
 }
 
 export default card

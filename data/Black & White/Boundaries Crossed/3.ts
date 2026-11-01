@@ -100,10 +100,22 @@ const card: Card = {
 		de: "Es besitzt die größten Blätter der Welt. Es verteilt beim Gehen Pollen, die schreckliche Allergien auslösen."
 	},
 
-	thirdParty: {
-		cardmarket: 280590,
-		tcgplayer: 90382
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280590,
+				tcgplayer: 90382
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280590,
+				tcgplayer: 90382
+			}
+		},
+	],
 }
 
 export default card

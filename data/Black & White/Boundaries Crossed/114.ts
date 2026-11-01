@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Es hat kein festes Revier, weil es sich einfach immer ein gemütliches, sauberes Fleckchen zum Schlafen sucht."
 	},
 
-	thirdParty: {
-		cardmarket: 280701,
-		tcgplayer: 84742
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280701,
+				tcgplayer: 84742
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280701,
+				tcgplayer: 84742
+			}
+		},
+	],
 }
 
 export default card

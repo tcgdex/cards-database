@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Es liebt funkelnde Dinge und sucht nach Schätzen in Höhlen, die es dann in seinem Nest hortet."
 	},
 
-	thirdParty: {
-		cardmarket: 280527,
-		tcgplayer: 85600
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280527,
+				tcgplayer: 85600
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280527,
+				tcgplayer: 85600
+			}
+		},
+	],
 }
 
 export default card

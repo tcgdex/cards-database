@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Ein von Bidifas eingedämmter Fluss tritt niemals über seine Ufer. Dafür sind die Anrainer dankbar."
 	},
 
-	thirdParty: {
-		cardmarket: 280546,
-		tcgplayer: 83821
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280546,
+				tcgplayer: 83821
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280546,
+				tcgplayer: 83821
+			}
+		},
+	],
 }
 
 export default card

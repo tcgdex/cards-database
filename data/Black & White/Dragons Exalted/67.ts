@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Es absorbiert über seine orangefarbenen Kristalle das Sonnenlicht und schießt die so gewonnene Energie aus seinem Maul."
 	},
 
-	thirdParty: {
-		cardmarket: 280506,
-		tcgplayer: 85707
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280506,
+				tcgplayer: 85707
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280506,
+				tcgplayer: 85707
+			}
+		},
+	],
 }
 
 export default card

@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Sobald es einen angemessen großen Stein findet, höhlt es ihn mit einem ätzenden Sekret aus und kriecht hinein."
 	},
 
-	thirdParty: {
-		cardmarket: 280671,
-		tcgplayer: 85063
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280671,
+				tcgplayer: 85063
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280671,
+				tcgplayer: 85063
+			}
+		},
+	],
 }
 
 export default card
