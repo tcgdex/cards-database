@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Mit seiner stolzen und königlichen Erscheinung gewinnt es die Herzen der Menschen."
 	},
 
-	thirdParty: {
-		cardmarket: 280237,
-		tcgplayer: 83588
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280237,
+				tcgplayer: 83588
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280237,
+				tcgplayer: 83588
+			}
+		},
+	],
 }
 
 export default card

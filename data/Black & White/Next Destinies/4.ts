@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Es gibt ein Dorf, das basierend auf den imposanten Rufen dieses Pokémon einen Wettbewerb veranstaltet."
 	},
 
-	thirdParty: {
-		cardmarket: 280229,
-		tcgplayer: 86535
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280229,
+				tcgplayer: 86535
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280229,
+				tcgplayer: 86535
+			}
+		},
+	],
 }
 
 export default card

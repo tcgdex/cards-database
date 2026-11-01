@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Es saugt die Seele eines jeden auf, der in seinen Feuerkranz gerät, bis nur noch eine leere Hülle von ihm übrig ist."
 	},
 
-	thirdParty: {
-		cardmarket: 280245,
-		tcgplayer: 91397
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280245,
+				tcgplayer: 91397
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280245,
+				tcgplayer: 91397
+			}
+		},
+	],
 }
 
 export default card

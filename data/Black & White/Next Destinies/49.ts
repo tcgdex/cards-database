@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Im Flug entlädt es Strom, den es mit seinen Backentaschen erzeugt und in seinen Fluglappen gespeichert hat."
 	},
 
-	thirdParty: {
-		cardmarket: 280274,
-		tcgplayer: 85190
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280274,
+				tcgplayer: 85190
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280274,
+				tcgplayer: 85190
+			}
+		},
+	],
 }
 
 export default card

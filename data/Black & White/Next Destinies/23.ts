@@ -74,10 +74,22 @@ const card: Card = {
 		de: "Wird sein Köper verletzt, kann es sich regenerieren, sofern der rote Kern intakt ist."
 	},
 
-	thirdParty: {
-		cardmarket: 280248,
-		tcgplayer: 89553
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280248,
+				tcgplayer: 89553
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280248,
+				tcgplayer: 89553
+			}
+		},
+	],
 }
 
 export default card

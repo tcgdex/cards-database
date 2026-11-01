@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Es bewegt sich wie mit einer Düse fort, indem es Meerwasser ausstößt. Seine Leibspeise ist Lebensenergie."
 	},
 
-	thirdParty: {
-		cardmarket: 280260,
-		tcgplayer: 86306
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280260,
+				tcgplayer: 86306
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280260,
+				tcgplayer: 86306
+			}
+		},
+	],
 }
 
 export default card

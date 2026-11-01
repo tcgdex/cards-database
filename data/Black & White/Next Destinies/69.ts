@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Ein raffiniertes Pokémon, das in Zusammenarbeit mit einem anderen Sniebel gern Eier stiehlt."
 	},
 
-	thirdParty: {
-		cardmarket: 280294,
-		tcgplayer: 89372
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280294,
+				tcgplayer: 89372
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280294,
+				tcgplayer: 89372
+			}
+		},
+	],
 }
 
 export default card

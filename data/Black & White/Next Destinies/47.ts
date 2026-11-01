@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Wenn es Strom entlädt, blitzt seine Mähne auf. Auf diese Weise kann es auch mit Artgenossen kommunizieren."
 	},
 
-	thirdParty: {
-		cardmarket: 280272,
-		tcgplayer: 83931
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280272,
+				tcgplayer: 83931
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280272,
+				tcgplayer: 83931
+			}
+		},
+	],
 }
 
 export default card

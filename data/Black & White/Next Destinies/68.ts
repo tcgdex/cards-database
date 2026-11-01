@@ -85,10 +85,22 @@ const card: Card = {
 		de: "Es geht seinen Gegnern ans Leder, indem es ihnen mit dem langen Fell seiner Arme wie mit einer Peitsche Hiebe verpasst."
 	},
 
-	thirdParty: {
-		cardmarket: 280293,
-		tcgplayer: 87441
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280293,
+				tcgplayer: 87441
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280293,
+				tcgplayer: 87441
+			}
+		},
+	],
 }
 
 export default card

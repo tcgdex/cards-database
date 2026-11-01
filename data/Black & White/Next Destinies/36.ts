@@ -75,10 +75,22 @@ const card: Card = {
 		de: "Der Schleim, der stets aus seiner Nase hängt, treibt seine Attacken an. Zieht es ihn hoch, steht ein Angriff bevor."
 	},
 
-	thirdParty: {
-		cardmarket: 280261,
-		tcgplayer: 84525
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280261,
+				tcgplayer: 84525
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280261,
+				tcgplayer: 84525
+			}
+		},
+	],
 }
 
 export default card

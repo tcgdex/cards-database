@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Schluckt Unmengen an Wasser, die es in sich zu Schneewolken verwandelt, und plagt Gegner mit hartem Schneetreiben."
 	},
 
-	thirdParty: {
-		cardmarket: 280258,
-		tcgplayer: 90274
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280258,
+				tcgplayer: 90274
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280258,
+				tcgplayer: 90274
+			}
+		},
+	],
 }
 
 export default card

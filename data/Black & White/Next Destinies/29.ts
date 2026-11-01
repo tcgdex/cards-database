@@ -85,10 +85,22 @@ const card: Card = {
 		de: "Speichert Wasser im Büschel auf seinem Kopf. Sinkt der Wasserstand, tankt es über seinen Schweif neue Flüssigkeit."
 	},
 
-	thirdParty: {
-		cardmarket: 280254,
-		tcgplayer: 89219
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280254,
+				tcgplayer: 89219
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280254,
+				tcgplayer: 89219
+			}
+		},
+	],
 }
 
 export default card

@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Ein Legendäres Vogel-Pokémon, das in Gewitterwolken leben soll. Es kontrolliert Blitze."
 	},
 
-	thirdParty: {
-		cardmarket: 280266,
-		tcgplayer: 90721
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280266,
+				tcgplayer: 90721
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280266,
+				tcgplayer: 90721
+			}
+		},
+	],
 }
 
 export default card

@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Ein aus Mythen bekanntes Pokémon. Es wirbelt mit seinem Schweif Feuer auf, mit dem es alles in Asche legt."
 	},
 
-	thirdParty: {
-		cardmarket: 280246,
-		tcgplayer: 88707
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280246,
+				tcgplayer: 88707
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280246,
+				tcgplayer: 88707
+			}
+		},
+	],
 }
 
 export default card

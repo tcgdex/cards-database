@@ -70,10 +70,22 @@ const card: Card = {
 		de: "Fühlt es sich bedroht, wehrt es sich, indem es eine großzügige Salve Dornen abfeuert."
 	},
 
-	thirdParty: {
-		cardmarket: 280302,
-		tcgplayer: 85427
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280302,
+				tcgplayer: 85427
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280302,
+				tcgplayer: 85427
+			}
+		},
+	],
 }
 
 export default card

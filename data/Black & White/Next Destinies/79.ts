@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Sein feines Fell fühlt sich herrlich an. Es kann sich größer machen, indem es Luft einatmet."
 	},
 
-	thirdParty: {
-		cardmarket: 280304,
-		tcgplayer: 90600
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280304,
+				tcgplayer: 90600
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280304,
+				tcgplayer: 90600
+			}
+		},
+	],
 }
 
 export default card

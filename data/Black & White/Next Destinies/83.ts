@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Ein Pokémon, das in der Stadt zu Hause ist. Es ist sehr zutraulich und bevölkert in Scharen öffentliche Plätze und Parks."
 	},
 
-	thirdParty: {
-		cardmarket: 280308,
-		tcgplayer: 88058
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280308,
+				tcgplayer: 88058
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280308,
+				tcgplayer: 88058
+			}
+		},
+	],
 }
 
 export default card

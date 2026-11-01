@@ -98,10 +98,22 @@ const card: Card = {
 		de: "Es lockt seine Beute an, indem es die Hüte in Form von Pokébällen an seinen Armen rüttelt und einen Tanz aufführt."
 	},
 
-	thirdParty: {
-		cardmarket: 280234,
-		tcgplayer: 83532
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280234,
+				tcgplayer: 83532
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280234,
+				tcgplayer: 83532
+			}
+		},
+	],
 }
 
 export default card

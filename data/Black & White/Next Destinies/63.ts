@@ -76,10 +76,22 @@ const card: Card = {
 		de: "Es hat die eigenartige Fähigkeit, Gefühle wie Freude oder Wut in Wellenform zu sehen."
 	},
 
-	thirdParty: {
-		cardmarket: 280288,
-		tcgplayer: 88759
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280288,
+				tcgplayer: 88759
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280288,
+				tcgplayer: 88759
+			}
+		},
+	],
 }
 
 export default card

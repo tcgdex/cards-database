@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Sein weißer Flaum ist mit einem speziellen Öl überzogen. Gegnerische Angriffe gleten daran einfach ab."
 	},
 
-	thirdParty: {
-		cardmarket: 280310,
-		tcgplayer: 84319
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280310,
+				tcgplayer: 84319
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280310,
+				tcgplayer: 84319
+			}
+		},
+	],
 }
 
 export default card
