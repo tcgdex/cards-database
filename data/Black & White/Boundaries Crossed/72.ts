@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Analysiert mit den Fühlern an Kopf und Schweif Luftzüge, um seine Gegner zu orten und ihren Zustand zu erkennen."
 	},
 
-	thirdParty: {
-		cardmarket: 280659,
-		tcgplayer: 90296
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280659,
+				tcgplayer: 90296
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280659,
+				tcgplayer: 90296
+			}
+		},
+	],
 }
 
 export default card

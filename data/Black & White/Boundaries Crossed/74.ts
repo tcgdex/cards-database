@@ -93,10 +93,22 @@ const card: Card = {
 		de: "Lähmt seine Beute, indem es sie mit den Zacken an seinem Hals aufspießt. Mit einer Ladung Gift gibt es ihr den Rest."
 	},
 
-	thirdParty: {
-		cardmarket: 280661,
-		tcgplayer: 88970
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280661,
+				tcgplayer: 88970
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280661,
+				tcgplayer: 88970
+			}
+		},
+	],
 }
 
 export default card

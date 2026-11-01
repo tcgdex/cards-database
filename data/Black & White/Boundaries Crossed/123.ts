@@ -70,10 +70,22 @@ const card: Card = {
 		de: "Wartet oft vergeblich auf Anweisungen, obwohl es bereits einen Befehl erhalten hat. Ein sehr zerstreutes Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 280710,
-		tcgplayer: 88059
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280710,
+				tcgplayer: 88059
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280710,
+				tcgplayer: 88059
+			}
+		},
+	],
 }
 
 export default card

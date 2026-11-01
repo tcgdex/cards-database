@@ -64,10 +64,22 @@ const card: Card = {
 		de: "In seinem Körper fließt 1 200 Grad heißes Magma. Nach Einsatz einer Feuer-Attacke schrumpft sein Höcker."
 	},
 
-	thirdParty: {
-		cardmarket: 280608,
-		tcgplayer: 87817
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280608,
+				tcgplayer: 87817
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280608,
+				tcgplayer: 87817
+			}
+		},
+	],
 }
 
 export default card

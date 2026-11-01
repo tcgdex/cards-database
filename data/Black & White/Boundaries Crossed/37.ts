@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Seine langen Ohren sind hervorragende Sensoren. Mit ihnen kann es die Quellen aller Geräusche des Flusses ausmachen."
 	},
 
-	thirdParty: {
-		cardmarket: 280624,
-		tcgplayer: 83686
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280624,
+				tcgplayer: 83686
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280624,
+				tcgplayer: 83686
+			}
+		},
+	],
 }
 
 export default card

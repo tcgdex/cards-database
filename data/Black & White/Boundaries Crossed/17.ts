@@ -94,10 +94,22 @@ const card: Card = {
 		de: "Der Duft, den der Blumenschmuck auf seinem Kopf absondert, wirkt beruhigend, aber es ist nicht gerade pflegeleicht."
 	},
 
-	thirdParty: {
-		cardmarket: 280604,
-		tcgplayer: 86796
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280604,
+				tcgplayer: 86796
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280604,
+				tcgplayer: 86796
+			}
+		},
+	],
 }
 
 export default card

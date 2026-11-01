@@ -58,10 +58,22 @@ const card: Card = {
 		de: "Sieht aus wie ein Pokéball. Es ist gefährlich, da es bei Berührung explodieren kann."
 	},
 
-	thirdParty: {
-		cardmarket: 280638,
-		tcgplayer: 90423
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280638,
+				tcgplayer: 90423
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280638,
+				tcgplayer: 90423
+			}
+		},
+	],
 }
 
 export default card

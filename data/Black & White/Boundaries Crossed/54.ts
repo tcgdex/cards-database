@@ -89,10 +89,22 @@ const card: Card = {
 		de: "Es berührt Gegner mit seinen beiden Schweifspitzen und entlädt dabei geballte 20 000 Volt."
 	},
 
-	thirdParty: {
-		cardmarket: 280641,
-		tcgplayer: 85124
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280641,
+				tcgplayer: 85124
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280641,
+				tcgplayer: 85124
+			}
+		},
+	],
 }
 
 export default card

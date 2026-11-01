@@ -95,10 +95,22 @@ const card: Card = {
 		de: "Setzt seine mit Markierungen versehenen Scheren ein, um Gegner einzuschüchtern."
 	},
 
-	thirdParty: {
-		cardmarket: 280681,
-		tcgplayer: 88965
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280681,
+				tcgplayer: 88965
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280681,
+				tcgplayer: 88965
+			}
+		},
+	],
 }
 
 export default card

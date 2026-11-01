@@ -84,10 +84,22 @@ const card: Card = {
 		de: "Nutzt Nahrung als Brennstoff, um das Feuer in seinem Magen zu schüren. Mit Wut im Bauch heizt es ungleich stärker."
 	},
 
-	thirdParty: {
-		cardmarket: 280612,
-		tcgplayer: 88062
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280612,
+				tcgplayer: 88062
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280612,
+				tcgplayer: 88062
+			}
+		},
+	],
 }
 
 export default card

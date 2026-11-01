@@ -79,10 +79,50 @@ const card: Card = {
 		de: "Es trägt den ganzen Tag Essen mit sich herum, das es mit Menschen teilt, die in den Bergen feststecken."
 	},
 
-	thirdParty: {
-		cardmarket: 280625,
-		tcgplayer: 84751
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280625,
+				tcgplayer: 84751
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['1st-place', 'poke-ball-league'],
+			thirdParty: {
+				cardmarket: 449413
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['2nd-place', 'poke-ball-league'],
+			thirdParty: {
+				cardmarket: 449418
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['3rd-place', 'poke-ball-league'],
+			thirdParty: {
+				cardmarket: 449423
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['4th-place', 'poke-ball-league'],
+			thirdParty: {
+				cardmarket: 449428
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280625,
+				tcgplayer: 84751
+			}
+		},
+	],
 }
 
 export default card

@@ -80,10 +80,22 @@ const card: Card = {
 		de: "Ist sein Magen voll, wird es sehr lethargisch. Nun kann man problemlos auf seinem Bauch umherspringen."
 	},
 
-	thirdParty: {
-		cardmarket: 280696,
-		tcgplayer: 89393
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280696,
+				tcgplayer: 89393
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280696,
+				tcgplayer: 89393
+			}
+		},
+	],
 }
 
 export default card

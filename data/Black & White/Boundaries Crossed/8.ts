@@ -77,10 +77,22 @@ const card: Card = {
 		de: "Mit seinem prämierten Horn schleudert es jeden noch so schweren Gegner bis in weite Ferne."
 	},
 
-	thirdParty: {
-		cardmarket: 280595,
-		tcgplayer: 86066
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280595,
+				tcgplayer: 86066
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280595,
+				tcgplayer: 86066
+			}
+		},
+	],
 }
 
 export default card

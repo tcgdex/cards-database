@@ -62,10 +62,22 @@ const card: Card = {
 		de: "Es nutzt seinen Schweif als Sprungfeder, um sein Herz am Pumpen zu halten. Hört es auf zu springen, stirbt es."
 	},
 
-	thirdParty: {
-		cardmarket: 280646,
-		tcgplayer: 89479
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280646,
+				tcgplayer: 89479
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280646,
+				tcgplayer: 89479
+			}
+		},
+	],
 }
 
 export default card

@@ -80,10 +80,22 @@ const card: Card = {
 		de: "Fristet sein Leben in selbst gegrabenen Löchern. Bei Gefahr rollt es sich zusammen und sitzt den Angriff aus."
 	},
 
-	thirdParty: {
-		cardmarket: 280665,
-		tcgplayer: 88927
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280665,
+				tcgplayer: 88927
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280665,
+				tcgplayer: 88927
+			}
+		},
+	],
 }
 
 export default card

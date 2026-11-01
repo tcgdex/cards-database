@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Man sagt, es werde 10 000 Jahre alt. Sein buschiger Schweif ist ein Symbol für langes Leben."
 	},
 
-	thirdParty: {
-		cardmarket: 280617,
-		tcgplayer: 90492
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280617,
+				tcgplayer: 90492
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280617,
+				tcgplayer: 90492
+			}
+		},
+	],
 }
 
 export default card

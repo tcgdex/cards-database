@@ -65,10 +65,22 @@ const card: Card = {
 		de: "Sind sie mit Freunden unterwegs, hängen sie eng aufeinander wie Wolken, wohl weil sie sich in der Gruppe sicherer fühlen."
 	},
 
-	thirdParty: {
-		cardmarket: 280601,
-		tcgplayer: 84447
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280601,
+				tcgplayer: 84447
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280601,
+				tcgplayer: 84447
+			}
+		},
+	],
 }
 
 export default card

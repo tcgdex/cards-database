@@ -72,10 +72,22 @@ const card: Card = {
 		de: "Eine kühle Denkernatur. Bekommt es genügend Sonnenlicht ab, erhöht sich die Geschwindigkeit seiner Bewegungen."
 	},
 
-	thirdParty: {
-		cardmarket: 280598,
-		tcgplayer: 89380
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280598,
+				tcgplayer: 89380
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280598,
+				tcgplayer: 89380
+			}
+		},
+	],
 }
 
 export default card

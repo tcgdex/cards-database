@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Es spart sich seine Kraft für seine Entwicklung und bewegt sich nur, um sich mit seinen Giftspitzen zu verteidigen."
 	},
 
-	thirdParty: {
-		cardmarket: 280660,
-		tcgplayer: 90572
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280660,
+				tcgplayer: 90572
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280660,
+				tcgplayer: 90572
+			}
+		},
+	],
 }
 
 export default card

@@ -61,10 +61,22 @@ const card: Card = {
 		de: "Leidet unter stetigem Kopfschmerz, ausgelöst durch seltsame Kräfte, die es aber auch einsetzen kann."
 	},
 
-	thirdParty: {
-		cardmarket: 280619,
-		tcgplayer: 88441
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280619,
+				tcgplayer: 88441
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280619,
+				tcgplayer: 88441
+			}
+		},
+	],
 }
 
 export default card

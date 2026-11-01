@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Beginnt seine Stirn unheilvoll zu leuchten, bedeutet dies, dass es nun seine volle Macht entfesseln kann."
 	},
 
-	thirdParty: {
-		cardmarket: 280621,
-		tcgplayer: 85819
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280622,
+				tcgplayer: 85819
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280622,
+				tcgplayer: 85819
+			}
+		},
+	],
 }
 
 export default card

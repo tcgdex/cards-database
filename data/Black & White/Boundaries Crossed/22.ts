@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Seine Vulkanhöcker brechen nur alle zehn Jahre aus oder wenn es richtig wütend ist."
 	},
 
-	thirdParty: {
-		cardmarket: 280609,
-		tcgplayer: 84095
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280609,
+				tcgplayer: 84095
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280609,
+				tcgplayer: 84095
+			}
+		},
+	],
 }
 
 export default card

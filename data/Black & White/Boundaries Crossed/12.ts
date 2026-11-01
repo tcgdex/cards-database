@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Huscht beinahe gleitend über den Boden und täuscht Gegner mit agilen Manövern, bis es mithilfe seiner Efeurute obsiegt."
 	},
 
-	thirdParty: {
-		cardmarket: 280599,
-		tcgplayer: 89078
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280599,
+				tcgplayer: 89078
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280599,
+				tcgplayer: 89078
+			}
+		},
+	],
 }
 
 export default card

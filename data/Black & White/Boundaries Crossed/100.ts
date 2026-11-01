@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Ein Legendäres Eis-Pokémon, das auf den Helden wartet, der seinen verstümmelten Körper mit Wunsch und Wirklichkeit heilt."
 	},
 
-	thirdParty: {
-		cardmarket: 280687,
-		tcgplayer: 83851
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280687,
+				tcgplayer: 83851
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280687,
+				tcgplayer: 83851
+			}
+		},
+	],
 }
 
 export default card

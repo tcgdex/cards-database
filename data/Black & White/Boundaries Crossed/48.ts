@@ -78,10 +78,22 @@ const card: Card = {
 		de: "Gleitet über das Wasser, indem es seine Hufe als Wasserdüsen nutzt. Seine Beintechnik verschafft ihm im Kampf Vorteile."
 	},
 
-	thirdParty: {
-		cardmarket: 280634,
-		tcgplayer: 86434
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280635,
+				tcgplayer: 86434
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280635,
+				tcgplayer: 86434
+			}
+		},
+	],
 }
 
 export default card

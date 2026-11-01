@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Zum Schlafen zieht es Arme und Beine ein und senkt seine innere Körpertemperatur auf 600 Grad, um sich zu entspannen."
 	},
 
-	thirdParty: {
-		cardmarket: 280614,
-		tcgplayer: 84722
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280614,
+				tcgplayer: 84722
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280614,
+				tcgplayer: 84722
+			}
+		},
+	],
 }
 
 export default card

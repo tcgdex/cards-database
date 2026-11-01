@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Es eignet sich durch strenges Training elegant ineinander übergehende Attacken mit seinen zwei Muscheln an."
 	},
 
-	thirdParty: {
-		cardmarket: 280627,
-		tcgplayer: 84795
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280627,
+				tcgplayer: 84795
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280627,
+				tcgplayer: 84795
+			}
+		},
+	],
 }
 
 export default card

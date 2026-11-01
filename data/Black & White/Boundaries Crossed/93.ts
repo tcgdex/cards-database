@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Es baut sein Nest aus Knochen. Ist seine Beute geschwächt, packt es sie mit den Beinen und trägt sie zu seinem Nest."
 	},
 
-	thirdParty: {
-		cardmarket: 280680,
-		tcgplayer: 87152
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280680,
+				tcgplayer: 87152
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280680,
+				tcgplayer: 87152
+			}
+		},
+	],
 }
 
 export default card

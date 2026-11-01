@@ -72,10 +72,22 @@ const card: Card = {
 		de: "Es kann selbst kaum glauben, wie hoch es fliegt, wenn es seine aufgerollten Ohren mit großer Wucht zu Boden schnellt."
 	},
 
-	thirdParty: {
-		cardmarket: 280703,
-		tcgplayer: 84045
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280703,
+				tcgplayer: 84045
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280703,
+				tcgplayer: 84045
+			}
+		},
+	],
 }
 
 export default card

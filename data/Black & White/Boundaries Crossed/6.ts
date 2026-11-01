@@ -95,10 +95,22 @@ const card: Card = {
 		de: "Seine regenerativen Kräfte sind so stark, dass ein Arm sofort nachwächst, wenn er gefressen wird."
 	},
 
-	thirdParty: {
-		cardmarket: 280593,
-		tcgplayer: 89755
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280593,
+				tcgplayer: 89755
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280593,
+				tcgplayer: 89755
+			}
+		},
+	],
 }
 
 export default card

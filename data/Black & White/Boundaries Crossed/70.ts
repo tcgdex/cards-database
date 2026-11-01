@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Es verheißt Glück, wenn sich ein Fleknoil an einem Menschen festsaugt und auf ihm einen herzförmigen Fleck hinterlässt."
 	},
 
-	thirdParty: {
-		cardmarket: 280657,
-		tcgplayer: 90627
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280657,
+				tcgplayer: 90627
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280657,
+				tcgplayer: 90627
+			}
+		},
+	],
 }
 
 export default card

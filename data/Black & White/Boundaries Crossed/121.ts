@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Dieses äußerst treue Pokémon geht nicht nur seinem Trainer zur Hand, sondern hilft auch anderen Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 280708,
-		tcgplayer: 86071
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280708,
+				tcgplayer: 86071
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280708,
+				tcgplayer: 86071
+			}
+		},
+	],
 }
 
 export default card

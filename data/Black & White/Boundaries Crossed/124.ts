@@ -77,10 +77,22 @@ const card: Card = {
 		de: "Findet selbst von der anderen Seite des Globus zu seinem Nest zurück. Nichts kann es von seinem Trainer trennen."
 	},
 
-	thirdParty: {
-		cardmarket: 280711,
-		tcgplayer: 90016
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280711,
+				tcgplayer: 90016
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280711,
+				tcgplayer: 90016
+			}
+		},
+	],
 }
 
 export default card

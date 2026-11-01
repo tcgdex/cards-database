@@ -67,6 +67,23 @@ const card: Card = {
 		en: "It can't live without the stalk it holds. That's why it defends the stalk from attackers with its life.",
 		de: "Ohne seinen Stock kann es nicht leben. Daher beschützt es den Stock mit seinem Leben."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280694,
+				tcgplayer: 85389
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280694,
+				tcgplayer: 85389
+			}
+		},
+	],
 }
 
 export default card
