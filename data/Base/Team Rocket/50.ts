@@ -83,7 +83,11 @@ const card: Card = {
 		},
 		{
 			type: "normal",
-			subtype: "d-ink-dot-error"
+			subtype: "d-ink-dot-error",
+			thirdParty: {
+				cardmarket: 274103,
+				tcgplayer: 84204
+			}
 		},
 		{
 			type: "normal",
@@ -92,8 +96,8 @@ const card: Card = {
 				cardmarket: 274103,
 				tcgplayer: 84204
 			}
-		}
-	]
+		},
+	],
 }
 
 export default card

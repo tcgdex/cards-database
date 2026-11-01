@@ -75,10 +75,22 @@ const card: Card = {
 		de: "Da sein Körper von einer speziellen Flüssigkeit umgeben ist, kann es in jedem Umfeld überleben."
 	},
 
-	thirdParty: {
-		cardmarket: 279793,
-		tcgplayer: 89420
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279793,
+				tcgplayer: 89420
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279793,
+				tcgplayer: 89420
+			}
+		},
+	],
 }
 
 export default card

@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Frisst es den Traum eines Menschen, vergisst der Träumer dessen Inhalt. Es schwebt stets durch die Luft."
 	},
 
-	thirdParty: {
-		cardmarket: 279786,
-		tcgplayer: 87641
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279786,
+				tcgplayer: 87641
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279786,
+				tcgplayer: 87641
+			}
+		},
+	],
 }
 
 export default card

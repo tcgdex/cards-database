@@ -62,9 +62,9 @@ const card: Card = {
 			stamp: ["pokemon-4-ever"],
 			thirdParty: {
 				tcgplayer: 89601
-			},
-		}
-	]
+			}
+		},
+	],
 }
 
 export default card

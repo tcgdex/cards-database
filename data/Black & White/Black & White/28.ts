@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Die Muschel auf seinem Bauch besteht aus demselben Material wie seine Krallen. Nimmt es sie ab, fungiert sie als Klinge."
 	},
 
-	thirdParty: {
-		cardmarket: 279765,
-		tcgplayer: 87891
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279766,
+				tcgplayer: 87891
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279766,
+				tcgplayer: 87891
+			}
+		},
+	],
 }
 
 export default card

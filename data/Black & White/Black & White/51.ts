@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Es sendet über seine Nase Schallwellen mit verschiedenen Frequenzen aus. Mit manchen kann es sogar Felsen zerstören."
 	},
 
-	thirdParty: {
-		cardmarket: 279789,
-		tcgplayer: 89724
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279789,
+				tcgplayer: 89724
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279789,
+				tcgplayer: 89724
+			}
+		},
+	],
 }
 
 export default card

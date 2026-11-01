@@ -69,10 +69,22 @@ const card: Card = {
 		de: "Wie es seine Attacken ausführt, ist von Exemplar zu Exemplar unterschiedlich. Es gibt sehr auf seine Muscheln acht."
 	},
 
-	thirdParty: {
-		cardmarket: 279767,
-		tcgplayer: 84794
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279768,
+				tcgplayer: 84794
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279768,
+				tcgplayer: 84794
+			}
+		},
+	],
 }
 
 export default card
