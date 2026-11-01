@@ -91,10 +91,22 @@ const card: Card = {
 		de: "Friert Beute durch seinen -50 Grad kalten Atem ein. Es soll diese Beute dann heimlich ausstellen."
 	},
 
-	thirdParty: {
-		cardmarket: 281044,
-		tcgplayer: 85574
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281044,
+				tcgplayer: 85574
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281044,
+				tcgplayer: 85574
+			}
+		},
+	],
 }
 
 export default card

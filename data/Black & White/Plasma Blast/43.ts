@@ -69,10 +69,22 @@ const card: Card = {
 		de: "Wenn beide Hälften seines gespaltenen Denkapparates an dasselbe denken, sind seine Psycho-Kräfte am stärksten."
 	},
 
-	thirdParty: {
-		cardmarket: 281064,
-		tcgplayer: 85018
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281064,
+				tcgplayer: 85018
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281064,
+				tcgplayer: 85018
+			}
+		},
+	],
 }
 
 export default card

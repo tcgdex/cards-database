@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Es wurde umprogrammiert, um in außerirdischen Dimensionen arbeiten zu können. Leider schlug das fehl."
 	},
 
-	thirdParty: {
-		cardmarket: 281095,
-		tcgplayer: 88319
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281095,
+				tcgplayer: 88319
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281095,
+				tcgplayer: 88319
+			}
+		},
+	],
 }
 
 export default card

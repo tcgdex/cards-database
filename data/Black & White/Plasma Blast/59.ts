@@ -96,10 +96,22 @@ const card: Card = {
 		de: "Ihre Reviere erstrecken sich über ganze Gebirge. Stolloss, die mit Narben übersät sind, sollte man besser meiden."
 	},
 
-	thirdParty: {
-		cardmarket: 281080,
-		tcgplayer: 83482
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281080,
+				tcgplayer: 83482
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281080,
+				tcgplayer: 83482
+			}
+		},
+	],
 }
 
 export default card

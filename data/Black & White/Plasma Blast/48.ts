@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Es hievt gern schwere Ladung, um so zu trainieren. Es hilft auch gern anderen bei harter Arbeit."
 	},
 
-	thirdParty: {
-		cardmarket: 281069,
-		tcgplayer: 86985
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281069,
+				tcgplayer: 86985
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281069,
+				tcgplayer: 86985
+			}
+		},
+	],
 }
 
 export default card
