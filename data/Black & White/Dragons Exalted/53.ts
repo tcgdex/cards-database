@@ -78,10 +78,22 @@ const card: Card = {
 		de: "Hat ein Faible für schmutzige Orte. Wer das Gas einatmet, das es mit Rülpslauten ausstößt, schläft eine Woche durch."
 	},
 
-	thirdParty: {
-		cardmarket: 280492,
-		tcgplayer: 90066
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280492,
+				tcgplayer: 90066
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280492,
+				tcgplayer: 90066
+			}
+		},
+	],
 }
 
 export default card

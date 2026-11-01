@@ -99,10 +99,22 @@ const card: Card = {
 		de: "Auf der Suche nach Eisen, seiner Nahrung, gräbt es mit seinen Stahlhörnern sogar Tunnel durch Felsen."
 	},
 
-	thirdParty: {
-		cardmarket: 280519,
-		tcgplayer: 83481
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280519,
+				tcgplayer: 83481
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280519,
+				tcgplayer: 83481
+			}
+		},
+	],
 }
 
 export default card

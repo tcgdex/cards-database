@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Seine Schweifspitze leuchtet hell. In alten Zeiten hat man mit seiner Hilfe Lichtsignale gegeben."
 	},
 
-	thirdParty: {
-		cardmarket: 280479,
-		tcgplayer: 83547
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280479,
+				tcgplayer: 83547
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280479,
+				tcgplayer: 83547
+			}
+		},
+	],
 }
 
 export default card

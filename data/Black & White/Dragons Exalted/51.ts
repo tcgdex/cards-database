@@ -85,10 +85,22 @@ const card: Card = {
 		de: "In der Dämmerung steigen ganze Schwärme in die Lüfte, verschwinden aber sofort, wenn man sie bemerkt."
 	},
 
-	thirdParty: {
-		cardmarket: 280490,
-		tcgplayer: 84949
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280490,
+				tcgplayer: 84949
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280490,
+				tcgplayer: 84949
+			}
+		},
+	],
 }
 
 export default card

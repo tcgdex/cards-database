@@ -93,10 +93,22 @@ const card: Card = {
 		de: "Es fliegt rastlos durch die Lüfte und greift jeden an, der ihm unter die Augen kommt. Ein äußerst kaltblütiges Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 280536,
-		tcgplayer: 86241
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280536,
+				tcgplayer: 86241
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280536,
+				tcgplayer: 86241
+			}
+		},
+	],
 }
 
 export default card

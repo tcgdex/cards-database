@@ -85,10 +85,22 @@ const card: Card = {
 		de: "Es vergisst keinen Angriff, den es im Kokon erdulden musste. Nach der Entwicklung sinnt es auf Rache."
 	},
 
-	thirdParty: {
-		cardmarket: 280448,
-		tcgplayer: 84123
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280448,
+				tcgplayer: 84123
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280448,
+				tcgplayer: 84123
+			}
+		},
+	],
 }
 
 export default card

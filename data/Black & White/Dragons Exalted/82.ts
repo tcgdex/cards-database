@@ -95,10 +95,22 @@ const card: Card = {
 		de: "Es steuert drei kleine Einheiten mithilfe von starkem Magnetismus. Man nennt sie Mininasen."
 	},
 
-	thirdParty: {
-		cardmarket: 280521,
-		tcgplayer: 88379
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280521,
+				tcgplayer: 88379
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280521,
+				tcgplayer: 88379
+			}
+		},
+	],
 }
 
 export default card

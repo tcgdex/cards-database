@@ -80,10 +80,22 @@ const card: Card = {
 		de: "Es balanciert Dinge auf seiner Nase. Dabei lernt es etwas über die Beschaffenheit und den Geruch."
 	},
 
-	thirdParty: {
-		cardmarket: 280469,
-		tcgplayer: 89034
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280469,
+				tcgplayer: 89034
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280469,
+				tcgplayer: 89034
+			}
+		},
+	],
 }
 
 export default card

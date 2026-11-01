@@ -81,10 +81,22 @@ const card: Card = {
 		de: "Lebt in den Wipfeln der Waldbäume. Während es durch die Lüfte gleitet, entlädt es Strom aus seinen Fluglappen."
 	},
 
-	thirdParty: {
-		cardmarket: 280484,
-		tcgplayer: 85191
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280484,
+				tcgplayer: 85191
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280484,
+				tcgplayer: 85191
+			}
+		},
+	],
 }
 
 export default card

@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Es streut mit jedem Flügelschlag giftiges Pulver. Nachts entfernt es die Blätter von Bäumen an Alleen."
 	},
 
-	thirdParty: {
-		cardmarket: 280486,
-		tcgplayer: 85059
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280486,
+				tcgplayer: 85059
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280486,
+				tcgplayer: 85059
+			}
+		},
+	],
 }
 
 export default card

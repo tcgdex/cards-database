@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Es beißt einfach alles und jeden und frisst, was ihm zwischen die Zähne kommt. Man nähert sich ihm besser mit Bedacht."
 	},
 
-	thirdParty: {
-		cardmarket: 280532,
-		tcgplayer: 84729
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280532,
+				tcgplayer: 84729
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280532,
+				tcgplayer: 84729
+			}
+		},
+	],
 }
 
 export default card

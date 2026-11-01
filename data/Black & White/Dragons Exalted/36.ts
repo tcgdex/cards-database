@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Es schießt eine lähmende Flüssigkeit aus den Beulen auf seinem Kopf. Es plagt seine Gegner mit Schallwellen."
 	},
 
-	thirdParty: {
-		cardmarket: 280475,
-		tcgplayer: 89058
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280475,
+				tcgplayer: 89058
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280475,
+				tcgplayer: 89058
+			}
+		},
+	],
 }
 
 export default card

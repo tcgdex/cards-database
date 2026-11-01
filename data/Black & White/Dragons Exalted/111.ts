@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Kann mit seinen Füßen Nüsse zermalmen. Es stellt sich jedem noch so starken Gegner tapfer zum Kampf."
 	},
 
-	thirdParty: {
-		cardmarket: 280550,
-		tcgplayer: 88843
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280550,
+				tcgplayer: 88843
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280550,
+				tcgplayer: 88843
+			}
+		},
+	],
 }
 
 export default card

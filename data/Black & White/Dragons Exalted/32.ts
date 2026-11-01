@@ -58,10 +58,22 @@ const card: Card = {
 		de: "Dreht seine zwei Schweife wie eine Schraube, um schnell zu schwimmen, und zum Zerschneiden von Algen."
 	},
 
-	thirdParty: {
-		cardmarket: 280471,
-		tcgplayer: 84023
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280471,
+				tcgplayer: 84023
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280471,
+				tcgplayer: 84023
+			}
+		},
+	],
 }
 
 export default card

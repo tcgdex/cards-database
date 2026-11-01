@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Es ist mit seinen beiden Schweifen so geschickt, dass es seine Hände nur noch selten gebraucht."
 	},
 
-	thirdParty: {
-		cardmarket: 280539,
-		tcgplayer: 83529
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280539,
+				tcgplayer: 83529
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280539,
+				tcgplayer: 83529
+			}
+		},
+	],
 }
 
 export default card

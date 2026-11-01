@@ -76,10 +76,22 @@ const card: Card = {
 		de: "An sonnigen Tagen trifft man diese Pokémon an Stränden, wo sie wie Bälle herumhüpfen."
 	},
 
-	thirdParty: {
-		cardmarket: 280464,
-		tcgplayer: 90456
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280464,
+				tcgplayer: 90456
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280464,
+				tcgplayer: 90456
+			}
+		},
+	],
 }
 
 export default card

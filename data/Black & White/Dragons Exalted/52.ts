@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Einst war es der Wächter einer Stadt aus uralten Zeiten. Wer sich in sein Revier wagt, lernt seine Psycho-Kräfte kennen."
 	},
 
-	thirdParty: {
-		cardmarket: 280491,
-		tcgplayer: 89206
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280491,
+				tcgplayer: 89206
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280491,
+				tcgplayer: 89206
+			}
+		},
+	],
 }
 
 export default card

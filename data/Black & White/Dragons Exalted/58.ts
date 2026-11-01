@@ -77,10 +77,22 @@ const card: Card = {
 		de: "Es wird durch eine Energie angetrieben, die seinem Körper entspringt. Keiner weiß jedoch, woher diese Energie stammt."
 	},
 
-	thirdParty: {
-		cardmarket: 280497,
-		tcgplayer: 85833
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280497,
+				tcgplayer: 85833
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280497,
+				tcgplayer: 85833
+			}
+		},
+	],
 }
 
 export default card

@@ -94,10 +94,22 @@ const card: Card = {
 		de: "Von Geburt an trägt dieses wilde Pokémon Knochen. Es setzt sie talentiert als Waffen ein."
 	},
 
-	thirdParty: {
-		cardmarket: 280500,
-		tcgplayer: 87229
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280500,
+				tcgplayer: 87229
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280500,
+				tcgplayer: 87229
+			}
+		},
+	],
 }
 
 export default card

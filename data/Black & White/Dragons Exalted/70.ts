@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Es vergräbt sich im Morast am Meeresboden. Wird es von seiner Beute gestreift, lähmt es sie mit Strom."
 	},
 
-	thirdParty: {
-		cardmarket: 280509,
-		tcgplayer: 89581
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280509,
+				tcgplayer: 89581
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280509,
+				tcgplayer: 89581
+			}
+		},
+	],
 }
 
 export default card

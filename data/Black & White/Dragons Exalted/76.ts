@@ -69,10 +69,22 @@ const card: Card = {
 		de: "Versprüht eine Substanz aus seinem Hinterleib, die in einem großen Radius andere Pokémon fernhält."
 	},
 
-	thirdParty: {
-		cardmarket: 280515,
-		tcgplayer: 89588
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280515,
+				tcgplayer: 89588
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280515,
+				tcgplayer: 89588
+			}
+		},
+	],
 }
 
 export default card

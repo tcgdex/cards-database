@@ -75,10 +75,22 @@ const card: Card = {
 		de: "Sobald es wärmer wird, blüht es auf. Es schwebt am Himmel und nimmt so viel Sonnenlicht auf wie möglich."
 	},
 
-	thirdParty: {
-		cardmarket: 280441,
-		tcgplayer: 89258
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280441,
+				tcgplayer: 89258
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280441,
+				tcgplayer: 89258
+			}
+		},
+	],
 }
 
 export default card

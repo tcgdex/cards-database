@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Wütet ein Garados, wird es alles niederbrennen. Dies geschieht selbst während eines Sturms."
 	},
 
-	thirdParty: {
-		cardmarket: 280463,
-		tcgplayer: 86000
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280463,
+				tcgplayer: 86000
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280463,
+				tcgplayer: 86000
+			}
+		},
+	],
 }
 
 export default card

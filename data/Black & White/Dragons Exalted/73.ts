@@ -95,10 +95,22 @@ const card: Card = {
 		de: "Sein tiefer Ruf lockt andere Kramurx herbei. Man anennt es daher „Beschwörer der Nacht“."
 	},
 
-	thirdParty: {
-		cardmarket: 280512,
-		tcgplayer: 86163
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280512,
+				tcgplayer: 86163
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280512,
+				tcgplayer: 86163
+			}
+		},
+	],
 }
 
 export default card

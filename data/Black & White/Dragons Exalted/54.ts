@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Es nimmt mit dem rechten Arm Gegner in die Mangel und gibt ihnen mit dem giftigen Gas aus seinem Maul den Rest."
 	},
 
-	thirdParty: {
-		cardmarket: 280493,
-		tcgplayer: 85616
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280493,
+				tcgplayer: 85616
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280493,
+				tcgplayer: 85616
+			}
+		},
+	],
 }
 
 export default card
