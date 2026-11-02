@@ -69,10 +69,22 @@ const card: Card = {
 		en: "They live on treetops and glide using the inside of a cape-like membrane while discharging electricity.",
 	},
 
-	thirdParty: {
-		cardmarket: 281147,
-		tcgplayer: 85192
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281200,
+				tcgplayer: 85192
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281200,
+				tcgplayer: 85192
+			}
+		},
+	],
 }
 
 export default card

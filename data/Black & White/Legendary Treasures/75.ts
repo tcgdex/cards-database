@@ -54,10 +54,22 @@ const card: Card = {
 		en: "Since they have two divided brains, at times they suddenly try to take two different actions at once.",
 	},
 
-	thirdParty: {
-		cardmarket: 281226,
-		tcgplayer: 85019
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281226,
+				tcgplayer: 85019
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281226,
+				tcgplayer: 85019
+			}
+		},
+	],
 }
 
 export default card

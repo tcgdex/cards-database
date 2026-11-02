@@ -60,10 +60,22 @@ const card: Card = {
 		en: "They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.",
 	},
 
-	thirdParty: {
-		cardmarket: 281150,
-		tcgplayer: 89381
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281157,
+				tcgplayer: 89381
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281157,
+				tcgplayer: 89381
+			}
+		},
+	],
 }
 
 export default card

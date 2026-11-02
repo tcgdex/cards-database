@@ -70,10 +70,22 @@ const card: Card = {
 		en: "It increases the power of its punches by vibrating the bumps on its fists. It can turn a boulder to rubble with one punch.",
 	},
 
-	thirdParty: {
-		cardmarket: 281193,
-		tcgplayer: 89059
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281193,
+				tcgplayer: 89059
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281193,
+				tcgplayer: 89059
+			}
+		},
+	],
 }
 
 export default card

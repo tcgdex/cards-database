@@ -73,10 +73,22 @@ const card: Card = {
 		en: "Lands visited by Landorus grant such bountiful crops that it has been hailed as \"The Guardian of the Fields.\"",
 	},
 
-	thirdParty: {
-		cardmarket: 281236,
-		tcgplayer: 86593
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281236,
+				tcgplayer: 86593
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281236,
+				tcgplayer: 86593
+			}
+		},
+	],
 }
 
 export default card

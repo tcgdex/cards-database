@@ -73,9 +73,14 @@ const card: Card = {
 		en: "In its territory, it leaves scratches on trees that bear delicious berries or fruits.",
 	},
 
-	thirdParty: {
-		cardmarket: 281132
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281132
+			}
+		},
+	],
 }
 
 export default card

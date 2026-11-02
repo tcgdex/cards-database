@@ -70,10 +70,22 @@ const card: Card = {
 		en: "Their fluffy fur absorbs damage, even if they strike foes with a fierce headbutt.",
 	},
 
-	thirdParty: {
-		cardmarket: 281258,
-		tcgplayer: 83945
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281258,
+				tcgplayer: 83945
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281258,
+				tcgplayer: 83945
+			}
+		},
+	],
 }
 
 export default card

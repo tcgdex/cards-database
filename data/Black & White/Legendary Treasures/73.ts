@@ -50,10 +50,22 @@ const card: Card = {
 		en: "They drive away attackers by unleashing psychic power. They can use telepathy to talk with others",
 	},
 
-	thirdParty: {
-		cardmarket: 281224,
-		tcgplayer: 89423
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281224,
+				tcgplayer: 89423
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281224,
+				tcgplayer: 89423
+			}
+		},
+	],
 }
 
 export default card

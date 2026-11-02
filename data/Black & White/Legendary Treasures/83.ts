@@ -73,10 +73,22 @@ const card: Card = {
 		en: "It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers a jolt of electricity.",
 	},
 
-	thirdParty: {
-		cardmarket: 281136,
-		tcgplayer: 89582
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281234,
+				tcgplayer: 89582
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281234,
+				tcgplayer: 89582
+			}
+		},
+	],
 }
 
 export default card

@@ -67,10 +67,22 @@ const card: Card = {
 		en: "Inhaling the gas they belch will make you sleep for a week. They prefer unsanitary places.",
 	},
 
-	thirdParty: {
-		cardmarket: 281218,
-		tcgplayer: 90070
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281218,
+				tcgplayer: 90070
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281218,
+				tcgplayer: 90070
+			}
+		},
+	],
 }
 
 export default card

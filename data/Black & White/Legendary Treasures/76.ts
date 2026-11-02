@@ -68,10 +68,22 @@ const card: Card = {
 		en: "When Reuniclus shake hands, a network forms between their brains, increasing their psychic power.",
 	},
 
-	thirdParty: {
-		cardmarket: 281227,
-		tcgplayer: 88724
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281227,
+				tcgplayer: 88724
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281227,
+				tcgplayer: 88724
+			}
+		},
+	],
 }
 
 export default card

@@ -71,10 +71,22 @@ const card: Card = {
 		en: "The croaking that Toxicroak produces before a battle is for churning the poison it has stored in its poison sac.",
 	},
 
-	thirdParty: {
-		cardmarket: 281214,
-		tcgplayer: 90011
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281214,
+				tcgplayer: 90011
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281214,
+				tcgplayer: 90011
+			}
+		},
+	],
 }
 
 export default card

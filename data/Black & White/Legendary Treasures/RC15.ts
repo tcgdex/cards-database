@@ -63,9 +63,14 @@ const card: Card = {
 		en: "It lets honey soak into its paws so it can lick them all the time. Every set of paws tastes unique.",
 	},
 
-	thirdParty: {
-		cardmarket: 281133
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281133
+			}
+		},
+	],
 }
 
 export default card

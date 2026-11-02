@@ -65,10 +65,50 @@ const card: Card = {
 		en: "It tends to bite everything, and it is not a picky eater. Approaching it carelessly is dangerous.",
 	},
 
-	thirdParty: {
-		cardmarket: 281248,
-		tcgplayer: 84733
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281248,
+				tcgplayer: 84733
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['1st-place', 'player-rewards-program'],
+			thirdParty: {
+				cardmarket: 449393
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['2nd-place', 'player-rewards-program'],
+			thirdParty: {
+				cardmarket: 449398
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['3rd-place', 'player-rewards-program'],
+			thirdParty: {
+				cardmarket: 449403
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['4th-place', 'player-rewards-program'],
+			thirdParty: {
+				cardmarket: 449408
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281248,
+				tcgplayer: 84733
+			}
+		},
+	],
 }
 
 export default card

@@ -70,9 +70,14 @@ const card: Card = {
 		en: "To protect its Trainer, it will expend all its psychic power to create a small black hole.",
 	},
 
-	thirdParty: {
-		cardmarket: 281135
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281135
+			}
+		},
+	],
 }
 
 export default card

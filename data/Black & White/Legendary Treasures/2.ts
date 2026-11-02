@@ -79,10 +79,22 @@ const card: Card = {
 		en: "Even if one of its arms is eaten, it's fine. The Pokémon regenerates quickly and will go right back to normal.",
 	},
 
-	thirdParty: {
-		cardmarket: 281153,
-		tcgplayer: 89756
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281153,
+				tcgplayer: 89756
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281153,
+				tcgplayer: 89756
+			}
+		},
+	],
 }
 
 export default card

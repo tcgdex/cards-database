@@ -70,10 +70,22 @@ const card: Card = {
 		en: "It is said that when one runs at high speed, its wings create blades of wind that can fell nearby trees.",
 	},
 
-	thirdParty: {
-		cardmarket: 281247,
-		tcgplayer: 85627
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281247,
+				tcgplayer: 85627
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281247,
+				tcgplayer: 85627
+			}
+		},
+	],
 }
 
 export default card
