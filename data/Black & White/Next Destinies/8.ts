@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Fällt ein Trainer auf sein Äußeres herein, das komischerweise einem Pokéball ähnelt, besprüht es ihn mit Giftsporen."
 	},
 
-	thirdParty: {
-		cardmarket: 280233,
-		tcgplayer: 85538
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280233,
+				tcgplayer: 85538
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280233,
+				tcgplayer: 85538
+			}
+		},
+	],
 }
 
 export default card

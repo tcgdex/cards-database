@@ -76,10 +76,22 @@ const card: Card = {
 		de: "Seine Beine sind kurz. Stolpert es, klappern seine starren Antennen und klingen wie ein Xylophon."
 	},
 
-	thirdParty: {
-		cardmarket: 280228,
-		tcgplayer: 86531
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280228,
+				tcgplayer: 86531
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280228,
+				tcgplayer: 86531
+			}
+		},
+	],
 }
 
 export default card

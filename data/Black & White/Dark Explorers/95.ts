@@ -29,10 +29,22 @@ const card: Card = {
 		de: "Wirf 1 Münze. Wähle bei „Kopf“ 3 zufällige Karten aus der verdeckten Hand deines Gegners. Dein Gegner zeigt diese Karten und mischt sie zurück in sein Deck. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
-	thirdParty: {
-		cardmarket: 280423,
-		tcgplayer: 86168
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280423,
+				tcgplayer: 86168
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280423,
+				tcgplayer: 86168
+			}
+		},
+	],
 }
 
 export default card

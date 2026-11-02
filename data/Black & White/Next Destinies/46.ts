@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Es kann durch Wände sehen und spürt auf diese Weise Beute und verlorengegangene Junge auf."
 	},
 
-	thirdParty: {
-		cardmarket: 280271,
-		tcgplayer: 91399
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280271,
+				tcgplayer: 91399
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280271,
+				tcgplayer: 91399
+			}
+		},
+	],
 }
 
 export default card

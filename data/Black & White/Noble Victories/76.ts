@@ -93,10 +93,22 @@ const card: Card = {
 		de: "Es rückt seinen Opfern mit einer Schar von Gladiantri im Gefolge auf den Pelz. Den letzten Hieb übernimmt es selbst."
 	},
 
-	thirdParty: {
-		cardmarket: 280199,
-		tcgplayer: 83842
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280199,
+				tcgplayer: 83842
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280199,
+				tcgplayer: 83842
+			}
+		},
+	],
 }
 
 export default card

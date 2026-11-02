@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Wenn es schläft, saugt es sich mit seinem Nasenloch an einer Höhlenwand fest und hinterlässt dort eine herzförmige Spur."
 	},
 
-	thirdParty: {
-		cardmarket: 280378,
-		tcgplayer: 90626
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280378,
+				tcgplayer: 90626
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280378,
+				tcgplayer: 90626
+			}
+		},
+	],
 }
 
 export default card

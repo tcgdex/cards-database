@@ -84,10 +84,22 @@ const card: Card = {
 		de: "Ist sein Trainer glücklich, tanzt es in einem Schwall von Energie fröhlich umher."
 	},
 
-	thirdParty: {
-		cardmarket: 280281,
-		tcgplayer: 86469
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280281,
+				tcgplayer: 86469
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280281,
+				tcgplayer: 86469
+			}
+		},
+	],
 }
 
 export default card

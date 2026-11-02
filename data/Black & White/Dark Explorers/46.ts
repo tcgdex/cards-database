@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Hat es seine Beute erspäht, lähmt es sie mit Elektrizität und verspeist sie anschließend."
 	},
 
-	thirdParty: {
-		cardmarket: 280374,
-		tcgplayer: 85068
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280374,
+				tcgplayer: 85068
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280374,
+				tcgplayer: 85068
+			}
+		},
+	],
 }
 
 export default card

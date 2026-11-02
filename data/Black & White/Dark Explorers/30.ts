@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Erzeugt ein Diamantstaubgestöber durch das Einfrieren der Luft um sich herum."
 	},
 
-	thirdParty: {
-		cardmarket: 280358,
-		tcgplayer: 85747
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280358,
+				tcgplayer: 85747
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280358,
+				tcgplayer: 85747
+			}
+		},
+	],
 }
 
 export default card

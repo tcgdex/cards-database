@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Es heißt, als das Land einst unter einer düsteren Wolke aus Vulkanasche lag, übernahm es die Rolle der Sonne."
 	},
 
-	thirdParty: {
-		cardmarket: 280144,
-		tcgplayer: 90402
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280144,
+				tcgplayer: 90402
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280144,
+				tcgplayer: 90402
+			}
+		},
+	],
 }
 
 export default card

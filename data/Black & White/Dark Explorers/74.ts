@@ -94,10 +94,22 @@ const card: Card = {
 		de: "Jagt durch die Luft und spießt Gegner mit seinen Lanzen auf. Auch überlegenen Gegnern stellt es sich ohne Furcht."
 	},
 
-	thirdParty: {
-		cardmarket: 280402,
-		tcgplayer: 85314
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280402,
+				tcgplayer: 85314
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280402,
+				tcgplayer: 85314
+			}
+		},
+	],
 }
 
 export default card

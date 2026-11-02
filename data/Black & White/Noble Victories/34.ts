@@ -81,10 +81,22 @@ const card: Card = {
 		de: "Sein Körper erzeugt in seinem Inneren gewaltige Mengen an Kälteenergie. Tritt diese jedoch aus, gefriert sein Körper."
 	},
 
-	thirdParty: {
-		cardmarket: 280157,
-		tcgplayer: 86561
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280157,
+				tcgplayer: 86561
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280157,
+				tcgplayer: 86561
+			}
+		},
+	],
 }
 
 export default card

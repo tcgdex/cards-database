@@ -100,10 +100,22 @@ const card: Card = {
 		de: "Die Köpfe an seinen beiden Armen haben kein eigenes Gehirn. Seine drei Mäuler kauen alles radikal kurz und klein."
 	},
 
-	thirdParty: {
-		cardmarket: 280202,
-		tcgplayer: 86239
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280202,
+				tcgplayer: 86239
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280202,
+				tcgplayer: 86239
+			}
+		},
+	],
 }
 
 export default card

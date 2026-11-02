@@ -63,10 +63,29 @@ const card: Card = {
 		de: "Ein siegverheißendes Pokémon. Man sagt, Trainer, die ein Victini in ihrem Team haben, seien unschlagbar."
 	},
 
-	thirdParty: {
-		cardmarket: 280137,
-		tcgplayer: 90344
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280138,
+				tcgplayer: 90344
+			}
+		},
+		{
+			type: 'holo',
+			size: 'jumbo',
+			thirdParty: {
+				cardmarket: 363652
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280138,
+				tcgplayer: 90344
+			}
+		},
+	],
 }
 
 export default card

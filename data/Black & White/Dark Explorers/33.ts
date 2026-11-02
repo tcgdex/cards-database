@@ -62,10 +62,22 @@ const card: Card = {
 		de: "Die Temperatur seines Odems liegt bei minus 50° C. Es erzeugt Eiskristalle und lässt es in seiner Umgebung schneien."
 	},
 
-	thirdParty: {
-		cardmarket: 280361,
-		tcgplayer: 90270
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280361,
+				tcgplayer: 90270
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280361,
+				tcgplayer: 90270
+			}
+		},
+	],
 }
 
 export default card

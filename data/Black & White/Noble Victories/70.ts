@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Es benutzt das Fell an seinen Armen als Peitsche. Beide Arme bewegen sich dabei mit atemberaubender Geschwindigkeit."
 	},
 
-	thirdParty: {
-		cardmarket: 280193,
-		tcgplayer: 87440
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280193,
+				tcgplayer: 87440
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280193,
+				tcgplayer: 87440
+			}
+		},
+	],
 }
 
 export default card

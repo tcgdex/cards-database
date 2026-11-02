@@ -59,10 +59,22 @@ const card: Card = {
 		de: "Das Wasser, das es im Büschel auf seinem Kopf sammelt, ist äußerst nahrhaft und verhilft Pflanzen zu großem Wachstum."
 	},
 
-	thirdParty: {
-		cardmarket: 280253,
-		tcgplayer: 87929
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280253,
+				tcgplayer: 87929
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280253,
+				tcgplayer: 87929
+			}
+		},
+	],
 }
 
 export default card

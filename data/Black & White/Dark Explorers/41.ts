@@ -72,10 +72,22 @@ const card: Card = {
 		de: "Es pflanzt sich an großen Pokémon fest und zapft ihnen elektrische Energie ab. Diese hortet es in seinen Ladetaschen."
 	},
 
-	thirdParty: {
-		cardmarket: 280369,
-		tcgplayer: 86356
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280369,
+				tcgplayer: 86356
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280369,
+				tcgplayer: 86356
+			}
+		},
+	],
 }
 
 export default card

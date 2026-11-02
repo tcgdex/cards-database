@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Es manipuliert die Gehirne seiner Gegner mit Psycho-Kräften, indem es die Bilder ihrer Erinnerungen umgestaltet."
 	},
 
-	thirdParty: {
-		cardmarket: 280179,
-		tcgplayer: 83778
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280179,
+				tcgplayer: 83778
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280179,
+				tcgplayer: 83778
+			}
+		},
+	],
 }
 
 export default card

@@ -59,10 +59,22 @@ const card: Card = {
 		de: "Ein loyales Pokémon. Es wird erst dann aktiv, wenn sein Trainer ihm Anweisungen gegeben hat."
 	},
 
-	thirdParty: {
-		cardmarket: 280235,
-		tcgplayer: 85962
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280236,
+				tcgplayer: 85962
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280236,
+				tcgplayer: 85962
+			}
+		},
+	],
 }
 
 export default card

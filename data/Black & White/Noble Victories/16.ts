@@ -77,10 +77,22 @@ const card: Card = {
 		de: "Das Feuer in seinem Kopfbüschel erreicht Temperaturen von bis zu 300 Grad. Es ist in Vulkanhöhlen zu Hause."
 	},
 
-	thirdParty: {
-		cardmarket: 280139,
-		tcgplayer: 87942
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280139,
+				tcgplayer: 87942
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280139,
+				tcgplayer: 87942
+			}
+		},
+	],
 }
 
 export default card

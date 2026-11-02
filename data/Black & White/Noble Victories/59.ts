@@ -81,10 +81,22 @@ const card: Card = {
 		de: "Es irrt ziellos auf der Suche nach den Seelen der Verstorbenen durch die Stadt. Als Unglücksbringer gefürchtet."
 	},
 
-	thirdParty: {
-		cardmarket: 280182,
-		tcgplayer: 86587
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280182,
+				tcgplayer: 86587
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280182,
+				tcgplayer: 86587
+			}
+		},
+	],
 }
 
 export default card

@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Es lebt am Fuß von Vulkanen. Mit Gegnern räumt es auf, indem es aus seinen fünf Hörnern Flammen auf sie abfeuert."
 	},
 
-	thirdParty: {
-		cardmarket: 280142,
-		tcgplayer: 86628
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280143,
+				tcgplayer: 86628
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280143,
+				tcgplayer: 86628
+			}
+		},
+	],
 }
 
 export default card

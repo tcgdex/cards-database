@@ -94,10 +94,22 @@ const card: Card = {
 		de: "Wird es der Aura des Mondes ausgesetzt, glühen seine Ringe und es erhält eine mysteriöse Kraft."
 	},
 
-	thirdParty: {
-		cardmarket: 280388,
-		tcgplayer: 90149
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280389,
+				tcgplayer: 90149
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280389,
+				tcgplayer: 90149
+			}
+		},
+	],
 }
 
 export default card

@@ -78,10 +78,22 @@ const card: Card = {
 		de: "Dank seiner dicken Haut hält es selbst das Gewicht eines Sumoringers aus. Wenn es Stromschläge verteilt, grinst es."
 	},
 
-	thirdParty: {
-		cardmarket: 280165,
-		tcgplayer: 89579
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280165,
+				tcgplayer: 89579
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280165,
+				tcgplayer: 89579
+			}
+		},
+	],
 }
 
 export default card

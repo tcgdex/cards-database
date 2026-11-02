@@ -94,10 +94,22 @@ const card: Card = {
 		de: "Seit jeher beschützt es das Rudel, indem es die Gestalt des Feindes annimmt. Es ist sehr loyal zu seinen Artgenossen."
 	},
 
-	thirdParty: {
-		cardmarket: 280399,
-		tcgplayer: 90754
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280399,
+				tcgplayer: 90754
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280399,
+				tcgplayer: 90754
+			}
+		},
+	],
 }
 
 export default card

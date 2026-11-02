@@ -69,10 +69,22 @@ const card: Card = {
 		de: "Es sieht aus wie eine Eichel, die am Baum hängt. Es liebt es, andere Pokémon zu erschrecken."
 	},
 
-	thirdParty: {
-		cardmarket: 280227,
-		tcgplayer: 89045
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280227,
+				tcgplayer: 89045
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280227,
+				tcgplayer: 89045
+			}
+		},
+	],
 }
 
 export default card

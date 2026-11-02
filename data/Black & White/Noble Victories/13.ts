@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Das Horn an seinem Kopf ist eine scharfe Klinge. Neckt seine Gegner mit quirligen Bewegungen und greift blitzartig an."
 	},
 
-	thirdParty: {
-		cardmarket: 280136,
-		tcgplayer: 90388
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280136,
+				tcgplayer: 90388
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280136,
+				tcgplayer: 90388
+			}
+		},
+	],
 }
 
 export default card

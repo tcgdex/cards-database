@@ -92,10 +92,29 @@ const card: Card = {
 		de: "Kann durch sein Fell geringste Luftveränderungen wahrnehmen und das Wetter vorhersagen."
 	},
 
-	thirdParty: {
-		cardmarket: 280376,
-		tcgplayer: 85325
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280376,
+				tcgplayer: 85325
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['regional-championships'],
+			thirdParty: {
+				cardmarket: 449493
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280376,
+				tcgplayer: 85325
+			}
+		},
+	],
 }
 
 export default card

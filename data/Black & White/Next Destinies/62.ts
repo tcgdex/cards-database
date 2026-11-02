@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Manipuliert das gegnerische Gedächtnis. Lässt es seine drei bunten Finger aufleuchten, kommuniziert es offenbar."
 	},
 
-	thirdParty: {
-		cardmarket: 280287,
-		tcgplayer: 83779
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280287,
+				tcgplayer: 83779
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280287,
+				tcgplayer: 83779
+			}
+		},
+	],
 }
 
 export default card

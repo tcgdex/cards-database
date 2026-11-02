@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Sein Griff ist so stark, dass es damit ganze Felsen zermalmen kann. Es ist sehr intelligent."
 	},
 
-	thirdParty: {
-		cardmarket: 280175,
-		tcgplayer: 88721
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280176,
+				tcgplayer: 88721
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280176,
+				tcgplayer: 88721
+			}
+		},
+	],
 }
 
 export default card

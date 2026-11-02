@@ -80,10 +80,29 @@ const card: Card = {
 		de: "Nach der Geburt nimmt es für eine Weile Nährstoffe über den Samen auf seinem Rücken auf."
 	},
 
-	thirdParty: {
-		cardmarket: 280329,
-		tcgplayer: 84036
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280329,
+				tcgplayer: 84036
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['build-a-bear'],
+			thirdParty: {
+				cardmarket: 886900
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280329,
+				tcgplayer: 84036
+			}
+		},
+	],
 }
 
 export default card

@@ -75,10 +75,29 @@ const card: Card = {
 		de: "Da seine Hauer nicht mehr nachwachsen, wetzt es sie nach einem Kampf sachte an den Felsen eines Flussbettes."
 	},
 
-	thirdParty: {
-		cardmarket: 280210,
-		tcgplayer: 85558
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280210,
+				tcgplayer: 85558
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['player-rewards-program'],
+			thirdParty: {
+				cardmarket: 371589
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280210,
+				tcgplayer: 85558
+			}
+		},
+	],
 }
 
 export default card

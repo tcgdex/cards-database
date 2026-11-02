@@ -78,10 +78,15 @@ const card: Card = {
 		de: "Seine Angriffskraft genügt, um selbst mächtige Wälle niederzureißen. Ein Held zahlreicher Legenden."
 	},
 
-	thirdParty: {
-		cardmarket: 280196,
-		tcgplayer: 89891
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280222,
+				tcgplayer: 89891
+			}
+		},
+	],
 }
 
 export default card

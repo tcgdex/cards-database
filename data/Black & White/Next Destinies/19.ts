@@ -69,10 +69,22 @@ const card: Card = {
 		de: "Es erscheint im Augenblick des Todes und verschlingt die Seele des Verblichenen, sofort nachdem sie den Körper verlässt."
 	},
 
-	thirdParty: {
-		cardmarket: 280244,
-		tcgplayer: 86588
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280244,
+				tcgplayer: 86588
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280244,
+				tcgplayer: 86588
+			}
+		},
+	],
 }
 
 export default card

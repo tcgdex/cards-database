@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Es kann ganze Berge einebnen, indem es Energie entlädt, die es in seinem Kern gesammelt und verdichtet hat."
 	},
 
-	thirdParty: {
-		cardmarket: 280184,
-		tcgplayer: 85706
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280184,
+				tcgplayer: 85706
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280184,
+				tcgplayer: 85706
+			}
+		},
+	],
 }
 
 export default card

@@ -94,10 +94,22 @@ const card: Card = {
 		de: "Wird durch Entwicklung noch verschlagener. Kommuniziert durch in Felsen gekratzte Zeichen."
 	},
 
-	thirdParty: {
-		cardmarket: 280295,
-		tcgplayer: 90534
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280295,
+				tcgplayer: 90534
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280295,
+				tcgplayer: 90534
+			}
+		},
+	],
 }
 
 export default card

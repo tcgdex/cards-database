@@ -81,10 +81,22 @@ const card: Card = {
 		de: "Es hält seine Beute mit seiner Zange fest und teilt sie dann. Was es nicht teilen kann, wirft es fort."
 	},
 
-	thirdParty: {
-		cardmarket: 280226,
-		tcgplayer: 88140
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280226,
+				tcgplayer: 88140
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280226,
+				tcgplayer: 88140
+			}
+		},
+	],
 }
 
 export default card

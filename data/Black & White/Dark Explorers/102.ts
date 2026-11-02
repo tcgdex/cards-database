@@ -26,10 +26,22 @@ const card: Card = {
 		de: "Lege 2 Karten von deiner Hand auf deinen Ablagestapel. (Wenn du keine 2 Karten auf deinen Ablagestapel legen kannst, kannst du diese Karte nicht spielen.) Durchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
-	thirdParty: {
-		cardmarket: 280430,
-		tcgplayer: 90134
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280430,
+				tcgplayer: 90134
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280430,
+				tcgplayer: 90134
+			}
+		},
+	],
 }
 
 export default card

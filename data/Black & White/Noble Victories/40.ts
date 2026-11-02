@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Die rund gemaserten Flächen erzeugen Strom. Es schlingt sich um den Gegner, presst sie gegen ihn und aktiviert sie."
 	},
 
-	thirdParty: {
-		cardmarket: 280163,
-		tcgplayer: 85067
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280163,
+				tcgplayer: 85067
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280163,
+				tcgplayer: 85067
+			}
+		},
+	],
 }
 
 export default card

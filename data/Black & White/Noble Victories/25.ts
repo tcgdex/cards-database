@@ -74,10 +74,22 @@ const card: Card = {
 		de: "Es wurde aus einem urzeitlichen Fossil reanimiert. Es kann in Tiefen von bis zu 1 000 Metern abtauchen."
 	},
 
-	thirdParty: {
-		cardmarket: 280148,
-		tcgplayer: 89921
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280148,
+				tcgplayer: 89921
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280148,
+				tcgplayer: 89921
+			}
+		},
+	],
 }
 
 export default card

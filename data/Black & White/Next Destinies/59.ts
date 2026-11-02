@@ -91,10 +91,22 @@ const card: Card = {
 		de: "Kann Träume, die es verspeist hat, wahr werden lassen. Die Trauminhalte nehmen über den Dunst aus seiner Stirn Form an."
 	},
 
-	thirdParty: {
-		cardmarket: 280284,
-		tcgplayer: 87660
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280284,
+				tcgplayer: 87660
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280284,
+				tcgplayer: 87660
+			}
+		},
+	],
 }
 
 export default card

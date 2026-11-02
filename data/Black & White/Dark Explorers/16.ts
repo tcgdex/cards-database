@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Es kann 10 Tritte pro Sekunde austeilen. Es gibt schrille Schreie von sich, um Gegner einzuschüchtern."
 	},
 
-	thirdParty: {
-		cardmarket: 280344,
-		tcgplayer: 84413
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280344,
+				tcgplayer: 84413
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280344,
+				tcgplayer: 84413
+			}
+		},
+	],
 }
 
 export default card

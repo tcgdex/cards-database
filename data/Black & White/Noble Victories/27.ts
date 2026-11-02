@@ -62,10 +62,22 @@ const card: Card = {
 		de: "Ein Eiszapfen, der durch die Energie der aufgehenden Sonne zum Pokémon wurde. Nachts deckt es sich mit Schnee zu."
 	},
 
-	thirdParty: {
-		cardmarket: 280150,
-		tcgplayer: 90268
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280150,
+				tcgplayer: 90268
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280150,
+				tcgplayer: 90268
+			}
+		},
+	],
 }
 
 export default card

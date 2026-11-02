@@ -99,10 +99,22 @@ const card: Card = {
 		de: "Seine großen Fächer erzeugen Böen, die eine Geschwindigkeit von 30 m/sek erreichen können."
 	},
 
-	thirdParty: {
-		cardmarket: 280297,
-		tcgplayer: 89159
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280297,
+				tcgplayer: 89159
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280297,
+				tcgplayer: 89159
+			}
+		},
+	],
 }
 
 export default card

@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Um Beute anzulocken, bietet es seinen Hut feil, der einem Pokéball ähnelt. Doch kaum ein Pokémon fällt darauf herein."
 	},
 
-	thirdParty: {
-		cardmarket: 280133,
-		tcgplayer: 83531
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280133,
+				tcgplayer: 83531
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280133,
+				tcgplayer: 83531
+			}
+		},
+	],
 }
 
 export default card

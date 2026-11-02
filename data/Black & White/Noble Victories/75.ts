@@ -69,10 +69,22 @@ const card: Card = {
 		de: "Im Kampf folgt es den Befehlen von Caesurio. Es nimmt sein Opfer in die Zange und verletzt es mit seinen Klingen."
 	},
 
-	thirdParty: {
-		cardmarket: 280198,
-		tcgplayer: 87967
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280198,
+				tcgplayer: 87967
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280198,
+				tcgplayer: 87967
+			}
+		},
+	],
 }
 
 export default card

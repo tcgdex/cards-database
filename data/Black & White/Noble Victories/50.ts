@@ -58,10 +58,22 @@ const card: Card = {
 		de: "Es wehrt Angreifer ab, indem es Psycho-Kräfte auf sie ansetzt. Es kommuniziert telepathisch mit Artgenossen."
 	},
 
-	thirdParty: {
-		cardmarket: 280173,
-		tcgplayer: 89421
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280173,
+				tcgplayer: 89421
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280173,
+				tcgplayer: 89421
+			}
+		},
+	],
 }
 
 export default card

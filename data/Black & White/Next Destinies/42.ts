@@ -76,10 +76,22 @@ const card: Card = {
 		de: "Es erzeugt Elektrizität durch das Strecken und Zusammenziehen seiner Muskeln. Bei Bedrohung glüht es."
 	},
 
-	thirdParty: {
-		cardmarket: 280267,
-		tcgplayer: 89179
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280267,
+				tcgplayer: 89179
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280267,
+				tcgplayer: 89179
+			}
+		},
+	],
 }
 
 export default card

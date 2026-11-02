@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Es erzeugt viele kleine Eiskörner, mit denen es sich vor seinen Gegnern versteckt."
 	},
 
-	thirdParty: {
-		cardmarket: 280151,
-		tcgplayer: 90263
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280151,
+				tcgplayer: 90263
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280151,
+				tcgplayer: 90263
+			}
+		},
+	],
 }
 
 export default card

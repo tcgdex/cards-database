@@ -66,10 +66,22 @@ const card: Card = {
 		de: "Es lebt tief im Wald. Beißt man in die Kräuter auf seinem Kopf, fühlt man sich auf wundersame Weise erfrischt."
 	},
 
-	thirdParty: {
-		cardmarket: 280231,
-		tcgplayer: 87936
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280231,
+				tcgplayer: 87936
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280231,
+				tcgplayer: 87936
+			}
+		},
+	],
 }
 
 export default card

@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Berührt es jemanden mit den Fühlern an seinen Ohren, erfährt es durch den Herzschlag der Person, wie es ihr geht."
 	},
 
-	thirdParty: {
-		cardmarket: 280208,
-		tcgplayer: 83662
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280208,
+				tcgplayer: 83662
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280208,
+				tcgplayer: 83662
+			}
+		},
+	],
 }
 
 export default card

@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Wird es von Muschas gebissen, wird es so intelligent, dass es sich mit Nobelpreisträgern messen kann."
 	},
 
-	thirdParty: {
-		cardmarket: 280377,
-		tcgplayer: 89320
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280377,
+				tcgplayer: 89320
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280377,
+				tcgplayer: 89320
+			}
+		},
+	],
 }
 
 export default card

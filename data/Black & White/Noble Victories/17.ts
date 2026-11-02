@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Es entfacht in seinem Körper ein Feuer und verkohlt Gegner mit Funken aus seinem Kopf und Schweif."
 	},
 
-	thirdParty: {
-		cardmarket: 280140,
-		tcgplayer: 89227
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280140,
+				tcgplayer: 89227
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280140,
+				tcgplayer: 89227
+			}
+		},
+	],
 }
 
 export default card

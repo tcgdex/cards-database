@@ -80,10 +80,15 @@ const card: Card = {
 		de: "Dies ist eine sehr seltene Mauzi-Karte. Vielleicht bringt sie dir ja Glück, wenn du sie auf der Hand hast!"
 	},
 
-	thirdParty: {
-		cardmarket: 280225,
-		tcgplayer: 87325
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280225,
+				tcgplayer: 87325
+			}
+		},
+	],
 }
 
 export default card

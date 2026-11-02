@@ -84,10 +84,22 @@ const card: Card = {
 		de: "In der Körpermitte befindet sich ein roter Kern, der mysteriöse Radiowellen in die Nacht sendet."
 	},
 
-	thirdParty: {
-		cardmarket: 280249,
-		tcgplayer: 89538
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280249,
+				tcgplayer: 89538
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280249,
+				tcgplayer: 89538
+			}
+		},
+	],
 }
 
 export default card

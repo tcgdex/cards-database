@@ -91,10 +91,22 @@ const card: Card = {
 		de: "Lässt seine Einzelteile rapide rotieren und feuert sie auf Gegner ab. Kehren sie nicht zurück, wird es brenzlig."
 	},
 
-	thirdParty: {
-		cardmarket: 280404,
-		tcgplayer: 86476
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280404,
+				tcgplayer: 86476
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280404,
+				tcgplayer: 86476
+			}
+		},
+	],
 }
 
 export default card

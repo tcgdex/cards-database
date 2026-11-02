@@ -72,10 +72,22 @@ const card: Card = {
 		de: "In seinem Inneren lodert ein Feuer. Es schleudert 1 000 Grad heiße Feuerbälle."
 	},
 
-	thirdParty: {
-		cardmarket: 280342,
-		tcgplayer: 89963
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280343,
+				tcgplayer: 89963
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280343,
+				tcgplayer: 89963
+			}
+		},
+	],
 }
 
 export default card

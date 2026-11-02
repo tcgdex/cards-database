@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Bildet mit mehreren Artgenossen ein Rudel. Eine Membran schützt seine Augen vor Sandstürmen."
 	},
 
-	thirdParty: {
-		cardmarket: 280393,
-		tcgplayer: 86538
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280393,
+				tcgplayer: 86538
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280393,
+				tcgplayer: 86538
+			}
+		},
+	],
 }
 
 export default card

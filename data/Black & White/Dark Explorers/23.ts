@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Es ist langsam, hat aber ein Talent, mit seinem Schweif zu fischen. Beißt etwas an, tut es ihm nicht weh."
 	},
 
-	thirdParty: {
-		cardmarket: 280351,
-		tcgplayer: 89335
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280351,
+				tcgplayer: 89335
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280351,
+				tcgplayer: 89335
+			}
+		},
+	],
 }
 
 export default card

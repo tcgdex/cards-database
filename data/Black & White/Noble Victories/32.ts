@@ -79,10 +79,29 @@ const card: Card = {
 		de: "Es fängt seine Beute mit Ketten, die sich aus Eiskristallen zusammensetzen. Entstanden ist es aus einer Schneewolke."
 	},
 
-	thirdParty: {
-		cardmarket: 280155,
-		tcgplayer: 84512
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280155,
+				tcgplayer: 84512
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['player-rewards-program'],
+			thirdParty: {
+				cardmarket: 371588
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280155,
+				tcgplayer: 84512
+			}
+		},
+	],
 }
 
 export default card
