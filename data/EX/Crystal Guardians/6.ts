@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Ludicolo δ",
 		fr: "Ludicolo δ",
-		de: "Kappalores"
+		de: "Kappalores δ"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lombre",
-		fr: "Lombre"
+		fr: "Lombre",
+		de: "Lombrero"
 	},
 
 	stage: "Stage2",

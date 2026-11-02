@@ -95,6 +95,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It uses psychic power to control an opponent's brain and tamper with its memories.",
+		de: "Es manipuliert die Gehirne seiner Gegner mit Psycho-Kräften, indem es die Bilder ihrer Erinnerungen umgestaltet."
+	},
+
 	thirdParty: {
 		cardmarket: 286320,
 		tcgplayer: 107193

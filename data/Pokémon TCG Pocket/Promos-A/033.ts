@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Quand il rentre son cou dans sa carapace,\nil peut projeter de l'eau à haute pression.",
 		es: "Cuando retrae su largo cuello en el caparazón,\ndispara agua a una presión increíble.",
 		it: "Quando ritrae il lungo collo dentro la\ncorazza sputa un vigoroso getto d'acqua.",
-		de: "Zieht es seinen langen Hals in seinen Panzer\nzurück, verspritzt es Wasser mit unbändiger Kraft.",
+		de: "Zieht es seinen langen Hals in seinen Panzer zurück, verspritzt es Wasser mit unbändiger Kraft.",
 		'pt-br': "Ao retrair o pescoço longo para dentro\ndo seu casco, lança um jato de água\nmuito poderoso.",
 		ko: "기다란 목을 등껍질 속에\n감춘 다음 기세 좋게\n물대포를 발사한다."
 	},

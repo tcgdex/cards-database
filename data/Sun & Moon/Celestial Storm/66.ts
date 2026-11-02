@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Shuppet",
 		fr: "Polichombr",
+		de: "Shuppet"
 	},
 
 	suffix: "GX",
@@ -89,7 +90,7 @@ const card: Card = {
 				es: "Caza de Tumbas GX",
 				it: "Caccia Sepolcrale-GX",
 				pt: "Caça-túmulos GX",
-				de: "Grabjagd GX"
+				de: "Grabjagd-GX"
 			},
 			effect: {
 				en: "Put 3 cards from your discard pile into your hand. (You can’t use more than 1 GX attack in a game.)",

@@ -72,9 +72,13 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Un Pokémon qui se nourrit de terre. Après avoir dévoré une montagne, il s'endort pour grandir."
+		en: "A Pokémon that eats soil. Once it has eaten a large mountain, it goes to sleep so it can grow.",
+		fr: "Un Pokémon qui se nourrit de terre. Après avoir dévoré une montagne, il s'endort pour grandir.",
+		de: "Dieses PKMN frisst das Erdreich. Hat es einen Berg verspeist, schläft es ein, um zu wachsen."
 	},
 
 	thirdParty: {

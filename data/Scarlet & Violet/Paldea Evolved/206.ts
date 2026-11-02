@@ -4,6 +4,7 @@ import Set from "../Paldea Evolved"
 const card: Card = {
 	dexId: [912],
 	set: Set,
+	cameoDexIds: [60],
 
 	name: {
 		fr: "Coiffeton",
@@ -44,19 +45,32 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715681,
+				tcgplayer: 497609,
+				cardtrader: 248859
+			}
+		},
+	],
 
 	illustrator: "Souichirou Gunjima",
 
-	thirdParty: {
-		cardmarket: 715681
-	}
+	description: {
+		en: "This Pokémon migrated to Paldea from distant lands long ago. The gel secreted by its feathers repels water and grime.",
+		de: "Vor langer Zeit kam es von weit her und ließ sich in Paldea nieder. Über sein Gefieder sondert es ein Gel ab, das Wasser und Schmutz abweist."
+	},
 }
 
 export default card

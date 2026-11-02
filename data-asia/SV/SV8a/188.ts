@@ -22,6 +22,16 @@ const card: Card = {
 		'zh-cn': "將自己的手牌全部丟棄，從自己的牌庫選擇「寶可夢」卡「支援者」卡「基本能量」卡各1張，在給對手看過後加入手牌。並且重洗牌庫。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803301,
+				tcgplayer: 602651,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "H"
 }

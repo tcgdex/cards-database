@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		300,
-	],
+	dexId: [300],
 
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -31,12 +29,12 @@ const card: Card = {
 			name: {
 				en: "Heal Bell",
 				fr: "Glas de soin",
-				de: "Heal Bell"
+				de: "Vitalglocke"
 			},
 			effect: {
 				en: "Remove 1 damage counter from each of your Pokémon.",
 				fr: "Retirez à chacun de vos Pokémon 1 marqueur de dégât.",
-				de: "Remove 1 damage counter from each of your Pokémon."
+				de: "Entferne 1 Schadensmarke von jedem deiner Pokémon."
 			},
 
 		},
@@ -47,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
-				de: "Take Down"
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "Skitty does 10 damage to itself.",
 				fr: "Skitty s'inflige 10 dégâts.",
-				de: "Skitty does 10 damage to itself."
+				de: "Eneco fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -68,19 +66,28 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278514,
-		tcgplayer: 89268
+	description: {
+		en: "It can't stop itself from chasing moving things, and it runs in a circle, chasing its own tail.",
+		de: "Es muss Dinge, die sich bewegen, einfach jagen. Es rennt oft im Kreis und jagt seinen eigenen Schweif."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 89268,
+				cardmarket: 278514
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278514,
+				tcgplayer: 89268
+			}
 		}
-	]
+	],
+
 }
 
 export default card

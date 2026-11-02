@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		16,
-	],
+	dexId: [16],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -74,20 +72,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Common in grassy areas and forests, it is very docile and will chase off enemies by flapping up sand."
+		en: "Common in grassy areas and forests, it is very docile and will chase off enemies by flapping up sand.",
+		de: "Es ist meist in Wäldern anzutreffen. Es ist ruhig und verjagt seine Feinde, indem es Sand aufwirbelt."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88051,
+				cardmarket: 279601
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279601,
+				tcgplayer: 88051
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279601,
-		tcgplayer: 88051
-	}
 }
 
 export default card

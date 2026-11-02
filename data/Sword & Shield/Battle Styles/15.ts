@@ -57,7 +57,7 @@ const card: Card = {
 			es: "Corte Solar",
 			it: "Taglio Solare",
 			pt: "Cortador Solar",
-			de: "Solarschneider"
+			de: "Solarschneide"
 		},
 
 		damage: 70,
@@ -72,23 +72,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "As it slashes into its enemies, it looks like it's dancing. Its elegant appearance has led some to call it the most glamorous Grass Pokémon."
+		en: "As it slashes into its enemies, it looks like it's dancing. Its elegant appearance has led some to call it the most glamorous Grass Pokémon.",
+		de: "Es schlitzt Gegner mit tänzelnden Angriffen auf. Dank seiner Eleganz wird es auch als das anmutigste aller Pflanzen-Pokémon bezeichnet."
 	},
 
-	thirdParty: {
-		cardmarket: 544976,
-		tcgplayer: 234078
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 544976,
+				tcgplayer: 234078
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 544976,
+				tcgplayer: 234078
+			}
+		},
+	],
 }
 
 export default card

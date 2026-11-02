@@ -74,18 +74,42 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It climbs trees by hooking on with its sharp claws. Sandslash shares the berries it gathers, dropping them down to Sandshrew waiting below the tree.",
+		de: "Mit seinen scharfen Krallen klettert es auf Bäume und wirft unten wartenden Sandan Beeren zu, die sie sich dann teilen."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733623,
+				tcgplayer: 515989,
+				cardtrader: 261214
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733623,
+				tcgplayer: 515989,
+				cardtrader: 261214
+			}
+		},
+	],
 
 	illustrator: "kodama",
 
-	thirdParty: {
-		cardmarket: 733631
-	}
+	
 }
 
 export default card

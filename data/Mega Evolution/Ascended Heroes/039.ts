@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Jiro Sasumo",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [54],
 	hp: 70,
 	types: ["Water"],
 	stage: "Basic",
@@ -61,13 +62,63 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675851,
-		cardmarket: 869650
-	}
+	description: {
+		en: "It is constantly wracked by a headache. When the headache turns intense, it begins using mysterious powers.",
+		fr: "Ce Pokémon a tout le temps la migraine. Quand la douleur devient trop intense, il se met à utiliser des pouvoirs mystérieux.",
+		de: "Es wird permanent von Kopfschmerzen geplagt. Wird der Schmerz stärker, setzt es geheimnisvolle Kräfte ein."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869650,
+			tcgplayer: 675851
+		}
+	},
+	{
+		type: "normal",
+		stamp: ["player-rewards-program"],
+		thirdParty: {
+			cardmarket: 894183,
+			tcgplayer: 704451
+		}
+	},
+	{
+		type: "holo",
+		foil: "cosmos",
+		stamp: ["player-rewards-program"],
+		thirdParty: {
+			cardmarket: 894184,
+			tcgplayer: 704452
+		}
+	},
+	{
+		type: "reverse",
+		foil: "loveball",
+		thirdParty: {
+			cardmarket: 870200,
+			tcgplayer: 676884
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870199,
+			tcgplayer: 677024
+		}
+	},
+],
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		364,
-	],
+	dexId: [364],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Stage1",
@@ -34,7 +32,7 @@ const card: Card = {
 			name: {
 				en: "Aurora Beam",
 				fr: "Onde boréale",
-				de: "Aurora Beam"
+				de: "Aurorastrahl"
 			},
 
 			damage: 20,
@@ -49,12 +47,12 @@ const card: Card = {
 			name: {
 				en: "Knock Over",
 				fr: "Culbute",
-				de: "Knock Over"
+				de: "Umwerfen"
 			},
 			effect: {
 				en: "You may discard any Stadium card in play.",
 				fr: "Vous pouvez défausser n'importe quelle carte Stade en jeu.",
-				de: "You may discard any Stadium card in play."
+				de: "Du kannst eine beliebige Stadion-Karte aus dem Spiel auf den Ablagestapel legen."
 			},
 			damage: 40,
 
@@ -68,22 +66,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276008,
-		tcgplayer: 89797
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275808,
+				tcgplayer: 89797
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275808,
+				tcgplayer: 89797
+			}
+		},
+	],
+
 }
 
 export default card

@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Flittle",
-		fr: "Flotillon"
+		fr: "Flotillon",
+		de: "Flattutu"
 	},
 
 	stage: "Stage1",
@@ -86,8 +87,18 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	variants: {
-		holo: false
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
+	description: {
+		en: "It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament.",
+		de: "Es macht Gegner bewegungsunfähig, indem es Psycho-Kräfte über seine großen Augen freisetzt. Entgegen seinem Äußeren ist es ziemlich brutal."
 	},
 
 	thirdParty: {

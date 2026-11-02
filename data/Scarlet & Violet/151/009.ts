@@ -74,19 +74,37 @@ const card: Card = {
 		damage: "140×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733604,
+				tcgplayer: 502551,
+				cardtrader: 261064
+			}
+		},
+		{
+			type: 'holo',
+			size: 'jumbo',
+			thirdParty: {
+				cardmarket: 816812
+			}
+		},
+	],
 
+	suffix: "ex",
 	illustrator: "PLANETA Yamashita",
 
-	thirdParty: {
-		cardmarket: 733604
-	}
+	
 }
 
 export default card

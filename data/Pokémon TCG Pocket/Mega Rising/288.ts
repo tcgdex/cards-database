@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Weepinbell"
+		en: "Weepinbell",
+		fr: "Boustiflor"
 	},
 
 	illustrator: "MAHOU",
@@ -17,18 +18,21 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Bellsprout"
+		en: "Bellsprout",
+		fr: "Chétiflor"
 	},
 
 	description: {
-		en: "The leafy parts act as cutters for slashing foes.\nIt spits a fluid that dissolves everything."
+		en: "The leafy parts act as cutters for slashing foes.\nIt spits a fluid that dissolves everything.",
+		fr: "Ses membres en forme de feuilles permettent\\nà Boustiflor de trancher ses adversaires.\\nIl crache un fluide capable de tout dissoudre."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Razor Leaf"
+			en: "Razor Leaf",
+			fr: "Tranch'Herbe"
 		},
 
 		damage: 40,

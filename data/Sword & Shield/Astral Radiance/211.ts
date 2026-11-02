@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Wahlgürtel"
 	},
 
+	illustrator: "Studio Bora Inc.",
 	rarity: "Secret Rare",
 	category: "Trainer",
 
@@ -22,23 +23,23 @@ const card: Card = {
 		es: "Los ataques del Pokémon al que esté unida esta carta hacen 30 puntos de daño más al Pokémon V Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 		it: "Gli attacchi del Pokémon a cui è assegnata questa carta infliggono 30 danni in più al Pokémon-V attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
 		pt: "Os ataques do Pokémon ao qual esta carta está ligada causam 30 pontos de dano a mais ao Pokémon V Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
-		de: "Die Attacken des Pokémon, an das diese Karte angelegt ist, fügen dem Aktiven Pokémon-V deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Die Attacken des Pokémon, an das diese Karte angelegt ist, fügen dem Aktiven Pokémon-V deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden). Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658872,
-		tcgplayer: 272466
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 658872,
+				tcgplayer: 272466
+			}
+		},
+	],
 }
 
 export default card

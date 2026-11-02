@@ -95,6 +95,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The mist emanating from their foreheads is packed with the dreams of people and Pokémon.",
+		de: "Der Dunst, der aus seiner Stirn tritt, enthält die Träume unzähliger Menschen und Pokémon."
+	},
+
 	thirdParty: {
 		cardmarket: 281846,
 		tcgplayer: 94238

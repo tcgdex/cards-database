@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		273,
-	],
+	dexId: [273],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -67,29 +65,36 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278652,
-		tcgplayer: 89044
+	description: {
+		en: "When it dangles from a tree branch, it looks just like an acorn. It enjoys scaring other Pokémon.",
+		de: "Es sieht aus wie eine Eichel, die am Baum hängt. Es liebt es, andere PKMN zu erschrecken."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278652,
+				tcgplayer: 89044
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278652,
+				tcgplayer: 89044
+			}
+		},
+	],
+
 }
 
 export default card

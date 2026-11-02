@@ -79,23 +79,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "With its claws, it leaves behind signs for its friends to find. The number of distinct signs is said to be over 500."
+		en: "With its claws, it leaves behind signs for its friends to find. The number of distinct signs is said to be over 500.",
+		de: "Sie kommunizieren miteinander, indem sie Zeichen mit ihren Krallen hinterlassen. Es soll über 500 davon geben."
 	},
 
-	thirdParty: {
-		cardmarket: 567111,
-		tcgplayer: 241684
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567111,
+				tcgplayer: 241684
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567111,
+				tcgplayer: 241684
+			}
+		},
+	],
 }
 
 export default card

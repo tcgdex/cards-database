@@ -48,22 +48,46 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
+		fr: "Ce Pokémon redouté et peu aimé porterait malheur à quiconque l'aperçoit la nuit.",
+		de: "Viele verabscheuen und hassen es, da sie glauben, es bringe Unglück, wenn sie ihm nachts begegnen."
+	},
+
+	illustrator: "Tomokazu Komiya",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857632,
+				tcgplayer: 662202,
+				cardtrader: 356840
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857632,
-		tcgplayer: 662202
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857632,
+				tcgplayer: 662202,
+				cardtrader: 356840
+			}
+		},
+	],	
 }
 
 export default card

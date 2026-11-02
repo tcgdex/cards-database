@@ -47,18 +47,24 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Ils ressemblent à des hiéroglyphes inscrits sur d'antiques tablettes. On prétend qu'ils sont de la même origine."
+		en: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
+		fr: "Ils ressemblent à des hiéroglyphes inscrits sur d'antiques tablettes. On prétend qu'ils sont de la même origine.",
+		de: "Ihre Gestalt erinnert an Hieroglyphen auf alten Steintafeln. Ob ein Zusammenhang besteht, ist unklar."
 	},
 
 	abilities: [{
 		name: {
+			en: "[Normal]",
 			fr: "[Normal]",
 			de: "Normal"
 		},
 
 		effect: {
+			en: "Whenever a Colorless Pokémon damages 1 of your Pokémon, reduce that damage by 30 (after applying Weakness and Resistance). This power stops working if you have more than 1 Unown [N] in play. (This power works even if Unown [N] is Asleep, Confused, or Paralyzed.)",
 			fr: "Quand un Pokémon  inflige des dégâts à un de vos Pokémon, réduisez ces dégâts de 30 (après application de la Faiblesse et de la Résistance). Ce pouvoir cesse de fonctionner s'il y a plus d'un Zarbi [N] en jeu. (Ce pouvoir fonctionne même si Zarbi [N] est Endormi, Confus ou Paralysé.)",
 			de: "Immer wenn ein -Pokémon einem deiner Pokémon Schaden zufügt, reduziere diese Schadenspunkte um 30 (nachdem Schwäche und Resistenz verrechnet wurden). Diese Fähigkeit verliert ihre Wirkung, solange du mehr als ein Icognito N im Spiel hast. (Diese Fähigkeit wirkt selbst dann, wenn Icognito N schläft, verwirrt oder gelähmt ist.)"
 		},
@@ -66,18 +72,22 @@ const card: Card = {
 		type: "Pokemon Power"
 	}],
 
-	thirdParty: {
-		cardmarket: 274561,
-		tcgplayer: 90223
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274561,
+				tcgplayer: 90223
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274561,
+				tcgplayer: 90223
+			}
 		}
 	]
 }

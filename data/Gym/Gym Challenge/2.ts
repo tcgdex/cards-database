@@ -3,26 +3,24 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Charizard",
+		en: "Blaine's Charizard"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		6,
-	],
+	dexId: [6],
 
 	hp: 100,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
-		en: "Charmeleon",
+		en: "Charmeleon"
 	},
 
 	stage: "Stage2",
@@ -33,12 +31,12 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Roaring Flames",
+				en: "Roaring Flames"
 			},
 			effect: {
-				en: "Discard all Energy cards attached to Blaine's Charizard. If all Energy cards attached to Blaine's Charizard provide 2 Energy, discard all of them. This attack does 20 damage plus 20 more damage for each Energy discarded in this way. ERRATA: Discard all Energy cards attached to Blaine's Charizard except 1.",
+				en: "Discard all Fire Energy cards attached to Blaine's Charizard. If all Energy cards attached to Blaine's Charizard provide 2 Fire Energy, discard all of them. This attack does 20 damage plus 20 more damage for each Fire Energy discarded in this way."
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
@@ -47,10 +45,10 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Flame Jet",
+				en: "Flame Jet"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
+				en: "Flip a coin. If heads, choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
 			},
 
 		},
@@ -59,37 +57,37 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
-
 	retreat: 3,
-
-	thirdParty: {
-		cardmarket: 274270,
-		tcgplayer: 83861
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 83861,
+			},
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83861,
+				cardmarket: 274270
+			}
 		},
 		{
 			type: "holo",
 			subtype: "energy-symbol-error"
 		}
-	]
+	],
 }
 
 export default card

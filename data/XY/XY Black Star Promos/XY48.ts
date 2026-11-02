@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "kirisAki",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -71,6 +71,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "When in danger, it raises its ears and releases enough psychic power to grind a 10-ton truck into dust.",
+	},
 
 	thirdParty: {
 		cardmarket: 289711

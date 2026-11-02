@@ -44,18 +44,42 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Cunning and cautious, this Pokémon survives by stealing food from others. It erases its tracks with swipes of its tail as it makes off with its plunder.",
+		de: "Es ist sehr vorsichtig und gerissen. Nachdem es Futter stibitzt hat, macht es sich davon und verwischt dabei seine Spuren mit seinem Schweif."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740650,
+				tcgplayer: 523794,
+				cardtrader: 265239
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740650,
+				tcgplayer: 523794,
+				cardtrader: 265239
+			}
+		},
+	],
 
 	illustrator: "Yuu Nishida",
 
-	thirdParty: {
-		cardmarket: 740650
-	}
+	
 }
 
 export default card

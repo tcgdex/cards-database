@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Many live in the clean seas of the south. They apparently can't live in polluted waters.",
+	},
+
 	thirdParty: {
 		cardmarket: 277837,
 		tcgplayer: 84441

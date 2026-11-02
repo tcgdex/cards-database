@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Bronzor",
 		fr: "Archéomire",
+		de: "Bronzel"
 	},
 
 	stage: "Stage1",
@@ -97,6 +98,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "One caused a news sensation when it was dug up at a construction site after a 2,000-year sleep.",
+		de: "Dieses PKMN fand man bei Grabungen auf einer Baustelle, an deren Ort es 2000 Jahre geschlafen hatte."
+	},
 
 	thirdParty: {
 		cardmarket: 278065,

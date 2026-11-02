@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Corvisquire"
+		en: "Corvisquire",
+		fr: "Bleuseille"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Rookidee"
+		en: "Rookidee",
+		fr: "Minisange"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Drill Peck"
+			en: "Drill Peck",
+			fr: "Bec Vrille"
 		},
 
 		damage: 40,

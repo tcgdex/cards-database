@@ -61,7 +61,7 @@ const card: Card = {
 				es: "Salpicadura Imponente GX",
 				it: "Splash Anomalo GX",
 				pt: "Borrifada Gigantesca GX",
-				de: "Turmhoher Platscher GX"
+				de: "Turmhoher Platscher-GX"
 			},
 
 			effect: {
@@ -70,7 +70,7 @@ const card: Card = {
 				es: "Si este Pokémon tiene por lo menos 7 Energías Water adicionales unidas a él (además de las del coste de este ataque), este ataque hace 100 puntos de daño a cada uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca). (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Se questo Pokémon ha almeno sette Energie Water extra assegnate, in aggiunta a quelle del costo di questo attacco, questo attacco infligge 100 danni a ciascun Pokémon nella panchina del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina. Non puoi usare più di un attacco GX a partita.",
 				pt: "Se este Pokémon tiver pelo menos 7 Energias Water adicionais ligadas a ele (além do custo deste ataque), este ataque causará 100 pontos de dano a cada um dos Pokémon no Banco do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco). (Você não pode usar mais de 1 ataque GX por partida.)",
-				de: "Wenn an dieses Pokémon mindestens 7 extra Water-Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), fügt diese Attacke jedem Pokémon auf der Bank deines Gegners 100 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				de: "Wenn an dieses Pokémon mindestens 7 extra {W}-Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), fügt diese Attacke jedem Pokémon auf der Bank deines Gegners 100 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 
 			damage: 10

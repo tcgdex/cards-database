@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 90,
 	types: ["Fighting"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "Oswaldo KATO",
 
 	description: {
-		en: "There's a rumor of a traditional recipe for stew that Trainers can use to raise strong Makuhita."
+		en: "There's a rumor of a traditional recipe for stew that Trainers can use to raise strong Makuhita.",
+		de: "Es heißt, es gebe einen Eintopf, den Trainer auf traditionelle Weise zubereiten, um Makuhita damit noch stärker zu machen."
 	},
 
 	attacks: [{
@@ -55,17 +62,23 @@ const card: Card = {
 		damage: 60
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582759,
-		tcgplayer: 253352
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582759,
+				tcgplayer: 253352
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582759,
+				tcgplayer: 253352
+			}
+		},
+	],
 }
 
 export default card

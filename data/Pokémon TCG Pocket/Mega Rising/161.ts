@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mareanie"
+		en: "Mareanie",
+		fr: "Vorastérie"
 	},
 
 	illustrator: "Aya Kusube",
@@ -24,13 +25,15 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Poison Sting"
+			en: "Poison Sting",
+			fr: "Dard-Venin"
 		},
 
 		cost: ["Darkness"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Poisoned."
+			en: "Your opponent's Active Pokémon is now Poisoned.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Empoisonné."
 		}
 	}],
 

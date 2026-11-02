@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		128,
-	],
+	dexId: [128],
 
 	hp: 90,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -53,9 +51,9 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. This attack does 30 damage times the number of heads. Tauros is now Confused.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face. Tauros est maintenant Confus.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu. Tauros ist jetzt verwirrt."
 			},
-			damage: "30x",
+			damage: "30×",
 
 		},
 	],
@@ -70,22 +68,27 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "They fight each other by locking horns. The herd’s protector takes pride in its battle-scarred horns."
+		en: "They fight each other by locking horns. The herd’s protector takes pride in its battle-scarred horns.",
+		de: "Sie kämpfen mit ihren Hörnern. Der Herdenführer ist stolz auf seine Hörner, die viele Kampfspuren haben."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89766,
+				cardmarket: 279197
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89766,
+				cardmarket: 279197
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279197,
-		tcgplayer: 89766
-	}
 }
 
 export default card

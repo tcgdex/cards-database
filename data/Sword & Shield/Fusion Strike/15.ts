@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 110,
 	types: ["Grass"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Kagemaru Himeno",
 
 	description: {
-		en: "Legends say this Pokémon confounded opponents with its swift movements."
+		en: "Legends say this Pokémon confounded opponents with its swift movements.",
+		de: "Legenden zufolge täuschte es seine Gegner mit flinken Bewegungen und beschützte so die Pokémon."
 	},
 
 	attacks: [{
@@ -62,17 +69,23 @@ const card: Card = {
 		damage: 90
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582056,
-		tcgplayer: 253092
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582056,
+				tcgplayer: 253092
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582056,
+				tcgplayer: 253092
+			}
+		},
+	],
 }
 
 export default card

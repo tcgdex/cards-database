@@ -1,12 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S12a"
+import { Card } from "../../../interfaces";
+import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
+		ja: "ミュウ",
 		'zh-tw': "夢幻",
-		ja: "ミュウ"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -15,53 +14,54 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
+		ja: "遺伝子には すべての ポケモンの 情報が 含まれているので あらゆる 技が 使えるという。",
 		'zh-tw': "基因中含有所有寶可夢的資訊，因此據說牠能使用所有的招式。",
-		ja: "遺伝子には すべての ポケモンの 情報が 含まれているので あらゆる 技が 使えるという。"
 	},
 
 	stage: "Basic",
 
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			'zh-tw': "神秘尾巴",
-			ja: "ふしぎなしっぽ"
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "ふしぎなしっぽ",
+				'zh-tw': "神秘尾巴",
+			},
+			effect: {
+				ja: "このポケモンがバトル場にいるなら、自分の番に1回使える。自分の山札を上から6枚見る。その中からグッズを1枚選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。",
+				'zh-tw': "若這隻寶可夢在戰鬥場上，則在自己的回合時可使用1次。查看自己的牌庫上方6張卡。選擇其中1張物品卡，在給對手看過後加入手牌。將剩餘卡放回牌庫並重洗。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "若這隻寶可夢在戰鬥場上，則在自己的回合時可使用1次。查看自己的牌庫上方6張卡。選擇其中1張物品卡，在給對手看過後加入手牌。將剩餘卡放回牌庫並重洗。",
-			ja: "このポケモンがバトル場にいるなら、自分の番に1回使える。自分の山札を上から6枚見る。その中からグッズを1枚選び、相手に見せて、手札に加える。残りのカードは山札にもどして切る。"
-		}
-	}],
-
-	attacks: [{
-		name: {
-			'zh-tw': "精神射擊",
-			ja: "サイコショット"
+	attacks: [
+		{
+			name: {
+				ja: "サイコショット",
+				'zh-tw': "精神射擊",
+			},
+			damage: 30,
+			cost: ["Psychic", "Colorless"],
 		},
+	],
 
-		damage: 30,
-		cost: ["Psychic", "Colorless"]
-	}],
+	weaknesses: [{ type: "Darkness", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
 
-	weaknesses: [{
-		type: "Darkness",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Fighting",
-		value: "－30"
-	}],
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 687745,
+				tcgplayer: 571721,
+			},
+		},
+	],
 
 	retreat: 1,
 	regulationMark: "E",
+	rarity: "Illustration rare",
 	dexId: [151],
+};
 
-	thirdParty: {
-		cardmarket: 687530
-	}
-}
-
-export default card
+export default card;

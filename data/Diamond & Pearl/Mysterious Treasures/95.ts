@@ -4,7 +4,7 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Remoraid",
-		fr: "Remoraid",
+		fr: "Rémoraid",
 		de: "Remoraid"
 	},
 
@@ -12,6 +12,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [226],
 
 	dexId: [
 		223,
@@ -55,7 +56,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -68,9 +69,13 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Il crache un puissant jet d'eau pour abattre les proies volantes."
+		en: "It squirts water forcefully from its mouth to shoot down flying prey.",
+		fr: "Il crache un puissant jet d'eau pour abattre les proies volantes.",
+		de: "Es spritzt Wasser mit Hochdruck aus seinem Maul und schießt damit auf fliegende Beute."
 	},
 
 	thirdParty: {

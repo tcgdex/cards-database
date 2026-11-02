@@ -32,7 +32,7 @@ const card: Card = {
 		es: "Roba 4 cartas.\n\nAl final de este turno, si tienes 3 cartas o más en tu mano, pon cartas de tu mano en tu baraja hasta que tengas 2 cartas en tu mano y barájalas todas.",
 		it: "Pesca quattro carte.\n\nAlla fine di questo turno, se hai tre o più carte in mano, rimischia delle carte dalla tua mano nel tuo mazzo fino ad averne due in mano.",
 		pt: "Compre 4 cartas.\n\nNo final desta vez de jogar, se você tiver 3 ou mais cartas na sua mão, embaralhe cartas da sua mão no seu baralho até ter 2 cartas na sua mão.",
-		de: "Ziehe 4 Karten.\n\nWenn du am Ende dieses Zuges 3 oder mehr Karten auf deiner Hand hast, mische so lang Karten aus deiner Hand in dein Deck, bis du 2 Karten auf deiner Hand hast."
+		de: "Ziehe 4 Karten. Wenn du am Ende dieses Zuges 3 oder mehr Karten auf deiner Hand hast, mische so lang Karten aus deiner Hand in dein Deck, bis du 2 Karten auf deiner Hand hast. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 	trainerType: "Supporter",
 

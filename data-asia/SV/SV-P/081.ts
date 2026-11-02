@@ -1,34 +1,32 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "猛雷鼓ex"
+		ja: "基本水エネルギー",
+		'zh-tw': "猛雷鼓ex",
 	},
 
-	illustrator: "aky CG Works",
-	category: "Pokemon",
-	hp: 240,
-	types: ["Dragon"],
-	stage: "Basic",
-	suffix: "EX",
+	illustrator: "",
+	category: "Energy",
+	energyType: "Normal",
 
-	attacks: [{
-		name: {
-			'zh-tw': "濺射咆哮"
+	effect: {
+		ja: "&copy;Pokémon/Nintendo/Creatures/GAME FREAK ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの商標です。 このホームページに掲載された画像その他の内容の無断転載はお断りします。",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 727990,
+				tcgplayer: 587839,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "將自己的手牌全部丟棄，從牌庫抽出6張卡。"
-		},
+	rarity: "Promo",
+};
 
-		cost: ["Colorless"]
-	}],
-
-	retreat: 3,
-	regulationMark: "H"
-}
-
-export default card
+export default card;

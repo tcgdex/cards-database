@@ -23,7 +23,9 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Golbat"
+		en: "Golbat",
+		fr: "Nosferalto",
+		de: "Golbat"
 	},
 
 	description: {
@@ -31,7 +33,7 @@ const card: Card = {
 		fr: "Ses pattes sont devenues des ailes.\nIl fond sur sa proie furtivement puis\nplante ses crocs dans sa nuque.",
 		es: "Sus patas se han convertido en alas. Se lanza\nsobre su presa en un vuelo silencioso a alta\nvelocidad y le clava los colmillos en la nuca.",
 		it: "Le due zampe si sono mutate in ali. Vola verso\nla preda ad alta velocità senza fare alcun\nrumore e le affonda le zanne nella nuca.",
-		de: "Seine zwei Beine wurden zu Flügeln. Es fliegt\nschnell und lautlos zu seiner Beute, um ihr dann\ndie Zähne in den Nacken zu bohren.",
+		de: "Seine zwei Beine wurden zu Flügeln. Es fliegt schnell und lautlos zu seiner Beute, um ihr dann die Zähne in den Nacken zu bohren.",
 		'pt-br': "Suas duas pernas se transformaram em asas.\nSilenciosamente, Crobat voa de forma ágil em direção\nà sua presa e afunda seus dentes na nuca de seu alvo.",
 		ko: "양발이 날개로 변화했다.\n소리를 내지 않고 고속으로 날아\n먹이의 목덜미에 이빨을 꽂는다."
 	},

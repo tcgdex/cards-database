@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 20,
@@ -59,10 +60,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280132,
-		tcgplayer: 85537
-	}
+	description: {
+		en: "For some reason, this Pokémon resembles a Poké Ball. They release poison spores to repel those who try to catch them.",
+		de: "Es ähnelt einem Pokéball. Versucht man, es zu fangen, widersetzt es sich, indem es Giftsporen versprüht."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280132,
+				tcgplayer: 85537
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280132,
+				tcgplayer: 85537
+			}
+		},
+	],
 }
 
 export default card

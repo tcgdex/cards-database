@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon 2 cartas de tu mano en la Zona Perdida. Si lo haces, roba 1 carta.",
 		it: "Prendi due delle carte che hai in mano e mettile nell’area perduta. Se lo fai, pesca una carta.",
 		pt: "Coloque 2 cartas da sua mão na Zona Perdida. Se fizer isto, compre 1 carta.",
-		de: "Lege 2 Karten aus deiner Hand ins Nirgendwo. Wenn du das machst, ziehe 1 Karte."
+		de: "Lege 2 Karten aus deiner Hand ins Nirgendwo. Wenn du das machst, ziehe 1 Karte. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

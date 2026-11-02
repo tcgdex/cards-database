@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Bayleef δ",
 		fr: "Macronium δ",
-		de: "Lorblatt"
+		de: "Lorblatt δ"
 	},
 
 	illustrator: "Kagemaru Himeno",

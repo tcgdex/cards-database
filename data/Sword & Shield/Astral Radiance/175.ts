@@ -4,6 +4,7 @@ import Set from "../Astral Radiance"
 const card: Card = {
 	dexId: [903],
 	set: Set,
+	cameoDexIds: [215],
 
 	name: {
 		en: "Hisuian Sneasler V",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Hisui-Snieboss V"
 	},
 
+	illustrator: "OKACHEKE",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 190,
@@ -63,20 +65,25 @@ const card: Card = {
 		damage: "80×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658836,
-		tcgplayer: 272425
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658836,
+				tcgplayer: 272425
+			}
+		},
+	],
 }
 
 export default card

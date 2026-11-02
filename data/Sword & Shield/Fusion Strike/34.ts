@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 80,
 	types: ["Fire"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "otumami",
 
 	description: {
-		en: "Its body is made of magma. If it doesn't keep moving, its body will cool and harden."
+		en: "Its body is made of magma. If it doesn't keep moving, its body will cool and harden.",
+		de: "Sein Körper besteht aus Magma. Bleibt es nicht ständig in Bewegung, kühlt es aus und verhärtet sich."
 	},
 
 	attacks: [{
@@ -55,17 +62,23 @@ const card: Card = {
 		damage: 20
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582168,
-		tcgplayer: 253131
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582168,
+				tcgplayer: 253131
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582168,
+				tcgplayer: 253131
+			}
+		},
+	],
 }
 
 export default card

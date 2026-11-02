@@ -60,6 +60,7 @@ const card: Card = {
 			name: {
 				en: "Psyshot",
 				fr: "Piqûre Psy",
+				de: "Psychoschuss"
 			},
 
 			damage: 30,
@@ -75,6 +76,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "When Mesprit flew, people learned the joy and sadness of living. It was the birth of emotions.",
+		de: "Als Vesprit flog, lernten Menschen Glück und Trauer des Lebens kennen. Die Geburt der Gefühle."
+	},
 
 	thirdParty: {
 		cardmarket: 281058,

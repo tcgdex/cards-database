@@ -47,7 +47,7 @@ const card: Card = {
 			es: "Cuando juegas este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes unir 1 carta de Energía Water de tu pila de descartes a 1 de tus Pokémon.",
 			it: "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon una carta Energia Water dalla tua pila degli scarti.",
 			pt: "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá ligar 1 carta de Energia Water da sua pilha de descarte a 1 dos seus Pokémon.",
-			de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 1 Water-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon anlegen."
+			de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 1 {W}-Energiekarte aus deinem Ablagestapel an 1 deiner Pokémon anlegen."
 		}
 	}],
 
@@ -82,23 +82,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It spits out cold air of nearly −60 degrees Fahrenheit to freeze its quarry. It brings frozen prey back to its lair and neatly lines them up."
+		en: "It spits out cold air of nearly −60 degrees Fahrenheit to freeze its quarry. It brings frozen prey back to its lair and neatly lines them up.",
+		de: "Es friert seine Beute mit -50 ºC kalter Luft ein, nimmt sie dann in seinen Unterschlupf mit und reiht sie dort fein säuberlich auf."
 	},
 
-	thirdParty: {
-		cardmarket: 567116,
-		tcgplayer: 241689
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567116,
+				tcgplayer: 241689
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567116,
+				tcgplayer: 241689
+			}
+		},
+	],
 }
 
 export default card

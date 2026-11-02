@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest.",
+	},
+
 	thirdParty: {
 		cardmarket: 281246,
 		tcgplayer: 85602

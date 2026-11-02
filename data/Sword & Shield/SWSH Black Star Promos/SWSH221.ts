@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Cyndaquil"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Fire"],
@@ -55,16 +55,34 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
 	description: {
 		en: "Hails from the Johto region. Though usually curled into a ball due to its timid disposition, it harbors tremendous firepower."
 	},
-
-	thirdParty: {
-		cardmarket: 609467
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 609467,
+				tcgplayer: 268706
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 489390
+			}
+		},
+	],
 }
 
 export default card

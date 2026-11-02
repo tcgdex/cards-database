@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Fruyal"
 	},
 	illustrator: "Naoki Saito",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Steenee",
 		fr: "Candine",
+		de: "Frubaila"
 	},
 	stage: "Stage2",
 
@@ -87,6 +88,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Its long, striking legs aren't just for show but to be used to kick with skill. In victory, it shows off by kicking the defeated, laughing boisterously.",
+		de: "Dieses Pokémon ist für seine heftigen Tritte bekannt. Oft tritt es auch noch nach und lacht, um seinen Sieg an die große Glocke zu hängen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297864,
+				tcgplayer: 139096
+			}
+		}
+	],
 }
 
 export default card

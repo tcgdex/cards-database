@@ -39,7 +39,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to Chansey by attacks during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous dégâts infligés à Leveinard par des attaques lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" verhindere alle Schadenspunkte, die Chaneira während des nächsten Zuges deines Gegners durch Angriffe zugefügt werden."
+				de: "Wirf 1 Münze. Bei „Kopf“ verhindere alle Schadenspunkte, die Chaneira während des nächsten Zuges deines Gegners durch Angriffe zugefügt werden."
 			},
 
 		},
@@ -71,9 +71,13 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
-		fr: "Il est censé apporter la joie. Ce Pokémon charitable offre ses œufs aux blessés."
+		en: "It is said to deliver happiness. Being compassionate, it shares its eggs with injured people.",
+		fr: "Il est censé apporter la joie. Ce Pokémon charitable offre ses œufs aux blessés.",
+		de: "Man sagt, es bringe Glück. Es ist sehr mitfühlend und teilt seine Eier mit Verletzten."
 	},
 
 	thirdParty: {

@@ -4,6 +4,7 @@ import Set from "../Paradox Rift"
 const card: Card = {
 	dexId: [208],
 	set: Set,
+	cameoDexIds: [532, 533],
 
 	name: {
 		en: "Steelix",
@@ -65,19 +66,40 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "It is thought its body transformed as a result of iron accumulating internally from swallowing soil.",
+		de: "Man glaubt, dass sich sein Körper aufgrund des Schluckens von eisenhaltiger Erde verwandelt habe."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740751,
+				tcgplayer: 523889,
+				cardtrader: 265563
+			}
+		},
+	],
 
 	illustrator: "nisimono",
 
-	thirdParty: {
-		cardmarket: 740751
-	}
+	
 }
 
 export default card

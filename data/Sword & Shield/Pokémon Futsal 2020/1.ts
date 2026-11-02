@@ -9,14 +9,14 @@ const card: Card = {
 		en: "Pikachu on the Ball"
 	},
 
-	illustrator: "The Pokémon Company Art Team",
+	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
 	rarity: "None",
 	category: "Pokemon",
 
 	description: {
 		en: "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy."
 	},
-	
+
 	hp: 60,
 
 	stage: "Basic",
@@ -45,12 +45,6 @@ const card: Card = {
 
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	weaknesses: [
 		{
@@ -59,6 +53,16 @@ const card: Card = {
 		},
 	],
 	retreat: 1,
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 506930,
+				tcgplayer: 223761
+			}
+		},
+	],
 }
 
 export default card

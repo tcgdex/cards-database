@@ -40,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, this attack does nothing (not even damage).",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné. Si c'est pile, cette attaque ne fait rien (pas même de dégâts).",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist der verteidigende Pokémon jetzt vergiftet. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen (nicht einmal Schadenspunkte)."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet. Bei „Zahl“ hat dieser Angriff keine Auswirkungen (nicht einmal Schadenspunkte)."
 			},
 
 			damage: 20
@@ -53,23 +53,31 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Son dard empoisonné est très puissant. Son corps de couleur criarde est conçu pour repousser ses ennemis."
+		en: "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.",
+		fr: "Son dard empoisonné est très puissant. Son corps de couleur criarde est conçu pour repousser ses ennemis.",
+		de: "Sein Giftstachel ist sehr gefährlich. Sein buntgefärbter Körper soll seine Feinde warnen."
 	},
 
-	thirdParty: {
-		cardmarket: 274581,
-		tcgplayer: 90538
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274581,
+				tcgplayer: 90538
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274581,
+				tcgplayer: 90538
+			}
 		}
 	]
 }

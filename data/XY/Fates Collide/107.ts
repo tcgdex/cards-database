@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Busca en tu baraja hasta 2 Pokémon Básicos, enséñalos y ponlos en tu mano. Baraja las cartas de tu baraja después.",
 		it: "Cerca nel tuo mazzo fino a due Pokémon Base, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure em seu baralho até 2 Pokémon Básicos, revele-os e coloque-os na sua mão. Em seguida, embaralhe seus cards.",
-		de: "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Durchsuche dein Deck nach bis zu 2 Basis-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

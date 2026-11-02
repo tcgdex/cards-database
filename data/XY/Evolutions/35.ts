@@ -64,7 +64,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cruz, este Pokémon se hace 10 puntos de daño a sí mismo.",
 				it: "Lancia una moneta. Se esce croce, questo Pokémon infligge 10 danni a se stesso.",
 				pt: "Jogue uma moeda. Se sair coroa, este Pokémon causará 10 de danos a ele mesmo.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" fügt sich dieses Pokémon selbst 10 Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Zahl“ fügt sich dieses Pokémon selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -86,6 +86,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs.",
+		de: "Es hat kleine Backentaschen, die mit Elektrizität gefüllt sind. Bei Gefahr entlädt es sie."
+	},
 
 	thirdParty: {
 		cardmarket: 293392,

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		335,
-	],
+	dexId: [335],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Call for Family",
 				fr: "Appel à la famille",
-				de: "Call for Family"
+				de: "Freundesruf"
 			},
 			effect: {
 				en: "Search your deck for a Colorless Basic Pokémon or Basic Pokémon with Team Magma in its name and put it onto your Bench. Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck un Pokémon de base  ou un Pokémon de base dont le nom comporte Team Magma et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Search your deck for a  Basic Pokémon or Basic Pokémon with Team Magma in its name and put it onto your Bench. Shuffle your deck afterward."
+				de: "Durchsuche dein Deck nach einem {C} Basis-Pokémon oder einem Basis-Pokémon mit „Team Magma“ im Namen und lege es auf die Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -51,14 +49,14 @@ const card: Card = {
 			name: {
 				en: "Team Play",
 				fr: "Jeu d'équipe",
-				de: "Team Play"
+				de: "Teamgeist"
 			},
 			effect: {
 				en: "Does 10 damage times the number of Pokémon in play with Team Magma in its name.",
 				fr: "Inflige 10 dégâts multipliés par le nombre de Pokémon en jeu dont les noms comportent Team Magma.",
-				de: "Does 10 damage times the number of Pokémon in play with Team Magma in its name."
+				de: "Fügt für jedes Pokémon im Spiel mit „Team Magma“ im Namen 10 Schadenspunkte zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 	],
@@ -70,26 +68,35 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276000,
-		tcgplayer: 89846
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275800,
+				tcgplayer: 89846
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275800,
+				tcgplayer: 89846
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["tsuguyoshi-yamato"]
+			stamp: ["tsuguyoshi-yamato"],
+			thirdParty: {
+				cardmarket: 871828,
+				tcgplayer: 477453
+			}
 		}
-	]
+	],
+
 }
 
 export default card

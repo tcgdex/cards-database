@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Icicle Punch",
 				fr: "Poing Stalactite",
+				de: "Eiswatsche"
 			},
 
 			damage: 30,
@@ -53,10 +54,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 279993,
-		tcgplayer: 84524
-	}
+	description: {
+		en: "Its nose is always running. It sniffs the snot back up because the mucus provides the raw material for its moves.",
+		de: "Der Schleim, der stets aus seiner Nase hängt, treibt seine Attacken an. Zieht es ihn hoch, steht ein Angriff bevor."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279994,
+				tcgplayer: 84524
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279994,
+				tcgplayer: 84524
+			}
+		},
+	],
 }
 
 export default card

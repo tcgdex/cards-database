@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "GOSSAN",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fighting"],
@@ -26,7 +26,7 @@ const card: Card = {
 
 		name: {
 			en: "Accelerating Stab",
-			fr: "Coup de Poing Accéléré",
+			fr: "Poignard Accélérateur",
 			de: "Beschleunigter Stich",
 			it: "Pugnalata Rapida",
 			es: "Puñalada Acelerada",
@@ -37,7 +37,7 @@ const card: Card = {
 
 		effect: {
 			en: "During your next turn, this Pokémon can't use Accelerating Stab.",
-			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Coup de Poing Accéléré.",
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Poignard Accélérateur.",
 			de: "Während deines nächsten Zuges kann dieses Pokémon Beschleunigter Stich nicht einsetzen.",
 			it: "Durante il tuo prossimo turno, questo Pokémon non può usare Pugnalata Rapida.",
 			es: "Durante tu próximo turno, este Pokémon no puede usar Puñalada Acelerada.",
@@ -48,19 +48,28 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 656260,
-		cardmarket: 851058
-	},
+	weaknesses: [{
+		type: "Psychic",
+		value: "x2"
+	}],
+
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 851058,
+				tcgplayer: 656260
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["pokemon-center"]
-		}
-	]
+			stamp: ["pokemon-center"],
+			thirdParty: {
+				cardmarket: 851059,
+				tcgplayer: 656262
+			}
+		},
+	],
 }
 
 export default card

@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño más por cada Energía Darkness unida a todos tus Pokémon.",
 				it: "Questo attacco infligge 20 danni in più per ogni Energia Darkness assegnata ai tuoi Pokémon.",
 				pt: "Este ataque causa 20 de danos adicionais para cada Energia Darkness ligada a todos os seus Pokémon.",
-				de: "Dieser Angriff fügt für jede Darkness-Energie, die an deine Pokémon angelegt sind, 20 weitere Schadenpunkte zu."
+				de: "Dieser Angriff fügt für jede {D}-Energie, die an deine Pokémon angelegt sind, 20 weitere Schadenpunkte zu."
 			},
 			damage: "20+",
 

@@ -62,23 +62,30 @@ const card: Card = {
 	types: ["Psychic"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "If you build sand mounds when you're playing, destroy them before you go home, or they may get possessed and become Sandygast."
+		en: "If you build sand mounds when you're playing, destroy them before you go home, or they may get possessed and become Sandygast.",
+		de: "Lässt man beim Spielen gebaute Sandhaufen zurück, kann es vorkommen, dass sich eine Seele dort einnistet und ein Sankabuh entsteht."
 	},
 
-	thirdParty: {
-		cardmarket: 457823,
-		tcgplayer: 213167
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457823,
+				tcgplayer: 213167
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457823,
+				tcgplayer: 213167
+			}
+		},
+	],
 }
 
 export default card

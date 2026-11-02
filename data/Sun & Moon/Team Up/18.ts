@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Ponyta",
 		fr: "Ponyta",
+		de: "Ponita"
 	},
 
 	stage: "Stage1",
@@ -91,6 +92,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Very competitive, this Pokémon will chase anything that moves fast in the hopes of racing it.",
+		de: "Dieses Pokémon verfolgt schnelle Objekte in der Hoffnung, ein Wettrennen gegen sie zu gewinnen."
+	},
 
 	thirdParty: {
 		cardmarket: 368950,

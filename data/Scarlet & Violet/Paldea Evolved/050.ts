@@ -44,18 +44,40 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715524,
+				tcgplayer: 497461,
+				cardtrader: 248656
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715524,
+				tcgplayer: 497461,
+				cardtrader: 248656
+			}
+		},
+	],
 
 	illustrator: "Naoki Saito",
 
-	thirdParty: {
-		cardmarket: 715523
-	}
+	description: {
+		en: "This Pokémon migrated to Paldea from distant lands long ago. The gel secreted by its feathers repels water and grime.",
+		de: "Vor langer Zeit kam es von weit her und ließ sich in Paldea nieder. Über sein Gefieder sondert es ein Gel ab, das Wasser und Schmutz abweist."
+	},
 }
 
 export default card

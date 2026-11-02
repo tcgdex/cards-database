@@ -35,23 +35,38 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
+	description: {
+		en: "It spits out a fluid that it uses to glue tree bark to its body. The fluid hardens when it touches air.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760632,
+				tcgplayer: 542647
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760632,
+				tcgplayer: 542647
+			}
+		},
 	],
 
 	illustrator: "Midori Harada",
 
-	thirdParty: {
-		cardmarket: 760632
-	}
 }
 
 export default card

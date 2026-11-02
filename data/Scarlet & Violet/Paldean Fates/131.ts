@@ -55,19 +55,33 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751670,
+				tcgplayer: 534522,
+				cardtrader: 274315
+			}
+		},
+	],
 
 	illustrator: "Yuu Nishida",
 
-	thirdParty: {
-		cardmarket: 751670
-	}
+	description: {
+		en: "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
+		de: "Ist es wütend, entlädt sich augenblicklich die Elektrizität, die es in seinen Backentaschen gespeichert hat."
+	},
+
 }
 
 export default card

@@ -65,18 +65,42 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "In homes illuminated by Chandelure instead of lights, funerals were a constant occurrence—or so it's said.",
+		de: "Angeblich soll früher in Häusern, wo Skelabra zur Beleuchtung verwendet wurden, eine Beerdigung auf die andere gefolgt sein."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725118,
+				tcgplayer: 509742,
+				cardtrader: 255598
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725118,
+				tcgplayer: 509742,
+				cardtrader: 255598
+			}
+		},
+	],
 
 	illustrator: "Haru Akasaka",
 
-	thirdParty: {
-		cardmarket: 725118
-	}
+	
 }
 
 export default card

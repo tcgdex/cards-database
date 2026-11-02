@@ -55,14 +55,30 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "Shibuzoh.",
+
+	description: {
+		en: "It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.",
+		de: "Um sich vor Feinden zu schützen, sondert es aus der Frucht auf seinem Kopf Öl ab. Dieses ist so bitter, dass es einen zusammenzucken lässt."
+	},
 
 	thirdParty: {
         cardmarket: 702317,

@@ -23,23 +23,23 @@ const card: Card = {
 		es: "Descarta hasta 2 cartas de tu mano y roba 2 cartas por cada carta que hayas descartado de esta manera.",
 		it: "Scarta fino a due carte che hai in mano e pesca due carte per ogni carta che hai scartato in questo modo.",
 		pt: "Descarte até 2 cartas da sua mão e compre 2 cartas para cada carta descartada desta forma.",
-		de: "Lege bis zu 2 Karten aus deiner Hand auf deinen Ablagestapel und ziehe 2 Karten für jede auf diese Weise auf deinen Ablagestapel gelegte Karte."
+		de: "Lege bis zu 2 Karten aus deiner Hand auf deinen Ablagestapel und ziehe 2 Karten für jede auf diese Weise auf deinen Ablagestapel gelegte Karte. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 457328,
-		tcgplayer: 213266
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 457328,
+				tcgplayer: 213266
+			}
+		},
+	],
 }
 
 export default card

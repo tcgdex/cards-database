@@ -69,6 +69,11 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "Myriads of Cutiefly flutter above the heads of people who have auras resembling those of flowers.",
+		de: "Über den Köpfen von Menschen, deren Auren denen von Blumen gleichen, finden sich zahlreich Wommel ein."
+	},
+
 	thirdParty: {
 		cardmarket: 365782,
 		tcgplayer: 178964

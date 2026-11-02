@@ -62,15 +62,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273978,
-		tcgplayer: 42518
+
+	description: {
+		en: "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273978,
+				tcgplayer: 42518
+			}
 		}
 	]
 }

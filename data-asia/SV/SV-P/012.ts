@@ -1,47 +1,33 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "摩托蜥ex"
+		ja: "ネモ",
+		'zh-tw': "摩托蜥ex",
 	},
 
-	illustrator: "5ban Graphics",
-	category: "Pokemon",
-	hp: 210,
-	types: ["Colorless"],
-	stage: "Basic",
-	suffix: "EX",
+	illustrator: "Sanosuke Sakuma",
+	category: "Trainer",
 
-	attacks: [{
-		name: {
-			'zh-tw': "力量奔馳"
+	effect: {
+		ja: "自分の山札を3枚引く。",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 692258,
+				tcgplayer: 587769,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "#N/A"
-		},
+	trainerType: "Supporter",
+	regulationMark: "G",
+	rarity: "Promo",
+};
 
-		damage: 30,
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "全速油門"
-		},
-
-		damage: 180,
-		cost: ["Colorless", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
-
-	retreat: 1,
-	regulationMark: "G"
-}
-
-export default card
+export default card;

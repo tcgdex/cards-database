@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 110,
 	types: ["Darkness"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Megumi Mizutani",
 
 	description: {
-		en: "It can lull people to sleep and make them dream. It is active during nights of the new moon."
+		en: "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
+		de: "Es kann andere in Schlaf versetzen und ihnen Träume geben. Es ist nur bei Neumond aktiv."
 	},
 
 	attacks: [{
@@ -42,17 +49,23 @@ const card: Card = {
 		damage: 90
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582795,
-		tcgplayer: 253381
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582795,
+				tcgplayer: 253381
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582795,
+				tcgplayer: 253381
+			}
+		},
+	],
 }
 
 export default card

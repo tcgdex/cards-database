@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Turtok"
 	},
 
+	illustrator: "NC Empire",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 170,
@@ -70,25 +71,45 @@ const card: Card = {
 			es: "Este ataque hace 30 puntos de daño más por cada Energía Water unida a este Pokémon.",
 			it: "Questo attacco infligge 30 danni in più per ogni Energia Water assegnata a questo Pokémon.",
 			pt: "Este ataque causa 30 pontos de dano a mais para cada Energia Water ligada a este Pokémon.",
-			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Water-Energie 30 Schadenspunkte mehr zu."
+			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte {W}-Energie 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
+
+	description: {
+		en: "It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.",
+		de: "Es begräbt seine Gegner mit seinem enormen Körpergewicht. Wenn es in einer aussichtslosen Lage steckt, zieht es sich in seinen Panzer zurück."
 	},
 
-	thirdParty: {
-		cardmarket: 664554,
-		tcgplayer: 274453
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665250,
+				tcgplayer: 274453
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665250,
+				tcgplayer: 274453
+			}
+		},
+	],
 }
 
 export default card

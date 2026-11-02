@@ -88,6 +88,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down.",
+		de: "Klammert sich an Bäume in Sümpfen. Lockt Beute mit seinem süßlichen Speichel an und schluckt sie dann."
+	},
+
 	thirdParty: {
 		cardmarket: 315944,
 		tcgplayer: 157629

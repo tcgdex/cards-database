@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Drowzee",
@@ -54,16 +48,29 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It puts its prey to sleep and devours their dreams. It seems that bad dreams taste sour, so Drowzee doesn't particularly like eating them."
+		en: "It puts its prey to sleep and devours their dreams. It seems that bad dreams taste sour, so Drowzee doesn't particularly like eating them.",
+		de: "Traumato versetzt seine Beute in den Schlaf und frisst ihre Träume. Alpträume mag es aufgrund ihres säuerlichen Geschmacks nicht so gern."
 	},
 
 	dexId: [96],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574109,
-		tcgplayer: 246827
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574109,
+				tcgplayer: 246827
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574109,
+				tcgplayer: 246827
+			}
+		},
+	],
 }
 
 export default card

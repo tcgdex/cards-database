@@ -66,18 +66,45 @@ const card: Card = {
 		damage: "30×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
+	description: {
+		en: "Fezandipiti beats its glossy wings to scatter pheromones that captivate people and Pokémon.",
+		de: "Schlägt es mit seinen anmutigen Flügeln, verteilt es Pheromone, durch die es Menschen und Pokémon in seinen Bann zieht."
 	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769270,
+				tcgplayer: 550140
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769270,
+				tcgplayer: 550140
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 776164,
+			}
+		},
+	],
 
 	illustrator: "Kouki Saitou",
 
-	thirdParty: {
-		cardmarket: 769270
-	}
 }
 
 export default card

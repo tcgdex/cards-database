@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Origin Forme Palkia V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Water"],
@@ -65,12 +65,23 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
-
-	thirdParty: {
-		cardmarket: 669480
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 669480,
+				tcgplayer: 449512
+			}
+		},
+	],
 }
 
 export default card

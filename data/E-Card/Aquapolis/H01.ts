@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Shin-ichi Yoshida",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		181,
-	],
+	dexId: [181],
 
 	hp: 100,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
 		en: "Flaaffy",
-		fr: "Lainergie"
+		fr: "Lainergie",
+		de: "Waaty"
 	},
 
 	stage: "Stage2",
@@ -43,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -72,19 +71,20 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275073,
-		tcgplayer: 83537
-	},
 
 	variants: [
 		{
 			type: "holo",
-		}
+			thirdParty: {
+				tcgplayer: 83537,
+				cardmarket: 275073
+			}
+		},
 	]
 }
 

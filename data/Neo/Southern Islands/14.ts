@@ -10,6 +10,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [54, 69],
 
 	dexId: [
 		199,
@@ -62,15 +63,20 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275644,
-		tcgplayer: 46471
+
+	description: {
+		en: "Its nonchalant reaction to everything somehow gives this Pokémon an imposing presence.",
 	},
 
 	variants: [
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275644,
+				tcgplayer: 46471
+			}
 		}
 	]
 }

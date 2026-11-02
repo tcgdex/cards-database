@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		204,
-	],
+	dexId: [204],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -51,22 +49,27 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It hangs and waits for flying insect prey to come near. It does not move about much on its own."
+		en: "It hangs and waits for flying insect prey to come near. It does not move about much on its own.",
+		de: "Es lauert vorbeifliegender Beute auf, die in seine Nähe kommt. Daher bewegt es sich nur selten."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279315,
+				tcgplayer: 88129
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279315,
+				tcgplayer: 88129
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279315,
-		tcgplayer: 88129
-	}
 }
 
 export default card

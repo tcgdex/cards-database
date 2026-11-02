@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pidgeotto"
+		en: "Pidgeotto",
+		fr: "Roucoups"
 	},
 
 	illustrator: "Mizue",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Pidgey"
+		en: "Pidgey",
+		fr: "Roucool"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Speed Wing"
+			en: "Speed Wing",
+			fr: "Ailes Vives"
 		},
 
 		damage: 40,

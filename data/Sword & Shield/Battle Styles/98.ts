@@ -71,23 +71,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Hunger hormones affect its temperament. Until its hunger is appeased, it gets up to all manner of evil deeds."
+		en: "Hunger hormones affect its temperament. Until its hunger is appeased, it gets up to all manner of evil deeds.",
+		de: "Appetithormone sind für seine wechselhafte Persönlichkeit verantwortlich. Es schreckt vor keiner Schandtat zurück, um satt zu werden."
 	},
 
-	thirdParty: {
-		cardmarket: 545571,
-		tcgplayer: 234229
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545571,
+				tcgplayer: 234229
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545571,
+				tcgplayer: 234229
+			}
+		},
+	],
 }
 
 export default card

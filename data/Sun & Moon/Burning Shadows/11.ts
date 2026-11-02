@@ -86,10 +86,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 299418,
-		tcgplayer: 138281
-	}
+	description: {
+		en: "This powerful Pokémon thrusts its prized horn under its enemies' bellies, then lifts and throws them.",
+		de: "Dieses kräftige Pokémon rammt sein stolzes Horn unter den Rumpf des Gegners und wirft ihn um."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299418,
+				tcgplayer: 138281
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299418,
+				tcgplayer: 138281
+			}
+		},
+	],
 }
 
 export default card

@@ -82,6 +82,11 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Its humped back stores intensely hot magma. In rain, the magma cools, slowing its movement.",
+		de: "In seinem Rücken speichert es sehr heißes Magma. Regnet es, kühlt das Magma ab und es wird langsamer."
+	},
+
 	thirdParty: {
 		cardmarket: 387947,
 		tcgplayer: 194939

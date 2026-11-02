@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Combee",
 		fr: "Apitrini",
+		de: "Wadribie"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "As long as you have more Prize cards left than your opponent, Vespiquen's attacks do 10 more damage for each Grass Pokémon on your Bench to the Active Pokémon (before applying Weakness and Resistance).",
 				fr: "Tant qu'il vous reste plus de cartes Récompense que votre adversaire, les attaques d'Apireine inflige 10 dégâts supplémentaires au Pokémon Actif pour chaque Pokémon Grass sur votre Banc (avant application de la Faiblesse et de la Résistance).",
-				de: "Solange du mehr Preise übrig hast als dein Gegner, fügt jeder Angriff von Honweisel den Aktiven Pokémon für jedes -Pokémon auf deiner Bank 10 zusätzliche Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+				de: "Solange du mehr Preise übrig hast als dein Gegner, fügt jeder Angriff von Honweisel den Aktiven Pokémon für jedes {G}-Pokémon auf deiner Bank 10 zusätzliche Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 		},
 	],
@@ -77,7 +78,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. If both of them are heads, the Defending Pokémon is now Burned, Paralyzed, and Poisoned.",
 				fr: "Lancez 2 pièces. Si ce sont deux faces, le Pokémon Défenseur est maintenant Brûlé, Paralysé et Empoisonné.",
-				de: "Wirf 2 Münzen. Wenn beide Münzen \"Kopf\" gezeigt haben, ist das Verteidigende Pokémon jetzt gelähmt, verbrannt und vergiftet."
+				de: "Wirf 2 Münzen. Wenn beide Münzen „Kopf“ gezeigt haben, ist das Verteidigende Pokémon jetzt gelähmt, verbrannt und vergiftet."
 			},
 			damage: 50,
 

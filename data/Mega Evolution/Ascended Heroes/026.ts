@@ -14,9 +14,11 @@ const card: Card = {
 		pt: "Ho-Oh ex do Ethan"
 	},
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [250],
 	hp: 230,
 	types: ["Fire"],
 	stage: "Basic",
@@ -71,13 +73,24 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675838,
-		cardmarket: 869637
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869637,
+				tcgplayer: 675838
+			}
+		}
+	],
 }
 
 export default card

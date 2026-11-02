@@ -4,6 +4,7 @@ import Set from "../Fusion Strike"
 const card: Card = {
 	dexId: [311],
 	set: Set,
+	cameoDexIds: [312],
 
 	name: {
 		en: "Plusle",
@@ -19,12 +20,19 @@ const card: Card = {
 	hp: 70,
 	types: ["Lightning"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Megumi Higuchi",
 
 	description: {
-		en: "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises."
+		en: "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises.",
+		de: "Es holt sich Energie aus Telegrafenmasten. Wenn es diese entlädt, hört man ein lautes Prasseln."
 	},
 
 	attacks: [{
@@ -51,17 +59,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582481,
-		tcgplayer: 253245
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582481,
+				tcgplayer: 253245
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582481,
+				tcgplayer: 253245
+			}
+		},
+	],
 }
 
 export default card

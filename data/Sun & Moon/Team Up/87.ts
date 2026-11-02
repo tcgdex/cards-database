@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Poochyena",
 		fr: "Medhyèna",
+		de: "Fiffyen"
 	},
 
 	stage: "Stage1",
@@ -91,6 +92,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It chases down prey in a pack of around ten. They defeat foes with perfectly coordinated teamwork.",
+		de: "Es jagt in Rudeln von ungefähr zehn Magnayen. Beim Einkreisen der Beute arbeiten sie perfekt zusammen."
+	},
 
 	thirdParty: {
 		cardmarket: 369017,

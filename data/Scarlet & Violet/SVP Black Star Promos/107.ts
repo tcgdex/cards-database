@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Voltilamm"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Lightning"],
@@ -48,9 +48,24 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
-	illustrator: "Orca"
+	illustrator: "Orca",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769403,
+				tcgplayer: 556923
+			},
+		}
+	],
 }
 
 export default card

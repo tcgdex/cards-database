@@ -68,9 +68,13 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Il baigne ses griffes dans le miel pour les lécher. Chaque paire de pattes a un goût unique."
+		en: "It lets honey soak into its paws so it can lick them all the time. Every sets of paws tastes unique.",
+		fr: "Il baigne ses griffes dans le miel pour les lécher. Chaque paire de pattes a un goût unique.",
+		de: "Es lässt Honig in seine Pranken eindringen, so dass es immer welchen dabeihat."
 	},
 
 	thirdParty: {

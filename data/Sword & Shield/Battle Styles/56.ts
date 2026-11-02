@@ -77,23 +77,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It uses black pearls to amplify its psychic power. It does an odd dance to gain control over foes."
+		en: "It uses black pearls to amplify its psychic power. It does an odd dance to gain control over foes.",
+		de: "Mit schwarzen Perlen verstärkt es seine Psycho-Kräfte. Mit einem Tanz kontrolliert es seine Gegner."
 	},
 
-	thirdParty: {
-		cardmarket: 545391,
-		tcgplayer: 234222
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545391,
+				tcgplayer: 234222
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545391,
+				tcgplayer: 234222
+			}
+		},
+	],
 }
 
 export default card

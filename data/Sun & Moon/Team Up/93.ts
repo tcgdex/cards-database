@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Vullaby",
 		fr: "Vostourno",
+		de: "Skallyk"
 	},
 
 	stage: "Stage1",
@@ -98,6 +99,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It circles in the sky, keeping a keen eye out for Pokémon in a weakened state. Its choicest food is Cubone.",
+		de: "Es überblickt das Areal aus der Luft und stürzt sich auf geschwächte Pokémon. Tragosso ist seine bevorzugte Beute."
+	},
 
 	thirdParty: {
 		cardmarket: 369023,

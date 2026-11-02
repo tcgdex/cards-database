@@ -4,7 +4,7 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Dusclops",
-		fr: "Teraclope",
+		fr: "Téraclope",
 		de: "Zwirrklop"
 	},
 
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Duskull",
-		fr: "Skelenox"
+		fr: "Skelénox",
+		de: "Zwirrlicht"
 	},
 
 	stage: "Stage1",
@@ -40,8 +41,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as Dusclops is your Active Pokémon, your opponent can't attach any Special Energy cards (except for Darkness and Metal Energy cards) from his or her hand to his or her Active Pokémon.",
-				fr: "Tant que Teraclope est votre Pokémon Actif, votre adversaire ne peut pas attacher de cartes Énergie spéciale (cartes Énergie  et  exceptées) de sa main à son Pokémon Actif.",
-				de: "Solange Zwirrklop dein Aktives Pokémon ist, kann dein Gegner keine Spezialenergiekarten (außer - und -Energiekarten) von seiner Hand an sein Aktives Pokémon anlegen."
+				fr: "Tant que Teraclope est votre Pokémon Actif, votre adversaire ne peut pas attacher de cartes Énergie spéciale (cartes Énergie {D} et {M} exceptées) de sa main à son Pokémon Actif.",
+				de: "Solange Zwirrklop dein Aktives Pokémon ist, kann dein Gegner keine Spezialenergiekarten (außer {D}- und {M}-Energiekarten) von seiner Hand an sein Aktives Pokémon anlegen."
 			},
 		},
 	],

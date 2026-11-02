@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Arctovish V",
@@ -43,7 +37,7 @@ const card: Card = {
 			es: "Si el Pokémon Defensor es un Pokémon V o un Pokémon-GX, no puede atacar durante el próximo turno de tu rival.",
 			it: "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può attaccare se è un Pokémon-V o un Pokémon-GX.",
 			pt: "If the Defending Pokémon is a Pokémon V or a Pokémon-GX, it can't attack during your opponent's next turn.",
-			de: "Wenn das Verteidigende Pokémon ein Pokémon-V oder Pokémon-GX ist, kann es während des nächsten Zuges deines Gegners nicht angreifen."
+			de: "Wenn das Verteidigende Pokémon deines Gegners ein Pokémon-V oder Pokémon-GX ist, kann es während des nächsten Zuges deines Gegners nicht angreifen."
 		},
 
 		damage: 80,
@@ -81,10 +75,15 @@ const card: Card = {
 	regulationMark: "E",
 	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 574072,
-		tcgplayer: 246761
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574234,
+				tcgplayer: 246761
+			}
+		},
+	],
 }
 
 export default card

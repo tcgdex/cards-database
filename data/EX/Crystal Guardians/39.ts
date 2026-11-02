@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Seedot",
-		fr: "Grainipiot"
+		fr: "Grainipiot",
+		de: "Samurzel"
 	},
 
 	stage: "Stage1",
@@ -42,8 +43,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Attach a Darkness Energy card from your hand to Nuzleaf.",
-				fr: "Attachez une carte Énergie  de votre main à Pifeuil.",
-				de: "Lege eine -Energiekarte von deiner Hand an Blanas an."
+				fr: "Attachez une carte Énergie {D} de votre main à Pifeuil.",
+				de: "Lege eine {D}-Energiekarte von deiner Hand an Blanas an."
 			},
 
 		},

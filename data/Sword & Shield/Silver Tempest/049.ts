@@ -4,6 +4,7 @@ import Set from "../Silver Tempest"
 const card: Card = {
 	dexId: [25],
 	set: Set,
+	cameoDexIds: [702, 777],
 
 	name: {
 		en: "Pikachu",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Pikachu"
 	},
 
+	illustrator: "Souichirou Gunjima",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -44,20 +46,44 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
+		de: "Je stärker die Elektrizität ist, die Pikachu produziert, desto weicher und elastischer sind seine Backentaschen."
 	},
 
-	thirdParty: {
-		cardmarket: 682096,
-		tcgplayer: 451703
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682096,
+				tcgplayer: 451703
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['snowflake'],
+			thirdParty: {
+				cardmarket: 740467
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682096,
+				tcgplayer: 451703
+			}
+		},
+	],
 }
 
 export default card

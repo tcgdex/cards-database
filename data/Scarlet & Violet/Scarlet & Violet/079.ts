@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wattrel",
-		fr: "Zapétrel"
+		fr: "Zapétrel",
+		de: "Voltrel"
 	},
 
 	stage: "Stage1",
@@ -70,14 +71,36 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "Kouki Saitou",
+
+	description: {
+		en: "Kilowattrel inflates its throat sac to amplify its electricity. By riding the wind, this Pokémon can fly over 430 miles in a day.",
+		de: "Dieses Pokémon verstärkt seine Elektrizität durch Aufblasen des Kehlsacks. Es nutzt den Wind, um innerhalb eines Tages 700 km weit zu fliegen."
+	},
 
 	thirdParty: {
         cardmarket: 702376,

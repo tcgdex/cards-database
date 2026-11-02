@@ -70,7 +70,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		fr: "Rien ne peut perturber ses nerfs d'acier. Il est plus agile et énergique qu'il n'y paraît."
+		en: "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
+		fr: "Rien ne peut perturber ses nerfs d'acier. Il est plus agile et énergique qu'il n'y paraît.",
+		de: "Es hat Nerven wie Drahtseile, nichts kann es erschüttern. Es ist agiler und aktiver, als es scheint."
 	},
 
 	thirdParty: {

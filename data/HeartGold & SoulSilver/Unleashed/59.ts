@@ -4,7 +4,7 @@ import Set from '../Unleashed'
 const card: Card = {
 	name: {
 		en: "Remoraid",
-		fr: "Remoraid",
+		fr: "Rémoraid",
 		de: "Remoraid"
 	},
 
@@ -12,15 +12,14 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [226],
 
-	dexId: [
-		223,
-	],
+	dexId: [223],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -50,7 +49,7 @@ const card: Card = {
 				de: "Wasserpfeil"
 			},
 			effect: {
-				en: "Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Choisissez l’un des Pokémon de votre adversaire. Cette attaque inflige 20 dégâts à ce Pokémon. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
@@ -68,22 +67,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has superb accuracy. The water it shoots out can strike even moving prey from more than 300 feet."
+		en: "It has superb accuracy. The water it shoots out can strike even moving prey from more than 300 feet.",
+		de: "Es ist äußerst präzise. Es kann mit seinem Wasserschuss Beute erlegen, die 100 Meter entfernt ist."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88699,
+				cardmarket: 279215
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88699,
+				cardmarket: 279215
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279215,
-		tcgplayer: 88699
-	}
 }
 
 export default card

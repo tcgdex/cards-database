@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes jugar 2 cartas de Capturador Personalizado de una vez.\n\n• Si has jugado 1 carta, roba cartas hasta que tengas 3 cartas en tu mano.\n• Si has jugado 2 cartas, cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo. (Este efecto funciona 1 vez por 2 cartas).",
 		it: "Puoi giocare due carte Acchiappa-Pokémon Modificato alla volta.\n\n• Se giochi una carta, pesca fino ad avere tre carte in mano.\n• Se giochi due carte, scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo (questo effetto si applica una volta ogni due carte).",
 		pt: "Você pode jogar 2 cartas Pegador Personalizado de uma vez.\n\n• Se você jogou 1 carta, compre cartas até ter 3 cartas na sua mão.\n• Se você jogou 2 cartas, troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a) (este efeito funciona uma vez para 2 cartas).",
-		de: "Du kannst 2 Flexfänger-Karten gleichzeitig spielen.\n\n• Wenn du 1 Karte gespielt hast, ziehe so lang Karten, bis du 3 Karten auf deiner Hand hast.\n• Wenn du 2 Karten gespielt hast, tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus. (Dieser Effekt funktioniert einmal für 2 Karten.)"
+		de: "Du kannst 2 Flexfänger-Karten gleichzeitig spielen. Wenn du 1 Karte gespielt hast, ziehe so lang Karten, bis du 3 Karten auf deiner Hand hast. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen. Wenn du 2 Karten gespielt hast, tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus. (Dieser Effekt funktioniert einmal für 2 Karten.)"
 	},
 
 	trainerType: "Item",

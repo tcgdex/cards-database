@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Duraludon VMAX"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 330,
@@ -79,17 +80,18 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691823,
-		tcgplayer: 478214
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691823,
+				tcgplayer: 478214
+			}
+		},
+	],
 }
 
 export default card

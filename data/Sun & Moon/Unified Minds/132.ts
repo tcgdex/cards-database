@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Sneasel",
 		fr: "Farfuret",
+		de: "Sniebel"
 	},
 
 	suffix: "GX",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes mover 1 Energía Darkness Básica de 1 de tus Pokémon a otro de tus Pokémon.",
 				it: "Durante il tuo turno, prima di attaccare, puoi spostare un’Energia base Darkness da uno a un altro dei tuoi Pokémon tutte le volte che vuoi.",
 				pt: "Quantas vezes desejar durante a sua vez de jogar (antes de atacar), você pode mover 1 Energia Darkness básica de 1 dos seus Pokémon para outro Pokémon seu.",
-				de: "Beliebig oft während deines Zuges (bevor du angreifst) kannst du 1 Darkness-Basis-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon verschieben."
+				de: "Beliebig oft während deines Zuges (bevor du angreifst) kannst du 1 {D}-Basis-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon verschieben."
 			},
 		},
 	],
@@ -84,7 +85,7 @@ const card: Card = {
 				es: "Maniobras Nocturnas GX",
 				it: "Manovre Notturne GX",
 				pt: "Manobras Noturnas GX",
-				de: "Nächtliche Manöver GX"
+				de: "Nächtliche Manöver-GX"
 			},
 			effect: {
 				en: "Search your deck for any number of Basic Pokémon and put them onto your Bench. Then, shuffle your deck. (You can’t use more than 1 GX attack in a game.)",

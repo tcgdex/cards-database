@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		93,
-	],
+	dexId: [93],
 
 	hp: 70,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Gastly",
 		fr: "Fantominus",
+		de: "Nebulak"
 	},
 
 	stage: "Stage1",
@@ -41,7 +40,7 @@ const card: Card = {
 				de: "Heimlichtuerei"
 			},
 			effect: {
-				en: "Put 2 damage counters on 1 of your opponent’s Pokémon.",
+				en: "Put 2 damage counters on 1 of your opponent's Pokémon.",
 				fr: "Placez 2 marqueurs de dégât sur l’un des Pokémon de votre adversaire.",
 				de: "Lege 2 Schadensmarken auf 1 Pokémon deines Gegners."
 			},
@@ -83,20 +82,27 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Its tongue is made of gas. If licked, its victim starts shaking constantly until death eventually comes."
+		en: "Its tongue is made of gas. If licked, its victim starts shaking constantly until death eventually comes.",
+		de: "Seine Zunge ist aus Gas. Leckt es an einem Gegner, zittert er und verliert eventuell das Bewusstsein."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86031,
+				cardmarket: 279565
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279565,
+				tcgplayer: 86031
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279565,
-		tcgplayer: 86031
-	}
 }
 
 export default card

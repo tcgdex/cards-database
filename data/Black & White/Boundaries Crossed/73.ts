@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Venipede",
 		fr: "Venipatte",
+		de: "Toxiped"
 	},
 
 	stage: "Stage1",
@@ -65,6 +66,7 @@ const card: Card = {
 			name: {
 				en: "Spinning Attack",
 				fr: "Attaque Tournante",
+				de: "Rundumangriff"
 			},
 
 			damage: 50,
@@ -81,10 +83,27 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 280660,
-		tcgplayer: 90572
-	}
+	description: {
+		en: "Storing energy for evolution, it sits. But, when predators approach, it moves to stab them with poison spikes.",
+		de: "Es spart sich seine Kraft für seine Entwicklung und bewegt sich nur, um sich mit seinen Giftspitzen zu verteidigen."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280660,
+				tcgplayer: 90572
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280660,
+				tcgplayer: 90572
+			}
+		},
+	],
 }
 
 export default card

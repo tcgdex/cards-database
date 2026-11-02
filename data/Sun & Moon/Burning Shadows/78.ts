@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Mudbray",
 		fr: "Tiboudet",
+		de: "Pampuli"
 	},
 
 	stage: "Stage1",
@@ -96,10 +97,27 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 299480,
-		tcgplayer: 138564
-	}
+	description: {
+		en: "It spits a mud that provides resistance to both wind and rain, so the walls of old houses were often coated with it.",
+		de: "Der Schlamm, den es ausspuckt, schützt gegen Wind und Wetter, wenn er hart wird. Deshalb hat man früher auch Hauswände damit verstärkt."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299480,
+				tcgplayer: 138564
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299480,
+				tcgplayer: 138564
+			}
+		},
+	],
 }
 
 export default card

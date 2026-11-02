@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [571],
 
 	dexId: [
 		570,
@@ -79,6 +80,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It changes so it looks like its foe, tricks it, and then uses that opportunity to flee.",
+		de: "Nicht selten überrumpelt es Gegner, indem es ihre Gestalt annimmt und den Überraschungseffekt zur Flucht nutzt."
+	},
 
 	thirdParty: {
 		cardmarket: 302190,

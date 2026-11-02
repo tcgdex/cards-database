@@ -56,23 +56,30 @@ const card: Card = {
 	types: ["Fighting"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "A clay slab with cursed engravings took possession of a Yamask. The slab is said to be absorbing the Yamask's dark power."
+		en: "A clay slab with cursed engravings took possession of a Yamask. The slab is said to be absorbing the Yamask's dark power.",
+		de: "Eine Tontafel, auf der ein Fluch eingeritzt wurde, hat Besitz von diesem Makabaja ergriffen. Man sagt, es ziehe seine Kraft aus dem Groll anderer."
 	},
 
-	thirdParty: {
-		cardmarket: 457918,
-		tcgplayer: 213189
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457918,
+				tcgplayer: 213189
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457918,
+				tcgplayer: 213189
+			}
+		},
+	],
 }
 
 export default card

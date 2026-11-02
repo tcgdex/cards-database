@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Sliggoo",
 		fr: "Colimucus",
+		de: "Viscargot"
 	},
 
 	stage: "Stage2",
@@ -91,6 +92,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "An amazingly friendly Pokémon, but if left to itself, loneliness overcomes it, and it oozes gooey tears.",
+		de: "Dieses äußerst freundliche Pokémon benötigt sehr viel Aufmerksamkeit, sonst fühlt es sich einsam und weint schleimige Tränen."
+	},
 
 	thirdParty: {
 		cardmarket: 297550,

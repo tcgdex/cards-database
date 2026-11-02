@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Une hasta 2 cartas de Energía Fire de tu mano a 1 de tus Pokémon. Si lo haces, roba 3 cartas.",
 		it: "Assegna fino a due carte Energia Fire dalla tua mano a uno dei tuoi Pokémon. Se lo fai, pesca tre carte.",
 		pt: "Ligue até 2 cartas de Energia Fire da sua mão a 1 dos seus Pokémon. Se fizer isto, compre 3 cartas.",
-		de: "Lege bis zu 2 Fire-Energiekarten aus deiner Hand an 1 deiner Pokémon an. Wenn du das machst, ziehe 3 Karten."
+		de: "Lege bis zu 2 {R}-Energiekarten aus deiner Hand an 1 deiner Pokémon an. Wenn du das machst, ziehe 3 Karten. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

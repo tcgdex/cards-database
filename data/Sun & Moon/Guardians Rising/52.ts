@@ -62,6 +62,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Their ribbonlike feelers increase their psychic power. They are always staring at something.",
+		de: "Die schleifenförmigen Fühler erhöhen seine Psycho-Kräfte. Es scheint stets irgendetwas anzustarren."
+	},
+
 	thirdParty: {
 		cardmarket: 297514,
 		tcgplayer: 130958

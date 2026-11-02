@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Patrat",
 		fr: "Ratentif",
+		de: "Nagelotz"
 	},
 
 	stage: "Stage1",
@@ -91,6 +92,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Using luminescent matter, it makes its eyes and body glow and stuns attacking opponents.",
+		de: "Es kann mit einer körpereigenen Substanz seine Augen und seinen Torso aufleuchten lassen, um Gegner zu erschrecken."
+	},
 
 	thirdParty: {
 		cardmarket: 297560,

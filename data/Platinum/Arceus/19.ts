@@ -12,18 +12,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		76,
-	],
+	dexId: [76],
 	
 	hp: 140,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Graveler",
+		de: "Georok"
 	},
 
 	stage: "Stage2",
@@ -53,10 +52,10 @@ const card: Card = {
 				de: "Hinabstürzen"
 			},
 			effect: {
-				en: "Discard as many Fighting Energy cards as you like from your hand. This attack does 30 damage times the number of Fighting Energy cards you discarded.",
-				de: "Lege beliebig viele -Energiekarten von deiner Hand auf den Ablagestapel. Dieser Angriff fügt für jede auf dieser Weise auf den Ablagestapel gelegte -Energiekarte 30 Schadenspunkte zu."
+				en: "Discard as many Fighting Energy cards as you like from your hand. The attack does 30 damage times the number of Fighting Energy cards you discarded.",
+				de: "Lege beliebig viele {F}-Energiekarten von deiner Hand auf deinen Ablagestapel. Dieser Angriff fügt für jede auf diese Weise auf den Ablagestapel gelegte {F}-Energiekarte 30 Schadenspunkte zu."
 			},
-			damage: "30x",
+			damage: "30×",
 
 		},
 		{
@@ -95,19 +94,23 @@ const card: Card = {
 
 	retreat: 4,
 
-	thirdParty: {
-		cardmarket: 278891,
-		tcgplayer: 85829
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85829,
+				cardmarket: 278891
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278891,
+				tcgplayer: 85829
+			}
+		},
+	],
+
 }
 
 export default card

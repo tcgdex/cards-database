@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Pyroar",
@@ -79,16 +73,29 @@ const card: Card = {
 	},
 
 	description: {
-		en: "The temperature of its breath is over 10,000 degrees Fahrenheit, but Pyroar doesn't use it on its prey. This Pokémon prefers to eat raw meat."
+		en: "The temperature of its breath is over 10,000 degrees Fahrenheit, but Pyroar doesn't use it on its prey. This Pokémon prefers to eat raw meat.",
+		de: "Es kann 6 000 °C heiße Atemluft ausstoßen, die es jedoch nicht bei der Jagd verwendet. Seine Beute verspeist es nämlich lieber roh."
 	},
 
 	dexId: [668],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574047,
-		tcgplayer: 246841
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574047,
+				tcgplayer: 246841
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574047,
+				tcgplayer: 246841
+			}
+		},
+	],
 }
 
 export default card

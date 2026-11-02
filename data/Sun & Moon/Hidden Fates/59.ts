@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Koga’s Trap",
 		fr: "Piège de Koga",
+		de: "Kogas Falle"
 	},
 	illustrator: "Megumi Mizutani",
 	rarity: "Uncommon",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	effect: {
 		fr: "Le Pokémon Actif de votre adversaire est maintenant Confus et Empoisonné.",
-		en: "Your opponent’s Active Pokémon is now Confused and Poisoned."
+		en: "Your opponent’s Active Pokémon is now Confused and Poisoned.",
+		de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt und vergiftet. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 	trainerType: "Supporter",
 

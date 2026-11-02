@@ -62,6 +62,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lures people in with its Poké Ball pattern, then releases poison spores. Why it resembles a Poké Ball is unknown.",
+		de: "Fällt ein Trainer auf sein Äußeres herein, das komischerweise einem Pokéball ähnelt, besprüht es ihn mit Giftsporen."
+	},
+
 	thirdParty: {
 		cardmarket: 387897,
 		tcgplayer: 194929

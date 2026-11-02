@@ -69,23 +69,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600 degrees Fahrenheit."
+		en: "This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600 degrees Fahrenheit.",
+		de: "Das Feuer in seinem Kopfbüschel erreicht Temperaturen von bis zu 300 °C. Es ist in Vulkanhöhlen zu Hause."
 	},
 
-	thirdParty: {
-		cardmarket: 483004,
-		tcgplayer: 219239
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483004,
+				tcgplayer: 219239
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483004,
+				tcgplayer: 219239
+			}
+		},
+	],
 }
 
 export default card

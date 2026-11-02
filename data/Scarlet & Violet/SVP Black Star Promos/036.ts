@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Delfinator"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Water"],
@@ -74,9 +74,36 @@ const card: Card = {
 		damage: 210
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "nagimiso"
+	illustrator: "nagimiso",
+	description: {
+		en: "This Pokémon's ancient genes have awakened. It is now so extraordinarily strong that it can easily lift a cruise ship with one fin.",
+	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 720386,
+				tcgplayer: 513424
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 761127,
+				tcgplayer: 513425
+			},
+		}
+	],
 }
 
 export default card

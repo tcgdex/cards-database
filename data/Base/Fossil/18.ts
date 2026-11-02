@@ -4,7 +4,7 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Ditto",
-		fr: "Metamorph",
+		fr: "Métamorph",
 		de: "Ditto"
 	},
 
@@ -36,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "If Ditto is your Active Pokémon, treat it as if it were the same card as the Defending Pokémon, including type, Hit Points, Weakness, and so on, except Ditto can't evolve, always has this Pokémon Power, and you may treat any Energy attached to Ditto as Energy of any type. Ditto isn't a copy of any other Pokémon while Ditto is Asleep, Confused, or Paralyzed.",
 				fr: "Si Metamorph est votre Pokémon Actif, considérez-le comme s'il était la même carte que le Pokémon Défenseur, y compris le type, les Points de Vie, la Faiblesse, etc., à l'exception que Metamorph ne peut pas évoluer, qu'il conserve toujours ce Pouvoir Pokémon, et que vous pouvez considérer toute Énergie attachée à Metamorph comme une Énergie de n'importe quel type. Metamorph n'est la copie d'aucun Pokémon lorsque Metamorph est Endormi, Confus ou Paralysé.",
-				de: "Falls Ditto dein aktives Pokémon ist, behandle es genauso wie die Karte des verteidigenden Pokémon, einschließlich Typ, Kraftpunkte, Schwäche u.s.w., außer dass Ditto sich nicht entwickeln lässt, diese Pokémon-Power immer hat und jede auf Ditto abgelegte Energiekarte als Energie jeder beliebigen Art behandelt wrerden darf. Ditto ist kein Abbild eines anderen Pokémon, während Ditto schläft, verwirrt oder gelähmt ist."
+				de: "Falls Ditto dein aktives Pokémon ist, behandele es genauso wie die Karte des verteidigenden Pokémon, einschließlich Typ, Kraftpunkte, Schwäche usw., außer dass Ditto sich nicht entwickeln lässt, diese Pokémon-Power immer hat und jede auf Ditto abgelegte Energiekarte als Energie jeder beliebigen Art behandelt werden darf. Ditto ist kein Abbild eines anderen Pokémon, wenn Ditto schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -54,31 +54,41 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Il est capable de copier le code génétique d'un ennemi pour se transformer en son double."
+		en: "Capable of copying an enemy's genetic code to instantly transform itself into a duplicate of the enemy.",
+		fr: "Il est capable de copier le code génétique d'un ennemi pour se transformer en son double.",
+		de: "Kann den genetischen Code eines Gegners so schnell kopieren, dass es sich sofort in sein Ebenbild verwandeln kann."
 	},
 
-	thirdParty: {
-		cardmarket: 273864,
-		tcgplayer: 44426
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273879,
+				tcgplayer: 44426
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 273879,
+				tcgplayer: 44426
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			thirdParty: {
+				cardmarket: 273879,
+				tcgplayer: 44426
+			}
 		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright"
-		}
-	]
+	],
 }
 
 export default card

@@ -47,22 +47,38 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 	illustrator: "Saboteri",
 
-	thirdParty: {
-		cardmarket: 817290
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817290,
+				tcgplayer: 623565
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817290,
+				tcgplayer: 623565
+			}
 		},
-	]
+	],
 }
 
 export default card

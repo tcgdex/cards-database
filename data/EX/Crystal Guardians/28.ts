@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ivysaur",
-		fr: "Herbizarre"
+		fr: "Herbizarre",
+		de: "Bisaknosp"
 	},
 
 	stage: "Stage2",
@@ -40,8 +41,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "All Energy cards that provide only Colorless Energy attached to your Grass Pokémon provide Grass Energy instead.",
-				fr: "Toutes les cartes Énergie fournissant uniquement de l'Énergie  attachées à vos Pokémon  fournissent de l'Énergie .",
-				de: "Alle Energiekarten, die nur -Energie liefern und an deine Pokémon vom Typ  angelegt sind, liefern stattdessen -Energie."
+				fr: "Toutes les cartes Énergie fournissant uniquement de l'Énergie {C} attachées à vos Pokémon {G} fournissent de l'Énergie {G}.",
+				de: "Alle Energiekarten, die nur {C}-Energie liefern und an deine Pokémon vom Typ {G} angelegt sind, liefern stattdessen {G}-Energie."
 			},
 		},
 	],
@@ -59,8 +60,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each Grass Energy attached to all of your Pokémon.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à tous vos Pokémon.",
-				de: "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede an deine Pokémon angelegte -Energie zu."
+				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {G} attachée à tous vos Pokémon.",
+				de: "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede an deine Pokémon angelegte {G}-Energie zu."
 			},
 			damage: "20+",
 

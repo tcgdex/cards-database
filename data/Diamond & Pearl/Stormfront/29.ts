@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Tangela",
 		fr: "Saquedeneu",
+		de: "Tangela"
 	},
 
 	stage: "Stage1",
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. If the first coin is heads, the Defending Pokémon is now Confused. If the second coin is heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez 2 pièces. Si la première pièce est face, le Pokémon Défenseur est maintenant Confus. Si la deuxième pièce est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf 2 Münzen. Wenn die erste Münze \"Kopf\" gezeigt hat, ist das Verteidigende Pokémon jetzt verwirrt. Wenn die zweite Münze \"Kopf\" gezeigt hat, ist das Verteidigende Pokémon jetzt vergiftet."
+				de: "Wirf 2 Münzen. Wenn die erste Münze „Kopf“ gezeigt hat, ist das Verteidigende Pokémon jetzt verwirrt. Wenn die zweite Münze „Kopf“ gezeigt hat, ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 			damage: 20,
 

@@ -22,22 +22,23 @@ const card: Card = {
 		es: "Puedes usar esta carta solo si el Pokémon Activo de tu rival está Envenenado.\n\nPon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 7 cartas.",
 		pt: "Você só pode usar esta carta se o Pokémon Ativo do seu oponente estiver Envenenado.\n\nEmbaralhe a sua mão no seu baralho. Em seguida, compre 7 cartas.",
 		it: "Puoi usare questa carta solo se il Pokémon attivo del tuo avversario è avvelenato.\n\nRimischia le carte che hai in mano nel tuo mazzo. Poi pesca sette carte.",
-		de: "Du kannst diese Karte nur einsetzen, wenn das Aktive Pokémon deines Gegners vergiftet ist.\n\nMische deine Handkarten in dein Deck. Ziehe anschließend 7 Karten."
+		de: "Du kannst diese Karte nur einsetzen, wenn das Aktive Pokémon deines Gegners vergiftet ist. Mische deine Handkarten in dein Deck. Ziehe anschließend 7 Karten. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "G",
 
-	variants: {
-		holo: true,
-		normal: false
-	},
-
 	illustrator: "GIDORA",
 
-	thirdParty: {
-		cardmarket: 805528
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 805528,
+				tcgplayer: 610489
+			}
+		},
+	],
 }
 
 export default card

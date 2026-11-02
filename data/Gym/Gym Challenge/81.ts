@@ -3,22 +3,21 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Koga's Tangela",
+		en: "Koga's Tangela"
 	},
 
 	illustrator: "Atsuko Nishida",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [124],
 
-	dexId: [
-		114,
-	],
+	dexId: [114],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -29,10 +28,10 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Sleep Powder",
+				en: "Sleep Powder"
 			},
 			effect: {
-				en: "The Defending Pokémon is now Asleep.",
+				en: "The Defending Pokémon is now Asleep."
 			},
 			damage: 10,
 
@@ -43,10 +42,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Grasping Vine",
+				en: "Grasping Vine"
 			},
 			effect: {
-				en: "Flip a coin. If heads, draw 2 cards.",
+				en: "Flip a coin. If heads, draw 2 cards."
 			},
 
 		},
@@ -55,24 +54,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 274349,
-		tcgplayer: 86518
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86518,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86518,
+				cardmarket: 274349
+			}
 		},
-	]
+	],
 }
 
 export default card

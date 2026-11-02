@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Beat",
 				fr: "Bataille",
+				de: "Verprügler"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Gust",
 				fr: "Tornade",
+				de: "Windstoß"
 			},
 
 			damage: 20,
@@ -65,10 +67,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280488,
-		tcgplayer: 84962
-	}
+	description: {
+		en: "Because of the way it floats aimlessly, an old folktale calls it a \"Signpost for Wandering Spirits.\"",
+		de: "Laut einer alten Volkssage nennt man es den „Wegweiser für umherstreifende Geister“."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280489,
+				tcgplayer: 84962
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280489,
+				tcgplayer: 84962
+			}
+		},
+	],
 }
 
 export default card

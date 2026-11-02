@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Tika Matsuno",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [694],
 	hp: 70,
 	types: ["Lightning"],
 	stage: "Basic",
@@ -37,13 +38,46 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675875,
-		cardmarket: 869674
-	}
+	description: {
+		en: "The frills on either side of its head have cells that generate electricity when exposed to sunlight.",
+		fr: "Les plis de peau de chaque côté de sa tête sont dotés de cellules produisant de l'électricité quand elles sont exposées à la lumière du soleil.",
+		de: "Die Zellen der Hautlappen, die sich beidseitig an seinem Kopf befinden, erzeugen Strom, wenn sie von Sonnenstrahlen beschienen werden."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869674,
+			tcgplayer: 675875
+		}
+	},
+	{
+		type: "reverse",
+		foil: "quickball",
+		thirdParty: {
+			cardmarket: 870236,
+			tcgplayer: 676902
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870235,
+			tcgplayer: 677042
+		}
+	},
+],
 }
 
 export default card

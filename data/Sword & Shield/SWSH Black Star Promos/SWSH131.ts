@@ -17,7 +17,7 @@ const card: Card = {
 		it: "Calyrex Cavaliere Spettrale V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	hp: 210,
 	types: ["Psychic"],
 
@@ -77,19 +77,26 @@ const card: Card = {
 
 	retreat: 2,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "E",
-	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 572540
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 572540,
+				tcgplayer: 245867
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 574297,
+				tcgplayer: 245869
+			}
+		},
+	],
+	suffix: "V"
 }
 
 export default card

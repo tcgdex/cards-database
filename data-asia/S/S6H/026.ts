@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S6H"
+import { Card } from "../../../interfaces";
+import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "冰岩怪"
+		ja: "クレベース",
+		'zh-tw': "冰岩怪",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -14,43 +14,53 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		'zh-tw': "雖然身體的裂縫會因白天的活動而變大，但只要一晚就能全部長好。"
+		ja: "日中の 活動で 体の 亀裂は 深くなるが 一晩で 亀裂の ない 体に もどる。",
+		'zh-tw': "雖然身體的裂縫會因白天的活動而變大，但只要一晚就能全部長好。",
 	},
 
 	stage: "Stage1",
 
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			'zh-tw': "看天"
+	attacks: [
+		{
+			name: {
+				ja: "フロストバリア",
+				'zh-tw': "氣象之力",
+			},
+			damage: 80,
+			cost: ["Water", "Colorless", "Colorless"],
+			effect: {
+				ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
+				'zh-tw': "從牌庫抽卡直到自己的手牌滿6張為止。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "若自己的棄牌區有8張以上的「競技場」卡，則這隻寶可夢使用招式所需的能量全部消除。"
-		}
-	}],
-
-	attacks: [{
-		name: {
-			'zh-tw': "氣象之力"
+		{
+			name: { ja: "ぶちかます" },
+			damage: 140,
+			cost: ["Water", "Water", "Colorless", "Colorless"],
 		},
+	],
 
-		effect: {
-			'zh-tw': "從牌庫抽卡直到自己的手牌滿6張為止。"
+	weaknesses: [{ type: "Metal", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 560442,
+				tcgplayer: 569158,
+			},
 		},
+	],
 
-		damage: 80,
-		cost: ["Colorless", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Metal",
-		value: "×2"
-	}],
+	evolveFrom: {
+		ja: "カチコール",
+	},
 
 	retreat: 4,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Common",
+	dexId: [713],
+};
 
-export default card
+export default card;

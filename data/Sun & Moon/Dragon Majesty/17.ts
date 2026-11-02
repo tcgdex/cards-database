@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Horsea",
 		fr: "Hypotrempe",
+		de: "Seeper"
 	},
 
 	stage: "Stage1",
@@ -52,7 +53,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño más por cada Energía Water unida a este Pokémon.",
 				it: "Questo attacco infligge 20 danni in più per ogni Energia Water assegnata a questo Pokémon.",
 				pt: "Este ataque causa 20 pontos de dano a mais vezes a quantidade de Energia Water ligada a este Pokémon.",
-				de: "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der an dieses Pokémon angelegten Water-Energien zu."
+				de: "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der an dieses Pokémon angelegten {W}-Energien zu."
 			},
 			damage: "10+",
 
@@ -67,6 +68,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It is capable of swimming backwards by rapidly flapping its winglike pectoral fins and stout tail.",
+		de: "Dieses Pokémon kann rückwärts schwimmen, indem es Flügel und Schwanz als Flossen einsetzt."
+	},
 
 	thirdParty: {
 		cardmarket: 363489,

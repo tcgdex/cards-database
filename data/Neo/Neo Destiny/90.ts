@@ -33,7 +33,7 @@ const card: Card = {
 			name: {
 				en: "Gnaw",
 				fr: "Rogne",
-				de: "Gnaw"
+				de: "Nagen"
 			},
 
 			damage: 10,
@@ -44,12 +44,12 @@ const card: Card = {
 			name: {
 				en: "Poisonpowder",
 				fr: "Poudre toxik",
-				de: "Poison Barb"
+				de: "Giftpuder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned."
+				de: "Das verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 40,
 
@@ -62,23 +62,31 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Il possède une sorte de radar qu'il utilise pour trouver les insectes qu'il mange, même dans l'obscurité la plus totale."
+		en: "It possesses a type of radar, which it can use to find the insects it eats for food, even in pitch darkness.",
+		fr: "Il possède une sorte de radar qu'il utilise pour trouver les insectes qu'il mange, même dans l'obscurité la plus totale.",
+		de: "Es hat eine Art Radar, mit dem es die Insekten, von denen es sich ernährt, selbst in tiefster Dunkelheit finden kann."
 	},
 
-	thirdParty: {
-		cardmarket: 274742,
-		tcgplayer: 90305
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274742,
+				tcgplayer: 90305
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274742,
+				tcgplayer: 90305
+			}
 		}
 	]
 }

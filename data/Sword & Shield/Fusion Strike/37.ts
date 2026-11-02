@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 60,
 	types: ["Fire"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Misa Tsutsui",
 
 	description: {
-		en: "This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600 degrees Fahrenheit."
+		en: "This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600 degrees Fahrenheit.",
+		de: "Das Feuer in seinem Kopfbüschel erreicht Temperaturen von bis zu 300 °C. Es ist in Vulkanhöhlen zu Hause."
 	},
 
 	attacks: [{
@@ -51,17 +58,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582171,
-		tcgplayer: 253137
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582171,
+				tcgplayer: 253137
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582171,
+				tcgplayer: 253137
+			}
+		},
+	],
 }
 
 export default card

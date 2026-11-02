@@ -4,6 +4,7 @@ import Set from '../Battle Styles'
 const card: Card = {
 	dexId: [248],
 	set: Set,
+	cameoDexIds: [499],
 
 	name: {
 		en: "Tyranitar V",
@@ -72,20 +73,19 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 546426,
-		tcgplayer: 234060
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 546426,
+				tcgplayer: 234060
+			}
+		},
+	],
 }
 
 export default card

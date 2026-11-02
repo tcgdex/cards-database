@@ -4,7 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Camerupt",
-		fr: "Camerupt",
+		fr: "Camérupt",
 		de: "Camerupt"
 	},
 
@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		323,
-	],
+	dexId: [323],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Numel",
-		fr: "Chamallot"
+		fr: "Chamallot",
+		de: "Camaub"
 	},
 
 	stage: "Stage1",
@@ -44,7 +43,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
 				fr: "Lancez une pièce. Si c'est face, Le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verbrannt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: 20,
 
@@ -69,17 +68,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84088,
+				cardmarket: 275901
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84088,
+				cardmarket: 275901
+			},
 		},
 	],
 
-
-	retreat: 2,
-
-	thirdParty: {
-		tcgplayer: 84088,
-		cardmarket: 275901
-	}
 }
 
 export default card

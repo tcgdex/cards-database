@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Mewtwo GX",
 		fr: "Mewtwo-GX",
+		de: "Mewtu-GX"
 	},
 
 	illustrator: "aky CG Works",
@@ -34,6 +35,7 @@ const card: Card = {
 			name: {
 				en: "Super Psy Bolt",
 				fr: "Super Psy",
+				de: "Super-Psischlag"
 			},
 
 			damage: 110,
@@ -48,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Psycrush GX",
 				fr: "Écrasement Psy-GX",
+				de: "Psibrecher-GX"
 			},
 			effect: {
 				en: "Discard all Energy from your opponent’s Active Pokémon. (You can’t use more than 1 GX attack in a game.)",
 				fr: "Défaussez toute l’Énergie du Pokémon Actif de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				de: "Lege alle Energien vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: 120,
 

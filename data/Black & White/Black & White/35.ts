@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Crunch",
 				fr: "Mâchouille",
+				de: "Knirscher"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c’est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				de: "Wirf 1 Münze. Lege bei „Kopf“ 1 an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel."
 			},
 			damage: 30,
 
@@ -56,10 +58,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279773,
-		tcgplayer: 83730
-	}
+	description: {
+		en: "Red and blue Basculin get along so poorly, they'll start fighting instantly. These Pokémon are very hostile.",
+		de: "Rot gestreifte und blau gestreifte Exemplare kriegen sich sofort in die Haare. Ein äußerst aggressives Pokémon."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279773,
+				tcgplayer: 83730
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279773,
+				tcgplayer: 83730
+			}
+		},
+	],
 }
 
 export default card

@@ -17,6 +17,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [25],
 
 	attacks: [
 		{
@@ -55,23 +56,30 @@ const card: Card = {
 	types: ["Water"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It is virtually worthless in terms of both power and speed. It is the most weak and pathetic Pokémon in the world."
+		en: "It is virtually worthless in terms of both power and speed. It is the most weak and pathetic Pokémon in the world.",
+		de: "Es ist nutzlos, was Kraft und Geschwindigkeit angeht. Dieses Pokémon ist das schwächste und erbärmlichste der Welt."
 	},
 
-	thirdParty: {
-		cardmarket: 457638,
-		tcgplayer: 213117
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457638,
+				tcgplayer: 213117
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457638,
+				tcgplayer: 213117
+			}
+		},
+	],
 }
 
 export default card

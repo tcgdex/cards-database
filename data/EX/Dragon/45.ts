@@ -4,7 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Swellow",
-		fr: "Heledelle",
+		fr: "Hélédelle",
 		de: "Schwalboss"
 	},
 
@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		277,
-	],
+	dexId: [277],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Taillow",
-		fr: "Nirondelle"
+		fr: "Nirondelle",
+		de: "Schwalbini"
 	},
 
 	stage: "Stage1",
@@ -61,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, choose 1 of your opponent's Pokémon. This attack does 50 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance.",
 				fr: "Lancez une pièce. Si c'est face, choisissez un des Pokémon de votre adversaire. Cette attaque lui inflige 50 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse ou la Résistance.",
-				de: "Wirf 1 Münze. Bei 'Kopf' wähle 1 gegnerisches Pokémon. Dieser Angriff fügt dem ausgewählten Pokémon 50 Schadenspunkte zu. Der Schaden dieses Angriffs wird durch die Schwäche und Resistenz des ausgewählten nicht verändert."
+				de: "Wirf 1 Münze. Bei „Kopf“ wähle 1 gegnerisches Pokémon. Dieser Angriff fügt dem ausgewählten Pokémon 50 Schadenspunkte zu. Der Schaden dieses Angriffs wird durch die Schwäche und Resistenz des ausgewählten nicht verändert."
 			},
 
 		},
@@ -70,24 +69,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
-
-
 	retreat: 0,
 
-	thirdParty: {
-		tcgplayer: 89689,
-		cardmarket: 275922
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89689,
+				cardmarket: 275922
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89689,
+				cardmarket: 275922
+			},
+		},
+	],
+
 }
 
 export default card

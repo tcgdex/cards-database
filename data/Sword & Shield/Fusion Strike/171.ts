@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "If it thinks humans are going to discover its den, Zoroark shows them visions that make them wander around in the woods."
+		en: "If it thinks humans are going to discover its den, Zoroark shows them visions that make them wander around in the woods.",
+		de: "Es heißt, dass es jene Menschen, die sein Revier zu enthüllen drohen, mit Illusionen täuscht und dazu bringt, unentwegt durch den Wald zu irren."
 	},
 
 	attacks: [{
@@ -74,17 +81,23 @@ const card: Card = {
 		damage: 100
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582799,
-		tcgplayer: 253385
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582799,
+				tcgplayer: 253385
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582799,
+				tcgplayer: 253385
+			}
+		},
+	],
 }
 
 export default card

@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 110,
 	types: ["Colorless"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Shibuzoh.",
 
 	description: {
-		en: "The curved antlers subtly change the flow of air to create a strange space where reality is distorted."
+		en: "The curved antlers subtly change the flow of air to create a strange space where reality is distorted.",
+		de: "Sein gebogenes Geweih generiert via Luftänderung einen Raum, in dem die Wirklichkeit verzerrt wird."
 	},
 
 	attacks: [{
@@ -64,17 +71,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582941,
-		tcgplayer: 253304
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582941,
+				tcgplayer: 253304
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582941,
+				tcgplayer: 253304
+			}
+		},
+	],
 }
 
 export default card

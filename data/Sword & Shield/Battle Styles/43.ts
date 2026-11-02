@@ -54,23 +54,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Its skin is thick enough to fend off Mareanie's spikes. With its robust teeth, Bruxish crunches up the spikes and eats them."
+		en: "Its skin is thick enough to fend off Mareanie's spikes. With its robust teeth, Bruxish crunches up the spikes and eats them.",
+		de: "Seine Haut ist so hart, dass selbst die Nadeln eines Garstella sie nicht durchdringen. Mit seinen kräftigen Zähnen zerkaut es sie einfach."
 	},
 
-	thirdParty: {
-		cardmarket: 545326,
-		tcgplayer: 234189
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545326,
+				tcgplayer: 234189
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545326,
+				tcgplayer: 234189
+			}
+		},
+	],
 }
 
 export default card

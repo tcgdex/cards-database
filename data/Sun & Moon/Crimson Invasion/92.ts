@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Si el Pokémon al que está unida esta carta descarta Energías por su Coste de Retirada, pon esas Energías en tu mano en vez de en la pila de descartes.",
 		it: "Se il Pokémon a cui è assegnata questa carta scarta dell’Energia per il suo costo di ritirata, aggiungi quell’Energia alla tua mano invece che alla pila degli scarti.",
 		pt: "Se o Pokémon ao qual esta carta está ligada descartar Energia para cobrir seu custo de Recuo, coloque aquelas Energias na sua mão ao invés de colocá-las na pilha de descarte.",
-		de: "Wenn du für das Pokémon, an das diese Karte angelegt ist, Energie für seine Rückzugskosten auf deinen Ablagestapel legst, nimm jene Energie stattdessen auf deine Hand."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn du für das Pokémon, an das diese Karte angelegt ist, Energie für seine Rückzugskosten auf deinen Ablagestapel legst, nimm jene Energie stattdessen auf deine Hand. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

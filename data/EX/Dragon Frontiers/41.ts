@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Togepi δ",
 		fr: "Togepi δ",
-		de: "Togepi"
+		de: "Togepi δ"
 	},
 
 	illustrator: "Miki Tanaka",

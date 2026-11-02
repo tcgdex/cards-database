@@ -62,7 +62,7 @@ const card: Card = {
 				es: "Unidad Aérea GX",
 				it: "Unità Aerea GX",
 				pt: "Unidade Aérea GX",
-				de: "Luftstaffel GX"
+				de: "Luftstaffel-GX"
 			},
 			effect: {
 				en: "Attach 5 basic Energy cards from your discard pile to your Pokémon in any way you like. If this Pokémon has at least 1 extra Energy attached to it (in addition to this attack’s cost), prevent all effects of attacks, including damage, done to it during your opponent’s next turn. (You can’t use more than 1 GX attack in a game.)",

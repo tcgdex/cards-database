@@ -12,6 +12,7 @@ const card: Card = {
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [319, 336, 365],
 
 	dexId: [
 		382,
@@ -55,9 +56,9 @@ const card: Card = {
 				pt: "Impacto Aqua",
 			},
 			effect: {
-				en: "This attack does 20 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
-				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Colorless dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
-				pt: "Esse ataque causa 20 de danos adicionais para cada Incolor no Custo para Recuar do Pokémon Ativo do seu oponente."
+				en: "This attack does 20 more damage for each {C} in your opponent's Active Pokémon's Retreat Cost.",
+				fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque {C} dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
+				pt: "Esse ataque causa 20 de danos adicionais para cada {C} no Custo para Recuar do Pokémon Ativo do seu oponente."
 			},
 			damage: "80＋",
 

@@ -46,14 +46,18 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 273988,
-		tcgplayer: 42484
+	description: {
+		en: "Using its ability to read minds, it will identify impending danger and teleport to safety.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273988,
+				tcgplayer: 42484
+			}
 		}
 	]
 }

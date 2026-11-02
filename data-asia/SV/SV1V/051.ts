@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SV1V"
 
 const card: Card = {
+	evolveFrom: { ja: "オコリザル" },
 	set: Set,
 
 	name: {
@@ -69,6 +70,17 @@ const card: Card = {
 		type: "Psychic",
 		value: "×2"
 	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardtrader: 235628,
+				cardmarket: 693126,
+				tcgplayer: 568277,
+			},
+		},
+	],
 
 	retreat: 2,
 	regulationMark: "G"

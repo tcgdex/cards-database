@@ -50,21 +50,31 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 826021,
+				tcgplayer: 632953
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 826021,
+				tcgplayer: 632953
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826021
-	}
 }
 
 export default card

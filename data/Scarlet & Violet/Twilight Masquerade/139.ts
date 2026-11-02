@@ -4,6 +4,7 @@ import Set from "../Twilight Masquerade"
 const card: Card = {
 	dexId: [580],
 	set: Set,
+	cameoDexIds: [129],
 
 	name: {
 		en: "Ducklett",
@@ -55,18 +56,45 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It strengthens its body by diving into the depths of ponds, swimming around while looking for bog moss to eat.",
+		de: "Auf der Suche nach Torfmoos, seiner Nahrung, schwimmt es tief unten in Teichen umher und stählt so seinen Körper."
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769313,
+				tcgplayer: 550183
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769313,
+				tcgplayer: 550183
+			}
+		},
+	],
 
 	illustrator: "Shibuzoh.",
 
-	thirdParty: {
-		cardmarket: 769313
-	}
 }
 
 export default card

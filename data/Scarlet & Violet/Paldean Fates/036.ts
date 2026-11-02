@@ -64,18 +64,41 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751573,
+				tcgplayer: 534182,
+				cardtrader: 274220
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751573,
+				tcgplayer: 534182,
+				cardtrader: 274220
+			}
+		},
+	],
 
 	illustrator: "Tika Matsuno",
 
-	thirdParty: {
-		cardmarket: 751573
-	}
+	description: {
+		en: "It's small and its electricity-generating organ is not fully developed, so it uses its tail to absorb electricity from people's homes and charge itself.",
+		de: "Da es klein ist und sein elektrisches Organ nicht stark ausgebildet ist, zapft es mit seinem Schwanz in Häusern Strom ab, um sich aufzuladen."
+	},
+
 }
 
 export default card

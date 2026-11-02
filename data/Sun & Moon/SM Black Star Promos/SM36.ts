@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Nachtara GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	suffix: "GX",
@@ -116,8 +117,15 @@ const card: Card = {
 	],
 	retreat: 2,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 299583,
+				tcgplayer: 137526
+			}
+		}
+	],
 }
 
 export default card

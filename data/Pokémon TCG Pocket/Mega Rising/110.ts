@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Yamask"
+		en: "Yamask",
+		fr: "Tutafeh"
 	},
 
 	illustrator: "Aya Kusube",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Mumble"
+			en: "Mumble",
+			fr: "Murmure"
 		},
 
 		damage: 20,

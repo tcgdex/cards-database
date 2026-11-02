@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S8"
+import { Card } from "../../../interfaces";
+import Set from "../S8";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "珍珠貝"
+		ja: "パールル",
+		'zh-tw': "珍珠貝",
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -14,27 +14,40 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		'zh-tw': "珍珠貝的珍珠非常貴重，據說價值是大舌貝所產珍珠的１０倍以上。"
+		ja: "パールルの 真珠は とても 貴重。 シェルダーの 真珠の １０倍以上 価値が あるとも。",
+		'zh-tw': "珍珠貝的珍珠非常貴重，據說價值是大舌貝所產珍珠的１０倍以上。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "泡沫濺射"
+	attacks: [
+		{
+			name: {
+				ja: "はじけるあわ",
+				'zh-tw': "泡沫濺射",
+			},
+			damage: 10,
+			cost: ["Colorless"],
 		},
+	],
 
-		damage: 10,
-		cost: ["Colorless"]
-	}],
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 575578,
+				tcgplayer: 569524,
+			},
+		},
+	],
 
 	retreat: 2,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Common",
+	dexId: [366],
+};
 
-export default card
+export default card;

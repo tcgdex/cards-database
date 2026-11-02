@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		286,
-	],
+	dexId: [286],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Shroomish",
-		fr: "Balignon"
+		fr: "Balignon",
+		de: "Knilz"
 	},
 
 	stage: "Stage1",
@@ -39,7 +38,7 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d'boule",
-				de: "Headbutt"
+				de: "Kopfnuss"
 			},
 
 			damage: 20,
@@ -54,12 +53,12 @@ const card: Card = {
 			name: {
 				en: "Battle Blast",
 				fr: "Combat explosif",
-				de: "Battle Blast"
+				de: "Kampflust"
 			},
 			effect: {
-				en: "Does 40 damage plus 10 more damage for each Fighting Energy attached to Breloom.\"",
-				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Chapignon.",
-				de: "Does 40 damage plus 10 more damage for each  Energy card attached to Breloom."
+				en: "Does 40 damage plus 10 more damage for each Fighting Energy attached to Breloom.",
+				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {F} attachée à Chapignon.",
+				de: "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Kapilz angelegte {F}-Energie zu."
 			},
 			damage: "40+",
 
@@ -76,19 +75,24 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275664,
-		tcgplayer: 83953
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275664,
+				tcgplayer: 83953
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275664,
+				tcgplayer: 83953
+			}
 		},
-	]
+	],
+
 }
 
 export default card

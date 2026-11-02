@@ -22,6 +22,16 @@ const card: Card = {
 		id: "Pilih paling banyak total 3 lembar Pokémon dan Energi Dasar dari Trash sendiri, perlihatkan ke lawan, lalu kocok kembali ke Deck."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 705299,
+				tcgplayer: 567823,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "G"
 }

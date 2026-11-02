@@ -89,6 +89,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "By expelling water from the nozzle in the back of its claw, it can move at a speed of 60 knots.",
+		de: "Indem es über die Düsen am hinteren Ende seiner Scheren Wasser absondert, kann es sich mit einer Geschwindigkeit von 60 Knoten fortbewegen."
+	},
+
 	thirdParty: {
 		cardmarket: 291531,
 		tcgplayer: 121021

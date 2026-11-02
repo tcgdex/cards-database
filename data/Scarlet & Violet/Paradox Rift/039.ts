@@ -40,18 +40,42 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It swims along with a school of Remoraid, and they'll all fight together to repel attackers.",
+		de: "Es mischt sich unter Remoraid-Schwärme und schwimmt mit ihnen. Werden diese angegriffen, kämpft es gemeinsam an ihrer Seite."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740515,
+				tcgplayer: 523648,
+				cardtrader: 265125
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740515,
+				tcgplayer: 523648,
+				cardtrader: 265125
+			}
+		},
+	],
 
 	illustrator: "miki kudo",
 
-	thirdParty: {
-		cardmarket: 740515
-	}
+	
 }
 
 export default card

@@ -62,10 +62,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299435,
-		tcgplayer: 138509
-	}
+	description: {
+		en: "Known to shoot down flying bugs with precision blasts of ink from the surface of the water.",
+		de: "Dieses Pokémon schießt mit Tinte auf über der Wasseroberfläche fliegende Insekten."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299435,
+				tcgplayer: 138509
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299435,
+				tcgplayer: 138509
+			}
+		},
+	],
 }
 
 export default card

@@ -57,18 +57,40 @@ const card: Card = {
 		damage: "70+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715594,
+				tcgplayer: 497534,
+				cardtrader: 248766
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715594,
+				tcgplayer: 497534,
+				cardtrader: 248766
+			}
+		},
+	],
 
 	illustrator: "kurumitsu",
 
-	thirdParty: {
-		cardmarket: 715594
-	}
+	description: {
+		en: "The brass, which is the one that stands at the front and issues orders, is the strongest and smartest of the six.",
+		de: "Der Anführer steht an erster Stelle und gibt die Befehle. Er ist das stärkste und schlauste Glied dieses sechsteiligen Pokémon."
+	},
 }
 
 export default card

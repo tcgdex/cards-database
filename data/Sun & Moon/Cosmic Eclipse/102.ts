@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cosmoem",
 		fr: "Cosmovum",
+		de: "Cosmovum"
 	},
 
 	stage: "Stage2",
@@ -91,6 +92,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Records of it exist in writings from long, long ago, where it was known by the name \"the beast that calls the moon.\"",
+		de: "In Schriftstücken aus längst vergangenen Zeiten wird es als „Mondbringer“ bezeichnet."
+	},
 
 	thirdParty: {
 		cardmarket: 408154,

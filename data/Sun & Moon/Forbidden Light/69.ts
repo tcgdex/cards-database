@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Tyrunt",
 		fr: "Ptyranidur",
+		de: "Balgoras"
 	},
 
 	stage: "Stage2",
@@ -91,6 +92,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "Nothing could stop this Pokémon 100 million years ago, so it behaved like a king.",
+		de: "Vor 100 Millionen Jahren gab es niemanden, der sich mit ihm hätte messen können, weshalb sich dieses Pokémon wie ein König verhielt."
+	},
 
 	thirdParty: {
 		cardmarket: 355587,

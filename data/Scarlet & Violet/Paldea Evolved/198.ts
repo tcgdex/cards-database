@@ -44,19 +44,32 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715673,
+				tcgplayer: 497601,
+				cardtrader: 248854
+			}
+		},
+	],
 
 	illustrator: "sowsow",
 
-	thirdParty: {
-		cardmarket: 715673
-	}
+	description: {
+		en: "A soul unable to move on to the afterlife was blown around by the wind until it got tangled up with dried grass and became a Pokémon.",
+		de: "Weherba entstehen, wenn Seelen, die keinen Frieden finden, vom Wind fortgeweht werden und sich in verdorrtem Gras verheddern."
+	},
 }
 
 export default card

@@ -8,13 +8,17 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
 	dexId: [
 		643,
 	],
+
+
+
+	cameoDexIds: [646],
 
 	hp: 120,
 
@@ -66,6 +70,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "When Reshiram's tail flares, the heat energy moves the atmosphere and changes the world's weather.",
+	},
 
 	thirdParty: {
 		cardmarket: 289797

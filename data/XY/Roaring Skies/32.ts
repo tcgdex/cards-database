@@ -124,6 +124,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Strong feelings of hatred turned a puppet into a Pokémon. If it opens its mouth, its cursed energy escapes.",
+	},
+
 	thirdParty: {
 		cardmarket: 282699,
 		tcgplayer: 98068

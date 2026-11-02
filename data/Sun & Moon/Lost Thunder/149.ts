@@ -85,7 +85,7 @@ const card: Card = {
 				es: "Temor Onírico GX",
 				it: "Terrore Onirico-GX",
 				pt: "Sonho Pavoroso GX",
-				de: "Traumangst GX"
+				de: "Traumangst-GX"
 			},
 			effect: {
 				en: "Choose 1 of your opponent’s Benched Pokémon. Your opponent shuffles that Pokémon and all cards attached to it into their deck. (You can’t use more than 1 GX attack in a game.)",

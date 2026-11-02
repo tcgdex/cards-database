@@ -4,7 +4,7 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Camerupt",
-		fr: "Camerupt",
+		fr: "Camérupt",
 		de: "Camerupt"
 	},
 
@@ -77,23 +77,31 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		tcgplayer: 97749,
-		cardmarket: 276407
-	},
 
 	variants: [
 		{
 			type: "holo",
-			stamp: ["set-logo"]
+			thirdParty: {
+				tcgplayer: 97749,
+				cardmarket: 276407
+			},
 		},
 		{
-			type: "holo",
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 97749,
+				cardmarket: 276407
+			},
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84089,
+			},
 		},
-	]
+	],
+
 }
 
 export default card

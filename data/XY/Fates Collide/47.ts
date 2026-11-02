@@ -83,6 +83,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "By reading the auras of all things, it can tell how others are feeling from over half a mile away.",
+		de: "Kann aus 1 km Entfernung die Gefühle anderer Wesen erfassen, indem es die Wellen liest, die sie aussenden."
+	},
+
 	thirdParty: {
 		cardmarket: 289869,
 		tcgplayer: 117807

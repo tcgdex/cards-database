@@ -75,23 +75,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Pokémon living in the forest eat the delicious caps on Morelull's head. The caps regrow overnight."
+		en: "Pokémon living in the forest eat the delicious caps on Morelull's head. The caps regrow overnight.",
+		de: "Sein Pilzhut ist sehr schmackhaft. Er wird zwar häufig von den Pokémon des Waldes verspeist, wächst aber über Nacht wieder nach."
 	},
 
-	thirdParty: {
-		cardmarket: 483274,
-		tcgplayer: 219464
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483274,
+				tcgplayer: 219464
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483274,
+				tcgplayer: 219464
+			}
+		},
+	],
 }
 
 export default card

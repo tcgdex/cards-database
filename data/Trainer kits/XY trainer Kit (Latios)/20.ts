@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Mira las 2 primeras cartas de tu baraja y pon 1 de ellas en tu mano. Descarta la otra carta.",
 		it: "Guarda le prime due carte del tuo mazzo e aggiungi una di esse alle carte che hai in mano. Scarta l’altra carta.",
 		pt: "Olhe os 2 cards de cima do seu baralho e coloque 1 deles de volta na sua mão. Descarte o outro card.",
-		de: "Schau dir die 2 obersten Karten deines Decks an und nimm 1 auf deine Hand. Lege die andere Karte auf deinen Ablagestapel."
+		de: "Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen. Schau dir die 2 obersten Karten deines Decks an und nimm 1 auf deine Hand. Lege die andere Karte auf deinen Ablagestapel."
 	},
 
 	trainerType: "Item",

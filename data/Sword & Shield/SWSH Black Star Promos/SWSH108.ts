@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA Mochizuki",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Water"],
@@ -73,19 +73,18 @@ const card: Card = {
 	stage: "Basic",
 	dexId: [395],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "E",
-	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 547866
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 547866,
+				tcgplayer: 238555
+			}
+		},
+	],
+	suffix: "V"
 }
 
 export default card

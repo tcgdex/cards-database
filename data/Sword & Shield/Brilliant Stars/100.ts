@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Heatran"
 	},
 
+	illustrator: "Yuya Oka",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 140,
@@ -60,26 +61,49 @@ const card: Card = {
 			es: "Si este Pokémon tiene alguna Energía Fire unida a él, este ataque hace 80 puntos de daño más.",
 			it: "Se questo Pokémon ha delle Energie Fire assegnate, questo attacco infligge 80 danni in più.",
 			pt: "Se este Pokémon tiver alguma Energia Fire ligada a ele, este ataque causará 80 pontos de dano a mais.",
-			de: "Wenn an dieses Pokémon mindestens 1 Fire-Energie angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu."
+			de: "Wenn an dieses Pokémon mindestens 1 {R}-Energie angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Boiling blood, like magma, circulates through its body. It makes its dwelling place in volcanic caves.",
+		de: "Das Blut, das durch seinen Körper fließt, brodelt heiß wie Magma. Es lebt in vulkanischen Höhlen."
 	},
 
-	thirdParty: {
-		cardmarket: 608646,
-		tcgplayer: 263819
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608646,
+				tcgplayer: 263819
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608646,
+				tcgplayer: 263819
+			}
+		},
+	],
 }
 
 export default card

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Tu rival baraja las cartas de su mano en su baraja y roba 4 cartas.",
 		it: "Il tuo avversario rimischia le carte che ha in mano nel proprio mazzo e poi pesca quattro carte.",
 		pt: "Seu oponente embaralha a mão no próprio deck e compra 4 cards.",
-		de: "Dein Gegner mischt seine Hand zurück in sein Deck und zieht 4 Karten."
+		de: "Dein Gegner mischt seine Hand zurück in sein Deck und zieht 4 Karten. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

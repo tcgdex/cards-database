@@ -90,23 +90,30 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Artillery platforms built into the walls of ancient castles served as perches from which Golurk could fire energy beams."
+		en: "Artillery platforms built into the walls of ancient castles served as perches from which Golurk could fire energy beams.",
+		de: "In uralten Festungen finden sich heute noch Sockel, die Golgantes beim Abfeuern seiner Strahlen wohl als Halt dienen sollten."
 	},
 
-	thirdParty: {
-		cardmarket: 483264,
-		tcgplayer: 219459
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483264,
+				tcgplayer: 219459
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483264,
+				tcgplayer: 219459
+			}
+		},
+	],
 }
 
 export default card

@@ -66,19 +66,48 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "Able to cut down anything with a single strike, it became known as the Fairy King's Sword, and it inspired awe in friend and foe alike.",
+		de: "Weil es alles und jeden vernichten konnte, trug es einst den Namen „Feenkönigsschwert“ und wurde gleichermaßen gefürchtet und verehrt."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740674,
+				tcgplayer: 523815,
+				cardtrader: 265236
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740674,
+				tcgplayer: 523815,
+				cardtrader: 265236
+			}
+		},
+	],
 
 	illustrator: "Tonji Matsuno",
 
-	thirdParty: {
-		cardmarket: 740674
-	}
+	
 }
 
 export default card

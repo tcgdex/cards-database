@@ -59,15 +59,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 274002,
-		tcgplayer: 42531
+
+	description: {
+		en: "Uses anti-gravity to stay suspended. Appears without warning and uses attacks like Thunder Wave.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274002,
+				tcgplayer: 42531
+			}
 		}
 	]
 }

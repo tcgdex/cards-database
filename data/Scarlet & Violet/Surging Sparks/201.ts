@@ -4,6 +4,7 @@ import Set from "../Surging Sparks"
 const card: Card = {
 	dexId: [975],
 	set: Set,
+	cameoDexIds: [320],
 
 	name: {
 		en: "Cetitan",
@@ -65,20 +66,27 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 794574,
+				tcgplayer: 589894
+			}
+		},
 	],
 
 	illustrator: "Jerky",
 
-	thirdParty: {
-		cardmarket: 794574
-	}
 }
 
 export default card

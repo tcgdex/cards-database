@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf drei Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
+				de: "Wirf drei Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10x",
 
@@ -58,23 +58,31 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Un Pokémon très prudent, il se dresse sur sa queue pour avoir une meilleure vue des alentours."
+		en: "A very cautious Pokémon, it raises itself up using its tail to get a better view of its surroundings.",
+		fr: "Un Pokémon très prudent, il se dresse sur sa queue pour avoir une meilleure vue des alentours.",
+		de: "Ein sehr vorsichtiges Pokémon, das sich mit Hilfe seines Schweifs selbst hochhebt, um einen besseren Überblick über seine Umgebung zu bekommen."
 	},
 
-	thirdParty: {
-		cardmarket: 274471,
-		tcgplayer: 89062
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274471,
+				tcgplayer: 89062
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274471,
+				tcgplayer: 89062
+			}
 		}
 	]
 }

@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cherubi",
 		fr: "Ceribou",
+		de: "Kikugi"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Each of your Grass Pokémon and Fire Pokémon's attacks does 10 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
 				fr: "Chacune des attaques de vos Pokémon Grass et Fire inflige 10 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance.",
-				de: "Alle Angriffe deiner - und -Pokémon fügen den Verteidigenden Pokémon 10 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+				de: "Alle Angriffe deiner {G}- und {R}-Pokémon fügen den Verteidigenden Pokémon 10 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 		},
 	],

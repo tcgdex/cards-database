@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Froakie",
 		fr: "Grenousse",
+		de: "Froxy"
 	},
 
 	stage: "Stage1",
@@ -82,6 +83,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Its swiftness is unparalleled. It can scale a tower of more than 2,000 feet in a minute's time.",
+		de: "Seine Flinkheit sucht ihresgleichen. Es kann einen 600 m hohen Turm in weniger als einer Minute erklimmen."
+	},
 
 	thirdParty: {
 		cardmarket: 355543,

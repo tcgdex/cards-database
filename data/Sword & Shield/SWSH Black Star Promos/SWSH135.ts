@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	stage: "BREAK",
 
@@ -56,21 +56,33 @@ const card: Card = {
 			it: "Durante il tuo prossimo turno, questo Pokémon non può attaccare."
 		}
 	}],
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576734,
+				tcgplayer: 251091
+			}
+		},
+	],
 
 	hp: 160,
 	types: ["Metal"],
-	retreat: 2,
-
-	thirdParty: {
-		cardmarket: 491179
-	}
+	retreat: 2
 }
 
 export default card

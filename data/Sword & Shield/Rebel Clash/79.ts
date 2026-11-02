@@ -94,23 +94,30 @@ const card: Card = {
 	types: ["Psychic"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Its shell is overflowing with its heightened otherworldly energy. The ectoplasm serves as protection for this Pokémon's core spirit."
+		en: "Its shell is overflowing with its heightened otherworldly energy. The ectoplasm serves as protection for this Pokémon's core spirit.",
+		de: "In ihm wuchs eine mysteriöse Kraft und so löste es sich von seinem Panzer los. Sein geisterhaftes Ektoplasma schützt die Seele im Kern."
 	},
 
-	thirdParty: {
-		cardmarket: 457813,
-		tcgplayer: 213165
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 457813,
+				tcgplayer: 213165
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457813,
+				tcgplayer: 213165
+			}
+		},
+	],
 }
 
 export default card

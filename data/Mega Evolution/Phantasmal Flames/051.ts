@@ -48,22 +48,40 @@ const card: Card = {
 		damage: "10×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "This Pokémon lives in arid deserts. It patiently awaits prey inside its funnel- shaped nest.",
+		fr: "Ce Pokémon vit dans les déserts arides. Il attend patiemment ses proies dans son terrier en forme d'entonnoir.",
+		de: "Es lebt in trockenen Wüstengebieten, wo es in seinem trichterförmigen Bau geduldig auf Beute wartet."
+	},
+
+	illustrator: "Uta",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857626,
+				tcgplayer: 662236,
+				cardtrader: 356834
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857626,
-		tcgplayer: 662236
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857626,
+				tcgplayer: 662236,
+				cardtrader: 356834
+			}
+		},
+	],	
 }
 
 export default card

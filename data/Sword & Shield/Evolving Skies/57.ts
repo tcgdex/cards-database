@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Emolga",
@@ -58,16 +52,29 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "As it flies, it scatters electricity around, so bird Pokémon keep their distance. That's why Emolga can keep all its food to itself."
+		en: "As it flies, it scatters electricity around, so bird Pokémon keep their distance. That's why Emolga can keep all its food to itself.",
+		de: "Vogel-Pokémon halten sich von ihm fern, da es im Flug Strom entlädt. Frei von Konkurrenz kann es seine Beute so für sich allein beanspruchen."
 	},
 
 	dexId: [587],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574081,
-		tcgplayer: 246900
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574081,
+				tcgplayer: 246900
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574081,
+				tcgplayer: 246900
+			}
+		},
+	],
 }
 
 export default card

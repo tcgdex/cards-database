@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		237,
-	],
+	dexId: [237],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -38,9 +36,9 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 		{
@@ -55,7 +53,7 @@ const card: Card = {
 				de: "Nahkampf"
 			},
 			effect: {
-				en: "During your opponent’s next turn, any damage done to Hitmontop by attacks is increased by 20 (after applying Weakness and Resistance).",
+				en: "During your opponent's next turn, any damage done to Hitmontop by attacks is increased by 20 (after applying Weakness and Resistance).",
 				fr: "Tous les dégâts infligés à Kapoera par des attaques pendant le prochain tour de votre adversaire sont augmentés de 20 (après application de la Faiblesse et de la Résistance).",
 				de: "Während des nächsten Zuges deines Gegners wird Schaden, der Kapoera durch Angriffe zugefügt wird, um 20 Schadenspunkte erhöht (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
@@ -74,22 +72,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It launches kicks while spinning. If it spins at high speed, it may bore its way into the ground."
+		en: "It launches kicks while spinning. If it spins at high speed, it may bore its way into the ground.",
+		de: "Es dreht sich um sich selbst und verteilt Tritte. Ist es schnell genug, bohrt es sich in den Boden."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86115,
+				cardmarket: 278977
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86115,
+				cardmarket: 278977
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278977,
-		tcgplayer: 86115
-	}
 }
 
 export default card

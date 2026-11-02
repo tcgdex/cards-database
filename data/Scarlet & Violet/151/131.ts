@@ -55,18 +55,42 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Crossing icy seas is no issue for this cold-resistant Pokémon. Its smooth skin is a little cool to the touch.",
+		de: "Es kommt gut mit Kälte zurecht und kann auch in eisigen Meeren problemlos schwimmen. Seine Haut fühlt sich glatt und kühl an."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733726,
+				tcgplayer: 516694,
+				cardtrader: 261190
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733726,
+				tcgplayer: 516694,
+				cardtrader: 261190
+			}
+		},
+	],
 
 	illustrator: "LINNE",
 
-	thirdParty: {
-		cardmarket: 733726
-	}
+	
 }
 
 export default card

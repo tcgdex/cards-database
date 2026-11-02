@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Drowzee",
 		fr: "Soporifik",
+		de: "Traumato"
 	},
 
 	stage: "Stage1",
@@ -77,6 +78,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Seeing its swinging pendulum can induce sleep in three seconds, even if someone just woke up.",
+		de: "Ein Blick auf das Pendel versetzt einen in 3 Sekunden in Schlaf, selbst wenn man gar nicht müde ist."
+	},
 
 	thirdParty: {
 		cardmarket: 277921,

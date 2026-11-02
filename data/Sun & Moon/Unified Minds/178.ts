@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [642],
 
 	dexId: [
 		641,
@@ -87,6 +88,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "The lower half of its body is wrapped in a cloud of energy. It zooms through the sky at 200 mph.",
+		de: "Sein Unterkörper ist in eine wolkenartige Energieschicht gehüllt. Es jagt mit bis zu 300 km/h durch die Lüfte."
+	},
 
 	thirdParty: {
 		cardmarket: 388677,

@@ -19,12 +19,25 @@ const card: Card = {
 	hp: 100,
 	types: ["Psychic"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Yukiko Baba",
 
 	description: {
-		en: "A discovery was made in the desert where Sigilyph fly. The ruins of what may have been an ancient city were found beneath the sands."
+		en: "A discovery was made in the desert where Sigilyph fly. The ruins of what may have been an ancient city were found beneath the sands.",
+		de: "In den Wüsten, in denen man Symvolara fliegen sieht, wurden Ruinen gefunden, die man für die Überreste einer Stadt aus uralten Zeiten hält."
 	},
 
 	attacks: [{
@@ -73,17 +86,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582649,
-		tcgplayer: 253303
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582649,
+				tcgplayer: 253303
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582649,
+				tcgplayer: 253303
+			}
+		},
+	],
 }
 
 export default card

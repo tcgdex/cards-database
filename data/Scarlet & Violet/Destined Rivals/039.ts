@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Ho-Oh ex de Ethan"
 	},
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -72,18 +73,24 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'holo'
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 825913,
+				tcgplayer: 632858
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 825913
-	}
 }
 
 export default card

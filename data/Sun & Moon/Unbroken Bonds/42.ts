@@ -79,6 +79,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "There are some places where Slowpoke is worshiped because of a long-standing belief that whenever Slowpoke yawns, it rains.",
+		de: "Einer Legende zufolge soll Flegmons Gähnen Regen herbeiführen. In manchen Regionen wird ihm deswegen gehuldigt."
+	},
+
 	thirdParty: {
 		cardmarket: 372333,
 		tcgplayer: 189122

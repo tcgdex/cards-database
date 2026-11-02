@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		25,
-	],
+	dexId: [25],
 
 	hp: 50,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -45,22 +43,26 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278688,
-		tcgplayer: 89644
+	description: {
+		en: "One summer, a group of Pikachu was found riding the waves at the local beach.",
+		de: "Eines Sommers fand man eine Gruppe Pikachu am örtlichen Strand Wellen reiten."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278688,
+				tcgplayer: 89644
+			}
+		},
+	],
+
 }
 
 export default card

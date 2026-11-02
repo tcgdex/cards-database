@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Akira Komayama",
 
 	description: {
-		en: "It appears to have been born from clay dolls made by ancient people. It uses telekinesis to float and move."
+		en: "It appears to have been born from clay dolls made by ancient people. It uses telekinesis to float and move.",
+		de: "Es scheint, sein Ursprung geht auf altertümliche Lehmpuppen zurück. Durch Telekinese kann es schweben und sich bewegen."
 	},
 
 	attacks: [{
@@ -81,17 +88,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582772,
-		tcgplayer: 253359
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582772,
+				tcgplayer: 253359
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582772,
+				tcgplayer: 253359
+			}
+		},
+	],
 }
 
 export default card

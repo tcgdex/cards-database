@@ -18,7 +18,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Piloswine"
+		en: "Piloswine",
+		fr: "Cochignon"
 	},
 
 	description: {

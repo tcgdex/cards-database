@@ -42,23 +42,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It can only survive in cold areas. It bounces happily around, even in environments as cold as −150 degrees Fahrenheit."
+		en: "It can only survive in cold areas. It bounces happily around, even in environments as cold as −150 degrees Fahrenheit.",
+		de: "Schneppke kann nur in besonders kalten Gebieten leben. Selbst bei -100 ºC hopst es munter umher."
 	},
 
-	thirdParty: {
-		cardmarket: 567115,
-		tcgplayer: 241688
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567115,
+				tcgplayer: 241688
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567115,
+				tcgplayer: 241688
+			}
+		},
+	],
 }
 
 export default card

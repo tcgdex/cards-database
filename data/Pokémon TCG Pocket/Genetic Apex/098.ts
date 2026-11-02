@@ -22,7 +22,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	evolveFrom: {
-		en: "Magnemite"
+		en: "Magnemite",
+		fr: "Magnéti"
 	},
 
 	abilities: [{

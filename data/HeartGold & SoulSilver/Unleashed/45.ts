@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		418,
-	],
+	dexId: [418],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Lehmbrühe"
 			},
 			effect: {
-				en: "Does 10 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à l’un des Pokémon se trouvant sur le Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
@@ -55,22 +53,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It inflates its flotation sac, keeping its face above water in order to watch for prey movement."
+		en: "It inflates its flotation sac, keeping its face above water in order to watch for prey movement.",
+		de: "Dank des Schwimmreifs bleibt sein Kopf über Wasser und es kann seine Beute an Land beobachten."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84022,
+				cardmarket: 279201
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84022,
+				cardmarket: 279201
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279201,
-		tcgplayer: 84022
-	}
 }
 
 export default card

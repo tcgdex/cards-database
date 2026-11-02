@@ -91,6 +91,11 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Boiling blood, like magma, circulates through its body. It makes its dwelling place in volcanic caves.",
+		de: "Das Blut, das durch seinen Körper fließt, brodelt heiß wie Magma. Es lebt in vulkanischen Höhlen."
+	},
+
 	thirdParty: {
 		cardmarket: 365688,
 		tcgplayer: 178853

@@ -74,18 +74,41 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751601,
+				tcgplayer: 534425,
+				cardtrader: 274247
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751601,
+				tcgplayer: 534425,
+				cardtrader: 274247
+			}
+		},
+	],
 
 	illustrator: "KIYOTAKA OSHIYAMA",
 
-	thirdParty: {
-		cardmarket: 751601
-	}
+	description: {
+		en: "Mabosstiff loves playing with children. Though usually gentle, it takes on an intimidating look when protecting its family.",
+		de: "Dieses Pokémon liebt es, mit Kindern zu spielen. Für gewöhnlich ist es friedfertig, doch wenn es seine Familie beschützt, ändert sich das."
+	},
+
 }
 
 export default card

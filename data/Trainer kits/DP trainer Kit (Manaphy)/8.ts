@@ -18,7 +18,7 @@ const card: Card = {
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	attacks: [
@@ -51,15 +51,25 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "10+"
-		}
+			value: "+10"
+		},
 	],
 
 	description: {
 		en: "It has the habit of biting anything with its developed jaws. Even its Trainer needs to be careful."
 	},
 
-	retreat: 1
+	retreat: 1,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278023,
+				tcgplayer: 89999
+			}
+		},
+	],
+
 }
 
 export default card

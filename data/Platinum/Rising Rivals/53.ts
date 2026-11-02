@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		329,
-	],
+	dexId: [329],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Trapinch",
 		fr: "Kraknoix",
+		de: "Knacklion"
 	},
 
 	stage: "Stage1",
@@ -61,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -74,33 +73,44 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278627,
-		tcgplayer: 90338
+	description: {
+		en: "It violently shudders its wings, generating ultrasonic waves to induce headaches in people.",
+		de: "Es schlägt wild mit den Flügeln. So entstehen Ultraschallwellen, die Kopfschmerzen verursachen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90338,
+				cardmarket: 278627
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278627,
+				tcgplayer: 90338
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["david-cohen"]
+			stamp: ["david-cohen"],
+			thirdParty: {
+				cardmarket: 868870,
+				tcgplayer: 479980
+			}
 		}
-	]
+	],
+
 }
 
 export default card

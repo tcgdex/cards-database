@@ -60,6 +60,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "They greet one another by rubbing each other with their tails, which are always kept well groomed and clean.",
+	},
 }
 
 export default card

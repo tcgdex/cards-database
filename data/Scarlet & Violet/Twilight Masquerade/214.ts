@@ -72,19 +72,28 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769388,
+				tcgplayer: 550258
+			}
+		},
+	],
 
+	suffix: "ex",
 	illustrator: "akagi",
 
-	thirdParty: {
-		cardmarket: 769388
-	}
 }
 
 export default card

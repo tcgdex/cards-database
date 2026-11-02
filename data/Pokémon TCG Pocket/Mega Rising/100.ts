@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mismagius"
+		en: "Mismagius",
+		fr: "Magirêve"
 	},
 
 	illustrator: "NC Empire",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Misdreavus"
+		en: "Misdreavus",
+		fr: "Feuforêve"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Spooky Shot"
+			en: "Spooky Shot",
+			fr: "Tir Effrayant"
 		},
 
 		damage: 70,

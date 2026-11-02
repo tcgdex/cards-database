@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "With its steel-hard stone head, it headbutts indiscriminately. This is because of the stress it feels at being unable to fly.",
+		de: "Es verteilt oft Kopfstöße mit seinem stahlharten Schädel. Grund ist offenbar der Frust darüber, dass es nicht fliegen kann."
+	},
+
 	thirdParty: {
 		cardmarket: 361344,
 		tcgplayer: 170930

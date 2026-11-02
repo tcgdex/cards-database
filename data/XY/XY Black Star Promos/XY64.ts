@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -67,6 +67,10 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "It lives in the ozone layer far above the clouds and cannot be seen from the ground.",
+	},
 
 	thirdParty: {
 		cardmarket: 553219

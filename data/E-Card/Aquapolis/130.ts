@@ -11,27 +11,38 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
+	trainerType: "Supporter",
 	set: Set,
 
-	effect: {
-		fr: "Vous ne pouvez jouer qu'une carte Supporter à chaque tour. Quand vous jouez cette carte, placez-la à côté de votre Pokémon Actif. À la fin de votre tour, défaussez-vous de cette carte.\n\nCherchez dans votre deck jusqu'à deux cartes Bébé Pokémon et/ou Pokémon de base et placez-les sur votre Banc. Mélangez ensuite votre deck.",
-		de: "Durchsuche dein Deck nach bis zu 2 Baby- und/oder Basis-Pokémonkarten und lege sie auf deine Bank. Mische dein Deck danach."
-	},
+	cameoDexIds: [58, 67, 172, 238],
 
-	thirdParty: {
-		cardmarket: 275206
+	effect: {
+		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Search your deck for up to 2 Baby Pokémon and/or Basic Pokémon cards and put them onto your bench. Shuffle your deck afterward.",
+		fr: "Cherchez dans votre deck jusqu'à deux cartes Bébé Pokémon et/ou Pokémon de base et placez-les sur votre Banc. Mélangez ensuite votre deck.",
+		de: "Du kannst in jedem Zug nur eine Unterstützerkarte spielen. Wenn du diese Karte ausspielst, lege sie neben dein aktives Pokémon. Lege diese Karte am Ende deines Zuges auf deinen Ablagestapel. Durchsuche dein Deck nach bis zu 2 Baby- und Basis-Pokémonkarten und lege sie auf deine Bank. Mische dein Deck danach."
 	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275206,
+				tcgplayer: 88225
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275206,
+				tcgplayer: 88225
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["reed-weichler"]
+			stamp: ["reed-weichler"],
+			thirdParty: {
+				tcgplayer: 477413
+			}
 		}
 	]
 }

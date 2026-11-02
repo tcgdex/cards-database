@@ -89,6 +89,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The high-pressure water expelled from its tail is so powerful, it can destroy a concrete wall.",
+		de: "Es schießt mit so hohem Druck Wasser aus seinem Schweif, dass selbst Betonwände den Kürzeren ziehen."
+	},
+
 	thirdParty: {
 		cardmarket: 281375,
 		tcgplayer: 89220

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Murkrow",
-		fr: "Cornèbre"
+		fr: "Cornèbre",
+		de: "Kramurx"
 	},
 
 	stage: "Stage1",
@@ -81,9 +82,13 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: ": Ce Pokémon nocturne évolue en grandes volées escortées par des Cornèbre."
+		en: "Becoming active at night, it is known to swarm with numerous MURKROW in tow.",
+		fr: ": Ce Pokémon nocturne évolue en grandes volées escortées par des Cornèbre.",
+		de: "Ein nachtaktives PKMN, das sich in Schwärmen mit KRAMURX durch die Nacht bewegt."
 	},
 
 	thirdParty: {

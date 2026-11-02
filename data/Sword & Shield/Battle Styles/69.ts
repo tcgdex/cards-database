@@ -54,23 +54,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It wears its mother's skull on its head, so no one knows what its bare face looks like. However, it's clear that it's always crying."
+		en: "It wears its mother's skull on its head, so no one knows what its bare face looks like. However, it's clear that it's always crying.",
+		de: "Da es den Schädel seiner Mutter auf dem Kopf trägt, weiß man nicht, wie sein Gesicht aussieht. Bekannt  ist nur, dass es ständig weint."
 	},
 
-	thirdParty: {
-		cardmarket: 545461,
-		tcgplayer: 234245
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545461,
+				tcgplayer: 234245
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545461,
+				tcgplayer: 234245
+			}
+		},
+	],
 }
 
 export default card

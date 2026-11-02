@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ludicolo"
+		en: "Ludicolo",
+		fr: "Ludicolo"
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Lombre"
+		en: "Lombre",
+		fr: "Lombre"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Rhythmic Steps"
+			en: "Rhythmic Steps",
+			fr: "Danse Rythmique"
 		},
 
 		damage: 60,
 		cost: ["Water", "Water"],
 
 		effect: {
-			en: "If you have exactly 1, 3, or 5 cards in your hand, this attack does 60 more damage."
+			en: "If you have exactly 1, 3, or 5 cards in your hand, this attack does 60 more damage.",
+			fr: "Si vous avez exactement 1, 3 ou 5 cartes dans votre main, cette attaque inflige 60 dégâts supplémentaires."
 		}
 	}],
 

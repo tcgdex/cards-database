@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Sylveon"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Psychic"],
@@ -76,16 +76,28 @@ const card: Card = {
 		damage: "70+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
 	description: {
 		en: "There's a Galarian fairy tale that describes a beautiful Sylveon vanquishing a dreadful dragon Pokémon."
 	},
-
-	thirdParty: {
-		cardmarket: 609461
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 659063,
+				tcgplayer: 273588
+			}
+		},
+	],
 }
 
 export default card

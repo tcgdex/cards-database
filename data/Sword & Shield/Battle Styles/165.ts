@@ -35,7 +35,7 @@ const card: Card = {
 			es: "Une hasta 3 cartas de Energía Fire de tu pila de descartes a tus Pokémon de la manera que desees.",
 			it: "Assegna ai tuoi Pokémon fino a tre carte Energia Fire dalla tua pila degli scarti nel modo che preferisci.",
 			pt: "Ligue até 3 cartas de Energia Fire da sua pilha de descarte aos seus Pokémon como desejar.",
-			de: "Lege bis zu 3 Fire-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an."
+			de: "Lege bis zu 3 {R}-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an."
 		},
 
 		cost: ["Colorless"]
@@ -70,12 +70,6 @@ const card: Card = {
 
 	retreat: 2,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "VMAX",
 	illustrator: "PLANETA Mochizuki",
@@ -91,10 +85,16 @@ const card: Card = {
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 546616,
-		tcgplayer: 234080
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 546616,
+				tcgplayer: 234080
+			}
+		},
+	],
 }
 
 export default card

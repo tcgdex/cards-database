@@ -65,18 +65,42 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This Pokémon's sweat is a slimy mucus. When captured, Poliwhirl can slither from its enemies' grasp and escape.",
+		de: "Quaputzi schwitzt glitschigen Schleim, dank dem es leicht der Umklammerung eines Feindes entkommen kann."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733656,
+				tcgplayer: 516250,
+				cardtrader: 261206
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733656,
+				tcgplayer: 516250,
+				cardtrader: 261206
+			}
+		},
+	],
 
 	illustrator: "Kurata So",
 
-	thirdParty: {
-		cardmarket: 733656
-	}
+	
 }
 
 export default card

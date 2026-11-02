@@ -70,10 +70,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299510,
-		tcgplayer: 138605
-	}
+	description: {
+		en: "They live in pitch black caves. Their enormous ears can emit ultrasonic waves of 200,000 hertz.",
+		de: "Es lebt im Inneren pechschwarzer Höhlen. Seine riesigen Ohren setzen Ultraschallwellen von 200 000 Hz frei."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299510,
+				tcgplayer: 138605
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299510,
+				tcgplayer: 138605
+			}
+		},
+	],
 }
 
 export default card

@@ -42,7 +42,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for up to 2 Grass Pokémon, show them to your opponent, and put them into your hand. Shuffle your deck afterward. If you put any Grass Pokémon into your hand, you may switch Bellossom with 1 of your Benched Pokémon.",
-				fr: "Choisissez dans votre deck jusqu'à 2 Pokémon , montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck. Si vous placez un Pokémon  dans votre main, vous pouvez échanger Joliflor avec 1 des Pokémon de votre Banc.",
+				fr: "Choisissez dans votre deck jusqu'à 2 Pokémon {G}, montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck. Si vous placez un Pokémon {G} dans votre main, vous pouvez échanger Joliflor avec 1 des Pokémon de votre Banc.",
 				de: "Search your deck for up to 2  Pokémon, show them to your opponent, and put them into your hand. Shuffle your deck afterward. If you put any  Pokémon into your hand, you may switch Bellossom with 1 of your Benched Pokémon."
 			},
 
@@ -85,20 +85,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276649,
-		tcgplayer: 83799
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 83799,
+				cardmarket: 276649
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 83799,
+				cardmarket: 276649
+			},
 		}
-	]
+	],
 }
 
 export default card

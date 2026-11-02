@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Prinplup"
 	},
 
+	evolveFrom: {
+		en: "Piplup",
+		fr: "Tiplouf",
+		es: "Piplup",
+		'es-mx': "Piplup",
+		de: "Plinfa",
+		it: "Piplup",
+		pt: "Piplup",
+	},
+
 	rarity: "Common",
 	category: "Pokemon",
 
@@ -60,22 +70,40 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "It lives a solitary life. Its wings deliver wicked blows that can snap even the thickest of trees in half with a single hit.",
+		fr: "C'est un Pokémon solitaire. D'un seul coup de ses puissantes ailes, il peut fendre en deux les arbres les plus imposants.",
+		de: "Pliprin sind Einzelgänger. Mit ihren Flügeln teilen sie kräftige Schläge aus, die selbst große Bäume entzweihauen."
+	},
+
+	illustrator: "Atsuya Uki",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857603,
+				tcgplayer: 662216,
+				cardtrader: 356811
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857603,
+				tcgplayer: 662216,
+				cardtrader: 356811
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857603,
-		tcgplayer: 662216
-	}
 }
 
 export default card

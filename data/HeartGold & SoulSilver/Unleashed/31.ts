@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		388,
-	],
+	dexId: [388],
 
 	hp: 90,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Turtwig",
 		fr: "Tortipouss",
+		de: "Chelast"
 	},
 
 	stage: "Stage1",
@@ -59,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Endormi.",
-				de: "Wirf eine Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt."
+				de: "Wirf eine Münze. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt."
 			},
 			damage: 50,
 
@@ -83,22 +82,27 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A Grotle that lives in the forest is said to have its own secret springwater."
+		en: "A Grotle that lives in the forest is said to have its own secret springwater.",
+		de: "Jedes CHELCARAIN kennt seine ganz eigene Stelle im Wald, wo es stets frisches Quellwasser findet."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85919,
+				cardmarket: 279187
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85919,
+				cardmarket: 279187
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279187,
-		tcgplayer: 85919
-	}
 }
 
 export default card

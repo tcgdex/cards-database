@@ -78,22 +78,32 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 	illustrator: "Tetsu Kayama",
 
-	thirdParty: {
-		cardmarket: 817157
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817157,
+				tcgplayer: 623432
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817157,
+				tcgplayer: 623432
+			}
 		},
-	]
+	],
 }
 
 export default card

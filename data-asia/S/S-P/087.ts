@@ -1,46 +1,33 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "噴火龍VMAX"
+		ja: "グズマ&ハラ",
+		'zh-tw': "噴火龍VMAX",
 	},
 
-	illustrator: "aky CG Works",
-	category: "Pokemon",
-	hp: 330,
-	types: ["Fire"],
-	stage: "VMAX",
+	illustrator: "Ken Sugimori",
+	category: "Trainer",
 
-	attacks: [{
-		name: {
-			'zh-tw': "利爪劈擊"
+	effect: {
+		ja: "自分の山札にある「スタジアム」を1枚、相手に見せてから、手札に加える。そして山札を切る。追加で、このカードを使うときに、自分の手札を2枚トラッシュしてよい。その場合、「ポケモンのどうぐ」と「特殊エネルギー」も1枚ずつ手札に加えられる。",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 463209,
+				tcgplayer: 597297,
+			},
 		},
+	],
 
-		damage: 100,
-		cost: ["Colorless", "Colorless", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "超極巨地獄滅焰"
-		},
+	trainerType: "Supporter",
+	regulationMark: "C",
+	rarity: "Promo",
+};
 
-		effect: {
-			'zh-tw': "選擇2個這隻寶可夢身上附加的能量，將其丟棄。"
-		},
-
-		damage: 300,
-		cost: ["Fire", "Fire", "Fire", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Water",
-		value: "×2"
-	}],
-
-	retreat: 3,
-	regulationMark: "D"
-}
-
-export default card
+export default card;

@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Hisuian Decidueye V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Fighting"],
@@ -65,12 +65,23 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
-
-	thirdParty: {
-		cardmarket: 650948
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 650948,
+				tcgplayer: 275166
+			}
+		},
+	],
 }
 
 export default card

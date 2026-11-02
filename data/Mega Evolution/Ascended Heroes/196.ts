@@ -23,7 +23,7 @@ const card: Card = {
 		fr: "Ajoutez un Pokémon ou une carte Énergie de base de votre pile de défausse à votre main.",
 		es: "Pon 1 Pokémon o 1 carta de Energía Básica de tu pila de descartes en tu mano.",
 		'es-mx': "Pon 1 Pokémon o 1 carta de Energía Básica de tu pila de descartes en tu mano.",
-		de: "Nimm 1 Pokémon oder 1 Basis-Energiekarte aus deinem Ablagestapel auf deine Hand.",
+		de: "Nimm 1 Pokémon oder 1 Basis-Energiekarte aus deinem Ablagestapel auf deine Hand. Du kannst während deines Zuges beliebig viele Itemkarten spielen.",
 		it: "Prendi un Pokémon o una carta Energia base dalla tua pila degli scarti e aggiungi la carta a quelle che hai in mano.",
 		pt: "Coloque um Pokémon ou uma carta de Energia Básica da sua pilha de descarte na sua mão."
 	},
@@ -31,10 +31,22 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 676008,
-		cardmarket: 869807
-	}
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869807,
+			tcgplayer: 676008
+		}
+	},
+	{
+		type: "reverse",
+		thirdParty: {
+			cardmarket: 869807,
+			tcgplayer: 676008
+		}
+	},
+],
 }
 
 export default card

@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The melodies sung by Meloetta have the power to make Pokémon that hear them happy or sad.",
+	},
+
 	thirdParty: {
 		cardmarket: 281229,
 		tcgplayer: 87303

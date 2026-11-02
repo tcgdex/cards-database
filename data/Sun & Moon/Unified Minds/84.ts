@@ -78,6 +78,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Known as \"The Being of Emotion.\" It taught humans the nobility of sorrow, pain, and joy.",
+		de: "„Das fühlende Wesen“. Es lehrt die Menschen die Ideale von Trauer, Schmerz und Freude."
+	},
+
 	thirdParty: {
 		cardmarket: 388222,
 		tcgplayer: 195014

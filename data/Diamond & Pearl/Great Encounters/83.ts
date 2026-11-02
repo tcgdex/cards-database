@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -67,6 +67,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Its body is made of magma. If it doesn't keep moving, its body will cool and harden.",
+		de: "Sein Körper besteht aus Magma. Bleibt es nicht ständig in Bewegung, kühlt es aus und verhärtet sich."
+	},
 
 	thirdParty: {
 		cardmarket: 277985,

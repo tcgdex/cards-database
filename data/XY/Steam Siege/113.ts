@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Elimina todos los efectos de los ataques en cada jugador y sus Pokémon.",
 		it: "Rimuovi tutti gli effetti degli attacchi da ciascun giocatore e dai suoi Pokémon.",
 		pt: "Remove todos os efeitos de ataques em cada jogador e seus Pokémon.",
-		de: "Alle Effekte von Angriffen verlieren bei beiden Spielern und ihren Pokémon ihre Wirkung."
+		de: "Alle Effekte von Angriffen verlieren bei beiden Spielern und ihren Pokémon ihreWirkung. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

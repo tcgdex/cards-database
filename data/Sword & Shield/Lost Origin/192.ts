@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Susuki"
 	},
 
+	illustrator: "Hitoshi Ariga",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -22,22 +23,22 @@ const card: Card = {
 		es: "Roba 2 cartas. Si tu Pokémon Activo tiene \"de Hisui\" en su nombre, roba 2 cartas más.",
 		it: "Pesca due carte. Se il tuo Pokémon attivo ha \"di Hisui\" nel nome, pesca altre due carte.",
 		pt: "Compre 2 cartas. Se o seu Pokémon Ativo tiver \"de Hisui\" em seu nome, compre 2 cartas a mais.",
-		de: "Ziehe 2 Karten. Wenn bei deinem Aktiven Pokémon \"Hisui\" zum Namen gehört, ziehe 2 Karten mehr."
+		de: "Ziehe 2 Karten. Wenn bei deinem Aktiven Pokémon „Hisui“ zum Namen gehört, ziehe 2 Karten mehr. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 674197,
-		tcgplayer: 284145
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674197,
+				tcgplayer: 284145
+			}
+		},
+	],
 }
 
 export default card

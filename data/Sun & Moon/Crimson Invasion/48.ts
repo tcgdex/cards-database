@@ -80,6 +80,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Known for its extreme intelligence, this Pokémon will look down on inexperienced Trainers, so it's best suited to veteran Trainers.",
+		de: "Es ist als extrem schlaues Pokémon bekannt. Nicht so beliebt bei unerfahrenen Trainern, doch Veteranen wissen es zu schätzen."
+	},
+
 	thirdParty: {
 		cardmarket: 311898,
 		tcgplayer: 149071

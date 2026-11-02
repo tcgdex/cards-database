@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Teddiursa",
-		fr: "Teddiursa"
+		fr: "Teddiursa",
+		de: "Teddiursa"
 	},
 
 	stage: "Stage1",
@@ -77,9 +78,13 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
-		fr: "Il marque de ses griffes les arbres de son territoire qui portent des Baies ou des fruits."
+		en: "In its territory, it leaves scratches on trees that bear delicious berries or fruits.",
+		fr: "Il marque de ses griffes les arbres de son territoire qui portent des Baies ou des fruits.",
+		de: "Es durchstreift sein Revier und markiert Bäume, die Früchte oder Beeren tragen, mit Kratzern."
 	},
 
 	thirdParty: {

@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Ce Pokémon est d'un naturel doux, mais lorsqu'il\nse met en colère, il mord à l'aide de ses incisives\nacérées et imprégnées de venin paralysant.",
 		es: "Es manso, pero muerde y paraliza a quien lo enfada\ncon sus afilados incisivos impregnados de toxinas.",
 		it: "È di natura mite, ma se qualcuno lo\nfa arrabbiare lo morde con gli incisivi\nimpregnati di un veleno paralizzante.",
-		de: "Wer dieses friedfertige Pokémon verärgert,\nwird durch einen Biss mit seinen scharfen,\ngiftgetränkten Schneidezähnen gelähmt.",
+		de: "Wer dieses friedfertige Pokémon verärgert, wird durch einen Biss mit seinen scharfen, giftgetränkten Schneidezähnen gelähmt.",
 		'pt-br': "Apesar de normalmente ser manso, este Pokémon finca\nseus dentes frontais afiados e venenosos em\nqualquer um que o irritar, causando paralisia.",
 		ko: "온화하지만 화가 나게 하면\n독이 밴 날카로운 앞니로 물어서\n상대를 마비시킨다."
 	},

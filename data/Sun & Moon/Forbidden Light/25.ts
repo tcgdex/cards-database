@@ -56,6 +56,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Through controlled expulsions of internal gas, it can expel water like a pistol shot. At close distances, it can shatter rock.",
+		de: "Durch die Explosion körpereigener Gase feuert es wie eine Pistole Wassersalven ab, die aus kurzer Distanz selbst Felsen zerschmettern."
+	},
+
 	thirdParty: {
 		cardmarket: 355544,
 		tcgplayer: 165676

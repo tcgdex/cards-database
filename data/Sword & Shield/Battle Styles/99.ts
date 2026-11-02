@@ -77,23 +77,30 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It is thought its body transformed as a result of iron accumulating internally from swallowing soil."
+		en: "It is thought its body transformed as a result of iron accumulating internally from swallowing soil.",
+		de: "Man glaubt, dass sich sein Körper aufgrund des Schluckens von eisenhaltiger Erde verwandelt habe."
 	},
 
-	thirdParty: {
-		cardmarket: 545576,
-		tcgplayer: 234184
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 545576,
+				tcgplayer: 234184
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545576,
+				tcgplayer: 234184
+			}
+		},
+	],
 }
 
 export default card

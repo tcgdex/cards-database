@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Lt. Surge's Rattata",
+		en: "Lt. Surge's Rattata"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		19,
-	],
+	dexId: [19],
 
 	hp: 30,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Focus Energy",
+				en: "Focus Energy"
 			},
 			effect: {
-				en: "During your next turn, Lt. Surge's Rattata's Quick Attack's base damage is doubled.",
+				en: "During your next turn, Lt. Surge's Rattata's Quick Attack's base damage is doubled."
 			},
 
 		},
@@ -42,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Quick Attack",
+				en: "Quick Attack"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails this attack does 10 damage.",
+				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],
@@ -55,31 +53,32 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-30"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 274353,
-		tcgplayer: 86866
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86866,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86866,
+				cardmarket: 274353
+			}
 		},
-	]
+	],
+	retreat: 0
 }
 
 export default card

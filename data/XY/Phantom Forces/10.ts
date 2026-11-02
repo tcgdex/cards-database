@@ -56,7 +56,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Este ataque hace 30 puntos de daño más por cada cara.",
 				it: "Lancia due volte una moneta. Ogni volta che esce testa, questo attacco infligge 30 danni in più.",
 				pt: "Jogue 2 moedas. Este ataque causa 30 de danos adicionais para cada cara.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30+",
 
@@ -103,6 +103,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "In the fever of an exciting battle, it showers embers from the gaps between its feathers and takes to the air.",
+		de: "Die Aufregung eines harten Kampfes veranlasst es dazu, im Flug Funken aus den Zwischenräumen seines Gefieders zu sprühen."
+	},
 
 	thirdParty: {
 		cardmarket: 281811,

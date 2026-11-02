@@ -12,6 +12,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [41],
 
 	dexId: [
 		96,
@@ -68,20 +69,24 @@ const card: Card = {
 		},
 	],
 
-	
-	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276208
-	},
+	retreat: 1,
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276208,
+				tcgplayer: 84973,
+			},
 		},
 		{
 			type: "holo",
-			foil: "energy"
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 276208,
+				tcgplayer: 84973,
+			},
 		}
 	]
 }

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Metang",
 		fr: "Métang",
+		de: "Metang"
 	},
 
 	stage: "Stage2",
@@ -96,6 +97,11 @@ const card: Card = {
 	],
 
 	retreat: 4,
+
+	description: {
+		en: "A linkage of two Metang, this Pokémon can perform any calculation in a flash by utilizing parallel processing in its four brains.",
+		de: "Es ging aus der Verschmelzung zweier Metang hervor. Dank vier Gehirnen und paralleler Datenverarbeitung sind Berechnungen im Nu gelöst."
+	},
 
 	thirdParty: {
 		cardmarket: 360408,

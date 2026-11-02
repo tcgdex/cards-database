@@ -63,10 +63,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299498,
-		tcgplayer: 138591
-	}
+	description: {
+		en: "It scatters spores that flicker and glow. Anyone seeing these lights falls into a deep slumber.",
+		de: "Es streut blinkende Sporen aus. Jeder, der dieses Licht sieht, schläft fest ein."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299498,
+				tcgplayer: 138591
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299498,
+				tcgplayer: 138591
+			}
+		},
+	],
 }
 
 export default card

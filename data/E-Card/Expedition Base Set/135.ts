@@ -11,16 +11,15 @@ const card: Card = {
 	illustrator: "Aimi Tomita",
 	rarity: "Common",
 	category: "Pokemon",
+	trainerType: "Tool",
 	set: Set,
 
-	dexId: [
-		158,
-	],
+	dexId: [158],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -38,7 +37,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -61,23 +60,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275009,
-		tcgplayer: 89995
-	},
 
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 89995,
+				cardmarket: 275009
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 89995,
+				cardmarket: 275009
+			},
+		},
+	],
 }
 
 export default card

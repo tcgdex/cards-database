@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ounishi",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Fighting"],
@@ -65,20 +65,31 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 654598,
-		cardmarket: 851049
-	},
+	weaknesses: [{
+		type: "Grass",
+		value: "x2"
+	}],
+
 	variants: [
 		{
 			type: "holo",
-			stamp: ["set-logo"]
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 851049,
+				tcgplayer: 654598
+
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["set-logo","staff"]
+			stamp: ["set-logo","staff"],
+			thirdParty: {
+				cardmarket: 851050,
+				tcgplayer: 656825
+
+			}
 		},
-	]
+	],
 }
 
 export default card

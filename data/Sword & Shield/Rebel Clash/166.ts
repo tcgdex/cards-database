@@ -22,23 +22,29 @@ const card: Card = {
 		es: "Busca en tu baraja una carta de Entrenador, enséñala y ponla en tu mano. Baraja las cartas de tu baraja después.",
 		it: "Cerca nel tuo mazzo una carta Allenatore, mostrala e aggiungila alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure um card de Treinador em seu baralho, revele-o e coloque-o em sua mão. Em seguida, embaralhe seus cards.",
-		de: "Durchsuche dein Deck nach 1 Trainerkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Durchsuche dein Deck nach 1 Trainerkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 458218,
-		tcgplayer: 213274
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458218,
+				tcgplayer: 213274
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458218,
+				tcgplayer: 213274
+			}
+		},
+	],
 }
 
 export default card

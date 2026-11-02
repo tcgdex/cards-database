@@ -63,19 +63,39 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751695,
+				tcgplayer: 534670,
+				cardtrader: 274341
+			}
+		},
+	],
 
 	illustrator: "otumami",
 
-	thirdParty: {
-		cardmarket: 751695
-	}
+	description: {
+		en: "It can generate and release gas within its body. That's how it can control the altitude of its drift.",
+		de: "Indem es Gas in seinem Körper erzeugt und wieder ausstößt, reguliert es seine Flughöhe."
+	},
+
 }
 
 export default card

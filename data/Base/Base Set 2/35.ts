@@ -64,15 +64,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273958,
-		tcgplayer: 42474
+
+	description: {
+		en: "When it swings its burning tail, it raises the temperature to unbearably high levels.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273958,
+				tcgplayer: 42474
+			}
 		}
 	]
 }

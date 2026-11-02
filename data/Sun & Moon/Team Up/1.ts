@@ -87,7 +87,7 @@ const card: Card = {
 				es: "Perenne GX",
 				it: "Sempreverde GX",
 				pt: "Perene GX",
-				de: "Immergrün GX"
+				de: "Immergrün-GX"
 			},
 
 			effect: {
@@ -96,7 +96,7 @@ const card: Card = {
 				es: "Cura todos los puntos de daño a este Pokémon. Si este Pokémon tiene por lo menos 1 Energía Grass adicional unida a él (además de las del coste de este ataque), pon todas las cartas de tu pila de descartes en tu baraja y barájalas todas. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Cura questo Pokémon da tutti i danni. Se questo Pokémon ha almeno un’Energia Grass extra assegnata, in aggiunta a quelle del costo di questo attacco, rimischia tutte le carte dalla tua pila degli scarti nel tuo mazzo. Non puoi usare più di un attacco GX a partita.",
 				pt: "Cure todo o dano deste Pokémon. Se este Pokémon tiver pelo menos 1 Energia Grass adicional ligada a ele (além do custo deste ataque), embaralhe todas as cartas da sua pilha de descarte no seu baralho (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Heile allen Schaden bei diesem Pokémon. Wenn an dieses Pokémon mindestens 1 extra Grass-Energie angelegt ist (zusätzlich zu den Kosten dieser Attacke), mische alle Karten aus deinem Ablagestapel in dein Deck. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				de: "Heile allen Schaden bei diesem Pokémon. Wenn an dieses Pokémon mindestens 1 extra {G}-Energie angelegt ist (zusätzlich zu den Kosten dieser Attacke), mische alle Karten aus deinem Ablagestapel in dein Deck. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 
 			damage: 180

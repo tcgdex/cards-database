@@ -50,6 +50,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Spheal's Water Gun can put out any fire. Flames used by opponents have no effect!",
+	},
+
 	thirdParty: {
 		cardmarket: 282514,
 		tcgplayer: 97049

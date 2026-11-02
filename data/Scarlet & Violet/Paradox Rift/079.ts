@@ -44,18 +44,48 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It spends its time running around wastelands. If anyone steals its beloved berries, it will chase them down and exact its revenge.",
+		de: "Es verbringt seinen Alltag damit, durchs Ödland zu rennen. Wenn jemand seine geliebten Beeren stiehlt, setzt es dem Täter nach und nimmt Rache."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740571,
+				tcgplayer: 523745,
+				cardtrader: 265179
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740571,
+				tcgplayer: 523745,
+				cardtrader: 265179
+			}
+		},
+	],
 
 	illustrator: "Mizue",
 
-	thirdParty: {
-		cardmarket: 740571
-	}
+	
 }
 
 export default card

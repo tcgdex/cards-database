@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Strahlendes Stahlos"
 	},
 
+	illustrator: "Sanosuke Sakuma",
 	rarity: "Radiant Rare",
 	category: "Pokemon",
 	hp: 170,
@@ -38,7 +39,7 @@ const card: Card = {
 			es: "Une hasta 2 cartas de Energía Metal de tu pila de descartes a este Pokémon.",
 			it: "Assegna a questo Pokémon fino a due carte Energia Metal dalla tua pila degli scarti.",
 			pt: "Ligue até 2 cartas de Energia Metal da sua pilha de descarte a este Pokémon.",
-			de: "Lege bis zu 2 Metal-Energiekarten aus deinem Ablagestapel an dieses Pokémon an."
+			de: "Lege bis zu 2 {M}-Energiekarten aus deinem Ablagestapel an dieses Pokémon an."
 		},
 
 		damage: 20
@@ -69,16 +70,16 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 674137,
-		tcgplayer: 284032
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674137,
+				tcgplayer: 284032
+			}
+		},
+	],
 }
 
 export default card

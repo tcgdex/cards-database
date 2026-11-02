@@ -78,6 +78,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Shaped like ancient writing, it is a huge mystery whether language or Unown came first.",
+		de: "Seine Form sieht aus wie antike Schrift. Was war zuerst da? Die Sprache oder Icognito?"
+	},
+
 	thirdParty: {
 		cardmarket: 365727,
 		tcgplayer: 178901

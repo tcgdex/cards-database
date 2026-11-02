@@ -4,6 +4,7 @@ import Set from "../Fusion Strike"
 const card: Card = {
 	dexId: [303],
 	set: Set,
+	cameoDexIds: [52, 235, 830],
 
 	name: {
 		en: "Mawile",
@@ -19,12 +20,19 @@ const card: Card = {
 	hp: 90,
 	types: ["Psychic"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed."
+		en: "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed.",
+		de: "Sein riesiger Kiefer hat sich aus stählernen Hörnern entwickelt. Mit ihm beißt es seine Gegner."
 	},
 
 	attacks: [{
@@ -51,17 +59,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582635,
-		tcgplayer: 253290
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582635,
+				tcgplayer: 253290
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582635,
+				tcgplayer: 253290
+			}
+		},
+	],
 }
 
 export default card

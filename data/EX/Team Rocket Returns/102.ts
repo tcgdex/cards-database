@@ -4,7 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Rocket's Scyther ex",
-		de: "Rockets Sichlor ex"
+		de: "Rockets Sichlor-ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -22,7 +22,7 @@ const card: Card = {
 		"Darkness",
 	],
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -90,16 +90,17 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276394,
-		tcgplayer: 88789
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 276394,
+				tcgplayer: 88789
+			},
 		},
-	]
+	],
+
 }
 
 export default card

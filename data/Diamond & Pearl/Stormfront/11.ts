@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Grotle",
 		fr: "Boskara",
+		de: "Chelcarain"
 	},
 
 	stage: "Stage2",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), when you play Torterra from your hand to evolve 1 of your Pokémon, you may choose as many of your Grass Pokémon in play as you like. For each Grass Pokémon you choose, search your deck for an Evolution card that evolves from that Pokémon and evolve it. Shuffle your deck afterward.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), lorsque vous jouez Torterra de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez choisir autant de Pokémon Grass que vous avez en jeu que vous le voulez. Pour chaque Pokémon Grass que vous choisissez, cherchez dans votre deck une carte Évolution qui évolue de ce Pokémon et faites-le évoluer. Ensuite, mélangez votre deck.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn du Chelterrar von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, eine beliebige Anzahl deiner -Pokémon im Spiel wählen. Für jedes -Pokémon, das du auf diese Weise gewählt hast, kannst du dein Deck nach einer Evolutionskarte, die sich aus dem gewählten Pokémon entwickelt, durchsuchen und es damit entwickeln. Mische dein Deck danach."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn du Chelterrar von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, eine beliebige Anzahl deiner {G}-Pokémon im Spiel wählen. Für jedes {G}-Pokémon, das du auf diese Weise gewählt hast, kannst du dein Deck nach einer Evolutionskarte, die sich aus dem gewählten Pokémon entwickelt, durchsuchen und es damit entwickeln. Mische dein Deck danach."
 			},
 		},
 	],

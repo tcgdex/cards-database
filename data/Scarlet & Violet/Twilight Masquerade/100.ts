@@ -72,14 +72,51 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769274,
+				tcgplayer: 550144
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769274,
+				tcgplayer: 550144
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 858725,
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 883809,
+			}
+		},
+	],
 
 	illustrator: "SIE NANAHARA",
+
+	description: {
+		en: "Snaps at its foes with fangs cloaked in blazing flame. Despite its bulk, it deftly feints every which way, leading opponents on a deceptively merry chase as it all but dances around them.",
+		de: "Dieser Meister der Finten schnappt mit Fangzähnen zu, die in lodernde Flammen gehüllt sind. Ungeachtet seiner großen Statur narrt er Feinde mit leichtfüßigen, tänzelnden Bewegungen."
+	},
 
 	thirdParty: {
 		cardmarket: 769274

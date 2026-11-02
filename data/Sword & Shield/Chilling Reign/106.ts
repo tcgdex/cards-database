@@ -72,23 +72,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It is usually motionless, but when attacked, it rotates at high speed and then crashes into its opponent."
+		en: "It is usually motionless, but when attacked, it rotates at high speed and then crashes into its opponent.",
+		de: "An sich ist es harmlos. Bringt man es jedoch in Bedrängnis, setzt es sich mit blitzschnellen Rollattacken zur Wehr."
 	},
 
-	thirdParty: {
-		cardmarket: 567215,
-		tcgplayer: 241781
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567215,
+				tcgplayer: 241781
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567215,
+				tcgplayer: 241781
+			}
+		},
+	],
 }
 
 export default card

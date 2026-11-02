@@ -3,7 +3,7 @@ import Set from '../HeartGold SoulSilver'
 
 const card: Card = {
 	name: {
-		en: "Pokégear3.0",
+		en: "Pokégear 3.0",
 		fr: "Poké Gear3.0",
 		de: "Pokécom 3.0"
 	},
@@ -16,25 +16,36 @@ const card: Card = {
 	effect: {
 		fr: "Regardez les 7 cartes du dessus de votre deck. Choisissez l’une des cartes Supporter qui s’y trouve, montrez-la à votre adversaire et placez-la dans votre main. Mélangez les autres cartes dans votre deck.",
 		en: "Look at the top 7 cards of your deck. Choose a Supporter card you find there, show it to your opponent, and put it into your hand. Shuffle the other cards back into your deck.",
-		de: "Schau dir die obersten 7 Karten deines Decks an. Falls Unterstützungskarten darunter sind, wähle eine davon, zeige sie deinem Gegner und nimm sie auf die Hand. Mische die anderen Karten anschließend in dein Deck."
+		de: "Schau dir die obersten 7 Karten deines Decks an. Falls Unterstützerkarten darunter sind, wähle eine davon, zeige sie deinem Gegner und nimm sie auf die Hand. Mische die anderen Karten anschließend in dein Deck."
 	},
 
 	trainerType: "Item",
 
+	hp: 0,
+	retreat: 0,
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88205
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88205
+			}
 		},
 		{
 			type: "normal",
-			stamp : ["christopher-kan"],
-		}
+			stamp: ["christopher-kan"],
+			thirdParty: {
+				cardmarket: 868183,
+				tcgplayer: 480437
+			}
+		},
 	],
 
-	hp: 0
 }
 
 export default card

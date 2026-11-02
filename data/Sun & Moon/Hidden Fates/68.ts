@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Jessie & James",
 		fr: "Jessie et James",
+		de: "Jessie & James"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -12,9 +13,12 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [52, 202],
+
 	effect: {
 		fr: "Chaque joueur défausse 2 cartes de sa main. Votre adversaire défausse en premier.",
-		en: "Each player discards 2 cards from their hand. Your opponent discards first."
+		en: "Each player discards 2 cards from their hand. Your opponent discards first.",
+		de: "Jeder Spieler legt 2 Karten aus seiner Hand auf seinen Ablagestapel. Dein Gegner legt als Erster ab. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

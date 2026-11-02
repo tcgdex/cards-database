@@ -86,6 +86,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It changes so it looks like its foe, tricks it, and then uses that opportunity to flee.",
+		de: "Nicht selten überrumpelt es Gegner, indem es ihre Gestalt annimmt und den Überraschungseffekt zur Flucht nutzt."
+	},
+
 	thirdParty: {
 		cardmarket: 281409,
 		tcgplayer: 90764

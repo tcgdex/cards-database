@@ -95,6 +95,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "At the center of its body is a red core, which sends mysterious radio signals into the night sky.",
+		de: "In der Körpermitte befindet sich ein roter Kern, der mysteriöse Radiowellen in die Nacht sendet."
+	},
+
 	thirdParty: {
 		cardmarket: 286276,
 		tcgplayer: 107149

@@ -51,23 +51,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "When it rubs the rocks on its neck against you, that's proof of its love for you. However, the rocks are sharp, so the gesture is quite painful!"
+		en: "When it rubs the rocks on its neck against you, that's proof of its love for you. However, the rocks are sharp, so the gesture is quite painful!",
+		de: "Reibt es seinen steinernen Fellkragen an einem Trainer, ist das ein Zeichen seiner Zuneigung. Da er jedoch scharf ist, besteht Verletzungsgefahr."
 	},
 
-	thirdParty: {
-		cardmarket: 567194,
-		tcgplayer: 241753
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567194,
+				tcgplayer: 241753
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567194,
+				tcgplayer: 241753
+			}
+		},
+	],
 }
 
 export default card

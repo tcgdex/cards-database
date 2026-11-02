@@ -4,6 +4,7 @@ import Set from "../Astral Radiance"
 const card: Card = {
 	dexId: [549],
 	set: Set,
+	cameoDexIds: [211, 220, 363, 396, 417, 627, 902, 904],
 
 	name: {
 		en: "Hisuian Lilligant V",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Hisui-Dressella V"
 	},
 
+	illustrator: "kodama",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 200,
@@ -54,20 +56,25 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658824,
-		tcgplayer: 272415
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658824,
+				tcgplayer: 272415
+			}
+		},
+	],
 }
 
 export default card

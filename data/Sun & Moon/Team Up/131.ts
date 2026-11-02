@@ -89,6 +89,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm.",
+		de: "Man berichtet, es sei der Wächter der Meere und man habe es im Herzen eines tosenden Sturmes gesehen."
+	},
+
 	thirdParty: {
 		cardmarket: 369058,
 		tcgplayer: 183920

@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 120,
 	types: ["Water"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Naoki Saito",
 
 	description: {
-		en: "Crossing icy seas is no issue for this cold-resistant Pokémon. Its smooth skin is a little cool to the touch."
+		en: "Crossing icy seas is no issue for this cold-resistant Pokémon. Its smooth skin is a little cool to the touch.",
+		de: "Es kommt gut mit Kälte zurecht und kann auch in eisigen Meeren problemlos schwimmen. Seine Haut fühlt sich glatt und kühl an."
 	},
 
 	attacks: [{
@@ -69,17 +76,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582188,
-		tcgplayer: 253185
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582188,
+				tcgplayer: 253185
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582188,
+				tcgplayer: 253185
+			}
+		},
+	],
 }
 
 export default card

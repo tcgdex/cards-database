@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		357,
-	],
+	dexId: [357],
 
 	hp: 90,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -76,22 +74,27 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The bunch of fruit around its neck ripens twice a year and is delicious. It’s a highly favored tropical snack."
+		en: "The bunch of fruit around its neck ripens twice a year and is delicious. It’s a highly favored tropical snack.",
+		de: "Sein Hals trägt zweimal im Jahr süße Früchte. Kinder in den südlichen Tropen naschen oft davon."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279275,
+				tcgplayer: 90062
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279275,
+				tcgplayer: 90062
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279275,
-		tcgplayer: 90062
-	}
 }
 
 export default card

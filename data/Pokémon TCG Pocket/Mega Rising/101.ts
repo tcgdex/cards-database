@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sableye"
+		en: "Sableye",
+		fr: "Ténéfix"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -17,21 +18,24 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "Materials from gems it has eaten float to the\nsurface of its body and can form an infinite\nnumber of patterns among individuals."
+		en: "Materials from gems it has eaten float to the\nsurface of its body and can form an infinite\nnumber of patterns among individuals.",
+		fr: "Les éléments présents dans les gemmes qu'il mange remontent à la surface de son corps, formant des motifs d'une infinie variété."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Dirty Throw"
+			en: "Dirty Throw",
+			fr: "Vilain Lancer"
 		},
 
 		damage: 70,
 		cost: ["Psychic", "Psychic"],
 
 		effect: {
-			en: "Discard a card from your hand. If you can't, this attack does nothing."
+			en: "Discard a card from your hand. If you can't, this attack does nothing.",
+			fr: "Défaussez une carte de votre main. Si vous ne pouvez pas en défausser, cette attaque ne fait rien."
 		}
 	}],
 

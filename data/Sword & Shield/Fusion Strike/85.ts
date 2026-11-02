@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "chibi",
 
 	description: {
-		en: "It shows no mercy to any who desecrate fields and mountains. It will fly around on its icy wings, causing a blizzard to chase offenders away."
+		en: "It shows no mercy to any who desecrate fields and mountains. It will fly around on its icy wings, causing a blizzard to chase offenders away.",
+		de: "Verwüstet jemand Felder und Berge, vergibt es ihm niemals. Es bestraft den Täter, indem es mit seinen kalten Flügeln einen Schneesturm erzeugt."
 	},
 
 	attacks: [{
@@ -81,17 +88,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582219,
-		tcgplayer: 253240
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582219,
+				tcgplayer: 253240
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582219,
+				tcgplayer: 253240
+			}
+		},
+	],
 }
 
 export default card

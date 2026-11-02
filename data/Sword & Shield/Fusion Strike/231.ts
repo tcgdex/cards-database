@@ -22,24 +22,30 @@ const card: Card = {
 		es: "Debes jugar 2 cartas de Walkie-talkies Cruzados de una vez. (Este efecto funciona una vez por 2 cartas).\nPon 1 Pokémon o 1 carta de Partidario de tu pila de descartes en tu mano.",
 		it: "Devi giocare due Ricevitore Incrociato alla volta. Questo effetto si applica una volta ogni due carte.\nPrendi un Pokémon o una carta Aiuto dalla tua pila degli scarti e aggiungi la carta a quelle che hai in mano.",
 		pt: "Você deve jogar 2 cartas Receptor Cruzado de uma vez (este efeito funciona uma vez para 2 cartas).\nColoque 1 Pokémon ou 1 carta de Apoiador da sua pilha de descarte na sua mão.",
-		de: "Du musst 2 Cross-Transceiver-Karten gleichzeitig spielen. (Dieser Effekt funktioniert einmal für 2 Karten.)\nNimm 1 Pokémon oder 1 Unterstützerkarte aus deinem Ablagestapel auf deine Hand."
+		de: "Du musst 2 Cross-Transceiver-Karten gleichzeitig spielen. (Dieser Effekt funktioniert einmal für 2 Karten.) Nimm 1 Pokémon oder 1 Unterstützerkarte aus deinem Ablagestapel auf deine Hand. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 	regulationMark: "E",
 	illustrator: "Studio Bora Inc.",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582967,
-		tcgplayer: 253103
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582967,
+				tcgplayer: 253103
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582967,
+				tcgplayer: 253103
+			}
+		},
+	],
 }
 
 export default card

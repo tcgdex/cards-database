@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Ancient people believed that the pattern on Bronzor's back contained a mysterious power.",
+		de: "Früher glaubten die Menschen, dem Muster auf seinem Rücken wohne eine mysteriöse Kraft inne."
+	},
+
 	thirdParty: {
 		cardmarket: 281866,
 		tcgplayer: 94628

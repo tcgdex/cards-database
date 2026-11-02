@@ -52,19 +52,33 @@ const card: Card = {
 		damage: "60×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751716,
+				tcgplayer: 534921,
+				cardtrader: 274362
+			}
+		},
+	],
 
 	illustrator: "otumami",
 
-	thirdParty: {
-		cardmarket: 751716
-	}
+	description: {
+		en: "This Pokémon dry cures its prey by spraying salt over them. The curing process steals away the water in the prey's body.",
+		de: "Um seine Beute einzupökeln, überschüttet es sie mit Salz, das es auf sie spuckt. Dieser Prozess entzieht dem Körper der Beute Wasser."
+	},
+
 }
 
 export default card

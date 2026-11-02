@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		429,
-	],
+	dexId: [429],
 
 	hp: 90,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Misdreavus",
 		fr: "Feuforêve",
+		de: "Traunfugil"
 	},
 
 	stage: "Stage1",
@@ -38,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Upper Hand",
 				fr: "Tourmente",
-				de: "Upper Hand"
+				de: "Oberhand"
 			},
 			effect: {
 				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
 				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Il ne peut pas l'utiliser lors du prochain tour de votre adversaire.",
-				de: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn."
+				de: "Wähle 1 Angriff des Verteidigenden Pokémon. Dieses Pokémon kann im nächsten Zug deines Gegners den gewählten Angriff nicht einsetzen."
 			},
 			damage: 30,
 
@@ -57,12 +56,12 @@ const card: Card = {
 			name: {
 				en: "Psybeam",
 				fr: "Rafale psy",
-				de: "Psybeam"
+				de: "Psystrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 60,
 
@@ -85,19 +84,28 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278476,
-		tcgplayer: 87516
+	description: {
+		en: "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power.",
+		de: "Sein Ruf ähnelt einer Beschwörung. Man sagt, dass er manchmal über die Kraft verfüge, glücklich zu machen."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 87516,
+				cardmarket: 278476
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278476,
+				tcgplayer: 87516
+			}
 		}
-	]
+	],
+
 }
 
 export default card

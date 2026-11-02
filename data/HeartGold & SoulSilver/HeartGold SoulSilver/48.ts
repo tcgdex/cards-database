@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		47,
-	],
+	dexId: [47],
 
 	hp: 90,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Paras",
 		fr: "Paras",
+		de: "Paras"
 	},
 
 	stage: "Stage1",
@@ -74,22 +73,27 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The larger the mushroom on its back grows, the stronger the mushroom spores it scatters."
+		en: "The larger the mushroom on its back grows, the stronger the mushroom spores it scatters.",
+		de: "Je größer der Pilz auf seinem Rücken wird, desto stärker werden auch die Sporen, die es verteilt."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87960,
+				cardmarket: 279020
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87960,
+				cardmarket: 279020
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279020,
-		tcgplayer: 87960
-	}
 }
 
 export default card

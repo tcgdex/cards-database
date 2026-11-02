@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Shelgon",
@@ -63,15 +57,28 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Shelgon lives deep within caves. It stays shut up in its hard shell, dreaming of the day it will be able to fly."
+		en: "Shelgon lives deep within caves. It stays shut up in its hard shell, dreaming of the day it will be able to fly.",
+		de: "Es lebt tief im Inneren von Höhlen. Von seiner harten Schale umgeben träumt es von dem Tag, an dem es am Himmel fliegt."
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574156,
-		tcgplayer: 246908
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574156,
+				tcgplayer: 246908
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574156,
+				tcgplayer: 246908
+			}
+		},
+	],
 }
 
 export default card

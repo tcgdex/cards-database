@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Future Sight",
 				fr: "Prescience",
+				de: "Seher"
 			},
 			effect: {
 				en: "Look at the top 5 cards of your deck and put them back on top of your deck in any order.",
 				fr: "Regardez les 5 cartes du dessus de votre deck et replacez-les sur le dessus de votre deck dans l'ordre de votre choix.",
+				de: "Schau dir die obersten 5 Karten deines Decks an und lege sie in beliebiger Reihenfolge zurück auf dein Deck."
 			},
 
 		},
@@ -54,10 +56,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280494,
-		tcgplayer: 85847
-	}
+	description: {
+		en: "They intently observe both Trainers and Pokémon. Apparently, they are looking at something that only Gothita can see.",
+		de: "Beobachtet andere Pokémon und Trainer mit durchdringendem Blick, als könne es etwas erkennen, das keiner sonst sieht."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280494,
+				tcgplayer: 85847
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280494,
+				tcgplayer: 85847
+			}
+		},
+	],
 }
 
 export default card

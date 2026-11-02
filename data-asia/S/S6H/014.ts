@@ -1,47 +1,59 @@
-import { Card } from "../../../interfaces"
-import Set from "../S6H"
+import { Card } from "../../../interfaces";
+import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "波爾凱尼恩V"
+		ja: "ボルケニオンV",
+		'zh-tw': "波爾凱尼恩V",
 	},
 
 	illustrator: "Ryota Murayama",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Fire"],
+
 	stage: "Basic",
-	suffix: "V",
 
-	attacks: [{
-		name: {
-			'zh-tw': "雙重金勾臂"
+	attacks: [
+		{
+			name: {
+				ja: "ヒートブラスト",
+				'zh-tw': "雙重金勾臂",
+			},
+			damage: 50,
+			cost: ["Fire", "Colorless"],
 		},
-
-		effect: {
-			'zh-tw': "擲2次硬幣，造成正面出現的次數×90點傷害。"
+		{
+			name: {
+				ja: "ダイナマイトタックル",
+				'zh-tw': "蟹鉗錘",
+			},
+			damage: "100+",
+			cost: ["Fire", "Fire", "Colorless"],
+			effect: {
+				ja: "このポケモンにダメカンが10個以上のっているなら、150ダメージ追加。",
+			},
 		},
+	],
 
-		damage: "90×",
-		cost: ["Fighting", "Colorless", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "蟹鉗錘"
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 560430,
+				tcgplayer: 569146,
+			},
 		},
-
-		damage: 130,
-		cost: ["Fighting", "Colorless", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Water",
-		value: "×2"
-	}],
+	],
 
 	retreat: 3,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Double rare",
+	dexId: [721],
+};
 
-export default card
+export default card;

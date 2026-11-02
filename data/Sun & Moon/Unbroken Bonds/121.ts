@@ -61,6 +61,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Although it's powerful enough to dig right through volcanic rock, it doesn't allow itself to be seen very often.",
+		de: "Es ist so kräftig, dass es sich mühelos durch Schichten von Lavagestein graben kann. An der Oberfläche zeigt es sich nur selten."
+	},
+
 	thirdParty: {
 		cardmarket: 372410,
 		tcgplayer: 189220

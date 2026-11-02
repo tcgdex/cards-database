@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Singe",
 				fr: "Roussi",
+				de: "Versengung"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
 				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt."
 			},
 
 		},
@@ -54,10 +56,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280457,
-		tcgplayer: 90447
-	}
+	description: {
+		en: "It controls balls of fire. As it grows, its six tails split from their tips to make more tails.",
+		de: "Es beherrscht Feuerbälle. Während es wächst, teilen sich seine sechs Schweife, um weitere zu bilden."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280457,
+				tcgplayer: 90447
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280457,
+				tcgplayer: 90447
+			}
+		},
+	],
 }
 
 export default card

@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [25],
 
 	dexId: [
 		52,
@@ -78,6 +79,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "When visiting a junkyard, you may catch sight of it having an intense fight with Murkrow over shiny objects.",
+		de: "Auf Müllhalden wird man oft Zeuge davon, wie es sich einen heftigen Streit mit Kramurx um glänzende Gegenstände liefert."
+	},
 
 	thirdParty: {
 		cardmarket: 372433,

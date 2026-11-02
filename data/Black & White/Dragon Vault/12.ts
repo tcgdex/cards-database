@@ -62,10 +62,19 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 281012,
-		tcgplayer: 83670
-	}
+	description: {
+		en: "They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp.",
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281012,
+				tcgplayer: 83670
+			}
+		},
+	],
 }
 
 export default card

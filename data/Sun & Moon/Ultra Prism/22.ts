@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Chimchar",
 		fr: "Ouisticram",
+		de: "Panflam"
 	},
 
 	stage: "Stage1",
@@ -67,6 +68,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It uses ceilings and walls to launch aerial attacks. Its fiery tail is but one weapon.",
+		de: "Es stürzt sich von Decken und Wänden auf Beute. Sein feuriger Schweif ist nur eine seiner Waffen."
+	},
 
 	thirdParty: {
 		cardmarket: 315953,

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Hoppip",
-		fr: "Granivol"
+		fr: "Granivol",
+		de: "Hoppspross"
 	},
 
 	stage: "Stage1",
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -82,21 +83,27 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "La fleur du sommet de sa tête s'ouvre et se ferme en fonction des fluctuations de températures."
+		en: "The bloom on top of its head opens and closes as the temperature fluctuates up and down.",
+		fr: "La fleur du sommet de sa tête s'ouvre et se ferme en fonction des fluctuations de températures.",
+		de: "Die Blüte oben auf seinem Kopf öffnet und schließt sich, wenn sich die Temperatur nach oben oder unten verändert."
 	},
 
-	thirdParty: {
-		cardmarket: 274449,
-		tcgplayer: 89252
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274449,
+				tcgplayer: 89252
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274449,
+				tcgplayer: 89252
+			}
 		}
 	]
 }

@@ -47,6 +47,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 807712,
+				tcgplayer: 615001,
+			},
+		},
+	],
+
 	retreat: 2
 }
 

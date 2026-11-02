@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Heatran"
 	},
 	illustrator: "tetsuya koizumi",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -93,6 +93,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Boiling blood, like plasma, circulates through its body. It makes its dwelling place in volcanic caves.",
+		de: "Das Blut, das durch seinen Körper fließt, brodelt heiß wie Magma. Es lebt in vulkanischen Höhlen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 315517,
+				tcgplayer: 158171
+			}
+		}
+	],
 }
 
 export default card

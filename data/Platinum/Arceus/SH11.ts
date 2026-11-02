@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		77,
-	],
+	dexId: [77],
 	
 	hp: 60,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 			effect: {
 				en: "As long as Ponyta has any Energy attached to it, Ponyta has no Weakness.",
 				de: "Solange an Ponita mindestens 1 Energie angelegt ist, hat Ponita keine Schwäche."
-			},
+			}
 		},
 	],
 
@@ -50,7 +48,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard all Fire Energy attached to Ponyta.",
-				de: "Entferne alle -Energien von Ponita und lege sie auf deinen Ablagestapel."
+				de: "Entferne alle {R}-Energien von Ponita und lege sie auf deinen Ablagestapel."
 			},
 			damage: 50,
 
@@ -66,13 +64,18 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278869
+	description: {
+		en: "As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster.",
+		de: "Neugeboren kann es kaum stehen. Durch das Galoppieren werden seine Beine aber schneller und kräftiger."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278869,
+				tcgplayer: 88291
+			}
 		}
 	]
 }

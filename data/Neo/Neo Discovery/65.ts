@@ -71,23 +71,31 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "S'il trouve du miel, sa marque en forme de croissant se met à luire. Il se lèche toujours les pattes parce qu'elles sont couvertes de miel."
+		en: "If it finds honey, its crescent mark glows. It always licks its paws because they are soaked with honey.",
+		fr: "S'il trouve du miel, sa marque en forme de croissant se met à luire. Il se lèche toujours les pattes parce qu'elles sont couvertes de miel.",
+		de: "Wenn es Honig findet, glüht sein halbmondförmiges Stirnmal. Es leckt sich dauernd die Pfoten, da sie vor Honig triefen."
 	},
 
-	thirdParty: {
-		cardmarket: 274576,
-		tcgplayer: 89855
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274576,
+				tcgplayer: 89855
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274576,
+				tcgplayer: 89855
+			}
 		}
 	]
 }

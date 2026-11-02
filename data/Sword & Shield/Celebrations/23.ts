@@ -4,12 +4,6 @@ import Set from '../Celebrations'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Professor's Research (Professor Oak)",
@@ -29,12 +23,22 @@ const card: Card = {
 		es: "Descarta las cartas de tu mano y roba 7 cartas.",
 		it: "Scarta le carte che hai in mano e pesca sette carte.",
 		pt: "Descarte a sua mão e compre 7 cartas.",
-		de: "Lege deine Handkarten auf deinen Ablagestapel und ziehe 7 Karten."
+		de: "Lege deine Handkarten auf deinen Ablagestapel und ziehe 7 Karten. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	illustrator: "KIYOTAKA OSHIYAMA",
-	regulationMark: "D"
+	regulationMark: "D",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 576768,
+				tcgplayer: 250318
+			}
+		},
+	],
 }
 
 export default card

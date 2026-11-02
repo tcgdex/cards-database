@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Kyoko Umemoto",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		91,
-	],
+	dexId: [91],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Shellder",
-		fr: "Kokiyas"
+		fr: "Kokiyas",
+		de: "Muschas"
 	},
 
 	stage: "Stage1",
@@ -44,7 +43,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -63,9 +62,9 @@ const card: Card = {
 			effect: {
 				en: "Flip 4 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
+				de: "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
@@ -73,23 +72,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Metal",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 274883,
-		tcgplayer: 84370
-	},
 
-	variants:[
+	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 84370,
+				cardmarket: 274883
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 84370,
+				cardmarket: 274883
+			},
+		},
+	],
 }
 
 export default card

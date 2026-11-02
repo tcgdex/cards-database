@@ -69,25 +69,32 @@ const card: Card = {
 	types: ["Grass"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "For protection, it releases a horrible stench from the antenna on its head to drive away enemies."
+		en: "For protection, it releases a horrible stench from the antenna on its head to drive away enemies.",
+		de: "Als Schutz vor Feinden sondert es einen übel riechenden Gestank mit seinen Antennen ab."
 	},
 
-	dexId: [251],
+	dexId: [10],
 
-	thirdParty: {
-		cardmarket: 457383,
-		tcgplayer: 213071
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457383,
+				tcgplayer: 213071
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457383,
+				tcgplayer: 213071
+			}
+		},
+	],
 }
 
 export default card

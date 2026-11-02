@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Togetic"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Psychic"],
@@ -67,16 +67,28 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
 	description: {
 		en: "They say that it will appear before kindhearted, caring people and shower them with happiness."
 	},
-
-	thirdParty: {
-		cardmarket: 684388
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 684388,
+				tcgplayer: 454225
+			}
+		},
+	],
 }
 
 export default card

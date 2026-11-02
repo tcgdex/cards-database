@@ -1,55 +1,71 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "眷戀雲"
+		ja: "ガラル バリコオル",
+		'zh-tw': "眷戀雲",
 	},
 
-	illustrator: "Jiro Sasumo",
+	illustrator: "KEIICHIRO ITO",
 	category: "Pokemon",
 	hp: 120,
-	types: ["Psychic"],
+	types: ["Water"],
 
 	description: {
-		'zh-tw': "當牠越過大海飛來，便代表嚴寒的 冬季即將終結。傳說中其慈愛將使 新的生命在洗翠大地上萌芽。"
+		ja: "タップダンスの 達人。 氷で できた ステッキを 振り 軽やかな ステップを 披露する。",
+		'zh-tw': "當牠越過大海飛來，便代表嚴寒的 冬季即將終結。傳說中其慈愛將使 新的生命在洗翠大地上萌芽。",
 	},
 
-	stage: "Basic",
+	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "吸取之吻"
+	abilities: [
+		{
+			type: "Ability",
+			name: { ja: "シャッフルダンス" },
+			effect: {
+				ja: "自分の番に1回使える。ウラになっている相手のサイドを1枚選び、相手の山札の一番上のカードと、ウラのまま入れ替える。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "將這隻寶可夢恢復「20」HP。"
+	attacks: [
+		{
+			name: {
+				ja: "マッドパーティ",
+				'zh-tw': "吸取之吻",
+			},
+			damage: "20×",
+			cost: ["Water", "Colorless", "Colorless"],
+			effect: {
+				ja: "自分のトラッシュにある、ワザ「マッドパーティ」を持つポケモンの数×20ダメージ。",
+				'zh-tw': "將這隻寶可夢恢復「20」HP。",
+			},
 		},
+	],
 
-		damage: 20,
-		cost: ["Psychic"]
-	}, {
-		name: {
-			'zh-tw': "愛之共感"
+	weaknesses: [{ type: "Metal", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 561786,
+				tcgplayer: 597389,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "若自己的手牌的張數與對手的手牌的張數相同，則增加70點傷害。"
-		},
-
-		damage: "70+",
-		cost: ["Psychic", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Metal",
-		value: "×2"
-	}],
+	evolveFrom: {
+		ja: "ガラル バリヤード",
+	},
 
 	retreat: 2,
-	regulationMark: "F"
-}
+	regulationMark: "D",
+	rarity: "Promo",
+	dexId: [866],
+};
 
-export default card
+export default card;

@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It is said to have fallen with lightning. It can fire thunderbolts from the rain clouds on its back.",
+	},
+
 	thirdParty: {
 		cardmarket: 277769,
 		tcgplayer: 88534

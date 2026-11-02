@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		137,
-	],
+	dexId: [137],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -52,7 +50,7 @@ const card: Card = {
 			effect: {
 				en: "Discard an Energy attached to Porygon and remove 4 damage counters from Porygon.",
 				fr: "Défaussez une carte Énergie attachée à Porygon et retirez-lui 4 marqueurs de dégât.",
-				de: "Lege 1 an Porygon angelegten Energie auf deinen Ablagestapel und entferne 4 Schadensmarken von Porygon."
+				de: "Lege 1 an Porygon angelegte Energie auf deinen Ablagestapel und entferne 4 Schadensmarken von Porygon."
 			},
 
 		},
@@ -68,20 +66,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A manmade Pokémon that came about as a result of research. It is programmed with only basic motions."
+		en: "A manmade Pokémon that came about as a result of research. It is programmed with only basic motions.",
+		de: "Ein künstlich produziertes Pokémon, welches das Ergebnis von Forschungen ist. Es ist simpel aufgebaut."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88312,
+				cardmarket: 279603
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279603,
+				tcgplayer: 88312
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279603,
-		tcgplayer: 88312
-	}
 }
 
 export default card

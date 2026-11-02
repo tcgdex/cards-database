@@ -56,18 +56,40 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715534,
+				tcgplayer: 497470,
+				cardtrader: 248649
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715534,
+				tcgplayer: 497470,
+				cardtrader: 248649
+			}
+		},
+	],
 
 	illustrator: "Kouki Saitou",
 
-	thirdParty: {
-		cardmarket: 715534
-	}
+	description: {
+		en: "Arctibax freezes the air around it, protecting its face with an ice mask and turning its dorsal fin into a blade of ice.",
+		de: "Es friert die Luft ringsum ein, um sein Gesicht mit einer Maske aus Eis zu schützen und seine Rückenflosse in Eisklingen zu verwandeln."
+	},
 }
 
 export default card

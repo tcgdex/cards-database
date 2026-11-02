@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Roselia",
-		fr: "Roselia",
+		fr: "Rosélia",
+		de: "Roselia"
 	},
 
 	stage: "Stage1",
@@ -80,7 +81,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		fr: "Il attire ses proies avec son doux parfum et les achève grâce aux fouets d'épines de ses bras."
+		en: "It attracts prey with a sweet aroma, then downs it with thorny whips hidden in its arms.",
+		fr: "Il attire ses proies avec son doux parfum et les achève grâce aux fouets d'épines de ses bras.",
+		de: "Mit einem süßen Duft lockt es Beute an, die es dann mit den dornigen Ranken in seinen Armen schlägt."
 	},
 
 	thirdParty: {

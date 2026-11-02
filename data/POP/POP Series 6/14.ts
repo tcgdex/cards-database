@@ -4,7 +4,8 @@ import Set from '../POP Series 6'
 const card: Card = {
 	name: {
 		en: "Chimchar",
-		fr: "Chimchar"
+		fr: "Ouisticram",
+		de: "Panflam"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -12,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		390,
-	],
+	dexId: [390],
 
 	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -29,7 +28,8 @@ const card: Card = {
 
 			name: {
 				en: "Scratch",
-				fr: "Griffe"
+				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 10,
@@ -42,11 +42,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Ember",
-				fr: "Flammèche"
+				fr: "Flammèche",
+				de: "Glut"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard a Fire Energy attached to Chimchar.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie  attachée à Ouisticram."
+				en: "Flip a coin. If heads discard a Fire Energy attached to Chimchar.",
+				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie  attachée à Ouisticram.",
+				de: "Wirf 1 Münze. Bei „Zahl“ lege eine {R}-Energie, die an Panflam angelegt ist, auf deinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -59,24 +61,30 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	description: {
-		en: "It agilely scales cliffs to live atop craggy mountains. Its fire is put out when it sleeps."
+		en: "It agilely scales cliffs to live atop craggy mountains. Its fire is put out when it sleeps.",
+		de: "Es klettert behände steile Felsen hinauf, um auf Bergen zu leben. Sein Feuer ist aus, wenn es schläft."
 	},
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84283,
+				cardmarket: 277899
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 84283,
+				cardmarket: 277899
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277899,
-		tcgplayer: 84283
-	}
 }
 
 export default card

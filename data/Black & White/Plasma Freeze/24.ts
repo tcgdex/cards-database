@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Surprise Attack",
 				fr: "Attaque Surprise",
+				de: "Überraschungsangriff"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -54,6 +56,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "By vibrating its cheeks, it emits sound waves imperceptible to humans and warns others of danger.",
+		de: "Erzeugt mit seinen Wangen für Menschen unhörbare Schallwellen, um Artgenossen vor Gefahr zu warnen."
+	},
 
 	thirdParty: {
 		cardmarket: 280902,

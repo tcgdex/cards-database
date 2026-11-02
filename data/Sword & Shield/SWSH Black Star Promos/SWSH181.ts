@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Vaporeon V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Water"],
@@ -65,12 +65,23 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
-
-	thirdParty: {
-		cardmarket: 516359
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 583206,
+				tcgplayer: 253416
+			}
+		},
+	],
 }
 
 export default card

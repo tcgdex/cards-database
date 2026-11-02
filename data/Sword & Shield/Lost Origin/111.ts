@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Humanolith"
 	},
 
+	illustrator: "HYOGONOSUKE",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 140,
@@ -38,7 +39,7 @@ const card: Card = {
 			es: "Une hasta 2 cartas de Energía Fighting de tu mano a tus Pokémon de la manera que desees.",
 			it: "Assegna ai tuoi Pokémon fino a due carte Energia Fighting dalla tua mano nel modo che preferisci.",
 			pt: "Ligue até 2 cartas de Energia Fighting da sua mão aos seus Pokémon como desejar.",
-			de: "Lege bis zu 2 Fighting-Energiekarten aus deiner Hand beliebig an deine Pokémon an."
+			de: "Lege bis zu 2 {F}-Energiekarten aus deiner Hand beliebig an deine Pokémon an."
 		}
 	}, {
 		cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
@@ -67,16 +68,23 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674124,
-		tcgplayer: 284006
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674124,
+				tcgplayer: 284006
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674124,
+				tcgplayer: 284006
+			}
+		},
+	],
 }
 
 export default card

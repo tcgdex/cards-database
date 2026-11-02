@@ -51,23 +51,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Its fur would all stand on end if it smelled a Seviper nearby. Its sharp claws tear up its foes."
+		en: "Its fur would all stand on end if it smelled a Seviper nearby. Its sharp claws tear up its foes.",
+		de: "Vipitis’ Geruch lässt ihm alle Haare zu Berge stehen. Mit seinen scharfen Klauen kratzt es seine Feinde."
 	},
 
-	thirdParty: {
-		cardmarket: 567228,
-		tcgplayer: 241799
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567228,
+				tcgplayer: 241799
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567228,
+				tcgplayer: 241799
+			}
+		},
+	],
 }
 
 export default card

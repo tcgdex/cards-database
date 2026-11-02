@@ -16,21 +16,28 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [25],
+
 	effect: {
 		fr: "Défaussez 2 cartes de votre main. Dans ce cas, piochez 4 cartes.",
 		en: "Discard 2 cards from your hand. If you do, draw 4 cards.",
 		es: "Descarta 2 cartas de tu mano. Si lo haces, roba 4 cartas.",
 		it: "Scarta due delle carte che hai in mano. Se lo fai, pesca quattro carte.",
 		pt: "Descarte 2 cartas da sua mão. Se fizer isto, compre 4 cartas.",
-		de: "Lege 2 Karten aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, ziehe 4 Karten."
+		de: "Lege 2 Karten aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, ziehe 4 Karten. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 
-	thirdParty: {
-		cardmarket: 299544,
-		tcgplayer: 138619
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 299544,
+				tcgplayer: 138619
+			}
+		},
+	],
 }
 
 export default card

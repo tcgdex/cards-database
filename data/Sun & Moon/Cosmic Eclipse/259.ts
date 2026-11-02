@@ -50,7 +50,7 @@ const card: Card = {
 				es: "Descarta, en cualquier combinación, hasta 3 cartas de Energía Fire Básica y Energía Lightning Básica de tus Pokémon en Banca. Este ataque hace 90 puntos de daño por cada carta que hayas descartado de esta manera.",
 				it: "Scarta fino a tre carte Energia base Fire e Lightning, in qualsiasi combinazione, assegnate ai tuoi Pokémon in panchina. Questo attacco infligge 90 danni per ogni carta che hai scartato in questo modo.",
 				pt: "Descarte até 3 cartas de Energia Fire básica e Lightning básica dos seus Pokémon no Banco em qualquer combinação. Este ataque causa 90 pontos de dano para cada carta descartada desta forma.",
-				de: "Lege eine beliebige Kombination aus bis zu 3 Fire-Basis- und Lightning-Basis-Energiekarten von den Pokémon auf deiner Bank auf deinen Ablagestapel. Diese Attacke fügt 90 Schadenspunkte mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
+				de: "Lege eine beliebige Kombination aus bis zu 3 {R}-Basis- und {L}-Basis-Energiekarten von den Pokémon auf deiner Bank auf deinen Ablagestapel. Diese Attacke fügt 90 Schadenspunkte mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
 			},
 			damage: "90×",
 
@@ -68,7 +68,7 @@ const card: Card = {
 				es: "Asalto Cruzado GX",
 				it: "Sfondamento Incrociato GX",
 				pt: "Rompimento Cruzado GX",
-				de: "Kreuzbruch GX"
+				de: "Kreuzbruch-GX"
 			},
 			effect: {
 				en: "This attack does 170 damage to 1 of your opponent’s Benched Pokémon. If you played N’s Resolve from your hand during this turn, this attack also does 170 damage to 1 of your opponent’s other Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) (You can’t use more than 1 GX attack in a game.)",
@@ -76,7 +76,7 @@ const card: Card = {
 				es: "Este ataque hace 170 puntos de daño a 1 de los Pokémon en Banca de tu rival. Si has jugado 1 carta de Decisión de N de tu mano durante este turno, este ataque también hace 170 puntos de daño a 1 de los otros Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca). (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Questo attacco infligge 170 danni a uno dei Pokémon nella panchina del tuo avversario. Se hai giocato Grinta di N dalla tua mano durante questo turno, questo attacco infligge 170 danni anche a uno degli altri Pokémon nella panchina del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina. Non puoi usare più di un attacco GX a partita.",
 				pt: "Este ataque causa 170 pontos de dano a 1 dos Pokémon no Banco do seu oponente. Se você jogou Resolução do N da sua mão durante esta vez de jogar, este ataque também causará 170 pontos de dano a 1 outro Pokémon no Banco do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco). (Você não pode usar mais de 1 ataque GX por partida.)",
-				de: "Diese Attacke fügt 1 Pokémon auf der Bank deines Gegners 170 Schadenspunkte zu. Wenn du Ns Entschluss während dieses Zuges aus deiner Hand gespielt hast, fügt diese Attacke auch 1 anderen Pokémon auf der Bank deines Gegner 170 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				de: "Diese Attacke fügt 1 Pokémon auf der Bank deines Gegners 170 Schadenspunkte zu. Wenn du Ns Entschluss während dieses Zuges aus deiner Hand gespielt hast, fügt diese Attacke auch 1 anderen Pokémon auf der Bank deines Gegners 170 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 
 		},

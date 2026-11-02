@@ -103,6 +103,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives in snowy regions. It carves patterns in trees with its claws as a signal to others.",
+		de: "Es lebt in schneereichen Gebieten. Snibunna senden einander Signale, indem sie Zeichen in Rinde ritzen."
+	},
+
 	thirdParty: {
 		cardmarket: 281535,
 		tcgplayer: 91185

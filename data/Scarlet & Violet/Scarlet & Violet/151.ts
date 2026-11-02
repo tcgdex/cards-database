@@ -57,14 +57,30 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "HYOGONOSUKE",
+
+	description: {
+		en: "No matter how much it stuffs its belly with food, it is always anxious about getting hungry again. So, it stashes berries in its cheeks and tail.",
+		de: "Egal, wie sehr es sich auch vollstopft, es lebt in ständiger Sorge vor dem nächsten Hungeranfall und hortet daher Beeren in Schweif und Backen."
+	},
 
 	thirdParty: {
         cardmarket: 702447,

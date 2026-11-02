@@ -14,9 +14,10 @@ const card: Card = {
 		pt: "Snorunt"
 	},
 
-	illustrator: "Dsuke",
+	illustrator: "June",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [361],
 	hp: 70,
 	types: ["Water"],
 	stage: "Basic",
@@ -37,13 +38,30 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676039,
-		cardmarket: 869838
-	}
+	description: {
+		en: "In some snowy lands, certain folklore says a house will prosper if a Snorunt lives there.",
+		fr: "D'après une légende des régions enneigées, il apporte la prospérité aux habitants des demeures dans lesquelles il s'installe.",
+		de: "In schneereichen Gebieten erzählt man sich, dass Reichtum in Häuser einziehe, in denen sich Schneppke niederlassen."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869838,
+				tcgplayer: 676039
+			}
+		}
+	],
 }
 
 export default card

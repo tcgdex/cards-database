@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Sachiko Adachi",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		185,
-	],
+	dexId: [185],
 
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -38,9 +36,9 @@ const card: Card = {
 			effect: {
 				en: "Does 20 damage times the amount of Fighting Energy attached to Sudowoodo.",
 				fr: "Inflige 20 dégâts multipliés par le nombre de cartes Énergie Fighting attachées à Simularbre.",
-				de: "Dieser Angriff fügt 20 Schadenspunkte mal der Anzhal der an Mogelbaum angelegten -Energien zu."
+				de: "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der an Mogelbaum angelegten {F}-Energien zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 		{
@@ -55,7 +53,7 @@ const card: Card = {
 				de: "Grollen"
 			},
 			effect: {
-				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
+				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
 				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
@@ -74,22 +72,27 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It disguises itself as a tree to avoid attack. It hates water, so it will disappear if it starts raining."
+		en: "It disguises itself as a tree to avoid attack. It hates water, so it will disappear if it starts raining.",
+		de: "Es tarnt sich als Baum, um nicht angegriffen zu werden. Es hasst Wasser, darum läuft es bei Regen weg."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 89596,
+				cardmarket: 279165
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89596,
+				cardmarket: 279165
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279165,
-		tcgplayer: 89596
-	}
 }
 
 export default card

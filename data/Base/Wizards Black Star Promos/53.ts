@@ -54,13 +54,17 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
 	variants: [
 		{
 			type: "normal",
-			stamp: ["pokemon-4-ever"]
-		}
-	]
+			stamp: ["pokemon-4-ever"],
+			thirdParty: {
+				tcgplayer: 89601
+			}
+		},
+	],
 }
 
 export default card

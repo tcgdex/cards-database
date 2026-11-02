@@ -55,10 +55,21 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 84293
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['winner'],
+			thirdParty: {
+				tcgplayer: 228153
+			}
+		}
+	]
 }
 
 export default card

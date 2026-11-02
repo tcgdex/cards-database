@@ -64,7 +64,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
 				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
 				pt: "Jogue uma moeda. Se sair coroa, esse ataque não fará nada.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -86,6 +86,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It emits a scent that enraptures those who smell it. This fragrance changes depending on what it has eaten.",
+		de: "Der von ihm verströmte Duft verzückt jeden, der ihn riecht. Je nachdem, was es frisst, ändert sich sein Duft."
+	},
 
 	thirdParty: {
 		cardmarket: 281550,

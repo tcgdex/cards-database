@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Poipole",
-		fr: "Vémini"
+		fr: "Vémini",
+		de: "Venicro"
 	},
 
 	stage: "Stage1",
@@ -91,7 +92,7 @@ const card: Card = {
 				es: "Inyección GX",
 				it: "Inoculazione GX",
 				pt: "Injeção GX",
-				de: "Injektion GX"
+				de: "Injektion-GX"
 			},
 			effect: {
 				en: "Add a card from your opponent’s discard pile to their Prize cards face down. (You can’t use more than 1 GX attack in a game.)",

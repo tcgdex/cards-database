@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		300,
-	],
+	dexId: [300],
 
 	hp: 40,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Attach a basic Energy card from your hand to 1 of your Pokémon.",
 				fr: "Attachez une carte Énergie de base de votre main à un de vos Pokémon.",
-				de: "Lege 1 Basis Energiekarte an 1 deiner Pokémon an."
+				de: "Lege 1 Basis-Energiekarte an 1 deiner Pokémon an."
 			},
 
 		},
@@ -67,19 +65,24 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275718,
-		tcgplayer: 89260
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275718,
+				tcgplayer: 89260
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275718,
+				tcgplayer: 89260
+			}
 		},
-	]
+	],
+
 }
 
 export default card

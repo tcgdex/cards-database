@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -91,6 +92,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Clean, clear waters are its usual habitat. When it's about to be attacked by an invading enemy, it dives into the water to hide.",
+		de: "Es lebt meist an klaren Gewässern. Wittert es einen feindlichen Angriff, verschwindet es ins Wasser und macht sich unsichtbar."
+	},
 
 	thirdParty: {
 		cardmarket: 407859,

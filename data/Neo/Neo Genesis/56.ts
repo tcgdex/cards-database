@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Leer",
 				fr: "Groz'yeux",
-				de: "Leer"
+				de: "Silberblick"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon can't attack Cyndaquil during your opponent's next turn. (Benching or evolving either Pokémon ends this effect.)",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer Héricendre pendant le prochain tour de votre adversaire. (Envoyer l'un des deux Pokémon sur son Banc ou le faire évoluer met fin à cet effet.)",
-				de: "Flip a coin. If heads, the Defending Pokémon can't attack Cyndaquil during your opponent's next turn. (Benching or evolving either Pokémon ends this effect.)"
+				de: "Wirf eine Münze. Bei „Kopf“ kann das verteidigende Pokémon Feurigel während des nächsten Zuges deines Gegners nicht angreifen. (Kommt eines dieser Pokémon auf die Bank oder entwickelt sich, endet diese Wirkung.)"
 			},
 
 		},
@@ -50,12 +50,12 @@ const card: Card = {
 			name: {
 				en: "Swift",
 				fr: "Météores",
-				de: "Swift"
+				de: "Sternschauer"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon.",
 				fr: "Les dégâts infligés par cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Pouvoir Pokémon ou tout autre effet sur le Pokémon Défenseur.",
-				de: "This attack's damage isn't affected by Weakness, Resistance, Pokémon Powers, or any other effects on the Defending Pokémon."
+				de: "Die Schadenspunkte aus diesem Angriff werden Schwäche, Resistenz, Pokémon-Power oder allen anderen Effekten auf das verteidigende Pokémon nicht beeinflusst."
 			},
 			damage: 20,
 
@@ -68,23 +68,31 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Il demeure habituellement courbé en avant. S'il est en colère ou surpris, il lance des flammes depuis son dos."
+		en: "It usually stays hunched over. If it is angry or surprised, it shoots flames out of its back.",
+		fr: "Il demeure habituellement courbé en avant. S'il est en colère ou surpris, il lance des flammes depuis son dos.",
+		de: "Es macht normalerweise einen Buckel. Falls es wütend oder überrascht wird, schießt es Flammen aus seinem Rücken."
 	},
 
-	thirdParty: {
-		cardmarket: 274456,
-		tcgplayer: 84543
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274456,
+				tcgplayer: 84543
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274456,
+				tcgplayer: 84543
+			}
 		}
 	]
 }

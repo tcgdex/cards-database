@@ -12,15 +12,14 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [278],
 
-	dexId: [
-		320,
-	],
+	dexId: [320],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -34,7 +33,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
-				de: "Rollout"
+				de: "Walzer"
 			},
 
 			damage: 20,
@@ -49,12 +48,12 @@ const card: Card = {
 			name: {
 				en: "Super Hypno Wave",
 				fr: "Super hypnovague",
-				de: "Super Hypno Wave"
+				de: "Super Hypno Welle"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 30,
 
@@ -71,19 +70,24 @@ const card: Card = {
 	
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 275860,
-		tcgplayer: 90451
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275860,
+				tcgplayer: 90451
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275860,
+				tcgplayer: 90451
+			}
 		},
-	]
+	],
+
 }
 
 export default card

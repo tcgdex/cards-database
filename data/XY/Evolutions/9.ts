@@ -64,7 +64,7 @@ const card: Card = {
 				es: "Descarta 1 Energía Fire unida a este Pokémon.",
 				it: "Scarta un'Energia Fire assegnata a questo Pokémon.",
 				pt: "Descarte uma Energia Fire ligada a este Pokémon.",
-				de: "Lege 1 an dieses Pokémon angelegte Fire-Energie auf deinen Ablagestapel."
+				de: "Lege 1 an dieses Pokémon angelegte {R}-Energie auf deinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -79,6 +79,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
+		de: "Von Geburt an brennt die Flamme auf seiner Schwanzspitze. Sobald sie erlischt, erlischt auch sein Lebenslicht."
+	},
 
 	thirdParty: {
 		cardmarket: 293366,

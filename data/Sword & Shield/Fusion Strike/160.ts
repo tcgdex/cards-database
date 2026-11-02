@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "sowsow",
 
 	description: {
-		en: "This very aggressive Pokémon will recklessly challenge opponents stronger than itself."
+		en: "This very aggressive Pokémon will recklessly challenge opponents stronger than itself.",
+		de: "Es ist sehr angriffslustig und schreckt auch nicht davor zurück, sich mit Gegnern anzulegen, die ihm haushoch überlegen sind."
 	},
 
 	attacks: [{
@@ -52,17 +59,23 @@ const card: Card = {
 		damage: 30
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582788,
-		tcgplayer: 253374
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582788,
+				tcgplayer: 253374
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582788,
+				tcgplayer: 253374
+			}
+		},
+	],
 }
 
 export default card

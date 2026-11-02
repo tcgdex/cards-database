@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It has a pliable body without any bones. If any part of its body is torn off, it grows right back.",
+	},
+
 	thirdParty: {
 		cardmarket: 277761,
 		tcgplayer: 85657

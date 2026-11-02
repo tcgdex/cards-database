@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Naoyo Kimura",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		186,
-	],
+	dexId: [186],
 
 	hp: 120,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Poliwhirl",
 		fr: "Tetarte",
+		de: "Quaputzi"
 	},
 
 	stage: "Stage2",
@@ -39,10 +38,10 @@ const card: Card = {
 				de: "Bocksprung"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may choose a Water Pokémon on your Bench and switch it with your Active Pokémon. This power can’t be used if Politoed is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may choose a Water Pokémon on your Bench and switch it with your Active Pokémon. This power can't be used if Politoed is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez choisir un Pokémon Water de votre Banc et l’échanger avec votre Pokémon Actif. Ce pouvoir ne peut pas être utilisé si Tarpaud est affecté par un État Spécial.",
-				de: "Einmal während deises Zuges (vor deinem Angriff) kannst du ein -Pokémon auf deiner Bank wählen und es gegen dein Aktives Pokémon austauschen. Diese Poké-Power kann nicht benutzt werden, wenn Quaxo von einem Speziellen Zustand betroffen ist."
-			},
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du ein {W}-Pokémon auf deiner Bank wählen und es gegen dein Aktives Pokémon austauschen. Diese Poké-Power kann nicht benutzt werden, wenn Quaxo von einem Speziellen Zustand betroffen ist."
+			}
 		},
 	],
 
@@ -61,9 +60,9 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin for each Water Pokémon you have in play. This attack does 30 damage times the number of heads.",
 				fr: "Lancez une pièce pour chacun de vos Pokémon Water en jeu. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
-				de: "Wirf eine Münze für jedes deiner -Pokémon im Spiel. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf eine Münze für jedes deiner {W}-Pokémon im Spiel. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
-			damage: "30x",
+			damage: "30×",
 
 		},
 	],
@@ -78,22 +77,41 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Whenever three or more of these get together, they sing in a loud voice that sounds like bellowing."
+		en: "Whenever three or more of these get together, they sing in a loud voice that sounds like bellowing.",
+		de: "Sind drei oder mehr von ihnen zusammen, singen sie so laut, dass man an Hundegebell erinnert wird."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88251,
+				cardmarket: 279163
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88251,
+				cardmarket: 279163
+			}
+		},
+		{
+			type: "reverse",
+			foil: 'league',
+			thirdParty: {
+				cardmarket: 450113,
+				tcgplayer: 220667,
+			}
+		},
+		{
+			type: "reverse",
+			stamp: ["staff"],
+			thirdParty: {
+				tcgplayer: 220668
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 279163,
-		tcgplayer: 88251
-	}
 }
 
 export default card

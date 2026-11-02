@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		194,
-	],
+	dexId: [194],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -33,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Tail Whap",
 				fr: "Queue battoir",
-				de: "Tail Whap"
+				de: "Schweifvertrimmerer"
 			},
 
 			damage: 10,
@@ -46,12 +44,12 @@ const card: Card = {
 			name: {
 				en: "Deep Dive",
 				fr: "Gros plongeon",
-				de: "Deep Dive"
+				de: "Tieftaucher"
 			},
 			effect: {
-				en: "Flip 3 coins. For each heads, remove 1 damage counter from Wooper.",
+				en: "Flip 3 coins. For each heads, remove 1 damage counter on Wooper.",
 				fr: "Lancez 3 pièces. Pour chaque face, retirez un marqueur de dégâts de Axoloto.",
-				de: "Flip 3 coins. For each heads, remove 1 damage counter from Wooper."
+				de: "Wirf 3 Münzen. Entferne für jedesmal „Kopf“ eine Schadensmarke von Felino."
 			},
 
 		},
@@ -60,22 +58,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275139,
-		tcgplayer: 90630
-	},
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 90630,
+				cardmarket: 275139
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 90630,
+				cardmarket: 275139
+			}
+		},
 	]
 }
 

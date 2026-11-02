@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The mother puts its offspring to sleep by curling up around them. It corners foes with speed.",
+	},
+
 	thirdParty: {
 		cardmarket: 277780,
 		tcgplayer: 85593

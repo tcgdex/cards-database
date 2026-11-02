@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Aggron ex",
 		fr: "Galeking ex",
-		de: "Stollos ex"
+		de: "Stollos-ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -13,22 +13,22 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		306,
-	],
+	dexId: [306],
 
 	hp: 150,
 
+	stage: "Stage2",
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Lairon",
-		fr: "Galegon"
+		fr: "Galegon",
+		de: "Stollrak"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
@@ -40,12 +40,12 @@ const card: Card = {
 			name: {
 				en: "Rend",
 				fr: "Déchirer",
-				de: "Rend"
+				de: "Reißer"
 			},
 			effect: {
 				en: "If the Defending Pokémon has any damage counters on it, this attack does 30 damage plus 30 more damage.",
 				fr: "Si le Pokémon Défenseur possède des marqueurs de dégât, cette attaque inflige 60 dégâts.",
-				de: "If the Defending Pokémon has any damage counters on it, this attack does 30 damage plus 30 more damage."
+				de: "Wenn bereits Schadensmarken auf dem Verteidigenden Pokémon liegen, fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -61,12 +61,12 @@ const card: Card = {
 			name: {
 				en: "Metal Surge",
 				fr: "Vague métallique",
-				de: "Metal Surge"
+				de: "Metallwoge"
 			},
 			effect: {
 				en: "Does 20 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 20 dégâts à chacun des Pokémon du Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
-				de: "Does 20 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for benched Pokémon.))"
+				de: "Fügt allen gegnerischen Pokémon auf der Bank 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 50,
 
@@ -94,14 +94,13 @@ const card: Card = {
 	
 	retreat: 4,
 
-	thirdParty: {
-		cardmarket: 275872,
-		tcgplayer: 83483
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 83483,
+				cardmarket: 275872
+			}
 		},
 	]
 }

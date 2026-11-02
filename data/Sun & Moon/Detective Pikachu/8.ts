@@ -62,6 +62,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "In the distant past, they were fairly strong, but they have become gradually weaker over time.",
+		de: "Vor langer, langer Zeit war es anscheinend ziemlich stark, doch es wurde zusehends schwächer und schwächer."
+	},
+
 	thirdParty: {
 		cardmarket: 370772,
 		tcgplayer: 186012

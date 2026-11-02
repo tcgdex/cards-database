@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Croconaw"
 	},
 
+	evolveFrom: {
+		en: "Totodile",
+		fr: "Kaiminus",
+		es: "Totodile",
+		'es-mx': "Totodile",
+		de: "Karnimani",
+		it: "Totodile",
+		pt: "Totodile",
+	},
+
 	illustrator: "Felicia Chen",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [159],
 	hp: 100,
 	types: ["Water"],
 	stage: "Stage1",
@@ -47,13 +58,46 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675854,
-		cardmarket: 869653
-	}
+	description: {
+		en: "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth.",
+		fr: "Quand il perd un croc, un autre repousse aussitôt. Sa mâchoire en comporte donc 48 en permanence.",
+		de: "Verliert es einen seiner Zähne, wächst prompt ein neuer nach. Es hat immer 48 Zähne in seinem Maul."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869653,
+			tcgplayer: 675854
+		}
+	},
+	{
+		type: "reverse",
+		foil: "friendball",
+		thirdParty: {
+			cardmarket: 870206,
+			tcgplayer: 676887
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870205,
+			tcgplayer: 677027
+		}
+	},
+],
 }
 
 export default card

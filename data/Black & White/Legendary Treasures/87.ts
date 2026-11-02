@@ -52,6 +52,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its constant mischief and misdeeds resulted in it being bound to an Odd Keystone by a mysterious spell.",
+	},
+
 	thirdParty: {
 		cardmarket: 281238,
 		tcgplayer: 89468

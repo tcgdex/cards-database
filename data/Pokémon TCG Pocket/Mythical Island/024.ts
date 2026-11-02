@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Il est assez puissant pour terrasser un\nennemi d'un seul coup, mais il est tellement\nnigaud qu'il oublie contre qui il se bat.",
 		es: "Su colosal potencia le permite machacar al rival\nde un solo golpe, aunque su carácter despistado\nlo lleva a olvidarse de su presencia.",
 		it: "È così potente che può sconfiggere l'avversario\nin un colpo solo, ma è talmente smemorato\nche si dimentica perfino con chi stava lottando.",
-		de: "Es ist so stark, dass es seine Gegner mit einem\nAngriff vernichten könnte, aber zerstreut wie es\nist, vergisst es öfters, wen es gerade bekämpft.",
+		de: "Es ist so stark, dass es seine Gegner mit einem Angriff vernichten könnte, aber zerstreut wie es ist, vergisst es öfters, wen es gerade bekämpft.",
 		'pt-br': "É tão forte que consegue derrubar alguns oponentes com um único golpe,\nmas às vezes se esquece de que está batalhando bem no meio da luta.",
 		ko: "상대를 일격에 쓰러뜨릴 정도로\n파워풀하지만 건망증이 심해서\n싸우고 있는 상대를 잊어버린다."
 	},

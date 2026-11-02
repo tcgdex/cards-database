@@ -56,10 +56,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299419,
-		tcgplayer: 138282
-	}
+	description: {
+		en: "It shares the leaf on its head with weary-looking Pokémon. These leaves are known to relieve stress.",
+		de: "Schwächelnden Pokémon gibt es ein paar der Kräuter auf seinem Kopf ab und hilft ihnen so wieder auf die Beine."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299419,
+				tcgplayer: 138282
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299419,
+				tcgplayer: 138282
+			}
+		},
+	],
 }
 
 export default card

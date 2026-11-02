@@ -86,6 +86,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They flock in great numbers. Though small, they flap their wings with great power.",
+		de: "Ihr Schwarm ist stets groß. Obwohl es kleine Pokémon sind, schwingen sie ihre Flügel mit enormer Kraft."
+	},
+
 	thirdParty: {
 		cardmarket: 311928,
 		tcgplayer: 149107

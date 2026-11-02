@@ -121,20 +121,32 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 85371,
+				cardmarket: 276514
+			},
+		},
+		{
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 85371,
+				cardmarket: 276514
+			},
 		},
 		{
 			type: "holo",
-			stamp: ["set-logo"]
+			stamp: ["national-championships"],
+			thirdParty: {
+				tcgplayer: 251243,
+				cardmarket: 449503
+			},
 		},
 		{
 			type: "holo",
-			stamp: ["national-championships"]
-		},
-		{
-			type: "holo",
-			stamp: ["national-championships", "staff"]
+			stamp: ["national-championships", "staff"],
 		}
-	]
+	],
 }
 
 export default card

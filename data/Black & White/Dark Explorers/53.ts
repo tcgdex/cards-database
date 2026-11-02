@@ -59,7 +59,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Wing Attack",
-				fr: "Cru-Aile"
+				fr: "Cru-Aile",
+				de: "Flügelschlag"
 			},
 
 			damage: 40,
@@ -76,10 +77,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280381,
-		tcgplayer: 83471
-	}
+	description: {
+		en: "A Pokémon that roamed the skies in the dinosaur era. Its teeth are like saw blades.",
+		de: "Dieses Pokémon flog zu Zeiten der Dinosaurier am Himmel. Seine Zähne sind wie Sägeblätter."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280381,
+				tcgplayer: 83471
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280381,
+				tcgplayer: 83471
+			}
+		},
+	],
 }
 
 export default card

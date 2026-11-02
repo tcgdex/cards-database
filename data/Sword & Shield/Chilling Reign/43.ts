@@ -73,23 +73,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
 	description: {
-		en: "Its nictitating membranes let it pick out foes' weak points so it can precisely blast them with water that shoots from its fingertips at Mach 3."
+		en: "Its nictitating membranes let it pick out foes' weak points so it can precisely blast them with water that shoots from its fingertips at Mach 3.",
+		de: "Die Wasserschüsse aus seinen Fingern erreichen Geschwindigkeiten von bis zu Mach 3. Mit seiner Nickhaut erkennt es Schwachpunkte des Gegners."
 	},
 
-	thirdParty: {
-		cardmarket: 567123,
-		tcgplayer: 241696
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567123,
+				tcgplayer: 241696
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567123,
+				tcgplayer: 241696
+			}
+		},
+	],
 }
 
 export default card

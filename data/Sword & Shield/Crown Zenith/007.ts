@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Sonnkern"
 	},
 
+	illustrator: "ryoma uratsuka",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 40,
@@ -35,20 +36,39 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It lives by drinking only dewdrops from under the leaves of plants. It is said that it eats nothing else.",
+		de: "Es ernährt sich ausschließlich von den Tautropfen, die von den Blättern über ihm hinabfallen."
 	},
 
-	thirdParty: {
-		cardmarket: 691724,
-		tcgplayer: 478053
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691724,
+				tcgplayer: 478053
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691724,
+				tcgplayer: 478053
+			}
+		},
+	],
 }
 
 export default card

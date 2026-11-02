@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Melmetal V"
 	},
 
+	illustrator: "sadaji",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 220,
@@ -39,7 +40,7 @@ const card: Card = {
 			es: "Puedes unir 1 carta de Energía Metal de tu mano a este Pokémon.",
 			it: "Puoi assegnare a questo Pokémon una carta Energia Metal dalla tua mano.",
 			pt: "Você pode ligar 1 carta de Energia Metal da sua mão a este Pokémon.",
-			de: "Du kannst 1 Metal-Energiekarte aus deiner Hand an dieses Pokémon anlegen."
+			de: "Du kannst 1 {M}-Energiekarte aus deiner Hand an dieses Pokémon anlegen."
 		},
 
 		damage: 50
@@ -58,19 +59,33 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 664589,
-		tcgplayer: 277019
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665270,
+				tcgplayer: 277019
+			}
+		},
+	],
 }
 
 export default card

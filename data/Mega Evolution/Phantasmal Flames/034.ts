@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Pawmot"
 	},
 
+	evolveFrom: {
+		en: "Pawmo",
+		fr: "Pohmotte",
+		es: "Pawmo",
+		'es-mx': "Pawmo",
+		de: "Pamamo",
+		it: "Pawmo",
+		pt: "Pawmo",
+	},
+
 	rarity: "Rare",
 	category: "Pokemon",
 
@@ -48,22 +58,48 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "This Pokémon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.",
+		fr: "D'ordinaire, ce Pokémon est plutôt calme, mais lorsqu'il se bat, il élimine ses adversaires avec des mouvements rapides comme l'éclair.",
+		de: "Dieses Pokémon ist für gewöhnlich sehr gelassen, doch sobald ein Kampf beginnt, streckt es den Gegner mit blitzschnellen Bewegungen zu Boden."
+	},
+
+	illustrator: "satoma",
 	variants: [
 		{
-			type: "holo"
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857609,
+				tcgplayer: 662212,
+				cardtrader: 356817
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857609,
-		tcgplayer: 662212
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857609,
+				tcgplayer: 662212,
+				cardtrader: 356817
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 891252,
+				tcgplayer: 696233
+			}
+		},
+	],	
 }
 
 export default card

@@ -56,6 +56,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.",
+	},
 
 	thirdParty: {
 		cardmarket: 281143

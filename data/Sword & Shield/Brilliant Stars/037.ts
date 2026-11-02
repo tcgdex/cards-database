@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Impoleon"
 	},
 
+	illustrator: "Kouki Saitou",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 160,
@@ -48,7 +49,7 @@ const card: Card = {
 			es: "Una vez durante tu turno, si este Pokémon está en tu pila de descartes y no tienes ninguna carta en tu mano, puedes poner este Pokémon en tu Banca. Si lo haces, roba 3 cartas.",
 			it: "Una sola volta durante il tuo turno, se questo Pokémon è nella tua pila degli scarti e non hai carte in mano, puoi mettere questo Pokémon nella tua panchina. Se lo fai, pesca tre carte.",
 			pt: "Uma vez durante o seu turno, se este Pokémon estiver na sua pilha de descarte e você não tiver cartas na sua mão, você poderá colocá-lo no seu Banco. Se fizer isto, compre 3 cartas.",
-			de: "Einmal während deines Zuges, wenn dieses Pokémon in deinem Ablagestapel ist und du keine Karten auf deiner Hand hast, kannst du dieses Pokémon auf deine Bank legen. Wenn du das machst, ziehe 3 Karten."
+			de: "Einmal während deines Zuges, wenn sich dieses Pokémon in deinem Ablagestapel befindet und du keine Karten auf deiner Hand hast, kannst du dieses Pokémon auf deine Bank legen. Wenn du das machst, ziehe 3 Karten."
 		}
 	}],
 
@@ -74,20 +75,44 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "The three horns that extend from its beak attest to its power. The leader has the biggest horns.",
+		de: "Die drei Hörner, die aus dem Schnabel wachsen, stehen für Kraft. Ein Anführer hat die größten Hörner."
 	},
 
-	thirdParty: {
-		cardmarket: 608487,
-		tcgplayer: 263736
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608487,
+				tcgplayer: 263736
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 730039
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608487,
+				tcgplayer: 263736
+			}
+		},
+	],
 }
 
 export default card

@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Roggenrola",
@@ -61,16 +55,29 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "When it detects a noise, it starts to move. The energy core inside it makes this Pokémon slightly warm to the touch."
+		en: "When it detects a noise, it starts to move. The energy core inside it makes this Pokémon slightly warm to the touch.",
+		de: "Es bewegt sich stets auf Geräuschquellen zu. Dank seines Energiekerns fühlt es sich immer leicht warm an, wenn man es berührt."
 	},
 
 	dexId: [524],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574134,
-		tcgplayer: 246883
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574134,
+				tcgplayer: 246883
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574134,
+				tcgplayer: 246883
+			}
+		},
+	],
 }
 
 export default card

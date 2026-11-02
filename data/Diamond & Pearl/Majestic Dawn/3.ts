@@ -96,6 +96,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
+		de: "Es kann andere in Schlaf versetzen und ihnen Träume geben. Es ist nur bei Neumond aktiv."
+	},
+
 	thirdParty: {
 		cardmarket: 278052,
 		tcgplayer: 84700

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		52,
-	],
+	dexId: [52],
 
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -69,27 +67,32 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It loves anything that shines. It especially adores coins that it picks up and secretly hoards."
+		en: "It loves anything that shines. It especially adores coins that it picks up and secretly hoards.",
+		de: "Es liebt alles Glänzende. Es hat eine Vorliebe für Münzen, die es aufliest und unbemerkt hortet."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87322,
+				cardmarket: 279047
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87322,
+				cardmarket: 279047
+			}
 		},
 		{
 			type: "normal",
-			stamp : ["snowflake"],
+			stamp: ["snowflake"],
 			languages: ["de"]
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279047,
-		tcgplayer: 87322
-	}
 }
 
 export default card

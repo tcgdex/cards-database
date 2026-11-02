@@ -4,7 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Veluza",
+		en: "Veluza",
+		fr: "Délestin",
+		es: "Veluza",
+		it: "Veluza",
+		pt: "Veluza",
+		de: "Agiluza"
   },
   illustrator: "Oswaldo KATO",
   rarity: "One Diamond",

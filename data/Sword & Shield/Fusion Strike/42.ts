@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 90,
 	types: ["Fire"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Oswaldo KATO",
 
 	description: {
-		en: "This Oricorio has drunk red nectar. If its Trainer gives the wrong order, this passionate Pokémon becomes fiercely angry."
+		en: "This Oricorio has drunk red nectar. If its Trainer gives the wrong order, this passionate Pokémon becomes fiercely angry.",
+		de: "Ein Choreogel, das roten Nektar geschlürft hat. Es neigt zur Theatralik. Gibt ihm sein Trainer einen falschen Befehl, macht es ihm eine Szene."
 	},
 
 	abilities: [{
@@ -71,17 +78,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582176,
-		tcgplayer: 253158
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582176,
+				tcgplayer: 253158
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582176,
+				tcgplayer: 253158
+			}
+		},
+	],
 }
 
 export default card

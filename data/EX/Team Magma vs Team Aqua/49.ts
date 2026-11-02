@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		170,
-	],
+	dexId: [170],
 
 	hp: 50,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Confuse Ray",
 				fr: "Onde folie",
-				de: "Confuse Ray"
+				de: "Konfustrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -50,7 +48,7 @@ const card: Card = {
 			name: {
 				en: "Wave Splash",
 				fr: "Grosse vague",
-				de: "Wave Splash"
+				de: "Wellenplatscher"
 			},
 
 			damage: 20,
@@ -72,22 +70,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276026,
-		tcgplayer: 89779
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275826,
+				tcgplayer: 89779
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275826,
+				tcgplayer: 89779
+			}
+		},
+	],
+
 }
 
 export default card

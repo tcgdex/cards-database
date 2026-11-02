@@ -65,18 +65,46 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715634,
+				tcgplayer: 497577,
+				cardtrader: 248816
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715634,
+				tcgplayer: 497577,
+				cardtrader: 248816
+			}
+		},
+	],
 
 	illustrator: "Shinya Komatsu",
 
-	thirdParty: {
-		cardmarket: 715634
-	}
+	description: {
+		en: "It is a flying transporter that carries small Pokémon in its beak. It bobs on the waves to rest its wings.",
+		de: "Es fungiert als fliegender Transporter, der kleine Pokémon in seinem Schnabel trägt. Um seine Flügel zu schonen, treibt es auf den Wellen."
+	},
 }
 
 export default card

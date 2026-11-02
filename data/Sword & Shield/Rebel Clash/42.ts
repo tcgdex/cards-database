@@ -91,23 +91,30 @@ const card: Card = {
 	types: ["Water"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill."
+		en: "It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill.",
+		de: "Ein Bote der Lüfte. Es bringt Eier und kleine Pokémon in seinem Schnabel in Sicherheit."
 	},
 
-	thirdParty: {
-		cardmarket: 457653,
-		tcgplayer: 213120
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457653,
+				tcgplayer: 213120
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457653,
+				tcgplayer: 213120
+			}
+		},
+	],
 }
 
 export default card

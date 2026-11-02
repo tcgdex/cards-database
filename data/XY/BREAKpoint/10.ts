@@ -57,6 +57,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes.",
+		de: "Es ist von Natur aus tapfer und vertrauenswürdig. Es scheut nicht vor starken Gegnern zurück."
+	},
+
 	thirdParty: {
 		cardmarket: 288185,
 		tcgplayer: 111513

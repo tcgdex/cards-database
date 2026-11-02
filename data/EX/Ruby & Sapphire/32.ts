@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		253,
-	],
+	dexId: [253],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Treecko",
-		fr: "Arcko"
+		fr: "Arcko",
+		de: "Geckarbor"
 	},
 
 	stage: "Stage1",
@@ -40,9 +39,9 @@ const card: Card = {
 			},
 			effect: {
 				en: "When you attach a Grass Energy card from your hand to Grovyle, remove all Special Conditions from Grovyle.",
-				fr: "Lorsque vous attachez une carte Énergie  de votre main à Massko, retirez-lui tous ses États Spéciaux.",
-				de: "Wenn du eine -Energiekarte von der Hand an Reptain anlegst, verlieren alle Speziellen Zustände auf Reptain ihre Wirkung."
-			},
+				fr: "Lorsque vous attachez une carte Énergie {G} de votre main à Massko, retirez-lui tous ses États Spéciaux.",
+				de: "Wenn du eine {G}-Energiekarte von der Hand an Reptain anlegst, verlieren alle Speziellen Zustände auf Reptain ihre Wirkung."
+			}
 		},
 	],
 
@@ -80,19 +79,24 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275680,
-		tcgplayer: 85936
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275680,
+				tcgplayer: 85936
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275680,
+				tcgplayer: 85936
+			}
 		},
-	]
+	],
+
 }
 
 export default card

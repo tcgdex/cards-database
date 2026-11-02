@@ -86,7 +86,7 @@ const card: Card = {
 				es: "Resplandor GX",
 				it: "Lumen-GX",
 				pt: "Relampejo GX",
-				de: "Beleuchten GX"
+				de: "Beleuchten-GX"
 			},
 			effect: {
 				en: "Your opponent reveals their hand. Add a card you find there to their Prize cards face down. (You can’t use more than 1 GX attack in a game.)",

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Gengar"
 	},
 
+	illustrator: "Narumi Sato",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -77,16 +78,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674075,
-		tcgplayer: 283941
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674075,
+				tcgplayer: 283941
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674075,
+				tcgplayer: 283941
+			}
+		},
+	],
 }
 
 export default card

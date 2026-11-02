@@ -4,7 +4,7 @@ import Set from '../Legends Awakened'
 const card: Card = {
 	name: {
 		en: "Tyrogue",
-		fr: "Debugant",
+		fr: "Débugant",
 		de: "Rabauz"
 	},
 
@@ -69,6 +69,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It is famous for its eagerness to fight and always nurses injuries from challenging larger foes.",
+		de: "Es ist bekannt für seine Kampfbegierde. Es erholt sich ständig von Verletzungen."
+	},
 
 	thirdParty: {
 		cardmarket: 278275,

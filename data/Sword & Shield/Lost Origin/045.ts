@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Salmagnis"
 	},
 
+	illustrator: "AKIRA EGAWA",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 110,
@@ -77,16 +78,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 674055,
-		tcgplayer: 283919
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674055,
+				tcgplayer: 283919
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674055,
+				tcgplayer: 283919
+			}
+		},
+	],
 }
 
 export default card

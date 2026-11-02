@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [484],
 
 	dexId: [
 		690,
@@ -61,6 +62,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It vanishes into seaweed and remains perfectly still to avoid attacks from large Pokémon. Rotten seaweed is its main food source.",
+		de: "Es versteckt sich regungslos zwischen Algen, um Angriffe von großen Pokémon zu vermeiden. Verfaulter Seetang ist seine bevorzugte Speise."
+	},
 
 	thirdParty: {
 		cardmarket: 408099,

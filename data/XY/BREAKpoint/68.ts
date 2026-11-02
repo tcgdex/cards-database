@@ -62,6 +62,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close.",
+		de: "Es nistet in kleinen Löchern in Höhlenwänden. Es springt Beute, die sich zu nah heranwagt, an."
+	},
+
 	thirdParty: {
 		cardmarket: 288243,
 		tcgplayer: 111607

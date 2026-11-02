@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Cyndaquil δ",
 		fr: "Héricendre δ",
-		de: "Feurigel"
+		de: "Feurigel δ"
 	},
 
 	illustrator: "Atsuko Nishida",

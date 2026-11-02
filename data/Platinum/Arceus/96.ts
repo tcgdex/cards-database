@@ -3,7 +3,7 @@ import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Arceus LV. X",
+		en: "Arceus LV.X",
 		fr: "Arceus",
 		de: "Arceus"
 	},
@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		493,
-	],
+	dexId: [493],
 	
 	hp: 120,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "LEVEL-UP",
@@ -36,7 +34,7 @@ const card: Card = {
 				en: "Arceus LV.X's type is the same type as its previous Level.",
 				fr: "Le type d'Arceus NIV.X est le même qu'au tour précédent.",
 				de: "Arceus LV.X hat denselben Typ wie sein vorheriges Level."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -54,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Discard a Lightning Energy and a Psychic Energy attached to Arceus.",
 				fr: "Défaussez une Énergie Lightning et une Énergie Psychic attachée à Arceus.",
-				de: "Lege 1 -Energie und 1 -Energie, die an Arceus angelegt sind, auf deinen Ablagestapel."
+				de: "Lege 1 {L}-Energie und 1 {P}-Energie, die an Arceus angelegt sind, auf deinen Ablagestapel."
 			},
 			damage: 100,
 
@@ -66,8 +64,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 83604
+			}
+		},
 	]
 }
 

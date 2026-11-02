@@ -4,7 +4,8 @@ import Set from '../POP Series 1'
 const card: Card = {
 	name: {
 		en: "Surskit",
-		fr: "Arakdo"
+		fr: "Arakdo",
+		de: "Gehweiher"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -12,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		283,
-	],
+	dexId: [283],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -31,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Bubble",
-				fr: "Écume"
+				fr: "Écume",
+				de: "Blubber"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -50,10 +51,16 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 277428,
-		tcgplayer: 89647
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89647,
+				cardmarket: 277428
+			},
+		},
+	],
+
 }
 
 export default card

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Riolu",
 		fr: "Riolu",
+		de: "Riolu"
 	},
 
 	stage: "Stage1",
@@ -42,6 +43,7 @@ const card: Card = {
 			name: {
 				en: "Kick",
 				fr: "Koud'Pied",
+				de: "Tritt"
 			},
 
 			damage: 30,
@@ -56,6 +58,7 @@ const card: Card = {
 			name: {
 				en: "Mach Cross",
 				fr: "Passage Éclair",
+				de: "Tempo-Cross"
 			},
 
 			damage: 70,
@@ -71,6 +74,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "A well-trained one can sense auras to identify and take in the feelings of creatures over half a mile away.",
+		de: "Ist es trainiert, spürt es Auren, um Gefühle entfernter Kreaturen zu erkennen und aufzunehmen."
+	},
 
 	thirdParty: {
 		cardmarket: 280817,

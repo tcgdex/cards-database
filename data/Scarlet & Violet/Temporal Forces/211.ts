@@ -4,6 +4,8 @@ import Set from "../Temporal Forces"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [16, 94],
+
 	name: {
 		en: "Morty's Conviction",
 		fr: "Conviction de Mortimer",
@@ -30,15 +32,16 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760841,
+				tcgplayer: 542932
+			}
+		},
 	],
 
 	illustrator: "Megumi Mizutani",
 
-	thirdParty: {
-		cardmarket: 760841
-	}
 }
 
 export default card

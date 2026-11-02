@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Toshinao Aoki",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [479],
 	hp: 70,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -71,13 +72,52 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 675983,
-		cardmarket: 869782
-	}
+	description: {
+		en: "There are several appliances that Rotom can inspirit, but the first one to be developed was the electric fan.",
+		fr: "Motisma est capable de prendre possession de différents types d'appareils ménagers, mais le premier à avoir été développé est le ventilateur.",
+		de: "Es gibt eine Reihe elektrischer Haushaltsgeräte, in die Rotom eindringen kann, doch das erste, das entwickelt wurde, war der Ventilator."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869782,
+			tcgplayer: 675983
+		}
+	},
+	{
+		type: "reverse",
+		foil: "duskball",
+		thirdParty: {
+			cardmarket: 870402,
+			tcgplayer: 676985
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870401,
+			tcgplayer: 677125
+		}
+	},
+],
 }
 
 export default card

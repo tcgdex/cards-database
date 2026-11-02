@@ -85,7 +85,7 @@ const card: Card = {
 				es: "Irse Alegremente GX",
 				it: "Folata Rapida-GX",
 				pt: "Mover da Brisa GX",
-				de: "Fortwehen GX"
+				de: "Fortwehen-GX"
 			},
 			effect: {
 				en: "Put any number of your Pokémon in play and all cards attached to them into your hand. (You can’t use more than 1 GX attack in a game.)",

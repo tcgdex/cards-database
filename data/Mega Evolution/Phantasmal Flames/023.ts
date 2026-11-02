@@ -52,22 +52,40 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "It searches for food by digging into the ground with its snout. Even frozen ground doesn't give it any trouble.",
+		fr: "Il creuse la terre avec le bout de son nez pour trouver de la nourriture. Même un sol gelé ne lui résiste pas.",
+		de: "Mit seiner Nase gräbt es nach Nahrung. Selbst gefrorener Boden bereitet ihm keine Probleme."
+	},
+
+	illustrator: "imoniii",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857598,
+				tcgplayer: 662230,
+				cardtrader: 356806
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857598,
-		tcgplayer: 662230
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857598,
+				tcgplayer: 662230,
+				cardtrader: 356806
+			}
+		},
+	],	
 }
 
 export default card

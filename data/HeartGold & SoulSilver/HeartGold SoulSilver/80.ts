@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		161,
-	],
+	dexId: [161],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Späher"
 			},
 			effect: {
-				en: "Look at your opponent’s hand.",
+				en: "Look at your opponent's hand.",
 				fr: "Regardez la main de votre adversaire.",
 				de: "Schau dir die Handkarten deines Gegners an."
 			},
@@ -67,22 +65,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A very cautious Pokémon, it raises itself up using its tail to get a better view of its surroundings."
+		en: "A very cautious Pokémon, it raises itself up using its tail to get a better view of its surroundings.",
+		de: "Ein sehr vorsichtiges Pokémon. Es stellt sich auf seinen Schweif, um die Umgebung zu überblicken."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89068,
+				cardmarket: 279052
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89068,
+				cardmarket: 279052
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279052,
-		tcgplayer: 89068
-	}
 }
 
 export default card

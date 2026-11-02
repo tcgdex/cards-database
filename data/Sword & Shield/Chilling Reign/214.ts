@@ -27,20 +27,20 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	illustrator: "Sanosuke Sakuma",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 567322,
-		tcgplayer: 241826
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 567322,
+				tcgplayer: 241826
+			}
+		},
+	],
 }
 
 export default card

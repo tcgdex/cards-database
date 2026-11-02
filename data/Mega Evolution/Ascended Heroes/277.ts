@@ -3,6 +3,7 @@ import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [1024],
 
 	name: {
 		en: "Pikachu ex",
@@ -14,9 +15,11 @@ const card: Card = {
 		pt: "Pikachu ex"
 	},
 
+	suffix: "ex",
 	illustrator: "James Turner",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
+	dexId: [25],
 	hp: 200,
 	types: ["Lightning"],
 	stage: "Basic",
@@ -71,13 +74,24 @@ const card: Card = {
 		damage: 300
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 676089,
-		cardmarket: 869887
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869887,
+				tcgplayer: 676089
+			}
+		}
+	],
 }
 
 export default card

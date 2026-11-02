@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Miniras"
 	},
 	illustrator: "Naoki Saito",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -78,6 +78,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It expresses its feelings by smacking its scales. Metallic sounds echo through the tall mountains where Jangmo-o lives.",
+		de: "Es übermittelt seine Gefühle durch das Rasseln seiner Schuppen, wodurch im Hochgebirge, in dem es lebt, ein metallisches Geräusch erhallt."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299576,
+				tcgplayer: 139097
+			}
+		}
+	],
 }
 
 export default card

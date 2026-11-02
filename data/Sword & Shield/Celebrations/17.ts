@@ -4,12 +4,6 @@ import Set from '../Celebrations'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Groudon",
@@ -71,15 +65,21 @@ const card: Card = {
 	regulationMark: "E",
 
 	description: {
-		en: "This legendary Pokémon is said to represent the land. It went to sleep after dueling Kyogre."
+		en: "This legendary Pokémon is said to represent the land. It went to sleep after dueling Kyogre.",
+		de: "Dieses Legendäre Pokémon soll das Land verkörpern. Es ist in einen Schlaf gefallen, nachdem es mit Kyogre gekämpft hat."
 	},
 
 	dexId: [383],
 
-	thirdParty: {
-		cardmarket: 576762,
-		tcgplayer: 250314
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 576762,
+				tcgplayer: 250314
+			}
+		},
+	],
 }
 
 export default card

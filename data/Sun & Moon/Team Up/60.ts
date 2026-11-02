@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It drifts through the sea searching for prey. Its poisonous tentacles break off sometimes, but after a while, they grow back.",
+		de: "Es treibt in Küstennähe im Wasser und sucht nach Beute. Seine giftigen Tentakel fallen ab und zu ab, wachsen aber mit der Zeit wieder nach."
+	},
+
 	thirdParty: {
 		cardmarket: 368990,
 		tcgplayer: 183838

@@ -72,6 +72,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Having four wings allows it to fly more quickly and quietly so it can sneak up on prey without its noticing.",
+	},
 }
 
 export default card

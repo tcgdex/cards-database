@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	suffix: "GX",
@@ -84,7 +85,7 @@ const card: Card = {
 				es: "Gran Floración GX",
 				it: "Fioritura Formidabile-GX",
 				pt: "Floração Grandiosa GX",
-				de: "Blütezeit GX"
+				de: "Blütezeit-GX"
 			},
 			effect: {
 				en: "For each of your Benched Basic Pokémon, search your deck for a card that evolves from that Pokémon and put it onto that Pokémon to evolve it. Then, shuffle your deck. (You can’t use more than 1 GX attack in a game.)",

@@ -22,21 +22,34 @@ const card: Card = {
 		es: "Una vez durante el turno de cada jugador, ese jugador puede descartar 1 carta de Energía Básica de su mano para poder robar una carta.",
 		it: "Una sola volta durante il turno di ciascun giocatore, quel giocatore può scartare una carta Energia base che ha in mano per pescare una carta.",
 		pt: "Uma vez durante o turno de cada jogador, aquele jogador poderá descartar uma carta de Energia Básica da própria mão para comprar uma carta.",
-		de: "Einmal während des Zuges jedes Spielers kann jener Spieler 1 Basis-Energiekarte aus seiner Hand auf seinen Ablagestapel legen, um 1 Karte zu ziehen."
+		de: "Einmal während des Zuges jedes Spielers kann jener Spieler 1 Basis-Energiekarte aus seiner Hand auf seinen Ablagestapel legen, um 1 Karte zu ziehen. Du kannst während deines Zuges nur 1 Stadionkarte spielen. Lege sie neben die Aktive Position, und lege sie auf den Ablagestapel, wenn eine andere Stadionkarte ins Spiel gebracht wird. Eine Stadionkarte mit demselben Namen kann nicht gespielt werden."
 	},
 
 	trainerType: "Stadium",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733752,
+				tcgplayer: 516719,
+				cardtrader: 261165
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733752,
+				tcgplayer: 516719,
+				cardtrader: 261165
+			}
+		},
+	],
 
 	illustrator: "Oswaldo KATO",
 
-	thirdParty: {
-		cardmarket: 733752
-	}
+	
 }
 
 export default card

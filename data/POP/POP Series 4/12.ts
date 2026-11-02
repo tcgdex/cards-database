@@ -4,7 +4,8 @@ import Set from '../POP Series 4'
 const card: Card = {
 	name: {
 		en: "Pidgey",
-		fr: "Roucool"
+		fr: "Roucool",
+		de: "Taubsi"
 	},
 
 	illustrator: "Hisao Nakamura",
@@ -12,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		16,
-	],
+	dexId: [16],
 
 	hp: 40,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -32,11 +31,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Attack",
-				fr: "Vive-attaque"
+				fr: "Vive-attaque",
+				de: "Ruckzuckhieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				fr: "Lancez 1 pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires."
+				fr: "Lancez 1 pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -45,30 +46,28 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Lightning"
+			type: "Lightning",
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
-
 	retreat: 1,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88049,
+				cardmarket: 277477
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277477,
-		tcgplayer: 88049
-	}
 }
 
 export default card

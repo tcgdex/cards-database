@@ -67,6 +67,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Its programming was modified to enable work in alien dimensions. It did not work as planned.",
+	},
 }
 
 export default card

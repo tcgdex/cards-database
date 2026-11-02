@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its steps are staggering and unsteady, but Spinda thinks it's walking in a straight line.",
+		de: "Pandir hat einen unsicheren, schwankenden Gang, obwohl es sich große Mühe gibt, geradeaus zu gehen."
+	},
+
 	thirdParty: {
 		cardmarket: 295414,
 		tcgplayer: 126974

@@ -22,6 +22,16 @@ const card: Card = {
 		id: "Tiap kali Pokémon Bertarung sendiri KO karena menerima kerusakan akibat serangan dari Pokémon lawan, pemain dapat memilih 1 lembar Energi Dasar yang dikenakan pada Pokémon tersebut, lalu memindahkannya ke Pokémon yang mengenakan kartu ini."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 693039,
+				tcgplayer: 567189,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "G"
 }

@@ -4,6 +4,8 @@ import Set from "../Fantastical Parade"
 const card: Card = {
 	set: Set,
 
+	dexId: [260],
+
 	name: {
 		en: "Mega Swampert ex"
 	},
@@ -16,10 +18,6 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Marshtomp"
-	},
-
-	description: {
-		en: "Its arms are hard as rock. With one swing, it can\nbreak an enormous boulder into pieces."
 	},
 
 	stage: "Stage2",

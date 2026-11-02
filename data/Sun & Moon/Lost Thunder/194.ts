@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Esta carta proporciona 1 Energía Colorless.\n\nEl Pokémon al que esté unida esta carta puede usar cualquier ataque de sus Evoluciones anteriores. (Sigues necesitando la Energía necesaria para usar cada ataque).",
 		it: "Questa carta fornisce Energia Colorless.\n\nIl Pokémon a cui è assegnata questa carta può usare gli attacchi dei suoi stadi evolutivi precedenti. Devi comunque avere l’Energia necessaria per usare quegli attacchi.",
 		pt: "Esta carta fornece Energia Colorless.\n\nO Pokémon ao qual esta carta está ligada pode usar qualquer ataque de suas Evoluções anteriores (você ainda precisa da Energia necessária para usar cada ataque).",
-		de: "Diese Karte liefert Colorless-Energie.\n\nDas Pokémon, an das diese Karte angelegt ist, kann die Attacken aus vorangegangenen Entwicklungen einsetzen. (Du benötigst jedoch die jeweils für die Attacke notwendige Energie.)"
+		de: "Das Pokémon, an das diese Karte angelegt ist, kann die Attacken aus vorangegangenen Entwicklungen einsetzen. (Du benötigst jedoch die jeweils für die Attacke notwendige Energie.)"
 	},
 
 	energyType: "Special",

@@ -22,22 +22,26 @@ const card: Card = {
 		es: "Pon, en cualquier combinación, hasta 3 cartas de Pokémon y de Energía Básica de tu pila de descartes en tu baraja y barájalas todas.",
 		it: "Rimischia fino a tre Pokémon e carte Energia base in qualsiasi combinazione dalla tua pila degli scarti nel tuo mazzo.",
 		pt: "Embaralhe até 3 cartas de Pokémon e de Energia Básica da sua pilha de descarte no seu baralho em qualquer combinação.",
-		de: "Mische eine beliebige Kombination aus bis zu 3 Pokémon und Basis-Energiekarten aus deinem Ablagestapel in dein Deck."
+		de: "Mische eine beliebige Kombination aus bis zu 3 Pokémon und Basis-Energiekarten aus deinem Ablagestapel in dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715751,
+				tcgplayer: 497697,
+				cardtrader: 248929
+			}
+		},
+	],
 
 	illustrator: "Toyste Beach",
 
-	thirdParty: {
-		cardmarket: 715751
-	}
+	
 }
 
 export default card

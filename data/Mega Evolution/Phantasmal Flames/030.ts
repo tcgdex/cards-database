@@ -48,22 +48,40 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "This gluttonous Pokémon only assists people with their work because it wants treats. As it runs, it crackles with electricity.",
+		fr: "Ce glouton assiste les humains dans leur travail en échange de friandises. Il court sans arrêt, le corps enveloppé d'électricité.",
+		de: "Im Austausch gegen Leckerlis hilft dieser kleine Vielfraß Menschen bei der Arbeit. Beim Rennen wird es von knisternder Elektrizität umhüllt."
+	},
+
+	illustrator: "Ayako Ozaki",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857605,
+				tcgplayer: 662242,
+				cardtrader: 356813
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857605,
-		tcgplayer: 662242
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857605,
+				tcgplayer: 662242,
+				cardtrader: 356813
+			}
+		},
+	],	
 }
 
 export default card

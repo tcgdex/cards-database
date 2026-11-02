@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 5 cartas.",
 		it: "Metti le carte che hai in mano nel tuo mazzo e rimischialo. Poi pesca cinque carte.",
 		pt: "Embaralhe sua mão em seu baralho. Em seguida, compre 5 cards.",
-		de: "Mische deine Handkarten in dein Deck. Ziehe anschließend 5 Karten."
+		de: "Mische deine Handkarten in dein Deck. Ziehe anschließend 5 Karten. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	thirdParty: {

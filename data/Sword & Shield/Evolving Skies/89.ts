@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Palpitoad",
@@ -70,16 +64,29 @@ const card: Card = {
 	},
 
 	description: {
-		en: "On occasion, their cries are sublimely pleasing to the ear. Palpitoad with larger lumps on their bodies can sing with a wider range of sounds."
+		en: "On occasion, their cries are sublimely pleasing to the ear. Palpitoad with larger lumps on their bodies can sing with a wider range of sounds.",
+		de: "Gelegentlich singt es sehr schön. Je größer die Fortsätze an seinem Körper ausgebildet sind, desto ausgeprägter fällt sein Stimmumfang aus."
 	},
 
 	dexId: [536],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574137,
-		tcgplayer: 246890
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574137,
+				tcgplayer: 246890
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574137,
+				tcgplayer: 246890
+			}
+		},
+	],
 }
 
 export default card

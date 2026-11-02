@@ -4,6 +4,7 @@ import Set from "../Destined Rivals"
 const card: Card = {
 	dexId: [510],
 	set: Set,
+	cameoDexIds: [302],
 
 	name: {
 		en: "Marnie's Liepard",
@@ -59,21 +60,31 @@ const card: Card = {
 		damage: "70+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 826005,
+				tcgplayer: 632939
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 826005,
+				tcgplayer: 632939
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826005
-	}
 }
 
 export default card

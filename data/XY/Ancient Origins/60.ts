@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [704, 705],
 
 	dexId: [
 		706,
@@ -97,6 +98,10 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "It attacks with retractable horns. It throws a punch that's the equivalent of the force of a hundred pro boxers.",
+	},
 
 	thirdParty: {
 		cardmarket: 284241,

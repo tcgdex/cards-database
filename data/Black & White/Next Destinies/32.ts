@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Vanillite",
 		fr: "Sorbébé",
+		de: "Gelatini"
 	},
 
 	stage: "Stage1",
@@ -41,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Icy Snow",
 				fr: "Verglas",
+				de: "Eisiger Schnee"
 			},
 
 			damage: 20,
@@ -55,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Icy Wind",
 				fr: "Vent Glace",
+				de: "Eissturm"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				de: "Wirf 1 Münze. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt."
 			},
 			damage: 50,
 
@@ -74,10 +78,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 280257,
-		tcgplayer: 90264
-	}
+	description: {
+		en: "Snowy mountains are this Pokémon's habitat. During an ancient ice age, they moved to southern areas.",
+		de: "Es lebt auf schneebedeckten Bergen. Vor vielen Jahren fand es während einer Eiszeit seinen Weg in den Süden."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280257,
+				tcgplayer: 90264
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280257,
+				tcgplayer: 90264
+			}
+		},
+	],
 }
 
 export default card

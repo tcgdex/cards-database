@@ -63,18 +63,42 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "What appears to be drool is actually sweet honey. It is very sticky and clings stubbornly if touched.",
+		de: "Was wie Speichel aussieht, ist eigentlich Honig. Er ist sehr klebrig und wenn man ihn berührt, bekommt man ihn nicht mehr ab."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725082,
+				tcgplayer: 509653,
+				cardtrader: 255562
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725082,
+				tcgplayer: 509653,
+				cardtrader: 255562
+			}
+		},
+	],
 
 	illustrator: "Haru Akasaka",
 
-	thirdParty: {
-		cardmarket: 725082
-	}
+	
 }
 
 export default card

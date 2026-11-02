@@ -65,23 +65,38 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
+	description: {
+		en: "It will always obey the commands of a skilled Trainer. Its behavior arises from its living in packs in ancient times.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760736,
+				tcgplayer: 542850
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760736,
+				tcgplayer: 542850
+			}
+		},
 	],
 
 	illustrator: "akagi",
 
-	thirdParty: {
-		cardmarket: 760736
-	}
 }
 
 export default card

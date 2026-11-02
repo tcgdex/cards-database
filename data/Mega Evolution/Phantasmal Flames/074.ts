@@ -48,22 +48,46 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "Duraludon's body is comprised of a special metal that's lightweight and scratch resistant. It's also smooth, as though it was given a mirror finish.",
+		fr: "Son corps est composé d'un métal spécial aussi lisse que la surface d'un miroir. Il est léger et résiste aux rayures.",
+		de: "Sein Körper, der aus einem speziellen Metall besteht, ist kratzfest, leicht und so glatt wie ein hochglanzpolierter Spiegel."
+	},
+
+	illustrator: "Shinji Kanda",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857649,
+				tcgplayer: 662154,
+				cardtrader: 356860
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857649,
-		tcgplayer: 662154
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857649,
+				tcgplayer: 662154,
+				cardtrader: 356860
+			}
+		},
+	],	
 }
 
 export default card

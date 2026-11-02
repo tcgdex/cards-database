@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Zinnia's Resolve",
@@ -29,17 +23,22 @@ const card: Card = {
 		es: "Puedes jugar esta carta solo si descartas otras 2 cartas de tu mano.\nRoba 1 carta por cada uno de los Pokémon en juego de tu rival.",
 		it: "Puoi giocare questa carta solo se scarti altre due carte che hai in mano.\nPesca una carta per ogni Pokémon del tuo avversario in gioco.",
 		pt: "Você só pode jogar esta carta se descartar 2 outras cartas da sua mão.\nCompre 1 carta para cada um dos Pokémon do seu oponente em jogo.",
-		de: "Du kannst diese Karte nur spielen, wenn du 2 andere Karten aus deiner Hand auf deinen Ablagestapel legst.\nZiehe 1 Karte für jedes Pokémon deines Gegners im Spiel."
+		de: "Du kannst diese Karte nur spielen, wenn du 2 andere Karten aus deiner Hand auf deinen Ablagestapel legst. Ziehe 1 Karte für jedes Pokémon deines Gegners im Spiel. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	illustrator: "Taira Akitsu",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574261,
-		tcgplayer: 246799
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574261,
+				tcgplayer: 246799
+			}
+		},
+	],
 }
 
 export default card

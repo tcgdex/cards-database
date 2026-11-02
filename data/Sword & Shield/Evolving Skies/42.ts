@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Tympole",
@@ -49,16 +43,29 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It uses sound waves to communicate with others of its kind. People and other Pokémon species can't hear its cries of warning."
+		en: "It uses sound waves to communicate with others of its kind. People and other Pokémon species can't hear its cries of warning.",
+		de: "Es kommuniziert mit seinen Artgenossen über Schallwellen. Seine Warnrufe sind für Menschen und andere Pokémon nicht hörbar."
 	},
 
 	dexId: [535],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574066,
-		tcgplayer: 246858
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574066,
+				tcgplayer: 246858
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574066,
+				tcgplayer: 246858
+			}
+		},
+	],
 }
 
 export default card

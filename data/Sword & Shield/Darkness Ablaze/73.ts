@@ -82,23 +82,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Though they're still only babies, there's psychic power stored in their ribbonlike feelers, and sometimes they use that power to fight."
+		en: "Though they're still only babies, there's psychic power stored in their ribbonlike feelers, and sometimes they use that power to fight.",
+		de: "Es ist zwar noch ein Baby, aber es weiß sich mit den Psycho-Kräften, die seinen schleifenförmigen Fühlern innewohnen, durchaus zu wehren."
 	},
 
-	thirdParty: {
-		cardmarket: 483244,
-		tcgplayer: 219449
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483244,
+				tcgplayer: 219449
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483244,
+				tcgplayer: 219449
+			}
+		},
+	],
 }
 
 export default card

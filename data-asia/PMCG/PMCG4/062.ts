@@ -4,9 +4,10 @@ import Set from "../PMCG4"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "これがチームロケットが来ます！",
+		ja: "ロケット団参上!",
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Secret Rare",
 	category: "Trainer",
 
@@ -14,6 +15,12 @@ const card: Card = {
 		{
 			type: "holo",
 		},
+				{
+						type: "normal",
+						thirdParty: {
+								tcgplayer: 575757
+						},
+				}
 	],
 };
 

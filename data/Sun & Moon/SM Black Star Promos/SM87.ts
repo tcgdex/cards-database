@@ -11,13 +11,16 @@ const card: Card = {
 		de: "Latias"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
 	dexId: [
 		380,
 	],
+
+	cameoDexIds: [380, 381],
+
 	hp: 100,
 	types: [
 		"Psychic",
@@ -82,6 +85,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It communicates using telepathy. Its body is covered in down that refracts light to make it invisible.",
+		de: "Es kommuniziert durch Telepathie. Sein Daunenkleid bricht das Licht, sodass es unsichtbar wird."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 312558,
+				tcgplayer: 152609
+			}
+		}
+	],
 }
 
 export default card

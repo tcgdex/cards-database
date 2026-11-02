@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Nincada",
 		fr: "Ningale",
+		de: "Nincada"
 	},
 
 	stage: "Stage1",
@@ -81,6 +82,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "A most peculiar Pokémon that somehow appears in a Poké Ball when a Nincada evolves.",
+		de: "Ein sehr spezielles Pokémon, das irgendwie in einem Pokéball auftaucht, wenn Nincada sich entwickelt."
+	},
 
 	thirdParty: {
 		cardmarket: 365732,

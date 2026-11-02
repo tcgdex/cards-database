@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gogoat"
+		en: "Gogoat",
+		fr: "Chevroum"
 	},
 
 	illustrator: "sowsow",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Skiddo"
+		en: "Skiddo",
+		fr: "Cabriolaine"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Double-Edge"
+			en: "Double-Edge",
+			fr: "Damoclès"
 		},
 
 		damage: 100,
 		cost: ["Grass", "Grass", "Colorless"],
 
 		effect: {
-			en: "This Pokémon also does 20 damage to itself."
+			en: "This Pokémon also does 20 damage to itself.",
+			fr: "Ce Pokémon s'inflige aussi 20 dégâts."
 		}
 	}],
 

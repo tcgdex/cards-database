@@ -86,6 +86,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It usually lives underground. It searches for food while boring its way through the ground at 50 miles per hour.",
+		de: "Es lebt gewöhnlich unter der Erde. Während es sich mit 80 km/h durchs Erdreich bohrt, sucht es nach Nahrung."
+	},
+
 	thirdParty: {
 		cardmarket: 361316,
 		tcgplayer: 170893

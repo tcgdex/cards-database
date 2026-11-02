@@ -4,6 +4,7 @@ import Set from "../Temporal Forces"
 const card: Card = {
 	dexId: [388],
 	set: Set,
+	cameoDexIds: [183, 396],
 
 	name: {
 		en: "Grotle",
@@ -65,20 +66,31 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "H",
 
+	description: {
+		en: "It lives along water in forests. In the daytime, it leaves the forest to sunbathe its treed shell.",
+	},
+
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760794,
+				tcgplayer: 542885
+			}
+		},
 	],
 
 	illustrator: "Oswaldo KATO",
 
-	thirdParty: {
-		cardmarket: 760794
-	}
 }
 
 export default card

@@ -64,6 +64,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
+		de: "Trotz seiner geringen Größe ist es stark. Es kann einen Erwachsenen mühelos auf dem Rücken tragen."
+	},
+
 	thirdParty: {
 		cardmarket: 365748,
 		tcgplayer: 178924

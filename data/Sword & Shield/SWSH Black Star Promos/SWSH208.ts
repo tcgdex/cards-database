@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Magnezone"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Metal"],
@@ -67,16 +67,38 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
 	description: {
 		en: "Some say that Magnezone receives signals from space via the antenna on its head and that it's being controlled by some mysterious being."
 	},
-
-	thirdParty: {
-		cardmarket: 611339
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 611339,
+				tcgplayer: 273158
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"]
+		},
+	],
 }
 
 export default card

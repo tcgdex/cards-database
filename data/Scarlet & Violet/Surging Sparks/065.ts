@@ -64,30 +64,44 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
 	variants: [
 		{
-			type: "normal"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 794346,
+				tcgplayer: 590071
+			}
 		},
 		{
-			type: "reverse"
-		},
-		{
-			type: "holo"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794346,
+				tcgplayer: 590071
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["player-rewards-program"]
+			thirdParty: {
+				cardmarket: 799718,
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"],
 		}
 	],
 
 	illustrator: "Souichirou Gunjima",
-
-	thirdParty: {
-		cardmarket: 794346
-	}
+	
 }
 
 export default card

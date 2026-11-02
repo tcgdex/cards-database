@@ -4,6 +4,7 @@ import Set from "../Paradox Rift"
 const card: Card = {
 	dexId: [458],
 	set: Set,
+	cameoDexIds: [120],
 
 	name: {
 		en: "Mantyke",
@@ -40,19 +41,34 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
+	description: {
+		en: "It swims along with a school of Remoraid, and they'll all fight together to repel attackers.",
+		de: "Es mischt sich unter Remoraid-Schwärme und schwimmt mit ihnen. Werden diese angegriffen, kämpft es gemeinsam an ihrer Seite."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740732,
+				tcgplayer: 523870,
+				cardtrader: 265584
+			}
+		},
+	],
 
 	illustrator: "rika",
 
-	thirdParty: {
-		cardmarket: 740732
-	}
+	
 }
 
 export default card

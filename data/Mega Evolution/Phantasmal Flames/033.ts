@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Pawmo"
 	},
 
+	evolveFrom: {
+		en: "Pawmi",
+		fr: "Pohm",
+		es: "Pawmi",
+		'es-mx': "Pawmi",
+		de: "Pamo",
+		it: "Pawmi",
+		pt: "Pawmi",
+	},
+
 	rarity: "Common",
 	category: "Pokemon",
 
@@ -38,22 +48,40 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "When its group is attacked, Pawmo is the first to leap into battle, defeating enemies with a fighting technique that utilizes electric shocks.",
+		fr: "Quand on attaque son groupe, ce Pokémon est le premier à riposter. Il défait ses adversaires avec un art martial qui repose sur l'électricité.",
+		de: "Wird seine Kolonie angegriffen, stürzt es sich sofort in den Kampf und besiegt den Feind mit Kampftechniken, die auf Elektroschocks setzen."
+	},
+
+	illustrator: "Taiga Kayama",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857608,
+				tcgplayer: 662211,
+				cardtrader: 356816
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857608,
-		tcgplayer: 662211
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857608,
+				tcgplayer: 662211,
+				cardtrader: 356816
+			}
+		},
+	],	
 }
 
 export default card

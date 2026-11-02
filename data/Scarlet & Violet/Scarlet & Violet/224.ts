@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Growlithe",
-		fr: "Caninos"
+		fr: "Caninos",
+		de: "Fukano"
 	},
 
 	stage: "Stage1",
@@ -72,14 +73,22 @@ const card: Card = {
 		damage: 250
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 
 	thirdParty: {

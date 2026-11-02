@@ -65,7 +65,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		fr: "La crinière et la queue ardentes lui donnant sa superbe poussent une heure après sa naissance."
+		en: "About an hour after birth, its fiery mane and tail grow out, giving it an impressive appearance.",
+		fr: "La crinière et la queue ardentes lui donnant sa superbe poussent une heure après sa naissance.",
+		de: "Bereits eine Stunde nach seiner Geburt wachsen seine feurige Mähne und sein feuriger Schweif."
 	},
 
 	thirdParty: {

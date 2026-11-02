@@ -77,23 +77,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed."
+		en: "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed.",
+		de: "Sein riesiger Kiefer hat sich aus stählernen Hörnern entwickelt. Mit ihm beißt es seine Gegner."
 	},
 
-	thirdParty: {
-		cardmarket: 545581,
-		tcgplayer: 234186
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545581,
+				tcgplayer: 234186
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545581,
+				tcgplayer: 234186
+			}
+		},
+	],
 }
 
 export default card

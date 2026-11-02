@@ -69,6 +69,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has feuded with SEVIPER for many generations. Its sharp claws are its biggest weapons.",
+		de: "Seit Generationen ist es mit VIPITIS verfeindet. Seine scharfen Klauen sind seine stärksten Waffen."
+	},
+
 	thirdParty: {
 		cardmarket: 277961,
 		tcgplayer: 90706

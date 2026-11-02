@@ -23,7 +23,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Weepinbell"
+		en: "Weepinbell",
+		fr: "Boustiflor"
 	},
 
 	abilities: [{

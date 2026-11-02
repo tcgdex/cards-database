@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Scraggy",
 		fr: "Baggiguane",
+		de: "Zurrokex"
 	},
 
 	stage: "Stage1",
@@ -93,6 +94,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "This Pokémon may be rude, but it takes very good care of its family, its friends, and its turf.",
+		de: "Diesem ungestümen Pokémon liegen Freunde, Familie und Revier sehr am Herzen."
+	},
 
 	thirdParty: {
 		cardmarket: 388487,

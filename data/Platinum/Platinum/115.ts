@@ -13,29 +13,40 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [436],
+
 	effect: {
+		en: "Search your discard pile for a Pokémon, show it to your opponent, and put it into your hand.",
 		fr: "Choisissez un Pokémon dans votre pile de défausse, montrez-le à votre adversaire et placez-le dans votre main.",
-		de: "Search your discard pile for a Pokémon, show it to your opponent, and put it into your hand."
+		de: "Durchsuche deinen Ablagestapel nach 1 Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand."
 	},
 
 	trainerType: "Item",
 
-	thirdParty: {
-		cardmarket: 278536
-	},
-
-	variants:[
-		{
-			type:"normal"
+	variants: [		{
+			type:"normal",
+			thirdParty: {
+				cardmarket: 278536,
+				tcgplayer: 88233
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278536,
+				tcgplayer: 88233
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["mychael-bryan"]
+			stamp: ["mychael-bryan"],
+			thirdParty: {
+				tcgplayer: 480098
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Blaziken ex",
 		fr: "Brasegali ex",
-		de: "Lohgock ex"
+		de: "Lohgock-ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -13,17 +13,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		257,
-	],
+	dexId: [257],
 
 	hp: 150,
 
+	stage: "Stage2",
 	types: [
-		"Fire",
+		"Fire"
 	],
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
@@ -34,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Blaze Kick",
 				fr: "Pied Brûleur",
-				de: "Blaze Kick"
+				de: "Flammenkick"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If tails, this attack does 30 damage and the Defending Pokémon is now Burned.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires. Si c'est pile, cette attaque inflige 30 dégâts et le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If tails, this attack does 30 damage and the Defending Pokémon is now Burned."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu. Bei „Zahl“ ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: "30+",
 
@@ -54,12 +53,12 @@ const card: Card = {
 			name: {
 				en: "Volcanic Ash",
 				fr: "Cendres volcaniques",
-				de: "Volcanic Ash"
+				de: "Vulkanasche"
 			},
 			effect: {
 				en: "Discard 2 Fire Energy attached to Blaziken ex and then choose 1 of your opponent's Pokémon. This attack does 100 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Défaussez 2 Énergies  attachées à Brasegali ex puis choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 100 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Discard 2  Energy attached to Blaziken ex and then choose 1 of your opponent's Pokémon. This attack does 100 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				de: "Lege 2 an Lohgock ex angelegte {R}-Energien auf deinen Ablagestapel und wähle dann ein Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 100 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -76,23 +75,28 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276066,
-		tcgplayer: 83912
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275866,
+				tcgplayer: 83912
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["chris-fulop"]
+			stamp: ["chris-fulop"],
+			thirdParty: {
+				cardmarket: 871796,
+				tcgplayer: 477368
+			}
 		}
-	]
+	],
+
 }
 
 export default card

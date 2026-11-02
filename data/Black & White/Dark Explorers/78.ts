@@ -36,7 +36,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Scratch",
-				fr: "Griffe"
+				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 20,
@@ -50,7 +51,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Metal Claw",
-				fr: "Griffe Acier"
+				fr: "Griffe Acier",
+				de: "Metallklaue"
 			},
 
 			damage: 40,
@@ -74,10 +76,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280406,
-		tcgplayer: 87969
-	}
+	description: {
+		en: "They fight at Bisharp's command. They cling to their prey and inflict damage by sinking their blades into it.",
+		de: "Im Kampf folgt es den Befehlen von Caesurio. Es nimmt sein Opfer in die Zange und verletzt es mit seinen Klingen."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280406,
+				tcgplayer: 87969
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280406,
+				tcgplayer: 87969
+			}
+		},
+	],
 }
 
 export default card

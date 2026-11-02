@@ -51,23 +51,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "If one gets angry, all the others around it will get angry, so silence is a rare visitor in a troop of Mankey."
+		en: "If one gets angry, all the others around it will get angry, so silence is a rare visitor in a troop of Mankey.",
+		de: "Wird es wütend, färbt das auch auf seine Kameraden ab. In einer Schar von Menki kehrt daher niemals Ruhe ein."
 	},
 
-	thirdParty: {
-		cardmarket: 545446,
-		tcgplayer: 234242
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545446,
+				tcgplayer: 234242
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545446,
+				tcgplayer: 234242
+			}
+		},
+	],
 }
 
 export default card

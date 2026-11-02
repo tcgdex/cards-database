@@ -24,6 +24,22 @@ const card: Card = {
 		'zh-cn': "選擇1隻自己的場上寶可夢，放回手牌。（寶可夢以外的卡全部丟棄。）"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803288,
+				tcgplayer: 602626,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602627,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }

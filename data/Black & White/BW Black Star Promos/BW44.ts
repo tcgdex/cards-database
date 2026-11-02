@@ -67,6 +67,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It generates powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
+	},
 }
 
 export default card

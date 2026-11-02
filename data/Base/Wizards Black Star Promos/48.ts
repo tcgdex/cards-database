@@ -56,12 +56,22 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.",
+	},
 
 	variants: [
 		{
 			type: "normal",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275467,
+				tcgplayer: 83648
+			}
+		},
+	],
 }
 
 export default card

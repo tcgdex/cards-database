@@ -22,21 +22,34 @@ const card: Card = {
 		es: "Roba 3 cartas.",
 		it: "Pesca tre carte.",
 		pt: "Compre 3 cartas.",
-		de: "Ziehe 3 Karten."
+		de: "Ziehe 3 Karten. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751621,
+				tcgplayer: 534444,
+				cardtrader: 274266
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751621,
+				tcgplayer: 534444,
+				cardtrader: 274266
+			}
+		},
+	],
 
 	illustrator: "Sanosuke Sakuma",
 
-	thirdParty: {
-		cardmarket: 751621
-	}
+	
 }
 
 export default card

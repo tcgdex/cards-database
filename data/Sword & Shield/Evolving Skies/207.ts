@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Gyarados VMAX",
@@ -42,12 +36,14 @@ const card: Card = {
 
 		name: {
 			en: "Hyper Beam",
-			fr: "Ultralaser"
+			fr: "Ultralaser",
+			de: "Hyperstrahl"
 		},
 
 		effect: {
 			en: "Discard an Energy from your opponent's Active Pokémon.",
-			fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire."
+			fr: "Défaussez une Énergie du Pokémon Actif de votre adversaire.",
+			de: "Lege 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
 		},
 
 		damage: 120
@@ -56,7 +52,8 @@ const card: Card = {
 
 		name: {
 			en: "Max Tyrant",
-			fr: "Tyranomax"
+			fr: "Tyranomax",
+			de: "Dyna-Tyrann"
 		},
 
 		damage: 240
@@ -70,10 +67,16 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574053,
-		tcgplayer: 246726
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 574265,
+				tcgplayer: 246726
+			}
+		},
+	],
 }
 
 export default card

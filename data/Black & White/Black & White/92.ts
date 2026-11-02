@@ -22,15 +22,27 @@ const card: Card = {
 		es: "Pon 2 cartas de Energía Básica de tu pila de descartes en tu mano.",
 		it: "Prendi due carte Energia base dalla tua pila degli scarti e aggiungile a quelle che hai in mano.",
 		pt: "Coloque 2 cards de Energia básica da sua pilha de descarte em sua mão.",
-		de: "Nimm 2 Basis-Energiekarten von deinem Ablagestapel auf deine Hand."
+		de: "Nimm 2 Basis-Energiekarten von deinem Ablagestapel auf deine Hand. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 
-	thirdParty: {
-		cardmarket: 279830,
-		tcgplayer: 85230
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279830,
+				tcgplayer: 85230
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279830,
+				tcgplayer: 85230
+			}
+		},
+	],
 }
 
 export default card

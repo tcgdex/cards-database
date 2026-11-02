@@ -63,10 +63,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299502,
-		tcgplayer: 138597
-	}
+	description: {
+		en: "It lies around all day, becoming active near dusk. At night, it wanders the city in search of loose change.",
+		de: "Tagsüber ist es faul und schläft ständig. Erst nach Sonnenuntergang wird es aktiv und durchstöbert die Stadt nach Münzen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299502,
+				tcgplayer: 138597
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299502,
+				tcgplayer: 138597
+			}
+		},
+	],
 }
 
 export default card

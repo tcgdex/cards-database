@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Paras",
 		fr: "Paras",
+		de: "Paras"
 	},
 
 	stage: "Stage1",
@@ -93,6 +94,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "The large mushroom on its back controls it. It often fights over territory with Shiinotic.",
+		de: "Parasek wird von dem Pilz auf seinen Rücken kontrolliert. Es ist oft mit Lamellux in Revierstreitigkeiten verstrickt."
+	},
 
 	thirdParty: {
 		cardmarket: 295310,

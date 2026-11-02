@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Grovyle",
 		fr: "Massko",
+		de: "Reptain"
 	},
 
 	stage: "Stage2",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "As often as you like during your turn (before your attack), move a Grass Energy card attached to 1 of your Pokémon to another of your Pokémon. This power can't be used if Sceptile is affected by a Special Condition.",
 				fr: "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), déplacez une Énergie Grass attachée à 1 de vos Pokémon sur 1 autre de vos Pokémon. Ce pouvoir ne peut pas être utilisé si Jungko est affecté par un État Spécial.",
-				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 -Energiekarte, die an 1 deiner Pokémon angelegt ist, an ein anderes deiner Pokémon anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Gewaldro von einem Speziellen Zustand betroffen ist."
+				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 {G}-Energiekarte, die an 1 deiner Pokémon angelegt ist, an ein anderes deiner Pokémon anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Gewaldro von einem Speziellen Zustand betroffen ist."
 			},
 		},
 	],

@@ -4,7 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Houndoom",
-		fr: "Hypotrempe",
+		fr: "Démolosse",
 		de: "Hundemon"
 	},
 
@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		229,
-	],
+	dexId: [229],
 
 	hp: 70,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	evolveFrom: {
 		en: "Houndour",
-		fr: "Malosse"
+		fr: "Malosse",
+		de: "Hunduster"
 	},
 
 	stage: "Stage1",
@@ -39,12 +38,12 @@ const card: Card = {
 			name: {
 				en: "Feint Attack",
 				fr: "Feinte",
-				de: "Feint Attack"
+				de: "Finte"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.",
 				fr: "Choisissez un des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet.",
-				de: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness, resistance, Poke-Powers, Poke-Bodies, or any other effects on that Pokémon."
+				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 20 Schadenspunkte zu. Schwäche, Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
 			},
 
 		},
@@ -57,12 +56,12 @@ const card: Card = {
 			name: {
 				en: "Flamethrower",
 				fr: "Lance-flammes",
-				de: "Flamethrower"
+				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard a Fire Energy card attached to Houndoom.",
-				fr: "Défaussez une carte Énergie  attachée à Démolosse.",
-				de: "Discard a  Energy card attached to Houndoom."
+				fr: "Défaussez une carte Énergie {R} attachée à Démolosse.",
+				de: "Entferne 1 {R}-Energiekarte von Hundemon und lege sie auf den Ablagestapel."
 			},
 			damage: 50,
 
@@ -72,24 +71,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-30"
 		},
 	],
-
-
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275911,
-		tcgplayer: 86205
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86205,
+				cardmarket: 275911
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86205,
+				cardmarket: 275911
+			},
+		},
+	],
+
 }
 
 export default card

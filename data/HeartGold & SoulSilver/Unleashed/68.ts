@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		37,
-	],
+	dexId: [37],
 
 	hp: 60,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to Vulpix.",
 				fr: "Lancez une pièce. Si c’est pile, défaussez une carte Énergie Fire attachée à Goupix.",
-				de: "Wirf eine Münze. Bei \"Zahl\" lege 1 an Vulpix angelegte -Energie auf deinen Ablagestapel."
+				de: "Wirf eine Münze. Bei „Zahl“ lege 1 an Vulpix angelegte {R}-Energie auf deinen Ablagestapel."
 			},
 			damage: 20,
 
@@ -55,22 +53,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "As it develops, its single white tail gains color and splits into six. It is quite warm and cuddly."
+		en: "As it develops, its single white tail gains color and splits into six. It is quite warm and cuddly.",
+		de: "Beim Heranwachsen teilt sich sein Schweif sechsfach und wird farbig. Es ist warm und anschmiegsam."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90445,
+				cardmarket: 279224
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90445,
+				cardmarket: 279224
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279224,
-		tcgplayer: 90445
-	}
 }
 
 export default card

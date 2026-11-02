@@ -55,18 +55,48 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751533,
+				tcgplayer: 534142,
+				cardtrader: 274191
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 833339
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751533,
+				tcgplayer: 534142,
+				cardtrader: 274191
+			}
+		},
+	],
 
 	illustrator: "GIDORA",
 
-	thirdParty: {
-		cardmarket: 751533
-	}
+	description: {
+		en: "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
+		de: "Von Geburt an brennt die Flamme auf seiner Schwanzspitze. Sobald sie verglimmt, erlischt auch sein Lebenslicht."
+	},
+
 }
 
 export default card

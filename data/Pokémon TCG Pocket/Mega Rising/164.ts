@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Morgrem"
+		en: "Morgrem",
+		fr: "Fourbelin"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Impidimp"
+		en: "Impidimp",
+		fr: "Grimalin"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "False Surrender"
+			en: "False Surrender",
+			fr: "Fourbette"
 		},
 
 		damage: 50,
 		cost: ["Darkness", "Darkness"],
 
 		effect: {
-			en: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon."
+			en: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
+			fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire."
 		}
 	}],
 

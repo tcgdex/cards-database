@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das Verteidigende Pokémon schläft jetzt."
+				de: "Das verteidigende Pokémon schläft jetzt."
 			},
 			damage: 10,
 
@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -68,23 +68,31 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Sa coquille est très solide. Elle lui permet de survivre même si elle est fissurée."
+		en: "Its shell is very durable, allowing it to survive even if the shell becomes cracked.",
+		fr: "Sa coquille est très solide. Elle lui permet de survivre même si elle est fissurée.",
+		de: "Seine Schale ist sehr haltbar, dadurch kann es überleben, selbst wenn die Schale angeknackst ist."
 	},
 
-	thirdParty: {
-		cardmarket: 274716,
-		tcgplayer: 85342
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274716,
+				tcgplayer: 85342
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274716,
+				tcgplayer: 85342
+			}
 		}
 	]
 }

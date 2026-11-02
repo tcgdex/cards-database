@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Lixy",
-		en: "Shinx"
+		en: "Shinx",
+		de: "Sheinux"
 	},
 
 	abilities: [{
@@ -69,23 +70,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes."
+		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
+		de: "Durch die Spitzen seiner scharfen Krallen strömt Elektrizität. Selbst kleine Kratzer verursachen Ohnmacht."
 	},
 
-	thirdParty: {
-		cardmarket: 539183,
-		tcgplayer: 232459
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539183,
+				tcgplayer: 232459
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539183,
+				tcgplayer: 232459
+			}
+		},
+	],
 }
 
 export default card

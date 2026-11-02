@@ -8,18 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: "Hikaru Koike",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		135,
-	],
+	dexId: [135],
 
 	hp: 70,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -32,7 +30,7 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
-				en: "Self Healing",
+				en: "Self-healing",
 				de: "Selbstheilung"
 			},
 			effect: {
@@ -80,20 +78,19 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 275271,
-		tcgplayer: 86337
-	},
-
 	variants: [
 		{
 			type: 'holo',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 86337,
+				cardmarket: 275271
+			},
+		},
+	],
+	retreat: 0,
 }
 
 export default card

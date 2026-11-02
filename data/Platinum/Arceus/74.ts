@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		403,
-	],
+	dexId: [403],
 	
 	hp: 60,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -48,7 +46,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				de: "Wirf 1 Münze. Bei „Kopf“ lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 20,
 
@@ -71,19 +69,28 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278872,
-		tcgplayer: 89177
+	description: {
+		en: "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
+		de: "Es erzeugt Elektrizität durch das Strecken und Zusammenziehen seiner Muskeln. Bei Bedrohung glüht es."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89177,
+				cardmarket: 278872
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278872,
+				tcgplayer: 89177
+			}
+		},
+	],
+
 }
 
 export default card

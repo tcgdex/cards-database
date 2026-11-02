@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Voltorb",
-		fr: "Voltorbe"
+		fr: "Voltorbe",
+		de: "Voltobal"
 	},
 
 	stage: "Stage1",
@@ -38,7 +39,7 @@ const card: Card = {
 			name: {
 				en: "Rolling Tackle",
 				fr: "Plaquage roulant",
-				de: "Rolling Tackle"
+				de: "Fegetackle"
 			},
 
 			damage: 10,
@@ -52,12 +53,12 @@ const card: Card = {
 			name: {
 				en: "Energy Bomb",
 				fr: "Bombe à Énergie",
-				de: "Energy Bomb"
+				de: "Energiebombe"
 			},
 			effect: {
 				en: "Take all Energy cards attached to Dark Electrode and attach them to your Benched Pokémon (in any way you choose). If you have no Benched Pokémon, discard all Energy cards attached to Dark Electrode.",
 				fr: "Prenez toutes les cartes Énergie attachées à Electrode obscur et attachez-les aux Pokémon de votre Banc (selon votre choix). Si vous n'avez pas Pokémon sur votre Banc, défaussez toutes les cartes Énergie attachées à Electrode obscur.",
-				de: "Take all Energy cards attached to Dark Electrode and attach them to your benched Pokémon (in any way you choose). If you have no Benched Pokémon, discard all Energy cards attached to Dark Electrode."
+				de: "Nimm alle auf Dunkles Lektrobal abgelegten Energiekarten und lege sie (wie du willst) auf dein(e) Pokémon auf der Bank. Falls du keine Pokémon auf der Bank hast, entferne alle auf Dunkles Lektrobal angelegten Energiekarten."
 			},
 			damage: 30,
 
@@ -70,25 +71,33 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Certains chercheurs pensent que Electrode pourrait être une forme d'énergie au lieu de posséder un corps réel."
+		en: "Some researchers hypothesize that Electrode may actually be a form of energy instead of having an actual body.",
+		fr: "Certains chercheurs pensent que Electrode pourrait être une forme d'énergie au lieu de posséder un corps réel.",
+		de: "Einige Forscher haben die Hypothese aufgestellt, dass es sich bei Lektrobal nicht um ein Wesen mit einem Körper handelt, sondern eine Energieform."
 	},
 
-	thirdParty: {
-		cardmarket: 274087,
-		tcgplayer: 84590
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274087,
+				tcgplayer: 84590
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
-		}
-	]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274087,
+				tcgplayer: 84590
+			}
+		},
+	],
 }
 
 export default card

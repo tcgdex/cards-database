@@ -72,18 +72,53 @@ const card: Card = {
 		damage: "70×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
+	description: {
+		en: "It prefers cool, dark places, such as the back of a shelf or the space beneath a home's floorboards. It wanders in search of prey after sunset.",
+		de: "Es hält sich gern an dunklen und kalten Orten auf wie etwa unter Fußböden oder hinter Regalen. Nach Sonnenuntergang geht es auf Beutejagd."
 	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769196,
+				tcgplayer: 550066
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769196,
+				tcgplayer: 550066
+			}
+		},
+		{
+			type: "holo",
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 771355,
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 858724,
+			}
+		},
+	],
 
 	illustrator: "Kouki Saitou",
 
-	thirdParty: {
-		cardmarket: 769196
-	}
 }
 
 export default card

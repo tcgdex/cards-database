@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skiddo"
+		en: "Skiddo",
+		fr: "Cabriolaine"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Razor Leaf"
+			en: "Razor Leaf",
+			fr: "Tranch'Herbe"
 		},
 
 		damage: 30,

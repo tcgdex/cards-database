@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Mira las 4 últimas cartas de tu baraja y pon 2 de ellas en tu mano. Pon el resto de cartas de nuevo en la parte inferior de tu baraja en el orden que quieras.",
 		it: "Guarda le ultime quattro carte del tuo mazzo e aggiungi due di esse alle carte che hai in mano. Poi rimetti le altre carte in fondo al tuo mazzo nell’ordine che preferisci.",
 		pt: "Olhe as 4 últimas cartas do seu baralho e coloque 2 delas na sua mão. Coloque as demais cartas de volta como as últimas cartas do seu baralho em qualquer ordem.",
-		de: "Schau dir die untersten 4 Karten deines Decks an und nimm 2 von ihnen auf deine Hand. Lege die anderen Karten in beliebiger Reihenfolge zurück unter dein Deck."
+		de: "Schau dir die untersten 4 Karten deines Decks an und nimm 2 von ihnen auf deine Hand. Lege die anderen Karten in beliebiger Reihenfolge zurück unter dein Deck. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

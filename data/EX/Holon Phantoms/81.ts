@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Psyduck δ",
 		fr: "Psykokwak δ",
-		de: "Enton"
+		de: "Enton δ"
 	},
 
 	illustrator: "Hajime Kusajima",

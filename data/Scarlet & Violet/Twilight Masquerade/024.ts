@@ -64,18 +64,68 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
+	description: {
+		en: "This mischief-loving Pokémon is full of curiosity. It battles by drawing out the type-based energy contained within its masks.",
+		de: "Es liebt Streiche und steckt voller Neugier. Zum Kämpfen nutzt es die typenspezifische Energie der Maske, die es trägt."
 	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769198,
+				tcgplayer: 550068
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769198,
+				tcgplayer: 550068
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["gamestop"],
+			thirdParty: {
+				cardmarket: 771356,
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["eb-games"],
+			thirdParty: {
+				cardmarket: 771357,
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 786105,
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 800148,
+			}
+		},
+	],
 
 	illustrator: "Sanosuke Sakuma",
 
-	thirdParty: {
-		cardmarket: 769198
-	}
 }
 
 export default card

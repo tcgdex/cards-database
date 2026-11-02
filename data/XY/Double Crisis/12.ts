@@ -50,6 +50,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Aron, which even devour metal, can eat and destroy enemy ships in an instant.",
+	},
+
 	thirdParty: {
 		cardmarket: 282523,
 		tcgplayer: 97058

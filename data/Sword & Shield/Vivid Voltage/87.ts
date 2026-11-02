@@ -86,12 +86,6 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -99,10 +93,22 @@ const card: Card = {
 		en: "The longer and bigger its tusks, the higher its rank in its herd. The tusks take long to grow."
 	},
 
-	thirdParty: {
-		cardmarket: 511855,
-		tcgplayer: 226519
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511855,
+				tcgplayer: 226519
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511855,
+				tcgplayer: 226519
+			}
+		},
+	],
 }
 
 export default card

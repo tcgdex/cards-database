@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Litleo",
 		fr: "Hélionceau",
+		de: "Leufeo"
 	},
 
 	stage: "Stage1",
@@ -91,6 +92,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "With fiery breath of more than 10,000 degrees Fahrenheit, they viciously threaten any challenger. The females protect the pride's cubs.",
+		de: "Sie bedrohen ihre Gegner, indem sie 6 000 °C heiße Atemluft ausstoßen. Die Weibchen beschützen die Jungen des Rudels."
+	},
 
 	thirdParty: {
 		cardmarket: 355539,

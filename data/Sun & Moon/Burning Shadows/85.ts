@@ -86,10 +86,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299487,
-		tcgplayer: 138575
-	}
+	description: {
+		en: "It has a cunning yet savage disposition. It waits for parents to leave their nests, and then it sneaks in to steal their eggs.",
+		de: "Dieses Pokémon hat ein durchtriebenes, grausames Wesen. Es sucht nach unbewachten Nestern und stiehlt die Eier."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299487,
+				tcgplayer: 138575
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299487,
+				tcgplayer: 138575
+			}
+		},
+	],
 }
 
 export default card

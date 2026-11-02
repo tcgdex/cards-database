@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S8"
+import { Card } from "../../../interfaces";
+import Set from "../S8";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "小拳石"
+		ja: "イシツブテ",
+		'zh-tw': "小拳石",
 	},
 
 	illustrator: "OKACHEKE",
@@ -14,34 +14,48 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		'zh-tw': "會用雙手攀登險峻的山崖。人們似乎是在目睹牠那姿態之後才開始了抱石攀岩運動。"
+		ja: "両手を 使い 険しい 崖を 登る。 その姿を 見た 人が ボルダリングを 始めたらしい。",
+		'zh-tw': "會用雙手攀登險峻的山崖。人們似乎是在目睹牠那姿態之後才開始了抱石攀岩運動。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "滾動"
+	attacks: [
+		{
+			name: {
+				ja: "ころがる",
+				'zh-tw': "滾動",
+			},
+			damage: 10,
+			cost: ["Fighting"],
 		},
-
-		damage: 10,
-		cost: ["Fighting"]
-	}, {
-		name: {
-			'zh-tw': "打擊"
+		{
+			name: {
+				ja: "なぐる",
+				'zh-tw': "打擊",
+			},
+			damage: 20,
+			cost: ["Colorless", "Colorless"],
 		},
+	],
 
-		damage: 20,
-		cost: ["Colorless", "Colorless"]
-	}],
+	weaknesses: [{ type: "Grass", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Grass",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 575607,
+				tcgplayer: 569553,
+			},
+		},
+	],
 
 	retreat: 3,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Common",
+	dexId: [74],
+};
 
-export default card
+export default card;

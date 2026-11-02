@@ -91,12 +91,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -104,10 +98,22 @@ const card: Card = {
 		en: "Resentment at being cast off made it spring into being. Some say that treating it well will satisfy it, and it will once more become a stuffed toy."
 	},
 
-	thirdParty: {
-		cardmarket: 511760,
-		tcgplayer: 226472
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511760,
+				tcgplayer: 226472
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511760,
+				tcgplayer: 226472
+			}
+		},
+	],
 }
 
 export default card

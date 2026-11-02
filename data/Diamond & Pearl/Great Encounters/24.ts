@@ -76,6 +76,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Attached to its head is a huge set of jaws formed by horns. It can chew through iron beams.",
+		de: "Auf seinem Kopf befindet sich ein riesiger Kiefer, der aus Hörnern besteht. Er kann Eisen zermalmen."
+	},
+
 	thirdParty: {
 		cardmarket: 277926,
 		tcgplayer: 87261

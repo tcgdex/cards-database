@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Crabrawler",
 		fr: "Crabagarre",
+		de: "Krabbox"
 	},
 
 	stage: "Stage1",
@@ -93,10 +94,27 @@ const card: Card = {
 
 	retreat: 4,
 
-	thirdParty: {
-		cardmarket: 299476,
-		tcgplayer: 138560
-	}
+	description: {
+		en: "It aimed for the top but got lost and ended up on a snowy mountain. Being forced to endure the cold, this Pokémon evolved and grew fur.",
+		de: "Es wollte auf eine verschneite Bergspitze, hat sich aber verlaufen. In der Kälte wuchs ihm dann ein Fell und es entwickelte sich weiter."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299476,
+				tcgplayer: 138560
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299476,
+				tcgplayer: 138560
+			}
+		},
+	],
 }
 
 export default card

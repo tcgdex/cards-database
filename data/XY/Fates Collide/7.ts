@@ -95,6 +95,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It can stop its opponents' movements with just a glare. It takes in solar energy and boosts it internally.",
+		de: "Bringt Gegner mit einem einzigen kühlen Blick zum Erstarren. In seinem Inneren verstärkt es die Energie der Sonne."
+	},
+
 	thirdParty: {
 		cardmarket: 289833,
 		tcgplayer: 117770

@@ -13,25 +13,32 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [143],
+
 	effect: {
+		en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 		fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
-		de: "Wirf eine Münze. Bei 'Kopf' schläft das verteidigende Pokémon jetzt."
+		de: "Wirf eine Münze. Bei „Kopf“ schläft das verteidigende Pokémon jetzt."
 	},
 
-	thirdParty: {
-		cardmarket: 274132,
-		tcgplayer: 89301
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274132,
+				tcgplayer: 89301
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
-		}
-	]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274132,
+				tcgplayer: 89301
+			}
+		},
+	],
 }
 
 export default card

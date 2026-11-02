@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Gnaw",
 				fr: "Ronge",
+				de: "Nagen"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch'Herbe",
+				de: "Rasierblatt"
 			},
 
 			damage: 20,
@@ -65,10 +67,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279968,
-		tcgplayer: 89090
-	}
+	description: {
+		en: "This Pokémon makes clothes for itself. It chews up leaves and sews them with sticky thread extruded from its mouth.",
+		de: "Schneidert sich ein Kleid, indem es sich Blätter zurechtbeißt und sie mit Klebefäden aus seinem Mund zusammennäht."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279969,
+				tcgplayer: 89090
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279969,
+				tcgplayer: 89090
+			}
+		},
+	],
 }
 
 export default card

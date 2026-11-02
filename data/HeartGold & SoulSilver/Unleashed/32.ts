@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		14,
-	],
+	dexId: [14],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Weedle",
 		fr: "Aspicot",
+		de: "Hornliu"
 	},
 
 	stage: "Stage1",
@@ -75,22 +74,27 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Although it is a cocoon, it can move a little. It can extend its poison barb if it is attacked."
+		en: "Although it is a cocoon, it can move a little. It can extend its poison barb if it is attacked.",
+		de: "Obwohl es ein Kokon ist, kann es sich bewegen. Wird es angegriffen, fährt es seinen Giftstachel aus."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86415,
+				cardmarket: 279188
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86415,
+				cardmarket: 279188
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279188,
-		tcgplayer: 86415
-	}
 }
 
 export default card

@@ -96,23 +96,30 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
 	description: {
-		en: "Its body can't be harmed by any sort of attack, so it is very eager to make challenges against enemies."
+		en: "Its body can't be harmed by any sort of attack, so it is very eager to make challenges against enemies.",
+		de: "Dank seines starken Körpers fürchtet es sich vor keiner Form von Angriff. Deshalb zettelt es ununterbrochen Kämpfe an."
 	},
 
-	thirdParty: {
-		cardmarket: 483319,
-		tcgplayer: 219477
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 483319,
+				tcgplayer: 219477
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483319,
+				tcgplayer: 219477
+			}
+		},
+	],
 }
 
 export default card

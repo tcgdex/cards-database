@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Palossand"
+		en: "Palossand",
+		fr: "Trépassable"
 	},
 
 	illustrator: "Shibuzoh.",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Sandygast"
+		en: "Sandygast",
+		fr: "Bacabouh"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Life Sucker"
+			en: "Life Sucker",
+			fr: "Aspire-Vie"
 		},
 
 		damage: 70,
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		effect: {
-			en: "Heal 20 damage from this Pokémon."
+			en: "Heal 20 damage from this Pokémon.",
+			fr: "Soignez 20 dégâts de ce Pokémon."
 		}
 	}],
 

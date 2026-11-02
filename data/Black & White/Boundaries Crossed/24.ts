@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Flare",
 				fr: "Flamboiement",
+				de: "Flackern"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 20,
@@ -65,10 +67,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280611,
-		tcgplayer: 89884
-	}
+	description: {
+		en: "It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead.",
+		de: "Es schießt Flammen aus seinem Rüssel. Ist es erkältet, kommt statt Feuer aber nur pechschwarzer Rauch zum Vorschein."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280611,
+				tcgplayer: 89884
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280611,
+				tcgplayer: 89884
+			}
+		},
+	],
 }
 
 export default card

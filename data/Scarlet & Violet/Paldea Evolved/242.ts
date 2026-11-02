@@ -65,19 +65,30 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715717,
+				tcgplayer: 497652,
+				cardtrader: 248905
+			}
+		},
+	],
 
+	suffix: "ex",
 	illustrator: "PLANETA Hiiragi",
 
-	thirdParty: {
-		cardmarket: 715717
-	}
+	
 }
 
 export default card

@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "sui",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [69],
 	hp: 60,
 	types: ["Grass"],
 	stage: "Basic",
@@ -37,13 +38,46 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675816,
-		cardmarket: 869615
-	}
+	description: {
+		en: "Even though its body is extremely skinny, it is blindingly fast when catching its prey.",
+		fr: "Même si son corps est très frêle, ce Pokémon attrape ses proies en bougeant à une vitesse vertigineuse.",
+		de: "Obwohl sein Körper sehr schmal ist, schnappt es sich seine Beute mit Bewegungen, die so schnell sind, dass man sie mit bloßem Auge kaum sieht."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 869615,
+				tcgplayer: 675816
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 870140,
+				tcgplayer: 676854
+			}
+		},
+		{
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 870139,
+				tcgplayer: 676994
+			}
+		},
+	],
 }
 
 export default card

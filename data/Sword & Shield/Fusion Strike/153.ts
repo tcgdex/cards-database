@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Souichirou Gunjima",
 
 	description: {
-		en: "Searching for an opponent to test its skills against, it emerges onto land. Once the battle is over, it returns to the sea."
+		en: "Searching for an opponent to test its skills against, it emerges onto land. Once the battle is over, it returns to the sea.",
+		de: "Um sein Können zu testen, kommt es an Land und begibt sich auf die Suche nach Gegnern. Sind die Kämpfe vorbei, kehrt es ins Meer zurück."
 	},
 
 	attacks: [{
@@ -65,17 +72,23 @@ const card: Card = {
 		damage: 90
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582781,
-		tcgplayer: 253367
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582781,
+				tcgplayer: 253367
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582781,
+				tcgplayer: 253367
+			}
+		},
+	],
 }
 
 export default card

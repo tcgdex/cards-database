@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Hariyama ex",
 		fr: "Hariyama ex",
-		de: "Hariyama ex"
+		de: "Hariyama-ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Makuhita"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -96,16 +96,17 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		tcgplayer: 86018,
-		cardmarket: 276503
-	},
 
 	variants: [
 		{
 			type: "holo",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 86018,
+				cardmarket: 276503
+			},
+		},
+	],
+
 }
 
 export default card

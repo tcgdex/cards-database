@@ -8,13 +8,9 @@ const card: Card = {
 	name: {
 		en: "Pineco",
 		fr: "Pomdepik",
-		es: "Pineco",
-		it: "Pineco",
-		pt: "Pineco",
-		de: "Tannza"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Grass"],
@@ -26,18 +22,34 @@ const card: Card = {
 		name: {
 			en: "Rollout",
 			fr: "Roulade",
-			es: "Rodar",
-			it: "Rotolamento",
-			pt: "Rolagem",
-			de: "Walzer"
 		},
 
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "Nobuhiro Imagawa"
+	illustrator: "Nobuhiro Imagawa",
+	description: {
+		en: "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
+		fr: "Ce Pokémon renforce sa carapace en y ajoutant des écorces d'arbre. Il devient alors plus lourd, mais cela ne le dérange pas.",
+	},
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 729205,
+				tcgplayer: 526634
+			},
+		}
+	],
 }
 
 export default card

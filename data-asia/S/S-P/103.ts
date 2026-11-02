@@ -1,54 +1,60 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "冰伊布"
+		ja: "リザードンV",
+		'zh-tw': "冰伊布",
 	},
 
-	illustrator: "OKACHEKE",
+	illustrator: "5ban Graphics",
 	category: "Pokemon",
-	hp: 110,
-	types: ["Water"],
+	hp: 220,
+	types: ["Fire"],
 
-	description: {
-		'zh-tw': "冰伊布釋放出的冷氣能製造出粉狀的雪。這使牠受到各個滑雪場的熱烈歡迎。"
-	},
+	stage: "Basic",
 
-	stage: "Stage1",
-
-	attacks: [{
-		name: {
-			'zh-tw': "冰雹"
+	attacks: [
+		{
+			name: {
+				ja: "ツメできりさく",
+				'zh-tw': "冰雹",
+			},
+			damage: 80,
+			cost: ["Colorless", "Colorless", "Colorless"],
 		},
-
-		effect: {
-			'zh-tw': "對手的所有寶可夢各受到20點傷害。[在備戰區不計算弱點・抵抗力。]"
+		{
+			name: {
+				ja: "ほのおのうず",
+				'zh-tw': "冰霜颱風",
+			},
+			damage: 220,
+			cost: ["Fire", "Fire", "Colorless", "Colorless"],
+			effect: {
+				ja: "このポケモンについているエネルギーを2個選び、トラッシュする。",
+				'zh-tw': "在下個自己的回合，這隻寶可夢無法使用「冰霜颱風」。",
+			},
 		},
+	],
 
-		cost: ["Water"]
-	}, {
-		name: {
-			'zh-tw': "冰霜颱風"
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 525200,
+				tcgplayer: 597304,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用「冰霜颱風」。"
-		},
+	retreat: 3,
+	regulationMark: "D",
+	rarity: "Promo",
+	dexId: [6],
+};
 
-		damage: 120,
-		cost: ["Water", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Metal",
-		value: "×2"
-	}],
-
-	retreat: 1,
-	regulationMark: "E"
-}
-
-export default card
+export default card;

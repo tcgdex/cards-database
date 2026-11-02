@@ -83,12 +83,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -96,10 +90,22 @@ const card: Card = {
 		en: "When the horns on its head shine in seven different colors, it is said to be sharing everlasting life."
 	},
 
-	thirdParty: {
-		cardmarket: 511810,
-		tcgplayer: 226486
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 511810,
+				tcgplayer: 226486
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511810,
+				tcgplayer: 226486
+			}
+		},
+	],
 }
 
 export default card

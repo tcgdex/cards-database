@@ -72,12 +72,38 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 785950,
+				tcgplayer: 567322
+			}
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 785950,
+				tcgplayer: 567322
+			}
+		},
+		{
+			type: "normal",
+			foil: "league",
+			thirdParty: {
+				cardmarket: 883667,
+			}
+		},
+	],
 
 	illustrator: "Kazumasa Yasukuni",
 

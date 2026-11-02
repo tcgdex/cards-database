@@ -22,6 +22,16 @@ const card: Card = {
 		'zh-cn': "查看自己的牌庫上方5張卡，從其中選擇任意數量的卡，將其丟棄。將剩餘卡以任意順序排列，放回牌庫上方。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803312,
+				tcgplayer: 602663,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }

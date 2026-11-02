@@ -34,7 +34,7 @@ const card: Card = {
 			name: {
 				en: "Sharpen",
 				fr: "Affûtage",
-				de: "Sharpen"
+				de: "Schärfer"
 			},
 
 			damage: 20,
@@ -55,23 +55,31 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Ce Pokémon est le résultat de recherches informatiques. Son programme n'est capable que d'actions et de réactions simples."
+		en: "This Pokémon was created by human computer engineering. Its program is only capable of simple action and reaction.",
+		fr: "Ce Pokémon est le résultat de recherches informatiques. Son programme n'est capable que d'actions et de réactions simples.",
+		de: "Dieses Pokémon wurde von Menschen mit dem Computer entwickelt. Sein Programm erlaubt ihm nur einfache Aktionen und Reaktionen."
 	},
 
-	thirdParty: {
-		cardmarket: 274730,
-		tcgplayer: 88305
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274730,
+				tcgplayer: 88305
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274730,
+				tcgplayer: 88305
+			}
 		}
 	]
 }

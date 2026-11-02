@@ -22,21 +22,34 @@ const card: Card = {
 		es: "Roba 2 cartas. Mira tus cartas de Premio que están boca abajo.",
 		it: "Pesca due carte. Guarda le tue carte Premio coperte.",
 		pt: "Compre 2 cartas. Olhe as suas cartas de Prêmio viradas para baixo.",
-		de: "Ziehe 2 Karten. Sieh dir deine verdeckten Preiskarten an."
+		de: "Ziehe 2 Karten. Sieh dir deine verdeckten Preiskarten an. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733753,
+				tcgplayer: 516720,
+				cardtrader: 261168
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733753,
+				tcgplayer: 516720,
+				cardtrader: 261168
+			}
+		},
+	],
 
 	illustrator: "Tomomi Kaneko",
 
-	thirdParty: {
-		cardmarket: 733753
-	}
+	
 }
 
 export default card

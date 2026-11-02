@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 

@@ -62,23 +62,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "If Kubfu pulls the long white hair on its head, its fighting spirit heightens and power wells up from the depths of its belly."
+		en: "If Kubfu pulls the long white hair on its head, its fighting spirit heightens and power wells up from the depths of its belly.",
+		de: "Zieht es an dem langen weißen Fell an seinem Hinterkopf, steigert das seinen Kampfgeist und aus seiner Körpermitte steigt Kraft empor."
 	},
 
-	thirdParty: {
-		cardmarket: 567201,
-		tcgplayer: 241762
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567201,
+				tcgplayer: 241762
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567201,
+				tcgplayer: 241762
+			}
+		},
+	],
 }
 
 export default card

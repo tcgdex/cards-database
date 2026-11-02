@@ -4,6 +4,7 @@ import Set from "../Stellar Crown"
 const card: Card = {
 	dexId: [868],
 	set: Set,
+	cameoDexIds: [25, 39, 77, 143],
 
 	name: {
 		en: "Milcery",
@@ -35,19 +36,27 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 786006,
+				tcgplayer: 567435
+			}
+		},
+	],
 
 	illustrator: "Dsuke",
 
-	thirdParty: {
-		cardmarket: 786006
-	}
 }
 
 export default card

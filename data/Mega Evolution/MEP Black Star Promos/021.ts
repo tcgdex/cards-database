@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "matazo",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Darkness"],
@@ -70,11 +70,21 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	weaknesses: [{
+		type: "Grass",
+		value: "x2"
+	}],
+
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 859026,
+				tcgplayer: 664063
+			}
+		},
+	],
 }
 
 export default card

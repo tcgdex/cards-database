@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		155,
-	],
+	dexId: [155],
 
 	hp: 60,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -65,31 +63,35 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It usually stays hunched over. If it is angry or surprised, it shoots flames out of its back."
+		en: "It usually stays hunched over. If it is angry or surprised, it shoots flames out of its back.",
+		de: "Es ist immer gebeugt. Wird es angegriffen oder überrascht, schießen Flammen aus seinem Rücken."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84552,
+				cardmarket: 279033
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84552,
+				cardmarket: 279033
+			}
 		},
 		{
 			type: "normal",
-			stamp : ["snowflake"],
-			languages: ["de"]
+			stamp: ["christopher-kan"],
+			thirdParty: {
+				tcgplayer: 480370,
+				cardmarket: 279033
+			}
 		},
-		{
-			type: "normal",
-			stamp : ["christopher-kan"],
-		}
 	],
 
-	thirdParty: {
-		cardmarket: 279033,
-		tcgplayer: 84552
-	}
 }
 
 export default card

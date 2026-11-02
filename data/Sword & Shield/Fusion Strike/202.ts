@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 110,
 	types: ["Colorless"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "miki kudo",
 
 	description: {
-		en: "Because the eggs on their bellies have been overharvested by people in the past, the Chansey population remains very small."
+		en: "Because the eggs on their bellies have been overharvested by people in the past, the Chansey population remains very small.",
+		de: "Einst wurde es exzessiv von Wilddieben gejagt, die es auf das Ei in seinem Beutel abgesehen hatten. Mittlerweile ist es daher sehr selten."
 	},
 
 	attacks: [{
@@ -64,17 +71,23 @@ const card: Card = {
 		damage: 70
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582877,
-		tcgplayer: 253296
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582877,
+				tcgplayer: 253296
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582877,
+				tcgplayer: 253296
+			}
+		},
+	],
 }
 
 export default card

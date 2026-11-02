@@ -17,6 +17,7 @@ const card: Card = {
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [425],
 
 	evolveFrom: {
 		en: "Clefairy",
@@ -81,23 +82,30 @@ const card: Card = {
 	types: ["Psychic"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people."
+		en: "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people.",
+		de: "Ein feenhaftes und scheues Pokémon, das sofort die Flucht ergreift, wenn es Menschen wahrnimmt."
 	},
 
-	thirdParty: {
-		cardmarket: 457793,
-		tcgplayer: 213161
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 457793,
+				tcgplayer: 213161
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457793,
+				tcgplayer: 213161
+			}
+		},
+	],
 }
 
 export default card

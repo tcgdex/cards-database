@@ -4,6 +4,8 @@ import Set from "../Crimson Blaze"
 const card: Card = {
 	set: Set,
 
+	dexId: [3],
+
 	name: {
 		en: "Mega Venusaur ex"
 	},
@@ -16,10 +18,6 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Ivysaur"
-	},
-
-	description: {
-		en: "In order to support its flower, which has grown\nlarger due to Mega Evolution, its back and legs\nhave become stronger."
 	},
 
 	stage: "Stage2",

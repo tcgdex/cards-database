@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Arceus VSTAR"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 280,
@@ -25,7 +26,7 @@ const card: Card = {
 		es: "Arceus V",
 		it: "Arceus-V",
 		pt: "Arceus V",
-		de: "Arceus-V"
+		de: "Arceus VSTAR"
 	},
 
 	stage: "VSTAR",
@@ -55,20 +56,26 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608668,
-		tcgplayer: 263896
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 608722,
+				tcgplayer: 263896
+			}
+		},
+	],
 }
 
 export default card

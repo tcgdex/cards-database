@@ -66,18 +66,48 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "This Pokémon can control ice at will. Articuno is said to live in snowy mountains riddled with permafrost.",
+		de: "Arktos ist imstande, Eis zu manipulieren. Man sagt, es lebe in schneebedeckten Bergen, wo ewiger Winter herrscht."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733739,
+				tcgplayer: 516707,
+				cardtrader: 261225
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733739,
+				tcgplayer: 516707,
+				cardtrader: 261225
+			}
+		},
+	],
 
 	illustrator: "chibi",
 
-	thirdParty: {
-		cardmarket: 733739
-	}
+	
 }
 
 export default card

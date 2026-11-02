@@ -23,23 +23,29 @@ const card: Card = {
 		es: "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 4 cartas. Si alguno de tus Pokémon quedó Fuera de Combate durante el último turno de tu rival, roba 7 cartas en vez de 4.",
 		it: "Rimischia le carte che hai in mano nel tuo mazzo. Poi pesca quattro carte. Se uno dei tuoi Pokémon è stato messo KO durante l'ultimo turno del tuo avversario, invece pescane sette.",
 		pt: "Embaralhe a sua mão no seu baralho. Em seguida, compre 4 cartas. Se algum dos seus Pokémon tiver sido Nocauteado durante o último turno do seu oponente, compre 7 cartas ao invés de 4.",
-		de: "Mische deine Handkarten in dein Deck. Ziehe anschließend 4 Karten. Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde, ziehe stattdessen 7 Karten."
+		de: "Mische deine Handkarten in dein Deck. Ziehe anschließend 4 Karten. Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde, ziehe stattdessen 7 Karten. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 545801,
-		tcgplayer: 234112
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545801,
+				tcgplayer: 234112
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545801,
+				tcgplayer: 234112
+			}
+		},
+	],
 }
 
 export default card

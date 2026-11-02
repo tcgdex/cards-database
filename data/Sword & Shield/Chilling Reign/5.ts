@@ -81,23 +81,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It flies through the night sky, sprinkling sparkly dust. According to some, if that dust sticks to you, good things will happen to you."
+		en: "It flies through the night sky, sprinkling sparkly dust. According to some, if that dust sticks to you, good things will happen to you.",
+		de: "Nachts fliegt Ledian durch die Gegend und verstreut glitzernden Puder. Es soll Glück bringen, wenn man etwas davon abbekommt."
 	},
 
-	thirdParty: {
-		cardmarket: 567085,
-		tcgplayer: 241652
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567085,
+				tcgplayer: 241652
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567085,
+				tcgplayer: 241652
+			}
+		},
+	],
 }
 
 export default card

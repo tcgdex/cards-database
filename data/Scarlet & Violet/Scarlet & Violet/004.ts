@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Shroomish",
-		fr: "Balignon"
+		fr: "Balignon",
+		de: "Knilz"
 	},
 
 	stage: "Stage1",
@@ -41,14 +42,30 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Ryuta Fuse",
+
+	description: {
+		en: "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores.",
+		de: "Erst lässt es den Gegner die giftigen Sporen einatmen, die es verstreut hat, dann traktiert es ihn mit heftigen Boxschlägen."
+	},
 
 	thirdParty: {
         cardmarket: 702301,

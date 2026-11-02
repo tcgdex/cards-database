@@ -4,8 +4,15 @@ import Set from '../SWSH Black Star Promos'
 const card: Card = {
 	dexId: [399],
 	set: Set,
-	illustrator: "The Pokémon Company Art Team",
+	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
 	category: "Pokemon",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
+	retreat: 2,
 
 	description: {
 		en: "It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water."
@@ -13,18 +20,24 @@ const card: Card = {
 
 	stage: "Basic",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	regulationMark: "E",
+
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 571388,
+				tcgplayer: 247386
+			}
+		},
+	],
 
 	name: {
 		en: "Special Delivery Bidoof"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	hp: 70,
 	types: ["Colorless"],
 
@@ -51,12 +64,6 @@ const card: Card = {
 			en: "Flip a coin. If heads, this attack does 30 more damage."
 		}
 	}],
-
-	regulationMark: "E",
-
-	thirdParty: {
-		cardmarket: 571388
-	}
 }
 
 export default card

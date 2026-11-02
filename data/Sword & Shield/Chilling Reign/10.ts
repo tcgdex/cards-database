@@ -4,6 +4,7 @@ import Set from '../Chilling Reign'
 const card: Card = {
 	dexId: [460],
 	set: Set,
+	cameoDexIds: [459],
 
 	name: {
 		en: "Abomasnow",
@@ -73,23 +74,37 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "This Pokémon is known to bring blizzards. A shake of its massive body is enough to cause whiteout conditions."
+		en: "This Pokémon is known to bring blizzards. A shake of its massive body is enough to cause whiteout conditions.",
+		de: "Dieses Pokémon löst Blizzards aus. Wenn es seinen großen Körper schüttelt, wird in seiner Umgebung alles sofort schneeweiß."
 	},
 
-	thirdParty: {
-		cardmarket: 567090,
-		tcgplayer: 241659
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567090,
+				tcgplayer: 241659
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['snowflake'],
+			thirdParty: {
+				cardmarket: 672374
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567090,
+				tcgplayer: 241659
+			}
+		},
+	],
 }
 
 export default card

@@ -79,6 +79,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Although it's a quiet, lonely Pokémon, if you try to look at what's under its rag, it will become agitated and resist violently.",
+		de: "Eigentlich ist es friedlich und sehnt sich nur nach Gesellschaft, doch versucht man, unter seinen Lumpen zu linsen, wehrt es sich heftig."
+	},
+
 	thirdParty: {
 		cardmarket: 408124,
 		tcgplayer: 201272

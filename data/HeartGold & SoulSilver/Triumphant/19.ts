@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		51,
-	],
+	dexId: [51],
 
 	hp: 80,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Diglett",
 		fr: "Taupiqueur",
+		de: "Digda"
 	},
 
 	stage: "Stage1",
@@ -58,7 +57,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin for each Fighting Energy attached to Dugtrio. This attack does 50 damage plus 20 more damage for each heads.",
 				fr: "Lancez une pièce pour chaque Énergie Fighting attachée à Triopikeur. Cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque côté face.",
-				de: "Wirf für jede an Digdri angelegte -Energie 1 Münze. Dieser Angriff fügt 50 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf für jede an Digdri angelegte {F}-Energie 1 Münze. Dieser Angriff fügt 50 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "50+",
 
@@ -82,20 +81,27 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Extremely powerful, they can dig through even the hardest ground to a depth of over 60 miles."
+		en: "Extremely powerful, they can dig through even the hardest ground to a depth of over 60 miles.",
+		de: "Es ist so stark, dass es sich mit Schaufler sogar durch steinharten Boden bis in 100 km Tiefe gräbt."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85004,
+				cardmarket: 279549
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279549,
+				tcgplayer: 85004
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279549,
-		tcgplayer: 85004
-	}
 }
 
 export default card

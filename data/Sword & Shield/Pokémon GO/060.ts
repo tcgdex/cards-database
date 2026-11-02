@@ -4,6 +4,7 @@ import Set from "../Pokémon GO"
 const card: Card = {
 	dexId: [400],
 	set: Set,
+	cameoDexIds: [235],
 
 	name: {
 		en: "Bibarel",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Bidifas"
 	},
 
+	illustrator: "KIYOTAKA OSHIYAMA",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 110,
@@ -67,19 +69,39 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
+
+	description: {
+		en: "It makes its nest by damming streams with bark and mud. It is known as an industrious worker.",
+		de: "Es baut sein Nest, indem es in Flüssen Dämme aus Schlamm und Ästen baut. Ein fleißiger Arbeiter."
 	},
 
-	thirdParty: {
-		cardmarket: 664627,
-		tcgplayer: 276983
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665283,
+				tcgplayer: 276983
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665283,
+				tcgplayer: 276983
+			}
+		},
+	],
 }
 
 export default card

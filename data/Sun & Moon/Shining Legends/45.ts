@@ -93,6 +93,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Able to conceal itself in shadows, it never appears before humans, so its very existence was the stuff of myth.",
+		de: "Da es sich im Schatten verbergen und so für menschliche Augen unsichtbar werden kann, war seine Existenz lange bezweifelt worden."
+	},
+
 	thirdParty: {
 		cardmarket: 302183,
 		tcgplayer: 146702

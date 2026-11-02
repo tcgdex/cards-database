@@ -20,6 +20,16 @@ const card: Card = {
 		'zh-cn': "雙方的「赫普的寶可夢」使用的招式，對對手的戰鬥寶可夢造成的傷害「+30」點。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 807686,
+				tcgplayer: 614950,
+			},
+		},
+	],
+
 	trainerType: "Stadium",
 	regulationMark: "I"
 }

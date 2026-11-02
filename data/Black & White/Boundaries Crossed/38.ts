@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Present",
 				fr: "Cadeau",
+				de: "Geschenk"
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your deck for a card and put it into your hand. Shuffle your deck afterward.",
 				fr: "Lancez une pièce. Si c'est face, cherchez une carte dans votre deck puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+				de: "Wirf 1 Münze. Durchsuche bei „Kopf“ dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -51,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Icy Wind",
 				fr: "Vent Glace",
+				de: "Eissturm"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 30,
 
@@ -70,10 +74,55 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280625,
-		tcgplayer: 84751
-	}
+	description: {
+		en: "It carries food all day long. When someone is lost in the mountains, it shares that food.",
+		de: "Es trägt den ganzen Tag Essen mit sich herum, das es mit Menschen teilt, die in den Bergen feststecken."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280625,
+				tcgplayer: 84751
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['1st-place', 'poke-ball-league'],
+			thirdParty: {
+				cardmarket: 449413
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['2nd-place', 'poke-ball-league'],
+			thirdParty: {
+				cardmarket: 449418
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['3rd-place', 'poke-ball-league'],
+			thirdParty: {
+				cardmarket: 449423
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['4th-place', 'poke-ball-league'],
+			thirdParty: {
+				cardmarket: 449428
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280625,
+				tcgplayer: 84751
+			}
+		},
+	],
 }
 
 export default card

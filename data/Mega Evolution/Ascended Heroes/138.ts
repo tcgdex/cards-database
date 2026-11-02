@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Nisota Niso",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [629],
 	hp: 70,
 	types: ["Darkness"],
 	stage: "Basic",
@@ -37,13 +38,52 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675950,
-		cardmarket: 869749
-	}
+	description: {
+		en: "Its healthy appetite leads to visible growth spurts. It often has to replace the bones it wears as its size increases.",
+		fr: "Son gros appétit entraîne des poussées de croissance rapides. Il doit donc régulièrement changer le crâne qui lui sert de couche.",
+		de: "Durch seinen ständigen Appetit hat Skallyk fortlaufend Wachstumsschübe. Deshalb muss es seine Schädelwindel immerzu auswechseln."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869749,
+			tcgplayer: 675950
+		}
+	},
+	{
+		type: "reverse",
+		foil: "duskball",
+		thirdParty: {
+			cardmarket: 870354,
+			tcgplayer: 676961
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870353,
+			tcgplayer: 677101
+		}
+	},
+],
 }
 
 export default card

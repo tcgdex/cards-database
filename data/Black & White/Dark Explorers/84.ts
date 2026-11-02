@@ -35,7 +35,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Smash Kick",
-				fr: "Coud'Pattes"
+				fr: "Coud'Pattes",
+				de: "Schmetterkick"
 			},
 
 			damage: 10,
@@ -48,7 +49,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tail Whap",
-				fr: "Queue Battoir"
+				fr: "Queue Battoir",
+				de: "Schweifvertrimmer"
 			},
 
 			damage: 20,
@@ -65,10 +67,34 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280411,
-		tcgplayer: 85091
-	}
+	description: {
+		en: "Because its genetic makeup is irregular, it quickly changes its form due to a variety of causes.",
+		de: "Aufgrund einer genetischen Anomalie kann es sehr schnell seine Form verändern."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280412,
+				tcgplayer: 85091
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['regional-championships'],
+			thirdParty: {
+				cardmarket: 449458
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280412,
+				tcgplayer: 85091
+			}
+		},
+	],
 }
 
 export default card

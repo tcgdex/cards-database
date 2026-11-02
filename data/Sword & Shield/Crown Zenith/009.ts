@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Yanmega"
 	},
 
+	illustrator: "KIYOTAKA OSHIYAMA",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,
@@ -76,20 +77,39 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "This six-legged Pokémon is easily capable of transporting an adult in flight. The wings on its tail help it stay balanced.",
+		de: "Es kann mühelos einen Erwachsenen umhertragen. Die Federn an seinem Hinterteil stabilisieren seinen Flug."
 	},
 
-	thirdParty: {
-		cardmarket: 691726,
-		tcgplayer: 478055
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691726,
+				tcgplayer: 478055
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691726,
+				tcgplayer: 478055
+			}
+		},
+	],
 }
 
 export default card

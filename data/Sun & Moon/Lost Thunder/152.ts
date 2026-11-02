@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [35],
 
 	dexId: [
 		113,
@@ -86,6 +87,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Not only are these Pokémon fast runners, they're also few in number, so anyone who finds one must be lucky indeed.",
+		de: "Es ist äußerst selten und kann zudem sehr schnell davonlaufen. Schafft man es trotzdem, eins zu fangen, bringt es angeblich Glück."
+	},
 
 	thirdParty: {
 		cardmarket: 365789,

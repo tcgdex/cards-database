@@ -81,23 +81,30 @@ const card: Card = {
 	types: ["Fire"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "There's a hole in its tail that allows it to draw in the air it needs to keep its fire burning. If the hole gets blocked, this Pokémon will fall ill."
+		en: "There's a hole in its tail that allows it to draw in the air it needs to keep its fire burning. If the hole gets blocked, this Pokémon will fall ill.",
+		de: "Es saugt über das Loch in seinem Schweif Luft für seine Flammen ein. Eine Verstopfung des Lochs schlägt Furnifraß sofort auf die Gesundheit."
 	},
 
-	thirdParty: {
-		cardmarket: 457628,
-		tcgplayer: 213110
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457628,
+				tcgplayer: 213110
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457628,
+				tcgplayer: 213110
+			}
+		},
+	],
 }
 
 export default card

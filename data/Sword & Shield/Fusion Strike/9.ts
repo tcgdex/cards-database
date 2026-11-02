@@ -4,6 +4,7 @@ import Set from "../Fusion Strike"
 const card: Card = {
 	dexId: [540],
 	set: Set,
+	cameoDexIds: [26],
 
 	name: {
 		en: "Sewaddle",
@@ -19,12 +20,19 @@ const card: Card = {
 	hp: 50,
 	types: ["Grass"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Akira Komayama",
 
 	description: {
-		en: "Since this Pokémon makes its own clothes out of leaves, it is a popular mascot for fashion designers."
+		en: "Since this Pokémon makes its own clothes out of leaves, it is a popular mascot for fashion designers.",
+		de: "Unter Modeschöpfern gilt es als beliebtes Maskottchen, da es sich aus Blättern Kleidchen schneidert."
 	},
 
 	attacks: [{
@@ -51,17 +59,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582037,
-		tcgplayer: 253079
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582037,
+				tcgplayer: 253079
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582037,
+				tcgplayer: 253079
+			}
+		},
+	],
 }
 
 export default card

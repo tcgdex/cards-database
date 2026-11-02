@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Skitty",
 		fr: "Skitty",
+		de: "Eneco"
 	},
 
 	stage: "Stage1",
@@ -83,6 +84,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It is highly popular among female Trainers for its sublime fur. It does not keep a nest.",
+		de: "Dieses Pokémon ist bei weiblichen Trainern aufgrund seines Fells beliebt."
+	},
 
 	thirdParty: {
 		cardmarket: 361360,

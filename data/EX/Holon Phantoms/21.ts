@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Latias δ",
 		fr: "Latias δ",
-		de: "Latias"
+		de: "Latias δ"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verbrannt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: 40,
 

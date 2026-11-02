@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skorupi"
+		en: "Skorupi",
+		fr: "Rapion"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Bug Bite"
+			en: "Bug Bite",
+			fr: "Piqûre"
 		},
 
 		damage: 20,

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Tentacool",
 		fr: "Tentacool",
+		de: "Tentacha"
 	},
 
 	stage: "Stage1",
@@ -93,6 +94,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Normally, it has 80 poisonous tentacles. The longer one has been alive, the fewer tentacles it will have.",
+		de: "Es hat für gewöhnlich 80 giftige Tentakel. Mit dem Alter verliert es diese jedoch nach und nach."
+	},
 
 	thirdParty: {
 		cardmarket: 297487,

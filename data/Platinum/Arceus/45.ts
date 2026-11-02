@@ -12,18 +12,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		279,
-	],
+	dexId: [279],
 	
 	hp: 90,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Wingull",
+		de: "Wingull"
 	},
 
 	stage: "Stage1",
@@ -39,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each Water Energy attached to Pelipper.",
-				de: "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Pelipper angelegte -Energie zu."
+				de: "Dieser Angriff fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Pelipper angelegte {W}-Energie zu."
 			},
 			damage: "20+",
 
@@ -76,19 +75,28 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278896,
-		tcgplayer: 87979
+	description: {
+		en: "It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill.",
+		de: "Ein Bote der Lüfte. Bringt Eier und kleine Pokémon in seinem Schnabel in Sicherheit."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87979,
+				cardmarket: 278896
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278896,
+				tcgplayer: 87979
+			}
+		},
+	],
+
 }
 
 export default card

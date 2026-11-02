@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "As it digs through the sand, its giant jaws crush any rocks that obstruct its path. It builds a funnel-shaped nest.",
+		de: "Es gräbt im Sand und zerquetscht dabei mit seinem gigantischen Kiefer störende Felsen. Sein Bau hat die Form eines Trichters."
+	},
+
 	thirdParty: {
 		cardmarket: 363504,
 		tcgplayer: 175425

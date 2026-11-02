@@ -74,19 +74,33 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751671,
+				tcgplayer: 534523,
+				cardtrader: 272983
+			}
+		},
+	],
 
 	illustrator: "Sanosuke Sakuma",
 
-	thirdParty: {
-		cardmarket: 751671
-	}
+	description: {
+		en: "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+		de: "Mithilfe seines Schweifs entlädt es Elektrizität in den Boden, um sich auf diese Weise vor elektrischen Schlägen zu schützen."
+	},
+
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		352,
-	],
+	dexId: [352],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -35,9 +33,9 @@ const card: Card = {
 			},
 			effect: {
 				en: "Kecleon's type is Grass Fire Water Lightning Psychic Fighting Darkness Metal Colorless.",
-				fr: "Kecleon est de type GrassFireWaterLightningPsychicFightingDarknessMetalColorless.",
-				de: "Kecleons Typ ist		 ."
-			},
+				fr: "Kecleon est de type {G}{R}{W}{L}{P}{F}{D}{M}{C}.",
+				de: "Kecleons Typ ist {G}{R}{W}{L}{P}{F}{D}{M}{C}."
+			}
 		},
 	],
 
@@ -56,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage plus 20 more damage for each heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires pour chaque face.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10+",
 
@@ -69,22 +67,30 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278641,
-		tcgplayer: 86431
+	description: {
+		en: "It can freely change its body's color. The zigzag pattern on its belly doesn't change, however.",
+		de: "Es kann nach Belieben seine Farbe ändern. Nur das gezackte Muster auf seinem Bauch bleibt gleich."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278641,
+				tcgplayer: 86431
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278641,
+				tcgplayer: 86431
+			}
+		},
+	],
+
 }
 
 export default card

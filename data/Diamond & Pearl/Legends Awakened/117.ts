@@ -64,6 +64,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The aura that emanates from its body intensifies to alert others if it is afraid or sad.",
+		de: "Die Aura, die dieses PKMN umgibt, verstärkt sich, wenn es zeigen will, dass es ängstlich oder traurig ist."
+	},
+
 	thirdParty: {
 		cardmarket: 278266,
 		tcgplayer: 88754

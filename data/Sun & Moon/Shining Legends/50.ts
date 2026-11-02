@@ -86,6 +86,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck.",
+		de: "Es zieht seine gummiartige Haut bis zum Hals hinauf und nimmt eine Abwehrhaltung ein, um sich vor Schaden zu schützen."
+	},
+
 	thirdParty: {
 		cardmarket: 302188,
 		tcgplayer: 146712

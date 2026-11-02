@@ -59,23 +59,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Unable to survive in hot areas, it makes itself comfortable by breathing out air cold enough to cause snow. It burrows into the snow to sleep."
+		en: "Unable to survive in hot areas, it makes itself comfortable by breathing out air cold enough to cause snow. It burrows into the snow to sleep.",
+		de: "Gelatini kann nicht an warmen Orten leben. Es erzeugt Schnee, indem es kalte Luft ausatmet, und vergräbt sich dann darin, um zu schlafen."
 	},
 
-	thirdParty: {
-		cardmarket: 483104,
-		tcgplayer: 219348
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483104,
+				tcgplayer: 219348
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483104,
+				tcgplayer: 219348
+			}
+		},
+	],
 }
 
 export default card

@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Flare",
 				fr: "Flamboiement",
+				de: "Flackern"
 			},
 
 			damage: 20,
@@ -51,6 +52,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It is very agile. Before going to sleep, it extinguishes the flame on its tail to prevent fires.",
+		de: "Dieses flinke Pokémon löscht vor dem Schlafengehen die Flamme auf seinem Schweif, um Feuer zu verhindern."
+	},
 
 	thirdParty: {
 		cardmarket: 280755,

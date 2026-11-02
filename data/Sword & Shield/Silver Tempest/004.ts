@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Ariados"
 	},
 
+	illustrator: "Tika Matsuno",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 90,
@@ -48,7 +49,7 @@ const card: Card = {
 			es: "Los ataques de los Pokémon V-ASTRO de tu rival cuestan Colorless más. No puedes aplicar más de 1 habilidad Hilos Ocultos a la vez.",
 			it: "Il costo degli attacchi dei Pokémon-V ASTRO del tuo avversario aumenta di Colorless. Non puoi applicare più di un'abilità Tela Occulta alla volta.",
 			pt: "Os ataques dos Pokémon V-ASTRO do seu oponente custam Colorless a mais. Você não pode usar mais de 1 Habilidade Fios Ocultos por vez.",
-			de: "Die Kosten der Attacken von Pokémon-VSTAR deines Gegners erhöhen sich um Colorless. Du kannst immer nur jeweils 1 Fähigkeit Verborgene Fäden einsetzen."
+			de: "Die Kosten der Attacken von Pokémon-VSTAR deines Gegners erhöhen sich um {C}. Du kannst immer nur jeweils 1 Fähigkeit Verborgene Fäden einsetzen."
 		}
 	}],
 
@@ -67,20 +68,37 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "It spews threads from its mouth to catch its prey. When night falls, it leaves its web to go hunt aggressively.",
+		de: "Seine Beute ergreift es mit einem Seidenfaden. Bei Anbruch der Nacht verlässt es sein Netz und macht sich auf die Jagd."
 	},
 
-	thirdParty: {
-		cardmarket: 682043,
-		tcgplayer: 451624
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682043,
+				tcgplayer: 451624
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682043,
+				tcgplayer: 451624
+			}
+		},
+	],
 }
 
 export default card

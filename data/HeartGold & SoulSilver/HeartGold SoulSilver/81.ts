@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		79,
-	],
+	dexId: [79],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -55,22 +53,27 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It lazes vacantly near water. If something bites its tail, it won’t even notice for a whole day."
+		en: "It lazes vacantly near water. If something bites its tail, it won’t even notice for a whole day.",
+		de: "Es faulenzt am Wasser. Wenn es in den Schweif gebissen wird, bemerkt es das erst am nächsten Tag."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89332,
+				cardmarket: 279053
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89332,
+				cardmarket: 279053
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279053,
-		tcgplayer: 89332
-	}
 }
 
 export default card

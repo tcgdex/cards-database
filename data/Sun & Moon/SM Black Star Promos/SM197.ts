@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "MPC Film",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Frogadier",
-		fr: "Croâporal"
+		fr: "Croâporal",
+		de: "Amphizel"
 	},
 
 	suffix: "GX",
@@ -90,7 +91,7 @@ const card: Card = {
 				es: "Niebla Oscura GX",
 				it: "Foscanebbia GX",
 				pt: "Névoa Sombria GX",
-				de: "Dunkelnebel GX"
+				de: "Dunkelnebel-GX"
 			},
 			effect: {
 				en: "Put 1 of your opponent’s Benched Pokémon and all cards attached to it into your opponent’s hand. (You can’t use more than 1 GX attack in a game.)",
@@ -111,7 +112,17 @@ const card: Card = {
 		},
 	],
 
-	retreat: 1
+	retreat: 1,
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 368855,
+				tcgplayer: 185250
+			}
+		}
+	],
 }
 
 export default card

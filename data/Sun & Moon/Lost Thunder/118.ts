@@ -68,6 +68,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When its delicate pride is wounded, or when the gold coin on its forehead is dirtied, it flies into a hysterical rage.",
+		de: "Verletzt man seinen großen Stolz oder macht die Münze an seiner Stirn schmutzig, so verfällt es in eine wahnsinnige Hysterie."
+	},
+
 	thirdParty: {
 		cardmarket: 365755,
 		tcgplayer: 178931

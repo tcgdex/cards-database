@@ -75,12 +75,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -88,10 +82,22 @@ const card: Card = {
 		en: "It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches."
 	},
 
-	thirdParty: {
-		cardmarket: 511675,
-		tcgplayer: 226447
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511675,
+				tcgplayer: 226447
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511675,
+				tcgplayer: 226447
+			}
+		},
+	],
 }
 
 export default card

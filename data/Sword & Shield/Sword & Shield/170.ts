@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Une 1 carta de Energía Metal de tu pila de descartes a 1 de tus Pokémon Metal en Banca.",
 		it: "Assegna a uno dei tuoi Pokémon Metal in panchina una carta Energia Metal dalla tua pila degli scarti.",
 		pt: "Ligue 1 carta de Energia Metal da sua pilha de descarte a 1 dos seus Pokémon Metal no Banco.",
-		de: "Lege 1 Metal-Energiekarte aus deinem Ablagestapel an 1 Metal-Pokémon auf deiner Bank an."
+		de: "Lege 1 {M}-Energiekarte aus deinem Ablagestapel an 1 {M}-Pokémon auf deiner Bank an. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

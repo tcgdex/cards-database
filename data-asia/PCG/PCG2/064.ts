@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "ドラゴンリフト",
 			},
 			effect: {
-				ja: "Pokã©Mon（Pokã©Mon-ExとBabyPokã©Monを除く）のリトリートコストは0です。",
+				ja: "PokéMon（PokéMon-ExとBabyPokéMonを除く）のリトリートコストは0です。",
 			},
 		}],
 

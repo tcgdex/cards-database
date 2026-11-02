@@ -24,7 +24,7 @@ const card: Card = {
 		es: "Pikachu ex",
 		it: "Pikachu-ex",
 		pt: "Pikachu ex",
-		de: "Pikachu-ex"
+		de: "Pikachu"
 	},
 	stage: "Stage1",
 
@@ -72,19 +72,33 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715686,
+				tcgplayer: 497614,
+				cardtrader: 248865
+			}
+		},
+	],
 
+	suffix: "ex",
 	illustrator: "Toshinao Aoki",
 
-	thirdParty: {
-		cardmarket: 715686
-	}
+	description: {
+		en: "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+		de: "Mithilfe seines Schweifs entlädt es Elektrizität in den Boden, um sich auf diese Weise vor elektrischen Schlägen zu schützen."
+	},
 }
 
 export default card

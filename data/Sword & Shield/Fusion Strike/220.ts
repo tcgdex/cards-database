@@ -29,12 +29,25 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Naoyo Kimura",
 
 	description: {
-		en: "The lessons of many harsh battles have taught it how to accurately judge an opponent's strength."
+		en: "The lessons of many harsh battles have taught it how to accurately judge an opponent's strength.",
+		de: "Es hat viele heftige Kämpfe überstanden und dabei gelernt, die Stärke seiner Gegner stets korrekt einzuschätzen."
 	},
 
 	attacks: [{
@@ -61,17 +74,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582956,
-		tcgplayer: 253320
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582956,
+				tcgplayer: 253320
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582956,
+				tcgplayer: 253320
+			}
+		},
+	],
 }
 
 export default card

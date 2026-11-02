@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Toxapex"
+		en: "Toxapex",
+		fr: "Prédastérie"
 	},
 
 	illustrator: "Ligton",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Mareanie"
+		en: "Mareanie",
+		fr: "Vorastérie"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Venoshock"
+			en: "Venoshock",
+			fr: "Choc Venin"
 		},
 
 		damage: 50,
 		cost: ["Darkness", "Darkness"],
 
 		effect: {
-			en: "If your opponent's Active Pokémon is Poisoned, this attack does 70 more damage."
+			en: "If your opponent's Active Pokémon is Poisoned, this attack does 70 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire est Empoisonné, cette attaque inflige 70 dégâts de plus."
 		}
 	}],
 

@@ -46,10 +46,25 @@ const card: Card = {
 		},
 	],
 
-
-
-
-
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85928
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				tcgplayer: 85928
+			}
+		},
+		{
+			type: 'normal',
+			subtype: 'no-e-reader'
+		}
+	]
 }
 
 export default card

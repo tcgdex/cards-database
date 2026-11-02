@@ -12,18 +12,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		78,
-	],
+	dexId: [78],
 	
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Ponyta",
+		de: "Ponita"
 	},
 
 	stage: "Stage1",
@@ -38,7 +37,7 @@ const card: Card = {
 			effect: {
 				en: "Prevent all effects of attacks, including damage, done to Rapidash by your opponent's Pokémon SP.",
 				de: "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die Gallopa von gegnerischen Pokémon SP zugefügt würden."
-			},
+			}
 		},
 	],
 
@@ -67,7 +66,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 50 damage plus 20 more damage.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 
@@ -81,19 +80,24 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 278900,
-		tcgplayer: 88585
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88585,
+				cardmarket: 278900
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278900,
+				tcgplayer: 88585
+			}
+		},
+	],
+
+	retreat: 0
 }
 
 export default card

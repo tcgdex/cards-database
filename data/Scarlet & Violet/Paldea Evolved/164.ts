@@ -44,18 +44,46 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715639,
+				tcgplayer: 497583,
+				cardtrader: 248807
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715639,
+				tcgplayer: 497583,
+				cardtrader: 248807
+			}
+		},
+	],
 
 	illustrator: "Naoki Saito",
 
-	thirdParty: {
-		cardmarket: 715639
-	}
+	description: {
+		en: "This Pokémon is brave and reckless. The white markings around a Rookidee's eyes intimidate fainthearted Pokémon.",
+		de: "Dieses Pokémon ist ebenso tapfer wie tollkühn. Die weiße Musterung um seine Augen schüchtert ängstliche Pokémon ein."
+	},
 }
 
 export default card

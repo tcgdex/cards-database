@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Rufflet",
 		fr: "Furaiglon",
+		de: "Geronimatz"
 	},
 
 	stage: "Stage1",
@@ -100,6 +101,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "The more scars it has on its front, the more heroic it's considered to be. Those with many scars on their back are mocked by the flock.",
+		de: "Unter Washakwil gelten Narben an der Stirnseite als Beweis für Mut. Diejenigen, die viele Narben auf der Rückseite vorweisen, werden verhöhnt."
+	},
 
 	thirdParty: {
 		cardmarket: 408514,

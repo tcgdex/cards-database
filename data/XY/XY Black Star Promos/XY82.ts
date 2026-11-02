@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -67,6 +67,10 @@ const card: Card = {
 	],
 
 	retreat: 4,
+
+	description: {
+		en: "There is an enduring legend that states this Pokémon towed continents with ropes.",
+	},
 
 	thirdParty: {
 		cardmarket: 289805

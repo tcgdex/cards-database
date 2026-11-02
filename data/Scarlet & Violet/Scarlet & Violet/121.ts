@@ -66,8 +66,18 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		holo: false
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
+	description: {
+		en: "The elemental composition of the rocks that form its body were found to match the bedrock of a land far away from this Pokémon's habitat.",
+		de: "Sein Körper setzt sich aus Steinen zusammen, die mit dem Grundgestein einer weit von seinem Lebensraum entfernten Gegend identisch sind."
 	},
 
 	thirdParty: {

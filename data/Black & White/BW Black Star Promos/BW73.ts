@@ -74,6 +74,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "To protect itself, it afflicts those around it with nightmares. However, it means no harm.",
+	},
 }
 
 export default card

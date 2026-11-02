@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Fletchinder",
@@ -73,15 +67,28 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its speed right after takeoff already puts it in the top speed class of all bird Pokémon."
+		en: "Its speed right after takeoff already puts it in the top speed class of all bird Pokémon.",
+		de: "Kaum ein anderes Vogel-Pokémon gewinnt direkt nach dem Abflug so schnell an Tempo wie Dartignis."
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574197,
-		tcgplayer: 246882
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574197,
+				tcgplayer: 246882
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574197,
+				tcgplayer: 246882
+			}
+		},
+	],
 }
 
 export default card

@@ -64,18 +64,42 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The energetic, cheerful dance of these Oricorio is popular with children, but the Oricorio themselves are hard to find in Paldea.",
+		de: "Sein schwungvoller, heiterer Tanzstil macht dieses Pokémon zwar bei Kindern beliebt, doch in Paldea trifft man es kaum an."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740558,
+				tcgplayer: 523702,
+				cardtrader: 265140
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740558,
+				tcgplayer: 523702,
+				cardtrader: 265140
+			}
+		},
+	],
 
 	illustrator: "Saya Tsuruta",
 
-	thirdParty: {
-		cardmarket: 740558
-	}
+	
 }
 
 export default card

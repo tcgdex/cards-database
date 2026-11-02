@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SV1V"
 
 const card: Card = {
+	dexId: [990],
 	set: Set,
 
 	name: {
@@ -64,6 +65,17 @@ const card: Card = {
 		type: "Grass",
 		value: "-30"
 	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardtrader: 235635,
+				cardmarket: 693133,
+				tcgplayer: 568284,
+			},
+		},
+	],
 
 	retreat: 3,
 	regulationMark: "G"

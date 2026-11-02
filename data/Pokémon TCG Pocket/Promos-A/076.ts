@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Blacephalon",
-		es: "Blacephalon"
+		es: "Blacephalon",
+		de: "Kopplosio"
 	},
 
 	illustrator: "Hasuno",
@@ -20,6 +21,7 @@ const card: Card = {
 	description: {
 		en: "It slithers toward people. Then, without warning, it triggers the\nexplosion of its own head. It's apparently one kind of Ultra Beast.",
 		es: "Parece ser uno de los temibles Ultraentes. Se acerca a la gente\ncontoneándose y hace explotar su propia cabeza súbitamente",
+		de: "Dieses Wesen ist vermutlich eine Ultrabestie. Es nähert sich Menschen tänzelnd, nur um dann plötzlich seinen Kopf explodieren zu lassen."
 
 	},
 
@@ -28,7 +30,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Beat Punk",
-			es: "Beat Punk"
+			es: "Beat Punk",
+			de: "Beat Punk"
 		},
 
 		damage: 130,
@@ -36,7 +39,8 @@ const card: Card = {
 
 		effect: {
 			en: "This Pokémon also does 70 damage to itself.",
-			es: "Este Pokémon también se hace 70 puntos de daño a si mismo"
+			es: "Este Pokémon también se hace 70 puntos de daño a si mismo",
+			de: "Dieses Pokémon fügt auch sich selbst 70 Schadenspunkte zu."
 		}
 	}],
 

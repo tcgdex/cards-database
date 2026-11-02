@@ -66,18 +66,48 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.",
+		de: "Die Gene von Mew wurden neu angeordnet, wodurch dieses Pokémon entstand. Es hat ein wildes Herz."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733745,
+				tcgplayer: 516713,
+				cardtrader: 261235
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733745,
+				tcgplayer: 516713,
+				cardtrader: 261235
+			}
+		},
+	],
 
 	illustrator: "AKIRA EGAWA",
 
-	thirdParty: {
-		cardmarket: 733745
-	}
+	
 }
 
 export default card

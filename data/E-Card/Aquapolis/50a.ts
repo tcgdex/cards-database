@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		55,
-	],
+	dexId: [55],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Psyduck",
-		fr: "Psykokwak"
+		fr: "Psykokwak",
+		de: "Enton"
 	},
 
 	stage: "Stage1",
@@ -59,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi. Si c'est pile, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei 'Kopf' schläft das Verteidigende Pokémon jetzt. Bei 'Zahl' ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf eine Münze. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt. Bei „Zahl“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -69,22 +68,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275122,
-		tcgplayer: 85813
-	},
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85813,
+				cardmarket: 275122
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 85813,
+				cardmarket: 275122
+			}
+		},
 	]
 }
 

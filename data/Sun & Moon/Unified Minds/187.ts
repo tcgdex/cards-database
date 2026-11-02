@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Los Pokémon a los que les queden 40 PS o menos (tanto tuyos como de tu rival) no pueden atacar.",
 		it: "l Pokémon che hanno 40 PS o meno rimanenti, sia tuoi che del tuo avversario, non possono attaccare.",
 		pt: "Pokémon com PS restante de 40 ou menos (seus e do seu oponente) não podem atacar.",
-		de: "Pokémon (deine und die deines Gegners), deren verbleibende KP 40 oder weniger betragen, können nicht angreifen."
+		de: "Pokémon (deine und die deines Gegners), deren verbleibende KP 40 oder weniger betragen, können nicht angreifen. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

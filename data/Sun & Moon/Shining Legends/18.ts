@@ -73,6 +73,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is small but rough and tough. It won't hesitate to take a bite out of anything that moves.",
+		de: "Es ist klein, aber zäh und stark. Es zögert nicht, jeden anzugreifen, wenn dieser ihm zu nahe kommt."
+	},
+
 	thirdParty: {
 		cardmarket: 302156,
 		tcgplayer: 146671

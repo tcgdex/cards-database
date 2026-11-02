@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		262,
-	],
+	dexId: [262],
 
 	hp: 70,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Stage1",
@@ -34,7 +32,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
-				de: "Bite"
+				de: "Biss"
 			},
 
 			damage: 20,
@@ -49,12 +47,12 @@ const card: Card = {
 			name: {
 				en: "Mystic Fang",
 				fr: "Croc mystique",
-				de: "Mystic Fang"
+				de: "Mystische Fänge"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Pokémon-ex, the Defending Pokémon is now Confused.",
 				fr: "Si le Pokémon Défenseur est un Pokémon-ex, il est maintenant Confus.",
-				de: "If the Defending Pokémon is Pokémon-ex, the Defending Pokémon is now Confused."
+				de: "Wenn das Verteidigende Pokémon ein Pokémon-ex ist, ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 50,
 
@@ -75,22 +73,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275992,
-		tcgplayer: 89792
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275792,
+				tcgplayer: 89792
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275792,
+				tcgplayer: 89792
+			}
+		},
+	],
+
 }
 
 export default card

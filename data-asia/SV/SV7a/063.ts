@@ -19,6 +19,16 @@ const card: Card = {
 		ja: "相手のベンチのたねポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをこんらんにする。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 787623,
+				tcgplayer: 579445,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "H",
 	rarity: "Uncommon"

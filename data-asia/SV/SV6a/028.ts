@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV6a"
+import { Card } from "../../../interfaces";
+import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "大嘴蝠"
+		ja: "ゴルバット",
+		'zh-tw': "大嘴蝠",
 	},
 
 	illustrator: "Teeziro",
@@ -14,44 +14,56 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		'zh-tw': "喜歡吸食生物的血液。 據說還會將吸來的血 分給空腹的夥伴。"
+		ja: "生き物の 血液が 好物。 腹ペコの 仲間に 吸った 血を 分け与えることも あるという。",
+		'zh-tw': "喜歡吸食生物的血液。 據說還會將吸來的血 分給空腹的夥伴。",
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "高速飛行"
+	attacks: [
+		{
+			name: {
+				ja: "スピードひこう",
+				'zh-tw': "高速飛行",
+			},
+			damage: 30,
+			cost: ["Darkness"],
 		},
-
-		damage: 30,
-		cost: ["Darkness"]
-	}, {
-		name: {
-			'zh-tw': "漆黑利刃"
+		{
+			name: {
+				ja: "しっこくのやいば",
+				'zh-tw': "漆黑利刃",
+			},
+			damage: 80,
+			cost: ["Darkness", "Colorless"],
+			effect: {
+				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。"
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 773777,
+				tcgplayer: 566279,
+			},
 		},
+	],
 
-		damage: 80,
-		cost: ["Darkness", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
+	evolveFrom: {
+		ja: "ズバット",
+	},
 
 	retreat: 1,
 	regulationMark: "H",
-	rarity: "Common"
-}
+	rarity: "Common",
+	dexId: [42],
+};
 
-export default card
+export default card;

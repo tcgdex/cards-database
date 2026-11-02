@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		395,
-	],
+	dexId: [395],
 
 	hp: 130,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Prinplup",
 		fr: "Prinplouf",
+		de: "Pliprin"
 	},
 
 	stage: "Stage2",
@@ -39,12 +38,12 @@ const card: Card = {
 			name: {
 				en: "Knock Off",
 				fr: "Sabotage",
-				de: "Knock Off"
+				de: "Abschlag"
 			},
 			effect: {
 				en: "Choose 1 card from your opponent's hand without looking and discard it.",
 				fr: "Choisissez sans regarder 1 carte de la main de votre adversaire et défaussez-la.",
-				de: "Choose 1 card from your opponent's hand without looking and discard it."
+				de: "Wähle 1 Karte von der Hand deines Gegners (ohne sie vorher anzusehen) und lege sie auf seinen Ablagestapel."
 			},
 			damage: 40,
 
@@ -58,12 +57,12 @@ const card: Card = {
 			name: {
 				en: "Jet Smash",
 				fr: "Éclat'jet",
-				de: "Jet Smash"
+				de: "Schmetterdüse"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 70 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Empoleon can't use Jet Smash during your next turn.",
 				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 70 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Pingoléon ne peut pas utiliser Écras'jet lors de votre prochain tour.",
-				de: "Choose 1 of your opponent's Pokémon. This attack does 70 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Empoleon can't use Jet Smash during your next turn."
+				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 70 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Impoleon kann Schmetterdüse in deinem nächsten Zug nicht einsetzen."
 			},
 
 		},
@@ -78,19 +77,28 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278447,
-		tcgplayer: 85200
+	description: {
+		en: "If anyone were to hurt its pride, it would slash them with wings that can cleave through an ice floe.",
+		de: "Würde jemand seine Ehre verletzen, so würde es mit Flügeln angreifen, die Eis zerschneiden können."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 85200,
+				cardmarket: 278447
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278447,
+				tcgplayer: 85200
+			}
 		}
-	]
+	],
+
 }
 
 export default card

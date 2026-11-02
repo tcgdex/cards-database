@@ -55,18 +55,40 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715492,
+				tcgplayer: 497430,
+				cardtrader: 248316
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715492,
+				tcgplayer: 497430,
+				cardtrader: 248316
+			}
+		},
+	],
 
 	illustrator: "Shin Nagasawa",
 
-	thirdParty: {
-		cardmarket: 715492
-	}
+	description: {
+		en: "It has its third set of legs folded up. When it's in a tough spot, this Pokémon jumps over 30 feet using the strength of its legs.",
+		de: "Sein drittes Beinpaar ist eingeklappt. In einer Notlage kann es dank dessen Kraft mehr als 10 m weit springen."
+	},
 }
 
 export default card

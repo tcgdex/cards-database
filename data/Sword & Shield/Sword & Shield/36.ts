@@ -51,7 +51,7 @@ const card: Card = {
 				es: "Une 1 carta de Energía Fire de tu pila de descartes a este Pokémon.",
 				it: "Assegna a questo Pokémon una carta Energia Fire dalla tua pila degli scarti.",
 				pt: "Ligue 1 carta de Energia Fire da sua pilha de descarte a este Pokémon.",
-				de: "Lege 1 Fire-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+				de: "Lege 1 {R}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 			},
 			damage: 40,
 
@@ -101,7 +101,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It juggles a pebble with its feet, turning it into a burning soccer ball. Its shots strike opponents hard and leave them scorched."
+		en: "It juggles a pebble with its feet, turning it into a burning soccer ball. Its shots strike opponents hard and leave them scorched.",
+		de: "Es jongliert kleine Steine mit den Füßen und erschafft daraus einen Flammenfußball. Seine Gegner verbrennt es mit scharfen Schüssen."
 	},
 
 	dexId: [815],

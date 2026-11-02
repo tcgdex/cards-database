@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S6K"
+import { Card } from "../../../interfaces";
+import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "鬼斯"
+		ja: "ゴース",
+		'zh-tw': "鬼斯",
 	},
 
 	illustrator: "Motofumi Fujiwara",
@@ -14,36 +14,44 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		'zh-tw': "能用稀薄氣體狀的身體潛入任何地方，但只要起風就會被吹跑。"
+		ja: "薄い ガスのような 体で どこにでも 忍びこむが 風が 吹くと 吹きとばされる。",
+		'zh-tw': "能用稀薄氣體狀的身體潛入任何地方，但只要起風就會被吹跑。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "睡眠波動"
+	attacks: [
+		{
+			name: {
+				ja: "ねむりのはどう",
+				'zh-tw': "睡眠波動",
+			},
+			damage: 10,
+			cost: ["Psychic"],
+			effect: {
+				ja: "コインを1回投げオモテなら、相手のバトルポケモンをねむりにする。",
+				'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【睡眠】。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【睡眠】。"
+	weaknesses: [{ type: "Darkness", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 560774,
+				tcgplayer: 569253,
+			},
 		},
-
-		damage: 10,
-		cost: ["Psychic"]
-	}],
-
-	weaknesses: [{
-		type: "Darkness",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
+	],
 
 	retreat: 1,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Common",
+	dexId: [92],
+};
 
-export default card
+export default card;

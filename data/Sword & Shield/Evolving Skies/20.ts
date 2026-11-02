@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Victini",
@@ -58,16 +52,29 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When it shares the infinite energy it creates, that being's entire body will be overflowing with power."
+		en: "When it shares the infinite energy it creates, that being's entire body will be overflowing with power.",
+		de: "Jeder, dem Victini seine grenzenlose Energie zuteilwerden lässt, strotzt nur so vor Kraft."
 	},
 
 	dexId: [494],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574044,
-		tcgplayer: 246836
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574044,
+				tcgplayer: 246836
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574044,
+				tcgplayer: 246836
+			}
+		},
+	],
 }
 
 export default card

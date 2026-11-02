@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Chansey",
 		fr: "Leveinard",
+		de: "Chaneira"
 	},
 
 	stage: "Stage1",
@@ -91,6 +92,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "Its fluffy fur coat acts as a sensor, enabling it to read the feelings of people and Pokémon.",
+		de: "Sein flauschiges Fell ist wie ein Sensor, mit dem es die Gefühle von Pokémon und Menschen wahrnehmen kann."
+	},
 
 	thirdParty: {
 		cardmarket: 365790,

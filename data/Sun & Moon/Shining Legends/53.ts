@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Zorua",
 		fr: "Zorua",
+		de: "Zorua"
 	},
 
 	suffix: "GX",
@@ -91,7 +92,7 @@ const card: Card = {
 				es: "Ilusionista GX",
 				it: "Illusionista-GX",
 				pt: "Traquino GX",
-				de: "Trickser GX"
+				de: "Trickser-GX"
 			},
 			effect: {
 				en: "Choose 1 of your opponent’s Pokémon’s attacks and use it as this attack. (You can’t use more than 1 GX attack in a game.)",
@@ -99,7 +100,7 @@ const card: Card = {
 				es: "Elige 1 de los ataques de los Pokémon de tu rival y úsalo para este ataque. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Scegli uno degli attacchi dei Pokémon del tuo avversario e usalo al posto di questo attacco. Non puoi usare più di un attacco GX a partita.",
 				pt: "Escolha 1 ataque dos Pokémon do seu oponente e use-o como este ataque (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Wähle 1 Attacke der Pokémon deines Gegners und setze sie als diese Attacke ein.  (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				de: "Wähle 1 Attacke der Pokémon deines Gegners und setze sie als diese Attacke ein. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 
 		},

@@ -4,7 +4,8 @@ import Set from '../POP Series 6'
 const card: Card = {
 	name: {
 		en: "Lucario",
-		fr: "Lucario"
+		fr: "Lucario",
+		de: "Lucario"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -12,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		448,
-	],
+	dexId: [448],
 
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Riolu",
-		fr: "Riolu"
+		fr: "Riolu",
+		de: "Riolu"
 	},
 
 	stage: "Stage1",
@@ -36,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Feint",
-				fr: "Ruse"
+				fr: "Ruse",
+				de: "Offenlegung"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+				en: "This attack's damage isn't affected by Resistance.",
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "Der Schaden dieses Angriffs wird durch die Resistenz des Verteidigenden Pokémon nicht verändert."
 			},
 			damage: 30,
 
@@ -52,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Aura Sphere",
-				fr: "Aurasphère"
+				fr: "Aurasphère",
+				de: "Aurasphäre"
 			},
 			effect: {
-				en: "Does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+				en: "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				fr: "Inflige 20 dégâts à 1 des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 40,
 
@@ -69,24 +73,23 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	description: {
-		en: "It has the ability to sense the auras of all things. It understands human speech."
+		en: "It has the ability to sense the auras of all things. It understands human speech.",
+		de: "Es besitzt die Fähigkeit, die Aura aller Dinge zu spüren. Es versteht die menschliche Sprache."
 	},
 
 	retreat: 1,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86874,
+				cardmarket: 277887
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277887,
-		tcgplayer: 86874
-	}
 }
 
 export default card

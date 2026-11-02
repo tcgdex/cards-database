@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Los jugadores ponen 1 Pokémon de su pila de descartes en su mano. (Tu rival elige primero).",
 		it: "Ciascun giocatore prende un Pokémon dalla sua pila degli scarti e lo aggiunge alle carte che ha in mano (il tuo avversario sceglie per primo).",
 		pt: "Cada jogador coloca um Pokémon da sua pilha de descarte na sua mão. (Seu oponente escolhe primeiro.)",
-		de: "Jeder Spieler nimmt 1 Pokémon aus seinem Ablagestapel auf seine Hand. (Dein Gegner beginnt.)"
+		de: "Jeder Spieler nimmt 1 Pokémon aus seinem Ablagestapel auf seine Hand. (Dein Gegner beginnt.) Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

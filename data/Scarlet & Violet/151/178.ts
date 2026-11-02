@@ -44,19 +44,34 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
+	description: {
+		en: "Hidden beneath a tangle of vines that grows nonstop even if the vines are torn off, this Pokémon's true appearance remains a mystery.",
+		de: "Seine wahre Gestalt ist weiterhin ein Mysterium, da sie von Ranken verdeckt wird, die unaufhörlich nachwachsen, selbst wenn sie abreißen."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733773,
+				tcgplayer: 517036,
+				cardtrader: 261294
+			}
+		},
+	],
 
 	illustrator: "Oswaldo KATO",
 
-	thirdParty: {
-		cardmarket: 733773
-	}
+	
 }
 
 export default card

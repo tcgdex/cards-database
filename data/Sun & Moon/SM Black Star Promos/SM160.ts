@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Nidoqueen"
 	},
 	illustrator: "Midori Harada",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Nidorina",
 		fr: "Nidorina",
+		de: "Nidorina"
 	},
 	stage: "Stage2",
 
@@ -87,6 +88,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It uses its scaly, rugged body to seal the entrance of its nest and protect its young from predators.",
+		de: "Es benutzt seinen schuppigen Körper, um den Höhleneingang als Schutz für seine Jungen zu sperren."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 368853,
+				tcgplayer: 183970
+			}
+		}
+	],
 }
 
 export default card

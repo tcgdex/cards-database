@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [41],
 
 	dexId: [
 		50,
@@ -55,6 +56,11 @@ const card: Card = {
 	],
 
 	retreat: 0,
+
+	description: {
+		en: "Its skin is very thin. If it is exposed to light, its blood heats up, causing it to grow weak.",
+		de: "Seine Haut ist sehr dünn. Wird es Sonnenlicht ausgesetzt, erhitzt sich sein Blut und es wird schwach."
+	},
 
 	thirdParty: {
 		cardmarket: 289862,

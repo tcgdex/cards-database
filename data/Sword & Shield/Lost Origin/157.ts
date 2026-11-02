@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Lamina"
 	},
 
+	illustrator: "Ryuta Fuse",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -22,22 +23,29 @@ const card: Card = {
 		es: "Puedes usar esta carta solo si tienes 10 cartas o más en la Zona Perdida.\nDurante el próximo turno de tu rival, los ataques de los Pokémon V de tu rival hacen 120 puntos de daño menos a todos tus Pokémon\n(después de aplicar Debilidad y Resistencia). (Esto incluye Pokémon que entran en juego durante ese turno).",
 		it: "Puoi usare questa carta solo se hai 10 o più carte nell'area perduta.\nDurante il prossimo turno del tuo avversario, i tuoi Pokémon subiscono 120 danni in meno dagli attacchi dei Pokémon-V del tuo avversario, dopo aver applicato debolezza e resistenza. Questo include i Pokémon entrati in gioco durante quel turno.",
 		pt: "Você só pode usar esta carta se tiver 10 ou mais cartas na Zona Perdida.\nDurante o próximo turno do seu oponente, todos os seus Pokémon receberão 120 pontos de dano a menos de ataques dos Pokémon V do seu oponente\n(depois de aplicar Fraqueza e Resistência). (Isto inclui Pokémon que entrarem em jogo durante aquele turno.)",
-		de: "Du kannst diese Karte nur verwenden, wenn du 10 oder mehr Karten im Nirgendwo hast.\nWährend des nächsten Zuges deines Gegners werden allen deinen Pokémon durch Attacken von Pokémon-V deines Gegners 120 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden). (Dies schließt Pokémon ein, die während jenes Zuges ins Spiel gebracht werden.)"
+		de: "Du kannst diese Karte nur verwenden, wenn du 10 oder mehr Karten im Nirgendwo hast. Während des nächsten Zuges deines Gegners werden allen deinen Pokémon durch Attacken von Pokémon-V deines Gegners 120 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden). (Dies schließt Pokémon ein, die während jenes Zuges ins Spiel gebracht werden.) Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674165,
-		tcgplayer: 284088
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674165,
+				tcgplayer: 284088
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674165,
+				tcgplayer: 284088
+			}
+		},
+	],
 }
 
 export default card

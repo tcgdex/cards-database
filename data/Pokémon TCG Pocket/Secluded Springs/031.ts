@@ -18,7 +18,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Yamper"
+		en: "Yamper",
+		fr: "Voltoutou"
 	},
 
 	description: {

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Lickitung",
 		fr: "Excelangue",
+		de: "Schlurp"
 	},
 
 	stage: "Stage1",
@@ -88,6 +89,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "Their saliva contains lots of components that can dissolve anything. The numbness caused by their lick does not dissipate.",
+		de: "Ihr Speichel enthält eine ätzende Substanz, die bei Kontakt mit der Haut anhaltende Taubheit erzeugt."
+	},
 
 	thirdParty: {
 		cardmarket: 316029,

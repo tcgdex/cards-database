@@ -85,10 +85,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299471,
-		tcgplayer: 138555
-	}
+	description: {
+		en: "Solar energy is the source of its power, so it is strong during the daytime. When it spins, its body shines.",
+		de: "Da es seine Energie aus Sonnenlicht gewinnt, ist es tagsüber am stärksten. Wenn es sich dreht, leuchtet es."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299471,
+				tcgplayer: 138555
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299471,
+				tcgplayer: 138555
+			}
+		},
+	],
 }
 
 export default card

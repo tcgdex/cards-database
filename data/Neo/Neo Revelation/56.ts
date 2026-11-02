@@ -51,7 +51,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -64,23 +64,31 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "La nuit, le centre de son corps clignote doucement au rythme d'un cœur humain."
+		en: "At night, the center of its body slowly flickers with the same rhythm as a human heartbeat.",
+		fr: "La nuit, le centre de son corps clignote doucement au rythme d'un cœur humain.",
+		de: "In der Nacht flackert die Mitte seines Körpers langsam, im selben Rhythmus wie der menschliche Puls."
 	},
 
-	thirdParty: {
-		cardmarket: 274642,
-		tcgplayer: 89542
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274642,
+				tcgplayer: 89542
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274642,
+				tcgplayer: 89542
+			}
 		}
 	]
 }

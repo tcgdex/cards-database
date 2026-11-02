@@ -48,22 +48,40 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "This popular symbol of good fortune will never fall over in its sleep, no matter how it's pushed or pulled.",
+		fr: "On a beau le pousser ou le tirer, quand il dort, rien ne le fait vaciller. Cette qualité lui a valu de devenir un emblème pour les porte-bonheurs.",
+		de: "Während es schläft, lässt es sich nicht mal mit Gewalt umstoßen. Aus diesem Grund ist es ein beliebtes Motiv für Glücksbringer."
+	},
+
+	illustrator: "NC Empire",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857590,
+				tcgplayer: 662147,
+				cardtrader: 356798
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857590,
+				tcgplayer: 662147,
+				cardtrader: 356798
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857590,
-		tcgplayer: 662147
-	}
 }
 
 export default card

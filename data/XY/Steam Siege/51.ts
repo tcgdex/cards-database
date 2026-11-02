@@ -87,6 +87,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It is said to be able to seize anything it desires with its six rings and six huge arms. With its power sealed, it is transformed into a much smaller form.",
+		de: "Mit seinen sechs Ringen und seinen sechs riesigen Armen kann es alles an sich reißen, was es möchte. Wenn seine Kraft versiegelt wird, nimmt es jedoch eine kleinere Gestalt an."
+	},
+
 	thirdParty: {
 		cardmarket: 291542,
 		tcgplayer: 121140

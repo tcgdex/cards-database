@@ -9,19 +9,17 @@ const card: Card = {
 	},
 
 	illustrator: "Katsura Tabata",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		319,
-	],
+	dexId: [319],
 
 	hp: 70,
 
 	types: [
 		"Water",
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Stage1",
@@ -35,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Rage",
 				fr: "Frénésie",
-				de: "Rage"
+				de: "Raserei"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on Team Aqua's Sharpedo.",
 				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Sharpedo de Team Aqua.",
-				de: "Does 10 damage plus 10 more damage for each damage counter on Team Aqua's Sharpedo."
+				de: "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Team Aquas Tohaido zu."
 			},
 			damage: "10+",
 
@@ -54,12 +52,12 @@ const card: Card = {
 			name: {
 				en: "Aqua Slash",
 				fr: "Aqua-tranche",
-				de: "Aqua Slash"
+				de: "Aquaschlag"
 			},
 			effect: {
 				en: "Team Aqua's Sharpedo can't attack during your next turn.",
 				fr: "Sharpedo de Team Aqua ne peut pas attaquer lors de votre prochain tour.",
-				de: "Team Aqua's Sharpedo can't attack during your next turn."
+				de: "Team Aquas Tohaido kann in deinem nächsten Zug nicht angreifen."
 			},
 			damage: 60,
 
@@ -73,22 +71,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 0,
 
-	thirdParty: {
-		cardmarket: 275982,
-		tcgplayer: 89799
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275782,
+				tcgplayer: 89799
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275782,
+				tcgplayer: 89799
+			}
+		},
+	],
+
 }
 
 export default card

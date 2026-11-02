@@ -86,7 +86,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Its whole body is composed of muscles. Even though it's the size of a human child, it can hurl 100 grown-ups."
+		en: "Its whole body is composed of muscles. Even though it's the size of a human child, it can hurl 100 grown-ups.",
+		de: "Sein ganzer Körper besteht aus Muskeln. Auch wenn es nur so groß wie ein Menschenkind ist, kann es 100 Erwachsene jonglieren."
 	},
 
 	thirdParty: {

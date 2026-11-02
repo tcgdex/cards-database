@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		468,
-	],
+	dexId: [468],
 
 	hp: 120,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Togetic",
 		fr: "Togetic",
+		de: "Togetic"
 	},
 
 	stage: "Stage2",
@@ -62,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 80,
 
@@ -86,25 +85,33 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "As everyone knows, it visits peaceful regions, bringing them gifts of kindness and sweet blessings."
+		en: "As everyone knows, it visits peaceful regions, bringing them gifts of kindness and sweet blessings.",
+		de: "Es heißt, TOGEKISS erscheint in friedlichen Zeiten und verteile alle möglichen Wohltaten."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279262,
+				tcgplayer: 89924
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279262,
+				tcgplayer: 89924
+			}
 		},
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 125046
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279262,
-		tcgplayer: 89924
-	}
 }
 
 export default card

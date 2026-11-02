@@ -65,18 +65,42 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Once ingested into this Pokémon's body, even the hardest object will melt into nothing.",
+		de: "Selbst die härtesten Objekte werden zersetzt, wenn der Körper sie erst aufgenommen hat."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733666,
+				tcgplayer: 516564,
+				cardtrader: 261223
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733666,
+				tcgplayer: 516564,
+				cardtrader: 261223
+			}
+		},
+	],
 
 	illustrator: "Jerky",
 
-	thirdParty: {
-		cardmarket: 733650
-	}
+	
 }
 
 export default card

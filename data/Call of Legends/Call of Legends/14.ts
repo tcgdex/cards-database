@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Takashi Yamaguchi",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		448,
-	],
+	dexId: [448],
 
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Riolu",
 		fr: "Riolu",
+		de: "Riolu"
 	},
 
 	stage: "Stage1",
@@ -63,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
 				fr: "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance.",
-				de: "Der Schaden dieses Angrffs wird durch Resistenz nicht verändert."
+				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 70,
 
@@ -73,16 +72,33 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	description: {
+		en: "It's said that no foe can remain invisible to Lucario, since it can detect auras. Even foes it could not otherwise see.",
+		de: "Man sagt, es sei fähig, die Aura anderer Pokémon zu sehen. So kann es unsichtbare Gegner ausmachen."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86881,
+				cardmarket: 279657
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86881,
+				cardmarket: 279657
+			},
 		},
 	],
 
-	retreat: 1,
-
-	thirdParty: {
-		cardmarket: 279657,
-		tcgplayer: 86881
-	}
 }
 
 export default card

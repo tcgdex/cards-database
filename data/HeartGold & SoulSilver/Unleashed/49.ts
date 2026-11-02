@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		116,
-	],
+	dexId: [116],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -52,9 +50,9 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
@@ -69,31 +67,40 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its big, developed fins move rapidly, allowing it to swim backward while still facing forward."
+		en: "Its big, developed fins move rapidly, allowing it to swim backward while still facing forward.",
+		de: "Seine Flossen sind sehr schnell. Dadurch kann es rückwärts schwimmen, ohne seinen Kopf umzudrehen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86192,
+				cardmarket: 279205
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86192,
+				cardmarket: 279205
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["gustavo-wada"],
+			thirdParty: {
+				cardmarket: 868152,
+				tcgplayer: 480408
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["snowflake"],
-			languages: ["de"]
+			languages: ["de"],
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279205,
-		tcgplayer: 86192
-	}
 }
 
 export default card

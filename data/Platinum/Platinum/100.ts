@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		324,
-	],
+	dexId: [324],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Super Singe",
 				fr: "Ça sent le roussi!",
-				de: "Super Singe"
+				de: "Super-Versengung"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Burned."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: 10,
 
@@ -52,12 +50,12 @@ const card: Card = {
 			name: {
 				en: "Flame Ball",
 				fr: "Boule de feu",
-				de: "Flame Ball"
+				de: "Flammender Ball"
 			},
 			effect: {
 				en: "Move an Energy card attached to Torkoal to 1 of your Benched Pokémon.",
 				fr: "Déplacez une carte Énergie attachée à Charcor sur 1 des Pokémon de votre Banc.",
-				de: "Move an Energy card attached to Torkoal to 1 of your Benched Pokémon."
+				de: "Entferne 1 an Qurtel angelegte Energiekarte und lege sie an 1 Pokémon auf deiner Bank an."
 			},
 			damage: 40,
 
@@ -73,19 +71,28 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278521,
-		tcgplayer: 89971
+	description: {
+		en: "It burns coal inside its shell for energy. It blows out black soot if it is endangered.",
+		de: "In seinem Panzer verbrennt es Kohle und gewinnt daraus Energie. Bei Gefahr sondert es Ruß ab."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 89971,
+				cardmarket: 278521
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278521,
+				tcgplayer: 89971
+			}
 		}
-	]
+	],
+
 }
 
 export default card

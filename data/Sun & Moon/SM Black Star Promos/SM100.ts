@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Lucario GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Riolu",
 		fr: "Riolu",
+		de: "Riolu"
 	},
 
 	suffix: "GX",
@@ -82,7 +83,7 @@ const card: Card = {
 				es: "Derribo Iracundo GX",
 				it: "Batosta Litigiosa GX",
 				pt: "Surra Intratável GX",
-				de: "Zorniger Niederprügler GX"
+				de: "Zorniger Niederprügler-GX"
 			},
 			effect: {
 				en: "This attack does 30 damage for each damage counter on this Pokémon. (You can’t use more than 1 GX attack in a game.)",
@@ -105,8 +106,15 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 321162,
+				tcgplayer: 162042
+			}
+		}
+	],
 }
 
 export default card

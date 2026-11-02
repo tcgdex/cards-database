@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras'Face",
+				de: "Pfund"
 			},
 
 			damage: 10,
@@ -50,6 +51,7 @@ const card: Card = {
 			name: {
 				en: "Sludge Bomb",
 				fr: "Bomb-Beurk",
+				de: "Matschbombe"
 			},
 
 			damage: 40,
@@ -65,6 +67,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Wanting more garbage, they follow people who litter. They always belch poison gas.",
+		de: "Um an frischen Müll zu kommen, heftet es sich Umweltsündern an die Fersen. Es speit unaufhörlich giftige Gase."
+	},
 
 	thirdParty: {
 		cardmarket: 280803,

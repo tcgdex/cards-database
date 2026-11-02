@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		160,
-	],
+	dexId: [160],
 
 	hp: 140,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Croconaw",
 		fr: "Crocodil",
+		de: "Tyracroc"
 	},
 
 	stage: "Stage2",
@@ -39,10 +38,10 @@ const card: Card = {
 				de: "Regentanz"
 			},
 			effect: {
-				en: "As often as you like during your turn (before your attack), you may attach a Water Energy card from your hand to 1 of your Water Pokémon. This power can’t be used if Feraligatr is affected by a Special Condition.",
+				en: "As often as you like during your turn (before your attack), you may attach a Water Energy card from your hand to 1 of your Water Pokémon. This power can't be used if Feraligatr is affected by a Special Condition.",
 				fr: "Autant de fois que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez attacher une carte Énergie Water de votre main à l’un de vos Pokémon Water. Ce pouvoir ne peut pas être utilisé si Aligatueur est affecté par un État spécial.",
-				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 -Energiekarte von deiner Hand an 1 deiner -Pokémon anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Impergator von einem Speziellen Zustand betroffen ist."
-			},
+				de: "Beliebig oft während deines Zuges (vor deinem Angriff) kannst du 1 {W}-Energiekarte von deiner Hand an 1 deiner {W}-Pokémon anlegen. Diese Poké-Power kann nicht benutzt werden, wenn Impergator von einem Speziellen Zustand betroffen ist."
+			}
 		},
 	],
 
@@ -81,14 +80,14 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85420,
+				cardmarket: 278992
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278992,
-		tcgplayer: 85420
-	}
 }
 
 export default card

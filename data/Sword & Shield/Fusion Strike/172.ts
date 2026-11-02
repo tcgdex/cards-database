@@ -19,12 +19,25 @@ const card: Card = {
 	hp: 60,
 	types: ["Darkness"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Shigenori Negishi",
 
 	description: {
-		en: "Vullaby grow quickly. Bones that have gotten too small for older Vullaby to wear often get passed down to younger ones in the nest."
+		en: "Vullaby grow quickly. Bones that have gotten too small for older Vullaby to wear often get passed down to younger ones in the nest.",
+		de: "Sie werden rasend schnell größer. Wenn sie aus Schädelwindeln herauswachsen, werden diese von jüngeren Nestgefährten getragen."
 	},
 
 	attacks: [{
@@ -64,17 +77,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582800,
-		tcgplayer: 253386
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582800,
+				tcgplayer: 253386
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582800,
+				tcgplayer: 253386
+			}
+		},
+	],
 }
 
 export default card

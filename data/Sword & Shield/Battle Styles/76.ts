@@ -4,6 +4,7 @@ import Set from '../Battle Styles'
 const card: Card = {
 	dexId: [619],
 	set: Set,
+	cameoDexIds: [891],
 
 	name: {
 		en: "Mienfoo",
@@ -51,23 +52,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "They seclude themselves in the mountains and devote themselves to training. The form of their kicks and chops differs from pack to pack."
+		en: "They seclude themselves in the mountains and devote themselves to training. The form of their kicks and chops differs from pack to pack.",
+		de: "Mit seiner Gruppe zieht es sich tief in die Berge zurück, um dort zu trainieren. Jede der Gruppen entwickelt eigene Schlag- und Tritt-Techniken."
 	},
 
-	thirdParty: {
-		cardmarket: 545496,
-		tcgplayer: 234252
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545496,
+				tcgplayer: 234252
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545496,
+				tcgplayer: 234252
+			}
+		},
+	],
 }
 
 export default card

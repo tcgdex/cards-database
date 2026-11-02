@@ -4,6 +4,7 @@ import Set from "../Scarlet & Violet"
 const card: Card = {
 	dexId: [819],
 	set: Set,
+	cameoDexIds: [25],
 
 	name: {
 		en: "Skwovet",
@@ -57,15 +58,27 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "Teeziro",
+
+	description: {
+		en: "No matter how much it stuffs its belly with food, it is always anxious about getting hungry again. So, it stashes berries in its cheeks and tail.",
+		de: "Egal, wie sehr es sich auch vollstopft, es lebt in ständiger Sorge vor dem nächsten Hungeranfall und hortet daher Beeren in Schweif und Backen."
+	},
 
 	thirdParty: {
         cardmarket: 702518,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pokusan"
 	},
 
+	illustrator: "sowsow",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 90,
@@ -76,20 +77,37 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "When Alcremie is content, the cream it secretes from its hands becomes sweeter and richer.",
+		de: "Die Sahne, die Pokusan aus seinen Händen hervorbringt, wird noch süßer und intensiver im Geschmack, wenn es glücklich ist."
 	},
 
-	thirdParty: {
-		cardmarket: 608521,
-		tcgplayer: 263787
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608521,
+				tcgplayer: 263787
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608521,
+				tcgplayer: 263787
+			}
+		},
+	],
 }
 
 export default card

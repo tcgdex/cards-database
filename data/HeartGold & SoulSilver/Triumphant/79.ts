@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		220,
-	],
+	dexId: [220],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -65,20 +63,27 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs."
+		en: "It rubs its snout on the ground to find and dig up food. It sometimes discovers hot springs.",
+		de: "Auf Nahrungssuche schnüffelt es am Boden entlang. Es entdeckt dabei manchmal auch heiße Quellen."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89705,
+				cardmarket: 279609
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279609,
+				tcgplayer: 89705
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279609,
-		tcgplayer: 89705
-	}
 }
 
 export default card

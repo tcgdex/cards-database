@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		435,
-	],
+	dexId: [435],
 
 	hp: 80,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	evolveFrom: {
 		en: "Stunky",
 		fr: "Moufouette",
+		de: "Skunkapuh"
 	},
 
 	stage: "Stage1",
@@ -43,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Empoisonné. Si c’est pile, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet. Bei \"Zahl\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt vergiftet. Bei „Zahl“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -60,9 +59,9 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
-			damage: "30x",
+			damage: "30×",
 
 		},
 	],
@@ -84,22 +83,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It attacks by spraying a repugnant fluid from its tail, but the stench dulls after a few squirts."
+		en: "It attacks by spraying a repugnant fluid from its tail, but the stench dulls after a few squirts.",
+		de: "Über seine Schweifspitze versprüht es eine stinkende Substanz. Bei Dauerfeuer lässt der Geruch nach."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279290,
+				tcgplayer: 89282
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279290,
+				tcgplayer: 89282
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279290,
-		tcgplayer: 89282
-	}
 }
 
 export default card

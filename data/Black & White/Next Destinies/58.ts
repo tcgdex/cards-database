@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				de: "Ramme"
 			},
 
 			damage: 20,
@@ -53,10 +54,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 280283,
-		tcgplayer: 87643
-	}
+	description: {
+		en: "It eats the dreams of people and Pokémon. When it eats a pleasant dream, it expels pink-colored mist.",
+		de: "Es verschlingt die Träume der Menschen. Frisst es einen fröhlichen Traum, stößt es danach einen rosafarbenen Dunst aus."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280283,
+				tcgplayer: 87643
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280283,
+				tcgplayer: 87643
+			}
+		},
+	],
 }
 
 export default card

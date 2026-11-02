@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Vibrava",
 		fr: "Vibraninf",
+		de: "Vibrava"
 	},
 
 	stage: "Stage2",
@@ -94,7 +95,7 @@ const card: Card = {
 				es: "Tajo Sónico GX",
 				it: "Muro del Suono GX",
 				pt: "Gume Sônico GX",
-				de: "Schallkante GX"
+				de: "Schallkante-GX"
 			},
 			effect: {
 				en: "This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon. (You can’t use more than 1 GX attack in a game.)",

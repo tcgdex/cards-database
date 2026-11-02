@@ -62,22 +62,40 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "It sharpens its swordlike tail on hard rocks. It hides in tall grass and strikes unwary prey with venomous fangs.",
+		fr: "Il affûte sa queue tranchante comme une épée sur les rochers et se cache dans les hautes herbes pour attaquer sa proie avec ses crocs venimeux.",
+		de: "Es schärft den klingenartigen Schwanz an Steinen. Im Dickicht versteckt nähert es sich ahnungsloser Beute und greift diese mit seinen Giftzähnen an."
+	},
+
+	illustrator: "hncl",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857637,
+				tcgplayer: 660413,
+				cardtrader: 356846
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857637,
+				tcgplayer: 660413,
+				cardtrader: 356846
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857637,
-		tcgplayer: 660413
-	}
 }
 
 export default card

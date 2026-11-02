@@ -1,13 +1,12 @@
-import { Card } from "../../../interfaces"
-import Set from "../S12a"
+import { Card } from "../../../interfaces";
+import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
+		ja: "ブーバーン",
 		'zh-tw': "鴨嘴炎獸",
 		th: "บูเบิร์น",
-		ja: "ブーバーン"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -16,51 +15,66 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
+		ja: "大きく 息を 吸いこむと 腹の 中の 炎が 勢いを 増して 摂氏２０００度に 達する。",
 		'zh-tw': "大口吸氣時，肚子裡的火焰就會燃燒得更旺盛， 達到攝氏２０００度。",
 		th: "เมื่อสูดลมหายใจเข้าเฮือกใหญ่ เปลวเพลิงในท้องจะพลุ่งจนสูงถึง 2,000 องศาเซลเซียส",
-		ja: "大きく 息を 吸いこむと 腹の 中の 炎が 勢いを 増して 摂氏２０００度に 達する。"
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "百萬噸重拳",
-			th: "เมกะตันพันช์",
-			ja: "メガトンパンチ"
+	attacks: [
+		{
+			name: {
+				ja: "メガトンパンチ",
+				'zh-tw': "百萬噸重拳",
+				th: "เมกะตันพันช์",
+			},
+			damage: 50,
+			cost: ["Colorless", "Colorless"],
 		},
-
-		damage: 50,
-		cost: ["Colorless", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "伏特爆發",
-			th: "โวลต์โพลชัน",
-			ja: "ボルトプロージョン"
+		{
+			name: {
+				ja: "ボルトプロージョン",
+				'zh-tw': "伏特爆發",
+				th: "โวลต์โพลชัน",
+			},
+			damage: "120+",
+			cost: ["Fire", "Fire", "Colorless"],
+			effect: {
+				ja: "自分のベンチに「エレキブル」がいるなら、120ダメージ追加。",
+				'zh-tw': "若自己的備戰區有「電擊魔獸」，則增加120點傷害。",
+				th: "ถ้าบนเบนช์ฝ่ายเรามี [เอเลคิเบิล] อยู่ การโจมตีนี้จะเพิ่มแดเมจอีก 120",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "若自己的備戰區有「電擊魔獸」，則增加120點傷害。",
-			th: "ถ้าบนเบนช์ฝ่ายเรามี [เอเลคิเบิล] อยู่ การโจมตีนี้จะเพิ่มแดเมจอีก 120",
-			ja: "自分のベンチに「エレキブル」がいるなら、120ダメージ追加。"
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 687497,
+				tcgplayer: 571555,
+			},
 		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577445,
+			},
+		},
+	],
 
-		damage: "120＋",
-		cost: ["Fire", "Fire", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Water",
-		value: "×2"
-	}],
+	evolveFrom: {
+		ja: "ブーバー",
+	},
 
 	retreat: 3,
 	regulationMark: "F",
+	rarity: "None",
 	dexId: [467],
+};
 
-	thirdParty: {
-		cardmarket: 687497
-	}
-}
-
-export default card
+export default card;

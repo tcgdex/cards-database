@@ -65,12 +65,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -78,10 +72,22 @@ const card: Card = {
 		en: "If it finds bad children who won't listen to their parents, it will spirit them away—or so it's said."
 	},
 
-	thirdParty: {
-		cardmarket: 511765,
-		tcgplayer: 226473
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511765,
+				tcgplayer: 226473
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511765,
+				tcgplayer: 226473
+			}
+		},
+	],
 }
 
 export default card

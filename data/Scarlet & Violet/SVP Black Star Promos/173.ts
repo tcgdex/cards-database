@@ -4,6 +4,7 @@ import Set from "../SVP Black Star Promos"
 const card: Card = {
 	dexId: [133],
 	set: Set,
+	cameoDexIds: [25, 100],
 
 	name: {
 		en: "Eevee",
@@ -14,7 +15,7 @@ const card: Card = {
 		it: "Eevee"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Colorless"],
@@ -70,7 +71,24 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "H",
-	illustrator: "Makura Tami"
+	illustrator: "Makura Tami",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 805370,
+				tcgplayer: 610757
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["pokemon-center"],
+			thirdParty: {
+				cardmarket: 806407,
+				tcgplayer: 610758
+			},
+		}
+	],
 }
 
 export default card

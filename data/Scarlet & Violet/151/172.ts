@@ -4,6 +4,7 @@ import Set from "../151"
 const card: Card = {
 	dexId: [10],
 	set: Set,
+	cameoDexIds: [23, 47, 94],
 
 	name: {
 		fr: "Chenipan",
@@ -44,19 +45,34 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
+	description: {
+		en: "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
+		de: "Es hat Saugnäpfe an den Beinchen, mit denen es mühelos Steigungen und Mauern erklimmen kann."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733767,
+				tcgplayer: 517016,
+				cardtrader: 261334
+			}
+		},
+	],
 
 	illustrator: "Teeziro",
 
-	thirdParty: {
-		cardmarket: 733767
-	}
+	
 }
 
 export default card

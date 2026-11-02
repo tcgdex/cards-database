@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 60,
 	types: ["Psychic"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Saya Tsuruta",
 
 	description: {
-		en: "The songs they sing are totally different depending on the region they live in. Some even sound like they're shouting!"
+		en: "The songs they sing are totally different depending on the region they live in. Some even sound like they're shouting!",
+		de: "Sein Gesang unterscheidet sich je nach der Region, in der es lebt. Mancherorts erinnert er mehr an Geschrei."
 	},
 
 	attacks: [{
@@ -64,17 +71,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582601,
-		tcgplayer: 253268
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582601,
+				tcgplayer: 253268
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582601,
+				tcgplayer: 253268
+			}
+		},
+	],
 }
 
 export default card

@@ -3,13 +3,8 @@ import Set from '../Evolving Skies'
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [52, 235],
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Eldegoss",
@@ -89,16 +84,44 @@ const card: Card = {
 	},
 
 	description: {
-		en: "The cotton on the head of this Pokémon can be spun into a glossy, gorgeous yarn—a Galar regional specialty."
+		en: "The cotton on the head of this Pokémon can be spun into a glossy, gorgeous yarn—a Galar regional specialty.",
+		de: "Aus dem Flaum auf seinem Kopf werden wunderschöne, glänzende Fäden gesponnen. Die Galar-Region ist bekannt für dieses Produkt."
 	},
 
 	dexId: [830],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574040,
-		tcgplayer: 246831
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574040,
+				tcgplayer: 246831
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574040,
+				tcgplayer: 246831
+			}
+		},
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 701491,
+				tcgplayer: 247422
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['player-rewards-program'],
+			thirdParty: {
+				cardmarket: 697069,
+				tcgplayer: 475978
+			}
+		},
+	],
 }
 
 export default card

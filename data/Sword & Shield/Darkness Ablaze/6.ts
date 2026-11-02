@@ -69,23 +69,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It's good at finding berries and gathers them from all over. It's kind enough to share them with friends."
+		en: "It's good at finding berries and gathers them from all over. It's kind enough to share them with friends.",
+		de: "Ein nettes Kerlchen, das so talentiert darin ist, Beeren aufzuspüren, dass es sie mit all seinen Kameraden teilt."
 	},
 
-	thirdParty: {
-		cardmarket: 482904,
-		tcgplayer: 219074
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 482904,
+				tcgplayer: 219074
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 482904,
+				tcgplayer: 219074
+			}
+		},
+	],
 }
 
 export default card

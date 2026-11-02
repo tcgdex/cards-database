@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pawniard",
 		fr: "Scalpion",
+		de: "Gladiantri"
 	},
 
 	stage: "Stage1",
@@ -98,6 +99,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "No matter how strong the Bisharp, it's said that if the blade on its head is chipped, it will retire from its position as the boss.",
+		de: "Es heißt, dass ein Caesurio ungeachtet seiner Stärke seinen Rang als Anführer abtreten muss, wenn die Klinge an seinem Kopf schartig wird."
+	},
 
 	thirdParty: {
 		cardmarket: 408324,

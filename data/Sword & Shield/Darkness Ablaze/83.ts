@@ -98,23 +98,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "This species lives in antique teapots. Most pots are forgeries, but on rare occasions, an authentic work is found."
+		en: "This species lives in antique teapots. Most pots are forgeries, but on rare occasions, an authentic work is found.",
+		de: "Sie lassen sich in alten Teekannen nieder. Die meisten dieser Kannen sind billige Fälschungen, aber es gibt auch ein paar sehr seltene Originale."
 	},
 
-	thirdParty: {
-		cardmarket: 483294,
-		tcgplayer: 219470
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483294,
+				tcgplayer: 219470
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483294,
+				tcgplayer: 219470
+			}
+		},
+	],
 }
 
 export default card

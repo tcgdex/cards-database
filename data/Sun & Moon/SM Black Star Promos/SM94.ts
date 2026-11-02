@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Wasch-Rotom"
 	},
 	illustrator: "Shigenori Negishi",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -83,6 +83,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.",
+		de: "Sein Körper besteht aus Plasma. Mit ihm kann es in elektrische Geräte eindringen und für Chaos sorgen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 315515,
+				tcgplayer: 158167
+			}
+		}
+	],
 }
 
 export default card

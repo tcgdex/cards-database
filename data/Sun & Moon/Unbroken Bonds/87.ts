@@ -80,6 +80,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Geodude that have lived a long life have had all their edges smoothed out until they're totally round. They also have a calm, quiet disposition.",
+		de: "Mit dem Alter verliert es zunehmend seine Kantigkeit, bis es vollkommen rund und auch charakterlich immer ausgeglichener wird."
+	},
+
 	thirdParty: {
 		cardmarket: 372378,
 		tcgplayer: 189186

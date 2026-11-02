@@ -4,6 +4,8 @@ import Set from "../Phantasmal Flames"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [396],
+
 	name: {
 		en: "Dawn",
 		fr: "Aurore",
@@ -22,7 +24,7 @@ const card: Card = {
 		fr: "Cherchez dans votre deck un Pokémon de base, un Pokémon de Niveau 1 et un Pokémon de Niveau 2, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
 		es: "Busca en tu baraja 1 Pokémon Básico, 1 Pokémon de Fase 1 y 1 Pokémon de Fase 2, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
 		'es-mx': "Busca en tu mazo 1 Pokémon Básico, 1 Pokémon de Fase 1 y 1 Pokémon de Fase 2, muéstralos y ponlos en tu mano. Después, baraja tu mazo.",
-		de: "Durchsuche dein Deck nach 1 Basis-Pokémon, 1 Phase-1-Pokémon und 1 Phase-2-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck.",
+		de: "Durchsuche dein Deck nach 1 Basis-Pokémon, 1 Phase-1-Pokémon und 1 Phase-2-Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen.",
 		it: "Cerca nel tuo mazzo un Pokémon Base, un Pokémon di Fase 1 e un Pokémon di Fase 2, mostrali e aggiungili alle carte che hai in mano. Poi rimischia il tuo mazzo.",
 		pt: "Procure por um Pokémon Básico, um Pokémon Estágio 1 e um Pokémon Estágio 2 no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho."
 	},
@@ -30,16 +32,17 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "I",
 
+	illustrator: "Atsushi Furusawa",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857704,
+				tcgplayer: 662150,
+				cardtrader: 356915
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857704,
-		tcgplayer: 662150
-	}
 }
 
 export default card

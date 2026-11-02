@@ -54,7 +54,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes buscar en tu baraja 1 carta de Energía Fire y unirla a 1 de tus Pokémon. Baraja las cartas de tu baraja después.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi cercare nel tuo mazzo una carta Energia Fire e assegnarla a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
 				pt: "Uma vez durante sua vez de jogar (antes de atacar), você pode procurar em seu baralho um card de Energia Fire e o ligar a 1 dos seus Pokémon. Em seguida, embaralhe seus cards.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dein Deck nach 1 Fire-Energiekarte durchsuchen und sie an 1 deiner Pokémon anlegen. Mische anschließend dein Deck."
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dein Deck nach 1 {R}-Energiekarte durchsuchen und sie an 1 deiner Pokémon anlegen. Mische anschließend dein Deck."
 			},
 		},
 	],

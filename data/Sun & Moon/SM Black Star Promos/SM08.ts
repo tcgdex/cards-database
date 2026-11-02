@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Flamiau"
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -78,6 +78,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "While grooming itself, it builds up fur inside its stomach. It sets the fur alight and spews fiery attacks, which change based on how it coughs.",
+		de: "Es verbrennt Haare, die es bei der Körperpflege verschluckt hat, indem es Feuer speit. Die Flammen variieren je nach Art des Speiens."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 295300,
+				tcgplayer: 127513
+			}
+		}
+	],
 }
 
 export default card

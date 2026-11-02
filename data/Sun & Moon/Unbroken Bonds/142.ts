@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Spritzee",
 		fr: "Fluvetin",
+		de: "Parfi"
 	},
 
 	stage: "Stage1",
@@ -97,6 +98,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It devises various scents, pleasant and unpleasant, and emits scents that its enemies dislike in order to gain an edge in battle.",
+		de: "Es produziert verschiedene Düfte. Im Kampf verschafft es sich einen Vorteil, indem es einen Duft verströmt, der dem Gegner zuwider ist."
+	},
 
 	thirdParty: {
 		cardmarket: 372428,

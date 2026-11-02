@@ -44,18 +44,42 @@ const card: Card = {
 		damage: "30×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed.",
+		de: "Sein riesiger Kiefer hat sich aus stählernen Hörnern entwickelt. Mit ihm beißt es seine Gegner."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725169,
+				tcgplayer: 511758,
+				cardtrader: 255774
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725169,
+				tcgplayer: 511758,
+				cardtrader: 255774
+			}
+		},
+	],
 
 	illustrator: "0313",
 
-	thirdParty: {
-		cardmarket: 725169
-	}
+	
 }
 
 export default card

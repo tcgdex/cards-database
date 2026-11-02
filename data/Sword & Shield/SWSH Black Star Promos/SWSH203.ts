@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Umbreon V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Darkness"],
@@ -67,12 +67,23 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
-
-	thirdParty: {
-		cardmarket: 609462
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 609462,
+				tcgplayer: 268712
+			}
+		},
+	],
 }
 
 export default card

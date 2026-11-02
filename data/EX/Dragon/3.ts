@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Hisao Nakamura",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		342,
-	],
+	dexId: [342],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Corphish",
-		fr: "Écrapince"
+		fr: "Écrapince",
+		de: "Krebscorps"
 	},
 
 	stage: "Stage1",
@@ -41,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "As long as Crawdaunt is your Active Pokémon, when any of your Active Pokémon does damage to the Defending Pokémon, the attack does 10 more damage (before applying Weakness and Resistance).",
 				fr: "Tant que Colhomard est votre Pokémon Actif, dès qu'un de vos Pokémon Actifs inflige des dégâts aux Pokémon Défenseurs, cette attaque inflige 10 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
-				de: "Wenn Krebutack dein Aktives Pokémon ist und eins deiner Aktiven Pokémon einem verteidigenden Pokémon Schaden zufügt, fügt der Angriff 10 weitere Schadenspunkte zu. (bevor Schwäche und Resistenz verrechnet wurden.)"
+				de: "Wenn Krebutack dein Aktives Pokémon ist und eins deiner Aktiven Pokémon einem Verteidigenden Pokémon Schaden zufügt, fügt der Angriff 10 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -67,17 +66,29 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 84461,
+				cardmarket: 275880
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84461,
+				cardmarket: 275880
+			},
 		},
 	],
 
-
-	retreat: 2,
-
-	thirdParty: {
-		tcgplayer: 84461,
-		cardmarket: 275880
-	}
 }
 
 export default card

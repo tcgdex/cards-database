@@ -56,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Secret Sword",
 				fr: "Lame Ointe",
+				de: "Mystoschwert"
 			},
 			effect: {
 				en: "Does 20 more damage for each Water Energy attached to this Pokémon.",
 				fr: "Inflige 20 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+				de: "Dieser Angriff fügt 20 weitere Schadenspunkte für jede an dieses Pokémon angelegte {W}-Energie zu."
 			},
 			damage: 50,
 
@@ -76,6 +78,22 @@ const card: Card = {
 
 
 
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280636,
+				tcgplayer: 86436
+			}
+		},
+		{
+			type: 'holo',
+			size: 'jumbo',
+			thirdParty: {
+				cardmarket: 363654
+			}
+		},
+	],
 }
 
 export default card

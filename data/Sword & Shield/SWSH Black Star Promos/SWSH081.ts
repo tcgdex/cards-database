@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Polteageist"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	dexId: [855],
 	hp: 60,
 	types: ["Psychic"],
@@ -93,18 +93,18 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 461664
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 540631,
+				tcgplayer: 232458
+			}
+		},
+	],
 }
 
 export default card

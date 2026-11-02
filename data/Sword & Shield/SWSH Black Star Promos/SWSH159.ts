@@ -7,13 +7,38 @@ const card: Card = {
 	illustrator: "AKIRA EGAWA",
 	category: "Pokemon",
 	stage: "V-UNION",
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	regulationMark: "E",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 572159,
+				tcgplayer: 248891
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 576913,
+				tcgplayer: 250252
+			}
+		},
+	],
 
 	name: {
 		en: "Mewtwo V-UNION",
@@ -24,7 +49,7 @@ const card: Card = {
 		it: "Mewtwo V UNIONE"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	hp: 310,
 	types: ["Psychic"],
 
@@ -52,7 +77,7 @@ const card: Card = {
 
 		effect: {
 			en: "Attach up to 2 Psychic Energy cards from your discard pile to this Pokémon.",
-			fr: "Attachez jusqu'à 2 cartes Énergie  de votre pile de défausse à ce Pokémon."
+			fr: "Attachez jusqu'à 2 cartes Énergie {P} de votre pile de défausse à ce Pokémon."
 		}
 	}, {
 		cost: ["Psychic", "Psychic", "Colorless"],
@@ -88,14 +113,8 @@ const card: Card = {
 
 		damage: 300
 	}],
-
-	regulationMark: "E",
 	suffix: "V",
-	retreat: 0,
-
-	thirdParty: {
-		cardmarket: 572159
-	}
+	retreat: 0
 }
 
 export default card

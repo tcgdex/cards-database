@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Omanyte δ",
 		fr: "Amonita δ",
-		de: "Amonitas"
+		de: "Amonitas δ"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Mysterious Fossil",
-		fr: "Mystérieux fossile"
+		fr: "Mystérieux fossile",
+		de: "Geheimnis-Fossil"
 	},
 
 	stage: "Stage1",

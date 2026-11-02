@@ -86,6 +86,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They set off on their own from their pride and live by themselves to become stronger. These hot-blooded Pokémon are quick to fight.",
+		de: "Sie verlassen ihr Rudel schon sehr früh, um stärker zu werden und auf eigenen Pfoten zu stehen. Sie sind sehr hitzköpfig und streitlustig."
+	},
+
 	thirdParty: {
 		cardmarket: 365690,
 		tcgplayer: 178855

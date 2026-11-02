@@ -22,7 +22,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Wartortle"
+		en: "Wartortle",
+		fr: "Carabaffe"
 	},
 
 	suffix: "EX",

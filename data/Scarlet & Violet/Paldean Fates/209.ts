@@ -55,19 +55,33 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751748,
+				tcgplayer: 535214,
+				cardtrader: 274394
+			}
+		},
+	],
 
 	illustrator: "Lee HyunJung",
 
-	thirdParty: {
-		cardmarket: 751748
-	}
+	description: {
+		en: "Exhibiting great teamwork, they use their incisors to cut pieces out of any material that might be useful for a nest, then make off with them.",
+		de: "Zwieps arbeiten perfekt im Team zusammen. Sie nagen mit den Vorderzähnen Material für den Nestbau ab und tragen es dann davon."
+	},
+
 }
 
 export default card

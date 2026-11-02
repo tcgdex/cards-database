@@ -59,12 +59,20 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 89400,
+				cardmarket: 276575
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 89400,
+				cardmarket: 276575
+			},
 		}
-	]
+	],
 }
 
 export default card

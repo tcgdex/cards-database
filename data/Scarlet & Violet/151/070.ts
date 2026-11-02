@@ -56,18 +56,42 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It spits out Poison Powder to immobilize the enemy and then finishes it with a spray of Acid.",
+		de: "Dieses Pokémon lähmt den Gegner mit Giftpuder, bevor es ihn mit Säure erledigt."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733665,
+				tcgplayer: 516563,
+				cardtrader: 261159
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733665,
+				tcgplayer: 516563,
+				cardtrader: 261159
+			}
+		},
+	],
 
 	illustrator: "Jerky",
 
-	thirdParty: {
-		cardmarket: 733665
-	}
+	
 }
 
 export default card

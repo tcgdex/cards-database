@@ -13,19 +13,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		295,
-	],
+	dexId: [295],
 
 	hp: 130,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Loudred",
-		fr: "Ramboum",
+		fr: "Ramboum"
 	},
 
 	stage: "Stage2",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Each of your Pokémon has no Weakness.",
 				fr: "Aucun de vos Pokémon ne possède de Faiblesse.",
 				de: "Deine Pokémon haben keine Schwäche."
-			},
+			}
 		},
 	],
 
@@ -92,21 +90,25 @@ const card: Card = {
 			value: "+30"
 		},
 	],
-
 	retreat: 2,
-
-	thirdParty: {
-		cardmarket: 278719
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278719,
+				tcgplayer: 85373,
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278719,
+				tcgplayer: 85373
+			}
+		},
+	],
+
 }
 
 export default card

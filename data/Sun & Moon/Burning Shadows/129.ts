@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Wimpod",
 		fr: "Sovkipou",
+		de: "Reißlaus"
 	},
 
 	suffix: "GX",
@@ -94,7 +95,7 @@ const card: Card = {
 				es: "Corte Transversal GX",
 				it: "Sferzata Incrociata-GX",
 				pt: "Corte Transversal GX",
-				de: "Quertreiber GX"
+				de: "Quertreiber-GX"
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon. (You can’t use more than 1 GX attack in a game.)",
@@ -118,10 +119,15 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 299529,
-		tcgplayer: 138295
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 299529,
+				tcgplayer: 138295
+			}
+		},
+	],
 }
 
 export default card

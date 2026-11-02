@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Elige 1 carta de Herramienta Pokémon o 1 carta de Energía Especial unida a 1 Pokémon en juego (tuyo o de tu rival) y descártala.",
 		it: "Scegli una carta Oggetto Pokémon o Energia speciale assegnata a un Pokémon in gioco, tuo o del tuo avversario, e poi scartala.",
 		pt: "Escolha um card de Ferramenta Pokémon ou Energia Especial ligado ao Pokémon em jogo (seu ou do seu oponente) e descarte-o.",
-		de: "Wähle 1 Pokémon-Ausrüstung oder 1 Spezial-Energiekarte, die an 1 Pokémon im Spiel angelegt ist (an deine oder die deines Gegners), und lege sie auf den Ablagestapel."
+		de: "Wähle 1 Pokémon-Ausrüstung oder 1 Spezial-Energiekarte, die an 1 Pokémon im Spiel angelegt ist (an deine oder die deines Gegners), und lege sie auf den Ablagestapel. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

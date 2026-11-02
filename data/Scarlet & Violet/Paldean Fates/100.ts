@@ -35,19 +35,33 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751639,
+				tcgplayer: 534471,
+				cardtrader: 274284
+			}
+		},
+	],
 
 	illustrator: "Saya Tsuruta",
 
-	thirdParty: {
-		cardmarket: 751639
-	}
+	description: {
+		en: "During cold seasons, it migrates to the mountain's lower reaches. It returns to the snow-covered summit in the spring.",
+		de: "In der kalten Jahreszeit steigt es bis zum Fuß der Berge hinab. Im Frühjahr kehrt es auf die Gipfel zurück, wo noch Schnee liegt."
+	},
+
 }
 
 export default card

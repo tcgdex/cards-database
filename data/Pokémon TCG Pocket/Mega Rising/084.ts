@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ampharos"
+		en: "Ampharos",
+		fr: "Pharamp"
 	},
 
 	illustrator: "Megumi Mizutani",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Flaaffy"
+		en: "Flaaffy",
+		fr: "Lainergie"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Zapping Bullet"
+			en: "Zapping Bullet",
+			fr: "Projectile Électrisé"
 		},
 
 		damage: 90,
 		cost: ["Lightning", "Lightning", "Colorless"],
 
 		effect: {
-			en: "1 of your opponent's Benched Pokémon is chosen at random. This attack also does 20 damage to it."
+			en: "1 of your opponent's Benched Pokémon is chosen at random. This attack also does 20 damage to it.",
+			fr: "Un des Pokémon de Banc de votre adversaire est choisi au hasard. Cette attaque lui inflige aussi 20 dégâts."
 		}
 	}],
 

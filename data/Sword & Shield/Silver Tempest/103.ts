@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zubat"
 	},
 
+	illustrator: "Shigenori Negishi",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 40,
@@ -35,20 +36,37 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It emits ultrasonic waves from its mouth to check its surroundings. Even in tight caves, Zubat flies around with skill.",
+		de: "Über den Mund stößt es Ultraschallwellen aus, um seine Umgebung zu erkunden. So kann es selbst in engen Höhlen geschickt umherfliegen."
 	},
 
-	thirdParty: {
-		cardmarket: 682150,
-		tcgplayer: 451757
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682150,
+				tcgplayer: 451757
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682150,
+				tcgplayer: 451757
+			}
+		},
+	],
 }
 
 export default card

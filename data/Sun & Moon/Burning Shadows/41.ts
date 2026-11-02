@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [453],
 
 	dexId: [
 		26,
@@ -29,6 +30,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pikachu",
 		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -99,10 +101,55 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299445,
-		tcgplayer: 138523
-	}
+	description: {
+		en: "It unleashes electric shocks that can reach 100,000 volts. When agitated, it can knock out even an Indian elephant.",
+		de: "Seine elektrischen Ladungen erreichen bis zu 100 000 V. Bei unvorsichtigem Kontakt wird sogar ein indischer Elefant bewusstlos."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 299445,
+				tcgplayer: 138523
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['3rd-place', 'poke-ball-league'],
+			thirdParty: {
+				cardmarket: 450213
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['4th-place', 'poke-ball-league'],
+			thirdParty: {
+				cardmarket: 450218
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['1st-place', 'poke-ball-league'],
+			thirdParty: {
+				cardmarket: 450203
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['2nd-place', 'poke-ball-league'],
+			thirdParty: {
+				cardmarket: 450208
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299445,
+				tcgplayer: 138523
+			}
+		},
+	],
 }
 
 export default card

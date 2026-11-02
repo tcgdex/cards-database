@@ -37,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Air Slash",
-				fr: "Lame d'Air"
+				fr: "Lame d'Air",
+				de: "Luftschnitt"
 			},
 			effect: {
 				en: "Discard an Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie attachée à ce Pokémon."
+				fr: "Défaussez une Énergie attachée à ce Pokémon.",
+				de: "Lege 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 60,
 
@@ -57,10 +59,55 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280332,
-		tcgplayer: 89005
-	}
+	description: {
+		en: "The sharp scythes on its forearms become increasingly sharp by cutting through hard objects.",
+		de: "Die scharfen Sensen an den Unterarmen werden durch das Schneiden harter Objekte noch schärfer."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280332,
+				tcgplayer: 89005
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['1st-place', 'poke-ball-league'],
+			thirdParty: {
+				cardmarket: 450328
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['2nd-place', 'poke-ball-league'],
+			thirdParty: {
+				cardmarket: 450333
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['3rd-place', 'poke-ball-league'],
+			thirdParty: {
+				cardmarket: 450338
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['4th-place', 'poke-ball-league'],
+			thirdParty: {
+				cardmarket: 450343
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280332,
+				tcgplayer: 89005
+			}
+		},
+	],
 }
 
 export default card

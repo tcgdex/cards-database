@@ -85,12 +85,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -98,10 +92,22 @@ const card: Card = {
 		en: "It buries some of its prey in the sand to use as emergency meals when its hunts are unsuccessful."
 	},
 
-	thirdParty: {
-		cardmarket: 511960,
-		tcgplayer: 226561
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511960,
+				tcgplayer: 226561
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511960,
+				tcgplayer: 226561
+			}
+		},
+	],
 }
 
 export default card

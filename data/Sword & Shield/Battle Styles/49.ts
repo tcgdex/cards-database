@@ -62,23 +62,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity."
+		en: "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
+		de: "Um gespeicherte Elektrizität zu teilen, reiben zwei von ihnen ihre Backentaschen aneinander."
 	},
 
-	thirdParty: {
-		cardmarket: 545356,
-		tcgplayer: 234203
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545356,
+				tcgplayer: 234203
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545356,
+				tcgplayer: 234203
+			}
+		},
+	],
 }
 
 export default card

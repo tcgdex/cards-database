@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Shimaris Yukichi",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [559],
 	hp: 80,
 	types: ["Darkness"],
 	stage: "Basic",
@@ -47,13 +48,46 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675946,
-		cardmarket: 869745
-	}
+	description: {
+		en: "Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck.",
+		fr: "Il remonte sa peau jusqu'à son cou pour se protéger. Elle a une constitution élastique qui absorbe les coups.",
+		de: "Es nimmt eine Abwehrhaltung ein, indem es seine Haut bis zum Hals hochzieht. Da sie elastisch wie Gummi ist, nimmt es so weniger Schaden."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869745,
+			tcgplayer: 675946
+		}
+	},
+	{
+		type: "reverse",
+		foil: "quickball",
+		thirdParty: {
+			cardmarket: 870350,
+			tcgplayer: 676959
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870349,
+			tcgplayer: 677099
+		}
+	},
+],
 }
 
 export default card

@@ -4,7 +4,7 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Lotad",
-		fr: "Nenupiot",
+		fr: "Nénupiot",
 		de: "Loturzel"
 	},
 
@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		270,
-	],
+	dexId: [270],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -69,19 +67,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275844,
-		tcgplayer: 86832
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275844,
+				tcgplayer: 86832
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275844,
+				tcgplayer: 86832
+			}
 		},
-	]
+	],
+
 }
 
 export default card

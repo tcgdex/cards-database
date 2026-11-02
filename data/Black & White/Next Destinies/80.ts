@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Double Scratch",
 				fr: "Double Écorchure",
+				de: "Doppelkratzer"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 10,
 
@@ -52,6 +54,7 @@ const card: Card = {
 			name: {
 				en: "Cat Kick",
 				fr: "Coup d'Patte",
+				de: "Katzenkick"
 			},
 
 			damage: 20,
@@ -68,10 +71,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280305,
-		tcgplayer: 87326
-	}
+	description: {
+		en: "It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.",
+		de: "Ein nachtaktives Pokémon. Sieht es etwas Schimmerndes, fangen seine Augen an zu glänzen."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280305,
+				tcgplayer: 87326
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280305,
+				tcgplayer: 87326
+			}
+		},
+	],
 }
 
 export default card

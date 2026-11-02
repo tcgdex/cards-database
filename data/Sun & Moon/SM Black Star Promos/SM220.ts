@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Phione"
 	},
 
-	rarity: "Rare",
+	illustrator: "Kagemaru Himeno",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Water"],
@@ -60,7 +61,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "When the water warms, they inflate the flotation sac on their heads and drift languidly on the sea in packs.",
+		de: "Steigt die Meerestemperatur, bläst es seinen Schwimmbeutel auf und treibt in Schwärmen auf dem Wasser."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 412279,
+				tcgplayer: 201938
+			}
+		}
+	],
 }
 
 export default card

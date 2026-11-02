@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Yungoos",
 		fr: "Manglouton",
+		de: "Mangunior"
 	},
 
 	stage: "Stage1",
@@ -86,6 +87,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It adores having Rattata and Raticate for dinner, but as it's diurnal, it never encounters them. This Pokémon boasts incredible patience.",
+		de: "Rattfratz und Rattikarl sind seine Leibspeise, aber leider nachtaktiv und daher selten auf dem Speiseplan. Ein sehr geduldiges Pokémon."
+	},
 
 	thirdParty: {
 		cardmarket: 316039,

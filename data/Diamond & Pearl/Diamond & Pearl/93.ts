@@ -50,7 +50,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -67,7 +67,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		fr: "Il est fier et déteste accepter la nourriture qu'on lui offre. Son pelage épais le protège du froid."
+		en: "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
+		fr: "Il est fier et déteste accepter la nourriture qu'on lui offre. Son pelage épais le protège du froid.",
+		de: "Es ist sehr stolz und nimmt daher kein Futter von anderen an. Seine dicken Daunen schützen vor Kälte."
 	},
 
 	thirdParty: {

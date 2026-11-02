@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Weepinbell da Érica"
 	},
 
+	evolveFrom: {
+		en: "Erika's Bellsprout",
+		fr: "Chétiflor d'Erika",
+		es: "Bellsprout de Erika",
+		'es-mx': "Bellsprout de Erika",
+		de: "Erikas Knofensa",
+		it: "Bellsprout di Erika",
+		pt: "Bellsprout da Érica",
+	},
+
 	illustrator: "LINNE",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [70],
 	hp: 90,
 	types: ["Grass"],
 	stage: "Stage1",
@@ -61,13 +72,46 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675817,
-		cardmarket: 869616
-	}
+	description: {
+		en: "It spits out Poison Powder to immobilize the enemy and then finishes it with a spray of Acid.",
+		fr: "Il crache de la poudre toxique pour immobiliser sa proie, puis l'achève avec de l'acide.",
+		de: "Dieses Pokémon spuckt Giftpuder, um den Gegner zu lähmen, bevor es ihn mit Säure erledigt."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 869616,
+				tcgplayer: 675817
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 870142,
+				tcgplayer: 676855
+			}
+		},
+		{
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 870141,
+				tcgplayer: 676995
+			}
+		},
+	],
 }
 
 export default card

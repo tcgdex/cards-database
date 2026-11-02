@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Nuzleaf",
@@ -67,16 +61,29 @@ const card: Card = {
 	},
 
 	description: {
-		en: "They live in holes bored in large trees. The sound of Nuzleaf's grass flute fills listeners with dread."
+		en: "They live in holes bored in large trees. The sound of Nuzleaf's grass flute fills listeners with dread.",
+		de: "Sie leben in Löchern, die sie in große Bäume gebohrt haben. Der Ton ihrer Grasflöten erfüllt Zuhörer mit Unruhe."
 	},
 
 	dexId: [274],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574144,
-		tcgplayer: 246891
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574144,
+				tcgplayer: 246891
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574144,
+				tcgplayer: 246891
+			}
+		},
+	],
 }
 
 export default card

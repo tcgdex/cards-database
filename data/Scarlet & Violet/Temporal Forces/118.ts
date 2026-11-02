@@ -66,23 +66,50 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
 	variants: [
-		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
-		},
-		{
-			type: "normal",
-			stamp: ["set-logo"]
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 760748,
+			tcgplayer: 542862
 		}
-	],
+	},
+	{
+		type: "reverse",
+		thirdParty: {
+			cardmarket: 760748,
+			tcgplayer: 542862
+		}
+	},
+	{
+		type: "normal",
+		stamp: ["set-logo"],
+		thirdParty: {
+			cardmarket: 866038,
+		}
+	},
+],
 
 	illustrator: "Tonji Matsuno",
+
+	description: {
+		en: "Sightings of this Pokémon have occurred in recent years. It resembles a mysterious object described in an old expedition journal.",
+	},
 
 	thirdParty: {
 		cardmarket: 760748

@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		348,
-	],
+	dexId: [348],
 
 	hp: 120,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Anorith",
-		fr: "Anorith"
+		fr: "Anorith",
+		de: "Anorith"
 	},
 
 	stage: "Stage2",
@@ -36,13 +35,13 @@ const card: Card = {
 			name: {
 				en: "Primal Veil",
 				fr: "Voile primordial",
-				de: "Primal Veil"
+				de: "Primitiver Schleier"
 			},
 			effect: {
-				en: "As long as Armaldo is your Active Pokémon, each player can't play any Supporter cards.",
+				en: "As long as Armaldo is your Active Pokémon, each player can't play any Supporter Cards.",
 				fr: "Tant qu'Armaldo est votre Pokémon Actif, ni vous ni votre adversaire ne pouvez jouer de cartes Supporter.",
-				de: "As long as Armaldo is your Active Pokémon, each player can't play any Supporter cards."
-			},
+				de: "Solange Armaldo dein Aktives Pokémon ist, können beide Spieler keine Unterstützerkarten spielen."
+			}
 		},
 	],
 
@@ -56,7 +55,7 @@ const card: Card = {
 			name: {
 				en: "Blade Arms",
 				fr: "Bras tranchants",
-				de: "Blade Arms"
+				de: "Klingenarme"
 			},
 
 			damage: 60,
@@ -74,23 +73,32 @@ const card: Card = {
 	
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 275778,
-		tcgplayer: 83619
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275778,
+				tcgplayer: 83619
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275778,
+				tcgplayer: 83619
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["pre-release"]
+			stamp: ["pre-release"],
+			thirdParty: {
+				cardmarket: 881759,
+				tcgplayer: 282797
+			}
 		},
-	]
+	],
+
 }
 
 export default card

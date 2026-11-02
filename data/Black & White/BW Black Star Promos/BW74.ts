@@ -70,6 +70,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
+	},
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Aggrostella"
 	},
 
+	illustrator: "Ligton",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
@@ -67,20 +68,37 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "To survive in the cold waters of Galar, this Pokémon forms a dome with its legs, enclosing its body so it can capture its own body heat.",
+		de: "Um dem kalten Wasser der Galar-Region zu trotzen, bilden seine Beine eine Kuppel, deren Inneres es mittels Körperwärme aufheizt."
 	},
 
-	thirdParty: {
-		cardmarket: 682162,
-		tcgplayer: 451769
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682162,
+				tcgplayer: 451769
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682162,
+				tcgplayer: 451769
+			}
+		},
+	],
 }
 
 export default card

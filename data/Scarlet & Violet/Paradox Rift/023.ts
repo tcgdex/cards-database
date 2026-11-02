@@ -48,18 +48,42 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
+		de: "Es legt sich auf warme Steine und nimmt so über seine rechteckigen Schuppen Hitze auf, mit der es Feuer-Energie erzeugt."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740499,
+				tcgplayer: 523630,
+				cardtrader: 265093
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740499,
+				tcgplayer: 523630,
+				cardtrader: 265093
+			}
+		},
+	],
 
 	illustrator: "Gemi",
 
-	thirdParty: {
-		cardmarket: 740499
-	}
+	
 }
 
 export default card

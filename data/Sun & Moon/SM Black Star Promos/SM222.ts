@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Traunmagil"
 	},
 
-	rarity: "Rare",
+	illustrator: "Sumiyoshi Kizuki",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Psychic"],
@@ -75,7 +76,22 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "Feared for its wrath and the curses it spreads, this Pokémon will also, on a whim, cast spells that help people.",
+		de: "Es wird für seine Flüche und Beschwörungen gefürchtet. Wenn ihm danach ist, spricht es auch mal Bannsprüche, die Menschen helfen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 399674,
+				tcgplayer: 204985
+			}
+		}
+	],
 }
 
 export default card

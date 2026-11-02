@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Sheinux"
 	},
 
+	illustrator: "0313",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -44,20 +45,39 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "This Pokémon generates electricity by contracting its muscles. Excited trembling is a sign that Shinx is generating a tremendous amount of electricity.",
+		de: "Durch Muskelkontraktionen erzeugt es Strom. Heftiges Zittern ist bei Sheinux ein Anzeichen dafür, dass es sehr viel Elektrizität generiert."
 	},
 
-	thirdParty: {
-		cardmarket: 691756,
-		tcgplayer: 478144
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691757,
+				tcgplayer: 478144
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691757,
+				tcgplayer: 478144
+			}
+		},
+	],
 }
 
 export default card

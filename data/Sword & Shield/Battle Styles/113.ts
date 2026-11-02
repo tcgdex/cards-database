@@ -54,23 +54,30 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It licks filth clean with its tongue. Whatever it licks always stinks afterward, so whether it's really clean is…questionable."
+		en: "It licks filth clean with its tongue. Whatever it licks always stinks afterward, so whether it's really clean is…questionable.",
+		de: "Seine Zunge leckt jede Unreinheit sauber. Danach haftet allerdings ein übler Geruch daran, was wiederum am Ergebnis zweifeln lässt."
 	},
 
-	thirdParty: {
-		cardmarket: 545651,
-		tcgplayer: 234153
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545651,
+				tcgplayer: 234153
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545651,
+				tcgplayer: 234153
+			}
+		},
+	],
 }
 
 export default card

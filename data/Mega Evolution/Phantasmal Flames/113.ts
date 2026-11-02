@@ -3,6 +3,7 @@ import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [319],
 
 	name: {
 		en: "Mega Sharpedo ex",
@@ -13,7 +14,16 @@ const card: Card = {
 		it: "Mega Sharpedo-ex",
 		pt: "Mega Sharpedo ex"
 	},
+	evolveFrom: {
+		en: "Carvanha",
+		de: "Kanivanha",
+		es: "Carvanha",
+		fr: "Carvanha",
+		it: "Carvanha",
+		pt: "Carvanha",
+	},
 
+	suffix: "ex",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 
@@ -72,19 +82,26 @@ const card: Card = {
 		damage: "120+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "I",
 
+	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857688,
+				tcgplayer: 662192,
+				cardtrader: 356899
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857688,
-		tcgplayer: 662192
-	}
 }
 
 export default card

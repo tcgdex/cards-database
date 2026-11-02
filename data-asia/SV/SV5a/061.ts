@@ -20,6 +20,16 @@ const card: Card = {
 		th: "จั่วการ์ด 2 ใบจากสำรับการ์ดฝ่ายเรา หลังจากนั้น ถ้ามี [ศาลาประชาคม] อยู่บนกระดาน นำ [ผู้ดูแล] นี้ใส่กลับไปในสำรับการ์ดแล้วสับ โดยไม่ต้องทิ้งที่ตำแหน่งทิ้งการ์ด"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 761521,
+				tcgplayer: 566116,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "H"
 }

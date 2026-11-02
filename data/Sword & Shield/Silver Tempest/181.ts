@@ -4,6 +4,7 @@ import Set from "../Silver Tempest"
 const card: Card = {
 	dexId: [435],
 	set: Set,
+	cameoDexIds: [46, 50, 434],
 
 	name: {
 		en: "Skuntank V",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Skuntank V"
 	},
 
+	illustrator: "Jiro Sasumo",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 210,
@@ -65,20 +67,25 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682228,
-		tcgplayer: 451829
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682228,
+				tcgplayer: 451829
+			}
+		},
+	],
 }
 
 export default card

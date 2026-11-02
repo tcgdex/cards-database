@@ -73,6 +73,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Volcanoes or dry, craggy places are its home. It emanates a sweet-smelling poisonous gas that attracts bug Pokémon, then attacks them.",
+		de: "Lebt in Vulkanen und trockenen Felsgebieten. Mit seinem süßlich duftenden Giftgas lockt es Käfer-Pokémon an, um sie anzugreifen."
+	},
+
 	thirdParty: {
 		cardmarket: 315956,
 		tcgplayer: 157642

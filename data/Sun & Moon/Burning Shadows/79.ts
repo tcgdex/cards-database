@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [448],
 
 	dexId: [
 		766,
@@ -81,10 +82,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299481,
-		tcgplayer: 138565
-	}
+	description: {
+		en: "They form groups of roughly 20 individuals. Their mutual bond is remarkable—they will never let down a comrade.",
+		de: "Es gründet Gruppen von etwa 20 Exemplaren. Der Zusammenhalt der Gruppe ist extrem stark, kein Kamerad wird jemals im Stich gelassen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299481,
+				tcgplayer: 138565
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299481,
+				tcgplayer: 138565
+			}
+		},
+	],
 }
 
 export default card

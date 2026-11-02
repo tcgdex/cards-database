@@ -81,23 +81,30 @@ const card: Card = {
 	types: ["Lightning"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "When this Pokémon sounds as if it's strumming a guitar, it's actually clawing at the protrusions on its chest to generate electricity."
+		en: "When this Pokémon sounds as if it's strumming a guitar, it's actually clawing at the protrusions on its chest to generate electricity.",
+		de: "Wenn es am Fortsatz an seiner Brust kratzt und dadurch Strom erzeugt, dann erklingt in der Umgebung ein Ton wie von einer Gitarre."
 	},
 
-	thirdParty: {
-		cardmarket: 456468,
-		tcgplayer: 213153
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457773,
+				tcgplayer: 213153
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457773,
+				tcgplayer: 213153
+			}
+		},
+	],
 }
 
 export default card

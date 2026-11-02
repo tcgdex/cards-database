@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Litwick",
 		fr: "Funécire",
+		de: "Lichtel"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Ember",
 				fr: "Flammèche",
+				de: "Glut"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard an Energy attached to this Pokémon.",
 				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie attachée à ce Pokémon.",
+				de: "Wirf 1 Münze. Lege bei „Zahl“ 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 40,
 
@@ -61,10 +64,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280244,
-		tcgplayer: 86588
-	}
+	description: {
+		en: "It arrives near the moment of death and steals spirit from the body.",
+		de: "Es erscheint im Augenblick des Todes und verschlingt die Seele des Verblichenen, sofort nachdem sie den Körper verlässt."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280244,
+				tcgplayer: 86588
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280244,
+				tcgplayer: 86588
+			}
+		},
+	],
 }
 
 export default card

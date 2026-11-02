@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its body is covered in fluffy fur. The fur keeps it from feeling cold while it is rolling on ice.",
+	},
+
 	thirdParty: {
 		cardmarket: 273576,
 		tcgplayer: 95942

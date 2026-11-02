@@ -1,0 +1,73 @@
+import { Card } from "../../../interfaces"
+import Set from "../30th Celebration"
+
+const card: Card = {
+	set: Set,
+
+	description: {
+		en: "Using telepathy only fellow Exeggcute can pick up on, they always form a cluster of six.",
+		fr: "En utilisant un pouvoir télépathique que seuls les Noeunoeuf perçoivent, ses six têtes peuvent rester groupées en toutes circonstances."
+	},
+
+	name: {
+		en: "Exeggcute",
+		fr: "Noeunoeuf",
+		de: "Owei",
+		es: "Exeggcute",
+		it: "Exeggcute",
+		pt: "Exeggcute",
+		'es-mx': "Exeggcute"
+	},
+
+	illustrator: "Nelnal",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [102],
+	hp: 60,
+	types: ["Grass"],
+	stage: "Basic",
+
+	attacks: [{
+		name: {
+			en: "Hypnosis",
+			fr: "Hypnose",
+			de: "Hypnose",
+			es: "Hipnosis",
+			it: "Ipnosi",
+			pt: "Hipnose",
+			'es-mx': "Hipnosis"
+		},
+
+		effect: {
+			en: "Your opponent's Active Pokémon is now Asleep.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
+			de: "Das Aktive Pokémon deines Gegners schläft jetzt.",
+			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
+			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
+			pt: "O Pokémon Ativo do seu oponente agora está Adormecido.",
+			'es-mx': "El Pokémon Activo de tu rival ahora está Dormido."
+		},
+
+		cost: ["Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Fire",
+		value: "×2"
+	}],
+
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			stamp: ["30th-anniversary"],
+			thirdParty: {
+				cardmarket: 907607,
+				tcgplayer: 716435
+			}
+		}
+	],
+}
+
+export default card

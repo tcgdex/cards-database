@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Toy Catcher",
@@ -29,17 +23,23 @@ const card: Card = {
 		es: "Cambia 1 de los Pokémon en Banca de tu rival al que le queden 50 PS o menos por el Pokémon Activo de tu rival.",
 		it: "Scambia uno dei Pokémon nella panchina del tuo avversario che ha 50 PS o meno rimanenti con il Pokémon attivo del tuo avversario.",
 		pt: "Troque 1 dos Pokémon no Banco do seu oponente que tiver PS restante de 50 ou menos pelo Pokémon Ativo dele(a).",
-		de: "Tausche 1 Pokémon auf der Bank deines Gegners, das 50 oder weniger verbleibende KP hat, gegen das Aktive Pokémon deines Gegners aus."
+		de: "Tausche 1 Pokémon auf der Bank deines Gegners, das 50 oder weniger verbleibende KP hat, gegen das Aktive Pokémon deines Gegners aus. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 	illustrator: "sadaji",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574291,
-		tcgplayer: 246808
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 574291,
+				tcgplayer: 246808
+			}
+		},
+	],
 }
 
 export default card

@@ -86,23 +86,30 @@ const card: Card = {
 	types: ["Grass"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "If it sees any packs of Darumaka going after Snover, it chases them off, swinging its sizable arms like hammers."
+		en: "If it sees any packs of Darumaka going after Snover, it chases them off, swinging its sizable arms like hammers.",
+		de: "Es schwingt seine großen Arme wie Hämmer und vertreibt damit Gruppen von Flampion, die es auf Shnebedeck abgesehen haben."
 	},
 
-	thirdParty: {
-		cardmarket: 457458,
-		tcgplayer: 213083
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457458,
+				tcgplayer: 213083
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457458,
+				tcgplayer: 213083
+			}
+		},
+	],
 }
 
 export default card

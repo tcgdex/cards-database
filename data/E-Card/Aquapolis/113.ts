@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		72,
-	],
+	dexId: [72],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt vergiftet."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 
 		},
@@ -52,9 +50,9 @@ const card: Card = {
 				de: "Erholung"
 			},
 			effect: {
-				en: "Discard 1 Energy card attached to Tentacool in order to use this attack. Remove all damage counters from Tentacool.",
-				fr: "Défaussez-vous d'une carte Énergie  attachée à Tentacool afin d'utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Tentacool.",
-				de: "Lege 1 an Tentacha angelegte -Energiekarte auf deinen Ablagestapel, um diesen Angriff zu verwenden. Entferne alle Schadensmarken von Tentacha."
+				en: "Discard 1 Water Energy card attached to Tentacool in order to use this attack. Remove all damage counters from Tentacool.",
+				fr: "Défaussez-vous d'une carte Énergie {W} attachée à Tentacool afin d'utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Tentacool.",
+				de: "Lege 1 an Tentacha angelegte {W}-Energiekarte auf deinen Ablagestapel, um diesen Angriff zu verwenden. Entferne alle Schadensmarken von Tentacha."
 			},
 
 		},
@@ -63,22 +61,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275189,
-		tcgplayer: 89865
-	},
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89865,
+				cardmarket: 275189
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 89865,
+				cardmarket: 275189
+			}
+		},
 	]
 }
 

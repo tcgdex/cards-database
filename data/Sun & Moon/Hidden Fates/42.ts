@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Wigglytuff GX",
 		fr: "Grodoudou-GX",
+		de: "Knuddeluff-GX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -25,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Jigglypuff",
 		fr: "Rondoudou",
+		de: "Pummeluff"
 	},
 
 	suffix: "GX",
@@ -39,10 +41,12 @@ const card: Card = {
 			name: {
 				en: "Rolling Rush",
 				fr: "Ruée-Boulée",
+				de: "Rollender Ansturm"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 30 more damage for each heads.",
 				fr: "Lancez une pièce jusqu’à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
+				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis Zahl kommt. Diese Attacke fügt 30 Schadenspunkte mehr pro Kopf zu."
 			},
 			damage: "100+",
 
@@ -56,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Lovely Star GX",
 				fr: "Belle Étoile-GX",
+				de: "Lieblicher Star GX"
 			},
 			effect: {
 				en: "Heal all damage from this Pokémon. (You can’t use more than 1 GX attack in a game.)",
 				fr: "Soignez tous les dégâts de ce Pokémon. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				de: "Heile allen Schaden bei diesem Pokémon. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: 130,
 

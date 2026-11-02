@@ -4,6 +4,8 @@ import Set from "../Prismatic Evolutions"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [663],
+
 	name: {
 		en: "Lacey",
 		fr: "Taro",
@@ -22,22 +24,23 @@ const card: Card = {
 		es: "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 4 cartas. Si a tu rival le quedan 3 cartas de Premio o menos, roba 8 cartas en vez de 4.",
 		pt: "Embaralhe a sua mão no seu baralho. Em seguida, compre 4 cartas. Se o seu oponente tiver 3 ou menos cartas de Prêmio restantes, compre 8 cartas ao invés de 4.",
 		it: "Rimischia le carte che hai in mano nel tuo mazzo. Poi pesca quattro carte. Se il tuo avversario ha tre o meno carte Premio rimanenti, invece pescane otto.",
-		de: "Mische deine Handkarten in dein Deck. Ziehe anschließend 4 Karten. Wenn dein Gegner 3 oder weniger verbleibende Preiskarten hat, ziehe stattdessen 8 Karten."
+		de: "Mische deine Handkarten in dein Deck. Ziehe anschließend 4 Karten. Wenn dein Gegner 3 oder weniger verbleibende Preiskarten hat, ziehe stattdessen 8 Karten. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "H",
 
-	variants: {
-		holo: true,
-		normal: false
-	},
-
 	illustrator: "Tomowaka",
 
-	thirdParty: {
-		cardmarket: 805569
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 805569,
+				tcgplayer: 610530
+			}
+		},
+	],
 }
 
 export default card

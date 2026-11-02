@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its body is said to be harder than any kind of metal. A study has revealed that its body is hollow.",
+	},
+
 	thirdParty: {
 		cardmarket: 284232,
 		tcgplayer: 101473

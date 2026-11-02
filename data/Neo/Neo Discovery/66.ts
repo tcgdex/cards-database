@@ -40,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 30
@@ -48,21 +48,27 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Il déborde toujours d'énergie. Pour devenir plus fort, il continue de se battre même s'il perd."
+		en: "It is always bursting with energy. To make itself stronger, it keeps on fighting even if it loses.",
+		fr: "Il déborde toujours d'énergie. Pour devenir plus fort, il continue de se battre même s'il perd.",
+		de: "Es scheint vor lauter Energie zu platzen. Um stärker zu werden kämpft es auch dann weiter, wenn es verliert."
 	},
 
-	thirdParty: {
-		cardmarket: 274577,
-		tcgplayer: 90128
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274577,
+				tcgplayer: 90128
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274577,
+				tcgplayer: 90128
+			}
 		}
 	]
 }

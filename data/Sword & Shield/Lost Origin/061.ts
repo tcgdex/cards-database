@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zapplarang"
 	},
 
+	illustrator: "Shin Nagasawa",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 160,
@@ -79,16 +80,23 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674070,
-		tcgplayer: 283935
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674070,
+				tcgplayer: 283935
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674070,
+				tcgplayer: 283935
+			}
+		},
+	],
 }
 
 export default card

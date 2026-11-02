@@ -23,23 +23,29 @@ const card: Card = {
 		es: "Los ataques del Zacian V al que esté unida esta carta hacen 30 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 		it: "Gli attacchi dello Zacian-V a cui è assegnata questa carta infliggono 30 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
 		pt: "Os ataques do Zacian V ao qual esta carta está ligada causam 30 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
-		de: "Die Attacken des Zacian-V, an das diese Karte angelegt ist, fügen dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Die Attacken des Zacian-V, an das diese Karte angelegt ist, fügen dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden). Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 539333,
-		tcgplayer: 232543
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539333,
+				tcgplayer: 232543
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539333,
+				tcgplayer: 232543
+			}
+		},
+	],
 }
 
 export default card

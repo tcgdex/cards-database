@@ -89,6 +89,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its four ruggedly developed arms can launch a flurry of 1,000 punches in just two seconds.",
+		de: "Seine markigen Arme können innerhalb von nur zwei Sekunden 1 000 Schläge verteilen."
+	},
+
 	thirdParty: {
 		cardmarket: 293413,
 		tcgplayer: 124072

@@ -79,6 +79,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Oricorio relaxes by swaying gently. This increases its psychic energy, which it then fires at its enemies.",
+		de: "Es entspannt sich durch sanft kreisende Bewegungen. Dies verstärkt seine Psycho-Kräfte, welche es auf den Gegner abfeuert."
+	},
+
 	thirdParty: {
 		cardmarket: 297478,
 		tcgplayer: 130961

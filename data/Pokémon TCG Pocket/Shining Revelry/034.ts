@@ -23,7 +23,9 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Drifloon"
+		en: "Drifloon",
+		fr: "Baudrive",
+		de: "Driftlon"
 	},
 
 	description: {
@@ -31,7 +33,7 @@ const card: Card = {
 		fr: "Il contrôle son altitude en produisant des gaz\nà l'intérieur de son corps puis en les expulsant.",
 		es: "Crea en su interior gases y los expulsa. De esta\nforma es capaz de volar y controlar su altura.",
 		it: "Può regolare l'altitudine di volo grazie\nalla capacità di produrre gas all'interno\ndel proprio corpo e di espellerli.",
-		de: "Indem es Gas in seinem Körper erzeugt und\nwieder ausstößt, reguliert es seine Flughöhe.",
+		de: "Indem es Gas in seinem Körper erzeugt und wieder ausstößt, reguliert es seine Flughöhe.",
 		'pt-br': "Ele pode gerar e soltar gases dentro do seu corpo.\nÉ assim que ele pode controlar a altitude da sua flutuação.",
 		ko: "몸 안에서 가스를\n만들거나 토해 내며\n하늘을 나는 높이를 조절한다."
 	},

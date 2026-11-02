@@ -64,6 +64,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Even if its body is torn, it can regenerate as long as the glowing central core remains intact.",
+		de: "Auch wenn sein Körper nicht mehr intakt ist, kann es sich regenerieren, wenn der Kern leuchtet."
+	},
+
 	thirdParty: {
 		cardmarket: 281370,
 		tcgplayer: 89554

@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Ryo Ueda",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		250,
-	],
+	dexId: [250],
 
 	hp: 100,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -57,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, discard all Fire Energy attached to Ho-Oh.",
 				fr: "Lancez une pièce. Si c’est pile, défaussez toutes les Énergies Fire attachées à Ho-Oh.",
-				de: "Wirf eine Münze. Bei \"Zahl\" lege alle an Ho-Oh angelegten -Energien auf deinen Ablagestapel."
+				de: "Wirf eine Münze. Bei „Zahl“ lege alle an Ho-Oh angelegten {R}-Energien auf deinen Ablagestapel."
 			},
 			damage: 100,
 
@@ -67,23 +65,39 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 279642,
-		tcgplayer: 86126
-	}
+	description: {
+		en: "Legends claim this Pokémon flies the world's skies continuously on its magnificent seven-colored wings.",
+		de: "Man sagt, dass dieses Pokémon auf seinen siebenfarbigen Schwingen durch die Lüfte fliegt."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86126,
+				cardmarket: 279642
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86126,
+				cardmarket: 279642
+			},
+		},
+	],
+
 }
 
 export default card

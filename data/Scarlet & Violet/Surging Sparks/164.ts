@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Busca en tu baraja hasta 5 cartas y descártalas. Después, baraja las cartas de tu baraja.",
 		it: "Cerca nel tuo mazzo fino a cinque carte e scartale. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure por até 5 cartas no seu baralho e descarte-as. Em seguida, embaralhe o seu baralho.",
-		de: "Durchsuche dein Deck nach bis zu 5 Karten und lege sie auf deinen Ablagestapel. Mische anschließend dein Deck."
+		de: "Du kannst nicht mehr als 1 ASS-KLASSE-Karte in deinem Deck haben. Durchsuche dein Deck nach bis zu 5 Karten und lege sie auf deinen Ablagestapel. Mische anschließend dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
@@ -30,7 +30,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 794537,
+				tcgplayer: 589880
+			}
 		},
 		{
 			type: "holo",
@@ -40,9 +44,6 @@ const card: Card = {
 
 	illustrator: "Toyste Beach",
 
-	thirdParty: {
-		cardmarket: 794537
-	}
 }
 
 export default card

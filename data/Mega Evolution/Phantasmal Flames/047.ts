@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Brambleghast"
 	},
 
+	evolveFrom: {
+		en: "Bramblin",
+		fr: "Virovent",
+		es: "Bramblin",
+		'es-mx': "Bramblin",
+		de: "Weherba",
+		it: "Bramblin",
+		pt: "Bramblin",
+	},
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 
@@ -62,22 +72,46 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "It will open the branches of its head to envelop its prey. Once it absorbs all the life energy it needs, it expels the prey and discards it.",
+		fr: "Il déplie ses branches pour gober ses proies. Une fois qu'il a absorbé la quantité d'énergie vitale qu'il souhaitait, il les recrache.",
+		de: "Es öffnet die Zweige auf dem Kopf, um Beute zu verschlingen. Hat es dieser genug Lebensenergie entzogen, spuckt es sie aus und entsorgt sie so."
+	},
+
+	illustrator: "Tetsu Kayama",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857622,
+				tcgplayer: 662135,
+				cardtrader: 356830
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857622,
+				tcgplayer: 662135,
+				cardtrader: 356830
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857622,
-		tcgplayer: 662135
-	}
 }
 
 export default card

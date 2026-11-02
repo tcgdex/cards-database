@@ -4,6 +4,7 @@ import Set from "../Surging Sparks"
 const card: Card = {
 	dexId: [770],
 	set: Set,
+	cameoDexIds: [1024],
 
 	name: {
 		en: "Palossand ex",
@@ -72,20 +73,34 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "H",
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 794594,
+				tcgplayer: 590019
+			}
+		},
 	],
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 
-	thirdParty: {
-		cardmarket: 794594
-	}
 }
 
 export default card

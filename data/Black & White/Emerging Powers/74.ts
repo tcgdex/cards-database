@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Spinning Attack",
 				fr: "Attaque Tournante",
+				de: "Rundumangriff"
 			},
 
 			damage: 10,
@@ -50,10 +51,12 @@ const card: Card = {
 			name: {
 				en: "Gear Grind",
 				fr: "Lancécrou",
+				de: "Klikkdiskus"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 30,
 
@@ -76,10 +79,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280039,
-		tcgplayer: 86481
-	}
+	description: {
+		en: "Interlocking two bodies and spinning around generates the energy they need to live.",
+		de: "Es gewinnt lebenswichtige Energie, indem es seine zwei Einzelteile ineinander verzahnt und rotieren lässt."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280039,
+				tcgplayer: 86481
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280039,
+				tcgplayer: 86481
+			}
+		},
+	],
 }
 
 export default card

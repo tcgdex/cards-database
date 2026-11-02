@@ -106,6 +106,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Apparently, it can detect innate qualities of leadership. According to legend, whoever it recognizes is destined to become king.",
+		de: "Angeblich erkennt es jene Menschen, die Potenzial zum Herrscher haben. Es heißt, von ihm anerkannte Personen seien bald darauf Könige geworden."
+	},
+
 	thirdParty: {
 		cardmarket: 288237,
 		tcgplayer: 111603

@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [445, 487],
 
 	dexId: [
 		648,
@@ -85,6 +86,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "The melodies sung by Meloetta have the power to make Pokémon that hear them happy or sad.",
+		de: "Es besitzt die Macht, Pokémon, die sich in seiner Nähe aufhalten, mit seinen Melodien froh oder traurig zu stimmen."
+	},
 
 	thirdParty: {
 		cardmarket: 388417,

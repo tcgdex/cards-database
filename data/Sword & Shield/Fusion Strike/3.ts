@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage2",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "ryoma uratsuka",
 
 	description: {
-		en: "It collects honey every day. It rubs honey onto the hairs on its legs to carry it back to its nest."
+		en: "It collects honey every day. It rubs honey onto the hairs on its legs to carry it back to its nest.",
+		de: "Es sammelt täglich Honig. Es reibt ihn in seine Beinhaare, um ihn in sein Nest zu transportieren."
 	},
 
 	abilities: [{
@@ -74,17 +81,23 @@ const card: Card = {
 		damage: 90
 	}],
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582031,
-		tcgplayer: 253073
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 582031,
+				tcgplayer: 253073
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582031,
+				tcgplayer: 253073
+			}
+		},
+	],
 }
 
 export default card

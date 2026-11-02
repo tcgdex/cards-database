@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "mashu",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [200],
 	hp: 60,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -45,13 +46,36 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676045,
-		cardmarket: 869844
-	}
+	description: {
+		en: "It loves to bite and yank people’s hair from behind without warning, just to see their shocked reactions.",
+		fr: "Il adore mordre les gens et leur tirer les cheveux par surprise, juste pour voir leur réaction.",
+		de: "Es zieht Leute gerne von hinten an den Haaren oder beißt sich plötzlich in ihren Schopf fest, um sich an der verdutzten Reaktion zu erfreuen."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869844,
+				tcgplayer: 676045
+			}
+		}
+	],
 }
 
 export default card

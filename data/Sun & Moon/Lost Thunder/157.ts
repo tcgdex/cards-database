@@ -85,6 +85,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It draws symbols all over the place to mark its territory. In towns with many Smeargle, the walls are covered in graffiti.",
+		de: "Hinterlässt allerlei Markierungen, um sein Revier zu kennzeichnen. Wände in Städten mit vielen Farbeagle sind daher ziemlich vollgeschmiert."
+	},
+
 	thirdParty: {
 		cardmarket: 365794,
 		tcgplayer: 178978

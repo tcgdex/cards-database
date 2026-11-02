@@ -42,23 +42,37 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded."
+		en: "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.",
+		de: "In Gefahr blendet es seinen Gegner mit seinem Fell und flieht, während der Gegner einen Moment blind ist."
 	},
 
-	thirdParty: {
-		cardmarket: 545341,
-		tcgplayer: 234197
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545341,
+				tcgplayer: 234197
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 562456
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545341,
+				tcgplayer: 234197
+			}
+		},
+	],
 }
 
 export default card

@@ -79,6 +79,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "As it did more and more with its tail, its hands became clumsy. It makes its nest high in the treetops.",
+		de: "Der übermäßige Einsatz seines Schweifes hatte die Zurückbildung seiner Hände zur Folge. Es lebt in den Kronen hoher Bäume."
+	},
+
 	thirdParty: {
 		cardmarket: 408469,
 		tcgplayer: 201291

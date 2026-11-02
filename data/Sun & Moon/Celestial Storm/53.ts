@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [312],
 
 	dexId: [
 		311,
@@ -85,6 +86,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises.",
+		de: "Es holt sich Energie aus Telegrafenmasten. Wenn es diese entlädt, hört man ein lautes Prasseln."
+	},
 
 	thirdParty: {
 		cardmarket: 361299,

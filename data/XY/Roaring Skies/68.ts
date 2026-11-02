@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It digs into the ground with its tail and makes a mazelike nest. It can fly just a little.",
+	},
+
 	thirdParty: {
 		cardmarket: 282736,
 		tcgplayer: 98104

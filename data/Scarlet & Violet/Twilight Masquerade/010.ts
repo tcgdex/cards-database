@@ -38,7 +38,7 @@ const card: Card = {
 			es: "Puedes usar este ataque solo si sales en segundo lugar, y solo durante tu primer turno. Pon 1 de los Pokémon en Banca de tu rival y todas las cartas unidas a él en su baraja, y barájalas todas.",
 			it: "Puoi usare questo attacco solo se inizi per secondo e solo durante il tuo primo turno. Rimischia uno dei Pokémon nella panchina del tuo avversario e tutte le carte a esso assegnate nel suo mazzo.",
 			pt: "Você só pode usar este ataque se for o segundo a jogar e somente durante o seu primeiro turno. Embaralhe 1 dos Pokémon no Banco do seu oponente e todas as cartas ligadas a ele no baralho dele.",
-			de: "Du kannst diese Attacke nur einsetzen, wenn du als Zweiter am Zug bist, und nur während deines ersten Zuges. Mische 1 Pokémon auf der Bank deines Gegners und alle angelegten Karten in sein Deck."
+			de: "Du kannst diese Attacke nur einsetzen, wenn du als Zweiter am Zug bist, und nur während deines ersten Zuges. Mische 1 Pokémon auf der Bank deines Gegners und alle an es angelegten Karten in sein Deck."
 		}
 	}, {
 		cost: ["Grass", "Colorless"],
@@ -55,18 +55,39 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It guides Volbeat to draw signs in the night sky. There are scholars who research the meaning of these signs.",
+		de: "Es veranlasst Volbeat dazu, Zeichen in den Nachthimmel zu malen. Manche Forscher untersuchen die Bedeutung dieser Muster."
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769184,
+				tcgplayer: 550054
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769184,
+				tcgplayer: 550054
+			}
+		},
+	],
 
 	illustrator: "Orca",
 
-	thirdParty: {
-		cardmarket: 769184
-	}
 }
 
 export default card

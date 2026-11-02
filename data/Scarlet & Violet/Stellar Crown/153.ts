@@ -4,6 +4,7 @@ import Set from "../Stellar Crown"
 const card: Card = {
 	dexId: [307],
 	set: Set,
+	cameoDexIds: [441],
 
 	name: {
 		en: "Meditite",
@@ -55,19 +56,27 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 786007,
+				tcgplayer: 567436
+			}
+		},
+	],
 
 	illustrator: "Yuriko Akase",
 
-	thirdParty: {
-		cardmarket: 786007
-	}
 }
 
 export default card

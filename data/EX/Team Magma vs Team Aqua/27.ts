@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		309,
-	],
+	dexId: [309],
 
 	hp: 50,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Random Spark",
 				fr: "Étincelle surprise",
-				de: "Random Spark"
+				de: "Zufälliger Funke"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -55,7 +53,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, search your discard pile for a Lightning Energy card and attach it to Team Aqua's Electrike.",
 				fr: "Lancez une pièce. Si c'est face, cherchez une carte Énergie  dans votre pile de défausse et attachez-la à Dynavolt de Team Aqua.",
-				de: "Flip a coin. If heads, search your discard pile for a  Energy card and attach it to Team Aqua's Electrike."
+				de: "Wirf 1 Münze. Bei „Kopf“ durchsuche deinen Ablagestapel nach einer {L}-Energiekarte und lege sie an Team Aquas Frizelbliz an."
 			},
 			damage: 10,
 
@@ -76,22 +74,34 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276004,
-		tcgplayer: 89785
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275804,
+				tcgplayer: 89785
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275804,
+				tcgplayer: 89785
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['chris-fulop'],
+			thirdParty: {
+				tcgplayer: 477444
+			}
+		},
+	],
+
 }
 
 export default card

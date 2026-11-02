@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Exploud"
+		en: "Exploud",
+		fr: "Brouhabam"
 	},
 
 	illustrator: "kawayoo",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Loudred"
+		en: "Loudred",
+		fr: "Ramboum"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Booming Roar"
+			en: "Booming Roar",
+			fr: "Explosion de Bruit"
 		},
 
 		damage: 90,
 		cost: ["Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "During your opponent's next turn, they can't play any Item cards from their hand."
+			en: "During your opponent's next turn, they can't play any Item cards from their hand.",
+			fr: "Pendant le prochain tour de votre adversaire, il ne peut pas jouer de cartes Objet de sa main."
 		}
 	}],
 

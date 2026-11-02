@@ -4,6 +4,8 @@ import Set from "../Crimson Blaze"
 const card: Card = {
 	set: Set,
 
+	dexId: [9],
+
 	name: {
 		en: "Mega Blastoise ex"
 	},
@@ -16,10 +18,6 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wartortle"
-	},
-
-	description: {
-		en: "The cannon on its back is as powerful as a\ntank gun. Its tough legs and back enable it to\nwithstand the recoil from firing the cannon."
 	},
 
 	stage: "Stage2",

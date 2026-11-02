@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 70,
 	types: ["Lightning"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Mina Nakai",
 
 	description: {
-		en: "It manipulates the chemical makeup of its poison to produce electricity. The voltage is weak, but it can cause a tingling paralysis."
+		en: "It manipulates the chemical makeup of its poison to produce electricity. The voltage is weak, but it can cause a tingling paralysis.",
+		de: "Es ändert sein Toxin auf chemischer Ebene, um Strom zu erzeugen. Dieser ist zwar schwach, kann aber einen lähmenden Schlag verursachen."
 	},
 
 	attacks: [{
@@ -42,17 +49,23 @@ const card: Card = {
 		damage: 20
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582498,
-		tcgplayer: 253261
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582498,
+				tcgplayer: 253261
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582498,
+				tcgplayer: 253261
+			}
+		},
+	],
 }
 
 export default card

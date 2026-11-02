@@ -48,23 +48,31 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
-		fr: "Il attend, suspendu à des branches d'arbre que des insectes volent dans sa gueule. Souvent, il reste immobile pendant des heures."
+		en: "It waits suspended from tree branches for insects to fly into its mouth, often not moving for hours at a time.",
+		fr: "Il attend, suspendu à des branches d'arbre que des insectes volent dans sa gueule. Souvent, il reste immobile pendant des heures.",
+		de: "Es hängt von Zweigen herunter und wartet auf Insekten, die ihm ins Maul fliegen. Dabei bewegt es sich oft stundenlang nicht."
 	},
 
-	thirdParty: {
-		cardmarket: 274729,
-		tcgplayer: 88123
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274729,
+				tcgplayer: 88123
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274729,
+				tcgplayer: 88123
+			}
 		}
 	]
 }

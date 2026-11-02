@@ -60,26 +60,49 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.",
+		fr: "Un Pokémon existant depuis 300 millions d'années, et modifié par la Team Plasma. Il a maintenant un canon dans le dos.",
+		de: "Es lebte vor 300 Millionen Jahren. Team Plasma modifizierte es und pflanzte ihm am Rücken eine Kanone ein."
+	},
+
+	illustrator: "Mitsuhiro Arita",
 	variants: [
 		{
-			type: "holo"
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857583,
+				tcgplayer: 662161,
+				cardtrader: 356792
+			}
 		},
 		{
-			type: "reverse"
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857583,
+				tcgplayer: 662161,
+				cardtrader: 356792
+			}
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
-		}
+			type: 'holo',
+			foil: 'cosmos',
+			stamp: ['set-logo'],
+			thirdParty: {
+				cardmarket: 858502,
+				tcgplayer: 664012
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857583,
-		tcgplayer: 662161
-	}
 }
 
 export default card

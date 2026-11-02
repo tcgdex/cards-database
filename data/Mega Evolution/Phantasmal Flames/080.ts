@@ -60,22 +60,40 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "Once a Smeargle reaches adulthood, it will have other members of its species leave paw prints on its back.",
+		fr: "Ces Pokémon ont pour coutume d'apposer l'empreinte de leur patte sur le dos de leurs congénères ayant atteint l'âge adulte.",
+		de: "Sobald Farbeagle das Erwachsenenalter erreicht haben, ist es üblich, dass Artgenossen mit den Pfoten Abdrücke auf ihren Rücken hinterlassen."
+	},
+
+	illustrator: "REND",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857655,
+				tcgplayer: 662227,
+				cardtrader: 356866
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857655,
+				tcgplayer: 662227,
+				cardtrader: 356866
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857655,
-		tcgplayer: 662227
-	}
 }
 
 export default card

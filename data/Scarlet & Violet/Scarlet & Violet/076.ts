@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pawmo",
-		fr: "Pohmotte"
+		fr: "Pohmotte",
+		de: "Pamamo"
 	},
 
 	stage: "Stage2",
@@ -72,15 +73,30 @@ const card: Card = {
 		damage: 230
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "Mizue",
+
+	description: {
+		en: "Pawmot's fluffy fur acts as a battery. It can store the same amount of electricity as an electric car.",
+		de: "Sein flauschiges Fell dient ihm als Batterie. Darin kann es dieselbe Menge an Strom speichern wie ein Elektroauto."
+	},
 
 	thirdParty: {
         cardmarket: 702372,

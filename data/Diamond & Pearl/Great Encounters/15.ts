@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Baltoy",
 		fr: "Balbuto",
+		de: "Puppance"
 	},
 
 	stage: "Stage1",
@@ -71,6 +72,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "An ancient clay figurine that came to life as a Pokémon from exposure to a mysterious ray of light.",
+		de: "Eine antike Lehmstatue, die durch ein mysteriöses Licht zum Leben erwacht ist."
+	},
 
 	thirdParty: {
 		cardmarket: 277917,

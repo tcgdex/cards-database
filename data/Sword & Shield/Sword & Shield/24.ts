@@ -49,7 +49,7 @@ const card: Card = {
 				es: "Descarta la primera carta de tu baraja. Si es una carta de Energía Fire, este ataque hace 90 puntos de daño más.",
 				it: "Scarta la prima carta del tuo mazzo. Se quella carta è una carta Energia Fire, questo attacco infligge 90 danni in più.",
 				pt: "Descarte a carta de cima do seu baralho. Se aquela carta for uma carta de Energia Fire, este ataque causará 90 pontos de dano a mais.",
-				de: "Lege die oberste Karte deines Decks auf deinen Ablagestapel. Wenn jene Karte eine Fire-Energiekarte ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
+				de: "Lege die oberste Karte deines Decks auf deinen Ablagestapel. Wenn jene Karte eine {R}-Energiekarte ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
 			},
 			damage: "90+",
 

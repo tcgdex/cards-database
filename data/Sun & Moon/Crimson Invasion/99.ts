@@ -22,7 +22,7 @@ const card: Card = {
 		es: "No se eliminan las Condiciones Especiales cuando evolucionan o involucionan Pokémon (tanto tuyos como de tu rival).",
 		it: "Le condizioni speciali non vengono rimosse quando i Pokémon, sia tuoi che del tuo avversario, si evolvono o se ne annulla l’evoluzione.",
 		pt: "As Condições Especiais não são removidas quando os Pokémon (seus e do seu oponente) evoluem ou revertem sua evolução.",
-		de: "Spezielle Zustände verlieren ihre Wirkung nicht, wenn Pokémon (deine und die deines Gegners) sich entwickeln oder rückentwicklen."
+		de: "Spezielle Zustände verlieren ihre Wirkung nicht, wenn Pokémon (deine und die deines Gegners) sich entwickeln oder rückentwicklen. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Phanpy"
 	},
 
+	illustrator: "Naoyo Kimura",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -44,20 +45,37 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
+		de: "Trotz seiner geringen Größe ist es stark. Es kann einen Erwachsenen mühelos auf dem Rücken tragen."
 	},
 
-	thirdParty: {
-		cardmarket: 682138,
-		tcgplayer: 451745
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682138,
+				tcgplayer: 451745
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682138,
+				tcgplayer: 451745
+			}
+		},
+	],
 }
 
 export default card

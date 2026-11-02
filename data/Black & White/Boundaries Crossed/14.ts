@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
+				de: "Ramme"
 			},
 
 			damage: 10,
@@ -59,10 +60,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280601,
-		tcgplayer: 84447
-	}
+	description: {
+		en: "Perhaps because they feel more at ease in a group, they stick to others they find. They end up looking like a cloud.",
+		de: "Sind sie mit Freunden unterwegs, hängen sie eng aufeinander wie Wolken, wohl weil sie sich in der Gruppe sicherer fühlen."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280601,
+				tcgplayer: 84447
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280601,
+				tcgplayer: 84447
+			}
+		},
+	],
 }
 
 export default card

@@ -55,15 +55,30 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "Ryota Murayama",
+
+	description: {
+		en: "It can sprint at over 70 mph while carrying a human. The rider's body heat warms Cyclizar's back and lifts the Pokémon's spirit.",
+		de: "Es kann mit 120 km/h umherdüsen, während es einen Menschen trägt. Die Körperwärme der Person wärmt seinen Rücken und gibt ihm Kraft."
+	},
 
 	thirdParty: {
         cardmarket: 702460,

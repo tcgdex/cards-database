@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Keilflamme-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 230,
 	types: ["Fire"],
@@ -57,9 +57,25 @@ const card: Card = {
 		damage: 260
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
-	illustrator: "PLANETA Mochizuki"
+	suffix: "ex",
+	illustrator: "PLANETA Mochizuki",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 775958,
+				tcgplayer: 579993
+			},
+		}
+	],
 }
 
 export default card

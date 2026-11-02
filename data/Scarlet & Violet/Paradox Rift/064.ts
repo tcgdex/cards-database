@@ -44,18 +44,42 @@ const card: Card = {
 		damage: "10×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Joltik latch on to other Pokémon and suck out static electricity. They're often found sticking to Yamper's hindquarters.",
+		de: "Es heftet sich an andere Pokémon und saugt ihnen statische Elektrizität aus. Häufig wird es an Hinterteilen von Voldi gesichtet."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740555,
+				tcgplayer: 523698,
+				cardtrader: 265139
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740555,
+				tcgplayer: 523698,
+				cardtrader: 265139
+			}
+		},
+	],
 
 	illustrator: "Kedamahadaitai Yawarakai",
 
-	thirdParty: {
-		cardmarket: 740555
-	}
+	
 }
 
 export default card

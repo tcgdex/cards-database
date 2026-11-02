@@ -82,12 +82,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -95,10 +89,22 @@ const card: Card = {
 		en: "If you anger it, it will do more than rampage. It will also burst out strong magnetism, causing nearby machines to break."
 	},
 
-	thirdParty: {
-		cardmarket: 512290,
-		tcgplayer: 226570
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 512290,
+				tcgplayer: 226570
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 512290,
+				tcgplayer: 226570
+			}
+		},
+	],
 }
 
 export default card

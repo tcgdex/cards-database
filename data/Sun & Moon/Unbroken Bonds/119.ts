@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Inkay",
 		fr: "Sepiatop",
+		de: "Iscalar"
 	},
 
 	stage: "Stage1",
@@ -98,6 +99,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "When it comes to strong hypnosis, there's an endless number of people who utilize Malamar for their nefarious deeds.",
+		de: "Dieses Pokémon kann starke hypnotische Kräfte einsetzen, die ständig von Halunken für üble Machenschaften missbraucht werden."
+	},
 
 	thirdParty: {
 		cardmarket: 372409,

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Mantax"
 	},
 
+	illustrator: "OKACHEKE",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 110,
@@ -55,20 +56,37 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "This calm and gentle Pokémon swims gracefully through the sea. After building speed, it can leap out of the water. It is often misidentified as a bird Pokémon due to this behavior.",
+		de: "Dieses friedliche Pokémon schwimmt anmutig durchs Meer. Wenn es beschleunigt, kann es auch kurz über den Wellen gleiten, wodurch es oft für ein Vogel-Pokémon gehalten wird."
 	},
 
-	thirdParty: {
-		cardmarket: 658542,
-		tcgplayer: 272234
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658542,
+				tcgplayer: 272234
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658542,
+				tcgplayer: 272234
+			}
+		},
+	],
 }
 
 export default card

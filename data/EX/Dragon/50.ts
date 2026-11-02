@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		371,
-	],
+	dexId: [371],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Risky Kick",
 				fr: "Coup de pied risqué",
-				de: "Risky Kick"
+				de: "Risikokick"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Flip a coin. If tails, this attack does nothing."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 10,
 
@@ -51,12 +49,12 @@ const card: Card = {
 			name: {
 				en: "Dragon Eye",
 				fr: "Oeil de dragon",
-				de: "Dragon Eye"
+				de: "Drachenauge"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -66,10 +64,47 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 83693,
-		cardmarket: 275927
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83693,
+				cardmarket: 275927
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83693,
+				cardmarket: 275927
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["gen-con"],
+			thirdParty: {
+				tcgplayer: 281964,
+				cardmarket: 275927
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["scrye"],
+			thirdParty: {
+				tcgplayer: 281964,
+				cardmarket: 275927
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["inquest-gamer"],
+			thirdParty: {
+				tcgplayer: 281964,
+				cardmarket: 275927
+			},
+		},
+	],
+
 }
 
 export default card

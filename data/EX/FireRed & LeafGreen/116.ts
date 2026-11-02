@@ -5,9 +5,10 @@ const card: Card = {
 	name: {
 		en: "Zapdos ex",
 		fr: "Élector ex",
-		de: "Zapdos ex"
+		de: "Zapdos-ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
@@ -56,29 +57,30 @@ const card: Card = {
 
 	abilities: [{
 		name: {
+			en: "Legendary Ascent",
 			fr: "Ascension légendaire",
 			de: "Legendary Ascent"
 		},
 
 		effect: {
-			fr: "Une seule fois lors de votre tour, lorsque vous déplacez Élector ex de votre main à votre Banc, vous pouvez échanger 1 de vos Pokémon Actifs avec Élector ex. Dans ce cas, vous pouvez également déplacer autant de cartes Énergie de base  attachées à votre Pokémon que vous le voulez et les placer sur Élector ex.",
+			en: "Once during your turn, when you put Zapdos ex from your hand onto your Bench, you may switch 1 of your Active Pokémon with Zapdos ex. If you do, you may also move any number of basic Lightning Energy cards attached to your Pokémon to Zapdos ex.",
+			fr: "Une seule fois lors de votre tour, lorsque vous déplacez Élector ex de votre main à votre Banc, vous pouvez échanger 1 de vos Pokémon Actifs avec Élector ex. Dans ce cas, vous pouvez également déplacer autant de cartes Énergie de base {L} attachées à votre Pokémon que vous le voulez et les placer sur Élector ex.",
 			de: "Once during your turn, when you put Zapdos ex from your hand onto your Bench, you may switch 1 of your Active Pokémon with Zapdos ex. If you do, you may also move any number of basic  Energy cards attached to your Pokémon to Zapdos ex."
 		},
 
 		type: "Poke-POWER"
 	}],
 
-	
-	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276292,
-		tcgplayer: 90723
-	},
+	retreat: 2,
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 276292,
+				tcgplayer: 90723
+			},
 		},
 	]
 }

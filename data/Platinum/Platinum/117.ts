@@ -13,34 +13,47 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [430, 432, 461],
+
 	effect: {
+		en: "You may play this card during your opponent's turn when your opponent's Pokémon uses any Poké-Power. Prevent all effects of that Poké-Power. (This counts as that Pokémon using its Poké-Power.) If you have 2 or less Pokémon SP in play, you can't play this card.",
 		fr: "Vous pouvez jouer cette carte lors du tour de votre adversaire lorsque le Pokémon de votre adversaire utilise un Poké-Power. Prévenez tous les effets de ce Poké-Power. (Cela compte comme si ce Pokémon utilisait son Poké-Power.) Si vous avez un maximum de 2 Pokémon SP en jeu, vous ne pouvez pas jouer cette carte.",
-		de: "You may play this card during your opponent's next turn when your opponent's Pokémon uses any Poké-Power: Prevent all effects of that Poké-Power. (This counts as that Pokémon using its Poké-Power). If you have 2 or less Pokémon SP in play, you can't play this card."
+		de: "Du kannst diese Karte im Zug deines Gegners spielen, wenn 1 Pokémon deines Gegners eine Poké-Power benutzt. Verhindere alle Effekte dieser Poké-Power. (Die Poké-Power gilt dennoch als benutzt.) Du kannst diese Karte nicht spielen, wenn du weniger als 3 Pokémon SP im Spiel hast."
 	},
 
 	trainerType: "Item",
 
-	thirdParty: {
-		cardmarket: 278538,
-		tcgplayer: 89806
-	},
-
-	variants:[
-		{
-			type:"normal"
+	variants: [		{
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 89806,
+				cardmarket: 278538
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278538,
+				tcgplayer: 89806
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["tsubasa-nakamura"]
+			stamp: ["tsubasa-nakamura"],
+			thirdParty: {
+				tcgplayer: 479958
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["yuta-komatsuda"]
+			stamp: ["yuta-komatsuda"],
+			thirdParty: {
+				tcgplayer: 480115
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

@@ -74,19 +74,59 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 725244,
+				tcgplayer: 509670,
+				cardtrader: 255849
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 811161,
+				tcgplayer: 538737,
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["gym-challenge"],
+			thirdParty: {
+				cardmarket: 780007,
+				tcgplayer: 694712,
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["asia-promo"],
+			thirdParty: {
+				cardmarket: 819255,
+			},
+		},
+	],
 
+	suffix: "ex",
 	illustrator: "takuyoa",
 
-	thirdParty: {
-		cardmarket: 725244
-	}
+
 }
 
 export default card

@@ -7,13 +7,38 @@ const card: Card = {
 	illustrator: "PLANETA Tsuji",
 	category: "Pokemon",
 	stage: "V-UNION",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	regulationMark: "E",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 572163,
+				tcgplayer: 247364
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 576915,
+				tcgplayer: 250253
+			}
+		},
+	],
 
 	name: {
 		en: "Zacian V-UNION",
@@ -24,7 +49,7 @@ const card: Card = {
 		it: "Zacian V UNIONE"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	hp: 320,
 	types: ["Metal"],
 
@@ -38,7 +63,7 @@ const card: Card = {
 
 		effect: {
 			en: "Attach up to 2 Metal Energy cards from your discard pile to this Pokémon.",
-			fr: "Attachez jusqu'à 2 cartes Énergie  de votre pile de défausse à ce Pokémon."
+			fr: "Attachez jusqu'à 2 cartes Énergie {M} de votre pile de défausse à ce Pokémon."
 		}
 	}, {
 		cost: ["Metal", "Metal", "Colorless"],
@@ -78,14 +103,8 @@ const card: Card = {
 			fr: "Défaussez 3 Énergies de ce Pokémon."
 		}
 	}],
-
-	regulationMark: "E",
 	suffix: "V",
-	retreat: 0,
-
-	thirdParty: {
-		cardmarket: 572163
-	}
+	retreat: 0
 }
 
 export default card

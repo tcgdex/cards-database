@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Strahlendes Glurak"
 	},
 
+	illustrator: "Shigenori Negishi",
 	rarity: "Radiant Rare",
 	category: "Pokemon",
 	hp: 160,
@@ -38,7 +39,7 @@ const card: Card = {
 			es: "Los ataques de este Pokémon cuestan Colorless menos por cada carta de Premio que haya cogido tu rival.",
 			it: "Il costo degli attacchi di questo Pokémon è ridotto di Colorless per ogni carta Premio presa dal tuo avversario.",
 			pt: "Os ataques deste Pokémon custam Colorless a menos para cada carta de Prêmio que seu oponente pegou.",
-			de: "Die Kosten der Attacken dieses Pokémon verringern sich für jede von deinem Gegner genommene Preiskarte um Colorless."
+			de: "Die Kosten der Attacken dieses Pokémon verringern sich für jede von deinem Gegner genommene Preiskarte um {C}."
 		}
 	}],
 
@@ -66,19 +67,32 @@ const card: Card = {
 		damage: 250
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
+
+	description: {
+		en: "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.",
+		de: "Dieses Pokémon kann mit seinem Feueratem Felsen schmelzen. Es verursacht ab und zu Waldbrände."
 	},
 
-	thirdParty: {
-		cardmarket: 664547,
-		tcgplayer: 274467
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665245,
+				tcgplayer: 274467
+			}
+		},
+	],
 }
 
 export default card

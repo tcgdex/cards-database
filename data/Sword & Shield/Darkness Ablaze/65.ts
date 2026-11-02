@@ -93,23 +93,30 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "In ancient times, it was unbeatable thanks to its powerful lower body, but it went extinct anyway after it depleted all its plant-based food sources."
+		en: "In ancient times, it was unbeatable thanks to its powerful lower body, but it went extinct anyway after it depleted all its plant-based food sources.",
+		de: "Dank seines kräftigen Unterkörpers war es in der Urzeit unbesiegbar, doch es fraß seine Pflanzennahrung restlos auf und starb daher aus."
 	},
 
-	thirdParty: {
-		cardmarket: 483204,
-		tcgplayer: 219432
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483204,
+				tcgplayer: 219432
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483204,
+				tcgplayer: 219432
+			}
+		},
+	],
 }
 
 export default card

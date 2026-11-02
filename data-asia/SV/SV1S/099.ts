@@ -15,6 +15,16 @@ const card: Card = {
 		ja: "自分の手札をすべてトラッシュし、山札を7枚引く。"
 	},
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 693065,
+				tcgplayer: 567216,
+			},
+		},
+	],
+
 	trainerType: "Supporter"
 }
 

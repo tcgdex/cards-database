@@ -70,7 +70,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		fr: "Il imite ses ennemis. Une fois imités, ils ne peuvent plus quitter ce Pokémon des yeux."
+		en: "It habitually mimics foes. Once mimicked, the foe cannot take its eyes off this Pokémon.",
+		fr: "Il imite ses ennemis. Une fois imités, ils ne peuvent plus quitter ce Pokémon des yeux.",
+		de: "Es ahmt seinen Gegner nach. Der kann den Blick danach nicht von ihm abwenden."
 	},
 
 	thirdParty: {

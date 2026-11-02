@@ -27,7 +27,8 @@ const card: Card = {
 	evolveFrom: {
 		en: "Magikarp",
 		fr: "Magicarpe",
-		it: "Magikarp"
+		it: "Magikarp",
+		de: "Karpador"
 	},
 
 	stage: "Stage1",
@@ -65,7 +66,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei Kopf ist das verteidigende Pokémon gelähmt.",
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon gelähmt.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
 			},
 			damage: 40,
@@ -86,20 +87,34 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	variants: [
 		{
 			type: "holo",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273701,
+				tcgplayer: 42404
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107000,
+				cardmarket: 660222
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107000,
+				cardmarket: 660222
+			}
 		},
 		{
 			type: "holo",
@@ -109,13 +124,10 @@ const card: Card = {
 
 
 	description: {
+		en: "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage.",
 		fr: "Gigantesque et maléfique, il est capable de raser une ville dans un accès de rage terrifiante.",
-		it: "Appare raramente nelle regioni selvagge. Enorme e feroce, se si infuria è capace di distruggere intere città. LIV 41 N.130"
-	},
-
-	thirdParty: {
-		cardmarket: 273701,
-		tcgplayer: 42404
+		it: "Appare raramente nelle regioni selvagge. Enorme e feroce, se si infuria è capace di distruggere intere città. LIV 41 N.130",
+		de: "Selten in freier Wildbahn gesichtet. Riesig und bösartig, kann bei einem Wutanfall ganze Städte zerstören."
 	}
 }
 

@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Tarountula",
-		fr: "Tissenboule"
+		fr: "Tissenboule",
+		de: "Tarundel"
 	},
 
 	stage: "Stage1",
@@ -72,15 +73,24 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
+	suffix: "ex",
 	illustrator: "takuyoa",
+
 
 	thirdParty: {
         cardmarket: 702315,

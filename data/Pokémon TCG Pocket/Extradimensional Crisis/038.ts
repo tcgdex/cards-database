@@ -18,7 +18,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Alolan Meowth"
+		en: "Alolan Meowth",
+		fr: "Miaouss d’Alola"
 	},
 
 	description: {

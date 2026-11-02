@@ -36,7 +36,7 @@ const card: Card = {
 			es: "Une cualquier cantidad de cartas de Energía Grass de tu mano a tus Pokémon de la manera que desees.",
 			it: "Assegna ai tuoi Pokémon un numero qualsiasi di carte Energia Grass dalla tua mano nel modo che preferisci.",
 			pt: "Ligue qualquer número de cartas de Energia Grass da sua mão aos seus Pokémon como desejar.",
-			de: "Lege beliebig viele Grass-Energiekarten aus deiner Hand beliebig an deine Pokémon an."
+			de: "Lege beliebig viele {G}-Energiekarten aus deiner Hand beliebig an deine Pokémon an."
 		},
 
 		cost: ["Grass"]
@@ -71,20 +71,19 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 567268,
-		tcgplayer: 241655
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567268,
+				tcgplayer: 241655
+			}
+		},
+	],
 }
 
 export default card

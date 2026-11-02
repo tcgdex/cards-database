@@ -81,6 +81,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and bring it to shore.",
+		de: "Es treibt durch den Ozean. Findet es ein verletztes Pokémon, nimmt es dieses auf und trägt es zurück an Land."
+	},
+
 	thirdParty: {
 		cardmarket: 281826,
 		tcgplayer: 94155

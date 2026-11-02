@@ -74,19 +74,6 @@ const card: Card = {
 			damage: 20,
 
 		},
-		{
-			cost: [
-				"Grass",
-			],
-			name: {
-				fr: "Vampigraine",
-			},
-			effect: {
-				fr: "Soignez 20 dégâts à ce Pokémon.",
-			},
-			damage: 20,
-
-		},
 	],
 
 	weaknesses: [
@@ -97,6 +84,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It has the power to travel across time, but it is said to appear only in peaceful times.",
+		de: "Es kann durch die Zeit reisen, aber es erscheint nur zu friedlichen Zeiten."
+	},
 
 	thirdParty: {
 		cardmarket: 365612

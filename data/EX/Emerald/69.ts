@@ -62,16 +62,24 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 89955,
+				cardmarket: 276580
+			},
+		},
+		{
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 89955,
+				cardmarket: 276580
+			},
 		},
 		{
 			type: "holo",
-			stamp: ["set-logo"]
-		},
-		{
-			type: "holo",
-			stamp: ["wizard-world-chicago"]
+			stamp: ["wizard-world-chicago"],
 		}
-	]
+	],
 }
 
 export default card

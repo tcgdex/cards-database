@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Goldeen",
 		fr: "Poissirène",
+		de: "Goldini"
 	},
 
 	stage: "Stage1",
@@ -75,7 +76,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		fr: "Il niche dans des rochers du ruisseau qu'il évide avec sa corne. Il donnerait sa vie pour ses œufs."
+		en: "It makes its nest by hollowing out boulders in streams with its horn. It defends its eggs with its life.",
+		fr: "Il niche dans des rochers du ruisseau qu'il évide avec sa corne. Il donnerait sa vie pour ses œufs.",
+		de: "Es baut Nester, indem es Steine im Fluss mit seinem Horn aushöhlt. Es verteidigt seine Eier mit dem Leben."
 	},
 
 	thirdParty: {

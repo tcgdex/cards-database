@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Comme il n'est pas très doué pour attraper ses proies,\nce Pokémon vorace fait équipe avec Nigirigon pour chasser.",
 		es: "Le gusta mucho comer, pero no se le da bien cazar, por lo\nque aúna fuerzas con Tatsugiri con el fin de capturar presas.",
 		it: "È un Pokémon vorace, ma non è molto abile\nnel procacciarsi il cibo. Cattura le sue prede\ncollaborando con il Tatsugiri che è con lui.",
-		de: "Es ist zwar ein Vielfraß, doch die Jagd liegt\nihm nicht. Deshalb schließt es sich mit\nNigiragi zusammen, um Beute zu fangen.",
+		de: "Es ist zwar ein Vielfraß, doch die Jagd liegt ihm nicht. Deshalb schließt es sich mit Nigiragi zusammen, um Beute zu fangen.",
 		'pt-br': "Este Pokémon é guloso, mas não é nada\nbom em conseguir comida. Alia-se a\nTatsugiri para pegar suas presas.",
 		ko: "대식가지만 먹이를 잡는 것이 서툴다.\n싸리용과 콤비를 이뤄\n먹이를 사냥한다."
 	},

@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Sanosuke Sakuma",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [218],
 	hp: 80,
 	types: ["Fire"],
 	stage: "Basic",
@@ -37,13 +38,46 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675835,
-		cardmarket: 869634
-	}
+	description: {
+		en: "Its lava body can cool and chip away at times, but a magma bath will heal it right up.",
+		fr: "Lorsqu'il se refroidit, son corps constitué de lave peut parfois se fissurer. Il lui suffit alors de s'immerger dans le magma pour se régénérer.",
+		de: "Es kommt vor, dass sein Lavakörper zu bröckeln beginnt, wenn er auskühlt. Badet es in Magma, regeneriert es sich aber wieder."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869634,
+			tcgplayer: 675835
+		}
+	},
+	{
+		type: "reverse",
+		foil: "pokeball",
+		thirdParty: {
+			cardmarket: 870174,
+			tcgplayer: 676871
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870173,
+			tcgplayer: 677011
+		}
+	},
+],
 }
 
 export default card

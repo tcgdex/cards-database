@@ -4,6 +4,8 @@ import Set from "../Crimson Blaze"
 const card: Card = {
 	set: Set,
 
+	dexId: [6],
+
 	name: {
 		en: "Mega Charizard Y ex"
 	},
@@ -16,10 +18,6 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Charmeleon"
-	},
-
-	description: {
-		en: "Its bond with its Trainer is the source of\nits power. It boasts speed and maneuverability\ngreater than that of a jet."
 	},
 
 	stage: "Stage2",

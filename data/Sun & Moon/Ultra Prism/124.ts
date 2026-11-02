@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cura 80 puntos de daño a 1 de tus Pokémon que tenga alguna Energía Grass unida a él.",
 		it: "Cura uno dei tuoi Pokémon che abbia delle Energie Grass assegnate da 80 danni.",
 		pt: "Cure 80 pontos de dano de 1 dos seus Pokémon que tiver alguma Energia Grass ligada a ele.",
-		de: "Heile 80 Schadenspunkte bei 1 deiner Pokémon, an das mindestens 1 Grass-Energie angelegt ist."
+		de: "Heile 80 Schadenspunkte bei 1 deiner Pokémon, an das mindestens 1 {G}-Energie angelegt ist. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

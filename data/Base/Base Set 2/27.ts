@@ -62,15 +62,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273950,
-		tcgplayer: 42499
+
+	description: {
+		en: "If interrupted while miming, it will slap around the enemy with its broad hands.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273950,
+				tcgplayer: 42499
+			}
 		}
 	]
 }

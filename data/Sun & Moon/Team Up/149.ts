@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes jugar esta carta solo si descartas las cartas de Meridia, Vésper y Nocta de tu mano.\n\nMira las 12 primeras cartas de tu baraja y une cualquier cantidad de cartas de Energía que encuentres entre ellas a tus Pokémon de la manera que desees. Pon el resto de cartas de nuevo en tu baraja y barájalas todas.",
 		it: "Puoi giocare questa carta solo se scarti Meridia, Vespera e Notturna dalla tua mano.\n\nGuarda le prime 12 carte del tuo mazzo e assegna a piacimento un numero qualsiasi di carte Energia presenti tra esse ai tuoi Pokémon. Poi rimischia le altre carte nel tuo mazzo.",
 		pt: "Você só pode jogar esta carta se descartar Diana, Véspera e Anita da sua mão.\n\nOlhe as 12 primeiras cartas do seu baralho e ligue qualquer número de cartas de Energia que encontrar lá aos seus Pokémon como desejar. Embaralhe as demais cartas de volta no seu baralho.",
-		de: "Du kannst diese Karte nur spielen, wenn du Journée, Soir und Nuit aus deiner Hand auf deinen Ablagestapel legst.\n\nSchau dir die obersten 12 Karten deines Decks an und lege beliebig viele Energiekarten, die du dort findest, beliebig an deine Pokémon an. Mische die anderen Karten zurück in dein Deck."
+		de: "Du kannst diese Karte nur spielen, wenn du Journée, Soir und Nuit aus deiner Hand auf deinen Ablagestapel legst. Schau dir die obersten 12 Karten deines Decks an und lege beliebig viele Energiekarten, die du dort findest, beliebig an deine Pokémon an. Mische die anderen Karten zurück in dein Deck. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

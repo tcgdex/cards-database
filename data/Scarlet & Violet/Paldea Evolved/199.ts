@@ -4,6 +4,7 @@ import Set from "../Paldea Evolved"
 const card: Card = {
 	dexId: [662],
 	set: Set,
+	cameoDexIds: [661, 667],
 
 	name: {
 		fr: "Braisillon",
@@ -52,19 +53,38 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715674,
+				tcgplayer: 497602,
+				cardtrader: 248853
+			}
+		},
+	],
 
 	illustrator: "Atsushi Furusawa",
 
-	thirdParty: {
-		cardmarket: 715674
-	}
+	description: {
+		en: "Fletchinder scatters embers in tall grass where bug Pokémon might be hiding and then catches them as they come leaping out.",
+		de: "Es versprüht Funken in hohem Gras, in dem es Käfer-Pokémon vermutet, und schnappt sich diese, sobald sie daraus hervorhuschen."
+	},
 }
 
 export default card

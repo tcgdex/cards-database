@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Corviknight V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Metal"],
@@ -67,12 +67,29 @@ const card: Card = {
 		damage: 190
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
-
-	thirdParty: {
-		cardmarket: 584317
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 584317,
+				tcgplayer: 266627
+			}
+		},
+	],
 }
 
 export default card

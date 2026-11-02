@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Vulpix",
 		fr: "Goupix d’Alola",
+		de: "Alola-Vulpix"
 	},
 
 	stage: "Stage1",
@@ -85,10 +86,34 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299434,
-		tcgplayer: 138508
-	}
+	description: {
+		en: "It creates drops of ice in its coat and showers them over its enemies. Anyone who angers it will be frozen stiff in an instant.",
+		de: "Es greift seine Feinde mittels Eiskristallen an, die es mit seinem Fell erzeugt. Wer es wütend macht, wird in Sekundenschnelle tiefgefroren."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299434,
+				tcgplayer: 138508
+			}
+		},
+		{
+			type: "holo",
+			foil: "cracked-ice",
+			thirdParty: {
+				tcgplayer: 178762
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299434,
+				tcgplayer: 138508
+			}
+		},
+	],
 }
 
 export default card

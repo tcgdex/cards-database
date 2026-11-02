@@ -22,6 +22,16 @@ const card: Card = {
 		id: "Kartu ini dapat digunakan jika pemain membuang 2 lembar Kartu Pegangan sendiri ke Trash. Pilih paling banyak 4 lembar Energi Dasar dari Trash sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. (Tidak dapat memilih Energi yang dibuang ke Trash akibat efek kartu ini.)"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 701118,
+				tcgplayer: 568187,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "G"
 }

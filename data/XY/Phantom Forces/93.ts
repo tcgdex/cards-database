@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Los ataques de los Pokémon Psychic (tanto tuyos como de tu rival) cuestan Colorless menos.",
 		it: "Tutti gli attacchi dei Pokémon Psychic, sia tuoi che del tuo avversario, costano Colorless in meno.",
 		pt: "Os ataques de cada Pokémon Psychic (seus e do seu oponente) custam Colorless a menos.",
-		de: "Die Kosten jedes Angriffs von Psychic-Pokémon (deine und die deines Gegners) reduzieren sich um Colorless."
+		de: "Die Kosten jedes Angriffs von {P}-Pokémon (deine und die deines Gegners) reduzieren sich um {C}. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

@@ -61,10 +61,26 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 281006,
-		tcgplayer: 83701
-	}
+	description: {
+		en: "Dreaming of one day flying, it practices by leaping off cliffs every day.",
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281006,
+				tcgplayer: 83701
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['regional-championships'],
+			thirdParty: {
+				cardmarket: 449283
+			}
+		},
+	],
 }
 
 export default card

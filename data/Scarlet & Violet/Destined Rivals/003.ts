@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Yanmega ex"
 	},
 
+	suffix: "ex",
 	illustrator: "takuyoa",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -81,18 +82,30 @@ const card: Card = {
 		damage: 210
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'holo'
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 825877,
+				tcgplayer: 632831
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 825877
-	}
 }
 
 export default card

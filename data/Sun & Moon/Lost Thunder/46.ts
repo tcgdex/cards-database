@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Houndour",
 		fr: "Malosse",
+		de: "Hunduster"
 	},
 
 	stage: "Stage1",
@@ -90,6 +91,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "The flames it breathes when angry contain toxins. If they cause a burn, it will hurt forever.",
+		de: "Ist es wütend, spuckt es giftige Flammen. Die Schmerzen der Verbrennungen dauern ewig an."
+	},
 
 	thirdParty: {
 		cardmarket: 365686,

@@ -4,9 +4,10 @@ import Set from "../PMCG2"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Snorlax",
+		ja: "カビゴン",
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	dexId: [143],
@@ -43,6 +44,9 @@ const card: Card = {
 	variants : [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 576647
+			},
 		},
 	],
 };

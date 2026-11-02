@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		492,
-	],
+	dexId: [492],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -31,12 +29,12 @@ const card: Card = {
 			name: {
 				en: "Energy Blow",
 				fr: "Coup d'énergie",
-				de: "Energy Blow"
+				de: "Energieschlag"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each Energy attached to Shaymin.",
 				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée à Shaymin.",
-				de: "Does 10 damage plus 10 more damage for each Energy attached to Shaymin."
+				de: "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Shaymin angelegte Energie zu."
 			},
 			damage: "10+",
 
@@ -50,12 +48,12 @@ const card: Card = {
 			name: {
 				en: "Aromatherapy",
 				fr: "Aromathérapi",
-				de: "Aromatherapy"
+				de: "Aromakur"
 			},
 			effect: {
 				en: "Remove 2 damage counters from each of your Pokémon.",
 				fr: "Retirez à chacun de vos Pokémon 2 marqueurs de dégât.",
-				de: "Remove 2 damage counters from each of your Pokémon."
+				de: "Entferne 2 Schadensmarken von jedem deiner Pokémon."
 			},
 			damage: 40,
 
@@ -78,23 +76,34 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278435,
-		tcgplayer: 89106
+	description: {
+		en: "It lives in flower patches and avoids detection by curling up to look like a flowering plant.",
+		de: "Es lebt auf Blumenwiesen und rollt sich ein, um wie eine Blume auszusehen und nicht entdeckt zu werden."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89106,
+				cardmarket: 278435
+			}
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
+			thirdParty: {
+				tcgplayer: 125077
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278435,
+				tcgplayer: 89106
+			}
 		}
-	]
+	],
+
 }
 
 export default card

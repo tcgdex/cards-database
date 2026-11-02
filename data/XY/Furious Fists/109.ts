@@ -16,13 +16,15 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [504],
+
 	effect: {
 		fr: "Piochez des cartes jusqu'à ce que vous ayez le même nombre de cartes dans votre main que votre adversaire.",
 		en: "Draw cards until you have the same number of cards in your hand as your opponent.",
 		es: "Roba cartas hasta que tengas el mismo número de cartas en tu mano que tu rival.",
 		it: "Pesca fino ad avere in mano lo stesso numero di carte del tuo avversario.",
 		pt: "Compre cards até ter em sua mão o mesmo número de cards do seu oponente.",
-		de: "Ziehe so lang Karten, bis du die gleiche Anzahl Karten auf der Hand hast wie dein Gegner."
+		de: "Ziehe so lang Karten, bis du die gleiche Anzahl Karten auf der Hand hast wie dein Gegner. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

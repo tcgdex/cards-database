@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		305,
-	],
+	dexId: [305],
 
 	hp: 70,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Aron",
-		fr: "Galekid"
+		fr: "Galekid",
+		de: "Stollunior"
 	},
 
 	stage: "Stage1",
@@ -39,7 +38,7 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Charge",
-				de: "Ram"
+				de: "Ramme"
 			},
 
 			damage: 20,
@@ -54,7 +53,7 @@ const card: Card = {
 			name: {
 				en: "Metal Claw",
 				fr: "Griffe acier",
-				de: "Metal Claw"
+				de: "Metallklaue"
 			},
 
 			damage: 40,
@@ -79,19 +78,24 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275684,
-		tcgplayer: 86573
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275684,
+				tcgplayer: 86573
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275684,
+				tcgplayer: 86573
+			}
 		},
-	]
+	],
+
 }
 
 export default card

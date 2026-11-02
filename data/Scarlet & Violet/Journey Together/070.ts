@@ -4,6 +4,7 @@ import Set from "../Journey Together"
 const card: Card = {
 	dexId: [781],
 	set: Set,
+	cameoDexIds: [321],
 
 	name: {
 		en: "Dhelmise",
@@ -61,22 +62,38 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 	illustrator: "Sanosuke Sakuma",
 
-	thirdParty: {
-		cardmarket: 817222
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817222,
+				tcgplayer: 623497
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817222,
+				tcgplayer: 623497
+			}
 		},
-	]
+	],
 }
 
 export default card

@@ -78,6 +78,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When it comes across enemies or potential prey, this Pokémon smashes its water-bubble-covered head into them.",
+		de: "Wenn es Beute oder Feinde erspäht hat, lässt es die Wasserblase auf seinem Kopf platzen und bespritzt sein Gegenüber mit Wasser."
+	},
+
 	thirdParty: {
 		cardmarket: 355551,
 		tcgplayer: 165683

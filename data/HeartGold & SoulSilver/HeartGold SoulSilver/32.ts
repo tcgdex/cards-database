@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		157,
-	],
+	dexId: [157],
 
 	hp: 130,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Quilava",
 		fr: "Fleurisson",
+		de: "Igelavar"
 	},
 
 	stage: "Stage2",
@@ -76,30 +75,43 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions."
+		en: "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions.",
+		de: "Es verfügt über eine verheerende Geheimattacke. Es reibt sein Fell, um Explosionen zu erzeugen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90106,
+				cardmarket: 279004
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90106,
+				cardmarket: 279004
+			}
 		},
 		{
 			type: "holo",
-			foil: "cracked-ice"
+			foil: 'cracked-ice',
+			thirdParty: {
+				tcgplayer: 153262,
+				cardmarket: 279004
+			}
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
-		}
+			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 125038,
+				cardmarket: 279004
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279004,
-		tcgplayer: 90106
-	}
 }
 
 export default card

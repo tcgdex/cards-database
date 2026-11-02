@@ -44,18 +44,39 @@ const card: Card = {
 		damage: "10×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It is the shabbiest Pokémon of all. It forms schools and lives at the bottom of rivers that teem with plant life.",
+		de: "Das schäbigste Pokémon von allen. Es lebt in großen Gruppen auf dem Grund von Flüssen, wo viele Wasserpflanzen wachsen."
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769223,
+				tcgplayer: 550093
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769223,
+				tcgplayer: 550093
+			}
+		},
+	],
 
 	illustrator: "Scav",
 
-	thirdParty: {
-		cardmarket: 769223
-	}
 }
 
 export default card

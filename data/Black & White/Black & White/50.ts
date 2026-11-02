@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Gust",
 				fr: "Tornade",
+				de: "Windstoß"
 			},
 
 			damage: 10,
@@ -59,10 +60,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279788,
-		tcgplayer: 90624
-	}
+	description: {
+		en: "Its habitat is dark forests and caves. It emits ultrasonic waves from its nose to learn about its surroundings.",
+		de: "Wohnt in dunklen Wäldern und Höhlen. Es sendet Ultraschallwellen mit seiner Nase aus, um die Gegend abzutasten."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279788,
+				tcgplayer: 90624
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279788,
+				tcgplayer: 90624
+			}
+		},
+	],
 }
 
 export default card

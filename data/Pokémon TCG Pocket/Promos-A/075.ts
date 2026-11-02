@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Kartana",
-		es: "Kartana"
+		es: "Kartana",
+		de: "Katagami"
 	},
 
 	illustrator: "Hasuno",
@@ -20,6 +21,7 @@ const card: Card = {
 	description: {
 		en: "This Ultra Beast's body, which is as thin\nas paper, is like a sharpened sword.",
 		es: "El cuerpo de este Ultraente es fino como el papel\ny tan cortante como una espada recién afilada",
+		de: "Der Körper dieser Ultrabestie ist dünn wie Papier und so scharfkantig wie eine geschliffene Klinge."
 	},
 
 	stage: "Basic",
@@ -27,7 +29,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Thrash Metal",
-			es: "Thrash Metal"
+			es: "Thrash Metal",
+			de: "Thrash Metal"
 		},
 
 		damage: 40,

@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to help advance the project witg your issue report!
+        Thanks for taking the time to help advance the project with your issue report!
 
   - type: checkboxes
     id: issue-location

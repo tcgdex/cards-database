@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Freunde aus Hisui"
 	},
 
+	illustrator: "Kinu Nishimura",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -22,23 +23,24 @@ const card: Card = {
 		es: "Roba 3 cartas.",
 		it: "Pesca tre carte.",
 		pt: "Compre 3 cartas.",
-		de: "Ziehe 3 Karten."
+		de: "Ziehe 3 Karten. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691867,
-		tcgplayer: 478118
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691867,
+				tcgplayer: 478118
+			}
+		},
+	],
 }
 
 export default card

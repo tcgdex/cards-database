@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Ultra-Necrozma"
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -65,6 +65,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This is its form when it has absorbed overwhelming light energy. It fires laser beams from all over its body.",
+		de: "Der Verzehr gewaltiger Mengen an Lichtenergie bringt diese Form hervor. Es verschießt Laserstrahlen aus seinem ganzen Körper."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 367367,
+				tcgplayer: 184495
+			}
+		}
+	],
 }
 
 export default card

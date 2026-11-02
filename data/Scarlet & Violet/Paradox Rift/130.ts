@@ -35,18 +35,48 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The blue eye on the sword's handguard is the true body of Honedge. With its old cloth, it drains people's lives away.",
+		de: "Das blaue Auge auf der Parierstange ist sein wahrer Körper. Mithilfe eines alten Tuchs absorbiert es die Lebenskraft von Menschen."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740668,
+				tcgplayer: 523807,
+				cardtrader: 265245
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740668,
+				tcgplayer: 523807,
+				cardtrader: 265245
+			}
+		},
+	],
 
 	illustrator: "aoki",
 
-	thirdParty: {
-		cardmarket: 740668
-	}
+	
 }
 
 export default card

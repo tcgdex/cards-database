@@ -52,23 +52,31 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Un proverbe prétend que celui qui pourra réveiller un Togepi endormi sera récompensé par un grand bonheur."
+		en: "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up.",
+		fr: "Un proverbe prétend que celui qui pourra réveiller un Togepi endormi sera récompensé par un grand bonheur.",
+		de: "Ein Sprichwort behauptet, dass jeder Glück findet, der ein schlafendes Togepi zum Aufstehen bewegt."
 	},
 
-	thirdParty: {
-		cardmarket: 274451,
-		tcgplayer: 89929
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274451,
+				tcgplayer: 89929
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274451,
+				tcgplayer: 89929
+			}
 		}
 	]
 }

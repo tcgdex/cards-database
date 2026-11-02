@@ -51,23 +51,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "The six of them work together as one Pokémon. Teamwork is also their battle strategy, and they constantly change their formation as they fight."
+		en: "The six of them work together as one Pokémon. Teamwork is also their battle strategy, and they constantly change their formation as they fight.",
+		de: "Sie bilden zu sechst ein Pokémon. Es kann im Kampf seine Formation nach Belieben ändern und legt bemerkenswerte Teamarbeit an den Tag."
 	},
 
-	thirdParty: {
-		cardmarket: 545526,
-		tcgplayer: 234260
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545526,
+				tcgplayer: 234260
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545526,
+				tcgplayer: 234260
+			}
+		},
+	],
 }
 
 export default card

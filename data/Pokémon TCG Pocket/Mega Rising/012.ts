@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Breloom"
+		en: "Breloom",
+		fr: "Chapignon"
 	},
 
 	illustrator: "Mizue",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Shroomish"
+		en: "Shroomish",
+		fr: "Balignon"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Seed Bomb"
+			en: "Seed Bomb",
+			fr: "Canon Graine"
 		},
 
 		damage: 40,

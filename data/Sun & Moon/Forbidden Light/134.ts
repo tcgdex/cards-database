@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Poipole",
 		fr: "Vémini",
+		de: "Venicro"
 	},
 
 	suffix: "GX",
@@ -94,7 +95,7 @@ const card: Card = {
 				es: "Aguijón GX",
 				it: "Aculeus-GX",
 				pt: "Ferrão GX",
-				de: "Stachel GX"
+				de: "Stachel-GX"
 			},
 			effect: {
 				en: "Both players shuffle their Prize cards into their decks. Then, each player puts the top 3 cards of their deck face down as their Prize cards. (You can’t use more than 1 GX attack in a game.)",

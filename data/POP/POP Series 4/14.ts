@@ -4,7 +4,8 @@ import Set from '../POP Series 4'
 const card: Card = {
 	name: {
 		en: "Squirtle",
-		fr: "Carapuce"
+		fr: "Carapuce",
+		de: "Schiggy"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -12,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		7,
-	],
+	dexId: [7],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -29,11 +28,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Shell Retreat",
-				fr: "Rentrer dans sa coquille"
+				fr: "Rentrer dans sa coquille",
+				de: "Schildkrötenpanzer"
 			},
 			effect: {
-				en: "As long as Squirtle has any Energy cards attached to it, damage done to Squirtle by an opponent’s attack is reduced by 10 (after applying Weakness and Resistance).",
-				fr: "Tant que Carapuce possède des cartes Énergie, les dégâts qui lui sont infligés par une attaque de votre adversaire sont réduits de 10 (après application de la Faiblesse et de la Résistance)."
+				en: "As long as Squirtle has any Energy cards attached to it, damage done to Squirtle by an opponent's attack is reduced by 10 (after applying Weakness and Resistance).",
+				fr: "Tant que Carapuce possède des cartes Énergie, les dégâts qui lui sont infligés par une attaque de votre adversaire sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
+				de: "Solange mindestens 1 Energiekarte an Schiggy angelegt ist, wird der Schaden, der Schiggy durch gegnerische Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -45,7 +46,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -55,23 +57,22 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Lightning"
+			type: "Lightning",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89493,
+				cardmarket: 277479
+			},
 		},
 	],
 
-	retreat: 1,
-
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
-	thirdParty: {
-		cardmarket: 277479,
-		tcgplayer: 89493
-	}
 }
 
 export default card

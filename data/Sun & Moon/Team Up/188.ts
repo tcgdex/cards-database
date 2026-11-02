@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Torracat",
 		fr: "Matoufeu",
+		de: "Miezunder"
 	},
 
 	suffix: "GX",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes poner 3 contadores de daño en este Pokémon. Si lo haces, busca en tu baraja hasta 3 cartas de Energía Darkness y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi mettere tre segnalini danno su questo Pokémon. Se lo fai, cerca nel tuo mazzo fino a tre carte Energia Darkness e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
 				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode colocar 3 contadores de dano neste Pokémon. Se fizer isto, procure por até 3 cartas de Energia Darkness no seu baralho e ligue-as a este Pokémon. Em seguida, embaralhe o seu baralho.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 3 Schadensmarken auf dieses Pokémon legen. Wenn du das machst, durchsuche dein Deck nach bis zu 3 Darkness-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 3 Schadensmarken auf dieses Pokémon legen. Wenn du das machst, durchsuche dein Deck nach bis zu 3 {D}-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 			},
 		},
 	],
@@ -93,7 +94,7 @@ const card: Card = {
 				es: "Tornado Oscuro GX",
 				it: "Tornado Plumbeo GX",
 				pt: "Tornado Escuro GX",
-				de: "Finstertornado GX"
+				de: "Finstertornado-GX"
 			},
 			effect: {
 				en: "This attack does 50 more damage for each damage counter on this Pokémon. (You can’t use more than 1 GX attack in a game.)",

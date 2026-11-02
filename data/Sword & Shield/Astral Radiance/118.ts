@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Regidrago"
 	},
 
+	illustrator: "DOM",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,
@@ -60,17 +61,28 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "An academic theory proposes that Regidrago's arms were once the head of an ancient dragon Pokémon. The theory remains unproven.",
+		de: "Einer unbestätigten Theorie zufolge sind seine Arme wie der Kopf eines urzeitlichen Drachen-Pokémon geformt."
 	},
 
-	thirdParty: {
-		cardmarket: 658779,
-		tcgplayer: 272349
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658779,
+				tcgplayer: 272349
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658779,
+				tcgplayer: 272349
+			}
+		},
+	],
 }
 
 export default card

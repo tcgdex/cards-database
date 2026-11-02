@@ -92,23 +92,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
 	description: {
-		en: "This Pokémon hides in the heart of sandstorms it creates and seldom appears where people can see it."
+		en: "This Pokémon hides in the heart of sandstorms it creates and seldom appears where people can see it.",
+		de: "Da es sich stets im Zentrum des von ihm entfachten Sandsturms aufhält, bekommen Menschen es so gut wie nie zu Gesicht."
 	},
 
-	thirdParty: {
-		cardmarket: 483334,
-		tcgplayer: 219482
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483334,
+				tcgplayer: 219482
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483334,
+				tcgplayer: 219482
+			}
+		},
+	],
 }
 
 export default card

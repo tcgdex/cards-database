@@ -64,19 +64,55 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "It's possible that Iron Jugulis, an object described in an old book, may actually be this Pokémon.",
+		de: "Womöglich handelt es sich bei diesem Pokémon um ein Objekt namens Eisenhals, das in einer alten Schrift beschrieben wurde."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740698,
+				tcgplayer: 523839,
+				cardtrader: 265267
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'galaxy',
+			thirdParty: {
+				cardmarket: 750081
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740698,
+				tcgplayer: 523839,
+				cardtrader: 265267
+			}
+		},
+	],
 
 	illustrator: "Souichirou Gunjima",
 
-	thirdParty: {
-		cardmarket: 740698
-	}
+	
 }
 
 export default card

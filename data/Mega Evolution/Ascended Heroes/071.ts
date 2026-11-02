@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Akira Komayama",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [940],
 	hp: 60,
 	types: ["Lightning"],
 	stage: "Basic",
@@ -47,13 +48,52 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675883,
-		cardmarket: 869682
-	}
+	description: {
+		en: "When its wings catch the wind, the bones within produce electricity. This Pokémon dives into the ocean, catching prey by electrocuting them.",
+		fr: "Les os de ses ailes produisent de l'électricité grâce au vent. Pour chasser, ce Pokémon plonge dans la mer et électrocute ses proies.",
+		de: "Trifft Wind auf seine Flügel, erzeugen deren Knochen Strom. Es fängt Beute, indem es ins Meer taucht und ihr einen Stromschlag verpasst."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869682,
+			tcgplayer: 675883
+		}
+	},
+	{
+		type: "reverse",
+		foil: "pokeball",
+		thirdParty: {
+			cardmarket: 870248,
+			tcgplayer: 676908
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870247,
+			tcgplayer: 677048
+		}
+	},
+],
 }
 
 export default card

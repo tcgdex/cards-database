@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Wie-Shu"
 	},
 
+	illustrator: "Shibuzoh.",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -70,16 +71,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674117,
-		tcgplayer: 283998
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674117,
+				tcgplayer: 283998
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674117,
+				tcgplayer: 283998
+			}
+		},
+	],
 }
 
 export default card

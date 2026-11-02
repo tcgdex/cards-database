@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA Tsuji",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 230,
 	types: ["Darkness"],
@@ -72,19 +72,18 @@ const card: Card = {
 	stage: "Basic",
 	dexId: [248],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "E",
-	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 547871
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 547871,
+				tcgplayer: 238553
+			}
+		},
+	],
+	suffix: "V"
 }
 
 export default card

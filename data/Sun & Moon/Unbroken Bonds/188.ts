@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Durante este turno, el daño de los ataques de tus Ultraentes no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
 		it: "Durante questo turno, i danni degli attacchi delle tue Ultracreature non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario.",
 		pt: "Durante esta rodada, o dano dos ataques das suas Ultracriaturas não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente.",
-		de: "Während dieses Zuges wird der Schaden der Attacken deiner Ultrabestien durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
+		de: "Während dieses Zuges wird der Schaden der Attacken deiner Ultrabestien durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

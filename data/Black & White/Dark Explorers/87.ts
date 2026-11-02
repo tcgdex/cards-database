@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lillipup",
-		fr: "Ponchiot"
+		fr: "Ponchiot",
+		de: "Yorkleff"
 	},
 
 	stage: "Stage1",
@@ -40,11 +41,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Roar",
-				fr: "Hurlement"
+				fr: "Hurlement",
+				de: "Brüller"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc."
+				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 
 		},
@@ -55,7 +58,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 30,
@@ -72,10 +76,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 280415,
-		tcgplayer: 86070
-	}
+	description: {
+		en: "It has a black, cape-like fur that is very hard and decreases the amount of damage it receives.",
+		de: "Das dunkle Fell, das es wie ein Mantel umgibt, ist äußerst widerstandsfähig und mindert den Schaden durch Attacken."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280415,
+				tcgplayer: 86070
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280415,
+				tcgplayer: 86070
+			}
+		},
+	],
 }
 
 export default card

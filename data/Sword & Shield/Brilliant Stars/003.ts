@@ -4,6 +4,7 @@ import Set from "../Brilliant Stars"
 const card: Card = {
 	dexId: [285],
 	set: Set,
+	cameoDexIds: [831],
 
 	name: {
 		en: "Shroomish",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Knilz"
 	},
 
+	illustrator: "Shigenori Negishi",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,
@@ -35,20 +37,37 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled.",
+		de: "Es setzt an seinem Kopf Giftsporen frei. Werden diese eingeatmet, verursachen sie Schmerzen."
 	},
 
-	thirdParty: {
-		cardmarket: 608427,
-		tcgplayer: 263580
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608427,
+				tcgplayer: 263580
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608427,
+				tcgplayer: 263580
+			}
+		},
+	],
 }
 
 export default card

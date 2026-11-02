@@ -50,23 +50,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "This hungry Pokémon swallows Arrokuda whole. Occasionally, it makes a mistake and tries to swallow a Pokémon other than its preferred prey."
+		en: "This hungry Pokémon swallows Arrokuda whole. Occasionally, it makes a mistake and tries to swallow a Pokémon other than its preferred prey.",
+		de: "Es ist ein Vielfraß, der seine Beute, Pikuda, im Ganzen verschlingt. Manchmal erwischt es jedoch irrtümlicherweise ein anderes Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 539163,
-		tcgplayer: 232438
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539163,
+				tcgplayer: 232438
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539163,
+				tcgplayer: 232438
+			}
+		},
+	],
 }
 
 export default card

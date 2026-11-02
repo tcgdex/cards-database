@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Diam"
 	},
 
+	illustrator: "Souichirou Gunjima",
 	rarity: "Secret Rare",
 	category: "Trainer",
 
@@ -22,23 +23,23 @@ const card: Card = {
 		es: "Puedes usar esta carta solo si descartas 2 cartas de Energía Metal de tu mano.\nBusca en tu baraja hasta 2 cartas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Puoi usare questa carta solo se scarti due carte Energia Metal che hai in mano.\nCerca nel tuo mazzo fino a due carte e aggiungile a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Você só pode usar esta carta se descartar 2 cartas de Energia Metal da sua mão.\nProcure por até 2 cartas no seu baralho e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Du kannst diese Karte nur verwenden, wenn du 2 Metal-Energiekarten aus deiner Hand auf deinen Ablagestapel legst.\nDurchsuche dein Deck nach bis zu 2 Karten und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Du kannst diese Karte nur verwenden, wenn du 2 {M}-Energiekarten aus deiner Hand auf deinen Ablagestapel legst. Durchsuche dein Deck nach bis zu 2 Karten und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658860,
-		tcgplayer: 272453
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 658860,
+				tcgplayer: 272453
+			}
+		},
+	],
 }
 
 export default card

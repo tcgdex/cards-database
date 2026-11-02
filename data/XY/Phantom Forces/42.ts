@@ -103,6 +103,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The spirits it absorbs fuel its baleful fire. It hangs around hospitals waiting for people to pass on.",
+		de: "Es nährt seine Flamme mit den Seelen seiner Opfer. Heutzutage irrt es auf der Suche nach Seelen durch Krankenhäuser."
+	},
+
 	thirdParty: {
 		cardmarket: 281848,
 		tcgplayer: 94500

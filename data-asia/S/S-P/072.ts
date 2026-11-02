@@ -1,50 +1,57 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "伊布"
+		ja: "ナックラー",
+		'zh-tw': "伊布",
 	},
 
-	illustrator: "Souichirou Gunjima",
+	illustrator: "MAHOU",
 	category: "Pokemon",
 	hp: 60,
-	types: ["Colorless"],
+	types: ["Fighting"],
 
 	description: {
-		'zh-tw': "由於不穩定的基因，蘊含著各式各樣進化可能性的特殊寶可夢。"
+		ja: "砂漠に つくられた 巣穴は すり鉢の 形を しているので 落ちてしまうと 脱出不可能。",
+		'zh-tw': "由於不穩定的基因，蘊含著各式各樣進化可能性的特殊寶可夢。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "準備"
+	attacks: [
+		{
+			name: {
+				ja: "だいちのこどう",
+				'zh-tw': "準備",
+			},
+			damage: "10+",
+			cost: ["Fighting"],
+			effect: {
+				ja: "場にスタジアムが出ているなら、10ダメージ追加。",
+				'zh-tw': "從自己的手牌選擇1張基本能量卡，附於這隻寶可夢身上。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "從自己的手牌選擇1張基本能量卡，附於這隻寶可夢身上。"
+	weaknesses: [{ type: "Grass", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 525090,
+				tcgplayer: 597283,
+			},
 		},
-
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "咬住"
-		},
-
-		damage: 30,
-		cost: ["Colorless", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
+	],
 
 	retreat: 1,
-	regulationMark: "E"
-}
+	regulationMark: "D",
+	rarity: "Promo",
+	dexId: [328],
+};
 
-export default card
+export default card;

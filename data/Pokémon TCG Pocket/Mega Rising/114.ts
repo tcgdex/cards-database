@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Gothitelle"
+		en: "Gothitelle",
+		fr: "Sidérella"
 	},
 
 	illustrator: "Eri Yamaki",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Gothorita"
+		en: "Gothorita",
+		fr: "Mesmérella"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Stellar Cradle"
+			en: "Stellar Cradle",
+			fr: "Berceau des Étoiles"
 		},
 
 		damage: 70,
 		cost: ["Psychic", "Psychic"],
 
 		effect: {
-			en: "During your opponent's next turn, if they attach Energy from their Energy Zone to the Defending Pokémon, that Pokémon will be Asleep."
+			en: "During your opponent's next turn, if they attach Energy from their Energy Zone to the Defending Pokémon, that Pokémon will be Asleep.",
+			fr: "Pendant le prochain tour de votre adversaire, s'il attache une Énergie de sa zone Énergie au Pokémon Défenseur, ce Pokémon sera Endormi."
 		}
 	}],
 

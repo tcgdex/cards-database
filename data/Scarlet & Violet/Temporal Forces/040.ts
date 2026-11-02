@@ -52,23 +52,38 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
+	description: {
+		en: "If it loses a fang, a new one grows back in its place. There are always 48 fangs lining its mouth.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760670,
+				tcgplayer: 542784
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760670,
+				tcgplayer: 542784
+			}
+		},
 	],
 
 	illustrator: "Jerky",
 
-	thirdParty: {
-		cardmarket: 760670
-	}
 }
 
 export default card

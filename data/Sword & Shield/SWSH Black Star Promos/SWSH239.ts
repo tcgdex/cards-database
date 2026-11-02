@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Hisuian Samurott V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Darkness"],
@@ -65,12 +65,23 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
-
-	thirdParty: {
-		cardmarket: 650949
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 650949,
+				tcgplayer: 275165
+			}
+		},
+	],
 }
 
 export default card

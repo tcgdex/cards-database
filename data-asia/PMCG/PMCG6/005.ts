@@ -4,8 +4,9 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コガのズバット",
+		ja: "キョウのズバット",
 	},
+	illustrator: "575381",
 
 	rarity: "Common",
 	category: "Pokemon",
@@ -30,6 +31,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575317
+			},
 		},
 	],
 };

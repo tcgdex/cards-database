@@ -78,6 +78,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It prefers harsh environments such as deserts. It can survive for 30 days on water stored in its body.",
+		de: "Es bevorzugt lebenswidrige Gebiete wie Wüsten. Der Wasserspeicher in seinem Körper reicht für bis zu 30 Tage."
+	},
+
 	thirdParty: {
 		cardmarket: 361266,
 		tcgplayer: 170829

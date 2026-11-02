@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Saboteri",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [917],
 	hp: 50,
 	types: ["Grass"],
 	stage: "Basic",
@@ -47,13 +48,46 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675830,
-		cardmarket: 869629
-	}
+	description: {
+		en: "The ball of threads wrapped around its body is elastic enough to deflect the scythes of Scyther, this Pokémon’s natural enemy.",
+		fr: "La boule de fil qui entoure son corps est assez élastique pour repousser les faux d'Insécateur, son ennemi juré.",
+		de: "Die Fadenkugel, die seinen Körper umgibt, ist sehr elastisch. Selbst die Sicheln seines natürlichen Feindes Sichlor prallen an ihr ab."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869629,
+			tcgplayer: 675830
+		}
+	},
+	{
+		type: "reverse",
+		foil: "team-rocket",
+		thirdParty: {
+			cardmarket: 870166,
+			tcgplayer: 676867
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870165,
+			tcgplayer: 677007
+		}
+	},
+],
 }
 
 export default card

@@ -18,7 +18,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Paldean Wooper"
+		en: "Paldean Wooper",
+		fr: "Axoloto de Paldea"
 	},
 
 	stage: "Stage1",

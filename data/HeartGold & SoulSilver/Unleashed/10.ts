@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "match",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		389,
-	],
+	dexId: [389],
 
 	hp: 140,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Grotle",
 		fr: "Boskara",
+		de: "Chelcarain"
 	},
 
 	stage: "Stage2",
@@ -78,26 +77,34 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "Ancient people imagined that beneath the ground, a gigantic Torterra dwelled."
+		en: "Ancient people imagined that beneath the ground, a gigantic Torterra dwelled.",
+		de: "In alten Zeiten malten die Menschen sich aus, die Erde ruhe auf dem Rücken eines riesigen CHELTERRAR."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 89987,
+				cardmarket: 279166
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89987,
+				cardmarket: 279166
+			}
 		},
 		{
 			type: "holo",
-			foil: "cracked-ice"
+			foil: "cracked-ice",
+			thirdParty: {
+				tcgplayer: 153265
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279166,
-		tcgplayer: 89987
-	}
 }
 
 export default card

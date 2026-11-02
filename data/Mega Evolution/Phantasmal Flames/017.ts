@@ -62,26 +62,56 @@ const card: Card = {
 		damage: 240
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "According to myth, if people ignore truth and let themselves become consumed by greed, Reshiram will arrive to burn their kingdoms down.",
+		fr: "Selon un mythe, lorsque les gens ne font aucun cas de la Réalité et s'abandonnent à la cupidité, Reshiram rase le pays entier avec ses flammes.",
+		de: "Alte Mythen warnen, dass es alle Welt in Brand setzen wird, wenn die Menschen die Wirklichkeit missachten und der Gier verfallen."
+	},
+
+	illustrator: "AKIRA EGAWA",
 	variants: [
 		{
-			type: "holo"
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857592,
+				tcgplayer: 662219,
+				cardtrader: 356800
+			}
 		},
 		{
-			type: "reverse"
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857592,
+				tcgplayer: 662219,
+				cardtrader: 356800
+			}
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
-		}
+			type: 'holo',
+			stamp: ['set-logo'],
+			thirdParty: {
+				cardmarket: 858504,
+				tcgplayer: 664098
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 889721,
+				tcgplayer: 696441
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857592,
-		tcgplayer: 662219
-	}
 }
 
 export default card

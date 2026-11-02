@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ryota Murayama",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Lightning"],
@@ -63,19 +63,18 @@ const card: Card = {
 	stage: "Basic",
 	dexId: [25],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
-	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 461594
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 496545,
+				tcgplayer: 220315
+			}
+		},
+	],
+	suffix: "V"
 }
 
 export default card

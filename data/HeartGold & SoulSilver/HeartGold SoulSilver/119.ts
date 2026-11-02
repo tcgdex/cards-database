@@ -12,20 +12,27 @@ const card: Card = {
 	rarity: "Common",
 	category: "Energy",
 	set: Set,
-	energyType: "Normal",
 
-	variants: [
-		{
-			type: "normal"
-		}
-	],
+	cameoDexIds: [196],
+
+	energyType: "Normal",
 
 	hp: 0,
 
-	thirdParty: {
-		cardmarket: 279091,
-		tcgplayer: 88424
-	}
+	types: [
+		"Psychic"
+	],
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279091,
+				tcgplayer: 88424
+			}
+		},
+	],
+
 }
 
 export default card

@@ -44,18 +44,48 @@ const card: Card = {
 		damage: "10×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Because its wings aren't yet fully grown, it has to hop to get around. It is always staring at something.",
+		de: "Da seine Flügel nicht voll ausgebildet sind, bewegt es sich hüpfend fort. Seinen Blick hat es stets starr auf ein Ziel gerichtet."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740563,
+				tcgplayer: 523707,
+				cardtrader: 265178
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740563,
+				tcgplayer: 523707,
+				cardtrader: 265178
+			}
+		},
+	],
 
 	illustrator: "ryoma uratsuka",
 
-	thirdParty: {
-		cardmarket: 740563
-	}
+	
 }
 
 export default card

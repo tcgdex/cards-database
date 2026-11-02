@@ -82,6 +82,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its body is made of magma. If it doesn't keep moving, its body will cool and harden.",
+		de: "Sein Körper besteht aus Magma. Bleibt es nicht ständig in Bewegung, kühlt es aus und verhärtet sich."
+	},
+
 	thirdParty: {
 		cardmarket: 365683,
 		tcgplayer: 178846

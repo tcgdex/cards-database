@@ -55,6 +55,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 747581,
+				tcgplayer: 567628,
+			},
+		},
+	],
+
 	retreat: 2,
 	regulationMark: "G"
 }

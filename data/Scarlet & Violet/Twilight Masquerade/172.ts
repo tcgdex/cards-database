@@ -66,19 +66,32 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
+	description: {
+		en: "Coal is the source of Torkoal's energy. Large amounts of coal can be found in the mountains where they live.",
+		de: "Kohle ist die Quelle seiner Energie. Es lebt daher meist in Bergen, die ein großes Kohlevorkommen aufweisen."
 	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769346,
+				tcgplayer: 550216
+			}
+		},
+	],
 
 	illustrator: "Masa",
 
-	thirdParty: {
-		cardmarket: 769346
-	}
 }
 
 export default card

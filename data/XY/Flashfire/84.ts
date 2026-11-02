@@ -64,6 +64,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its ears are always rolled up. They can be forcefully extended to shatter even a large boulder.",
+		de: "Seine Ohren sind immer aufgerollt. Mit ihnen kann es selbst große Felsbrocken zertrümmern."
+	},
+
 	thirdParty: {
 		cardmarket: 281567,
 		tcgplayer: 91221

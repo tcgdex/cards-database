@@ -4,15 +4,19 @@ import Set from "../PMCG4"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フルヒールエネルギー",
+		ja: "なんでもなおし配合エネルギー",
 	},
 
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Common",
 	category: "Energy",
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575722
+			},
 		},
 	],
 };

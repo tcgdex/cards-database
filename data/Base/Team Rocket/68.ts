@@ -48,25 +48,33 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Ce mignon Pokémon charme les gens avec ses yeux innocents. Il passe ses journées à nager"
+		en: "Cute Pokémon that charms people with its innocent eyes. Loves swimming all day long.",
+		fr: "Ce mignon Pokémon charme les gens avec ses yeux innocents. Il passe ses journées à nager",
+		de: "Niedliches Pokémon, das die Menschen mit seinen unschuldigen Augen verzaubert. Schwimmt am liebsten den ganzen Tag."
 	},
 
-	thirdParty: {
-		cardmarket: 274121,
-		tcgplayer: 89484
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274121,
+				tcgplayer: 89484
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
-		}
-	]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274121,
+				tcgplayer: 89484
+			}
+		},
+	],
 }
 
 export default card

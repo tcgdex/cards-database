@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Weavile"
 	},
 
+	evolveFrom: {
+		en: "Sneasel",
+		fr: "Farfuret",
+		es: "Sneasel",
+		'es-mx': "Sneasel",
+		de: "Sniebel",
+		it: "Sneasel",
+		pt: "Sneasel",
+	},
+
 	illustrator: "aspara",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [461],
 	hp: 100,
 	types: ["Water"],
 	stage: "Stage1",
@@ -61,13 +72,46 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 675857,
-		cardmarket: 869656
-	}
+	description: {
+		en: "They travel in groups of four or five, leaving signs for one another on trees and rocks. They bring down their prey with coordinated attacks.",
+		fr: "Ils voyagent en groupes de quatre ou cinq. Lors de la chasse, ils laissent des marques sur les arbres ou les rochers pour coordonner leurs attaques.",
+		de: "Sie sind immer zu viert oder fünft unterwegs. Bei der Jagd arbeiten sie zusammen, indem sie Zeichen in Felsen und Bäume ritzen."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869656,
+			tcgplayer: 675857
+		}
+	},
+	{
+		type: "reverse",
+		foil: "duskball",
+		thirdParty: {
+			cardmarket: 870210,
+			tcgplayer: 676889
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870209,
+			tcgplayer: 677029
+		}
+	},
+],
 }
 
 export default card

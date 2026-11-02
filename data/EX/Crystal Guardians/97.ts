@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Shiftry ex",
 		fr: "Tengalice ex",
-		de: "Tengulist ex"
+		de: "Tengulist-ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -25,10 +25,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nuzleaf",
-		fr: "Pifeuil"
+		fr: "Pifeuil",
+		de: "Blanas"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{

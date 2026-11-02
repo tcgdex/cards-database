@@ -74,14 +74,18 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 273927,
-		tcgplayer: 42479
+	description: {
+		en: "Spits fire that is hot enough to melt boulders. Known to unintentionally cause forest fires.",
 	},
+
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273927,
+				tcgplayer: 42479
+			}
 		}
 	]
 }

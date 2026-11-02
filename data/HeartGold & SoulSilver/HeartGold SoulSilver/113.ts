@@ -13,47 +13,81 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		249,
-	],
+	dexId: [249],
 
 	hp: 130,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	suffix: "Legend",
 	stage: "Basic",
-	retreat: 0,
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+	retreat: 1,
 
 	description: {
-		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm."
+		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm.",
+		de: "Man berichtet, es sei der Wächter der Meere und man habe es im Herzen eines tosenden Sturmes gesehen."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279085,
+				tcgplayer: 86918
+			}
+
 		}
 	],
-
-	attacks: [{
-		name: {
-			de: "Urgewaltexplosion"
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				en: "Ocean Grow",
+				fr: "Vaste océan",
+				de: "Meereswachstum"
+			},
+			effect: {
+				en: "Once during your turn, when you put Lugia LEGEND into play, you may look at the top 5 cards of your deck and attach all Energy cards you find there to Lugia LEGEND. Discard the other cards.",
+				fr: "Une seule fois pendant votre tour, lorsque vous mettez Lugia LÉGENDE en jeu, vous pouvez regarder les cinq cartes du dessus de votre deck et attacher les cartes Énergie figurant parmi ces cartes à Lugia LÉGENDE. Défaussez les autres cartes.",
+				de: "Einmal während deines Zuges, wenn du Lugia-LEGENDE von deiner Hand ins Spiel bringst, kannst du dir die obersten 5 Karten deines Decks anschauen und alle dabei gefundenen Energiekarten an Lugia-LEGENDE anlegen. Lege die anderen Karten auf deinen Ablagestapel."
+			}
 		},
+	],
 
-		damage: 200,
-
-		effect: {
-			de: "Lege 1 -Energie, 1 -Energie und 1 -Energie, die an Lugia-LEGENDE angelegt sind, auf deinen Ablagestapel."
+	attacks: [
+		{
+			name: {
+				en: "Elemental Blast",
+				de: "Urgewaltexplosion",
+				fr: "Explosion élémentaire"
+			},
+			damage: 200,
+			effect: {
+				en: "Discard a Fire Energy, Water Energy, and Lightning Energy attached to Lugia LEGEND.",
+				de: "Lege 1 {R}-Energie, 1 {W}-Energie und 1 {L}-Energie, die an Lugia-LEGENDE angelegt sind, auf deinen Ablagestapel.",
+				fr: "Défaussez une Énergie Feu, une Énergie Eau et une Énergie Électrique attachées à Lugia LÉGENDE."
+			},
+			cost: [
+				"Fire",
+				"Water",
+				"Lightning",
+			]
 		},
-
-		cost: ["Fire", "Water", "Lightning"]
-	}],
-
-	thirdParty: {
-		cardmarket: 279085
-	}
+	],
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Heatmor"
+		en: "Heatmor",
+		fr: "Aflamanoir"
 	},
 
 	illustrator: "Satoshi Shirai",
@@ -24,13 +25,15 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Tongue Whip"
+			en: "Tongue Whip",
+			fr: "Langue-Fouet"
 		},
 
 		cost: ["Fire"],
 
 		effect: {
-			en: "This attack does 30 damage to 1 of your opponent's Benched Pokémon."
+			en: "This attack does 30 damage to 1 of your opponent's Benched Pokémon.",
+			fr: "Cette attaque inflige 30 dégâts à un des Pokémon de Banc de votre adversaire."
 		}
 	}],
 

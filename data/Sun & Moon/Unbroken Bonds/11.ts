@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Venonat",
 		fr: "Mimitoss",
+		de: "Bluzuk"
 	},
 
 	stage: "Stage1",
@@ -89,6 +90,11 @@ const card: Card = {
 	],
 
 	retreat: 0,
+
+	description: {
+		en: "The scales it scatters will paralyze anyone who touches them, making that person unable to stand.",
+		de: "Wer die von ihm verstreuten Schuppen berührt, wird gelähmt und muss sich setzen."
+	},
 
 	thirdParty: {
 		cardmarket: 372304,

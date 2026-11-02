@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Froakie"
+		en: "Froakie",
+		fr: "Grenousse"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Water Drip"
+			en: "Water Drip",
+			fr: "Goutte à Goutte"
 		},
 
 		damage: 20,

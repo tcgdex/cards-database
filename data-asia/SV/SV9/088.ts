@@ -20,6 +20,16 @@ const card: Card = {
 		'zh-cn': "將自己的1隻寶可夢恢復「60」HP。然後，選擇1個恢復的寶可夢身上附加的能量，將其丟棄。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 807675,
+				tcgplayer: 614939,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "I"
 }

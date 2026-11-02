@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Bidoof",
 		fr: "Keunotor",
+		de: "Bidiza"
 	},
 
 	stage: "Stage1",
@@ -91,6 +92,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It busily makes its nest with stacks of branches and roots it has cut up with its sharp incisors.",
+		de: "Emsig durchbeißt es mit seinen scharfen Vorderzähnen Wurzeln und Äste und baut daraus sein Nest."
+	},
 
 	thirdParty: {
 		cardmarket: 388647,

@@ -22,21 +22,34 @@ const card: Card = {
 		es: "Lanza 1 moneda. Si sale cara, busca en tu baraja hasta 2 Pokémon, enséñalos y ponlos en tu mano. Si sale cruz, busca en tu baraja 1 Pokémon Básico, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Lancia una moneta. Se esce testa, cerca nel tuo mazzo fino a due Pokémon, mostrali e aggiungili alle carte che hai in mano. Se esce croce, cerca nel tuo mazzo un Pokémon Base, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Jogue uma moeda. Se sair cara, procure por até 2 Pokémon no seu baralho, revele-os e coloque-os na sua mão. Se sair coroa, procure por um Pokémon Básico no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Wirf 1 Münze. Durchsuche bei Kopf dein Deck nach bis zu 2 Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Durchsuche bei Zahl dein Deck nach 1 Basis-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+		de: "Wirf 1 Münze. Durchsuche bei Kopf dein Deck nach bis zu 2 Pokémon, zeige sie deinem Gegner und nimm sie auf deine Hand. Durchsuche bei Zahl dein Deck nach 1 Basis-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740707,
+				tcgplayer: 523846,
+				cardtrader: 265369
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740707,
+				tcgplayer: 523846,
+				cardtrader: 265369
+			}
+		},
+	],
 
 	illustrator: "Akira Komayama",
 
-	thirdParty: {
-		cardmarket: 740707
-	}
+	
 }
 
 export default card

@@ -101,7 +101,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its majestic horns are meant only to impress the opposite gender. They never see use in battle."
+		en: "Its majestic horns are meant only to impress the opposite gender. They never see use in battle.",
+		de: "Seine prächtig gewachsenen Hörner dienen dazu, dem anderen Geschlecht zu imponieren. Es nutzt sie nicht als Waffe."
 	},
 
 	dexId: [832],

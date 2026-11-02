@@ -61,6 +61,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "An ancient tradition of Alolan festivals, still carried on to this day, is a competition to slide Sandshrew across ice as far as one can.",
+		de: "Bei einem der traditionellen Feste Alolas messen sich die Teilnehmer darin, ihre Sandan so weit wie möglich über Eisflächen gleiten zu lassen."
+	},
+
 	thirdParty: {
 		cardmarket: 315959,
 		tcgplayer: 157645

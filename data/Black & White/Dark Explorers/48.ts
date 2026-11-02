@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -64,11 +65,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Psy Report",
-				fr: "Observation Psychique"
+				fr: "Observation Psychique",
+				de: "Psycho-Offenlegung"
 			},
 			effect: {
 				en: "Your opponent reveals his or her hand.",
-				fr: "Votre adversaire montre sa main."
+				fr: "Votre adversaire montre sa main.",
+				de: "Dein Gegner deckt seine Handkarten auf."
 			},
 			damage: 60,
 
@@ -84,10 +87,34 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280376,
-		tcgplayer: 85325
-	}
+	description: {
+		en: "Its fur is so sensitive, it can sense minute shifts in the air and predict the weather.",
+		de: "Kann durch sein Fell geringste Luftveränderungen wahrnehmen und das Wetter vorhersagen."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280376,
+				tcgplayer: 85325
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['regional-championships'],
+			thirdParty: {
+				cardmarket: 449493
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280376,
+				tcgplayer: 85325
+			}
+		},
+	],
 }
 
 export default card

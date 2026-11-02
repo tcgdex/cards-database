@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Celebi"
 	},
 
-	rarity: "Rare",
+	illustrator: "Mizue",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Psychic"],
@@ -68,7 +69,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "This Pokémon wanders across time. Grass and trees flourish in the forests in which it has appeared.",
+		de: "Dieses Pokémon reist durch Zeit und Raum. Bäume und Wiesen wuchern, wenn es in der Nähe ist."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 399684,
+				tcgplayer: 204973
+			}
+		}
+	],
 }
 
 export default card

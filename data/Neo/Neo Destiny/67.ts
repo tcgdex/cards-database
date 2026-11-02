@@ -41,7 +41,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et Empoisonné.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt und vergiftet."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt und vergiftet."
 			},
 
 			damage: 10
@@ -63,21 +63,27 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Il passe ses journées accroché aux falaises, attendant de fondre sur sa proie depuis son poste d'observation."
+		en: "It spends its days hanging from cliffs, swooping down on any prey it spots from its high vantage point.",
+		fr: "Il passe ses journées accroché aux falaises, attendant de fondre sur sa proie depuis son poste d'observation.",
+		de: "Es verbringt seine Tage damit, von Klippen herabzuhängen und sich auf jede Beute, die es entdeckt, zu stürzen."
 	},
 
-	thirdParty: {
-		cardmarket: 274719,
-		tcgplayer: 85762
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274719,
+				tcgplayer: 85762
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274719,
+				tcgplayer: 85762
+			}
 		}
 	]
 }

@@ -92,6 +92,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It uses its claws to poke holes in eggs so it can slurp out the insides. Breeders consider it a scourge and will drive it away or eradicate it.",
+		de: "Es rammt seine Krallen in Eier und schlürft ihren Inhalt aus. Pokémon-Züchter können es aus diesem Grund nicht ausstehen."
+	},
+
 	thirdParty: {
 		cardmarket: 316001,
 		tcgplayer: 157690

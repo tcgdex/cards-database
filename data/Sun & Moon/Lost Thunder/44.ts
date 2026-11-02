@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Slugma",
 		fr: "Limagma",
+		de: "Schneckmag"
 	},
 
 	suffix: "GX",

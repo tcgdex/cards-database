@@ -82,6 +82,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The magnet in Nosepass's nose provides an unerring compass, making it an excellent partner for Trainers going on a journey.",
+		de: "Seine magnetische Nase ist unbeirrbar und erweist sich daher als ganz hervorragender Partner für Pokémon-Trainer auf Reisen."
+	},
+
 	thirdParty: {
 		cardmarket: 297530,
 		tcgplayer: 130979

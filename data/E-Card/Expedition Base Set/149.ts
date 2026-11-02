@@ -11,30 +11,38 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
+	trainerType: "Supporter",
 	set: Set,
 
 	effect: {
-		fr: "Vous ne pouvez jouer qu'une carte Supporter à chaque tour. Quand vous jouez cette carte, placez-la à côté de votre Pokémon Actif. À la fin de votre tour, défaussez-vous de cette carte.\n\nMélangez votre main à votre deck. Piochez ensuite 5 cartes.",
-		de: "Mische deine Hand in dein Deck, und ziehe dann 5 Karten."
+		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Shuffle your hand into your deck, then draw 5 cards.",
+		fr: "Mélangez votre main à votre deck. Piochez ensuite 5 cartes.",
+		de: "Du kannst in jedem Zug nur eine Unterstützerkarte spielen. Wenn du diese Karte ausspielst, lege sie neben dein Aktives Pokémon. Lege diese Karte am Ende deines Zuges auf deinen Ablagestapel. Mische deine Hand in dein Deck, und ziehe dann 5 Karten.",
 	},
 
-	thirdParty: {
-		cardmarket: 275024,
-		tcgplayer: 88402
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88402,
+				cardmarket: 275024
+			},
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88402,
+				cardmarket: 275024
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["reed-weichler"]
+			stamp: ["reed-weichler"],
+			thirdParty: {
+				cardmarket: 871867,
+			}
 		}
-	]
+	],
 }
 
 export default card

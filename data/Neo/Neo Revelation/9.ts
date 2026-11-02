@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Skiploom",
-		fr: "Floravol"
+		fr: "Floravol",
+		de: "Hubelupf"
 	},
 
 	stage: "Stage2",
@@ -38,12 +39,12 @@ const card: Card = {
 			name: {
 				en: "Evolutionary Spore",
 				fr: "Spore évolutionnaire",
-				de: "Evolutionary Spore"
+				de: "Entwicklungssporen"
 			},
 			effect: {
 				en: "Choose any number of your Hoppips and Skiplooms. Then, for each Pokémon you chose in this way, you may search your deck for a card that evolves from that Pokémon and attach it to that Pokémon. (This counts as evolving those Pokémon.) Shuffle your deck afterward.",
 				fr: "Choisissez dans vos Granivol et Floravol en jeu le nombre de Pokémon désiré. Puis, pour chaque Pokémon choisi, vous pouvez chercher une carte évolution de ce Pokémon dans votre deck et l'attacher à ce Pokémon. (Cela revient à faire évoluer tous ces Pokémon). Mélangez ensuite votre deck.",
-				de: "Choose any number of your Hoppips and Skiplooms. Then, for each Pokémon you chose in this way, you may search your deck for a card that evolves from that Pokémon and attach it to that Pokémon. (This counts as evolving those Pokémon.) Shuffle your deck afterward."
+				de: "Wähle eine beliebige Anzahl deiner Hoppspross und Hubelupf im Spiel. Dann darfst du für jedes Pokémon, das du auf diese Weise gewählt hast, dein Deck nach einer Karte durchsuchen, die sich aus diesem Pokémon entwickelt, und sie an dieses Pokémon anlegen. (Dies zählt als Entwickeln dieser Pokémon.) Mische dein Deck danach."
 			},
 
 		},
@@ -54,7 +55,7 @@ const card: Card = {
 			name: {
 				en: "Solarbeam",
 				fr: "Lance-Soleil",
-				de: "Solarbeam"
+				de: "Solarstrahl"
 			},
 
 			damage: 30,
@@ -77,21 +78,27 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Il dérive au gré des vents saisonniers et sème ses spores cotonneuses dans le monde entier pour se reproduire."
+		en: "Drifts on seasonal winds and spreads its cotton-like spores all over the world to make more offspring.",
+		fr: "Il dérive au gré des vents saisonniers et sème ses spores cotonneuses dans le monde entier pour se reproduire.",
+		de: "Gelegentliche Winde treiben und verbreiten seine baumwollartigen Sporen über die ganze Welt und sorgen für mehr Nachwuchs."
 	},
 
-	thirdParty: {
-		cardmarket: 274595,
-		tcgplayer: 86362
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274595,
+				tcgplayer: 86362
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274595,
+				tcgplayer: 86362
+			}
 		}
 	]
 }

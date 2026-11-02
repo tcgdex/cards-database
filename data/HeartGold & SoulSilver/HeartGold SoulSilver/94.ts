@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [241],
+
 	effect: {
 		fr: "Choisissez l’un de vos Pokémon. Lancez 2 pièces. Pour chaque face, retirez 3 marqueurs de dégâts de ce Pokémon.",
 		en: "Choose 1 of your Pokémon. Flip 2 coins. For each heads, remove 3 damage counters from that Pokémon.",
@@ -21,21 +23,26 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	variants: [
-		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
-		}
-	],
-
 	hp: 0,
 
-	thirdParty: {
-		cardmarket: 279066,
-		tcgplayer: 87576
-	}
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87576,
+				cardmarket: 279066
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87576,
+				cardmarket: 279066
+			}
+		},
+	],
+
 }
 
 export default card

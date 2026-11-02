@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Flunschlik"
 	},
 
+	illustrator: "Shinji Kanda",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 110,
@@ -55,20 +56,37 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Thanks to bacteria that lived in the mud flats with it, this Pokémon developed the organs it uses to generate electricity.",
+		de: "Dieses Pokémon lebt im Morast. Dank der dortigen Bakterien hat es ein Organ entwickelt, mit dem es Strom erzeugen kann."
 	},
 
-	thirdParty: {
-		cardmarket: 682102,
-		tcgplayer: 451711
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682102,
+				tcgplayer: 451711
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682102,
+				tcgplayer: 451711
+			}
+		},
+	],
 }
 
 export default card

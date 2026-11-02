@@ -44,18 +44,42 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "A flame serves as its tongue, melting through the hard shell of Durant so that Heatmor can devour their insides.",
+		de: "Es nutzt eine Flamme als Zunge. Damit bringt es die Panzer von Fermicula zum Schmelzen und verspeist im Anschluss ihr Inneres."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725119,
+				tcgplayer: 509744,
+				cardtrader: 255599
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725119,
+				tcgplayer: 509744,
+				cardtrader: 255599
+			}
+		},
+	],
 
 	illustrator: "otumami",
 
-	thirdParty: {
-		cardmarket: 725119
-	}
+	
 }
 
 export default card

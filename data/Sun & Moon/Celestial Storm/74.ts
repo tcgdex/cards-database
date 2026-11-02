@@ -79,6 +79,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil.",
+		de: "Sie schlüpfen tief unter der Erde und fressen sich durch das Erdreich bis zur Oberfläche durch, wo sie sich verpuppen."
+	},
+
 	thirdParty: {
 		cardmarket: 361319,
 		tcgplayer: 170896

@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "One swing of its mighty tail can snap a telephone pole as if it were a matchstick.",
+	},
+
 	thirdParty: {
 		cardmarket: 277787,
 		tcgplayer: 87697

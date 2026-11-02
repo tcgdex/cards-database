@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Poochyena's nose can identify any scent. It's very useful for reconnaissance.",
+	},
+
 	thirdParty: {
 		cardmarket: 282528,
 		tcgplayer: 97062

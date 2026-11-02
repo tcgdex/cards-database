@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Quaxly",
-		fr: "Coiffeton"
+		fr: "Coiffeton",
+		de: "Kwaks"
 	},
 
 	stage: "Stage1",
@@ -54,14 +55,30 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "kirisAki",
+
+	description: {
+		en: "These Pokémon constantly run through shallow waters to train their legs, then compete with each other to see which of them kicks most gracefully.",
+		de: "Es rennt eifrig durch seichte Gewässer, um seine Beine zu stärken, und konkurriert mit Artgenossen darum, wer die anmutigste Beinarbeit vorweist."
+	},
 
 	thirdParty: {
         cardmarket: 702347,

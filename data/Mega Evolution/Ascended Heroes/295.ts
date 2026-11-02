@@ -13,10 +13,20 @@ const card: Card = {
 		it: "Mega Dragonite-ex",
 		pt: "Mega Dragonite ex"
 	},
+	evolveFrom: {
+		en: "Dragonair",
+		de: "Dragonir",
+		es: "Dragonair",
+		fr: "Draco",
+		it: "Dragonair",
+		pt: "Dragonair",
+	},
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 	rarity: "Mega Hyper Rare",
 	category: "Pokemon",
+	dexId: [149],
 	hp: 370,
 	types: ["Dragon"],
 	stage: "Stage2",
@@ -74,10 +84,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676107,
-		cardmarket: 869906
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869906,
+				tcgplayer: 676107
+			}
+		},
+	],
 }
 
 export default card

@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Jynx δ",
 		fr: "Lippoutou δ",
-		de: "Rossana"
+		de: "Rossana δ"
 	},
 
 	illustrator: "Ken Sugimori",

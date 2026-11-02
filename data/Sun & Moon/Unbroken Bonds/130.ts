@@ -44,7 +44,7 @@ const card: Card = {
 				es: "Busca en tu baraja hasta 2 cartas de Energía Fairy y únelas a tus Pokémon en Banca de la manera que desees. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo fino a due carte Energia Fairy e assegnale a piacimento ai tuoi Pokémon in panchina. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por até 2 cartas de Energia Fairy no seu baralho e ligue-as aos seus Pokémon no Banco como desejar. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach bis zu 2 Fairy-Energiekarten und lege sie beliebig an die Pokémon auf deiner Bank an. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach bis zu 2 {FAIRY}-Energiekarten und lege sie beliebig an die Pokémon auf deiner Bank an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -93,22 +93,7 @@ const card: Card = {
 				es: "Si este Pokémon tiene por lo menos 3 Energías Fairy adicionales unidas a él (además de las del coste de este ataque), tu rival pone las cartas de su mano en su baraja y las baraja todas. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Se questo Pokémon ha almeno tre Energie Fairy extra assegnate, in aggiunta a quelle del costo di questo attacco, il tuo avversario rimischia le carte che hai in mano nel proprio mazzo. Non puoi usare più di un attacco GX a partita.",
 				pt: "Se este Pokémon tiver pelo menos 3 Energias Fairy adicionais ligadas a ele (além do custo deste ataque), seu oponente embaralha a própria mão no baralho dele(a) (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Wenn an dieses Pokémon mindestens 3 extra Fairy-Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), mischt dein Gegner seine Handkarten in sein Deck. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
-			},
-			damage: 200,
-
-		},
-		{
-			cost: [
-				"Fairy",
-				"Fairy",
-				"Fairy",
-			],
-			name: {
-				fr: "Miracle Magique-GX",
-			},
-			effect: {
-				fr: "Si au moins 3 Énergies Fairy supplémentaires sont attachées à ce Pokémon (en plus du coût de cette attaque), votre adversaire mélange sa main avec son deck. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				de: "Wenn an dieses Pokémon mindestens 3 extra {FAIRY}-Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), mischt dein Gegner seine Handkarten in sein Deck. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: 200,
 

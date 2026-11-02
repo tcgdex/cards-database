@@ -71,6 +71,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "With magnetic traction, it pulls its opponents in close. When they're in range, it slashes them with its rear claws.",
+		de: "Es sendet magnetische Impulse aus, um Gegner zu sich heranzuziehen und sie dann mit den Krallen an seinem Hinterteil aufzuschlitzen."
+	},
+
 	thirdParty: {
 		cardmarket: 361336,
 		tcgplayer: 170918

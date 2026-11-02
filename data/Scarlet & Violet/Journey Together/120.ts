@@ -59,22 +59,32 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 	illustrator: "Asako Ito",
 
-	thirdParty: {
-		cardmarket: 817272
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817272,
+				tcgplayer: 623547
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817272,
+				tcgplayer: 623547
+			}
 		},
-	]
+	],
 }
 
 export default card

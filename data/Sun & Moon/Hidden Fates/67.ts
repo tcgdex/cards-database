@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Giovanni’s Exile",
 		fr: "Exil de Giovanni",
+		de: "Giovannis Exil"
 	},
 	illustrator: "TOKIYA",
 	rarity: "Ultra Rare",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	effect: {
 		fr: "Défaussez jusqu’à 2 de vos Pokémon de Banc qui n’ont pas de marqueurs de dégâts, ainsi que toutes les cartes qui leur sont attachées.",
-		en: "Discard up to 2 of your Benched Pokémon that have no damage counters on them and all cards attached to them."
+		en: "Discard up to 2 of your Benched Pokémon that have no damage counters on them and all cards attached to them.",
+		de: "Lege bis zu 2 Pokémon auf deiner Bank, auf denen keine Schadensmarken liegen, und alle an sie angelegten Karten auf deinen Ablagestapel. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 	trainerType: "Supporter",
 

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Strahlendes Turtok"
 	},
 
+	illustrator: "Masakazu Fukuda",
 	rarity: "Radiant Rare",
 	category: "Pokemon",
 	hp: 150,
@@ -38,7 +39,7 @@ const card: Card = {
 			es: "Debes descartar 1 carta de Energía Water de tu mano para poder usar esta habilidad. Una vez durante tu turno, puedes poner 2 contadores de daño en 1 de los Pokémon en Banca de tu rival.",
 			it: "Devi scartare una carta Energia Water che hai in mano per usare questa abilità. Una sola volta durante il tuo turno, puoi mettere due segnalini danno su uno dei Pokémon nella panchina del tuo avversario.",
 			pt: "Você deve descartar 1 carta de Energia Water da sua mão para usar esta Habilidade. Uma vez durante o seu turno, você poderá colocar 2 contadores de dano em 1 dos Pokémon no Banco do seu oponente.",
-			de: "Du musst 1 Water-Energiekarte aus deiner Hand auf deinen Ablagestapel legen, um diese Fähigkeit einzusetzen. Einmal während deines Zuges kannst du 2 Schadensmarken auf 1 Pokémon auf der Bank deines Gegners legen."
+			de: "Du musst 1 {W}-Energiekarte aus deiner Hand auf deinen Ablagestapel legen, um diese Fähigkeit einzusetzen. Einmal während deines Zuges kannst du 2 Schadensmarken auf 1 Pokémon auf der Bank deines Gegners legen."
 		}
 	}],
 
@@ -66,19 +67,32 @@ const card: Card = {
 		damage: 170
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
+
+	description: {
+		en: "It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.",
+		de: "Es begräbt seine Gegner mit seinem enormen Körpergewicht. Wenn es in einer aussichtslosen Lage steckt, zieht es sich in seinen Panzer zurück."
 	},
 
-	thirdParty: {
-		cardmarket: 664555,
-		tcgplayer: 274468
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665251,
+				tcgplayer: 274468
+			}
+		},
+	],
 }
 
 export default card

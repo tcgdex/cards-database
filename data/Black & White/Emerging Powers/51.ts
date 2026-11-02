@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Roggenrola",
 		fr: "Nodulithe",
+		de: "Kiesling"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Smack Down",
 				fr: "Anti-Air",
+				de: "Katapult"
 			},
 			effect: {
 				en: "If the Defending Pokémon has Fighting Resistance, this attack does 60 more damage.",
 				fr: "Si le Pokémon Défenseur a une Résistance à Fighting, cette attaque inflige 60 dégâts supplémentaires.",
+				de: "Wenn das Verteidigende Pokémon eine Resistenz gegenüber {F} hat, fügt dieser Angriff 60 weitere Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -60,6 +63,7 @@ const card: Card = {
 			name: {
 				en: "Power Gem",
 				fr: "Rayon Gemme",
+				de: "Juwelenkraft"
 			},
 
 			damage: 80,
@@ -76,10 +80,27 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 280016,
-		tcgplayer: 83933
-	}
+	description: {
+		en: "When it overflows with power, the orange crystal on its body glows. It looks for underground water in caves.",
+		de: "Wenn es voller Kraft steckt, funkeln die orangefarbenen Kristalle an seinem Leib. Es sucht Höhlen nach Grundwasser ab."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280016,
+				tcgplayer: 83933
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280016,
+				tcgplayer: 83933
+			}
+		},
+	],
 }
 
 export default card

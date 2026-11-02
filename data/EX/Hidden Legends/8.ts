@@ -9,19 +9,17 @@ const card: Card = {
 	},
 
 	illustrator: "Ryo Ueda",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		385,
-	],
+	dexId: [385],
 
 	hp: 70,
 
 	types: [
 		"Psychic",
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -73,22 +71,30 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276082,
-		tcgplayer: 86325
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 86325,
+				cardmarket: 276082
+			}
 		},
 		{
 			type: "reverse",
+			foil: 'energy',
+			thirdParty: {
+				tcgplayer: 86325,
+				cardmarket: 276082
+			}
 		},
 		{
-			type: "holo",
-			stamp: ["takashi-yoneda"]
-		}
+			type: "normal",
+			stamp: ['takashi-yoneda'],
+			thirdParty: {
+				tcgplayer: 477534,
+				cardmarket: 871539
+			}
+		},
 	]
 }
 

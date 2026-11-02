@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Gyarados",
-		fr: "Leviator",
+		fr: "Léviator",
 		de: "Garados"
 	},
 
@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Magikarp",
 		fr: "Magicarpe",
+		de: "Karpador"
 	},
 
 	stage: "Stage1",
@@ -59,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin until you get tails. For each heads, discard the top card from your opponent's deck.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque face, défaussez la carte du dessus du deck de votre adversaire.",
-				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Lege pro \"Kopf\" die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
+				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Lege pro „Kopf“ die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 			damage: 40,
 
@@ -80,7 +81,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy card from each of your opponent's Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie de chacun des Pokémon de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" entferne von jedem Pokémon deines Gegners 1 Energiekarte und lege sie auf seinen Ablagestapel."
+				de: "Wirf 1 Münze. Bei „Kopf“ entferne von jedem Pokémon deines Gegners 1 Energiekarte und lege sie auf seinen Ablagestapel."
 			},
 			damage: 100,
 

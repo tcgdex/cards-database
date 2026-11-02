@@ -44,18 +44,39 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This Pokémon came to be when the spirit of a deceased child possessed a tree stump. It now wanders the forest searching for friends.",
+		de: "Es entstand, als sich die Seele eines verstorbenen Kindes in einem Baumstumpf einnistete. Auf der Suche nach Freunden durchstreift es den Wald."
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769186,
+				tcgplayer: 550056
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769186,
+				tcgplayer: 550056
+			}
+		},
+	],
 
 	illustrator: "Katsunori Sato",
 
-	thirdParty: {
-		cardmarket: 769186
-	}
 }
 
 export default card

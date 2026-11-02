@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Nickit",
@@ -49,16 +43,29 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Cunning and cautious, this Pokémon survives by stealing food from others. It erases its tracks with swipes of its tail as it makes off with its plunder."
+		en: "Cunning and cautious, this Pokémon survives by stealing food from others. It erases its tracks with swipes of its tail as it makes off with its plunder.",
+		de: "Es ist sehr vorsichtig und gerissen. Nachdem es Futter stibitzt hat, macht es sich davon und verwischt dabei seine Spuren mit seinem Schweif."
 	},
 
 	dexId: [827],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574152,
-		tcgplayer: 246903
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574152,
+				tcgplayer: 246903
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574152,
+				tcgplayer: 246903
+			}
+		},
+	],
 }
 
 export default card

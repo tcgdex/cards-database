@@ -20,6 +20,16 @@ const card: Card = {
 		th: "เลือกการ์ดโปเกมอน (ยกเว้น [โปเกมอนที่มีกฎ]) และการ์ดพลังงานพื้นฐานรวมกันได้สูงสุด 3 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู นำขึ้นมือ"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 761524,
+				tcgplayer: 566119,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "H"
 }

@@ -79,6 +79,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "To avoid attack, it mimics a tree. It will run off if splashed with water, which it hates.",
+		de: "Es tarnt sich als Baum, um Angriffen aus dem Weg zu gehen. Es hasst jedoch Wasser und ergreift die Flucht, wenn man es nass macht."
+	},
+
 	thirdParty: {
 		cardmarket: 297527,
 		tcgplayer: 130976

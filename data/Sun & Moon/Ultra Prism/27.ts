@@ -82,6 +82,11 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It gushes fire and poisonous gases from its nostrils. Its dung is an explosive substance and can be put to various uses.",
+		de: "Es greift mit Feuer und Giftgas aus den Nasenlöchern an. Sein Kot ist explosiv und vielseitig einsetzbar."
+	},
+
 	thirdParty: {
 		cardmarket: 315958,
 		tcgplayer: 157644

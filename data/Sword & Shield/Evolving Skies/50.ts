@@ -3,13 +3,8 @@ import Set from '../Evolving Skies'
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [479, 540],
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Raichu",
@@ -87,16 +82,29 @@ const card: Card = {
 	},
 
 	description: {
-		en: "If its electric pouches run empty, it raises its tail to gather electricity from the atmosphere."
+		en: "If its electric pouches run empty, it raises its tail to gather electricity from the atmosphere.",
+		de: "Wenn der in seinen Backentaschen gespeicherte Strom leer ist, stellt es seinen Schweif auf, um Elektrizität aus der Luft zu ziehen."
 	},
 
 	dexId: [26],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574074,
-		tcgplayer: 246886
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574074,
+				tcgplayer: 246886
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574074,
+				tcgplayer: 246886
+			}
+		},
+	],
 }
 
 export default card

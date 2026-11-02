@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Low Kick",
 				fr: "Balayage",
+				de: "Fußkick"
 			},
 
 			damage: 30,
@@ -52,6 +53,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "Though small in stature, it is powerful enough to easily heft and throw a number of Geodude at once.",
+		de: "Obwohl von kleiner Statur, ist es kräftig genug, mehrere Kleinstein zu hieven und dann zu werfen."
+	},
 
 	thirdParty: {
 		cardmarket: 281068,

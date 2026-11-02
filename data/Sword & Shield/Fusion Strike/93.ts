@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage2",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "E",
 	illustrator: "Atsushi Furusawa",
 
 	description: {
-		en: "Luxray's ability to see through objects comes in handy when it's scouting for danger."
+		en: "Luxray's ability to see through objects comes in handy when it's scouting for danger.",
+		de: "Beim Aufspüren von Gefahren sind Luxtras hellseherische Fähigkeiten äußerst hilfreich."
 	},
 
 	attacks: [{
@@ -52,17 +59,23 @@ const card: Card = {
 		damage: 90
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582485,
-		tcgplayer: 253249
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582485,
+				tcgplayer: 253249
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582485,
+				tcgplayer: 253249
+			}
+		},
+	],
 }
 
 export default card

@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -58,6 +59,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Because they are weak individually, they form groups. However, they bicker if the group grows too big.",
+		de: "Einzeln sind sie schwach. Daher bilden sie Gruppen. Werden diese jedoch zu groß, zanken sie sich."
+	},
 
 	thirdParty: {
 		cardmarket: 280973,

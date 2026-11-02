@@ -78,23 +78,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "They were sculpted from clay in ancient times. No one knows why, but some of them are driven to continually line up boulders."
+		en: "They were sculpted from clay in ancient times. No one knows why, but some of them are driven to continually line up boulders.",
+		de: "Sie bestehen aus Lehm und existieren schon sehr lange. Einige von ihnen haben den unerklärlichen Drang, große Felsen aneinanderzureihen."
 	},
 
-	thirdParty: {
-		cardmarket: 483259,
-		tcgplayer: 219456
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483259,
+				tcgplayer: 219456
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483259,
+				tcgplayer: 219456
+			}
+		},
+	],
 }
 
 export default card

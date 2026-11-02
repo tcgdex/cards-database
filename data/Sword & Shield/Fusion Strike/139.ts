@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "E",
 	illustrator: "Ryuta Fuse",
 
 	description: {
-		en: "It is thought its body transformed as a result of iron accumulating internally from swallowing soil."
+		en: "It is thought its body transformed as a result of iron accumulating internally from swallowing soil.",
+		de: "Man glaubt, dass sich sein Körper aufgrund des Schluckens von eisenhaltiger Erde verwandelt habe."
 	},
 
 	attacks: [{
@@ -83,17 +90,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582748,
-		tcgplayer: 253346
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 582748,
+				tcgplayer: 253346
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582748,
+				tcgplayer: 253346
+			}
+		},
+	],
 }
 
 export default card

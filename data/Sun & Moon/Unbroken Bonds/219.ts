@@ -79,7 +79,7 @@ const card: Card = {
 				es: "Vuelta Electrizante GX",
 				it: "Dinamoritorno GX",
 				pt: "Retorno Formigante GX",
-				de: "Prickelnde Rückkehr GX"
+				de: "Prickelnde Rückkehr-GX"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Paralyzed. Put this Pokémon and all cards attached to it into your hand. (You can’t use more than 1 GX attack in a game.)",

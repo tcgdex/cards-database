@@ -4,6 +4,7 @@ import Set from "../Silver Tempest"
 const card: Card = {
 	dexId: [727],
 	set: Set,
+	cameoDexIds: [222, 370],
 
 	name: {
 		en: "Incineroar",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Fuegro"
 	},
 
+	illustrator: "Hideki Ishikawa",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 170,
@@ -74,20 +76,37 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "When its fighting spirit is set alight, the flames around its waist become especially intense.",
+		de: "Entbrennt sein Kampfeswille, lodern die Flammen um seine Hüfte noch heftiger auf."
 	},
 
-	thirdParty: {
-		cardmarket: 682074,
-		tcgplayer: 451663
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682074,
+				tcgplayer: 451663
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682074,
+				tcgplayer: 451663
+			}
+		},
+	],
 }
 
 export default card

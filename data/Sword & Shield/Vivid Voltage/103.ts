@@ -69,12 +69,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -82,10 +76,22 @@ const card: Card = {
 		en: "It has a very tenacious nature. Its acute sense of smell lets it chase a chosen prey without ever losing track."
 	},
 
-	thirdParty: {
-		cardmarket: 511935,
-		tcgplayer: 226555
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511935,
+				tcgplayer: 226555
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511935,
+				tcgplayer: 226555
+			}
+		},
+	],
 }
 
 export default card

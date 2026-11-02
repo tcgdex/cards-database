@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		114,
-	],
+	dexId: [114],
 	
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -74,19 +72,28 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278948,
-		tcgplayer: 89746
+	description: {
+		en: "The blue vines shrouding its body are covered in a growth of fine hair. It is known to be ticklish.",
+		de: "Die blauen Ranken an seinem Körper sind von feinen Haaren bedeckt. Es gilt zudem als kitzlig."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89746,
+				cardmarket: 278948
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278948,
+				tcgplayer: 89746
+			}
+		},
+	],
+
 }
 
 export default card

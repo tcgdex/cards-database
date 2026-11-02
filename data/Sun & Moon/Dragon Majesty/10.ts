@@ -86,6 +86,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It draws in air through its tail, transforms it into fire, and uses it like a tongue. It melts Durant and eats them.",
+		de: "Über den Schweif aufgesaugte Luft wird in eine Feuerzunge verwandelt, um damit Fermicula zu schmelzen und zu fressen."
+	},
+
 	thirdParty: {
 		cardmarket: 363482,
 		tcgplayer: 175312

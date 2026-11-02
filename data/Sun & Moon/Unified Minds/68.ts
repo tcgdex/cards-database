@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [641],
 
 	dexId: [
 		642,
@@ -95,6 +96,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.",
+		de: "Es greift mit elektrischer Ladung aus den Dornen seiner Rute an und bombardiert Einall aus der Luft mit Blitzen."
+	},
 
 	thirdParty: {
 		cardmarket: 388162,

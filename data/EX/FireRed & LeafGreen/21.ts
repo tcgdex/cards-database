@@ -40,7 +40,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as Dodrio is on your Bench, you pay Colorless Colorless less to retreat your Active Pokémon (excluding Pokémon-ex and Baby Pokémon).\"",
-				fr: "Tant que Dodrio est sur votre Banc, vous n'avez pas à payer  pour faire battre en retraite votre Pokémon Actif (sauf pour les Pokémon-ex et les Bébés Pokémon).",
+				fr: "Tant que Dodrio est sur votre Banc, vous n'avez pas à payer {C}{C} pour faire battre en retraite votre Pokémon Actif (sauf pour les Pokémon-ex et les Bébés Pokémon).",
 				de: "Solange sich Dodri auf deiner Bank befindet, kostet dich der Rückzug deiner Aktiven Pokémon (außer Pokémon-ex und Baby-Pokémon).   weniger."
 			},
 		},
@@ -81,21 +81,25 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276197,
-		tcgplayer: 84850
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276197,
+				tcgplayer: 84850
+			},
 		},
 		{
-			type: "holo",
-			foil: "energy"
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 276197,
+				tcgplayer: 84850
+			},
 		}
 	]
 }

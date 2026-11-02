@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		309,
-	],
+	dexId: [309],
 
 	hp: 50,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Self Charge",
 				fr: "Auto-chargement",
-				de: "Self Charge"
+				de: "Selbstaufladung"
 			},
 			effect: {
 				en: "Attach an Energy card from your hand to Team Aqua's Electrike.",
 				fr: "Attachez une carte Énergie de votre main à Dynavolt de Team Aqua.",
-				de: "Attach an Energy card from your hand to Team Aqua's Electrike."
+				de: "Lege eine Energiekarte von deiner Hand an Team Aquas Frizelbliz an."
 			},
 
 		},
@@ -72,26 +70,31 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276030,
-		tcgplayer: 89787
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275830,
+				tcgplayer: 89787
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275830,
+				tcgplayer: 89787
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["chris-fulop"]
 		}
-	]
+	],
+
 }
 
 export default card

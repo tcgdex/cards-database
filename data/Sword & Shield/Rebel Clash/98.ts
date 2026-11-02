@@ -90,23 +90,30 @@ const card: Card = {
 	types: ["Fighting"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Through yoga training, it gained the psychic power to predict its foe's next move."
+		en: "Through yoga training, it gained the psychic power to predict its foe's next move.",
+		de: "Mit Yoga-Training hat es seine Psycho-Kräfte geschärft und ahnt so die Attacken seiner Gegner voraus."
 	},
 
-	thirdParty: {
-		cardmarket: 457903,
-		tcgplayer: 213186
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457903,
+				tcgplayer: 213186
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457903,
+				tcgplayer: 213186
+			}
+		},
+	],
 }
 
 export default card

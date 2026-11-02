@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		261,
-	],
+	dexId: [261],
 
 	hp: 50,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Roar",
 				fr: "Hurlement",
-				de: "Roar"
+				de: "Gebrüll"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
 				fr: "Si votre adversaire a des Pokémon sur son Banc, il choisit l'un d'eux et l'échange contre le Pokémon Défenseur.",
-				de: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any."
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 
 		},
@@ -50,12 +48,12 @@ const card: Card = {
 			name: {
 				en: "Aqua Crush",
 				fr: "Écrasement Aqua",
-				de: "Aqua Crush"
+				de: "Aquamalmer"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon."
+				de: "Wirf 1 Münze. Lege bei „Kopf“ eine an dem Verteidigenden Pokémon angelegte Energiekarte auf den Ablagestapel."
 			},
 			damage: 10,
 
@@ -76,22 +74,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276032,
-		tcgplayer: 89795
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275832,
+				tcgplayer: 89795
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275832,
+				tcgplayer: 89795
+			}
+		},
+	],
+
 }
 
 export default card

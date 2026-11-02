@@ -4,19 +4,26 @@ import Set from '../EX trainer Kit 2 (Plusle)'
 const card: Card = {
 	name: {
 		en: "Lightning Energy",
-		fr: "Énergie Électrique"
+		fr: "Énergie Électrique",
+		de: "Elektro-Energie"
 	},
 
-	illustrator: "",
 	rarity: "None",
 	category: "Energy",
 	set: Set,
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		tcgplayer: 86763
-	}
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86763
+			}
+		},
+	],
+
 }
 
 export default card

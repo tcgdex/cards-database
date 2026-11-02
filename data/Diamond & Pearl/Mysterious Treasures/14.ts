@@ -68,9 +68,13 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "On l'appelle \"être de l'émotion\". Il enseigne aux hommes la beauté de la tristesse, la douleur et la joie."
+		en: "Known as \"The Being of Emotion.\" It taught humans the nobility of sorrow, pain, and joy.",
+		fr: "On l'appelle \"être de l'émotion\". Il enseigne aux hommes la beauté de la tristesse, la douleur et la joie.",
+		de: "„Das fühlende Wesen“. Es lehrt die Menschen die Ideale von Trauer, Schmerz und Freude."
 	},
 
 	thirdParty: {

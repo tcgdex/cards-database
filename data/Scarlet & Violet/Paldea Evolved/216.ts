@@ -55,19 +55,32 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715691,
+				tcgplayer: 497619,
+				cardtrader: 248869
+			}
+		},
+	],
 
 	illustrator: "Tika Matsuno",
 
-	thirdParty: {
-		cardmarket: 715691
-	}
+	description: {
+		en: "It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pokémon that eat metal.",
+		de: "Es schwingt seinen handgeschmiedeten Hammer, um sich zu schützen. Dieser wird ihm allerdings oft von Pokémon gestohlen, die Metall fressen."
+	},
 }
 
 export default card

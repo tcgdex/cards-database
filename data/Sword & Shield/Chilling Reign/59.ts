@@ -50,23 +50,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly."
+		en: "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.",
+		de: "Wenn es mit seinen roten Hörnern freundliche Gefühle von Menschen oder Pokémon erfasst, erwärmt sich sein ganzer Körper ein bisschen."
 	},
 
-	thirdParty: {
-		cardmarket: 567167,
-		tcgplayer: 241720
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567167,
+				tcgplayer: 241720
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567167,
+				tcgplayer: 241720
+			}
+		},
+	],
 }
 
 export default card

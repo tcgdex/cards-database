@@ -55,18 +55,42 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It likes playing with others of its kind using the water ring on its tail. It uses ultrasonic waves to sense the emotions of other living creatures.",
+		de: "Mit dem Wasserring an der Schwanzflosse spielt es gerne mit Artgenossen. Über Ultraschallwellen kann es die Gefühle anderer Lebewesen erfassen."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725140,
+				tcgplayer: 509812,
+				cardtrader: 255620
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725140,
+				tcgplayer: 509812,
+				cardtrader: 255620
+			}
+		},
+	],
 
 	illustrator: "kodama",
 
-	thirdParty: {
-		cardmarket: 725140
-	}
+	
 }
 
 export default card

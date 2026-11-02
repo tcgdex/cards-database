@@ -22,15 +22,27 @@ const card: Card = {
 		es: "Involuciona a 1 de tus Pokémon evolucionados y pon la carta de Evolución de fase más alta que tenga sobre él en tu mano. (Ese Pokémon no puede evolucionar en este turno.)",
 		it: "Annulla l’evoluzione di uno dei tuoi Pokémon evoluti e riprendi in mano la carta Evoluzione di Fase più alta. Quel Pokémon non può evolversi in questo turno.",
 		pt: "Involui 1 dos seus Pokémon evoluídos e coloca o card de Evolução de Estágio mais alto em sua mão. (Esse Pokémon não pode evoluir desta vez.)",
-		de: "Rückentwickle 1 deiner entwickelten Pokémon und nimm die höchste daraufliegende Evolutionskarte auf deine Hand. (Das Pokémon kann sich während dieses Zuges nicht entwickeln.)"
+		de: "Rückentwickle 1 deiner entwickelten Pokémon und nimm die höchste daraufliegende Evolutionskarte auf deine Hand. (Das Pokémon kann sich während dieses Zuges nicht entwickeln.) Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 
-	thirdParty: {
-		cardmarket: 280552,
-		tcgplayer: 84783
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280552,
+				tcgplayer: 84783
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280552,
+				tcgplayer: 84783
+			}
+		},
+	],
 }
 
 export default card

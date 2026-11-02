@@ -24,6 +24,22 @@ const card: Card = {
 		'zh-cn': "從自己的棄牌區選擇1張寶可夢卡或者基本能量卡，在給對手看過後加入手牌。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803264,
+				tcgplayer: 602580,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602581,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "H"
 }

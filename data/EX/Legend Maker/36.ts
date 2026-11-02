@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Mysterious Fossil",
-		fr: "Mystérieux fossile"
+		fr: "Mystérieux fossile",
+		de: "Geheimnis-Fossil"
 	},
 
 	stage: "Stage1",
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "During your opponent's next turn, any damage done to Kabuto by attacks is reduced by 10 (after applying Weakness and Resistance).",
 				fr: "Lors du prochain tour de votre adversaire, les dégâts infligés à Kabuto par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
-				de: "Im nächsten Zug deines Gegners wird Schaden, der Kabuto durch gegneriche Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+				de: "Im nächsten Zug deines Gegners wird Schaden, der Kabuto durch gegnerische Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 20,
 

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Porygon2",
 		fr: "Porygon2",
+		de: "Porygon2"
 	},
 
 	stage: "Stage2",
@@ -91,6 +92,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Its behavior is noticeably unstable, which is apparently due to the incompetence of the engineer who updated its programming.",
+		de: "Sein seltsames Verhalten verdankt es offenbar der Unfähigkeit des Wissenschaftlers, der seine Software aktualisiert hat."
+	},
 
 	thirdParty: {
 		cardmarket: 372445,

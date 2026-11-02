@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 20,
@@ -51,6 +52,7 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				de: "Aquaknarre"
 			},
 
 			damage: 30,
@@ -67,10 +69,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 280623,
-		tcgplayer: 87222
-	}
+	description: {
+		en: "The oil-filled tail functions as a buoy, so it's fine even in rivers with strong currents.",
+		de: "Sein ölgefüllter Schweif dient ihm als Rettungsboje, die es vor der Strömung reißender Flüsse schützt."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280623,
+				tcgplayer: 87222
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280623,
+				tcgplayer: 87222
+			}
+		},
+	],
 }
 
 export default card

@@ -77,23 +77,30 @@ const card: Card = {
 	types: ["Fighting"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It stands in grasslands, watching the sun's descent from zenith to horizon. This Pokémon has a talent for delivering dynamic kicks."
+		en: "It stands in grasslands, watching the sun's descent from zenith to horizon. This Pokémon has a talent for delivering dynamic kicks.",
+		de: "Es verweilt auf weitläufigen Wiesen und beobachtet den Lauf der Sonne. Dynamische Trittangriffe sind sein Spezialgebiet."
 	},
 
-	thirdParty: {
-		cardmarket: 457963,
-		tcgplayer: 213203
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 457963,
+				tcgplayer: 213203
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457963,
+				tcgplayer: 213203
+			}
+		},
+	],
 }
 
 export default card

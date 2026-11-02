@@ -15,6 +15,16 @@ const card: Card = {
 		ja: "自分の手札をすべて山札にもどして切る。その後、コインを1回投げ、オモテなら8枚、ウラなら3枚、山札を引く。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 788058,
+				tcgplayer: 579467,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	rarity: "None"
 }

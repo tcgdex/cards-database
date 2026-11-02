@@ -4,6 +4,7 @@ import Set from "../Fusion Strike"
 const card: Card = {
 	dexId: [820],
 	set: Set,
+	cameoDexIds: [819],
 
 	name: {
 		en: "Greedent V",
@@ -20,6 +21,12 @@ const card: Card = {
 	types: ["Colorless"],
 	stage: "Basic",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Saya Tsuruta",
@@ -70,17 +77,16 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582994,
-		tcgplayer: 253157
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 582994,
+				tcgplayer: 253157
+			}
+		},
+	],
 }
 
 export default card

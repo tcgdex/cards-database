@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Jirachi"
 	},
 	illustrator: "Mizue",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -81,6 +81,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It is said to have the ability to grant any wish for just one week every thousand years.",
+		de: "Man sagt, es kann alle 1 000 Jahre für eine Woche jeden Wunsch erfüllen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 368854,
+				tcgplayer: 183968
+			}
+		}
+	],
 }
 
 export default card

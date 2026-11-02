@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Ralts",
 		fr: "Tarsal",
+		de: "Trasla"
 	},
 
 	stage: "Stage1",
@@ -85,10 +86,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299494,
-		tcgplayer: 138584
-	}
+	description: {
+		en: "The cheerful spirit of its Trainer gives it energy for its psychokinetic power. It spins and dances when happy.",
+		de: "Die fröhliche Stimmung seines Trainers verleiht ihm Energie für psychokinetische Kraft. Wenn es glücklich ist, tanzt und dreht es sich."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299494,
+				tcgplayer: 138584
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299494,
+				tcgplayer: 138584
+			}
+		},
+	],
 }
 
 export default card

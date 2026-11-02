@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -71,9 +71,13 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Bien que dépourvu d'yeux, il repère les obstacles grâce aux ultrasons émis par sa gueule."
+		en: "Even though it has no eyes, it can sense obstacles using ultrasonic waves it emits from its mouth.",
+		fr: "Bien que dépourvu d'yeux, il repère les obstacles grâce aux ultrasons émis par sa gueule.",
+		de: "Obwohl es keine Augen hat, kann es Hindernisse mithilfe von Ultraschallwellen wahrnehmen."
 	},
 
 	thirdParty: {

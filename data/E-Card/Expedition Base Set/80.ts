@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		93,
-	],
+	dexId: [93],
 
 	hp: 70,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Gastly",
-		fr: "Fantominus"
+		fr: "Fantominus",
+		de: "Nebulak"
 	},
 
 	stage: "Stage1",
@@ -39,12 +38,12 @@ const card: Card = {
 			name: {
 				en: "Nightmare",
 				fr: "Cauchemar",
-				de: "Nightmare"
+				de: "Nachtmahr"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -58,46 +57,50 @@ const card: Card = {
 			name: {
 				en: "Dream Eater",
 				fr: "Dévorêve",
-				de: "Dream Eater"
+				de: "Traumfresser"
 			},
 
 			effect: {
 				en: "If the Defending Pokémon isn't Asleep, this attack does nothing.",
 				fr: "Si le Pokémon Défenseur n'est pas Endormi, cette attaque ne fait rien.",
-				de: "If the Defending Pokémon isn't Asleep, this attack does nothing."
+				de: "Falls das Verteidigende Pokémon nicht schläft, hat dieser Angriff keine Auswirkungen."
 			},
 
-			damage: 50
+			damage: 50,
 		},
 	],
 
 	weaknesses: [
 		{
 			type: "Darkness",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 274955,
-		tcgplayer: 86024
-	},
 
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 86024,
+				cardmarket: 274955
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 86024,
+				cardmarket: 274955
+			},
+		},
+	],
 }
 
 export default card

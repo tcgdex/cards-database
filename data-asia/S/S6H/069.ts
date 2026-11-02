@@ -1,22 +1,34 @@
-import { Card } from "../../../interfaces"
-import Set from "../S6H"
+import { Card } from "../../../interfaces";
+import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "通頂雪道"
+		ja: "頂への雪道",
+		'zh-tw': "通頂雪道",
 	},
 
 	illustrator: "Oswaldo KATO",
 	category: "Trainer",
 
 	effect: {
-		'zh-tw': "雙方場上的「擁有規則的寶可夢」的特性全部消除。"
+		ja: "おたがいの場の「ルールを持つポケモン」の特性は、すべてなくなる。",
+		'zh-tw': "雙方場上的「擁有規則的寶可夢」的特性全部消除。",
 	},
 
-	trainerType: "Stadium",
-	regulationMark: "E"
-}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 560491,
+				tcgplayer: 569201,
+			},
+		},
+	],
 
-export default card
+	trainerType: "Stadium",
+	regulationMark: "E",
+	rarity: "Uncommon",
+};
+
+export default card;

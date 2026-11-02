@@ -59,9 +59,13 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
-		fr: "Il vit habituellement au cœur des montagnes. Affamé, il dévore parfois des rails et des voitures."
+		en: "It usually lives deep in mountains. However, hunger may drive it to eat railroad tracks and cars.",
+		fr: "Il vit habituellement au cœur des montagnes. Affamé, il dévore parfois des rails et des voitures.",
+		de: "Normalerweise lebt es in dunklen Bergen. Ist es hungrig, frisst es auch Eisenbahnschienen und Autos."
 	},
 
 	thirdParty: {

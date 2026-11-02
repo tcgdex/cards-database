@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 50,
 	types: ["Grass"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Kagemaru Himeno",
 
 	description: {
-		en: "It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon."
+		en: "It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon.",
+		de: "Viele Leute werden ihre Trainer, weil sie es niedlich finden, wie diese Pokémon in sanften Brisen herumwirbeln und voller Freude singen."
 	},
 
 	attacks: [{
@@ -42,17 +49,23 @@ const card: Card = {
 		damage: 10
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582089,
-		tcgplayer: 253115
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582089,
+				tcgplayer: 253115
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582089,
+				tcgplayer: 253115
+			}
+		},
+	],
 }
 
 export default card

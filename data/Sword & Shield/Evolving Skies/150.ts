@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Lucky Ice Pop",
@@ -29,17 +23,29 @@ const card: Card = {
 		es: "Cura 20 puntos de daño a tu Pokémon Activo. Si has curado algún punto de daño de esta manera, lanza 1 moneda. Si sale cara, pon este Helado Suerte en tu mano en vez de en la pila de descartes.",
 		it: "Cura il tuo Pokémon attivo da 20 danni. Se hai curato dei danni in questo modo, lancia una moneta. Se esce testa, prendi questo Ghiacciolo della Fortuna e aggiungilo alle carte che hai in mano invece che alla pila degli scarti.",
 		pt: "Cure 20 pontos de dano do seu Pokémon Ativo. Se você curou qualquer dano desta forma, jogue uma moeda. Se sair cara, coloque este Picolé da Sorte na sua mão ao invés da pilha de descarte.",
-		de: "Heile 20 Schadenspunkte bei deinem Aktiven Pokémon. Wenn du auf diese Weise Schaden geheilt hast, wirf 1 Münze. Nimm bei Kopf dieses Glücks-Eis auf deine Hand, anstatt es auf deinen Ablagestapel zu legen."
+		de: "Heile 20 Schadenspunkte bei deinem Aktiven Pokémon. Wenn du auf diese Weise Schaden geheilt hast, wirf 1 Münze. Nimm bei Kopf dieses Glücks-Eis auf deine Hand, anstatt es auf deinen Ablagestapel zu legen. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 	illustrator: "inose yukie",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574208,
-		tcgplayer: 246775
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574208,
+				tcgplayer: 246775
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574208,
+				tcgplayer: 246775
+			}
+		},
+	],
 }
 
 export default card

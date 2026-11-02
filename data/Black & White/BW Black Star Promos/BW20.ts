@@ -69,6 +69,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "They raise their heads to intimidate opponents but only give their all when fighting a powerful opponent.",
+	},
 }
 
 export default card

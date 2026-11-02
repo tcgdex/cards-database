@@ -74,7 +74,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		fr: "Il exprime ses émotions en modulant son cri. Ce Pokémon rusé chasse en meute pour abattre ses proies."
+		en: "It conveys its feelings using different cries. It works in a pack to cleverly take down prey.",
+		fr: "Il exprime ses émotions en modulant son cri. Ce Pokémon rusé chasse en meute pour abattre ses proies.",
+		de: "Durch unterschiedliche Schreie drückt es seine Gefühle aus. Diese PKMN jagen im Verbund nach Beute."
 	},
 
 	thirdParty: {

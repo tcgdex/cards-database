@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		361,
-	],
+	dexId: [361],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Powder Snow",
 				fr: "Poudreuse",
-				de: "Powder Snow"
+				de: "Pulverschnee"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 10,
 
@@ -48,17 +46,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Metal",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89398,
+				cardmarket: 275921
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89398,
+				cardmarket: 275921
+			},
 		},
 	],
 
-
-	retreat: 1,
-
-	thirdParty: {
-		tcgplayer: 89398,
-		cardmarket: 275921
-	}
 }
 
 export default card

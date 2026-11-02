@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Saya Tsuruta",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [684],
 	hp: 60,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -37,13 +38,40 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675905,
-		cardmarket: 869704
-	}
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869704,
+			tcgplayer: 675905
+		}
+	},
+	{
+		type: "reverse",
+		foil: "loveball",
+		thirdParty: {
+			cardmarket: 870282,
+			tcgplayer: 676925
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870281,
+			tcgplayer: 677065
+		}
+	},
+],
 }
 
 export default card

@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Befehl vom Boss"
 	},
 
+	illustrator: "GIDORA",
 	rarity: "Holo Rare",
 	category: "Trainer",
 
@@ -22,23 +23,43 @@ const card: Card = {
 		es: "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
 		it: "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
 		pt: "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
-		de: "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
+		de: "Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608678,
-		tcgplayer: 263855
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608678,
+				tcgplayer: 263855
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['regional-championships'],
+			thirdParty: {
+				cardmarket: 660946
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 716227
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608678,
+				tcgplayer: 263855
+			}
+		},
+	],
 }
 
 export default card

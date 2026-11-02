@@ -23,7 +23,7 @@ const card: Card = {
 		es: "No puedes jugar esta carta si no tienes ningún Pokémon Water o Metal en juego.\n\nTu rival elige 2 Pokémon en Banca y pone los demás, y todas las cartas unidas a ellos, en su baraja, y baraja todas las cartas.",
 		it: "Non puoi giocare questa carta se non hai alcun Pokémon Water o Metal in gioco.\n\nIl tuo avversario sceglie due Pokémon in panchina e rimischia gli altri nel proprio mazzo insieme a tutte le carte loro assegnate.",
 		pt: "Você não pode jogar esta carta se não tiver nenhum Pokémon Water ou Metal em jogo.\n\nSeu oponente escolhe 2 Pokémon no Banco e embaralha os outros e todas as cartas ligadas a eles no próprio baralho.",
-		de: "Du kannst diese Karte nicht spielen, wenn du nicht mindestens 1 Water- oder Metal-Pokémon im Spiel hast.\n\nDein Gegner wählt 2 Pokémon auf seiner Bank und mischt die anderen sowie alle an sie angelegten Karten in sein Deck."
+		de: "Du kannst nicht mehr als 1 ◇-Karte mit demselben Namen in deinem Deck haben. Wenn 1 ◇-Karte auf deinen Ablagestapel gelegt würde, lege sie stattdessen ins Nirgendwo. Du kannst diese Karte nicht spielen, wenn du nicht mindestens 1 {W}- oder {M}-Pokémon im Spiel hast. Dein Gegner wählt 2 Pokémon auf seiner Bank und mischt die anderen sowie alle an sie angelegten Karten in sein Deck. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	thirdParty: {

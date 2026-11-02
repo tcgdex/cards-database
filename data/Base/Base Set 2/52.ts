@@ -71,15 +71,21 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273975,
-		tcgplayer: 42515
+
+	description: {
+		en: "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to K.O. targets.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273975,
+				tcgplayer: 42515
+			}
 		}
 	]
 }

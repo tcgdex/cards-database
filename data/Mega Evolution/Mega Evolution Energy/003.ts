@@ -16,6 +16,22 @@ const card: Card = {
     set: Set,
     energyType: "Normal",
 
+    variants: [
+        {
+            type: "normal",
+            thirdParty: {
+				cardmarket: 851010,
+                tcgplayer: 656265
+            }
+        },
+        {
+            type: "reverse",
+            thirdParty: {
+				cardmarket: 851010,
+                tcgplayer: 656265
+            }
+        }
+    ],
 
 }
 

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Rockruff",
 		fr: "Rocabot",
+		de: "Wuffels"
 	},
 
 	stage: "Stage1",
@@ -80,10 +81,34 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 299477,
-		tcgplayer: 138562
-	}
+	description: {
+		en: "Its quick movements confuse its enemies. Well equipped with claws and fangs, it also uses the sharp rocks in its mane as weapons.",
+		de: "Irritiert seine Feinde mit schnellen Bewegungen. Als Waffen hat es nicht nur Krallen und Hauer, sondern auch die spitzen Felsen seiner Mähne."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299478,
+				tcgplayer: 138562
+			}
+		},
+		{
+			type: "holo",
+			foil: "cracked-ice",
+			thirdParty: {
+				tcgplayer: 173088
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299478,
+				tcgplayer: 138562
+			}
+		},
+	],
 }
 
 export default card

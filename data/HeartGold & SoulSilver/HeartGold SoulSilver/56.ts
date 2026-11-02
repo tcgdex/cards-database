@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		40,
-	],
+	dexId: [40],
 
 	hp: 90,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
-		en: "Jiggylypuff",
+		en: "Jigglypuff",
 		fr: "Rondoudou",
+		de: "Pummeluff"
 	},
 
 	stage: "Stage1",
@@ -44,9 +43,9 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
-			damage: "40x",
+			damage: "40×",
 
 		},
 		{
@@ -61,7 +60,7 @@ const card: Card = {
 				de: "Ausdehnen"
 			},
 			effect: {
-				en: "During your opponent’s next turn, any damage done to Wigglytuff by attacks is reduced by 10 (after applying Weakness and Resistance).",
+				en: "During your opponent's next turn, any damage done to Wigglytuff by attacks is reduced by 10 (after applying Weakness and Resistance).",
 				fr: "Tous les dégâts infligés à Grodoudou par des attaques pendant le prochain tour de votre adversaire sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
 				de: "Während des nächsten Zuges deines Gegners wird Schaden, der Knuddeluff durch Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
@@ -80,22 +79,27 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a Body Slam."
+		en: "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a Body Slam.",
+		de: "Es hat ein weiches Fell. Verärgere es nicht, denn andernfalls setzt es ständig Bodyslam ein."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90599,
+				cardmarket: 279028
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90599,
+				cardmarket: 279028
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279028,
-		tcgplayer: 90599
-	}
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Cobalion"
+		en: "Cobalion",
+		fr: "Cobaltium"
 	},
 
 	illustrator: "Takeshi Nakamura",
@@ -24,14 +25,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Sacred Sword"
+			en: "Sacred Sword",
+			fr: "Lame Sainte"
 		},
 
 		damage: 110,
 		cost: ["Metal", "Metal", "Colorless"],
 
 		effect: {
-			en: "During your next turn, this Pokémon can't use Sacred Sword."
+			en: "During your next turn, this Pokémon can't use Sacred Sword.",
+			fr: "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Lame Sainte."
 		}
 	}],
 

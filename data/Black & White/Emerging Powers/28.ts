@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Powder Snow",
 				fr: "Poudreuse",
+				de: "Pulverschnee"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				de: "Wirf 1 Münze. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt."
 			},
 			damage: 10,
 
@@ -52,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Rest",
 				fr: "Repos",
+				de: "Erholung"
 			},
 			effect: {
 				en: "Heal 60 damage from this Pokémon. This Pokémon is now Asleep.",
 				fr: "Soignez 60 dégâts à ce Pokémon. Ce Pokémon est maintenant Endormi.",
+				de: "Heile 60 Schadenspunkte bei diesem Pokémon. Dieses Pokémon schläft jetzt."
 			},
 
 		},
@@ -70,10 +74,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 279993,
-		tcgplayer: 84523
-	}
+	description: {
+		en: "When it is not feeling well, its mucus gets watery and the power of its Ice-type moves decreases.",
+		de: "Wenn es kränkelt, wird der Schleim aus seiner Nase flüssiger und seine Eis-Attacken verlieren an Stärke."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279993,
+				tcgplayer: 84523
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279993,
+				tcgplayer: 84523
+			}
+		},
+	],
 }
 
 export default card

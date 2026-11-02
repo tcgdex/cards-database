@@ -19,13 +19,19 @@ const card: Card = {
 		ja: "自分の山札から、それぞれちがうタイプの基本エネルギーを好きなだけ選び、相手に見せて、手札に加える。そして山札を切る。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 787612,
+				tcgplayer: 579434,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "H",
 	rarity: "None",
-
-	thirdParty: {
-		cardmarket: 787612
-	}
 }
 
 export default card

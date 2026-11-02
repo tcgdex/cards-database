@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		61,
-	],
+	dexId: [61],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Poliwag",
 		fr: "Ptitard",
+		de: "Quapsel"
 	},
 
 	stage: "Stage1",
@@ -74,31 +73,43 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The skin on most of its body is moist. However, the skin on its belly spiral feels smooth."
+		en: "The skin on most of its body is moist. However, the skin on its belly spiral feels smooth.",
+		de: "Der Großteil seiner Haut ist feucht. Dennoch ist die Haut um seine Spirale glatt und weich."
 	},
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88268,
+				cardmarket: 279193
+			}
 		},
 		{
 			type: "reverse",
-			foil: "league"
+			thirdParty: {
+				tcgplayer: 88268,
+				cardmarket: 279193
+			}
+		},
+		{
+			type: "reverse",
+			foil: "league",
+			thirdParty: {
+				cardmarket: 450133,
+				tcgplayer: 231416
+			}
 		},
 		{
 			type: "reverse",
 			foil: "league",
 			stamp: ["staff"],
+			thirdParty: {
+				tcgplayer: 231417
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279193,
-		tcgplayer: 88268
-	}
 }
 
 export default card

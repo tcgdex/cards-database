@@ -57,15 +57,27 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "Mina Nakai",
+
+	description: {
+		en: "Klawf hangs upside-down from cliffs, waiting for prey. But Klawf can't remain in this position for long because its blood rushes to its head.",
+		de: "Dieses Pokémon lauert seiner Beute kopfüber an Klippen hängend auf. Da ihm dabei das Blut in den Kopf steigt, kann es nicht lange so ausharren."
+	},
 
 	thirdParty: {
         cardmarket: 702513,

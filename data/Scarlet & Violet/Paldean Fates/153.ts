@@ -35,19 +35,39 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751692,
+				tcgplayer: 534650,
+				cardtrader: 274338
+			}
+		},
+	],
 
 	illustrator: "yuu",
 
-	thirdParty: {
-		cardmarket: 751692
-	}
+	description: {
+		en: "The horns on its head provide a strong power that enables it to sense people's emotions.",
+		de: "Mit den roten Hörnern auf seinem Kopf kann es die Gefühle der Menschen genau erspüren."
+	},
+
 }
 
 export default card

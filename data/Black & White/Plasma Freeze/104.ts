@@ -22,7 +22,7 @@ const card: Card = {
 		es: "El Pokémon al que esté unida esta carta es un Pokémon del Equipo Plasma.",
 		it: "Il Pokémon a cui è assegnata questa carta è un Pokémon del Team Plasma.",
 		pt: "O Pokémon ao qual este card está ligado é um Pokémon da Equipe Plasma.",
-		de: "Das Pokémon, an das diese Karte angelegt ist, ist ein Team Plasma-Pokémon."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Das Pokémon, an das diese Karte angelegt ist, ist ein Team Plasma-Pokémon. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Hypnotic Gaze",
 				fr: "Regard Hypnotique",
+				de: "Hypnotischer Blick"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -51,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Double Slap",
 				fr: "Torgnoles",
+				de: "Duplexhieb"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 20,
 
@@ -70,10 +74,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280008,
-		tcgplayer: 85845
-	}
+	description: {
+		en: "Their ribbonlike feelers increase their psychic power. They are always staring at something.",
+		de: "Die schleifenförmigen Fühler erhöhen seine Psycho-Kräfte. Es scheint stets irgendetwas anzustarren."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280008,
+				tcgplayer: 85845
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280008,
+				tcgplayer: 85845
+			}
+		},
+	],
 }
 
 export default card

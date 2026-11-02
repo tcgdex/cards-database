@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		229,
-	],
+	dexId: [229],
 
 	hp: 70,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Stage1",
@@ -34,12 +32,12 @@ const card: Card = {
 			name: {
 				en: "Target Scorch",
 				fr: "Brûlure ciblée",
-				de: "Target Scorch"
+				de: "Wurffackel"
 			},
 			effect: {
 				en: "If the Defending Pokémon has Team Aqua in its name, the Defending Pokémon is now Burned.",
 				fr: "Si le nom du Pokémon Défenseur comporte Team Aqua, le Pokémon Défenseur est maintenant Brûlé.",
-				de: "If the Defending Pokémon has Team Aqua in its name, the Defending Pokémon is now Burned."
+				de: "Wenn das Verteidigende Pokémon „Team Aqua“ im Namen hat, ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: 30,
 
@@ -53,12 +51,12 @@ const card: Card = {
 			name: {
 				en: "Damage Burn",
 				fr: "Dégâts brûlants",
-				de: "Damage Burn"
+				de: "Brandschaden"
 			},
 			effect: {
 				en: "If the Defending Pokémon already has any damage counters on it, this attack does 40 damage plus 20 more damage.",
 				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires.",
-				de: "If the Defending Pokémon already has any damage counters on it, this attack does 40 damage plus 20 more damage."
+				de: "Wenn bereits Schadensmarken auf dem Verteidigenden Pokémon liegen, fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -72,22 +70,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276011,
-		tcgplayer: 89829
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275811,
+				tcgplayer: 89829
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275811,
+				tcgplayer: 89829
+			}
+		},
+	],
+
 }
 
 export default card

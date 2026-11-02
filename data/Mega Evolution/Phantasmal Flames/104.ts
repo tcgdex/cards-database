@@ -60,19 +60,38 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "When it's in trouble, it curls up into a ball, makes its fur spikes stand on end, and then discharges electricity indiscriminately.",
+		fr: "En cas de danger, il se roule en boule, dresse ses épines dorsales et lance des décharges électriques au hasard.",
+		de: "Bei Gefahr rollt es sich zusammen, stellt seine Rückenstacheln auf und schießt willkürlich mit Elektrizität um sich."
+	},
+
+	illustrator: "Orca",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857679,
+				tcgplayer: 662233,
+				cardtrader: 356890
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857679,
-		tcgplayer: 662233
-	}
 }
 
 export default card

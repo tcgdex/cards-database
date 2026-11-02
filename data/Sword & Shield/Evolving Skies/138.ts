@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Fletchling",
@@ -84,15 +78,28 @@ const card: Card = {
 	dexId: [661],
 
 	description: {
-		en: "Its body is always warm. Trainers who live in cold areas apparently sleep with it in their bed."
+		en: "Its body is always warm. Trainers who live in cold areas apparently sleep with it in their bed.",
+		de: "Sein Körper ist immer warm. In kalten Gebieten schlafen Trainer deshalb oft in einem Bett mit ihm."
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574196,
-		tcgplayer: 246879
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574196,
+				tcgplayer: 246879
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574196,
+				tcgplayer: 246879
+			}
+		},
+	],
 }
 
 export default card

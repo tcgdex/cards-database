@@ -4,6 +4,7 @@ import Set from "../Scarlet & Violet"
 const card: Card = {
 	dexId: [551],
 	set: Set,
+	cameoDexIds: [331],
 
 	name: {
 		en: "Sandile",
@@ -48,15 +49,27 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "Nurikabe",
+
+	description: {
+		en: "It submerges itself in sand and moves as if swimming. This wise behavior keeps its enemies from finding it and maintains its temperature.",
+		de: "Es bewegt sich verborgen im Sand mithilfe von Schwimmbewegungen fort. So versteckt es sich vor Gegnern und bleibt immer schön warm."
+	},
 
 	thirdParty: {
         cardmarket: 702512,

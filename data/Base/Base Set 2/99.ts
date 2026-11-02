@@ -46,15 +46,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 274022,
-		tcgplayer: 42550
+
+	description: {
+		en: "At the time of birth, it has just one tail. Its tail splits from the tip as it grows older.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274022,
+				tcgplayer: 42550
+			}
 		}
 	]
 }

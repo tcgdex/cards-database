@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		230,
-	],
+	dexId: [230],
 
 	hp: 130,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Seadra",
 		fr: "Hypocean",
+		de: "Seemon"
 	},
 
 	stage: "Stage2",
@@ -39,10 +38,10 @@ const card: Card = {
 				de: "Fontänenspritzer"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may put 1 damage counter on 1 of your opponent’s Pokémon. This power can’t be used if Kingdra is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may put 1 damage counter on 1 of your opponent's Pokémon. This power can't be used if Kingdra is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez placer un marqueur de dégât sur l’un des Pokémon de votre adversaire. Ce pouvoir ne peut pas être utilisé si Hyporoi est affecté par un État Spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Schadensmarke auf 1 Pokémon deines Gegners legen. Diese Poké-Power kann nicht benutzt werden, wenn Seedraking von einem Speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 
@@ -57,9 +56,9 @@ const card: Card = {
 				de: "Drachendampf"
 			},
 			effect: {
-				en: "If your opponent has any Fire Pokémon in play, this attack’s base damage is 20 instead of 60.",
+				en: "If your opponent has any Fire Pokémon in play, this attack's base damage is 20 instead of 60.",
 				fr: "Si votre adversaire dispose de n’importe quel Pokémon Fire en jeu, cette attaque inflige 20 dégâts de base au lieu de 60.",
-				de: "Wenn dein Gegner mindestens 1 -Pokémon im Spiel hat, beträgt der Grundschaden dieses Angriffs 20 Schadenspunkte anstelle von 60 Schadenspunkten."
+				de: "Wenn dein Gegner mindestens 1 {R}-Pokémon im Spiel hat, beträgt der Grundschaden dieses Angriffs 20 Schadenspunkte anstelle von 60 Schadenspunkten."
 			},
 			damage: 60,
 
@@ -78,18 +77,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279241,
+				tcgplayer: 86448
+			}
 		},
 		{
-			type: "holo",
+			type: "normal",
 			stamp: ["gustavo-wada"],
+			thirdParty: {
+				cardmarket: 868150,
+				tcgplayer: 480416
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 279173,
-		tcgplayer: 86448
-	}
 }
 
 export default card

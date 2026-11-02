@@ -58,16 +58,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "Applin lives inside an apple. When an Applin is separated from its apple, its body loses moisture and the Pokémon grows weak.",
+		de: "Dieses Pokémon lebt im Inneren eines Apfels. Ohne diesen verliert sein Körper Flüssigkeit, wodurch es schwächer wird."
 	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769359,
+				tcgplayer: 550229
+			}
+		},
+	],
 
 	illustrator: "Katsunori Sato",
 
-	thirdParty: {
-		cardmarket: 769359
-	}
 }
 
 export default card

@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Sanosuke Sakuma",
 
 	description: {
-		en: "The bubble-like pattern on its stomach helps it camouflage itself when it's in the water."
+		en: "The bubble-like pattern on its stomach helps it camouflage itself when it's in the water.",
+		de: "Das blasenähnliche Muster auf seinem Bauch hilft ihm, sich perfekt zu tarnen, wenn es im Wasser ist."
 	},
 
 	attacks: [{
@@ -72,17 +79,23 @@ const card: Card = {
 		damage: 90
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582193,
-		tcgplayer: 253190
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582193,
+				tcgplayer: 253190
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582193,
+				tcgplayer: 253190
+			}
+		},
+	],
 }
 
 export default card

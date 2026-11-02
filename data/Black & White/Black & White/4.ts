@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Snivy",
 		fr: "Vipélierre",
+		de: "Serpifeu"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Wring Out",
 				fr: "Essorage",
+				de: "Auswringen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé, et vous défaussez une Énergie attachée au Pokémon Défenseur.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert. Lege außerdem 1 an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 
@@ -68,10 +71,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279741,
-		tcgplayer: 89077
-	}
+	description: {
+		en: "They avoid attacks by sinking into the shadows of thick foliage. They retaliate with masterful whipping techniques.",
+		de: "Es verschwindet im wuchernden Dickicht, um Angriffen auszuweichen, und kontert mit einem gekonnten Rutenhieb."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279742,
+				tcgplayer: 89077
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279742,
+				tcgplayer: 89077
+			}
+		},
+	],
 }
 
 export default card

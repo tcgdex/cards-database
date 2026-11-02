@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Medicham"
 	},
 
+	evolveFrom: {
+		en: "Meditite",
+		fr: "Méditikka",
+		es: "Meditite",
+		'es-mx': "Meditite",
+		de: "Meditie",
+		it: "Meditite",
+		pt: "Meditite",
+	},
+
 	illustrator: "KEIICHIRO ITO",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [308],
 	hp: 120,
 	types: ["Fighting"],
 	stage: "Stage1",
@@ -47,13 +58,24 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676053,
-		cardmarket: 869852
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869852,
+				tcgplayer: 676053
+			}
+		}
+	],
 }
 
 export default card

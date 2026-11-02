@@ -65,23 +65,30 @@ const card: Card = {
 	types: ["Colorless"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Found throughout the Galar region, this Pokémon becomes uneasy if its cheeks are ever completely empty of berries."
+		en: "Found throughout the Galar region, this Pokémon becomes uneasy if its cheeks are ever completely empty of berries.",
+		de: "Es ist überall in der Galar-Region anzutreffen. Hat es keine Beeren, die es in seinen beiden Backen horten kann, wird es unruhig."
 	},
 
-	thirdParty: {
-		cardmarket: 458153,
-		tcgplayer: 213251
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458153,
+				tcgplayer: 213251
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458153,
+				tcgplayer: 213251
+			}
+		},
+	],
 }
 
 export default card

@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Zygarde GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -104,8 +104,15 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 362742,
+				tcgplayer: 168088
+			}
+		}
+	],
 }
 
 export default card

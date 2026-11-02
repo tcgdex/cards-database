@@ -33,7 +33,7 @@ const card: Card = {
 			name: {
 				en: "Drawup Power",
 				fr: "Pouvoir bloquant",
-				de: "Kraft afziehen"
+				de: "Kraft aufziehen"
 			},
 			effect: {
 				en: "Search your deck for an Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf solange eine Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf so lange eine Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10x",
 

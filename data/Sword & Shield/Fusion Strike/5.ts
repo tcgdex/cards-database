@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Yukiko Baba",
 
 	description: {
-		en: "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores."
+		en: "It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores.",
+		de: "Erst lässt es den Gegner seine giftigen Sporen einatmen, dann traktiert es ihn mit Boxschlägen."
 	},
 
 	attacks: [{
@@ -74,17 +81,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582033,
-		tcgplayer: 253075
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582033,
+				tcgplayer: 253075
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582033,
+				tcgplayer: 253075
+			}
+		},
+	],
 }
 
 export default card

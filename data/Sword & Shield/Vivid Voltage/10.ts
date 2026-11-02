@@ -52,12 +52,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -65,10 +59,22 @@ const card: Card = {
 		en: "If it remains still, it looks just like a real nut. It delights in surprising foraging Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 511470,
-		tcgplayer: 226372
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511470,
+				tcgplayer: 226372
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511470,
+				tcgplayer: 226372
+			}
+		},
+	],
 }
 
 export default card

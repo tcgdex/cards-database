@@ -89,23 +89,30 @@ const card: Card = {
 	types: ["Metal"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Its ability to deflect any attack led to it being known as the Fighting Master's Shield. It was feared and respected by all."
+		en: "Its ability to deflect any attack led to it being known as the Fighting Master's Shield. It was feared and respected by all.",
+		de: "Weil es alles und jeden abwehren konnte, trug es einst den Namen „Kämpferkönigsschild“ und wurde gleichermaßen gefürchtet und verehrt."
 	},
 
-	thirdParty: {
-		cardmarket: 453303,
-		tcgplayer: 213240
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 453303,
+				tcgplayer: 213240
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 453303,
+				tcgplayer: 213240
+			}
+		},
+	],
 }
 
 export default card

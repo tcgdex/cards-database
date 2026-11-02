@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Archeops"
+		en: "Archeops",
+		fr: "Aéroptéryx"
 	},
 
 	illustrator: "Hasuno",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Archen"
+		en: "Archen",
+		fr: "Arkéapti"
 	},
 
 	description: {
@@ -28,13 +30,15 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Wild Spin"
+			en: "Wild Spin",
+			fr: "Tour Acharné"
 		},
 
 		cost: ["Fighting"],
 
 		effect: {
-			en: "This attack does 20 damage to each of your opponent's Pokémon. During your next turn, this Pokémon's Wild Spin attack does +20 damage to each of your opponent's Pokémon."
+			en: "This attack does 20 damage to each of your opponent's Pokémon. During your next turn, this Pokémon's Wild Spin attack does +20 damage to each of your opponent's Pokémon.",
+			fr: "Cette attaque inflige 20 dégâts à chacun des Pokémon de votre adversaire. Pendant votre prochain tour, l'attaque Tour Acharné de ce Pokémon inflige + 20 dégâts à chacun des Pokémon de votre adversaire."
 		}
 	}],
 

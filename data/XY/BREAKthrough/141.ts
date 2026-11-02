@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Si el Coste de Retirada del Pokémon al que está unida esta carta es de 3 o más, ese Pokémon obtiene 20 PS más y no puede pasar a estar Confundido. (Si ese Pokémon está ahora Confundido, elimina esa Condición Especial).",
 		it: "Se il costo di ritirata del Pokémon a cui è assegnata questa carta è di almeno tre, quel Pokémon ha 20 PS in più e non può venire confuso (se quel Pokémon è attualmente confuso, rimuovine la condizione speciale).",
 		pt: "Se o Custo para Recuar do Pokémon ao qual este card está ligado for de 3 ou mais, este Pokémon recebe +20 PS e não pode ficar Confuso. (Se este Pokémon estiver atualmente Confuso, remova esta Condição Especial.)",
-		de: "Wenn die Rückzugskosten des Pokémon, an das diese Karte angelegt ist, 3 oder mehr betragen, erhält dieses Pokémon 20 zusätzliche KP. Außerdem kann es nicht verwirrt werden. (Wenn dieses Pokémon zurzeit verwirrt ist, entferne diesen Speziellen Zustand.)"
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn die Rückzugskosten des Pokémon, an das diese Karte angelegt ist, 3 oder mehr betragen, erhält dieses Pokémon 20 zusätzliche KP. Außerdem kann es nicht verwirrt werden. (Wenn dieses Pokémon zurzeit verwirrt ist, entferne diesen Speziellen Zustand.) Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

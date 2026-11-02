@@ -82,23 +82,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
 	description: {
-		en: "A faulty update was added to its programming. Its behavior is noticeably strange, so the experiment may have been a failure."
+		en: "A faulty update was added to its programming. Its behavior is noticeably strange, so the experiment may have been a failure.",
+		de: "Eine fehlerhafte neue Software führte zu seinem auffällig seltsamen Verhalten. Vermutlich handelt es sich um ein verkorkstes Experiment."
 	},
 
-	thirdParty: {
-		cardmarket: 567226,
-		tcgplayer: 241795
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567226,
+				tcgplayer: 241795
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567226,
+				tcgplayer: 241795
+			}
+		},
+	],
 }
 
 export default card

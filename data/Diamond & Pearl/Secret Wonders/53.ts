@@ -76,6 +76,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is highly perceptive of its Trainer's feelings. It dances when it is feeling happy.",
+	},
+
 	thirdParty: {
 		cardmarket: 277806,
 		tcgplayer: 86466

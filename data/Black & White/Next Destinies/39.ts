@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Thundershock",
 				fr: "Éclair",
+				de: "Donnerschock"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 10,
 
@@ -52,6 +54,7 @@ const card: Card = {
 			name: {
 				en: "Tail Whap",
 				fr: "Queue Battoir",
+				de: "Schweifvertrimmer"
 			},
 
 			damage: 20,
@@ -68,10 +71,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280264,
-		tcgplayer: 88102
-	}
+	description: {
+		en: "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
+		de: "Es verwendet hin und wieder Elektrizität, um ein anderes, geschwächtes Pikachu aufzuladen."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280264,
+				tcgplayer: 88102
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280264,
+				tcgplayer: 88102
+			}
+		},
+	],
 }
 
 export default card

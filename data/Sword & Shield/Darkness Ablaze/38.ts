@@ -58,23 +58,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Although unattractive and unpopular, this Pokémon's marvelous vitality has made it a subject of research."
+		en: "Although unattractive and unpopular, this Pokémon's marvelous vitality has made it a subject of research.",
+		de: "Sein unvorteilhaftes Aussehen macht es zwar unbeliebt, doch seine erstaunliche Lebenskraft hat das Interesse der Forscher an ihm geweckt."
 	},
 
-	thirdParty: {
-		cardmarket: 483064,
-		tcgplayer: 219275
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483064,
+				tcgplayer: 219275
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483064,
+				tcgplayer: 219275
+			}
+		},
+	],
 }
 
 export default card

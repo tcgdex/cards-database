@@ -4,7 +4,7 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Manectric",
-		fr: "Elecsprint",
+		fr: "Élecsprint",
 		de: "Voltenso"
 	},
 
@@ -60,7 +60,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may do 40 damage plus 10 more damage for each Lightning Energy attached to Manectric. If you do, Manectric does 10 damage to itself.",
-				fr: "Vous pouvez infliger 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Elecsprint. Elecsprint s'inflige alors 10 dégâts.",
+				fr: "Vous pouvez infliger 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {L} attachée à Elecsprint. Elecsprint s'inflige alors 10 dégâts.",
 				de: "You may do 40 damage plus 10 more damage for each  Energy attached to Manectric. If you do, Manectric. If you do, Manectric does 10 damage to itself."
 			},
 			damage: "40+",
@@ -85,24 +85,33 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 87155,
-		cardmarket: 276441
-	},
 
 	variants: [
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 87155,
+				cardmarket: 276441
+			},
 		},
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87155,
+				cardmarket: 276441
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["pre-release"]
+			stamp: ["pre-release"],
+			thirdParty: {
+				tcgplayer: 153078,
+				cardmarket: 882854
+			},
 		},
-	]
+	],
+
 }
 
 export default card

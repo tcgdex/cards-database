@@ -3,22 +3,20 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Hitmonlee",
+		en: "Hitmonlee"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		106,
-	],
+	dexId: [106],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -30,10 +28,10 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Stretch Kick",
+				en: "Stretch Kick"
 			},
 			effect: {
-				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Choose 1 of your opponent's Benched Pokémon, and this attack does 20 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
 			},
 			damage: 20,
 
@@ -45,7 +43,7 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "High Jump Kick",
+				en: "High Jump Kick"
 			},
 
 			damage: 50,
@@ -59,20 +57,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 274778,
-		tcgplayer: 86101
+
+	description: {
+		en: "When in a hurry, its legs lengthen progressively. It runs smoothly with extra long, loping strides."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274778,
+				tcgplayer: 86101
+			}
 		},
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86101,
+				cardmarket: 274778
+			}
 		}
-	]
+	],
+
 }
 
 export default card

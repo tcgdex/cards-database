@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ryuta Fuse",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	stage: "Basic",
 
@@ -67,21 +67,36 @@ const card: Card = {
 
 	regulationMark: "E",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576733,
+				tcgplayer: 251090
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576907,
+				tcgplayer: 251105
+			}
+		},
+	],
 
 	hp: 180,
 	types: ["Psychic"],
-	retreat: 1,
-
-	thirdParty: {
-		cardmarket: 576733
-	}
+	retreat: 1
 }
 
 export default card

@@ -44,18 +44,46 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715562,
+				tcgplayer: 497501,
+				cardtrader: 248714
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715562,
+				tcgplayer: 497501,
+				cardtrader: 248714
+			}
+		},
+	],
 
 	illustrator: "Megumi Higuchi",
 
-	thirdParty: {
-		cardmarket: 715562
-	}
+	description: {
+		en: "This Pokémon startles people in the middle of the night. It gathers fear as its energy.",
+		de: "Ein Pokémon, das Menschen mitten in der Nacht erschreckt. Es sammelt die Angst als seine Energie."
+	},
 }
 
 export default card

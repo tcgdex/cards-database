@@ -55,18 +55,42 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It stores berries in its cheeks. When there are no berries to be found, Skwovet will stuff pebbles into its cheeks to stave off its cravings.",
+		de: "Es hortet Beeren in seinen Backentaschen. Falls es einmal keine findet, stopft es stattdessen Kiesel hinein, um Heißhungerattacken zu überwinden."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725258,
+				tcgplayer: 509732,
+				cardtrader: 256074
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725258,
+				tcgplayer: 509732,
+				cardtrader: 256074
+			}
+		},
+	],
 
 	illustrator: "Taiga Kayama",
 
-	thirdParty: {
-		cardmarket: 725258
-	}
+	
 }
 
 export default card

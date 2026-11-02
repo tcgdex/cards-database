@@ -57,27 +57,44 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
+	description: {
+		en: "It's possible that Iron Jugulis, an object described in an old book, may actually be this Pokémon.",
+	},
+
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
-		},
-		{
 			type: "normal",
-			stamp: ["trick-or-trade"]
-		}
+			thirdParty: {
+				cardmarket: 760769,
+				tcgplayer: 542883
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760769,
+				tcgplayer: 542883
+			}
+		},
 	],
 
 	illustrator: "KEIICHIRO ITO",
 
-	thirdParty: {
-		cardmarket: 760769
-	}
 }
 
 export default card

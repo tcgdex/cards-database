@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Sonnfel"
 	},
 
+	illustrator: "OKACHEKE",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -38,7 +39,7 @@ const card: Card = {
 			es: "Una vez durante tu turno, puedes unir 1 carta de Energía Psychic de tu pila de descartes a 1 de tus Lunatone.",
 			it: "Una sola volta durante il tuo turno, puoi assegnare a uno dei tuoi Lunatone una carta Energia Psychic dalla tua pila degli scarti.",
 			pt: "Uma vez durante o seu turno, você poderá ligar 1 carta de Energia Psychic da sua pilha de descarte a 1 dos seus Lunatone.",
-			de: "Einmal während deines Zuges kannst du 1 Psychic-Energiekarte aus deinem Ablagestapel an 1 deiner Lunastein anlegen."
+			de: "Einmal während deines Zuges kannst du 1 {P}-Energiekarte aus deinem Ablagestapel an 1 deiner Lunastein anlegen."
 		}
 	}],
 
@@ -57,20 +58,39 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "When it rotates itself, it gives off light similar to the sun, thus blinding its foes.",
+		de: "Es rotiert um die eigene Achse und strahlt dabei sonnengleiches Licht aus, mit dem es den Gegner blendet."
 	},
 
-	thirdParty: {
-		cardmarket: 691787,
-		tcgplayer: 478195
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691787,
+				tcgplayer: 478195
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691787,
+				tcgplayer: 478195
+			}
+		},
+	],
 }
 
 export default card

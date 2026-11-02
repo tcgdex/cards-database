@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Roba cartas hasta que tengas 4 cartas en tu mano.",
 		it: "Pesca fino ad avere quattro carte in mano.",
 		pt: "Compre cards até ter 4 cards em sua mão.",
-		de: "Ziehe so viele Karten, bis du 4 Karten auf der Hand hast."
+		de: "Ziehe so viele Karten, bis du 4 Karten auf der Hand hast. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

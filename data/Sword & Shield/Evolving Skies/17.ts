@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Applin",
@@ -49,16 +43,29 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "As soon as it's born, it burrows into an apple. Not only does the apple serve as its food source, but the flavor of the fruit determines its evolution."
+		en: "As soon as it's born, it burrows into an apple. Not only does the apple serve as its food source, but the flavor of the fruit determines its evolution.",
+		de: "Nach der Geburt kriecht es sofort in einen Apfel und verspeist dessen Inneres, um zu wachsen. Seine Entwicklung hängt von dessen Aroma ab."
 	},
 
 	dexId: [840],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574041,
-		tcgplayer: 246832
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574041,
+				tcgplayer: 246832
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574041,
+				tcgplayer: 246832
+			}
+		},
+	],
 }
 
 export default card

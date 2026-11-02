@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cambia tu Pokémon Activo por 1 de tus Pokémon en Banca.\n\nCuando juegues esta carta, puedes descartar otras 2 cartas de tu mano. Si lo haces, cura 120 puntos de daño al Pokémon que has movido a tu Banca.",
 		it: "Scambia il tuo Pokémon attivo con uno dei tuoi Pokémon in panchina.\n\nQuando giochi questa carta, puoi scartare altre due carte che hai in mano. Se lo fai, cura il Pokémon che hai spostato in panchina da 120 danni.",
 		pt: "Troque o seu Pokémon Ativo por 1 dos seus Pokémon no Banco.\n\nQuando você joga esta carta, você pode descartar outras 2 cartas da sua mão. Se fizer isto, cure 120 pontos de dano do Pokémon que você moveu para o seu Banco.",
-		de: "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus.\n\nWenn du diese Karte spielst, kannst du 2 andere Karten aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, heile 120 Schadenspunkte bei dem Pokémon, das du auf deine Bank verschoben hast."
+		de: "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus. Wenn du diese Karte spielst, kannst du 2 andere Karten aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, heile 120 Schadenspunkte bei dem Pokémon, das du auf deine Bank verschoben hast. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

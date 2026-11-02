@@ -57,18 +57,36 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
 
 	illustrator: "Yuu Nishida",
 
-	thirdParty: {
-		cardmarket: 780926
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 780926,
+				tcgplayer: 560341
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 780926,
+				tcgplayer: 560341
+			}
+		},
+	],
 }
 
 export default card

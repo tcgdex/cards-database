@@ -34,7 +34,8 @@ const card: Card = {
 	illustrator: "Saya Tsuruta",
 
 	description: {
-		en: "The lump on its back contains its tiny brain. It thinks only of food and escaping its enemies."
+		en: "The lump on its back contains its tiny brain. It thinks only of food and escaping its enemies.",
+		de: "In dem Fortsatz auf seinem Rücken befindet sich sein winziges Gehirn. Es kann nur ans Fressen und an die Flucht vor seinen Feinden denken."
 	},
 
 	attacks: [{
@@ -74,17 +75,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582870,
-		tcgplayer: 253354
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582870,
+				tcgplayer: 253354
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582870,
+				tcgplayer: 253354
+			}
+		},
+	],
 }
 
 export default card

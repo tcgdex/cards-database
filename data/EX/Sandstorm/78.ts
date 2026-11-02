@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		285,
-	],
+	dexId: [285],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -37,8 +35,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Attach a Grass Energy card from your hand to Shroomish.",
-				fr: "Attachez à Balignon une carte Énergie  de votre main.",
-				de: "Lege eine -Energiekarte von deiner Hand an Knilz an."
+				fr: "Attachez à Balignon une carte Énergie {G} de votre main.",
+				de: "Lege eine {G}-Energiekarte von deiner Hand an Knilz an."
 			},
 
 		},
@@ -79,19 +77,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275855,
-		tcgplayer: 89182
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275855,
+				tcgplayer: 89182
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275855,
+				tcgplayer: 89182
+			}
 		},
-	]
+	],
+
 }
 
 export default card

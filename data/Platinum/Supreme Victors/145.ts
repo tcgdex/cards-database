@@ -3,8 +3,8 @@ import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Garchomp C",
-		fr: "Carchacrok ",
+		en: "Garchomp C LV.X",
+		fr: "Carchacrok C NIV.X",
 		de: "Knackrak C"
 	},
 	illustrator: "Shizurow",
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		445,
-	],
+	dexId: [445],
 	hp: 110,
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "LEVEL-UP",
@@ -34,7 +32,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), when you put Garchomp C LV.X from your hand onto your Active Garchomp C, you may remove all damage counters from each of your Pokémon SP.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), lorsque vous placez Carchacrok  NIV.X de votre main sur votre Carchacrok  Actif, vous pouvez retirer à chacun de vos Pokémon SP tous leurs marqueurs de dégât.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn du Knakrack C LV.X von deiner Hand auf dein Aktives Knakrack C legst, alle Schadensmarken von jedem deiner Pokémon SP entfernen."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -60,19 +58,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Colorless",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
+	retreat: 0,
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278836,
+				tcgplayer: 85629
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["yuta-komatsuda"]
+			stamp: ["yuta-komatsuda"],
+			thirdParty: {
+				cardmarket: 868738,
+				tcgplayer: 480047
+			}
 		}
-	]
+	],
+
 }
 
 export default card

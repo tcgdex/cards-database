@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magnemite",
-		fr: "Magnéti"
+		fr: "Magnéti",
+		de: "Magnetilo"
 	},
 
 	stage: "Stage1",
@@ -63,14 +64,30 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Shiburingaru",
+
+	description: {
+		en: "They're formed by several Magnemite linked together. They frequently appear when sunspots flare up.",
+		de: "Mehrere miteinander verbundene Magnetilo bilden dieses Pokémon. Es heißt, es erscheine in Massen, wenn vermehrt Sonnenflecken auftreten."
+	},
 
 	thirdParty: {
         cardmarket: 702360,

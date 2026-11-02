@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda hasta que salga cruz. Por cada cara, busca en tu baraja 1 carta de Energía Water y únela a este Pokémon. Baraja las cartas de tu baraja después.",
 				it: "Lancia una moneta finché non esce croce. Ogni volta che esce testa, cerca nel tuo mazzo una carta Energia Water e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
 				pt: "Jogue uma moeda até sair coroa. Para cada cara, procure em seu baralho um card de Energia Water e ligue-o a este Pokémon. Em seguida, embaralhe seus cards.",
-				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Durchsuche pro \"Kopf\" dein Deck nach 1 Water-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Durchsuche pro „Kopf“ dein Deck nach 1 {W}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},

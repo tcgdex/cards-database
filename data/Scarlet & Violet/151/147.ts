@@ -51,15 +51,33 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It sheds many layers of skin as it grows larger. During this process, it is protected by a rapid waterfall.",
+		de: "Es häutet sich, um zu wachsen. Dabei wird es von einem tosenden Wasserfall beschützt."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733742,
+				tcgplayer: 516710,
+				cardtrader: 261110
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733742,
+				tcgplayer: 516710,
+				cardtrader: 261110
+			}
+		},
+	],
 
 	illustrator: "Sanosuke Sakuma",
 
-	thirdParty: {
-		cardmarket: 733742
-	}
+	
 }
 
 export default card

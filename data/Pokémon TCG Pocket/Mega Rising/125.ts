@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sudowoodo"
+		en: "Sudowoodo",
+		fr: "Simularbre"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -24,14 +25,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Fight Back"
+			en: "Fight Back",
+			fr: "Rendre les Coups"
 		},
 
 		damage: 30,
 		cost: ["Fighting", "Fighting"],
 
 		effect: {
-			en: "If this Pokémon has damage on it, this attack does 50 more damage."
+			en: "If this Pokémon has damage on it, this attack does 50 more damage.",
+			fr: "Si ce Pokémon a subi des dégâts, cette attaque inflige 50 dégâts de plus."
 		}
 	}],
 

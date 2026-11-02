@@ -72,23 +72,30 @@ const card: Card = {
 	types: ["Fighting"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "The Farfetch'd of the Galar region are brave warriors, and they wield thick, tough leeks in battle."
+		en: "The Farfetch'd of the Galar region are brave warriors, and they wield thick, tough leeks in battle.",
+		de: "Dies ist die in Galar ansässige Form von Porenta. Dieser tapfere Krieger schwingt im Kampf eine dicke, robuste Lauchstange."
 	},
 
-	thirdParty: {
-		cardmarket: 457883,
-		tcgplayer: 213182
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457883,
+				tcgplayer: 213182
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457883,
+				tcgplayer: 213182
+			}
+		},
+	],
 }
 
 export default card

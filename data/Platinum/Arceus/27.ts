@@ -12,18 +12,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		26,
-	],
+	dexId: [26],
 	
 	hp: 90,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
 		en: "Pikachu",
+		de: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -56,7 +55,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Lightning Energy card attached to Raichu.",
-				de: "Entferne 1 -Energiekarte, die an Raichu angelegt ist, und lege sie auf den Ablagestapel."
+				de: "Entferne 1 {L}-Energiekarte, die an Raichu angelegt ist, und lege sie auf deinen Ablagestapel."
 			},
 			damage: 70,
 
@@ -79,25 +78,41 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+		de: "Es entlädt Elektrizität in den Boden, um sich auf diese Weise vor elektrischen Schlägen zu schüzten."
+	},
+
 	thirdParty: {
 		cardmarket: 278899,
 		tcgplayer: 88516
 	},
 
-	variants: [
-		{
+	variants: [		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88516
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88516
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["pre-release"]
+			stamp: ["pre-release"],
+			thirdParty: {
+				tcgplayer: 221178
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["pre-release","staff"]
+			stamp: ["pre-release","staff"],
+			thirdParty: {
+				tcgplayer: 221179
+			}
 		}
 	]
 }

@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It searches about for clean water. If it does not drink water for too long, the leaf on its head wilts.",
+	},
+
 	thirdParty: {
 		cardmarket: 273541,
 		tcgplayer: 95894

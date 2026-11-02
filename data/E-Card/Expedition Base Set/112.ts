@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		187,
-	],
+	dexId: [187],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -30,12 +28,12 @@ const card: Card = {
 		name: {
 			en: "Sleep Powder",
 			fr: "Poudre dodo",
-			de: "Dornkanone"
+			de: "Schlafpuder"
 		},
 		effect: {
 			en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 			fr: "Le Pokémon Défenseur est maintenant Endormi.",
-			de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
+			de: "Das Verteidigende Pokémon schläft jetzt."
 		},
 		damage: "20x",
 
@@ -56,34 +54,38 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Water",
 			value: "-30"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 274987,
-		tcgplayer: 86179
-	},
 
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 86179,
+				cardmarket: 274987
+			},
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86179,
+				cardmarket: 274987
+			},
 		},
 		{
 			type: "normal",
 			subtype: "japanese-back"
 		}
-	]
+	],
 }
 
 export default card

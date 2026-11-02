@@ -85,6 +85,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is thought that Uxie, Mesprit and Azelf all came from the same egg.",
+		de: "Man glaubt, dass Selfe, Vesprit und Tobutz alle aus demselben Ei kamen."
+	},
+
 	thirdParty: {
 		cardmarket: 355562,
 		tcgplayer: 165694

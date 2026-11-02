@@ -93,6 +93,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its mechanized body is merely a vessel. Its true self is its Soul-Heart, an artificial soul.",
+		de: "Sein mechanischer Körper ist nur ein Gefäß. Das eigentliche Pokémon ist eine künstlich erschaffene Seele namens „Seelenherz“."
+	},
+
 	thirdParty: {
 		cardmarket: 365768,
 		tcgplayer: 178948

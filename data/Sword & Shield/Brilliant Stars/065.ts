@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Elfun VSTAR"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 250,
@@ -25,7 +26,7 @@ const card: Card = {
 		es: "Whimsicott V",
 		it: "Whimsicott-V",
 		pt: "Whimsicott V",
-		de: "Elfun-V"
+		de: "Elfun VSTAR"
 	},
 
 	stage: "VSTAR",
@@ -75,20 +76,25 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608515,
-		tcgplayer: 263781
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608515,
+				tcgplayer: 263781
+			}
+		},
+	],
 }
 
 export default card

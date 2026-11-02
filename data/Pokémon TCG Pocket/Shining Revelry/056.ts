@@ -23,7 +23,9 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Varoom"
+		en: "Varoom",
+		fr: "Vrombi",
+		de: "Knattox"
 	},
 
 	description: {
@@ -31,7 +33,7 @@ const card: Card = {
 		fr: "Il produit de l'énergie en faisant exploser dans\nses huit cylindres un mélange gazeux qui\ncontient une substance toxique et des minéraux.",
 		es: "Posee ocho cilindros, con los que genera energía\nhaciendo estallar el gas que produce al mezclar\nlos minerales de las rocas con su veneno.",
 		it: "Produce energia facendo esplodere\nnei suoi otto cilindri un gas che forma\nmescolando tossine e minerali delle rocce.",
-		de: "Mit seinen nunmehr acht Zylindern lässt es ein\nGasgemisch aus Gift und Gesteinsmineralien\nexplodieren, um daraus Energie zu gewinnen.",
+		de: "Mit seinen nunmehr acht Zylindern lässt es ein Gasgemisch aus Gift und Gesteinsmineralien explodieren, um daraus Energie zu gewinnen.",
 		'pt-br': "Cria um gás a partir de veneno e minerais de pedras.\nEntão, detona o gás em seus cilindros,\nque agora são oito, para gerar energia.",
 		ko: "독소와 바위 성분이 섞인 가스를\n8개로 늘어난 실린더에서 폭발시켜\n에너지를 만들어 낸다."
 	},

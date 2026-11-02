@@ -55,23 +55,30 @@ const card: Card = {
 	types: ["Water"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Graceful ripples running across the water's surface are a sure sign that Tympole are singing in high-pitched voices below."
+		en: "Graceful ripples running across the water's surface are a sure sign that Tympole are singing in high-pitched voices below.",
+		de: "Man sagt, wenn auf Wasseroberflächen schöne Kräuselwellen zu sehen sind, liege das an Schallquap, die unter Wasser schrill rufen."
 	},
 
-	thirdParty: {
-		cardmarket: 457663,
-		tcgplayer: 213123
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457663,
+				tcgplayer: 213123
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457663,
+				tcgplayer: 213123
+			}
+		},
+	],
 }
 
 export default card

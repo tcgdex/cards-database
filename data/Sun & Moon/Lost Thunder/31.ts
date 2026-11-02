@@ -62,6 +62,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It collects and delivers honey to its colony. At night, they cluster to form a beehive and sleep.",
+		de: "Es sammelt Honig und bringt ihn in seine Kolonie. Nachts bilden sie einen Bienenstock und schlafen."
+	},
+
 	thirdParty: {
 		cardmarket: 365671,
 		tcgplayer: 178832

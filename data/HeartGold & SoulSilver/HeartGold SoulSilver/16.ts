@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		12,
-	],
+	dexId: [12],
 
 	hp: 120,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Metapod",
 		fr: "Chrysacier",
+		de: "Safcon"
 	},
 
 	stage: "Stage2",
@@ -85,22 +84,27 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Water-repellent powder on its wings enables it to collect honey, even in the heaviest of rains."
+		en: "Water-repellent powder on its wings enables it to collect honey, even in the heaviest of rains.",
+		de: "Da seine Flügel mit einem wasserabweisenden Puder überzogen sind, kann es im Regen Honig sammeln."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84067,
+				cardmarket: 278988
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84067,
+				cardmarket: 278988
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278988,
-		tcgplayer: 84067
-	}
 }
 
 export default card

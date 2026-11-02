@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [184],
 
 	dexId: [
 		230,
@@ -29,6 +30,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Seadra",
 		fr: "Hypocéan",
+		de: "Seemon"
 	},
 
 	stage: "Stage2",
@@ -74,7 +76,7 @@ const card: Card = {
 				es: "Descarta 1 Energía Water de este Pokémon. Este ataque hace 30 puntos de daño a 1 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 				it: "Scarta un’Energia Water assegnata a questo Pokémon. Questo attacco infligge 30 danni a uno dei Pokémon in panchina del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
 				pt: "Descarte 1 Energia Water deste Pokémon. Este ataque causa 30 pontos de dano a 1 dos Pokémon no Banco do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
-				de: "Lege 1 Water-Energie von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Lege 1 {W}-Energie von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 90,
 
@@ -90,10 +92,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299568,
-		tcgplayer: 138511
-	}
+	description: {
+		en: "It is said that it usually hides in underwater caves. It can create whirlpools by yawning.",
+		de: "Man sagt, es hause in Unterwasserhöhlen. Es kann mächtige Strudel generieren, wenn es gähnt."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 299568,
+				tcgplayer: 138511
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299568,
+				tcgplayer: 138511
+			}
+		},
+	],
 }
 
 export default card

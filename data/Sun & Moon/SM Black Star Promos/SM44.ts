@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Sanosuke Sakuma",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -85,7 +85,22 @@ const card: Card = {
 		},
 	],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "The spiny fur on its back is normally at rest. When this Pokémon becomes agitated, its fur stands on end and stabs into its attackers.",
+		de: "Normalerweise liegen seine Stacheln am Rücken an, aber wenn es sich aufregt, stellen sie sich auf und stechen angreifende Gegner."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297867,
+				tcgplayer: 139098
+			}
+		}
+	],
 }
 
 export default card

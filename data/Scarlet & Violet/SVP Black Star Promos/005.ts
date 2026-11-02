@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Bailonda"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Water"],
@@ -65,9 +65,36 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "kodama"
+	illustrator: "kodama",
+	description: {
+		en: "A single kick from a Quaquaval can send a truck rolling. This Pokémon uses its powerful legs to perform striking dances from far-off lands.",
+	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 692227,
+				tcgplayer: 487751
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 761119,
+				tcgplayer: 522650
+			},
+		}
+	],
 }
 
 export default card

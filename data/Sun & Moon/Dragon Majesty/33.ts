@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Zweilous",
 		fr: "Diamat",
+		de: "Duodino"
 	},
 
 	stage: "Stage2",
@@ -98,6 +99,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "The heads on their arms do not have brains. They use all three heads to consume and destroy everything.",
+		de: "Die Köpfe an seinen beiden Armen haben kein eigenes Gehirn. Seine drei Mäuler kauen alles radikal kurz und klein."
+	},
 
 	thirdParty: {
 		cardmarket: 363505,

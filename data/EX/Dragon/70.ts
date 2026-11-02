@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		322,
-	],
+	dexId: [322],
 
 	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -50,8 +48,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Fire Energy card attached to Numel and then discard an Energy card attached to the Defending Pokémon.",
-				fr: "Défaussez une carte Énergie  attachée à Chamallot puis une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Lege 1 -Energiekarte von Camaub auf deinen Ablagestapel und lege danach eine Energiekarte vom Verteidigenden Pokémon auf den Ablagestapel deines Gegners."
+				fr: "Défaussez une carte Énergie {R} attachée à Chamallot puis une carte Énergie attachée au Pokémon Défenseur.",
+				de: "Lege 1 {R}-Energiekarte von Camaub auf deinen Ablagestapel und lege danach eine Energiekarte vom Verteidigenden Pokémon auf den Ablagestapel deines Gegners."
 			},
 			damage: 10,
 
@@ -61,17 +59,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87807,
+				cardmarket: 275947
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87807,
+				cardmarket: 275947
+			},
 		},
 	],
 
-
-	retreat: 2,
-
-	thirdParty: {
-		tcgplayer: 87807,
-		cardmarket: 275947
-	}
 }
 
 export default card

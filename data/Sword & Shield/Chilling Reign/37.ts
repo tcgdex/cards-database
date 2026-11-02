@@ -42,23 +42,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Its body is covered in fluffy fur. The fur keeps it from feeling cold while it is rolling on ice."
+		en: "Its body is covered in fluffy fur. The fur keeps it from feeling cold while it is rolling on ice.",
+		de: "Sein Körper ist mit flauschigem Fell bedeckt. Das Fell sorgt dafür, dass es nicht friert, auch wenn es sich auf dem Eis hin und her rollt."
 	},
 
-	thirdParty: {
-		cardmarket: 567117,
-		tcgplayer: 241690
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567117,
+				tcgplayer: 241690
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567117,
+				tcgplayer: 241690
+			}
+		},
+	],
 }
 
 export default card

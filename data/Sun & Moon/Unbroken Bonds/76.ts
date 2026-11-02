@@ -84,6 +84,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Because it can use all kinds of moves, many scientists believe Mew to be the ancestor of Pokémon.",
+		de: "Es beherrscht alle möglichen Attacken, daher sieht man in ihm den Vorfahren aller Pokémon."
+	},
+
 	thirdParty: {
 		cardmarket: 372364,
 		tcgplayer: 189176

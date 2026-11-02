@@ -4,6 +4,7 @@ import Set from "../Stellar Crown"
 const card: Card = {
 	dexId: [815],
 	set: Set,
+	cameoDexIds: [1024],
 
 	name: {
 		en: "Cinderace ex",
@@ -72,19 +73,28 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 786011,
+				tcgplayer: 567447
+			}
+		},
+	],
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 
-	thirdParty: {
-		cardmarket: 786011
-	}
 }
 
 export default card

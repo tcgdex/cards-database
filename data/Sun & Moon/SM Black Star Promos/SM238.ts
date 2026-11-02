@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Glaziola"
 	},
 
-	rarity: "Rare",
+	illustrator: "Mizue",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Water"],
@@ -59,7 +60,7 @@ const card: Card = {
 			es: "El Pokémon Activo de tu rival pasa a estar Dormido. Este ataque hace 20 puntos de daño a cada uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 			it: "Il Pokémon attivo del tuo avversario viene addormentato. Questo attacco infligge 20 danni a ciascun Pokémon nella panchina del tuo avversario. Ricorda che non puoi applicare debolezza e resistenza ai Pokémon in panchina.",
 			pt: "O Pokémon Ativo do seu oponente agora está Adormecido. Este ataque causa 20 pontos de dano a cada um dos Pokémon no Banco do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
-			de: "Das Aktive Pokémon deines Gegners schläft jetzt. Diese Attacke fügt jedem Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu.(Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+			de: "Das Aktive Pokémon deines Gegners schläft jetzt. Diese Attacke fügt jedem Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		},
 
 		cost: ["Water", "Water", "Colorless"]
@@ -70,7 +71,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	description: {
+		en: "It protects itself by freezing its fur into sharp needles. It can drop its body temperature below –75 degrees Fahrenheit.",
+		de: "Es lässt sein Fell gefrieren und macht es somit so spitz wie Eiszapfen. Seine Körpertemperatur kann es auf -60 °C senken."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 449123,
+				tcgplayer: 211628
+			}
+		}
+	],
 }
 
 export default card

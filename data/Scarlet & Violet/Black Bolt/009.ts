@@ -4,6 +4,7 @@ import Set from "../Black Bolt"
 const card: Card = {
 	dexId: [588],
 	set: Set,
+	cameoDexIds: [616],
 
 	name: {
 		en: "Karrablast",
@@ -64,10 +65,38 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 835919
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835919,
+				tcgplayer: 642458
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835919,
+				tcgplayer: 642458
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836266,
+				tcgplayer: 642703
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836276,
+				tcgplayer: 642631
+			}
+		}
+	]
 }
 
 export default card

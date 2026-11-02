@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "so-taro",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Colorless"],
@@ -82,18 +82,24 @@ const card: Card = {
 	stage: "Basic",
 	dexId: [384],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 453313
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 453313,
+				tcgplayer: 214240
+			}
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 619563
+			}
+		},
+	],
 }
 
 export default card

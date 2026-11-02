@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Elige 1 de tus Pokémon Básicos en juego. Si tienes en tu mano 1 carta de Fase 2 que evolucione de ese Pokémon, pon esa carta sobre el Pokémon Básico para que evolucione. No puedes usar esta carta durante tu primer turno o sobre un Pokémon Básico que se haya puesto en juego en este turno.",
 		it: "Scegli uno dei tuoi Pokémon Base in gioco. Se hai in mano una carta di Fase 2 che si evolve da quel Pokémon, metticela sopra per farlo evolvere. Non puoi usare questa carta durante il tuo primo turno o su un Pokémon Base che hai messo in gioco nel turno in corso.",
 		pt: "Escolha 1 dos seus Pokémon Básicos em jogo. Se você tiver 1 carta de Estágio 2 na sua mão que evolua daquele Pokémon, coloque aquela carta sobre o Pokémon Básico para evoluí-lo. Você não pode usar esta carta durante a sua primeira vez de jogar ou colocá-la sobre um Pokémon Básico que foi colocado em jogo nesta rodada.",
-		de: "Wähle 1 deiner Basis-Pokémon im Spiel. Wenn du eine Phase-2-Karte auf der Hand hast, die sich aus jenem Pokémon entwickelt, lege sie auf das Basis-Pokémon, um es zu entwickeln. Du kannst diese Karte nicht während deines ersten Zuges oder für ein Basis-Pokémon, das in diesem Zug ins Spiel gebracht wurde, verwenden."
+		de: "Wähle 1 deiner Basis-Pokémon im Spiel. Wenn du eine Phase-2-Karte auf der Hand hast, die sich aus jenem Pokémon entwickelt, lege sie auf das Basis-Pokémon, um es zu entwickeln. Du kannst diese Karte nicht während deines ersten Zuges oder für ein Basis-Pokémon, das in diesem Zug ins Spiel gebracht wurde, verwenden. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

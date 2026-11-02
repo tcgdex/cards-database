@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Energie-Umschalter"
 	},
 
+	illustrator: "Toyste Beach",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -22,22 +23,30 @@ const card: Card = {
 		es: "Mueve 1 Energía Básica de 1 de tus Pokémon a otro de tus Pokémon.",
 		it: "Sposta un'Energia base da uno dei tuoi Pokémon a un altro.",
 		pt: "Mova 1 Energia básica de 1 dos seus Pokémon para outro Pokémon seu.",
-		de: "Verschiebe 1 Basis-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon."
+		de: "Verschiebe 1 Basis-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691848,
-		tcgplayer: 478178
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691848,
+				tcgplayer: 478178
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691848,
+				tcgplayer: 478178
+			}
+		},
+	],
 }
 
 export default card

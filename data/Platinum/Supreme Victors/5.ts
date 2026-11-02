@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		445,
-	],
+	dexId: [445],
 
 	hp: 130,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Gabite",
-		fr: "Carmache",
+		fr: "Carmache"
 	},
 
 	stage: "Stage2",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "If Garchomp is your Active Pokémon and is damaged by an opponent's attack (even if Garchomp is Knocked Out), choose an Energy card attached to the Attacking Pokémon and put it into your opponent's hand.",
 				fr: "Si Carchacrok est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Carchacrok est mis K.O.), choisissez une carte Énergie attachée au Pokémon Attaquant et placez-la dans la main de votre adversaire.",
 				de: "Wenn Knakrack dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn Knakrack dadurch kampfunfähig wird), wähle 1 Energiekarte, die am Angreifenden Pokémon angelegt ist und dein Gegner nimmt diese auf die Hand."
-			},
+			}
 		},
 	],
 
@@ -92,31 +90,48 @@ const card: Card = {
 			value: "+30"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 278696
-	},
+	retreat: 0,
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85623,
+				cardmarket: 449568
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278696,
+				tcgplayer: 85623
+			}
 		},
 		{
 			type: "holo",
-			foil: "cracked-ice"
+			foil: "cracked-ice",
+			thirdParty: {
+				tcgplayer: 117601
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["national-championships"]
+			foil: 'league',
+			thirdParty: {
+				cardmarket: 449568,
+				tcgplayer: 164206
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["national-championships","staff"]
+			foil: 'league',
+			stamp: ["staff"],
+			thirdParty: {
+				tcgplayer: 164207
+			}
 		}
-	]
+	],
+
 }
 
 export default card

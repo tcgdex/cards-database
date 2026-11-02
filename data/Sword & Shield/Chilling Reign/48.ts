@@ -51,23 +51,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It stores electricity in its fluffy fleece. If it stores up too much, it will start to go bald in those patches."
+		en: "It stores electricity in its fluffy fleece. If it stores up too much, it will start to go bald in those patches.",
+		de: "Sein flauschiges Fell speichert Elektrizität. Zu große Mengen bewirkten aber stellenweise einen Haarausfall, wo nun glatte Haut freiliegt."
 	},
 
-	thirdParty: {
-		cardmarket: 567128,
-		tcgplayer: 241705
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567128,
+				tcgplayer: 241705
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567128,
+				tcgplayer: 241705
+			}
+		},
+	],
 }
 
 export default card

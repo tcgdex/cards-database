@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "yuu",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [582],
 	hp: 60,
 	types: ["Water"],
 	stage: "Basic",
@@ -59,13 +60,46 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675861,
-		cardmarket: 869660
-	}
+	description: {
+		en: "The temperature of their breath is -58 degrees Fahrenheit. They create snow crystals and make snow fall in the areas around them.",
+		fr: "Ce Pokémon fait tomber la neige autour de lui en créant des cristaux de glace. La température de son souffle descend à -50 °C.",
+		de: "Die Temperatur seines Odems liegt bei −50 °C. Es erzeugt Eiskristalle und lässt es in seiner Umgebung schneien."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869660,
+			tcgplayer: 675861
+		}
+	},
+	{
+		type: "reverse",
+		foil: "pokeball",
+		thirdParty: {
+			cardmarket: 870214,
+			tcgplayer: 676891
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870213,
+			tcgplayer: 677031
+		}
+	},
+],
 }
 
 export default card

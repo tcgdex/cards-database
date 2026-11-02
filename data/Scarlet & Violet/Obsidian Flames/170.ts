@@ -35,18 +35,42 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This Pokémon is far brighter than the average child, and Lillipup won't forget the love it receives or any abuse it suffers.",
+		de: "Yorkleff ist deutlich intelligenter als die meisten Kinder und vergisst nie, wenn man ihm Zuneigung entgegenbringt oder es schlecht behandelt."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725250,
+				tcgplayer: 509707,
+				cardtrader: 256066
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725250,
+				tcgplayer: 509707,
+				cardtrader: 256066
+			}
+		},
+	],
 
 	illustrator: "Yuka Morii",
 
-	thirdParty: {
-		cardmarket: 725250
-	}
+	
 }
 
 export default card

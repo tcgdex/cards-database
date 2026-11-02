@@ -1,49 +1,56 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "駒刀小兵"
+		ja: "ゴリランダーVMAX",
+		'zh-tw': "駒刀小兵",
 	},
 
-	illustrator: "Yuya Oka",
+	illustrator: "5ban Graphics",
 	category: "Pokemon",
-	hp: 60,
-	types: ["Metal"],
+	hp: 330,
+	types: ["Grass"],
 
-	description: {
-		'zh-tw': "揮舞銳利的刀刃將敵人逼向絕境。會用河灘的 石頭來精心保養刀刃。"
+	stage: "VMAX",
+
+	attacks: [
+		{
+			name: {
+				ja: "キョダイコランダ",
+				'zh-tw': "突擊",
+			},
+			damage: 180,
+			cost: ["Grass", "Colorless", "Colorless", "Colorless"],
+			effect: {
+				ja: "相手のベンチポケモン2匹にも、それぞれ40ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'zh-tw': "這隻寶可夢也受到10點傷害。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 540526,
+				tcgplayer: 597369,
+			},
+		},
+	],
+
+	evolveFrom: {
+		ja: "ゴリランダーV",
 	},
 
-	stage: "Basic",
+	retreat: 3,
+	regulationMark: "E",
+	rarity: "Promo",
+	dexId: [812],
+};
 
-	attacks: [{
-		name: {
-			'zh-tw': "突擊"
-		},
-
-		effect: {
-			'zh-tw': "這隻寶可夢也受到10點傷害。"
-		},
-
-		damage: 30,
-		cost: ["Metal"]
-	}],
-
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Grass",
-		value: "-30"
-	}],
-
-	retreat: 1,
-	regulationMark: "F"
-}
-
-export default card
+export default card;

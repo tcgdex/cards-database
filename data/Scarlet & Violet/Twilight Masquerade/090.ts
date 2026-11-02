@@ -52,18 +52,39 @@ const card: Card = {
 		damage: "90×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "By taking in a person's scent, it can sniff out their mental and physical condition. It's hoped that this skill will have many medical applications.",
+		de: "Es kann die körperliche und seelische Verfassung anderer anhand ihres Körpergeruchs erkennen. Dies versucht man für die Medizin zu nutzen."
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769264,
+				tcgplayer: 550134
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769264,
+				tcgplayer: 550134
+			}
+		},
+	],
 
 	illustrator: "mingo",
 
-	thirdParty: {
-		cardmarket: 769264
-	}
 }
 
 export default card

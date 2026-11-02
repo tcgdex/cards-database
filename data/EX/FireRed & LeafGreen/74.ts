@@ -37,7 +37,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your discard pile for a Lightning Energy card and attach it to Pikachu.",
-				fr: "Lancez une pièce. Si c'est face, cherchez une carte Énergie  dans votre pile de défausse et attachez-la à Pikachu.",
+				fr: "Lancez une pièce. Si c'est face, cherchez une carte Énergie {L} dans votre pile de défausse et attachez-la à Pikachu.",
 				de: "Flip a coin. If heads, search your discard pile for a  Energy card and attach it to Pikachu."
 			},
 			damage: 10,
@@ -52,23 +52,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276250,
-		tcgplayer: 88078
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276250,
+				tcgplayer: 88078
+			},
 		},
 		{
-			type: "holo",
-			foil: "energy"
-		}
-	]
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 276250,
+				tcgplayer: 88078
+			},
+		},
+	],
 }
 
 export default card

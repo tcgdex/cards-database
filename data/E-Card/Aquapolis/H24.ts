@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		185,
-	],
+	dexId: [185],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Copy",
 				fr: "Copiage",
-				de: "Copy"
+				de: "Kopie"
 			},
 			effect: {
 				en: "Choose 1 of the Defending Pokémon's attacks. Copy copies that attack. This attack does nothing if Sudowoodo doesn't have the Energy necessary to use that attack. (You must still do anything else required in order to use that attack.)",
 				fr: "Choisissez une des attaques du Pokémon Défenseur. Copiage copie cette attaque. Cette attaque ne fait rien si Simularbre n'a pas l'Énergie nécessaire pour utiliser cette attaque. (Vous devez toujours accomplir les autres actions afin d'utiliser cette attaque.)",
-				de: "Choose 1 of the Defending Pokémon's attacks. Copy copies that attack. This attack does nothing if Sudowoodo doesn't have the Energy necessary to use that attack. (You must still do anything else required in order to use that attack.)"
+				de: "Wähle 1 der Angriff des Verteidigenden Pokémon. Kopie kopiert diesen Angriff. Dieser Angriff hat keine Auswirkungen, wenn an Mogelbaum nicht die für diesen Angriff benötigte Energie angelegt ist. (Du musst immer noch alles tun, was verlangt wird, um diesen Angriff durchzuführen.)"
 			},
 
 		},
@@ -49,12 +47,12 @@ const card: Card = {
 			name: {
 				en: "Energy Draw",
 				fr: "Absorption d'énergie",
-				de: "Energy Draw"
+				de: "Energieanziehung"
 			},
 			effect: {
 				en: "Search your deck for a basic Energy card and attach it to Sudowoodo. Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck une carte Énergie de base et attachez-la à Simularbre. Mélangez ensuite votre deck.",
-				de: "Search your deck for a basic Energy card and attach it to Sudowoodo. Shuffle your deck afterward."
+				de: "Du kannst dein Deck nach einer Basis-Energiekarte durchsuchen und sie an Mogelbaum anlegen. Mische dein Deck danach."
 			},
 
 		},
@@ -63,19 +61,20 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275108,
-		tcgplayer: 89589
-	},
 
 	variants: [
 		{
 			type: "holo",
-		}
+			thirdParty: {
+				tcgplayer: 89589,
+				cardmarket: 275108
+			}
+		},
 	]
 }
 

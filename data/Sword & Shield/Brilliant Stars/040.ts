@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Lumineon V"
 	},
 
+	illustrator: "takuyoa",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 170,
@@ -67,20 +68,25 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608490,
-		tcgplayer: 263740
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608490,
+				tcgplayer: 263740
+			}
+		},
+	],
 }
 
 export default card

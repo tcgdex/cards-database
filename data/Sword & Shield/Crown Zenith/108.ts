@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Evoli V"
 	},
 
+	illustrator: "You Iribi",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 200,
@@ -58,20 +59,27 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691827,
-		tcgplayer: 477251
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691827,
+				tcgplayer: 477251
+			}
+		},
+	],
 }
 
 export default card

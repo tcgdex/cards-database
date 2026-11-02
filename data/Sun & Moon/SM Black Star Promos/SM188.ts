@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Kangama GX"
 	},
 	illustrator: "aky CG Works",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	dexId: [115],
@@ -87,7 +87,7 @@ const card: Card = {
 				es: "Combo Familiar GX",
 				it: "Combo Familiare GX",
 				pt: "Combo Familiar GX",
-				de: "Familienbund GX"
+				de: "Familienbund-GX"
 			},
 			effect: {
 				fr: "Piochez 5 cartes. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
@@ -110,8 +110,15 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 394887,
+				tcgplayer: 192084
+			}
+		}
+	],
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		155,
-	],
+	dexId: [155],
 
 	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -50,9 +48,9 @@ const card: Card = {
 				de: "Glut"
 			},
 			effect: {
-				en: "Discard a Energy card attached to Cyndaquil.",
-				fr: "Défaussez-vous d'une carte Énergie  attachée à Héricendre.",
-				de: "Lege 1 an Feurigel angelegte -Energiekarte auf deinen Ablagestapel."
+				en: "Discard a Fire Energy card attached to Cyndaquil.",
+				fr: "Défaussez-vous d'une carte Énergie {R} attachée à Héricendre.",
+				de: "Lege 1 an Feurigel angelegte {R}-Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -62,23 +60,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 274979,
-		tcgplayer: 84548
-	},
 
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84548,
+				cardmarket: 274979
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 84548,
+				cardmarket: 274979
+			},
+		},
+	],
 }
 
 export default card

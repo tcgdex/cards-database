@@ -1,22 +1,52 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "妮莫"
+		ja: "ヤバチャ",
+		'zh-tw': "妮莫",
 	},
 
-	illustrator: "Sanosuke Sakuma",
-	category: "Trainer",
+	illustrator: "kurumitsu",
+	category: "Pokemon",
+	hp: 30,
+	types: ["Psychic"],
 
-	effect: {
-		'zh-tw': "從自己的牌庫抽出3張卡。"
+	description: {
+		ja: "寂しく 死んだ者の 魂が 飲み残しの 紅茶に 取り憑いた。 ホテルや 民家に 現れる。",
 	},
 
-	trainerType: "Supporter",
-	regulationMark: "G"
-}
+	stage: "Basic",
 
-export default card
+	attacks: [
+		{
+			name: { ja: "さめたおちゃ" },
+			damage: 10,
+			cost: ["Psychic"],
+			effect: {
+				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Darkness", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 705379,
+				tcgplayer: 587810,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "G",
+	rarity: "Promo",
+	dexId: [854],
+};
+
+export default card;

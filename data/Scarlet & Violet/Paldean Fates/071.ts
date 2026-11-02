@@ -44,18 +44,41 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751609,
+				tcgplayer: 534433,
+				cardtrader: 274255
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751609,
+				tcgplayer: 534433,
+				cardtrader: 274255
+			}
+		},
+	],
 
 	illustrator: "Mina Nakai",
 
-	thirdParty: {
-		cardmarket: 751609
-	}
+	description: {
+		en: "It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.",
+		de: "Es verfügt über einen fantastischen Geruchssinn, nutzt diesen aber ausschließlich zur Futtersuche, der es sich den lieben langen Tag widmet."
+	},
+
 }
 
 export default card

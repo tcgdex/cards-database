@@ -4,7 +4,7 @@ import Set from '../Legends Awakened'
 const card: Card = {
 	name: {
 		en: "Swellow",
-		fr: "Heledelle",
+		fr: "Hélédelle",
 		de: "Schwalboss"
 	},
 
@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Taillow",
 		fr: "Schwalbini",
+		de: "Schwalbini"
 	},
 
 	stage: "Stage1",
@@ -84,7 +85,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		fr: "Il vole en cercle en quête d'une proie. Dès qu'il l'a repérée, il fond sur elle en un éclair."
+		en: "It circles the sky in search of prey. When it spots one, it dive steeply to catch the prey.",
+		fr: "Il vole en cercle en quête d'une proie. Dès qu'il l'a repérée, il fond sur elle en un éclair.",
+		de: "Es fliegt auf der Suche nach Beute ständig umher. Findet es Beute, stürzt es sich im Sturzflug auf sie."
 	},
 
 	thirdParty: {

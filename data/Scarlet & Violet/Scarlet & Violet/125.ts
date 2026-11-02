@@ -69,17 +69,19 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 	illustrator: "aky CG Works",
-	suffix: "EX",
+	suffix: "ex",
 
 	weaknesses: [{
 		type: "Psychic",
 		value: "×2"
 	}],
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
+
 
 	thirdParty: {
         cardmarket: 689767,

@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Greavard",
-		fr: "Toutombe"
+		fr: "Toutombe",
+		de: "Gruff"
 	},
 
 	stage: "Stage1",
@@ -64,9 +65,18 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	variants: {
-		reverse: false,
-		normal: false
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo"
+		}
+	],
+
+	description: {
+		en: "A lovingly mourned Pokémon was reborn as Houndstone. It doesn't like anyone touching the protuberance atop its head.",
+		de: "Friedwuff ist die Reinkarnation eines liebevoll betrauerten Pokémon. Es wird nur ungern am Fortsatz auf seinem Kopf berührt."
 	},
 
 	thirdParty: {

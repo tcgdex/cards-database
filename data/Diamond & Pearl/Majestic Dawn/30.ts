@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Grotle",
 		fr: "Boskara",
+		de: "Chelcarain"
 	},
 
 	stage: "Stage2",
@@ -79,6 +80,11 @@ const card: Card = {
 	],
 
 	retreat: 4,
+
+	description: {
+		en: "Groups of this Pokémon migrating in search of water have been mistaken for \"moving forests.\"",
+		de: "Gruppen dieser PKMN, die auf der Suche nach Wasser umherlaufen, werden „Wandernder Wald“ genannt."
+	},
 
 	thirdParty: {
 		cardmarket: 278079,

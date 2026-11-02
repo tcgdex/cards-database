@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		368,
-	],
+	dexId: [368],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -60,7 +58,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each Psychic Energy in play.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  en jeu.",
+				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {P} en jeu.",
 				de: "Does 20 damage plus 10 more damage for each  Energy in play."
 			},
 			damage: "20+",
@@ -78,18 +76,22 @@ const card: Card = {
 	
 	retreat: 0,
 
-	thirdParty: {
-		cardmarket: 276092,
-		tcgplayer: 85842
-	},
-
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
+			thirdParty: {
+				tcgplayer: 85842,
+				cardmarket: 276092
+			}
+		},
+		{
+			type: "reverse",
+			foil: 'energy',
+			thirdParty: {
+				tcgplayer: 85842,
+				cardmarket: 276092
+			}
+		},
 	]
 }
 

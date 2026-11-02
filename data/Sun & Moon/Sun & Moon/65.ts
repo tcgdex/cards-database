@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cosmog",
 		fr: "Cosmog",
+		de: "Cosmog"
 	},
 
 	stage: "Stage1",
@@ -66,6 +67,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "Motionless as if dead, its body is faintly warm to the touch. In the distant past, it was called the cocoon of the stars.",
+		de: "Es ist völlig reglos, als wäre es tot. Berührt man es, fühlt es sich jedoch leicht warm an. Vor langer Zeit wurde es „Sternenkokon“ genannt."
+	},
 
 	thirdParty: {
 		cardmarket: 295376,

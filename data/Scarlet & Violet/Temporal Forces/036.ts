@@ -44,23 +44,38 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
+	description: {
+		en: "It stores flammable gas in its body and uses it to generate heat. The yellow sections on its belly get particularly hot.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760666,
+				tcgplayer: 542780
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760666,
+				tcgplayer: 542780
+			}
+		},
 	],
 
 	illustrator: "Yukiko Baba",
 
-	thirdParty: {
-		cardmarket: 760666
-	}
 }
 
 export default card

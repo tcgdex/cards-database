@@ -52,18 +52,39 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It can throw bubble-covered pebbles with precise control, hitting empty cans up to a hundred feet away.",
+		de: "Es kann kleine in Blasen gehüllte Steine mit solcher Präzision werfen, dass es selbst 30 m entfernte Dosen problemlos trifft."
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769231,
+				tcgplayer: 550101
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769231,
+				tcgplayer: 550101
+			}
+		},
+	],
 
 	illustrator: "Hitoshi Ariga",
 
-	thirdParty: {
-		cardmarket: 769231
-	}
 }
 
 export default card

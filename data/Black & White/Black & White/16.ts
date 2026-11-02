@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "This Pokémon does 10 damage to itself.",
 				fr: "Ce Pokémon s’inflige 10 dégâts.",
+				de: "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -56,10 +58,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 279753,
-		tcgplayer: 89880
-	}
+	description: {
+		en: "It can deftly dodge its foe's attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
+		de: "Weicht flink gegnerischen Angriffen aus und schießt Flammen aus dem Rüssel, mit denen es gern auch mal Nüsse röstet."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279754,
+				tcgplayer: 89880
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279754,
+				tcgplayer: 89880
+			}
+		},
+	],
 }
 
 export default card

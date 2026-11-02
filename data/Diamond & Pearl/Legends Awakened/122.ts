@@ -67,6 +67,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its body is virtually composed of water. It shoots strange beams from its crystal-like eyes.",
+		de: "Wird sein Körper verletzt, kann es sich regenerieren, sofern der rote Kern intakt ist."
+	},
+
 	thirdParty: {
 		cardmarket: 278271,
 		tcgplayer: 89550

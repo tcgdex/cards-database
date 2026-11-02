@@ -80,6 +80,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It shares the leaf on its head with weary-looking Pokémon. These leaves are known to relieve stress.",
+		de: "Schwächelnden Pokémon gibt es ein paar der Kräuter auf seinem Kopf ab und hilft ihnen so wieder auf die Beine."
+	},
+
 	thirdParty: {
 		cardmarket: 281347,
 		tcgplayer: 87938

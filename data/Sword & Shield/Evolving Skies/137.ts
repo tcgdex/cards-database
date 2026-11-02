@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Braviary",
@@ -94,15 +88,28 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Because this Pokémon is hotheaded and belligerent, it's Corviknight that's taken the role of transportation in Galar."
+		en: "Because this Pokémon is hotheaded and belligerent, it's Corviknight that's taken the role of transportation in Galar.",
+		de: "Da es hitzköpfig und aggressiv ist, hat es den Posten als Kurier in Galar an Krarmor verloren."
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574195,
-		tcgplayer: 246877
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574195,
+				tcgplayer: 246877
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574195,
+				tcgplayer: 246877
+			}
+		},
+	],
 }
 
 export default card

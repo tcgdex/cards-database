@@ -4,6 +4,7 @@ import Set from "../White Flare"
 const card: Card = {
 	dexId: [616],
 	set: Set,
+	cameoDexIds: [588],
 
 	name: {
 		en: "Shelmet",
@@ -65,9 +66,38 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835915
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835915,
+				tcgplayer: 642123
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835915,
+				tcgplayer: 642123
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836505,
+				tcgplayer: 642368
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836506,
+				tcgplayer: 642296
+			}
+		},
+	],
 }
 
 export default card

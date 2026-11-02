@@ -4,6 +4,8 @@ import Set from "../Twilight Masquerade"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [144, 785, 792, 802],
+
 	name: {
 		en: "Raifort",
 		fr: "Mora",
@@ -22,21 +24,31 @@ const card: Card = {
 		es: "Mira las 5 primeras cartas de tu baraja y descarta cualquier cantidad de ellas. Vuelve a poner el resto de las cartas en la parte superior de tu baraja en el orden que quieras.",
 		it: "Guarda le prime cinque carte del tuo mazzo e scartane quante ne vuoi. Rimetti a posto le altre carte nell'ordine che preferisci.",
 		pt: "Olhe as 5 cartas de cima do seu baralho e descarte qualquer número delas. Coloque as outras cartas de volta em qualquer ordem.",
-		de: "Schau dir die obersten 5 Karten deines Decks an und lege beliebig viele von ihnen auf deinen Ablagestapel. Lege die anderen Karten in beliebiger Reihenfolge zurück auf dein Deck."
+		de: "Schau dir die obersten 5 Karten deines Decks an und lege beliebig viele von ihnen auf deinen Ablagestapel. Lege die anderen Karten in beliebiger Reihenfolge zurück auf dein Deck. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769335,
+				tcgplayer: 550205
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769335,
+				tcgplayer: 550205
+			}
+		},
+	],
 
 	illustrator: "hncl",
 
-	thirdParty: {
-		cardmarket: 769335
-	}
 }
 
 export default card

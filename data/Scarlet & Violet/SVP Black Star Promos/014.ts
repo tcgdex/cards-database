@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Koraidon"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fighting"],
@@ -57,9 +57,35 @@ const card: Card = {
 		damage: 190
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "Mina Nakai"
+	illustrator: "Mina Nakai",
+	description: {
+		en: "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists.",
+	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 692235,
+				tcgplayer: 490721
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["pokemon-center"],
+			thirdParty: {
+				cardmarket: 692236,
+				tcgplayer: 490725
+			},
+		}
+	],
 }
 
 export default card

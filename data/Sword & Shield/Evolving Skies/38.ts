@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Milotic",
@@ -89,16 +83,29 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It's said that a glimpse of a Milotic and its beauty will calm any hostile emotions you're feeling."
+		en: "It's said that a glimpse of a Milotic and its beauty will calm any hostile emotions you're feeling.",
+		de: "Es heißt, der Anblick seiner wunderschönen Gestalt könne selbst das verrohteste Herz erweichen."
 	},
 
 	dexId: [350],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574062,
-		tcgplayer: 246851
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574062,
+				tcgplayer: 246851
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574062,
+				tcgplayer: 246851
+			}
+		},
+	],
 }
 
 export default card

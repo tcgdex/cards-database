@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Kick",
 				fr: "Koud'Pied",
+				de: "Tritt"
 			},
 
 			damage: 20,
@@ -51,10 +52,12 @@ const card: Card = {
 			name: {
 				en: "Feint",
 				fr: "Ruse",
+				de: "Offenlegung"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 40,
 
@@ -69,6 +72,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "They communicate with one another using their auras made tangible by their emotions.",
+		de: "Es kommuniziert mit seinen Artgenossen über Wellen, die je nach Gefühlslage eine andere Form annehmen."
+	},
 
 	thirdParty: {
 		cardmarket: 280815,

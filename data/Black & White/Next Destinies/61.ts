@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Psy Bolt",
 				fr: "Choc Mental",
+				de: "Konfusion"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 10,
 
@@ -55,10 +57,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280286,
-		tcgplayer: 85177
-	}
+	description: {
+		en: "It uses its strong psychic power to squeeze its opponent's brain, causing unendurable headaches.",
+		de: "Es verfügt über mächtige Psycho-Kräfte, mit denen es die Hirne seiner Gegner verwirrt, um ihnen Kopfweh zu bereiten."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280286,
+				tcgplayer: 85177
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280286,
+				tcgplayer: 85177
+			}
+		},
+	],
 }
 
 export default card

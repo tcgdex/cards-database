@@ -35,18 +35,48 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It remembers every dream it eats. It rarely eats the dreams of adults because children's are much tastier.",
+		de: "Es kann sich an jeden gefressenen Traum erinnern. Die Träume von Kindern schmecken ihm besser, weshalb es die von Erwachsenen nur selten frisst."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733691,
+				tcgplayer: 516665,
+				cardtrader: 261111
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733691,
+				tcgplayer: 516665,
+				cardtrader: 261111
+			}
+		},
+	],
 
 	illustrator: "Mousho",
 
-	thirdParty: {
-		cardmarket: 733750
-	}
+	
 }
 
 export default card

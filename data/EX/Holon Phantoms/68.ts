@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Lileep δ",
 		fr: "Lilia δ",
-		de: "Liliep"
+		de: "Liliep δ"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Root Fossil",
-		fr: "Fossile racine"
+		fr: "Fossile racine",
+		de: "Wurzelfossil"
 	},
 
 	stage: "Stage1",

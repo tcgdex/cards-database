@@ -51,23 +51,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It is capable of swimming backwards by rapidly flapping its winglike pectoral fins and stout tail."
+		en: "It is capable of swimming backwards by rapidly flapping its winglike pectoral fins and stout tail.",
+		de: "Dieses Pokémon kann rückwärts schwimmen, indem es Flügel und Schwanz als Flossen einsetzt."
 	},
 
-	thirdParty: {
-		cardmarket: 545111,
-		tcgplayer: 234156
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545111,
+				tcgplayer: 234156
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545111,
+				tcgplayer: 234156
+			}
+		},
+	],
 }
 
 export default card

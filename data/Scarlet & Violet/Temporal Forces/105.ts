@@ -44,23 +44,38 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "A Pokémon with a persistent nature, it chases its chosen prey until the prey becomes exhausted.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760735,
+				tcgplayer: 542849
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760735,
+				tcgplayer: 542849
+			}
+		},
 	],
 
 	illustrator: "Miki Tanaka",
 
-	thirdParty: {
-		cardmarket: 760735
-	}
 }
 
 export default card

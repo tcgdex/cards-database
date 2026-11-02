@@ -16,15 +16,7 @@ const card: Card = {
 
 	set: Set,
 
-
-
-
-
-
-
-
-
-
+	cameoDexIds: [87, 121],
 
 	effect: {
 		fr: "Cherchez jusqu’à 3 cartes Supporter dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
@@ -32,7 +24,7 @@ const card: Card = {
 		es: "Busca en tu baraja hasta 3 cartas de Partidario, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Cerca nel tuo mazzo fino a tre carte Aiuto, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure por até 3 cartas de Apoiador no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Durchsuche dein Deck nach bis zu 3 Unterstützerkarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Durchsuche dein Deck nach bis zu 3 Unterstützerkarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 	trainerType: "Supporter",
 

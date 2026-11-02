@@ -4,6 +4,7 @@ import Set from "../Fusion Strike"
 const card: Card = {
 	dexId: [52],
 	set: Set,
+	cameoDexIds: [235],
 
 	name: {
 		en: "Meowth",
@@ -19,12 +20,19 @@ const card: Card = {
 	hp: 70,
 	types: ["Colorless"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "It washes its face regularly to keep the coin on its forehead spotless. It doesn't get along with Galarian Meowth."
+		en: "It washes its face regularly to keep the coin on its forehead spotless. It doesn't get along with Galarian Meowth.",
+		de: "Es wäscht sich regelmäßig das Gesicht, um die Münze auf seiner Stirn sauber zu halten. Es hat kein gutes Verhältnis zu den Mauzi aus Galar."
 	},
 
 	attacks: [{
@@ -51,17 +59,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582873,
-		tcgplayer: 253291
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582873,
+				tcgplayer: 253291
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582873,
+				tcgplayer: 253291
+			}
+		},
+	],
 }
 
 export default card

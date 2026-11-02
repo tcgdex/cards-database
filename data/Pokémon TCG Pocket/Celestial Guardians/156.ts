@@ -6,11 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Alolan Exeggutor",
-		fr: "Noadkokod'Alola",
-		es: "Exeggutorde Alola",
-		it: "Exeggutordi Alola",
+		fr: "Noadkoko d’Alola",
+		es: "Exeggutor de Alola",
+		it: "Exeggutor di Alola",
 		de: "Alola-Kokowei",
-		'pt-br': "Exeggutorde Alola",
+		'pt-br': "Exeggutor de Alola",
 		ko: "알로라나시"
 	},
 
@@ -23,7 +23,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Exeggcute"
+		en: "Exeggcute",
+		fr: "Noeunoeuf"
 	},
 
 	description: {

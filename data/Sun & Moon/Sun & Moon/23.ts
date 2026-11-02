@@ -86,6 +86,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Coal is the source of Torkoal's energy. Large amounts of coal can be found in the mounts where they live.",
+		de: "Kohle ist die Quelle seiner Energie. Ein Glück, dass in den von Qurtel bewohnten Bergen große Kohlevorkommen schlummern."
+	},
+
 	thirdParty: {
 		cardmarket: 295331,
 		tcgplayer: 126894

@@ -3,13 +3,8 @@ import Set from '../Celebrations'
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [35],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Cosmog",
@@ -63,15 +58,21 @@ const card: Card = {
 	regulationMark: "E",
 
 	description: {
-		en: "Whether or not it's a Pokémon from this world is a mystery. When it's in a jam, it warps away to a safe place to hide."
+		en: "Whether or not it's a Pokémon from this world is a mystery. When it's in a jam, it warps away to a safe place to hide.",
+		de: "Es ist unklar, ob es aus dieser Welt stammt oder nicht. Wenn es in Gefahr ist, teleportiert es sich an einen sicheren Ort und versteckt sich."
 	},
 
 	dexId: [789],
 
-	thirdParty: {
-		cardmarket: 576758,
-		tcgplayer: 250311
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 576758,
+				tcgplayer: 250311
+			}
+		},
+	],
 }
 
 export default card

@@ -1,44 +1,61 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "潤水鴨"
+		ja: "ヘイラッシャ",
+		'zh-tw': "潤水鴨",
 	},
 
-	illustrator: "Narumi Sato",
+	illustrator: "Shin Nagasawa",
 	category: "Pokemon",
-	hp: 70,
+	hp: 150,
 	types: ["Water"],
 
 	description: {
-		'zh-tw': "很久以前從遠方來到了 這裡棲息。羽毛分泌出的 凝膠有防水和防污的效果。"
+		ja: "大食らいだが エサを 取るのは 苦手。 シャリタツと コンビを 組んで 獲物を 捕らえるのだ。",
+		'zh-tw': "很久以前從遠方來到了 這裡棲息。羽毛分泌出的 凝膠有防水和防污的效果。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "水沫"
+	attacks: [
+		{
+			name: {
+				ja: "ぶちかます",
+				'zh-tw': "水沫",
+			},
+			damage: 60,
+			cost: ["Water", "Colorless", "Colorless"],
 		},
-
-		effect: {
-			'zh-tw': "擲1次硬幣若為正面，則增加20點傷害。"
+		{
+			name: { ja: "ひっさつウェーブ" },
+			damage: "100+",
+			cost: ["Water", "Colorless", "Colorless", "Colorless"],
+			effect: {
+				ja: "コインを2回投げ、すべてオモテなら、100ダメージ追加。",
+			},
 		},
+	],
 
-		damage: "20+",
-		cost: ["Water", "Colorless"]
-	}],
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 692251,
+				tcgplayer: 587761,
+			},
+		},
+	],
 
-	retreat: 1,
-	regulationMark: "G"
-}
+	retreat: 4,
+	regulationMark: "G",
+	rarity: "Promo",
+	dexId: [977],
+};
 
-export default card
+export default card;

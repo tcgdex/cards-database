@@ -79,28 +79,41 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 86327,
-		cardmarket: 276412
-	},
 
 	variants: [
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 86327,
+				cardmarket: 276412
+			},
 		},
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 86327,
+				cardmarket: 276412
+			},
 		},
 		{
 			type: "holo",
-			stamp: ["curran-hill"]
+			stamp: ["curran-hill"],
+			thirdParty: {
+				tcgplayer: 477535,
+				cardmarket: 871511
+			},
 		},
 		{
 			type: "holo",
-			stamp: ["michael-gonzalez"]
+			stamp: ["michael-gonzalez"],
+			thirdParty: {
+				tcgplayer: 477543,
+				cardmarket: 871512
+			},
 		},
-	]
+	],
+
 }
 
 export default card

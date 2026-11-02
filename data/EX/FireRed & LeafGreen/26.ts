@@ -42,7 +42,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for up to 2 Water Energy cards and attach them to Kingler. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck jusqu'à 2 cartes Énergie  et attachez-les à Krabboss. Ensuite, mélangez votre deck.",
+				fr: "Cherchez dans votre deck jusqu'à 2 cartes Énergie {W} et attachez-les à Krabboss. Ensuite, mélangez votre deck.",
 				de: "Search your deck for up to 2  Energy cards and attach them to Kingler. Shuffle your deck afterward."
 			},
 
@@ -74,21 +74,24 @@ const card: Card = {
 		},
 	],
 
-	
-	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276202,
-		tcgplayer: 86456
-	},
+	retreat: 2,
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276202,
+				tcgplayer: 86456
+			},
 		},
 		{
-			type: "holo",
-			foil: "energy"
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 276202,
+				tcgplayer: 86456
+			},
 		}
 	]
 }

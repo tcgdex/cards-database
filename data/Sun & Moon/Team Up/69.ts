@@ -78,6 +78,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "In ages past, it was called the child of the stars. It's said to be a Pokémon from another world, but no specific details are known.",
+		de: "Vor langer Zeit nannte man es „Kind der Sterne“. Es soll aus einer anderen Welt stammen, doch niemand weiß Genaueres darüber."
+	},
+
 	thirdParty: {
 		cardmarket: 368999,
 		tcgplayer: 183847

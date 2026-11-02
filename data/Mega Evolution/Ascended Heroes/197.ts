@@ -23,7 +23,7 @@ const card: Card = {
 		fr: "Les attaques utilisées par chacun des Pokémon Téracristal en jeu (les vôtres et ceux de votre adversaire) coûtent {C} de plus.",
 		es: "Los ataques usados por cada Pokémon Teracristal en juego (tanto tuyos como de tu rival) cuestan {C} más.",
 		'es-mx': "Los ataques usados por cada Pokémon Teracristal en juego (tanto tuyos como de tu rival) cuestan {C} más.",
-		de: "Die Kosten der von allen Terakristall-Pokémon im Spiel (deinen und denen deines Gegners) eingesetzten Attacken erhöhen sich um {C}.",
+		de: "Die Kosten der von allen Terakristall-Pokémon im Spiel (deinen und denen deines Gegners) eingesetzten Attacken erhöhen sich um {C}. Du kannst während deines Zuges nur 1 Stadionkarte spielen. Lege sie neben die Aktive Position, und lege sie auf den Ablagestapel, wenn ein anderes Stadion ins Spiel kommt. Ein Stadion mit demselben Namen kann nicht gespielt werden.",
 		it: "Il costo degli attacchi usati da ogni Pokémon Teracristal in gioco, sia tuo che del tuo avversario, aumenta di {C}.",
 		pt: "Os ataques usados por cada Pokémon Tera em jogo (seus e do seu oponente) custam {C} a mais."
 	},
@@ -31,10 +31,22 @@ const card: Card = {
 	trainerType: "Stadium",
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 869808,
-		tcgplayer: 676009
-	}
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869808,
+			tcgplayer: 676009
+		}
+	},
+	{
+		type: "reverse",
+		thirdParty: {
+			cardmarket: 869808,
+			tcgplayer: 676009
+		}
+	},
+],
 }
 
 export default card

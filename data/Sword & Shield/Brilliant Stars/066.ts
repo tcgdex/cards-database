@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Symvolara"
 	},
 
+	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
@@ -38,7 +39,7 @@ const card: Card = {
 			es: "Lanza 3 monedas. Une una cantidad de cartas de Energía Básica, igual o inferior al número de caras que te hayan salido, de tu pila de descartes a tus Pokémon en Banca de la manera que desees.",
 			it: "Lancia tre volte una moneta. Assegna ai tuoi Pokémon in panchina un numero di carte Energia base dalla tua pila degli scarti uguale o inferiore al numero di volte in cui è uscito testa nel modo che preferisci.",
 			pt: "Jogue 3 moedas. Ligue um número de cartas de Energia básica da sua pilha de descarte até o número de caras aos seus Pokémon no Banco como desejar.",
-			de: "Wirf 3 Münzen. Lege bis zu so viele Basis-Energiekarten, wie du Kopf geworfen hast, aus deinem Ablagestapel beliebig an die Pokémon auf deiner Bank an."
+			de: "Wirf 3 Münzen. Lege bis zu so viele Basis-Energiekarten, wie du Kopf geworfen hast, aus deinem Ablagestapel beliebig an 1 Pokémon auf deiner Bank an."
 		}
 	}, {
 		cost: ["Psychic", "Colorless"],
@@ -64,20 +65,43 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Psychic power allows these Pokémon to fly. Some say they were the guardians of an ancient city. Others say they were the guardians' emissaries.",
+		de: "Es fliegt mithilfe seiner Psycho-Kräfte. Einige sagen, es war einst der Wächter einer Stadt aus uralten Zeiten. Andere sagen, es war sein Bote."
 	},
 
-	thirdParty: {
-		cardmarket: 608516,
-		tcgplayer: 263782
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608516,
+				tcgplayer: 263782
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608516,
+				tcgplayer: 263782
+			}
+		},
+	],
 }
 
 export default card

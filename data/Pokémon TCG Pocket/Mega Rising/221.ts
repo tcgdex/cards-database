@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Marlon"
+		en: "Marlon",
+		fr: "Amana"
 	},
 
 	illustrator: "Hideki Ishikawa",
@@ -13,7 +14,8 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Heal 70 damage from 1 of your Carracosta or Jellicent."
+		en: "Heal 70 damage from 1 of your Carracosta or Jellicent.",
+		fr: "Soignez 70 dégâts d'un de vos Mégapagos ou Moyade."
 	},
 
 	trainerType: "Supporter",

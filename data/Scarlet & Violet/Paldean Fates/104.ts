@@ -65,19 +65,33 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751643,
+				tcgplayer: 534476,
+				cardtrader: 274288
+			}
+		},
+	],
 
 	illustrator: "Hideki Ishikawa",
 
-	thirdParty: {
-		cardmarket: 751643
-	}
+	description: {
+		en: "This calm Pokémon is very compassionate. It will share its delicious, nutrient-rich oil with weakened Pokémon.",
+		de: "Dieses Pokémon ist sehr friedlich und gütig. Es teilt sein leckeres, nährstoffreiches Öl mit geschwächten Pokémon."
+	},
+
 }
 
 export default card

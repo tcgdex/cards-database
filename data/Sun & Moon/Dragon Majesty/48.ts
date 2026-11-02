@@ -90,7 +90,7 @@ const card: Card = {
 				es: "Estrella Dragón-GX",
 				it: "Dragonova-GX",
 				pt: "Supernova do Dragão-GX",
-				de: "Drachen Nova-GX"
+				de: "Drachen-Nova-GX"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Burned and Paralyzed. (You can’t use more than 1 GX attack in a game.)",

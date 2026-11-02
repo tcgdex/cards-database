@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 20,
@@ -52,6 +53,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on touch.",
+		de: "Sieht aus wie ein Pokéball. Es ist gefährlich, da es bei Berührung explodieren kann."
+	},
 
 	thirdParty: {
 		cardmarket: 280910,

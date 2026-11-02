@@ -10,8 +10,8 @@ const card: Card = {
 		pt: "Salamence",
 		de: "Brutalanda"
 	},
-	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	illustrator: "kawayoo",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Shelgon",
 		fr: "Drackhaus",
+		de: "Draschel"
 	},
 	stage: "Stage2",
 
@@ -81,6 +82,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It flies around on its wings, which have grown in at last. In its happiness, it gushes hot flames, burning up the fields it passes over.",
+		de: "Nun, da ihm Flügel gewachsen sind, zieht es seine Kreise am Himmel. Vor Freude spuckt es Flammen und hinterlässt eine Brandwüste."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 366057,
+				tcgplayer: 180530
+			}
+		}
+	],
 }
 
 export default card

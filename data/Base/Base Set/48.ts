@@ -40,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze \"Kopf\" zeigt, 10 Schadenspunkte zu.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 10 Schadenspunkte zu.",
 				it: "Lancia 2 volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa."
 			},
 			damage: "10x",
@@ -63,27 +63,37 @@ const card: Card = {
 	],
 
 	description: {
+		en: "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints.",
 		fr: "Cet oiseau vole très mal mais court très vite. Il laisse de gigantesques empreintes de pas.",
-		it: "Uccello non molto abile nel volo, ma imbattibile nella corsa. Le sue orme giganteschene segnalano il passaggio. LIV 10 N.84"
+		it: "Uccello non molto abile nel volo, ma imbattibile nella corsa. Le sue orme giganteschene segnalano il passaggio. LIV 10 N.84",
+		de: "Ein Vogel, der nicht fliegen, aber enorm schnell laufen kann. Hinterläßt gigantische Fußabdrücke."
 	},
 
-	thirdParty: {
-		cardmarket: 273743,
-		tcgplayer: 42391
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273743,
+				tcgplayer: 42391
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107045,
+				cardmarket: 660180
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107045,
+				cardmarket: 660180
+			},
 		},
 		{
 			type: "normal",

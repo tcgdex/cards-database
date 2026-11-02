@@ -66,19 +66,46 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715645,
+				tcgplayer: 497591,
+				cardtrader: 248814
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715645,
+				tcgplayer: 497591,
+				cardtrader: 248814
+			}
+		},
+	],
 
 	illustrator: "nagimiso",
 
-	thirdParty: {
-		cardmarket: 715645,
-		tcgplayer: 497591
-	}
+	description: {
+		en: "This Pokémon apparently ties the base of its neck into a knot so that the energy stored in its belly does not escape from its beak.",
+		de: "Dieses Pokémon verknotet offenbar seinen Hals am Ansatz, damit die im Bauch gespeicherte Energie nicht über den Schnabel entweicht."
+	},
 }
 
 export default card

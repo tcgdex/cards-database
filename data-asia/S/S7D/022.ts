@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S7D"
+import { Card } from "../../../interfaces";
+import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "幕下力士"
+		ja: "マクノシタ",
+		'zh-tw': "幕下力士",
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -14,34 +14,48 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		'zh-tw': "據說為了培育強大的幕下力士，訓練家們會製作一種傳統的火鍋料理。"
+		ja: "強い マクノシタを 育てるために トレーナーたちが 伝統的に 作る ナベ料理が あるという。",
+		'zh-tw': "據說為了培育強大的幕下力士，訓練家們會製作一種傳統的火鍋料理。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "撞倒"
+	attacks: [
+		{
+			name: {
+				ja: "つきたおし",
+				'zh-tw': "撞倒",
+			},
+			damage: 10,
+			cost: ["Colorless"],
 		},
-
-		damage: 10,
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "頭突"
+		{
+			name: {
+				ja: "ぶちかます",
+				'zh-tw': "頭突",
+			},
+			damage: 60,
+			cost: ["Fighting", "Colorless", "Colorless"],
 		},
+	],
 
-		damage: 60,
-		cost: ["Fighting", "Colorless", "Colorless"]
-	}],
+	weaknesses: [{ type: "Psychic", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Psychic",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 571604,
+				tcgplayer: 569345,
+			},
+		},
+	],
 
 	retreat: 3,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Common",
+	dexId: [296],
+};
 
-export default card
+export default card;

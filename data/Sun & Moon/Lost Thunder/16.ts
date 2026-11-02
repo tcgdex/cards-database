@@ -84,6 +84,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still.",
+		de: "Es sammelt Beeren in seiner Schale. Um sich vor Attacken zu schützen, versteckt es sich unter Steinen."
+	},
+
 	thirdParty: {
 		cardmarket: 365609,
 		tcgplayer: 178813

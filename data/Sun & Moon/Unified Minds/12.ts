@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "These mysterious Pokémon evolve when they receive electrical stimulation while they are in the same place as Shelmet.",
+		de: "Ein mysteriöses Pokémon, das sich entwickelt, wenn es zusammen mit Schnuthelm einen Stromschlag abbekommt."
+	},
+
 	thirdParty: {
 		cardmarket: 387892,
 		tcgplayer: 194928

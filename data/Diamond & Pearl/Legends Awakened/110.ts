@@ -53,7 +53,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verbrannt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: 30,
 
@@ -70,7 +70,9 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		fr: "Son dos bosse renferme une lave bouillonnante. Elle refroidit par temps de pluie, ce qui le ralentit."
+		en: "Its humped back stores intensely hot magma. In rain, the magma cools, slowing its movement.",
+		fr: "Son dos bosse renferme une lave bouillonnante. Elle refroidit par temps de pluie, ce qui le ralentit.",
+		de: "In seinem Rücken speichert es sehr heißes Magma. Regnet es, kühlt das Magma ab und es wird langsamer."
 	},
 
 	thirdParty: {

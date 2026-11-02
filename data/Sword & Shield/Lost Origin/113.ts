@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Ariados"
 	},
 
+	illustrator: "Shinji Kanda",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 90,
@@ -48,7 +49,7 @@ const card: Card = {
 			es: "Este ataque hace 30 puntos de daño más por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
 			it: "Questo attacco infligge 30 danni in più per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
 			pt: "Este ataque causa 30 pontos de dano a mais para cada Colorless no custo de Recuo do Pokémon Ativo do seu oponente.",
-			de: "Diese Attacke fügt für jedes Colorless in den Rückzugskosten des Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu."
+			de: "Diese Attacke fügt für jedes {C} in den Rückzugskosten des Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "10+"
@@ -79,16 +80,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674126,
-		tcgplayer: 284009
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674126,
+				tcgplayer: 284009
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674126,
+				tcgplayer: 284009
+			}
+		},
+	],
 }
 
 export default card

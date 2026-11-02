@@ -15,6 +15,9 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
+
+	cameoDexIds: [519, 572],
+
 	trainerType: "Supporter",
 
 	effect: {
@@ -23,13 +26,32 @@ const card: Card = {
 		es: "Descarta las cartas de tu mano y roba 7 cartas.",
 		it: "Scarta la tua mano e pesca sette carte.",
 		pt: "Descarte sua mão e compre 7 cards.",
-		de: "Lege deine Handkarten auf deinen Ablagestapel und ziehe 7 neue Karten."
+		de: "Lege deine Handkarten auf deinen Ablagestapel und ziehe 7 neue Karten. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
-	thirdParty: {
-		cardmarket: 280426,
-		tcgplayer: 88396
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280426,
+				tcgplayer: 88396
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['professor-program'],
+			thirdParty: {
+				cardmarket: 450653
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280426,
+				tcgplayer: 88396
+			}
+		},
+	],
 }
 
 export default card

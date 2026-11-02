@@ -51,23 +51,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "The powder that covers its body regulates its temperature, so it can live in any region or climate."
+		en: "The powder that covers its body regulates its temperature, so it can live in any region or climate.",
+		de: "Es reguliert seine Körpertemperatur mit dem Puder, das seinen Körper bedeckt, und kommt deswegen in jedem Klima und jeder Region zurecht."
 	},
 
-	thirdParty: {
-		cardmarket: 544951,
-		tcgplayer: 234064
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 544951,
+				tcgplayer: 234064
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 544951,
+				tcgplayer: 234064
+			}
+		},
+	],
 }
 
 export default card

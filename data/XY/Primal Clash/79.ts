@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It eats just one berry a day. By enduring hunger, its spirit is tempered and made sharper.",
+	},
+
 	thirdParty: {
 		cardmarket: 273610,
 		tcgplayer: 95977

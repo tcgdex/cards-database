@@ -4,7 +4,8 @@ import Set from '../POP Series 3'
 const card: Card = {
 	name: {
 		en: "Forretress",
-		fr: "Foretress"
+		fr: "Foretress",
+		de: "Forstellka"
 	},
 
 	illustrator: "Midori Harada",
@@ -12,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		205,
-	],
+	dexId: [205],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Stage1",
@@ -32,7 +31,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 20,
@@ -46,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Toxic",
-				fr: "Toxik"
+				fr: "Toxik",
+				de: "Toxin"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours."
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Lege zwischen den Zügen 2 Schadensmarken anstelle von 1 Schadensmarke auf das Verteidigende Pokémon."
 			},
 			damage: 20,
 
@@ -59,23 +61,22 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fire"
+			type: "Fire",
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85549,
+				cardmarket: 277457
+			},
 		},
 	],
 
-	retreat: 2,
-
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
-	thirdParty: {
-		cardmarket: 277457,
-		tcgplayer: 85549
-	}
 }
 
 export default card

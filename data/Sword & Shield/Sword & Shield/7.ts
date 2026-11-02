@@ -89,7 +89,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "With noises that could be mistaken for the rattles of maracas, it creates an upbeat rhythm, startling bird Pokémon and making them fly off in a hurry."
+		en: "With noises that could be mistaken for the rattles of maracas, it creates an upbeat rhythm, startling bird Pokémon and making them fly off in a hurry.",
+		de: "Es erzeugt Laute, die dem Klang von Maracas ähneln, und weiß sich Vogel-Pokémon mit flotten Rhythmen vom Leib zu halten."
 	},
 
 	thirdParty: {

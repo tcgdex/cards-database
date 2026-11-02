@@ -41,7 +41,7 @@ const card: Card = {
 				es: "Une hasta 3 cartas de Energía Water de tu pila de descartes a este Pokémon.",
 				it: "Assegna a questo Pokémon fino a tre carte Energia Water dalla tua pila degli scarti.",
 				pt: "Ligue até 3 cartas de Energia Water da sua pilha de descarte a este Pokémon.",
-				de: "Lege bis zu 3 Water-Energiekarten aus deinem Ablagestapel an dieses Pokémon an."
+				de: "Lege bis zu 3 {W}-Energiekarten aus deinem Ablagestapel an dieses Pokémon an."
 			},
 
 		},

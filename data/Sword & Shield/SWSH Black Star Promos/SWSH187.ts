@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Liepard"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Darkness"],
@@ -67,16 +67,32 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
 	description: {
 		en: "Don't be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon."
 	},
-
-	thirdParty: {
-		cardmarket: 606601
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 606601,
+				tcgplayer: 264279
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"]
+		},
+	],
 }
 
 export default card

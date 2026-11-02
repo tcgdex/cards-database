@@ -11,14 +11,18 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	thirdParty: {
-		cardmarket: 274034,
-		tcgplayer: 42450
+	effect: {
+		en: "Your Active Pokémon is no longer Asleep, Confused, Paralyzed, or Poisoned.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274034,
+				tcgplayer: 42450
+			}
 		}
 	]
 }

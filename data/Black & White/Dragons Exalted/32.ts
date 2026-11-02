@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Wave Splash",
 				fr: "Grosse Vague",
+				de: "Wellenplatscher"
 			},
 
 			damage: 10,
@@ -52,10 +53,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280471,
-		tcgplayer: 84023
-	}
+	description: {
+		en: "It spins its two tails like a screw to propel itself through the water. The tails also slice clinging seaweed.",
+		de: "Dreht seine zwei Schweife wie eine Schraube, um schnell zu schwimmen, und zum Zerschneiden von Algen."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280471,
+				tcgplayer: 84023
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280471,
+				tcgplayer: 84023
+			}
+		},
+	],
 }
 
 export default card

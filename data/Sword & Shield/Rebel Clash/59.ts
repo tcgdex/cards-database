@@ -91,23 +91,30 @@ const card: Card = {
 	types: ["Lightning"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "A single Electivire can provide enough electricity for all the buildings in a big city for a year."
+		en: "A single Electivire can provide enough electricity for all the buildings in a big city for a year.",
+		de: "Ein einzelnes Elevoltek erzeugt genügend Elektrizität, um eine Großstadt ein ganzes Jahr lang mit Strom zu versorgen."
 	},
 
-	thirdParty: {
-		cardmarket: 457728,
-		tcgplayer: 213140
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457728,
+				tcgplayer: 213140
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457728,
+				tcgplayer: 213140
+			}
+		},
+	],
 }
 
 export default card

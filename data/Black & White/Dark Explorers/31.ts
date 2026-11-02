@@ -36,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Spiral Drain",
-				fr: "Spirale Épuisante"
+				fr: "Spirale Épuisante",
+				de: "Spiralsauger"
 			},
 			effect: {
 				en: "Heal 20 damage from this Pokémon.",
-				fr: "Soignez 20 dégâts à ce Pokémon."
+				fr: "Soignez 20 dégâts à ce Pokémon.",
+				de: "Heile 20 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 20,
 
@@ -56,10 +58,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280359,
-		tcgplayer: 90089
-	}
+	description: {
+		en: "They warn other of danger by vibrating their cheeks to create a high-pitched sound.",
+		de: "Bei Gefahr alarmiert es Artgenossen durch ein schrilles Warnsignal, das es mit seinen Wangen erzeugt."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280359,
+				tcgplayer: 90089
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280359,
+				tcgplayer: 90089
+			}
+		},
+	],
 }
 
 export default card

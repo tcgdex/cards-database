@@ -70,12 +70,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -83,10 +77,22 @@ const card: Card = {
 		en: "Loads weighing up to 50 times as much as its own body weight pose no issue for this Pokémon. It's skilled at making use of mud."
 	},
 
-	thirdParty: {
-		cardmarket: 511900,
-		tcgplayer: 226538
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511900,
+				tcgplayer: 226538
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511900,
+				tcgplayer: 226538
+			}
+		},
+	],
 }
 
 export default card

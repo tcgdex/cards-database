@@ -82,6 +82,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The way Slakoth lolls around makes anyone who watches it feel like doing the same.",
+		de: "Allein bei Bummelz’ Anblick werden Gegner von Trägheit gepackt und schlummern alsbald ein."
+	},
+
 	thirdParty: {
 		cardmarket: 388622,
 		tcgplayer: 195168

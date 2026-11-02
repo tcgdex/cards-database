@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		60,
-	],
+	dexId: [60],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -68,31 +66,43 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The direction of its belly spiral differs by area. The equator is thought to have an effect on this."
+		en: "The direction of its belly spiral differs by area. The equator is thought to have an effect on this.",
+		de: "Die Ausrichtung seiner Spirale hängt von dem Gebiet ab. Man sagt, der Äquator habe damit zu tun."
 	},
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88260,
+				cardmarket: 279214
+			}
 		},
 		{
 			type: "reverse",
-			foil: "league"
+			thirdParty: {
+				tcgplayer: 88260,
+				cardmarket: 279214
+			}
 		},
 		{
 			type: "reverse",
 			foil: "league",
-			stamp: ["staff"]
+			thirdParty: {
+				cardmarket: 450128,
+				tcgplayer: 164216
+			}
+		},
+		{
+			type: "reverse",
+			foil: "league",
+			stamp: ["staff"],
+			thirdParty: {
+				tcgplayer: 164217
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279214,
-		tcgplayer: 88260
-	}
 }
 
 export default card

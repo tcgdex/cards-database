@@ -34,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Windfall",
 				fr: "Rafale de Vent",
+				de: "Warmer Regen"
 			},
 			effect: {
 				en: "Shuffle your hand into your deck. Then, draw 6 cards.",
 				fr: "Mélangez votre main avec votre deck. Ensuite, piochez 6 cartes.",
+				de: "Mische deine Handkarten in dein Deck. Ziehe anschließend 6 Karten."
 			},
 
 		},
@@ -51,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Jet Blast",
 				fr: "Rafale d'Explosions",
+				de: "Hochdruckwelle"
 			},
 			effect: {
 				en: "Does 30 more damage for each Plasma Energy attached to this Pokémon.",
 				fr: "Inflige 30 dégâts supplémentaires pour chaque Énergie Plasma attachée à ce Pokémon.",
+				de: "Dieser Angriff fügt 30 weitere Schadenspunkte für jede an dieses Pokémon angelegte Plasma-Energie zu."
 			},
 			damage: 60,
 

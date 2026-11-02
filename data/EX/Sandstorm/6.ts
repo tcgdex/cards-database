@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		135,
-	],
+	dexId: [135],
 
 	hp: 70,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -39,14 +38,14 @@ const card: Card = {
 			name: {
 				en: "Double Kick",
 				fr: "Double pied",
-				de: "Double Kick"
+				de: "Doppelkick"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez deux pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de face.",
-				de: "Flip 2 coins. This attack does 20 damage times the number of heads."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 		{
@@ -58,12 +57,12 @@ const card: Card = {
 			name: {
 				en: "Lightning Strike",
 				fr: "Frap'éclair",
-				de: "Lightning Strike"
+				de: "Blitzschlag"
 			},
 			effect: {
 				en: "You may discard all Lightning Energy cards attached to Jolteon. If you do, this attack's base damage is 70 instead of 40.",
-				fr: "Vous pouvez défausser toutes les cartes Énergie  attachées à Voltali. Dans ce cas, les dégâts de base de cette attaque sont de 70 et non de 40.",
-				de: "You may discard all  Energy cards attached to Jolteon. If you do, this attack's base damage is 70 instead of 40."
+				fr: "Vous pouvez défausser toutes les cartes Énergie {L} attachées à Voltali. Dans ce cas, les dégâts de base de cette attaque sont de 70 et non de 40.",
+				de: "Du kannst alle {L}-Energiekarten, die an Blitza angelegt sind, auf deinen Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 70 Schadenspunkte zu anstelle von 40 Schadenspunkten."
 			},
 			damage: 40,
 
@@ -87,19 +86,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275783,
-		tcgplayer: 86336
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275783,
+				tcgplayer: 86336
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275783,
+				tcgplayer: 86336
+			}
 		},
-	]
+	],
+
 }
 
 export default card

@@ -62,6 +62,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They paralyze prey with poison, then drag them down to their lairs, five miles below the surface.",
+		de: "Es lähmt seine Beute mit Gift und verschleppt sie in seinen Unterschlupf, 8 km unter dem Meeresspiegel."
+	},
+
 	thirdParty: {
 		cardmarket: 281824,
 		tcgplayer: 94153

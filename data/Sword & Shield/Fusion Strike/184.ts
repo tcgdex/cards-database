@@ -19,12 +19,25 @@ const card: Card = {
 	hp: 70,
 	types: ["Metal"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Shin Nagasawa",
 
 	description: {
-		en: "With their large mandibles, these Pokémon can crunch their way through rock. They work together to protect their eggs from Sandaconda."
+		en: "With their large mandibles, these Pokémon can crunch their way through rock. They work together to protect their eggs from Sandaconda.",
+		de: "Ihre mächtigen Kiefer können Felsen zerbeißen. Sie rotten sich zu Gruppen zusammen, um ihre Eier vor Sanaconda zu beschützen."
 	},
 
 	attacks: [{
@@ -51,17 +64,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582812,
-		tcgplayer: 253332
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582812,
+				tcgplayer: 253332
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582812,
+				tcgplayer: 253332
+			}
+		},
+	],
 }
 
 export default card

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Unidentified Fossil",
 		fr: "Fossile Inconnu",
+		de: "Unbekanntes Fossil"
 	},
 
 	stage: "Stage1",
@@ -98,6 +99,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Restored from DNA found in amber, this Pokémon exhibited ferocity that was greater than expected. Some casualties resulted.",
+		de: "Ein grausames Pokémon, das vielen das Leben schwer gemacht hat. Es wurde aus Genmaterial reproduziert, das in Bernstein enthalten war."
+	},
 
 	thirdParty: {
 		cardmarket: 369057,

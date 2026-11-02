@@ -11,8 +11,8 @@ const card: Card = {
 		de: "Garados GX"
 	},
 
-	illustrator: undefined,
-	rarity: "None",
+	illustrator: "5ban Graphics",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magikarp",
-		fr: "Magicarpe"
+		fr: "Magicarpe",
+		de: "Karpador"
 	},
 
 	stage: "Stage1",
@@ -66,7 +67,7 @@ const card: Card = {
 				es: "Hiperrayo GX",
 				it: "Iper Raggio GX",
 				pt: "Hiper-raio GX",
-				de: "Hyperstrahl GX"
+				de: "Hyperstrahl-GX"
 			},
 			effect: {
 				en: "(You can’t use more than 1 GX attack in a game.)",
@@ -88,7 +89,17 @@ const card: Card = {
 		},
 	],
 
-	retreat: 3
+	retreat: 3,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 397939,
+				tcgplayer: 197875
+			}
+		}
+	],
 }
 
 export default card

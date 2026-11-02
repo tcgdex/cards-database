@@ -86,23 +86,30 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
 	description: {
-		en: "While seeking iron for food, it digs tunnels by breaking through bedrock with its steel horns."
+		en: "While seeking iron for food, it digs tunnels by breaking through bedrock with its steel horns.",
+		de: "Auf der Suche nach Eisen, seiner Nahrung, gräbt es mit seinen Stahlhörnern sogar Tunnel durch Felsen."
 	},
 
-	thirdParty: {
-		cardmarket: 567219,
-		tcgplayer: 241786
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567219,
+				tcgplayer: 241786
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567219,
+				tcgplayer: 241786
+			}
+		},
+	],
 }
 
 export default card

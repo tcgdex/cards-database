@@ -1,44 +1,31 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "瓦斯彈"
+		ja: "基本鋼エネルギー",
+		'zh-tw': "瓦斯彈",
 	},
 
-	illustrator: "miki kudo",
-	category: "Pokemon",
-	hp: 70,
-	types: ["Darkness"],
+	illustrator: "",
+	category: "Energy",
+	energyType: "Normal",
 
-	description: {
-		'zh-tw': "污濁的空氣是牠的美味大餐。據說在昔日的伽勒爾地區曾經存在著更多的瓦斯彈。"
+	effect: {
+		ja: "&copy;Pokémon/Nintendo/Creatures/GAME FREAK ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの商標です。 このホームページに掲載された画像その他の内容の無断転載はお断りします。",
 	},
 
-	stage: "Basic",
-
-	attacks: [{
-		name: {
-			'zh-tw': "濁霧"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 649777,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "將對手的戰鬥寶可夢【中毒】。"
-		},
+	rarity: "Promo",
+};
 
-		damage: 20,
-		cost: ["Darkness", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
-
-	retreat: 1,
-	regulationMark: "E"
-}
-
-export default card
+export default card;

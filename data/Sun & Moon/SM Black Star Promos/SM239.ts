@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Karippas GX"
 	},
 
-	rarity: "Rare",
+	illustrator: "PLANETA Tsuji",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 250,
 	types: ["Fighting"],
@@ -37,7 +38,7 @@ const card: Card = {
 			es: "Si este Pokémon tiene todos sus PS, cualquier daño infligido a este Pokémon por un ataque de tu rival se reduce en 50 (después de aplicar Debilidad y Resistencia).",
 			it: "Se questo Pokémon ha tutti i PS, i danni inflitti a questo Pokémon da un attacco del tuo avversario sono ridotti di 50, dopo aver applicato debolezza e resistenza.",
 			pt: "Se este Pokémon estiver com o PS cheio, qualquer dano causado a ele pelo ataque de um oponente será reduzido em 50 (após a aplicação de Fraqueza e Resistência).",
-			de: "Wenn dieses Pokémon volle KP hat, wird Schaden, der diesem Pokémon durch einen gegnerischen Angriff zugefügt wird, um 50 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+			de: "Wenn dieses Pokémon volle KP hat, werden diesem Pokémon durch Attacken deines Gegners 90 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 		}
 	}],
 
@@ -70,7 +71,7 @@ const card: Card = {
 			es: "Edad de Piedra GX",
 			it: "Età della Pietra GX",
 			pt: "Idade da Pedra GX",
-			de: "Steinzeit GX"
+			de: "Steinzeit-GX"
 		},
 
 		effect: {
@@ -90,7 +91,17 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 449113,
+				tcgplayer: 211451
+			}
+		}
+	],
 }
 
 export default card

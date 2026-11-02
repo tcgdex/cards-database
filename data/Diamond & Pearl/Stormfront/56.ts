@@ -56,7 +56,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 4 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 4 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10x",
 
@@ -80,7 +80,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		fr: "La petite boule renferme les délicieux nutriments sucrés dont il a besoin pour évoluer."
+		en: "The small ball holds the nutrients needed for evolution. Apparently, it is very sweet and tasty.",
+		fr: "La petite boule renferme les délicieux nutriments sucrés dont il a besoin pour évoluer.",
+		de: "Das kleine Bällchen enthält alles, was es für die Entwicklung braucht. Es ist süß und lecker."
 	},
 
 	thirdParty: {

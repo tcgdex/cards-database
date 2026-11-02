@@ -74,6 +74,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Claydol's beam can seize opponents and keep them from moving. Long-range attacks are its specialty!",
+	},
+
 	thirdParty: {
 		cardmarket: 282522,
 		tcgplayer: 97057

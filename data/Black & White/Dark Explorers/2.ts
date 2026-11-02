@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Bulbasaur",
-		fr: "Bulbizarre"
+		fr: "Bulbizarre",
+		de: "Bisasam"
 	},
 
 	stage: "Stage1",
@@ -41,11 +42,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleep Powder",
-				fr: "Poudre Dodo"
+				fr: "Poudre Dodo",
+				de: "Schlafpuder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -58,11 +61,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Poison Powder",
-				fr: "Poudre Toxik"
+				fr: "Poudre Toxik",
+				de: "Giftpuder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
-				fr: "Le Pokémon Défenseur est maintenant Empoisonné."
+				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 50,
 
@@ -85,10 +90,27 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 280330,
-		tcgplayer: 86304
-	}
+	description: {
+		en: "When the bud on its back starts swelling, a sweet aroma wafts to indicate the flower's coming bloom.",
+		de: "Sobald die Knospe auf seinem Rücken ein süßes Aroma abgibt, steht die Blüte kurz bevor."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280330,
+				tcgplayer: 86304
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280330,
+				tcgplayer: 86304
+			}
+		},
+	],
 }
 
 export default card

@@ -73,6 +73,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When the temperature cools in the evening, they emerge from water to seek food along the shore.",
+		de: "Wenn es am Abend kühler wird, kommen sie an Land, um nach Nahrung zu suchen."
+	},
+
 	thirdParty: {
 		cardmarket: 363497,
 		tcgplayer: 175387

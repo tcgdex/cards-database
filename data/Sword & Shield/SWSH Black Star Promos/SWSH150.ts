@@ -7,13 +7,32 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	category: "Pokemon",
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	regulationMark: "E",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 576503,
+				tcgplayer: 247296
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 697081,
+				tcgplayer: 475992
+			}
+		},
+	],
 
 	name: {
 		en: "Vaporeon V",
@@ -24,7 +43,7 @@ const card: Card = {
 		it: "Vaporeon V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	hp: 210,
 	types: ["Water"],
 
@@ -71,14 +90,8 @@ const card: Card = {
 			it: "Scambia questo Pokémon con uno della tua panchina."
 		}
 	}],
-
-	regulationMark: "E",
 	suffix: "V",
-	retreat: 2,
-
-	thirdParty: {
-		cardmarket: 576503
-	}
+	retreat: 2
 }
 
 export default card

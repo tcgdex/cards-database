@@ -23,7 +23,9 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Larvitar"
+		en: "Larvitar",
+		fr: "Embrylex",
+		de: "Larvitar"
 	},
 
 	description: {
@@ -31,7 +33,7 @@ const card: Card = {
 		fr: "Il est très fort, et sa carapace est aussi\ndure que la pierre. Lorsqu'il est furieux,\nses coups peuvent raser une montagne.",
 		es: "Su caparazón es duro como una piedra y muy\nresistente. Sus golpes pueden derribar montañas.",
 		it: "Il suo corpo è ricoperto da un guscio duro come\nla roccia ed è molto forte. Quando si infuria, è\ncapace di abbattere persino una montagna.",
-		de: "Es ist sehr stark und hat einen steinharten Panzer.\nGerät es außer Kontrolle, kann es Berge dem\nErdboden gleichmachen.",
+		de: "Es ist sehr stark und hat einen steinharten Panzer. Gerät es außer Kontrolle, kann es Berge dem Erdboden gleichmachen.",
 		'pt-br': "Seu casco é duro como rocha e muito forte.\nSuas pancadas podem derrubar uma montanha.",
 		ko: "암반 같은 단단한 껍질로\n둘러싸여 있지만 힘이 강해서\n난동을 부리면 산도 무너져 버린다."
 	},

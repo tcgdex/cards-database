@@ -91,6 +91,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its howls can be heard over six miles away. It emits all sorts of noises from the ports on its body.",
+		de: "Sein Heulen hört man in 10 km Entfernung. Es gibt alle Arten von Geräuschen von sich."
+	},
+
 	thirdParty: {
 		cardmarket: 281891,
 		tcgplayer: 94653

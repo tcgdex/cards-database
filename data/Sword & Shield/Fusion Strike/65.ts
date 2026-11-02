@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 60,
 	types: ["Water"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Anesaki Dynamic",
 
 	description: {
-		en: "Clamperl's pearls are exceedingly precious. They can be more than 10 times as costly as Shellder's pearls."
+		en: "Clamperl's pearls are exceedingly precious. They can be more than 10 times as costly as Shellder's pearls.",
+		de: "Seine Perle ist sehr kostbar. Es heißt, sie sei mindestens zehnmal so viel wert wie jene von Muschas."
 	},
 
 	attacks: [{
@@ -42,17 +49,23 @@ const card: Card = {
 		damage: 10
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582199,
-		tcgplayer: 253208
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582199,
+				tcgplayer: 253208
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582199,
+				tcgplayer: 253208
+			}
+		},
+	],
 }
 
 export default card

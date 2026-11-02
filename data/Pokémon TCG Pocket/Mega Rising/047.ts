@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Turtonator"
+		en: "Turtonator",
+		fr: "Boumata"
 	},
 
 	illustrator: "KEIICHIRO ITO",
@@ -24,14 +25,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Shell Trap"
+			en: "Shell Trap",
+			fr: "Carapiège"
 		},
 
 		damage: 40,
 		cost: ["Fire", "Fire"],
 
 		effect: {
-			en: "During your opponent's next turn, if this Pokémon is damaged by an attack, do 20 damage to the Attacking Pokémon."
+			en: "During your opponent's next turn, if this Pokémon is damaged by an attack, do 20 damage to the Attacking Pokémon.",
+			fr: "Pendant le prochain tour de votre adversaire, si ce Pokémon subit les dégâts d'une attaque, le Pokémon Attaquant subit 20 dégâts."
 		}
 	}],
 

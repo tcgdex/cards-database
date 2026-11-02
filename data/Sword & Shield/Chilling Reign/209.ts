@@ -67,12 +67,6 @@ const card: Card = {
 
 	retreat: 2,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "VMAX",
 	illustrator: "Mitsuhiro Arita",
@@ -83,15 +77,21 @@ const card: Card = {
 		es: "Tornadus V",
 		it: "Tornadus-V",
 		pt: "Tornadus V",
-		de: "Boreos-V"
+		de: "Boreos VMAX"
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 567317,
-		tcgplayer: 241807
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 567317,
+				tcgplayer: 241807
+			}
+		},
+	],
 }
 
 export default card

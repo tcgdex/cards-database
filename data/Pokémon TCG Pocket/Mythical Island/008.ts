@@ -22,7 +22,9 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Morelull"
+		en: "Morelull",
+		fr: "Spododo",
+		de: "Bubungus"
 	},
 
 	description: {
@@ -30,7 +32,7 @@ const card: Card = {
 		fr: "Il attire ses proies et les endort grâce au\nclignotement de ses spores. Il aspire ensuite\nleur énergie vitale du bout de ses doigts.",
 		es: "Atrae y duerme a su presa con la luz parpadeante\nde sus esporas y luego le absorbe la energía vital\ncon la punta de los dedos.",
 		it: "Attira a sé la preda con la luce intermittente\ndelle sue spore e l'addormenta. Poi ne succhia\nl'energia vitale con le estremità delle dita.",
-		de: "Mit blinkenden Sporen lullt es seine Beute\nin den Schlaf und saugt ihr dann über seine\nFingerspitzen die Lebenskraft aus.",
+		de: "Mit blinkenden Sporen lullt es seine Beute in den Schlaf und saugt ihr dann über seine Fingerspitzen die Lebenskraft aus.",
 		'pt-br': "Os seus esporos tremeluzentes atraem as presas e as deixam adormecidas.\nAssim que este Pokémon coloca a sua presa para dormir, drena a vitalidade\ndela com as pontas dos seus dedos.",
 		ko: "깜빡이는 포자의 빛으로\n먹이를 유인해서 잠들게 한다.\n손끝으로 생기를 흡수한다."
 	},
@@ -56,7 +58,7 @@ const card: Card = {
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi.",
 			es: "El Pokémon Activo de tu rival pasa a estar Dormido.",
 			it: "Il Pokémon attivo del tuo avversario viene addormentato.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt schläft.",
+			de: "Das Aktive Pokémon deines Gegners schläft jetzt.",
 			
 			ko: "상대의 배틀 포켓몬을 잠듦으로 만든다.",
 			'pt-br': "O Pokémon Ativo do seu oponente agora está Adormecido."

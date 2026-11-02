@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		281,
-	],
+	dexId: [281],
 
 	hp: 70,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Ralts",
-		fr: "Tarsal"
+		fr: "Tarsal",
+		de: "Trasla"
 	},
 
 	stage: "Stage1",
@@ -43,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, each Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, chaque Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei 'Kopf' sind alle Verteidigenden Pokémon jetzt verwirrt."
+				de: "Wirf eine Münze. Bei „Kopf“ sind alle Verteidigenden Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -59,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, put damage counters on the Defending Pokémon until it is 10 HP away from being Knocked Out.",
 				fr: "Lancez une pièce. Si c'est face, placez des marqueurs de dégât sur le Pokémon Défenseur jusqu'à ce qu'il ne lui reste plus que 10 PV.",
-				de: "Wirf eine Münze. Bei 'Kopf' legst du so viele Schadensmarken auf das Verteidigende Pokémon, dass es nur noch 10 Schadenspunkte davon entfernt ist, kampfunfähig zu werden."
+				de: "Wirf eine Münze. Bei „Kopf“ legst du so viele Schadensmarken auf das Verteidigende Pokémon, dass es nur noch 10 Schadenspunkte davon entfernt ist, kampfunfähig zu werden."
 			},
 
 		},
@@ -75,19 +74,24 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275683,
-		tcgplayer: 86460
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275683,
+				tcgplayer: 86460
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275683,
+				tcgplayer: 86460
+			}
 		},
-	]
+	],
+
 }
 
 export default card

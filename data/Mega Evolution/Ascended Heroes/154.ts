@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "rika",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [643],
 	hp: 130,
 	types: ["Dragon"],
 	stage: "Basic",
@@ -64,10 +65,37 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675966,
-		cardmarket: 869765
-	}
+	description: {
+		en: "According to myth, if people ignore truth and let themselves become consumed by greed, Reshiram will arrive to burn their kingdoms down.",
+		fr: "Selon un mythe, lorsque les gens ne font aucun cas de la Réalité et s'abandonnent à la cupidité, Reshiram rase le pays entier avec ses flammes.",
+		de: "Alte Mythen warnen, dass es alle Welt in Brand setzen wird, wenn die Menschen die Wirklichkeit missachten und der Gier verfallen."
+	},
+
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 869765,
+			tcgplayer: 675966
+		}
+	},
+	{
+		type: "reverse",
+		foil: "pokeball",
+		thirdParty: {
+			cardmarket: 870376,
+			tcgplayer: 676972
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870375,
+			tcgplayer: 677112
+		}
+	},
+],
 }
 
 export default card

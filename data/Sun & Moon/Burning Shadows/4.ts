@@ -62,10 +62,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299411,
-		tcgplayer: 138274
-	}
+	description: {
+		en: "During the day, it stays in the cold underground to avoid the sun. It grows by bathing in moonlight.",
+		de: "Tagsüber versteckt es sich in der kalten Erde, um die Sonne zu meiden. Es wächst im Mondschein."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299411,
+				tcgplayer: 138274
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299411,
+				tcgplayer: 138274
+			}
+		},
+	],
 }
 
 export default card

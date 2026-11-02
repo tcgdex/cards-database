@@ -86,10 +86,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 299474,
-		tcgplayer: 138558
-	}
+	description: {
+		en: "Desiring the strongest karate chop, they seclude themselves in mountains and train without sleeping.",
+		de: "Es lebt zurückgezogen in den Bergen und trainiert Tag und Nacht, um seinen Karateschlag zu perfektionieren."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299474,
+				tcgplayer: 138558
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299474,
+				tcgplayer: 138558
+			}
+		},
+	],
 }
 
 export default card

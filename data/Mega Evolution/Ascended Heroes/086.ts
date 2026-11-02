@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Mismagius"
 	},
 
+	evolveFrom: {
+		en: "Misdreavus",
+		fr: "Feuforêve",
+		es: "Misdreavus",
+		'es-mx': "Misdreavus",
+		de: "Traunfugil",
+		it: "Misdreavus",
+		pt: "Misdreavus",
+	},
+
 	illustrator: "nisimono",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [429],
 	hp: 110,
 	types: ["Psychic"],
 	stage: "Stage1",
@@ -47,13 +58,60 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675898,
-		cardmarket: 869697
-	}
+	description: {
+		en: "Its cries sound like incantations to torment the foe. It appears where you least expect it.",
+		fr: "Ce Pokémon tourmente ses ennemis avec son cri semblable à une incantation. Il apparaît toujours là où l'on s'y attend le moins.",
+		de: "Sein bizarrer, bannfluchartiger Ruf quält seine Gegner. Es verschwindet so plötzlich, wie es auftaucht."
+	},
+
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 869697,
+			tcgplayer: 675898
+		}
+	},
+	{
+		type: "normal",
+		stamp: ["player-rewards-program"],
+		thirdParty: {
+			cardmarket: 894173,
+			tcgplayer: 704442
+		}
+	},
+	{
+		type: "reverse",
+		foil: "duskball",
+		thirdParty: {
+			cardmarket: 870270,
+			tcgplayer: 676919
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870269,
+			tcgplayer: 677059
+		}
+	},
+],
 }
 
 export default card

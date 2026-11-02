@@ -4,6 +4,7 @@ import Set from "../Paldean Fates"
 const card: Card = {
 	dexId: [151],
 	set: Set,
+	cameoDexIds: [19, 43, 50, 60, 69],
 
 	name: {
 		en: "Mew ex",
@@ -64,19 +65,36 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751779,
+				tcgplayer: 534919,
+				cardtrader: 274416
+			}
+		},
+	],
 
+	suffix: "ex",
 	illustrator: "USGMEN",
 
-	thirdParty: {
-		cardmarket: 751779
-	}
+	
 }
 
 export default card

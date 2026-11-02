@@ -71,22 +71,7 @@ const card: Card = {
 				es: "Cambia este Pokémon por 1 de tus Pokémon en Banca. Si este Pokémon tiene por lo menos 2 Energías Lightning adicionales unidas a él (además de las del coste de este ataque), este ataque hace 100 puntos de daño más. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Scambia questo Pokémon con uno della tua panchina. Se questo Pokémon ha almeno due Energie Lightning extra assegnate, in aggiunta a quelle del costo di questo attacco, questo attacco infligge 100 danni in più. Non puoi usare più di un attacco GX a partita.",
 				pt: "Troque este Pokémon por 1 dos seus Pokémon no Banco. Se este Pokémon tiver pelo menos 2 Energias Lightning adicionais ligadas a ele (além do custo deste ataque), este ataque causará 100 pontos de dano a mais (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus. Wenn an dieses Pokémon mindestens 2 extra Lightning-Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), fügt diese Attacke 100 Schadenspunkte mehr zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
-			},
-			damage: "150+",
-
-		},
-		{
-			cost: [
-				"Lightning",
-				"Lightning",
-				"Colorless",
-			],
-			name: {
-				fr: "Tour d’Éclair-GX",
-			},
-			effect: {
-				fr: "Échangez ce Pokémon avec l’un de vos Pokémon de Banc. Si au moins 2 Énergies Lightning supplémentaires sont attachées à ce Pokémon (en plus du coût de cette attaque), cette attaque inflige 100 dégâts supplémentaires. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				de: "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus. Wenn an dieses Pokémon mindestens 2 extra {L}-Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), fügt diese Attacke 100 Schadenspunkte mehr zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: "150+",
 

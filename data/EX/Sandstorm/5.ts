@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Midori Harada",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		136,
-	],
+	dexId: [136],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -39,12 +38,12 @@ const card: Card = {
 			name: {
 				en: "Super Singe",
 				fr: "Ça sent le roussi!",
-				de: "Super Singe"
+				de: "Super-Versengung"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Burned."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: 20,
 
@@ -59,12 +58,12 @@ const card: Card = {
 			name: {
 				en: "Flamethrower",
 				fr: "Lance-flamme",
-				de: "Flamethrower"
+				de: "Flammenwurf"
 			},
 			effect: {
 				en: "Discard a Fire Energy card attached to Flareon.",
-				fr: "Défaussez une carte Énergie  attachée à Pyroli.",
-				de: "Discard a  Energy card attached to Flareon."
+				fr: "Défaussez une carte Énergie {R} attachée à Pyroli.",
+				de: "Entferne eine {R}-Energiekarte von Flamara und lege sie auf den Ablagestapel."
 			},
 			damage: 70,
 
@@ -81,19 +80,24 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275782,
-		tcgplayer: 85489
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275782,
+				tcgplayer: 85489
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275782,
+				tcgplayer: 85489
+			}
 		},
-	]
+	],
+
 }
 
 export default card

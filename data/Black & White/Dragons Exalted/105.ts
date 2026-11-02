@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				de: "Schnabel"
 			},
 
 			damage: 10,
@@ -59,10 +60,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280543,
-		tcgplayer: 89662
-	}
+	description: {
+		en: "It can't relax if it or its surroundings are not clean. It wipes of dirt with its wings.",
+		de: "Es kann nicht entspannen, wenn es oder seine Umgebung dreckig ist. Säubert alles mit den Flügeln."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280544,
+				tcgplayer: 89662
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280544,
+				tcgplayer: 89662
+			}
+		},
+	],
 }
 
 export default card

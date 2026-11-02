@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Croconaw",
 		fr: "Crocrodil",
+		de: "Tyracroc"
 	},
 
 	stage: "Stage2",
@@ -88,6 +89,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "It usually moves slowly, but it goes at blinding speed when it attacks and bites prey.",
+		de: "Eigentlich bewegt es sich langsam, doch seine Beute greift es blitzschnell an."
+	},
 
 	thirdParty: {
 		cardmarket: 302158,

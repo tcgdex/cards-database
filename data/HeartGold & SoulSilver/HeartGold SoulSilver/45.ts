@@ -4,7 +4,7 @@ import Set from '../HeartGold SoulSilver'
 const card: Card = {
 	name: {
 		en: "Mantine",
-		fr: "Demanta",
+		fr: "Démanta",
 		de: "Mantax"
 	},
 
@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		226,
-	],
+	dexId: [226],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Search your deck for a Water Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 				fr: "Cherchez un Pokémon Water dans votre deck, montrez-le à votre adversaire, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
-				de: "Durchsuche dein Deck nach 1 -Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach 1 {W}-Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -53,7 +51,7 @@ const card: Card = {
 				de: "Aquaschlag"
 			},
 			effect: {
-				en: "Mantine can’t attack during your next turn.",
+				en: "Mantine can't attack during your next turn.",
 				fr: "Demanta ne peut pas attaquer pendant votre prochain tour.",
 				de: "Mantax kann während deines nächsten Zuges nicht angreifen."
 			},
@@ -79,22 +77,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "As it majestically swims, it doesn’t care if Remoraid attach to it for scavenging its leftovers."
+		en: "As it majestically swims, it doesn’t care if Remoraid attach to it for scavenging its leftovers.",
+		de: "Da es so majestätisch schwimmt, schert es sich nicht um REMORAID, das seine Essensreste vertilgt."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87184,
+				cardmarket: 279017
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87184,
+				cardmarket: 279017
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279017,
-		tcgplayer: 87184
-	}
 }
 
 export default card

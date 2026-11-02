@@ -51,7 +51,7 @@ const card: Card = {
 				es: "Busca en tu baraja 1 carta de Energía Fire y únela a este Pokémon. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo una carta Energia Fire e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por 1 carta de Energia Fire no seu baralho e ligue-a a este Pokémon. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach 1 Fire-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach 1 {R}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 			},
 			damage: 20,
 
@@ -94,7 +94,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It kicks berries right off the branches of trees and then juggles them with its feet, practicing its footwork."
+		en: "It kicks berries right off the branches of trees and then juggles them with its feet, practicing its footwork.",
+		de: "Es pflückt Beeren von Ästen, ohne seine Hände zu benutzen, und jongliert sie mit den Füßen. Damit trainiert es seine Fußfertigkeiten."
 	},
 
 	dexId: [814],

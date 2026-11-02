@@ -1,22 +1,61 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "泰姆"
+		ja: "サナギラス",
+		'zh-tw': "泰姆",
 	},
 
-	illustrator: "Akira Komayama",
-	category: "Trainer",
+	illustrator: "Shiburingaru",
+	category: "Pokemon",
+	hp: 80,
+	types: ["Fighting"],
 
-	effect: {
-		'zh-tw': "從自己的手牌選擇1張寶可夢卡，向對手宣言那隻寶可夢的名稱後，翻到反面放置。對手回答那隻寶可夢的HP。將翻到反面的寶可夢卡翻到正面，若正確，則對手從牌庫抽出4張卡。若不正確，則自己從牌庫抽出4張卡。然後，將放置的卡放回自己的手牌。"
+	description: {
+		ja: "体内で 圧縮させた ガスを 勢いよく 噴出させ 飛んで 暴れまわる サナギだ。",
 	},
 
-	trainerType: "Supporter",
-	regulationMark: "H"
-}
+	stage: "Stage1",
 
-export default card
+	attacks: [
+		{
+			name: { ja: "いわおとし" },
+			damage: 20,
+			cost: ["Fighting"],
+		},
+		{
+			name: { ja: "ふんしゃタックル" },
+			damage: 60,
+			cost: ["Fighting", "Fighting"],
+			effect: {
+				ja: "自分のベンチポケモン1匹にも、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Grass", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 723907,
+				tcgplayer: 587851,
+			},
+		},
+	],
+
+	evolveFrom: {
+		ja: "ヨーギラス",
+	},
+
+	retreat: 1,
+	regulationMark: "G",
+	rarity: "Promo",
+	dexId: [247],
+};
+
+export default card;

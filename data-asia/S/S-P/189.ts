@@ -1,50 +1,66 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "蓋歐卡V"
+		ja: "エーフィVMAX",
+		'zh-tw': "蓋歐卡V",
 	},
 
-	illustrator: "PLANETA Tsuji",
+	illustrator: "Kouki Saitou",
 	category: "Pokemon",
-	hp: 230,
-	types: ["Water"],
-	stage: "Basic",
-	suffix: "V",
+	hp: 310,
+	types: ["Psychic"],
 
-	attacks: [{
-		name: {
-			'zh-tw': "二重飛濺"
+	stage: "VMAX",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: { ja: "たいようのけいじ" },
+			effect: {
+				ja: "このポケモンがいるかぎり、エネルギーがついている自分のポケモン全員は、相手のポケモンが使うワザの効果を受けない。（すでに受けている効果は、なくならない。）",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "對手的2隻寶可夢各受到50點傷害。[在備戰區不計算弱點・抵抗力。]"
+	attacks: [
+		{
+			name: {
+				ja: "ダイサイコ",
+				'zh-tw': "二重飛濺",
+			},
+			damage: "60×",
+			cost: ["Psychic", "Colorless", "Colorless"],
+			effect: {
+				ja: "相手の場のポケモンについているエネルギーの数×60ダメージ。",
+				'zh-tw': "對手的2隻寶可夢各受到50點傷害。[在備戰區不計算弱點・抵抗力。]",
+			},
 		},
+	],
 
-		cost: ["Water", "Colorless", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "水之颱風"
+	weaknesses: [{ type: "Darkness", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 564161,
+				tcgplayer: 597387,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用「水之颱風」。"
-		},
+	evolveFrom: {
+		ja: "エーフィV",
+	},
 
-		damage: 210,
-		cost: ["Water", "Colorless", "Colorless", "Colorless"]
-	}],
+	retreat: 2,
+	regulationMark: "E",
+	rarity: "Promo",
+	dexId: [196],
+};
 
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
-
-	retreat: 3,
-	regulationMark: "F"
-}
-
-export default card
+export default card;

@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Gapao",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [102],
 	hp: 60,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -47,13 +48,52 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 869688,
-		tcgplayer: 675889
-	}
+	description: {
+		en: "Using telepathy only fellow Exeggcute can pick up on, they always form a cluster of six.",
+		fr: "En utilisant un pouvoir télépathique que seuls les Noeunoeuf perçoivent, ses six têtes peuvent rester groupées en toutes circonstances.",
+		de: "Die Köpfe nutzen untereinander Telepathie, die nur sie wahrnehmen können, um stets eine Gruppe von sechs Exemplaren zu bilden."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869688,
+			tcgplayer: 675889
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870255,
+			tcgplayer: 677052
+		}
+	},
+	{
+		type: "reverse",
+		foil: "team-rocket",
+		thirdParty: {
+			cardmarket: 870256,
+			tcgplayer: 676912
+		}
+	},
+],
 }
 
 export default card

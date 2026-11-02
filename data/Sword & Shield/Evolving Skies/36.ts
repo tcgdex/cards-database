@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Sharpedo",
@@ -87,16 +81,29 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It drinks in seawater and jets it from its rear to propel itself. It's very sensitive to the scent of blood."
+		en: "It drinks in seawater and jets it from its rear to propel itself. It's very sensitive to the scent of blood.",
+		de: "Es schwimmt, indem es das Meerwasser, das es trinkt, aus seinem Hinterteil ausstößt. Für den Geruch von Blut ist es sehr empfänglich."
 	},
 
 	dexId: [319],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574060,
-		tcgplayer: 246844
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574060,
+				tcgplayer: 246844
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574060,
+				tcgplayer: 246844
+			}
+		},
+	],
 }
 
 export default card

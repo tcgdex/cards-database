@@ -78,6 +78,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A delectable aroma pours from its body. They are often swallowed whole by Toucannon lured by that wafting deliciousness.",
+		de: "Sein Körper verströmt einen köstlichen Duft, der leider seinen Fressfeind Tukanon anlockt. Dem kommt ein aromatischer Snack höchst gelegen."
+	},
+
 	thirdParty: {
 		cardmarket: 295326,
 		tcgplayer: 126889

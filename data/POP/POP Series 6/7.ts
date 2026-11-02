@@ -4,22 +4,21 @@ import Set from '../POP Series 6'
 const card: Card = {
 	name: {
 		en: "Gible",
-		fr: "Gible"
+		fr: "Griknot",
+		de: "Kaumalat"
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "Common",
+	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		443,
-	],
+	dexId: [443],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -33,15 +32,17 @@ const card: Card = {
 
 			name: {
 				en: "Surprise Attack",
-				fr: "Attaque surprise"
+				fr: "Attaque surprise",
+				de: "Sinelbeere"
 			},
 
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "Entferne am Ende deines Zuges 1 Schadensmarke von Kaumalat."
 			},
 
-			damage: 30
+			damage: 30,
 		},
 	],
 
@@ -51,20 +52,25 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85699,
+				cardmarket: 277892
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85699,
+				cardmarket: 277892
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277892,
-		tcgplayer: 85699
-	}
 }
 
 export default card

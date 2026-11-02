@@ -4,7 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Meditite",
-		fr: "Meditikka",
+		fr: "Méditikka",
 		de: "Meditie"
 	},
 
@@ -13,19 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		307,
-	],
+	dexId: [307],
 
 	hp: 50,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
-
-	evolveFrom: {
-		en: "Meditite",
-	},
 
 	stage: "Basic",
 
@@ -37,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Punch",
 				fr: "Koud'poing",
-				de: "Punch"
+				de: "Boxhieb"
 			},
 
 			damage: 10,
@@ -51,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Meditate",
 				fr: "Yoga",
-				de: "Meditate"
+				de: "Meditation"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
 				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur le Pokémon Défenseur.",
-				de: "Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+				de: "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf dem Verteidigenden Pokémon zu."
 			},
 			damage: "10+",
 
@@ -66,17 +60,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87278,
+				cardmarket: 275914
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87278,
+				cardmarket: 275914
+			},
 		},
 	],
 
-
-	retreat: 1,
-
-	thirdParty: {
-		tcgplayer: 87278,
-		cardmarket: 275914
-	}
 }
 
 export default card

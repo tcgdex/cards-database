@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Incineroar ex"
+		en: "Incineroar ex",
+		fr: "Félinferno-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Torracat"
+		en: "Torracat",
+		fr: "Matoufeu"
 	},
 
 	stage: "Stage2",
@@ -25,25 +27,29 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Fire Fang"
+			en: "Fire Fang",
+			fr: "Crocs Feu"
 		},
 
 		damage: 30,
 		cost: ["Fire"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Burned."
+			en: "Your opponent's Active Pokémon is now Burned.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Brûlé."
 		}
 	}, {
 		name: {
-			en: "Scar-Charged Smash"
+			en: "Scar-Charged Smash",
+			fr: "Frappe Balafre"
 		},
 
 		damage: "80+",
 		cost: ["Fire", "Fire", "Colorless"],
 
 		effect: {
-			en: "If this Pokémon has damage on it, this attack does 60 more damage."
+			en: "If this Pokémon has damage on it, this attack does 60 more damage.",
+			fr: "Si ce Pokémon a subi des dégâts, cette attaque inflige 60 dégâts de plus."
 		}
 	}],
 

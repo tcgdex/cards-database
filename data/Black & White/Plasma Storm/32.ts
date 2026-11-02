@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 20,
@@ -52,6 +53,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "They swarm any foe that invades their territory. Their sharp fangs can tear out boat hulls.",
+		de: "Sie begegnen jedem Gegner, der in ihr Revier eindringt, im Schwarm. Ihre Zähne durchdringen alles."
+	},
 
 	thirdParty: {
 		cardmarket: 280772,

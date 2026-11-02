@@ -1,22 +1,57 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "月光丘陵"
+		ja: "コライドン",
+		'zh-tw': "月光丘陵",
 	},
 
-	illustrator: "AYUMI ODASHIMA",
-	category: "Trainer",
+	illustrator: "Mina Nakai",
+	category: "Pokemon",
+	hp: 130,
+	types: ["Fighting"],
 
-	effect: {
-		'zh-tw': "雙方玩家在每個自己的回合時，可使用1次，若從自己的手牌將1張「基本【超】能量」卡丟棄，則可將自己的所有寶可夢各恢復「30」HP。"
+	description: {
+		ja: "拳で 大地を 引き裂いたと 古い 探検記に 記された ツバサノオウの 正体らしい。",
 	},
 
-	trainerType: "Stadium",
-	regulationMark: "G"
-}
+	stage: "Basic",
 
-export default card
+	attacks: [
+		{
+			name: { ja: "ツメできりさく" },
+			damage: 70,
+			cost: ["Colorless", "Colorless", "Colorless"],
+		},
+		{
+			name: { ja: "ランページファング" },
+			damage: 190,
+			cost: ["Fighting", "Fighting", "Fighting", "Colorless"],
+			effect: {
+				ja: "このポケモンについているエネルギーを3個選び、トラッシュする。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Psychic", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 695791,
+				tcgplayer: 587806,
+			},
+		},
+	],
+
+	retreat: 2,
+	regulationMark: "G",
+	rarity: "Promo",
+	dexId: [1007],
+};
+
+export default card;

@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				de: "Schnabel"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Wing Attack",
 				fr: "Cru-Aile",
+				de: "Flügelschlag"
 			},
 
 			damage: 20,
@@ -72,10 +74,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280511,
-		tcgplayer: 87657
-	}
+	description: {
+		en: "If spotted, it will lure an unwary person into chasing it, then lose the pursuer on mountain trails.",
+		de: "Wird es entdeckt, lockt es seinen Verfolger auf eine Jagd in die Berge, wo es ihn dann abschüttelt."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280511,
+				tcgplayer: 87657
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280511,
+				tcgplayer: 87657
+			}
+		},
+	],
 }
 
 export default card

@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Hypno",
@@ -92,16 +86,29 @@ const card: Card = {
 	},
 
 	description: {
-		en: "There are some Hypno that assist doctors with patients who can't sleep at night in hospitals."
+		en: "There are some Hypno that assist doctors with patients who can't sleep at night in hospitals.",
+		de: "Manchmal unterstützt es das medizinische Personal in Krankenhäusern, wenn Patienten an Schlaflosigkeit leiden."
 	},
 
 	dexId: [97],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574110,
-		tcgplayer: 246833
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574110,
+				tcgplayer: 246833
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574110,
+				tcgplayer: 246833
+			}
+		},
+	],
 }
 
 export default card

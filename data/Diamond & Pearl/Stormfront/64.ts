@@ -73,7 +73,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		fr: "Il muscle son corps en soulevant régulièrement un Gravalanch. Il est rompu à tous les arts martiaux."
+		en: "It hefts a Graveler repeatedly to strengthen its entire body. It uses every type of martial arts.",
+		fr: "Il muscle son corps en soulevant régulièrement un Gravalanch. Il est rompu à tous les arts martiaux.",
+		de: "Es hebt GEOROK hoch, um seinen Körper zu trainieren. Außerdem übt es sich in jeder Art von Kampfsport."
 	},
 
 	thirdParty: {

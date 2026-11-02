@@ -62,22 +62,40 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "The flame on its tail shows the strength of its life-force. If Charmander is weak, the flame also burns weakly.",
+		fr: "La flamme au bout de sa queue représente sa vitalité. Quand Salamèche n'est pas au meilleur de sa forme, elle faiblit.",
+		de: "Die Flamme an seiner Schwanzspitze zeigt seine Lebensenergie an. Geht es ihm nicht gut, wird die Flamme schwächer."
+	},
+
+	illustrator: "HYOGONOSUKE",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857586,
+				tcgplayer: 662143,
+				cardtrader: 356795
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857586,
+				tcgplayer: 662143,
+				cardtrader: 356795
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857586,
-		tcgplayer: 662143
-	}
 }
 
 export default card

@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "tetsuya koizumi",
 
 	description: {
-		en: "Living on muddy ground that provides poor footing has made its legs sturdy."
+		en: "Living on muddy ground that provides poor footing has made its legs sturdy.",
+		de: "Der zähe Morast seiner Heimat hat seine Beine gestählt und ihnen gewaltige Kraft verliehen."
 	},
 
 	attacks: [{
@@ -74,17 +81,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582197,
-		tcgplayer: 253201
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582197,
+				tcgplayer: 253201
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582197,
+				tcgplayer: 253201
+			}
+		},
+	],
 }
 
 export default card

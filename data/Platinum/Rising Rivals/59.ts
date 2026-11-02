@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		133,
-	],
+	dexId: [133],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -65,22 +63,30 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278633,
-		tcgplayer: 85086
+	description: {
+		en: "Because its genetic makeup is irregular, it quickly changes its form due to a variety of causes.",
+		de: "Aufgrund einer genetischen Anomalie kann es sehr schnell seine Form verändern."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278633,
+				tcgplayer: 85086
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278633,
+				tcgplayer: 85086
+			}
+		},
+	],
+
 }
 
 export default card

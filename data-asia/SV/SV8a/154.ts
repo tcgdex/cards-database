@@ -24,6 +24,22 @@ const card: Card = {
 		'zh-cn': "附有這張卡的【中毒】的寶可夢使用的招式，對對手的戰鬥寶可夢造成的傷害「+40」點。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803267,
+				tcgplayer: 602585,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602586,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "H"
 }

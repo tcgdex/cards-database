@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "cochi8i",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [627],
 	hp: 70,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -47,13 +48,52 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675985,
-		cardmarket: 869784
-	}
+	description: {
+		en: "With its sharp claws, this Pokémon pierces its prey, and then it pecks at them. Although it also consumes berries, it’s a carnivore at heart.",
+		fr: "Il agrippe ses proies avec ses serres effilées et les picore. Il lui arrive de manger des Baies, mais au fond c'est un carnivore.",
+		de: "Mit seinen scharfen Fängen packt es seine Beute und pickt danach. Generell ist es ein Fleischfresser, es isst aber auch Beeren."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869784,
+			tcgplayer: 675985
+		}
+	},
+	{
+		type: "reverse",
+		foil: "pokeball",
+		thirdParty: {
+			cardmarket: 870404,
+			tcgplayer: 676986
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870403,
+			tcgplayer: 677126
+		}
+	},
+],
 }
 
 export default card

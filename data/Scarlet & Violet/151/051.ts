@@ -56,18 +56,42 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its three heads bob separately up and down to loosen the soil nearby, making it easier for it to burrow.",
+		de: "Seine drei Köpfe bewegen sich abwechselnd hinauf und hinunter, um das Erdreich um sich herum zu lockern und leichter graben zu können."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733646,
+				tcgplayer: 516216,
+				cardtrader: 261171
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733646,
+				tcgplayer: 516216,
+				cardtrader: 261171
+			}
+		},
+	],
 
 	illustrator: "Miki Tanaka",
 
-	thirdParty: {
-		cardmarket: 733646
-	}
+	
 }
 
 export default card

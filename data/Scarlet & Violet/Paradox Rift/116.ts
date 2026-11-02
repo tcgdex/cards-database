@@ -57,18 +57,42 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its favorite places are unsanitary ones. If you leave trash lying around, you could even find one of these Pokémon living in your room.",
+		de: "Es liebt schmutzige Orte. Angeblich zieht es auch in menschliche Behausungen ein, wenn man zu viel Müll herumliegen lässt."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740640,
+				tcgplayer: 523790,
+				cardtrader: 265229
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740640,
+				tcgplayer: 523790,
+				cardtrader: 265229
+			}
+		},
+	],
 
 	illustrator: "Miki Tanaka",
 
-	thirdParty: {
-		cardmarket: 740640
-	}
+	
 }
 
 export default card

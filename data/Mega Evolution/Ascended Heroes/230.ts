@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Vikavolt"
 	},
 
+	evolveFrom: {
+		en: "Charjabug",
+		fr: "Chrysapile",
+		es: "Charjabug",
+		'es-mx': "Charjabug",
+		de: "Akkup",
+		it: "Charjabug",
+		pt: "Charjabug",
+	},
+
 	illustrator: "Tonji Matsuno",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [738],
 	hp: 160,
 	types: ["Lightning"],
 	stage: "Stage2",
@@ -61,13 +72,30 @@ const card: Card = {
 		damage: 240
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 676042,
-		cardmarket: 869841
-	}
+	description: {
+		en: "When carrying a Charjabug, Vikavolt can receive electricity from it and then rapidly fire powerful electromagnetic beams from its large jaws.",
+		fr: "Il transporte un Chrysapile pour se charger en électricité. Ses grandes mandibules peuvent alors tirer une rafale de rayons électromagnétiques.",
+		de: "Trägt es ein Akkup, wird es von diesem mit Strom versorgt, den es als starke elektromagnetische Strahlen aus seinem großen Kiefer abfeuert."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869841,
+				tcgplayer: 676042
+			}
+		}
+	],
 }
 
 export default card

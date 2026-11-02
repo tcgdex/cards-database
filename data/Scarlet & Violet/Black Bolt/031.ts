@@ -73,10 +73,54 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 835961
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835961,
+				tcgplayer: 642483
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835961,
+				tcgplayer: 642483
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836335,
+				tcgplayer: 642728
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836336,
+				tcgplayer: 642655
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 864358,
+				tcgplayer: 671320
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["gym-challenge"],
+			thirdParty: {
+				tcgplayer: 714873
+			}
+		},
+	],
 }
 
 export default card

@@ -4,7 +4,7 @@ import Set from '../Unleashed'
 const card: Card = {
 	name: {
 		en: "Roselia",
-		fr: "Roselia",
+		fr: "Rosélia",
 		de: "Roselia"
 	},
 
@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		315,
-	],
+	dexId: [315],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -38,9 +36,9 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. This attack does 20 damage times the number of heads. Roselia is now Confused.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face. Roselia est maintenant Confus.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu. Roselia ist jetzt verwirrt."
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu. Roselia ist jetzt verwirrt."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
@@ -55,22 +53,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Roselia that drink nutritionally rich springwater are said to reveal rare coloration when they bloom."
+		en: "Roselia that drink nutritionally rich springwater are said to reveal rare coloration when they bloom.",
+		de: "Gibt man ihm besonders nahrhaftes Quellwasser zu trinken, entwickelt es Blüten in seltenen Farben."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88823,
+				cardmarket: 279217
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88823,
+				cardmarket: 279217
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279217,
-		tcgplayer: 88823
-	}
 }
 
 export default card

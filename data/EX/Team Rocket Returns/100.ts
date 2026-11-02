@@ -4,7 +4,7 @@ import Set from '../Team Rocket Returns'
 const card: Card = {
 	name: {
 		en: "Rocket's Moltres ex",
-		de: "Rockets Lavados ex"
+		de: "Rockets Lavados-ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -22,7 +22,7 @@ const card: Card = {
 		"Darkness",
 	],
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -81,16 +81,17 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276392,
-		tcgplayer: 88782
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 276392,
+				tcgplayer: 88782
+			},
 		},
-	]
+	],
+
 }
 
 export default card

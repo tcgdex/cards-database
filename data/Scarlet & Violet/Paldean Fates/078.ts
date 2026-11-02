@@ -22,21 +22,34 @@ const card: Card = {
 		es: "Tu rival enseña las cartas de su mano, y tú robas 2 cartas por cada carta de Partidario que encuentres entre ellas.",
 		it: "Il tuo avversario mostra le carte che ha in mano e tu peschi due carte per ogni carta Aiuto presente tra quelle carte.",
 		pt: "Seu oponente revela a mão dele e você compra 2 cartas para cada carta de Apoiador que encontrar lá.",
-		de: "Dein Gegner zeigt dir seine Handkarten und du ziehst 2 Karten für jede Unterstützerkarte, die du dort findest."
+		de: "Dein Gegner zeigt dir seine Handkarten und du ziehst 2 Karten für jede Unterstützerkarte, die du dort findest. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751616,
+				tcgplayer: 534440,
+				cardtrader: 274262
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751616,
+				tcgplayer: 534440,
+				cardtrader: 274262
+			}
+		},
+	],
 
 	illustrator: "GOSSAN",
 
-	thirdParty: {
-		cardmarket: 751616
-	}
+	
 }
 
 export default card

@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Jubeldorf"
 	},
 
+	illustrator: "Oswaldo KATO",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -22,23 +23,29 @@ const card: Card = {
 		es: "Una vez durante el turno de cada jugador, ese jugador puede poner las cartas de su mano en su baraja, barajarlas todas y robar 5 cartas. Si lo hace, su turno termina.",
 		it: "Una sola volta durante il turno di ciascun giocatore, quel giocatore può rimischiare le carte che ha in mano nel proprio mazzo e pescare cinque carte. Se lo fa, il suo turno finisce.",
 		pt: "Uma vez durante o turno de cada jogador, aquele jogador poderá embaralhar a própria mão no próprio baralho e comprar 5 cartas. Se fizer isto, o turno daquele jogador acabará.",
-		de: "Einmal während des Zuges jedes Spielers kann jener Spieler seine Handkarten in sein Deck mischen und 5 Karten ziehen. Wenn er das macht, endet sein Zug."
+		de: "Einmal während des Zuges jedes Spielers kann jener Spieler seine Handkarten in sein Deck mischen und 5 Karten ziehen. Wenn er das macht, endet sein Zug. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658809,
-		tcgplayer: 272400
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658809,
+				tcgplayer: 272400
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658809,
+				tcgplayer: 272400
+			}
+		},
+	],
 }
 
 export default card

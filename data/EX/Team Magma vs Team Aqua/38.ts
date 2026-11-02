@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		111,
-	],
+	dexId: [111],
 
 	hp: 50,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Double Damage",
 				fr: "Double dégâts",
-				de: "Double Damage"
+				de: "Doppelschaden"
 			},
 			effect: {
 				en: "Does 10 damage to each Defending Pokémon.",
 				fr: "Inflige 10 dégâts à chaque Pokémon Défenseur.",
-				de: "Does 10 damage to each Defending Pokémon."
+				de: "Fügt allen Verteidigenden Pokémon 10 Schadenspunkte zu."
 			},
 
 		},
@@ -51,12 +49,12 @@ const card: Card = {
 			name: {
 				en: "Horn Rush",
 				fr: "Ruée de corne",
-				de: "Horn Rush"
+				de: "Rammhorn"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Flip a coin. If tails, this attack does nothing."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 60,
 
@@ -70,22 +68,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276015,
-		tcgplayer: 89842
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275815,
+				tcgplayer: 89842
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275815,
+				tcgplayer: 89842
+			}
+		},
+	],
+
 }
 
 export default card

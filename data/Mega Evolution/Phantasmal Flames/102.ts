@@ -48,19 +48,32 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "It's dangerous for Wooper to travel alone. They line up in groups of three or four and help each other as they walk around the wetlands.",
+		fr: "Comme il est dangereux pour eux de se déplacer seuls, les Axoloto forment des groupes de trois ou quatre et parcourent les marais à la queue leu leu.",
+		de: "Da allein zu reisen für sie zu gefährlich ist, durchstreifen sie Sümpfe in Reihen aus drei bis vier Exemplaren und helfen dabei einander."
+	},
+
+	illustrator: "OKACHEKE",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857677,
+				tcgplayer: 662209,
+				cardtrader: 356888
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857677,
-		tcgplayer: 662209
-	}
 }
 
 export default card

@@ -55,18 +55,41 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751544,
+				tcgplayer: 534161,
+				cardtrader: 274201
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751544,
+				tcgplayer: 534161,
+				cardtrader: 274201
+			}
+		},
+	],
 
 	illustrator: "rika",
 
-	thirdParty: {
-		cardmarket: 751544
-	}
+	description: {
+		en: "Frigibax absorbs heat through its dorsal fin and converts the heat into ice energy. The higher the temperature, the more energy Frigibax stores.",
+		de: "Mit seiner Rückenflosse absorbiert es Wärme und wandelt diese in Eis-Energie um. Je wärmer es ist, desto mehr Energie kann es speichern."
+	},
+
 }
 
 export default card

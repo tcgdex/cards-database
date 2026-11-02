@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Bibarel"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Colorless"],
@@ -76,16 +76,32 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
 	description: {
 		en: "It makes its nest by damming streams with bark and mud. It is known as an industrious worker."
 	},
-
-	thirdParty: {
-		cardmarket: 606602
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 606602,
+				tcgplayer: 264280
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"]
+		},
+	],
 }
 
 export default card

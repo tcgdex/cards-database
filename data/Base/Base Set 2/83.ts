@@ -41,16 +41,23 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 274006
+
+	description: {
+		en: "Stiffens its ears to sense danger. The larger, more powerful of its horns secretes venom.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
-		}
-	]
+			thirdParty: {
+				cardmarket: 274006,
+				tcgplayer: 42534
+			}
+		},
+	],
 }
 
 export default card

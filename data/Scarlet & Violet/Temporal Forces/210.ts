@@ -4,6 +4,8 @@ import Set from "../Temporal Forces"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [448, 454, 766, 979],
+
 	name: {
 		en: "Eri",
 		fr: "Nèflie",
@@ -30,15 +32,16 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760840,
+				tcgplayer: 542931
+			}
+		},
 	],
 
 	illustrator: "DOM",
 
-	thirdParty: {
-		cardmarket: 760840
-	}
 }
 
 export default card

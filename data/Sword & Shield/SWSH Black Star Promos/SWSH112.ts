@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Cinderace"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	dexId: [815],
 	hp: 170,
 	types: ["Fire"],
@@ -88,18 +88,22 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 450578
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 566760,
+				tcgplayer: 240891
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"]
+		},
+	],
 }
 
 export default card

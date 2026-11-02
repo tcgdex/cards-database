@@ -3,26 +3,25 @@ import Set from '../Pokémon Rumble'
 
 const card: Card = {
 	name: {
-		en: "Venusaur",
+		en: "Venusaur"
 	},
 
 	illustrator: undefined,
 	rarity: "None",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [147],
 
-	dexId: [
-		3,
-	],
+	dexId: [3],
 
 	hp: 140,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
-		en: "Ivysaur",
+		en: "Ivysaur"
 	},
 
 	stage: "Stage2",
@@ -36,10 +35,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Giga Drain",
+				en: "Giga Drain"
 			},
 			effect: {
-				en: "Remove from Venusaur the number of damage counters equal to the damage you did to the Defending Pokémon.",
+				en: "Remove from Venusaur the number of damage counters equal to the damage you did to the Defending Pokémon."
 			},
 			damage: 50,
 
@@ -49,17 +48,19 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 4,
 
-	thirdParty: {
-		cardmarket: 278842
-	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278842,
+				tcgplayer: 90320
+			}
 		}
 	]
 }

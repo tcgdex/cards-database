@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Salandit",
-		fr: "Tritox"
+		fr: "Tritox",
+		de: "Molunk"
 	},
 
 	suffix: "GX",
@@ -86,7 +87,7 @@ const card: Card = {
 				es: "Niebla Regia GX",
 				it: "Foschia della Regina GX",
 				pt: "Névoa da Rainha GX",
-				de: "Dunst der Königin GX"
+				de: "Dunst der Königin-GX"
 			},
 			effect: {
 				en: "Discard all Energy from your opponent’s Active Pokémon. (You can’t use more than 1 GX attack in a game.)",
@@ -107,7 +108,17 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2
+	retreat: 2,
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 313454,
+				tcgplayer: 148429
+			}
+		}
+	],
 }
 
 export default card

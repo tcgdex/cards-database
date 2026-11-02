@@ -11,14 +11,18 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	thirdParty: {
-		cardmarket: 274027,
-		tcgplayer: 42554
+	effect: {
+		en: "You and your opponent show each other your hands, then shuffle all the Trainer cards from your hands into your decks.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274027,
+				tcgplayer: 42554
+			}
 		}
 	]
 }

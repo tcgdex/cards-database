@@ -81,6 +81,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its long tail often breaks off. It doesn't really feel any pain, though, and the tail grows back, so Slowpoke isn't particularly bothered.",
+		de: "Seine Rute bricht sehr leicht ab. Dies kümmert es jedoch wenig, da es dabei keine Schmerzen spürt und sie sofort wieder nachwächst."
+	},
+
 	thirdParty: {
 		cardmarket: 297510,
 		tcgplayer: 130954

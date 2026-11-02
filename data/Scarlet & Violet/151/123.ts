@@ -57,18 +57,42 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It slashes through grass with its sharp scythes, moving too fast for the human eye to track.",
+		de: "Es bahnt sich mit seinen scharfen Sicheln so schnell einen Weg durch das Gras, dass es dabei für das menschliche Auge unsichtbar ist."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733718,
+				tcgplayer: 516686,
+				cardtrader: 261215
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733718,
+				tcgplayer: 516686,
+				cardtrader: 261215
+			}
+		},
+	],
 
 	illustrator: "Hideki Ishikawa",
 
-	thirdParty: {
-		cardmarket: 733666
-	}
+	
 }
 
 export default card

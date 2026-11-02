@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 60,
 	types: ["Fighting"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "sowsow",
 
 	description: {
-		en: "If one gets angry, all the others around it will get angry, so silence is a rare visitor in a troop of Mankey."
+		en: "If one gets angry, all the others around it will get angry, so silence is a rare visitor in a troop of Mankey.",
+		de: "Wird es wütend, färbt das auch auf seine Kameraden ab. In einer Schar von Menki kehrt daher niemals Ruhe ein."
 	},
 
 	attacks: [{
@@ -42,17 +49,23 @@ const card: Card = {
 		damage: 10
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582711,
-		tcgplayer: 253334
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582711,
+				tcgplayer: 253334
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582711,
+				tcgplayer: 253334
+			}
+		},
+	],
 }
 
 export default card

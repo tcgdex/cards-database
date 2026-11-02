@@ -12,18 +12,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		93,
-	],
+	dexId: [93],
 	
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Gastly",
+		de: "Nebulak"
 	},
 
 	stage: "Stage1",
@@ -75,19 +74,28 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278913,
-		tcgplayer: 86030
+	description: {
+		en: "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
+		de: "Lauert in der Dunkelheit. Die Berührung seiner gasförmigen Hand erzeugt endloses Schaudern."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86030,
+				cardmarket: 278913
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278913,
+				tcgplayer: 86030
+			}
+		},
+	],
+
 }
 
 export default card

@@ -56,23 +56,30 @@ const card: Card = {
 	types: ["Lightning"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people."
+		en: "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people.",
+		de: "Dieses Pokémon wird oftmals mit einem Pokéball verwechselt. Es lebt vorwiegend in Kraftwerken."
 	},
 
-	thirdParty: {
-		cardmarket: 457713,
-		tcgplayer: 213137
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457713,
+				tcgplayer: 213137
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457713,
+				tcgplayer: 213137
+			}
+		},
+	],
 }
 
 export default card

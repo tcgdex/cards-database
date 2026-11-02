@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kingler VMAX"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 330,
@@ -48,7 +49,7 @@ const card: Card = {
 			es: "Busca en tu baraja hasta 5 cartas de Energía Water y únelas a tus Pokémon de la manera que desees. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo fino a cinque carte Energia Water e assegnale ai tuoi Pokémon nel modo che preferisci. Poi rimischia le carte del tuo mazzo.",
 			pt: "Procure por até 5 cartas de Energia Water no seu baralho e ligue-as aos seus Pokémon como desejar. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach bis zu 5 Water-Energiekarten und lege sie beliebig an deine Pokémon an. Mische anschließend dein Deck."
+			de: "Durchsuche dein Deck nach bis zu 5 {W}-Energiekarten und lege sie beliebig an deine Pokémon an. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Water", "Water", "Colorless"],
@@ -74,20 +75,25 @@ const card: Card = {
 		damage: 240
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608479,
-		tcgplayer: 263728
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608479,
+				tcgplayer: 263728
+			}
+		},
+	],
 }
 
 export default card

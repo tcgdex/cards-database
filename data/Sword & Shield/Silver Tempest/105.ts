@@ -4,6 +4,7 @@ import Set from "../Silver Tempest"
 const card: Card = {
 	dexId: [169],
 	set: Set,
+	cameoDexIds: [41, 42],
 
 	name: {
 		en: "Crobat",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Iksbat"
 	},
 
+	illustrator: "Yuya Oka",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 130,
@@ -74,20 +76,37 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "Both of its legs have turned into wings. Without a sound, Crobat flies swiftly toward its prey and sinks its fangs into the nape of its target's neck.",
+		de: "Seine zwei Beine wurden zu Flügeln. Es fliegt schnell und lautlos zu seiner Beute, um ihr dann die Zähne in den Nacken zu bohren."
 	},
 
-	thirdParty: {
-		cardmarket: 682152,
-		tcgplayer: 451759
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682152,
+				tcgplayer: 451759
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682152,
+				tcgplayer: 451759
+			}
+		},
+	],
 }
 
 export default card

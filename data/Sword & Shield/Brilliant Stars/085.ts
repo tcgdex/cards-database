@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Sleimok"
 	},
 
+	illustrator: "Scav",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,
@@ -48,7 +49,7 @@ const card: Card = {
 			es: "El Coste de Retirada de los Pokémon Envenenados de tu rival es de Colorless más.",
 			it: "Il costo di ritirata dei Pokémon avvelenati del tuo avversario aumenta di Colorless.",
 			pt: "O custo de Recuo dos Pokémon Envenenados do seu oponente é Colorless a mais.",
-			de: "Die Rückzugskosten der vergifteten Pokémon deines Gegners erhöhen sich um Colorless."
+			de: "Die Rückzugskosten der vergifteten Pokémon deines Gegners erhöhen sich um {C}."
 		}
 	}],
 
@@ -76,20 +77,37 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Because they scatter germs everywhere, they've long been targeted for extermination, leading to a steep decline in their population.",
+		de: "Da es Krankheitskeime verbreitet, hat man lange versucht, es auszurotten. Heute sieht man es daher nur noch selten."
 	},
 
-	thirdParty: {
-		cardmarket: 608535,
-		tcgplayer: 263801
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608535,
+				tcgplayer: 263801
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608535,
+				tcgplayer: 263801
+			}
+		},
+	],
 }
 
 export default card

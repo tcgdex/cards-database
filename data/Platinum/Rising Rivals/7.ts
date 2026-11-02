@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Kenkichi Toyama",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		385,
-	],
+	dexId: [385],
 
 	hp: 60,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Once during your opponent's turn, if Jirachi would be Knocked Out by damage from an attack, you may search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.",
 				fr: "Une seule fois lors du tour de votre adversaire, si Jirachi est mis K.O par des dégâts d'une attaque, vous pouvez choisir 1 carte dans votre deck et la placer dans votre main. Ensuite, mélangez votre deck.",
 				de: "Einmal während des Zuges deines Gegners kannst du, wenn Jirachi durch Schaden eines Angriffs kampfunfähig würde, dein Deck nach 1 Karte durchsuchen und sie auf die Hand nehmen. Mische dein Deck danach."
-			},
+			}
 		},
 	],
 
@@ -81,27 +79,30 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 278581,
-		tcgplayer: 86329
-	},
-
+	retreat: 0,
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278581,
+				tcgplayer: 86329
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278581,
+				tcgplayer: 86329
+			}
+		},
+	],
+
 }
 
 export default card

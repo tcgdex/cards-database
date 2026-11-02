@@ -4,7 +4,6 @@ import Set from '../Arceus'
 const card: Card = {
 	name: {
 		en: "Arceus",
-		fr: "Arceus",
 		de: "Arceus"
 	},
 
@@ -13,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		493,
-	],
+	dexId: [493],
 
 	hp: 80,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -34,13 +31,11 @@ const card: Card = {
 			],
 			name: {
 				en: "Break Ground",
-				fr: "Casseur de sol",
 				de: "Boden gewinnen"
 			},
 			effect: {
 				en: "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
-				fr: "Inflige 10 dégâts à chacun de vos Pokémon de Banc. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Dieser Angriff fügt jeden Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Dieser Angriff fügt jedem Pokémon auf deiner Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 
@@ -63,13 +58,18 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278861
+	description: {
+		en: "It is said to have emerged from an egg in a place where there was nothing, then shaped the world.",
+		de: "Man sagt, es sei im Nichts aus einem Ei geschlüpft und habe dann die Welt geformt."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278861,
+				tcgplayer: 83599
+			}
 		}
 	]
 }

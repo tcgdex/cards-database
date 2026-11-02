@@ -1,50 +1,66 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "皮卡丘"
+		ja: "ムゲンダイナVMAX",
+		'zh-tw': "皮卡丘",
 	},
 
-	illustrator: "Hitoshi Ariga",
+	illustrator: "5ban Graphics",
 	category: "Pokemon",
-	hp: 60,
-	types: ["Lightning"],
+	hp: 340,
+	types: ["Darkness"],
 
-	description: {
-		'zh-tw': "最近發表了聚集大量皮卡丘來建造發電廠的計畫。"
+	stage: "VMAX",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: { ja: "ムゲンゾーン" },
+			effect: {
+				ja: "自分の場のポケモン全員が[悪]タイプならはたらく。自分のベンチに出せる[悪]ポケモンの数は8匹になり、別のタイプは場に出せない。（この特性がはたらかなくなったとき、ベンチが5匹になるまでトラッシュする。）",
+			},
+		},
+	],
+
+	attacks: [
+		{
+			name: {
+				ja: "ドレッドエンド",
+				'zh-tw': "搖尾巴",
+			},
+			damage: "30×",
+			cost: ["Darkness", "Colorless"],
+			effect: {
+				ja: "自分の場の[悪]ポケモンの数×30ダメージ。",
+				'zh-tw': "擲1次硬幣若為正面，則在下個對手的回合，受到這個招式的寶可夢無法使用招式。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 468284,
+				tcgplayer: 597291,
+			},
+		},
+	],
+
+	evolveFrom: {
+		ja: "ムゲンダイナV",
 	},
 
-	stage: "Basic",
+	retreat: 3,
+	regulationMark: "D",
+	rarity: "Promo",
+	dexId: [890],
+};
 
-	attacks: [{
-		name: {
-			'zh-tw': "搖尾巴"
-		},
-
-		effect: {
-			'zh-tw': "擲1次硬幣若為正面，則在下個對手的回合，受到這個招式的寶可夢無法使用招式。"
-		},
-
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "皮卡伏特"
-		},
-
-		damage: 50,
-		cost: ["Lightning", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
-
-	retreat: 1,
-	regulationMark: "D"
-}
-
-export default card
+export default card;

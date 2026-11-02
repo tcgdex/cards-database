@@ -92,23 +92,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It lives in forests and fields. Squabbles over territory occur when flocks collide."
+		en: "It lives in forests and fields. Squabbles over territory occur when flocks collide.",
+		de: "Es lebt in Wäldern und auf Wiesen. Treffen Schwärme aufeinander, streiten sie sich um das Revier."
 	},
 
-	thirdParty: {
-		cardmarket: 483609,
-		tcgplayer: 219354
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483609,
+				tcgplayer: 219354
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483609,
+				tcgplayer: 219354
+			}
+		},
+	],
 }
 
 export default card

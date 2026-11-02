@@ -4,7 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Quaquaval",
+		en: "Quaquaval",
+		fr: "Palmaval",
+		es: "Quaquaval",
+		it: "Quaquaval",
+		pt: "Quaquaval",
+		de: "Bailonda"
   },
   illustrator: "Kouki Saitou",
   rarity: "Three Diamond",
@@ -13,7 +18,12 @@ const card: Card = {
   types: ["Water"],
   dexId: [914],
   evolveFrom: {
-    en: "Quaxwell",
+		fr: "Canarbello",
+		en: "Quaxwell",
+		es: "Quaxwell",
+		it: "Quaxwell",
+		pt: "Quaxwell",
+		de: "Fuentente"
   },
   description: {
     en: "Dancing in ways that evoke far-away places, this Pokémon mesmerizes all that see it. Flourishes of its decorative water feathers slice into its foes.",
@@ -34,6 +44,11 @@ const card: Card = {
     {
       name: {
         en: "Hydro Kick",
+        fr: "Pied Hydro",
+        es: "Hidropatada",
+        it: "Idrocalcio",
+        pt: "Chute d'Água",
+        de: "Hydrokick"
       },
       damage: 90,
       cost: ["Water", "Water", "Colorless"],

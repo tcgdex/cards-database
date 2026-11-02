@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Scout",
 				fr: "Espionnage",
+				de: "Späher"
 			},
 			effect: {
 				en: "Your opponent reveals his or her hand.",
 				fr: "Votre adversaire montre sa main.",
+				de: "Dein Gegner deckt seine Handkarten auf."
 			},
 
 		},
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Heart Stamp",
 				fr: "Crèvecœur",
+				de: "Herzstempel"
 			},
 
 			damage: 20,
@@ -74,10 +77,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280657,
-		tcgplayer: 90627
-	}
+	description: {
+		en: "The heart-shaped mark left on a body after a Woobat has been attached to it is said to bring good fortune.",
+		de: "Es verheißt Glück, wenn sich ein Fleknoil an einem Menschen festsaugt und auf ihm einen herzförmigen Fleck hinterlässt."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280657,
+				tcgplayer: 90627
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280657,
+				tcgplayer: 90627
+			}
+		},
+	],
 }
 
 export default card

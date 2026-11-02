@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Fiaro"
 	},
 
+	illustrator: "KEIICHIRO ITO",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 140,
@@ -74,20 +75,37 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Talonflame mainly preys upon other bird Pokémon. To intimidate opponents, it sends embers spewing from gaps between its feathers.",
+		de: "Fiaro ernährt sich vor allem von Vogel-Pokémon. Aus den Zwischenräumen seines Gefieders sprüht es Funken, um seine Gegner einzuschüchtern."
 	},
 
-	thirdParty: {
-		cardmarket: 682071,
-		tcgplayer: 451660
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682071,
+				tcgplayer: 451660
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682071,
+				tcgplayer: 451660
+			}
+		},
+	],
 }
 
 export default card

@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "氷のオーラ",
 			},
 			effect: {
-				ja: "Walrein ExがアクティブなPokã©Monである限り、WaterPokã©Monを除く、ターンの合間にアクティブなPokã©Mon（あなたと対戦相手の両方）に1つのダメージカウンターを置きます。",
+				ja: "Walrein ExがアクティブなPokéMonである限り、WaterPokéMonを除く、ターンの合間にアクティブなPokéMon（あなたと対戦相手の両方）に1つのダメージカウンターを置きます。",
 			},
 		}],
 

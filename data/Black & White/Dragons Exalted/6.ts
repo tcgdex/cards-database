@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Sleep Poison",
 				fr: "Poison Dodo",
+				de: "Schlafgift"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep and Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi et Empoisonné.",
+				de: "Wirf 1 Münze. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt und ist vergiftet."
 			},
 
 		},
@@ -54,10 +56,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280445,
-		tcgplayer: 90653
-	}
+	description: {
+		en: "Often targeted by bird Pokémon, it desperately resists by releasing poison from its tail spikes.",
+		de: "Es wird oft von Vogel-Pokémon angegriffen, wehrt sich aber mit Gift aus seinen Schwanzspitzen."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280445,
+				tcgplayer: 90653
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280445,
+				tcgplayer: 90653
+			}
+		},
+	],
 }
 
 export default card

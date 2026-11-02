@@ -18,7 +18,7 @@ const card: Card = {
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	attacks: [
@@ -41,15 +41,25 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "10+"
-		}
+			value: "+10"
+		},
 	],
 
 	description: {
 		en: "It has a flotation that is like an inflatable collar. It floats on water with its head out."
 	},
 
-	retreat: 1
+	retreat: 1,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278010,
+				tcgplayer: 84017
+			}
+		},
+	],
+
 }
 
 export default card

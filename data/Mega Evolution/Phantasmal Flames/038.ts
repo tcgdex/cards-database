@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Granbull"
 	},
 
+	evolveFrom: {
+		en: "Snubbull",
+		fr: "Snubbull",
+		es: "Snubbull",
+		'es-mx': "Snubbull",
+		de: "Snubbull",
+		it: "Snubbull",
+		pt: "Snubbull",
+	},
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 
@@ -62,22 +72,40 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "It is actually timid and easily spooked. If attacked, it desperately flails its limbs about in an attempt to repel its opponent.",
+		fr: "Il est en fait timide et assez peureux. Lorsque des adversaires l'attaquent, il tente de les repousser en agitant ses pattes de toutes ses forces.",
+		de: "Granbull ist in Wahrheit ängstlich und scheu. Wird es angegriffen, fuchtelt es wild mit den Armen und Beinen, um Gegner zu verscheuchen."
+	},
+
+	illustrator: "Ryuta Fuse",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857613,
+				tcgplayer: 662165,
+				cardtrader: 356821
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857613,
+				tcgplayer: 662165,
+				cardtrader: 356821
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857613,
-		tcgplayer: 662165
-	}
 }
 
 export default card

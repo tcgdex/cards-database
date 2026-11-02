@@ -87,23 +87,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
 	description: {
-		en: "It is said to emerge from darkness to steal the lives of those who become lost in mountains."
+		en: "It is said to emerge from darkness to steal the lives of those who become lost in mountains.",
+		de: "Man sagt, es sei aus Dunkelheit entstanden, um denjenigen, die sich in den Bergen verirrt haben, das Leben zu rauben."
 	},
 
-	thirdParty: {
-		cardmarket: 567137,
-		tcgplayer: 241716
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567137,
+				tcgplayer: 241716
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567137,
+				tcgplayer: 241716
+			}
+		},
+	],
 }
 
 export default card

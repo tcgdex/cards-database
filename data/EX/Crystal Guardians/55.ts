@@ -4,7 +4,7 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Lotad",
-		fr: "Nenupiot",
+		fr: "Nénupiot",
 		de: "Loturzel"
 	},
 
@@ -35,8 +35,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "If Lotad has any Water Energy attached to it, the Retreat Cost for Lotad is 0.",
-				fr: "Si Nenupiot possède une Énergie , son Coût de retraite est de 0.",
-				de: "Wenn mindestens 1 -Energie an Loturzel angelegt ist, hat Loturzel Rückzugskosten 0."
+				fr: "Si Nenupiot possède une Énergie {W}, son Coût de retraite est de 0.",
+				de: "Wenn mindestens 1 {W}-Energie an Loturzel angelegt ist, hat Loturzel Rückzugskosten 0."
 			},
 		},
 	],

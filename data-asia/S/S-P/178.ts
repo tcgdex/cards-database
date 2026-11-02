@@ -1,52 +1,55 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "章魚桶"
+		ja: "シママ",
+		'zh-tw': "章魚桶",
 	},
 
-	illustrator: "KIYOTAKA OSHIYAMA",
+	illustrator: "Oswaldo KATO",
 	category: "Pokemon",
-	hp: 110,
-	types: ["Water"],
+	hp: 60,
+	types: ["Lightning"],
 
 	description: {
-		'zh-tw': "有著堅硬結實的腦袋。會用帶有吸盤的腳纏住對手， 然後不停地用頭猛撞。"
+		ja: "放電すると たてがみが 光る。 たてがみが 輝く 回数や リズムで 仲間と 会話している。",
+		'zh-tw': "有著堅硬結實的腦袋。會用帶有吸盤的腳纏住對手， 然後不停地用頭猛撞。",
 	},
 
-	stage: "Stage1",
+	stage: "Basic",
 
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			'zh-tw': "連擊搜索"
+	attacks: [
+		{
+			name: {
+				ja: "サンダーアロー",
+				'zh-tw': "攀瀑",
+			},
+			cost: ["Lightning"],
+			effect: {
+				ja: "相手のポケモン1匹に、10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "在自己的回合時，可使用1次。從自己的牌庫選擇1張「連擊」卡，在給對手看過後加入手牌。並且重洗牌庫。在這個回合，若已經使出了其他的「連擊搜索」，則這個特性無法使用。"
-		}
-	}],
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
 
-	attacks: [{
-		name: {
-			'zh-tw': "攀瀑"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 570874,
+				tcgplayer: 597376,
+			},
 		},
+	],
 
-		damage: 50,
-		cost: ["Water", "Colorless", "Colorless"]
-	}],
+	retreat: 1,
+	regulationMark: "E",
+	rarity: "Promo",
+	dexId: [522],
+};
 
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
-
-	retreat: 2,
-	regulationMark: "E"
-}
-
-export default card
+export default card;

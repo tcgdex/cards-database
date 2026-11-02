@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Si al Pokémon al que esté unida esta carta le quedan 30 PS o menos y tiene algún contador de daño sobre él, sus ataques hacen 60 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 		it: "Se il Pokémon a cui è assegnata questa carta ha 30 PS o meno rimanenti e se ha dei segnalini danno, i suoi attacchi infliggono 60 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
 		pt: "Se o Pokémon ao qual esta carta está ligada tiver PS restante de 30 ou menos e tiver algum contador de dano nele, seus ataques causarão 60 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
-		de: "Wenn die verbleibenden KP des Pokémon, an das diese Karte angelegt ist, 30 oder weniger betragen und auf ihm mindestens 1 Schadensmarke liegt, fügen die Attacken dieses Pokémon dem Aktiven Pokémon deines Gegners 60 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn die verbleibenden KP des Pokémon, an das diese Karte angelegt ist, 30 oder weniger betragen und auf ihm mindestens 1 Schadensmarke liegt, fügen die Attacken dieses Pokémon dem Aktiven Pokémon deines Gegners 60 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden). Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

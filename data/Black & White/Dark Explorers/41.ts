@@ -35,7 +35,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Ram",
-				fr: "Collision"
+				fr: "Collision",
+				de: "Ramme"
 			},
 
 			damage: 10,
@@ -48,7 +49,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Bug Bite",
-				fr: "Piqûre"
+				fr: "Piqûre",
+				de: "Käferbiss"
 			},
 
 			damage: 20,
@@ -65,10 +67,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280369,
-		tcgplayer: 86356
-	}
+	description: {
+		en: "They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch.",
+		de: "Es pflanzt sich an großen Pokémon fest und zapft ihnen elektrische Energie ab. Diese hortet es in seinen Ladetaschen."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280369,
+				tcgplayer: 86356
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280369,
+				tcgplayer: 86356
+			}
+		},
+	],
 }
 
 export default card

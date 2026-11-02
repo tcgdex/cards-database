@@ -99,23 +99,30 @@ const card: Card = {
 	regulationMark: "D",
 	retreat: 0,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock."
+		en: "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock.",
+		de: "Wenn der Morgen dämmert, fangen sie an zu tanzen. Das Swaroness in der Mitte führt die Gruppe an."
 	},
 
-	thirdParty: {
-		cardmarket: 483624,
-		tcgplayer: 219360
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483624,
+				tcgplayer: 219360
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483624,
+				tcgplayer: 219360
+			}
+		},
+	],
 }
 
 export default card

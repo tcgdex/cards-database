@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Chillabell"
 	},
 
+	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -67,20 +68,37 @@ const card: Card = {
 		damage: "50×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Its body secretes oil that this Pokémon spreads over its nest as a coating to protect it from dust. Cinccino won't tolerate even a speck of the stuff.",
+		de: "Es ist sehr reinlich und duldet nicht mal das kleinste Staubkorn. Es beschichtet sein Nest mit dem Öl, das sein Körper absondert."
 	},
 
-	thirdParty: {
-		cardmarket: 608671,
-		tcgplayer: 263848
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608671,
+				tcgplayer: 263848
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608671,
+				tcgplayer: 263848
+			}
+		},
+	],
 }
 
 export default card

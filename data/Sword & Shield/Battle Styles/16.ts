@@ -72,23 +72,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Although it's called a guardian deity, it's violent enough to crush anyone it sees as an enemy."
+		en: "Although it's called a guardian deity, it's violent enough to crush anyone it sees as an enemy.",
+		de: "Obwohl man es als Schutzpatron bezeichnet, verfügt es über die nötige Härte, um seine Feinde erbarmungslos zu vernichten."
 	},
 
-	thirdParty: {
-		cardmarket: 544981,
-		tcgplayer: 234082
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 544981,
+				tcgplayer: 234082
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 544981,
+				tcgplayer: 234082
+			}
+		},
+	],
 }
 
 export default card

@@ -22,15 +22,27 @@ const card: Card = {
 		es: "Cura 30 puntos de daño a 1 de tus Pokémon.",
 		it: "Cura uno dei tuoi Pokémon da 30 danni.",
 		pt: "Cure 30 de danos de 1 dos seus Pokémon.",
-		de: "Heile 30 Schadenspunkte bei 1 deiner Pokémon."
+		de: "Heile 30 Schadenspunkte bei 1 deiner Pokémon. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 
-	thirdParty: {
-		cardmarket: 280719,
-		tcgplayer: 88348
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280719,
+				tcgplayer: 88348
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280719,
+				tcgplayer: 88348
+			}
+		},
+	],
 }
 
 export default card

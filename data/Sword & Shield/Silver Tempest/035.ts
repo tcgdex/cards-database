@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Amoroso V"
 	},
 
+	illustrator: "Saki Hayashiro",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 190,
@@ -39,7 +40,7 @@ const card: Card = {
 			es: "Busca en tu baraja hasta 2 Pokémon que evolucionen de una carta de Objeto que tenga \"Fósil\" en su nombre y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo fino a due Pokémon che si evolvono da una carta Strumento che ha \"Fossile\" nel nome e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
 			pt: "Procure por até 2 Pokémon no seu baralho que evoluam de uma carta de Item que tenha \"Fóssil\" em seu nome e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach bis zu 2 Pokémon, die sich aus einer Itemkarte entwickeln, bei der \"Fossil\" zum Namen gehört, und lege sie auf deine Bank. Mische anschließend dein Deck."
+			de: "Durchsuche dein Deck nach bis zu 2 Pokémon, die sich aus einer Itemkarte entwickeln, bei der „Fossil“ zum Namen gehört, und lege sie auf deine Bank. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Water", "Colorless", "Colorless"],
@@ -65,20 +66,25 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682077,
-		tcgplayer: 451668
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682077,
+				tcgplayer: 451668
+			}
+		},
+	],
 }
 
 export default card

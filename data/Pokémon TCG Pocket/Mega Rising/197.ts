@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Altaria"
+		en: "Altaria",
+		fr: "Altaria"
 	},
 
 	illustrator: "sui",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Swablu"
+		en: "Swablu",
+		fr: "Tylton"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Do the Wave"
+			en: "Do the Wave",
+			fr: "Faites la Vague"
 		},
 
 		damage: 20,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "This attack does 20 more damage for each of your Benched Pokémon."
+			en: "This attack does 20 more damage for each of your Benched Pokémon.",
+			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chacun de vos Pokémon de Banc."
 		}
 	}],
 

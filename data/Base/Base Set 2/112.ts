@@ -11,14 +11,18 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	thirdParty: {
-		cardmarket: 274035,
-		tcgplayer: 42558
+	effect: {
+		en: "Shuffle 2 of the other cards from your hand into your deck in order to draw a card.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274035,
+				tcgplayer: 42558
+			}
 		}
 	]
 }

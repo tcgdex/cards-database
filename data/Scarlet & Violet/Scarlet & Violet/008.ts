@@ -57,14 +57,30 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "sowsow",
+
+	description: {
+		en: "This Pokémon scatters poisonous powder to repel enemies. It will eat different plants depending on where it lives.",
+		de: "Purmel verstreut giftigen Puder, um Gegner zu vertreiben. Welche Pflanzen es frisst, ist von der Gegend abhängig, in der es lebt."
+	},
 
 	thirdParty: {
         cardmarket: 702305,

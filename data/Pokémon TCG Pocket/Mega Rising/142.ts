@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bewear"
+		en: "Bewear",
+		fr: "Chelours"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Stufful"
+		en: "Stufful",
+		fr: "Nounourson"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Heavy Impact"
+			en: "Heavy Impact",
+			fr: "Gros Impact"
 		},
 
 		damage: 90,

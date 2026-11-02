@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Drowzee",
 		fr: "Soporifik",
+		de: "Traumato"
 	},
 
 	stage: "Stage1",
@@ -93,6 +94,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "As a matter of course, it makes anyone it meets fall asleep and has a taste of their dreams. Anyone having a good dream, it carries off.",
+		de: "Es versetzt jeden, dem es begegnet, sofort in Schlaf und kostet seine Träume. Schmeckt ihm ein Traum, nimmt es die Person mit."
+	},
 
 	thirdParty: {
 		cardmarket: 295371,

@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Ursaring",
@@ -71,15 +65,28 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Although it has a large body, it is quite skilled at climbing trees. It eats and sleeps in the treetops."
+		en: "Although it has a large body, it is quite skilled at climbing trees. It eats and sleeps in the treetops.",
+		de: "Trotz seines riesigen Körpers ist es ein guter Kletterer. Es frisst und schläft in Baumkronen."
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574181,
-		tcgplayer: 246850
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574181,
+				tcgplayer: 246850
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574181,
+				tcgplayer: 246850
+			}
+		},
+	],
 }
 
 export default card

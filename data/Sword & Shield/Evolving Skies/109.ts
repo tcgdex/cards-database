@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Salamence",
@@ -85,15 +79,28 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Thanks to its fervent wishes, the cells in its body finally mutated, and at last it has its heart's desire—wings."
+		en: "Thanks to its fervent wishes, the cells in its body finally mutated, and at last it has its heart's desire—wings.",
+		de: "Als Ergebnis seines lang gehegten Wunsches haben seine Zellen eine plötzliche Mutation vollzogen und ihm sind Flügel gewachsen."
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574157,
-		tcgplayer: 246909
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574157,
+				tcgplayer: 246909
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574157,
+				tcgplayer: 246909
+			}
+		},
+	],
 }
 
 export default card

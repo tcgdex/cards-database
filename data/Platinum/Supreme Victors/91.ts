@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		399,
-	],
+	dexId: [399],
 
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -51,21 +49,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278782
+	description: {
+		en: "A comparison revealed that Bidoof's front teeth grow at the same rate as Rattata's."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83828,
+				cardmarket: 278782
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278782,
+				tcgplayer: 83828
+			}
+		},
+	],
+
 }
 
 export default card

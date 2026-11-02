@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
+	cameoDexIds: [479],
 
 	effect: {
 		en: "Your opponent reveals their hand. If they do, look at the top card of your opponent's deck.",
@@ -28,17 +29,23 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 512465,
-		tcgplayer: 226504
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 512465,
+				tcgplayer: 226504
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 512465,
+				tcgplayer: 226504
+			}
+		},
+	],
 }
 
 export default card

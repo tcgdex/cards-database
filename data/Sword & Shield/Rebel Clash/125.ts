@@ -43,7 +43,7 @@ const card: Card = {
 				es: "Mientras este Pokémon esté en el Puesto Activo, los ataques del Pokémon Activo de tu rival cuestan Colorless más.",
 				it: "Fintanto che questo Pokémon è in posizione attiva, il costo degli attacchi del Pokémon attivo del tuo avversario aumenta di Colorless.",
 				pt: "Enquanto este Pokémon estiver no Campo Ativo, os ataques do Pokémon Ativo do seu oponente custam Colorless a mais.",
-				de: "Solange dieses Pokémon in der Aktiven Position ist, erhöhen sich die Kosten der Attacken des Aktiven Pokémon deines Gegners um Colorless."
+				de: "Solange dieses Pokémon in der Aktiven Position ist, erhöhen sich die Kosten der Attacken des Aktiven Pokémon deines Gegners um {C}."
 			},
 		},
 	],
@@ -88,23 +88,30 @@ const card: Card = {
 	types: ["Darkness"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
 	description: {
-		en: "With the hair wrapped around its body helping to enhance its muscles, this Pokémon can overwhelm even Machamp."
+		en: "With the hair wrapped around its body helping to enhance its muscles, this Pokémon can overwhelm even Machamp.",
+		de: "Wickelt es seine Haare um den ganzen Körper, verstärkt dies seine Muskelkraft. Das macht es so stark, dass es sogar Machomei bezwingen könnte."
 	},
 
-	thirdParty: {
-		cardmarket: 458023,
-		tcgplayer: 213221
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 458023,
+				tcgplayer: 213221
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458023,
+				tcgplayer: 213221
+			}
+		},
+	],
 }
 
 export default card

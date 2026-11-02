@@ -63,23 +63,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Gurdurr excels at demolition—construction is not its forte. In any case, there's skill in the way this Pokémon wields its metal beam."
+		en: "Gurdurr excels at demolition—construction is not its forte. In any case, there's skill in the way this Pokémon wields its metal beam.",
+		de: "Es ist gut im Tragen von Stahlträgern und im Abreißen von Häusern. Das Bauen dagegen liegt ihm nicht besonders."
 	},
 
-	thirdParty: {
-		cardmarket: 545486,
-		tcgplayer: 234250
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545486,
+				tcgplayer: 234250
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545486,
+				tcgplayer: 234250
+			}
+		},
+	],
 }
 
 export default card

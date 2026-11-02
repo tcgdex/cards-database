@@ -14,6 +14,9 @@ const card: Card = {
 	dexId: [
 		133,
 	],
+
+	cameoDexIds: [25],
+
 	hp: 60,
 	types: [
 		"Colorless",
@@ -65,6 +68,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.",
+	},
 }
 
 export default card

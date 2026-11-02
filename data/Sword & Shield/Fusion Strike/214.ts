@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 60,
 	types: ["Colorless"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Misa Tsutsui",
 
 	description: {
-		en: "It's very sensitive to danger. The sound of Corviknight's flapping will have Bunnelby digging a hole to hide underground in moments."
+		en: "It's very sensitive to danger. The sound of Corviknight's flapping will have Bunnelby digging a hole to hide underground in moments.",
+		de: "Es ist permanent in Alarmbereitschaft. Sobald es die Flügel eines Krarmors rascheln hört, gräbt es ein Loch und verschwindet im Boden."
 	},
 
 	attacks: [{
@@ -71,17 +78,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582950,
-		tcgplayer: 253312
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582950,
+				tcgplayer: 253312
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582950,
+				tcgplayer: 253312
+			}
+		},
+	],
 }
 
 export default card

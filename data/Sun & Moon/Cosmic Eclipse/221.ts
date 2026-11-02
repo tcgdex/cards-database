@@ -66,7 +66,7 @@ const card: Card = {
 				es: "Creación Alterada GX",
 				it: "Creazione Alterata GX",
 				pt: "Origem Alternativa GX",
-				de: "Veränderte Kreation GX"
+				de: "Veränderte Kreation-GX"
 			},
 			effect: {
 				en: "For the rest of this game, your Pokémon’s attacks do 30 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance). If this Pokémon has at least 1 extra Water Energy attached to it (in addition to this attack’s cost), when your opponent’s Active Pokémon is Knocked Out by damage from those attacks, take 1 more Prize card. (You can’t use more than 1 GX attack in a game.)",
@@ -74,7 +74,7 @@ const card: Card = {
 				es: "Durante el resto de la partida, los ataques de tus Pokémon hacen 30 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia). Si este Pokémon tiene por lo menos 1 Energía Water adicional unida a él (además de las del coste de este ataque), cuando el Pokémon Activo de tu rival quede Fuera de Combate por el daño de esos ataques, coge 1 carta de Premio más. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Per il resto della partita, gli attacchi dei tuoi Pokémon infliggono 30 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza. Se questo Pokémon ha almeno un’Energia Water extra assegnata, in aggiunta a quelle del costo di questo attacco, quando il Pokémon attivo del tuo avversario viene messo KO dai danni di quegli attacchi, prendi una carta Premio in più. Non puoi usare più di un attacco GX a partita.",
 				pt: "Pelo resto da partida, os ataques dos seus Pokémon causarão 30 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência). Se este Pokémon tiver pelo menos 1 Energia Water adicional ligada a ele (além do custo deste ataque), quando o Pokémon Ativo do seu oponente for Nocauteado pelo dano daqueles ataques, pegue 1 carta de Prêmio a mais (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Für den Rest des Spiels fügen die Attacken deiner Pokémon dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden). Wenn an dieses Pokémon mindestens 1 extra Water-Energie angelegt ist (zusätzlich zu den Kosten dieser Attacke) und das Aktive Pokémon deines Gegners durch Schaden jener Attacken kampfunfähig wird, nimm 1 Preiskarte mehr. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				de: "Für den Rest des Spiels fügen die Attacken deiner Pokémon dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden). Wenn an dieses Pokémon mindestens 1 extra {W}-Energie angelegt ist (zusätzlich zu den Kosten dieser Attacke) und das Aktive Pokémon deines Gegners durch Schaden jener Attacken kampfunfähig wird, nimm 1 Preiskarte mehr. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			}
 
 		}

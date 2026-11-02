@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Graveler",
 		fr: "Gravalanch d’Alola",
+		de: "Alola-Georok"
 	},
 
 	suffix: "GX",
@@ -91,7 +92,7 @@ const card: Card = {
 				es: "Roca Pesada GX",
 				it: "Macigno Ponderoso-GX",
 				pt: "Rocha Pesada GX",
-				de: "Schwerer Felsen GX"
+				de: "Schwerer Felsen-GX"
 			},
 			effect: {
 				en: "Your opponent can’t play any cards from their hand during their next turn. (You can’t use more than 1 GX attack in a game.)",

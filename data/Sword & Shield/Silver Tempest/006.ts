@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Sonnflora"
 	},
 
+	illustrator: "zig",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -54,20 +55,37 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It gets energy from warm sunlight and is known for its habit of moving in pursuit of it.",
+		de: "Warmes Sonnenlicht gibt ihm Energie. Daher wandert es stets dem Sonnenlicht hinterher."
 	},
 
-	thirdParty: {
-		cardmarket: 682045,
-		tcgplayer: 451626
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682045,
+				tcgplayer: 451626
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682045,
+				tcgplayer: 451626
+			}
+		},
+	],
 }
 
 export default card

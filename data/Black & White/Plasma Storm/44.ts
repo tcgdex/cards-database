@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Magnemite",
 		fr: "Magnéti",
+		de: "Magnetilo"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Metal Sound",
 				fr: "Strido-Son",
+				de: "Metallsound"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
 				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 
 		},
@@ -56,6 +59,7 @@ const card: Card = {
 			name: {
 				en: "Electro Ball",
 				fr: "Boule Élek",
+				de: "Elektroball"
 			},
 
 			damage: 30,
@@ -71,6 +75,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "The stronger electromagnetic waves from the three linked Magnemite are enough to dry out surrounding moisture.",
+		de: "Die vereinten elektromagnetischen Wellen von 3 Magnetilo bringen alles Wasser in der Umgebung zum Verdampfen."
+	},
 
 	thirdParty: {
 		cardmarket: 280784,

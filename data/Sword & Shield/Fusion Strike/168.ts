@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 70,
 	types: ["Darkness"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Shibuzoh.",
 
 	description: {
-		en: "This Pokémon was born from a bag stuffed with trash. Galarian Weezing relish the fumes belched by Trubbish."
+		en: "This Pokémon was born from a bag stuffed with trash. Galarian Weezing relish the fumes belched by Trubbish.",
+		de: "Es ist aus einer überfüllten Mülltüte entstanden. Die Smogmog der Galar-Region sind verrückt nach den giftigen Gasen, die es ausstößt."
 	},
 
 	attacks: [{
@@ -71,17 +78,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582796,
-		tcgplayer: 253382
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582796,
+				tcgplayer: 253382
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582796,
+				tcgplayer: 253382
+			}
+		},
+	],
 }
 
 export default card

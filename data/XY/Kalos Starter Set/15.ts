@@ -57,6 +57,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They knock down flying prey by firing compressed water from their massive claws like shooting a pistol.",
+		de: "Mit Salven komprimierten Wassers, die es wie Pistolenkugeln aus seinen Scheren abfeuert, schießt es fliegende Beute ab."
+	},
+
 	thirdParty: {
 		cardmarket: 281281,
 		tcgplayer: 84326

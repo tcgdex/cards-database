@@ -73,10 +73,26 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 281008,
-		tcgplayer: 88900
-	}
+	description: {
+		en: "As a result of its long-held dream of flying, its cellular structure changed, and wings grew out.",
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281008,
+				tcgplayer: 88900
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['regional-championships'],
+			thirdParty: {
+				cardmarket: 450323
+			}
+		},
+	],
 }
 
 export default card

@@ -4,6 +4,7 @@ import Set from "../Paradox Rift"
 const card: Card = {
 	dexId: [333],
 	set: Set,
+	cameoDexIds: [278],
 
 	name: {
 		en: "Swablu",
@@ -55,19 +56,40 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
+	description: {
+		en: "It can't relax if it or its surroundings are not clean. It wipes off dirt with its wings.",
+		de: "Es kann nicht entspannen, solange es selbst oder seine Umgebung dreckig sind. Wenn es Schmutz bemerkt, wischt es diesen mit seinen Flügeln weg."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740756,
+				tcgplayer: 523894,
+				cardtrader: 265511
+			}
+		},
+	],
 
 	illustrator: "Jiro Sasumo",
 
-	thirdParty: {
-		cardmarket: 740756
-	}
+	
 }
 
 export default card

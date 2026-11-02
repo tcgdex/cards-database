@@ -42,23 +42,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "The berries that grow around its belly are like ice pops. Galarian Darumaka absolutely love these berries."
+		en: "The berries that grow around its belly are like ice pops. Galarian Darumaka absolutely love these berries.",
+		de: "Die an Speiseeis erinnernden Beeren, die an seinem Bauch wachsen, sind bei den Flampion Galars ein sehr beliebter Snack."
 	},
 
-	thirdParty: {
-		cardmarket: 567089,
-		tcgplayer: 241658
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567089,
+				tcgplayer: 241658
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567089,
+				tcgplayer: 241658
+			}
+		},
+	],
 }
 
 export default card

@@ -49,12 +49,12 @@ const card: Card = {
 			name: {
 				en: "Confuse Ray",
 				fr: "Onde folie",
-				de: "Konfusstrahl"
+				de: "Konfustrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -76,6 +76,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "X-ray photos were taken to check its body structure. Nothing appeared, however.",
+		de: "Man hat Röntgenaufnahmen gemacht, um die Körperstruktur dieses PKMN zu untersuchen. Ohne Ergebnis."
+	},
 
 	thirdParty: {
 		cardmarket: 278101,

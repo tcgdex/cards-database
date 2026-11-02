@@ -66,10 +66,19 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 281010,
-		tcgplayer: 86668
-	}
+	description: {
+		en: "A highly intelligent Pokémon. By folding back its wings in flight, it can overtake jet planes.",
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281010,
+				tcgplayer: 86668
+			}
+		},
+	],
 }
 
 export default card

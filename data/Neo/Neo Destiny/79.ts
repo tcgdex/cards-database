@@ -33,7 +33,7 @@ const card: Card = {
 			name: {
 				en: "Flipper Splash",
 				fr: "Koud'palme",
-				de: "Flipper Splash"
+				de: "Flossenplatscher"
 			},
 
 			damage: 10,
@@ -47,12 +47,12 @@ const card: Card = {
 			name: {
 				en: "Migraine",
 				fr: "Maud'krâne",
-				de: "Migraine"
+				de: "Migräne"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, Psyduck is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus. Si c'est pile, Psykokwak est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, Psyduck is now Confused."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt. Bei „Zahl“ ist Enton jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -65,23 +65,31 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Bien que possédant d'immenses pouvoirs mentaux, il ne sait pas les utiliser."
+		en: "Although possessed of great mental powers, it doesn't know how to use them.",
+		fr: "Bien que possédant d'immenses pouvoirs mentaux, il ne sait pas les utiliser.",
+		de: "Obwohl es starke mentale Kräfte besitzt, weiß es nicht, wie es sie anwenden soll."
 	},
 
-	thirdParty: {
-		cardmarket: 274731,
-		tcgplayer: 88433
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274731,
+				tcgplayer: 88433
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274731,
+				tcgplayer: 88433
+			}
 		}
 	]
 }

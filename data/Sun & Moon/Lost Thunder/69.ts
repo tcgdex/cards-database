@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Mareanie",
 		fr: "Vorastérie",
+		de: "Garstella"
 	},
 
 	stage: "Stage1",
@@ -90,6 +91,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "Those attacked by Toxapex's poison will suffer intense pain for three days and three nights. Post-recovery, there will be some aftereffects.",
+		de: "Wer das Gift von Aggrostella abbekommt, durchleidet drei schlimme Tage und Nächte. Überlebende tragen bleibende Schäden davon."
+	},
 
 	thirdParty: {
 		cardmarket: 365707,

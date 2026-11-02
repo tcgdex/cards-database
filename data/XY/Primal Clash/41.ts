@@ -115,6 +115,10 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It makes its nest at the bottom of swamps. It will eat anything—if it is alive, Whiscash will eat it.",
+	},
+
 	thirdParty: {
 		cardmarket: 273571,
 		tcgplayer: 95938

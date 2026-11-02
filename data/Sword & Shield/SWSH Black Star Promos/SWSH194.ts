@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Leafeon V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Grass"],
@@ -67,12 +67,23 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
-
-	thirdParty: {
-		cardmarket: 606748
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 604996,
+				tcgplayer: 262563
+			}
+		},
+	],
 }
 
 export default card

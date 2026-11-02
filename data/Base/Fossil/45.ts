@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Koffing",
-		fr: "Smogo"
+		fr: "Smogo",
+		de: "Smogon"
 	},
 
 	stage: "Stage1",
@@ -46,7 +47,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon hetzt vergiftet."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 			damage: 20
@@ -78,31 +79,41 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Deux Smogo peuvent se combiner en un Smogogo en combinant leurs gaz."
+		en: "Where two kinds of poison gases meet, two Koffings can fuse into a Weezing over many years.",
+		fr: "Deux Smogo peuvent se combiner en un Smogogo en combinant leurs gaz.",
+		de: "Wo zwei Arten von Giftwolken aufeinandertreffen, vereinigen sich über Jahre hinweg zwei Smogons in ein Smogmog."
 	},
 
-	thirdParty: {
-		cardmarket: 273906,
-		tcgplayer: 44447
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273906,
+				tcgplayer: 44447
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 273906,
+				tcgplayer: 44447
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			thirdParty: {
+				cardmarket: 273906,
+				tcgplayer: 44447
+			}
 		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright"
-		}
-	]
+	],
 }
 
 export default card

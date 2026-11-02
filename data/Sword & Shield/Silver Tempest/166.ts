@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Wassili"
 	},
 
+	illustrator: "Megumi Mizutani",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -22,23 +23,29 @@ const card: Card = {
 		es: "Roba 3 cartas. Tu rival puede robar 1 carta. Si lo hace, robas 1 carta más.",
 		it: "Pesca tre carte. Il tuo avversario può pescare una carta. Se lo fa, peschi un'altra carta.",
 		pt: "Compre 3 cartas. Seu oponente pode comprar 1 carta. Se ele(a) fizer isto, compre 1 carta a mais.",
-		de: "Ziehe 3 Karten. Dein Gegner kann 1 Karte ziehen. Wenn er das macht, ziehe 1 Karte mehr."
+		de: "Ziehe 3 Karten. Dein Gegner kann 1 Karte ziehen. Wenn er das macht, ziehe 1 Karte mehr. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682213,
-		tcgplayer: 451814
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682213,
+				tcgplayer: 451814
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682213,
+				tcgplayer: 451814
+			}
+		},
+	],
 }
 
 export default card

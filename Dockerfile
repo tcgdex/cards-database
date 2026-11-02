@@ -28,7 +28,7 @@ RUN cd server && \
 # remove dev dependencies (bun do not yet support "prune")
 RUN cd server && \
 	rm -rf node_modules && \
-	bun install --frozen-install --production
+	bun install --frozen-lockfile --production
 
 # go to another VM
 FROM docker.io/oven/bun:1-alpine AS prod

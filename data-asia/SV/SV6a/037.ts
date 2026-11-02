@@ -1,49 +1,64 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV6a"
+import { Card } from "../../../interfaces";
+import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "願增猿ex"
+		ja: "マシマシラex",
+		'zh-tw': "願增猿ex",
 	},
 
 	illustrator: "takuyoa",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Darkness"],
+
 	stage: "Basic",
-	suffix: "EX",
 
-	attacks: [{
-		name: {
-			'zh-tw': "‌[特性]鬆口氣"
+	abilities: [
+		{
+			type: "Ability",
+			name: { ja: "ひょうしぬけ" },
+			effect: {
+				ja: "このポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、自分の場に「モモワロウex」がいるなら、とられるサイドは1枚少なくなる。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "這隻寶可夢受到對手的寶可夢招式的傷害而【昏厥】時，若自己的場上有「桃歹郎ex」，則被獲得的獎賞卡減少1張。"
-		}
-	}, {
-		name: {
-			'zh-tw': "惡劣頭擊"
+	attacks: [
+		{
+			name: {
+				ja: "ダーティヘッド",
+				'zh-tw': "‌[特性]鬆口氣",
+			},
+			damage: 190,
+			cost: ["Darkness", "Darkness", "Colorless"],
+			effect: {
+				ja: "次の自分の番、このポケモンは「ダーティヘッド」が使えない。",
+				'zh-tw': "這隻寶可夢受到對手的寶可夢招式的傷害而【昏厥】時，若自己的場上有「桃歹郎ex」，則被獲得的獎賞卡減少1張。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用「惡劣頭擊」。"
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 773786,
+				tcgplayer: 566288,
+			},
 		},
-
-		damage: 190,
-		cost: ["Darkness", "Darkness", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
+	],
 
 	retreat: 1,
 	regulationMark: "H",
-	rarity: "Double rare"
-}
+	rarity: "Double rare",
+	dexId: [1015],
 
-export default card
+	suffix: "EX",
+};
+
+export default card;

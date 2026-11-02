@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Punch",
 				fr: "Koud'Poing",
+				de: "Boxhieb"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Kick",
 				fr: "Koud'Pied",
+				de: "Tritt"
 			},
 
 			damage: 20,
@@ -64,6 +66,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It has the peculiar power of being able to see emotions such as joy and rage in the form of waves.",
+		de: "Es hat die eigenartige Fähigkeit, Gefühle wie Freude oder Wut in Wellenform zu sehen."
+	},
 
 	thirdParty: {
 		cardmarket: 280815,

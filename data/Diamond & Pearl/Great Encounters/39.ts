@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Snubbull",
 		fr: "Snubbull",
+		de: "Snubbull"
 	},
 
 	stage: "Stage1",
@@ -79,6 +80,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It is timid in spite of its looks. If it becomes enraged, however, it will strike with its huge fangs.",
+		de: "Es ist trotz seines Äußeren schüchtern. Wird es wütend, schnappt es mit seinen Fängen zu."
+	},
 
 	thirdParty: {
 		cardmarket: 277941,

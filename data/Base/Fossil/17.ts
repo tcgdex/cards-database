@@ -40,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -60,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chacun des Pokémon du Banc de votre adversaire. Si c'est pile, cette attaque inflige 10 dégâts à chacun des Pokémon de votre Banc. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon qui sont sur un Banc.)",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff jedem gegnerischen Pokémon auf der Bank 10 Schadenspunkte zu. Bei \"Zahl\" fügt dieser Angriff jedem deiner eigenen Pokémon auf der Bank 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht verwenden.)"
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff jedem gegnerischen Pokémon auf der Bank 10 Schadenspunkte zu. Bei „Zahl“ fügt dieser Angriff jedem deiner eigenen Pokémon auf der Bank 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
 			},
 			damage: 50,
 
@@ -73,31 +73,41 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
-		fr: "Le légendaire oiseau des glaces. On dit qu'il apparaît aux gens perdus dans les sommets."
+		en: "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.",
+		fr: "Le légendaire oiseau des glaces. On dit qu'il apparaît aux gens perdus dans les sommets.",
+		de: "Ein legendäres Vogel-Pokémon, dem man nachsagt, dass es Todgeweihten erscheint, die sich in Gletschern verirrt haben."
 	},
 
-	thirdParty: {
-		cardmarket: 273863,
-		tcgplayer: 44425
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273878,
+				tcgplayer: 44425
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 273878,
+				tcgplayer: 44425
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			thirdParty: {
+				cardmarket: 273878,
+				tcgplayer: 44425
+			}
 		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright"
-		}
-	]
+	],
 }
 
 export default card

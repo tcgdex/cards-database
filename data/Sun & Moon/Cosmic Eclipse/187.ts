@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cada vez que algún jugador juegue 1 carta de Estadio de su mano, descarta esa carta de Estadio después de descartar esta. (La nueva carta de Estadio no tiene efecto).",
 		it: "Ogni volta che uno dei giocatori gioca una carta Stadio che ha in mano, scarta quella carta dopo aver scartato questa. La nuova carta Stadio non ha effetto.",
 		pt: "Sempre que qualquer um dos jogadores jogar uma carta de Estádio da própria mão, descarte aquela carta de Estádio após descartar esta (a nova carta de Estádio não tem efeito).",
-		de: "Wenn ein Spieler eine Stadionkarte aus seiner Hand spielt, lege jene Stadionkarte auf den Ablagestapel, nachdem du diese Karte auf den Ablagestapel gelegt hast. (Die neue Stadionkarte hat keinen Effekt.)"
+		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen. Wenn ein Spieler eine Stadionkarte aus seiner Hand spielt, lege jene Stadionkarte auf den Ablagestapel, nachdem du diese Karte auf den Ablagestapel gelegt hast. (Die neue Stadionkarte hat keinen Effekt.)"
 	},
 
 	trainerType: "Stadium",

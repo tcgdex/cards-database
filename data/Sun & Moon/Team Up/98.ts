@@ -96,6 +96,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its metal body is sturdy, but it does rust rather easily. So on rainy days, this Pokémon prefers to stay put in its nest.",
+		de: "Sein stählerner Körper ist robust, aber anfällig für Rost. Regnerische Tage verbringt es daher geduldig in seinem Nest."
+	},
+
 	thirdParty: {
 		cardmarket: 369027,
 		tcgplayer: 183880

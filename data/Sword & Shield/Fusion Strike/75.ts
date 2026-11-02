@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "tetsuya koizumi",
 
 	description: {
-		en: "Its right arm is packed with meat. When its pincer falls off, it's exported to be used as a cooking ingredient."
+		en: "Its right arm is packed with meat. When its pincer falls off, it's exported to be used as a cooking ingredient.",
+		de: "Das Fleisch in seiner rechten Schere ist sehr fest. Wenn sie abfällt, wird sie aufgesammelt und zum Verzehr ins Ausland exportiert."
 	},
 
 	attacks: [{
@@ -72,17 +79,23 @@ const card: Card = {
 		damage: 110
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582209,
-		tcgplayer: 253225
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582209,
+				tcgplayer: 253225
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582209,
+				tcgplayer: 253225
+			}
+		},
+	],
 }
 
 export default card

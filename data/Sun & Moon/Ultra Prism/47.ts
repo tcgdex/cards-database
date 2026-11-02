@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Shinx",
 		fr: "Lixy",
+		de: "Sheinux"
 	},
 
 	stage: "Stage1",
@@ -74,6 +75,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
+		de: "Durch die Spitzen seiner scharfen Krallen strömt Elektrizität. Selbst kleine Kratzer verursachen Ohnmacht."
+	},
 
 	thirdParty: {
 		cardmarket: 315977,

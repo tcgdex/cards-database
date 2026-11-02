@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Doduo",
+		en: "Blaine's Doduo"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		84,
-	],
+	dexId: [84],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Wild Kick",
+				en: "Wild Kick"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing.",
+				en: "Flip a coin. If tails, this attack does nothing."
 			},
 
 		},
@@ -42,12 +40,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Retaliate",
+				en: "Retaliate"
 			},
 			effect: {
-				en: "Does 10 damage times the number of damage counters on Blaine's Doduo.",
+				en: "Does 10 damage times the number of damage counters on Blaine's Doduo."
 			},
-			damage: 10,
+			damage: "10x",
 
 		},
 	],
@@ -55,31 +53,32 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 274329,
-		tcgplayer: 83866
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83866,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83866,
+				cardmarket: 274329
+			}
 		},
-	]
+	],
+	retreat: 0
 }
 
 export default card

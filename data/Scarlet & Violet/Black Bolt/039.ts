@@ -69,7 +69,7 @@ const card: Card = {
 		effect: {
 			en: "This attack does 40 more damage for each of your Evolution Pokémon in play.",
 			fr: "Cette attaque inflige 40 dégâts supplémentaires pour chacun de vos Pokémon Évolutifs en jeu.",
-			de: "Diese Attacke fügt für jedes deiner Entwicklungs-Pokémon im Spiel 40 Schadenspunkte mehr zu.",
+			de: "Diese Attacke fügt für jedes deiner Entwicklungs-Pokémon im Spiel 40 Schadenspunkt mehr zu.",
 			it: "Questo attacco infligge 40 danni in più per ogni tuo Pokémon Evoluzione in gioco.",
 			pt: "Este ataque causa 40 pontos de dano a mais para cada um dos seus Pokémon de Evolução em jogo.",
 			es: "Este ataque hace 40 puntos de daño más por cada uno de tus Pokémon Evolución en juego.",
@@ -81,10 +81,38 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 835985
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835985,
+				tcgplayer: 642491
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835985,
+				tcgplayer: 642491
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836355,
+				tcgplayer: 642735
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836353,
+				tcgplayer: 642662
+			}
+		}
+	]
 }
 
 export default card

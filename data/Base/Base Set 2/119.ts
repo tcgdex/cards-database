@@ -11,14 +11,18 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	thirdParty: {
-		cardmarket: 274042,
-		tcgplayer: 42452
+	effect: {
+		en: "Choose 1 Energy card attached to 1 of your opponent's Pokémon and discard it.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274042,
+				tcgplayer: 42452
+			}
 		}
 	]
 }

@@ -4,6 +4,7 @@ import Set from "../Twilight Masquerade"
 const card: Card = {
 	dexId: [532],
 	set: Set,
+	cameoDexIds: [533],
 
 	name: {
 		en: "Timburr",
@@ -44,19 +45,32 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "It fights by swinging a piece of lumber around. It is close to evolving when it can handle heavy lumber without difficulty.",
+		de: "Es kämpft, indem es einen Holzbalken schwingt. Fällt es ihm leicht, den schweren Balken zu tragen, ist seine Entwicklung nah."
 	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769357,
+				tcgplayer: 550227
+			}
+		},
+	],
 
 	illustrator: "Yuriko Akase",
 
-	thirdParty: {
-		cardmarket: 769357
-	}
 }
 
 export default card

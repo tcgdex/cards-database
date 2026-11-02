@@ -60,23 +60,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "These Diglett triplets dig over 60 miles below sea level. No one knows what it's like underground."
+		en: "These Diglett triplets dig over 60 miles below sea level. No one knows what it's like underground.",
+		de: "Diese kraftvollen Digda-Drillinge graben bis zu 100 km tief. Keiner weiß, wie sie unter der Erde aussehen."
 	},
 
-	thirdParty: {
-		cardmarket: 567185,
-		tcgplayer: 241742
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567185,
+				tcgplayer: 241742
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567185,
+				tcgplayer: 241742
+			}
+		},
+	],
 }
 
 export default card

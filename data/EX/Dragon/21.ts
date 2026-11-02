@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		227,
-	],
+	dexId: [227],
 
 	hp: 70,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -55,7 +53,7 @@ const card: Card = {
 			effect: {
 				en: "Count the amount of Energy attached to all of your Pokémon and all of your opponent's Pokémon. If your Pokémon have less Energy than your opponent's, this attack does 20 damage plus 30 more damage.",
 				fr: "Comptabilisez le nombre d'Énergies attachées à tous vos Pokémon ainsi qu'à tous les Pokémon de votre adversaire. Si vos Pokémon possèdent moins d'Énergies que ceux de votre adversaire, cette attaque inflige 50 dégâts.",
-				de: "Vergleiche wieviel Energie an allen deinen Pokémon und allen gegnerischen Pokémon angelegt ist. Wenn an deinen Pokémon weniger Energie angelegt ist als an den gegnerischen Pokémon, fügt dieser Angriff 20 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				de: "Vergleiche wieviel Energie an allen deinen Pokémon und an allen gegnerischen Pokémon angelegt ist. Wenn an deinen Pokémon weniger Energie angelegt ist als an den gegnerischen Pokémon, fügt dieser Angriff 20 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -65,24 +63,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Grass",
 			value: "-30"
 		},
 	],
-
-
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 89237,
-		cardmarket: 275898
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89237,
+				cardmarket: 275898
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89237,
+				cardmarket: 275898
+			},
+		},
+	],
+
 }
 
 export default card

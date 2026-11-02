@@ -78,6 +78,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It flies over its wide territory in search of prey, downing it with its highly developed claws.",
+	},
+
 	thirdParty: {
 		cardmarket: 277811,
 		tcgplayer: 88041

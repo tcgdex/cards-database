@@ -22,7 +22,9 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Ponyta"
+		en: "Ponyta",
+		fr: "Ponyta",
+		de: "Ponita"
 	},
 
 	description: {
@@ -30,7 +32,7 @@ const card: Card = {
 		fr: "Ce Pokémon traverse les plaines à plus de 240 km/h,\nsa crinière flamboyante flottant au vent.",
 		es: "Su ardiente crin ondea al viento mientras atraviesa\nextensas praderas a una velocidad de 240 km/h.",
 		it: "Sfreccia nelle praterie a una velocità di 240 km/h,\nfacendo sventolare la sua criniera ardente.",
-		de: "Die lodernde Mähne dieses Pokémon flattert im\nWind, wenn es mit einer Geschwindigkeit von\n240 km/h über Felder und Wiesen galoppiert.",
+		de: "Die lodernde Mähne dieses Pokémon flattert im Wind, wenn es mit einer Geschwindigkeit von 240 km/h über Felder und Wiesen galoppiert.",
 		'pt-br': "Este Pokémon pode ser encontrado galopando\nnas pradarias, com sua crina de fogo ao vento,\na velocidades de até 240 km/h.",
 		ko: "불타는 갈기를 휘날리며\n시속 240km의 속도로\n넓은 초원을 달려나간다."
 	},

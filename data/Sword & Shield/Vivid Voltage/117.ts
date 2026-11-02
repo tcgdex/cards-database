@@ -87,12 +87,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -100,10 +94,22 @@ const card: Card = {
 		en: "It flies at high speeds around the skies. When it finds its prey, Metang takes a firm grip with its sharp claws and never lets go."
 	},
 
-	thirdParty: {
-		cardmarket: 512295,
-		tcgplayer: 226571
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 512295,
+				tcgplayer: 226571
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 512295,
+				tcgplayer: 226571
+			}
+		},
+	],
 }
 
 export default card

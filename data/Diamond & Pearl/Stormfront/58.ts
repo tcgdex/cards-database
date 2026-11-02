@@ -42,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez 1 pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -81,7 +81,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		fr: "Un Pokémon né de l'esprit des gens et des Pokémon. Il aime les saisons chaudes et humides."
+		en: "A Pokémon formed by the spirits of people and Pokémon. It loves damp, humid seasons.",
+		fr: "Un Pokémon né de l'esprit des gens et des Pokémon. Il aime les saisons chaudes et humides.",
+		de: "Ein PKMN, entstanden aus den Gefühlen von Menschen und PKMN. Es mag feuchte Jahreszeiten."
 	},
 
 	thirdParty: {

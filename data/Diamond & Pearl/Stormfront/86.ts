@@ -14,6 +14,7 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Search your deck for a Pokémon (excluding Pokémon LV.X), show it to your opponent, and put it into your hand. Shuffle your deck afterward. If any Luxury Ball is in your discard pile, you can't play this card.",
 		fr: "Choisissez un Pokémon dans votre deck (Pokémon NIV.X exclus), montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck. Si Luxe Ball se trouve dans votre pile de défausse, vous ne pouvez pas jouer cette carte.",
 		de: "Durchsuche dein Deck nach 1 Pokémon-Karte (außer Pokémon LV.X), zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach. Wenn sich mindestens 1 Luxusball in deinem Ablagestapel befindet, kannst du diese Karte nicht spielen."
 	},

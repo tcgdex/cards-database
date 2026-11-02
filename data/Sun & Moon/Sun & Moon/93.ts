@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cutiefly",
 		fr: "Bombydou",
+		de: "Wommel"
 	},
 
 	stage: "Stage1",
@@ -89,6 +90,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It rolls up pollen into puffs. It makes many different varieties, some used as food and others used in battle.",
+		de: "Dieses Pokémon rollt Blütenstaub zu Kugeln. Manche dieser Pollenknödel dienen als Nahrung, andere setzt es aber auch im Kampf ein."
+	},
 
 	thirdParty: {
 		cardmarket: 295404,

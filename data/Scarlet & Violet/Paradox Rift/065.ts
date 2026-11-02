@@ -52,18 +52,42 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It lays traps of electrified threads near the nests of bird Pokémon, aiming to snare chicks that are not yet good at flying.",
+		de: "Es spinnt Fallen aus elektrischen Fäden nahe den Nestern von Vogel-Pokémon, um vor allem jene Jungen zu fangen, die nicht gut fliegen können."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740556,
+				tcgplayer: 523699,
+				cardtrader: 265141
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740556,
+				tcgplayer: 523699,
+				cardtrader: 265141
+			}
+		},
+	],
 
 	illustrator: "Taira Akitsu",
 
-	thirdParty: {
-		cardmarket: 740556
-	}
+	
 }
 
 export default card

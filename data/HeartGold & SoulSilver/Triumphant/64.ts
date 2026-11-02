@@ -12,15 +12,14 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [313],
 
-	dexId: [
-		314,
-	],
+	dexId: [314],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -54,9 +53,9 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin for each Volbeat you have in play. This attack does 30 damage times the number of heads.",
 				fr: "Lancez une pièce pour chacun de vos Muciole en jeu. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
-				de: "Wirf für jedes Volbeat, das du im Spiel hast, eine Münze. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf für jedes Volbeat, das du im Spiel hast, eine Münze. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
-			damage: "30x",
+			damage: "30×",
 
 		},
 	],
@@ -71,20 +70,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its fragrance attracts a swarm of Volbeat, so they draw over 200 patterns in the night sky."
+		en: "Its fragrance attracts a swarm of Volbeat, so they draw over 200 patterns in the night sky.",
+		de: "Sein süßer Duft leitet VOLBEAT an, über 200 verschiedene Lichtmuster an den Nachthimmel zu malen."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86268,
+				cardmarket: 279594
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279594,
+				tcgplayer: 86268
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279594,
-		tcgplayer: 86268
-	}
 }
 
 export default card

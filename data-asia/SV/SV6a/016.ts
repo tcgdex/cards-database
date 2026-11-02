@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV6a"
+import { Card } from "../../../interfaces";
+import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "催眠貘"
+		ja: "スリープ",
+		'zh-tw': "催眠貘",
 	},
 
 	illustrator: "OKUBO",
@@ -14,37 +14,44 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		'zh-tw': "據說當牠抽動凸出的鼻子， 無論是誰在哪裡做著什麼夢， 都會被牠知道得一清二楚。"
+		ja: "突き出た 鼻を ひくひくさせると どこの だれが どんな 夢を 見ているのか 全部 わかるという。",
+		'zh-tw': "據說當牠抽動凸出的鼻子， 無論是誰在哪裡做著什麼夢， 都會被牠知道得一清二楚。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "不祥視線"
+	attacks: [
+		{
+			name: {
+				ja: "ぶきみなしせん",
+				'zh-tw': "不祥視線",
+			},
+			damage: 10,
+			cost: ["Psychic"],
+			effect: {
+				ja: "相手の手札を見る。",
+				'zh-tw': "查看對手的手牌。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "查看對手的手牌。"
+	weaknesses: [{ type: "Darkness", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 773765,
+				tcgplayer: 566267,
+			},
 		},
-
-		damage: 10,
-		cost: ["Psychic"]
-	}],
-
-	weaknesses: [{
-		type: "Darkness",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
+	],
 
 	retreat: 2,
 	regulationMark: "H",
-	rarity: "Common"
-}
+	rarity: "Common",
+	dexId: [96],
+};
 
-export default card
+export default card;

@@ -91,6 +91,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It doggedly pursues its prey wherever it goes. However, the chase is abandoned at sunrise.",
+		de: "Verbissen verfolgt es seine Beute überallhin. Doch sobald die Sonne aufgeht, ist die Jagd vorbei."
+	},
+
 	thirdParty: {
 		cardmarket: 408059,
 		tcgplayer: 201258

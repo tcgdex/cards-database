@@ -57,6 +57,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
+		de: "Dieses Pokémon trägt von Geburt an einen Samen auf dem Rücken, der mit ihm keimt und wächst."
+	},
+
 	thirdParty: {
 		cardmarket: 302139,
 		tcgplayer: 146653

@@ -60,7 +60,7 @@ const card: Card = {
 				es: "Dúo Milagroso GX",
 				it: "Duo Miracoloso GX",
 				pt: "Duo Milagroso GX",
-				de: "Wunderduo GX"
+				de: "Wunderduo-GX"
 			},
 			effect: {
 				en: "If this Pokémon has at least 1 extra Energy attached to it (in addition to this attack’s cost), heal all damage from all of your Pokémon. (You can’t use more than 1 GX attack in a game.)",
@@ -69,21 +69,6 @@ const card: Card = {
 				it: "Se questo Pokémon ha almeno un’Energia extra assegnata, in aggiunta a quelle del costo di questo attacco, cura tutti i tuoi Pokémon da tutti i danni. Non puoi usare più di un attacco GX a partita.",
 				pt: "Se este Pokémon tiver pelo menos 1 Energia adicional ligada a ele (além do custo deste ataque), cure todo o dano de todos os seus Pokémon (você não pode usar mais de 1 ataque GX por partida).",
 				de: "Wenn an dieses Pokémon mindestens 1 extra Energie angelegt ist (zusätzlich zu den Kosten dieser Attacke), heile allen Schaden bei jedem deiner Pokémon. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
-			},
-			damage: 200,
-
-		},
-		{
-			cost: [
-				"Psychic",
-				"Psychic",
-				"Colorless",
-			],
-			name: {
-				fr: "Duo Miraculeux-GX",
-			},
-			effect: {
-				fr: "Si au moins une Énergie supplémentaire est attachée à ce Pokémon (en plus du coût de cette attaque), soignez tous les dégâts de vos Pokémon. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 			damage: 200,
 

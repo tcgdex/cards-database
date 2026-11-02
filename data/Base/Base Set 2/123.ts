@@ -11,14 +11,18 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	thirdParty: {
-		cardmarket: 274046,
-		tcgplayer: 42564
+	effect: {
+		en: "Switch 1 of your Benched Pokémon with your Active Pokémon.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274046,
+				tcgplayer: 42564
+			}
 		}
 	]
 }

@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Fuentente"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Water"],
@@ -56,9 +56,27 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "Atsushi Furusawa"
+	illustrator: "Atsushi Furusawa",
+	description: {
+		en: "These Pokémon constantly run through shallow waters to train their legs, then compete with each other to see which of them kicks most gracefully.",
+	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 751808,
+				tcgplayer: 537972
+			},
+		}
+	],
 }
 
 export default card

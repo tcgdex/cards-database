@@ -92,6 +92,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Oricorio has sipped purple nectar. Its elegant, attractive dance will send the minds and hearts of its enemies to another world.",
+		de: "Ein Choreogel, das purpurnen Nektar geschlürft hat. Mit seinem anmutigen Tanz entführt es seine Gegner buchstäblich in eine andere Welt."
+	},
+
 	thirdParty: {
 		cardmarket: 297478,
 		tcgplayer: 130962

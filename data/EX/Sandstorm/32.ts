@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		343,
-	],
+	dexId: [343],
 
 	hp: 50,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Rapid Spin",
 				fr: "Tour rapide",
-				de: "Rapid Spin"
+				de: "Turbodreher"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any. You switch Baltoy with 1 of your Benched Pokémon, if any.",
 				fr: "Votre adversaire échange le Pokémon Défenseur contre un des Pokémon de son Banc, s'il en a. Vous échangez Balbuto contre un des Pokémon de votre Banc, si vous en avez.",
-				de: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any. You switch Baltoy with 1 of your Benched Pokémon, if any."
+				de: "Falls dein Gegner mindestens 1 Pokémon auf der Bank hat, wählt er 1 von ihnen und tauscht es gegen das Verteidigende Pokémon aus. Falls du mindestens 1 Pokémon auf der Bank hast, tauschst du dann 1 von diesen gegen Puppance aus."
 			},
 			damage: 10,
 
@@ -55,19 +53,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275809,
-		tcgplayer: 83709
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275809,
+				tcgplayer: 83709
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275809,
+				tcgplayer: 83709
+			}
 		},
-	]
+	],
+
 }
 
 export default card

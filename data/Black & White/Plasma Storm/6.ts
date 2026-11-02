@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Leech Seed",
 				fr: "Vampigraine",
+				de: "Egelsamen"
 			},
 			effect: {
 				en: "Heal 10 damage from this Pokémon.",
 				fr: "Soignez 10 dégâts à ce Pokémon.",
+				de: "Heile 10 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 10,
 
@@ -61,6 +63,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "The small ball is not only filled with nutrients, it is also tasty. Starly try to peck it off.",
+		de: "Der kleine Ball ist nicht nur voller Nährstoffe, sondern auch schmackhaft. Staralili pickt oft danach."
+	},
 
 	thirdParty: {
 		cardmarket: 280746,

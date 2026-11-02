@@ -3,6 +3,7 @@ import Set from "../Ascended Heroes"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [25, 143, 684],
 
 	name: {
 		en: "Slurpuff",
@@ -14,9 +15,20 @@ const card: Card = {
 		pt: "Slurpuff"
 	},
 
+	evolveFrom: {
+		en: "Swirlix",
+		fr: "Sucroquin",
+		es: "Swirlix",
+		'es-mx': "Swirlix",
+		de: "Flauschling",
+		it: "Swirlix",
+		pt: "Swirlix",
+	},
+
 	illustrator: "Natsumi Yoshida",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [685],
 	hp: 120,
 	types: ["Psychic"],
 	stage: "Stage1",
@@ -51,13 +63,46 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675906,
-		cardmarket: 869705
-	}
+	description: {
+		en: "It can distinguish the faintest of scents. It puts its sensitive sense of smell to use by helping pastry chefs in their work.",
+		fr: "La finesse de son odorat lui permet de distinguer les nuances de parfums les plus subtiles, ce qui en fait un compagnon idéal pour les pâtissiers.",
+		de: "Es verfügt über einen feinen Geruchssinn, mit dem es selbst die schwächsten Gerüche erkennen kann. Es hilft deshalb oft in Konditoreien aus."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869705,
+			tcgplayer: 675906
+		}
+	},
+	{
+		type: "reverse",
+		foil: "loveball",
+		thirdParty: {
+			cardmarket: 870284,
+			tcgplayer: 676926
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870283,
+			tcgplayer: 677066
+		}
+	},
+],
 }
 
 export default card

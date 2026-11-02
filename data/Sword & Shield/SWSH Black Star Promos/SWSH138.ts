@@ -4,13 +4,32 @@ import Set from '../SWSH Black Star Promos'
 const card: Card = {
 	dexId: [635],
 	set: Set,
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576737,
+				tcgplayer: 251094
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576910,
+				tcgplayer: 260879
+			}
+		},
+	],
 
 	name: {
 		en: "Hydreigon C",
@@ -21,7 +40,7 @@ const card: Card = {
 		it: "Hydreigon C"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Darkness"],

@@ -40,7 +40,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as Slowbro has any Psychic Energy attached to it, Slowbro is both Water and Psychic type.",
-				fr: "Tant que Flagadoss possède des Énergies , il est à la fois de type  et .",
+				fr: "Tant que Flagadoss possède des Énergies {P}, il est à la fois de type {W} et {P}.",
 				de: "As long as Slowbro has any  Energy attached to it, Slowbro is both  and  type."
 			},
 		},
@@ -91,23 +91,27 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276659,
-		tcgplayer: 89305
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 89305,
+				cardmarket: 276659
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 89305,
+				cardmarket: 276659
+			},
 		},
 		{
 			type: "normal",
 		}
-	]
+	],
 }
 
 export default card

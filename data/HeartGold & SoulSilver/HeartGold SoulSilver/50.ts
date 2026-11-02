@@ -12,15 +12,14 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [129, 456, 457],
 
-	dexId: [
-		211,
-	],
+	dexId: [211],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -39,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned. If tails, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Empoisonné. Si c’est pile, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt vergiftet. Bei \"Zahl\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt vergiftet. Bei „Zahl“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -56,22 +55,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once."
+		en: "To fire its poison spikes, it must inflate its body by drinking over 2.6 gallons of water all at once.",
+		de: "Um seine Giftstacheln abzufeuern, muss es seinen Körper aufpumpen, indem es 10 Liter trinkt."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88495,
+				cardmarket: 279022
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88495,
+				cardmarket: 279022
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279022,
-		tcgplayer: 88495
-	}
 }
 
 export default card

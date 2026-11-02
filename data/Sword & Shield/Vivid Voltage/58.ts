@@ -85,12 +85,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -98,10 +92,22 @@ const card: Card = {
 		en: "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity."
 	},
 
-	thirdParty: {
-		cardmarket: 511710,
-		tcgplayer: 226456
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511710,
+				tcgplayer: 226456
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511710,
+				tcgplayer: 226456
+			}
+		},
+	],
 }
 
 export default card

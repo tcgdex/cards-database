@@ -22,22 +22,26 @@ const card: Card = {
 		es: "Mira las 4 primeras cartas de tu baraja y pon 2 de ellas en tu mano. Baraja el resto de las cartas y ponlas en la parte inferior de tu baraja.",
 		it: "Guarda le prime quattro carte del tuo mazzo e aggiungine due alle carte che hai in mano. Rimischia le altre carte e mettile in fondo al tuo mazzo.",
 		pt: "Olhe as 4 cartas de cima do seu baralho e coloque 2 delas na sua mão. Embaralhe as outras cartas e coloque-as como as cartas de baixo do seu baralho.",
-		de: "Schau dir die obersten 4 Karten deines Decks an und nimm 2 von ihnen auf deine Hand. Mische die anderen Karten und lege sie unter dein Deck."
+		de: "Schau dir die obersten 4 Karten deines Decks an und nimm 2 von ihnen auf deine Hand. Mische die anderen Karten und lege sie unter dein Deck. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740784,
+				tcgplayer: 523922,
+				cardtrader: 265296
+			}
+		},
+	],
 
 	illustrator: "GIDORA",
 
-	thirdParty: {
-		cardmarket: 740784
-	}
+	
 }
 
 export default card

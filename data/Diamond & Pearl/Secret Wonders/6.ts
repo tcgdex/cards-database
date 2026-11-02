@@ -78,6 +78,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A master of courtesy and swordsmanship, it fights using extending swords on its elbows.",
+	},
+
 	thirdParty: {
 		cardmarket: 277759,
 		tcgplayer: 85604

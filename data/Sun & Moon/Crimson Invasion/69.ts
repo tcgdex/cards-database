@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Karrablast",
 		fr: "Carabing",
+		de: "Laukaps"
 	},
 
 	stage: "Stage1",
@@ -99,6 +100,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Wearing the shell covering they stole from Shelmet, they defend themselves and attack with two lances.",
+		de: "Eine von einem Schnuthelm gestohlene Muschel dient ihm als Helm. Es greift Gegner mit seinen beiden Lanzen an."
+	},
 
 	thirdParty: {
 		cardmarket: 311917,

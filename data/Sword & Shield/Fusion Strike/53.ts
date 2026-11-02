@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Megumi Mizutani",
 
 	description: {
-		en: "It rotates its geometrically shaped body to swim through the water. It always seems to be sending out mysterious radio waves."
+		en: "It rotates its geometrically shaped body to swim through the water. It always seems to be sending out mysterious radio waves.",
+		de: "Es rotiert seinen geometrischen Körper, um sich im Wasser fortzubewegen. Wie es scheint, sendet es immerzu mysteriöse Radiowellen aus."
 	},
 
 	attacks: [{
@@ -59,17 +66,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582187,
-		tcgplayer: 253184
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 582187,
+				tcgplayer: 253184
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582187,
+				tcgplayer: 253184
+			}
+		},
+	],
 }
 
 export default card

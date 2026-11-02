@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 70,
 	types: ["Fighting"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "OKACHEKE",
 
 	description: {
-		en: "The way it protects itself by flailing its arms may be an adorable sight, but stay well away. This is flailing that can snap thick tree trunks."
+		en: "The way it protects itself by flailing its arms may be an adorable sight, but stay well away. This is flailing that can snap thick tree trunks.",
+		de: "Strampelt es zum Schutz mit den Vorderbeinen, sieht das zwar niedlich aus, aber ein Treffer mit ihnen ist stark genug, um große Bäume zu fällen."
 	},
 
 	attacks: [{
@@ -55,17 +62,23 @@ const card: Card = {
 		damage: 30
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582778,
-		tcgplayer: 253364
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582778,
+				tcgplayer: 253364
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582778,
+				tcgplayer: 253364
+			}
+		},
+	],
 }
 
 export default card

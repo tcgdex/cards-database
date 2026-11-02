@@ -57,6 +57,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
+		de: "Es fügt seiner Schale schichtenweise Baumrinde hinzu. Die zusätzliche Belastung ist ihm gleich."
+	},
+
 	thirdParty: {
 		cardmarket: 281487,
 		tcgplayer: 91137

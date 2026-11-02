@@ -7,7 +7,8 @@ const card: Card = {
 
 	name: {
 		en: "Latios",
-		fr: "Latios"
+		fr: "Latios",
+		de: "Latios"
 	},
 
 	illustrator: "Kyoko Koizumi",
@@ -17,7 +18,7 @@ const card: Card = {
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	attacks: [{
@@ -27,11 +28,13 @@ const card: Card = {
 		],
 		name: {
 			en: "Gather Energy",
-			fr: "Rassemblement d'énergie"
+			fr: "Rassemblement d'énergie",
+			de: "Energie sammeln"
 		},
 		effect: {
 			en: "Flip a coin. If heads, search your deck for a basic Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
-			fr: "Lancez une pièce. Si c'est face, choisissez dans votre deck une carte Énergie de base et attachez-la à 1 de vos Pokémon. Ensuite, mélangez votre deck."
+			fr: "Lancez une pièce. Si c'est face, choisissez dans votre deck une carte Énergie de base et attachez-la à 1 de vos Pokémon. Ensuite, mélangez votre deck.",
+			de: "Wirf 1 Münze. Durchsuche bei „Kopf“ dein Deck nach einer Basis-Energiekarte und lege sie an eines deiner Pokémon im Spiel an. Mische dein Deck danach."
 		},
 		damage: 20
 	}, {
@@ -42,7 +45,8 @@ const card: Card = {
 		],
 		name: {
 			en: "Dragon Claw",
-			fr: "Griffe de dragon"
+			fr: "Griffe de dragon",
+			de: "Drachenklaue"
 		},
 		damage: 40
 	}],
@@ -50,15 +54,21 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "2x"
 		},
 	],
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 86664
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 275760,
+				tcgplayer: 86664
+			}
+		},
+	],
+
 }
 
 export default card

@@ -60,19 +60,32 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.",
+		fr: "Sa démarche est maladroite et il perd souvent l'équilibre. Malgré cela, son orgueil le pousse à toujours bomber fièrement le torse.",
+		de: "Es stolpert häufig, weil es nicht gut laufen kann. Allerdings ist es sehr stolz, und so rappelt es sich immer wieder unbeirrt auf."
+	},
+
+	illustrator: "Jiro Sasumo",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857673,
+				tcgplayer: 662215,
+				cardtrader: 356884
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857673,
-		tcgplayer: 662215
-	}
 }
 
 export default card

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Bulbasaur",
 		fr: "Bulbizarre",
+		de: "Bisasam"
 	},
 
 	stage: "Stage1",
@@ -87,6 +88,11 @@ const card: Card = {
 	],
 
 	retreat: 4,
+
+	description: {
+		en: "There is a plant bulb on its back. When it absorbs nutrients, the bulb is said to blossom into a large flower.",
+		de: "Es trägt eine Knospe auf seinem Rücken. Nimmt es Nahrung zu sich, soll aus der Knospe eine große blühende Blume werden."
+	},
 
 	thirdParty: {
 		cardmarket: 302140,

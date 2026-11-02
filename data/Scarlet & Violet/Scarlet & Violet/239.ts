@@ -4,6 +4,8 @@ import Set from "../Scarlet & Violet"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [133],
+
 	name: {
 		en: "Penny",
 		fr: "Pania",
@@ -22,16 +24,17 @@ const card: Card = {
 		es: "Pon 1 de tus Pokémon Básicos y todas las cartas unidas a él en tu mano.",
 		it: "Riprendi in mano uno dei tuoi Pokémon Base e tutte le carte a esso assegnate.",
 		pt: "Coloque 1 dos seus Pokémon Básicos e todas as cartas ligadas a ele na sua mão.",
-		de: "Nimm 1 deiner Basis-Pokémon und alle angelegten Karten auf deine Hand."
+		de: "Nimm 1 deiner Basis-Pokémon und alle angelegten Karten auf deine Hand. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "yuu",
 

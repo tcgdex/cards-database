@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Evita todos los efectos de los ataques del rival, incluido el daño, infligidos a los Pokémon en Banca (tanto tuyos como de tu rival).",
 		it: "Previeni tutti gli effetti degli attacchi del tuo avversario, inclusi i danni, inflitti ai Pokémon in panchina, sia tuoi che del tuo avversario.",
 		pt: "Previne todos os efeitos dos ataques do oponente, incluindo dano, causados aos Pokémon no Banco (seus e do seu oponente).",
-		de: "Verhindere alle Effekte von Attacken deines Gegners, einschließlich Schaden, die Pokémon auf der Bank (deiner und der deines Gegners) zugefügt werden."
+		de: "Verhindere alle Effekte von Attacken deines Gegners, einschließlich Schaden, die Pokémon auf der Bank (deiner und der deines Gegners) zugefügt werden. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

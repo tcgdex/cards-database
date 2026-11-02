@@ -65,18 +65,46 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715563,
+				tcgplayer: 497502,
+				cardtrader: 248715
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715563,
+				tcgplayer: 497502,
+				cardtrader: 248715
+			}
+		},
+	],
 
 	illustrator: "Atsushi Furusawa",
 
-	thirdParty: {
-		cardmarket: 715563
-	}
+	description: {
+		en: "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power.",
+		de: "Sein Ruf ähnelt einer Beschwörung. Man sagt, dass er in seltenen Fällen über die Kraft verfüge, glücklich zu machen."
+	},
 }
 
 export default card

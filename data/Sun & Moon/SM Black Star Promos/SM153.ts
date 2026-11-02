@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Bauz"
 	},
 	illustrator: "Masakazu Fukuda",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -63,6 +63,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This wary Pokémon uses photosynthesis to store up energy during the day, while becoming active at night.",
+		de: "Ein wachsames und nachtaktives Pokémon. Tagsüber sammelt es per Photosynthese Kräfte, um fit für die Nacht zu sein."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 364322,
+				tcgplayer: 181000
+			}
+		}
+	],
 }
 
 export default card

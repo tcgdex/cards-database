@@ -4,7 +4,7 @@ import Set from '../Fossil'
 const card: Card = {
 	name: {
 		en: "Aerodactyl",
-		fr: "Ptera",
+		fr: "Ptéra",
 		de: "Aerodactyl"
 	},
 
@@ -72,31 +72,41 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
-		fr: "Un Pokémon préhistorique qui attaque son ennemi à la gorge avec ses crocs acérés."
+		en: "A ferocious prehistoric Pokémon that goes for the enemy's throat with its serrated saw-like fangs.",
+		fr: "Un Pokémon préhistorique qui attaque son ennemi à la gorge avec ses crocs acérés.",
+		de: "Ein wildes Pokémon aus der Urzeit, das dem Gegner mit seinen sägeartigen Fangzähnen an die Gurgel geht."
 	},
 
-	thirdParty: {
-		cardmarket: 273862,
-		tcgplayer: 106526
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273877,
+				tcgplayer: 106526
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 273877,
+				tcgplayer: 106526
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			thirdParty: {
+				cardmarket: 273877,
+				tcgplayer: 106526
+			}
 		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright"
-		}
-	]
+	],
 }
 
 export default card

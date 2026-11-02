@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Psyduck"
+		en: "Psyduck",
+		fr: "Psykokwak"
 	},
 
 	illustrator: "nagimiso",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Rain Splash"
+			en: "Rain Splash",
+			fr: "Pluie Éclaboussante"
 		},
 
 		damage: 20,

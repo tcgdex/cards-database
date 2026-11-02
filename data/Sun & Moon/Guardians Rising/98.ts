@@ -79,6 +79,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It expresses its feelings by smacking its scales. Metallic sounds echo through the tall mountains where Jangmo-o lives.",
+		de: "Es übermittelt seine Gefühle durch das Rasseln seiner Schuppen, wodurch im Hochgebirge, in dem es lebt, ein metallisches Geräusch erhallt."
+	},
+
 	thirdParty: {
 		cardmarket: 297552,
 		tcgplayer: 131014

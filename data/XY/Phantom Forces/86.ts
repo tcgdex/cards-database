@@ -84,6 +84,11 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It is said to have made Pokémon that look like itself from a special ice mountain, rocks, and magma.",
+		de: "Man sagt, es habe Pokémon aus einem Eisberg, Felsen und Magma nach seinem Abbild geschaffen."
+	},
+
 	thirdParty: {
 		cardmarket: 281892,
 		tcgplayer: 94654

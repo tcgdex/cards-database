@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		19,
-	],
+	dexId: [19],
 
 	hp: 30,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -35,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -49,19 +47,29 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 278945,
-		tcgplayer: 88619
+	description: {
+		en: "Cautious in the extreme, its hardy vitality lets it live in any kind of environment.",
+		de: "Es strotzt vor Lebenskraft und kann in jeder Umgebung leben. Es ist extrem vorsichtig."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88619,
+				cardmarket: 278945
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278945,
+				tcgplayer: 88619
+			}
+		},
+	],
+
+	retreat: 0
 }
 
 export default card

@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Zweilous",
@@ -66,15 +60,28 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Their two heads will fight each other over a single piece of food. Zweilous are covered in scars even without battling others."
+		en: "Their two heads will fight each other over a single piece of food. Zweilous are covered in scars even without battling others.",
+		de: "Sein Körper weist immer Narben auf, selbst wenn es gar nicht gekämpft hat. Die beiden Köpfe nehmen sich ständig gegenseitig das Futter weg."
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574162,
-		tcgplayer: 246912
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574162,
+				tcgplayer: 246912
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574162,
+				tcgplayer: 246912
+			}
+		},
+	],
 }
 
 export default card

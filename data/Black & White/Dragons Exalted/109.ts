@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras'Face",
+				de: "Pfund"
 			},
 
 			damage: 10,
@@ -49,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Reckless Charge",
 				fr: "Attaque Imprudente",
+				de: "Waghalsiger Sturmangriff"
 			},
 			effect: {
 				en: "This Pokémon does 10 damage to itself.",
 				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				de: "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -68,10 +71,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280548,
-		tcgplayer: 87477
-	}
+	description: {
+		en: "They great one another by rubbing each other with their tails, which are always kept well groomed and clean.",
+		de: "Sie sorgen dafür, dass ihre Schweife stets schön sauber sind, da sie diese zur Begrüßung aneinanderreiben."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280548,
+				tcgplayer: 87477
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280548,
+				tcgplayer: 87477
+			}
+		},
+	],
 }
 
 export default card

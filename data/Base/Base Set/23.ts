@@ -27,7 +27,8 @@ const card: Card = {
 	evolveFrom: {
 		en: "Growlithe",
 		fr: "Caninos",
-		it: "Growlithe"
+		it: "Growlithe",
+		de: "Fukano"
 	},
 
 	stage: "Stage1",
@@ -47,8 +48,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Arcanine in order to use this attack.",
-				fr: "Défaussez 1 carte Énergie  attachée à Arcanin pour pouvoir utiliser cette attaque.",
-				de: "Entferne eine auf Arkani abgelegte  Energiekarte, um diesen Angriff auszuführen.",
+				fr: "Défaussez 1 carte Énergie {R} attachée à Arcanin pour pouvoir utiliser cette attaque.",
+				de: "Entferne eine auf Arkani abgelegte {R} Energiekarte, um diesen Angriff auszuführen.",
 				it: "Scarta una carta Energia Fuoco assegnata ad Arcanine per poter usare questo attacco."
 			},
 			damage: 50,
@@ -82,15 +83,27 @@ const card: Card = {
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273718,
+				tcgplayer: 42364
+			}
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107018,
+				cardmarket: 660205
+			}
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107018,
+				cardmarket: 660205
+			}
 		},
 		{
 			type: "normal",
@@ -104,16 +117,15 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "A Pokémon that has been long admired for its beauty. It runs gracefully, as if on wings.",
 		fr: "Un Pokémon très recherché pour sa grâce légendaire. Son pas élégant semble glisser sur le vent.",
-		it: "Pokémon da sempre ammirato per il suo fiero aspetto. Corre con grande agilità, come se avesse le ali. LIV 45 N.59"
+		it: "Pokémon da sempre ammirato per il suo fiero aspetto. Corre con grande agilità, come se avesse le ali. LIV 45 N.59",
+		de: "Ein Pokémon, das schon lange für seine Schönheit bewundert wird. Es läuft anmutig wie auf Flügeln."
 	},
-
-	thirdParty: {
-		cardmarket: 273718,
-		tcgplayer: 42364
-	}
 }
 
 export default card

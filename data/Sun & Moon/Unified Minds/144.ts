@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [25, 425],
 
 	dexId: [
 		547,
@@ -29,6 +30,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cottonee",
 		fr: "Doudouvet",
+		de: "Waumboll"
 	},
 
 	stage: "Stage1",
@@ -89,6 +91,11 @@ const card: Card = {
 	],
 
 	retreat: 0,
+
+	description: {
+		en: "This nuisance sneaks into people's homes, where it hides important things and scatters cotton all over the place.",
+		de: "Ein Störenfried, der heimlich in Wohnhäuser eindringt und dann wichtige Dinge versteckt sowie in allen Zimmern Watte verstreut."
+	},
 
 	thirdParty: {
 		cardmarket: 388517,

@@ -60,15 +60,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 273968,
-		tcgplayer: 42508
+
+	description: {
+		en: "Merely by meditating, the Pokémon launches a powerful psychic energy attack.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273968,
+				tcgplayer: 42508
+			}
 		}
 	]
 }

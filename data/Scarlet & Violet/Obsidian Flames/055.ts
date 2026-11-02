@@ -4,6 +4,7 @@ import Set from "../Obsidian Flames"
 const card: Card = {
 	dexId: [615],
 	set: Set,
+	cameoDexIds: [608],
 
 	name: {
 		fr: "Hexagel",
@@ -44,18 +45,42 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Cryogonal appear during cold seasons. It is said that people and Pokémon who die on snowy mountains are reborn into these Pokémon.",
+		de: "Sie erscheinen in der kalten Jahreszeit. Man sagt, sie seien Reinkarnationen von Pokémon und Menschen, die auf verschneiten Bergen starben."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725135,
+				tcgplayer: 509802,
+				cardtrader: 255615
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725135,
+				tcgplayer: 509802,
+				cardtrader: 255615
+			}
+		},
+	],
 
 	illustrator: "kirisAki",
 
-	thirdParty: {
-		cardmarket: 725135
-	}
+	
 }
 
 export default card

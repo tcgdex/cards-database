@@ -91,6 +91,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Research continues on this Pokémon, which could be the power source of a unique motor.",
+		de: "Dieses Pokémon wurde lange Zeit erforscht, um als Energiequelle für einen besonderen Motor zu dienen."
+	},
+
 	thirdParty: {
 		cardmarket: 408074,
 		tcgplayer: 201260

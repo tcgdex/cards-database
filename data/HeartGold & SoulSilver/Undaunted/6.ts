@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Yuka Morii",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		219,
-	],
+	dexId: [219],
 
 	hp: 100,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Slugma",
 		fr: "Limagma",
+		de: "Schneckmag"
 	},
 
 	stage: "Stage1",
@@ -61,9 +60,9 @@ const card: Card = {
 				de: "Lavaschub"
 			},
 			effect: {
-				en: "You may discard any number of Fire Energy cards attached to Magcargo. If you do, this attack does 60 damage plus 20 damage for each Fire Energy card you discarded.",
+				en: "You may discard any number of Fire Energy cards attached to Magcargo. If you do , this attack does 60 damage plus 20 more damage for each Fire Energy card you discarded.",
 				fr: "Vous pouvez défausser autant de cartes Énergie Fire attachées à Volcaropod que vous le souhaitez. Dans ce cas, cette attaque inflige 60 dégâts plus 20 dégâts pour chaque carte Énergie Fire que vous avez défaussée.",
-				de: "Du darfst beliebig viele der an Magcargo angelegten -Energiekarten auf deinen Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 60 Schadenspunkte plus 20 weitere Schadenspunkte für jede abgelegte -Energiekarte zu."
+				de: "Du darfst beliebig viele der an Magcargo angelegten {R}-Energiekarten auf deinen Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 60 Schadenspunkte plus 20 weitere Schadenspunkte für jede abgelegte {R}-Energiekarte zu."
 			},
 			damage: "60+",
 
@@ -80,22 +79,27 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its brittle shell occasionally spouts intense flames that circulate throughout its body."
+		en: "Its brittle shell occasionally spouts intense flames that circulate throughout its body.",
+		de: "Aus seinem porösen Schneckengehäuse sprudeln Feuerfontänen, die seinen Körper durchfluten."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279259,
+				tcgplayer: 87017
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279259,
+				tcgplayer: 87017
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279259,
-		tcgplayer: 87017
-	}
 }
 
 export default card

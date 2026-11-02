@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "hncl",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [442],
 	hp: 70,
 	types: ["Darkness"],
 	stage: "Basic",
@@ -47,13 +48,30 @@ const card: Card = {
 		damage: "10×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676056,
-		cardmarket: 869855
-	}
+	description: {
+		en: "Its constant mischief and misdeeds resulted in it being bound to an Odd Keystone by a mysterious spell.",
+		fr: "Son mauvais comportement lui a valu d'être enchaîné à une Clé de Voûte par un mystérieux sortilège.",
+		de: "Aufgrund seiner ständigen Untaten wurde es mit mysteriösen Künsten an einen Spiritkern gebunden."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869855,
+				tcgplayer: 676056
+			}
+		}
+	],
 }
 
 export default card

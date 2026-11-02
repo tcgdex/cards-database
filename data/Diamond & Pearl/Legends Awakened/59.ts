@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Chinchou",
 		fr: "Lampi",
+		de: "Lampi"
 	},
 
 	stage: "Stage1",
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Does 60 damage plus 10 more damage for each Water Energy attached to Lanturn.",
 				fr: "Inflige 60 dégâts plus 10 dégâts supplémentaires pour chaque Énergie Water attachée à Lanturn.",
-				de: "Dieser Angriff fügt 60 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Lanturn angelegte -Energie zu."
+				de: "Dieser Angriff fügt 60 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Lanturn angelegte {W}-Energie zu."
 			},
 			damage: "60+",
 
@@ -78,7 +79,9 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		fr: "La lumière de LANTURN surgit des profondeurs. On le surnomme \"étoile des profondeurs\"."
+		en: "Lanturn's light can shine up from great depths. It is nicknamed \"The Deep-Sea Star.\"",
+		fr: "La lumière de LANTURN surgit des profondeurs. On le surnomme \"étoile des profondeurs\".",
+		de: "LANTURNs Licht kann aus großen Tiefen heraufscheinen. Man nennt es auch “Tiefseestern”."
 	},
 
 	thirdParty: {

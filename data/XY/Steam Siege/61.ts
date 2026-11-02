@@ -95,6 +95,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They live in cold regions, forming groups of four or five that hunt prey with impressive coordination.",
+		de: "Es lebt in kalten Gebieten in Gruppen von vier oder fünf Pokémon, die bei der Jagd großes Geschick zeigen."
+	},
+
 	thirdParty: {
 		cardmarket: 291631,
 		tcgplayer: 121191

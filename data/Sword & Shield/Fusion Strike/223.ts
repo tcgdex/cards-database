@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Shibuzoh.",
 
 	description: {
-		en: "Its majestic horns are meant only to impress the opposite gender. They never see use in battle."
+		en: "Its majestic horns are meant only to impress the opposite gender. They never see use in battle.",
+		de: "Seine prächtig gewachsenen Hörner dienen dazu, dem anderen Geschlecht zu imponieren. Es nutzt sie nicht als Waffe."
 	},
 
 	attacks: [{
@@ -74,17 +81,23 @@ const card: Card = {
 		damage: 70
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582959,
-		tcgplayer: 253324
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582959,
+				tcgplayer: 253324
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582959,
+				tcgplayer: 253324
+			}
+		},
+	],
 }
 
 export default card

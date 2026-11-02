@@ -4,7 +4,7 @@ import Set from '../Platinum'
 const card: Card = {
 	name: {
 		en: "Houndoom G",
-		fr: "Demolosse ",
+		fr: "Demolosse G",
 		de: "Hundemon G"
 	},
 
@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		229,
-	],
+	dexId: [229],
 
 	hp: 90,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -35,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Black Cry",
 				fr: "Cri noir",
-				de: "Black Cry"
+				de: "Schwarzer Schrei"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat or use any Poké-Powers during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite ou utiliser de Poké-Powers lors du prochain tour de votre adversaire.",
-				de: "The Defending Pokémon can't retreat or use any Poke-Powers during your opponent's next turn."
+				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen und keine Poké-Power benutzen."
 			},
 			damage: 20,
 
@@ -54,12 +52,12 @@ const card: Card = {
 			name: {
 				en: "Dark Slash",
 				fr: "Entaille",
-				de: "Dark Slash"
+				de: "Dunkler Hieb"
 			},
 			effect: {
-				en: "You may discard a Darkness Energy attached to Houndoom . If you do, this attack does 40 damage plus 20 more damage.",
+				en: "You may discard a Darkness Energy attached to Houndoom G. If you do, this attack does 40 damage plus 20 more damage.",
 				fr: "Vous pouvez défausser une Énergie Darkness attachée à Demolosse . Cette attaque inflige alors 40 dégâts plus 20 dégâts supplémentaires.",
-				de: "You may discard a  Energy attached to Houndoom G. If you do, this attack does 40 damage plus 20 more damage."
+				de: "Du kannst 1{D}-Energie von Hundemon G entfernen und auf deinen Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -82,19 +80,23 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278471,
-		tcgplayer: 86215
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 86215,
+				cardmarket: 278471
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278471,
+				tcgplayer: 86215
+			}
 		}
-	]
+	],
+
 }
 
 export default card

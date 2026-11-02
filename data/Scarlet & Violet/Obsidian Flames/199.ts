@@ -63,19 +63,34 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse.",
+		de: "Dieses Pokémon ist intelligent, aber rachsüchtig. Wer zum Spaß einen seiner Schweife ergreift, kann sich einen tausendjährigen Fluch einhandeln."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 725279,
+				tcgplayer: 509945,
+				cardtrader: 255641
+			}
+		},
+	],
 
 	illustrator: "SIE NANAHARA",
 
-	thirdParty: {
-		cardmarket: 725279
-	}
+	
 }
 
 export default card

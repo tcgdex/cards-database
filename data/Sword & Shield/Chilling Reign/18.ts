@@ -81,23 +81,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
 	description: {
-		en: "The one with the best drumming techniques becomes the boss of the troop. It has a gentle disposition and values harmony among its group."
+		en: "The one with the best drumming techniques becomes the boss of the troop. It has a gentle disposition and values harmony among its group.",
+		de: "Wer die beste Trommeltechnik hat, wird zum Anführer. Da es ein ruhiges Gemüt hat, legt es viel Wert auf Harmonie in der Gruppe."
 	},
 
-	thirdParty: {
-		cardmarket: 567098,
-		tcgplayer: 241667
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567098,
+				tcgplayer: 241667
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567098,
+				tcgplayer: 241667
+			}
+		},
+	],
 }
 
 export default card

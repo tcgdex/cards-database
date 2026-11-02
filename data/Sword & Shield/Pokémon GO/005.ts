@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Alola-Kokowei V"
 	},
 
+	illustrator: "MUGENUP",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 240,
@@ -39,7 +40,7 @@ const card: Card = {
 			es: "Lanza 1 moneda. Si sale cara, busca en tu baraja hasta 5 cartas de Energía Grass y únelas a tus Pokémon de la manera que desees. Después, baraja las cartas de tu baraja.",
 			it: "Lancia una moneta. Se esce testa, cerca nel tuo mazzo fino a cinque carte Energia Grass e assegnale ai tuoi Pokémon nel modo che preferisci. Poi rimischia le carte del tuo mazzo.",
 			pt: "Jogue 1 moeda. Se sair cara, procure por até 5 cartas de Energia Grass no seu baralho e ligue-as aos seus Pokémon como desejar. Em seguida, embaralhe o seu baralho.",
-			de: "Wirf 1 Münze. Durchsuche bei Kopf dein Deck nach bis zu 5 Grass-Energiekarten und lege sie beliebig an deine Pokémon an. Mische anschließend dein Deck."
+			de: "Wirf 1 Münze. Durchsuche bei Kopf dein Deck nach bis zu 5 {G}-Energiekarten und lege sie beliebig an deine Pokémon an. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
@@ -59,23 +60,31 @@ const card: Card = {
 			es: "Este ataque hace 30 puntos de daño a 1 de los Pokémon de tu rival por cada Energía Grass unida a este Pokémon. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 			it: "Questo attacco infligge 30 danni a uno dei Pokémon del tuo avversario per ogni Energia Grass assegnata a questo Pokémon. Non applicare debolezza e resistenza ai Pokémon in panchina.",
 			pt: "Este ataque causa 30 pontos de dano a 1 dos Pokémon do seu oponente para cada Energia Grass ligada a este Pokémon (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
-			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Grass-Energie 1 Pokémon deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte {G}-Energie 1 Pokémon deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 664541,
-		tcgplayer: 276943
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665239,
+				tcgplayer: 276943
+			}
+		},
+	],
 }
 
 export default card

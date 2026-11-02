@@ -66,6 +66,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.",
+	},
 }
 
 export default card

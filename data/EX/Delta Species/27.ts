@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Sandslash δ",
 		fr: "Sablaireau δ",
-		de: "Sandamer"
+		de: "Sandamer δ"
 	},
 
 	illustrator: "Mitsuhiro Arita",

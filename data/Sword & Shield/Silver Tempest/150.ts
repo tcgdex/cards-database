@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Dartiri"
 	},
 
+	illustrator: "Shibuzoh.",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 40,
@@ -35,20 +36,43 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Its melodious cries are actually warnings. Fletchling will mercilessly peck at anything that enters its territory.",
+		de: "Sein wunderschönes Zwitschern ist in Wirklichkeit eine Warnung. Wer in sein Revier eindringt, wird gnadenlos von ihm gepickt."
 	},
 
-	thirdParty: {
-		cardmarket: 682197,
-		tcgplayer: 451799
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682197,
+				tcgplayer: 451799
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682197,
+				tcgplayer: 451799
+			}
+		},
+	],
 }
 
 export default card

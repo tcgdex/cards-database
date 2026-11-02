@@ -24,6 +24,22 @@ const card: Card = {
 		'zh-cn': "雙方的所有寶可夢身上附加的「寶可夢道具」卡的效果全部消除。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803294,
+				tcgplayer: 602638,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602639,
+			},
+		},
+	],
+
 	trainerType: "Stadium",
 	regulationMark: "H"
 }

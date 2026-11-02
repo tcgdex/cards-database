@@ -12,6 +12,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [127],
 
 	dexId: [
 		214,
@@ -58,7 +59,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+				de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 60
@@ -71,23 +72,31 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
-		fr: "Ce puissant Pokémon enfonce sa corne très recherchée sous le ventre de ses ennemis, puis les soulève et les jette au loin."
+		en: "This powerful Pokémon thrusts its prized horn under its enemies' bellies, then lifts and throws them.",
+		fr: "Ce puissant Pokémon enfonce sa corne très recherchée sous le ventre de ses ennemis, puis les soulève et les jette au loin.",
+		de: "Dieses mächtige Pokémon stößt sein wertvolles Horn unter den Bauch seiner Feinde, hebt sie dann hoch und schleudert sie."
 	},
 
-	thirdParty: {
-		cardmarket: 274406,
-		tcgplayer: 86059
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274406,
+				tcgplayer: 86059
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274406,
+				tcgplayer: 86059
+			}
 		}
 	]
 }

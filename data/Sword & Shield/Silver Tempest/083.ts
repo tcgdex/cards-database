@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Flauschling"
 	},
 
+	illustrator: "Asako Ito",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -48,20 +49,37 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It eats its own weight in sugar every day. If it doesn't get enough sugar, it becomes incredibly grumpy.",
+		de: "Die Menge an Zucker, die es pro Tag verschlingt, entspricht seinem Körpergewicht. Bekommt es nicht genügend Zucker, wird es unausstehlich."
 	},
 
-	thirdParty: {
-		cardmarket: 682130,
-		tcgplayer: 451737
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682130,
+				tcgplayer: 451737
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682130,
+				tcgplayer: 451737
+			}
+		},
+	],
 }
 
 export default card

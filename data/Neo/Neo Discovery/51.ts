@@ -29,14 +29,14 @@ const card: Card = {
 		{
 			type: "Pokemon Power",
 			name: {
-				en: "Undo",
+				en: "[Undo]",
 				fr: "[Undo]",
-				de: "Undo"
+				de: "Undo [Undo]"
 			},
 			effect: {
-				en: "Once during your turn (before you attack), if you have Unown U, Unown N, Unown D, and Unown O on your Bench, you may return your Active Pokémon and all cards attached to it to your hand.",
+				en: "Once during your turn (before you attack), if you have Unown [U], Unown [N], Unown [D], and Unown [O] on your Bench, you may return your Active Pokémon and all cards attached to it to your hand.",
 				fr: "Une fois pendant votre tour (avant votre attaque), si vous avez Zarbi [U], Zarbi [N], Zarbi [D], et Zarbi [O] sur votre Banc, vous pouvez remettre votre Pokémon Actif et toutes les cartes attachées à lui dans votre main.",
-				de: "Du kannst einmel während deines Zuges (vor deinem Angriff) dein aktives Pokémon und alle daran angelegten Karten auf deine Hand zurücknehmen, wenn Icognito U, Icognito N, Icognito D und Icognito O auf deiner Bank sind."
+				de: "Du kannst einmal während deines Zuges (vor deinem Angriff) dein aktives Pokémon und alle daran angelegten Karten auf deine Hand zurücknehmen, wenn Icognito [U], Icognito [N], Icognito [D] und Icognito [O] auf deiner Bank sind."
 			},
 		},
 	],
@@ -63,23 +63,31 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Ils ressemblent à des hiéroglyphes inscrits sur d'antiques tablettes. On prétend qu'ils sont de la même origine."
+		en: "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
+		fr: "Ils ressemblent à des hiéroglyphes inscrits sur d'antiques tablettes. On prétend qu'ils sont de la même origine.",
+		de: "Ihre Gestalt erinnert an Hieroglyphen auf alten Steintafeln. Ob ein Zusammenhang besteht, ist unklar."
 	},
 
-	thirdParty: {
-		cardmarket: 274562,
-		tcgplayer: 90236
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274562,
+				tcgplayer: 90236
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274562,
+				tcgplayer: 90236
+			}
 		}
 	]
 }

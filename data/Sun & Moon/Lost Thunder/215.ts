@@ -83,7 +83,7 @@ const card: Card = {
 				es: "Constricción GX",
 				it: "Avvolgibotta-GX",
 				pt: "Embrulho GX",
-				de: "Wickel GX"
+				de: "Wickel-GX"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Paralyzed. (You can’t use more than 1 GX attack in a game.)",

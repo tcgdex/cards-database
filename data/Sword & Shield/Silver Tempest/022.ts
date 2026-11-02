@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Gallopa"
 	},
 
+	illustrator: "Megumi Higuchi",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 100,
@@ -48,7 +49,7 @@ const card: Card = {
 			es: "Una vez durante tu turno, puedes descartar 1 carta de Energía Fire de tu mano para poder usar esta habilidad. Durante este turno, los ataques de tus Pokémon Fire hacen 30 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 			it: "Una sola volta durante il tuo turno, puoi scartare una carta Energia Fire che hai in mano per usare questa abilità. Durante questo turno, gli attacchi dei tuoi Pokémon Fire infliggono 30 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
 			pt: "Uma vez durante o seu turno, você poderá descartar 1 carta de Energia Fire da sua mão para usar esta Habilidade. Durante este turno, os ataques dos seus Pokémon Fire causarão 30 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
-			de: "Einmal während deines Zuges kannst du 1 Fire-Energiekarte aus deiner Hand auf deinen Ablagestapel legen, um diese Fähigkeit einzusetzen. Während dieses Zuges fügen die Attacken deiner Fire-Pokémon dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+			de: "Einmal während deines Zuges kannst du 1 {R}-Energiekarte aus deiner Hand auf deinen Ablagestapel legen, um diese Fähigkeit einzusetzen. Während dieses Zuges fügen die Attacken deiner {R}-Pokémon dem Aktiven Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 		}
 	}],
 
@@ -67,20 +68,37 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind.",
+		de: "Die lodernde Mähne dieses Pokémon flattert im Wind, wenn es mit einer Geschwindigkeit von 240 km/h über Felder und Wiesen galoppiert."
 	},
 
-	thirdParty: {
-		cardmarket: 682063,
-		tcgplayer: 451653
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682063,
+				tcgplayer: 451653
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682063,
+				tcgplayer: 451653
+			}
+		},
+	],
 }
 
 export default card

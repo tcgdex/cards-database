@@ -79,6 +79,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp.",
+		de: "Es knackt mit seinen Hauern Nüsse. Brechen seine Fangzähne ab, wächst an ihrer Stelle ein stärkeres Ersatzpaar."
+	},
+
 	thirdParty: {
 		cardmarket: 388562,
 		tcgplayer: 195152

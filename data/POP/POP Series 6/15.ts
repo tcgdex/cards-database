@@ -4,7 +4,8 @@ import Set from '../POP Series 6'
 const card: Card = {
 	name: {
 		en: "Piplup",
-		fr: "Piplup"
+		fr: "Tiplouf",
+		de: "Plinfa"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -12,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		393,
-	],
+	dexId: [393],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -29,7 +28,8 @@ const card: Card = {
 
 			name: {
 				en: "Peck",
-				fr: "Picpic"
+				fr: "Picpic",
+				de: "Schnabel"
 			},
 
 			damage: 10,
@@ -41,12 +41,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Water Splash",
-				fr: "Éclaboussure"
+				en: "Water Spash",
+				fr: "Éclaboussure",
+				de: "Wasserplatscher"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "20+",
 
@@ -59,24 +61,30 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	description: {
-		en: "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold."
+		en: "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
+		de: "Es ist sehr stolz und nimmt daher kein Futter von anderen an. Seine dicken Daunen schützen vor Kälte."
 	},
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88143,
+				cardmarket: 277900
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88143,
+				cardmarket: 277900
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277900,
-		tcgplayer: 88143
-	}
 }
 
 export default card

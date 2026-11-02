@@ -64,19 +64,34 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769371,
+				tcgplayer: 550241
+			}
+		},
+	],
 
+	suffix: "ex",
 	illustrator: "PLANETA Hiiragi",
 
-	thirdParty: {
-		cardmarket: 769371
-	}
 }
 
 export default card

@@ -34,12 +34,12 @@ const card: Card = {
 			name: {
 				en: "Generate Cold",
 				fr: "Émanations glaciales",
-				de: "Generate Cold"
+				de: "Kälte erzeugen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -59,23 +59,31 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Il avance, son nez ultra-sensible contre le sol, toujours à la recherche de nourriture."
+		en: "It moves with its sensitive nose pressed to the ground, always searching for food.",
+		fr: "Il avance, son nez ultra-sensible contre le sol, toujours à la recherche de nourriture.",
+		de: "Wenn es läuft, presst es seine empfindliche Nase an den Boden und schnüffelt überall nach Essbarem."
 	},
 
-	thirdParty: {
-		cardmarket: 274736,
-		tcgplayer: 89699
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274736,
+				tcgplayer: 89699
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274736,
+				tcgplayer: 89699
+			}
 		}
 	]
 }

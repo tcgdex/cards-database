@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gloom",
 		fr: "Ortide",
+		de: "Duflor"
 	},
 
 	stage: "Stage2",
@@ -92,7 +93,7 @@ const card: Card = {
 				es: "Explosión Alérgica GX",
 				it: "Esplosione Allergica GX",
 				pt: "Explosão Alérgica GX",
-				de: "Allergische Explosion GX"
+				de: "Allergische Explosion-GX"
 			},
 
 			effect: {

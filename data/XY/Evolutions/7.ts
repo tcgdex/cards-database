@@ -95,6 +95,11 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "May appear in a swarm. Flies at violent speeds, all the while stabbing with the toxic stinger on its rear.",
+		de: "Es kann in Schwärmen auftauchen. Während seines rasanten Fluges sticht es mit dem Giftstachel an seinem Hinterteil zu."
+	},
+
 	thirdParty: {
 		cardmarket: 293364,
 		tcgplayer: 124020

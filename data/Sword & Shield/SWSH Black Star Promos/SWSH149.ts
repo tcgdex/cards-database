@@ -7,13 +7,32 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	category: "Pokemon",
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	regulationMark: "E",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 576502,
+				tcgplayer: 247295
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 697074,
+				tcgplayer: 475984
+			}
+		},
+	],
 
 	name: {
 		en: "Flareon V",
@@ -24,7 +43,7 @@ const card: Card = {
 		it: "Flareon V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	hp: 210,
 	types: ["Fire"],
 
@@ -73,14 +92,8 @@ const card: Card = {
 			it: "Il Pokémon attivo del tuo avversario viene bruciato."
 		}
 	}],
-
-	regulationMark: "E",
 	suffix: "V",
-	retreat: 2,
-
-	thirdParty: {
-		cardmarket: 576502
-	}
+	retreat: 2
 }
 
 export default card

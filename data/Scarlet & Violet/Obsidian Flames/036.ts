@@ -44,18 +44,42 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The younger the life this Pokémon absorbs, the brighter and eerier the flame on its head burns.",
+		de: "Je jünger das Opfer, dem es die Lebensenergie entzieht, desto höher und unheimlicher brennt die Flamme auf seinem Kopf."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725116,
+				tcgplayer: 509737,
+				cardtrader: 255596
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725116,
+				tcgplayer: 509737,
+				cardtrader: 255596
+			}
+		},
+	],
 
 	illustrator: "Nagomi Nijo",
 
-	thirdParty: {
-		cardmarket: 725116
-	}
+	
 }
 
 export default card

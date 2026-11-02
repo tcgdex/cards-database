@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S6K"
+import { Card } from "../../../interfaces";
+import Set from "../S6K";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "咩利羊"
+		ja: "メリープ",
+		'zh-tw': "咩利羊",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -14,37 +14,51 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		'zh-tw': "會累積絨毛摩擦時所產生的電力。如果因為牠可愛而直接用手去摸，就會被電得又麻又痛。"
+		ja: "綿毛が こすれ 電気が たまる。 かわいいからと 素手で 触ると バチッと 痺れて 痛いのだ。",
+		'zh-tw': "會累積絨毛摩擦時所產生的電力。如果因為牠可愛而直接用手去摸，就會被電得又麻又痛。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "叫聲"
+	attacks: [
+		{
+			name: {
+				ja: "なきごえ",
+				'zh-tw': "叫聲",
+			},
+			cost: ["Colorless"],
+			effect: {
+				ja: "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-20」される。",
+				'zh-tw': "在下個對手的回合，受到這個招式的寶可夢使用招式的傷害「-20」點。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "在下個對手的回合，受到這個招式的寶可夢使用招式的傷害「-20」點。"
+		{
+			name: {
+				ja: "バチバチ",
+				'zh-tw': "劈哩啪啦",
+			},
+			damage: 20,
+			cost: ["Lightning", "Colorless"],
 		},
+	],
 
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "劈哩啪啦"
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 560767,
+				tcgplayer: 569246,
+			},
 		},
-
-		damage: 20,
-		cost: ["Lightning", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
+	],
 
 	retreat: 2,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Common",
+	dexId: [179],
+};
 
-export default card
+export default card;

@@ -89,7 +89,7 @@ const card: Card = {
 				es: "Expansión GX",
 				it: "Expansio-GX",
 				pt: "Expansão GX",
-				de: "Expander GX"
+				de: "Expander-GX"
 			},
 			effect: {
 				en: "This attack does 40 damage for each of your remaining Prize cards. (You can’t use more than 1 GX attack in a game.)",

@@ -76,23 +76,30 @@ const card: Card = {
 	regulationMark: "D",
 	retreat: 0,
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "The lightning-wielding guardian deity of Melemele, Tapu Koko is brimming with curiosity and appears before people from time to time."
+		en: "The lightning-wielding guardian deity of Melemele, Tapu Koko is brimming with curiosity and appears before people from time to time.",
+		de: "Der Schutzpatron Mele-Meles gebietet über Blitz und Donner. Dieses lebhafte, neugierige Pokémon zeigt sich ab und an den Menschen."
 	},
 
-	thirdParty: {
-		cardmarket: 483179,
-		tcgplayer: 219413
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 483179,
+				tcgplayer: 219413
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483179,
+				tcgplayer: 219413
+			}
+		},
+	],
 }
 
 export default card

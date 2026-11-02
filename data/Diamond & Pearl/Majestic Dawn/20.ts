@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Evoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -63,7 +64,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
-				de: "Wirf 1 Münze. Bei 'Kopf' schläft das Verteidigende Pokémon jetzt."
+				de: "Wirf 1 Münze. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt."
 			},
 			damage: 60,
 
@@ -78,6 +79,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "As a protective technique, it can completely freeze its fur to make its hairs stand like needles.",
+		de: "Will es sich schützen, kann es sein Fell gefrieren, so dass jedes Haar wie eine Nadel absteht."
+	},
 
 	thirdParty: {
 		cardmarket: 278054,

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Kakuna",
 		fr: "Coconfort",
+		de: "Kokuna"
 	},
 
 	stage: "Stage2",
@@ -90,6 +91,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.",
+		de: "Dieses Pokémon verfügt über drei Giftstachel. Es kann seine Gegner damit wiederholt stechen."
+	},
 
 	thirdParty: {
 		cardmarket: 368938,

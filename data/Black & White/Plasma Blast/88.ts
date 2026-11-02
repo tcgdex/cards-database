@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Los ataques del Pokémon al que esté unida esta carta (excluidos los Pokémon-EX) hacen 30 puntos de daño más a los Pokémon Activos-EX (antes de aplicar Debilidad y Resistencia).",
 		it: "Gli attacchi del Pokémon a cui è assegnata questa carta (esclusi i Pokémon-EX) infliggono 30 danni in più ai Pokémon-EX attivi, prima di aver applicato debolezza e resistenza.",
 		pt: "Os ataques do Pokémon ao qual este card está ligado (exceto Pokémon-EX) causam 30 de danos adicionais ao Pokémon-EX Ativo (antes da aplicação de Fraqueza e Resistência).",
-		de: "Die Angriffe des Pokémon, an das diese Karte angelegt ist (außer Pokémon-EX), fügen Aktiven Pokémon-EX 30 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Die Angriffe des Pokémon, an das diese Karte angelegt ist (außer Pokémon-EX), fügen Aktiven Pokémon-EX 30 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden). Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

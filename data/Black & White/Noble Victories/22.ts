@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Vibration",
 				fr: "Vibration",
+				de: "Schwingung"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Mud Shot",
 				fr: "Tir de Boue",
+				de: "Lehmschuss"
 			},
 
 			damage: 20,
@@ -65,10 +67,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280145,
-		tcgplayer: 90088
-	}
+	description: {
+		en: "By vibrating its cheeks, it emits sound waves imperceptible to humans. It uses the rhythm of these sounds to talk.",
+		de: "Erzeugt mit seinen Wangen für Menschen unhörbare Schallwellen. Es verständigt sich über den Rhythmus dieser Wellen."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280145,
+				tcgplayer: 90088
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280145,
+				tcgplayer: 90088
+			}
+		},
+	],
 }
 
 export default card

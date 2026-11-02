@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Los ataques de los Pokémon Darkness y Pokémon Dragon (tantos tuyos como de tu rival) hacen 10 puntos de daño más al Pokémon Activo del rival (antes de aplicar Debilidad y Resistencia).",
 		it: "Gli attacchi dei Pokémon Darkness e dei Pokémon Dragon, sia tuoi che del tuo avversario, infliggono 10 danni in più al Pokémon attivo dell’avversario, prima di aver applicato debolezza e resistenza.",
 		pt: "Os ataques dos Pokémon Darkness e Pokémon Dragon (seus e do seu oponente) causam 10 pontos de dano a mais ao Pokémon Ativo do oponente (antes de aplicar Fraqueza e Resistência).",
-		de: "Die Attacken der Darkness-Pokémon und Dragon-Pokémon (deiner und der deines Gegners) fügen dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+		de: "Die Attacken der {D}-Pokémon und {N}-Pokémon (deiner und der deines Gegners) fügen dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden). Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

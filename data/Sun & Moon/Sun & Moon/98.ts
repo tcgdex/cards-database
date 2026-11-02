@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Spearow",
 		fr: "Piafabec",
+		de: "Habitak"
 	},
 
 	stage: "Stage1",
@@ -96,6 +97,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Drawings of a Pokémon resembling Fearow can be seen in murals from deep in ancient history.",
+		de: "Wie kürzlich bekannt wurde, existieren uralte Wandmalereien, auf denen Pokémon abgebildet sind, die Ähnlichkeiten mit Ibitak aufweisen."
+	},
 
 	thirdParty: {
 		cardmarket: 295409,

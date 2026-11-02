@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hypno"
+		en: "Hypno",
+		fr: "Hypnomade"
 	},
 
 	illustrator: "Taiga Kasai",
@@ -17,11 +18,13 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Drowzee"
+		en: "Drowzee",
+		fr: "Soporifik"
 	},
 
 	description: {
-		en: "When it locks eyes with an enemy, it will use\na mix of psi moves, such as Hypnosis and\nConfusion."
+		en: "When it locks eyes with an enemy, it will use\na mix of psi moves, such as Hypnosis and\nConfusion.",
+		fr: "Lorsqu'il croise le regard de son adversaire, il utilise\\nde nombreux pouvoirs surnaturels comme l'hypnose."
 	},
 
 	stage: "Stage1",
@@ -30,17 +33,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Sleep Pendulum"
+			en: "Sleep Pendulum",
+			fr: "Pendulo Dodo"
 		},
 
 		effect: {
-			en: "Once during your turn, you may flip a coin. If heads, your opponent's Active Pokémon is now Asleep."
+			en: "Once during your turn, you may flip a coin. If heads, your opponent's Active Pokémon is now Asleep.",
+			fr: "Une fois pendant votre tour, vous pouvez lancer une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Endormi."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Psypunch"
+			en: "Psypunch",
+			fr: "Coup de Poing Psy"
 		},
 
 		damage: 50,

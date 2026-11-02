@@ -57,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Plasma Gale",
 				fr: "Bourrasque Plasma",
+				de: "Plasma-Gewitter"
 			},
 			effect: {
 				en: "Discard a Plasma Energy attached to this Pokémon. If you can't discard a Plasma Energy, this attack does nothing.",
 				fr: "Défaussez une Énergie Plasma attachée à ce Pokémon. Si vous ne pouvez pas défausser une Énergie Plasma, cette attaque ne fait rien.",
+				de: "Lege 1 an dieses Pokémon angelegte Plasma-Energie auf deinen Ablagestapel. Wenn du keine Plasma-Energie auf deinen Ablagestapel legen kannst, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 120,
 

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kingler V"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 220,
@@ -39,7 +40,7 @@ const card: Card = {
 			es: "Lanza 1 moneda. Si sale cara, busca en tu baraja hasta 5 cartas de Energía Water y únelas a tus Pokémon de la manera que desees. Después, baraja las cartas de tu baraja.",
 			it: "Lancia una moneta. Se esce testa, cerca nel tuo mazzo fino a cinque carte Energia Water e assegnale ai tuoi Pokémon nel modo che preferisci. Poi rimischia le carte del tuo mazzo.",
 			pt: "Jogue 1 moeda. Se sair cara, procure por até 5 cartas de Energia Water no seu baralho e ligue-as aos seus Pokémon como desejar. Em seguida, embaralhe o seu baralho.",
-			de: "Wirf 1 Münze. Durchsuche bei Kopf dein Deck nach bis zu 5 Water-Energiekarten und lege sie beliebig an deine Pokémon an. Mische anschließend dein Deck."
+			de: "Wirf 1 Münze. Durchsuche bei Kopf dein Deck nach bis zu 5 {W}-Energiekarten und lege sie beliebig an deine Pokémon an. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Water", "Water", "Colorless"],
@@ -65,20 +66,25 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608478,
-		tcgplayer: 263727
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608478,
+				tcgplayer: 263727
+			}
+		},
+	],
 }
 
 export default card

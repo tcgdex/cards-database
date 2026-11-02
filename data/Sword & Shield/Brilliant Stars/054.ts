@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pixi"
 	},
 
+	illustrator: "Mizue",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 100,
@@ -48,7 +49,7 @@ const card: Card = {
 			es: "Lanza 3 monedas. Elige una cantidad de tus Pokémon en juego igual o inferior al número de caras que te hayan salido. Para cada uno de esos Pokémon, busca en tu baraja 1 carta que evolucione de ese Pokémon y ponla sobre ese Pokémon para hacerlo evolucionar. Después, baraja las cartas de tu baraja.",
 			it: "Lancia tre volte una moneta. Scegli un numero di Pokémon che hai in gioco uguale o inferiore al numero di volte in cui è uscito testa. Per ognuno di quei Pokémon, cerca nel tuo mazzo una carta che si evolve da quel Pokémon e metticela sopra per farlo evolvere. Poi rimischia le carte del tuo mazzo.",
 			pt: "Jogue 3 moedas. Escolha um número dos seus Pokémon em jogo até o número de caras. Para cada um daqueles Pokémon, procure por 1 carta no seu baralho que evolua daquele Pokémon e coloque-a sobre aquele Pokémon para evoluí-lo. Em seguida, embaralhe o seu baralho.",
-			de: "Wirf 3 Münzen. Wähle bis zu so viele deiner Pokémon im Spiel, wie du Kopf geworfen hast. Durchsuche für jedes jener Pokémon dein Deck nach 1 Karte, die sich aus jenem Pokémon entwickelt, und lege sie auf jenes Pokémon, um es zu entwickeln. Mische anschließend dein Deck."
+			de: "Wirf 3 Münzen. Wähle bis zu so viele deiner Pokémon im Spiel, wie du Münzen geworfen hast. Durchsuche für jedes jener Pokémon dein Deck nach 1 Karte, die sich aus jenem Pokémon entwickelt, und lege sie auf jenes Pokémon, um es zu entwickeln. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Psychic", "Colorless", "Colorless"],
@@ -65,20 +66,37 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people.",
+		de: "Ein feenhaftes und scheues Pokémon, das sofort die Flucht ergreift, wenn es Menschen wahrnimmt."
 	},
 
-	thirdParty: {
-		cardmarket: 608504,
-		tcgplayer: 263770
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608504,
+				tcgplayer: 263770
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608504,
+				tcgplayer: 263770
+			}
+		},
+	],
 }
 
 export default card

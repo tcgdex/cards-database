@@ -68,6 +68,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Known as \"The Desert Spirit,\" this Pokémon hides in the sandstorms it causes by beating its wings.",
+	},
 }
 
 export default card

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Rockruff",
-		fr: "Rocabot"
+		fr: "Rocabot",
+		de: "Wuffels"
 	},
 
 	attacks: [
@@ -92,7 +93,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "The rocks in its mane are sharper than a knife. Fragments that break off are treasured as good luck charms."
+		en: "The rocks in its mane are sharper than a knife. Fragments that break off are treasured as good luck charms.",
+		de: "Seine steinerne Mähne ist schärfer als ein Messer. Abgebrochene Stücke gelten als wertvolle Glücksbringer."
 	},
 
 	thirdParty: {

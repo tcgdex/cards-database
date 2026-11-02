@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Yoshimoto Yoshimon",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [183],
 	hp: 70,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -59,13 +60,46 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675895,
-		cardmarket: 869694
-	}
+	description: {
+		en: "The oil-filled tail functions as a buoy, so it’s fine even in rivers with strong currents.",
+		fr: "Sa queue à l'extrémité remplie d'huile fait office de flotteur et lui permet de nager dans les rapides sans problème.",
+		de: "Sein ölgefüllter Schweif dient ihm als Rettungsboje, die es vor der Strömung reißender Flüsse schützt."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869694,
+			tcgplayer: 675895
+		}
+	},
+	{
+		type: "reverse",
+		foil: "friendball",
+		thirdParty: {
+			cardmarket: 870266,
+			tcgplayer: 676917
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870265,
+			tcgplayer: 677057
+		}
+	},
+],
 }
 
 export default card

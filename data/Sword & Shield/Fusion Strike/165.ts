@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 60,
 	types: ["Darkness"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Nagomi Nijo",
 
 	description: {
-		en: "Once diluted, its poison becomes medicinal. This Pokémon came into popularity after a pharmaceutical company chose it as a mascot."
+		en: "Once diluted, its poison becomes medicinal. This Pokémon came into popularity after a pharmaceutical company chose it as a mascot.",
+		de: "Verdünnt man sein Gift, wird es zu Medizin. Seit es zum Maskottchen eines Pharmakonzerns wurde, hat es viele neue Fans gewonnen."
 	},
 
 	attacks: [{
@@ -42,17 +49,23 @@ const card: Card = {
 		damage: 20
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582793,
-		tcgplayer: 253379
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582793,
+				tcgplayer: 253379
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582793,
+				tcgplayer: 253379
+			}
+		},
+	],
 }
 
 export default card

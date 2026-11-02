@@ -22,6 +22,17 @@ const card: Card = {
 		id: "Kartu ini dapat digunakan jika pemain membuang 2 lembar Kartu Pegangan sendiri ke Trash. Pilih 1 lembar Pokémon dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardtrader: 235647,
+				cardmarket: 693145,
+				tcgplayer: 568296,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "G"
 }

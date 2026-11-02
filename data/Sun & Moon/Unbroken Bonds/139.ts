@@ -70,6 +70,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "To protect itself, it shoots cotton from its body. When it gets wet in the rain, its cotton grows moist and heavy, and it can't move as well.",
+		de: "Es schützt sich, indem es Watte verstreut. Wird es Regen ausgesetzt, saugt es sich voll und wird zu schwer, um sich zu bewegen."
+	},
+
 	thirdParty: {
 		cardmarket: 372426,
 		tcgplayer: 189237

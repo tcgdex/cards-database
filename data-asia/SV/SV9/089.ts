@@ -20,6 +20,16 @@ const card: Card = {
 		'zh-cn': "從自己的棄牌區選擇1張基本能量卡，附於備戰區的「N的寶可夢」身上。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 807676,
+				tcgplayer: 614940,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "I"
 }

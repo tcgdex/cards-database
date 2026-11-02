@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Zapdos"
 	},
 	illustrator: "Misa Tsutsui",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -67,6 +67,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "A legendary Pokémon that is said to live in thunderclouds. It freely controls lightning bolts.",
+		de: "Ein Legendäres Vogel-Pokémon, das in Gewitterwolken leben soll. Es kontrolliert Blitze."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 368852,
+				tcgplayer: 183972
+			}
+		}
+	],
 }
 
 export default card

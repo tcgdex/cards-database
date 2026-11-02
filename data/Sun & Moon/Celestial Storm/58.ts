@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gulpin",
 		fr: "Gloupti",
+		de: "Schluppuck"
 	},
 
 	stage: "Stage1",
@@ -92,6 +93,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It gulps anything that fits in its mouth. Its special enzymes can dissolve anything.",
+		de: "Es verschluckt, was in sein Maul passt, und verdaut es mit seiner alles zersetzenden Magensäure."
+	},
 
 	thirdParty: {
 		cardmarket: 361303,

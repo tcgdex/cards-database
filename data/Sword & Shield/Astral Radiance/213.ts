@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Schneegipfelpfad"
 	},
 
+	illustrator: "Oswaldo KATO",
 	rarity: "Secret Rare",
 	category: "Trainer",
 
@@ -22,23 +23,23 @@ const card: Card = {
 		es: "Los Pokémon con un recuadro de regla en juego (tanto tuyos como de tu rival) no tienen ninguna habilidad. (Pokémon V, Pokémon-GX, etc. tienen recuadros de regla).",
 		it: "I Pokémon in gioco che hanno una regola speciale, sia tuoi che del tuo avversario, non hanno abilità. I Pokémon-V, i Pokémon-GX, ecc. hanno regole speciali.",
 		pt: "Pokémon em jogo que tenham uma Caixa de Regras (seus e do seu oponente) não têm Habilidades (Pokémon V, Pokémon-GX, etc. têm Caixas de Regras).",
-		de: "Pokémon im Spiel (deine und die deines Gegners), die ein Regelfeld haben, haben keine Fähigkeiten. (Pokémon-V, Pokémon-GX usw. haben Regelfelder.)"
+		de: "Pokémon im Spiel (deine und die deines Gegners), die ein Regelfeld haben, haben keine Fähigkeiten. (Pokémon-V, Pokémon-GX usw. haben Regelfelder.) Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte auf den Ablagestapel, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit demselben Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658874,
-		tcgplayer: 272468
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 658874,
+				tcgplayer: 272468
+			}
+		},
+	],
 }
 
 export default card

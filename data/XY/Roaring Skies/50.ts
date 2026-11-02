@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A mystical Pokémon that exudes a gentle aura. It is said to have the ability to change the weather.",
+	},
+
 	thirdParty: {
 		cardmarket: 282718,
 		tcgplayer: 98086

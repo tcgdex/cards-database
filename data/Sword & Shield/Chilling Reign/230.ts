@@ -22,25 +22,25 @@ const card: Card = {
 		es: "Pon 1 carta de Partidario de Golpe Brusco de tu pila de descartes en tu mano.",
 		it: "Prendi una carta Aiuto Colpo Singolo dalla tua pila degli scarti e aggiungila alle carte che hai in mano.",
 		pt: "Coloque uma carta de Apoiador Golpe Decisivo da sua pilha de descarte na sua mão.",
-		de: "Nimm 1 Fokussierter-Angriff-Unterstützerkarte aus deinem Ablagestapel auf deine Hand."
+		de: "Nimm 1 Fokussierter-Angriff-Unterstützerkarte aus deinem Ablagestapel auf deine Hand. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	illustrator: "Studio Bora Inc.",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 567338,
-		tcgplayer: 241867
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 567338,
+				tcgplayer: 241867
+			}
+		},
+	],
 }
 
 export default card

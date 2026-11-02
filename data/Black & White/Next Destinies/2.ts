@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Trip Over",
 				fr: "Croche-Pied",
+				de: "Stolperer"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -62,10 +64,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280227,
-		tcgplayer: 89045
-	}
+	description: {
+		en: "When it dangles from a tree branch, it looks just like an acorn. It enjoys scaring other Pokémon.",
+		de: "Es sieht aus wie eine Eichel, die am Baum hängt. Es liebt es, andere Pokémon zu erschrecken."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280227,
+				tcgplayer: 89045
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280227,
+				tcgplayer: 89045
+			}
+		},
+	],
 }
 
 export default card

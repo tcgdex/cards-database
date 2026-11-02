@@ -60,23 +60,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "They live alone without forming packs. They will only listen to orders from Trainers who can draw out their true power."
+		en: "They live alone without forming packs. They will only listen to orders from Trainers who can draw out their true power.",
+		de: "Diese Pokémon sind Einzelgänger und bilden keine Rudel. Sie gehorchen nur Trainern, die es schaffen, ihnen ihre ganze Kraft zu entlocken."
 	},
 
-	thirdParty: {
-		cardmarket: 567195,
-		tcgplayer: 241754
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567195,
+				tcgplayer: 241754
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567195,
+				tcgplayer: 241754
+			}
+		},
+	],
 }
 
 export default card

@@ -51,22 +51,32 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 	illustrator: "Tetsu Kayama",
 
-	thirdParty: {
-		cardmarket: 817282
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817282,
+				tcgplayer: 623557
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817282,
+				tcgplayer: 623557
+			}
 		},
-	]
+	],
 }
 
 export default card

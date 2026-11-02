@@ -56,6 +56,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The males will do whatever the females tell them. They give the females most of their food. Due to malnutrition, the males can't evolve.",
+		de: "Das Männchen ist dem Weibchen hörig. Da es diesem fast seine gesamte Beute gibt, leidet es an Unterernährung und entwickelt sich nicht."
+	},
+
 	thirdParty: {
 		cardmarket: 387997,
 		tcgplayer: 194951

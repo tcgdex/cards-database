@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Alolan Exeggutor V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 240,
 	types: ["Grass"],
@@ -63,12 +63,32 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
-
-	thirdParty: {
-		cardmarket: 653693
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 653693,
+				tcgplayer: 270723
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 668989,
+				tcgplayer: 279028
+			}
+		},
+	],
 }
 
 export default card

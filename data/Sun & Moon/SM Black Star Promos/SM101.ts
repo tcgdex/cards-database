@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Morgenschwingen-Necrozma GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -84,7 +84,7 @@ const card: Card = {
 				es: "Eclipse de Luna GX",
 				it: "Eclissi di Luna GX",
 				pt: "Eclipse da Lua GX",
-				de: "Lunarfinsternis GX"
+				de: "Lunarfinsternis-GX"
 			},
 			effect: {
 				en: "You can use this attack only if you have more Prize cards remaining than your opponent. Prevent all effects of attacks, including damage, done to this Pokémon during your opponent’s next turn. (You can’t use more than 1 GX attack in a game.)",
@@ -112,8 +112,15 @@ const card: Card = {
 	],
 	retreat: 2,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 321163,
+				tcgplayer: 162460
+			}
+		}
+	],
 }
 
 export default card

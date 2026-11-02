@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras'Face",
+				de: "Pfund"
 			},
 
 			damage: 30,
@@ -53,10 +54,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279796,
-		tcgplayer: 89912
-	}
+	description: {
+		en: "It fights by swinging a piece of timber around. It is close to evolving when it can handle the lumber without difficulty.",
+		de: "Greift Gegner mit einem Holzbalken an. Fällt es ihm leicht, den schweren Balken zu tragen, ist seine Entwicklung nah."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279796,
+				tcgplayer: 89912
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279796,
+				tcgplayer: 89912
+			}
+		},
+	],
 }
 
 export default card

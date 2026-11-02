@@ -4,7 +4,7 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Metang",
-		fr: "Metang",
+		fr: "Métang",
 		de: "Metang"
 	},
 
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Beldum",
-		fr: "Terhal"
+		fr: "Terhal",
+		de: "Tanhel"
 	},
 
 	stage: "Stage1",

@@ -64,14 +64,36 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "Oswaldo KATO",
+
+	description: {
+		en: "Green-feathered flocks hold the most sway. When they're out searching for food in the mornings and evenings, it gets very noisy.",
+		de: "Krawalloro mit grünem Gefieder haben den größten Einfluss. Die Futtersuche am Morgen und Abend ist mit sehr viel Lärm verbunden."
+	},
 
 	thirdParty: {
         cardmarket: 702458,

@@ -74,18 +74,50 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "The red head converts spicy chemicals into fire energy and blasts the surrounding area with a super spicy stream of flame.",
+		de: "Sein roter Kopf wandelt Scharfstoffe in Feuer-Energie um und kann so feurig scharfe Flammen von sich geben."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 725105,
+				tcgplayer: 509776,
+				cardtrader: 255585
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725105,
+				tcgplayer: 509776,
+				cardtrader: 255585
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 897338,
+				tcgplayer: 555695
+			}
+		},
+	],
 
 	illustrator: "kodama",
 
-	thirdParty: {
-		cardmarket: 725105
-	}
+
 }
 
 export default card

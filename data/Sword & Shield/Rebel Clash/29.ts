@@ -73,23 +73,30 @@ const card: Card = {
 	types: ["Fire"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Its entire body is burning. When it breathes, the temperature rises. When it sneezes, flames shoot out!"
+		en: "Its entire body is burning. When it breathes, the temperature rises. When it sneezes, flames shoot out!",
+		de: "Mit seinem brennenden Körper und glühenden Atem heizt es seine Umgebung auf. Beim Niesen stößt es Flammen aus."
 	},
 
-	thirdParty: {
-		cardmarket: 457603,
-		tcgplayer: 213105
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457603,
+				tcgplayer: 213105
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457603,
+				tcgplayer: 213105
+			}
+		},
+	],
 }
 
 export default card

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Zubat",
 		fr: "Nosferapti",
+		de: "Zubat"
 	},
 
 	stage: "Stage1",
@@ -97,6 +98,11 @@ const card: Card = {
 	],
 
 	retreat: 0,
+
+	description: {
+		en: "Its thick fangs are hollow like straws, making them unexpectedly fragile. These fangs are specialized for sucking blood.",
+		de: "Seine dicken Reißzähne sind im Inneren hohl wie Strohhalme und zerbrechlich. Sie sind das Produkt seiner Entwicklung zum Blutsauger."
+	},
 
 	thirdParty: {
 		cardmarket: 295366,

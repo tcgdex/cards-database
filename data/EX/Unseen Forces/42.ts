@@ -4,7 +4,7 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Miltank",
-		fr: "Ecremeuh",
+		fr: "Écrémeuh",
 		de: "Miltank"
 	},
 
@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Any damage done to Miltank by attacks from Fire Pokémon and Water Pokémon is reduced by 30 (after applying Weakness and Resistance).",
-				fr: "Les dégâts infligés à Ecremeuh par des attaques de Pokémon  et  sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
+				fr: "Les dégâts infligés à Ecremeuh par des attaques de Pokémon {R} et {W} sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
 				de: "Any damage done to Miltank by attacks from  Pokémon and  Pokémon is reduced by 30 (after applying Weakness and Resistance)."
 			},
 		},
@@ -88,20 +88,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276688,
-		tcgplayer: 87463
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87463,
+				cardmarket: 276688
+			},
 		},
 		{
-			type: "normal",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 87463,
+				cardmarket: 276688
+			},
 		}
-	]
+	],
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Sharfax"
 	},
 
+	illustrator: "Hataya",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
@@ -61,17 +62,28 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "After battle, this Pokémon carefully sharpens its tusks on river rocks. It needs to take care of its tusks—if one breaks, it will never grow back.",
+		de: "Da seine Hauer nicht mehr nachwachsen, wetzt es sie nach einem Kampf behutsam an einem geeigneten Felsen eines Flussbettes."
 	},
 
-	thirdParty: {
-		cardmarket: 608657,
-		tcgplayer: 263832
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608657,
+				tcgplayer: 263832
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608657,
+				tcgplayer: 263832
+			}
+		},
+	],
 }
 
 export default card

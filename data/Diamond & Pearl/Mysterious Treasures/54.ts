@@ -66,9 +66,13 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
-		fr: "Il est né au milieu d'un volcan. Son corps est couvert de flammes qui flambent comme un soleil."
+		en: "Born in the spout of a volcano, its body is covered by flames that shimmer like the sun.",
+		fr: "Il est né au milieu d'un volcan. Son corps est couvert de flammes qui flambent comme un soleil.",
+		de: "Es wurde bei einem Vulkanausbruch geboren. Sein Körper ist von hellen Flammen umgeben."
 	},
 
 	thirdParty: {

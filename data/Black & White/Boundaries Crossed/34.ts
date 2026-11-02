@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Psyduck",
 		fr: "Psykokwak",
+		de: "Enton"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Confuse Ray",
 				fr: "Onde Folie",
+				de: "Konfustrahl"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
 				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 
 		},
@@ -56,6 +59,7 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				de: "Aquaknarre"
 			},
 
 			damage: 30,
@@ -72,10 +76,27 @@ const card: Card = {
 
 	retreat: 0,
 
-	thirdParty: {
-		cardmarket: 280621,
-		tcgplayer: 85818
-	}
+	description: {
+		en: "It is seen swimming dynamically and elegantly using its well-developed limbs and flippers.",
+		de: "Die gut ausgeprägten Flossen ermöglichen einen sowohl eleganten als auch dynamischen Schwimmstil."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280621,
+				tcgplayer: 85818
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280621,
+				tcgplayer: 85818
+			}
+		},
+	],
 }
 
 export default card

@@ -46,22 +46,31 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 851113,
+				tcgplayer: 654381
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 851113,
+				tcgplayer: 654381
+			}
+		},
 	],
-
-	thirdParty: {
-		tcgplayer: 654381,
-		cardmarket: 851113
-	}
 }
 
 export default card

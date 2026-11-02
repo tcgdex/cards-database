@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "With its sweet aroma, it guides Volbeat to draw signs with light in the night sky.",
+		de: "Sein süßer Duft leitet Volbeat an, Zeichen aus Licht an den Nachthimmel zu malen."
+	},
+
 	thirdParty: {
 		cardmarket: 361265,
 		tcgplayer: 170828

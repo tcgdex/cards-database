@@ -100,7 +100,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It bounces toward opponents and gouges them with poisonous claws. No more than a scratch is needed to knock out its adversaries."
+		en: "It bounces toward opponents and gouges them with poisonous claws. No more than a scratch is needed to knock out its adversaries.",
+		de: "Es nähert sich springend seinem Gegner und bohrt seine giftigen Klauen in ihn hinein. Schon ein kleiner Kratzer lässt den Gegner K.O. gehen."
 	},
 
 	dexId: [454],

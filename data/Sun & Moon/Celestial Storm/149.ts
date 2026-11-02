@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Roba 3 cartas. Después, descarta 1 carta de tu mano. Si no tienes ninguna carta en tu baraja, no puedes jugar esta carta.",
 		it: "Pesca tre carte. Poi scarta una delle carte che hai in mano. Se non hai carte nel mazzo, non puoi giocare questa carta.",
 		pt: "Compre 3 cartas. Em seguida, descarte 1 carta da sua mão. Se você não tiver nenhuma carta no seu baralho, não poderá jogar esta carta.",
-		de: "Ziehe 3 Karten. Lege anschließend 1 Karte aus deiner Hand auf deinen Ablagestapel. Wenn du keine Karten in deinem Deck hast, kannst du diese Karte nicht spielen."
+		de: "Ziehe 3 Karten. Lege anschließend 1 Karte aus deiner Hand auf deinen Ablagestapel. Wenn du keine Karten in deinem Deck hast, kannst du diese Karte nicht spielen. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

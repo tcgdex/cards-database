@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Omanyte",
 		fr: "Amonita",
+		de: "Amonitas"
 	},
 
 	stage: "Stage2",
@@ -75,6 +76,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It is thought that this Pokémon became extinct because its spiral shell grew too large.",
+		de: "Man geht davon aus, dass das PKMN ausgestorben ist, weil seine spiralförmige Schale zu groß wurde."
+	},
 
 	thirdParty: {
 		cardmarket: 278075,

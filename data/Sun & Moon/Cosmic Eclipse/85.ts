@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dusclops",
 		fr: "Téraclope",
+		de: "Zwirrklop"
 	},
 
 	stage: "Stage2",
@@ -96,6 +97,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "It is said to take lost spirits into its pliant body and guide them home.",
+		de: "Man sagt, dass es verlorene Seelen in seinem biegsamen Körper nach Hause geleite."
+	},
 
 	thirdParty: {
 		cardmarket: 408069,

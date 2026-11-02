@@ -65,18 +65,42 @@ const card: Card = {
 		damage: 170
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The detached pincers of these Pokémon are delicious. Some Trainers bring Lechonk into the mountains just to search for them.",
+		de: "Krawells abgeworfene Scheren sind köstlich. Manche Trainer suchen sogar gezielt mit Ferkuli in den Bergen danach."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725195,
+				tcgplayer: 509842,
+				cardtrader: 255800
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725195,
+				tcgplayer: 509842,
+				cardtrader: 255800
+			}
+		},
+	],
 
 	illustrator: "Misa Tsutsui",
 
-	thirdParty: {
-		cardmarket: 725195
-	}
+	
 }
 
 export default card

@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Mantine δ",
 		fr: "Demanta δ",
-		de: "Mantax"
+		de: "Mantax δ"
 	},
 
 	illustrator: "Sumiyoshi Kizuki",

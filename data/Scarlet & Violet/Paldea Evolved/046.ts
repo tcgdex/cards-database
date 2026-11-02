@@ -55,18 +55,47 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715520,
+				tcgplayer: 497457,
+				cardtrader: 248642
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['snowflake'],
+			thirdParty: {
+				cardmarket: 845403
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715520,
+				tcgplayer: 497457,
+				cardtrader: 248642
+			}
+		},
+	],
 
 	illustrator: "miki kudo",
 
-	thirdParty: {
-		cardmarket: 715520
-	}
+	description: {
+		en: "It carries food all day long. There are tales about lost people who were saved by the food it had.",
+		de: "Es trägt immer Nahrung bei sich. Man sagt, dass viele Menschen in Not nur dank seiner Essensration überlebt hätten."
+	},
 }
 
 export default card

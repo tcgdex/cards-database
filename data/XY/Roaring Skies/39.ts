@@ -88,6 +88,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Although its body is small, its proficient fighting skills enable it to keep up with big bruisers like Machamp and Hariyama.",
+	},
+
 	thirdParty: {
 		cardmarket: 282707,
 		tcgplayer: 98075

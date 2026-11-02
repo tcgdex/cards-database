@@ -37,22 +37,32 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 	illustrator: "Shimaris Yukichi",
 
-	thirdParty: {
-		cardmarket: 817153
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817153,
+				tcgplayer: 623428
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817153,
+				tcgplayer: 623428
+			}
 		},
-	]
+	],
 }
 
 export default card

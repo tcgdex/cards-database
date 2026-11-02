@@ -3,26 +3,25 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Sabrina's Haunter",
+		en: "Sabrina's Haunter"
 	},
 
 	illustrator: "Atsuko Nishida",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [92, 94],
 
-	dexId: [
-		93,
-	],
+	dexId: [93],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
-		en: "Gastly",
+		en: "Gastly"
 	},
 
 	stage: "Stage1",
@@ -34,12 +33,12 @@ const card: Card = {
 				"Psychic",
 			],
 			name: {
-				en: "Night Spirits",
+				en: "Night Spirits"
 			},
 			effect: {
-				en: "Flip a number of coins equal to the total number of Sabrina's Gastlys, Sabrina's Haunters, and Sabrina's Gengars you have in play. This attack does 30 damage times the number of heads.",
+				en: "Flip a number of coins equal to the total number of Sabrina's Gastlys, Sabrina's Haunters, and Sabrina's Gengars you have in play. This attack does 30 damage times the number of heads."
 			},
-			damage: 30,
+			damage: "30x",
 
 		},
 	],
@@ -50,21 +49,23 @@ const card: Card = {
 			value: "-30"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 274194,
-		tcgplayer: 88878
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88878,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88878,
+				cardmarket: 274194
+			}
 		}
-	]
+	],
+	retreat: 0
 }
 
 export default card

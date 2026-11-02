@@ -9,7 +9,7 @@ const base: Serie = {
 		de: "Grund",
 		pt: "Coleção Básica",
 		nl: "Basis",
-		pl: "Diament i Perla"
+		pl: "Opierać"
 	},
 	id: "base"
 }

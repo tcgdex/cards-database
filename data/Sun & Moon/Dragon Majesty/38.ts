@@ -4,7 +4,7 @@ import Set from '../Dragon Majesty'
 const card: Card = {
 	name: {
 		en: "Vibrava",
-		fr: "Vibrava",
+		fr: "Vibraninf",
 		es: "Vibrava",
 		it: "Vibrava",
 		pt: "Vibrava",
@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Trapinch",
 		fr: "Kraknoix",
+		de: "Knacklion"
 	},
 
 	stage: "Stage1",
@@ -68,6 +69,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "To help make its wings grow, it dissolves quantities of prey in its digestive juices and guzzles them down every day.",
+		de: "Um das Wachstum seiner Flügel zu fördern, schlürft es täglich große Mengen an Beute, die es zuvor in Säure aufgelöst hat."
+	},
 
 	thirdParty: {
 		cardmarket: 363509,

@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Leafeon"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Grass"],
@@ -76,16 +76,28 @@ const card: Card = {
 		damage: "50+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
 	description: {
 		en: "This Pokémon's tail is blade sharp, with a fantastic cutting edge that can slice right though large trees."
 	},
-
-	thirdParty: {
-		cardmarket: 604996
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 606748,
+				tcgplayer: 264284
+			}
+		},
+	],
 }
 
 export default card

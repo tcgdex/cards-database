@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Finsterpflaster"
 	},
 
+	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -22,22 +23,28 @@ const card: Card = {
 		es: "Une 1 carta de Energía Darkness Básica de tu pila de descartes a 1 de tus Pokémon Darkness en Banca.",
 		it: "Assegna a uno dei tuoi Pokémon Darkness in panchina una carta Energia base Darkness dalla tua pila degli scarti.",
 		pt: "Ligue 1 carta de Energia Darkness básica da sua pilha de descarte a 1 dos seus Pokémon Darkness no Banco.",
-		de: "Lege 1 Basis-Darkness-Energiekarte aus deinem Ablagestapel an 1 Darkness-Pokémon auf deiner Bank an."
+		de: "Lege 1 Basis-{D}-Energiekarte von deinem Ablagestapel an 1 {D}-Pokémon auf deiner Bank an. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658800,
-		tcgplayer: 272391
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658800,
+				tcgplayer: 272391
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658800,
+				tcgplayer: 272391
+			}
+		},
+	],
 }
 
 export default card

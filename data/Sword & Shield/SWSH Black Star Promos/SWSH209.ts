@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Toxel"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Lightning"],
@@ -55,16 +55,28 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
 	description: {
 		en: "It manipulates the chemical makeup of its poison to produce electricity. The voltage is weak, but it can cause a tingling paralysis."
 	},
-
-	thirdParty: {
-		cardmarket: 659061
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 659061,
+				tcgplayer: 273583
+			}
+		},
+	],
 }
 
 export default card

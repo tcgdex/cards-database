@@ -66,19 +66,42 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology.",
+		de: "Es hat die Macht, den Raum zu krümmen. In den Mythen von Sinnoh erscheint es als Gottheit."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740516,
+				tcgplayer: 523649,
+				cardtrader: 265174
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740516,
+				tcgplayer: 523649,
+				cardtrader: 265174
+			}
+		},
+	],
 
 	illustrator: "Ryuta Fuse",
 
-	thirdParty: {
-		cardmarket: 740516
-	}
+	
 }
 
 export default card

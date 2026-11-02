@@ -1,11 +1,12 @@
 import { Serie } from '../interfaces'
 
-const exp: Serie = {
+const set: Serie = {
 	id: "misc",
 	name: {
 		en: "Miscellaneous",
+		ja: "その他",
 		fr: "Autre"
 	},
 }
 
-export default exp
+export default set

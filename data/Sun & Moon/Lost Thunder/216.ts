@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Grovyle",
 		fr: "Massko",
+		de: "Reptain"
 	},
 
 	suffix: "GX",
@@ -76,7 +77,7 @@ const card: Card = {
 				es: "Mueve 1 Energía Grass de este Pokémon a 1 de tus Pokémon en Banca.",
 				it: "Sposta un’Energia Grass da questo Pokémon a uno di quelli nella tua panchina.",
 				pt: "Mova 1 Energia Grass deste Pokémon para 1 dos seus Pokémon no Banco.",
-				de: "Verschiebe 1 Grass-Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
+				de: "Verschiebe 1 {G}-Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
 			},
 			damage: 130,
 
@@ -91,7 +92,7 @@ const card: Card = {
 				es: "Curación Selva GX",
 				it: "Cura Silvestre-GX",
 				pt: "Cura Silvestre GX",
-				de: "Dschungelheilung GX"
+				de: "Dschungelheilung-GX"
 			},
 			effect: {
 				en: "Heal all damage from each of your Pokémon that has any Grass Energy attached to it. (You can’t use more than 1 GX attack in a game.)",
@@ -99,7 +100,7 @@ const card: Card = {
 				es: "Cura todos los puntos de daño a cada uno de tus Pokémon que tenga alguna Energía Grass unida a él. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Cura ciascuno dei tuoi Pokémon che ha Energie Grass assegnate da tutti i danni. Non puoi usare più di un attacco GX a partita.",
 				pt: "Cure todo o dano de cada um dos seus Pokémon que tiver alguma Energia Grass ligada a ele (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Heile allen Schaden bei jedem deiner Pokémon, an das mindestens 1 Grass-Energie angelegt ist. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				de: "Heile allen Schaden bei jedem deiner Pokémon, an das mindestens 1 {G}-Energie angelegt ist. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 
 		},

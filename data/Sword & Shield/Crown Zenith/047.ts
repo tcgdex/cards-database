@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Emolga"
 	},
 
+	illustrator: "Saya Tsuruta",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -44,20 +45,39 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "As it flies, it scatters electricity around, so bird Pokémon keep their distance. That's why Emolga can keep all its food to itself.",
+		de: "Vogel-Pokémon halten sich von ihm fern, da es im Flug Strom entlädt. Frei von Konkurrenz kann es seine Beute so für sich allein beanspruchen."
 	},
 
-	thirdParty: {
-		cardmarket: 691764,
-		tcgplayer: 478156
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691764,
+				tcgplayer: 478156
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691764,
+				tcgplayer: 478156
+			}
+		},
+	],
 }
 
 export default card

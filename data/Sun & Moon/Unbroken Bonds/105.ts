@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Crabrawler",
 		fr: "Crabagarre",
+		de: "Krabbox"
 	},
 
 	stage: "Stage1",
@@ -86,6 +87,11 @@ const card: Card = {
 	],
 
 	retreat: 4,
+
+	description: {
+		en: "It stores coldness in its pincers and pummels its foes. It can even smash thick walls of ice to bits!",
+		de: "Es speichert kalte Luft in seinen Scheren. Wenn es mit diesen um sich schlägt, kann es selbst dicke Eiswände zerbröckeln."
+	},
 
 	thirdParty: {
 		cardmarket: 372396,

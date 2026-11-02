@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Charmander",
-		fr: "Salamèche"
+		fr: "Salamèche",
+		de: "Glumanda"
 	},
 
 	stage: "Stage1",
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Use this attack only if there are any Energy cards attached to Dark Charmeleon. Flip a coin. If heads, discard 1 of those Energy cards. If tails, this attack does nothing (not even damage).",
 				fr: "N'utilisez cette attaque que si des Énergies  sont attachées à Reptincel Obscur. Lancez une pièce. Si c'est face, défaussez 1 de ces cartes Énergies. Si c'est pile, cette attaque ne fait rien (pas même de dégâts).",
-				de: "Diesen Angriff nur spielen, wenn -Energiekarten auf Dunkles Glutexo abgelegt sind. Wirf eine Münze. Entferne bei 'Kopf' eine dieser Energiekarten. Bei 'Zahl' richtet dieser Angriff nichts aus (nicht einmal Schadenspunkte)."
+				de: "Diesen Angriff nur spielen, wenn {R}-Energiekarten auf Dunkles Glutexo abgelegt sind. Wirf eine Münze. Entferne bei „Kopf“ eine dieser Energiekarten. Bei „Zahl“ richtet dieser Angriff nichts aus (nicht einmal Schadenspunkte)."
 			},
 
 			damage: 70
@@ -74,29 +75,37 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
-		fr: "Sa queue incroyablement puissante est capable de soulever 5 hommes."
+		en: "Its tail is incredibly strong, able to lift up to 5 adult men.",
+		fr: "Sa queue incroyablement puissante est capable de soulever 5 hommes.",
+		de: "Sein Schwanz ist unglaublich stark und kann bis zu fünf erwachsene Männer heben."
 	},
 
-	thirdParty: {
-		cardmarket: 274085,
-		tcgplayer: 84574
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274085,
+				tcgplayer: 84574
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274085,
+				tcgplayer: 84574
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["w-promo"]
-		}
-	]
+		},
+	],
 }
 
 export default card

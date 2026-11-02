@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Naoki Saito",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Choose Grass, Fire, Water, Lightning, Psychic, Fighting, Darkness, Metal, Fairy, or Dragon type. Until the end of your next turn, this Pokémon is that type.",
-				fr: "Choisissez le type , , , , , , , ,  ou . Jusqu'à la fin de votre prochain tour, ce Pokémon est de ce type."
+				fr: "Choisissez le type {G}, {R}, {W}, {L}, {P}, {F}, {D}, {M}, {Y} ou {N}. Jusqu'à la fin de votre prochain tour, ce Pokémon est de ce type."
 			},
 
 		},
@@ -65,6 +65,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
+
+	description: {
+		en: "It is told in mythology that this Pokémon was born before the universe even existed.",
+	},
 
 	thirdParty: {
 		cardmarket: 289806

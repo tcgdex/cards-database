@@ -4,7 +4,8 @@ import Set from '../POP Series 7'
 const card: Card = {
 	name: {
 		en: "Flaaffy",
-		fr: "Flaaffy"
+		fr: "Lainergie",
+		de: "Waaty"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -12,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		180,
-	],
+	dexId: [180],
 
 	hp: 80,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
 		en: "Mareep",
-		fr: "Wattouat"
+		fr: "Wattouat",
+		de: "Voltilamm"
 	},
 
 	stage: "Stage1",
@@ -36,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Attract Current",
-				fr: "Courant électrique"
+				fr: "Courant électrique",
+				de: "Stromanziehung"
 			},
 			effect: {
 				en: "Search your deck for a Lightning Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck une carte Énergie  et attachez-la à 1 de vos Pokémon. Ensuite, mélangez votre deck."
+				fr: "Cherchez dans votre deck une carte Énergie  et attachez-la à 1 de vos Pokémon. Ensuite, mélangez votre deck.",
+				de: "Durchsuche dein Deck nach einer {L}-Energiekarte und lege sie 1 deiner Pokémon an. Mische dein Deck danach."
 			},
 			damage: 10,
 
@@ -53,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Electromagnetic Kick",
-				fr: "Coup électromagnétique"
+				fr: "Coup électromagnétique",
+				de: "Elektromagnetischer Kick"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Flaaffy does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Lainergie s'inflige 10 dégâts."
+				fr: "Lancez une pièce. Si c'est pile, Lainergie s'inflige 10 dégâts.",
+				de: "Wirf 1 Münze. Bei „Zahl“ fügt sich Waaty selbst 10 Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -70,31 +74,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
 	description: {
-		en: "If its coat becomes fully charged with electricity, its tail lights up. It fire hair that zaps on impact."
+		en: "If its coat becomes fully charged with electricity, its tail lights up. It fire hair that zaps on impact.",
+		de: "Hat es sich mit Elektrizität aufgeladen, leuchtet sein Schweif und es feuert Haare ab, die sich entladen."
 	},
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85480,
+				cardmarket: 278039
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278039,
-		tcgplayer: 85480
-	}
 }
 
 export default card

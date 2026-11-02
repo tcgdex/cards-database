@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Masakazu Fukuda",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		59,
-	],
+	dexId: [59],
 
 	hp: 100,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Growlithe",
 		fr: "Caninos",
+		de: "Fukano"
 	},
 
 	stage: "Stage1",
@@ -40,9 +39,9 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as Arcanine has any Fire Energy attached to it, Arcanine has no Weakness.",
-				fr: "Tant qu'Arcanin possède de l'Énergie Fire, il ne possède pas de Faiblesse.",
-				de: "Solange an Arkani mindestens 1 -Energie angelegt ist, hat Arkani keine Schwäche."
-			},
+				fr: "Tant qu'Arcanin possède de l'Énergie {R}, il ne possède pas de Faiblesse.",
+				de: "Solange an Arkani mindestens 1 {R}-Energie angelegt ist, hat Arkani keine Schwäche."
+			}
 		},
 	],
 
@@ -78,8 +77,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Fire Energy attached to Arcanine. This attack does 60 damage plus 10 more damage for each damage counter on Arcanine.",
-				fr: "Défaussez une Énergie Fire attachée à Arcanin. Cette attaque inflige alors 60 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Arcanin.",
-				de: "Lege 1 -Energie, die an Arkani angelegt ist, auf deinen Ablagestapel. Dieser Angriff fügt 60 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Arkani zu."
+				fr: "Défaussez une Énergie {R} attachée à Arcanin. Cette attaque inflige alors 60 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Arcanin.",
+				de: "Lege 1 {R}-Energie, die an Arkani angelegt ist, auf deinen Ablagestapel. Dieser Angriff fügt 60 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Arkani zu."
 			},
 			damage: "60+",
 
@@ -92,22 +91,25 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 2,
-
-	thirdParty: {
-		cardmarket: 278575,
-		tcgplayer: 83585
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 83585,
+				cardmarket: 278570
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278570,
+				tcgplayer: 83585
+			}
+		},
+	],
+
 }
 
 export default card

@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [806],
 
 	dexId: [
 		202,
@@ -85,6 +86,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "To keep its pitch-black tail hidden, it live quietly in the darkness. It is never first to attack.",
+		de: "Es lebt in der Dunkelheit, um seinen schwarzen Schweif zu verstecken. Es greift nie zuerst an."
+	},
 
 	thirdParty: {
 		cardmarket: 365730,

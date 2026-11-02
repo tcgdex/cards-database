@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S8b"
+import { Card } from "../../../interfaces";
+import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "索偵蟲"
+		ja: "サッチムシ",
+		'zh-tw': "索偵蟲",
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -14,27 +14,46 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		'zh-tw': "經常出現在田地裡的寶可夢。會透過長在身體上的毛來感應周圍發生的事。"
+		ja: "畑で よく見かける ポケモン。 体に 生えた 毛で まわりで 起きていることを 感じとる。",
+		'zh-tw': "經常出現在田地裡的寶可夢。會透過長在身體上的毛來感應周圍發生的事。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "踩"
+	attacks: [
+		{
+			name: {
+				ja: "ふむ",
+				'zh-tw': "踩",
+			},
+			damage: 10,
+			cost: ["Colorless"],
 		},
+	],
 
-		damage: 10,
-		cost: ["Colorless"]
-	}],
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 586524,
+				tcgplayer: 571262,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 578359,
+			},
+		},
+	],
 
 	retreat: 1,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "None",
+	dexId: [824],
+};
 
-export default card
+export default card;

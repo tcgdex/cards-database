@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		228,
-	],
+	dexId: [228],
 
 	hp: 50,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -59,22 +57,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It uses different kinds of cries for communicating with others of its kind and for pursuing its prey."
+		en: "It uses different kinds of cries for communicating with others of its kind and for pursuing its prey.",
+		de: "Sein Ruf bei der Beutejagd unterscheidet sich von dem Ruf, wenn es mit Artgenossen kommuziert."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279306,
+				tcgplayer: 86230
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279306,
+				tcgplayer: 86230
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279306,
-		tcgplayer: 86230
-	}
 }
 
 export default card

@@ -61,7 +61,8 @@ const card: Card = {
 	stage: "Basic",
 
 	description: {
-		en: "Most of its body has the same composition as coal. Fittingly, this Pokémon was first discovered in coal mines about 400 years ago."
+		en: "Most of its body has the same composition as coal. Fittingly, this Pokémon was first discovered in coal mines about 400 years ago.",
+		de: "Es wurde vor circa 400 Jahren in einer Kohlemine entdeckt. Sein Körper besteht fast aus denselben Komponenten wie Steinkohle."
 	},
 
 	thirdParty: {

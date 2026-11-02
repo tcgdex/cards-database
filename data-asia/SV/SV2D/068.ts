@@ -22,6 +22,16 @@ const card: Card = {
 		id: "Pilih paling banyak 2 Pokémon sendiri, lalu pulihkan HP masing-masing sejumlah 50."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 705372,
+				tcgplayer: 565930,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }

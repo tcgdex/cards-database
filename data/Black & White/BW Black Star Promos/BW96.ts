@@ -56,18 +56,6 @@ const card: Card = {
 			damage: 100,
 
 		},
-		{
-
-			name: {
-				en: "Pokémon EX Rule",
-				fr: "Règle pour les Pokémon ex",
-			},
-			effect: {
-				en: "When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards.",
-				fr: "Lorsqu'un Pokémon-EX est mis K.O., l'adversaire récupère 2 cartes Récompense.",
-			},
-
-		},
 	],
 	weaknesses: [
 		{

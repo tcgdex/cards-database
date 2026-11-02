@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Mewtu"
 	},
 
+	illustrator: "Atsushi Furusawa",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 130,
@@ -38,7 +39,7 @@ const card: Card = {
 			es: "Une hasta 2 cartas de Energía Psychic de tu pila de descartes a 1 de tus Pokémon.",
 			it: "Assegna a uno dei tuoi Pokémon fino a due carte Energia Psychic dalla tua pila degli scarti.",
 			pt: "Ligue até 2 cartas de Energia Psychic da sua pilha de descarte a 1 dos seus Pokémon.",
-			de: "Lege bis zu 2 Psychic-Energiekarten aus deinem Ablagestapel an 1 deiner Pokémon an."
+			de: "Lege bis zu 2 {P}-Energiekarten aus deinem Ablagestapel an 1 deiner Pokémon an."
 		}
 	}, {
 		cost: ["Psychic", "Psychic", "Colorless"],
@@ -64,20 +65,45 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.",
+		de: "Die Gene von Mew wurden neu angeordnet, wodurch dieses Pokémon entstand. Es hat ein wildes Herz."
 	},
 
-	thirdParty: {
-		cardmarket: 691776,
-		tcgplayer: 478173
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691776,
+				tcgplayer: 478173
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691776,
+				tcgplayer: 478173
+			}
+		},
+	],
 }
 
 export default card

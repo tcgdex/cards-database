@@ -80,6 +80,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate.",
+		de: "Um mit Artgenossen zu kommunizieren, nutzt es das Aufblitzen seiner Mähne beim Entladen als Morsecode."
+	},
+
 	thirdParty: {
 		cardmarket: 365719,
 		tcgplayer: 178890

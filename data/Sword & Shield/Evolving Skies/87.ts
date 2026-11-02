@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Boldore",
@@ -78,16 +72,29 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It relies on sound in order to monitor what's in its vicinity. When angered, it will attack without ever changing the direction it's facing."
+		en: "It relies on sound in order to monitor what's in its vicinity. When angered, it will attack without ever changing the direction it's facing.",
+		de: "Es nimmt die Umgebung über akustische Reize wahr. Ärgerliche Störenfriede kann es verfolgen, ohne sich ihnen zuwenden zu müssen."
 	},
 
 	dexId: [525],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574135,
-		tcgplayer: 246884
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574135,
+				tcgplayer: 246884
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574135,
+				tcgplayer: 246884
+			}
+		},
+	],
 }
 
 export default card

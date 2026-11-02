@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		319,
-	],
+	dexId: [319],
 
 	hp: 90,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	evolveFrom: {
 		en: "Carvanha",
 		fr: "Carvanha",
+		de: "Kanivanha"
 	},
 
 	stage: "Stage1",
@@ -41,9 +40,9 @@ const card: Card = {
 				de: "Blankmacher"
 			},
 			effect: {
-				en: "Flip 2 coins. If both of them are heads, your opponent discards all cards from his or her hand.",
+				en: "Flip 2 coins. If both of them are heads, your opponent discards all card from his or her hand.",
 				fr: "Lancez 2 pièces. Si vous obtenez deux fois un côté face, votre adversaire défausse toutes les cartes de sa main.",
-				de: "Wirf 2 Münzen. Wenn beide \"Kopf\" zeigen, legt dein Gegner alle Handkarten auf seinen Ablagestapel."
+				de: "Wirf 2 Münzen. Wenn beide „Kopf“ zeigen, legt dein Gegner alle Handkarten auf seinen Ablagestapel."
 			},
 			damage: 20,
 
@@ -79,20 +78,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It can swim at speeds of 75 mph by jetting seawater through its body. It is the bandit of the sea."
+		en: "It can swim at speeds of 75 mph by jetting seawater through its body. It is the bandit of the sea.",
+		de: "TOHAIDO mag Radau und schwimmt bis zu 120 km/h schnell, indem es Wasser aus seinem Hinterteil ausstößt."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89101,
+				cardmarket: 279560
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279560,
+				tcgplayer: 89101
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279560,
-		tcgplayer: 89101
-	}
 }
 
 export default card

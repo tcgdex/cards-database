@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Single Strike Scroll of the Fanged Dragon",
@@ -29,17 +23,29 @@ const card: Card = {
 		es: "El Pokémon Golpe Brusco al que esté unida esta carta puede usar el ataque de esta carta. (Sigues necesitando las Energías necesarias para usar este ataque).",
 		it: "Il Pokémon Colpo Singolo a cui è assegnata questa carta può usare l'attacco di questa carta. Devi comunque avere l'Energia necessaria per usare questo attacco.",
 		pt: "O Pokémon Golpe Decisivo ao qual esta carta está ligada pode usar o ataque desta carta (você ainda precisa da Energia necessária para usar este ataque).",
-		de: "Das Fokussierter-Angriff-Pokémon, an das diese Karte angelegt ist, kann die Attacke auf dieser Karte einsetzen. (Du benötigst jedoch die für diese Attacke notwendige Energie.)"
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Das Fokussierter-Angriff-Pokémon, an das diese Karte angelegt ist, kann die Attacke auf dieser Karte einsetzen. (Du benötigst jedoch die für diese Attacke notwendige Energie.) Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",
 	illustrator: "5ban Graphics",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574216,
-		tcgplayer: 246779
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574216,
+				tcgplayer: 246779
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574216,
+				tcgplayer: 246779
+			}
+		},
+	],
 }
 
 export default card

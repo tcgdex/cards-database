@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Marshadow"
 	},
 	illustrator: "kirisAki",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -90,6 +90,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Able to conceal itself in shadows, it never appears before humans, so its very existence was the stuff of myth.",
+		de: "Da es sich im Schatten verbergen und so für menschliche Augen unsichtbar werden kann, war seine Existenz lange bezweifelt worden."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 316278,
+				tcgplayer: 155597
+			}
+		}
+	],
 }
 
 export default card

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Hakamo-o",
 		fr: "Écaïd",
+		de: "Mediras"
 	},
 
 	stage: "Stage2",
@@ -93,6 +94,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Its rigid scales function as offense and defense. In the past, its scales were processed and used to make weapons and other commodities.",
+		de: "Seine harten Schuppen dienen sowohl Angriff als auch Verteidigung. Früher wurden aus ihnen Waffen und Gebrauchsgüter hergestellt."
+	},
 
 	thirdParty: {
 		cardmarket: 363525,

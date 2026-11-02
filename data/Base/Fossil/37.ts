@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Geodude",
-		fr: "Racaillou"
+		fr: "Racaillou",
+		de: "Kleinstein"
 	},
 
 	stage: "Stage1",
@@ -44,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "During your opponent's next turn, whenever 30 or less damage is done to Graveler (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)",
 				fr: "Pendant le prochain tour de votre adversaire, à chaque fois que 30 dégâts ou moins sont infligés à Gravalanch (après application de la Faiblesse et de la Résistance), prévenez ces dégâts. (Tout autre effet ou attaque est toujours valide.)",
-				de: "Immer wenn Georok während des nächsten gegnerischen Zuges 30 oder weniger Schadenspunkte zugefühgt werden (nachdem Schwäche und Resistenz abgerechnet wurden), verhindere diesen Schaden. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
+				de: "Immer wenn Georok während des nächsten gegnerischen Zuges 30 oder weniger Schadenspunkte zugefügt werden (nachdem Schwäche und Resistenz abgerechnet wurden), verhindere diesen Schaden. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
 			},
 
 		},
@@ -71,31 +72,41 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
-		fr: "Pour se déplacer il dégringole le long des pentes. Il pulvérise tout obstacle sur son passage."
+		en: "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.",
+		fr: "Pour se déplacer il dégringole le long des pentes. Il pulvérise tout obstacle sur son passage.",
+		de: "Rollt Hänge hinunter, um sich fortzubewegen. Rollt über jedes Hindernis, ohne sich zu verlangsamen oder seine Richtung zu ändern."
 	},
 
-	thirdParty: {
-		cardmarket: 273898,
-		tcgplayer: 44439
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273898,
+				tcgplayer: 44439
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 273898,
+				tcgplayer: 44439
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			thirdParty: {
+				cardmarket: 273898,
+				tcgplayer: 44439
+			}
 		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright"
-		}
-	]
+	],
 }
 
 export default card

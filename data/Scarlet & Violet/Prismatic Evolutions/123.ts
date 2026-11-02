@@ -22,16 +22,37 @@ const card: Card = {
 		es: "Descarta las cartas de tu mano y roba 7 cartas.",
 		pt: "Descarte a sua mão e compre 7 cartas.",
 		it: "Scarta le carte che hai in mano e pesca sette carte.",
-		de: "Lege deine Handkarten auf deinen Ablagestapel und ziehe 7 Karten."
+		de: "Lege deine Handkarten auf deinen Ablagestapel und ziehe 7 Karten. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "G",
 	illustrator: "Teeziro",
 
-	thirdParty: {
-		cardmarket: 805517
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805517,
+				tcgplayer: 610478
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805517,
+				tcgplayer: 610478
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806596,
+				tcgplayer: 610631
+			}
+		},
+	],
 }
 
 export default card

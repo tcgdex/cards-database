@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		309,
-	],
+	dexId: [309],
 
 	hp: 50,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -33,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
-				de: "Scratch"
+				de: "Kratzer"
 			},
 
 			damage: 10,
@@ -47,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Thundershock",
 				fr: "Éclair",
-				de: "Thundershock"
+				de: "Donnerschock"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -73,22 +71,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276029,
-		tcgplayer: 89786
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275829,
+				tcgplayer: 89786
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275829,
+				tcgplayer: 89786
+			}
+		},
+	],
+
 }
 
 export default card

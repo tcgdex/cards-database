@@ -78,6 +78,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Some fishermen weave its sturdy thread into nets to catch fish Pokémon.",
+		de: "Einige Fischer knüpfen sich aus seinem robusten Faden Netze, mit denen sie dann Fisch-Pokémon fangen."
+	},
+
 	thirdParty: {
 		cardmarket: 365577,
 		tcgplayer: 178806

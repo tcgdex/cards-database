@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Duraludon VMAX",
@@ -42,12 +36,14 @@ const card: Card = {
 
 		name: {
 			en: "Skyscraper",
-			fr: "Gratte-Ciel"
+			fr: "Gratte-Ciel",
+			de: "Wolkenkratzer"
 		},
 
 		effect: {
 			en: "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon that have Special Energy attached.",
-			fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon de votre adversaire auxquels de l'Énergie spéciale est attachée."
+			fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon de votre adversaire auxquels de l'Énergie spéciale est attachée.",
+			de: "Verhindere allen Schaden, der diesem Pokémon durch Attacken von Pokémon deines Gegners, an die Spezial-Energie angelegt ist, zugefügt wird."
 		}
 	}],
 
@@ -56,12 +52,14 @@ const card: Card = {
 
 		name: {
 			en: "G-Max Pulverization",
-			fr: "Pulvérisation G-Max"
+			fr: "Pulvérisation G-Max",
+			de: "Giga-Pulverisierung"
 		},
 
 		effect: {
 			en: "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
-			fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire."
+			fr: "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
+			de: "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
 		},
 
 		damage: 220
@@ -70,10 +68,16 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574277,
-		tcgplayer: 246752
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 574277,
+				tcgplayer: 246752
+			}
+		},
+	],
 }
 
 export default card

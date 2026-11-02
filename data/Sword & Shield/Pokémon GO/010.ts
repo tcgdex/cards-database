@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Glurak"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 170,
@@ -48,7 +49,7 @@ const card: Card = {
 			es: "Cada Energía Fire Básica unida a tus Pokémon proporciona 2 Energías Fire. No puedes aplicar más de 1 habilidad Quemadura Viva a la vez.",
 			it: "Ogni Energia base Fire assegnata ai tuoi Pokémon fornisce Energia FireFire. Non puoi applicare più di un'abilità Fuoco Acceso alla volta.",
 			pt: "Cada Energia Fire básica ligada aos seus Pokémon fornece Energia FireFire. Você não pode usar mais de 1 Habilidade Brilho Ardente por vez.",
-			de: "Jede an deine Pokémon angelegte Basis-Fire-Energie liefert FireFire-Energie. Du kannst immer nur jeweils 1 Fähigkeit Lichterloh brennen einsetzen."
+			de: "Jede an deine Pokémon angelegte Basis-{R}-Energie liefert {R}{R}-Energie. Du kannst immer nur jeweils 1 Fähigkeit Lichterloh brennen einsetzen."
 		}
 	}],
 
@@ -70,25 +71,45 @@ const card: Card = {
 			es: "Descarta todas las Energías Fire de este Pokémon.",
 			it: "Scarta tutte le Energie Fire da questo Pokémon.",
 			pt: "Descarte todas as Energias Fire deste Pokémon.",
-			de: "Lege alle Fire-Energien von diesem Pokémon auf deinen Ablagestapel."
+			de: "Lege alle {R}-Energien von diesem Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 170
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
+
+	description: {
+		en: "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.",
+		de: "Dieses Pokémon kann mit seinem Feueratem Felsen schmelzen. Es verursacht ab und zu Waldbrände."
 	},
 
-	thirdParty: {
-		cardmarket: 664546,
-		tcgplayer: 274439
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665244,
+				tcgplayer: 274439
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665244,
+				tcgplayer: 274439
+			}
+		},
+	],
 }
 
 export default card

@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Ryo Ueda",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		386,
-	],
+	dexId: [386],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -40,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Discard 2 Psychic Energy attached to Deoxys and remove 6 damage counters from Deoxys.",
 				fr: "Défaussez 2 Énergies Psychic attachées à Deoxys et retirez-lui 6 marqueurs de dégâts.",
-				de: "Lege 2 an Deoxys angelegte -Energien auf deinen Ablagestapel und entferne 6 Schadensmarken von Deoxys."
+				de: "Lege 2 an Deoxys angelegte {P}-Energien auf deinen Ablagestapel und entferne 6 Schadensmarken von Deoxys."
 			},
 			damage: 60,
 
@@ -50,16 +48,33 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	description: {
+		en: "DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen.",
+		de: "DEOXYS ist ein außerirdisches Virus, das zu einem Pokémon mutierte. Es erscheint in der Nähe von Auroras."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 84757,
+				cardmarket: 279639
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84757,
+				cardmarket: 279639
+			},
 		},
 	],
 
-	retreat: 1,
-
-	thirdParty: {
-		cardmarket: 279639,
-		tcgplayer: 84757
-	}
 }
 
 export default card

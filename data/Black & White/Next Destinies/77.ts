@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Self Destruct",
 				fr: "Destruction",
+				de: "Finale"
 			},
 			effect: {
 				en: "This Pokémon does 60 damage to itself.",
 				fr: "Ce Pokémon s'inflige 60 dégâts.",
+				de: "Dieses Pokémon fügt sich selbst 60 Schadenspunkte zu."
 			},
 			damage: 60,
 
@@ -63,10 +65,27 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 280302,
-		tcgplayer: 85427
-	}
+	description: {
+		en: "When threatened, it attacks by shooting a barrage of spikes, which gives it a chance to escape by rolling away.",
+		de: "Fühlt es sich bedroht, wehrt es sich, indem es eine großzügige Salve Dornen abfeuert."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280302,
+				tcgplayer: 85427
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280302,
+				tcgplayer: 85427
+			}
+		},
+	],
 }
 
 export default card

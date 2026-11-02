@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		182,
-	],
+	dexId: [182],
 
 	hp: 100,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), you may remove 2 damage counters from 1 of your Pokémon. You can't use more than 1 Heal Dance Poké-Power each turn. This power can't be used if Bellossom is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez retirer 2 marqueurs de dégât à 1 de vos Pokémon. Vous ne pouvez pas utiliser Danse guérisseuse plus d'une fois même s'il y a plus d'1 Joliflor en jeu. Ce pouvoir ne peut pas être utilisé si Joliflor est affecté par un État Spécial.",
 				de: "Once during your turn (before your attack), you may remove 2 damage counters from 1 of your Pokémon. You can't use more than 1 Heal Dance Poké-Power each turn. This power can't be used if Bellossom is affected by a Special Condition."
-			},
+			}
 		},
 	],
 
@@ -98,23 +96,30 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276090,
-		tcgplayer: 83798
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 83798,
+				cardmarket: 276090
+			}
 		},
 		{
-			type: "holo",
-			foil: "energy"
+			type: "reverse",
+			foil: 'energy',
+			thirdParty: {
+				tcgplayer: 83798,
+				cardmarket: 276090
+			}
 		},
 		{
-			type: "holo",
-			stamp: ["chris-fulop"]
-		}
+			type: "normal",
+			stamp: ['chris-fulop'],
+			thirdParty: {
+				tcgplayer: 477366,
+				cardmarket: 871804
+			}
+		},
 	]
 }
 

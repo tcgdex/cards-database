@@ -4,12 +4,6 @@ import Set from '../Celebrations'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Reshiram",
@@ -79,15 +73,21 @@ const card: Card = {
 	regulationMark: "E",
 
 	description: {
-		en: "When Reshiram's tail flares, the heat energy moves the atmosphere and changes the world's weather."
+		en: "When Reshiram's tail flares, the heat energy moves the atmosphere and changes the world's weather.",
+		de: "Lodert das Feuer in seinem Schweif auf, gerät die Erdatmosphäre durch die Hitze in Wallung und das Weltklima ändert sich."
 	},
 
 	dexId: [643],
 
-	thirdParty: {
-		cardmarket: 576747,
-		tcgplayer: 250301
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 576747,
+				tcgplayer: 250301
+			}
+		},
+	],
 }
 
 export default card

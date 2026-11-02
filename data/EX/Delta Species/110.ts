@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Vaporeon ex",
 		fr: "Aquali ex",
-		de: "Aquana ex"
+		de: "Aquana-ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Evoli"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{

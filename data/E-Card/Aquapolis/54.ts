@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		105,
-	],
+	dexId: [105],
 
 	hp: 70,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Cubone",
-		fr: "Osselait"
+		fr: "Osselait",
+		de: "Tragosso"
 	},
 
 	stage: "Stage1",
@@ -39,12 +38,12 @@ const card: Card = {
 			name: {
 				en: "Triple Bone",
 				fr: "Triple os",
-				de: "Triple Bone"
+				de: "Dreifachknochen"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Benched Pokémon. Flip 3 coins. This attack does 10 damage times the number of heads to that Pokémon. Don't apply Weakness and Resistance.",
 				fr: "Choisissez un des Pokémon du Banc de votre adversaire. Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces à ce Pokémon. N'appliquez ni la Faiblesse, ni la Résistance.",
-				de: "Choose 1 of your opponent's Benched Pokémon. Flip 3 coins. This attack does 10 damage times the number of heads to that Pokémon. Don't apply Weakness and Resistance."
+				de: "Wähle 1 der Pokémon auf der Bank deines Gegners. Wirf 3 Münzen. Dieser Angriff fügt diesem Pokémon 10 Schadenspunkte mal der Anzahl „Kopf“ zu. Wende Schwäche und Resistenz nicht an."
 			},
 
 		},
@@ -57,14 +56,14 @@ const card: Card = {
 			name: {
 				en: "Bone Rush",
 				fr: "Charge-os",
-				de: "Bone Rush"
+				de: "Knochenhatz"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 50 damage times the number of heads.",
 				fr: "Lancez une pièce jusqu'à obtenir pile. Cette attaque inflige 50 dégâts multipliés par le nombre de faces.",
-				de: "Flip a coin until you get tails. This attack does 50 damage times the number of heads."
+				de: "Wirf eine Münze, bis du das erste mal „Zahl“ wirfst. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
-			damage: "50x",
+			damage: "50×",
 
 		},
 	],
@@ -72,29 +71,33 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-30"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275127,
-		tcgplayer: 87225
-	},
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 87225,
+				cardmarket: 275127
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 87225,
+				cardmarket: 275127
+			}
+		},
 	]
 }
 

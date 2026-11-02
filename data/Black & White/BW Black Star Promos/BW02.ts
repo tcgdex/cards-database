@@ -51,6 +51,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It blows fire through its nose. When it catches a cold, the fire becomes pitch-black smoke instead.",
+	},
 }
 
 export default card

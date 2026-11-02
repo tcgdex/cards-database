@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Mewtu VSTAR"
 	},
 
-	rarity: "Holo Rare VMAX",
+	illustrator: "PLANETA Mochizuki",
+	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Psychic"],
@@ -49,7 +50,7 @@ const card: Card = {
 			es: "Descarta hasta 3 Energías Psychic de tus Pokémon. Este ataque hace 90 puntos de daño por cada carta que hayas descartado de esta manera.",
 			it: "Scarta fino a tre Energie Psychic dai tuoi Pokémon. Questo attacco infligge 90 danni per ogni carta che hai scartato in questo modo.",
 			pt: "Descarte até 3 Energias Psychic dos seus Pokémon. Este ataque causa 90 pontos de dano para cada carta descartada desta forma.",
-			de: "Lege bis zu 3 Psychic-Energien von deinen Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 90 Schadenspunkte zu."
+			de: "Lege bis zu 3 {P}-Energien von deinen Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 90 Schadenspunkte zu."
 		},
 
 		damage: "90×"
@@ -75,19 +76,33 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 664571,
-		tcgplayer: 276963
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665267,
+				tcgplayer: 276963
+			}
+		},
+	],
 }
 
 export default card

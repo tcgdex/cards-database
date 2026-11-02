@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Claw Fossil",
-		fr: "Fossile griffe"
+		fr: "Fossile griffe",
+		de: "Klauenfossil"
 	},
 
 	stage: "Stage1",
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. If 1 of them is heads, this attack does 10 damage plus 10 more damage. If 2 of them are heads, this attack does 10 damage plus 30 more damage. If all of them are heads, this attack does 10 damage plus 50 more damage.",
 				fr: "Lancez 3 pièces. S'il y a 1 face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires. S'il y a 2 faces, cette attaque inflige 10 dégâts plus 30 dégâts supplémentaires. Si ce ne sont que des faces, cette attaque inflige 10 dégâts plus 50 dégâts supplémentaires.",
-				de: "Wirf 3 Münzen. Bei 1 mal \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu. Bei 2 mal \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 30 weitere Schadenspunkte zu. Bei 3 mal \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 50 weitere Schadenspunkte zu."
+				de: "Wirf 3 Münzen. Bei 1 mal „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu. Bei 2 mal „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 30 weitere Schadenspunkte zu. Bei 3 mal „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 50 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 

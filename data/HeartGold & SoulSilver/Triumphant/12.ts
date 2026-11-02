@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Midori Harada",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		71,
-	],
+	dexId: [71],
 
 	hp: 110,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Weepinbell",
 		fr: "Boustiflor",
+		de: "Ultrigaria"
 	},
 
 	stage: "Stage2",
@@ -39,10 +38,10 @@ const card: Card = {
 				de: "Wirrranken"
 			},
 			effect: {
-				en: "As long as Victreebel is your Active Pokémon, your opponent’s Active Pokémon’s Retreat Cost is ColorlessColorless more.",
+				en: "As long as Victreebel is your Active Pokémon, your opponent's Active Pokémon's Retreat Cost is ColorlessColorless more.",
 				fr: "Tant qu’Empiflor est votre Pokémon Actif, le Coût de retraite du Pokémon Actif de votre adversaire est augmenté de ColorlessColorless.",
-				de: "Solange Sarzenia dein Aktives Pokémon ist, betragen die Rückzugskosten für das Aktive Pokémon deines Gegners 2  mehr."
-			},
+				de: "Solange Sarzenia dein Aktives Pokémon ist, betragen die Rückzugskosten für das Aktive Pokémon deines Gegners {C}{C} mehr."
+			}
 		},
 	],
 
@@ -77,20 +76,27 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Acid that has dissolved many prey becomes sweeter, making it even more effective at attracting prey."
+		en: "Acid that has dissolved many prey becomes sweeter, making it even more effective at attracting prey.",
+		de: "Säure, in der bereits viele Insekten aufgelöst wurden, ist süßer und effektiver beim Beutefang."
 	},
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 90365,
+				cardmarket: 279542
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279542,
+				tcgplayer: 90365
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279542,
-		tcgplayer: 90365
-	}
 }
 
 export default card

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S6H"
+import { Card } from "../../../interfaces";
+import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "暴雪王"
+		ja: "ユキノオー",
+		'zh-tw': "暴雪王",
 	},
 
 	illustrator: "Akira Komayama",
@@ -14,41 +14,54 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		'zh-tw': "會引發暴風雪的寶可夢。只要牠搖動巨大的身體，周圍立刻會變得一片雪白。"
+		ja: "ブリザードを 巻き起こす ポケモン。 大きな 体を 揺すれば あたり一面 すぐに 真っ白だ。",
+		'zh-tw': "會引發暴風雪的寶可夢。只要牠搖動巨大的身體，周圍立刻會變得一片雪白。",
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "新月生長"
+	abilities: [
+		{
+			type: "Ability",
+			name: { ja: "タフネスアップ" },
+			effect: {
+				ja: "このポケモンがいるかぎり、自分の場の「いちげき」のポケモン（「ユキノオー」をのぞく）全員の最大HPは、それぞれ「50」大きくなる。この効果は、この特性を持つポケモンが何匹いても、重ならない。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "從自己的牌庫選擇1張【超】能量卡，附於自己的寶可夢身上。並且重洗牌庫。若在後攻玩家的最初回合使用，則可附上的張數改為最多3張，附於自己的1隻寶可夢身上。"
+	attacks: [
+		{
+			name: {
+				ja: "メガトンパンチ",
+				'zh-tw': "新月生長",
+			},
+			damage: 90,
+			cost: ["Grass", "Colorless", "Colorless"],
 		},
+	],
 
-		cost: ["Psychic"]
-	}, {
-		name: {
-			'zh-tw': "光子鐳射"
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 560418,
+				tcgplayer: 569134,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "若自己的場上的能量有5個以上，則增加90點傷害。"
-		},
-
-		damage: "30+",
-		cost: ["Psychic", "Psychic"]
-	}],
-
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
+	evolveFrom: {
+		ja: "ユキカブリ",
+	},
 
 	retreat: 3,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Uncommon",
+	dexId: [460],
+};
 
-export default card
+export default card;

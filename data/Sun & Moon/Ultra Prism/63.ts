@@ -88,7 +88,7 @@ const card: Card = {
 				es: "Eclipse de Luna GX",
 				it: "Eclissi di Luna-GX",
 				pt: "Eclipse da Lua GX",
-				de: "Lunarfinsternis GX"
+				de: "Lunarfinsternis-GX"
 			},
 			effect: {
 				en: "You can use this attack only if you have more Prize cards remaining than your opponent. Prevent all effects of attacks, including damage, done to this Pokémon during your opponent’s next turn. (You can’t use more than 1 GX attack in a game.)",

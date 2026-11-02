@@ -106,7 +106,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "The large and hard pincer has 10,000-horsepower strength. However, being so big, it is unwieldy to move."
+		en: "The large and hard pincer has 10,000-horsepower strength. However, being so big, it is unwieldy to move.",
+		de: "Die Kraft seiner großen und harten Schere entspricht 10 000 PS. Durch die Größe ist sie aber auch äußerst unhandlich und sperrig."
 	},
 
 	thirdParty: {

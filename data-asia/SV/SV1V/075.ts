@@ -22,6 +22,17 @@ const card: Card = {
 		id: "Buang semua Kartu Pegangan sendiri ke Trash, lalu ambil 7 kartu dari atas Deck."
 	},
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardtrader: 235652,
+				cardmarket: 693150,
+				tcgplayer: 568301,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }

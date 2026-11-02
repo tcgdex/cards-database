@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "E",
 	illustrator: "HYOGONOSUKE",
 
 	description: {
-		en: "Using its leaf, Pangoro can predict the moves of its opponents. It strikes with punches that can turn a dump truck into scrap with just one hit."
+		en: "Using its leaf, Pangoro can predict the moves of its opponents. It strikes with punches that can turn a dump truck into scrap with just one hit.",
+		de: "Mit seinem Blatt erspürt es die Bewegungen des Gegners. Seine Schläge sind so stark, dass es sogar Kipplaster zu Schrott verarbeiten kann."
 	},
 
 	attacks: [{
@@ -83,17 +90,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582802,
-		tcgplayer: 253388
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582802,
+				tcgplayer: 253388
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582802,
+				tcgplayer: 253388
+			}
+		},
+	],
 }
 
 export default card

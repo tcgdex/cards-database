@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "PLANETA Mochizuki",
 
 	rarity: "Double rare",
@@ -83,18 +84,24 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826010,
+				tcgplayer: 630823
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826010
-	}
 }
 
 export default card

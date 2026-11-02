@@ -11,13 +11,16 @@ const card: Card = {
 		de: "Mimigma"
 	},
 	illustrator: "Saya Tsuruta",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
 	dexId: [
 		778,
 	],
+
+	cameoDexIds: [25, 755],
+
 	hp: 70,
 	types: [
 		"Fairy",
@@ -80,6 +83,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "A lonely Pokémon, it conceals its terrifying appearance beneath an old rag so it can get closer to people and other Pokémon.",
+		de: "Es versteckt seine schreckliche Gestalt unter einem Lumpen, um sich Menschen und anderen Pokémon zu nähern. Oft fühlt es sich einsam."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 367366,
+				tcgplayer: 184487
+			}
+		}
+	],
 }
 
 export default card

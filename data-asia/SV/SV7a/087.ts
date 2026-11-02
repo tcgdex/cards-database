@@ -51,12 +51,18 @@ const card: Card = {
 		value: "－30"
 	}],
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 788060,
+				tcgplayer: 579469,
+			},
+		},
+	],
+
 	retreat: 2,
 	rarity: "None",
-
-	thirdParty: {
-		cardmarket: 787579
-	}
 }
 
 export default card

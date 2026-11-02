@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Tympole",
-		fr: "Tritonde"
+		fr: "Tritonde",
+		de: "Schallquap"
 	},
 
 	stage: "Stage1",
@@ -41,11 +42,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Bubble Beam",
-				fr: "Bulles d'O"
+				fr: "Bulles d'O",
+				de: "Blubbstrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 30,
 
@@ -61,10 +64,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 280360,
-		tcgplayer: 87923
-	}
+	description: {
+		en: "It lives in the water and on land. It uses its long, sticky tongue to capture prey.",
+		de: "Es lebt zu Wasser und zu Lande. Mit seiner langen, klebrigen Zunge umklammert und fängt es seine Beute."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280360,
+				tcgplayer: 87923
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280360,
+				tcgplayer: 87923
+			}
+		},
+	],
 }
 
 export default card

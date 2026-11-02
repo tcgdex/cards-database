@@ -62,6 +62,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It burns its bodily fluids to create a poisonous gas. When its enemies become disoriented from inhaling the gas, it attacks them.",
+		de: "Durch Verbrennung von Körperflüssigkeit erzeugt es ein Gas, das Feinde schwindelig und so zu leichten Zielen macht."
+	},
+
 	thirdParty: {
 		cardmarket: 311896,
 		tcgplayer: 149069

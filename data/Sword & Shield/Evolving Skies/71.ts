@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Flabébé",
@@ -57,15 +51,29 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Flabébé wears a crown made from pollen it's collected from its flower. The crown has hidden healing properties."
+		en: "Flabébé wears a crown made from pollen it's collected from its flower. The crown has hidden healing properties.",
+		de: "Die Krone auf seinem Kopf hat es sich aus Pollen von Blumen gebastelt. Sie besitzt eine heilende Wirkung."
 	},
 
 	dexId: [669],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574119
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574119,
+				tcgplayer: 246849
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574119,
+				tcgplayer: 246849
+			}
+		},
+	],
 }
 
 export default card

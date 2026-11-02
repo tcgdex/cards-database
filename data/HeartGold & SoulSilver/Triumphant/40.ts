@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		67,
-	],
+	dexId: [67],
 
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Machop",
 		fr: "Machoc",
+		de: "Machollo"
 	},
 
 	stage: "Stage1",
@@ -41,7 +40,7 @@ const card: Card = {
 				de: "Knöchelhauer"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				en: "This attack's damage isn't affected by Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par les Poké-Powers, les Poké-Bodies ou tout autre effet en action sur le Pokémon Défenseur.",
 				de: "Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
 			},
@@ -75,20 +74,27 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It always goes at its full power, but this very tough and durable Pokémon never gets tired."
+		en: "It always goes at its full power, but this very tough and durable Pokémon never gets tired.",
+		de: "Es kämpft immer mit all seiner Kraft. Dieses Pokémon hat eine enorme Kondition und wird nie müde."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86984,
+				cardmarket: 279570
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279570,
+				tcgplayer: 86984
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279570,
-		tcgplayer: 86984
-	}
 }
 
 export default card

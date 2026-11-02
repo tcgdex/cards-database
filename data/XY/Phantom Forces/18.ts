@@ -56,6 +56,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The line running down its side can store sunlight. It shines vividly at night.",
+		de: "Die Linie an seiner Seite kann Sonnenlicht speichern. Nachts leuchtet es sehr intensiv."
+	},
+
 	thirdParty: {
 		cardmarket: 281822,
 		tcgplayer: 94151

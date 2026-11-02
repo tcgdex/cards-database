@@ -75,23 +75,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations."
+		en: "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations.",
+		de: "Steht der Winter vor der Türe, hortet es Nahrung an vielen verschiedenen, nur ihm bekannten Orten."
 	},
 
-	thirdParty: {
-		cardmarket: 483569,
-		tcgplayer: 219336
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483569,
+				tcgplayer: 219336
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483569,
+				tcgplayer: 219336
+			}
+		},
+	],
 }
 
 export default card

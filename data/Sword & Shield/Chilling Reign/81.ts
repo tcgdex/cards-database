@@ -81,23 +81,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
 	description: {
-		en: "Sharply attuned to others' wishes for help, this Pokémon seeks out those in need and aids them in battle."
+		en: "Sharply attuned to others' wishes for help, this Pokémon seeks out those in need and aids them in battle.",
+		de: "Es spürt sofort, wenn jemand in Not ist, und eilt ihm unverzüglich zu Hilfe."
 	},
 
-	thirdParty: {
-		cardmarket: 567189,
-		tcgplayer: 241748
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567189,
+				tcgplayer: 241748
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567189,
+				tcgplayer: 241748
+			}
+		},
+	],
 }
 
 export default card

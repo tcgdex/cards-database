@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Gust",
 				fr: "Tornade",
+				de: "Windstoß"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Razor Wing",
 				fr: "Aile Tranchante",
+				de: "Rasierflügel"
 			},
 
 			damage: 20,
@@ -72,10 +74,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280679,
-		tcgplayer: 90431
-	}
+	description: {
+		en: "They tend to guard their posteriors with suitable bones they have found. They pursue weak Pokémon.",
+		de: "Es schlüpft in einen passenden Schädel, um sein Hinterteil zu schützen, und scheucht schwache Pokémon umher."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280679,
+				tcgplayer: 90431
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280679,
+				tcgplayer: 90431
+			}
+		},
+	],
 }
 
 export default card

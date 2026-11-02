@@ -1,49 +1,33 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "姆克兒"
+		ja: "シロナ",
+		'zh-tw': "姆克兒",
 	},
 
-	illustrator: "Ligton",
-	category: "Pokemon",
-	hp: 60,
-	types: ["Colorless"],
+	illustrator: "Atsushi Furusawa",
+	category: "Trainer",
 
-	description: {
-		'zh-tw': "為了獵捕蟲寶可夢，以龐大的群體在山野間飛來飛去。叫聲非常吵鬧。"
+	effect: {
+		ja: "自分の手札をすべて山札にもどして切る。その後、山札を6枚引く。",
 	},
 
-	stage: "Basic",
-
-	attacks: [{
-		name: {
-			'zh-tw': "鉤爪"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 534092,
+				tcgplayer: 597353,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "擲1次硬幣若為反面，則這個招式失敗。"
-		},
+	trainerType: "Supporter",
+	regulationMark: "B",
+	rarity: "Promo",
+};
 
-		damage: 30,
-		cost: ["Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
-
-	retreat: 1,
-	regulationMark: "F"
-}
-
-export default card
+export default card;

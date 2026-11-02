@@ -62,6 +62,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "While it can transform into anything, each Ditto apparently has its own strengths and weaknesses when it comes to transformations.",
+		de: "Ditto kann jede beliebige Gestalt annehmen, wobei aber jedes Exemplar individuelle Stärken und Schwächen aufweist."
+	},
+
 	thirdParty: {
 		cardmarket: 370779,
 		tcgplayer: 186025

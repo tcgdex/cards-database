@@ -81,19 +81,30 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 851215,
+				tcgplayer: 654483
+			}
 		},
 	],
-
-	thirdParty: {
-		tcgplayer: 654483,
-		cardmarket: 851215
-	}
 }
 
 export default card

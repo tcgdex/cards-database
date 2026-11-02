@@ -43,6 +43,16 @@ const card: Card = {
 		cost: ["Grass", "Grass", "Fire"]
 	}],
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 680842,
+				tcgplayer: 570166,
+			},
+		},
+	],
+
 	retreat: 3,
 	regulationMark: "F"
 }

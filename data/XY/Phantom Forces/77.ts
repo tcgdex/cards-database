@@ -97,6 +97,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "This very friendly Dragon-type Pokémon will hug its beloved Trainer, leaving that Trainer covered in sticky slime.",
+		de: "Dieses äußerst freundliche Drachen-Pokémon neigt dazu, seinen geliebten Trainer zu umarmen und so mit einer dicken Schleimschicht zu umhüllen."
+	},
+
 	thirdParty: {
 		cardmarket: 281883,
 		tcgplayer: 94645

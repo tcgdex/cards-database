@@ -4,6 +4,7 @@ import Set from '../Chilling Reign'
 const card: Card = {
 	dexId: [898],
 	set: Set,
+	cameoDexIds: [216, 363, 585, 667],
 
 	name: {
 		fr: "Sylveroy Cavalier du Froid V",
@@ -63,20 +64,19 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 567272,
-		tcgplayer: 241700
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567272,
+				tcgplayer: 241700
+			}
+		},
+	],
 }
 
 export default card

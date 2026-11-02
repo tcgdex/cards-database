@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		77,
-	],
+	dexId: [77],
 
 	hp: 60,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -65,20 +63,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is a weak runner immediately after birth. It gradually becomes faster by chasing after its parents."
+		en: "It is a weak runner immediately after birth. It gradually becomes faster by chasing after its parents.",
+		de: "Nach der Geburt ist es noch langsam, aber es wird bald schneller, da es seinen Eltern nachrennt."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88292,
+				cardmarket: 279602
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279602,
+				tcgplayer: 88292
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279602,
-		tcgplayer: 88292
-	}
 }
 
 export default card

@@ -73,6 +73,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Because of its sweet, delicious aroma, bird Pokémon are always after it, but it's not intelligent enough to care.",
+		de: "Da es einen köstlich süßen Duft verströmt, wird es oft von Vogel-Pokémon angegriffen. Das stört es jedoch nicht, weil es nicht sehr helle ist."
+	},
+
 	thirdParty: {
 		cardmarket: 387917,
 		tcgplayer: 194933

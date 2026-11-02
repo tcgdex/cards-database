@@ -64,7 +64,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
 				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
 				pt: "Jogue uma moeda. Se sair coroa, esse ataque não fará nada.",
-				de: "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -79,6 +79,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It takes pride in the speed at which it can use moves. What it loses in power, it makes up for in quantity.",
+		de: "Schnelle Angriffe sind seine Spezialität. Es gleicht seine Schwächen mit der Vielfalt seines Attackenrepertoires aus."
+	},
 
 	thirdParty: {
 		cardmarket: 281720,

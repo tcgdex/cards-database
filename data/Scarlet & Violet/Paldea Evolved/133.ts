@@ -35,18 +35,40 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715608,
+				tcgplayer: 497594,
+				cardtrader: 248790
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715608,
+				tcgplayer: 497594,
+				cardtrader: 248790
+			}
+		},
+	],
 
 	illustrator: "Kagemaru Himeno",
 
-	thirdParty: {
-		cardmarket: 715608
-	}
+	description: {
+		en: "This cunning Pokémon hides under the cover of darkness, waiting to attack its prey.",
+		de: "Dieses hinterlistige Pokémon nutzt den Schutz der Dunkelheit, um ahnungsloser Beute aufzulauern."
+	},
 }
 
 export default card

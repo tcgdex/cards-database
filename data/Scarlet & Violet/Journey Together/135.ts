@@ -37,26 +37,39 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 	illustrator: "Tomomi Ozaki",
 
-	thirdParty: {
-		cardmarket: 817287
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817287,
+				tcgplayer: 623562
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817287,
+				tcgplayer: 623562
+			}
 		},
 		{
-			type: 'holo',
-			foil: 'cosmos'
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 819346,
+			}
 		},
-	]
+	],
 }
 
 export default card

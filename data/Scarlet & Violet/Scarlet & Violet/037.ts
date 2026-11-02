@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Fuecoco",
-		fr: "Chochodile"
+		fr: "Chochodile",
+		de: "Krokel"
 	},
 
 	stage: "Stage1",
@@ -54,14 +55,30 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "kantaro",
+
+	description: {
+		en: "The valve in Crocalor's flame sac is closely connected to its vocal cords. This Pokémon utters a guttural cry as it spews flames every which way.",
+		de: "Das Ventil für seinen Flammensack ist eng mit den Stimmbändern verbunden. Wenn es Feuer spuckt, stößt es raue Laute aus."
+	},
 
 	thirdParty: {
         cardmarket: 702332,

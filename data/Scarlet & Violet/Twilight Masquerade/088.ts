@@ -65,18 +65,39 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "They say that flower gardens created by Florges are constantly showered with a power that can heal both body and spirit.",
+		de: "Es heißt, die von ihm angelegten Blumengärten sollen unablässig eine Energie verströmen, die Körper und Geist heilt."
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769262,
+				tcgplayer: 550132
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769262,
+				tcgplayer: 550132
+			}
+		},
+	],
 
 	illustrator: "Ligton",
 
-	thirdParty: {
-		cardmarket: 769262
-	}
 }
 
 export default card

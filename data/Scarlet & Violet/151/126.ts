@@ -57,18 +57,42 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "These Pokémon's bodies are constantly burning. Magmar are feared as one of the causes behind fires.",
+		de: "Sein Körper ist ständig in Flammen gehüllt, wodurch es als eine Ursache von Bränden gefürchtet wird."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733721,
+				tcgplayer: 516689,
+				cardtrader: 261131
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733721,
+				tcgplayer: 516689,
+				cardtrader: 261131
+			}
+		},
+	],
 
 	illustrator: "Toshinao Aoki",
 
-	thirdParty: {
-		cardmarket: 733721
-	}
+	
 }
 
 export default card

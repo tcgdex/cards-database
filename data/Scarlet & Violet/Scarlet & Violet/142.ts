@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Varoom",
-		fr: "Vrombi"
+		fr: "Vrombi",
+		de: "Knattox"
 	},
 
 	stage: "Stage1",
@@ -72,15 +73,36 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Anesaki Dynamic",
+
+	description: {
+		en: "It creates a gas out of poison and minerals from rocks. It then detonates the gas in its cylinders— now numbering eight—to generate energy.",
+		de: "Mit seinen nunmehr acht Zylindern lässt es ein Gasgemisch aus Gift und Gesteinsmineralien explodieren, um daraus Energie zu gewinnen."
+	},
 
 	thirdParty: {
         cardmarket: 702437,

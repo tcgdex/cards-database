@@ -14,23 +14,30 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Look at 7 cards from the top of your deck. You may choose a Basic Pokémon or Evolution card from those cards, show it your opponent, and put it into your hand. Shuffle the rest into your deck.",
 		fr: "Regardez les 7 cartes du dessus de votre deck. Parmi ces cartes, vous pouvez choisir une carte de Pokémon de base ou d'Évolution. Montrez-la à votre adversaire et ajoutez-la à votre main. Mélangez le reste à votre deck.",
-		de: "Look at 7 cards from the top of your deck. You may choose a Basic Pokémon or Evolution card from those cards, show it your opponent, and put it into your hand. Shuffle the rest into your deck."
+		de: "Schaue dir die sieben obersten Karten deines Decks an. Du kannst von diesen Karten eine Basis-Pokémonkarte oder eine Entwicklungskarte nehmen, sie deinem Gegner zeigen und auf deine Hand nehmen. Mische die anderen Karten in dein Deck."
 	},
 
-	thirdParty: {
-		cardmarket: 275018,
-		tcgplayer: 87252
-	},
-
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87252,
+				cardmarket: 275018
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 87252,
+				cardmarket: 275018
+			},
+		},
+	],
+	types: [
+		"Metal"
+	],
 }
 
 export default card

@@ -9,19 +9,17 @@ const card: Card = {
 	},
 
 	illustrator: "K. Utsunomiya",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		332,
-	],
+	dexId: [332],
 
 	hp: 80,
 
 	types: [
 		"Grass",
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Stage1",
@@ -34,12 +32,12 @@ const card: Card = {
 			name: {
 				en: "Dark Bind",
 				fr: "Sombre étreinte",
-				de: "Dark Bind"
+				de: "Dunkle Bindung"
 			},
 			effect: {
-				en: "You may discard a Darkness Energy card attached to Team Aqua's Cacturne. If you do, the Defending Pokémon is now Paralyzed.\"",
+				en: "You may discard a Darkness Energy card attached to Team Aqua's Cacturne. If you do, the Defending Pokémon is now Paralyzed.",
 				fr: "Vous pouvez défausser une carte Énergie  attachée à Cacturne de Team Aqua. Dans ce cas, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "You may discard a  Energy card attached to Team Aqua's Cacturne. If you do, the Defending Pokémon is now Paralyzed."
+				de: "Du kannst eine {D}-Energiekarte, die an Team Aquas Noktuska angelegt ist, auf den Ablagestapel legen. Wenn du das machst, ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -53,12 +51,12 @@ const card: Card = {
 			name: {
 				en: "Poison Barb",
 				fr: "Barbelés empoisonnés",
-				de: "Poison Barb"
+				de: "Giftdorn"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned."
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 40,
 
@@ -72,22 +70,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275978,
-		tcgplayer: 89775
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275778,
+				tcgplayer: 89775
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275778,
+				tcgplayer: 89775
+			}
+		},
+	],
+
 }
 
 export default card

@@ -42,7 +42,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each Water Energy attached to Wartortle but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
-				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Carabaffe qui n'a pas été utilisée pour payer le Coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
+				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {W} attachée à Carabaffe qui n'a pas été utilisée pour payer le Coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
 				de: "Does 20 damage plus 10 more damage for each  Energy attached to Wartortle but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
 			},
 			damage: "20+",
@@ -76,31 +76,43 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276226,
-		tcgplayer: 90486
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276226,
+				tcgplayer: 90486
+			},
 		},
 		{
-			type: "holo",
-			foil: "energy"
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 276226,
+				tcgplayer: 90486
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["pre-release"]
+			stamp: ["pre-release"],
+			thirdParty: {
+				cardmarket: 881786,
+				tcgplayer: 285695
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["hiroki-yano"]
-		}
-	]
+			stamp: ["hiroki-yano"],
+			thirdParty: {
+				cardmarket: 869514,
+				tcgplayer: 477978
+			},
+		},
+	],
 }
 
 export default card

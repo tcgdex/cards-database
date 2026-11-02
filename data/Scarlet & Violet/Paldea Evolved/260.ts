@@ -4,6 +4,7 @@ import Set from "../Paldea Evolved"
 const card: Card = {
 	dexId: [914],
 	set: Set,
+	cameoDexIds: [62, 245, 407],
 
 	name: {
 		fr: "Palmaval-ex",
@@ -74,19 +75,30 @@ const card: Card = {
 		damage: 230
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715735,
+				tcgplayer: 497679,
+				cardtrader: 248912
+			}
+		},
+	],
 
+	suffix: "ex",
 	illustrator: "Souichirou Gunjima",
 
-	thirdParty: {
-		cardmarket: 715735
-	}
+	
 }
 
 export default card

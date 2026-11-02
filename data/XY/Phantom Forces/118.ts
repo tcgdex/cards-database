@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Los jugadores ponen todas las cartas de su pila de descartes en su baraja y las barajan todas (excepto el As Oculto de Lysson).",
 		it: "Ogni giocatore rimischia le carte della sua pila degli scarti nel proprio mazzo (a eccezione di Asso di Elisio).",
 		pt: "Cada jogador embaralha todos os cards da própria pilha de descarte em seu próprio baralho (exceto o Coringa de Lysandre).",
-		de: "Jeder Spieler mischt die Karten seines Ablagestapels zurück in sein Deck (außer Flordelis' Trumpfkarte)."
+		de: "Jeder Spieler mischt die Karten seines Ablagestapels zurück in sein Deck (außer Flordelis’ Trumpfkarte). Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

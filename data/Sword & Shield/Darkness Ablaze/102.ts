@@ -69,23 +69,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Although the poison from its fangs isn't that strong, it's potent enough to weaken prey that gets caught in its web."
+		en: "Although the poison from its fangs isn't that strong, it's potent enough to weaken prey that gets caught in its web.",
+		de: "Das Gift an seinen Mundwerkzeugen ist nicht sonderlich stark, jedoch ausreichend, um Beute zu schwächen, die ihm ins Netz gegangen ist."
 	},
 
-	thirdParty: {
-		cardmarket: 483389,
-		tcgplayer: 219404
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483389,
+				tcgplayer: 219404
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483389,
+				tcgplayer: 219404
+			}
+		},
+	],
 }
 
 export default card

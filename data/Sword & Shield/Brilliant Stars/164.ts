@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Libelldra V"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 220,
@@ -61,17 +62,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608710,
-		tcgplayer: 263883
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608710,
+				tcgplayer: 263883
+			}
+		},
+	],
 }
 
 export default card

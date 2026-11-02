@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zacian"
 	},
 
+	illustrator: "nagimiso",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 130,
@@ -57,20 +58,45 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "Now armed with a weapon it used in ancient times, this Pokémon needs only a single strike to fell even Gigantamax Pokémon.",
+		de: "Es trägt nun eine Waffe, die es vor langer Zeit einmal führte. Selbst Gigadynamax-Pokémon bezwingt es damit auf einen Streich."
 	},
 
-	thirdParty: {
-		cardmarket: 691813,
-		tcgplayer: 478232
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691813,
+				tcgplayer: 478232
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691813,
+				tcgplayer: 478232
+			}
+		},
+	],
 }
 
 export default card

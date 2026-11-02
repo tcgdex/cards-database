@@ -4,7 +4,7 @@ import Set from '../Aquapolis'
 const card: Card = {
 	name: {
 		en: "Magnemite",
-		fr: "Magneti",
+		fr: "Magnéti",
 		de: "Magnetilo"
 	},
 
@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		81,
-	],
+	dexId: [81],
 
 	hp: 40,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Attract",
 				fr: "Attraction",
-				de: "Attract"
+				de: "Anziehung"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Benched Pokémon and switch the Defending Pokémon with it.",
 				fr: "Choisissez un des Pokémon du Banc de votre adversaire et échangez-le contre le Pokémon Défenseur.",
-				de: "Choose 1 of your opponent´s Benched Pokémon and switch the Defending Pokémon with it."
+				de: "Wähle 1 der Pokémon auf der Bank deines Gegners und tausche es mit dem Verteidigenden Pokémon."
 			},
 
 		},
@@ -61,29 +59,33 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Grass",
 			value: "-30"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275125,
-		tcgplayer: 87066
-	},
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 87066,
+				cardmarket: 275125
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 87066,
+				cardmarket: 275125
+			}
+		},
 	]
 }
 

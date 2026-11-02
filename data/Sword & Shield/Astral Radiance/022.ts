@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Gallopa"
 	},
 
+	illustrator: "Ligton",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 100,
@@ -67,20 +68,37 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind.",
+		de: "Die lodernde Mähne dieses Pokémon flattert im Wind, wenn es mit einer Geschwindigkeit von 240 km/h über Felder und Wiesen galoppiert."
 	},
 
-	thirdParty: {
-		cardmarket: 658521,
-		tcgplayer: 272222
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658521,
+				tcgplayer: 272222
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658521,
+				tcgplayer: 272222
+			}
+		},
+	],
 }
 
 export default card

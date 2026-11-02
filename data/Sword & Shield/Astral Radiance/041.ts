@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Ottaro"
 	},
 
+	illustrator: "Saya Tsuruta",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -35,20 +36,37 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "This Pokémon from the Unova region uses the shell on its belly as a weapon to cut down its foes. Thus, I've conferred upon this shell the name \"scalchop.\".",
+		de: "Es stammt aus Einall und setzt die Muschel an seinem Bauch ein um Feinde im Kampf damit aufzuschlitzen. Ich würde diese Waffe folglich auf den Namen \"Muschelklinge\" taufen."
 	},
 
-	thirdParty: {
-		cardmarket: 658578,
-		tcgplayer: 272241
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658578,
+				tcgplayer: 272241
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658578,
+				tcgplayer: 272241
+			}
+		},
+	],
 }
 
 export default card

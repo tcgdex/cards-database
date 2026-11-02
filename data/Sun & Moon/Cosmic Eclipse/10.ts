@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [138],
 
 	dexId: [
 		345,
@@ -29,6 +30,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Unidentified Fossil",
 		fr: "Fossile Inconnu",
+		de: "Unbekanntes Fossil"
 	},
 
 	stage: "Stage1",
@@ -84,6 +86,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "In ancient times, it lived in warm seas. It disguised itself as seaweed to ambush its prey and devoured them whole when they got close.",
+		de: "In der Vorzeit lebte es im warmen Meer. Es tarnte sich als Seegras, um Beute aufzulauern und sie dann zu verschlingen."
+	},
 
 	thirdParty: {
 		cardmarket: 407704,

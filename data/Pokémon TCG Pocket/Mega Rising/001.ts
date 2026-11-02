@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pinsir"
+		en: "Pinsir",
+		fr: "Scarabrute"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -24,14 +25,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "X-Scissor"
+			en: "X-Scissor",
+			fr: "Plaie Croix"
 		},
 
 		damage: 50,
 		cost: ["Grass", "Grass", "Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 50 more damage."
+			en: "Flip a coin. If heads, this attack does 50 more damage.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 50 dégâts de plus."
 		}
 	}],
 

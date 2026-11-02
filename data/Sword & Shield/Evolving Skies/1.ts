@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Pinsir",
@@ -71,16 +65,29 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Although it's tough, it can't handle cold well. When night falls, it buries itself in leafage and sleeps."
+		en: "Although it's tough, it can't handle cold well. When night falls, it buries itself in leafage and sleeps.",
+		de: "Es ist zwar robust, verträgt jedoch keine Kälte. Bei Anbruch der Nacht vergräbt es sich im Laub und schläft."
 	},
 
 	dexId: [127],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574025,
-		tcgplayer: 246813
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574025,
+				tcgplayer: 246813
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574025,
+				tcgplayer: 246813
+			}
+		},
+	],
 }
 
 export default card

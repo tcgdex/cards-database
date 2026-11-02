@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Colossand"
 	},
 
+	illustrator: "sui",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,
@@ -65,20 +66,37 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Palossand is known as the Beach Nightmare. It pulls its prey down into the sand by controlling the sand itself, and then it sucks out their souls.",
+		de: "Colossand wird auch als „Schrecken der Strände“ bezeichnet. Es manipuliert Sand, um seine Beute zu begraben und sich ihre Seele einzuverleiben."
 	},
 
-	thirdParty: {
-		cardmarket: 682147,
-		tcgplayer: 451754
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682147,
+				tcgplayer: 451754
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682147,
+				tcgplayer: 451754
+			}
+		},
+	],
 }
 
 export default card

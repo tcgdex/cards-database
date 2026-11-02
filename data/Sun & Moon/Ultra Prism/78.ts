@@ -68,6 +68,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its golden hairs function as sensors. It pokes them out of its burrow to monitor its surroundings.",
+		de: "Seine goldenen Haare verfügen über sensorische Funktionen. Es streckt sie aus Löchern heraus, um die Umgebung zu erkunden."
+	},
+
 	thirdParty: {
 		cardmarket: 316005,
 		tcgplayer: 157695

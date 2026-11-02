@@ -8,7 +8,7 @@ const card: Card = {
 		'zh-tw': "海刺龍"
 	},
 
-	illustrator: "313",
+	illustrator: "0313",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Water"],

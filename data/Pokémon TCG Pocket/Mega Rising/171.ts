@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Doublade"
+		en: "Doublade",
+		fr: "Dimoclès"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Honedge"
+		en: "Honedge",
+		fr: "Monorpale"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Slash"
+			en: "Slash",
+			fr: "Tranche"
 		},
 
 		damage: 40,

@@ -96,7 +96,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It scatters cotton all over the place as a prank. If it gets wet, it'll become too heavy to move and have no choice but to answer for its mischief."
+		en: "It scatters cotton all over the place as a prank. If it gets wet, it'll become too heavy to move and have no choice but to answer for its mischief.",
+		de: "Es verstreut Watte, um Leute zu ärgern. Es hört damit auf, wenn es nass wird, weil es dann zu schwer ist und sich nicht mehr bewegen kann."
 	},
 
 	thirdParty: {

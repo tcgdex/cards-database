@@ -64,19 +64,34 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "This mysterious Pokémon has some similarities to a creature that an old book introduced as Slither Wing.",
+		de: "Dieses rätselhafte Pokémon weist Ähnlichkeit mit einer Kreatur auf, die in einem alten Buch als Kriechflügel vorgestellt wurde."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740746,
+				tcgplayer: 523884,
+				cardtrader: 265555
+			}
+		},
+	],
 
 	illustrator: "Takeshi Nakamura",
 
-	thirdParty: {
-		cardmarket: 740746
-	}
+	
 }
 
 export default card

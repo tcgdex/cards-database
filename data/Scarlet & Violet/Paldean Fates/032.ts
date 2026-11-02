@@ -44,18 +44,47 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751568,
+				tcgplayer: 534178,
+				cardtrader: 274216
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751568,
+				tcgplayer: 534178,
+				cardtrader: 274216
+			}
+		},
+	],
 
 	illustrator: "Kagemaru Himeno",
 
-	thirdParty: {
-		cardmarket: 751568
-	}
+	description: {
+		en: "It emits ultrasonic waves as it flutters about, searching for its prey—bug Pokémon.",
+		de: "Es fliegt umher und sendet Ultraschallwellen aus, um Käfer-Pokémon aufzuspüren, welche ihm als Nahrung dienen."
+	},
+
 }
 
 export default card

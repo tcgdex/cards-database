@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Dratini"
 	},
 
+	illustrator: "kurumitsu",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -47,17 +48,28 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Dratini dwells near bodies of rapidly flowing water, such as the plunge pools of waterfalls. As it grows, Dratini will shed its skin many times.",
+		de: "Dratini lebt in der Nähe reißender Gewässer, wie etwa in tiefen Becken unter Wasserfällen. Es wächst, indem es sich immer wieder häutet."
 	},
 
-	thirdParty: {
-		cardmarket: 682176,
-		tcgplayer: 451782
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682176,
+				tcgplayer: 451782
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682176,
+				tcgplayer: 451782
+			}
+		},
+	],
 }
 
 export default card

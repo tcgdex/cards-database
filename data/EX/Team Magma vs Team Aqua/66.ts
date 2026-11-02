@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		261,
-	],
+	dexId: [261],
 
 	hp: 50,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Darkness Call",
 				fr: "Demande d'Obscurité",
-				de: "Darkness Call"
+				de: "Ruf der Dunkelheit"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc, s'il en a.",
-				de: "Your opponent switches the Defending Pokémon with 1 of this or her Benched Pokémon, if any."
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 
 		},
@@ -50,7 +48,7 @@ const card: Card = {
 			name: {
 				en: "Sharp Fang",
 				fr: "Croc aiguisé",
-				de: "Sharp Fang"
+				de: "Scharfe Fänge"
 			},
 
 			damage: 20,
@@ -72,22 +70,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276043,
-		tcgplayer: 89839
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275843,
+				tcgplayer: 89839
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275843,
+				tcgplayer: 89839
+			}
+		},
+	],
+
 }
 
 export default card

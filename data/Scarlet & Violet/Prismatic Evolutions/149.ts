@@ -4,6 +4,7 @@ import Set from "../Prismatic Evolutions"
 const card: Card = {
 	dexId: [134],
 	set: Set,
+	cameoDexIds: [1024],
 
 	name: {
 		en: "Vaporeon ex",
@@ -46,7 +47,7 @@ const card: Card = {
 			es: "Este ataque hace 60 puntos de daño a cada uno de los Pokémon ex de tu rival. El daño de este ataque no se ve afectado por Debilidad o Resistencia.",
 			pt: "Este ataque causa 60 pontos de dano a cada um dos Pokémon ex do seu oponente. O dano deste ataque não é afetado por Fraqueza ou Resistência.",
 			it: "Questo attacco infligge 60 danni a ciascuno dei Pokémon-ex del tuo avversario. I danni di questo attacco non sono influenzati dalla debolezza o dalla resistenza.",
-			de: "Diese Attacke fügt jedem Pokémon-ex deines Gegners 60 Schadenspunkte zu. Der Schaden dieser Attacke wird durch Schwäche oder Resistenz nicht verändert."
+			de: "Diese Attacke fügt jedem Pokémon-ex deines Gegners 60 Schadenspunkte zu. Der Schaden dieser Attacke wird durch Schwäche und Resistenz nicht verändert."
 		}
 	}, {
 		cost: ["Fire", "Water", "Lightning"],
@@ -72,19 +73,27 @@ const card: Card = {
 		damage: 280
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: true,
-		normal: false
-	},
-
+	suffix: "ex",
 	illustrator: "Narano",
 
-	thirdParty: {
-		cardmarket: 805543
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 805543,
+				tcgplayer: 610504
+			}
+		},
+	],
 }
 
 export default card

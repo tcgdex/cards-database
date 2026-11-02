@@ -10,8 +10,8 @@ const card: Card = {
 		pt: "Giratina",
 		de: "Giratina"
 	},
-	illustrator: "Hasuno",
-	rarity: "Rare",
+	illustrator: "Shin Nagasawa",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -89,6 +89,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
+		de: "Es wurde aufgrund seines Verhaltens verbannt. Aus der Zerrwelt schaut es auf die alte Welt."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 364328,
+				tcgplayer: 177903
+			}
+		}
+	],
 }
 
 export default card

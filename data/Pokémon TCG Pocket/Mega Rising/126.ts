@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Makuhita"
+		en: "Makuhita",
+		fr: "Makuhita"
 	},
 
 	illustrator: "Sachiko Adachi",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Lunge Out"
+			en: "Lunge Out",
+			fr: "Allonger"
 		},
 
 		damage: 50,

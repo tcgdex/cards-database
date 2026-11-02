@@ -79,6 +79,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It has ears like shovels. Digging holes strengthens its ears so much that they can sever thick roots effortlessly.",
+		de: "Es besitzt schaufelähnliche Ohren, die durch ständiges Graben so kräftig werden, dass sie auch dicke Wurzeln durchtrennen können."
+	},
+
 	thirdParty: {
 		cardmarket: 355610,
 		tcgplayer: 165759

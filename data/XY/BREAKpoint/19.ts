@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [90, 580],
 
 	dexId: [
 		79,
@@ -78,6 +79,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It lazes vacantly near water. If something bites its tail, it won't even notice for a whole day.",
+		de: "Es faulenzt am Wasser. Wenn es in den Schweif gebissen wird, bemerkt es das erst am nächsten Tag."
+	},
 
 	thirdParty: {
 		cardmarket: 288194,

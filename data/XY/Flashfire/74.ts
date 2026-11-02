@@ -80,7 +80,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 40 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 40 danni in più.",
 				pt: "Jogue uma moeda. Se sair cara, este ataque causará 40 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 40 weitere Schadenspunkte zu."
 			},
 			damage: "80+",
 
@@ -95,6 +95,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "This very friendly Dragon-type Pokémon will hug its beloved Trainer, leaving that Trainer covered in sticky slime.",
+		de: "Dieses äußerst freundliche Drachen-Pokémon neigt dazu, seinen geliebten Trainer zu umarmen und so mit einer dicken Schleimschicht zu umhüllen."
+	},
 
 	thirdParty: {
 		cardmarket: 281557,

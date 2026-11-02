@@ -8,18 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: "Hikaru Koike",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		15,
-	],
+	dexId: [15],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
@@ -56,7 +54,7 @@ const card: Card = {
 				en: "Flip 4 coins. If you get 1 heads, this attack does 10 damage plus 10 more damage. If you get 2 heads, this attack does 10 damage plus 20 more damage. If you get 3 heads, this attack does 10 damage plus 50 more damage. If you get 4 heads, this attack does 10 damage plus 90 more damage.",
 				de: "Wirf 4 Münzen. Zeigt 1 Münze 'Kopf', fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu. Zeigen 2 Münzen 'Kopf', fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu. Zeigen 3 Münzen 'Kopf', fügt dieser Angriff 10 Schadenspunkte plus 50 weitere Schadenspunkte zu. Zeigen 4 Münzen 'Kopf', fügt dieser Angriff 10 Schadenspunkte plus 90 weitere Schadenspunkte zu."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],
@@ -64,20 +62,19 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 275263,
-		tcgplayer: 83764
-	},
-
 	variants: [
 		{
 			type: 'holo',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 83764,
+				cardmarket: 275263
+			},
+		},
+	],
+	retreat: 0,
 }
 
 export default card

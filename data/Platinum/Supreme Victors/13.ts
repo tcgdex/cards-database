@@ -9,23 +9,21 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		3,
-	],
+	dexId: [3],
 
 	hp: 140,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Ivysaur",
-		fr: "Herbizarre",
+		fr: "Herbizarre"
 	},
 
 	stage: "Stage2",
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Remove all Special Conditions from each of your Grass Pokémon. Each of your Grass Pokémon can't be affected by any Special Conditions.",
 				fr: "Retirez à chacun de vos Pokémon Grass tous leurs États Spéciaux. Aucun de vos Pokémon Grass ne peut être affecté par un État Spécial.",
 				de: "Entferne alle Speziellen Zustände von jedem deiner -Pokémon. Deine -Pokémon können nicht von Speziellen Zuständen betroffen werden."
-			},
+			}
 		},
 	],
 
@@ -92,24 +90,25 @@ const card: Card = {
 			value: "+40"
 		},
 	],
-
 	retreat: 4,
-
-	thirdParty: {
-		cardmarket: 278704
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278704,
+				tcgplayer: 90321,
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278704,
+				tcgplayer: 90321
+			}
 		},
-		{
-			type: "normal",
-		}
-	]
+	],
+
 }
 
 export default card

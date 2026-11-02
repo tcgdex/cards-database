@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Naoki Saito",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		59,
-	],
+	dexId: [59],
 
 	hp: 110,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Growlithe",
 		fr: "Caninos",
+		de: "Fukano"
 	},
 
 	stage: "Stage1",
@@ -73,25 +72,33 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This legendary Chinese Pokémon is considered magnificent. Many people are enchanted by its grand mane."
+		en: "This legendary Chinese Pokémon is considered magnificent. Many people are enchanted by its grand mane.",
+		de: "Dieses legendäre chinesische Pokémon wird wegen seiner Schönheit verehrt. Vor allem wegen der Mähne."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		},
-		{
-			type: "normal",
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 83586,
+				cardmarket: 278973
+			}
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 83586,
+				cardmarket: 278973
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 125039,
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278973,
-		tcgplayer: 83586
-	}
 }
 
 export default card

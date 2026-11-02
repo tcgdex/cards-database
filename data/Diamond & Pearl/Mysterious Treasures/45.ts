@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Seel",
-		fr: "Otaria"
+		fr: "Otaria",
+		de: "Jurob"
 	},
 
 	stage: "Stage1",
@@ -74,9 +75,13 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
-		fr: "Son corps est couvert d'un grand manteau blanc qui, dans la neige, le dissimule aux yeux des prédateurs."
+		en: "In snow, the pure white coat covering its body obscures it from predators.",
+		fr: "Son corps est couvert d'un grand manteau blanc qui, dans la neige, le dissimule aux yeux des prédateurs.",
+		de: "Sein Körper ist mit einem weißen Fell bedeckt, das es im Schnee fast unsichtbar für Gegner macht."
 	},
 
 	thirdParty: {

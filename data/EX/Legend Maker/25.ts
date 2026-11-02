@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as you have Lunatone in play, each player's Colorless Pokémon (excluding Pokémon-ex) can't use any Poké-Powers.",
-				fr: "Tant que votre Seleroc est en jeu, les Pokémon  de chaque joueur (Pokémon-ex exclus) ne peuvent pas utiliser de Poké-Powers.",
+				fr: "Tant que votre Seleroc est en jeu, les Pokémon {C} de chaque joueur (Pokémon-ex exclus) ne peuvent pas utiliser de Poké-Powers.",
 				de: "Solange du Lunastein im Spiel hast, können die -Pokémon aller Spieler (außer Pokémon-ex) keine Poké-Power benutzen."
 			},
 		},
@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Search your deck for a Lunatone and put it onto your Bench. Shuffle your deck afterward.",
 				fr: "Cherchez un Seleroc dans votre deck et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach Lunastein und lege es auf die Bank. Mische dein Deck danach."
+				de: "Durchsuche dein Deck nach einem Lunastein und lege es auf die Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -65,12 +65,12 @@ const card: Card = {
 			name: {
 				en: "Hyper Beam",
 				fr: "Ultralaser",
-				de: "Hyperstahl"
+				de: "Hyperstrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte von dem Verteidigendem Pokémon auf den Ablagestapel deines Gegners."
+				de: "Wirf 1 Münze. Bei „Kopf“ lege 1 Energiekarte von dem Verteidigenden Pokémon auf den Ablagestapel deines Gegners."
 			},
 
 		},

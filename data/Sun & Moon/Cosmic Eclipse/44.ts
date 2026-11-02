@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Sneasel",
 		fr: "Farfuret",
+		de: "Sniebel"
 	},
 
 	stage: "Stage1",
@@ -84,6 +85,11 @@ const card: Card = {
 	],
 
 	retreat: 0,
+
+	description: {
+		en: "One Weavile will trip a Sandshrew and flip it over, and then another Weavile will deal the finishing blow with its sharp claws.",
+		de: "Zieht es einem Sandan die Beine weg, gibt ein weiteres Snibunna der nun rücklings liegenden Beute mit seinen Krallen den Gnadenstoß."
+	},
 
 	thirdParty: {
 		cardmarket: 398529,

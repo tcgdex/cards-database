@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Folipurba"
 	},
 
-	rarity: "Rare",
+	illustrator: "chibi",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Grass"],
@@ -68,7 +69,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	description: {
+		en: "Although it doesn't like disputes, it will sharpen the leaf on its tail into a blade and fight if it has to protect its friends.",
+		de: "Folipurba kämpft nicht gerne, aber sollten sich seine Kameraden in Gefahr befinden, verwendet es seinen blattartigen Schweif wie eine Klinge."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 449118,
+				tcgplayer: 211627
+			}
+		}
+	],
 }
 
 export default card

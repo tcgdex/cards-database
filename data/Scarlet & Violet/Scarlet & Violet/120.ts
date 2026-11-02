@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Silicobra",
-		fr: "Dunaja"
+		fr: "Dunaja",
+		de: "Salanga"
 	},
 
 	stage: "Stage1",
@@ -70,8 +71,18 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		holo: false
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
+	description: {
+		en: "It will expand its body as much as it can and then contract itself, blasting out sand with enough force to wash away a dump truck.",
+		de: "Wenn es seinen Körper maximal ausdehnt und wieder zusammenzieht, kann es Sand mit einer Wucht abfeuern, die einen Kipplaster hinwegfegt."
 	},
 
 	thirdParty: {

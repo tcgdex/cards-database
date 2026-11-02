@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Jerky",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [885],
 	hp: 70,
 	types: ["Dragon"],
 	stage: "Basic",
@@ -54,10 +55,21 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 676059,
-		cardmarket: 869858
-	}
+	description: {
+		en: "It has a habit of biting at Clauncher even though it doesn’t feed on them. This is said to be vestigial behavior from when Dreepy was alive.",
+		fr: "Il a tendance à croquer les Flingouste, alors qu'il ne s'en nourrit pas. Cette habitude serait un vestige de sa vie passée, lorsqu'il était bien vivant.",
+		de: "Es beißt sich oft an Scampisto fest, ohne dieses zu fressen. Das hält man für eine Angewohnheit aus einer Zeit, als Grolldra noch am Leben war."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869858,
+				tcgplayer: 676059
+			}
+		}
+	],
 }
 
 export default card

@@ -91,23 +91,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It's highly skilled at tap-dancing. It waves its cane of ice in time with its graceful movements."
+		en: "It's highly skilled at tap-dancing. It waves its cane of ice in time with its graceful movements.",
+		de: "Dieser begnadete Stepptänzer schwingt einen aus Eis geformten Gehstock und gibt mit leichtem Fuß seinen Tanz zum Besten."
 	},
 
-	thirdParty: {
-		cardmarket: 483054,
-		tcgplayer: 219267
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483054,
+				tcgplayer: 219267
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483054,
+				tcgplayer: 219267
+			}
+		},
+	],
 }
 
 export default card

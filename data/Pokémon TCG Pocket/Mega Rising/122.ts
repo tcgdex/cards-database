@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sandshrew"
+		en: "Sandshrew",
+		fr: "Sabelette"
 	},
 
 	illustrator: "Sekio",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Sand Spray"
+			en: "Sand Spray",
+			fr: "Jet Sableux"
 		},
 
 		damage: 20,

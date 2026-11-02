@@ -52,10 +52,19 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 281001,
-		tcgplayer: 84937
-	}
+	description: {
+		en: "It is called the \"Mirage Pokémon\" because so few have seen it. Its shed skin has been found.",
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281001,
+				tcgplayer: 84937
+			}
+		},
+	],
 }
 
 export default card

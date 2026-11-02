@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Trickle",
 				fr: "Goutte à Goutte",
+				de: "Rieseln"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 30,
 
@@ -54,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Thundershock",
 				fr: "Éclair",
+				de: "Donnerschock"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 50,
 
@@ -80,10 +84,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280165,
-		tcgplayer: 89580
-	}
+	description: {
+		en: "It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers a volt of electricity.",
+		de: "Es vergräbt sich im Morast am Meeresboden. Wird es von seiner Beute gestreift, lähmt es sie mit Strom."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280191,
+				tcgplayer: 89580
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280191,
+				tcgplayer: 89580
+			}
+		},
+	],
 }
 
 export default card

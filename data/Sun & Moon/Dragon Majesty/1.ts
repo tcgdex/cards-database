@@ -64,6 +64,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
+		de: "Von Geburt an brennt die Flamme auf seiner Schwanzspitze. Sobald sie erlischt, erlischt auch sein Lebenslicht."
+	},
+
 	thirdParty: {
 		cardmarket: 363474,
 		tcgplayer: 175263

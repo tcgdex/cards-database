@@ -94,23 +94,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
 	description: {
-		en: "From its spikes, it launches powerful blasts of electricity. Its red core contains an enormous amount of energy."
+		en: "From its spikes, it launches powerful blasts of electricity. Its red core contains an enormous amount of energy.",
+		de: "Die Stachelspitzen können starke Elektrizität abfeuern. Im roten Zentralbestandteil sind Unmengen von Energie gespeichert."
 	},
 
-	thirdParty: {
-		cardmarket: 483514,
-		tcgplayer: 219388
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483514,
+				tcgplayer: 219388
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483514,
+				tcgplayer: 219388
+			}
+		},
+	],
 }
 
 export default card

@@ -74,7 +74,9 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		fr: "Son estomac peut digérer n'importe quel type de nourriture, même quand elle est moisie ou pourrie."
+		en: "Its stomach can digest any kind of food, even if it happens to be moldy or rotten.",
+		fr: "Son estomac peut digérer n'importe quel type de nourriture, même quand elle est moisie ou pourrie.",
+		de: "Sein Magen kann jede Art von Nahrung verdauen, selbst wenn sie verschimmelt und verdorben ist."
 	},
 
 	thirdParty: {

@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Pikachu GX"
 	},
 
-	rarity: "Rare",
+	illustrator: "aky CG Works",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Lightning"],
@@ -97,7 +98,17 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 412924,
+				tcgplayer: 200273
+			}
+		}
+	],
 }
 
 export default card

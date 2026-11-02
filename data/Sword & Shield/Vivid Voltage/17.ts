@@ -76,12 +76,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -89,10 +83,22 @@ const card: Card = {
 		en: "If it has sunshine and water, it doesn't need to eat, because it can generate energy from the leaves on its back."
 	},
 
-	thirdParty: {
-		cardmarket: 511505,
-		tcgplayer: 226381
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511505,
+				tcgplayer: 226381
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511505,
+				tcgplayer: 226381
+			}
+		},
+	],
 }
 
 export default card

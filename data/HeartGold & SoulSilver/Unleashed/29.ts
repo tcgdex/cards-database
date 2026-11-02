@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		206,
-	],
+	dexId: [206],
 
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -55,22 +53,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When spotted, this Pokémon escapes backward by furiously boring into the ground with its tail."
+		en: "When spotted, this Pokémon escapes backward by furiously boring into the ground with its tail.",
+		de: "Wird es entdeckt, flüchtet dieses Pokémon, indem es sich mit seinem Schweif in den Boden gräbt."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85013,
+				cardmarket: 279185
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85013,
+				cardmarket: 279185
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279185,
-		tcgplayer: 85013
-	}
 }
 
 export default card

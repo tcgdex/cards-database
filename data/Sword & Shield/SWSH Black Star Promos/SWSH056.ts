@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Lightning"],
@@ -72,19 +72,18 @@ const card: Card = {
 	stage: "Basic",
 	dexId: [877],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
-	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 510185
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 510185,
+				tcgplayer: 223757
+			}
+		},
+	],
+	suffix: "V"
 }
 
 export default card

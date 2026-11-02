@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Tanhel"
 	},
 
+	illustrator: "sowsow",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -55,20 +56,43 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "From its rear, Beldum emits a magnetic force that rapidly pulls opponents in. They get skewered on Beldum's sharp claws.",
+		de: "Mit der Magnetkraft, die es an seinem Hinterteil erzeugt, zieht es Gegner ruckartig zu sich heran, um sie mit seinen scharfen Krallen aufzuspießen."
 	},
 
-	thirdParty: {
-		cardmarket: 682164,
-		tcgplayer: 451771
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682164,
+				tcgplayer: 451771
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682164,
+				tcgplayer: 451771
+			}
+		},
+	],
 }
 
 export default card

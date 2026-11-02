@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It sleeps in a deep-sea trench. If it flaps its wings, it is said to cause a 40-day storm.",
+	},
+
 	thirdParty: {
 		cardmarket: 277767,
 		tcgplayer: 86908

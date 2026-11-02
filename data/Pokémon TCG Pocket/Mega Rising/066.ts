@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tirtouga"
+		en: "Tirtouga",
+		fr: "Carapagos"
 	},
 
 	illustrator: "HYOGONOSUKE",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Cover Fossil"
+		en: "Cover Fossil",
+		fr: "Fossile Plaque"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Shell Attack"
+			en: "Shell Attack",
+			fr: "Coquill-Attaque"
 		},
 
 		damage: 50,

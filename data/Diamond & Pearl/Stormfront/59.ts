@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Duskull",
-		fr: "Skélénox",
+		fr: "Skelénox",
 		de: "Zwirrlicht"
 	},
 
@@ -79,7 +79,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		fr: "Il poursuit assidûment sa proie, où qu'elle aille. Il n'abandonne sa traque qu'au lever du soleil."
+		en: "It doggedly pursues its prey wherever it goes. However, the chase is abandoned at sunrise.",
+		fr: "Il poursuit assidûment sa proie, où qu'elle aille. Il n'abandonne sa traque qu'au lever du soleil.",
+		de: "Verbissen verfolgt es seine Beute überallhin. Doch sobald die Sonne aufgeht, ist die Jagd vorbei."
 	},
 
 	thirdParty: {

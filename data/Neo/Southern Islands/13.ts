@@ -48,15 +48,20 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275643,
-		tcgplayer: 46470
+
+	description: {
+		en: "This Pokémon has a unique cry, as all three of its heads are always talking independently of one another.",
 	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275643,
+				tcgplayer: 46470
+			}
 		}
 	]
 }

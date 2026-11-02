@@ -3,13 +3,8 @@ import Set from '../Evolving Skies'
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [880, 881, 882, 883],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Crustle",
@@ -79,16 +74,29 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its thick claws are its greatest weapons. They're mighty enough to crack Rhyperior's carapace."
+		en: "Its thick claws are its greatest weapons. They're mighty enough to crack Rhyperior's carapace.",
+		de: "Seine kräftigen Scheren sind robuste Waffen. Sie sind hart genug, um selbst in den Schützern von Rihornior Risse zu hinterlassen."
 	},
 
 	dexId: [558],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574036,
-		tcgplayer: 246826
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574036,
+				tcgplayer: 246826
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574036,
+				tcgplayer: 246826
+			}
+		},
+	],
 }
 
 export default card

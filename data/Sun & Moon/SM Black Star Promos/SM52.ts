@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Tectass"
 	},
 	illustrator: "Naoki Saito",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Wimpod",
 		fr: "Sovkipou",
+		de: "Reißlaus"
 	},
 	stage: "Stage1",
 
@@ -87,6 +88,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "With a flashing slash of its giant sharp claws, it cleaves seawater—or even air—right in two.",
+		de: "Mithilfe seiner riesigen, glitzernden Klauen zerteilt es selbst Luft und Salzwasser mit einem Hieb."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 302136,
+				tcgplayer: 162606
+			}
+		}
+	],
 }
 
 export default card

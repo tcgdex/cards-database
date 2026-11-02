@@ -128,6 +128,10 @@ const card: Card = {
 		}
 	}],
 
+	description: {
+		en: "Metang combined to form it. With four brains, it has the intelligence of a supercomputer.",
+	},
+
 	thirdParty: {
 		cardmarket: 284230,
 		tcgplayer: 101472

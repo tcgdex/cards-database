@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zapplalek"
 	},
 
+	illustrator: "NC Empire",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,
@@ -67,20 +68,39 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity.",
+		de: "Hat es seine Beute erspäht, lähmt es sie mit Elektrizität und verspeist sie anschließend."
 	},
 
-	thirdParty: {
-		cardmarket: 691765,
-		tcgplayer: 478157
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691765,
+				tcgplayer: 478157
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691765,
+				tcgplayer: 478157
+			}
+		},
+	],
 }
 
 export default card

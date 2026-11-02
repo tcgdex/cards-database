@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It usually forages for food on the ground but may, on rare occasions, hop onto branches to peck at shoots.",
+	},
+
 	thirdParty: {
 		cardmarket: 282695,
 		tcgplayer: 98063

@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [412],
 
 	dexId: [
 		608,
@@ -101,6 +102,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It arrives near the moment of death and steals spirit from the body.",
+		de: "Es erscheint im Augenblick des Todes und verschlingt die Seele des Verblichenen, sofort nachdem sie den Körper verlassen hat."
+	},
 
 	thirdParty: {
 		cardmarket: 291540,

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		327,
-	],
+	dexId: [327],
 
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -56,7 +54,7 @@ const card: Card = {
 				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Spinda.",
 				de: "Does 10 damage times the number of damage counters on Spinda."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 	],
@@ -71,18 +69,21 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276122,
-		tcgplayer: 89459
-	},
-
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
+			thirdParty: {
+				tcgplayer: 89459,
+				cardmarket: 276122
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89459,
+				cardmarket: 276122
+			}
+		},
 	]
 }
 

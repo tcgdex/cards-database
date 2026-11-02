@@ -87,6 +87,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It hugely inflates its stomach and sings a mysterious melody. If you hear this melody, you'll become sleepy right away.",
+		de: "Es kann tief einatmen und seinen Bauch mit Luft füllen, um ein sonderbares Lied anzustimmen. Wer dieses hört, schläft auf der Stelle ein."
+	},
+
 	thirdParty: {
 		cardmarket: 311919,
 		tcgplayer: 149097

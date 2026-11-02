@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Ve enseñando cartas de la parte superior de tu baraja hasta que enseñes 1 carta de Partidario. Ponla en tu mano. Pon el resto de cartas de nuevo en tu baraja y barájalas todas.",
 		it: "Scopri le carte in cima al tuo mazzo fino a quando non trovi una carta Aiuto. Aggiungila a quelle che hai in mano, poi rimischia le altre carte nel tuo mazzo.",
 		pt: "Revele os cards de cima do seu baralho até revelar um card de Apoiador. Coloque-o em sua mão. Embaralhe os demais cards de volta.",
-		de: "Decke solang Karten von deinem Deck auf, bis du eine Unterstützerkarte aufdeckst. Nimm sie auf deine Hand. Mische die anderen Karten zurück in dein Deck."
+		de: "Decke solang Karten von deinem Deck auf, bis du eine Unterstützerkarte aufdeckst. Nimm sie auf deine Hand. Mische die anderen Karten zurück in dein Deck. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

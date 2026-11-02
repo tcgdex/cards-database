@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Rhyhorn",
 		fr: "Rhinocorne",
+		it: "Rhyhorn",
 		de: "Rihorn"
 	},
 
@@ -33,12 +34,14 @@ const card: Card = {
 			name: {
 				en: "Leer",
 				fr: "Groz'yeux",
+				it: "Fulmisguardo",
 				de: "Silberblick"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon can't attack Rhyhorn during your opponent's next turn. (Benching either Pokémon ends this effect.)",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer Rhinocorne pendant le prochain tour de votre adversaire. (Si l'un des deux Pokémon bat en retraite, cet effet prend fin.)",
-				de: "Wirf eine Münze. Bei 'Kopf' kann das verteidigende Pokémon Rihorn während des nächsten gegnerischen Zuges nicht angreifen. (Kommt einer der beiden Pokémon auf der Bank, ist diese Wirkung nicht weiter gültig.)"
+				it: "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario, il Pokémon Difensore non può attaccare Rhyhorn (mettendo in panchina uno dei due Pokémon l'effetto termina).",
+				de: "Wirf eine Münze. Bei „Kopf“ kann das verteidigende Pokémon Rihorn während des nächsten gegnerischen Zuges nicht angreifen. (Kommt einer der beiden Pokémon auf die Bank, ist diese Wirkung nicht weiter gültig.)"
 			},
 
 		},
@@ -51,6 +54,7 @@ const card: Card = {
 			name: {
 				en: "Horn Attack",
 				fr: "Koud'korne",
+				it: "Incornata",
 				de: "Hornattacke"
 			},
 
@@ -72,24 +76,33 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
-		fr: "Avec une ossature 1000 fois plus résistante que celle de l'homme, ses charges sont dévastatrices."
+		en: "Its massive bones are 1,000 times harder than human bones. It can easily knock a trailer flying.",
+		fr: "Avec une ossature 1000 fois plus résistante que celle de l'homme, ses charges sont dévastatrices.",
+		it: "Le sue grosse ossa sono 1000 volte più resistenti di quelle umane. Può facilmente seminare un inseguitore volando.",
+		de: "Seine massiven Knochen sind tausendmal härter als menschliche Knochen. Es kann problemlos einen Wohnwagen umwerfen."
 	},
 
-	thirdParty: {
-		cardmarket: 273858,
-		tcgplayer: 45164
-	},
 
 	variants: [
 		{
 			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273858,
+				tcgplayer: 45164
+			}
 		},
 		{
-			type: "normal",
-			stamp: ["1st-edition"]
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 273858,
+				tcgplayer: 45164
+			}
+		},
 	],
 }
 

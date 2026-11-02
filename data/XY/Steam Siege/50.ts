@@ -102,6 +102,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The spirits burned up in its ominous flame lose their way and wander this world forever.",
+		de: "Seelen, die das Feuer seiner schaurigen Flammen gekostet haben, irren bis ans Ende der Tage ziellos durch diese Welt."
+	},
+
 	thirdParty: {
 		cardmarket: 291541,
 		tcgplayer: 121139

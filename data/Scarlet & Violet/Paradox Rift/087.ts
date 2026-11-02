@@ -55,18 +55,48 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This Pokémon was born inside a treasure chest about 1,500 years ago. It sucks the life-force out of scoundrels who try to steal the treasure.",
+		de: "Es entstand vor etwa 1500 Jahren in einer Schatztruhe. Wenn Diebe versuchen, den Schatz zu stehlen, saugt es ihnen die Lebensenergie aus."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740579,
+				tcgplayer: 523753,
+				cardtrader: 265200
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740579,
+				tcgplayer: 523753,
+				cardtrader: 265200
+			}
+		},
+	],
 
 	illustrator: "Mizue",
 
-	thirdParty: {
-		cardmarket: 740579
-	}
+	
 }
 
 export default card

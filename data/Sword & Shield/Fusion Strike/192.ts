@@ -29,12 +29,25 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "E",
 	illustrator: "KEIICHIRO ITO",
 
 	description: {
-		en: "These Pokémon live in herds. Their trunks have incredible grip strength, strong enough to crush giant rocks into powder."
+		en: "These Pokémon live in herds. Their trunks have incredible grip strength, strong enough to crush giant rocks into powder.",
+		de: "Diese Pokémon leben in Herden. Drücken sie mit ihren kräftigen Rüsseln zu, können sie selbst massive Felsen zu Staub zermahlen."
 	},
 
 	attacks: [{
@@ -74,17 +87,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582866,
-		tcgplayer: 253347
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582866,
+				tcgplayer: 253347
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582866,
+				tcgplayer: 253347
+			}
+		},
+	],
 }
 
 export default card

@@ -33,7 +33,7 @@ const card: Card = {
 			name: {
 				en: "Flop",
 				fr: "Flop",
-				de: "Flop"
+				de: "Plumps"
 			},
 
 			damage: 10,
@@ -48,12 +48,12 @@ const card: Card = {
 			name: {
 				en: "Rapid Evolution",
 				fr: "Évolution rapide",
-				de: "Rapid Evolution"
+				de: "Rasche Evolution"
 			},
 			effect: {
 				en: "Search your deck for an Evolution card named Gyarados or Dark Gyarados and put it on Magikarp. (This counts as evolving Magikarp.) Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck une carte Léviator ou Léviator obscur et placez-la sur Magicarpe. (Cela revient à faire évoluer Magicarpe). Mélangez ensuite votre deck.",
-				de: "Search your deck for an Evolution card named Gyarados or Dark Gyarados and put it on Magikarp. (This counts as evolving Magikarp.) Shuffle your deck afterward."
+				de: "Durchsuche dein Deck nach einer Evolutionskarte mit dem Namen Garados oder Dunkles Garados und lege sie auf Karpador. (Dies zählt als eine Entwicklung für Karpador.) Mische dein Deck danach."
 			},
 
 		},
@@ -65,25 +65,33 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "De récentes recherches ont démontré la présence d'ADN de dragon dans cette race de Pokémon."
+		en: "Recent research has revealed the presence of dragon DNA in this species of Pokémon.",
+		fr: "De récentes recherches ont démontré la présence d'ADN de dragon dans cette race de Pokémon.",
+		de: "Neuere Forschung hat das Vorkommen von Drachen-DNS in dieser Pokémon-Art offenbart."
 	},
 
-	thirdParty: {
-		cardmarket: 274100,
-		tcgplayer: 87021
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274100,
+				tcgplayer: 87021
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
-		}
-	]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274100,
+				tcgplayer: 87021
+			}
+		},
+	],
 }
 
 export default card

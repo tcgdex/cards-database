@@ -25,7 +25,7 @@ const card: Card = {
 		es: "Gengar V",
 		it: "Gengar-V",
 		pt: "Gengar V",
-		de: "Gengar-V"
+		de: "Gengar VMAX"
 	},
 
 	stage: "VMAX",
@@ -84,17 +84,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582785,
-		tcgplayer: 253371
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 582785,
+				tcgplayer: 253371
+			}
+		},
+	],
 }
 
 export default card

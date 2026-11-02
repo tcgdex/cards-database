@@ -12,18 +12,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		78,
-	],
+	dexId: [78],
 
 	hp: 90,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Ponyta",
+		de: "Ponita"
 	},
 
 	stage: "Stage1",
@@ -66,19 +65,29 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 278900,
-		tcgplayer: 88586
+	description: {
+		en: "When at an all-out gallop, its blazing mane sparkles, enhancing its beautiful appearance.",
+		de: "In vollem Galopp funkelt seine leuchtende Mähne, was wiederum seine Schönheit unterstreicht."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88586,
+				cardmarket: 278900
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278900,
+				tcgplayer: 88586
+			}
+		},
+	],
+
+	retreat: 0
 }
 
 export default card

@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Smithereen Smash",
 				fr: "Pulvérisation",
+				de: "Splitterschlag"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				de: "Wirf 1 Münze. Lege bei „Kopf“ 1 an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 
 		},
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 20,
@@ -74,10 +77,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280670,
-		tcgplayer: 90025
-	}
+	description: {
+		en: "It makes an inescapable conical pit and lies in wait at the bottom for prey to come tumbling down.",
+		de: "Es baut sich ein trichterförmiges Loch, aus dem es kein Entrinnen gibt, und wartet, bis Beute hineinfällt."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280670,
+				tcgplayer: 90025
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280670,
+				tcgplayer: 90025
+			}
+		},
+	],
 }
 
 export default card

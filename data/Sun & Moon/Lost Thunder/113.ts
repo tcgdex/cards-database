@@ -88,6 +88,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "If you are enchanted by its smooth, dance-like kicks, you may get a closer experience with one than you'd like.",
+		de: "Lässt du dich von seinen eleganten, anmutigen und tanzartigen Tritten betören, wirst du vermöbelt."
+	},
+
 	thirdParty: {
 		cardmarket: 365750,
 		tcgplayer: 178926

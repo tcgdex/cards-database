@@ -35,11 +35,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Charge Beam",
-				fr: "Rayon Chargé"
+				fr: "Rayon Chargé",
+				de: "Ladestrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, attach an Energy card from your discard pile to this Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, attachez une carte Énergie de votre pile de défausse à ce Pokémon."
+				fr: "Lancez une pièce. Si c'est face, attachez une carte Énergie de votre pile de défausse à ce Pokémon.",
+				de: "Wirf 1 Münze. Nimm bei „Kopf“ 1 Energiekarte von deinem Ablagestapel und lege sie an dieses Pokémon an."
 			},
 			damage: 10,
 
@@ -55,10 +57,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280372,
-		tcgplayer: 90095
-	}
+	description: {
+		en: "These Pokémon move in schools. They have an electricity-generating organ, so they discharge electricity if in danger.",
+		de: "Es besitzt ein Organ, mit dem es im Notfall Elektrizität erzeugen kann. Es tritt stets in Schwärmen auf."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280372,
+				tcgplayer: 90095
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280372,
+				tcgplayer: 90095
+			}
+		},
+	],
 }
 
 export default card

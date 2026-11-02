@@ -4,12 +4,6 @@ import Set from '../Celebrations'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Lunala",
@@ -94,15 +88,21 @@ const card: Card = {
 	regulationMark: "E",
 
 	description: {
-		en: "It sometimes summons unknown powers and life-forms here to this world from holes that lead to other worlds."
+		en: "It sometimes summons unknown powers and life-forms here to this world from holes that lead to other worlds.",
+		de: "Öffnet es eine Ultrapforte, ebnet es mitunter für fremde Kräfte und Lebewesen den Weg in unsere Welt."
 	},
 
 	dexId: [792],
 
-	thirdParty: {
-		cardmarket: 576773,
-		tcgplayer: 250312
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 576760,
+				tcgplayer: 250312
+			}
+		},
+	],
 }
 
 export default card

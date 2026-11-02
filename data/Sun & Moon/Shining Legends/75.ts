@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pikachu",
 		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	suffix: "GX",
@@ -53,7 +54,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño más por cada Energía Lightning unida a tus Pokémon.",
 				it: "Questo attacco infligge 20 danni in più per ogni Energia Lightning assegnata ai tuoi Pokémon.",
 				pt: "Este ataque causa 20 pontos de dano a mais vezes a quantidade de Energia Lightning ligada aos seus Pokémon.",
-				de: "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der an deine Pokémon angelegten Lightning-Energien zu."
+				de: "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der an deine Pokémon angelegten {L}-Energien zu."
 			},
 			damage: "20+",
 
@@ -95,7 +96,7 @@ const card: Card = {
 				es: "Colavoltio GX",
 				it: "Coda Voltaica-GX",
 				pt: "Cauda Voltaica GX",
-				de: "Voltschweif GX"
+				de: "Voltschweif-GX"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Paralyzed. (You can’t use more than 1 GX attack in a game.)",

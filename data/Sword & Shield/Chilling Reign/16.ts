@@ -27,7 +27,7 @@ const card: Card = {
 			es: "Doble Redoble",
 			it: "Doppia Botta",
 			pt: "Batida Dupla",
-			de: "Zweimal zuschlagen"
+			de: "Zweimal Schlagen"
 		},
 
 		effect: {
@@ -51,23 +51,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It attacks with rapid beats of its stick. As it strikes with amazing speed, it gets more and more pumped."
+		en: "It attacks with rapid beats of its stick. As it strikes with amazing speed, it gets more and more pumped.",
+		de: "Es greift an, indem es wiederholt seinen Schlägel schwingt. Diese rasanten Trommelbewegungen bringen es immer mehr in Fahrt."
 	},
 
-	thirdParty: {
-		cardmarket: 567096,
-		tcgplayer: 241665
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567096,
+				tcgplayer: 241665
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567096,
+				tcgplayer: 241665
+			}
+		},
+	],
 }
 
 export default card

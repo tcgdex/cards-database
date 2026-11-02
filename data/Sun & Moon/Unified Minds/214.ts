@@ -46,7 +46,7 @@ const card: Card = {
 				es: "Busca en tu baraja 1 carta que evolucione de 1 de tus Pokémon Grass y ponla sobre ese Pokémon para hacerlo evolucionar. Si ese Pokémon es ahora un Pokémon de Fase 1, busca en tu baraja 1 Pokémon de Fase 2 que evolucione de ese Pokémon y ponlo sobre ese Pokémon para hacerlo evolucionar. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo una carta che si evolve da uno dei tuoi Pokémon Grass e metticela sopra per farlo evolvere. Se quel Pokémon adesso è di Fase 1, cerca nel tuo mazzo un Pokémon di Fase 2 che si evolve da quel Pokémon e metticelo sopra per farlo evolvere. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por 1 carta no seu baralho que evolua de 1 dos seus Pokémon Grass e coloque-a sobre aquele Pokémon para evoluí-lo. Se aquele Pokémon agora for um Pokémon Estágio 1, procure por 1 Pokémon Estágio 2 no seu baralho que evolua daquele Pokémon e coloque-o sobre aquele Pokémon para evoluí-lo. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach 1 Karte, die sich aus 1 deiner Grass-Pokémon entwickelt, und lege sie auf jenes Pokémon, um es zu entwickeln. Wenn jenes Pokémon jetzt ein Phase-1-Pokémon ist, durchsuche dein Deck nach 1 Phase-2-Pokémon, das sich aus jenem Pokémon entwickelt, und lege es auf jenes Pokémon, um es zu entwickeln. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach 1 Karte, die sich aus 1 deiner {G}-Pokémon entwickelt, und lege sie auf jenes Pokémon, um es zu entwickeln. Wenn jenes Pokémon jetzt ein Phase-1-Pokémon ist, durchsuche dein Deck nach 1 Phase-2-Pokémon, das sich aus jenem Pokémon entwickelt, und lege es auf jenes Pokémon, um es zu entwickeln. Mische anschließend dein Deck."
 			},
 
 		},
@@ -87,7 +87,7 @@ const card: Card = {
 				es: "Hora Tropical GX",
 				it: "Ora Tropicale GX",
 				pt: "Hora Tropical GX",
-				de: "Tropenstunde GX"
+				de: "Tropenstunde-GX"
 			},
 			effect: {
 				en: "If this Pokémon has at least 3 extra Energy attached to it (in addition to this attack’s cost), your opponent shuffles all Energy from all of their Pokémon into their deck. (You can’t use more than 1 GX attack in a game.)",
@@ -96,21 +96,6 @@ const card: Card = {
 				it: "Se questo Pokémon ha almeno tre Energie extra assegnate, in aggiunta a quelle del costo di questo attacco, il tuo avversario rimischia tutte le Energie assegnate a tutti i suoi Pokémon nel suo mazzo. Non puoi usare più di un attacco GX a partita.",
 				pt: "Se este Pokémon tiver pelo menos 3 Energias adicionais ligadas a ele (além do custo deste ataque), seu oponente embaralhará todas as Energias de todos os Pokémon dele(a) no baralho dele(a) (você não pode usar mais de 1 ataque GX por partida).",
 				de: "Wenn an dieses Pokémon mindestens 3 extra Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), mischt dein Gegner alle an jedes seiner Pokémon angelegten Energien in sein Deck. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
-			},
-			damage: 200,
-
-		},
-		{
-			cost: [
-				"Grass",
-				"Grass",
-				"Grass",
-			],
-			name: {
-				fr: "Pause Tropicale-GX",
-			},
-			effect: {
-				fr: "Si au moins 3 Énergies supplémentaires sont attachées à ce Pokémon (en plus du coût de cette attaque), votre adversaire mélange toutes les Énergies de tous ses Pokémon avec son deck. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 			damage: 200,
 

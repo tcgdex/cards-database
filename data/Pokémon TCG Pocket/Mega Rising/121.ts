@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Indeedee ex"
+		en: "Indeedee ex",
+		fr: "Wimessir-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -22,24 +23,28 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Watch Over"
+			en: "Watch Over",
+			fr: "Veille"
 		},
 
 		effect: {
-			en: "Once during your turn, you may heal 20 damage from your Active Pokémon."
+			en: "Once during your turn, you may heal 20 damage from your Active Pokémon.",
+			fr: "Une fois pendant votre tour, vous pouvez soigner 20 dégâts de votre Pokémon Actif."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Psychic"
+			en: "Psychic",
+			fr: "Psyko"
 		},
 
 		damage: 30,
 		cost: ["Psychic", "Psychic"],
 
 		effect: {
-			en: "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon."
+			en: "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.",
+			fr: "Cette attaque inflige 30 dégâts de plus pour chaque Énergie attachée au Pokémon Actif de votre adversaire."
 		}
 	}],
 

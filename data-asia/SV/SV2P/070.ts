@@ -22,6 +22,16 @@ const card: Card = {
 		id: "Tiap kali kedua pemain mengenakan Energi dari Kartu Pegangan sendiri pada Pokémon Basic (selain Pokémon {Air}) masing-masing, letakkan 2 Token Kerusakan pada Pokémon tersebut untuk tiap lembar Energi."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 705303,
+				tcgplayer: 567827,
+			},
+		},
+	],
+
 	trainerType: "Stadium",
 	regulationMark: "G"
 }

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV6a"
+import { Card } from "../../../interfaces";
+import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "電蜘蛛"
+		ja: "デンチュラ",
+		'zh-tw': "電蜘蛛",
 	},
 
 	illustrator: "mashu",
@@ -14,40 +14,58 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		'zh-tw': "發射腹部帶電的毛來攻擊。 要是被牠的毛刺中， 就會全身麻痺三天三夜。"
+		ja: "電気を 帯びた お腹の 毛を 飛ばして 攻撃。 毛が 刺さると 三日三晩 全身が 痺れる。",
+		'zh-tw': "發射腹部帶電的毛來攻擊。 要是被牠的毛刺中， 就會全身麻痺三天三夜。",
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "‌[特性]複眼"
+	abilities: [
+		{
+			type: "Ability",
+			name: { ja: "ふくがん" },
+			effect: {
+				ja: "このポケモンが使うワザの、相手のバトル場の特性を持つポケモンへのダメージは「+50」される。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "這隻寶可夢使用的招式，對對手的戰鬥場的擁有特性的寶可夢造成的傷害「+50」點。"
-		}
-	}, {
-		name: {
-			'zh-tw': "麻麻羅網"
+	attacks: [
+		{
+			name: {
+				ja: "ビリビリウェブ",
+				'zh-tw': "‌[特性]複眼",
+			},
+			damage: "50+",
+			cost: ["Grass", "Colorless"],
+			effect: {
+				ja: "このポケモンに[L]エネルギーがついているなら、80ダメージ追加。",
+				'zh-tw': "這隻寶可夢使用的招式，對對手的戰鬥場的擁有特性的寶可夢造成的傷害「+50」點。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "若這隻寶可夢身上附有【雷】能量卡，則增加80點傷害。"
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 773751,
+				tcgplayer: 566253,
+			},
 		},
+	],
 
-		damage: "50+",
-		cost: ["Grass", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
+	evolveFrom: {
+		ja: "バチュル",
+	},
 
 	retreat: 1,
 	regulationMark: "H",
-	rarity: "Uncommon"
-}
+	rarity: "Uncommon",
+	dexId: [596],
+};
 
-export default card
+export default card;

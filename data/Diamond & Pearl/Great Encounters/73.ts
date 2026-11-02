@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Weedle",
 		fr: "Aspicot",
+		de: "Hornliu"
 	},
 
 	stage: "Stage1",
@@ -72,6 +73,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "While awaiting evolution, it hides from predators under leaves and in nooks of branches.",
+		de: "Während es auf seine Entwicklung wartet, versteckt es sich unter Blättern und zwischen Ästen."
+	},
 
 	thirdParty: {
 		cardmarket: 277975,

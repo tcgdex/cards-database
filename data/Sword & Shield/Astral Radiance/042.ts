@@ -4,6 +4,7 @@ import Set from "../Astral Radiance"
 const card: Card = {
 	dexId: [502],
 	set: Set,
+	cameoDexIds: [602],
 
 	name: {
 		en: "Dewott",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Zwottronin"
 	},
 
+	illustrator: "Mina Nakai",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -54,20 +56,37 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Its exquisite double-scalchop technique is likely the result of daily training, and it can send even masters of the blade fleeing in defeat.",
+		de: "Seine meisterhafte Handhabung der beiden Muschelklingen ist wohl auf tägliche Übungen zurückzuführen. Damit stellt es selbst die erfahrensten Schwertkämpfer in den Schatten."
 	},
 
-	thirdParty: {
-		cardmarket: 658580,
-		tcgplayer: 272242
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658580,
+				tcgplayer: 272242
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658580,
+				tcgplayer: 272242
+			}
+		},
+	],
 }
 
 export default card

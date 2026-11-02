@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kliklak"
 	},
 
+	illustrator: "SATOSHI NAKAI",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -54,20 +55,43 @@ const card: Card = {
 		damage: "80×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "When Klang goes all out, the minigear links up perfectly with the outer part of the big gear, and this Pokémon's rotation speed increases sharply.",
+		de: "Macht es Ernst, greift das kleine äußere Rad in das große Rad, was die Drehgeschwindigkeit merklich erhöht."
 	},
 
-	thirdParty: {
-		cardmarket: 682171,
-		tcgplayer: 451777
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682171,
+				tcgplayer: 451777
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682171,
+				tcgplayer: 451777
+			}
+		},
+	],
 }
 
 export default card

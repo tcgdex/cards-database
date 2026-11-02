@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Lileep",
 		fr: "Lilia",
+		de: "Liliep"
 	},
 
 	stage: "Stage2",
@@ -91,6 +92,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "Normally, it lived on shallow sea shoals. When the tide went out, this Pokémon came up on land to search for prey.",
+		de: "Es lebte für gewöhnlich an seichten Stellen im Meer. Bei Ebbe kam es an Land, um nach Beute zu suchen."
+	},
 
 	thirdParty: {
 		cardmarket: 407709,

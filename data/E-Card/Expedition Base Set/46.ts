@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		160,
-	],
+	dexId: [160],
 
 	hp: 100,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Croconaw",
-		fr: "Crocrodil"
+		fr: "Crocrodil",
+		de: "Tyracroc"
 	},
 
 	stage: "Stage2",
@@ -38,7 +37,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
-				de: "Slash"
+				de: "Schlitzer"
 			},
 
 			damage: 20,
@@ -53,38 +52,49 @@ const card: Card = {
 			name: {
 				en: "Double Claw",
 				fr: "Combo-griffe",
-				de: "Double Claw"
+				de: "Doppelkralle"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque face.",
-				de: "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads."
+				de: "Wirf zwei Münzen. Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte pro geworfenem „Kopf“ zu."
 			},
 			damage: "30+",
 
 		},
 	],
 
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30"
+		},
+	],
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 274887,
-		tcgplayer: 85415
-	},
 
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 85415,
+				cardmarket: 274887
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 85415,
+				cardmarket: 274887
+			},
+		},
+	],
 }
 
 export default card

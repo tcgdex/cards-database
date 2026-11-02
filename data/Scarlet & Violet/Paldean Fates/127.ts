@@ -64,19 +64,33 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751666,
+				tcgplayer: 534518,
+				cardtrader: 274311
+			}
+		},
+	],
 
 	illustrator: "Kagemaru Himeno",
 
-	thirdParty: {
-		cardmarket: 751666
-	}
+	description: {
+		en: "This is a small dragon Pokémon. It lives inside the mouth of Dondozo to protect itself from enemies on the outside.",
+		de: "Dieses kleine Drachen-Pokémon lebt im Maul von Heerashai, wodurch es vor Feinden geschützt ist."
+	},
+
 }
 
 export default card

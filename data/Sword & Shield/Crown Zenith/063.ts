@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zwirrklop"
 	},
 
+	illustrator: "DOM",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -54,20 +55,45 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Its body is entirely hollow. When it opens its mouth, it sucks everything in as if it were a black hole.",
+		de: "Sein Körper ist vollkommen hohl. Wenn es sein Maul öffnet, saugt es wie ein schwarzes Loch alles in sich auf."
 	},
 
-	thirdParty: {
-		cardmarket: 691780,
-		tcgplayer: 478180
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691780,
+				tcgplayer: 478180
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691780,
+				tcgplayer: 478180
+			}
+		},
+	],
 }
 
 export default card

@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		430,
-	],
+	dexId: [430],
 
 	hp: 90,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	evolveFrom: {
 		en: "Murkrow",
-		fr: "Cornebre",
+		fr: "Cornèbre",
+		de: "Kramurx"
 	},
 
 	stage: "Stage1",
@@ -42,7 +41,7 @@ const card: Card = {
 				de: "Schattenbindung"
 			},
 			effect: {
-				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
+				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
 				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
@@ -63,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each Darkness Pokémon in your discard pile.",
 				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chacun des Pokémon Darkness de votre pile de défausse.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jedes -Pokémon in deinem Ablagestapel zu."
+				de: "Dieser Angriff fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jedes {D}-Pokémon in deinem Ablagestapel zu."
 			},
 			damage: "10+",
 
@@ -87,22 +86,27 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is merciless by nature. It is said that it never forgives the mistakes of its Murkrow followers."
+		en: "It is merciless by nature. It is said that it never forgives the mistakes of its Murkrow followers.",
+		de: "KRAMSHEF kennt kein Erbarmen. Einem untergebenen KRAMURX wird es niemals einen Fehler verzeihen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279269,
+				tcgplayer: 86162
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279269,
+				tcgplayer: 86162
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279268,
-		tcgplayer: 86162
-	}
 }
 
 export default card

@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		156,
-	],
+	dexId: [156],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Cyndaquil",
 		fr: "Héricendre",
+		de: "Feurigel"
 	},
 
 	stage: "Stage1",
@@ -76,22 +75,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon is fully covered by nonflammable fur. It can withstand any kind of fire attack."
+		en: "This Pokémon is fully covered by nonflammable fur. It can withstand any kind of fire attack.",
+		de: "Das Fell dieses Pokémon ist nicht entflammbar. Es ist gegen jegliche Feuerattacken immun."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88486,
+				cardmarket: 279021
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88486,
+				cardmarket: 279021
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279021,
-		tcgplayer: 88486
-	}
 }
 
 export default card

@@ -113,6 +113,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It dives at a steep angle as soon as it spots its prey. It catches its prey with sharp claws.",
+	},
+
 	thirdParty: {
 		cardmarket: 282739,
 		tcgplayer: 98108

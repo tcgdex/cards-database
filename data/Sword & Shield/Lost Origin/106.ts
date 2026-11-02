@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Bithora"
 	},
 
+	illustrator: "Scav",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -51,16 +52,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674119,
-		tcgplayer: 284001
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674119,
+				tcgplayer: 284001
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674119,
+				tcgplayer: 284001
+			}
+		},
+	],
 }
 
 export default card

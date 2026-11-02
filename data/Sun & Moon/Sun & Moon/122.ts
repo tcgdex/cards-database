@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Roba cartas hasta que tengas 6 cartas en tu mano. Si es tu primer turno, roba cartas hasta que tengas 8 cartas en tu mano.",
 		it: "Pesca fino ad avere sei carte in mano. Se è il tuo primo turno, pesca fino ad avere otto carte in mano.",
 		pt: "Compre cartas até ter 6 cartas na sua mão. Se for a sua primeira vez de jogar, compre cartas até ter 8 cartas na sua mão.",
-		de: "Ziehe so lange Karten, bis du 6 Karten auf der Hand hast. Wenn es dein erster Zug ist, ziehe so lange Karten, bis du 8 Karten auf der Hand hast."
+		de: "Ziehe so lange Karten, bis du 6 Karten auf der Hand hast. Wenn es dein erster Zug ist, ziehe so lange Karten, bis du 8 Karten auf der Hand hast. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

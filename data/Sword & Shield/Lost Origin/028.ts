@@ -4,6 +4,7 @@ import Set from "../Lost Origin"
 const card: Card = {
 	dexId: [667],
 	set: Set,
+	cameoDexIds: [122],
 
 	name: {
 		en: "Litleo",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Leufeo"
 	},
 
+	illustrator: "Sekio",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -45,16 +47,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674039,
-		tcgplayer: 283899
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674039,
+				tcgplayer: 283899
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674039,
+				tcgplayer: 283899
+			}
+		},
+	],
 }
 
 export default card

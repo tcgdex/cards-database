@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Bronzong"
 	},
 
+	evolveFrom: {
+		en: "Bronzor",
+		fr: "Archéomire",
+		es: "Bronzor",
+		'es-mx': "Bronzor",
+		de: "Bronzel",
+		it: "Bronzor",
+		pt: "Bronzor",
+	},
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 
@@ -70,22 +80,46 @@ const card: Card = {
 		damage: "40×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
+	description: {
+		en: "In ages past, this Pokémon was revered as a bringer of rain. It was found buried in the ground.",
+		fr: "Il a longtemps été vénéré pour avoir apporté la pluie. On le trouve parfois enterré dans le sol.",
+		de: "Vor Urzeiten wurden sie als Regenmacher verehrt. Manchmal findet man eines von ihnen im Boden vergraben."
+	},
+
+	illustrator: "Masako Tomii",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857647,
+				tcgplayer: 662137,
+				cardtrader: 356858
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857647,
+				tcgplayer: 662137,
+				cardtrader: 356858
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857647,
-		tcgplayer: 662137
-	}
 }
 
 export default card

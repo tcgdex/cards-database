@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Manguspektor"
 	},
 	illustrator: "nagimiso",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Yungoos",
 		fr: "Manglouton",
+		de: "Mangunior"
 	},
 	stage: "Stage1",
 
@@ -84,6 +85,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It adores having Rattata and Raticate for dinner, but as it's diurnal, it never encounters them. This Pokémon boasts incredible patience.",
+		de: "Rattfratz und Rattikarl sind seine Leibspeise, aber leider nachtaktiv und daher selten auf dem Speiseplan. Ein sehr geduldiges Pokémon."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 315518,
+				tcgplayer: 158169
+			}
+		}
+	],
 }
 
 export default card

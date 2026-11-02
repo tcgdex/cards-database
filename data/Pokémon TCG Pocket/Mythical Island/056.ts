@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Il vit sous terre, mais il doit impérativement\ns'exposer au soleil, car il devient incapable\nde bouger lorsque son corps se refroidit.",
 		es: "Habita en túneles. Pierde la movilidad si baja su\ntemperatura corporal, por lo que aprovecha la\nmenor oportunidad para tomar el sol.",
 		it: "Vive in cavità sotterranee, ma poiché non\nriesce più a muoversi se il suo corpo si\nraffredda, non può fare a meno dei bagni di sole.",
-		de: "Shardrago lebt in Grotten. Kühlt sein Körper ab,\nerstarrt es, weshalb es regelmäßig Sonnenbäder\nnehmen muss.",
+		de: "Shardrago lebt in Grotten. Kühlt sein Körper ab, erstarrt es, weshalb es regelmäßig Sonnenbäder nehmen muss.",
 		'pt-br': "Druddigon habita cavernas, mas nunca deixa de tomar um banho de sol.\nEle não é capaz de mover seu corpo se ficar com muito frio.",
 		ko: "토굴에 산다. 몸이 차가워지면\n움직이지 못하기 때문에\n일광욕을 거르지 않는다."
 	},

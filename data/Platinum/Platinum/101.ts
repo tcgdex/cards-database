@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		387,
-	],
+	dexId: [387],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -33,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
-				de: "Ram"
+				de: "Ramme"
 			},
 
 			damage: 10,
@@ -47,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Body Slam",
 				fr: "Plaquage",
-				de: "Body Slam"
+				de: "Bodyslam"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -75,19 +73,28 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278522,
-		tcgplayer: 90077
+	description: {
+		en: "The shell on its back is made of soil. On a very healthy TURTWIG, the shell should feel moist.",
+		de: "Der Panzer auf seinem Rücken besteht aus Erdreich. Bei gesunden CHELAST ist der Panzer feucht."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 90077,
+				cardmarket: 278522
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278522,
+				tcgplayer: 90077
+			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Squirtle",
 		fr: "Carapuce",
+		de: "Schiggy"
 	},
 
 	stage: "Stage1",
@@ -79,6 +80,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "When tapped, this Pokémon will pull in its head, but its tail will still stick out a little bit.",
+		de: "Bei Gefahr zieht dieses Pokémon seinen Kopf ein. Die Schwanzspitze ragt jedoch aus dem Panzer heraus."
+	},
 
 	thirdParty: {
 		cardmarket: 368956,

@@ -4,6 +4,8 @@ import Set from "../Temporal Forces"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [518],
+
 	name: {
 		en: "Bianca's Devotion",
 		fr: "Dévouement de Bianca",
@@ -30,15 +32,16 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760839,
+				tcgplayer: 542930
+			}
+		},
 	],
 
 	illustrator: "Cona Nitanda",
 
-	thirdParty: {
-		cardmarket: 760839
-	}
 }
 
 export default card

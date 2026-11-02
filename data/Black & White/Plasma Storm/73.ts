@@ -59,6 +59,7 @@ const card: Card = {
 			name: {
 				en: "Rock Throw",
 				fr: "Jet-Pierres",
+				de: "Steinwurf"
 			},
 
 			damage: 30,
@@ -74,6 +75,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "The phase of the moon apparently has some effect on its power. It's active on the night of a full moon.",
+		de: "Anscheinend steht die Zunahme seiner Kraft mit den Mondphasen in Verbindung, da es bei Vollmond aktiv wird."
+	},
 
 	thirdParty: {
 		cardmarket: 280813,

@@ -11,11 +11,19 @@ const card: Card = {
 
 	set: Set,
 
+	effect: {
+		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If the effect of a Pokémon Power, attack, Energy card, or Trainer card would put a card in a discard pile into its owner's hand, that card stays in that discard pile instead.",
+	},
+
 	variants: [
 		{
 			type: "normal",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275461,
+				tcgplayer: 88240
+			}
+		},
+	],
 }
 
 export default card

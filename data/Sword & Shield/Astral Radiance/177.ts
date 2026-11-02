@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Ur-Dialga V"
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 220,
@@ -39,7 +40,7 @@ const card: Card = {
 			es: "Une hasta 2 cartas de Energía Metal de tu pila de descartes a este Pokémon.",
 			it: "Assegna a questo Pokémon fino a due carte Energia Metal dalla tua pila degli scarti.",
 			pt: "Ligue até 2 cartas de Energia Metal da sua pilha de descarte a este Pokémon.",
-			de: "Lege bis zu 2 Metal-Energiekarten aus deinem Ablagestapel an dieses Pokémon an."
+			de: "Lege bis zu 2 {M}-Energiekarten aus deinem Ablagestapel an dieses Pokémon an."
 		}
 	}, {
 		cost: ["Metal", "Metal", "Metal", "Colorless"],
@@ -56,20 +57,31 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658838,
-		tcgplayer: 272427
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658838,
+				tcgplayer: 272427
+			}
+		},
+	],
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Houndoom"
+		en: "Houndoom",
+		de: "Hundemon"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -17,25 +18,29 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Houndour"
+		en: "Houndour",
+		de: "Hunduster"
 	},
 
 	description: {
-		en: "If you are burned by the flames it shoots from its\nmouth, the pain will never go away."
+		en: "If you are burned by the flames it shoots from its\nmouth, the pain will never go away.",
+		de: "Wird man von den Flammen getroffen, die es aus seinem Maul schießt, so erleidet man eine Brandwunde, deren Schmerz nie nachlässt."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Diving Swipe"
+			en: "Diving Swipe",
+			de: "Sturzklau"
 		},
 
 		damage: 70,
 		cost: ["Darkness", "Darkness", "Darkness"],
 
 		effect: {
-			en: "Discard a random card from your opponent's hand."
+			en: "Discard a random card from your opponent's hand.",
+			de: "Lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
 		}
 	}],
 

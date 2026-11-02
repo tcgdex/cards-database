@@ -10,6 +10,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [333],
 
 	dexId: [
 		5,
@@ -64,6 +65,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "In the rocky mountains where Charmeleon live, their fiery tails shine at night like stars.",
+	},
 
 	thirdParty: {
 		cardmarket: 281169,

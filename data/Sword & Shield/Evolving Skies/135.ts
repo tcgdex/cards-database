@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Stoutland",
@@ -90,15 +84,28 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its fur is long and thick. A long time ago in cold regions, every household kept a Stoutland."
+		en: "Its fur is long and thick. A long time ago in cold regions, every household kept a Stoutland.",
+		de: "Es hat langes, dickes Fell. Vor einiger Zeit war es in kalten Gegenden üblich, dass jede Familie ein Bissbark im Haus hielt."
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574193,
-		tcgplayer: 246872
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574193,
+				tcgplayer: 246872
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574193,
+				tcgplayer: 246872
+			}
+		},
+	],
 }
 
 export default card

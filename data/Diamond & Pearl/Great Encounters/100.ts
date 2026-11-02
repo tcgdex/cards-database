@@ -13,9 +13,12 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [488, 491],
+
 	effect: {
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu. Si une autre carte comportant le même nom est en jeu, vous ne pouvez pas jouer cette carte.",
-		de: "Jedes - und jedes -Pokémon im Spiel (deine und die deines Gegners) hat Rückzugskosten 0."
+		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. The Retreat Cost for each Psychic and Darkness Pokémon (both yours and your opponent's) is 0.",
+		fr: "Le Coût de retraite de chaque Pokémon Psy et Obscurité (les vôtres et ceux de votre adversaire) est de 0.",
+		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen. Jedes {P}- und jedes {D}-Pokémon im Spiel (deine und die deines Gegners) hat Rückzugskosten 0.",
 	},
 
 	trainerType: "Stadium",

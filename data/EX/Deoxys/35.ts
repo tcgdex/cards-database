@@ -4,7 +4,7 @@ import Set from '../Deoxys'
 const card: Card = {
 	name: {
 		en: "Lotad",
-		fr: "Nenupiot",
+		fr: "Nénupiot",
 		de: "Loturzel"
 	},
 
@@ -55,20 +55,25 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 86833,
-		cardmarket: 276438
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 86833,
+				cardmarket: 276438
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
-		}
-	]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 86833,
+				cardmarket: 276438
+			},
+		},
+	],
+
 }
 
 export default card

@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Hajime Kusajima",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		467,
-	],
+	dexId: [467],
 
 	hp: 110,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Magmar",
 		fr: "Magmar",
+		de: "Magmar"
 	},
 
 	stage: "Stage1",
@@ -47,7 +46,7 @@ const card: Card = {
 				fr: "Défaussez les 3 cartes du dessus de votre deck. Cette attaque inflige 50 dégâts multipliés par le nombre de cartes Énergie que vous avez défaussées.",
 				de: "Lege die obersten 3 Karten deines Decks auf deinen Ablagestapel. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl abgelegter Energiekarten zu."
 			},
-			damage: "50x",
+			damage: "50×",
 
 		},
 		{
@@ -65,7 +64,7 @@ const card: Card = {
 			effect: {
 				en: "Discard 2 Fire Energy attached to Magmortar.",
 				fr: "Défaussez 2 cartes Énergie Fire attachées à Maganon.",
-				de: "Lege 2 an Magbrant angelgte -Energien auf deinen Ablagestapel."
+				de: "Lege 2 an Magbrant angelegte {R}-Energien auf deinen Ablagestapel."
 			},
 			damage: 100,
 
@@ -82,22 +81,34 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It blasts fireballs of over 3,600 degrees Fahrenheit out of its arms. Its breath also sears and sizzles."
+		en: "It blasts fireballs of over 3,600 degrees Fahrenheit out of its arms. Its breath also sears and sizzles.",
+		de: "Es schießt 2 000 Grad heiße Feuerbälle aus den Enden seiner Arme. Selbst sein Atem steht in Flammen."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87059,
+				cardmarket: 279158
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87059,
+				cardmarket: 279158
+			}
+		},
+		{
+			type: "holo",
+			foil: 'cracked-ice',
+			thirdParty: {
+				tcgplayer: 226911
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279158,
-		tcgplayer: 87059
-	}
 }
 
 export default card

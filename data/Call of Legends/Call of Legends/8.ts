@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Shigenori Negishi",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		237,
-	],
+	dexId: [237],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -38,9 +36,9 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 		{
@@ -67,14 +65,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		en: "It launches kicks while spinning. If it spins at high speed, it may bore its way into the ground.",
+		de: "Es dreht sich um sich selbst und verteilt Tritte. Ist es schnell genug, bohrt es sich in den Boden."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86117,
+				cardmarket: 279651
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86117,
+				cardmarket: 279651
+			},
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279651,
-		tcgplayer: 86117
-	}
 }
 
 export default card

@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Une 1 carta de Energía Fire de tu pila de descartes a este Pokémon.",
 				it: "Assegna a questo Pokémon una carta Energia Fire dalla tua pila degli scarti.",
 				pt: "Ligue 1 carta de Energia Fire da sua pilha de descarte a este Pokémon.",
-				de: "Lege 1 Fire-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+				de: "Lege 1 {R}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 			},
 			damage: 30,
 
@@ -82,10 +82,27 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 299432,
-		tcgplayer: 138506
-	}
+	description: {
+		en: "The shell on its back is chemically unstable and explodes violently if struck. The hole in its stomach is its weak point.",
+		de: "Sein Rückenpanzer ist explosiv, man sollte ihm also niemals auf den Rücken klopfen. Das Loch in seinem Bauch ist seine Schwachstelle."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299432,
+				tcgplayer: 138506
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299432,
+				tcgplayer: 138506
+			}
+		},
+	],
 }
 
 export default card

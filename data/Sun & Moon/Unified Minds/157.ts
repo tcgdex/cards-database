@@ -88,6 +88,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The red skin on its face is harder than rock. In narrow caves, it squares off against its enemies and charges face-first right into them.",
+		de: "Seine rote Kopfhaut ist fester als Stein. Es jagt seine Gegner durch enge Höhlengänge und stürmt mit dem Kopf voran auf sie zu."
+	},
+
 	thirdParty: {
 		cardmarket: 388577,
 		tcgplayer: 195155

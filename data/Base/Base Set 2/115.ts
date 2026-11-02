@@ -11,15 +11,20 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	thirdParty: {
-		cardmarket: 274038
+	effect: {
+		en: "Look at up to 5 cards from the top of your deck and rearrange them as you like.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
-		}
-	]
+			thirdParty: {
+				cardmarket: 274038,
+				tcgplayer: 106360
+			}
+		},
+	],
 }
 
 export default card

@@ -7,7 +7,8 @@ const card: Card = {
 
 	name: {
 		en: "Skitty",
-		fr: "Skitty"
+		fr: "Skitty",
+		de: "Eneco"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -17,7 +18,7 @@ const card: Card = {
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	attacks: [{
@@ -26,7 +27,8 @@ const card: Card = {
 		],
 		name: {
 			en: "Tackle",
-			fr: "Charge"
+			fr: "Charge",
+			de: "Tackle"
 		},
 		damage: 10
 	}, {
@@ -36,11 +38,13 @@ const card: Card = {
 		],
 		name: {
 			en: "Lunge",
-			fr: "Coup rapide"
+			fr: "Coup rapide",
+			de: "Ausfall"
 		},
 		effect: {
 			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, l'attaque est sans effet."
+			fr: "Lancez une pièce. Si c'est pile, l'attaque est sans effet.",
+			de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 		},
 		damage: 30
 	}],
@@ -48,15 +52,21 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "2x"
 		},
 	],
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 89263
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275776,
+				tcgplayer: 89263
+			}
+		},
+	],
+
 }
 
 export default card

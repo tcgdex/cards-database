@@ -5,7 +5,13 @@ const card: Card = {
   set: Set,
 
   name: {
-    en: "Sprigatito"
+		en: "Sprigatito",
+		fr: "Poussacha",
+		es: "Sprigatito",
+		it: "Sprigatito",
+		de: "Felori",
+		'pt-br': "Sprigatito",
+		ko: "나오하"
   },
 
   illustrator: "Saya Tsuruta",
@@ -24,7 +30,13 @@ const card: Card = {
   attacks: [
     {
       name: {
-        en: "Leafage"
+        en: "Leafage",
+        fr: "Feuillage",
+        es: "Follaje",
+        it: "Fogliame",
+        de: "Blattwerk",
+        'pt-br': "Folhagem",
+        ko: "나뭇잎"
       },
       damage: 20,
       cost: ["Grass"]

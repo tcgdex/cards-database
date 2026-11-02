@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Esta carta proporciona Energía Colorless. Mientras está en juego, esta carta proporciona todos los tipos de Energía, pero solo proporciona 1 Energía a la vez. Cuando unas esta carta de tu mano a 1 de tus Pokémon, pon 1 contador de daño en ese Pokémon.",
 		it: "Questa carta fornisce Energia Colorless. Fintanto che è in gioco, fornisce un’Energia di un tipo qualsiasi, ma solo una alla volta. Quando assegni questa carta dalla tua mano a uno dei tuoi Pokémon, metti un segnalino danno su quel Pokémon.",
 		pt: "Esta carta fornece Energia Colorless. Enquanto estiver em jogo, esta carta fornece todo tipo de Energia, mas só fornece 1 Energia de cada vez. Quando você liga esta carta da sua mão a 1 dos seus Pokémon, coloque 1 contador de dano naquele Pokémon.",
-		de: "Diese Karte liefert Colorless-Energie. Ist sie im Spiel, zählt sie als jeder beliebige Energietyp, spendet aber immer nur jeweils 1 Energie. Wenn du diese Karte aus deiner Hand an 1 deiner Pokémon anlegst, lege 1 Schadensmarke auf jenes Pokémon."
+		de: "Diese Karte liefert {C}-Energie. Ist sie im Spiel, zählt sie als jeder beliebige Energietyp, spendet aber immer nur jeweils 1 Energie. Wenn du diese Karte aus deiner Hand an 1 deiner Pokémon anlegst, lege 1 Schadensmarke auf jenes Pokémon."
 	},
 
 	energyType: "Special",

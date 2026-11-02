@@ -60,7 +60,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin for each Water Energy attached to Ludicolo. This attack does 40 damage plus 20 more damage for each heads.",
-				fr: "Lancez une pièce pour chaque Énergie  attachée à Ludicolo. Cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires multipliés par le nombre de faces.",
+				fr: "Lancez une pièce pour chaque Énergie {W} attachée à Ludicolo. Cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires multipliés par le nombre de faces.",
 				de: "Flip a coin for each  Energy attached to Ludicolo. This attack does 40 damage plus 20 more damage for each heads."
 			},
 			damage: "40+",
@@ -78,20 +78,25 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		tcgplayer: 86898,
-		cardmarket: 276422
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 86898,
+				cardmarket: 276422
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
-		}
-	]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 86898,
+				cardmarket: 276422
+			},
+		},
+	],
+
 }
 
 export default card

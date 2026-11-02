@@ -18,14 +18,18 @@ const card: Card = {
 	types: ["Fire"],
 	energyType: "Normal",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 725310,
+				tcgplayer: 509992,
+				cardtrader: 255670
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 725310
-	}
+	
 }
 
 export default card

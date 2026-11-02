@@ -13,25 +13,32 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [94, 109],
+
 	effect: {
+		en: "Discard a card from your hand in order to play this card. Your opponent shuffles his or her hand into his or her deck, then draws 4 cards.",
 		fr: "Défaussez une carte de votre main pour pouvoir jouer cette carte. Votre adversaire mélange sa main avec son deck, puis pioche 4 cartes.",
-		de: "Lege eine Karte von deiner hand ab, um diese Karte zu spielen. Dein gegner mischt seine oder ihre hand in sein oder ihr Deck und zieht dann vier Karten."
+		de: "Lege eine Karte von deiner Hand ab, um diese Karte zu spielen. Dein Gegner mischt seine oder ihre Hand in sein oder ihr Deck und zieht dann vier Karten."
 	},
 
-	thirdParty: {
-		cardmarket: 274129,
-		tcgplayer: 86270
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274129,
+				tcgplayer: 86270
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
-		}
-	]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274129,
+				tcgplayer: 86270
+			}
+		},
+	],
 }
 
 export default card

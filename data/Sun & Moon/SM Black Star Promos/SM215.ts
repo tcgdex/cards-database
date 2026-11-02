@@ -11,8 +11,8 @@ const card: Card = {
 		de: "Mew"
 	},
 
-	illustrator: undefined,
-	rarity: "Rare",
+	illustrator: "Masakazu Fukuda",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -82,7 +82,22 @@ const card: Card = {
 		},
 	],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "Because it can use all kinds of moves, many scientists believe Mew to be the ancestor of Pokémon.",
+		de: "Es beherrscht alle möglichen Attacken, daher sieht man in ihm den Vorfahren aller Pokémon."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 394707,
+				tcgplayer: 197854
+			}
+		}
+	],
 }
 
 export default card

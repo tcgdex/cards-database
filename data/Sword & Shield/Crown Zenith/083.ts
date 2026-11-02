@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hoopa"
 	},
 
+	illustrator: "Souichirou Gunjima",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -44,20 +45,39 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "It gathers things it likes and passes them through its loop to teleport them to a secret place.",
+		de: "Mithilfe seiner Ringe hortet es Dinge, die ihm gefallen, an einem geheimen Ort. Es teleportiert diese, indem es sie durch seine Ringe bewegt."
 	},
 
-	thirdParty: {
-		cardmarket: 691801,
-		tcgplayer: 478227
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691801,
+				tcgplayer: 478227
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691801,
+				tcgplayer: 478227
+			}
+		},
+	],
 }
 
 export default card

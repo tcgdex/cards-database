@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S8b"
+import { Card } from "../../../interfaces";
+import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "勾帕路翁"
+		ja: "コバルオン",
+		'zh-tw': "勾帕路翁",
 	},
 
 	illustrator: "Kazuma Koda",
@@ -14,43 +14,52 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		'zh-tw': "有著鋼鐵的心靈與身體。當人類傷害寶可夢時，會與夥伴一起制裁人類。"
+		ja: "鋼の 心と 体を 持つ。 人が ポケモンを 傷つけたとき 仲間とともに 人を こらしめた。",
+		'zh-tw': "有著鋼鐵的心靈與身體。當人類傷害寶可夢時，會與夥伴一起制裁人類。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "鐵頭碰"
+	attacks: [
+		{
+			name: {
+				ja: "ヘッドバング",
+				'zh-tw': "鐵頭碰",
+			},
+			damage: 40,
+			cost: ["Metal", "Colorless"],
 		},
-
-		damage: 40,
-		cost: ["Metal", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "金屬斬"
+		{
+			name: {
+				ja: "メタルスラッシュ",
+				'zh-tw': "金屬斬",
+			},
+			damage: 130,
+			cost: ["Metal", "Metal", "Colorless"],
+			effect: {
+				ja: "次の自分の番、このポケモンはワザが使えない。",
+				'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。"
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [{ type: "Grass", value: "-30" }],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 586630,
+				tcgplayer: 571367,
+			},
 		},
-
-		damage: 130,
-		cost: ["Metal", "Metal", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Grass",
-		value: "-30"
-	}],
+	],
 
 	retreat: 2,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "None",
+	dexId: [638],
+};
 
-export default card
+export default card;

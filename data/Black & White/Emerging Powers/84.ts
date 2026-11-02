@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Last Resort",
 				fr: "Dernierecour",
+				de: "Zuflucht"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -55,10 +57,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280049,
-		tcgplayer: 87474
-	}
+	description: {
+		en: "These Pokémon prefer a tidy habitat. They are always sweeping and dusting, using their tails as brooms.",
+		de: "Ein Pokémon mit Putzfimmel. Es benutzt seinen Schweif als Staubwedel und fegt seinen Bau, bis alles picobello ist."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280049,
+				tcgplayer: 87474
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280049,
+				tcgplayer: 87474
+			}
+		},
+	],
 }
 
 export default card

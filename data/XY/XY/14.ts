@@ -97,6 +97,11 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Its Tackle is forceful enough to flip a 50-ton tank. It shields its allies from danger with its own body.",
+		de: "Es ist so stark, dass es selbst 50 t schwere Panzer umkippen kann. Es schützt seine Artgenossen, indem es sich ihnen als Schild anbietet."
+	},
+
 	thirdParty: {
 		cardmarket: 281351,
 		tcgplayer: 84267

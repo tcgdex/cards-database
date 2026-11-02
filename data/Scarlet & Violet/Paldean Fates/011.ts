@@ -55,18 +55,41 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751537,
+				tcgplayer: 534152,
+				cardtrader: 274195
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751537,
+				tcgplayer: 534152,
+				cardtrader: 274195
+			}
+		},
+	],
 
 	illustrator: "Mina Nakai",
 
-	thirdParty: {
-		cardmarket: 751537
-	}
+	description: {
+		en: "Magma of almost 2,200 degrees Fahrenheit courses through its body. When it grows cold, the magma hardens and slows it.",
+		de: "Durch seinen Körper fließt bis zu 1200 ℃ heißes Magma. Wird es kalt, verfestigt sich das Magma und macht das Pokémon träge."
+	},
+
 }
 
 export default card

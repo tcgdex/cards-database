@@ -85,6 +85,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It scatters spores that flicker and glow. Anyone seeing these lights falls into a deep slumber.",
+		de: "Es streut blinkende Sporen aus. Jeder der dieses Licht sieht, schläft fest ein."
+	},
+
 	thirdParty: {
 		cardmarket: 316018,
 		tcgplayer: 157709

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		124,
-	],
+	dexId: [124],
 
 	hp: 70,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Mimikry"
 			},
 			effect: {
-				en: "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent’s hand.",
+				en: "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent's hand.",
 				fr: "Mélangez votre main dans votre deck. Ensuite, piochez un nombre de cartes égal au nombre de cartes de la main de votre adversaire.",
 				de: "Mische deine Handkarten in dein Deck. Zähle danach die Anzahl der Karten auf der Hand deines Gegners und ziehe ebenso viele Karten."
 			},
@@ -55,7 +53,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -72,22 +70,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It rocks its body rhythmically. It appears to alter the rhythm depending on how it is feeling."
+		en: "It rocks its body rhythmically. It appears to alter the rhythm depending on how it is feeling.",
+		de: "Es bewegt seinen Körper rhythmisch hin und her. Seine Gemütslage bestimmt den Rhythmus."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86377,
+				cardmarket: 279041
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86377,
+				cardmarket: 279041
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279041,
-		tcgplayer: 86377
-	}
 }
 
 export default card

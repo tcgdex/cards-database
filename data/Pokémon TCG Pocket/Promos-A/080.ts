@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Stakataka",
-		es: "Stakataka"
+		es: "Stakataka",
+		de: "Muramura"
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -19,7 +20,8 @@ const card: Card = {
 
 	description: {
 		en: "It appeared from an Ultra Wormhole. Each one\nappears to be made up of many life-forms\nstacked one on top of each other.",
-		es: "Surgió de un Ultraumbral. Parece estar compuesto de varias\n criaturas que se han combinado para formar un solo ser."
+		es: "Surgió de un Ultraumbral. Parece estar compuesto de varias\n criaturas que se han combinado para formar un solo ser.",
+		de: "Diese Kreatur kam durch eine Ultrapforte. Sie besteht anscheinend aus mehreren aufeinandergestapelten Wesen."
 	},
 
 	stage: "Basic",
@@ -27,7 +29,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Brass Rock",
-			es: "Brass Rock"
+			es: "Brass Rock",
+			de: "Brass Rock"
 		},
 
 		damage: 40,
@@ -35,7 +38,8 @@ const card: Card = {
 
 		effect: {
 			en: "During your opponent's next turn, this Pokémon takes −20 damage from attacks.",
-			es: "Durante el próximo turno de tu rival, los ataques hacen -20 puntos de daño a este Pokémon."
+			es: "Durante el próximo turno de tu rival, los ataques hacen -20 puntos de daño a este Pokémon.",
+			de: "Während des nächsten Zuges deines Gegners werden diesem Pokémon durch Attacken - 20 Schadenspunkte zugefügt."
 		}
 	}],
 

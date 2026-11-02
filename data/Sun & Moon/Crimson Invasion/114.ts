@@ -88,7 +88,7 @@ const card: Card = {
 				es: "Parásito GX",
 				it: "Parasitus-GX",
 				pt: "Parasita GX",
-				de: "Schmarotzer GX"
+				de: "Schmarotzer-GX"
 			},
 			effect: {
 				en: "Add the top 2 cards of your opponent’s deck to their Prize cards. (You can’t use more than 1 GX attack in a game.)",

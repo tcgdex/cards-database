@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Maractus"
+		en: "Maractus",
+		fr: "Maracachi"
 	},
 
 	illustrator: "Shimaris Yukichi",
@@ -24,14 +25,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Dazzle Dance"
+			en: "Dazzle Dance",
+			fr: "Danse Éblouissante"
 		},
 
 		damage: 40,
 		cost: ["Grass", "Colorless"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Confused."
+			en: "Your opponent's Active Pokémon is now Confused.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus."
 		}
 	}],
 

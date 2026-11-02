@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Rhyhorn",
 		fr: "Rhinocorne",
+		de: "Rihorn"
 	},
 
 	stage: "Stage1",
@@ -96,10 +97,27 @@ const card: Card = {
 
 	retreat: 4,
 
-	thirdParty: {
-		cardmarket: 299569,
-		tcgplayer: 138552
-	}
+	description: {
+		en: "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees Fahrenheit.",
+		de: "Durch seine panzerähnliche Körperhülle kann es in bis zu 2 000 °C heißer Lava leben."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299569,
+				tcgplayer: 138552
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299569,
+				tcgplayer: 138552
+			}
+		},
+	],
 }
 
 export default card

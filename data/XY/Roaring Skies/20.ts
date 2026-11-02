@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [661],
 
 	dexId: [
 		25,
@@ -85,6 +86,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It raises its tail to check its surroundings. The tail is sometimes struck by lightning in this pose.",
+	},
 
 	thirdParty: {
 		cardmarket: 282688,

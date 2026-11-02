@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Tangela",
 		fr: "Saquedeneu",
+		de: "Tangela"
 	},
 
 	stage: "Stage1",
@@ -88,6 +89,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "Its vines grow so profusely that, in the warm season, you can't even see its eyes.",
+		de: "In warmen Jahreszeiten wuchern seine Ranken so dicht, dass man nicht einmal mehr seine Augen erkennt."
+	},
 
 	thirdParty: {
 		cardmarket: 365605,

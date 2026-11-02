@@ -88,7 +88,7 @@ const card: Card = {
 				es: "Estalactita Oceánica GX",
 				it: "Ghiacci Salmastri-GX",
 				pt: "Estalactite de Gelo GX",
-				de: "Eisfinger GX"
+				de: "Eisfinger-GX"
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon. (You can’t use more than 1 GX attack in a game.)",

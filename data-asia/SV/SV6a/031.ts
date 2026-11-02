@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV6a"
+import { Card } from "../../../interfaces";
+import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "索羅亞"
+		ja: "ゾロア",
+		'zh-tw': "索羅亞",
 	},
 
 	illustrator: "Yuu Nishida",
@@ -14,39 +14,52 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		'zh-tw': "會化為人類或其他的寶可夢。 透過隱藏自己原本的面貌， 保護自己不遇危險。"
+		ja: "人や ほかの ポケモンに 化ける。 自分の 正体を 隠すことで 危険から 身を 守っているのだ。",
+		'zh-tw': "會化為人類或其他的寶可夢。 透過隱藏自己原本的面貌， 保護自己不遇危險。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "踩"
+	attacks: [
+		{
+			name: {
+				ja: "ふむ",
+				'zh-tw': "踩",
+			},
+			damage: 10,
+			cost: ["Colorless"],
 		},
-
-		damage: 10,
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "雙重抓"
+		{
+			name: {
+				ja: "ダブルひっかき",
+				'zh-tw': "雙重抓",
+			},
+			damage: "20×",
+			cost: ["Darkness", "Colorless"],
+			effect: {
+				ja: "コインを2回投げ、オモテの数×20ダメージ。",
+				'zh-tw': "擲2次硬幣，造成正面出現的次數×20點傷害。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "擲2次硬幣，造成正面出現的次數×20點傷害。"
+	weaknesses: [{ type: "Grass", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 773780,
+				tcgplayer: 566282,
+			},
 		},
-
-		damage: "20×",
-		cost: ["Darkness", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Grass",
-		value: "×2"
-	}],
+	],
 
 	retreat: 1,
 	regulationMark: "H",
-	rarity: "Common"
-}
+	rarity: "Common",
+	dexId: [570],
+};
 
-export default card
+export default card;

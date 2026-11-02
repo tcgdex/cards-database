@@ -74,18 +74,41 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751541,
+				tcgplayer: 534156,
+				cardtrader: 274199
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751541,
+				tcgplayer: 534156,
+				cardtrader: 274199
+			}
+		},
+	],
 
 	illustrator: "AKIRA EGAWA",
 
-	thirdParty: {
-		cardmarket: 751541
-	}
+	description: {
+		en: "Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pokémon is incredibly loyal.",
+		de: "Es entwickelte sich durch die Rüstung eines heldenhaften Kriegers zu dieser Form. Crimanzo besitzt einen ausgeprägten Sinn für Loyalität."
+	},
+
 }
 
 export default card

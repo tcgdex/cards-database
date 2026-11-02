@@ -18,7 +18,7 @@ const card: Card = {
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -40,7 +40,7 @@ const card: Card = {
 				en: "Does 10 damage times the number of damage counters on Seaking.",
 				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Poissoroy."
 			},
-			damage: "10x"
+			damage: "10×"
 		},
 		{
 			cost: [
@@ -58,15 +58,25 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "20+"
-		}
+			value: "+20"
+		},
 	],
 
 	description: {
 		en: "It makes its nest by hollowing out boulders in streams with its horn. It defends its eggs with its life."
 	},
 
-	retreat: 1
+	retreat: 1,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278022,
+				tcgplayer: 89027
+			}
+		},
+	],
+
 }
 
 export default card

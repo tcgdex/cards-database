@@ -93,6 +93,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people.",
+		de: "Dieses Pokémon wird oftmals mit einem Pokéball verwechselt. Es lebt vorwiegend in Kraftwerken."
+	},
+
 	thirdParty: {
 		cardmarket: 361294,
 		tcgplayer: 170864

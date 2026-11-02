@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Trapinch",
 		fr: "Kraknoix",
+		de: "Knacklion"
 	},
 
 	stage: "Stage1",
@@ -83,6 +84,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It vibrates its wings to generate ultrasonic waves, causing its prey to faint. Then it buries the prey alive in the sand to preserve it.",
+		de: "Durch die Vibration seiner Flügel erzeugt es Ultraschallwellen. Es vergräbt bewusstlose Beute im Sand, um sie zu konservieren."
+	},
 
 	thirdParty: {
 		cardmarket: 408194,

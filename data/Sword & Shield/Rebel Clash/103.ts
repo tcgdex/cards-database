@@ -58,23 +58,30 @@ const card: Card = {
 	types: ["Fighting"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "After two Binacle find a suitably sized rock, they adhere themselves to it and live together. They cooperate to gather food during high tide."
+		en: "After two Binacle find a suitably sized rock, they adhere themselves to it and live together. They cooperate to gather food during high tide.",
+		de: "Zwei Exemplare hängen sich an einen passenden Felsen in Küstennähe, um dort zu leben. Bei Flut sammeln sie gemeinsam Nahrung."
 	},
 
-	thirdParty: {
-		cardmarket: 457928,
-		tcgplayer: 213191
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457928,
+				tcgplayer: 213191
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457928,
+				tcgplayer: 213191
+			}
+		},
+	],
 }
 
 export default card

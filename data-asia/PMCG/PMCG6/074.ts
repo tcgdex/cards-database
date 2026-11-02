@@ -4,10 +4,11 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "Imakuni？ 's doduo",
+		ja: "イマクニ？のドードー",
 	},
+	illustrator: "Tomoaki Imakuni",
 
-	rarity: "Hyper Rare",
+	rarity: "Hyper rare",
 	category: "Pokemon",
 	dexId: [84],
 	hp: 50,
@@ -42,6 +43,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575361
+			},
 		},
 	],
 };

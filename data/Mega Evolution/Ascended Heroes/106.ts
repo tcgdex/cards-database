@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Whisker",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [338],
 	hp: 110,
 	types: ["Fighting"],
 	stage: "Basic",
@@ -47,13 +48,46 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675918,
-		cardmarket: 869717
-	}
+	description: {
+		en: "Solar energy is the source of its power, so it is strong during the daytime. When it spins, its body shines.",
+		fr: "Tirant sa force de l'énergie solaire, il est particulièrement puissant pendant la journée. Il s'illumine quand il tourne.",
+		de: "Da es seine Energie aus Sonnenlicht gewinnt, ist es tagsüber am stärksten. Wenn es sich dreht, leuchtet es."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869717,
+			tcgplayer: 675918
+		}
+	},
+	{
+		type: "reverse",
+		foil: "duskball",
+		thirdParty: {
+			cardmarket: 870308,
+			tcgplayer: 676938
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870307,
+			tcgplayer: 677078
+		}
+	},
+],
 }
 
 export default card

@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Cacnea",
-		fr: "Cacnea"
+		fr: "Cacnea",
+		de: "Tuska"
 	},
 
 	stage: "Stage1",
@@ -63,14 +64,30 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "DOM",
+
+	description: {
+		en: "Packs of them follow travelers through the desert until the travelers can no longer move.",
+		de: "Gruppen von Noktuska folgen Reisenden in der Wüste und warten, bis diese vor Erschöpfung bewegungsunfähig werden."
+	},
 
 	thirdParty: {
         cardmarket: 702303,

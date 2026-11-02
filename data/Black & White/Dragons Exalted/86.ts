@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Gnaw",
 				fr: "Ronge",
+				de: "Nagen"
 			},
 
 			damage: 20,
@@ -65,10 +67,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280525,
-		tcgplayer: 85702
-	}
+	description: {
+		en: "It attacks using its huge mouth. While its attacks are powerful, it hurts itself out of clumsiness, too.",
+		de: "Greift mit seinem riesigen Maul an. Obwohl seine Angriffe mächtig sind, verletzt es sich dabei auch selbst."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280525,
+				tcgplayer: 85702
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280525,
+				tcgplayer: 85702
+			}
+		},
+	],
 }
 
 export default card

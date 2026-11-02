@@ -22,7 +22,7 @@ const card: Card = {
 		es: "El Pokémon Básico al que esté unida esta carta obtiene 40 PS más y sus ataques hacen 10 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 		it: "Il Pokémon Base a cui è assegnata questa carta ha 40 PS in più e i suoi attacchi infliggono 10 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
 		pt: "O Pokémon Básico ao qual este card está ligado recebe +40 PS e os seus ataques causam 10 de danos adicionais ao Pokémon Ativo do seu oponente (antes da aplicação de Fraqueza e Resistência)",
-		de: "Das Basis-Pokémon, an das diese Karte angelegt ist, erhält 40 zusätzliche KP und seine Angriffe fügen dem Aktiven Pokémon deines Gegners 10 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Das Basis-Pokémon, an das diese Karte angelegt ist, erhält 40 zusätzliche KP und seine Angriffe fügen dem Aktiven Pokémon deines Gegners 10 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden). Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

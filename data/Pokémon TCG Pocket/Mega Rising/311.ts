@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Alolan Diglett"
+		en: "Alolan Diglett",
+		fr: "Taupiqueur d'Alola"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -17,14 +18,16 @@ const card: Card = {
 	types: ["Metal"],
 
 	description: {
-		en: "The metal-rich geology of this Pokémon's habitat\ncaused it to develop steel whiskers on its head."
+		en: "The metal-rich geology of this Pokémon's habitat\ncaused it to develop steel whiskers on its head.",
+		fr: "À force d'être en contact avec des terres riches en métaux, des vibrisses en acier ont poussé sur le sommet de sa tête."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Headbutt"
+			en: "Headbutt",
+			fr: "Coup d'Boule"
 		},
 
 		damage: 20,

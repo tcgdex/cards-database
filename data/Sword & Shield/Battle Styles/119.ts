@@ -71,23 +71,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Drampa is a kind and friendly Pokémon—up until it's angered. When that happens, it stirs up a gale and flattens everything around."
+		en: "Drampa is a kind and friendly Pokémon—up until it's angered. When that happens, it stirs up a gale and flattens everything around.",
+		de: "Ein zutrauliches und gutmütiges Pokémon. Wird es jedoch wütend, beschwört es heftige Stürme herauf, die alles und jeden davonfegen."
 	},
 
-	thirdParty: {
-		cardmarket: 545761,
-		tcgplayer: 234163
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545761,
+				tcgplayer: 234163
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545761,
+				tcgplayer: 234163
+			}
+		},
+	],
 }
 
 export default card

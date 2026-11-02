@@ -86,6 +86,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They form groups of roughly 20 individuals. Their mutual bond is remarkable—they will never let down a comrade.",
+		de: "Es gründet Gruppen von etwa 20 Exemplaren. Der Zusammenhalt der Gruppe ist extrem stark, kein Kamerad wird jemals im Stich gelassen."
+	},
+
 	thirdParty: {
 		cardmarket: 295384,
 		tcgplayer: 126945

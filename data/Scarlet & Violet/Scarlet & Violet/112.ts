@@ -57,8 +57,18 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		holo: false
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
+
+	description: {
+		en: "They communicate with one another using their auras. They are able to run all through the night.",
+		de: "Dieses Pokémon nutzt seine Aura, um mit seinen Artgenossen zu kommunizieren. Es kann eine ganze Nacht lang laufen."
 	},
 
 	thirdParty: {

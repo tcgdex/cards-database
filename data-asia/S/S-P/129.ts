@@ -1,47 +1,52 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "冰伊布V"
+		ja: "メッソン",
+		'zh-tw': "冰伊布V",
 	},
 
-	illustrator: "PLANETA Yamashita",
+	illustrator: "Megumi Mizutani",
 	category: "Pokemon",
-	hp: 210,
+	hp: 60,
 	types: ["Water"],
+
+	description: {
+		ja: "怯えると 玉ねぎ１００個分の 催涙成分を もつ 涙を 流して もらい泣き させる。",
+	},
+
 	stage: "Basic",
-	suffix: "V",
 
-	attacks: [{
-		name: {
-			'zh-tw': "冰霜充能"
+	attacks: [
+		{
+			name: {
+				ja: "みずでっぽう",
+				'zh-tw': "冰霜充能",
+			},
+			damage: 20,
+			cost: ["Water"],
 		},
+	],
 
-		effect: {
-			'zh-tw': "從自己的牌庫選擇1張【水】能量卡，附於這隻寶可夢身上。並且重洗牌庫。"
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 525330,
+				tcgplayer: 597330,
+			},
 		},
+	],
 
-		damage: 30,
-		cost: ["Water"]
-	}, {
-		name: {
-			'zh-tw': "凍凝之風"
-		},
+	retreat: 1,
+	regulationMark: "D",
+	rarity: "Promo",
+	dexId: [816],
+};
 
-		damage: 130,
-		cost: ["Water", "Water", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Metal",
-		value: "×2"
-	}],
-
-	retreat: 2,
-	regulationMark: "F"
-}
-
-export default card
+export default card;

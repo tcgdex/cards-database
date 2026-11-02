@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If Skarmory has any Metal Energy attached to it, the Retreat Cost for Skarmory is 0.",
-				fr: "Si Airmure possède une Énergie , son Coût de retraite est de 0.",
+				fr: "Si Airmure possède une Énergie {M}, son Coût de retraite est de 0.",
 				de: "If Skarmory has nay  Energy attached to it, the Retreat Cost for Skarmory is 0."
 			},
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin for each Metal Energy attached to Skarmory. This attack does 10 damage plus 20 more damage for each heads.",
-				fr: "Lancez une pièce pour chaque Énergie  attachée à Airmure. Cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires multipliés par le nombre de faces.",
+				fr: "Lancez une pièce pour chaque Énergie {M} attachée à Airmure. Cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires multipliés par le nombre de faces.",
 				de: "Flip a coin for each  Energy attached to Skarmory. This attack does 10 damage plus 20 more danage for each heads."
 			},
 			damage: "10+",
@@ -95,20 +95,25 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 89238,
-		cardmarket: 276429
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 89238,
+				cardmarket: 276429
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
-		}
-	]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 89238,
+				cardmarket: 276429
+			},
+		},
+	],
+
 }
 
 export default card

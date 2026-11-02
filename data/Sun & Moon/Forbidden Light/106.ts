@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Mueve 1 Energía Especial de 1 de los Pokémon de tu rival a otro de sus Pokémon.",
 		it: "Sposta un’Energia speciale da uno dei Pokémon del tuo avversario a un altro dei suoi Pokémon.",
 		pt: "Mova 1 Energia Especial de 1 dos Pokémon do seu oponente para outro Pokémon dele(a).",
-		de: "Verschiebe 1 Spezial-Energie von 1 Pokémon deines Gegners auf 1 anderes seiner Pokémon."
+		de: "Verschiebe 1 Spezial-Energie von 1 Pokémon deines Gegners auf 1 anderes seiner Pokémon. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

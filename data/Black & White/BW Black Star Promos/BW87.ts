@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Leafeon",
 		fr: "Phyllali",
 	},
-	illustrator: "Illus.＆Direc.The Pokémon Company Art Team",
+	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
 	rarity: "Common",
 	category: "Pokemon",
 
@@ -74,6 +74,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It basically does not fight. With cells similar to those of plants, it can perform photosynthesis.",
+	},
 }
 
 export default card

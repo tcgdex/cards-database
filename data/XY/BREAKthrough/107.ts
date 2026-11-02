@@ -98,6 +98,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When the horns on its head shine in seven different colors, it is said to be sharing everlasting life.",
+		de: "Es heißt, dieses Pokémon spende ewiges Leben, sobald das Geweih auf seinem Haupt in sieben verschiedenen Farben leuchtet."
+	},
+
 	thirdParty: {
 		cardmarket: 286353,
 		tcgplayer: 107226

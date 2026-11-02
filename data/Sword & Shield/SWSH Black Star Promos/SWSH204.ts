@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Arceus V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Colorless"],
@@ -56,12 +56,23 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
-
-	thirdParty: {
-		cardmarket: 652086
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 652086,
+				tcgplayer: 271837
+			}
+		},
+	],
 }
 
 export default card

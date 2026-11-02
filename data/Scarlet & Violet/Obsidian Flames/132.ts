@@ -48,18 +48,42 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It is smart enough to hunt in packs. It uses a variety of cries for communicating with others.",
+		de: "Es ist intelligent genug, um bei der Jagd über eine ganze Reihe von Rufen mit seinem Rudel zu kommunizieren."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725212,
+				tcgplayer: 509891,
+				cardtrader: 255817
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725212,
+				tcgplayer: 509891,
+				cardtrader: 255817
+			}
+		},
+	],
 
 	illustrator: "Kurata So",
 
-	thirdParty: {
-		cardmarket: 725212
-	}
+	
 }
 
 export default card

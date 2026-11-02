@@ -22,22 +22,23 @@ const card: Card = {
 		es: "Descarta 1 Energía Especial de cada uno de los Pokémon de tu rival.",
 		pt: "Descarte uma Energia Especial de cada um dos Pokémon do seu oponente.",
 		it: "Scarta un'Energia speciale da ciascuno dei Pokémon del tuo avversario.",
-		de: "Lege 1 Spezial-Energie von jedem Pokémon deines Gegners auf seinen Ablagestapel."
+		de: "Lege 1 Spezial-Energie von jedem Pokémon deines Gegners auf seinen Ablagestapel. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "G",
 
-	variants: {
-		holo: true,
-		normal: false
-	},
-
 	illustrator: "GOSSAN",
 
-	thirdParty: {
-		cardmarket: 805532
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 805532,
+				tcgplayer: 610493
+			}
+		},
+	],
 }
 
 export default card

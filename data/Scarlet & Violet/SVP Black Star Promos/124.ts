@@ -4,6 +4,8 @@ import Set from "../SVP Black Star Promos"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [81],
+
 	name: {
 		en: "Iono",
 		fr: "Mashynn",
@@ -13,7 +15,7 @@ const card: Card = {
 		de: "Enigmara"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Trainer",
 
 	effect: {
@@ -27,7 +29,16 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	regulationMark: "G",
-	illustrator: "yuu"
+	illustrator: "yuu",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 751836,
+				tcgplayer: 545661
+			},
+		}
+	],
 }
 
 export default card

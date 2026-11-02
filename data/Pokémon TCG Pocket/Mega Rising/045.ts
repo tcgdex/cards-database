@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Litleo"
+		en: "Litleo",
+		fr: "Hélionceau"
 	},
 
 	illustrator: "Misa Tsutsui",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Live Coal"
+			en: "Live Coal",
+			fr: "Charbon Mutant"
 		},
 
 		damage: 20,

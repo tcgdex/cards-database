@@ -71,7 +71,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		fr: "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de ZARBI est apparu en premier."
+		en: "Shaped like an ancient writing, it is a huge mystery whether language or Unown came first.",
+		fr: "Il rappelle une écriture ancienne. Reste à savoir qui du langage ou de ZARBI est apparu en premier.",
+		de: "Seine Form sieht aus wie antike Schrift. Was war zuerst da? Die Sprache oder ICOGNITO?"
 	},
 
 	variants: [

@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Venonat",
-		fr: "Mimitoss"
+		fr: "Mimitoss",
+		de: "Bluzuk"
 	},
 
 	stage: "Stage1",
@@ -67,7 +68,7 @@ const card: Card = {
 				es: "Retribución Diez Cartas GX",
 				it: "Ritorno da Dieci GX",
 				pt: "Retorno de Dez Cartas GX",
-				de: "Zehner GX"
+				de: "Zehner-GX"
 			},
 			effect: {
 				en: "Shuffle your hand into your deck. Then, draw 10 cards. (You can’t use more than 1 GX attack in a game.)",

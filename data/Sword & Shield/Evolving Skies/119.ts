@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Drampa",
@@ -66,15 +60,28 @@ const card: Card = {
 	dexId: [780],
 
 	description: {
-		en: "Drampa is a kind and friendly Pokémon—up until it's angered. When that happens, it stirs up a gale and flattens everything around."
+		en: "Drampa is a kind and friendly Pokémon—up until it's angered. When that happens, it stirs up a gale and flattens everything around.",
+		de: "Ein zutrauliches und gutmütiges Pokémon. Wird es jedoch wütend, beschwört es heftige Stürme herauf, die alles und jeden davonfegen."
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574167,
-		tcgplayer: 246917
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574167,
+				tcgplayer: 246917
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574167,
+				tcgplayer: 246917
+			}
+		},
+	],
 }
 
 export default card

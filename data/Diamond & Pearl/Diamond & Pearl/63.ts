@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Wurmple",
 		fr: "Chenipotte",
+		de: "Waumpel"
 	},
 
 	stage: "Stage1",
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" kann das Verteidigende Pokémon im nächsten Zug deines Gegners nicht angreifen."
+				de: "Wirf 1 Münze. Bei „Kopf“ kann das Verteidigende Pokémon im nächsten Zug deines Gegners nicht angreifen."
 			},
 			damage: 20,
 
@@ -77,7 +78,9 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		fr: "Il s'accroche en enroulant sa soie autour des branches. Il reste immobile en attendant d'évoluer."
+		en: "It anchors itself by wrapping twigs with the silk from its body. It motionlessly awaits evolution.",
+		fr: "Il s'accroche en enroulant sa soie autour des branches. Il reste immobile en attendant d'évoluer.",
+		de: "Es bindet sich mit Seidenfäden an Ästen fest und wartet so starr auf seine Entwicklung."
 	},
 
 	thirdParty: {

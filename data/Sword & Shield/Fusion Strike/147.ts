@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 60,
 	types: ["Fighting"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "tetsuya koizumi",
 
 	description: {
-		en: "It's a digger, using its claws to burrow through the ground. It causes damage to vegetable crops, so many farmers have little love for it."
+		en: "It's a digger, using its claws to burrow through the ground. It causes damage to vegetable crops, so many farmers have little love for it.",
+		de: "Ein Pokémon, das sich bei Landwirten mäßiger Beliebtheit erfreut, da es beim Graben durchs Erdreich gelegentlich ihre Ernten ruiniert."
 	},
 
 	attacks: [{
@@ -42,17 +49,23 @@ const card: Card = {
 		damage: 20
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582775,
-		tcgplayer: 253361
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582775,
+				tcgplayer: 253361
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582775,
+				tcgplayer: 253361
+			}
+		},
+	],
 }
 
 export default card

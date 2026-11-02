@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Zapdos"
 	},
 	illustrator: "Hitoshi Ariga",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -86,6 +86,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "A legendary bird Pokémon that is said to appear from clouds while dropping enormous lightning bolts.",
+		de: "Ein Legendäres Vogel-Pokémon, das im Sturzflug aus den Wolken bricht und Blitze schleudert."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 366052,
+				tcgplayer: 180521
+			}
+		}
+	],
 }
 
 export default card

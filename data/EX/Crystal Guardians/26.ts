@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Pelipper δ",
 		fr: "Bekipan δ",
-		de: "Pelipper"
+		de: "Pelipper δ"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wingull",
-		fr: "Goélise"
+		fr: "Goélise",
+		de: "Wingull"
 	},
 
 	stage: "Stage1",

@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Latios"
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -88,6 +88,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting.",
+		de: "Es ist hochintelligent und versteht sogar die menschliche Sprache. Es ist friedlich und meidet Konflikte."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 364064,
+				tcgplayer: 175563
+			}
+		}
+	],
 }
 
 export default card

@@ -1,52 +1,33 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "皮卡丘"
+		ja: "ウカッツ",
+		'zh-tw': "皮卡丘",
 	},
 
-	illustrator: "Kagemaru Himeno",
-	category: "Pokemon",
-	hp: 70,
-	types: ["Lightning"],
+	illustrator: "Hitoshi Ariga",
+	category: "Trainer",
 
-	description: {
-		'zh-tw': "最近發表了聚集大量皮卡丘來建造發電廠的計畫。"
+	effect: {
+		ja: "自分の山札から「めずらしい化石」を2枚まで選び、ベンチに出す。そして山札を切る。",
 	},
 
-	stage: "Basic",
-
-	attacks: [{
-		name: {
-			'zh-tw': "電光一閃"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 525115,
+				tcgplayer: 597288,
+			},
 		},
+	],
 
-		damage: 10,
-		cost: ["Lightning"]
-	}, {
-		name: {
-			'zh-tw': "電球"
-		},
+	trainerType: "Supporter",
+	regulationMark: "D",
+	rarity: "Promo",
+};
 
-		damage: 60,
-		cost: ["Lightning", "Lightning", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Metal",
-		value: "-20"
-	}],
-
-	retreat: 1,
-	regulationMark: "C"
-}
-
-export default card
+export default card;

@@ -57,6 +57,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They can't swim well yet, and they move much faster by rolling. When they're happy, they clap fins.",
+	},
+
 	thirdParty: {
 		cardmarket: 273576,
 		tcgplayer: 95944

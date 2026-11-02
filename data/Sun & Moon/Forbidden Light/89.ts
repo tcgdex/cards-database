@@ -92,6 +92,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It inserts its horn into chinks in metal, absorbing metal ions. For some reason, it collects keys.",
+		de: "Seinen Fortsatz steckt es gerne in metallene Zwischenräume, um Metall-Ionen abzusaugen. Sammelt aus unerfindlichen Gründen Schlüssel."
+	},
+
 	thirdParty: {
 		cardmarket: 355603,
 		tcgplayer: 165747

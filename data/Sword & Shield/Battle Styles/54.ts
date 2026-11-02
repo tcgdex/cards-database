@@ -55,23 +55,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Because Galarian Slowpoke eat the seeds of a plant that grows only in Galar, their tails have developed a spicy flavor."
+		en: "Because Galarian Slowpoke eat the seeds of a plant that grows only in Galar, their tails have developed a spicy flavor.",
+		de: "Seine Nahrung aus Samen von Pflanzen, die nur in der Galar-Region wachsen, verleiht seiner Rute einen würzig-pikanten Geschmack."
 	},
 
-	thirdParty: {
-		cardmarket: 545381,
-		tcgplayer: 234212
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545381,
+				tcgplayer: 234212
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545381,
+				tcgplayer: 234212
+			}
+		},
+	],
 }
 
 export default card

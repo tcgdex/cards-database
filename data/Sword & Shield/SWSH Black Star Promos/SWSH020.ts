@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hideki Ishikawa",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Lightning"],
@@ -68,18 +68,17 @@ const card: Card = {
 	stage: "Basic",
 	dexId: [25],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 461594
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 461594,
+				tcgplayer: 214241
+			}
+		},
+	],
 }
 
 export default card

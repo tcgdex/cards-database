@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Slurpuff"
+		en: "Slurpuff",
+		fr: "Cupcanaille"
 	},
 
 	illustrator: "Mizue",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Swirlix"
+		en: "Swirlix",
+		fr: "Sucroquin"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Draining Kiss"
+			en: "Draining Kiss",
+			fr: "Vampibaiser"
 		},
 
 		damage: 50,
 		cost: ["Psychic", "Colorless"],
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon."
+			en: "Heal 30 damage from this Pokémon.",
+			fr: "Soignez 30 dégâts de ce Pokémon."
 		}
 	}],
 

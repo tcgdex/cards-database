@@ -4,7 +4,7 @@ import Set from '../Emerald'
 const card: Card = {
 	name: {
 		en: "Manectric",
-		fr: "Elecsprint",
+		fr: "Élecsprint",
 		de: "Voltenso"
 	},
 
@@ -89,12 +89,20 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87157,
+				cardmarket: 276527
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 87157,
+				cardmarket: 276527
+			},
 		}
-	]
+	],
 }
 
 export default card

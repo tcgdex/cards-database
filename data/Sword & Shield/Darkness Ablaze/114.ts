@@ -60,7 +60,7 @@ const card: Card = {
 				es: "Pon 2 Energías Darkness unidas a este Pokémon en tu mano.",
 				it: "Prendi due Energie Darkness assegnate a questo Pokémon e aggiungile alle carte che hai in mano.",
 				pt: "Coloque 2 Energias Darkness ligadas a este Pokémon na sua mão.",
-				de: "Nimm 2 an dieses Pokémon angelegte Darkness-Energien auf deine Hand."
+				de: "Nimm 2 an dieses Pokémon angelegte {D}-Energien auf deine Hand."
 			},
 			damage: 200,
 
@@ -77,20 +77,19 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 483449,
-		tcgplayer: 219428
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 483449,
+				tcgplayer: 219428
+			}
+		},
+	],
 }
 
 export default card

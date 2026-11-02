@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Zorua",
 		fr: "Zorua",
+		de: "Zorua"
 	},
 
 	stage: "Stage1",
@@ -98,6 +99,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.",
+		de: "Seit jeher beschützt es das Rudel, indem es die Gestalt des Feindes annimmt. Es ist sehr loyal zu seinen Artgenossen."
+	},
 
 	thirdParty: {
 		cardmarket: 369021,

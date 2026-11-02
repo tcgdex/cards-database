@@ -48,22 +48,40 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "The protrusion on its head is very hard. It is used for bashing through thick ice.",
+		fr: "La corne sur son front est très résistante. Elle lui sert à se frayer un chemin à travers les icebergs.",
+		de: "Dieses Pokémon verfügt über ein sehr hartes Horn. Mit Kopfstößen durchbricht es Eismassen in seinem Weg."
+	},
+
+	illustrator: "svlt",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857596,
+				tcgplayer: 662226,
+				cardtrader: 356804
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857596,
-		tcgplayer: 662226
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857596,
+				tcgplayer: 662226,
+				cardtrader: 356804
+			}
+		},
+	],	
 }
 
 export default card

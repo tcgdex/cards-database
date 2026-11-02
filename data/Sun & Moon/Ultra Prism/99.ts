@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gabite",
 		fr: "Carmache",
+		de: "Knarksel"
 	},
 
 	stage: "Stage2",
@@ -92,6 +93,11 @@ const card: Card = {
 	],
 
 	retreat: 0,
+
+	description: {
+		en: "The protuberances on its head serve as sensors. It can even detect distant prey.",
+		de: "Die beiden Fortsätze an seinem Kopf haben die Funktion eines Sensors. Mit ihnen kann es auch weit entfernte Beute aufspüren."
+	},
 
 	thirdParty: {
 		cardmarket: 316025,

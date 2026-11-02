@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Vipitis"
 	},
 
+	illustrator: "Tomokazu Komiya",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
@@ -38,7 +39,7 @@ const card: Card = {
 			es: "Cambia este Pokémon por 1 de tus Pokémon Darkness en Banca.",
 			it: "Scambia questo Pokémon con uno dei Pokémon Darkness della tua panchina.",
 			pt: "Troque este Pokémon por 1 dos seus Pokémon Darkness no Banco.",
-			de: "Tausche dieses Pokémon gegen 1 Darkness-Pokémon auf deiner Bank aus."
+			de: "Tausche dieses Pokémon gegen 1 {D}-Pokémon auf deiner Bank aus."
 		},
 
 		damage: 60
@@ -47,16 +48,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674129,
-		tcgplayer: 284015
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674129,
+				tcgplayer: 284015
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674129,
+				tcgplayer: 284015
+			}
+		},
+	],
 }
 
 export default card

@@ -4,12 +4,6 @@ import Set from '../Celebrations'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Mew",
@@ -77,15 +71,21 @@ const card: Card = {
 	regulationMark: "E",
 
 	description: {
-		en: "Its DNA is said to contain the genetic codes of all Pokémon, so it can use all kinds of techniques."
+		en: "Its DNA is said to contain the genetic codes of all Pokémon, so it can use all kinds of techniques.",
+		de: "Seine DNS soll den genetischen Code aller Pokémon beinhalten. Dadurch kann es alle Attacken erlernen."
 	},
 
 	dexId: [151],
 
-	thirdParty: {
-		cardmarket: 576756,
-		tcgplayer: 250295
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 576770,
+				tcgplayer: 250295
+			}
+		},
+	],
 }
 
 export default card

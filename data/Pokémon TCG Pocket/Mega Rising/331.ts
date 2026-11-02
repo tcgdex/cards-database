@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Flame Patch"
+		en: "Flame Patch",
+		fr: "Fortifiant Flamboyant"
 	},
 
 	illustrator: "Studio Bora Inc.",
@@ -13,7 +14,8 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Attach a {R} Energy from your discard pile to your Active {R} Pokémon."
+		en: "Attach a {R} Energy from your discard pile to your Active {R} Pokémon.",
+		fr: "Attachez une Énergie {R} de votre pile de défausse à votre Pokémon {R} sur le Poste Actif."
 	},
 
 	trainerType: "Item",

@@ -96,6 +96,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "This legendary Pokémon can scorch the world with lightning. It assists those who want to build an ideal world.",
+		de: "Ein Legendäres Pokémon mit der Macht, die Welt durch Donner einzuäschern. Hilft allen, die einer Welt der Wünsche harren."
+	},
+
 	thirdParty: {
 		cardmarket: 302173,
 		tcgplayer: 146692

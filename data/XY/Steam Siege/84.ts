@@ -79,6 +79,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Lacking sight, it's unaware of its surroundings, so it bumps into things and eats anything that moves.",
+		de: "Da es nichts sehen kann, rammt und frisst es alles, was ihm auf dem Weg in die Quere kommt."
+	},
+
 	thirdParty: {
 		cardmarket: 291645,
 		tcgplayer: 121210

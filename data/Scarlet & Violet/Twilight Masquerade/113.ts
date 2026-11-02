@@ -57,18 +57,39 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Poochyena pursue their prey in packs. Once the prey is exhausted, the pack finishes it off. But sometimes the prey retaliates, and the pack flees.",
+		de: "Es jagt Beute im Rudel nach. Ist diese erschöpft, bringt es sie zur Strecke. Stößt Fiffyen jedoch auf Widerstand, ergreift es auch mal die Flucht."
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769287,
+				tcgplayer: 550157
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769287,
+				tcgplayer: 550157
+			}
+		},
+	],
 
 	illustrator: "Shibuzoh.",
 
-	thirdParty: {
-		cardmarket: 769287
-	}
 }
 
 export default card

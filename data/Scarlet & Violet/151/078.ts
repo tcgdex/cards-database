@@ -72,18 +72,42 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The fastest runner becomes the leader, and it decides the herd's pace and direction of travel.",
+		de: "Das schnellste Exemplar wird zum Anführer bestimmt und gibt als solcher den Zielort und die Geschwindigkeit der Herde vor."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733673,
+				tcgplayer: 516607,
+				cardtrader: 261211
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733673,
+				tcgplayer: 516607,
+				cardtrader: 261211
+			}
+		},
+	],
 
 	illustrator: "Nurikabe",
 
-	thirdParty: {
-		cardmarket: 733673
-	}
+	
 }
 
 export default card

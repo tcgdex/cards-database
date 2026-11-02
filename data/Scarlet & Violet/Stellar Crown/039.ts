@@ -35,18 +35,34 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 785893,
+				tcgplayer: 567265
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 785893,
+				tcgplayer: 567265
+			}
+		},
+	],
 
 	illustrator: "MINAMINAMI Take",
 
-	thirdParty: {
-		cardmarket: 785893
-	}
 }
 
 export default card

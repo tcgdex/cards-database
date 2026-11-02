@@ -22,21 +22,34 @@ const card: Card = {
 		es: "Pon 1 Energía unida al Pokémon Activo de tu rival en la parte superior de su baraja.",
 		it: "Prendi un'Energia assegnata al Pokémon attivo del tuo avversario e mettila in cima al suo mazzo.",
 		pt: "Coloque uma Energia ligada ao Pokémon Ativo do seu oponente como a carta de cima do baralho dele.",
-		de: "Lege 1 an das Aktive Pokémon deines Gegners angelegte Energie auf sein Deck."
+		de: "Lege 1 an das Aktive Pokémon deines Gegners angelegte Energie auf sein Deck. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725275,
+				tcgplayer: 509787,
+				cardtrader: 256091
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725275,
+				tcgplayer: 509787,
+				cardtrader: 256091
+			}
+		},
+	],
 
 	illustrator: "nagimiso",
 
-	thirdParty: {
-		cardmarket: 725275
-	}
+	
 }
 
 export default card

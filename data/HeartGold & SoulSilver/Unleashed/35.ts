@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		322,
-	],
+	dexId: [322],
 
 	hp: 60,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Discard a Fire Energy card from your hand. Then, draw 3 cards.",
 				fr: "Défaussez une carte Énergie Fire de votre main. Ensuite, piochez 3 cartes.",
-				de: "Lege 1 -Energiekarte von deiner Hand auf deinen Ablagestapel. Ziehe danach 3 Karten."
+				de: "Lege 1 {R}-Energiekarte von deiner Hand auf deinen Ablagestapel. Ziehe danach 3 Karten."
 			},
 
 		},
@@ -69,22 +67,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The flaming magma it stores in the hump on its back is the source of its tremendous power."
+		en: "The flaming magma it stores in the hump on its back is the source of its tremendous power.",
+		de: "Das heiße Magma in seinem Höcker dient ihm als Energiereserve und verleiht ihm enorme Stärke."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87816,
+				cardmarket: 279191
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87816,
+				cardmarket: 279191
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279191,
-		tcgplayer: 87816
-	}
 }
 
 export default card

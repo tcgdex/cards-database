@@ -19,6 +19,16 @@ const card: Card = {
 		ja: "自分の手札を2枚選び、好きな順番に入れ替えて、山札の下にもどす。その後、山札を4枚引く。（自分の手札を2枚もどせないなら、このカードは使えない。）"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 779113,
+				tcgplayer: 567954,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "H",
 	rarity: "Uncommon"

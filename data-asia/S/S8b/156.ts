@@ -1,22 +1,40 @@
-import { Card } from "../../../interfaces"
-import Set from "../S8b"
+import { Card } from "../../../interfaces";
+import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "皮歐尼"
+		ja: "ピオニー",
+		'zh-tw': "皮歐尼",
 	},
 
 	illustrator: "Ken Sugimori",
 	category: "Trainer",
 
 	effect: {
-		'zh-tw': "將自己的手牌全部丟棄，從自己的牌庫選擇最多2張訓練家卡，在給對手看過後加入手牌。並且重洗牌庫。"
+		ja: "自分の手札をすべてトラッシュし、自分の山札からトレーナーズを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
+		'zh-tw': "將自己的手牌全部丟棄，從自己的牌庫選擇最多2張訓練家卡，在給對手看過後加入手牌。並且重洗牌庫。",
 	},
 
-	trainerType: "Supporter",
-	regulationMark: "E"
-}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 586672,
+				tcgplayer: 571409,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 578436,
+			},
+		},
+	],
 
-export default card
+	trainerType: "Supporter",
+	regulationMark: "E",
+	rarity: "None",
+};
+
+export default card;

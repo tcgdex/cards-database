@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "kodama",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Colorless"],
@@ -73,18 +73,25 @@ const card: Card = {
 	stage: "Basic",
 	dexId: [249],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 516344
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 516344,
+				tcgplayer: 224364
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				tcgplayer: 224363
+			}
+		},
+	],
 }
 
 export default card

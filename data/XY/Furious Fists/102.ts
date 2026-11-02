@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cada Pokémon de Fase 1 y de Fase 2 en juego (tanto tuyos como de tu rival) obtiene 30 PS más.",
 		it: "Tutti i Pokémon di Fase 1 e di Fase 2 in gioco, sia tuoi che del tuo avversario, hanno 30 PS in più.",
 		pt: "Cada Pokémon Estágio 1 e Estágio 2 em jogo (seu e do seu oponente) recebe +30 PS.",
-		de: "Jedes Phase-1- und Phase-2-Pokémon im Spiel (deine und die deines Gegners) erhält +30 KP."
+		de: "Jedes Phase-1- und Phase-2-Pokémon im Spiel (deine und die deines Gegners) erhält +30 KP. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

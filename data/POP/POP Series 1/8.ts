@@ -4,7 +4,8 @@ import Set from '../POP Series 1'
 const card: Card = {
 	name: {
 		en: "Murkrow",
-		fr: "Cornèbre"
+		fr: "Cornèbre",
+		de: "Kramurx"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -12,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		198,
-	],
+	dexId: [198],
 
 	hp: 60,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -29,11 +28,13 @@ const card: Card = {
 			type: "Poke-BODY",
 			name: {
 				en: "Insomnia",
-				fr: "Insomnie"
+				fr: "Insomnie",
+				de: "Schlaflosigkeit"
 			},
 			effect: {
-				en: "Murkrow can’t be Asleep.",
-				fr: "Cornèbre ne peut pas être Endormi."
+				en: "Murkrow can't be Asleep.",
+				fr: "Cornèbre ne peut pas être Endormi.",
+				de: "Kramurx kann nicht in Schlaf versetzt werden."
 			},
 		},
 	],
@@ -46,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Feint Attack",
-				fr: "Feinte"
+				fr: "Feinte",
+				de: "Finte"
 			},
 			effect: {
-				en: "Choose 1 of your opponent’s Pokémon. This attack does 20 damage to that Pokémon. This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.",
-				fr: "Choisissez un des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet."
+				en: "Choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.",
+				fr: "Choisissez un des Pokémon de votre adversaire. Cette attaque lui inflige 20 dégâts. Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet.",
+				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 20 Schadenspunkte zu. Schwäche, Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
 			},
 
 		},
@@ -71,10 +74,16 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 277422,
-		tcgplayer: 87650
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87650,
+				cardmarket: 277422
+			},
+		},
+	],
+
 }
 
 export default card

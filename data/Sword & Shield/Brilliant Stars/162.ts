@@ -4,6 +4,7 @@ import Set from "../Brilliant Stars"
 const card: Card = {
 	dexId: [430],
 	set: Set,
+	cameoDexIds: [198],
 
 	name: {
 		en: "Honchkrow V",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Kramshef V"
 	},
 
+	illustrator: "zig",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 200,
@@ -67,20 +69,31 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608708,
-		tcgplayer: 263881
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608708,
+				tcgplayer: 263881
+			}
+		},
+	],
 }
 
 export default card

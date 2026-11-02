@@ -64,6 +64,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When it tightens its belt, it becomes stronger. Wild Throh use vines to weave their own belts.",
+		de: "Zurrt es seinen Gürtel fest, gewinnt es an Kraft. Wilde Exemplare flechten sich ihren Gürtel in Handarbeit aus Ranken."
+	},
+
 	thirdParty: {
 		cardmarket: 408239,
 		tcgplayer: 201150

@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "kawayoo",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -52,7 +52,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If this Pokémon has any Lightning Energy attached to it, this attack does 20 damage to each of your opponent's Benched Pokémon. (Don't apply weakness and Resistance for Benched Pokémon.)",
-				fr: "Si de l'Énergie  est attachée à ce Pokémon, cette attaque inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+				fr: "Si de l'Énergie {L} est attachée à ce Pokémon, cette attaque inflige 20 dégâts à chacun des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
 			},
 			damage: 120,
 
@@ -65,6 +65,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
+
+	description: {
+		en: "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
+	},
 
 	thirdParty: {
 		cardmarket: 289803

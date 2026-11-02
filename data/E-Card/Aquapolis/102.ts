@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		77,
-	],
+	dexId: [77],
 
 	hp: 40,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -50,8 +48,8 @@ const card: Card = {
 				de: "Glut"
 			},
 			effect: {
-				en: "Discard a Energy card attached to Ponyta.",
-				fr: "Défaussez-vous d'une carte Énergie  attachée à Ponyta.",
+				en: "Discard a Fire Energy card attached to Ponyta.",
+				fr: "Défaussez-vous d'une carte Énergie {R} attachée à Ponyta.",
 				de: "Lege 1 an Ponita angelegte -Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 30,
@@ -62,22 +60,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275177,
-		tcgplayer: 88283
-	},
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 88283,
+				cardmarket: 275177
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 88283,
+				cardmarket: 275177
+			}
+		},
 	]
 }
 

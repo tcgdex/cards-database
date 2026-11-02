@@ -52,19 +52,33 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751709,
+				tcgplayer: 534730,
+				cardtrader: 274355
+			}
+		},
+	],
 
 	illustrator: "Scav",
 
-	thirdParty: {
-		cardmarket: 751709
-	}
+	description: {
+		en: "Some researchers theorize that Primeape remains angry even when inside a Poké Ball.",
+		de: "Der Theorie eines Forschers zufolge schäumt Rasaff sogar im Inneren von Pokébällen weiter vor Wut."
+	},
+
 }
 
 export default card

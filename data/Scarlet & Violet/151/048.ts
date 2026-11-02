@@ -48,18 +48,42 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Poison oozes from all over its body. It catches small bug Pokémon at night that are attracted by light.",
+		de: "Aus seinem ganzen Körper tritt Gift aus. Es fängt und frisst nachts kleine Käfer-Pokémon, die von Licht angelockt wurden."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733643,
+				tcgplayer: 516206,
+				cardtrader: 261155
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733643,
+				tcgplayer: 516206,
+				cardtrader: 261155
+			}
+		},
+	],
 
 	illustrator: "Kagemaru Himeno",
 
-	thirdParty: {
-		cardmarket: 733643
-	}
+	
 }
 
 export default card

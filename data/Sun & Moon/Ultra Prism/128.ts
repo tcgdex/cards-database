@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Roba 2 cartas. Si lo haces, descarta 1 carta aleatoria de la mano de tu rival.",
 		it: "Pesca due carte. Se lo fai, scarta una carta a caso dalla mano del tuo avversario.",
 		pt: "Compre 2 cartas. Se fizer isto, descarte 1 carta aleatória da mão do seu oponente.",
-		de: "Ziehe 2 Karten. Wenn du das machst, lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
+		de: "Ziehe 2 Karten. Wenn du das machst, lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

@@ -81,6 +81,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The arm-twisting punches it throws pulverize even concrete. It rests after three minutes of fighting.",
+		de: "Die Schläge, die es austeilt, können Beton pulverisieren. Es muss sich im Kampf alle drei Minuten ausruhen."
+	},
+
 	thirdParty: {
 		cardmarket: 369004,
 		tcgplayer: 183852

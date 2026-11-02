@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Larvesta",
 		fr: "Pyronille",
+		de: "Ignivor"
 	},
 
 	stage: "Stage1",
@@ -83,6 +84,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "A sea of fire engulfs the surroundings of their battles, since they use their six wings to scatter their ember scales.",
+		de: "Schüttelt sich glühenden Staub aus seinen sechs Flügeln und verwandelt das Umfeld in ein einziges Meer aus Flammen."
+	},
 
 	thirdParty: {
 		cardmarket: 302151,

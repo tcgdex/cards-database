@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		470,
-	],
+	dexId: [470],
 
 	hp: 90,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Evoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -41,11 +40,11 @@ const card: Card = {
 				de: "Miasma"
 			},
 			effect: {
-				en: "Does 50 damage times the number of Special Conditions affecting the Defending Pokémon.",
+				en: "Does 50 damage damage times the number of Special Conditions affecting the Defending Pokémon.",
 				fr: "Inflige 50 dégâts multipliés par le nombre d’États Spéciaux affectant le Pokémon Défenseur.",
 				de: "Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl der Speziellen Zustände, von dem das Verteidigende Pokémon betroffen ist, zu."
 			},
-			damage: "50x",
+			damage: "50×",
 
 		},
 		{
@@ -84,30 +83,41 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When you see Leafeon asleep in a patch of sunshine, you’ll know it is using photosynthesis to produce clean air."
+		en: "When you see Leafeon asleep in a patch of sunshine, you’ll know it is using photosynthesis to produce clean air.",
+		de: "An klaren Tagen erzeugt FOLIPURBA saubere Luft, indem es Photosynthese betreibt."
 	},
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 882914,
+				tcgplayer: 86680
+			}
+		}, {
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 882914,
+				tcgplayer: 86680
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["pre-release"]
+			stamp: ["pre-release"],
+			thirdParty: {
+				cardmarket: 882914,
+				tcgplayer: 221177
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["pre-release","staff"]
+			stamp: ["pre-release", "staff"],
+			thirdParty: {
+				tcgplayer: 228481
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279270,
-		tcgplayer: 86680
-	}
 }
 
 export default card

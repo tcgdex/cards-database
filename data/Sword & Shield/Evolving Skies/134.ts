@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Herdier",
@@ -80,15 +74,28 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It has been living with people for so long that portrayals of it can be found on the walls of caves from long, long ago."
+		en: "It has been living with people for so long that portrayals of it can be found on the walls of caves from long, long ago.",
+		de: "Uralte Wandmalereien sprechen dafür, dass Terribark schon seit langer Zeit an der Seite der Menschen lebt."
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574192,
-		tcgplayer: 246869
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574192,
+				tcgplayer: 246869
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574192,
+				tcgplayer: 246869
+			}
+		},
+	],
 }
 
 export default card

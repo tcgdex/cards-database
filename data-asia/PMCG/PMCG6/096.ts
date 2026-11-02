@@ -4,8 +4,9 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ジョバンニの最後の手段",
+		ja: "サカキの切り札",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Rare",
 	category: "Trainer",
@@ -13,6 +14,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575347
+			},
 		},
 	],
 };

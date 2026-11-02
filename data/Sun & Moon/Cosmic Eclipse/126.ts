@@ -80,6 +80,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It likes the shovel on its head, so Sandygast will get serious and fight any children who come to take it back.",
+		de: "Die Schaufel auf seinem Kopf ist sein größter Schatz. Versucht ein Kind, sich seine Schaufel zurückzuholen, gibt es diese nicht kampflos auf."
+	},
+
 	thirdParty: {
 		cardmarket: 408279,
 		tcgplayer: 201166

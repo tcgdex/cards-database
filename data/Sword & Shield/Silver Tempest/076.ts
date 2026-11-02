@@ -4,6 +4,7 @@ import Set from "../Silver Tempest"
 const card: Card = {
 	dexId: [577],
 	set: Set,
+	cameoDexIds: [872],
 
 	name: {
 		en: "Solosis",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Monozyto"
 	},
 
+	illustrator: "Ligton",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 40,
@@ -35,20 +37,43 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It communicates with others telepathically. Its body is encapsulated in liquid, but if it takes a heavy blow, the liquid will leak out.",
+		de: "Monozyto kommunizieren untereinander mittels Telepathie. Erfährt es eine starke Erschütterung, läuft die Flüssigkeit, die es umgibt, aus."
 	},
 
-	thirdParty: {
-		cardmarket: 682123,
-		tcgplayer: 451730
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682123,
+				tcgplayer: 451730
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682123,
+				tcgplayer: 451730
+			}
+		},
+	],
 }
 
 export default card

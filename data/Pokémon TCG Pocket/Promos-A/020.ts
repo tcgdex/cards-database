@@ -50,7 +50,9 @@ const card: Card = {
 	hp: 70,
 
 	evolveFrom: {
-		en: "Gastly"
+		en: "Gastly",
+		fr: "Fantominus",
+		de: "Nebulak"
 	},
 
 	description: {
@@ -58,7 +60,7 @@ const card: Card = {
 		fr: "Il adore se tapir dans l'ombre et faire frissonner\nses proies pour l'éternité en leur touchant l'épaule.",
 		es: "Le gusta acechar en la oscuridad y tocarles el\nhombro a sus víctimas con su mano gaseosa.\nEstas se quedan temblando para siempre.",
 		it: "Adora stare in agguato nei luoghi bui e toccare\nle spalle delle vittime con le sue mani gassose.\nIl suo tocco causa brividi incontenibili.",
-		de: "Es lauert gern im Dunkeln und tippt Leuten mit\nseiner gasförmigen Hand auf die Schulter.\nSeine Berührung erzeugt endloses Schaudern.",
+		de: "Es lauert gern im Dunkeln und tippt Leuten mit seiner gasförmigen Hand auf die Schulter. Seine Berührung erzeugt endloses Schaudern.",
 		'pt-br': "Gosta de se esconder no escuro e bater nos\nombros dos outros com sua mão gasosa.\nSeu toque causa arrepios que não acabam mais.",
 		ko: "어둠을 틈타 가스로 된 손을 뻗쳐\n사람의 어깨를 두드리기 좋아한다.\n그 손에 닿으면 떨림이 멈추지 않는다."
 	},

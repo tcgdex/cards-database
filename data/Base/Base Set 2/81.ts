@@ -63,15 +63,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 274004,
-		tcgplayer: 42533
+
+	description: {
+		en: "It is vulnerable to attack because its shell is soft, exposing its weak and tender body.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274004,
+				tcgplayer: 42533
+			}
 		}
 	]
 }

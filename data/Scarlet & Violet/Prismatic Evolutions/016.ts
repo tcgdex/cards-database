@@ -65,13 +65,48 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 	illustrator: "Takeshi Nakamura",
 
-	thirdParty: {
-		cardmarket: 805405
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 805405,
+				tcgplayer: 610371
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 805405,
+				tcgplayer: 610371
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 806430,
+				tcgplayer: 610547
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 806431,
+				tcgplayer: 610648
+			}
+		},
+	],
 }
 
 export default card

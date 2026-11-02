@@ -16,13 +16,15 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [345],
+
 	effect: {
 		fr: "Regardez les 7 cartes du dessous de votre deck. Vous pouvez montrer un Lilia que vous y trouvez et le placer sur votre Banc. Mélangez les autres cartes avec votre deck.",
 		en: "Look at the bottom 7 cards of your deck. You may reveal a Lileep you find there and put it onto your Bench. Shuffle the other cards back into your deck.",
 		es: "Mira las 7 últimas cartas de tu baraja. Puedes enseñar a un Lileep que encuentres entre ellas y ponerlo en tu Banca. Pon el resto de cartas de nuevo en tu baraja y barájalas todas.",
 		it: "Guarda le ultime sette carte del tuo mazzo. Puoi mostrare un Lileep che hai trovato e metterlo nella tua panchina. Poi rimischia le altre carte nel tuo mazzo.",
 		pt: "Olhe os últimos 7 cards da base de seu baralho. Você pode revelar um Lileep encontrado ali e colocá-lo em seu Banco. Embaralhe os outros cards de volta em seu baralho.",
-		de: "Schau dir die untersten 7 Karten deines Decks an. Falls du dort ein Liliep findest, kannst du es deinem Gegner zeigen und auf deine Bank legen. Mische die anderen Karten anschließend in dein Deck."
+		de: "Schau dir die untersten 7 Karten deines Decks an. Falls du dort ein Liliep findest, kannst du es deinem Gegner zeigen und auf deine Bank legen. Mische die anderen Karten anschließend in dein Deck. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Flygon"
 	},
 
+	evolveFrom: {
+		en: "Vibrava",
+		fr: "Vibraninf",
+		es: "Vibrava",
+		'es-mx': "Vibrava",
+		de: "Vibrava",
+		it: "Vibrava",
+		pt: "Vibrava",
+	},
+
 	rarity: "Rare",
 	category: "Pokemon",
 
@@ -62,25 +72,57 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "Known as the Desert Spirit, this Pokémon hides in the sandstorms it causes by beating its wings.",
+		fr: "On l'appelle « l'esprit du désert ». Il se dissimule dans des tempêtes de sable qu'il provoque en battant des ailes.",
+		de: "Dieses auch als „Geist der Wüste“ bekannte Pokémon versteckt sich in Sandstürmen, die es durch das Schlagen seiner Flügel erzeugt."
+	},
+
+	illustrator: "Jerky",
 	variants: [
 		{
-			type: "holo"
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857628,
+				tcgplayer: 662159,
+				cardtrader: 356836
+			}
 		},
 		{
-			type: "normal"
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857628,
+				tcgplayer: 662159,
+				cardtrader: 356836
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 858508,
+				tcgplayer: 664006
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 891754,
+				tcgplayer: 696232
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 857628,
-		tcgplayer: 662159
-	}
+	
 }
 
 export default card

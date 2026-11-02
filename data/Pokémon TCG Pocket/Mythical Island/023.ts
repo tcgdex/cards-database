@@ -22,7 +22,9 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Chewtle"
+		en: "Chewtle",
+		fr: "Khélocrok",
+		de: "Kamehaps"
 	},
 
 	description: {
@@ -30,7 +32,7 @@ const card: Card = {
 		fr: "Ce Pokémon très agressif peut\nfacilement broyer des rochers grâce à\nson énorme mâchoire en dents de scie.",
 		es: "Con sus fuertes mandíbulas serradas es capaz\nde destrozar rocas de un mordisco. Tiene un\ntemperamento extremadamente violento.",
 		it: "Con la sua grande mascella frastagliata riesce\na frantumare una roccia con un morso. Ha un\ntemperamento estremamente aggressivo.",
-		de: "Ein Biss mit seinem riesigen, gezackten Maul\nreicht aus, um einen Felsbrocken zu zermalmen.\nEs besitzt ein äußerst aggressives Temperament.",
+		de: "Ein Biss mit seinem riesigen, gezackten Maul reicht aus, um einen Felsbrocken zu zermalmen. Es besitzt ein äußerst aggressives Temperament.",
 		'pt-br': "O seu gigantesco dente afiado pode destruir um rochedo\ncom apenas uma mordida. Este Pokémon tem tendências\nextremamente violentas.",
 		ko: "매우 크고 뾰족뾰족한 입은\n한 번 물기만 해도 암석을 부술 정도다.\n성질이 매우 흉포하다."
 	},

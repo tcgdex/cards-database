@@ -60,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -77,7 +77,9 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		fr: "Il provoque des secousses sismiques en creusant. Il peut atteindre les 80 km/h."
+		en: "When it travels underground, it causes rumbling and tremors. It can move at 50 mph.",
+		fr: "Il provoque des secousses sismiques en creusant. Il peut atteindre les 80 km/h.",
+		de: "Wenn es sich unter dem Boden mit bis zu 80 km/h bewegt, verursacht es Erschütterungen."
 	},
 
 	thirdParty: {

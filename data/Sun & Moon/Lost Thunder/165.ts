@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pikipek",
 		fr: "Picassaut",
+		de: "Peppeck"
 	},
 
 	stage: "Stage1",
@@ -90,6 +91,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "By bending its beak, it can produce a variety of calls and brand itself a noisy nuisance for its neighbors.",
+		de: "Indem es seinen Schnabel verformt, kann es eine große Bandbreite an Lauten ausstoßen. Der Alptraum eines jeden Nachbarn."
+	},
 
 	thirdParty: {
 		cardmarket: 365801,

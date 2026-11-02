@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Magikarp",
 		fr: "Magicarpe",
+		de: "Karpador"
 	},
 
 	suffix: "GX",
@@ -89,7 +90,7 @@ const card: Card = {
 				es: "Tormenta Temor GX",
 				it: "Tempesta Malefica-GX",
 				pt: "Tempestade de Temor GX",
-				de: "Sturm des Schreckens GX"
+				de: "Sturm des Schreckens-GX"
 			},
 			effect: {
 				en: "Discard an Energy from each of your opponent’s Pokémon. (You can’t use more than 1 GX attack in a game.)",

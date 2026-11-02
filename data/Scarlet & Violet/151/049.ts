@@ -65,18 +65,42 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The wings are covered with dustlike scales. Every time it flaps its wings, it looses highly toxic dust.",
+		de: "Seine Flügel sind mit staubähnlichen Schuppen überzogen. Mit jedem Flügelschlag verstreut es hochgiftigen Puder."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733644,
+				tcgplayer: 516213,
+				cardtrader: 261222
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733644,
+				tcgplayer: 516213,
+				cardtrader: 261222
+			}
+		},
+	],
 
 	illustrator: "Kagemaru Himeno",
 
-	thirdParty: {
-		cardmarket: 733723
-	}
+	
 }
 
 export default card

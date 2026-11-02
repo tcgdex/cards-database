@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [103],
 
 	dexId: [
 		453,
@@ -80,10 +81,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299458,
-		tcgplayer: 138536
-	}
+	description: {
+		en: "Its cheeks hold poison sacs. It tries to catch foes off guard to jab them with toxic fingers.",
+		de: "In seinen Backen sammelt sich Gift. Es versucht, Beute zu überraschen und mit Giftfingern zu schnappen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299458,
+				tcgplayer: 138536
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299458,
+				tcgplayer: 138536
+			}
+		},
+	],
 }
 
 export default card

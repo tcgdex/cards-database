@@ -4,7 +4,8 @@ import Set from '../POP Series 4'
 const card: Card = {
 	name: {
 		en: "Wobbuffet",
-		fr: "Qulbutoké"
+		fr: "Qulbutoké",
+		de: "Woingenau"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -12,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		202,
-	],
+	dexId: [202],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -31,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Nap",
-				fr: "Tit'sieste"
+				fr: "Tit'sieste",
+				de: "Nickerchen"
 			},
 			effect: {
 				en: "Remove 2 damage counters from Wobbuffet.",
-				fr: "Retirez à Qulbutoké 2 marqueurs de dégât."
+				fr: "Retirez à Qulbutoké 2 marqueurs de dégât.",
+				de: "Entferne 2 Schadensmarken von Woingenau."
 			},
 
 		},
@@ -46,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Expand",
-				fr: "Pousstoidla"
+				fr: "Pousstoidla",
+				de: "Ausdehnen"
 			},
 			effect: {
-				en: "During your opponent’s next turn, any damage done to Wobbuffet is reduced by 20 (after applying Weakness and Resistance).",
-				fr: "Lors du prochain tour de votre adversaire, les dégâts infligés à Qulbutoké sont réduits de 20 (après application de la Faiblesse et de la Résistance)."
+				en: "During your opponent's next turn, any damage done to Wobbuffet is reduced by 20 (after applying Weakness and Resistance).",
+				fr: "Lors du prochain tour de votre adversaire, les dégâts infligés à Qulbutoké sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				de: "Im nächsten Zug deines Gegners wird Schaden, der Woingenau zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 20,
 
@@ -59,23 +62,29 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Psychic"
+			type: "Psychic",
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90618,
+				cardmarket: 277481
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 90618,
+				cardmarket: 277481
+			},
 		},
 	],
 
-	retreat: 2,
-
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
-	thirdParty: {
-		cardmarket: 277481,
-		tcgplayer: 90618
-	}
 }
 
 export default card

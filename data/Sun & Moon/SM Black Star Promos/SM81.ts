@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Pikachu"
 	},
 	illustrator: "Sanosuke Sakuma",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -84,6 +84,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "A plan was recently announced to gather many Pikachu and make an electric power plant.",
+		de: "Vor Kurzem wurden Pläne verkündet, mithilfe einer großen Anzahl an Pikachu ein ganzes Kraftwerk zu betreiben."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 295296,
+				tcgplayer: 148426
+			}
+		}
+	],
 }
 
 export default card

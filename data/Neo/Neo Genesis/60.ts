@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Hypnosis",
 				fr: "Hypnose",
-				de: "Hypnosis"
+				de: "Hypnose"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "The Defending Pokémon is now Asleep."
+				de: "Das verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -50,7 +50,7 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Koud'bec",
-				de: "Peck"
+				de: "Schnabel"
 			},
 
 			damage: 20,
@@ -71,23 +71,31 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Il se tient toujours sur une patte. Il change de patte si rapidement qu'on ne peut pas voir le mouvement."
+		en: "It always stands on one foot. It changes feet so fast that the movement can rarely be seen.",
+		fr: "Il se tient toujours sur une patte. Il change de patte si rapidement qu'on ne peut pas voir le mouvement.",
+		de: "Es steht stets auf einem Fuß. Es wechselt den Fuß so schnell, dass die Bewegung kaum jemals sichtbar ist."
 	},
 
-	thirdParty: {
-		cardmarket: 274460,
-		tcgplayer: 86169
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274460,
+				tcgplayer: 86169
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274460,
+				tcgplayer: 86169
+			}
 		}
 	]
 }

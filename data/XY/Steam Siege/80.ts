@@ -86,6 +86,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It never lets go of a key that it likes, so people give it the keys to vaults and safes as a way to prevent crime.",
+		de: "Da es Schlüssel, die ihm gefallen, wie seinen Augapfel hütet, vertrauen Menschen ihm die Schlüssel ihrer Tresore an, um Diebstahl vorzubeugen."
+	},
+
 	thirdParty: {
 		cardmarket: 291642,
 		tcgplayer: 121206

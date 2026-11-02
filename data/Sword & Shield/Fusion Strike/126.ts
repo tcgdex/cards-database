@@ -29,12 +29,25 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "E",
 	illustrator: "Shibuzoh.",
 
 	description: {
-		en: "Once it has whipped up a sandstorm to halt its opponents in their tracks, this terrifying Pokémon snatches away their vitality."
+		en: "Once it has whipped up a sandstorm to halt its opponents in their tracks, this terrifying Pokémon snatches away their vitality.",
+		de: "Ein grauenvolles Pokémon, das seine Feinde in einen Sandsturm einschließt, um sie dann ihrer Lebensenergie zu berauben."
 	},
 
 	attacks: [{
@@ -72,17 +85,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582660,
-		tcgplayer: 253313
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582660,
+				tcgplayer: 253313
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582660,
+				tcgplayer: 253313
+			}
+		},
+	],
 }
 
 export default card

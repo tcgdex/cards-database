@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Dragonair δ",
 		fr: "Draco δ",
-		de: "Dragonir"
+		de: "Dragonir δ"
 	},
 
 	illustrator: "Hajime Kusajima",

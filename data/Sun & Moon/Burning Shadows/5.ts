@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Oddish",
 		fr: "Mystherbe",
+		de: "Myrapla"
 	},
 
 	stage: "Stage1",
@@ -84,10 +85,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 299412,
-		tcgplayer: 138275
-	}
+	description: {
+		en: "Smells incredibly foul! However, around one out of a thousand people enjoy sniffing its nose-bending stink.",
+		de: "Dieses Pokémon sondert einen übelriechenden Geruch ab. Trotzdem halten einige Leute es im Haus."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299412,
+				tcgplayer: 138275
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299412,
+				tcgplayer: 138275
+			}
+		},
+	],
 }
 
 export default card

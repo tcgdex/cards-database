@@ -1,47 +1,55 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "小海獅"
+		ja: "サンダースVMAX",
+		'zh-tw': "小海獅",
 	},
 
-	illustrator: "Kagemaru Himeno",
+	illustrator: "Hasuno",
 	category: "Pokemon",
-	hp: 70,
-	types: ["Water"],
+	hp: 300,
+	types: ["Lightning"],
 
-	description: {
-		'zh-tw': "因為有著厚厚的脂肪，所以完全不怕寒冷的海域， 但在溫暖的海裡就有點容易中暑。"
+	stage: "VMAX",
+
+	attacks: [
+		{
+			name: {
+				ja: "ダイジンライ",
+				'zh-tw': "頭錘",
+			},
+			damage: 100,
+			cost: ["Lightning", "Colorless"],
+			effect: {
+				ja: "ダメカンがのっている相手のベンチポケモン1匹にも、100ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 571391,
+				tcgplayer: 597386,
+			},
+		},
+	],
+
+	evolveFrom: {
+		ja: "サンダースV",
 	},
 
-	stage: "Basic",
+	retreat: 0,
+	regulationMark: "E",
+	rarity: "Promo",
+	dexId: [135],
+};
 
-	attacks: [{
-		name: {
-			'zh-tw': "頭錘"
-		},
-
-		damage: 10,
-		cost: ["Water"]
-	}, {
-		name: {
-			'zh-tw': "潑水"
-		},
-
-		damage: 20,
-		cost: ["Water", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
-
-	retreat: 1,
-	regulationMark: "F"
-}
-
-export default card
+export default card;

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Espurr",
 		fr: "Psystigri",
+		de: "Psiau"
 	},
 
 	stage: "Stage1",
@@ -91,10 +92,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299464,
-		tcgplayer: 138542
-	}
+	description: {
+		en: "When in danger, it raises its ears and releases enough psychic power to grind a 10-ton truck to dust.",
+		de: "In Gefahrensituationen hebt es seine Ohren an und setzt Psycho-Kräfte frei, die einen 10 t schweren LKW zu Schrott verarbeiten können."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299464,
+				tcgplayer: 138542
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299464,
+				tcgplayer: 138542
+			}
+		},
+	],
 }
 
 export default card

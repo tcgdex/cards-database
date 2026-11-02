@@ -4,7 +4,8 @@ import Set from '../Wizards Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Igglybuff",
-		fr: "Toudoudou"
+		fr: "Toudoudou",
+		de: "Fluffeluff"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -31,25 +32,33 @@ const card: Card = {
 			],
 			name: {
 				en: "Good Night Song",
-				fr: "Chanson du Marchand de sable"
+				fr: "Chanson du Marchand de sable",
+				de: "Gute-Nacht-Lied"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das verteidigende Pokémon schläft jetzt."
 			},
 
 		},
 	],
 
 	description: {
-		fr: "Son corps extrêmement flexible et élastique le fait rebondir continuellement ─ tout le temps, et dans toutes les directions."
+		en: "Its extremely flexible and elastic body makes it bounce continuously—anytime, anywhere.",
+		fr: "Son corps extrêmement flexible et élastique le fait rebondir continuellement ─ tout le temps, et dans toutes les directions.",
+		de: "Sein extrem flexibler und elastischer Körper sorgt dafür, dass es durchgehend herumhüpft – immer und überall."
 	},
 
 	variants: [
 		{
 			type: "normal",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275455,
+				tcgplayer: 86259
+			}
+		},
+	],
 }
 
 export default card

@@ -85,6 +85,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon makes clothes for itself. It chews up leaves and sews them with sticky thread extruded from its mouth.",
+		de: "Schneidert sich ein Kleid, indem es sich Blätter zurechtbeißt und sie mit Klebefäden aus seinem Mund zusammennäht."
+	},
+
 	thirdParty: {
 		cardmarket: 387862,
 		tcgplayer: 194923

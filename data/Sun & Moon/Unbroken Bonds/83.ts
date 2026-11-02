@@ -80,6 +80,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives in areas of limited rainfall. When danger approaches, it curls up into a ball to protect its soft stomach.",
+		de: "Es lebt in trockenen Gebieten mit wenig Regen. Bei Gefahr rollt es sich zu einem Ball zusammen und schützt so seine weiche Bauchgegend."
+	},
+
 	thirdParty: {
 		cardmarket: 372374,
 		tcgplayer: 189182

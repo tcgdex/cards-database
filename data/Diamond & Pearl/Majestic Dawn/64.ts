@@ -74,6 +74,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Using electricity stored in its fur, it stimulates its muscles to heighten its reaction speed.",
+		de: "Die Elektrizität, die es im Fell speichert, nutzt es, um seine Muskeln zu stimulieren."
+	},
+
 	thirdParty: {
 		cardmarket: 278113,
 		tcgplayer: 85140

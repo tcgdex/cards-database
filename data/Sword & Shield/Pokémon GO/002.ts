@@ -4,6 +4,7 @@ import Set from "../Pokémon GO"
 const card: Card = {
 	dexId: [2],
 	set: Set,
+	cameoDexIds: [167, 322, 399],
 
 	name: {
 		en: "Ivysaur",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Bisaknosp"
 	},
 
+	illustrator: "zig",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
@@ -65,19 +67,39 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
+
+	description: {
+		en: "When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.",
+		de: "Sobald die Knospe auf seinem Rücken groß wird, kann Bisaknosp nicht mehr auf zwei Beinen stehen."
 	},
 
-	thirdParty: {
-		cardmarket: 664536,
-		tcgplayer: 274434
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665236,
+				tcgplayer: 274434
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665236,
+				tcgplayer: 274434
+			}
+		},
+	],
 }
 
 export default card

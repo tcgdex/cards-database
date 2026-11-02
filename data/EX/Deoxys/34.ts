@@ -40,7 +40,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "When you attach a Water Energy card from your hand to Lombre, remove all Special Conditions from Lombre.",
-				fr: "Lorsque vous attachez une carte Énergie  de votre main à Lombre, retirez-lui tous ses États Spéciaux.",
+				fr: "Lorsque vous attachez une carte Énergie {W} de votre main à Lombre, retirez-lui tous ses États Spéciaux.",
 				de: "When you attach a  Energy card from your hand to Lombre, remove all Special Condition from Lombre."
 			},
 		},
@@ -77,20 +77,25 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 86817,
-		cardmarket: 276437
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 86817,
+				cardmarket: 276437
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
-		}
-	]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 86817,
+				cardmarket: 276437
+			},
+		},
+	],
+
 }
 
 export default card

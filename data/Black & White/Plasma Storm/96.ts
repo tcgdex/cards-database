@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
+				de: "Schlitzer"
 			},
 
 			damage: 60,
@@ -51,10 +52,12 @@ const card: Card = {
 			name: {
 				en: "White Inferno",
 				fr: "Fureur Blanche",
+				de: "Weiße Wut"
 			},
 			effect: {
 				en: "Does 10 more damage for each damage counter on this Pokémon.",
 				fr: "Inflige 10 dégâts supplémentaires pour chaque marqueur de dégâts placé sur ce Pokémon.",
+				de: "Dieser Angriff fügt 10 weitere Schadenspunkte für jede Schadensmarke auf diesem Pokémon zu."
 			},
 			damage: 100,
 

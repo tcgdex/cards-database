@@ -59,6 +59,7 @@ const card: Card = {
 			name: {
 				en: "Psyshot",
 				fr: "Piqûre Psy",
+				de: "Psychoschuss"
 			},
 
 			damage: 20,
@@ -75,10 +76,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 280655,
-		tcgplayer: 87644
-	}
+	description: {
+		en: "This Pokémon appears before people and Pokémon who are having nightmares and eats those dreams.",
+		de: "Es erscheint vor schlafenden Menschen und Pokémon und frisst ihre Alpträume."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280655,
+				tcgplayer: 87644
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280655,
+				tcgplayer: 87644
+			}
+		},
+	],
 }
 
 export default card

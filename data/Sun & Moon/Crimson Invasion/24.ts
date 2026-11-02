@@ -57,6 +57,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "No matter how dirty the water in the river, it will adapt and thrive. It has a strong will to survive.",
+		de: "Egal, wie schmutzig der Fluss ist, in dem sie leben, sie passen sich daran an und vermehren sich. Sie sind hart im Nehmen."
+	},
+
 	thirdParty: {
 		cardmarket: 311874,
 		tcgplayer: 149045

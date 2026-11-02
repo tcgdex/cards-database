@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Lillipup"
+		en: "Lillipup",
+		fr: "Ponchiot"
 	},
 
 	illustrator: "Sekio",
@@ -24,13 +25,15 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Collect"
+			en: "Collect",
+			fr: "Collecte"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Draw a card."
+			en: "Draw a card.",
+			fr: "Piochez une carte."
 		}
 	}],
 

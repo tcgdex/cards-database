@@ -65,7 +65,7 @@ const card: Card = {
 				es: "Momentos Emocionantes GX",
 				it: "Momenti da Brivido GX",
 				pt: "Tempos Emocionantes GX",
-				de: "Prickelnde Zeiten GX"
+				de: "Prickelnde Zeiten-GX"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 100 more damage. If this Pokémon has at least 6 extra Water Energy attached to it (in addition to this attack’s cost), flip 10 coins instead, and this attack does 100 more damage for each heads. (You can’t use more than 1 GX attack in a game.)",
@@ -73,7 +73,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 100 puntos de daño más. Si este Pokémon tiene por lo menos 6 Energías Water adicionales unidas a él (además de las del coste de este ataque), lanza 10 monedas en vez de 1, y este ataque hace 100 puntos de daño más por cada cara. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 100 danni in più. Se questo Pokémon ha almeno sei Energie Water extra assegnate, in aggiunta a quelle del costo di questo attacco, invece lancia 10 volte una moneta e questo attacco infligge 100 danni in più ogni volta che esce testa. Non puoi usare più di un attacco GX a partita.",
 				pt: "Jogue 1 moeda. Se sair cara, este ataque causará 100 pontos de dano a mais. Se este Pokémon tiver pelo menos 6 Energias Water adicionais ligadas a ele (além do custo deste ataque), jogue 10 moedas ao invés de 1 e este ataque causará 100 pontos de dano a mais para cada cara (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 100 Schadenspunkte mehr zu. Wenn an dieses Pokémon mindestens 6 extra Water-Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), wirf stattdessen 10 Münzen und pro Kopf fügt diese Attacke 100 Schadenspunkte mehr zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 100 Schadenspunkte mehr zu. Wenn an dieses Pokémon mindestens 6 extra {W}-Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), wirf stattdessen 10 Münzen und pro Kopf fügt diese Attacke 100 Schadenspunkte mehr zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: "10+",
 

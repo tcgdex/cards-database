@@ -55,18 +55,41 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751587,
+				tcgplayer: 534211,
+				cardtrader: 274234
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751587,
+				tcgplayer: 534211,
+				cardtrader: 274234
+			}
+		},
+	],
 
 	illustrator: "ryoma uratsuka",
 
-	thirdParty: {
-		cardmarket: 751587
-	}
+	description: {
+		en: "Its two whiskers provide a sensitive radar. Even in muddy waters, it can detect its prey's location.",
+		de: "Seine zwei Barteln dienen ihm als empfindliches Radarsystem. Selbst in schlammigem Wasser kann es so die Position seiner Beute ausmachen."
+	},
+
 }
 
 export default card

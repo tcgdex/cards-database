@@ -26,7 +26,8 @@ const card: Card = {
 
 	description: {
 		en: "Castform changes to this form when it basks in bright sunlight. When you touch its glowing skin, it feels all dried out!",
-		fr: 'Morphéo adopte cette apparence lorsqu\'il y a du soleil.\nSon corps rougeoyant est très sec au toucher.'
+		fr: 'Morphéo adopte cette apparence lorsqu\'il y a du soleil.\nSon corps rougeoyant est très sec au toucher.',
+		de: "Diese Gestalt nimmt Formeo bei einem heißen Sonnenbad an. Sein glühender Körper fühlt sich sehr trocken an."
 	},
 
 	abilities: [{
@@ -86,17 +87,23 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 567102,
-		tcgplayer: 241674
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567102,
+				tcgplayer: 241674
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567102,
+				tcgplayer: 241674
+			}
+		},
+	],
 }
 
 export default card

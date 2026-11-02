@@ -64,6 +64,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It does its level best to glare and pull a scary face, but it can't help grinning if anyone pats its head.",
+		de: "Es gibt alles, um ein finsteres Gesicht zu machen und sein Gegenüber böse anzustarren, aber wenn es am Kopf gestreichelt wird, muss es unwillkürlich grinsen."
+	},
+
 	thirdParty: {
 		cardmarket: 286332,
 		tcgplayer: 107205

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		125,
-	],
+	dexId: [125],
 
 	hp: 60,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Search your deck for a basic Energy card and attach it to Electabuzz. Shuffle your deck afterward.",
 				fr: "Vous pouvez chercher une carte Énergie de base et l'attacher à Élektek. Mélangez ensuite votre deck.",
-				de: "Du kannst dein Deck nach einer Basis-Energiekarte durchsuchen und an Elektek anlegen. Mische dein Deck danach."
+				de: "Du kannst dein Deck nach einer Basis-Energiekarte durchsuchen und sie an Elektek anlegen. Mische dein Deck danach."
 			},
 
 		},
@@ -65,23 +63,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 274951,
-		tcgplayer: 85112
-	},
 
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 85112,
+				cardmarket: 274951
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 85112,
+				cardmarket: 274951
+			},
+		},
+	],
 }
 
 export default card

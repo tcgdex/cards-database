@@ -65,18 +65,41 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751599,
+				tcgplayer: 534423,
+				cardtrader: 274245
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751599,
+				tcgplayer: 534423,
+				cardtrader: 274245
+			}
+		},
+	],
 
 	illustrator: "Mousho",
 
-	thirdParty: {
-		cardmarket: 751599
-	}
+	description: {
+		en: "While mostly known for having the temperament of an aggressive ruffian, this Pokémon takes very good care of its family, friends, and territory.",
+		de: "Es gibt sich gerne wild, aber seine Familie, seine Kameraden und sein Revier liegen ihm sehr am Herzen."
+	},
+
 }
 
 export default card

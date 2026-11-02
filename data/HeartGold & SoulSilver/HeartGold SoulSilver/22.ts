@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		210,
-	],
+	dexId: [210],
 
 	hp: 90,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Snubbull",
 		fr: "Snubbull",
+		de: "Snubbull"
 	},
 
 	stage: "Stage1",
@@ -81,22 +80,27 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Because its fangs are too heavy, it always keeps its head tilted down. However, its bite is powerful."
+		en: "Because its fangs are too heavy, it always keeps its head tilted down. However, its bite is powerful.",
+		de: "Weil seine Reißzähne so schwer sind, ist sein Kopf gesenkt. Sein Biss ist jedoch schmerzhaft."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85865,
+				cardmarket: 278994
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85865,
+				cardmarket: 278994
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278994,
-		tcgplayer: 85865
-	}
 }
 
 export default card

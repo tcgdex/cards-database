@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Lugia V"
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 220,
@@ -65,20 +66,31 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682185,
-		tcgplayer: 450289
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682185,
+				tcgplayer: 450289
+			}
+		},
+	],
 }
 
 export default card

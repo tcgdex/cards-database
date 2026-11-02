@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Pikachu"
 	},
 
-	rarity: "Rare",
+	illustrator: "Aya Kusube",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Lightning"],
@@ -53,7 +54,22 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "It's in its nature to store electricity. It feels stressed now and then if it's unable to fully discharge the electricity.",
+		de: "Es liegt in seiner Natur, konstant Elektrizität in sich anzustauen. Kann es diese nicht regelmäßig entladen, löst dies Stress aus."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 373093,
+				tcgplayer: 189756
+			}
+		}
+	],
 }
 
 export default card

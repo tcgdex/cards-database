@@ -10,6 +10,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [20, 25, 79, 175],
 
 	dexId: [
 		2,
@@ -60,15 +61,20 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275635,
-		tcgplayer: 46479
+
+	description: {
+		en: "A sure sign spring is on its way is when the seed on this Pokémon's back flowers.",
 	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275635,
+				tcgplayer: 46479
+			}
 		}
 	]
 }

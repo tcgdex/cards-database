@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Ambidiffel"
 	},
 
+	illustrator: "Scav",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 90,
@@ -76,19 +77,39 @@ const card: Card = {
 		damage: "60×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
+
+	description: {
+		en: "It uses its tails for everything. If it wraps both of its tails around you and gives you a squeeze, that's proof it really likes you.",
+		de: "Es benutzt seine zwei Schweife für alles, was es tut. Wenn es jemanden mit ihnen umarmt, ist das ein Beweis seiner Zuneigung."
 	},
 
-	thirdParty: {
-		cardmarket: 664615,
-		tcgplayer: 276978
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665281,
+				tcgplayer: 276978
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665281,
+				tcgplayer: 276978
+			}
+		},
+	],
 }
 
 export default card

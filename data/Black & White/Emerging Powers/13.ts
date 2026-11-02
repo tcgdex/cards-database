@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Stun Spore",
 				fr: "Para-Spore",
+				de: "Stachelspore"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 
 		},
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Cut",
 				fr: "Coupe",
+				de: "Zerschneider"
 			},
 
 			damage: 20,
@@ -74,10 +77,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279978,
-		tcgplayer: 87991
-	}
+	description: {
+		en: "The leaves on its head are very bitter. Eating one of these leaves is known to refresh a tired body.",
+		de: "Die Blätter auf seinem Kopf schmecken furchtbar bitter, doch sie helfen ausgezeichnet gegen Erschöpfung."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279978,
+				tcgplayer: 87991
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279978,
+				tcgplayer: 87991
+			}
+		},
+	],
 }
 
 export default card

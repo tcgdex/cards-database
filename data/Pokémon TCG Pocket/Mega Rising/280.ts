@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mega Absol ex"
+		en: "Mega Absol ex",
+		fr: "Méga-Absol-ex"
 	},
 
 	illustrator: "kawayoo",
@@ -16,23 +17,21 @@ const card: Card = {
 	hp: 170,
 	types: ["Darkness"],
 
-	description: {
-		en: "As the energy of Mega Evolution fills it, its fur\nbristles. What you see on its back are not true\nwings, and this Pokémon isn't able to fly."
-	},
-
 	stage: "Basic",
 	suffix: "EX",
 
 	attacks: [{
 		name: {
-			en: "Darkness Claw"
+			en: "Darkness Claw",
+			fr: "Griffe des Ténèbres"
 		},
 
 		damage: 80,
 		cost: ["Darkness", "Darkness"],
 
 		effect: {
-			en: "Your opponent reveals their hand. Choose a Supporter card you find there and discard it."
+			en: "Your opponent reveals their hand. Choose a Supporter card you find there and discard it.",
+			fr: "Votre adversaire dévoile sa main. Choisissez une carte Supporter que vous y trouvez et défaussez-la."
 		}
 	}],
 

@@ -20,6 +20,10 @@ const card: Card = {
 		143,
 	],
 
+
+
+	cameoDexIds: [97],
+
 	hp: 140,
 
 	types: [
@@ -90,6 +94,11 @@ const card: Card = {
 	],
 
 	retreat: 4,
+
+	description: {
+		en: "Its stomach can digest any kind of food, even if it happens to be moldy or rotten.",
+		de: "Sein Magen kann jede Art von Nahrung verdauen, selbst wenn sie verschimmelt und verdorben ist."
+	},
 
 	thirdParty: {
 		cardmarket: 289898,

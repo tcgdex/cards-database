@@ -87,6 +87,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The tradition known as Pyukumuku chucking started from the custom of throwing Pyukumuku back into the sea after they wash onshore.",
+		de: "Das heutzutage übliche Gufa-Schleudern ist aus dem Brauch entstanden, angespülte Gufa wieder ins Meer zurückzuwerfen."
+	},
+
 	thirdParty: {
 		cardmarket: 372344,
 		tcgplayer: 189152

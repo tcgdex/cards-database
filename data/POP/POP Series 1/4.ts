@@ -4,7 +4,8 @@ import Set from '../POP Series 1'
 const card: Card = {
 	name: {
 		en: "Sceptile",
-		fr: "Jungko"
+		fr: "Jungko",
+		de: "Gewaldro"
 	},
 
 	illustrator: "Hiromichi Sugiyama",
@@ -12,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		254,
-	],
+	dexId: [254],
 
 	hp: 100,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Grovyle",
-		fr: "Massko"
+		fr: "Massko",
+		de: "Reptain"
 	},
 
 	stage: "Stage2",
@@ -36,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Cling",
-				fr: "« Corps à corps »"
+				fr: "« Corps à corps »",
+				de: "Festklammern"
 			},
 			effect: {
 				en: "After your attack, remove from Sceptile the number of damage counters equal to the damage you did to the Defending Pokémon. If Sceptile has fewer damage counters than that, remove all of them.",
-				fr: "Après votre attaque, retirez à Jungko un nombre de marqueurs de dégât équivalent aux dégâts que vous avez infligés au Pokémon Défenseur. Si Jungko a moins de marqueurs de dégât, retirez-les lui tous."
+				fr: "Après votre attaque, retirez à Jungko un nombre de marqueurs de dégât équivalent aux dégâts que vous avez infligés au Pokémon Défenseur. Si Jungko a moins de marqueurs de dégât, retirez-les lui tous.",
+				de: "Entferne nach deinem Angriff Schadensmarken von Gewaldro entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon zugefügt wurden. Sollten weniger Schadensmarken auf Gewaldro liegen, entferne alle."
 			},
 			damage: 20,
 
@@ -53,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Leaf Blade",
-				fr: "Lame-feuille"
+				fr: "Lame-feuille",
+				de: "Blattklinge"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 damage plus 30 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 40 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -79,10 +83,23 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 277418,
-		tcgplayer: 88946
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88946,
+				cardmarket: 277418
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88946,
+				cardmarket: 277418
+			},
+		},
+	],
+
 }
 
 export default card

@@ -48,18 +48,42 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Though small, Mienfoo's temperament is fierce. Any creature that approaches Mienfoo carelessly will be greeted with a flurry of graceful attacks.",
+		de: "Lin-Fu ist klein, hat aber ein wildes Temperament. Gegnern, die sich ihm unbedacht nähern, setzt es mit einer eleganten Schlagfolge zu."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740608,
+				tcgplayer: 523766,
+				cardtrader: 265206
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740608,
+				tcgplayer: 523766,
+				cardtrader: 265206
+			}
+		},
+	],
 
 	illustrator: "Natsumi Yoshida",
 
-	thirdParty: {
-		cardmarket: 740608
-	}
+	
 }
 
 export default card

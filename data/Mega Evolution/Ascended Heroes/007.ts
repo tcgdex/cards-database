@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "GIDORA",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [114],
 	hp: 80,
 	types: ["Grass"],
 	stage: "Basic",
@@ -71,13 +72,54 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675819,
-		cardmarket: 869618
-	}
+	description: {
+		en: "Hidden beneath a tangle of vines that grows nonstop even if the vines are torn off, this Pokémon’s true appearance remains a mystery.",
+		fr: "On ne sait toujours pas ce qui se cache sous ses lianes. Même si on les coupe, elles repoussent à l'infini.",
+		de: "Seine wahre Gestalt ist weiterhin ein Mysterium, da sie von Ranken verdeckt wird, die unaufhörlich nachwachsen, selbst wenn sie abreißen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 869618,
+				tcgplayer: 675819
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 870145,
+				tcgplayer: 676857
+			}
+		},
+		{
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 870146,
+				tcgplayer: 676997
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 870106,
+				tcgplayer: 679253
+			}
+		},
+	],
 }
 
 export default card

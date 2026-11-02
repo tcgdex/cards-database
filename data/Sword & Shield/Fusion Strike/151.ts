@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "Shigenori Negishi",
 
 	description: {
-		en: "The moves it uses to take down its prey would make a martial artist jealous. It tucks subdued prey under its arms to carry them to its nest."
+		en: "The moves it uses to take down its prey would make a martial artist jealous. It tucks subdued prey under its arms to carry them to its nest.",
+		de: "Es schlägt seine Beute mit Attacken nieder, die Profikampfsportler erblassen lassen. Danach trägt es sie unter seinen beiden Armen in sein Versteck."
 	},
 
 	attacks: [{
@@ -74,17 +81,23 @@ const card: Card = {
 		damage: 130
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582779,
-		tcgplayer: 253365
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582779,
+				tcgplayer: 253365
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582779,
+				tcgplayer: 253365
+			}
+		},
+	],
 }
 
 export default card

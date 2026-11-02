@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		30,
-	],
+	dexId: [30],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Nidoran♀",
 		fr: "Nidoran♀",
+		de: "Nidoran♀"
 	},
 
 	stage: "Stage1",
@@ -75,26 +74,38 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278647,
-		tcgplayer: 87737
+	description: {
+		en: "When it senses danger, it raises all the barbs on its body. These barbs grow slower than NIDORINO's.",
+		de: "Bei Gefahr fährt es die Widerhaken am Körper aus. Diese wachsen langsamer als die von NIDORINO."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87737,
+				cardmarket: 278647,
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278647,
+				tcgplayer: 87737
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["jason-martinez"]
+			stamp: ["jason-martinez"],
+			thirdParty:{
+				cardmarket: 868911,
+				tcgplayer: 479932
+			}
 		}
-	]
+	],
+
 }
 
 export default card

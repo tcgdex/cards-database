@@ -4,7 +4,7 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Mamoswine GL",
-		fr: "Mammochon  Niv. 61",
+		fr: "Mammochon GL Niv. 61",
 		de: "Mamutel GL"
 	},
 
@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		473,
-	],
+	dexId: [473],
 
 	hp: 100,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -34,10 +32,10 @@ const card: Card = {
 				de: "Eisige Aura"
 			},
 			effect: {
-				en: "As long as Mamoswine is your Active Pokémon, put 1 damage counter on each Active Pokémon (excluding Water Pokémon) (both yours and your opponent's) between turns.",
-				fr: "Tant que Mammochon  est votre Pokémon Actif, placez 1 marqueur de dégât sur chaque Pokémon Actif (Pokémon Water exclus) (les vôtres et ceux de votre adversaire) entre deux tours.",
-				de: "Solange Mamutel GL dein Aktives Pokémon ist, lege zwischen den Zügen 1 Schadensmarke auf jedes Aktive Pokémon (außer -Pokémon) (deine und die deines Gegners)."
-			},
+				en: "As long as Mamoswine GL is your Active Pokémon, put 1 damage counter on each Active Pokémon (excluding Water Pokémon) (both yours and your opponent's) between turns.",
+				fr: "Tant que Mammochon GL est votre Pokémon Actif, placez 1 marqueur de dégât sur chaque Pokémon Actif (Pokémon {W} exclus) (les vôtres et ceux de votre adversaire) entre deux tours.",
+				de: "Solange Mamutel GL dein Aktives Pokémon ist, lege zwischen den Zügen 1 Schadensmarke auf jedes Aktive Pokémon (außer {W}-Pokémon) (deine und die deines Gegners)."
+			}
 		},
 	],
 
@@ -57,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff jedem Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 
@@ -67,32 +65,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Metal",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
-
 	retreat: 4,
-
-	thirdParty: {
-		cardmarket: 278601,
-		tcgplayer: 87142
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278601,
+				tcgplayer: 87142
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278601,
+				tcgplayer: 87142
+			}
+		},
+	],
+
 }
 
 export default card

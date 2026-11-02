@@ -15,6 +15,16 @@ const card: Card = {
 		ja: "このカードは、自分の手札を2枚トラッシュしなければ使えない。\n\n自分の山札からポケモンを1枚選び、相手に見せて、手札に加える。そして山札を切る。"
 	},
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 606291,
+				tcgplayer: 569754,
+			},
+		},
+	],
+
 	trainerType: "Item"
 }
 

@@ -53,20 +53,6 @@ const card: Card = {
 			damage: "20×",
 
 		},
-		{
-			cost: [
-				"Fire",
-				"Fire",
-			],
-			name: {
-				fr: "Infinité",
-			},
-			effect: {
-				fr: "Cette attaque inflige 20 dégâts pour chaque carte Énergie de base dans votre pile de défausse. Mélangez ensuite ces cartes avec votre deck.",
-			},
-			damage: "20×",
-
-		},
 	],
 
 	weaknesses: [
@@ -77,6 +63,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "When it shares the infinite energy it creates, that being's entire body will be overflowing with power.",
+		de: "Jeder, dem Victini seine grenzenlose Energie zuteilwerden lässt, strotzt nur so vor Kraft."
+	},
 
 	thirdParty: {
 		cardmarket: 363479

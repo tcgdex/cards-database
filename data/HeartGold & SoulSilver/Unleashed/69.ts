@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		13,
-	],
+	dexId: [13],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -67,22 +65,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies."
+		en: "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.",
+		de: "Sein Giftstachel ist gefährlich. Sein hellleuchtender Körper soll Feinde abschrecken."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90546,
+				cardmarket: 279225
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90546,
+				cardmarket: 279225
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279225,
-		tcgplayer: 90546
-	}
 }
 
 export default card

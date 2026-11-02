@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Los ataques de los Pokémon Lightning (tanto tuyos como de tu rival) cuestan Lightning menos.\n\nCada vez que algún jugador juegue 1 carta de Objeto o de Partidario de su mano, evita todos los efectos de esa carta infligidos a esta carta de Estadio.",
 		it: "Gli attacchi dei Pokémon Lightning, sia tuoi che del tuo avversario, costano Lightning in meno.\n\nOgni volta che un giocatore gioca una delle carte Strumento o Aiuto che ha in mano, previeni tutti gli effetti di quella carta su questa carta Stadio.",
 		pt: "Os ataques dos Pokémon Lightning (seus e do seu oponente) custam Lightning a menos.\n\nSempre que algum jogador jogar uma carta de Item ou de Apoiador da própria mão, prevenirá todos os efeitos daquela carta causados a esta carta de Estádio.",
-		de: "Die Kosten der Attacken der Lightning-Pokémon (deiner und der deines Gegners) verringern sich um Lightning.\n\nVerhindere jedes Mal, wenn ein Spieler eine Item- oder Unterstützerkarte aus seiner Hand spielt, alle Effekte jener Karte, die dieser Stadionkarte zugefügt werden."
+		de: "Du kannst nicht mehr als 1 ◇-Karte mit demselben Namen in deinem Deck haben. Wenn 1 ◇-Karte auf deinen Ablagestapel gelegt würde, lege sie stattdessen ins Nirgendwo. Die Kosten der Attacken der {L}-Pokémon (deiner und der deines Gegners) verringern sich um {L}. Verhindere jedes Mal, wenn ein Spieler eine Item- oder Unterstützerkarte aus seiner Hand spielt, alle Effekte jener Karte, die dieser Stadionkarte zugefügt werden. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	thirdParty: {

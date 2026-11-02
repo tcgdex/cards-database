@@ -51,23 +51,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "The stalks of leeks are thicker and longer in the Galar region. Farfetch'd that adapted to these stalks took on a unique form."
+		en: "The stalks of leeks are thicker and longer in the Galar region. Farfetch'd that adapted to these stalks took on a unique form.",
+		de: "Diese besondere Form nahm Porenta an, nachdem es über lange Zeit die dicken, langen Lauchstangen Galars verwendet hatte."
 	},
 
-	thirdParty: {
-		cardmarket: 567186,
-		tcgplayer: 241743
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567186,
+				tcgplayer: 241743
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567186,
+				tcgplayer: 241743
+			}
+		},
+	],
 }
 
 export default card

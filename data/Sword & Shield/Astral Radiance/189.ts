@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Belila"
 	},
 
+	illustrator: "kirisAki",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -22,23 +23,22 @@ const card: Card = {
 		es: "Roba cartas hasta que tengas 1 carta más en tu mano que tu rival.",
 		it: "Pesca fino ad avere in mano una carta in più del tuo avversario.",
 		pt: "Compre cartas até ter 1 carta a mais na sua mão do que o seu oponente.",
-		de: "Ziehe so lange Karten, bis du 1 Karte mehr auf deiner Hand hast als dein Gegner."
+		de: "Ziehe so lange Karten, bis du 1 Karte mehr auf deiner Hand hast als dein Gegner. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658850,
-		tcgplayer: 272439
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658850,
+				tcgplayer: 272439
+			}
+		},
+	],
 }
 
 export default card

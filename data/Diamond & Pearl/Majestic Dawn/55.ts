@@ -74,6 +74,11 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It can learn and speak human words. If they gather, they all learn the same saying.",
+		de: "Es kann die menschliche Sprache lernen. Versammeln sie sich, bringen sie sich alle dasselbe bei."
+	},
+
 	thirdParty: {
 		cardmarket: 278104,
 		tcgplayer: 84240

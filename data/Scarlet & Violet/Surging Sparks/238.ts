@@ -4,6 +4,7 @@ import Set from "../Surging Sparks"
 const card: Card = {
 	dexId: [25],
 	set: Set,
+	cameoDexIds: [1024],
 
 	name: {
 		en: "Pikachu ex",
@@ -66,20 +67,28 @@ const card: Card = {
 		damage: 300
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 794611,
+				tcgplayer: 590027
+			}
+		},
 	],
 
+	suffix: "ex",
 	illustrator: "GIDORA",
 
-	thirdParty: {
-		cardmarket: 794611
-	}
 }
 
 export default card

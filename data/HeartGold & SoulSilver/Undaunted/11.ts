@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		85,
-	],
+	dexId: [85],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Doduo",
 		fr: "Doduo",
+		de: "Dodu"
 	},
 
 	stage: "Stage1",
@@ -39,10 +38,10 @@ const card: Card = {
 				de: "Rückzugshilfe"
 			},
 			effect: {
-				en: "As long as Dodrio is on your Bench, your Active Pokémon’s Retreat Cost is ColorlessColorless less.",
+				en: "As long as Dodrio is on your Bench, your Active Pokémon's Retreat Cost is ColorlessColorless less.",
 				fr: "Tant que Dodrio est sur votre Banc, le Coût de retraite de votre Pokémon Actif est réduit de ColorlessColorless.",
-				de: "Solange Dodri auf deiner Bank sitzt, betragen die Rückzugskosten deines Aktiven Pokémon  weniger."
-			},
+				de: "Solange Dodri auf deiner Bank sitzt, betragen die Rückzugskosten deines Aktiven Pokémon {C}{C} weniger."
+			}
 		},
 	],
 
@@ -60,7 +59,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 20 damage plus 20 more damage for each heads.",
 				fr: "Lancez une pièce jusqu’à ce qu’elle tombe sur pile.  Cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires pour chaque côté face.",
-				de: "Wirf solange 1 Münze, bis das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 20 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 20 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20+",
 
@@ -84,22 +83,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It collects data and plans three times as wisely, but it may think too much and fall into a state of immobility."
+		en: "It collects data and plans three times as wisely, but it may think too much and fall into a state of immobility.",
+		de: "Es sammelt Daten und überlegt sich alles dreimal, ehe es sich entscheidet. Dadurch wird es oft gelähmt."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279264,
+				tcgplayer: 84854
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279264,
+				tcgplayer: 84854
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279264,
-		tcgplayer: 84854
-	}
 }
 
 export default card

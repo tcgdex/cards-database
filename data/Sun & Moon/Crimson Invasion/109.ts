@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Mira tus cartas de Premio que están boca abajo y pon 1 de ellas en tu mano. Después, pon esta carta de Gladio entre tus cartas de Premio restantes, barájalas y vuelve a ponerlas boca abajo. Si no has jugado esta carta de Gladio de tu mano, no hace nada.",
 		it: "Guarda le tue carte Premio coperte e aggiungine una alle carte che hai in mano. Poi rimischia questo Iridio nelle tue carte Premio rimanenti e rimettile a faccia in giù. Se non lo hai giocato dalla tua mano, questo Iridio non ha effetto.",
 		pt: "Olhe as suas cartas de Prêmio viradas para baixo e coloque 1 delas na sua mão. Em seguida, embaralhe este Gladio entre as suas cartas de Prêmio restantes e coloque-as de volta viradas para baixo. Se você não jogou este Gladio da sua mão, ele não fará nada.",
-		de: "Sieh dir deine verdeckten Preiskarten an und nimm 1 von ihnen auf deine Hand. Mische anschließend diese Gladio-Karte in deine verbleibenden Preiskarten und lege sie verdeckt zurück. Wenn du diese Gladio-Karte nicht aus deiner Hand gespielt hast, hat sie keine Auswirkungen."
+		de: "Schau dir deine verdeckten Preiskarten an und nimm 1 von ihnen auf deine Hand. Mische anschließend diese Gladio-Karte in deine verbleibenden Preiskarten und lege sie verdeckt zurück. Wenn du diese Gladio-Karte nicht aus deiner Hand gespielt hast, hat sie keine Auswirkungen. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

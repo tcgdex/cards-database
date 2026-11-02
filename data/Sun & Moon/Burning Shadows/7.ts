@@ -63,10 +63,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 299414,
-		tcgplayer: 138277
-	}
+	description: {
+		en: "Many writhing vines cover it, so its true identity remains unknown. The blue vines grow its whole life long.",
+		de: "Aufgrund der Ranken, die seinen Körper bedecken, kennt keiner seine wahre Form. Die blauen Ranken wachsen immer weiter."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299414,
+				tcgplayer: 138277
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299414,
+				tcgplayer: 138277
+			}
+		},
+	],
 }
 
 export default card

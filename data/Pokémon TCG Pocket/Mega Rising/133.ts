@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Archen"
+		en: "Archen",
+		fr: "Arkéapti"
 	},
 
 	illustrator: "0313",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Plume Fossil"
+		en: "Plume Fossil",
+		fr: "Fossile Plume"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Rock Throw"
+			en: "Rock Throw",
+			fr: "Jet-Pierres"
 		},
 
 		damage: 40,

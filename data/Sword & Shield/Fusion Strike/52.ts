@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 60,
 	types: ["Water"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "tetsuya koizumi",
 
 	description: {
-		en: "No number of injuries can bother Staryu. Its amazing regenerative powers return it to its previous state in half a day!"
+		en: "No number of injuries can bother Staryu. Its amazing regenerative powers return it to its previous state in half a day!",
+		de: "Verletzungen machen diesem Pokémon nichts aus. Dank seiner Regenerationsfähigkeit ist es einen halben Tag später schon wieder wie neu."
 	},
 
 	attacks: [{
@@ -62,17 +69,23 @@ const card: Card = {
 		damage: 10
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582186,
-		tcgplayer: 253183
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582186,
+				tcgplayer: 253183
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582186,
+				tcgplayer: 253183
+			}
+		},
+	],
 }
 
 export default card

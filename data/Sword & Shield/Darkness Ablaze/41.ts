@@ -69,23 +69,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large."
+		en: "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large.",
+		de: "Das Wasser, das es im Büschel auf seinem Kopf sammelt, ist äußerst nahrhaft und verhilft Pflanzen zu großem Wachstum."
 	},
 
-	thirdParty: {
-		cardmarket: 483084,
-		tcgplayer: 219324
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483084,
+				tcgplayer: 219324
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483084,
+				tcgplayer: 219324
+			}
+		},
+	],
 }
 
 export default card

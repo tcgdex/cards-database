@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				de: "Aquaknarre"
 			},
 
 			damage: 30,
@@ -51,6 +52,7 @@ const card: Card = {
 			name: {
 				en: "Surf",
 				fr: "Surf",
+				de: "Surfer"
 			},
 
 			damage: 60,
@@ -67,10 +69,27 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 280148,
-		tcgplayer: 89921
-	}
+	description: {
+		en: "Restored from a fossil, this Pokémon can dive to depths beyond half a mile.",
+		de: "Es wurde aus einem urzeitlichen Fossil reanimiert. Es kann in Tiefen von bis zu 1 000 Metern abtauchen."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280148,
+				tcgplayer: 89921
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280148,
+				tcgplayer: 89921
+			}
+		},
+	],
 }
 
 export default card

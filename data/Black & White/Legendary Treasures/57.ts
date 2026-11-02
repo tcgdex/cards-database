@@ -47,6 +47,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A Pokémon that startles people in the middle of the night. It gathers fear as its energy.",
+	},
+
 	thirdParty: {
 		cardmarket: 281208,
 		tcgplayer: 87513

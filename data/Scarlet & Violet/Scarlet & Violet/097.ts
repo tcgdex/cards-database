@@ -35,14 +35,30 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "Mizue",
+
+	description: {
+		en: "This Pokémon is smooth and moist to the touch. Yeast in Fidough's breath induces fermentation in the Pokémon's vicinity.",
+		de: "Dieses Pokémon fühlt sich glatt und feucht an. Sein Atem enthält Hefe und bringt so alles in der Umgebung zum Gären."
+	},
 
 	thirdParty: {
         cardmarket: 702393,

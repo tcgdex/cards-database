@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		110,
-	],
+	dexId: [110],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Koffing",
-		fr: "Smogo"
+		fr: "Smogo",
+		de: "Smogon"
 	},
 
 	stage: "Stage1",
@@ -77,19 +76,24 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275672,
-		tcgplayer: 90556
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275672,
+				tcgplayer: 90556
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275672,
+				tcgplayer: 90556
+			}
 		},
-	]
+	],
+
 }
 
 export default card

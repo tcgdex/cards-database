@@ -78,6 +78,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its fangs are long and very sharp. They grow continuously, so it gnaws on hard things to whittle them down.",
+		de: "Seine Reißzähne sind lang und scharf. Da sie ständig wachsen, nagt es immerzu an etwas, um sie abzuwetzen."
+	},
+
 	thirdParty: {
 		cardmarket: 293419,
 		tcgplayer: 124079

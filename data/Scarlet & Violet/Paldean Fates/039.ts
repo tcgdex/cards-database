@@ -65,18 +65,41 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751576,
+				tcgplayer: 534185,
+				cardtrader: 274223
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751576,
+				tcgplayer: 534185,
+				cardtrader: 274223
+			}
+		},
+	],
 
 	illustrator: "You Iribi",
 
-	thirdParty: {
-		cardmarket: 751576
-	}
+	description: {
+		en: "The pleasant aroma that emanates from this Pokémon's body helps wheat grow, so Dachsbun has been treasured by farming villages.",
+		de: "Da der wohlige Duft, den sein Körper verströmt, das Wachstum von Weizen begünstigt, schätzt man dieses Pokémon in Bauerndörfern sehr."
+	},
+
 }
 
 export default card

@@ -43,15 +43,21 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273961,
-		tcgplayer: 42477
+
+	description: {
+		en: "Long considered a mythical Pokémon until recently, when a small colony was found living underwater.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273961,
+				tcgplayer: 42477
+			}
 		}
 	]
 }

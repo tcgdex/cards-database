@@ -49,12 +49,22 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "With ninja-like agility and speed, it can create the illusion that there is more than one.",
+	},
 
 	variants: [
 		{
 			type: "normal",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275464,
+				tcgplayer: 88993
+			}
+		},
+	],
 }
 
 export default card

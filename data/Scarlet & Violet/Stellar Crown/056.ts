@@ -42,18 +42,34 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 785910,
+				tcgplayer: 567282
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 785910,
+				tcgplayer: 567282
+			}
+		},
+	],
 
 	illustrator: "Natsumi Yoshida",
 
-	thirdParty: {
-		cardmarket: 785910
-	}
 }
 
 export default card

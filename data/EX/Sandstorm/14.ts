@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		335,
-	],
+	dexId: [335],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -31,13 +29,13 @@ const card: Card = {
 			name: {
 				en: "Poison Resistance",
 				fr: "Résistance au poison",
-				de: "Poison Resistance"
+				de: "Giftresistenz"
 			},
 			effect: {
 				en: "Zangoose can't be Poisoned.",
 				fr: "Mangriff ne peut pas être Empoisonné.",
-				de: "Zangoose can't be Poisoned."
-			},
+				de: "Sengo kann nicht vergiftet werden."
+			}
 		},
 	],
 
@@ -49,12 +47,12 @@ const card: Card = {
 			name: {
 				en: "Target Slash",
 				fr: "Tranche-cible",
-				de: "Target Slash"
+				de: "Gezielter Schlitzer"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Seviper, this attack does 10 damage plus 30 more damage.",
 				fr: "Si Seviper est le Pokémon Défenseur, cette attaque inflige 40 dégâts.",
-				de: "If the Defending Pokémon is a Seviper, this attack does 10 damage plus 30 more damage."
+				de: "Wenn Vipitis das Verteidigende Pokémon ist, fügt dieser Angriff 10 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -68,12 +66,12 @@ const card: Card = {
 			name: {
 				en: "Super Slash",
 				fr: "Super entaille",
-				de: "Super Slash"
+				de: "Super Schlitzer"
 			},
 			effect: {
 				en: "If the Defending Pokémon is an Evolved Pokémon, this attack does 30 damage plus 30 more damage.",
 				fr: "Si le Pokémon Défenseur est un Pokémon Évolué, cette attaque inflige 60 dégâts.",
-				de: "If the Defending Pokémon is an Evolved Pokémon, this attack does 30 damage plus 30 more damage."
+				de: "Wenn das Verteidigende Pokémon ein entwickeltes Pokémon ist, fügt dieser Angriff 30 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -90,19 +88,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275791,
-		tcgplayer: 90702
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275791,
+				tcgplayer: 90702
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275791,
+				tcgplayer: 90702
+			}
 		},
-	]
+	],
+
 }
 
 export default card

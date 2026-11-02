@@ -4,7 +4,7 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Metang",
-		fr: "Metang",
+		fr: "Métang",
 		de: "Metang"
 	},
 
@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		375,
-	],
+	dexId: [375],
 
 	hp: 80,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your discard pile for a Metal Energy card and attach it to Metang.",
-				fr: "Choisissez une carte Énergie  dans votre pile de défausse et attachez-la à Metang.",
+				fr: "Choisissez une carte Énergie {M} dans votre pile de défausse et attachez-la à Metang.",
 				de: "Search your discard pile for a  Energy card and attach it to Metang."
 			},
 
@@ -80,18 +78,22 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276095,
-		tcgplayer: 87371
-	},
-
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
+			thirdParty: {
+				tcgplayer: 87371,
+				cardmarket: 276095
+			}
+		},
+		{
+			type: "reverse",
+			foil: 'energy',
+			thirdParty: {
+				tcgplayer: 87371,
+				cardmarket: 276095
+			}
+		},
 	]
 }
 

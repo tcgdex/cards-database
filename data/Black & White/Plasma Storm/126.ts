@@ -16,13 +16,15 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [109],
+
 	effect: {
 		fr: "Placez 2 marqueurs de dégâts supplémentaires sur les Pokémon Empoisonnés (les vôtres et ceux de votre adversaire) entre chaque tour.",
 		en: "Put 2 more damage counters on Poisoned Pokémon (both yours and your opponent’s) between turns.",
 		es: "Pon 2 contadores de daño más sobre los Pokémon Envenenados (tanto tuyos como de tu rival) entre turnos.",
 		it: "Metti altri due segnalini danno sui Pokémon avvelenati, sia tuoi che del tuo avversario, tra un turno e l’altro.",
 		pt: "Coloque 2 marcadores de danos adicionais nos Pokémon Envenenados (tanto seus quanto do seu oponente) entre as vezes de jogar.",
-		de: "Lege zwischen den Zügen 2 weitere Schadensmarken auf vergiftete Pokémon (deine und die deines Gegners)."
+		de: "Lege zwischen den Zügen 2 weitere Schadensmarken auf vergiftete Pokémon (deine und die deines Gegners). Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

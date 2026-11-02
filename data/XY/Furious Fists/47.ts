@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [67],
 
 	dexId: [
 		106,
@@ -78,6 +79,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "The legs freely contract and stretch. The stretchy legs allow it to hit a distant foe with a rising kick.",
+		de: "Die Beine ziehen und strecken sich unabhängig voneinander. Mit seinen dehnbaren Beinen kann es einen entfernten Gegner treffen."
+	},
 
 	thirdParty: {
 		cardmarket: 281711,

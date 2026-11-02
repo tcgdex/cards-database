@@ -62,6 +62,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It usually murmurs but starts crying loudly if it senses danger. It stops when its ear covers are shut.",
+		de: "Normalerweise murmelt es, aber bei Gefahr beginnt es laut zu schreien. Es hört auf zu schreien, wenn seine Ohrmuscheln bedeckt werden."
+	},
+
 	thirdParty: {
 		cardmarket: 281889,
 		tcgplayer: 94651

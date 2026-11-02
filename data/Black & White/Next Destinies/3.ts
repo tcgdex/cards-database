@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Beat",
 				fr: "Bataille",
+				de: "Verprügler"
 			},
 
 			damage: 10,
@@ -49,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Double Headbutt",
 				fr: "Double Coup d'Boule",
+				de: "Doppelte Kopfnuss"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 10 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts supplémentaires pour chaque côté face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 10,
 
@@ -68,10 +71,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280228,
-		tcgplayer: 86531
-	}
+	description: {
+		en: "Its legs are short. Whenever it stumbles, its stiff antennae clack with a xylophone-like sound.",
+		de: "Seine Beine sind kurz. Stolpert es, klappern seine starren Antennen und klingen wie ein Xylophon."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280228,
+				tcgplayer: 86531
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280228,
+				tcgplayer: 86531
+			}
+		},
+	],
 }
 
 export default card

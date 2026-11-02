@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gastly",
 		fr: "Fantominus",
+		de: "Nebulak"
 	},
 
 	stage: "Stage1",
@@ -73,6 +74,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "On moonless nights, Haunter searches for someone to curse, so it's best not to go out walking around.",
+		de: "In mondlosen Nächten sucht es nach Opfern, die es mit einem Fluch belegen kann. Zu Hause ist man daher am sichersten aufgehoben."
+	},
 
 	thirdParty: {
 		cardmarket: 372357,

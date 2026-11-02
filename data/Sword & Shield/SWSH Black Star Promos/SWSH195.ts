@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Leafeon VSTAR"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 260,
 	types: ["Grass"],
@@ -55,12 +55,39 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
-
-	thirdParty: {
-		cardmarket: 604997
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 604997,
+				tcgplayer: 262566
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 605846,
+				tcgplayer: 263260
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 705128,
+				tcgplayer: 489306
+			}
+		},
+	],
 }
 
 export default card

@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Wurmple",
 		fr: "Chenipotte",
+		de: "Waumpel"
 	},
 
 	stage: "Stage1",
@@ -77,7 +78,9 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		fr: "Il est au chaud dans son cocon. Ses cellules produisent l'énergie nécessaire à son évolution."
+		en: "It is hot inside its cocoon. All the cells in its body create the energy for it to evolve.",
+		fr: "Il est au chaud dans son cocon. Ses cellules produisent l'énergie nécessaire à son évolution.",
+		de: "In seinem Kokon ist es heiß. Seine Körperzellen produzieren die Hitze, damit es sich entwickeln kann."
 	},
 
 	thirdParty: {

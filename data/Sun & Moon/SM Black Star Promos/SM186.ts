@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Flamara"
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
+		de: "Evoli"
 	},
 	stage: "Stage1",
 
@@ -66,7 +67,7 @@ const card: Card = {
 				es: "Descarta 2 Energías Fire de este Pokémon.",
 				it: "Scarta due Energie Fire assegnate a questo Pokémon.",
 				pt: "Descarte 2 Energias Fire deste Pokémon.",
-				de: "Lege 2 Fire-Energien von diesem Pokémon auf deinen Ablagestapel."
+				de: "Lege 2 {R}-Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 130,
 
@@ -83,6 +84,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "If it inhales deeply, that's a sign it's about to attack. Prepare to be hit by flames of over 3,000 degrees Fahrenheit!",
+		de: "Wenn es tief einatmet, bereitet es gerade einen Angriff vor. Es kann bis zu 1 700 °C heiße Flammen speien."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 373094,
+				tcgplayer: 189759
+			}
+		}
+	],
 }
 
 export default card

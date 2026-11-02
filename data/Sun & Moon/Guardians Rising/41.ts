@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Geodude",
 		fr: "Racaillou d’Alola",
+		de: "Alola-Kleinstein"
 	},
 
 	stage: "Stage1",
@@ -102,6 +103,11 @@ const card: Card = {
 	],
 
 	retreat: 4,
+
+	description: {
+		en: "Its preferred food is dravite. After it has eaten this mineral, crystals form inside the Pokémon, rising to the surface of part of its body.",
+		de: "Georok ernährt sich vorzugsweise von Draviten. Die verzehrten Teilchen werden zu Kristallen, die an einer Körperstelle hervortreten."
+	},
 
 	thirdParty: {
 		cardmarket: 297503,

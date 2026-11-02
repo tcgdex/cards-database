@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Despite the beauty of its lilting voice, it's merciless to intruders that enter its territory.",
+		de: "Sein Zwitschern ist wunderschön, aber wenn Gegner sein Revier betreten, kennt es keine Gnade."
+	},
+
 	thirdParty: {
 		cardmarket: 291654,
 		tcgplayer: 121220

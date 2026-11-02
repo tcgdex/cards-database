@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Feebas",
 		fr: "Barpau",
+		de: "Barschwa"
 	},
 
 	stage: "Stage1",
@@ -92,6 +93,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Milotic has provided inspiration to many artists. It has even been referred to as the most beautiful Pokémon of all.",
+		de: "Milotic soll das schönste aller Pokémon sein. Es hat schon so manchem Künstler als Quelle der Inspiration gedient."
+	},
 
 	thirdParty: {
 		cardmarket: 311877,

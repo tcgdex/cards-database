@@ -1,50 +1,64 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "烏波"
+		ja: "シルシュルー",
+		'zh-tw': "烏波",
 	},
 
-	illustrator: "Saboteri",
+	illustrator: "Hitoshi Ariga",
 	category: "Pokemon",
-	hp: 60,
-	types: ["Water"],
+	hp: 50,
+	types: ["Colorless"],
 
 	description: {
-		'zh-tw': "在冰冷的水中生活。 當周遭的天氣變涼時， 也會來到陸地上覓食。"
+		ja: "温厚だが 怒らせると 毒が 染みこんだ 鋭い 前歯で 咬みつき 痺れさせてくるぞ。",
+		'zh-tw': "在冰冷的水中生活。 當周遭的天氣變涼時， 也會來到陸地上覓食。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "打水"
+	attacks: [
+		{
+			name: {
+				ja: "ひっかく",
+				'zh-tw': "打水",
+			},
+			damage: 10,
+			cost: ["Colorless"],
 		},
-
-		effect: {
-			'zh-tw': "從自己的棄牌區選擇最多3張「基本【水】能量」卡，在給對手看過後放回牌庫並重洗。"
+		{
+			name: {
+				ja: "どくのまえば",
+				'zh-tw': "頭錘",
+			},
+			damage: 20,
+			cost: ["Colorless", "Colorless"],
+			effect: {
+				ja: "相手のバトルポケモンをどくにする。",
+			},
 		},
+	],
 
-		cost: ["Water"]
-	}, {
-		name: {
-			'zh-tw': "頭錘"
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 719856,
+				tcgplayer: 587845,
+			},
 		},
-
-		damage: 10,
-		cost: ["Water"]
-	}],
-
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
+	],
 
 	retreat: 1,
-	regulationMark: "H"
-}
+	regulationMark: "G",
+	rarity: "Promo",
+	dexId: [944],
+};
 
-export default card
+export default card;

@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Evoli GX"
 	},
 	illustrator: "PLANETA Otani",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -97,8 +97,15 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 369353,
+				tcgplayer: 183562
+			}
+		}
+	],
 }
 
 export default card

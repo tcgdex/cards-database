@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [757],
 
 	dexId: [
 		758,
@@ -105,7 +106,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Only female Salazzle exist. They emit a gas laden with pheromones to captivate male Salandit."
+		en: "Only female Salazzle exist. They emit a gas laden with pheromones to captivate male Salandit.",
+		de: "Es existieren nur weibliche Exemplare. Sie stoßen Pheromongase aus, mit denen sie sich männliche Molunk hörig machen."
 	},
 
 	thirdParty: {

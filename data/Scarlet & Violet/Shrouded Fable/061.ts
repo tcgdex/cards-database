@@ -22,21 +22,33 @@ const card: Card = {
 		es: "Pon 1 Pokémon o 1 carta de Energía Básica de tu pila de descartes en tu mano.",
 		it: "Prendi un Pokémon o una carta Energia base dalla tua pila degli scarti e aggiungi la carta a quelle che hai in mano.",
 		pt: "Coloque um Pokémon ou uma carta de Energia Básica da sua pilha de descarte na sua mão.",
-		de: "Nimm 1 Pokémon oder 1 Basis-Energiekarte aus deinem Ablagestapel auf deine Hand."
+		de: "Nimm 1 Pokémon oder 1 Basis-Energiekarte aus deinem Ablagestapel auf deine Hand. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
 
 	illustrator: "Toyste Beach",
 
-	thirdParty: {
-		cardmarket: 780957
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 780957,
+				tcgplayer: 560372
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 780957,
+				tcgplayer: 560372
+			}
+		},
+	],
 }
 
 export default card

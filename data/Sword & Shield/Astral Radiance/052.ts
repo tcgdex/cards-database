@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Tornupto"
 	},
 
+	illustrator: "Kouki Saitou",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 150,
@@ -48,7 +49,7 @@ const card: Card = {
 			es: "Debes descartar 1 carta de Energía Psychic de tu mano para poder usar esta habilidad. Una vez durante tu turno, puedes dejar al Pokémon Activo de tu rival Confundido y Quemado.",
 			it: "Devi scartare una carta Energia Psychic che hai in mano per usare questa abilità. Una sola volta durante il tuo turno, puoi lasciare il Pokémon attivo del tuo avversario bruciato e confuso.",
 			pt: "Você deve descartar 1 carta de Energia Psychic da sua mão para usar esta Habilidade. Uma vez durante o seu turno, você poderá deixar o Pokémon Ativo do seu oponente Confuso e Queimado.",
-			de: "Du musst 1 Psychic-Energiekarte aus deiner Hand auf deinen Ablagestapel legen, um diese Fähigkeit einzusetzen. Einmal während deines Zuges kannst du das Aktive Pokémon deines Gegners verbrennen und verwirren."
+			de: "Du musst 1 {P}-Energiekarte aus deiner Hand auf deinen Ablagestapel legen, um diese Fähigkeit einzusetzen. Einmal während deines Zuges kannst du das Aktive Pokémon deines Gegners verbrennen und verwirren."
 		}
 	}],
 
@@ -76,20 +77,50 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "Said to purify lost, forsaken souls with its flames and guide them to the afterlife. I believe its form has been influenced by the energy of the sacred mountain towering at Hisui's center.",
+		de: "Ich vermute, dass die Energie des heiligen Berges im Zentrum Hisuis sein Äußeres beeinflusst hat. Es heißt, es reinige verlorene Seelen in seinen Flammen, um sie sodann ins Jenseits zu führen."
 	},
 
-	thirdParty: {
-		cardmarket: 658603,
-		tcgplayer: 272253
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658603,
+				tcgplayer: 272253
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['set-logo'],
+			thirdParty: {
+				cardmarket: 660427
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658603,
+				tcgplayer: 272253
+			}
+		},
+	],
 }
 
 export default card

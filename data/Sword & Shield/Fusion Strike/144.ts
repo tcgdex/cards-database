@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 60,
 	types: ["Fighting"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Sumiyoshi Kizuki",
 
 	description: {
-		en: "It was discovered in ancient ruins. While moving, it constantly spins. It stands on one foot even when asleep."
+		en: "It was discovered in ancient ruins. While moving, it constantly spins. It stands on one foot even when asleep.",
+		de: "Es wurde in antiken Ruinen entdeckt. Wenn es sich bewegt, dreht es sich. Auch im Schlaf steht es auf einem Bein."
 	},
 
 	attacks: [{
@@ -42,17 +49,23 @@ const card: Card = {
 		damage: 20
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582768,
-		tcgplayer: 253356
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582768,
+				tcgplayer: 253356
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582768,
+				tcgplayer: 253356
+			}
+		},
+	],
 }
 
 export default card

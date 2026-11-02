@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 80,
 	types: ["Fighting"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Mizue",
 
 	description: {
-		en: "Its tentacles tear off easily, but it isn't alarmed when that happens—it knows they'll grow back. It's about as smart as a three-year-old."
+		en: "Its tentacles tear off easily, but it isn't alarmed when that happens—it knows they'll grow back. It's about as smart as a three-year-old.",
+		de: "Sein Verstand ist ungefähr auf dem Level eines dreijährigen Kindes. Es macht ihm nichts aus, dass seine Tentakel oft abreißen, da sie nachwachsen."
 	},
 
 	attacks: [{
@@ -55,17 +62,23 @@ const card: Card = {
 		damage: 20
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582780,
-		tcgplayer: 253366
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582780,
+				tcgplayer: 253366
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582780,
+				tcgplayer: 253366
+			}
+		},
+	],
 }
 
 export default card

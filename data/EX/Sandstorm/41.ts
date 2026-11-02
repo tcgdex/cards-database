@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		305,
-	],
+	dexId: [305],
 
 	hp: 70,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Aron",
-		fr: "Galekid"
+		fr: "Galekid",
+		de: "Stollunior"
 	},
 
 	stage: "Stage1",
@@ -38,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Iron Defense",
 				fr: "Mûr de fer",
-				de: "Iron Defense"
+				de: "Eisenabwehr"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Lairon during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Galegon lors du prochain tour de votre adversaire.",
-				de: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Lairon during your opponent's next turn."
+				de: "Wirf 1 Münze. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte von Angriffen (einschließlich Schaden), die Stollrak zugefügt werden."
 			},
 
 		},
@@ -56,7 +55,7 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d'boule",
-				de: "Headbutt"
+				de: "Kopfnuss"
 			},
 
 			damage: 50,
@@ -81,19 +80,24 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275818,
-		tcgplayer: 86575
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275818,
+				tcgplayer: 86575
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275818,
+				tcgplayer: 86575
+			}
 		},
-	]
+	],
+
 }
 
 export default card

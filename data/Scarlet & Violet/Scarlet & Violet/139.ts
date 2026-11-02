@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pineco",
-		fr: "Pomdepik"
+		fr: "Pomdepik",
+		de: "Tannza"
 	},
 
 	stage: "Stage1",
@@ -72,14 +73,36 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "Lee HyunJung",
+
+	description: {
+		en: "Its entire body is shielded by a steel-hard shell. What lurks inside this shell is a total mystery.",
+		de: "Sein gesamter Körper steckt in einer stahlharten Schale. Ihr Inneres bleibt ein Geheimnis."
+	},
 
 	thirdParty: {
         cardmarket: 702434,

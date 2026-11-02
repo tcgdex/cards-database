@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Slap Push",
 				fr: "Grande Claque",
+				de: "Stoß"
 			},
 
 			damage: 30,
@@ -53,10 +54,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 280669,
-		tcgplayer: 87134
-	}
+	description: {
+		en: "It toughens its body by slamming into thick trees. Many snapped trees can be found near its nest.",
+		de: "Es stärkt seinen Körper, indem es gegen Bäume rennt. In seiner Nähe finden sich viele umgekippte Bäume."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280669,
+				tcgplayer: 87134
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280669,
+				tcgplayer: 87134
+			}
+		},
+	],
 }
 
 export default card

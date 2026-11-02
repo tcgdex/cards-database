@@ -4,28 +4,27 @@ import Set from '../Unleashed'
 const card: Card = {
 	name: {
 		en: "Metagross",
-		fr: "Metalosse",
+		fr: "Métalosse",
 		de: "Metagross"
 	},
 
 	illustrator: "Wataru Kawahara",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		376,
-	],
+	dexId: [376],
 
 	hp: 130,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Metang",
-		fr: "Metang",
+		fr: "Métang",
+		de: "Metang"
 	},
 
 	stage: "Stage2",
@@ -41,8 +40,8 @@ const card: Card = {
 			effect: {
 				en: "If you have any Psychic Energy attached to your Active Pokémon, the Retreat Cost for that Pokémon is 0.",
 				fr: "Si une ou plusieurs cartes Énergie Psychic sont attachées à votre Pokémon Actif, le Coût de retraite de ce dernier est de 0.",
-				de: "Wenn an dein Aktives Pokémon mindestens 1 -Energie angelegt ist, hat dieses Pokémon Rückzugskosten von 0."
-			},
+				de: "Wenn an dein Aktives Pokémon mindestens 1 {P}-Energie angelegt ist, hat dieses Pokémon Rückzugskosten von 0."
+			}
 		},
 	],
 
@@ -73,7 +72,7 @@ const card: Card = {
 				de: "Doppelter Beinhammer"
 			},
 			effect: {
-				en: "Choose 2 of your opponent’s Benched Pokémon. This attack does 40 damage to each of them. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Choose 2 of your opponent's Benched Pokémon. This attack does 40 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Choisissez 2 des Pokémon se trouvant sur le Banc de votre adversaire. Cette attaque inflige 40 dégâts à chacun d’entre eux. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 				de: "Wähle 2 Pokémon auf der Bank deines Gegners. Dieser Angriff fügt jedem der gewählten Pokémon 40 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
@@ -93,20 +92,23 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo"
-		},
+				},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87340,
+				cardmarket: 279160
+			}
 		},
 		{
 			type: "holo",
-			foil: "cracked-ice"
+			foil: "cracked-ice",
+			thirdParty: {
+				tcgplayer: 227095
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279160,
-		tcgplayer: 87340
-	}
 }
 
 export default card

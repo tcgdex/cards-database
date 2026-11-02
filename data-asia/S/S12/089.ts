@@ -19,6 +19,16 @@ const card: Card = {
 		ja: "「クワッドストーン」は、1枚または4枚同時に使え、使った枚数によって効果が変わる。\n\n◆1枚使ったなら、自分のバトルポケモンのHPを「10」回復する。\n\n◆4枚同時に使ったなら、自分のポケモン全員のHPを、すべて回復する。（この効果は、4枚で1回はたらく。）"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 680228,
+				tcgplayer: 570147,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "F",
 	rarity: "Uncommon"

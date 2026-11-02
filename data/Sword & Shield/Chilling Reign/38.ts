@@ -63,23 +63,30 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Be it Spheal or a Poké Ball, it will spin any round object on its nose with the greatest of ease."
+		en: "Be it Spheal or a Poké Ball, it will spin any round object on its nose with the greatest of ease.",
+		de: "Pokébälle, Seemops und alles, was sonst noch rund ist, balanciert es mit großem Geschick auf seiner Nasenspitze."
 	},
 
-	thirdParty: {
-		cardmarket: 567118,
-		tcgplayer: 241691
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567118,
+				tcgplayer: 241691
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567118,
+				tcgplayer: 241691
+			}
+		},
+	],
 }
 
 export default card

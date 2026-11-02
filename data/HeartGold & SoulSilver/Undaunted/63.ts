@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		204,
-	],
+	dexId: [204],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Energiefokus"
 			},
 			effect: {
-				en: "During your next turn, Pineco’s Surprise Attack attack’s base damage is 80.",
+				en: "During your next turn, Pineco's Surprise Attack attack's base damage is 80.",
 				fr: "Pendant votre prochain tour, l’Attaque surprise de Pomdepik inflige 80 dégâts de base.",
 				de: "In deinem nächsten Zug beträgt der Grundschaden von Tannzas Überraschungsangriff 80 Schadenspunkte."
 			},
@@ -55,7 +53,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 40,
 
@@ -72,22 +70,27 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn’t bother it."
+		en: "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn’t bother it.",
+		de: "Es fügt seiner Schale schichtenweise Baumrinde hinzu. Die zusätzliche Belastung ist ihm gleich."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279316,
+				tcgplayer: 88130
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279316,
+				tcgplayer: 88130
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279315,
-		tcgplayer: 88130
-	}
 }
 
 export default card

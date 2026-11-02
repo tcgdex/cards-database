@@ -23,7 +23,7 @@ const card: Card = {
 		es: "Por cada uno de tus Pokémon Fire en juego, pon 1 carta de la pila de descartes de tu rival en la Zona Perdida.",
 		it: "Per ogni tuo Pokémon Fire in gioco, prendi una carta dalla pila degli scarti del tuo avversario e mettila nell’area perduta.",
 		pt: "Para cada um dos seus Pokémon Fire em jogo, coloque 1 carta da pilha de descarte do seu oponente na Zona Perdida.",
-		de: "Lege für jedes deiner Fire-Pokémon im Spiel 1 Karte aus dem Ablagestapel deines Gegners ins Nirgendwo."
+		de: "Du kannst nicht mehr als 1 ◇-Karte mit demselben Namen in deinem Deck haben. Wenn 1 ◇-Karte auf deinen Ablagestapel gelegt würde, lege sie stattdessen ins Nirgendwo. Lege für jedes deiner {R}-Pokémon im Spiel 1 Karte aus dem Ablagestapel deines Gegners ins Nirgendwo. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	}
 }
 

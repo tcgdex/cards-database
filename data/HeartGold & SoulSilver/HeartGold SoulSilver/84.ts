@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		120,
-	],
+	dexId: [120],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -51,27 +49,32 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "At night, the center of its body slowly flickers with the same rhythm as a human heartbeat."
+		en: "At night, the center of its body slowly flickers with the same rhythm as a human heartbeat.",
+		de: "Nachts blinkt die Mitte seines Körpers im selben Rhythmus wie das menschliche Herz."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89552,
+				cardmarket: 279056
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89552,
+				cardmarket: 279056
+			}
 		},
 		{
 			type: "normal",
-			stamp : ["snowflake"],
+			stamp: ["snowflake"],
 			languages: ["de"]
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279056,
-		tcgplayer: 89552
-	}
 }
 
 export default card

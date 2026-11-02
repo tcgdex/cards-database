@@ -23,23 +23,29 @@ const card: Card = {
 		es: "Pon 1 Pokémon Básico de la pila de descartes de tu rival en su Banca.",
 		it: "Prendi un Pokémon Base dalla pila degli scarti del tuo avversario e mettilo nella sua panchina.",
 		pt: "Coloque 1 Pokémon Básico da pilha de descarte do seu oponente no Banco dele(a).",
-		de: "Lege 1 Basis-Pokémon aus dem Ablagestapel deines Gegners auf seine Bank."
+		de: "Lege 1 Basis-Pokémon aus dem Ablagestapel deines Gegners auf seine Bank. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 567243,
-		tcgplayer: 241828
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567243,
+				tcgplayer: 241828
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567243,
+				tcgplayer: 241828
+			}
+		},
+	],
 }
 
 export default card

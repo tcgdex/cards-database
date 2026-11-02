@@ -27,7 +27,8 @@ const card: Card = {
 	evolveFrom: {
 		en: "Abra",
 		fr: "Abra",
-		it: "Abra"
+		it: "Abra",
+		de: "Abra"
 	},
 
 	stage: "Stage1",
@@ -46,8 +47,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Kadabra in order use this attack. Remove all damage counters from Kadabra.",
-				fr: "Défaussez 1 carte Énergie  attachée à Kadabra pour pouvoir utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Kadabra.",
-				de: "Entferne eine auf kadabra abgelegte  Energiekarte, um diesen Angriff auszuführen. Entferne alle Schadensmarken von Kadabra.",
+				fr: "Défaussez 1 carte Énergie {P} attachée à Kadabra pour pouvoir utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Kadabra.",
+				de: "Entferne eine auf Kadabra abgelegte {P} Energiekarte, um diesen Angriff auszuführen. Entferne alle Schadensmarken von Kadabra.",
 				it: "Scarta una carta Energia Psico assegnata a Kadabra per poter usare questo attacco. Togli tutti i segnalini danno da Kadabra.",
 			},
 
@@ -76,29 +77,41 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "It emits special alpha waves from its body that induce headaches even to those just nearby.",
 		fr: "Son corps émet des ondes alpha provoquant des migraines à ceux qui se trouvent à proximité.",
-		it: "Emette dal corpo speciali onde alfa che causano mal di testa a chiunque gli sia vicino. LIV 38 N.64"
+		it: "Emette dal corpo speciali onde alfa che causano mal di testa a chiunque gli sia vicino. LIV 38 N.64",
+		de: "Es sendet besondere Alphastrahlen aus seinem Körper aus, die sogar bei zufällig in der Nähe stehenden Personen Kopfschmerzen auslösen."
 	},
 
-	thirdParty: {
-		cardmarket: 273727,
-		tcgplayer: 42374
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273727,
+				tcgplayer: 42374
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107029,
+				cardmarket: 660196
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107029,
+				cardmarket: 660196
+			},
 		},
 		{
 			type: "normal",

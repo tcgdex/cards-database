@@ -42,23 +42,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It flies straight at its target's face then clamps down on the startled victim to inject poison."
+		en: "It flies straight at its target's face then clamps down on the startled victim to inject poison.",
+		de: "Es fliegt direkt auf das Gesicht seiner Feinde zu und injiziert ihnen eine Überdosis Gift."
 	},
 
-	thirdParty: {
-		cardmarket: 545471,
-		tcgplayer: 234247
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545471,
+				tcgplayer: 234247
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545471,
+				tcgplayer: 234247
+			}
+		},
+	],
 }
 
 export default card

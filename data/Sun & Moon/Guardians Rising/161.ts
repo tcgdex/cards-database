@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Une 1 carta de Energía Water de tu pila de descartes a 1 de tus Pokémon Water en Banca.",
 		it: "Assegna a uno dei tuoi Pokémon Water in panchina una carta Energia Water dalla tua pila degli scarti.",
 		pt: "Ligue 1 carta de Energia Water da sua pilha de descarte a 1 dos seus Pokémon Water no Banco.",
-		de: "Lege 1 Water-Energiekarte aus deinem Ablagestapel an 1 Water-Pokémon auf deiner Bank an."
+		de: "Lege 1 {W}-Energiekarte aus deinem Ablagestapel an 1 {W}-Pokémon auf deiner Bank an. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

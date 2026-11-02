@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Beat",
 				fr: "Bataille",
+				de: "Verprügler"
 			},
 
 			damage: 10,
@@ -50,10 +51,12 @@ const card: Card = {
 			name: {
 				en: "Lunge",
 				fr: "Coup Rapide",
+				de: "Ausfall"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 60,
 
@@ -69,10 +72,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 280139,
-		tcgplayer: 87942
-	}
+	description: {
+		en: "This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600° F.",
+		de: "Das Feuer in seinem Kopfbüschel erreicht Temperaturen von bis zu 300 Grad. Es ist in Vulkanhöhlen zu Hause."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280139,
+				tcgplayer: 87942
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280139,
+				tcgplayer: 87942
+			}
+		},
+	],
 }
 
 export default card

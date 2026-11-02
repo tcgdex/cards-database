@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Druddigon"
+		en: "Druddigon",
+		fr: "Drakkarmin"
 	},
 
 	illustrator: "hatachu",
@@ -24,14 +25,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Giga Claw"
+			en: "Giga Claw",
+			fr: "Giga Griffe"
 		},
 
 		damage: 120,
 		cost: ["Fire", "Water", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip 2 coins. If both of them are tails, this attack does nothing."
+			en: "Flip 2 coins. If both of them are tails, this attack does nothing.",
+			fr: "Lancez 2 pièces. Si toutes sont côté pile, cette attaque ne fait rien."
 		}
 	}],
 

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pikachu V"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 190,
@@ -39,26 +40,31 @@ const card: Card = {
 			es: "Puedes descartar todas las Energías Lightning de este Pokémon. Si lo haces, este ataque hace 120 puntos de daño más.",
 			it: "Puoi scartare tutte le Energie Lightning da questo Pokémon. Se lo fai, questo attacco infligge 120 danni in più.",
 			pt: "Você pode descartar todas as Energias Lightning deste Pokémon. Se fizer isto, este ataque causará 120 pontos de dano a mais.",
-			de: "Du kannst alle Lightning-Energien von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke 120 Schadenspunkte mehr zu."
+			de: "Du kannst alle {L}-Energien von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke 120 Schadenspunkte mehr zu."
 		},
 
 		damage: "100+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608703,
-		tcgplayer: 263876
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608703,
+				tcgplayer: 263876
+			}
+		},
+	],
 }
 
 export default card

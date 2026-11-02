@@ -4,6 +4,7 @@ import Set from "../Fusion Strike"
 const card: Card = {
 	dexId: [312],
 	set: Set,
+	cameoDexIds: [311],
 
 	name: {
 		en: "Minun",
@@ -19,12 +20,19 @@ const card: Card = {
 	hp: 70,
 	types: ["Lightning"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "HYOGONOSUKE",
 
 	description: {
-		en: "It cheers on friends. If its friends are losing, its body lets off more and more sparks."
+		en: "It cheers on friends. If its friends are losing, its body lets off more and more sparks.",
+		de: "Es feuert Freunde an. Sind diese im Begriff zu verlieren, gibt sein Körper immer mehr Funken ab."
 	},
 
 	attacks: [{
@@ -62,17 +70,23 @@ const card: Card = {
 		damage: 20
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582482,
-		tcgplayer: 253246
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582482,
+				tcgplayer: 253246
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582482,
+				tcgplayer: 253246
+			}
+		},
+	],
 }
 
 export default card

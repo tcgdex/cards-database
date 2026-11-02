@@ -72,23 +72,30 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
 	description: {
-		en: "It shatters drift ice with its strong tusks. Its thick layer of blubber repels enemy attacks."
+		en: "It shatters drift ice with its strong tusks. Its thick layer of blubber repels enemy attacks.",
+		de: "Seine kräftigen Stoßzähne können Eisschollen zerschmettern. Sein dicker Speck wehrt Angriffe ab."
 	},
 
-	thirdParty: {
-		cardmarket: 567119,
-		tcgplayer: 241692
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567119,
+				tcgplayer: 241692
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567119,
+				tcgplayer: 241692
+			}
+		},
+	],
 }
 
 export default card

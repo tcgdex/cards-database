@@ -12,13 +12,17 @@ const card: Card = {
 	},
 
 	illustrator: "OOYAMA",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
 	dexId: [
 		102,
 	],
+
+
+
+	cameoDexIds: [103],
 
 	hp: 50,
 
@@ -62,7 +66,22 @@ const card: Card = {
 		},
 	],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "Its six eggs use telepathy to communicate among themselves. It is believed to carry plant genes and the genes of other species.",
+		de: "Die sechs Eier kommunizieren telepathisch miteinander. Sie tragen das Erbgut von Pflanzen sowie Pokémon eines bestimmten Typs in sich."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 321168,
+				tcgplayer: 168026
+			}
+		}
+	],
 }
 
 export default card

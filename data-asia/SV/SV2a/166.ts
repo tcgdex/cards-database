@@ -1,19 +1,17 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV2a"
+import { Card } from "../../../interfaces";
+import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
 		ja: "フシギダネ",
 		'zh-tw': "妙蛙種子",
 		th: "ฟุชิกิดาเนะ",
-		id: "Bulbasaur"
+		id: "Bulbasaur",
 	},
 
 	illustrator: "Yoriyuki Ikegami",
 	category: "Pokemon",
-	dexId: [1],
 	hp: 70,
 	types: ["Grass"],
 
@@ -21,42 +19,46 @@ const card: Card = {
 		ja: "生まれて しばらくの あいだ 背中の タネに つまった 栄養を とって 育つ。",
 		'zh-tw': "在出生後的一段時間內，牠會吸收背上種子裡儲存著的營養成長。",
 		th: "ในช่วงเวลาหนึ่งหลังจากเกิดมาแล้ว จะดูดกินสารอาหารที่สะสมไว้ในเมล็ดที่อยู่กลางหลังเพื่อเลี้ยงตัวให้เติบโต",
-		id: "Sesaat setelah dilahirkan, Bulbasaur menggunakan nutrisi yang terkandung dalam biji di punggungnya untuk tumbuh."
+		id: "Sesaat setelah dilahirkan, Bulbasaur menggunakan nutrisi yang terkandung dalam biji di punggungnya untuk tumbuh.",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		cost: ["Grass", "Colorless"],
-
-		name: {
-			ja: "やどりぎのタネ",
-			'zh-tw': "寄生種子",
-			th: "เมล็ดกาฝาก",
-			id: "Bibit Parasit"
+	attacks: [
+		{
+			name: {
+				ja: "やどりぎのタネ",
+				'zh-tw': "寄生種子",
+				th: "เมล็ดกาฝาก",
+				id: "Bibit Parasit",
+			},
+			damage: 20,
+			cost: ["Grass", "Colorless"],
+			effect: {
+				ja: "このポケモンのHPを「20」回復する。",
+				'zh-tw': "將這隻寶可夢恢復「20」HP。",
+				th: "ฟื้นฟู HP ของโปเกมอนนี้ [20]",
+				id: "Pulihkan HP Pokémon ini sejumlah 20.",
+			},
 		},
+	],
 
-		damage: 20,
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
 
-		effect: {
-			ja: "このポケモンのHPを「20」回復する。",
-			'zh-tw': "將這隻寶可夢恢復「20」HP。",
-			th: "ฟื้นฟู HP ของโปเกมอนนี้ [20]",
-			id: "Pulihkan HP Pokémon ini sejumlah 20."
-		}
-	}],
-
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 719619,
+			},
+		},
+	],
 
 	retreat: 2,
 	regulationMark: "G",
+	rarity: "Illustration rare",
+	dexId: [1],
+};
 
-	thirdParty: {
-		cardmarket: 719442
-	}
-}
-
-export default card
+export default card;

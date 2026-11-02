@@ -96,6 +96,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The ultrasonic waves it emits from its ears can reduce a large boulder to pebbles. It emerges out of the dark to attack.",
+		de: "Die Ultraschallwellen aus seinen Ohren zermalmen Felsen zu kleinen Kieseln. Greift stets im Schutz der Dunkelheit an."
+	},
+
 	thirdParty: {
 		cardmarket: 286358,
 		tcgplayer: 107231

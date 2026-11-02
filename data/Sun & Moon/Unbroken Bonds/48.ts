@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Although known for their splendid tail fins, Goldeen apparently compete among themselves to see whose horn is thickest and sharpest.",
+		de: "Es ist für seine schöne Schwanzflosse bekannt. Miteinander wetteifern sie aber darum, wer das dickste und spitzeste Horn auf dem Kopf hat."
+	},
+
 	thirdParty: {
 		cardmarket: 372339,
 		tcgplayer: 189147

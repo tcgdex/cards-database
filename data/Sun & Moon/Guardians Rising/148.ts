@@ -73,7 +73,7 @@ const card: Card = {
 				es: "Descarta 2 Energías Fire de este Pokémon.",
 				it: "Scarta due Energie Fire assegnate a questo Pokémon.",
 				pt: "Descarte 2 Energias Fire deste Pokémon.",
-				de: "Lege 2 Fire-Energien von diesem Pokémon auf deinen Ablagestapel."
+				de: "Lege 2 {R}-Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 160,
 
@@ -88,7 +88,7 @@ const card: Card = {
 				es: "Nitrotanque GX",
 				it: "Serbatoio Nitrico-GX",
 				pt: "Tanque de Nitro GX",
-				de: "Nitrotank GX"
+				de: "Nitrotank-GX"
 			},
 			effect: {
 				en: "Attach 5 Fire Energy cards from your discard pile to your Pokémon in any way you like. (You can’t use more than 1 GX attack in a game.)",
@@ -96,7 +96,7 @@ const card: Card = {
 				es: "Une 5 cartas de Energía Fire de tu pila de descartes a tus Pokémon de la manera que desees. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Assegna a piacimento ai tuoi Pokémon cinque carte Energia Fire dalla tua pila degli scarti. Non puoi usare più di un attacco GX a partita.",
 				pt: "Ligue 5 cartas de Energia Fire da sua pilha de descarte aos seus Pokémon como desejar (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Lege 5 Fire-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				de: "Lege 5 {R}-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 
 		},

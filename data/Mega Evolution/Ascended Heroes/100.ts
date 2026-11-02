@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Yuriko Akase",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [50],
 	hp: 60,
 	types: ["Fighting"],
 	stage: "Basic",
@@ -45,13 +46,46 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675912,
-		cardmarket: 869711
-	}
+	description: {
+		en: "Its skin is very thin. If it is exposed to light, its blood heats up, causing it to grow weak.",
+		fr: "Son épiderme est très fin. S'il est exposé au soleil, son sang se réchauffe, ce qui l'affaiblit.",
+		de: "Seine Haut ist sehr dünn. Wird es Licht ausgesetzt, erhitzt sich sein Blut und es wird schwach."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869711,
+			tcgplayer: 675912
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870295,
+			tcgplayer: 677072
+		}
+	},
+	{
+		type: "reverse",
+		foil: "team-rocket",
+		thirdParty: {
+			cardmarket: 870296,
+			tcgplayer: 676932
+		}
+	},
+],
 }
 
 export default card

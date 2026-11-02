@@ -4,6 +4,7 @@ import Set from "../Paradox Rift"
 const card: Card = {
 	dexId: [334],
 	set: Set,
+	cameoDexIds: [278],
 
 	name: {
 		en: "Altaria ex",
@@ -77,16 +78,21 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740796,
+				tcgplayer: 523934,
+				cardtrader: 265325
+			}
+		},
+	],
 
+	suffix: "ex",
 	illustrator: "Jiro Sasumo",
 
-	thirdParty: {
-		cardmarket: 740796
-	}
+	
 }
 
 export default card

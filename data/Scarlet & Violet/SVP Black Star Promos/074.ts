@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Glurak-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 330,
 	types: ["Darkness"],
@@ -74,9 +74,25 @@ const card: Card = {
 		damage: "180+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "5ban Graphics"
+	suffix: "ex",
+	illustrator: "5ban Graphics",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 751798,
+				tcgplayer: 538687
+			},
+		}
+	],
 }
 
 export default card

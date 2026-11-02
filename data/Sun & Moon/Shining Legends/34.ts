@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [311],
 
 	dexId: [
 		312,
@@ -91,6 +92,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Exposure to electricity from Minun and Plusle promotes blood circulation and relaxes muscles.",
+		de: "Mit elektrischen Schlägen regen Plusle und Minun den Blutkreislauf an und lösen so Verspannungen."
+	},
 
 	thirdParty: {
 		cardmarket: 302172,

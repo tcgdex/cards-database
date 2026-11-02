@@ -22,7 +22,7 @@ const card: Card = {
 		fr: "Pachirisu fait partie des Pokémon aux joues électriques.\nIl libère l'énergie qu'il accumule par la queue.",
 		es: "Forma parte del grupo de Pokémon que\nposee bolsas de electricidad en las mejillas.\nDescarga por la cola la electricidad que acumula.",
 		it: "Appartiene alla tipologia di Pokémon\nmuniti di sacche elettriche sulle guance.\nRilascia dalla coda l'elettricità accumulata.",
-		de: "Pachirisu ist eines der Pokémon, die mit ihren\nBackentaschen Elektrizität erzeugen. Den so\ngesammelten Strom gibt es über den Schweif ab.",
+		de: "Pachirisu ist eines der Pokémon, die mit ihren Backentaschen Elektrizität erzeugen. Den so gesammelten Strom gibt es über den Schweif ab.",
 		ko: "볼에 전기 주머니를 가진 포켓몬의 일종.\n꼬리에 모인 전기를 방출한다.",
 		'pt-br': "É um dos tipos de Pokémon com bolsas elétricas\nnas bochechas. Ele dispara cargas de sua cauda."
 	},
@@ -44,7 +44,7 @@ const card: Card = {
 			fr: "Prenez une Énergie {L} de votre zone Énergie et attachez-la à l'un de vos Pokémon de Banc.",
 			es: "Une 1 Energía {L} de tu área de Energía a 1 de tus Pokémon en Banca.",
 			it: "Prendi un'Energia {L} dalla tua Zona Energia e assegnala a uno dei tuoi Pokémon in panchina.",
-			de: "Lege 1 {L}-Energie aus deinem Energiebereich an 1 Pokémon auf deiner Bank an.",
+			de: "Lege 1 {L}-Energie aus deinem Energiebereich an 1 {L}-Pokémon auf deiner Bank an.",
 			ko: "자신의 에너지존에서 {L}에너지를 1개 내보내 벤치 포켓몬에게 붙인다.",
 			'pt-br': "Pegue uma Energia {L} da sua Zona de Energia e ligue-a 1 dos seus Pokémon no Banco."
 		}

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Hoothoot",
 		fr: "Hoothoot",
+		de: "Hoothoot"
 	},
 
 	stage: "Stage1",
@@ -91,6 +92,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "With eyes that can see in pitch-darkness, it never lets its prey escape. Some even call it \"the emperor of dark nights.\"",
+		de: "Dank seines perfekten Sehvermögens entgeht ihm selbst in der Dunkelheit keine Beute. Man nennt es auch den „Herrscher der Nacht“."
+	},
 
 	thirdParty: {
 		cardmarket: 388617,

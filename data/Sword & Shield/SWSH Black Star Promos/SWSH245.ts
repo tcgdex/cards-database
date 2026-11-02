@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Croagunk"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Darkness"],
@@ -35,16 +35,28 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
 	description: {
 		en: "Once diluted, its poison becomes medicinal. This Pokémon came into popularity after a pharmaceutical company chose it as a mascot."
 	},
-
-	thirdParty: {
-		cardmarket: 665988
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 665988,
+				tcgplayer: 285259
+			}
+		},
+	],
 }
 
 export default card

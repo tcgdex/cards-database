@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		290,
-	],
+	dexId: [290],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt vergiftet."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 			damage: 10,
 
@@ -48,17 +46,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87756,
+				cardmarket: 275943
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87756,
+				cardmarket: 275943
+			},
 		},
 	],
 
-
-	retreat: 1,
-
-	thirdParty: {
-		cardmarket: 275943,
-		tcgplayer: 87756
-	}
 }
 
 export default card

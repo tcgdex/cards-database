@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Charmander δ",
 		fr: "Salamèche δ",
-		de: "Glumanda"
+		de: "Glumanda δ"
 	},
 
 	illustrator: "Mitsuhiro Arita",

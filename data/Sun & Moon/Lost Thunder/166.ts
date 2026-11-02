@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Trumbeak",
 		fr: "Piclairon",
+		de: "Trompeck"
 	},
 
 	stage: "Stage2",
@@ -99,6 +100,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Within its beak, its internal gas ignites, explosively launching seeds with enough power to pulverize boulders.",
+		de: "Lässt körpereigene Gase in seinem Schnabel explodieren, um Samen zu verschießen. Selbst große Felsen kann es damit zerstören."
+	},
 
 	thirdParty: {
 		cardmarket: 365802,

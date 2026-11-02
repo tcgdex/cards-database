@@ -89,23 +89,30 @@ const card: Card = {
 	types: ["Grass"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It is nocturnal and becomes active at nightfall. It feeds on aquatic mosses that grow in the riverbed."
+		en: "It is nocturnal and becomes active at nightfall. It feeds on aquatic mosses that grow in the riverbed.",
+		de: "Lombrero wird erst in der Abenddämmerung aktiv. Es ernährt sich von Moos, das am Boden von Flüssen gedeiht."
 	},
 
-	thirdParty: {
-		cardmarket: 457433,
-		tcgplayer: 213078
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457433,
+				tcgplayer: 213078
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457433,
+				tcgplayer: 213078
+			}
+		},
+	],
 }
 
 export default card

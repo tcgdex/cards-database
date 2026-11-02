@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		181,
-	],
+	dexId: [181],
 
 	hp: 120,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
 		en: "Flaaffy",
 		fr: "Lainergie",
+		de: "Waaty"
 	},
 
 	stage: "Stage2",
@@ -62,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, Ampharos does 20 damage to itself.",
 				fr: "Lancez une pièce. Si c’est pile, Pharamp s’inflige 20 dégâts.",
-				de: "Wirf eine Münze. Bei \"Zahl\" fügt Ampharos sich selbst 20 Schadenspunkte zu."
+				de: "Wirf eine Münze. Bei „Zahl“ fügt Ampharos sich selbst 20 Schadenspunkte zu."
 			},
 			damage: 80,
 
@@ -86,22 +85,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The tail’s tip shines brightly and can be seen from far away. It acts as a beacon for lost people."
+		en: "The tail’s tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
+		de: "Seine Schweifspitze ist so hell, dass viele Verschollene es als Orientierungspunkt nutzen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83544,
+				cardmarket: 278986
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83544,
+				cardmarket: 278986
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278986,
-		tcgplayer: 83544
-	}
 }
 
 export default card

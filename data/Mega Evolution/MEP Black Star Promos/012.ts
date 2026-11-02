@@ -14,11 +14,15 @@ const card: Card = {
 		'es-mx': "Mega-Lucario ex"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 340,
 	types: ["Fighting"],
+	stage: "Stage1",
+	dexId: [448],
+
 	evolveFrom: {
 		en: "Riolu",
 		fr: "Riolu",
@@ -28,8 +32,6 @@ const card: Card = {
 		pt: "Riolu",
 		'es-mx': "Riolu"
 	},
-	stage: "Stage1",
-	dexId: [448],
 
 	attacks: [{
 		cost: ["Fighting"],
@@ -84,20 +86,28 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 663177,
-		cardmarket: 858146
-	},
+	weaknesses: [{
+		type: "Psychic",
+		value: "x2"
+	}],
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 858146,
+				tcgplayer: 663177
+			}
 		},
 		{
 			type: "holo",
-			size: "jumbo"
-		}
-	]
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 858147,
+				tcgplayer: 663178
+			}
+		},
+	],
 }
 
 export default card

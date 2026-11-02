@@ -4,6 +4,7 @@ import Set from "../SVP Black Star Promos"
 const card: Card = {
 	dexId: [939],
 	set: Set,
+	cameoDexIds: [81],
 
 	name: {
 		en: "Iono's Bellibolt ex",
@@ -15,9 +16,10 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "PLANETA Mochizuki",
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Lightning"],
@@ -79,7 +81,16 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "I"
+	regulationMark: "I",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 819266,
+				tcgplayer: 628320
+			},
+		}
+	],
 }
 
 export default card

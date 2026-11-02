@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It uses the leaf on its head to determine the temperature and humidity. It loves to sunbathe.",
+		de: "Mit dem Blatt auf seinem Kopf bestimmt es die Temperatur und Feuchtigkeit. Es liebt Sonnenbäder."
+	},
+
 	thirdParty: {
 		cardmarket: 365573,
 		tcgplayer: 178803

@@ -65,11 +65,22 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 281021,
-		tcgplayer: 86563
-	}
+
+	description: {
+		en: "It can produce ultracold air. Its body is frozen.",
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281021,
+				tcgplayer: 86563
+			}
+		},
+	],
 }
 
 export default card

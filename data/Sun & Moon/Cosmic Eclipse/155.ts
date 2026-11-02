@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -99,6 +100,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Once a fight breaks out, it will unflinchingly charge at dragon Pokémon that are many times larger than itself.",
+		de: "Kommt es zum Kampf, stürzt es sich furchtlos ins Gefecht, selbst wenn sein Gegner ein vielfach größeres Drachen-Pokémon ist."
+	},
 
 	thirdParty: {
 		cardmarket: 408419,

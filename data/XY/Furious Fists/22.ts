@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [623],
 
 	dexId: [
 		614,
@@ -57,7 +58,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño más por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
 				it: "Questo attacco infligge 20 danni in più per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
 				pt: "Esse ataque causa 20 de danos adicionais para cada Colorless no Custo para Recuar do Pokémon Ativo do seu oponente.",
-				de: "Dieser Angriff fügt 20 weitere Schadenspunkte für jedes Colorless-Symbol in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
+				de: "Dieser Angriff fügt 20 weitere Schadenspunkte für jedes {C}-Symbol in den Rückzugskosten des Aktiven Pokémon deines Gegners zu."
 			},
 			damage: "20+",
 
@@ -98,6 +99,11 @@ const card: Card = {
 	],
 
 	retreat: 4,
+
+	description: {
+		en: "They love the cold seas of the north. They create pathways across the ocean waters by freezing their own breath.",
+		de: "Es liebt die kalten Meere im Norden und überquert ihre Flächen auf Stegen, die es mit seinem gefrorenen Atem baut."
+	},
 
 	thirdParty: {
 		cardmarket: 281686,

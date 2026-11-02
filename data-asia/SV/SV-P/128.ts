@@ -1,0 +1,31 @@
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
+
+const card: Card = {
+	set: Set,
+	name: {
+		ja: "チリ",
+	},
+
+	illustrator: "GIDORA",
+	category: "Trainer",
+
+	effect: {
+		ja: "自分の山札を上から4枚見て、その中からカードを2枚選び、手札に加える。残りのカードはすべてウラにして切り、山札の下にもどす。",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 692383,
+			},
+		},
+	],
+
+	trainerType: "Supporter",
+	regulationMark: "G",
+	rarity: "Promo",
+};
+
+export default card;

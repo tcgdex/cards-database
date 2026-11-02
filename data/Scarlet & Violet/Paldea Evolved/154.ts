@@ -57,18 +57,40 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715629,
+				tcgplayer: 497572,
+				cardtrader: 248810
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715629,
+				tcgplayer: 497572,
+				cardtrader: 248810
+			}
+		},
+	],
 
 	illustrator: "kirisAki",
 
-	thirdParty: {
-		cardmarket: 715629
-	}
+	description: {
+		en: "Though very small, the brain in its tail is still considered an important organ because it emits powerful psychic energy.",
+		de: "Das Gehirn in seinem Schweif ist zwar winzig, stellt jedoch ein wichtiges Organ dar, da es mächtige Psycho-Kräfte freisetzt."
+	},
 }
 
 export default card

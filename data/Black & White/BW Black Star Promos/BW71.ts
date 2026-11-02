@@ -65,6 +65,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This Pokémon came to the defense of Pokémon that had lost their homes in a war among humans.",
+	},
 }
 
 export default card

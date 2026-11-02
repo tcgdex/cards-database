@@ -4,13 +4,25 @@ import Set from '../SWSH Black Star Promos'
 const card: Card = {
 	dexId: [25],
 	set: Set,
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	regulationMark: "E",
+
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576744,
+				tcgplayer: 251102
+			}
+		},
+	],
 
 	name: {
 		en: "Pikachu V",
@@ -21,7 +33,7 @@ const card: Card = {
 		it: "Pikachu V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Lightning"],
@@ -53,11 +65,6 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "E",
-
-	thirdParty: {
-		cardmarket: 461594
-	}
 }
 
 export default card

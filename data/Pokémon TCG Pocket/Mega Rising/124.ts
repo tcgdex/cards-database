@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hitmonchan ex"
+		en: "Hitmonchan ex",
+		fr: "Tygnon-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -20,14 +21,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Quick Straight"
+			en: "Quick Straight",
+			fr: "Droite Directe"
 		},
 
 		damage: 50,
 		cost: ["Fighting"],
 
 		effect: {
-			en: "This attack's damage isn't affected by Weakness."
+			en: "This attack's damage isn't affected by Weakness.",
+			fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse."
 		}
 	}],
 

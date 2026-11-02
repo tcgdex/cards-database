@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		56,
-	],
+	dexId: [56],
 
 	hp: 40,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -56,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "This attack does 10 damage plus 10 more damage for each damage counter on Mankey.",
 				fr: "Cette attaque inflige 10 dégâts plus 10 dégâts pour chaque marqueur de dégâts sur Férosinge.",
-				de: "Dieser Angriff fügt 10 Schadenspunkte plus zusätzliche 10 Schadenspunkte für jede Schadensmarke auf Menki zu."
+				de: "Dieser Angriff fügt 10 Schadenspunkte plus 10 zusätzliche Schadenspunkte für jede Schadensmarke auf Menki zu."
 			},
 			damage: "10+",
 
@@ -66,22 +64,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275166,
-		tcgplayer: 87172
-	},
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 87172,
+				cardmarket: 275166
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 87172,
+				cardmarket: 275166
+			}
+		},
 	]
 }
 

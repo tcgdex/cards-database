@@ -4,7 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Nemona",
+		en: "Nemona",
+		fr: "Menzi",
+		es: "Mencía",
+		it: "Nemi",
+		pt: "Noêmia",
+		de: "Nemila"
   },
   illustrator: "Sanosuke Sakuma",
   rarity: "Two Diamond",

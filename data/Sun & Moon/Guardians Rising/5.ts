@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Petilil",
 		fr: "Chlorobule",
+		de: "Lilminip"
 	},
 
 	stage: "Stage1",
@@ -90,6 +91,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "No matter how much time and money is spent raising it, its flowers are the most beautiful when they bloom in the wild.",
+		de: "Egal, wie viel Mühe und Geld investiert wird, sein Blumenschmuck ist wild gewachsen immer schöner als von Menschenhand gezüchtet."
+	},
 
 	thirdParty: {
 		cardmarket: 297469,

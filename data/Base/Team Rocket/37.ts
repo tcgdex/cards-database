@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Psyduck",
-		fr: "Psykokwak"
+		fr: "Psykokwak",
+		de: "Enton"
 	},
 
 	stage: "Stage1",
@@ -70,25 +71,33 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
-		fr: "Quand les Psykokwak évoluent, leurs maux de tête disparaissent et ils se retrouvent en possession d'un formidable pouvoir mental."
+		en: "When Psyducks evolve, their headaches disappear and they find themselves in possession of formidable mental powers.",
+		fr: "Quand les Psykokwak évoluent, leurs maux de tête disparaissent et ils se retrouvent en possession d'un formidable pouvoir mental.",
+		de: "Wenn sich Entons entwickeln, verschwinden ihre Kopfschmerzen, und sie beherrschen auf einmal furchterregende Geistesfähigkeiten."
 	},
 
-	thirdParty: {
-		cardmarket: 274090,
-		tcgplayer: 84604
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274090,
+				tcgplayer: 84604
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
-		}
-	]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274090,
+				tcgplayer: 84604
+			}
+		},
+	],
 }
 
 export default card

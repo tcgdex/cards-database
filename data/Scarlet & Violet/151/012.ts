@@ -72,18 +72,42 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It collects honey every day. It rubs honey onto the hairs on its legs to carry it back to its nest.",
+		de: "Es sammelt täglich Honig. Es reibt ihn in seine Beinhaare, um ihn in sein Nest zu transportieren."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733607,
+				tcgplayer: 502561,
+				cardtrader: 261066
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733607,
+				tcgplayer: 502561,
+				cardtrader: 261066
+			}
+		},
+	],
 
 	illustrator: "Tika Matsuno",
 
-	thirdParty: {
-		cardmarket: 733735
-	}
+	
 }
 
 export default card

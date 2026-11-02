@@ -83,10 +83,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299483,
-		tcgplayer: 138569
-	}
+	description: {
+		en: "With its incisors, it gnaws through doors and infiltrates people's homes. Then, with a twitch of its whiskers, it steals whatever food it finds.",
+		de: "Mithilfe seiner Vorderzähne knabbert es sich durch Wohnungstüren. Vibrierende Schnurrhaare helfen ihm, Futter zu finden und es zu stehlen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299483,
+				tcgplayer: 138569
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299483,
+				tcgplayer: 138569
+			}
+		},
+	],
 }
 
 export default card

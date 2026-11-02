@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Beat",
 				fr: "Bataille",
+				de: "Verprügler"
 			},
 
 			damage: 20,
@@ -51,6 +52,7 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch'Herbe",
+				de: "Rasierblatt"
 			},
 
 			damage: 40,
@@ -66,6 +68,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Seemingly curious about people, they gather around footsteps they find on snowy mountains.",
+		de: "Neugierig auf Menschen versammeln sie sich bei Fußspuren, die sie auf verschneiten Bergen finden."
+	},
 
 	thirdParty: {
 		cardmarket: 281046,

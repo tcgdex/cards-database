@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Aya Kusube",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		76,
-	],
+	dexId: [76],
 
 	hp: 100,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Graveler",
-		fr: "Gravalanch"
+		fr: "Gravalanch",
+		de: "Georok"
 	},
 
 	stage: "Stage2",
@@ -36,12 +35,12 @@ const card: Card = {
 			name: {
 				en: "Rock Body",
 				fr: "Corps roc",
-				de: "Rock Body"
+				de: "Steinkörper"
 			},
 			effect: {
-				en: "All Damage done by attacks to Golem is reduced by 10 (after applying Weakness and Resistance).",
+				en: "All damage done by attacks to Golem is reduced by 10 (after applying Weakness and Resistance).",
 				fr: "Tous les dégâts infligés par des attaques sur Grolem sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
-				de: "All damage done by attacks to Golem is reduced by 10 (after applying Weakness and Resistance.)"
+				de: "Aller Schaden, der Geowaz von Angriffen zugefügt wird, wird um 10 reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -57,12 +56,12 @@ const card: Card = {
 			name: {
 				en: "Rock Tumble",
 				fr: "Roule-pierre",
-				de: "Rock Tumble"
+				de: "Rollende Felsen"
 			},
 			effect: {
 				en: "Don't apply Resistance.",
 				fr: "N'appliquez pas la Résistance.",
-				de: "Don't apply Resistance."
+				de: "Wende Resistenz nicht an."
 			},
 			damage: 60,
 
@@ -72,23 +71,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 4,
 
-	thirdParty: {
-		cardmarket: 274889,
-		tcgplayer: 85821
-	},
 
-	variants:[
+	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 85821,
+				cardmarket: 274889
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 85821,
+				cardmarket: 274889
+			},
+		},
+	],
 }
 
 export default card

@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Politoed ex",
 		fr: "Tarpaud ex",
-		de: "Quaxo ex"
+		de: "Quaxo-ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Tetarte"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
@@ -99,16 +99,16 @@ const card: Card = {
 	
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 276753,
-		tcgplayer: 88252
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 88252,
+				cardmarket: 276753
+			},
 		},
-	]
+	],
 }
 
 export default card

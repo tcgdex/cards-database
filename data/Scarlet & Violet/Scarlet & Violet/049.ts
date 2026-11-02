@@ -35,14 +35,30 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "miki kudo",
+
+	description: {
+		en: "Clauncher's claws will regrow if they fall off. The meat inside the claws is edible, but it has a distinct flavor that doesn't appeal to all tastes.",
+		de: "Verliert es eine Schere, wächst diese wieder nach. Das Fleisch darin ist zwar essbar, doch an seinem speziellen Geschmack scheiden sich die Geister."
+	},
 
 	thirdParty: {
         cardmarket: 702344,

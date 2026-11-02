@@ -57,15 +57,30 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Kouki Saitou",
+
+	description: {
+		en: "Much remains unknown about this creature. It resembles Cyclizar, but it is far more ruthless and powerful.",
+		de: "Es sind kaum Einzelheiten zu diesem Wesen bekannt, welches zwar Mopex ähnelt, aber weitaus stärker und grausamer ist."
+	},
 
 	thirdParty: {
         cardmarket: 702377,

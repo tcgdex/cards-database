@@ -96,6 +96,11 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It flies at speeds equals to a jet fighter plane. It never allows its prey to escape.",
+		de: "Es fliegt mit der Geschwindigkeit eines Kampfjets. Es lässt nicht zu, dass ihm seine Beute entkommt."
+	},
+
 	thirdParty: {
 		cardmarket: 288245,
 		tcgplayer: 111613

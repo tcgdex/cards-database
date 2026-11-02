@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Golduck"
 	},
 
+	evolveFrom: {
+		en: "Psyduck",
+		fr: "Psykokwak",
+		es: "Psyduck",
+		'es-mx': "Psyduck",
+		de: "Enton",
+		it: "Psyduck",
+		pt: "Psyduck",
+	},
+
 	illustrator: "Jiro Sasumo",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [55],
 	hp: 120,
 	types: ["Water"],
 	stage: "Stage1",
@@ -63,7 +74,7 @@ const card: Card = {
 			fr: "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie {W} attachée à ce Pokémon.",
 			es: "Este ataque hace 20 puntos de daño más por cada Energía {W} unida a este Pokémon.",
 			'es-mx': "Este ataque hace 20 puntos de daño más por cada Energía {W} unida a este Pokémon.",
-			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte {W}-Energie 20 Schadenspunkte mehr zu.",
+			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Wasser {W}-Energie 20 Schadenspunkte mehr zu.",
 			it: "Questo attacco infligge 20 danni in più per ogni Energia {W} assegnata a questo Pokémon.",
 			pt: "Este ataque causa 20 pontos de dano a mais para cada Energia {W} ligada a este Pokémon."
 		},
@@ -71,13 +82,46 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675852,
-		cardmarket: 869651
-	}
+	description: {
+		en: "When it swims at full speed using its long, webbed limbs, its forehead somehow begins to glow.",
+		fr: "Quand il nage à vitesse maximale grâce à ses pattes palmées, son front se met à luire pour une raison inconnue.",
+		de: "Wenn es mit den Schwimmflossen an seinen langen Gliedmaßen schnell durchs Wasser schwimmt, beginnt seine Stirn zu glühen."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869651,
+			tcgplayer: 675852
+		}
+	},
+	{
+		type: "reverse",
+		foil: "loveball",
+		thirdParty: {
+			cardmarket: 870202,
+			tcgplayer: 676885
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870201,
+			tcgplayer: 677025
+		}
+	},
+],
 }
 
 export default card

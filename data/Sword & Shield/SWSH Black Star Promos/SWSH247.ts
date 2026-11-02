@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Regigigas"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Colorless"],
@@ -66,16 +66,28 @@ const card: Card = {
 		damage: "120×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
 	description: {
 		en: "There is an enduring legend that states this Pokémon towed continents with ropes."
 	},
-
-	thirdParty: {
-		cardmarket: 665990
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 665990,
+				tcgplayer: 285258
+			}
+		},
+	],
 }
 
 export default card

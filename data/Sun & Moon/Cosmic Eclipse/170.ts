@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Aipom",
 		fr: "Capumain",
+		de: "Griffel"
 	},
 
 	stage: "Stage1",
@@ -90,6 +91,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "In their search for comfortable trees, they get into territorial disputes with groups of Passimian. They win about half the time.",
+		de: "Sie streiten sich mit Gruppen von Quartermak um die bequemsten Bäume. Etwa die Hälfte dieser Revierkämpfe gewinnen sie."
+	},
 
 	thirdParty: {
 		cardmarket: 408474,

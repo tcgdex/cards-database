@@ -100,23 +100,30 @@ const card: Card = {
 	regulationMark: "D",
 	retreat: 0,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
 	description: {
-		en: "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings."
+		en: "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings.",
+		de: "Wird Staravia zu Staraptor, verlässt es die Gruppe und lebt allein. Seine Spannweite ist gigantisch."
 	},
 
-	thirdParty: {
-		cardmarket: 483614,
-		tcgplayer: 219355
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483614,
+				tcgplayer: 219355
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483614,
+				tcgplayer: 219355
+			}
+		},
+	],
 }
 
 export default card

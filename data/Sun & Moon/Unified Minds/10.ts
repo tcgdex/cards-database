@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [146],
 
 	dexId: [
 		557,
@@ -55,6 +56,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It makes a hole in a suitable rock. If that rock breaks, the Pokémon remains agitated until it locates a replacement.",
+		de: "Höhlt sich einen brauchbaren Stein aus, um darin zu wohnen. Geht er zu Bruch, ruht es nicht, bis es einen neuen findet."
+	},
 
 	thirdParty: {
 		cardmarket: 387882,

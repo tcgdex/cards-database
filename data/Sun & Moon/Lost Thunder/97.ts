@@ -94,6 +94,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
+		de: "Es wurde aufgrund seines Verhaltens verbannt. Aus der Zerrwelt schaut es auf die alte Welt."
+	},
+
 	thirdParty: {
 		cardmarket: 365734,
 		tcgplayer: 178908

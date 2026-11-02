@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Flareon",
 		fr: "Pyroli",
 	},
-	illustrator: "Illus.＆Direc.The Pokémon Company Art Team",
+	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
 	rarity: "Common",
 	category: "Pokemon",
 
@@ -70,6 +70,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Inhaled air is heated in the flame sac in its body to an intense fire over 3,000 degrees Fahrenheit.",
+	},
 }
 
 export default card

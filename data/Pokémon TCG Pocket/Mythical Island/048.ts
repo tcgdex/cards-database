@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Les éléments rocheux qui constituent son corps\ncorrespondent à ceux qu'on trouve dans le sol\nd'une zone très éloignée de son habitat actuel.",
 		es: "Los elementos que componen las rocas de\nsu cuerpo se han encontrado en lechos de\nroca muy alejados de su hábitat.",
 		it: "La composizione delle pietre che formano il suo corpo coincide\ncon quella di basamenti rocciosi molto distanti dal suo habitat.",
-		de: "Sein Körper setzt sich aus Steinen zusammen,\ndie mit dem Grundgestein einer weit von seinem\nLebensraum entfernten Gegend identisch sind.",
+		de: "Sein Körper setzt sich aus Steinen zusammen, die mit dem Grundgestein einer weit von seinem Lebensraum entfernten Gegend identisch sind.",
 		'pt-br': "A composição elementar das pedras que formam seu corpo é a mesma\nencontrada em leitos rochosos em terras distantes do habitat deste Pokémon.",
 		ko: "몸의 암석 성분이\n서식지에서 멀리 떨어진 땅의\n암반과 일치했다."
 	},

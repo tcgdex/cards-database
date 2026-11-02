@@ -14,6 +14,7 @@ const card: Card = {
 		'es-mx': "Mega-Gardevoir ex"
 	},
 
+	suffix: "ex",
 	illustrator: "takuyoa",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -79,23 +80,35 @@ const card: Card = {
 		damage: "50×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: "holo"
+		type: "holo",
+			thirdParty: {
+				cardmarket: 851131,
+				tcgplayer: 654399
+			}
 		},
+
 		{
 			type: "holo",
 			stamp: ["player-rewards-program"]
 		}
 	],
-
-	thirdParty: {
-		tcgplayer: 654399,
-		cardmarket: 851131
-	}
 }
 
 export default card

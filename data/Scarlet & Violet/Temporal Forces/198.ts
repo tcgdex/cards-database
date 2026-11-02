@@ -4,6 +4,8 @@ import Set from "../Temporal Forces"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [1008],
+
 	name: {
 		en: "Ciphermaniac's Codebreaking",
 		fr: "Décodage de Décryptomane",
@@ -30,15 +32,16 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760828,
+				tcgplayer: 542919
+			}
+		},
 	],
 
 	illustrator: "Taira Akitsu",
 
-	thirdParty: {
-		cardmarket: 760828
-	}
 }
 
 export default card

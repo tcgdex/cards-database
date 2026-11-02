@@ -12,18 +12,17 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [107, 237],
 
-	dexId: [
-		236,
-	],
+	dexId: [236],
 
 	hp: 30,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
-	stage: "Basic",
+	stage: "Baby",
 
 	attacks: [
 		{
@@ -34,31 +33,36 @@ const card: Card = {
 			name: {
 				en: "Energy Punch",
 				fr: "Poing énergétique",
-				de: "Energy Punch"
+				de: "Energiehieb"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, discard a Special Energy card attached to the Defending Pokémon. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est face, défaussez-vous d'une carte Énergie spéciale attachée au Pokémon Défenseur. Si c'est pile, cette attaque ne fait rien.",
-				de: "Flip a coin. If heads, discard a Special Energy card attached to the Defending Pokémon. If tails, this attack does nothing."
+				de: "Wirf eine Münze. Lege bei „Kopf“ 1 an das Verteidigende Pokémon angelegte Spezial-Energiekarte auf den Anlagestapel deines Gegners. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 10
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 275136,
-		tcgplayer: 90127
-	},
+	retreat: 1,
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 90127,
+				cardmarket: 275136
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 90127,
+				cardmarket: 275136
+			}
+		},
 	]
 }
 

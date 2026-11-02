@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Horsea δ",
 		fr: "Hypotrempe δ",
-		de: "Seeper"
+		de: "Seeper δ"
 	},
 
 	illustrator: "Hisao Nakamura",

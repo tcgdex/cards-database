@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Slowpoke",
 		fr: "Ramoloss",
+		de: "Flegmon"
 	},
 
 	stage: "Stage1",
@@ -92,10 +93,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 299452,
-		tcgplayer: 138530
-	}
+	description: {
+		en: "A poisonous bite reacted with its system, blessing it with the enhanced intellect of a genius. It has full control of its psychic powers.",
+		de: "Durch einen giftigen Biss wurde es zu einer wahren Intelligenzbestie. Es verfügt über Psycho-Kräfte."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299452,
+				tcgplayer: 138530
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299452,
+				tcgplayer: 138530
+			}
+		},
+	],
 }
 
 export default card

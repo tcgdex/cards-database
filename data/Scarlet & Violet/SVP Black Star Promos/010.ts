@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Psiopatra"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Psychic"],
@@ -65,9 +65,34 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
-	illustrator: "Sanosuke Sakuma"
+	illustrator: "Sanosuke Sakuma",
+	description: {
+		en: "It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament.",
+	},
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 703185,
+				tcgplayer: 491185
+			},
+		}
+	],
 }
 
 export default card

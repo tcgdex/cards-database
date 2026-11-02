@@ -71,6 +71,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Lands visited by Landorus grant such bountiful crops that it has been hailed as \"The Guardian of the Fields.\"",
+	},
 }
 
 export default card

@@ -91,23 +91,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
 	description: {
-		en: "This feared Pokémon has long, slender legs and a cruel heart. It shows no mercy as it stomps on its opponents."
+		en: "This feared Pokémon has long, slender legs and a cruel heart. It shows no mercy as it stomps on its opponents.",
+		de: "Seine langen Beine und sein grausames Herz werden gefürchtet. Es tritt ohne Gnade auf seine Gegner ein."
 	},
 
-	thirdParty: {
-		cardmarket: 482954,
-		tcgplayer: 219229
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 482954,
+				tcgplayer: 219229
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 482954,
+				tcgplayer: 219229
+			}
+		},
+	],
 }
 
 export default card

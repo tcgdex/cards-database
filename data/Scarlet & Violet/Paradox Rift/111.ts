@@ -52,18 +52,48 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its feet are tiny, but this Pokémon walks skillfully. It sneaks up on sleeping prey before sinking in its fangs and slurping up blood.",
+		de: "Golbat kann trotz seiner kleinen Beine geschickt laufen. Es schleicht sich an schlafende Beute an, stößt seine Zähne in sie und schlürft ihr Blut."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740629,
+				tcgplayer: 523784,
+				cardtrader: 265223
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740629,
+				tcgplayer: 523784,
+				cardtrader: 265223
+			}
+		},
+	],
 
 	illustrator: "Eri Yamaki",
 
-	thirdParty: {
-		cardmarket: 740629
-	}
+	
 }
 
 export default card

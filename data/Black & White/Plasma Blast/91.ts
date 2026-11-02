@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Esta carta proporciona Energía Colorless.",
 		it: "Questa carta fornisce Energia Colorless",
 		pt: "Este card fornece Energia Colorless.",
-		de: "Diese Karte liefert Colorless"
+		de: "Diese Karte liefert {C}-Energie."
 	},
 
 	energyType: "Special",

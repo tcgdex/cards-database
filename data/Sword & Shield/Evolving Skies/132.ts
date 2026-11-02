@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Swablu",
@@ -64,15 +58,28 @@ const card: Card = {
 	dexId: [333],
 
 	description: {
-		en: "It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty."
+		en: "It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty.",
+		de: "Ständig pflegt es seine watteartigen Flügel. Falls es schmutzig wird, nimmt es eine Dusche, um sich zu putzen."
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574188,
-		tcgplayer: 246863
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574188,
+				tcgplayer: 246863
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574188,
+				tcgplayer: 246863
+			}
+		},
+	],
 }
 
 export default card

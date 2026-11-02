@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Kyurem ex"
 	},
 
+	suffix: "ex",
 	illustrator: "N-DESIGN Inc.",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -64,10 +65,31 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 835955
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 835955,
+				tcgplayer: 642480
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 864375,
+				tcgplayer: 671619
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 867785,
+				tcgplayer: 668961
+			}
+		},
+	],
 }
 
 export default card

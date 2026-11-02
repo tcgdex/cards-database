@@ -80,23 +80,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "The winner of competitions between Salazzle is decided by which one has the most male Salandit with it."
+		en: "The winner of competitions between Salazzle is decided by which one has the most male Salandit with it.",
+		de: "Kommt es unter ihnen zu Streitereien, setzt sich offenbar immer das Amfira durch, das von den meisten männlichen Molunk verehrt wird."
 	},
 
-	thirdParty: {
-		cardmarket: 545046,
-		tcgplayer: 234133
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545046,
+				tcgplayer: 234133
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545046,
+				tcgplayer: 234133
+			}
+		},
+	],
 }
 
 export default card

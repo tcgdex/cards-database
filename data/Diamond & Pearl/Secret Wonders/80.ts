@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.",
+	},
+
 	thirdParty: {
 		cardmarket: 277833,
 		tcgplayer: 84056

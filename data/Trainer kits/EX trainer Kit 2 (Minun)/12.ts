@@ -14,6 +14,17 @@ const card: Card = {
 	set: Set,
 	stage: "Basic",
 	energyType: "Normal",
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277196,
+				tcgplayer: 86764
+			}
+		},
+	],
+
 }
 
 export default card

@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "aky CG Works",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 230,
 	types: ["Metal"],
@@ -78,19 +78,18 @@ const card: Card = {
 	stage: "Basic",
 	dexId: [889],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
-	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 465534
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 522965,
+				tcgplayer: 228596
+			}
+		},
+	],
+	suffix: "V"
 }
 
 export default card

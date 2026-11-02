@@ -44,18 +44,42 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode.",
+		de: "Es bewegt sich rollend fort. Rollt es über unebenen Boden, kann es plötzlich explodieren."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733695,
+				tcgplayer: 516669,
+				cardtrader: 261156
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733695,
+				tcgplayer: 516669,
+				cardtrader: 261156
+			}
+		},
+	],
 
 	illustrator: "nagimiso",
 
-	thirdParty: {
-		cardmarket: 733718
-	}
+	
 }
 
 export default card

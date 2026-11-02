@@ -71,10 +71,19 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 281003,
-		tcgplayer: 84902
-	}
+	description: {
+		en: "If its body takes on an aura, the weather changes instantly. It is said to live in seas and lakes.",
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281003,
+				tcgplayer: 84902
+			}
+		},
+	],
 }
 
 export default card

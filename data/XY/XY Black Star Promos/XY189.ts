@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -50,7 +50,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Fire Energy attached to this Pokémon.",
-				fr: "Défaussez une Énergie  attachée à ce Pokémon."
+				fr: "Défaussez une Énergie {R} attachée à ce Pokémon."
 			},
 			damage: 50,
 
@@ -63,6 +63,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "When it shares the infinite energy it creates, that being's entire body will be overflowing with power.",
+	},
 
 	thirdParty: {
 		cardmarket: 553953

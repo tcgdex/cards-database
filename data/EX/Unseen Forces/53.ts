@@ -4,7 +4,7 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Clefairy",
-		fr: "Melofée",
+		fr: "Mélofée",
 		de: "Piepi"
 	},
 
@@ -69,20 +69,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276699,
-		tcgplayer: 84355
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84355,
+				cardmarket: 276699
+			},
 		},
 		{
-			type: "normal",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 84355,
+				cardmarket: 276699
+			},
 		}
-	]
+	],
 }
 
 export default card

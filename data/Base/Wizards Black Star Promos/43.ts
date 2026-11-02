@@ -10,6 +10,7 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
+	cameoDexIds: [25, 39, 84, 100, 107],
 	dexId: [
 		68,
 	],
@@ -61,12 +62,22 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
+
+	description: {
+		en: "Using its amazing muscles, it throws powerful punches that can knock its victim clear over the horizon.",
+	},
 
 	variants: [
 		{
 			type: "normal",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275462,
+				tcgplayer: 86961
+			}
+		},
+	],
 }
 
 export default card

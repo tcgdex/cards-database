@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 4 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
+				de: "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20x",
 
@@ -69,6 +69,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "It raises its offspring in its belly pouch. It lets the baby out to play only when it feels safe.",
+		de: "Sein Nachwuchs wächst in seinem Beutel heran. Nur wenn es sicher ist, darf das Junge aus dem Beutel."
+	},
 
 	thirdParty: {
 		cardmarket: 278087,

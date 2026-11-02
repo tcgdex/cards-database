@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Bulbasaur"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Grass"],
@@ -48,16 +48,28 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
 	description: {
 		en: "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger."
 	},
-
-	thirdParty: {
-		cardmarket: 664337
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 664337,
+				tcgplayer: 275828
+			}
+		},
+	],
 }
 
 export default card

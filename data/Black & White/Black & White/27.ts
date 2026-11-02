@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				de: "Aquaknarre"
 			},
 
 			damage: 20,
@@ -65,10 +67,34 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279765,
-		tcgplayer: 87890
-	}
+	description: {
+		en: "The scalchop on its stomach is made from the same elements as claws. It detaches the scalchop for use as a blade.",
+		de: "Die Muschel auf seinem Bauch besteht aus demselben Material wie seine Krallen. Nimmt es sie ab, fungiert sie als Klinge."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279765,
+				tcgplayer: 87890
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279765,
+				tcgplayer: 87890
+			}
+		},
+		{
+			type: 'reverse',
+			foil: 'player-reward',
+			thirdParty: {
+				cardmarket: 371573
+			}
+		},
+	],
 }
 
 export default card

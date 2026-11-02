@@ -87,6 +87,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They move in small groups, walking around lazily. Anyone who makes eye contact gets smacked with a headbutt.",
+		de: "Zurrokey trotten in Gruppen von einigen Exemplaren durch die Gegend. Wer mit ihnen Augenkontakt herstellt, erhält Kopfnüsse."
+	},
+
 	thirdParty: {
 		cardmarket: 388482,
 		tcgplayer: 195111

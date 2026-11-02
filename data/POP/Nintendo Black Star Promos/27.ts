@@ -12,18 +12,43 @@ const card: Card = {
 
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
+	cameoDexIds: [25, 54, 222, 278],
 
 	trainerType: "Item",
+
+	variants: [
+		{
+			type: 'normal',
+			stamp: ['worlds-2005'],
+			thirdParty: {
+				tcgplayer: 90050
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['worlds-2005', 'staff'],
+		},
+		{
+			type: 'normal',
+			stamp: ['worlds-2005', 'finalist'],
+		},
+		{
+			type: 'normal',
+			stamp: ['worlds-2005', 'quarter-finalist'],
+		},
+		{
+			type: 'normal',
+			stamp: ['worlds-2005', 'semi-finalist'],
+		},
+		{
+			type: 'normal',
+			stamp: ['worlds-2005', 'top-sixteen'],
+		},
+		{
+			type: 'normal',
+			stamp: ['worlds-2005', 'top-thirty-two'],
+		}
+	]
 
 }
 

@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Sneaky Placement",
 				fr: "Placement Vicieux",
+				de: "Heimlichtuerei"
 			},
 			effect: {
 				en: "Put 1 damage counter on 1 of your opponent's Pokémon.",
 				fr: "Placez 1 marqueur de dégâts sur 1 des Pokémon de votre adversaire.",
+				de: "Lege 1 Schadensmarke auf 1 Pokémon deines Gegners."
 			},
 
 		},
@@ -54,10 +56,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280488,
-		tcgplayer: 84961
-	}
+	description: {
+		en: "Because of the way it floats aimlessly, an old folktale calls it a \"Signpost for Wandering Spirits.\"",
+		de: "Laut einer alten Volkssage nennt man es den „Wegweiser für umherstreifende Geister“."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280488,
+				tcgplayer: 84961
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280488,
+				tcgplayer: 84961
+			}
+		},
+	],
 }
 
 export default card

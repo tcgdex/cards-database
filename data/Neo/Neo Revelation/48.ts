@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wooper",
-		fr: "Axoloto"
+		fr: "Axoloto",
+		de: "Felino"
 	},
 
 	stage: "Stage1",
@@ -39,7 +40,7 @@ const card: Card = {
 			name: {
 				en: "Mud Slap",
 				fr: "Coud'boue",
-				de: "Mud Slap"
+				de: "Lehmschelle"
 			},
 
 			damage: 30,
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.",
 				fr: "Si des cartes Énergie sont attachées au Pokémon Défenseur, choisissez 1 d'elle et défaussez-la.",
-				de: "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
+				de: "Wenn an das verteidigende Pokémon mindestens eine Energiekarte angelegt ist, wähle eine davon und lege sie auf den Ablagestapel deines Gegners."
 			},
 			damage: 40,
 
@@ -80,23 +81,31 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
-		fr: "Comme il est très insouciant et peu attentif, il se cogne dans les rochers ou les quilles des bateaux quand il nage."
+		en: "Due to its relaxed and carefree attitude, it often bumps its head on boulders and boat hulls as it swims.",
+		fr: "Comme il est très insouciant et peu attentif, il se cogne dans les rochers ou les quilles des bateaux quand il nage.",
+		de: "Aufgrund seiner entspannten und unbesorgten Einstellung, stößt es beim Schwimmen mit dem Kopf oft an Felsen und Bootskörpern an."
 	},
 
-	thirdParty: {
-		cardmarket: 274634,
-		tcgplayer: 88469
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274634,
+				tcgplayer: 88469
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274634,
+				tcgplayer: 88469
+			}
 		}
 	]
 }

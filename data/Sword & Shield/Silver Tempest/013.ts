@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Fermicula"
 	},
 
+	illustrator: "Yuya Oka",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 110,
@@ -55,20 +56,37 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "They lay their eggs deep inside their nests. When attacked by Heatmor, they retaliate using their massive mandibles.",
+		de: "Es legt seine Eier im hintersten Winkel des Nests. Wenn es von Furnifraß bedroht wird, wehrt es sich mit seinen kräftigen Kiefern."
 	},
 
-	thirdParty: {
-		cardmarket: 682054,
-		tcgplayer: 451641
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682054,
+				tcgplayer: 451641
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682054,
+				tcgplayer: 451641
+			}
+		},
+	],
 }
 
 export default card

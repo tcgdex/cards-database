@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -33,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "This Pokémon's attacks do 50 more damage to your opponent's Darkness Pokémon (before applying Weakness and Resistance).",
-				fr: "Les attaques de ce Pokémon infligent 50 dégâts supplémentaires aux Pokémon  de votre adversaire (avant application de la Faiblesse et de la Résistance)."
+				fr: "Les attaques de ce Pokémon infligent 50 dégâts supplémentaires aux Pokémon {D} de votre adversaire (avant application de la Faiblesse et de la Résistance)."
 			},
 		},
 	],
@@ -64,6 +64,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "When it is resolute, it body fills with power and it becomes swifter. Its jumps are then too fast to follow.",
+	},
 
 	thirdParty: {
 		cardmarket: 293189

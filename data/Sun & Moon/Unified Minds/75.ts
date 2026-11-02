@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cubone",
 		fr: "Osselait",
+		de: "Tragosso"
 	},
 
 	stage: "Stage1",
@@ -88,6 +89,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "The rich greenery of the Alola region is hard on Marowak. It controls fire to stay alive.",
+		de: "Die vielfältige Flora der Alola-Region ist ein gefährliches Terrain für Knogga. Alola-Knogga kämpfen deshalb mit Feuer, um zu überleben."
+	},
 
 	thirdParty: {
 		cardmarket: 388187,

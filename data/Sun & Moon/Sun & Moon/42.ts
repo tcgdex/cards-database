@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Brionne",
 		fr: "Otarlette",
+		de: "Marikeck"
 	},
 
 	suffix: "GX",
@@ -53,7 +54,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño más por cada Energía Water unida a tus Pokémon.",
 				it: "Questo attacco infligge 20 danni in più per ogni Energia Water assegnata ai tuoi Pokémon.",
 				pt: "Este ataque causa 20 pontos de dano a mais vezes a quantidade de Energia Water ligada aos seus Pokémon.",
-				de: "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der an deine Pokémon angelegten Water-Energien zu."
+				de: "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der an deine Pokémon angelegten {W}-Energien zu."
 			},
 			damage: "10+",
 

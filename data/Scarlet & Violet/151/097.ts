@@ -65,18 +65,48 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "When it locks eyes with an enemy, it will use a mix of psi moves, such as Hypnosis and Confusion.",
+		de: "Es heißt, wenn dieses Pokémon einem Gegner ins Auge blicke, setze es zahlreiche Psycho-Kräfte wie beispielsweise Hypnose ein."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733692,
+				tcgplayer: 516666,
+				cardtrader: 261185
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733692,
+				tcgplayer: 516666,
+				cardtrader: 261185
+			}
+		},
+	],
 
 	illustrator: "Mousho",
 
-	thirdParty: {
-		cardmarket: 733692
-	}
+	
 }
 
 export default card

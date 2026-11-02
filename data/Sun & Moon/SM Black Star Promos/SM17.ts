@@ -10,8 +10,8 @@ const card: Card = {
 		pt: "Lunala GX",
 		de: "Lunala GX"
 	},
-	illustrator: "PLANETA",
-	rarity: "Rare",
+	illustrator: "5ban Graphics",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cosmoem",
 		fr: "Cosmovum",
+		de: "Cosmovum"
 	},
 
 	suffix: "GX",
@@ -45,7 +46,7 @@ const card: Card = {
 				es: "Todas las veces que quieras durante tu turno (antes de tu ataque), puedes mover 1 Energía Psychic de 1 de tus Pokémon a otro de tus Pokémon.",
 				it: "Durante il tuo turno, prima di attaccare, puoi spostare un’Energia Psychic da uno a un altro dei tuoi Pokémon tutte le volte che vuoi.",
 				pt: "Quantas vezes desejar durante a sua vez de jogar (antes de atacar), você pode mover 1 Energia Psychic de 1 dos seus Pokémon para outro Pokémon seu.",
-				de: "Beliebig oft während deines Zuges (bevor du angreifst) kannst du 1 Psychic-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon verschieben."
+				de: "Beliebig oft während deines Zuges (bevor du angreifst) kannst du 1 {P}-Energie von 1 deiner Pokémon auf 1 anderes deiner Pokémon verschieben."
 			},
 		},
 	],
@@ -115,8 +116,15 @@ const card: Card = {
 	],
 	retreat: 2,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 296830,
+				tcgplayer: 129312
+			}
+		}
+	],
 }
 
 export default card

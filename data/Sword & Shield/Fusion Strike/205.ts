@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 50,
 	types: ["Colorless"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "0313",
 
 	description: {
-		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions."
+		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.",
+		de: "Das Erbmaterial dieses besonderen Pokémon ist instabil, weshalb es das Potenzial für viele verschiedene Entwicklungen in sich trägt."
 	},
 
 	attacks: [{
@@ -51,17 +58,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582900,
-		tcgplayer: 253300
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582900,
+				tcgplayer: 253300
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582900,
+				tcgplayer: 253300
+			}
+		},
+	],
 }
 
 export default card

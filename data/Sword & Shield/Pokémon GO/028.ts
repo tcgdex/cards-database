@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pikachu"
 	},
 
+	illustrator: "Narumi Sato",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 70,
@@ -44,19 +45,39 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": true
+
+	description: {
+		en: "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
+		de: "Je stärker die Elektrizität ist, die Pikachu produziert, desto weicher und elastischer sind seine Backentaschen."
 	},
 
-	thirdParty: {
-		cardmarket: 665260,
-		tcgplayer: 274461
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665261,
+				tcgplayer: 274461
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665261,
+				tcgplayer: 274461
+			}
+		},
+	],
 }
 
 export default card

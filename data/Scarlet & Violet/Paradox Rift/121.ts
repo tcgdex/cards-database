@@ -66,19 +66,42 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "Hunger hormones affect its temperament. Until its hunger is appeased, it gets up to all manner of evil deeds.",
+		de: "Appetithormone sind für seine wechselhafte Persönlichkeit verantwortlich. Es schreckt vor keiner Schandtat zurück, um satt zu werden."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740654,
+				tcgplayer: 523796,
+				cardtrader: 265233
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740654,
+				tcgplayer: 523796,
+				cardtrader: 265233
+			}
+		},
+	],
 
 	illustrator: "Cona Nitanda",
 
-	thirdParty: {
-		cardmarket: 740654
-	}
+	
 }
 
 export default card

@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Metal Sound",
 				fr: "Strido-Son",
+				de: "Metallsound"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -52,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Swift",
 				fr: "Météores",
+				de: "Sternschauer"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Weakness, Resistance, or any other effects on the Defending Pokémon.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout autre effet en action sur le Pokémon Défenseur.",
+				de: "Der Schaden dieses Angriffs wird durch Schwäche, Resistenz oder alle anderen Effekte auf dem Verteidigenden Pokémon nicht verändert."
 			},
 			damage: 70,
 
@@ -78,10 +82,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 280682,
-		tcgplayer: 89245
-	}
+	description: {
+		en: "Its heavy-looking iron body is actually thin and light, so it can fly at speeds over 180 mph.",
+		de: "Sein stählerner Körper ist dünner und leichter, als er wirkt und erlaubt eine Fluggeschwindigkeit von bis zu 300 km/h."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280683,
+				tcgplayer: 89245
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280683,
+				tcgplayer: 89245
+			}
+		},
+	],
 }
 
 export default card

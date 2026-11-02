@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				de: "Schnabel"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
+				de: "Schlitzer"
 			},
 
 			damage: 20,
@@ -72,10 +74,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280051,
-		tcgplayer: 88841
-	}
+	description: {
+		en: "They will challenge anything, even strong opponents, without fear. Their frequent fights help them become stronger.",
+		de: "Es zettelt willkürlich Kämpfe an, egal wie stark der Gegner auch ist. Es gewinnt an Stärke, indem es seine Fehler analysiert."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280051,
+				tcgplayer: 88841
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280051,
+				tcgplayer: 88841
+			}
+		},
+	],
 }
 
 export default card

@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 20,
@@ -53,10 +54,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 280025,
-		tcgplayer: 88914
-	}
+	description: {
+		en: "They live buried in the sands of the desert. The sun-warmed sands prevent their body temperature from dropping.",
+		de: "Es lebt im Wüstensand. Der durch die Sonne erhitzte Sand gewährleistet, dass es immer schön warm eingepackt ist."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280025,
+				tcgplayer: 88914
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280025,
+				tcgplayer: 88914
+			}
+		},
+	],
 }
 
 export default card

@@ -34,7 +34,8 @@ const card: Card = {
 	illustrator: "nagimiso",
 
 	description: {
-		en: "Discarding its shell made it nimble. To keep itself from dehydrating, it wraps its body in bands of membrane."
+		en: "Discarding its shell made it nimble. To keep itself from dehydrating, it wraps its body in bands of membrane.",
+		de: "Seit es seine Muschel abgestreift hat, ist es viel leichter und agiler. Es umhüllt sich mit einer Schleimhaut, die es vor dem Austrocknen schützt."
 	},
 
 	attacks: [{
@@ -66,17 +67,23 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582053,
-		tcgplayer: 253090
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582053,
+				tcgplayer: 253090
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582053,
+				tcgplayer: 253090
+			}
+		},
+	],
 }
 
 export default card

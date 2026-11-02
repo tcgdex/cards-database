@@ -70,10 +70,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299493,
-		tcgplayer: 138583
-	}
+	description: {
+		en: "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.",
+		de: "Es erfasst warme Gefühle von Menschen und Pokémon mit seinen Hörnern und wärmt sich daran auf."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299493,
+				tcgplayer: 138583
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299493,
+				tcgplayer: 138583
+			}
+		},
+	],
 }
 
 export default card

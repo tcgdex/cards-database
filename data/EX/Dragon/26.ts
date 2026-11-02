@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		147,
-	],
+	dexId: [147],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Remove 2 damage counters from 1 of your Pokémon (remove 1 if there is only 1).",
 				fr: "Retirez deux marqueurs de dégât à un de vos Pokémon (ou un s'il n'y en a qu'un).",
-				de: "Entferne 2 Schadensmarken von einem deiner Pokémon (1 falls nur 1 vorhanden)."
+				de: "Entferne 2 Schadensmarken von einem deiner Pokémon (falls 1 nur 1 vorhanden)."
 			},
 
 		},
@@ -60,10 +58,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Colorless",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Grass",
@@ -74,14 +71,25 @@ const card: Card = {
 			value: "-30"
 		},
 	],
-
-
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 84932,
-		cardmarket: 275903
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84932,
+				cardmarket: 275903
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84932,
+				cardmarket: 275903
+			},
+		},
+	],
+
 }
 
 export default card

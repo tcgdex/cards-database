@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		281,
-	],
+	dexId: [281],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Ralts",
 		fr: "Tarsal",
+		de: "Trasla"
 	},
 
 	stage: "Stage1",
@@ -39,12 +38,12 @@ const card: Card = {
 			name: {
 				en: "Teleportation Burst",
 				fr: "Téléportation explosive",
-				de: "Teleportation Burst"
+				de: "Blitz-Teleportation"
 			},
 			effect: {
 				en: "You may switch Kirlia with 1 of your Benched Pokémon.",
 				fr: "Vous pouvez échanger Kirlia avec 1 des Pokémon de Banc de votre adversaire.",
-				de: "You may switch Kirlia with 1 of your Benched Pokémon."
+				de: "Du kannst Kirlia gegen 1 Pokémon auf deiner Bank austauschen."
 			},
 			damage: 30,
 
@@ -58,7 +57,7 @@ const card: Card = {
 			name: {
 				en: "Super Psy Bolt",
 				fr: "Super psy",
-				de: "Super Psy Bolt"
+				de: "Super-Psischlag"
 			},
 
 			damage: 60,
@@ -75,23 +74,34 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278472,
-		tcgplayer: 86468
+	description: {
+		en: "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.",
+		de: "Ist sein Trainer glücklich, tanzt es in einem Schwall von Energie fröhlich umher."
 	},
 
-	variants:[
-		{
-			type:"normal"
+	variants: [		{
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 86468,
+				cardmarket: 278472
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278472,
+				tcgplayer: 86468
+			}
 		},
 		{
 			type:"normal",
-			stamp: ["michael-pramawat"]
+			stamp: ["michael-pramawat"],
+			thirdParty: {
+				tcgplayer: 480066
+			}
 		}
-	]
+	],
+
 }
 
 export default card

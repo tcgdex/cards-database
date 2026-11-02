@@ -64,6 +64,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Fruits are its favorite foods. This gourmet carefully picks out just the ripe ones using its sonar.",
+		de: "Es liebt Obst. Als Feinschmecker sortiert es jedoch unreife Früchte mit Ultraschallwellen aus und verleibt sich nur reifes Obst ein."
+	},
+
 	thirdParty: {
 		cardmarket: 388582,
 		tcgplayer: 195156

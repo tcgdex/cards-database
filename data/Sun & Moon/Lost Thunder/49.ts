@@ -64,6 +64,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When it shares the infinite energy it creates, that being's entire body will be overflowing with power.",
+		de: "Jeder, dem Victini seine grenzenlose Energie zuteilwerden lässt, strotzt nur so vor Kraft."
+	},
+
 	thirdParty: {
 		cardmarket: 365689,
 		tcgplayer: 178854

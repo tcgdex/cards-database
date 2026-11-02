@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Claw",
 				fr: "Ergots",
+				de: "Klaue"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -53,6 +55,7 @@ const card: Card = {
 			name: {
 				en: "Drill Peck",
 				fr: "Bec Vrille",
+				de: "Bohrschnabel"
 			},
 
 			damage: 50,
@@ -76,10 +79,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 280682,
-		tcgplayer: 89244
-	}
+	description: {
+		en: "Despite being clad entirely in iron-hard armor, it flies at speed of over 180 mph.",
+		de: "Es wird komplett von einer eisenharten Rüstung geschützt. Wenn es fliegt, erreicht es bis zu 300 km/h."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280682,
+				tcgplayer: 89244
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280682,
+				tcgplayer: 89244
+			}
+		},
+	],
 }
 
 export default card

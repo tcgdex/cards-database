@@ -22,6 +22,16 @@ const card: Card = {
 		id: "Kerusakan akibat serangan dari Pokémon lawan yang diterima Pokémon {Petarung} yang mengenakan kartu ini berkurang sejumlah 30."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 693038,
+				tcgplayer: 567188,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "G"
 }

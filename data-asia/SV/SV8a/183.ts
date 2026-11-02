@@ -24,6 +24,22 @@ const card: Card = {
 		'zh-cn': "雙方玩家在每個自己的回合時，可使用1次，若從自己的手牌將1張「基本【超】能量」卡丟棄，則可將自己的所有寶可夢各恢復「30」HP。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803296,
+				tcgplayer: 602642,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602643,
+			},
+		},
+	],
+
 	trainerType: "Stadium",
 	regulationMark: "G"
 }

@@ -12,18 +12,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		372,
-	],
+	dexId: [372],
 	
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Bagon",
+		de: "Kindwurm"
 	},
 
 	stage: "Stage1",
@@ -38,8 +37,8 @@ const card: Card = {
 				de: "Zähneknirschen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Shelgon by attacks during your opponent's next turn.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" verhindere allen Schaden, der Draschel im nächsten Zug deines Gegners durch Angriffe zugefügt würde."
+				en: "Flip a coin. If heads, prevent all damage done to Shelgon during your opponent's next turn.",
+				de: "Wirf 1 Münze. Bei „Kopf“ verhindere allen Schaden, der Draschel im nächsten Zug deines Gegners durch Angriffe zugefügt würde."
 			},
 
 		},
@@ -55,7 +54,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If Shelgon has any basic Fire Energy and any basic Water Energy attached to it, this attack does 40 damage plus 20 more damage.",
-				de: "Wenn mindestens 1 -Basis-Energiekarte und 1 -Basis-Energiekarte an Draschel angelegt sind, fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				de: "Wenn mindestens 1 {R}-Basis-Energiekarte und 1 {W}-Basis-Energiekarte an Draschel angelegt sind, fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -71,19 +70,28 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278920,
-		tcgplayer: 89129
+	description: {
+		en: "Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.",
+		de: "Die Zellen seines Panzers fingen an, sich zu verändern. Er fällt ab, sobald sich das PKMN entwickelt."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89129,
+				cardmarket: 278920
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278920,
+				tcgplayer: 89129
+			}
+		},
+	],
+
 }
 
 export default card

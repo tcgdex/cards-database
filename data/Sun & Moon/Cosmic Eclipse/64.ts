@@ -75,6 +75,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When two Dewpider meet, they display their water bubbles to each other. Then the one with the smaller bubble gets out of the other's way.",
+		de: "Stehen sich zwei Araqua im Weg, vergleichen sie die Wasserblasen auf ihrem Kopf. Das mit der kleineren Blase macht dann dem anderen Platz."
+	},
+
 	thirdParty: {
 		cardmarket: 407969,
 		tcgplayer: 201239

@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		77,
-	],
+	dexId: [77],
 	
 	hp: 60,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -48,9 +46,9 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 20 more damage.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
-			damage: "10+",
+			damage: 10,
 
 		},
 	],
@@ -64,19 +62,28 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278869,
-		tcgplayer: 88290
+	description: {
+		en: "As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster.",
+		de: "Neugeboren kann es kaum stehen. Durch das Galoppieren werden seine Beine aber schneller und kräftiger."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88290,
+				cardmarket: 278869
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278869,
+				tcgplayer: 88290
+			}
+		},
+	],
+
 }
 
 export default card

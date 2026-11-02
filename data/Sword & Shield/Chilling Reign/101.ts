@@ -73,23 +73,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "The small spikes covering its body developed from scales. They inject a toxin that causes fainting."
+		en: "The small spikes covering its body developed from scales. They inject a toxin that causes fainting.",
+		de: "Die kleinen Stacheln an seinem Körper sind aus Schuppen entstanden. Damit injiziert es Gift, das zu Ohnmacht führt."
 	},
 
-	thirdParty: {
-		cardmarket: 567209,
-		tcgplayer: 241775
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567209,
+				tcgplayer: 241775
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567209,
+				tcgplayer: 241775
+			}
+		},
+	],
 }
 
 export default card

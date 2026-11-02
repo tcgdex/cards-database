@@ -71,7 +71,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño más por cada Energía Metal unida a este Pokémon.",
 				it: "Questo attacco infligge 20 danni in più per ogni Energia Metal assegnata a questo Pokémon.",
 				pt: "Esse ataque causa 20 de danos adicionais para cada Energia Metal ligada a este Pokémon.",
-				de: "Dieser Angriff fügt 20 weitere Schadenspunkte für jede an dieses Pokémon angelegte Metal-Energie zu."
+				de: "Dieser Angriff fügt 20 weitere Schadenspunkte für jede an dieses Pokémon angelegte {M}-Energie zu."
 			},
 			damage: "40+",
 

@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Pickup",
 				fr: "Ramassage",
+				de: "Mitnahme"
 			},
 			effect: {
 				en: "Put an Item card from your discard pile into your hand.",
 				fr: "Prenez une carte Objet dans votre pile de défausse et ajoutez-la à votre main.",
+				de: "Nimm 1 Itemkarte von deinem Ablagestapel auf deine Hand."
 			},
 
 		},
@@ -50,6 +52,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 10,
@@ -66,10 +69,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279818,
-		tcgplayer: 86797
-	}
+	description: {
+		en: "It faces strong opponents with great courage. But, when at a disadvantage in a fight, this intelligent Pokémon flees.",
+		de: "Ein kluges Pokémon, das sich zwar tapfer auch starken Gegnern zum Kampf stellt, aber unfaire Begegnungen zu meiden weiß."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279818,
+				tcgplayer: 86797
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279818,
+				tcgplayer: 86797
+			}
+		},
+	],
 }
 
 export default card

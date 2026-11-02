@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Liberlo-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 320,
 	types: ["Fire"],
@@ -72,9 +72,25 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "H",
-	illustrator: "5ban Graphics"
+	suffix: "ex",
+	illustrator: "5ban Graphics",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 796939,
+				tcgplayer: 596420
+			},
+		}
+	],
 }
 
 export default card

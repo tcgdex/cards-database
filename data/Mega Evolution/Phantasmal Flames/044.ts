@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Alcremie"
 	},
 
+	evolveFrom: {
+		en: "Milcery",
+		fr: "Crèmy",
+		es: "Milcery",
+		'es-mx': "Milcery",
+		de: "Hokumil",
+		it: "Milcery",
+		pt: "Milcery",
+	},
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 
@@ -48,22 +58,40 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "Desserts that Alcremie have decorated with their cream have a rich, sweet flavor and bring happiness to all who eat them.",
+		fr: "Les desserts nappés par Charmilly ont un goût sucré si intense qu'ils rendent heureuses toutes les personnes qui les mangent.",
+		de: "Von Pokusan verzierte Desserts haben solch eine vollmundige Süße, dass jeder glücklich wird, der davon kostet."
+	},
+
+	illustrator: "Narumi Sato",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857619,
+				tcgplayer: 660384,
+				cardtrader: 356827
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857619,
+				tcgplayer: 660384,
+				cardtrader: 356827
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857619,
-		tcgplayer: 660384
-	}
 }
 
 export default card

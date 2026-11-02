@@ -4,7 +4,7 @@ import Set from '../Call of Legends'
 const card: Card = {
 	name: {
 		en: "Tyrogue",
-		fr: "Debugant",
+		fr: "Débugant",
 		de: "Rabauz"
 	},
 
@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		236,
-	],
+	dexId: [236],
 
 	hp: 30,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -59,10 +57,29 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279679,
-		tcgplayer: 90132
-	}
+	description: {
+		en: "Even though it is small, it can't be ignored because it will slug any handy target without warning.",
+		de: "Es ist zwar nicht groß, aber dennoch unübersehbar, denn es schlägt jederzeit ohne Vorwarnug zu."
+	},
+
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90132,
+				cardmarket: 279679
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90132,
+				cardmarket: 279679
+			},
+		},
+	],
+
 }
 
 export default card

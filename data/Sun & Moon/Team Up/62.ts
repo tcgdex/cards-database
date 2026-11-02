@@ -56,6 +56,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It was born from sludge on the ocean floor. In a sterile environment, the germs within its body can't multiply, and it dies.",
+		de: "Sleima ist aus dem Schlamm am Meeresgrund entstanden. An sterilen Orten kann es seine Bakterien nicht kultivieren und stirbt."
+	},
+
 	thirdParty: {
 		cardmarket: 368992,
 		tcgplayer: 183840

@@ -98,6 +98,11 @@ const card: Card = {
 		de: "Schilterus' Panzerfossil"
 	},
 
+	description: {
+		en: "It was generated from a fossil dug out of a layer of clay that was older than anyone knows. It has a sturdy face.",
+		de: "Das Fossil, aus dem es entstand, wurde aus einer 100 Millionen Jahre alten Gesteinsschicht geborgen."
+	},
+
 	thirdParty: {
 		cardmarket: 291635,
 		tcgplayer: 121198

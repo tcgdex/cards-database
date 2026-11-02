@@ -65,18 +65,40 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715530,
+				tcgplayer: 497466,
+				cardtrader: 248659
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715530,
+				tcgplayer: 497466,
+				cardtrader: 248659
+			}
+		},
+	],
 
 	illustrator: "Pani Kobayashi",
 
-	thirdParty: {
-		cardmarket: 715530
-	}
+	description: {
+		en: "This Pokémon wanders around snowy, icy areas. It protects its body with powerful muscles and a thick layer of fat under its skin.",
+		de: "Es wandert in eisigen Schneegebieten umher. Mit den starken Muskeln und der dicken Fettschicht unter seiner Haut schützt es seinen Körper."
+	},
 }
 
 export default card

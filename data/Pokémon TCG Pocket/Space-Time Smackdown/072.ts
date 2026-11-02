@@ -23,7 +23,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Dusclops"
+		en: "Dusclops",
+		fr: "Téraclope"
 	},
 
 	description: {

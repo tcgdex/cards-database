@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [278],
 
 	dexId: [
 		640,
@@ -85,6 +86,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Legends say this Pokémon confounded opponents with its swift movements.",
+	},
 
 	thirdParty: {
 		cardmarket: 284193,

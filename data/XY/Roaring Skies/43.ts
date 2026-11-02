@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up.",
+	},
+
 	thirdParty: {
 		cardmarket: 282711,
 		tcgplayer: 98079

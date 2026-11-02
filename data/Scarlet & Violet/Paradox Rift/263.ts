@@ -4,6 +4,8 @@ import Set from "../Paradox Rift"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [973],
+
 	name: {
 		en: "Beach Court",
 		fr: "Terrain de Plage",
@@ -22,22 +24,26 @@ const card: Card = {
 		es: "El Coste de Retirada de cada Pokémon Básico en juego (tanto tuyos como de tu rival) es de {C} menos.",
 		it: "Il costo di ritirata di ciascun Pokémon Base in gioco, sia tuo che del tuo avversario, è ridotto di {C}.",
 		pt: "O custo de Recuo de cada Pokémon Básico em jogo (seus e do seu oponente) é {C} a menos.",
-		de: "Die Rückzugskosten aller Basis-Pokémon im Spiel (deiner und der deines Gegners) verringern sich um {C}."
+		de: "Die Rückzugskosten aller Basis-Pokémon im Spiel (deiner und der deines Gegners) verringern sich um {C}. Du kannst während deines Zuges nur 1 Stadionkarte spielen. Lege sie neben die Aktive Position, und lege sie auf den Ablagestapel, wenn eine andere Stadionkarte ins Spiel gebracht wird. Eine Stadionkarte mit demselben Namen kann nicht gespielt werden."
 	},
 
 	trainerType: "Stadium",
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740806,
+				tcgplayer: 523944,
+				cardtrader: 265309
+			}
+		},
+	],
 
 	illustrator: "Oswaldo KATO",
 
-	thirdParty: {
-		cardmarket: 740806
-	}
+	
 }
 
 export default card

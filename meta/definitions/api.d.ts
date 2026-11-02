@@ -60,8 +60,14 @@ interface variants {
 interface variant_detailed {
 	type: string
 	size?: string
+	subtype?: string
 	stamp?: Array<string>
 	foil?: string
+	thirdParty?: {
+		cardmarket?: number
+		tcgplayer?: number
+	}
+	variantId: string
 }
 
 export interface SetResume {
@@ -213,6 +219,7 @@ export interface Card extends CardResume {
 	 * Pokemon Pokedex ID
 	 */
 	dexId?: Array<number>;
+	cameoDexIds?: Array<number>;
 	/**
 	 * Pokemon HP
 	 */

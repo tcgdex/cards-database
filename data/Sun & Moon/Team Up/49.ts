@@ -81,6 +81,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The frills on either side of its head have cells that generate electricity when exposed to sunlight.",
+		de: "Die Zellen der Hautlappen, die sich beidseitig an seinem Kopf befinden, erzeugen Strom, wenn sie von Sonnenstrahlen beschienen werden."
+	},
+
 	thirdParty: {
 		cardmarket: 368980,
 		tcgplayer: 183824

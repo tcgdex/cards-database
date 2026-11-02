@@ -65,18 +65,40 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715551,
+				tcgplayer: 497487,
+				cardtrader: 248703
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715551,
+				tcgplayer: 497487,
+				cardtrader: 248703
+			}
+		},
+	],
 
 	illustrator: "kodama",
 
-	thirdParty: {
-		cardmarket: 715551
-	}
+	description: {
+		en: "This Pokémon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.",
+		de: "Dieses Pokémon ist für gewöhnlich sehr gelassen, doch sobald ein Kampf beginnt, streckt es den Gegner mit blitzschnellen Bewegungen zu Boden."
+	},
 }
 
 export default card

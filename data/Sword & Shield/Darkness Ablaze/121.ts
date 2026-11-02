@@ -76,23 +76,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "When it evolves, it sheds the steel carapace that covered its whole body and develops a new one."
+		en: "When it evolves, it sheds the steel carapace that covered its whole body and develops a new one.",
+		de: "Entwickelt es sich, wirft es seinen alten Stahlpanzer ab und bildet einen neuen aus."
 	},
 
-	thirdParty: {
-		cardmarket: 483484,
-		tcgplayer: 219378
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483484,
+				tcgplayer: 219378
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483484,
+				tcgplayer: 219378
+			}
+		},
+	],
 }
 
 export default card

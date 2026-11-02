@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 20,
@@ -51,6 +52,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It lives in treetop colonies. If one becomes enraged, the whole colony rampages for no reason.",
+		de: "Es lebt mit anderen in Baumkronen. Wird eines von ihnen wütend, werden alle anderen auch wütend."
+	},
 
 	thirdParty: {
 		cardmarket: 280937,

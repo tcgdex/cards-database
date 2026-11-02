@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Ce Pokémon est né dans un coffre au trésor,\nil y a environ 1 500 ans. Il absorbe l'énergie\nvitale des voyous qui osent voler son magot.",
 		es: "El cofre en el que nació data de hace 1500 años\naproximadamente. Absorbe la energía vital de los\ngranujas que intentan hacerse con su tesoro.",
 		it: "Nacque all'interno di un forziere circa 1.500\nanni fa. Assorbe l'energia vitale dei furfanti\nche provano a rubare il suo tesoro.",
-		de: "Es entstand vor etwa 1500 Jahren in einer Schatztruhe.\nWenn Diebe versuchen, den Schatz zu stehlen, saugt es\nihnen die Lebensenergie aus.",
+		de: "Es entstand vor etwa 1500 Jahren in einer Schatztruhe. Wenn Diebe versuchen, den Schatz zu stehlen, saugt es ihnen die Lebensenergie aus.",
 		'pt-br': "Este Pokémon nasceu em um baú do tesouro cerca\nde 1.500 anos atrás. Suga a força vital de\nfanfarrões que tentam roubar o tesouro.",
 		ko: "약 1500년 전의 보물 상자 안에서 태어났다.\n보물을 훔치려 드는\n괘씸한 자의 생기를 흡수한다."
 	},

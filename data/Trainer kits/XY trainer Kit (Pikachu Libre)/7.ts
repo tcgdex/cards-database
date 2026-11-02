@@ -23,20 +23,23 @@ const card: Card = {
 	illustrator: "Atsuko Nishida",
 
 	description: {
-		en: "It dislikes cold seasons. They migrate to other lands in search of warmth, flying over 180 miles a day."
+		en: "It dislikes cold seasons. They migrate to other lands in search of warmth, flying over 180 miles a day.",
+		de: "Es mag die kalte Jahreszeit nicht. Daher legt es auf der Suche nach wärmeren Gefilden mehr als 300 km am Tag zurück."
 	},
 
 	attacks: [{
 		name: {
 			en: "Double Peck",
-			fr: "Double Picpic"
+			fr: "Double Picpic",
+			de: "Doppelschnabel"
 		},
 
 		damage: "10×",
 
 		effect: {
 			en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
-			fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face."
+			fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+			de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 		}
 	}],
 

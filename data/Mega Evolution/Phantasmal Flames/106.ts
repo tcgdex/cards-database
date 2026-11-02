@@ -48,19 +48,32 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "It loves things that sparkle. When it sees a shiny object, the gold coin on its head shines, too.",
+		fr: "Il est fasciné par les objets brillants. Lorsqu'il en voit un, la pièce sur son front se met à luire.",
+		de: "Glänzende Dinge faszinieren es. Findet es etwas Schimmerndes, leuchtet auch die Münze an seinem Kopf aus unbekanntem Grund auf."
+	},
+
+	illustrator: "Uninori",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857681,
+				tcgplayer: 662195,
+				cardtrader: 356892
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857681,
-		tcgplayer: 662195
-	}
 }
 
 export default card

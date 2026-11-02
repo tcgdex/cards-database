@@ -14,8 +14,9 @@ const card: Card = {
 		'es-mx': "Mega-Latias ex"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Dragon"],
@@ -75,20 +76,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 657846,
-		cardmarket: 851063
-	},
-
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 851063,
+				tcgplayer: 657846
+			}
 		},
 		{
-			type: "holo",
-			size: "jumbo"
-		}
-	]
+			type: 'lenticular',
+			size: 'jumbo',
+			thirdParty: {
+				cardmarket: 851066,
+				tcgplayer: 657847
+			}
+		},
+	],
 }
 
 export default card

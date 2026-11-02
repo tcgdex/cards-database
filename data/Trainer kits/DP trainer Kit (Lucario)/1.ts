@@ -10,14 +10,15 @@ const card: Card = {
 		fr: "Racaillou"
 	},
 
-	illustrator: "Ken Sudimori",
+	illustrator: "Ken Sugimori",
 	rarity: "None",
 	category: "Pokemon",
 
 	hp: 60,
 
+	stage: "Basic",
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	attacks: [{
@@ -40,7 +41,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "10+"
+			value: "+10"
 		},
 	],
 
@@ -56,6 +57,16 @@ const card: Card = {
 	},
 
 	retreat: 2,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278010,
+				tcgplayer: 85691
+			}
+		},
+	],
 
 }
 

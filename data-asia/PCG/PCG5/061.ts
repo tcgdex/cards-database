@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "デッドロック",
 			},
 			effect: {
-				ja: "DunsparceがあなたのアクティブなPokã©Monである限り、あなたの相手のDunspheceは攻撃できません。",
+				ja: "DunsparceがあなたのアクティブなPokéMonである限り、あなたの相手のDunspheceは攻撃できません。",
 			},
 		}],
 

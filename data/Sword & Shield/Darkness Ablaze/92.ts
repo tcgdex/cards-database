@@ -75,23 +75,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "When it rotates itself, it gives off light similar to the sun, thus blinding its foes."
+		en: "When it rotates itself, it gives off light similar to the sun, thus blinding its foes.",
+		de: "Es rotiert um die eigene Achse und strahlt dabei sonnengleiches Licht aus, mit dem es den Gegner blendet."
 	},
 
-	thirdParty: {
-		cardmarket: 483339,
-		tcgplayer: 219484
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483339,
+				tcgplayer: 219484
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483339,
+				tcgplayer: 219484
+			}
+		},
+	],
 }
 
 export default card

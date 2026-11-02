@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		305,
-	],
+	dexId: [305],
 
 	hp: 80,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Aron",
 		fr: "Galekid",
+		de: "Stollunior"
 	},
 
 	stage: "Stage1",
@@ -69,20 +68,27 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It loves iron ore. Groups of them fight for territory by bashing one another with their steel bodies."
+		en: "It loves iron ore. Groups of them fight for territory by bashing one another with their steel bodies.",
+		de: "Ist verrückt nach Eisenerz. Bei Revierkämpfen stoßen STOLLRAK einander mit ihren Stahlkörpern."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86583,
+				cardmarket: 279567
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279567,
+				tcgplayer: 86583
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279567,
-		tcgplayer: 86583
-	}
 }
 
 export default card

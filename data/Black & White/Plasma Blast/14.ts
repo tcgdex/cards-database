@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Bubble",
 				fr: "Écume",
+				de: "Blubber"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 
 		},
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				de: "Aquaknarre"
 			},
 
 			damage: 20,
@@ -66,6 +69,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It shelters itself in its shell then strikes back with spouts of water at every opportunity.",
+		de: "Es zieht sich in seinen Panzer zurück und greift dann mit Wasserstrahlen seine Gegner an."
+	},
 
 	thirdParty: {
 		cardmarket: 281035,

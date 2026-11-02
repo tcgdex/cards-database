@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dusclops"
+		en: "Dusclops",
+		fr: "Téraclope"
 	},
 
 	illustrator: "Kazuma Koda",
@@ -17,18 +18,21 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Duskull"
+		en: "Duskull",
+		fr: "Skelénox"
 	},
 
 	description: {
-		en: "It seeks drifting will-o'-the-wisps and sucks them\ninto its empty body. What happens inside is\na mystery."
+		en: "It seeks drifting will-o'-the-wisps and sucks them\ninto its empty body. What happens inside is\na mystery.",
+		fr: "Il cherche des feux follets pour les avaler.\\nCe qu'il se passe alors à l'intérieur\\nde son corps vide est un mystère."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Will-O-Wisp"
+			en: "Will-O-Wisp",
+			fr: "Feu Follet"
 		},
 
 		damage: 30,

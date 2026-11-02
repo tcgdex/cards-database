@@ -24,6 +24,22 @@ const card: Card = {
 		'zh-cn': "這張卡只有在自己剩餘獎賞卡的張數比對手剩餘獎賞卡的張數多時才可使用。 選擇1隻對手的備戰寶可夢，與戰鬥寶可夢互換。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803252,
+				tcgplayer: 602560,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602561,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "G"
 }

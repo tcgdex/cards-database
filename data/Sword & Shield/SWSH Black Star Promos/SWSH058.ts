@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "sui",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Psychic"],
@@ -85,18 +85,18 @@ const card: Card = {
 	stage: "Stage1",
 	dexId: [869],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 516314
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 516314,
+				tcgplayer: 227029
+			}
+		},
+	],
 }
 
 export default card

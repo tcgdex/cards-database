@@ -4,6 +4,7 @@ import Set from "../Silver Tempest"
 const card: Card = {
 	dexId: [320],
 	set: Set,
+	cameoDexIds: [278],
 
 	name: {
 		en: "Wailmer",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Wailmer"
 	},
 
+	illustrator: "Jiro Sasumo",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 110,
@@ -57,20 +59,37 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It shows off by spraying jets of seawater from the nostrils above its eyes. It eats a solid ton of Wishiwashi every day.",
+		de: "Es prustet Meerwasser aus den Nasenlöchern, die über seinen Augen liegen. Außerdem frisst es täglich eine Tonne Lusardin."
 	},
 
-	thirdParty: {
-		cardmarket: 682079,
-		tcgplayer: 451671
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682079,
+				tcgplayer: 451671
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682079,
+				tcgplayer: 451671
+			}
+		},
+	],
 }
 
 export default card

@@ -24,6 +24,22 @@ const card: Card = {
 		'zh-cn': "這張卡必須將自己的1張手牌丟棄才可使用。 從自己的牌庫抽出與對手的備戰寶可夢相同數量的卡。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803291,
+				tcgplayer: 602632,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602633,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "H"
 }

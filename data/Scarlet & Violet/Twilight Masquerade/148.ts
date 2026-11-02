@@ -22,21 +22,31 @@ const card: Card = {
 		es: "Descarta 1 Energía Especial de uno de los Pokémon de tu rival.",
 		it: "Scarta un'Energia speciale da uno dei Pokémon del tuo avversario.",
 		pt: "Descarte uma Energia Especial de 1 dos Pokémon do seu oponente.",
-		de: "Lege 1 Spezial-Energie von 1 Pokémon deines Gegners auf seinen Ablagestapel."
+		de: "Lege 1 Spezial-Energie von 1 Pokémon deines Gegners auf seinen Ablagestapel. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769322,
+				tcgplayer: 550192
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769322,
+				tcgplayer: 550192
+			}
+		},
+	],
 
 	illustrator: "Eske Yoshinob",
 
-	thirdParty: {
-		cardmarket: 769322
-	}
 }
 
 export default card

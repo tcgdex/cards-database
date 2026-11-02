@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		54,
-	],
+	dexId: [54],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Confusion Wave",
 				fr: "Vague de confusion",
-				de: "Confusion Wave"
+				de: "Verwirrende Welle"
 			},
 			effect: {
 				en: "Both Psyduck and the Defending Pokémon are now Confused.",
 				fr: "Psykokwak et le Pokémon Défenseur sont maintenant Confus.",
-				de: "Both Psyduck and the Defending Pokémon are now Confused."
+				de: "Enton und das Verteidigende Pokémon sind jetzt verwirrt."
 			},
 
 		},
@@ -54,19 +52,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275850,
-		tcgplayer: 88432
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275850,
+				tcgplayer: 88432
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275850,
+				tcgplayer: 88432
+			}
 		},
-	]
+	],
+
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Linoone"
+		en: "Linoone",
+		fr: "Linéon"
 	},
 
 	illustrator: "match",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Zigzagoon"
+		en: "Zigzagoon",
+		fr: "Zigzaton"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Jet Headbutt"
+			en: "Jet Headbutt",
+			fr: "Bélier Volant"
 		},
 
 		damage: 40,

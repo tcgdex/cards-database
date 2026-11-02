@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Roselia"
 	},
 
+	illustrator: "Yukiko Baba",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -45,16 +46,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674025,
-		tcgplayer: 283881
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674025,
+				tcgplayer: 283881
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674025,
+				tcgplayer: 283881
+			}
+		},
+	],
 }
 
 export default card

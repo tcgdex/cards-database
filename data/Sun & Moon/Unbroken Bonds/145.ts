@@ -80,6 +80,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its reckless nature leads it to stand up to others—even large Pokémon—if it has to protect its territory.",
+		de: "Wenn es um die Verteidigung seines Reviers geht, schreckt das draufgängerische Habitak selbst vor großen Pokémon nicht zurück."
+	},
+
 	thirdParty: {
 		cardmarket: 372431,
 		tcgplayer: 189245

@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Croagunk",
-		fr: "Cradopaud"
+		fr: "Cradopaud",
+		de: "Glibunkel"
 	},
 
 	stage: "Stage1",
@@ -73,17 +74,19 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "G",
 	illustrator: "Nisota Niso",
-	suffix: "EX",
+	suffix: "ex",
 
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"
 	}],
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
+
 
 	thirdParty: {
         cardmarket: 702426,

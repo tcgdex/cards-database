@@ -63,23 +63,30 @@ const card: Card = {
 	types: ["Darkness"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It wears a bone to protect its rear. It often squabbles with others of its kind over particularly comfy bones."
+		en: "It wears a bone to protect its rear. It often squabbles with others of its kind over particularly comfy bones.",
+		de: "Sie schützen ihren Bürzel mit einer Schädelwindel. Untereinander streiten sie sich um den Schädel mit dem höchsten Tragekomfort."
 	},
 
-	thirdParty: {
-		cardmarket: 458003,
-		tcgplayer: 213213
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458003,
+				tcgplayer: 213213
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458003,
+				tcgplayer: 213213
+			}
+		},
+	],
 }
 
 export default card

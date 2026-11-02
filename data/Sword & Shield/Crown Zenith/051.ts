@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Strahlendes Akkup"
 	},
 
+	illustrator: "Mizue",
 	rarity: "Radiant Rare",
 	category: "Pokemon",
 	hp: 90,
@@ -38,7 +39,7 @@ const card: Card = {
 			es: "Cada vez que algún jugador una 1 carta de Energía de su mano a 1 de sus Pokémon V, pon 2 contadores de daño en ese Pokémon.",
 			it: "Ogni volta che un giocatore assegna a uno dei suoi Pokémon-V una carta Energia dalla propria mano, metti due segnalini danno su quel Pokémon.",
 			pt: "Sempre que algum jogador ligar 1 carta de Energia da própria mão a 1 dos próprios Pokémon V, coloque 2 contadores de dano naquele Pokémon.",
-			de: "Lege jedes Mal, wenn ein Spieler 1 Energiekarte aus seiner Hand an 1 seiner Pokémon-V anlegt, 2 Schadensmarken auf jenes Pokémon."
+			de: "Lege jedes Mal, wenn ein Spieler 1 Energiekarte aus seiner Hand an 1 seiner Pokémon V anlegt, 2 Schadensmarken auf jenes Pokémon."
 		}
 	}],
 
@@ -64,20 +65,32 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "While its durable shell protects it from attacks, Charjabug strikes at enemies with jolts of electricity discharged from the tips of its jaws.",
+		de: "Es schützt sich mithilfe seines robusten Panzers. Durch die Spitzen an seinem Kiefer leitet es Strom, mit dem es sich gegen Angreifer wehrt."
 	},
 
-	thirdParty: {
-		cardmarket: 691768,
-		tcgplayer: 477055
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691768,
+				tcgplayer: 477055
+			}
+		},
+	],
 }
 
 export default card

@@ -20,6 +20,12 @@ const card: Card = {
 	types: ["Water"],
 	stage: "Basic",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "E",
 	illustrator: "MUGENUP",
@@ -68,17 +74,16 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582210,
-		tcgplayer: 253226
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 582210,
+				tcgplayer: 253226
+			}
+		},
+	],
 }
 
 export default card

@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "余分なノイズ",
 			},
 			effect: {
-				ja: "Exploud ExがアクティブなPokã©Monである限り、ターンの間に対戦相手の各Pokã©Mon-Exに1つのダメージカウンターを入れます。",
+				ja: "Exploud ExがアクティブなPokéMonである限り、ターンの間に対戦相手の各PokéMon-Exに1つのダメージカウンターを入れます。",
 			},
 		}],
 

@@ -65,23 +65,38 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "H",
 
+	description: {
+		en: "This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760657,
+				tcgplayer: 542771
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760657,
+				tcgplayer: 542771
+			}
+		},
 	],
 
 	illustrator: "Ryota Murayama",
 
-	thirdParty: {
-		cardmarket: 760657
-	}
 }
 
 export default card

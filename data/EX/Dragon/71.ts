@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		204,
-	],
+	dexId: [204],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				de: "Exoskelett"
 			},
 			effect: {
-				en: "Any damage done to Pineco by attacks is reduced by 10. (after applying Weakness and Resistance).",
+				en: "Any damage done to Pineco by attacks is reduced by 10 (after applying Weakness and Resistance).",
 				fr: "Tous dégâts infligés à Pomdepic par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
 				de: "Jeder Schaden, der Tannza durch Angriffe zugefügt wird, wird um 10 reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
@@ -61,17 +59,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88126,
+				cardmarket: 275948
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88126,
+				cardmarket: 275948
+			},
 		},
 	],
 
-
-	retreat: 1,
-
-	thirdParty: {
-		tcgplayer: 88126,
-		cardmarket: 275948
-	}
 }
 
 export default card

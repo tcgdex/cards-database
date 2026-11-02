@@ -3,18 +3,20 @@ import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [25],
 
 	name: {
 		en: "Drifblim",
 		fr: "Grodrive",
-		de: "Drifzepeli",
-		it: "Drifblim",
-		es: "Drifblim",
-		pt: "Drifblim"
+	},
+
+	evolveFrom: {
+		en: "Drifloon",
+		fr: "Baudrive",
 	},
 
 	illustrator: "Shimaris Yukichi",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Psychic"],
@@ -27,19 +29,11 @@ const card: Card = {
 		name: {
 			en: "Disruptive Wind",
 			fr: "Vent Perturbant",
-			de: "Störender Wind",
-			it: "Vento Disturbante",
-			es: "Viento Perturbador",
-			pt: "Vento Perturbador"
 		},
 
 		effect: {
 			en: "Your opponent's Active Pokémon is now Confused.",
 			fr: "Le Pokémon Actif de votre adversaire est maintenant Confus.",
-			de: "Das Aktive Pokémon deines Gegners ist jetzt verwirrt.",
-			it: "Il Pokémon attivo del tuo avversario viene confuso.",
-			es: "El Pokémon Activo de tu rival pasa a estar Confundido.",
-			pt: "O Pokémon Ativo do seu oponente agora está Confuso."
 		}
 	}, {
 		cost: ["Psychic", "Psychic"],
@@ -47,10 +41,6 @@ const card: Card = {
 		name: {
 			en: "Balloon Return",
 			fr: "Retour Ballon",
-			de: "Ballon-Rückkehr",
-			it: "Ritorno Palloncino",
-			es: "Regreso Globo",
-			pt: "Retorno de Balão"
 		},
 
 		damage: 110,
@@ -58,25 +48,32 @@ const card: Card = {
 		effect: {
 			en: "Put this Pokémon and all attached cards into your hand.",
 			fr: "Ajoutez à votre main ce Pokémon et toutes les cartes qui lui sont attachées.",
-			de: "Nimm dieses Pokémon und alle angelegten Karten auf deine Hand.",
-			it: "Prendi questo Pokémon e tutte le carte assegnate e aggiungili alla tua mano.",
-			es: "Pon este Pokémon y todas las cartas unidas a él en tu mano.",
-			pt: "Coloque este Pokémon e todas as cartas ligadas a ele na sua mão."
 		}
 	}],
 
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 656256,
-		cardmarket: 851052
-	},
+	weaknesses: [{
+		type: "Darkness",
+		value: "x2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "-30"
+	}],
+
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 851052,
+				tcgplayer: 656256
+			}
+		},
+	],
 }
 
 export default card

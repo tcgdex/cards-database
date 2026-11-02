@@ -48,14 +48,30 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "kantaro",
+
+	description: {
+		en: "The pads of its paws are electricity-discharging organs. Pawmi fires electricity from its forepaws while standing unsteadily on its hind legs.",
+		de: "Seine Pfotenballen sind Organe zur elektrischen Entladung. Gelingt es ihm, auf den Hinterbeinen zu stehen, schießt es Strom aus den Vorderpfoten."
+	},
 
 	thirdParty: {
         cardmarket: 702370,

@@ -1,40 +1,56 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "墨海馬"
+		ja: "ヒトカゲ",
+		'zh-tw': "墨海馬",
 	},
 
-	illustrator: "MAHOU",
+	illustrator: "NC Empire",
 	category: "Pokemon",
-	hp: 60,
-	types: ["Water"],
+	hp: 70,
+	types: ["Fire"],
 
 	description: {
-		'zh-tw': "會在水中跳舞似地游動來 製造漩渦。玩耍時會和夥伴 比賽誰做出的漩渦比較大。"
+		ja: "生まれたときから しっぽに 炎が ともっている。 炎が 消えたとき その 命は 終わって しまう。",
+		'zh-tw': "會在水中跳舞似地游動來 製造漩渦。玩耍時會和夥伴 比賽誰做出的漩渦比較大。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "鉤住"
+	attacks: [
+		{
+			name: {
+				ja: "ひのこ",
+				'zh-tw': "鉤住",
+			},
+			damage: 40,
+			cost: ["Fire", "Fire"],
+			effect: {
+				ja: "このポケモンについているエネルギーを1個選び、トラッシュする。",
+			},
 		},
+	],
 
-		damage: 20,
-		cost: ["Water"]
-	}],
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 720940,
+				tcgplayer: 587818,
+			},
+		},
+	],
 
 	retreat: 1,
-	regulationMark: "G"
-}
+	regulationMark: "G",
+	rarity: "Promo",
+	dexId: [4],
+};
 
-export default card
+export default card;

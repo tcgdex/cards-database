@@ -81,6 +81,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "If it is around babies, the milk it produces contains much more nutrition than usual.",
+		de: "Wenn es gerade ein Junges hat, dann enthält seine Milch mehr Nährstoffe als gewöhnlich."
+	},
+
 	thirdParty: {
 		cardmarket: 281566,
 		tcgplayer: 91220

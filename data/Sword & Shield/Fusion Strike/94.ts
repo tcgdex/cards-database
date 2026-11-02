@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 80,
 	types: ["Lightning"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Sekio",
 
 	description: {
-		en: "With a body made of plasma, it can inhabit all sorts of machines. It loves to surprise others."
+		en: "With a body made of plasma, it can inhabit all sorts of machines. It loves to surprise others.",
+		de: "Mit seinem aus Plasma bestehnden Körper kann es in verschiedene Geräte schlüpfen. Es liebt es, andere zu erschrecken."
 	},
 
 	attacks: [{
@@ -62,17 +69,23 @@ const card: Card = {
 		damage: 30
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582487,
-		tcgplayer: 253250
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582487,
+				tcgplayer: 253250
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582487,
+				tcgplayer: 253250
+			}
+		},
+	],
 }
 
 export default card

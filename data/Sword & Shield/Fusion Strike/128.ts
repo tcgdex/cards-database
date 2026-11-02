@@ -4,6 +4,7 @@ import Set from "../Fusion Strike"
 const card: Card = {
 	dexId: [885],
 	set: Set,
+	cameoDexIds: [821, 823, 861],
 
 	name: {
 		en: "Dreepy",
@@ -19,12 +20,25 @@ const card: Card = {
 	hp: 60,
 	types: ["Psychic"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Teeziro",
 
 	description: {
-		en: "If this weak Pokémon is by itself, a mere child could defeat it. But if Dreepy has friends to help it train, it can evolve and become much stronger."
+		en: "If this weak Pokémon is by itself, a mere child could defeat it. But if Dreepy has friends to help it train, it can evolve and become much stronger.",
+		de: "Alleine ist es sogar gegen ein Kind machtlos, doch mit der Hilfe seiner Gefährten trainiert es, entwickelt sich und wird so stärker."
 	},
 
 	attacks: [{
@@ -51,17 +65,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582666,
-		tcgplayer: 253321
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582666,
+				tcgplayer: 253321
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582666,
+				tcgplayer: 253321
+			}
+		},
+	],
 }
 
 export default card

@@ -56,6 +56,11 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick.",
+		de: "An seinem Rücken verbrennt es die Gase aus seinem Bauch. Geht es ihm schlecht, leuchtet es weniger hell."
+	},
+
 	thirdParty: {
 		cardmarket: 315951,
 		tcgplayer: 157637

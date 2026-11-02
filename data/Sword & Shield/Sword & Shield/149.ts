@@ -68,7 +68,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "The mountains it calls home are nearly two miles in height. On rare occasions, it descends to play with the children living in the towns below."
+		en: "The mountains it calls home are nearly two miles in height. On rare occasions, it descends to play with the children living in the towns below.",
+		de: "Es lebt auf Bergen, die mehr als 3 000 m hoch sind. Ganz selten zeigt es sich auch in Städten, wo es vergnügt mit den Kindern spielt."
 	},
 
 	dexId: [780],

@@ -68,23 +68,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It has a body and heart of steel. It worked with its allies to punish people when they hurt Pokémon."
+		en: "It has a body and heart of steel. It worked with its allies to punish people when they hurt Pokémon.",
+		de: "Sein Körper und Herz sind aus Stahl. Gemeinsam mit seinen Gefährten bestrafte es alle Menschen, die Pokémon verletzen."
 	},
 
-	thirdParty: {
-		cardmarket: 567222,
-		tcgplayer: 241791
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567222,
+				tcgplayer: 241791
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567222,
+				tcgplayer: 241791
+			}
+		},
+	],
 }
 
 export default card

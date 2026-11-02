@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Houndour",
 		fr: "Malosse",
+		de: "Hunduster"
 	},
 
 	stage: "Stage1",
@@ -41,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 30,
@@ -55,10 +57,12 @@ const card: Card = {
 			name: {
 				en: "Fire Fang",
 				fr: "Crocs Feu",
+				de: "Feuerzahn"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
 				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt."
 			},
 			damage: 70,
 
@@ -81,10 +85,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280514,
-		tcgplayer: 86212
-	}
+	description: {
+		en: "The flames it breathes when angry contain toxins. If they cause a burn, it will hurt forever.",
+		de: "Ist es wütend, spuckt es giftige Flammen. Die Schmerzen der Verbrennungen dauern ewig an."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280514,
+				tcgplayer: 86212
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280514,
+				tcgplayer: 86212
+			}
+		},
+	],
 }
 
 export default card

@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Golem ex",
 		fr: "Grolem ex",
-		de: "Geowaz ex"
+		de: "Geowaz-ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -13,22 +13,22 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		76,
-	],
+	dexId: [76],
 
 	hp: 160,
 
+	stage: "Basic",
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Graveler",
-		fr: "Gravalanch"
+		fr: "Gravalanch",
+		de: "Georok"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
@@ -40,12 +40,12 @@ const card: Card = {
 			name: {
 				en: "Magnitude",
 				fr: "Ampleur",
-				de: "Magnitude"
+				de: "Intensität"
 			},
 			effect: {
 				en: "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à chacun des Pokémon du Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
-				de: "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and resistance for Benched Pokémon.)"
+				de: "Fügt allen Pokémon auf der Bank 10 Schadenspunkte zu (deinen und den gegnerischen). (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 60,
 
@@ -61,12 +61,12 @@ const card: Card = {
 			name: {
 				en: "Double-edge",
 				fr: "Damoclès",
-				de: "Double-edge"
+				de: "Risikotackle"
 			},
 			effect: {
 				en: "Golem ex does 50 damage to itself.",
 				fr: "Grolem ex s'inflige 50 dégâts.",
-				de: "Golem ex does 50 damage to itself."
+				de: "Geowaz ex fügt sich selbst 50 Schadenspunkte zu."
 			},
 			damage: 120,
 
@@ -76,21 +76,26 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 5,
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85831,
+				cardmarket: 275968
+			},
 		},
 	],
 
-
-	retreat: 5,
-
-	thirdParty: {
-		tcgplayer: 85831,
-		cardmarket: 275968
-	}
 }
 
 export default card

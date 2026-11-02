@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Soggy Rush",
 				fr: "Assaut Humide",
+				de: "Nasse Patsche"
 			},
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 10 damage times the number of heads.",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf so lang 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 10,
 
@@ -55,10 +57,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280462,
-		tcgplayer: 87036
-	}
+	description: {
+		en: "A Magikarp living for many years can leap a mountain using Splash. The move remains useless, though.",
+		de: "Ein älteres Karpador kann mit Platscher Berge überspringen. Die Attacke ist trotzdem eher nutzlos."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280462,
+				tcgplayer: 87036
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280462,
+				tcgplayer: 87036
+			}
+		},
+	],
 }
 
 export default card

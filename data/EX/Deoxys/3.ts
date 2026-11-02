@@ -42,7 +42,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If Breloom has any Grass Energy attached to it, the Defending Pokémon is now Poisoned.",
-				fr: "Si Chapignon possède des Énergies , le Pokémon Défenseur est maintenant Empoisonné.",
+				fr: "Si Chapignon possède des Énergies {G}, le Pokémon Défenseur est maintenant Empoisonné.",
 				de: "If Breloom has any  Energy attached to it, the Defending Pokémon is now Poisoned."
 			},
 			damage: 20,
@@ -79,20 +79,25 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 83955,
-		cardmarket: 276406
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 83955,
+				cardmarket: 276406
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
-		}
-	]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 83955,
+				cardmarket: 276406
+			},
+		},
+	],
+
 }
 
 export default card

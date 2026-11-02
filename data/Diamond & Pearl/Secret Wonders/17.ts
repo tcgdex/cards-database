@@ -25,7 +25,7 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Roselia",
-		fr: "Roselia",
+		fr: "Rosélia",
 	},
 
 	stage: "Stage1",
@@ -77,6 +77,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It attracts prey with a sweet aroma, then downs it with thorny whips hidden in its arms.",
+	},
 
 	thirdParty: {
 		cardmarket: 277770,

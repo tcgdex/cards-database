@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Smack",
 				fr: "Claque",
+				de: "Klatscher"
 			},
 
 			damage: 20,
@@ -53,10 +54,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280008,
-		tcgplayer: 85846
-	}
+	description: {
+		en: "They intently observe both Trainers and Pokémon. Apparently, they are looking at something that only Gothita can see.",
+		de: "Beobachtet andere Pokémon und Trainer mit durchdringendem Blick, als könne es etwas erkennen, das keiner sonst sieht."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280009,
+				tcgplayer: 85846
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280009,
+				tcgplayer: 85846
+			}
+		},
+	],
 }
 
 export default card

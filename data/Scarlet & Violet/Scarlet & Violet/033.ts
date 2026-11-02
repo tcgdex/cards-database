@@ -48,14 +48,30 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "nagimiso",
+
+	description: {
+		en: "It uses different kinds of cries for communicating with others of its kind and for pursuing its prey.",
+		de: "Sein Ruf bei der Beutejagd unterscheidet sich von dem Ruf, den es zum Kommunizieren mit Artgenossen verwendet."
+	},
 
 	thirdParty: {
         cardmarket: 702329,

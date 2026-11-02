@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Kosturso GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Stufful",
 		fr: "Nounourson",
+		de: "Velursi"
 	},
 
 	suffix: "GX",
@@ -116,8 +117,15 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 298288,
+				tcgplayer: 132240
+			}
+		}
+	],
 }
 
 export default card

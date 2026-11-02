@@ -4,6 +4,8 @@ import Set from "../Crimson Blaze"
 const card: Card = {
 	set: Set,
 
+	dexId: [208],
+
 	name: {
 		en: "Mega Steelix ex"
 	},
@@ -16,10 +18,6 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Onix"
-	},
-
-	description: {
-		en: "To protect itself from opponents' attacks, it uses\nmagnetism to control pieces of its hard outer\nshell that have flaked off."
 	},
 
 	stage: "Stage1",

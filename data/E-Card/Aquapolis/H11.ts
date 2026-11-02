@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Hajime Kusajima",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		229,
-	],
+	dexId: [229],
 
 	hp: 70,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	evolveFrom: {
 		en: "Houndour",
-		fr: "Malosse"
+		fr: "Malosse",
+		de: "Hunduster"
 	},
 
 	stage: "Stage1",
@@ -42,9 +41,9 @@ const card: Card = {
 				de: "Feuerwerk"
 			},
 			effect: {
-				en: "Flip a coin. If tails, discard a Energy card attached to Houndoom.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez-vous d'une carte Énergie  attachée à Démolosse.",
-				de: "Wirf eine Münze. Lege bei \"Zahl\" eine an Hundemon angelegte -Energiekarte auf deinen Ablagestapel."
+				en: "Flip a coin. If tails, discard a Fire Energy card attached to Houndoom.",
+				fr: "Lancez une pièce. Si c'est pile, défaussez-vous d'une carte Énergie {R} attachée à Démolosse.",
+				de: "Wirf eine Münze. Lege bei „Zahl“ eine an Hundemon angelegte {R}-Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -61,7 +60,7 @@ const card: Card = {
 				de: "Finsterer Einfluss"
 			},
 			effect: {
-				en: "The Defending Pokémon can't use any Poké-Powers untill the end of your opponent's next turn.",
+				en: "The Defending Pokémon can't use any Poké-Powers until the end of your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas utiliser de Poké-Powers jusqu'à la fin du prochain tour de votre adversaire.",
 				de: "Das Verteidigende Pokémon kann bis zum Ende des nächsten Zuges deines Gegners keine Poké-Power verwenden."
 			},
@@ -73,26 +72,26 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-30"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275086,
-		tcgplayer: 86199
-	},
 
 	variants: [
 		{
 			type: "holo",
-		}
+			thirdParty: {
+				tcgplayer: 86199,
+				cardmarket: 275086
+			}
+		},
 	]
 }
 

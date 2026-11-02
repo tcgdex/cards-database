@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		129,
-	],
+	dexId: [129],
 
 	hp: 30,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -51,27 +49,32 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "For no reason, it jumps and splashes about, making it easy for predators like Pidgeotto to catch it mid-jump."
+		en: "For no reason, it jumps and splashes about, making it easy for predators like Pidgeotto to catch it mid-jump.",
+		de: "Es springt grundlos in die Luft. Das macht es einfach für Räuber wie TAUBOGA, es im Sprung zu fangen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87032,
+				cardmarket: 279044
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87032,
+				cardmarket: 279044
+			}
 		},
 		{
 			type: "normal",
-			stamp : ["snowflake"],
+			stamp: ["snowflake"],
 			languages: ["de"]
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279044,
-		tcgplayer: 87032
-	}
 }
 
 export default card

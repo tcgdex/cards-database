@@ -22,15 +22,21 @@ const card: Card = {
 		es: "El Pokémon de Fase 1 al que esté unida esta carta obtiene 40 PS más.",
 		it: "Il Pokémon di Fase 1 a cui è assegnata questa carta ha 40 PS in più.",
 		pt: "O Pokémon Estágio 1 que esta carta estiver ligada receberá +40 PS.",
-		de: "Das Phase-1-Pokémon, an das diese Karte angelegt ist, erhält 40 KP mehr."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Das Phase-1-Pokémon, an das diese Karte angelegt ist, erhält 40 KP mehr. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",
 
-	thirdParty: {
-		cardmarket: 299559,
-		tcgplayer: 138623
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "gold",
+			thirdParty: {
+				cardmarket: 299559,
+				tcgplayer: 138623
+			}
+		},
+	],
 }
 
 export default card

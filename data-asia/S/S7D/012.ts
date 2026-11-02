@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S7D"
+import { Card } from "../../../interfaces";
+import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "伽勒爾 急凍鳥"
+		ja: "ガラル フリーザー",
+		'zh-tw': "伽勒爾 急凍鳥",
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -14,47 +14,57 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		'zh-tw': "擁有急凍鳥之名的寶可夢。射出的光束會讓對方的身體像結凍似地失去自由。"
+		ja: "凍りついたかのように 体の 自由を 奪う ビームを 撃ちだす フリーザーの 名を もつ ポケモン。",
+		'zh-tw': "擁有急凍鳥之名的寶可夢。射出的光束會讓對方的身體像結凍似地失去自由。",
 	},
 
 	stage: "Basic",
 
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			'zh-tw': "冷酷充能"
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "れいこくチャージ",
+				'zh-tw': "冷酷充能",
+			},
+			effect: {
+				ja: "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の手札から[超]エネルギーを2枚まで選び、このポケモンにつける。",
+				'zh-tw': "在自己的回合，當從手牌將這張卡放置於備戰區時，可使用1次。從自己的手牌選擇最多2張【超】能量卡，附於這隻寶可夢身上。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "在自己的回合，當從手牌將這張卡放置於備戰區時，可使用1次。從自己的手牌選擇最多2張【超】能量卡，附於這隻寶可夢身上。"
-		}
-	}],
-
-	attacks: [{
-		name: {
-			'zh-tw': "精神鐳射"
+	attacks: [
+		{
+			name: {
+				ja: "サイコレーザー",
+				'zh-tw': "精神鐳射",
+			},
+			cost: ["Psychic", "Psychic", "Colorless"],
+			effect: {
+				ja: "このポケモンについている[超]エネルギーをすべてトラッシュし、相手のポケモン1匹に、120ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'zh-tw': "將這隻寶可夢身上附加的【超】能量全部丟棄，對手的1隻寶可夢受到120點傷害。[在備戰區不計算弱點・抵抗力。]",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "將這隻寶可夢身上附加的【超】能量全部丟棄，對手的1隻寶可夢受到120點傷害。[在備戰區不計算弱點・抵抗力。]"
+	weaknesses: [{ type: "Darkness", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 571594,
+				tcgplayer: 569335,
+			},
 		},
-
-		cost: ["Psychic", "Psychic", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Darkness",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
+	],
 
 	retreat: 2,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Rare",
+	dexId: [144],
+};
 
-export default card
+export default card;

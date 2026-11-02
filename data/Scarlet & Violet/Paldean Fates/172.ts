@@ -66,19 +66,32 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751711,
+				tcgplayer: 535956
+			}
+		},
+	],
 
 	illustrator: "nagimiso",
 
-	thirdParty: {
-		cardmarket: 751711
-	}
+	description: {
+		en: "This kind of Tauros, known as the Combat Breed, is distinguished by its thick, powerful muscles and its fierce disposition.",
+		de: "Es zeichnet sich durch seine dicken Muskeln und sein wildes Temperament aus. Diese Form wird „Gefechtvariante“ genannt."
+	},
+
 }
 
 export default card

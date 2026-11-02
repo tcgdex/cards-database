@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "match",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		196,
-	],
+	dexId: [196],
 
 	hp: 90,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -60,7 +59,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -70,14 +69,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		en: "It uses the fine hair that covers its body to sense air currents and predict its enemy's actions.",
+		de: "Mit seinen Körperhaaren nimmt es Luftströmungen wahr. Dadurch sagt es gegnerische Attacken voraus."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85324,
+				cardmarket: 279647
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85324,
+				cardmarket: 279647
+			},
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279647,
-		tcgplayer: 85324
-	}
 }
 
 export default card

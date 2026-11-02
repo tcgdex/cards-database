@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [102],
 
 	dexId: [
 		103,
@@ -29,6 +30,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Exeggcute",
 		fr: "Noeunoeuf",
+		de: "Owei"
 	},
 
 	stage: "Stage1",
@@ -88,6 +90,11 @@ const card: Card = {
 	],
 
 	retreat: 4,
+
+	description: {
+		en: "Exeggutor is the pride of the Alolan people. Its image is carved into historical buildings and murals.",
+		de: "Alola-Kokowei ist der ganze Stolz der Einwohner Alolas. Deshalb ziert sein Abbild auch sehr viele geschichtsträchtige Gemälde und Gebäude."
+	},
 
 	thirdParty: {
 		cardmarket: 369042,

@@ -65,18 +65,42 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Once it finds signs of prey, it will patiently stake out the location, waiting until the sun goes down.",
+		de: "Findet Manguspektor Spuren potenzieller Beute, legt es sich geduldig auf die Lauer und verharrt bis Sonnenuntergang am selben Ort."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725257,
+				tcgplayer: 509730,
+				cardtrader: 256073
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725257,
+				tcgplayer: 509730,
+				cardtrader: 256073
+			}
+		},
+	],
 
 	illustrator: "Eri Yamaki",
 
-	thirdParty: {
-		cardmarket: 725257
-	}
+	
 }
 
 export default card

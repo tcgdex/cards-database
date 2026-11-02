@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Buneary",
 		fr: "Haspiror",
+		de: "Haspiror"
 	},
 
 	stage: "Stage1",
@@ -91,7 +92,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		fr: "Un Pokémon extrêmement prudent. Il couvre son corps de ses oreilles pelucheuses en cas de danger."
+		en: "An extremely cautious Pokémon. It cloaks its body with its fluffy ear fur when it senses danger.",
+		fr: "Un Pokémon extrêmement prudent. Il couvre son corps de ses oreilles pelucheuses en cas de danger.",
+		de: "Ein sehr vorsichtiges PKMN. Nimmt es Gefahr wahr, schützt es seinen Körper mit seinen weichen Ohren."
 	},
 
 	thirdParty: {

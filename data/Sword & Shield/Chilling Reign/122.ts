@@ -64,23 +64,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Its color changes for concealment and also when its mood or health changes. The darker the color, the healthier it is."
+		en: "Its color changes for concealment and also when its mood or health changes. The darker the color, the healthier it is.",
+		de: "Seine Färbung ändert sich nicht nur zur Tarnung, sondern auch je nach Laune und Verfassung. Je kräftiger seine Farben sind, desto vitaler ist es."
 	},
 
-	thirdParty: {
-		cardmarket: 567230,
-		tcgplayer: 241801
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567230,
+				tcgplayer: 241801
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567230,
+				tcgplayer: 241801
+			}
+		},
+	],
 }
 
 export default card

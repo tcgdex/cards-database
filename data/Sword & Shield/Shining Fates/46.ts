@@ -55,23 +55,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more."
+		en: "When its life comes to an end, it absorbs the life energy of every living thing and turns into a cocoon once more.",
+		de: "Neigt sich seine Lebensspanne dem Ende zu, entzieht es anderen Lebewesen deren Energie und verwandelt sich zurück in einen Kokon."
 	},
 
-	thirdParty: {
-		cardmarket: 539253,
-		tcgplayer: 232519
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539253,
+				tcgplayer: 232519
+			}
+		},
+	],
 }
 
 export default card

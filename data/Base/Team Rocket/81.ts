@@ -15,23 +15,29 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		de: "If you play this card from your hand, the Pokémon your attach it to is no longer Asleep, Confused, Paralyzed, or Poisoned. Full Heal Energy provide  energy. (Doesn't count as a basic Energy card.)"
+		en: "If you play this card from your hand, the Pokémon you attach it to is no longer Asleep, Confused, Paralyzed, or Poisoned. Full Heal Energy provides Colorless energy. (Doesn't count as a basic Energy card.)",
+		de: "Falls du diese Karte von der Hand spielst, schläft das Pokémon, unter das du sie legst, nicht mehr, und ist auch nicht mehr verwirrt, gelähmt oder vergiftet. Hyperheiler-Energie spendet {C}-Energie. (Zählt nicht als Basis-Energiekarte.)",
+		fr: "Si vous jouez cette carte depuis votre main, le Pokémon auquel vous l'attachez cesse d'être Endormi, Confus, Paralysé ou Empoisonné. Énergie guérisseuse fournit 1 énergie Incolore. (Ne compte pas pour une carte Énergie de base.)",
 	},
 
-	thirdParty: {
-		cardmarket: 274134,
-		tcgplayer: 85584
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274134,
+				tcgplayer: 85584
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
-		}
-	]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274134,
+				tcgplayer: 85584
+			}
+		},
+	],
 }
 
 export default card

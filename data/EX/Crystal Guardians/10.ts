@@ -4,7 +4,7 @@ import Set from '../Crystal Guardians'
 const card: Card = {
 	name: {
 		en: "Sableye",
-		fr: "Tenefix",
+		fr: "Ténéfix",
 		de: "Zobiris"
 	},
 

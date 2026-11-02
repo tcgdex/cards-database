@@ -22,22 +22,26 @@ const card: Card = {
 		es: "El Pokémon Activo de tu rival pasa a estar Confundido y Quemado.",
 		it: "Il Pokémon attivo del tuo avversario viene bruciato e confuso.",
 		pt: "O Pokémon Ativo do seu oponente agora está Confuso e Queimado.",
-		de: "Das Aktive Pokémon deines Gegners ist jetzt verbrannt und verwirrt."
+		de: "Du kannst nicht mehr als 1 ASS-KLASSE-Karte in deinem Deck haben. Das Aktive Pokémon deines Gegners ist jetzt verbrannt und verwirrt. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
 
 	illustrator: "inose yukie",
 
-	thirdParty: {
-		cardmarket: 780954
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 780954,
+				tcgplayer: 560369
+			}
+		},
+	],
 }
 
 export default card

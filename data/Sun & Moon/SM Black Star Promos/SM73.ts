@@ -11,13 +11,16 @@ const card: Card = {
 		de: "Amfira"
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
 	dexId: [
 		758,
 	],
+
+	cameoDexIds: [757],
+
 	hp: 110,
 	types: [
 		"Psychic",
@@ -25,6 +28,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Salandit",
 		fr: "Tritox",
+		de: "Molunk"
 	},
 	stage: "Stage1",
 
@@ -86,6 +90,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "For some reason, only females have been found. It creates a reverse harem of male Salandit that it lives with.",
+		de: "Bisher wurden nur Weibchen entdeckt. Sie werden von männlichen Molunk verehrt und leben mit einer Gruppe von ihnen zusammen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 301985,
+				tcgplayer: 151702
+			}
+		}
+	],
 }
 
 export default card

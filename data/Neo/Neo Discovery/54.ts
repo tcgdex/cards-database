@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est Paralysé.",
-				de: "Wird eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -60,21 +60,27 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Quand il se fait remarquer, ce Pokémon fuit à reculons en plantant furieusement sa queue dans le sol."
+		en: "When spotted, this Pokémon escapes backward by furiously boring into the ground with its tail.",
+		fr: "Quand il se fait remarquer, ce Pokémon fuit à reculons en plantant furieusement sa queue dans le sol.",
+		de: "Wenn es entdeckt wird, flüchtet dieses Pokémon nach hinten, indem es eifrig den Boden mit seinem Schwanz aufgräbt."
 	},
 
-	thirdParty: {
-		cardmarket: 274565,
-		tcgplayer: 85007
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274565,
+				tcgplayer: 85007
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274565,
+				tcgplayer: 85007
+			}
 		}
 	]
 }

@@ -70,6 +70,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch.",
+		de: "Es pflanzt sich an großen Pokémon fest und zapft ihnen elektrische Energie ab. Diese hortet es in seinen Ladetaschen."
+	},
+
 	thirdParty: {
 		cardmarket: 368978,
 		tcgplayer: 183822

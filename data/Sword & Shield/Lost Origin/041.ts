@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Lumineon"
 	},
 
+	illustrator: "zig",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -70,16 +71,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674051,
-		tcgplayer: 283915
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674051,
+				tcgplayer: 283915
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674051,
+				tcgplayer: 283915
+			}
+		},
+	],
 }
 
 export default card

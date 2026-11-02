@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Latios"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -81,6 +81,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "A highly intelligent Pokémon. By folding back its wings in flight, it can overtake jet planes.",
+		de: "Ein hochintelligentes Pokémon. Wenn es im Flug seine Flügel nach hinten legt, ist es schneller als ein Jet."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 312559,
+				tcgplayer: 152607
+			}
+		}
+	],
 }
 
 export default card

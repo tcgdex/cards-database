@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Clamperl",
 		fr: "Coquiperl",
+		de: "Perlu"
 	},
 
 	stage: "Stage1",
@@ -92,6 +93,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It lives deep in the sea. With a tail shaped like a small fish, it attracts unsuspecting prey.",
+		de: "Es lebt tief im Meer. Sein Schweif ist wie ein kleiner Fisch geformt. Mit ihm lockt es Beute an."
+	},
 
 	thirdParty: {
 		cardmarket: 361289,

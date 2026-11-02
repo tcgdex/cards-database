@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Gallade V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Fighting"],
@@ -67,12 +67,23 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
-
-	thirdParty: {
-		cardmarket: 674374
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 674374,
+				tcgplayer: 450656
+			}
+		},
+	],
 }
 
 export default card

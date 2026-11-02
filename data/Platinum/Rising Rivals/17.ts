@@ -3,8 +3,8 @@ import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Drapion 4",
-		fr: "Drascore  Niv. 53",
+		en: "Drapion E4",
+		fr: "Drascore 4 Niv. 53",
 		de: "Piondragi 4"
 	},
 	illustrator: "Kouki Saitou",
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		452,
-	],
+	dexId: [452],
 	hp: 100,
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -62,7 +60,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	resistances: [
@@ -75,12 +73,21 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278591,
+				tcgplayer: 84925
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278591,
+				tcgplayer: 84925
+			}
+		},
+	],
+
 }
 
 export default card

@@ -75,12 +75,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -88,10 +82,22 @@ const card: Card = {
 		en: "This Pokémon scrapes its spikes across rocks, and then uses the tips of its feelers to absorb the nutrients it finds within the stone."
 	},
 
-	thirdParty: {
-		cardmarket: 512330,
-		tcgplayer: 226578
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 512330,
+				tcgplayer: 226578
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 512330,
+				tcgplayer: 226578
+			}
+		},
+	],
 }
 
 export default card

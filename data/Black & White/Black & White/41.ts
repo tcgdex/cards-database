@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Stomp",
 				fr: "Écrasement",
+				de: "Stampfer"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 more damage.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -55,10 +57,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279778,
-		tcgplayer: 83928
-	}
+	description: {
+		en: "Its mane shines when it discharges electricity. They use their flashing manes to communicate with one another.",
+		de: "Wenn es Strom entlädt, blitzt seine Mähne auf. Auf diese Weise kann es auch mit Artgenossen kommunizieren."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279779,
+				tcgplayer: 83928
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279779,
+				tcgplayer: 83928
+			}
+		},
+	],
 }
 
 export default card

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Skorupi",
 		fr: "Rapion",
+		de: "Pionskora"
 	},
 
 	stage: "Stage1",
@@ -70,6 +71,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "It has the power in its clawed arms to make scrap of a car. The tips of its claws release poison.",
+		de: "In seinen Armen steckt so viel Kraft, dass es mit seinen giftigen Krallen Autos zerquetschen kann."
+	},
 
 	thirdParty: {
 		cardmarket: 315985,

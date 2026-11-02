@@ -4,7 +4,7 @@ import Set from '../POP Series 5'
 const card: Card = {
 	name: {
 		en: "Boost Energy",
-		fr: "Boost Energy"
+		fr: "Énergie super"
 	},
 
 	illustrator: "Shin-ichi Yoshikawa",
@@ -19,17 +19,16 @@ const card: Card = {
 
 	energyType: "Special",
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83941,
+				cardmarket: 277490
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277490,
-		tcgplayer: 83941
-	}
 }
 
 export default card

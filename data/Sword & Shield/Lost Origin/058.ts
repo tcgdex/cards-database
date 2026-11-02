@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Rotom V"
 	},
 
-	rarity: "Holo Rare VMAX",
+	illustrator: "5ban Graphics",
+	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Lightning"],
@@ -70,16 +71,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 670812,
-		tcgplayer: 283932
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 670812,
+				tcgplayer: 283932
+			}
+		},
+	],
 }
 
 export default card

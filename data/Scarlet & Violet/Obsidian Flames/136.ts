@@ -66,18 +66,63 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "It can lull people to sleep and make them dream. It is active during nights of the new moon.",
+		de: "Es kann andere in Schlaf versetzen und ihnen Träume geben. Es ist nur bei Neumond aktiv."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 725216,
+				tcgplayer: 509900,
+				cardtrader: 255821
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725216,
+				tcgplayer: 509900,
+				cardtrader: 255821
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'galaxy',
+			thirdParty: {
+				cardmarket: 858721
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['trick-or-trade'],
+			thirdParty: {
+				cardmarket: 785593
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['trick-or-trade'],
+			thirdParty: {
+				cardmarket: 785594
+			}
+		},
+	],
 
 	illustrator: "Bun Toujo",
 
-	thirdParty: {
-		cardmarket: 725216
-	}
+
 }
 
 export default card

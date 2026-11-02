@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Chinchou",
 		fr: "Lampi",
+		de: "Lampi"
 	},
 
 	stage: "Stage1",
@@ -79,7 +80,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		fr: "La lumière de LANTURN surgit des profondeurs. On le surnomme \"étoile des profondeurs\"."
+		en: "Lanturn's light can shine up from great depths. It is nicknamed \"The Deep-Sea Star.\"",
+		fr: "La lumière de LANTURN surgit des profondeurs. On le surnomme \"étoile des profondeurs\".",
+		de: "LANTURNs Licht kann aus großen Tiefen heraufscheinen. Man nennt es auch “Tiefseestern”."
 	},
 
 	thirdParty: {

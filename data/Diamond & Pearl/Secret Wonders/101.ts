@@ -71,6 +71,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It shoots the poison spines on its body in all directions. Its round form makes it a poor swimmer.",
+	},
+
 	thirdParty: {
 		cardmarket: 277854,
 		tcgplayer: 88494

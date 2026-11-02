@@ -13,9 +13,9 @@ const card: Card = {
 		pt: "Mega Charizard X ex"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 	illustrator: "Saboteri",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 360,
 	types: ["Fire"],
@@ -58,11 +58,20 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	weaknesses: [{
+		type: "Water",
+		value: "x2"
+	}],
+
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 859033,
+				tcgplayer: 659612
+			}
+		},
+	],
 }
 
 export default card

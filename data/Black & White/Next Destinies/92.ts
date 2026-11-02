@@ -22,15 +22,27 @@ const card: Card = {
 		es: "Doble Energía Incolora proporciona Energía ColorlessColorless.",
 		it: "Un’Energia Incolore doppia fornisce ColorlessColorless.",
 		pt: "A Energia Incolor Dupla fornece Energias ColorlessColorless .",
-		de: "Doppel-Farblos-Energie liefert ColorlessColorless-Energie."
+		de: "Doppel-Farblos-Energie liefert {C}{C}-Energie."
 	},
 
 	energyType: "Special",
 
-	thirdParty: {
-		cardmarket: 280317,
-		tcgplayer: 84884
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280317,
+				tcgplayer: 84884
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280317,
+				tcgplayer: 84884
+			}
+		},
+	],
 }
 
 export default card

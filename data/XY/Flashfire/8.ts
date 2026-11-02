@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Dormido.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene addormentato.",
 				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente ficará Adormecido.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" schläft das Aktive Pokémon deines Gegners jetzt."
+				de: "Wirf 1 Münze. Bei „Kopf“ schläft das Aktive Pokémon deines Gegners jetzt."
 			},
 			damage: 10,
 
@@ -79,6 +79,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It uses the different poisons in each hand separately when it attacks. The stronger its aroma, the healthier it is.",
+		de: "Aus seinen Händen verströmt es jeweils ein anderes Gift. Je stärker Roselia duftet, desto gesünder ist es."
+	},
 
 	thirdParty: {
 		cardmarket: 281491,

@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Tandemaus",
-		fr: "Compagnol"
+		fr: "Compagnol",
+		de: "Zwieps"
 	},
 
 	stage: "Stage1",
@@ -63,14 +64,30 @@ const card: Card = {
 		damage: "70×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "KIYOTAKA OSHIYAMA",
+
+	description: {
+		en: "The larger pair protects the little ones during battles. When facing strong opponents, the whole group will join the fight.",
+		de: "In Kämpfen beschützt das größere Paar die Kleinen. Um sich starken Gegnern zu stellen, schließen sich alle zusammen."
+	},
 
 	thirdParty: {
         cardmarket: 702457,

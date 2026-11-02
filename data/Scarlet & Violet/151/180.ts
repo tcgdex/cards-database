@@ -4,6 +4,7 @@ import Set from "../151"
 const card: Card = {
 	dexId: [138],
 	set: Set,
+	cameoDexIds: [139, 140],
 
 	name: {
 		fr: "Amonita",
@@ -52,19 +53,34 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "This Pokémon is a member of an ancient, extinct species. Omanyte paddles through water with its 10 tentacles, looking like it's just drifting along.",
+		de: "Ein einst ausgestorbenes Urzeit-Pokémon. Wenn es mit seinen zehn Tentakeln paddelnd durch das Wasser gleitet, meint man, es würde schweben."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733775,
+				tcgplayer: 517031,
+				cardtrader: 261327
+			}
+		},
+	],
 
 	illustrator: "Yano Keiji",
 
-	thirdParty: {
-		cardmarket: 733775
-	}
+	
 }
 
 export default card

@@ -4,6 +4,7 @@ import Set from "../Silver Tempest"
 const card: Card = {
 	dexId: [877],
 	set: Set,
+	cameoDexIds: [702, 777],
 
 	name: {
 		en: "Morpeko",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Morpeko"
 	},
 
+	illustrator: "nagimiso",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 60,
@@ -42,20 +44,37 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Intense hunger drives it to extremes of violence, and the electricity in its cheek sacs has converted into a Dark-type energy.",
+		de: "Es wandelt in seinen Backentaschen Elektrizität in Unlicht-Energie um. Wenn es der Hunger überkommt, wird es rasend vor Wut."
 	},
 
-	thirdParty: {
-		cardmarket: 682163,
-		tcgplayer: 451770
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682163,
+				tcgplayer: 451770
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682163,
+				tcgplayer: 451770
+			}
+		},
+	],
 }
 
 export default card

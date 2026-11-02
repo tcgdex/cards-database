@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "0313",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [206],
 	hp: 70,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -47,13 +48,46 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675975,
-		cardmarket: 869774
-	}
+	description: {
+		en: "If spotted, it escapes by burrowing with its tail. It can float just slightly using its wings.",
+		fr: "S'il est repéré, il fuit en creusant un trou à l'aide de sa queue. Ses ailes lui permettent de léviter pendant quelques instants.",
+		de: "Wird es entdeckt, gräbt es sich mit seinem Schwanz ins Erdreich, um zu fliehen. Setzt es seine Flügel ein, kann es ein bisschen schweben."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869774,
+			tcgplayer: 675975
+		}
+	},
+	{
+		type: "reverse",
+		foil: "pokeball",
+		thirdParty: {
+			cardmarket: 870390,
+			tcgplayer: 676979
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870389,
+			tcgplayer: 677119
+		}
+	},
+],
 }
 
 export default card

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Haunter",
 		fr: "Spectrum",
+		de: "Alpollo"
 	},
 
 	stage: "Stage2",
@@ -98,6 +99,11 @@ const card: Card = {
 	],
 
 	retreat: 0,
+
+	description: {
+		en: "You can hear tales told all over the world about how Gengar will pay a visit to children who are naughty.",
+		de: "Unartige Kinder holt sich Gengar. So heißt es weltweit in mündlichen Überlieferungen."
+	},
 
 	thirdParty: {
 		cardmarket: 372358,

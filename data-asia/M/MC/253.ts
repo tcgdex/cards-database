@@ -1,0 +1,54 @@
+import { Card } from "../../../interfaces";
+import Set from "../MC";
+
+const card: Card = {
+	set: Set,
+	name: {
+		ja: "エモンガ",
+	},
+
+	illustrator: "Tomowaka",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Lightning"],
+
+	description: {
+		ja: "ほほの 電気袋で 作った 電気を 膜の 内側に ためて 滑空しながら 電気を 放つ。",
+	},
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			name: { ja: "なかまをよぶ" },
+			cost: ["Colorless"],
+			effect: {
+				ja: "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
+			},
+		},
+		{
+			name: { ja: "バチバチ" },
+			damage: 20,
+			cost: ["Lightning"],
+		},
+	],
+
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 863549,
+			},
+		},
+	],
+
+	retreat: 0,
+	regulationMark: "I",
+	rarity: "None",
+	dexId: [587],
+};
+
+export default card;

@@ -22,24 +22,30 @@ const card: Card = {
 		es: "Roba 2 cartas. Si sales segundo y es tu primer turno, roba 3 cartas más.",
 		it: "Pesca due carte. Se inizi per secondo ed è il tuo primo turno, pesca altre tre carte.",
 		pt: "Compre 2 cartas. Se você for o segundo a jogar e este for o seu primeiro turno, compre 3 cartas a mais.",
-		de: "Ziehe 2 Karten. Wenn du als Zweiter am Zug bist und es dein erster Zug ist, ziehe 3 Karten mehr."
+		de: "Ziehe 2 Karten. Wenn du als Zweiter am Zug bist und es dein erster Zug ist, ziehe 3 Karten mehr. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "E",
 	illustrator: "Sanosuke Sakuma",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582968,
-		tcgplayer: 253104
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582968,
+				tcgplayer: 253104
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582968,
+				tcgplayer: 253104
+			}
+		},
+	],
 }
 
 export default card

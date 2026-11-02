@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Mimigma"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -79,6 +79,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Its actual appearance is unknown. A scholar who saw what was under its rag was overwhelmed by terror and died from the shock.",
+		de: "Niemand weiß, wie es wirklich aussieht. Ein Forscher, der unter seinen Lumpen blickte, soll sich buchstäblich zu Tode erschreckt haben."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 296834,
+				tcgplayer: 129894
+			}
+		}
+	],
 }
 
 export default card

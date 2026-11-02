@@ -23,7 +23,8 @@ const card: Card = {
 	stage: "Stage2",
 
 	evolveFrom: {
-		en: "Poliwhirl"
+		en: "Poliwhirl",
+		fr: "Têtarte"
 	},
 
 	abilities: [{

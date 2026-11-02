@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Rising Lunge",
 				fr: "Botte Secrète",
+				de: "Aufwärtsstoß"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -54,6 +56,7 @@ const card: Card = {
 			name: {
 				en: "Hydro Kick",
 				fr: "Pied Hydro",
+				de: "Hydrokick"
 			},
 
 			damage: 70,
@@ -70,10 +73,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280634,
-		tcgplayer: 86434
-	}
+	description: {
+		en: "By blasting water from its hooves, it can glide across water. It excels at using leg moves while battling.",
+		de: "Gleitet über das Wasser, indem es seine Hufe als Wasserdüsen nutzt. Seine Beintechnik verschafft ihm im Kampf Vorteile."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280635,
+				tcgplayer: 86434
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280635,
+				tcgplayer: 86434
+			}
+		},
+	],
 }
 
 export default card

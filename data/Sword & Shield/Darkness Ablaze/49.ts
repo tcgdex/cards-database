@@ -87,23 +87,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It swims through frigid seas, searching for prey. From its frozen breath, it forms icy fangs that are harder than steel."
+		en: "It swims through frigid seas, searching for prey. From its frozen breath, it forms icy fangs that are harder than steel.",
+		de: "Die Reißzähne, die es aus gefrorenem Atem erzeugt hat, sind härter als Stahl. Es schwimmt auf der Suche nach Futter durch die Eismeere."
 	},
 
-	thirdParty: {
-		cardmarket: 483119,
-		tcgplayer: 219361
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483119,
+				tcgplayer: 219361
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483119,
+				tcgplayer: 219361
+			}
+		},
+	],
 }
 
 export default card

@@ -5,9 +5,10 @@ const card: Card = {
 	name: {
 		en: "Moltres ex",
 		fr: "Sulfura ex",
-		de: "Lavados ex"
+		de: "Lavados-ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
@@ -56,29 +57,30 @@ const card: Card = {
 
 	abilities: [{
 		name: {
+			en: "Legendary Ascent",
 			fr: "Ascension légendaire",
 			de: "Legendary Ascent"
 		},
 
 		effect: {
-			fr: "Une seule fois lors de votre tour, lorsque vous déplacez Sulfura ex de votre main à votre Banc, vous pouvez échanger 1 de vos Pokémon Actifs avec Sulfura ex. Dans ce cas, vous pouvez également déplacer autant de cartes Énergie de base  attachées à votre Pokémon que vous le voulez et les placer sur Sulfura ex.",
+			en: "Once during your turn, when you put Moltres ex from your hand onto your Bench, you may switch 1 of your Active Pokémon with Moltres ex. If you do, you may also move any number of basic Fire Energy cards attached to your Pokémon to Moltres ex.",
+			fr: "Une seule fois lors de votre tour, lorsque vous déplacez Sulfura ex de votre main à votre Banc, vous pouvez échanger 1 de vos Pokémon Actifs avec Sulfura ex. Dans ce cas, vous pouvez également déplacer autant de cartes Énergie de base {R} attachées à votre Pokémon que vous le voulez et les placer sur Sulfura ex.",
 			de: "Once during your turn, when you put Moltres ex from your hand onto your Bench, you may switch 1 of your Active Pokémon with Moltres ex. If you do, you may also move any number of basic  Energy cards attached to your Pokémon to Moltres ex."
 		},
 
 		type: "Poke-POWER"
 	}],
 
-	
-	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276291,
-		tcgplayer: 87566
-	},
+	retreat: 2,
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 276291,
+				tcgplayer: 87566
+			},
 		},
 	]
 }

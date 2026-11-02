@@ -4,6 +4,7 @@ import Set from "../Scarlet & Violet"
 const card: Card = {
 	dexId: [282],
 	set: Set,
+	cameoDexIds: [280, 281],
 
 	name: {
 		en: "Gardevoir ex",
@@ -21,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Kirlia",
-		fr: "Kirlia"
+		fr: "Kirlia",
+		de: "Kirlia"
 	},
 
 	stage: "Stage2",
@@ -72,14 +74,28 @@ const card: Card = {
 		damage: 190
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
+	suffix: "ex",
 	illustrator: "Jiro Sasumo",
 
 	thirdParty: {

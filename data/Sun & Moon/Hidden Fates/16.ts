@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Gyarados GX",
 		fr: "Léviator-GX",
+		de: "Garados-GX"
 	},
 
 	illustrator: "5ban Graphics",
@@ -25,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Magikarp",
 		fr: "Magicarpe",
+		de: "Karpador"
 	},
 
 	suffix: "GX",
@@ -40,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Dragon Rage",
 				fr: "Draco-Rage",
+				de: "Drachenwut"
 			},
 
 			damage: 130,
@@ -55,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Hyper Beam GX",
 				fr: "Ultralaser-GX",
+				de: "Hyperstrahl-GX"
 			},
 			effect: {
 				en: "(You can’t use more than 1 GX attack in a game.)",
 				fr: "(Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				de: "(Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: 240,
 

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Phione"
 	},
 
+	illustrator: "Jiro Sasumo",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 70,
@@ -38,7 +39,7 @@ const card: Card = {
 			es: "Busca en tu baraja hasta 3 Pokémon Water Básicos y ponlos en tu Banca. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo fino a tre Pokémon Base Water e mettili nella tua panchina. Poi rimischia le carte del tuo mazzo.",
 			pt: "Procure por até 3 Pokémon Water Básicos no seu baralho e coloque-os no seu Banco. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach bis zu 3 Basis-Water-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
+			de: "Durchsuche dein Deck nach bis zu 3 Basis-{W}-Pokémon und lege sie auf deine Bank. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Water"],
@@ -55,20 +56,37 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It drifts in warm seas. It always returns to where it was born, no matter how far it may have drifted.",
+		de: "Lässt sich in warmen Meeren treiben, kehrt aber immer an den Platz seiner Geburt zurück."
 	},
 
-	thirdParty: {
-		cardmarket: 682092,
-		tcgplayer: 451687
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682092,
+				tcgplayer: 451687
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682092,
+				tcgplayer: 451687
+			}
+		},
+	],
 }
 
 export default card

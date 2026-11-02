@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Blaziken"
+		en: "Blaziken",
+		fr: "Braségali"
 	},
 
 	illustrator: "GOSSAN",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Combusken"
+		en: "Combusken",
+		fr: "Galifeu"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Blaze Kick"
+			en: "Blaze Kick",
+			fr: "Pied Brûleur"
 		},
 
 		damage: 100,
 		cost: ["Fire", "Fire"],
 
 		effect: {
-			en: "Discard a {R} Energy from this Pokémon."
+			en: "Discard a {R} Energy from this Pokémon.",
+			fr: "Défaussez une Énergie {R} de ce Pokémon."
 		}
 	}],
 

@@ -74,14 +74,18 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 273957,
-		tcgplayer: 42473
+	description: {
+		en: "In battle, it flaps its wings at high speed to release highly toxic dust into the air.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273957,
+				tcgplayer: 42473
+			}
 		}
 	]
 }

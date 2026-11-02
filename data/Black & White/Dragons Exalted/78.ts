@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "This Pokémon does 10 damage to itself.",
 				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				de: "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -63,10 +65,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 280517,
-		tcgplayer: 83640
-	}
+	description: {
+		en: "It usually lives deep in mountains. However, hunger may drive it to eat railroad tracks and cars.",
+		de: "Normalerweise lebt es in dunklen Bergen. Ist es hungrig, frisst es auch Eisenbahnschienen und Autos."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280517,
+				tcgplayer: 83640
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280517,
+				tcgplayer: 83640
+			}
+		},
+	],
 }
 
 export default card

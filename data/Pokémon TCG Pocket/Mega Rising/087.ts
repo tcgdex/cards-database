@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Luxio"
+		en: "Luxio",
+		fr: "Luxio"
 	},
 
 	illustrator: "NC Empire",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Shinx"
+		en: "Shinx",
+		fr: "Lixy"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Bite"
+			en: "Bite",
+			fr: "Morsure"
 		},
 
 		damage: 30,

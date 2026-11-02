@@ -15,6 +15,46 @@ const card: Card = {
     category: "Energy",
     set: Set,
     energyType: "Normal",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 786115,
+				tcgplayer: 578862
+			}
+		},
+		{
+			type: "reverse",
+			foil: "cracked-ice",
+			thirdParty: {
+				cardmarket: 809706,
+				tcgplayer: 599745
+			}
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				tcgplayer: 623651
+			}
+		},
+		{
+			type: "reverse",
+			foil: "cosmos",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				tcgplayer: 651115
+			}
+		},
+		{
+			type: "reverse",
+			foil: "cosmos",
+			stamp: ["professor-program"],
+		}
+	]
 
 
 }

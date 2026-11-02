@@ -74,6 +74,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It feeds on eggs stolen from nests. Its sharply hooked claws rip vulnerable spots on prey.",
+		de: "Es ernährt sich von Eiern, die es aus Nestern stiehlt. Beute greift es mit seinen scharfen Krallen an."
+	},
+
 	thirdParty: {
 		cardmarket: 278269,
 		tcgplayer: 89370

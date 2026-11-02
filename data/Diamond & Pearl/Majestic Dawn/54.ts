@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Burmy Sandy Cloak during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Cheniti Cape Sable lors du prochain tour de votre adversaire.",
-				de: "Wirf 1 Münze. Bei 'Kopf' verhindere während des nächsten Zuges deines Gegners alle effekte eines Angriffs, einschließlich Schaden, die Burmy Sandumhang zugefügt würden."
+				de: "Wirf 1 Münze. Bei „Kopf“ verhindere während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Burmy Sandumhang zugefügt würden."
 			},
 
 		},
@@ -66,6 +66,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "If its cloak is broken in battle, it quickly remakes the cloak with materials nearby.",
+		de: "Wird sein Umhang im Kampf zerstört, macht es sich schnell aus dem, was es findet, einen neuen."
+	},
 
 	thirdParty: {
 		cardmarket: 278103,

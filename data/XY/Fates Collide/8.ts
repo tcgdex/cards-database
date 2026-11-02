@@ -62,6 +62,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The turning of the seasons changes the color and scent of this Pokémon's fur. People use it to mark the seasons.",
+		de: "Sein Fell und sein Geruch ändern sich mit dem Wechsel der Jahreszeiten. Es ist der Bote des Saisonwechsels."
+	},
+
 	thirdParty: {
 		cardmarket: 289834,
 		tcgplayer: 117771

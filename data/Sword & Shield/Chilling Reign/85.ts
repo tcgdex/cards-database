@@ -72,23 +72,30 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Before it stops to think, it just starts pummeling. There are records of its turning back avalanches with a flurry of punches."
+		en: "Before it stops to think, it just starts pummeling. There are records of its turning back avalanches with a flurry of punches.",
+		de: "Es denkt nicht lange nach und schlägt einfach zu. Laut manchen Berichten kann es mit seinen schnellen Schlägen selbst Lawinen stoppen."
 	},
 
-	thirdParty: {
-		cardmarket: 567193,
-		tcgplayer: 241752
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567193,
+				tcgplayer: 241752
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567193,
+				tcgplayer: 241752
+			}
+		},
+	],
 }
 
 export default card

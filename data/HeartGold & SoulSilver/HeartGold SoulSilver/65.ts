@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		58,
-	],
+	dexId: [58],
 
 	hp: 70,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -66,27 +64,32 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes."
+		en: "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes.",
+		de: "Es ist von Natur aus tapfer und vertrauenswürdig. Es scheut nicht vor starken Gegnern zurück."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85960,
+				cardmarket: 279037
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85960,
+				cardmarket: 279037
+			}
 		},
 		{
 			type: "normal",
-			stamp : ["snowflake"],
+			stamp: ["snowflake"],
 			languages: ["de"]
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279037,
-		tcgplayer: 85960
-	}
 }
 
 export default card

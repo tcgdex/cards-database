@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Rillaboom"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Grass"],
@@ -76,12 +76,28 @@ const card: Card = {
 		damage: "120+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 437154
-	}
+	description: {
+		en: "The one with the best drumming techniques becomes the boss of the troop. It has a gentle disposition and values harmony among its group.",
+	},
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 682974,
+				tcgplayer: 475621
+			}
+		},
+	],
 }
 
 export default card

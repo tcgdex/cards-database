@@ -24,7 +24,8 @@ const card: Card = {
 	illustrator: "Ryuta Fuse",
 
 	description: {
-		en: "Eating sulfur in its volcanic habitat is what causes explosive compounds to develop in its shell. Its droppings are also dangerously explosive."
+		en: "Eating sulfur in its volcanic habitat is what causes explosive compounds to develop in its shell. Its droppings are also dangerously explosive.",
+		de: "Da es in Vulkanen lebt, nimmt es mit der Nahrung viel Schwefel auf, was seinen Panzer und seinen Kot explosiv macht. Letzterer ist ein Gefahrengut."
 	},
 
 	attacks: [{
@@ -64,17 +65,23 @@ const card: Card = {
 		damage: 80
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582872,
-		tcgplayer: 253358
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582872,
+				tcgplayer: 253358
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582872,
+				tcgplayer: 253358
+			}
+		},
+	],
 }
 
 export default card

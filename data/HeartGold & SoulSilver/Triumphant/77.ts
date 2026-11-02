@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		325,
-	],
+	dexId: [325],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -54,20 +52,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It bounces around on its tail to keep its heart pumping. It carries a pearl from Clamperl on its head."
+		en: "It bounces around on its tail to keep its heart pumping. It carries a pearl from Clamperl on its head.",
+		de: "Seine Hüpfbewegungen bringen sein Herz zum schlagen. Es trägt eine Perle von PERLU auf dem Kopf."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89478,
+				cardmarket: 279607
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279607,
+				tcgplayer: 89478
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279607,
-		tcgplayer: 89478
-	}
 }
 
 export default card

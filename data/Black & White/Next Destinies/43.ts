@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Reckless Charge",
 				fr: "Attaque Imprudente",
+				de: "Waghalsiger Sturmangriff"
 			},
 			effect: {
 				en: "This Pokémon does 10 damage to itself.",
 				fr: "Ce Pokémon s'inflige 10 dégâts.",
+				de: "Dieses Pokémon fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -55,10 +57,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280267,
-		tcgplayer: 89180
-	}
+	description: {
+		en: "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
+		de: "Es erzeugt Elektrizität durch das Strecken und Zusammenziehen seiner Muskeln. Bei Bedrohung glüht es."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280268,
+				tcgplayer: 89180
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280268,
+				tcgplayer: 89180
+			}
+		},
+	],
 }
 
 export default card

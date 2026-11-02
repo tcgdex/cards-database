@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Marys Stolz"
 	},
 
+	illustrator: "Souichirou Gunjima",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -22,23 +23,22 @@ const card: Card = {
 		es: "Une 1 carta de Energía Básica de tu pila de descartes a 1 de tus Pokémon en Banca.",
 		it: "Assegna a uno dei tuoi Pokémon in panchina una carta Energia base dalla tua pila degli scarti.",
 		pt: "Ligue 1 carta de Energia básica da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
-		de: "Lege 1 Basis-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
+		de: "Lege 1 Basis-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608717,
-		tcgplayer: 263890
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608717,
+				tcgplayer: 263890
+			}
+		},
+	],
 }
 
 export default card

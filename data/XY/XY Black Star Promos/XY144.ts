@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Midori Harada",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -78,6 +78,10 @@ const card: Card = {
 	],
 
 	retreat: 0,
+
+	description: {
+		en: "This six-legged Pokémon is easily capable of transporting an adult in flight. The wings on its tail help it stay balanced.",
+	},
 
 	thirdParty: {
 		cardmarket: 554133

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Brionne",
 		fr: "Otarlette",
+		de: "Marikeck"
 	},
 
 	stage: "Stage2",
@@ -93,6 +94,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It controls its water balloons with song. The melody is learning from others of its kind and is passed down from one generation to the next.",
+		de: "Es kontrolliert mit seinem Gesang Wasserblasen. Die Melodie, die über Generationen im Rudel überliefert wird, lernt es von seinen Kameraden."
+	},
 
 	thirdParty: {
 		cardmarket: 295351,

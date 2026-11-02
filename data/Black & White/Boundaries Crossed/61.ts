@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Confuse Ray",
 				fr: "Onde Folie",
+				de: "Konfustrahl"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
 				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 
 		},
@@ -54,10 +56,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280648,
-		tcgplayer: 85055
-	}
+	description: {
+		en: "It loves the crying of children. It startles bad kids by passing through walls and making them cry.",
+		de: "Es mag das Weinen von Kindern. Erschreckt gemeine Kinder, indem es durch Wände geht."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280648,
+				tcgplayer: 85055
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280648,
+				tcgplayer: 85055
+			}
+		},
+	],
 }
 
 export default card

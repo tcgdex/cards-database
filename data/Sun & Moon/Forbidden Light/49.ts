@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Doublade",
 		fr: "Dimoclès",
+		de: "Duokles"
 	},
 
 	stage: "Stage2",
@@ -98,6 +99,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Apparently, it can detect the innate qualities of leadership. According to legend, whoever it recognizes is destined to become king.",
+		de: "Angeblich erkennt es jene Menschen, die Potenzial zum Herrscher haben. Es heißt, von ihm anerkannte Personen seien bald darauf Könige geworden."
+	},
 
 	thirdParty: {
 		cardmarket: 355568,

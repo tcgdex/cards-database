@@ -62,15 +62,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273986,
-		tcgplayer: 42526
+
+	description: {
+		en: "Often hides in water to stalk unweary prey. When swimming quickly, it moves its ears to maintain balance.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273986,
+				tcgplayer: 42526
+			}
 		},
 		{
 			type: "normal",

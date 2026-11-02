@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		232,
-	],
+	dexId: [232],
 
 	hp: 80,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Phanpy",
-		fr: "Phanpy"
+		fr: "Phanpy",
+		de: "Phanpy"
 	},
 
 	stage: "Stage1",
@@ -38,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Earthquake",
 				fr: "Séisme",
-				de: "Earthquake"
+				de: "Erdbeben"
 			},
 			effect: {
-				en: "Does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à chacun des Pokémon de votre propre Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon du Banc.)",
-				de: "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				de: "Fügt jedem Pokémon auf deiner eigenen Bank 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 30,
 
@@ -57,14 +56,14 @@ const card: Card = {
 			name: {
 				en: "Double Stab",
 				fr: "Coup double",
-				de: "Double Stab"
+				de: "Doppelstich"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 40 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque fait 40 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 40 damage times the number of heads."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
-			damage: "40x",
+			damage: "40×",
 
 		},
 	],
@@ -72,29 +71,33 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-30"
 		},
 	],
+	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275079,
-		tcgplayer: 84870
-	},
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 84870,
+				cardmarket: 275079
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 84870,
+				cardmarket: 275079
+			}
+		},
 	]
 }
 

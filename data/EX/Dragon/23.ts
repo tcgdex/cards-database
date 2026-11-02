@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		371,
-	],
+	dexId: [371],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Paralyzing Gaze",
 				fr: "Regard paralysant",
-				de: "Paralyzing Gaze"
+				de: "Lähmender Blick"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -50,7 +48,7 @@ const card: Card = {
 			name: {
 				en: "Combustion",
 				fr: "Fournaise",
-				de: "Combustion"
+				de: "Glühen"
 			},
 
 			damage: 20,
@@ -61,10 +59,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Colorless",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
@@ -75,14 +72,25 @@ const card: Card = {
 			value: "-30"
 		},
 	],
-
-
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 83691,
-		cardmarket: 275900
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83691,
+				cardmarket: 275900
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83691,
+				cardmarket: 275900
+			},
+		},
+	],
+
 }
 
 export default card

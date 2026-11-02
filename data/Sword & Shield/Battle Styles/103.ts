@@ -67,23 +67,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "A pack of these Pokémon forms to serve a Bisharp boss. Each Pawniard trains diligently, dreaming of one day taking the lead."
+		en: "A pack of these Pokémon forms to serve a Bisharp boss. Each Pawniard trains diligently, dreaming of one day taking the lead.",
+		de: "Gladiantri bilden Gruppen mit einem Caesurio an der Spitze. Jedes von ihnen trainiert hart, um irgendwann selbst Anführer zu werden."
 	},
 
-	thirdParty: {
-		cardmarket: 545596,
-		tcgplayer: 234190
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545596,
+				tcgplayer: 234190
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545596,
+				tcgplayer: 234190
+			}
+		},
+	],
 }
 
 export default card

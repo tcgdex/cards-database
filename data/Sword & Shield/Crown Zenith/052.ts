@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Zeraora"
 	},
 
+	illustrator: "HYOGONOSUKE",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -44,20 +45,39 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It approaches its enemies at the speed of lightning, then tears them limb from limb with its sharp claws.",
+		de: "Schnell wie der Blitz nähert es sich seinen Feinden, um sie dann mit seinen scharfen Klauen in Stücke zu reißen."
 	},
 
-	thirdParty: {
-		cardmarket: 691769,
-		tcgplayer: 478162
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691769,
+				tcgplayer: 478162
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691769,
+				tcgplayer: 478162
+			}
+		},
+	],
 }
 
 export default card

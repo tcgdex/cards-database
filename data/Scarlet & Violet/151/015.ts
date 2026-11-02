@@ -65,18 +65,42 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "May appear in a swarm. Flies at violent speeds, all the while stabbing with the toxic stinger on its rear.",
+		de: "Es kann in Schwärmen auftauchen. Während seines rasanten Fluges sticht es mit dem Giftstachel an seinem Hinterteil zu."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733610,
+				tcgplayer: 502564,
+				cardtrader: 261062
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733610,
+				tcgplayer: 502564,
+				cardtrader: 261062
+			}
+		},
+	],
 
 	illustrator: "nisimono",
 
-	thirdParty: {
-		cardmarket: 733610
-	}
+	
 }
 
 export default card

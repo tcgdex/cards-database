@@ -86,6 +86,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It stuns its prey with psychokinesis and then grinds them to mush with its strong teeth. Even Shellder's shell is no match for it.",
+		de: "Es lähmt seine Beute mit Psycho-Kräften und zerkaut sie mit seinen kräftigen Zähnen. Auch die Schale von Muschas knackt es problemlos."
+	},
+
 	thirdParty: {
 		cardmarket: 365708,
 		tcgplayer: 178879

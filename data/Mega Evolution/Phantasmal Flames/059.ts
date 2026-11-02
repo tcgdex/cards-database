@@ -48,22 +48,40 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "It dwells in the darkness of caves. It uses its sharp claws to dig up gems to nourish itself.",
+		fr: "Ce Pokémon vit dans les grottes obscures et mange des pierres précieuses qu'il déterre à l'aide de ses griffes acérées.",
+		de: "Es haust in düsteren Höhlen, wo es mit seinen spitzen Klauen Edelsteine ausgräbt und verspeist."
+	},
+
+	illustrator: "osare",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857634,
+				tcgplayer: 660412,
+				cardtrader: 356842
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857634,
-		tcgplayer: 660412
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857634,
+				tcgplayer: 660412,
+				cardtrader: 356842
+			}
+		},
+	],	
 }
 
 export default card

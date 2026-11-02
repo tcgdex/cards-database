@@ -73,6 +73,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It fights by keeping its shell tightly shut for protection and by shooting spikes to repel foes.",
+	},
+
 	thirdParty: {
 		cardmarket: 277800,
 		tcgplayer: 84374

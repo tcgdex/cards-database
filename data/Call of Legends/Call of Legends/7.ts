@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		130,
-	],
+	dexId: [130],
 
 	hp: 130,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Magikarp",
-		fr: "Magicarpe"
+		fr: "Magicarpe",
+		de: "Karpador"
 	},
 
 	stage: "Stage1",
@@ -71,21 +70,40 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 279650,
-		tcgplayer: 85999
-	}
+
+	description: {
+		en: "Once it appears, it goes on a rampage. It remains enraged until it demolishes everything around it.",
+		de: "Taucht es auf, randaliert es. Es beruhigt sich erst, wenn es alles um sich zerstört hat."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85999,
+				cardmarket: 279650
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85999,
+				cardmarket: 279650
+			},
+		},
+	],
+
 }
 
 export default card

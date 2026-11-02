@@ -71,7 +71,7 @@ const card: Card = {
 				es: "Gigacaída GX",
 				it: "Gigacrollo GX",
 				pt: "Gigaqueda GX",
-				de: "Gigafall GX"
+				de: "Gigafall-GX"
 			},
 			effect: {
 				en: "If this Pokémon has at least 5 extra Energy attached to it (in addition to this attack’s cost), discard the top 15 cards of your opponent’s deck. (You can’t use more than 1 GX attack in a game.)",
@@ -80,23 +80,6 @@ const card: Card = {
 				it: "Se questo Pokémon ha almeno cinque Energie extra assegnate, in aggiunta a quelle del costo di questo attacco, scarta le prime 15 carte del mazzo del tuo avversario. Non puoi usare più di un attacco GX a partita.",
 				pt: "Se este Pokémon tiver pelo menos 5 Energias adicionais ligadas a ele (além do custo deste ataque), descarte as 15 primeiras cartas do baralho do seu oponente (você não pode usar mais de 1 ataque GX por partida).",
 				de: "Wenn an dieses Pokémon mindestens 5 extra Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), lege die obersten 15 Karten des Decks deines Gegners auf seinen Ablagestapel. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
-			},
-			damage: 250,
-
-		},
-		{
-			cost: [
-				"Darkness",
-				"Darkness",
-				"Darkness",
-				"Darkness",
-				"Colorless",
-			],
-			name: {
-				fr: "Chute Giga-GX",
-			},
-			effect: {
-				fr: "Si au moins 5 Énergies supplémentaires sont attachées à ce Pokémon (en plus du coût de cette attaque), défaussez les 15 cartes du dessus du deck de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 			damage: 250,
 

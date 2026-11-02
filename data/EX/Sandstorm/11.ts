@@ -4,23 +4,22 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Seviper",
-		fr: "Seviper",
+		fr: "Séviper",
 		de: "Vipitis"
 	},
 
 	illustrator: "Hajime Kusajima",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [335],
 
-	dexId: [
-		336,
-	],
+	dexId: [336],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -37,8 +36,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may discard a Grass Energy card attached to Seviper. If you do, the Defending Pokémon is now Poisoned.",
-				fr: "Vous pouvez défausser une carte Énergie  attachée à Seviper. Dans ce cas, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Du kannst eine -Energiekarte, die an Vipitis angelegt ist, auf den Ablagestapel legen. Wenn du das machst, ist das Verteidigende Pokémon jetzt vergiftet."
+				fr: "Vous pouvez défausser une carte Énergie {G} attachée à Seviper. Dans ce cas, le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Du kannst eine {G}-Energiekarte, die an Vipitis angelegt ist, auf den Ablagestapel legen. Wenn du das machst, ist das Verteidigende Pokémon jetzt vergiftet."
 			},
 			damage: 10,
 
@@ -73,19 +72,24 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275788,
-		tcgplayer: 89082
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275788,
+				tcgplayer: 89082
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275788,
+				tcgplayer: 89082
+			}
 		},
-	]
+	],
+
 }
 
 export default card

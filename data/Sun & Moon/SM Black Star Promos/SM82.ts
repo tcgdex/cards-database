@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Schimmerndes Lugia"
 	},
 	illustrator: "Hitoshi Ariga",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -95,6 +95,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It sleeps in a deep-sea trench. If it flaps its wings, it is said to cause a 40-day storm.",
+		de: "Es schläft in einem Tiefseegraben. Schwingt es seine Flügel, entsteht ein Sturm, der 40 Tage dauert."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 311417,
+				tcgplayer: 148428
+			}
+		}
+	],
 }
 
 export default card

@@ -88,6 +88,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "The same rocks that form its body have been found in ground layers around the world.",
+		de: "Die Steine, aus denen sein Körper besteht, stammen aus den unterschiedlichsten Ecken der Welt."
+	},
+
 	thirdParty: {
 		cardmarket: 361325,
 		tcgplayer: 170902

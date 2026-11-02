@@ -10,6 +10,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [639, 640],
 
 	dexId: [
 		638,
@@ -70,6 +71,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It has a body and heart of steel. Its glare is sufficient to make even an unruly Pokémon obey it.",
+	},
 
 	thirdParty: {
 		cardmarket: 281242,

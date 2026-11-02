@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Carvanha",
 		fr: "Carvanha",
+		de: "Kanivanha"
 	},
 
 	stage: "Stage1",
@@ -61,6 +62,11 @@ const card: Card = {
 	],
 
 	retreat: 0,
+
+	description: {
+		en: "It pursues its prey at speeds of 75 mph and finishes them off with fangs that can crush iron. It is known as the bully of the sea.",
+		de: "Es jagt mit 120 km/h seine Beute und erlegt sie mithilfe seiner Zähne, die selbst Eisen durchdringen. Sein Spitzname ist „Tyrann des Meeres“."
+	},
 
 	thirdParty: {
 		cardmarket: 297490,

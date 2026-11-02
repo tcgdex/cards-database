@@ -20,6 +20,12 @@ const card: Card = {
 	types: ["Fighting"],
 	stage: "Basic",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Narumi Sato",
@@ -61,17 +67,16 @@ const card: Card = {
 		damage: 140
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582988,
-		tcgplayer: 253149
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 582988,
+				tcgplayer: 253149
+			}
+		},
+	],
 }
 
 export default card

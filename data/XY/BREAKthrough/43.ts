@@ -79,6 +79,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon formed from icicles bathed in energy from the morning sun. It sleeps buried in snow.",
+		de: "Ein Eiszapfen, der durch die Energie der aufgehenden Sonne zum Pokémon wurde. Nachts deckt es sich mit Schnee zu."
+	},
+
 	thirdParty: {
 		cardmarket: 286289,
 		tcgplayer: 107162

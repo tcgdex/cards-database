@@ -79,10 +79,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299439,
-		tcgplayer: 138514
-	}
+	description: {
+		en: "The fur on its body naturally repels water. It can stay dry, even when it plays in the water.",
+		de: "Sein Fell ist von Natur aus wasserabweisend. Es bleibt trocken, auch wenn es im Wasser spielt."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299439,
+				tcgplayer: 138514
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299439,
+				tcgplayer: 138514
+			}
+		},
+	],
 }
 
 export default card

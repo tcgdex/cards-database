@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Krookodile"
+		en: "Krookodile",
+		fr: "Crocorible"
 	},
 
 	illustrator: "Shiburingaru",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Krokorok"
+		en: "Krokorok",
+		fr: "Escroco"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Chomp Chomp Bite"
+			en: "Chomp Chomp Bite",
+			fr: "Mangeouille Vorace"
 		},
 
 		damage: 90,
 		cost: ["Fighting", "Fighting", "Colorless"],
 
 		effect: {
-			en: "Flip a coin until you get tails. For each heads, discard a random Energy from your opponent's Active Pokémon."
+			en: "Flip a coin until you get tails. For each heads, discard a random Energy from your opponent's Active Pokémon.",
+			fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque côté face, défaussez au hasard une Énergie du Pokémon Actif de votre adversaire."
 		}
 	}],
 

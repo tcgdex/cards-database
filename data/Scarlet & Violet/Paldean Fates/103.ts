@@ -65,19 +65,33 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751642,
+				tcgplayer: 534475,
+				cardtrader: 274287
+			}
+		},
+	],
 
 	illustrator: "saino misaki",
 
-	thirdParty: {
-		cardmarket: 751642
-	}
+	description: {
+		en: "Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone.",
+		de: "Bereitwillig teilt dieses Pokémon sein köstliches, frisch duftendes Öl mit anderen. Seit langer Zeit schon lebt es Seite an Seite mit den Menschen."
+	},
+
 }
 
 export default card

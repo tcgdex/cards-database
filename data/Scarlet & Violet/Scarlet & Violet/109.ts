@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Primeape",
-		fr: "Colossinge"
+		fr: "Colossinge",
+		de: "Rasaff"
 	},
 
 	stage: "Stage2",
@@ -81,9 +82,18 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		reverse: false,
-		normal: false
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
+	description: {
+		en: "It imbues its fists with the power of the rage that it kept hidden in its heart. Opponents struck by these imbued fists will be shattered to their core.",
+		de: "Es leitet den geballten Zorn, den es tief im Herzen trägt, in seine Fäuste. Wenn es zuschlägt, erschüttert es seinen Gegner bis ins Mark."
 	},
 
 	thirdParty: {

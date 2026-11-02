@@ -69,6 +69,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It constantly grooms its cotton-like wings. It takes a shower to clean itself if it becomes dirty.",
+		de: "Ständig pflegt es seine watteartigen Flügel. Falls es schmutzig wird, nimmt es eine Dusche, um sich zu putzen."
+	},
+
 	thirdParty: {
 		cardmarket: 286370,
 		tcgplayer: 107243

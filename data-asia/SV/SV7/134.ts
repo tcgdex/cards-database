@@ -15,6 +15,16 @@ const card: Card = {
 		ja: "このカードをつけているたねポケモンの最大HPは「＋50」される。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 779148,
+				tcgplayer: 567989,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	rarity: "None"
 }

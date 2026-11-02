@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Yuu Nishida",
 
 	description: {
-		en: "A Pokémon that has long been admired for its beauty. It runs agilely as if on wings."
+		en: "A Pokémon that has long been admired for its beauty. It runs agilely as if on wings.",
+		de: "Dieses Pokémon verzaubert die Menschen seit Urzeiten mit seiner Schönheit. Obendrein ist es schnell und sehr wendig."
 	},
 
 	attacks: [{
@@ -74,17 +81,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582167,
-		tcgplayer: 253130
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582167,
+				tcgplayer: 253130
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582167,
+				tcgplayer: 253130
+			}
+		},
+	],
 }
 
 export default card

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon 1 Energía unida a 1 de los Pokémon de tu rival en su mano.",
 		it: "Prendi un'Energia assegnata a uno dei Pokémon del tuo avversario e aggiungila alle carte che ha in mano.",
 		pt: "Coloque 1 Energia ligada a 1 dos Pokémon do seu oponente na mão dele(a).",
-		de: "Gib deinem Gegner 1 an eins seiner Pokémon angelegte Energie auf seine Hand."
+		de: "Gib deinem Gegner 1 an eins seiner Pokémon angelegte Energie auf seine Hand. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Busca en tu baraja 1 carta de Energía Básica, enséñala y ponla en tu mano. Si sales segundo y es tu primer turno, busca hasta 3 cartas de Energía Básica en vez de 1. Después, baraja las cartas de tu baraja.",
 		it: "Cerca nel tuo mazzo una carta Energia base, mostrala e aggiungila alle carte che hai in mano. Se inizi per secondo e se è il tuo primo turno, cerca fino a tre carte Energia base invece di una. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure por 1 carta de Energia básica no seu baralho, revele-a e coloque-a na sua mão. Se você for o segundo a jogar e esta for a sua primeira vez de jogar, procure por até 3 cartas de Energia básica ao invés de 1. Em seguida, embaralhe o seu baralho.",
-		de: "Durchsuche dein Deck nach 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Wenn du als Zweiter am Zug bist und es dein erster Zug ist, durchsuche dein Deck nach bis zu 3 Basis-Energiekarten anstelle von 1 Basis-Energiekarte. Mische anschließend dein Deck."
+		de: "Durchsuche dein Deck nach 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Wenn du als Zweiter am Zug bist und es dein erster Zug ist, durchsuche dein Deck nach bis zu 3 Basis-Energiekarten anstelle von 1 Basis-Energiekarte. Mische anschließend dein Deck. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

@@ -20,6 +20,12 @@ const card: Card = {
 	types: ["Colorless"],
 	stage: "Basic",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "PLANETA Yamashita",
@@ -70,17 +76,16 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582953,
-		tcgplayer: 253316
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 582953,
+				tcgplayer: 253316
+			}
+		},
+	],
 }
 
 export default card

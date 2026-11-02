@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "[Want]",
 				fr: "[Want]",
-				de: "Want"
+				de: "Want [Want]"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if you have Unown W, Unown A, Unown N, and Unown T on your Bench, you may flip a coin. If heads, put a Trainer card from your discard pile into your hand.",
 				fr: "Une fois pendant votre tour (avant votre attaque), si vous avez Zarbi [W], Zarbi [A], Zarbi [N] et Zarbi [T] sur votre Banc, vous pouvez lancer une pièce. Si c'est face, ajoutez une carte Dresseur de votre pile de défausse à votre main.",
-				de: "Once during your turn (before your attack), if you have Unown W, Unown A, Unown N, and Unown T on your Bench, you may flip a coin. If heads, put a Trainer card from your discard pile into your hand."
+				de: "Du kannst immer einmal in deinem Zug (vor deinem Angriff), wenn du Icognito [W], Icognito [A], Icognito [N], und Icognito [T] auf deiner Bank hast, eine Münze werfen. Nimm bei „Kopf“ eine Trainerkarte von deinem Ablagestapel auf deine Hand."
 			},
 		},
 	],
@@ -63,23 +63,31 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "On pense que la variété des types de ce Pokémon particulier est le résultat d'une adaptation due à un caprice de l'évolution, chacun possédant une capacité différente."
+		en: "It is believed that the variety of types of this Pokémon were created by evolutionary adaptation, as each possesses a different ability.",
+		fr: "On pense que la variété des types de ce Pokémon particulier est le résultat d'une adaptation due à un caprice de l'évolution, chacun possédant une capacité différente.",
+		de: "Es wird behauptet, dass die verschiedenen Sorten dieses Pokémon sich durch Anpassung entwickelt haben, da alle unterschiedliche Fähigkeiten besitzen."
 	},
 
-	thirdParty: {
-		cardmarket: 274681,
-		tcgplayer: 90240
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274681,
+				tcgplayer: 90240
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274681,
+				tcgplayer: 90240
+			}
 		}
 	]
 }

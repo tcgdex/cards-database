@@ -69,6 +69,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It's said that gas emanating from a graveyard was possessed by the grievances of the deceased and thus became a Pokémon.",
+		de: "Es heißt, dieses Pokémon sei aus einem tiefen Groll entstanden, der Gasen innewohnte, die auf Friedhöfen ausgeströmt waren."
+	},
+
 	thirdParty: {
 		cardmarket: 372355,
 		tcgplayer: 189168

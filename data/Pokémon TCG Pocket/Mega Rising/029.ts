@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Arcanine"
+		en: "Arcanine",
+		fr: "Arcanin"
 	},
 
 	illustrator: "Yuu Nishida",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Growlithe"
+		en: "Growlithe",
+		fr: "Caninos"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Fire Fang"
+			en: "Fire Fang",
+			fr: "Crocs Feu"
 		},
 
 		damage: 50,
 		cost: ["Fire", "Fire"],
 
 		effect: {
-			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Burned."
+			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Burned.",
+			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Brûlé."
 		}
 	}],
 

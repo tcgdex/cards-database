@@ -4,12 +4,6 @@ import Set from '../Celebrations'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Solgaleo",
@@ -45,7 +39,7 @@ const card: Card = {
 			es: "Una vez durante tu turno, si este Pokémon está en tu Banca, puedes cambiarlo por tu Pokémon Activo.",
 			it: "Una sola volta durante il tuo turno, se questo Pokémon è nella tua panchina, puoi scambiarlo con il tuo Pokémon attivo.",
 			pt: "Uma vez durante sua vez de jogar (antes de atacar), se este Pokémon estiver em seu Banco, você poderá trocá-lo com seu Pokémon Ativo.",
-			de: "Einmal während deines Zuges, wenn sich dieses Pokémon auf deiner Bank befindet, kannst du es gegen dein Aktives Pokémon austauschen."
+			de: "Einmal während deines Zuges, wenn sich dieses Pokémon in auf deiner Bank befindet, kannst du es gegen dein Aktives Pokémon tauschen."
 		}
 	}],
 
@@ -96,15 +90,21 @@ const card: Card = {
 	regulationMark: "E",
 
 	description: {
-		en: "In writings from the distant past, it's called by the name \"the beast that devours the sun.\""
+		en: "In writings from the distant past, it's called by the name \"the beast that devours the sun.\"",
+		de: "In Schriftstücken aus längst vergangenen Zeiten wird es als „Sonnenverschlinger“ bezeichnet."
 	},
 
 	dexId: [791],
 
-	thirdParty: {
-		cardmarket: 576766,
-		tcgplayer: 250316
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 576766,
+				tcgplayer: 250316
+			}
+		},
+	],
 }
 
 export default card

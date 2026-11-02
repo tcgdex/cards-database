@@ -4,6 +4,7 @@ import Set from "../Journey Together"
 const card: Card = {
 	dexId: [941],
 	set: Set,
+	cameoDexIds: [81],
 
 	name: {
 		en: "Iono's Kilowattrel",
@@ -70,19 +71,31 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 	illustrator: "Terada Tera",
 
-	thirdParty: {
-		cardmarket: 817315
-	},
-
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817315,
+				tcgplayer: 623590
+			}
 		},
-	]
+	],
 }
 
 export default card

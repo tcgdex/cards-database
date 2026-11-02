@@ -73,7 +73,7 @@ const card: Card = {
 				es: "Descarta 1 Energía Fire unida a este Pokémon.",
 				it: "Scarta un'Energia Fire assegnata a questo Pokémon.",
 				pt: "Descarte uma Energia Fire ligada a este Pokémon.",
-				de: "Lege 1 an dieses Pokémon angelegte Fire-Energie auf deinen Ablagestapel."
+				de: "Lege 1 an dieses Pokémon angelegte {R}-Energie auf deinen Ablagestapel."
 			},
 			damage: 70,
 
@@ -88,6 +88,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It gallops at nearly 150 mph. With its mane blazing ferociously, it races as if it were an arrow.",
+		de: "Seine Mähne lodert auf, wenn es mit 240 km/h pfeilschnell galoppiert."
+	},
 
 	thirdParty: {
 		cardmarket: 291524,

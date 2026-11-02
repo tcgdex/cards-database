@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		301,
-	],
+	dexId: [301],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Skitty",
-		fr: "Skitty"
+		fr: "Skitty",
+		de: "Eneco"
 	},
 
 	stage: "Stage1",
@@ -78,23 +77,30 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275677,
-		tcgplayer: 84735
-	},
 
-	variants: [
-		{
+	variants: [		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275677,
+				tcgplayer: 84735
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275677,
+				tcgplayer: 84735
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 125133
+			}
 		}
-	]
+	],
+
 }
 
 export default card

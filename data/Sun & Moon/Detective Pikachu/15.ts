@@ -71,6 +71,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It grows close to others easily and is also easily spoiled. The disparity between its face and its actions makes many young people wild about it.",
+		de: "Es wird schnell zahm und wird gerne verwöhnt. Viele lieben den Kontrast zwischen seiner mürrischen Miene und dem putzigen Charakter"
+	},
+
 	thirdParty: {
 		cardmarket: 370777,
 		tcgplayer: 186023

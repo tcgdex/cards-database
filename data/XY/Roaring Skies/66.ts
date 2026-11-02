@@ -98,6 +98,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has the stamina to fly all day on its broad wings. It fights by using its sharp beak.",
+	},
+
 	thirdParty: {
 		cardmarket: 282734,
 		tcgplayer: 98102

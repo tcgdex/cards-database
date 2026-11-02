@@ -1,44 +1,56 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "快龍VSTAR"
+		ja: "ブースターVMAX",
+		'zh-tw': "快龍VSTAR",
 	},
 
-	illustrator: "PLANETA Mochizuki",
+	illustrator: "OKACHEKE",
 	category: "Pokemon",
-	hp: 280,
-	types: ["Dragon"],
+	hp: 320,
+	types: ["Fire"],
+
 	stage: "VMAX",
 
-	attacks: [{
-		name: {
-			'zh-tw': "終極衝擊"
+	attacks: [
+		{
+			name: {
+				ja: "ダイバクレツ",
+				'zh-tw': "終極衝擊",
+			},
+			damage: "100×",
+			cost: ["Fire", "Colorless", "Colorless"],
+			effect: {
+				ja: "自分の山札を上から5枚トラッシュし、その中にあるエネルギーの枚数×100ダメージ。",
+				'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。"
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 571389,
+				tcgplayer: 597384,
+			},
 		},
+	],
 
-		damage: 250,
-		cost: ["Water", "Lightning", "Colorless", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "[VSTAR力量]龍之星星"
-		},
-
-		effect: {
-			'zh-tw': "查看自己的牌庫上方12張卡，從其中選擇任意數量的【水】或者【雷】能量卡，以任意方式附於自己的寶可夢身上。將剩餘卡放回牌庫並重洗。[對戰中，己方只可使用1次【VSTAR】力量。]"
-		},
-
-		cost: ["Colorless"]
-	}],
+	evolveFrom: {
+		ja: "ブースターV",
+	},
 
 	retreat: 2,
-	regulationMark: "F"
-}
+	regulationMark: "E",
+	rarity: "Promo",
+	dexId: [136],
+};
 
-export default card
+export default card;

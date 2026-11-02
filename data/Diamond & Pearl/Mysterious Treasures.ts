@@ -18,7 +18,7 @@ const dp2: Set = {
 	tcgOnline: "MT",
 
 	cardCount: {
-		official: 122
+		official: 123
 	},
 
 	releaseDate: "2007-08-01",

@@ -76,12 +76,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -89,10 +83,22 @@ const card: Card = {
 		en: "It brings its claws together and whirls around at high speed before rushing toward its prey."
 	},
 
-	thirdParty: {
-		cardmarket: 511875,
-		tcgplayer: 226527
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511875,
+				tcgplayer: 226527
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511875,
+				tcgplayer: 226527
+			}
+		},
+	],
 }
 
 export default card

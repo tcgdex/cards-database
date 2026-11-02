@@ -1,22 +1,59 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "高級球"
+		ja: "ゲノセクト",
+		'zh-tw': "高級球",
 	},
 
-	illustrator: "sadaji",
-	category: "Trainer",
+	illustrator: "kawayoo",
+	category: "Pokemon",
+	hp: 120,
+	types: ["Grass"],
 
-	effect: {
-		'zh-tw': "這張卡必須將自己的2張手牌丟棄才可使用。 從自己的牌庫選擇1張寶可夢卡，在給對手看過後加入手牌。並且重洗牌庫。"
+	description: {
+		ja: "３億年前に いた ポケモン。 プラズマ団に 改造 され 背中に 砲台を つけられた。",
 	},
 
-	trainerType: "Item",
-	regulationMark: "F"
-}
+	stage: "Basic",
 
-export default card
+	attacks: [
+		{
+			name: { ja: "ちょくげきだん" },
+			cost: ["Grass", "Colorless"],
+			effect: {
+				ja: "相手のポケモン1匹に、50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+			},
+		},
+		{
+			name: { ja: "テクノバスター" },
+			damage: 120,
+			cost: ["Grass", "Grass", "Colorless"],
+			effect: {
+				ja: "次の自分の番、このポケモンはワザが使えない。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 525420,
+				tcgplayer: 597347,
+			},
+		},
+	],
+
+	retreat: 2,
+	regulationMark: "D",
+	rarity: "Promo",
+	dexId: [649],
+};
+
+export default card;

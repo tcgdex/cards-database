@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		190,
-	],
+	dexId: [190],
 
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -67,20 +65,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air."
+		en: "Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air.",
+		de: "Sein Schweif ist so kräftig, dass es sich stundenlang damit an einem Ast in der Luft halten kann."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83493,
+				cardmarket: 279585
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279585,
+				tcgplayer: 83493
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279585,
-		tcgplayer: 83493
-	}
 }
 
 export default card

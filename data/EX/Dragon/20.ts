@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		372,
-	],
+	dexId: [372],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Bagon",
-		fr: "Draby"
+		fr: "Draby",
+		de: "Kindwurm"
 	},
 
 	stage: "Stage1",
@@ -38,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Scrunch",
 				fr: "Compresse",
-				de: "Scrunch"
+				de: "Zähneknirschen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to Shelgon during your opponent's next turn. (Any other effects of attacks still happen.)",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Drackhaus lors du prochain tour de votre adversaire. (Tous les autres effets sont appliqués.)",
-				de: "Flip a coin. If heads, prevent all damage done to Shelgon during your opponent's next turn. (Any other effects of attacks still happen.)"
+				de: "Wirf 1 Münze. Bei „Kopf“, verhindere alle Schadenspunkte, die Draschel während des nächsten Zuges deines Gegners durch Angriffe zugefügt werden."
 			},
 
 		},
@@ -56,7 +55,7 @@ const card: Card = {
 			name: {
 				en: "Rolling Attack",
 				fr: "Attaque qui roule",
-				de: "Rolling Attack"
+				de: "Rollender Angriff"
 			},
 
 			damage: 50,
@@ -67,10 +66,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Colorless",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
@@ -81,14 +79,25 @@ const card: Card = {
 			value: "-30"
 		},
 	],
-
-
 	retreat: 2,
 
-	thirdParty: {
-		tcgplayer: 89122,
-		cardmarket: 275897
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89122,
+				cardmarket: 275897
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89122,
+				cardmarket: 275897
+			},
+		},
+	],
+
 }
 
 export default card

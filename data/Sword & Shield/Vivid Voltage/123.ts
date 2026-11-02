@@ -66,12 +66,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -79,10 +73,22 @@ const card: Card = {
 		en: "It defends itself by launching spikes, but its aim isn't very good at first. Only after a lot of practice will it improve."
 	},
 
-	thirdParty: {
-		cardmarket: 512325,
-		tcgplayer: 226577
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 512325,
+				tcgplayer: 226577
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 512325,
+				tcgplayer: 226577
+			}
+		},
+	],
 }
 
 export default card

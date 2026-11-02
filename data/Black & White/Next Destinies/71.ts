@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Seedot",
 		fr: "Grainipiot",
+		de: "Samurzel"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Surprise Punch",
 				fr: "Raclée Surprise",
+				de: "Überraschungshieb"
 			},
 			effect: {
 				en: "Move an Energy attached to the Defending Pokémon to 1 of your opponent's Benched Pokémon.",
 				fr: "Déplacez une Énergie attachée au Pokémon Défenseur vers 1 des Pokémon de Banc de votre adversaire.",
+				de: "Verschiebe 1 an das Verteidigende Pokémon angelegte Energie auf 1 Pokémon auf der Bank deines Gegners."
 			},
 			damage: 20,
 
@@ -68,10 +71,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280296,
-		tcgplayer: 87827
-	}
+	description: {
+		en: "The sound of its grass flute makes its listeners uneasy. It lives deep in forests.",
+		de: "Der Ton seiner Grasflöte beunruhigt die, die ihn hören. Es lebt tief in den Wäldern."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280296,
+				tcgplayer: 87827
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280296,
+				tcgplayer: 87827
+			}
+		},
+	],
 }
 
 export default card

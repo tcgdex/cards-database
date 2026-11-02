@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Vanish",
 				fr: "Disparition",
-				de: "Vanish"
+				de: "Plötzlich verschwinden"
 			},
 			effect: {
 				en: "Shuffle Abra into your deck. (Discard all cards attached to Abra.)",
 				fr: "Mélangez Abra avec votre deck. (Défaussez toutes les cartes attachées à Abra.)",
-				de: "Shuffle Abra into your deck. (Discard all cards attached to Abra.)"
+				de: "Mische Abra in dein Deck. (Entferne alle Karten von Abra.)"
 			},
 
 		},
@@ -49,12 +49,12 @@ const card: Card = {
 			name: {
 				en: "Psyshock",
 				fr: "Choc psychique",
-				de: "Psyshock"
+				de: "Psychoschock"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paraylzed."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -67,25 +67,33 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Il se téléporte hors du danger, rendant sa capture difficile."
+		en: "It teleports itself away from danger, making it difficult to capture.",
+		fr: "Il se téléporte hors du danger, rendant sa capture difficile.",
+		de: "Es teleportiert sich aus gefährlichen Situationen, wodurch es sehr schwer einzufangen ist."
 	},
 
-	thirdParty: {
-		cardmarket: 274102,
-		tcgplayer: 83445
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274102,
+				tcgplayer: 83445
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
-		}
-	]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274102,
+				tcgplayer: 83445
+			}
+		},
+	],
 }
 
 export default card

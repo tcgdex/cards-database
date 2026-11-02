@@ -11,15 +11,21 @@ const card: Card = {
 
 	set: Set,
 
-	thirdParty: {
-		cardmarket: 274025
+	effect: {
+		en: "Your opponent shuffles his or her hand into his or her deck, then draws 7 cards.",
 	},
+
 	
+
 	variants: [
 		{
 			type: "normal",
-		}
-	]
+			thirdParty: {
+				cardmarket: 274025,
+				tcgplayer: 42552
+			}
+		},
+	],
 }
 
 export default card

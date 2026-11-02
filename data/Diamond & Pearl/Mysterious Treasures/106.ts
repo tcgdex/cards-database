@@ -62,9 +62,13 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Il broie tout ce qu'il trouve avec ses mâchoires puissantes. Même son dresseur doit s'en méfier."
+		en: "It has the habit of biting anything with its developed jaws. Even its Trainer need to be careful.",
+		fr: "Il broie tout ce qu'il trouve avec ses mâchoires puissantes. Même son dresseur doit s'en méfier.",
+		de: "Es hat die Angewohnheit, nach allem zu schnappen, was es sieht. Selbst seine Trainer müssen aufpassen."
 	},
 
 	thirdParty: {

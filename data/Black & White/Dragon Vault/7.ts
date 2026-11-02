@@ -70,10 +70,26 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 281007,
-		tcgplayer: 89130
-	}
+	description: {
+		en: "Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.",
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281007,
+				tcgplayer: 89130
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['regional-championships'],
+			thirdParty: {
+				cardmarket: 450353
+			}
+		},
+	],
 }
 
 export default card

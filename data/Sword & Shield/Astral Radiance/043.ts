@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Barschuft"
 	},
 
+	illustrator: "Kagemaru Himeno",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,
@@ -53,20 +54,37 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Though it differs from other Basculin in several respects, including demeanor—this one is gentle—I have categorized it as a regional form given the vast array of shared qualities.",
+		de: "Trotz mancher Unterschiede, wie etwa des sanften Wesens, weist es etliche Gemeinsamkeiten mit Barschuft auf. Infolgedessen habe ich es als Regionalform dieses Pokémon eingeordnet."
 	},
 
-	thirdParty: {
-		cardmarket: 658582,
-		tcgplayer: 272243
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658582,
+				tcgplayer: 272243
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658582,
+				tcgplayer: 272243
+			}
+		},
+	],
 }
 
 export default card

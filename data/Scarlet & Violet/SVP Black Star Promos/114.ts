@@ -13,7 +13,7 @@ const card: Card = {
 		de: "Picknickerin"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Trainer",
 
 	effect: {
@@ -27,7 +27,16 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	regulationMark: "H",
-	illustrator: "Susumu Maeya"
+	illustrator: "Susumu Maeya",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769410,
+				tcgplayer: 551687
+			},
+		}
+	],
 }
 
 export default card

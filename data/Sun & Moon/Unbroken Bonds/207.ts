@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Meowth",
 		fr: "Miaouss",
+		de: "Mauzi"
 	},
 
 	suffix: "GX",
@@ -93,7 +94,7 @@ const card: Card = {
 				es: "Tajo Cambiante GX",
 				it: "Sferzata Inversa GX",
 				pt: "Contra-arranhar GX",
-				de: "Rückschnitt GX"
+				de: "Rückschnitt-GX"
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon. (You can’t use more than 1 GX attack in a game.)",

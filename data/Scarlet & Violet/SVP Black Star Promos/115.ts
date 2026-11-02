@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Chimstix"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Grass"],
@@ -65,9 +65,36 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
-	illustrator: "Uninori"
+	illustrator: "Uninori",
+	description: {
+		en: "The faster a Thwackey can beat out a rhythm with its two sticks, the more respect it wins from its peers.",
+	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 769411,
+				tcgplayer: 551688
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 769412,
+				tcgplayer: 563315
+			},
+		}
+	],
 }
 
 export default card

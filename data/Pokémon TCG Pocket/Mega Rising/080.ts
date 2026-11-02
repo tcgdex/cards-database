@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Eiscue"
+		en: "Eiscue",
+		fr: "Bekaglaçon"
 	},
 
 	illustrator: "Kagemaru Himeno",
@@ -26,17 +27,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Ice Face"
+			en: "Ice Face",
+			fr: "Tête de Gel"
 		},
 
 		effect: {
-			en: "If this Pokémon has full HP, it takes −40 damage from attacks from your opponent's Pokémon."
+			en: "If this Pokémon has full HP, it takes −40 damage from attacks from your opponent's Pokémon.",
+			fr: "Si ce Pokémon a tous ses PV, il subit − 40 dégâts provenant des attaques des Pokémon de votre adversaire."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Ram"
+			en: "Ram",
+			fr: "Collision"
 		},
 
 		damage: 50,

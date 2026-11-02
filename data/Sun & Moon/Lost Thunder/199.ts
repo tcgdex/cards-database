@@ -70,7 +70,7 @@ const card: Card = {
 				es: "Pon cualquier cantidad de Energías Fire unidas a tus Pokémon en la Zona Perdida. Este ataque hace 50 puntos de daño por cada carta puesta en la Zona Perdida de esta manera.",
 				it: "Prendi tutte le Energie Fire che vuoi assegnate ai tuoi Pokémon e mettile nell’area perduta. Questo attacco infligge 50 danni per ogni carta che hai messo nell’area perduta in questo modo.",
 				pt: "Coloque qualquer quantidade de Energia Fire ligada aos seus Pokémon na Zona Perdida. Este ataque causa 50 pontos de dano para cada carta colocada na Zona Perdida desta forma.",
-				de: "Lege beliebig viele der an deine Pokémon angelegten Fire-Energien ins Nirgendwo. Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der auf diese Weise ins Nirgendwo gelegten Karten zu."
+				de: "Lege beliebig viele der an deine Pokémon angelegten {R}-Energien ins Nirgendwo. Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der auf diese Weise ins Nirgendwo gelegten Karten zu."
 			},
 			damage: "50×",
 
@@ -85,7 +85,7 @@ const card: Card = {
 				es: "Explosivo GX",
 				it: "Fragor-GX",
 				pt: "Ruptura Explosiva GX",
-				de: "Detonation GX"
+				de: "Detonation-GX"
 			},
 			effect: {
 				en: "Discard 1 of your Prize cards. If it’s an Energy card, attach it to 1 of your Pokémon. (You can’t use more than 1 GX attack in a game.)",

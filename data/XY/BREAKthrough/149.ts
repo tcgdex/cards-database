@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon, en cualquier combinación, 3 cartas de Pokémon y de Energía Básica de tu pila de descartes en tu baraja y barájalas todas.",
 		it: "Rimischia tre carte Pokémon e Energia base, in qualsiasi combinazione, dalla tua pila degli scarti nel tuo mazzo.",
 		pt: "Embaralhe qualquer combinação de 3 cards entre Pokémon e Energia básica de sua pilha de descarte em seu baralho.",
-		de: "Mische eine Kombination aus insgesamt 3 Pokémon- und Basis-Energiekarten von deinem Ablagestapel zurück in dein Deck."
+		de: "Mische eine Kombination aus insgesamt 3 Pokémon- und Basis-Energiekarten von deinem Ablagestapel zurück in dein Deck. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

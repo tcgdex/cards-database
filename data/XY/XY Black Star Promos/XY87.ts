@@ -7,7 +7,7 @@ const card: Card = {
 		fr: "M Laggron-EX",
 	},
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -40,22 +40,6 @@ const card: Card = {
 			effect: {
 				en: "You may do 30 more damage. If you do, discard the top 3 cards of each player's deck.",
 				fr: "Vous pouvez infliger 30 dégâts supplémentaires. Dans ce cas, défaussez les trois cartes du dessus du deck de chaque joueur."
-			},
-			damage: "130+",
-
-		},
-		{
-			cost: [
-				"Water",
-				"Water",
-				"Colorless",
-				"Colorless",
-			],
-			name: {
-				fr: "Impact Bras d'Fer",
-			},
-			effect: {
-				fr: "Vous pouvez infliger 30 dégâts supplémentaires. Dans ce cas, défaussez les trois cartes du dessus du deck de chaque joueur.",
 			},
 			damage: "130+",
 

@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Milotic ex",
 		fr: "Milobellus ex",
-		de: "Milotic ex"
+		de: "Milotic-ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Barpau"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -103,8 +103,12 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 87460,
+				cardmarket: 276607
+			},
 		},
-	]
+	],
 }
 
 export default card

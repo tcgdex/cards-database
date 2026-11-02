@@ -72,20 +72,50 @@ const card: Card = {
 		damage: "50+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: true,
+	description: {
+		en: "Many youths admire the way this Pokémon listlessly picks fights and keeps its cool no matter what opponent it faces.",
+		de: "Kein Gegner kann es aus der Fassung bringen. Dies und die Lässigkeit, mit der es Streit sucht, erklären wohl, warum die Jugend es so schätzt."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			stamp: ['pre-release'],
+			thirdParty: {
+				cardmarket: 727119,
+				tcgplayer: 515290,
+			}
+		},
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 725152,
+				tcgplayer: 509844,
+				cardtrader: 255632
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725152,
+				tcgplayer: 509844,
+				cardtrader: 255632
+			}
+		},
+	],
 
 	illustrator: "Anesaki Dynamic",
 
-	thirdParty: {
-		cardmarket: 725152
-	}
+
 }
 
 export default card

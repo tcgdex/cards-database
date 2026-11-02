@@ -44,18 +44,48 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751600,
+				tcgplayer: 534424,
+				cardtrader: 274246
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751600,
+				tcgplayer: 534424,
+				cardtrader: 274246
+			}
+		},
+		{
+			type: 'reverse',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 794907
+			}
+		},
+	],
 
 	illustrator: "DOM",
 
-	thirdParty: {
-		cardmarket: 751600
-	}
+	description: {
+		en: "It always scowls in an attempt to make opponents take it seriously, but even crying children will burst into laughter when they see Maschiff's face.",
+		de: "Es blickt stets finster drein, um von anderen ernst genommen zu werden, doch selbst weinende Kinder fangen bei seinem Anblick an zu lachen."
+	},
+
 }
 
 export default card

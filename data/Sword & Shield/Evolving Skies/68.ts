@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Woobat",
@@ -74,16 +68,29 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It emits ultrasonic waves as it flutters about, searching for its prey—bug Pokémon."
+		en: "It emits ultrasonic waves as it flutters about, searching for its prey—bug Pokémon.",
+		de: "Es fliegt umher und sendet Ultraschallwellen aus, um Käfer-Pokémon aufzuspüren, welche ihm als Nahrung dienen."
 	},
 
 	dexId: [527],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574116,
-		tcgplayer: 246843
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574116,
+				tcgplayer: 246843
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574116,
+				tcgplayer: 246843
+			}
+		},
+	],
 }
 
 export default card

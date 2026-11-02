@@ -22,6 +22,17 @@ const card: Card = {
 		id: "Giliran pemain akan selesai jika menggunakan kartu ini. Kocok kembali semua Kartu Pegangan sendiri ke Deck. Setelah itu, ambil 8 kartu dari atas Deck."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardtrader: 235651,
+				cardmarket: 693149,
+				tcgplayer: 568300,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }

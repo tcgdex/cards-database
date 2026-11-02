@@ -67,12 +67,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -80,10 +74,22 @@ const card: Card = {
 		en: "It dislikes cold seasons. They migrate to other lands in search of warmth, flying over 180 miles a day."
 	},
 
-	thirdParty: {
-		cardmarket: 512375,
-		tcgplayer: 226589
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 512375,
+				tcgplayer: 226589
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 512375,
+				tcgplayer: 226589
+			}
+		},
+	],
 }
 
 export default card

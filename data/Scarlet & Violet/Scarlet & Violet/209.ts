@@ -4,6 +4,7 @@ import Set from "../Scarlet & Violet"
 const card: Card = {
 	dexId: [923],
 	set: Set,
+	cameoDexIds: [921, 922],
 
 	name: {
 		en: "Pawmot",
@@ -21,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pawmo",
-		fr: "Pohmotte"
+		fr: "Pohmotte",
+		de: "Pamamo"
 	},
 
 	stage: "Stage2",
@@ -72,15 +74,27 @@ const card: Card = {
 		damage: 230
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "Kouki Saitou",
+
+	description: {
+		en: "Pawmot's fluffy fur acts as a battery. It can store the same amount of electricity as an electric car.",
+		de: "Sein flauschiges Fell dient ihm als Batterie. Darin kann es dieselbe Menge an Strom speichern wie ein Elektroauto."
+	},
 
 	thirdParty: {
         cardmarket: 702505,

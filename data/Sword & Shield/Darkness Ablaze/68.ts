@@ -93,23 +93,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "When it gets angry, it inhales with all its might, and its body gradually inflates. Sometimes they can grow 20 times larger!"
+		en: "When it gets angry, it inhales with all its might, and its body gradually inflates. Sometimes they can grow 20 times larger!",
+		de: "Ist es verärgert, atmet es möglichst viel Luft ein und bläst damit sein Volumen auf das bis zu Zwanzigfache auf."
 	},
 
-	thirdParty: {
-		cardmarket: 483219,
-		tcgplayer: 219442
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483219,
+				tcgplayer: 219442
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483219,
+				tcgplayer: 219442
+			}
+		},
+	],
 }
 
 export default card

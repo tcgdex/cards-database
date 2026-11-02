@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Litwick",
 		fr: "Funécire",
+		de: "Lichtel"
 	},
 
 	stage: "Stage1",
@@ -67,6 +68,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "The spirits it absorbs fuel its baleful fire. It hangs around hospitals waiting for people to pass on.",
+		de: "Es nährt seine Flamme mit den Seelen seiner Opfer. Heutzutage irrt es auf der Suche nach Seelen durch Krankenhäuser."
+	},
 
 	thirdParty: {
 		cardmarket: 387977,

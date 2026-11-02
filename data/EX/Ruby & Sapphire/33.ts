@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		297,
-	],
+	dexId: [297],
 
 	hp: 80,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Makuhita",
-		fr: "Makuhita"
+		fr: "Makuhita",
+		de: "Makuhita"
 	},
 
 	stage: "Stage1",
@@ -44,7 +43,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -63,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 40 damage plus 10 more damage for each heads.",
 				fr: "Lancez deux pièces. Cette attaque inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte plus 10 Schadenspunkte für jede Münze, die das Ergebnis \"Kopf\" zeigt, zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 40 Schadenspunkte plus 10 Schadenspunkte für jede Münze, die das Ergebnis „Kopf“ zeigt, zu."
 			},
 			damage: "40+",
 
@@ -80,23 +79,30 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275681,
-		tcgplayer: 86011
-	},
 
-	variants: [
-		{
+	variants: [		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275681,
+				tcgplayer: 86011
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275681,
+				tcgplayer: 86011
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 125143
+			}
 		}
-	]
+	],
+
 }
 
 export default card

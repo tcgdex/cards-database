@@ -74,18 +74,42 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It's said that Malamar's hypnotic powers played a role in certain history-changing events.",
+		de: "Man erzählt sich, dass die hypnotischen Kräfte dieses Pokémon mit einigen geschichtsträchtigen Ereignissen in Verbindung stehen."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725218,
+				tcgplayer: 509909,
+				cardtrader: 255823
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725218,
+				tcgplayer: 509909,
+				cardtrader: 255823
+			}
+		},
+	],
 
 	illustrator: "Nelnal",
 
-	thirdParty: {
-		cardmarket: 725218
-	}
+	
 }
 
 export default card

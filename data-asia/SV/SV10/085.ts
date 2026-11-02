@@ -1,13 +1,12 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV10"
+import { Card } from "../../../interfaces";
+import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
-
 	name: {
+		ja: "オオスバメ",
 		'zh-tw': "大王燕",
 		'zh-cn': "大王燕",
-		ja: "オオスバメ"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -16,52 +15,59 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
+		ja: "森に 住む 獲物を 見つけると 上空から 急降下。 鋭い ツメで 捕まえる。",
 		'zh-tw': "發現居住在森林裡的獵物時， 會從高空俯衝而下。 用鋒利的爪子捕捉獵物。",
 		'zh-cn': "發現居住在森林裡的獵物時， 會從高空俯衝而下。 用鋒利的爪子捕捉獵物。",
-		ja: "森に 住む 獲物を 見つけると 上空から 急降下。 鋭い ツメで 捕まえる。"
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "叼",
-			'zh-cn': "叼",
-			ja: "くわえる"
+	attacks: [
+		{
+			name: {
+				ja: "くわえる",
+				'zh-tw': "叼",
+				'zh-cn': "叼",
+			},
+			cost: ["Colorless"],
+			effect: {
+				ja: "自分の山札を3枚引く。",
+				'zh-tw': "從自己的牌庫抽出3張卡。",
+				'zh-cn': "從自己的牌庫抽出3張卡。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "從自己的牌庫抽出3張卡。",
-			'zh-cn': "從自己的牌庫抽出3張卡。",
-			ja: "自分の山札を3枚引く。"
+		{
+			name: {
+				ja: "スピードウイング",
+				'zh-tw': "高速之翼",
+				'zh-cn': "高速之翼",
+			},
+			damage: 70,
+			cost: ["Colorless", "Colorless"],
 		},
+	],
 
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "高速之翼",
-			'zh-cn': "高速之翼",
-			ja: "スピードウイング"
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 821917,
+				tcgplayer: 628726,
+			},
 		},
+	],
 
-		damage: 70,
-		cost: ["Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Fighting",
-		value: "－30"
-	}],
+	evolveFrom: {
+		ja: "スバメ",
+	},
 
 	retreat: 0,
 	regulationMark: "I",
 	rarity: "Common",
-	dexId: [277]
-}
+	dexId: [277],
+};
 
-export default card
+export default card;

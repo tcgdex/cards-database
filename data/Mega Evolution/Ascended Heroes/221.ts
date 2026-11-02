@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Yoko Hishida",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [406],
 	hp: 30,
 	types: ["Grass"],
 	stage: "Basic",
@@ -45,13 +46,30 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 676033,
-		cardmarket: 869832
-	}
+	description: {
+		en: "The pollen it releases contains poison. If this Pokémon is raised on clean water, the poison’s toxicity is increased.",
+		fr: "Plus l'eau dont il se nourrit est pure, plus le niveau de toxicité du pollen qu'il répand est élevé.",
+		de: "Es verstreut giftigen Pollen. Je sauberer das Wasser war, mit dem es gegossen wurde, desto stärker ist der Giftstoff."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869832,
+				tcgplayer: 676033
+			}
+		}
+	],
 }
 
 export default card

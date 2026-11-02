@@ -3,7 +3,7 @@ import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Tangrowth LV. X",
+		en: "Tangrowth LV.X",
 		de: "Tangoloss"
 	},
 	illustrator: "Ryo Ueda",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		465,
-	],
+	dexId: [465],
 	
 	hp: 130,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "LEVEL-UP",
@@ -32,8 +30,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may flip a coin. If heads, remove 4 damage counters from 1 of your Pokémon. This power can't be used if Tangrowth is affected by a Special Condition.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Münze werfen. Bei \"Kopf\" entferne 4 Schadensmarken von 1 deiner Pokémon. Diese Poké-Power kann nicht benutzt werden, wenn Tangoloss von einem Speziellen Zustand betroffen ist."
-			},
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Münze werfen. Bei „Kopf“ entferne 4 Schadensmarken von 1 deiner Pokémon. Diese Poké-Power kann nicht benutzt werden, wenn Tangoloss von einem Speziellen Zustand betroffen ist."
+			}
 		},
 	],
 	attacks: [
@@ -47,7 +45,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your discard pile for as many Grass Energy cards as you like and attach them to your Pokémon in any way you like.",
-				de: "Durchsuche deinen Ablagestapel nach beliebig vielen -Energiekarten und lege sie in beliebiger Verteilung an deine Pokémon an."
+				de: "Durchsuche deinen Ablagestapel nach beliebig vielen {G}-Energiekarten und lege sie in beliebiger Verteilung an deine Pokémon an."
 			},
 
 		},
@@ -68,8 +66,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 89757
+			}
+		},
 	]
 }
 

@@ -63,14 +63,18 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 273994,
-		tcgplayer: 42491
+	description: {
+		en: "Lives about three feet underground, where it feeds on plant roots. It sometimes appears above ground.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273994,
+				tcgplayer: 42491
+			}
 		}
 	]
 }

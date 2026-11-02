@@ -82,6 +82,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It is said to live in a gap in the spatial dimension parallel to ours. It appears in mythology.",
+		de: "Man sagt, es lebe in einem Spalt in einer Paralleldimension. Es wird in der Mythologie erwähnt."
+	},
+
 	thirdParty: {
 		cardmarket: 302162,
 		tcgplayer: 146678

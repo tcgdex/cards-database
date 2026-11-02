@@ -10,6 +10,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [6, 18],
 
 	dexId: [
 		151,
@@ -45,14 +46,17 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 275631,
-		tcgplayer: 46466
+	description: {
+		en: "This Pokémon's body is covered by fine hairs that can be seen only under a microscope.",
 	},
 
 	variants: [
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275631,
+				tcgplayer: 46466
+			}
 		}
 	]
 }

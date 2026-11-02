@@ -20,6 +20,16 @@ const card: Card = {
 		'zh-cn': "雙方玩家在每個自己的回合時，可使用1次，可從自己的棄牌區選擇最多2張「基本【雷】能量」卡，在給對手看過後加入手牌。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 807685,
+				tcgplayer: 614949,
+			},
+		},
+	],
+
 	trainerType: "Stadium",
 	regulationMark: "I"
 }

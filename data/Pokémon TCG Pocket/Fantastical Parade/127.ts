@@ -4,6 +4,8 @@ import Set from "../Fantastical Parade"
 const card: Card = {
 	set: Set,
 
+	dexId: [115],
+
 	name: {
 		en: "Mega Kangaskhan ex"
 	},
@@ -13,10 +15,6 @@ const card: Card = {
 	category: "Pokemon",
 	hp: 180,
 	types: ["Colorless"],
-
-	description: {
-		en: "Mega Kangaskhan's strength derives from the\nmother's happiness about her child's growth.\nWatching it grow up keeps her spirits high."
-	},
 
 	stage: "Basic",
 	suffix: "EX",

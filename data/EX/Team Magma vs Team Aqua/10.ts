@@ -9,19 +9,17 @@ const card: Card = {
 	},
 
 	illustrator: "Ken Ikuji",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		229,
-	],
+	dexId: [229],
 
 	hp: 70,
 
 	types: [
 		"Fire",
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Stage1",
@@ -35,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Roasting Heat",
 				fr: "Rôtissoire",
-				de: "Roasting Heat"
+				de: "Bratende Hitze"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Burned, this attack does 30 damage plus 20 more damage.",
 				fr: "Si le Pokémon Défenseur est Brûlé, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
-				de: "If the Defending Pokémon is Burned, this attack does 30 damage plus 20 more damage."
+				de: "Wenn das Verteidigende Pokémon verbrannt ist, fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -54,14 +52,14 @@ const card: Card = {
 			name: {
 				en: "Magma Spurt",
 				fr: "Jet de Magma",
-				de: "Magma Spurt"
+				de: "Sprudelndes Magma"
 			},
 			effect: {
 				en: "Discard the top 5 cards from your deck. This attack does 30 damage times the number of Fire and Fighting basic Energy cards discarded in this way.",
 				fr: "Défaussez les 5 premières cartes de votre deck. Cette attaque inflige 30 dégâts multipliés par le nombre de carte Énergie de base  et  défaussées.",
-				de: "Discard the top 5 cards from your deck. This attack does 30 damage times the number of  and  basic Energy cards discarded in this way."
+				de: "Lege die obersten 5 Karten deines Decks auf deinen Ablagestapel. Dieser Angriff fügt für jede {R}- und {F}-Basis-Energiekarte, die auf diese Weise abgelegt wurde, 30 Schadenspunkte zu."
 			},
-			damage: "30x",
+			damage: "30×",
 
 		},
 	],
@@ -73,22 +71,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275987,
-		tcgplayer: 89828
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275787,
+				tcgplayer: 89828
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275787,
+				tcgplayer: 89828
+			}
+		},
+	],
+
 }
 
 export default card

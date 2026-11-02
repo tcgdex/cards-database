@@ -87,6 +87,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has no eyeballs, so it can't see. It checks its surroundings via the ultrasonic waves it emits from its mouth.",
+		de: "Da es keine Augäpfel hat, ist es blind. Mithilfe von Ultraschallwellen, die es aus dem Mund aussendet, erkundet es seine Umgebung."
+	},
+
 	thirdParty: {
 		cardmarket: 372352,
 		tcgplayer: 189164

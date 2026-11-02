@@ -22,7 +22,9 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Pidgey"
+		en: "Pidgey",
+		fr: "Roucool",
+		de: "Taubsi"
 	},
 
 	description: {
@@ -30,7 +32,7 @@ const card: Card = {
 		fr: "Grâce à ses griffes très puissantes, il est capable de transporter\ndes Noeunoeuf vers un nid éloigné de plus de 100 km.",
 		es: "Tiene unas garras desarrolladas. Puede\natrapar un Exeggcute y transportarlo\ndesde una distancia de casi 100 km.",
 		it: "Grazie ai potenti artigli può trasportare una preda\ndelle dimensioni di un Exeggcute per oltre 100 km.",
-		de: "Die Krallen an seinen Füßen sind sehr ausgeprägt.\nEs kann sogar ein Owei zu seinem Nest\nin 100 km Entfernung tragen.",
+		de: "Die Krallen an seinen Füßen sind sehr ausgeprägt. Es kann sogar ein Owei zu seinem Nest in 100 km Entfernung tragen.",
 		'pt-br': "As garras nos seus pés são bem desenvolvidas.\nEle pode levar presas como Exeggcute para seu\nninho a mais de 100 km de distância.",
 		ko: "발톱이 발달해 있다.\n먹이인 아라리를 잡아\n100km 떨어져 있는 둥지까지 나른다."
 	},

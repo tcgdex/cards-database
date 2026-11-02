@@ -19,12 +19,25 @@ const card: Card = {
 	hp: 70,
 	types: ["Metal"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "MAHOU",
 
 	description: {
-		en: "Long ago it lived in mines, but once the minerals that make up its diet became scarcer, Klefki began appearing in human settlements."
+		en: "Long ago it lived in mines, but once the minerals that make up its diet became scarcer, Klefki began appearing in human settlements.",
+		de: "Früher lebte es in Minen. Da sein mineralisches Futter dort aber immer seltener wird, findet man es nun auch in Menschensiedlungen."
 	},
 
 	attacks: [{
@@ -51,17 +64,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582814,
-		tcgplayer: 253335
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582814,
+				tcgplayer: 253335
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582814,
+				tcgplayer: 253335
+			}
+		},
+	],
 }
 
 export default card

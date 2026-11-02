@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		483,
-	],
+	dexId: [483],
 
 	hp: 100,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -34,12 +32,12 @@ const card: Card = {
 			name: {
 				en: "Energy Stream",
 				fr: "Courant d'énergie",
-				de: "Energy Stream"
+				de: "Energiestrom"
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your discard pile for a basic Energy card and attach it to Dialga.",
 				fr: "Lancez une pièce. Si c'est face, choisissez dans votre pile de défausse une carte Énergie de base et attachez-la à Dialga.",
-				de: "Flip a coin. If heads, search your discard pile for a basic Energy card and attach it to Dialga."
+				de: "Wirf 1 Münze. Bei „Kopf“ durchsuche deinen Ablagestapel nach 1 Basis-Energiekarte und lege sie an Dialga an."
 			},
 			damage: 20,
 
@@ -54,12 +52,12 @@ const card: Card = {
 			name: {
 				en: "Diamond Blow",
 				fr: "Coup diamant",
-				de: "Diamond Blow"
+				de: "Diamantschlag"
 			},
 			effect: {
 				en: "Dialga can't attack during your next turn.",
 				fr: "Dialga ne peut pas attaquer lors de votre prochain tour.",
-				de: "Dialga can't attack during your next turn."
+				de: "Dialga kann in deinem nächsten Zug nicht angreifen."
 			},
 			damage: 100,
 
@@ -82,19 +80,28 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 278426,
-		tcgplayer: 84802
+	description: {
+		en: "A legendary Pokémon of Sinnoh. It is said that time flows when Dialga's heart beats.",
+		de: "Ein Legendäres Pokémon aus der Sinnoh-Region. Schlägt das Herz von DIALGA, läuft die Zeit normal."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 84802,
+				cardmarket: 278426
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278426,
+				tcgplayer: 84802
+			}
 		}
-	]
+	],
+
 }
 
 export default card

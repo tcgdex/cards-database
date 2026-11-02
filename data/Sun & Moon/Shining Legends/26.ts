@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Pon 1 Pokémon Water de tu pila de descartes en tu mano.",
 				it: "Prendi un Pokémon Water dalla tua pila degli scarti e aggiungilo alle carte che hai in mano.",
 				pt: "Coloque 1 Pokémon Water da sua pilha de descarte na sua mão.",
-				de: "Nimm 1 Water-Pokémon aus deinem Ablagestapel auf deine Hand."
+				de: "Nimm 1 {W}-Pokémon aus deinem Ablagestapel auf deine Hand."
 			},
 
 		},
@@ -85,6 +85,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It crosses the world, running over the surfaces of oceans and rivers. It appears at scenic waterfronts.",
+		de: "Es kann auf dem Wasser laufen und reist auf Flüssen und Meeren um die Welt. Zu sehen in malerischen Küstengebieten."
+	},
 
 	thirdParty: {
 		cardmarket: 302164,

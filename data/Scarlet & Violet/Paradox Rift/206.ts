@@ -4,7 +4,7 @@ import Set from "../Paradox Rift"
 const card: Card = {
 	dexId: [877],
 	set: Set,
-
+	cameoDexIds: [25, 35, 52, 100, 120, 132, 133, 446, 820],
 	name: {
 		en: "Morpeko",
 		fr: "Morpeko",
@@ -66,19 +66,34 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "Hunger hormones affect its temperament. Until its hunger is appeased, it gets up to all manner of evil deeds.",
+		de: "Appetithormone sind für seine wechselhafte Persönlichkeit verantwortlich. Es schreckt vor keiner Schandtat zurück, um satt zu werden."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740749,
+				tcgplayer: 523887,
+				cardtrader: 265552
+			}
+		},
+	],
 
 	illustrator: "Yuu Nishida",
 
-	thirdParty: {
-		cardmarket: 740749
-	}
+	
 }
 
 export default card

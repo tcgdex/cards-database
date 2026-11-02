@@ -4,6 +4,7 @@ import Set from "../Silver Tempest"
 const card: Card = {
 	dexId: [552],
 	set: Set,
+	cameoDexIds: [551],
 
 	name: {
 		en: "Krokorok",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Rokkaiman"
 	},
 
+	illustrator: "Pani Kobayashi",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
@@ -54,20 +56,37 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Krokorok has specialized eyes that enable it to see in the dark. This ability lets Krokorok hunt in the dead of night without getting lost.",
+		de: "Da es dank seiner besonderen Augen selbst im Dunkeln gut sieht, kann es auch nachts auf die Jagd gehen, ohne sich zu verirren."
 	},
 
-	thirdParty: {
-		cardmarket: 682159,
-		tcgplayer: 451766
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682159,
+				tcgplayer: 451766
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682159,
+				tcgplayer: 451766
+			}
+		},
+	],
 }
 
 export default card

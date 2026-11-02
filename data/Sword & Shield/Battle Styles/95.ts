@@ -42,23 +42,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "They make repeated eerie howls before dawn to call attention to their pack."
+		en: "They make repeated eerie howls before dawn to call attention to their pack.",
+		de: "Mit wiederholtem unheimlichen Heulen vor Tagesanbruch machen sie auf die Existenz ihres Rudels aufmerksam."
 	},
 
-	thirdParty: {
-		cardmarket: 545566,
-		tcgplayer: 234226
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545566,
+				tcgplayer: 234226
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545566,
+				tcgplayer: 234226
+			}
+		},
+	],
 }
 
 export default card

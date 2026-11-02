@@ -65,18 +65,42 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "They coil around foes and shock them with electricity-generating organs that seem simply to be circular patterns.",
+		de: "Die runden Flecken sind Organe, die Strom erzeugen. Es schlingt sich um seinen Gegner, presst sie gegen ihn und aktiviert sie."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725148,
+				tcgplayer: 509834,
+				cardtrader: 255628
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725148,
+				tcgplayer: 509834,
+				cardtrader: 255628
+			}
+		},
+	],
 
 	illustrator: "Souichirou Gunjima",
 
-	thirdParty: {
-		cardmarket: 725148
-	}
+	
 }
 
 export default card

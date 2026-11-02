@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Helioptile",
 		fr: "Galvaran",
+		de: "Eguana"
 	},
 
 	stage: "Stage1",
@@ -92,6 +93,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It stimulates its muscles with electricity, boosting the strength in its legs and enabling it to run 100 yards in five seconds.",
+		de: "Es stimuliert seine Beinmuskulatur mit Strom, wodurch es ihm gelingt, 100 m in fünf Sekunden zurückzulegen."
+	},
 
 	thirdParty: {
 		cardmarket: 355557,

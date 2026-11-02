@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It looks just like a pinecone. Its shell protects it from bird Pokémon that peck it by mistake.",
+		de: "Es sieht aus wie ein Tannenzapfen. Seine Schale schützt es vor Vogel-Pokémon, die an ihm picken wollen."
+	},
+
 	thirdParty: {
 		cardmarket: 365608,
 		tcgplayer: 178812

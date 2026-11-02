@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cada jugador puede robar hasta 3 cartas. Tú robas primero.",
 		it: "Ciascun giocatore può pescare fino a tre carte. Tu peschi per primo.",
 		pt: "Cada jogador pode comprar até 3 cartas. Você compra primeiro.",
-		de: "Jeder Spieler kann bis zu 3 Karten ziehen. Du ziehst als Erster."
+		de: "Jeder Spieler kann bis zu 3 Karten ziehen. Du ziehst als Erster. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

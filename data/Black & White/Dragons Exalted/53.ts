@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras'Face",
+				de: "Pfund"
 			},
 
 			damage: 20,
@@ -51,10 +52,12 @@ const card: Card = {
 			name: {
 				en: "Poison Gas",
 				fr: "Gaz Toxik",
+				de: "Giftwolke"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 30,
 
@@ -70,10 +73,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 280492,
-		tcgplayer: 90066
-	}
+	description: {
+		en: "Inhaling the gas they belch will make you sleep for a week. They prefer unsanitary places.",
+		de: "Hat ein Faible für schmutzige Orte. Wer das Gas einatmet, das es mit Rülpslauten ausstößt, schläft eine Woche durch."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280492,
+				tcgplayer: 90066
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280492,
+				tcgplayer: 90066
+			}
+		},
+	],
 }
 
 export default card

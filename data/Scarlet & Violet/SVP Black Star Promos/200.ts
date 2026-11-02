@@ -6,52 +6,56 @@ const card: Card = {
 
 	name: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
 	},
 
-	rarity: "None",
+	illustrator: "Kariya",
+	rarity: "Promo",
 	category: "Pokemon",
+	dexId: [133],
 	hp: 60,
 	types: ["Colorless"],
 	stage: "Basic",
-	illustrator: "Kariya",
-	dexId: [133],
-	attacks: [
-		{
-			cost: ["Colorless"],
-			name: {
-				en: "Call for Family",
-				fr: "Appel à la Famille"
-			},
-			effect: {
-				en: "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",
-				fr: "Cherchez dans votre deck un Pokémon de base, puis placez-le sur votre Banc. Mélangez ensuite votre deck."
-			}
-		},
-		{
-			cost: ["Colorless", "Colorless"],
-			name: {
-				en: "Gnaw",
-				fr: "Ronge"
-			},
-			damage: 20,
-		}
-	],
 
-	weaknesses: [
-		{
-			type: "Fighting",
-			value: "×2"
-		}
-	],
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			en: "Call for Family",
+			fr: "Appel à la Famille",
+	},
+
+		effect: {
+			en: "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",
+			fr: "Cherchez dans votre deck un Pokémon de base, puis placez-le sur votre Banc. Mélangez ensuite votre deck.",
+	}
+	}, {
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			en: "Gnaw",
+			fr: "Ronge",
+	},
+
+		damage: 20
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "x2"
+	}],
 
 	retreat: 1,
-	regulationMark: "G",
+	regulationMark: "H",
 
 	variants: [
 		{
 			type: "holo",
-			subtype: "cosmos"
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 826138,
+				tcgplayer: 637077
+			}
 		}
 	]
 }

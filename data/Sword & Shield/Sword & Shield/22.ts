@@ -65,7 +65,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "While young, it has six gorgeous tails. When it grows, several new tails are sprouted."
+		en: "While young, it has six gorgeous tails. When it grows, several new tails are sprouted.",
+		de: "In seiner Jugend hat es sechs hinreißende Schweife. Während es wächst, kommen noch weitere neue Schweife hinzu."
 	},
 
 	thirdParty: {

@@ -23,7 +23,7 @@ const card: Card = {
 	effect: {
 		en: "Shuffle up to 5 Pokémon from your discard pile into your deck.",
 		fr: "Mélangez avec votre deck jusqu'à 5 Pokémon de votre pile de défausse.",
-		de: "Mische bis zu 5 Pokémon aus deinem Ablagestapel in dein Deck.",
+		de: "Mische bis zu 5 Pokémon aus deinem Ablagestapel in dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen.",
 		it: "Rimischia fino a cinque Pokémon dalla tua pila degli scarti nel tuo mazzo.",
 		es: "Pon hasta 5 Pokémon de tu pila de descartes en tu baraja y baraja todas las cartas.",
 		pt: "Embaralhe até 5 Pokémon da sua pilha de descarte no seu baralho.",
@@ -35,16 +35,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 826042,
+				tcgplayer: 632970
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 826042,
+				tcgplayer: 632970
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826042
-	}
 }
 
 export default card

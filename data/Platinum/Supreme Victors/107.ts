@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		118,
-	],
+	dexId: [118],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -68,21 +66,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278798
+	description: {
+		en: "Though it appears very elegant when swimming with fins unfurled, it can jab powerfully with its horn."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85809,
+				cardmarket: 278798
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278798,
+				tcgplayer: 85809
+			}
+		},
+	],
+
 }
 
 export default card

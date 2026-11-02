@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pawniard",
 		fr: "Scalpion",
+		de: "Gladiantri"
 	},
 
 	stage: "Stage1",
@@ -92,6 +93,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Bisharp pursues prey in the company of a large group of Pawniard. Then Bisharp finishes off the prey.",
+		de: "Es rückt seinen Opfern mit einer Schar von Gladiantri im Gefolge auf den Pelz. Den letzten Hieb übernimmt es selbst."
+	},
 
 	thirdParty: {
 		cardmarket: 369034,

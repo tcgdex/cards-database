@@ -44,18 +44,42 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The eggs of bird Pokémon are its favorite food. It swallows eggs whole, so sometimes an egg gets stuck, and Ekans faints.",
+		de: "Die Eier von Vogel-Pokémon, sein Leibgericht, verschlingt es am Stück. Bleibt ihm eines in der Kehle stecken, verliert es kurz das Bewusstsein."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733618,
+				tcgplayer: 515955,
+				cardtrader: 261113
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733618,
+				tcgplayer: 515955,
+				cardtrader: 261113
+			}
+		},
+	],
 
 	illustrator: "Kedamahadaitai Yawarakai",
 
-	thirdParty: {
-		cardmarket: 733618
-	}
+	
 }
 
 export default card

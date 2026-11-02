@@ -35,11 +35,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Confuse Ray",
-				fr: "Onde Folie"
+				fr: "Onde Folie",
+				de: "Konfustrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -50,11 +52,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Junk Hunt",
-				fr: "Marché aux Puces"
+				fr: "Marché aux Puces",
+				de: "Müllsammler"
 			},
 			effect: {
 				en: "Put 2 Item cards from your discard pile into your hand.",
-				fr: "Ajoutez 2 cartes Objet de votre pile de défausse à votre main."
+				fr: "Ajoutez 2 cartes Objet de votre pile de défausse à votre main.",
+				de: "Nimm 2 Itemkarten von deinem Ablagestapel auf deine Hand."
 			},
 
 		},
@@ -62,10 +66,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280390,
-		tcgplayer: 88855
-	}
+	description: {
+		en: "It hides in the darkness of caves. Its diet of gems has transformed its eyes into gemstones.",
+		de: "Es versteckt sich im Dunkeln von Höhlen. Seine Augen sind Edelsteine."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280390,
+				tcgplayer: 88855
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280390,
+				tcgplayer: 88855
+			}
+		},
+	],
 }
 
 export default card

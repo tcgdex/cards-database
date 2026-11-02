@@ -53,8 +53,18 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		holo: false
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
+	description: {
+		en: "It is extremely quick to anger. It could be docile one moment, then thrashing away the next instant.",
+		de: "Auch wenn es guter Stimmung ist, kann es wegen einer Kleinigkeit plötzlich ausrasten und ist daher gefürchtet."
 	},
 
 	thirdParty: {

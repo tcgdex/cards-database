@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		42,
-	],
+	dexId: [42],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Zubat",
 		fr: "Nosferapti",
+		de: "Zubat"
 	},
 
 	stage: "Stage1",
@@ -41,7 +40,7 @@ const card: Card = {
 				de: "Horrorblick"
 			},
 			effect: {
-				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
+				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite durant le prochain tour de votre adversaire.",
 				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
@@ -67,22 +66,27 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It can drink more than 10 ounces of blood at once. If it has too much, it gets heavy and flies clumsily."
+		en: "It can drink more than 10 ounces of blood at once. If it has too much, it gets heavy and flies clumsily.",
+		de: "Es kann bis zu 0,3 Liter Blut auf einmal trinken. Trinkt es zu viel, wird es schwer und fliegt behäbig."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85797,
+				cardmarket: 279186
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85797,
+				cardmarket: 279186
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279186,
-		tcgplayer: 85797
-	}
 }
 
 export default card

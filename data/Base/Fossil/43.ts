@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Slowpoke",
-		fr: "Ramoloss"
+		fr: "Ramoloss",
+		de: "Flegmon"
 	},
 
 	stage: "Stage1",
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Strange Behavior",
 				fr: "Comportement étrange",
-				de: "Seltsames verhalten"
+				de: "Seltsames Verhalten"
 			},
 			effect: {
 				en: "As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokémon to Slowbro as long as you don't Knock Out Slowbro. This power can't be used if Slowbro is Asleep, Confused, or Paralyzed.",
 				fr: "Aussi souvent que vous le désirez pendant votre tour (avant votre attaque), vous pouvez déplacer 1 marqueur de dégâts depuis l'un de vos Pokémon vers Flagadoss tant que cela ne le met pas K.O. Ce pouvoir ne peut être utilisé si Flagadoss est Endormi, Confus ou Paralysé.",
-				de: "Bist du am Zug kannst du (vor deinem Angriff) beliebig oft eine Schadensmarke von einem deiner Pokémon auf Lahmus verschieben, solange du Lahmus damit nicht kampfunfähig machst. Diese Fähigkeit kann nicht eingesetzt werden, falls Lahmus schläft verwirrt oder gelähmt ist."
+				de: "Bist du am Zug, kannst du (vor deinem Angriff) beliebig oft eine Schadensmarke von einem deiner Pokémon auf Lahmus verschieben, solange du Lahmus damit nicht kampfunfähig machst. Diese Fähigkeit kann nicht eingesetzt werden, falls Lahmus schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -73,31 +74,41 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Le Kokiyas accroché à la queue du Ramoloss se nourrit des restes de son hôte."
+		en: "The Shellder that is latched onto Slowpoke's tail is said to feed on the host's left-over scraps.",
+		fr: "Le Kokiyas accroché à la queue du Ramoloss se nourrit des restes de son hôte.",
+		de: "Das Muschas, das sich am Schwanz des Flegmon festgesaugt hat, soll sich von den Essensresten seines Wirts ernähren."
 	},
 
-	thirdParty: {
-		cardmarket: 273904,
-		tcgplayer: 44445
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273904,
+				tcgplayer: 44445
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 273904,
+				tcgplayer: 44445
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			thirdParty: {
+				cardmarket: 273904,
+				tcgplayer: 44445
+			}
 		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright"
-		}
-	]
+	],
 }
 
 export default card

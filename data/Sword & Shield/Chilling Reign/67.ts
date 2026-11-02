@@ -51,23 +51,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "The sweet smell of cotton candy perfumes Swirlix's fluffy fur. This Pokémon spits out sticky string to tangle up its enemies."
+		en: "The sweet smell of cotton candy perfumes Swirlix's fluffy fur. This Pokémon spits out sticky string to tangle up its enemies.",
+		de: "Sein flauschiges Fell duftet süß wie Zuckerwatte. Es stößt klebrige Fäden aus, mit denen es seine Gegner umwickelt."
 	},
 
-	thirdParty: {
-		cardmarket: 567175,
-		tcgplayer: 241728
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567175,
+				tcgplayer: 241728
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567175,
+				tcgplayer: 241728
+			}
+		},
+	],
 }
 
 export default card

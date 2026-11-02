@@ -2,6 +2,8 @@ import { Card } from "../../../interfaces"
 import Set from "../SV1V"
 
 const card: Card = {
+	rarity: "Illustration rare",
+	regulationMark: "G",
 	set: Set,
 
 	name: {
@@ -46,6 +48,17 @@ const card: Card = {
 		type: "Fighting",
 		value: "×2"
 	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardtrader: 235667,
+				cardmarket: 693165,
+				tcgplayer: 568316,
+			},
+		},
+	],
 
 	retreat: 1
 }

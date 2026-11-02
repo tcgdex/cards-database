@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [39, 428],
 
 	dexId: [
 		303,
@@ -91,6 +92,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "A cunning and terrifying Pokémon, its cuteness makes opponents let down their guard—and then it swallows them whole with its huge jaws.",
+		de: "Ein verschlagenes Pokémon, das sich niedlich gibt, um die Beute in Sicherheit zu wiegen. Dann verschlingt es diese mit seinem riesigen Kiefer."
+	},
 
 	thirdParty: {
 		cardmarket: 408349,

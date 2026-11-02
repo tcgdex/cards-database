@@ -33,7 +33,7 @@ const card: Card = {
 			name: {
 				en: "Chop",
 				fr: "Coup tranchant",
-				de: "Chop"
+				de: "Spaltschlag"
 			},
 
 			damage: 10,
@@ -47,7 +47,7 @@ const card: Card = {
 			name: {
 				en: "Punch",
 				fr: "Koud'poing",
-				de: "Punch"
+				de: "Boxhieb"
 			},
 
 			damage: 20,
@@ -61,23 +61,31 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Quand il s'ennuie, ce Pokémon super fort s'entraîne en soulevant des rochers."
+		en: "When bored, this super-strong Pokémon trains by lifting rocks.",
+		fr: "Quand il s'ennuie, ce Pokémon super fort s'entraîne en soulevant des rochers.",
+		de: "Wenn ihm langweilig ist, hebt dieses superstarke Pokémon Felsbrocken als Training."
 	},
 
-	thirdParty: {
-		cardmarket: 274725,
-		tcgplayer: 86988
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274725,
+				tcgplayer: 86988
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274725,
+				tcgplayer: 86988
+			}
 		}
 	]
 }

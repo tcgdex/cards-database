@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		322,
-	],
+	dexId: [322],
 
 	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -52,7 +50,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, each Defending Pokémon is now Burned.",
 				fr: "Lancez une pièce. Si c'est face, chaque Pokémon Défenseur est maintenant Brûlé.",
-				de: "Wirf eine Münze. Bei 'Kopf' sind alle Verteidigenden Pokémon jetzt verbrannt."
+				de: "Wirf eine Münze. Bei „Kopf“ sind alle Verteidigenden Pokémon jetzt verbrannt."
 			},
 
 		},
@@ -68,23 +66,29 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275709,
-		tcgplayer: 87805
-	},
 
-	variants: [
-		{
-			type: "normal",
-		},
-		{
-			type: "reverse",
-		},
-		{
-			type: "normal",
-			subtype: "no-e-reader"
+	variants: [{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 275709,
+			tcgplayer: 87805
 		}
-	]
+	},
+	{
+		type: "reverse",
+		thirdParty: {
+			tcgplayer: 87805
+		}
+	},
+	{
+		type: "normal",
+		subtype: "no-e-reader",
+		thirdParty: {
+			tcgplayer: 125126
+		}
+	}
+	],
+
 }
 
 export default card

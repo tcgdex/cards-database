@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Molunk"
 	},
 	illustrator: "Naoki Saito",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -85,6 +85,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It burns its bodily fluids to create a poisonous gas. When its enemies become disoriented from inhaling the gas, it attacks them.",
+		de: "Durch Verbrennung von Körperflüssigkeit erzeugt es ein Gas, das Feinde schwindelig und so zu leichten Zielen macht."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 364323,
+				tcgplayer: 181560
+			}
+		}
+	],
 }
 
 export default card

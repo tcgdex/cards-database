@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Vulpix",
 		fr: "Goupix",
+		de: "Vulpix"
 	},
 
 	stage: "Stage1",
@@ -63,10 +64,12 @@ const card: Card = {
 			name: {
 				en: "Hexed Flame",
 				fr: "Flamme Maudite",
+				de: "Flammenfluch"
 			},
 			effect: {
 				en: "Does 50 more damage for each Special Condition affecting the Defending Pokémon.",
 				fr: "Inflige 50 dégâts supplémentaires pour chaque État Spécial affectant le Pokémon Défenseur.",
+				de: "Dieser Angriff fügt 50 weitere Schadenspunkte für jeden Speziellen Zustand zu, von dem das Verteidigende Pokémon betroffen ist."
 			},
 			damage: 20,
 
@@ -82,10 +85,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280458,
-		tcgplayer: 87778
-	}
+	description: {
+		en: "Its nine tails are said to be imbued with a mystic power. It can live for a thousand years.",
+		de: "Seine neun Schweife sollen mystische Kräfte besitzen. Es kann tausend Jahre leben."
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280458,
+				tcgplayer: 87778
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280458,
+				tcgplayer: 87778
+			}
+		},
+	],
 }
 
 export default card

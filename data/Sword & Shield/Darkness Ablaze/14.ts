@@ -42,7 +42,7 @@ const card: Card = {
 				es: "Busca en tu baraja 1 carta de Energía Grass y únela a 1 de tus Pokémon. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo una carta Energia Grass e assegnala a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por 1 carta de Energia Grass no seu baralho e ligue-a a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach 1 Grass-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach 1 {G}-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -75,23 +75,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Its body gives off a sweet, fruity scent that is extremely appetizing to bird Pokémon."
+		en: "Its body gives off a sweet, fruity scent that is extremely appetizing to bird Pokémon.",
+		de: "Der fruchtig süße Duft, der von seinem Körper ausgeht, lässt Vogel-Pokémon das Wasser im Schnabel zusammenlaufen."
 	},
 
-	thirdParty: {
-		cardmarket: 482944,
-		tcgplayer: 219227
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 482944,
+				tcgplayer: 219227
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 482944,
+				tcgplayer: 219227
+			}
+		},
+	],
 }
 
 export default card

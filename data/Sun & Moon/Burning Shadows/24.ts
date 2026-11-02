@@ -88,10 +88,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 299430,
-		tcgplayer: 138502
-	}
+	description: {
+		en: "Using their very hot, flame-covered tongues, they burn through Durant's steel bodies and consume their insides.",
+		de: "Mit seiner brandheißen Zunge bringt es Fermicula zum Schmelzen, um so an sein weiches Inneres zu gelangen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299430,
+				tcgplayer: 138502
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299430,
+				tcgplayer: 138502
+			}
+		},
+	],
 }
 
 export default card

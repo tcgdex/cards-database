@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 120,
 	types: ["Lightning"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Teeziro",
 
 	description: {
-		en: "It approaches its enemies at the speed of lightning, then tears them limb from limb with its sharp claws."
+		en: "It approaches its enemies at the speed of lightning, then tears them limb from limb with its sharp claws.",
+		de: "Schnell wie der Blitz nähert es sich seinen Feinden, um sie dann mit seinen scharfen Klauen in Stücke zu reißen."
 	},
 
 	attacks: [{
@@ -51,17 +58,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582495,
-		tcgplayer: 253258
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582495,
+				tcgplayer: 253258
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582495,
+				tcgplayer: 253258
+			}
+		},
+	],
 }
 
 export default card

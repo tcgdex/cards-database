@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Camerupt ex",
 		fr: "Camerupt ex",
-		de: "Camerupt ex"
+		de: "Camerupt-ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Chamallot"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -104,8 +104,12 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 84096,
+				cardmarket: 276603
+			},
 		},
-	]
+	],
 }
 
 export default card

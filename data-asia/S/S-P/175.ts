@@ -1,50 +1,62 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "皮卡丘"
+		ja: "セレビィV",
+		'zh-tw': "皮卡丘",
 	},
 
-	illustrator: "Ryota Murayama",
+	illustrator: "Teeziro",
 	category: "Pokemon",
-	hp: 60,
-	types: ["Lightning"],
-
-	description: {
-		'zh-tw': "越是能製造出強大電流的皮卡丘，臉頰上的囊就越 柔軟，同時也越有伸展性。"
-	},
+	hp: 190,
+	types: ["Grass"],
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "親送之禮"
+	attacks: [
+		{
+			name: {
+				ja: "わかばのまい",
+				'zh-tw': "親送之禮",
+			},
+			cost: ["Grass"],
+			effect: {
+				ja: "自分の手札から[草]エネルギーを好きなだけ選び、自分のポケモンに好きなようにつける。",
+				'zh-tw': "擲1次硬幣若為正面，則從自己的牌庫選擇1張物品卡，在給對手看過後加入手牌。並且重洗牌庫。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "擲1次硬幣若為正面，則從自己的牌庫選擇1張物品卡，在給對手看過後加入手牌。並且重洗牌庫。"
+		{
+			name: {
+				ja: "スラッシュバック",
+				'zh-tw': "皮卡球",
+			},
+			damage: 60,
+			cost: ["Grass", "Colorless"],
+			effect: {
+				ja: "このポケモンをベンチポケモンと入れ替える。",
+			},
 		},
+	],
 
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "皮卡球"
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 561784,
+				tcgplayer: 597373,
+			},
 		},
-
-		damage: 50,
-		cost: ["Lightning", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
+	],
 
 	retreat: 1,
-	regulationMark: "F"
-}
+	regulationMark: "E",
+	rarity: "Promo",
+	dexId: [251],
+};
 
-export default card
+export default card;

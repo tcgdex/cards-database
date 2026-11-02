@@ -94,7 +94,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "This Pokémon flashes a bright light that blinds its prey. This creates an opening for it to deliver an electrical attack."
+		en: "This Pokémon flashes a bright light that blinds its prey. This creates an opening for it to deliver an electrical attack.",
+		de: "Es blendet seine Beute mit einem grellen Licht. Sieht es eine Chance zuzuschlagen, greift es sie mit Elektrizität an."
 	},
 
 	dexId: [171],

@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 80,
 	types: ["Water"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Saya Tsuruta",
 
 	description: {
-		en: "It starts off battles by attacking with its rock-hard horn, but as soon as the opponent flinches, this Pokémon bites down and never lets go."
+		en: "It starts off battles by attacking with its rock-hard horn, but as soon as the opponent flinches, this Pokémon bites down and never lets go.",
+		de: "Im Kampf greift es mit dem steinharten Horn auf seinem Kopf an. Schreckt der Gegner zurück, schnappt es zu und lässt nicht wieder los."
 	},
 
 	attacks: [{
@@ -42,17 +49,23 @@ const card: Card = {
 		damage: 30
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582214,
-		tcgplayer: 253234
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582214,
+				tcgplayer: 253234
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582214,
+				tcgplayer: 253234
+			}
+		},
+	],
 }
 
 export default card

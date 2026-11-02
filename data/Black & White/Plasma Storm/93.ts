@@ -34,10 +34,12 @@ const card: Card = {
 			name: {
 				en: "Righteous Edge",
 				fr: "Lame Vertueuse",
+				de: "Edle Klinge"
 			},
 			effect: {
 				en: "Discard a Special Energy attached to the Defending Pokémon.",
 				fr: "Défaussez une Énergie spéciale attachée au Pokémon Défenseur.",
+				de: "Lege 1 an das Verteidigende Pokémon angelegte Spezial-Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 
@@ -51,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Steel Bullet",
 				fr: "Balle d'Acier",
+				de: "Stahlkugel"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Weakness, Resistance, or any other effects on the Defending Pokémon.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout autre effet en action sur le Pokémon Défenseur.",
+				de: "Der Schaden dieses Angriffs wird durch Schwäche, Resistenz oder alle anderen Effekte auf dem Verteidigenden Pokémon nicht verändert."
 			},
 			damage: 100,
 

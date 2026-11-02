@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [196],
 
 	dexId: [
 		452,
@@ -92,6 +93,11 @@ const card: Card = {
 	],
 
 	retreat: 4,
+
+	description: {
+		en: "It has the power in its clawed arms to make scrap of a car. The tips of its claws release poison.",
+		de: "In seinen Armen steckt so viel Kraft, dass es mit seinen giftigen Krallen Autos zerquetschen kann."
+	},
 
 	thirdParty: {
 		cardmarket: 288229,

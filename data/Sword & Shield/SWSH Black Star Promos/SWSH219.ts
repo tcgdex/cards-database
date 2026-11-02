@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Boltund V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Lightning"],
@@ -67,12 +67,31 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
-
-	thirdParty: {
-		cardmarket: 540646
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 608109,
+				tcgplayer: 270468
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 608110,
+				tcgplayer: 276051
+			}
+		},
+	],
 }
 
 export default card

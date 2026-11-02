@@ -34,12 +34,12 @@ const card: Card = {
 			name: {
 				en: "Ember",
 				fr: "Flammèche",
-				de: "Ember"
+				de: "Glut"
 			},
 			effect: {
 				en: "Discard 1 Energy card attached to Ponyta in order to use this attack.",
 				fr: "Défaussez 1 carte Énergie  attachée à Ponyta pour pouvoir utiliser cette attaque.",
-				de: "Discard 1  Energy card attached to Ponyta in order to use this attack."
+				de: "Entferne eine auf Ponita abgelegte {R}-Energiekarte, um diesen Angriff einzusetzen."
 			},
 			damage: 30,
 
@@ -52,25 +52,33 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Ce gentil herbivore accepte d'être monté. Toutefois, il faut prendre garde à ne pas se brûler."
+		en: "A gentle grass-eater, it will allow riders on its back. However, anyone attempting to do so must be careful not to get burned.",
+		fr: "Ce gentil herbivore accepte d'être monté. Toutefois, il faut prendre garde à ne pas se brûler.",
+		de: "Ein sanftes grasendes Pokémon, das Reiter auf seinem Rücken duldet. Jeder Möchtegern-Reiter muss aber vorsichtig sein, um sich nicht zu verbrennen."
 	},
 
-	thirdParty: {
-		cardmarket: 274117,
-		tcgplayer: 88281
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274117,
+				tcgplayer: 88281
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
-		}
-	]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274117,
+				tcgplayer: 88281
+			}
+		},
+	],
 }
 
 export default card

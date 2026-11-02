@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Kurata So",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [837],
 	hp: 80,
 	types: ["Fighting"],
 	stage: "Basic",
@@ -37,13 +38,46 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675930,
-		cardmarket: 869729
-	}
+	description: {
+		en: "Chunks of the surface of this Pokémon’s body that have grown old and flaked off have long been used for fuel as an alternative to coal.",
+		fr: "Au fil du temps, de petits morceaux de ce Pokémon se détachent. On s'en sert comme combustible à la place du charbon.",
+		de: "Bruchstücke der Oberfläche dieses Pokémon, die altersbedingt herabfallen, werden seit jeher als Brennstoffersatz für Steinkohle verwendet."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869729,
+			tcgplayer: 675930
+		}
+	},
+	{
+		type: "reverse",
+		foil: "duskball",
+		thirdParty: {
+			cardmarket: 870322,
+			tcgplayer: 676945
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870321,
+			tcgplayer: 677085
+		}
+	},
+],
 }
 
 export default card

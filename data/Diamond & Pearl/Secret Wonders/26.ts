@@ -4,7 +4,7 @@ import Set from '../Secret Wonders'
 const card: Card = {
 	name: {
 		en: "Electrode",
-		fr: "Electrode",
+		fr: "Électrode",
 		de: "Lektrobal"
 	},
 
@@ -80,6 +80,10 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+
+	description: {
+		en: "It is known to drift on winds if it is bloated to bursting with stored electricity.",
+	},
 
 	thirdParty: {
 		cardmarket: 277779,

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		133,
-	],
+	dexId: [133],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Charge Up",
 				fr: "Chargement",
-				de: "Charge Up"
+				de: "Aufladen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, search your deck for an Energy card and attach it to Eevee. Shuffle your deck afterward.",
 				fr: "Lancez une pièce. Si c'est face, vous pouvez chercher une carte Énergie et l'attacher à Évoli. Mélangez ensuite votre deck.",
-				de: "Flip a coin. If heads, search your deck for an Energy card and attach it to Eevee. Shuffle your deck afterward."
+				de: "Wirf eine Münze. Durchsuche bei „Kopf“ dein Deck nach einer Energiekarte und lege sie an Evoli an. Mische dein Deck danach."
 			},
 
 		},
@@ -50,13 +48,13 @@ const card: Card = {
 			name: {
 				en: "Lunge",
 				fr: "Coup rapide",
-				de: "Lunge"
+				de: "Ausfall"
 			},
 
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Flip a coin. If tails, this attack does nothing."
+				de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 20
@@ -66,22 +64,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275149,
-		tcgplayer: 85080
-	},
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85080,
+				cardmarket: 275149
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 85080,
+				cardmarket: 275149
+			}
+		},
 	]
 }
 

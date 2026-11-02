@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Dusclops ex",
 		fr: "Teraclope ex",
-		de: "Zwirrklop ex"
+		de: "Zwirrklop-ex"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Skelénox"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -94,8 +94,12 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 85032,
+				cardmarket: 276605
+			},
 		},
-	]
+	],
 }
 
 export default card

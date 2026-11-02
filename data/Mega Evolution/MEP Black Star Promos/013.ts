@@ -14,11 +14,15 @@ const card: Card = {
 		'es-mx': "Mega Venusaur ex"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 380,
 	types: ["Grass"],
+	stage: "Stage2",
+	dexId: [3],
+
 	evolveFrom: {
 		en: "Ivysaur",
 		fr: "Herbizarre",
@@ -28,8 +32,6 @@ const card: Card = {
 		pt: "Ivysaur",
 		'es-mx': "Ivysaur"
 	},
-	stage: "Stage2",
-	dexId: [3],
 
 	abilities: [{
 		type: "Ability",
@@ -84,20 +86,28 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 654342,
-		cardmarket: 851074
-	},
+	weaknesses: [{
+		type: "Fire",
+		value: "x2"
+	}],
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 859011,
+				tcgplayer: 666905
+			}
 		},
 		{
-			type: "holo",
-			size: "jumbo"
-		}
-	]
+			type: 'lenticular',
+			size: 'jumbo',
+			thirdParty: {
+				cardmarket: 859012,
+				tcgplayer: 668464
+			}
+		},
+	],
 }
 
 export default card

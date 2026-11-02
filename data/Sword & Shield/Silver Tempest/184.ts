@@ -4,6 +4,7 @@ import Set from "../Silver Tempest"
 const card: Card = {
 	dexId: [895],
 	set: Set,
+	cameoDexIds: [249],
 
 	name: {
 		en: "Regidrago V",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Regidrago V"
 	},
 
+	illustrator: "Hataya",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 220,
@@ -68,17 +70,16 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682231,
-		tcgplayer: 451832
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682231,
+				tcgplayer: 451832
+			}
+		},
+	],
 }
 
 export default card

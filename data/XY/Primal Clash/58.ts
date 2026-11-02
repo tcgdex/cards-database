@@ -105,6 +105,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It blinds prey with an intense burst of light. With the prey incapacitated, the Pokémon swallows it in a single gulp.",
+	},
+
 	thirdParty: {
 		cardmarket: 273589,
 		tcgplayer: 95956

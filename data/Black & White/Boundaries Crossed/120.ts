@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Roar",
 				fr: "Hurlement",
+				de: "Brüller"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 
 		},
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
+				de: "Biss"
 			},
 
 			damage: 20,
@@ -67,10 +70,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280707,
-		tcgplayer: 86800
-	}
+	description: {
+		en: "Though it is a very brave Pokémon, it's also smart enough to check its foe's strength and avoid battle.",
+		de: "Ein tapferes Pokémon, das jedoch klug genug ist, seinen Gegner zu mustern, bevor es sich auf einen Kampf einlässt."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280707,
+				tcgplayer: 86800
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280707,
+				tcgplayer: 86800
+			}
+		},
+	],
 }
 
 export default card

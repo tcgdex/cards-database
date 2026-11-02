@@ -15,10 +15,20 @@ const card: Card = {
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		cardmarket: 279735,
-		tcgplayer: 88425
-	}
+	types: [
+		"Psychic"
+	],
+	retreat: 0,
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88425,
+				cardmarket: 279735
+			},
+		},
+	],
+
 }
 
 export default card

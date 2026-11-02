@@ -90,23 +90,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It makes a nest to suit its long and skinny body. The nest is impossible for other Pokémon to enter."
+		en: "It makes a nest to suit its long and skinny body. The nest is impossible for other Pokémon to enter.",
+		de: "Sein Nest ist seinem schmalen und dünnen Körper angepasst. Kein anderes Pokémon kommt hinein."
 	},
 
-	thirdParty: {
-		cardmarket: 483559,
-		tcgplayer: 219333
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483559,
+				tcgplayer: 219333
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483559,
+				tcgplayer: 219333
+			}
+		},
+	],
 }
 
 export default card

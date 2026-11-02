@@ -46,7 +46,7 @@ const card: Card = {
 				es: "Busca en tu baraja hasta 2 cartas de Energía Lightning y únelas a este Pokémon. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo fino a due carte Energia Lightning e assegnale a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por até 2 cartas de Energia Lightning no seu baralho e ligue-as a este Pokémon. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach bis zu 2 Lightning-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach bis zu 2 {L}-Energiekarten und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -82,23 +82,30 @@ const card: Card = {
 	types: ["Lightning"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "While its durable shell protects it from attacks, Charjabug strikes at enemies with jolts of electricity discharged from the tips of its jaws."
+		en: "While its durable shell protects it from attacks, Charjabug strikes at enemies with jolts of electricity discharged from the tips of its jaws.",
+		de: "Es schützt sich mithilfe seines robusten Panzers. Durch die Spitzen an seinem Kiefer leitet es Strom, mit dem es sich gegen Angreifer wehrt."
 	},
 
-	thirdParty: {
-		cardmarket: 457758,
-		tcgplayer: 213148
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457758,
+				tcgplayer: 213148
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457758,
+				tcgplayer: 213148
+			}
+		},
+	],
 }
 
 export default card

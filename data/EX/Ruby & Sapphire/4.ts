@@ -4,28 +4,27 @@ import Set from '../Ruby & Sapphire'
 const card: Card = {
 	name: {
 		en: "Camerupt",
-		fr: "Camerupt",
+		fr: "Camérupt",
 		de: "Camerupt"
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		323,
-	],
+	dexId: [323],
 
 	hp: 90,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Numel",
-		fr: "Chamallot"
+		fr: "Chamallot",
+		de: "Camaub"
 	},
 
 	stage: "Stage1",
@@ -39,12 +38,12 @@ const card: Card = {
 			name: {
 				en: "Lava Burn",
 				fr: "Brûlure de lave",
-				de: "Lava Burn"
+				de: "Brennende Lava"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Choisissez un Pokémon du Banc de votre adversaire: cette attaque inflige 10 dégâts à ce Pokémon (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
-				de: "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				de: "Wähle 1 gegnerisches Pokémon auf der Bank. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 20,
 
@@ -59,12 +58,12 @@ const card: Card = {
 			name: {
 				en: "Fire Spin",
 				fr: "Danseflamme",
-				de: "Fire Spin"
+				de: "Feuerwirbel"
 			},
 			effect: {
 				en: "Discard 2 basic Energy cards attached to Camerupt or this attack does nothing.",
 				fr: "Défaussez deux cartes Énergie de base attachées à Camerupt ou cette attaque est sans effet.",
-				de: "Discard 2 basic Energy cards attached to Camerupt or this attack does nothing."
+				de: "Entferne 2 Basis-Energiekarten von Camerupt und lege sie auf den Ablagestapel, sonst hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 100,
 
@@ -81,19 +80,24 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 275652,
-		tcgplayer: 84087
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275652,
+				tcgplayer: 84087
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275652,
+				tcgplayer: 84087
+			}
 		},
-	]
+	],
+
 }
 
 export default card

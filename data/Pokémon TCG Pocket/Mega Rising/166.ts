@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ferroseed"
+		en: "Ferroseed",
+		fr: "Grindur"
 	},
 
 	illustrator: "ryoma uratsuka",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Rolling Tackle"
+			en: "Rolling Tackle",
+			fr: "Roulé-Boulé"
 		},
 
 		damage: 20,

@@ -4,13 +4,25 @@ import Set from '../SWSH Black Star Promos'
 const card: Card = {
 	dexId: [25],
 	set: Set,
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	regulationMark: "D",
+
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576730,
+				tcgplayer: 251086
+			}
+		},
+	],
 
 	name: {
 		en: "Pikachu VMAX",
@@ -21,7 +33,7 @@ const card: Card = {
 		it: "Pikachu VMAX"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 310,
 	types: ["Lightning"],
@@ -61,11 +73,6 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "D",
-
-	thirdParty: {
-		cardmarket: 576730
-	}
 }
 
 export default card

@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Fury Swipes",
 				fr: "Combo-Griffe",
+				de: "Kratzfurie"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 10,
 
@@ -52,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Pay Day",
 				fr: "Jackpot",
+				de: "Zahltag"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
+				de: "Ziehe 1 Karte."
 			},
 			damage: 20,
 
@@ -71,10 +75,20 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280225,
-		tcgplayer: 87325
-	}
+	description: {
+		en: "This is an extremely rare Meowth card. Maybe good fortune will come to you if you hold this card!",
+		de: "Dies ist eine sehr seltene Mauzi-Karte. Vielleicht bringt sie dir ja Glück, wenn du sie auf der Hand hast!"
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280225,
+				tcgplayer: 87325
+			}
+		},
+	],
 }
 
 export default card

@@ -100,7 +100,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its tongue is made of gas. If licked, its victim starts shaking constantly until death eventually comes."
+		en: "Its tongue is made of gas. If licked, its victim starts shaking constantly until death eventually comes.",
+		de: "Seine Zunge besteht aus Gas. Schleckt es seine Opfer damit ab, zittern diese unentwegt, bis sie schließlich entschlafen."
 	},
 
 	dexId: [93],

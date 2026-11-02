@@ -47,23 +47,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "There's a proverb that says, \"Shun the house where Shuppet gather in the growing dusk.\""
+		en: "There's a proverb that says, \"Shun the house where Shuppet gather in the growing dusk.\"",
+		de: "Einem alten Sprichwort zufolge soll man sich von Häusern fernhalten, an denen sich bei Einbruch der Dunkelheit Shuppet aneinanderreihen."
 	},
 
-	thirdParty: {
-		cardmarket: 567170,
-		tcgplayer: 241723
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567170,
+				tcgplayer: 241723
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567170,
+				tcgplayer: 241723
+			}
+		},
+	],
 }
 
 export default card

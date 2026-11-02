@@ -64,18 +64,39 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "When the water warms, they inflate the flotation sac on their heads and drift languidly on the sea in packs.",
+		de: "Steigt die Meerestemperatur, bläst es seinen Schwimmbeutel auf und treibt in Schwärmen auf dem Wasser."
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769229,
+				tcgplayer: 550099
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769229,
+				tcgplayer: 550099
+			}
+		},
+	],
 
 	illustrator: "aspara",
 
-	thirdParty: {
-		cardmarket: 769229
-	}
 }
 
 export default card

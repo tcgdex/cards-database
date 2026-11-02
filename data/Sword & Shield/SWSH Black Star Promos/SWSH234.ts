@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Pikachu"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Lightning"],
@@ -55,16 +55,28 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
 	description: {
 		en: "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy."
 	},
-
-	thirdParty: {
-		cardmarket: 461594
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 653698,
+				tcgplayer: 277039
+			}
+		},
+	],
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		304,
-	],
+	dexId: [304],
 
 	hp: 50,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -33,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
-				de: "Rollout"
+				de: "Walzer"
 			},
 
 			damage: 10,
@@ -47,14 +45,14 @@ const card: Card = {
 			name: {
 				en: "Double Stab",
 				fr: "Coup double",
-				de: "Double Stab"
+				de: "Doppelstich"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez deux pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de face.",
-				de: "Flip 2 coins. This attack does 20 damage times the number of heads."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
@@ -76,19 +74,24 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275673,
-		tcgplayer: 83628
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275673,
+				tcgplayer: 83628
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275673,
+				tcgplayer: 83628
+			}
 		},
-	]
+	],
+
 }
 
 export default card

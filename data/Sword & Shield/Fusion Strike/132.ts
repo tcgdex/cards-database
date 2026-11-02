@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Kyoko Umemoto",
 
 	description: {
-		en: "Thanks to its thick claws, it's good at climbing trees. There are plenty of Sandslash that park themselves in trees and go right to sleep."
+		en: "Thanks to its thick claws, it's good at climbing trees. There are plenty of Sandslash that park themselves in trees and go right to sleep.",
+		de: "Mit seinen Krallen kann es gut Bäume erklimmen. Häufig macht es die Baumkrone dann gleich zu seinem Schlafplatz."
 	},
 
 	attacks: [{
@@ -61,17 +68,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582710,
-		tcgplayer: 253449
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582710,
+				tcgplayer: 253449
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582710,
+				tcgplayer: 253449
+			}
+		},
+	],
 }
 
 export default card

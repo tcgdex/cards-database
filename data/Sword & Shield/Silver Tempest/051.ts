@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Lampi"
 	},
 
+	illustrator: "Miki Tanaka",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -48,20 +49,37 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Its antennae, which evolved from a fin, have both positive and negative charges flowing through them.",
+		de: "Seine Antennen haben sich aus Flossen entwickelt und sind sowohl positiv als auch negativ geladen."
 	},
 
-	thirdParty: {
-		cardmarket: 682098,
-		tcgplayer: 451705
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682098,
+				tcgplayer: 451705
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682098,
+				tcgplayer: 451705
+			}
+		},
+	],
 }
 
 export default card

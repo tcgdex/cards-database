@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Timburr",
 		fr: "Charpenti",
+		de: "Praktibalk"
 	},
 
 	stage: "Stage1",
@@ -42,6 +43,7 @@ const card: Card = {
 			name: {
 				en: "Strength",
 				fr: "Force",
+				de: "Stärke"
 			},
 
 			damage: 30,
@@ -56,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Pummel",
 				fr: "Martelage",
+				de: "Trommler"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 40,
 
@@ -75,10 +79,27 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 280186,
-		tcgplayer: 85981
-	}
+	description: {
+		en: "This Pokémon is so muscular and strongly built that even a group of wrestlers could not make it budge an inch.",
+		de: "Selbst wenn es mit voller Wucht von einem Profi-Ringer angegriffen wird, lässt es dies dank seines Muskeltrainings kalt."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280186,
+				tcgplayer: 85981
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280186,
+				tcgplayer: 85981
+			}
+		},
+	],
 }
 
 export default card

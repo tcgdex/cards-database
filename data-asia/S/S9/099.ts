@@ -17,6 +17,16 @@ const card: Card = {
 		ja: "おたがいのプレイヤーは、自分の番ごとに1回、自分のトラッシュからエネルギーを1枚選び、自分のベンチのポケモンにつけてよい。その場合、つけたポケモンにダメカンを2個のせる。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 605950,
+				tcgplayer: 569727,
+			},
+		},
+	],
+
 	trainerType: "Stadium",
 	regulationMark: "F",
 	rarity: "Uncommon"

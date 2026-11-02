@@ -4,7 +4,8 @@ import Set from '../POP Series 1'
 const card: Card = {
 	name: {
 		en: "Plusle",
-		fr: "Posipi"
+		fr: "Posipi",
+		de: "Plusle"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -12,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		311,
-	],
+	dexId: [311],
 
 	hp: 50,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -31,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Attack",
-				fr: "Vive-attaque"
+				fr: "Vive-attaque",
+				de: "Ruckzuckhieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -47,11 +48,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Agility",
-				fr: "Hâte"
+				fr: "Hâte",
+				de: "Agilität"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Plusle during your opponent’s next turn.",
-				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Posipi lors du prochain tour de votre adversaire."
+				en: "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Plusle during your opponent's next turn.",
+				fr: "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Posipi lors du prochain tour de votre adversaire.",
+				de: "Wirf 1 Münze. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Auswirkungen von Angriffen (einschließlich Schaden), die Plusle zugefügt werden."
 			},
 			damage: 20,
 
@@ -73,10 +76,16 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 277427,
-		tcgplayer: 88163
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88163,
+				cardmarket: 277427
+			},
+		},
+	],
+
 }
 
 export default card

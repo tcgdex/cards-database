@@ -24,6 +24,16 @@ const card: Card = {
 		'zh-cn': "選擇1隻對手的備戰寶可夢，與戰鬥寶可夢互換。然後，將自己的戰鬥寶可夢與備戰寶可夢互換。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803261,
+				tcgplayer: 602576,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "H"
 }

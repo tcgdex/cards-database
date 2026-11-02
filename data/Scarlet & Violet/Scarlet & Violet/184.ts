@@ -22,15 +22,20 @@ const card: Card = {
 		es: "Cura 30 puntos de daño a cada Pokémon (tanto tuyos como de tu rival).",
 		it: "Cura tutti i Pokémon, sia tuoi che del tuo avversario, da 30 danni.",
 		pt: "Cure 30 pontos de dano de cada Pokémon (seus e do seu oponente).",
-		de: "Heile 30 Schadenspunkte bei jedem Pokémon (deinen und denen deines Gegners)."
+		de: "Heile 30 Schadenspunkte bei jedem Pokémon (deinen und denen deines Gegners). Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "OKACHEKE",
 

@@ -17,7 +17,9 @@ const card: Card = {
 	rarity: "None",
 	category: "Pokemon",
 	hp: 110,
-	types: ["Fighting"],
+	types: [
+		"Fighting"
+	],
 
 	evolveFrom: {
 		en: "Rockruff",
@@ -33,20 +35,23 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 
 	description: {
-		en: "The more intimidating the opponent it faces, the more this Pokémon’s blood boils. It will attack with no regard for its own safety."
+		en: "The more intimidating the opponent it faces, the more this Pokémon’s blood boils. It will attack with no regard for its own safety.",
+		de: "Je gefährlicher sein Gegner, desto mehr kommt es in Fahrt. Im Kampf ist es bereit, alles aufs Spiel zu setzen, um den Sieg zu erringen."
 	},
 
 	attacks: [{
 		name: {
 			en: "Bite",
-			fr: "Morsure"
+			fr: "Morsure",
+			de: "Biss"
 		},
 
 		damage: 20
 	}, {
 		name: {
 			en: "Claw Slash",
-			fr: "Tranch'Griffe"
+			fr: "Tranch'Griffe",
+			de: "Klauenschlitzer"
 		},
 
 		damage: 80
@@ -57,9 +62,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	thirdParty: {
-		tcgplayer: 152838
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 297261,
+				tcgplayer: 152838
+			}
+		},
+	],
+
 }
 
 export default card

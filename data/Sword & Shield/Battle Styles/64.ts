@@ -76,23 +76,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "As it grows inside its shell, it uses its psychic abilities to monitor the outside world and prepare for evolution."
+		en: "As it grows inside its shell, it uses its psychic abilities to monitor the outside world and prepare for evolution.",
+		de: "Im Inneren seines Panzers wächst es. Während es sich auf die Entwicklung vorbereitet, prüft es mit seinen Psycho-Kräften, was im Freien geschieht."
 	},
 
-	thirdParty: {
-		cardmarket: 545436,
-		tcgplayer: 234238
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545436,
+				tcgplayer: 234238
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545436,
+				tcgplayer: 234238
+			}
+		},
+	],
 }
 
 export default card

@@ -44,18 +44,42 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The pair sticks together no matter what. They split any food they find exactly in half and then eat it together.",
+		de: "Die beiden sind unzertrennlich. Finden sie Futter, teilen sie dieses in zwei identische Hälften, ehe sie es zu fressen beginnen."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740694,
+				tcgplayer: 523835,
+				cardtrader: 265383
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740694,
+				tcgplayer: 523835,
+				cardtrader: 265383
+			}
+		},
+	],
 
 	illustrator: "Akira Komayama",
 
-	thirdParty: {
-		cardmarket: 740694
-	}
+	
 }
 
 export default card

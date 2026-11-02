@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Kirlia"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Psychic"],
@@ -67,16 +67,35 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
 	description: {
 		en: "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about."
 	},
-
-	thirdParty: {
-		cardmarket: 681800
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 681800,
+				tcgplayer: 451846
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				tcgplayer: 451886
+			}
+		},
+	],
 }
 
 export default card

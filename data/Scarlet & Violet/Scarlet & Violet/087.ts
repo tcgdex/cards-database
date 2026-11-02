@@ -44,14 +44,36 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Jerky",
+
+	description: {
+		en: "It feeds on the dark emotions of sadness and hatred, which make it grow steadily stronger.",
+		de: "Es gewinnt an Stärke, indem es sich an den traurigen und hasserfüllten Gefühlen der Menschen labt."
+	},
 
 	thirdParty: {
         cardmarket: 702383,

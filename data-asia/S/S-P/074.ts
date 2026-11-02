@@ -1,56 +1,52 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "噴火龍GX"
+		ja: "ゾウドウ",
+		'zh-tw': "噴火龍GX",
 	},
 
-	illustrator: "5ban Graphics",
+	illustrator: "0313",
 	category: "Pokemon",
-	hp: 250,
-	types: ["Fire"],
-	stage: "Stage2",
+	hp: 100,
+	types: ["Metal"],
 
-	attacks: [{
-		name: {
-			'zh-tw': "翅膀攻擊"
+	description: {
+		ja: "５トンの 荷物を もっても 平気な 力持ち ポケモン。 鼻を 使って 土を 掘る。",
+	},
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			name: {
+				ja: "かいりき",
+				'zh-tw': "翅膀攻擊",
+			},
+			damage: 60,
+			cost: ["Metal", "Colorless", "Colorless"],
 		},
+	],
 
-		damage: 70,
-		cost: ["Colorless", "Colorless", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "紅蓮風暴"
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [{ type: "Grass", value: "-30" }],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 525100,
+				tcgplayer: 597285,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "將這隻寶可夢身上所附加的3個【火】能量丟到棄牌區。"
-		},
+	retreat: 3,
+	regulationMark: "D",
+	rarity: "Promo",
+	dexId: [878],
+};
 
-		damage: 300,
-		cost: ["Fire", "Fire", "Fire", "Colorless", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "怒火中燒GX"
-		},
-
-		effect: {
-			'zh-tw': "將對手的牌庫上方的10張丟到棄牌區。［對戰中，己方只可使用1次GX招式。］"
-		},
-
-		cost: ["Fire", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Water",
-		value: "×2"
-	}],
-
-	retreat: 2,
-	regulationMark: "A"
-}
-
-export default card
+export default card;

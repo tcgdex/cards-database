@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Machoke",
 		fr: "Machopeur",
+		de: "Maschock"
 	},
 
 	stage: "Stage2",
@@ -38,7 +39,7 @@ const card: Card = {
 			name: {
 				en: "Take Out",
 				fr: "Éliminer",
-				de: "Ausnocken"
+				de: "Ausknocken"
 			},
 			effect: {
 				en: "If the Defending Pokémon isn't an Evolved Pokémon, that Pokémon is Knocked Out instead of damaged by this attack.",
@@ -61,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 4 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 4 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30x",
 

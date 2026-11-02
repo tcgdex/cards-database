@@ -1,50 +1,32 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "伊布"
+		ja: "基本フェアリーエネルギー",
+		'zh-tw': "伊布",
 	},
 
-	illustrator: "Tika Matsuno",
-	category: "Pokemon",
-	hp: 60,
-	types: ["Colorless"],
+	illustrator: "",
+	category: "Energy",
+	energyType: "Normal",
 
-	description: {
-		'zh-tw': "由於不穩定的基因，蘊含著各式各樣進化可能性的特殊寶可夢。"
+	effect: {
+		ja: "エネルギーカード付き カードボックス メガミュウツーX・メガミュウツーY",
 	},
 
-	stage: "Basic",
-
-	attacks: [{
-		name: {
-			'zh-tw': "準備"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 525175,
+				tcgplayer: 649920,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "從自己的手牌選擇1張基本能量卡，附於這隻寶可夢身上。"
-		},
+	rarity: "Promo",
+};
 
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "咬住"
-		},
-
-		damage: 30,
-		cost: ["Colorless", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
-
-	retreat: 1,
-	regulationMark: "E"
-}
-
-export default card
+export default card;

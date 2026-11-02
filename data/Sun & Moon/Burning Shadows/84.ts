@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Grimer",
 		fr: "Tadmorv d’Alola",
+		de: "Alola-Sleima"
 	},
 
 	suffix: "GX",
@@ -93,7 +94,7 @@ const card: Card = {
 				es: "Triple Riesgo GX",
 				it: "Triplo Rischio-GX",
 				pt: "Perigo Triplo GX",
-				de: "Dreifachgefahr GX"
+				de: "Dreifachgefahr-GX"
 			},
 			effect: {
 				en: "Switch 1 of your opponent’s Benched Pokémon with their Active Pokémon. The new Active Pokémon is now Burned, Paralyzed, and Poisoned. (You can’t use more than 1 GX attack in a game.)",
@@ -123,10 +124,15 @@ const card: Card = {
 
 	retreat: 4,
 
-	thirdParty: {
-		cardmarket: 299486,
-		tcgplayer: 138572
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 299486,
+				tcgplayer: 138572
+			}
+		},
+	],
 }
 
 export default card

@@ -46,7 +46,7 @@ const card: Card = {
 				es: "Una vez durante tu turno, si este Pokémon es tu Pokémon Activo, cuando le unas 1 carta de Energía Grass de tu mano, puedes cambiar 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
 				it: "Una sola volta durante il tuo turno, se questo Pokémon è il tuo Pokémon attivo, quando gli assegni una carta Energia Grass dalla tua mano, puoi scambiare uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
 				pt: "Uma vez durante a sua vez de jogar, se este Pokémon for o seu Pokémon Ativo, quando você ligar 1 carta de Energia Grass da sua mão a ele, você poderá trocar 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
-				de: "Einmal während deines Zuges, wenn dieses Pokémon dein Aktives Pokémon ist und wenn du 1 Grass-Energiekarte aus deiner Hand an es anlegst, kannst du 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon austauschen."
+				de: "Einmal während deines Zuges, wenn dieses Pokémon dein Aktives Pokémon ist und wenn du 1 {G}-Energiekarte aus deiner Hand an es anlegst, kannst du 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon austauschen."
 			},
 		},
 	],
@@ -83,7 +83,7 @@ const card: Card = {
 				es: "Planta Solar GX",
 				it: "Pianta Solare GX",
 				pt: "Usina Solar GX",
-				de: "Solargewächs GX"
+				de: "Solargewächs-GX"
 			},
 			effect: {
 				en: "This attack does 50 damage to each of your opponent’s Pokémon. If this Pokémon has at least 2 extra Energy attached to it (in addition to this attack’s cost), heal all damage from all of your Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) (You can’t use more than 1 GX attack in a game.)",
@@ -93,20 +93,6 @@ const card: Card = {
 				pt: "Este ataque causa 50 pontos de dano a cada um dos Pokémon do seu oponente. Se este Pokémon tiver pelo menos 2 Energias adicionais ligadas a ele (além do custo deste ataque), cure todo o dano de todos os seus Pokémon (não aplique Fraqueza e Resistência aos Pokémon no Banco). (Você não pode usar mais de 1 ataque GX por partida.)",
 				de: "Diese Attacke fügt jedem Pokémon deines Gegners 50 Schadenspunkte zu. Wenn an dieses Pokémon mindestens 2 extra Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), heile allen Schaden bei jedem deiner Pokémon. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			}
-
-		},
-		{
-			cost: [
-				"Colorless",
-				"Colorless",
-				"Colorless",
-			],
-			name: {
-				fr: "Plante Solaire-GX",
-			},
-			effect: {
-				fr: "Cette attaque inflige 50 dégâts à chacun des Pokémon de votre adversaire. Si au moins 2 Énergies supplémentaires sont attachées à ce Pokémon (en plus du coût de cette attaque), soignez tous les dégâts de vos Pokémon. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.) (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
-			},
 
 		},
 	],

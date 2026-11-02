@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Skitty"
+		en: "Skitty",
+		fr: "Skitty"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -24,14 +25,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Play Rough"
+			en: "Play Rough",
+			fr: "Câlinerie"
 		},
 
 		damage: 10,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Flip a coin. If heads, this attack does 30 more damage."
+			en: "Flip a coin. If heads, this attack does 30 more damage.",
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts de plus."
 		}
 	}],
 

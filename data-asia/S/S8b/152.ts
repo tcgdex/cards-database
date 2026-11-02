@@ -1,22 +1,40 @@
-import { Card } from "../../../interfaces"
-import Set from "../S8b"
+import { Card } from "../../../interfaces";
+import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "可爾妮的氣勢"
+		ja: "コルニの気合い",
+		'zh-tw': "可爾妮的氣勢",
 	},
 
 	illustrator: "kirisAki",
 	category: "Trainer",
 
 	effect: {
-		'zh-tw': "從牌庫抽卡直到自己的手牌滿6張為止。"
+		ja: "自分の手札が6枚になるように、山札を引く。",
+		'zh-tw': "從牌庫抽卡直到自己的手牌滿6張為止。",
 	},
 
-	trainerType: "Supporter",
-	regulationMark: "E"
-}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 586668,
+				tcgplayer: 571405,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 578433,
+			},
+		},
+	],
 
-export default card
+	trainerType: "Supporter",
+	regulationMark: "E",
+	rarity: "None",
+};
+
+export default card;

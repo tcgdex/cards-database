@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "On dit que les jeunes enfants qui agrippent Baudrive après\nl'avoir pris pour un ballon disparaissent sans laisser de traces.",
 		es: "Se dice que a veces desaparecen niños que\nagarran un Drifloon pensando que es un globo.",
 		it: "Si dice che i bambini piccoli possano scomparire nel nulla\nse tengono un Drifloon scambiandolo per un palloncino.",
-		de: "So manches kleine Kind soll schon verschwunden\nsein, weil es ein Driftlon festhielt, das es mit\neinem Ballon verwechselt hatte.",
+		de: "So manches kleine Kind soll schon verschwunden sein, weil es ein Driftlon festhielt, das es mit einem Ballon verwechselt hatte.",
 		'pt-br': "Diz-se por aí que se uma criança confundir Drifloon\ncom um balão e o segurar, poderá acabar desaparecendo.",
 		ko: "풍선으로 착각해 흔들풍손을\n가지고 있었던 어린아이가\n사라지는 경우가 있다고 한다."
 	},

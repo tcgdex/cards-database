@@ -52,23 +52,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "The mushrooms, known as tochukaso, are controlling the bug. Even if the bug bugs the mushrooms, they tell it to bug off."
+		en: "The mushrooms, known as tochukaso, are controlling the bug. Even if the bug bugs the mushrooms, they tell it to bug off.",
+		de: "Paras’ Körper kann nicht nach seinem eigenen Willen handeln, da er von Tochukaso, den Pilzen auf seinem Rücken, kontrolliert wird."
 	},
 
-	thirdParty: {
-		cardmarket: 482889,
-		tcgplayer: 219061
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 482889,
+				tcgplayer: 219061
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 482889,
+				tcgplayer: 219061
+			}
+		},
+	],
 }
 
 export default card

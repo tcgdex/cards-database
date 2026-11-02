@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Descarta 2 cartas de tu mano. Si lo haces, busca en tu baraja 1 Pokémon, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Scarta due delle carte che hai in mano. Se lo fai, cerca nel tuo mazzo un Pokémon, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Descarte 2 cartas da sua mão. Se fizer isto, procure por 1 Pokémon no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Lege 2 Karten aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, durchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+		de: "Lege 2 Karten aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, durchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

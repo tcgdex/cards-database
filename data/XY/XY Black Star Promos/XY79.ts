@@ -8,13 +8,17 @@ const card: Card = {
 	},
 
 	illustrator: "Naoki Saito",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
 	dexId: [
 		381,
 	],
+
+
+
+	cameoDexIds: [484],
 
 	hp: 100,
 
@@ -65,6 +69,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting.",
+	},
 
 	thirdParty: {
 		cardmarket: 289791

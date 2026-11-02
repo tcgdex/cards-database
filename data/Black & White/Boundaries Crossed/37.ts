@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Marill",
 		fr: "Marill",
+		de: "Marill"
 	},
 
 	stage: "Stage1",
@@ -42,10 +43,12 @@ const card: Card = {
 			name: {
 				en: "Deep Dive",
 				fr: "Plongée Profonde",
+				de: "Unterwasserausflug"
 			},
 			effect: {
 				en: "Flip 2 coins. For each heads, heal 40 damage from this Pokémon.",
 				fr: "Lancez 2 pièces. Pour chaque côté face, soignez 40 dégâts à ce Pokémon.",
+				de: "Wirf 2 Münzen. Heile pro „Kopf“ 40 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -58,10 +61,12 @@ const card: Card = {
 			name: {
 				en: "Aqua Sonic",
 				fr: "Aquasonique",
+				de: "Aquaschall"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Resistance.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "Der Schaden dieses Angriffs wird durch Resistenz nicht verändert."
 			},
 			damage: 70,
 
@@ -77,10 +82,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280624,
-		tcgplayer: 83686
-	}
+	description: {
+		en: "Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are.",
+		de: "Seine langen Ohren sind hervorragende Sensoren. Mit ihnen kann es die Quellen aller Geräusche des Flusses ausmachen."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280624,
+				tcgplayer: 83686
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280624,
+				tcgplayer: 83686
+			}
+		},
+	],
 }
 
 export default card

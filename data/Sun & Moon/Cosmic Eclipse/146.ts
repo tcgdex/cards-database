@@ -52,6 +52,11 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "A Pokémon that lives by water. It moves quickly on land by bouncing on its big tail.",
+		de: "Dieses Pokémon lebt am Wasser. An Land bewegt es sich schnell, indem es auf seinem großen Schweif hüpft."
+	},
+
 	thirdParty: {
 		cardmarket: 408374,
 		tcgplayer: 201190

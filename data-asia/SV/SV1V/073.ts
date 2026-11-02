@@ -22,6 +22,17 @@ const card: Card = {
 		id: "Saat Pokémon yang mengenakan kartu ini ada di Arena Bertarung dan menerima kerusakan akibat serangan dari Pokémon lawan, letakkan 2 Token Kerusakan pada Pokémon yang telah menggunakan serangan."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardtrader: 235650,
+				cardmarket: 693148,
+				tcgplayer: 568299,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "G"
 }

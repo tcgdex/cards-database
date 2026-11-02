@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Blanche"
 	},
 
+	illustrator: "Anesaki Dynamic",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -22,22 +23,31 @@ const card: Card = {
 		es: "Roba 2 cartas. Si has robado alguna carta de esta manera, lanza 1 moneda. Si sale cara, une 1 carta de Energía Water de tu pila de descartes a 1 de tus Pokémon en Banca.",
 		it: "Pesca due carte. Se hai pescato delle carte in questo modo, lancia una moneta. Se esce testa, assegna a uno dei tuoi Pokémon in panchina una carta Energia Water dalla tua pila degli scarti.",
 		pt: "Compre 2 cartas. Se você comprar qualquer carta desta forma, jogue 1 moeda. Se sair cara, ligue 1 carta de Energia Water da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
-		de: "Ziehe 2 Karten. Wenn du auf diese Weise mindestens 1 Karte gezogen hast, wirf 1 Münze. Lege bei Kopf 1 Water-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
+		de: "Ziehe 2 Karten. Wenn du auf diese Weise mindestens 1 Karte gezogen hast, wirf 1 Münze. Lege bei Kopf 1 {W}-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 664663,
-		tcgplayer: 276991
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665285,
+				tcgplayer: 276991
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665285,
+				tcgplayer: 276991
+			}
+		},
+	],
 }
 
 export default card

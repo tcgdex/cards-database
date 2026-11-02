@@ -8,7 +8,7 @@ const card: Card = {
 		de: "Rayquaza & Deoxys LEGENDE"
 	},
 
-	illustrator: "Shinji Higuchi + Sachiko Eba/樋口真嗣 + 江場左知子",
+	illustrator: "Shinji Higuchi + Sachiko Eba",
 	rarity: "LEGEND",
 	category: "Pokemon",
 	set: Set,
@@ -16,7 +16,7 @@ const card: Card = {
 	dexId: [384, 386],
 	types: [
 		"Colorless",
-		"Psychic",
+		"Psychic"
 	],
 
 	suffix: "Legend",
@@ -30,10 +30,10 @@ const card: Card = {
 				de: "Weltraumvirus"
 			},
 			effect: {
-				en: "If your opponent’s Pokémon is Knocked Out by damage from an attack of Rayquaza & Deoxys LEGEND, take 1 more Prize card.",
+				en: "If your opponent's Pokémon is Knocked Out by damage from an attack of Rayquaza & Deoxys LEGEND, take 1 more Prize card.",
 				fr: "Si le Pokémon de votre adversaire est mis K.O. par une attaque de Rayquaza & Deoxys LÉGENDE, prenez une carte Récompense supplémentaire.",
 				de: "Wenn ein Pokémon deines Gegners durch Schaden eines Angriffs von Rayquaza & Deoxys-LEGENDE kampfunfähig gemacht wurde, nimm 1 zusätzlichen Preis."
-			},
+			}
 		},
 	],
 
@@ -76,19 +76,23 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279343,
+				tcgplayer: 88637
+			}
 		},
 		{
-			type: "holo",
-			stamp: ["david-cohen"]
-		}
+			type: "normal",
+			stamp: ['david-cohen'],
+			thirdParty: {
+				cardmarket: 868143,
+				tcgplayer: 480477
+			}
+		},
 	],
 
 	hp: 140,
-
-	thirdParty: {
-		cardmarket: 279342
-	}
 }
 
 export default card

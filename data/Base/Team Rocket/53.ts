@@ -34,12 +34,12 @@ const card: Card = {
 			name: {
 				en: "Wrap",
 				fr: "Ligotage",
-				de: "Wrap"
+				de: "Wickel"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. if heads, the Defending Pokémon is now Paralyzed."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -52,25 +52,33 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "La capture du premier Minidraco a inspiré la quêtre d'autres Pokémon légendaires."
+		en: "The capture of the first Dratini inspired the search for other legendary Pokémon.",
+		fr: "La capture du premier Minidraco a inspiré la quêtre d'autres Pokémon légendaires.",
+		de: "Das Einfangen des ersten Dratini inspirierte die Suche nach anderen legendären Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 274106,
-		tcgplayer: 84928
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274106,
+				tcgplayer: 84928
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
-		}
-	]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274106,
+				tcgplayer: 84928
+			}
+		},
+	],
 }
 
 export default card

@@ -4,6 +4,7 @@ import Set from "../Obsidian Flames"
 const card: Card = {
 	dexId: [964],
 	set: Set,
+	cameoDexIds: [963],
 
 	name: {
 		fr: "Superdofin",
@@ -74,19 +75,34 @@ const card: Card = {
 		damage: 210
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
+	description: {
+		en: "This Pokémon's ancient genes have awakened. It is now so extraordinarily strong that it can easily lift a cruise ship with one fin.",
+		de: "Die uralten Gene dieses Pokémon sind erwacht. Es ist so übernatürlich stark, dass es mühelos mit einer Flosse ein Kreuzfahrtschiff anheben kann."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 725280,
+				tcgplayer: 509946,
+				cardtrader: 255642
+			}
+		},
+	],
 
 	illustrator: "Akira Komayama",
 
-	thirdParty: {
-		cardmarket: 725280
-	}
+	
 }
 
 export default card

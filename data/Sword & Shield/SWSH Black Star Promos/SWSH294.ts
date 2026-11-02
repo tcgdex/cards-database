@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Hisuian Electrode V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Grass"],
@@ -65,12 +65,31 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
-
-	thirdParty: {
-		cardmarket: 671806
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 671806,
+				tcgplayer: 451115
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 671807,
+				tcgplayer: 451116
+			}
+		},
+	],
 }
 
 export default card

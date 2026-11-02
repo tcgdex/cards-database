@@ -52,9 +52,13 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Il envoie des boules de feu. Avec l'âge, ses six queues en forment de nouvelles."
+		en: "It controls balls of fire. As it grows, its six tails split from their tips to make more tails.",
+		fr: "Il envoie des boules de feu. Avec l'âge, ses six queues en forment de nouvelles.",
+		de: "Es beherrscht Feuerbälle. Während es wächst, teilen sich seine sechs Schweife, um weitere zu bilden."
 	},
 
 	thirdParty: {

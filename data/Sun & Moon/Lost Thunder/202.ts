@@ -88,7 +88,7 @@ const card: Card = {
 				es: "Intercepción GX",
 				it: "Intercettazione-GX",
 				pt: "Interceptar GX",
-				de: "Abfangen GX"
+				de: "Abfangen-GX"
 			},
 			effect: {
 				en: "This attack does 60 damage times the amount of Energy attached to your opponent’s Active Pokémon. (You can’t use more than 1 GX attack in a game.)",

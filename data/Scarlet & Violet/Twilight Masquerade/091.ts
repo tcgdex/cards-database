@@ -57,18 +57,45 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It flings sand into the eyes of its prey and tries to close in on them while they're blinded, but since Sandygast is so slow, the prey tends to escape.",
+		de: "Es wirft seiner Beute Sand in die Augen, wodurch diese nichts sieht, und nähert sich ihr dann. Es ist jedoch so langsam, dass die Beute oft entkommt."
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769265,
+				tcgplayer: 550135
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769265,
+				tcgplayer: 550135
+			}
+		},
+	],
 
 	illustrator: "Asako Ito",
 
-	thirdParty: {
-		cardmarket: 769265
-	}
 }
 
 export default card

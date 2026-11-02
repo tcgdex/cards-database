@@ -68,7 +68,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		fr: "En hiver, son bourgeon se referme pour résister au froid. Il s'ouvre au printemps et libère du pollen."
+		en: "Over the winter, it closes its bud and endures the cold. In spring, the bud opens and releases pollen.",
+		fr: "En hiver, son bourgeon se referme pour résister au froid. Il s'ouvre au printemps et libère du pollen.",
+		de: "Im Winter schließt es die Knospe. Im Frühjahr öffnet es die Knospe und gibt Pollen ab."
 	},
 
 	thirdParty: {

@@ -47,23 +47,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Due to its short wings, it can't fly long distances. It wanders about restlessly and pecks at bug Pokémon."
+		en: "Due to its short wings, it can't fly long distances. It wanders about restlessly and pecks at bug Pokémon.",
+		de: "Aufgrund seiner kurzen Flügel kann es keine langen Strecken fliegen. Es rennt wild durch die Gegend, um Käfer-Pokémon aufzupicken."
 	},
 
-	thirdParty: {
-		cardmarket: 545636,
-		tcgplayer: 234150
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545636,
+				tcgplayer: 234150
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545636,
+				tcgplayer: 234150
+			}
+		},
+	],
 }
 
 export default card

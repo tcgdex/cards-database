@@ -57,9 +57,13 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
-		fr: "Nombre d'entre eux vivent sur des chemins montagneux où ils restent enfouis à épier les alpinistes."
+		en: "Many live on mountain trails and remain half buried while keeping an eye on climbers.",
+		fr: "Nombre d'entre eux vivent sur des chemins montagneux où ils restent enfouis à épier les alpinistes.",
+		de: "Viele von ihnen leben auf Bergpfaden, halb vergraben und Bergsteiger beobachtend."
 	},
 
 	thirdParty: {

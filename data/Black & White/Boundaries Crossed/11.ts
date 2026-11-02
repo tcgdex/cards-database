@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Vine Whip",
 				fr: "Fouet Lianes",
+				de: "Rankenhieb"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Cut",
 				fr: "Coupe",
+				de: "Zerschneider"
 			},
 
 			damage: 20,
@@ -65,10 +67,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280598,
-		tcgplayer: 89380
-	}
+	description: {
+		en: "It is very intelligent and calm. Being exposed to lots of sunlight makes its movements swifter.",
+		de: "Eine kühle Denkernatur. Bekommt es genügend Sonnenlicht ab, erhöht sich die Geschwindigkeit seiner Bewegungen."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280598,
+				tcgplayer: 89380
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280598,
+				tcgplayer: 89380
+			}
+		},
+	],
 }
 
 export default card

@@ -1,50 +1,71 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "冰伊布VSTAR"
+		ja: "ブラッキー",
+		'zh-tw': "冰伊布VSTAR",
 	},
 
-	illustrator: "5ban Graphics",
+	illustrator: "Souichirou Gunjima",
 	category: "Pokemon",
-	hp: 260,
-	types: ["Water"],
-	stage: "VMAX",
+	hp: 110,
+	types: ["Darkness"],
 
-	attacks: [{
-		name: {
-			'zh-tw': "冰柱射擊"
+	description: {
+		ja: "満月の 夜や 興奮 したとき 全身の 輪っか模様は 黄色く 光る。",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			name: {
+				ja: "やみうち",
+				'zh-tw': "冰柱射擊",
+			},
+			cost: ["Darkness"],
+			effect: {
+				ja: "ダメカンがのっている相手のポケモン1匹に、60ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'zh-tw': "在下個對手的回合，受到這個招式的寶可夢無法撤退。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "在下個對手的回合，受到這個招式的寶可夢無法撤退。"
+		{
+			name: {
+				ja: "ムーンミラージュ",
+				'zh-tw': "[VSTAR力量]水晶星星",
+			},
+			damage: 80,
+			cost: ["Darkness", "Colorless", "Colorless"],
+			effect: {
+				ja: "相手のバトルポケモンをこんらんにする。",
+				'zh-tw': "在下個對手的回合，這隻寶可夢不會受到招式的傷害與效果的影響。[對戰中，己方只可使用1次【VSTAR】力量。]",
+			},
 		},
+	],
 
-		damage: 180,
-		cost: ["Water", "Water", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "[VSTAR力量]水晶星星"
+	weaknesses: [{ type: "Grass", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 561776,
+				tcgplayer: 597359,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "在下個對手的回合，這隻寶可夢不會受到招式的傷害與效果的影響。[對戰中，己方只可使用1次【VSTAR】力量。]"
-		},
+	evolveFrom: {
+		ja: "イーブイ",
+	},
 
-		damage: 220,
-		cost: ["Water", "Water", "Colorless"]
-	}],
+	retreat: 1,
+	regulationMark: "E",
+	rarity: "Promo",
+	dexId: [197],
+};
 
-	weaknesses: [{
-		type: "Metal",
-		value: "×2"
-	}],
-
-	retreat: 2,
-	regulationMark: "F"
-}
-
-export default card
+export default card;

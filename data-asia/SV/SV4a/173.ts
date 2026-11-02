@@ -21,6 +21,22 @@ const card: Card = {
 		id: "Pilih 1 Energi yang dikenakan pada Pokémon Bertarung lawan, lalu kembalikan ke Kartu Pegangan lawan. Setelah itu, pilih 1 lembar Energi dari Kartu Pegangan sendiri, lalu kenakan pada Pokémon Bertarung."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 746555,
+				tcgplayer: 567574,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577403,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }

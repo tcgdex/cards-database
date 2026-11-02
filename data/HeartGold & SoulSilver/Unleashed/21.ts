@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		62,
-	],
+	dexId: [62],
 
 	hp: 130,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Poliwhirl",
 		fr: "Tetarte",
+		de: "Quaputzi"
 	},
 
 	stage: "Stage2",
@@ -42,7 +41,7 @@ const card: Card = {
 				de: "Überrollen"
 			},
 			effect: {
-				en: "Does 20 damage to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 20 dégâts à l’un des Pokémon se trouvant sur le Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 				de: "Dieser Angriff fügt 1 Pokémon auf der Bank deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
@@ -63,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 60 damage plus 40 more damage and the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 60 dégâts plus 40 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 60 Schadenspunkte plus 40 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt verwirrt."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 60 Schadenspunkte plus 40 weitere Schadenspunkte zu und das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: "60+",
 
@@ -80,31 +79,42 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Although an energetic, skilled swimmer that uses all of its muscles, it lives on dry land."
+		en: "Although an energetic, skilled swimmer that uses all of its muscles, it lives on dry land.",
+		de: "Obwohl es ein geschickter und ausdauernder Schwimmer ist, der alle Muskeln einsetzt, lebt es an Land."
 	},
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88279,
+				cardmarket: 279177
+			}
 		},
 		{
 			type: "reverse",
-			foil: "league"
+			thirdParty: {
+				tcgplayer: 88279,
+				cardmarket: 279177
+			}
+		},
+		{
+			type: "reverse",
+			foil: "league",
+			thirdParty: {
+				tcgplayer: 220667
+			}
 		},
 		{
 			type: "reverse",
 			foil: "league",
 			stamp: ["staff"],
+			thirdParty: {
+				tcgplayer: 220668
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279177,
-		tcgplayer: 88279
-	}
 }
 
 export default card

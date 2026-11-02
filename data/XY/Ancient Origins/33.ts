@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It is said that it originates from clay dolls made by an ancient civilization.",
+	},
+
 	thirdParty: {
 		cardmarket: 284214,
 		tcgplayer: 101456

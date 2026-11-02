@@ -65,6 +65,10 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "They live on treetops and glide using the inside of a cape-like membrane while discharging electricity.",
+	},
+
 	thirdParty: {
 		cardmarket: 281147,
 		tcgplayer: 85192

@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Appletun",
@@ -84,15 +78,28 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its body is covered in sweet nectar, and the skin on its back is especially yummy. Children used to have it as a snack."
+		en: "Its body is covered in sweet nectar, and the skin on its back is especially yummy. Children used to have it as a snack.",
+		de: "Sein Körper wird von süßem Nektar bedeckt und die Schale auf seinem Rücken ist besonders süß. Früher war diese ein Leckerbissen für Kinder."
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574169,
-		tcgplayer: 246921
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574169,
+				tcgplayer: 246921
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574169,
+				tcgplayer: 246921
+			}
+		},
+	],
 }
 
 export default card

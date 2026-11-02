@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Piondragi V"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 210,
@@ -39,7 +40,7 @@ const card: Card = {
 			es: "Los ataques de este Pokémon cuestan Colorless menos por cada uno de los Pokémon Golpe Brusco, Golpe Fluido y Golpe Fusión en juego de tu rival.",
 			it: "Il costo degli attacchi di questo Pokémon è ridotto di Colorless per ogni Pokémon Colpo Singolo, Colpo Rapido e Colpo Fusione in gioco del tuo avversario.",
 			pt: "Os ataques deste Pokémon custam Colorless a menos para cada Pokémon Golpe Decisivo, Golpe Fluido e Golpe Fusão do seu oponente em jogo.",
-			de: "Die Kosten der Attacken dieses Pokémon verringern sich für jedes Fokussierter-Angriff-, Fließender-Angriff- und Fusionsangriff-Pokémon deines Gegners im Spiel um Colorless."
+			de: "Die Kosten der Attacken dieses Pokémon verringern sich für jedes Fokussierter-Angriff-, Fließender-Angriff- und Fusionsangriff-Pokémon deines Gegners im Spiel um {C}."
 		}
 	}],
 
@@ -70,16 +71,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 674188,
-		tcgplayer: 284127
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674188,
+				tcgplayer: 284127
+			}
+		},
+	],
 }
 
 export default card

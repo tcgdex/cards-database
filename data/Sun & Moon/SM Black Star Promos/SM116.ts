@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Voltriant"
 	},
 	illustrator: "TOKIYA",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -92,6 +92,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It appeared from the Ultra Wormhole. It raided a power plant, so people think it energizes itself with electricity.",
+		de: "Es ist durch die Ultrapforte erschienen. Seine Überfälle auf Kraftwerke lassen vermuten, dass es seine Lebensenergie aus Strom bezieht."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 319911,
+				tcgplayer: 166290
+			}
+		}
+	],
 }
 
 export default card

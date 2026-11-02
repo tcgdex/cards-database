@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Born of an icicle, this Pokémon uses its frosty breath to make ice crystals, causing snow to fall.",
+		de: "Dieses Pokémon ist aus einem Eiszapfen entstanden. Mit seinem kalten Odem erzeugt es Eiskristalle und lässt es schneien."
+	},
+
 	thirdParty: {
 		cardmarket: 297495,
 		tcgplayer: 130933

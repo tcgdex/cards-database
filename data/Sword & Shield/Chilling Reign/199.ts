@@ -37,7 +37,7 @@ const card: Card = {
 			es: "Una vez durante tu turno, puedes curar 20 puntos de daño a cada uno de tus Pokémon Grass.",
 			it: "Una sola volta durante il tuo turno, puoi curare ciascuno dei tuoi Pokémon Grass da 20 danni.",
 			pt: "Uma vez durante o seu turno, você poderá curar 20 pontos de dano de cada um dos seus Pokémon Grass.",
-			de: "Einmal während deines Zuges kannst du 20 Schadenspunkte bei jedem deiner Grass-Pokémon heilen."
+			de: "Einmal während deines Zuges kannst du 20 Schadenspunkte bei jedem deiner {G}-Pokémon heilen."
 		}
 	}],
 
@@ -72,12 +72,6 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "VMAX",
 	illustrator: "PLANETA Tsuji",
@@ -88,15 +82,21 @@ const card: Card = {
 		es: "Celebi V",
 		it: "Celebi-V",
 		pt: "Celebi V",
-		de: "Celebi-V"
+		de: "Celebi VMAX"
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 567307,
-		tcgplayer: 241657
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 567307,
+				tcgplayer: 241657
+			}
+		},
+	],
 }
 
 export default card

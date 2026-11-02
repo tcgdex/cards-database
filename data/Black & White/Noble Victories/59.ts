@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Litwick",
 		fr: "Funécire",
+		de: "Lichtel"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Luring Light",
 				fr: "Appât Lumineux",
+				de: "Köderleuchte"
 			},
 			effect: {
 				en: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
 				fr: "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire.",
+				de: "Tausche das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus."
 			},
 
 		},
@@ -56,6 +59,7 @@ const card: Card = {
 			name: {
 				en: "Will-O-Wisp",
 				fr: "Feu Follet",
+				de: "Irrlicht"
 			},
 
 			damage: 30,
@@ -72,10 +76,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280182,
-		tcgplayer: 86587
-	}
+	description: {
+		en: "This ominous Pokémon is feared. Through cities it wanders, searching for the spirits of the fallen.",
+		de: "Es irrt ziellos auf der Suche nach den Seelen der Verstorbenen durch die Stadt. Als Unglücksbringer gefürchtet."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280182,
+				tcgplayer: 86587
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280182,
+				tcgplayer: 86587
+			}
+		},
+	],
 }
 
 export default card

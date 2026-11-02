@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		262,
-	],
+	dexId: [262],
 
 	hp: 70,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Stage1",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Overrun",
 				fr: "Dépassement",
-				de: "Overrun"
+				de: "Überrennen"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Choisissez 1 des Pokémon du Banc de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Choose 1 of your opponent's Benched Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				de: "Wähle 1 gegnerisches Pokémon auf der Bank. Dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 10,
 
@@ -52,12 +50,12 @@ const card: Card = {
 			name: {
 				en: "Bite Off",
 				fr: "Arracher d'un coup de dent",
-				de: "Bite Off"
+				de: "Abbeißen"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Pokémon-ex, this attack does 40 damage plus 40 more damage.",
 				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires.",
-				de: "If the Defending Pokémon is Pokémon-ex, this attack does 40 damage plus 40 more damage."
+				de: "Wenn das Verteidigende Pokémon ein Pokémon-ex ist, fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -78,22 +76,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275998,
-		tcgplayer: 89835
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275798,
+				tcgplayer: 89835
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275798,
+				tcgplayer: 89835
+			}
+		},
+	],
+
 }
 
 export default card

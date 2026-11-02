@@ -78,23 +78,30 @@ const card: Card = {
 	types: ["Colorless"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It drives its opponents to exhaustion with its agile maneuvers, then ends the fight with a flashy finishing move."
+		en: "It drives its opponents to exhaustion with its agile maneuvers, then ends the fight with a flashy finishing move.",
+		de: "Durch flinke Angriffsmanöver raubt es seinen Gegnern ihre Kraft, um sie dann mit prachtvollen Spezialtechniken niederzuringen."
 	},
 
-	thirdParty: {
-		cardmarket: 458138,
-		tcgplayer: 213248
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458138,
+				tcgplayer: 213248
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458138,
+				tcgplayer: 213248
+			}
+		},
+	],
 }
 
 export default card

@@ -74,18 +74,42 @@ const card: Card = {
 		damage: 240
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "An ancient picture scroll shows that people were captivated by its movement as it ran through prairies.",
+		de: "Eine alte Bildrolle zeigt, dass die Menschen von dem Anblick über Wiesen rennender Arkani verzaubert waren."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733654,
+				tcgplayer: 516248,
+				cardtrader: 261061
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733654,
+				tcgplayer: 516248,
+				cardtrader: 261061
+			}
+		},
+	],
 
 	illustrator: "Atsushi Furusawa",
 
-	thirdParty: {
-		cardmarket: 733654
-	}
+	
 }
 
 export default card

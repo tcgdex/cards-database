@@ -59,6 +59,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Because their bodies are enveloped in a special liquid, they are fine in any environment, no matter how severe.",
+	},
+
 	thirdParty: {
 		cardmarket: 281224,
 		tcgplayer: 89424

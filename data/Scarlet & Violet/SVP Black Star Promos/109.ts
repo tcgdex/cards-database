@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Ampharos"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Lightning"],
@@ -43,9 +43,24 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
-	illustrator: "GIDORA"
+	illustrator: "GIDORA",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769405,
+				tcgplayer: 556879
+			},
+		}
+	],
 }
 
 export default card

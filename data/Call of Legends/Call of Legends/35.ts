@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		157,
-	],
+	dexId: [157],
 
 	hp: 130,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Quilava",
-		fr: "Feurisson"
+		fr: "Feurisson",
+		de: "Igelavar"
 	},
 
 	stage: "Stage2",
@@ -69,14 +68,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		en: "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions.",
+		de: "Es verfügt über eine verheerende Geheimattacke. Es reibt sein Fell, um Explosionen zu erzeugen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90109,
+				cardmarket: 279678
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90109,
+				cardmarket: 279678
+			},
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279678,
-		tcgplayer: 90109
-	}
 }
 
 export default card

@@ -74,18 +74,42 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "Inhaled air is carried to its flame sac, heated, and exhaled as fire that reaches over 3,000 degrees Fahrenheit.",
+		de: "Es speichert Atemluft in einem Flammensack. Dort erhitzt es sie auf 1700 ℃, um sie als Flammen auszuspucken."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733731,
+				tcgplayer: 516699,
+				cardtrader: 261230
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733731,
+				tcgplayer: 516699,
+				cardtrader: 261230
+			}
+		},
+	],
 
 	illustrator: "Ryota Murayama",
 
-	thirdParty: {
-		cardmarket: 733731
-	}
+	
 }
 
 export default card

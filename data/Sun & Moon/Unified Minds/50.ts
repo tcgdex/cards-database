@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It will pick up anything it finds on the ground. Sometimes it finds coins, so Murkrow and Meowth will go after it.",
+		de: "Es hebt alles auf, was es finden kann. Manchmal befinden sich darunter auch Münzen, weshalb es oft von Kramurx und Mauzi gejagt wird."
+	},
+
 	thirdParty: {
 		cardmarket: 388077,
 		tcgplayer: 194973

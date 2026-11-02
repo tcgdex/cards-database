@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pangoro"
+		en: "Pangoro",
+		fr: "Pandarbare"
 	},
 
 	illustrator: "Uta",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Pancham"
+		en: "Pancham",
+		fr: "Pandespiègle"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Overdrive Smash"
+			en: "Overdrive Smash",
+			fr: "Boost Atomisant"
 		},
 
 		damage: 30,
 		cost: ["Darkness"],
 
 		effect: {
-			en: "During your next turn, this Pokémon's Overdrive Smash attack does +30 damage."
+			en: "During your next turn, this Pokémon's Overdrive Smash attack does +30 damage.",
+			fr: "Pendant votre prochain tour, l'attaque Boost Atomisant de ce Pokémon inflige + 30 dégâts."
 		}
 	}],
 

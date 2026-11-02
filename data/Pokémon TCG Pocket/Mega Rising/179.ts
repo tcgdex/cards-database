@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Goodra"
+		en: "Goodra",
+		fr: "Muplodocus"
 	},
 
 	illustrator: "Nagomi Nijo",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Dragon"],
 
 	evolveFrom: {
-		en: "Sliggoo"
+		en: "Sliggoo",
+		fr: "Colimucus"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Spiral Drain"
+			en: "Spiral Drain",
+			fr: "Spirale Épuisante"
 		},
 
 		damage: 100,
 		cost: ["Water", "Psychic", "Colorless"],
 
 		effect: {
-			en: "Heal 40 damage from this Pokémon."
+			en: "Heal 40 damage from this Pokémon.",
+			fr: "Soignez 40 dégâts de ce Pokémon."
 		}
 	}],
 

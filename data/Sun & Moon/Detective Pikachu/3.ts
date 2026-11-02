@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It scatters its shining spores around itself. Even though they're dangerous, nighttime tours of forests where Morelull live are popular.",
+		de: "Es streut blinkende Sporen aus. Obgleich nicht ungefährlich, sind nächtliche Führungen durch Wälder, in denen Bubungus leben, sehr beliebt."
+	},
+
 	thirdParty: {
 		cardmarket: 370768,
 		tcgplayer: 186004

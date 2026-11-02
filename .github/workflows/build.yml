@@ -8,6 +8,9 @@ on:
     branches: 
       - "**"
 
+permissions:
+  contents: read
+
 env:
   REGISTRY_IMAGE: |
     ghcr.io/tcgdex/server

@@ -84,12 +84,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -97,10 +91,15 @@ const card: Card = {
 		en: "Its ability to deflect any attack led to it being known as the Fighting Master's Shield. It was feared and respected by all."
 	},
 
-	thirdParty: {
-		cardmarket: 511930,
-		tcgplayer: 226554
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 511930,
+				tcgplayer: 226554
+			}
+		},
+	],
 }
 
 export default card

@@ -80,6 +80,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its body is made of magma. If it doesn't keep moving, its body will cool and harden.",
+	},
+
 	thirdParty: {
 		cardmarket: 273553,
 		tcgplayer: 95906

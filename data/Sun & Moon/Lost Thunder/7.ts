@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Chikorita",
 		fr: "Germignon",
+		de: "Endivie"
 	},
 
 	stage: "Stage1",
@@ -85,6 +86,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "The buds that ring its neck give off a spicy aroma that perks people up.",
+		de: "Die Knospen an seinem Hals geben ein würziges Aroma ab, das andere aufheitert."
+	},
 
 	thirdParty: {
 		cardmarket: 365575,

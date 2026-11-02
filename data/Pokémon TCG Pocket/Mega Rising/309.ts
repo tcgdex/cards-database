@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Golem"
+		en: "Golem",
+		fr: "Grolem"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -17,25 +18,29 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Graveler"
+		en: "Graveler",
+		fr: "Gravalanch"
 	},
 
 	description: {
-		en: "When Golem grow old, they stop shedding their\nshells. Those that have lived a long, long time\nhave shells green with moss."
+		en: "When Golem grow old, they stop shedding their\nshells. Those that have lived a long, long time\nhave shells green with moss.",
+		fr: "Lorsqu'il arrive à un âge avancé, il arrête de muer.\\nUn Grolem ayant vécu très longtemps est recouvert\\nde mousse verte."
 	},
 
 	stage: "Stage2",
 
 	attacks: [{
 		name: {
-			en: "Guard Press"
+			en: "Guard Press",
+			fr: "Pression de Garde"
 		},
 
 		damage: 120,
 		cost: ["Fighting", "Fighting", "Fighting", "Colorless"],
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes −30 damage from attacks."
+			en: "During your opponent's next turn, this Pokémon takes −30 damage from attacks.",
+			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit − 30 dégâts provenant des attaques."
 		}
 	}],
 

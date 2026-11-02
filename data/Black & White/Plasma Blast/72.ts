@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -51,6 +52,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "A man-made Pokémon created using advanced scientific means. It can move freely in cyberspace.",
+		de: "Ein von Menschen erschaffenes Pokémon, das sich frei im künstlichen Raum bewegen kann."
+	},
 
 	thirdParty: {
 		cardmarket: 281093,

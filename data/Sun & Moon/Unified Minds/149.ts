@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dratini",
 		fr: "Minidraco",
+		de: "Dratini"
 	},
 
 	stage: "Stage1",
@@ -68,6 +69,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Lakes where Dragonair live are filled with offerings from people, because they believe this Pokémon is able to control the weather.",
+		de: "Aufgrund der Annahme, es könne das Wetter beeinflussen, finden sich an Seen, die es bewohnt, viele Opfergaben."
+	},
 
 	thirdParty: {
 		cardmarket: 388537,

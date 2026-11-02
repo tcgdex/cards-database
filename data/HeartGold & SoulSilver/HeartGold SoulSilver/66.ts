@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		163,
-	],
+	dexId: [163],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -75,27 +73,32 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It always stands on one foot. It changes feet so fast, the movement can rarely be seen."
+		en: "It always stands on one foot. It changes feet so fast, the movement can rarely be seen.",
+		de: "Es steht immer auf einem Bein. Es wechselt sein Standbein so schnell, dass man es kaum sieht."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86173,
+				cardmarket: 279038
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86173,
+				cardmarket: 279038
+			}
 		},
 		{
 			type: "normal",
-			stamp : ["snowflake"],
+			stamp: ["snowflake"],
 			languages: ["de"]
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279038,
-		tcgplayer: 86173
-	}
 }
 
 export default card

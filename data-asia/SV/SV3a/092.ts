@@ -14,7 +14,17 @@ const card: Card = {
 		ja: "このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。\n\n自分のサイドの残り枚数が、相手のサイドの残り枚数より多いなら、このカードは、進化ポケモン（「ルールを持つポケモン」をのぞく）についているかぎり、すべてのタイプのエネルギー3個ぶんとしてはたらく。"
 	},
 
-	energyType: "Special"
+	energyType: "Special",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 734342,
+				tcgplayer: 566950,
+			},
+		},
+	],
 }
 
 export default card

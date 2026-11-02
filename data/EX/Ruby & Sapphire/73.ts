@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		255,
-	],
+	dexId: [255],
 
 	hp: 40,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -51,8 +49,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy card attached to Torchic.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une carte Énergie  attachée à Poussifeu.",
-				de: "Wirf eine Münze. Entferne bei \"Zahl\" eine -Energiekarte von Flemmli."
+				fr: "Lancez une pièce. Si c'est pile, défaussez une carte Énergie {R} attachée à Poussifeu.",
+				de: "Wirf eine Münze. Entferne bei „Zahl“ eine {R}-Energiekarte von Flemmli."
 			},
 			damage: 30,
 
@@ -69,23 +67,31 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275721,
-		tcgplayer: 89949
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275721,
+				tcgplayer: 89949
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275721,
+				tcgplayer: 89949
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 125110
+			}
 		}
-	]
+	],
+
 }
 
 export default card

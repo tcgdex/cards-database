@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sizzlipede",
-		fr: "Grillepattes"
+		fr: "Grillepattes",
+		de: "Thermopod"
 	},
 
 	attacks: [
@@ -95,7 +96,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "When it heats up, its body temperature reaches about 1,500 degrees Fahrenheit. It lashes its body like a whip and launches itself at enemies."
+		en: "When it heats up, its body temperature reaches about 1,500 degrees Fahrenheit. It lashes its body like a whip and launches itself at enemies.",
+		de: "Wenn es Hitze erzeugt, beträgt seine Temperatur etwa 800 ºC. Es bewegt seinen Körper wie eine Peitsche, um dann den Gegner anzuspringen."
 	},
 
 	thirdParty: {

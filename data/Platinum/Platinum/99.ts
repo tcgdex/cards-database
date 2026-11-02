@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		255,
-	],
+	dexId: [255],
 
 	hp: 60,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -31,12 +29,12 @@ const card: Card = {
 			name: {
 				en: "Focus Energy",
 				fr: "Puissance",
-				de: "Focus Energy"
+				de: "Energiefokus"
 			},
 			effect: {
 				en: "During your next turn, Torchic's Fire Shard attack's base damage is 80.",
 				fr: "Lors de votre prochain tour, les dégâts de base de l'attaque Écharde de feu de Poussifeu sont de 80.",
-				de: "During your next turn, Torchic's Fire Shard attack's base damage is 80."
+				de: "In deinem nächsten Zug beträgt der Grundschaden von Flemmlis Angriff Feuerscherben 80 Schadenspunkte."
 			},
 
 		},
@@ -47,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Fire Shard",
 				fr: "Écharde de feu",
-				de: "Fire Shard"
+				de: "Feuerscherben"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Flip a coin. If tails, this attack does nothing."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -68,19 +66,28 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278520,
-		tcgplayer: 89961
+	description: {
+		en: "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees F.",
+		de: "In seinem Inneren lodert ein Feuer. Es schleudert 1 000 Grad heiße Feuerbälle."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 89961,
+				cardmarket: 278520
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278520,
+				tcgplayer: 89961
+			}
 		}
-	]
+	],
+
 }
 
 export default card

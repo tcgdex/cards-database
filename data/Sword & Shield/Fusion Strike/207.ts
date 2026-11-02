@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 60,
 	types: ["Colorless"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "ryoma uratsuka",
 
 	description: {
-		en: "When it sees a person, it digs a hole with its tail to make its escape. If you happen to find one, consider yourself lucky."
+		en: "When it sees a person, it digs a hole with its tail to make its escape. If you happen to find one, consider yourself lucky.",
+		de: "Erblickt es einen Menschen, bohrt es mit seinem Schweif ein Loch und ergreift sofort die Flucht. Man braucht viel Glück, um ihm zu begegnen."
 	},
 
 	abilities: [{
@@ -64,17 +71,23 @@ const card: Card = {
 		damage: 30
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582940,
-		tcgplayer: 253302
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582940,
+				tcgplayer: 253302
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582940,
+				tcgplayer: 253302
+			}
+		},
+	],
 }
 
 export default card

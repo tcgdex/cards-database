@@ -7,7 +7,8 @@ const card: Card = {
 
 	name: {
 		en: "Pikachu",
-		fr: "Pikachu"
+		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -17,7 +18,7 @@ const card: Card = {
 	hp: 50,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	attacks: [{
@@ -26,7 +27,8 @@ const card: Card = {
 		],
 		name: {
 			en: "Scratch",
-			fr: "Griffe"
+			fr: "Griffe",
+			de: "Kratzer"
 		},
 		damage: 10
 	}, {
@@ -37,7 +39,8 @@ const card: Card = {
 		],
 		name: {
 			en: "Pika Bolt",
-			fr: "Pik'éclair"
+			fr: "Pik'éclair",
+			de: "Pikaschuss"
 		},
 		damage: 40
 	}],
@@ -45,15 +48,21 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "2x"
 		},
 	],
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 88079
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275763,
+				tcgplayer: 88079
+			}
+		},
+	],
+
 }
 
 export default card

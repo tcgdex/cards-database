@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Exeggutor δ",
 		fr: "Noadkoko δ",
-		de: "Kokowei"
+		de: "Kokowei δ"
 	},
 
 	illustrator: "Midori Harada",
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Exeggcute",
-		fr: "Noeunoeuf"
+		fr: "Noeunoeuf",
+		de: "Owei"
 	},
 
 	stage: "Stage1",

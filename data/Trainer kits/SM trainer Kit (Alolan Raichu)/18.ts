@@ -14,10 +14,13 @@ const card: Card = {
 		de: "Kosturso"
 	},
 
+	illustrator: "kirisAki",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,
-	types: ["Colorless"],
+	types: [
+		"Colorless"
+	],
 
 	evolveFrom: {
 		en: "Stufful",
@@ -28,6 +31,39 @@ const card: Card = {
 		de: "Velursi"
 	},
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Bear Hug",
+				de: "Dicke Umarmung"
+			},
+			effect: {
+				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				de: "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
+			},
+			damage: 40
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Superpower",
+				de: "Kraftkoloss"
+			},
+			effect: {
+				en: "You may do 40 more damage. If you do, this Pokémon does 20 damage to itself.",
+				de: "Du kannst 40 Schadenspunkte mehr zufügen. Wenn du das machst, fügt dieses Pokémon sich selbst 20 Schadenspunkte zu."
+			},
+			damage: "80+"
+		},
+	],
 	stage: "Stage1",
 	retreat: 3,
 
@@ -36,9 +72,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	thirdParty: {
-		tcgplayer: 152874
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297253,
+				tcgplayer: 152874
+			}
+		},
+	],
+
 }
 
 export default card

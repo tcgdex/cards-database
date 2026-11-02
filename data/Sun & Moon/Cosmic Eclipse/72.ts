@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Chinchou",
 		fr: "Loupio",
+		de: "Lampi"
 	},
 
 	stage: "Stage1",
@@ -97,6 +98,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "When the bacteria living inside its antennae absorb Lanturn's bodily fluids, a strong luminescent effect is produced.",
+		de: "In Lanturns Antennen leben Bakterien, die seine Körperflüssigkeiten aufnehmen und so ein eindrucksvolles Lichtspektakel auslösen."
+	},
 
 	thirdParty: {
 		cardmarket: 408009,

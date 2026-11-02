@@ -69,23 +69,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "The songs they sing are totally different depending on the region they live in. Some even sound like they're shouting!"
+		en: "The songs they sing are totally different depending on the region they live in. Some even sound like they're shouting!",
+		de: "Sein Gesang unterscheidet sich je nach der Region, in der es lebt. Mancherorts erinnert er mehr an Geschrei."
 	},
 
-	thirdParty: {
-		cardmarket: 483214,
-		tcgplayer: 219441
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483214,
+				tcgplayer: 219441
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483214,
+				tcgplayer: 219441
+			}
+		},
+	],
 }
 
 export default card

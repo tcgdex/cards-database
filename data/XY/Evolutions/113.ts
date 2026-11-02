@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cada jugador pone todas sus cartas de Premio boca arriba. (Esas cartas de Premio permanecerán boca arriba durante el resto de la partida).",
 		it: "Entrambi i giocatori girano tutte le loro carte Premio a faccia in su (rimarranno così per il resto della partita).",
 		pt: "Cada jogador vira seus cards de Prêmio com a face voltada para cima. (Os cards de Prêmio permanecerão virados para cima pelo resto do jogo.)",
-		de: "Beide Spieler decken alle ihre Preiskarten auf. (Diese Preiskarten bleiben für den Rest des Spiels aufgedeckt.)"
+		de: "Beide Spieler decken alle ihre Preiskarten auf. (Diese Preiskarten bleiben für den Rest des Spiels aufgedeckt.) Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

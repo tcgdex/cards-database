@@ -69,6 +69,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It draws prey near with its blinking lights and then wraps them up in its long tentacles and holds them in place.",
+		de: "Mit den blinkenden Punkten auf seinem Körper lockt es Beute an, um sie dann mit seinen langen Tentakeln bewegungsunfähig zu machen."
+	},
+
 	thirdParty: {
 		cardmarket: 372408,
 		tcgplayer: 189218

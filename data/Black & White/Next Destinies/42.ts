@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Jump On",
 				fr: "Saut",
+				de: "Draufspringen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -52,6 +54,7 @@ const card: Card = {
 			name: {
 				en: "Static Shock",
 				fr: "Choc Statique",
+				de: "Statischer Schock"
 			},
 
 			damage: 20,
@@ -68,10 +71,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280267,
-		tcgplayer: 89179
-	}
+	description: {
+		en: "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
+		de: "Es erzeugt Elektrizität durch das Strecken und Zusammenziehen seiner Muskeln. Bei Bedrohung glüht es."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280267,
+				tcgplayer: 89179
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280267,
+				tcgplayer: 89179
+			}
+		},
+	],
 }
 
 export default card

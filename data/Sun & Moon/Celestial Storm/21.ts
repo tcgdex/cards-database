@@ -80,6 +80,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The bunch of fruit around its neck ripens twice a year and is delicious. It's a highly favored tropical snack.",
+		de: "Sein Hals trägt zweimal im Jahr süße Früchte. Kinder in den südlichen Tropen naschen oft davon."
+	},
+
 	thirdParty: {
 		cardmarket: 361268,
 		tcgplayer: 170831

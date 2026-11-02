@@ -35,14 +35,30 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Yuya Oka",
+
+	description: {
+		en: "The eggs it lays are filled with happiness. Eating even one bite will bring a smile to anyone.",
+		de: "Dieses Pokémon ist der Erzfeind von Vipitis. Begegnet es ihm, fährt es unverzüglich die Klauen an den Vorderbeinen aus, um es einzuschüchtern."
+	},
 
 	thirdParty: {
         cardmarket: 702442,

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pikachu",
-		fr: "Pikachu"
+		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -40,12 +41,12 @@ const card: Card = {
 			name: {
 				en: "Surprise Thunder",
 				fr: "Tonnerre surprise",
-				de: "Surprise Thunder"
+				de: "Überraschungsdonner"
 			},
 			effect: {
 				en: "Flip a coin. If heads, flip another coin. If the second coin is heads, this attack does 20 damage to each of your opponent's Benched Pokémon. If the second coin is tails, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Lancez une pièce. Si c'est face, lancez une autre pièce. Si la seconde pièce tombe sur face, cette attaque inflige 20 dégâts à chacun des Pokémon du Banc de votre adversaire. Si la seconde pièce tombe sur pile, cette attaque inflige 10 dégâts à chacun des Pokémon du Banc de votre adversaire. (N'appliquez pas la Faiblesse et la Résistance aux Pokémon du Banc.)",
-				de: "Flip a coin. If heads, flip another coin. If the second coin is heads, this attack does 20 damage to each of your opponent's Benched Pokémon. If the second coin is tails, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				de: "Wirf eine Münze. Bei „Kopf“ wirf eine weitere Münze. Falls die zweite Münze ebenfalls „Kopf“ zeigt, fügt dieser Angriff jedem Pokémon auf der gegnerischen Bank 20 Schadenspunkte zu. Falls die zweite Münze „Zahl“ zeigt, fügt dieser Angriff jedem Pokémon auf der gegnerischen Bank 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
 			},
 			damage: 30,
 
@@ -58,25 +59,33 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Il emmagasine l'électricité dans son corps, puis la libère sans prévenir afin de surprendre et commotionner tout le monde."
+		en: "Stores up electricity in its body, then suddenly releases it to surprise and shock everyone.",
+		fr: "Il emmagasine l'électricité dans son corps, puis la libère sans prévenir afin de surprendre et commotionner tout le monde.",
+		de: "Speichert Elektrizität in seinem Körper, die es dann plötzlich zum Überraschen und Schockieren aller freigibt."
 	},
 
-	thirdParty: {
-		cardmarket: 274136,
-		tcgplayer: 84647
-	},
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274136,
+				tcgplayer: 84647
+			}
 		},
 		{
-			type: "normal",
-			stamp: ["1st-edition"]
-		}
-	]
+			type: "holo",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274136,
+				tcgplayer: 84647
+			}
+		},
+	],
 }
 
 export default card

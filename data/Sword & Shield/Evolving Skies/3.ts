@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Skiploom",
@@ -80,16 +74,29 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It spreads its petals to absorb sunlight. It also floats in the air to get closer to the sun."
+		en: "It spreads its petals to absorb sunlight. It also floats in the air to get closer to the sun.",
+		de: "Es öffnet seine Blüte, um Sonnenlicht aufzunehmen. Es schwebt in der Luft, um der Sonne näher zu sein."
 	},
 
 	dexId: [188],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574027,
-		tcgplayer: 246815
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574027,
+				tcgplayer: 246815
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574027,
+				tcgplayer: 246815
+			}
+		},
+	],
 }
 
 export default card

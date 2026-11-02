@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Deino",
@@ -65,15 +59,28 @@ const card: Card = {
 	dexId: [633],
 
 	description: {
-		en: "Because it can't see, this Pokémon is constantly biting at everything it touches, trying to keep track of its surroundings."
+		en: "Because it can't see, this Pokémon is constantly biting at everything it touches, trying to keep track of its surroundings.",
+		de: "Da es nichts sehen kann, beißt es zur Orientierung in alles hinein, was sich in seiner Umgebung befindet."
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574161,
-		tcgplayer: 246911
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574161,
+				tcgplayer: 246911
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574161,
+				tcgplayer: 246911
+			}
+		},
+	],
 }
 
 export default card

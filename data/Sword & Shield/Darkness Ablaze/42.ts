@@ -86,23 +86,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning up water with its tail."
+		en: "It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning up water with its tail.",
+		de: "Hält sich bevorzugt in reinen Gewässern auf. Geht ihm das Wasser in seinem Kopf aus, tankt es mit seinem Schweif nach."
 	},
 
-	thirdParty: {
-		cardmarket: 483089,
-		tcgplayer: 219338
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483089,
+				tcgplayer: 219338
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483089,
+				tcgplayer: 219338
+			}
+		},
+	],
 }
 
 export default card

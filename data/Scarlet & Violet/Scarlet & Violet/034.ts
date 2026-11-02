@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Houndour",
-		fr: "Malosse"
+		fr: "Malosse",
+		de: "Hunduster"
 	},
 
 	stage: "Stage1",
@@ -63,14 +64,30 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "hncl",
+
+	description: {
+		en: "Upon hearing its eerie howls, other Pokémon get the shivers and head straight back to their nests.",
+		de: "Wenn andere Pokémon sein gruseliges Geheul hören, erschaudern sie und eilen Hals über Kopf zurück in ihren Unterschlupf."
+	},
 
 	thirdParty: {
         cardmarket: 702330,

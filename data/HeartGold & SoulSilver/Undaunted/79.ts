@@ -16,30 +16,42 @@ const card: Card = {
 	effect: {
 		fr: "Si le Pokémon auquel est attachée Énergie Obscurité lance une attaque, cette dernière inflige 10 dégâts supplémentaires au Pokémon Actif (avant application de la Faiblesse et de la Résistance). Ignorez cet effet si le Pokémon auquel est attachée Énergie Obscurité n’est pas Darkness. Énergie Obscurité fournit de l’Énergie Darkness. (Ne compte pas comme une carte Énergie de base.)",
 		en: "If the Pokémon Darkness Energy is attached to attacks, the attack does 10 more damage to the Active Pokémon (before applying Weakness and Resistance). Ignore this effect if the Pokémon that Darkness Energy is attached to isn’t Darkness. Darkness Energy provides Darkness Energy. (Doesn’t count as a basic Energy card.)",
-		de: "Falls das Pokémon, an das Finsternis-Energie angelegt ist, angreift, fügt der Angriff den Aktiven Pokémon 10 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden). Dieser Effekt wirkt nur, wenn die Finsternis-Energie an einem Pokémon vom Typ  angelegt ist. Finsternis-Energie liefert -Energie. (Zählt nicht als Basis-Energiekarte.)"
+		de: "Falls das Pokémon, an das Finsternis-Energie angelegt ist, angreift, fügt der Angriff den Aktiven Pokémon 10 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden). Dieser Effekt wirkt nur, wenn die Finsternis-Energie an einem Pokémon vom Typ {D} angelegt ist. Finsternis-Energie liefert {D}-Energie. (Zählt nicht als Basis-Energiekarte.)"
 	},
 
 	energyType: "Special",
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279332,
+				tcgplayer: 84693
+			}
 		},
 		{
 			type: "reverse",
-			foil: "league"
+			thirdParty: {
+				cardmarket: 279332,
+				tcgplayer: 84693
+			}
+		},
+		{
+			type: "reverse",
+			foil: "league",
+			thirdParty: {
+				cardmarket: 371568,
+				tcgplayer: 163857
+			}
 		},
 	],
 
 	hp: 0,
 
-	thirdParty: {
-		cardmarket: 279332,
-		tcgplayer: 84693
-	}
+	types: [
+		"Darkness"
+	],
+	retreat: 0
 }
 
 export default card

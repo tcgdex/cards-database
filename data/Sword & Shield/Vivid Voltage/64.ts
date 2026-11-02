@@ -85,12 +85,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -98,10 +92,22 @@ const card: Card = {
 		en: "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people."
 	},
 
-	thirdParty: {
-		cardmarket: 511740,
-		tcgplayer: 226468
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511740,
+				tcgplayer: 226468
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511740,
+				tcgplayer: 226468
+			}
+		},
+	],
 }
 
 export default card

@@ -67,7 +67,7 @@ const card: Card = {
 				es: "Bolita Suprema GX",
 				it: "Paffutezza Suprema GX",
 				pt: "Sopro Supremo GX",
-				de: "Superbausch GX"
+				de: "Superbausch-GX"
 			},
 			effect: {
 				en: "Take another turn after this one. (Skip the between-turns step.) If this Pokémon has at least 14 extra Fairy Energy attached to it (in addition to this attack’s cost), your opponent shuffles all of their Benched Pokémon and all cards attached to them into their deck. (You can’t use more than 1 GX attack in a game.)",
@@ -75,7 +75,7 @@ const card: Card = {
 				es: "Toma otro turno después de este. (Sáltate el paso entre turnos). Si este Pokémon tiene por lo menos 14 Energías Fairy adicionales unidas a él (además de las del coste de este ataque), tu rival pone todos sus Pokémon en Banca y todas las cartas unidas a ellos en su baraja, y baraja todas las cartas. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Dopo questo turno, giocane un altro (salta la fase tra i turni). Se questo Pokémon ha almeno 14 Energie Fairy extra assegnate, in aggiunta a quelle del costo di questo attacco, il tuo avversario rimischia tutti i suoi Pokémon in panchina e tutte le carte loro assegnate nel proprio mazzo. Non puoi usare più di un attacco GX a partita.",
 				pt: "Jogue novamente após esta vez de jogar (pule o passo “entre as vezes de jogar”). Se este Pokémon tiver pelo menos 14 Energias Fairy adicionais ligadas a ele (além do custo deste ataque), seu oponente embaralha todos os Pokémon no Banco dele(a) e todas as cartas ligadas a eles no próprio baralho (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Du bist nach diesem Zug erneut am Zug. (Lasse den Schritt zwischen den Zügen aus.) Wenn an dieses Pokémon mindestens 14 extra Fairy-Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), mischt dein Gegner alle Pokémon auf seiner Bank und alle an sie angelegten Karten in sein Deck. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				de: "Du bist nach diesem Zug erneut am Zug. (Lasse den Schritt zwischen den Zügen aus.) Wenn an dieses Pokémon mindestens 14 extra {FAIRY}-Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), mischt dein Gegner alle Pokémon auf seiner Bank und alle an sie angelegten Karten in sein Deck. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 
 		},

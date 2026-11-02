@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Sabrina’s Suggestion",
 		fr: "Suggestion de Morgane",
+		de: "Sabrinas Vorschlag"
 	},
 	illustrator: "Hitoshi Ariga",
 	rarity: "Uncommon",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	effect: {
 		fr: "Votre adversaire dévoile sa main. Vous pouvez choisir une carte Supporter que vous y trouvez et utiliser son effet en tant qu’effet de cette carte.",
-		en: "Your opponent reveals their hand. You may choose a Supporter card you find there and use the effect of that card as the effect of this card."
+		en: "Your opponent reveals their hand. You may choose a Supporter card you find there and use the effect of that card as the effect of this card.",
+		de: "Dein Gegner zeigt dir seine Handkarten. Du kannst 1 Unterstützerkarte, die du dort findest, wählen und den Effekt jener Karte als Effekt dieser Karte einsetzen. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 	trainerType: "Supporter",
 

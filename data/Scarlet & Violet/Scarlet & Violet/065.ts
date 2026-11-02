@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Magneton",
-		fr: "Magnéton"
+		fr: "Magnéton",
+		de: "Magneton"
 	},
 
 	stage: "Stage2",
@@ -72,15 +73,24 @@ const card: Card = {
 		damage: 220
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
+	suffix: "ex",
 	illustrator: "hncl",
+
 
 	thirdParty: {
         cardmarket: 702361,

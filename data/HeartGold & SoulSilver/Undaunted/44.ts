@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		415,
-	],
+	dexId: [415],
 
 	hp: 30,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -55,22 +53,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "At night, Combee sleep in a group of about a thousand, packed closely together in a lump."
+		en: "At night, Combee sleep in a group of about a thousand, packed closely together in a lump.",
+		de: "Des Nachts schmiegen sich bis zu 100 WADRIBIE aneinander und schlafen in einem großen Haufen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279297,
+				tcgplayer: 84397
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279297,
+				tcgplayer: 84397
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279297,
-		tcgplayer: 84397
-	}
 }
 
 export default card

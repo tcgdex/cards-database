@@ -55,18 +55,39 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "When spread, the frills on its head act like solar panels, generating the power behind this Pokémon's electric moves.",
+		de: "Es breitet die Hautlappen an seinem Kopf aus, um mithilfe des Sonnenlichts Strom zu erzeugen und mächtige Elektro-Attacken einzusetzen."
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769244,
+				tcgplayer: 550114
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769244,
+				tcgplayer: 550114
+			}
+		},
+	],
 
 	illustrator: "Taiga Kayama",
 
-	thirdParty: {
-		cardmarket: 769244
-	}
 }
 
 export default card

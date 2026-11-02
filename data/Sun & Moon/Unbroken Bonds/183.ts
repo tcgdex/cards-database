@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Los Pokémon-GX y Pokémon-EX en juego (tanto tuyos como de tu rival) no tienen ninguna habilidad.",
 		it: "Le abilità dei Pokémon-GX e dei Pokémon-EX in gioco, sia tuoi che del tuo avversario, non hanno effetto.",
 		pt: "Os Pokémon-GX e Pokémon-EX em jogo (seus e do seu oponente) não têm Habilidades.",
-		de: "Pokémon-GX und Pokémon-EX im Spiel (deine und die deines Gegners) haben keine Fähigkeiten."
+		de: "Pokémon-GX und Pokémon-EX im Spiel (deine und die deines Gegners) haben keine Fähigkeiten. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

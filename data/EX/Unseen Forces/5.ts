@@ -42,7 +42,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your discard pile for a Fire Energy card and attach it to 1 of your Pokémon.",
-				fr: "Choisissez dans votre pile de défausse une carte Énergie  et attachez-la à un 1 de vos Pokémon.",
+				fr: "Choisissez dans votre pile de défausse une carte Énergie {R} et attachez-la à un 1 de vos Pokémon.",
 				de: "Search your discard pile for a  Energy card and attach it to 1 of your Pokémon."
 			},
 			damage: 20,
@@ -79,20 +79,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276651,
-		tcgplayer: 85494
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 85494,
+				cardmarket: 276651
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 85494,
+				cardmarket: 276651
+			},
 		}
-	]
+	],
 }
 
 export default card

@@ -88,7 +88,7 @@ const card: Card = {
 				es: "Juego de Entes GX",
 				it: "Ultra Azzardo GX",
 				pt: "Jogo de Criatura GX",
-				de: "Bestienspiel GX"
+				de: "Bestienspiel-GX"
 			},
 			effect: {
 				en: "If your opponent’s Pokémon is Knocked Out by damage from this attack, take 1 more Prize card. If this Pokémon has at least 7 extra Energy attached to it (in addition to this attack’s cost), take 3 more Prize cards instead. (You can’t use more than 1 GX attack in a game.)",

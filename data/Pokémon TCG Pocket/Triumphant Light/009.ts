@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Il attire sa proie avec sa salive odorante avant\nde la croquer. Il lui faut une journée pour l'avaler.",
 		es: "Atrae a sus presas con saliva de olor dulce y\nlas mastica. Tarda todo un día en comérselas.",
 		it: "Attira le prede con il dolce aroma della saliva e poi\nle ingoia. Impiega un giorno per mangiare una preda.",
-		de: "Sein süßlich riechender Speichel zieht Beute an,\ndie es frisst. Es braucht einen Tag, sie zu fressen.",
+		de: "Sein süßlich riechender Speichel zieht Beute an, die es frisst. Es braucht einen Tag, sie zu fressen.",
 		'pt-br': "Atrai presas com sua saliva doce e depois as mastiga.\nLeva um dia inteiro para comer uma presa.",
 		ko: "달콤한 냄새의 타액으로 먹이를\n끌어들여 큰 턱으로 꿀꺽한다.\n하루에 걸쳐 먹이를 먹는다."
 	},

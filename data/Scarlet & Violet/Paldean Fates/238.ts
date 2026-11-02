@@ -4,6 +4,8 @@ import Set from "../Paldean Fates"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [921],
+
 	name: {
 		en: "Nemona",
 		fr: "Menzi",
@@ -21,23 +23,27 @@ const card: Card = {
 		fr: "Piochez 3 cartes.",
 		es: "Roba 3 cartas.",
 		it: "Pesca tre carte.",
-		de: "Ziehe 3 Karten.",
+		de: "Ziehe 3 Karten. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen.",
 		pt: "Compre 3 cartas."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751785,
+				tcgplayer: 535104,
+				cardtrader: 274422
+			}
+		},
+	],
 
 	illustrator: "aspara",
 
-	thirdParty: {
-		cardmarket: 751785
-	}
+	
 }
 
 export default card

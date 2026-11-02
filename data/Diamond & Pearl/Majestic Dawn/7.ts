@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Evoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -84,6 +85,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Just like a plant, it uses photosynthesis. As a result, it is always enveloped in clear air.",
+		de: "Genau wie ein Pflanze führt es die Photosynthese aus. Deshalb ist es ständig von reiner Luft umgeben."
+	},
 
 	thirdParty: {
 		cardmarket: 278056,

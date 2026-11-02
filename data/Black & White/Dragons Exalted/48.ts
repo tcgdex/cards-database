@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [291],
 
 	dexId: [
 		292,
@@ -29,6 +30,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Nincada",
 		fr: "Ningale",
+		de: "Nincada"
 	},
 
 	stage: "Stage1",
@@ -63,10 +65,12 @@ const card: Card = {
 			name: {
 				en: "Cursed Drop",
 				fr: "Chute Maudite",
+				de: "Verfluchter Fall"
 			},
 			effect: {
 				en: "Put 3 damage counters on your opponent's Pokémon in any way you like.",
 				fr: "Placez 3 marqueurs de dégâts sur les Pokémon de votre adversaire, de la manière que vous voulez.",
+				de: "Verteile 3 Schadensmarken beliebig auf die Pokémon deines Gegners."
 			},
 
 		},
@@ -74,10 +78,27 @@ const card: Card = {
 
 	retreat: 0,
 
-	thirdParty: {
-		cardmarket: 280487,
-		tcgplayer: 89121
-	}
+	description: {
+		en: "A discarded bug shell that came to life. Peering into the crack on its back is said to steal one's spirit.",
+		de: "Ein weggeworfener Käferpanzer, der zum Leben erwachte. Schaut man hinein, stiehlt es einem die Seele."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280487,
+				tcgplayer: 89121
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280487,
+				tcgplayer: 89121
+			}
+		},
+	],
 }
 
 export default card

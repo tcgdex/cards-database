@@ -93,6 +93,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The only thing unlucky about Absol is its appearance. It protects fields and warns people of disaster, so one ought to be grateful for it.",
+		de: "Nur sein Erscheinen ist unheilvoll. Die Menschen sind ihm dankbar, weil es ihre Felder beschützt und sie vor drohenden Katastrophen warnt."
+	},
+
 	thirdParty: {
 		cardmarket: 408314,
 		tcgplayer: 201177

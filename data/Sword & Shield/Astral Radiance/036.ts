@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Welsar"
 	},
 
+	illustrator: "Shinji Kanda",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
@@ -67,20 +68,37 @@ const card: Card = {
 		damage: "120+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It makes its nest at the bottom of swamps. It will eat anything—if it is alive, Whiscash will eat it.",
+		de: "Dieses Pokémon baut sein Nest am Grund von Sümpfen. Es ist ein Vielfraß und verspeist Lebewesen aller Art."
 	},
 
-	thirdParty: {
-		cardmarket: 658544,
-		tcgplayer: 272236
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658544,
+				tcgplayer: 272236
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658544,
+				tcgplayer: 272236
+			}
+		},
+	],
 }
 
 export default card

@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Like the wind, it can slip through any gap, no matter how small. It leaves balls of white fluff behind.",
+	},
+
 	thirdParty: {
 		cardmarket: 284237,
 		tcgplayer: 101478

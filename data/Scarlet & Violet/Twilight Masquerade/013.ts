@@ -65,18 +65,39 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Trevenant is very kind to Pokémon living in the forest. It doesn't even care if these Pokémon take up residence in the greenery on its head.",
+		de: "Zu den im Wald lebenden Pokémon ist es sehr freundlich. Es macht ihm auch nichts aus, wenn sie sich im Geäst auf seinem Kopf einquartieren."
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769187,
+				tcgplayer: 550057
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769187,
+				tcgplayer: 550057
+			}
+		},
+	],
 
 	illustrator: "Oswaldo KATO",
 
-	thirdParty: {
-		cardmarket: 769187
-	}
 }
 
 export default card

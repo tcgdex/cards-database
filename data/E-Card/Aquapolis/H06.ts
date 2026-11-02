@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Naoyo Kimura",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		242,
-	],
+	dexId: [242],
 
 	hp: 120,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Chansey",
-		fr: "Leveinard"
+		fr: "Leveinard",
+		de: "Chaneira"
 	},
 
 	stage: "Stage1",
@@ -36,13 +35,13 @@ const card: Card = {
 			name: {
 				en: "Happy Healing",
 				fr: "Joyeux soin",
-				de: "Happy Healing"
+				de: "Fröhliche Heilung"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), choose 1 of your Benched Pokémon and flip a coin. If heads, count the number of Energy attached to Blissey and then remove that many damage counters from the chosen Benched Pokémon. This power can't be used if Blissey is affected by a Special Condition.",
 				fr: "Une fois pendant votre tour (avant votre attaque), choisissez 1 des Pokémon de votre Banc et lancez une pièce. Si c'est face, comptez le nombre d'Énergies attachées à Leuphorie et retirez ensuite autant de marqueurs de dégâts du Pokémon du Banc que vous avez choisi. Ce pouvoir ne peut pas être utilisé si Leuphorie est affecté par un État spécial.",
-				de: "Once during your turn (before your attack), choose 1 of your Benched Pokémon and flip a coin. If heads, count the number of Energy attached to Blissey and then remove that many damage counters from the chosen Benched Pokémon. This power can't be used if Blissey is affected by a Special Condition."
-			},
+				de: "Wähle einmal während deines Zuges (vor deinem Angriff) 1 der Pokémon auf deiner Bank und wirf eine Münze. Zähle bei „Kopf“ die Anzahl der an Heiteira angelegten Energie und entferne so viele Schadensmarken vom gewählten Pokémon auf deiner Bank. Diese Fähigkeit kann nicht verwendet werden, falls Heiteira von einem Speziellen Zustand betroffen ist."
+			}
 		},
 	],
 
@@ -57,13 +56,13 @@ const card: Card = {
 			name: {
 				en: "Smash Bomber",
 				fr: "Bombard'éclate",
-				de: "Smash Bomber"
+				de: "Schmetterbombe"
 			},
 
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Flip a coin. If tails, this attack does nothing."
+				de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 50
@@ -73,19 +72,20 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275078,
-		tcgplayer: 83920
-	},
 
 	variants: [
 		{
 			type: "holo",
-		}
+			thirdParty: {
+				tcgplayer: 83920,
+				cardmarket: 275078
+			}
+		},
 	]
 }
 

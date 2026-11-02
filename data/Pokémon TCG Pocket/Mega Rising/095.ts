@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Yamper"
+		en: "Yamper",
+		fr: "Voltoutou"
 	},
 
 	illustrator: "Saya Tsuruta",
@@ -17,20 +18,23 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "This gluttonous Pokémon only assists people with\ntheir work because it wants treats. As it runs,\nit crackles with electricity."
+		en: "This gluttonous Pokémon only assists people with\ntheir work because it wants treats. As it runs,\nit crackles with electricity.",
+		fr: "Ce glouton assiste les humains dans leur travail en échange de friandises. Il court sans arrêt, le corps enveloppé d'électricité."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Roar"
+			en: "Roar",
+			fr: "Hurlement"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)"
+			en: "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+			fr: "Échangez le Pokémon Actif de votre adversaire avec l'un de ses Pokémon de Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)"
 		}
 	}],
 

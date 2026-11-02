@@ -35,18 +35,42 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It skulks in caves, and when prey or an enemy passes by, it leaps out and chomps them. The force of its attack sometimes chips its teeth.",
+		de: "Es verbirgt sich in kleinen Höhlen, aus denen es herausspringt und vorbeilaufende Gegner oder Beute beißt. Manchmal bricht dabei ein Zahn ab."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740597,
+				tcgplayer: 523764,
+				cardtrader: 265203
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740597,
+				tcgplayer: 523764,
+				cardtrader: 265203
+			}
+		},
+	],
 
 	illustrator: "saino misaki",
 
-	thirdParty: {
-		cardmarket: 740597
-	}
+	
 }
 
 export default card

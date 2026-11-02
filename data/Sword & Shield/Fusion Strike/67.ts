@@ -34,7 +34,8 @@ const card: Card = {
 	illustrator: "Misa Tsutsui",
 
 	description: {
-		en: "It sucks bodily fluids out of its prey. The leftover meat sinks to the seafloor, where it becomes food for other Pokémon."
+		en: "It sucks bodily fluids out of its prey. The leftover meat sinks to the seafloor, where it becomes food for other Pokémon.",
+		de: "Es saugt die Körpersäfte seiner Beute aus. Was übrig bleibt, sinkt zu Boden und wird von anderen Pokémon verspeist."
 	},
 
 	abilities: [{
@@ -88,17 +89,23 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582201,
-		tcgplayer: 253210
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582201,
+				tcgplayer: 253210
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582201,
+				tcgplayer: 253210
+			}
+		},
+	],
 }
 
 export default card

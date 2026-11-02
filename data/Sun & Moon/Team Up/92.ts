@@ -85,6 +85,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It can't fly yet and must wait until its wings have developed more. Since it's still at a playful age, it hops around friskily.",
+		de: "Dieses Pokémon ist noch sehr verspielt. Seine Flügel sind noch zu klein zum Fliegen, es kann sich also nur hüpfend fortbewegen."
+	},
+
 	thirdParty: {
 		cardmarket: 369022,
 		tcgplayer: 183870

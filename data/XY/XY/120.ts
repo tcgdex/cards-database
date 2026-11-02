@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon 1 Pokémon de tu pila de descartes en la parte superior de tu baraja.",
 		it: "Prendi un Pokémon dalla tua pila degli scarti e mettilo in cima al tuo mazzo.",
 		pt: "Coloque um Pokémon da sua pilha de descarte em cima do seu baralho.",
-		de: "Lege 1 Pokémon von deinem Ablagestapel auf dein Deck."
+		de: "Lege 1 Pokémon von deinem Ablagestapel auf dein Deck. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

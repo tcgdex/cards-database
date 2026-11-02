@@ -85,6 +85,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When it finds a flower it likes, it dwells on that flower its whole life long. It floats in the wind's embrace with an untroubled heart.",
+		de: "Hat es eine Blume gefunden, die ihm gefällt, lebt es sein Leben lang in Symbiose mit ihr. Es lässt sich unbekümmert vom Wind treiben."
+	},
+
 	thirdParty: {
 		cardmarket: 355597
 	}

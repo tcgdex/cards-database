@@ -88,23 +88,30 @@ const card: Card = {
 	types: ["Lightning"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "A now-vanished desert culture treasured these Pokémon. Appropriately, when Heliolisk came to the Galar region, treasure came with them."
+		en: "A now-vanished desert culture treasured these Pokémon. Appropriately, when Heliolisk came to the Galar region, treasure came with them.",
+		de: "Es wurde in einem Wüstenreich, das vor langer Zeit unterging, sehr respektiert. Zusammen mit dessen Schätzen gelangte es in die Galar-Region."
 	},
 
-	thirdParty: {
-		cardmarket: 457753,
-		tcgplayer: 213147
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457753,
+				tcgplayer: 213147
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457753,
+				tcgplayer: 213147
+			}
+		},
+	],
 }
 
 export default card

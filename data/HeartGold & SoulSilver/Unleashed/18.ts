@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		171,
-	],
+	dexId: [171],
 
 	hp: 90,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
 		en: "Chinchou",
 		fr: "Loupio",
+		de: "Lampi"
 	},
 
 	stage: "Stage1",
@@ -43,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -79,22 +78,27 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "The light it emits is so bright that it can illuminate the sea’s surface from a depth of over three miles."
+		en: "The light it emits is so bright that it can illuminate the sea’s surface from a depth of over three miles.",
+		de: "Sein Licht ist so hell, dass es selbst vom Meeresgrund aus 5 000 Metern Tiefe an die Oberfläche dringt."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86610,
+				cardmarket: 279174
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86610,
+				cardmarket: 279174
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279174,
-		tcgplayer: 86610
-	}
 }
 
 export default card

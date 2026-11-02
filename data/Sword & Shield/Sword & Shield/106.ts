@@ -78,7 +78,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Mud that hardens around a Mudsdale's legs sets harder than stone. It's so hard that it allows this Pokémon to scrap a truck with a single kick."
+		en: "Mud that hardens around a Mudsdale's legs sets harder than stone. It's so hard that it allows this Pokémon to scrap a truck with a single kick.",
+		de: "Durch Schlamm werden seine Beine härter als Stein. Ein Angriff mit ihnen verfügt über genug Wucht, um einen Lastwagen zu zerstören."
 	},
 
 	dexId: [750],

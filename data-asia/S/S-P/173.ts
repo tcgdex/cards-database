@@ -1,55 +1,64 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "雷吉奇卡斯"
+		ja: "コオリッポ",
+		'zh-tw': "雷吉奇卡斯",
 	},
 
-	illustrator: "GOSSAN",
+	illustrator: "kirisAki",
 	category: "Pokemon",
-	hp: 150,
-	types: ["Colorless"],
+	hp: 120,
+	types: ["Water"],
 
 	description: {
-		'zh-tw': "在世上流傳著的傳說中，牠拉動了被繩子所綑綁的大地。"
+		ja: "暑さに 弱い 顔を いつも 氷で 冷やしている。 頭の 毛を 海に たらして 餌を釣る。",
+		'zh-tw': "在世上流傳著的傳說中，牠拉動了被繩子所綑綁的大地。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "暖身"
+	attacks: [
+		{
+			name: {
+				ja: "アイスボーナス",
+				'zh-tw': "暖身",
+			},
+			cost: ["Water"],
+			effect: {
+				ja: "自分の手札から[水]エネルギーを1枚選び、トラッシュする。その後、自分の山札を3枚引く。",
+				'zh-tw': "從自己的棄牌區選擇1張基本能量卡，附於這隻寶可夢身上。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "從自己的棄牌區選擇1張基本能量卡，附於這隻寶可夢身上。"
+		{
+			name: {
+				ja: "とびだしヘッド",
+				'zh-tw': "雙重衝擊",
+			},
+			damage: 100,
+			cost: ["Water", "Water", "Colorless"],
 		},
+	],
 
-		damage: 20,
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "雙重衝擊"
+	weaknesses: [{ type: "Metal", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 561782,
+				tcgplayer: 597371,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "擲2次硬幣，造成正面出現的次數×120點傷害。"
-		},
+	retreat: 2,
+	regulationMark: "E",
+	rarity: "Promo",
+	dexId: [875],
+};
 
-		damage: "120×",
-		cost: ["Colorless", "Colorless", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
-
-	retreat: 4,
-	regulationMark: "F"
-}
-
-export default card
+export default card;

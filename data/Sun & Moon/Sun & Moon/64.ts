@@ -62,6 +62,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its body is gaseous and frail. It slowly grows as it collects dust from the atmosphere.",
+		de: "Sein Körper besteht aus flüchtigem Gas. Es wächst durch das Sammeln von Staub aus der Luft."
+	},
+
 	thirdParty: {
 		cardmarket: 295375,
 		tcgplayer: 126935

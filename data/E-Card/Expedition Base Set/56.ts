@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		150,
-	],
+	dexId: [150],
 
 	hp: 70,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
-				de: "Wirf eine Münze. Bei 'Kopf' schläft das Verteidigende Pokémon jetzt."
+				de: "Wirf eine Münze. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt."
 			},
 
 		},
@@ -56,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "This attack does 20 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.",
 				fr: "Cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie attachée au Pokémon Défenseur.",
-				de: "Dieser Angriff fügt 20 Schadenspunkte plus zusätzlich 10 Schadenspunkte für jede an das Verteidigende Pokémon angelegte Energiekarte zu."
+				de: "Dieser Angriff fügt 20 Schadenspunkte plus zusätzliche 10 Schadenspunkte für jede an das Verteidigende Pokémon angelegte Energiekarte zu."
 			},
 			damage: "20+",
 
@@ -66,23 +64,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 274894,
-		tcgplayer: 87420
-	},
 
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87420,
+				cardmarket: 274894
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 87420,
+				cardmarket: 274894
+			},
+		},
+	],
 }
 
 export default card

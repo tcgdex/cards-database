@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Vipitis"
 	},
 	illustrator: "Eri Yamaki",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -84,6 +84,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "In battle, it uses its bladed tail to counter any Zangoose. It secretes a deadly venom in its tail.",
+		de: "Die flinken Angriffe von Sengo kontert es mit seinem messerscharfen Schweif, aus dem Gift austritt."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299572,
+				tcgplayer: 139088
+			}
+		}
+	],
 }
 
 export default card

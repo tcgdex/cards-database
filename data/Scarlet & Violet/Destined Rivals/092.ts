@@ -83,21 +83,31 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825966,
+				tcgplayer: 632901
+			}
 		},
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 825966,
+				tcgplayer: 632901
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825966
-	}
 }
 
 export default card

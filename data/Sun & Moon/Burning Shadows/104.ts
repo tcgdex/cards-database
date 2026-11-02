@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Porygon",
 		fr: "Porygon",
+		de: "Porygon"
 	},
 
 	stage: "Stage1",
@@ -85,10 +86,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299505,
-		tcgplayer: 138600
-	}
+	description: {
+		en: "For the purposes of planetary development, Porygon was updated with the most cutting-edge technology available.",
+		de: "In der Absicht, andere Planeten zu erforschen, verpasste man Porygon ein Upgrade auf dem höchsten Stand der damaligen Technologie."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299505,
+				tcgplayer: 138600
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299505,
+				tcgplayer: 138600
+			}
+		},
+	],
 }
 
 export default card

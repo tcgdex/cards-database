@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Solosis",
 		fr: "Nucléos",
+		de: "Monozyto"
 	},
 
 	stage: "Stage1",
@@ -41,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 20,
@@ -57,10 +59,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280174,
-		tcgplayer: 85017
-	}
+	description: {
+		en: "Since they have two divided brains, at times they suddenly try to take two different actions at once.",
+		de: "Wegen seines gespaltenen Denkapparates kann es vorkommen, dass es sich abrupt einer anderen Tätigkeit zuwendet."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280174,
+				tcgplayer: 85017
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280174,
+				tcgplayer: 85017
+			}
+		},
+	],
 }
 
 export default card

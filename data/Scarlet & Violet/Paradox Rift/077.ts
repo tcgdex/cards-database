@@ -57,18 +57,48 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The light that streams out from the holes in the pumpkin can hypnotize and control the people and Pokémon that see it.",
+		de: "Blicken Menschen und Pokémon in das Licht, das aus den Löchern seines Kürbisses dringt, werden sie hypnotisiert und von Irrbis kontrolliert."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740569,
+				tcgplayer: 523743,
+				cardtrader: 265186
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740569,
+				tcgplayer: 523743,
+				cardtrader: 265186
+			}
+		},
+	],
 
 	illustrator: "saino misaki",
 
-	thirdParty: {
-		cardmarket: 740569
-	}
+	
 }
 
 export default card

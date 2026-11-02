@@ -57,20 +57,31 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "Deerling have different scents depending on the season. In this form, Deerling have a softly sweet scent that lingers in the nose.",
+	},
+
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760795,
+				tcgplayer: 542886
+			}
+		},
 	],
 
 	illustrator: "Susumu Maeya",
 
-	thirdParty: {
-		cardmarket: 760795
-	}
 }
 
 export default card

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Joltik",
 		fr: "Statitik",
+		de: "Wattzapf"
 	},
 
 	stage: "Stage1",
@@ -41,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Gnaw",
 				fr: "Ronge",
+				de: "Nagen"
 			},
 
 			damage: 20,
@@ -54,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Stun Needle",
 				fr: "Para-Dard",
+				de: "Betäubungsnadel"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 30,
 
@@ -73,10 +77,27 @@ const card: Card = {
 
 	retreat: 0,
 
-	thirdParty: {
-		cardmarket: 279999,
-		tcgplayer: 85611
-	}
+	description: {
+		en: "When attacked, they create an electric barrier by spitting out many electrically charged threads.",
+		de: "Wird es angegriffen, spuckt es mit vielen elektrisch geladenen Fäden um sich und baut sich eine Elektrobarriere."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279999,
+				tcgplayer: 85611
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279999,
+				tcgplayer: 85611
+			}
+		},
+	],
 }
 
 export default card

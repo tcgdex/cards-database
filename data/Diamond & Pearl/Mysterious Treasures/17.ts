@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pupitar",
-		fr: "Ymphect"
+		fr: "Ymphect",
+		de: "Pupitar"
 	},
 
 	stage: "Stage2",
@@ -84,9 +85,13 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 4,
+
 
 	description: {
-		fr: "Lorsqu'il est en colère, il abat des montagnes et enterre des fleuves. On doit alors modifier les cartes."
+		en: "If it rampages, it knocks down mountains and buries rivers. Maps must be redrawn afterward.",
+		fr: "Lorsqu'il est en colère, il abat des montagnes et enterre des fleuves. On doit alors modifier les cartes.",
+		de: "Bei einem Tobsuchtsanfall zerstört es ganze Gebirge und legt Flüsse trocken."
 	},
 
 	thirdParty: {

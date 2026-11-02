@@ -67,15 +67,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 273956,
-		tcgplayer: 42472
+
+	description: {
+		en: "A Pokémon that has been long admired for its beauty. It runs gracefully, as if on wings.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273956,
+				tcgplayer: 42472
+			}
 		}
 	]
 }

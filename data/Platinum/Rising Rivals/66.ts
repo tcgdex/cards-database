@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		14,
-	],
+	dexId: [14],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Weedle",
 		fr: "Aspicot",
+		de: "Hornliu"
 	},
 
 	stage: "Stage1",
@@ -42,7 +41,7 @@ const card: Card = {
 				en: "Any damage done to Kakuna by attacks is reduced by 20 (after applying Weakness and Resistance).",
 				fr: "Tous dégâts infligés à Coconfort par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
 				de: "Schaden, der Kokuna durch Angriffe zugefügt wird, wird um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
-			},
+			}
 		},
 	],
 
@@ -59,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "The Defending Pokémon is now Poisoned. Flip a coin. If heads, search your deck for an Evolution card that evolves from Kakuna and put it onto Kakuna. (This counts as evolving Kakuna.) Shuffle your deck afterward.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Lancez une pièce. Si c'est face, choisissez dans votre deck une carte Évolution qui évolue de Coconfort et placez-la sur Coconfort. (Vous le faites ainsi évoluer). Ensuite, mélangez votre deck.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Wirf 1 Münze. Bei \"Kopf\" durchsuche dein Deck nach einer Evolutionskarte, die sich aus Kokuna entwickelt, und lege diese auf Kokuna. (Dies zählt als Entwickeln von Kokuna.) Mische dein Deck danach."
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Wirf 1 Münze. Bei „Kopf“ durchsuche dein Deck nach einer Evolutionskarte, die sich aus Kokuna entwickelt, und lege diese auf Kokuna. (Dies zählt als Entwickeln von Kokuna.) Mische dein Deck danach."
 			},
 
 		},
@@ -71,26 +70,38 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278640,
-		tcgplayer: 86414
+	description: {
+		en: "While awaiting evolution, it hides from predators under leaves and in nooks of branches.",
+		de: "Während es auf seine Entwicklung wartet, versteckt es sich unter Blättern und zwischen Ästen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86414,
+				cardmarket: 278640,
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278640,
+				tcgplayer: 86414
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["stephen-silvestro"]
+			stamp: ["stephen-silvestro"],
+			thirdParty: {
+				cardmarket: 868918,
+				tcgplayer: 479906
+			}
 		}
-	]
+	],
+
 }
 
 export default card

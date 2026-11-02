@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Cranidos"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Fighting"],
@@ -67,16 +67,28 @@ const card: Card = {
 		damage: "40+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
 	description: {
 		en: "Its hard skull is its distinguishing feature. It snapped trees by headbutting them, and then it fed on their ripe berries."
 	},
-
-	thirdParty: {
-		cardmarket: 684386
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 684386,
+				tcgplayer: 454227
+			}
+		},
+	],
 }
 
 export default card

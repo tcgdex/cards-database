@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S11"
+import { Card } from "../../../interfaces";
+import Set from "../S11";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "毛球"
+		ja: "コンパン",
+		'zh-tw': "毛球",
 	},
 
 	illustrator: "Sekio",
@@ -14,27 +14,40 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		'zh-tw': "似乎住在大樹下，吃蟲子之類的東西。 夜裡會到有亮光的地方去。"
+		ja: "大きな 木の下に 住んでいて 虫などを 食べているらしい。 夜は 明かりのそばに やってくる。",
+		'zh-tw': "似乎住在大樹下，吃蟲子之類的東西。 夜裡會到有亮光的地方去。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "撞擊"
+	attacks: [
+		{
+			name: {
+				ja: "たいあたり",
+				'zh-tw': "撞擊",
+			},
+			damage: 20,
+			cost: ["Grass"],
 		},
+	],
 
-		damage: 20,
-		cost: ["Grass"]
-	}],
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 667561,
+				tcgplayer: 569932,
+			},
+		},
+	],
 
 	retreat: 1,
-	regulationMark: "F"
-}
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [48],
+};
 
-export default card
+export default card;

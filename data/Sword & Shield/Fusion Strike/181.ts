@@ -29,12 +29,25 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Shigenori Negishi",
 
 	description: {
-		en: "After many battles, it evolved dangerous claws that come together to form daggers when extended."
+		en: "After many battles, it evolved dangerous claws that come together to form daggers when extended.",
+		de: "Es entwickelte sich nach einer langen Zeit voller Kämpfe. Nun kann es seine Krallen ausfahren, um sie als Dolche zu nutzen."
 	},
 
 	attacks: [{
@@ -72,17 +85,23 @@ const card: Card = {
 		damage: 80
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582809,
-		tcgplayer: 253328
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582809,
+				tcgplayer: 253328
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582809,
+				tcgplayer: 253328
+			}
+		},
+	],
 }
 
 export default card

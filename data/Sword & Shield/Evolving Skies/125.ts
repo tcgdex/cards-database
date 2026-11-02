@@ -3,13 +3,8 @@ import Set from '../Evolving Skies'
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [384],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Eevee",
@@ -70,15 +65,28 @@ const card: Card = {
 	dexId: [133],
 
 	description: {
-		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions."
+		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.",
+		de: "Das Erbmaterial dieses besonderen Pokémon ist instabil, weshalb es das Potenzial für viele verschiedene Entwicklungen in sich trägt."
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574179,
-		tcgplayer: 246847
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574179,
+				tcgplayer: 246847
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574179,
+				tcgplayer: 246847
+			}
+		},
+	],
 }
 
 export default card

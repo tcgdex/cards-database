@@ -62,6 +62,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The powder that covers its body regulates its temperature, so it can live in any region or climate.",
+		de: "Es reguliert seine Körpertemperatur mit dem Puder, das seinen Körper bedeckt, und kommt deswegen in jedem Klima und jeder Region zurecht."
+	},
+
 	thirdParty: {
 		cardmarket: 355526,
 		tcgplayer: 165653

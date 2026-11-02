@@ -55,19 +55,34 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
+	description: {
+		en: "Wimpod gather in swarms, constantly on the lookout for danger. They scatter the moment they detect an enemy's presence.",
+		de: "Sie schließen sich zu Schwärmen zusammen und halten stets Ausschau nach Gefahr. Sichten sie einen Feind, nehmen sie in alle Winde Reißaus."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740734,
+				tcgplayer: 523872,
+				cardtrader: 265510
+			}
+		},
+	],
 
 	illustrator: "Oku",
 
-	thirdParty: {
-		cardmarket: 740734
-	}
+	
 }
 
 export default card

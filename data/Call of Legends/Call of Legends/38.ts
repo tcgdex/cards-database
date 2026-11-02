@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		110,
-	],
+	dexId: [110],
 
 	hp: 90,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Koffing",
-		fr: "Smogo"
+		fr: "Smogo",
+		de: "Smogon"
 	},
 
 	stage: "Stage1",
@@ -70,14 +69,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		en: "If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases.",
+		de: "Pumpt sich eines der zwei SMOGON auf, lässt das andere Luft ab. So findet ein Giftgasaustausch statt."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90565,
+				cardmarket: 279681
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90565,
+				cardmarket: 279681
+			},
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279681,
-		tcgplayer: 90565
-	}
 }
 
 export default card

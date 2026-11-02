@@ -61,23 +61,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It digs up the ground with its trunk. It's also very strong, being able to carry loads of over five tons without any problem at all."
+		en: "It digs up the ground with its trunk. It's also very strong, being able to carry loads of over five tons without any problem at all.",
+		de: "Dieses Pokémon verfügt über eine Stärke, mit der es problemlos fünf Tonnen stemmen kann. Es nutzt seinen Rüssel, um in der Erde zu graben."
 	},
 
-	thirdParty: {
-		cardmarket: 483534,
-		tcgplayer: 219395
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483534,
+				tcgplayer: 219395
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483534,
+				tcgplayer: 219395
+			}
+		},
+	],
 }
 
 export default card

@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Hideki Ishikawa",
 
 	description: {
-		en: "It spins its tail fins to propel itself, surging forward at speeds of over 100 knots before ramming prey and spearing into them."
+		en: "It spins its tail fins to propel itself, surging forward at speeds of over 100 knots before ramming prey and spearing into them.",
+		de: "Es lässt seine Schwanzflosse rotieren und stößt mit einem Mal zu. Es durchsticht seine Beute mit einer Geschwindigkeit von über 100 Knoten."
 	},
 
 	attacks: [{
@@ -52,17 +59,23 @@ const card: Card = {
 		damage: 50
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582217,
-		tcgplayer: 253237
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582217,
+				tcgplayer: 253237
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582217,
+				tcgplayer: 253237
+			}
+		},
+	],
 }
 
 export default card

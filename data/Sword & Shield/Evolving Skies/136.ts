@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Rufflet",
@@ -64,15 +58,28 @@ const card: Card = {
 	dexId: [627],
 
 	description: {
-		en: "A combative Pokémon, it's ready to pick a fight with anyone. It has talons that can crush hard berries."
+		en: "A combative Pokémon, it's ready to pick a fight with anyone. It has talons that can crush hard berries.",
+		de: "Seine starken Klauen können selbst harte Beeren zermalmen. Es ist so streitsüchtig, dass es jeden zum Kampf herausfordert, dem es begegnet."
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574194,
-		tcgplayer: 246874
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574194,
+				tcgplayer: 246874
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574194,
+				tcgplayer: 246874
+			}
+		},
+	],
 }
 
 export default card

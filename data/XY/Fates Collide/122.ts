@@ -73,7 +73,7 @@ const card: Card = {
 				es: "Este ataque hace 30 puntos de daño más por cada Energía Básica Lightning unida a este Pokémon.",
 				it: "Questo attacco infligge 30 danni in più per ogni Energia base Lightning assegnata a questo Pokémon.",
 				pt: "Este ataque causa 30 de danos adicionais para cada Energia básica Lightning ligada a este Pokémon.",
-				de: "Dieser Angriff fügt 30 weitere Schadenspunkte mal der Anzahl der an dieses Pokémon angelegten Lightning-Basis-Energien zu."
+				de: "Dieser Angriff fügt 30 weitere Schadenspunkte für jede an dieses Pokémon angelegte {L}-Basis-Energie zu."
 			},
 			damage: "60+",
 

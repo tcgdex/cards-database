@@ -84,23 +84,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "The shaking of its freezing upper half is what generates its electricity. It has a hard time walking around."
+		en: "The shaking of its freezing upper half is what generates its electricity. It has a hard time walking around.",
+		de: "Durch das Zittern seines gefrorenen Oberkörpers entsteht Elektrizität. Das Laufen fällt ihm äußerst schwer."
 	},
 
-	thirdParty: {
-		cardmarket: 483209,
-		tcgplayer: 219434
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 483209,
+				tcgplayer: 219434
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483209,
+				tcgplayer: 219434
+			}
+		},
+	],
 }
 
 export default card

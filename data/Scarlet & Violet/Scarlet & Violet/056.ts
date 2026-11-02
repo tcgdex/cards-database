@@ -55,14 +55,30 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Tika Matsuno",
+
+	description: {
+		en: "This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand.",
+		de: "Es kann den Geruch eines Agiluza auf 20 m Entfernung wahrnehmen und versteckt sich daraufhin flugs im Sand."
+	},
 
 	thirdParty: {
         cardmarket: 702351,

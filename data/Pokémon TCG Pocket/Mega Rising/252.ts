@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Whimsicott ex"
+		en: "Whimsicott ex",
+		fr: "Farfaduvet-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Cottonee"
+		en: "Cottonee",
+		fr: "Doudouvet"
 	},
 
 	stage: "Stage1",
@@ -25,14 +27,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Grass Knot"
+			en: "Grass Knot",
+			fr: "Nœud Herbe"
 		},
 
 		damage: 40,
 		cost: ["Grass", "Colorless"],
 
 		effect: {
-			en: "This attack does 30 more damage for each Energy in your opponent's Active Pokémon's Retreat Cost."
+			en: "This attack does 30 more damage for each Energy in your opponent's Active Pokémon's Retreat Cost.",
+			fr: "Cette attaque inflige 30 dégâts supplémentaires pour chaque Énergie dans le Coût de Retraite du Pokémon Actif de votre adversaire."
 		}
 	}],
 

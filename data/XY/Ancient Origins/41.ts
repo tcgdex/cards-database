@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [207],
 
 	dexId: [
 		623,
@@ -97,6 +98,10 @@ const card: Card = {
 	],
 
 	retreat: 4,
+
+	description: {
+		en: "It flies across the sky at Mach speeds. Removing the seal on its chest makes its internal energy go out of control.",
+	},
 
 	thirdParty: {
 		cardmarket: 284216,

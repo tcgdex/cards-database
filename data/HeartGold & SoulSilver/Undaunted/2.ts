@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "match",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		196,
-	],
+	dexId: [196],
 
 	hp: 90,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Evoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -41,7 +40,7 @@ const card: Card = {
 				de: "Sonnen-Andeutung"
 			},
 			effect: {
-				en: "Move up to 4 damage counters from any of your Pokémon to any of your opponent’s Pokémon in any way you like.",
+				en: "Move up to 4 damage counters from any of your Pokémon to any of your opponent's Pokémon in any way you like.",
 				fr: "Retirez jusqu’à 4 marqueurs de dégât à vos Pokémon et placez-les comme vous le voulez sur les Pokémon de votre adversaire.",
 				de: "Verschiebe bis zu 4 Schadensmarken von beliebigen deiner Pokémon in beliebiger Verteilung auf die gegnerischen Pokémon."
 			},
@@ -60,7 +59,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 30,
 
@@ -77,29 +76,32 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It uses the fine hair that covers its body to sense air currents and predict its enemy’s actions."
+		en: "It uses the fine hair that covers its body to sense air currents and predict its enemy’s actions.",
+		de: "Mit seinen Körperhaaren nimmt es Luftströmungen wahr. Dadurch sagt es gegnerische Attacken voraus."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		},
-		{
-			type: "reverse"
-		},
-		{
-			type: "normal"
-		},
-		{
 			type: "holo",
-			foil: "cracked-ice"
-		}
+			thirdParty: {
+				cardmarket: 279255,
+				tcgplayer: 85322
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279255,
+				tcgplayer: 85322
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 125043
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 279255,
-		tcgplayer: 85322
-	}
 }
 
 export default card

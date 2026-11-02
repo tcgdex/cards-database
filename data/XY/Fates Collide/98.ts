@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon tantas Energías unidas a tus Pokémon como quieras en tu mano.",
 		it: "Prendi tutte le Energie assegnate ai tuoi Pokémon che vuoi e aggiungile alle carte che hai in mano.",
 		pt: "Coloque tantas Energias ligadas aos seus Pokémon quanto desejar em sua mão.",
-		de: "Nimm beliebig viele an deine Pokémon angelegten Energien auf deine Hand."
+		de: "Nimm beliebig viele an deine Pokémon angelegten Energien auf deine Hand. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

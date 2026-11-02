@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		311,
-	],
+	dexId: [311],
 
 	hp: 60,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -54,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, Plusle does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c’est pile, Posipi s’inflige 10 dégâts.",
-				de: "Wirf eine Münze. Bei \"Zahl\" fügt Plusle sich selbst 10 Schadenspunkte zu."
+				de: "Wirf eine Münze. Bei „Zahl“ fügt Plusle sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -78,22 +76,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises."
+		en: "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises.",
+		de: "Es holt sich Energie aus Telegrafenmasten. Wenn es diese entlädt, hört man ein lautes Prasseln."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88171,
+				cardmarket: 279192
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88171,
+				cardmarket: 279192
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279192,
-		tcgplayer: 88171
-	}
 }
 
 export default card

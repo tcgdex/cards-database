@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hideki Ishikawa",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -55,7 +55,22 @@ const card: Card = {
 		},
 	],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "As they develop, their disposition grows more violent and aggressive. Many Trainers find them too much to handle and abandon them.",
+		de: "Mit dem Alter werden sie immer angriffslustiger und wilder. Trainer, die damit nicht umgehen können, setzen sie deshalb oft aus."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 321169,
+				tcgplayer: 168030
+			}
+		}
+	],
 }
 
 export default card

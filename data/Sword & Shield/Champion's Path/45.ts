@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Inkay",
-		fr: "Sepiatop"
+		fr: "Sepiatop",
+		de: "Iscalar"
 	},
 
 	attacks: [
@@ -100,7 +101,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "Gazing at its luminescent spots will quickly induce a hypnotic state, putting the observer under Malamar's control."
+		en: "Gazing at its luminescent spots will quickly induce a hypnotic state, putting the observer under Malamar's control.",
+		de: "Blickt man in das Licht, das es mit seinem Körper erzeugt, wird man sofort hypnotisiert und steht danach unter der Kontrolle von Calamanero."
 	},
 
 	thirdParty: {

@@ -56,6 +56,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They eat Corsola branches, so Mareanie are hated by craftsmen who work with Corsola branches that have naturally fallen off.",
+		de: "Die Arme von Corasonn sind seine Leibspeise. Handwerker, die natürlich abgefallene Arme von Corasonn verarbeiten, mögen sie deshalb nicht."
+	},
+
 	thirdParty: {
 		cardmarket: 388287,
 		tcgplayer: 195029

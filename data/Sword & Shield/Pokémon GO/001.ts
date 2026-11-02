@@ -4,6 +4,7 @@ import Set from "../Pokémon GO"
 const card: Card = {
 	dexId: [1],
 	set: Set,
+	cameoDexIds: [43],
 
 	name: {
 		en: "Bulbasaur",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Bisasam"
 	},
 
+	illustrator: "sowsow",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -48,19 +50,39 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
+
+	description: {
+		en: "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
+		de: "Dieses Pokémon trägt von Geburt an einen Samen auf dem Rücken, der im Laufe der Zeit keimt und wächst."
 	},
 
-	thirdParty: {
-		cardmarket: 664535,
-		tcgplayer: 274433
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665235,
+				tcgplayer: 274433
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665235,
+				tcgplayer: 274433
+			}
+		},
+	],
 }
 
 export default card

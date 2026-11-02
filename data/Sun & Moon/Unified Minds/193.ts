@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Los Pokémon Darkness Básicos en juego (tanto tuyos como de tu rival) no tienen ningún Coste de Retirada.",
 		it: "I Pokémon Base Darkness in gioco, sia tuoi che del tuo avversario, non hanno costo di ritirata.",
 		pt: "Pokémon Darkness Básicos em jogo (seus e do seu oponente) não têm custo de Recuo.",
-		de: "Darkness-Basis-Pokémon im Spiel (deine und die deines Gegners) haben keine Rückzugskosten."
+		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen. {D}-Basis-Pokémon im Spiel (deine und die deines Gegners) haben keine Rückzugskosten."
 	},
 
 	trainerType: "Stadium",

@@ -8,13 +8,17 @@ const card: Card = {
 	},
 
 	illustrator: "Naoki Saito",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
 	dexId: [
 		3,
 	],
+
+
+
+	cameoDexIds: [45, 123],
 
 	hp: 180,
 

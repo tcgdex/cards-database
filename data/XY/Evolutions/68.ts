@@ -88,6 +88,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It always walks about with a plant stalk clamped in its beak. The stalk is used for building its nest.",
+		de: "Es läuft stets mit einer Lauchstange umher. Damit baut es sein Nest."
+	},
+
 	thirdParty: {
 		cardmarket: 293440,
 		tcgplayer: 124081

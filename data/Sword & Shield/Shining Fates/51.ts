@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Métamorph-V",
-		en: "Ditto V"
+		en: "Ditto V",
+		de: "Ditto V"
 	},
 
 	attacks: [{
@@ -55,19 +56,18 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "VMAX",
 
-	thirdParty: {
-		cardmarket: 539278,
-		tcgplayer: 232526
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539278,
+				tcgplayer: 232526
+			}
+		},
+	],
 }
 
 export default card

@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		51,
-	],
+	dexId: [51],
 
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Diglett",
 		fr: "Taupiqueur",
+		de: "Digda"
 	},
 
 	stage: "Stage1",
@@ -36,13 +35,13 @@ const card: Card = {
 			name: {
 				en: "Sinkhole",
 				fr: "Chausse-trappe",
-				de: "Sinkhole"
+				de: "Erdloch"
 			},
 			effect: {
 				en: "If your opponent's Active Pokémon retreats, put 2 damage counters on that Pokémon.",
 				fr: "Si le Pokémon Actif de votre adversaire bat en retraite, placez 2 marqueurs de dégât sur ce Pokémon.",
-				de: "If your opponent's Active Pokémon retreats, put 2 damage counters on that Pokémon."
-			},
+				de: "Wenn sich das Aktive Pokémon deines Gegners zurückzieht, lege 2 Schadensmarken auf dieses Pokémon."
+			}
 		},
 	],
 
@@ -55,12 +54,12 @@ const card: Card = {
 			name: {
 				en: "Push Down",
 				fr: "Renverser",
-				de: "Push Down"
+				de: "Runterdrücken"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
-				de: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 30,
 
@@ -74,12 +73,12 @@ const card: Card = {
 			name: {
 				en: "Magnitude",
 				fr: "Ampleur",
-				de: "Magnitude"
+				de: "Intensität"
 			},
 			effect: {
 				en: "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à chacun des Pokémon de Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)"
+				de: "Dieser Angriff fügt jedem Pokémon auf der Bank (deinen und denen deines Gegners) 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 70,
 
@@ -100,19 +99,24 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 278445,
-		tcgplayer: 85003
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 85003,
+				cardmarket: 278445
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278445,
+				tcgplayer: 85003
+			}
 		}
-	]
+	],
+
+	retreat: 0
 }
 
 export default card

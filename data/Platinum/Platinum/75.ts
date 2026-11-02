@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		88,
-	],
+	dexId: [88],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -31,12 +29,12 @@ const card: Card = {
 			name: {
 				en: "Division",
 				fr: "Division",
-				de: "Division"
+				de: "Teilung"
 			},
 			effect: {
 				en: "Search your deck for Grimer and put it onto your Bench. Shuffle your deck afterward.",
 				fr: "Cherchez Tadmorv dans votre deck et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
-				de: "Search your deck for Grimer and put it onto your Bench. Shuffle your deck afterward."
+				de: "Durchsuche dein Deck nach einer Sleima-Karte und lege sie auf deine Bank. Mische dein Deck danach."
 			},
 
 		},
@@ -47,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Poison Gas",
 				fr: "Gaz toxik",
-				de: "Poison Gas"
+				de: "Giftwolke"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "The Defending Pokémon is now Poisoned."
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 
 		},
@@ -67,19 +65,28 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278496,
-		tcgplayer: 85912
+	description: {
+		en: "It was born when sludge in a dirty stream was exposed to the moon's X-rays. It appears among filth.",
+		de: "Es wurde geboren, als Schlamm von den Strahlen des Mondes getroffen wurde. Es erscheint, wo Unrat ist."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 85912,
+				cardmarket: 278496
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278496,
+				tcgplayer: 85912
+			}
 		}
-	]
+	],
+
 }
 
 export default card

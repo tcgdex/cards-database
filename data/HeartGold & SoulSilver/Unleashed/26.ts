@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		248,
-	],
+	dexId: [248],
 
 	hp: 140,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	evolveFrom: {
 		en: "Pupitar",
 		fr: "Ymphect",
+		de: "Pupitar"
 	},
 
 	stage: "Stage2",
@@ -45,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 damage plus 20 more damage.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 40 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -89,26 +88,34 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Extremely strong, it can change the landscape. It has an insolent nature that makes it not care about others."
+		en: "Extremely strong, it can change the landscape. It has an insolent nature that makes it not care about others.",
+		de: "Es ist so stark, dass es ganze Landstriche verwüsten kann. Es ist kaltblütig und rücksichtslos."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 90121,
+				cardmarket: 279182
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90121,
+				cardmarket: 279182
+			}
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
+			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 125049
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279182,
-		tcgplayer: 90121
-	}
 }
 
 export default card

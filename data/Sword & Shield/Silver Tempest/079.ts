@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pygraulon"
 	},
 
+	illustrator: "Shigenori Negishi",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -35,20 +36,43 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "If this Pokémon stands near a TV, strange scenery will appear on the screen. That scenery is said to be from its home.",
+		de: "Wenn es in der Nähe ist, beginnen Fernseher zu flackern und fremdartige Landschaften zu zeigen. Diese stellen angeblich seine Heimat dar."
 	},
 
-	thirdParty: {
-		cardmarket: 682126,
-		tcgplayer: 451733
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682126,
+				tcgplayer: 451733
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682126,
+				tcgplayer: 451733
+			}
+		},
+	],
 }
 
 export default card

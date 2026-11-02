@@ -4,6 +4,7 @@ import Set from "../SVP Black Star Promos"
 const card: Card = {
 	dexId: [195],
 	set: Set,
+	cameoDexIds: [116],
 
 	name: {
 		en: "Quagsire",
@@ -14,7 +15,7 @@ const card: Card = {
 		de: "Morlord"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Water"],
@@ -65,9 +66,25 @@ const card: Card = {
 		damage: "80×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
-	illustrator: "Saboteri"
+	illustrator: "Saboteri",
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 796927,
+				tcgplayer: 594403
+			},
+		}
+	],
 }
 
 export default card

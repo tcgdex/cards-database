@@ -4,13 +4,32 @@ import Set from '../SWSH Black Star Promos'
 const card: Card = {
 	dexId: [849],
 	set: Set,
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576736,
+				tcgplayer: 251093
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576909,
+				tcgplayer: 260877
+			}
+		},
+	],
 
 	name: {
 		en: "Light Toxtricity",
@@ -21,7 +40,7 @@ const card: Card = {
 		it: "Light Toxtricity"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Lightning"],
@@ -82,8 +101,8 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 576736
+	description: {
+		en: "When this Pokémon sounds as if it's strumming a guitar, it's actually clawing at the protrusions on its chest to generate electricity.",
 	}
 }
 

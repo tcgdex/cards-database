@@ -68,23 +68,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It lived in snowy areas for so long that its fire sac cooled off and atrophied. It now has an organ that generates cold instead."
+		en: "It lived in snowy areas for so long that its fire sac cooled off and atrophied. It now has an organ that generates cold instead.",
+		de: "Seit es in kälteren Gefilden lebt, hat sich sein innerer Flammensack zurückgebildet. Stattdessen wuchs ein Organ heran, das eiskalte Luft erzeugt."
 	},
 
-	thirdParty: {
-		cardmarket: 483094,
-		tcgplayer: 219339
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483094,
+				tcgplayer: 219339
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483094,
+				tcgplayer: 219339
+			}
+		},
+	],
 }
 
 export default card

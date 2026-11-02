@@ -17,6 +17,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [216],
 	hp: 70,
 
 	types: [
@@ -76,12 +77,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -89,10 +84,22 @@ const card: Card = {
 		en: "It is strong despite its compact size. It can easily pick up and carry an adult human on its back."
 	},
 
-	thirdParty: {
-		cardmarket: 511850,
-		tcgplayer: 226517
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511850,
+				tcgplayer: 226517
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511850,
+				tcgplayer: 226517
+			}
+		},
+	],
 }
 
 export default card

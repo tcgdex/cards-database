@@ -71,7 +71,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		fr: "On l'appelle \"être de la volonté\". Il dort au fond d'un lac pour maintenir l'équilibre du monde."
+		en: "Known as \"The Being of Willpower.\" It sleeps at the bottom of a lake to keep the world in balance.",
+		fr: "On l'appelle \"être de la volonté\". Il dort au fond d'un lac pour maintenir l'équilibre du monde.",
+		de: "\"Das starke Wesen\". Es schläft auf dem Grund eines Sees und hält so die Welt in Balance."
 	},
 
 	thirdParty: {

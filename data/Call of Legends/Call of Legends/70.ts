@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		79,
-	],
+	dexId: [79],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -31,14 +29,14 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whimsy Tackle",
+				en: "Whismy Tackle",
 				fr: "Charge bizarre",
 				de: "Launischer Tackle"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen."
+				de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 20,
 
@@ -48,14 +46,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		en: "It lazes vacantly near water. If something bites its tail, it won't even notice for a whole day.",
+		de: "Es faulenzt am Wasser. Wenn es in den Schweif gebissen wird, bemerkt es das erst am nächsten Tag."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89334,
+				cardmarket: 279713
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89334,
+				cardmarket: 279713
+			},
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279713,
-		tcgplayer: 89334
-	}
 }
 
 export default card

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Mira las 3 primeras cartas de la baraja de tu rival y elige 1 de ellas. Tu rival pone el resto de cartas de nuevo en su baraja y las baraja todas. Después, pon la carta que has elegido en la parte superior de su baraja.",
 		it: "Guarda le prime tre carte del mazzo del tuo avversario e scegline una. Il tuo avversario rimischia le altre carte nel suo mazzo. Poi metti la carta che hai scelto in cima al suo mazzo.",
 		pt: "Olhe as 3 primeiras cartas do baralho do seu oponente e escolha 1 delas. Seu oponente embaralha as demais cartas de volta no próprio baralho. Em seguida, coloque a carta escolhida como a primeira carta do baralho dele(a).",
-		de: "Schau dir die obersten 3 Karten des Decks deines Gegners an und wähle 1 Karte. Dein Gegner mischt die anderen Karten zurück in sein Deck. Lege anschließend die von dir gewählte Karte oben auf sein Deck."
+		de: "Schau dir die obersten 3 Karten des Decks deines Gegners an und wähle 1 Karte. Dein Gegner mischt die anderen Karten zurück in sein Deck. Lege anschließend die von dir gewählte Karte oben auf sein Deck. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

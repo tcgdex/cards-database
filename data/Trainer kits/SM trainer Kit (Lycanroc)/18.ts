@@ -14,10 +14,40 @@ const card: Card = {
 		de: "Makuhita"
 	},
 
+	illustrator: "Mina Nakai",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
-	types: ["Fighting"],
+	types: [
+		"Fighting"
+	],
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+			],
+			name: {
+				en: "Surprise Attack",
+				de: "Überraschungsangriff"
+			},
+			effect: {
+				en: "Flip a coin. If tails, this attack does nothing.",
+				de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+			},
+			damage: 20
+		},
+		{
+			cost: [
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				en: "Strength",
+				de: "Stärke"
+			},
+			damage: 40
+		},
+	],
 	stage: "Basic",
 	retreat: 2,
 
@@ -26,9 +56,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	thirdParty: {
-		tcgplayer: 152839
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297253,
+				tcgplayer: 152839
+			}
+		},
+	],
+
 }
 
 export default card

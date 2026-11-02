@@ -4,6 +4,7 @@ import Set from "../Black Bolt"
 const card: Card = {
 	dexId: [625],
 	set: Set,
+	cameoDexIds: [624],
 
 	name: {
 		en: "Bisharp",
@@ -73,10 +74,15 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836210
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836210,
+				tcgplayer: 642597
+			}
+		},
+	]
 }
 
 export default card

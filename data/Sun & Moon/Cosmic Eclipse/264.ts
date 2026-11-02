@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes jugar esta carta solo si descartas otras 2 cartas de tu mano.\n\nCambia 1 de los Pokémon-GX o Pokémon-EX en Banca de tu rival por su Pokémon Activo.",
 		it: "Puoi giocare questa carta solo se scarti altre due carte che hai in mano.\n\nScambia uno dei Pokémon-GX o dei Pokémon-EX nella panchina del tuo avversario con il suo Pokémon attivo.",
 		pt: "Você só pode jogar esta carta se descartar outras 2 cartas da sua mão.\n\nTroque 1 dos Pokémon-GX ou Pokémon-EX no Banco do seu oponente pelo Pokémon Ativo dele(a).",
-		de: "Du kannst diese Karte nur spielen, wenn du 2 andere Karten aus deiner Hand auf deinen Ablagestapel legst.\n\nTausche 1 Pokémon-GX oder Pokémon-EX auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
+		de: "Du kannst diese Karte nur spielen, wenn du 2 andere Karten aus deiner Hand auf deinen Ablagestapel legst. Tausche 1 Pokémon-GX oder Pokémon-EX auf der Bank deines Gegners gegen sein Aktives Pokémon aus. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

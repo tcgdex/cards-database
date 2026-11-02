@@ -74,20 +74,28 @@ const card: Card = {
 		damage: 280
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "H",
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 794600,
+				tcgplayer: 590055
+			}
+		},
 	],
 
+	suffix: "ex",
 	illustrator: "PLANETA Igarashi",
 
-	thirdParty: {
-		cardmarket: 794600
-	}
 }
 
 export default card

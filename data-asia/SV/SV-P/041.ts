@@ -1,55 +1,32 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "浩大鯨"
+		ja: "基本超エネルギー",
+		'zh-tw': "浩大鯨",
 	},
 
-	illustrator: "GOSSAN",
-	category: "Pokemon",
-	hp: 180,
-	types: ["Water"],
+	illustrator: "",
+	category: "Energy",
+	energyType: "Normal",
 
-	description: {
-		'zh-tw': "迴游在冰雪地帶的寶可夢。會用強韌的肌肉和厚實的 皮下脂肪保護自己的身體。"
+	effect: {
+		ja: "&copy;Pokémon/Nintendo/Creatures/GAME FREAK ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの商標です。 このホームページに掲載された画像その他の内容の無断転載はお断りします。",
 	},
 
-	stage: "Stage1",
-
-	attacks: [{
-		name: {
-			'zh-tw': "雪崩"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 695782,
+				tcgplayer: 587798,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "對手的所有備戰寶可夢也各受到10點傷害。[在備戰區不計算弱點・抵抗力。]"
-		},
+	rarity: "Promo",
+};
 
-		damage: 30,
-		cost: ["Water"]
-	}, {
-		name: {
-			'zh-tw': "回轉滑梯"
-		},
-
-		effect: {
-			'zh-tw': "擲3次硬幣，造成正面出現的次數×100點傷害。"
-		},
-
-		damage: "100×",
-		cost: ["Water", "Water", "Water"]
-	}],
-
-	weaknesses: [{
-		type: "Metal",
-		value: "×2"
-	}],
-
-	retreat: 3,
-	regulationMark: "G"
-}
-
-export default card
+export default card;

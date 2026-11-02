@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Teddiursa",
@@ -50,15 +44,28 @@ const card: Card = {
 	dexId: [216],
 
 	description: {
-		en: "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations."
+		en: "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations.",
+		de: "Steht der Winter vor der Türe, hortet es Nahrung an vielen verschiedenen, nur ihm bekannten Orten."
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574180,
-		tcgplayer: 246848
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574180,
+				tcgplayer: 246848
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574180,
+				tcgplayer: 246848
+			}
+		},
+	],
 }
 
 export default card

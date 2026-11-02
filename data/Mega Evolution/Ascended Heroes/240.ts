@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "osare",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [237],
 	hp: 100,
 	types: ["Fighting"],
 	stage: "Basic",
@@ -59,13 +60,30 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 676052,
-		cardmarket: 869851
-	}
+	description: {
+		en: "It spins on its horn while dealing out elegant kicks. Its horn grows continuously through its lifetime.",
+		fr: "Il assène de gracieux coups de pied tout en tournoyant sur sa corne. Cette dernière continue de pousser tout au long de sa vie.",
+		de: "Es dreht sich auf seinem Horn um die eigene Achse und teilt dabei elegante Tritte aus. Das Horn wächst sein ganzes Leben lang weiter."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869851,
+				tcgplayer: 676052
+			}
+		}
+	],
 }
 
 export default card

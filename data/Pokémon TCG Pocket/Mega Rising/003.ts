@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wurmple"
+		en: "Wurmple",
+		fr: "Chenipotte"
 	},
 
 	illustrator: "kirisAki",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Ram"
+			en: "Ram",
+			fr: "Collision"
 		},
 
 		damage: 20,

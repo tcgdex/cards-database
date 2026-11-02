@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Eevee"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],
@@ -55,16 +55,28 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
 	description: {
 		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions."
 	},
-
-	thirdParty: {
-		cardmarket: 491204
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 659064,
+				tcgplayer: 273590
+			}
+		},
+	],
 }
 
 export default card

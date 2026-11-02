@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Naoyo Kimura",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		297,
-	],
+	dexId: [297],
 
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Makuhita",
-		fr: "Makuhita"
+		fr: "Makuhita",
+		de: "Makuhita"
 	},
 
 	stage: "Stage1",
@@ -38,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Super Slap Push",
 				fr: "Super gifle",
-				de: "Super Slap Push"
+				de: "Super Stoß"
 			},
 			effect: {
 				en: "Does 20 damage to each Defending Pokémon.",
 				fr: "Inflige 20 dégâts à chaque Pokémon Défenseur.",
-				de: "Does 20 damage to each Defending Pokémon."
+				de: "Dieser Angriff fügt allen Verteidigenden Pokémon 20 Schadenspunkte zu."
 			},
 
 		},
@@ -56,12 +55,12 @@ const card: Card = {
 			name: {
 				en: "Mega Throw",
 				fr: "Mega lancer",
-				de: "Mega Throw"
+				de: "Mega Wurf"
 			},
 			effect: {
 				en: "If the Defending Pokémon is a Pokémon-ex, this attack does 40 damage plus 40 more damage.",
 				fr: "Si le Pokémon Défenseur est un Pokémon-ex, cette attaque lui inflige 80 dégâts.",
-				de: "If the Defending Pokémon is a Pokémon-ex, this attack does 40 damage plus 40 more damage."
+				de: "Wenn das Verteidigende Pokémon ein Pokémon-ex ist, fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -78,19 +77,24 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275656,
-		tcgplayer: 86010
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275656,
+				tcgplayer: 86010
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275656,
+				tcgplayer: 86010
+			}
 		},
-	]
+	],
+
 }
 
 export default card

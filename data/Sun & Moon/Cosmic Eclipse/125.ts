@@ -81,6 +81,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They use their saliva to stick leaves to their shoulders. You can tell what troop they belong to from the position of the leaves.",
+		de: "Mit Speichel klebt es sich Blätter als Markierung auf die Schultern. Die Anordnung dieser Blätter zeigt, welcher Gruppe sie angehören."
+	},
+
 	thirdParty: {
 		cardmarket: 408274,
 		tcgplayer: 201165

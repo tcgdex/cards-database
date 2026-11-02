@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		59,
-	],
+	dexId: [59],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Growlithe",
-		fr: "Caninos"
+		fr: "Caninos",
+		de: "Fukano"
 	},
 
 	stage: "Stage1",
@@ -41,8 +40,8 @@ const card: Card = {
 			effect: {
 				en: "If Arcanine is your Active Pokémon and is damaged by an opponent's attack (even if Arcanine is Knocked Out), the Attacking Pokémon is now Burned.",
 				fr: "Si Arcanin est votre Pokémon Actif et que l'attaque de votre adversaire lui inflige des dégâts (même si Arcanin est mis K.O), le Pokémon Attaquant est maintenant Brûlé.",
-				de: "Wenn Arkani dein Aktives Pokémon ist und ihm Schaden durch einen gegnerischen Angriff zugefügt wird (auch wenn Arkani kampfunfähig gemacht wird), ist das Angreifende Pokémon jetzt verbrannt."
-			},
+				de: "Wenn Arkani dein Aktives Pokémon ist und ihm Schaden durch einen gegnerischen Angriff zugefügt wird (auch wenn Arkani kampfunfähig wird), ist das Angreifende Pokémon jetzt verbrannt."
+			}
 		},
 	],
 
@@ -60,8 +59,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard all Fire Energy cards attached to Arcanine.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez toutes les cartes Énergie  attachées à Arcanin.",
-				de: "Wirf 1 Münze. Bei 'Zahl' lege alle an Arkani angelegten -Energiekarten auf deinen Ablagestapel."
+				fr: "Lancez une pièce. Si c'est pile, défaussez toutes les cartes Énergie {R} attachées à Arcanin.",
+				de: "Wirf 1 Münze. Bei „Zahl“ lege alle an Arkani angelegten {R}-Energiekarten auf deinen Ablagestapel."
 			},
 			damage: 60,
 
@@ -78,19 +77,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275792,
-		tcgplayer: 83579
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275792,
+				tcgplayer: 83579
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275792,
+				tcgplayer: 83579
+			}
 		},
-	]
+	],
+
 }
 
 export default card

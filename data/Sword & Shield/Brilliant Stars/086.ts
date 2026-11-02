@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Sniebel"
 	},
 
+	illustrator: "yuu",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -48,20 +49,37 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Its paws conceal sharp claws. If attacked, it suddenly extends the claws and startles its enemy.",
+		de: "In seinen Pfoten stecken scharfe Krallen. Es fährt sie blitzschnell aus, um Gegner zu überraschen."
 	},
 
-	thirdParty: {
-		cardmarket: 608536,
-		tcgplayer: 263802
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608536,
+				tcgplayer: 263802
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608536,
+				tcgplayer: 263802
+			}
+		},
+	],
 }
 
 export default card

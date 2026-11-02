@@ -9,18 +9,17 @@ const card: Card = {
 	},
 
 	illustrator: "Hideaki Hakozaki",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [133],
 
-	dexId: [
-		492,
-	],
+	dexId: [492],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -37,7 +36,7 @@ const card: Card = {
 				en: "Once during your turn, when you put Shaymin from your hand onto your Bench, you may move as many Energy cards attached to your Pokémon as you like to any of your other Pokémon.",
 				fr: "Une seule fois pendant votre tour, lorsque vous placez Shaymin de votre main sur votre Banc, vous pouvez prendre une ou plusieurs cartes Énergie attachées à l’un de vos Pokémon et les attacher à un autre Pokémon.",
 				de: "Einmal während deines Zuges, wenn du Shaymin von deiner Hand auf deine Bank legst, kannst du beliebig viele Energiekarten, die an deine Pokémon angelegt sind, in beliebiger Verteilung an deine anderen Pokémon anlegen."
-			},
+			}
 		},
 	],
 
@@ -79,30 +78,43 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers."
+		en: "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers.",
+		de: "Es heißt, wenn die Gracidea blühen, drückt es seine Dankbarkeit aus, indem es hoch in die Lüfte fliegt."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 89109,
+				cardmarket: 279164
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89109,
+				cardmarket: 279164
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["zachary-bokhari"]
+			stamp: ["zachary-bokhari"],
+			thirdParty: {
+				cardmarket: 867994,
+				tcgplayer: 480625,
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["igor-costa"]
+			stamp: ["igor-costa"],
+			thirdParty: {
+				cardmarket: 867990,
+				tcgplayer: 480626
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279164,
-		tcgplayer: 89109
-	}
 }
 
 export default card

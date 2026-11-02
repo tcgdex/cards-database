@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage2",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "Anesaki Dynamic",
 
 	description: {
-		en: "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up."
+		en: "When it bites with its massive and powerful jaws, it shakes its head and savagely tears its victim up.",
+		de: "Wenn es mit seinem kräftigen Kiefer zubeißt, schüttelt es seinen Kopf und reißt seine Opfer in Stücke."
 	},
 
 	abilities: [{
@@ -83,17 +90,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582191,
-		tcgplayer: 253188
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 582191,
+				tcgplayer: 253188
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582191,
+				tcgplayer: 253188
+			}
+		},
+	],
 }
 
 export default card

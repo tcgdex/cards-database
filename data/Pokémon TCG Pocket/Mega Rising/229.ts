@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rillaboom"
+		en: "Rillaboom",
+		fr: "Gorythmic"
 	},
 
 	illustrator: "osare",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Thwackey"
+		en: "Thwackey",
+		fr: "Badabouin"
 	},
 
 	description: {
@@ -30,17 +32,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Captivating Rhythm"
+			en: "Captivating Rhythm",
+			fr: "Rythme Envoûtant"
 		},
 
 		effect: {
-			en: "Once during your turn, you may flip a coin. If heads, switch in 1 of your opponent's Benched Pokémon to the Active Spot."
+			en: "Once during your turn, you may flip a coin. If heads, switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
+			fr: "Une fois pendant votre tour, vous pouvez lancer une pièce. Si c'est face, échangez un des Pokémon de Banc de base de votre adversaire contre son Pokémon Actif."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Drum Rush"
+			en: "Drum Rush",
+			fr: "Charge Tambour"
 		},
 
 		damage: 120,

@@ -67,6 +67,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has a soft and bouncy body. Once it starts bouncing, it becomes impossible to stop.",
+		de: "Es hat einen weichen, elastischen Körper. Hat es einmal angefangen zu hüpfen, ist es nicht zu stoppen."
+	},
+
 	thirdParty: {
 		cardmarket: 277972,
 		tcgplayer: 86262

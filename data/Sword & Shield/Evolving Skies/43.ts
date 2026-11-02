@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Cryogonal",
@@ -69,16 +63,36 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They are composed of ice crystals. They capture prey with chains of ice, freezing the prey at -148 degrees Fahrenheit."
+		en: "They are composed of ice crystals. They capture prey with chains of ice, freezing the prey at -148 degrees Fahrenheit.",
+		de: "Es fängt seine Beute mit Ketten aus Eiskristallen und kühlt sie auf eine Temperatur von -100 °C ab."
 	},
 
 	dexId: [615],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574067,
-		tcgplayer: 246865
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574067,
+				tcgplayer: 246865
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['snowflake'],
+			thirdParty: {
+				cardmarket: 740468
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574067,
+				tcgplayer: 246865
+			}
+		},
+	],
 }
 
 export default card

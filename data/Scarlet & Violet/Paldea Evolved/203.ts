@@ -4,6 +4,7 @@ import Set from "../Paldea Evolved"
 const card: Card = {
 	dexId: [129],
 	set: Set,
+	cameoDexIds: [130],
 
 	name: {
 		fr: "Magicarpe",
@@ -44,19 +45,32 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715678,
+				tcgplayer: 497606,
+				cardtrader: 248856
+			}
+		},
+	],
 
 	illustrator: "Shinji Kanda",
 
-	thirdParty: {
-		cardmarket: 715678
-	}
+	description: {
+		en: "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet.",
+		de: "Ein schwaches und jämmerliches Pokémon. Manchmal gelingen ihm hohe Sprünge, aber über 2 m kommt es selten hinaus."
+	},
 }
 
 export default card

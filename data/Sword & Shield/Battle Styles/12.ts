@@ -71,23 +71,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "The beaks of birds can't begin to scratch its stalwart body. To defend itself, it spews powder."
+		en: "The beaks of birds can't begin to scratch its stalwart body. To defend itself, it spews powder.",
+		de: "Der Schnabel eines Vogel-Pokémon kann seinem harten Körper keinen Kratzer zufügen. Es verteidigt sich, indem es Puder spuckt."
 	},
 
-	thirdParty: {
-		cardmarket: 544956,
-		tcgplayer: 234068
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 544956,
+				tcgplayer: 234068
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 544956,
+				tcgplayer: 234068
+			}
+		},
+	],
 }
 
 export default card

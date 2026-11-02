@@ -55,18 +55,39 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The extension and contraction of its muscles generates electricity. Its fur glows when it's in trouble.",
+		de: "Es erzeugt Elektrizität, indem es seine Muskeln streckt und wieder zusammenzieht. Steckt es in der Klemme, leuchtet sein Fell gleißend hell."
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769240,
+				tcgplayer: 550110
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769240,
+				tcgplayer: 550110
+			}
+		},
+	],
 
 	illustrator: "Yuu Nishida",
 
-	thirdParty: {
-		cardmarket: 769240
-	}
 }
 
 export default card

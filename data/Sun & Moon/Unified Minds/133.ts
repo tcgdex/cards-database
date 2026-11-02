@@ -56,6 +56,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It digs through the ground with its hard claws and crunches down gems with its thick pointy teeth. Carbink is its favorite food.",
+		de: "Mit seinen scharfen Krallen gräbt es nach Edelsteinen, die es mit seinen dicken Fängen zerbeißt. Besonders gern frisst es Rocara."
+	},
+
 	thirdParty: {
 		cardmarket: 388462,
 		tcgplayer: 195104

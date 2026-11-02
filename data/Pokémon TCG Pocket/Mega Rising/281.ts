@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dragalge ex"
+		en: "Dragalge ex",
+		fr: "Kravarech-ex"
 	},
 
 	illustrator: "Shinji Kanda",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Skrelp"
+		en: "Skrelp",
+		fr: "Venalgue"
 	},
 
 	stage: "Stage1",
@@ -27,17 +29,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Poison Point"
+			en: "Poison Point",
+			fr: "Point Poison"
 		},
 
 		effect: {
-			en: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, the Attacking Pokémon is now Poisoned."
+			en: "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, the Attacking Pokémon is now Poisoned.",
+			fr: "Si ce Pokémon est sur le Poste Actif et qu'il subit les dégâts d'une attaque d'un Pokémon de votre adversaire, le Pokémon Attaquant est maintenant Empoisonné."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Draconic Whip"
+			en: "Draconic Whip",
+			fr: "Fouet Draconien"
 		},
 
 		damage: 80,

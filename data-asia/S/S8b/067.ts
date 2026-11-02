@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S8b"
+import { Card } from "../../../interfaces";
+import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "彷徨夜靈"
+		ja: "サマヨール",
+		'zh-tw': "彷徨夜靈",
 	},
 
 	illustrator: "Kazuma Koda",
@@ -14,42 +14,61 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		'zh-tw': "身體內部是空的。只要一張開嘴就會像黑洞一樣吸入所有東西。"
+		ja: "体の 中は 空っぽ。 口を 開けると ブラックホールの ように なんでも 吸いこんでしまう。",
+		'zh-tw': "身體內部是空的。只要一張開嘴就會像黑洞一樣吸入所有東西。",
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "奇異之光"
+	attacks: [
+		{
+			name: {
+				ja: "あやしいひかり",
+				'zh-tw': "奇異之光",
+			},
+			cost: ["Colorless"],
+			effect: {
+				ja: "相手のバトルポケモンをこんらんにする。",
+				'zh-tw': "將對手的戰鬥寶可夢【混亂】。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "將對手的戰鬥寶可夢【混亂】。"
+		{
+			name: {
+				ja: "サイコパンチ",
+				'zh-tw': "精神拳",
+			},
+			damage: 60,
+			cost: ["Psychic", "Colorless", "Colorless"],
 		},
+	],
 
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "精神拳"
+	weaknesses: [{ type: "Darkness", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 586583,
+				tcgplayer: 571320,
+			},
 		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 578387,
+			},
+		},
+	],
 
-		damage: 60,
-		cost: ["Psychic", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Darkness",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
+	evolveFrom: {
+		ja: "ヨマワル",
+	},
 
 	retreat: 2,
-	regulationMark: "D"
-}
+	regulationMark: "D",
+	rarity: "None",
+	dexId: [356],
+};
 
-export default card
+export default card;

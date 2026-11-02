@@ -26,7 +26,7 @@ const card: Card = {
 				es: "",
 				it: "",
 				pt: "",
-				de: ""
+				de: "Eiserne Abwehrformation"
 			},
 			effect: {
 				en: "All of your Pokémon that have \"Falinks\" in their name take 20 less damage from your opponent's attacks (after applying Weakness and Resistance).",
@@ -34,7 +34,7 @@ const card: Card = {
 				es: "",
 				it: "",
 				pt: "",
-				de: ""
+				de: "Allen deinen Pokémon, bei denen „Legios“ zum Namen gehört, werden durch Attacken deines Gegners 20 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 		},
 	],
@@ -79,20 +79,19 @@ const card: Card = {
 	types: ["Fighting"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 456493,
-		tcgplayer: 213201
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 456493,
+				tcgplayer: 213201
+			}
+		},
+	],
 }
 
 export default card

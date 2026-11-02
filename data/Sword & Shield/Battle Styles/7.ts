@@ -42,23 +42,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "The deeper a Cherubi's red, the more nutrients it has stockpiled in its body. And the sweeter and tastier its small ball!"
+		en: "The deeper a Cherubi's red, the more nutrients it has stockpiled in its body. And the sweeter and tastier its small ball!",
+		de: "Je stärker die Rotfärbung seines Körpers ist, desto mehr Nährstoffe stecken in ihm und umso süßer und besser schmeckt sein Bällchen."
 	},
 
-	thirdParty: {
-		cardmarket: 544931,
-		tcgplayer: 234050
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 544931,
+				tcgplayer: 234050
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 544931,
+				tcgplayer: 234050
+			}
+		},
+	],
 }
 
 export default card

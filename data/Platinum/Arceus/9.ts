@@ -8,22 +8,21 @@ const card: Card = {
 	},
 
 	illustrator: "Aya Kusube",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		317,
-	],
+	dexId: [317],
 	
 	hp: 100,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Gulpin",
+		de: "Schluppuck"
 	},
 
 	stage: "Stage1",
@@ -71,22 +70,34 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 278881,
-		tcgplayer: 89674
+	description: {
+		en: "It swallows anything whole. It sweats toxic fluids from its follicles to douse foes.",
+		de: "Es verschluckt alles in einem Stück und sondert giftige Stoffe ab, mit denen es Gegner besprüht."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 89674,
+				cardmarket: 278881
+			}
 		},
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 125057
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 278881,
+				tcgplayer: 89674
+			}
 		},
-	]
+	],
+
 }
 
 export default card

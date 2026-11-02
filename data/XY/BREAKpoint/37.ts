@@ -97,6 +97,11 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "Swanna start to dance at dusk. The one dancing in the middle is the leader of the flock.",
+		de: "Wenn der Morgen dämmert, fangen sie an zu tanzen. Das Swaroness in der Mitte führt die Gruppe an."
+	},
+
 	thirdParty: {
 		cardmarket: 288212,
 		tcgplayer: 111544

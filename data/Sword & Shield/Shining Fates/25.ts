@@ -63,23 +63,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain."
+		en: "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain.",
+		de: "Über die Arme auf seinem Rücken stößt es Wasserdampf aus. Seine Kraft reicht aus, um Berge zu versetzen."
 	},
 
-	thirdParty: {
-		cardmarket: 539148,
-		tcgplayer: 232427
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539148,
+				tcgplayer: 232427
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539148,
+				tcgplayer: 232427
+			}
+		},
+	],
 }
 
 export default card

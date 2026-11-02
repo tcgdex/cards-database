@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Metang",
 		fr: "Métang",
+		de: "Metang"
 	},
 
 	suffix: "GX",
@@ -50,7 +51,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), puedes unir 1 carta de Energía Psychic o Metal de tu pila de descartes a tu Pokémon Activo.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, puoi assegnare al tuo Pokémon attivo una carta Energia Psychic o Metal dalla tua pila degli scarti.",
 				pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode ligar 1 carta de Energia Psychic ou Metal da sua pilha de descarte ao seu Pokémon Ativo.",
-				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 1 Psychic- oder 1 Metal-Energiekarte aus deinem Ablagestapel an dein Aktives Pokémon anlegen."
+				de: "Einmal während deines Zuges (bevor du angreifst) kannst du 1 {P}- oder 1 {M}-Energiekarte aus deinem Ablagestapel an dein Aktives Pokémon anlegen."
 			},
 		},
 	],

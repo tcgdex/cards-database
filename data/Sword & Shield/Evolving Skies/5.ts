@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Seedot",
@@ -58,16 +52,29 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It attaches itself to a tree branch using the top of its head. Strong winds can sometimes make it fall."
+		en: "It attaches itself to a tree branch using the top of its head. Strong winds can sometimes make it fall.",
+		de: "Mit dem Stiel auf seinem Kopf hängt es sich an Äste. Bei starkem Wind kann es durchaus mal herunterfallen."
 	},
 
 	dexId: [273],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574029,
-		tcgplayer: 246820
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574029,
+				tcgplayer: 246820
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574029,
+				tcgplayer: 246820
+			}
+		},
+	],
 }
 
 export default card

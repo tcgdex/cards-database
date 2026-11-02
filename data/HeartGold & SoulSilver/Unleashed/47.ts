@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		420,
-	],
+	dexId: [420],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -58,22 +56,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It evolves by sucking the energy out of the small ball where it had been storing nutrients."
+		en: "It evolves by sucking the energy out of the small ball where it had been storing nutrients.",
+		de: "Es saugt Nährstoffe, die in seinem Bällchen enthalten sind, und nutzt die Energie für seine Entwicklung."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84264,
+				cardmarket: 279203
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84264,
+				cardmarket: 279203
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279203,
-		tcgplayer: 84264
-	}
 }
 
 export default card

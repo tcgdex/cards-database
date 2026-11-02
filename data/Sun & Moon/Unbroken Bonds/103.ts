@@ -86,6 +86,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Lands visited by Landorus grant such bountiful crops that it has been hailed as \"The Guardian of the Fields.\"",
+		de: "Da an Orten, wo es sich blicken lässt, mit reicher Ernte zu rechnen ist, nennt man es auch den „Herrn des Ackerbaus“."
+	},
+
 	thirdParty: {
 		cardmarket: 372394,
 		tcgplayer: 189202

@@ -36,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Body Slam",
-				fr: "Plaquage"
+				fr: "Plaquage",
+				de: "Bodyslam"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -56,10 +58,27 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 280338,
-		tcgplayer: 89147
-	}
+	description: {
+		en: "When attacked, it defends itself by closing the lid of its shell. It can spit a sticky, poisonous liquid.",
+		de: "Bei Gefahr zieht es sich zum Schutz in seine Muschel zurück und schießt eine klebrige Flüssigkeit aus dem Spalt."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280338,
+				tcgplayer: 89147
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280338,
+				tcgplayer: 89147
+			}
+		},
+	],
 }
 
 export default card

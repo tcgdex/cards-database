@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "nagimiso",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Fire"],
@@ -85,18 +85,18 @@ const card: Card = {
 	stage: "Stage1",
 	dexId: [851],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 505875
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 505875,
+				tcgplayer: 223749
+			}
+		},
+	],
 }
 
 export default card

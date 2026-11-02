@@ -62,6 +62,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It usually clings to cliffs. When it spots its prey, it spreads its wings and glides down to attack.",
+		de: "Es hängt meist an Klippen. Erspäht es Beute, spreizt es seine Flügel und greift diese sofort an."
+	},
+
 	thirdParty: {
 		cardmarket: 297528,
 		tcgplayer: 130977

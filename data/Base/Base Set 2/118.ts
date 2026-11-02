@@ -11,14 +11,18 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	thirdParty: {
-		cardmarket: 274041,
-		tcgplayer: 42451
+	effect: {
+		en: "Draw 2 cards.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274041,
+				tcgplayer: 42451
+			}
 		}
 	]
 }

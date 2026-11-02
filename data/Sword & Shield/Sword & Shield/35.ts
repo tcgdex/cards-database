@@ -100,7 +100,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It juggles a pebble with its feet, turning it into a burning soccer ball. Its shots strike opponents hard and leave them scorched."
+		en: "It juggles a pebble with its feet, turning it into a burning soccer ball. Its shots strike opponents hard and leave them scorched.",
+		de: "Es jongliert kleine Steine mit den Füßen und erschafft daraus einen Flammenfußball. Seine Gegner verbrennt es mit scharfen Schüssen."
 	},
 
 	dexId: [815],

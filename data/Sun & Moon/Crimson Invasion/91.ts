@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes jugar esta carta solo si te quedan más cartas de Premio que a tu rival.\n\nCambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
 		it: "Puoi giocare questa carta solo se hai più carte Premio rimanenti del tuo avversario.\n\nScambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
 		pt: "Você só pode jogar esta carta se tiver mais cartas de Prêmio restantes do que seu oponente.\n\nTroque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo dele(a).",
-		de: "Du kannst diese Karte nur spielen, wenn du mehr verbleibende Preiskarten hast als dein Gegner.\n\nTausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus."
+		de: "Du kannst diese Karte nur spielen, wenn du mehr verbleibende Preiskarten hast als dein Gegner. Tausche 1 Pokémon auf der Bank deines Gegners gegen sein Aktives Pokémon aus. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

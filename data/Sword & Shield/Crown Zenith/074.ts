@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Wolwerock"
 	},
 
+	illustrator: "kodama",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -54,20 +55,39 @@ const card: Card = {
 		damage: "240-"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "This form of Lycanroc is reckless. It charges headlong at its opponents, attacking without any care about what injuries it might receive.",
+		de: "Es ist von Natur aus draufgängerisch und stürzt sich unerschrocken auf seine Gegner, wobei es selbst Verletzungen in Kauf nimmt."
 	},
 
-	thirdParty: {
-		cardmarket: 691792,
-		tcgplayer: 478207
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691792,
+				tcgplayer: 478207
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691792,
+				tcgplayer: 478207
+			}
+		},
+	],
 }
 
 export default card

@@ -24,6 +24,22 @@ const card: Card = {
 		'zh-cn': "這張卡必須將自己的1張手牌丟棄才可使用。 從自己的牌庫選擇最多2張基本能量卡，在給對手看過後加入手牌。並且重洗牌庫。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803256,
+				tcgplayer: 602567,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602568,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "G"
 }

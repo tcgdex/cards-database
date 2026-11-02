@@ -1,49 +1,63 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "水伊布VMAX"
+		ja: "ヒトカゲ",
+		'zh-tw': "水伊布VMAX",
 	},
 
-	illustrator: "Atsushi Furusawa",
+	illustrator: "Uta",
 	category: "Pokemon",
-	hp: 320,
-	types: ["Water"],
-	stage: "VMAX",
+	hp: 70,
+	types: ["Fire"],
 
-	attacks: [{
-		name: {
-			'zh-tw': "泡沫艙"
+	description: {
+		ja: "熱いものを 好む 性格。 雨に濡れると しっぽの 先から 煙が 出るという。",
+	},
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			name: {
+				ja: "もってくる",
+				'zh-tw': "泡沫艙",
+			},
+			cost: ["Fire"],
+			effect: {
+				ja: "自分の山札を1枚引く。",
+				'zh-tw': "從自己的棄牌區選擇1張【水】寶可夢卡，放置於備戰區。然後，從自己的棄牌區選擇最多3張【水】能量卡，附於剛放置的寶可夢身上。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "從自己的棄牌區選擇1張【水】寶可夢卡，放置於備戰區。然後，從自己的棄牌區選擇最多3張【水】能量卡，附於剛放置的寶可夢身上。"
+		{
+			name: {
+				ja: "ほのお",
+				'zh-tw': "極巨激流",
+			},
+			damage: 30,
+			cost: ["Fire", "Fire"],
 		},
+	],
 
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "極巨激流"
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 525245,
+				tcgplayer: 597313,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "若對手的戰鬥寶可夢身上放置有傷害指示物，則增加100點傷害。"
-		},
+	retreat: 1,
+	regulationMark: "D",
+	rarity: "Promo",
+	dexId: [4],
+};
 
-		damage: "100+",
-		cost: ["Water", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
-
-	retreat: 2,
-	regulationMark: "E"
-}
-
-export default card
+export default card;

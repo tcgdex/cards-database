@@ -4,6 +4,7 @@ import Set from "../White Flare"
 const card: Card = {
 	dexId: [620],
 	set: Set,
+	cameoDexIds: [581, 619],
 
 	name: {
 		en: "Mienshao",
@@ -74,9 +75,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836155
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836155,
+				tcgplayer: 642247
+			}
+		},
+	],
 }
 
 export default card

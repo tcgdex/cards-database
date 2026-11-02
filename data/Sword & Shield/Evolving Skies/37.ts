@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Feebas",
@@ -58,16 +52,29 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water."
+		en: "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water.",
+		de: "Ein schäbiges, ja sogar hässliches Pokémon. Dafür ist es abgehärtet und überlebt auch mit wenig Wasser."
 	},
 
 	dexId: [349],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574061,
-		tcgplayer: 246846
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574061,
+				tcgplayer: 246846
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574061,
+				tcgplayer: 246846
+			}
+		},
+	],
 }
 
 export default card

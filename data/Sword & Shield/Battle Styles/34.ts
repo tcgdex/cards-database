@@ -62,23 +62,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It can radiate chilliness from the bottoms of its feet. It'll spend the whole day tap-dancing on a frozen floor."
+		en: "It can radiate chilliness from the bottoms of its feet. It'll spend the whole day tap-dancing on a frozen floor.",
+		de: "Es erzeugt mit seinen Sohlen kalte Luft, die am Boden gefriert. Auf dieser Eisschicht übt es den ganzen Tag lang seinen Stepptanz."
 	},
 
-	thirdParty: {
-		cardmarket: 545156,
-		tcgplayer: 234165
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545156,
+				tcgplayer: 234165
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545156,
+				tcgplayer: 234165
+			}
+		},
+	],
 }
 
 export default card

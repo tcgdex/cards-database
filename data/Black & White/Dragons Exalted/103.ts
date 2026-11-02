@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Vigoroth",
 		fr: "Vigoroth",
+		de: "Muntier"
 	},
 
 	stage: "Stage2",
@@ -66,10 +67,12 @@ const card: Card = {
 			name: {
 				en: "Crushing Blow",
 				fr: "Coup Écrasant",
+				de: "Brechschlag"
 			},
 			effect: {
 				en: "Discard an Energy attached to the Defending Pokémon.",
 				fr: "Défaussez une Énergie attachée au Pokémon Défenseur.",
+				de: "Lege 1 an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 100,
 
@@ -85,10 +88,27 @@ const card: Card = {
 
 	retreat: 4,
 
-	thirdParty: {
-		cardmarket: 280542,
-		tcgplayer: 89293
-	}
+	description: {
+		en: "The world's laziest Pokémon. When it is lounging, it is actually saving energy for striking back.",
+		de: "Das faulste Pokémon der Welt. Wenn es faulenzt, sammelt es in Wahrheit Energie, um zuzuschlagen."
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280542,
+				tcgplayer: 89293
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280542,
+				tcgplayer: 89293
+			}
+		},
+	],
 }
 
 export default card

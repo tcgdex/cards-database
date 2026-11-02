@@ -65,15 +65,21 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 273971,
-		tcgplayer: 42511
+
+	description: {
+		en: "Its tongue can be extended like a chameleon's. It leaves a stinging sensation when it licks enemies.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273971,
+				tcgplayer: 42511
+			}
 		}
 	]
 }

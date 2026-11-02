@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Marshadow",
@@ -83,16 +77,29 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It sinks into the shadows of people and Pokémon, where it can understand their feelings and copy their capabilities."
+		en: "It sinks into the shadows of people and Pokémon, where it can understand their feelings and copy their capabilities.",
+		de: "Es verschmilzt mit den Schatten von Menschen und Pokémon, wodurch es ihre Gefühle verstehen und ihre Fähigkeiten kopieren kann."
 	},
 
 	dexId: [802],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574128,
-		tcgplayer: 246866
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574128,
+				tcgplayer: 246866
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574128,
+				tcgplayer: 246866
+			}
+		},
+	],
 }
 
 export default card

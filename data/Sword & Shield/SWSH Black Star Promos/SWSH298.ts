@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Hisuian Zoroark VSTAR"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 270,
 	types: ["Colorless"],
@@ -55,12 +55,31 @@ const card: Card = {
 		damage: "50×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
-
-	thirdParty: {
-		cardmarket: 671765
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 671765,
+				tcgplayer: 449527
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 671772,
+				tcgplayer: 449528
+			}
+		},
+	],
 }
 
 export default card

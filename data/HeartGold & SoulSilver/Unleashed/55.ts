@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		177,
-	],
+	dexId: [177],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -74,27 +72,32 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It usually forages for food on the ground but may, on rare occasions, hop onto branches to peck at shoots."
+		en: "It usually forages for food on the ground but may, on rare occasions, hop onto branches to peck at shoots.",
+		de: "Gewöhnlich sucht es am Boden nach Futter, aber manchmal springt es auch auf Äste, um dort zu suchen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87687,
+				cardmarket: 279211
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87687,
+				cardmarket: 279211
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["snowflake"],
-			languages: ["de"]
+			languages: ["de"],
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279211,
-		tcgplayer: 87687
-	}
 }
 
 export default card

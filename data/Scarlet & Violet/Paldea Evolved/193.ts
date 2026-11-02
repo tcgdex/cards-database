@@ -22,19 +22,32 @@ const card: Card = {
 		es: "Mientras esta carta esté unida a un Pokémon, proporciona 1 Energía {C}.\n\nEl Pokémon al que esté unida esta carta deja de estar Confundido, Dormido\n\no Paralizado y no puede verse afectado por ninguna de esas Condiciones Especiales.",
 		it: "Fintanto che questa carta è assegnata a un Pokémon, fornisce Energia {C}.\n\nIl Pokémon a cui è assegnata questa carta guarisce dalle condizioni speciali di addormentato, confuso o paralizzato e non può esserne influenzato.",
 		pt: "Enquanto esta carta estiver ligada a um Pokémon, ela fornecerá Energia {C}.\nO Pokémon ao qual esta carta está ligada se recupera de estar Adormecido, Confuso ou Paralisado e não pode ser afetado por estas Condições Especiais.",
-		de: "Solange diese Karte an ein Pokémon angelegt ist, liefert sie {C}-Energie.\nDas Pokémon, an das diese Karte angelegt ist, erholt sich von Schlaf, Verwirrung oder Paralyse und kann nicht von jenen Speziellen Zuständen betroffen werden."
+		de: "Solange diese Karte an ein Pokémon angelegt ist, liefert sie {C}-Energie. Das Pokémon, an das diese Karte angelegt ist, erholt sich von Schlaf, Verwirrung oder Paralyse und kann nicht von jenen Speziellen Zuständen betroffen werden."
 	},
 
 	energyType: "Special",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715668,
+				tcgplayer: 497567,
+				cardtrader: 248843
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715668,
+				tcgplayer: 497567,
+				cardtrader: 248843
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 715668
-	}
+	
 }
 
 export default card

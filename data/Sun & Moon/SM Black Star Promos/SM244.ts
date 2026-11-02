@@ -3,6 +3,9 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	dexId: [190],
+
+	cameoDexIds: [761],
+
 	set: Set,
 
 	name: {
@@ -14,7 +17,8 @@ const card: Card = {
 		de: "Griffel"
 	},
 
-	rarity: "Rare",
+	illustrator: "Shibuzoh.",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],
@@ -35,7 +39,7 @@ const card: Card = {
 			es: "Descarta cartas aleatorias de la mano de tu rival hasta que este tenga 5 cartas en su mano.",
 			it: "Scarta delle carte a caso dalla mano del tuo avversario fino a lasciarlo con cinque carte in mano.",
 			pt: "Descarte cartas aleatórias da mão do seu oponente até que ele(a) tenha 5 cartas na própria mão.",
-			de: "Lege so lang zufällige Karten aus der Hand deines Gegners auf seinen Ablagestapel, bis er 5 Karten auf der Hand hat."
+			de: "Lege so lang zufällige Karten aus der Hand deines Gegners auf seinen Ablagestapel, bis er 5 Karten auf seiner Hand hat."
 		},
 
 		cost: ["Colorless"]
@@ -68,7 +72,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "As it did more and more with its tail, its hands became clumsy. It makes its nest high in the treetops.",
+		de: "Der übermäßige Einsatz seines Schweifes hatte die Zurückbildung seiner Hände zur Folge. Es lebt in den Kronen hoher Bäume."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 467179,
+				tcgplayer: 214272
+			}
+		}
+	],
 }
 
 export default card

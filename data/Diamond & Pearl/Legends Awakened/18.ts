@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Anorith",
 		fr: "Anorith",
+		de: "Anorith"
 	},
 
 	stage: "Stage2",
@@ -78,7 +79,9 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		fr: "Il a gagné la côte après son évolution. Une armure robuste recouvre son corps."
+		en: "It went ashore after evolving. Its entire body is clad in a sturdy armor.",
+		fr: "Il a gagné la côte après son évolution. Une armure robuste recouvre son corps.",
+		de: "Nach seiner Entwicklung ging es an Land. Sein Körper ist von einer robusten Rüstung umgeben."
 	},
 
 	thirdParty: {

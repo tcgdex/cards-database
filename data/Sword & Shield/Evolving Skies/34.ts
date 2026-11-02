@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Ludicolo",
@@ -80,16 +74,29 @@ const card: Card = {
 	},
 
 	description: {
-		en: "If it hears festive music, it begins moving in rhythm in order to amplify its power."
+		en: "If it hears festive music, it begins moving in rhythm in order to amplify its power.",
+		de: "Es bewegt seinen Körper zu fröhlichen Rhythmen. Auf diese Weise erhöht es seine Kraft."
 	},
 
 	dexId: [272],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574058,
-		tcgplayer: 246834
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574058,
+				tcgplayer: 246834
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574058,
+				tcgplayer: 246834
+			}
+		},
+	],
 }
 
 export default card

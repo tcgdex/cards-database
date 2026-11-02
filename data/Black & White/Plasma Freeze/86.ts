@@ -35,10 +35,12 @@ const card: Card = {
 			name: {
 				en: "Mach Flight",
 				fr: "Vol Supersonique",
+				de: "Tempoflug"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				de: "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 			damage: 40,
 
@@ -52,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Luster Purge",
 				fr: "Lumi-Éclat",
+				de: "Scheinwerfer"
 			},
 			effect: {
 				en: "Discard all Energy attached to this Pokémon.",
 				fr: "Défaussez toutes les Énergies attachées à ce Pokémon.",
+				de: "Lege alle an dieses Pokémon angelegten Energien auf deinen Ablagestapel."
 			},
 			damage: 150,
 

@@ -74,6 +74,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Such a thick shell of wood covers its head and back that even a direct hit from a truck wouldn't faze it.",
+		de: "Sein Kopf und Rücken werden von einer harten Hülle bedeckt, die so robust ist, dass sie selbst einer Kollision mit einem LKW standhalten würde."
+	},
+
 	thirdParty: {
 		cardmarket: 286253,
 		tcgplayer: 107127

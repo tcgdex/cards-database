@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Klikk"
 	},
 
+	illustrator: "Kyoko Umemoto",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,
@@ -42,20 +43,43 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "The two minigears that compose this Pokémon are closer than twins. They mesh well only with each other.",
+		de: "Seine zwei Teile stehen einander näher als Zwillinge. Eine andere Kombination würde nicht halb so gut ineinandergreifen."
 	},
 
-	thirdParty: {
-		cardmarket: 682170,
-		tcgplayer: 451776
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682170,
+				tcgplayer: 451776
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682170,
+				tcgplayer: 451776
+			}
+		},
+	],
 }
 
 export default card

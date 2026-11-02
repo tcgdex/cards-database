@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Glurak GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Charmeleon",
 		fr: "Reptincel",
+		de: "Glutexo"
 	},
 
 	suffix: "GX",
@@ -70,7 +71,7 @@ const card: Card = {
 				es: "Descarta 3 Energías Fire unidas a este Pokémon.",
 				it: "Scarta tre Energie Fire assegnate a questo Pokémon.",
 				pt: "Descarte 3 Energias Fire deste Pokémon.",
-				de: "Lege 3 Fire-Energien von diesem Pokémon auf deinen Ablagestapel."
+				de: "Lege 3 {R}-Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 300,
 
@@ -87,7 +88,7 @@ const card: Card = {
 				es: "Enojo GX",
 				it: "Sfogo Rabbioso GX",
 				pt: "Cólera GX",
-				de: "Tobsuchtsanfall GX"
+				de: "Tobsuchtsanfall-GX"
 			},
 			effect: {
 				en: "Discard the top 10 cards of your opponent’s deck. (You can’t use more than 1 GX attack in a game.)",
@@ -109,8 +110,15 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 313449,
+				tcgplayer: 148151
+			}
+		}
+	],
 }
 
 export default card

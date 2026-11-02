@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Yanma",
 		fr: "Yanma",
+		de: "Yanma"
 	},
 
 	stage: "Stage1",
@@ -86,6 +87,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It prefers to battle by biting apart foes' heads instantly while flying by at high speed.",
+		de: "Seine bevorzugte Strategie besteht darin, seine Gegner aus dem Flug blitzartig zur Strecke zu bringen."
+	},
 
 	thirdParty: {
 		cardmarket: 387847,

@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Vigoroth",
@@ -80,15 +74,28 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its stress level rises if it cannot keep moving constantly. Too much stress makes it feel sick."
+		en: "Its stress level rises if it cannot keep moving constantly. Too much stress makes it feel sick.",
+		de: "Würde es sich nicht bewegen, würde sein Stress unerträglich und es ginge ihm augenblicklich schlechter."
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574185,
-		tcgplayer: 246859
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574185,
+				tcgplayer: 246859
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574185,
+				tcgplayer: 246859
+			}
+		},
+	],
 }
 
 export default card

@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		196,
-	],
+	dexId: [196],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -38,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Confuse Ray",
 				fr: "Onde folie",
-				de: "Confuse Ray"
+				de: "Konfustrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -57,12 +56,12 @@ const card: Card = {
 			name: {
 				en: "Energy Crush",
 				fr: "Écras'énergie",
-				de: "Energy Crush"
+				de: "Zermalmende Energie"
 			},
 			effect: {
-				en: "Does 20 damage plus 10 more damage for each Energy attached to all of your opponent's Pokémon.",
+				en: "Does 20 more damage plus 10 more damage for each Energy attached to all of your opponent's Pokémon.",
 				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque Énergie attachée aux Pokémon de votre adversaire.",
-				de: "Does 20 damage plus 10 more damage for each Energy attached to all of your opponent's Pokémon."
+				de: "Fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede Energie zu, die an allen Pokémon deines Gegners angelegt ist."
 			},
 			damage: "20+",
 
@@ -79,23 +78,31 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275793,
-		tcgplayer: 85319
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275793,
+				tcgplayer: 85319
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275793,
+				tcgplayer: 85319
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 125145
+			}
 		},
-	]
+	],
+
 }
 
 export default card

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cualquier daño infligido al Pokémon al que esté unida esta carta por un ataque de tu rival se reduce en 20 (después de aplicar Debilidad y Resistencia).",
 		it: "I danni inflitti al Pokémon a cui è assegnata questa carta da un attacco dell'avversario sono ridotti di 20, dopo aver applicato debolezza e resistenza.",
 		pt: "Qualquer dano causado ao Pokémon ao qual esse card está ligado pelo ataque de um oponente será reduzido em 20 (após a aplicação de Fraqueza e Resistência).",
-		de: "Schaden, der dem Pokémon, an das diese Karte angelegt ist, durch einen gegnerischen Angriff zugefügt wird, wird um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Schaden, der dem Pokémon, an das diese Karte angelegt ist, durch einen gegnerischen Angriff zugefügt wird, wird um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden). Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Ho-Oh"
+		en: "Ho-Oh",
+		fr: "Ho-Oh"
 	},
 
 	illustrator: "Ryota Murayama",
@@ -24,14 +25,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Blessed Burn"
+			en: "Blessed Burn",
+			fr: "Brûlure Bénie"
 		},
 
 		damage: 100,
 		cost: ["Fire", "Fire", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Heal 30 damage from each of your Benched Basic Pokémon."
+			en: "Heal 30 damage from each of your Benched Basic Pokémon.",
+			fr: "Soignez 30 dégâts de chacun de vos Pokémon de base de Banc."
 		}
 	}],
 

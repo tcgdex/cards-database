@@ -5,9 +5,10 @@ const card: Card = {
 	name: {
 		en: "Latios ex δ",
 		fr: "Latios ex δ",
-		de: "Latios ex"
+		de: "Latios-ex δ"
 	},
 
+	suffix: "ex",
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",

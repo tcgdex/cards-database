@@ -35,23 +35,44 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
+	description: {
+		en: "It dissolves and eats metal. Circulating liquid metal within its body is how it generates energy.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760746,
+				tcgplayer: 542860
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760746,
+				tcgplayer: 542860
+			}
+		},
 	],
 
 	illustrator: "Taiga Kayama",
 
-	thirdParty: {
-		cardmarket: 760746
-	}
 }
 
 export default card

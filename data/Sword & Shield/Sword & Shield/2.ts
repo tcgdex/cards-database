@@ -72,7 +72,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its flowers give off a relaxing fragrance. The stronger its aroma, the healthier the Roselia is."
+		en: "Its flowers give off a relaxing fragrance. The stronger its aroma, the healthier the Roselia is.",
+		de: "Seine Blüten verströmen einen entspannenden Duft. Je stärker dieser Duft ist, desto gesünder ist Roselia."
 	},
 
 	thirdParty: {

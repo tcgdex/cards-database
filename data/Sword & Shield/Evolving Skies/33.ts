@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Lombre",
@@ -58,16 +52,29 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It lives at the water's edge where it is sunny. It sleeps on a bed of water grass by day and becomes active at night."
+		en: "It lives at the water's edge where it is sunny. It sleeps on a bed of water grass by day and becomes active at night.",
+		de: "Es lebt am Ufer, wo die Sonne scheint. Tagsüber schläft es in einem Bett aus Wasserpflanzen, nachts wird es dann aktiv."
 	},
 
 	dexId: [271],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574057,
-		tcgplayer: 246830
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574057,
+				tcgplayer: 246830
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574057,
+				tcgplayer: 246830
+			}
+		},
+	],
 }
 
 export default card

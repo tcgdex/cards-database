@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		4,
-	],
+	dexId: [4],
 
 	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -33,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Flare",
 				fr: "Intimidation",
-				de: "Flare"
+				de: "Flackern"
 			},
 
 			damage: 10,
@@ -47,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Rage",
 				fr: "Frénésie",
-				de: "Rage"
+				de: "Raserei"
 			},
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on Charmander.",
 				fr: "Inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Salamèche.",
-				de: "Does 10 damage plus 10 more damage for each damage counter on Charmander"
+				de: "Fügt 10 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Glumanda zu."
 			},
 			damage: "10+",
 
@@ -62,17 +60,30 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 84208,
+				cardmarket: 275975
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["city-championships"],
+			thirdParty: {
+				tcgplayer: 215231,
+				cardmarket: 275975
+			},
 		},
 	],
 
-
-	retreat: 1,
-
-	thirdParty: {
-		tcgplayer: 84208,
-		cardmarket: 275975
-	}
 }
 
 export default card

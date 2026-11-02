@@ -81,6 +81,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It's proud of its thick horn. In Alola, its biggest rival is Vikavolt, which it's always fighting with.",
+		de: "Sein mächtiges Horn ist sein ganzer Stolz. Es streitet sich ständig mit Donarion, seinem größten Rivalen in Alola."
+	},
+
 	thirdParty: {
 		cardmarket: 407699,
 		tcgplayer: 201156

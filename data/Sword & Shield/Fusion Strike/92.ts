@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Tika Matsuno",
 
 	description: {
-		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes."
+		en: "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
+		de: "Durch die Spitzen seiner scharfen Krallen strömt Elektrizität. Selbst kleine Kratzer verursachen Ohnmacht."
 	},
 
 	attacks: [{
@@ -52,17 +59,23 @@ const card: Card = {
 		damage: 50
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582484,
-		tcgplayer: 253248
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582484,
+				tcgplayer: 253248
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582484,
+				tcgplayer: 253248
+			}
+		},
+	],
 }
 
 export default card

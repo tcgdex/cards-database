@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Poison Jab",
 				fr: "Direct Toxik",
+				de: "Gifthieb"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 20,
 
@@ -56,10 +58,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280651,
-		tcgplayer: 84480
-	}
+	description: {
+		en: "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.",
+		de: "Bläst es seine Giftbeutel auf, ertönt ein unheimliches Geräusch, das Gegner zurückschrecken lässt und vergiftet."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280652,
+				tcgplayer: 84480
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280652,
+				tcgplayer: 84480
+			}
+		},
+	],
 }
 
 export default card

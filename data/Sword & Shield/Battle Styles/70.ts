@@ -82,23 +82,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "They thump their bones rhythmically to communicate among themselves. There are nearly 50 different rhythmic patterns."
+		en: "They thump their bones rhythmically to communicate among themselves. There are nearly 50 different rhythmic patterns.",
+		de: "Es kommuniziert mit seinen Kameraden durch rhythmisches Knochenklappern. Fast 50 Muster sind bisher bekannt."
 	},
 
-	thirdParty: {
-		cardmarket: 545466,
-		tcgplayer: 234246
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545466,
+				tcgplayer: 234246
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545466,
+				tcgplayer: 234246
+			}
+		},
+	],
 }
 
 export default card

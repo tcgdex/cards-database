@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Seemon"
 	},
 
+	illustrator: "sui",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,
@@ -70,23 +71,30 @@ const card: Card = {
 			es: "Este ataque hace 20 puntos de daño a 1 de los Pokémon de tu rival por cada Energía Water unida a este Pokémon. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 			it: "Questo attacco infligge 20 danni a uno dei Pokémon del tuo avversario per ogni Energia Water assegnata a questo Pokémon. Non applicare debolezza e resistenza ai Pokémon in panchina.",
 			pt: "Este ataque causa 20 pontos de dano a 1 dos Pokémon do seu oponente para cada Energia Water ligada a este Pokémon (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
-			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Water-Energie 1 Pokémon deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte {W}-Energie 1 Pokémon deines Gegners 20 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		}
 	}],
 
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674047,
-		tcgplayer: 283910
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674047,
+				tcgplayer: 283910
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674047,
+				tcgplayer: 283910
+			}
+		},
+	],
 }
 
 export default card

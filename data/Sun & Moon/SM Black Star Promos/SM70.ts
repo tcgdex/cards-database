@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Schimmerndes Ho-Oh"
 	},
 	illustrator: "Hitoshi Ariga",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -90,6 +90,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "A legend says that its body glows in seven colors. A rainbow is said to form behind it when it flies.",
+		de: "Sein Körper soll in sieben Farben leuchten. Im Flug zieht es einen Regenbogen hinter sich her."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 301164,
+				tcgplayer: 146979
+			}
+		}
+	],
 }
 
 export default card

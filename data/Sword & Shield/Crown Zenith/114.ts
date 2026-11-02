@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Regigigas VSTAR"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 300,
@@ -55,20 +56,27 @@ const card: Card = {
 		damage: 230
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691833,
-		tcgplayer: 478143
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691833,
+				tcgplayer: 478143
+			}
+		},
+	],
 }
 
 export default card

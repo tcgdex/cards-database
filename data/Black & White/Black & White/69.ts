@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Scraggy",
 		fr: "Baggiguane",
+		de: "Zurrokex"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Spit Acid",
 				fr: "Crachat d’Acide",
+				de: "Säurespucker"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned. Flip a coin. If heads, the Defending Pokémon is also Paralyzed.",
 				fr: "Le Pokémon Défenseur est maintenant Brûlé. Lancez une pièce. Si c’est face, le Pokémon Défenseur est aussi Paralysé.",
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt. Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt auch paralysiert."
 			},
 			damage: 20,
 
@@ -58,6 +61,7 @@ const card: Card = {
 			name: {
 				en: "High Jump Kick",
 				fr: "Pied Voltige",
+				de: "Turmkick"
 			},
 
 			damage: 70,
@@ -81,10 +85,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279807,
-		tcgplayer: 88977
-	}
+	description: {
+		en: "Groups of them beat up anything that enters their territory. Each can spit acidic liquid from its mouth.",
+		de: "Es geht im Rudel gegen Eindringlinge vor. Aus seinem Mund speit es eine ätzende Flüssigkeit."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279807,
+				tcgplayer: 88977
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279807,
+				tcgplayer: 88977
+			}
+		},
+	],
 }
 
 export default card

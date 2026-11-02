@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [406],
 
 	dexId: [
 		287,
@@ -78,6 +79,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "The way Slakoth lolls around makes anyone who watches it feel like doing the same.",
+		de: "Allein bei Bummelz’ Anblick werden Gegner von Trägheit gepackt und schlummern alsbald ein."
+	},
 
 	thirdParty: {
 		cardmarket: 388622,

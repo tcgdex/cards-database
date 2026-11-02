@@ -59,23 +59,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It gathers things it likes and passes them through its loop to teleport them to a secret place."
+		en: "It gathers things it likes and passes them through its loop to teleport them to a secret place.",
+		de: "Mithilfe seiner Ringe hortet es Dinge, die ihm gefallen, an einem geheimen Ort. Es teleportiert diese, indem es sie durch seine Ringe bewegt."
 	},
 
-	thirdParty: {
-		cardmarket: 483434,
-		tcgplayer: 219424
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 483434,
+				tcgplayer: 219424
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483434,
+				tcgplayer: 219424
+			}
+		},
+	],
 }
 
 export default card

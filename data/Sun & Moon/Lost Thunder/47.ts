@@ -89,6 +89,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It is said that when it roars, a volcano erupts somewhere around the globe.",
+		de: "Man sagt, wenn es brüllt, bricht irgendwo in der Welt ein Vulkan aus."
+	},
+
 	thirdParty: {
 		cardmarket: 365687,
 		tcgplayer: 178852

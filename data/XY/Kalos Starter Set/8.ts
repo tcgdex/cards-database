@@ -73,6 +73,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Eating a twig fills it with energy, and its roomy ears give vent to air hotter than 390 degrees Fahrenheit.",
+		de: "Wenn es Zweige frisst, fasst es neue Kraft und stößt über seine Ohren über 200 °C heiße Luft aus."
+	},
+
 	thirdParty: {
 		cardmarket: 281274,
 		tcgplayer: 85411

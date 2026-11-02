@@ -56,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Hypnostrike",
 				fr: "Choc Sommeil",
+				de: "Hypnostoß"
 			},
 			effect: {
 				en: "Both this Pokémon and the Defending Pokémon are now Asleep.",
 				fr: "Ce Pokémon et le Pokémon Défenseur sont maintenant Endormis.",
+				de: "Dieses Pokémon und das Verteidigende Pokémon schlafen jetzt."
 			},
 			damage: 60,
 

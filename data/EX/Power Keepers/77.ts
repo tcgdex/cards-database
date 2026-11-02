@@ -15,6 +15,7 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
+		en: "Search your deck for a Basic Pokémon (excluding Pokémon-ex) and put it onto your Bench. Shuffle your deck afterward.",
 		fr: "Choisissez dans votre deck un Pokémon de base (Pokémon-ex exclus) et placez-le sur votre Banc. Ensuite, mélangez votre deck.",
 		de: "Durchsuche dein Deck nach einer Basis-Pokémon-Karte (kein Pokémon-ex) und lege es auf deine Bank. Mische dein Deck danach."
 	},

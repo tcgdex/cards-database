@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Goupilou",
-		en: "Nickit"
+		en: "Nickit",
+		de: "Kleptifux"
 	},
 
 	attacks: [{
@@ -76,23 +77,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It secretly marks potential targets with a scent. By following the scent, it stalks its targets and steals from them when they least expect it."
+		en: "It secretly marks potential targets with a scent. By following the scent, it stalks its targets and steals from them when they least expect it.",
+		de: "Es markiert heimlich die Beute, auf die es ein Auge geworfen hat. Dann folgt es dem Geruch und stiehlt sie, wenn sich die Gelegenheit bietet."
 	},
 
-	thirdParty: {
-		cardmarket: 539263,
-		tcgplayer: 232522
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539263,
+				tcgplayer: 232522
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539263,
+				tcgplayer: 232522
+			}
+		},
+	],
 }
 
 export default card

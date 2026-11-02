@@ -3,8 +3,8 @@ import Set from '../Rising Rivals'
 
 const card: Card = {
 	name: {
-		en: "Flareon 4",
-		fr: "Pyroli  Niv. 55",
+		en: "Flareon E4",
+		fr: "Pyroli 4 Niv. 55",
 		de: "Flamara 4"
 	},
 	illustrator: "Masakazu Fukuda",
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		136,
-	],
+	dexId: [136],
 	hp: 70,
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -49,8 +47,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to Flareon .",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie Fire attachée à Pyroli .",
-				de: "Wirf 1 Münze. Bei \"Zahl\" entferne 1 -Energie, die an Flamara 4 angelegt ist, und lege sie auf deinen Ablagestapel."
+				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie {R} attachée à Pyroli 4.",
+				de: "Wirf 1 Münze. Bei „Zahl“ entferne 1 {R}-Energie, die an Flamara 4 angelegt ist, und lege sie auf deinen Ablagestapel."
 			},
 			damage: 40,
 
@@ -59,26 +57,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278634,
+				tcgplayer: 85504
+			}
 		},
 		{
 			type: "reverse",
-			foil: "cracked-ice"
-		}
-	]
-
-
+			thirdParty: {
+				cardmarket: 278634,
+				tcgplayer: 85504
+			}
+		},
+		{
+			type: "reverse",
+			foil: 'cracked-ice',
+			thirdParty: {
+				tcgplayer: 272511
+			}
+		},
+	],
 
 }
 

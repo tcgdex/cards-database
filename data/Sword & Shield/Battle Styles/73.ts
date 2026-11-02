@@ -42,23 +42,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Timburr that have started carrying logs that are about three times their size are nearly ready to evolve."
+		en: "Timburr that have started carrying logs that are about three times their size are nearly ready to evolve.",
+		de: "Man sagt, seine Entwicklung stehe dann kurz bevor, wenn es einen Holzbalken heben kann, der dreimal so groß und schwer ist wie es selbst."
 	},
 
-	thirdParty: {
-		cardmarket: 545481,
-		tcgplayer: 234249
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545481,
+				tcgplayer: 234249
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545481,
+				tcgplayer: 234249
+			}
+		},
+	],
 }
 
 export default card

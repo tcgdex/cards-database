@@ -50,7 +50,7 @@ const card: Card = {
 			name: {
 				en: "(-) Boost",
 				fr: "Boost (-)",
-				de: "(-) Aufladung"
+				de: "⊖ Aufladung"
 			},
 			effect: {
 				en: "If Minun is on your Bench, this attack does 20 damage plus 20 more damage.",
@@ -77,6 +77,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It cheers on friends with pom-poms made of sparks. It drains power from telephone poles.",
+		de: "Es feuert Freunde mit Pompons an, die aus Funken bestehen. Es holt sich Energie aus Telegrafenmasten."
+	},
 
 	thirdParty: {
 		cardmarket: 278077,

@@ -23,7 +23,7 @@ const card: Card = {
 		fr: "Piochez 3 cartes.",
 		es: "Roba 3 cartas.",
 		'es-mx': "Roba 3 cartas.",
-		de: "Ziehe 3 Karten.",
+		de: "Ziehe 3 Karten. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen.",
 		it: "Pesca tre carte.",
 		pt: "Compre 3 cartas."
 	},
@@ -31,10 +31,22 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 676026,
-		cardmarket: 869825
-	}
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869825,
+			tcgplayer: 676026
+		}
+	},
+	{
+		type: "reverse",
+		thirdParty: {
+			cardmarket: 869825,
+			tcgplayer: 676026
+		}
+	},
+],
 }
 
 export default card

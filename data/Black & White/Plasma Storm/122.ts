@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Si el Pokémon al que está unida esta carta es un Pokémon Básico, cualquier daño hecho a este Pokémon por ataques se reduce en 20 (después de aplicar Debilidad y Resistencia).",
 		it: "Se il Pokémon a cui è assegnata questa carta è un Pokémon Base, i danni inflitti a questo Pokémon dagli attacchi sono ridotti di 20, dopo aver applicato debolezza e resistenza.",
 		pt: "Se este card estiver ligado a um Pokémon Básico, qualquer dano causado a este Pokémon por ataques será reduzido em 20 (após a aplicação de Fraqueza e Resistência).",
-		de: "Wenn das Pokémon, an das diese Karte angelegt ist, ein Basis-Pokémon ist, wird der diesem Pokémon durch Angriffe zugefügte Schaden um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn das Pokémon, an das diese Karte angelegt ist, ein Basis-Pokémon ist, wird der diesem Pokémon durch Angriffe zugefügte Schaden um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden). Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

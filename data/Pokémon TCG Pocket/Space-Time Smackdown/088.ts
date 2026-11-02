@@ -23,7 +23,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Skull Fossil"
+		en: "Skull Fossil",
+		fr: "Fossile Crâne"
 	},
 
 	description: {

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		58,
-	],
+	dexId: [58],
 
 	hp: 60,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -34,12 +32,12 @@ const card: Card = {
 			name: {
 				en: "Ember",
 				fr: "Flammèche",
-				de: "Ember"
+				de: "Glut"
 			},
 			effect: {
-				en: "Discard a Energy card attached to Growlithe.",
-				fr: "Défaussez-vous d'une carte Énergie  attachée à Caninos.",
-				de: "Discard a  Energy card attached to Growlithe."
+				en: "Discard a Fire Energy card attached to Growlithe.",
+				fr: "Défaussez-vous d'une carte Énergie {R} attachée à Caninos.",
+				de: "Lege 1 an Fukano angelegte {R}-Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -49,22 +47,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275124,
-		tcgplayer: 85949
-	},
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85949,
+				cardmarket: 275124
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 85949,
+				cardmarket: 275124
+			}
+		},
 	]
 }
 

@@ -4,6 +4,7 @@ import Set from "../Twilight Masquerade"
 const card: Card = {
 	dexId: [845],
 	set: Set,
+	cameoDexIds: [613, 759, 951],
 
 	name: {
 		en: "Cramorant",
@@ -55,19 +56,32 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
+	description: {
+		en: "It's an incredibly poor learner because it uses the bare minimum amount of energy for its brain. It focuses on battling instead.",
+		de: "Sein Gedächtnis ist schlecht, aber indem es so wenig Energie wie möglich für sein Gehirn nutzt, kann es sie stattdessen zum Kämpfen verwenden."
 	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769350,
+				tcgplayer: 550220
+			}
+		},
+	],
 
 	illustrator: "Fujimoto Gold",
 
-	thirdParty: {
-		cardmarket: 769350
-	}
 }
 
 export default card

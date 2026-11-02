@@ -80,6 +80,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This very forgetful Pokémon will wait for a new order from its Trainer even though it already has one.",
+		de: "Wartet oft vergeblich auf Anweisungen, obwohl es bereits einen Befehl erhalten hat. Ein sehr zerstreutes Pokémon."
+	},
+
 	thirdParty: {
 		cardmarket: 388657,
 		tcgplayer: 195174

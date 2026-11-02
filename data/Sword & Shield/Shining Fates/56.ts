@@ -71,23 +71,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It uses the horns on its head to sense the emotions of others. Males will act as valets for those they serve, looking after their every need."
+		en: "It uses the horns on its head to sense the emotions of others. Males will act as valets for those they serve, looking after their every need.",
+		de: "Mit den Hörnern auf seinem Kopf erfasst es die Gefühle seines Gegenübers. Männchen kümmern sich wie Bedienstete um ihren Trainer."
 	},
 
-	thirdParty: {
-		cardmarket: 539303,
-		tcgplayer: 232547
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539303,
+				tcgplayer: 232547
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539303,
+				tcgplayer: 232547
+			}
+		},
+	],
 }
 
 export default card

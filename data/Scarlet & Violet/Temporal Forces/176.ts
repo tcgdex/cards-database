@@ -4,6 +4,7 @@ import Set from "../Temporal Forces"
 const card: Card = {
 	dexId: [24],
 	set: Set,
+	cameoDexIds: [733],
 
 	name: {
 		en: "Arbok",
@@ -63,20 +64,31 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
+	description: {
+		en: "The pattern on its belly appears to be a frightening face. Weak foes will flee just at the sight of the pattern.",
+	},
+
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760806,
+				tcgplayer: 542897
+			}
+		},
 	],
 
 	illustrator: "OKUBO",
 
-	thirdParty: {
-		cardmarket: 760806
-	}
 }
 
 export default card

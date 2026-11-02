@@ -3,6 +3,9 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	dexId: [133],
+
+	cameoDexIds: [111, 236, 441],
+
 	set: Set,
 
 	name: {
@@ -14,7 +17,8 @@ const card: Card = {
 		de: "Evoli"
 	},
 
-	rarity: "Rare",
+	illustrator: "kirisAki",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Colorless"],
@@ -48,7 +52,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "The question of why only Eevee has such unstable genes has still not been solved.",
+		de: "Evoli ist das einzige Pokémon mit einem höchst instabilen Erbmaterial. Die Ursache dafür ist nach wie vor unklar."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 412939,
+				tcgplayer: 200276
+			}
+		}
+	],
 }
 
 export default card

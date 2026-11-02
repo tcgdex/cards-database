@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Because it can use all kinds of moves, many scientists believe MEW to be the ancestor of Pokémon.",
+	},
+
 	thirdParty: {
 		cardmarket: 277768,
 		tcgplayer: 87403

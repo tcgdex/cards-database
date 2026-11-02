@@ -70,6 +70,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Even a robust wrestler will become dizzy and unable to stand when exposed to its 200,000-hertz ultrasonic waves.",
+		de: "Selbst ein gestandener Ringer geht bei den 200 000 Hz hohen Ultraschallwellen dieses Pokémon unweigerlich in die Knie."
+	},
+
 	thirdParty: {
 		cardmarket: 286377,
 		tcgplayer: 107250

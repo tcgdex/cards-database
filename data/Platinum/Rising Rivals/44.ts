@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		305,
-	],
+	dexId: [305],
 
 	hp: 80,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Aron",
 		fr: "Galekid",
+		de: "Stollunior"
 	},
 
 	stage: "Stage1",
@@ -43,8 +42,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin for each Metal Energy attached to Lairon. This attack does 10 damage plus 20 more damage for each heads.",
-				fr: "Lancez une pièce pour chaque Énergie Metal attachée à Galegon. Cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires pour chaque face.",
-				de: "Wirf 1 Münze für jede an Stollrak angelegte -Energie. Dieser Angriff fügt 10 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				fr: "Lancez une pièce pour chaque Énergie {M} attachée à Galegon. Cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires pour chaque face.",
+				de: "Wirf 1 Münze für jede an Stollrak angelegte {M}-Energie. Dieser Angriff fügt 10 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10+",
 
@@ -76,29 +75,36 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
-
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278618,
-		tcgplayer: 86581
+	description: {
+		en: "For food, it digs up iron ore. It smashes its steely body against others to fight over territory.",
+		de: "Es ernährt sich von Eisenerz. Um sein Revier zu sichern, setzt es seinen harten Körper ein."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278618,
+				tcgplayer: 86581
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278618,
+				tcgplayer: 86581
+			}
+		},
+	],
+
 }
 
 export default card

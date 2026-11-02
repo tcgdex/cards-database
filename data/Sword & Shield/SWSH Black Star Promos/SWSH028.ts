@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ryuta Fuse",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Metal"],
@@ -73,18 +73,34 @@ const card: Card = {
 	stage: "Basic",
 	dexId: [884],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 453308
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 453308,
+				tcgplayer: 214239
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["eb-games"],
+			thirdParty: {
+				cardmarket: 886516,
+				tcgplayer: 624648
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["gamestop"],
+			thirdParty: {
+				cardmarket: 742039,
+				tcgplayer: 247362
+			}
+		},
+	],
 }
 
 export default card

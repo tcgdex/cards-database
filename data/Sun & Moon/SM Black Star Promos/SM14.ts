@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Wolwerock GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Rockruff",
 		fr: "Rocabot",
+		de: "Wuffels"
 	},
 
 	suffix: "GX",
@@ -107,8 +108,15 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 296827,
+				tcgplayer: 127520
+			}
+		}
+	],
 }
 
 export default card

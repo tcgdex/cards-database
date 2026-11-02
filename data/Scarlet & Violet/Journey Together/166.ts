@@ -4,6 +4,7 @@ import Set from "../Journey Together"
 const card: Card = {
 	dexId: [745],
 	set: Set,
+	cameoDexIds: [744],
 
 	name: {
 		en: "Lycanroc",
@@ -80,19 +81,25 @@ const card: Card = {
 		damage: "40+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 	illustrator: "GIDORA",
 
-	thirdParty: {
-		cardmarket: 817318
-	},
-
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817318,
+				tcgplayer: 623593
+			}
 		},
-	]
+	],
 }
 
 export default card

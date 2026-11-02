@@ -4,7 +4,8 @@ import Set from '../POP Series 6'
 const card: Card = {
 	name: {
 		en: "Riolu",
-		fr: "Riolu"
+		fr: "Riolu",
+		de: "Riolu"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -12,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		447,
-	],
+	dexId: [447],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -31,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Wild Kick",
-				fr: "Coup déchaîné"
+				fr: "Coup déchaîné",
+				de: "Stürmischer Kick"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
-				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet."
+				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -48,24 +49,30 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	description: {
-		en: "The aura that emanates from its body intensifies to alert others if it is afraid or sad."
+		en: "The aura that emanates from its body intensifies to alert others if it is afraid or sad.",
+		de: "Die Aura, die dieses PKMN umgibt, verstärkt sich, wenn es zeigen will, dass es ängstlich oder traurig ist."
 	},
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88752,
+				cardmarket: 277893
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88752,
+				cardmarket: 277893
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277893,
-		tcgplayer: 88752
-	}
 }
 
 export default card

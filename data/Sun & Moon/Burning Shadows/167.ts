@@ -27,10 +27,16 @@ const card: Card = {
 		de: ""
 	},
 
-	thirdParty: {
-		cardmarket: 299565,
-		tcgplayer: 138635
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "gold",
+			thirdParty: {
+				cardmarket: 299565,
+				tcgplayer: 138635
+			}
+		},
+	],
 }
 
 export default card

@@ -22,21 +22,34 @@ const card: Card = {
 		es: "Busca en tu baraja hasta 3 Pokémon Básicos con 120 PS o menos, enséñalos y ponlos en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Cerca nel tuo mazzo fino a tre Pokémon Base con 120 PS o meno, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure por até 3 Pokémon Básicos com 120 PS ou menos no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Durchsuche dein Deck nach bis zu 3 Basis-Pokémon mit 120 oder weniger KP, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Durchsuche dein Deck nach bis zu 3 Basis-Pokémon mit 120 oder weniger KP, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715652,
+				tcgplayer: 497549,
+				cardtrader: 248822
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715652,
+				tcgplayer: 497549,
+				cardtrader: 248822
+			}
+		},
+	],
 
 	illustrator: "Hitoshi Ariga",
 
-	thirdParty: {
-		cardmarket: 715652
-	}
+	
 }
 
 export default card

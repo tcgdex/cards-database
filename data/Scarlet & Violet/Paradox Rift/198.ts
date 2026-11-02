@@ -4,6 +4,7 @@ import Set from "../Paradox Rift"
 const card: Card = {
 	dexId: [999],
 	set: Set,
+	cameoDexIds: [1000],
 
 	name: {
 		en: "Gimmighoul",
@@ -44,19 +45,40 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "This Pokémon was born inside a treasure chest about 1,500 years ago. It sucks the life-force out of scoundrels who try to steal the treasure.",
+		de: "Es entstand vor etwa 1500 Jahren in einer Schatztruhe. Wenn Diebe versuchen, den Schatz zu stehlen, saugt es ihnen die Lebensenergie aus."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740741,
+				tcgplayer: 523879,
+				cardtrader: 265543
+			}
+		},
+	],
 
 	illustrator: "Akira Komayama",
 
-	thirdParty: {
-		cardmarket: 740741
-	}
+	
 }
 
 export default card

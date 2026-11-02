@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It's found crawling on beaches and seafloors. The coral that grows on Corsola's head is as good as a five-star banquet to this Pokémon.",
+		de: "Kriecht auf dem Meeresgrund oder am Strand herum. Die Korallen, die auf den Köpfen von Corasonn wachsen, sind seine Leibspeise."
+	},
+
 	thirdParty: {
 		cardmarket: 365706,
 		tcgplayer: 178877

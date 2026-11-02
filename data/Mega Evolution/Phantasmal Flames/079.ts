@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Ambipom"
 	},
 
+	evolveFrom: {
+		en: "Aipom",
+		fr: "Capumain",
+		es: "Aipom",
+		'es-mx': "Aipom",
+		de: "Griffel",
+		it: "Aipom",
+		pt: "Aipom",
+	},
+
 	rarity: "Rare",
 	category: "Pokemon",
 
@@ -60,22 +70,39 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "They live on large trees. They are said to communicate by connecting their tails to those of others.",
+		fr: "Les Capidextre vivent dans les grands arbres. On dit qu'ils peuvent communiquer leurs émotions en reliant leurs queues.",
+		de: "Sie leben auf hohen Bäumen. Man sagt, sie teilen sich ihre Gefühle mit, indem sie ihre Schweife miteinander verbinden."
+	},
+
+	illustrator: "hncl",
 	variants: [
 		{
-			type: "normal"
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857654,
+				tcgplayer: 662127
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857654,
+				tcgplayer: 662127,
+				cardtrader: 356865
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857654,
-		tcgplayer: 662127
-	}
 }
 
 export default card

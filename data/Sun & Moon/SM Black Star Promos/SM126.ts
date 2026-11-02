@@ -10,8 +10,8 @@ const card: Card = {
 		pt: "Ultra Necrozma GX",
 		de: "Ultra-Necrozma GX"
 	},
-	illustrator: "PLANETA Otani",
-	rarity: "Rare",
+	illustrator: "PLANETA",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -46,7 +46,7 @@ const card: Card = {
 				es: "Descarta todas las Energías Básicas Psychic de este Pokémon. Este ataque hace 80 puntos de daño más por cada carta que hayas descartado de esta manera.",
 				it: "Scarta tutte le Energie base Psychic assegnate a questo Pokémon. Questo attacco infligge 80 danni in più per ogni carta che hai scartato in questo modo.",
 				pt: "Descarte todas as Energias Psychic básicas deste Pokémon. Este ataque causa 80 pontos de dano a mais para cada carta descartada desta forma.",
-				de: "Lege alle Psychic-Basis-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 80 Schadenspunkte mehr mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
+				de: "Lege alle {P}-Basis-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 80 Schadenspunkte mehr mal der Anzahl der auf diese Weise auf deinen Ablagestapel gelegten Karten zu."
 			},
 			damage: "20+",
 
@@ -62,7 +62,7 @@ const card: Card = {
 				es: "Luz Apocalíptica GX",
 				it: "Fotodistruzione Celeste GX",
 				pt: "Céu em Chamas GX",
-				de: "Licht des Erlöschens GX"
+				de: "Licht des Erlöschens-GX"
 			},
 			effect: {
 				en: "You can use this attack only if the total of both players’ remaining Prize cards is 6 or less. Put 6 damage counters on each of your opponent’s Pokémon. (You can’t use more than 1 GX attack in a game.)",
@@ -84,8 +84,15 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 366054,
+				tcgplayer: 179039
+			}
+		}
+	],
 }
 
 export default card

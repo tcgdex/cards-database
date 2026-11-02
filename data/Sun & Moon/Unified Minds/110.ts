@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Meditite",
 		fr: "Méditikka",
+		de: "Meditie"
 	},
 
 	stage: "Stage1",
@@ -90,6 +91,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It elegantly avoids attacks with dance-like steps, then launches a devastating blow in the same motion.",
+		de: "Es weicht Attacken elegant tänzerisch aus, um anschließend eine verheerende Attacke aus derselben Bewegung heraus zu lancieren."
+	},
 
 	thirdParty: {
 		cardmarket: 388352,

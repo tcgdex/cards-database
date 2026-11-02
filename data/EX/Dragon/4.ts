@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		330,
-	],
+	dexId: [330],
 
 	hp: 120,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Vibrava",
-		fr: "Vibraninf"
+		fr: "Vibraninf",
+		de: "Vibrava"
 	},
 
 	stage: "Stage2",
@@ -39,12 +38,12 @@ const card: Card = {
 			name: {
 				en: "Energy Shower",
 				fr: "Averse d'énergie",
-				de: "Energy Shower"
+				de: "Energiedusche"
 			},
 			effect: {
 				en: "Attach any number of basic Energy cards from your hand to your Pokémon in any way you like.",
 				fr: "Choisissez dans votre main autant de cartes Énergie de base que vous le voulez et attachez-les à vos Pokémon de la façon que vous voulez.",
-				de: "Attach any number of basic Energy cards from your hand to your Pokémon in any way you like."
+				de: "Lege beliebig viele Basis-Energiekarten von deiner Hand an deine Pokémon an."
 			},
 
 		},
@@ -57,12 +56,12 @@ const card: Card = {
 			name: {
 				en: "Rainbow Burn",
 				fr: "Brûlure arcenciel",
-				de: "Rainbow Burn"
+				de: "Regenbogenfeuer"
 			},
 			effect: {
 				en: "Does 30 damage plus 10 more damage for each type of basic Energy card attached to Flygon.",
 				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque type de carte Énergie de base attaché à Libegon.",
-				de: "Does 30 damage plus 10 more damage for each type of basic Energy attached to Flygon."
+				de: "Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede unterschiedliche Sorte Basis-Energiekarten, die an Libelldra angelegt sind, zu."
 			},
 			damage: "30+",
 
@@ -72,10 +71,9 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Colorless",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fire",
@@ -86,14 +84,26 @@ const card: Card = {
 			value: "-30"
 		},
 	],
-
-
 	retreat: 2,
 
-	thirdParty: {
-		tcgplayer: 85521,
-		cardmarket: 275881
-	}
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85521,
+				cardmarket: 275881
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85521,
+				cardmarket: 275881
+			},
+		},
+	],
+
 }
 
 export default card

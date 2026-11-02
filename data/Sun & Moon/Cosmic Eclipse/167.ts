@@ -78,6 +78,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The question of why only Eevee has such unstable genes has still not been solved.",
+		de: "Evoli ist das einzige Pokémon mit einem höchst instabilen Erbmaterial. Die Ursache dafür ist nach wie vor unklar."
+	},
+
 	thirdParty: {
 		cardmarket: 408459,
 		tcgplayer: 201289

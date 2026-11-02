@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Glaziola V"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 210,
@@ -39,7 +40,7 @@ const card: Card = {
 			es: "Busca en tu baraja 1 carta de Energía Water y únela a este Pokémon. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo una carta Energia Water e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
 			pt: "Procure por 1 carta de Energia Water no seu baralho e ligue-a a este Pokémon. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach 1 Water-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+			de: "Durchsuche dein Deck nach 1 {W}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 		},
 
 		damage: 30
@@ -58,20 +59,27 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691755,
-		tcgplayer: 478138
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691755,
+				tcgplayer: 478138
+			}
+		},
+	],
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		294,
-	],
+	dexId: [294],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
@@ -28,7 +26,7 @@ const card: Card = {
 		fr: "Chuchmur"
 	},
 
-	stage: "Stage2",
+	stage: "Stage1",
 
 	attacks: [
 		{
@@ -37,7 +35,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Cracking Punch",
+				en: "Cracking Voice",
 				fr: "Super voix",
 				de: "Cracking Voice"
 			},
@@ -76,18 +74,21 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276113,
-		tcgplayer: 86840
-	},
-
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
+			thirdParty: {
+				tcgplayer: 86840,
+				cardmarket: 276113
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86840,
+				cardmarket: 276113
+			}
+		},
 	]
 }
 

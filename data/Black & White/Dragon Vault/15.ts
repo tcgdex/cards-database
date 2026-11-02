@@ -68,10 +68,19 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 281014,
-		tcgplayer: 85560
-	}
+	description: {
+		en: "Their tusks can shatter rocks. Territory battles between Fraxure can be intensely violent.",
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281015,
+				tcgplayer: 85560
+			}
+		},
+	],
 }
 
 export default card

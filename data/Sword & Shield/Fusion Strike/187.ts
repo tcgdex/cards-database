@@ -19,12 +19,25 @@ const card: Card = {
 	hp: 80,
 	types: ["Metal"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Oswaldo KATO",
 
 	description: {
-		en: "When it's in trouble, it curls up into a ball, makes its fur spikes stand on end, and then discharges electricity indiscriminately."
+		en: "When it's in trouble, it curls up into a ball, makes its fur spikes stand on end, and then discharges electricity indiscriminately.",
+		de: "Bei Gefahr rollt es sich zusammen, stellt seine Rückenstacheln auf und schießt willkürlich mit Elektrizität um sich."
 	},
 
 	attacks: [{
@@ -64,17 +77,23 @@ const card: Card = {
 		damage: 50
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582815,
-		tcgplayer: 253336
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582815,
+				tcgplayer: 253336
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582815,
+				tcgplayer: 253336
+			}
+		},
+	],
 }
 
 export default card

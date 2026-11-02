@@ -4,6 +4,7 @@ import Set from "../Silver Tempest"
 const card: Card = {
 	dexId: [587],
 	set: Set,
+	cameoDexIds: [743],
 
 	name: {
 		en: "Emolga",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Emolga"
 	},
 
+	illustrator: "sowsow",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -55,20 +57,37 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "As Emolga flutters through the air, it crackles with electricity. This Pokémon is cute, but it can cause a lot of trouble.",
+		de: "Emolga fliegt anmutig durch die Lüfte und entlädt dabei Strom. Es ist zwar niedlich, kann aber auch für viel Ärger sorgen."
 	},
 
-	thirdParty: {
-		cardmarket: 682101,
-		tcgplayer: 451710
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682101,
+				tcgplayer: 451710
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682101,
+				tcgplayer: 451710
+			}
+		},
+	],
 }
 
 export default card

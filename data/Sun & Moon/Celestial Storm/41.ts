@@ -78,6 +78,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It is protected by a sturdy shell. Once in a lifetime, it makes a magnificent pearl.",
+		de: "Es ist durch einen harten Panzer geschützt. Einmal im Leben stellt es eine bezaubernde Perle her."
+	},
+
 	thirdParty: {
 		cardmarket: 361288,
 		tcgplayer: 170858

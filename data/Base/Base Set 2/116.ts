@@ -11,14 +11,18 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	thirdParty: {
-		cardmarket: 274039,
-		tcgplayer: 42560
+	effect: {
+		en: "Discard your hand, then draw 7 cards.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274039,
+				tcgplayer: 42560
+			}
 		}
 	]
 }

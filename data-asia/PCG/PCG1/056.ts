@@ -21,7 +21,7 @@ const card: Card = {
                 ja: "パワー遺伝子",
             },
             effect: {
-                ja: "Nidokingが機能している限り、Nidoran F、Nidorina、Nidoqueen、Nidoran M、およびNidorinoによる攻撃は、Pokã©Monにさらに10ダメージを与えます。",
+                ja: "Nidokingが機能している限り、Nidoran F、Nidorina、Nidoqueen、Nidoran M、およびNidorinoによる攻撃は、PokéMonにさらに10ダメージを与えます。",
             },
         }],
 

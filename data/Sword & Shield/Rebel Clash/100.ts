@@ -44,7 +44,7 @@ const card: Card = {
 				es: "Mientras este Pokémon esté en tu Banca, evita todo el daño infligido a este Pokémon por ataques (tanto tuyos como de tu rival).",
 				it: "Fintanto che questo Pokémon è nella tua panchina, previeni tutti i danni inflitti a questo Pokémon dagli attacchi, sia tuoi che del tuo avversario.",
 				pt: "Desde que este Pokémon esteja em seu Banco, previne todos os danos causados a este Pokémon por ataques (seus e do seu oponente).",
-				de: "Solang sich dieses Pokémon auf deiner Bank befindet, verhindere allen Schaden, der diesem Pokémon durch Angriffe (deine und die deines Gegners) zugefügt wird."
+				de: "Solange sich dieses Pokémon auf deiner Bank befindet, verhindere allen Schaden, der diesem Pokémon durch Attacken (deine und die deines Gegners) zugefügt wird."
 			},
 		},
 	],
@@ -88,23 +88,30 @@ const card: Card = {
 	types: ["Fighting"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It makes its nest at the bottom of swamps. It will eat anything—if it is alive, Whiscash will eat it."
+		en: "It makes its nest at the bottom of swamps. It will eat anything—if it is alive, Whiscash will eat it.",
+		de: "Dieses Pokémon baut sein Nest am Grund von Sümpfen. Es ist ein Vielfraß und verspeist Lebewesen aller Art."
 	},
 
-	thirdParty: {
-		cardmarket: 457913,
-		tcgplayer: 213188
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457913,
+				tcgplayer: 213188
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457913,
+				tcgplayer: 213188
+			}
+		},
+	],
 }
 
 export default card

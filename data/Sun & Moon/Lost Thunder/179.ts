@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Roba 2 cartas. Después, lanza 1 moneda. Si sale cara, si has jugado esta carta de Kahili de tu mano, pon esta carta en tu mano en vez de en la pila de descartes. Si no tienes ninguna carta en tu baraja, no puedes jugar esta carta.",
 		it: "Pesca due carte. Poi lancia una moneta. Se esce testa, se hai giocato questa Kahili dalla tua mano, prendi questa carta e aggiungila a quelle che hai in mano invece che alla pila degli scarti. Se non hai carte nel mazzo, non puoi giocare questa carta.",
 		pt: "Compre 2 cartas. Em seguida, jogue 1 moeda. Se sair cara, se você jogou esta Kahili da sua mão, coloque esta carta na sua mão ao invés de colocá-la na pilha de descarte. Se você não tiver nenhuma carta no seu baralho, não poderá jogar esta carta.",
-		de: "Ziehe 2 Karten. Wirf anschließend 1 Münze. Lege bei Kopf, wenn du diese Kahili-Karte aus deiner Hand gespielt hast, diese Karte nicht auf deinen Ablagestapel, sondern nimm sie auf deine Hand. Wenn du keine Karten in deinem Deck hast, kannst du diese Karte nicht spielen."
+		de: "Ziehe 2 Karten. Wirf anschließend 1 Münze. Lege bei Kopf, wenn du diese Kahili-Karte aus deiner Hand gespielt hast, diese Karte nicht auf deinen Ablagestapel, sondern nimm sie auf deine Hand. Wenn du keine Karten in deinem Deck hast, kannst du diese Karte nicht spielen. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

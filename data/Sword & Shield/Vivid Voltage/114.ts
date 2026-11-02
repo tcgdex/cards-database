@@ -102,12 +102,6 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -115,10 +109,22 @@ const card: Card = {
 		en: "In the moment that it gulps down its prey, the inside of its shell is exposed, but to this day, no one has ever seen that sight."
 	},
 
-	thirdParty: {
-		cardmarket: 512280,
-		tcgplayer: 226567
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 512280,
+				tcgplayer: 226567
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 512280,
+				tcgplayer: 226567
+			}
+		},
+	],
 }
 
 export default card

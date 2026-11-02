@@ -13,26 +13,35 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	effect: {
-		fr: "Attachez cette carte à l'un de vos Pokémon. Défaussez-vous en à la fin du prochain tour de votre adversaire.\n\nTant que cette carte est attachée, ce Pokémon n'a pas de Faiblesse.",
-		de: "As long as this card is attached, this Pokémon has no Weakness."
-	},
+	cameoDexIds: [4],
 
-	thirdParty: {
-		cardmarket: 275217,
-		tcgplayer: 90530
+	effect: {
+		en: "Attach this card to 1 of your Pokémon. Discard it at the end of your opponent's next turn. As long as this card is attached, this Pokémon has no Weakness.",
+		fr: "Attachez cette carte à l'un de vos Pokémon. Défaussez-vous en à la fin du prochain tour de votre adversaire.",
+		de: "Lege diese Karte an 1 deiner Pokémon an. Lege sie am Ende des nächsten Zuges deines Gegners auf deinen Ablagestapel. Solange diese Karte an es angelegt ist, hat das Pokémon keine Schwäche."
 	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 90530,
+				cardmarket: 275217
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90530,
+				cardmarket: 275217
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["kevin-nguyen"]
+			stamp: ["kevin-nguyen"],
+			thirdParty: {
+				tcgplayer: 477463
+			}
 		}
 	]
 }

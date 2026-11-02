@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [152],
 
 	dexId: [
 		653,
@@ -64,7 +65,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Defensor no puede atacar durante el próximo turno de tu rival.",
 				it: "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario, il Pokémon difensore non può attaccare.",
 				pt: "Jogue uma moeda. Se sair cara, o Pokémon Defensor não poderá atacar durante a próxima vez de jogar do seu oponente.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" kann das Verteidigende Pokémon während des nächsten Zuges deines Gegners nicht angreifen."
+				de: "Wirf 1 Münze. Bei „Kopf“ kann das Verteidigende Pokémon während des nächsten Zuges deines Gegners nicht angreifen."
 			},
 
 		},
@@ -78,6 +79,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "As it walks, it munches on a twig in place of a snack. It intimidates opponents by puffing hot air out of its ears.",
+		de: "Anstelle eines Snacks kaut es unterwegs auf einem Zweig herum. Es schreckt Gegner ab, indem es über seine Ohren heiße Luft ausstößt."
+	},
 
 	thirdParty: {
 		cardmarket: 289836,

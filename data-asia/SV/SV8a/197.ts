@@ -22,6 +22,16 @@ const card: Card = {
 		'zh-cn': "查看對手的手牌，從其中選擇最多2張物品卡，將其丟棄。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803310,
+				tcgplayer: 602661,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "H"
 }

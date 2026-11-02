@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Yoshinobu Saito",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -66,6 +66,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It is said to be able to seize anything it desires with its six rings and six huge arms. With its power sealed, it is transformed into a much smaller form.",
+	},
 
 	thirdParty: {
 		cardmarket: 553491

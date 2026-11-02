@@ -72,23 +72,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Its flight is soundless. It uses its lengthy tail to carry off its prey… Then its elongated fangs do the rest."
+		en: "Its flight is soundless. It uses its lengthy tail to carry off its prey… Then its elongated fangs do the rest.",
+		de: "Es fliegt völlig lautlos. Erst fängt es seine Beute mit seinem langen Schweif, dann saugt es sie aus."
 	},
 
-	thirdParty: {
-		cardmarket: 545476,
-		tcgplayer: 234248
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545476,
+				tcgplayer: 234248
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545476,
+				tcgplayer: 234248
+			}
+		},
+	],
 }
 
 export default card

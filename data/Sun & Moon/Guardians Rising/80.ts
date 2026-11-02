@@ -71,6 +71,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It's a fiend for gemstones, so it stalks Carbink. Unfortunately, Gabite almost always grabs them first.",
+		de: "Seine Liebe zu Edelsteinen treibt es dazu, Rocara nachzustellen. Knarksel kommt ihm allerdings immer zuvor."
+	},
+
 	thirdParty: {
 		cardmarket: 297538,
 		tcgplayer: 130992

@@ -6,13 +6,16 @@ const card: Card = {
 	name: {
 		ja: "ワープポイント",
 	},
-
+	illustrator: "Ryo Ueda",
 	rarity: "Common",
 	category: "Trainer",
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575328
+			},
 		},
 	],
 };

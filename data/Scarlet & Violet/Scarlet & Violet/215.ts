@@ -4,6 +4,7 @@ import Set from "../Scarlet & Violet"
 const card: Card = {
 	dexId: [447],
 	set: Set,
+	cameoDexIds: [308, 448],
 
 	name: {
 		en: "Riolu",
@@ -57,15 +58,27 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "Nelnal",
+
+	description: {
+		en: "They communicate with one another using their auras. They are able to run all through the night.",
+		de: "Dieses Pokémon nutzt seine Aura, um mit seinen Artgenossen zu kommunizieren. Es kann eine ganze Nacht lang laufen."
+	},
 
 	thirdParty: {
         cardmarket: 702511,

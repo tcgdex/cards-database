@@ -4,6 +4,8 @@ import Set from "../SVP Black Star Promos"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [823],
+
 	name: {
 		en: "Professor's Research",
 		fr: "Recherches Professorales",
@@ -13,7 +15,7 @@ const card: Card = {
 		de: "Forschung des Professors"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Trainer",
 
 	effect: {
@@ -27,7 +29,24 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	regulationMark: "G",
-	illustrator: "Taira Akitsu"
+	illustrator: "Taira Akitsu",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 855676,
+				tcgplayer: 664828
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["professor-program"],
+			thirdParty: {
+				cardmarket: 878017,
+				tcgplayer: 704479
+			}
+		}
+	],
 }
 
 export default card

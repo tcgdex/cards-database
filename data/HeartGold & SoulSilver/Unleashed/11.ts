@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "sui",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		178,
-	],
+	dexId: [178],
 
 	hp: 90,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Natu",
 		fr: "Natu",
+		de: "Natu"
 	},
 
 	stage: "Stage1",
@@ -45,7 +44,7 @@ const card: Card = {
 				fr: "Inflige 20 dégâts multipliés par le nombre de cartes Énergie attachées au Pokémon Défenseur.",
 				de: "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der an das Verteidigende Pokémon angelegten Energien zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 		{
@@ -62,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 50,
 
@@ -86,26 +85,31 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "In South America, it is said that its right eye sees the future and its left eye views the past."
+		en: "In South America, it is said that its right eye sees the future and its left eye views the past.",
+		de: "In Südamerika glaubt man, dass sein rechtes Auge die Zukunft und das linke die Vergangenheit sieht."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 90666,
+				cardmarket: 279167
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90666,
+				cardmarket: 279167
+			}
 		},
 		{
 			type: "holo",
-			foil: "cracked-ice"
+			foil: "cracked-ice",
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279167,
-		tcgplayer: 90666
-	}
 }
 
 export default card

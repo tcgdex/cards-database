@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		425,
-	],
+	dexId: [425],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -36,9 +34,9 @@ const card: Card = {
 				de: "Komprimator"
 			},
 			effect: {
-				en: "During your opponent’s next turn, any damage done to Drifloon by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				en: "During your opponent's next turn, any damage done to Drifloon by attacks is reduced by 20 (after applying Weakness and Resistance).",
 				fr: "Tous les dégâts infligés à Baudrive par des attaques pendant le prochain tour de votre adversaire sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
-				de: "Während des nächsten Zuges deines Gegners wird Schaden, der Driftlon durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden.)"
+				de: "Während des nächsten Zuges deines Gegners wird Schaden, der Driftlon durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 
 		},
@@ -52,9 +50,9 @@ const card: Card = {
 				de: "Ziehen"
 			},
 			effect: {
-				en: "Flip a coin. If heads, switch the Defending Pokémon with 1 of your opponent’s Benched Pokémon.",
+				en: "Flip a coin. If heads, switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
 				fr: "Lancez une pièce. Si c’est face, échangez le Pokémon Défenseur avec un Pokémon de Banc de votre adversaire.",
-				de: "Wirf eine Münze. Tausche bei \"Kopf\" das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus."
+				de: "Wirf eine Münze. Tausche bei „Kopf“ das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus."
 			},
 
 		},
@@ -77,22 +75,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is whispered that any child who mistakes Drifloon for a balloon and holds on to it could wind up missing."
+		en: "It is whispered that any child who mistakes Drifloon for a balloon and holds on to it could wind up missing.",
+		de: "So manches Kind verschwand schon auf Nimmerwiedersehen, weil es ein DRIFTLON für einen Ballon hielt."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279299,
+				tcgplayer: 84960
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279299,
+				tcgplayer: 84960
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279299,
-		tcgplayer: 84960
-	}
 }
 
 export default card

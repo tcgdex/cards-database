@@ -3,22 +3,21 @@ import Set from '../Pokémon Rumble'
 
 const card: Card = {
 	name: {
-		en: "Rattata",
+		en: "Rattata"
 	},
 
 	illustrator: undefined,
 	rarity: "None",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [1],
 
-	dexId: [
-		19,
-	],
+	dexId: [19],
 
 	hp: 30,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -30,7 +29,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
+				en: "Bite"
 			},
 
 			damage: 20,
@@ -41,17 +40,19 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278856
-	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278856,
+				tcgplayer: 88620
+			},
 		}
 	]
 }

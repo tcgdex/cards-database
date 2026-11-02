@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Superball"
 	},
 
+	illustrator: "Ryo Ueda",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -27,9 +28,16 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	thirdParty: {
-		tcgplayer: 152845
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297258,
+				tcgplayer: 152847
+			}
+		},
+	],
+
 }
 
 export default card

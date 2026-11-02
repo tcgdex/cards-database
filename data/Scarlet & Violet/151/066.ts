@@ -55,18 +55,42 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Always brimming with power, it passes time by lifting boulders. Doing so makes it even stronger.",
+		de: "Da es vor Kraft strotzt, hebt es zum Zeitvertreib Felsen. Dadurch gewinnt es an zusätzlicher Stärke."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733661,
+				tcgplayer: 516382,
+				cardtrader: 261129
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733661,
+				tcgplayer: 516382,
+				cardtrader: 261129
+			}
+		},
+	],
 
 	illustrator: "Ryuta Fuse",
 
-	thirdParty: {
-		cardmarket: 733661
-	}
+	
 }
 
 export default card

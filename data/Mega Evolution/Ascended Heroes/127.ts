@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Honchkrow da Equipe Rocket"
 	},
 
+	evolveFrom: {
+		en: "Team Rocket's Murkrow",
+		fr: "Cornèbre de la Team Rocket",
+		es: "Murkrow del Team Rocket",
+		'es-mx': "Murkrow del Equipo Rocket",
+		de: "Team Rockets Kramurx",
+		it: "Murkrow del Team Rocket",
+		pt: "Murkrow da Equipe Rocket",
+	},
+
 	illustrator: "hncl",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [430],
 	hp: 130,
 	types: ["Darkness"],
 	stage: "Stage1",
@@ -39,7 +50,7 @@ const card: Card = {
 			fr: "Vous pouvez défausser de votre main le nombre voulu de cartes Supporter ayant \" Team Rocket \" dans leur nom. Cette attaque inflige 60 dégâts pour chaque carte défaussée de cette façon.",
 			es: "Puedes descartar de tu mano cualquier cantidad de cartas de Partidario que tengan la palabra \"Team Rocket\" en su nombre, y este ataque hace 60 puntos de daño por cada carta que hayas descartado de esta manera.",
 			'es-mx': "Puedes descartar de tu mano cualquier cantidad de cartas de Partidario que tengan \"Equipo Rocket\" en su nombre, y este ataque hace 60 puntos de daño por cada carta que descartaste de esta manera.",
-			de: "Du kannst beliebig viele Unterstützerkarten, bei denen \"Team Rocket\" zum Namen gehört, aus deiner Hand auf deinen Ablagestapel legen, und diese Attacke fügt für jede auf diese Weise abgelegte Karte 60 Schadenspunkte zu.",
+			de: "Du kannst beliebig viele Unterstützerkarten, bei denen „Team Rocket“ zum Namen gehört, aus deiner Hand auf deinen Ablagestapel legen, und diese Attacke fügt für jede auf diese Weise abgelegte Karte 60 Schadenspunkte zu.",
 			it: "Puoi scartare un numero qualsiasi di carte Aiuto che hanno \"Team Rocket\" nel nome che hai in mano e questo attacco infligge 60 danni per ogni carta che hai scartato in questo modo.",
 			pt: "Você pode descartar qualquer número de cartas de Apoiador que têm \"Equipe Rocket\" em seu nome da sua mão, e este ataque causa 60 pontos de dano para cada carta descartada desta forma."
 		},
@@ -61,13 +72,52 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675939,
-		cardmarket: 869738
-	}
+	description: {
+		en: "A single cry from this nocturnal Pokémon, and more than 100 of its Murkrow cronies will assemble.",
+		fr: "D'un simple croassement, ce Pokémon nocturne peut rassembler une centaine de ses sbires, les Cornèbre.",
+		de: "Dieses nachtaktive Pokémon kann mit einem einzigen Ruf über 100 seiner untergebenen Kramurx versammeln."
+	},
+
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 869738,
+			tcgplayer: 675939
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870335,
+			tcgplayer: 677092
+		}
+	},
+	{
+		type: "reverse",
+		foil: "team-rocket",
+		thirdParty: {
+			cardmarket: 870336,
+			tcgplayer: 676952
+		}
+	},
+],
 }
 
 export default card

@@ -70,6 +70,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They're such cowards that they won't hunt alone. When five or so of them get together, they suddenly turn ferocious!",
+		de: "Dieses ängstliche Pokémon jagt nicht, wenn es allein ist. Aber sobald sich fünf von ihnen versammeln, geraten sie in Rage."
+	},
+
 	thirdParty: {
 		cardmarket: 408309,
 		tcgplayer: 201176

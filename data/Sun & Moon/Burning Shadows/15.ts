@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [289],
 
 	dexId: [
 		752,
@@ -29,6 +30,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dewpider",
 		fr: "Araqua",
+		de: "Araqua"
 	},
 
 	stage: "Stage1",
@@ -53,7 +55,7 @@ const card: Card = {
 				es: "No se puede unir Energía al Pokémon Defensor de la mano de tu rival durante su próximo turno.",
 				it: "Nessuna Energia può essere assegnata al Pokémon difensore dalla mano del tuo avversario durante il suo prossimo turno.",
 				pt: "Energias não poderão ser ligadas ao Pokémon Defensor da mão do seu oponente durante a próxima vez dele(a) jogar.",
-				de: "Energie aus der Hand deines Gegners kann während seines nächsten Zuges nicht an das Verteidigende Pokémon angelegt werden."
+				de: "Energie aus der Hand deines Gegners kann während seines nächsten Zuges nicht an das verteidigende Pokémon angelegt werden."
 			},
 			damage: 30,
 
@@ -87,10 +89,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299422,
-		tcgplayer: 138285
-	}
+	description: {
+		en: "It delivers headbutts with the water bubble on its head. Small Pokémon get sucked into the bubble, where they drown.",
+		de: "Es verteilt mit seiner Wasserblase Kopfstöße. Kleine Pokémon werden dabei hineingezogen und ertrinken."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299422,
+				tcgplayer: 138285
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299422,
+				tcgplayer: 138285
+			}
+		},
+	],
 }
 
 export default card

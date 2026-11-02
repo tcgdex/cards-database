@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Hippowdon",
@@ -79,16 +73,29 @@ const card: Card = {
 	},
 
 	description: {
-		en: "When roused to violence by its rage, it spews out the quantities of sand it has swallowed and whips up a sandstorm."
+		en: "When roused to violence by its rage, it spews out the quantities of sand it has swallowed and whips up a sandstorm.",
+		de: "Wenn man es wütend macht, wird es rabiat. Es stößt aufgenommenen Sand aus und verursacht damit einen Sandsturm."
 	},
 
 	dexId: [450],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574133,
-		tcgplayer: 246880
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574133,
+				tcgplayer: 246880
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574133,
+				tcgplayer: 246880
+			}
+		},
+	],
 }
 
 export default card

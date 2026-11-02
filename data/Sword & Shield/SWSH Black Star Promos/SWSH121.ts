@@ -15,7 +15,7 @@ const card: Card = {
 		it: "Mary"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 
 	effect: {
 		en: "Each player shuffles their hand and puts it on the bottom of their deck. If either player put any cards on the bottom of their deck in this way, you draw 5 cards, and your opponent draws 4 cards.",
@@ -28,18 +28,17 @@ const card: Card = {
 
 	trainerType: "Supporter",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 566764
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 566765,
+				tcgplayer: 245872
+			}
+		},
+	],
 }
 
 export default card

@@ -95,6 +95,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Tempered by pressure underground over tens of thousands of years, its body cannot be scratched.",
+		de: "Im Laufe der Jahrtausende, die es unterirdisch lebte, wurde sein Körper durch Druck und Wärme hart."
+	},
+
 	thirdParty: {
 		cardmarket: 311916,
 		tcgplayer: 149092

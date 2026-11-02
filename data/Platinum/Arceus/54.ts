@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		436,
-	],
+	dexId: [436],
 	
 	hp: 60,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -35,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt."
+				de: "Wirf 1 Münze. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt."
 			},
 			damage: 10,
 
@@ -71,19 +69,28 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278906,
-		tcgplayer: 84005
+	description: {
+		en: "There are researchers who believe this Pokémon reflected like a mirror in the distant past.",
+		de: "Manche Forscher glauben, dass dieses Pokémon in der Vergangenheit wie ein Spiegel reflektierte."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84005,
+				cardmarket: 278906
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278906,
+				tcgplayer: 84005
+			}
+		},
+	],
+
 }
 
 export default card

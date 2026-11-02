@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Mightyena"
 	},
 
+	evolveFrom: {
+		en: "Poochyena",
+		fr: "Medhyèna",
+		es: "Poochyena",
+		'es-mx': "Poochyena",
+		de: "Fiffyen",
+		it: "Poochyena",
+		pt: "Poochyena",
+	},
+
 	illustrator: "Yano Keiji",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [262],
 	hp: 120,
 	types: ["Darkness"],
 	stage: "Stage1",
@@ -61,13 +72,30 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 676055,
-		cardmarket: 869854
-	}
+	description: {
+		en: "It will always obey the commands of a skilled Trainer. Its behavior arises from its living in packs in ancient times.",
+		fr: "Il obéit toujours aux ordres de son Dresseur si celui-ci est très doué. Son comportement vient de l'époque reculée où il vivait en meute.",
+		de: "Es wird stets die Befehle eines begabten Trainers befolgen. Dieses Verhalten geht darauf zurück, dass es früher im Rudel lebte."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869854,
+				tcgplayer: 676055
+			}
+		}
+	],
 }
 
 export default card

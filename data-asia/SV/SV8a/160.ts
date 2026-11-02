@@ -24,6 +24,22 @@ const card: Card = {
 		'zh-cn': "附有這張卡的寶可夢，可使用這張卡上寫的招式。[需要有足夠使用招式的能量。] 將附於寶可夢身上的這張卡，在自己的回合結束時丟棄。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803273,
+				tcgplayer: 602596,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602597,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "G"
 }

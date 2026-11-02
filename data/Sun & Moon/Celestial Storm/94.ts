@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Beldum",
 		fr: "Terhal",
+		de: "Tanhel"
 	},
 
 	stage: "Stage1",
@@ -74,6 +75,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "It adores magnetic minerals, so it pursues Nosepass at speeds exceeding 60 mph.",
+		de: "Es liebt Mineralien, die Magnetfelder erzeugen. Kein Wunder, dass es Nasgnet mit 100 km/h hinterherjagt."
+	},
 
 	thirdParty: {
 		cardmarket: 361338,

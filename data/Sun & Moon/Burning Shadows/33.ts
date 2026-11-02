@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Magikarp",
 		fr: "Magicarpe",
+		de: "Karpador"
 	},
 
 	stage: "Stage1",
@@ -95,10 +96,27 @@ const card: Card = {
 
 	retreat: 4,
 
-	thirdParty: {
-		cardmarket: 299438,
-		tcgplayer: 138513
-	}
+	description: {
+		en: "A tale is told of a town that angered Gyarados. Before the sun rose the next day, flames utterly consumed the town, leaving not a trace behind.",
+		de: "Es heißt, es habe eine ganze Stadt, deren Bewohner es verärgert hatten, über Nacht vollständig in Schutt und Asche gelegt."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 299438,
+				tcgplayer: 138513
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299438,
+				tcgplayer: 138513
+			}
+		},
+	],
 }
 
 export default card

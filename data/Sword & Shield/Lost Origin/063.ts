@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pixi"
 	},
 
+	illustrator: "Sekio",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 100,
@@ -48,7 +49,7 @@ const card: Card = {
 			es: "Los ataques de los Pokémon Dragon de tu rival hacen 30 puntos de daño menos a todos tus Pokémon (después de aplicar Debilidad y Resistencia). No puedes aplicar más de 1 habilidad Encanto Espiritual a la vez.",
 			it: "I tuoi Pokémon subiscono 30 danni in meno dagli attacchi dei Pokémon Dragon del tuo avversario, dopo aver applicato debolezza e resistenza. Non puoi applicare più di un'abilità Spirito Incantevole alla volta.",
 			pt: "Todos os seus Pokémon recebem 30 pontos de dano a menos de ataques dos Pokémon Dragon do seu oponente (depois de aplicar Fraqueza e Resistência). Você não pode usar mais de 1 Habilidade Pingente Espectral por vez.",
-			de: "Allen deinen Pokémon werden durch Attacken von Dragon-Pokémon deines Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden). Du kannst immer nur jeweils 1 Fähigkeit Zauberamulett einsetzen."
+			de: "Allen deinen Pokémon werden durch Attacken von {N}-Pokémon deines Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden). Du kannst immer nur jeweils 1 Fähigkeit Zauberamulett einsetzen."
 		}
 	}],
 
@@ -70,16 +71,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674072,
-		tcgplayer: 283937
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674072,
+				tcgplayer: 283937
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674072,
+				tcgplayer: 283937
+			}
+		},
+	],
 }
 
 export default card

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Puedes unir esta carta a 1 de tus Pokémon solo si descartas otra carta de tu mano.\n\nMientras esta carta esté unida a 1 Pokémon, proporciona cualquier tipo de Energía, pero proporciona solo 1 Energía a la vez.",
 		it: "Puoi assegnare questa carta a uno dei tuoi Pokémon solo se scarti un'altra carta che hai in mano.\n\nQuando è assegnata a un Pokémon, questa carta fornisce un'Energia di qualsiasi tipo, ma solo una alla volta.",
 		pt: "Você só pode ligar esta carta a 1 dos seus Pokémon se descartar outra carta da sua mão.\n\nEnquanto esta carta estiver ligada a um Pokémon, ela fornecerá todo tipo de Energia, mas só fornecerá 1 Energia por vez.",
-		de: "Du kannst diese Karte nur an 1 deiner Pokémon anlegen, wenn du 1 andere Karte aus deiner Hand auf deinen Ablagestapel legst.\n\nSolange diese Karte an ein Pokémon angelegt ist, liefert sie jeden Energietyp, aber immer nur jeweils 1 Energie."
+		de: "Du kannst diese Karte nur an 1 deiner Pokémon anlegen, wenn du 1 andere Karte aus deiner Hand auf deinen Ablagestapel legst. Solange diese Karte an ein Pokémon angelegt ist, liefert sie jeden Energietyp, aber immer nur jeweils 1 Energie."
 	},
 
 	energyType: "Special",

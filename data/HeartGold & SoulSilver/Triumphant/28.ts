@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		31,
-	],
+	dexId: [31],
 
 	hp: 130,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Nidorina",
 		fr: "Nidorina",
+		de: "Nidorina"
 	},
 
 	stage: "Stage2",
@@ -79,20 +78,27 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It uses its scaly, rugged body to seal the entrance of its nest and protect its young from predators."
+		en: "It uses its scaly, rugged body to seal the entrance of its nest and protect its young from predators.",
+		de: "Es benutzt seinen schuppigen Körper, um den Höhleneingang als Schutz für seine Jungen zu sperren."
 	},
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87710,
+				cardmarket: 279558
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279558,
+				tcgplayer: 87710
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279558,
-		tcgplayer: 87710
-	}
 }
 
 export default card

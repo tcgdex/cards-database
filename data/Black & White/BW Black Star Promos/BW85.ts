@@ -32,6 +32,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may draw 2 cards.",
+				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez piocher 2 cartes.",
 			},
 		},
 	],
@@ -44,25 +45,10 @@ const card: Card = {
 			],
 			name: {
 				en: "Fast Punch",
-				fr: "{Ability] Intuition",
-			},
-			effect: {
-				en: "Flip a coin. If heads, this attack does 30 more damage.",
-				fr: "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez piocher 2 cartes.",
-			},
-			damage: 60,
-
-		},
-		{
-			cost: [
-				"Fighting",
-				"Colorless",
-				"Colorless",
-			],
-			name: {
 				fr: "Poing Rapide",
 			},
 			effect: {
+				en: "Flip a coin. If heads, this attack does 30 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
 			},
 			damage: "60+",
@@ -80,6 +66,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "By reading the auras of all things, it can tell how others are feeling from over half a mile away.",
+	},
 }
 
 export default card

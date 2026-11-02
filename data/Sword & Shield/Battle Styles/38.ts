@@ -51,23 +51,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It was originally a Pokémon from afar that escaped to the wild. It can adapt to the dirtiest river."
+		en: "It was originally a Pokémon from afar that escaped to the wild. It can adapt to the dirtiest river.",
+		de: "Es stammt eigentlich aus dem Ausland und verwilderte. Es passt sich auch an die dreckigsten Flüsse an."
 	},
 
-	thirdParty: {
-		cardmarket: 545306,
-		tcgplayer: 234174
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545306,
+				tcgplayer: 234174
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545306,
+				tcgplayer: 234174
+			}
+		},
+	],
 }
 
 export default card

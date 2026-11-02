@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Kapu-Toro GX"
 	},
 	illustrator: "PLANETA",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -98,8 +98,15 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 298286,
+				tcgplayer: 131727
+			}
+		}
+	],
 }
 
 export default card

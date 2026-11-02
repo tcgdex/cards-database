@@ -12,6 +12,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [227, 249],
 
 	dexId: [
 		250,
@@ -36,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Rainbow Burn",
 				fr: "Brûlure arcenciel",
-				de: "Rainbow Burn"
+				de: "Regenbogenfeuer"
 			},
 			effect: {
 				en: "This attack does 30 damage plus 10 more for each type of Basic Energy card if any, attached to Ho-oh",
 				fr: "Cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires par type de carte Énergie de base attachée à Ho-oh, le cas échéant.",
-				de: "This attack does 30 damage plus 10 more damage for each type of Basic Energy card, if any, attached to Ho-oh."
+				de: "Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede unterschiedliche Sorte Basis-Energiekarten zu, die an Ho-oh angelegt sind."
 			},
 			damage: "30+",
 
@@ -61,23 +62,31 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
-		fr: "D'après la légende, son corps luirait de sept couleurs. Un arc-en-ciel apparaît toujours dans son sillage."
+		en: "A legend says that its body glows in seven colors. A rainbow is said to form behind it when it flies.",
+		fr: "D'après la légende, son corps luirait de sept couleurs. Un arc-en-ciel apparaît toujours dans son sillage.",
+		de: "Eine Legende besagt, dass sein Körper in sieben Farben glüht. Außerdem heißt es, dass sich ein Regenbogen hinter ihm bildet, wenn es fliegt."
 	},
 
-	thirdParty: {
-		cardmarket: 274593,
-		tcgplayer: 86119
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274593,
+				tcgplayer: 86119
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274593,
+				tcgplayer: 86119
+			}
 		}
 	]
 }

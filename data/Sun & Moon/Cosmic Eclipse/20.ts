@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dartrix",
 		fr: "Efflèche",
+		de: "Arboretoss"
 	},
 
 	stage: "Stage2",
@@ -90,6 +91,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It nocks its arrow quills and shoots them at opponents. When it simply can't afford to miss, it tugs the vine on its head to improve its focus.",
+		de: "Es legt seine Federpfeile an, um sie auf Gegner zu schießen. Muss ein Schuss sitzen, zieht es zur Konzentration an einer seiner Kopfranken."
+	},
 
 	thirdParty: {
 		cardmarket: 407754,

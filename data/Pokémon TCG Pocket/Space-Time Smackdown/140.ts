@@ -23,7 +23,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Glameow"
+		en: "Glameow",
+		fr: "Chaglam"
 	},
 
 	description: {

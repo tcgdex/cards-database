@@ -6,11 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Alolan Raticate",
-		fr: "Rattatacd'Alola",
-		es: "Raticatede Alola",
-		it: "Raticatedi Alola",
+		fr: "Rattatac d’Alola",
+		es: "Raticate de Alola",
+		it: "Raticate di Alola",
 		de: "Alola-Rattikarl",
-		'pt-br': "Raticatede Alola",
+		'pt-br': "Raticate de Alola",
 		ko: "알로라레트라"
 	},
 
@@ -23,7 +23,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Alolan Rattata"
+		en: "Alolan Rattata",
+		fr: "Rattata d’Alola"
 	},
 
 	description: {

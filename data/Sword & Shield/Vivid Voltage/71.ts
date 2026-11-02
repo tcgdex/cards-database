@@ -92,12 +92,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
@@ -105,10 +99,22 @@ const card: Card = {
 		en: "At the bidding of transmissions from the spirit world, it steals people and Pokémon away. No one knows whether it has a will of its own."
 	},
 
-	thirdParty: {
-		cardmarket: 511775,
-		tcgplayer: 226478
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 511775,
+				tcgplayer: 226478
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511775,
+				tcgplayer: 226478
+			}
+		},
+	],
 }
 
 export default card

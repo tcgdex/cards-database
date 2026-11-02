@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Rotom V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Lightning"],
@@ -65,12 +65,23 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
-
-	thirdParty: {
-		cardmarket: 674373
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 674373,
+				tcgplayer: 450653
+			}
+		},
+	],
 }
 
 export default card

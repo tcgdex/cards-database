@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Rubber Gloves",
@@ -29,17 +23,29 @@ const card: Card = {
 		es: "Los ataques del Pokémon al que esté unida esta carta hacen 30 puntos de daño más al Pokémon Lightning Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 		it: "Gli attacchi del Pokémon a cui è assegnata questa carta infliggono 30 danni in più al Pokémon attivo Lightning del tuo avversario, prima di aver applicato debolezza e resistenza.",
 		pt: "Os ataques do Pokémon ao qual esta carta está ligada causam 30 pontos de dano a mais ao Pokémon Lightning Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
-		de: "Die Attacken des Pokémon, an das diese Karte angelegt ist, fügen dem Aktiven Lightning-Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Die Attacken des Pokémon, an das diese Karte angelegt ist, fügen dem Aktiven {L}-Pokémon deines Gegners 30 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden). Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",
 	illustrator: "Toyste Beach",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574214,
-		tcgplayer: 246782
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574214,
+				tcgplayer: 246782
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574214,
+				tcgplayer: 246782
+			}
+		},
+	],
 }
 
 export default card

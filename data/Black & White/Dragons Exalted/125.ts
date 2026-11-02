@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Servine",
 		fr: "Lianaja",
+		de: "Efoserp"
 	},
 
 	stage: "Stage2",
@@ -64,10 +65,12 @@ const card: Card = {
 			name: {
 				en: "Leaf Tornado",
 				fr: "Phytomixeur",
+				de: "Grasmixer"
 			},
 			effect: {
 				en: "Move as many Grass Energy attached to your Pokémon to your other Pokémon in any way you like.",
 				fr: "Déplacez autant d'Énergies Grass attachées à vos Pokémon que vous voulez vers vos autres Pokémon, de la manière que vous voulez.",
+				de: "Verschiebe beliebig viele an deine Pokémon angelegten {G}-Energien nach Belieben auf deine anderen Pokémon."
 			},
 			damage: 60,
 
@@ -90,10 +93,20 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280564,
-		tcgplayer: 89072
-	}
+	description: {
+		en: "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
+		de: "Dieses extrem seltene Pokémon hat eine andere Farbe als üblich. Es ist sehr schwer zu finden."
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280564,
+				tcgplayer: 89072
+			}
+		},
+	],
 }
 
 export default card

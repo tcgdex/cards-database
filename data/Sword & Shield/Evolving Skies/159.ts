@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Snow Leaf Badge",
@@ -29,17 +23,29 @@ const card: Card = {
 		es: "Si el Pokémon V al que está unida esta carta tiene \"Leafeon\" o \"Glaceon\" en su nombre, no tiene ningún Coste de Retirada ni Debilidad.",
 		it: "Se il Pokémon-V a cui è assegnata questa carta ha \"Leafeon\" o \"Glaceon\" nel nome, non ha costo di ritirata né debolezza.",
 		pt: "Se o Pokémon V ao qual esta carta está ligada tiver \"Leafeon\" ou \"Glaceon\" em seu nome, não terá custo de Recuo e não terá Fraqueza.",
-		de: "Wenn bei dem Pokémon-V, an das diese Karte angelegt ist, \"Folipurba\" oder \"Glaziola\" zum Namen gehört, hat es keine Rückzugskosten und keine Schwäche."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn bei dem Pokémon-V, an das diese Karte angelegt ist, „Folipurba“ oder „Glaziola“ zum Namen gehört, hat es keine Rückzugskosten und keine Schwächen. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",
 	illustrator: "Studio Bora Inc.",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574217,
-		tcgplayer: 246783
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574217,
+				tcgplayer: 246783
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574217,
+				tcgplayer: 246783
+			}
+		},
+	],
 }
 
 export default card

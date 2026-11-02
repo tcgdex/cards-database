@@ -4,6 +4,7 @@ import Set from "../Paradox Rift"
 const card: Card = {
 	dexId: [312],
 	set: Set,
+	cameoDexIds: [311],
 
 	name: {
 		en: "Minun",
@@ -57,19 +58,34 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
+	description: {
+		en: "It cheers on friends. If its friends are losing, its body lets off more and more sparks.",
+		de: "Es feuert Freunde an. Sind diese im Begriff zu verlieren, gibt sein Körper immer mehr Funken ab."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740737,
+				tcgplayer: 523875,
+				cardtrader: 265375
+			}
+		},
+	],
 
 	illustrator: "OKACHEKE",
 
-	thirdParty: {
-		cardmarket: 740737
-	}
+	
 }
 
 export default card

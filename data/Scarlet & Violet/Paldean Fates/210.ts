@@ -65,19 +65,33 @@ const card: Card = {
 		damage: "70×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751749,
+				tcgplayer: 535215,
+				cardtrader: 274395
+			}
+		},
+	],
 
 	illustrator: "Shigenori Negishi",
 
-	thirdParty: {
-		cardmarket: 751749
-	}
+	description: {
+		en: "The larger pair protects the little ones during battles. When facing strong opponents, the whole group will join the fight.",
+		de: "In Kämpfen beschützt das größere Paar die Kleinen. Um sich starken Gegnern zu stellen, schließen sich alle zusammen."
+	},
+
 }
 
 export default card

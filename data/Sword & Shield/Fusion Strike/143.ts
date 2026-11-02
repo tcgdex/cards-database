@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "E",
 	illustrator: "Hitoshi Ariga",
 
 	description: {
-		en: "Hariyama that are big and fat aren't necessarily strong. There are some small ones that move nimbly and use moves skillfully."
+		en: "Hariyama that are big and fat aren't necessarily strong. There are some small ones that move nimbly and use moves skillfully.",
+		de: "Hariyama sind nicht nur stark, wenn sie groß und schwer sind. Auch kleine und leichte Exemplare können Attacken effektiv einsetzen."
 	},
 
 	abilities: [{
@@ -74,17 +81,23 @@ const card: Card = {
 		damage: 100
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582766,
-		tcgplayer: 253355
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582766,
+				tcgplayer: 253355
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582766,
+				tcgplayer: 253355
+			}
+		},
+	],
 }
 
 export default card

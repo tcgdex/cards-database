@@ -79,6 +79,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Because it doesn't yelp, it's extremely popular with Trainers who live in apartment buildings.",
+		de: "Es jault nicht, weswegen es bei Trainern, die in Apartmenthäusern wohnen, sehr beliebt ist."
+	},
+
 	thirdParty: {
 		cardmarket: 295415,
 		tcgplayer: 126975

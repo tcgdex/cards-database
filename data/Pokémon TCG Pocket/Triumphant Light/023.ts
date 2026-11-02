@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Cette forme qui sillonne les cieux me fait penser\nau créateur de toutes choses. Je pense qu'épouser cette\napparence prodigue à Palkia les pouvoirs du créateur.",
 		es: "Esta forma que surca el cielo me hace pensar\nen el creador de todo lo existente. Quizá adopte\ndicha forma para hacerse con su poder.",
 		it: "Vederlo solcare i cieli mi riporta alla mente l'entità\ncreatrice. Che, imitandone la forma, stia forse\ncercando di impadronirsi del suo potere?",
-		de: "Dem Schöpfer aller Dinge gleich gleitet es über das\nHimmelszelt. Womöglich gebärdet es sich auf diese Weise,\num sich die Macht der Schöpfergottheit zu eigen zu machen.",
+		de: "Dem Schöpfer aller Dinge gleich gleitet es über das Himmelszelt. Womöglich gebärdet es sich auf diese Weise, um sich die Macht der Schöpfergottheit zu eigen zu machen.",
 		'pt-br': "Dispara pelos céus com uma forma que se assemelha\nmuito ao criador de todas as coisas. Pode ser que essa\nimitação de aparência de Palkia seja uma estratégia\npara conquistar os poderes de Arceus.",
 		ko: "하늘을 나는 모습은 만물의 창조주를 연상케한다.\n창조주의 모습을 흉내 냄으로써\n그 힘을 자신의 것으로 만들었다고 추측된다."
 	},

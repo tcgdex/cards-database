@@ -70,6 +70,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It sneaks into people's homes and steals electricity from their outlets. When your electric bill seems off, it's the handiwork of this rascal.",
+		de: "Es schleicht sich in Häuser und zapft an den Steckdosen Strom ab. Fällt die Stromrechnung mal unerwartet hoch aus, ist Dedenne schuld."
+	},
+
 	thirdParty: {
 		cardmarket: 388522,
 		tcgplayer: 195132

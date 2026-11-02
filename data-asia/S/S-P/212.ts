@@ -1,47 +1,63 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "路卡利歐V"
+		ja: "ジジーロン",
+		'zh-tw': "路卡利歐V",
 	},
 
-	illustrator: "takuyoa",
+	illustrator: "Tomokazu Komiya",
 	category: "Pokemon",
-	hp: 210,
-	types: ["Fighting"],
+	hp: 120,
+	types: ["Dragon"],
+
+	description: {
+		ja: "人懐っこく 心優しいが ひとたび 怒ると 強風を 巻き起こし すべてを なぎ倒す。",
+	},
+
 	stage: "Basic",
-	suffix: "V",
 
-	attacks: [{
-		name: {
-			'zh-tw': "粉碎拳"
+	attacks: [
+		{
+			name: {
+				ja: "どつく",
+				'zh-tw': "粉碎拳",
+			},
+			damage: 30,
+			cost: ["Colorless"],
 		},
-
-		effect: {
-			'zh-tw': "選擇1個對手的戰鬥寶可夢身上附加的特殊能量，將其丟棄。"
+		{
+			name: {
+				ja: "ぎゃくじょう",
+				'zh-tw': "旋風踢",
+			},
+			damage: "70+",
+			cost: ["Water", "Fighting"],
+			effect: {
+				ja: "自分のベンチポケモンにダメカンがのっているなら、90ダメージ追加。",
+			},
 		},
+	],
 
-		damage: 50,
-		cost: ["Colorless", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "旋風踢"
+	weaknesses: [],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 568806,
+				tcgplayer: 597396,
+			},
 		},
-
-		damage: 120,
-		cost: ["Fighting", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Psychic",
-		value: "×2"
-	}],
+	],
 
 	retreat: 2,
-	regulationMark: "F"
-}
+	regulationMark: "E",
+	rarity: "Promo",
+	dexId: [780],
+};
 
-export default card
+export default card;

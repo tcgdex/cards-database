@@ -63,18 +63,42 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The antennae have distinctive patterns that look like eyes. When it rains, they grow heavy, making flight impossible.",
+		de: "Die Fühler haben ein unverkennbares Muster, das Augen ähnelt. Bei Regen werden sie schwer und es kann nicht fliegen."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740478,
+				tcgplayer: 523585,
+				cardtrader: 265008
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740478,
+				tcgplayer: 523585,
+				cardtrader: 265008
+			}
+		},
+	],
 
 	illustrator: "kantaro",
 
-	thirdParty: {
-		cardmarket: 740478
-	}
+	
 }
 
 export default card

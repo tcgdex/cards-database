@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Mizue",
 
 	description: {
-		en: "This Pokémon is overflowing with love. Only Chansey that share a strong bond with their Trainer can evolve, so people say."
+		en: "This Pokémon is overflowing with love. Only Chansey that share a strong bond with their Trainer can evolve, so people say.",
+		de: "Es ist ein sehr liebevolles Pokémon. Nur ein Chaneira, das in völligem Einklang mit seinem Trainer ist, entwickelt sich zu Heiteira."
 	},
 
 	abilities: [{
@@ -83,17 +90,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582878,
-		tcgplayer: 253297
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582878,
+				tcgplayer: 253297
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582878,
+				tcgplayer: 253297
+			}
+		},
+	],
 }
 
 export default card

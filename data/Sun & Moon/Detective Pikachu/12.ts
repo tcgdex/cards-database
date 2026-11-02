@@ -73,7 +73,7 @@ const card: Card = {
 				es: "Descarta 2 Energías Psychic de este Pokémon.",
 				it: "Scarta due Energie Psychic assegnate a questo Pokémon.",
 				pt: "Descarte 2 Energias Psychic deste Pokémon.",
-				de: "Lege 2 Psychic-Energien von diesem Pokémon auf deinen Ablagestapel."
+				de: "Lege 2 {P}-Energien von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 130,
 
@@ -88,6 +88,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "This Pokémon was created by years of horrific gene splicing and DNA engineering experiments.",
+		de: "Dieses Pokémon ist das Resultat eines jahrelangen und skrupellosen Experimentes."
+	},
 
 	thirdParty: {
 		cardmarket: 370775,

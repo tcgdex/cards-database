@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		184,
-	],
+	dexId: [184],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Marill",
-		fr: "Marill"
+		fr: "Marill",
+		de: "Marill"
 	},
 
 	stage: "Stage1",
@@ -42,8 +41,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "If you have Water Energy cards in your hand, attach as many Water Energy cards as you like to any of your Active Pokémon.",
-				fr: "Si vous avez des cartes Énergie  dans votre main, attachez-en autant que vous le voulez à votre ou vos Pokémon Actifs.",
-				de: "Falls du -Energiekarten auf der Hand hast, kannst du beliebig viele -Energiekarten an deine Aktiven Pokémon anlegen."
+				fr: "Si vous avez des cartes Énergie {W} dans votre main, attachez-en autant que vous le voulez à votre ou vos Pokémon Actifs.",
+				de: "Falls du {W}-Energiekarten auf der Hand hast, kannst du beliebig viele {W}-Energiekarten an deine Aktiven Pokémon anlegen."
 			},
 
 		},
@@ -62,7 +61,7 @@ const card: Card = {
 				fr: "Lancez une pièce pour chaque carte Énergie attachée à chacun de vos Pokémon Actifs. Cette attaque inflige 30 dégâts multipliés par le nombre de face.",
 				de: "Wirf für jede Energiekarte, die an deinen Aktiven Pokémon angelegt ist, eine Münze. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl 'Kopf' zu."
 			},
-			damage: "30x",
+			damage: "30×",
 
 		},
 	],
@@ -77,19 +76,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275807,
-		tcgplayer: 83679
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275807,
+				tcgplayer: 83679
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275807,
+				tcgplayer: 83679
+			}
 		},
-	]
+	],
+
 }
 
 export default card

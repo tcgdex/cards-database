@@ -75,6 +75,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It punches so much, its pincers often come off from overuse, but they grow back quickly. What little meat they contain is rich and delicious.",
+		de: "Es verliert oft seine Scheren im Kampf, aber sie wachsen schnell nach. Obwohl diese nur wenig Fleisch enthalten, gelten sie als Delikatesse."
+	},
+
 	thirdParty: {
 		cardmarket: 295383,
 		tcgplayer: 126943

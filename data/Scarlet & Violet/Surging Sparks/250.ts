@@ -4,6 +4,8 @@ import Set from "../Surging Sparks"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [944],
+
 	name: {
 		en: "Gravity Mountain",
 		fr: "Montagne Gravité",
@@ -22,7 +24,7 @@ const card: Card = {
 		es: "Cada Pokémon de Fase 2 en juego (tanto tuyos como de tu rival) tiene 30 PS menos.",
 		it: "Ciascun Pokémon di Fase 2 in gioco, sia tuo che del tuo avversario, ha 30 PS in meno.",
 		pt: "Cada Pokémon Estágio 2 em jogo (seus e do seu oponente) recebe 30 PS a menos.",
-		de: "Jedes Phase-2-Pokémon im Spiel (deine und die deines Gegners) erhält -30 KP."
+		de: "Jedes Phase-2-Pokémon im Spiel (deine und die deines Gegners) erhält -30 KP. Du kannst während deines Zuges nur 1 Stadionkarte spielen. Lege sie neben die Aktive Position, und lege sie auf den Ablagestapel, wenn eine andere Stadionkarte ins Spiel gebracht wird. Eine Stadionkarte mit demselben Namen kann nicht gespielt werden."
 	},
 
 	trainerType: "Stadium",
@@ -31,15 +33,16 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
-			foil: "gold"
-		}
+			foil: "gold",
+			thirdParty: {
+				cardmarket: 794623,
+				tcgplayer: 593857
+			}
+		},
 	],
 
 	illustrator: "AYUMI ODASHIMA",
 
-	thirdParty: {
-		cardmarket: 794623
-	}
 }
 
 export default card

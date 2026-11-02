@@ -66,6 +66,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It can't stop itself from chasing moving things, and it runs in a circle, chasing its own tail.",
+		de: "Es muss Dinge, die sich bewegen, einfach jagen. Es rennt oft im Kreis und jagt seinen eigenen Schweif."
+	},
+
 	thirdParty: {
 		cardmarket: 278268,
 		tcgplayer: 89267

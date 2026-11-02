@@ -12,18 +12,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		413,
-	],
+	dexId: [413],
 	
 	hp: 90,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Burmy Trash Cloak",
+		de: "Burmy Lumpenumhang"
 	},
 
 	stage: "Stage1",
@@ -77,19 +76,28 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278923,
-		tcgplayer: 90646
+	description: {
+		en: "When evolving, its body takes in surrounding materials. As a result, there are many body variations.",
+		de: "Es nimmt während der Entwicklung Dinge aus der Umgebung auf, daher gibt es viele Variationen von ihm."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90646,
+				cardmarket: 278923
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278923,
+				tcgplayer: 90646
+			}
+		},
+	],
+
 }
 
 export default card

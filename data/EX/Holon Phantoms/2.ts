@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Cradily δ",
 		fr: "Vacilys δ",
-		de: "Wielie"
+		de: "Wielie δ"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -26,7 +26,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lileep",
-		fr: "Lilia"
+		fr: "Lilia",
+		de: "Liliep"
 	},
 
 	stage: "Stage2",

@@ -65,7 +65,7 @@ const card: Card = {
 				es: "Luna Siniestra GX",
 				it: "Oscurità Lunare GX",
 				pt: "Lua Sombria GX",
-				de: "Finstermond GX"
+				de: "Finstermond-GX"
 			},
 			effect: {
 				en: "Your opponent can’t play any Trainer cards from their hand during their next turn. If this Pokémon has at least 5 extra Darkness Energy attached to it (in addition to this attack’s cost), your opponent’s Active Pokémon is Knocked Out. (You can’t use more than 1 GX attack in a game.)",
@@ -73,7 +73,7 @@ const card: Card = {
 				es: "Tu rival no puede jugar ninguna carta de Entrenador de su mano durante su próximo turno. Si este Pokémon tiene por lo menos 5 Energías Darkness adicionales unidas a él (además de las del coste de este ataque), el Pokémon Activo de tu rival queda Fuera de Combate. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Il tuo avversario non può giocare le carte Allenatore che ha in mano durante il suo prossimo turno. Se questo Pokémon ha almeno cinque Energie Darkness extra assegnate, in aggiunta a quelle del costo di questo attacco, il Pokémon attivo del tuo avversario viene messo KO. Non puoi usare più di un attacco GX a partita.",
 				pt: "Seu oponente não poderá jogar nenhuma carta de Treinador da própria mão durante a próxima vez dele(a) jogar. Se este Pokémon tiver pelo menos 5 Energias Darkness adicionais ligadas a ele (além do custo deste ataque), o Pokémon Ativo do seu oponente será Nocauteado (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Dein Gegner kann während seines nächsten Zuges keine Trainerkarten aus seiner Hand spielen. Wenn an dieses Pokémon mindestens 5 extra Darkness-Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), ist das Aktive Pokémon deines Gegners kampfunfähig. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				de: "Dein Gegner kann während seines nächsten Zuges keine Trainerkarten aus seiner Hand spielen. Wenn an dieses Pokémon mindestens 5 extra {D}-Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), ist das Aktive Pokémon deines Gegners kampfunfähig. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 
 		}

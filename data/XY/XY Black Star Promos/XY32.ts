@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Masakazu Fukuda",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -77,6 +77,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "When this legendary Pokémon's wings and tail feathers spread wide and glow red, it absorbs the life force of living creatures.",
+	},
 
 	thirdParty: {
 		cardmarket: 552959

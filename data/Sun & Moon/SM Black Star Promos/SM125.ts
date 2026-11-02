@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Agoyon GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Poipole",
 		fr: "Vémini",
+		de: "Venicro"
 	},
 
 	suffix: "GX",
@@ -90,7 +91,7 @@ const card: Card = {
 				es: "Aguijón GX",
 				it: "Aculeus GX",
 				pt: "Ferrão GX",
-				de: "Stachel GX"
+				de: "Stachel-GX"
 			},
 			effect: {
 				en: "Both players shuffle their Prize cards into their decks. Then, each player puts the top 3 cards of their deck face down as their Prize cards. (You can’t use more than 1 GX attack in a game.)",
@@ -112,8 +113,15 @@ const card: Card = {
 
 	retreat: 1,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 364217,
+				tcgplayer: 176944
+			}
+		}
+	],
 }
 
 export default card

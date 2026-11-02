@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pupitar",
 		fr: "Ymphect",
+		de: "Pupitar"
 	},
 
 	stage: "Stage2",
@@ -102,6 +103,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "If it rampages, it knocks down mountains and buries rivers. Maps must be redrawn afterward.",
+		de: "Bei einem Tobsuchtsanfall zerstört es ganze Gebirge und legt Flüsse trocken."
+	},
 
 	thirdParty: {
 		cardmarket: 361331,

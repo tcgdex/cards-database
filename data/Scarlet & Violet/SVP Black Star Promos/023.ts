@@ -8,13 +8,9 @@ const card: Card = {
 	name: {
 		en: "Smoliv",
 		fr: "Olivini",
-		es: "Smoliv",
-		it: "Smoliv",
-		pt: "Smoliv",
-		de: "Olini"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Grass"],
@@ -26,19 +22,11 @@ const card: Card = {
 		name: {
 			en: "Nutrients",
 			fr: "Nutriments",
-			es: "Nutrientes",
-			it: "Nutrienti",
-			pt: "Nutrientes",
-			de: "Nährstoffe"
 		},
 
 		effect: {
 			en: "Heal 30 damage from 1 of your Pokémon.",
 			fr: "Soignez 30 dégâts de l'un de vos Pokémon.",
-			es: "Cura 30 puntos de daño a uno de tus Pokémon.",
-			it: "Cura uno dei tuoi Pokémon da 30 danni.",
-			pt: "Cure 30 pontos de dano de 1 dos seus Pokémon.",
-			de: "Heile 30 Schadenspunkte bei 1 deiner Pokémon."
 		}
 	}, {
 		cost: ["Grass", "Colorless"],
@@ -46,18 +34,34 @@ const card: Card = {
 		name: {
 			en: "Spray Fluid",
 			fr: "Fluide Éclaboussant",
-			es: "Fluido Rociado",
-			it: "Fluidospray",
-			pt: "Fluido Spray",
-			de: "Sprühwasser"
 		},
 
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "Misa Tsutsui"
+	illustrator: "Misa Tsutsui",
+	description: {
+		en: "It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.",
+		fr: "Le fruit qui surmonte sa tête sécrète une huile qui le protège de ses adversaires. Ce liquide a un goût si désagréable qu'il fait grimacer.",
+	},
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 703191,
+				tcgplayer: 500833
+			},
+		}
+	],
 }
 
 export default card

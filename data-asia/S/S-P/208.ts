@@ -1,22 +1,52 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "瑪俐"
+		ja: "ピカチュウ",
+		'zh-tw': "瑪俐",
 	},
 
-	illustrator: "kirisAki",
-	category: "Trainer",
+	illustrator: "YU NAGABA",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Lightning"],
 
-	effect: {
-		'zh-tw': "雙方玩家各將自己的手牌全部翻回反面並重洗，放回牌庫下方。然後，從牌庫抽卡，自己抽出5張，對手抽出4張。"
+	description: {
+		ja: "おたがいの しっぽを くっつけて 電気を 流しあうのが ピカチュウ 同士の 挨拶だ。",
 	},
 
-	trainerType: "Supporter",
-	regulationMark: "D"
-}
+	stage: "Basic",
 
-export default card
+	attacks: [
+		{
+			name: { ja: "いっぱつしょうぶ" },
+			damage: 70,
+			cost: ["Lightning", "Colorless", "Colorless"],
+			effect: {
+				ja: "コインを1回投げウラなら、このワザは失敗。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 568802,
+				tcgplayer: 597392,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "E",
+	rarity: "Promo",
+	dexId: [25],
+};
+
+export default card;

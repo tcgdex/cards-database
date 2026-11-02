@@ -91,23 +91,30 @@ const card: Card = {
 	types: ["Metal"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle."
+		en: "What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle.",
+		de: "Die Haare auf seinem Kopf haben sich zu etwas verhärtet, das an einen eisernen Helm erinnert. Es ist von Natur aus kriegerisch veranlagt."
 	},
 
-	thirdParty: {
-		cardmarket: 457308,
-		tcgplayer: 213223
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458033,
+				tcgplayer: 213223
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458033,
+				tcgplayer: 213223
+			}
+		},
+	],
 }
 
 export default card

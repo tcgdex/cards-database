@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -79,7 +79,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		fr: "Il adore se faufiler derrière les gens la nuit pour les effrayer avec son cri strident."
+		en: "It loves to sneak up on people late at night, then startle them with its shrieklike cry.",
+		fr: "Il adore se faufiler derrière les gens la nuit pour les effrayer avec son cri strident.",
+		de: "Es liebt es, sich nachts an andere heranzuschleichen und sie mit einem schrillen Schrei zu erschrecken."
 	},
 
 	thirdParty: {

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		27,
-	],
+	dexId: [27],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -36,9 +34,9 @@ const card: Card = {
 				de: "Einigler"
 			},
 			effect: {
-				en: "Flip a coin. If heads, prevent all damage done to Sandshrew by attacks during your opponent’s next turn.",
+				en: "Flip a coin. If heads, prevent all damage done to Sandshrew by attacks during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c’est face, évitez tous les dégâts infligés à Sabelette par des attaques pendant le prochain tour de votre adversaire.",
-				de: "Wirf eine Münze. Bei \"Kopf\" verhindere alle Schadenspunkte, die Sandan während des nächsten Zuges deines Gegners durch Angriff zugefügt werden."
+				de: "Wirf eine Münze. Bei „Kopf“ verhindere alle Schadenspunkte, die Sandan während des nächsten Zuges deines Gegners durch Angriffe zugefügt werden."
 			},
 
 		},
@@ -74,22 +72,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Disliking water, it lives in deep burrows in arid areas. It can roll itself instantly into a ball."
+		en: "Disliking water, it lives in deep burrows in arid areas. It can roll itself instantly into a ball.",
+		de: "Da es Wasser verabscheut, gräbt es sich in trockenes Erdreich ein. Es kann sich rasch zu einem Ball einrollen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88926,
+				cardmarket: 279051
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88926,
+				cardmarket: 279051
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279051,
-		tcgplayer: 88926
-	}
 }
 
 export default card

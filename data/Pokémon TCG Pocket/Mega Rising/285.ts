@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Mega Gyarados ex"
+		en: "Mega Gyarados ex",
+		fr: "Méga-Léviator-ex"
 	},
 
 	illustrator: "danciao",
@@ -17,11 +18,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Magikarp"
-	},
-
-	description: {
-		en: "Mega Evolution also affects its brain, leaving\nno other function except its destructive instinct\nto burn everything to cinders."
+		en: "Magikarp",
+		fr: "Magicarpe"
 	},
 
 	stage: "Stage1",
@@ -29,14 +27,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Mega Blaster"
+			en: "Mega Blaster",
+			fr: "Méga Maelström"
 		},
 
 		damage: 140,
 		cost: ["Water", "Water", "Water", "Colorless"],
 
 		effect: {
-			en: "Discard the top 3 cards of your opponent's deck."
+			en: "Discard the top 3 cards of your opponent's deck.",
+			fr: "Défaussez les 3 premières cartes du dessus du deck de votre adversaire."
 		}
 	}],
 

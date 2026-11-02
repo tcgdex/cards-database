@@ -64,15 +64,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 273935,
-		tcgplayer: 42453
+
+	description: {
+		en: "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves.",
 	},
+
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273935,
+				tcgplayer: 42453
+			}
 		}
 	]
 }

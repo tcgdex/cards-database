@@ -22,21 +22,31 @@ const card: Card = {
 		es: "Enseña las 5 primeras cartas de la baraja de tu rival. Puedes elegir cualquier cantidad de Pokémon Básicos que encuentres entre ellas y ponerlos en su Banca. Tu rival pone el resto de las cartas de nuevo en su baraja y las baraja todas.",
 		it: "Mostra le prime cinque carte del mazzo del tuo avversario. Puoi scegliere un numero qualsiasi di Pokémon Base presenti tra esse e metterli nella sua panchina. Il tuo avversario rimischia le altre carte nel suo mazzo.",
 		pt: "Revele as 5 cartas de cima do baralho do seu oponente. Você pode escolher qualquer número de Pokémon Básicos que encontrar lá e colocar aqueles Pokémon no Banco dele. Seu oponente embaralha as outras cartas de volta no baralho dele.",
-		de: "Zeige deinem Gegner die obersten 5 Karten seines Decks. Du kannst beliebig viele Basis-Pokémon, die du dort findest, wählen und jene Pokémon auf seine Bank legen. Dein Gegner mischt die anderen Karten zurück in sein Deck."
+		de: "Zeige deinem Gegner die obersten 5 Karten seines Decks. Du kannst beliebig viele Basis-Pokémon, die du dort findest, wählen und jene Pokémon auf seine Bank legen. Dein Gegner mischt die anderen Karten zurück in sein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769316,
+				tcgplayer: 550186
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769316,
+				tcgplayer: 550186
+			}
+		},
+	],
 
 	illustrator: "AYUMI ODASHIMA",
 
-	thirdParty: {
-		cardmarket: 769316
-	}
 }
 
 export default card

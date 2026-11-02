@@ -63,6 +63,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "It glides on its outstretched membrane while shocking foes with the electricity stored in the pouches on its cheeks.",
+	},
+
 	thirdParty: {
 		cardmarket: 281147
 	}

@@ -4,28 +4,27 @@ import Set from '../Sandstorm'
 const card: Card = {
 	name: {
 		en: "Dusclops",
-		fr: "Teraclope",
+		fr: "Téraclope",
 		de: "Zwirrklop"
 	},
 
 	illustrator: "Midori Harada",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		356,
-	],
+	dexId: [356],
 
 	hp: 70,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Duskull",
-		fr: "Skelénox"
+		fr: "Skelénox",
+		de: "Zwirrlicht"
 	},
 
 	stage: "Stage1",
@@ -39,12 +38,12 @@ const card: Card = {
 			name: {
 				en: "Judgement",
 				fr: "Jugement",
-				de: "Judgement"
+				de: "Urteil"
 			},
 			effect: {
 				en: "Flip 2 coins. If both of them are heads, the Defending Pokémon is Knocked Out.",
 				fr: "Lancez deux pièces. Si ce sont deux faces, le Pokémon Défenseur est mis K.O.",
-				de: "Flip 2 coins. If both of them are heads, the Defending Pokémon is Knocked Out."
+				de: "Wirf 2 Münzen. Wenn beide „Kopf“ zeigen, wird das Verteidigende Pokémon kampfunfähig."
 			},
 
 		},
@@ -57,12 +56,12 @@ const card: Card = {
 			name: {
 				en: "Random Curse",
 				fr: "Malédiction au pif",
-				de: "Random Curse"
+				de: "Zufälliger Fluch"
 			},
 			effect: {
 				en: "Put a total of 5 damage counters on all Defending Pokémon in any way you like.",
 				fr: "Placez comme vous le voulez un total de cinq marqueurs de dégât sur tout Pokémon Défenseur.",
-				de: "Put a total of 5 damage counters on all Defending Pokémon in any way you like."
+				de: "Verteile auf beliebige Weise insgesamt 5 Schadensmarken auf alle Verteidigenden Pokémon."
 			},
 
 		},
@@ -85,19 +84,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275781,
-		tcgplayer: 85024
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275781,
+				tcgplayer: 85024
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275781,
+				tcgplayer: 85024
+			}
 		},
-	]
+	],
+
 }
 
 export default card

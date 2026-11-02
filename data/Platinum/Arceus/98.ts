@@ -3,7 +3,7 @@ import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Salamence LV. X",
+		en: "Salamence LV.X",
 		de: "Brutalanda"
 	},
 	illustrator: "Ryo Ueda",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		373,
-	],
+	dexId: [373],
 	
 	hp: 160,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "LEVEL-UP",
@@ -33,7 +31,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn (before your attack), when you put Salamence LV.X from your hand onto your Active Salamence, you may use this power. For each of your opponent's Pokémon that is Knocked Out by damage from Salamence's attacks this turn, take 1 more Prize card.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn du Brutalanda LV.X auf dein Aktives Brutalanda legst, diese Poké-Power benutzen. Nimm für jedes Pokémon deines Gegners, das in diesem Zug durch Schaden von Brutalandas Angriffen kampfunfähig wird, 1 zusätzlichen Preis."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -72,8 +70,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88906
+			}
+		},
 	]
 }
 

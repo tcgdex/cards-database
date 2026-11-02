@@ -5,9 +5,10 @@ const card: Card = {
 	name: {
 		en: "Rocket's Persian ex",
 		fr: "Persian ex de Rocket",
-		de: "Rockets Snobilikat ex"
+		de: "Rockets Snobilikat-ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
@@ -78,16 +79,16 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276762,
-		tcgplayer: 88783
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 88783,
+				cardmarket: 276762
+			},
 		},
-	]
+	],
 }
 
 export default card

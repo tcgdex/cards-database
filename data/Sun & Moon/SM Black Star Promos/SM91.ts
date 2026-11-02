@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Amigento GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Type: Null",
 		fr: "Type:0",
+		de: "Typ:Null"
 	},
 
 	suffix: "GX",
@@ -87,7 +88,7 @@ const card: Card = {
 				es: "Rebelarse GX",
 				it: "Ribelle GX",
 				pt: "Rebelde GX",
-				de: "Rebellieren GX"
+				de: "Rebellieren-GX"
 			},
 			effect: {
 				en: "This attack does 50 damage for each of your opponent’s Benched Pokémon. (You can’t use more than 1 GX attack in a game.)",
@@ -110,8 +111,15 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 314379,
+				tcgplayer: 152604
+			}
+		}
+	],
 }
 
 export default card

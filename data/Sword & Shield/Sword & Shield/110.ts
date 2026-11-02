@@ -74,7 +74,7 @@ const card: Card = {
 				es: "Si este Pokémon tiene por lo menos 1 Energía Fighting adicional unida a él (además de las del coste de este ataque), este ataque hace 70 puntos de daño más.",
 				it: "Se questo Pokémon ha almeno un'Energia Fighting extra assegnata, in aggiunta a quelle del costo di questo attacco, questo attacco infligge 70 danni in più.",
 				pt: "Se este Pokémon tiver pelo menos 1 Energia Fighting adicional ligada a ele (além do custo deste ataque), este ataque causará 70 pontos de dano a mais.",
-				de: "Wenn an dieses Pokémon mindestens 1 extra Fighting-Energie angelegt ist (zusätzlich zu den Kosten dieser Attacke), fügt diese Attacke 70 Schadenspunkte mehr zu."
+				de: "Wenn an dieses Pokémon mindestens 1 extra {F}-Energie angelegt ist (zusätzlich zu den Kosten dieser Attacke), fügt diese Attacke 70 Schadenspunkte mehr zu."
 			},
 			damage: "60+",
 
@@ -99,7 +99,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "When it contracts its body, over 220 pounds of sand sprays from its nose. If it ever runs out of sand, it becomes disheartened."
+		en: "When it contracts its body, over 220 pounds of sand sprays from its nose. If it ever runs out of sand, it becomes disheartened.",
+		de: "Zieht es seinen ganzen Körper zusammen, kann es 100 kg Sand aus seinen Nasenlöchern feuern. Geht ihm der Sand aus, verliert es den Mut."
 	},
 
 	dexId: [844],

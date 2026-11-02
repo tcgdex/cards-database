@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -79,7 +79,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		fr: "Il est si timide qu'il ne se déplace qu'au milieu d'un essaim. Il exprime ses émotions par l'odeur."
+		en: "It is so timid, it can't move if it isn't with a swarm of others. It conveys its feelings with scent.",
+		fr: "Il est si timide qu'il ne se déplace qu'au milieu d'un essaim. Il exprime ses émotions par l'odeur.",
+		de: "Es ist so scheu, dass es sich nur bewegt, wenn es sich in einem Schwarm befindet."
 	},
 
 	thirdParty: {

@@ -55,23 +55,38 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "It can't stop itself from chasing moving things, and it runs in a circle, chasing its own tail.",
+	},
+
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760760,
+				tcgplayer: 542874
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760760,
+				tcgplayer: 542874
+			}
+		},
 	],
 
 	illustrator: "Atsuko Nishida",
 
-	thirdParty: {
-		cardmarket: 760760
-	}
 }
 
 export default card

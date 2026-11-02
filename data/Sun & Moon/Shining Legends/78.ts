@@ -88,7 +88,7 @@ const card: Card = {
 				es: "Onda Mental GX",
 				it: "Psicobotta-GX",
 				pt: "Golpe Psíquico GX",
-				de: "Psychostoß GX"
+				de: "Psychostoß-GX"
 			},
 			effect: {
 				en: "This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon. (You can’t use more than 1 GX attack in a game.)",

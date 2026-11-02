@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Sandshrew",
 		fr: "Sabelette d’Alola",
+		de: "Alola-Sandan"
 	},
 
 	stage: "Stage1",
@@ -97,6 +98,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It runs across snow-covered plains at high speeds. It developed thick, sharp claws to plow through the snow.",
+		de: "Es rast in hohem Tempo durch den Schnee. Seine Krallen sind groß und scharf, damit es sich leichter durchgraben kann."
+	},
 
 	thirdParty: {
 		cardmarket: 408339,

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		216,
-	],
+	dexId: [216],
 
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -55,22 +53,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations."
+		en: "Before food becomes scarce in wintertime, its habit is to hoard food in many hidden locations.",
+		de: "Steht der Winter vor der Türe, hortet es Nahrung an vielen verschiedenen, nur ihm bekannten Orten."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89859,
+				cardmarket: 279221
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89859,
+				cardmarket: 279221
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279221,
-		tcgplayer: 89859
-	}
 }
 
 export default card

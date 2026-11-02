@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Low Sweep",
 				fr: "Balayette",
+				de: "Fußtritt"
 			},
 
 			damage: 20,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Beatdown",
 				fr: "Dérouillée",
+				de: "Niederprügler"
 			},
 
 			damage: 40,
@@ -65,10 +67,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279800,
-		tcgplayer: 88937
-	}
+	description: {
+		en: "The sound of Sawk punching boulders and trees can be heard all the way from the mountains where they train.",
+		de: "Am Fuß von Bergen, wo Karadonis trainiert, ertönt das Echo von Fäusten, die gegen Felsen und Bäume schlagen."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279800,
+				tcgplayer: 88937
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279800,
+				tcgplayer: 88937
+			}
+		},
+	],
 }
 
 export default card

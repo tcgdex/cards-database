@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		169,
-	],
+	dexId: [169],
 
 	hp: 110,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Golbat",
 		fr: "Nosferalto",
+		de: "Golbat"
 	},
 
 	stage: "Stage2",
@@ -62,9 +61,9 @@ const card: Card = {
 			effect: {
 				en: "Flip 4 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 4 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
-				de: "Wirf 4 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 4 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
-			damage: "30x",
+			damage: "30×",
 
 		},
 	],
@@ -86,26 +85,35 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "The development of wings on its legs enables it to fly fast but also makes it tough to stop and rest."
+		en: "The development of wings on its legs enables it to fly fast but also makes it tough to stop and rest.",
+		de: "Durch die Bildung von Flügeln an seinen Beinen fliegt es schnell, aber hat Probleme bei der Landung."
 	},
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84488,
+				cardmarket: 279170
+			}
 		},
 		{
 			type: "reverse",
-			foil: "league"
+			thirdParty: {
+				tcgplayer: 84488,
+				cardmarket: 279170
+			}
+		},
+		{
+			type: "reverse",
+			foil: "league",
+			thirdParty: {
+				cardmarket: 371561,
+				tcgplayer: 153256
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279170,
-		tcgplayer: 84488
-	}
 }
 
 export default card

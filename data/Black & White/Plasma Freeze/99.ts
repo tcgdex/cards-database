@@ -22,7 +22,7 @@ const card: Card = {
 		es: "El Pokémon al que esté unida esta carta no tiene ningún Coste de Retirada.",
 		it: "Il Pokémon a cui questa carta è assegnata non ha alcun costo di ritirata.",
 		pt: "O Pokémon ao qual este card está ligado não tem Custo para Recuar.",
-		de: "Das Pokémon, an das diese Karte angelegt ist, hat keine Rückzugskosten."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Das Pokémon, an das diese Karte angelegt ist, hat keine Rückzugskosten. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

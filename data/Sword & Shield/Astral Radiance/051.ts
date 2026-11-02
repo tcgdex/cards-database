@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Regieleki"
 	},
 
+	illustrator: "Shiburingaru",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,
@@ -58,24 +59,41 @@ const card: Card = {
 			es: "Descarta 2 Energías Lightning de este Pokémon. Este ataque hace 120 puntos de daño a 1 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
 			it: "Scarta due Energie Lightning da questo Pokémon. Questo attacco infligge 120 danni a uno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
 			pt: "Descarte 2 Energias Lightning deste Pokémon. Este ataque causa 120 pontos de dano a 1 dos Pokémon no Banco do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
-			de: "Lege 2 Lightning-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 1 Pokémon auf der Bank deines Gegners 120 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+			de: "Lege 2 {L}-Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 1 Pokémon auf der Bank deines Gegners 120 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "This Pokémon is a cluster of electrical energy. It's said that removing the rings on Regieleki's body will unleash the Pokémon's latent power.",
+		de: "Es besteht aus gebündelter elektrischer Energie. Werden die Ringe an seinem Körper entfernt, setzt das angeblich seine verborgenen Kräfte frei."
 	},
 
-	thirdParty: {
-		cardmarket: 658600,
-		tcgplayer: 272252
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658600,
+				tcgplayer: 272252
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658600,
+				tcgplayer: 272252
+			}
+		},
+	],
 }
 
 export default card

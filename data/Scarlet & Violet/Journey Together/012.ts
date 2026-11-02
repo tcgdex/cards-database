@@ -47,22 +47,32 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 	illustrator: "Toshinao Aoki",
 
-	thirdParty: {
-		cardmarket: 817164
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817164,
+				tcgplayer: 623439
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817164,
+				tcgplayer: 623439
+			}
 		},
-	]
+	],
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Schaloko"
 	},
 
+	illustrator: "Kagemaru Himeno",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,
@@ -68,16 +69,23 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674018,
-		tcgplayer: 283871
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674018,
+				tcgplayer: 283871
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674018,
+				tcgplayer: 283871
+			}
+		},
+	],
 }
 
 export default card

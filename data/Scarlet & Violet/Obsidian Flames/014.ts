@@ -52,17 +52,51 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
+	description: {
+		en: "Supremely sensitive to the presence of others, it can detect opponents standing behind it, flinging its sharp feathers to take them out.",
+		de: "Es merkt sofort, wenn jemand in der Nähe ist. Spürt es hinter sich die Präsenz eines Gegners, eliminiert es ihn, indem es scharfe Federn wirft."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725094,
+				tcgplayer: 509705,
+				cardtrader: 255574
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 789504,
+				tcgplayer: 602866
+
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725094,
+				tcgplayer: 509705,
+				cardtrader: 255574
+			}
+		},
+	],
 
 	illustrator: "sui",
 
-	thirdParty: {
-		cardmarket: 725094
-	}
+
 }
 
 export default card

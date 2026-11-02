@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		20,
-	],
+	dexId: [20],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Rattata",
 		fr: "Rattata",
+		de: "Rattfratz"
 	},
 
 	stage: "Stage1",
@@ -45,7 +44,7 @@ const card: Card = {
 				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur le Pokémon Défenseur.",
 				de: "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf dem Verteidigenden Pokémon zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -77,22 +76,27 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Its whiskers help it to maintain balance. Its fangs never stop growing, so it gnaws to pare them down."
+		en: "Its whiskers help it to maintain balance. Its fangs never stop growing, so it gnaws to pare them down.",
+		de: "Mit seinen Barthaaren hält es die Balance. Da seine Zähne stetig wachsen, muss es ständig etwas annagen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279287,
+				tcgplayer: 88606
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279287,
+				tcgplayer: 88606
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279287,
-		tcgplayer: 88606
-	}
 }
 
 export default card

@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "V-blast",
 				fr: "Explo-Victoire",
+				de: "V-Kracher"
 			},
 			effect: {
 				en: "Flip 2 coins. If either of them is tails, this attack does nothing.",
 				fr: "Lancez 2 pièces. Si vous obtenez au moins un côté pile, cette attaque ne fait rien.",
+				de: "Wirf 2 Münzen. Wenn eine oder beide Münzen „Zahl“ zeigen, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 120,
 
@@ -55,10 +57,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280137,
-		tcgplayer: 90345
-	}
+	description: {
+		en: "It creates an unlimited supply of energy inside its body, which it shares with those who touch it.",
+		de: "Es erzeugt im Inneren seines Körpers grenzenlose Energie, die es mit jedem teilt, der mit ihm in Berührung kommt."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280166,
+				tcgplayer: 90345
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280166,
+				tcgplayer: 90345
+			}
+		},
+	],
 }
 
 export default card

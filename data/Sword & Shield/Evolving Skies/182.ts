@@ -3,13 +3,8 @@ import Set from '../Evolving Skies'
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [201, 333, 827],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Golurk V",
@@ -77,10 +72,15 @@ const card: Card = {
 	regulationMark: "E",
 	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 574118,
-		tcgplayer: 246695
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574240,
+				tcgplayer: 246695
+			}
+		},
+	],
 }
 
 export default card

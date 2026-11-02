@@ -67,15 +67,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 273938,
-		tcgplayer: 42459
+
+	description: {
+		en: "An adept swimmer at both the front crawl and breaststroke. Easily overtakes the best human swimmers.",
 	},
+
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273938,
+				tcgplayer: 42459
+			}
 		}
 	]
 }

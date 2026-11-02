@@ -4,6 +4,7 @@ import Set from "../Paldea Evolved"
 const card: Card = {
 	dexId: [913],
 	set: Set,
+	cameoDexIds: [61],
 
 	name: {
 		fr: "Canarbello",
@@ -56,19 +57,32 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715682,
+				tcgplayer: 497610,
+				cardtrader: 248848
+			}
+		},
+	],
 
 	illustrator: "Souichirou Gunjima",
 
-	thirdParty: {
-		cardmarket: 715682
-	}
+	description: {
+		en: "These Pokémon constantly run through shallow waters to train their legs, then compete with each other to see which of them kicks most gracefully.",
+		de: "Es rennt eifrig durch seichte Gewässer, um seine Beine zu stärken, und konkurriert mit Artgenossen darum, wer die anmutigste Beinarbeit vorweist."
+	},
 }
 
 export default card

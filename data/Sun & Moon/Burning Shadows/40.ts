@@ -87,10 +87,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299444,
-		tcgplayer: 138522
-	}
+	description: {
+		en: "A plan was recently announced to gather many Pikachu and make an electric power plant.",
+		de: "Vor Kurzem wurden Pläne verkündet, mithilfe einer großen Anzahl an Pikachu ein ganzes Kraftwerk zu betreiben."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299444,
+				tcgplayer: 138522
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299444,
+				tcgplayer: 138522
+			}
+		},
+	],
 }
 
 export default card

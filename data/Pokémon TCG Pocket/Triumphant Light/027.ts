@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Il émet des décharges à partir de l'électricité\nstatique accumulée dans sa fourrure. Il produit\ndes étincelles lorsque le temps devient orageux.",
 		es: "Acumula electricidad estática en el pelaje para lanzar descargas.\nCuando va a haber tormenta, suelta chispas por todo el cuerpo.",
 		it: "Accumula elettricità statica nella pelliccia e poi la rilascia.\nSe si avvicina una tempesta, emette scintille.",
-		de: "In seinem Fell speichert es statische Elektrizität\nfür spätere Entladungen. Braut sich ein Sturm\nzusammen, entlädt es Funken.",
+		de: "In seinem Fell speichert es statische Elektrizität für spätere Entladungen. Braut sich ein Sturm zusammen, entlädt es Funken.",
 		'pt-br': "Ele armazena eletricidade estática no pelo\npara depois descarregá-la.\nQuando uma tempestade se aproxima, solta fagulhas.",
 		ko: "정전기를 털에 비축하여\n방전한다. 폭풍이 가까이 오면\n온몸에서 불꽃을 튀긴다."
 	},

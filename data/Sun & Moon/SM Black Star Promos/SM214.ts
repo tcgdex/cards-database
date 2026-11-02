@@ -11,8 +11,8 @@ const card: Card = {
 		de: "Mewtu"
 	},
 
-	illustrator: undefined,
-	rarity: "Rare",
+	illustrator: "kawayoo",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -85,7 +85,22 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2
+	retreat: 2,
+
+	description: {
+		en: "It was created by a scientist after years of horrific gene-splicing and DNA-engineering experiments.",
+		de: "Dieses Pokémon ist das Resultat eines jahrelangen und skrupellosen Experimentes."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 394567,
+				tcgplayer: 197855
+			}
+		}
+	],
 }
 
 export default card

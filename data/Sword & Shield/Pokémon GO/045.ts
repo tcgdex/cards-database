@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Meltan"
 	},
 
+	illustrator: "Sumiyoshi Kizuki",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -44,19 +45,45 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
+
+	description: {
+		en: "It melts particles of iron and other metals found in the subsoil, so it can absorb them into its body of molten steel.",
+		de: "Sein Körper besteht aus geschmolzenem Stahl. Es bringt Eisen und andere Metalle im Boden zum Schmelzen, um sie dann zu absorbieren."
 	},
 
-	thirdParty: {
-		cardmarket: 664586,
-		tcgplayer: 277027
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665268,
+				tcgplayer: 277027
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665268,
+				tcgplayer: 277027
+			}
+		},
+	],
 }
 
 export default card

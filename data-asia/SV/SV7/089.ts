@@ -19,6 +19,16 @@ const card: Card = {
 		ja: "このカードは、自分の場に「テラスタル」のポケモンがいるときにしか使えない。\n\n自分のベンチのポケモンを2匹まで選び、トラッシュから基本エネルギーを1枚ずつつける。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 779103,
+				tcgplayer: 567944,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "H",
 	rarity: "Uncommon"

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Skorgro"
 	},
 
+	illustrator: "Shiburingaru",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -57,16 +58,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674108,
-		tcgplayer: 283985
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674108,
+				tcgplayer: 283985
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674108,
+				tcgplayer: 283985
+			}
+		},
+	],
 }
 
 export default card

@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Dedenne"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	dexId: [702],
 	hp: 70,
 	types: ["Psychic"],
@@ -57,18 +57,18 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 540626
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 540626,
+				tcgplayer: 232453
+			}
+		},
+	],
 }
 
 export default card

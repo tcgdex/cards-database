@@ -23,7 +23,9 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Combee"
+		en: "Combee",
+		fr: "Apitrini",
+		de: "Wadribie"
 	},
 
 	description: {
@@ -31,7 +33,7 @@ const card: Card = {
 		fr: "Son abdomen abrite ses petits, qu'il\ncontrôle grâce à des phéromones.",
 		es: "Cría larvas en los panales de su cuerpo y\nsegrega diversas feromonas para controlarlas.",
 		it: "Nell'addome ospita la sua progenie, sulla quale esercita\nun controllo assoluto tramite i feromoni che rilascia.",
-		de: "Sein Rumpf fungiert als Wabe für die Larven,\ndie es mithilfe verschiedener Pheromone frei\nherumkommandieren kann.",
+		de: "Sein Rumpf fungiert als Wabe für die Larven, die es mithilfe verschiedener Pheromone frei herumkommandieren kann.",
 		'pt-br': "Guarda sua colônia em células do seu corpo\ne libera vários feromônios para que as larvas\ncumpram suas exigências.",
 		ko: "몸통은 새끼들의 둥지다.\n여러 페로몬을 내뿜어\n새끼들을 자유롭게 조종한다."
 	},

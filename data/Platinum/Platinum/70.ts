@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		390,
-	],
+	dexId: [390],
 
 	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -33,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
-				de: "Bite"
+				de: "Biss"
 			},
 
 			damage: 10,
@@ -47,7 +45,7 @@ const card: Card = {
 			name: {
 				en: "Fire Punch",
 				fr: "Poing de feu",
-				de: "Fire Punch"
+				de: "Feuerschlag"
 			},
 
 			damage: 20,
@@ -64,19 +62,28 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278491,
-		tcgplayer: 84288
+	description: {
+		en: "It is very agile. Before going to sleep, it extinguishes the flame on its tail to prevent fires.",
+		de: "Dieses flinke PKMN löscht vor dem Schlafengehen die Flamme auf seinem Schweif, um Feuer zu verhindern."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 84288,
+				cardmarket: 278491
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278491,
+				tcgplayer: 84288
+			}
 		}
-	]
+	],
+
 }
 
 export default card

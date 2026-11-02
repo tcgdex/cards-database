@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hasuno",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Lightning"],
@@ -78,18 +78,25 @@ const card: Card = {
 	stage: "Stage1",
 	dexId: [881],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 487074
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 487074,
+				tcgplayer: 218580
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				tcgplayer: 218581
+			}
+		},
+	],
 }
 
 export default card

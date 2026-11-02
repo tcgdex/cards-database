@@ -15,6 +15,7 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
+		en: "Search your discard pile for basic Energy cards. You may either show 1 basic Energy card to your opponent and put it into your hand, or show 3 basic Energy cards to your opponent and shuffle them into your deck.",
 		fr: "Choisissez dans votre pile de défausse des cartes Énergie de base. Vous pouvez soit montrer 1 carte Énergie de base à votre adversaire et la placer dans votre main ou montrer 3 cartes Énergie de base à votre adversaire et les mélanger à votre deck.",
 		de: "Durchsuche deinen Ablagestapel nach Basis-Energiekarten. Wähle entweder 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand oder wähle 3 Basis-Energiekarten, zeige sie deinem Gegner und mische sie in dein Deck."
 	},

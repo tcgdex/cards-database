@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kyurem VMAX"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 330,
@@ -48,7 +49,7 @@ const card: Card = {
 			es: "Una vez durante tu turno, puedes descartar la primera carta de tu baraja. Si es una carta de Energía Water, únela a 1 de tus Pokémon.",
 			it: "Una sola volta durante il tuo turno, puoi scartare la prima carta del tuo mazzo. Se quella carta è una carta Energia Water, assegnala a uno dei tuoi Pokémon.",
 			pt: "Uma vez durante o seu turno, você poderá descartar a carta de cima do seu baralho. Se aquela carta for uma carta de Energia Water, ligue-a a 1 dos seus Pokémon.",
-			de: "Einmal während deines Zuges kannst du die oberste Karte deines Decks auf deinen Ablagestapel legen. Wenn jene Karte eine Water-Energiekarte ist, lege sie an 1 deiner Pokémon an."
+			de: "Einmal während deines Zuges kannst du die oberste Karte deines Decks auf deinen Ablagestapel legen. Wenn jene Karte eine {W}-Energiekarte ist, lege sie an 1 deiner Pokémon an."
 		}
 	}],
 
@@ -70,7 +71,7 @@ const card: Card = {
 			es: "Puedes descartar cualquier cantidad de Energías Water de este Pokémon. Este ataque hace 50 puntos de daño más por cada carta que hayas descartado de esta manera.",
 			it: "Puoi scartare tutte le Energie Water che vuoi da questo Pokémon. Questo attacco infligge 50 danni in più per ogni carta che hai scartato in questo modo.",
 			pt: "Você pode descartar qualquer quantidade de Energia Water deste Pokémon. Este ataque causa 50 pontos de dano a mais para cada carta descartada desta forma.",
-			de: "Du kannst beliebig viele Water-Energien von diesem Pokémon auf deinen Ablagestapel legen. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 50 Schadenspunkte mehr zu."
+			de: "Du kannst beliebig viele {W}-Energien von diesem Pokémon auf deinen Ablagestapel legen. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 50 Schadenspunkte mehr zu."
 		},
 
 		damage: "120+"
@@ -79,16 +80,16 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
-
-	thirdParty: {
-		cardmarket: 674201,
-		tcgplayer: 284152
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 674201,
+				tcgplayer: 284152
+			}
+		},
+	],
 }
 
 export default card

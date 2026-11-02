@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Slakoth",
 		fr: "Parecool",
+		de: "Bummelz"
 	},
 
 	stage: "Stage1",
@@ -84,6 +85,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Its heartbeat is fast and its blood so agitated that it can't sit still for one second.",
+		de: "Sein Puls ist konstant so hoch, dass sein Blut immer in Wallung ist und es keine Sekunde stillhalten kann."
+	},
 
 	thirdParty: {
 		cardmarket: 388632,

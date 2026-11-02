@@ -86,10 +86,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299507,
-		tcgplayer: 138602
-	}
+	description: {
+		en: "It has a perfect sense of time. Whatever happens, it keeps rhythm by precisely tilting its head in time.",
+		de: "Sein Zeitgefühl ist perfekt. Was auch immer passiert, es behält den Rhythmus, da sein Kopf wackelt."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299507,
+				tcgplayer: 138602
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299507,
+				tcgplayer: 138602
+			}
+		},
+	],
 }
 
 export default card

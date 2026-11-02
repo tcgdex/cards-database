@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It doesn't allow its emotions to be easily seen. Earning its trust takes time. It prefers solitude.",
+		de: "Es zeigt nie seine Gefühle und ist am liebsten allein. Sein Zutrauen zu gewinnen, kann einige Zeit in Anspruch nehmen."
+	},
+
 	thirdParty: {
 		cardmarket: 368952,
 		tcgplayer: 183791

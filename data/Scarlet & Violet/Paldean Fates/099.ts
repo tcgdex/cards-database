@@ -35,19 +35,33 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751638,
+				tcgplayer: 534470,
+				cardtrader: 274283
+			}
+		},
+	],
 
 	illustrator: "Scav",
 
-	thirdParty: {
-		cardmarket: 751527
-	}
+	description: {
+		en: "It likes to make its shell thicker by adding layers of tree bark. The additional weight doesn't bother it.",
+		de: "Es erfreut sich daran, seine Schale mit Schichten von Baumrinde dicker zu machen. Ihm ist es gleich, dass es dadurch schwerer wird."
+	},
+
 }
 
 export default card

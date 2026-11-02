@@ -44,7 +44,7 @@ const card: Card = {
 		fr: "Il absorbe des éléments solides en creusant le sol,\nce qui le rend plus robuste.",
 		es: "Al abrirse paso bajo tierra, va absorbiendo todo lo que\nencuentra. Eso hace que su cuerpo sea así de sólido.",
 		it: "Scava nel terreno assorbendo gli oggetti\npiù duri per irrobustire il suo corpo.",
-		de: "Wenn es sich durch die Erde gräbt,\nnimmt es viele harte Gegenstände auf,\ndie seinen Körper erhärten.",
+		de: "Wenn es sich durch die Erde gräbt, nimmt es viele harte Gegenstände auf, die seinen Körper erhärten.",
 		'pt-br': "Ao cavar o chão, absorve vários objetos rígidos,\ntornando o seu corpo extremamente sólido.",
 		ko: "땅속을 파고들면서 여러 가지\n단단한 것들을 집어삼켜서\n튼튼한 몸을 만든다."
 	},

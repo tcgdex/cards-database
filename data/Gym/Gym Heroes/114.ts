@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Misty's Wrath",
+		en: "Misty's Wrath"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,21 +11,27 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	thirdParty: {
-		cardmarket: 274250,
-		tcgplayer: 87554
-	},
+	cameoDexIds: [54],
 
+	effect: {
+		en: "Look at the top 7 cards of your deck. Choose 2 of those cards and put them into your hand. Discard the rest."
+	},
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87554,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 87554,
+				cardmarket: 274250
+			}
 		}
-	]
+	],
 }
 
 export default card
-

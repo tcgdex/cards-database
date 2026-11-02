@@ -81,6 +81,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It grips prey with its tail claws and injects poison. It tenaciously hangs on until the poison takes.",
+		de: "Es greift seine Beute mit den Krallen an seinem Schweif und vergiftet sie. Dann wartet es ab..."
+	},
+
 	thirdParty: {
 		cardmarket: 388217,
 		tcgplayer: 195012

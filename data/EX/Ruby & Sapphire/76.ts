@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		252,
-	],
+	dexId: [252],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -72,28 +70,36 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 547266,
-		tcgplayer: 90033
-	},
 
-	variants: [
-		{
+	variants: [		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275724,
+				tcgplayer: 90033
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275724,
+				tcgplayer: 90033
+			}
 		},
 		{
 			type: "normal",
 			size: "jumbo",
-			stamp: ["25th-celebration"]
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 547266,
+				tcgplayer: 231473
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["reed-weichler"]
 		}
-	]
+	],
+
 }
 
 export default card

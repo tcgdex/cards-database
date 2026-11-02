@@ -100,7 +100,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It has many hidden capabilities, such as fingertips that can shoot water and a membrane on its back that it can use to glide through the air."
+		en: "It has many hidden capabilities, such as fingertips that can shoot water and a membrane on its back that it can use to glide through the air.",
+		de: "Zu seinen vielen geheimen Talenten gehört es, Wasser aus den Fingern zu schießen und mit der Membran am Rücken durch die Lüfte zu segeln."
 	},
 
 	dexId: [818],

@@ -4,6 +4,7 @@ import Set from '../Battle Styles'
 const card: Card = {
 	dexId: [677],
 	set: Set,
+	cameoDexIds: [891],
 
 	name: {
 		en: "Espurr",
@@ -56,23 +57,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "There's enough psychic power in Espurr to send a wrestler flying, but because this power can't be controlled, Espurr finds it troublesome."
+		en: "There's enough psychic power in Espurr to send a wrestler flying, but because this power can't be controlled, Espurr finds it troublesome.",
+		de: "Mit seinen Psycho-Kräften könnte es selbst Profi-Wrestler vom Platz fegen. Es fällt ihm aber schwer, diese Kräfte zu kontrollieren."
 	},
 
-	thirdParty: {
-		cardmarket: 545411,
-		tcgplayer: 234232
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545411,
+				tcgplayer: 234232
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545411,
+				tcgplayer: 234232
+			}
+		},
+	],
 }
 
 export default card

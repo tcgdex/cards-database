@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S10a"
+import { Card } from "../../../interfaces";
+import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "洗翠 卡蒂狗"
+		ja: "ヒスイ ガーディ",
+		'zh-tw': "洗翠 卡蒂狗",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -14,28 +14,49 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		'zh-tw': "兩隻一組共同負責地盤的警戒工作。體毛中混有火成岩的成分，可以 推想這是受到火山活動的影響。"
+		ja: "対になりて 縄張りを 哨戒す。 体毛に 火成岩なる 成分 混ざるは 火山活動の 影響と 推察す。",
+		'zh-tw': "兩隻一組共同負責地盤的警戒工作。體毛中混有火成岩的成分，可以 推想這是受到火山活動的影響。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "灼熱"
+	attacks: [
+		{
+			name: {
+				ja: "こがす",
+				'zh-tw': "灼熱",
+			},
+			cost: [],
+			effect: {
+				ja: "相手のバトルポケモンをやけどにする。",
+				'zh-tw': "將對手的戰鬥寶可夢【灼傷】。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "將對手的戰鬥寶可夢【灼傷】。"
-		}
-	}],
+	weaknesses: [{ type: "Grass", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Grass",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 656337,
+				tcgplayer: 570695,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577112,
+			},
+		},
+	],
 
 	retreat: 2,
-	regulationMark: "F"
-}
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [58],
+};
 
-export default card
+export default card;

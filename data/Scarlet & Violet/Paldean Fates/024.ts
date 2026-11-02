@@ -74,18 +74,47 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751557,
+				tcgplayer: 534170,
+				cardtrader: 274208
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751557,
+				tcgplayer: 534170,
+				cardtrader: 274208
+			}
+		},
+	],
 
 	illustrator: "Yoriyuki Ikegami",
 
-	thirdParty: {
-		cardmarket: 751557
-	}
+	description: {
+		en: "When they work together, Exeggutor's three heads can put out powerful psychic energy. Cloudy days make this Pokémon sluggish.",
+		de: "Seine drei Köpfe setzen mächtige Psycho-Kräfte frei, wenn sie als Einheit agieren. Zieht sich der Himmel zu, bewegt es sich nur noch schwerfällig."
+	},
+
 }
 
 export default card

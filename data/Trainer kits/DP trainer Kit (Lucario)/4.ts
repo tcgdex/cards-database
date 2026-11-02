@@ -15,10 +15,10 @@ const card: Card = {
 	category: "Pokemon",
 	stage: "Stage1",
 
-	hp: 90,
+	hp: 80,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
@@ -59,15 +59,25 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "20+"
-		}
+			value: "+20"
+		},
 	],
 
 	description: {
 		en: "MACHOKE's boundless power is very dangerous, so it wears a belt that suppresses its energy."
 	},
 
-	retreat: 2
+	retreat: 2,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278016,
+				tcgplayer: 86982
+			}
+		},
+	],
+
 }
 
 export default card

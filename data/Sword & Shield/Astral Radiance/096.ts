@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Magnayen"
 	},
 
+	illustrator: "otumami",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 110,
@@ -48,7 +49,7 @@ const card: Card = {
 			es: "Si tu rival tiene algún Pokémon VMAX en juego, los ataques de este Pokémon cuestan ColorlessColorlessColorless menos.",
 			it: "Se il tuo avversario ha dei Pokémon-VMAX in gioco, il costo degli attacchi di questo Pokémon è ridotto di ColorlessColorlessColorless.",
 			pt: "Se o seu oponente tiver algum Pokémon VMAX em jogo, os ataques deste Pokémon custarão ColorlessColorlessColorless a menos.",
-			de: "Wenn dein Gegner mindestens 1 Pokémon-VMAX im Spiel hat, verringern sich die Kosten der Attacken dieses Pokémon um ColorlessColorlessColorless."
+			de: "Wenn dein Gegner mindestens 1 Pokémon-VMAX im Spiel hat, verringern sich die Kosten der Attacken dieses Pokémon um {C}{C}{C}."
 		}
 	}],
 
@@ -76,20 +77,37 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It chases down prey in a pack of around ten. They defeat foes with perfectly coordinated teamwork.",
+		de: "Es jagt in Rudeln von ungefähr zehn Magnayen. Beim Einkreisen der Beute arbeiten sie perfekt zusammen."
 	},
 
-	thirdParty: {
-		cardmarket: 658740,
-		tcgplayer: 272297
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658740,
+				tcgplayer: 272297
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658740,
+				tcgplayer: 272297
+			}
+		},
+	],
 }
 
 export default card

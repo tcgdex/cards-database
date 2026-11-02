@@ -1,52 +1,68 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV6"
+import { Card } from "../../../interfaces";
+import Set from "../SV6";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "厄鬼椪 碧草面具ex"
+		ja: "オーガポン みどりのめんex",
+		'zh-tw': "厄鬼椪 碧草面具ex",
 	},
 
 	illustrator: "5ban Graphics",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Grass"],
+
 	stage: "Basic",
-	suffix: "EX",
 
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			'zh-tw': "碧綠之舞"
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "みどりのまい",
+				'zh-tw': "碧綠之舞",
+			},
+			effect: {
+				ja: "自分の番に1回使える。自分の手札から「基本[G]エネルギー」を1枚選び、このポケモンにつける。その後、自分の山札を1枚引く。",
+				'zh-tw': "在自己的回合時可使用1次。從自己的手牌選擇1張「基本【草】能量」卡，附於這隻寶可夢身上。然後，從自己的牌庫抽出1張卡。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "在自己的回合時可使用1次。從自己的手牌選擇1張「基本【草】能量」卡，附於這隻寶可夢身上。然後，從自己的牌庫抽出1張卡。"
-		}
-	}],
-
-	attacks: [{
-		name: {
-			'zh-tw': "萬葉陣雨"
+	attacks: [
+		{
+			name: {
+				ja: "まんようしぐれ",
+				'zh-tw': "萬葉陣雨",
+			},
+			damage: "30+",
+			cost: ["Grass", "Grass", "Grass"],
+			effect: {
+				ja: "おたがいのバトルポケモンについているエネルギーの数×30ダメージ追加。",
+				'zh-tw': "增加雙方的戰鬥寶可夢身上附加的能量的數量×30點傷害。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "增加雙方的戰鬥寶可夢身上附加的能量的數量×30點傷害。"
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 767548,
+				tcgplayer: 568104,
+			},
 		},
-
-		damage: "30+",
-		cost: ["Grass", "Grass", "Grass"]
-	}],
-
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
+	],
 
 	retreat: 1,
-	regulationMark: "H"
-}
+	regulationMark: "H",
+	rarity: "Ultra Rare",
+	dexId: [1017],
 
-export default card
+	suffix: "EX",
+};
+
+export default card;

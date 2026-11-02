@@ -74,19 +74,33 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751656,
+				tcgplayer: 534507,
+				cardtrader: 274301
+			}
+		},
+	],
 
 	illustrator: "Souichirou Gunjima",
 
-	thirdParty: {
-		cardmarket: 751656
-	}
+	description: {
+		en: "If the tail-biting Shellder is thrown off in a harsh battle, this Pokémon reverts to being an ordinary Slowpoke.",
+		de: "Wenn das Muschas an seiner Rute in einem harten Kampf abfällt, wird Lahmus wieder zu Flegmon."
+	},
+
 }
 
 export default card

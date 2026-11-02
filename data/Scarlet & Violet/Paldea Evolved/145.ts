@@ -42,18 +42,40 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715620,
+				tcgplayer: 497660,
+				cardtrader: 248776
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715620,
+				tcgplayer: 497660,
+				cardtrader: 248776
+			}
+		},
+	],
 
 	illustrator: "Anesaki Dynamic",
 
-	thirdParty: {
-		cardmarket: 715620
-	}
+	description: {
+		en: "Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire.",
+		de: "Wer dieses friedfertige Pokémon verärgert, wird durch einen Biss mit seinen scharfen, giftgetränkten Schneidezähnen gelähmt."
+	},
 }
 
 export default card

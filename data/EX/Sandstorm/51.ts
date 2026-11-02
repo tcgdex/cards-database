@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		156,
-	],
+	dexId: [156],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Cyndaquil",
-		fr: "Héricendre"
+		fr: "Héricendre",
+		de: "Feurigel"
 	},
 
 	stage: "Stage1",
@@ -39,7 +38,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
-				de: "Slash"
+				de: "Schlitzer"
 			},
 
 			damage: 20,
@@ -54,12 +53,12 @@ const card: Card = {
 			name: {
 				en: "Burning Claw",
 				fr: "Griffe brûlante",
-				de: "Burning Claw"
+				de: "Feuerklaue"
 			},
 			effect: {
 				en: "You may discard a Fire Energy card attached to Quilava. If you do, the Defending Pokémon is now Burned.",
-				fr: "Vous pouvez défausser une carte Énergie  attachée à Feurisson. Dans ce cas, le Pokémon Défenseur est maintenant Brûlé.",
-				de: "You may discard a  Energy card attached to Quilava. If you do, the Defending Pokémon is now Burned."
+				fr: "Vous pouvez défausser une carte Énergie {R} attachée à Feurisson. Dans ce cas, le Pokémon Défenseur est maintenant Brûlé.",
+				de: "Du kannst eine {R}-Energiekarte, die an Igelavar angelegt ist, auf den Ablagestapel legen. Wenn du das machst, ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 			damage: 40,
 
@@ -76,23 +75,31 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275828,
-		tcgplayer: 88482
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275828,
+				tcgplayer: 88482
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275828,
+				tcgplayer: 88482
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 125131
+			}
 		},
-	]
+	],
+
 }
 
 export default card

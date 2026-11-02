@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hariyama"
+		en: "Hariyama",
+		fr: "Hariyama"
 	},
 
 	illustrator: "Scav",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Makuhita"
+		en: "Makuhita",
+		fr: "Makuhita"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Slapping Knockdown"
+			en: "Slapping Knockdown",
+			fr: "Paume Terrassante"
 		},
 
 		damage: 110,
 		cost: ["Fighting", "Fighting", "Fighting", "Colorless"],
 
 		effect: {
-			en: "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon."
+			en: "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.",
+			fr: "Avant d'infliger des dégâts, défaussez tous les Outils Pokémon du Pokémon Actif de votre adversaire."
 		}
 	}],
 

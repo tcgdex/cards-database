@@ -42,20 +42,27 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 794571,
+				tcgplayer: 589944
+			}
+		},
 	],
 
 	illustrator: "Kuroimori",
 
-	thirdParty: {
-		cardmarket: 794571
-	}
 }
 
 export default card

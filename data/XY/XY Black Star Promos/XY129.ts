@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -68,6 +68,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It's hypothesized that it's monitoring those those who destroy the ecosystem from deep in the cave where it lives.",
+	},
 
 	thirdParty: {
 		cardmarket: 553968

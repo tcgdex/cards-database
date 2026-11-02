@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Axew",
 		fr: "Coupenotte",
+		de: "Milza"
 	},
 
 	stage: "Stage1",
@@ -41,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 20,
@@ -54,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Dual Chop",
 				fr: "Double Baffe",
+				de: "Doppelhieb"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 30,
 
@@ -66,10 +70,34 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 280210,
-		tcgplayer: 85558
-	}
+	description: {
+		en: "Since a broken tusk will not grow back, they diligently sharpen their tusks on river rocks after they've been fighting.",
+		de: "Da seine Hauer nicht mehr nachwachsen, wetzt es sie nach einem Kampf sachte an den Felsen eines Flussbettes."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280210,
+				tcgplayer: 85558
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['player-rewards-program'],
+			thirdParty: {
+				cardmarket: 371589
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280210,
+				tcgplayer: 85558
+			}
+		},
+	],
 }
 
 export default card

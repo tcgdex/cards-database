@@ -47,23 +47,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "If this Pokémon senses a strong emotion, it will run away as fast as it can. It prefers areas without people."
+		en: "If this Pokémon senses a strong emotion, it will run away as fast as it can. It prefers areas without people.",
+		de: "Es liebt Orte, wo sonst niemand ist. Nimmt es starke Emotionen wahr, macht es sich so schnell es kann aus dem Staub."
 	},
 
-	thirdParty: {
-		cardmarket: 567179,
-		tcgplayer: 241732
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567179,
+				tcgplayer: 241732
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567179,
+				tcgplayer: 241732
+			}
+		},
+	],
 }
 
 export default card

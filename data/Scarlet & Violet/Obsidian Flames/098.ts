@@ -70,18 +70,48 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The tea that composes Polteageist's body has a distinct and enjoyable flavor. Drinking too much, however, can be fatal.",
+		de: "Sein aus Schwarztee bestehender Körper hat ein markantes, doch angenehmes Aroma. Übermäßiger Genuss kann aber zum Tod führen."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725178,
+				tcgplayer: 509931,
+				cardtrader: 255783
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725178,
+				tcgplayer: 509931,
+				cardtrader: 255783
+			}
+		},
+	],
 
 	illustrator: "Megumi Mizutani",
 
-	thirdParty: {
-		cardmarket: 725178
-	}
+	
 }
 
 export default card

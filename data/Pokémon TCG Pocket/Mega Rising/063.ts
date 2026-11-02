@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Tympole"
+		en: "Tympole",
+		fr: "Tritonde"
 	},
 
 	illustrator: "Mina Nakai",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Mud-Slap"
+			en: "Mud-Slap",
+			fr: "Coud'Boue"
 		},
 
 		damage: 30,

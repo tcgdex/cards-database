@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras'Face",
+				de: "Pfund"
 			},
 
 			damage: 20,
@@ -52,10 +53,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280673,
-		tcgplayer: 87439
-	}
+	description: {
+		en: "It takes pride in the speed at which it can use moves. What it loses in power, it makes up for in quantity.",
+		de: "Schnelle Angriffe sind seine Spezialität. Es gleicht seine Schwächen mit der Vielfalt seines Attackenrepertoires aus."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280674,
+				tcgplayer: 87439
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280674,
+				tcgplayer: 87439
+			}
+		},
+	],
 }
 
 export default card

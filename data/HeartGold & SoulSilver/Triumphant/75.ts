@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		353,
-	],
+	dexId: [353],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -36,9 +34,9 @@ const card: Card = {
 				de: "Aussetzer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 of the Defending Pokémon’s attacks. That Pokémon can’t use that attack during your opponent’s next turn.",
+				en: "Flip a coin. If heads, choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c’est face, choisissez l’une des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque pendant le prochain tour de votre adversaire.",
-				de: "Wirf eine Münze. Wähle bei \"Kopf\" 1 Angriff des Verteidigenden Pokémon. Das Pokémon kann den gewählten Angriff im nächsten Zug deines Gegners nicht einsetzen."
+				de: "Wirf eine Münze. Wähle bei „Kopf“ 1 Angriff des Verteidigenden Pokémon. Das Pokémon kann den gewählten Angriff im nächsten Zug deines Gegners nicht einsetzen."
 			},
 
 		},
@@ -77,20 +75,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It uses its horn to feed on envy and malice, or so it’s said. It’s very active at night."
+		en: "It uses its horn to feed on envy and malice, or so it’s said. It’s very active at night.",
+		de: "Man sagt, durch sein Horn ernähre es sich von Rachsucht und Neid. Erst nachts wird es richtig aktiv."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89202,
+				cardmarket: 279605
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279605,
+				tcgplayer: 89202
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279605,
-		tcgplayer: 89202
-	}
 }
 
 export default card

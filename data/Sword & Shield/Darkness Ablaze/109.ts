@@ -80,23 +80,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "While hunting for prey, Zweilous wanders its territory, its two heads often bickering over which way to go."
+		en: "While hunting for prey, Zweilous wanders its territory, its two heads often bickering over which way to go.",
+		de: "Es durchstreift sein Revier auf der Suche nach Beute. Die zwei Köpfe streiten sich oft darüber, welche Richtung sie einschlagen sollten."
 	},
 
-	thirdParty: {
-		cardmarket: 483424,
-		tcgplayer: 219422
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483424,
+				tcgplayer: 219422
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483424,
+				tcgplayer: 219422
+			}
+		},
+	],
 }
 
 export default card

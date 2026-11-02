@@ -1,48 +1,56 @@
-import { Card } from "../../../interfaces"
-import Set from "../S6H"
+import { Card } from "../../../interfaces";
+import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "白馬蕾冠王V"
+		ja: "はくばバドレックスV",
+		'zh-tw': "白馬蕾冠王V",
 	},
 
 	illustrator: "D.A.G Inc.",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Water"],
+
 	stage: "Basic",
-	suffix: "V",
 
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			'zh-tw': "五顏六色變化"
+	attacks: [
+		{
+			name: {
+				ja: "つきさす",
+				'zh-tw': "迴轉攻擊",
+			},
+			damage: 40,
+			cost: ["Water"],
 		},
-
-		effect: {
-			'zh-tw': "這隻寶可夢的屬性改為與這隻寶可夢身上附加的基本能量相同。（若身上附加的基本能量屬性有2種以上，則改為各自屬性。）"
-		}
-	}],
-
-	attacks: [{
-		name: {
-			'zh-tw': "迴轉攻擊"
+		{
+			name: { ja: "ブリザードランス" },
+			damage: 200,
+			cost: ["Water", "Water", "Colorless"],
+			effect: {
+				ja: "このポケモンについているエネルギーを2個選び、トラッシュする。",
+			},
 		},
+	],
 
-		damage: 90,
-		cost: ["Colorless", "Colorless", "Colorless"]
-	}],
+	weaknesses: [{ type: "Metal", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Metal",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 560443,
+				tcgplayer: 569159,
+			},
+		},
+	],
 
 	retreat: 2,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Double rare",
+	dexId: [898],
+};
 
-export default card
+export default card;

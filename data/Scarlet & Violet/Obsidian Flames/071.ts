@@ -44,18 +44,42 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It has no problem drinking dirty water. An organ inside Toxel's body filters such water into a poisonous liquid that is harmless to Toxel.",
+		de: "Es kann problemlos Schmutzwasser trinken. Ein Organ in seinem Körper filtert dieses zu einer giftigen Flüssigkeit, die ihm nichts anhaben kann."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725151,
+				tcgplayer: 509841,
+				cardtrader: 255631
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725151,
+				tcgplayer: 509841,
+				cardtrader: 255631
+			}
+		},
+	],
 
 	illustrator: "AKIRA EGAWA",
 
-	thirdParty: {
-		cardmarket: 725151
-	}
+	
 }
 
 export default card

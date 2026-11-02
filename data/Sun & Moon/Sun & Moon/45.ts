@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It crawls onto the land in search of food. Its water bubble allows it to breathe and protects its soft head.",
+		de: "Die Futtersuche treibt es an Land. Eine Wasserblase versorgt es mit Atemluft und schützt zugleich seinen weichen Kopf."
+	},
+
 	thirdParty: {
 		cardmarket: 295356,
 		tcgplayer: 126916

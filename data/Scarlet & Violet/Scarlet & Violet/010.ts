@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Spewpa",
-		fr: "Pérégrain"
+		fr: "Pérégrain",
+		de: "Puponcho"
 	},
 
 	stage: "Stage2",
@@ -63,14 +64,30 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "Atsuko Nishida",
+
+	description: {
+		en: "This Pokémon was born in a land where flowers bloom. It scatters colorful, toxic scales from its wings during battle.",
+		de: "Dieses Pokémon erblickte in Landen mit blühenden Blumen das Licht der Welt. Im Kampf verstreut es bunten, giftigen Flügelstaub."
+	},
 
 	thirdParty: {
         cardmarket: 702307,

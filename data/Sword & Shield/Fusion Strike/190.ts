@@ -29,12 +29,25 @@ const card: Card = {
 	},
 
 	stage: "Stage2",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Ryuta Fuse",
 
 	description: {
-		en: "With their great intellect and flying skills, these Pokémon very successfully act as the Galar region's airborne taxi service."
+		en: "With their great intellect and flying skills, these Pokémon very successfully act as the Galar region's airborne taxi service.",
+		de: "Aufgrund seiner unübertroffenen Flugfertigkeiten und seiner hohen Intelligenz ist es in der Galar-Region als Flugtaxi im Einsatz."
 	},
 
 	attacks: [{
@@ -83,17 +96,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582864,
-		tcgplayer: 253344
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582864,
+				tcgplayer: 253344
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582864,
+				tcgplayer: 253344
+			}
+		},
+	],
 }
 
 export default card

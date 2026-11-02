@@ -23,23 +23,29 @@ const card: Card = {
 		es: "Pon hasta 5 cartas de Energía Básica de tu pila de descartes en tu baraja y barájalas todas.",
 		it: "Rimischia fino a cinque carte Energia base dalla tua pila degli scarti nel tuo mazzo.",
 		pt: "Embaralhe até 5 cartas de Energia básica da sua pilha de descarte no seu baralho.",
-		de: "Mische bis zu 5 Basis-Energiekarten aus deinem Ablagestapel in dein Deck."
+		de: "Mische bis zu 5 Basis-Energiekarten aus deinem Ablagestapel in dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 545836,
-		tcgplayer: 234116
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545836,
+				tcgplayer: 234116
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545836,
+				tcgplayer: 234116
+			}
+		},
+	],
 }
 
 export default card

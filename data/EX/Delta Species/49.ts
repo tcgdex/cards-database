@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Metang δ",
 		fr: "Metang δ",
-		de: "Metang"
+		de: "Metang δ"
 	},
 
 	illustrator: "Hajime Kusajima",

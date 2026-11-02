@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), si este Pokémon tiene alguna Energía Fire Básica unida a él, puedes curarle 50 puntos de daño.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, se questo Pokémon ha delle Energie base Fire assegnate, puoi curarlo da 50 danni.",
 				pt: "Uma vez durante a sua vez de jogar (antes de atacar), se este Pokémon tiver alguma Energia Fire básica ligada a ele, você poderá curar 50 de danos dele.",
-				de: "Wenn an dieses Pokémon bereits mindestens 1 Fire-Basis-Energie angelegt ist, kannst du einmal während deines Zuges (vor deinem Angriff) 50 Schadenspunkte bei diesem Pokémon heilen."
+				de: "Wenn an dieses Pokémon bereits mindestens 1 {R}-Basis-Energie angelegt ist, kannst du einmal während deines Zuges (vor deinem Angriff) 50 Schadenspunkte bei diesem Pokémon heilen."
 			},
 		},
 	],

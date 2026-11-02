@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Braixen",
 		fr: "Roussil",
+		de: "Rutena"
 	},
 
 	stage: "Stage2",
@@ -92,6 +93,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Using psychic power, it generates a fiery vortex of 5,400 degree Fahrenheit, incinerating foes swept into this whirl of flame.",
+		de: "Mit seinen übernatürlichen Kräften kontrolliert es einen 3 000 °C heißen Flammenwirbel, mit dem es seine Gegner umhüllt und sie verbrennt."
+	},
 
 	thirdParty: {
 		cardmarket: 355537,

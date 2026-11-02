@@ -13,23 +13,28 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		148,
-	],
+	dexId: [148],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Dratini",
-		fr: "Minidraco"
+		fr: "Minidraco",
+		de: "Dratini"
 	},
 
 	stage: "Stage1",
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "x2"
+		},
+	],
 	attacks: [
 		{
 			cost: [
@@ -44,26 +49,31 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 20 damage times the number of heads.",
 				fr: "Lancez une pièce jusqu'à obtenir pile. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf eine Münze, bis du das erste Mal \"Zahl\" wirfst. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf eine Münze, bis du das erste Mal „Zahl“ wirfst. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 274950,
-		tcgplayer: 84898
-	},
+	retreat: 2,
 
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84898,
+				cardmarket: 274950
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 84898,
+				cardmarket: 274950
+			},
+		},
+	],
 }
 
 export default card

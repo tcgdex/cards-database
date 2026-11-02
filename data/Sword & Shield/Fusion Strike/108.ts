@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "nagimiso",
 
 	description: {
-		en: "It has an electrical organ on its chest. While generating electricity, it fills its surroundings with what sounds like the strumming of a bass guitar."
+		en: "It has an electrical organ on its chest. While generating electricity, it fills its surroundings with what sounds like the strumming of a bass guitar.",
+		de: "Wenn es mit speziellen Organen in seiner Brust Elektrizität erzeugt, erklingen dabei Geräusche, die an eine Bassgitarre erinnern."
 	},
 
 	abilities: [{
@@ -74,17 +81,23 @@ const card: Card = {
 		damage: 90
 	}],
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582500,
-		tcgplayer: 253264
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 582501,
+				tcgplayer: 253264
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582501,
+				tcgplayer: 253264
+			}
+		},
+	],
 }
 
 export default card

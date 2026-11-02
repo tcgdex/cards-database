@@ -70,6 +70,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
+		de: "Um gespeicherte Elektrizität zu teilen, reiben zwei von ihnen ihre Backentaschen aneinander."
+	},
+
 	thirdParty: {
 		cardmarket: 365718,
 		tcgplayer: 178889

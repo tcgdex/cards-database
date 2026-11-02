@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Voltorb",
 		fr: "Voltorbe",
+		de: "Voltobal"
 	},
 
 	stage: "Stage1",
@@ -41,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Static Shock",
 				fr: "Choc Statique",
+				de: "Statischer Schock"
 			},
 
 			damage: 20,
@@ -55,6 +57,7 @@ const card: Card = {
 			name: {
 				en: "Electro Ball",
 				fr: "Boule Élek",
+				de: "Elektroball"
 			},
 
 			damage: 60,
@@ -71,10 +74,27 @@ const card: Card = {
 
 	retreat: 0,
 
-	thirdParty: {
-		cardmarket: 280639,
-		tcgplayer: 85161
-	}
+	description: {
+		en: "It is known to drift on winds if it is bloated to bursting with stored electricity.",
+		de: "Es lässt sich vom Wind treiben, wenn es so voller Elektrizität ist, dass es fast explodiert."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280639,
+				tcgplayer: 85161
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280639,
+				tcgplayer: 85161
+			}
+		},
+	],
 }
 
 export default card

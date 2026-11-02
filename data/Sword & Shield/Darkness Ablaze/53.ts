@@ -84,23 +84,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Powerful legs and jaws made it the apex predator of its time. Its own overhunting of its prey was what drove it to extinction."
+		en: "Powerful legs and jaws made it the apex predator of its time. Its own overhunting of its prey was what drove it to extinction.",
+		de: "Dank der enormen Kraft seiner Beine und seines Kiefers war es in der Urzeit unbesiegbar, doch es fing seine Beute restlos weg und starb daher aus."
 	},
 
-	thirdParty: {
-		cardmarket: 483139,
-		tcgplayer: 219382
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 483139,
+				tcgplayer: 219382
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483139,
+				tcgplayer: 219382
+			}
+		},
+	],
 }
 
 export default card

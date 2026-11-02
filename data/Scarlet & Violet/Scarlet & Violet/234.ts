@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lechonk",
-		fr: "Gourmelet"
+		fr: "Gourmelet",
+		de: "Ferkuli"
 	},
 
 	stage: "Stage1",
@@ -72,14 +73,22 @@ const card: Card = {
 		damage: 210
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 
 	thirdParty: {

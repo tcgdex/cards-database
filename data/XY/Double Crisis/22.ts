@@ -12,6 +12,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [262, 306, 323, 343, 344],
 
 	dexId: [
 		335,
@@ -71,6 +72,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Can you handle the formation attack of the fearless Zangoose?",
+	},
 
 	thirdParty: {
 		cardmarket: 282533,

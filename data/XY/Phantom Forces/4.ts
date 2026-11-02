@@ -103,6 +103,11 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It prefers to battle by biting apart foes' heads instantly while flying by at high speed.",
+		de: "Seine bevorzugte Strategie besteht darin, seine Gegner aus dem Flug blitzartig zur Strecke zu bringen."
+	},
+
 	thirdParty: {
 		cardmarket: 281805,
 		tcgplayer: 94137

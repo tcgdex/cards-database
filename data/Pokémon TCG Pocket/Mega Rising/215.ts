@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Hitting Hammer"
+		en: "Hitting Hammer",
+		fr: "Maillet Cognant"
 	},
 
 	illustrator: "Toyste Beach",
@@ -13,7 +14,8 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		en: "Flip 2 coins. If both of them are heads, discard a random Energy from your opponent's Active Pokémon."
+		en: "Flip 2 coins. If both of them are heads, discard a random Energy from your opponent's Active Pokémon.",
+		fr: "Lancez 2 pièces. Si toutes sont côté face, défaussez au hasard une Énergie attachée au Pokémon Actif de votre adversaire."
 	},
 
 	trainerType: "Item",

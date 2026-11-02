@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		125,
-	],
+	dexId: [125],
 
 	hp: 70,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -53,7 +51,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, discard all Lightning Energy attached to Electabuzz.",
 				fr: "Lancez une pièce. Si c’est pile, défaussez toutes les cartes Énergie Lightning attachées à Elektek.",
-				de: "Wirf eine Münze. Bei \"Zahl\" lege alle an Elektek angelegten -Energien auf deinen Ablagestapel."
+				de: "Wirf eine Münze. Bei „Zahl“ lege alle an Elektek angelegten {L}-Energien auf deinen Ablagestapel."
 			},
 			damage: 60,
 
@@ -77,20 +75,27 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Its body constantly discharges electricity. Getting close to it will make your hair stand on end."
+		en: "Its body constantly discharges electricity. Getting close to it will make your hair stand on end.",
+		de: "Sein Körper entlädt sich ständig. Kommt man ihm zu nahe, stehen einem die Haare senkrecht vom Kopf ab."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85117,
+				cardmarket: 279563
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279563,
+				tcgplayer: 85117
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279563,
-		tcgplayer: 85117
-	}
 }
 
 export default card

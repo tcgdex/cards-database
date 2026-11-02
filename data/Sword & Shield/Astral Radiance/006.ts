@@ -4,6 +4,7 @@ import Set from "../Astral Radiance"
 const card: Card = {
 	dexId: [193],
 	set: Set,
+	cameoDexIds: [110, 129],
 
 	name: {
 		en: "Yanma",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Yanma"
 	},
 
+	illustrator: "OKACHEKE",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -35,20 +37,37 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Its frail wings are so thin that one can see clear through them. However, during flight these wings exhibit the power to churn air with force enough to launch a house skyward.",
+		de: "Seine zarten Flügel sind so dünn, dass man hindurchsehen kann. Beim Fliegen wirbelt es mit diesen jedoch einen starken Wind auf, der selbst ganze Häuser wegzufegen vermag."
 	},
 
-	thirdParty: {
-		cardmarket: 658494,
-		tcgplayer: 272206
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658494,
+				tcgplayer: 272206
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658494,
+				tcgplayer: 272206
+			}
+		},
+	],
 }
 
 export default card

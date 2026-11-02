@@ -37,8 +37,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Attach a Metal Energy card from your hand to Aron.",
-				fr: "Attachez une carte Énergie  de votre main à Galekid.",
-				de: "Lege eine -Energiekarte von deiner Hand an Stollunior an."
+				fr: "Attachez une carte Énergie {M} de votre main à Galekid.",
+				de: "Lege eine {M}-Energiekarte von deiner Hand an Stollunior an."
 			},
 
 		},

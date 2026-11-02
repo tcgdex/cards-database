@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Krokorok",
-		fr: "Escroco"
+		fr: "Escroco",
+		de: "Rokkaiman"
 	},
 
 	stage: "Stage2",
@@ -81,8 +82,18 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		holo: false
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
+
+	description: {
+		en: "After clamping down with its powerful jaws, it twists its body around to rip its prey in half.",
+		de: "Wenn es mit seinem mächtigen Kiefer zubeißt, zerteilt es seine Beute mit einer Drehung seines Körpers."
 	},
 
 	thirdParty: {

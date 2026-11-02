@@ -57,19 +57,33 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751714,
+				tcgplayer: 534755,
+				cardtrader: 274360
+			}
+		},
+	],
 
 	illustrator: "Souichirou Gunjima",
 
-	thirdParty: {
-		cardmarket: 751714
-	}
+	description: {
+		en: "Its elegant finishing moves—performed by nimbly leaping around using its wings—are polished in the forest where it was born and raised.",
+		de: "Mithilfe seiner Flügel springt es behände umher und erledigt Gegner so mit eleganten Attacken. Diese Technik trainiert es in seinem Heimatwald."
+	},
+
 }
 
 export default card

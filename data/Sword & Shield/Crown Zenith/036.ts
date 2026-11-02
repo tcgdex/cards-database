@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kyogre"
 	},
 
+	illustrator: "Kouki Saitou",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 140,
@@ -38,7 +39,7 @@ const card: Card = {
 			es: "Busca en tu baraja 1 carta de Energía Water y únela a este Pokémon. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo una carta Energia Water e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
 			pt: "Procure por 1 carta de Energia Water no seu baralho e ligue-a a este Pokémon. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach 1 Water-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+			de: "Durchsuche dein Deck nach 1 {W}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Water", "Water", "Water", "Colorless"],
@@ -62,20 +63,39 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "It is said to have widened the seas by causing downpours. It had been asleep in a marine trench.",
+		de: "Man sagt, es habe die Meere vergrößert, indem es es regnen ließ. Es schlief in einem Meeresgraben."
 	},
 
-	thirdParty: {
-		cardmarket: 691753,
-		tcgplayer: 478135
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691753,
+				tcgplayer: 478135
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691753,
+				tcgplayer: 478135
+			}
+		},
+	],
 }
 
 export default card

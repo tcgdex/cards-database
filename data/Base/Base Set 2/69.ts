@@ -57,15 +57,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273992,
-		tcgplayer: 42488
+
+	description: {
+		en: "Obviously prefers hot places. If it gets caught in the rain, steam is said to spout from the tip of its tail.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273992,
+				tcgplayer: 42488
+			}
 		}
 	]
 }

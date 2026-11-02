@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 70,
 	types: ["Grass"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Asako Ito",
 
 	description: {
-		en: "It uses its big jaws to dig nests into the forest floor, and it loves to feed on sweet tree sap."
+		en: "It uses its big jaws to dig nests into the forest floor, and it loves to feed on sweet tree sap.",
+		de: "Mit seinem großen Kiefer gräbt es sich seinen Bau im Waldboden. Zu seinen Leibspeisen gehört süßer Baumsaft."
 	},
 
 	attacks: [{
@@ -71,17 +78,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582064,
-		tcgplayer: 253098
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582064,
+				tcgplayer: 253098
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582064,
+				tcgplayer: 253098
+			}
+		},
+	],
 }
 
 export default card

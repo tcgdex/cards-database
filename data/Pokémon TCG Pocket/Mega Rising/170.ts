@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Honedge"
+		en: "Honedge",
+		fr: "Monorpale"
 	},
 
 	illustrator: "Suwama Chiaki",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Pierce"
+			en: "Pierce",
+			fr: "Transpercement"
 		},
 
 		damage: 20,

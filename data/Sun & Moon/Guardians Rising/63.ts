@@ -57,6 +57,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It loves working out. As it gazes at its muscles, which continue to swell day by day, it becomes more and more dedicated to its training.",
+		de: "Es liebt Muskelaufbautraining und verfolgt jeden Tag das Wachstum seiner Muskeln. Dies spornt es zu noch intensiverem Training an."
+	},
+
 	thirdParty: {
 		cardmarket: 297523,
 		tcgplayer: 130973

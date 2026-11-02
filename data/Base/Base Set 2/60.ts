@@ -59,15 +59,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273983,
-		tcgplayer: 42523
+
+	description: {
+		en: "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273983,
+				tcgplayer: 42523
+			}
 		}
 	]
 }

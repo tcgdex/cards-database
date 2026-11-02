@@ -29,12 +29,25 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Tika Matsuno",
 
 	description: {
-		en: "It drowses and dreams all the time. It's best to leave it be if it's just woken up, as it's a terrible grump when freshly roused from sleep."
+		en: "It drowses and dreams all the time. It's best to leave it be if it's just woken up, as it's a terrible grump when freshly roused from sleep.",
+		de: "Es schlummert und träumt immerzu. Wenn es geweckt wird, bekommt es schlechte Laune. Deshalb sollte man es lieber in Ruhe lassen."
 	},
 
 	attacks: [{
@@ -81,17 +94,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582647,
-		tcgplayer: 253299
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582647,
+				tcgplayer: 253299
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582647,
+				tcgplayer: 253299
+			}
+		},
+	],
 }
 
 export default card

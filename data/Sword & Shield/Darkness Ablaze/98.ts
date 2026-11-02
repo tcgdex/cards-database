@@ -85,23 +85,37 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Only Farfetch'd that have survived many battles can attain this evolution. When this Pokémon's leek withers, it will retire from combat."
+		en: "Only Farfetch'd that have survived many battles can attain this evolution. When this Pokémon's leek withers, it will retire from combat.",
+		de: "Porenta, die viele Schlachten überstanden haben, entwickeln sich zu Lauchzelot. Verwelkt seine Lauchstange, zieht es sich vom Kämpfen zurück."
 	},
 
-	thirdParty: {
-		cardmarket: 483369,
-		tcgplayer: 219495
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483369,
+				tcgplayer: 219495
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cracked-ice',
+			thirdParty: {
+				cardmarket: 547936
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483369,
+				tcgplayer: 219495
+			}
+		},
+	],
 }
 
 export default card

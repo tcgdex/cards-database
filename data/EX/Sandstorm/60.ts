@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		206,
-	],
+	dexId: [206],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Search your deck for up to 3 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward. You may switch Dunsparce with 1 of your Benched Pokémon.",
 				fr: "Choisissez dans votre deck jusqu'à trois Pokémon de base et placez-les sur votre Banc. Ensuite, mélangez votre deck. Vous pouvez échanger Insolourdo contre un des Pokémon de votre Banc.",
-				de: "Durchsuche dein Deck nach bis zu 3 Basis-Pokémon und lege sie auf deine Bank. Mische dein Deck danach. Du kannst Dummisel gegen ein Pokémon auf deiner Bank austauschen."
+				de: "Durchsuche deine Deck nach bis zu 3 Basis-Pokémon und lege sie auf deine Bank. Mische dein Deck danach. Du kannst Dummisel gegen 1 der Pokémon auf deiner Bank austauschen."
 			},
 
 		},
@@ -54,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, each Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, chaque Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -71,43 +69,71 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275837,
-		tcgplayer: 85008
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275837,
+				tcgplayer: 85008
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275837,
+				tcgplayer: 85008
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 125154
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["chris-fulop"]
+			stamp: ["chris-fulop"],
+			thirdParty: {
+				cardmarket: 871809,
+				tcgplayer: 477380
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["reed-weichler"]
+			stamp: ["reed-weichler"],
+			thirdParty: {
+				cardmarket: 871811,
+				tcgplayer: 477381
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["kevin-nguyen"]
+			stamp: ["kevin-nguyen"],
+			thirdParty: {
+				cardmarket: 871810,
+				tcgplayer: 477382
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["takashi-yoneda"]
+			stamp: ["takashi-yoneda"],
+			thirdParty: {
+				cardmarket: 871534,
+				tcgplayer: 477517
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["michael-gonzalez"]
+			stamp: ["michael-gonzalez"],
+			thirdParty: {
+				cardmarket: 871533,
+				tcgplayer: 477518
+			}
 		}
-	]
+	],
+
 }
 
 export default card

@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Groudon ex",
 		fr: "Groudon ex",
-		de: "Groudon ex"
+		de: "Groudon-ex"
 	},
 
 	illustrator: "Takabon",
@@ -23,7 +23,7 @@ const card: Card = {
 		"Fighting",
 	],
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{

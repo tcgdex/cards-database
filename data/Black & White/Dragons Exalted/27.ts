@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Add-a-Dash",
 				fr: "Rallonge",
+				de: "Noch eine Prise"
 			},
 			effect: {
 				en: "Flip 2 coins. For each heads, draw a card.",
 				fr: "Lancez 2 pièces. Pour chaque côté face, piochez une carte.",
+				de: "Wirf 2 Münzen. Ziehe pro „Kopf“ 1 Karte."
 			},
 
 		},
@@ -54,10 +56,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280466,
-		tcgplayer: 85406
-	}
+	description: {
+		en: "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water.",
+		de: "Ein schäbiges, ja sogar hässliches Pokémon. Dafür ist es abgehärtet und überlebt mit wenig Wasser."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280466,
+				tcgplayer: 85406
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280466,
+				tcgplayer: 85406
+			}
+		},
+	],
 }
 
 export default card

@@ -87,6 +87,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When angered, it spouts brilliant fire from all over its body. It doesn't calm down until its opponent has burned to ash.",
+		de: "Ist es wütend, stößt es glühend heiße Flammen aus. Es hört damit erst auf, wenn von seinem Gegner nur noch Asche übrig ist."
+	},
+
 	thirdParty: {
 		cardmarket: 315949,
 		tcgplayer: 157635

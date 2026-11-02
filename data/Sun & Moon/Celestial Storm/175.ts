@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Scyther",
 		fr: "Insécateur",
+		de: "Sichlor"
 	},
 
 	suffix: "GX",
@@ -92,7 +93,7 @@ const card: Card = {
 				es: "Atajar GX",
 				it: "Fendente Incrociato-GX",
 				pt: "Corte em Cruz GX",
-				de: "Überkreuzzerschneider GX"
+				de: "Überkreuzzerschneider-GX"
 			},
 			effect: {
 				en: "If your opponent’s Active Pokémon is an Evolution Pokémon, this attack does 100 more damage. (You can’t use more than 1 GX attack in a game.)",

@@ -12,6 +12,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [335],
 
 	dexId: [
 		336,
@@ -71,6 +72,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Seviper's tail is a sharp blade. It can even poison you!",
+	},
 
 	thirdParty: {
 		cardmarket: 282520,

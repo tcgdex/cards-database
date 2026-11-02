@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		117,
-	],
+	dexId: [117],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Horsea",
-		fr: "Hypotrempe"
+		fr: "Hypotrempe",
+		de: "Seeper"
 	},
 
 	stage: "Stage1",
@@ -56,9 +55,9 @@ const card: Card = {
 				de: "Wassergeschoss"
 			},
 			effect: {
-				en: "Flip a number of coins equal to the number of Energy attached to Seadra. This attack does 30 damage plus 10 more damage for each heads.",
-				fr: "Lancez un nombre de pièces équivalent au nombre d'Énergies  attachées à Hypocéan. Cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque face.",
-				de: "Wirf so viele Münzen, wie -Energie an Seemon angelegt ist. Dieser Angriff fügt 30 Schadenpunkte plus 10 weitere Schadenspunkte pro geworfenem 'Kopf' zu."
+				en: "Flip a number of coins equal to the number of Water Energy attached to Seadra. This attack does 30 damage plus 10 more damage for each heads.",
+				fr: "Lancez un nombre de pièces équivalent au nombre d'Énergies {W} attachées à Hypocéan. Cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque face.",
+				de: "Wirf so viele Münzen, wie {W}-Energie an Seemon angelegt ist. Dieser Angriff fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte pro geworfenem „Kopf“ zu."
 			},
 			damage: "30+",
 
@@ -68,22 +67,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275131,
-		tcgplayer: 89010
-	},
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89010,
+				cardmarket: 275131
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 89010,
+				cardmarket: 275131
+			}
+		},
 	]
 }
 

@@ -88,23 +88,30 @@ const card: Card = {
 	types: ["Psychic"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "When it trusts a Trainer, it will treat them to berries it's decorated with cream."
+		en: "When it trusts a Trainer, it will treat them to berries it's decorated with cream.",
+		de: "Es macht einem Trainer, dem es vertraut, mit Beeren samt Sahnedekoration eine Freude."
 	},
 
-	thirdParty: {
-		cardmarket: 457853,
-		tcgplayer: 213173
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457853,
+				tcgplayer: 213173
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457853,
+				tcgplayer: 213173
+			}
+		},
+	],
 }
 
 export default card

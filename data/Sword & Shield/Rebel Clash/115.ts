@@ -84,23 +84,30 @@ const card: Card = {
 	types: ["Darkness"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "In its belly, it reserves stinky fluid that it shoots from its tail during battle. As this Pokémon's diet varies, so does the stench of its fluid."
+		en: "In its belly, it reserves stinky fluid that it shoots from its tail during battle. As this Pokémon's diet varies, so does the stench of its fluid.",
+		de: "In seinem Magen speichert es eine stinkende Flüssigkeit, die es im Kampf aus seinem Schweif sprüht. Ihr Geruch hängt von seiner Nahrung ab."
 	},
 
-	thirdParty: {
-		cardmarket: 457983,
-		tcgplayer: 213207
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457983,
+				tcgplayer: 213207
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457983,
+				tcgplayer: 213207
+			}
+		},
+	],
 }
 
 export default card

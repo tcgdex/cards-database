@@ -25,10 +25,16 @@ const card: Card = {
 		es: "Gengar V",
 		it: "Gengar-V",
 		pt: "Gengar V",
-		de: "Gengar-V"
+		de: "Gengar VMAX"
 	},
 
 	stage: "VMAX",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "sowsow",
@@ -79,17 +85,16 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 583024,
-		tcgplayer: 253266
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 583024,
+				tcgplayer: 253266
+			}
+		},
+	],
 }
 
 export default card

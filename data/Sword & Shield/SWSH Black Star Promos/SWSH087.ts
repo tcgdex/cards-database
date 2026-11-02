@@ -16,7 +16,7 @@ const card: Card = {
 		it: "Eevee VMAX"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	dexId: [133],
 	hp: 300,
 	types: ["Colorless"],
@@ -61,18 +61,17 @@ const card: Card = {
 
 	retreat: 2,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 540656
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 540656,
+				tcgplayer: 232611
+			}
+		},
+	],
 }
 
 export default card

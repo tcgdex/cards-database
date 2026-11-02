@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		153,
-	],
+	dexId: [153],
 
 	hp: 90,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Chikorita",
 		fr: "Germignon",
+		de: "Endivie"
 	},
 
 	stage: "Stage1",
@@ -78,22 +77,27 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "A spicy aroma emanates from around its neck. The aroma acts as a stimulant to restore health."
+		en: "A spicy aroma emanates from around its neck. The aroma acts as a stimulant to restore health.",
+		de: "Ein würziges Aroma geht von seinen Blättern aus. Das Aroma soll gesundheitsfördernd sein."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83748,
+				cardmarket: 279007
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83748,
+				cardmarket: 279007
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279007,
-		tcgplayer: 83748
-	}
 }
 
 export default card

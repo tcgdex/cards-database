@@ -91,23 +91,30 @@ const card: Card = {
 	types: ["Metal"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Honedge evolves into twins. The two blades rub together to emit a metallic sound that unnerves opponents."
+		en: "Honedge evolves into twins. The two blades rub together to emit a metallic sound that unnerves opponents.",
+		de: "Bei der Entwicklung hat es sich verdoppelt. Es reibt seine Klingen aneinander, um Gegner mit einem metallenen Geräusch einzuschüchtern."
 	},
 
-	thirdParty: {
-		cardmarket: 458068,
-		tcgplayer: 213230
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458068,
+				tcgplayer: 213230
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458068,
+				tcgplayer: 213230
+			}
+		},
+	],
 }
 
 export default card

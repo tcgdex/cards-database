@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SV1V"
 
 const card: Card = {
+	evolveFrom: { ja: "ヤドン" },
 	set: Set,
 
 	name: {
@@ -70,12 +71,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardtrader: 235597,
+				cardmarket: 693094,
+				tcgplayer: 568246,
+			},
+		},
+	],
+
 	retreat: 3,
 	regulationMark: "G",
-
-	thirdParty: {
-		cardmarket: 693094
-	}
 }
 
 export default card

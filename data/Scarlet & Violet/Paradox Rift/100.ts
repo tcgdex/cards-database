@@ -68,25 +68,36 @@ const card: Card = {
 			es: "Descarta 3 Energías {L} de tus Pokémon.",
 			it: "Scarta tre Energie {L} dai tuoi Pokémon.",
 			pt: "Descarte 3 Energias {L} dos seus Pokémon.",
-			de: "Lege 3 {L}-Energien von deinen Pokémon auf deinen Ablagestapel."
+			de: "Lege 3 Energien von deinen Pokémon auf deinen Ablagestapel."
 		},
 
 		damage: 270
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740614,
+				tcgplayer: 523770,
+				cardtrader: 265210
+			}
+		},
+	],
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 
-	thirdParty: {
-		cardmarket: 740614
-	}
+	
 }
 
 export default card

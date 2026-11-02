@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 70,
 	types: ["Colorless"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Mitsuhiro Arita",
 
 	description: {
-		en: "It draws symbols with the fluid that oozes from the tip of its tail. Depending on the symbol, Smeargle fanatics will pay big money for them."
+		en: "It draws symbols with the fluid that oozes from the tip of its tail. Depending on the symbol, Smeargle fanatics will pay big money for them.",
+		de: "Mit der Flüssigkeit, die aus seiner Schweifspitze austritt, hinterlässt es Markierungen. Die besten werden unter Fans zu hohen Preisen gehandelt."
 	},
 
 	attacks: [{
@@ -62,17 +69,23 @@ const card: Card = {
 		damage: 80
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582944,
-		tcgplayer: 253305
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582944,
+				tcgplayer: 253305
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582944,
+				tcgplayer: 253305
+			}
+		},
+	],
 }
 
 export default card

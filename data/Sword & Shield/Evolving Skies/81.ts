@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Hitmonchan",
@@ -79,16 +73,29 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its punches slice the air. However, it seems to need a short break after fighting for three minutes."
+		en: "Its punches slice the air. However, it seems to need a short break after fighting for three minutes.",
+		de: "Seine Fäuste zerschneiden die Luft. Es muss jedoch alle drei Minuten eine kurze Pause einlegen."
 	},
 
 	dexId: [107],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574129,
-		tcgplayer: 246871
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574129,
+				tcgplayer: 246871
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574129,
+				tcgplayer: 246871
+			}
+		},
+	],
 }
 
 export default card

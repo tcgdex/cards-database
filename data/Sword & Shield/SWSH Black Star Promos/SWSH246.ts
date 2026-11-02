@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Weavile"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 110,
 	types: ["Darkness"],
@@ -65,16 +65,28 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
 	description: {
 		en: "They attack their quarry in packs. Prey as large as Mamoswine easily fall to the teamwork of a group of Weavile."
 	},
-
-	thirdParty: {
-		cardmarket: 665989
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 665989,
+				tcgplayer: 285262
+			}
+		},
+	],
 }
 
 export default card

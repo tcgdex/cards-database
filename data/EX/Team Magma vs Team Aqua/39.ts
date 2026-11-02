@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		1,
-	],
+	dexId: [1],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Growth",
 				fr: "Croissance",
-				de: "Growth"
+				de: "Wachstum"
 			},
 			effect: {
 				en: "Attach a Grass Energy card from your hand to Bulbasaur.",
 				fr: "Attachez une carte Énergie  de votre main à Bulbizarre.",
-				de: "Attach a  Energy card from your hand to Bulbasaur."
+				de: "Lege eine {G}-Energiekarte von deiner Hand an Bisasam an."
 			},
 
 		},
@@ -49,7 +47,7 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch'herbe",
-				de: "Razor Leaf"
+				de: "Rasierblatt"
 			},
 
 			damage: 10,
@@ -64,22 +62,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276016,
-		tcgplayer: 84028
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275816,
+				tcgplayer: 84028
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275816,
+				tcgplayer: 84028
+			}
+		},
+	],
+
 }
 
 export default card

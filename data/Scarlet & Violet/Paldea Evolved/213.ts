@@ -65,19 +65,38 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715688,
+				tcgplayer: 497616,
+				cardtrader: 248863
+			}
+		},
+	],
 
 	illustrator: "SIE NANAHARA",
 
-	thirdParty: {
-		cardmarket: 715688
-	}
+	description: {
+		en: "This Pokémon will hypnotize children to put them to sleep before carrying them away. Be wary of nights when the starlight is bright.",
+		de: "Es lullt Kinder mittels Hypnose in den Schlaf und entführt sie. In sternklaren Nächten ist besondere Vorsicht geboten."
+	},
 }
 
 export default card

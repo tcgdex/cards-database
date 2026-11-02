@@ -72,18 +72,40 @@ const card: Card = {
 		damage: "40×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715621,
+				tcgplayer: 497661,
+				cardtrader: 248798
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715621,
+				tcgplayer: 497661,
+				cardtrader: 248798
+			}
+		},
+	],
 
 	illustrator: "Souichirou Gunjima",
 
-	thirdParty: {
-		cardmarket: 715621
-	}
+	description: {
+		en: "The color of the poisonous saliva depends on what the Pokémon eats. Grafaiai covers its fingers in its saliva and draws patterns on trees in forests.",
+		de: "Es beschmiert seine Finger mit giftigem Speichel, der je nach Futter anders gefärbt ist, und malt damit Muster auf die Bäume im Wald."
+	},
 }
 
 export default card

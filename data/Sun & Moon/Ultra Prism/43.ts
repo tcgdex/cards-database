@@ -89,6 +89,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Electricity leaks from it in amounts far greater than the amount of electricity it eats.",
+		de: "Die Menge an Elektrizität, die aus seinem Körper austritt, ist sehr viel größer als jene, die es über seine Nahrung zu sich nimmt."
+	},
+
 	thirdParty: {
 		cardmarket: 315973,
 		tcgplayer: 157660

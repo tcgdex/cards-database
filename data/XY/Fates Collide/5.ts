@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They photosynthesize by bathing their tails in sunlight. When they are not feeling well, their tails droop.",
+		de: "Fängt mit dem Schweif Sonnenlicht auf, um Photosynthese zu betreiben. Fehlt ihm die Kraft, hängt sein Schweif schlaff herab."
+	},
+
 	thirdParty: {
 		cardmarket: 289831,
 		tcgplayer: 117768

@@ -77,7 +77,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "This Pokémon is very popular as a herding dog in the Galar region. As it runs, it generates electricity from the base of its tail."
+		en: "This Pokémon is very popular as a herding dog in the Galar region. As it runs, it generates electricity from the base of its tail.",
+		de: "Beim Rennen erzeugt es Elektrizität in seinem Schwanzansatz. In der Galar-Region erfreut es sich bei Hirten großer Beliebtheit."
 	},
 
 	dexId: [835],

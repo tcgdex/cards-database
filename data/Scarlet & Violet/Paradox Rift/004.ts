@@ -64,18 +64,42 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It's good at finding berries and gathers them from all over. It's kind enough to share them with friends.",
+		de: "Ein nettes Kerlchen, das so talentiert darin ist, Beeren aufzuspüren, dass es sie mit all seinen Kameraden teilt."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740480,
+				tcgplayer: 523603,
+				cardtrader: 265010
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740480,
+				tcgplayer: 523603,
+				cardtrader: 265010
+			}
+		},
+	],
 
 	illustrator: "Jerky",
 
-	thirdParty: {
-		cardmarket: 740480
-	}
+	
 }
 
 export default card

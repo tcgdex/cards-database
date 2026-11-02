@@ -4,7 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Baxcalibur",
+		fr: "Glaivodo",
+		en: "Baxcalibur",
+		es: "Baxcalibur",
+		it: "Baxcalibur",
+		pt: "Baxcalibur",
+		de: "Espinodon"
   },
   illustrator: "Oswaldo KATO",
   rarity: "Three Diamond",
@@ -13,7 +18,12 @@ const card: Card = {
   types: ["Water"],
   dexId: [998],
   evolveFrom: {
-    en: "Arctibax",
+		fr: "Cryodo",
+		en: "Arctibax",
+		es: "Arctibax",
+		it: "Arctibax",
+		pt: "Arctibax",
+		de: "Cryospino"
   },
   description: {
     en: "It launches itself into battle by flipping upside down and spewing frigid air from its mouth. It finishes opponents off with its dorsal blade.",
@@ -33,7 +43,12 @@ const card: Card = {
   attacks: [
     {
       name: {
+        fr: "Queue Destructrice",
         en: "Buster Tail",
+        es: "Cola Destructora",
+        it: "Coda Distruttrice",
+        pt: "Cauda Aniquiladora",
+        de: "Zertrümmernder Schweif"
       },
       damage: "90",
       cost: ["Water", "Water", "Water"],

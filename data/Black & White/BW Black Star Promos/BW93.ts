@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Umbreon",
 		fr: "Noctali",
 	},
-	illustrator: "Illus.＆Direc.The Pokémon Company Art Team",
+	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
 	rarity: "Common",
 	category: "Pokemon",
 
@@ -76,6 +76,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "When exposed to the moon's aura, the rings on its body glow faintly and it gains a mysterious power.",
+	},
 }
 
 export default card

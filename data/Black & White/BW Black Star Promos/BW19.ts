@@ -75,6 +75,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.",
+	},
 }
 
 export default card

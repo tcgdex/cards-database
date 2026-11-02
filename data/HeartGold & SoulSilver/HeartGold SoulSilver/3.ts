@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Masakazu Fukuda",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		36,
-	],
+	dexId: [36],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Clefairy",
 		fr: "Mélofée",
+		de: "Piepi"
 	},
 
 	stage: "Stage1",
@@ -74,22 +73,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "With its acute hearing, it can pick up sounds from far away. It usually hides in quiet places."
+		en: "With its acute hearing, it can pick up sounds from far away. It usually hides in quiet places.",
+		de: "Mit seinem sensiblen Gehör nimmt es entfernte Geräusche wahr. Es versteckt sich an ruhigen Orten."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 84346,
+				cardmarket: 278975
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84346,
+				cardmarket: 278975
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278975,
-		tcgplayer: 84346
-	}
 }
 
 export default card

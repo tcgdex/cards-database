@@ -78,6 +78,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "To corner prey, they check each other's location using barks that only they can understand.",
+		de: "Sie treiben ihre Beute in die Enge und orientieren sich dabei anhand ihres Bellens, das nur sie verstehen."
+	},
+
 	thirdParty: {
 		cardmarket: 365685,
 		tcgplayer: 178850

@@ -4,6 +4,7 @@ import Set from "../Prismatic Evolutions"
 const card: Card = {
 	dexId: [136],
 	set: Set,
+	cameoDexIds: [1024],
 
 	name: {
 		en: "Flareon ex",
@@ -74,19 +75,27 @@ const card: Card = {
 		damage: 280
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: true,
-		normal: false
-	},
-
+	suffix: "ex",
 	illustrator: "Nurikabe",
 
-	thirdParty: {
-		cardmarket: 805540
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 805540,
+				tcgplayer: 610501
+			}
+		},
+	],
 }
 
 export default card

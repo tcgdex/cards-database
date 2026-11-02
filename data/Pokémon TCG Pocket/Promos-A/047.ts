@@ -22,7 +22,9 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Staravia"
+		en: "Staravia",
+		fr: "Étourvol",
+		de: "Staravia"
 	},
 
 	description: {
@@ -30,7 +32,7 @@ const card: Card = {
 		fr: "Quand Étourvol évolue en Étouraptor, il quitte son groupe\npour vivre seul. Ses ailes sont très souples et puissantes.",
 		es: "Al evolucionar a Staraptor, deja su bandada y\npasa a vivir en soledad. Sus alas son inmensas.",
 		it: "Non appena si evolve, lascia lo stormo e affronta la\nvita da solo. Le sue ali sono estremamente robuste.",
-		de: "Entwickelt sich Staravia zu Staraptor, verlässt es\nden Schwarm und lebt allein. Die Spannweite\nseiner Flügel ist gigantisch.",
+		de: "Entwickelt sich Staravia zu Staraptor, verlässt es den Schwarm und lebt allein. Die Spannweite seiner Flügel ist gigantisch.",
 		ko: "찌르호크가 되면 무리에서\n떨어져 혼자서 살아간다.\n강인한 날개를 가지고 있다.",
 		'pt-br': "Quando um Staravia evolui para Staraptor,\ndeixa o bando para viver sozinho. Têm asas robustas."
 	},
@@ -74,7 +76,7 @@ const card: Card = {
 			fr: "Ce Pokémon subit − 30 dégâts provenant des attaques des Pokémon {F}.",
 			es: "Los ataques de Pokémon {F} hacen -30 puntos de daño a este Pokémon.",
 			it: "Questo Pokémon subisce -30 danni dagli attacchi dei Pokémon {F}.",
-			de: "Diesem Pokémon werden durch Attacken von {F}-Pokémon − 30 Schadenspunkte zugefügt.",
+			de: "Diesem Pokémon werden durch Attacken von {F}-Pokémon - 30 Schadenspunkte zugefügt.",
 			ko: "이 포켓몬이 {F}포켓몬으로부터 받는 기술의 데미지를 -30한다.",
 			'pt-br': "Este Pokémon recebe −30 pontos de dano de ataques de Pokémon {F}."
 		}

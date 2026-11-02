@@ -33,7 +33,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
-				de: "Bite"
+				de: "Biss"
 			},
 
 			damage: 10,
@@ -48,13 +48,13 @@ const card: Card = {
 			name: {
 				en: "Poison Sting",
 				fr: "Dard-venin",
-				de: "Poison Sting"
+				de: "Giftstachel"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 			damage: 20
@@ -67,25 +67,33 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Un carnivore qui avale ses proies en entier. Roucool et Piafabec sont ses plats favoris."
+		en: "A carnivore that swallows its prey whole. Pidgeys and Spearows are its favorite food.",
+		fr: "Un carnivore qui avale ses proies en entier. Roucool et Piafabec sont ses plats favoris.",
+		de: "Ein Fleischfresser, der seine Beute ganz verschlingt. Taubsis und Habitaks sind sein Lieblingsfutter."
 	},
 
-	thirdParty: {
-		cardmarket: 274109,
-		tcgplayer: 85099
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274109,
+				tcgplayer: 85099
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
-		}
-	]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274109,
+				tcgplayer: 85099
+			}
+		},
+	],
 }
 
 export default card

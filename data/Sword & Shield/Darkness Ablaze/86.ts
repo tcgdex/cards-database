@@ -69,23 +69,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil."
+		en: "Born deep underground, it comes aboveground and becomes a pupa once it has finished eating the surrounding soil.",
+		de: "Sie schlüpfen tief unter der Erde und fressen sich durch das Erdreich bis zur Oberfläche durch, wo sie sich verpuppen."
 	},
 
-	thirdParty: {
-		cardmarket: 483309,
-		tcgplayer: 219474
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483309,
+				tcgplayer: 219474
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483309,
+				tcgplayer: 219474
+			}
+		},
+	],
 }
 
 export default card

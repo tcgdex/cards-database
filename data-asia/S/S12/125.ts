@@ -15,6 +15,16 @@ const card: Card = {
 		ja: "おたがいのプレイヤーは、それぞれ、手札からたねポケモンをベンチに出すたび、そのポケモンにダメカンを2個のせる。"
 	},
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 680859,
+				tcgplayer: 570183,
+			},
+		},
+	],
+
 	trainerType: "Stadium"
 }
 

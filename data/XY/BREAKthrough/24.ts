@@ -56,7 +56,7 @@ const card: Card = {
 				es: "Pon 3 cartas de Energía Water de tu pila de descartes en tu mano.",
 				it: "Prendi tre carte Energia Water dalla tua pila degli scarti e aggiungile alle carte che hai in mano.",
 				pt: "Coloque 3 cards de Energia Water da sua pilha de descarte em sua mão.",
-				de: "Nimm 3 Water-Energiekarten von deinem Ablagestapel auf deine Hand."
+				de: "Nimm 3 {W}-Energiekarten von deinem Ablagestapel auf deine Hand."
 			},
 
 		},
@@ -94,6 +94,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "When it gets excited, embers rise from its head and tail and it gets hot. For some reason, it loves sweets.",
+		de: "Freut es sich, erhitzt sich sein Körper und aus seinem Kopf und Schweif sprühen Funken. Es liebt Süßigkeiten."
+	},
 
 	thirdParty: {
 		cardmarket: 286270,

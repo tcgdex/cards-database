@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		448,
-	],
+	dexId: [448],
 
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Riolu",
 		fr: "Riolu",
+		de: "Riolu"
 	},
 
 	stage: "Stage1",
@@ -41,7 +40,7 @@ const card: Card = {
 				de: "Protzer"
 			},
 			effect: {
-				en: "During your next turn, each of Lucario’s attacks does 30 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
+				en: "During your next turn, each of Lucario's attacks does 30 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
 				fr: "Lors de votre prochain tour, chaque attaque de Lucario inflige 30 dégâts supplémentaires au Pokémon Défenseur (avant application de la Faiblesse et de la Résistance).",
 				de: "In deinem nächsten Zug fügen Lucarios Angriffe dem Verteidigenden Pokémon 30 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
@@ -74,22 +73,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It’s said that no foe can remain invisible to Lucario, since it can detect auras, even foes it could not otherwise see."
+		en: "It’s said that no foe can remain invisible to Lucario, since it can detect auras, even foes it could not otherwise see.",
+		de: "Man sagt, es sei fähig, die Aura anderer Pokémon zu sehen. So kann es unsichtbare Gegner ausmachen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86880,
+				cardmarket: 279175
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86880,
+				cardmarket: 279175
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279175,
-		tcgplayer: 86880
-	}
 }
 
 export default card

@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Beat",
 				fr: "Bataille",
+				de: "Verprügler"
 			},
 
 			damage: 10,
@@ -50,6 +51,7 @@ const card: Card = {
 			name: {
 				en: "Magma Punch",
 				fr: "Poing Magma",
+				de: "Magmahieb"
 			},
 
 			damage: 50,
@@ -66,10 +68,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 280459,
-		tcgplayer: 87053
-	}
+	description: {
+		en: "When it breathes deeply, heat waves form around its body, making it hard to see clearly.",
+		de: "Atmet es tief ein, bilden sich Hitzewellen um seinen Körper, was wiederum die Sicht beeinträchtigt."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280459,
+				tcgplayer: 87053
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280459,
+				tcgplayer: 87053
+			}
+		},
+	],
 }
 
 export default card

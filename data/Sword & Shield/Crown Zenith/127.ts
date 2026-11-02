@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Energie-Zugewinn"
 	},
 
+	illustrator: "Ryo Ueda",
 	rarity: "Common",
 	category: "Trainer",
 
@@ -27,17 +28,25 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691846,
-		tcgplayer: 478174
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691846,
+				tcgplayer: 478174
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691846,
+				tcgplayer: 478174
+			}
+		},
+	],
 }
 
 export default card

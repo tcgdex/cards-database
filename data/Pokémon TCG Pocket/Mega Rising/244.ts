@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Honchkrow"
+		en: "Honchkrow",
+		fr: "Corboss"
 	},
 
 	illustrator: "IKEDA Saki",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Murkrow"
+		en: "Murkrow",
+		fr: "Cornèbre"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Evil Admonition"
+			en: "Evil Admonition",
+			fr: "Réprimande Maléfique"
 		},
 
 		damage: 40,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "This attack does 40 more damage for each of your opponent's Pokémon in play that has an Ability."
+			en: "This attack does 40 more damage for each of your opponent's Pokémon in play that has an Ability.",
+			fr: "Cette attaque inflige 40 dégâts supplémentaires pour chacun des Pokémon de votre adversaire en jeu ayant un talent."
 		}
 	}],
 

@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Glaziola GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	suffix: "GX",
@@ -87,7 +88,7 @@ const card: Card = {
 				es: "Lanza Polar GX",
 				it: "Lancia Polare GX",
 				pt: "Lança Polar GX",
-				de: "Polarspeer GX"
+				de: "Polarspeer-GX"
 			},
 			effect: {
 				en: "This attack does 50 damage for each damage counter on your opponent’s Active Pokémon. (You can’t use more than 1 GX attack in a game.)",
@@ -110,8 +111,15 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 364216,
+				tcgplayer: 177111
+			}
+		}
+	],
 }
 
 export default card

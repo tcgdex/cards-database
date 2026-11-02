@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 60,
 	types: ["Darkness"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Eri Yamaki",
 
 	description: {
-		en: "Thought to be the oldest form of Zigzagoon, it moves in zigzags and wreaks havoc upon its surroundings."
+		en: "Thought to be the oldest form of Zigzagoon, it moves in zigzags and wreaks havoc upon its surroundings.",
+		de: "Es hinterlässt überall ein riesiges Chaos, indem es sich im Zickzack bewegt. Hierbei handelt es sich offenbar um die älteste Form von Zigzachs."
 	},
 
 	attacks: [{
@@ -51,17 +58,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582787,
-		tcgplayer: 253373
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582787,
+				tcgplayer: 253373
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582787,
+				tcgplayer: 253373
+			}
+		},
+	],
 }
 
 export default card

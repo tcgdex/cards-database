@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Kabutops δ",
 		fr: "Kabutops δ",
-		de: "Kabutops"
+		de: "Kabutops δ"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Kabuto",
-		fr: "Kabuto"
+		fr: "Kabuto",
+		de: "Kabuto"
 	},
 
 	stage: "Stage2",
@@ -63,7 +64,7 @@ const card: Card = {
 			effect: {
 				en: "Does 40 damage plus 10 more damage for each Lightning Energy attached to Kabutops.",
 				fr: "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Kabutops.",
-				de: "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Kabutops angelegte -Energie zu."
+				de: "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Kabutops angelegte {L}-Energie zu."
 			},
 			damage: "40+",
 

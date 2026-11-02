@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Midori Harada",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -38,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as this Pokémon is your Active Pokémon, your opponent's Basic Pokémon's attacks cost Colorless more.",
-				fr: "Tant que ce Pokémon est votre Pokémon Actif, les attaques des Pokémon de base de votre adversaire coûtent  de plus."
+				fr: "Tant que ce Pokémon est votre Pokémon Actif, les attaques des Pokémon de base de votre adversaire coûtent {C} de plus."
 			},
 		},
 	],
@@ -58,6 +58,10 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "Using its roots as a nervous system, it controls the trees in the forest. It's kind to the Pokémon that reside in its body.",
+	},
 
 	thirdParty: {
 		cardmarket: 552809

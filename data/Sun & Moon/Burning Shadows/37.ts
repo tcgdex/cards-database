@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Panpour",
 		fr: "Flotajou",
+		de: "Sodamak"
 	},
 
 	stage: "Stage1",
@@ -69,7 +70,7 @@ const card: Card = {
 				es: "Mueve 1 Energía Water de este Pokémon a 1 de tus Pokémon en Banca.",
 				it: "Sposta un’Energia Water da questo Pokémon a uno di quelli nella tua panchina.",
 				pt: "Mova 1 Energia Water deste Pokémon para 1 dos seus Pokémon no Banco.",
-				de: "Verschiebe 1 Water-Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
+				de: "Verschiebe 1 {W}-Energie von diesem Pokémon auf 1 Pokémon auf deiner Bank."
 			},
 			damage: 50,
 
@@ -85,10 +86,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299442,
-		tcgplayer: 138517
-	}
+	description: {
+		en: "The high-pressure water expelled from its tail is so powerful, it can destroy a concrete wall.",
+		de: "Es schießt mit so hohem Druck Wasser aus seinem Schweif, dass selbst Betonwände den Kürzeren ziehen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299442,
+				tcgplayer: 138517
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299442,
+				tcgplayer: 138517
+			}
+		},
+	],
 }
 
 export default card

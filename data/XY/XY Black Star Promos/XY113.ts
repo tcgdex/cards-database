@@ -8,13 +8,17 @@ const card: Card = {
 	},
 
 	illustrator: "Hitoshi Ariga",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
 	dexId: [
 		490,
 	],
+
+
+
+	cameoDexIds: [370, 489],
 
 	hp: 70,
 
@@ -65,6 +69,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon.",
+	},
 
 	thirdParty: {
 		cardmarket: 291576

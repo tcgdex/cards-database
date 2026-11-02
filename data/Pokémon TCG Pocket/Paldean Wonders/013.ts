@@ -4,7 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Scovillain",
+		fr: "Scovilain",
+		en: "Scovillain",
+		es: "Scovillain",
+		it: "Scovillain",
+		pt: "Scovillain",
+		de: "Halupenjo"
   },
   illustrator: "kodama",
   rarity: "Two Diamond",
@@ -13,7 +18,12 @@ const card: Card = {
   types: ["Grass"],
   dexId: [952],
   evolveFrom: {
-    en: "Capsakid",
+		fr: "Pimito",
+		en: "Capsakid",
+		es: "Capsakid",
+		it: "Capsakid",
+		pt: "Capsakid",
+		de: "Chilingel"
   },
   description: {
     en: "The green head has turned vicious due to the spicy chemicals stimulating its brain. Once it goes on a rampage, there is no stopping it.",

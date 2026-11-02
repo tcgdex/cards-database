@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Tu rival enseña las cartas de su mano.Descarta tantas cartas como quieras de tu mano. Después, roba ese mismo número de cartas.",
 		it: "Il tuo avversario mostra le carte che ha in mano.Scarta tutte le carte che vuoi dalla tua mano. Poi pesca lo stesso numero di carte.",
 		pt: "Seu oponente revela a própria mão.Descarte tantos cards quanto quiser da sua mão. Em seguida, compre aquele mesmo número de cards.",
-		de: "Dein Gegner deckt seine Handkarten auf.Lege beliebig viele Karten von deiner Hand auf deinen Ablagestapel. Ziehe anschließend dieselbe Anzahl Karten."
+		de: "Dein Gegner deckt seine Handkarten auf. Lege beliebig viele Karten von deiner Hand auf deinen Ablagestapel. Ziehe anschließend dieselbe Anzahl Karten. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

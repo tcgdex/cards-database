@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Pidgeotto δ",
 		fr: "Roucoups δ",
-		de: "Tauboga"
+		de: "Tauboga δ"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pidgey",
-		fr: "Roucool"
+		fr: "Roucool",
+		de: "Taubsi"
 	},
 
 	stage: "Stage1",

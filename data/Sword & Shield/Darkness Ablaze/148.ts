@@ -59,23 +59,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "They are better at swimming than flying, and they happily eat their favorite food, peat moss, as they dive underwater."
+		en: "They are better at swimming than flying, and they happily eat their favorite food, peat moss, as they dive underwater.",
+		de: "Es schwimmt besser, als es fliegen kann. Am liebsten taucht es ins kühle Nass ab, um Torfmoos, seine Leibspeise, zu essen."
 	},
 
-	thirdParty: {
-		cardmarket: 483619,
-		tcgplayer: 219357
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483619,
+				tcgplayer: 219357
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483619,
+				tcgplayer: 219357
+			}
+		},
+	],
 }
 
 export default card

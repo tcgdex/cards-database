@@ -57,18 +57,42 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "This kindly Pokémon lays highly nutritious eggs and shares them with injured Pokémon or people.",
+		de: "Ein freundliches Pokémon, das nahrhafte Eier legt, um diese mit verletzten Pokémon und Menschen zu teilen."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733708,
+				tcgplayer: 516575,
+				cardtrader: 261068
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733708,
+				tcgplayer: 516575,
+				cardtrader: 261068
+			}
+		},
+	],
 
 	illustrator: "Taiga Kayama",
 
-	thirdParty: {
-		cardmarket: 733708
-	}
+	
 }
 
 export default card

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Slakoth",
 		fr: "Parecool",
+		de: "Bummelz"
 	},
 
 	stage: "Stage1",
@@ -93,6 +94,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Its stress level rises if it cannot keep moving constantly. Too much stress makes it feel sick.",
+		de: "Würde es sich nicht bewegen, würde sein Stress unerträglich und es ginge ihm augenblicklich schlechter."
+	},
 
 	thirdParty: {
 		cardmarket: 361353,

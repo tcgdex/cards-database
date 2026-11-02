@@ -81,23 +81,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
 	description: {
-		en: "With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails."
+		en: "With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails.",
+		de: "Holt Gegner flinken Fußes ein und greift sie mit den Hörnern an seinem Kopf an. Gnade ist ihm ein Fremdwort."
 	},
 
-	thirdParty: {
-		cardmarket: 567214,
-		tcgplayer: 241782
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567214,
+				tcgplayer: 241782
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567214,
+				tcgplayer: 241782
+			}
+		},
+	],
 }
 
 export default card

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Wimpod",
 		fr: "Sovkipou",
+		de: "Reißlaus"
 	},
 
 	stage: "Stage1",
@@ -91,6 +92,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "With a flashing slash of its giant sharp claws, it cleaves seawater—or even air—right in two.",
+		de: "Mithilfe seiner riesigen, glitzernden Klauen zerteilt es selbst Luft und Salzwasser mit einem Hieb."
+	},
 
 	thirdParty: {
 		cardmarket: 297473,

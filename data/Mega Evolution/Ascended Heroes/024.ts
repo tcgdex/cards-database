@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Magcargo do Ethan"
 	},
 
+	evolveFrom: {
+		en: "Ethan's Slugma",
+		fr: "Limagma de Luth",
+		es: "Slugma de Eco",
+		'es-mx': "Slugma de Ethan",
+		de: "Klarins Schneckmag",
+		it: "Slugma di Armonio",
+		pt: "Slugma do Ethan",
+	},
+
 	illustrator: "kodama",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [219],
 	hp: 130,
 	types: ["Fire"],
 	stage: "Stage1",
@@ -71,13 +82,46 @@ const card: Card = {
 		damage: "70×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675836,
-		cardmarket: 869635
-	}
+	description: {
+		en: "This Pokémon lives near the craters of volcanoes. It stores fire energy in its shell of cooled and hardened magma.",
+		fr: "Il vit à proximité des cratères volcaniques. Il emmagasine de l'énergie thermique dans sa coquille faite de magma refroidi puis durci.",
+		de: "Es lebt in der Nähe von Vulkankratern. In seiner Schale aus ausgekühltem und erhärtetem Magma speichert es Feuer-Energie."
+	},
+
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 869635,
+			tcgplayer: 675836
+		}
+	},
+	{
+		type: "reverse",
+		foil: "pokeball",
+		thirdParty: {
+			cardmarket: 870176,
+			tcgplayer: 676872
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870175,
+			tcgplayer: 677012
+		}
+	},
+],
 }
 
 export default card

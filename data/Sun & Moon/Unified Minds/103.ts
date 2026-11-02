@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "Burrows at high speed in search of food. The tunnels it leaves are used as homes by Diglett.",
+		de: "Dieses Pokémon gräbt auf seiner Suche nach Futter lange Tunnel, in denen sich später Digda einnisten."
+	},
+
 	thirdParty: {
 		cardmarket: 388322,
 		tcgplayer: 195043

@@ -4,7 +4,8 @@ import Set from '../POP Series 4'
 const card: Card = {
 	name: {
 		en: "Mudkip",
-		fr: "Gobou"
+		fr: "Gobou",
+		de: "Hydropi"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -12,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		258,
-	],
+	dexId: [258],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -32,11 +31,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Super Hypno Wave",
-				fr: "Super hypnovague"
+				fr: "Super hypnovague",
+				de: "Super Hypno Welle"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 			damage: 20,
 
@@ -45,23 +46,29 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Grass"
+			type: "Grass",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87613,
+				cardmarket: 277476
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87613,
+				cardmarket: 277476
+			},
 		},
 	],
 
-	retreat: 1,
-
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
-	thirdParty: {
-		cardmarket: 277476,
-		tcgplayer: 87613
-	}
 }
 
 export default card

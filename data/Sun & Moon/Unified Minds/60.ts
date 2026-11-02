@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [81],
 
 	dexId: [
 		462,
@@ -29,6 +30,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Magneton",
 		fr: "Magnéton",
+		de: "Magneton"
 	},
 
 	stage: "Stage2",
@@ -50,7 +52,7 @@ const card: Card = {
 				es: "Mientras este Pokémon esté en juego, es de tipo Lightning y Metal.",
 				it: "Fintanto che questo Pokémon è in gioco, è di tipo Lightning e Metal.",
 				pt: "Enquanto este Pokémon estiver em jogo, será um Pokémon de tipo Lightning e Metal.",
-				de: "Solang dieses Pokémon im Spiel ist, ist es vom Typ Lightning und Metal."
+				de: "Solang dieses Pokémon im Spiel ist, ist es vom Typ {L} und {M}."
 			},
 		},
 	],
@@ -98,6 +100,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "It uses radar to monitor its territory. Intruders are quickly disposed of with a hyper beam.",
+		de: "Es überwacht sein Territorium mithilfe seines Radars. Entdeckt es Eindringlinge, greift es sie unvermittelt mit einem Hyperstrahl an."
+	},
 
 	thirdParty: {
 		cardmarket: 388122,

@@ -62,15 +62,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 273969,
-		tcgplayer: 42509
+
+	description: {
+		en: "It emits special alpha waves from its body that induce headaches even to those just nearby.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273969,
+				tcgplayer: 42509
+			}
 		}
 	]
 }

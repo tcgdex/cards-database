@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Esta carta proporciona 1 Energía Colorless. \n\nSi te quedan más cartas de Premio que a tu rival y esta carta está unida a un Pokémon que no es un Pokémon-GX o un Pokémon-EX, esta carta proporciona cualquier tipo de Energía, pero proporciona solo 2 Energías a la vez.",
 		it: "Questa carta fornisce Energia Colorless.\n\nSe hai più carte Premio rimanenti del tuo avversario e se questa carta è assegnata a un Pokémon che non è un Pokémon-GX o un Pokémon-EX, essa fornisce Energia di qualsiasi tipo, ma solo due alla volta.",
 		pt: "Esta carta fornece Energia Colorless.\n\nSe você tiver mais cartas de Prêmio restantes do que seu oponente e esta carta estiver ligada a um Pokémon que não seja um Pokémon-GX ou Pokémon-EX, esta carta fornecerá todo tipo de Energia, mas só fornecerá 2 Energias por vez.",
-		de: "Diese Karte liefert Colorless-Energie.\n\nWenn du mehr verbleibende Preiskarten als dein Gegner hast und wenn diese Karte an ein Pokémon angelegt ist, das kein Pokémon-GX oder Pokémon-EX ist, liefert diese Karte jeden beliebigen Energietyp, aber immer nur jeweils 2 Energien."
+		de: "Diese Karte liefert {C}-Energie. Wenn du mehr verbleibende Preiskarten als dein Gegner hast und wenn diese Karte an ein Pokémon angelegt ist, das kein Pokémon-GX oder Pokémon-EX ist, liefert diese Karte jeden beliebigen Energietyp, aber immer nur jeweils 2 Energien."
 	},
 
 	energyType: "Special",

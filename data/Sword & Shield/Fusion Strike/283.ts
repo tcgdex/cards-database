@@ -17,10 +17,16 @@ const card: Card = {
 	category: "Energy",
 	energyType: "Normal",
 
-	thirdParty: {
-		cardmarket: 583047,
-		tcgplayer: 253287
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 583047,
+				tcgplayer: 253287
+			}
+		},
+	],
 }
 
 export default card

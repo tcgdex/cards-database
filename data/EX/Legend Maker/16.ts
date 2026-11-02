@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Look at the top 5 cards of either player's deck and put them back on top of that player's deck in any order you like.",
 				fr: "Regardez les 5 cartes du dessus du deck de n'importe quel joueur et replacez-les au dessus du deck dans l'ordre que vous voulez.",
-				de: "Schau dir die obersten 5 Karten des Decks eines Spielers an und lege die Karten in beliebiger Reihenfolge auf dieses Deck zurück."
+				de: "Schau dir die 5 obersten Karten des Decks eines Spielers an und lege die Karten in beliebiger Reihenfolge auf dieses Deck zurück."
 			},
 
 		},

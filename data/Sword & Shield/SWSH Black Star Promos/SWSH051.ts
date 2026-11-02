@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Megumi Higuchi",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Water"],
@@ -56,18 +56,18 @@ const card: Card = {
 	stage: "Basic",
 	dexId: [131],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 505895
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 505895,
+				tcgplayer: 222071
+			}
+		},
+	],
 }
 
 export default card

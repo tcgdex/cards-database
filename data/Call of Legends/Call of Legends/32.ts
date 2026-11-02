@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		199,
-	],
+	dexId: [199],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Slowpoke",
-		fr: "Ramoloss"
+		fr: "Ramoloss",
+		de: "Flegmon"
 	},
 
 	stage: "Stage1",
@@ -60,7 +59,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 30,
 
@@ -70,14 +69,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		en: "It has incredible intellect and intuition. Whatever the situation, it remains calm and collected.",
+		de: "Sein feines Gespühr und Intellekt zeichnen es aus. Es bleibt in jeder Situation gelassen und besonnen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89319,
+				cardmarket: 279675
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89319,
+				cardmarket: 279675
+			},
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279675,
-		tcgplayer: 89319
-	}
 }
 
 export default card

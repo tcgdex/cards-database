@@ -4,7 +4,13 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Houndstone",
+		en: "Houndstone",
+		fr: "Tomberro",
+		de: "Friedwuff",
+		it: "Houndstone",
+		es: "Houndstone",
+		pt: "Houndstone",
+		'es-mx': "Houndstone"
   },
   illustrator: "Kouki Saitou",
   rarity: "Two Diamond",
@@ -13,7 +19,13 @@ const card: Card = {
   types: ["Psychic"],
   dexId: [972],
   evolveFrom: {
-    en: "Greavard",
+		en: "Greavard",
+		fr: "Toutombe",
+		de: "Gruff",
+		it: "Greavard",
+		es: "Greavard",
+		pt: "Greavard",
+		'es-mx': "Greavard"
   },
   description: {
     en: "A lovingly mourned Pokémon was reborn as Houndstone. It doesn't like anyone touching the protuberance atop its head.",
@@ -23,6 +35,11 @@ const card: Card = {
     {
       name: {
         en: "Last Respects",
+        fr: "Hommage Posthume",
+        es: "Homenaje Póstumo",
+        it: "Omaggio ai KO",
+        pt: "Último Adeus",
+        de: "Letzte Ehre"
       },
       damage: "50+",
       cost: ["Psychic", "Colorless"],

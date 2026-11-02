@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidoran?",
+		en: "Nidoran♂",
 		fr: "Nidoran♂",
 	},
 
@@ -78,6 +78,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It has a violent disposition and stabs foes with its horn, which oozes poison upon impact.",
+	},
 
 	thirdParty: {
 		cardmarket: 277810,

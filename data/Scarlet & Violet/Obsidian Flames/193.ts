@@ -22,21 +22,34 @@ const card: Card = {
 		es: "Mueve hasta 2 Energías de uno de tus Pokémon a otro de tus Pokémon.",
 		it: "Sposta fino a due Energie da uno dei tuoi Pokémon a un altro.",
 		pt: "Mova até 2 Energias de 1 dos seus Pokémon para outro Pokémon seu.",
-		de: "Verschiebe bis zu 2 Energien von 1 deiner Pokémon auf 1 anderes deiner Pokémon."
+		de: "Verschiebe bis zu 2 Energien von 1 deiner Pokémon auf 1 anderes deiner Pokémon. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725273,
+				tcgplayer: 509785,
+				cardtrader: 256089
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725273,
+				tcgplayer: 509785,
+				cardtrader: 256089
+			}
+		},
+	],
 
 	illustrator: "yuu",
 
-	thirdParty: {
-		cardmarket: 725273
-	}
+	
 }
 
 export default card

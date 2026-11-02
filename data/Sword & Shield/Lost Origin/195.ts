@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Distmar"
 	},
 
+	illustrator: "Hideki Ishikawa",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -22,22 +23,22 @@ const card: Card = {
 		es: "Elige 1 Pokémon Básico de tu pila de descartes y cámbialo por 1 de tus Pokémon Básicos en juego. Todas las cartas unidas a este Pokémon, los contadores de daño, las Condiciones Especiales, los turnos de juego y todos los demás efectos permanecen en el nuevo Pokémon.",
 		it: "Scegli un Pokémon Base dalla tua pila degli scarti e scambialo con uno dei tuoi Pokémon Base in gioco. Le carte assegnate, i segnalini danno, le condizioni speciali, il numero di turni da cui è in gioco e qualsiasi altro effetto restano sul nuovo Pokémon.",
 		pt: "Escolha 1 Pokémon Básico da sua pilha de descarte e troque-o por 1 dos seus Pokémon Básicos em jogo. Quaisquer cartas ligadas, contadores de dano, Condições Especiais, turnos em jogo e quaisquer outros efeitos permanecem no novo Pokémon.",
-		de: "Wähle 1 Basis-Pokémon aus deinem Ablagestapel und tausche es gegen 1 deiner Basis-Pokémon im Spiel aus. Alle angelegten Karten, Schadensmarken, Speziellen Zustände, die Anzahl der Züge im Spiel sowie alle anderen Effekte verbleiben auf dem neuen Pokémon."
+		de: "Wähle 1 Basis-Pokémon aus deinem Ablagestapel und tausche es gegen 1 deiner Basis-Pokémon im Spiel aus. Alle angelegten Karten, Schadensmarken, Speziellen Zustände, die Anzahl der Züge im Spiel sowie alle anderen Effekte verbleiben auf dem neuen Pokémon. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 674200,
-		tcgplayer: 284148
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674200,
+				tcgplayer: 284148
+			}
+		},
+	],
 }
 
 export default card

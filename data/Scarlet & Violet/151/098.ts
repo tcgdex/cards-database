@@ -55,18 +55,42 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "If it senses danger approaching, it cloaks itself with bubbles from its mouth so it will look bigger.",
+		de: "Wittert es Gefahr, hüllt es sich in Blasen aus seinem Maul, um größer zu erscheinen."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733693,
+				tcgplayer: 516667,
+				cardtrader: 261127
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733693,
+				tcgplayer: 516667,
+				cardtrader: 261127
+			}
+		},
+	],
 
 	illustrator: "Yukiko Baba",
 
-	thirdParty: {
-		cardmarket: 733693
-	}
+	
 }
 
 export default card

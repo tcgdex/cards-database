@@ -57,8 +57,18 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		holo: false
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
+
+	description: {
+		en: "It submerges itself in sand and moves as if swimming. This wise behavior keeps its enemies from finding it and maintains its temperature.",
+		de: "Es bewegt sich verborgen im Sand mithilfe von Schwimmbewegungen fort. So versteckt es sich vor Gegnern und bleibt immer schön warm."
 	},
 
 	thirdParty: {

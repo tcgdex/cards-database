@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		191,
-	],
+	dexId: [191],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -75,22 +73,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It may plummet from the sky. If attacked by a Spearow, it will violently shake its leaves."
+		en: "It may plummet from the sky. If attacked by a Spearow, it will violently shake its leaves.",
+		de: "Manchmal fällt es plötzlich vom Himmel. Wird es von HABITAK angegriffen, schüttelt es seine Blätter."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89622,
+				cardmarket: 279057
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89622,
+				cardmarket: 279057
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279057,
-		tcgplayer: 89622
-	}
 }
 
 export default card

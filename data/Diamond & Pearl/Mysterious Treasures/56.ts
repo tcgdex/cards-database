@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Nidoran♀",
-		fr: "Nidoran"
+		fr: "Nidoran",
+		de: "Nidoran♀"
 	},
 
 	stage: "Stage1",
@@ -69,9 +70,13 @@ const card: Card = {
 			value: "+20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: ":Ce Pokémon dresse ses piquants en cas de danger. Ils poussent moins vite que ceux de Nidorino."
+		en: "When it senses danger, it raises all the barbs on its body. These barbs grow slower than NIDORINO's.",
+		fr: ":Ce Pokémon dresse ses piquants en cas de danger. Ils poussent moins vite que ceux de Nidorino.",
+		de: "Bei Gefahr fährt es die Widerhaken am Körper aus. Diese wachsen langsamer als die von NIDORINO."
 	},
 
 	thirdParty: {

@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Crawdaunt ex",
 		fr: "Colhomard ex",
-		de: "Krebutack ex"
+		de: "Krebutack-ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -25,10 +25,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Corphish",
-		fr: "Écrapince"
+		fr: "Écrapince",
+		de: "Krebscorps"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{

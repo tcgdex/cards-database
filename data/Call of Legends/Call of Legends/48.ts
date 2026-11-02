@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		17,
-	],
+	dexId: [17],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Pidgey",
-		fr: "Roucool"
+		fr: "Roucool",
+		de: "Taubsi"
 	},
 
 	stage: "Stage1",
@@ -59,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. If both of them are tails, this attack does nothing. For each heads, discard an Energy attached to the Defending Pokémon.",
 				fr: "Lancez 2 pièces. Si vous obtenez deux fois un côté pile, cette attaque ne fait rien. Pour chaque face, défaussez une Énergie au Pokémon Défenseur.",
-				de: "Wirf 2 Münzen. Wenn beide Münzen \"Zahl\" zeigen, hat dieser Angriff keine Auswirkungen. Lege pro \"Kopf\" eine Energie, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				de: "Wirf 2 Münzen. Wenn beide Münzen „Zahl“ zeigen, hat dieser Angriff keine Auswirkungen. Lege pro „Kopf“ eine Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 30,
 
@@ -69,21 +68,40 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279691,
-		tcgplayer: 88043
-	}
+
+	description: {
+		en: "It renders its prey immobile using well-developed claws, then carries the prey more than 60 miles to its nest.",
+		de: "Es lähmt seine Gegner mit seinen Krallen und trägt die Beute in sein bis zu 100 km entferntes Nest."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88043,
+				cardmarket: 279691
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88043,
+				cardmarket: 279691
+			},
+		},
+	],
+
 }
 
 export default card

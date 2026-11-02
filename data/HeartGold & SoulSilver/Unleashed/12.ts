@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		15,
-	],
+	dexId: [15],
 
 	hp: 110,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Kakuna",
 		fr: "Coconfort",
+		de: "Kokuna"
 	},
 
 	stage: "Stage2",
@@ -43,9 +42,9 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 50 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
-			damage: "50x",
+			damage: "50×",
 
 		},
 		{
@@ -61,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "The Defending Pokémon is now Poisoned. Flip a coin. If heads, the Defending Pokémon is also Paralyzed.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Lancez une pièce. Si c’est face, le Pokémon Défenseur est aussi Paralysé.",
-				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon zusätzlich gelähmt."
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet. Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon zusätzlich gelähmt."
 			},
 			damage: 20,
 
@@ -78,22 +77,27 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It can take down any opponent with its powerful poison stingers. It sometimes attacks in swarms."
+		en: "It can take down any opponent with its powerful poison stingers. It sometimes attacks in swarms.",
+		de: "Mit seinen gefährlichen Stacheln kann es jeden Gegner besiegen. Es tritt auch in Schwärmen auf."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83772,
+				cardmarket: 279168
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83772,
+				cardmarket: 279168
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279168,
-		tcgplayer: 83772
-	}
 }
 
 export default card

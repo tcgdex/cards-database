@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cosmoem",
 		fr: "Cosmovum",
+		de: "Cosmovum"
 	},
 
 	stage: "Stage2",
@@ -99,6 +100,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "Sometimes the result of its opening an Ultra Wormhole is that energy and life-forms from other worlds are called here to this world.",
+		de: "Öffnet es eine Ultrapforte, ebnet es mitunter für fremde Energie und Lebewesen den Weg in unsere Welt."
+	},
 
 	thirdParty: {
 		cardmarket: 450388,

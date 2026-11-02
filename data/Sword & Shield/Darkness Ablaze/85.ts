@@ -85,23 +85,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground."
+		en: "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
+		de: "Diese Digda-Drillinge graben sich manchmal bis zu 100 km tief in den Erdboden und lösen dadurch Erdbeben aus."
 	},
 
-	thirdParty: {
-		cardmarket: 483304,
-		tcgplayer: 219473
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483304,
+				tcgplayer: 219473
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483304,
+				tcgplayer: 219473
+			}
+		},
+	],
 }
 
 export default card

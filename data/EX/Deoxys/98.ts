@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Deoxys ex",
 		fr: "Deoxys ex",
-		de: "Deoxys ex"
+		de: "Deoxys-ex"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -23,7 +23,7 @@ const card: Card = {
 		"Psychic",
 	],
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -73,16 +73,17 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		tcgplayer: 84770,
-		cardmarket: 276419
-	},
 
 	variants: [
 		{
 			type: "holo",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 84770,
+				cardmarket: 276419
+			},
+		},
+	],
+
 }
 
 export default card

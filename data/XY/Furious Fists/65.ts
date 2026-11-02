@@ -105,6 +105,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It takes great pride in its strength. Even though it can tear foes apart, it finishes them off with powerful poison.",
+		de: "Es bringt seine Gegner mit starkem Gift zur Strecke, obwohl es weiß, dass es stark genug ist, um sie zu zerfetzen."
+	},
+
 	thirdParty: {
 		cardmarket: 281729,
 		tcgplayer: 92242

@@ -4,7 +4,7 @@ import Set from '../Unleashed'
 const card: Card = {
 	name: {
 		en: "Minun",
-		fr: "Negapi",
+		fr: "Négapi",
 		de: "Minun"
 	},
 
@@ -12,15 +12,14 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [311],
 
-	dexId: [
-		312,
-	],
+	dexId: [312],
 
 	hp: 60,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -54,7 +53,7 @@ const card: Card = {
 			effect: {
 				en: "If Plusle is on your Bench, this attack does 10 damage plus 20 more damage.",
 				fr: "Si Posipi se trouve sur votre Banc, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires.",
-				de: "Wenn sich Plusle auf deiner Bank befindet fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+				de: "Wenn sich Plusle auf deiner Bank befindet, fügt dieser Angriff 10 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -78,22 +77,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Exposure to electricity from Minun and Plusle promotes blood circulation and relaxes muscles."
+		en: "Exposure to electricity from Minun and Plusle promotes blood circulation and relaxes muscles.",
+		de: "Mit elektrischen Schlägen regen PLUSLE und MINUN den Blutkreislauf an und lösen so Verspannungen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87491,
+				cardmarket: 279190
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87491,
+				cardmarket: 279190
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279190,
-		tcgplayer: 87491
-	}
 }
 
 export default card

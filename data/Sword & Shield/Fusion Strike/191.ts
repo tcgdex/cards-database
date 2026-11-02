@@ -19,12 +19,25 @@ const card: Card = {
 	hp: 100,
 	types: ["Metal"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "Oswaldo KATO",
 
 	description: {
-		en: "If a job requires serious strength, this Pokémon will excel at it. Its copper body tarnishes in the rain, turning a vibrant green color."
+		en: "If a job requires serious strength, this Pokémon will excel at it. Its copper body tarnishes in the rain, turning a vibrant green color.",
+		de: "Harte Knochenarbeit kann man problemlos ihm überlassen. Sein Körper aus Kupfer rostet im Regen und nimmt eine leuchtend grüne Farbe an."
 	},
 
 	attacks: [{
@@ -64,17 +77,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582865,
-		tcgplayer: 253345
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582865,
+				tcgplayer: 253345
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582865,
+				tcgplayer: 253345
+			}
+		},
+	],
 }
 
 export default card

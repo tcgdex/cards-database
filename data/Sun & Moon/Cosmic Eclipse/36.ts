@@ -73,6 +73,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When they're young, they live with a pride. Once they're able to hunt prey on their own, they're kicked out and have to make their own way.",
+		de: "Bis es seine Beute selbst fangen kann, bewegt es sich in Rudeln. Danach wird es verstoßen und muss auf eigenen Pfoten stehen."
+	},
+
 	thirdParty: {
 		cardmarket: 407829,
 		tcgplayer: 201213

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Buzzwole-GX",
 		fr: "Mouscoto-GX",
+		de: "Masskito-GX"
 	},
 	illustrator: "5ban Graphics",
 	rarity: "Shiny rare",
@@ -30,10 +31,12 @@ const card: Card = {
 			name: {
 				en: "Jet Punch",
 				fr: "Coup Rapide",
+				de: "Jet-Schlag"
 			},
 			effect: {
 				en: "This attack does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Cette attaque inflige 30 dégâts à l’un des Pokémon de Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				de: "Diese Attacke fügt 1 Pokémon auf der Bank deines Gegners 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 30,
 
@@ -47,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Knuckle Impact",
 				fr: "Coup d’Articulations",
+				de: "Knöchelprall"
 			},
 			effect: {
 				en: "This Pokémon can't attack during your next turn.",
 				fr: "Ce Pokémon ne peut pas attaquer pendant votre prochain tour.",
+				de: "Dieses Pokémon kann während deines nächsten Zuges nicht angreifen."
 			},
 			damage: 160,
 
@@ -64,10 +69,12 @@ const card: Card = {
 			name: {
 				en: "Absorption-GX",
 				fr: "Expansion-GX",
+				de: "Expander-GX"
 			},
 			effect: {
 				en: "This attack does 40 damage for each of your remaining Prize cards. (You can't use more than 1 GX attack in a game.)",
 				fr: "Cette attaque inflige 40 dégâts pour chacune des cartes Récompense qu’il vous reste. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				de: "Diese Attacke fügt 40 Schadenspunkte mal der Anzahl deiner verbleibenden Preiskarten zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: 40,
 

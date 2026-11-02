@@ -63,10 +63,27 @@ const card: Card = {
 
 	retreat: 0,
 
-	thirdParty: {
-		cardmarket: 299496,
-		tcgplayer: 138589
-	}
+	description: {
+		en: "It feeds on the nectar and pollen of flowers. Because it's able to sense auras, it can identify which flowers are about to bloom.",
+		de: "Es ernährt sich von Blütenstaub und Honig. Da es die Aura von Lebewesen wahrnehmen kann, spürt es, wenn eine Blume bald blühen wird."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299496,
+				tcgplayer: 138589
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299496,
+				tcgplayer: 138589
+			}
+		},
+	],
 }
 
 export default card

@@ -60,20 +60,38 @@ const card: Card = {
 		damage: 10
 	}],
 
-	retreat: 1,
-	regulationMark: "H",
-	variants: [
+	weaknesses: [
 		{
-			type: 'normal'
-		},
-		{
-			type: 'reverse'
+			type: "Fire",
+			value: "×2",
 		},
 	],
+	retreat: 1,
+	regulationMark: "H",
 
-	thirdParty: {
-		cardmarket: 825898
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825898,
+				tcgplayer: 632847
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825898,
+				tcgplayer: 632847
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 878005,
+			}
+		},
+	],
 }
 
 export default card

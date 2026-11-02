@@ -62,6 +62,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Since they prefer moist, nutrient-rich soil, the areas where Petilil live are known to be good for growing plants.",
+		de: "Da es nährstoffreiche Erde bevorzugt, kann man in Gebieten, in denen es lebt, für gewöhnlich reiche Ernten erwarten."
+	},
+
 	thirdParty: {
 		cardmarket: 288182,
 		tcgplayer: 111510

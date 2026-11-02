@@ -11,8 +11,8 @@ const card: Card = {
 		de: "Porygon-Z GX"
 	},
 
-	illustrator: undefined,
-	rarity: "None",
+	illustrator: "PLANETA Tsuji",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Porygon2",
-		fr: "Porygon"
+		fr: "Porygon",
+		de: "Porygon2"
 	},
 
 	stage: "Stage2",
@@ -91,7 +92,7 @@ const card: Card = {
 				es: "Error Crítico GX",
 				it: "Errore Critico GX",
 				pt: "Erro Crítico GX",
-				de: "Kritischer Fehler GX"
+				de: "Kritischer Fehler-GX"
 			},
 			effect: {
 				en: "Search your deck for up to 10 cards and discard them. Then, shuffle your deck. (You can’t use more than 1 GX attack in a game.)",
@@ -112,7 +113,17 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2
+	retreat: 2,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 403109,
+				tcgplayer: 198531
+			}
+		}
+	],
 }
 
 export default card

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Fire Energy",
 		fr: "Énergie Fire de base",
+		de: "Feuer-Energie"
 	},
 
 	illustrator: undefined,

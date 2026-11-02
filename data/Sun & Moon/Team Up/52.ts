@@ -88,6 +88,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It electrifies its claws and tears its opponents apart with them. Even if they dodge its attack, they'll be electrocuted by the flying sparks.",
+		de: "Mit seinen elektrisierten Krallen reißt es Gegner in Stücke. Selbst wenn sie ausweichen, werden sie von elektrisch geladenen Funken getroffen."
+	},
+
 	thirdParty: {
 		cardmarket: 368983,
 		tcgplayer: 183827

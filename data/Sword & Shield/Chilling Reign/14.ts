@@ -72,23 +72,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Any Corvisquire that pecks at this Pokémon will be greeted with a smack from its sepals followed by a sharp kick."
+		en: "Any Corvisquire that pecks at this Pokémon will be greeted with a smack from its sepals followed by a sharp kick.",
+		de: "Nach ihm pickende Kranoviz greift es mit dem Blütenkelch auf seinem Kopf an, bevor es sie mit agilen Kicktechniken bearbeitet."
 	},
 
-	thirdParty: {
-		cardmarket: 567094,
-		tcgplayer: 241663
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567094,
+				tcgplayer: 241663
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567094,
+				tcgplayer: 241663
+			}
+		},
+	],
 }
 
 export default card

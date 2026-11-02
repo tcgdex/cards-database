@@ -62,23 +62,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "These very cowardly Pokémon join together and use Reflect to protect their nest."
+		en: "These very cowardly Pokémon join together and use Reflect to protect their nest.",
+		de: "Es ist ein sehr scheues Pokémon. Gemeinsam mit seinen Artgenossen nutzt es Reflektor, um sein Nest zu beschützen."
 	},
 
-	thirdParty: {
-		cardmarket: 567084,
-		tcgplayer: 241651
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567084,
+				tcgplayer: 241651
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567084,
+				tcgplayer: 241651
+			}
+		},
+	],
 }
 
 export default card

@@ -5,12 +5,14 @@ const card: Card = {
 	name: {
 		en: "Slurpuff",
 		fr: "Cupcanaille",
+		de: "Sabbaione"
 	},
 
 	illustrator: "MAHOU",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [684],
 
 	dexId: [
 		685,
@@ -25,6 +27,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Swirlix",
 		fr: "Sucroquin",
+		de: "Flauschling"
 	},
 
 	stage: "Stage1",
@@ -37,10 +40,12 @@ const card: Card = {
 			name: {
 				en: "Lap Up",
 				fr: "Gobeur",
+				de: "Auflecken"
 			},
 			effect: {
 				en: "Draw 3 cards.",
 				fr: "Piochez 3 cartes.",
+				de: "Ziehe 3 Karten."
 			},
 
 		},
@@ -53,6 +58,7 @@ const card: Card = {
 			name: {
 				en: "Fairy Wind",
 				fr: "Vent Féérique",
+				de: "Feenbrise"
 			},
 
 			damage: 40,
@@ -75,6 +81,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "The cakes Slurpuff makes always look just like that one Pokémon it likes.",
+		de: "Die Kuchen, die Sabbaione backt, sehen immer wie das Pokémon aus, das es so gerne mag."
+	},
 
 	thirdParty: {
 		cardmarket: 288529

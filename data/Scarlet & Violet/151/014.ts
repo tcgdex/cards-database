@@ -65,18 +65,42 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "While awaiting evolution, it hides from predators under leaves and in nooks of branches.",
+		de: "Während es auf seine Entwicklung wartet, versteckt es sich unter Blättern und zwischen Ästen."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733609,
+				tcgplayer: 502563,
+				cardtrader: 261125
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733609,
+				tcgplayer: 502563,
+				cardtrader: 261125
+			}
+		},
+	],
 
 	illustrator: "nisimono",
 
-	thirdParty: {
-		cardmarket: 733625
-	}
+	
 }
 
 export default card

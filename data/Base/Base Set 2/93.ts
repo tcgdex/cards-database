@@ -58,15 +58,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 274016,
-		tcgplayer: 42544
+
+	description: {
+		en: "After birth, its back swells and hardens into a shell. It powerfully sprays foam from its mouth.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274016,
+				tcgplayer: 42544
+			}
 		}
 	]
 }

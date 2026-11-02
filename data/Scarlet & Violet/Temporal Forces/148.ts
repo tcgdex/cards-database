@@ -4,6 +4,8 @@ import Set from "../Temporal Forces"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [1007],
+
 	name: {
 		en: "Full Metal Lab",
 		fr: "Labo Métal Pur",
@@ -30,10 +32,18 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 760778,
+				tcgplayer: 542663
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760778,
+				tcgplayer: 542663
+			}
 		},
 		{
 			type: "holo",
@@ -44,9 +54,6 @@ const card: Card = {
 
 	illustrator: "AYUMI ODASHIMA",
 
-	thirdParty: {
-		cardmarket: 760778
-	}
 }
 
 export default card

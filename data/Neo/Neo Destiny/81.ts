@@ -34,12 +34,12 @@ const card: Card = {
 			name: {
 				en: "Take Down",
 				fr: "Bélier",
-				de: "Take Down"
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "Seel does 10 damage to itself.",
 				fr: "Otaria s'inflige 10 dégâts.",
-				de: "Seel does 10 damage to itself."
+				de: "Jurob fügt sich selber 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -52,23 +52,31 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Bien que peu doué pour marcher sur la terre ferme, il se déplace avec aisance dans ses eaux natales de l'Arctique."
+		en: "Although clumsy on land, it moves easily through the arctic waters it calls home.",
+		fr: "Bien que peu doué pour marcher sur la terre ferme, il se déplace avec aisance dans ses eaux natales de l'Arctique.",
+		de: "Obwohl es an Land tapsig ist, bewegt es sich graziös durch die Eismeere, in denen es daheim ist."
 	},
 
-	thirdParty: {
-		cardmarket: 274733,
-		tcgplayer: 89048
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274733,
+				tcgplayer: 89048
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274733,
+				tcgplayer: 89048
+			}
 		}
 	]
 }

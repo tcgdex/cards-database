@@ -4,19 +4,30 @@ import Set from '../EX trainer Kit 2 (Plusle)'
 const card: Card = {
 	name: {
 		en: "Psychic Energy",
-		fr: "Énergie Psy"
+		fr: "Énergie Psy",
+		de: "Psycho-Energie"
 	},
 
-	illustrator: "",
 	rarity: "None",
 	category: "Energy",
 	set: Set,
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		tcgplayer: 88420
-	}
+	types: [
+		"Psychic"
+	],
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277184,
+				tcgplayer: 88420
+			}
+		},
+	],
+
 }
 
 export default card

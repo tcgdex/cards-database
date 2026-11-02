@@ -80,6 +80,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "If it smells something enticing, it dashes off headlong to find the source of the aroma.",
+		de: "Wenn es etwas Vielversprechendes erschnuppert, dann stürzt es in Windeseile darauf zu."
+	},
+
 	thirdParty: {
 		cardmarket: 286326,
 		tcgplayer: 107199

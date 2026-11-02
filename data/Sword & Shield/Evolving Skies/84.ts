@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Hippopotas",
@@ -61,16 +55,29 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "This Pokémon is active during the day and passes the cold desert nights burrowed snugly into the sand."
+		en: "This Pokémon is active during the day and passes the cold desert nights burrowed snugly into the sand.",
+		de: "Es ist hauptsächlich tagsüber aktiv. Die Nächte in der Wüste sind kalt, deswegen vergräbt es sich zum Schlafen tief im Sand."
 	},
 
 	dexId: [449],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574132,
-		tcgplayer: 246878
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574132,
+				tcgplayer: 246878
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574132,
+				tcgplayer: 246878
+			}
+		},
+	],
 }
 
 export default card

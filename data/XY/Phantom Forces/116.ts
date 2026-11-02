@@ -70,7 +70,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño por cada Pokémon Grass y Pokémon Fairy que tengas en juego.",
 				it: "Questo attacco infligge 20 danni per ogni Pokémon Grass e Fairy che hai in gioco.",
 				pt: "Este ataque causa 20 de danos vezes o número de Pokémon Grass e Pokémon Fairy que você tem em jogo.",
-				de: "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der Grass-Pokémon und Fairy-Pokémon, die du im Spiel hast, zu."
+				de: "Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der {G}-Pokémon und {FAIRY}-Pokémon, die du im Spiel hast, zu."
 			},
 			damage: "20×",
 

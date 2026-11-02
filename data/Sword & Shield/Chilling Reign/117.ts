@@ -60,23 +60,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Even though it doesn't die in the vacuum of space, it can't move around very well in zero gravity."
+		en: "Even though it doesn't die in the vacuum of space, it can't move around very well in zero gravity.",
+		de: "Es ist zwar imstande, auch im All zu überleben, aber in der Schwerelosigkeit kann es sich nicht gut fortbewegen."
 	},
 
-	thirdParty: {
-		cardmarket: 567225,
-		tcgplayer: 241794
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567225,
+				tcgplayer: 241794
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567225,
+				tcgplayer: 241794
+			}
+		},
+	],
 }
 
 export default card

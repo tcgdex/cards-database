@@ -57,6 +57,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.",
+		de: "Eine harte Schale schützt dieses Pokémon. Nur wenn es diese öffnet, wird es verwundbar."
+	},
+
 	thirdParty: {
 		cardmarket: 281368,
 		tcgplayer: 89139

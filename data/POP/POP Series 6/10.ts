@@ -4,7 +4,8 @@ import Set from '../POP Series 6'
 const card: Card = {
 	name: {
 		en: "Staravia",
-		fr: "Staravia"
+		fr: "Étourvol",
+		de: "Staravia"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -12,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		397,
-	],
+	dexId: [397],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Starly",
-		fr: "Étourmi"
+		fr: "Étourmi",
+		de: "Staralili"
 	},
 
 	stage: "Stage1",
@@ -37,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Whirlwind",
-				fr: "Cyclone"
+				fr: "Cyclone",
+				de: "Wirbelwind"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc."
+				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc.",
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 20,
 
@@ -53,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Clutch",
-				fr: "Serre"
+				fr: "Serre",
+				de: "Greifer"
 			},
 			effect: {
-				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
-				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire."
+				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
+				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
+				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
 			damage: 20,
 
@@ -70,31 +74,29 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
-
 	description: {
-		en: "It flies around forests and fields in search of bug Pokémon. It stays within a huge flock."
+		en: "It flies around forests and fields in search of bug Pokémon. It stays within a huge flock.",
+		de: "Auf der Suche nach Käfer-PKMN fliegt es über Wiesen und Wälder. Es bleibt in einem großen Schwarm."
 	},
 
 	retreat: 0,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89514,
+				cardmarket: 277895
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277895,
-		tcgplayer: 89514
-	}
 }
 
 export default card

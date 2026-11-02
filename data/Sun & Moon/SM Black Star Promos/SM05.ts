@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -117,7 +117,17 @@ const card: Card = {
 		},
 	],
 
-	retreat: 4
+	retreat: 4,
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 295297,
+				tcgplayer: 126027
+			}
+		}
+	],
 }
 
 export default card

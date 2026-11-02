@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Tu rival enseña las cartas de su mano.",
 		it: "Il tuo avversario mostra le carte che ha in mano.",
 		pt: "Seu oponente revela a própria mão.",
-		de: "Dein Gegner deckt seine Handkarten auf."
+		de: "Dein Gegner deckt seine Handkarten auf. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

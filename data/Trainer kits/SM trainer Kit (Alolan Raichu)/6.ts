@@ -14,10 +14,13 @@ const card: Card = {
 		de: "Golbat"
 	},
 
+	illustrator: "Masakazu Fukuda",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 80,
-	types: ["Psychic"],
+	types: [
+		"Psychic"
+	],
 
 	evolveFrom: {
 		en: "Zubat",
@@ -28,6 +31,36 @@ const card: Card = {
 		de: "Zubat"
 	},
 
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+			],
+			name: {
+				en: "Super Poison Breath",
+				de: "Super-Gifthauch"
+			},
+			effect: {
+				en: "Your opponent's Active Pokémon is now Poisoned.",
+				de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet."
+			}
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Acrobatics",
+				de: "Akrobatik"
+			},
+			effect: {
+				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
+				de: "Wirf 2 Münzen. Diese Attacke fügt 20 Schadenspunkte mehr pro Kopf zu."
+			},
+			damage: "10+"
+		},
+	],
 	stage: "Stage1",
 	retreat: 0,
 
@@ -41,9 +74,16 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	thirdParty: {
-		tcgplayer: 152863
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297236,
+				tcgplayer: 152863
+			}
+		},
+	],
+
 }
 
 export default card

@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Quaxwell",
-		fr: "Canarbello"
+		fr: "Canarbello",
+		de: "Fuentente"
 	},
 
 	stage: "Stage2",
@@ -63,15 +64,30 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "Kouki Saitou",
+
+	description: {
+		en: "A single kick from a Quaquaval can send a truck rolling. This Pokémon uses its powerful legs to perform striking dances from far-off lands.",
+		de: "Mit einem einzigen Tritt kann es Lastwagen umwerfen. Es nutzt seine kräftigen Beine, um Tänze aus fernen Ländern aufzuführen."
+	},
 
 	thirdParty: {
         cardmarket: 702348,

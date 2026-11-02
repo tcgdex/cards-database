@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		305,
-	],
+	dexId: [305],
 
 	hp: 80,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Aron",
-		fr: "Galekid"
+		fr: "Galekid",
+		de: "Stollunior"
 	},
 
 	stage: "Stage1",
@@ -58,12 +57,12 @@ const card: Card = {
 			name: {
 				en: "One-Two Strike",
 				fr: "En deux coups",
-				de: "Links-Rechts-Kombo"
+				de: "Links-Rechts Kombo"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.",
 				fr: "Lancez deux pièces. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque face.",
-				de: "Wirf zwei Münzen. Dieser Angriff fügt 30 Schadenspunkte plus 20 Schadenspunkte für jede Münze, die das Ergebnis 'Kopf' zeigt, zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 Schadenspunkte plus 20 Schadenspunkte für jede Münze, die das Ergebnis „Kopf“ zeigt, zu."
 			},
 			damage: "30+",
 
@@ -87,19 +86,24 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275685,
-		tcgplayer: 86574
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275685,
+				tcgplayer: 86574
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275685,
+				tcgplayer: 86574
+			}
 		},
-	]
+	],
+
 }
 
 export default card

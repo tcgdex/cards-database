@@ -14,6 +14,9 @@ const card: Card = {
 	dexId: [
 		648,
 	],
+
+	cameoDexIds: [52, 558],
+
 	hp: 80,
 	types: [
 		"Fighting",
@@ -64,6 +67,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Many famous songs have been inspired by the melodies that Meloetta plays.",
+	},
 }
 
 export default card

@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Leafeon VMAX",
@@ -43,7 +37,7 @@ const card: Card = {
 			es: "Este ataque hace 60 puntos de daño por cada Colorless en el Coste de Retirada del Pokémon Activo de tu rival.",
 			it: "Questo attacco infligge 60 danni per ogni Colorless nel costo di ritirata del Pokémon attivo del tuo avversario.",
 			pt: "This attack does 60 damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
-			de: "Diese Attacke fügt für jedes Colorless in den Rückzugskosten des Aktiven Pokémon deines Gegners 60 Schadenspunkte zu."
+			de: "Diese Attacke fügt für jedes {C} in den Rückzugskosten des Aktiven Pokémon deines Gegners 60 Schadenspunkte zu."
 		},
 
 		damage: "60×",
@@ -90,10 +84,23 @@ const card: Card = {
 	dexId: [470],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574032,
-		tcgplayer: 246691
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574032,
+				tcgplayer: 246691
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['player-rewards-program'],
+			thirdParty: {
+				cardmarket: 574032,
+				tcgplayer: 475976
+			}
+		},
+	],
 }
 
 export default card

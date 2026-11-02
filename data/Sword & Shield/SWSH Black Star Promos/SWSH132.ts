@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	stage: "Stage2",
 
@@ -67,13 +67,38 @@ const card: Card = {
 			},
 		},
 	],
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false,
-	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576731,
+				tcgplayer: 251088
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576905,
+				tcgplayer: 252817
+			}
+		},
+	],
 
 	hp: 150,
 	types: ["Psychic"],
@@ -89,9 +114,6 @@ const card: Card = {
 
 	retreat: 0,
 
-	thirdParty: {
-		cardmarket: 549386
-	}
 };
 
 export default card;

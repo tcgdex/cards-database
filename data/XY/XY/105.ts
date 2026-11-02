@@ -79,7 +79,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
 				it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
 				pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente será Paralisado.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 			},
 			damage: 30,
 
@@ -94,6 +94,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It dislikes dirty places. It often searches for a comfortable place in which to groom itself.",
+		de: "Hasst schmutzige Orte. Behagt ihm ein Platz, fängt es sofort an, sein glänzendes Fell zu pflegen."
+	},
 
 	thirdParty: {
 		cardmarket: 281442,

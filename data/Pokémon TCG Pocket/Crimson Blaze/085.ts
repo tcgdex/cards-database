@@ -4,6 +4,8 @@ import Set from "../Crimson Blaze"
 const card: Card = {
 	set: Set,
 
+	dexId: [428],
+
 	name: {
 		en: "Mega Lopunny ex"
 	},
@@ -16,10 +18,6 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Buneary"
-	},
-
-	description: {
-		en: "It swings its ears like whips and strikes its\nenemies with them. It has an intensely\ncombative disposition."
 	},
 
 	stage: "Stage1",

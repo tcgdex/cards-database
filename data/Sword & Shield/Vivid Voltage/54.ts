@@ -78,12 +78,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -91,10 +85,22 @@ const card: Card = {
 		en: "They have lightning-like movements. When Zebstrika run at full speed, the sound of thunder reverberates."
 	},
 
-	thirdParty: {
-		cardmarket: 511690,
-		tcgplayer: 226451
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511690,
+				tcgplayer: 226451
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511690,
+				tcgplayer: 226451
+			}
+		},
+	],
 }
 
 export default card

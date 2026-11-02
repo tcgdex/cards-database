@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 80,
 	types: ["Lightning"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Sanosuke Sakuma",
 
 	description: {
-		en: "It carries electrically roasted seeds with it as if they're precious treasures. No matter how much it eats, it always gets hungry again in short order."
+		en: "It carries electrically roasted seeds with it as if they're precious treasures. No matter how much it eats, it always gets hungry again in short order.",
+		de: "Egal, wie viel es auch frisst, es wird sofort wieder hungrig. Es röstet Samen mit seiner Elektrizität und trägt diese dann vorsichtig mit sich herum."
 	},
 
 	attacks: [{
@@ -49,17 +56,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582502,
-		tcgplayer: 253267
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582502,
+				tcgplayer: 253267
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582502,
+				tcgplayer: 253267
+			}
+		},
+	],
 }
 
 export default card

@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ryota Murayama",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Electrike",
 		fr: "Dynavolt",
+		de: "Frizelbliz"
 	},
 
 	stage: "Stage1",
@@ -95,7 +96,22 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+		de: "Aus seiner Mähne entlädt es Elektrizität. Es generiert eine Gewitterwolke, aus der es Blitze entlädt."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 360557,
+				tcgplayer: 172933
+			}
+		}
+	],
 }
 
 export default card

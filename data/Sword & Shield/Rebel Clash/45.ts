@@ -66,23 +66,30 @@ const card: Card = {
 	types: ["Water"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It weakens its prey with sound waves intense enough to cause headaches, then entangles them with its sticky tongue."
+		en: "It weakens its prey with sound waves intense enough to cause headaches, then entangles them with its sticky tongue.",
+		de: "Es schwächt seine Beute mit Kopfschmerzen erregenden Schallwellen und umschlingt sie anschließend mit seiner klebrigen Zunge."
 	},
 
-	thirdParty: {
-		cardmarket: 457668,
-		tcgplayer: 213124
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457668,
+				tcgplayer: 213124
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457668,
+				tcgplayer: 213124
+			}
+		},
+	],
 }
 
 export default card

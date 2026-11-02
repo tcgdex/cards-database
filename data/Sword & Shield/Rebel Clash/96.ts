@@ -67,23 +67,30 @@ const card: Card = {
 	types: ["Fighting"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It hunts without twitching a muscle by pulling in its prey with powerful magnetism. But sometimes it pulls natural enemies in close."
+		en: "It hunts without twitching a muscle by pulling in its prey with powerful magnetism. But sometimes it pulls natural enemies in close.",
+		de: "Es nutzt sein starkes Magnetfeld, um Beute zu sich heranzuziehen. Ebenso zieht es Objekte aus Eisen an, um sich mit ihnen zu schützen."
 	},
 
-	thirdParty: {
-		cardmarket: 457893,
-		tcgplayer: 213184
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457893,
+				tcgplayer: 213184
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457893,
+				tcgplayer: 213184
+			}
+		},
+	],
 }
 
 export default card

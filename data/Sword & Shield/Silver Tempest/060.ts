@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Traumato"
 	},
 
+	illustrator: "Souichirou Gunjima",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -57,20 +58,43 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It puts its prey to sleep and devours their dreams. It seems that bad dreams taste sour, so Drowzee doesn't particularly like eating them.",
+		de: "Traumato versetzt seine Beute in den Schlaf und frisst ihre Träume. Alpträume mag es aufgrund ihres säuerlichen Geschmacks nicht so gern."
 	},
 
-	thirdParty: {
-		cardmarket: 682107,
-		tcgplayer: 451714
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682107,
+				tcgplayer: 451714
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682107,
+				tcgplayer: 451714
+			}
+		},
+	],
 }
 
 export default card

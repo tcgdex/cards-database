@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Camerupt"
 	},
 
+	illustrator: "yuu",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,
@@ -65,19 +66,39 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
+
+	description: {
+		en: "If angered, the humps on its back erupt in a shower of molten lava. It lives in the craters of volcanoes.",
+		de: "Wenn es wütend ist, regnet es aus den Höckern auf seinem Rücken flüssige Lava. Es lebt in den Kratern von Vulkanen."
 	},
 
-	thirdParty: {
-		cardmarket: 664550,
-		tcgplayer: 276948
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665658,
+				tcgplayer: 276948
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665658,
+				tcgplayer: 276948
+			}
+		},
+	],
 }
 
 export default card

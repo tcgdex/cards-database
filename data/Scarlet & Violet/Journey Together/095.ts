@@ -80,30 +80,43 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 	illustrator: "AKIRA EGAWA",
 
-	thirdParty: {
-		cardmarket: 817247
-	},
-
 	variants: [
 		{
-			type: 'reverse'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817247,
+				tcgplayer: 623522
+			}
 		},
 		{
-			type: 'holo'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817247,
+				tcgplayer: 623522
+			}
 		},
 		{
-			type: 'holo',
-			foil: 'cosmos'
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 851019,
+			}
 		},
 		{
 			type: 'normal',
 			stamp: ['player-rewards-program']
 		}
-	]
+	],
 }
 
 export default card

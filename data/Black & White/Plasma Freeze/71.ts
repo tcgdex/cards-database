@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
+				de: "Schlitzer"
 			},
 
 			damage: 10,
@@ -58,6 +59,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Ignoring their injuries, groups attack by sinking the blades that cover their bodies into their prey.",
+		de: "Selbst wenn sie verletzt sind, greifen sie ihren Gegner unbeirrt in der Gruppe an, indem sie ihre Klingen in ihn hineinrammen."
+	},
 
 	thirdParty: {
 		cardmarket: 280949,

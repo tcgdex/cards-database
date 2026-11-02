@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Qurtel"
 	},
 
+	illustrator: "Naoyo Kimura",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 110,
@@ -60,16 +61,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674034,
-		tcgplayer: 283894
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674034,
+				tcgplayer: 283894
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674034,
+				tcgplayer: 283894
+			}
+		},
+	],
 }
 
 export default card

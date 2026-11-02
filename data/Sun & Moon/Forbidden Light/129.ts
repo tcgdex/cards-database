@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Descarta 2 cartas de Energía Water de tu mano. Si lo haces, busca en tu baraja hasta 2 cartas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Scarta due carte Energia Water dalla tua mano. Se lo fai, cerca nel tuo mazzo fino a due carte e aggiungile a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Descarte 2 cartas de Energia Water da sua mão. Se fizer isto, procure por até 2 cartas no seu baralho e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Lege 2 Water-Energiekarten aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, durchsuche dein Deck nach bis zu 2 Karten und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Lege 2 {W}-Energiekarten aus deiner Hand auf deinen Ablagestapel. Wenn du das machst, durchsuche dein Deck nach bis zu 2 Karten und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Zoroark",
@@ -80,16 +74,29 @@ const card: Card = {
 	},
 
 	description: {
-		en: "If it thinks humans are going to discover its den, Zoroark shows them visions that make them wander around in the woods."
+		en: "If it thinks humans are going to discover its den, Zoroark shows them visions that make them wander around in the woods.",
+		de: "Es heißt, dass es jene Menschen, die sein Revier zu enthüllen drohen, mit Illusionen täuscht und dazu bringt, unentwegt durch den Wald zu irren."
 	},
 
 	dexId: [571],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574151,
-		tcgplayer: 246901
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574151,
+				tcgplayer: 246901
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574151,
+				tcgplayer: 246901
+			}
+		},
+	],
 }
 
 export default card

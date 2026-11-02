@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		109,
-	],
+	dexId: [109],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus et Empoisonné.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verwirrt und vergiftet."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt und vergiftet."
 			},
 
 		},
@@ -67,22 +65,30 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278642,
-		tcgplayer: 86497
+	description: {
+		en: "Lighter-than-air gases in its body keep it aloft. The gases not only smell, they are also explosive.",
+		de: "Gase, die leichter als Luft sind, lassen es schweben. Diese Gase stinken und sind explosiv."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278642,
+				tcgplayer: 86497
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278642,
+				tcgplayer: 86497
+			}
+		},
+	],
+
 }
 
 export default card

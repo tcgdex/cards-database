@@ -22,22 +22,26 @@ const card: Card = {
 		es: "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo.",
 		it: "Sostituisci uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon in posizione attiva.",
 		pt: "Mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo.",
-		de: "Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein."
+		de: "Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715723,
+				tcgplayer: 497663,
+				cardtrader: 248890
+			}
+		},
+	],
 
 	illustrator: "Hideki Ishikawa",
 
-	thirdParty: {
-		cardmarket: 715647
-	}
+	
 }
 
 export default card

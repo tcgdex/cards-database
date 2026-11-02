@@ -88,7 +88,7 @@ const card: Card = {
 				es: "Juego de Entes GX",
 				it: "Ultra Azzardo GX",
 				pt: "Jogo de Criatura GX",
-				de: "Bestienspiel GX"
+				de: "Bestienspiel-GX"
 			},
 			effect: {
 				en: "If your opponent’s Pokémon is Knocked Out by damage from this attack, take 1 more Prize card. If this Pokémon has at least 7 extra Energy attached to it (in addition to this attack’s cost), take 3 more Prize cards instead. (You can’t use more than 1 GX attack in a game.)",
@@ -97,19 +97,6 @@ const card: Card = {
 				it: "Se un Pokémon del tuo avversario viene messo KO dai danni di questo attacco, prendi una carta Premio in più. Se questo Pokémon ha almeno sette Energie extra assegnate, in aggiunta a quelle del costo di questo attacco, prendi tre carte Premio in più. Non puoi usare più di un attacco GX a partita.",
 				pt: "Se algum dos Pokémon do seu oponente for Nocauteado pelo dano deste ataque, pegue 1 carta de Prêmio a mais. Se este Pokémon tiver pelo menos 7 Energias adicionais ligadas a ele (além do custo deste ataque), pegue 3 cartas de Prêmio a mais ao invés de 1 (você não pode usar mais de 1 ataque GX por partida).",
 				de: "Wenn das Pokémon deines Gegners durch Schaden dieser Attacke kampfunfähig wird, nimm 1 Preiskarte mehr. Wenn an dieses Pokémon mindestens 7 extra Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), nimm stattdessen 3 Preiskarten mehr. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
-			},
-			damage: 50,
-
-		},
-		{
-			cost: [
-				"Grass",
-			],
-			name: {
-				fr: "Jeu Chimérique-GX",
-			},
-			effect: {
-				fr: "Si le Pokémon de votre adversaire est mis K.O. par les dégâts de cette attaque, récupérez une carte Récompense supplémentaire. Si au moins 7 Énergies supplémentaires sont attachées à ce Pokémon (en plus du coût de cette attaque), récupérez 3 cartes Récompense supplémentaires au lieu d’une. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 			damage: 50,
 

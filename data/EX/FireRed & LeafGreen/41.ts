@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nindoran ♂",
+		en: "Nidoran♂",
 		fr: "Nidoran"
 	},
 
@@ -76,23 +76,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276217,
-		tcgplayer: 87744
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276217,
+				tcgplayer: 87744
+			},
 		},
 		{
-			type: "holo",
-			foil: "energy"
-		}
-	]
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 276217,
+				tcgplayer: 87744
+			},
+		},
+	],
 }
 
 export default card

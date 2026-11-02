@@ -74,9 +74,46 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 835995
-	}
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 835995,
+			tcgplayer: 642163
+		}
+	},
+	{
+		type: "reverse",
+		thirdParty: {
+			cardmarket: 835995,
+			tcgplayer: 642163
+		}
+	},
+	{
+		type: "reverse",
+		foil: "pokeball",
+		thirdParty: {
+			cardmarket: 836585,
+			tcgplayer: 642405
+		}
+	},
+	{
+		type: "reverse",
+		foil: "masterball",
+		thirdParty: {
+			cardmarket: 836586,
+			tcgplayer: 642333
+		}
+	},
+	{
+		type: "holo",
+		stamp: ["fossil-museum"],
+		thirdParty: {
+			cardmarket: 889383,
+			tcgplayer: 695136
+		}
+	},
+],
 }
 
 export default card

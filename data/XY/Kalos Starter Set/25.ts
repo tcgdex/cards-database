@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The plant stalk it holds is its weapon. The stalk is used like a sword to cut all sorts of things.",
+		de: "Dieses Pokémon nutzt eine Lauchstange als Waffe. Es setzt sie wie ein Schwert ein."
+	},
+
 	thirdParty: {
 		cardmarket: 281291,
 		tcgplayer: 85390

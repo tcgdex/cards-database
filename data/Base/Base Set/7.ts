@@ -65,37 +65,47 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "While seeming to do nothing, it fires punches in lightning-fast volleys that are impossible to see.",
 		fr: "Il distribue des séries de coups de poing rapides comme l'éclair, invisibles à l'œil nu.",
-		it: "Anche se sembra inerme, tira fulminee scariche di pugni, impossibili da vedere. LIV 33 N.107"
+		it: "Anche se sembra inerme, tira fulminee scariche di pugni, impossibili da vedere. LIV 33 N.107",
+		de: "Obwohl man nichts zu sehen vermeint, teilt es mit Lichtgeschwindigkeit Boxschläge aus."
 	},
 
 	variants: [
 		{
 			type: "holo",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273702,
+				tcgplayer: 42415
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107002,
+				cardmarket: 660221
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107002,
+				cardmarket: 660221
+			}
 		},
 		{
 			type: "holo",
 			subtype: "1999-2000-copyright",
 		}
-	],
-
-
-	thirdParty: {
-		cardmarket: 273702,
-		tcgplayer: 42415
-	}
+	]
 }
 
 export default card

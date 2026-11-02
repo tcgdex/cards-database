@@ -66,18 +66,40 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715479,
+				tcgplayer: 497418,
+				cardtrader: 248303
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715479,
+				tcgplayer: 497418,
+				cardtrader: 248303
+			}
+		},
+	],
 
 	illustrator: "Taira Akitsu",
 
-	thirdParty: {
-		cardmarket: 715479
-	}
+	description: {
+		en: "It lives in tropical jungles. The bunch of fruit around its neck is delicious. The fruit grows twice a year.",
+		de: "Es lebt im tropischen Dschungel. Die süßen, leckeren Früchte an seinem Hals wachsen zweimal im Jahr."
+	},
 }
 
 export default card

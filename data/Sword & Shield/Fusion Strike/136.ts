@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "E",
 	illustrator: "Masakazu Fukuda",
 
 	description: {
-		en: "It travels by rolling down cliffs. If it falls into a river, it will explode with its last gasp."
+		en: "It travels by rolling down cliffs. If it falls into a river, it will explode with its last gasp.",
+		de: "Es bewegt sich rollend über Abhänge fort. Stürzt es versehentlich in einen Fluss, sprengt es sich in seiner Verzweiflung selbst in die Luft."
 	},
 
 	attacks: [{
@@ -65,17 +72,23 @@ const card: Card = {
 		damage: 70
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582718,
-		tcgplayer: 253341
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582718,
+				tcgplayer: 253341
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582718,
+				tcgplayer: 253341
+			}
+		},
+	],
 }
 
 export default card

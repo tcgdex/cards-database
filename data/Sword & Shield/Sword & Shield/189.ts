@@ -40,7 +40,7 @@ const card: Card = {
 				es: "Une 1 carta de Energía Water de tu mano a este Pokémon. Si lo haces, cámbialo por 1 de tus Pokémon en Banca.",
 				it: "Assegna a questo Pokémon una carta Energia Water dalla tua mano. Se lo fai, scambialo con uno della tua panchina.",
 				pt: "Ligue 1 carta de Energia Water da sua mão a este Pokémon. Se fizer isto, troque-o por 1 dos seus Pokémon no Banco.",
-				de: "Lege 1 Water-Energiekarte aus deiner Hand an dieses Pokémon an. Wenn du das machst, tausche es gegen 1 Pokémon auf deiner Bank aus."
+				de: "Lege 1 {W}-Energiekarte aus deiner Hand an dieses Pokémon an. Wenn du das machst, tausche es gegen 1 Pokémon auf deiner Bank aus."
 			},
 
 		},
@@ -65,7 +65,7 @@ const card: Card = {
 				es: "Pon 2 Energías Water unidas a este Pokémon en tu mano.",
 				it: "Prendi due Energie Water assegnate a questo Pokémon e aggiungile alle carte che hai in mano.",
 				pt: "Coloque 2 cartas de Energia Water ligadas a este Pokémon na sua mão.",
-				de: "Nimm 2 an dieses Pokémon angelegte Water-Energien auf deine Hand."
+				de: "Nimm 2 an dieses Pokémon angelegte {W}-Energien auf deine Hand."
 			},
 			damage: 210,
 

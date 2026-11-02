@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Absol ex",
 		fr: "Absol ex",
-		de: "Absol ex"
+		de: "Absol-ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -23,7 +23,7 @@ const card: Card = {
 		"Darkness",
 	],
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{

@@ -81,6 +81,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "One solid blow from its horns is enough to split apart a large tree. Its greatest rival in Alola is Vikavolt.",
+		de: "Ein Stoß mit seinen Hörnern reicht, um große Bäume zu zersplittern. In Alola ist Donarion sein größter Rivale."
+	},
+
 	thirdParty: {
 		cardmarket: 365572,
 		tcgplayer: 178801

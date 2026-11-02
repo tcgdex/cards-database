@@ -87,7 +87,7 @@ const card: Card = {
 				es: "Cuenta Trágica-GX",
 				it: "Segnale del Giudizio-GX",
 				pt: "Contagem Amaldiçoada GX",
-				de: "Unglückszahl GX"
+				de: "Unglückszahl-GX"
 			},
 			effect: {
 				en: "If your opponent’s Active Pokémon has exactly 4 damage counters on it, that Pokémon is Knocked Out. (You can’t use more than 1 GX attack in a game.)",

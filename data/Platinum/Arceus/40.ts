@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		316,
-	],
+	dexId: [316],
 	
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -35,7 +33,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, during your opponent's next turn, if Gulpin would be Knocked Out by damage from an attack, Gulpin is not Knocked Out and its remaining HP becomes 10 instead.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" wird Schluppuck, wenn es im nächsten Zug deines Gegners durch Schaden eines Angriffs kampfunfähig würde, nicht kampfunfähig und hat stattdessen 10 verbliebene KP."
+				de: "Wirf 1 Münze. Bei „Kopf“ wird Schluppuck, wenn es im nächsten Zug deines Gegners durch Schaden eines Angriffs kampfunfähig würde, nicht kampfunfähig und hat stattdessen 10 verbliebene KP."
 			},
 
 		},
@@ -62,19 +60,28 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278912,
-		tcgplayer: 85978
+	description: {
+		en: "Almost all of its body is its stomach. Its harsh digestive juices quickly dissolve anything it swallows.",
+		de: "Sein Körper besteht fast nur aus Magen. Seine starken Verdauungssäfte zersetzen alles sehr schnell."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85978,
+				cardmarket: 278912
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278912,
+				tcgplayer: 85978
+			}
+		},
+	],
+
 }
 
 export default card

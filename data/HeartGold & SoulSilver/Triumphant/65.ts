@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		401,
-	],
+	dexId: [401],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -52,20 +50,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When its antennae hit each other, it sounds like the music of a xylophone."
+		en: "When its antennae hit each other, it sounds like the music of a xylophone.",
+		de: "Wenn seine zwei Antennen sich berühren, erklingt ein Ruf wie das Spiel eines Xylophons."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86530,
+				cardmarket: 279595
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279595,
+				tcgplayer: 86530
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279595,
-		tcgplayer: 86530
-	}
 }
 
 export default card

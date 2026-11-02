@@ -17,6 +17,10 @@ const card: Card = {
 		177,
 	],
 
+
+
+	cameoDexIds: [178],
+
 	hp: 40,
 
 	types: [
@@ -38,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -58,26 +62,33 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Il picore souvent le sol à la recherche de nourriture mais, de temps en temps, il saute sur les branches pour picorer des pousses."
+		en: "It usually forages for food on the ground but may, on rare occasions, hop onto branches to peck at shoots.",
+		fr: "Il picore souvent le sol à la recherche de nourriture mais, de temps en temps, il saute sur les branches pour picorer des pousses.",
+		de: "Es stöbert normalerweise auf dem Boden nach Nahrung, aber manchmal hüpft es auch auf Zweige und pickt nach jungen Trieben."
 	},
 
-	thirdParty: {
-		cardmarket: 274570,
-		tcgplayer: 87680
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274570,
+				tcgplayer: 87680
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274570,
+				tcgplayer: 87680
+			}
 		}
 	]
 }
 
 export default card
-

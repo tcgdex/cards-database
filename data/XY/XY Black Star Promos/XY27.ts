@@ -8,9 +8,11 @@ const card: Card = {
 	},
 
 	illustrator: "Naoki Saito",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Trainer",
 	set: Set,
+
+	cameoDexIds: [25, 54, 628, 656, 666, 673],
 
 	effect: {
 		fr: "Une seule fois pendant le tour de chaque joueur, si ce joueur a 6 Pokémon en jeu, il peut soigner 10 dégâts à chacun de ses Pokémon.",

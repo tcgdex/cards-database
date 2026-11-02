@@ -4,6 +4,7 @@ import Set from "../Prismatic Evolutions"
 const card: Card = {
 	dexId: [197],
 	set: Set,
+	cameoDexIds: [1024],
 
 	name: {
 		en: "Umbreon ex",
@@ -72,19 +73,27 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: true,
-		normal: false
-	},
-
+	suffix: "ex",
 	illustrator: "YASHIRO Nanaco",
 
-	thirdParty: {
-		cardmarket: 805555
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 805555,
+				tcgplayer: 610516
+			}
+		},
+	],
 }
 
 export default card

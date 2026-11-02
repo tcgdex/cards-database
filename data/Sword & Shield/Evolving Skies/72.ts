@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Floette",
@@ -79,16 +73,29 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It gives its own power to flowers, pouring its heart into caring for them. Floette never forgives anyone who messes up a flower bed."
+		en: "It gives its own power to flowers, pouring its heart into caring for them. Floette never forgives anyone who messes up a flower bed.",
+		de: "Es überträgt seine Kraft auf Blumen und pflegt diese mit ganzem Herzen. Es verzeiht keinem, der sein Blumenbeet verwüstet."
 	},
 
 	dexId: [670],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574120,
-		tcgplayer: 246852
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574120,
+				tcgplayer: 246852
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574120,
+				tcgplayer: 246852
+			}
+		},
+	],
 }
 
 export default card

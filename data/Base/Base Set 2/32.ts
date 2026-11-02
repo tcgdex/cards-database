@@ -62,15 +62,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 273955,
-		tcgplayer: 42504
+
+	description: {
+		en: "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273955,
+				tcgplayer: 42504
+			}
 		}
 	]
 }

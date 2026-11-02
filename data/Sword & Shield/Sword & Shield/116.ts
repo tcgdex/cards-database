@@ -51,7 +51,7 @@ const card: Card = {
 				es: "Une 1 carta de Energía Fighting de tu mano a 1 de tus Pokémon. Si lo haces, cura 120 puntos de daño a ese Pokémon.",
 				it: "Assegna a uno dei tuoi Pokémon una carta Energia Fighting dalla tua mano. Se lo fai, cura quel Pokémon da 120 danni.",
 				pt: "Ligue 1 carta de Energia Fighting da sua mão a 1 dos seus Pokémon. Se fizer isto, cure 120 pontos de dano daquele Pokémon.",
-				de: "Lege 1 Fighting-Energiekarte aus deiner Hand an 1 deiner Pokémon an. Wenn du das machst, heile 120 Schadenspunkte bei jenem Pokémon."
+				de: "Lege 1 {F}-Energiekarte aus deiner Hand an 1 deiner Pokémon an. Wenn du das machst, heile 120 Schadenspunkte bei jenem Pokémon."
 			},
 
 		},

@@ -4,6 +4,7 @@ import Set from "../151"
 const card: Card = {
 	dexId: [25],
 	set: Set,
+	cameoDexIds: [9, 10, 12, 16, 29, 32, 37, 39, 54, 58, 79, 94, 104, 122],
 
 	name: {
 		fr: "Pikachu",
@@ -55,19 +56,34 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
+	description: {
+		en: "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
+		de: "Ist es wütend, entlädt sich augenblicklich die Elektrizität, die es in seinen Backentaschen gespeichert hat."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733768,
+				tcgplayer: 513721,
+				cardtrader: 261321
+			}
+		},
+	],
 
 	illustrator: "Hiroyuki Yamamoto",
 
-	thirdParty: {
-		cardmarket: 733768
-	}
+	
 }
 
 export default card

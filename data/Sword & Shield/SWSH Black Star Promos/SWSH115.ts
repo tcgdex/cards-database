@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Passimian"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	dexId: [766],
 	hp: 110,
 	types: ["Fighting"],
@@ -77,18 +77,22 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 566763
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 566763,
+				tcgplayer: 240894
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"]
+		},
+	],
 }
 
 export default card

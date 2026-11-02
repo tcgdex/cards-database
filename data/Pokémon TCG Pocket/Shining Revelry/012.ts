@@ -23,7 +23,9 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Magmar"
+		en: "Magmar",
+		fr: "Magmar",
+		de: "Magmar"
 	},
 
 	description: {
@@ -31,7 +33,7 @@ const card: Card = {
 		fr: "Quand il inspire profondément, les flammes dans son\nventre gagnent en intensité et atteignent les 2 000 °C.",
 		es: "Al respirar profundamente, el fuego del interior de su\nvientre gana intensidad y puede alcanzar los 2000 °C.",
 		it: "Quando respira profondamente, le fiamme all'interno del\nsuo ventre aumentano d'intensità, raggiungendo i 2.000 ºC.",
-		de: "Holt es tief Luft, werden die Flammen in seinem Bauch\nstärker und erreichen eine Temperatur von 2000 ºC.",
+		de: "Holt es tief Luft, werden die Flammen in seinem Bauch stärker und erreichen eine Temperatur von 2000 ºC.",
 		'pt-br': "Quando Magmortar respira fundo, o fogo na sua barriga\nse intensifica, chegando a atingir temperaturas superiores\na 2.000 ºC.",
 		ko: "크게 숨을 들이쉬면 배 안의\n불꽃이 더욱 거세어져서\n섭씨 2000도에 달하게 된다."
 	},

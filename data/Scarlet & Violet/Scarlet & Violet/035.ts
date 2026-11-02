@@ -57,14 +57,30 @@ const card: Card = {
 		damage: "80×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "Kurata So",
+
+	description: {
+		en: "It burns coal inside its shell for energy. It blows out black soot if it is endangered.",
+		de: "Im Inneren seines Panzers verbrennt es Kohle. Wenn es angegriffen wird, stößt es dicken, schwarzen Rauch aus und flieht."
+	},
 
 	thirdParty: {
         cardmarket: 702331,

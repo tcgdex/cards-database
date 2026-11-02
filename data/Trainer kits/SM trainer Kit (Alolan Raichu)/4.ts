@@ -14,10 +14,26 @@ const card: Card = {
 		de: "Velursi"
 	},
 
+	illustrator: "Sanosuke Sakuma",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
-	types: ["Colorless"],
+	types: [
+		"Colorless"
+	],
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Tackle",
+				de: "Tackle"
+			},
+			damage: 30
+		},
+	],
 	stage: "Basic",
 	retreat: 2,
 
@@ -26,9 +42,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	thirdParty: {
-		tcgplayer: 152862
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297241,
+				tcgplayer: 152862
+			}
+		},
+	],
+
 }
 
 export default card

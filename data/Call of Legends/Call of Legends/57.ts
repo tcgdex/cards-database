@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		107,
-	],
+	dexId: [107],
 
 	hp: 70,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, prevent all effects of attacks, including damage, done to Hitmonchan during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c'est face, évitez tous les effets d'attaques (y compris les dégâts) infligés à Tygnon pendant le prochain tour de votre adversaire.",
-				de: "Wirf eine Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Nockchan zugefügt werden."
+				de: "Wirf eine Münze. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Nockchan zugefügt werden."
 			},
 
 		},
@@ -65,14 +63,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		en: "Its punches slice the air. However, it seems to need a short break after fighting for three minutes.",
+		de: "Seine Fäuste zerschneiden die Luft. Es muss jedoch alle drei Minuten eine kurze Pause einlegen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86096,
+				cardmarket: 279700
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86096,
+				cardmarket: 279700
+			},
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279700,
-		tcgplayer: 86096
-	}
 }
 
 export default card

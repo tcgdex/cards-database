@@ -80,6 +80,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It is said to have slept in a glacier for thousands of years. Its body can't be melted, even by magma.",
+		de: "Es heißt, es habe Jahrtausende lang im ewigen Eis geschlummert. Selbst Magma schmilzt es nicht."
+	},
+
 	thirdParty: {
 		cardmarket: 311878,
 		tcgplayer: 149050

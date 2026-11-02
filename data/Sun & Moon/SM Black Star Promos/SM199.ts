@@ -11,14 +11,18 @@ const card: Card = {
 		de: "Enton"
 	},
 
-	illustrator: undefined,
-	rarity: "Rare",
+	illustrator: "Framestore",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
 	dexId: [
 		54,
 	],
+
+
+
+	cameoDexIds: [164],
 
 	hp: 70,
 
@@ -55,7 +59,22 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2
+	retreat: 2,
+
+	description: {
+		en: "Using psychokinesis gives it a headache, so it normally passes the time spacing out and doing as little as possible.",
+		de: "Wenn es seine Psycho-Kräfte einsetzt, bekommt es Kopfschmerzen. Deshalb steht es lieber untätig und geistesabwesend herum."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 372000,
+				tcgplayer: 188321
+			}
+		}
+	],
 }
 
 export default card

@@ -44,18 +44,40 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715613,
+				tcgplayer: 497638,
+				cardtrader: 248795
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715613,
+				tcgplayer: 497638,
+				cardtrader: 248795
+			}
+		},
+	],
 
 	illustrator: "Narumi Sato",
 
-	thirdParty: {
-		cardmarket: 715613
-	}
+	description: {
+		en: "It can't see, so its first approach to examining things is to bite them. You will be covered in wounds until a Deino warms up to you.",
+		de: "Da es nichts sehen kann, beißt es in alles hinein, um es zu untersuchen. Bis Kapuno Vertrauen zu einem fasst, wird man mit Wunden übersät sein."
+	},
 }
 
 export default card

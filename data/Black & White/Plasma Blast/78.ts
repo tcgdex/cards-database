@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon tantas cartas de tu mano como quieras en la parte inferior de tu baraja en el orden que quieras.",
 		it: "Prendi tutte le carte che vuoi dalla tua mano e mettile in fondo al tuo mazzo nell’ordine che preferisci. Poi pesca una carta per ogni carta che hai messo in fondo al tuo mazzo.",
 		pt: "Coloque quantos cards da sua mão quiser na base de seu baralho, em qualquer ordem. A seguir, compre um card para cada card descartado.",
-		de: "Lege beliebig viele Karten von deiner Hand in beliebiger Reihenfolge unter dein Deck. Ziehe anschließend 1 Karte für jede Karte, die du unter dein Deck gelegt hast."
+		de: "Lege beliebig viele Karten von deiner Hand in beliebiger Reihenfolge unter dein Deck. Ziehe anschließend 1 Karte für jede Karte, die du unter dein Deck gelegt hast. 3Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

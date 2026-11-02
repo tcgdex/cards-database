@@ -68,7 +68,7 @@ const card: Card = {
 				es: "Puedes descartar todas las Energías Water de este Pokémon. Si lo haces, este ataque hace 60 puntos de daño más.",
 				it: "Puoi scartare tutte le Energie Water da questo Pokémon. Se lo fai, questo attacco infligge 60 danni in più.",
 				pt: "Você pode descartar todas as Energias Water deste Pokémon. Se fizer isto, este ataque causará 60 pontos de dano a mais.",
-				de: "Du kannst alle Water-Energien von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke 60 Schadenspunkte mehr zu."
+				de: "Du kannst alle {W}-Energien von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke 60 Schadenspunkte mehr zu."
 			},
 			damage: "110+",
 
@@ -85,23 +85,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Anger has reignited its atrophied flame sac. This Pokémon spews fire everywhere as it rampages indiscriminately."
+		en: "Anger has reignited its atrophied flame sac. This Pokémon spews fire everywhere as it rampages indiscriminately.",
+		de: "Sein Zorn hat in seinem eigentlich verkümmerten Flammensack neues Feuer entfacht. Es speit wie wild Feuer und lässt seiner Wut freien Lauf."
 	},
 
-	thirdParty: {
-		cardmarket: 483014,
-		tcgplayer: 219241
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483014,
+				tcgplayer: 219241
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483014,
+				tcgplayer: 219241
+			}
+		},
+	],
 }
 
 export default card

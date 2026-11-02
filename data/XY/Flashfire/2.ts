@@ -94,6 +94,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A steel-hard shell protects its tender body. It quietly endures hardships while awaiting evolution.",
+		de: "Der stahlharte Panzer schützt seinen zarten Körper. Es wartet geduldig auf seine Entwicklung."
+	},
+
 	thirdParty: {
 		cardmarket: 281485,
 		tcgplayer: 91135

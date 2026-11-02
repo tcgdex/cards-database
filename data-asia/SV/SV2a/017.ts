@@ -1,20 +1,17 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV2a"
+import { Card } from "../../../interfaces";
+import Set from "../SV2a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
 		ja: "ピジョン",
 		'zh-tw': "比比鳥",
 		th: "พีเจียน",
-		id: "Pidgeotto"
+		id: "Pidgeotto",
 	},
 
 	illustrator: "Oswaldo KATO",
-	rarity: "Common",
 	category: "Pokemon",
-	dexId: [17],
 	hp: 80,
 	types: ["Colorless"],
 
@@ -22,40 +19,58 @@ const card: Card = {
 		ja: "広い 縄張りを 持っており 侵入する 邪魔者は 徹底的に つつかれてしまう。",
 		'zh-tw': "擁有著廣闊的地盤。 要是有哪個討厭鬼膽敢入侵， 就會遭到牠的瘋狂啄擊。",
 		th: "มีอาณาเขตกว้างขวาง ผู้ที่บุกรุกเข้ามาในอาณาเขตจะถูกไล่จิกจนพรุน",
-		id: "Pidgeotto memiliki wilayah teritorial yang luas. Pokémon ini mematuk secara menyeluruh penyusup yang memasuki wilayah teritorialnya."
+		id: "Pidgeotto memiliki wilayah teritorial yang luas. Pokémon ini mematuk secara menyeluruh penyusup yang memasuki wilayah teritorialnya.",
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		cost: ["Colorless"],
-
-		name: {
-			ja: "はばたく",
-			'zh-tw': "羽擊",
-			th: "ตีปีก",
-			id: "Mengepak"
+	attacks: [
+		{
+			name: {
+				ja: "はばたく",
+				'zh-tw': "羽擊",
+				th: "ตีปีก",
+				id: "Mengepak",
+			},
+			damage: 20,
+			cost: ["Colorless"],
 		},
+	],
 
-		damage: 20
-	}],
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
 
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 719459,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 837256,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 837257,
+			},
+		},
+	],
 
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
+	evolveFrom: {
+		ja: "ポッポ",
+	},
 
 	retreat: 0,
 	regulationMark: "G",
+	rarity: "Common",
+	dexId: [17],
+};
 
-	thirdParty: {
-		cardmarket: 719459
-	}
-}
-
-export default card
+export default card;

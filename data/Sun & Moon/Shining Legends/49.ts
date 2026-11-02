@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Purrloin",
 		fr: "Chacripan",
+		de: "Felilou"
 	},
 
 	stage: "Stage1",
@@ -91,6 +92,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Their beautiful form comes from the muscles they have developed. They run silently in the night.",
+		de: "Sein anmutiges Auftreten verdankt es den Muskeln, die es entwickelt hat. Es prescht lautlos durch die Nacht."
+	},
 
 	thirdParty: {
 		cardmarket: 302187,

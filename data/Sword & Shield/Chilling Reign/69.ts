@@ -4,6 +4,7 @@ import Set from '../Chilling Reign'
 const card: Card = {
 	dexId: [686],
 	set: Set,
+	cameoDexIds: [241],
 
 	name: {
 		en: "Inkay",
@@ -47,23 +48,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "By exposing foes to the blinking of its luminescent spots, Inkay demoralizes them, and then it seizes the chance to flee."
+		en: "By exposing foes to the blinking of its luminescent spots, Inkay demoralizes them, and then it seizes the chance to flee.",
+		de: "Es lässt die Punkte auf seinem Körper blinken, um Gegnern den Kampfeswillen zu rauben. Diesen Moment nutzt es dann, um zu fliehen."
 	},
 
-	thirdParty: {
-		cardmarket: 567177,
-		tcgplayer: 241730
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567177,
+				tcgplayer: 241730
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567177,
+				tcgplayer: 241730
+			}
+		},
+	],
 }
 
 export default card

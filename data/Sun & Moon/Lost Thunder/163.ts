@@ -70,6 +70,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon feeds on berries, whose leftover seeds become the ammunition for attacks it fires off from its mouth.",
+		de: "Dieses Pokémon ernährt sich von Beeren. Die Samen verschießt es später als Munition aus seinem Schnabel."
+	},
+
 	thirdParty: {
 		cardmarket: 365799,
 		tcgplayer: 178986

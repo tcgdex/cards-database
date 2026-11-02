@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		37,
-	],
+	dexId: [37],
 
 	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Burned.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Brûlé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt verbrannt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verbrannt."
 			},
 
 		},
@@ -55,7 +53,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to Vulpix.",
 				fr: "Lancez une pièce. Si c’est pile, défaussez-vous d’une carte Énergie Fire attachée à Goupix.",
-				de: "Wirf eine Münze. Bei \"Zahl\" lege 1 an Vulpix angelegte -Energie auf deinen Ablagestapel."
+				de: "Wirf eine Münze. Bei „Zahl“ lege 1 an Vulpix angelegte {R}-Energie auf deinen Ablagestapel."
 			},
 			damage: 30,
 
@@ -72,22 +70,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If it is attacked by an enemy that is stronger than itself, it feigns injury to fool the enemy and escapes."
+		en: "If it is attacked by an enemy that is stronger than itself, it feigns injury to fool the enemy and escapes.",
+		de: "Greift es ein größerer Gegner an, täuscht es eine Verletzung vor, um sicher vor ihm zu flüchten."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90444,
+				cardmarket: 279059
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90444,
+				cardmarket: 279059
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279059,
-		tcgplayer: 90444
-	}
 }
 
 export default card

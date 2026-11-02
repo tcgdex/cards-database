@@ -9,22 +9,32 @@ const card: Card = {
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		172,
-	],
+	dexId: [172],
 
 	hp: 30,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
-	stage: "Basic",
+	stage: "Baby",
 
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30"
+		},
+	],
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "x2"
+		},
+	],
 	attacks: [
 		{
 			cost: [
@@ -36,7 +46,7 @@ const card: Card = {
 				de: "Energieflicken"
 			},
 			effect: {
-				en: "Take an Energy card attached to one of your Pokémon and attach it to another of your Pokémon.",
+				en: "Take a basic Energy card attached to 1 of your Pokémon and attach it to another of your Pokémon.",
 				fr: "Prenez une carte Énergie de base attachée à l'un de vos Pokémon et attachez-la à un autre de vos Pokémon.",
 				de: "Nimm eine Basis-Energiekarte, die an 1 deiner Pokémon angelegt ist, und lege sie an ein anderes deiner Pokémon an."
 			},
@@ -44,19 +54,24 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 274897,
-		tcgplayer: 88013
-	},
+	retreat: 1,
 
-	variants:[
+	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 88013,
+				cardmarket: 274897
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 88013,
+				cardmarket: 274897
+			},
+		},
+	],
 }
 
 export default card

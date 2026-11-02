@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Noibat",
 		fr: "Sonistrelle",
+		de: "eF-eM"
 	},
 
 	suffix: "GX",
@@ -95,7 +96,7 @@ const card: Card = {
 				es: "Estruendo GX",
 				it: "Ondaboato-GX",
 				pt: "Rajada Explosiva GX",
-				de: "Überschallknall GX"
+				de: "Überschallknall-GX"
 			},
 			effect: {
 				en: "This attack does 50 damage to each of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) (You can’t use more than 1 GX attack in a game.)",
@@ -118,10 +119,16 @@ const card: Card = {
 
 	retreat: 0,
 
-	thirdParty: {
-		cardmarket: 299558,
-		tcgplayer: 138595
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "rainbow",
+			thirdParty: {
+				cardmarket: 299558,
+				tcgplayer: 138595
+			}
+		},
+	],
 }
 
 export default card

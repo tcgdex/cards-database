@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Toxiquak"
 	},
 
+	illustrator: "Uta",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 120,
@@ -67,20 +68,37 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It bounces toward opponents and gouges them with poisonous claws. No more than a scratch is needed to knock out its adversaries.",
+		de: "Es nähert sich springend seinem Gegner und bohrt seine giftigen Klauen in ihn hinein. Schon ein kleiner Kratzer lässt den Gegner K.O. gehen."
 	},
 
-	thirdParty: {
-		cardmarket: 682157,
-		tcgplayer: 451764
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682157,
+				tcgplayer: 451764
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682157,
+				tcgplayer: 451764
+			}
+		},
+	],
 }
 
 export default card

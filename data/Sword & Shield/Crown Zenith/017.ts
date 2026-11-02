@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Coronospa"
 	},
 
+	illustrator: "Nurikabe",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 110,
@@ -66,20 +67,39 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "Calyrex is a merciful Pokémon, capable of providing healing and blessings. It reigned over the Galar region in times of yore.",
+		de: "Ein warmherziges Pokémon, das über heilende und segnende Kräfte verfügt. In längst vergangenen Zeiten herrschte es über Galar."
 	},
 
-	thirdParty: {
-		cardmarket: 691734,
-		tcgplayer: 478089
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691734,
+				tcgplayer: 478089
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691734,
+				tcgplayer: 478089
+			}
+		},
+	],
 }
 
 export default card

@@ -74,6 +74,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It smacks the scales on its head against rocks or against the ground to frighten its opponents. It can also contact its friends with these noises.",
+		de: "Mit der Schuppe an seinem Kopf schlägt es laut auf Steine oder auf den Boden, um seine Gegner einzuschüchtern oder Freunde zu rufen."
+	},
+
 	thirdParty: {
 		cardmarket: 408434,
 		tcgplayer: 201282

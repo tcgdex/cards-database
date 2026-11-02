@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Akira Komayama",
 
 	description: {
-		en: "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter."
+		en: "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
+		de: "Ein hitziger Geselle, der im Kampf seinen dornigen Schweif umherschwingt. Auf seinem Kopf wachsen bittere Kräuter."
 	},
 
 	attacks: [{
@@ -74,17 +81,23 @@ const card: Card = {
 		damage: 70
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582036,
-		tcgplayer: 253078
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582036,
+				tcgplayer: 253078
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582036,
+				tcgplayer: 253078
+			}
+		},
+	],
 }
 
 export default card

@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		68,
-	],
+	dexId: [68],
 
 	hp: 130,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Machoke",
 		fr: "Machopeur",
+		de: "Maschock"
 	},
 
 	stage: "Stage2",
@@ -62,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "Does 60 damage plus 10 more damage for each Fighting Energy attached to Machamp.",
 				fr: "Inflige 60 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie Fighting attachée à Mackogneur.",
-				de: "Dieser Angriff fügt 60 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Machomei angelegte -Energie zu."
+				de: "Dieser Angriff fügt 60 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Machomei angelegte {F}-Energie zu."
 			},
 			damage: "60+",
 
@@ -79,20 +78,27 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles."
+		en: "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles.",
+		de: "Es verwendet seine vier Arme, um seine Gegner mit Schlägen aus allen Winkeln einzudecken."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86967,
+				cardmarket: 279556
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279556,
+				tcgplayer: 86967
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279556,
-		tcgplayer: 86967
-	}
 }
 
 export default card

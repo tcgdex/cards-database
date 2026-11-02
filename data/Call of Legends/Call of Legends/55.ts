@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		155,
-	],
+	dexId: [155],
 
 	hp: 40,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to Cyndaquil.",
 				fr: "Lancez une pièce. Si c’est pile, défaussez une Énergie Fire attachée à Héricendre.",
-				de: "Wirf eine Münze. Bei \"Zahl\" lege eine an Feurigel angelegte -Energiekarte auf deinen Ablagestapel."
+				de: "Wirf eine Münze. Bei „Zahl“ lege eine an Feurigel angelegte {R}-Energie auf deinen Ablagestapel."
 			},
 			damage: 20,
 
@@ -48,16 +46,33 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	description: {
+		en: "It is timid, and always curls itself up in a ball. If attacked, it flares up its back for protection.",
+		de: "Es ist ruhig und kugelt sich stets zusammen. Zum Schutz entflammt es seinen Rücken."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84553,
+				cardmarket: 279698
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84553,
+				cardmarket: 279698
+			},
 		},
 	],
 
-	retreat: 1,
-
-	thirdParty: {
-		cardmarket: 279698,
-		tcgplayer: 84553
-	}
 }
 
 export default card

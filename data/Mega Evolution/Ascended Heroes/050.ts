@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Vanillish do N"
 	},
 
+	evolveFrom: {
+		en: "N's Vanillite",
+		fr: "Sorbébé de N",
+		es: "Vanillite de N",
+		'es-mx': "Vanillite de N",
+		de: "Ns Gelatini",
+		it: "Vanillite di N",
+		pt: "Vanillite do N",
+	},
+
 	illustrator: "kirisAki",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [583],
 	hp: 100,
 	types: ["Water"],
 	stage: "Stage1",
@@ -61,13 +72,46 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675862,
-		cardmarket: 869661
-	}
+	description: {
+		en: "They cool down the surrounding air and create ice particles, which they use to freeze their foes.",
+		fr: "Ce Pokémon refroidit l'air ambiant et crée ainsi des petites particules de glace dont il se sert pour geler ses ennemis.",
+		de: "Es produziert Eiskörner, indem es die Luft um sich herum abkühlt, und friert mit diesen seine Gegner ein."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869661,
+			tcgplayer: 675862
+		}
+	},
+	{
+		type: "reverse",
+		foil: "pokeball",
+		thirdParty: {
+			cardmarket: 870216,
+			tcgplayer: 676892
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870215,
+			tcgplayer: 677032
+		}
+	},
+],
 }
 
 export default card

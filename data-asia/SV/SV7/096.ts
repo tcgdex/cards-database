@@ -19,6 +19,16 @@ const card: Card = {
 		ja: "このカードをつけているポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを12個のせる。その後、このカードをトラッシュする。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 779110,
+				tcgplayer: 567951,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "H",
 	rarity: "None"

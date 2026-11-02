@@ -27,7 +27,8 @@ const card: Card = {
 	evolveFrom: {
 		en: "Poliwhirl",
 		fr: "Têtarte",
-		it: "Poliwhirl"
+		it: "Poliwhirl",
+		de: "Quaputzi"
 	},
 
 	stage: "Stage2",
@@ -47,8 +48,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 30 damage plus 10 more damage for each Water Energy attached to Poliwrath but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count.",
-				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Tartard en plus du coût en Énergie de cette attaque. Les Énergies  supplémentaires après la seconde ne comptent pas.",
-				de: "Fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Quappo abgelegte  Energiekarte zu, die nicht zum Zahlen der Energiekosten füür diesen Angriff verwendet wurde. Du kannst nicht mehr als 20 Schadenspunkte auf diese Weise hinzufügen.",
+				fr: "Inflige 30 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {W} attachée à Tartard en plus du coût en Énergie de cette attaque. Les Énergies {W} supplémentaires après la seconde ne comptent pas.",
+				de: "Fügt 30 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf Quappo abgelegte {W} Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Du kannst nicht mehr als 20 Schadenspunkte auf diese Weise hinzufügen.",
 				it: "Infligge 30 danni più altri 10 danni per ogni carta Energia Acqua assegnata a Poliwrath che non viene usata per pagare il costo di Energia di questo attacco. Altre carte Energia Acqua dopo la 2ª non contano."
 			},
 			damage: "30+",
@@ -71,7 +72,7 @@ const card: Card = {
 				en: "If the Defending Pokémon has any Energy cards attached to it, choose 1 and discard it.",
 				fr: "Si des cartes Énergie sont attachées au Pokémon Défenseur, choisissez 1 d'elle et défaussez-la.",
 				de: "Sind auf dem verteidigenden Pokémon Energiekarten abgelegt, wähle eine von ihnen und entferne sie.",
-				it: "Se sono state assegnate carte Energia al Pokémon Difensore, scegline una e scartala."	
+				it: "Se sono state assegnate carte Energia al Pokémon Difensore, scegline una e scartala."
 			},
 			damage: 40,
 
@@ -84,37 +85,47 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
+		en: "An adept swimmer at both the front crawl and breaststroke. Easily overtakes the best human swimmers.",
 		fr: "Excellent nageur, il pratique le crawl ou la nage papillon mieux qu'un champion olympique.",
-		it: "Abile nuotatore sia nel crawl sia a rana. Supera con facilità qualsiasi nuotatore di razza umana. LIV 48 N.62"
+		it: "Abile nuotatore sia nel crawl sia a rana. Supera con facilità qualsiasi nuotatore di razza umana. LIV 48 N.62",
+		de: "Ein sowohl im Kraulen als auch im Brustschwimmen erfahrenes Pokémon. Überholt menschliche Schwimmer problemlos."
 	},
 
 	variants: [
 		{
 			type: "holo",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273708,
+				tcgplayer: 42353
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107007,
+				cardmarket: 660215
+			}
 		},
 		{
 			type: "holo",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107007,
+				cardmarket: 660215
+			}
 		},
 		{
 			type: "holo",
 			subtype: "1999-2000-copyright",
 		}
-	],
-
-
-	thirdParty: {
-		cardmarket: 273708,
-		tcgplayer: 42353
-	}
+	]
 }
 
 export default card

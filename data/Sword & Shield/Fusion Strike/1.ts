@@ -2,7 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../Fusion Strike"
 
 const card: Card = {
-	dexId: [251],
+	dexId: [10],
 	set: Set,
 
 	name: {
@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 50,
 	types: ["Grass"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Mitsuhiro Arita",
 
 	description: {
-		en: "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls."
+		en: "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
+		de: "Es hat Saugnäpfe an den Beinchen, mit denen es mühelos Steigungen und Mauern erklimmen kann."
 	},
 
 	attacks: [{
@@ -62,17 +69,23 @@ const card: Card = {
 		damage: 10
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582029,
-		tcgplayer: 253069
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582029,
+				tcgplayer: 253069
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582029,
+				tcgplayer: 253069
+			}
+		},
+	],
 }
 
 export default card

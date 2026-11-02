@@ -86,6 +86,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It wanders around in a never-ending search for food. At dusk, it collapses from exhaustion and falls asleep on the spot.",
+		de: "Die Futtersuche treibt es unaufhörlich umher, doch sobald die Sonne untergeht, wird es von Müdigkeit überfallen und schläft sofort ein."
+	},
+
 	thirdParty: {
 		cardmarket: 316038,
 		tcgplayer: 157729

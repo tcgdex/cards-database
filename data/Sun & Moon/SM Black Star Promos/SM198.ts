@@ -11,8 +11,8 @@ const card: Card = {
 		de: "Bisasam"
 	},
 
-	illustrator: undefined,
-	rarity: "Rare",
+	illustrator: "MPC Film",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -72,7 +72,22 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2
+	retreat: 2,
+
+	description: {
+		en: "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
+		de: "Dieses Pokémon trägt von Geburt an einen Samen auf dem Rücken, der mit ihm keimt und wächst."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 371999,
+				tcgplayer: 188320
+			}
+		}
+	],
 }
 
 export default card

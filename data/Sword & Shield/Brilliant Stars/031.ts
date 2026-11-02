@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Lapras"
 	},
 
+	illustrator: "Teeziro",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,
@@ -44,20 +45,37 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "A smart and kindhearted Pokémon, it glides across the surface of the sea while its beautiful song echoes around it.",
+		de: "Ein intelligentes und herzensgutes Pokémon. Während es auf dem Meer schwimmt, lässt es seinen herrlichen Gesang erklingen."
 	},
 
-	thirdParty: {
-		cardmarket: 608481,
-		tcgplayer: 263730
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608481,
+				tcgplayer: 263730
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608481,
+				tcgplayer: 263730
+			}
+		},
+	],
 }
 
 export default card

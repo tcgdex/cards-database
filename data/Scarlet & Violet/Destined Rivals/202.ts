@@ -4,6 +4,7 @@ import Set from "../Destined Rivals"
 const card: Card = {
 	dexId: [20],
 	set: Set,
+	cameoDexIds: [19],
 
 	name: {
 		en: "Team Rocket's Raticate",
@@ -59,18 +60,24 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826076,
+				tcgplayer: 633002
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826076
-	}
 }
 
 export default card

@@ -79,6 +79,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Once it becomes an adult, it has a tendency to let its comrades plant footprints on its back.",
+		de: "Ist es erwachsen, lässt es sich gern von seinen Kameraden Fußabdrücke auf den Rücken setzen."
+	},
+
 	thirdParty: {
 		cardmarket: 286369,
 		tcgplayer: 107242

@@ -94,23 +94,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It habitually shows off its strength with the sparks it creates by ramming its steel body into boulders."
+		en: "It habitually shows off its strength with the sparks it creates by ramming its steel body into boulders.",
+		de: "Gelegentlich demonstriert es seine Kraft, indem es mit der Größe der Funken angibt, die entstehen, wenn es seinen stählernen Körper in Felsen rammt."
 	},
 
-	thirdParty: {
-		cardmarket: 483489,
-		tcgplayer: 219380
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483489,
+				tcgplayer: 219380
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483489,
+				tcgplayer: 219380
+			}
+		},
+	],
 }
 
 export default card

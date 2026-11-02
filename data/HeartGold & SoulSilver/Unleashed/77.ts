@@ -3,7 +3,7 @@ import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Interviewer’s Questions",
+		en: "Interviewer's Questions",
 		fr: "Questionnaire d’interview",
 		de: "Befragung"
 	},
@@ -13,24 +13,32 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [470],
+
 	effect: {
 		fr: "Regardez les 8 cartes du dessus de votre deck. Choisissez autant de cartes Énergie que vous le souhaitez, montrez-les à votre adversaire et ajoutez-les à votre main. Mélangez les autres cartes avec votre deck.",
-		en: "Look at the top 8 cards of your deck. Choose as many Energy cards as you like, show them to your opponent, and put them into your hand. Shuffle the other cards back into your deck.",
-		de: "Schau dir die obersten 8 Karten deines Decks an. Wähle beliebig viele Energiekarten, zeige sie deinem Gegner und nimm sie auf die Hand. Mische die anderen Karten anschließend in dein Deck."
+		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Look at the top 8 cards of your deck. Choose as many Energy cards as you like, show them to your opponent, and put them into your hand. Shuffle the other cards back into your deck.",
+		de: "Du kannst in jedem Zug nur eine Unterstützerkarte spielen. Wenn du diese Karte ausspielst, lege sie neben dein Aktives Pokémon. Lege diese Karte am Ende deines Zuges auf deinen Ablagestapel. Schau dir die obersten 8 Karten deines Decks an. Wähle beliebig viele Energiekarten, zeige sie deinem Gegner und nimm sie auf die Hand. Mische die anderen Karten anschließend in dein Deck."
 	},
 
 	trainerType: "Supporter",
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279233,
+				tcgplayer: 86286
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279233,
+				tcgplayer: 86286
+			}
 		},
 	],
-
-	hp: 0
 }
 
 export default card

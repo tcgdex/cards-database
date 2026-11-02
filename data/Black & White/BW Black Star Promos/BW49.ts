@@ -20,7 +20,7 @@ const card: Card = {
 	],
 	evolveFrom: {
 		en: "Petilil",
-		fr: "Petilil",
+		fr: "Chlorobule",
 	},
 	stage: "Stage1",
 
@@ -73,6 +73,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Even veteran Trainers face a challenge in getting its beautiful flower to bloom. This Pokémon is popular with celebrities.",
+	},
 }
 
 export default card

@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire doit lancer une pièce. Si c'est pile, cette attaque n'a aucun effet.",
-				de: "Falls das verteidgende Pokémon während des nächsten gegnerischen Zuges anzugreifen veruscht, wirft dein Gegner eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+				de: "Falls das verteidigende Pokémon während des nächsten gegnerischen Zuges anzugreifen versucht, wirft dein Gegner eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 10,
 
@@ -53,29 +53,37 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Réputé pour tirer avec précision un jet d'encre sur des insectes volants depuis la surface de l'eau."
+		en: "Known to shoot down flying bugs with precision blasts of ink from the surface of the water.",
+		fr: "Réputé pour tirer avec précision un jet d'encre sur des insectes volants depuis la surface de l'eau.",
+		de: "Es ist dafür bekannt, fliegende Insekten mit einem präzisen Tintenstrahl von der Wasseroberfläche aus abzuschießen."
 	},
 
-	thirdParty: {
-		cardmarket: 273910,
-		tcgplayer: 44451
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273910,
+				tcgplayer: 44451
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 273910,
+				tcgplayer: 44451
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			thirdParty: {
+				cardmarket: 273910,
+				tcgplayer: 44451
+			}
 		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright"
-		}
-	]
+	],
 }
 
 export default card

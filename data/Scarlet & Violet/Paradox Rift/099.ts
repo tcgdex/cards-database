@@ -38,7 +38,7 @@ const card: Card = {
 			es: "Durante tu turno, si este Pokémon está en tu Banca, cada vez que unas una carta de Energía de tu mano a este Pokémon, puedes cambiarlo por tu Pokémon Activo.",
 			it: "Durante il tuo turno, se questo Pokémon è nella tua panchina, ogni volta che assegni a questo Pokémon una carta Energia dalla tua mano, puoi scambiarlo con il tuo Pokémon attivo.",
 			pt: "Durante o seu turno, se este Pokémon estiver no seu Banco, sempre que você ligar uma carta de Energia da sua mão a este Pokémon, você poderá trocá-lo pelo seu Pokémon Ativo.",
-			de: "Während deines Zuges, wenn sich dieses Pokémon auf deiner Bank befindet, kannst du es jedes Mal, wenn du 1 Energiekarte aus deiner Hand an dieses Pokémon anlegst, gegen dein Aktives Pokémon austauschen."
+			de: "Einmal während deines Zuges, wenn sich dieses Pokémon auf deiner Bank befindet und du 1 Energiekarte aus deiner Hand an dieses Pokémon anlegst, kannst du es gegen dein Aktives Pokémon austauschen."
 		}
 	}],
 
@@ -66,18 +66,42 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This is its form when its shell has fallen off. The color of its core depends on the materials that made up the food it ate.",
+		de: "In dieser Form hat es seine Schale verloren. Die Inhaltsstoffe in Metenos Nahrung nehmen Einfluss auf die Färbung seines Kerns."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740613,
+				tcgplayer: 523769,
+				cardtrader: 265201
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740613,
+				tcgplayer: 523769,
+				cardtrader: 265201
+			}
+		},
+	],
 
 	illustrator: "OKUBO",
 
-	thirdParty: {
-		cardmarket: 740613
-	}
+	
 }
 
 export default card

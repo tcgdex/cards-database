@@ -150,6 +150,9 @@
 				},
 				"Mega Hyper Rare": {
 					"type": "string"
+				},
+				"Mega Attack Rare": {
+					"type": "string"
 				}
 			},
 			"required": [
@@ -180,7 +183,8 @@
 				"Special illustration rare",
 				"Ultra Rare",
 				"Uncommon",
-				"Mega Hyper Rare"
+				"Mega Hyper Rare",
+				"Mega Attack Rare"
 			],
 			"type": "object"
 		},
@@ -240,6 +244,9 @@
 				"EX": {
 					"type": "string"
 				},
+				"ex": {
+					"type": "string"
+				},
 				"GX": {
 					"type": "string"
 				},
@@ -261,6 +268,7 @@
 			},
 			"required": [
 				"EX",
+				"ex",
 				"GX",
 				"Legend",
 				"Prime",

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Mira las 6 primeras cartas de tu baraja y une 1 carta de Energía Básica que encuentres entre ellas a un Pokémon Básico de tu Banca. Pon el resto de cartas de nuevo en tu baraja y barájalas todas.",
 		it: "Guarda le prime sei carte del tuo mazzo e assegna una carta Energia base presente tra quelle carte a un Pokémon Base nella tua panchina. Poi rimischia le altre carte nel tuo mazzo.",
 		pt: "Veja os 6 cards de cima do seu baralho e ligue um card de Energia básica que encontrar a um Pokémon Básico no seu Banco. Embaralhe os demais cards de volta.",
-		de: "Schau dir die obersten 6 Karten deines Decks an und lege 1 Basis-Energiekarte, die du darunter findest, an 1 Basis-Pokémon auf deiner Bank an. Mische die anderen Karten zurück in dein Deck."
+		de: "Schau dir die obersten 6 Karten deines Decks an und lege 1 Basis-Energiekarte, die du darunter findest, an 1 Basis-Pokémon auf deiner Bank an. Mische die anderen Karten zurück in dein Deck. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

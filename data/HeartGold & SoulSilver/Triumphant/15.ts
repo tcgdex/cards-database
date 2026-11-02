@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		437,
-	],
+	dexId: [437],
 
 	hp: 90,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Bronzor",
-		fr: "Archeomire",
+		fr: "Archéomire",
+		de: "Bronzel"
 	},
 
 	stage: "Stage1",
@@ -84,20 +83,27 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Ancient people believed that petitioning Bronzong for rain was the way to make crops grow."
+		en: "Ancient people believed that petitioning Bronzong for rain was the way to make crops grow.",
+		de: "Früher verehrten die Menschen die BRONZONG, weil sie sich davon Regen oder gute Ernten erhofften."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83997,
+				cardmarket: 279545
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279545,
+				tcgplayer: 83997
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279545,
-		tcgplayer: 83997
-	}
 }
 
 export default card

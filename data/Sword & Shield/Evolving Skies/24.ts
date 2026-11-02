@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Psyduck",
@@ -49,16 +43,29 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has been found that its brain cells are 10 times more active when Psyduck is experiencing a headache."
+		en: "It has been found that its brain cells are 10 times more active when Psyduck is experiencing a headache.",
+		de: "Es wurde herausgefunden, dass die Aktivität seiner Hirnzellen bei Kopfschmerzen auf das Zehnfache ansteigt."
 	},
 
 	dexId: [54],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574048,
-		tcgplayer: 246816
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574048,
+				tcgplayer: 246816
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574048,
+				tcgplayer: 246816
+			}
+		},
+	],
 }
 
 export default card

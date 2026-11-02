@@ -3,8 +3,8 @@ import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Treecko Star",
-		de: "Geckarbor *"
+		en: "Treecko ☆",
+		de: "Geckarbor ☆"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -72,15 +72,16 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 90046
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 90046
+			},
 		},
-	]
+	],
+
 }
 
 export default card

@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		110,
-	],
+	dexId: [110],
 
 	hp: 90,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Koffing",
 		fr: "Smogo",
+		de: "Smogon"
 	},
 
 	stage: "Stage1",
@@ -58,7 +57,7 @@ const card: Card = {
 				de: "Super-Explosion"
 			},
 			effect: {
-				en: "Weezing does 90 damage to itself, and don’t apply Weakness to this damage.",
+				en: "Weezing does 90 damage to itself, and don't apply Weakness to this damage.",
 				fr: "Smogogo s’inflige 90 dégâts et n’appliquez pas la Faiblesse à ces dégâts.",
 				de: "Smogmog fügt sich selbst 90 Schadenspunkte zu, wende dabei Schwäche nicht an."
 			},
@@ -77,22 +76,27 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases."
+		en: "If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases.",
+		de: "Pumpt sich eines der zwei SMOGON auf, lässt das andere Luft ab. So findet ein Giftgasaustausch statt."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90564,
+				cardmarket: 279006
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90564,
+				cardmarket: 279006
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279006,
-		tcgplayer: 90564
-	}
 }
 
 export default card

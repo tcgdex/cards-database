@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		333,
-	],
+	dexId: [333],
 
 	hp: 40,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -62,20 +60,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its wings bring cottony clouds to mind. It grooms with springwater and loves to sit on heads."
+		en: "Its wings bring cottony clouds to mind. It grooms with springwater and loves to sit on heads.",
+		de: "Seine Schäfchenwolkenflügel pflegt es mit Quellwasser. Es liebt es, auf den Köpfen von Menschen zu sitzen."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89660,
+				cardmarket: 279608
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279608,
+				tcgplayer: 89660
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279608,
-		tcgplayer: 89660
-	}
 }
 
 export default card

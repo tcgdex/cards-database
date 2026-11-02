@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Regirock"
 	},
 
+	illustrator: "Souichirou Gunjima",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,
@@ -64,20 +65,37 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Every bit of Regirock's body is made of stone. As parts of its body erode, this Pokémon sticks rocks to itself to repair what's been lost.",
+		de: "Sein Körper besteht vollständig aus Steinen. Wenn Teile davon abbröckeln, ersetzt Regirock diese einfach durch neue Steine."
 	},
 
-	thirdParty: {
-		cardmarket: 658671,
-		tcgplayer: 272276
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658671,
+				tcgplayer: 272276
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658671,
+				tcgplayer: 272276
+			}
+		},
+	],
 }
 
 export default card

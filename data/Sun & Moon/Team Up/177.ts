@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Busca en tu baraja 1 Pokémon Metal, enséñalo y ponlo en tu mano. Si sales segundo y es tu primer turno, busca 5 Pokémon Metal en vez de 1. Después, baraja las cartas de tu baraja.",
 		it: "Cerca nel tuo mazzo un Pokémon Metal, mostralo e aggiungilo alle carte che hai in mano. Se inizi per secondo e se è il tuo primo turno, cerca cinque Pokémon Metal invece di uno. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure por 1 Pokémon Metal no seu baralho, revele-o e coloque-o na sua mão. Se você for o segundo a jogar e esta for a sua primeira vez de jogar, procure por 5 Pokémon Metal ao invés de 1. Em seguida, embaralhe o seu baralho.",
-		de: "Durchsuche dein Deck nach 1 Metal-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Wenn du als Zweiter am Zug bist und es dein erster Zug ist, durchsuche dein Deck nach 5 Metal-Pokémon anstelle von 1. Mische anschließend dein Deck."
+		de: "Durchsuche dein Deck nach 1 {M}-Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Wenn du als Zweiter am Zug bist und es dein erster Zug ist, durchsuche dein Deck nach 5 {M}-Pokémon anstelle von 1. Mische anschließend dein Deck. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

@@ -60,23 +60,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches."
+		en: "It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches.",
+		de: "In seinem Fell speichert es statische Elektrizität für spätere Entladungen. Braut sich ein Sturm zusammen, entlädt es Funken."
 	},
 
-	thirdParty: {
-		cardmarket: 483164,
-		tcgplayer: 219407
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483164,
+				tcgplayer: 219407
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483164,
+				tcgplayer: 219407
+			}
+		},
+	],
 }
 
 export default card

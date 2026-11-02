@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 90,
 	types: ["Fighting"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Yuu Nishida",
 
 	description: {
-		en: "The six of them work together as one Pokémon. Teamwork is also their battle strategy, and they constantly change their formation as they fight."
+		en: "The six of them work together as one Pokémon. Teamwork is also their battle strategy, and they constantly change their formation as they fight.",
+		de: "Sie bilden zu sechst ein Pokémon. Es kann im Kampf seine Formation nach Belieben ändern und legt bemerkenswerte Teamarbeit an den Tag."
 	},
 
 	attacks: [{
@@ -42,17 +49,23 @@ const card: Card = {
 		damage: 30
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582782,
-		tcgplayer: 253369
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582783,
+				tcgplayer: 253369
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582783,
+				tcgplayer: 253369
+			}
+		},
+	],
 }
 
 export default card

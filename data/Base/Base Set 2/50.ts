@@ -56,15 +56,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273973,
-		tcgplayer: 42513
+
+	description: {
+		en: "In the distant past, it was stronger than its horribly weak descendants that exist today.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273973,
+				tcgplayer: 42513
+			}
 		}
 	]
 }

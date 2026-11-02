@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Machop",
 		fr: "Machoc",
+		de: "Machollo"
 	},
 
 	stage: "Stage1",
@@ -76,7 +77,9 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		fr: "La force herculéenne du Machopeur est très dangereuse. Il utilise une ceinture pour contenir son énergie."
+		en: "MACHOKE's boundless power is very dangerous, so it wears a belt that suppresses its energy.",
+		fr: "La force herculéenne du Machopeur est très dangereuse. Il utilise une ceinture pour contenir son énergie.",
+		de: "MASCHOCKs unbegrenzte Kraft ist gefährlich, daher trägt es einen Gürtel, der die Kraft unterdrückt."
 	},
 
 	thirdParty: {

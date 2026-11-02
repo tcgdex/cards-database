@@ -70,6 +70,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It dislikes cold seasons. They migrate to other lands in search of warmth, flying over 180 miles a day.",
+	},
+
 	thirdParty: {
 		cardmarket: 282738,
 		tcgplayer: 98106

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		422,
-	],
+	dexId: [422],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. Choose 1 of your Pokémon. For each heads, remove 1 damage counter from that Pokémon.",
 				fr: "Lancez 2 pièces. Choisissez 1 de vos Pokémon. Pour chaque face, retirez-lui 1 marqueur de dégât.",
-				de: "Wirf 2 Münzen. Wähle 1 deiner Pokémon. Entferne pro \"Kopf\" 1 Schadensmarke vom gewählten Pokémon."
+				de: "Wirf 2 Münzen. Wähle 1 deiner Pokémon. Entferne pro „Kopf“ 1 Schadensmarke vom gewählten Pokémon."
 			},
 
 		},
@@ -62,22 +60,30 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278654,
-		tcgplayer: 89145
+	description: {
+		en: "Beware of pushing strongly on its squishy body, as it makes a mysterious purple fluid ooze out.",
+		de: "Nicht seinen Körper zusammendrücken, sonst sickert eine seltsame lilafarbene Flüssigkeit aus!"
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278654,
+				tcgplayer: 89145
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278654,
+				tcgplayer: 89145
+			}
+		},
+	],
+
 }
 
 export default card

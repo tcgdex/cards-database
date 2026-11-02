@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Meowth δ",
 		fr: "Miaouss δ",
-		de: "Mauzi"
+		de: "Mauzi δ"
 	},
 
 	illustrator: "Kagemaru Himeno",

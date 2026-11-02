@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [678],
 
 	dexId: [
 		677,
@@ -61,6 +62,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It has enough psychic energy to blast everything within 300 feet of itself, but it has no control over its power.",
+		de: "Es verfügt zwar über genug Psycho-Kräfte, um Objekte in einem Umkreis von 100 m wegzublasen, aber es kann sie noch nicht gut kontrollieren."
+	},
 
 	thirdParty: {
 		cardmarket: 355563,

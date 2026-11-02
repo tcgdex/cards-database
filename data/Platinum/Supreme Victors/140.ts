@@ -14,28 +14,38 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Search your discard pile for a Supporter card, show it to your opponent, and put it into your hand.",
 		fr: "Choisissez une carte Supporter dans votre pile de défausse, montrez-la à votre adversaire et placez-la dans votre main.",
 		de: "Durchsuche deinen Ablagestapel nach 1 Unterstützungskarte, zeige sie deinem Gegner und nimm sie auf die Hand."
 	},
 
 	trainerType: "Item",
 
-	thirdParty: {
-		cardmarket: 278831
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90427,
+				cardmarket: 278831
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278831,
+				tcgplayer: 90427
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["mychael-bryan"]
+			stamp: ["mychael-bryan"],
+			thirdParty: {
+				cardmarket: 868805,
+				tcgplayer: 480127
+			}
 		}
-	]
+	],
+
 }
 
 export default card

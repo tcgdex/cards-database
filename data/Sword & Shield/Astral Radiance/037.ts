@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Regice"
 	},
 
+	illustrator: "aoki",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 130,
@@ -64,20 +65,37 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "With cold air that can reach temperatures as low as −328 degrees Fahrenheit, Regice instantly freezes any creature that approaches it.",
+		de: "Regice kontrolliert bis zu -200 ºC kalte Luft, mit der es alles und jeden in seiner Nähe im Handumdrehen gefrieren lässt."
 	},
 
-	thirdParty: {
-		cardmarket: 658545,
-		tcgplayer: 272237
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658545,
+				tcgplayer: 272237
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658545,
+				tcgplayer: 272237
+			}
+		},
+	],
 }
 
 export default card

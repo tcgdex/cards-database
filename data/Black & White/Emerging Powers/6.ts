@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Sewaddle",
 		fr: "Larveyette",
+		de: "Strawickl"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Grass Cocooning",
 				fr: "Cocon Vert",
+				de: "Pflanzenhülle"
 			},
 			effect: {
 				en: "Heal 40 damage from this Pokémon.",
 				fr: "Soignez 40 dégâts à ce Pokémon.",
+				de: "Heile 40 Schadenspunkte bei diesem Pokémon."
 			},
 
 		},
@@ -56,6 +59,7 @@ const card: Card = {
 			name: {
 				en: "Razor Leaf",
 				fr: "Tranch'Herbe",
+				de: "Rasierblatt"
 			},
 
 			damage: 20,
@@ -72,10 +76,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 279970,
-		tcgplayer: 89666
-	}
+	description: {
+		en: "Forests where Swadloon live have superb foliage because the nutrients they make from fallen leaves nourish the plant life.",
+		de: "Es wandelt herabgefallenes Laub in Nährstoffe um. In Wäldern, wo es Folikon gibt, fühlen sich Pflanzen pudelwohl."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279971,
+				tcgplayer: 89666
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279971,
+				tcgplayer: 89666
+			}
+		},
+	],
 }
 
 export default card

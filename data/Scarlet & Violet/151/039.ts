@@ -64,18 +64,42 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+		de: "Wenn seine Kulleraugen zu flackern beginnen, singt es ein mysteriöses, wohlklingendes Lied, das Zuhörer in Schlaf versetzt."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733634,
+				tcgplayer: 516108,
+				cardtrader: 261124
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733634,
+				tcgplayer: 516108,
+				cardtrader: 261124
+			}
+		},
+	],
 
 	illustrator: "saino misaki",
 
-	thirdParty: {
-		cardmarket: 733634
-	}
+	
 }
 
 export default card

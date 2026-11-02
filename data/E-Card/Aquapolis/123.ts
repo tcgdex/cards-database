@@ -11,25 +11,32 @@ const card: Card = {
 	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
+	trainerType: "Supporter",
 	set: Set,
 
-	effect: {
-		fr: "Vous ne pouvez jouer qu'une carte Supporter à chaque tour. Quand vous jouez cette carte, placez-la à côté de votre Pokémon Actif. À la fin de votre tour, défaussez-vous de cette carte.\n\nMélangez votre deck. Regardez ensuite les 7 cartes du dessus de votre deck. Choisissez une de ces cartes et ajoutez-la à votre main. Mélangez ensuite le reste à votre deck.",
-		de: "Mische dein Deck. Schaue dir dann die 7 obersten Karten deines Decks an. Wähle 1 dieser Karten und nimm sie auf deine Hand. Mische danach die anderen Karten in dein Deck."
-	},
+	cameoDexIds: [163, 164],
 
-	thirdParty: {
-		cardmarket: 275199,
-		tcgplayer: 85541
+	effect: {
+		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Shuffle your deck. Then, look at the top 7 cards of your deck. Choose 1 of those cards and put it into your hand. Shuffle the rest into your deck afterward.",
+		fr: "Mélangez votre deck. Regardez ensuite les 7 cartes du dessus de votre deck. Choisissez une de ces cartes et ajoutez-la à votre main. Mélangez ensuite le reste à votre deck.",
+		de: "Du kannst in jedem Zug nur eine Unterstützerkarte spielen. Wenn du diese Karte ausspielst, lege sie neben dein Aktives Pokémon. Lege diese Karte am Ende deines Zuges auf deinen Ablagestapel. Mische dein Deck. Schaue dir dann die 7 obersten Karten deines Deck an. Wähle 1 dieser Karten und nimm sie auf deine Hand. Mische danach die anderen Karten in dein Deck."
 	},
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85541,
+				cardmarket: 275199
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 85541,
+				cardmarket: 275199
+			}
+		},
 	]
 }
 

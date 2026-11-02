@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		197,
-	],
+	dexId: [197],
 
 	hp: 80,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -38,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Confuse Ray",
 				fr: "Onde folie",
-				de: "Confuse Ray"
+				de: "Konfustrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -57,7 +56,7 @@ const card: Card = {
 			name: {
 				en: "Moon Impact",
 				fr: "Impact lunaire",
-				de: "Moon Impact"
+				de: "Mondeinschlag"
 			},
 
 			damage: 40,
@@ -82,19 +81,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275801,
-		tcgplayer: 90138
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275801,
+				tcgplayer: 90138
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275801,
+				tcgplayer: 90138
+			}
 		},
-	]
+	],
+
 }
 
 export default card

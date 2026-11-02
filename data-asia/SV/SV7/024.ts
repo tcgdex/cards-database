@@ -45,6 +45,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 779038,
+				tcgplayer: 567879,
+			},
+		},
+	],
+
 	retreat: 3,
 	regulationMark: "H",
 	rarity: "Uncommon",
@@ -65,10 +75,6 @@ const card: Card = {
 			'zh-cn': "這隻寶可夢使用招式所需的【無】能量，減少自己的棄牌區的「海岱」的張數。"
 		}
 	}],
-
-	thirdParty: {
-		cardmarket: 779038
-	}
 }
 
 export default card

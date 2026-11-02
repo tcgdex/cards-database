@@ -86,6 +86,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It usually lives deep in mountains. However, hunger may drive it to eat railroad tracks and cars.",
+		de: "Normalerweise lebt es in dunklen Bergen. Ist es hungrig, frisst es auch Eisenbahnschienen und Autos."
+	},
+
 	thirdParty: {
 		cardmarket: 372412,
 		tcgplayer: 189222

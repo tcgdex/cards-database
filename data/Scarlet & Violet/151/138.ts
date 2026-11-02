@@ -52,18 +52,42 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This Pokémon is a member of an ancient, extinct species. Omanyte paddles through water with its 10 tentacles, looking like it's just drifting along.",
+		de: "Ein einst ausgestorbenes Urzeit-Pokémon. Wenn es mit seinen zehn Tentakeln paddelnd durch das Wasser gleitet, meint man, es würde schweben."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733733,
+				tcgplayer: 516701,
+				cardtrader: 261200
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733733,
+				tcgplayer: 516701,
+				cardtrader: 261200
+			}
+		},
+	],
 
 	illustrator: "Akira Komayama",
 
-	thirdParty: {
-		cardmarket: 733733
-	}
+	
 }
 
 export default card

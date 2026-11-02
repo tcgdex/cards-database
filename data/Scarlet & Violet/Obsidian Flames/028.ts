@@ -57,18 +57,42 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "As each tail grows, its fur becomes more lustrous. When held, it feels slightly warm.",
+		de: "Sein Fell wird geschmeidiger, wenn seine sechs Schweife wachsen. Wenn man das Fell berührt, fühlt es sich leicht warm an."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725108,
+				tcgplayer: 509717,
+				cardtrader: 255588
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725108,
+				tcgplayer: 509717,
+				cardtrader: 255588
+			}
+		},
+	],
 
 	illustrator: "0313",
 
-	thirdParty: {
-		cardmarket: 725108
-	}
+	
 }
 
 export default card

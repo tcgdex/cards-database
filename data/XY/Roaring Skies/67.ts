@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [686],
 
 	dexId: [
 		52,
@@ -86,6 +87,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change.",
+	},
 
 	thirdParty: {
 		cardmarket: 282735,

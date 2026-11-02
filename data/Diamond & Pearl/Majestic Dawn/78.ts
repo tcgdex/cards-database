@@ -45,7 +45,7 @@ const card: Card = {
 			name: {
 				en: "Bite",
 				fr: "Morsure",
-				de: 'Biss'
+				de: "Persimbeere"
 			},
 			damage: 30,
 

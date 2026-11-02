@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eelektrik",
 		fr: "Lampéroie",
+		de: "Zapplalek"
 	},
 
 	stage: "Stage2",
@@ -101,10 +102,27 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 299450,
-		tcgplayer: 138528
-	}
+	description: {
+		en: "With their sucker mouths, they suck in prey. Then they use their fangs to shock the prey with electricity.",
+		de: "Mit dem Saugnapf an seinem Maul hakt es sich an seiner Beute fest und versetzt ihr über seine Fangzähne Stromschläge."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299450,
+				tcgplayer: 138528
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299450,
+				tcgplayer: 138528
+			}
+		},
+	],
 }
 
 export default card

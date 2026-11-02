@@ -15,8 +15,9 @@ const card: Card = {
 	trainerType: "Stadium",
 
 	effect: {
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu. Si une autre carte comportant le même nom est en jeu, vous ne pouvez pas jouer cette carte.\n\nChaque Pokémon en jeu possédant le symbole δ (les vôtres et ceux de votre adversaire) ne possède pas de Faiblesse et ne peut pas utiliser de Poké-Powers.",
-		de: "Alle im Spiel befindlichen Pokémon, auf denen δ zu sehen ist (deine und die deines Gegners), haben keine Schwäche mehr und können keine Poké-Power einsetzen."
+		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. Each Pokémon in play that has δ on its card (both yours and your opponent's) has no Weakness and can't use any Poké-Powers.",
+		fr: "Chaque Pokémon en jeu possédant le symbole δ (les vôtres et ceux de votre adversaire) ne possède pas de Faiblesse et ne peut pas utiliser de Poké-Powers.",
+		de: "Alle im Spiel befindlichen Pokémon, auf denen δ zu sehen ist (deine und die deines Gegners), haben keine Schwäche mehr und können keine Poké-Power einsetzen.",
 	},
 
 	thirdParty: {

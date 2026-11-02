@@ -3,13 +3,8 @@ import Set from '../Celebrations'
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [10, 12, 43, 47],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Pikachu",
@@ -55,7 +50,7 @@ const card: Card = {
 			es: "Lanza 1 moneda. Si sale cruz, este Pokémon también se hace 10 puntos de daño a sí mismo.",
 			it: "Lancia una moneta. Se esce croce, questo Pokémon infligge anche 10 danni a se stesso.",
 			pt: "Jogue 1 moeda. Se sair coroa, este Pokémon também causará 10 pontos de dano a si mesmo.",
-			de: "Wirf 1 Münze. Bei Zahl fügt dieses Pokémon auch sich selbst 10 Schadenspunkte zu."
+			de: "Wirf 1 Münze. Bei Zahl fügt sich dieses Pokémon auch selbst 10 Schadenspunkte zu."
 		},
 
 		damage: 30,
@@ -71,15 +66,21 @@ const card: Card = {
 	regulationMark: "E",
 
 	description: {
-		en: "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs."
+		en: "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs.",
+		de: "Es hat kleine Backentaschen, die mit Elektrizität gefüllt sind. Bei Gefahr entlädt es sie."
 	},
 
 	dexId: [25],
 
-	thirdParty: {
-		cardmarket: 576750,
-		tcgplayer: 250303
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 576750,
+				tcgplayer: 250303
+			}
+		},
+	],
 }
 
 export default card

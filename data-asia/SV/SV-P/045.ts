@@ -1,44 +1,33 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "毒電嬰"
+		ja: "ふしぎなアメ",
+		'zh-tw': "毒電嬰",
 	},
 
-	illustrator: "Natsumi Yoshida",
-	category: "Pokemon",
-	hp: 70,
-	types: ["Lightning"],
+	illustrator: "Studio Bora Inc.",
+	category: "Trainer",
 
-	description: {
-		'zh-tw': "就算喝下污水也能安然無恙。 那是因為牠會靠著體內的器官 把污水過濾成對自己無害的毒液。"
+	effect: {
+		ja: "自分のたねポケモン1匹から進化する1進化の上の2進化ポケモンを、手札から1枚選び、そのたねポケモンにのせて進化させる。[最初の自分の番と、この番出したばかりのたねポケモンには使えない。]",
 	},
 
-	stage: "Basic",
-
-	attacks: [{
-		name: {
-			'zh-tw': "撞一下"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 695787,
+				tcgplayer: 587802,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "這隻寶可夢也受到10點傷害。"
-		},
+	trainerType: "Item",
+	regulationMark: "G",
+	rarity: "Promo",
+};
 
-		damage: 30,
-		cost: ["Lightning"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
-
-	retreat: 1,
-	regulationMark: "G"
-}
-
-export default card
+export default card;

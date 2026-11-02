@@ -1,12 +1,12 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV5M"
+import { Card } from "../../../interfaces";
+import Set from "../SV5M";
 
 const card: Card = {
 	set: Set,
-
 	name: {
+		ja: "ストライク",
 		'zh-tw': "飛天螳螂",
-		th: "สไตรค์"
+		th: "สไตรค์",
 	},
 
 	illustrator: "Dsuke",
@@ -15,42 +15,56 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
+		ja: "両手の 鋭い カマは 硬いものを 切れば切るほど さらに 切れ味を 増していく。",
 		'zh-tw': "雙手的鐮刀鋒利無比，砍斷越多堅硬的東西， 其鋒利程度也會隨之提升。",
-		th: "ยิ่งใช้เคียวคมที่แขนทั้งสองตัดของแข็งมากเท่าไหร่ เคียวก็จะยิ่งคมมากขึ้นเท่านั้น"
+		th: "ยิ่งใช้เคียวคมที่แขนทั้งสองตัดของแข็งมากเท่าไหร่ เคียวก็จะยิ่งคมมากขึ้นเท่านั้น",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "切",
-			th: "ตัดฉับ"
+	attacks: [
+		{
+			name: {
+				ja: "きる",
+				'zh-tw': "切",
+				th: "ตัดฉับ",
+			},
+			damage: 10,
+			cost: ["Colorless"],
 		},
-
-		damage: 10,
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "猛擊在地",
-			th: "สแลชดาวน์"
+		{
+			name: {
+				ja: "スラッシュダウン",
+				'zh-tw': "猛擊在地",
+				th: "สแลชดาวน์",
+			},
+			damage: 60,
+			cost: ["Colorless", "Colorless"],
+			effect: {
+				ja: "次の自分の番、このポケモンは「スラッシュダウン」が使えない。",
+				'zh-tw': "在下個自己的回合，這隻寶可夢無法使用「猛擊在地」。",
+				th: "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ [สแลชดาวน์] ไม่ได้",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用「猛擊在地」。",
-			th: "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ [สแลชดาวน์] ไม่ได้"
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 752882,
+				tcgplayer: 566152,
+			},
 		},
-
-		damage: 60,
-		cost: ["Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
+	],
 
 	retreat: 1,
-	regulationMark: "H"
-}
+	regulationMark: "H",
+	rarity: "Common",
+	dexId: [123],
+};
 
-export default card
+export default card;

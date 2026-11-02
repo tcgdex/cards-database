@@ -85,23 +85,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Don't be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon."
+		en: "Don't be fooled by its gorgeous fur and elegant figure. This is a moody and vicious Pokémon.",
+		de: "Man wird schnell von seinem schönen Fell und seiner Anmut verleitet, aber es ist ein sehr launisches und gewalttätiges Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 483414,
-		tcgplayer: 219414
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483414,
+				tcgplayer: 219414
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483414,
+				tcgplayer: 219414
+			}
+		},
+	],
 }
 
 export default card

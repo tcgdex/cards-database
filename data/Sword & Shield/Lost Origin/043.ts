@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Rexblisar"
 	},
 
+	illustrator: "kodama",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,
@@ -70,16 +71,23 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674053,
-		tcgplayer: 283917
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674053,
+				tcgplayer: 283917
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674053,
+				tcgplayer: 283917
+			}
+		},
+	],
 }
 
 export default card

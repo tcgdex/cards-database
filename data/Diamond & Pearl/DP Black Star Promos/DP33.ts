@@ -81,8 +81,11 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "The antenna on its head captures radio waves from the world of spirits that command it to take people there.",
 		fr: "L'antenne sur sa tête capte les ondes radio du monde des esprits lui ordonnant d'y porter les gens."
 	},
 

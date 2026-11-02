@@ -4,7 +4,8 @@ import Set from '../POP Series 4'
 const card: Card = {
 	name: {
 		en: "Grovyle",
-		fr: "Massko"
+		fr: "Massko",
+		de: "Reptain"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -12,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		253,
-	],
+	dexId: [253],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Treecko",
-		fr: "Arcko"
+		fr: "Arcko",
+		de: "Geckarbor"
 	},
 
 	stage: "Stage1",
@@ -36,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Quick Attack",
-				fr: "Vive-attaque"
+				fr: "Vive-attaque",
+				de: "Ruckzuckhieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -52,11 +54,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Blot",
-				fr: "Pâté"
+				fr: "Pâté",
+				de: "Klecks"
 			},
 			effect: {
 				en: "Remove 2 damage counters from Grovyle.",
-				fr: "Retirez à Massko 2 marqueurs de dégât."
+				fr: "Retirez à Massko 2 marqueurs de dégât.",
+				de: "Entferne 2 Schadensmarken von Reptain."
 			},
 			damage: 20,
 
@@ -65,30 +69,28 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fire"
+			type: "Fire",
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Water",
 			value: "-30"
 		},
 	],
-
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85940,
+				cardmarket: 277472
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277472,
-		tcgplayer: 85940
-	}
 }
 
 export default card

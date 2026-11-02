@@ -62,6 +62,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has a flotation sac that is like an inflatable collar. It floats on water with its head out.",
+		de: "Es hat eine Art Rettungsring um den Hals. Wenn es schwimmt, gerät sein Kopf niemals unter Wasser."
+	},
+
 	thirdParty: {
 		cardmarket: 277963,
 		tcgplayer: 84018

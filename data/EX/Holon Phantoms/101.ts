@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Mightyena ex",
 		fr: "Gradhyena ex",
-		de: "Magnayen ex"
+		de: "Magnayen-ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -25,10 +25,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Poochyena",
-		fr: "Medhyena"
+		fr: "Medhyena",
+		de: "Fiffyen"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{

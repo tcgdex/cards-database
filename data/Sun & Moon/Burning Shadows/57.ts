@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Venipede",
 		fr: "Venipatte",
+		de: "Toxiped"
 	},
 
 	stage: "Stage1",
@@ -87,10 +88,27 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 299461,
-		tcgplayer: 138539
-	}
+	description: {
+		en: "Protected by a hard shell, it spins its body like a wheel and crashes furiously into its enemies.",
+		de: "Von einem harten Schutzpanzer umgeben. Es greift seine Gegner an, indem es mit Karacho wie ein Rad in sie hineinrollt."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299461,
+				tcgplayer: 138539
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299461,
+				tcgplayer: 138539
+			}
+		},
+	],
 }
 
 export default card

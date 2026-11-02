@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		230,
-	],
+	dexId: [230],
 
 	hp: 130,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Seadra",
 		fr: "Hypocean",
+		de: "Seemon"
 	},
 
 	stage: "Stage2",
@@ -41,7 +40,7 @@ const card: Card = {
 				de: "Wasserpfeil"
 			},
 			effect: {
-				en: "Choose 1 of your opponent’s Pokémon. This attack does 30 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Choisissez l’un des Pokémon de votre adversaire. Cette attaque inflige 30 dégâts à ce Pokémon. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 				de: "Wähle 1 Pokémon deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
@@ -78,22 +77,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It sleeps deep on the ocean floor to build its energy. It is said to cause tornadoes as it wakes."
+		en: "It sleeps deep on the ocean floor to build its energy. It is said to cause tornadoes as it wakes.",
+		de: "Tief unten am Meeresboden tankt es Energie im Schlaf. Wacht es auf, kann es Tornados auslösen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86447,
+				cardmarket: 279173
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86447,
+				cardmarket: 279173
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279173,
-		tcgplayer: 86447
-	}
 }
 
 export default card

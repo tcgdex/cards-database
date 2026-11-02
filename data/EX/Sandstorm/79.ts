@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		300,
-	],
+	dexId: [300],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Energy Catch",
 				fr: "Attrape-énergie",
-				de: "Energy Catch"
+				de: "Energieschnapper"
 			},
 			effect: {
 				en: "Search your discard pile for a basic Energy card, show it to your opponent, and put it into your hand.",
 				fr: "Choisissez dans votre pile de défausse une carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main.",
-				de: "Search your discard pile for a basic Energy card, show it to your opponent, and put it into your hand."
+				de: "Durchsuche deinen Ablagestapel nach 1 Basis-Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand."
 			},
 
 		},
@@ -50,12 +48,12 @@ const card: Card = {
 			name: {
 				en: "Double-edge",
 				fr: "Damoclès",
-				de: "Double-Edge"
+				de: "Risikotackle"
 			},
 			effect: {
 				en: "Skitty does 10 damage to itself.",
 				fr: "Skitty s'inflige 10 dégâts.",
-				de: "Skitty does 10 damage to itself."
+				de: "Eneco fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -72,27 +70,39 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275856,
-		tcgplayer: 89262
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275856,
+				tcgplayer: 89262
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275856,
+				tcgplayer: 89262
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 125132
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["kevin-nguyen"],
+			thirdParty: {
+				cardmarket: 871814,
+				tcgplayer: 477432
+			}
 		}
-	]
+	],
+
 }
 
 export default card

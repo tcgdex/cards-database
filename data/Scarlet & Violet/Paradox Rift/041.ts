@@ -64,18 +64,42 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The water stored inside the tuft on its head is full of nutrients. Plants that receive its water grow large.",
+		de: "Das Wasser, das es im Büschel auf seinem Kopf sammelt, ist äußerst nahrhaft und verhilft Pflanzen zu großem Wachstum."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740517,
+				tcgplayer: 523650,
+				cardtrader: 265137
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740517,
+				tcgplayer: 523650,
+				cardtrader: 265137
+			}
+		},
+	],
 
 	illustrator: "Natsumi Yoshida",
 
-	thirdParty: {
-		cardmarket: 740517
-	}
+	
 }
 
 export default card

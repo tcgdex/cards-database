@@ -15,7 +15,19 @@ const card: Card = {
 	effect: {
 		en: "Look at the 7 cards from the bottom of your deck. Choose 1 Pokémon you find there, show it to your opponent, and put it into your hand. Put the remaining cards back on top of your deck. Shuffle your deck afterward.",
 		fr: "Regardez les 7 cartes du dessous de votre deck. Choisissez-y 1 Pokémon, montrez-le à votre adversaire et placez-le dans votre main. Replacez les autres cartes au dessus de votre deck. Ensuite, mélangez votre deck."
-	}
+	},
+	trainerType: "Item",
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278026,
+				tcgplayer: 85034
+			}
+		},
+	],
+
 }
 
 export default card

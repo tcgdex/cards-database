@@ -86,6 +86,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its adorable behavior and appearance make it popular with men and women, young and old. Its numbers are few, however.",
+		de: "Dank seiner verspielten Art und seines süßen Aussehens ist es bei Jung und Alt sehr beliebt. Dieses Pokémon ist jedoch selten."
+	},
+
 	thirdParty: {
 		cardmarket: 297544,
 		tcgplayer: 131002

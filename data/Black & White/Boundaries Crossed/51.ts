@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Static Shock",
 				fr: "Choc Statique",
+				de: "Statischer Schock"
 			},
 
 			damage: 10,
@@ -52,10 +53,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280638,
-		tcgplayer: 90423
-	}
+	description: {
+		en: "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on contact.",
+		de: "Sieht aus wie ein Pokéball. Es ist gefährlich, da es bei Berührung explodieren kann."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280638,
+				tcgplayer: 90423
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280638,
+				tcgplayer: 90423
+			}
+		},
+	],
 }
 
 export default card

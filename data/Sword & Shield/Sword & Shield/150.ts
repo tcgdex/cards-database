@@ -84,7 +84,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It will bravely challenge any opponent, no matter how powerful. This Pokémon benefits from every battle—even a defeat increases its strength a bit."
+		en: "It will bravely challenge any opponent, no matter how powerful. This Pokémon benefits from every battle—even a defeat increases its strength a bit.",
+		de: "Es ist von Natur aus sehr mutig und fordert daher jeden noch so starken Feind heraus. Selbst wenn es den Kürzeren zieht, dient dies seinem Training."
 	},
 
 	dexId: [821],

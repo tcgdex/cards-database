@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Inteleon",
@@ -42,12 +36,14 @@ const card: Card = {
 
 		name: {
 			en: "Quick Shooting",
-			fr: "Tir Rapide"
+			fr: "Tir Rapide",
+			de: "Schnellschütze"
 		},
 
 		effect: {
 			en: "Once during your turn, you may put 2 damage counters on 1 of your opponent's Pokémon.",
-			fr: "Une fois pendant votre tour, vous pouvez placer 2 marqueurs de dégâts sur l'un des Pokémon de votre adversaire."
+			fr: "Une fois pendant votre tour, vous pouvez placer 2 marqueurs de dégâts sur l'un des Pokémon de votre adversaire.",
+			de: "Einmal während deines Zuges kannst du 2 Schadensmarken auf 1 Pokémon deines Gegners legen."
 		}
 	}],
 
@@ -56,7 +52,8 @@ const card: Card = {
 
 		name: {
 			en: "Waterfall",
-			fr: "Cascade"
+			fr: "Cascade",
+			de: "Kaskade"
 		},
 
 		damage: 70
@@ -70,10 +67,21 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574285,
-		tcgplayer: 246802
-	}
+	description: {
+		en: "Its nictitating membranes let it pick out foes' weak points so it can precisely blast them with water that shoots from its fingertips at Mach 3.",
+		de: "Die Wasserschüsse aus seinen Fingern erreichen Geschwindigkeiten von bis zu Mach 3. Mit seiner Nickhaut erkennt es Schwachpunkte des Gegners."
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 574285,
+				tcgplayer: 246802
+			}
+		},
+	],
 }
 
 export default card

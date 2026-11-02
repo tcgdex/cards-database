@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -45,23 +45,6 @@ const card: Card = {
 			effect: {
 				en: "This Pokémon can't use Shining Flame during your next turn.",
 				fr: "Ce Pokémon ne peut pas utiliser Flamme Brillante pendant votre prochain tour."
-			},
-			damage: 160,
-
-		},
-		{
-			cost: [
-				"Fire",
-				"Fire",
-				"Fire",
-				"Colorless",
-				"Colorless",
-			],
-			name: {
-				fr: "Flamme Brillante",
-			},
-			effect: {
-				fr: "Ce Pokémon ne peut pas utiliser Flamme Brillante pendant votre prochain tour.",
 			},
 			damage: 160,
 

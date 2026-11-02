@@ -65,19 +65,33 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751633,
+				tcgplayer: 534462,
+				cardtrader: 274278
+			}
+		},
+	],
 
 	illustrator: "0313",
 
-	thirdParty: {
-		cardmarket: 751633
-	}
+	description: {
+		en: "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
+		de: "Je größer die Blütenblätter, desto mehr giftige Pollen enthält die Blüte. Aber es ist auch umso erschöpfter, da sein Kopf so schwer wird."
+	},
+
 }
 
 export default card

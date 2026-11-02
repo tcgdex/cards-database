@@ -74,15 +74,33 @@ const card: Card = {
 		damage: "80×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
+	description: {
+		en: "Brambleghast wanders around arid regions. On rare occasions, mass outbreaks of these Pokémon will bury an entire town.",
+	},
+
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760651,
+				tcgplayer: 542765
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 760651,
+				tcgplayer: 542765
+			}
 		},
 		{
 			type: "normal",
@@ -92,9 +110,6 @@ const card: Card = {
 
 	illustrator: "otumami",
 
-	thirdParty: {
-		cardmarket: 760651
-	}
 }
 
 export default card

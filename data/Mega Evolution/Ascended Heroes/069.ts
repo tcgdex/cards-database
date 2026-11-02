@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "kurumitsu",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [938],
 	hp: 60,
 	types: ["Lightning"],
 	stage: "Basic",
@@ -37,13 +38,46 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675881,
-		cardmarket: 869680
-	}
+	description: {
+		en: "Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies.",
+		fr: "Ce Pokémon produit de l'électricité en agitant sa queue. Lorsqu'il perçoit un danger, sa tête clignote pour avertir ses congénères.",
+		de: "Es erzeugt Strom, indem es mit seinem Schwanz wedelt. Bei Gefahr warnt es seine Artgenossen, indem es seinen Kopf aufblinken lässt."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869680,
+			tcgplayer: 675881
+		}
+	},
+	{
+		type: "reverse",
+		foil: "pokeball",
+		thirdParty: {
+			cardmarket: 870246,
+			tcgplayer: 676907
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870245,
+			tcgplayer: 677047
+		}
+	},
+],
 }
 
 export default card

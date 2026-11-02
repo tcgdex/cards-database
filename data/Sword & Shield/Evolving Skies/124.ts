@@ -5,12 +5,6 @@ const card: Card = {
 	dexId: [895],
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Regidrago",
@@ -66,15 +60,28 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its body is composed of crystallized dragon energy. Regidrago is said to have the powers of every dragon Pokémon."
+		en: "Its body is composed of crystallized dragon energy. Regidrago is said to have the powers of every dragon Pokémon.",
+		de: "Sein ganzer Körper besteht aus kristallisierter Drachen-Energie. Es soll über die Kräfte aller Drachen-Pokémon verfügen."
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574172,
-		tcgplayer: 246923
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574172,
+				tcgplayer: 246923
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574172,
+				tcgplayer: 246923
+			}
+		},
+	],
 }
 
 export default card

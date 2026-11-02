@@ -68,7 +68,7 @@ const card: Card = {
 				es: "Descarta 1 Energía Darkness y 1 Energía Fairy de este Pokémon.",
 				it: "Scarta un’Energia Darkness e un’Energia Fairy assegnate a questo Pokémon.",
 				pt: "Descarte 1 Energia Darkness e 1 Energia Fairy deste Pokémon.",
-				de: "Lege 1 Darkness-Energie sowie 1 Fairy-Energie von diesem Pokémon auf deinen Ablagestapel."
+				de: "Lege 1 {D}-Energie sowie 1 {FAIRY}-Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 150,
 
@@ -84,10 +84,34 @@ const card: Card = {
 
 	retreat: 4,
 
-	thirdParty: {
-		cardmarket: 299501,
-		tcgplayer: 138596
-	}
+	description: {
+		en: "This is Zygarde's form at times when it uses its overwhelming power to suppress those who endanger the ecosystem.",
+		de: "Diese Form nimmt es an, um Lebewesen, die eine Bedrohung für das Ökosystem darstellen, mit überwältigender Kraft zu bezwingen."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 299501,
+				tcgplayer: 138596
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['poke-ball-league'],
+			thirdParty: {
+				cardmarket: 371623
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299501,
+				tcgplayer: 138596
+			}
+		},
+	],
 }
 
 export default card

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Fennekin",
 		fr: "Feunnec",
+		de: "Fynx"
 	},
 
 	stage: "Stage1",
@@ -85,6 +86,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "When the twig is plucked from its tail, friction sets the twig alight. The flame is used to send signals to its allies.",
+		de: "Sein Zweig entzündet sich durch die Reibung, die beim Herausziehen aus seinem Schweif entsteht. Mit der Flamme sendet es Signale an Kameraden."
+	},
 
 	thirdParty: {
 		cardmarket: 355536,

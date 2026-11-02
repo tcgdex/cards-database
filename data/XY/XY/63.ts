@@ -86,6 +86,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Because it turns active on nights of the full moon, it is said to have some link to the lunar phases.",
+		de: "Da es in Vollmondnächten aktiv wird, sagt man ihm nach, mit den Mondphasen in Verbindung zu stehen."
+	},
+
 	thirdParty: {
 		cardmarket: 281400,
 		tcgplayer: 86930

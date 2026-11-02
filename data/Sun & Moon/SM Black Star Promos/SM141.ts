@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Weißes Kyurem GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -88,7 +88,7 @@ const card: Card = {
 				es: "Estrella Dragón GX",
 				it: "Dragonova GX",
 				pt: "Supernova do Dragão GX",
-				de: "Drachen Nova GX"
+				de: "Drachen-Nova-GX"
 			},
 			effect: {
 				en: "Your opponent’s Active Pokémon is now Burned and Paralyzed. (You can’t use more than 1 GX attack in a game.)",
@@ -111,8 +111,15 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 366053,
+				tcgplayer: 180531
+			}
+		}
+	],
 }
 
 export default card

@@ -1,0 +1,39 @@
+import { Card } from "../../../interfaces"
+import Set from "../30th Classic Collection"
+
+const card: Card = {
+	set: Set,
+
+	dexId: [491, 488],
+
+	name: {
+		en: "Darkrai & Cresselia LEGEND",
+		fr: "Darkrai & Cresselia LÉGENDE",
+		de: "Darkrai & Cresselia-LEGENDE",
+		es: "Darkrai & Cresselia LEYENDA",
+		it: "Darkrai & Cresselia LEGGENDA",
+		pt: "Darkrai & Cresselia LENDA",
+		'es-mx': "Darkrai & Cresselia LEYENDA"
+	},
+
+	illustrator: "Shinji Higuchi + Noriko Takaya",
+	rarity: "None",
+	category: "Pokemon",
+	hp: 150,
+	types: ["Darkness", "Psychic"],
+	stage: "Basic",
+	suffix: "Legend",
+	retreat: 0,
+	variants: [
+		{
+			type: "holo",
+			stamp: ["30th-anniversary"],
+			thirdParty: {
+				cardmarket: 907954,
+				tcgplayer: 716199
+			}
+		}
+	],
+}
+
+export default card

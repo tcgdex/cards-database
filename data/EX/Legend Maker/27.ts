@@ -37,8 +37,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for a Fire Pokémon (excluding Pokémon-ex), show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck un Pokémon  (Pokémon-ex exclus), montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck.",
-				de: "Durchsuche Dein Deck nach einem -Pokémon (außer Pokémon-ex), zeige es deinem Gegner und nimm es auf deine Hand. Mische dein Deck danach."
+				fr: "Cherchez dans votre deck un Pokémon {R} (Pokémon-ex exclus), montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck.",
+				de: "Durchsuche dein Deck nach einem {R}-Pokémon (außer Pokémon-ex), zeige es deinem Gegner und nimm es auf deine Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -54,8 +54,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy attached to Torkoal.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie  attachée à Chartor.",
-				de: "Wirf 1 Münze. Lege bei \"Zahl\" eine an Qurtel angelegte -Energie auf deinen Ablagestapel."
+				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie {R} attachée à Chartor.",
+				de: "Wirf 1 Münze. Lege bei „Zahl“ eine an Qurtel angelegte {R}-Energie auf deinen Ablagestapel."
 			},
 			damage: 30,
 

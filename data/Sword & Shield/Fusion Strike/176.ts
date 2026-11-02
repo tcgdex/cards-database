@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 70,
 	types: ["Darkness"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "sowsow",
 
 	description: {
-		en: "It sneaks into people's homes, stealing things and feasting on the negative energy of the frustrated occupants."
+		en: "It sneaks into people's homes, stealing things and feasting on the negative energy of the frustrated occupants.",
+		de: "Es schleicht sich in Häuser ein und geht dort auf Diebeszug. Zudem verleibt es sich die negative Energie der deshalb verärgerten Menschen ein."
 	},
 
 	attacks: [{
@@ -51,17 +58,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582804,
-		tcgplayer: 253390
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582804,
+				tcgplayer: 253390
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582804,
+				tcgplayer: 253390
+			}
+		},
+	],
 }
 
 export default card

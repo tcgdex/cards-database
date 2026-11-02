@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Victini"
 	},
 
+	illustrator: "GOSSAN",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 70,
@@ -38,7 +39,7 @@ const card: Card = {
 			es: "Une hasta 2 cartas de Energía Fire de tu pila de descartes a tus Pokémon de la manera que desees.",
 			it: "Assegna ai tuoi Pokémon fino a due carte Energia Fire dalla tua pila degli scarti nel modo che preferisci.",
 			pt: "Ligue até 2 cartas de Energia Fire da sua pilha de descarte aos seus Pokémon como desejar.",
-			de: "Lege bis zu 2 Fire-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an."
+			de: "Lege bis zu 2 {R}-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an."
 		},
 
 		damage: 20
@@ -57,20 +58,37 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "When it shares the infinite energy it creates, that being's entire body will be overflowing with power.",
+		de: "Jeder, dem Victini seine grenzenlose Energie zuteilwerden lässt, strotzt nur so vor Kraft."
 	},
 
-	thirdParty: {
-		cardmarket: 682064,
-		tcgplayer: 451654
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682064,
+				tcgplayer: 451654
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682064,
+				tcgplayer: 451654
+			}
+		},
+	],
 }
 
 export default card

@@ -64,18 +64,39 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its genetic code is irregular. It may mutate if it is exposed to radiation from element stones.",
+		de: "Das Erbmaterial von Evoli ist anomal. Die Strahlung von besonderen Steinen lässt es mutieren."
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769309,
+				tcgplayer: 550179
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769309,
+				tcgplayer: 550179
+			}
+		},
+	],
 
 	illustrator: "satoma",
 
-	thirdParty: {
-		cardmarket: 769309
-	}
 }
 
 export default card

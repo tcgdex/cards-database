@@ -65,18 +65,39 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It lives at the bottom of clear lakes. In times of war, it shows itself, which soothes people's minds and hearts.",
+		de: "Es lebt auf dem Grund von klaren, ungetrübten Seen. Zu Kriegszeiten erscheint es, um die Herzen der Menschen zu besänftigen."
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769224,
+				tcgplayer: 550094
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769224,
+				tcgplayer: 550094
+			}
+		},
+	],
 
 	illustrator: "Taira Akitsu",
 
-	thirdParty: {
-		cardmarket: 769224
-	}
 }
 
 export default card

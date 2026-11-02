@@ -54,23 +54,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It starts off battles by attacking with its rock-hard horn, but as soon as the opponent flinches, this Pokémon bites down and never lets go."
+		en: "It starts off battles by attacking with its rock-hard horn, but as soon as the opponent flinches, this Pokémon bites down and never lets go.",
+		de: "Im Kampf greift es mit dem steinharten Horn auf seinem Kopf an. Schreckt der Gegner zurück, schnappt es zu und lässt nicht wieder los."
 	},
 
-	thirdParty: {
-		cardmarket: 539153,
-		tcgplayer: 232430
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539153,
+				tcgplayer: 232430
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539153,
+				tcgplayer: 232430
+			}
+		},
+	],
 }
 
 export default card

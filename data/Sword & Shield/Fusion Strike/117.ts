@@ -19,12 +19,25 @@ const card: Card = {
 	hp: 70,
 	types: ["Psychic"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "Sudden climate change wiped out this ancient kind of Corsola. This Pokémon absorbs others' life-force through its branches."
+		en: "Sudden climate change wiped out this ancient kind of Corsola. This Pokémon absorbs others' life-force through its branches.",
+		de: "Es entstand aus einem Corasonn, das durch plötzliche Änderungen in seinem Habitat umkam. Mit den Armen raubt es Leuten Lebensenergie."
 	},
 
 	attacks: [{
@@ -42,17 +55,23 @@ const card: Card = {
 		damage: 30
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582622,
-		tcgplayer: 253283
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582622,
+				tcgplayer: 253283
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582622,
+				tcgplayer: 253283
+			}
+		},
+	],
 }
 
 export default card

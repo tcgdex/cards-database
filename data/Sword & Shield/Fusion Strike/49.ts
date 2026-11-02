@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "Misa Tsutsui",
 
 	description: {
-		en: "While its burning body is already dangerous on its own, this excessively hostile Pokémon also has large and very sharp fangs."
+		en: "While its burning body is already dangerous on its own, this excessively hostile Pokémon also has large and very sharp fangs.",
+		de: "Es ist angriffslustig veranlagt. Sein entflammter Körper und sein großes, scharfes Mundwerkzeug stellen eine enorme Gefahr dar."
 	},
 
 	attacks: [{
@@ -65,17 +72,23 @@ const card: Card = {
 		damage: 100
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582182,
-		tcgplayer: 253180
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582183,
+				tcgplayer: 253180
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582183,
+				tcgplayer: 253180
+			}
+		},
+	],
 }
 
 export default card

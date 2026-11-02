@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Carkol"
+		en: "Carkol",
+		fr: "Wagomine"
 	},
 
 	illustrator: "Uta",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Rolycoly"
+		en: "Rolycoly",
+		fr: "Charbi"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Heat Crash"
+			en: "Heat Crash",
+			fr: "Tacle Feu"
 		},
 
 		damage: 50,

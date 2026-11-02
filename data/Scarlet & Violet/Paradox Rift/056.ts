@@ -66,18 +66,42 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It resembles a mysterious object mentioned in an old book. There are only two reported sightings of this Pokémon.",
+		de: "Es ähnelt einem rätselhaften Objekt, von dem in einer alten Schrift die Rede ist. Bisher wurde dieses Pokémon erst zwei Mal gesichtet."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740547,
+				tcgplayer: 523666,
+				cardtrader: 265104
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740547,
+				tcgplayer: 523666,
+				cardtrader: 265104
+			}
+		},
+	],
 
 	illustrator: "Oswaldo KATO",
 
-	thirdParty: {
-		cardmarket: 740547
-	}
+	
 }
 
 export default card

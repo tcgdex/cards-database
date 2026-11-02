@@ -15,6 +15,7 @@ const card: Card = {
 		'es-mx': "Zekrom ex"
 	},
 
+	suffix: "ex",
 	illustrator: "takuyoa",
 	rarity: "Double rare",
 	category: "Pokemon",
@@ -64,10 +65,46 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 835966
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 835966,
+				tcgplayer: 642486
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 867786,
+				tcgplayer: 668957
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 864406,
+				tcgplayer: 704471
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 894193,
+				tcgplayer: 671743
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["ultra-ball-league"],
+			thirdParty: {
+				cardmarket: 855692
+			}
+		},
+	],
 }
 
 export default card

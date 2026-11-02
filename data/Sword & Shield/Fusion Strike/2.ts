@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "Saya Tsuruta",
 
 	description: {
-		en: "Even though it is encased in a sturdy shell, the body inside is tender. It can't withstand a harsh attack."
+		en: "Even though it is encased in a sturdy shell, the body inside is tender. It can't withstand a harsh attack.",
+		de: "In seiner harten Schale ist ein weicher Körper. Einem brutalen Angriff hat es nichts entgegenzusetzen."
 	},
 
 	abilities: [{
@@ -74,17 +81,23 @@ const card: Card = {
 		damage: 10
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582030,
-		tcgplayer: 253072
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582030,
+				tcgplayer: 253072
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582030,
+				tcgplayer: 253072
+			}
+		},
+	],
 }
 
 export default card

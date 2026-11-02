@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "La mythologie de Sinnoh veut\nqu'il soit apparu sous forme\nd'Œuf et ait créé le monde.",
 		es: "Según la mitología de Sinnoh, Arceus surgió\nde un huevo y después creó todo el mundo.",
 		it: "Secondo la mitologia di Sinnoh, Arceus è\nnato da un uovo e poi ha creato il mondo.",
-		de: "In den Legenden Sinnohs heißt es, es sei aus einem Ei\ngeschlüpft und hätte die gesamte Welt geschaffen.",
+		de: "In den Legenden Sinnohs heißt es, es sei aus einem Ei geschlüpft und hätte die gesamte Welt geschaffen.",
 		'pt-br': "De acordo com lendas de Sinnoh, este Pokémon surgiu\nde um ovo e construiu tudo o que há neste mundo.",
 		ko: "알에서 모습을 나타내\n모든 세계를 창조했다고\n신오신화에서 묘사된다."
 	},

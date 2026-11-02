@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Mareep",
@@ -61,16 +55,29 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Rubbing its fleece generates electricity. You'll want to pet it because it's cute, but if you use your bare hand, you'll get a painful shock."
+		en: "Rubbing its fleece generates electricity. You'll want to pet it because it's cute, but if you use your bare hand, you'll get a painful shock.",
+		de: "Seine Wolle lädt sich durch Reibung elektrisch auf. Streichelt man dieses süße Pokémon mit bloßer Hand, bekommt man einen Elektroschock."
 	},
 
 	dexId: [179],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574078,
-		tcgplayer: 246895
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574078,
+				tcgplayer: 246895
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574078,
+				tcgplayer: 246895
+			}
+		},
+	],
 }
 
 export default card

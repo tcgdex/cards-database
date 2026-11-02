@@ -30,32 +30,23 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794562,
+				tcgplayer: 590076
+			}
 		},
 		{
 			type: "reverse",
-			foil: "greatball"
+			thirdParty: {
+				cardmarket: 794562,
+				tcgplayer: 590076
+			}
 		},
-		{
-			type: "holo",
-			stamp: ["gym-challenge"],
-			foil: "cosmos"
-		},
-		{
-			type: "holo",
-			stamp: ["player-rewards-program"],
-			foil: "cosmos"
-		}
 	],
 
 	illustrator: "Ayaka Yoshida",
 
-	thirdParty: {
-		cardmarket: 794562
-	}
 }
 
 export default card

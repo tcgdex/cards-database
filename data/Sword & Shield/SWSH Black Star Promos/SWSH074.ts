@@ -10,7 +10,7 @@ const card: Card = {
 	},
 
 	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Lightning"],
@@ -51,18 +51,18 @@ const card: Card = {
 	stage: "Basic",
 	dexId: [25],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 516369
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 516369,
+				tcgplayer: 227646
+			}
+		},
+	],
 }
 
 export default card

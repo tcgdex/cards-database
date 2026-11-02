@@ -70,23 +70,29 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Il vie dans des caves sombres. On l'aperçoit la nuit, lorsqu'il vole à la recherche de nourriture."
+		en: "Lives in dark caves. Can occasionally be seen at night, when it flies in search of food.",
+		fr: "Il vie dans des caves sombres. On l'aperçoit la nuit, lorsqu'il vole à la recherche de nourriture.",
+		de: "Es lebt in dunklen Höhlen. Gelegentlich ist es nachts zu sehen, wenn es auf Futtersuche umherfliegt."
 	},
 
-	thirdParty: {
-		cardmarket: 274123,
-		tcgplayer: 90767
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274123,
+				tcgplayer: 90767
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
-		}
-	]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274123,
+				tcgplayer: 90767
+			}
+		},
+	],
 }
 
 export default card

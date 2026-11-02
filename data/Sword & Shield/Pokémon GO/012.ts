@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Lavados"
 	},
 
+	illustrator: "Pani Kobayashi",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -38,7 +39,7 @@ const card: Card = {
 			es: "Los ataques de tus Pokémon Fire Básicos, excepto de los Moltres, hacen 10 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
 			it: "Gli attacchi dei tuoi Pokémon Base Fire, a eccezione di qualsiasi Moltres, infliggono 10 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
 			pt: "Os ataques dos seus Pokémon Fire Básicos, exceto por quaisquer Moltres, causam 10 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência).",
-			de: "Die Attacken deiner Basis-Fire-Pokémon, außer Lavados, fügen dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+			de: "Die Attacken deiner Basis-{R}-Pokémon, außer Lavados, fügen dem Aktiven Pokémon deines Gegners 10 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 		}
 	}],
 
@@ -57,19 +58,39 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
+
+	description: {
+		en: "It's one of the legendary bird Pokémon. When Moltres flaps its flaming wings, they glimmer with a dazzling red glow.",
+		de: "Schlägt dieses Legendäre Vogel-Pokémon mit den Flügeln, so leuchten die Flammen an seinen Schwingen in einem bezaubernden Rot."
 	},
 
-	thirdParty: {
-		cardmarket: 664548,
-		tcgplayer: 276953
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665246,
+				tcgplayer: 276953
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665246,
+				tcgplayer: 276953
+			}
+		},
+	],
 }
 
 export default card

@@ -108,7 +108,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "This Pokémon scrapes its spikes across rocks, and then uses the tips of its feelers to absorb the nutrients it finds within the stone."
+		en: "This Pokémon scrapes its spikes across rocks, and then uses the tips of its feelers to absorb the nutrients it finds within the stone.",
+		de: "Es kratzt mit seinen Dornen Kerben in Felswände und extrahiert dann mit den Dornenspitzen an seinen Schlingen Nährstoffe aus dem Gestein."
 	},
 
 	dexId: [598],

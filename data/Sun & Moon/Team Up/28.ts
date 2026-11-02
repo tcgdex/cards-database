@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "In many places, there are folktales of stardust falling into the ocean and becoming Staryu.",
+		de: "Einer weitverbreiteten Volkssage zufolge ist Sterndu aus Sternennebel entstanden, der ins Meer gefallen war."
+	},
+
 	thirdParty: {
 		cardmarket: 368960,
 		tcgplayer: 183799

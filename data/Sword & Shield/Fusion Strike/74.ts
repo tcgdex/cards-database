@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 70,
 	types: ["Water"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Pani Kobayashi",
 
 	description: {
-		en: "It moves around by jetting water from its right pincer. It has a poor sense of balance, so it's terrible at swimming straight."
+		en: "It moves around by jetting water from its right pincer. It has a poor sense of balance, so it's terrible at swimming straight.",
+		de: "Das Ungleichgewicht, das entsteht, wenn es zur Fortbewegung Wasser aus der rechten Schere spritzt, hindert es daran, gerade zu schwimmen."
 	},
 
 	attacks: [{
@@ -55,17 +62,23 @@ const card: Card = {
 		damage: 20
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582208,
-		tcgplayer: 253224
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582208,
+				tcgplayer: 253224
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582208,
+				tcgplayer: 253224
+			}
+		},
+	],
 }
 
 export default card

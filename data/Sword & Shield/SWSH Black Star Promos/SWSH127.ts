@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Eevee"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	dexId: [133],
 	hp: 60,
 	types: ["Colorless"],
@@ -68,18 +68,18 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 491204
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 568799,
+				tcgplayer: 247291
+			}
+		},
+	],
 }
 
 export default card

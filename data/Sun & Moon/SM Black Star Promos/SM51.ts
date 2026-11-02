@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "sui",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -81,7 +81,22 @@ const card: Card = {
 		},
 	],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "This Pokémon was not originally found in Alola. Human actions caused a surge in their numbers, and they went feral. They're prideful and crafty.",
+		de: "Ursprünglich existierte es in Alola nicht. Durch Menschenhand wurde es verbreitet und ausgewildert. Es ist listig und sehr stolz."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299581,
+				tcgplayer: 139102
+			}
+		}
+	],
 }
 
 export default card

@@ -80,6 +80,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Around dawn, its ominous howl echoes through the area to announce that this is its territory.",
+		de: "Im Morgengrauen schallt sein ominöses Geheule über das Gebiet, das es für sich beansprucht."
+	},
+
 	thirdParty: {
 		cardmarket: 311907,
 		tcgplayer: 149081

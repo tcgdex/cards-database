@@ -67,6 +67,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It tests everything by touching with its lips, which remember what it likes and dislikes.",
+	},
+
 	thirdParty: {
 		cardmarket: 277820,
 		tcgplayer: 89362

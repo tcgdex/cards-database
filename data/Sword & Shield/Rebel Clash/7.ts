@@ -73,23 +73,30 @@ const card: Card = {
 	types: ["Grass"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It searches about for clean water. If it does not drink water for too long, the leaf on its head wilts."
+		en: "It searches about for clean water. If it does not drink water for too long, the leaf on its head wilts.",
+		de: "Es sucht nach reinem Wasser. Wenn es für längere Zeit kein Wasser trinkt, verwelkt das Blatt auf seinem Kopf."
 	},
 
-	thirdParty: {
-		cardmarket: 457423,
-		tcgplayer: 213077
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457423,
+				tcgplayer: 213077
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457423,
+				tcgplayer: 213077
+			}
+		},
+	],
 }
 
 export default card

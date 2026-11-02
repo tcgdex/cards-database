@@ -70,33 +70,44 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
-
+	
 	variants: [
 		{
-			type: "holo"
-		},
-		{
-			type: "reverse"
-		},
-		{
-			type: "normal",
-		},
-		{
 			type: "holo",
-			stamp: ["asia-promo"]
+			thirdParty: {
+				cardmarket: 851135,
+				tcgplayer: 654403
+			}
 		},
 		{
 			type: "reverse",
-			stamp: ["set-logo"]
-		}
+			thirdParty: {
+				cardmarket: 851135,
+				tcgplayer: 654403
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 851263,
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 851264,
+			}
+		},
 	],
-
-	thirdParty: {
-		tcgplayer: 654403,
-		cardmarket: 851135
-	}
 }
 
 export default card

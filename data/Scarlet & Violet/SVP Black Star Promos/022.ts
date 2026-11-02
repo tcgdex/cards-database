@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Pelipper"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Colorless"],
@@ -65,9 +65,42 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "Nisota Niso"
+	illustrator: "Nisota Niso",
+	description: {
+		en: "It is a flying transporter that carries small Pokémon in its beak. It bobs on the waves to rest its wings.",
+	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 715470,
+				tcgplayer: 501896
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 761126,
+				tcgplayer: 527564
+			},
+		}
+	],
 }
 
 export default card

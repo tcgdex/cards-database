@@ -4,7 +4,7 @@ import Set from '../Undaunted'
 const card: Card = {
 	name: {
 		en: "Murkrow",
-		fr: "Cornebre",
+		fr: "Cornèbre",
 		de: "Kramurx"
 	},
 
@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		198,
-	],
+	dexId: [198],
 
 	hp: 70,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -73,22 +71,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is said that when chased, it lures its attacker onto dark mountain trails where the foe will get lost."
+		en: "It is said that when chased, it lures its attacker onto dark mountain trails where the foe will get lost.",
+		de: "Wird es von einem Gegner verfolgt, lockt es ihn auf dunkle Bergpfade, wo sein Gegner sich verläuft."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279312,
+				tcgplayer: 87656
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279312,
+				tcgplayer: 87656
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279311,
-		tcgplayer: 87656
-	}
 }
 
 export default card

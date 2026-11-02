@@ -57,7 +57,7 @@ const card: Card = {
 			effect: {
 				en: "Discard a Fire Energy and a Water Energy attached to Latias.",
 				fr: "Défaussez une Énergie Fire et une Énergie Water attachées à Latias.",
-				de: "Lege 1 -Energie und 1 -Energie, die an Latias angelegt sind, auf deinen Ablagestapel."
+				de: "Lege 1 {R}-Energie und 1 {W}-Energie, die an Latias angelegt sind, auf deinen Ablagestapel."
 			},
 			damage: 80,
 
@@ -79,6 +79,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Its body is covered with a down that can refract light in such a way that it becomes invisible.",
+		de: "Sein Körper ist mit Daunen bedeckt, die das Licht so brechen, dass das PKMN unsichtbar wird."
+	},
 
 	thirdParty: {
 		cardmarket: 277924,

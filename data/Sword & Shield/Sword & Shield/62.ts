@@ -83,7 +83,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It's so strong that it can knock out some opponents in a single hit, but it also may forget what it's battling midfight."
+		en: "It's so strong that it can knock out some opponents in a single hit, but it also may forget what it's battling midfight.",
+		de: "Es ist so stark, dass es seine Gegner mit einem Angriff vernichten könnte, aber zerstreut wie es ist, vergisst es öfters, wen es gerade bekämpft."
 	},
 
 	dexId: [845],

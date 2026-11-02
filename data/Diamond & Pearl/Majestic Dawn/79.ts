@@ -13,9 +13,12 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [470, 471],
+
 	effect: {
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-la si une autre carte Stade est mise en jeu. Si une autre carte comportant le même nom est en jeu, vous ne pouvez pas jouer cette carte.",
-		de: "Jedes Mal, wenn ein Spieler eine Energiekarte von seiner Hand an ein - oder -Pokémon anlegt, entferne 1 Schadensmarke und alle Speziellen Zustände von diesem Pokémon."
+		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card. Whenever any player attaches an Energy card from his or her hand to Grass Pokémon or Water Pokémon, remove 1 damage counter and all Special Conditions from that Pokémon.",
+		fr: "Lorsqu'un joueur attache une carte Énergie de sa main à un Pokémon Plante ou Eau, retirez à ce Pokémon 1 marqueur de dégât et tous ses États Spéciaux.",
+		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen. Jedes Mal, wenn ein Spieler eine Energiekarte von seiner Hand an ein {G}- oder {W}-Pokémon anlegt, entferne 1 Schadensmarke und alle Speziellen Zustände von diesem Pokémon.",
 	},
 
 	trainerType: "Stadium",

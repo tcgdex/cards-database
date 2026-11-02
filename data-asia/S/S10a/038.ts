@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S10a"
+import { Card } from "../../../interfaces";
+import Set from "../S10a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "天蠍"
+		ja: "グライガー",
+		'zh-tw': "天蠍",
 	},
 
 	illustrator: "Miki Tanaka",
@@ -14,31 +14,50 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		'zh-tw': "會朝著獵物迎面飛來，然後趁著被纏上的獵物 驚慌失措時刺入毒針。"
+		ja: "顔面 めがけて 飛んでくる。 張りつかれた 獲物が 驚く あいだに 毒針を 刺しこむ。",
+		'zh-tw': "會朝著獵物迎面飛來，然後趁著被纏上的獵物 驚慌失措時刺入毒針。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "旋風鉗"
+	attacks: [
+		{
+			name: {
+				ja: "せんぷうバサミ",
+				'zh-tw': "旋風鉗",
+			},
+			damage: "10×",
+			cost: ["Fighting"],
+			effect: {
+				ja: "コインを4回投げ、オモテの数×10ダメージ。",
+				'zh-tw': "擲4次硬幣，造成正面出現的次數×10點傷害。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "擲4次硬幣，造成正面出現的次數×10點傷害。"
+	weaknesses: [{ type: "Grass", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 656347,
+				tcgplayer: 570701,
+			},
 		},
-
-		damage: "10×",
-		cost: ["Fighting"]
-	}],
-
-	weaknesses: [{
-		type: "Grass",
-		value: "×2"
-	}],
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577116,
+			},
+		},
+	],
 
 	retreat: 1,
-	regulationMark: "F"
-}
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [207],
+};
 
-export default card
+export default card;

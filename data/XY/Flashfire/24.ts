@@ -57,6 +57,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They can't swim well yet, and they move much faster by rolling. When they're happy they clap fins.",
+		de: "Es ist noch kein guter Schwimmer und bewegt sich rollend schneller fort. Ist es froh, klatscht es mit seinen Flossen."
+	},
+
 	thirdParty: {
 		cardmarket: 281507,
 		tcgplayer: 91157

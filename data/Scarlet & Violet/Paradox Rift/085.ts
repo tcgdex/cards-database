@@ -74,18 +74,42 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The hammer tops 220 pounds, yet it gets swung around easily by Tinkaton as it steals whatever it pleases and carries its plunder back home.",
+		de: "Granforgita schwingt den über 100 kg schweren Hammer mühelos umher. Es schleppt alles mit sich nach Hause, was ihm gefällt."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740577,
+				tcgplayer: 523751,
+				cardtrader: 265182
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740577,
+				tcgplayer: 523751,
+				cardtrader: 265182
+			}
+		},
+	],
 
 	illustrator: "KEIICHIRO ITO",
 
-	thirdParty: {
-		cardmarket: 740577
-	}
+	
 }
 
 export default card

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Prinplup",
 		fr: "Prinplouf",
+		de: "Pliprin"
 	},
 
 	stage: "Stage2",
@@ -100,6 +101,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "The three horns that extend from its beak attest to its power. The leader has the biggest horns.",
+		de: "Die drei Hörner, die aus dem Schnabel wachsen, stehen für Kraft. Ein Anführer hat die größten Hörner."
+	},
 
 	thirdParty: {
 		cardmarket: 355595,

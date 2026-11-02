@@ -72,23 +72,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "This form of Urshifu is a strong believer in defeating foes by raining many blows down on them. Its strikes are nonstop, flowing like a river."
+		en: "This form of Urshifu is a strong believer in defeating foes by raining many blows down on them. Its strikes are nonstop, flowing like a river.",
+		de: "Es ist darauf spezialisiert, Gegner mit vielen Treffern zu besiegen, indem es wie ein reißender Fluss Schläge auf sie niederprasseln lässt."
 	},
 
-	thirdParty: {
-		cardmarket: 567124,
-		tcgplayer: 241697
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567124,
+				tcgplayer: 241697
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567124,
+				tcgplayer: 241697
+			}
+		},
+	],
 }
 
 export default card

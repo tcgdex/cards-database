@@ -4,6 +4,7 @@ import Set from "../Silver Tempest"
 const card: Card = {
 	dexId: [347],
 	set: Set,
+	cameoDexIds: [139, 345],
 
 	name: {
 		en: "Anorith",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Anorith"
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -54,20 +56,37 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "This Pokémon was restored from a fossil. Anorith lived in the ocean about 100,000,000 years ago, hunting with its pair of claws.",
+		de: "Es wurde aus einem Fossil wiederbelebt. Vor circa 100 Millionen Jahren war es im Meer zu Hause, wo es mit seinen beiden Klauen auf Jagd ging."
 	},
 
-	thirdParty: {
-		cardmarket: 682142,
-		tcgplayer: 451749
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682142,
+				tcgplayer: 451749
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682142,
+				tcgplayer: 451749
+			}
+		},
+	],
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Graveler"
+		en: "Graveler",
+		fr: "Gravalanch"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -17,18 +18,21 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Geodude"
+		en: "Geodude",
+		fr: "Racaillou"
 	},
 
 	description: {
-		en: "It climbs up cliffs as it heads toward the peak\nof a mountain. As soon as it reaches the summit,\nit rolls back down the way it came."
+		en: "It climbs up cliffs as it heads toward the peak\nof a mountain. As soon as it reaches the summit,\nit rolls back down the way it came.",
+		fr: "Il escalade les falaises pour en atteindre\\nles sommets. Une fois tout en haut, il se\\nlaisse rouler par le chemin d'où il est arrivé."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Lunge Out"
+			en: "Lunge Out",
+			fr: "Allonger"
 		},
 
 		damage: 40,

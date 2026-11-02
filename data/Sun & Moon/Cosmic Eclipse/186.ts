@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Descarta 3 cartas de la parte superior de la baraja de cada jugador.\n\nCuando juegues esta carta, puedes descartar otras 3 cartas de tu mano. Si lo haces, cada jugador descarta sus Pokémon en Banca hasta tener 3 Pokémon en Banca. Tu rival descarta primero.",
 		it: "Scarta le prime tre carte del mazzo di ciascun giocatore.\n\nQuando giochi questa carta, puoi scartare altre tre carte che hai in mano. Se lo fai, ciascun giocatore scarta i propri Pokémon in panchina fino ad averne tre. Il tuo avversario scarta per primo.",
 		pt: "Descarte as 3 primeiras cartas do baralho de cada jogador.\n\nQuando você joga esta carta, você pode descartar 3 outras cartas da sua mão. Se fizer isto, cada jogador descarta os próprios Pokémon no Banco até ter 3 Pokémon no Banco. Seu oponente descarta primeiro.",
-		de: "Lege 3 Karten vom Deck jedes Spielers auf seinen Ablagestapel.\n\nWenn du diese Karte spielst, kannst du 3 andere Karten aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, legt jeder Spieler so lang Pokémon von seiner Bank auf seinen Ablagestapel, bis er 3 Pokémon auf seiner Bank hat. Dein Gegner legt als Erster ab."
+		de: "Lege 3 Karten vom Deck jedes Spielers auf seinen Ablagestapel. Wenn du diese Karte spielst, kannst du 3 andere Karten aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, legt jeder Spieler so lang Pokémon von seiner Bank auf seinen Ablagestapel, bis er 3 Pokémon auf seiner Bank hat. Dein Gegner legt als Erster ab. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

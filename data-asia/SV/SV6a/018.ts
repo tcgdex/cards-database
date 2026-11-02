@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV6a"
+import { Card } from "../../../interfaces";
+import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "夜巡靈"
+		ja: "ヨマワル",
+		'zh-tw': "夜巡靈",
 	},
 
 	illustrator: "IKEDA Saki",
@@ -14,43 +14,51 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		'zh-tw': "遭到牠鮮紅的獨眼瞪視 並且被吸取生物能量時， 會受到嚴重的寒氣侵襲。"
+		ja: "真っ赤な ひとつ目で 睨みつけられ 生体エネルギーを 吸われるとき ひどい 寒気に 襲われる。",
+		'zh-tw': "遭到牠鮮紅的獨眼瞪視 並且被吸取生物能量時， 會受到嚴重的寒氣侵襲。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "前往渡魂"
+	attacks: [
+		{
+			name: {
+				ja: "むかえにいく",
+				'zh-tw': "前往渡魂",
+			},
+			cost: ["Psychic"],
+			effect: {
+				ja: "自分のトラッシュから「ヨマワル」を3枚まで選び、ベンチに出す。",
+				'zh-tw': "從自己的棄牌區選擇最多3張「夜巡靈」，放置於備戰區。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "從自己的棄牌區選擇最多3張「夜巡靈」，放置於備戰區。"
+		{
+			name: {
+				ja: "つぶやく",
+				'zh-tw': "囈語",
+			},
+			damage: 30,
+			cost: ["Psychic", "Psychic"],
 		},
+	],
 
-		cost: ["Psychic"]
-	}, {
-		name: {
-			'zh-tw': "囈語"
+	weaknesses: [{ type: "Darkness", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 773767,
+				tcgplayer: 566269,
+			},
 		},
-
-		damage: 30,
-		cost: ["Psychic", "Psychic"]
-	}],
-
-	weaknesses: [{
-		type: "Darkness",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
+	],
 
 	retreat: 1,
 	regulationMark: "H",
-	rarity: "Common"
-}
+	rarity: "Common",
+	dexId: [355],
+};
 
-export default card
+export default card;

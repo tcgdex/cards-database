@@ -63,8 +63,11 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "It agilely scales sheer cliffs to live atop craggy mountains. Its fire is put out when it sleeps.",
 		fr: "Il escalade prestement les falaises escarpées et vit sur les sommets. Sa flamme s'éteint quand il dort."
 	},
 

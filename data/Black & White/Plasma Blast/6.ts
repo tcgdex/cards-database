@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
+				de: "Schnabel"
 			},
 
 			damage: 20,
@@ -52,6 +53,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "For some reason they evolve when they receive electrical energy while they are attacking Shelmet.",
+		de: "Bekommt es im Kampf gegen Schnuthelm Strom ab, löst dies aus unerklärlichen Gründen seine Entwicklung aus."
+	},
 
 	thirdParty: {
 		cardmarket: 281027,

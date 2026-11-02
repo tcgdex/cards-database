@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Voltorb",
 		fr: "Voltorbe",
+		de: "Voltobal"
 	},
 
 	stage: "Stage1",
@@ -74,6 +75,11 @@ const card: Card = {
 	],
 
 	retreat: 0,
+
+	description: {
+		en: "It explodes in response to even minor stimuli. It is feared, with the nickname of \"The Bomb Ball.\"",
+		de: "Es explodiert schon bei kleinsten Reizen. Sein Spitzname „Die Bombenkugel“ spiegelt die Furcht der Menschen wider."
+	},
 
 	thirdParty: {
 		cardmarket: 302169,

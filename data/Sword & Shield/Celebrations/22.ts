@@ -4,12 +4,6 @@ import Set from '../Celebrations'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Lugia",
@@ -85,15 +79,21 @@ const card: Card = {
 	regulationMark: "E",
 
 	description: {
-		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm."
+		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm.",
+		de: "Man berichtet, es sei der Wächter der Meere und man habe es im Herzen eines tosenden Sturmes gesehen."
 	},
 
 	dexId: [249],
 
-	thirdParty: {
-		cardmarket: 576767,
-		tcgplayer: 250317
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 576767,
+				tcgplayer: 250317
+			}
+		},
+	],
 }
 
 export default card

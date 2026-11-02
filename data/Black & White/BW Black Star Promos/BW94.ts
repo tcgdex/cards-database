@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Eevee",
 		fr: "Évoli",
 	},
-	illustrator: "Illus.＆Direc.The Pokémon Company Art Team",
+	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
 	rarity: "Common",
 	category: "Pokemon",
 
@@ -65,6 +65,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.",
+	},
 }
 
 export default card

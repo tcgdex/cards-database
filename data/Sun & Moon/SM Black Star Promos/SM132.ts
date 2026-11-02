@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Enekoro"
 	},
 	illustrator: "0313",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Skitty",
 		fr: "Skitty",
+		de: "Eneco"
 	},
 	stage: "Stage1",
 
@@ -79,6 +80,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It is highly popular among female Trainers for its sublime fur. It does not keep a nest.",
+		de: "Dieses Pokémon ist bei weiblichen Trainern aufgrund seines Fells beliebt."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 360559,
+				tcgplayer: 172937
+			}
+		}
+	],
 }
 
 export default card

@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "On croyait autrefois que les motifs qui ornent\nson dos renfermaient une puissance mystique.",
 		es: "Antaño se creía que en el dibujo de su parte\nposterior residía una fuerza misteriosa.",
 		it: "Nell'antichità si credeva che una forza misteriosa\ndimorasse nei disegni sul dorso di Bronzor.",
-		de: "Früher glaubten die Menschen, dem Muster auf\nseinem Rücken wohne eine mysteriöse Kraft inne.",
+		de: "Früher glaubten die Menschen, dem Muster auf seinem Rücken wohne eine mysteriöse Kraft inne.",
 		'pt-br': "Os povos antigos acreditavam que o padrão nas costas\nde Bronzor continha um poder misterioso.",
 		ko: "옛날 사람들은 동미러의\n등 무늬에 신비한 힘이\n깃들어 있다고 믿었다."
 	},

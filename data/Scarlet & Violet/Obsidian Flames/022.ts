@@ -74,19 +74,46 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 725102,
+				tcgplayer: 509767,
+				cardtrader: 255582
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["gym-challenge"],
+			thirdParty: {
+				cardmarket: 780004,
+				tcgplayer: 213012,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 756378,
+				tcgplayer: 538743,
+			},
+		},
+	],
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 
-	thirdParty: {
-		cardmarket: 725102
-	}
+
 }
 
 export default card

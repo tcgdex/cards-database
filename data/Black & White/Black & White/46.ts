@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Joltik",
 		fr: "Statitik",
+		de: "Wattzapf"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Electroweb",
 				fr: "Toile Élek",
+				de: "Elektronetz"
 			},
 			effect: {
 				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire.",
+				de: "Das Verteidigende Pokémon kann sich während des nächsten Zuges deines Gegners nicht zurückziehen."
 			},
 			damage: 20,
 
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Leech Life",
 				fr: "Vampirisme",
+				de: "Blutsauger"
 			},
 			effect: {
 				en: "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon.",
 				fr: "Soignez à ce Pokémon la même quantité de dégâts que vous avez infligée au Pokémon Défenseur.",
+				de: "Heile bei diesem Pokémon genauso viel Schaden, wie du dem Verteidigenden Pokémon zugefügt hast."
 			},
 			damage: 40,
 
@@ -76,10 +81,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279784,
-		tcgplayer: 85610
-	}
+	description: {
+		en: "They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it.",
+		de: "Lässt seine Beute in elektrisch geladene Fäden tappen. Solang diese durch den Schock gelähmt ist, labt es sich an ihr."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279784,
+				tcgplayer: 85610
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279784,
+				tcgplayer: 85610
+			}
+		},
+	],
 }
 
 export default card

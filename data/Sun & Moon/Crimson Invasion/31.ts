@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pikachu",
 		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -98,6 +99,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It only evolves to this form in the Alola region. According to researchers, its diet is one of the causes of this change.",
+		de: "Es entwickelt sich nur in Alola zu dieser Form. Forscher behaupten, dass einer der Gründe dafür das dortige Futter sei."
+	},
 
 	thirdParty: {
 		cardmarket: 311881,

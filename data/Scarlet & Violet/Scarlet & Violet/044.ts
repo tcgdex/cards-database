@@ -42,14 +42,30 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "KIYOTAKA OSHIYAMA",
+
+	description: {
+		en: "An underpowered, pathetic Pokémon. It may jump high on rare occasions but never more than seven feet.",
+		de: "Ein schwaches und jämmerliches Pokémon. Manchmal gelingen ihm hohe Sprünge, aber über 2 m kommt es selten hinaus."
+	},
 
 	thirdParty: {
         cardmarket: 702339,

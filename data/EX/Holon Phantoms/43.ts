@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Golduck δ",
 		fr: "Akwakwak δ",
-		de: "Entoron"
+		de: "Entoron δ"
 	},
 
 	illustrator: "Midori Harada",
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Psyduck",
-		fr: "Psykokwak"
+		fr: "Psykokwak",
+		de: "Enton"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "As long as any Stadium card with Holon in its name is in play, your opponent can't play any Stadium cards from his or her hand.",
 				fr: "Tant que des cartes Stade dont le nom comporte Holon sont en jeu, votre adversaire ne peut pas jouer de carte Stade de sa main.",
-				de: "Solange sich eine Stadion-Karte mit \"Holon\" im Namen im Spiel befindet, kann dein Gegner keine Stadion-Karten von seiner Hand spielen."
+				de: "Solange sich eine Stadion-Karte mit „Holon“ im Namen im Spiel befindet, kann dein Gegner keine Stadion-Karten von seiner Hand spielen."
 			},
 		},
 	],

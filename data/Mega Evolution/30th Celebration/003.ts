@@ -1,0 +1,86 @@
+import { Card } from "../../../interfaces"
+import Set from "../30th Celebration"
+
+const card: Card = {
+	set: Set,
+
+	description: {
+		en: "It flashes the light on its rear to communicate with other Volbeat. It loves the sweet aroma given off by Illumise.",
+		fr: "Pour communiquer avec ses semblables, ce Pokémon fait clignoter son postérieur. Il adore le doux parfum que dégagent les Lumivole."
+	},
+
+	name: {
+		en: "Volbeat",
+		fr: "Muciole",
+		de: "Volbeat",
+		es: "Volbeat",
+		it: "Volbeat",
+		'es-mx': "Volbeat",
+		pt: "Volbeat"
+	},
+
+	illustrator: "Yoriyuki Ikegami",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [313],
+	hp: 80,
+	types: ["Grass"],
+	stage: "Basic",
+
+	attacks: [{
+		name: {
+			en: "Luring Glow",
+			fr: "Lueur Attrayante",
+			de: "Lockendes Glühen",
+			es: "Resplandor Atrayente",
+			it: "Brillincanto",
+			'es-mx': "Resplandor Atrayente",
+			pt: "Brilho Sedutor"
+		},
+
+		effect: {
+			en: "Switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
+			fr: "Envoyez l'un des Pokémon de Banc de votre adversaire sur le Poste Actif.",
+			de: "Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein.",
+			es: "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo.",
+			it: "Sostituisci uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon in posizione attiva.",
+			'es-mx': "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo.",
+			pt: "Mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo."
+		},
+
+		cost: ["Grass"]
+	}, {
+		name: {
+			en: "Bug Buzz",
+			fr: "Bourdon",
+			de: "Käfergebrumm",
+			es: "Zumbido",
+			it: "Ronzio",
+			'es-mx': "Zumbido",
+			pt: "Zumbido de Inseto"
+		},
+
+		damage: 90,
+		cost: ["Colorless", "Colorless", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Fire",
+		value: "×2"
+	}],
+
+	retreat: 1,
+	regulationMark: "J",
+	variants: [
+		{
+			type: "normal",
+			stamp: ["30th-anniversary"],
+			thirdParty: {
+				cardmarket: 907609,
+				tcgplayer: 716437
+			}
+		}
+	],
+}
+
+export default card

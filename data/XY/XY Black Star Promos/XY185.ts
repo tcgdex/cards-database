@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "TOKIYA",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -37,7 +37,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin for each Fire Energy attached to this Pokémon. This attack does 50 damage times the number of heads.",
-				fr: "Lancez une pièce pour chaque Énergie  attachée à ce Pokémon. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face."
+				fr: "Lancez une pièce pour chaque Énergie {R} attachée à ce Pokémon. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face."
 			},
 			damage: 50,
 
@@ -68,6 +68,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 4,
+
+
+	description: {
+		en: "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain.",
+	},
 
 	thirdParty: {
 		cardmarket: 553958

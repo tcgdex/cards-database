@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Zygarde",
@@ -65,15 +59,28 @@ const card: Card = {
 	dexId: [718],
 
 	description: {
-		en: "Some say it can change to an even more powerful form when battling those who threaten the ecosystem."
+		en: "Some say it can change to an even more powerful form when battling those who threaten the ecosystem.",
+		de: "Im Kampf gegen all jene, die das Ökosystem in Gefahr bringen, nimmt es angeblich eine noch mächtigere Form an."
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574166,
-		tcgplayer: 246915
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574166,
+				tcgplayer: 246915
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574166,
+				tcgplayer: 246915
+			}
+		},
+	],
 }
 
 export default card

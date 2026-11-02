@@ -22,15 +22,21 @@ const card: Card = {
 		es: "Mueve 1 Energía de 1 de tus Pokémon en Banca a tu Pokémon Activo.",
 		it: "Sposta un’Energia da uno dei tuoi Pokémon in panchina al tuo Pokémon attivo.",
 		pt: "Mova 1 Energia de 1 dos seus Pokémon no Banco para o seu Pokémon Ativo.",
-		de: "Verschiebe 1 Energie von 1 Pokémon auf deiner Bank auf dein Aktives Pokémon."
+		de: "Verschiebe 1 Energie von 1 Pokémon auf deiner Bank auf dein Aktives Pokémon. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 
-	thirdParty: {
-		cardmarket: 299562,
-		tcgplayer: 138633
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "gold",
+			thirdParty: {
+				cardmarket: 299562,
+				tcgplayer: 138633
+			}
+		},
+	],
 }
 
 export default card

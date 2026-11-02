@@ -71,6 +71,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When attacked, it uses its feathers to splash water, escaping under cover of the spray.",
+		de: "Gerät es in Gefahr, versprüht es Wasser aus seinem Federkleid und nutzt den Sprühregen, um Reißaus zu nehmen."
+	},
+
 	thirdParty: {
 		cardmarket: 407944,
 		tcgplayer: 201235

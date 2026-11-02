@@ -52,7 +52,7 @@ const card: Card = {
 				es: "Chapoteo Ondulante",
 				it: "Schizzi d'Onda",
 				pt: "Onda Borrifante",
-				de: "Wellenplatscher"
+				de: "Platscher"
 			},
 
 			damage: 20,
@@ -79,23 +79,30 @@ const card: Card = {
 	types: ["Water"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It makes its nest on sheer cliffs. Riding the sea breeze, it glides up into the expansive skies."
+		en: "It makes its nest on sheer cliffs. Riding the sea breeze, it glides up into the expansive skies.",
+		de: "Es baut sein Nest an Steilhängen und nutzt die Seebrise, um beim Gleiten am weiten Himmel an Höhe zu gewinnen."
 	},
 
-	thirdParty: {
-		cardmarket: 457648,
-		tcgplayer: 213119
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457648,
+				tcgplayer: 213119
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457648,
+				tcgplayer: 213119
+			}
+		},
+	],
 }
 
 export default card

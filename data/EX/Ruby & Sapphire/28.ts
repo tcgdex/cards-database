@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		256,
-	],
+	dexId: [256],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Torchic",
-		fr: "Poussifeu"
+		fr: "Poussifeu",
+		de: "Flemmli"
 	},
 
 	stage: "Stage1",
@@ -40,9 +39,9 @@ const card: Card = {
 			},
 			effect: {
 				en: "When you attach a Fire Energy card from your hand to Combusken, remove all Special Conditions from Combusken.",
-				fr: "Lorsque vous attachez une carte Énergie  à Galifeu, retirez-lui tous ses États Spéciaux.",
-				de: "Wenn du eine -Energiekarte an Jungglut anlegst, verlieren alle Speziellen Zustände auf Jungglut ihre Wirkung."
-			},
+				fr: "Lorsque vous attachez une carte Énergie {R} à Galifeu, retirez-lui tous ses États Spéciaux.",
+				de: "Wenn du eine {R}-Energiekarte an Jungglut anlegst, verlieren alle Speziellen Zustände auf Jungglut ihre Wirkung."
+			}
 		},
 	],
 
@@ -60,7 +59,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, l'attaque est sans effet.",
-				de: "Wirf eine Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+				de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 50,
 
@@ -77,19 +76,31 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275676,
-		tcgplayer: 84401
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275676,
+				tcgplayer: 84401
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275676,
+				tcgplayer: 84401
+			}
 		},
-	]
+		{
+			type: "normal",
+			stamp: ['chris-fulop'],
+			thirdParty: {
+				tcgplayer: 477370
+			}
+		},
+	],
+
 }
 
 export default card

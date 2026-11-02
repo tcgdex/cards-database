@@ -1,51 +1,64 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "比克提尼ex"
+		ja: "セゴール",
+		'zh-tw': "比克提尼ex",
 	},
 
-	illustrator: "Saki Hayashiro",
+	illustrator: "Teeziro",
 	category: "Pokemon",
-	hp: 190,
-	types: ["Fire"],
-	stage: "Basic",
-	suffix: "EX",
+	hp: 90,
+	types: ["Water"],
 
-	attacks: [{
-		name: {
-			'zh-tw': "狡兔三窟"
+	description: {
+		ja: "まわりの 空気を 凍らせて 氷のマスクで 顔を 守り 背びれを 氷の剣に 変える。",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			name: {
+				ja: "するどいひれ",
+				'zh-tw': "狡兔三窟",
+			},
+			damage: 40,
+			cost: ["Water", "Colorless"],
 		},
-
-		effect: {
-			'zh-tw': "若希望，將這隻寶可夢與備戰寶可夢互換。"
+		{
+			name: {
+				ja: "フロストスマッシュ",
+				'zh-tw': "勝利火焰",
+			},
+			damage: 80,
+			cost: ["Water", "Water", "Colorless"],
 		},
+	],
 
-		damage: 30,
-		cost: ["Fire"]
-	}, {
-		name: {
-			'zh-tw': "勝利火焰"
+	weaknesses: [{ type: "Metal", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 705377,
+				tcgplayer: 587808,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。"
-		},
+	evolveFrom: {
+		ja: "セビエ",
+	},
 
-		damage: 220,
-		cost: ["Fire", "Fire", "Colorless"]
-	}],
+	retreat: 2,
+	regulationMark: "G",
+	rarity: "Promo",
+	dexId: [997],
+};
 
-	weaknesses: [{
-		type: "Water",
-		value: "×2"
-	}],
-
-	retreat: 1,
-	regulationMark: "G"
-}
-
-export default card
+export default card;

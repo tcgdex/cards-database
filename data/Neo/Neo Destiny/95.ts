@@ -13,23 +13,30 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [52],
+
 	effect: {
+		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Once during each player's turn (before attacking), that player may look at the top 2 cards of his or her deck and put them back in the same order.",
 		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-vous de cette carte si une autre carte Stade arrive en jeu.\n\nUne fois pendant le tour de chaque joueur (avant son attaque), ce joueur peut regarder les 2 premières cartes du dessus de son deck et les replacer dans le même ordre.",
-		de: "Once during each player's turn (before attacking), that player may look at the top 2 cards of his or her deck and put them back in the same order."
+		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Einmal in jedem eigenen Zug (vor dem Angriff) darf jeder Spieler sich die obersten beiden Karten seines Decks ansehen und sie in derselben Reihenfolge zurücklegen."
 	},
 
-	thirdParty: {
-		cardmarket: 274747,
-		tcgplayer: 88497
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274747,
+				tcgplayer: 88497
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274747,
+				tcgplayer: 88497
+			}
 		}
 	]
 }

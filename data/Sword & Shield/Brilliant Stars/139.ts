@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Tafelwasserpack"
 	},
 
+	illustrator: "AYUMI ODASHIMA",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -22,22 +23,28 @@ const card: Card = {
 		es: "Cura 20 puntos de daño a cada uno de tus Pokémon.",
 		it: "Cura ciascuno dei tuoi Pokémon da 20 danni.",
 		pt: "Cure 20 pontos de dano de cada um dos seus Pokémon.",
-		de: "Heile 20 Schadenspunkte bei jedem deiner Pokémon."
+		de: "Heile 20 Schadenspunkte bei jedem deiner Pokémon. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608685,
-		tcgplayer: 263861
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608685,
+				tcgplayer: 263861
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608685,
+				tcgplayer: 263861
+			}
+		},
+	],
 }
 
 export default card

@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Dugtrio da Equipe Rocket"
 	},
 
+	evolveFrom: {
+		en: "Team Rocket's Diglett",
+		fr: "Taupiqueur de la Team Rocket",
+		es: "Diglett del Team Rocket",
+		'es-mx': "Diglett del Equipo Rocket",
+		de: "Team Rockets Digda",
+		it: "Diglett del Team Rocket",
+		pt: "Diglett da Equipe Rocket",
+	},
+
 	illustrator: "KEIICHIRO ITO",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [51],
 	hp: 100,
 	types: ["Fighting"],
 	stage: "Stage1",
@@ -61,13 +72,46 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675913,
-		cardmarket: 869712
-	}
+	description: {
+		en: "In battle, it digs through the ground and strikes the unsuspecting foe from an unexpected direction.",
+		fr: "En combat, il s'enfouit sous terre pour pouvoir frapper ses adversaires par surprise depuis n'importe quelle direction.",
+		de: "Im Kampf gräbt es sich ein und attackiert den Gegner plötzlich aus einer unvorhersehbaren Richtung."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869712,
+			tcgplayer: 675913
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870297,
+			tcgplayer: 677073
+		}
+	},
+	{
+		type: "reverse",
+		foil: "team-rocket",
+		thirdParty: {
+			cardmarket: 870298,
+			tcgplayer: 676933
+		}
+	},
+],
 }
 
 export default card

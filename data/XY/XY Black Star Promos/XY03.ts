@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -60,6 +60,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked.",
+	},
 
 	thirdParty: {
 		cardmarket: 281328

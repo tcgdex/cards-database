@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Mankey",
-		fr: "Férosinge"
+		fr: "Férosinge",
+		de: "Menki"
 	},
 
 	stage: "Stage1",
@@ -59,8 +60,18 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		holo: false
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
+	description: {
+		en: "Some researchers theorize that Primeape remains angry even when inside a Poké Ball.",
+		de: "Der Theorie eines Forschers zufolge schäumt Rasaff sogar im Inneren von Pokébällen weiter vor Wut."
 	},
 
 	thirdParty: {

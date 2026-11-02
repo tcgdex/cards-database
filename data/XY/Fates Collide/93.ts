@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Evita todos los efectos de los ataques de tu rival, excepto el daño, infligidos al Pokémon al que esté unida esta carta. (No se eliminan los efectos ya existentes).",
 		it: "Previeni tutti gli effetti degli attacchi del tuo avversario, esclusi i danni, inflitti ai Pokémon ai quali è assegnata questa carta. Gli effetti esistenti non vengono rimossi.",
 		pt: "Previne todos os efeitos dos ataques do seu oponente, exceto danos, causados ao Pokémon ao qual este card está ligado. (Efeitos existentes não são removidos.)",
-		de: "Verhindere alle Effekte von gegnerischen Angriffen, außer Schaden, die dem Pokémon, an das diese Karte angelegt ist, zugefügt werden. (Bestehende Effekte werden nicht entfernt.)"
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Verhindere alle Effekte von gegnerischen Angriffen, außer Schaden, die dem Pokémon, an das diese Karte angelegt ist, zugefügt werden. (Bestehende Effekte werden nicht entfernt.) Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

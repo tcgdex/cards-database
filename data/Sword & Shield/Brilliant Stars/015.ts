@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Laukaps"
 	},
 
+	illustrator: "sowsow",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -35,20 +36,37 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Its strange physiology reacts to electrical energy in interesting ways. The presence of a Shelmet will cause this Pokémon to evolve.",
+		de: "Sein Körper reagiert unerklärlicherweise auf Elektrizität. Die Anwesenheit von Schnuthelm löst bei ihm die Entwicklung aus."
 	},
 
-	thirdParty: {
-		cardmarket: 608452,
-		tcgplayer: 263703
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608452,
+				tcgplayer: 263703
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608452,
+				tcgplayer: 263703
+			}
+		},
+	],
 }
 
 export default card

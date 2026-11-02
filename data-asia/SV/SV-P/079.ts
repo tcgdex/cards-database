@@ -1,39 +1,32 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "故勒頓"
+		ja: "基本草エネルギー",
+		'zh-tw': "故勒頓",
 	},
 
-	illustrator: "Teeziro",
-	category: "Pokemon",
-	hp: 140,
-	types: ["Dragon"],
+	illustrator: "",
+	category: "Energy",
+	energyType: "Normal",
 
-	description: {
-		'zh-tw': "牠似乎就是古老的探險記裡 提到的翼大王的真面目。 據記載，牠曾以拳頭擊裂大地。"
+	effect: {
+		ja: "&copy;Pokémon/Nintendo/Creatures/GAME FREAK ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの商標です。 このホームページに掲載された画像その他の内容の無断転載はお断りします。",
 	},
 
-	stage: "Basic",
-
-	attacks: [{
-		name: {
-			'zh-tw': "撕裂"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 727988,
+				tcgplayer: 587837,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "這個招式的傷害不計算對手的戰鬥寶可夢身上的附加效果。"
-		},
+	rarity: "Promo",
+};
 
-		damage: 130,
-		cost: ["Fire", "Fighting", "Colorless"]
-	}],
-
-	retreat: 2,
-	regulationMark: "H"
-}
-
-export default card
+export default card;

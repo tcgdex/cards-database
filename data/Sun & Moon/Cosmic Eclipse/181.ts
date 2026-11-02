@@ -64,6 +64,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It boasts power enough to split large trees in half. The organ on its rear releases an odor that it uses to communicate with others of its kind.",
+		de: "Es ist stark genug, um große Baumstämme zu zerbrechen. Über Düfte aus dem Organ am Hinterteil kommuniziert es mit Artgenossen."
+	},
+
 	thirdParty: {
 		cardmarket: 408529,
 		tcgplayer: 201303

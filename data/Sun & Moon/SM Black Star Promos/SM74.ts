@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Regirock"
 	},
 	illustrator: "kawayoo",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -84,6 +84,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Its entire body is made of rock. If any part chips off in battle, it attaches rocks to repair itself.",
+		de: "Sein Körper besteht aus Stein. Bricht im Kampf etwas heraus, wird es durch Stein wieder ersetzt."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 301986,
+				tcgplayer: 151703
+			}
+		}
+	],
 }
 
 export default card

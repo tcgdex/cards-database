@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Electro Ball",
 				fr: "Boule Élek",
+				de: "Elektroball"
 			},
 
 			damage: 10,
@@ -51,6 +52,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
+		de: "Die seitlichen Module halten es in der Luft, indem sie mit elektromagnetischen Wellen die Schwerkraft überlisten."
+	},
 
 	thirdParty: {
 		cardmarket: 280782,

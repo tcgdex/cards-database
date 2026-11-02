@@ -80,23 +80,37 @@ const card: Card = {
 	types: ["Water"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It drifted in on the flow of ocean waters from a frigid place. It keeps its head iced constantly to make sure it stays nice and cold."
+		en: "It drifted in on the flow of ocean waters from a frigid place. It keeps its head iced constantly to make sure it stays nice and cold.",
+		de: "Es kam von einem extrem kalten Ort, indem es sich treiben ließ und schließlich angespült wurde. Es kühlt unablässig sein Gesicht mit Eis."
 	},
 
-	thirdParty: {
-		cardmarket: 456448,
-		tcgplayer: 213135
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 457708,
+				tcgplayer: 213135
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 883767
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457708,
+				tcgplayer: 213135
+			}
+		},
+	],
 }
 
 export default card

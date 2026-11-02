@@ -48,18 +48,39 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its tail moves with greater dexterity than its hands. Making deft use of this tail, Aipom lives high among the treetops.",
+		de: "Griffel lebt hoch oben in Baumwipfeln, wo es seinen Schweif geschickt einsetzt. Dieser ist viel beweglicher als seine Hände."
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769311,
+				tcgplayer: 550181
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769311,
+				tcgplayer: 550181
+			}
+		},
+	],
 
 	illustrator: "Mugi Hamada",
 
-	thirdParty: {
-		cardmarket: 769311
-	}
 }
 
 export default card

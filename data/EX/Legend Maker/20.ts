@@ -4,7 +4,7 @@ import Set from '../Legend Maker'
 const card: Card = {
 	name: {
 		en: "Lunatone",
-		fr: "Seleroc",
+		fr: "Séléroc",
 		de: "Lunastein"
 	},
 
@@ -35,8 +35,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "As long as you have Solrock in play, each player's Fire Pokémon (excluding Pokémon-ex) can't use any Poké-Powers.",
-				fr: "Tant que votre Solaroc est en jeu, les Pokémon  de chaque joueur (Pokémon-ex exclus) ne peuvent pas utiliser de Poké-Powers.",
-				de: "Solange du Sonnfel im Spiel hast, können die -Pokémon beider Spieler (außer Pokémon-ex) keine Poké-Power benutzen."
+				fr: "Tant que votre Solaroc est en jeu, les Pokémon {R} de chaque joueur (Pokémon-ex exclus) ne peuvent pas utiliser de Poké-Powers.",
+				de: "Solange du Sonnfel im Spiel hast, können die {R}-Pokémon beider Spieler (außer Pokémon-ex) keine Poké-Power benutzen"
 			},
 		},
 	],
@@ -70,7 +70,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 

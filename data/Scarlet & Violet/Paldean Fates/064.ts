@@ -55,18 +55,47 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751602,
+				tcgplayer: 534426,
+				cardtrader: 274248
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751602,
+				tcgplayer: 534426,
+				cardtrader: 274248
+			}
+		},
+	],
 
 	illustrator: "Tetsu Kayama",
 
-	thirdParty: {
-		cardmarket: 751602
-	}
+	description: {
+		en: "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.",
+		de: "Es soll entstanden sein, als ein unbekanntes Gift-Pokémon von einem Motor Besitz ergriff, der in einer Schrottfabrik zurückgelassen wurde."
+	},
+
 }
 
 export default card

@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It's covered in a slimy membrane that makes any punches or kicks slide off it harmlessly.",
+	},
+
 	thirdParty: {
 		cardmarket: 284239,
 		tcgplayer: 101480

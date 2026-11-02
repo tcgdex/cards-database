@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [109],
 
 	dexId: [
 		543,
@@ -59,6 +60,7 @@ const card: Card = {
 			name: {
 				en: "Bug Bite",
 				fr: "Piqûre",
+				de: "Käferbiss"
 			},
 
 			damage: 20,
@@ -75,10 +77,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 280659,
-		tcgplayer: 90296
-	}
+	description: {
+		en: "Using the feelers on its head and tail, it picks up vibrations in the air to determine its prey's location and state.",
+		de: "Analysiert mit den Fühlern an Kopf und Schweif Luftzüge, um seine Gegner zu orten und ihren Zustand zu erkennen."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280659,
+				tcgplayer: 90296
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280659,
+				tcgplayer: 90296
+			}
+		},
+	],
 }
 
 export default card

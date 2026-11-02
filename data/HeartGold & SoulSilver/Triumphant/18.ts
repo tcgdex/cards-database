@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		149,
-	],
+	dexId: [149],
 
 	hp: 140,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Dragonair",
 		fr: "Draco",
+		de: "Dragonir"
 	},
 
 	stage: "Stage2",
@@ -65,7 +64,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. If both of them are tails, this attack does nothing. If both of them are heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez 2 pièces. Si vous obtenez deux fois un côté pile, cette attaque ne fait rien. Si vous obtenez deux fois face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf 2 Münzen. Wenn beide Münzen \"Zahl\" zeigen, hat dieser Angriff keine Auswirkungen. Wenn beide Münzen \"Kopf\" zeigen, ist das Verteidigende Pokémon jezt gelähmt."
+				de: "Wirf 2 Münzen. Wenn beide Münzen „Zahl“ zeigen, hat dieser Angriff keine Auswirkungen. Wenn beide Münzen „Kopf“ zeigen, ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 80,
 
@@ -89,20 +88,27 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		en: "This marine Pokémon has an impressive build that lets it freely fly over raging seas without trouble."
+		en: "This marine Pokémon has an impressive build that lets it freely fly over raging seas without trouble.",
+		de: "Dieses Pokémon ist so gebaut, dass es bedenkenlos selbst über tosende Gewässer fliegen kann."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84914,
+				cardmarket: 279548
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279548,
+				tcgplayer: 84914
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279548,
-		tcgplayer: 84914
-	}
 }
 
 export default card

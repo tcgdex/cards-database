@@ -15,6 +15,16 @@ const card: Card = {
 		ja: "自分の山札からたねポケモンを1枚選び、ベンチに出す。そして山札を切る。"
 	},
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 693073,
+				tcgplayer: 567224,
+			},
+		},
+	],
+
 	trainerType: "Item"
 }
 

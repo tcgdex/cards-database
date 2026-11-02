@@ -96,6 +96,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Watching from the sky, they swoop to strike weakened Pokémon on the ground. They decorate themselves with bones.",
+		de: "Es überblickt das Areal aus der Luft und stürzt sich auf ein geschwächtes Opfer. Trägt gern Knochenschmuck."
+	},
+
 	thirdParty: {
 		cardmarket: 289879,
 		tcgplayer: 117815

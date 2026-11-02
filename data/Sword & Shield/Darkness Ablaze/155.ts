@@ -93,23 +93,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Smart enough to use tools in battle, these Pokémon have been seen picking up rocks and flinging them or using ropes to wrap up enemies."
+		en: "Smart enough to use tools in battle, these Pokémon have been seen picking up rocks and flinging them or using ropes to wrap up enemies.",
+		de: "Es weiß Objekte geschickt einzusetzen. So greift und wirft es zum Beispiel kleine Steine mit seinen Krallen oder wickelt Seile um Gegner."
 	},
 
-	thirdParty: {
-		cardmarket: 483654,
-		tcgplayer: 219370
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483654,
+				tcgplayer: 219370
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483654,
+				tcgplayer: 219370
+			}
+		},
+	],
 }
 
 export default card

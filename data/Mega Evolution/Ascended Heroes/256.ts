@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [208],
+
 	name: {
 		en: "Boss's Orders",
 		fr: "Ordres du Boss",
@@ -23,7 +25,7 @@ const card: Card = {
 		fr: "Envoyez l'un des Pokémon de Banc de votre adversaire sur le Poste Actif.",
 		es: "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo.",
 		'es-mx': "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo.",
-		de: "Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein.",
+		de: "Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen.",
 		it: "Sostituisci uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon in posizione attiva.",
 		pt: "Mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo."
 	},
@@ -31,10 +33,15 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676068,
-		cardmarket: 869866
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869866,
+				tcgplayer: 676068
+			}
+		}
+	],
 }
 
 export default card

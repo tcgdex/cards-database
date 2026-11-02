@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Wishiwashi",
@@ -45,7 +39,7 @@ const card: Card = {
 			es: "Si este Pokémon tiene 3 Energías Water o más unidas a él, obtiene 150 PS más.",
 			it: "Se questo Pokémon ha tre o più Energie Water assegnate, ha 150 PS in più.",
 			pt: "If this Pokémon has 3 or more Water Energy attached, it gets +150 HP.",
-			de: "Wenn an dieses Pokémon 3 oder mehr Water-Energien angelegt sind, erhält es +150 KP."
+			de: "Wenn an dieses Pokémon 3 oder mehr {W}-Energien angelegt sind, erhält es +150 KP."
 		}
 	}],
 
@@ -80,16 +74,29 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When it senses danger, its eyes tear up. The sparkle of its tears signals other Wishiwashi to gather."
+		en: "When it senses danger, its eyes tear up. The sparkle of its tears signals other Wishiwashi to gather.",
+		de: "Wenn es Gefahr verspürt, tränen seine Augen. Das Leuchten der Tränen fungiert als Signal, mit dem es etliche Artgenossen zu sich ruft."
 	},
 
 	dexId: [746],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574070,
-		tcgplayer: 246873
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574070,
+				tcgplayer: 246873
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574070,
+				tcgplayer: 246873
+			}
+		},
+	],
 }
 
 export default card

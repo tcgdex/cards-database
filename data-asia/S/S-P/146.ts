@@ -1,50 +1,52 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "阿爾宙斯V"
+		ja: "メッソン",
+		'zh-tw': "阿爾宙斯V",
 	},
 
-	illustrator: "N-DESIGN Inc.",
+	illustrator: "Fuzichoco",
 	category: "Pokemon",
-	hp: 220,
-	types: ["Colorless"],
+	hp: 60,
+	types: ["Water"],
+
+	description: {
+		ja: "怯えると 玉ねぎ１００個分の 催涙成分を もつ 涙を 流して もらい泣き させる。",
+	},
+
 	stage: "Basic",
-	suffix: "V",
 
-	attacks: [{
-		name: {
-			'zh-tw': "三重蓄能"
+	attacks: [
+		{
+			name: {
+				ja: "みずでっぽう",
+				'zh-tw': "三重蓄能",
+			},
+			damage: 20,
+			cost: ["Water"],
 		},
+	],
 
-		effect: {
-			'zh-tw': "從自己的牌庫選擇最多3張基本能量卡，以任意方式附於自己的「寶可夢【V】」身上。並且重洗牌庫。"
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 525410,
+				tcgplayer: 597345,
+			},
 		},
+	],
 
-		cost: ["Colorless", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "力量刀鋒"
-		},
+	retreat: 1,
+	regulationMark: "D",
+	rarity: "Promo",
+	dexId: [816],
+};
 
-		damage: 130,
-		cost: ["Colorless", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Colorless"
-	}],
-
-	retreat: 2,
-	regulationMark: "F"
-}
-
-export default card
+export default card;

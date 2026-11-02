@@ -5,9 +5,10 @@ const card: Card = {
 	name: {
 		en: "Ho-Oh ex",
 		fr: "Ho-Oh ex",
-		de: "Ho-oh ex"
+		de: "Ho-oh-ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Rare",
 	category: "Pokemon",
@@ -73,16 +74,16 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276750,
-		tcgplayer: 86128
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 86128,
+				cardmarket: 276750
+			},
 		},
-	]
+	],
 }
 
 export default card

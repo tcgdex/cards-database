@@ -5,9 +5,10 @@ const card: Card = {
 	name: {
 		en: "Tyranitar ex δ",
 		fr: "Tyranocif ex δ",
-		de: "Despotar ex"
+		de: "Despotar-ex δ"
 	},
 
+	suffix: "ex",
 	illustrator: "Yusuke Shimada",
 	rarity: "Rare",
 	category: "Pokemon",

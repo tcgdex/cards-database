@@ -6,11 +6,11 @@ const card: Card = {
 
 	name: {
 		en: "Alolan Ninetales",
-		fr: "Feunardd'Alola",
-		es: "Ninetalesde Alola",
-		it: "Ninetalesdi Alola",
+		fr: "Feunard d’Alola",
+		es: "Ninetales de Alola",
+		it: "Ninetales di Alola",
 		de: "Alola-Vulnona",
-		'pt-br': "Ninetalesde Alola",
+		'pt-br': "Ninetales de Alola",
 		ko: "알로라나인테일"
 	},
 
@@ -23,7 +23,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Alolan Vulpix"
+		en: "Alolan Vulpix",
+		fr: "Goupix d’Alola"
 	},
 
 	description: {

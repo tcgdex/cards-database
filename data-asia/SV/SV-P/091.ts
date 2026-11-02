@@ -1,22 +1,51 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "巢穴球"
+		ja: "エレズン",
+		'zh-tw': "巢穴球",
 	},
 
-	illustrator: "Toyste Beach",
-	category: "Trainer",
+	illustrator: "Natsumi Yoshida",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Lightning"],
 
-	effect: {
-		'zh-tw': "從自己的牌庫選擇1張【基礎】寶可夢卡，放置於備戰區。並且重洗牌庫。"
+	description: {
+		ja: "汚れた 水を 飲んでも 平気。 体内の 器官で 自分には 無害の 毒液に ろ過するぞ。",
 	},
 
-	trainerType: "Item",
-	regulationMark: "G"
-}
+	stage: "Basic",
 
-export default card
+	attacks: [
+		{
+			name: { ja: "ちょっとつっこむ" },
+			damage: 30,
+			cost: ["Lightning"],
+			effect: {
+				ja: "このポケモンにも10ダメージ。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 587849,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "G",
+	rarity: "Promo",
+	dexId: [848],
+};
+
+export default card;

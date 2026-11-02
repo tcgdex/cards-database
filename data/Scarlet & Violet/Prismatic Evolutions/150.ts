@@ -4,6 +4,7 @@ import Set from "../Prismatic Evolutions"
 const card: Card = {
 	dexId: [471],
 	set: Set,
+	cameoDexIds: [1024],
 
 	name: {
 		en: "Glaceon ex",
@@ -72,19 +73,27 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: true,
-		normal: false
-	},
-
+	suffix: "ex",
 	illustrator: "Kamome Shirahama",
 
-	thirdParty: {
-		cardmarket: 805544
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 805544,
+				tcgplayer: 610505
+			}
+		},
+	],
 }
 
 export default card

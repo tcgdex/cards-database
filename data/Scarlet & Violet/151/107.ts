@@ -66,18 +66,42 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its punches slice the air. However, it seems to need a short break after fighting for three minutes.",
+		de: "Seine Fäuste zerschneiden die Luft. Es muss jedoch alle drei Minuten eine kurze Pause einlegen."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733702,
+				tcgplayer: 516676,
+				cardtrader: 261183
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733702,
+				tcgplayer: 516676,
+				cardtrader: 261183
+			}
+		},
+	],
 
 	illustrator: "DOM",
 
-	thirdParty: {
-		cardmarket: 733702
-	}
+	
 }
 
 export default card

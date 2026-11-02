@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 80,
 	types: ["Fighting"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "OKACHEKE",
 
 	description: {
-		en: "It uses both hands to climb precipitous cliffs. People who see it in action have been known to take up bouldering."
+		en: "It uses both hands to climb precipitous cliffs. People who see it in action have been known to take up bouldering.",
+		de: "Mit den Armen erklimmt es selbst steile Hänge. Unter den Menschen soll diese Klettermethode Vorbild für den Bouldersport gewesen sein."
 	},
 
 	attacks: [{
@@ -55,17 +62,23 @@ const card: Card = {
 		damage: 20
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582714,
-		tcgplayer: 253339
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582714,
+				tcgplayer: 253339
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582714,
+				tcgplayer: 253339
+			}
+		},
+	],
 }
 
 export default card

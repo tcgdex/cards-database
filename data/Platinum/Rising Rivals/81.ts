@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		143,
-	],
+	dexId: [143],
 
 	hp: 100,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -31,13 +29,13 @@ const card: Card = {
 			name: {
 				en: "Bad Sleeping Habits",
 				fr: "Mauvaises habitudes de dodo",
-				de: "Üble Schlafgewohnheit"
+				de: "Üble Schlafgewohnheiten"
 			},
 			effect: {
 				en: "As long as Snorlax is Asleep, your opponent's Active Pokémon can't retreat.",
 				fr: "Tant que Ronflex est Endormi, le Pokémon Actif de votre adversaire ne peut pas battre en retraite.",
 				de: "Solange Relaxo schläft, können sich Aktive Pokémon deines Gegners nicht zurückziehen."
-			},
+			}
 		},
 	],
 
@@ -75,7 +73,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 damage plus 40 more damage. If tails, Snorlax is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires. Si c'est pile, Ronflex est maintenant Endormi.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu. Bei \"Zahl\" schläft Relaxo jetzt."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu. Bei „Zahl“ schläft Relaxo jetzt."
 			},
 			damage: "40+",
 
@@ -88,22 +86,25 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 4,
-
-	thirdParty: {
-		cardmarket: 278607,
-		tcgplayer: 89391
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278655,
+				tcgplayer: 89391
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278655,
+				tcgplayer: 89391
+			}
+		},
+	],
+
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		88,
-	],
+	dexId: [88],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -36,9 +34,9 @@ const card: Card = {
 				de: "Klebrige Flüssigkeit"
 			},
 			effect: {
-				en: "During your opponent’s next turn, the Defending Pokémon’s Retreat Cost is Colorless more.",
+				en: "During your opponent's next turn, the Defending Pokémon's Retreat Cost is Colorless more.",
 				fr: "Pendant le prochain tour de votre adversaire, le Coût de retraite du Pokémon Défenseur est augmenté de Colorless.",
-				de: "Die Rückzugskosten für das Verteidigende Pokémon betragen im nächsten Zug deines Gegners  mehr."
+				de: "Die Rückzugskosten für das Verteidigende Pokémon betragen im nächsten Zug deines Gegners {C} mehr."
 			},
 
 		},
@@ -68,22 +66,27 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Wherever Grimer has passed, so many germs are left behind that no plants will ever grow again."
+		en: "Wherever Grimer has passed, so many germs are left behind that no plants will ever grow again.",
+		de: "Egal, wo SLEIMA auch vorbeikommt, es hinterlässt so viele Keime, dass dort nie wieder Pflanzen wachsen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279303,
+				tcgplayer: 85913
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279303,
+				tcgplayer: 85913
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279303,
-		tcgplayer: 85913
-	}
 }
 
 export default card

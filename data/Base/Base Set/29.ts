@@ -27,7 +27,8 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gastly",
 		fr: "Fantominus",
-		it: "Gastly"
+		it: "Gastly",
+		de: "Nebulak"
 	},
 
 	stage: "Stage1",
@@ -46,7 +47,7 @@ const card: Card = {
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "Das verteidigende Pokémon schläft jetzt.",
+				de: "Das verteidigende Pokémon ist schlafend.",
 				it: "Il Pokémon Difensore è Addormentato."
 			},
 
@@ -65,7 +66,7 @@ const card: Card = {
 			effect: {
 				en: "You can't this attack unless the Defending Pokémon is Asleep.",
 				fr: "Vous ne pouvez utiliser cette attaque que si le Pokémon Défenseur est Endormi.",
-				de: "Du kannst diesen Angriff nur einsetzen, wenn das verteidigende Pokémon schlafend ist.",
+				de: "Du kannst diesen Angriff nur dann einsetzen, wenn das verteidigende Pokémon schlafend ist.",
 				it: "Puoi usare questo attacco solo se il Pokémon Difensore è Addormentato."
 			},
 			damage: 50,
@@ -79,29 +80,41 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
+		en: "Because of its ability to slip through block walls, it is said to be from another dimension.",
 		fr: "Il peut se glisser à travers les murs comme une créature d'une autre dimension.",
-		it: "Per la sua abilità di passare attraverso i muri, si dice che venga da un'altra dimensione."
+		it: "Per la sua abilità di passare attraverso i muri, si dice che venga da un'altra dimensione.",
+		de: "Es stammt aus einer anderen Dimension und kann daher auch durch feste Mauern schweben."
 	},
 
-	thirdParty: {
-		cardmarket: 273724,
-		tcgplayer: 42370
-	},
 	variants: [
 		{
 			type: "normal",
 			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273724,
+				tcgplayer: 42370
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107026,
+				cardmarket: 660199
+			},
 		},
 		{
 			type: "normal",
 			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107026,
+				cardmarket: 660199
+			},
 		},
 		{
 			type: "normal",

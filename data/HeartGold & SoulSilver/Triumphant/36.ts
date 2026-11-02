@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		115,
-	],
+	dexId: [115],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -58,9 +56,9 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 50 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
-			damage: "50x",
+			damage: "50×",
 
 		},
 	],
@@ -75,20 +73,27 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "If it is safe, the young gets out of the belly pouch to play. The adult keeps a close eye on the youngster."
+		en: "If it is safe, the young gets out of the belly pouch to play. The adult keeps a close eye on the youngster.",
+		de: "Fühlt es sich sicher, dann verlässt das Junge den Beutel. Die Mutter behält es ständig im Auge."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86423,
+				cardmarket: 279566
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279566,
+				tcgplayer: 86423
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279566,
-		tcgplayer: 86423
-	}
 }
 
 export default card

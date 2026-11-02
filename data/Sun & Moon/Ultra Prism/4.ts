@@ -64,6 +64,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Roselia that drink nutritionally rich springwater are said to reveal rare coloration when they bloom.",
+		de: "Gibt man ihm besonders nahrhaftes Quellwasser zu trinken, entwickelt es Blüten in seltenen Farben."
+	},
+
 	thirdParty: {
 		cardmarket: 315936,
 		tcgplayer: 157621

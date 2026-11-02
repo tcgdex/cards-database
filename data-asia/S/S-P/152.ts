@@ -1,49 +1,62 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "彷徨夜靈"
+		ja: "クロバットV",
+		'zh-tw': "彷徨夜靈",
 	},
 
-	illustrator: "DOM",
+	illustrator: "PLANETA Mochizuki",
 	category: "Pokemon",
-	hp: 90,
-	types: ["Psychic"],
+	hp: 180,
+	types: ["Darkness"],
 
-	description: {
-		'zh-tw': "身體內部是空的。只要一張開嘴就會像黑洞一樣吸入所有東西。"
-	},
+	stage: "Basic",
 
-	stage: "Stage1",
-
-	attacks: [{
-		name: {
-			'zh-tw': "漆黑"
+	abilities: [
+		{
+			type: "Ability",
+			name: { ja: "ナイトアセット" },
+			effect: {
+				ja: "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の手札が6枚になるように、山札を引く。この番、すでに別の「ナイトアセット」を使っていたなら、この特性は使えない。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "將對手的戰鬥寶可夢【混亂】。"
+	attacks: [
+		{
+			name: {
+				ja: "どくのキバ",
+				'zh-tw': "漆黑",
+			},
+			damage: 70,
+			cost: ["Darkness", "Colorless"],
+			effect: {
+				ja: "相手のバトルポケモンをどくにする。",
+				'zh-tw': "將對手的戰鬥寶可夢【混亂】。",
+			},
 		},
+	],
 
-		damage: 30,
-		cost: ["Psychic"]
-	}],
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Darkness",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 525440,
+				tcgplayer: 597351,
+			},
+		},
+	],
 
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
+	retreat: 1,
+	regulationMark: "D",
+	rarity: "Promo",
+	dexId: [169],
+};
 
-	retreat: 2,
-	regulationMark: "F"
-}
-
-export default card
+export default card;

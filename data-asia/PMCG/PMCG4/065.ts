@@ -7,12 +7,16 @@ const card: Card = {
 		ja: "レインボーエネルギー",
 	},
 
+	illustrator: "Kent Kanetsuna",
 	rarity: "Holo Rare",
 	category: "Energy",
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 575755
+			},
 		},
 	],
 };

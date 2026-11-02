@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Tentacool",
-		fr: "Tentacool"
+		fr: "Tentacool",
+		de: "Tentacha"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei 'Kopf' isdt das verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -60,7 +61,7 @@ const card: Card = {
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das verteidgende Pokémon jetzt jetzt vergiftet."
+				de: "Das verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 10,
 
@@ -75,29 +76,37 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Ses tentacules sont rétractés au repos. En situation de chasse, ils s'allongent."
+		en: "The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey.",
+		fr: "Ses tentacules sont rétractés au repos. En situation de chasse, ils s'allongent.",
+		de: "Die Tentakel bleiben normalerweise kurz, lassen sich aber auf der Jagd ausfahren, um die Beute zu fangen und bewegungsunfähig zu machen."
 	},
 
-	thirdParty: {
-		cardmarket: 273905,
-		tcgplayer: 44446
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273905,
+				tcgplayer: 44446
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 273905,
+				tcgplayer: 44446
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			thirdParty: {
+				cardmarket: 273905,
+				tcgplayer: 44446
+			}
 		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright"
-		}
-	]
+	],
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		114,
-	],
+	dexId: [114],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Search your deck for a Grass Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
 				fr: "Cherchez dans votre deck 1 carte Énergie Grass et attachez-la à l’un de vos Pokémon. Mélangez ensuite votre deck.",
-				de: "Durchsuche dein Deck nach 1 -Energiekarte und lege sie an 1 deiner Pokémon an. Mische dein Deck anschließend."
+				de: "Durchsuche dein Deck nach 1 {G}-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -66,23 +64,39 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
-
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 279715,
-		tcgplayer: 89748
-	}
+	description: {
+		en: "It tangles any moving thing with its vines. Their subtle shaking is ticklish if you get ensnared.",
+		de: "Es berührt alles, was sich bewegt, mit seinen Ranken. Diese Berührungen sind sehr kitzelig."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89748,
+				cardmarket: 279715
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89748,
+				cardmarket: 279715
+			},
+		},
+	],
+
 }
 
 export default card

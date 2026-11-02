@@ -4,6 +4,7 @@ import Set from "../Lost Origin"
 const card: Card = {
 	dexId: [778],
 	set: Set,
+	cameoDexIds: [25],
 
 	name: {
 		en: "Mimikyu",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Mimigma"
 	},
 
+	illustrator: "Ligton",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 70,
@@ -67,16 +69,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674093,
-		tcgplayer: 283961
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674093,
+				tcgplayer: 283961
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674093,
+				tcgplayer: 283961
+			}
+		},
+	],
 }
 
 export default card

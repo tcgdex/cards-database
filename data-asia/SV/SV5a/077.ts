@@ -40,11 +40,17 @@ const card: Card = {
 		damage: 30
 	}],
 
-	retreat: 1,
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 761537,
+				tcgplayer: 566132,
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 761508
-	}
+	retreat: 1,
 }
 
 export default card

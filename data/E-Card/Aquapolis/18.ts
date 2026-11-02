@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		124,
-	],
+	dexId: [124],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -34,12 +32,12 @@ const card: Card = {
 			name: {
 				en: "Meditate",
 				fr: "Yoga",
-				de: "Meditate"
+				de: "Meditation"
 			},
 			effect: {
 				en: "This attack does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
 				fr: "Cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégâts sur le Pokémon Défenseur.",
-				de: "This attack does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+				de: "Dieser Angriff fügt 10 Schadenspunkte plus zusätzlich 10 Schadenspunkte für jede Schadensmarke auf dem Verteidigenden Pokémon zu."
 			},
 			damage: "10+",
 
@@ -53,12 +51,12 @@ const card: Card = {
 			name: {
 				en: "Confuse Ray",
 				fr: "Onde folie",
-				de: "Confuse Ray"
+				de: "Konfustrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				de: "Wirf eine Münze, bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -68,22 +66,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275090,
-		tcgplayer: 86370
-	},
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 86370,
+				cardmarket: 275090
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 86370,
+				cardmarket: 275090
+			}
+		},
 	]
 }
 

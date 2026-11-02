@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		455,
-	],
+	dexId: [455],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Search your deck for an Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 				fr: "Cherchez une carte Énergie dans votre deck, montrez-la à votre adversaire, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
-				de: "Durchsuche dein Deck nach 1 Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck anschließend."
+				de: "Durchsuche dein Deck nach 1 Energiekarte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -74,22 +72,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It walks around on its tentacles in search of a tree branch where it can dangle down and ambush prey."
+		en: "It walks around on its tentacles in search of a tree branch where it can dangle down and ambush prey.",
+		de: "Es sucht sich einen Ast, von dem aus es seiner Beute mit seinen gelenkigen Tentakeln auflauert."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84104,
+				cardmarket: 279202
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84104,
+				cardmarket: 279202
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279202,
-		tcgplayer: 84104
-	}
 }
 
 export default card

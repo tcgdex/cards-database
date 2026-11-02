@@ -55,13 +55,40 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 	illustrator: "Yuu Nishida",
 
-	thirdParty: {
-		cardmarket: 715504
-	}
+	description: {
+		en: "When Litleo are young, female Pyroar will teach them how to hunt. Once the Litleo mature, they will leave the pride and set out on their own.",
+		de: "Als Junges lernt es die Jagd von weiblichen Pyroleo. Sobald es herangewachsen ist, verlässt es das Rudel, um auf eigenen Pfoten zu stehen."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715504,
+				tcgplayer: 498857,
+				cardtrader: 248612
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715504,
+				tcgplayer: 498857,
+				cardtrader: 248612
+			}
+		},
+	],
+
 }
 
 export default card

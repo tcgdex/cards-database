@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cura 60 puntos de daño y elimina todas las Condiciones Especiales de 1 de tus Pokémon.",
 		it: "Cura uno dei tuoi Pokémon da 60 danni e rimuovi tutte le condizioni speciali che lo influenzano.",
 		pt: "Cure 60 de danos e remova todas as Condições Especiais de 1 dos seus Pokémon.",
-		de: "Heile 60 Schadenspunkte bei 1 deiner Pokémon. Alle Speziellen Zustände auf diesem Pokémon verlieren ihre Wirkung."
+		de: "Heile 60 Schadenspunkte bei 1 deiner Pokémon. Alle Speziellen Zustände auf diesem Pokémon verlieren ihre Wirkung. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

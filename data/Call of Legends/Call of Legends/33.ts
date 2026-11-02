@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		143,
-	],
+	dexId: [143],
 
 	hp: 100,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -40,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Remove all damage counters from Snorlax. Snorlax can't use Layabout during your next turn.",
 				fr: "Retirez tous ses marqueurs de dégâts à Ronflex. Ronflex ne peut pas utiliser Traîne-savates pendant votre prochain tour.",
-				de: "Entferne alle Schadensmarken von Relaxo. Relaxo kann Faulenzer in deinem nächsten Zug nicht einsetzten."
+				de: "Entferne alle Schadensmarken von Relaxo. Relaxo kann Faulenzer in deinem nächsten Zug nicht einsetzen."
 			},
 
 		},
@@ -69,16 +67,47 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 4,
+
+	description: {
+		en: "Its stomach's digestive juices can dissolve any kind of poison. It can even eat things off the ground.",
+		de: "Seine Magensäfte können jedes Gift zersetzen. Es kann sich sogar nur von Erdreich ernähren."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89392,
+				cardmarket: 279676
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89392,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 882916,
+				tcgplayer: 213021,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["staff"],
+			thirdParty: {
+				tcgplayer: 213021,
+			},
 		},
 	],
 
-	retreat: 4,
-
-	thirdParty: {
-		cardmarket: 279676,
-		tcgplayer: 89392
-	}
 }
 
 export default card

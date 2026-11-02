@@ -3,7 +3,7 @@ import Set from '../Gym Heroes'
 
 const card: Card = {
 	name: {
-		en: "Energy Flow",
+		en: "Energy Flow"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -11,20 +11,25 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
-	thirdParty: {
-		cardmarket: 274258,
-		tcgplayer: 85213
+	effect: {
+		en: "For each of your Pokémon, you may return any number of Energy cards attached to it to your hand."
 	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85213,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85213,
+				cardmarket: 274258
+			}
 		}
-	]
+	],
 }
 
 export default card

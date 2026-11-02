@@ -72,6 +72,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Instead of hands, it uses its tongue, which is twice its height. Its sticky saliva grips anything.",
+	},
+
 	thirdParty: {
 		cardmarket: 277844,
 		tcgplayer: 86720

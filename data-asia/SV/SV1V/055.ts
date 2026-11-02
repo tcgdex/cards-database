@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SV1V"
 
 const card: Card = {
+	evolveFrom: { ja: "オラチフ" },
 	set: Set,
 
 	name: {
@@ -69,6 +70,17 @@ const card: Card = {
 		type: "Grass",
 		value: "×2"
 	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardtrader: 235632,
+				cardmarket: 693130,
+				tcgplayer: 568281,
+			},
+		},
+	],
 
 	retreat: 3,
 	regulationMark: "G"

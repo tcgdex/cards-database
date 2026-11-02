@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Yanma",
 		fr: "Yanma",
+		de: "Yanma"
 	},
 
 	stage: "Stage1",
@@ -93,6 +94,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "This six-legged Pokémon is easily capable of transporting an adult in flight. The wings on its tail help it stay balanced.",
+		de: "Es kann mühelos einen Erwachsenen umhertragen. Die Federn an seinem Hinterteil stabilisieren seinen Flug."
+	},
 
 	thirdParty: {
 		cardmarket: 315935,

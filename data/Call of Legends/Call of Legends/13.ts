@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "match",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		470,
-	],
+	dexId: [470],
 
 	hp: 90,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -45,7 +44,7 @@ const card: Card = {
 				fr: "Inflige 50 dégâts multipliés par le nombre d'États Spéciaux affectant le Pokémon Défenseur.",
 				de: "Dieser Angriff fügt 50 Schadenspunkte mal der Anzahl der Speziellen Zustände, von dem das Verteidigende Pokémon betroffen ist, zu."
 			},
-			damage: "50x",
+			damage: "50×",
 
 		},
 		{
@@ -53,7 +52,7 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Soothing Scent",
+				en: "Sooting Scent",
 				fr: "Senteur apaisante",
 				de: "Beruhigender Duft"
 			},
@@ -70,21 +69,40 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279656,
-		tcgplayer: 86681
-	}
+
+	description: {
+		en: "When you see Leafeon asleep in a patch of sunshine, you'll know it is using photosynthesis to produce clean air.",
+		de: "An klaren Tagen erzeugt FOLIPURBA saubere Luft, indem es Photosynthese betreibt."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86681,
+				cardmarket: 279656
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86681,
+				cardmarket: 279656
+			},
+		},
+	],
+
 }
 
 export default card

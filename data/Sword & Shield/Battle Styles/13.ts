@@ -71,23 +71,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
 	description: {
-		en: "The patterns on this Pokémon's wings depend on the climate and topography of its habitat. It scatters colorful scales."
+		en: "The patterns on this Pokémon's wings depend on the climate and topography of its habitat. It scatters colorful scales.",
+		de: "Je nach Klima und geographischer Beschaffenheit seines Habitats ändert sich die Musterung seiner Flügel. Es verstreut bunten Flügelstaub."
 	},
 
-	thirdParty: {
-		cardmarket: 544961,
-		tcgplayer: 234072
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 544961,
+				tcgplayer: 234072
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 544961,
+				tcgplayer: 234072
+			}
+		},
+	],
 }
 
 export default card

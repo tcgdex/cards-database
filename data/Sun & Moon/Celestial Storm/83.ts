@@ -85,6 +85,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Strong impacts can knock it out of its shell. This Pokémon was born from mutated nanoparticles.",
+		de: "Heftige Stöße lassen seine Schale abblättern. Eine Mutation von Nanopartikeln brachte dieses Pokémon hervor."
+	},
+
 	thirdParty: {
 		cardmarket: 361328,
 		tcgplayer: 170905

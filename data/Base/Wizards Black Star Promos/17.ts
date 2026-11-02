@@ -63,20 +63,31 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Popular with women because of its beautiful fur. The leader of the Rockets keeps one as a pet.",
+	},
+
+
+
+
+
 	variants: [
 		{
 			type: "holo",
-			foil: "cosmos"
+			subtype: "missing-hp",
+			thirdParty: {
+				cardmarket: 275436,
+				tcgplayer: 84638
+			}
 		},
 		{
 			type: "holo",
-			subtype: "missing-hp"
-		}
-	]
-
-
-
-
+			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 84638
+			}
+		},
+	],
 }
 
 export default card

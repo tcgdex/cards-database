@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kyurem V"
 	},
 
+	illustrator: "takuyoa",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 220,
@@ -39,7 +40,7 @@ const card: Card = {
 			es: "Une cualquier cantidad de cartas de Energía Water de tu mano a tus Pokémon de la manera que desees.",
 			it: "Assegna ai tuoi Pokémon un numero qualsiasi di carte Energia Water dalla tua mano nel modo che preferisci.",
 			pt: "Ligue qualquer número de cartas de Energia Water da sua mão aos seus Pokémon como desejar.",
-			de: "Lege beliebig viele Water-Energiekarten aus deiner Hand beliebig an deine Pokémon an."
+			de: "Lege beliebig viele {W}-Energiekarten aus deiner Hand beliebig an deine Pokémon an."
 		}
 	}, {
 		cost: ["Water", "Water", "Water"],
@@ -59,16 +60,23 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 674058,
-		tcgplayer: 283922
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674058,
+				tcgplayer: 283922
+			}
+		},
+		{
+			type: 'holo',
+			size: 'jumbo',
+			thirdParty: {
+				cardmarket: 675829
+			}
+		},
+	],
 }
 
 export default card

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Vanillite",
 		fr: "Sorbébé",
+		de: "Gelatini"
 	},
 
 	stage: "Stage1",
@@ -42,6 +43,7 @@ const card: Card = {
 			name: {
 				en: "Icy Snow",
 				fr: "Verglas",
+				de: "Eisiger Schnee"
 			},
 
 			damage: 30,
@@ -57,6 +59,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "They cool down the surrounding air and create ice particles, which they use to freeze their foes.",
+		de: "Es produziert Eiskörner, indem es die Luft um sich herum abkühlt, und zieht mit ihnen eine Eisschicht um seinen Gegner."
+	},
 
 	thirdParty: {
 		cardmarket: 280776,

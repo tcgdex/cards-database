@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water.",
+	},
+
 	thirdParty: {
 		cardmarket: 273647,
 		tcgplayer: 96014

@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Prof. Laven"
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -22,23 +23,29 @@ const card: Card = {
 		es: "Pon hasta 3 Pokémon que tengan \"de Hisui\" en su nombre de tu pila de descartes en tu mano.",
 		it: "Prendi fino a tre Pokémon che hanno \"di Hisui\" nel nome dalla tua pila degli scarti e aggiungili alle carte che hai in mano.",
 		pt: "Coloque até 3 Pokémon que tenham \"de Hisui\" no seu nome da sua pilha de descarte na sua mão.",
-		de: "Nimm bis zu 3 Pokémon, bei denen \"Hisui\" zum Namen gehört, aus deinem Ablagestapel auf deine Hand."
+		de: "Nimm bis zu 3 Pokémon, bei denen „Hisui“ zum Namen gehört, aus deinem Ablagestapel auf deine Hand. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682209,
-		tcgplayer: 451810
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682209,
+				tcgplayer: 451810
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682209,
+				tcgplayer: 451810
+			}
+		},
+	],
 }
 
 export default card

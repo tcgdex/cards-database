@@ -8,13 +8,17 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
 	dexId: [
 		6,
 	],
+
+
+
+	cameoDexIds: [126, 136],
 
 	hp: 180,
 
@@ -51,7 +55,8 @@ const card: Card = {
 	retreat: 2,
 
 	thirdParty: {
-		cardmarket: 281320
+		cardmarket: 289561,
+		tcgplayer: 117267
 	}
 }
 

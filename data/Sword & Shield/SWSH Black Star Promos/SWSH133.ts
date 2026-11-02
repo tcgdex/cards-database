@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hideki Ishikawa",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	stage: "Basic",
 
@@ -45,21 +45,36 @@ const card: Card = {
 
 	regulationMark: "E",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576732,
+				tcgplayer: 251089
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576906,
+				tcgplayer: 251104
+			}
+		},
+	],
 
 	hp: 220,
 	types: ["Fire"],
-	retreat: 3,
-
-	thirdParty: {
-		cardmarket: 576732
-	}
+	retreat: 3
 }
 
 export default card

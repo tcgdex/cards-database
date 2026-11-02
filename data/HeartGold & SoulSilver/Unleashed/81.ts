@@ -13,28 +13,25 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [455],
+
 	effect: {
 		fr: "Votre adversaire échange son Pokémon Actif avec l’un des Pokémon de son Banc.",
 		en: "Your opponent switches his or her Active Pokémon with 1 of his or her Benched Pokémon.",
-		de: "Der Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
+		de: "Dein Gegner tauscht sein Aktives Pokémon gegen 1 Pokémon auf seiner Bank aus."
 	},
 
 	trainerType: "Item",
 
 	variants: [
 		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279237,
+				tcgplayer: 88216
+			}
 		},
 	],
-
-	hp: 0,
-
-	thirdParty: {
-		cardmarket: 279237
-	}
 }
 
 export default card

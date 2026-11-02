@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Blitzle"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Lightning"],
@@ -42,16 +42,28 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
 	description: {
 		en: "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate."
 	},
-
-	thirdParty: {
-		cardmarket: 583200
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 583200,
+				tcgplayer: 253409
+			}
+		},
+	],
 }
 
 export default card

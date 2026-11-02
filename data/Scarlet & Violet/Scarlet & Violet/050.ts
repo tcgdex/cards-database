@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Clauncher",
-		fr: "Flingouste"
+		fr: "Flingouste",
+		de: "Scampisto"
 	},
 
 	stage: "Stage1",
@@ -63,14 +64,30 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "Souichirou Gunjima",
+
+	description: {
+		en: "The cannonballs of seawater that Clawitzer launches from its claw are powerful enough to punch through tanker hulls.",
+		de: "Die Geschosse aus Meerwasser, die es aus seiner Schere abfeuert, sind stark genug, um den Rumpf von Tankschiffen zu durchbohren."
+	},
 
 	thirdParty: {
         cardmarket: 702345,

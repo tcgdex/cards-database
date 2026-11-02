@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Seadra δ",
 		fr: "Hypocéan δ",
-		de: "Seemon"
+		de: "Seemon δ"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Horsea",
-		fr: "Hypotrempe"
+		fr: "Hypotrempe",
+		de: "Seeper"
 	},
 
 	stage: "Stage1",

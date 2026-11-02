@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gothita",
 		fr: "Scrutella",
+		de: "Mollimorba"
 	},
 
 	stage: "Stage1",
@@ -41,10 +42,12 @@ const card: Card = {
 			name: {
 				en: "Double Slap",
 				fr: "Torgnoles",
+				de: "Duplexhieb"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 20,
 
@@ -57,10 +60,12 @@ const card: Card = {
 			name: {
 				en: "Psybeam",
 				fr: "Rafale Psy",
+				de: "Psystrahl"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Confused.",
 				fr: "Le Pokémon Défenseur est maintenant Confus.",
+				de: "Das Verteidigende Pokémon ist jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -76,10 +81,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280010,
-		tcgplayer: 85855
-	}
+	description: {
+		en: "They use hypnosis to control people and Pokémon. Tales of Gothorita leading people astray are told in every corner.",
+		de: "Es manipuliert Pokémon und Menschen mit Hypnosetricks. In Märchen tritt es oft als Entführer auf."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280010,
+				tcgplayer: 85855
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280010,
+				tcgplayer: 85855
+			}
+		},
+	],
 }
 
 export default card

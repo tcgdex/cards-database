@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA Igarashi",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 200,
 	types: ["Psychic"],
@@ -76,19 +76,26 @@ const card: Card = {
 	stage: "Basic",
 	dexId: [858],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
-	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 510175
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 510180,
+				tcgplayer: 223755
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 510175,
+				tcgplayer: 223756
+			}
+		},
+	],
+	suffix: "V"
 }
 
 export default card

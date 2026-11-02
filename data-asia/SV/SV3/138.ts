@@ -19,6 +19,16 @@ const card: Card = {
 		th: "เลือกพลังงานที่ติดอยู่กับโปเกมอนบนกระดานฝ่ายเรา 1 ตัวได้สูงสุด 2 ลูก ย้ายไปติดกับโปเกมอนตัวอื่นของฝ่ายเรา 1 ตัว"
 	},
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 724994,
+				tcgplayer: 567092,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }

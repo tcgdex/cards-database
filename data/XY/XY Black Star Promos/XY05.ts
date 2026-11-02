@@ -4,11 +4,11 @@ import Set from '../XY Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Xerneas",
-		fr: "Yveltal",
+		fr: "Xerneas",
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -74,6 +74,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Legends say it can share eternal life. It slept for a thousand years in the form of a tree before its revival.",
+	},
 
 	thirdParty: {
 		cardmarket: 281317

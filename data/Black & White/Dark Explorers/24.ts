@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Slowpoke",
-		fr: "Ramoloss"
+		fr: "Ramoloss",
+		de: "Flegmon"
 	},
 
 	stage: "Stage1",
@@ -63,11 +64,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Lazy Headbutt",
-				fr: "Coup d'Boule Fainéant"
+				fr: "Coup d'Boule Fainéant",
+				de: "Lahme Kopfnuss"
 			},
 			effect: {
 				en: "This Pokémon is now Asleep.",
-				fr: "Ce Pokémon est maintenant Endormi."
+				fr: "Ce Pokémon est maintenant Endormi.",
+				de: "Dieses Pokémon schläft jetzt."
 			},
 			damage: 80,
 
@@ -83,10 +86,27 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 280352,
-		tcgplayer: 89309
-	}
+	description: {
+		en: "Though usually dim witted, it seems to become inspired if the Shellder on its tail bites down.",
+		de: "Ein begriffsstutziges Pokémon. Beißt das Muschas am Schweif zu, scheint es Intelligenz zu gewinnen."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280352,
+				tcgplayer: 89309
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280352,
+				tcgplayer: 89309
+			}
+		},
+	],
 }
 
 export default card

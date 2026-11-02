@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		92,
-	],
+	dexId: [92],
 
 	hp: 40,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Bad Dream",
 				fr: "Mauvais rêve",
-				de: "Bad Dream"
+				de: "Schlechter Traum"
 			},
 			effect: {
-				en: "Flip a coin. If heads the Defending Pokémon is now Asleep. If tails, the Defending Pokémon is now Confused.",
+				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi. Si c'est pile, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Asleep. If tails, the Defending Pokémon is now Confused."
+				de: "Wirf eine Münze. Bei „Kopf“ schläft das Verteidigende Pokémon jetzt. Bei „Zahl“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -47,30 +45,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Darkness",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 274984,
-		tcgplayer: 85649
-	},
 
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 85649,
+				cardmarket: 274984
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 85649,
+				cardmarket: 274984
+			},
+		},
+	],
 }
 
 export default card

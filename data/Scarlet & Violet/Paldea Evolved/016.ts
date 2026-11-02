@@ -44,18 +44,40 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715489,
+				tcgplayer: 497427,
+				cardtrader: 248313
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715489,
+				tcgplayer: 497427,
+				cardtrader: 248313
+			}
+		},
+	],
 
 	illustrator: "Kyoko Umemoto",
 
-	thirdParty: {
-		cardmarket: 715489
-	}
+	description: {
+		en: "The ball of threads wrapped around its body is elastic enough to deflect the scythes of Scyther, this Pokémon's natural enemy.",
+		de: "Die Fadenkugel, die seinen Körper umgibt, ist sehr elastisch. Selbst die Sicheln seines natürlichen Feindes Sichlor prallen an ihr ab."
+	},
 }
 
 export default card

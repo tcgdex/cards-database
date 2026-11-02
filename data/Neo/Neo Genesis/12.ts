@@ -45,21 +45,27 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Bien qu'il soit très petit, il peut électrocuter un adulte. Cependant, s'il le fait, il se surprend lui-même."
+		en: "Despite its small size, it can zap even adult humans. However, if it does so, it also surprises itself.",
+		fr: "Bien qu'il soit très petit, il peut électrocuter un adulte. Cependant, s'il le fait, il se surprend lui-même.",
+		de: "Trotz seiner kleinen Größe kann es sogar erwachsene Menschen elektrisieren. Jedesmal, wenn ihm alles wieder gelingt, ist es selbst davon überrascht."
 	},
 
-	thirdParty: {
-		cardmarket: 274412,
-		tcgplayer: 88011
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274412,
+				tcgplayer: 88011
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274412,
+				tcgplayer: 88011
+			}
 		}
 	]
 }

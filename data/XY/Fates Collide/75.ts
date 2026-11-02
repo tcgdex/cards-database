@@ -76,6 +76,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "If it is safe, the young gets out of the belly pouch to play. The adult keeps a close eye on the youngster.",
+		de: "Fühlt es sich sicher, dann verlässt das Junge den Beutel. Die Mutter behält es ständig im Auge."
+	},
+
 	thirdParty: {
 		cardmarket: 289896,
 		tcgplayer: 117850

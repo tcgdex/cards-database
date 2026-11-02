@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Ralts",
 		fr: "Tarsal",
+		de: "Trasla"
 	},
 
 	stage: "Stage1",
@@ -42,6 +43,7 @@ const card: Card = {
 			name: {
 				en: "Smack",
 				fr: "Claque",
+				de: "Klatscher"
 			},
 
 			damage: 20,
@@ -56,10 +58,12 @@ const card: Card = {
 			name: {
 				en: "Psychic",
 				fr: "Psyko",
+				de: "Psychokinese"
 			},
 			effect: {
 				en: "Does 10 more damage for each Energy attached to the Defending Pokémon.",
 				fr: "Inflige 10 dégâts supplémentaires pour chaque Énergie attachée au Pokémon Défenseur.",
+				de: "Dieser Angriff fügt 10 weitere Schadenspunkte für jede an das Verteidigende Pokémon angelegte Energie zu."
 			},
 			damage: 40,
 
@@ -75,10 +79,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280281,
-		tcgplayer: 86469
-	}
+	description: {
+		en: "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.",
+		de: "Ist sein Trainer glücklich, tanzt es in einem Schwall von Energie fröhlich umher."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280281,
+				tcgplayer: 86469
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280281,
+				tcgplayer: 86469
+			}
+		},
+	],
 }
 
 export default card

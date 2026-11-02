@@ -63,18 +63,42 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Three Magnemite are linked by a strong magnetic force. Earaches will occur if you get too close.",
+		de: "Drei Magnetilo sind durch ein starkes Magnetfeld verbunden. In seiner Nähe bekommt man Ohrensausen."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733677,
+				tcgplayer: 516649,
+				cardtrader: 261194
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733677,
+				tcgplayer: 516649,
+				cardtrader: 261194
+			}
+		},
+	],
 
 	illustrator: "Yuka Morii",
 
-	thirdParty: {
-		cardmarket: 733677
-	}
+	
 }
 
 export default card

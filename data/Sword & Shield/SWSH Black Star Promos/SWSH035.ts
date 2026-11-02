@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Souichirou Gunjima",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 140,
 	types: ["Grass"],
@@ -87,18 +87,25 @@ const card: Card = {
 	stage: "Stage2",
 	dexId: [724],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 487069
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 487069,
+				tcgplayer: 218579
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				tcgplayer: 218578
+			}
+		},
+	],
 }
 
 export default card

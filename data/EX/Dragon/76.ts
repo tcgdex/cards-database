@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		276,
-	],
+	dexId: [276],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur contre l'un des Pokémon de son Banc.",
-				de: "Dein gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 
 		},
@@ -47,24 +45,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
-
-
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 89731,
-		cardmarket: 275953
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89731,
+				cardmarket: 275953
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89731,
+				cardmarket: 275953
+			},
+		},
+	],
+
 }
 
 export default card

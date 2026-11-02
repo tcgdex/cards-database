@@ -63,19 +63,32 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715701,
+				tcgplayer: 497629,
+				cardtrader: 248878
+			}
+		},
+	],
 
 	illustrator: "Mizue",
 
-	thirdParty: {
-		cardmarket: 715701
-	}
+	description: {
+		en: "They build huge nests with many rooms that are used for different purposes, such as eating and sleeping.",
+		de: "Sie bauen große Nester mit diversen Räumen, die alle unterschiedlichen Zwecken dienen, wie etwa dem Schlafen oder Essen."
+	},
 }
 
 export default card

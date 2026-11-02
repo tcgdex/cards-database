@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		7,
-	],
+	dexId: [7],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -66,22 +64,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The shell is soft when it is born. It soon becomes so resilient, prodding fingers will bounce off it."
+		en: "The shell is soft when it is born. It soon becomes so resilient, prodding fingers will bounce off it.",
+		de: "Sein Panzer ist bei Geburt weich. Er wird bald so elastisch, dass kleinere Stöße von ihm abprallen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89496,
+				cardmarket: 279219
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89496,
+				cardmarket: 279219
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279219,
-		tcgplayer: 89496
-	}
 }
 
 export default card

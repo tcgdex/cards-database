@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Cutiefly",
@@ -49,16 +43,29 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "An opponent's aura can tell Cutiefly what that opponent's next move will be. Then Cutiefly can glide around the attack and strike back."
+		en: "An opponent's aura can tell Cutiefly what that opponent's next move will be. Then Cutiefly can glide around the attack and strike back.",
+		de: "Es nimmt die Aura seiner Feinde wahr und erahnt ihren nächsten Zug. So kann es Angriffen geschickt ausweichen und zurückschlagen."
 	},
 
 	dexId: [742],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574126,
-		tcgplayer: 246862
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574126,
+				tcgplayer: 246862
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574126,
+				tcgplayer: 246862
+			}
+		},
+	],
 }
 
 export default card

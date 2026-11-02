@@ -1,40 +1,32 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "利歐路"
+		ja: "基本悪エネルギー",
+		'zh-tw': "利歐路",
 	},
 
-	illustrator: "Taira Akitsu",
-	category: "Pokemon",
-	hp: 60,
-	types: ["Fighting"],
+	illustrator: "",
+	category: "Energy",
+	energyType: "Normal",
 
-	description: {
-		'zh-tw': "精力充沛，可以奔跑一整夜。由於牠十分活潑，帶牠散步的人非常辛苦。"
+	effect: {
+		ja: "&copy;Pokémon/Nintendo/Creatures/GAME FREAK ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの商標です。 このホームページに掲載された画像その他の内容の無断転載はお断りします。",
 	},
 
-	stage: "Basic",
-
-	attacks: [{
-		name: {
-			'zh-tw': "踢倒"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 525445,
+				tcgplayer: 649783,
+			},
 		},
+	],
 
-		damage: 50,
-		cost: ["Fighting", "Fighting"]
-	}],
+	rarity: "Promo",
+};
 
-	weaknesses: [{
-		type: "Psychic",
-		value: "×2"
-	}],
-
-	retreat: 1,
-	regulationMark: "F"
-}
-
-export default card
+export default card;

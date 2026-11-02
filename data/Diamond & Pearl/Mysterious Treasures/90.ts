@@ -73,9 +73,13 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "On dit que rencontrer un Cornèbre la nuit est signe de mauvais augure."
+		en: "It is believed that seeing this Pokémon at night will bring about ominous occurrences.",
+		fr: "On dit que rencontrer un Cornèbre la nuit est signe de mauvais augure.",
+		de: "Sieht man dieses PKMN bei Nacht, sollen merkwürdige Dinge passieren."
 	},
 
 	thirdParty: {

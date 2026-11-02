@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		209,
-	],
+	dexId: [209],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec l’un des Pokémon de son Banc.",
-				de: "Der Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 
 		},
@@ -68,22 +66,27 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has an active, playful nature. Many women like to frolic with it because of its affectionate ways."
+		en: "It has an active, playful nature. Many women like to frolic with it because of its affectionate ways.",
+		de: "Es ist von Natur aus verspielt. Es tollt mit vielen Frauen herum, da es ihnen zugeneigt ist."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89416,
+				cardmarket: 279054
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89416,
+				cardmarket: 279054
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279054,
-		tcgplayer: 89416
-	}
 }
 
 export default card

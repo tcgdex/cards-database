@@ -3,6 +3,7 @@ import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [359],
 
 	name: {
 		en: "Mega Absol ex",
@@ -14,6 +15,7 @@ const card: Card = {
 		'es-mx': "Mega-Absol ex"
 	},
 
+	suffix: "ex",
 	illustrator: "aky CG Works",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
@@ -70,19 +72,24 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 851232,
+				tcgplayer: 654500
+			}
 		},
 	],
-
-	thirdParty: {
-		tcgplayer: 654500,
-		cardmarket: 851232
-	}
 }
 
 export default card

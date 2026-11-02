@@ -56,6 +56,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It hefts a Graveler repeatedly to strengthen its entire body. It uses every type of martial arts.",
+		de: "Es hebt Georok hoch, um seinen Körper zu trainieren. Außerdem übt es sich in jeder Art von Kampfsport."
+	},
+
 	thirdParty: {
 		cardmarket: 281708,
 		tcgplayer: 92221

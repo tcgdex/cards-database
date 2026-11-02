@@ -3,26 +3,24 @@ import Set from '../Legendary Collection'
 
 const card: Card = {
 	name: {
-		en: "Dark Vaporeon",
+		en: "Dark Vaporeon"
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		134,
-	],
+	dexId: [134],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
-		en: "Eevee",
+		en: "Eevee"
 	},
 
 	stage: "Stage1",
@@ -35,7 +33,7 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Bite",
+				en: "Bite"
 			},
 
 			damage: 30,
@@ -48,10 +46,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Whirlpool",
+				en: "Whirlpool"
 			},
 			effect: {
-				en: "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.",
+				en: "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it."
 			},
 			damage: 20,
 
@@ -64,20 +62,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 274774,
-		tcgplayer: 84664
+
+	description: {
+		en: "A Pokémon capable of controlling water, so it is capable of creating giant whirlpools."
 	},
 
 	variants: [
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274774,
+				tcgplayer: 84664
+			}
 		},
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 84664,
+				cardmarket: 274774
+			}
 		}
-	]
+	],
+
 }
 
 export default card

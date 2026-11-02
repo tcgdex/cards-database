@@ -12,18 +12,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		413,
-	],
+	dexId: [413],
 	
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Burmy Plant Cloak",
+		de: "Burmy Pflanzenumhang"
 	},
 
 	stage: "Stage1",
@@ -72,19 +71,28 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278921,
-		tcgplayer: 90641
+	description: {
+		en: "When evolving, its body takes in surrounding materials. As a result, there are many body variations.",
+		de: "Es nimmt während der Entwicklung Dinge aus der Umgebung auf, daher gibt es viele Variationen von ihm."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90641,
+				cardmarket: 278921
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278921,
+				tcgplayer: 90641
+			}
+		},
+	],
+
 }
 
 export default card

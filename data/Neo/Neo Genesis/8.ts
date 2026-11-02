@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Seadra",
-		fr: "Hypocéan"
+		fr: "Hypocéan",
+		de: "Seemon"
 	},
 
 	stage: "Stage2",
@@ -45,7 +46,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Kingdra.",
 				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Hyporoi.",
-				de: "Wirf eine Münze. Verhindere bei 'Kopf' während des nächsten Zuges deines Gegners alle Auswirkungen von Angriffen auf Seedraking (einschließlich der Schadenspunkte)."
+				de: "Wirf eine Münze. Verhindere bei „Kopf“ während des nächsten gegnerischen Zugs alle Auswirkungen von Angriffen auf Seedraking (einschließlich der Schadenspunkte)."
 			},
 			damage: 30,
 
@@ -72,22 +73,30 @@ const card: Card = {
 		},
 	],
 
+	retreat: 2,
+
 	description: {
-		fr: "On prétend qu'il se cache dans des grottes sous-marines. Il peut créer des tourbillons rien que par son bâillement."
+		en: "It is said that it usually hides in underwater caves. It can create whirlpools by yawning.",
+		fr: "On prétend qu'il se cache dans des grottes sous-marines. Il peut créer des tourbillons rien que par son bâillement.",
+		de: "Man sagt ihm nach, dass es sich oft in Unterwasserhöhlen versteckt. Es kann durch Gähnen Strudel erzeugen."
 	},
 
-	thirdParty: {
-		cardmarket: 274408,
-		tcgplayer: 86440
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274408,
+				tcgplayer: 86440
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274408,
+				tcgplayer: 86440
+			}
 		}
 	]
 }

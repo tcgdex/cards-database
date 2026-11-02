@@ -54,7 +54,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard a Fire Energy card attached to Cyndaquil.",
-				fr: "Lancez une pièce. Si c'est pile, défaussez une carte Énergie  attachée à Héricendre.",
+				fr: "Lancez une pièce. Si c'est pile, défaussez une carte Énergie {R} attachée à Héricendre.",
 				de: "Flip a coin. If tails, discard a  Energy card attached to Cyndaquil."
 			},
 			damage: 30,
@@ -72,20 +72,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276700,
-		tcgplayer: 84550
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84550,
+				cardmarket: 276700
+			},
 		},
 		{
-			type: "normal",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 84550,
+				cardmarket: 276700
+			},
 		}
-	]
+	],
 }
 
 export default card

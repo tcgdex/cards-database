@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Remoraid",
-		fr: "Rémoraid"
+		fr: "Rémoraid",
+		de: "Remoraid"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -75,23 +76,31 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
-		fr: "Il attrape ses ennemis avec les ventouses de ses tentacules et les écrase d'un coup de sa tête dure."
+		en: "It traps enemies with its suction cupped tentacles then smashes them with its rockhard head.",
+		fr: "Il attrape ses ennemis avec les ventouses de ses tentacules et les écrase d'un coup de sa tête dure.",
+		de: "Es fängt seine Beute mit seinen Saugnapf-Tentakeln und zerschmettert sie dann mit seinem steinharten Kopf."
 	},
 
-	thirdParty: {
-		cardmarket: 274620,
-		tcgplayer: 87830
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274620,
+				tcgplayer: 87830
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274620,
+				tcgplayer: 87830
+			}
 		}
 	]
 }

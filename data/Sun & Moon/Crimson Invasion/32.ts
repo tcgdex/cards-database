@@ -84,6 +84,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its body is a magnetic stone. Iron sand attaches firmly to the portions of its body that are particularly magnetic.",
+		de: "Sein Steinkörper ist von Magnetkraft erfüllt. An den Stellen, wo diese besonders stark wirkt, heften sich Schichten von Eisensand an."
+	},
+
 	thirdParty: {
 		cardmarket: 311882,
 		tcgplayer: 149055

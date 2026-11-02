@@ -90,6 +90,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It attacks enemies with strikes of its thorn-covered tail. This Pokémon is wild tempered.",
+		de: "Wer sich mit diesem temperamentvollen Pokémon anlegt, bekommt seinen mit Dornen bestückten Schweif zu spüren."
+	},
+
 	thirdParty: {
 		cardmarket: 281348,
 		tcgplayer: 89224

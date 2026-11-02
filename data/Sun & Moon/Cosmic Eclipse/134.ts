@@ -86,6 +86,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "After shredding its prey, it sharpens its blades on a stone by the river. Each Pawniard has its own favorite sharpening stone.",
+		de: "Erst schlitzt es seine Beute auf, dann schärft es seine Klingen an den Felsen eines Flussbetts. Jedes Gladiantri besitzt einen Lieblingsfelsen."
+	},
+
 	thirdParty: {
 		cardmarket: 408319,
 		tcgplayer: 201178

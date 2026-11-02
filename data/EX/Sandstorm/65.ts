@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		58,
-	],
+	dexId: [58],
 
 	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "If Growlithe is your Active Pokémon and is damaged by an opponent's attack (even if Growlithe is Knocked Out), the Attacking Pokémon is now Burned.",
 				fr: "Si Caninos est votre Pokémon Actif et qu'une attaque de votre adversaire lui inflige des dégâts (même si Caninos est mis K.O), le Pokémon Attaquant est maintenant Brûlé.",
 				de: "Wenn Fukano dein Aktives Pokémon ist und ihm Schaden durch einen gegnerischen Angriff zugefügt wird (auch wenn Arkani kampfunfähig wird), ist das Angreifende Pokémon jetzt verbrannt."
-			},
+			}
 		},
 	],
 
@@ -68,19 +66,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275842,
-		tcgplayer: 85951
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275842,
+				tcgplayer: 85951
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275842,
+				tcgplayer: 85951
+			}
 		},
-	]
+	],
+
 }
 
 export default card

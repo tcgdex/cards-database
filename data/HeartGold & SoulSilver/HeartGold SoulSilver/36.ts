@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		242,
-	],
+	dexId: [242],
 
 	hp: 130,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Chansey",
 		fr: "Leveinard",
+		de: "Chaneira"
 	},
 
 	stage: "Stage1",
@@ -79,22 +78,27 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Anyone who takes even one taste of Blissey’s egg becomes unfailingly caring and pleasant to everyone."
+		en: "Anyone who takes even one taste of Blissey’s egg becomes unfailingly caring and pleasant to everyone.",
+		de: "Jeder, der einen Bissen von dem Ei, das HEITEIRA hält, nimmt, wird gegenüber anderen sorgsam und höflich."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83923,
+				cardmarket: 279008
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83923,
+				cardmarket: 279008
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279008,
-		tcgplayer: 83923
-	}
 }
 
 export default card

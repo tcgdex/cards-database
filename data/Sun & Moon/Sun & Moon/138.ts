@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Fomantis",
 		fr: "Mimantis",
+		de: "Imantis"
 	},
 
 	suffix: "GX",
@@ -92,7 +93,7 @@ const card: Card = {
 				es: "Cloroguadaña GX",
 				it: "Clorofalce-GX",
 				pt: "Foice de Clorofila GX",
-				de: "Chlorosense GX"
+				de: "Chlorosense-GX"
 			},
 			effect: {
 				en: "This attack does 50 damage times the amount of Grass Energy attached to this Pokémon. (You can’t use more than 1 GX attack in a game.)",
@@ -100,7 +101,7 @@ const card: Card = {
 				es: "Este ataque hace 50 puntos de daño por cada Energía Grass unida a este Pokémon. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Questo attacco infligge 50 danni per ogni Energia Grass assegnata a questo Pokémon. Non puoi usare più di un attacco GX a partita.",
 				pt: "Este ataque causa 50 pontos de dano vezes a quantidade de Energia Grass ligada a este Pokémon (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der an dieses Pokémon angelegten Grass-Energien zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				de: "Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der an dieses Pokémon angelegten {G}-Energien zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: "50×",
 

@@ -63,15 +63,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 273925,
-		tcgplayer: 42464
+
+	description: {
+		en: "A brutal Pokémon with pressurized water jets on its shell. They are used for high-speed tackles.",
 	},
+
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273925,
+				tcgplayer: 42464
+			}
 		}
 	]
 }

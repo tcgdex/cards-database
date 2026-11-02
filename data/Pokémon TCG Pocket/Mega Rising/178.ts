@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Sliggoo"
+		en: "Sliggoo",
+		fr: "Colimucus"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Dragon"],
 
 	evolveFrom: {
-		en: "Goomy"
+		en: "Goomy",
+		fr: "Mucuscule"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Gentle Slap"
+			en: "Gentle Slap",
+			fr: "Gifle Douce"
 		},
 
 		damage: 60,

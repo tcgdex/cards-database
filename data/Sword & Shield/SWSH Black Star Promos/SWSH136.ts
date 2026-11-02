@@ -4,13 +4,32 @@ import Set from '../SWSH Black Star Promos'
 const card: Card = {
 	dexId: [778],
 	set: Set,
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576735,
+				tcgplayer: 251092
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			stamp: ["25th-celebration"],
+			thirdParty: {
+				cardmarket: 576908,
+				tcgplayer: 260878
+			}
+		},
+	],
 
 	name: {
 		en: "Mimikyu",
@@ -21,7 +40,7 @@ const card: Card = {
 		it: "Mimikyu"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Water"],
@@ -71,11 +90,7 @@ const card: Card = {
 		damage: 40
 	}],
 
-	retreat: 1,
-
-	thirdParty: {
-		cardmarket: 576735
-	}
+	retreat: 1
 }
 
 export default card

@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S7D"
+import { Card } from "../../../interfaces";
+import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "鐵臂槍蝦"
+		ja: "ウデッポウ",
+		'zh-tw': "鐵臂槍蝦",
 	},
 
 	illustrator: "Pani Kobayashi",
@@ -14,34 +14,48 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		'zh-tw': "從右邊的鉗子噴出水來移動。因為無法取得平衡，所以不擅長直線游動。"
+		ja: "右の ハサミから 水を 噴き出し 移動。 バランスが 悪いので まっすぐ 泳ぐのは 下手くそ。",
+		'zh-tw': "從右邊的鉗子噴出水來移動。因為無法取得平衡，所以不擅長直線游動。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "水槍"
+	attacks: [
+		{
+			name: {
+				ja: "みずでっぽう",
+				'zh-tw': "水槍",
+			},
+			damage: 10,
+			cost: ["Water"],
 		},
-
-		damage: 10,
-		cost: ["Water"]
-	}, {
-		name: {
-			'zh-tw': "夾住"
+		{
+			name: {
+				ja: "はさむ",
+				'zh-tw': "夾住",
+			},
+			damage: 20,
+			cost: ["Water", "Colorless"],
 		},
+	],
 
-		damage: 20,
-		cost: ["Water", "Colorless"]
-	}],
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 571589,
+				tcgplayer: 569330,
+			},
+		},
+	],
 
 	retreat: 2,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Common",
+	dexId: [692],
+};
 
-export default card
+export default card;

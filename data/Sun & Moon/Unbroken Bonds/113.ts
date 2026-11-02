@@ -85,6 +85,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Alola, where it's warm all year round, is a comfortable environment for this Pokémon. Sometimes you'll even see it outside of deserts.",
+		de: "Das ganzjährig warme Klima der Alola-Region bietet ihm günstige Lebensbedingungen. Ab und an trifft man es sogar außerhalb von Wüsten an."
+	},
+
 	thirdParty: {
 		cardmarket: 372403,
 		tcgplayer: 189213

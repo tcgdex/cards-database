@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Esta carta solo puede unirse a Pokémon Psychic. Esta carta proporciona Energía Psychic solo mientras esta carta esté unida a un Pokémon Psychic. El Coste de Retirada del Pokémon al que esté unida esta carta es ColorlessColorless menos. (Si esta carta está unida a cualquier otra carta que no sea un Pokémon Psychic, descarta esta carta).",
 		it: "Questa carta può essere assegnata solo a Pokémon Psychic e fornisce Energia Psychic, ma solo quando è assegnata a uno di essi. Il costo di ritirata del Pokémon a cui è assegnata questa carta è ridotto di ColorlessColorless. Scarta questa carta se viene assegnata a un Pokémon che non sia un Pokémon Psychic.",
 		pt: "Este card só pode ser ligado a Pokémon Psychic. Este card fornece Energia Psychic, mas somente quando está ligado a um Pokémon Psychic.\n\nO Custo para Recuar do Pokémon ao qual este card está ligado é ColorlessColorless menor.\n\n(Se este card estiver ligado a qualquer coisa diferente de um Pokémon Psychic, descarte-o.)",
-		de: "Diese Karte kann nur an Psychic-Pokémon angelegt werden. Diese Karte liefert nur dann Psychic-Energie, wenn sie an ein Psychic-Pokémon angelegt ist. Die Rückzugskosten des Pokémon, an das diese Karte angelegt ist, verringern sich um ColorlessColorless. (Lege diese Karte auf deinen Ablagestapel, wenn sie an eine andere Karte als ein Psychic-Pokémon angelegt ist.)"
+		de: "Diese Karte kann nur an {P}-Pokémon angelegt werden. Diese Karte liefert nur dann {P}-Energie, wenn sie an ein {P}-Pokémon angelegt ist. Die Rückzugskosten des Pokémon, an das diese Karte angelegt ist, verringern sich um {C}{C}. (Lege diese Karte auf deinen Ablagestapel, wenn sie an eine andere Karte als ein {P}-Pokémon angelegt ist.)"
 	},
 
 	energyType: "Special",

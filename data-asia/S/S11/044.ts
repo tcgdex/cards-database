@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S11"
+import { Card } from "../../../interfaces";
+import Set from "../S11";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "勾魂眼"
+		ja: "ヤミラミ",
+		'zh-tw': "勾魂眼",
 	},
 
 	illustrator: "Shibuzoh.",
@@ -14,42 +14,51 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		'zh-tw': "寶石的眼睛發出詭異光芒時，就會攝取人的魂魄。 是令人恐懼的寶可夢。"
+		ja: "宝石の 瞳が 怪しく 輝くとき 人の 魂を 奪うと 恐れられる ポケモン。",
+		'zh-tw': "寶石的眼睛發出詭異光芒時，就會攝取人的魂魄。 是令人恐懼的寶可夢。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "抓"
+	attacks: [
+		{
+			name: {
+				ja: "ひっかく",
+				'zh-tw': "抓",
+			},
+			damage: 20,
+			cost: ["Colorless"],
 		},
-
-		damage: 20,
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "放逐礦山"
+		{
+			name: {
+				ja: "ロストマイン",
+				'zh-tw': "放逐礦山",
+			},
+			cost: ["Psychic"],
+			effect: {
+				ja: "このワザは、自分のロストゾーンにカードが10枚以上あるときにしか使えない。ダメカン12個を、相手のポケモンに好きなようにのせる。",
+				'zh-tw': "這個招式只有在自己的放逐區有10張以上的卡時才可使用。將12個傷害指示物以任意方式放置於對手的寶可夢身上。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "這個招式只有在自己的放逐區有10張以上的卡時才可使用。將12個傷害指示物以任意方式放置於對手的寶可夢身上。"
+	weaknesses: [{ type: "Darkness", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 667919,
+				tcgplayer: 569975,
+			},
 		},
-
-		cost: ["Psychic"]
-	}],
-
-	weaknesses: [{
-		type: "Darkness",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
+	],
 
 	retreat: 1,
-	regulationMark: "F"
-}
+	regulationMark: "F",
+	rarity: "Rare",
+	dexId: [302],
+};
 
-export default card
+export default card;

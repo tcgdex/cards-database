@@ -80,6 +80,11 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "It checks out whatever's around it by licking everything. If you don't clean off a spot where it's licked you, you'll break out in a rash!",
+		de: "Mit seiner langen Zunge leckt es an allem, um es zu prüfen. Lässt man eine abgeleckte Stelle unbehandelt, entwickelt sich ein Ausschlag."
+	},
+
 	thirdParty: {
 		cardmarket: 388592,
 		tcgplayer: 195161

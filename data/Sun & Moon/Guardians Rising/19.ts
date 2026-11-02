@@ -78,6 +78,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives on snowy mountains. Its steel shell is very hard—so much so, it can't roll its body up into a ball.",
+		de: "Es lebt auf verschneiten Bergen. Sein Panzer ist zwar robust, aber so hart, dass es seinen Körper nicht vollständig zusammenrollen kann."
+	},
+
 	thirdParty: {
 		cardmarket: 297483,
 		tcgplayer: 130767

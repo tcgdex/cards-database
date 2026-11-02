@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Morelull",
 		fr: "Spododo",
+		de: "Bubungus"
 	},
 
 	stage: "Stage1",
@@ -101,10 +102,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 299499,
-		tcgplayer: 138592
-	}
+	description: {
+		en: "Forests where Shiinotic live are treacherous to enter at night. People confused by its strange lights can never find their way home again.",
+		de: "Nachts sollte man Wälder meiden, in denen Lamellux leben. Ihr unheimliches Licht raubt jedem die Orientierung."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299499,
+				tcgplayer: 138592
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299499,
+				tcgplayer: 138592
+			}
+		},
+	],
 }
 
 export default card

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Meowth",
 		fr: "Miaouss d’Alola",
+		de: "Alola-Mauzi"
 	},
 
 	stage: "Stage1",
@@ -72,6 +73,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It looks down on everyone other than itself. Its preferred tactics are sucker punches and blindside attacks.",
+		de: "Bis auf sich selbst hält es alles und jeden für wertlos. Es bevorzugt fiese Angriffe aus dem Hinterhalt oder der Dunkelheit."
+	},
 
 	thirdParty: {
 		cardmarket: 365756,

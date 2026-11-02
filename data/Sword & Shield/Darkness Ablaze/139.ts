@@ -89,23 +89,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Although it has a large body, it is quite skilled at climbing trees. It eats and sleeps in the treetops."
+		en: "Although it has a large body, it is quite skilled at climbing trees. It eats and sleeps in the treetops.",
+		de: "Trotz seines riesigen Körpers ist es ein guter Kletterer. Es frisst und schläft in Baumkronen."
 	},
 
-	thirdParty: {
-		cardmarket: 483574,
-		tcgplayer: 219337
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483574,
+				tcgplayer: 219337
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483574,
+				tcgplayer: 219337
+			}
+		},
+	],
 }
 
 export default card

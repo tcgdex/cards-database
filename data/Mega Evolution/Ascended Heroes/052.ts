@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Izucch",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [872],
 	hp: 50,
 	types: ["Water"],
 	stage: "Basic",
@@ -37,13 +38,46 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675864,
-		cardmarket: 869663
-	}
+	description: {
+		en: "Within its internal organs, Snom amplifies the frigid air it gets from eating snow and then uses this amplified air to create icicle-like spikes.",
+		fr: "Il amplifie l'air froid qu'il absorbe en mangeant de la neige, ce qui lui permet de créer ses pointes semblables à des pics de glace.",
+		de: "Mit den inneren Organen verstärkt es die Kälte, die es mit dem Schnee aufnimmt. Dadurch kann es Stacheln formen, die wie Eiszapfen aussehen."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869663,
+			tcgplayer: 675864
+		}
+	},
+	{
+		type: "reverse",
+		foil: "friendball",
+		thirdParty: {
+			cardmarket: 870220,
+			tcgplayer: 676894
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870219,
+			tcgplayer: 677034
+		}
+	},
+],
 }
 
 export default card

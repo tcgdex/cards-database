@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Melmetal"
 	},
 
-	rarity: "Rare",
+	illustrator: "TOKIYA",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Metal"],
@@ -37,7 +38,7 @@ const card: Card = {
 			es: "Una vez durante tu turno (antes de tu ataque), puedes descartar 1 Pokémon Metal de tu mano. Si lo haces, cura 100 puntos de daño a este Pokémon.",
 			it: "Una sola volta durante il tuo turno, prima di attaccare, puoi scartare un Pokémon Metal che hai in mano. Se lo fai, cura questo Pokémon da 100 danni.",
 			pt: "Uma vez durante a sua vez de jogar (antes de atacar), você pode descartar 1 Pokémon Metal da sua mão. Se fizer isto, cure 100 pontos de dano deste Pokémon.",
-			de: "Einmal während deines Zuges (bevor du angreifst) kannst du 1 Metal-Pokémon aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, heile 100 Schadenspunkte bei diesem Pokémon."
+			de: "Einmal während deines Zuges (bevor du angreifst) kannst du 1 {M}-Pokémon aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, heile 100 Schadenspunkte bei diesem Pokémon."
 		}
 	}],
 
@@ -65,7 +66,22 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	retreat: 4
+	retreat: 4,
+
+	description: {
+		en: "Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years.",
+		de: "Einst wurde es für seine Fähigkeit verehrt, Eisen erschaffen zu können. Nach 3 000 Jahren ist es aus einem unerfindlichen Grund wieder erwacht."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 371774,
+				tcgplayer: 189021
+			}
+		}
+	],
 }
 
 export default card

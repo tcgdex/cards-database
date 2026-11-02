@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Magikarp"
+		en: "Magikarp",
+		fr: "Magicarpe"
 	},
 
 	illustrator: "Tetsu Kayama",
@@ -24,13 +25,15 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Waterfall Evolution"
+			en: "Waterfall Evolution",
+			fr: "Évolution en Cascade"
 		},
 
 		cost: ["Water", "Water", "Colorless"],
 
 		effect: {
-			en: "Put a random card from your deck that evolves from this Pokémon onto this Pokémon to evolve it."
+			en: "Put a random card from your deck that evolves from this Pokémon onto this Pokémon to evolve it.",
+			fr: "Prenez au hasard une carte pouvant faire évoluer ce Pokémon dans votre deck, puis placez-la sur ce Pokémon pour le faire évoluer."
 		}
 	}],
 

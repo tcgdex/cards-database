@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Litten",
 		fr: "Flamiaou",
+		de: "Flamiau"
 	},
 
 	stage: "Stage1",
@@ -84,6 +85,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It boasts powerful front legs. With a single punch, it can bend an iron bar right over.",
+		de: "Dieses Pokémon ist sehr stolz auf seine starken Vorderbeine. Außerdem kann es mit nur einem Schlag eine Eisenstange verbiegen."
+	},
 
 	thirdParty: {
 		cardmarket: 368953,

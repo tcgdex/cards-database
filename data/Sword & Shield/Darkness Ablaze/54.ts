@@ -95,23 +95,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Though it's able to capture prey by freezing its surroundings, it has trouble eating the prey afterward because its mouth is on top of its head."
+		en: "Though it's able to capture prey by freezing its surroundings, it has trouble eating the prey afterward because its mouth is on top of its head.",
+		de: "Es fängt seine Beute, indem es seine Umgebung einfriert, doch da sich sein Maul oben auf seinem Kopf befindet, ist Fressen für es sehr umständlich."
 	},
 
-	thirdParty: {
-		cardmarket: 483144,
-		tcgplayer: 219384
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483144,
+				tcgplayer: 219384
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483144,
+				tcgplayer: 219384
+			}
+		},
+	],
 }
 
 export default card

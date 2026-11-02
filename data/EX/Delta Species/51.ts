@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Pupitar δ",
 		fr: "Ymphect δ",
-		de: "Pupitar"
+		de: "Pupitar δ"
 	},
 
 	illustrator: "Masakazu Fukuda",

@@ -8,6 +8,16 @@ const card: Card = {
 		ja: "スパイクエネルギー"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 807719,
+				tcgplayer: 615008,
+			},
+		},
+	],
+
 	rarity: "None",
 	category: "Energy",
 

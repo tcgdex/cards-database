@@ -87,6 +87,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Those who sleep holding Cresselia's feather are assured of joyful dreams. It is said to represent the crescent moon.",
+		de: "Hält man eine seiner Federn, träumt man süß. Manche glauben, es sei die Verkörperung der Mondsichel."
+	},
+
 	thirdParty: {
 		cardmarket: 286316,
 		tcgplayer: 107189

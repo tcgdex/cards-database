@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [143],
 
 	dexId: [
 		650,
@@ -47,7 +48,7 @@ const card: Card = {
 				es: "Busca en tu baraja 1 carta de Energía Grass, enséñala y ponla en tu mano. Baraja las cartas de tu baraja después.",
 				it: "Cerca nel tuo mazzo una carta Energia Grass, mostrala e aggiungila alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure em seu baralho um card de Energia Grass, revele-o e coloque-o em sua mão. Em seguida, embaralhe seus cards.",
-				de: "Durchsuche dein Deck nach 1 Grass-Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach 1 {G}-Energiekarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
 			},
 
 		},
@@ -79,6 +80,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "The quills on its head are usually soft. When it flexes them, the points become so hard and sharp that they can pierce rock.",
+		de: "Wenn es seine Kraft auf die sonst eher weichen Stacheln auf seinem Kopf konzentriert, werden diese robust genug, um damit Steine zu zertrümmern."
+	},
 
 	thirdParty: {
 		cardmarket: 286253,

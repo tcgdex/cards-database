@@ -4,7 +4,7 @@ import Set from '../HeartGold SoulSilver'
 const card: Card = {
 	name: {
 		en: "Meganium",
-		fr: "Meganium",
+		fr: "Méganium",
 		de: "Meganie"
 	},
 
@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		154,
-	],
+	dexId: [154],
 
 	hp: 130,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Bayleef",
 		fr: "Macronium",
+		de: "Lorblatt"
 	},
 
 	stage: "Stage2",
@@ -86,30 +85,39 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Meganium’s breath has the power to revive dead grass and plants. It can make them healthy again."
+		en: "Meganium’s breath has the power to revive dead grass and plants. It can make them healthy again.",
+		de: "MEGANIE kann mit seinem Atem abgestorbene Gräser und Planzen reanimieren. Sie sind dann gesund."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87293
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87293
+			}
 		},
 		{
 			type: "holo",
-			foil: "cracked-ice"
+			foil: 'cracked-ice',
+			thirdParty: {
+				tcgplayer: 153261
+			}
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
-		}
+			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 125041
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278998,
-		tcgplayer: 87293
-	}
 }
 
 export default card

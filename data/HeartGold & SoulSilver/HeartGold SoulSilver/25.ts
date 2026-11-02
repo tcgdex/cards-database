@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		166,
-	],
+	dexId: [166],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Ledyba",
 		fr: "Coxy",
+		de: "Ledyba"
 	},
 
 	stage: "Stage1",
@@ -59,7 +58,7 @@ const card: Card = {
 				de: "Sternschauer"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+				en: "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Power et les Poké-Body ou tout autre effet en action sur le Pokémon Défenseur.",
 				de: "Schwäche, Resistenz, Poké-Power, Poké-Body und alle anderen Effekte auf dem Verteidigenden Pokémon haben keine Auswirkungen auf die Schadenspunkte dieses Angriffs."
 			},
@@ -85,22 +84,27 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "The spot patterns on its back grow larger or smaller depending on the number of stars in the night sky."
+		en: "The spot patterns on its back grow larger or smaller depending on the number of stars in the night sky.",
+		de: "Die Größe des Sternenmusters hängt direkt mit der Anzahl der Sterne am Firmament zusammen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86695,
+				cardmarket: 278997
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86695,
+				cardmarket: 278997
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278997,
-		tcgplayer: 86695
-	}
 }
 
 export default card

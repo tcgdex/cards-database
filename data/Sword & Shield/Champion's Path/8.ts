@@ -43,7 +43,7 @@ const card: Card = {
 				es: "Une hasta 2 cartas de Energía Fire de tu pila de descartes a 1 de tus Pokémon en Banca.",
 				it: "Assegna a uno dei tuoi Pokémon in panchina fino a due carte Energia Fire dalla tua pila degli scarti.",
 				pt: "Ligue até 2 cartas de Energia Fire da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
-				de: "Lege bis zu 2 Fire-Energiekarten aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
+				de: "Lege bis zu 2 {R}-Energiekarten aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
 			},
 			damage: 90,
 

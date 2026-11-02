@@ -4,6 +4,7 @@ import Set from '../Battle Styles'
 const card: Card = {
 	dexId: [223],
 	set: Set,
+	cameoDexIds: [224],
 
 	name: {
 		en: "Remoraid",
@@ -54,23 +55,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers."
+		en: "Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers.",
+		de: "Mit seiner Rückenflosse saugt es sich an der Unterseite eines Mantax fest und lebt von Speiseresten."
 	},
 
-	thirdParty: {
-		cardmarket: 545186,
-		tcgplayer: 234168
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545186,
+				tcgplayer: 234168
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545186,
+				tcgplayer: 234168
+			}
+		},
+	],
 }
 
 export default card

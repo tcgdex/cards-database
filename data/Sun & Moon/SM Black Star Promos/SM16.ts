@@ -10,8 +10,8 @@ const card: Card = {
 		pt: "Solgaleo GX",
 		de: "Solgaleo GX"
 	},
-	illustrator: "PLANETA",
-	rarity: "Rare",
+	illustrator: "5ban Graphics",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Cosmoem",
 		fr: "Cosmovum",
+		de: "Cosmovum"
 	},
 
 	suffix: "GX",
@@ -112,8 +113,15 @@ const card: Card = {
 	],
 	retreat: 3,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 296829,
+				tcgplayer: 129311
+			}
+		}
+	],
 }
 
 export default card

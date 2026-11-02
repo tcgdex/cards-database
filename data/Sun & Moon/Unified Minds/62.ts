@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Joltik",
 		fr: "Statitik",
+		de: "Wattzapf"
 	},
 
 	stage: "Stage1",
@@ -73,6 +74,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it.",
+		de: "Lässt seine Beute in elektrisch geladene Fäden tappen. Solang diese durch den Schock gelähmt ist, labt es sich an ihr."
+	},
 
 	thirdParty: {
 		cardmarket: 388132,

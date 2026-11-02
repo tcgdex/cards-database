@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Rapidash",
+		en: "Blaine's Rapidash"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -11,18 +11,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		78,
-	],
+	dexId: [78],
 
 	hp: 70,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
-		en: "Ponyta",
+		en: "Ponyta"
 	},
 
 	stage: "Stage1",
@@ -33,7 +31,7 @@ const card: Card = {
 				"Fire",
 			],
 			name: {
-				en: "Fire Mane",
+				en: "Fire Mane"
 			},
 
 			damage: 20,
@@ -46,12 +44,12 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Stamp",
+				en: "Stamp"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage (to the Defending Pokémon) and 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) If tails, this attack does 30 damage (to the Defending Pokémon.)",
+				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage (to the Defending Pokémon) and 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) If tails, this attack does 30 damage (to the Defending Pokémon)."
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],
@@ -59,24 +57,26 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 274301,
-		tcgplayer: 83882
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83882,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83882,
+				cardmarket: 274301
+			}
 		},
-	]
+	],
+	retreat: 0
 }
 
 export default card

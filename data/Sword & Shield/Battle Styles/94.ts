@@ -87,23 +87,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Its goons take care of most of the fighting for it. The only time it dirties its own hands is in delivering a final blow to finish off an opponent."
+		en: "Its goons take care of most of the fighting for it. The only time it dirties its own hands is in delivering a final blow to finish off an opponent.",
+		de: "Das Kämpfen überlässt es größtenteils seinen Untergebenen. Es macht sich nur die Flügel schmutzig, um dem Gegner den Rest zu geben."
 	},
 
-	thirdParty: {
-		cardmarket: 545561,
-		tcgplayer: 234225
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545561,
+				tcgplayer: 234225
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545561,
+				tcgplayer: 234225
+			}
+		},
+	],
 }
 
 export default card

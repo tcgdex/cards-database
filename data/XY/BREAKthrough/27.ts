@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [116, 457],
 
 	dexId: [
 		118,
@@ -62,6 +63,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Its dorsal, pectoral and tail fins wave elegantly in water. That is why it is known as the water dancer.",
+		de: "Seine Brust-, Rücken- und Schweifflossen sehen anmutig aus. Daher nennt man es den „Wassertänzer“."
+	},
 
 	thirdParty: {
 		cardmarket: 286273,

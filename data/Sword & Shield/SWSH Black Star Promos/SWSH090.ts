@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Uta",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Darkness"],
@@ -78,18 +78,22 @@ const card: Card = {
 	stage: "Stage1",
 	dexId: [229],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 546961
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 546961,
+				tcgplayer: 234278
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"]
+		},
+	],
 }
 
 export default card

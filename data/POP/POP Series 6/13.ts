@@ -4,7 +4,8 @@ import Set from '../POP Series 6'
 const card: Card = {
 	name: {
 		en: "Cherubi",
-		fr: "Cherubi"
+		fr: "Ceribou",
+		de: "Kikugi"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -12,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		420,
-	],
+	dexId: [420],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -31,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sleep Powder",
-				fr: "Poudre dodo"
+				fr: "Poudre dodo",
+				de: "Schlafpuder"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
-				fr: "Le Pokémon Défenseur est maintenant Endormi."
+				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				de: "Das Verteidigende Pokémon schläft jetzt."
 			},
 
 		},
@@ -46,11 +47,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Leech Seed",
-				fr: "Vampigraine"
+				fr: "Vampigraine",
+				de: "Egelsamen"
 			},
 			effect: {
 				en: "If this attack does any damage to the Defending Pokémon (after applying Weakness and Resistance), remove 1 damage counter from Cherubi.",
-				fr: "Si cette attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), retirez 1 marqueur de dégât à Ceribou."
+				fr: "Si cette attaque inflige des dégâts au Pokémon Défenseur (après application de la Faiblesse et de la Résistance), retirez 1 marqueur de dégât à Ceribou.",
+				de: "Falls dieser Angriff dem Verteidigenden Pokémon Schaden zufügt (nachdem Schwäche und Resistenz verrechnet wurden), entferne 1 Schadensmarke von Kikugi."
 			},
 			damage: 20,
 
@@ -63,31 +66,29 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
-
 	description: {
-		en: "The small ball holds the nutrients needed for evolution. Apparently, it is very sweet and tasty."
+		en: "The small ball holds the nutrients needed for evolution. Apparently, it is very sweet and tasty.",
+		de: "Das kleine Bällchen enthält alles, was es für die Entwicklung braucht. Es ist süß und lecker."
 	},
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84260,
+				cardmarket: 277898
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277898,
-		tcgplayer: 84260
-	}
 }
 
 export default card

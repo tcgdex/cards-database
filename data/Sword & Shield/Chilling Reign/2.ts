@@ -59,23 +59,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "While awaiting evolution, it hides from predators under leaves and in nooks of branches."
+		en: "While awaiting evolution, it hides from predators under leaves and in nooks of branches.",
+		de: "Während es auf seine Entwicklung wartet, versteckt es sich unter Blättern und zwischen Ästen."
 	},
 
-	thirdParty: {
-		cardmarket: 567082,
-		tcgplayer: 241649
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567082,
+				tcgplayer: 241649
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567082,
+				tcgplayer: 241649
+			}
+		},
+	],
 }
 
 export default card

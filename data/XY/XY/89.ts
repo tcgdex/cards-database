@@ -103,6 +103,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Their fur feels so good that if two of them snuggle together, they won't want to be separated.",
+		de: "Sein Fell ist so flauschig, dass, wenn zwei zusammenstehen, sie nicht getrennt werden möchten."
+	},
+
 	thirdParty: {
 		cardmarket: 281426,
 		tcgplayer: 90601

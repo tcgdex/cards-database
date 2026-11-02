@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Rayquaza VMAX"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 320,
@@ -70,7 +71,7 @@ const card: Card = {
 			es: "Puedes descartar cualquier cantidad de Energías Fire Básicas o cualquier cantidad de Energías Lightning Básicas de este Pokémon. Este ataque hace 80 puntos de daño más por cada carta que hayas descartado de esta manera.",
 			it: "Puoi scartare tutte le Energie base Fire o tutte le Energie base Lightning che vuoi da questo Pokémon. Questo attacco infligge 80 danni in più per ogni carta che hai scartato in questo modo.",
 			pt: "Você pode descartar qualquer quantidade de Energia Fire básica ou qualquer quantidade de Energia Lightning básica deste Pokémon. Este ataque causa 80 pontos de dano a mais para cada carta descartada desta forma.",
-			de: "Du kannst beliebig viele Basis-Fire-Energien oder beliebig viele Basis-Lightning-Energien von diesem Pokémon auf deinen Ablagestapel legen. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 80 Schadenspunkte mehr zu."
+			de: "Du kannst beliebig viele Basis-{R}-Energien oder beliebig viele Basis-{L}-Energien von diesem Pokémon auf deinen Ablagestapel legen. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 80 Schadenspunkte mehr zu."
 		},
 
 		damage: "20+"
@@ -79,17 +80,18 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691819,
-		tcgplayer: 478211
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691821,
+				tcgplayer: 478211
+			}
+		},
+	],
 }
 
 export default card

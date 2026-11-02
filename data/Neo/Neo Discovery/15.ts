@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Teddiursa",
-		fr: "Teddiursa"
+		fr: "Teddiursa",
+		de: "Teddiursa"
 	},
 
 	stage: "Stage1",
@@ -40,13 +41,13 @@ const card: Card = {
 			name: {
 				en: "Headpress",
 				fr: "Press'tête",
-				de: "Headpress"
+				de: "Schädeldruck"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing (not even damage).",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est Paralysé. Si c'est pile, cette attaque ne fait rien (pas même de dégâts).",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack dois nothing (not even damage)."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt. Bei „Zahl“ hat dieser Angriff keine Auswirkungen (nicht einmal Schadenspunkte)."
 			},
 
 			damage: 20
@@ -62,13 +63,13 @@ const card: Card = {
 			name: {
 				en: "Double Lariat",
 				fr: "Double lasso",
-				de: "Double Lariat"
+				de: "Doppel-Lasso"
 			},
 
 			effect: {
 				en: "Flip 2 coins. This attack does 40 times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 40 dégâts multipliés par le nombre de faces.",
-				de: "Flip 2 coins. This attack does 40 damage times the number of heads."
+				de: "Wirf zwei Münzen. Dieser Angriff fügt 40 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 
 			damage: "40x"
@@ -88,23 +89,31 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 3,
+
 
 	description: {
-		fr: "Il sait monter aux arbres, mais il préfère casser les troncs avec ses pattes avant pour manger les baies qui sont tombées."
+		en: "Although it is a good climber, it prefers to snap trees with its forelegs and eat fallen berries.",
+		fr: "Il sait monter aux arbres, mais il préfère casser les troncs avec ses pattes avant pour manger les baies qui sont tombées.",
+		de: "Obwohl es ein guter Kletterer ist, schüttelt es lieber die Bäume mit seinen Vorderpfoten an und isst heruntergefallenene Früchte."
 	},
 
-	thirdParty: {
-		cardmarket: 274526,
-		tcgplayer: 90249
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274526,
+				tcgplayer: 90249
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274526,
+				tcgplayer: 90249
+			}
 		}
 	]
 }

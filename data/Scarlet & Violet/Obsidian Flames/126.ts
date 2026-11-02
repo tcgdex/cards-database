@@ -42,18 +42,42 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.",
+		de: "Ein verlorener Revierkampf zwang es, an Land zu leben. Um sich zu schützen, entwickelte es eine giftige Schleimschicht auf seinem Körper."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725206,
+				tcgplayer: 509880,
+				cardtrader: 255811
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725206,
+				tcgplayer: 509880,
+				cardtrader: 255811
+			}
+		},
+	],
 
 	illustrator: "Shibuzoh.",
 
-	thirdParty: {
-		cardmarket: 725206
-	}
+	
 }
 
 export default card

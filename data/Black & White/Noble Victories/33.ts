@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Ice Chain",
 				fr: "Chaîne de Glace",
+				de: "Eiskette"
 			},
 			effect: {
 				en: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
 				fr: "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire.",
+				de: "Tausche das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus."
 			},
 
 		},
@@ -51,10 +53,12 @@ const card: Card = {
 			name: {
 				en: "Frost Vanish",
 				fr: "Poudreuse d'Escampette",
+				de: "Frostauflöser"
 			},
 			effect: {
 				en: "You may return this Pokémon and all cards attached to it to your hand.",
 				fr: "Vous pouvez reprendre ce Pokémon et toutes les cartes qui lui sont attachées dans votre main.",
+				de: "Du kannst dieses Pokémon und alle daran angelegten Karten zurück auf deine Hand nehmen."
 			},
 			damage: 40,
 
@@ -70,10 +74,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280155,
-		tcgplayer: 84513
-	}
+	description: {
+		en: "They are born in snow clouds. They use chains made of ice crystals to capture prey.",
+		de: "Es fängt seine Beute mit Ketten, die sich aus Eiskristallen zusammensetzen. Entstanden ist es aus einer Schneewolke."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280156,
+				tcgplayer: 84513
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280156,
+				tcgplayer: 84513
+			}
+		},
+	],
 }
 
 export default card

@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "First Contact",
 				fr: "Premier Contact",
+				de: "Erstkontakt"
 			},
 			effect: {
 				en: "Search your deck for 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward.",
 				fr: "Cherchez 2 Pokémon de base dans votre deck et placez-les sur votre Banc. Mélangez ensuite votre deck.",
+				de: "Durchsuche dein Deck nach 2 Basis-Pokémon-Karten und lege sie auf deine Bank. Mische anschließend dein Deck."
 			},
 
 		},
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d'Boule",
+				de: "Kopfnuss"
 			},
 
 			damage: 20,
@@ -67,10 +70,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280177,
-		tcgplayer: 85176
-	}
+	description: {
+		en: "It uses its strong psychic power to squeeze its opponent's brain, causing unendurable headaches.",
+		de: "Es verfügt über mächtige Psycho-Kräfte, mit denen es die Hirne seiner Gegner verwirrt, um ihnen Kopfweh zu bereiten."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280178,
+				tcgplayer: 85176
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280178,
+				tcgplayer: 85176
+			}
+		},
+	],
 }
 
 export default card

@@ -85,6 +85,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon wanders across time. Grass and trees flourish in the forests in which it has appeared.",
+		de: "Dieses Pokémon reist durch Zeit und Raum. Bäume und Wiesen wuchern, wenn es in der Nähe ist."
+	},
+
 	thirdParty: {
 		cardmarket: 387852,
 		tcgplayer: 194920

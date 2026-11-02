@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Togepi",
-		fr: "Togepi"
+		fr: "Togepi",
+		de: "Togepi"
 	},
 
 	stage: "Stage1",
@@ -75,21 +76,27 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Il devient rapidement déprimé s'il n'est pas près de personnes au grand cœur. Il peut flotter dans les airs sans bouger ses ailes."
+		en: "It becomes depressed if it is not near kind-hearted people. Is is able to float in the air without moving its wings.",
+		fr: "Il devient rapidement déprimé s'il n'est pas près de personnes au grand cœur. Il peut flotter dans les airs sans bouger ses ailes.",
+		de: "Es wird traurig, wenn es nicht in der Nähe von netten Menschen ist. Es kann in der Luft schweben, ohne seine Flügel zu bewegen."
 	},
 
-	thirdParty: {
-		cardmarket: 274667,
-		tcgplayer: 86750
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274667,
+				tcgplayer: 86750
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274667,
+				tcgplayer: 86750
+			}
 		}
 	]
 }

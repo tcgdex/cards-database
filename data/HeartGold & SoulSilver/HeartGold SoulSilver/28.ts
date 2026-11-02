@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		172,
-	],
+	dexId: [172],
 
 	hp: 30,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "As long as Pichu is Asleep, prevent all damage done to Pichu by attacks.",
 				fr: "Tant que Pichu reste Endormi, prévenez tous les dégâts qui peuvent lui être infligés par des attaques.",
 				de: "Solange Pichu schläft, verhindere allen Schaden, der Pichu durch Angriffe zugefügt wird."
-			},
+			}
 		},
 	],
 
@@ -52,7 +50,7 @@ const card: Card = {
 			effect: {
 				en: "Each player may search his or her deck for as many Basic Pokémon as he or she likes, put them onto his or her Bench, and shuffle his or her deck afterward. (You put your Pokémon on the Bench first.) Pichu is now Asleep.",
 				fr: "Chaque joueur peut chercher dans son deck autant de Pokémon de base qu’il le souhaite, les mettre sur son Banc, puis mélanger son deck. (Vous devez être le premier à mettre vos Pokémon sur le Banc.) Pichu est maintenant Endormi.",
-				de: "Jeder Spieler kann sein Deck nach beliebig vielen Basis-Pokémon-Karten durchsuchen, sie auf die Bank legen und anschließend sein Deck mischen. (Du legst deine Pokémon zuerst auf die Bank.) Pichu schläft jetzt."
+				de: "Jeder Spieler kann sein Deck nach beliebig vielen Basis-Pokémon-Karten durchsuchen, sie auf seine Bank legen und anschließend sein Deck mischen. (Du legst deine Pokémon zuerst auf die Bank.) Pichu schläft jetzt."
 			},
 
 		},
@@ -61,34 +59,51 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "Despite its small size, it can zap even adult humans. However, if it does so, it also surprises itself."
+		en: "Despite its small size, it can zap even adult humans. However, if it does so, it also surprises itself.",
+		de: "Obwohl es so klein ist, kann es sogar Erwachsene überwältigen. Tritt dies ein, ist es selbst erstaunt."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88022,
+				cardmarket: 279000
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88022,
+				cardmarket: 279000
+			}
+		},
+		{
+			type: "holo",
+			stamp: ['pre-release'],
+			thirdParty: {
+				tcgplayer: 213013,
+				cardmarket: 882912
+			}
+		},
+		{
+			type: "holo",
+			stamp: ['staff', 'pre-release'],
+			thirdParty: {
+				tcgplayer: 213014,
+				cardmarket: 279000
+			}
 		},
 		{
 			type: "normal",
-			stamp : ["ross-cawthorn"]
+			stamp: ["ross-cawthorn"],
+			thirdParty: {
+				tcgplayer: 480432,
+				cardmarket: 868170
+			}
 		},
-		{
-			type: "normal",
-			stamp : ["pre-release"]
-		},
-		{
-			type: "normal",
-			stamp : ["pre-release","staff"]
-		}
 	],
 
-	thirdParty: {
-		cardmarket: 279000,
-		tcgplayer: 88022
-	}
 }
 
 export default card

@@ -16,13 +16,15 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [25, 644],
+
 	effect: {
 		fr: "Piochez 2 cartes. Si votre Pokémon Actif est un Pokémon ESCOUADE, piochez 2 cartes supplémentaires.",
 		en: "Draw 2 cards. If your Active Pokémon is a TAG TEAM Pokémon, draw 2 more cards.",
 		es: "Roba 2 cartas. Si tu Pokémon Activo es un Pokémon de equipo de RELEVOS, roba 2 cartas más.",
 		it: "Pesca due carte. Se il tuo Pokémon attivo è un Pokémon ALLEATI, pesca altre due carte.",
 		pt: "Compre 2 cartas. Se o seu Pokémon Ativo for um Pokémon ALIADOS, compre 2 cartas a mais.",
-		de: "Ziehe 2 Karten. Wenn dein Aktives Pokémon ein TAG TEAM Pokémon ist, ziehe 2 Karten mehr."
+		de: "Ziehe 2 Karten. Wenn dein Aktives Pokémon ein TAG TEAM Pokémon ist, ziehe 2 Karten mehr. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

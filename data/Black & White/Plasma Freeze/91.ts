@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Dual Draw",
 				fr: "Pioche Mutuelle",
+				de: "Doppelzug"
 			},
 			effect: {
 				en: "Each player draws 2 cards.",
 				fr: "Chaque joueur pioche 2 cartes.",
+				de: "Jeder Spieler zieht 2 Karten."
 			},
 
 		},
@@ -60,6 +62,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It marks time precisely. Some countries consider it to be a wise friend, versed in the world's ways.",
+		de: "Es sagt präzise die Uhrzeit an. In manchen Regionen verehrt man es zudem als weisen Freund."
+	},
 
 	thirdParty: {
 		cardmarket: 280969,

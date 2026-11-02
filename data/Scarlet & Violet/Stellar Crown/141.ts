@@ -22,21 +22,31 @@ const card: Card = {
 		es: "Si el Pokémon al que está unida esta carta resulta dañado por un ataque de los Pokémon {P} de tu rival, ese ataque le hace 60 puntos de daño menos (después de aplicar Debilidad y Resistencia), y descartas esta carta.",
 		it: "Se il Pokémon a cui è assegnata questa carta viene danneggiato da un attacco di un Pokémon {P} del tuo avversario, subisce 60 danni in meno, dopo aver applicato debolezza e resistenza, e tu scarti questa carta.",
 		pt: "Se o Pokémon ao qual esta carta está ligada for danificado por um ataque dos Pokémon {P} do seu oponente, ele receberá 60 pontos de dano a menos (depois de aplicar Fraqueza e Resistência), e descarte esta carta.",
-		de: "Wenn das Pokémon, an das diese Karte angelegt ist, durch eine Attacke von {P}-Pokémon deines Gegners Schaden erhält, werden ihm 60 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden), und du legst diese Karte auf deinen Ablagestapel."
+		de: "Wenn das Pokémon, an das diese Karte angelegt ist, durch eine Attacke von {P}-Pokémon deines Gegners Schaden erhält, werden ihm 60 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden), und du legst diese Karte auf deinen Ablagestapel. Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt."
 	},
 
 	trainerType: "Tool",
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 785995,
+				tcgplayer: 567414
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 785995,
+				tcgplayer: 567414
+			}
+		},
+	],
 
 	illustrator: "Studio Bora Inc.",
 
-	thirdParty: {
-		cardmarket: 785995
-	}
 }
 
 export default card

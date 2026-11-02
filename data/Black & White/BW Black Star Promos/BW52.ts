@@ -51,6 +51,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It faces strong opponents with great courage. But, when at a disadvantage in a fight, this intelligent Pokémon flees.",
+	},
 }
 
 export default card

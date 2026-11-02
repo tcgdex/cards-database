@@ -15,6 +15,7 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
+		en: "Remove all Special Conditions from each of your Active Pokémon.",
 		fr: "Retirez à chacun de vos Pokémon Actifs tous leurs États Spéciaux.",
 		de: "Remove all Special Conditions from each of your Pokémon."
 	},
@@ -27,12 +28,20 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84888,
+				cardmarket: 276587
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 84888,
+				cardmarket: 276587
+			},
 		}
-	]
+	],
 }
 
 export default card

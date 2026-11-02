@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Charmander",
 		fr: "Salamèche",
+		de: "Glumanda"
 	},
 
 	stage: "Stage1",
@@ -80,10 +81,30 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 299425,
-		tcgplayer: 138485
-	}
+	description: {
+		en: "It lashes about with its tail to knock down its foe. It then tears up the fallen opponent with sharp claws.",
+		de: "Es schlägt im Kampf mit seinem Schwanz nach seinen Gegnern. Anschließend zerfetzt es die Gegner mit seinen scharfen Klauen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299425,
+				tcgplayer: 138485
+			}
+		},
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299425,
+				tcgplayer: 138485
+			}
+		},
+	],
 }
 
 export default card

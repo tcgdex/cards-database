@@ -70,6 +70,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The shell seems to be filled with joy. It is said that it will share good luck when treated kindly.",
+		de: "Seine Schale ist voll von Freude. Es teilt sein Glück, wenn man es freundlich und gut behandelt."
+	},
+
 	thirdParty: {
 		cardmarket: 372423,
 		tcgplayer: 189234

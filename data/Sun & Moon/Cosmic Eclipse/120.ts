@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pancham",
 		fr: "Pandespiègle",
+		de: "Pam-Pam"
 	},
 
 	stage: "Stage1",
@@ -78,6 +79,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "This rowdy Pokémon boasts great physical strength. Many Trainers are also smitten by its lively character.",
+		de: "Ein ungezügeltes Pokémon, das mit seinen Fäusten ordentlich austeilen kann. Viele Trainer sind völlig vernarrt in sein energisches Wesen."
+	},
 
 	thirdParty: {
 		cardmarket: 408249,

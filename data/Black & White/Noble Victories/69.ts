@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras'Face",
+				de: "Pfund"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "High Jump Kick",
 				fr: "Pied Voltige",
+				de: "Turmkick"
 			},
 
 			damage: 30,
@@ -65,10 +67,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280192,
-		tcgplayer: 87436
-	}
+	description: {
+		en: "In fights, they dominate with onslaughts of flowing, continuous attack. With their sharp claws, they cut enemies.",
+		de: "Es deckt seine Gegner mit filigranen Attacken in Serie ein und schlitzt sie mit seinen spitzen Klauen auf."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280192,
+				tcgplayer: 87436
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280192,
+				tcgplayer: 87436
+			}
+		},
+	],
 }
 
 export default card

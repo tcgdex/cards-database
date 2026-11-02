@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Roost",
 				fr: "Atterrissage",
+				de: "Ruheort"
 			},
 			effect: {
 				en: "Heal 40 damage from this Pokémon. This Pokémon can't retreat during your next turn.",
 				fr: "Soignez 40 dégâts à ce Pokémon. Ce Pokémon ne peut pas battre en retraite pendant votre prochain tour.",
+				de: "Heile 40 Schadenspunkte bei diesem Pokémon. Dieses Pokémon kann sich während deines nächsten Zuges nicht zurückziehen."
 			},
 
 		},
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Rain Splash",
 				fr: "Pluie Éclaboussante",
+				de: "Regenplatscher"
 			},
 
 			damage: 20,
@@ -74,10 +77,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279991,
-		tcgplayer: 84991
-	}
+	description: {
+		en: "When attacked, it uses its feathers to splash water, escaping under cover of the spray.",
+		de: "Gerät es in Gefahr, versprüht es Wasser aus seinem Federkleid und nutzt den Sprühregen, um Reißaus zu nehmen."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279991,
+				tcgplayer: 84991
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279991,
+				tcgplayer: 84991
+			}
+		},
+	],
 }
 
 export default card

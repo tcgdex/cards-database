@@ -48,7 +48,7 @@ const card: Card = {
 				es: "Busca en tu baraja hasta 2 cartas de Energía Water y únelas a 1 de tus Pokémon en Banca. Baraja las cartas de tu baraja después.",
 				it: "Cerca nel tuo mazzo fino a due carte Energia Water e assegnale a uno dei tuoi Pokémon in panchina. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure em seu baralho até 2 cards de Energia Water e ligue-os a 1 dos seus Pokémon no Banco. Em seguida, embaralhe seus cards.",
-				de: "Du kannst dein Deck nach bis zu 2 Water-Energiekarten durchsuchen und sie an 1 Pokémon auf deiner Bank anlegen. Mische anschließend dein Deck."
+				de: "Du kannst dein Deck nach bis zu 2 {W}-Energiekarten durchsuchen und sie an 1 Pokémon auf deiner Bank anlegen. Mische anschließend dein Deck."
 			},
 			damage: 40,
 

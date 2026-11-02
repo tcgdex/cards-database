@@ -69,14 +69,18 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 273954,
-		tcgplayer: 42503
+	description: {
+		en: "The dust-like scales covering its wings are color coded to indicate the kinds of poison it has.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273954,
+				tcgplayer: 42503
+			}
 		}
 	]
 }

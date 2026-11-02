@@ -4,6 +4,7 @@ import Set from '../Battle Styles'
 const card: Card = {
 	dexId: [395],
 	set: Set,
+	cameoDexIds: [619, 870],
 
 	name: {
 		en: "Empoleon V",
@@ -73,20 +74,19 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 546311,
-		tcgplayer: 234043
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 546311,
+				tcgplayer: 234043
+			}
+		},
+	],
 }
 
 export default card

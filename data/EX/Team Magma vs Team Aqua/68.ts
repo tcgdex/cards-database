@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		111,
-	],
+	dexId: [111],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -33,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Collision",
-				de: "Ram"
+				de: "Ramme"
 			},
 
 			damage: 10,
@@ -47,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Knock Over",
 				fr: "Culbute",
-				de: "Knock Over"
+				de: "Umwerfen"
 			},
 			effect: {
 				en: "You may discard any Stadium card in play.",
 				fr: "Vous pouvez défausser n'importe quelle carte Stade en jeu.",
-				de: "You may discard any Stadium card in play."
+				de: "Du kannst eine beliebige Stadion-Karte aus dem Spiel auf den Ablagestapel legen."
 			},
 			damage: 10,
 
@@ -66,22 +64,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276045,
-		tcgplayer: 89844
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275845,
+				tcgplayer: 89844
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275845,
+				tcgplayer: 89844
+			}
+		},
+	],
+
 }
 
 export default card

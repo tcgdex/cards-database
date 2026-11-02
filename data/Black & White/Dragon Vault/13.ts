@@ -52,10 +52,19 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 281012,
-		tcgplayer: 83671
-	}
+	description: {
+		en: "They mark their territory by leaving gashes in trees with their tusks. If a tusk breaks, a new one grows in quickly.",
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281013,
+				tcgplayer: 83671
+			}
+		},
+	],
 }
 
 export default card

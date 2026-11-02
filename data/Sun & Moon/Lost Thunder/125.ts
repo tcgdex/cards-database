@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Onix",
 		fr: "Onix",
+		de: "Onix"
 	},
 
 	stage: "Stage1",
@@ -95,6 +96,11 @@ const card: Card = {
 	],
 
 	retreat: 4,
+
+	description: {
+		en: "It chews its way through boulders with its sturdy jaws. Its eyes can see in the darkness underground.",
+		de: "Es beißt sich mit seinen Kiefern seinen Weg durch Felsen. Es kann auch im Dunkeln sehen."
+	},
 
 	thirdParty: {
 		cardmarket: 365762,

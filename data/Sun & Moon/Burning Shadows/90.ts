@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Inkay",
 		fr: "Sepiatop",
+		de: "Iscalar"
 	},
 
 	stage: "Stage1",
@@ -100,10 +101,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299492,
-		tcgplayer: 138582
-	}
+	description: {
+		en: "It wields the most compelling hypnotic powers of any Pokémon, and it forces others to do whatever it wants.",
+		de: "Unter allen Pokémon verfügt es über die stärksten hypnotischen Kräfte, mit denen es Gegner nach Belieben kontrollieren kann."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299492,
+				tcgplayer: 138582
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299492,
+				tcgplayer: 138582
+			}
+		},
+	],
 }
 
 export default card

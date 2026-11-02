@@ -24,7 +24,8 @@ const card: Card = {
 	illustrator: "hatachu",
 
 	description: {
-		en: "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting."
+		en: "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting.",
+		de: "Es ist hochintelligent und versteht sogar die menschliche Sprache. Es ist friedlich und meidet Konflikte."
 	},
 
 	abilities: [{
@@ -73,17 +74,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582868,
-		tcgplayer: 253351
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582868,
+				tcgplayer: 253351
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582868,
+				tcgplayer: 253351
+			}
+		},
+	],
 }
 
 export default card

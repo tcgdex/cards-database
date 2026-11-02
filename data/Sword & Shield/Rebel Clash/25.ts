@@ -90,23 +90,30 @@ const card: Card = {
 	types: ["Fire"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It is said to live 1,000 years, and each of its tails is loaded with supernatural powers."
+		en: "It is said to live 1,000 years, and each of its tails is loaded with supernatural powers.",
+		de: "Man sagt, es lebe 1 000 Jahre und jedem seiner Schweife wohnen übernatürliche Kräfte inne."
 	},
 
-	thirdParty: {
-		cardmarket: 457573,
-		tcgplayer: 213100
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457573,
+				tcgplayer: 213100
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457573,
+				tcgplayer: 213100
+			}
+		},
+	],
 }
 
 export default card

@@ -69,6 +69,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "These Pokémon are called the \"Signpost for Wandering Spirits.\" Children holding them sometimes vanish.",
+		de: "Auch bekannt als „Wegweiser für umherstreifende Geister“. Kinder, die sie halten, verschwinden manchmal."
+	},
+
 	thirdParty: {
 		cardmarket: 291537,
 		tcgplayer: 121135

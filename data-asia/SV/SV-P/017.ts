@@ -1,50 +1,33 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "迷你芙"
+		ja: "ポケモンいれかえ",
+		'zh-tw': "迷你芙",
 	},
 
-	illustrator: "Misa Tsutsui",
-	category: "Pokemon",
-	hp: 60,
-	types: ["Grass"],
+	illustrator: "Studio Bora Inc.",
+	category: "Trainer",
 
-	description: {
-		'zh-tw': "會從頭上的果實噴出油 來保護自己不受敵人攻擊。 油的味道苦澀到會讓人跳起來。"
+	effect: {
+		ja: "自分のバトルポケモンをベンチポケモンと入れ替える。",
 	},
 
-	stage: "Basic",
-
-	attacks: [{
-		name: {
-			'zh-tw': "營養素"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 699714,
+				tcgplayer: 587774,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "將自己的1隻寶可夢恢復「30」HP。"
-		},
+	trainerType: "Item",
+	regulationMark: "G",
+	rarity: "Promo",
+};
 
-		cost: ["Grass"]
-	}, {
-		name: {
-			'zh-tw': "噴汁"
-		},
-
-		damage: 20,
-		cost: ["Grass", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
-
-	retreat: 1,
-	regulationMark: "G"
-}
-
-export default card
+export default card;

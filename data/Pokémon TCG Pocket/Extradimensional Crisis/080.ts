@@ -18,7 +18,8 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Alolan Diglett"
+		en: "Alolan Diglett",
+		fr: "Taupiqueur d’Alola"
 	},
 
 	stage: "Stage1",

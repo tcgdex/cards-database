@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Mightyena δ",
 		fr: "Grahyena δ",
-		de: "Magnayen"
+		de: "Magnayen δ"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -62,7 +62,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 10 damage times the number of Darkness Pokémon and Metal Pokémon you have in play.",
-				fr: "Inflige 10 dégâts multipliés par le nombre de Pokémon  et  que vous avez en jeu.",
+				fr: "Inflige 10 dégâts multipliés par le nombre de Pokémon {D} et {M} que vous avez en jeu.",
 				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl der  und -Pokémon zu, die du im Spiel hast."
 			},
 			damage: "10x",

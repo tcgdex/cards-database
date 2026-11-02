@@ -16,6 +16,16 @@ const card: Card = {
 		ja: "相手のポケモンを1匹選び、そのポケモンについている「ポケモンのどうぐ」と「特殊エネルギー」を1枚ずつトラッシュする。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 807709,
+				tcgplayer: 614998,
+			},
+		},
+	],
+
 	trainerType: "Supporter"
 }
 

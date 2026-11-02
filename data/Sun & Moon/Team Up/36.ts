@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [742],
 
 	dexId: [
 		75,
@@ -29,6 +30,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Geodude",
 		fr: "Racaillou d’Alola",
+		de: "Alola-Kleinstein"
 	},
 
 	stage: "Stage1",
@@ -84,6 +86,11 @@ const card: Card = {
 	],
 
 	retreat: 4,
+
+	description: {
+		en: "When two Graveler fight each other, it fills the surroundings with flashes of light and sound. People call it the \"fireworks of the earth.\"",
+		de: "Streiten sie sich untereinander, erzeugen sie ein lautes Knallen und grelles Leuchten, das von Einheimischen „Felsenfeuerwerk“ genannt wird."
+	},
 
 	thirdParty: {
 		cardmarket: 368967,

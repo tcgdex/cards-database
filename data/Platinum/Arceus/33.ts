@@ -12,18 +12,17 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		437,
-	],
+	dexId: [437],
 	
 	hp: 90,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Bronzor",
+		de: "Bronzel"
 	},
 
 	stage: "Stage1",
@@ -55,7 +54,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				de: "Wirf 1 Münze. Bei „Kopf“ lege 1 Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: 50,
 
@@ -78,19 +77,28 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 278886,
-		tcgplayer: 83996
+	description: {
+		en: "It brought rains by opening portals to another world. It was revered as a bringer of plentiful harvests.",
+		de: "Ihm wurden reiche Ernten zugeschrieben, da es durch Portale in andere Welten Regenfälle brachte."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83996,
+				cardmarket: 278886
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278886,
+				tcgplayer: 83996
+			}
+		},
+	],
+
 }
 
 export default card

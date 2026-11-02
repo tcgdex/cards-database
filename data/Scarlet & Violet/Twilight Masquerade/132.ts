@@ -66,18 +66,45 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The stalk this Pokémon carries in its wings serves as a sword to cut down opponents. In a dire situation, the stalk can also serve as food.",
+		de: "Unter seinem Flügel trägt es eine Lauchstange, die es wie ein Schwert gegen Feinde einsetzt und welche ihm im Bedarfsfall auch als Nahrung dient."
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769306,
+				tcgplayer: 550176
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769306,
+				tcgplayer: 550176
+			}
+		},
+	],
 
 	illustrator: "miki kudo",
 
-	thirdParty: {
-		cardmarket: 769306
-	}
 }
 
 export default card

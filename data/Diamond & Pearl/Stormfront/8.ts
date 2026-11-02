@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pikachu",
 		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Raichu can't use Slice during your next turn.",
 				fr: "Raichu ne peut pas utiliser Mettre en tranche lors de votre prochain tour.",
-				de: "Raichu kann Schnippeln während deines nächsten Zug nicht einsetzen."
+				de: "Raichu kann Schnippeln in deinem nächsten Zug nicht einsetzen."
 			},
 			damage: 30,
 

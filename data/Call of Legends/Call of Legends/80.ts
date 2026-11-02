@@ -14,16 +14,31 @@ const card: Card = {
 	set: Set,
 
 	effect: {
+		en: "Put 1 Special Energy card attached to 1 of your opponent's Pokémon in the Lost Zone.",
 		fr: "Placez 1 carte Énergie spéciale attachée à l’un des Pokémon de votre adversaire dans la Zone Perdue.",
 		de: "Lege 1 Spezialenergiekarte, die an 1 Pokémon deines Gegners angelegt ist, ins Nirgendwo."
 	},
 
 	trainerType: "Item",
 
-	thirdParty: {
-		cardmarket: 279723,
-		tcgplayer: 86829
-	}
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86829,
+				cardmarket: 279723
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86829,
+				cardmarket: 279723
+			},
+		},
+	],
+
 }
 
 export default card

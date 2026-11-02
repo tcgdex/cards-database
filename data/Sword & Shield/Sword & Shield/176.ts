@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cura 60 puntos de daño a 1 de tus Pokémon, y este se recupera de todas las Condiciones Especiales.",
 		it: "Cura uno dei tuoi Pokémon da 60 danni. Quel Pokémon guarisce da tutte le condizioni speciali.",
 		pt: "Cure 60 pontos de dano de 1 dos seus Pokémon e aquele Pokémon se recupera de quaisquer Condições Especiais.",
-		de: "Heile 60 Schadenspunkte bei 1 deiner Pokémon, und es erholt sich von allen Speziellen Zuständen."
+		de: "Heile 60 Schadenspunkte bei 1 deiner Pokémon, und es erholt sich von allen Speziellen Zuständen. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Gloom",
 		fr: "Ortide",
+		de: "Duflor"
 	},
 
 	stage: "Stage2",
@@ -91,6 +92,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
+		de: "Je größer die Blütenblätter, desto mehr giftige Pollen sind in der Blüte enthalten."
+	},
 
 	thirdParty: {
 		cardmarket: 372301,

@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Suwama Chiaki",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		164,
-	],
+	dexId: [164],
 
 	hp: 90,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Hoothoot",
 		fr: "Hoothoot",
+		de: "Hoothoot"
 	},
 
 	stage: "Stage1",
@@ -39,10 +38,10 @@ const card: Card = {
 				de: "Nachtblick"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may draw a card. This power can’t be used if Noctowl is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may draw a card. This power can't be used if Noctowl is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez piocher une carte. Ce pouvoir ne peut pas être utilisé si Noarfang est affecté par un État spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Karte ziehen. Diese Poké-Power kann nicht benutzt werden, wenn Noctuh von einem Speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 
@@ -85,25 +84,33 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark."
+		en: "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark.",
+		de: "Sein Sehvermögen ist hervorragend. Selbst bei schwachem Licht kann es jedes Detail erkennen."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		},
-		{
-			type: "normal",
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87794,
+				cardmarket: 278980
+			}
 		},
 		{
 			type: "reverse",
-		}
+			thirdParty: {
+				tcgplayer: 87794,
+				cardmarket: 278980
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 125037
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278980,
-		tcgplayer: 87794
-	}
 }
 
 export default card

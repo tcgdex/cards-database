@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Absorb",
 				fr: "Vol-Vie",
+				de: "Absorber"
 			},
 			effect: {
 				en: "Heal 10 damage from this Pokémon.",
 				fr: "Soignez 10 dégâts à ce Pokémon.",
+				de: "Heile 10 Schadenspunkte bei diesem Pokémon."
 			},
 			damage: 10,
 
@@ -62,10 +64,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279974,
-		tcgplayer: 84445
-	}
+	description: {
+		en: "They go wherever the wind takes them. On rainy days, their bodies are heavier, so they take shelter beneath big trees.",
+		de: "Lässt sich unbekümmert vom Wind treiben. Regen beschwert seinen Körper, sodass es unter großen Bäumen Schutz sucht."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279974,
+				tcgplayer: 84445
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279974,
+				tcgplayer: 84445
+			}
+		},
+	],
 }
 
 export default card

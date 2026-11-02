@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "nagimiso",
 
 	description: {
-		en: "Once it slams its shell shut, it is impossible to open, even by those with superior strength."
+		en: "Once it slams its shell shut, it is impossible to open, even by those with superior strength.",
+		de: "Ist seine Schale erst geschlossen, ist es selbst mit viel Kraft nicht mehr möglich, diese zu öffnen."
 	},
 
 	abilities: [{
@@ -83,17 +90,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582185,
-		tcgplayer: 253182
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582185,
+				tcgplayer: 253182
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582185,
+				tcgplayer: 253182
+			}
+		},
+	],
 }
 
 export default card

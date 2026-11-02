@@ -35,7 +35,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -49,7 +50,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
-				fr: "Tranch'Herbe"
+				fr: "Tranch'Herbe",
+				de: "Rasierblatt"
 			},
 
 			damage: 30,
@@ -73,10 +75,34 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 280329,
-		tcgplayer: 84036
-	}
+	description: {
+		en: "For some time after its birth, it grows by gaining nourishment from the seed on its back.",
+		de: "Nach der Geburt nimmt es für eine Weile Nährstoffe über den Samen auf seinem Rücken auf."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280329,
+				tcgplayer: 84036
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['build-a-bear'],
+			thirdParty: {
+				cardmarket: 886900
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280329,
+				tcgplayer: 84036
+			}
+		},
+	],
 }
 
 export default card

@@ -64,15 +64,21 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273963,
-		tcgplayer: 42480
+
+	description: {
+		en: "The sprig of green onions it holds is its weapon. This sprig is used much like a metal sword.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273963,
+				tcgplayer: 42480
+			}
 		}
 	]
 }

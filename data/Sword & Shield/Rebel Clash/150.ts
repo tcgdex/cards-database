@@ -92,23 +92,30 @@ const card: Card = {
 	types: ["Colorless"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Once it accepts you as a friend, it tries to show its affection with a hug. Letting it do that is dangerous—it could easily shatter your bones."
+		en: "Once it accepts you as a friend, it tries to show its affection with a hug. Letting it do that is dangerous—it could easily shatter your bones.",
+		de: "Es drückt seine Zuneigung durch Umarmungen aus. Das ist ebenso sympathisch wie gefährlich, da diese zu Knochenbrüchen führen können."
 	},
 
-	thirdParty: {
-		cardmarket: 458148,
-		tcgplayer: 213250
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458148,
+				tcgplayer: 213250
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458148,
+				tcgplayer: 213250
+			}
+		},
+	],
 }
 
 export default card

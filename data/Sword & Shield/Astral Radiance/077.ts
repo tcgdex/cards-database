@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Rameidon"
 	},
 
+	illustrator: "Nisota Niso",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 170,
@@ -67,20 +68,37 @@ const card: Card = {
 		damage: 240
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "This ancient Pokémon used headbutts skillfully. Its brain was really small, so some theories suggest that its stupidity led to its extinction.",
+		de: "Dieses auf Kopfstöße spezialisierte urzeitliche Pokémon soll einer Theorie zufolge wegen seines kleinen Hirns aus Dummheit ausgestorben sein."
 	},
 
-	thirdParty: {
-		cardmarket: 658675,
-		tcgplayer: 272278
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658675,
+				tcgplayer: 272278
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658675,
+				tcgplayer: 272278
+			}
+		},
+	],
 }
 
 export default card

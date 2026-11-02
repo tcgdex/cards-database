@@ -8,8 +8,8 @@ const card: Card = {
 		en: "Toxtricity ex",
 	},
 
-	suffix: "EX",
-	rarity: "None",
+	suffix: "ex",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 260,
 	types: ["Lightning"],
@@ -29,7 +29,7 @@ const card: Card = {
 		{
 			cost: ["Lightning","Lightning","Colorless"],
 			name: {
-				en: "Stumming Thunder",
+				en: "Strumming Thunder",
 			},
 			effect: {
 				en:	"Discard 2 Energy from this Pokémon."
@@ -50,8 +50,12 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
-			stamp: ["illustration-contest-2024"]
+			type: "holo",
+			stamp: ["illustration-contest-2024"],
+			thirdParty: {
+				cardmarket: 810399,
+				tcgplayer: 620107
+			},
 		},
 	]
 }

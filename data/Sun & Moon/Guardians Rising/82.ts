@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pancham",
 		fr: "Pandespiègle",
+		de: "Pam-Pam"
 	},
 
 	stage: "Stage1",
@@ -95,6 +96,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "It boasts superb physical strength. Those who wish to become Pangoro's Trainer have no choice but to converse with their fists.",
+		de: "Seine mächtigen Arme sind sehr imposant. Wer als Pandagro-Trainer Karriere machen will, muss wohl die Fäuste sprechen lassen!"
+	},
 
 	thirdParty: {
 		cardmarket: 297539,

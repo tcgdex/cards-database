@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S10P"
+import { Card } from "../../../interfaces";
+import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "冰寶"
+		ja: "カチコール",
+		'zh-tw': "冰寶",
 	},
 
 	illustrator: "Kouki Saitou",
@@ -14,27 +14,40 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		'zh-tw': "棲息在萬年積雪覆蓋的山區。 戴著將大氣中的水分冷凍後 形成的冰盔，藉此保護自己。"
+		ja: "万年雪に 覆われた 山岳に 生息す。 大気内の水分を 冷やして 作りし 氷の兜を 被りて 身を護る。",
+		'zh-tw': "棲息在萬年積雪覆蓋的山區。 戴著將大氣中的水分冷凍後 形成的冰盔，藉此保護自己。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "冰柱"
+	attacks: [
+		{
+			name: {
+				ja: "つらら",
+				'zh-tw': "冰柱",
+			},
+			damage: 40,
+			cost: ["Water", "Colorless", "Colorless"],
 		},
+	],
 
-		damage: 40,
-		cost: ["Water", "Colorless", "Colorless"]
-	}],
+	weaknesses: [{ type: "Metal", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Metal",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 651083,
+				tcgplayer: 569867,
+			},
+		},
+	],
 
 	retreat: 2,
-	regulationMark: "F"
-}
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [712],
+};
 
-export default card
+export default card;

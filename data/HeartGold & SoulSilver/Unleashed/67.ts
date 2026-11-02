@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		387,
-	],
+	dexId: [387],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -76,22 +74,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Photosynthesis occurs across its body under the sun. The shell on its back is actually hardened soil."
+		en: "Photosynthesis occurs across its body under the sun. The shell on its back is actually hardened soil.",
+		de: "Im Sonnenlicht betreibt sein ganzer Körper Photosynthese. Sein Panzer besteht aus hartem Lehm."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90080,
+				cardmarket: 279223
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90080,
+				cardmarket: 279223
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279223,
-		tcgplayer: 90080
-	}
 }
 
 export default card

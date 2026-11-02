@@ -1,51 +1,56 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "千面避役VMAX"
+		ja: "ドガース",
+		'zh-tw': "千面避役VMAX",
 	},
 
-	illustrator: "Kazuma Koda",
+	illustrator: "miki kudo",
 	category: "Pokemon",
-	hp: 320,
-	types: ["Water"],
-	stage: "VMAX",
+	hp: 70,
+	types: ["Darkness"],
 
-	abilities: [{
-		type: "Ability",
+	description: {
+		ja: "汚い 空気が ごちそう。 むかしの ガラル地方には いまより たくさんの ドガースが いたという。",
+	},
 
-		name: {
-			'zh-tw': "雙重射擊手"
+	stage: "Basic",
+
+	attacks: [
+		{
+			name: {
+				ja: "スモッグ",
+				'zh-tw': "超極巨漩澴盤渦",
+			},
+			damage: 20,
+			cost: ["Darkness", "Colorless"],
+			effect: {
+				ja: "相手のバトルポケモンをどくにする。",
+				'zh-tw': "若希望，選擇1個這隻寶可夢身上附加的能量，放回手牌。這個情況下，增加70點傷害。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "在自己的回合，若從自己的手牌將1張【水】能量卡丟棄，則可使用1次。在對手的2隻備戰寶可夢身上，各放置2個傷害指示物。"
-		}
-	}],
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
 
-	attacks: [{
-		name: {
-			'zh-tw': "超極巨漩澴盤渦"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 570875,
+				tcgplayer: 597378,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "若希望，選擇1個這隻寶可夢身上附加的能量，放回手牌。這個情況下，增加70點傷害。"
-		},
+	retreat: 1,
+	regulationMark: "E",
+	rarity: "Promo",
+	dexId: [109],
+};
 
-		damage: "70+",
-		cost: ["Water", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
-
-	retreat: 2,
-	regulationMark: "E"
-}
-
-export default card
+export default card;

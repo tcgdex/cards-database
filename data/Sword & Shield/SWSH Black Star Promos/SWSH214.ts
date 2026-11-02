@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Lucario VSTAR"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 270,
 	types: ["Fighting"],
@@ -77,12 +77,31 @@ const card: Card = {
 		damage: "70×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
-
-	thirdParty: {
-		cardmarket: 606784
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 606784,
+				tcgplayer: 268304
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 606785,
+				tcgplayer: 268305
+			}
+		},
+	],
 }
 
 export default card

@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Mew ex",
 		fr: "Mew ex",
-		de: "Mew ex"
+		de: "Mew-ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -23,7 +23,7 @@ const card: Card = {
 		"Psychic",
 	],
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{

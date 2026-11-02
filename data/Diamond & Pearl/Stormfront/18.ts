@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Haunter",
 		fr: "Spectrum",
+		de: "Alpollo"
 	},
 
 	stage: "Stage2",
@@ -41,7 +42,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your opponent's turn, if Gengar would be Knocked Out by damage from an attack, you may flip a coin. If heads, the Defending Pokémon is Knocked Out.",
 				fr: "Une seule fois lors du tour de votre adversaire, si Ectoplasma est mis K.O par des dégâts d'une attaque, vous pouvez lancer une pièce. Si c'est face, le Pokémon Attaquant est mis K.O.",
-				de: "Einmal während des Zuges deines Gegners kannst du, wenn Gengar durch Schaden eines Angriffs kampfunfähig würde, 1 Münze werfen. Bei \"Kopf\" ist das Angreifende Pokémon jetzt kampfunfähig."
+				de: "Einmal während des Zuges deines Gegners kannst du, wenn Gengar durch Schaden eines Angriffs kampfunfähig würde, 1 Münze werfen. Bei „Kopf“ ist das Angreifende Pokémon jetzt kampfunfähig."
 			},
 		},
 	],

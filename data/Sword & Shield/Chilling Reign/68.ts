@@ -71,23 +71,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Slurpuff's fur contains a lot of air, making it soft to the touch and lighter than it looks."
+		en: "Slurpuff's fur contains a lot of air, making it soft to the touch and lighter than it looks.",
+		de: "Da in seinem Fell eine Menge Luft eingeschlossen ist, fühlt es sich unheimlich weich an und ist leichter, als es auf den ersten Blick aussieht."
 	},
 
-	thirdParty: {
-		cardmarket: 567176,
-		tcgplayer: 241729
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567176,
+				tcgplayer: 241729
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567176,
+				tcgplayer: 241729
+			}
+		},
+	],
 }
 
 export default card

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Unidentified Fossil",
 		fr: "Fossile Inconnu",
+		de: "Unbekanntes Fossil"
 	},
 
 	stage: "Stage1",
@@ -86,6 +87,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "This calm Pokémon lived in a cold land where there were no violent predators like Tyrantrum.",
+		de: "Dieses eher ruhige Pokémon lebte in einem kalten Land, in dem es keine brutalen Gegner wie Monargoras zu fürchten hatte."
+	},
 
 	thirdParty: {
 		cardmarket: 355546,

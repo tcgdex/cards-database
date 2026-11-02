@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [337],
+
 	effect: {
 		fr: "Choisissez l’une de ces options :\n\n• Mélangez votre main avec votre deck. Ensuite, piochez 5 cartes.\n• Échangez votre Pokémon Actif avec l’un de vos Pokémon de Banc.",
 		en: "Choose 1:\n\n•Shuffle your hand into your deck. Then, draw 5 cards.\n•Switch your Active Pokémon with 1 of your Benched Pokémon.",

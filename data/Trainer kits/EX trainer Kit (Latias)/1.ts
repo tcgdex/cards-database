@@ -7,7 +7,8 @@ const card: Card = {
 
 	name: {
 		en: "Bagon",
-		fr: "Draby"
+		fr: "Draby",
+		de: "Kindwurm"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -17,35 +18,45 @@ const card: Card = {
 	hp: 40,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
-	attacks: [{
-		cost: [
-			"Colorless",
-		],
-		name: {
-			en: "Headbutt",
-			fr: "Coup d'boule"
-		},
-		damage: 10
-	}, {
-		cost: [
-			"Fire",
-			"Colorless"
-		],
-		name: {
-			en: "Flare",
-			fr: "Enflammer"
-		},
-		damage: 20
-	}],
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				en: "Headbutt",
+				fr: "Coup d'boule",
+				de: "Kopfnuss"
+			},
+			damage: 10
+		}, {
+			cost: [
+				"Fire",
+				"Colorless"
+			],
+			name: {
+				en: "Flare",
+				fr: "Enflammer",
+				de: "Flackern"
+			},
+			damage: 20
+		}],
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 83694
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275777,
+				tcgplayer: 83694
+			}
+		},
+	],
+
 }
 
 export default card

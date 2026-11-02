@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rapidash ex"
+		en: "Rapidash ex",
+		fr: "Galopa-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Ponyta"
+		en: "Ponyta",
+		fr: "Ponyta"
 	},
 
 	stage: "Stage1",
@@ -25,14 +27,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Sprinting Flare"
+			en: "Sprinting Flare",
+			fr: "Sprint Flamboyant"
 		},
 
 		damage: 110,
 		cost: ["Fire", "Fire", "Fire"],
 
 		effect: {
-			en: "This attack also does 20 damage to 1 of your opponent's Benched Pokémon."
+			en: "This attack also does 20 damage to 1 of your opponent's Benched Pokémon.",
+			fr: "Cette attaque inflige aussi 20 dégâts à un des Pokémon de Banc de votre adversaire."
 		}
 	}],
 

@@ -35,14 +35,30 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "Yuu Nishida",
+
+	description: {
+		en: "This selfish, attention-seeking Pokémon stores poison and electricity in two different sacs inside its body.",
+		de: "Dieses selbstsüchtige und verzogene Pokémon speichert Gift und Elektrizität in zwei separaten Säcken in seinem Körper."
+	},
 
 	thirdParty: {
         cardmarket: 702367,

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		206,
-	],
+	dexId: [206],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -71,22 +69,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When spotted, this Pokémon escapes backward by furiously boring into the ground with its tail."
+		en: "When spotted, this Pokémon escapes backward by furiously boring into the ground with its tail.",
+		de: "Wird es entdeckt, flüchtet dieses Pokémon, indem es sich mit seinem Schweif in den Boden gräbt."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85012,
+				cardmarket: 279013
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85012,
+				cardmarket: 279013
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279013,
-		tcgplayer: 85012
-	}
 }
 
 export default card

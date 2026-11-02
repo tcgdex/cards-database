@@ -58,23 +58,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind."
+		en: "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind.",
+		de: "Es stellt sich auf den Schweif, um weiter zu blicken. Erspäht es einen Feind, schreit es laut auf."
 	},
 
-	thirdParty: {
-		cardmarket: 483554,
-		tcgplayer: 219331
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483554,
+				tcgplayer: 219331
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483554,
+				tcgplayer: 219331
+			}
+		},
+	],
 }
 
 export default card

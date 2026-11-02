@@ -4,6 +4,7 @@ import Set from "../Fusion Strike"
 const card: Card = {
 	dexId: [258],
 	set: Set,
+	cameoDexIds: [769],
 
 	name: {
 		en: "Mudkip",
@@ -19,12 +20,19 @@ const card: Card = {
 	hp: 70,
 	types: ["Water"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "KIYOTAKA OSHIYAMA",
 
 	description: {
-		en: "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders."
+		en: "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.",
+		de: "Die Flosse auf seinem Kopf prüft die Strömung des Wassers. Dieses Pokémon kann Felsen heben."
 	},
 
 	attacks: [{
@@ -55,17 +63,23 @@ const card: Card = {
 		damage: 30
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582196,
-		tcgplayer: 253199
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582196,
+				tcgplayer: 253199
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582196,
+				tcgplayer: 253199
+			}
+		},
+	],
 }
 
 export default card

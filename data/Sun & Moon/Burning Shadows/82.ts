@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Rattata",
 		fr: "Rattata d’Alola",
+		de: "Alola-Rattfratz"
 	},
 
 	stage: "Stage1",
@@ -96,10 +97,27 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 299484,
-		tcgplayer: 138570
-	}
+	description: {
+		en: "It forms a group of Rattata, which it assumes command of. Each group has its own territory, and disputes over food happen often.",
+		de: "Schart eine Gruppe Rattfratz um sich. Zwischen den Gruppen, die jeweils ihr eigenes Territorium besitzen, entbrennen oft Kämpfe um Futter."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299484,
+				tcgplayer: 138570
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299484,
+				tcgplayer: 138570
+			}
+		},
+	],
 }
 
 export default card

@@ -74,7 +74,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison."
+		en: "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison.",
+		de: "Es ist aus Gasen entstanden. Wird jemand in seinen gasförmigen, giftigen Körper gehüllt, so fällt er in Ohnmacht."
 	},
 
 	dexId: [92],

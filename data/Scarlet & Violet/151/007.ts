@@ -55,18 +55,56 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "When it feels threatened, it draws its limbs inside its shell and sprays water from its mouth.",
+		de: "Fühlt es sich bedroht, verkriecht es sich in seinen Panzer und spuckt Wasser aus seinem Maul."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733602,
+				tcgplayer: 502548,
+				cardtrader: 261151
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733602,
+				tcgplayer: 502548,
+				cardtrader: 261151
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['pokemon-center'],
+			thirdParty: {
+				cardmarket: 721198
+			}
+		},
+		{
+			type: 'reverse',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 794910
+			}
+		},
+	],
 
 	illustrator: "kantaro",
 
-	thirdParty: {
-		cardmarket: 733602
-	}
+	
 }
 
 export default card

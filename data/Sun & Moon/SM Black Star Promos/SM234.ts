@@ -3,6 +3,9 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	dexId: [25],
+
+	cameoDexIds: [187, 201, 232],
+
 	set: Set,
 
 	name: {
@@ -14,7 +17,8 @@ const card: Card = {
 		de: "Pikachu"
 	},
 
-	rarity: "Rare",
+	illustrator: "Naoki Saito",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Lightning"],
@@ -63,7 +67,22 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "It's in its nature to store electricity. It feels stressed now and then if it's unable to fully discharge the electricity.",
+		de: "Es liegt in seiner Natur, konstant Elektrizität in sich anzustauen. Kann es diese nicht regelmäßig entladen, löst dies Stress aus."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 412934,
+				tcgplayer: 200275
+			}
+		}
+	],
 }
 
 export default card

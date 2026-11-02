@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Morpeko"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	dexId: [877],
 	hp: 80,
 	types: ["Lightning"],
@@ -77,18 +77,18 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 427106
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 557973,
+				tcgplayer: 241881
+			}
+		},
+	],
 }
 
 export default card

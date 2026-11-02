@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		175,
-	],
+	dexId: [175],
 
 	hp: 40,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -54,22 +52,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up."
+		en: "A proverb claims that happiness will come to anyone who can make a sleeping Togepi stand up.",
+		de: "Ein Sprichwort sagt, dass Glück dem widerfährt, dem es gelingt ein schlafendes TOGEPI zu wecken."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279323,
+				tcgplayer: 89935
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279323,
+				tcgplayer: 89935
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279323,
-		tcgplayer: 89935
-	}
 }
 
 export default card

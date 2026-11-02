@@ -64,15 +64,33 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "Shibuzoh.",
+
+	description: {
+		en: "Bombirdier uses the apron on its chest to bundle up food, which it carries back to its nest. It enjoys dropping things that make loud noises.",
+		de: "Es wickelt Futter in seine Brustschürze und trägt es so heim ins Nest. Liebend gern lässt es Dinge herabfallen, die beim Aufprall Lärm verursachen."
+	},
 
 	thirdParty: {
         cardmarket: 702515,

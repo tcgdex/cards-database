@@ -90,6 +90,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its shell is extremely hard. It cannot be shattered, even with a bomb. The shell opens only when it is attacking.",
+		de: "Sein Panzer ist extrem hart. Es kann nicht zerschmettert werden, auch nicht durch eine Bombe. Der Panzer öffnet sich nur, wenn es angreift."
+	},
+
 	thirdParty: {
 		cardmarket: 288199,
 		tcgplayer: 111527

@@ -22,23 +22,29 @@ const card: Card = {
 		es: "Pon las cartas de tu mano en tu baraja y barájalas todas. Después, roba 5 cartas.",
 		it: "Rimischia le carte che hai in mano nel tuo mazzo. Poi pesca cinque carte.",
 		pt: "Embaralhe a sua mão no seu baralho. Em seguida, compre 5 cartas.",
-		de: "Mische deine Handkarten in dein Deck. Ziehe anschließend 5 Karten."
+		de: "Mische deine Handkarten in dein Deck. Ziehe anschließend 5 Karten. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	illustrator: "Yuu Nishida",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582976,
-		tcgplayer: 253117
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582976,
+				tcgplayer: 253117
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582976,
+				tcgplayer: 253117
+			}
+		},
+	],
 }
 
 export default card

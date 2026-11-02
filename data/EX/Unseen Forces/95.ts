@@ -15,24 +15,29 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
+		en: "Remove 2 damage counters from 1 of your Pokémon (remove 1 damage counter if that Pokémon has only 1).",
 		fr: "Retirez 2 marqueurs de dégât à 1 de vos Pokémon (retirez-en 1 si ce Pokémon n'en possède qu'1).",
 		de: "Remove 2 damage counters from 1 of your Pokémon (remove 1 damage counter if that Pokémon has only 1)."
 	},
 
-	thirdParty: {
-		cardmarket: 276741,
-		tcgplayer: 88337
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88337,
+				cardmarket: 276741
+			},
 		},
 		{
-			type: "normal",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 88337,
+				cardmarket: 276741
+			},
 		}
-	]
+	],
 }
 
 export default card

@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "kirisAki",
 
 	description: {
-		en: "It is highly popular among female Trainers for its sublime fur. It does not keep a nest."
+		en: "It is highly popular among female Trainers for its sublime fur. It does not keep a nest.",
+		de: "Dieses Pokémon ist bei weiblichen Trainern aufgrund seines Fells beliebt."
 	},
 
 	attacks: [{
@@ -81,17 +88,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582947,
-		tcgplayer: 253307
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582947,
+				tcgplayer: 253307
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582947,
+				tcgplayer: 253307
+			}
+		},
+	],
 }
 
 export default card

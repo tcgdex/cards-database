@@ -103,6 +103,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Males have plumage on their heads. They will never let themselves fell close to anyone other than their Trainers.",
+	},
+
 	thirdParty: {
 		cardmarket: 282748,
 		tcgplayer: 98116

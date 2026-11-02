@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Crabrawler"
+		en: "Crabrawler",
+		fr: "Crabagarre"
 	},
 
 	illustrator: "Akira Komayama",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Knuckle Punch"
+			en: "Knuckle Punch",
+			fr: "Coud'Phalange"
 		},
 
 		damage: 20,

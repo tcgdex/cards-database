@@ -98,23 +98,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It's said that when stars shine in the night sky, this Pokémon will spirit away sleeping children. Some call it the Witch of Punishment."
+		en: "It's said that when stars shine in the night sky, this Pokémon will spirit away sleeping children. Some call it the Witch of Punishment.",
+		de: "In sternklaren Nächten entführt es angeblich schlafende Kinder aus ihren Betten. Man nennt es auch die „Hexe der Bestrafung“."
 	},
 
-	thirdParty: {
-		cardmarket: 483249,
-		tcgplayer: 219451
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483249,
+				tcgplayer: 219451
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483249,
+				tcgplayer: 219451
+			}
+		},
+	],
 }
 
 export default card

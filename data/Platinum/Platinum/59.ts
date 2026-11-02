@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		394,
-	],
+	dexId: [394],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Piplup",
 		fr: "Tiplouf",
+		de: "Plinfa"
 	},
 
 	stage: "Stage1",
@@ -38,7 +37,7 @@ const card: Card = {
 			name: {
 				en: "Surf",
 				fr: "Surf",
-				de: "Surf"
+				de: "Surfer"
 			},
 
 			damage: 30,
@@ -53,12 +52,12 @@ const card: Card = {
 			name: {
 				en: "Bubblebeam",
 				fr: "Bulles d'O",
-				de: "Bubblebeam"
+				de: "Blubbstrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 50,
 
@@ -74,19 +73,28 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278480,
-		tcgplayer: 88371
+	description: {
+		en: "Because every PRINPLUP considers itself to be the most important, they can never form a group.",
+		de: "Jedes PLIPRIN geht davon aus, dass es das wichtigste ist. Daher können sie keine Gruppen bilden."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 88371,
+				cardmarket: 278480
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278480,
+				tcgplayer: 88371
+			}
 		}
-	]
+	],
+
 }
 
 export default card

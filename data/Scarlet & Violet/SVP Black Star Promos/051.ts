@@ -4,6 +4,7 @@ import Set from "../SVP Black Star Promos"
 const card: Card = {
 	dexId: [143],
 	set: Set,
+	cameoDexIds: [16, 50],
 
 	name: {
 		en: "Snorlax",
@@ -14,7 +15,7 @@ const card: Card = {
 		de: "Relaxo"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Colorless"],
@@ -66,9 +67,35 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
-	illustrator: "GOSSAN"
+	illustrator: "GOSSAN",
+	description: {
+		en: "This POKéMON's stomach is so strong, even eating moldy or rotten food will not affect it.",
+	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 720390,
+				tcgplayer: 517175
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["pokemon-center"],
+			thirdParty: {
+				cardmarket: 720391,
+				tcgplayer: 517270
+			},
+		}
+	],
 }
 
 export default card

@@ -22,23 +22,29 @@ const card: Card = {
 		es: "Lanza 2 monedas. Si ambas son cara, pon 1 carta de tu pila de descartes en tu mano.",
 		it: "Lancia due volte una moneta. Se esce entrambe le volte testa, prendi una carta dalla tua pila degli scarti e aggiungila a quelle che hai in mano.",
 		pt: "Jogue 2 moedas. Se ambas saírem cara, coloque 1 carta da sua pilha de descarte na sua mão.",
-		de: "Wirf 2 Münzen. Zeigen beide Kopf, nimm 1 Karte aus deinem Ablagestapel auf deine Hand."
+		de: "Wirf 2 Münzen. Zeigen beide Kopf, nimm 1 Karte aus deinem Ablagestapel auf deine Hand. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 483699,
-		tcgplayer: 219278
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483699,
+				tcgplayer: 219278
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483699,
+				tcgplayer: 219278
+			}
+		},
+	],
 }
 
 export default card

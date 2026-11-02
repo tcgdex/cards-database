@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Origin Forme Palkia VSTAR"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Water"],
@@ -55,12 +55,31 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
-
-	thirdParty: {
-		cardmarket: 669481
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 669481,
+				tcgplayer: 449511
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 669482,
+				tcgplayer: 449514
+			}
+		},
+	],
 }
 
 export default card

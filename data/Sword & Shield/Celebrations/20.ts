@@ -4,12 +4,6 @@ import Set from '../Celebrations'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Dialga",
@@ -63,7 +57,7 @@ const card: Card = {
 			es: "Este ataque hace 20 puntos de daño más por cada Energía Metal unida a este Pokémon.",
 			it: "Questo attacco infligge 20 danni in più per ogni Energia Metal assegnata a questo Pokémon.",
 			pt: "Este ataque causa 20 pontos de dano a mais para cada Energia Metal ligada a este Pokémon.",
-			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Metal-Energie 20 Schadenspunkte mehr zu."
+			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte {M}-Energie 20 Schadenspunkte mehr zu."
 		},
 
 		damage: "60+",
@@ -84,15 +78,21 @@ const card: Card = {
 	regulationMark: "E",
 
 	description: {
-		en: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity."
+		en: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
+		de: "Es besitzt die Macht, die Zeit zu kontrollieren. In den Mythen von Sinnoh erscheint es als Gottheit."
 	},
 
 	dexId: [483],
 
-	thirdParty: {
-		cardmarket: 576765,
-		tcgplayer: 250296
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 576765,
+				tcgplayer: 250296
+			}
+		},
+	],
 }
 
 export default card

@@ -48,23 +48,30 @@ const card: Card = {
 	types: ["Fighting"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Most of its body has the same composition as coal. Fittingly, this Pokémon was first discovered in coal mines about 400 years ago."
+		en: "Most of its body has the same composition as coal. Fittingly, this Pokémon was first discovered in coal mines about 400 years ago.",
+		de: "Es wurde vor circa 400 Jahren in einer Kohlemine entdeckt. Sein Körper besteht fast aus denselben Komponenten wie Steinkohle."
 	},
 
-	thirdParty: {
-		cardmarket: 457938,
-		tcgplayer: 213193
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457938,
+				tcgplayer: 213193
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457938,
+				tcgplayer: 213193
+			}
+		},
+	],
 }
 
 export default card

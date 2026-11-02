@@ -87,6 +87,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A Pokémon whose genetic code was repeatedly recombined for research. It turned vicious as a result.",
+		de: "Der genetische Code dieses Pokémon wurde wiederholt aus Forschungsgründen umstrukturiert. Daher ist es so bösartig."
+	},
+
 	thirdParty: {
 		cardmarket: 293405,
 		tcgplayer: 124064

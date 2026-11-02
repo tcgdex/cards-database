@@ -44,18 +44,42 @@ const card: Card = {
 		damage: "20+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This Pokémon is common but hazardous. Its sharp incisors can easily cut right through hard wood.",
+		de: "Ein weitverbreitetes Pokémon, das nicht ganz ungefährlich ist. Selbst hartes Holz zerkleinert es mit seinen scharfen Nagezähnen mühelos."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733614,
+				tcgplayer: 502568,
+				cardtrader: 261145
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733614,
+				tcgplayer: 502568,
+				cardtrader: 261145
+			}
+		},
+	],
 
 	illustrator: "sowsow",
 
-	thirdParty: {
-		cardmarket: 733614
-	}
+	
 }
 
 export default card

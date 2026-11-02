@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Lucario V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Fighting"],
@@ -58,12 +58,23 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
-
-	thirdParty: {
-		cardmarket: 606783
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 606783,
+				tcgplayer: 268306
+			}
+		},
+	],
 }
 
 export default card

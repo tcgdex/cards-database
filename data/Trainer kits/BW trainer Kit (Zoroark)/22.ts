@@ -15,7 +15,21 @@ const card: Card = {
 
 	rarity: "None",
 	category: "Energy",
-	energyType: "Normal"
+	energyType: "Normal",
+	types: [
+		"Darkness"
+	],
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 280068,
+				tcgplayer: 98726
+			}
+		},
+	],
+
 }
 
 export default card

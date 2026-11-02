@@ -92,7 +92,7 @@ const card: Card = {
 				es: "Doble Llama GX",
 				it: "Doppia Vampata GX",
 				pt: "Labareda Dupla GX",
-				de: "Doppelbrand GX"
+				de: "Doppelbrand-GX"
 			},
 			effect: {
 				en: "If this Pokémon has at least 3 extra Fire Energy attached to it (in addition to this attack’s cost), this attack does 100 more damage, and this attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon. (You can’t use more than 1 GX attack in a game.)",
@@ -100,22 +100,7 @@ const card: Card = {
 				es: "Si este Pokémon tiene por lo menos 3 Energías Fire adicionales unidas a él (además de las del coste de este ataque), este ataque hace 100 puntos de daño más, y el daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Se questo Pokémon ha almeno tre Energie Fire extra assegnate, in aggiunta a quelle del costo di questo attacco, questo attacco infligge 100 danni in più e i suoi danni non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario. Non puoi usare più di un attacco GX a partita.",
 				pt: "Se este Pokémon tiver pelo menos 3 Energias Fire adicionais ligadas a ele (além do custo deste ataque), este ataque causará 100 pontos de dano a mais e o dano deste ataque não será afetado por quaisquer efeitos no Pokémon Ativo do seu oponente (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Wenn an dieses Pokémon mindestens 3 extra Fire-Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), fügt diese Attacke 100 Schadenspunkte mehr zu und der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
-			},
-			damage: "200+",
-
-		},
-		{
-			cost: [
-				"Fire",
-				"Fire",
-				"Fire",
-			],
-			name: {
-				fr: "Double Brasier-GX",
-			},
-			effect: {
-				fr: "Si au moins 3 Énergies Fire supplémentaires sont attachées à ce Pokémon (en plus du coût de cette attaque), cette attaque inflige 100 dégâts supplémentaires, et les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				de: "Wenn an dieses Pokémon mindestens 3 extra {R}-Energien angelegt sind (zusätzlich zu den Kosten dieser Attacke), fügt diese Attacke 100 Schadenspunkte mehr zu und der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: "200+",
 

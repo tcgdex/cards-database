@@ -11,8 +11,8 @@ const card: Card = {
 		de: "Mogelbaum"
 	},
 
-	illustrator: undefined,
-	rarity: "Rare",
+	illustrator: "Akira Komayama",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -78,7 +78,22 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2
+	retreat: 2,
+
+	description: {
+		en: "It's so popular with the elderly that there's a magazine devoted to this Pokémon. Fans obsess over the particular length and angle of its arms.",
+		de: "Es ist sehr beliebt bei Senioren und hat sogar seine eigene Fachzeitschrift. Auf Länge und Winkel seiner Arme legen Fans besonderen Wert."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 377535,
+				tcgplayer: 199488
+			}
+		}
+	],
 }
 
 export default card

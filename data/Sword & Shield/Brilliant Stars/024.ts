@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Panflam"
 	},
 
+	illustrator: "Shin Nagasawa",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,
@@ -44,20 +45,37 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "The gas made in its belly burns from its rear end. The fire burns weakly when it feels sick.",
+		de: "An seinem Rücken verbrennt es die Gase aus seinem Bauch. Geht es ihm schlecht, leuchtet es weniger hell."
 	},
 
-	thirdParty: {
-		cardmarket: 608474,
-		tcgplayer: 263723
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608474,
+				tcgplayer: 263723
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608474,
+				tcgplayer: 263723
+			}
+		},
+	],
 }
 
 export default card

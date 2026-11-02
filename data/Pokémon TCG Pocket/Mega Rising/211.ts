@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wooloo"
+		en: "Wooloo",
+		fr: "Moumouton"
 	},
 
 	illustrator: "Yoko Hishida",
@@ -24,14 +25,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Continuous Tumble"
+			en: "Continuous Tumble",
+			fr: "Roulade Continue"
 		},
 
 		damage: 40,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip a coin until you get tails. This attack does 40 damage for each heads."
+			en: "Flip a coin until you get tails. This attack does 40 damage for each heads.",
+			fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 40 dégâts pour chaque côté face."
 		}
 	}],
 

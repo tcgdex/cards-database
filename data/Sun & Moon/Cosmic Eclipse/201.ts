@@ -22,7 +22,7 @@ const card: Card = {
 		es: "",
 		it: "",
 		pt: "",
-		de: ""
+		de: "Durchsuche dein Deck nach bis zu 3 Basis-Pokémon verschiedenen Typs und lege sie auf deine Bank. Mische anschließend dein Deck. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 	trainerType: "Supporter",
 

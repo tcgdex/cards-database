@@ -24,6 +24,22 @@ const card: Card = {
 		'zh-cn': "選擇最多2隻自己的「古代」寶可夢，從棄牌區附給那些寶可夢各1張基本能量卡。然後，從自己的牌庫抽出3張卡。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803280,
+				tcgplayer: 602610,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602611,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }

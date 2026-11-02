@@ -4,7 +4,7 @@ import Set from '../DP Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Arceus",
-		fr: "Dialga",
+		fr: "Arceus",
 		de: "Arceus"
 	},
 
@@ -54,8 +54,11 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
+		en: "It is said to have emerged from an egg in a place where there was nothing, then shaped the world.",
 		fr: "On dit que son œuf a éclos dans le néant et qu'il est à l'origine de la création du monde."
 	},
 

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Washakwil"
 	},
 
+	illustrator: "Jiro Sasumo",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -72,20 +73,43 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Screaming a bloodcurdling battle cry, this huge and ferocious bird Pokémon goes out on the hunt. It blasts lakes with shock waves, then scoops up any prey that float to the water's surface.",
+		de: "Mit entsetzlichem Kampfgeschrei geht dieses erbarmungslose, riesige Vogel-Pokémon auf Jagd. Es erzeugt Stoßwellen über Seen, um sodann die emportreibende Beute zu ergreifen."
 	},
 
-	thirdParty: {
-		cardmarket: 682196,
-		tcgplayer: 451798
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682196,
+				tcgplayer: 451798
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682196,
+				tcgplayer: 451798
+			}
+		},
+	],
 }
 
 export default card

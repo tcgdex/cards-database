@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kikugi"
 	},
 
+	illustrator: "Naoyo Kimura",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 40,
@@ -57,20 +58,37 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "The deeper a Cherubi's red, the more nutrients it has stockpiled in its body. And the sweeter and tastier its small ball!",
+		de: "Je stärker die Rotfärbung seines Körpers ist, desto mehr Nährstoffe stecken in ihm und umso süßer und besser schmeckt sein Bällchen."
 	},
 
-	thirdParty: {
-		cardmarket: 608436,
-		tcgplayer: 263606
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608436,
+				tcgplayer: 263606
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608436,
+				tcgplayer: 263606
+			}
+		},
+	],
 }
 
 export default card

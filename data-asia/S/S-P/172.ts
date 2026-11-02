@@ -1,22 +1,56 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "拉苯博士"
+		ja: "ガラル ヤドン",
+		'zh-tw': "拉苯博士",
 	},
 
-	illustrator: "Ken Sugimori",
-	category: "Trainer",
+	illustrator: "sowsow",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Psychic"],
 
-	effect: {
-		'zh-tw': "從自己的棄牌區選擇最多3張名稱中有「洗翠」的寶可夢卡，在給對手看過後加入手牌。"
+	description: {
+		ja: "ガラル地方にだけ 生息する 植物の タネを 食べているため しっぽは スパイシーな 味わいだ。",
 	},
 
-	trainerType: "Supporter",
-	regulationMark: "F"
-}
+	stage: "Basic",
 
-export default card
+	attacks: [
+		{
+			name: { ja: "みんなでねそべる" },
+			cost: ["Colorless"],
+			effect: {
+				ja: "自分のポケモン全員のHPを、それぞれ「10」回復する。",
+			},
+		},
+		{
+			name: { ja: "しっぽではたく" },
+			damage: 30,
+			cost: ["Colorless", "Colorless", "Colorless"],
+		},
+	],
+
+	weaknesses: [{ type: "Darkness", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 561781,
+				tcgplayer: 597370,
+			},
+		},
+	],
+
+	retreat: 2,
+	regulationMark: "E",
+	rarity: "Promo",
+	dexId: [79],
+};
+
+export default card;

@@ -37,10 +37,12 @@ const card: Card = {
 			name: {
 				en: "Paralyzing Jab",
 				fr: "Piqûre Paralysante",
+				de: "Paralysierender Punch"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 20,
 
@@ -56,10 +58,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280651,
-		tcgplayer: 84479
-	}
+	description: {
+		en: "It rarely fights fairly, but that is strictly to ensure survival. It is popular as a mascot.",
+		de: "Aufgrund seines starken Überlebensdrangs kämpft es selten fair. Beliebt als Maskottchen."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280651,
+				tcgplayer: 84479
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280651,
+				tcgplayer: 84479
+			}
+		},
+	],
 }
 
 export default card

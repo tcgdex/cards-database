@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Zeraora V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Lightning"],
@@ -58,12 +58,23 @@ const card: Card = {
 		damage: 190
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
-
-	thirdParty: {
-		cardmarket: 669838
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 669838,
+				tcgplayer: 449518
+			}
+		},
+	],
 }
 
 export default card

@@ -1,49 +1,32 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "雙卵細胞球"
+		ja: "クララ",
+		'zh-tw': "雙卵細胞球",
 	},
 
-	illustrator: "Nelnal",
-	category: "Pokemon",
-	hp: 70,
-	types: ["Psychic"],
+	illustrator: "Ken Sugimori",
+	category: "Trainer",
 
-	description: {
-		'zh-tw': "據說當牠的２個大腦意見一致時，發出的念力 可以覆蓋方圓１公里的範圍。"
+	effect: {
+		ja: "自分のトラッシュからポケモンを2枚までと、基本エネルギーを2枚まで選び、相手に見せて、手札に加える。（ポケモンまたは基本エネルギーのどちらかだけでもよい。）",
 	},
 
-	stage: "Stage1",
-
-	attacks: [{
-		name: {
-			'zh-tw': "細胞尖槍"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 597406,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "在對手的1隻備戰寶可夢身上放置2個傷害指示物。"
-		},
+	trainerType: "Supporter",
+	regulationMark: "E",
+	rarity: "Promo",
+};
 
-		damage: 20,
-		cost: ["Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Darkness",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
-
-	retreat: 2,
-	regulationMark: "F"
-}
-
-export default card
+export default card;

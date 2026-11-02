@@ -1,55 +1,61 @@
-import { Card } from "../../../interfaces"
-import Set from "../S12a"
+import { Card } from "../../../interfaces";
+import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		ja: "アルセウスVSTAR"
+		ja: "アルセウスVSTAR",
 	},
 
 	illustrator: "AKIRA EGAWA",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Colorless"],
-	stage: "VMAX",
 
-	attacks: [{
-		cost: ["Colorless", "Colorless", "Colorless"],
+	stage: "VSTAR",
 
-		name: {
-			ja: "トリニティノヴァ"
+	abilities: [
+		{
+			type: "Ability",
+			name: { ja: "スターバース" },
+			effect: {
+				ja: "自分の番に使える。自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。［対戦中、自分はVSTARパワーを1回しか使えない。］",
+			},
 		},
+	],
 
-		damage: 200,
-
-		effect: {
-			ja: "自分の山札から基本エネルギーを3枚まで選び、自分の「ポケモンV」に好きなようにつける。そして山札を切る。"
-		}
-	}, {
-		name: {
-			ja: "特性"
-		}
-	}, {
-		name: {
-			ja: "スターバース"
+	attacks: [
+		{
+			name: { ja: "トリニティノヴァ" },
+			damage: 200,
+			cost: ["Colorless", "Colorless", "Colorless"],
+			effect: {
+				ja: "自分の山札から基本エネルギーを3枚まで選び、自分の「ポケモンV」に好きなようにつける。そして山札を切る。",
+			},
 		},
+	],
 
-		effect: {
-			ja: "自分の番に使える。自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。［対戦中、自分はVSTARパワーを1回しか使えない。］"
-		}
-	}],
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 687824,
+				tcgplayer: 571792,
+			},
+		},
+	],
+
+	evolveFrom: {
+		ja: "アルセウスV",
+	},
 
 	retreat: 2,
+	regulationMark: "F",
+	rarity: "Secret Rare",
+	dexId: [493],
+};
 
-	thirdParty: {
-		cardmarket: 687689
-	}
-}
-
-export default card
+export default card;

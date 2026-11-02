@@ -56,23 +56,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "If you get the feeling of being watched in darkness when nobody is around, Haunter is there."
+		en: "If you get the feeling of being watched in darkness when nobody is around, Haunter is there.",
+		de: "Falls du im Dunkeln das Gefühl hast, beobachtet zu werden, und niemand ist zu sehen, ist es bestimmt Alpollo."
 	},
 
-	thirdParty: {
-		cardmarket: 567136,
-		tcgplayer: 241715
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567136,
+				tcgplayer: 241715
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567136,
+				tcgplayer: 241715
+			}
+		},
+	],
 }
 
 export default card

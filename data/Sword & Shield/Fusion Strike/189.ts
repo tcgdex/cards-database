@@ -29,12 +29,25 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "E",
 	illustrator: "Hasuno",
 
 	description: {
-		en: "Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years."
+		en: "Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years.",
+		de: "Einst wurde es für seine Fähigkeit verehrt, Eisen erschaffen zu können. Nach 3 000 Jahren ist es aus einem unerfindlichen Grund wieder erwacht."
 	},
 
 	attacks: [{
@@ -83,17 +96,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582863,
-		tcgplayer: 253340
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 582863,
+				tcgplayer: 253340
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582863,
+				tcgplayer: 253340
+			}
+		},
+	],
 }
 
 export default card

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Tentacool",
 		fr: "Tentacool",
+		de: "Tentacha"
 	},
 
 	stage: "Stage1",
@@ -91,6 +92,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It fires off ultrasonic waves from its red orbs to weaken its prey, and then it wraps them up in its 80 tentacles.",
+		de: "Mit Ultraschallwellen aus seinen roten Kugeln schwächt es zunächst seine Beute, um sie dann mit seinen 80 Tentakeln fest zu umwickeln."
+	},
 
 	thirdParty: {
 		cardmarket: 372332,

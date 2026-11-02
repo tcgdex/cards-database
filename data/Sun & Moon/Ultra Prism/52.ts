@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Drifloon",
 		fr: "Baudrive",
+		de: "Driftlon"
 	},
 
 	stage: "Stage1",
@@ -99,6 +100,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Even while under careful observation, large flocks of Drifblim flying at dusk will inexplicably disappear from view.",
+		de: "Bemerkt man einen in der Dämmerung driftenden Schwarm von Drifzepeli, verschwindet dieser auch wieder sogleich."
+	},
 
 	thirdParty: {
 		cardmarket: 315982,

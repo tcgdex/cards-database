@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Darkrai"
+		en: "Darkrai",
+		fr: "Darkrai"
 	},
 
 	illustrator: "Uta",
@@ -24,14 +25,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Shadow Cage"
+			en: "Shadow Cage",
+			fr: "Cage d'Ombre"
 		},
 
 		damage: 70,
 		cost: ["Darkness", "Darkness", "Colorless"],
 
 		effect: {
-			en: "During your opponent's next turn, the Defending Pokémon can't retreat."
+			en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
+			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite."
 		}
 	}],
 

@@ -1,22 +1,40 @@
-import { Card } from "../../../interfaces"
-import Set from "../S8b"
+import { Card } from "../../../interfaces";
+import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "伽勒爾的夥伴"
+		ja: "ガラルの仲間たち",
+		'zh-tw': "伽勒爾的夥伴",
 	},
 
 	illustrator: "Yuu Nishida",
 	category: "Trainer",
 
 	effect: {
-		'zh-tw': "從自己的牌庫抽出3張卡。"
+		ja: "自分の山札を3枚引く。",
+		'zh-tw': "從自己的牌庫抽出3張卡。",
 	},
 
-	trainerType: "Supporter",
-	regulationMark: "E"
-}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 586665,
+				tcgplayer: 571402,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 578430,
+			},
+		},
+	],
 
-export default card
+	trainerType: "Supporter",
+	regulationMark: "E",
+	rarity: "None",
+};
+
+export default card;

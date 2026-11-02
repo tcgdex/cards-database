@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "kirisAki",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -86,7 +86,22 @@ const card: Card = {
 		},
 	],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "This guardian deity of Melemele is brimming with curiosity. It summons thunderclouds and stores their lightning inside its body.",
+		de: "Der neugierige und lebhafte Schutzpatron von Mele-Mele. Es kann Gewitterwolken rufen und Blitze in seinem Körper speichern."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 298284,
+				tcgplayer: 131733
+			}
+		}
+	],
 }
 
 export default card

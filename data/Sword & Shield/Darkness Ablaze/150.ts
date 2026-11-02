@@ -60,23 +60,37 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It excels at digging holes. Using its ears, it can dig a nest 33 feet deep in one night."
+		en: "It excels at digging holes. Using its ears, it can dig a nest 33 feet deep in one night.",
+		de: "Mit den Ohren schaufelt es Löcher. Es braucht nur eine Nacht, um einen 10 m tiefen Bau zu graben."
 	},
 
-	thirdParty: {
-		cardmarket: 483629,
-		tcgplayer: 219362
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483629,
+				tcgplayer: 219362
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483629,
+				tcgplayer: 219362
+			}
+		},
+		{
+			type: 'reverse',
+			stamp: ['player-rewards-program', 'thank-you'],
+			thirdParty: {
+				cardmarket: 845425
+			}
+		},
+	],
 }
 
 export default card

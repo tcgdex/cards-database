@@ -78,10 +78,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299504,
-		tcgplayer: 138599
-	}
+	description: {
+		en: "Roughly 20 years ago, it was artificially created, utilizing the latest technology of the time.",
+		de: "Dieses Pokémon wurde vor 20 Jahren künstlich erschaffen. Damals stellte es das Nonplusultra der technischen Möglichkeiten dar."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299504,
+				tcgplayer: 138599
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299504,
+				tcgplayer: 138599
+			}
+		},
+	],
 }
 
 export default card

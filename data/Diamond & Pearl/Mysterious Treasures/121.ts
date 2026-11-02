@@ -4,7 +4,7 @@ import Set from '../Mysterious Treasures'
 const card: Card = {
 	name: {
 		en: "Electivire",
-		fr: "Elekable",
+		fr: "Élekable",
 		de: "Elevoltek"
 	},
 
@@ -75,6 +75,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 3,
+
 
 	thirdParty: {
 		cardmarket: 277750,
@@ -83,10 +85,7 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
-		},
-		{
-			type: "reverse",
+			type: "holo",
 		}
 	]
 }

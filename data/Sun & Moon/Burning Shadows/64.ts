@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Machoke",
 		fr: "Machopeur",
+		de: "Maschock"
 	},
 
 	suffix: "GX",
@@ -95,7 +96,7 @@ const card: Card = {
 				es: "Puro Músculo GX",
 				it: "Pugno Nerboruto-GX",
 				pt: "Soco Musculoso GX",
-				de: "Muskel-Punch GX"
+				de: "Muskel-Punch-GX"
 			},
 			effect: {
 				en: "This attack’s damage isn’t affected by Resistance. (You can’t use more than 1 GX attack in a game.)",
@@ -119,10 +120,15 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 299467,
-		tcgplayer: 138550
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 299467,
+				tcgplayer: 138550
+			}
+		},
+	],
 }
 
 export default card

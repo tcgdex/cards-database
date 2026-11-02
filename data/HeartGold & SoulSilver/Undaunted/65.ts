@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		123,
-	],
+	dexId: [123],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -52,7 +50,7 @@ const card: Card = {
 				de: "Schlitzender Schlag"
 			},
 			effect: {
-				en: "During your next turn, Scyther can’t use Slashing Strike.",
+				en: "During your next turn, Scyther can't use Slashing Strike.",
 				fr: "Insécateur ne peut pas utiliser son Coup déchirant pendant votre prochain tour.",
 				de: "Sichlor kann Schlitzender Schlag in deinem nächsten Zug nicht einsetzen."
 			},
@@ -71,22 +69,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It slashes through grass with its sharp scythes, moving too fast for the human eye to track."
+		en: "It slashes through grass with its sharp scythes, moving too fast for the human eye to track.",
+		de: "Es bewegt sich mit seinen Sensen so schnell durch das Gras, dass es kein Mensch sehen kann."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279318,
+				tcgplayer: 89004
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279318,
+				tcgplayer: 89004
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279289,
-		tcgplayer: 89004
-	}
 }
 
 export default card

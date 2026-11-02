@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Sinnoh-Tempel"
 	},
 
+	illustrator: "Oswaldo KATO",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -22,23 +23,29 @@ const card: Card = {
 		es: "Todas las Energías Especiales unidas a los Pokémon (tanto tuyos como de tu rival) proporcionan 1 Energía Colorless y no tienen ningún otro efecto.",
 		it: "Tutte le Energie speciali assegnate ai Pokémon, sia tuoi che del tuo avversario, forniscono Energia Colorless e non hanno altri effetti.",
 		pt: "Todas as Energias Especiais ligadas aos Pokémon (seus e do seu oponente) fornecem Energia Colorless e não têm nenhum outro efeito.",
-		de: "Alle Spezial-Energien, die an Pokémon (deine und die deines Gegners) angelegt sind, liefern Colorless-Energie und haben keinen anderen Effekt."
+		de: "Alle Spezial-Energien, die an Pokémon (deine und die deines Gegners) angelegt sind, liefern {C}-Energie und haben keinen anderen Effekt. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658816,
-		tcgplayer: 272407
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658816,
+				tcgplayer: 272407
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658816,
+				tcgplayer: 272407
+			}
+		},
+	],
 }
 
 export default card

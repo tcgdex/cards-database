@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Ur-Dialga VSTAR"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 280,
@@ -49,7 +50,7 @@ const card: Card = {
 			es: "Este ataque hace 40 puntos de daño más por cada Energía Metal unida a este Pokémon.",
 			it: "Questo attacco infligge 40 danni in più per ogni Energia Metal assegnata a questo Pokémon.",
 			pt: "Este ataque causa 40 pontos de dano a mais para cada Energia Metal ligada a este Pokémon.",
-			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte Metal-Energie 40 Schadenspunkte mehr zu."
+			de: "Diese Attacke fügt für jede an dieses Pokémon angelegte {M}-Energie 40 Schadenspunkte mehr zu."
 		},
 
 		damage: "40+"
@@ -77,20 +78,32 @@ const card: Card = {
 		damage: 220
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658871,
-		tcgplayer: 272465
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 658871,
+				tcgplayer: 272465
+			}
+		},
+	],
 }
 
 export default card

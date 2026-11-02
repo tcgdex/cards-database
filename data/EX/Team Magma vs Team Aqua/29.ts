@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		310,
-	],
+	dexId: [310],
 
 	hp: 80,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Stage1",
@@ -34,12 +32,12 @@ const card: Card = {
 			name: {
 				en: "Aqua Beam",
 				fr: "Aqua-laser",
-				de: "Aqua Beam"
+				de: "Aquastrahl"
 			},
 			effect: {
-				en: "If the Defending Pokémon has Team Magma's in its name, the Defending Pokémon is now Confused.",
+				en: "If the Defending Pokémon has Team Magma in its name, the Defending Pokémon is now Confused.",
 				fr: "Si le nom du Pokémon Défenseur comporte Team Magma, le Pokémon Défenseur est maintenant Confus.",
-				de: "If the Defending Pokémon has Team Magma in its name, the Defending Pokémon is now Confused."
+				de: "Wenn das Verteidigende Pokémon „Team Magma“ im Namen hat, ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 20,
 
@@ -53,12 +51,12 @@ const card: Card = {
 			name: {
 				en: "Chaos Crush",
 				fr: "Écrasement chaotique",
-				de: "Chaos Crush"
+				de: "Chaosbruch"
 			},
 			effect: {
 				en: "If the Defending Pokémon is Confused, discard an Energy card attached to the Defending Pokémon.",
 				fr: "Si le Pokémon Défenseur est Confus, défaussez une carte Énergie attachée au Pokémon Défenseur.",
-				de: "If the Defending Pokémon is Confused, discard an Energy card attached to the Defending Pokémon."
+				de: "Wenn das Verteidigende Pokémon verwirrt ist, lege eine an das Verteidigende Pokémon angelegte Energiekarte auf den Ablagestapel."
 			},
 			damage: 50,
 
@@ -79,22 +77,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276006,
-		tcgplayer: 89791
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275806,
+				tcgplayer: 89791
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275806,
+				tcgplayer: 89791
+			}
+		},
+	],
+
 }
 
 export default card

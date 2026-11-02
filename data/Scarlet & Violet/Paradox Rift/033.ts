@@ -35,18 +35,42 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers.",
+		de: "Mit seiner Rückenflosse saugt es sich an der Unterseite eines Mantax’ fest und lebt von dessen Speiseresten."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740509,
+				tcgplayer: 523642,
+				cardtrader: 265177
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740509,
+				tcgplayer: 523642,
+				cardtrader: 265177
+			}
+		},
+	],
 
 	illustrator: "Midori Harada",
 
-	thirdParty: {
-		cardmarket: 740509
-	}
+	
 }
 
 export default card

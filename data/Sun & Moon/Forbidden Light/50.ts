@@ -62,6 +62,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It flashes the light-emitting spots on its body, which drains its opponent's will to fight. It takes the opportunity to scuttle away and hide.",
+		de: "Mit den blinkenden Punkten auf seinem Körper raubt es Gegnern den Kampfeswillen. Es nutzt diese Gelegenheit, um sich zu verstecken."
+	},
+
 	thirdParty: {
 		cardmarket: 355569,
 		tcgplayer: 166464

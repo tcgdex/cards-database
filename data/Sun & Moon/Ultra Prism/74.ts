@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Sneasel",
 		fr: "Farfuret",
+		de: "Sniebel"
 	},
 
 	stage: "Stage1",
@@ -97,6 +98,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "They dwell in cold places. This Pokémon's main food source in Alola is Vulpix and Sandshrew, which they carefully divide among their group.",
+		de: "Sie leben in kalten Gebieten und ernähren sich in Alola hauptsächlich von Vulpix und Sandan. Ihre Beute teilen sie gerecht untereinander auf."
+	},
 
 	thirdParty: {
 		cardmarket: 316002,

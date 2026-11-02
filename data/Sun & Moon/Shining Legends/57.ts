@@ -87,6 +87,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "According to the legends of Sinnoh, this Pokémon emerged from an egg and shaped all there is in this world.",
+		de: "In den Legenden Sinnohs heißt es, es sei aus einem Ei geschlüpft und hätte die gesamte Welt geschaffen."
+	},
+
 	thirdParty: {
 		cardmarket: 302194,
 		tcgplayer: 146720

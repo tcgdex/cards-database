@@ -80,23 +80,30 @@ const card: Card = {
 	types: ["Grass"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still."
+		en: "It stores berries inside its shell. To avoid attacks, it hides beneath rocks and remains completely still.",
+		de: "Es sammelt Beeren in seiner Schale. Um sich vor Attacken zu schützen, versteckt es sich unter Steinen und verharrt dort regungslos."
 	},
 
-	thirdParty: {
-		cardmarket: 457403,
-		tcgplayer: 213075
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457403,
+				tcgplayer: 213075
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457403,
+				tcgplayer: 213075
+			}
+		},
+	],
 }
 
 export default card

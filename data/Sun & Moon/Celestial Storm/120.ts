@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It shows its cute side by chasing its own tail until it gets dizzy.",
+		de: "Es zeigt gerne seine niedliche Seite, indem es seinen eigenen Schweif jagt, bis ihm schwindlig wird."
+	},
+
 	thirdParty: {
 		cardmarket: 361359,
 		tcgplayer: 170978

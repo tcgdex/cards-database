@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wimpod",
-		fr: "Sovkipou"
+		fr: "Sovkipou",
+		de: "Reißlaus"
 	},
 
 	suffix: "GX",
@@ -94,7 +95,7 @@ const card: Card = {
 				es: "Corte Transversal GX",
 				it: "Sferzata Incrociata GX",
 				pt: "Corte Transversal GX",
-				de: "Quertreiber GX"
+				de: "Quertreiber-GX"
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon. (You can’t use more than 1 GX attack in a game.)",
@@ -116,7 +117,17 @@ const card: Card = {
 		},
 	],
 
-	retreat: 3
+	retreat: 3,
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 313450,
+				tcgplayer: 148430
+			}
+		}
+	],
 }
 
 export default card

@@ -24,6 +24,22 @@ const card: Card = {
 		'zh-cn': "附有這張卡的「未來」寶可夢【撤退】所需的能量全部消除，那隻寶可夢使用的招式，對對手的戰鬥寶可夢造成的傷害「+20」點。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803271,
+				tcgplayer: 602593,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602594,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "G"
 }

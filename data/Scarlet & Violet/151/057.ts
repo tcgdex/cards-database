@@ -74,18 +74,42 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It becomes wildly furious if it even senses someone looking at it. It chases anyone that meets its glare.",
+		de: "Spürt Rasaff, dass jemand es anblickt, wird es rasend vor Wut. Es verfolgt jeden, der es wagt, seinen Blick zu erwidern."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733652,
+				tcgplayer: 516246,
+				cardtrader: 261208
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733652,
+				tcgplayer: 516246,
+				cardtrader: 261208
+			}
+		},
+	],
 
 	illustrator: "Mina Nakai",
 
-	thirdParty: {
-		cardmarket: 733652
-	}
+	
 }
 
 export default card

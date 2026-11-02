@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Bunnelby",
 		fr: "Sapereau",
+		de: "Scoppel"
 	},
 
 	stage: "Stage1",
@@ -95,6 +96,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "As powerful as an excavator, its ears can reduce dense bedrock to rubble. When it's finished digging, it lounges lazily.",
+		de: "Mit Ohren so mächtig wie ein Bagger kann es selbst das härteste Gestein zertrümmern. Ist es fertig mit Graben, lümmelt es herum."
+	},
 
 	thirdParty: {
 		cardmarket: 355611,

@@ -22,21 +22,34 @@ const card: Card = {
 		es: "Lanza 2 monedas. Si sale cara en ambas, busca en tu baraja 1 carta y ponla en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Lancia due volte una moneta. Se esce entrambe le volte testa, cerca nel tuo mazzo una carta e aggiungila a quelle che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Jogue 2 moedas. Se as duas saírem cara, procure por uma carta no seu baralho e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Wirf 2 Münzen. Zeigen beide Münzen Kopf, durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Wirf 2 Münzen. Zeigen beide Münzen Kopf, durchsuche dein Deck nach 1 Karte und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715653,
+				tcgplayer: 497550,
+				cardtrader: 248833
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715653,
+				tcgplayer: 497550,
+				cardtrader: 248833
+			}
+		},
+	],
 
 	illustrator: "inose yukie",
 
-	thirdParty: {
-		cardmarket: 715653
-	}
+	
 }
 
 export default card

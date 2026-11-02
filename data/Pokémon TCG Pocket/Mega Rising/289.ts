@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Victreebel"
+		en: "Victreebel",
+		fr: "Empiflor"
 	},
 
 	illustrator: "MAHOU",
@@ -17,11 +18,13 @@ const card: Card = {
 	types: ["Grass"],
 
 	evolveFrom: {
-		en: "Weepinbell"
+		en: "Weepinbell",
+		fr: "Boustiflor"
 	},
 
 	description: {
-		en: "Said to live in huge colonies deep in jungles,\nalthough no one has ever returned from there."
+		en: "Said to live in huge colonies deep in jungles,\nalthough no one has ever returned from there.",
+		fr: "Il vit en colonie dans la jungle mais personne n'en est jamais revenu vivant."
 	},
 
 	stage: "Stage2",
@@ -30,17 +33,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Fragrance Trap"
+			en: "Fragrance Trap",
+			fr: "Piège Parfumé"
 		},
 
 		effect: {
-			en: "If this Pokémon is in the Active Spot, once during your turn, you may switch in 1 of your opponent's Benched Basic Pokémon to the Active Spot."
+			en: "If this Pokémon is in the Active Spot, once during your turn, you may switch in 1 of your opponent's Benched Basic Pokémon to the Active Spot.",
+			fr: "Si ce Pokémon est sur le Poste Actif, une fois pendant votre tour, vous pouvez échanger l'un des Pokémon de base sur le Banc de votre adversaire contre son Pokémon Actif."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Vine Whip"
+			en: "Vine Whip",
+			fr: "Fouet Lianes"
 		},
 
 		damage: 60,

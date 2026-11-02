@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Pangoro"
 	},
 
+	evolveFrom: {
+		en: "Pancham",
+		fr: "Pandespiègle",
+		es: "Pancham",
+		'es-mx': "Pancham",
+		de: "Pam-Pam",
+		it: "Pancham",
+		pt: "Pancham",
+	},
+
 	illustrator: "takashi shiraishi",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [675],
 	hp: 140,
 	types: ["Darkness"],
 	stage: "Stage1",
@@ -61,13 +72,40 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675952,
-		cardmarket: 869751
-	}
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869751,
+			tcgplayer: 675952
+		}
+	},
+	{
+		type: "reverse",
+		foil: "loveball",
+		thirdParty: {
+			cardmarket: 870356,
+			tcgplayer: 676962
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870355,
+			tcgplayer: 677102
+		}
+	},
+],
 }
 
 export default card

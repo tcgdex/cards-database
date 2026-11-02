@@ -92,7 +92,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Explosive substances coat the shell on its back. Enemies that dare attack it will be blown away by an immense detonation."
+		en: "Explosive substances coat the shell on its back. Enemies that dare attack it will be blown away by an immense detonation.",
+		de: "Sein Panzer ist mit einer explosiven Schicht überzogen. Gegnerische Angriffe quittiert es mit gewaltigen Explosionen."
 	},
 
 	thirdParty: {

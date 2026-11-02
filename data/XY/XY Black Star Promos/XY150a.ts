@@ -7,13 +7,16 @@ const card: Card = {
 		fr: "Yveltal-EX"
 	},
 	illustrator: "Eske Yoshinob",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
 	dexId: [
 		717,
 	],
+
+	cameoDexIds: [716],
+
 	hp: 170,
 	types: [
 		"Darkness",
@@ -69,6 +72,8 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 2,
+
 
 
 

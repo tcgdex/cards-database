@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 60,
 	types: ["Grass"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Nagomi Nijo",
 
 	description: {
-		en: "It's good at finding berries and gathers them from all over. It's kind enough to share them with friends."
+		en: "It's good at finding berries and gathers them from all over. It's kind enough to share them with friends.",
+		de: "Ein nettes Kerlchen, das so talentiert darin ist, Beeren aufzuspüren, dass es sie mit all seinen Kameraden teilt."
 	},
 
 	attacks: [{
@@ -42,17 +49,23 @@ const card: Card = {
 		damage: 20
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582035,
-		tcgplayer: 253077
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582035,
+				tcgplayer: 253077
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582035,
+				tcgplayer: 253077
+			}
+		},
+	],
 }
 
 export default card

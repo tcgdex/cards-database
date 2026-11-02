@@ -3,7 +3,7 @@ import Set from '../Arceus'
 
 const card: Card = {
 	name: {
-		en: "Gengar LV. X",
+		en: "Gengar LV.X",
 		de: "Gengar"
 	},
 	illustrator: "Shizurow",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		94,
-	],
+	dexId: [94],
 	
 	hp: 140,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "LEVEL-UP",
@@ -31,9 +29,9 @@ const card: Card = {
 				de: "Level-Down"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may choose 1 of your opponent's Pokémon LV.X. Remove the Level-Up card from that Pokémon and have your opponent shuffle that card into his or her deck. This power can't be used if Gengar is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may choose 1 of your opponent's Pokémon LV.X. Remove the Level-Up card from that Pokémon and have your opponent shuffle that card into his or her deck. The power can't be used if Gengar is affected by a Special Condition.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Pokémon LV.X deines Gegners wählen. Entferne die Level-Up-Karte von diesem Pokémon, danach mischt dein Gegner sie in sein Deck. Diese Poké-Power kann nicht benutzt werden, wenn Gengar von einem speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -69,9 +67,13 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85682
+			}
+		},
+	],
+	retreat: 0
 }
 
 export default card

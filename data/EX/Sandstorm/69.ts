@@ -12,15 +12,14 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [178],
 
-	dexId: [
-		177,
-	],
+	dexId: [177],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -33,7 +32,7 @@ const card: Card = {
 			name: {
 				en: "Peck",
 				fr: "Picpic",
-				de: "Peck"
+				de: "Schnabel"
 			},
 
 			damage: 10,
@@ -46,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Soothing Wave",
 				fr: "Vague relaxante",
-				de: "Soothing Wave"
+				de: "Beruhigende Welle"
 			},
 			effect: {
 				en: "Each Defending Pokémon is now Asleep.",
 				fr: "Chaque Pokémon Défenseur est maintenant Endormi.",
-				de: "Each Defending Pokémon is now Asleep."
+				de: "Alle Verteidigenden Pokémon schlafen jetzt."
 			},
 
 		},
@@ -67,23 +66,31 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275846,
-		tcgplayer: 87682
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275846,
+				tcgplayer: 87682
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275846,
+				tcgplayer: 87682
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 125152
+			}
 		},
-	]
+	],
+
 }
 
 export default card

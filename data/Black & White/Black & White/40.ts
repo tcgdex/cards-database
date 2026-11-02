@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Rear Kick",
 				fr: "Ruade",
+				de: "Rückwärtskick"
 			},
 
 			damage: 20,
@@ -53,10 +54,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279778,
-		tcgplayer: 83927
-	}
+	description: {
+		en: "When thunderclouds cover the sky, it will appear. It can catch lightning with its mane and store the electricity.",
+		de: "Es erscheint, wenn Gewitterwolken den Himmel verdunkeln. Es fängt mit seiner Mähne Blitze und hortet ihre Energie."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279778,
+				tcgplayer: 83927
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279778,
+				tcgplayer: 83927
+			}
+		},
+	],
 }
 
 export default card

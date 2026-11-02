@@ -44,23 +44,34 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794449,
+				tcgplayer: 589956
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794449,
+				tcgplayer: 589956
+			}
+		},
 	],
 
 	illustrator: "Eri Kamei",
 
-	thirdParty: {
-		cardmarket: 794449
-	}
 }
 
 export default card

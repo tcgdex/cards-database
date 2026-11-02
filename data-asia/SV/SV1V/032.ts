@@ -2,6 +2,7 @@ import { Card } from "../../../interfaces"
 import Set from "../SV1V"
 
 const card: Card = {
+	evolveFrom: { ja: "エレズン" },
 	set: Set,
 
 	name: {
@@ -67,6 +68,17 @@ const card: Card = {
 		type: "Fighting",
 		value: "×2"
 	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardtrader: 235609,
+				cardmarket: 693107,
+				tcgplayer: 568258,
+			},
+		},
+	],
 
 	retreat: 2,
 	regulationMark: "G"

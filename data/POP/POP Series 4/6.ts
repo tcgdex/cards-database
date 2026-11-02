@@ -4,7 +4,8 @@ import Set from '../POP Series 4'
 const card: Card = {
 	name: {
 		en: "Combusken",
-		fr: "Galifeu"
+		fr: "Galifeu",
+		de: "Jungglut"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -12,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		256,
-	],
+	dexId: [256],
 
 	hp: 70,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Torchic",
-		fr: "Poussifeu"
+		fr: "Poussifeu",
+		de: "Flemmli"
 	},
 
 	stage: "Stage1",
@@ -36,11 +36,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Smokescreen",
-				fr: "Brouillard"
+				fr: "Brouillard",
+				de: "Rauchwolke"
 			},
 			effect: {
-				en: "If the Defending Pokémon tries to attack during your opponent’s next turn, your opponent flips a coin. If tails, that attack does nothing.",
-				fr: "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est pile, cette attaque est sans effet."
+				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				fr: "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est pile, cette attaque est sans effet.",
+				de: "Falls das Verteidigende Pokémon während des nächsten Zuges deines Gegners angreift, wirft dein Gegner 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 10,
 
@@ -53,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sky Uppercut",
-				fr: "Stratopercut"
+				fr: "Stratopercut",
+				de: "Himmelhieb"
 			},
 			effect: {
-				en: "This attack’s damage isn’t affected by Resistance.",
-				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+				en: "This attack's damage isn't affected by Resistance.",
+				fr: "Les dégâts de cette attaque ne sont pas affectés par la Résistance.",
+				de: "Der Schadens dieses Angriffs wird durch die Resistenz des Verteidigenden Pokémon nicht verringert."
 			},
 			damage: 40,
 
@@ -66,23 +70,29 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Water"
+			type: "Water",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84409,
+				cardmarket: 277471
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 84409,
+				cardmarket: 277471
+			},
 		},
 	],
 
-	retreat: 1,
-
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
-	thirdParty: {
-		cardmarket: 277471,
-		tcgplayer: 84409
-	}
 }
 
 export default card

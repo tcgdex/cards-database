@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		203,
-	],
+	dexId: [203],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -68,22 +66,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent and bite."
+		en: "Its tail has a small brain of its own. Beware! If you get close, it may react to your scent and bite.",
+		de: "Sein Schweif hat ein eigenes Gehirn. Achtung! Kommst du ihm zu nahe, kann es dich riechen und beißt."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85732,
+				cardmarket: 279036
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85732,
+				cardmarket: 279036
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279036,
-		tcgplayer: 85732
-	}
 }
 
 export default card

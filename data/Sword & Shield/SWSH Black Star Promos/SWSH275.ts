@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Manaphy"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Water"],
@@ -64,16 +64,28 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
 	description: {
 		en: "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon."
 	},
-
-	thirdParty: {
-		cardmarket: 684387
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 684387,
+				tcgplayer: 454226
+			}
+		},
+	],
 }
 
 export default card

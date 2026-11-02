@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hitoshi Ariga",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for a Water Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Cherchez un Pokémon  dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck."
+				fr: "Cherchez un Pokémon {W} dans votre deck, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck."
 			},
 
 		},
@@ -63,6 +63,12 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon.",
+	},
 
 	thirdParty: {
 		cardmarket: 291576

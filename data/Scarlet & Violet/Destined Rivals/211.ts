@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "N-DESIGN Inc.",
 
 	rarity: "Ultra Rare",
@@ -74,18 +75,24 @@ const card: Card = {
 		damage: "120+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826085,
+				tcgplayer: 633011
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826085
-	}
 }
 
 export default card

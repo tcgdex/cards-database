@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon 5 cartas de Energía Básica de tu pila de descartes en tu baraja y barájalas todas.",
 		it: "Rimischia cinque carte Energia base dalla tua pila degli scarti nel tuo mazzo.",
 		pt: "Embaralhe 5 cartas de Energia básica da sua pilha de descarte no seu baralho.",
-		de: "Mische 5 Basis-Energiekarten aus deinem Ablagestapel in dein Deck."
+		de: "Mische 5 Basis-Energiekarten aus deinem Ablagestapel in dein Deck. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

@@ -4,6 +4,7 @@ import Set from "../Silver Tempest"
 const card: Card = {
 	dexId: [702],
 	set: Set,
+	cameoDexIds: [777],
 
 	name: {
 		en: "Dedenne",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Dedenne"
 	},
 
+	illustrator: "Shiburingaru",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 60,
@@ -57,20 +59,37 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "A Dedenne's whiskers pick up electrical waves other Dedenne send out. These Pokémon share locations of food or electricity with one another.",
+		de: "Mit den Schnurrhaaren empfangen sie elektrische Wellen von Artgenossen. So teilen sie einander mit, wo Futter und Elektrizität zu finden sind."
 	},
 
-	thirdParty: {
-		cardmarket: 682132,
-		tcgplayer: 451739
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682132,
+				tcgplayer: 451739
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682132,
+				tcgplayer: 451739
+			}
+		},
+	],
 }
 
 export default card

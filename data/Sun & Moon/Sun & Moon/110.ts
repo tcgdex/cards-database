@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Yungoos",
 		fr: "Manglouton",
+		de: "Mangunior"
 	},
 
 	suffix: "GX",
@@ -84,7 +85,7 @@ const card: Card = {
 				es: "Oportunidad Detective GX",
 				it: "Occasione Investigativa-GX",
 				pt: "Sorte do Detetive GX",
-				de: "Manguspektorfall GX"
+				de: "Manguspektorfall-GX"
 			},
 			effect: {
 				en: "This attack does 50 more damage times the amount of Energy attached to your opponent’s Active Pokémon. (You can’t use more than 1 GX attack in a game.)",

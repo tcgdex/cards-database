@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Honweisel"
 	},
 
+	illustrator: "Yuya Oka",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -67,20 +68,37 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It skillfully commands its grubs in battles with its enemies. The grubs are willing to risk their lives to defend Vespiquen.",
+		de: "Es hat die Kontrolle über seine Nachkommen. Diese würden im Kampf ihr Leben aufs Spiel setzen, um es vor Feinden zu schützen."
 	},
 
-	thirdParty: {
-		cardmarket: 658504,
-		tcgplayer: 272212
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658504,
+				tcgplayer: 272212
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658504,
+				tcgplayer: 272212
+			}
+		},
+	],
 }
 
 export default card

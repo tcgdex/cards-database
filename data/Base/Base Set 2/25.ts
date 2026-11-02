@@ -63,15 +63,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273948,
-		tcgplayer: 42470
+
+	description: {
+		en: "It stores electrical energy under very high pressure. It often explodes with little or no provocation.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273948,
+				tcgplayer: 42470
+			}
 		}
 	]
 }

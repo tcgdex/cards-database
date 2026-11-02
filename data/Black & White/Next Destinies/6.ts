@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Seed Bomb",
 				fr: "Canon Graine",
+				de: "Samenbomben"
 			},
 
 			damage: 30,
@@ -60,10 +61,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280231,
-		tcgplayer: 87936
-	}
+	description: {
+		en: "This Pokémon dwells deep in the forest. Eating a leaf from its head whisks weariness away as if by magic.",
+		de: "Es lebt tief im Wald. Beißt man in die Kräuter auf seinem Kopf, fühlt man sich auf wundersame Weise erfrischt."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280231,
+				tcgplayer: 87936
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280231,
+				tcgplayer: 87936
+			}
+		},
+	],
 }
 
 export default card

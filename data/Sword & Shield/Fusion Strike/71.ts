@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 80,
 	types: ["Water"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Atsuko Nishida",
 
 	description: {
-		en: "The colder they get, the more energetic they are. They freeze their breath to make snowballs, using them as ammo for playful snowball fights."
+		en: "The colder they get, the more energetic they are. They freeze their breath to make snowballs, using them as ammo for playful snowball fights.",
+		de: "Je kälter ihr Körper ist, desto wohler fühlen sie sich. Sie lassen ihren Atem zu Schneebällen gefrieren, um sich damit gegenseitig abzuwerfen."
 	},
 
 	attacks: [{
@@ -51,17 +58,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582205,
-		tcgplayer: 253218
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582205,
+				tcgplayer: 253218
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582205,
+				tcgplayer: 253218
+			}
+		},
+	],
 }
 
 export default card

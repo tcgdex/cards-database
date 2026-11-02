@@ -56,6 +56,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Their coloring changes according to the season and can be slightly affected by the temperature and humidity as well.",
+		de: "Unabhängig von der Jahreszeit ändert sich seine Farbe auch bei wechselnder Temperatur oder Luftfeuchtigkeit leicht."
+	},
+
 	thirdParty: {
 		cardmarket: 407729,
 		tcgplayer: 201167

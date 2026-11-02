@@ -19,6 +19,16 @@ const card: Card = {
 		ja: "このカードは、自分の手札がこのカード1枚だけのときにしか使えない。\n\nおたがいのベンチポケモンの数ぶん、自分の山札を引く。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 680233,
+				tcgplayer: 570152,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "F",
 	rarity: "Uncommon"

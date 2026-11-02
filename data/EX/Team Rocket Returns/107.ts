@@ -3,8 +3,8 @@ import Set from '../Team Rocket Returns'
 
 const card: Card = {
 	name: {
-		en: "Mudkip Star",
-		de: "Hydropi *"
+		en: "Mudkip ☆",
+		de: "Hydropi ☆"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -67,15 +67,16 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 87616
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87616
+			},
 		},
-	]
+	],
+
 }
 
 export default card

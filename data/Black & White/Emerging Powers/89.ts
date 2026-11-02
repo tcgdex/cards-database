@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Energy Wheel",
 				fr: "Roue d'Énergie",
+				de: "Energierad"
 			},
 			effect: {
 				en: "Move an Energy from 1 of your Benched Pokémon to this Pokémon.",
 				fr: "Déplacez une Énergie de l'un de vos Pokémon de Banc vers ce Pokémon.",
+				de: "Verschiebe 1 an 1 Pokémon auf deiner Bank angelegte Energie auf dieses Pokémon."
 			},
 
 		},
@@ -52,10 +54,12 @@ const card: Card = {
 			name: {
 				en: "Hurricane",
 				fr: "Vent Violent",
+				de: "Orkan"
 			},
 			effect: {
 				en: "Move a basic Energy from this Pokémon to 1 of your Benched Pokémon.",
 				fr: "Déplacez une Énergie de base de ce Pokémon vers 1 de vos Pokémon de Banc.",
+				de: "Verschiebe 1 an dieses Pokémon angelegte Basis-Energie auf 1 Pokémon auf deiner Bank."
 			},
 			damage: 80,
 
@@ -78,10 +82,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280054,
-		tcgplayer: 89974
-	}
+	description: {
+		en: "The lower half of its body is wrapped in a cloud of energy. It zooms through the sky at 200 mph.",
+		de: "Sein Unterkörper ist in eine wolkenartige Energieschicht gehüllt. Es jagt mit bis zu 300 km/h durch die Lüfte."
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280054,
+				tcgplayer: 89974
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280054,
+				tcgplayer: 89974
+			}
+		},
+	],
 }
 
 export default card

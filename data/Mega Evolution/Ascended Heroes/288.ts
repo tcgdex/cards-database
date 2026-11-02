@@ -14,9 +14,11 @@ const card: Card = {
 		pt: "Fezandipiti ex"
 	},
 
+	suffix: "ex",
 	illustrator: "SIE NANAHARA",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
+	dexId: [1016],
 	hp: 210,
 	types: ["Darkness"],
 	stage: "Basic",
@@ -69,13 +71,24 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 676100,
-		cardmarket: 869899
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869899,
+				tcgplayer: 676100
+			}
+		}
+	],
 }
 
 export default card

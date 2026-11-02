@@ -43,6 +43,16 @@ const card: Card = {
 		damage: 170
 	}],
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 807696,
+				tcgplayer: 614985,
+			},
+		},
+	],
+
 	retreat: 2
 }
 

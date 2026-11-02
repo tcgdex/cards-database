@@ -8,7 +8,7 @@ const set: Set = {
 		de: "Paldean Wonders",
 		en: "Paldean Wonders",
 		es: "Paldean Wonders",
-		fr: "Paldean Wonders",
+		fr: "Merveilles de Paldea",
 		it: "Paldean Wonders",
 		'pt-br': "Paldean Wonders",
 		ko: "Paldean Wonders",

@@ -56,6 +56,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When night falls, their pink patterns begin to shine. They're popular with divers, so there are resorts that feed them to keep them close.",
+		de: "Seine rosafarbene Musterung leuchtet in der Nacht. Wegen seiner Popularität unter Tauchern ist es ein gern gesehener Gast in Feriengebieten."
+	},
+
 	thirdParty: {
 		cardmarket: 388022,
 		tcgplayer: 194960

@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [363],
 
 	dexId: [
 		393,
@@ -72,6 +73,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
+		de: "Es ist sehr stolz und nimmt daher kein Futter von anderen an. Seine dicken Daunen schützen vor Kälte."
+	},
 
 	thirdParty: {
 		cardmarket: 315962,

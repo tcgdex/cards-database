@@ -81,23 +81,30 @@ const card: Card = {
 	types: ["Colorless"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It stashes berries in its tail—so many berries that they fall out constantly. But this Pokémon is a bit slow-witted, so it doesn't notice the loss."
+		en: "It stashes berries in its tail—so many berries that they fall out constantly. But this Pokémon is a bit slow-witted, so it doesn't notice the loss.",
+		de: "Es hortet in seinem Schweif Beeren. Versucht es, zu viele unterzubringen, fallen sie heraus. Da es jedoch nicht allzu clever ist, bemerkt es das nicht."
 	},
 
-	thirdParty: {
-		cardmarket: 458158,
-		tcgplayer: 213252
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458158,
+				tcgplayer: 213252
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458158,
+				tcgplayer: 213252
+			}
+		},
+	],
 }
 
 export default card

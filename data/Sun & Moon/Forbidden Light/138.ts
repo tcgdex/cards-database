@@ -90,7 +90,7 @@ const card: Card = {
 				es: "Intemporal GX",
 				it: "Sospensione Temporale-GX",
 				pt: "Para-tempo GX",
-				de: "Zeitlos GX"
+				de: "Zeitlos-GX"
 			},
 			effect: {
 				en: "Take another turn after this one. (Skip the between-turns step.) (You can’t use more than 1 GX attack in a game.)",

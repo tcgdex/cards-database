@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Rockruff",
 		fr: "Rocabot",
+		de: "Wuffels"
 	},
 
 	suffix: "GX",
@@ -85,7 +86,7 @@ const card: Card = {
 				es: "Pícaro Peligroso GX",
 				it: "Pericolo Ferale-GX",
 				pt: "Trapaceiro Perigoso GX",
-				de: "Gaunergefahr GX"
+				de: "Gaunergefahr-GX"
 			},
 			effect: {
 				en: "This attack does 50 damage for each of your opponent’s Benched Pokémon. (You can’t use more than 1 GX attack in a game.)",

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Carracosta"
+		en: "Carracosta",
+		fr: "Mégapagos"
 	},
 
 	illustrator: "match",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Tirtouga"
+		en: "Tirtouga",
+		fr: "Carapagos"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Blocking Shell"
+			en: "Blocking Shell",
+			fr: "Carapace Bloquante"
 		},
 
 		damage: 100,
 		cost: ["Water", "Water", "Colorless"],
 
 		effect: {
-			en: "Prevent all damage done to this Pokémon by attacks from Basic Pokémon during your opponent's next turn."
+			en: "Prevent all damage done to this Pokémon by attacks from Basic Pokémon during your opponent's next turn.",
+			fr: "Évitez tous les dégâts infligés à ce Pokémon par les attaques des Pokémon de base pendant le prochain tour de votre adversaire."
 		}
 	}],
 

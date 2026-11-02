@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Smash Kick",
 				fr: "Coud'Pattes",
+				de: "Schmetterkick"
 			},
 
 			damage: 10,
@@ -52,10 +53,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280643,
-		tcgplayer: 83932
-	}
+	description: {
+		en: "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate.",
+		de: "Um mit Artgenossen zu kommunizieren, nutzt es das Aufblitzen seiner Mähne beim Entladen von Strom als Morsecode."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280643,
+				tcgplayer: 83932
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280643,
+				tcgplayer: 83932
+			}
+		},
+	],
 }
 
 export default card

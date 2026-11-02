@@ -7,13 +7,32 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	category: "Pokemon",
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	regulationMark: "E",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 576504,
+				tcgplayer: 247297
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 697097,
+				tcgplayer: 476009
+			}
+		},
+	],
 
 	name: {
 		en: "Jolteon V",
@@ -24,7 +43,7 @@ const card: Card = {
 		it: "Jolteon V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	hp: 190,
 	types: ["Lightning"],
 
@@ -71,14 +90,8 @@ const card: Card = {
 			it: "Lancia quattro volte una moneta. Questo attacco infligge 60 danni ogni volta che esce testa."
 		}
 	}],
-
-	regulationMark: "E",
 	suffix: "V",
-	retreat: 0,
-
-	thirdParty: {
-		cardmarket: 576504
-	}
+	retreat: 0
 }
 
 export default card

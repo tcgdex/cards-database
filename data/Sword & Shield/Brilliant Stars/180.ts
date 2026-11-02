@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Roxanas Backup"
 	},
 
+	illustrator: "kirisAki",
 	rarity: "Secret Rare",
 	category: "Trainer",
 
@@ -28,17 +29,17 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608726,
-		tcgplayer: 263900
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 608726,
+				tcgplayer: 263900
+			}
+		},
+	],
 }
 
 export default card

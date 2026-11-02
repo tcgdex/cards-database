@@ -22,7 +22,9 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Flabébé"
+		en: "Flabébé",
+		fr: "Flabébé",
+		de: "Flabébé"
 	},
 
 	description: {
@@ -30,7 +32,7 @@ const card: Card = {
 		fr: "Ce Pokémon parvient à canaliser le peu d'énergie\nencore présent dans les fleurs fanées pour leur\nredonner du tonus. Il tient une fleur rouge.",
 		es: "Puede extraer la fuerza que les resta\na las flores marchitas para reanimarlas.\nLleva consigo una flor de color rojo.",
 		it: "Riesce a tirare fuori l'energia rimasta\nnei fiori ormai secchi, rivitalizzandoli.\nQuesto Floette stringe un fiore rosso.",
-		de: "Es entlockt verwelkten Blumen ihre letzte Kraft\nund nutzt diese, um sie wieder aufzupäppeln.\nDieses Exemplar trägt eine rote Blume.",
+		de: "Es entlockt verwelkten Blumen ihre letzte Kraft und nutzt diese, um sie wieder aufzupäppeln. Dieses Exemplar trägt eine rote Blume.",
 		'pt-br': "Este Pokémon revitaliza o resquício de força\nem flores murchas para torná-las saudáveis de novo.\nEle segura uma flor vermelha.",
 		ko: "시든 꽃의 남은 힘을\n끌어내어 건강해지게 한다.\n빨간 꽃을 들고 있는 플라엣테."
 	},

@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Neutralisierendes Parfüm"
 	},
 
+	illustrator: "Studio Bora Inc.",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -22,23 +23,29 @@ const card: Card = {
 		es: "Hasta el final de tu turno, el Pokémon Activo de tu rival no tiene ninguna habilidad. (Esto incluye Pokémon que entran en juego durante ese turno).",
 		it: "Fino alla fine del tuo turno, il Pokémon attivo del tuo avversario non ha abilità, inclusi i Pokémon entrati in gioco durante quel turno.",
 		pt: "Até o final do seu turno, o Pokémon Ativo do seu oponente não terá Habilidades (isto inclui Pokémon que entrarem em jogo durante aquele turno).",
-		de: "Bis zum Ende deines Zuges hat das Aktive Pokémon deines Gegners keine Fähigkeiten. (Dies schließt Pokémon ein, die während jenes Zuges ins Spiel gebracht werden.)"
+		de: "Bis zum Ende deines Zuges hat das Aktive Pokémon deines Gegners keine Fähigkeiten. (Dies schließt Pokémon ein, die während jenes Zuges ins Spiel gebracht werden.) Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658797,
-		tcgplayer: 272388
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658797,
+				tcgplayer: 272388
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658797,
+				tcgplayer: 272388
+			}
+		},
+	],
 }
 
 export default card

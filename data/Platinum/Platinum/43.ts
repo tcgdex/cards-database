@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		455,
-	],
+	dexId: [455],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Stretch Vine",
 				fr: "Longue Liane",
-				de: "Stretch Vine"
+				de: "Streckranke"
 			},
 			effect: {
 				en: "Choose 2 of your opponent's Benched Pokémon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Choisissez 2 des Pokémon de Banc de votre adversaire. Cette attaque inflige 10 dégâts à chacun. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Choose 2 of your opponent's benched Pokémon. This attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched pokémon.)"
+				de: "Wähle 2 Pokémon auf der Bank deines Gegners. Dieser Angriff fügt den gewählten Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -50,12 +48,12 @@ const card: Card = {
 			name: {
 				en: "Absorb",
 				fr: "Vol-vie",
-				de: "Absorb"
+				de: "Absorber"
 			},
 			effect: {
 				en: "Remove 2 damage counters from Carnivine.",
 				fr: "Retirez à Vortente 2 marqueurs de dégât.",
-				de: "Remove 2 damage counters from Carnivine."
+				de: "Entferne 2 Schadensmarken von Venuflibis."
 			},
 			damage: 20,
 
@@ -68,12 +66,12 @@ const card: Card = {
 			name: {
 				en: "Vine Extract",
 				fr: "Extrait de plante",
-				de: "Vine Extrakt"
+				de: "Rankenextrakt"
 			},
 			effect: {
 				en: "If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Burned and Poisoned.",
 				fr: "Si le Pokémon Défenseur possède déjà des marqueurs de dégât, il est maintenant Brûlé et Empoisonné.",
-				de: "If the Defending Pokémon already has any damage counters on it, the Defending Pokémon is now Burned and poisoned."
+				de: "Wenn auf dem Verteidigenden Pokémon mindestens 1 Schadensmarke liegt, ist das Verteidigende Pokémon jetzt verbrannt und vergiftet."
 			},
 			damage: 30,
 
@@ -96,19 +94,23 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278464,
-		tcgplayer: 84102
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 84102,
+				cardmarket: 278464
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278464,
+				tcgplayer: 84102
+			}
 		}
-	]
+	],
+
 }
 
 export default card

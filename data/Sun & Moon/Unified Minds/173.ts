@@ -52,6 +52,11 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It hides food under its long fur, but it sometimes forgets about it and causes a stinky disturbance.",
+		de: "Unter seinem langen Fell versteckt es Nahrung. Aber es vergisst, dass es sie dort versteckt hat und regt sich dann über den Gestank auf."
+	},
+
 	thirdParty: {
 		cardmarket: 388652,
 		tcgplayer: 195173

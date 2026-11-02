@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Altaria",
@@ -76,15 +70,28 @@ const card: Card = {
 	},
 
 	description: {
-		en: "On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano."
+		en: "On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano.",
+		de: "Bei gutem Wetter mischt es sich unter die Wolken und genießt die Freiheit. Es hat eine entzückende Sopranstimme."
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574154,
-		tcgplayer: 246906
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574154,
+				tcgplayer: 246906
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574154,
+				tcgplayer: 246906
+			}
+		},
+	],
 }
 
 export default card

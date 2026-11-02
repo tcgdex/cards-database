@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Lumineon V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Water"],
@@ -67,12 +67,23 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
-
-	thirdParty: {
-		cardmarket: 665991
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 665991,
+				tcgplayer: 279141
+			}
+		},
+	],
 }
 
 export default card

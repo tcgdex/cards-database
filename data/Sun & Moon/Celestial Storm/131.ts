@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Busca en tu baraja 1 Pokémon del mismo tipo que 1 de los Pokémon en juego de tu rival, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Cerca nel tuo mazzo un Pokémon dello stesso tipo di uno dei Pokémon in gioco del tuo avversario, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Procure por 1 Pokémon no seu baralho que seja do mesmo tipo de 1 dos Pokémon do seu oponente em jogo, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Durchsuche dein Deck nach 1 Pokémon, das denselben Typ wie 1 Pokémon deines Gegners im Spiel hat, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+		de: "Durchsuche dein Deck nach 1 Pokémon, das denselben Typ wie 1 Pokémon deines Gegners im Spiel hat, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

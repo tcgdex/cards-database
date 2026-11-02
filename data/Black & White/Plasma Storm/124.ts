@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Los Pokémon que tengan alguna Energía Plasma unida a ellos (tanto tuyos como de tu rival) no tendrán ninguna Debilidad.",
 		it: "I Pokémon che hanno delle Energie Plasma assegnate, sia tuoi che del tuo avversario, non hanno debolezza.",
 		pt: "Qualquer Pokémon que possuir alguma Energia de Plasma ligada a ele (seu e do seu oponente) não terá Fraquezas.",
-		de: "Jedes Pokémon (deine und die deines Gegners), an dem Plasma-Energie angelegt ist, hat keine Schwäche."
+		de: "Jedes Pokémon (deine und die deines Gegners), an dem Plasma-Energie angelegt ist, hat keine Schwäche. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

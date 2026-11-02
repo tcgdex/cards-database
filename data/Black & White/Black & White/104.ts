@@ -22,15 +22,27 @@ const card: Card = {
 		es: "Cambia tu Pokémon Activo por 1 de tus Pokémon en Banca.",
 		it: "Scambia il tuo Pokémon attivo con uno dei tuoi Pokémon in panchina.",
 		pt: "Troque seu Pokémon Ativo por 1 dos seus Pokémon no Banco.",
-		de: "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus."
+		de: "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 
-	thirdParty: {
-		cardmarket: 279842,
-		tcgplayer: 89721
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279842,
+				tcgplayer: 89721
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279842,
+				tcgplayer: 89721
+			}
+		},
+	],
 }
 
 export default card

@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Silvarro GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dartrix",
 		fr: "Efflèche",
+		de: "Arboretoss"
 	},
 
 	suffix: "GX",
@@ -100,8 +101,15 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 298915,
+				tcgplayer: 133821
+			}
+		}
+	],
 }
 
 export default card

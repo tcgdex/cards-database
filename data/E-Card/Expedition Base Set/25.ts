@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		26,
-	],
+	dexId: [26],
 
 	hp: 80,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
 		en: "Pikachu",
-		fr: "Pikachu"
+		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -41,9 +40,9 @@ const card: Card = {
 				de: "Plasma"
 			},
 			effect: {
-				en: "If there are any Energy cards in your discard pile, flip a coin. If heads, attach one of them to Raichu.",
-				fr: "Si vous avez des cartes Énergie  dans votre pile de défausse, lancez une pièce. Si c'est face, attachez l'une d'elles à Raichu.",
-				de: "Wenn mindestens eine -Energiekarte in deinem Ablagestapel ist, wirf eine Münze. Lege bei 'Kopf' 1 davon an Raichu an."
+				en: "If there are any Lightning Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Raichu.",
+				fr: "Si vous avez des cartes Énergie {L} dans votre pile de défausse, lancez une pièce. Si c'est face, attachez l'une d'elles à Raichu.",
+				de: "Wenn mindestens eine {L}-Energiekarte in deinem Ablagestapel ist, wirf eine Münze. Lege bei „Kopf“ 1 davon an Raichu an."
 			},
 			damage: 10,
 
@@ -60,9 +59,9 @@ const card: Card = {
 				de: "Schock-Blitz"
 			},
 			effect: {
-				en: "Discard all L Energy cards attached to Raichu or this attack does nothing.",
-				fr: "Défaussez-vous de toutes les cartes Énergie  attachées à Raichu ou cette attaque ne fait rien.",
-				de: "Lege alle an Raichu angelegten -Energiekarten auf deinen Ablagestapel, oder dieser Angriff hat keine Auswirkung."
+				en: "Discard all Lightning Energy cards attached to Raichu or this attack does nothing.",
+				fr: "Défaussez-vous de toutes les cartes Énergie {L} attachées à Raichu ou cette attaque ne fait rien.",
+				de: "Lege alle an Raichu angelegten {L}-Energiekarten auf deinen Ablagestapel, oder dieser Angriff hat keine Auswirkungen."
 			},
 			damage: 60,
 
@@ -72,23 +71,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 274900,
-		tcgplayer: 88501
-	},
 
-	variants:[
+	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 88501,
+				cardmarket: 274900
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 88501,
+				cardmarket: 274900
+			},
+		},
+	],
 }
 
 export default card

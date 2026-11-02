@@ -44,19 +44,33 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751674,
+				tcgplayer: 534528,
+				cardtrader: 274318
+			}
+		},
+	],
 
 	illustrator: "Saya Tsuruta",
 
-	thirdParty: {
-		cardmarket: 751674
-	}
+	description: {
+		en: "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
+		de: "Mit jeder Bewegung erzeugt es durch das Strecken und Zusammenziehen seiner Muskeln Elektrizität. Steckt es in der Klemme, leuchtet es."
+	},
+
 }
 
 export default card

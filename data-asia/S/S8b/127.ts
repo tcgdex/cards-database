@@ -1,48 +1,62 @@
-import { Card } from "../../../interfaces"
-import Set from "../S8b"
+import { Card } from "../../../interfaces";
+import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "幸福蛋V"
+		ja: "ハピナスV",
+		'zh-tw': "幸福蛋V",
 	},
 
 	illustrator: "Saki Hayashiro",
 	category: "Pokemon",
 	hp: 250,
 	types: ["Colorless"],
+
 	stage: "Basic",
-	suffix: "V",
 
-	attacks: [{
-		name: {
-			'zh-tw': "自然回復"
+	abilities: [
+		{
+			type: "Ability",
+			name: { ja: "しぜんかいふく" },
+			effect: {
+				ja: "自分の手札からこのポケモンにエネルギーをつけるたび、このポケモンの特殊状態をすべて回復する。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "每次從自己的手牌將能量附於這隻寶可夢身上時，都將這隻寶可夢的特殊狀態全部恢復。"
-		}
-	}, {
-		name: {
-			'zh-tw': "幸福轟炸"
+	attacks: [
+		{
+			name: {
+				ja: "ハッピーボンバー",
+				'zh-tw': "自然回復",
+			},
+			damage: "10+",
+			cost: ["Colorless"],
+			effect: {
+				ja: "このポケモンについているエネルギーの数×30ダメージ追加。のぞむなら、ダメージを与えたあとに、トラッシュからエネルギーを3枚まで選び、このポケモンにつける。",
+				'zh-tw': "每次從自己的手牌將能量附於這隻寶可夢身上時，都將這隻寶可夢的特殊狀態全部恢復。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "增加這隻寶可夢身上附加的能量的數量×30點傷害。若希望，在造成傷害後，從棄牌區選擇最多3張能量卡，附於這隻寶可夢身上。"
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 586643,
+				tcgplayer: 571380,
+			},
 		},
-
-		damage: "10+",
-		cost: ["Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
+	],
 
 	retreat: 4,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Double rare",
+	dexId: [242],
+};
 
-export default card
+export default card;

@@ -62,23 +62,30 @@ const card: Card = {
 	types: ["Psychic"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "After being reborn as a ghost Pokémon, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas."
+		en: "After being reborn as a ghost Pokémon, Dreepy wanders the areas it used to inhabit back when it was alive in prehistoric seas.",
+		de: "In der Urzeit lebte es im Meer. Nun ist es als Geister-Pokémon wiedererwacht und irrt rastlos durch seinen früheren Lebensraum."
 	},
 
-	thirdParty: {
-		cardmarket: 457863,
-		tcgplayer: 213175
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457863,
+				tcgplayer: 213175
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457863,
+				tcgplayer: 213175
+			}
+		},
+	],
 }
 
 export default card

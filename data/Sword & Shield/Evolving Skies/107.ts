@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Bagon",
@@ -57,15 +51,28 @@ const card: Card = {
 	dexId: [371],
 
 	description: {
-		en: "Some theories suggest that its behavior of forcefully bashing its head into things stimulates cells that affect its evolution."
+		en: "Some theories suggest that its behavior of forcefully bashing its head into things stimulates cells that affect its evolution.",
+		de: "Einer Theorie zufolge werden durch seine Kopfstöße Zellen angeregt, die seine Entwicklung beeinflussen."
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574155,
-		tcgplayer: 246907
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574155,
+				tcgplayer: 246907
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574155,
+				tcgplayer: 246907
+			}
+		},
+	],
 }
 
 export default card

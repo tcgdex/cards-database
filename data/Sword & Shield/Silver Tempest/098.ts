@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Resladero"
 	},
 
+	illustrator: "Teeziro",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -64,20 +65,43 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It drives its opponents to exhaustion with its agile maneuvers, then ends the fight with a flashy finishing move.",
+		de: "Durch flinke Angriffsmanöver raubt es seinen Gegnern ihre Kraft, um sie dann mit prachtvollen Spezialtechniken niederzuringen."
 	},
 
-	thirdParty: {
-		cardmarket: 682145,
-		tcgplayer: 451752
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682145,
+				tcgplayer: 451752
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682145,
+				tcgplayer: 451752
+			}
+		},
+	],
 }
 
 export default card

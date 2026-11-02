@@ -24,6 +24,22 @@ const card: Card = {
 		'zh-cn': "從自己的牌庫抽出3張卡。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803287,
+				tcgplayer: 602624,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602625,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "H"
 }

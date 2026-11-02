@@ -4,6 +4,7 @@ import Set from "../Journey Together"
 const card: Card = {
 	dexId: [939],
 	set: Set,
+	cameoDexIds: [81, 479],
 
 	name: {
 		en: "Iono's Bellibolt ex",
@@ -80,19 +81,26 @@ const card: Card = {
 		damage: 230
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
+	suffix: "ex",
 	illustrator: "Yuu Nishida",
-
-	thirdParty: {
-		cardmarket: 817336
-	},
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817336,
+				tcgplayer: 623610
+			}
 		},
-	]
+	],
 }
 
 export default card

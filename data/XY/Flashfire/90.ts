@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cambia 1 de los Pokémon en Banca de tu rival por su Pokémon Activo.",
 		it: "Scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.",
 		pt: "Troque 1 dos Pokémon no Banco do seu oponente pelo Pokémon Ativo desse oponente.",
-		de: "Tausche 1 Pokémon auf der Bank deines Gegners gegen das Aktive Pokémon deines Gegners aus."
+		de: "Tausche 1 Pokémon auf der Bank deines Gegners gegen das Aktive Pokémon deines Gegners aus. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Kilowattrel da Kissera"
 	},
 
+	evolveFrom: {
+		en: "Iono's Wattrel",
+		fr: "Zapétrel de Mashynn",
+		es: "Wattrel de e-Nigma",
+		'es-mx': "Wattrel de e-Nigma",
+		de: "Enigmaras Voltrel",
+		it: "Wattrel di Kissara",
+		pt: "Wattrel da Kissera",
+	},
+
 	illustrator: "chibi",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [941],
 	hp: 120,
 	types: ["Lightning"],
 	stage: "Stage1",
@@ -61,13 +72,52 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675884,
-		cardmarket: 869683
-	}
+	description: {
+		en: "Kilowattrel inflates its throat sac to amplify its electricity. By riding the wind, this Pokémon can fly over 430 miles in a day.",
+		fr: "Lorsqu'il gonfle son sac gulaire, l'intensité du courant électrique qu'il produit augmente. Il peut parcourir 700 km par jour en planant.",
+		de: "Dieses Pokémon verstärkt seine Elektrizität durch Aufblasen des Kehlsacks. Es nutzt den Wind, um innerhalb eines Tages 700 km weit zu fliegen."
+	},
+
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 869683,
+			tcgplayer: 675884
+		}
+	},
+	{
+		type: "reverse",
+		foil: "pokeball",
+		thirdParty: {
+			cardmarket: 870250,
+			tcgplayer: 676909
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870249,
+			tcgplayer: 677049
+		}
+	},
+],
 }
 
 export default card

@@ -4,6 +4,7 @@ import Set from "../Astral Radiance"
 const card: Card = {
 	dexId: [436],
 	set: Set,
+	cameoDexIds: [493, 903],
 
 	name: {
 		en: "Bronzor",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Bronzel"
 	},
 
+	illustrator: "Kouki Saitou",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -44,20 +46,43 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Floats using a mysterious energy. The pattern engraved upon its back is held as sacred and can sometimes be found in imagery from ancient cemeteries and other such timeworn places.",
+		de: "Es schwebt mithilfe einer rätselhaften Energie. Das Muster auf seinem Rücken gilt als heilig und ist mitunter auf alten Gräbern und an anderen Orten vergangener Zeiten wiederzufinden."
 	},
 
-	thirdParty: {
-		cardmarket: 658772,
-		tcgplayer: 272332
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658772,
+				tcgplayer: 272332
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658772,
+				tcgplayer: 272332
+			}
+		},
+	],
 }
 
 export default card

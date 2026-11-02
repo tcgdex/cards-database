@@ -75,7 +75,7 @@ const card: Card = {
 				es: "Descarta 2 Energías Metal unidas a este Pokémon.",
 				it: "Scarta due Energie Metal assegnate a questo Pokémon.",
 				pt: "Descarte 2 Energias Metal ligadas a este Pokémon.",
-				de: "Lege 2 an dieses Pokémon angelegte Metal-Energien auf deinen Ablagestapel."
+				de: "Lege 2 an dieses Pokémon angelegte {M}-Energien auf deinen Ablagestapel."
 			},
 			damage: 150,
 

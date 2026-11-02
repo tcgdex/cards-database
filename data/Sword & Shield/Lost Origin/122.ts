@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hoopa"
 	},
 
+	illustrator: "Sanosuke Sakuma",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -38,7 +39,7 @@ const card: Card = {
 			es: "Busca en tu baraja 1 carta de Energía Darkness y únela a 1 de tus Pokémon. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo una carta Energia Darkness e assegnala a uno dei tuoi Pokémon. Poi rimischia le carte del tuo mazzo.",
 			pt: "Procure por 1 carta de Energia Darkness no seu baralho e ligue-a a 1 dos seus Pokémon. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach 1 Darkness-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
+			de: "Durchsuche dein Deck nach 1 {D}-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
 		}
 	}, {
 		cost: ["Darkness", "Darkness", "Colorless"],
@@ -58,16 +59,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674135,
-		tcgplayer: 284030
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674135,
+				tcgplayer: 284030
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674135,
+				tcgplayer: 284030
+			}
+		},
+	],
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Blitzle"
+		en: "Blitzle",
+		fr: "Zébibron"
 	},
 
 	illustrator: "Akira Komayama",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Tiny Charge"
+			en: "Tiny Charge",
+			fr: "Décharge Mineure"
 		},
 
 		damage: 10,

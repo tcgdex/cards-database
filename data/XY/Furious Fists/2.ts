@@ -91,6 +91,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The leafy parts act as cutters for slashing foes. It spits a fluid that dissolves everything.",
+		de: "Die Blätter werden eingesetzt, um Gegner aufzuschlitzen. Dieses Pokémon spuckt eine Flüssigkeit, die alles auflöst."
+	},
+
 	thirdParty: {
 		cardmarket: 281666,
 		tcgplayer: 92171

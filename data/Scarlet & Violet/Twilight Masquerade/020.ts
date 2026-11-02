@@ -57,18 +57,39 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Poltchageist looks like a regional form of Sinistea, but it was recently discovered that the two Pokémon are entirely unrelated.",
+		de: "Es sieht aus wie eine Regionalform von Fatalitee, doch vor Kurzem fand man heraus, dass zwischen den beiden Pokémon keine Verbindung besteht."
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769194,
+				tcgplayer: 550064
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769194,
+				tcgplayer: 550064
+			}
+		},
+	],
 
 	illustrator: "MINAMINAMI Take",
 
-	thirdParty: {
-		cardmarket: 769194
-	}
 }
 
 export default card

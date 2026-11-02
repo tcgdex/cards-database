@@ -4,6 +4,7 @@ import Set from "../Paradox Rift"
 const card: Card = {
 	dexId: [976],
 	set: Set,
+	cameoDexIds: [120],
 
 	name: {
 		en: "Veluza",
@@ -66,19 +67,34 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
+	description: {
+		en: "When Veluza discards unnecessary flesh, its mind becomes honed and its psychic power increases. The spare flesh has a mild but delicious flavor.",
+		de: "Wirft es überflüssige Teile seines Körpers ab, steigen seine Psycho-Kräfte. Der Geschmack des abgeworfenen Fleisches ist simpel, aber lecker."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740735,
+				tcgplayer: 523873,
+				cardtrader: 265353
+			}
+		},
+	],
 
 	illustrator: "Shibuzoh.",
 
-	thirdParty: {
-		cardmarket: 740735
-	}
+	
 }
 
 export default card

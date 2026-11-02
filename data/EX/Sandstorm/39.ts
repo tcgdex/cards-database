@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		140,
-	],
+	dexId: [140],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Mysterious Fossil",
-		fr: "Mystérieux fossile"
+		fr: "Mystérieux fossile",
+		de: "Geheimnis-Fossil"
 	},
 
 	stage: "Stage1",
@@ -42,7 +41,7 @@ const card: Card = {
 				en: "Any damage done to Kabuto by attacks is reduced by 20 (after applying Weakness and Resistance).",
 				fr: "Tous dégâts infligés à Kabuto par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
 				de: "Jeder Schaden, der Kabuto durch Angriffe zugefügt wird, wird um 20 reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
-			},
+			}
 		},
 	],
 
@@ -89,19 +88,24 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275816,
-		tcgplayer: 86380
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275816,
+				tcgplayer: 86380
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275816,
+				tcgplayer: 86380
+			}
 		},
-	]
+	],
+
 }
 
 export default card

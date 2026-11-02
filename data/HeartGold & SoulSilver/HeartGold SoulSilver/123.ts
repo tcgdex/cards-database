@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Wataru Kawahara",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		130,
-	],
+	dexId: [130],
 
 	hp: 130,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Magikarp",
 		fr: "Magicarpe",
+		de: "Karpador"
 	},
 
 	stage: "Stage1",
@@ -41,9 +40,9 @@ const card: Card = {
 				de: "Fuchtler"
 			},
 			effect: {
-				en: "Flip a coin. If heads, this attack does 30 damage plus 20 more damage. If tails, Gyarados does 20 damage to itself.",
+				en: "If heads, this attack does 30 damage plus 20 more damage. If tails, Gyarados does 20 damage to itself.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires. Si c’est pile, Léviator s’inflige 20 dégâts.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu. Bei \"Zahl\" fügt Garados sich selbst 20 Schadenspunkte zu."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu. Bei „Zahl“ fügt Garados sich selbst 20 Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -83,22 +82,27 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "They say that during past strife, Gyarados would appear and leave blazing ruins in its wake."
+		en: "They say that during past strife, Gyarados would appear and leave blazing ruins in its wake.",
+		de: "Man sagt, dass GARADOS in den alten Kriegen aufgetaucht sei und nichts als Ruinen hinterlassen hat."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278976,
+				tcgplayer: 85995
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279095,
+				tcgplayer: 85995
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278976,
-		tcgplayer: 85995
-	}
 }
 
 export default card

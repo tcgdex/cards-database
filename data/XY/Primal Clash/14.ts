@@ -95,6 +95,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It flaps its four wings to hover and fly freely in any direction–to and fro and sideways.",
+	},
+
 	thirdParty: {
 		cardmarket: 273545,
 		tcgplayer: 95898

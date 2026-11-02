@@ -1,51 +1,64 @@
-import { Card } from "../../../interfaces"
-import Set from "../S8"
+import { Card } from "../../../interfaces";
+import Set from "../S8";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "藏飽栗鼠V"
+		ja: "ヨクバリスV",
+		'zh-tw': "藏飽栗鼠V",
 	},
 
 	illustrator: "PLANETA Yamashita",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Colorless"],
+
 	stage: "Basic",
-	suffix: "V",
 
-	attacks: [{
-		name: {
-			'zh-tw': "泰山壓頂"
+	attacks: [
+		{
+			name: {
+				ja: "のしかかり",
+				'zh-tw': "泰山壓頂",
+			},
+			damage: 40,
+			cost: ["Colorless", "Colorless"],
+			effect: {
+				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。"
+		{
+			name: {
+				ja: "がっつくまえば",
+				'zh-tw': "貪心門牙",
+			},
+			damage: 120,
+			cost: ["Colorless", "Colorless", "Colorless"],
+			effect: {
+				ja: "自分の山札を3枚引く。",
+				'zh-tw': "從自己的牌庫抽出3張卡。",
+			},
 		},
+	],
 
-		damage: 40,
-		cost: ["Colorless", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "貪心門牙"
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 575640,
+				tcgplayer: 569586,
+			},
 		},
-
-		effect: {
-			'zh-tw': "從自己的牌庫抽出3張卡。"
-		},
-
-		damage: 120,
-		cost: ["Colorless", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
+	],
 
 	retreat: 2,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Double rare",
+	dexId: [820],
+};
 
-export default card
+export default card;

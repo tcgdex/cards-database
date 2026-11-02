@@ -79,23 +79,30 @@ const card: Card = {
 	types: ["Colorless"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It can learn and speak human words. If they gather, they all learn the same saying."
+		en: "It can learn and speak human words. If they gather, they all learn the same saying.",
+		de: "Es kann die menschliche Sprache nachahmen. Versammeln sie sich, bringen sich alle dasselbe bei."
 	},
 
-	thirdParty: {
-		cardmarket: 458098,
-		tcgplayer: 213242
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458098,
+				tcgplayer: 213242
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458098,
+				tcgplayer: 213242
+			}
+		},
+	],
 }
 
 export default card

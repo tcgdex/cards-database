@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Strahlendes Fruyal"
 	},
 
+	illustrator: "Kagemaru Himeno",
 	rarity: "Radiant Rare",
 	category: "Pokemon",
 	hp: 140,
@@ -66,20 +67,30 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "This feared Pokémon has long, slender legs and a cruel heart. It shows no mercy as it stomps on its opponents.",
+		de: "Seine langen Beine und sein grausames Herz werden gefürchtet. Es tritt ohne Gnade auf seine Gegner ein."
 	},
 
-	thirdParty: {
-		cardmarket: 682057,
-		tcgplayer: 451645
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682057,
+				tcgplayer: 451645
+			}
+		},
+	],
 }
 
 export default card

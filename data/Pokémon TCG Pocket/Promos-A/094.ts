@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Horsea"
+		en: "Horsea",
+		de: "Seeper"
 	},
 
 	illustrator: "Taira Akitsu",
@@ -17,20 +18,23 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		en: "Horsea makes its home in oceans with gentle\ncurrents. If this Pokémon is under attack, it spits\nout pitch-black ink and escapes."
+		en: "Horsea makes its home in oceans with gentle\ncurrents. If this Pokémon is under attack, it spits\nout pitch-black ink and escapes.",
+		de: "Es lebt in Meeren mit ruhigem Gezeitenstrom. Wird es angegriffen, versprüht es tiefschwarze Tinte und ergreift daraufhin die Flucht."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Water Arrow"
+			en: "Water Arrow",
+			de: "Wasserpfeil"
 		},
 
 		cost: ["Water"],
 
 		effect: {
-			en: "This attack does 10 damage to 1 of your opponent's Pokémon."
+			en: "This attack does 10 damage to 1 of your opponent's Pokémon.",
+			de: "Diese Attacke fügt 1 Pokémon deines Gegners 10 Schadenspunkte zu."
 		}
 	}],
 

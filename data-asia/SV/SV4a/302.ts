@@ -36,6 +36,16 @@ const card: Card = {
 		damage: 40
 	}],
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 747656,
+				tcgplayer: 567703,
+			},
+		},
+	],
+
 	retreat: 1,
 	regulationMark: "G"
 }

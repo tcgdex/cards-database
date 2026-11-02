@@ -15,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Megumi Mizutani",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Darkness"],
@@ -37,7 +37,24 @@ const card: Card = {
 	}],
 
 	retreat: 1,
-	regulationMark: "I"
+	regulationMark: "I",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817780,
+				tcgplayer: 625181
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["pokemon-center"],
+			thirdParty: {
+				cardmarket: 819540,
+				tcgplayer: 625182
+			},
+		}
+	],
 }
 
 export default card

@@ -44,18 +44,42 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings.",
+		de: "Dieses Pokémon trifft man oft auf Feldern an. Mit den Haaren, die an seinem Körper wachsen, spürt es, was in der Umgebung vor sich geht."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740486,
+				tcgplayer: 523609,
+				cardtrader: 265004
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740486,
+				tcgplayer: 523609,
+				cardtrader: 265004
+			}
+		},
+	],
 
 	illustrator: "OKUBO",
 
-	thirdParty: {
-		cardmarket: 740486
-	}
+	
 }
 
 export default card

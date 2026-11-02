@@ -38,6 +38,16 @@ const card: Card = {
 		cost: ["Water", "Fighting", "Fighting", "Colorless"]
 	}],
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 609822,
+				tcgplayer: 570624,
+			},
+		},
+	],
+
 	retreat: 0,
 	regulationMark: "F",
 	rarity: "Double rare"

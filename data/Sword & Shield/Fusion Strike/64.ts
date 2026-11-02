@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage2",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "Masakazu Fukuda",
 
 	description: {
-		en: "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms."
+		en: "It can swim while towing a large ship. It bashes down foes with a swing of its thick arms.",
+		de: "Es kann im Schwimmen ein großes Schiff ziehen. Seine Gegner schlägt es mit Schlägen seiner Arme zurück."
 	},
 
 	abilities: [{
@@ -83,17 +90,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582198,
-		tcgplayer: 253205
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 582198,
+				tcgplayer: 253205
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582198,
+				tcgplayer: 253205
+			}
+		},
+	],
 }
 
 export default card

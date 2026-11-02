@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 50,
 	types: ["Water"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "sowsow",
 
 	description: {
-		en: "Even after Marill swims in a cold sea, its water- repellent fur dries almost as soon as Marill leaves the water. That's why this Pokémon is never cold."
+		en: "Even after Marill swims in a cold sea, its water- repellent fur dries almost as soon as Marill leaves the water. That's why this Pokémon is never cold.",
+		de: "Sein wasserabweisendes Fell trocknet sofort und hält Marill warm, selbst wenn es aus kaltem Meerwasser auftaucht."
 	},
 
 	attacks: [{
@@ -71,17 +78,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582192,
-		tcgplayer: 253189
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582192,
+				tcgplayer: 253189
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582192,
+				tcgplayer: 253189
+			}
+		},
+	],
 }
 
 export default card

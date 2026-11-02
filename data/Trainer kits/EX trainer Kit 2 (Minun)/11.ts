@@ -14,6 +14,19 @@ const card: Card = {
 	set: Set,
 	stage: "Basic",
 	energyType: "Normal",
+	types: [
+		"Fire"
+	],
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85460
+			}
+		},
+	],
+
 }
 
 export default card

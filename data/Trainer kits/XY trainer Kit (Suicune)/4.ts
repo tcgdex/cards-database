@@ -23,27 +23,31 @@ const card: Card = {
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions."
+		en: "Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.",
+		de: "Aufgrund einer genetischen Anomalie kann seine Entwicklung viele verschiedene Formen annehmen."
 	},
 
 	attacks: [{
 		name: {
 			en: "Tackle",
-			fr: "Charge"
+			fr: "Charge",
+			de: "Tackle"
 		},
 
 		damage: 10
 	}, {
 		name: {
 			en: "Lunge",
-			fr: "Coup Rapide"
+			fr: "Coup Rapide",
+			de: "Ausfall"
 		},
 
 		damage: 30,
 
 		effect: {
 			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			de: "Wird 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkung."
 		}
 	}],
 

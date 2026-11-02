@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		311,
-	],
+	dexId: [311],
 
 	hp: 50,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, attach a Lightning Energy card from your hand to any of your Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, attachez une carte Énergie  de votre main à un de vos Pokémon.",
+				fr: "Lancez une pièce. Si c'est face, attachez une carte Énergie {L} de votre main à un de vos Pokémon.",
 				de: "Flip a coin. If heads, attach a  Energy card from your hand to any of your Pokémon."
 			},
 
@@ -79,18 +77,21 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276143,
-		tcgplayer: 88162
-	},
-
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
+			thirdParty: {
+				tcgplayer: 88162,
+				cardmarket: 276143
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88162,
+				cardmarket: 276143
+			}
+		},
 	]
 }
 

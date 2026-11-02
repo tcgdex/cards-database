@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cura 60 puntos de daño a cada uno de tus Pokémon {L}.",
 		it: "Cura ciascuno dei tuoi Pokémon {L} da 60 danni.",
 		pt: "Cure 60 pontos de dano de cada um dos seus Pokémon {L}.",
-		de: "Heile 60 Schadenspunkte bei jedem deiner {L}-Pokémon."
+		de: "Heile 60 Schadenspunkte bei jedem deiner {L}-Pokémon. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
@@ -30,18 +30,23 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794540,
+				tcgplayer: 589900
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794540,
+				tcgplayer: 589900
+			}
+		},
 	],
 
 	illustrator: "Naoki Saito",
 
-	thirdParty: {
-		cardmarket: 794540
-	}
 }
 
 export default card

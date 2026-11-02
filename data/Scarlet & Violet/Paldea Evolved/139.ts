@@ -63,18 +63,40 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715614,
+				tcgplayer: 497643,
+				cardtrader: 248774
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715614,
+				tcgplayer: 497643,
+				cardtrader: 248774
+			}
+		},
+	],
 
 	illustrator: "nagimiso",
 
-	thirdParty: {
-		cardmarket: 715614
-	}
+	description: {
+		en: "The two heads do not get along at all. If you don't give each head the same amount of attention, they'll begin fighting out of jealousy.",
+		de: "Seine Köpfe vertragen sich nicht. Schenkt man beiden nicht das gleiche Maß an Aufmerksamkeit, beginnen sie aus Eifersucht einen heftigen Streit."
+	},
 }
 
 export default card

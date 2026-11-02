@@ -33,7 +33,7 @@ const card: Card = {
 			name: {
 				en: "Gust",
 				fr: "Tornade",
-				de: "Gust"
+				de: "Windstoß"
 			},
 
 			damage: 10,
@@ -48,12 +48,12 @@ const card: Card = {
 			name: {
 				en: "Leek Jab",
 				fr: "Coud'poireau",
-				de: "Leek Jab"
+				de: "Lauchschlag"
 			},
 			effect: {
 				en: "This attack can't be used during your next turn. (Benching Farfetch'd ends this effect.)",
 				fr: "Cette attaque ne peut pas être utilisée à nouveau durant votre prochain tour. (Envoyer Canarticho sur le Banc met fin à cet effet.)",
-				de: "This attack can´t be used during your next turn. (Benching Farfetch´d ends this effect.)"
+				de: "Dieser Angriff kann in deinem nächsten Zug nicht verwendet werden. (Wenn Porenta auf die Bank kommt, endet dieser Effekt.)"
 			},
 			damage: 40,
 
@@ -73,23 +73,31 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Si quelqu'un tente de s'introduire dans son jardin de poireaux, il utilise son arme pour le faire partir."
+		en: "If anyone tries to disturb where the essential plant sticks grow, it uses its own stick to thwart them.",
+		fr: "Si quelqu'un tente de s'introduire dans son jardin de poireaux, il utilise son arme pour le faire partir.",
+		de: "Es verhaut alle, die versuchen, durch Lauchfelder zu spazieren, mit seiner eigenen Lauchstange."
 	},
 
-	thirdParty: {
-		cardmarket: 274629,
-		tcgplayer: 85382
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274629,
+				tcgplayer: 85382
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274629,
+				tcgplayer: 85382
+			}
 		}
 	]
 }

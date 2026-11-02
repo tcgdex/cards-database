@@ -3,8 +3,8 @@ import Set from '../Supreme Victors'
 
 const card: Card = {
 	name: {
-		en: "Staraptor FB",
-		fr: "Etouraptor ",
+		en: "Staraptor FB LV.X",
+		fr: "Etouraptor FB",
 		de: "Staraptor FB"
 	},
 	illustrator: "Ryo Ueda",
@@ -12,12 +12,10 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		398,
-	],
+	dexId: [398],
 	hp: 100,
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "LEVEL-UP",
@@ -34,7 +32,7 @@ const card: Card = {
 				en: "Once during your turn (before your attack), you may search your deck for a Supporter card, show it to your opponent, and put it into your hand. Shuffle your deck afterward. This power can't be used if Staraptor FB is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez choisir une carte Supporter dans votre deck. Montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck. Ce pouvoir ne peut pas être utilisé si Etouraptor  est affecté par un État Spécial.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du dein Deck nach 1 Unterstützerkarte durchsuchen, sie deinem Gegner zeigen und auf die Hand nehmen. Mische dein Deck danach. Diese Poké-Power kann nicht benutzt werden, wenn Staraptor FB von einem Speziellen Zustand betroffen ist."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -61,7 +59,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	resistances: [
@@ -70,12 +68,17 @@ const card: Card = {
 			value: "-20"
 		},
 	],
-
+	retreat: 0,
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278838,
+				tcgplayer: 89512
+			}
+		},
+	],
+
 }
 
 export default card

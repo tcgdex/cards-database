@@ -4,7 +4,8 @@ import Set from '../POP Series 1'
 const card: Card = {
 	name: {
 		en: "Metagross",
-		fr: "Metalosse"
+		fr: "Métalosse",
+		de: "Metagross"
 	},
 
 	illustrator: "Ken Sugimori",
@@ -12,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		376,
-	],
+	dexId: [376],
 
 	hp: 100,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Metang",
-		fr: "Métang"
+		fr: "Métang",
+		de: "Metang"
 	},
 
 	stage: "Stage2",
@@ -37,7 +37,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Metal Claw",
-				fr: "Griffe acier"
+				fr: "Griffe acier",
+				de: "Metallklaue"
 			},
 
 			damage: 30,
@@ -52,11 +53,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Hyper Beam",
-				fr: "Ultralaser"
+				fr: "Ultralaser",
+				de: "Hyperstrahl"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard 1 Energy attached to the Defending Pokémon.",
-				fr: "Lancez une pièce. Si c'est face, défaussez 1 Énergie attachée au Pokémon Défenseur."
+				fr: "Lancez une pièce. Si c'est face, défaussez 1 Énergie attachée au Pokémon Défenseur.",
+				de: "Wirf 1 Münze. Bei „Kopf“ lege 1 Energiekarte von dem Verteidigenden Pokémon auf den Ablagestapel deines Gegners."
 			},
 			damage: 50,
 
@@ -78,10 +81,23 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 277416,
-		tcgplayer: 87336
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87336,
+				cardmarket: 277416
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87336,
+				cardmarket: 277416
+			},
+		},
+	],
+
 }
 
 export default card

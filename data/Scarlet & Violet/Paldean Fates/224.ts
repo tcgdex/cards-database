@@ -4,6 +4,7 @@ import Set from "../Paldean Fates"
 const card: Card = {
 	dexId: [961],
 	set: Set,
+	cameoDexIds: [871],
 
 	name: {
 		en: "Wugtrio",
@@ -63,19 +64,33 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751771,
+				tcgplayer: 534731,
+				cardtrader: 274408
+			}
+		},
+	],
 
 	illustrator: "Tetsu Kayama",
 
-	thirdParty: {
-		cardmarket: 751771
-	}
+	description: {
+		en: "It has a vicious temperament, contrary to what its appearance may suggest. It wraps its long bodies around prey, then drags the prey into its den.",
+		de: "Entgegen seinem Äußeren ist es von grober Natur. Mit seinen langen Körpern nimmt es Beute in die Mangel und zieht sie in sein Nest."
+	},
+
 }
 
 export default card

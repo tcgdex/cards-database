@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Nidorino",
 		fr: "Nidorino",
+		de: "Nidorino"
 	},
 
 	stage: "Stage2",
@@ -92,6 +93,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "It is recognized by its rock-hard hide and its extended horn. Be careful with the horn, as it contains venom.",
+		de: "Seine steinharte Haut und sein ausgeprägtes Horn sind seine Markenzeichen. Achte auf das Horn, denn es enthält Gift."
+	},
 
 	thirdParty: {
 		cardmarket: 368989,

@@ -99,23 +99,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
 	description: {
-		en: "Bird Pokémon make up most of its diet. It approaches at high speeds and smacks them down to the ground with its powerful kick."
+		en: "Bird Pokémon make up most of its diet. It approaches at high speeds and smacks them down to the ground with its powerful kick.",
+		de: "Fiaro ernährt sich vor allem von Vogel-Pokémon. Es nähert sich überfallartig seiner Beute und befördert sie mit einem kräftigen Tritt zu Boden."
 	},
 
-	thirdParty: {
-		cardmarket: 483034,
-		tcgplayer: 219246
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483034,
+				tcgplayer: 219246
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483034,
+				tcgplayer: 219246
+			}
+		},
+	],
 }
 
 export default card

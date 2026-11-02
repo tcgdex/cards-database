@@ -38,7 +38,7 @@ const card: Card = {
 			es: "Si tu rival tiene alguna carta en su pila de descartes que tenga \"Acromo\" en el nombre, este Pokémon puede usar el ataque Triple Escarcha por Colorless.",
 			it: "Se il tuo avversario ha delle carte nella sua pila degli scarti che hanno \"Acromio\" o \"Acrocongegno\" nel nome, questo Pokémon può usare l'attacco Triplogelo al costo di {C}.",
 			pt: "Se o seu oponente tiver alguma carta na pilha de descarte dele que tem \"Colress\" em seu nome, este Pokémon poderá usar o ataque Geada Tripla por {C}.",
-			de: "Wenn dein Gegner mindestens 1 Karte in seinem Ablagestapel hat, bei der \"Achromas\" zum Namen gehört, kann dieses Pokémon die Attacke Dreifachfrost für {C} einsetzen."
+			de: "Wenn dein Gegner mindestens 1 Karte in seinem Ablagestapel hat, bei der „Achromas“ zum Namen gehört, kann dieses Pokémon die Attacke Dreifachfrost für {C} einsetzen."
 		}
 	}],
 
@@ -67,15 +67,27 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
-	},
 
 	illustrator: "Shiburingaru",
 
-	thirdParty: {
-		cardmarket: 780943
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 780943,
+				tcgplayer: 560358
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 780943,
+				tcgplayer: 560358
+			}
+		},
+	],
 }
 
 export default card

@@ -65,18 +65,42 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its thick claws are its greatest weapons. They're mighty enough to crack Rhyperior's carapace.",
+		de: "Seine kräftigen Scheren sind robuste Waffen. Sie sind hart genug, um selbst in den Schützern von Rihornior Risse zu hinterlassen."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740483,
+				tcgplayer: 523606,
+				cardtrader: 265009
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740483,
+				tcgplayer: 523606,
+				cardtrader: 265009
+			}
+		},
+	],
 
 	illustrator: "Shin Nagasawa",
 
-	thirdParty: {
-		cardmarket: 740483
-	}
+	
 }
 
 export default card

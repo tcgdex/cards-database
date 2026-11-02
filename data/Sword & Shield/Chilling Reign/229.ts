@@ -22,25 +22,25 @@ const card: Card = {
 		es: "Pon hasta 2 cartas de Energía Golpe Brusco de tu pila de descartes en tu baraja y barájalas todas.",
 		it: "Rimischia fino a due carte Energia Colpo Singolo dalla tua pila degli scarti nel tuo mazzo.",
 		pt: "Embaralhe até 2 cartas de Energia Golpe Decisivo da sua pilha de descarte no seu baralho.",
-		de: "Mische bis zu 2 Fokussierter-Angriff-Energiekarten aus deinem Ablagestapel in dein Deck."
+		de: "Mische bis zu 2 Fokussierter-Angriff-Energiekarten aus deinem Ablagestapel in dein Deck. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	illustrator: "Toyste Beach",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 567337,
-		tcgplayer: 241877
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 567337,
+				tcgplayer: 241877
+			}
+		},
+	],
 }
 
 export default card

@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [106],
 	hp: 120,
 
 	types: [
@@ -84,7 +85,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its punches slice the air. However, it seems to need a short break after fighting for three minutes."
+		en: "Its punches slice the air. However, it seems to need a short break after fighting for three minutes.",
+		de: "Seine Fäuste zerschneiden die Luft. Es muss jedoch alle drei Minuten eine kurze Pause einlegen."
 	},
 
 	dexId: [107],

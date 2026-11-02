@@ -83,6 +83,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The sound of its grass flute makes its listeners uneasy. It lives deep in forests.",
+		de: "Der Ton seiner Grasflöte beunruhigt die, die ihn hören. Es lebt tief in den Wäldern."
+	},
+
 	thirdParty: {
 		cardmarket: 281489,
 		tcgplayer: 91139

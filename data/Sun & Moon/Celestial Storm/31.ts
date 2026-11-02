@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Cuando juegues este Pokémon de tu mano a tu Banca durante tu turno, puedes cambiarlo por tu Pokémon Activo. Si lo haces, mueve cualquier cantidad de Energías Water de tus otros Pokémon a este Pokémon.",
 				it: "Quando giochi questo Pokémon dalla tua mano e lo metti in panchina durante il tuo turno, puoi scambiarlo con il tuo Pokémon attivo. Se lo fai, sposta un numero qualsiasi di Energie Water assegnate ai tuoi altri Pokémon su questo Pokémon.",
 				pt: "Quando você joga este Pokémon da sua mão para o seu Banco durante a sua vez de jogar, você pode trocá-lo pelo seu Pokémon Ativo. Se fizer isto, mova qualquer número de Energia Water dos seus outros Pokémon para este Pokémon.",
-				de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand auf deine Bank spielst, kannst du es gegen dein Aktives Pokémon austauschen. Wenn du das machst, verschiebe beliebig viele Water-Energien von deinen anderen Pokémon auf dieses Pokémon."
+				de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand auf deine Bank spielst, kannst du es gegen dein Aktives Pokémon austauschen. Wenn du das machst, verschiebe beliebig viele {W}-Energien von deinen anderen Pokémon auf dieses Pokémon."
 			},
 		},
 	],
@@ -79,7 +79,7 @@ const card: Card = {
 				es: "Apretón Frío GX",
 				it: "Freddo Stritolante-GX",
 				pt: "Aperto Frio GX",
-				de: "Eiskalt zerquetscht GX"
+				de: "Eiskalt zerquetscht-GX"
 			},
 			effect: {
 				en: "Discard all Energy from both Active Pokémon. (You can’t use more than 1 GX attack in a game.)",

@@ -4,6 +4,7 @@ import Set from "../Twilight Masquerade"
 const card: Card = {
 	dexId: [424],
 	set: Set,
+	cameoDexIds: [58],
 
 	name: {
 		en: "Ambipom",
@@ -65,18 +66,39 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Split into two, the tails are so adept at handling and doing things that Ambipom rarely uses its hands.",
+		de: "Sein Schweif hat sich in zwei gespalten. Es kann so geschickt mit diesen Schweifen umgehen, dass es seine Hände nur noch selten gebraucht."
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769312,
+				tcgplayer: 550182
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769312,
+				tcgplayer: 550182
+			}
+		},
+	],
 
 	illustrator: "KEIICHIRO ITO",
 
-	thirdParty: {
-		cardmarket: 769312
-	}
 }
 
 export default card

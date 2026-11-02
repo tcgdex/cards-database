@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Picochilla"
 	},
 
+	illustrator: "Mina Nakai",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -55,20 +56,37 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "The way it brushes away grime with its tail can be helpful when cleaning. But its focus on spotlessness can make cleaning more of a hassle.",
+		de: "Es entfernt Schmutz mit seinem Schweif. Beim Hausputz ist es eine große Hilfe, aber sein Putzfimmel kann auch anstrengend werden."
 	},
 
-	thirdParty: {
-		cardmarket: 608670,
-		tcgplayer: 263847
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608670,
+				tcgplayer: 263847
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608670,
+				tcgplayer: 263847
+			}
+		},
+	],
 }
 
 export default card

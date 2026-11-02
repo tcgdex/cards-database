@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [25],
 
 	dexId: [
 		802,
@@ -70,6 +71,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It slips into the shadows of others and mimics their powers and movements. As it improves, it becomes stronger than those it's imitating.",
+		de: "Schlüpft es in den Schatten seines Gegners, um dessen Bewegungen und Kräfte zu imitieren, kann es sogar stärker als das Original werden."
+	},
 
 	thirdParty: {
 		cardmarket: 408159,

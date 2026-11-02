@@ -78,7 +78,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cruz, devuelve este Pokémon y todas las cartas unidas a él a tu mano.",
 				it: "Lancia una moneta. Se esce croce, riprendi in mano questo Pokémon e tutte le carte a esso assegnate.",
 				pt: "Jogue uma moeda. Se sair coroa, devolva este Pokémon e todos os cards ligados a ele para a sua mão.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" nimm dieses Pokémon und alle daran angelegten Karten zurück auf deine Hand."
+				de: "Wirf 1 Münze. Bei „Kopf“ nimm dieses Pokémon und alle daran angelegten Karten zurück auf deine Hand."
 			},
 			damage: 60,
 
@@ -100,6 +100,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Anyone who comes into contact with the ultrasonic waves emitted by a courting male experiences a positive mood shift.",
+		de: "Wer den Ultraschallwellen eines Männchens in der Balz ausgesetzt wird, verfällt in eine euphorische Stimmung."
+	},
 
 	thirdParty: {
 		cardmarket: 286318,

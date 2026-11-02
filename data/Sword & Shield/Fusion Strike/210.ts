@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 60,
 	types: ["Colorless"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Yukiko Baba",
 
 	description: {
-		en: "It shows its cute side by chasing its own tail until it gets dizzy."
+		en: "It shows its cute side by chasing its own tail until it gets dizzy.",
+		de: "Es zeigt gerne seine niedliche Seite, indem es seinen eigenen Schweif jagt, bis ihm schwindlig wird."
 	},
 
 	attacks: [{
@@ -51,17 +58,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582946,
-		tcgplayer: 253306
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582946,
+				tcgplayer: 253306
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582946,
+				tcgplayer: 253306
+			}
+		},
+	],
 }
 
 export default card

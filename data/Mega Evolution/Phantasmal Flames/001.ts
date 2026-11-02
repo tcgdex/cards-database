@@ -3,6 +3,7 @@ import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [103],
 
 	name: {
 		en: "Oddish",
@@ -38,22 +39,48 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "Its scientific name is Oddium wanderus. It is said to cover distances as far as 1,000 feet when night falls, walking on its two roots.",
+		fr: "Son nom scientifique est « Têtkim Archus ». On dit que lorsqu'il fait nuit, il peut marcher sur plus de 300 mètres à l'aide de ses deux racines.",
+		de: "Es ist auch als „Oddium Wanderus“ bekannt. Nachts kann es knapp 300 m auf seinen zwei Wurzeln zurücklegen."
+	},
+
+	illustrator: "MINAMINAMI Take",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857576,
+				tcgplayer: 662205,
+				cardtrader: 356785
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857576,
+				tcgplayer: 662205,
+				cardtrader: 356785
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 884285,
+				tcgplayer: 684041
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857576, 
-		tcgplayer: 662205
-	}
 }
 
 export default card

@@ -65,18 +65,39 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It lowers its body heat to freeze its fur. The hairs then become like needles it can fire.",
+		de: "Wenn es seine Körpertemperatur senkt, erstarren die Haare seines Fells zu Eis und dienen ihm als nadelartige Geschosse."
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769228,
+				tcgplayer: 550098
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769228,
+				tcgplayer: 550098
+			}
+		},
+	],
 
 	illustrator: "rika",
 
-	thirdParty: {
-		cardmarket: 769228
-	}
 }
 
 export default card

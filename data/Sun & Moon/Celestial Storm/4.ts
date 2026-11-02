@@ -86,6 +86,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "While young, they live together deep in the mountains, training themselves in how to fight with their scythes and move at high speeds.",
+		de: "Junge Sichlor wohnen in Gruppen tief in den Bergen. Dort trainieren sie ihre Schnelligkeit und üben den Kampf mit Sicheln."
+	},
+
 	thirdParty: {
 		cardmarket: 361251,
 		tcgplayer: 170810

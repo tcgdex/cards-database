@@ -44,23 +44,34 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794271,
+				tcgplayer: 590092
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794271,
+				tcgplayer: 590092
+			}
+		},
 	],
 
 	illustrator: "Narumi Sato",
-
-	thirdParty: {
-		cardmarket: 794271
-	}
+	
 }
 
 export default card

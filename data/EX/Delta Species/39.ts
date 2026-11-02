@@ -4,7 +4,7 @@ import Set from '../Delta Species'
 const card: Card = {
 	name: {
 		en: "Ditto",
-		fr: "Metamorph",
+		fr: "Métamorph",
 		de: "Ditto"
 	},
 
@@ -12,6 +12,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [25],
 
 	dexId: [
 		132,

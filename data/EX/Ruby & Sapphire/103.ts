@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Sneasel ex",
 		fr: "Farfuret ex",
-		de: "Sniebel ex"
+		de: "Sniebel-ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -13,17 +13,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		215,
-	],
+	dexId: [215],
 
 	hp: 80,
 
+	stage: "Basic",
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
@@ -38,9 +37,9 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez deux pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de face.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl Kopf zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -57,9 +56,9 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin for each of your Pokémon in play (including Sneasel ex). This attack does 20 damage times the number of heads.",
 				fr: "Lancez une pièce pour chaque Pokémon que vous avez en jeu (Farfuret Ex inclus). Cette attaque inflige 20 dégâts multipliés par le nombre de face.",
-				de: "Wirf eine Münze für jedes deiner Pokémon (einschließlich dieses Pokémon). Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl Kopf zu."
+				de: "Wirf eine Münze für jedes deiner Pokémon im Spiel (einschließlich dieses Pokémon). Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
@@ -81,18 +80,14 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275751,
-		tcgplayer: 89374
-	},
-
 	variants: [
 		{
-			type: "normal",
-		},
-		{
-			type: "reverse",
-		},
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 89374,
+				cardmarket: 275751
+			}
+		}
 	]
 }
 

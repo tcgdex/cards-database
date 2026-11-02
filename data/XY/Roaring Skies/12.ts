@@ -84,6 +84,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The bunch of fruit around its neck ripens twice a year and is delicious. It's a highly favored tropical snack.",
+	},
+
 	thirdParty: {
 		cardmarket: 282680,
 		tcgplayer: 98048

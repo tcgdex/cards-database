@@ -96,10 +96,34 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 299489,
-		tcgplayer: 138577
-	}
+	description: {
+		en: "It chases people and Pokémon from its territory by causing them to experience deep, nightmarish slumbers.",
+		de: "Es vertreibt Eindringlinge aus seinem Revier, indem es sie in Schlaf versetzt und mit Alpträumen quält."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 299489,
+				tcgplayer: 138577
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['poke-ball-league'],
+			thirdParty: {
+				cardmarket: 371621
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299489,
+				tcgplayer: 138577
+			}
+		},
+	],
 }
 
 export default card

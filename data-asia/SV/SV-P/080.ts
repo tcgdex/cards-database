@@ -1,39 +1,32 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "密勒頓"
+		ja: "基本炎エネルギー",
+		'zh-tw': "密勒頓",
 	},
 
-	illustrator: "GOSSAN",
-	category: "Pokemon",
-	hp: 110,
-	types: ["Dragon"],
+	illustrator: "",
+	category: "Energy",
+	energyType: "Normal",
 
-	description: {
-		'zh-tw': "牠似乎就是古書裡所提及的 鐵大蛇。傳說牠曾用雷電 將大地化成了一片灰。"
+	effect: {
+		ja: "&copy;Pokémon/Nintendo/Creatures/GAME FREAK ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの商標です。 このホームページに掲載された画像その他の内容の無断転載はお断りします。",
 	},
 
-	stage: "Basic",
-
-	attacks: [{
-		name: {
-			'zh-tw': "暴衝高點"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 727989,
+				tcgplayer: 587838,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "從自己的牌庫選擇最多2張基本能量卡，以任意方式附於自己的「未來」寶可夢身上。並且重洗牌庫。"
-		},
+	rarity: "Promo",
+};
 
-		damage: 40,
-		cost: ["Colorless"]
-	}],
-
-	retreat: 2,
-	regulationMark: "H"
-}
-
-export default card
+export default card;

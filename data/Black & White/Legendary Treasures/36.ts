@@ -10,6 +10,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [278, 568],
 
 	dexId: [
 		489,
@@ -59,6 +60,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It drifts in warm seas. It always returns to where it was born, no matter how far it may have drifted.",
+	},
 
 	thirdParty: {
 		cardmarket: 281187,

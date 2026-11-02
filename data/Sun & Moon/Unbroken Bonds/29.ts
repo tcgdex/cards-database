@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Torracat",
 		fr: "Matoufeu",
+		de: "Miezunder"
 	},
 
 	stage: "Stage2",
@@ -90,6 +91,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Although it's rough mannered and egotistical, it finds beating down unworthy opponents boring. It gets motivated for stronger opponents.",
+		de: "Es ist wild und egoistisch, aber Schwächere anzugreifen findet es langweilig und abstoßend. Nur gegen Stärkere kommt es richtig in Fahrt."
+	},
 
 	thirdParty: {
 		cardmarket: 372321,

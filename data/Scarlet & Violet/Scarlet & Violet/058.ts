@@ -35,14 +35,30 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "Shin Nagasawa",
+
+	description: {
+		en: "It lives in frigid regions in pods of five or so individuals. It loves the minerals found in snow and ice.",
+		de: "In Herden aus circa fünf Artgenossen bewohnt es frostige Gebiete. Am liebsten frisst es Mineralien, die in Schnee und Eis enthalten sind."
+	},
 
 	thirdParty: {
         cardmarket: 702353,

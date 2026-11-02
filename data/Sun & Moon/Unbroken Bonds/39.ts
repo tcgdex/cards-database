@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Poliwhirl",
 		fr: "Têtarte",
+		de: "Quaputzi"
 	},
 
 	stage: "Stage2",
@@ -86,6 +87,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "It's quite a gifted swimmer, even among Water-type Pokémon, but it normally spends its time on land.",
+		de: "Selbst unter den Wasser-Pokémon gilt es als hervorragender Schwimmer. Dennoch hält es sich vorwiegend an Land auf."
+	},
 
 	thirdParty: {
 		cardmarket: 372330,

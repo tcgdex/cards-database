@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Flaaffy"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	dexId: [180],
 	hp: 90,
 	types: ["Lightning"],
@@ -79,18 +79,22 @@ const card: Card = {
 
 	retreat: 2,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 573857
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 573857,
+				tcgplayer: 246931
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"]
+		},
+	],
 }
 
 export default card

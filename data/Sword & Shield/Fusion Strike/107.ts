@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Ryuta Fuse",
 
 	description: {
-		en: "This short-tempered and aggressive Pokémon chugs stagnant water to absorb any toxins it might contain."
+		en: "This short-tempered and aggressive Pokémon chugs stagnant water to absorb any toxins it might contain.",
+		de: "Dieses streitsüchtige und leicht reizbare Pokémon kippt abgestandenes Wasser in sich hinein und nimmt die darin enthaltenen Giftstoffe in sich auf."
 	},
 
 	attacks: [{
@@ -61,17 +68,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582500,
-		tcgplayer: 253263
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 582500,
+				tcgplayer: 253263
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582500,
+				tcgplayer: 253263
+			}
+		},
+	],
 }
 
 export default card

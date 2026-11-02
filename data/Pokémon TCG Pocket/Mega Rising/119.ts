@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Carbink"
+		en: "Carbink",
+		fr: "Strassie"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -24,14 +25,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Guard Press"
+			en: "Guard Press",
+			fr: "Pression de Garde"
 		},
 
 		damage: 30,
 		cost: ["Psychic"],
 
 		effect: {
-			en: "During your opponent's next turn, this Pokémon takes −30 damage from attacks."
+			en: "During your opponent's next turn, this Pokémon takes −30 damage from attacks.",
+			fr: "Pendant le prochain tour de votre adversaire, ce Pokémon subit − 30 dégâts provenant des attaques."
 		}
 	}],
 

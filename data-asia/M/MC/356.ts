@@ -1,0 +1,47 @@
+import { Card } from "../../../interfaces";
+import Set from "../MC";
+
+const card: Card = {
+	set: Set,
+	name: {
+		ja: "コレクレー",
+	},
+
+	illustrator: "Takeshi Nakamura",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Psychic"],
+
+	description: {
+		ja: "およそ１５００年前 宝箱の中で 生まれた。 宝を 盗む 不埒者の 生気を 吸い取る。",
+	},
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			name: { ja: "ビンタ" },
+			damage: 10,
+			cost: ["Colorless"],
+		},
+	],
+
+	weaknesses: [{ type: "Darkness", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 863658,
+			},
+		},
+	],
+
+	retreat: 2,
+	regulationMark: "I",
+	rarity: "None",
+	dexId: [999],
+};
+
+export default card;

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		296,
-	],
+	dexId: [296],
 
 	hp: 50,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Fling",
 				fr: "Lancer",
-				de: "Fling"
+				de: "Austoben"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur contre un des Pokémon de son Banc.",
-				de: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
+				de: "Dein Gegner tauscht sein Aktives Pokémon gegen 1 seiner Pokémon auf der Bank aus."
 			},
 
 		},
@@ -50,7 +48,7 @@ const card: Card = {
 			name: {
 				en: "Low Kick",
 				fr: "Balayage",
-				de: "Low Kick"
+				de: "Kick"
 			},
 
 			damage: 30,
@@ -68,23 +66,29 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275705,
-		tcgplayer: 87126
-	},
 
-	variants: [
-		{
-			type: "normal",
-		},
-		{
-			type: "reverse",
-		},
-		{
-			type: "normal",
-			subtype: "no-e-reader"
+	variants: [{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 275705,
+			tcgplayer: 87126
 		}
-	]
+	},
+	{
+		type: "reverse",
+		thirdParty: {
+			tcgplayer: 87126
+		}
+	},
+	{
+		type: "normal",
+		subtype: "no-e-reader",
+		thirdParty: {
+			tcgplayer: 125142
+		}
+	}
+	],
+
 }
 
 export default card

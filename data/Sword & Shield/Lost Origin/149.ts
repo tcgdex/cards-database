@@ -4,6 +4,7 @@ import Set from "../Lost Origin"
 const card: Card = {
 	dexId: [775],
 	set: Set,
+	cameoDexIds: [14],
 
 	name: {
 		en: "Komala",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Koalelu"
 	},
 
+	illustrator: "HYOGONOSUKE",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
@@ -69,16 +71,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674158,
-		tcgplayer: 284077
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674158,
+				tcgplayer: 284077
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674158,
+				tcgplayer: 284077
+			}
+		},
+	],
 }
 
 export default card

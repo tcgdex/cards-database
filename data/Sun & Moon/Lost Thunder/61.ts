@@ -79,6 +79,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Their snot is a barometer of health. When healthy, their snot is sticky and the power of their ice moves increases.",
+		de: "Fühlt es sich wohl, wird der Schleim, der aus seiner Nase trieft, klebrig und die Stärke seiner Eis-Attacken nimmt zu."
+	},
+
 	thirdParty: {
 		cardmarket: 365699,
 		tcgplayer: 178870

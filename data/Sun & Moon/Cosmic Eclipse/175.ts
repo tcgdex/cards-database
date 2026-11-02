@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Lillipup",
 		fr: "Ponchiot",
+		de: "Yorkleff"
 	},
 
 	stage: "Stage1",
@@ -84,6 +85,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "The longer its black fur grows, the harder and more impervious it gets. Claws and fangs can't easily penetrate it.",
+		de: "Mit zunehmendem Alter wird sein dunkles Fell immer widerstandsfähiger, sodass selbst Klauen und Fangzähne es kaum durchdringen können."
+	},
 
 	thirdParty: {
 		cardmarket: 408499,

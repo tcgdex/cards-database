@@ -1,22 +1,59 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "先機球"
+		ja: "カナザワのピカチュウ",
+		'zh-tw': "先機球",
 	},
 
-	illustrator: "Ryo Ueda",
-	category: "Trainer",
+	illustrator: "Fuzichoco",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Lightning"],
 
-	effect: {
-		'zh-tw': "這張卡必須將自己的1張手牌丟棄才可使用。 從自己的牌庫選擇1張【基礎】寶可夢卡，在給對手看過後加入手牌。並且重洗牌庫。"
+	description: {
+		ja: "つくる 電気が 強力な ピカチュウほど ほっぺの 袋は 軟らかく よく 伸びるぞ。",
 	},
 
-	trainerType: "Item",
-	regulationMark: "D"
-}
+	stage: "Basic",
 
-export default card
+	attacks: [
+		{
+			name: { ja: "ニューオープン" },
+			cost: ["Colorless"],
+			effect: {
+				ja: "おたがいのプレイヤーは、それぞれ自分の山札を上から1枚オモテにして、相手に見せて、手札に加える。",
+			},
+		},
+		{
+			name: { ja: "ピカさんぽ" },
+			damage: "30+",
+			cost: ["Lightning", "Colorless", "Colorless"],
+			effect: {
+				ja: "コインを1回投げオモテなら、30ダメージ追加。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 525415,
+				tcgplayer: 597346,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "D",
+	rarity: "Promo",
+	dexId: [25],
+};
+
+export default card;

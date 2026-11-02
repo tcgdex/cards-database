@@ -69,6 +69,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It will use any means necessary to frighten people and absorb their life energy. It practices constantly to hone its skill in causing fear.",
+		de: "Es lässt nichts unversucht, um Menschen zu erschrecken und ihnen Lebensenergie abzusaugen. Dafür übt es regelmäßig."
+	},
+
 	thirdParty: {
 		cardmarket: 311889,
 		tcgplayer: 149062

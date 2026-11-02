@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Natu",
 		fr: "Natu",
+		de: "Natu"
 	},
 
 	stage: "Stage1",
@@ -86,6 +87,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "They say that it stays still and quiet because it is seeing both the past and future at the same time.",
+		de: "Man sagt, es sei so still und in sich gekehrt, weil es die Zukunft und die Vergangenheit parallel sieht."
+	},
 
 	thirdParty: {
 		cardmarket: 365725,

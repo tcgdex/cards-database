@@ -74,18 +74,39 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "By drumming, it taps into the power of its special tree stump. The roots of the stump follow its direction in battle.",
+		de: "Es kontrolliert die Macht seines speziellen Baumstumpfes durch Trommeln. Im Kampf manipuliert es damit Wurzeln."
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769190,
+				tcgplayer: 550060
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769190,
+				tcgplayer: 550060
+			}
+		},
+	],
 
 	illustrator: "toriyufu",
 
-	thirdParty: {
-		cardmarket: 769190
-	}
 }
 
 export default card

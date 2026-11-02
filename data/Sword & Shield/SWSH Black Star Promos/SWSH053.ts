@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "SATOSHI NAKAI",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 170,
 	types: ["Fighting"],
@@ -86,18 +86,18 @@ const card: Card = {
 	stage: "Stage2",
 	dexId: [68],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 505885
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 505885,
+				tcgplayer: 222073
+			}
+		},
+	],
 }
 
 export default card

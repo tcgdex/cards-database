@@ -4,6 +4,7 @@ import Set from "../Twilight Masquerade"
 const card: Card = {
 	dexId: [1012],
 	set: Set,
+	cameoDexIds: [35],
 
 	name: {
 		en: "Poltchageist",
@@ -57,19 +58,32 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false,
-		reverse: false
+	description: {
+		en: "Poltchageist looks like a regional form of Sinistea, but it was recently discovered that the two Pokémon are entirely unrelated.",
+		de: "Es sieht aus wie eine Regionalform von Fatalitee, doch vor Kurzem fand man heraus, dass zwischen den beiden Pokémon keine Verbindung besteht."
 	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769345,
+				tcgplayer: 550215
+			}
+		},
+	],
 
 	illustrator: "Saboteri",
 
-	thirdParty: {
-		cardmarket: 769345
-	}
 }
 
 export default card

@@ -95,6 +95,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A master of courtesy and swordsmanship, it fights using extending swords on its elbows.",
+		de: "Es kämpft, indem es die Schwerter an seinen Ellbogen verlängert. Es ist ein Meister des Kampfes."
+	},
+
 	thirdParty: {
 		cardmarket: 286330,
 		tcgplayer: 107203

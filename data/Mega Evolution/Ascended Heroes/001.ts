@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Yoriyuki Ikegami",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [43],
 	hp: 60,
 	types: ["Grass"],
 	stage: "Basic",
@@ -47,13 +48,46 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675813,
-		cardmarket: 869612
-	}
+	description: {
+		en: "When it is woken by moonlight, it wanders about. But during the day, it stays still underground.",
+		fr: "Il vagabonde la nuit, réveillé par la lumière de la lune. En journée, il reste immobile, enfoui sous terre.",
+		de: "Es erwacht bei Mondschein und wandert umher. Tagsüber verharrt es still unter der Erde."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 869612,
+				tcgplayer: 675813
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 870136,
+				tcgplayer: 676852
+			}
+		},
+		{
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 870135,
+				tcgplayer: 676992
+			}
+		},
+	],
 }
 
 export default card

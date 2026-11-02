@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Carvanha",
@@ -61,16 +55,29 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "With its sturdy jaws and fangs, it can easily chomp wooden boats to splinters. It fights with Basculin over food."
+		en: "With its sturdy jaws and fangs, it can easily chomp wooden boats to splinters. It fights with Basculin over food.",
+		de: "Mit seinem robusten Kiefer und starken Zähnen zerbeißt es mühelos Holzboote. Es streitet mit Barschuft um Futter."
 	},
 
 	dexId: [318],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574059,
-		tcgplayer: 246839
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574059,
+				tcgplayer: 246839
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574059,
+				tcgplayer: 246839
+			}
+		},
+	],
 }
 
 export default card

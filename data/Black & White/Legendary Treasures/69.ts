@@ -61,6 +61,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Their ribbonlike feelers increase their psychic power. They are always staring at something.",
+	},
+
 	thirdParty: {
 		cardmarket: 281220,
 		tcgplayer: 85849

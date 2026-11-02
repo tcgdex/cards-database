@@ -3,6 +3,7 @@ import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [39],
 
 	name: {
 		en: "Wigglytuff",
@@ -12,6 +13,16 @@ const card: Card = {
 		de: "Knuddeluff",
 		it: "Wigglytuff",
 		pt: "Wigglytuff"
+	},
+
+	evolveFrom: {
+		en: "Jigglypuff",
+		fr: "Rondoudou",
+		es: "Jigglypuff",
+		'es-mx': "Jigglypuff",
+		de: "Pummeluff",
+		it: "Jigglypuff",
+		pt: "Jigglypuff",
 	},
 
 	rarity: "Illustration rare",
@@ -62,19 +73,32 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam.",
+		fr: "Il a une très belle fourrure. Mieux vaut éviter de le mettre en colère, ou il gonflera avant d'attaquer de tout son corps.",
+		de: "Es hat sehr feines Fell. Doch Vorsicht: Verärgert man Knuddeluff, bläst es sich stark auf und stürzt sich mit seinem ganzen Körper auf einen."
+	},
+
+	illustrator: "REND",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857680,
+				tcgplayer: 662240,
+				cardtrader: 356891
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857680,
-		tcgplayer: 662240
-	}
 }
 
 export default card

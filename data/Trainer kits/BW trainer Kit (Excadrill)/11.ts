@@ -18,7 +18,9 @@ const card: Card = {
 	rarity: "None",
 	category: "Pokemon",
 	hp: 60,
-	types: ["Fighting"],
+	types: [
+		"Fighting"
+	],
 	stage: "Basic",
 
 	attacks: [{
@@ -28,7 +30,8 @@ const card: Card = {
 		],
 		name: {
 			en: "Pound",
-			fr: "Écras'Face"
+			fr: "Écras'Face",
+			de: "Pfund"
 		},
 		damage: 30
 	}],
@@ -36,15 +39,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "2x"
+			value: "×2"
 		},
 	],
 
+
 	description: {
-		en: "It fights by swinging a piece of lumber around. It is close to evolving when it can handle the lumber without difficulty."
+		en: "It fights by swinging a piece of lumber around. It is close to evolving when it can handle the lumber without difficulty.",
+		de: "Greift Gegner mit einem Holzbalken an. Fällt es ihm leicht, den schweren Balken zu tragen, ist seine Entwicklung nah."
 	},
 
 	retreat: 1,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 280072,
+				tcgplayer: 98685
+			}
+		},
+	],
+
 }
 
 export default card

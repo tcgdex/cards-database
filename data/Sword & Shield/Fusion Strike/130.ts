@@ -34,7 +34,8 @@ const card: Card = {
 	illustrator: "Souichirou Gunjima",
 
 	description: {
-		en: "Apparently the Dreepy inside Dragapult's horns eagerly look forward to being launched out at Mach speeds."
+		en: "Apparently the Dreepy inside Dragapult's horns eagerly look forward to being launched out at Mach speeds.",
+		de: "Die Grolldra, die in seinen Hörnern sitzen, warten angeblich voller Spannung darauf, mit Mach-Geschwindigkeit abgefeuert zu werden."
 	},
 
 	attacks: [{
@@ -84,17 +85,30 @@ const card: Card = {
 		value: "-30"
 	}],
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582671,
-		tcgplayer: 253327
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 582671,
+				tcgplayer: 253327
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 883763
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582671,
+				tcgplayer: 253327
+			}
+		},
+	],
 }
 
 export default card

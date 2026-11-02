@@ -47,7 +47,7 @@ const card: Card = {
 		effect: {
 			en: "This attack does 30 damage for each Item card in your opponent's discard pile.",
 			fr: "Cette attaque inflige 30 dégâts pour chaque carte Objet dans la pile de défausse de votre adversaire.",
-			de: "Diese Attacke fügt für jede Itemkarte im Ablagestapel deines Gegners 30 Schadenspunkte zu.",
+			de: "Diese Attacke fügt 30 für jede Itemkarte im Ablagestapel deines Gegners 30 Schadenspunkte zu.",
 			it: "Questo attacco infligge 30 danni per ogni carta Strumento nella pila degli scarti del tuo avversario.",
 			pt: "Este ataque causa 30 pontos de dano para cada carta de Item na pilha de descarte do seu oponente.",
 			es: "Este ataque hace 30 puntos de daño por cada carta de Objeto en la pila de descartes de tu rival.",
@@ -73,10 +73,38 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 835945
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 835945,
+				tcgplayer: 642474
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 835945,
+				tcgplayer: 642474
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836308,
+				tcgplayer: 642719
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836309,
+				tcgplayer: 642647
+			}
+		}
+	],
 }
 
 export default card

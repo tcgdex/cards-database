@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drednaw"
+		en: "Drednaw",
+		fr: "Torgamord"
 	},
 
 	illustrator: "Anesaki Dynamic",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Chewtle"
+		en: "Chewtle",
+		fr: "Khélocrok"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Jaw Lock"
+			en: "Jaw Lock",
+			fr: "Croque Fort"
 		},
 
 		damage: 70,
 		cost: ["Water", "Water", "Colorless"],
 
 		effect: {
-			en: "During your opponent's next turn, the Defending Pokémon can't retreat."
+			en: "During your opponent's next turn, the Defending Pokémon can't retreat.",
+			fr: "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite."
 		}
 	}],
 

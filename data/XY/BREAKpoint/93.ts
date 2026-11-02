@@ -79,6 +79,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When it's happy, Glameow demonstrates beautiful movements of its tail, like a dancing ribbon.",
+		de: "Je nach Laune lässt es seinen Schweif anmutig wirbeln, ganz wie das Band eines Sportgymnasten."
+	},
+
 	thirdParty: {
 		cardmarket: 288268,
 		tcgplayer: 111626

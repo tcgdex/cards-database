@@ -72,23 +72,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "A brutish Pokémon that loves to battle. It will crash itself into any foe that approaches its nest."
+		en: "A brutish Pokémon that loves to battle. It will crash itself into any foe that approaches its nest.",
+		de: "Es ist sehr rauflustig. Nähert sich ein Gegner seinem Unterschlupf, geht es gnadenlos auf ihn los."
 	},
 
-	thirdParty: {
-		cardmarket: 545311,
-		tcgplayer: 234176
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545311,
+				tcgplayer: 234176
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545311,
+				tcgplayer: 234176
+			}
+		},
+	],
 }
 
 export default card

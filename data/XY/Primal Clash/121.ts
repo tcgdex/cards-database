@@ -106,6 +106,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It has ears like shovels. Digging holes strengthens its ears so much that they can sever thick roots effortlessly.",
+	},
+
 	thirdParty: {
 		cardmarket: 273651,
 		tcgplayer: 96019

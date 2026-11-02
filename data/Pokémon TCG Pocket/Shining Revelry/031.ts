@@ -23,7 +23,9 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Kadabra"
+		en: "Kadabra",
+		fr: "Kadabra",
+		de: "Kadabra"
 	},
 
 	description: {
@@ -31,7 +33,7 @@ const card: Card = {
 		fr: "Doué d'une intelligence hors du commun,\nce Pokémon serait capable de conserver tous\nses souvenirs, de sa naissance jusqu'à sa mort.",
 		es: "Posee una capacidad intelectual fuera de\nlo común que le permite recordar todo lo\nsucedido desde el instante de su nacimiento.",
 		it: "Possiede un intelletto estremamente elevato\ne si dice sia in grado di ricordare ogni evento\ndella sua vita, dalla nascita alla morte.",
-		de: "Es verfügt über extrem hohe Intelligenz und soll\nsich an alles erinnern können, was zwischen seiner\nGeburt und seinem Tod passiert.",
+		de: "Es verfügt über extrem hohe Intelligenz und soll sich an alles erinnern können, was zwischen seiner Geburt und seinem Tod passiert.",
 		'pt-br': "Tem um nível de inteligência incrivelmente alto.\nAlguns dizem que Alakazam se lembra de tudo\nque acontece na sua vida, do nascimento até a morte.",
 		ko: "매우 높은 지능을 지녔다.\n태어나서 죽을 때까지 일어나는 일을\n모두 기억한다고 한다."
 	},

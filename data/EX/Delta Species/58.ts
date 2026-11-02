@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Bagon δ",
 		fr: "Draby δ",
-		de: "Kindwurm"
+		de: "Kindwurm δ"
 	},
 
 	illustrator: "Hajime Kusajima",
@@ -38,7 +38,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Fire Energy card attached to Bagon.",
-				fr: "Défaussez une carte Énergie  attachée à Draby.",
+				fr: "Défaussez une carte Énergie {R} attachée à Draby.",
 				de: "Discard a  Energy card attached to Bagon."
 			},
 			damage: 30,

@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Petilil",
@@ -49,16 +43,29 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "They prefer clean water and soil. When the environment they live in turns bad, the whole bunch will up and move to a new area."
+		en: "They prefer clean water and soil. When the environment they live in turns bad, the whole bunch will up and move to a new area.",
+		de: "Sie bevorzugen sauberes Wasser und reine Erde. Sollten sich die Bedingungen in der Umgebung verschlechtern, ziehen sie in der Gruppe weiter."
 	},
 
 	dexId: [548],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574033,
-		tcgplayer: 246823
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574033,
+				tcgplayer: 246823
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574033,
+				tcgplayer: 246823
+			}
+		},
+	],
 }
 
 export default card

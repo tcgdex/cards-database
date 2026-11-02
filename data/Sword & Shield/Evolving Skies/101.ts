@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Garbodor VMAX",
@@ -91,10 +85,15 @@ const card: Card = {
 	dexId: [569],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574149,
-		tcgplayer: 246738
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574149,
+				tcgplayer: 246738
+			}
+		},
+	],
 }
 
 export default card

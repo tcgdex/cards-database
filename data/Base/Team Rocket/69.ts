@@ -47,25 +47,33 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Bien qu'on en trouve normalement que dans les centrales, on en aperçoit parfois en ville, utilisant apparemment les lignes électriques pour voyager."
+		en: "Usually seen only in power plants, it is sometimes seen in towns, apparently using the power lines to travel.",
+		fr: "Bien qu'on en trouve normalement que dans les centrales, on en aperçoit parfois en ville, utilisant apparemment les lignes électriques pour voyager.",
+		de: "Kommt normalerweise nur in Kraftwerken vor. Manchmal in Städten zu sehen, da es anscheinend Stromleitungen entlang wandert."
 	},
 
-	thirdParty: {
-		cardmarket: 274122,
-		tcgplayer: 90409
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274122,
+				tcgplayer: 90409
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
-		}
-	]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274122,
+				tcgplayer: 90409
+			}
+		},
+	],
 }
 
 export default card

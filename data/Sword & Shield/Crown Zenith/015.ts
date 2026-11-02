@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Mabula"
 	},
 
+	illustrator: "Atsuko Nishida",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -38,7 +39,7 @@ const card: Card = {
 			es: "Une 1 carta de Energía Lightning de tu pila de descartes a este Pokémon.",
 			it: "Assegna a questo Pokémon una carta Energia Lightning dalla tua pila degli scarti.",
 			pt: "Ligue 1 carta de Energia Lightning da sua pilha de descarte a este Pokémon.",
-			de: "Lege 1 Lightning-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+			de: "Lege 1 {L}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 		}
 	}, {
 		cost: ["Colorless", "Colorless", "Colorless"],
@@ -64,20 +65,39 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It uses its big jaws to dig nests into the forest floor, and it loves to feed on sweet tree sap.",
+		de: "Mit seinem großen Kiefer gräbt es sich seinen Bau im Waldboden. Zu seinen Leibspeisen gehört süßer Baumsaft."
 	},
 
-	thirdParty: {
-		cardmarket: 691732,
-		tcgplayer: 478082
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691732,
+				tcgplayer: 478082
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691732,
+				tcgplayer: 478082
+			}
+		},
+	],
 }
 
 export default card

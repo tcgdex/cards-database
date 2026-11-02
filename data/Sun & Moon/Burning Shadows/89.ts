@@ -86,10 +86,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299491,
-		tcgplayer: 138581
-	}
+	description: {
+		en: "Opponents who stare at the flashing of the light-emitting spots on its body become dazed and lose their will to fight.",
+		de: "Gegner, die auf die blinkenden Punkte an seinem Körper blicken, werden geblendet und verlieren den Willen zu kämpfen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299491,
+				tcgplayer: 138581
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299491,
+				tcgplayer: 138581
+			}
+		},
+	],
 }
 
 export default card

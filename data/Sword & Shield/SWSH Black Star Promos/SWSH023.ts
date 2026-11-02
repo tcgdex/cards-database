@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Megumi Higuchi",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 160,
 	types: ["Lightning"],
@@ -77,18 +77,25 @@ const card: Card = {
 	stage: "Stage2",
 	dexId: [405],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 453453
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 453453,
+				tcgplayer: 213144
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				tcgplayer: 213145
+			}
+		},
+	],
 }
 
 export default card

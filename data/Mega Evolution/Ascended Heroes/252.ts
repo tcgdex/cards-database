@@ -14,9 +14,11 @@ const card: Card = {
 		pt: "Stunfisk ex"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
+	dexId: [618],
 	hp: 210,
 	types: ["Fighting"],
 	stage: "Basic",
@@ -71,13 +73,24 @@ const card: Card = {
 		damage: "100+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 676064,
-		cardmarket: 869863
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869863,
+				tcgplayer: 676064
+			}
+		}
+	],
 }
 
 export default card

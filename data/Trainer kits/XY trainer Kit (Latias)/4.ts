@@ -19,7 +19,8 @@ const card: Card = {
 	category: "Pokemon",
 
 	description: {
-		en: "These friendly Pokémon send signals to one another with beautiful chirps and tail-feather movements."
+		en: "These friendly Pokémon send signals to one another with beautiful chirps and tail-feather movements.",
+		de: "Ein sehr zutrauliches Pokémon. Durch Zwitschern und Bewegen der Schwanzfedern sendet es Signale an seine Gefährten."
 	},
 
 	stage: "Basic",
@@ -27,21 +28,24 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Peck",
-			fr: "Picpic"
+			fr: "Picpic",
+			de: "Schnabel"
 		},
 
 		damage: 10
 	}, {
 		name: {
 			en: "Quick Attack",
-			fr: "Vive-Attaque"
+			fr: "Vive-Attaque",
+			de: "Ruckzuckhieb"
 		},
 
 		damage: "10+",
 
 		effect: {
 			en: "Flip a coin. If heads, this attack does 20 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+			de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 		}
 	}],
 

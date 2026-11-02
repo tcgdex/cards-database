@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		261,
-	],
+	dexId: [261],
 
 	hp: 40,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Snarl",
 				fr: "Grondement féroce",
-				de: "Snarl"
+				de: "Knurren"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage to the Defending Pokémon. If tails, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts au Pokémon Défenseur. Si c'est pile, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Flip a coin. If heads, this attack does 10 damage to the Defending Pokémon. If tails, the Defending Pokémon is now Paralyzed."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte zu. Bei „Zahl“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -58,22 +56,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276042,
-		tcgplayer: 89838
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275842,
+				tcgplayer: 89838
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275842,
+				tcgplayer: 89838
+			}
+		},
+	],
+
 }
 
 export default card

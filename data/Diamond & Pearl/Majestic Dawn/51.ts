@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf 1 Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -67,6 +67,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It uses its tail to pluck fruits that are out of reach. Its tail is more adept than its real hands.",
+		de: "Mit seinem Schweif pflückt es hochhängende Früchte. Mit ihm ist es geschickter als mit den Händen."
+	},
 
 	thirdParty: {
 		cardmarket: 278099,

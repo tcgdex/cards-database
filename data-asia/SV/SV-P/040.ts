@@ -1,44 +1,32 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "皮卡丘"
+		ja: "基本雷エネルギー",
+		'zh-tw': "皮卡丘",
 	},
 
-	illustrator: "Jiro Sasumo",
-	category: "Pokemon",
-	hp: 70,
-	types: ["Lightning"],
+	illustrator: "",
+	category: "Energy",
+	energyType: "Normal",
 
-	description: {
-		'zh-tw': "雙頰上有儲存電力的囊袋。一旦生氣就會把儲存的電力 一口氣釋放出來。"
+	effect: {
+		ja: "&copy;Pokémon/Nintendo/Creatures/GAME FREAK ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの商標です。 このホームページに掲載された画像その他の内容の無断転載はお断りします。",
 	},
 
-	stage: "Basic",
-
-	attacks: [{
-		name: {
-			'zh-tw': "激戰電光"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 695781,
+				tcgplayer: 587797,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "擲硬幣直到出現反面，增加正面出現的次數×30點傷害。"
-		},
+	rarity: "Promo",
+};
 
-		damage: "30+",
-		cost: ["Lightning", "Lightning", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
-
-	retreat: 1,
-	regulationMark: "G"
-}
-
-export default card
+export default card;

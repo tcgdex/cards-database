@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 60,
 	types: ["Fighting"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Yuka Morii",
 
 	description: {
-		en: "When its skin gets wrinkled from moisture, it heads for a volcano. It lies flat on a spot with a lot of geothermal heat and dries itself out."
+		en: "When its skin gets wrinkled from moisture, it heads for a volcano. It lies flat on a spot with a lot of geothermal heat and dries itself out.",
+		de: "Bei zu viel Feuchtigkeit sucht es einen Vulkan auf, um auf dem warmen Erdboden seine aufgeweichte Haut wieder zu trocknen."
 	},
 
 	attacks: [{
@@ -71,17 +78,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582709,
-		tcgplayer: 253330
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582709,
+				tcgplayer: 253330
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582709,
+				tcgplayer: 253330
+			}
+		},
+	],
 }
 
 export default card

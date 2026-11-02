@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Krokel"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fire"],
@@ -35,9 +35,27 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
-	illustrator: "OKACHEKE"
+	illustrator: "OKACHEKE",
+	description: {
+		en: "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
+	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 751804,
+				tcgplayer: 537818
+			},
+		}
+	],
 }
 
 export default card

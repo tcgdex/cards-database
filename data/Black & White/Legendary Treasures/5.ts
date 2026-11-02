@@ -56,6 +56,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Using its tentacles to lash itself to trees, it lies in wait for prey, luring it close with sweet-smelling drool.",
+	},
+
 	thirdParty: {
 		cardmarket: 281156,
 		tcgplayer: 84107

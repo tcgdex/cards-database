@@ -79,6 +79,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The weakest Dragon-type Pokémon, it lives in damp, shady places, so its body doesn't dry out.",
+		de: "Dieses schwächste aller Drachen-Pokémon lebt an feuchten und schattigen Plätzen, um seinen glitschigen Körper vor dem Austrocknen zu bewahren."
+	},
+
 	thirdParty: {
 		cardmarket: 281881,
 		tcgplayer: 94643

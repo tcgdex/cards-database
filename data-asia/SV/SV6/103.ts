@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV6"
+import { Card } from "../../../interfaces";
+import Set from "../SV6";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "裹蜜蟲"
+		ja: "カミッチュ",
+		'zh-tw': "裹蜜蟲",
 	},
 
 	illustrator: "Akira Komayama",
@@ -14,43 +14,62 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		'zh-tw': "由露出了頭部的外頭蟲與 露出了尾巴的裡頭蟲相扶相持， 一起在蘋果裡面生活。"
+		ja: "頭を 出している そとッチュと 尻尾を 出している なかッチュが 助け合い りんごのなかで 暮らす。",
+		'zh-tw': "由露出了頭部的外頭蟲與 露出了尾巴的裡頭蟲相扶相持， 一起在蘋果裡面生活。",
 	},
 
 	stage: "Stage1",
 
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			'zh-tw': "祭典樂舞"
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "おまつりおんど",
+				'zh-tw': "祭典樂舞",
+			},
+			effect: {
+				ja: "場に「お祭り会場」が出ているなら、このポケモンは、持っているワザを2回連続で使える。（1回目のワザで相手のバトルポケモンがきぜつしたなら、次のバトルポケモンが出たあと、2回目のワザを使う。）",
+				'zh-tw': "若場上有「祭典會場」，則這隻寶可夢可使用持有的招式2次。（若對手的戰鬥寶可夢因第1次的招式而【昏厥】了，則在下一隻寶可夢放置後，使用第2次的招式。）",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "若場上有「祭典會場」，則這隻寶可夢可使用持有的招式2次。（若對手的戰鬥寶可夢因第1次的招式而【昏厥】了，則在下一隻寶可夢放置後，使用第2次的招式。）"
-		}
-	}],
-
-	attacks: [{
-		name: {
-			'zh-tw': "朋友之環"
+	attacks: [
+		{
+			name: {
+				ja: "ともだちのわ",
+				'zh-tw': "朋友之環",
+			},
+			damage: "20×",
+			cost: ["Grass"],
+			effect: {
+				ja: "自分のベンチポケモンの数×20ダメージ。",
+				'zh-tw': "造成自己的備戰寶可夢的數量×20點傷害。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "造成自己的備戰寶可夢的數量×20點傷害。"
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 767537,
+				tcgplayer: 568093,
+			},
 		},
+	],
 
-		damage: "20×",
-		cost: ["Grass"]
-	}],
-
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
+	evolveFrom: {
+		ja: "カジッチュ",
+	},
 
 	retreat: 2,
-	regulationMark: "H"
-}
+	regulationMark: "H",
+	rarity: "Illustration rare",
+	dexId: [1011],
+};
 
-export default card
+export default card;

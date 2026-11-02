@@ -19,6 +19,16 @@ const card: Card = {
 		ja: "このカードをつけている「テラスタル」のポケモンがワザを使うとき、そのワザを使うためのエネルギーは、1個ぶん少なくなる。（少なくなるのは、どのタイプのエネルギーでもよい。）"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 779108,
+				tcgplayer: 567949,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "H",
 	rarity: "None"

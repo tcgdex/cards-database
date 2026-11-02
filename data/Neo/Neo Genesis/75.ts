@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, until the end of your opponent's next turn the Defending Pokémon can't attack or retreat.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur ne peut pas attaquer ou battre en retraite jusqu'à la fin du prochain tour de votre adversaire.",
-				de: "Wirf eine Münze. Bei 'Kopf' kann sich das Verteidigende Pokémon biis zum Ende des nächsten Zuges weder angreifen noch sich zurückziehen."
+				de: "Wirf eine Münze. Bei „Kopf“ kann das verteidigende Pokémon bis zum Ende des nächsten gegnerischen Zugs weder angreifen noch sich zurückziehen."
 			},
 
 		},
@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -67,23 +67,31 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Il reste immobile dans sa toile pendant des jours, à l'affût d'une proie vulnérable."
+		en: "It lies still in the same pose for days in its web, waiting for its unsuspecting prey to wander close.",
+		fr: "Il reste immobile dans sa toile pendant des jours, à l'affût d'une proie vulnérable.",
+		de: "Es liegt tagelang in derselben Pose reglos in seinem Netz, wobei es darauf wartet, dass sein nichtsahnendes Opfer in seine Nähe gerät."
 	},
 
-	thirdParty: {
-		cardmarket: 274475,
-		tcgplayer: 89453
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274475,
+				tcgplayer: 89453
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274475,
+				tcgplayer: 89453
+			}
 		}
 	]
 }

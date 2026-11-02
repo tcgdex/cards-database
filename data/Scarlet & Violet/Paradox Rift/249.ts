@@ -4,6 +4,7 @@ import Set from "../Paradox Rift"
 const card: Card = {
 	dexId: [1006],
 	set: Set,
+	cameoDexIds: [991, 994, 995],
 
 	name: {
 		en: "Iron Valiant ex",
@@ -66,19 +67,30 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740792,
+				tcgplayer: 523930,
+				cardtrader: 265297
+			}
+		},
+	],
 
+	suffix: "ex",
 	illustrator: "kantaro",
 
-	thirdParty: {
-		cardmarket: 740792
-	}
+	
 }
 
 export default card

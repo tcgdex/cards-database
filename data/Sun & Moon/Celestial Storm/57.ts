@@ -84,6 +84,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "There is nothing its stomach can't digest. While it is digesting, vile, overpowering gases are expelled.",
+		de: "Es gibt nichts, das sein Magen nicht verdauen könnte. Während des Verdauungsvorgangs werden eklige, penetrante Gase freigesetzt."
+	},
+
 	thirdParty: {
 		cardmarket: 361302,
 		tcgplayer: 170878

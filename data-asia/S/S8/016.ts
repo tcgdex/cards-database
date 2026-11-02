@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S8"
+import { Card } from "../../../interfaces";
+import Set from "../S8";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "熔蟻獸"
+		ja: "クイタラン",
+		'zh-tw': "熔蟻獸",
 	},
 
 	illustrator: "Oswaldo KATO",
@@ -14,42 +14,56 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		'zh-tw': "將火焰當成舌頭來使用。會一點一點地熔化鐵蟻堅硬的外骨骼，然後把牠吃掉。"
+		ja: "炎を ベロの ように 使う。 アイアントの 硬い 外骨格を じわじわと 溶かし いただくのだ。",
+		'zh-tw': "將火焰當成舌頭來使用。會一點一點地熔化鐵蟻堅硬的外骨骼，然後把牠吃掉。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "火焰纏身"
+	attacks: [
+		{
+			name: {
+				ja: "ほのおをまとう",
+				'zh-tw': "火焰纏身",
+			},
+			damage: 20,
+			cost: ["Fire"],
+			effect: {
+				ja: "自分のトラッシュから[炎]エネルギーを1枚選び、このポケモンにつける。",
+				'zh-tw': "從自己的棄牌區選擇1張【火】能量卡，附於這隻寶可夢身上。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "從自己的棄牌區選擇1張【火】能量卡，附於這隻寶可夢身上。"
+		{
+			name: {
+				ja: "エキサイトフレイム",
+				'zh-tw': "激動火焰",
+			},
+			damage: 90,
+			cost: ["Fire", "Fire", "Colorless"],
+			effect: {
+				ja: "このワザを使うためのエネルギーより、3個多くエネルギーがついているなら、相手のベンチポケモン1匹にも、180ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'zh-tw': "若身上附有的能量比使用這個招式所需的能量多3個，則對手的1隻備戰寶可夢也受到180點傷害。[在備戰區不計算弱點・抵抗力。]",
+			},
 		},
+	],
 
-		damage: 20,
-		cost: ["Fire"]
-	}, {
-		name: {
-			'zh-tw': "激動火焰"
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 575571,
+				tcgplayer: 569517,
+			},
 		},
-
-		effect: {
-			'zh-tw': "若身上附有的能量比使用這個招式所需的能量多3個，則對手的1隻備戰寶可夢也受到180點傷害。[在備戰區不計算弱點・抵抗力。]"
-		},
-
-		damage: 90,
-		cost: ["Fire", "Fire", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Water",
-		value: "×2"
-	}],
+	],
 
 	retreat: 2,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Common",
+	dexId: [631],
+};
 
-export default card
+export default card;

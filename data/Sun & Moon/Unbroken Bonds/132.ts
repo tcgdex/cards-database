@@ -70,6 +70,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They're popular, but they're rare. Trainers who show them off recklessly may be targeted by thieves.",
+		de: "Dieses beliebte Pokémon hat Seltenheitswert. Wer leichtsinnig damit prahlt, eins zu haben, könnte in das Visier von Dieben geraten."
+	},
+
 	thirdParty: {
 		cardmarket: 372419,
 		tcgplayer: 189230

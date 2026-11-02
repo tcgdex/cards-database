@@ -19,6 +19,16 @@ const card: Card = {
 		id: "Ambil 3 kartu dari atas Deck sendiri."
 	},
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 747697,
+				tcgplayer: 577565,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }

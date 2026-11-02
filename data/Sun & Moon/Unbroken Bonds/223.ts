@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Murkrow",
-		fr: "Cornèbre"
+		fr: "Cornèbre",
+		de: "Kramurx"
 	},
 
 	suffix: "GX",
@@ -92,7 +93,7 @@ const card: Card = {
 				es: "Injusto GX",
 				it: "Sleale GX",
 				pt: "Injusto GX",
-				de: "Unfair GX"
+				de: "Unfair-GX"
 			},
 			effect: {
 				en: "Your opponent reveals their hand. Discard 2 cards from it. (You can’t use more than 1 GX attack in a game.)",

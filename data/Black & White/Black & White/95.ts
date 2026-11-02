@@ -22,15 +22,27 @@ const card: Card = {
 		es: "Elimina todas las Condiciones Especiales de tu Pokémon Activo.",
 		it: "Rimuovi tutte le condizioni speciali dal tuo Pokémon attivo.",
 		pt: "Remova todas as Condições Especiais do seu Pokémon Ativo.",
-		de: "Alle Speziellen Zustände auf deinem Aktiven Pokémon verlieren ihre Wirkung."
+		de: "Alle Speziellen Zustände auf deinem Aktiven Pokémon verlieren ihre Wirkung. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 
-	thirdParty: {
-		cardmarket: 279833,
-		tcgplayer: 85580
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279833,
+				tcgplayer: 85580
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279833,
+				tcgplayer: 85580
+			}
+		},
+	],
 }
 
 export default card

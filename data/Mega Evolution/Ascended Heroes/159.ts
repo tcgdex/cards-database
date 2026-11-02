@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Drakloak"
 	},
 
+	evolveFrom: {
+		en: "Dreepy",
+		fr: "Fantyrm",
+		es: "Dreepy",
+		'es-mx': "Dreepy",
+		de: "Grolldra",
+		it: "Dreepy",
+		pt: "Dreepy",
+	},
+
 	illustrator: "cochi8i",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [886],
 	hp: 90,
 	types: ["Dragon"],
 	stage: "Stage1",
@@ -64,10 +75,37 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 675971,
-		cardmarket: 869770
-	}
+	description: {
+		en: "This Pokémon stores up energy in its lungs, then shoots it out. It takes care of Dreepy and battles alongside them until they’re all grown up.",
+		fr: "Il accumule de l'énergie dans ses poumons puis l'expulse. Il prend soin de son Fantyrm et se bat à ses côtés jusqu'à ce qu'il grandisse.",
+		de: "In der Lunge sammelt es Energie, die es dann abschießt. Es kümmert sich so lange um Grolldra, bis dieses ausgewachsen ist."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869770,
+			tcgplayer: 675971
+		}
+	},
+	{
+		type: "reverse",
+		foil: "quickball",
+		thirdParty: {
+			cardmarket: 870386,
+			tcgplayer: 676977
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870385,
+			tcgplayer: 677117
+		}
+	},
+],
 }
 
 export default card

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Pancham",
 		fr: "Pandespiègle",
+		de: "Pam-Pam"
 	},
 
 	stage: "Stage1",
@@ -100,6 +101,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "From the slight twitches of its bamboo leaf, it deduces its opponent's movements. It's eager to tussle but kindhearted toward its companions.",
+		de: "Mit seinem Blatt erspürt es die Bewegungen des Gegners. Es ist sehr grob und streitlustig, hält aber stets zu seinen Artgenossen."
+	},
 
 	thirdParty: {
 		cardmarket: 355593,

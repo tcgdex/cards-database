@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "20x",
 
@@ -76,7 +76,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		fr: "Il pleure en pensant à sa mère disparue, et ses larmes résonnent dans son crâne creux."
+		en: "When it thinks of its dead mother, it cries. Its crying makes the skull it wears rattle hollowly.",
+		fr: "Il pleure en pensant à sa mère disparue, et ses larmes résonnent dans son crâne creux.",
+		de: "Denkt es an seine verstorbene Mutter, weint es, wobei der Schädel auf seinem Kopf hohl klingt."
 	},
 
 	thirdParty: {

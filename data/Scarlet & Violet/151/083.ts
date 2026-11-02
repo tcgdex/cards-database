@@ -55,18 +55,48 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "They use a plant stalk as a weapon, but not all of them use it in the same way. Several distinct styles of stalk fighting have been observed.",
+		de: "Im Kampf verwendet es eine Lauchstange als Waffe. Es gibt verschiedene Meinungen dazu, wie diese korrekt zu schwingen sei."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733678,
+				tcgplayer: 516652,
+				cardtrader: 261117
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733678,
+				tcgplayer: 516652,
+				cardtrader: 261117
+			}
+		},
+	],
 
 	illustrator: "KG-2000",
 
-	thirdParty: {
-		cardmarket: 733678
-	}
+	
 }
 
 export default card

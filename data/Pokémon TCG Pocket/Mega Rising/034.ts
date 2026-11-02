@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Combusken"
+		en: "Combusken",
+		fr: "Galifeu"
 	},
 
 	illustrator: "GOSSAN",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Fire"],
 
 	evolveFrom: {
-		en: "Torchic"
+		en: "Torchic",
+		fr: "Poussifeu"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "High Jump Kick"
+			en: "High Jump Kick",
+			fr: "Pied Voltige"
 		},
 
 		damage: 50,

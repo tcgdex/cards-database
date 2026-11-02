@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "SATOSHI NAKAI",
 
 	description: {
-		en: "Its flight is soundless. It uses its lengthy tail to carry off its prey... Then its elongated fangs do the rest."
+		en: "Its flight is soundless. It uses its lengthy tail to carry off its prey... Then its elongated fangs do the rest.",
+		de: "Es fliegt völlig lautlos. Erst fängt es seine Beute mit seinem langen Schweif, dann saugt es sie aus."
 	},
 
 	attacks: [{
@@ -83,17 +90,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582755,
-		tcgplayer: 253350
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582755,
+				tcgplayer: 253350
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582755,
+				tcgplayer: 253350
+			}
+		},
+	],
 }
 
 export default card

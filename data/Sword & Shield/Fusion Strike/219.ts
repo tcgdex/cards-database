@@ -19,12 +19,25 @@ const card: Card = {
 	hp: 60,
 	types: ["Colorless"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "OKACHEKE",
 
 	description: {
-		en: "Jumping nimbly about, this small-bodied Pokémon takes advantage of even the slightest opportunity to disorient larger opponents."
+		en: "Jumping nimbly about, this small-bodied Pokémon takes advantage of even the slightest opportunity to disorient larger opponents.",
+		de: "Mit seinem kleinen Körper kann es flink fliegen und so mithilfe von trickreichen Taktiken größere Gegner überlisten."
 	},
 
 	attacks: [{
@@ -51,17 +64,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582955,
-		tcgplayer: 253319
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582955,
+				tcgplayer: 253319
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582955,
+				tcgplayer: 253319
+			}
+		},
+	],
 }
 
 export default card

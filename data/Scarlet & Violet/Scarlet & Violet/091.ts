@@ -35,14 +35,30 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "Mizue",
+
+	description: {
+		en: "This Flabébé rides a red flower. Immediately after birth, this Pokémon begins flying around in search of a flower it likes.",
+		de: "Dieses Flabébé umklammert eine rote Blume. Sofort nach der Geburt fliegt Flabébé umher, um eine Blume zu finden, die ihm zusagt."
+	},
 
 	thirdParty: {
         cardmarket: 702387,

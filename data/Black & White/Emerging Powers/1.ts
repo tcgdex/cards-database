@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Collect",
 				fr: "Collecte",
+				de: "Sammeln"
 			},
 			effect: {
 				en: "Draw a card.",
 				fr: "Piochez une carte.",
+				de: "Ziehe 1 Karte."
 			},
 
 		},
@@ -51,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				de: "Kratzer"
 			},
 
 			damage: 20,
@@ -74,10 +77,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279966,
-		tcgplayer: 87933
-	}
+	description: {
+		en: "This Pokémon dwells deep in the forest. Eating a leaf from its head whisks weariness away as if by magic.",
+		de: "Es lebt tief im Wald. Beißt man in die Kräuter auf seinem Kopf, fühlt man sich auf wundersame Weise erfrischt."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279966,
+				tcgplayer: 87933
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279966,
+				tcgplayer: 87933
+			}
+		},
+	],
 }
 
 export default card

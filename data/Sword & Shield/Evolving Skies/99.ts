@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Scrafty",
@@ -79,16 +73,29 @@ const card: Card = {
 	},
 
 	description: {
-		en: "While mostly known for having the temperament of an aggressive ruffian, this Pokémon takes very good care of its family, friends, and territory."
+		en: "While mostly known for having the temperament of an aggressive ruffian, this Pokémon takes very good care of its family, friends, and territory.",
+		de: "Es gibt sich gerne wild, aber seine Familie, seine Kameraden und sein Revier liegen ihm sehr am Herzen."
 	},
 
 	dexId: [560],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574147,
-		tcgplayer: 246905
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574147,
+				tcgplayer: 246905
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574147,
+				tcgplayer: 246905
+			}
+		},
+	],
 }
 
 export default card

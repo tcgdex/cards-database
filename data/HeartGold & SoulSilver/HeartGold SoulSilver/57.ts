@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		10,
-	],
+	dexId: [10],
 
 	hp: 30,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -51,22 +49,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its feet have suction cups designed to stick to any surface. It tenaciously climbs trees to forage."
+		en: "Its feet have suction cups designed to stick to any surface. It tenaciously climbs trees to forage.",
+		de: "Die Saugnäpfe an seinen Beinen haften auf jedem Untergrund. Es sucht hartnäckig in Bäumen nach Futter."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84138,
+				cardmarket: 279029
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84138,
+				cardmarket: 279029
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279029,
-		tcgplayer: 84138
-	}
 }
 
 export default card

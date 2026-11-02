@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It can sometimes live underground for more than 10 years. It absorbs nutrients from the roots of trees.",
+		de: "Manches Nincada lebt bis zu zehn Jahre unter der Erde und saugt Nährstoffe aus Baumwurzeln."
+	},
+
 	thirdParty: {
 		cardmarket: 365668,
 		tcgplayer: 178830

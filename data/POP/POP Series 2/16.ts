@@ -4,7 +4,8 @@ import Set from '../POP Series 2'
 const card: Card = {
 	name: {
 		en: "Pikachu",
-		fr: "Pikachu"
+		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	illustrator: "Yuka Morii",
@@ -12,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		25,
-	],
+	dexId: [25],
 
 	hp: 40,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -31,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Gnaw",
-				fr: "Rogne"
+				fr: "Rogne",
+				de: "Nagen"
 			},
 
 			damage: 10,
@@ -44,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Thunder Jolt",
-				fr: "Secousse tonnerre"
+				fr: "Secousse tonnerre",
+				de: "Donnerrüttler"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Pikachu does 10 damage to itself.",
-				fr: "Lancez une pièce. Si c'est pile, Pikachu s'inflige 10 dégâts."
+				fr: "Lancez une pièce. Si c'est pile, Pikachu s'inflige 10 dégâts.",
+				de: "Wirf eine Münze. Bei „Zahl“ fügt Pikachu sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -60,13 +62,18 @@ const card: Card = {
 			type: "Fighting"
 		},
 	],
-
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 277447,
-		tcgplayer: 88081
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88081,
+				cardmarket: 277447
+			},
+		},
+	],
+
 }
 
 export default card

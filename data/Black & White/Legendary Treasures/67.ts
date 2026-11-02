@@ -10,6 +10,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [278],
 
 	dexId: [
 		568,
@@ -61,6 +62,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Inhaling the gas they belch will make you sleep for a week. They prefer unsanitary places.",
+	},
 
 	thirdParty: {
 		cardmarket: 281218,

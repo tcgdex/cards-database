@@ -1,13 +1,12 @@
-import { Card } from "../../../interfaces"
-import Set from "../S12a"
+import { Card } from "../../../interfaces";
+import Set from "../S12a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
+		ja: "かがやくルチャブル",
 		'zh-tw': "光輝摔角鷹人",
 		th: "เรเดียนต์ลูจาบูล",
-		ja: "かがやくルチャブル"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -16,48 +15,58 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
+		ja: "身軽さを 活かした 戦法で 相手の 体力を 奪ってから 華麗な 大技を 決める。",
 		'zh-tw': "利用發揮輕盈體型優勢的戰法，在消耗了對手的體力之後 使用華麗的絕招分出勝負。",
 		th: "หลังจากทำให้คู่ต่อสู้หมดแรงด้วยกลยุทธ์สู้รบที่ใช้ความเบาของร่างกายแล้ว จะปิดฉากด้วยท่าต่อสู้ที่งดงามอลังการ",
-		ja: "身軽さを 活かした 戦法で 相手の 体力を 奪ってから 華麗な 大技を 決める。"
 	},
 
 	stage: "Basic",
 
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			'zh-tw': "大型競賽",
-			th: "บิ๊กแมตช์",
-			ja: "ビッグマッチ"
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				ja: "ビッグマッチ",
+				'zh-tw': "大型競賽",
+				th: "บิ๊กแมตช์",
+			},
+			effect: {
+				ja: "このポケモンがベンチにいるかぎり、自分のポケモンが使うワザの、相手のバトル場の「ポケモンVMAX」へのダメージは「+30」される。",
+				'zh-tw': "只要這隻寶可夢在備戰區，自己的寶可夢使用的招式，對對手的戰鬥場的「寶可夢【VMAX】」造成的傷害「+30」點。",
+				th: "ตราบใดที่โปเกมอนนี้ยังอยู่บนเบนช์ แดเมจของท่าต่อสู้ที่โปเกมอนฝ่ายเราใช้ทำกับ［โปเกมอน【VMAX】］บนตำแหน่งต่อสู้ฝ่ายตรงข้าม จะถูก [+30]",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "只要這隻寶可夢在備戰區，自己的寶可夢使用的招式，對對手的戰鬥場的「寶可夢【VMAX】」造成的傷害「+30」點。",
-			th: "ตราบใดที่โปเกมอนนี้ยังอยู่บนเบนช์ แดเมจของท่าต่อสู้ที่โปเกมอนฝ่ายเราใช้ทำกับ［โปเกมอน【VMAX】］บนตำแหน่งต่อสู้ฝ่ายตรงข้าม จะถูก [+30]",
-			ja: "このポケモンがベンチにいるかぎり、自分のポケモンが使うワザの、相手のバトル場の「ポケモンVMAX」へのダメージは「+30」される。"
-		}
-	}],
-
-	attacks: [{
-		name: {
-			'zh-tw': "迴轉踢",
-			th: "หมุนตัวเตะ",
-			ja: "かいてんげり"
+	attacks: [
+		{
+			name: {
+				ja: "かいてんげり",
+				'zh-tw': "迴轉踢",
+				th: "หมุนตัวเตะ",
+			},
+			damage: 50,
+			cost: ["Fighting", "Colorless"],
 		},
+	],
 
-		damage: 50,
-		cost: ["Fighting", "Colorless"]
-	}],
+	weaknesses: [{ type: "Psychic", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Psychic",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 687640,
+				tcgplayer: 571616,
+			},
+		},
+	],
 
 	retreat: 1,
 	regulationMark: "F",
-	dexId: [701]
-}
+	rarity: "Radiant Rare",
+	dexId: [701],
+};
 
-export default card
+export default card;

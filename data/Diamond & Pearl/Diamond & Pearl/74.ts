@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf 1 Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -78,7 +78,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		fr: "On peut lui enseigner quelques mots. S'il s'agit d'un groupe, ils retiendront les mêmes phrases."
+		en: "It can learn and speak human words. If they gather, they all learn the same saying.",
+		fr: "On peut lui enseigner quelques mots. S'il s'agit d'un groupe, ils retiendront les mêmes phrases.",
+		de: "Es kann die menschliche Sprache lernen. Versammeln sie sich, bringen sie sich alle dasselbe bei."
 	},
 
 	thirdParty: {

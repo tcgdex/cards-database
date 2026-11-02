@@ -4,6 +4,7 @@ import Set from "../Paldean Fates"
 const card: Card = {
 	dexId: [964],
 	set: Set,
+	cameoDexIds: [963],
 
 	name: {
 		en: "Palafin",
@@ -74,19 +75,33 @@ const card: Card = {
 		damage: 210
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751772,
+				tcgplayer: 534736,
+				cardtrader: 274409
+			}
+		},
+	],
 
 	illustrator: "akagi",
 
-	thirdParty: {
-		cardmarket: 751772
-	}
+	description: {
+		en: "This Pokémon's ancient genes have awakened. It is now so extraordinarily strong that it can easily lift a cruise ship with one fin.",
+		de: "Die uralten Gene dieses Pokémon sind erwacht. Es ist so übernatürlich stark, dass es mühelos mit einer Flosse ein Kreuzfahrtschiff anheben kann."
+	},
+
 }
 
 export default card

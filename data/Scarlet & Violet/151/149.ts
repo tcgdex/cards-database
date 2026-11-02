@@ -77,15 +77,40 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "It is said that somewhere in the ocean lies an island where these gather. Only they live there.",
+		de: "Man sagt, dass es irgendwo im Meer eine Insel gibt, auf der sie sich versammeln. Nur sie leben dort."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733744,
+				tcgplayer: 516712,
+				cardtrader: 261228
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733744,
+				tcgplayer: 516712,
+				cardtrader: 261228
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 864952
+			}
+		},
+	],
 
 	illustrator: "Sanosuke Sakuma",
 
-	thirdParty: {
-		cardmarket: 733744
-	}
+	
 }
 
 export default card

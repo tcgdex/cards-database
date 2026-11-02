@@ -22,6 +22,17 @@ const card: Card = {
 		id: "Pilih paling banyak 5 lembar Pokémon dari Trash sendiri, perlihatkan ke lawan, lalu kocok kembali ke Deck. Setelah itu, ambil 3 kartu dari atas Deck."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardtrader: 235654,
+				cardmarket: 693152,
+				tcgplayer: 568303,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }

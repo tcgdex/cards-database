@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Aggron ex",
 		fr: "Galeking ex",
-		de: "Stolloss ex"
+		de: "Stolloss-ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -25,10 +25,11 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Lairon",
-		fr: "Galegon"
+		fr: "Galegon",
+		de: "Stollrak"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{

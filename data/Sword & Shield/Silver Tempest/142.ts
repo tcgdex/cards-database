@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Wablu"
 	},
 
+	illustrator: "Miki Tanaka",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 50,
@@ -44,20 +45,43 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Its cottony wings are full of air, making them light and fluffy to the touch. Swablu takes diligent care of its wings.",
+		de: "Seine watteartigen Flügel enthalten Luft und fühlen sich daher schön flauschig an. Wablu lässt keine Gelegenheit aus, sie zu pflegen."
 	},
 
-	thirdParty: {
-		cardmarket: 682189,
-		tcgplayer: 451792
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682189,
+				tcgplayer: 451792
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682189,
+				tcgplayer: 451792
+			}
+		},
+	],
 }
 
 export default card

@@ -70,6 +70,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "To entangle its opponents in battle, it extrudes white threads as sweet and sticky as cotton candy.",
+		de: "Es stößt weiße Fäden aus, die so süß und klebrig wie Zuckerwatte sind. Mit ihnen umwickelt es den Gegner und hindert ihn daran, sich zu bewegen."
+	},
+
 	thirdParty: {
 		cardmarket: 408409,
 		tcgplayer: 201200

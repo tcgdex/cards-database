@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Litwick",
 		fr: "Funécire",
+		de: "Lichtel"
 	},
 
 	stage: "Stage1",
@@ -73,6 +74,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It arrives near the moment of death and steals spirit from the body.",
+		de: "Es erscheint im Augenblick des Todes und verschlingt die Seele des Verblichenen, sofort nachdem sie den Körper verlassen hat."
+	},
 
 	thirdParty: {
 		cardmarket: 365739,

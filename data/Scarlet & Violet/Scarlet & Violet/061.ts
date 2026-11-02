@@ -4,6 +4,7 @@ import Set from "../Scarlet & Violet"
 const card: Card = {
 	dexId: [977],
 	set: Set,
+	cameoDexIds: [978],
 
 	name: {
 		en: "Dondozo",
@@ -57,15 +58,30 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: "holo"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Souichirou Gunjima",
+
+	description: {
+		en: "This Pokémon is a glutton, but it's bad at getting food. It teams up with a Tatsugiri to catch prey.",
+		de: "Es ist zwar ein Vielfraß, doch die Jagd liegt ihm nicht. Deshalb schließt es sich mit Nigiragi zusammen, um Beute zu fangen."
+	},
 
 	thirdParty: {
         cardmarket: 702356,

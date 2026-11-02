@@ -16,13 +16,15 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [206],
+
 	effect: {
 		fr: "Soignez 120 dégâts à l’un de vos Pokémon auquel il reste 30 PV ou moins.",
 		en: "Heal 120 damage from 1 of your Pokémon that has 30 HP or less remaining.",
 		es: "Cura 120 puntos de daño a 1 de tus Pokémon a los que le queden 30 PS o menos.",
 		it: "Cura da 120 danni uno dei tuoi Pokémon che ha 30 PS o meno rimanenti.",
 		pt: "Cure 120 pontos de dano de 1 dos seus Pokémon que tiver PS restante de 30 ou menos.",
-		de: "Heile 120 Schadenspunkte bei 1 deiner Pokémon, dessen verbleibende KP 30 oder weniger betragen."
+		de: "Heile 120 Schadenspunkte bei 1 deiner Pokémon, dessen verbleibende KP 30 oder weniger betragen. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

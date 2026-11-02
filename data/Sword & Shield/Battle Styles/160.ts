@@ -23,23 +23,22 @@ const card: Card = {
 		es: "Roba cartas hasta que tengas 6 cartas en tu mano.",
 		it: "Pesca fino ad avere sei carte in mano.",
 		pt: "Compre cartas até ter 6 cartas na sua mão.",
-		de: "Ziehe so lange Karten, bis du 6 Karten auf deiner Hand hast."
+		de: "Ziehe so lange Karten, bis du 6 Karten auf deiner Hand hast. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 546476,
-		tcgplayer: 234071
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 546476,
+				tcgplayer: 234071
+			}
+		},
+	],
 }
 
 export default card

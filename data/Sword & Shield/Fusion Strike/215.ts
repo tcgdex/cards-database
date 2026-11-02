@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "E",
 	illustrator: "MAHOU",
 
 	description: {
-		en: "The fur on its belly retains heat exceptionally well. People used to make heavy winter clothing from fur shed by this Pokémon."
+		en: "The fur on its belly retains heat exceptionally well. People used to make heavy winter clothing from fur shed by this Pokémon.",
+		de: "Das Fell an seinem Bauch hält es schön warm. Früher haben die Menschen daraus Kleidung gefertigt, die sie vor Kälte schützte."
 	},
 
 	attacks: [{
@@ -74,17 +81,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582951,
-		tcgplayer: 253314
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582951,
+				tcgplayer: 253314
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582951,
+				tcgplayer: 253314
+			}
+		},
+	],
 }
 
 export default card

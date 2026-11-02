@@ -34,7 +34,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
-				de: "Tackle"
+				de: "Kerzalbeere"
 			},
 
 			damage: 30,
@@ -48,6 +48,8 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 2,
+
 
 	thirdParty: {
 		cardmarket: 277702,

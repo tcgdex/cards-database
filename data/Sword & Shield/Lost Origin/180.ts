@@ -4,6 +4,7 @@ import Set from "../Lost Origin"
 const card: Card = {
 	dexId: [142],
 	set: Set,
+	cameoDexIds: [138, 357, 408, 409, 410, 411, 564, 567],
 
 	name: {
 		en: "Aerodactyl V",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Aerodactyl V"
 	},
 
+	illustrator: "Nurikabe",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 210,
@@ -61,16 +63,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 674185,
-		tcgplayer: 284122
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674185,
+				tcgplayer: 284122
+			}
+		},
+	],
 }
 
 export default card

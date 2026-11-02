@@ -55,6 +55,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The heart-shaped mark left on a body after a Woobat has been attached to it is said to bring good fortune.",
+	},
+
 	thirdParty: {
 		cardmarket: 281215,
 		tcgplayer: 90628

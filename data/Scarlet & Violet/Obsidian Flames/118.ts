@@ -48,18 +48,42 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Toedscool lives in muggy forests. The flaps that fall from its body are chewy and very delicious.",
+		de: "Es lebt in feuchten Wäldern. Die Falten, die sich von seinem Körper lösen, sind gummiartig und sehr schmackhaft."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725198,
+				tcgplayer: 509866,
+				cardtrader: 255803
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725198,
+				tcgplayer: 509866,
+				cardtrader: 255803
+			}
+		},
+	],
 
 	illustrator: "Oswaldo KATO",
 
-	thirdParty: {
-		cardmarket: 725198
-	}
+	
 }
 
 export default card

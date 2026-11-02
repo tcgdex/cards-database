@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Ce petit Pokémon Dragon vit dans la gueule\nd'Oyacata, à l'abri de ses adversaires.",
 		es: "Pokémon dragón de pequeño tamaño. Vive en la boca de un\nDondozo para protegerse de los ataques de los depredadores.",
 		it: "Un Pokémon di tipo Drago di piccole\ndimensioni. Vive all'interno della bocca di\nDondozo, protetto dagli attacchi dei nemici.",
-		de: "Dieses kleine Drachen-Pokémon lebt im Maul von\nHeerashai, wodurch es vor Feinden geschützt ist.",
+		de: "Dieses kleine Drachen-Pokémon lebt im Maul von Heerashai, wodurch es vor Feinden geschützt ist.",
 		'pt-br': "Este é um pequeno Pokémon dragão. Mora dentro da\nboca de Dondozo para proteger-se\nde inimigos do mundo externo.",
 		ko: "작은 몸집의 드래곤포켓몬.\n어써러셔의 입안에 살며\n외부의 적으로부터 몸을 지킨다."
 	},

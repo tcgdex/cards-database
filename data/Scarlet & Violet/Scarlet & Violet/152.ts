@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Skwovet",
-		fr: "Rongourmand"
+		fr: "Rongourmand",
+		de: "Raffel"
 	},
 
 	stage: "Stage1",
@@ -63,14 +64,30 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "kantaro",
+
+	description: {
+		en: "This Pokémon makes off with heaps of fallen berries by wrapping them in its tail, which is roughly twice the length of its body.",
+		de: "Sein Schweif ist etwa doppelt so lang wie sein Körper. Es umwickelt damit von Bäumen gefallene Beeren und trägt sie mit sich fort."
+	},
 
 	thirdParty: {
         cardmarket: 702448,

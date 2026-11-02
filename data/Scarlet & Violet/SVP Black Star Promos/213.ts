@@ -3,11 +3,12 @@ import Set from "../SVP Black Star Promos"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [129],
 
 	name: {
 		en: "Feraligatr",
 	},
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Water"],
@@ -50,7 +51,11 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["illustration-contest-2024"]
+			stamp: ["illustration-contest-2024"],
+			thirdParty: {
+				cardmarket: 810397,
+				tcgplayer: 620104
+			},
 		},
 	]
 }

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		299,
-	],
+	dexId: [299],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Pull",
 				fr: "Tirer",
-				de: "Pull"
+				de: "Ziehen"
 			},
 			effect: {
 				en: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon.",
 				fr: "Échangez le Pokémon Défenseur avec 1 des Pokémon de Banc de votre adversaire.",
-				de: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon."
+				de: "Tausche das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus."
 			},
 
 		},
@@ -50,7 +48,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
-				de: "Rollout"
+				de: "Walzer"
 			},
 
 			damage: 20,
@@ -67,19 +65,28 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278505,
-		tcgplayer: 87802
+	description: {
+		en: "When endangered, it may protect itself by raising its magnetism and drawing iron objects to its body.",
+		de: "Es schützt sich bei Gefahr durch Gegenstände aus Eisen, die es mit erhöhtem Magnetismus an sich zieht."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 87802,
+				cardmarket: 278505
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278505,
+				tcgplayer: 87802
+			}
 		}
-	]
+	],
+
 }
 
 export default card

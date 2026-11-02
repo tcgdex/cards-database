@@ -74,18 +74,42 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "It lives close to water. Its long tail is ridged with a fin, which is often mistaken for a mermaid's.",
+		de: "Dieses Pokémon lebt nahe an Gewässern. Wegen seiner fischähnlichen Schwanzflosse wird es manchmal für eine Meerjungfrau gehalten."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733729,
+				tcgplayer: 516697,
+				cardtrader: 261238
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733729,
+				tcgplayer: 516697,
+				cardtrader: 261238
+			}
+		},
+	],
 
 	illustrator: "kirisAki",
 
-	thirdParty: {
-		cardmarket: 733729
-	}
+	
 }
 
 export default card

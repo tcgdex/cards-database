@@ -4,7 +4,8 @@ import Set from '../POP Series 3'
 const card: Card = {
 	name: {
 		en: "Eevee",
-		fr: "Evoli"
+		fr: "Evoli",
+		de: "Evoli"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -12,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		133,
-	],
+	dexId: [133],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -31,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -44,11 +44,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Take Down",
-				fr: "Bélier"
+				fr: "Bélier",
+				de: "Bodycheck"
 			},
 			effect: {
 				en: "Eevee does 10 damage to itself.",
-				fr: "Evoli s'inflige 10 dégâts."
+				fr: "Evoli s'inflige 10 dégâts.",
+				de: "Evoli fügt sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -57,23 +59,22 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fighting"
+			type: "Fighting",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85083,
+				cardmarket: 277461
+			},
 		},
 	],
 
-	retreat: 1,
-
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
-
-	thirdParty: {
-		cardmarket: 277461,
-		tcgplayer: 85083
-	}
 }
 
 export default card

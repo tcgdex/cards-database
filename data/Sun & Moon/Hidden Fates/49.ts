@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Eevee",
 		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	illustrator: "Hitoshi Ariga",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Gnaw",
 				fr: "Ronge",
+				de: "Nagen"
 			},
 
 			damage: 20,
@@ -47,6 +49,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Current studies show it can evolve into an incredible eight different species of Pokémon.",
+		de: "Nach derzeitigem Forschungsstand kann es sich zu acht verschiedenen Pokémon entwickeln."
+	},
 
 	thirdParty: {
 		cardmarket: 396647,

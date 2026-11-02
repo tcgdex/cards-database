@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Tentacool",
@@ -49,16 +43,29 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its body is 99% water. The remaining 1% contains the organ that makes its poison."
+		en: "Its body is 99% water. The remaining 1% contains the organ that makes its poison.",
+		de: "Es besteht zu 99 % aus Wasser. Das restliche 1 % wird von einem Organ für die Giftproduktion eingenommen."
 	},
 
 	dexId: [72],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574050,
-		tcgplayer: 246819
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574050,
+				tcgplayer: 246819
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574050,
+				tcgplayer: 246819
+			}
+		},
+	],
 }
 
 export default card

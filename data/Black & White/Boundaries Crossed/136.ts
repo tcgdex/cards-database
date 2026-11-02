@@ -22,15 +22,27 @@ const card: Card = {
 		es: "Pon todas tus cartas de Premio boca arriba. (Esas cartas de Premio permanecerán boca arriba durante el resto de la partida.)",
 		it: "Gira tutte le tue carte Premio a faccia in su (rimarranno così per il resto della partita).",
 		pt: "Vire todos os seus cards de Prêmio com a face para cima. (Os cards de Prêmio permanecerão virados para cima pelo resto do jogo.)",
-		de: "Decke all deine Preiskarten auf. (Diese Preiskarten bleiben für den Rest des Spiels aufgedeckt.)"
+		de: "Decke all deine Preiskarten auf. (Diese Preiskarten bleiben für den Rest des Spiels aufgedeckt.) Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 
-	thirdParty: {
-		cardmarket: 280723,
-		tcgplayer: 90005
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280723,
+				tcgplayer: 90005
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280723,
+				tcgplayer: 90005
+			}
+		},
+	],
 }
 
 export default card

@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "Bien qu'appartenant à des espèces similaires,\nles Venipatte et les Grillepattes se livrent\nà des conflits violents lorsqu'ils se croisent.",
 		es: "Aunque se trata de una especie emparentada\ncon los Sizzlipede, si se encuentran ejemplares\nde ambas, entablarán una lucha encarnizada.",
 		it: "Appartiene a una specie simile a quella di Sizzlipede, ma\nse le loro strade si incrociano si scatena il finimondo.",
-		de: "Es ist zwar artverwandt mit Thermopod, aber\njedes Mal, wenn sich die beiden über den Weg\nkrabbeln, streiten sie erbittert miteinander.",
+		de: "Es ist zwar artverwandt mit Thermopod, aber jedes Mal, wenn sich die beiden über den Weg krabbeln, streiten sie erbittert miteinander.",
 		'pt-br': "Venipede e Sizzlipede são espécies similares, mas,\nquando se encontram, travam uma briga daquelas.",
 		ko: "태우지네와는 종류가 다른\n동료지만 서로 만나면\n큰 싸움이 된다."
 	},

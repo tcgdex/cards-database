@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		2,
-	],
+	dexId: [2],
 
 	hp: 80,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Bulbasaur",
-		fr: "Bulbizarre"
+		fr: "Bulbizarre",
+		de: "Bisasam"
 	},
 
 	stage: "Stage1",
@@ -69,23 +68,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 274957,
-		tcgplayer: 86296
-	},
 
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 86296,
+				cardmarket: 274957
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 86296,
+				cardmarket: 274957
+			},
+		},
+	],
 }
 
 export default card

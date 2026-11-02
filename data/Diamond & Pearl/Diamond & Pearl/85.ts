@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf 1 Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -79,7 +79,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		fr: "Il se tient toujours sur un pied. Il ne prend jamais appui sur les deux, même en cas d'attaque."
+		en: "It always stands on one foot. Even when attacked, it does not brace itself using both feet.",
+		fr: "Il se tient toujours sur un pied. Il ne prend jamais appui sur les deux, même en cas d'attaque.",
+		de: "Es steht ständig auf einem Fuß. Selbst wenn es angreift, stellt es sich nicht auf beide Beine."
 	},
 
 	thirdParty: {

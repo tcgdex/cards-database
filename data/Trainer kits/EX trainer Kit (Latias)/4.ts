@@ -7,7 +7,8 @@ const card: Card = {
 
 	name: {
 		en: "Latias",
-		fr: "Latias"
+		fr: "Latias",
+		de: "Latias"
 	},
 
 	illustrator: "Nakaoka",
@@ -17,7 +18,7 @@ const card: Card = {
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	attacks: [{
@@ -26,11 +27,13 @@ const card: Card = {
 		],
 		name: {
 			en: "Dragon Dew",
-			fr: "Goutte de dragon"
+			fr: "Goutte de dragon",
+			de: "Drachentau"
 		},
 		effect: {
 			en: "Remove 1 damage counter from 1 of your Pokémon.",
-			fr: "Retirez 1 marqueur de dégât à 1 de vos Pokémon."
+			fr: "Retirez 1 marqueur de dégât à 1 de vos Pokémon.",
+			de: "Entferne 1 Schadensmarke von einem deiner Pokémon."
 		},
 		damage: 10
 	}, {
@@ -41,7 +44,8 @@ const card: Card = {
 		],
 		name: {
 			en: "Heat Blast",
-			fr: "Explosion de chaleur"
+			fr: "Explosion de chaleur",
+			de: "Hitzestoß"
 		},
 		damage: 40
 	}],
@@ -49,15 +53,21 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "2x"
 		},
 	],
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 86650
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 275772,
+				tcgplayer: 86650
+			}
+		},
+	],
+
 }
 
 export default card

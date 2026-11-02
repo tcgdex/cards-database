@@ -12,6 +12,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [312],
 
 	dexId: [
 		311,
@@ -70,24 +71,33 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 88164,
-		cardmarket: 276447
-	},
 
 	variants: [
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 88164,
+				cardmarket: 276447
+			},
 		},
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88164,
+				cardmarket: 276447
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["hiroki-yano"]
+			stamp: ["hiroki-yano"],
+			thirdParty: {
+				tcgplayer: 477892,
+				cardmarket: 869526
+			},
 		},
-	]
+	],
+
 }
 
 export default card

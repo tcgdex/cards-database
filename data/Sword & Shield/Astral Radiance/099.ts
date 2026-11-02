@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Darkrai VSTAR"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Holo Rare VSTAR",
 	category: "Pokemon",
 	hp: 270,
@@ -49,26 +50,38 @@ const card: Card = {
 			es: "Este ataque hace 30 puntos de daño más por cada Energía Darkness unida a todos tus Pokémon.",
 			it: "Questo attacco infligge 30 danni in più per ogni Energia Darkness assegnata ai tuoi Pokémon.",
 			pt: "Este ataque causa 30 pontos de dano a mais para cada Energia Darkness ligada a todos os seus Pokémon.",
-			de: "Diese Attacke fügt für jede an alle deine Pokémon angelegte Darkness-Energie 30 Schadenspunkte mehr zu."
+			de: "Diese Attacke fügt für jede an alle deine Pokémon angelegte {D}-Energie 30 Schadenspunkte mehr zu."
 		},
 
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658751,
-		tcgplayer: 272300
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658751,
+				tcgplayer: 272300
+			}
+		},
+		{
+			type: 'holo',
+			size: 'jumbo',
+			thirdParty: {
+				cardmarket: 675936
+			}
+		},
+	],
 }
 
 export default card

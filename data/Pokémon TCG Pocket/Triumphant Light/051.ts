@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Il fait gonfler ses glandes venimeuses tout en émettant un son\neffrayant, ce qui lui permet d'empoisonner ses proies pétrifiées.",
 		es: "Infla sus bolsas venenosas para emitir un sonido macabro\na su alrededor y envenena al rival en cuanto se amedrenta.",
 		it: "Gonfia le sue sacche di veleno emettendo un verso\nsinistro che fa impietrire l'avversario, poi lo avvelena.",
-		de: "Bläst es seine Giftbeutel auf, ertönt ein\nunheimliches Geräusch. Wenn Gegner\ndadurch zurückschrecken, vergiftet es sie.",
+		de: "Bläst es seine Giftbeutel auf, ertönt ein unheimliches Geräusch. Wenn Gegner dadurch zurückschrecken, vergiftet es sie.",
 		'pt-br': "Ao inflar suas bolsas de veneno, preenche a área\ncom um som peculiar e acerta os oponentes assustados\ncom um soco venenoso.",
 		ko: "독주머니를 부풀리며 울어서\n주변에 으스스한 소리를 퍼트린 후\n상대가 풀죽으면 독찌르기를 한다."
 	},

@@ -91,6 +91,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It shouts loudly by inhaling air, and then using its well-developed stomach muscles to exhale.",
+		de: "Es atmet tief ein und nutzt seine Bauchmuskeln, um die Luft in einem gewaltigen Schrei auszustoßen."
+	},
+
 	thirdParty: {
 		cardmarket: 281890,
 		tcgplayer: 94652

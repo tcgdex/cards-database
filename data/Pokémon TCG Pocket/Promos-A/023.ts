@@ -44,7 +44,7 @@ const card: Card = {
 		fr: "Il y a une graine sur son dos depuis sa naissance.\nElle grossit un peu chaque jour.",
 		es: "Este Pokémon nace con una semilla en el\nlomo, que brota con el paso del tiempo.",
 		it: "Fin dalla nascita questo Pokémon ha sulla\nschiena un seme che cresce lentamente.",
-		de: "Dieses Pokémon trägt von Geburt an einen\nSamen auf dem Rücken, der im Laufe der Zeit\nkeimt und wächst.",
+		de: "Dieses Pokémon trägt von Geburt an einen Samen auf dem Rücken, der im Laufe der Zeit keimt und wächst.",
 		'pt-br': "Este Pokémon já nasce com uma semente\nnas costas. Aos poucos, a semente cresce.",
 		ko: "태어났을 때부터 등에\n식물의 씨앗이 있으며\n조금씩 크게 자란다."
 	},

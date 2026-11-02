@@ -4,7 +4,7 @@ import Set from '../Undaunted'
 const card: Card = {
 	name: {
 		en: "Misdreavus",
-		fr: "Feuforeve",
+		fr: "Feuforêve",
 		de: "Traunfugil"
 	},
 
@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		200,
-	],
+	dexId: [200],
 
 	hp: 60,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -74,22 +72,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It loves to bite and yank people’s hair from behind without warning, just to see their shocked reactions."
+		en: "It loves to bite and yank people’s hair from behind without warning, just to see their shocked reactions.",
+		de: "Es liebt, Menschen zu beißen und sie an den Haaren zu ziehen, nur um ihre Reaktionen zu sehen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279310,
+				tcgplayer: 87511
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279310,
+				tcgplayer: 87511
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279310,
-		tcgplayer: 87511
-	}
 }
 
 export default card

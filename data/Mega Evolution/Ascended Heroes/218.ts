@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "buchi",
 	rarity: "Illustration rare",
 	category: "Pokemon",
+	dexId: [114],
 	hp: 80,
 	types: ["Grass"],
 	stage: "Basic",
@@ -71,13 +72,30 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 676030,
-		cardmarket: 869829
-	}
+	description: {
+		en: "Hidden beneath a tangle of vines that grows nonstop even if the vines are torn off, this Pokémon’s true appearance remains a mystery.",
+		fr: "On ne sait toujours pas ce qui se cache sous ses lianes. Même si on les coupe, elles repoussent à l'infini.",
+		de: "Seine wahre Gestalt ist weiterhin ein Mysterium, da sie von Ranken verdeckt wird, die unaufhörlich nachwachsen, selbst wenn sie abreißen."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869829,
+				tcgplayer: 676030
+			}
+		}
+	],
 }
 
 export default card

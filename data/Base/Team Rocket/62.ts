@@ -34,12 +34,12 @@ const card: Card = {
 			name: {
 				en: "Coin Hurl",
 				fr: "Lancé de monnaie",
-				de: "Coin Hurl"
+				de: "Münzenwurf"
 			},
 			effect: {
 				en: "Choose 1 of your opponent's Pokémon and flip a coin. If heads, this attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
 				fr: "Choisissez 1 des Pokémon de votre adversaire et lancez une pièce. Si c'est face, cette attaque inflige 20 à ce Pokémon. N'appliquez pas la Faiblesse et la Résistance pour cette attaque. (Tous les autres effets ayant lieu après application de la Faiblesse et de la Résistance subsistent.)",
-				de: "Choose 1 of your opponent's Pokémon and flip a coin. If heads, this attack does 20 damage to that Pokémon. Don't apply Weakness and resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)"
+				de: "Wähle ein Pokémon deines Gegners und wirf eine Münze. Bei „Kopf“ fügt dieser Angriff diesem Pokémon 20 Schadenspunkte zu. Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
 			},
 
 		},
@@ -58,25 +58,33 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Ce Pokémon très apprécié gagne ses gages de son propriétaire grâce à sa faculté \"Jour de paye\"."
+		en: "A popular Pokémon that earns money for its owner with its \"Pay Day\" ability.",
+		fr: "Ce Pokémon très apprécié gagne ses gages de son propriétaire grâce à sa faculté \"Jour de paye\".",
+		de: "Ein beliebtes Pokémon, das für seinen Besitzer mit seiner Fähigkeit „Zahltag“ Geld verdient."
 	},
 
-	thirdParty: {
-		cardmarket: 274115,
-		tcgplayer: 87313
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274115,
+				tcgplayer: 87313
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
-		}
-	]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274115,
+				tcgplayer: 87313
+			}
+		},
+	],
 }
 
 export default card

@@ -78,23 +78,30 @@ const card: Card = {
 	types: ["Fighting"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Five of them are troopers, and one is the brass. The brass's orders are absolute."
+		en: "Five of them are troopers, and one is the brass. The brass's orders are absolute.",
+		de: "Dieses Pokémon besteht aus fünf Untergebenen und einem Anführer. Die Befehle des Anführers werden nie in Frage gestellt."
 	},
 
-	thirdParty: {
-		cardmarket: 456493,
-		tcgplayer: 213200
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457958,
+				tcgplayer: 213200
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457958,
+				tcgplayer: 213200
+			}
+		},
+	],
 }
 
 export default card

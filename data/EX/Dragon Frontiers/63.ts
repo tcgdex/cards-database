@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Shellder δ",
 		fr: "Kokiyas δ",
-		de: "Muschas"
+		de: "Muschas δ"
 	},
 
 	illustrator: "Hisao Nakamura",

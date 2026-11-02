@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Cuando juegues este Pokémon de tu mano a tu Banca durante tu turno, puedes mover cualquier cantidad de Energía Lightning de tus otros Pokémon a este Pokémon. Si lo haces, cambia este Pokémon por tu Pokémon Activo.",
 				it: "Quando giochi questo Pokémon dalla tua mano e lo metti in panchina durante il tuo turno, puoi spostare un numero qualsiasi di Energie Lightning assegnate ai tuoi altri Pokémon su questo Pokémon. Se lo fai, scambialo con il tuo Pokémon attivo.",
 				pt: "Quando você joga este Pokémon da sua mão para o seu banco durante a sua vez de jogar, você pode mover qualquer número de Energia Lightning de outros Pokémon seus para este Pokémon. Se fizer isto, troque este Pokémon pelo seu Pokémon Ativo.",
-				de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand auf deine Bank spielst, kannst du beliebig viele Lightning-Energien von deinen anderen Pokémon auf dieses Pokémon verschieben. Wenn du das machst, tausche dieses Pokémon gegen dein Aktives Pokémon aus."
+				de: "Wenn du dieses Pokémon während deines Zuges aus deiner Hand auf deine Bank spielst, kannst du beliebig viele {L}-Energien von deinen anderen Pokémon auf dieses Pokémon verschieben. Wenn du das machst, tausche dieses Pokémon gegen dein Aktives Pokémon aus."
 			},
 		},
 	],

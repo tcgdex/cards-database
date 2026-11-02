@@ -4,6 +4,7 @@ import Set from "../Journey Together"
 const card: Card = {
 	dexId: [845],
 	set: Set,
+	cameoDexIds: [846],
 
 	name: {
 		en: "Cramorant",
@@ -47,22 +48,38 @@ const card: Card = {
 		damage: "50×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 	illustrator: "Tomomi Ozaki",
 
-	thirdParty: {
-		cardmarket: 817289
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817289,
+				tcgplayer: 623564
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817289,
+				tcgplayer: 623564
+			}
 		},
-	]
+	],
 }
 
 export default card

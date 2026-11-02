@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		72,
-	],
+	dexId: [72],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Sanfte Umarmung"
 			},
 			effect: {
-				en: "The Defending Pokémon can’t retreat during your opponent’s next turn.",
+				en: "The Defending Pokémon can't retreat during your opponent's next turn.",
 				fr: "Le Pokémon Défenseur ne peut pas battre en retraite pendant le prochain tour de votre adversaire.",
 				de: "Das Verteidigende Pokémon kann sich im nächsten Zug deines Gegners nicht zurückziehen."
 			},
@@ -55,20 +53,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It drifts aimlessly in waves. Very difficult to see in water, it may not be noticed until it stings."
+		en: "It drifts aimlessly in waves. Very difficult to see in water, it may not be noticed until it stings.",
+		de: "Es treibt ziellos im Wasser. Es ist schwer zu erkennen und wird erst bemerkt, wenn es zusticht."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89869,
+				cardmarket: 279610
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279610,
+				tcgplayer: 89869
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279610,
-		tcgplayer: 89869
-	}
 }
 
 export default card

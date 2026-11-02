@@ -84,7 +84,7 @@ const card: Card = {
 				es: "Truco Vital GX",
 				it: "Trucco Vitale-GX",
 				pt: "Truque Revigorante GX",
-				de: "Lebenstrick GX"
+				de: "Lebenstrick-GX"
 			},
 			effect: {
 				en: "Heal all damage from this Pokémon. (You can’t use more than 1 GX attack in a game.)",

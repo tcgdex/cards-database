@@ -44,19 +44,33 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751657,
+				tcgplayer: 534508,
+				cardtrader: 274302
+			}
+		},
+	],
 
 	illustrator: "Nisota Niso",
 
-	thirdParty: {
-		cardmarket: 751657
-	}
+	description: {
+		en: "Fish Pokémon nibble at it, but Staryu isn't bothered. Its body regenerates quickly, even if part of it is completely torn off.",
+		de: "Ihm macht es nichts aus, von Fisch-Pokémon angeknabbert zu werden, da sich sein Körper bei Verletzungen im Nu regeneriert."
+	},
+
 }
 
 export default card

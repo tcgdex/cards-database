@@ -91,6 +91,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "In battle, it digs through the ground and strikes the unsuspecting foe from an unexpected direction.",
+		de: "Im Kampf gräbt es sich ein und attackiert den Gegner aus einer unvorhersehbaren Richtung."
+	},
+
 	thirdParty: {
 		cardmarket: 293410,
 		tcgplayer: 124069

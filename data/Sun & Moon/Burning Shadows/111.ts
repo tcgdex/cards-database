@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Stufful",
 		fr: "Nounourson",
+		de: "Velursi"
 	},
 
 	stage: "Stage1",
@@ -93,10 +94,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 299512,
-		tcgplayer: 138607
-	}
+	description: {
+		en: "This immensely dangerous Pokémon possesses overwhelming physical strength. Its habitat is generally off-limits.",
+		de: "Dieses Pokémon verfügt über immense Muskelkraft und ist äußerst gefährlich. Sein Habitat ist generell Sperrgebiet."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299512,
+				tcgplayer: 138607
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299512,
+				tcgplayer: 138607
+			}
+		},
+	],
 }
 
 export default card

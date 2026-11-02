@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Rattata",
 		fr: "Rattata d’Alola",
+		de: "Alola-Rattfratz"
 	},
 
 	suffix: "GX",
@@ -88,7 +89,7 @@ const card: Card = {
 				es: "Maníaco de Objetos GX",
 				it: "Maniaco degli Strumenti-GX",
 				pt: "Maníaco do Item GX",
-				de: "Item-Fanatiker GX"
+				de: "Item-Fanatiker-GX"
 			},
 			effect: {
 				en: "Search your deck for up to 6 Item cards, reveal them, and put them into your hand. Then, shuffle your deck. (You can’t use more than 1 GX attack in a game.)",

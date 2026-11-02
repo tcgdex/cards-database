@@ -51,23 +51,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Constant polishing makes the edge of the blade on its tail extremely sharp. It's Zangoose's archrival."
+		en: "Constant polishing makes the edge of the blade on its tail extremely sharp. It's Zangoose's archrival.",
+		de: "Es hält die Klinge an seinem Schweif scharf, indem es sie ständig an Steinen wetzt. Es ist der Erzfeind von Sengo."
 	},
 
-	thirdParty: {
-		cardmarket: 567210,
-		tcgplayer: 241776
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567210,
+				tcgplayer: 241776
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567210,
+				tcgplayer: 241776
+			}
+		},
+	],
 }
 
 export default card

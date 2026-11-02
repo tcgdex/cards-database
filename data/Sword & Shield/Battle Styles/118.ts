@@ -38,7 +38,7 @@ const card: Card = {
 			es: "Los ataques de este Pokémon hacen 60 puntos de daño más a los Pokémon Grass de tu rival (antes de aplicar Debilidad y Resistencia).",
 			it: "Gli attacchi di questo Pokémon infliggono 60 danni in più ai Pokémon Grass del tuo avversario, prima di aver applicato debolezza e resistenza.",
 			pt: "Os ataques deste Pokémon causam 60 pontos de dano a mais aos Pokémon Grass do seu oponente (antes de aplicar Fraqueza e Resistência).",
-			de: "Die Attacken dieses Pokémon fügen den Grass-Pokémon deines Gegners 60 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
+			de: "Die Attacken dieses Pokémon fügen den {G}-Pokémon deines Gegners 60 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden)."
 		}
 	}],
 
@@ -73,23 +73,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Their fluffy fur absorbs damage, even if they strike foes with a fierce headbutt."
+		en: "Their fluffy fur absorbs damage, even if they strike foes with a fierce headbutt.",
+		de: "Sein zotteliges Fell fängt selbst nach einer seiner wuchtigen Rempelattacken einiges an Schaden ab."
 	},
 
-	thirdParty: {
-		cardmarket: 545746,
-		tcgplayer: 234160
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545746,
+				tcgplayer: 234160
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545746,
+				tcgplayer: 234160
+			}
+		},
+	],
 }
 
 export default card

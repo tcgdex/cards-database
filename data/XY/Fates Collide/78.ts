@@ -37,7 +37,7 @@ const card: Card = {
 				es: "Presión",
 				it: "Pressione",
 				pt: "Pressão",
-				de: "Druck"
+				de: "Erzwinger"
 			},
 			effect: {
 				en: "As long as this Pokémon is your Active Pokémon, any damage done by attacks from your opponent's Active Pokémon is reduced by 20 (before applying Weakness and Resistance).",
@@ -93,6 +93,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm.",
+		de: "Man berichtet, es sei der Wächter der Meere und man habe es im Herzen eines tosenden Sturmes gesehen."
+	},
 
 	thirdParty: {
 		cardmarket: 289899,

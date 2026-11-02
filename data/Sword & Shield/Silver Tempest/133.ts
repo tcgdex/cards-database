@@ -14,6 +14,7 @@ const card: Card = {
 		de: "UHaFnir"
 	},
 
+	illustrator: "aoki",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 110,
@@ -77,17 +78,28 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Aggressive and cruel, this Pokémon will ruthlessly torment enemies that are helpless in the dark.",
+		de: "Ein heißblütiges und brutales Pokémon. Es fügt seinen in der Dunkelheit wehrlosen Gegnern gnadenlos Verletzungen zu."
 	},
 
-	thirdParty: {
-		cardmarket: 682180,
-		tcgplayer: 451786
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682180,
+				tcgplayer: 451786
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682180,
+				tcgplayer: 451786
+			}
+		},
+	],
 }
 
 export default card

@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "SATOSHI NAKAI",
 
 	description: {
-		en: "Though it has a gentle disposition, it's also very strong. It will quickly freeze the snowball on its head before going for a headbutt."
+		en: "Though it has a gentle disposition, it's also very strong. It will quickly freeze the snowball on its head before going for a headbutt.",
+		de: "Es ist sanftmütig, aber stark. Den Schneeball auf seinem Kopf kann es in Sekundenschnelle zu Eis erstarren lassen, um Kopfstöße zu verteilen."
 	},
 
 	attacks: [{
@@ -83,17 +90,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582206,
-		tcgplayer: 253222
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582206,
+				tcgplayer: 253222
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582206,
+				tcgplayer: 253222
+			}
+		},
+	],
 }
 
 export default card

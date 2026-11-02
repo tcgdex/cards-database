@@ -46,7 +46,7 @@ const card: Card = {
 				es: "Este ataque hace 30 puntos de daño más por cada uno de tus Pokémon Psychic en Banca.",
 				it: "Questo attacco infligge 30 danni in più per ogni Pokémon Psychic nella tua panchina.",
 				pt: "Este ataque causa 30 pontos de dano a mais para cada Pokémon Psychic no seu Banco.",
-				de: "Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl der Psychic-Pokémon auf deiner Bank zu."
+				de: "Diese Attacke fügt 30 Schadenspunkte mehr mal der Anzahl der {P}-Pokémon auf deiner Bank zu."
 			},
 			damage: "10+",
 
@@ -63,7 +63,7 @@ const card: Card = {
 				es: "División Cruzada GX",
 				it: "Distribuzione Incrociata GX",
 				pt: "Divisão Cruzada GX",
-				de: "Kreuzdivision GX"
+				de: "Kreuzdivision-GX"
 			},
 			effect: {
 				en: "Put 10 damage counters on your opponent’s Pokémon in any way you like. If this Pokémon has at least 3 extra Energy attached to it (in addition to this attack’s cost), put 20 damage counters on them instead. (You can’t use more than 1 GX attack in a game.)",

@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "It stores an overflowing amount of electric energy inside its body. Even a small shock makes it explode."
+		en: "It stores an overflowing amount of electric energy inside its body. Even a small shock makes it explode.",
+		de: "Es speichert eine riesige Menge Elektrizität in seinem Körper. Es explodiert beim kleinsten Ruck."
 	},
 
 	attacks: [{
@@ -83,17 +90,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582413,
-		tcgplayer: 253244
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582413,
+				tcgplayer: 253244
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582413,
+				tcgplayer: 253244
+			}
+		},
+	],
 }
 
 export default card

@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Descarta 1 Energía Metal de este Pokémon.",
 				it: "Scarta un’Energia Metal assegnata a questo Pokémon.",
 				pt: "Descarte 1 Energia Metal deste Pokémon.",
-				de: "Lege 1 Metal-Energie von diesem Pokémon auf deinen Ablagestapel."
+				de: "Lege 1 {M}-Energie von diesem Pokémon auf deinen Ablagestapel."
 			},
 			damage: 20,
 
@@ -69,6 +69,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Its cells are all magnets. It uses magnetism to communicate with others of its kind.",
+		de: "Seine Zellen sind magnetisch geladen. Es kommuniziert mit anderen, indem es magnetische Impulse aussendet."
+	},
 
 	thirdParty: {
 		cardmarket: 297540,

@@ -35,15 +35,33 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo"
+		}
+	],
 
 	illustrator: "saino misaki",
+
+	description: {
+		en: "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying.",
+		de: "Auf der Suche nach Käfer-Pokémon fliegen Schwärme von ihnen durchs Land. Ihr Ruf erzeugt großen Lärm."
+	},
 
 	thirdParty: {
         cardmarket: 702517,

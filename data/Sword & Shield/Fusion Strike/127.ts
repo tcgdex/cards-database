@@ -19,12 +19,25 @@ const card: Card = {
 	hp: 100,
 	types: ["Psychic"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Misa Tsutsui",
 
 	description: {
-		en: "They diligently serve people and Pokémon so they can gather feelings of gratitude. The females are particularly good at babysitting."
+		en: "They diligently serve people and Pokémon so they can gather feelings of gratitude. The females are particularly good at babysitting.",
+		de: "Es hilft gerne Menschen oder anderen Pokémon, um Dankbarkeit zu ernten. Die Weibchen gelten als ausgezeichnete Babysitter."
 	},
 
 	attacks: [{
@@ -62,17 +75,23 @@ const card: Card = {
 		damage: 80
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582663,
-		tcgplayer: 253318
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582663,
+				tcgplayer: 253318
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582663,
+				tcgplayer: 253318
+			}
+		},
+	],
 }
 
 export default card

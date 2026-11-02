@@ -10,6 +10,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [489, 568],
 
 	dexId: [
 		395,
@@ -65,6 +66,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "If anyone were to hurt its pride, it would slash them with wings that can cleave through an ice floe.",
+	},
 
 	thirdParty: {
 		cardmarket: 281186,

@@ -74,18 +74,57 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "Known as a bringer of blessings, it's been depicted on good-luck charms since ancient times.",
+		de: "Man sagt, es verteile Wohltaten. Aus diesem Grund wird sein Abbild seit Urzeiten für Glücksbringer verwendet."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			stamp: ['pre-release'],
+			thirdParty: {
+				cardmarket: 727120
+			}
+		},
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 725165,
+				tcgplayer: 509840,
+				cardtrader: 255770
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 785705,
+				tcgplayer: 552783
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725165,
+				tcgplayer: 509840,
+				cardtrader: 255770
+			}
+		},
+	],
 
 	illustrator: "Cona Nitanda",
 
-	thirdParty: {
-		cardmarket: 725165
-	}
+
 }
 
 export default card

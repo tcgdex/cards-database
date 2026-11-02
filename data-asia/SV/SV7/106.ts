@@ -48,6 +48,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 779120,
+				tcgplayer: 567961,
+			},
+		},
+	],
+
 	retreat: 1,
 	regulationMark: "H",
 	dexId: [814],

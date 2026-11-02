@@ -62,6 +62,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Using food stored in cheek pouches, they can keep watch for days. They use their tails to communicate with others.",
+		de: "Hortet in seinen Backentaschen Futter, um tagelang Wache stehen zu können, und gibt Kameraden über seine Rute Signale."
+	},
+
 	thirdParty: {
 		cardmarket: 281748,
 		tcgplayer: 92264

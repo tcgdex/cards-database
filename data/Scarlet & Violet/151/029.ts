@@ -44,18 +44,42 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It uses its hard incisor teeth to crush and eat berries. The tip of a female Nidoran's horn is a bit more rounded than the tip of a male's horn.",
+		de: "Mit ihren harten Vorderzähnen zerteilen sie Beeren, bevor sie diese essen. Die Spitze ihres Horns ist etwas abgerundeter als bei Männchen."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733624,
+				tcgplayer: 515994,
+				cardtrader: 261134
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733624,
+				tcgplayer: 515994,
+				cardtrader: 261134
+			}
+		},
+	],
 
 	illustrator: "Teeziro",
 
-	thirdParty: {
-		cardmarket: 733624
-	}
+	
 }
 
 export default card

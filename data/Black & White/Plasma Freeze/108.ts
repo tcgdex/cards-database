@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Si el Pokémon al que está unida esta carta es tu Pokémon Activo y resulta dañado por un ataque de tu rival (incluso si ese Pokémon queda Fuera de Combate), pon 6 contadores de daño en el Pokémon Atacante.",
 		it: "Se il Pokémon a cui è assegnata questa carta è il tuo Pokémon attivo e viene danneggiato da un attacco del tuo avversario, anche se viene messo K.O., metti sei segnalini danno sul Pokémon attaccante.",
 		pt: "Se este card estiver ligado a seu Pokémon Ativo e ele for danificado pelo ataque de um oponente (mesmo se esse Pokémon for Nocauteado), coloque 6 marcadores de danos no Pokémon Atacante.",
-		de: "Wenn das Pokémon, an das diese Karte angelegt ist, dein Aktives Pokémon ist, und es durch einen gegnerischen Angriff Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 6 Schadensmarken auf das Angreifende Pokémon."
+		de: "Dein Deck darf nicht mehr als 1 ASS-KLASSE-Karte enthalten. Wenn das Pokémon, an das diese Karte angelegt ist, dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 6 Schadensmarken auf das Angreifende Pokémon. Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

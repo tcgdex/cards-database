@@ -84,23 +84,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It secretly marks potential targets with a scent. By following the scent, it stalks its targets and steals from them when they least expect it."
+		en: "It secretly marks potential targets with a scent. By following the scent, it stalks its targets and steals from them when they least expect it.",
+		de: "Es markiert heimlich die Beute, auf die es ein Auge geworfen hat. Dann folgt es dem Geruch und stiehlt sie, wenn sich die Gelegenheit bietet."
 	},
 
-	thirdParty: {
-		cardmarket: 483444,
-		tcgplayer: 219427
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483444,
+				tcgplayer: 219427
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483444,
+				tcgplayer: 219427
+			}
+		},
+	],
 }
 
 export default card

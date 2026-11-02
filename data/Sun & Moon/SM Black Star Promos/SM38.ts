@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Fuegro GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Torracat",
 		fr: "Matoufeu",
+		de: "Miezunder"
 	},
 
 	suffix: "GX",
@@ -48,7 +49,7 @@ const card: Card = {
 				es: "Este ataque hace 20 puntos de daño más por cada uno de tus Pokémon Fire en Banca.",
 				it: "Questo attacco infligge 20 danni in più per ogni Pokémon Fire nella tua panchina.",
 				pt: "Este ataque causa 20 pontos de dano a mais para cada Pokémon Fire no seu Banco.",
-				de: "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der Fire-Pokémon auf deiner Bank zu."
+				de: "Diese Attacke fügt 20 Schadenspunkte mehr mal der Anzahl der {R}-Pokémon auf deiner Bank zu."
 			},
 			damage: "10+",
 
@@ -113,8 +114,15 @@ const card: Card = {
 
 	retreat: 3,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 298916,
+				tcgplayer: 133822
+			}
+		}
+	],
 }
 
 export default card

@@ -4,6 +4,7 @@ import Set from "../Surging Sparks"
 const card: Card = {
 	dexId: [978],
 	set: Set,
+	cameoDexIds: [1024],
 
 	name: {
 		en: "Tatsugiri ex",
@@ -69,15 +70,17 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 794599,
+				tcgplayer: 590074
+			}
+		},
 	],
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 
-	thirdParty: {
-		cardmarket: 794599
-	}
 }
 
 export default card

@@ -65,6 +65,11 @@ const card: Card = {
 		de: "Helixfossil Amonitas"
 	},
 
+	description: {
+		en: "Revived from an ancient fossil, this Pokémon uses air stored in its shell to sink and rise in water.",
+		de: "Es wurde aus einem Fossil reanimiert. Es nutzt die Luftkammern in seiner Schale, um ab- und aufzutauchen."
+	},
+
 	thirdParty: {
 		cardmarket: 289843,
 		tcgplayer: 117779

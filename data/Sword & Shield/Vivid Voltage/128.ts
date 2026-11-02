@@ -89,12 +89,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -102,10 +96,22 @@ const card: Card = {
 		en: "Built roughly 500 years ago by a scientist, the part called the Soul-Heart is the actual life-form."
 	},
 
-	thirdParty: {
-		cardmarket: 512350,
-		tcgplayer: 226584
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 512350,
+				tcgplayer: 226584
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 512350,
+				tcgplayer: 226584
+			}
+		},
+	],
 }
 
 export default card

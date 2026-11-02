@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Tympole",
 		fr: "Tritonde",
+		de: "Schallquap"
 	},
 
 	stage: "Stage1",
@@ -67,6 +68,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "When they vibrate the bumps on their heads, they can make waves in water or earthquake-like vibrations on land.",
+		de: "Wenn es die Beulen auf seinem Kopf zum Schwingen bringt, tobt je nach Umgebung entweder das Wasser oder die Erde bebt."
+	},
 
 	thirdParty: {
 		cardmarket: 408229,

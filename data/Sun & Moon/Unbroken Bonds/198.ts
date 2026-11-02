@@ -80,7 +80,7 @@ const card: Card = {
 				es: "Apogeo del Heroísmo GX",
 				it: "Atto di Eroismo GX",
 				pt: "Auge do Heroísmo GX",
-				de: "Gipfel des Heldentums GX"
+				de: "Gipfel des Heldentums-GX"
 			},
 
 			effect: {

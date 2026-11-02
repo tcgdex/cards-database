@@ -3,6 +3,7 @@ import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [3],
 
 	name: {
 		en: "Ivysaur",
@@ -47,19 +48,24 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 851205,
+				tcgplayer: 654473
+			}
 		},
 	],
-
-	thirdParty: {
-		tcgplayer: 654473,
-		cardmarket: 851205
-	}
 }
 
 export default card

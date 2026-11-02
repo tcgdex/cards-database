@@ -4,7 +4,8 @@ import Set from '../POP Series 6'
 const card: Card = {
 	name: {
 		en: "Turtwig",
-		fr: "Turtwig"
+		fr: "Tortipouss",
+		de: "Chelast"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -12,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		387,
-	],
+	dexId: [387],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -29,7 +28,8 @@ const card: Card = {
 
 			name: {
 				en: "Tackle",
-				fr: "Charge"
+				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -41,7 +41,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Razor Leaf",
-				fr: "Tranch'herbe"
+				fr: "Tranch'herbe",
+				de: "Rasierblatt"
 			},
 
 			damage: 20,
@@ -55,31 +56,36 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Water",
 			value: "-20"
 		},
 	],
-
 	description: {
-		en: "Made from soil, the shell on its back hardens when it drinks water. It lives along lakes."
+		en: "Made from soil, the shell on its back hardens when it drinks water. It lives along lakes.",
+		de: "Es besteht aus Erdreich. Trinkt es Wasser, verhärtet sich der Panzer auf seinem Rücken. Es lebt an Seen."
 	},
 
 	retreat: 2,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90072,
+				cardmarket: 277902
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 90072,
+				cardmarket: 277902
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277902,
-		tcgplayer: 90072
-	}
 }
 
 export default card

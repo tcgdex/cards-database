@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S11"
+import { Card } from "../../../interfaces";
+import Set from "../S11";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "小箭雀"
+		ja: "ヤヤコマ",
+		'zh-tw': "小箭雀",
 	},
 
 	illustrator: "Shibuzoh.",
@@ -14,32 +14,40 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		'zh-tw': "婉轉的叫聲是在威嚇對方。對於闖入自己地盤的傢伙 會毫不留情地啄個不停。"
+		ja: "美しい さえずりは 威嚇。 縄張りに 入った ものは 容赦なく 突きまくる。",
+		'zh-tw': "婉轉的叫聲是在威嚇對方。對於闖入自己地盤的傢伙 會毫不留情地啄個不停。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "啄"
+	attacks: [
+		{
+			name: {
+				ja: "つつく",
+				'zh-tw': "啄",
+			},
+			damage: 10,
+			cost: ["Colorless"],
 		},
+	],
 
-		damage: 10,
-		cost: ["Colorless"]
-	}],
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
 
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 667965,
+				tcgplayer: 570021,
+			},
+		},
+	],
 
 	retreat: 0,
-	regulationMark: "F"
-}
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [661],
+};
 
-export default card
+export default card;

@@ -87,6 +87,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A two-headed Pokémon that was discovered as a sudden mutation. It runs at a pace of over 60 miles per hour.",
+		de: "Dieses zweiköpfige Pokémon gilt als plötzliche Mutation. Es rennt bis zu 100 km/h schnell."
+	},
+
 	thirdParty: {
 		cardmarket: 372436,
 		tcgplayer: 189252

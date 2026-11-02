@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		19,
-	],
+	dexId: [19],
 
 	hp: 40,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -51,22 +49,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Living wherever there is food available, it ceaselessly scavenges for edibles the entire day."
+		en: "Living wherever there is food available, it ceaselessly scavenges for edibles the entire day.",
+		de: "Es baut sein Nest, wo es Futter findet. Es ist den ganzen Tag auf der Suche nach etwas Essbarem."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279317,
+				tcgplayer: 88621
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279317,
+				tcgplayer: 88621
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279317,
-		tcgplayer: 88621
-	}
 }
 
 export default card

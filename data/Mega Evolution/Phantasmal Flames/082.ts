@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Linoone"
 	},
 
+	evolveFrom: {
+		en: "Zigzagoon",
+		fr: "Zigzaton",
+		es: "Zigzagoon",
+		'es-mx': "Zigzagoon",
+		de: "Zigzachs",
+		it: "Zigzagoon",
+		pt: "Zigzagoon",
+	},
+
 	rarity: "Uncommon",
 	category: "Pokemon",
 
@@ -62,22 +72,40 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "It uses its explosive speed and razor-sharp claws to bring down prey. Running along winding paths is not its strong suit.",
+		fr: "Il se sert de sa force de propulsion et de ses griffes aiguisées pour achever ses proies. Il a du mal à courir sur les routes sinueuses.",
+		de: "Es erlegt seine Beute mit schnellen Bewegungen und scharfen Klauen. Kurven zu nehmen bereitet ihm aber große Schwierigkeiten."
+	},
+
+	illustrator: "nagimiso",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857657,
+				tcgplayer: 662175,
+				cardtrader: 356868
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857657,
+				tcgplayer: 662175,
+				cardtrader: 356868
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857657,
-		tcgplayer: 662175
-	}
 }
 
 export default card

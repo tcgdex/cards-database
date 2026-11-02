@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		89,
-	],
+	dexId: [89],
 
 	hp: 100,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Grimer",
 		fr: "Tadmorv",
+		de: "Sleima"
 	},
 
 	stage: "Stage1",
@@ -41,7 +40,7 @@ const card: Card = {
 				de: "Schlammzieher"
 			},
 			effect: {
-				en: "Switch the Defending Pokémon with 1 of your opponent’s Benched Pokémon. The new Defending Pokémon is now Confused and Poisoned.",
+				en: "Switch the Defending Pokémon with 1 of your opponent's Benched Pokémon. The new Defending Pokémon is now Confused and Poisoned.",
 				fr: "Échangez le Pokémon Défenseur avec un Pokémon de Banc de votre adversaire. Le nouveau Pokémon Défenseur est maintenant Confus et Empoisonné.",
 				de: "Tausche das Verteidigende Pokémon gegen 1 Pokémon auf der Bank deines Gegners aus. Das neue Verteidigende Pokémon ist jetzt verwirrt und vergiftet."
 			},
@@ -78,22 +77,27 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "Its body is made of a powerful poison. Touching it accidentally will cause a fever that requires bed rest."
+		en: "Its body is made of a powerful poison. Touching it accidentally will cause a fever that requires bed rest.",
+		de: "Sein Körper besteht aus Gift. Eine zufällige Berührung reicht aus, um fiebrig im Bett zu liegen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279284,
+				tcgplayer: 87625
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279284,
+				tcgplayer: 87625
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279284,
-		tcgplayer: 87625
-	}
 }
 
 export default card

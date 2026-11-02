@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		318,
-	],
+	dexId: [318],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -33,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Wave Splash",
 				fr: "Grosse vague",
-				de: "Wave Splash"
+				de: "Wellenplatscher"
 			},
 
 			damage: 10,
@@ -47,7 +45,7 @@ const card: Card = {
 			name: {
 				en: "Razor Fin",
 				fr: "Aileron-rasoir",
-				de: "Razor Fin"
+				de: "Rasierflosse"
 			},
 
 			damage: 20,
@@ -62,22 +60,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276025,
-		tcgplayer: 89778
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275825,
+				tcgplayer: 89778
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275825,
+				tcgplayer: 89778
+			}
+		},
+	],
+
 }
 
 export default card

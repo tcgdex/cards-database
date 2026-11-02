@@ -40,7 +40,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Any damage done to Crawdaunt by your opponent's attacks is reduced by 10 for each Darkness Energy attached to Crawdaunt (after applying Weakness and Resistance). You can't reduce more than 20 damage in this way.",
-				fr: "Tous dégâts infligés à Colhomard par une attaque de votre adversaire sont réduits de 10 pour chaque Énergie  attachée à Colhomard (après application de la Faiblesse et de la Résistance). Vous ne pouvez pas réduire de plus de 20 dégâts de cette façon.",
+				fr: "Tous dégâts infligés à Colhomard par une attaque de votre adversaire sont réduits de 10 pour chaque Énergie {D} attachée à Colhomard (après application de la Faiblesse et de la Résistance). Vous ne pouvez pas réduire de plus de 20 dégâts de cette façon.",
 				de: "Any damage done to Crawdount by your opponent's attacks is reduced by 10 for each  Energy attached to Crawdount (after applying Weakness and Resistance). You can't reduce more than 20 damage in this way."
 			},
 		},
@@ -103,20 +103,25 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 84463,
-		cardmarket: 276409
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 84463,
+				cardmarket: 276409
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
-		}
-	]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 84463,
+				cardmarket: 276409
+			},
+		},
+	],
+
 }
 
 export default card

@@ -59,15 +59,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 274020,
-		tcgplayer: 42548
+
+	description: {
+		en: "Lives in the shadows of tall trees where it eats insects. It is attracted by light at night.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274020,
+				tcgplayer: 42548
+			}
 		}
 	]
 }

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Glurak VSTAR"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 280,
@@ -25,7 +26,7 @@ const card: Card = {
 		es: "Charizard V",
 		it: "Charizard-V",
 		pt: "Charizard V",
-		de: "Glurak-V"
+		de: "Glurak VSTAR"
 	},
 
 	stage: "VSTAR",
@@ -77,20 +78,26 @@ const card: Card = {
 		damage: 320
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608720,
-		tcgplayer: 263893
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 608720,
+				tcgplayer: 263893
+			}
+		},
+	],
 }
 
 export default card

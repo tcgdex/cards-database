@@ -23,7 +23,9 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Meditite"
+		en: "Meditite",
+		fr: "Méditikka",
+		de: "Meditie"
 	},
 
 	description: {
@@ -31,7 +33,7 @@ const card: Card = {
 		fr: "Ses pouvoirs psychiques, renforcés\npar la pratique du yoga, lui permettent\nde prédire les mouvements de ses adversaires.",
 		es: "Puede prever los movimientos de su rival usando\nsus poderes psíquicos, fortalecidos por el yoga.",
 		it: "È in grado di conoscere in anticipo le mosse\ndel nemico grazie ai poteri di preveggenza\nottenuti con le pratiche yoga.",
-		de: "Mit Yogaübungen hat es seine Psycho-Kräfte geschärft\nund ahnt so die Attacken seiner Gegner voraus.",
+		de: "Mit Yogaübungen hat es seine Psycho-Kräfte geschärft und ahnt so die Attacken seiner Gegner voraus.",
 		'pt-br': "Através do treinamento de ioga, ganhou o poder psíquico\nde prever o movimento seguinte do oponente.",
 		ko: "요가 수행으로 단련된\n사이코 파워로 상대의 움직임을\n예상할 수 있다."
 	},

@@ -59,6 +59,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "These Pokémon prefer a tidy habitat. They are always sweeping and dusting, using their tails as brooms.",
+	},
+
 	thirdParty: {
 		cardmarket: 281128,
 		tcgplayer: 87478

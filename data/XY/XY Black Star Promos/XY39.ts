@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "hatachu",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -33,9 +33,11 @@ const card: Card = {
 		{
 			type: "Ancient Trait",
 			name: {
+				en: "α Growth",
 				fr: "Croissance α",
 			},
 			effect: {
+				en: "When you attach an Energy card from your hand to this Pokémon (except with an attack, Ability, or Trainer card), you may attach 2 Energy cards.",
 				fr: "Lorsque vous attachez une carte Énergie de votre main à ce Pokémon (excepté à la suite d'une attaque, d'un talent ou d'une carte Dresseur), vous pouvez attacher 2 cartes Énergie au lieu d'une.",
 			},
 		},
@@ -83,6 +85,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It stores energy by sleeping at underwater depths at which no other life-forms can survive.",
+	},
 
 	thirdParty: {
 		cardmarket: 289702

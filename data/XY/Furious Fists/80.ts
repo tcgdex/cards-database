@@ -79,6 +79,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A rare Pokémon that adapts to harsh environments by taking on different evolutionary forms.",
+		de: "Ein seltenes Pokémon, das sich seiner Umgebung anpasst, indem es sich in unterschiedliche Formen entwickelt."
+	},
+
 	thirdParty: {
 		cardmarket: 281744,
 		tcgplayer: 92260

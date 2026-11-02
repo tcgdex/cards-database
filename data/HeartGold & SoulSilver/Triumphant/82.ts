@@ -12,15 +12,14 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [314],
 
-	dexId: [
-		313,
-	],
+	dexId: [313],
 
 	hp: 70,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -36,7 +35,7 @@ const card: Card = {
 				de: "Illumkete"
 			},
 			effect: {
-				en: "If you don’t have Illumise in play, this attack does nothing. Choose 1 of your opponent’s Benched Pokémon. This attack does 30 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "If you don't have Illumise in play, this attack does nothing. Choose 1 of your opponent's Benched Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Si vous ne disposez pas de Lumivole en jeu, cette attaque ne fait rien. Choisissez l’un des Pokémon de Banc de votre adversaire. Cette attaque inflige 30 dégâts à ce Pokémon. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 				de: "Wenn du kein Illumise im Spiel hast, hat dieser Angriff keine Auswirkungen. Wähle 1 Pokémon auf der Bank deines Gegners. Dieser Angriff fügt dem gewählten Pokémon 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
@@ -73,20 +72,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It emits light from its tail to communicate. It loves the sweet aroma given off by Illumise."
+		en: "It emits light from its tail to communicate. It loves the sweet aroma given off by Illumise.",
+		de: "Es kommuniziert mit seinen Artgenossen, indem es mit dem Hinterteil blinkt. Es liebt ILLUMISEs Duft."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90400,
+				cardmarket: 279612
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279612,
+				tcgplayer: 90400
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279612,
-		tcgplayer: 90400
-	}
 }
 
 export default card

@@ -79,6 +79,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its tail is so powerful that it can use it to grab a tree branch and hold itself up in the air.",
+		de: "Sein Schweif ist so kräftig, dass es sich stundenlang damit an einem Ast in der Luft halten kann."
+	},
+
 	thirdParty: {
 		cardmarket: 291650,
 		tcgplayer: 121216

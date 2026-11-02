@@ -22,7 +22,9 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Mankey"
+		en: "Mankey",
+		fr: "Férosinge",
+		de: "Menki"
 	},
 
 	description: {
@@ -30,7 +32,7 @@ const card: Card = {
 		fr: "Il devient fou furieux s'il se sent observé\net pourchasse tout être qui croise son regard.",
 		es: "Se pone furioso si nota que alguien lo\nestá mirando. Persigue a cualquiera\nque establezca contacto visual con él.",
 		it: "Diventa furioso se si sente osservato.\nInsegue chiunque incontri il suo sguardo.",
-		de: "Spürt Rasaff, dass jemand es anblickt, wird es\nrasend vor Wut. Es verfolgt jeden, der es wagt,\nseinen Blick zu erwidern.",
+		de: "Spürt Rasaff, dass jemand es anblickt, wird es rasend vor Wut. Es verfolgt jeden, der es wagt, seinen Blick zu erwidern.",
 		'pt-br': "Fica incrivelmente furioso se perceber que\nestá sendo observado. Persegue qualquer\num que o encarar.",
 		ko: "누군가의 시선을 느끼기만 해도\n대단히 화를 낸다. 그리고\n눈이 마주친 상대를 쫓아다닌다."
 	},

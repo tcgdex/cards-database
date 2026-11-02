@@ -44,18 +44,42 @@ const card: Card = {
 		damage: "30×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its adorable behavior and cry make it highly popular. However, this cute Pokémon is rarely found.",
+		de: "Aufgrund seines reizenden Wesens und seines Rufes erfreut sich dieses Pokémon großer Beliebtheit. Leider ist es auch sehr selten."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725161,
+				tcgplayer: 509811,
+				cardtrader: 255766
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725161,
+				tcgplayer: 509811,
+				cardtrader: 255766
+			}
+		},
+	],
 
 	illustrator: "Yuka Morii",
 
-	thirdParty: {
-		cardmarket: 725161
-	}
+	
 }
 
 export default card

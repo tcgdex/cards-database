@@ -88,6 +88,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives deep in forests. With the leaf on its head, it makes a flute whose song makes listeners uneasy.",
+		de: "Lebt tief im Wald. Es baut sich eine Flöte aus den Blättern seines Kopfes. Ihr Ton verbreitet Schrecken."
+	},
+
 	thirdParty: {
 		cardmarket: 291517,
 		tcgplayer: 120999

@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 110,
 	types: ["Fighting"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "E",
 	illustrator: "KEIICHIRO ITO",
 
 	description: {
-		en: "It rapidly bores through the ground at 50 mph by squirming and twisting its massive, rugged body."
+		en: "It rapidly bores through the ground at 50 mph by squirming and twisting its massive, rugged body.",
+		de: "Es bohrt sich mit 80 km/h durch das Erdreich, indem es seinen massiven, rauen Körper dreht und windet."
 	},
 
 	attacks: [{
@@ -64,17 +71,23 @@ const card: Card = {
 		damage: 90
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582746,
-		tcgplayer: 253343
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582746,
+				tcgplayer: 253343
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582746,
+				tcgplayer: 253343
+			}
+		},
+	],
 }
 
 export default card

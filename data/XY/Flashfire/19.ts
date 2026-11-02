@@ -57,6 +57,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The stronger the opponent it faces, the more heat surges from its mane and the more power flows through its body.",
+		de: "Je stärker sein Gegner ist, desto heißer wird seine Mähne und umso kraftvoller wird es."
+	},
+
 	thirdParty: {
 		cardmarket: 281501,
 		tcgplayer: 91152

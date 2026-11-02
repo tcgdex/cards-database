@@ -44,14 +44,30 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "Pani Kobayashi",
+
+	description: {
+		en: "The thread it secretes from its rear is as strong as wire. The secret behind the thread's strength is the topic of ongoing research.",
+		de: "Der Faden, den Tarundel über seinen Hinterleib absondert, ist so stark wie Draht. Das Geheimnis dieser Stärke wird noch erforscht."
+	},
 
 	thirdParty: {
         cardmarket: 702313,

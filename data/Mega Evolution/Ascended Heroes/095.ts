@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "tono",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [708],
 	hp: 70,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -47,13 +48,52 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675907,
-		cardmarket: 869706
-	}
+	description: {
+		en: "According to old tales, these Pokémon are stumps possessed by the spirits of children who died while lost in the forest.",
+		fr: "Cette espèce de Pokémon aurait vu le jour après que des âmes d'enfants perdus dans la forêt auraient élu domicile dans des souches d'arbres.",
+		de: "Bei diesen Pokémon soll es sich um die Seelen von Kindern handeln, die sich im Wald verliefen und ums Leben kamen und nun in Baumstümpfen hausen."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869706,
+			tcgplayer: 675907
+		}
+	},
+	{
+		type: "reverse",
+		foil: "pokeball",
+		thirdParty: {
+			cardmarket: 870286,
+			tcgplayer: 676927
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870285,
+			tcgplayer: 677067
+		}
+	},
+],
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Eevee"
+		en: "Eevee",
+		fr: "Évoli"
 	},
 
 	illustrator: "MAHOU",
@@ -26,17 +27,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Boosted Evolution"
+			en: "Boosted Evolution",
+			fr: "Évolution Boostée"
 		},
 
 		effect: {
-			en: "As long as this Pokémon is in the Active Spot, it can evolve during your first turn or the turn you play it."
+			en: "As long as this Pokémon is in the Active Spot, it can evolve during your first turn or the turn you play it.",
+			fr: "Tant que ce Pokémon est sur le Poste Actif, il peut évoluer pendant votre premier tour ou pendant le tour où vous le jouez."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Stampede"
+			en: "Stampede",
+			fr: "Ruée"
 		},
 
 		damage: 10,

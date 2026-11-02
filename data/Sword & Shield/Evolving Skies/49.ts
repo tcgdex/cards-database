@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Pikachu",
@@ -43,7 +37,7 @@ const card: Card = {
 			es: "Une 1 carta de Energía Lightning de tu pila de descartes a este Pokémon.",
 			it: "Assegna a questo Pokémon una carta Energia Lightning dalla tua pila degli scarti.",
 			pt: "Attach a Lightning Energy card from your discard pile to this Pokémon.",
-			de: "Lege 1 Lightning-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+			de: "Lege 1 {L}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 		},
 
 		cost: ["Lightning"]
@@ -69,16 +63,29 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "When Pikachu meet, they'll touch their tails together and exchange electricity through them as a form of greeting."
+		en: "When Pikachu meet, they'll touch their tails together and exchange electricity through them as a form of greeting.",
+		de: "Pikachu begrüßen einander, indem sie ihre Schweife aneinanderreiben und eine Ladung Strom durch diese gleiten lassen."
 	},
 
 	dexId: [25],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574073,
-		tcgplayer: 246881
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574073,
+				tcgplayer: 246881
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751840,
+				tcgplayer: 246881
+			}
+		},
+	],
 }
 
 export default card

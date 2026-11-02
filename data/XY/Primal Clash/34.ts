@@ -91,6 +91,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Living on muddy ground that provides poor footing has made its legs sturdy.",
+	},
+
 	thirdParty: {
 		cardmarket: 273565,
 		tcgplayer: 95926

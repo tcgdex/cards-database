@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage2",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "E",
 	illustrator: "KEIICHIRO ITO",
 
 	description: {
-		en: "It detonates its own body. The power from that explosion can propel it up steep mountain paths with amazing speed."
+		en: "It detonates its own body. The power from that explosion can propel it up steep mountain paths with amazing speed.",
+		de: "Es kann sich in die Luft sprengen. Diese Explosionen setzt es ein, um selbst steile Bergpfade in rasantem Tempo zu meistern."
 	},
 
 	abilities: [{
@@ -83,17 +90,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582736,
-		tcgplayer: 253342
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582736,
+				tcgplayer: 253342
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582736,
+				tcgplayer: 253342
+			}
+		},
+	],
 }
 
 export default card

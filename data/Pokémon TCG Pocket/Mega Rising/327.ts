@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bibarel ex"
+		en: "Bibarel ex",
+		fr: "Castorno-ex"
 	},
 
 	illustrator: "PLANETA CG Works",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Bidoof"
+		en: "Bidoof",
+		fr: "Keunotor"
 	},
 
 	stage: "Stage1",
@@ -25,14 +27,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Carefree Press"
+			en: "Carefree Press",
+			fr: "Pression Insouciante"
 		},
 
 		damage: 100,
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "Heal 30 damage from this Pokémon."
+			en: "Heal 30 damage from this Pokémon.",
+			fr: "Soignez 30 dégâts de ce Pokémon."
 		}
 	}],
 

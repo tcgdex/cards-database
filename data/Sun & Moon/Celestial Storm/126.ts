@@ -32,7 +32,7 @@ const card: Card = {
 		es: "Pon 1 carta de tu mano en tu baraja y barájalas todas. Si lo haces, roba 3 cartas.",
 		it: "Rimischia una delle carte che hai in mano nel tuo mazzo. Se lo fai, pesca tre carte.",
 		pt: "Embaralhe 1 carta da sua mão no seu baralho. Se fizer isto, compre 3 cartas.",
-		de: "Mische 1 Karte aus deiner Hand in dein Deck. Wenn du das machst, ziehe 3 Karten."
+		de: "Mische 1 Karte aus deiner Hand in dein Deck. Wenn du das machst, ziehe 3 Karten. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 	trainerType: "Supporter",
 

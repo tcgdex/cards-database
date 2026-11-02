@@ -10,6 +10,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [48, 95, 151],
 
 	dexId: [
 		18,
@@ -72,14 +73,17 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 275632,
-		tcgplayer: 46476
+	description: {
+		en: "This Pokémon searches for food while flying at Mach 2. Its large claws make fearsome weapons.",
 	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275632,
+				tcgplayer: 46476
+			}
 		}
 	]
 }

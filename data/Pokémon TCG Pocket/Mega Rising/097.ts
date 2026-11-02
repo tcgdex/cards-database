@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Natu"
+		en: "Natu",
+		fr: "Natu"
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -17,14 +18,16 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "Because its wings aren't yet fully grown, it has to\nhop to get around. It is always staring\nat something."
+		en: "Because its wings aren't yet fully grown, it has to\nhop to get around. It is always staring\nat something.",
+		fr: "Comme ses ailes ne sont pas complètement développées, il doit sauter pour se déplacer. Il observe toujours quelque chose."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Peck"
+			en: "Peck",
+			fr: "Picpic"
 		},
 
 		damage: 10,

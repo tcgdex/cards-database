@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Kirlia δ",
 		fr: "Kirlia δ",
-		de: "Kirlia"
+		de: "Kirlia δ"
 	},
 
 	illustrator: "Kyoko Umemoto",

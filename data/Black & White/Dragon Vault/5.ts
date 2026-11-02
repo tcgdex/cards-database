@@ -76,10 +76,19 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 281005,
-		tcgplayer: 84915
-	}
+	description: {
+		en: "It is said to make its home somewhere in the sea. It guides crews of shipwrecks to shore.",
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281005,
+				tcgplayer: 84915
+			}
+		},
+	],
 }
 
 export default card

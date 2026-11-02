@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "tetsuya koizumi",
 
 	description: {
-		en: "With sly cunning, it tries to lure people into the woods. Some believe it to have the power to make crops grow."
+		en: "With sly cunning, it tries to lure people into the woods. Some believe it to have the power to make crops grow.",
+		de: "Es hat einen Hang zur Verschlagenheit und versucht, nachts seine Beute in den Wald zu locken. Angeblich kann es Äcker gedeihen lassen."
 	},
 
 	attacks: [{
@@ -74,17 +81,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582805,
-		tcgplayer: 253391
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582805,
+				tcgplayer: 253391
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582805,
+				tcgplayer: 253391
+			}
+		},
+	],
 }
 
 export default card

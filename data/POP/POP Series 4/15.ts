@@ -4,7 +4,8 @@ import Set from '../POP Series 4'
 const card: Card = {
 	name: {
 		en: "Treecko δ",
-		fr: "Arcko δ"
+		fr: "Arcko δ",
+		de: "Geckarbor δ"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -12,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		252,
-	],
+	dexId: [252],
 
 	hp: 40,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -31,7 +30,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Pound",
-				fr: "Écras'face"
+				fr: "Écras'face",
+				de: "Pfund"
 			},
 
 			damage: 10,
@@ -43,11 +43,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Shining Claws",
-				fr: "Griffes étincelantes"
+				fr: "Griffes étincelantes",
+				de: "Glänzende Krallen"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
-				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus."
+				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -56,29 +58,28 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fire"
+			type: "Fire",
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Water",
 			value: "-30"
 		},
 	],
-
 	retreat: 1,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90045,
+				cardmarket: 277480
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277480
-	}
 }
 
 export default card

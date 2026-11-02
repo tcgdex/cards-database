@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Une 1 carta de Energía Básica de tu mano a 1 de tus Pokémon en Banca.",
 		it: "Assegna a uno dei tuoi Pokémon in panchina una carta Energia base dalla tua mano.",
 		pt: "Ligue 1 carta de Energia básica da sua mão a 1 dos seus Pokémon no Banco.",
-		de: "Lege 1 Basis-Energiekarte aus deiner Hand an 1 Pokémon auf deiner Bank an."
+		de: "Lege 1 Basis-Energiekarte aus deiner Hand an 1 Pokémon auf deiner Bank an. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

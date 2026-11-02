@@ -4,23 +4,21 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Rampardos GL",
-		fr: "Charkos  Niv. 63",
+		fr: "Charkos GL Niv. 63",
 		de: "Rameidon GL"
 	},
 
 	illustrator: "Suwama Chiaki",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		409,
-	],
+	dexId: [409],
 
 	hp: 90,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -39,7 +37,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin for each Benched Pokémon (both yours and your opponent's). If that coin flip is heads, this attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Lancez une pièce pour chaque Pokémon de Banc (les vôtres et ceux de votre adversaire). Si c'est une face, cette attaque lui inflige 30 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
-				de: "Wirf für jedes Pokémon auf der Bank (deine und die deines Gegners) jeweils 1 Münze. Dieser Angriff fügt jedem Pokémon, für das auf diese Weise \"Kopf\" geworfen wurde, 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Wirf für jedes Pokémon auf der Bank (deine und die deines Gegners) jeweils 1 Münze. Dieser Angriff fügt jedem Pokémon, für das auf diese Weise „Kopf“ geworfen wurde, 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 
 		},
@@ -67,25 +65,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
-
-	thirdParty: {
-		cardmarket: 278585,
-		tcgplayer: 88572
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278585,
+				tcgplayer: 88572
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278585,
+				tcgplayer: 88572
+			}
+		},
+	],
+
 }
 
 export default card

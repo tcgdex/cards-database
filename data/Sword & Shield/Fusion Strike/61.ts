@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 110,
 	types: ["Water"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Saya Tsuruta",
 
 	description: {
-		en: "As it majestically swims, it doesn't care if Remoraid attach to it to scavenge for its leftovers."
+		en: "As it majestically swims, it doesn't care if Remoraid attach to it to scavenge for its leftovers.",
+		de: "Es schwimmt erhaben durch die Meere und duldet dabei etwaige Remoraid, die sich in der Hoffnung auf Futterreste an es heften."
 	},
 
 	attacks: [{
@@ -64,17 +71,23 @@ const card: Card = {
 		damage: 80
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582195,
-		tcgplayer: 253195
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582195,
+				tcgplayer: 253195
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582195,
+				tcgplayer: 253195
+			}
+		},
+	],
 }
 
 export default card

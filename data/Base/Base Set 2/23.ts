@@ -72,15 +72,21 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 273946,
-		tcgplayer: 42468
+
+	description: {
+		en: "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273946,
+				tcgplayer: 42468
+			}
 		}
 	]
 }

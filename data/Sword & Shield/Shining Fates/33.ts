@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Luxio",
-		en: "Luxio"
+		en: "Luxio",
+		de: "Luxio"
 	},
 
 	attacks: [{
@@ -68,23 +69,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
 	description: {
-		en: "Luxray's ability to see through objects comes in handy when it's scouting for danger."
+		en: "Luxray's ability to see through objects comes in handy when it's scouting for danger.",
+		de: "Beim Aufspüren von Gefahren sind Luxtras hellseherische Fähigkeiten äußerst hilfreich."
 	},
 
-	thirdParty: {
-		cardmarket: 539188,
-		tcgplayer: 232463
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539188,
+				tcgplayer: 232463
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539188,
+				tcgplayer: 232463
+			}
+		},
+	],
 }
 
 export default card

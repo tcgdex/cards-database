@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Ambush",
 				fr: "Embuscade",
+				de: "Hinterhalt"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -55,10 +57,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280167,
-		tcgplayer: 90676
-	}
+	description: {
+		en: "These Pokémon arose from the spirits of people interred in graves in past ages. Each retains memories of its former life.",
+		de: "Es entsteht aus den Seelen von längst begrabenen Menschen und kann sich noch immer an deren Vergangenheit erinnern."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280168,
+				tcgplayer: 90676
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280168,
+				tcgplayer: 90676
+			}
+		},
+	],
 }
 
 export default card

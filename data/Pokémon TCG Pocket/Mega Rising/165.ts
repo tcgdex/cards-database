@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Grimmsnarl"
+		en: "Grimmsnarl",
+		fr: "Angoliath"
 	},
 
 	illustrator: "DOM",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Morgrem"
+		en: "Morgrem",
+		fr: "Fourbelin"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Wrack Down"
+			en: "Wrack Down",
+			fr: "Réduire en Poussière"
 		},
 
 		damage: 100,

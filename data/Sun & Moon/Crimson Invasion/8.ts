@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [588],
 
 	dexId: [
 		616,
@@ -62,6 +63,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "When it and Karrablast are together, and both receive electrical stimulation, they both evolve.",
+		de: "Hält sich ein Laukaps in seiner Nähe auf und kommen beide mit Strom in Berührung, entwickeln sie sich."
+	},
 
 	thirdParty: {
 		cardmarket: 311858,

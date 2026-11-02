@@ -73,6 +73,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.",
+		de: "Die Flosse auf seinem Kopf prüft Strömungen des Wassers. Dieses Pokémon kann Felsen heben."
+	},
+
 	thirdParty: {
 		cardmarket: 361279,
 		tcgplayer: 170850

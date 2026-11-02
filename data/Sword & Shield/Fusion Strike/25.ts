@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Akira Komayama",
 
 	description: {
-		en: "The cotton on the head of this Pokémon can be spun into a glossy, gorgeous yarn—a Galar regional specialty."
+		en: "The cotton on the head of this Pokémon can be spun into a glossy, gorgeous yarn—a Galar regional specialty.",
+		de: "Aus dem Flaum auf seinem Kopf werden wunderschöne, glänzende Fäden gesponnen. Die Galar-Region ist bekannt für dieses Produkt."
 	},
 
 	attacks: [{
@@ -61,17 +68,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582092,
-		tcgplayer: 253118
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582092,
+				tcgplayer: 253118
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582092,
+				tcgplayer: 253118
+			}
+		},
+	],
 }
 
 export default card

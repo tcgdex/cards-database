@@ -55,19 +55,39 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751735,
+				tcgplayer: 535163,
+				cardtrader: 274381
+			}
+		},
+	],
 
 	illustrator: "sowsow",
 
-	thirdParty: {
-		cardmarket: 751735
-	}
+	description: {
+		en: "It is docile and prefers to avoid conflict. If disturbed, however, it can ferociously strike back.",
+		de: "Reizt man dieses an sich gutmütige Pokémon, wehrt es sich wütend."
+	},
+
 }
 
 export default card

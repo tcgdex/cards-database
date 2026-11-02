@@ -22,25 +22,25 @@ const card: Card = {
 		es: "Descarta 1 Energía Especial de 1 de los Pokémon de tu rival y descarta un Estadio en juego.",
 		it: "Scarta un'Energia speciale da uno dei Pokémon del tuo avversario e una carta Stadio in gioco.",
 		pt: "Descarte 1 Energia Especial de 1 dos Pokémon do seu oponente e descarte 1 Estádio em jogo.",
-		de: "Lege 1 Spezial-Energie von 1 Pokémon deines Gegners auf seinen Ablagestapel und lege 1 Stadionkarte im Spiel auf den Ablagestapel."
+		de: "Lege 1 Spezial-Energie von 1 Pokémon deines Gegners auf seinen Ablagestapel und lege 1 Stadionkarte im Spiel auf deinen Ablagestapel. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	illustrator: "Ryuta Fuse",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 567323,
-		tcgplayer: 241834
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 567323,
+				tcgplayer: 241834
+			}
+		},
+	],
 }
 
 export default card

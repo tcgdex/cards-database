@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Taiso"
 	},
 
+	illustrator: "Hitoshi Ariga",
 	rarity: "Secret Rare",
 	category: "Trainer",
 
@@ -22,23 +23,23 @@ const card: Card = {
 		es: "Cada jugador enseña las cartas de su mano. Roba 3 cartas.",
 		it: "Ciascun giocatore mostra le carte che ha in mano. Pesca tre carte.",
 		pt: "Cada jogador revela a própria mão. Compre 3 cartas.",
-		de: "Jeder Spieler zeigt seine Handkarten. Ziehe 3 Karten."
+		de: "Jeder Spieler zeigt seine Handkarten. Ziehe 3 Karten. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658861,
-		tcgplayer: 272454
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 658861,
+				tcgplayer: 272454
+			}
+		},
+	],
 }
 
 export default card

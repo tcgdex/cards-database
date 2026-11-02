@@ -60,7 +60,7 @@ const card: Card = {
 				es: "Pon 2 Energías Water unidas a este Pokémon en tu mano.",
 				it: "Prendi due Energie Water assegnate a questo Pokémon e aggiungile alle carte che hai in mano.",
 				pt: "Coloque 2 Energias Water ligadas a este Pokémon na sua mão.",
-				de: "Nimm 2 an dieses Pokémon angelegte Water-Energien auf deine Hand."
+				de: "Nimm 2 an dieses Pokémon angelegte {W}-Energien auf deine Hand."
 			},
 			damage: 130,
 
@@ -77,23 +77,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Said to be the embodiment of north winds, it can instantly purify filthy, murky water."
+		en: "Said to be the embodiment of north winds, it can instantly purify filthy, murky water.",
+		de: "Man sagt, es sei die Wiedergeburt des Nordwindes. Es kann verschmutztes Wasser im Nu reinigen."
 	},
 
-	thirdParty: {
-		cardmarket: 483059,
-		tcgplayer: 219271
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 483059,
+				tcgplayer: 219271
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483059,
+				tcgplayer: 219271
+			}
+		},
+	],
 }
 
 export default card

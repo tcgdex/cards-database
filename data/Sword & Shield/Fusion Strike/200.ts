@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Lee HyunJung",
 
 	description: {
-		en: "Its elegant and refined behavior clashes with that of the barbaric Perrserker. The relationship between the two is one of mutual disdain."
+		en: "Its elegant and refined behavior clashes with that of the barbaric Perrserker. The relationship between the two is one of mutual disdain.",
+		de: "Sein Auftreten ist anmutig und elegant. Es kommt mit Mauzingers grober Art nicht zurecht. Beide Arten strafen sich gegenseitig mit Verachtung."
 	},
 
 	attacks: [{
@@ -74,17 +81,23 @@ const card: Card = {
 		damage: 70
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582874,
-		tcgplayer: 253292
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582874,
+				tcgplayer: 253292
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582874,
+				tcgplayer: 253292
+			}
+		},
+	],
 }
 
 export default card

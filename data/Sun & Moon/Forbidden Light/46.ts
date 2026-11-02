@@ -87,6 +87,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "If anyone dares to grab its hilt, it wraps a blue cloth around that person's arm and drains that person's life energy completely.",
+		de: "Es wickelt ein blaues Tuch um den Arm von Menschen, die seinen Schwertgriff ergreifen, und absorbiert deren Lebensenergie, bis sie zusammenbrechen."
+	},
+
 	thirdParty: {
 		cardmarket: 355565,
 		tcgplayer: 165697

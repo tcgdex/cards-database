@@ -22,7 +22,7 @@ const card: Card = {
 		fr: "Attachez une carte Énergie {P} de base de votre pile de défausse à l'un de vos Pokémon {P} de Banc.",
 		es: "Une 1 carta de Energía {P} Básica de tu pila de descartes a uno de tus Pokémon {P} en Banca.",
 		'es-mx': "Une 1 carta de Energía {P} Básica de tu pila de descartes a 1 de tus Pokémon {P} en Banca.",
-		de: "Lege 1 Basis-{P}-Energiekarte aus deinem Ablagestapel an 1 {P}-Pokémon auf deiner Bank an.",
+		de: "Lege 1 Basis-{P}-Energiekarte aus deinem Ablagestapel an 1 {P}-Pokémon auf deiner Bank an. Du kannst während deines Zuges beliebig viele Itemkarten spielen.",
 		it: "Assegna a uno dei Pokémon {P} nella tua panchina una carta Energia base {P} dalla tua pila degli scarti.",
 		pt: "Ligue uma carta de Energia {P} Básica da sua pilha de descarte a 1 dos seus Pokémon {P} no Banco."
 	},
@@ -30,19 +30,25 @@ const card: Card = {
 	trainerType: "Item",
 	regulationMark: "I",
 
+	illustrator: "Studio Bora Inc.",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857669,
+				tcgplayer: 662241,
+				cardtrader: 356880
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857669,
+				tcgplayer: 662241,
+				cardtrader: 356880
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857669,
-		tcgplayer: 662241
-	}
 }
 
 export default card

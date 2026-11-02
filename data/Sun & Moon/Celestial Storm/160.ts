@@ -71,7 +71,7 @@ const card: Card = {
 				es: "Este ataque hace 30 puntos de daño por cada Energía Grass Básica y Lightning Básica unida a tus Pokémon.",
 				it: "Questo attacco infligge 30 danni per ogni Energia base Grass o Lightning assegnata ai tuoi Pokémon.",
 				pt: "Este ataque causa 30 pontos de dano vezes a quantidade de Energia Grass básica e Lightning básica ligada aos seus Pokémon.",
-				de: "Diese Attacke fügt 30 Schadenspunkte mal der Anzahl der an deine Pokémon angelegten Grass-Basis-Energien und Lightning-Basis-Energien zu."
+				de: "Diese Attacke fügt 30 Schadenspunkte mal der Anzahl der an deine Pokémon angelegten {G}-Basis-Energien und {L}-Basis-Energien zu."
 			},
 			damage: "30×",
 
@@ -86,7 +86,7 @@ const card: Card = {
 				es: "Tempestad GX",
 				it: "Tempesta-GX",
 				pt: "Vendaval GX",
-				de: "Unwetter GX"
+				de: "Unwetter-GX"
 			},
 			effect: {
 				en: "Discard your hand and draw 10 cards. (You can’t use more than 1 GX attack in a game.)",

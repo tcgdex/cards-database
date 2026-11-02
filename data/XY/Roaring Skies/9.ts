@@ -63,6 +63,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It can sometimes live underground for more than 10 years. It absorbs nutrients from the roots of trees.",
+	},
+
 	thirdParty: {
 		cardmarket: 282677,
 		tcgplayer: 98045

@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Wartortle",
-		fr: "Carabaffe"
+		fr: "Carabaffe",
+		de: "Schillok"
 	},
 
 	suffix: "GX",
@@ -75,7 +76,7 @@ const card: Card = {
 				es: "Pon cualquier cantidad de Energías Water de tus Pokémon en tu baraja y baraja todas las cartas. Este ataque hace 60 puntos de daño por cada carta que hayas puesto en tu baraja de esta manera.",
 				it: "Rimischia nel tuo mazzo tutte le Energie Water che vuoi assegnate ai tuoi Pokémon. Questo attacco infligge 60 danni per ogni carta che hai rimischiato in questo modo.",
 				pt: "Embaralhe qualquer quantidade de Energia Water dos seus Pokémon no seu baralho. Este ataque causa 60 pontos de dano para cada carta embaralhada no seu baralho desta forma.",
-				de: "Mische beliebig viele Water-Energien von deinen Pokémon in dein Deck. Diese Attacke fügt 60 Schadenspunkte mal der Anzahl der auf diese Weise in dein Deck gemischten Karten zu."
+				de: "Mische beliebig viele {W}-Energien von deinen Pokémon in dein Deck. Diese Attacke fügt 60 Schadenspunkte mal der Anzahl der auf diese Weise in dein Deck gemischten Karten zu."
 			},
 			damage: "60×",
 
@@ -90,7 +91,7 @@ const card: Card = {
 				es: "Géiser Gigante GX",
 				it: "Geyser Gigante GX",
 				pt: "Gêiser Gigante GX",
-				de: "Riesengeysir GX"
+				de: "Riesengeysir-GX"
 			},
 			effect: {
 				en: "Attach any number of Water Energy cards from your hand to your Pokémon in any way you like. (You can’t use more than 1 GX attack in a game.)",
@@ -98,7 +99,7 @@ const card: Card = {
 				es: "Une cualquier cantidad de cartas de Energía Water de tu mano a tus Pokémon de la manera que desees. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Assegna a piacimento ai tuoi Pokémon un numero qualsiasi di carte Energia Water dalla tua mano. Non puoi usare più di un attacco GX a partita.",
 				pt: "Ligue qualquer número de cartas de Energia Water da sua mão aos seus Pokémon como desejar (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Lege beliebig viele Water-Energiekarten aus deiner Hand beliebig an deine Pokémon an. (Du kannst pro Spiel nur 1 GX Attacke einsetzen.)"
+				de: "Lege beliebig viele {W}-Energiekarten aus deiner Hand beliebig an deine Pokémon an. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 
 		},

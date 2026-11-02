@@ -16,13 +16,15 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [773],
+
 	effect: {
 		fr: "Le Silvallié-GX auquel cette carte est attachée est un Pokémon Fire.",
 		en: "The Silvally-GX this card is attached to is a Fire Pokémon.",
 		es: "El Silvally-GX al que esté unida esta carta es un Pokémon Fire.",
 		it: "Il Silvally-GX a cui è assegnata questa carta è di tipo Fire.",
 		pt: "O Pokémon Silvally-GX ao qual esta carta está ligada é um Pokémon Fire.",
-		de: "Das Amigento-GX, an das diese Karte angelegt ist, ist ein Fire-Pokémon."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Das Amigento-GX, an das diese Karte angelegt ist, ist ein {R}-Pokémon. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

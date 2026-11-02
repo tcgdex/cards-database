@@ -70,6 +70,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Apparently this Pokémon is born when a departed spirit inhabits a sword. It attaches itself to people and drinks their life force.",
+		de: "Dieses Pokémon wird geboren, wenn die Seele eines Verstorbenen sich in einem Schwert festsetzt. Es heftet sich an Menschen und saugt deren Lebenskraft aus."
+	},
+
 	thirdParty: {
 		cardmarket: 388262,
 		tcgplayer: 195025

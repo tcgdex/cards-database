@@ -4,7 +4,7 @@ import Set from '../Triumphant'
 const card: Card = {
 	name: {
 		en: "Magnemite",
-		fr: "Magneti",
+		fr: "Magnéti",
 		de: "Magnetilo"
 	},
 
@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		81,
-	],
+	dexId: [81],
 
 	hp: 50,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -55,7 +53,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 20,
 
@@ -79,20 +77,41 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The units at the sides of its body generate antigravity energy to keep it aloft in the air."
+		en: "The units at the sides of its body generate antigravity energy to keep it aloft in the air.",
+		de: "Die Magneten an seinem Körper erzeugen ein AntiGrav.-Feld, um es ständig in der Schwebe zu halten."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87085,
+				cardmarket: 279598
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279598,
+				tcgplayer: 87085
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['gustavo-wada'],
+			thirdParty: {
+				tcgplayer: 480419
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['david-cohen'],
+			thirdParty: {
+				tcgplayer: 480420
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279598,
-		tcgplayer: 87085
-	}
 }
 
 export default card

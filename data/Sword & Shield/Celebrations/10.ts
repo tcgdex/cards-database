@@ -4,12 +4,6 @@ import Set from '../Celebrations'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Zekrom",
@@ -80,15 +74,21 @@ const card: Card = {
 	regulationMark: "E",
 
 	description: {
-		en: "Concealing itself in lightning clouds, it flies throughout the Unova region. It creates electricity in its tail."
+		en: "Concealing itself in lightning clouds, it flies throughout the Unova region. It creates electricity in its tail.",
+		de: "Sein Schweif erzeugt Strom. Es verbirgt sich hinter dichten Gewitterwolken und fliegt durch den Luftraum über Einall."
 	},
 
 	dexId: [644],
 
-	thirdParty: {
-		cardmarket: 576755,
-		tcgplayer: 250308
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 576755,
+				tcgplayer: 250308
+			}
+		},
+	],
 }
 
 export default card

@@ -69,6 +69,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Fishermen keep an eye out for Wingull in the sky, because wherever they're circling, the ocean sure to be is teeming with fish Pokémon.",
+		de: "Fischer halten gerne Ausschau nach Wingull, denn wo diese ihre Kreise ziehen, scharen sich unter Wasser Schwärme von Fisch-Pokémon."
+	},
+
 	thirdParty: {
 		cardmarket: 295347,
 		tcgplayer: 126908

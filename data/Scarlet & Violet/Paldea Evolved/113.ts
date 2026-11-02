@@ -4,6 +4,7 @@ import Set from "../Paldea Evolved"
 const card: Card = {
 	dexId: [297],
 	set: Set,
+	cameoDexIds: [296],
 
 	name: {
 		fr: "Hariyama",
@@ -65,18 +66,40 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715588,
+				tcgplayer: 497528,
+				cardtrader: 248759
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715588,
+				tcgplayer: 497528,
+				cardtrader: 248759
+			}
+		},
+	],
 
 	illustrator: "Hasuno",
 
-	thirdParty: {
-		cardmarket: 715588
-	}
+	description: {
+		en: "It loves challenging others to tests of strength. It has the power to stop a train with a slap.",
+		de: "Dieses Pokémon liebt ein ordentliches Kräftemessen. Es ist stark genug, um mit der flachen Hand einen rasenden Zug aufzuhalten."
+	},
 }
 
 export default card

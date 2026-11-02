@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Geodude"
+		en: "Geodude",
+		fr: "Racaillou"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -17,14 +18,16 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		en: "Geodude that have lived a long life have had all\ntheir edges smoothed out until they're totally\nround. They also have a calm, quiet disposition."
+		en: "Geodude that have lived a long life have had all\ntheir edges smoothed out until they're totally\nround. They also have a calm, quiet disposition.",
+		fr: "Les aspérités de Racaillou s'adoucissent au fil\\ndes années, tout comme sa personnalité.\\nIl devient tout lisse, tout rond, et tout calme."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Tackle"
+			en: "Tackle",
+			fr: "Charge"
 		},
 
 		damage: 20,

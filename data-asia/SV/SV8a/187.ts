@@ -24,6 +24,23 @@ const card: Card = {
 	},
 
 	energyType: "Special",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803300,
+				tcgplayer: 602649,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				tcgplayer: 604646,
+			},
+		},
+	],
+
 	regulationMark: "H"
 }
 

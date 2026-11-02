@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Kramurx"
 	},
 
+	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -51,16 +52,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674127,
-		tcgplayer: 284011
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674127,
+				tcgplayer: 284011
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674127,
+				tcgplayer: 284011
+			}
+		},
+	],
 }
 
 export default card

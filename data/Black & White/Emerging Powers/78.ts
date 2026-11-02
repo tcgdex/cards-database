@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Hyper Fang",
 				fr: "Croc de Mort",
+				de: "Hyperzahn"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+				de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -55,10 +57,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280043,
-		tcgplayer: 87963
-	}
+	description: {
+		en: "Extremely cautious, they take shifts to maintain a constant watch of their nest. They feel insecure without a lookout.",
+		de: "Hortet in seinen Backentaschen Futter, um tagelang Wache stehen zu können, und gibt Kameraden über seine Rute Signale."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280043,
+				tcgplayer: 87963
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280043,
+				tcgplayer: 87963
+			}
+		},
+	],
 }
 
 export default card

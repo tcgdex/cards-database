@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Thievul",
@@ -81,15 +75,28 @@ const card: Card = {
 	},
 
 	description: {
-		en: "With a lithe body and sharp claws, it goes around stealing food and eggs. Boltund is its natural enemy."
+		en: "With a lithe body and sharp claws, it goes around stealing food and eggs. Boltund is its natural enemy.",
+		de: "Dank seines agilen Körpers und seiner scharfen Klauen ist es ihm ein Leichtes, überall Futter und Eier zu stehlen. Bellektro ist sein Erzfeind."
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574153,
-		tcgplayer: 246904
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574153,
+				tcgplayer: 246904
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574153,
+				tcgplayer: 246904
+			}
+		},
+	],
 }
 
 export default card

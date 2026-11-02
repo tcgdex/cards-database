@@ -24,6 +24,22 @@ const card: Card = {
 		'zh-cn': "從自己的棄牌區選擇1張名稱中有「厄鬼椪」的「寶可夢【ex】」卡，與自己的場上的1隻名稱中有「厄鬼椪」的「寶可夢【ex】」互換（所附加的卡・傷害指示物・特殊狀態・效果等全部保留）。將換下的寶可夢丟棄。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803250,
+				tcgplayer: 602556,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602557,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "H",
 	energyType: "Normal"

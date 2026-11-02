@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Moltres di Galar"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	dexId: [146],
 	hp: 120,
 	types: ["Darkness"],
@@ -79,18 +79,22 @@ const card: Card = {
 
 	retreat: 2,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 573860
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 573860,
+				tcgplayer: 246929
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"]
+		},
+	],
 }
 
 export default card

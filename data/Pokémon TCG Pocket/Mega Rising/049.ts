@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Golduck"
+		en: "Golduck",
+		fr: "Akwakwak"
 	},
 
 	illustrator: "Hasuno",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Psyduck"
+		en: "Psyduck",
+		fr: "Psykokwak"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Wave Splash"
+			en: "Wave Splash",
+			fr: "Grosse Vague"
 		},
 
 		damage: 50,

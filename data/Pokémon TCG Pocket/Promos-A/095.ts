@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Chinchou"
+		en: "Chinchou",
+		de: "Lampi"
 	},
 
 	illustrator: "Aya Kusube",
@@ -17,20 +18,23 @@ const card: Card = {
 	types: ["Lightning"],
 
 	description: {
-		en: "Its antennae, which evolved from a fin, have both\npositive and negative charges flowing through them."
+		en: "Its antennae, which evolved from a fin, have both\npositive and negative charges flowing through them.",
+		de: "Seine Antennen haben sich aus Flossen entwickelt und sind sowohl positiv als auch negativ geladen."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Luring Glow"
+			en: "Luring Glow",
+			de: "Lockendes Glühen"
 		},
 
 		cost: ["Lightning"],
 
 		effect: {
-			en: "Flip a coin. If heads, switch in 1 of your opponent's Benched Pokémon to the Active Spot."
+			en: "Flip a coin. If heads, switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
+			de: "Wirf 1 Münze. Wechsle bei Kopf 1 Pokémon von der Bank deines Gegners in die Aktive Position ein."
 		}
 	}],
 

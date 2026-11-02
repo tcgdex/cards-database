@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Spinarak",
 		fr: "Mimigal",
+		de: "Webarak"
 	},
 
 	stage: "Stage1",
@@ -93,6 +94,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It spins thread from both its rear and its mouth. Then it wraps its prey up in thread and sips their bodily fluids at its leisure.",
+		de: "Es kann mit dem Hinterleib und dem Mund Fäden spinnen. Mit diesen fesselt es seine Beute und entzieht ihr gemächlich alle Flüssigkeit."
+	},
 
 	thirdParty: {
 		cardmarket: 365606,

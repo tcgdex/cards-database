@@ -11,25 +11,30 @@ const card: Card = {
 	illustrator: "Kai Ishikawa",
 	rarity: "Uncommon",
 	category: "Trainer",
+	trainerType: "Stadium",
 	set: Set,
 
 	effect: {
-		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-vous de cette carte si une autre carte Stade arrive en jeu.\n\nUne seule fois pendant chacun de ses tours, un joueur peut se défausser d'une carte Énergie de base de sa main. S'il fait ainsi, il choisit une carte Énergie de base de sa pile de défausse, la montre à son adversaire et l'ajoute ensuite à sa main.",
-		de: "Once during each of his or her turns, a player may discard a basic Energy card from his or her hand. If that player does, he or she chooses a basic Energy card from his or her discard pile, shows it to his or her opponent, and then puts it into his or her hand."
-	},
-
-	thirdParty: {
-		cardmarket: 275215,
-		tcgplayer: 88354
+		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Once during each of his or her turns, a player may discard a basic Energy card from his or her hand. If that player does, he or she chooses a basic Energy card from his or her discard pile, shows it to his or her opponent, and then puts it into his or her hand.",
+		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez -vous de cette carte si une autre carte Stade arrive en jeu.",
+		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Einmal während jedes seiner Züge kann ein Spieler eine Basis-Energiekarte aus seiner Hand auf seinem Ablagestapel legen. Wenn dieser Spieler dies macht, wählt er eine Basis-Energiekarte aus seinem Ablagestapel, zeigt sie seinem Gegner und nimmt sie dann auf seine Hand."
 	},
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 88354,
+				cardmarket: 275215
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 88354,
+				cardmarket: 275215
+			}
+		},
 	]
 }
 

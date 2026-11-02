@@ -18,14 +18,24 @@ const card: Card = {
 	types: ["Metal"],
 	energyType: "Normal",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
 
-	thirdParty: {
-		cardmarket: 780994
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				tcgplayer: 560410
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 780994
+			}
+		},
+	],
 }
 
 export default card

@@ -4,6 +4,7 @@ import Set from '../Shining Fates'
 const card: Card = {
 	dexId: [877],
 	set: Set,
+	cameoDexIds: [213, 732],
 
 	name: {
 		fr: "Morpeko",
@@ -71,23 +72,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "As it eats the seeds stored up in its pocket-like pouches, this Pokémon is not just satisfying its constant hunger. It's also generating electricity."
+		en: "As it eats the seeds stored up in its pocket-like pouches, this Pokémon is not just satisfying its constant hunger. It's also generating electricity.",
+		de: "Dieses immerzu hungrige Pokémon frisst Samen, die es in seinen beutelartigen Taschen verwahrt, und produziert so Elektrizität."
 	},
 
-	thirdParty: {
-		cardmarket: 539198,
-		tcgplayer: 232468
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539198,
+				tcgplayer: 232468
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539198,
+				tcgplayer: 232468
+			}
+		},
+	],
 }
 
 export default card

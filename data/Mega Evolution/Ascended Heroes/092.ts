@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "mingo",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [479],
 	hp: 60,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -39,7 +40,7 @@ const card: Card = {
 			fr: "Vous pouvez chercher dans votre deck le nombre voulu de Pokémon ayant \" Motisma \" dans leur nom, puis les placer sur votre Banc. Mélangez ensuite votre deck.",
 			es: "Puedes buscar en tu baraja cualquier cantidad de Pokémon que tengan \"Rotom\" en su nombre y ponerlos en tu Banca. Después, baraja las cartas de tu baraja.",
 			'es-mx': "Puedes buscar en tu mazo cualquier cantidad de Pokémon que tengan \"Rotom\" en su nombre y ponerlos en tu Banca. Después, baraja tu mazo.",
-			de: "Du kannst dein Deck nach beliebig vielen Pokémon durchsuchen, bei denen \"Rotom\" zum Namen gehört, und sie auf deine Bank legen. Mische anschließend dein Deck.",
+			de: "Du kannst dein Deck nach beliebig vielen Pokémon durchsuchen, bei denen „Rotom“ zum Namen gehört, und sie auf deine Bank legen. Mische anschließend dein Deck.",
 			it: "Puoi cercare nel tuo mazzo un numero qualsiasi di Pokémon che hanno \"Rotom\" nel nome e metterli nella tua panchina. Poi rimischia il tuo mazzo.",
 			pt: "Você pode procurar por qualquer número de Pokémon no seu baralho que têm \"Rotom\" em seu nome e colocá-los no seu Banco. Em seguida, embaralhe o seu baralho."
 		}
@@ -69,13 +70,52 @@ const card: Card = {
 		damage: "30×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675904,
-		cardmarket: 869703
-	}
+	description: {
+		en: "Research continues on this Pokémon, which could be the power source of a unique motor.",
+		fr: "On étudie depuis longtemps sa capacité à servir de source d'énergie pour certains moteurs.",
+		de: "Dieses Pokémon wurde lange Zeit erforscht, um als Energiequelle für besondere Motoren zu dienen."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869703,
+			tcgplayer: 675904
+		}
+	},
+	{
+		type: "reverse",
+		foil: "duskball",
+		thirdParty: {
+			cardmarket: 870280,
+			tcgplayer: 676924
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870279,
+			tcgplayer: 677064
+		}
+	},
+],
 }
 
 export default card

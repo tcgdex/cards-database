@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [189],
 
 	dexId: [
 		188,
@@ -29,6 +30,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Hoppip",
 		fr: "Granivol",
+		de: "Hoppspross"
 	},
 
 	stage: "Stage1",
@@ -89,6 +91,11 @@ const card: Card = {
 	],
 
 	retreat: 0,
+
+	description: {
+		en: "It spreads its petals to absorb sunlight. It also floats in the air to get closer to the sun.",
+		de: "Es öffnet seine Blüte, um Sonnenlicht aufzunehmen. Es schwebt in der Luft, um der Sonne näher zu sein."
+	},
 
 	thirdParty: {
 		cardmarket: 365580,

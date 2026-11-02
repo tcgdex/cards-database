@@ -22,7 +22,9 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Electabuzz"
+		en: "Electabuzz",
+		fr: "Élektek",
+		de: "Elektek"
 	},
 
 	description: {
@@ -30,7 +32,7 @@ const card: Card = {
 		fr: "La quantité d'électricité qu'il génère est\nproportionnelle à son pouls. Quand il livre\nun combat, son voltage augmente aussitôt.",
 		es: "La cantidad de electricidad que genera es\nproporcional a su pulso. Al enzarzarse en\ncombate, su voltaje aumenta drásticamente.",
 		it: "Produce una quantità di elettricità direttamente\nproporzionale alla sua frequenza cardiaca.\nDurante la lotta il voltaggio si alza all'istante.",
-		de: "Wie viel Strom es erzeugt, ist abhängig von\nseinem Puls. Im Kampf steigt Elevolteks\nelektrische Spannung schlagartig an.",
+		de: "Wie viel Strom es erzeugt, ist abhängig von seinem Puls. Im Kampf steigt Elevolteks elektrische Spannung schlagartig an.",
 		ko: "발전량은 심박 수에 비례한다.\n싸움이 시작되면\n단숨에 전압이 올라간다.",
 		'pt-br': "A quantidade de energia elétrica que este Pokémon\nproduz é proporcional à sua pulsação. A voltagem\naumenta drasticamente quando Electivire está batalhando."
 	},

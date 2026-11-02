@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Spark"
 	},
 
+	illustrator: "Naoki Saito",
 	rarity: "Secret Rare",
 	category: "Trainer",
 
@@ -22,22 +23,25 @@ const card: Card = {
 		es: "Roba 2 cartas. Si has robado alguna carta de esta manera, lanza 1 moneda. Si sale cara, une 1 carta de Energía Lightning de tu pila de descartes a 1 de tus Pokémon en Banca.",
 		it: "Pesca due carte. Se hai pescato delle carte in questo modo, lancia una moneta. Se esce testa, assegna a uno dei tuoi Pokémon in panchina una carta Energia Lightning dalla tua pila degli scarti.",
 		pt: "Compre 2 cartas. Se você comprar qualquer carta desta forma, jogue 1 moeda. Se sair cara, ligue 1 carta de Energia Lightning da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
-		de: "Ziehe 2 Karten. Wenn du auf diese Weise mindestens 1 Karte gezogen hast, wirf 1 Münze. Lege bei Kopf 1 Lightning-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
+		de: "Ziehe 2 Karten. Wenn du auf diese Weise mindestens 1 Karte gezogen hast, wirf 1 Münze. Lege bei Kopf 1 {L}-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 665289,
-		tcgplayer: 277020
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 665696,
+				tcgplayer: 277020
+			}
+		},
+	],
 }
 
 export default card

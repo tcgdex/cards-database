@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Vesprit"
 	},
 
+	illustrator: "zig",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 70,
@@ -38,7 +39,7 @@ const card: Card = {
 			es: "Si tienes a Uxie y a Azelf en juego, cada uno de tus Pokémon no tiene ninguna Debilidad.",
 			it: "Se hai Uxie e Azelf in gioco, nessuno dei tuoi Pokémon ha debolezza.",
 			pt: "Caso você possua Uxie e Azelf em jogo, seus Pokémon não terão Fraqueza.",
-			de: "Wenn du Selfe und Tobutz im Spiel hast, hat jedes deiner Pokémon keine Schwäche."
+			de: "Wenn du Selfe und Tobutz im Spiel hast, haben deine Pokémon keine Schwäche."
 		}
 	}],
 
@@ -57,20 +58,43 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "It sleeps at the bottom of a lake. Its spirit is said to leave its body to fly on the lake's surface.",
+		de: "Es schläft auf dem Grund eines Sees. Man sagt, sein Geist verlasse den Körper und fliege über den See."
 	},
 
-	thirdParty: {
-		cardmarket: 658643,
-		tcgplayer: 272267
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658643,
+				tcgplayer: 272267
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658643,
+				tcgplayer: 272267
+			}
+		},
+	],
 }
 
 export default card

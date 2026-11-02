@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		18,
-	],
+	dexId: [18],
 
 	hp: 120,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Pidgeotto",
-		fr: "Roucoups"
+		fr: "Roucoups",
+		de: "Tauboga"
 	},
 
 	stage: "Stage2",
@@ -44,7 +43,7 @@ const card: Card = {
 			effect: {
 				en: "During your opponent's next turn, the attack cost of each of the Defending Pokémon's attacks is ColorlessColorless more.",
 				fr: "Pendant le prochain tour de votre adversaire, le coût de chaque attaque du Pokémon Défenseur est augmentée de .",
-				de: "Während des nächsten Zuges deines Gegners kosten die Angriffe des Verteidigenden Pokémon  mehr."
+				de: "Während des nächsten Zuges deines Gegners kosten die Angriffe des Verteidigenden Pokémon {C}{C} mehr."
 			},
 			damage: 20,
 
@@ -63,7 +62,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 damage plus 30 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 40 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 40 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -73,21 +72,38 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
+	retreat: 0,
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-20"
 		},
 	],
+	description: {
+		en: "It spreads its beautiful wings wide to frighten its enemies. It can fly at Mach 2 speed.",
+		de: "Es spreizt seine mächtigen Flügel, um seine Feinde zu verängstigen. Es kann bis zu Mach 2 schnell fliegen."
+	},
 
-	thirdParty: {
-		cardmarket: 279673,
-		tcgplayer: 88035
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88035,
+				cardmarket: 279673
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88035,
+				cardmarket: 279673
+			},
+		},
+	],
+
 }
 
 export default card

@@ -19,12 +19,25 @@ const card: Card = {
 	hp: 120,
 	types: ["Psychic"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Kouki Saitou",
 
 	description: {
-		en: "DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen."
+		en: "DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen.",
+		de: "Deoxys ist ein außerirdisches Virus, das zu einem Pokémon mutierte. Es erscheint in der Nähe von Auroras."
 	},
 
 	attacks: [{
@@ -51,17 +64,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582638,
-		tcgplayer: 253293
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 582638,
+				tcgplayer: 253293
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582638,
+				tcgplayer: 253293
+			}
+		},
+	],
 }
 
 export default card

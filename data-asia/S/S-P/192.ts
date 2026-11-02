@@ -1,49 +1,57 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "金屬怪"
+		ja: "デデンネ",
+		'zh-tw': "金屬怪",
 	},
 
-	illustrator: "Nisota Niso",
+	illustrator: "Yuu Nishida",
 	category: "Pokemon",
-	hp: 100,
-	types: ["Metal"],
+	hp: 70,
+	types: ["Psychic"],
 
 	description: {
-		'zh-tw': "由２隻鐵啞鈴以磁力結合而成。因為有２個大腦， 精神力量也強化成２倍了。"
+		ja: "上の ヒゲは 辺りを 探る センサーで 下に 生えた ヒゲは 電気を 放つ 器官 なのだ。",
+		'zh-tw': "由２隻鐵啞鈴以磁力結合而成。因為有２個大腦， 精神力量也強化成２倍了。",
 	},
 
-	stage: "Stage1",
+	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "子彈拳"
+	attacks: [
+		{
+			name: {
+				ja: "マッドパーティ",
+				'zh-tw': "子彈拳",
+			},
+			damage: "20×",
+			cost: ["Psychic", "Colorless", "Colorless"],
+			effect: {
+				ja: "自分のトラッシュにある、ワザ「マッドパーティ」を持つポケモンの数×20ダメージ。",
+				'zh-tw': "擲2次硬幣，增加正面出現的次數×30點傷害。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "擲2次硬幣，增加正面出現的次數×30點傷害。"
+	weaknesses: [{ type: "Metal", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 561787,
+				tcgplayer: 597390,
+			},
 		},
+	],
 
-		damage: "30+",
-		cost: ["Metal", "Colorless"]
-	}],
+	retreat: 1,
+	regulationMark: "D",
+	rarity: "Promo",
+	dexId: [702],
+};
 
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Grass",
-		value: "-30"
-	}],
-
-	retreat: 2,
-	regulationMark: "F"
-}
-
-export default card
+export default card;

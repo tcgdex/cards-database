@@ -74,23 +74,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Its talent is tap-dancing. It can also manipulate temperatures to create a floor of ice, which this Pokémon can kick up to use as a barrier."
+		en: "Its talent is tap-dancing. It can also manipulate temperatures to create a floor of ice, which this Pokémon can kick up to use as a barrier.",
+		de: "Dieser begabte Stepptänzer erzeugt am Boden mit kalter Luft eine Barriere aus Eis und richtet sie zu seinem Schutz mit den Füßen auf."
 	},
 
-	thirdParty: {
-		cardmarket: 483049,
-		tcgplayer: 219260
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483049,
+				tcgplayer: 219260
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483049,
+				tcgplayer: 219260
+			}
+		},
+	],
 }
 
 export default card

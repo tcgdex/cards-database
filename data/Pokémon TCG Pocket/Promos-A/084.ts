@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Tapu Koko ex",
-		es: "Tapu Koko ex"
+		es: "Tapu Koko ex",
+		de: "Kapu-Riki-ex"
 	},
 
 	illustrator: "PLANETA Tsuji",
@@ -22,7 +23,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Plasma Hurricane",
-			es: "Huracán Plasma"
+			es: "Huracán Plasma",
+			de: "Plasmaorkan"
 		},
 
 		damage: 20,
@@ -30,13 +32,15 @@ const card: Card = {
 
 		effect: {
 			en: "Take a {L} Energy from your Energy Zone and attach it to this Pokémon.",
-			es: "Une 1 Energía {L} de tu área de Energía a este Pokémon."
+			es: "Une 1 Energía {L} de tu área de Energía a este Pokémon.",
+			de: "Lege 1 {L}-Energie aus deinem Energiebereich an dieses Pokémon an."
 		}
 	},
 	{
 		name: {
 			en: "Mach Bolt",
-			es: "Rayo Mach"
+			es: "Rayo Mach",
+			de: "Flotter Sprung"
 		},
 
 		damage: 90,

@@ -57,7 +57,7 @@ const card: Card = {
 				es: "Lanza 2 monedas. Por cada cara, descarta las 2 primeras cartas de la baraja de tu rival.",
 				it: "Lancia due volte una moneta. Ogni volta che esce testa, scarta le prime due carte del mazzo del tuo avversario.",
 				pt: "Jogue 2 moedas. Para cada cara, descarte 2 cards de cima do baralho do seu oponente.",
-				de: "Wirf 2 Münzen. Lege pro \"Kopf\" 2 Karten vom Deck deines Gegners auf seinen Ablagestapel."
+				de: "Wirf 2 Münzen. Lege pro „Kopf“ 2 Karten vom Deck deines Gegners auf seinen Ablagestapel."
 			},
 
 		},
@@ -96,6 +96,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "Very rarely, a sudden mutation can result in two small Koffing twins becoming conjoined as a Weezing.",
+		de: "Sehr selten führt eine plötzliche Mutation eines Zwillings-Smogon zu einer Verbindung zu Smogmog."
+	},
 
 	thirdParty: {
 		cardmarket: 289854,

@@ -22,19 +22,32 @@ const card: Card = {
 		es: "Mientras esta carta esté unida a un Pokémon, proporciona 1 Energía {C}.\nCuando unas esta carta de tu mano a uno de tus Pokémon en Banca, cambia ese Pokémon por tu Pokémon Activo.",
 		it: "Fintanto che questa carta è assegnata a un Pokémon, fornisce Energia {C}.\nQuando assegni questa carta dalla tua mano a uno dei tuoi Pokémon in panchina, scambia quel Pokémon con il tuo Pokémon attivo.",
 		pt: "Enquanto esta carta estiver ligada a um Pokémon, ela fornecerá Energia {C}.\n\nQuando você ligar esta carta da sua mão a 1 dos seus Pokémon no Banco, troque aquele Pokémon pelo seu Pokémon Ativo.",
-		de: "Solange diese Karte an ein Pokémon angelegt ist, liefert sie {C}-Energie.\nWenn du diese Karte aus deiner Hand an 1 Pokémon auf deiner Bank anlegst, tausche jenes Pokémon gegen dein Aktives Pokémon aus."
+		de: "Solange diese Karte an ein Pokémon angelegt ist, liefert sie {C}-Energie. Wenn du diese Karte aus deiner Hand an 1 Pokémon auf deiner Bank anlegst, tausche jenes Pokémon gegen dein Aktives Pokémon aus."
 	},
 
 	energyType: "Special",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715665,
+				tcgplayer: 497563,
+				cardtrader: 248846
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715665,
+				tcgplayer: 497563,
+				cardtrader: 248846
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 715665
-	}
+	
 }
 
 export default card

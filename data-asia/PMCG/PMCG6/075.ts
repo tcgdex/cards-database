@@ -6,6 +6,7 @@ const card: Card = {
 	name: {
 		ja: "_____のチャンシー",
 	},
+	illustrator: "Kagemaru Himeno",
 
 	rarity: "Ultra Rare",
 	category: "Pokemon",
@@ -40,6 +41,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575362
+			},
 		},
 	],
 };

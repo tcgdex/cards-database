@@ -12,7 +12,7 @@ const card: Card = {
 		de: "Evoli & Relaxo GX"
 	},
 	illustrator: "Tomokazu Komiya",
-	rarity: "Ultra Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -83,7 +83,7 @@ const card: Card = {
 				es: "Amigos Megatón GX",
 				it: "Amici Megatonici GX",
 				pt: "Amigos Megaton GX",
-				de: "Megatonnen-Freunde GX"
+				de: "Megatonnen-Freunde-GX"
 			},
 			effect: {
 				fr: "Si au moins une Énergie supplémentaire est attachée à ce Pokémon (en plus du coût de cette attaque), piochez jusqu’à avoir 10 cartes en main. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
@@ -92,22 +92,6 @@ const card: Card = {
 				it: "Se questo Pokémon ha almeno un’Energia extra assegnata, in aggiunta a quelle del costo di questo attacco, pesca fino ad avere dieci carte in mano. Non puoi usare più di un attacco GX a partita.",
 				pt: "Se este Pokémon tiver pelo menos 1 Energia adicional ligada a ele (além do custo deste ataque), compre cartas até ter 10 cartas na sua mão (você não pode usar mais de 1 ataque GX por partida).",
 				de: "Wenn an dieses Pokémon mindestens 1 extra Energie angelegt ist (zusätzlich zu den Kosten dieser Attacke), ziehe so lang Karten, bis du 10 Karten auf deiner Hand hast. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
-			},
-			damage: 210,
-
-		},
-		{
-			cost: [
-				"Colorless",
-				"Colorless",
-				"Colorless",
-				"Colorless",
-			],
-			name: {
-				fr: "Amis Mégatonnes-GX",
-			},
-			effect: {
-				fr: "Si au moins une Énergie supplémentaire est attachée à ce Pokémon (en plus du coût de cette attaque), piochez jusqu’à avoir 10 cartes en main. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 			damage: 210,
 
@@ -122,8 +106,15 @@ const card: Card = {
 
 	retreat: 4,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 369469,
+				tcgplayer: 185986
+			}
+		}
+	],
 }
 
 export default card

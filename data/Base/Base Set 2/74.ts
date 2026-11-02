@@ -58,15 +58,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273997,
-		tcgplayer: 42494
+
+	description: {
+		en: "Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273997,
+				tcgplayer: 42494
+			}
 		}
 	]
 }

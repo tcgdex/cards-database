@@ -4,7 +4,7 @@ import Set from '../POP Series 5'
 const card: Card = {
 	name: {
 		en: "Rare Candy",
-		fr: "Rare Candy"
+		fr: "Super Bonbon"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -19,17 +19,16 @@ const card: Card = {
 
 	trainerType: "Item",
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88592,
+				cardmarket: 277489
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277489,
-		tcgplayer: 88592
-	}
 }
 
 export default card

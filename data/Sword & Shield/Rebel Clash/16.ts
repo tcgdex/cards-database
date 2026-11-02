@@ -17,6 +17,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [520],
 
 	attacks: [
 		{
@@ -49,23 +50,30 @@ const card: Card = {
 	types: ["Grass"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Its natural enemies, like Rookidee, may flee rather than risk getting caught in its large mandibles that can snap thick tree branches."
+		en: "Its natural enemies, like Rookidee, may flee rather than risk getting caught in its large mandibles that can snap thick tree branches.",
+		de: "Sein großer Kiefer ist stark genug, um selbst dicke Äste zu zerbrechen. Damit treibt es auch seinen natürlichen Feind Meikro in die Flucht."
 	},
 
-	thirdParty: {
-		cardmarket: 457473,
-		tcgplayer: 213086
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457473,
+				tcgplayer: 213086
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457473,
+				tcgplayer: 213086
+			}
+		},
+	],
 }
 
 export default card

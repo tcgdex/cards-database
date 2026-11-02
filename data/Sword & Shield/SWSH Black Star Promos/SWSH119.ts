@@ -21,7 +21,7 @@ const card: Card = {
 		it: "Snorlax"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	dexId: [143],
 	hp: 140,
 	types: ["Colorless"],
@@ -70,18 +70,18 @@ const card: Card = {
 
 	retreat: 4,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 461684
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 557976,
+				tcgplayer: 241884
+			}
+		},
+	],
 }
 
 export default card

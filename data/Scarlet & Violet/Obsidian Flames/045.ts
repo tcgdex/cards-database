@@ -4,6 +4,7 @@ import Set from "../Obsidian Flames"
 const card: Card = {
 	dexId: [131],
 	set: Set,
+	cameoDexIds: [278],
 
 	name: {
 		fr: "Lokhlass",
@@ -55,18 +56,42 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Crossing icy seas is no issue for this cold-resistant Pokémon. Its smooth skin is a little cool to the touch.",
+		de: "Es kommt gut mit Kälte zurecht und kann auch in eisigen Meeren problemlos schwimmen. Seine Haut fühlt sich glatt und kühl an."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725125,
+				tcgplayer: 509761,
+				cardtrader: 255605
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725125,
+				tcgplayer: 509761,
+				cardtrader: 255605
+			}
+		},
+	],
 
 	illustrator: "matazo",
 
-	thirdParty: {
-		cardmarket: 725125
-	}
+	
 }
 
 export default card

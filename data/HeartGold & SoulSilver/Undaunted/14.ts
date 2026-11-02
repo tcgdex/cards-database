@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		297,
-	],
+	dexId: [297],
 
 	hp: 100,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Makuhita",
 		fr: "Makuhita",
+		de: "Makuhita"
 	},
 
 	stage: "Stage1",
@@ -78,22 +77,27 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It loves challenging others to tests of strength. It has the power to stop a train with a slap."
+		en: "It loves challenging others to tests of strength. It has the power to stop a train with a slap.",
+		de: "Liebt das Kräftemessen. Es ist stark genug, um mit der Hand einen rasenden Zug aufzuhalten."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279267,
+				tcgplayer: 86016
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279267,
+				tcgplayer: 86016
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279267,
-		tcgplayer: 86016
-	}
 }
 
 export default card

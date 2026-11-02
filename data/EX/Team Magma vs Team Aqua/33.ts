@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		344,
-	],
+	dexId: [344],
 
 	hp: 80,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Stage1",
@@ -57,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Does 10 damage to each of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Inflige 10 dégâts à chaque Pokémon de Banc de votre adversaire qui possède des marqueurs de dégât. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
-				de: "Fügt jedem gegnerischen Pokémon auf der Bank, auf dem bereits Schadensmarken liegen, 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+				de: "Fügt jedem gegnerischen Pokémon auf der Bank, auf dem bereits Schadensmarken liegen, 10 Schadensmarken zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
 			damage: 50,
 
@@ -71,22 +69,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276010,
-		tcgplayer: 89826
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275810,
+				tcgplayer: 89826
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275810,
+				tcgplayer: 89826
+			}
+		},
+	],
+
 }
 
 export default card

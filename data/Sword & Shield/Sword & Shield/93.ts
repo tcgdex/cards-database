@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [50],
 	hp: 90,
 
 	types: [
@@ -69,7 +70,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground."
+		en: "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
+		de: "Diese Digda-Drillinge graben sich manchmal bis zu 100 km tief in den Erdboden und lösen dadurch Erdbeben aus."
 	},
 
 	dexId: [51],

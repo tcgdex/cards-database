@@ -87,10 +87,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 299454,
-		tcgplayer: 138532
-	}
+	description: {
+		en: "In battle, it uses its bladed tail to counter any Zangoose. It secretes a deadly venom in its tail.",
+		de: "Die flinken Angriffe von Sengo kontert es mit seinem messerscharfen Schweif, aus dem Gift austritt."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299454,
+				tcgplayer: 138532
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299454,
+				tcgplayer: 138532
+			}
+		},
+	],
 }
 
 export default card

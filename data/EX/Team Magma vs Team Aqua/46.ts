@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		7,
-	],
+	dexId: [7],
 
 	hp: 50,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -31,13 +29,13 @@ const card: Card = {
 			name: {
 				en: "Shell Retreat",
 				fr: "Rentrer dans sa coquille",
-				de: "Shell Retreat"
+				de: "Schildkrötenpanzer"
 			},
 			effect: {
 				en: "As long as Squirtle has any Energy cards attached to it, damage done to Squirtle by an opponent's attack is reduced by 10 (after applying Weakness and Resistance).",
 				fr: "Tant que Carapuce possède des cartes Énergie, les dégâts qui lui sont infligés par une attaque de votre adversaire sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
-				de: "As long as Squirtle has any Energy cards attached to it, damage done to Squirtle by an opponent's attack is reduced by 10 (after applying Weakness and Resistance)."
-			},
+				de: "Solange mindestens 1 Energiekarte an Schiggy angelegt ist, wird der Schaden, der Schiggy durch gegnerische Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+			}
 		},
 	],
 
@@ -64,22 +62,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276023,
-		tcgplayer: 89488
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275823,
+				tcgplayer: 89488
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275823,
+				tcgplayer: 89488
+			}
+		},
+	],
+
 }
 
 export default card

@@ -4,6 +4,7 @@ import Set from "../Twilight Masquerade"
 const card: Card = {
 	dexId: [341],
 	set: Set,
+	cameoDexIds: [661],
 
 	name: {
 		en: "Corphish",
@@ -35,18 +36,39 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It can live in impure water, where it doesn't need to compete with other water Pokémon for food, so its numbers have steadily increased.",
+		de: "Da ihm schmutziges Wasser nichts ausmacht, muss es nicht mit anderen Wasser-Pokémon ums Futter streiten. Deshalb konnte es sich rasch vermehren."
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769221,
+				tcgplayer: 550091
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769221,
+				tcgplayer: 550091
+			}
+		},
+	],
 
 	illustrator: "Kouki Saitou",
 
-	thirdParty: {
-		cardmarket: 769221
-	}
 }
 
 export default card

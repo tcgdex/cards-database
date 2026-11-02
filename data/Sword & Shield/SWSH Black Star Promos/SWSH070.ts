@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Akira Komayama",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Grass"],
@@ -56,18 +56,18 @@ const card: Card = {
 	stage: "Basic",
 	dexId: [810],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 427081
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 516349,
+				tcgplayer: 227028
+			}
+		},
+	],
 }
 
 export default card

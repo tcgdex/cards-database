@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Elige hasta 2 cartas de Herramienta Pokémon unidas a tus Pokémon y ponlas en tu mano.",
 		it: "Scegli fino a due carte Oggetto Pokémon assegnate ai tuoi Pokémon e aggiungile a quelle che hai in mano.",
 		pt: "Escolha até 2 cards de Ferramenta Pokémon ligados a seus Pokémon e coloque-os na sua mão.",
-		de: "Wähle bis zu 2 Pokémon-Ausrüstungen, die an deine Pokémon angelegt sind, und nimm sie auf deine Hand."
+		de: "Wähle bis zu 2 Pokémon-Ausrüstungen, die an deine Pokémon angelegt sind, und nimm sie auf deine Hand. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

@@ -11,8 +11,8 @@ const card: Card = {
 		de: "Raichu GX"
 	},
 
-	illustrator: undefined,
-	rarity: "None",
+	illustrator: "5ban Graphics",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pikachu",
-		fr: "Pikachu"
+		fr: "Pikachu",
+		de: "Pikachu"
 	},
 
 	stage: "Stage1",
@@ -64,7 +65,7 @@ const card: Card = {
 				es: "Bola Chispa GX",
 				it: "Sfera Scintilla GX",
 				pt: "Bola de Fagulhas GX",
-				de: "Zündball GX"
+				de: "Zündball-GX"
 			},
 			effect: {
 				en: "(You can’t use more than 1 GX attack in a game.)",
@@ -93,7 +94,17 @@ const card: Card = {
 		},
 	],
 
-	retreat: 1
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 397944,
+				tcgplayer: 197876
+			}
+		}
+	],
 }
 
 export default card

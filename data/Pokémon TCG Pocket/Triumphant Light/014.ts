@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Sa fourrure est imperméable, si bien qu'il\nreste sec même quand il joue dans l'eau.",
 		es: "Tiene un pelaje que repele el agua, por lo\nque está seco incluso después de bañarse.",
 		it: "La pelliccia è idrorepellente. Così, rimane\nasciutto anche giocando nell'acqua.",
-		de: "Sein Fell ist von Natur aus wasserabweisend.\nEs bleibt trocken, auch wenn es im Wasser spielt.",
+		de: "Sein Fell ist von Natur aus wasserabweisend. Es bleibt trocken, auch wenn es im Wasser spielt.",
 		'pt-br': "A sua pelagem repele água naturalmente.\nPode brincar na água por horas sem se molhar.",
 		ko: "전신의 털은\n물을 튕겨 내는 성질을 지녀\n물을 끼얹어도 말라 있다."
 	},

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Rhydon",
 		fr: "Rhinoféros",
+		de: "Rizeros"
 	},
 
 	stage: "Stage2",
@@ -95,6 +96,11 @@ const card: Card = {
 	],
 
 	retreat: 4,
+
+	description: {
+		en: "From holes in its palms, it fires out Geodude. Its carapace can withstand volcanic eruptions.",
+		de: "Es feuert Kleinstein aus seinen Handflächen. Durch seinen Schützer erträgt es sogar Vulkanausbrüche."
+	},
 
 	thirdParty: {
 		cardmarket: 372386,

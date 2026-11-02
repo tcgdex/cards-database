@@ -17,6 +17,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [440, 549, 700],
 	hp: 100,
 
 	types: [
@@ -85,23 +86,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It is highly popular among female Trainers for its sublime fur. It does not keep a nest."
+		en: "It is highly popular among female Trainers for its sublime fur. It does not keep a nest.",
+		de: "Dieses Pokémon ist bei weiblichen Trainern aufgrund seines Fells beliebt."
 	},
 
-	thirdParty: {
-		cardmarket: 483589,
-		tcgplayer: 219342
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483589,
+				tcgplayer: 219342
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483589,
+				tcgplayer: 219342
+			}
+		},
+	],
 }
 
 export default card

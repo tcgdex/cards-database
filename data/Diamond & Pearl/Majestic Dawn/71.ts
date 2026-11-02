@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wirf 1 Münze. Bei 'Kopf' fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -67,6 +67,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It lives along shores in northern countries. A skilled swimmer, it dives for over 10 minutes to hunt.",
+		de: "Es lebt an den Küsten der nördlichen Länder. Es kann über 10 Minuten unter Wasser bleiben."
+	},
 
 	thirdParty: {
 		cardmarket: 278120,

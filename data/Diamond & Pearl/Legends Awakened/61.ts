@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Riolu",
 		fr: "Riolu",
+		de: "Riolu"
 	},
 
 	stage: "Stage1",
@@ -78,7 +79,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		fr: "Il ressent toutes les auras. Il comprend le langage humain."
+		en: "It has the ability to sense the auras of all things. It understands human speech.",
+		fr: "Il ressent toutes les auras. Il comprend le langage humain.",
+		de: "Es besitzt die Fähigkeit, die Aura aller Dinge zu spüren. Es versteht die menschliche Sprache."
 	},
 
 	thirdParty: {

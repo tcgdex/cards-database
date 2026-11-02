@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Acid Spray",
 				fr: "Bombe Acide",
+				de: "Säurespeier"
 			},
 			effect: {
 				en: "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+				de: "Wirf 1 Münze. Lege bei „Kopf“ 1 an das Verteidigende Pokémon angelegte Energie auf den Ablagestapel deines Gegners."
 			},
 			damage: 10,
 
@@ -62,10 +64,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280515,
-		tcgplayer: 89588
-	}
+	description: {
+		en: "It sprays a foul fluid from its rear. Its stench spreads over a mile radius, driving Pokémon away.",
+		de: "Versprüht eine Substanz aus seinem Hinterleib, die in einem großen Radius andere Pokémon fernhält."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280515,
+				tcgplayer: 89588
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280515,
+				tcgplayer: 89588
+			}
+		},
+	],
 }
 
 export default card

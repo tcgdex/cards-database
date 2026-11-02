@@ -4,6 +4,7 @@ import Set from "../SVP Black Star Promos"
 const card: Card = {
 	dexId: [25],
 	set: Set,
+	cameoDexIds: [906, 923, 925],
 
 	name: {
 		en: "Pikachu",
@@ -14,7 +15,7 @@ const card: Card = {
 		de: "Pikachu"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Lightning"],
@@ -55,9 +56,27 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "saino misaki"
+	illustrator: "saino misaki",
+	description: {
+		en: "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
+	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 751813,
+				tcgplayer: 542481
+			},
+		}
+	],
 }
 
 export default card

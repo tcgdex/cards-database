@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
-				de: "Wirf eine Münze. Bei 'Kopf' schläft das verteidigende Pokémon jetzt."
+				de: "Wirf eine Münze. Bei „Kopf“ schläft das verteidigende Pokémon jetzt."
 			},
 			damage: 10,
 
@@ -65,23 +65,31 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Il est recouvert de spores de champignons à sa naissance. Quand il grandit, des champignons lui poussent sur le dos."
+		en: "It is doused with mushroom spores when it is born. As its body grows, mushrooms sprout from its back.",
+		fr: "Il est recouvert de spores de champignons à sa naissance. Quand il grandit, des champignons lui poussent sur le dos.",
+		de: "Es ist bei seiner Geburt mit Pilzsporen bedeckt. Während sein Körper wächst, sprießen Pilze überall aus seinem Rücken."
 	},
 
-	thirdParty: {
-		cardmarket: 274633,
-		tcgplayer: 87947
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274633,
+				tcgplayer: 87947
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274633,
+				tcgplayer: 87947
+			}
 		}
 	]
 }

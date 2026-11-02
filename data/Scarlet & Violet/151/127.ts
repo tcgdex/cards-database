@@ -57,18 +57,42 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This Pokémon clamps its pincers down on its prey and then either splits the prey in half or flings it away.",
+		de: "Pinsir nimmt Beute mit seinen Hörnern in die Zange, um sie anschließend entzweizureißen oder mit Wucht fortzuschleudern."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733722,
+				tcgplayer: 516690,
+				cardtrader: 261205
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733722,
+				tcgplayer: 516690,
+				cardtrader: 261205
+			}
+		},
+	],
 
 	illustrator: "Yuya Oka",
 
-	thirdParty: {
-		cardmarket: 733722
-	}
+	
 }
 
 export default card

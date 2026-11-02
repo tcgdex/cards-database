@@ -84,6 +84,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It absorbs solar energy during the day. Always expressionless, it can sense what its foe is thinking.",
+		de: "Tagsüber absorbiert es Sonnenlicht. Ohne je seinen Ausdruck zu verändern, kann es die Gedanken des Gegners lesen."
+	},
+
 	thirdParty: {
 		cardmarket: 361307,
 		tcgplayer: 170883

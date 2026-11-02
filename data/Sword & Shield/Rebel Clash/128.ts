@@ -97,23 +97,30 @@ const card: Card = {
 	types: ["Metal"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Once it has identified something as an enemy, it will continue beating them with its steel-hard pincers until there's nothing left but scraps."
+		en: "Once it has identified something as an enemy, it will continue beating them with its steel-hard pincers until there's nothing left but scraps.",
+		de: "Sobald es ein anderes Pokémon als Feind erkennt, schlägt es dieses mit seinen stahlharten Scheren gnadenlos in Stücke."
 	},
 
-	thirdParty: {
-		cardmarket: 458038,
-		tcgplayer: 213224
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 458038,
+				tcgplayer: 213224
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 458038,
+				tcgplayer: 213224
+			}
+		},
+	],
 }
 
 export default card

@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "Misa Tsutsui",
 
 	description: {
-		en: "The toxic liquid it launches from its right arm is so virulent that it can kill a weakened creature instantly."
+		en: "The toxic liquid it launches from its right arm is so virulent that it can kill a weakened creature instantly.",
+		de: "Die toxische Flüssigkeit aus seinem rechten Arm ist sehr gefährlich. Angeschlagene Lebewesen kommen bei Kontakt sofort ums Leben."
 	},
 
 	attacks: [{
@@ -74,17 +81,23 @@ const card: Card = {
 		damage: 130
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582797,
-		tcgplayer: 253383
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582797,
+				tcgplayer: 253383
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582797,
+				tcgplayer: 253383
+			}
+		},
+	],
 }
 
 export default card

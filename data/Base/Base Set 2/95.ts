@@ -43,15 +43,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 274018,
-		tcgplayer: 42546
+
+	description: {
+		en: "An enigmatic Pokémon that can effortlessly regenerate any appendage it loses in battle.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274018,
+				tcgplayer: 42546
+			}
 		}
 	]
 }

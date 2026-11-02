@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Lillipup",
@@ -70,15 +64,28 @@ const card: Card = {
 	dexId: [506],
 
 	description: {
-		en: "This Pokémon is popular with beginners because it's intelligent, obedient to its Trainer's commands, and easy to raise."
+		en: "This Pokémon is popular with beginners because it's intelligent, obedient to its Trainer's commands, and easy to raise.",
+		de: "Dieses pfiffige Pokémon ist besonders bei Anfängern beliebt, da es den Befehlen seines Trainers brav folgt und leicht zu trainieren ist."
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574191,
-		tcgplayer: 246867
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574191,
+				tcgplayer: 246867
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574191,
+				tcgplayer: 246867
+			}
+		},
+	],
 }
 
 export default card

@@ -20,6 +20,16 @@ const card: Card = {
 		th: "เมื่อโปเกมอนที่ติดการ์ดนี้ อยู่บนตำแหน่งต่อสู้และได้รับแดเมจของท่าต่อสู้จากโปเกมอนฝ่ายตรงข้าม จั่วการ์ด 2 ใบจากสำรับการ์ดฝ่ายเรา"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 761520,
+				tcgplayer: 566115,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "H"
 }

@@ -19,12 +19,25 @@ const card: Card = {
 	hp: 120,
 	types: ["Metal"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Megumi Higuchi",
 
 	description: {
-		en: "Its body is draped in steel armor. It looks heavy, but it can fly at speeds of up to 185 miles an hour!"
+		en: "Its body is draped in steel armor. It looks heavy, but it can fly at speeds of up to 185 miles an hour!",
+		de: "Durch seinen stählernen Panzer sieht es zwar schwer aus, aber dennoch kann es bis zu 300 km/h schnell fliegen."
 	},
 
 	attacks: [{
@@ -64,17 +77,23 @@ const card: Card = {
 		damage: 110
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582810,
-		tcgplayer: 253329
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582810,
+				tcgplayer: 253329
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582810,
+				tcgplayer: 253329
+			}
+		},
+	],
 }
 
 export default card

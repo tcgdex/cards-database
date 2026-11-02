@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 50,
 	types: ["Lightning"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Naoyo Kimura",
 
 	description: {
-		en: "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded."
+		en: "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.",
+		de: "In Gefahr blendet es seinen Gegner mit seinem Fell und flieht, während der Gegner einen Moment blind ist."
 	},
 
 	attacks: [{
@@ -55,17 +62,23 @@ const card: Card = {
 		damage: 20
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582483,
-		tcgplayer: 253247
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582483,
+				tcgplayer: 253247
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582483,
+				tcgplayer: 253247
+			}
+		},
+	],
 }
 
 export default card

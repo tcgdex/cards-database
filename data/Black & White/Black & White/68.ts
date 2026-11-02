@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d'Boule",
+				de: "Kopfnuss"
 			},
 
 			damage: 10,
@@ -59,10 +60,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279806,
-		tcgplayer: 88981
-	}
+	description: {
+		en: "Its skin has a rubbery elasticity, so it can reduce damage by defensively pulling its skin up to its neck.",
+		de: "Es zieht seine gummiartige Haut bis zum Hals hinauf und nimmt eine Abwehrhaltung ein, um sich vor Schaden zu schützen."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279806,
+				tcgplayer: 88981
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279806,
+				tcgplayer: 88981
+			}
+		},
+	],
 }
 
 export default card

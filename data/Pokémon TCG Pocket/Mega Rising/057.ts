@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Wailord"
+		en: "Wailord",
+		fr: "Wailord"
 	},
 
 	illustrator: "KIYOTAKA OSHIYAMA",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Wailmer"
+		en: "Wailmer",
+		fr: "Wailmer"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Whale Pump"
+			en: "Whale Pump",
+			fr: "Pompe Cétacée"
 		},
 
 		damage: 60,
 		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
 
 		effect: {
-			en: "This attack does 10 more damage for each {W} Energy attached to this Pokémon."
+			en: "This attack does 10 more damage for each {W} Energy attached to this Pokémon.",
+			fr: "Cette attaque inflige 10 dégâts supplémentaires pour chaque Énergie {W} attachée à ce Pokémon."
 		}
 	}],
 

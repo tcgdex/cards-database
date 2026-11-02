@@ -60,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "During your opponent's next turn, if Machamp would be Knocked Out by damage from an attack, flip a coin. If heads, Machamp is not Knocked Out and its remaining HP becomes 10 instead.",
 				fr: "Lors du prochain tour de votre adversaire, si Mackogneur est mis K.O par des dégâts d'une attaque, lancez une pièce. Si c'est face, Mackogneur n'est pas mis K.O et il lui reste 10 PV.",
-				de: "Wenn im nächsten Zug deines Gegners Machomei durch Schaden eines Angriffs kampfunfähig würde, wirf 1 Münze. Bei \"Kopf\" wird Machomei nicht kampfunfähig und hat stattdessen 10 verbliebene KP."
+				de: "Wenn im nächsten Zug deines Gegners Machomei durch Schaden eines Angriffs kampfunfähig würde, wirf 1 Münze. Bei „Kopf“ wird Machomei nicht kampfunfähig und hat stattdessen 10 verbliebene KP."
 			},
 			damage: 20,
 

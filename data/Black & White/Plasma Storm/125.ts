@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Descarta una carta del Equipo Plasma de tu mano. (Si no puedes descartar una carta del Equipo Plasma, no puedes jugar esta carta.) Roba 4 cartas.",
 		it: "Scarta una carta Team Plasma presente tra le carte che hai in mano (se non puoi scartare una carta Team Plasma, non puoi giocare questa carta). Pesca quattro carte.",
 		pt: "Descarte um card de Equipe Plasma da sua mão. (Se você não puder descartar um card de Equipe Plasma, não poderá jogar esse card.) Compre 4 cards.",
-		de: "Lege 1 Team-Plasma-Karte von deiner Hand auf deinen Ablagestapel. (Wenn du keine Team-Plasma-Karte auf deinen Ablagestapel legen kannst, kannst du diese Karte nicht spielen.) Ziehe 4 Karten."
+		de: "Lege 1 Team Plasma-Karte von deiner Hand auf deinen Ablagestapel. (Wenn du keine Team Plasma-Karte auf deinen Ablagestapel legen kannst, kannst du diese Karte nicht spielen.) Ziehe 4 Karten. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

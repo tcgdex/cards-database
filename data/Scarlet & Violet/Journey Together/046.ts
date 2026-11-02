@@ -80,22 +80,32 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "H",
 	illustrator: "Takeshi Nakamura",
 
-	thirdParty: {
-		cardmarket: 817198
-	},
-
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817198,
+				tcgplayer: 623473
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817198,
+				tcgplayer: 623473
+			}
 		},
-	]
+	],
 }
 
 export default card

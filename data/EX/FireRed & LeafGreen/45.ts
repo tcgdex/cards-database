@@ -78,39 +78,59 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 0,
 
-	thirdParty: {
-		cardmarket: 276221,
-		tcgplayer: 88040
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276221,
+				tcgplayer: 88040
+			},
 		},
 		{
-			type: "holo",
-			foil: "energy"
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 276221,
+				tcgplayer: 88040
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["takashi-yoneda"]
+			stamp: ["takashi-yoneda"],
+			thirdParty: {
+				cardmarket: 871520,
+				tcgplayer: 477562
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["jeremy-maron"]
+			stamp: ["jeremy-maron"],
+			thirdParty: {
+				cardmarket: 871519,
+				tcgplayer: 477563
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["hiroki-yano"]
+			stamp: ["hiroki-yano"],
+			thirdParty: {
+				cardmarket: 869521,
+				tcgplayer: 477884
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["jimmy-ballard"]
-		}
-	]
+			stamp: ["jimmy-ballard"],
+			thirdParty: {
+				cardmarket: 869522,
+				tcgplayer: 477886
+			},
+		},
+	],
 }
 
 export default card

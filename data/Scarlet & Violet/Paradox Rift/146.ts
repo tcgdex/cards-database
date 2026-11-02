@@ -72,18 +72,42 @@ const card: Card = {
 		damage: "20×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It uses its tails for everything. If it wraps both of its tails around you and gives you a squeeze, that's proof it really likes you.",
+		de: "Es benutzt seine zwei Schweife für alles, was es tut. Wenn es jemanden mit ihnen umarmt, ist das ein Beweis seiner Zuneigung."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740685,
+				tcgplayer: 523827,
+				cardtrader: 265257
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740685,
+				tcgplayer: 523827,
+				cardtrader: 265257
+			}
+		},
+	],
 
 	illustrator: "Hitoshi Ariga",
 
-	thirdParty: {
-		cardmarket: 740685
-	}
+	
 }
 
 export default card

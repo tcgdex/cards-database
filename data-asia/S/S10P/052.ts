@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S10P"
+import { Card } from "../../../interfaces";
+import Set from "../S10P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "大舌頭"
+		ja: "ベロリンガ",
+		'zh-tw': "大舌頭",
 	},
 
 	illustrator: "KIYOTAKA OSHIYAMA",
@@ -14,27 +14,40 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		'zh-tw': "沾到牠黏糊糊的唾液後如果放著不管，就會變得 奇癢無比，而且癢個不停。"
+		ja: "ネバネバした 唾液に 触れたまま 放っておくと ものすごい 痒みが はじまり とまらなくなるぞ。",
+		'zh-tw': "沾到牠黏糊糊的唾液後如果放著不管，就會變得 奇癢無比，而且癢個不停。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "口水"
+	attacks: [
+		{
+			name: {
+				ja: "よだれ",
+				'zh-tw': "口水",
+			},
+			damage: 30,
+			cost: ["Colorless", "Colorless"],
 		},
+	],
 
-		damage: 30,
-		cost: ["Colorless", "Colorless"]
-	}],
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 651111,
+				tcgplayer: 569895,
+			},
+		},
+	],
 
 	retreat: 4,
-	regulationMark: "F"
-}
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [108],
+};
 
-export default card
+export default card;

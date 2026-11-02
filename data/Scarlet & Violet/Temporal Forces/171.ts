@@ -4,6 +4,7 @@ import Set from "../Temporal Forces"
 const card: Card = {
 	dexId: [579],
 	set: Set,
+	cameoDexIds: [577, 578],
 
 	name: {
 		en: "Reuniclus",
@@ -72,20 +73,37 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
+	description: {
+		en: "While it could use its psychic abilities in battle, this Pokémon prefers to swing its powerful arms around to beat opponents into submission.",
+	},
+
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760801,
+				tcgplayer: 542892
+			}
+		},
 	],
 
 	illustrator: "Atsushi Furusawa",
 
-	thirdParty: {
-		cardmarket: 760801
-	}
 }
 
 export default card

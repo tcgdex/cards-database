@@ -63,10 +63,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299437,
-		tcgplayer: 138512
-	}
+	description: {
+		en: "Although weak and helpless, this Pokémon is incredibly fertile. They exist in such multitudes, you'll soon grow tired of seeing them.",
+		de: "Es ist schwach und unzuverlässig, aber es vermehrt sich unglaublich schnell. Deshalb trifft man es auch öfter an, als einem lieb ist."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299437,
+				tcgplayer: 138512
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299437,
+				tcgplayer: 138512
+			}
+		},
+	],
 }
 
 export default card

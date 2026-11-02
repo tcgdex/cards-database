@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Corviknight"
+		en: "Corviknight",
+		fr: "Corvaillus"
 	},
 
 	illustrator: "Ryuta Fuse",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Corvisquire"
+		en: "Corvisquire",
+		fr: "Bleuseille"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Iron Wings"
+			en: "Iron Wings",
+			fr: "Ailes de Fer"
 		},
 
 		damage: 100,
 		cost: ["Metal", "Metal", "Colorless"],
 
 		effect: {
-			en: "Discard 2 {M} Energy from this Pokémon. During your opponent's next turn, this Pokémon takes −50 damage from attacks."
+			en: "Discard 2 {M} Energy from this Pokémon. During your opponent's next turn, this Pokémon takes −50 damage from attacks.",
+			fr: "Défaussez 2 Énergies {M} de ce Pokémon. Pendant le prochain tour de votre adversaire, ce Pokémon subit − 50 dégâts provenant des attaques."
 		}
 	}],
 

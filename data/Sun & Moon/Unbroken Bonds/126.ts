@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Riolu",
 		fr: "Riolu",
+		de: "Riolu"
 	},
 
 	stage: "Stage1",
@@ -91,6 +92,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It concentrates its mental energy and fires off mysterious waves called auras, which can crush boulders of large size to dust.",
+		de: "Unter starker Konzentration kann es rätselhafte Wellen von sich geben, die man Aura nennt. Damit kann es sogar große Felsen pulverisieren."
+	},
 
 	thirdParty: {
 		cardmarket: 372415,

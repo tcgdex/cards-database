@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Squirtle"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Water"],
@@ -35,16 +35,28 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
 	description: {
 		en: "When it retracts its long neck into its shell, it squirts out water with vigorous force."
 	},
-
-	thirdParty: {
-		cardmarket: 664339
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 664339,
+				tcgplayer: 275830
+			}
+		},
+	],
 }
 
 export default card

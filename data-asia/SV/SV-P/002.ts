@@ -1,44 +1,66 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "新葉喵"
+		ja: "ワナイダー",
+		'zh-tw': "新葉喵",
 	},
 
-	illustrator: "Yuu Nishida",
+	illustrator: "Anesaki Dynamic",
 	category: "Pokemon",
-	hp: 70,
+	hp: 120,
 	types: ["Grass"],
 
 	description: {
-		'zh-tw': "毛茸茸的體毛有著 近似於植物的成分。 會勤快地洗臉以防止乾燥。"
+		ja: "木の枝や 天井に 糸で 張りつき 音もなく 行動する。 獲物に 気づかれる前に 倒す。",
+		'zh-tw': "毛茸茸的體毛有著 近似於植物的成分。 會勤快地洗臉以防止乾燥。",
 	},
 
-	stage: "Basic",
+	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "小吸取"
+	attacks: [
+		{
+			name: {
+				ja: "いとでしばる",
+				'zh-tw': "小吸取",
+			},
+			damage: 30,
+			cost: ["Grass"],
+			effect: {
+				ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
+				'zh-tw': "將這隻寶可夢恢復「10」HP。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "將這隻寶可夢恢復「10」HP。"
+		{
+			name: { ja: "ジェットヘッド" },
+			damage: 100,
+			cost: ["Grass", "Colorless", "Colorless"],
 		},
+	],
 
-		damage: 10,
-		cost: ["Grass"]
-	}],
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 692248,
+				tcgplayer: 587759,
+			},
+		},
+	],
 
-	retreat: 1,
-	regulationMark: "G"
-}
+	evolveFrom: {
+		ja: "タマンチュラ",
+	},
 
-export default card
+	retreat: 2,
+	regulationMark: "G",
+	rarity: "Promo",
+	dexId: [918],
+};
+
+export default card;

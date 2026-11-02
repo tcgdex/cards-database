@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "A most peculiar Pokémon that somehow appears in a Poké Ball when a Nincada evolves.",
+	},
+
 	thirdParty: {
 		cardmarket: 282679,
 		tcgplayer: 98047

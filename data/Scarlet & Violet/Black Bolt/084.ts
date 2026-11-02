@@ -30,10 +30,38 @@ const card: Card = {
 
 	trainerType: "Item",
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836073
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836073,
+				tcgplayer: 642530
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836073,
+				tcgplayer: 642530
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836475,
+				tcgplayer: 644830
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["liao-fu-guan"],
+			thirdParty: {
+				cardmarket: 884309,
+				tcgplayer: 690277
+			}
+		},
+	]
 }
 
 export default card

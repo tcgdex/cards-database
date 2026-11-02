@@ -9,22 +9,32 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		240,
-	],
+	dexId: [240],
 
 	hp: 30,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
-	stage: "Basic",
+	stage: "Baby",
 
+	resistances: [
+		{
+			type: "Water",
+			value: "-30"
+		},
+	],
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "x2"
+		},
+	],
 	attacks: [
 		{
 			cost: [
@@ -36,27 +46,32 @@ const card: Card = {
 				de: "Energieschnapper"
 			},
 			effect: {
-				en: "Flip a coin. If heads, put a basic Energy cards from your discard pile into your hand.",
+				en: "Flip a coin. If heads, put a basic Energy card from your discard pile into your hand.",
 				fr: "Lancez une pièce. Si c'est face, ajoutez une carte Énergie de votre pile de défausse à votre main.",
-				de: "Wirf eine Münze. Nimm bei 'Kopf' eine Basis-Energiekarte von deinem Ablagestapel auf deine Hand."
+				de: "Wirf eine Münze. Nimm bei „Kopf“ eine Basis-Energiekarte von deinem Ablagestapel auf deine Hand."
 			},
 
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 274892,
-		tcgplayer: 87000
-	},
+	retreat: 1,
 
-	variants:[
+	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 87000,
+				cardmarket: 274892
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 87000,
+				cardmarket: 274892
+			},
+		},
+	],
 }
 
 export default card

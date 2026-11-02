@@ -1,44 +1,33 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "小火龍"
+		ja: "モミ",
+		'zh-tw': "小火龍",
 	},
 
-	illustrator: "Saya Tsuruta",
-	category: "Pokemon",
-	hp: 60,
-	types: ["Fire"],
+	illustrator: "Ken Sugimori",
+	category: "Trainer",
 
-	description: {
-		'zh-tw': "天生喜歡熱熱的東西。據說當牠被雨淋濕的時候， 尾巴的末端會冒出煙來。"
+	effect: {
+		ja: "自分の進化ポケモン全員のHPを、すべて回復する。その後、回復したポケモンについているエネルギーを、すべてトラッシュする。",
 	},
 
-	stage: "Basic",
-
-	attacks: [{
-		name: {
-			'zh-tw': "燃燒之尾"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 570878,
+				tcgplayer: 597381,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "從自己的牌庫選擇1張【火】能量卡，附於這隻寶可夢身上。並且重洗牌庫。"
-		},
+	trainerType: "Supporter",
+	regulationMark: "E",
+	rarity: "Promo",
+};
 
-		damage: 10,
-		cost: ["Fire"]
-	}],
-
-	weaknesses: [{
-		type: "Water",
-		value: "×2"
-	}],
-
-	retreat: 1,
-	regulationMark: "F"
-}
-
-export default card
+export default card;

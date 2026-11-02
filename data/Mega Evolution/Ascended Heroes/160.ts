@@ -14,9 +14,21 @@ const card: Card = {
 		pt: "Dragapult ex"
 	},
 
+	evolveFrom: {
+		en: "Drakloak",
+		fr: "Dispareptil",
+		es: "Drakloak",
+		'es-mx': "Drakloak",
+		de: "Phandra",
+		it: "Drakloak",
+		pt: "Drakloak",
+	},
+
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [887],
 	hp: 320,
 	types: ["Dragon"],
 	stage: "Stage2",
@@ -64,10 +76,15 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 675972,
-		cardmarket: 869771
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869771,
+				tcgplayer: 675972
+			}
+		}
+	],
 }
 
 export default card

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Machoke",
 		fr: "Machopeur",
+		de: "Maschock"
 	},
 
 	stage: "Stage2",
@@ -90,6 +91,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It grasps its opponents with its four arms and twists them up in an intricate hold. People call it \"the Machamp special.\"",
+		de: "Es ergreift seinen Gegner mit seinen vier Armen und hält ihn in einem komplizierten Würgegriff. Man nennt dies Machomeis Spezialgriff."
+	},
 
 	thirdParty: {
 		cardmarket: 370776,

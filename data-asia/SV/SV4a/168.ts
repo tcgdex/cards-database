@@ -21,6 +21,22 @@ const card: Card = {
 		id: "Jika sisa Kartu Point sendiri lebih banyak dari sisa Kartu Point lawan, kerusakan akibat serangan yang digunakan oleh Pokémon yang mengenakan kartu ini kepada Pokémon Bertarung lawan bertambah sejumlah 30."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 746550,
+				tcgplayer: 567569,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577399,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "G"
 }

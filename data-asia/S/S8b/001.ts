@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S8b"
+import { Card } from "../../../interfaces";
+import Set from "../S8b";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "獨角蟲"
+		ja: "ビードル",
+		'zh-tw': "獨角蟲",
 	},
 
 	illustrator: "Sanosuke Sakuma",
@@ -14,27 +14,46 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		'zh-tw': "毒針非常厲害。鮮豔的體色是用來 警告對手的。"
+		ja: "毒針は とても 強力。 目立つ 体の 色は 相手に 警戒を させるためだ。",
+		'zh-tw': "毒針非常厲害。鮮豔的體色是用來 警告對手的。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "突刺"
+	attacks: [
+		{
+			name: {
+				ja: "つきさす",
+				'zh-tw': "突刺",
+			},
+			damage: 20,
+			cost: ["Grass"],
 		},
+	],
 
-		damage: 20,
-		cost: ["Grass"]
-	}],
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 586516,
+				tcgplayer: 571254,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 578354,
+			},
+		},
+	],
 
 	retreat: 1,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "None",
+	dexId: [13],
+};
 
-export default card
+export default card;

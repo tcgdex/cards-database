@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Meditalis"
 	},
 
+	illustrator: "Aya Kusube",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -48,7 +49,7 @@ const card: Card = {
 			es: "Si tienes exactamente 4 cartas en tu mano, los ataques de este Pokémon cuestan ColorlessColorlessColorless menos.",
 			it: "Se hai esattamente quattro carte in mano, il costo degli attacchi di questo Pokémon è ridotto di ColorlessColorlessColorless.",
 			pt: "Se você tiver exatamente 4 cartas na sua mão, os ataques deste Pokémon custarão ColorlessColorlessColorless a menos.",
-			de: "Wenn du genau 4 Karten auf deiner Hand hast, verringern sich die Kosten der Attacken dieses Pokémon um ColorlessColorlessColorless."
+			de: "Wenn du genau 4 Karten auf deiner Hand hast, verringern sich die Kosten der Attacken dieses Pokémon um {C}{C}{C}."
 		}
 	}],
 
@@ -76,20 +77,43 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "Through yoga training, it gained the psychic power to predict its foe's next move.",
+		de: "Mit Yoga-Training hat es seine Psycho-Kräfte geschärft und ahnt so die Attacken seiner Gegner voraus."
 	},
 
-	thirdParty: {
-		cardmarket: 682120,
-		tcgplayer: 451727
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 682120,
+				tcgplayer: 451727
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682120,
+				tcgplayer: 451727
+			}
+		},
+	],
 }
 
 export default card

@@ -70,6 +70,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its movements are powered by a mysterious energy. It has continued to move since ancient times, so its power may soon run out.",
+		de: "Es wird seit uralten Zeiten durch eine Energie rätselhaften Ursprungs angetrieben. Manche gehen davon aus, dass diese bald erschöpft ist."
+	},
+
 	thirdParty: {
 		cardmarket: 408089,
 		tcgplayer: 201263

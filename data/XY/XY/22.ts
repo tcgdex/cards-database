@@ -80,6 +80,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Very intelligent, it roasts berries before eating them. It likes to help people.",
+		de: "Ein kultiviertes Pokémon, das Beeren vor dem Verzehr stets anbrät. Es bietet den Menschen gerne seine Hilfe an."
+	},
+
 	thirdParty: {
 		cardmarket: 281359,
 		tcgplayer: 87945

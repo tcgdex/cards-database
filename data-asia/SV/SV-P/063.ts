@@ -1,52 +1,60 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "鹽石巨靈ex"
+		ja: "シャワーズ",
+		'zh-tw': "鹽石巨靈ex",
 	},
 
-	illustrator: "5ban Graphics",
+	illustrator: "YU NAGABA",
 	category: "Pokemon",
-	hp: 340,
-	types: ["Fighting"],
-	stage: "Stage2",
-	suffix: "EX",
+	hp: 120,
+	types: ["Water"],
 
-	abilities: [{
-		type: "Ability",
+	description: {
+		ja: "水辺に 棲むが 尻尾には 魚のような ひれが 残っていて 人魚と 間違う 人もいる。",
+	},
 
-		name: {
-			'zh-tw': "鹽味之軀"
+	stage: "Stage1",
+
+	attacks: [
+		{
+			name: {
+				ja: "アクアバレット",
+				'zh-tw': "障礙之錘",
+			},
+			damage: 90,
+			cost: ["Water", "Water", "Colorless"],
+			effect: {
+				ja: "相手のベンチポケモン1匹にも、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'zh-tw': "在下個對手的回合，這隻寶可夢受到招式的傷害「-60」點。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "這隻寶可夢不會陷入特殊狀態。"
-		}
-	}],
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [],
 
-	attacks: [{
-		name: {
-			'zh-tw': "障礙之錘"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 708478,
+				tcgplayer: 587821,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "在下個對手的回合，這隻寶可夢受到招式的傷害「-60」點。"
-		},
+	evolveFrom: {
+		ja: "イーブイ",
+	},
 
-		damage: 170,
-		cost: ["Fighting", "Colorless", "Colorless"]
-	}],
+	retreat: 2,
+	regulationMark: "G",
+	rarity: "Promo",
+	dexId: [134],
+};
 
-	weaknesses: [{
-		type: "Grass",
-		value: "×2"
-	}],
-
-	retreat: 4,
-	regulationMark: "G"
-}
-
-export default card
+export default card;

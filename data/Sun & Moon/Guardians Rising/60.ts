@@ -85,7 +85,7 @@ const card: Card = {
 				es: "Cura Tapu GX",
 				it: "Tapucura-GX",
 				pt: "Cura Tapu GX",
-				de: "Kapu-Heilung GX"
+				de: "Kapu-Heilung-GX"
 			},
 			effect: {
 				en: "Heal all damage from 2 of your Benched Pokémon. (You can’t use more than 1 GX attack in a game.)",

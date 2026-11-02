@@ -73,16 +73,28 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 90581,
+				cardmarket: 276584
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 90581,
+				cardmarket: 276584
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["city-championships"]
+			stamp: ["city-championships"],
+			thirdParty: {
+				tcgplayer: 232877,
+				cardmarket: 450533
+			},
 		}
-	]
+	],
 }
 
 export default card

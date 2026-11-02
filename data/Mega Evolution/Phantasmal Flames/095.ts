@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Ludicolo"
 	},
 
+	evolveFrom: {
+		en: "Lombre",
+		fr: "Lombre",
+		es: "Lombre",
+		'es-mx': "Lombre",
+		de: "Lombrero",
+		it: "Lombre",
+		pt: "Lombre",
+	},
+
 	rarity: "Illustration rare",
 	category: "Pokemon",
 
@@ -62,19 +72,32 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "There are structures throughout its whole body that produce energy when hit by sound waves with a cheerful rhythm.",
+		fr: "Lorsqu'il ressent les vibrations d'un rythme entraînant, son corps tout entier génère de l'énergie.",
+		de: "Sein gesamter Körper ist mit einem Mechanismus ausgestattet, der Energie erzeugt, sobald es die Schallwellen eines fröhlichen Rhythmus empfängt."
+	},
+
+	illustrator: "Jerky",
 	variants: [
 		{
-			type: "holo"
-		}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857670,
+				tcgplayer: 662180,
+				cardtrader: 356881
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857670,
-		tcgplayer: 662180
-	}
 }
 
 export default card

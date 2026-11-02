@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Snobilikat"
 	},
 
-	rarity: "Rare",
+	illustrator: "tetsuya koizumi",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Colorless"],
@@ -60,7 +61,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 0
+	retreat: 0,
+
+	description: {
+		en: "Although the jewel on its forehead appears to be a different color than those of Alolan Persian, it's mostly made of the same material.",
+		de: "Das Juwel auf seiner Stirn hat eine andere Farbe als jenes von Snobilikat aus Alola, doch die Zusammensetzung ist großteils gleich."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 371775,
+				tcgplayer: 189022
+			}
+		}
+	],
 }
 
 export default card

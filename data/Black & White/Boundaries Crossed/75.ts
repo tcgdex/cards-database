@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras'Face",
+				de: "Pfund"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Psypunch",
 				fr: "Coup de Poing Psy",
+				de: "Psyhieb"
 			},
 
 			damage: 20,
@@ -65,10 +67,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280662,
-		tcgplayer: 85848
-	}
+	description: {
+		en: "Their ribbonlike feelers increase their psychic power. They are always staring at something.",
+		de: "Die schleifenförmigen Fühler erhöhen seine Psycho-Kräfte. Es scheint stets irgendetwas anzustarren."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280662,
+				tcgplayer: 85848
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280662,
+				tcgplayer: 85848
+			}
+		},
+	],
 }
 
 export default card

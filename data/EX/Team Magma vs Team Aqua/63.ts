@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		228,
-	],
+	dexId: [228],
 
 	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Kick Away",
 				fr: "Coud' pied éjecteur",
-				de: "Kick Away"
+				de: "Wegkicken"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec 1 des Pokémon de son Banc, s'il en a.",
-				de: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 10,
 
@@ -51,7 +49,7 @@ const card: Card = {
 			name: {
 				en: "Steady Firebreathing",
 				fr: "Crachage de feu régulier",
-				de: "Steady Firebreathing"
+				de: "Stetiger Feuerhauch"
 			},
 
 			damage: 20,
@@ -66,22 +64,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276040,
-		tcgplayer: 89832
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275840,
+				tcgplayer: 89832
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275840,
+				tcgplayer: 89832
+			}
+		},
+	],
+
 }
 
 export default card

@@ -13,31 +13,40 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [13, 25, 60, 104, 108],
+
 	effect: {
+		en: "Choose a Pokémon on your Bench. Shuffle it and any cards attached to it into your deck.",
 		fr: "Choisissez un Pokémon de votre Banc. Mélangez-le dans votre deck avec toutes les cartes qui lui sont attachées.",
-		de: "Wähle ein Pokémon auf deiner Bank. Mische es und alle darauf abgelegten Karten in den Deck."
+		de: "Wähle ein Pokémon auf deiner Bank. Mische es und alle darauf abgelegten Karten in dein Deck."
 	},
 
-	thirdParty: {
-		cardmarket: 273919,
-		tcgplayer: 44460
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273919,
+				tcgplayer: 44460
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 273919,
+				tcgplayer: 44460
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			thirdParty: {
+				cardmarket: 273919,
+				tcgplayer: 44460
+			}
 		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright"
-		}
-	]
+	],
 }
 
 export default card

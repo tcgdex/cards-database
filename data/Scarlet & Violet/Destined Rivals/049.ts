@@ -71,34 +71,51 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825923,
+				tcgplayer: 630816
+			}
 		},
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 825923,
+				tcgplayer: 630816
+			}
 		},
 		{
-			type: 'holo',
-			stamp: [
-				"set-logo"
-			]
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 826180,
+			}
 		},
 		{
-			type: 'holo',
-			stamp: [
-				"set-logo",
-				"staff"
-			]
-		}
+			type: "normal",
+			thirdParty: {
+				cardmarket: 828101,
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 833945,
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 825923
-	}
 }
 
 export default card

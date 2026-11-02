@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		22,
-	],
+	dexId: [22],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Spearow",
 		fr: "Piafabec",
+		de: "Habitak"
 	},
 
 	stage: "Stage1",
@@ -59,9 +58,9 @@ const card: Card = {
 			effect: {
 				en: "Flip 5 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 5 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
-				de: "Wirf 5 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 5 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
-			damage: "20x",
+			damage: "20×",
 
 		},
 	],
@@ -83,22 +82,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It shoots itself suddenly high into the sky, then plummets down in one fell swoop to strike its prey."
+		en: "It shoots itself suddenly high into the sky, then plummets down in one fell swoop to strike its prey.",
+		de: "Es fliegt steil empor und stürzt sich anschließend herab, um seine Beute zu erlegen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85399,
+				cardmarket: 279171
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85399,
+				cardmarket: 279171
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279171,
-		tcgplayer: 85399
-	}
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		111,
-	],
+	dexId: [111],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -40,7 +38,7 @@ const card: Card = {
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
 				de: "Flip 2 coins. This attack does 10 damage times the number of heads."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -74,23 +72,29 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276144,
-		tcgplayer: 88740
-	},
-
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88740,
+				cardmarket: 276144
+			}
 		},
 		{
-			type: "holo",
-			foil: "energy",
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88740,
+				cardmarket: 276144
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["michael-gonzalez"]
-		}
+			stamp: ["michael-gonzalez"],
+			thirdParty: {
+				tcgplayer: 477576,
+				cardmarket: 871531
+			}
+		},
 	]
 }
 

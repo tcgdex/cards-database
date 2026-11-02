@@ -69,6 +69,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "According to old tales, these Pokémon are stumps possessed by the spirits of children who died while lost in the forest.",
+		de: "Bei diesen Pokémon soll es sich um die Seelen von Kindern handeln, die sich im Wald verliefen und ums Leben kamen und nun in Baumstümpfen hausen."
+	},
+
 	thirdParty: {
 		cardmarket: 288239,
 		tcgplayer: 111605

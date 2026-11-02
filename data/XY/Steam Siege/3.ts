@@ -56,6 +56,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It drifts on winds. It is said that when Hoppip gather in fields and mountains, spring is on the way.",
+		de: "Es reitet auf dem Wind. Man sagt, wenn sich Hoppspross versammeln, kommt der Frühling bald."
+	},
+
 	thirdParty: {
 		cardmarket: 291510,
 		tcgplayer: 120992

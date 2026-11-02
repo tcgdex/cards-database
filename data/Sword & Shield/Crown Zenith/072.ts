@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Pam-Pam"
 	},
 
+	illustrator: "Sanosuke Sakuma",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -35,20 +36,39 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It chooses a Pangoro as its master and then imitates its master's actions. This is how it learns to battle and hunt for prey.",
+		de: "Es imitiert sein großes Vorbild Pandagro, wo es nur kann. So lernt es, wie man kämpft und jagt."
 	},
 
-	thirdParty: {
-		cardmarket: 691790,
-		tcgplayer: 478201
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691790,
+				tcgplayer: 478201
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691790,
+				tcgplayer: 478201
+			}
+		},
+	],
 }
 
 export default card

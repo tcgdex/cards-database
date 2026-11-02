@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Teddiursa"
 	},
 
+	illustrator: "Nagomi Nijo",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -55,20 +56,37 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It licks its paws because of the sweet honey that has soaked into them. It is cunning, stealing into the nests of Combee and taking for itself the honey that the Combee have amassed.",
+		de: "Teddiursa leckt oft an seinen Pranken, da Honig an ihnen haftet. Listig, wie es ist, nimmt es sich diesen aus Wadribie-Stöcken, als ob er ihm gehören würde."
 	},
 
-	thirdParty: {
-		cardmarket: 658783,
-		tcgplayer: 272359
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658783,
+				tcgplayer: 272359
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658783,
+				tcgplayer: 272359
+			}
+		},
+	],
 }
 
 export default card

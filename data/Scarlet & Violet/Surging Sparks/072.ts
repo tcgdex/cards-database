@@ -65,27 +65,41 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 833336,
+				tcgplayer: 590078
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 833336,
+				tcgplayer: 590078
+			}
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
-		}
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 794362,
+			}
+		},
 	],
 
 	illustrator: "Narano",
-
-	thirdParty: {
-		cardmarket: 794362
-	}
+	
 }
 
 export default card

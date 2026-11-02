@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		228,
-	],
+	dexId: [228],
 
 	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -33,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Combustion",
 				fr: "Fournaise",
-				de: "Combustion"
+				de: "Glühen"
 			},
 
 			damage: 10,
@@ -47,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Super Singe",
 				fr: "Ça sent le roussi !",
-				de: "Super Singe"
+				de: "Super-Versengung"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Burned.",
 				fr: "Le Pokémon Défenseur est maintenant Brûlé.",
-				de: "The Defending Pokémon is now Burned."
+				de: "Das Verteidigende Pokémon ist jetzt verbrannt."
 			},
 			damage: 10,
 
@@ -66,22 +64,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276039,
-		tcgplayer: 89831
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275839,
+				tcgplayer: 89831
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275839,
+				tcgplayer: 89831
+			}
+		},
+	],
+
 }
 
 export default card

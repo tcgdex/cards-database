@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		309,
-	],
+	dexId: [309],
 
 	hp: 50,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, each Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le ou les deux Pokémon Défenseurs sont maintenant Paralysés.",
-				de: "Wirf eine Münze. Bei 'Kopf' sind alle Verteidigenden Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ sind alle Verteidigenden Pokémon jetzt gelähmt."
 			},
 
 		},
@@ -75,19 +73,24 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275701,
-		tcgplayer: 85130
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275701,
+				tcgplayer: 85130
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275701,
+				tcgplayer: 85130
+			}
 		},
-	]
+	],
+
 }
 
 export default card

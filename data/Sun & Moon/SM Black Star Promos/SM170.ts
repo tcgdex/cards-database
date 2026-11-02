@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Meisterdetektiv Pikachu"
 	},
 
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Lightning"],
@@ -73,7 +73,22 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	description: {
+		en: "He loves to show off his vast knowledge. This expressive Pikachu is like a middle-aged man.",
+		de: "Er liebt es, sein großes Wissen unter Beweis zu stellen. Dieses gesprächige Pikachu verhält sich wie ein Mann mittleren Alters."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 397979,
+				tcgplayer: 190940
+			}
+		}
+	],
 }
 
 export default card

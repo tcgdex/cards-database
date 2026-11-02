@@ -22,7 +22,8 @@ const card: Card = {
 
 	evolveFrom: {
 		fr: "Pyrobut-V",
-		en: "Cinderace V"
+		en: "Cinderace V",
+		de: "Liberlo V"
 	},
 
 	attacks: [{
@@ -77,19 +78,18 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "VMAX",
 
-	thirdParty: {
-		cardmarket: 539118,
-		tcgplayer: 232407
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 539118,
+				tcgplayer: 232407
+			}
+		},
+	],
 }
 
 export default card

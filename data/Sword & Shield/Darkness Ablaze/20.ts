@@ -28,7 +28,7 @@ const card: Card = {
 		es: "Charizard V",
 		it: "Charizard-V",
 		pt: "Charizard V",
-		de: "Glurak-V"
+		de: "Glurak VMAX"
 	},
 
 	attacks: [
@@ -89,19 +89,18 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "VMAX",
 
-	thirdParty: {
-		cardmarket: 482974,
-		tcgplayer: 219233
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 482974,
+				tcgplayer: 219233
+			}
+		},
+	],
 }
 
 export default card

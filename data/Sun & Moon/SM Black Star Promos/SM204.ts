@@ -11,8 +11,8 @@ const card: Card = {
 		de: "Necrozma"
 	},
 
-	illustrator: undefined,
-	rarity: "Rare",
+	illustrator: "Hasuno",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -87,7 +87,22 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2
+	retreat: 2,
+
+	description: {
+		en: "It looks somehow pained as it rages around in search of light, which serves as its energy. It's apparently from another world.",
+		de: "Diese Kreatur stammt wohl aus einer anderen Welt. Sie wirkt gequält, wenn sie auf der Suche nach Licht, seiner Energiequelle, herumwütet."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 377526,
+				tcgplayer: 196716
+			}
+		}
+	],
 }
 
 export default card

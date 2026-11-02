@@ -11,12 +11,12 @@ const card: Card = {
 		de: "Kapu-Toro"
 	},
 	illustrator: "Megumi Mizutani",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
 	dexId: [
-		786,
+		787,
 	],
 	hp: 130,
 	types: [
@@ -88,6 +88,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It pulls large trees up by the roots and swings them around. It causes vegetation to grow, and then it absorbs energy from the growth.",
+		de: "Dieses Pokémon entwurzelt große Bäume und schwingt sie herum. Es lässt Pflanzen üppig gedeihen und absorbiert dann ihre Energie."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 359746,
+				tcgplayer: 173382
+			}
+		}
+	],
 }
 
 export default card

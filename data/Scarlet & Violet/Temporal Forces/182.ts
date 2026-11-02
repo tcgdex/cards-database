@@ -55,20 +55,31 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "The way it brushes away grime with its tail can be helpful when cleaning. But its focus on spotlessness can make cleaning more of a hassle.",
+	},
+
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760812,
+				tcgplayer: 542903
+			}
+		},
 	],
 
 	illustrator: "Shibuzoh.",
 
-	thirdParty: {
-		cardmarket: 760812
-	}
 }
 
 export default card

@@ -13,23 +13,30 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [84],
+
 	effect: {
+		en: "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Once during each player's turn (before attacking), that player may flip a coin. If heads, that player draws a card.",
 		fr: "Cette carte reste en jeu lorsque vous la jouez. Défaussez-vous de cette carte si une autre carte Stade arrive en jeu.\n\nUne fois durant le tour de chaque joueur (avant son attaque), ce joueur peut lancer une pièce. Si c'est face, ce joueur pioche une carte.",
-		de: "Once during each player's turn, that player may flip a coin. If heads, the player draws a card."
+		de: "Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadion-Karte ins Spiel kommt. Einmal in jedem eigenen Zug (vor dem Angriff) darf jeder Spieler eine Münze werfen. Bei „Kopf“ zieht dieser Spieler eine Karte."
 	},
 
-	thirdParty: {
-		cardmarket: 274752,
-		tcgplayer: 86893
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274752,
+				tcgplayer: 86893
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274752,
+				tcgplayer: 86893
+			}
 		}
 	]
 }

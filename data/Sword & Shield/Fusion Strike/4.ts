@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 60,
 	types: ["Grass"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Naoyo Kimura",
 
 	description: {
-		en: "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled."
+		en: "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled.",
+		de: "Es setzt an seinem Kopf Giftsporen frei. Werden diese eingeatmet, verursachen sie Schmerzen."
 	},
 
 	attacks: [{
@@ -55,17 +62,23 @@ const card: Card = {
 		damage: 20
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582032,
-		tcgplayer: 253074
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582032,
+				tcgplayer: 253074
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582032,
+				tcgplayer: 253074
+			}
+		},
+	],
 }
 
 export default card

@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		426,
-	],
+	dexId: [426],
 
 	hp: 90,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Drifloon",
 		fr: "Baudrive",
+		de: "Driftlon"
 	},
 
 	stage: "Stage1",
@@ -86,22 +85,27 @@ const card: Card = {
 	retreat: 0,
 
 	description: {
-		en: "It can generate and release gas within its body. That’s how it can control the altitude of its drift."
+		en: "It can generate and release gas within its body. That’s how it can control the altitude of its drift.",
+		de: "Indem es Gas in seinem Körper erzeugt und wieder ausstößt, reguliert es seine Flughöhe."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279265,
+				tcgplayer: 84948
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279265,
+				tcgplayer: 84948
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279265,
-		tcgplayer: 84948
-	}
 }
 
 export default card

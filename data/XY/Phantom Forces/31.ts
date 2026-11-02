@@ -69,6 +69,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Even though it has no eyes, it can sense obstacles using ultrasonic waves it emits from it mouth.",
+		de: "Obwohl es keine Augen hat, kann es Hindernisse mithilfe von Ultraschallwellen wahrnehmen."
+	},
+
 	thirdParty: {
 		cardmarket: 281837,
 		tcgplayer: 94164

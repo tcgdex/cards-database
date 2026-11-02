@@ -53,8 +53,18 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		holo: false
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
+
+	description: {
+		en: "Born from sludge, these Pokémon now gather in polluted places and increase the bacteria in their bodies.",
+		de: "Diese aus Schlamm entstandenen Pokémon scharen sich an dreckigen Orten, um ihre körpereigenen Bakterien zu kultivieren."
 	},
 
 	thirdParty: {

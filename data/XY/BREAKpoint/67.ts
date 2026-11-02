@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [709],
 
 	dexId: [
 		185,
@@ -62,6 +63,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It disguises itself as a tree to avoid attack. It hates water, so it will disappear if it starts raining.",
+		de: "Es tarnt sich als Baum, um nicht angegriffen zu werden. Es hasst Wasser, darum läuft es bei Regen weg."
+	},
 
 	thirdParty: {
 		cardmarket: 288242,

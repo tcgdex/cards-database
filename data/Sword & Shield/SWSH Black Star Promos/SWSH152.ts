@@ -13,7 +13,7 @@ const card: Card = {
 		en: "Professor's Research"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Trainer",
 
 	description: {
@@ -36,10 +36,15 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	regulationMark: "D",
-
-	thirdParty: {
-		cardmarket: 569233
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 611309,
+				tcgplayer: 268709
+			}
+		},
+	],
 }
 
 export default card

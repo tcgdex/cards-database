@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		134,
-	],
+	dexId: [134],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Eevee",
-		fr: "Évoli"
+		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	stage: "Stage1",
@@ -39,7 +38,7 @@ const card: Card = {
 			name: {
 				en: "Aurora Beam",
 				fr: "Onde boréale",
-				de: "Aurora Beam"
+				de: "Aurorastrahl"
 			},
 
 			damage: 30,
@@ -54,12 +53,12 @@ const card: Card = {
 			name: {
 				en: "Aqua Sonic",
 				fr: "Aquasonique",
-				de: "Aqua Sonic"
+				de: "Aquaschall"
 			},
 			effect: {
 				en: "This attack's damage is not affected by Resistance.",
 				fr: "Les dégâts infligés par cette attaque ne sont pas affectés par la Résistance.",
-				de: "This attack's damage is not affected by Resistance."
+				de: "Der Schaden dieses Angriffs wird durch die Resistenz des Verteidigenden Pokémon nicht verringert."
 			},
 			damage: 50,
 
@@ -76,19 +75,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275802,
-		tcgplayer: 90278
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275802,
+				tcgplayer: 90278
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275802,
+				tcgplayer: 90278
+			}
 		},
-	]
+	],
+
 }
 
 export default card

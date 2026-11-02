@@ -62,34 +62,58 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: "holo"
-		},
-		{
-			type: "reverse"
-		},
-		{
 			type: "holo",
-			stamp: ["eb-games"]
-		},
-		{
-			type: "holo",
-			stamp: ["gamestop"]
+			thirdParty: {
+				cardmarket: 851159,
+				tcgplayer: 654427
+			}
 		},
 		{
 			type: "reverse",
-			stamp: ["set-logo"]
-		}
+			thirdParty: {
+				cardmarket: 851159,
+				tcgplayer: 654427
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["gamestop"],
+			thirdParty: {
+				cardmarket: 851265,
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["eb-games"],
+			thirdParty: {
+				cardmarket: 851266,
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 854291,
+			}
+		},
 	],
-
-	thirdParty: {
-		tcgplayer: 654427,
-		cardmarket: 851159
-	}
 }
 
 export default card

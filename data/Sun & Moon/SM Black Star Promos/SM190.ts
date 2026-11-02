@@ -3,6 +3,9 @@ import Set from '../SM Black Star Promos'
 
 const card: Card = {
 	dexId: [25],
+
+	cameoDexIds: [39],
+
 	set: Set,
 
 	name: {
@@ -14,7 +17,8 @@ const card: Card = {
 		de: "Meisterdetektiv Pikachu"
 	},
 
-	rarity: "Rare",
+	illustrator: "Framestore",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Lightning"],
@@ -63,7 +67,22 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	description: {
+		en: "He was the partner of Tim's father, Harry, who has gone missing. This Pikachu loves the dark coffee at the Hi-Hat Cafe.",
+		de: "Er war der Partner von Tims Vater Harry, der spurlos verschwunden ist. Dieses Pikachu liebt den starken Kaffee im Hi-Hat Café."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 372210,
+				tcgplayer: 189805
+			}
+		}
+	],
 }
 
 export default card

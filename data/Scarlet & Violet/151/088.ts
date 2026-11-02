@@ -44,18 +44,42 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Born from sludge, these Pokémon now gather in polluted places and increase the bacteria in their bodies.",
+		de: "Diese aus Schlamm entstandenen Pokémon scharen sich an dreckigen Orten, um ihre körpereigenen Bakterien zu kultivieren."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733683,
+				tcgplayer: 516657,
+				cardtrader: 261121
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733683,
+				tcgplayer: 516657,
+				cardtrader: 261121
+			}
+		},
+	],
 
 	illustrator: "Nisota Niso",
 
-	thirdParty: {
-		cardmarket: 733683
-	}
+	
 }
 
 export default card

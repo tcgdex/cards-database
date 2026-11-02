@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Bug Bite",
 				fr: "Piqûre",
+				de: "Käferbiss"
 			},
 
 			damage: 20,
@@ -51,6 +52,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Since this Pokémon makes its own clothes out of leaves, it is a popular mascot for fashion designers.",
+		de: "Unter Modeschöpfern gilt es als beliebtes Maskottchen, da es sich aus Blättern Kleidchen schneidert."
+	},
 
 	thirdParty: {
 		cardmarket: 280748,

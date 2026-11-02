@@ -56,6 +56,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Its shape and coloration vary, depending on its habitat.",
+		de: "Form und Farbe dieses Pokémon ändern sich je nach der Umgebung, in der es lebt."
+	},
+
 	thirdParty: {
 		cardmarket: 291529,
 		tcgplayer: 121015

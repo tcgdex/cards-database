@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Porygon2",
 		fr: "Porygon2",
+		de: "Porygon2"
 	},
 
 	stage: "Stage2",
@@ -92,10 +93,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 299506,
-		tcgplayer: 138601
-	}
+	description: {
+		en: "In order to create a more advanced Pokémon, an additional program was installed, but apparently it contained a defect that makes it move oddly.",
+		de: "Zusätzliche Software wurde installiert, um das Pokémon zu verbessern. Etwas ging jedoch schief und seitdem benimmt es sich seltsam."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 299506,
+				tcgplayer: 138601
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299506,
+				tcgplayer: 138601
+			}
+		},
+	],
 }
 
 export default card

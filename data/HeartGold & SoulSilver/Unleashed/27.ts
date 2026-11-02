@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		217,
-	],
+	dexId: [217],
 
 	hp: 100,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Teddiursa",
 		fr: "Teddiursa",
+		de: "Teddiursa"
 	},
 
 	stage: "Stage1",
@@ -58,7 +57,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 50 damage plus 30 more damage.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 50 dégâts plus 30 dégâts supplémentaires.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 50 Schadenspunkte plus 30 weitere Schadenspunkte zu."
 			},
 			damage: "50+",
 
@@ -75,22 +74,27 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "With its ability to distinguish any aroma, it unfailing finds all food buried deep underground."
+		en: "With its ability to distinguish any aroma, it unfailing finds all food buried deep underground.",
+		de: "Da es alle Gerüche perfekt unterscheiden kann, findet es sogar Nahrung, die tief im Erdreich ist."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90254,
+				cardmarket: 279183
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90254,
+				cardmarket: 279183
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279183,
-		tcgplayer: 90254
-	}
 }
 
 export default card

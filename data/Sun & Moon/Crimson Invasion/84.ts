@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [572],
 
 	dexId: [
 		486,
@@ -88,6 +89,11 @@ const card: Card = {
 	],
 
 	retreat: 4,
+
+	description: {
+		en: "It is said to have made Pokémon that look like itself from a special ice mountain, rocks, and magma.",
+		de: "Man sagt, es habe Pokémon aus einem Eisberg, Felsen und Magma nach seinem Abbild geschaffen."
+	},
 
 	thirdParty: {
 		cardmarket: 311931,

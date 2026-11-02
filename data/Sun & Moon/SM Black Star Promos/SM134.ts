@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Boreos GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -81,7 +81,7 @@ const card: Card = {
 				es: "Ciclón Destructivo GX",
 				it: "Ciclone Distruttivo GX",
 				pt: "Ciclone Destruidor GX",
-				de: "Zerstörerisches Sturmtief GX"
+				de: "Zerstörerisches Sturmtief-GX"
 			},
 			effect: {
 				en: "Discard all Energy from your opponent’s Active Pokémon. (You can’t use more than 1 GX attack in a game.)",
@@ -109,8 +109,15 @@ const card: Card = {
 	],
 	retreat: 2,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 359446,
+				tcgplayer: 170033
+			}
+		}
+	],
 }
 
 export default card

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Rowlet"
+		en: "Rowlet",
+		fr: "Brindibou"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -17,20 +18,23 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		en: "It sends its feathers, which are as sharp\nas blades, flying in attack. Its legs are strong,\nso its kicks are also formidable."
+		en: "It sends its feathers, which are as sharp\nas blades, flying in attack. Its legs are strong,\nso its kicks are also formidable.",
+		fr: "Il attaque en tirant des plumes acérées. La force de ses coups de patte est également redoutable."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Skill Dive"
+			en: "Skill Dive",
+			fr: "Plongeon Contrôlé"
 		},
 
 		cost: ["Grass"],
 
 		effect: {
-			en: "This attack does 10 damage to 1 of your opponent's Pokémon."
+			en: "This attack does 10 damage to 1 of your opponent's Pokémon.",
+			fr: "Cette attaque inflige 10 dégâts à l'un des Pokémon de votre adversaire."
 		}
 	}],
 

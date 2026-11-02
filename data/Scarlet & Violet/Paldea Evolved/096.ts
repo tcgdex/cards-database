@@ -65,18 +65,46 @@ const card: Card = {
 		damage: "80+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715571,
+				tcgplayer: 497511,
+				cardtrader: 248725
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715571,
+				tcgplayer: 497511,
+				cardtrader: 248725
+			}
+		},
+	],
 
 	illustrator: "HYOGONOSUKE",
 
-	thirdParty: {
-		cardmarket: 715571
-	}
+	description: {
+		en: "The terrifying Palossand drags smaller Pokémon into its sandy body. Once its victims are trapped, it drains them of their vitality whenever it pleases.",
+		de: "Das furchterregende Colossand zieht kleinere Pokémon in seinen Körper aus Sand und saugt ihnen nach Belieben die Lebenskraft aus."
+	},
 }
 
 export default card

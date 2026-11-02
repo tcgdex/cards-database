@@ -80,7 +80,7 @@ const card: Card = {
 				es: "Apogeo del Heroísmo GX",
 				it: "Atto di Eroismo GX",
 				pt: "Auge do Heroísmo GX",
-				de: "Gipfel des Heldentums GX"
+				de: "Gipfel des Heldentums-GX"
 			},
 			effect: {
 				en: "If this Pokémon has at least 1 extra Energy attached to it (in addition to this attack’s cost), and if it would be Knocked Out by damage from an opponent’s attack during their next turn, it is not Knocked Out, and its remaining HP becomes 10. (You can’t use more than 1 GX attack in a game.)",

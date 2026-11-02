@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Duskull",
 		fr: "Skelénox",
+		de: "Zwirrlicht"
 	},
 
 	stage: "Stage1",
@@ -99,10 +100,27 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 299456,
-		tcgplayer: 138534
-	}
+	description: {
+		en: "Anyone who dares peer into its body to see its spectral ball of fire will have their spirit stolen away.",
+		de: "Blickt man direkt in den Feuerball in seinem Inneren, wird einem die Seele ausgesaugt."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299456,
+				tcgplayer: 138534
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299456,
+				tcgplayer: 138534
+			}
+		},
+	],
 }
 
 export default card

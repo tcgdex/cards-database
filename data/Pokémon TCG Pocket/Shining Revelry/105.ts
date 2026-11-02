@@ -26,7 +26,7 @@ const card: Card = {
 		fr: "On raconte qu'il est né lorsqu'un mystérieux Pokémon Poison\na pris possession d'un moteur laissé à l'abandon dans une casse.",
 		es: "Se dice que surgió cuando un misterioso Pokémon venenoso\ntomó posesión de un motor abandonado en un desguace.",
 		it: "Pare sia nato quando un misterioso Pokémon\ndi tipo Veleno prese possesso di un motore\nabbandonato in un deposito di rottami.",
-		de: "Es soll entstanden sein, als ein unbekanntes\nGift-Pokémon von einem Motor Besitz ergriff,\nder in einer Schrottfabrik zurückgelassen wurde.",
+		de: "Es soll entstanden sein, als ein unbekanntes Gift-Pokémon von einem Motor Besitz ergriff, der in einer Schrottfabrik zurückgelassen wurde.",
 		'pt-br': "Acredita-se que este Pokémon nasceu quando um\nPokémon venenoso desconhecido possuiu um motor\nabandonado em uma fábrica que processa ferro-velho.",
 		ko: "고철 처리장에 방치된 엔진에\n정체불명의 독포켓몬이 들어가\n탄생한 것으로 전해지고 있다."
 	},

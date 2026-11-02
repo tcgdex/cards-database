@@ -47,7 +47,7 @@ const card: Card = {
 			es: "Todas las veces que quieras durante tu turno, puedes unir 1 carta de Energía Water de tu mano a 1 de tus Pokémon Water en Banca.",
 			it: "Durante il tuo turno, puoi assegnare a uno dei tuoi Pokémon Water in panchina una carta Energia Water dalla tua mano tutte le volte che vuoi.",
 			pt: "Quantas vezes desejar durante o seu turno, você poderá ligar 1 carta de Energia Water da sua mão a 1 dos seus Pokémon Water no Banco.",
-			de: "Beliebig oft während deines Zuges kannst du 1 Water-Energiekarte aus deiner Hand an 1 Water-Pokémon auf deiner Bank anlegen."
+			de: "Beliebig oft während deines Zuges kannst du 1 {W}-Energiekarte aus deiner Hand an 1 {W}-Pokémon auf deiner Bank anlegen."
 		}
 	}],
 
@@ -73,23 +73,24 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It shows no mercy to any who desecrate fields and mountains. It will fly around on its icy wings, causing a blizzard to chase offenders away."
+		en: "It shows no mercy to any who desecrate fields and mountains. It will fly around on its icy wings, causing a blizzard to chase offenders away.",
+		de: "Verwüstet jemand Felder und Berge, vergibt es ihm niemals. Es bestraft den Täter, indem es mit seinen kalten Flügeln einen Schneesturm erzeugt."
 	},
 
-	thirdParty: {
-		cardmarket: 457313,
-		tcgplayer: 213287
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 457313,
+				tcgplayer: 213287
+			}
+		},
+	],
 }
 
 export default card

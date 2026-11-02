@@ -4,20 +4,18 @@ import Set from '../Supreme Victors'
 const card: Card = {
 	name: {
 		en: "Drifblim FB",
-		fr: "Grodrive ",
+		fr: "Grodrive FB",
 		de: "Drifzepeli FB"
 	},
 	illustrator: "Lee HyunJung",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		426,
-	],
+	dexId: [426],
 	hp: 80,
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -34,7 +32,7 @@ const card: Card = {
 				en: "If your opponent has 3 or less Prize cards left, Drifblim FB gets +40 HP.",
 				fr: "S'il ne reste pas plus de 3 cartes Récompense à votre adversaire, Grodrive  obtient 40 PV supplémentaires.",
 				de: "Solange dein Gegner weniger als 4 Preise übrig hat, erhält Drifzepeli FB +40 KP."
-			},
+			}
 		},
 	],
 	attacks: [
@@ -60,7 +58,7 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Darkness",
-			value: "×2"
+			value: "x2"
 		},
 	],
 	resistances: [
@@ -73,14 +71,20 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278694,
+				tcgplayer: 84952
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
-
-
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278694,
+				tcgplayer: 84952
+			}
+		},
+	],
 
 }
 

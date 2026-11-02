@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 100,
 	types: ["Darkness"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Eri Yamaki",
 
 	description: {
-		en: "The elderly call it the disaster Pokémon and detest it, but interest in its power to predict disasters is on the rise."
+		en: "The elderly call it the disaster Pokémon and detest it, but interest in its power to predict disasters is on the rise.",
+		de: "Alte Leute verabscheuen es als das Desaster-Pokémon, aber seine Fähigkeit, Katastrophen vorherzusagen, findet immer mehr Anerkennung."
 	},
 
 	attacks: [{
@@ -62,17 +69,23 @@ const card: Card = {
 		damage: 80
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582792,
-		tcgplayer: 253378
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582792,
+				tcgplayer: 253378
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582792,
+				tcgplayer: 253378
+			}
+		},
+	],
 }
 
 export default card

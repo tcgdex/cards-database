@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When the heavy rainfall season ends, it is drawn out by warm sunlight to dance in the open.",
+	},
+
 	thirdParty: {
 		cardmarket: 284185,
 		tcgplayer: 100616

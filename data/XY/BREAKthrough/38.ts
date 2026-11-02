@@ -88,6 +88,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The three horns that extend from its beak attest to its power. The leader has the biggest horns.",
+		de: "Die drei Hörner, die aus dem Schnabel wachsen, stehen für Kraft. Ein Anführer hat die größten Hörner."
+	},
+
 	thirdParty: {
 		cardmarket: 286284,
 		tcgplayer: 107157

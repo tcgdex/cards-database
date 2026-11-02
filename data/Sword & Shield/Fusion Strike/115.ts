@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 70,
 	types: ["Psychic"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Kyoko Umemoto",
 
 	description: {
-		en: "In contrast to its appearance, it's quite timid. When playing with other puppy Pokémon, it sometimes gets bullied."
+		en: "In contrast to its appearance, it's quite timid. When playing with other puppy Pokémon, it sometimes gets bullied.",
+		de: "Man sieht es ihm zwar nicht an, aber es ist recht feige. Lässt man es mit anderen kleinen Hunde-Pokémon spielen, wird es oft gehänselt."
 	},
 
 	attacks: [{
@@ -55,17 +62,23 @@ const card: Card = {
 		damage: 30
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582615,
-		tcgplayer: 253278
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582615,
+				tcgplayer: 253278
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582615,
+				tcgplayer: 253278
+			}
+		},
+	],
 }
 
 export default card

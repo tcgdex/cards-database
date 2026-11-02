@@ -89,23 +89,30 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Stones can get stuck in the ports on their bodies. Dwebble help dislodge such stones, so Hippowdon look after these Pokémon."
+		en: "Stones can get stuck in the ports on their bodies. Dwebble help dislodge such stones, so Hippowdon look after these Pokémon.",
+		de: "Manchmal bleiben in den Öffnungen in seinem Körper Steine stecken. Lithomith entfernen diese Steine, deswegen genießen sie seinen Schutz."
 	},
 
-	thirdParty: {
-		cardmarket: 483349,
-		tcgplayer: 219487
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483349,
+				tcgplayer: 219487
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483349,
+				tcgplayer: 219487
+			}
+		},
+	],
 }
 
 export default card

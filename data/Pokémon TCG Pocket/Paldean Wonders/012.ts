@@ -4,7 +4,12 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Capsakid",
+		fr: "Pimito",
+		en: "Capsakid",
+		es: "Capsakid",
+		it: "Capsakid",
+		pt: "Capsakid",
+		de: "Chilingel"
   },
   illustrator: "GIDORA",
   rarity: "One Diamond",
@@ -20,6 +25,12 @@ const card: Card = {
     {
       name: {
         en: "Playful Kick",
+        fr: "Coup de Pied de Garnement",
+        es: "Patada Juguetona",
+        'es-mx': "Patada Juguetona",
+        de: "Verspielter Kick",
+        it: "Calcio Briccone",
+        pt: "Chute Brincalhão"
       },
       damage: 10,
       cost: ["Colorless"],

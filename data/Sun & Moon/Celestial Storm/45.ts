@@ -87,6 +87,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "Its body is made of ice from the ice age. It controls frigid air of -328 degrees Fahrenheit.",
+		de: "Sein Körper besteht aus Eis aus der Eiszeit. Es kontrolliert gefrorene Luft, die -200 °C kalt ist."
+	},
+
 	thirdParty: {
 		cardmarket: 361292,
 		tcgplayer: 170862

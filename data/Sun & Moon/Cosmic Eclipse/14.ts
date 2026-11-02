@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Kricketot",
 		fr: "Crikzik",
+		de: "Zirpurze"
 	},
 
 	stage: "Stage1",
@@ -67,6 +68,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It crosses its knifelike arms in front of its chest when it cries. It can compose melodies ad lib.",
+		de: "Wenn es ruft, verschränkt es seine messerartigen Arme vor der Brust. Es komponiert aus dem Stegreif."
+	},
 
 	thirdParty: {
 		cardmarket: 407724,

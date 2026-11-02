@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Charcadet",
-		fr: "Charbambin"
+		fr: "Charbambin",
+		de: "Knarbon"
 	},
 
 	stage: "Stage1",
@@ -72,19 +73,30 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
 	variants: [
 		{
-			type: 'reverse'
+			type: "reverse"
 		},
 		{
-			type: 'holo'
-		},
+			type: "holo"
+		}
 	],
 
 	illustrator: "AKIRA EGAWA",
+
+	description: {
+		en: "Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pokémon is incredibly loyal.",
+		de: "Es entwickelte sich durch die Rüstung eines heldenhaften Kriegers zu dieser Form. Crimanzo besitzt einen ausgeprägten Sinn für Loyalität."
+	},
 
 	thirdParty: {
         cardmarket: 702336,

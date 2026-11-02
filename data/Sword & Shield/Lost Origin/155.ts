@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Achromas' Experiment"
 	},
 
+	illustrator: "Naoki Saito",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -22,22 +23,29 @@ const card: Card = {
 		es: "Mira las 5 primeras cartas de tu baraja y pon 3 de ellas en tu mano. Pon el resto de las cartas en la Zona Perdida.",
 		it: "Guarda le prime cinque carte del tuo mazzo e aggiungi tre di esse alle carte che hai in mano. Metti le altre carte nell'area perduta.",
 		pt: "Olhe as 5 cartas de cima do seu baralho e coloque 3 delas na sua mão. Coloque as outras cartas na Zona Perdida.",
-		de: "Schau dir die obersten 5 Karten deines Decks an und nimm 3 von ihnen auf deine Hand. Lege die anderen Karten ins Nirgendwo."
+		de: "Schau dir die obersten 5 Karten deines Decks an und nimm 3 von ihnen auf deine Hand. Lege die anderen Karten ins Nirgendwo. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 670820,
-		tcgplayer: 284085
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 670820,
+				tcgplayer: 284085
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 670820,
+				tcgplayer: 284085
+			}
+		},
+	],
 }
 
 export default card

@@ -4,23 +4,21 @@ import Set from '../Hidden Legends'
 const card: Card = {
 	name: {
 		en: "Electrode",
-		fr: "Electrode",
+		fr: "Électrode",
 		de: "Lektrobal"
 	},
 
 	illustrator: "Kyoko Umemoto",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		101,
-	],
+	dexId: [101],
 
 	hp: 70,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
@@ -78,19 +76,22 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276079,
-		tcgplayer: 85153
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 85153,
+				cardmarket: 276079
+			}
 		},
 		{
-			type: "holo",
-			foil: "energy"
-		}
+			type: "reverse",
+			foil: 'energy',
+			thirdParty: {
+				tcgplayer: 85153,
+				cardmarket: 276079
+			}
+		},
 	]
 }
 

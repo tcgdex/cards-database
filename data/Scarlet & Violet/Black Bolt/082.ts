@@ -21,7 +21,7 @@ const card: Card = {
 	effect: {
 		en: "Heal 40 damage from each of your Pokémon.",
 		fr: "Soignez 40 dégâts de chacun de vos Pokémon.",
-		de: "Heile 40 Schadenspunkte bei jedem deiner Pokémon.",
+		de: "Heile 40 Schadenspunkte bei jedem deiner Pokémon. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen.",
 		it: "Cura ciascuno dei tuoi Pokémon da 40 danni.",
 		pt: "Cure 40 pontos de dano de cada um dos seus Pokémon.",
 		es: "Cura 40 puntos de daño a cada uno de tus Pokémon.",
@@ -30,10 +30,30 @@ const card: Card = {
 
 	trainerType: "Supporter",
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836069
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836069,
+				tcgplayer: 642534
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836069,
+				tcgplayer: 642534
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836473,
+				tcgplayer: 644866
+			}
+		},
+	]
 }
 
 export default card

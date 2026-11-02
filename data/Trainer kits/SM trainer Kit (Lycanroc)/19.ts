@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Tali"
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -22,14 +23,21 @@ const card: Card = {
 		es: "Roba 3 cartas.",
 		it: "Pesca tre carte.",
 		pt: "Compre 3 cartas.",
-		de: "Ziehe 3 Karten."
+		de: "Ziehe 3 Karten. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 
-	thirdParty: {
-		tcgplayer: 152840
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297254,
+				tcgplayer: 152842
+			}
+		},
+	],
+
 }
 
 export default card

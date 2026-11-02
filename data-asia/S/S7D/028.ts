@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S7D"
+import { Card } from "../../../interfaces";
+import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "不良蛙"
+		ja: "グレッグル",
+		'zh-tw': "不良蛙",
 	},
 
 	illustrator: "Nagomi Nijo",
@@ -14,27 +14,40 @@ const card: Card = {
 	types: ["Darkness"],
 
 	description: {
-		'zh-tw': "毒素在稀釋後能製成藥品。牠是製藥公司的吉祥物，廣受眾人的歡迎。"
+		ja: "毒を 薄めると 薬に なる。 薬品会社の マスコットに なって 人気者に なった。",
+		'zh-tw': "毒素在稀釋後能製成藥品。牠是製藥公司的吉祥物，廣受眾人的歡迎。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "推擊"
+	attacks: [
+		{
+			name: {
+				ja: "どつく",
+				'zh-tw': "推擊",
+			},
+			damage: 20,
+			cost: ["Darkness"],
 		},
+	],
 
-		damage: 20,
-		cost: ["Darkness"]
-	}],
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 571611,
+				tcgplayer: 569351,
+			},
+		},
+	],
 
 	retreat: 1,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Common",
+	dexId: [453],
+};
 
-export default card
+export default card;

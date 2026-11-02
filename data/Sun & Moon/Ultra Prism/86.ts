@@ -86,6 +86,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Implements shaped like it were discovered in ancient tombs. It is unknown if they are related.",
+		de: "Sein Körper sieht aus, als seien Teile davon in alten Gräbern gefunden worden."
+	},
+
 	thirdParty: {
 		cardmarket: 316013,
 		tcgplayer: 157703

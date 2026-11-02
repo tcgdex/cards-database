@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 220,
 	types: ["Fire"],
@@ -63,19 +63,18 @@ const card: Card = {
 	stage: "Basic",
 	dexId: [6],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
-	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 505255
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 505255,
+				tcgplayer: 223754
+			}
+		},
+	],
+	suffix: "V"
 }
 
 export default card

@@ -64,6 +64,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 3,
+
+
+	description: {
+		en: "When its opponent can't be paralyzed, it contorts itself with unexpected speed and flops away.",
+	},
 
 	thirdParty: {
 		cardmarket: 281136

@@ -8,13 +8,17 @@ const card: Card = {
 	},
 
 	illustrator: "Megumi Mizutani",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
 	dexId: [
 		25,
 	],
+
+
+
+	cameoDexIds: [125, 135],
 
 	hp: 130,
 

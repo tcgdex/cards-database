@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Smack 'n' Slack",
 				fr: "Raclée Dodo",
+				de: "Raufen und Ratzen"
 			},
 			effect: {
 				en: "This Pokémon is now Asleep.",
 				fr: "Ce Pokémon est maintenant Endormi.",
+				de: "Dieses Pokémon schläft jetzt."
 			},
 			damage: 10,
 
@@ -55,10 +57,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 280540,
-		tcgplayer: 89300
-	}
+	description: {
+		en: "It spends nearly all its time in a day sprawled out. Just seeing it makes one drowsy.",
+		de: "Es verbringt fast den ganzen Tag mit Faulenzen und Schlafen. Selbst sein Anblick macht bereits müde."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280540,
+				tcgplayer: 89300
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280540,
+				tcgplayer: 89300
+			}
+		},
+	],
 }
 
 export default card

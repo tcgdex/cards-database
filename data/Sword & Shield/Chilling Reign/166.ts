@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [352, 461],
 	hp: 210,
 	dexId: [807],
 
@@ -62,17 +63,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 567274,
-		tcgplayer: 241712
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567274,
+				tcgplayer: 241712
+			}
+		},
+	],
 }
 
 export default card

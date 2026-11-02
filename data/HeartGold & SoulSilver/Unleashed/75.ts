@@ -3,7 +3,7 @@ import Set from '../Unleashed'
 
 const card: Card = {
 	name: {
-		en: "Engineer’s Adjustments",
+		en: "Engineer's Adjustments",
 		fr: "Réglages techniques",
 		de: "Ingenieurkniffe"
 	},
@@ -15,26 +15,35 @@ const card: Card = {
 
 	effect: {
 		fr: "Défaussez une carte Énergie de votre main. Piochez 4 cartes dans votre deck.",
-		en: "Discard an Energy card from your hand. Then. draw 4 cards.",
-		de: "Lege 1 Energiekarte von deiner Hand auf deinen Ablagestapel. Ziehe 4 Karten."
+		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Discard an Energy card from your hand. Then, draw 4 cards.",
+		de: "Du kannst in jedem Zug nur eine Unterstützerkarte spielen. Wenn du diese Karte ausspielst, lege sie neben dein Aktives Pokémon. Lege diese Karte am Ende deines Zuges auf deinen Ablagestapel. Lege 1 Energiekarte von deiner Hand auf deinen Ablagestapel. Ziehe 4 Karten."
 	},
 
 	trainerType: "Supporter",
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279231,
+				tcgplayer: 85264
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85264
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["christopher-kan"],
+			thirdParty: {
+				cardmarket: 868178,
+				tcgplayer: 480393
+			}
 		}
 	],
-
-	hp: 0
 }
 
 export default card

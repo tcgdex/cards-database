@@ -11,18 +11,18 @@ const card: Card = {
 
 	set: Set,
 
-
-
-
-
-
-
-
-
-
-
+	cameoDexIds: [151, 251],
 
 	trainerType: "Stadium",
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 84163
+			}
+		}
+	]
 
 }
 

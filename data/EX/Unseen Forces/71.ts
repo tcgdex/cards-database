@@ -4,7 +4,7 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Remoraid",
-		fr: "Remoraid",
+		fr: "Rémoraid",
 		de: "Remoraid"
 	},
 
@@ -67,20 +67,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276717,
-		tcgplayer: 88696
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 88696,
+				cardmarket: 276717
+			},
 		},
 		{
-			type: "normal",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 88696,
+				cardmarket: 276717
+			},
 		}
-	]
+	],
 }
 
 export default card

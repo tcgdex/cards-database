@@ -71,6 +71,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When it's surprised or agitated, the 14 fur spikes on its back will stand up involuntarily.",
+		de: "Es hat 14 lange stachelartige Strähnen auf dem Rücken, die sich unfreiwillig aufstellen, wenn es sich freut oder von etwas überrascht wird."
+	},
+
 	thirdParty: {
 		cardmarket: 408019,
 		tcgplayer: 201248

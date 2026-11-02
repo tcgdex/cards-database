@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Minato",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [674],
 	hp: 70,
 	types: ["Fighting"],
 	stage: "Basic",
@@ -47,13 +48,46 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675927,
-		cardmarket: 869726
-	}
+	description: {
+		en: "It does its level best to glare and pull a scary face, but it can’t help grinning if anyone pats its head.",
+		fr: "Il tente à tout prix de se donner un air menaçant, mais ne peut pas s'empêcher de sourire dès qu'on lui caresse la tête.",
+		de: "Es gibt alles, um ein finsteres Gesicht zu machen und sein Gegenüber böse anzustarren, aber wenn es am Kopf gestreichelt wird, muss es unwillkürlich grinsen."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869726,
+			tcgplayer: 675927
+		}
+	},
+	{
+		type: "reverse",
+		foil: "loveball",
+		thirdParty: {
+			cardmarket: 870318,
+			tcgplayer: 676943
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870317,
+			tcgplayer: 677083
+		}
+	},
+],
 }
 
 export default card

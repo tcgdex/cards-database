@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Static Shock",
 				fr: "Choc Statique",
+				de: "Statischer Schock"
 			},
 
 			damage: 20,
@@ -52,6 +53,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It discharges positive and negative electricity from its antenna tips to shock its foes.",
+		de: "Über seine Antennen entlädt es Elektrizität, mit der es seinen Gegnern einen Schlag versetzt."
+	},
 
 	thirdParty: {
 		cardmarket: 280913,

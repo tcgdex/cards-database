@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Kleavor VSTAR"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 270,
 	types: ["Fighting"],
@@ -77,12 +77,31 @@ const card: Card = {
 		damage: "30×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
-
-	thirdParty: {
-		cardmarket: 660942
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 660942,
+				tcgplayer: 273939
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 660943,
+				tcgplayer: 276050
+			}
+		},
+	],
 }
 
 export default card

@@ -3,6 +3,7 @@ import Set from "../MEP Black Star Promos"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [461],
 
 	name: {
 		en: "Sneasel",
@@ -14,7 +15,7 @@ const card: Card = {
 	},
 
 	illustrator: "Souichirou Gunjima",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Darkness"],
@@ -52,11 +53,21 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	weaknesses: [{
+		type: "Grass",
+		value: "x2"
+	}],
+
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 859024,
+				tcgplayer: 664055
+			}
+		},
+	],
 }
 
 export default card

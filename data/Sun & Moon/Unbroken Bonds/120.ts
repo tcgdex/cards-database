@@ -43,7 +43,7 @@ const card: Card = {
 			es: "Busca en tu baraja 1 carta de Energía Metal y únela a este Pokémon. Después, baraja las cartas de tu baraja.",
 			it: "Cerca nel tuo mazzo una carta Energia Metal e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
 			pt: "Procure por 1 carta de Energia Metal no seu baralho e ligue-a a este Pokémon. Em seguida, embaralhe o seu baralho.",
-			de: "Durchsuche dein Deck nach 1 Metal-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+			de: "Durchsuche dein Deck nach 1 {M}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 		},
 
 		cost: ["Colorless", "Colorless"]
@@ -66,7 +66,7 @@ const card: Card = {
 			es: "Muro Metálico Total GX",
 			it: "Metalmuraglia GX",
 			pt: "Muralha Metálica GX",
-			de: "Metallwand GX"
+			de: "Metallwand-GX"
 		},
 
 		effect: {
@@ -75,7 +75,7 @@ const card: Card = {
 			es: "Durante el resto de la partida, los ataques de tu rival hacen 30 puntos de daño menos a tus Pokémon Metal (después de aplicar Debilidad y Resistencia). Si este Pokémon tiene por lo menos 1 Energía adicional unida a él (además de las del coste de este ataque), descarta todas las Energías del Pokémon Activo de tu rival. (No puedes usar más de 1 ataque GX en una partida).",
 			it: "Per il resto della partita, i tuoi Pokémon Metal subiscono 30 danni in meno dagli attacchi del tuo avversario, dopo aver applicato debolezza e resistenza. Se questo Pokémon ha almeno un’Energia extra assegnata, in aggiunta a quelle del costo di questo attacco, scarta tutte le Energie assegnate al Pokémon attivo del tuo avversario. Non puoi usare più di un attacco GX a partita.",
 			pt: "Pelo resto da partida, seus Pokémon Metal receberão 30 pontos de dano a menos dos ataques do seu oponente (após a aplicação de Fraqueza e Resistência). Se este Pokémon tiver pelo menos 1 Energia adicional ligada a ele (além do custo deste ataque), descarte todas as Energias do Pokémon Ativo do seu oponente (você não pode usar mais de 1 ataque GX por partida).",
-			de: "Für den Rest des Spiels werden deinen Metal-Pokémon durch Attacken deines Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden). Wenn an dieses Pokémon mindestens 1 extra Energie angelegt ist (zusätzlich zu den Kosten dieser Attacke), lege alle Energien vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+			de: "Für den Rest des Spiels werden deinen {M}-Pokémon durch Attacken deines Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden). Wenn an dieses Pokémon mindestens 1 extra Energie angelegt ist (zusätzlich zu den Kosten dieser Attacke), lege alle Energien vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 		},
 
 		cost: ["Colorless"]

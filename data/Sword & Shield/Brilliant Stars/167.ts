@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Barry"
 	},
 
+	illustrator: "Yuu Nishida",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -22,23 +23,22 @@ const card: Card = {
 		es: "Roba 3 cartas.",
 		it: "Pesca tre carte.",
 		pt: "Compre 3 cartas.",
-		de: "Ziehe 3 Karten."
+		de: "Ziehe 3 Karten. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608713,
-		tcgplayer: 263886
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608713,
+				tcgplayer: 263886
+			}
+		},
+	],
 }
 
 export default card

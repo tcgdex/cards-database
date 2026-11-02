@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Melmetal ex"
+		en: "Melmetal ex",
+		fr: "Melmetal-ex"
 	},
 
 	illustrator: "toriyufu",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Meltan"
+		en: "Meltan",
+		fr: "Meltan"
 	},
 
 	stage: "Stage1",
@@ -25,21 +27,24 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Headbutt"
+			en: "Headbutt",
+			fr: "Coup d'Boule"
 		},
 
 		damage: 80,
 		cost: ["Metal", "Metal", "Colorless"]
 	}, {
 		name: {
-			en: "Metal Arms"
+			en: "Metal Arms",
+			fr: "Bras Métalliques"
 		},
 
 		damage: 100,
 		cost: ["Metal", "Metal", "Metal", "Colorless"],
 
 		effect: {
-			en: "If this Pokémon has a Pokémon Tool attached, this attack does 50 more damage."
+			en: "If this Pokémon has a Pokémon Tool attached, this attack does 50 more damage.",
+			fr: "Si un Outil Pokémon est attaché à ce Pokémon, cette attaque inflige 50 dégâts supplémentaires."
 		}
 	}],
 

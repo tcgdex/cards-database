@@ -85,6 +85,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "If for some reason its body bursts, its soul spills out with a screaming sound.",
+		de: "Wenn aus irgendeinem Grund sein Körper platzt, entweicht seine Seele mit einem Geräusch, das wie ein Schrei klingt."
+	},
+
 	thirdParty: {
 		cardmarket: 315981,
 		tcgplayer: 157668

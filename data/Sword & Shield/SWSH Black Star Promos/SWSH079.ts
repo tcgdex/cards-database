@@ -22,7 +22,7 @@ const card: Card = {
 		it: "Mr. Rime di Galar"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	hp: 120,
 	types: ["Water"],
 
@@ -88,18 +88,18 @@ const card: Card = {
 
 	retreat: 2,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 540621
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 540621,
+				tcgplayer: 232450
+			}
+		},
+	],
 }
 
 export default card

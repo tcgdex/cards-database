@@ -15,17 +15,26 @@ const card: Card = {
 	trainerType: "Item",
 
 	effect: {
+		en: "Shuffle your deck. Look at 6 cards from the top of your deck, then put them back on top of your deck in any order.",
 		fr: "Mélangez votre deck. Regardez les 6 cartes du dessus de votre deck puis remettez-les dans votre deck dans n'importe quel ordre.",
 		de: "Shuffle your deck. Look at 6 cards from the top of your deck, then put them back on top of your deck in any order."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276272,
+				tcgplayer: 88201
+			}
 		},
 		{
-			type: "holo",
-			foil: "energy"
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 276272,
+				tcgplayer: 88201
+			}
 		}
 	]
 }

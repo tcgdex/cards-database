@@ -8,13 +8,9 @@ const card: Card = {
 	name: {
 		en: "Horsea",
 		fr: "Hypotrempe",
-		es: "Horsea",
-		it: "Horsea",
-		pt: "Horsea",
-		de: "Seeper"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Water"],
@@ -26,18 +22,34 @@ const card: Card = {
 		name: {
 			en: "Hook",
 			fr: "Crochet",
-			es: "Garfio",
-			it: "Uncino",
-			pt: "Gancho",
-			de: "Haken"
 		},
 
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "MAHOU"
+	illustrator: "MAHOU",
+	description: {
+		en: "They swim with dance-like motions and cause whirlpools to form. Horsea compete to see which of them can generate the biggest whirlpool.",
+		fr: "Hypotrempe crée des tourbillons en dansant sous l'eau. Il s'amuse à comparer la taille des remous qu'il fait avec ceux de ses congénères.",
+	},
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 785846,
+				tcgplayer: 585578
+			},
+		}
+	],
 }
 
 export default card

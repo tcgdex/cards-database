@@ -96,6 +96,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "Starry skies thousands of light-years away are visible in the space distorted by their intense psychic power.",
+		de: "Durch seine mächtigen Psycho-Kräfte krümmt sich der Raum und Bilder eines Lichtjahre entfernten Ortes erscheinen."
+	},
+
 	thirdParty: {
 		cardmarket: 281705,
 		tcgplayer: 92216

@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Togekiss"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Psychic"],
@@ -74,9 +74,36 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
-	illustrator: "OKACHEKE"
+	illustrator: "OKACHEKE",
+	description: {
+		en: "Known as a bringer of blessings, it's been depicted on good-luck charms since ancient times.",
+	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 720388,
+				tcgplayer: 513426
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 761129,
+				tcgplayer: 513427
+			},
+		}
+	],
 }
 
 export default card

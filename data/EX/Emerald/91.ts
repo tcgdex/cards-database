@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Cacturne ex",
 		fr: "Cacturne ex",
-		de: "Noktuska ex"
+		de: "Noktuska-ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Cacnea"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -103,8 +103,12 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 84084,
+				cardmarket: 276602
+			},
 		},
-	]
+	],
 }
 
 export default card

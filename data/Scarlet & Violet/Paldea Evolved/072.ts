@@ -44,18 +44,40 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715547,
+				tcgplayer: 497483,
+				cardtrader: 248697
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715547,
+				tcgplayer: 497483,
+				cardtrader: 248697
+			}
+		},
+	],
 
 	illustrator: "Yuka Morii",
 
-	thirdParty: {
-		cardmarket: 715547
-	}
+	description: {
+		en: "This Pokémon generates electricity when it digests food. It uses its five hard teeth to scrape seaweed off surfaces and eat it.",
+		de: "Bei der Verdauung erzeugt es Elektrizität. Mit seinen fünf harten Zähnen schabt es Algen von Oberflächen ab und frisst sie."
+	},
 }
 
 export default card

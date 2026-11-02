@@ -1,55 +1,64 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "布撥"
+		ja: "ガケガニex",
+		'zh-tw': "布撥",
 	},
 
-	illustrator: "Ryuta Fuse",
+	illustrator: "aky CG Works",
 	category: "Pokemon",
-	hp: 50,
-	types: ["Lightning"],
-
-	description: {
-		'zh-tw': "臉頰上的電囊尚未發達。 必須拼命摩擦前腳的肉球， 才終於能製造出電力。"
-	},
+	hp: 220,
+	types: ["Fighting"],
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "劈啪巴掌"
+	abilities: [
+		{
+			type: "Ability",
+			name: { ja: "はんげきバサミ" },
+			effect: {
+				ja: "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンについているエネルギーを1個選び、トラッシュする。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "擲1次硬幣若為正面，則選擇1個對手的戰鬥寶可夢身上附加的能量，將其丟棄。"
+	attacks: [
+		{
+			name: {
+				ja: "フォーリングプレス",
+				'zh-tw': "劈啪巴掌",
+			},
+			damage: "100+",
+			cost: ["Fighting", "Colorless", "Colorless"],
+			effect: {
+				ja: "コインを1回投げオモテなら、80ダメージ追加。",
+				'zh-tw': "擲1次硬幣若為正面，則選擇1個對手的戰鬥寶可夢身上附加的能量，將其丟棄。",
+			},
 		},
+	],
 
-		damage: 20,
-		cost: ["Lightning", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "劈啪巴掌"
+	weaknesses: [{ type: "Grass", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 693188,
+				tcgplayer: 587784,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "擲1次硬幣若為正面，則選擇1個對手的戰鬥寶可夢身上附加的能量，將其丟棄。"
-		},
+	retreat: 3,
+	regulationMark: "G",
+	rarity: "Promo",
+	dexId: [950],
 
-		damage: 20,
-		cost: ["Lightning", "Colorless"]
-	}],
+	suffix: "EX",
+};
 
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
-
-	retreat: 1,
-	regulationMark: "G"
-}
-
-export default card
+export default card;

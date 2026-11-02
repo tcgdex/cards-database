@@ -72,23 +72,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "When Mienshao lets out a bizarre wail, you're in danger. A flurry of kicks and chops too fast to see is about to be unleashed!"
+		en: "When Mienshao lets out a bizarre wail, you're in danger. A flurry of kicks and chops too fast to see is about to be unleashed!",
+		de: "Gibt es einen sonderbaren Laut von sich, sollte man schnell in Deckung gehen, da eine rasante Angriffsserie aus Schlägen und Tritten folgt."
 	},
 
-	thirdParty: {
-		cardmarket: 527670,
-		tcgplayer: 234253
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 527670,
+				tcgplayer: 234253
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 527670,
+				tcgplayer: 234253
+			}
+		},
+	],
 }
 
 export default card

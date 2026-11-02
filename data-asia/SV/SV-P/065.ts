@@ -1,22 +1,56 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "蕾荷"
+		ja: "ブースター",
+		'zh-tw': "蕾荷",
 	},
 
-	illustrator: "hncl",
-	category: "Trainer",
+	illustrator: "YU NAGABA",
+	category: "Pokemon",
+	hp: 120,
+	types: ["Fire"],
 
-	effect: {
-		'zh-tw': "查看自己的牌庫上方5張卡，從其中選擇任意數量的卡，將其丟棄。將剩餘卡以任意順序排列，放回牌庫上方。"
+	description: {
+		ja: "吸いこんだ 空気を 体内の 炎袋に 送りこみ １７００度の 炎にして 吹く。",
 	},
 
-	trainerType: "Supporter",
-	regulationMark: "G"
-}
+	stage: "Stage1",
 
-export default card
+	attacks: [
+		{
+			name: { ja: "ほのおのうず" },
+			damage: 120,
+			cost: ["Fire", "Fire", "Colorless"],
+			effect: {
+				ja: "このポケモンについているエネルギーを2個選び、トラッシュする。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 708480,
+				tcgplayer: 587823,
+			},
+		},
+	],
+
+	evolveFrom: {
+		ja: "イーブイ",
+	},
+
+	retreat: 2,
+	regulationMark: "G",
+	rarity: "Promo",
+	dexId: [136],
+};
+
+export default card;

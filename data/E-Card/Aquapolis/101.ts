@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		127,
-	],
+	dexId: [127],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -35,13 +33,13 @@ const card: Card = {
 			name: {
 				en: "Horn Grab",
 				fr: "Attrap'korne",
-				de: "Horngrapscher"
+				de: "Horngrabscher"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, cette attaque ne fait rien.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das Verteidigende Pokémon jetzt gelähm, bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 20
@@ -62,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. If either of them is tails, this attack does nothing.",
 				fr: "Lancez 2 pièces. Si vous obtenez un pile, cette attaque ne fait rien.",
-				de: "Wirf 2 Münzen. Wenn mindestens eine von beiden Zahl zeigt, hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 2 Münzen. Wenn mindestens eine von beiden „Zahl“ zeigt, hat dieser Angriff keine Auswirkungen."
 			},
 
 			damage: 90
@@ -72,22 +70,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275176,
-		tcgplayer: 88134
-	},
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 88134,
+				cardmarket: 275176
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 88134,
+				cardmarket: 275176
+			}
+		},
 	]
 }
 

@@ -22,22 +22,26 @@ const card: Card = {
 		es: "Tu rival enseña las cartas de su mano, y tú pones 1 Pokémon Básico que encuentres entre ellas en la Banca de tu rival. Si pones un Pokémon en su Banca de esta manera, cambia ese Pokémon por el Pokémon que esté en el Puesto Activo.",
 		it: "Il tuo avversario mostra le carte che ha in mano e tu metti un Pokémon Base presente tra esse nella sua panchina. Se hai messo un Pokémon nella sua panchina in questo modo, sostituisci quel Pokémon con il suo Pokémon in posizione attiva.",
 		pt: "Seu oponente revela a mão dele, e você coloca um Pokémon Básico que encontrar lá no Banco do seu oponente. Se você colocar um Pokémon no Banco dele desta forma, mande aquele Pokémon para o Campo Ativo.",
-		de: "Dein Gegner zeigt dir seine Handkarten und du legst 1 Basis-Pokémon, das du dort findest, auf die Bank deines Gegners. Wenn du auf diese Weise ein Pokémon auf seine Bank gelegt hast, wechsle jenes Pokémon in die Aktive Position ein."
+		de: "Dein Gegner zeigt dir seine Handkarten und du legst 1 Basis-Pokémon, das du dort findest, auf die Bank deines Gegners. Wenn du auf diese Weise ein Pokémon auf seine Bank gelegt hast, wechsle jenes Pokémon in die Aktive Position ein. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733791,
+				tcgplayer: 517176,
+				cardtrader: 261250
+			}
+		},
+	],
 
 	illustrator: "saino misaki",
 
-	thirdParty: {
-		cardmarket: 733791
-	}
+	
 }
 
 export default card

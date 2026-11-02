@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Shin Nagasawa",
 
 	description: {
-		en: "It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning up water with its tail."
+		en: "It prefers places with clean water. When its tuft runs low, it replenishes it by siphoning up water with its tail.",
+		de: "Hält sich bevorzugt in reinen Gewässern auf. Geht ihm das Wasser in seinem Kopf aus, tankt es mit seinem Schweif nach."
 	},
 
 	attacks: [{
@@ -83,17 +90,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582203,
-		tcgplayer: 253212
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582203,
+				tcgplayer: 253212
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582203,
+				tcgplayer: 253212
+			}
+		},
+	],
 }
 
 export default card

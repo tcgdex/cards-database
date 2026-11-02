@@ -55,18 +55,45 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "The steel section is Varoom's actual body. This Pokémon clings to rocks and converts the minerals within into energy to fuel its activities.",
+		de: "Der stählerne Teil ist sein eigentlicher Körper. Es heftet sich an Felsen, um deren Bestandteile in Energie für sich selbst umzuwandeln."
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769298,
+				tcgplayer: 550168
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769298,
+				tcgplayer: 550168
+			}
+		},
+	],
 
 	illustrator: "Shigenori Negishi",
 
-	thirdParty: {
-		cardmarket: 769298
-	}
 }
 
 export default card

@@ -74,19 +74,32 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "Since it converts sunlight into energy, it is always looking in the direction of the sun.",
+		de: "Tagsüber richtet es sich stets auf die Sonne aus, um ihr Licht aufzufangen und in Energie umzuwandeln."
 	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769343,
+				tcgplayer: 550213
+			}
+		},
+	],
 
 	illustrator: "Shinya Komatsu",
 
-	thirdParty: {
-		cardmarket: 769343
-	}
 }
 
 export default card

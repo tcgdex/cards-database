@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [43, 333],
 
 	dexId: [
 		173,
@@ -51,6 +52,11 @@ const card: Card = {
 	],
 
 	retreat: 0,
+
+	description: {
+		en: "On nights with many shooting stars, they gather in packs and dance in circles. If you should see them, something good will happen!",
+		de: "In Nächten mit vielen Sternschnuppen bilden Pii einen Kreis und tanzen. Der Anblick dieses Spektakels soll Glück bringen."
+	},
 
 	thirdParty: {
 		cardmarket: 372211,

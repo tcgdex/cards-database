@@ -21,6 +21,16 @@ const card: Card = {
 		id: "Hingga akhir giliran digunakannya kartu ini, semua Pokémon sendiri tidak dapat menggunakan serangan. (Termasuk Pokémon yang baru dimasukkan ke Arena.) Pilih paling banyak 2 lembar Energi Dasar dari Deck sendiri, lalu kenakan pada 1 Pokémon sendiri. Kemudian, kocok Deck."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 746553,
+				tcgplayer: 567572,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }

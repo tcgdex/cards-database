@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Tropius",
@@ -70,16 +64,29 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Bunches of delicious fruit grow around its neck. In warm areas, many ranches raise Tropius."
+		en: "Bunches of delicious fruit grow around its neck. In warm areas, many ranches raise Tropius.",
+		de: "Die leckeren Früchte an seinem Hals sind sehr beliebt. In warmen Gebieten gibt es viele Farmen, auf denen Tropius gezüchtet werden."
 	},
 
 	dexId: [357],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574030,
-		tcgplayer: 246821
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574030,
+				tcgplayer: 246821
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574030,
+				tcgplayer: 246821
+			}
+		},
+	],
 }
 
 export default card

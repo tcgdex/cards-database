@@ -73,23 +73,37 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "While chanting strange spells, this Pokémon combines its internal toxins with what it's eaten, creating strange potions."
+		en: "While chanting strange spells, this Pokémon combines its internal toxins with what it's eaten, creating strange potions.",
+		de: "Es murmelt unheimliche Beschwörungen, während es seinen Mageninhalt mit körpereigenen Toxinen mischt, um eine sonderbare Arznei herzustellen."
 	},
 
-	thirdParty: {
-		cardmarket: 567206,
-		tcgplayer: 241769
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567206,
+				tcgplayer: 241769
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 752310
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567206,
+				tcgplayer: 241769
+			}
+		},
+	],
 }
 
 export default card

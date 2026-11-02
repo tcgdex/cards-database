@@ -65,18 +65,40 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715609,
+				tcgplayer: 497595,
+				cardtrader: 248791
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715609,
+				tcgplayer: 497595,
+				cardtrader: 248791
+			}
+		},
+	],
 
 	illustrator: "saino misaki",
 
-	thirdParty: {
-		cardmarket: 715609
-	}
+	description: {
+		en: "Evolution made it even more devious. It communicates by clawing signs in boulders.",
+		de: "Snibunna wurde durch seine Entwicklung noch verschlagener. Es kommuniziert durch in Felsen gekratzte Zeichen."
+	},
 }
 
 export default card

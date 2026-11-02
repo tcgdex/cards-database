@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Anorith",
 		fr: "Anorith",
+		de: "Anorith"
 	},
 
 	stage: "Stage2",
@@ -93,6 +94,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It lived on land and went out into the sea to hunt for prey. Its sharp claws were its greatest weapon.",
+		de: "Es lebte an Land und jagte im Meer nach Beute. Seine scharfen Klauen waren seine größte Waffe."
+	},
 
 	thirdParty: {
 		cardmarket: 408209,

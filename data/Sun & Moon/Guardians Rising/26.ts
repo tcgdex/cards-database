@@ -85,6 +85,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Although it naturally prefers colder locales, Delibird in Alola seem able to withstand the heat to a certain extent.",
+		de: "Sie bevorzugen eigentlich kühle Gegenden, aber die Botogel Alolas können bis zu einem gewissen Grad auch heißes Klima ertragen."
+	},
+
 	thirdParty: {
 		cardmarket: 297488,
 		tcgplayer: 130926

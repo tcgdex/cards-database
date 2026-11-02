@@ -69,6 +69,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Since it can't generate its own electricity, it sticks onto large-bodied Pokémon and absorbs static electricity.",
+		de: "Da es selbst keinen Strom erzeugen kann, klettert es auf andere Pokémon, um ihnen elektrostatische Energie abzusaugen."
+	},
+
 	thirdParty: {
 		cardmarket: 388127,
 		tcgplayer: 194987

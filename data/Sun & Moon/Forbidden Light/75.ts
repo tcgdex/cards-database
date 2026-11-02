@@ -64,6 +64,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This Pokémon has lived with people since times long ago. It can sense when its Trainer is in the dumps and will stick close by its Trainer's side.",
+		de: "Es lebte schon immer mit Menschen zusammen und kann spüren, wenn sein Trainer traurig ist. Es weicht dann nicht mehr von seiner Seite."
+	},
+
 	thirdParty: {
 		cardmarket: 355590,
 		tcgplayer: 165729

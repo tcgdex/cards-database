@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		158,
-	],
+	dexId: [158],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -65,27 +63,32 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its powerful, well-developed jaws are capable of crushing anything. Even its trainer must be careful."
+		en: "Its powerful, well-developed jaws are capable of crushing anything. Even its trainer must be careful.",
+		de: "Seine starken Kiefer können alles zermalmen. Selbst sein Trainer muss sich vor ihm in Acht nehmen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90000,
+				cardmarket: 279058
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90000,
+				cardmarket: 279058
+			}
 		},
 		{
 			type: "normal",
-			stamp : ["snowflake"],
-			languages: ["de"]
-		},
+			stamp: ["snowflake"],
+			languages: ["de"],
+		}
 	],
 
-	thirdParty: {
-		cardmarket: 279058,
-		tcgplayer: 90000
-	}
 }
 
 export default card

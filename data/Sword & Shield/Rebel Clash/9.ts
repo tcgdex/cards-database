@@ -91,23 +91,30 @@ const card: Card = {
 	types: ["Grass"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
 	description: {
-		en: "The rhythm of bright, festive music activates Ludicolo's cells, making it more powerful."
+		en: "The rhythm of bright, festive music activates Ludicolo's cells, making it more powerful.",
+		de: "Der Rhythmus von fröhlicher Musik aktiviert die Zellen von Kappalores und macht es so stärker."
 	},
 
-	thirdParty: {
-		cardmarket: 457438,
-		tcgplayer: 213079
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457438,
+				tcgplayer: 213079
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457438,
+				tcgplayer: 213079
+			}
+		},
+	],
 }
 
 export default card

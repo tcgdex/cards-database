@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	suffix: "GX",
@@ -86,7 +87,7 @@ const card: Card = {
 				es: "Ruego GX",
 				it: "Istanza-GX",
 				pt: "Apelo GX",
-				de: "Anflehen GX"
+				de: "Anflehen-GX"
 			},
 			effect: {
 				en: "Put 2 of your opponent’s Benched Pokémon and all cards attached to them into your opponent’s hand. (You can’t use more than 1 GX attack in a game.)",

@@ -74,19 +74,34 @@ const card: Card = {
 		damage: 190
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
+	description: {
+		en: "Nidoking prides itself on its strength. It's forceful and spirited in battle, making use of its thick tail and diamond-crushing horn.",
+		de: "Nidoking ist stolz auf seine Kraft und kämpft sehr geschickt mit seinem dicken Schweif und seinem Horn, das selbst Diamanten zertrümmern kann."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733769,
+				tcgplayer: 517029,
+				cardtrader: 261323
+			}
+		},
+	],
 
 	illustrator: "Misaki Hashimoto",
 
-	thirdParty: {
-		cardmarket: 733698
-	}
+	
 }
 
 export default card

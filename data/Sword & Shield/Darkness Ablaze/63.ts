@@ -92,23 +92,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Capable of generating 15,000 volts of electricity, this Pokémon looks down on all that would challenge it."
+		en: "Capable of generating 15,000 volts of electricity, this Pokémon looks down on all that would challenge it.",
+		de: "Dieses Pokémon kann 15 000 V starke Elektrizität generieren. Es nimmt keinen Gegner wirklich ernst."
 	},
 
-	thirdParty: {
-		cardmarket: 483194,
-		tcgplayer: 219419
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 483194,
+				tcgplayer: 219419
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483194,
+				tcgplayer: 219419
+			}
+		},
+	],
 }
 
 export default card

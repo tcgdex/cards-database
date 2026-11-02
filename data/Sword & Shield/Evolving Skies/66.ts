@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Wobbuffet",
@@ -74,16 +68,29 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack."
+		en: "To keep its pitch-black tail hidden, it lives quietly in the darkness. It is never first to attack.",
+		de: "Es lebt in der Dunkelheit, um seinen schwarzen Schweif zu verstecken. Es greift nie zuerst an."
 	},
 
 	dexId: [202],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574114,
-		tcgplayer: 246840
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574114,
+				tcgplayer: 246840
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574114,
+				tcgplayer: 246840
+			}
+		},
+	],
 }
 
 export default card

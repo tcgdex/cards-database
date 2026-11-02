@@ -89,23 +89,30 @@ const card: Card = {
 	types: ["Fighting"],
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "A powerful curse was woven into an ancient painting. After absorbing the spirit of a Yamask, the painting began to move."
+		en: "A powerful curse was woven into an ancient painting. After absorbing the spirit of a Yamask, the painting began to move.",
+		de: "Eine antike Malerei, die mit einem mächtigen Fluch versehen wurde, nahm die Seele eines Makabaja auf und erwachte zum Leben."
 	},
 
-	thirdParty: {
-		cardmarket: 457923,
-		tcgplayer: 213190
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457923,
+				tcgplayer: 213190
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457923,
+				tcgplayer: 213190
+			}
+		},
+	],
 }
 
 export default card

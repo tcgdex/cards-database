@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It controls tremendous psychic power. Most reports of alien sightings are actually just people mistaking Elgyem for an alien.",
+		de: "Es besitzt unfassbare Psycho-Kräfte. Etliche Meldungen über Sichtungen von Außerirdischen entpuppten sich als Verwechslungen mit ihm."
+	},
+
 	thirdParty: {
 		cardmarket: 388257,
 		tcgplayer: 195022

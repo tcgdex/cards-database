@@ -20,6 +20,16 @@ const card: Card = {
 		th: "สลับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายเรากับโปเกมอนบนเบนช์"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 734293,
+				tcgplayer: 566912,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "G"
 }

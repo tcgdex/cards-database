@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Dwebble",
@@ -70,16 +64,29 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It first tries to find a rock to live in, but if there are no suitable rocks to be found, Dwebble may move in to the ports of a Hippowdon."
+		en: "It first tries to find a rock to live in, but if there are no suitable rocks to be found, Dwebble may move in to the ports of a Hippowdon.",
+		de: "Wenn es keinen Stein findet, der sich als Haus eignet, lässt es sich manchmal in den Öffnungen im Körper eines Hippoterus’ nieder."
 	},
 
 	dexId: [557],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574035,
-		tcgplayer: 246825
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574035,
+				tcgplayer: 246825
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574035,
+				tcgplayer: 246825
+			}
+		},
+	],
 }
 
 export default card

@@ -81,7 +81,7 @@ const card: Card = {
 				es: "UE Bloques GX",
 				it: "Structura-GX",
 				pt: "Montagem GX",
-				de: "Mauerwerk GX"
+				de: "Mauerwerk-GX"
 			},
 			effect: {
 				en: "This attack does 50 more damage for each Prize card you have taken. (You can’t use more than 1 GX attack in a game.)",

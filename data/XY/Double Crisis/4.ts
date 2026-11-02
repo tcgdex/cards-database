@@ -79,6 +79,10 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It provides support by making paths of ice. It can win any battle as long as it's on ice.",
+	},
+
 	thirdParty: {
 		cardmarket: 282515,
 		tcgplayer: 97050

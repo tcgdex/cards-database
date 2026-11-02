@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Stollunior"
 	},
 
+	illustrator: "sowsow",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -57,20 +58,45 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It eats iron ore—and sometimes railroad tracks— to build up the steel armor that protects its body.",
+		de: "Es frisst Eisenerz und manchmal auch Bahngleise. So bildet es einen Panzer aus Stahl, der seinen Körper schützt."
 	},
 
-	thirdParty: {
-		cardmarket: 691805,
-		tcgplayer: 478224
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691805,
+				tcgplayer: 478224
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691805,
+				tcgplayer: 478224
+			}
+		},
+	],
 }
 
 export default card

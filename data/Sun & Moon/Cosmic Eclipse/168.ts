@@ -52,6 +52,11 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It's always practicing its singing because it wants to improve. Even when it's asleep, it keeps singing in its dreams!",
+		de: "Um seine Gesangskünste zu verbessern, übt es pausenlos. Selbst wenn es schon schläft, singt es in seinen Träumen weiter."
+	},
+
 	thirdParty: {
 		cardmarket: 408464,
 		tcgplayer: 201290

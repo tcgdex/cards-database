@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Rumors of its origin are linked to a UFO crash site in the desert 50 years ago.",
+		de: "Man sagt, es sei vor 50 Jahren aus den Tiefen einer Wüste erschienen, in der zuvor angeblich ein UFO abgestürzt war."
+	},
+
 	thirdParty: {
 		cardmarket: 286319,
 		tcgplayer: 107192

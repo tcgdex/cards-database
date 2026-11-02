@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Mientras este Pokémon sea tu Pokémon Activo, evita todos los efectos de los ataques GX de tu rival, incluido el daño, infligidos a tus Pokémon.",
 				it: "Fintanto che questo Pokémon è il tuo Pokémon attivo, previeni tutti gli effetti degli attacchi GX del tuo avversario, inclusi i danni, inflitti ai tuoi Pokémon.",
 				pt: "Enquanto este Pokémon for o seu Pokémon Ativo, prevenirá todos os efeitos dos ataques GX do seu oponente, incluindo dano, causados aos seus Pokémon.",
-				de: "Solang dieses Pokémon dein Aktives Pokémon ist, verhindere alle Effekte von GX-Attacken deines Gegners, einschließlich Schaden, die diesem Pokémon zugefügt werden."
+				de: "Solang dieses Pokémon dein Aktives Pokémon ist, verhindere alle Effekte von GX-Attacken deines Gegners, einschließlich Schaden, die deinen Pokémon zugefügt werden."
 			},
 		},
 	],
@@ -86,7 +86,7 @@ const card: Card = {
 				es: "Descubrimiento GX",
 				it: "Scoperta GX",
 				pt: "Descoberta GX",
-				de: "Aufdeckung GX"
+				de: "Aufdeckung-GX"
 			},
 			effect: {
 				en: "Count your Prize cards and put them into your hand. Then, take that many cards from the top of your deck and put them face down as your Prize cards. If you don’t have that many cards in your deck, this attack does nothing. (You can’t use more than 1 GX attack in a game.)",

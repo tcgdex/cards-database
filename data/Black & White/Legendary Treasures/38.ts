@@ -10,6 +10,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [88],
 
 	dexId: [
 		502,
@@ -52,6 +53,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Scalchop techniques differ from one Dewott to another. It never neglects maintaining its scalchops.",
+	},
 
 	thirdParty: {
 		cardmarket: 281189,

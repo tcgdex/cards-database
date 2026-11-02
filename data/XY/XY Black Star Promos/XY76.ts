@@ -8,13 +8,17 @@ const card: Card = {
 	},
 
 	illustrator: "Naoki Saito",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
 	dexId: [
 		644,
 	],
+
+
+
+	cameoDexIds: [381, 484],
 
 	hp: 120,
 
@@ -73,6 +77,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Concealing itself in lightning clouds, it flies throughout the Unova region. It creates electricity in its tail.",
+	},
 
 	thirdParty: {
 		cardmarket: 289799

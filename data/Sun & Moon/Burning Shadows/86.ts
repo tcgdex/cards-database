@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Sneasel",
 		fr: "Farfuret",
+		de: "Sniebel"
 	},
 
 	stage: "Stage1",
@@ -91,10 +92,27 @@ const card: Card = {
 
 	retreat: 0,
 
-	thirdParty: {
-		cardmarket: 299488,
-		tcgplayer: 138576
-	}
+	description: {
+		en: "They travel in groups of four or five, leaving signs for one another on trees and rocks. They bring down their prey with coordinated attacks.",
+		de: "Sie sind immer zu viert oder fünft unterwegs. Bei der Jagd arbeiten sie zusammen, indem sie Zeichen in Felsen und Bäume ritzen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299488,
+				tcgplayer: 138576
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299488,
+				tcgplayer: 138576
+			}
+		},
+	],
 }
 
 export default card

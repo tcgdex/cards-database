@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "0313",
 
 	description: {
-		en: "It protects itself from the cold by wrapping up in leaves. It stays on the move, eating leaves in forests."
+		en: "It protects itself from the cold by wrapping up in leaves. It stays on the move, eating leaves in forests.",
+		de: "Es schützt sich vor Kälte, indem es sich in Blätter einwickelt. Es durchstreift Wälder und frisst herabgefallenes Laub."
 	},
 
 	attacks: [{
@@ -74,17 +81,23 @@ const card: Card = {
 		damage: 60
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582038,
-		tcgplayer: 253080
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582038,
+				tcgplayer: 253080
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582038,
+				tcgplayer: 253080
+			}
+		},
+	],
 }
 
 export default card

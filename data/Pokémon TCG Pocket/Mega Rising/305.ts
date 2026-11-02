@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Drowzee"
+		en: "Drowzee",
+		fr: "Soporifik"
 	},
 
 	illustrator: "Taiga Kasai",
@@ -17,14 +18,16 @@ const card: Card = {
 	types: ["Psychic"],
 
 	description: {
-		en: "It remembers every dream it eats. It rarely eats\nthe dreams of adults because children's are much\ntastier."
+		en: "It remembers every dream it eats. It rarely eats\nthe dreams of adults because children's are much\ntastier.",
+		fr: "Ce Pokémon se souvient de tous les rêves\\nqu'il a avalés. Il mange rarement les songes\\nd'adultes, car ceux des enfants ont meilleur goût."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Mumble"
+			en: "Mumble",
+			fr: "Murmure"
 		},
 
 		damage: 30,

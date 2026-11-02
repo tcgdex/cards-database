@@ -93,6 +93,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "This guardian deity of Akala is guilelessly cruel. The fragrant aroma of flowers is the source of its energy.",
+		de: "Der arglose, doch unbarmherzige Schutzpatron von Akala. Seine Energie zieht es aus dem lieblichen Duft von Blumen."
+	},
+
 	thirdParty: {
 		cardmarket: 316020,
 		tcgplayer: 157711

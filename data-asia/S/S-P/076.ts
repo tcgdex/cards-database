@@ -1,56 +1,60 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "噴火龍"
+		ja: "ヨクバリスV",
+		'zh-tw': "噴火龍",
 	},
 
-	illustrator: "Ryuta Fuse",
+	illustrator: "PLANETA Igarashi",
 	category: "Pokemon",
-	hp: 170,
-	types: ["Fire"],
+	hp: 200,
+	types: ["Colorless"],
 
-	description: {
-		'zh-tw': "會噴出彷彿連岩石都能燒焦的灼熱火焰。有時會引發森林火災。"
-	},
+	stage: "Basic",
 
-	stage: "Stage2",
-
-	abilities: [{
-		type: "Ability",
-
-		name: {
-			'zh-tw': "戰鬥意識"
+	attacks: [
+		{
+			name: {
+				ja: "かみくだく",
+				'zh-tw': "王者火焰",
+			},
+			damage: 40,
+			cost: ["Colorless", "Colorless"],
+			effect: {
+				ja: "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。",
+				'zh-tw': "增加自己的棄牌區的「丹帝」的張數×50點傷害。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "在自己的回合時，可使用1次。查看自己的牌庫上方3張卡，選擇其中1張卡加入手牌。將剩餘卡丟棄。"
-		}
-	}],
-
-	attacks: [{
-		name: {
-			'zh-tw': "王者火焰"
+		{
+			name: { ja: "でんぐりプレス" },
+			damage: 180,
+			cost: ["Colorless", "Colorless", "Colorless"],
+			effect: {
+				ja: "コインを1回投げウラなら、このワザは失敗。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "增加自己的棄牌區的「丹帝」的張數×50點傷害。"
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 525110,
+				tcgplayer: 597287,
+			},
 		},
+	],
 
-		damage: "100+",
-		cost: ["Fire", "Fire"]
-	}],
+	retreat: 2,
+	regulationMark: "D",
+	rarity: "Promo",
+	dexId: [820],
+};
 
-	weaknesses: [{
-		type: "Water",
-		value: "×2"
-	}],
-
-	retreat: 3,
-	regulationMark: "D"
-}
-
-export default card
+export default card;

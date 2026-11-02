@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf 1 Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -74,6 +74,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It flaps its small wings busily to fly. Using its beak, it searches in grass for prey.",
+		de: "Im Flug schlägt es eifrig mit den Flügeln. Mit seinem Schnabel sucht es im Gras nach Beute."
+	},
 
 	thirdParty: {
 		cardmarket: 278123,

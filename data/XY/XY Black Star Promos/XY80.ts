@@ -8,13 +8,17 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
 	dexId: [
 		646,
 	],
+
+
+
+	cameoDexIds: [643],
 
 	hp: 120,
 
@@ -70,6 +74,10 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "It generates a powerful, freezing energy inside itself, but its body became frozen when the energy leaked out.",
+	},
 
 	thirdParty: {
 		cardmarket: 553908

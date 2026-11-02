@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		56,
-	],
+	dexId: [56],
 
 	hp: 50,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -69,22 +67,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is extremely ill-tempered. Groups of them will attack any handy target for no reason."
+		en: "It is extremely ill-tempered. Groups of them will attack any handy target for no reason.",
+		de: "Es ist extrem jähzornig. Tritt es in Gruppen auf, greif es grundlos alles an, was in Reichweite ist."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87176,
+				cardmarket: 279209
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87176,
+				cardmarket: 279209
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279209,
-		tcgplayer: 87176
-	}
 }
 
 export default card

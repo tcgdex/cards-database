@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Una vez durante tu turno (antes de tu ataque), si este Pokémon estaba en la Banca y se ha convertido en tu Pokémon Activo en este turno, puedes mover cualquier cantidad de Energía Fire unida a tus Pokémon a este Pokémon.",
 				it: "Una sola volta durante il tuo turno, prima di attaccare, se questo Pokémon era in panchina ed è diventato il tuo Pokémon attivo in questo turno, puoi spostare un numero qualsiasi di Energie Fire assegnate ai tuoi Pokémon su questo Pokémon.",
 				pt: "Uma vez durante sua vez de jogar (antes de atacar), se este Pokémon estava no Banco e tornou-se o seu Pokémon Ativo nesta vez de jogar, você poderá ligar qualquer número de Energia Fire ligada a seus Pokémon a este Pokémon.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn dieses Pokémon auf der Bank war und während dieses Zuges zu deinem Aktiven Pokémon wurde, beliebig viele Fire-Energien, die an deine Pokémon angelegt sind, auf dieses Pokémon verschieben."
+				de: "Einmal während deines Zuges, wenn dieses Pokémon von deiner Bank in die Position des Aktiven Pokémon wechselt, kannst du beliebig viele {R}-Energien von deinen anderen Pokémon auf dieses Pokémon verschieben."
 			},
 		},
 	],
@@ -79,7 +79,7 @@ const card: Card = {
 				es: "Quemadura Caliente GX",
 				it: "Colata Rovente GX",
 				pt: "Queimadura Quente GX",
-				de: "Hitzebrand GX"
+				de: "Hitzebrand-GX"
 			},
 			effect: {
 				en: "This attack does 50 damage times the amount of Fire Energy attached to this Pokémon. (You can’t use more than 1 GX attack in a game.)",
@@ -87,7 +87,7 @@ const card: Card = {
 				es: "Este ataque hace 50 puntos de daño por cada Energía Fire unida a este Pokémon. (No puedes usar más de 1 ataque GX en una partida).",
 				it: "Questo attacco infligge 50 danni per ogni Energia Fire assegnata a questo Pokémon. Non puoi usare più di un attacco GX a partita.",
 				pt: "Este ataque causa 50 pontos de dano vezes a quantidade de Energia Fire ligada a este Pokémon (você não pode usar mais de 1 ataque GX por partida).",
-				de: "Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der an dieses Pokémon angelegten Fire-Energien zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+				de: "Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der an dieses Pokémon angelegten {R}-Energien zu. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
 			},
 			damage: "50×",
 

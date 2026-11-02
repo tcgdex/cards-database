@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Schlurp"
 	},
 
+	illustrator: "KIYOTAKA OSHIYAMA",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 110,
@@ -38,16 +39,23 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674148,
-		tcgplayer: 284061
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674148,
+				tcgplayer: 284061
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674148,
+				tcgplayer: 284061
+			}
+		},
+	],
 }
 
 export default card

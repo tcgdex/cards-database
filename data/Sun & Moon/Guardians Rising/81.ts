@@ -92,6 +92,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Long ago, superstitions were spread about it, saying it brought disaster. This fed a hatred of it, and it was driven deep into the mountains.",
+		de: "Aus Aberglauben war Absol einst als Unheilsbote verhasst und wurde in die tiefsten Berge vertrieben."
+	},
+
 	thirdParty: {
 		cardmarket: 297693,
 		tcgplayer: 130993

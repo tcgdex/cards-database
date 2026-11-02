@@ -4,8 +4,9 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "コガの同上",
+		ja: "キョウのメタモン",
 	},
+	illustrator: "Ken Sugimori",
 
 	rarity: "Holo Rare",
 	category: "Pokemon",
@@ -39,6 +40,12 @@ const card: Card = {
 		{
 			type: "normal",
 		},
+				{
+						type: "holo",
+						thirdParty: {
+								tcgplayer: 575352
+						},
+				}
 	],
 };
 

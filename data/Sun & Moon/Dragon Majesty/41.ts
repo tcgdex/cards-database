@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Swablu",
 		fr: "Tylton",
+		de: "Wablu"
 	},
 
 	suffix: "GX",

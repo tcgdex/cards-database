@@ -3,6 +3,7 @@ import Set from "../Mega Evolution"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [310],
 
 	name: {
 		en: "Mega Manectric ex",
@@ -14,6 +15,7 @@ const card: Card = {
 		'es-mx': "Mega-Manectric ex"
 	},
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
@@ -81,19 +83,24 @@ const card: Card = {
 		damage: "200+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 851229,
+				tcgplayer: 654497
+			}
 		},
 	],
-
-	thirdParty: {
-		tcgplayer: 654497,
-		cardmarket: 851229
-	}
 }
 
 export default card

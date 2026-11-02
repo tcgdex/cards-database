@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Zorua",
@@ -49,16 +43,29 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "If a normally talkative child suddenly stops talking, it may have been replaced by Zorua."
+		en: "If a normally talkative child suddenly stops talking, it may have been replaced by Zorua.",
+		de: "Wenn man einem normalerweise geschwätzigen Kind begegnet, das plötzlich keinen Ton mehr spricht, könnte es ein verwandeltes Zorua sein."
 	},
 
 	dexId: [570],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574150,
-		tcgplayer: 246899
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574150,
+				tcgplayer: 246899
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574150,
+				tcgplayer: 246899
+			}
+		},
+	],
 }
 
 export default card

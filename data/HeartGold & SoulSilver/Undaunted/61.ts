@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		25,
-	],
+	dexId: [25],
 
 	hp: 50,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -38,9 +36,9 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés faces.",
-				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 	],
@@ -62,22 +60,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This intelligent Pokémon roasts hard berries with electricity to make them tender enough to eat."
+		en: "This intelligent Pokémon roasts hard berries with electricity to make them tender enough to eat.",
+		de: "Dieses clevere Pokémon grillt harte Beeren mit Elektrizität, um sie anschließend zu essen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279314,
+				tcgplayer: 88097
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279314,
+				tcgplayer: 88097
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279314,
-		tcgplayer: 88097
-	}
 }
 
 export default card

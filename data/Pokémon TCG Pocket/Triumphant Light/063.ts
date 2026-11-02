@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Ronflex n'est pas satisfait tant qu'il n'a pas avalé\nses 400 kg de nourriture quotidienne. Dès qu'il\na fini, il commence une sieste pour digérer.",
 		es: "No se encuentra satisfecho hasta haber\ningerido 400 kg de comida cada día.\nCuando acaba de comer, se queda dormido.",
 		it: "Dopo aver trangugiato i suoi immancabili 400 kg\ndi cibo quotidiani, cade in un sonno profondo.",
-		de: "Es muss über 400 kg Nahrung am Tag fressen,\num satt zu werden. Ist es mit dem Essen fertig,\nschläft es sofort ein.",
+		de: "Es muss über 400 kg Nahrung am Tag fressen, um satt zu werden. Ist es mit dem Essen fertig, schläft es sofort ein.",
 		'pt-br': "Não se satisfaz a menos que coma mais de\n400 kg de alimentos todos os dias. Quando\ntermina de comer, dorme imediatamente.",
 		ko: "하루에 400kg의 음식을\n먹지 않으면 성에 차지 않는다.\n다 먹으면 잠이 들어 버린다."
 	},
@@ -53,7 +53,7 @@ const card: Card = {
 			fr: "Ce Pokémon est maintenant Endormi.",
 			es: "Este Pokémon pasa a estar Dormido.",
 			it: "Questo Pokémon viene addormentato.",
-			de: "Dieses Pokémon ist jetzt schläft.",
+			de: "Dieses Pokémon schläft jetzt.",
 			
 			ko: "이 포켓몬을 잠듦으로 만든다.",
 			'pt-br': "Este Pokémon agora está Adormecido."

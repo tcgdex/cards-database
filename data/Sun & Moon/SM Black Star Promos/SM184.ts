@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Evoli"
 	},
 
-	rarity: "Rare",
+	illustrator: "Mizue",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 50,
 	types: ["Colorless"],
@@ -26,7 +27,7 @@ const card: Card = {
 			es: "Encontrar un Amigo",
 			it: "Trovamico",
 			pt: "Encontre um Amigo",
-			de: "Freunde finden"
+			de: "Freunde finde"
 		},
 
 		effect: {
@@ -58,7 +59,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 1
+	retreat: 1,
+
+	description: {
+		en: "Current studies show it can evolve into an incredible eight different species of Pokémon.",
+		de: "Nach derzeitigem Forschungsstand kann es sich zu acht verschiedenen Pokémon entwickeln."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 370819,
+				tcgplayer: 609698
+			}
+		}
+	],
 }
 
 export default card

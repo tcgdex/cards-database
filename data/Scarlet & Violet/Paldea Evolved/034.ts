@@ -35,18 +35,40 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715507,
+				tcgplayer: 497445,
+				cardtrader: 248615
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715507,
+				tcgplayer: 497445,
+				cardtrader: 248615
+			}
+		},
+	],
 
 	illustrator: "Kagemaru Himeno",
 
-	thirdParty: {
-		cardmarket: 715507
-	}
+	description: {
+		en: "It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.",
+		de: "Es legt sich auf warme Steine und nimmt so über seine rechteckigen Schuppen Hitze auf, mit der es Feuer-Energie erzeugt."
+	},
 }
 
 export default card

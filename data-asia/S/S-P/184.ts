@@ -1,40 +1,61 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "傑尼龜"
+		ja: "エンペルトV",
+		'zh-tw': "傑尼龜",
 	},
 
-	illustrator: "kurumitsu",
+	illustrator: "PLANETA Mochizuki",
 	category: "Pokemon",
-	hp: 70,
+	hp: 210,
 	types: ["Water"],
-
-	description: {
-		'zh-tw': "當牠把長長的脖子縮回殼裡時，會順勢發射 力道強勁的水槍。"
-	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "水槍"
+	abilities: [
+		{
+			type: "Ability",
+			name: { ja: "エンペラーアイ" },
+			effect: {
+				ja: "このポケモンがバトル場にいるかぎり、相手の場のたねポケモン（「ルールを持つポケモン」をのぞく）の特性は、すべてなくなる。",
+			},
 		},
+	],
 
-		damage: 20,
-		cost: ["Water"]
-	}],
+	attacks: [
+		{
+			name: {
+				ja: "らせんぎり",
+				'zh-tw': "水槍",
+			},
+			damage: 130,
+			cost: ["Water", "Colorless", "Colorless"],
+			effect: {
+				ja: "このポケモンについているエネルギーを1個選び、ベンチポケモンにつけ替える。",
+			},
+		},
+	],
 
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [],
 
-	retreat: 1,
-	regulationMark: "F"
-}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 564162,
+				tcgplayer: 597382,
+			},
+		},
+	],
 
-export default card
+	retreat: 2,
+	regulationMark: "E",
+	rarity: "Promo",
+	dexId: [395],
+};
+
+export default card;

@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 120,
 	types: ["Colorless"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Souichirou Gunjima",
 
 	description: {
-		en: "You shouldn't get close to the child when it's playing outside its mother's pouch. Its mother is always nearby watching over it."
+		en: "You shouldn't get close to the child when it's playing outside its mother's pouch. Its mother is always nearby watching over it.",
+		de: "Wer ein Kangama-Junges sieht, das zum Spielen den Beutel verlassen hat, sollte sich ihm nicht nähern. Seine Mutter behält es stets im Auge."
 	},
 
 	attacks: [{
@@ -64,17 +71,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582880,
-		tcgplayer: 253298
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582880,
+				tcgplayer: 253298
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582880,
+				tcgplayer: 253298
+			}
+		},
+	],
 }
 
 export default card

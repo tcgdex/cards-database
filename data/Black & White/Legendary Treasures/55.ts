@@ -10,6 +10,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [626],
 
 	dexId: [
 		177,
@@ -46,6 +47,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It picks food from cactus plants, deftly avoiding buds and spines. It seems to skip about to move.",
+	},
 
 	thirdParty: {
 		cardmarket: 281206,

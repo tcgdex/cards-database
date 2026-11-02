@@ -80,6 +80,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Known as \"The Being of Knowledge.\" It is said that it can wipe out the memory of those who see its eyes.",
+		de: "„Das wissende Wesen“. Es soll die Erinnerungen derer löschen, die ihm in die Augen sehen."
+	},
+
 	thirdParty: {
 		cardmarket: 388227,
 		tcgplayer: 195013

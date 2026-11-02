@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Hisao Nakamura",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		275,
-	],
+	dexId: [275],
 
 	hp: 110,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	evolveFrom: {
@@ -87,19 +85,22 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276088,
-		tcgplayer: 89154
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 89154,
+				cardmarket: 276088
+			}
 		},
 		{
-			type: "holo",
-			foil: "energy"
-		}
+			type: "reverse",
+			foil: 'energy',
+			thirdParty: {
+				tcgplayer: 89154,
+				cardmarket: 276088
+			}
+		},
 	]
 }
 

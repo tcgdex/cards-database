@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "osare",
 	rarity: "Common",
 	category: "Pokemon",
+	dexId: [263],
 	hp: 70,
 	types: ["Darkness"],
 	stage: "Basic",
@@ -37,13 +38,46 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675942,
-		cardmarket: 869741
-	}
+	description: {
+		en: "Its restlessness has it constantly running around. If it sees another Pokémon, it will purposely run into them in order to start a fight.",
+		fr: "Il court partout sans s'arrêter. Quand il rencontre un autre Pokémon, il fait exprès de lui rentrer dedans pour le provoquer.",
+		de: "Es tollt rastlos umher. Begegnet es einem anderen Pokémon, rempelt es dieses absichtlich an, um einen Streit anzuzetteln."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869741,
+			tcgplayer: 675942
+		}
+	},
+	{
+		type: "reverse",
+		foil: "duskball",
+		thirdParty: {
+			cardmarket: 870342,
+			tcgplayer: 676955
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870341,
+			tcgplayer: 677095
+		}
+	},
+],
 }
 
 export default card

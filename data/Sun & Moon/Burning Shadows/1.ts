@@ -63,10 +63,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299408,
-		tcgplayer: 138271
-	}
+	description: {
+		en: "When attacked by bird Pokémon, it resists by releasing a terrifically strong odor from its antennae, but it often becomes their prey.",
+		de: "Es versucht, angreifende Vogel-Pokémon mit dem Gestank aus seinen Antennen in die Flucht zu schlagen. Das gelingt ihm aber nicht immer."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299408,
+				tcgplayer: 138271
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299408,
+				tcgplayer: 138271
+			}
+		},
+	],
 }
 
 export default card

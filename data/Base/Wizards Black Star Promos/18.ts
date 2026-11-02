@@ -10,6 +10,7 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
+	cameoDexIds: [1, 6, 7, 12, 25, 39, 42, 74, 120, 131],
 	dexId: [
 		52,
 	],
@@ -48,12 +49,21 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "This Pokémon is more active at night. It likes bright, shiny things and cannot resist taking them and adding them to its collection.",
+	},
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 89851
+			}
+		},
+	],
 }
 
 export default card

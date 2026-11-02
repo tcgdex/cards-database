@@ -78,6 +78,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "A Pokémon that was formed by 108 spirits. It is bound to a fissure in an odd keystone.",
+		de: "Ein Pokémon, das aus 108 Geistern besteht. Es ist an einen Spalt in einem mysteriösen Stein gebunden."
+	},
+
 	thirdParty: {
 		cardmarket: 302185,
 		tcgplayer: 146709

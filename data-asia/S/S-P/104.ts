@@ -1,40 +1,59 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "天秤偶"
+		ja: "リザードンVMAX",
+		'zh-tw': "天秤偶",
 	},
 
-	illustrator: "Nagomi Nijo",
+	illustrator: "aky CG Works",
 	category: "Pokemon",
-	hp: 60,
-	types: ["Fighting"],
+	hp: 330,
+	types: ["Fire"],
 
-	description: {
-		'zh-tw': "在古代遺跡被發現。會一邊旋轉一邊移動。晚上睡覺的時候也是單腳站著。"
+	stage: "VMAX",
+
+	attacks: [
+		{
+			name: {
+				ja: "ツメできりさく",
+				'zh-tw': "掌擊",
+			},
+			damage: 100,
+			cost: ["Colorless", "Colorless", "Colorless"],
+		},
+		{
+			name: { ja: "キョダイゴクエン" },
+			damage: 300,
+			cost: ["Fire", "Fire", "Fire", "Colorless", "Colorless"],
+			effect: {
+				ja: "このポケモンについているエネルギーを2個選び、トラッシュする。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 597305,
+			},
+		},
+	],
+
+	evolveFrom: {
+		ja: "リザードンV",
 	},
 
-	stage: "Basic",
+	retreat: 3,
+	regulationMark: "D",
+	rarity: "Promo",
+	dexId: [6],
+};
 
-	attacks: [{
-		name: {
-			'zh-tw': "掌擊"
-		},
-
-		damage: 20,
-		cost: ["Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Grass",
-		value: "×2"
-	}],
-
-	retreat: 1,
-	regulationMark: "E"
-}
-
-export default card
+export default card;

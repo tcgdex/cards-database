@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Ce Pokémon lave assidûment son visage pour\néviter qu'il ne s'assèche. La composition de son\npelage soyeux est proche de celle des plantes.",
 		es: "Su sedoso pelaje se asemeja en composición a las plantas.\nSe lava la cara con diligencia para que no se le seque.",
 		it: "Il suo pelo vellutato ha una composizione simile a quella delle\npiante. Si lava il muso di frequente per evitare che si disidrati.",
-		de: "Die Zusammensetzung seines weichen Fells ähnelt\nder von Pflanzen. Es reinigt penibel sein Gesicht,\num zu verhindern, dass dieses austrocknet.",
+		de: "Die Zusammensetzung seines weichen Fells ähnelt der von Pflanzen. Es reinigt penibel sein Gesicht, um zu verhindern, dass dieses austrocknet.",
 		'pt-br': "A composição de seu pelo fofinho é semelhante\nà das plantas. Este Pokémon lava o rosto frequentemente\npara evitar que fique ressecado.",
 		ko: "복슬복슬한 털은 식물에 가까운 성분으로\n이루어져 있다. 수시로 세수를 하면서\n건조해지는 것을 방지한다."
 	},

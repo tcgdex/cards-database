@@ -18,7 +18,7 @@ const card: Card = {
 	hp: 90,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -62,15 +62,25 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "20+"
-		}
+			value: "+20"
+		},
 	],
 
 	description: {
 		en: "It floats using its well-developed floation sac. It assists in the rescues of drowning people."
 	},
 	
-	retreat: 1
+	retreat: 1,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278012,
+				tcgplayer: 85512
+			}
+		},
+	],
+
 }
 
 export default card

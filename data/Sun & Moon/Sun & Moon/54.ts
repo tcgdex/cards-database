@@ -69,6 +69,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It sleeps in caves during the day. It has no eyes, so to check its surroundings while flying, it emits ultrasonic waves.",
+		de: "Tagsüber schläft es in Höhlen. Da es keine Augen hat, erschließt es sich seine Umgebung im Flug durch das Aussenden von Schallwellen."
+	},
+
 	thirdParty: {
 		cardmarket: 295365,
 		tcgplayer: 126925

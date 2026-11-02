@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		181,
-	],
+	dexId: [181],
 
 	hp: 140,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
 		en: "Flaaffy",
 		fr: "Lainergie",
+		de: "Waaty"
 	},
 
 	stage: "Stage2",
@@ -42,7 +41,7 @@ const card: Card = {
 				en: "Whenever your opponent attaches an Energy card from his or her hand to 1 of his or her Pokémon, put 1 damage counter on that Pokémon.",
 				fr: "Lorsque votre adversaire attache une carte Énergie de sa main à l’un de ses Pokémon, appliquez un marqueur de dégâts à ce Pokémon.",
 				de: "Lege jedes Mal, wenn dein Gegner 1 Energiekarte von seiner Hand an 1 seiner Pokémon anlegt, 1 Schadensmarke auf dieses Pokémon."
-			},
+			}
 		},
 	],
 
@@ -61,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 damage plus 40 more damage. If tails, discard an Energy attached to the Defending Pokémon.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 40 dégâts plus 40 dégâts supplémentaires. Si c’est pile, défaussez-vous d’une carte Énergie attachée au Pokémon Défenseur.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu. Bei \"Zahl\" lege eine Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 40 Schadenspunkte plus 40 weitere Schadenspunkte zu. Bei „Zahl“ lege eine Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners."
 			},
 			damage: "40+",
 
@@ -87,14 +86,14 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278986,
+				tcgplayer: 83545
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278986,
-		tcgplayer: 83545
-	}
 }
 
 export default card

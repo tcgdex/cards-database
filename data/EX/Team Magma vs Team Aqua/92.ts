@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Raikou ex",
 		fr: "Raikou ex",
-		de: "Raikou ex"
+		de: "Raikou-ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -13,17 +13,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		243,
-	],
+	dexId: [243],
 
 	hp: 100,
 
+	stage: "Basic",
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
@@ -33,12 +32,12 @@ const card: Card = {
 			name: {
 				en: "Dazzle Blast",
 				fr: "Explosion de lumière",
-				de: "Dazzle Blast"
+				de: "Blendende Explosion"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Flip a coin. If heads, the Defending Pokémon is now Confused."
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: 10,
 
@@ -52,12 +51,12 @@ const card: Card = {
 			name: {
 				en: "Lightning Tackle",
 				fr: "Charge éclair",
-				de: "Lightning Tackle"
+				de: "Blitztackle"
 			},
 			effect: {
 				en: "Flip a coin. If tails, Raikou ex does 20 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, Raikou ex s'inflige 20 dégâts.",
-				de: "Flip a coin. If tails, Raikou ex does 20 damage to itself."
+				de: "Wirf 1 Münze. Bei „Zahl“ fügt sich Raikou ex selbst 20 Schadenspunkte zu."
 			},
 			damage: 70,
 
@@ -71,20 +70,16 @@ const card: Card = {
 		},
 	],
 
-	
-	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276069,
-		tcgplayer: 88540
-	},
+	retreat: 2,
 
 	variants: [
 		{
-			type: "normal",
-		},
-		{
-			type: "reverse",
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88540,
+				cardmarket: 276069
+			}
 		}
 	]
 }

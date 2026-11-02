@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Hydreigon",
@@ -75,15 +69,28 @@ const card: Card = {
 	},
 
 	description: {
-		en: "The three heads take turns sinking their teeth into the opponent. Their attacks won't slow until their target goes down."
+		en: "The three heads take turns sinking their teeth into the opponent. Their attacks won't slow until their target goes down.",
+		de: "Im Kampf beißen die drei Köpfe abwechselnd zu und lassen nicht ab, bis ihr Opfer am Boden liegt."
 	},
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574163,
-		tcgplayer: 246913
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574163,
+				tcgplayer: 246913
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574163,
+				tcgplayer: 246913
+			}
+		},
+	],
 }
 
 export default card

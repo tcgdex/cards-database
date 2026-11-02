@@ -56,6 +56,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "If its cloak is broken in battle, it quickly remakes the cloak with materials nearby.",
+		de: "Wird sein Umhang im Kampf zerstört, macht es sich schnell aus dem, was es findet, einen neuen."
+	},
+
 	thirdParty: {
 		cardmarket: 289828,
 		tcgplayer: 117765

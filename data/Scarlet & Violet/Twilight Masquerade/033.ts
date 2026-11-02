@@ -74,18 +74,45 @@ const card: Card = {
 		damage: 200
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		normal: false
+	description: {
+		en: "Its crown of fire is indicative of its fiery nature. It is beaten by none in terms of quickness.",
+		de: "Seine Krone aus Feuer ist Zeichen seines feurigen Wesens. Niemand ist schneller im Kampf als dieses Pokémon."
 	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769207,
+				tcgplayer: 550077
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769207,
+				tcgplayer: 550077
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 776161,
+			}
+		},
+	],
 
 	illustrator: "Takumi Wada",
 
-	thirdParty: {
-		cardmarket: 769207
-	}
 }
 
 export default card

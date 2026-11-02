@@ -85,6 +85,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It sways its hips to a rhythm all its own. The precise movements of Jynx living in Alola are truly wonderful.",
+		de: "Es bewegt seine Hüften in einem eigentümlichen Rhythmus. Rossana in Alola beherrschen einen besonders anmutigen Hüftschwung."
+	},
+
 	thirdParty: {
 		cardmarket: 368998,
 		tcgplayer: 183846

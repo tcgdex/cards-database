@@ -91,12 +91,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -104,10 +98,22 @@ const card: Card = {
 		en: "Emitting powerful sound waves tires it out. Afterward, it won't be able to fly for a little while."
 	},
 
-	thirdParty: {
-		cardmarket: 511790,
-		tcgplayer: 226482
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511790,
+				tcgplayer: 226482
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511790,
+				tcgplayer: 226482
+			}
+		},
+	],
 }
 
 export default card

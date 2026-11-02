@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Coalossal"
+		en: "Coalossal",
+		fr: "Monthracite"
 	},
 
 	illustrator: "AKIRA EGAWA",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Fighting"],
 
 	evolveFrom: {
-		en: "Carkol"
+		en: "Carkol",
+		fr: "Wagomine"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Coal Drop"
+			en: "Coal Drop",
+			fr: "Jet-Charbon"
 		},
 
 		damage: 100,
 		cost: ["Fighting", "Fighting", "Fighting"],
 
 		effect: {
-			en: "If your opponent's Active Pokémon is a {G} Pokémon, this attack does 50 more damage."
+			en: "If your opponent's Active Pokémon is a {G} Pokémon, this attack does 50 more damage.",
+			fr: "Si le Pokémon Actif de votre adversaire est un Pokémon {G}, cette attaque inflige 50 dégâts supplémentaires."
 		}
 	}],
 

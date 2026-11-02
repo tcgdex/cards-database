@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		39,
-	],
+	dexId: [39],
 
 	hp: 60,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -56,22 +54,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Looking into its cute, round eyes causes it to sing a relaxing melody, inducing its enemies to sleep."
+		en: "Looking into its cute, round eyes causes it to sing a relaxing melody, inducing its enemies to sleep.",
+		de: "Schaut man ihm in seine niedlichen Kulleraugen, beginnt es zu singen und seine Gegner schlafen ein."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86319,
+				cardmarket: 279040
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86319,
+				cardmarket: 279040
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 279040,
-		tcgplayer: 86319
-	}
 }
 
 export default card

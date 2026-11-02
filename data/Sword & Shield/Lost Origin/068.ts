@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Rossana"
 	},
 
+	illustrator: "Nagomi Nijo",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 100,
@@ -58,16 +59,23 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674078,
-		tcgplayer: 283943
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674078,
+				tcgplayer: 283943
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674078,
+				tcgplayer: 283943
+			}
+		},
+	],
 }
 
 export default card

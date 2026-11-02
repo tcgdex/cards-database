@@ -97,6 +97,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "By flapping its leafy fan, it can whip up gusts of 100 ft/second that can level houses.",
+		de: "Seine großen Fächer erzeugen Böen, die eine Geschwindigkeit von 30 m/sek erreichen können."
+	},
+
 	thirdParty: {
 		cardmarket: 291518,
 		tcgplayer: 121000

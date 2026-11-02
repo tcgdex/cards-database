@@ -15,23 +15,29 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		de: "Warp Energy provides  Energy. When you attach this card from your hand to your Active Pokémon, switch that Pokémon with 1 of your Benched Pokémon."
+		en: "Warp Energy provides Colorless Energy. When you attach this card from your hand to your Active Pokémon, switch that Pokémon with 1 of your Benched Pokémon.",
+		de: "Warp Energy provides  Energy. When you attach this card from your hand to your Active Pokémon, switch that Pokémon with 1 of your Benched Pokémon.",
+		fr: "Énergie de distorsion fournit de l'Énergie Incolore. Lorsque vous attachez cette carte de votre main à votre Pokémon Actif, échangez ce Pokémon avec 1 des Pokémon de votre Banc.",
 	},
 
-	thirdParty: {
-		cardmarket: 276746,
-		tcgplayer: 90473
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 90473,
+				cardmarket: 276746
+			},
 		},
 		{
-			type: "normal",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 90473,
+				cardmarket: 276746
+			},
 		}
-	]
+	],
 }
 
 export default card

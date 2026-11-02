@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [22],
 
 	dexId: [
 		633,
@@ -88,6 +89,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "They cannot see, so they tackle and bite to learn about their surroundings. Their bodies are covered in wounds.",
+		de: "Da es nichts sehen kann, sucht es seine Umgebung mit Rempel- und Bissattacken ab und ist immer mit Wunden übersät."
+	},
 
 	thirdParty: {
 		cardmarket: 311909,

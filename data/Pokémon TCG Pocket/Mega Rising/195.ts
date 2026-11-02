@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Spinda"
+		en: "Spinda",
+		fr: "Spinda"
 	},
 
 	illustrator: "Shigenori Negishi",
@@ -24,14 +25,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Dizzying Headbutt"
+			en: "Dizzying Headbutt",
+			fr: "Coup d'Boule Désorienté"
 		},
 
 		damage: 30,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Both Active Pokémon are now Confused."
+			en: "Both Active Pokémon are now Confused.",
+			fr: "Les deux Pokémon Actifs sont maintenant Confus."
 		}
 	}],
 

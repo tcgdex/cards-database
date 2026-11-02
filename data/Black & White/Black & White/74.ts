@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Bind",
 				fr: "Étreinte",
+				de: "Klammergriff"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
+				de: "Wirf 1 Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt paralysiert."
 			},
 			damage: 10,
 
@@ -62,10 +64,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 279812,
-		tcgplayer: 86479
-	}
+	description: {
+		en: "The two minigears that mesh together are predetermined. Each will rebound from other minigears without meshing.",
+		de: "Seine zwei Teile greifen ineinander wie ein Uhrwerk. Jedes andere Objekt, das man mit ihm kombinieren will, wird abgestoßen."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 279812,
+				tcgplayer: 86479
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279812,
+				tcgplayer: 86479
+			}
+		},
+	],
 }
 
 export default card

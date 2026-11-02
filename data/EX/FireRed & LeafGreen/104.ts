@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Blastoise ex",
 		fr: "Tortank ex",
-		de: "Turtok ex"
+		de: "Turtok-ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Carabaffe"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -40,7 +40,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "As often as you like during your turn (before your attack), you may attach a Water Energy card from your hand to 1 of your Pokémon. Put 1 damage counter on that Pokémon. This power can't be used if Blastoise ex is affected by a Special Condition.",
-				fr: "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), vous pouvez attacher une carte Énergie  de votre main à 1 de vos Pokémon. Placez 1 marqueur de dégât sur ce Pokémon. Ce pouvoir ne peut pas être utilisé si Tortank ex est affecté par un État Spécial.",
+				fr: "Autant de fois que vous le voulez lors de votre tour (avant votre attaque), vous pouvez attacher une carte Énergie {W} de votre main à 1 de vos Pokémon. Placez 1 marqueur de dégât sur ce Pokémon. Ce pouvoir ne peut pas être utilisé si Tortank ex est affecté par un État Spécial.",
 				de: "As often as you like during your turn (before your attack), you may attach a Water Energy card from your hand to 1 of your Pokémon. Put 1 damage counter on that Pokémon. This power can't be used if Blastoise ex is affected by a Special Condition."
 			},
 		},
@@ -76,23 +76,26 @@ const card: Card = {
 		},
 	],
 
-	
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 276280,
-		tcgplayer: 83900
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 276280,
+				tcgplayer: 83900
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["hiroki-yano"]
+			stamp: ["hiroki-yano"],
+			thirdParty: {
+				cardmarket: 869512,
+				tcgplayer: 477601
+			},
 		},
-	]
+	],
 }
 
 export default card

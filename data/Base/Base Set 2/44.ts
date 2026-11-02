@@ -22,7 +22,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Barboach",
+		en: "Bulbasaur",
 	},
 
 	stage: "Stage1",
@@ -64,15 +64,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 273967,
-		tcgplayer: 42507
+
+	description: {
+		en: "When the bulb on its back grows large, the Pokémon seems to lose the ability to stand on its hind legs.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273967,
+				tcgplayer: 42507
+			}
 		}
 	]
 }

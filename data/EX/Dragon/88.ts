@@ -12,17 +12,34 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
+
+	cameoDexIds: [294],
+
 	trainerType: "Supporter",
 
 	effect: {
-		fr: "Vous ne pouvez jouer qu'une seule carte Supporter par tour. Lorsque vous jouez cette carte, placez-la à côté de votre Pokémon Actif. À la fin de votre tour, défaussez-la.\n\nPiochez trois cartes. Ensuite, défaussez une carte de votre main.",
-		de: "Draw 3 cards. Then discard any 1 card from your hand."
+		en: "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Draw 3 cards. Then discard any 1 card from your hand.",
+		fr: "Piochez trois cartes. Ensuite, défaussez une carte de votre main.",
+		de: "Du kannst in jedem Zug nur eine Unterstützerkarte spielen. Wenn du diese Karte ausspielst, lege sie neben dein Akives Pokémon. Lege diese Karte am Ende deines Zuges auf deinen Ablagestapel. Ziehe 3 Karten. Lege danach 1 Karte von deiner Hand auf deinen Ablagestapel.",
 	},
 
-	thirdParty: {
-		tcgplayer: 90083,
-		cardmarket: 275965
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90083,
+				cardmarket: 275965
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90083,
+				cardmarket: 275965
+			},
+		},
+	],
+
 }
 
 export default card

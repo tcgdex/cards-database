@@ -3,22 +3,21 @@ import Set from '../Pokémon Rumble'
 
 const card: Card = {
 	name: {
-		en: "Pikachu",
+		en: "Pikachu"
 	},
 
 	illustrator: undefined,
 	rarity: "None",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [37, 129],
 
-	dexId: [
-		25,
-	],
+	dexId: [25],
 
 	hp: 60,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -31,10 +30,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Volt Tackle",
+				en: "Volt Tackle"
 			},
 			effect: {
-				en: "Pikachu does 10 damage to itself.",
+				en: "Pikachu does 10 damage to itself."
 			},
 			damage: 60,
 
@@ -44,26 +43,24 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278848
-	},
-
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278848,
+				tcgplayer: 88096
+			},
 		}
 	]
 }

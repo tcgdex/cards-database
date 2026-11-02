@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Hisuian Zoroark V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Colorless"],
@@ -65,12 +65,23 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
-
-	thirdParty: {
-		cardmarket: 671762
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 671762,
+				tcgplayer: 449526
+			}
+		},
+	],
 }
 
 export default card

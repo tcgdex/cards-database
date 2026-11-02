@@ -1,50 +1,59 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "伊布"
+		ja: "ピカチュウV",
+		'zh-tw': "伊布",
 	},
 
-	illustrator: "Mizue",
+	illustrator: "Ryota Murayama",
 	category: "Pokemon",
-	hp: 60,
-	types: ["Colorless"],
-
-	description: {
-		'zh-tw': "由於不穩定的基因，蘊含著各式各樣進化可能性的特殊寶可夢。"
-	},
+	hp: 190,
+	types: ["Lightning"],
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "準備"
+	attacks: [
+		{
+			name: {
+				ja: "ピカボール",
+				'zh-tw': "準備",
+			},
+			damage: 30,
+			cost: ["Lightning"],
 		},
-
-		effect: {
-			'zh-tw': "從自己的手牌選擇1張基本能量卡，附於這隻寶可夢身上。"
+		{
+			name: {
+				ja: "エレキサークル",
+				'zh-tw': "咬住",
+			},
+			damage: "30×",
+			cost: ["Lightning", "Lightning"],
+			effect: {
+				ja: "自分のベンチポケモンの数×30ダメージ。",
+			},
 		},
+	],
 
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "咬住"
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 525290,
+				tcgplayer: 597322,
+			},
 		},
-
-		damage: 30,
-		cost: ["Colorless", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
+	],
 
 	retreat: 1,
-	regulationMark: "E"
-}
+	regulationMark: "D",
+	rarity: "Promo",
+	dexId: [25],
+};
 
-export default card
+export default card;

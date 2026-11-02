@@ -4,7 +4,7 @@ import Set from '../Power Keepers'
 const card: Card = {
 	name: {
 		en: "Seviper",
-		fr: "Seviper",
+		fr: "Séviper",
 		de: "Vipitis"
 	},
 

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		66,
-	],
+	dexId: [66],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -70,20 +68,27 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "Always brimming with power, it passes time by lifting boulders. Doing so makes it even stronger."
+		en: "Always brimming with power, it passes time by lifting boulders. Doing so makes it even stronger.",
+		de: "Da es vor Kraft strotzt, hebt es zum Zeitvertreib Felsen. Dadurch gewinnt es an zusätzlicher Stärke."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86998,
+				cardmarket: 279597
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279597,
+				tcgplayer: 86998
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279597,
-		tcgplayer: 86998
-	}
 }
 
 export default card

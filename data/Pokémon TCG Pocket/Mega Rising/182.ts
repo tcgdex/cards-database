@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Pidgeot"
+		en: "Pidgeot",
+		fr: "Roucarnage"
 	},
 
 	illustrator: "Akira Komayama",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Pidgeotto"
+		en: "Pidgeotto",
+		fr: "Roucoups"
 	},
 
 	description: {
@@ -28,14 +30,16 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Twister"
+			en: "Twister",
+			fr: "Ouragan"
 		},
 
 		damage: 80,
 		cost: ["Colorless", "Colorless"],
 
 		effect: {
-			en: "Flip 2 coins. For each heads, discard a random Energy from your opponent's Active Pokémon. If both of them are tails, this attack does nothing."
+			en: "Flip 2 coins. For each heads, discard a random Energy from your opponent's Active Pokémon. If both of them are tails, this attack does nothing.",
+			fr: "Lancez 2 pièces. Pour chaque côté face, défaussez au hasard une Énergie du Pokémon Actif de votre adversaire. Si toutes sont côté pile, cette attaque ne fait rien."
 		}
 	}],
 

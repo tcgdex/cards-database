@@ -4,7 +4,8 @@ import Set from '../POP Series 6'
 const card: Card = {
 	name: {
 		en: "Bidoof",
-		fr: "Bidoof"
+		fr: "Keunotor",
+		de: "Bidiza"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -12,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		399,
-	],
+	dexId: [399],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -31,11 +30,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Amnesia",
-				fr: "Amnésie"
+				fr: "Amnésie",
+				de: "Amnesie"
 			},
 			effect: {
-				en: "Choose 1 of the Defending Pokémon’s attacks. That Pokémon can’t use that attack during your opponent’s next turn.",
-				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire."
+				en: "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn.",
+				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Ce Pokémon ne peut pas utiliser cette attaque lors du prochain tour de votre adversaire.",
+				de: "Wähle 1 Angriff des Verteidigenden Pokémon. Dieses Pokémon kann den gewählten Angriff im nächsten Zug deines Gegners nicht einsetzen."
 			},
 
 		},
@@ -45,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Scavenge",
-				fr: "Farfouille"
+				fr: "Farfouille",
+				de: "Aasfresser"
 			},
 			effect: {
-				en: "Search your discard pile for a Trainer card, show it to your opponent, and put it into your hand.",
-				fr: "Choisissez une carte Dresseur dans votre pile de défausse, montrez-la à votre adversaire et placez-la dans votre main."
+				en: "Search your discard pile for a Trainer card, show it to your opponent, an put it into your hand.",
+				fr: "Choisissez une carte Dresseur dans votre pile de défausse, montrez-la à votre adversaire et placez-la dans votre main.",
+				de: "Durchsuche deinen Ablagestapel nach einer Trainerkarte, zeige sie deinem Gegner und nimm sie auf die Hand."
 			},
 
 		},
@@ -61,24 +64,23 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	description: {
-		en: "With nerves of steel, nothing can perturb it. It is more agile and active than it appears."
+		en: "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
+		de: "Es hat Nerven wie Drahtseile, nichts kann es erschüttern. Es ist agiler und aktiver, als es scheint."
 	},
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83826,
+				cardmarket: 277896
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 277896,
-		tcgplayer: 83826
-	}
 }
 
 export default card

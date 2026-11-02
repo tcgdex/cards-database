@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		483,
-	],
+	dexId: [483],
 
 	hp: 100,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -31,13 +29,13 @@ const card: Card = {
 			name: {
 				en: "Time Aura",
 				fr: "Aura temporelle",
-				de: "Time Aura"
+				de: "Zeitaura"
 			},
 			effect: {
 				en: "As long as Dialga is your Active Pokémon, your opponent can't play any Pokémon from his or her hand to evolve his or her Active Pokémon.",
 				fr: "Tant que Dialga est votre Pokémon Actif, votre adversaire ne peut pas jouer de Pokémon de sa main pour faire évoluer son Pokémon Actif.",
-				de: "As long as Dialga is your Active Pokémon, your opponent can't play any Pokémon from his or her hand to evolve his or her Active Pokémon."
-			},
+				de: "Solange Dialga dein Aktives Pokémon ist, kann dein Gegner keine Pokémon-Karten von seiner Hand spielen, um sein Aktives Pokémon zu entwickeln."
+			}
 		},
 	],
 
@@ -52,12 +50,12 @@ const card: Card = {
 			name: {
 				en: "Metal Burn",
 				fr: "Brûlure métallique",
-				de: "Metal Burn"
+				de: "Metallbrand"
 			},
 			effect: {
 				en: "Discard all Metal Energy attached to Dialga.",
 				fr: "Défaussez toutes les Énergies Metal attachées à Dialga.",
-				de: "Discard all  Energy attached to Dialga."
+				de: "Lege alle an Dialga angelegten {M}-Energien auf deinen Ablagestapel."
 			},
 			damage: 100,
 
@@ -80,19 +78,28 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278426,
-		tcgplayer: 84803
+	description: {
+		en: "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
+		de: "Es besitzt die Macht die Zeit zu kontrollieren. In den Mythen von Sinnoh erscheint es als Gottheit."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"holo"
+			type:"holo",
+			thirdParty: {
+				tcgplayer: 84803,
+				cardmarket: 278426
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278426,
+				tcgplayer: 84803
+			}
 		}
-	]
+	],
+
 }
 
 export default card

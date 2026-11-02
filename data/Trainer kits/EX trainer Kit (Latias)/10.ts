@@ -4,19 +4,30 @@ import Set from '../EX trainer Kit (Latias)'
 const card: Card = {
 	name: {
 		en: "Fire Energy",
-		fr: "Énergie Feu"
+		fr: "Énergie Feu",
+		de: "Feuer-Energie"
 	},
 
-	illustrator: "",
 	rarity: "None",
 	category: "Energy",
 	set: Set,
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		tcgplayer: 85457
-	}
+	types: [
+		"Fire"
+	],
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275771,
+				tcgplayer: 85457
+			}
+		},
+	],
+
 }
 
 export default card

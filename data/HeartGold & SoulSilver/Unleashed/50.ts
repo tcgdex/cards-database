@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		246,
-	],
+	dexId: [246],
 
 	hp: 50,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 				de: "Bergfresser"
 			},
 			effect: {
-				en: "Discard the top card of your opponent’s deck. Then, remove 2 damage counters from Larvitar.",
+				en: "Discard the top card of your opponent's deck. Then, remove 2 damage counters from Larvitar.",
 				fr: "Défaussez la carte du dessus du deck de votre adversaire. Ensuite, retirez 2 marqueurs de dégât à Embrylex.",
 				de: "Lege die oberste Karte vom Deck deines Gegners auf seinen Ablagestapel. Entferne dann 2 Schadensmarken von Larvitar."
 			},
@@ -78,22 +76,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow."
+		en: "It feeds on soil. After it has eaten a large mountain, it will fall asleep so it can grow.",
+		de: "Es ernährt sich von Erde. Nachdem es einen Berg verspeist hat, schläft es ein, um zu wachsen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86644,
+				cardmarket: 279206
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86644,
+				cardmarket: 279206
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279206,
-		tcgplayer: 86644
-	}
 }
 
 export default card

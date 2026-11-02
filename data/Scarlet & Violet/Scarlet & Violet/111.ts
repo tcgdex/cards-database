@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Meditite",
-		fr: "Méditikka"
+		fr: "Méditikka",
+		de: "Meditie"
 	},
 
 	stage: "Stage1",
@@ -81,8 +82,18 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		holo: false
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
+	description: {
+		en: "Through yoga training, it gained the psychic power to predict its foe's next move.",
+		de: "Mit Yogaübungen hat es seine Psycho-Kräfte geschärft und ahnt so die Attacken seiner Gegner voraus."
 	},
 
 	thirdParty: {

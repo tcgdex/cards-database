@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Origin Forme Dialga VSTAR"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Metal"],
@@ -77,12 +77,37 @@ const card: Card = {
 		damage: 220
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
-
-	thirdParty: {
-		cardmarket: 669484
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 669484,
+				tcgplayer: 449509
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 669485,
+				tcgplayer: 449513
+			}
+		},
+	],
 }
 
 export default card

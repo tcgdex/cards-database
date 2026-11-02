@@ -13,17 +13,15 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		238,
-	],
+	dexId: [238],
 
 	hp: 30,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
-	stage: "Basic",
+	stage: "Baby",
 
 	attacks: [
 		{
@@ -33,30 +31,35 @@ const card: Card = {
 			name: {
 				en: "Energy Kiss",
 				fr: "Bisou d'énergie",
-				de: "Energy Kiss"
+				de: "Energiekuss"
 			},
 			effect: {
-				en: "Flip a number of coins equal to the number of Energy cards on the Defending Pokémon. This attack does 10 damage times the number of heads.",
+				en: "Flip a number of coins equal to the number of Energy cards attached to the Defending Pokémon. This attack does 10 damage times the number of heads.",
 				fr: "Lancez un nombre de pièces égal au nombre de cartes Énergie attachées au Pokémon Défenseur. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
-				de: "Flip a number of coins equal to the number of Energy cards attached to the Defending Pokémon. This attack does 10 damage times the number of heads."
+				de: "Wirf so viele Münzen, wie Energiekarten an das Verteidigende Pokémon angelegt sind. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 275134,
-		tcgplayer: 89360
-	},
+	retreat: 1,
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89360,
+				cardmarket: 275134
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 89360,
+				cardmarket: 275134
+			}
+		},
 	]
 }
 

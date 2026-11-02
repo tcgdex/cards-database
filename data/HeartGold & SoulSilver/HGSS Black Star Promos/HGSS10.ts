@@ -7,16 +7,14 @@ const card: Card = {
 		fr: "Latias"
 	},
 	illustrator: "Wataru Kawahara",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		380,
-	],
+	dexId: [380],
 	hp: 80,
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -62,20 +60,30 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "It communicates using telepathy. Its body is covered in down that refracts light to make it invisible."
+	},
 
 	variants: [
 		{
 			type: "holo",
-			foil: "cracked-ice"
+			foil: 'cracked-ice',
+			thirdParty: {
+				cardmarket: 275616,
+				tcgplayer: 97705
+			}
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
+			foil: "cosmos",
+			thirdParty: {
+				tcgplayer: 86653
+			}
 		}
-	]
-
-
-
+	],
 
 }
 

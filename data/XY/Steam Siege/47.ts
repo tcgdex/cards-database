@@ -103,6 +103,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It's drowsy in daytime, but flies off in the evening in big groups. No one knows where they go.",
+		de: "Tagsüber treibt es faul vor sich hin, nachts fliegt es mit anderen umher. Niemand weiß wohin."
+	},
+
 	thirdParty: {
 		cardmarket: 291538,
 		tcgplayer: 121136

@@ -72,23 +72,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down."
+		en: "It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down.",
+		de: "Klammert sich an Bäume in Sümpfen. Lockt Beute mit seinem süßlichen Speichel an und schluckt sie dann."
 	},
 
-	thirdParty: {
-		cardmarket: 544941,
-		tcgplayer: 234058
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 544941,
+				tcgplayer: 234058
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 544941,
+				tcgplayer: 234058
+			}
+		},
+	],
 }
 
 export default card

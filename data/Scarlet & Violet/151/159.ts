@@ -22,21 +22,34 @@ const card: Card = {
 		es: "Lanza 1 moneda. Si sale cara, une 1 carta de Energía Básica de tu pila de descartes a uno de tus Pokémon en Banca.",
 		it: "Lancia una moneta. Se esce testa, assegna a uno dei tuoi Pokémon in panchina una carta Energia base dalla tua pila degli scarti.",
 		pt: "Jogue uma moeda. Se sair cara, ligue uma carta de Energia Básica da sua pilha de descarte a 1 dos seus Pokémon no Banco.",
-		de: "Wirf 1 Münze. Lege bei Kopf 1 Basis-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an."
+		de: "Wirf 1 Münze. Lege bei Kopf 1 Basis-Energiekarte aus deinem Ablagestapel an 1 Pokémon auf deiner Bank an. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733754,
+				tcgplayer: 516721,
+				cardtrader: 261172
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733754,
+				tcgplayer: 516721,
+				cardtrader: 261172
+			}
+		},
+	],
 
 	illustrator: "Ayaka Yoshida",
 
-	thirdParty: {
-		cardmarket: 733754
-	}
+	
 }
 
 export default card

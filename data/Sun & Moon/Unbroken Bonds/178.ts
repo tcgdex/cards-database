@@ -32,7 +32,7 @@ const card: Card = {
 		es: "Puedes jugar esta carta solo si te quedan más cartas de Premio que a tu rival.\n\nDurante este turno, puedes jugar 3 cartas de Partidario (incluida esta carta).",
 		it: "Puoi giocare questa carta solo se hai più carte Premio rimanenti del tuo avversario.\n\nDurante questo turno puoi giocare tre carte Aiuto, inclusa questa carta.",
 		pt: "Você só pode jogar esta carta se tiver mais cartas de Prêmio restantes do que seu oponente.\n\nDurante esta rodada, você pode jogar 3 cartas de Apoiador (incluindo esta carta).",
-		de: "Du kannst diese Karte nur spielen, wenn du mehr verbleibende Preiskarten hast als dein Gegner.\n\nDu kannst während dieses Zuges 3 Unterstützerkarten (einschließlich dieser Karte) spielen."
+		de: "Du kannst diese Karte nur spielen, wenn du mehr verbleibende Preiskarten hast als dein Gegner. Du kannst während dieses Zuges 3 Unterstützerkarten (einschließlich dieser Karte) spielen. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 	trainerType: "Supporter",
 

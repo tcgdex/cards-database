@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 70,
 	types: ["Fire"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Sekio",
 
 	description: {
-		en: "As each tail grows, its fur becomes more lustrous. When held, it feels slightly warm."
+		en: "As each tail grows, its fur becomes more lustrous. When held, it feels slightly warm.",
+		de: "Sein Fell wird geschmeidiger, wenn seine sechs Schweife wachsen. Wenn man das Fell berührt, fühlt es sich leicht warm an."
 	},
 
 	attacks: [{
@@ -42,17 +49,23 @@ const card: Card = {
 		damage: 30
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582162,
-		tcgplayer: 253124
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582162,
+				tcgplayer: 253124
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582162,
+				tcgplayer: 253124
+			}
+		},
+	],
 }
 
 export default card

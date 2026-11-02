@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		280,
-	],
+	dexId: [280],
 
 	hp: 50,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	stage: "Basic",
@@ -33,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras'face",
-				de: "Pound"
+				de: "Pfund"
 			},
 
 			damage: 10,
@@ -47,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Link Blast",
 				fr: "Explosion en série",
-				de: "Link Blast"
+				de: "Vereinigende Explosion"
 			},
 			effect: {
 				en: "If Ralts and the Defending Pokémon have a different amount of Energy attached to them, this attack's base damage is 10 instead of 40.",
 				fr: "Si Tarsal et le Pokémon Défenseur ont un total d'Énergie différent, les dégâts de base de cette attaque sont de 10 et non de 40.",
-				de: "If Ralts and the Defending Pokémon have a different amount of Energy attached to them, this attack's base damage is 10 instead of 40."
+				de: "Wenn an Trasla und dem Verteidigenden Pokémon unterschiedlich viel Energie angelegt ist, beträgt der Grundschaden dieses Angriffs 10 statt 40."
 			},
 			damage: 40,
 
@@ -69,19 +67,24 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275716,
-		tcgplayer: 88556
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275716,
+				tcgplayer: 88556
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275716,
+				tcgplayer: 88556
+			}
 		},
-	]
+	],
+
 }
 
 export default card

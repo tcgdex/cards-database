@@ -40,19 +40,34 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "Because of its unusual, starlike silhouette, people believe that it came here on a meteor.",
+		de: "Aufgrund seiner ungewöhnlichen Sternform sagt man, es sei auf einem Meteor hierhergereist."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 725282,
+				tcgplayer: 509949,
+				cardtrader: 255644
+			}
+		},
+	],
 
 	illustrator: "HYOGONOSUKE",
 
-	thirdParty: {
-		cardmarket: 725282
-	}
+	
 }
 
 export default card

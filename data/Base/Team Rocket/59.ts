@@ -63,25 +63,33 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Il est dit que même les lutteurs professionnels ne parviennent pas à battre un Machoc."
+		en: "It's said that not even pro wrestlers can take down a Machop.",
+		fr: "Il est dit que même les lutteurs professionnels ne parviennent pas à battre un Machoc.",
+		de: "Man sagt, dass selbst professionelle Ringer ein Machollo nicht bezwingen können."
 	},
 
-	thirdParty: {
-		cardmarket: 274112,
-		tcgplayer: 86987
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274112,
+				tcgplayer: 86987
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
-		}
-	]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274112,
+				tcgplayer: 86987
+			}
+		},
+	],
 }
 
 export default card

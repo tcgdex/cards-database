@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ken Sugimori",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -35,7 +35,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for a Lightning Energy card and attach it to this Pokémon. Shuffle your deck afterward.",
-				fr: "Cherchez une carte Énergie  dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck."
+				fr: "Cherchez une carte Énergie {L} dans votre deck et attachez-la à ce Pokémon. Mélangez ensuite votre deck."
 			},
 
 		},
@@ -71,6 +71,12 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "When several of these Pokémon gather, their electricity can build and cause lightning storms.",
+	},
 
 	thirdParty: {
 		cardmarket: 289809

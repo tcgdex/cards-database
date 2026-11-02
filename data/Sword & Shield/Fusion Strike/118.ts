@@ -29,12 +29,25 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Misa Tsutsui",
 
 	description: {
-		en: "Be cautious of the ectoplasmic body surrounding its soul. You'll become stiff as stone if you touch it."
+		en: "Be cautious of the ectoplasmic body surrounding its soul. You'll become stiff as stone if you touch it.",
+		de: "Vor dem geisterhaften Ektoplasma, das seine Seele umhüllt, ist Vorsicht geboten. Berührt man es, erstarrt man wie zu Stein."
 	},
 
 	attacks: [{
@@ -72,17 +85,23 @@ const card: Card = {
 		damage: 80
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582632,
-		tcgplayer: 253288
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582632,
+				tcgplayer: 253288
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582632,
+				tcgplayer: 253288
+			}
+		},
+	],
 }
 
 export default card

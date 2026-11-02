@@ -4,6 +4,7 @@ import Set from "../Surging Sparks"
 const card: Card = {
 	dexId: [967],
 	set: Set,
+	cameoDexIds: [1024],
 
 	name: {
 		en: "Cyclizar ex",
@@ -66,20 +67,28 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 794601,
+				tcgplayer: 589911
+			}
+		},
 	],
 
+	suffix: "ex",
 	illustrator: "5ban Graphics",
 
-	thirdParty: {
-		cardmarket: 794601
-	}
 }
 
 export default card

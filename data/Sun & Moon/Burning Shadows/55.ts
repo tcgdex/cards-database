@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [282],
 
 	dexId: [
 		454,
@@ -29,6 +30,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Croagunk",
 		fr: "Cradopaud",
+		de: "Glibunkel"
 	},
 
 	stage: "Stage1",
@@ -94,10 +96,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 299459,
-		tcgplayer: 138537
-	}
+	description: {
+		en: "It has a poison sac at its throat. When it croaks, the stored poison is churned for greater potency.",
+		de: "Verfügt über einen Giftsack an seiner Kehle. Quakt es, schäumt das Gift und wird so noch stärker."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299459,
+				tcgplayer: 138537
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299459,
+				tcgplayer: 138537
+			}
+		},
+	],
 }
 
 export default card

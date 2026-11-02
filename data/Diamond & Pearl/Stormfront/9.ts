@@ -40,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "If you have Regirock, Regice, and Registeel in play, the attack cost of Regigigas's attacks is Colorless less.",
 				fr: "Si vous avez Regirock, Regice et Registeel en jeu, le Coût d'attaque des attaques de Regigigas est Colorless de moins.",
-				de: "Wenn du Regirock, Regice und Registeel im Spiel hast, kosten Regigigas' Angriffe 1  weniger."
+				de: "Wenn du Regirock, Regice und Registeel im Spiel hast, kosten Regigigas' Angriffe 1 {C} weniger."
 			},
 		},
 	],

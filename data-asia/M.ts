@@ -1,10 +1,10 @@
-import { Serie } from "../interfaces";
+import { Serie } from '../interfaces'
 
 const serie: Serie = {
 	name: {
-		ja: "ポケモンカードゲーム MEGA",
+		ja: 'ポケモンカードゲーム MEGA'
 	},
-	id: "M",
-};
+	id: "M"
+}
 
-export default serie;
+export default serie

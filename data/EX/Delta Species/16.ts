@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Tyranitar δ",
 		fr: "Tyranocif δ",
-		de: "Despotar"
+		de: "Despotar δ"
 	},
 
 	illustrator: "Mitsuhiro Arita",

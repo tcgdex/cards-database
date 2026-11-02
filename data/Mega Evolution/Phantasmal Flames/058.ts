@@ -3,6 +3,7 @@ import Set from "../Phantasmal Flames"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [198],
 
 	name: {
 		en: "Honchkrow",
@@ -12,6 +13,16 @@ const card: Card = {
 		de: "Kramshef",
 		it: "Honchkrow",
 		pt: "Honchkrow"
+	},
+
+	evolveFrom: {
+		en: "Murkrow",
+		fr: "Cornèbre",
+		es: "Murkrow",
+		'es-mx': "Murkrow",
+		de: "Kramurx",
+		it: "Murkrow",
+		pt: "Murkrow",
 	},
 
 	rarity: "Uncommon",
@@ -60,22 +71,46 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "It is merciless by nature. It is said that it never forgives the mistakes of its Murkrow followers.",
+		fr: "Ce Pokémon impitoyable ne tolère aucun échec de la part de ses sbires, les Cornèbre.",
+		de: "Kramshef kennt kein Erbarmen. Man sagt, einem untergebenen Kramurx verzeihe es niemals einen Fehler."
+	},
+
+	illustrator: "Anesaki Dynamic",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857633,
+				tcgplayer: 662169,
+				cardtrader: 356841
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857633,
-		tcgplayer: 662169
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857633,
+				tcgplayer: 662169,
+				cardtrader: 356841
+			}
+		},
+	],	
 }
 
 export default card

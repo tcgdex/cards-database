@@ -4,6 +4,7 @@ import Set from "../Twilight Masquerade"
 const card: Card = {
 	dexId: [167],
 	set: Set,
+	cameoDexIds: [193],
 
 	name: {
 		en: "Spinarak",
@@ -35,18 +36,39 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Some fishers weave its sturdy thread into nets to catch fish Pokémon.",
+		de: "Einige Fischer knüpfen sich aus seinem robusten Faden Netze, mit denen sie dann Fisch-Pokémon fangen."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769178,
+				tcgplayer: 550048
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769178,
+				tcgplayer: 550048
+			}
+		},
+	],
+	
 	illustrator: "Saya Tsuruta",
 
-	thirdParty: {
-		cardmarket: 769178
-	}
 }
 
 export default card

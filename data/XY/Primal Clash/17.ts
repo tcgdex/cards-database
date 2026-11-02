@@ -87,6 +87,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It lives around clean ponds. At night, its rear lights up. It converses with others by flashing its light.",
+	},
+
 	thirdParty: {
 		cardmarket: 273548,
 		tcgplayer: 95901

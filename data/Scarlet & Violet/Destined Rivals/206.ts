@@ -16,6 +16,7 @@ const card: Card = {
 	},
 
 
+	suffix: "ex",
 	illustrator: "takuyoa",
 
 	rarity: "Ultra Rare",
@@ -83,18 +84,30 @@ const card: Card = {
 		damage: 210
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'holo'
+			type: "holo",
+			thirdParty: {
+				cardmarket: 826080,
+				tcgplayer: 633006
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 826080
-	}
 }
 
 export default card

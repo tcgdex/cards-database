@@ -87,6 +87,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It is born asleep, and it dies asleep. All its movements are apparently no more than the results of it tossing and turning in its dreams.",
+		de: "Es wird schlafend geboren und stirbt schlafend. Sein ganzes Leben ist ein Traum, seine einzige körperliche Aktivität das Umdrehen im Schlaf."
+	},
+
 	thirdParty: {
 		cardmarket: 297566,
 		tcgplayer: 131032

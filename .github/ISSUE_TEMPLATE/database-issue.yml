@@ -7,9 +7,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to help advance the project witg your issue report!
+        Thanks for taking the time to help advance the project with your issue report!
 
-        Note: if the issue is affecting translations or definitions files the correct issue report as the API one
+        Note: if the issue affects translations or definitions files, please use the API issue template.
 
   - type: dropdown
     id: data-type

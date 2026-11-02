@@ -63,6 +63,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
+	},
 }
 
 export default card

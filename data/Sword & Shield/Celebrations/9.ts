@@ -3,13 +3,8 @@ import Set from '../Celebrations'
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [569],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Surfing Pikachu VMAX",
@@ -69,10 +64,15 @@ const card: Card = {
 	regulationMark: "E",
 	dexId: [25],
 
-	thirdParty: {
-		cardmarket: 576754,
-		tcgplayer: 250307
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 576754,
+				tcgplayer: 250307
+			}
+		},
+	],
 }
 
 export default card

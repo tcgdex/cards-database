@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [382],
 
 	dexId: [
 		264,
@@ -95,6 +96,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It charges prey at speeds over 60 mph. However, because it can only run straight, it often fails.",
+	},
 
 	thirdParty: {
 		cardmarket: 273643,

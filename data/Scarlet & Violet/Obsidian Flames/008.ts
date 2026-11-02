@@ -55,18 +55,42 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "At night, Combee sleep in a group of about a hundred, packed closely together in a lump.",
+		de: "Des Nachts schmiegen sich bis zu 100 Wadribie aneinander und formieren sich so zum Schlafen zu einem großen Gebilde."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725088,
+				tcgplayer: 509662,
+				cardtrader: 255568
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725088,
+				tcgplayer: 509662,
+				cardtrader: 255568
+			}
+		},
+	],
 
 	illustrator: "HYOGONOSUKE",
 
-	thirdParty: {
-		cardmarket: 725088
-	}
+	
 }
 
 export default card

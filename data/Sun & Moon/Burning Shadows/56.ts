@@ -80,10 +80,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 299460,
-		tcgplayer: 138538
-	}
+	description: {
+		en: "It discovers what is going on around it by using the feelers on its head and tail. It is brutally aggressive.",
+		de: "Mit seinen Ruten und den Fühlern an seinem Kopf tastet es die Umgebung ab. Ein überaus aggressiver Geselle."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299460,
+				tcgplayer: 138538
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299460,
+				tcgplayer: 138538
+			}
+		},
+	],
 }
 
 export default card

@@ -65,23 +65,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "This Pokémon is said to have been born when a lonely spirit possessed a cold, leftover cup of tea."
+		en: "This Pokémon is said to have been born when a lonely spirit possessed a cold, leftover cup of tea.",
+		de: "Es heißt, eine einsame Seele habe Besitz von einer abgestellten, kalten Tasse Schwarztee ergriffen und sei zu diesem Pokémon geworden."
 	},
 
-	thirdParty: {
-		cardmarket: 483289,
-		tcgplayer: 219468
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483289,
+				tcgplayer: 219468
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483289,
+				tcgplayer: 219468
+			}
+		},
+	],
 }
 
 export default card

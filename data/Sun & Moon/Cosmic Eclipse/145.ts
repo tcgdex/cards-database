@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Vulpix",
 		fr: "Goupix d’Alola",
+		de: "Alola-Vulpix"
 	},
 
 	stage: "Stage1",
@@ -72,6 +73,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "The reason it guides people all the way down to the mountain's base is that it wants them to hurry up and leave.",
+		de: "Menschen, die sich im verschneiten Gebirge verlaufen haben, weist es den Weg nach unten, weil es sie so schnell wie möglich loswerden will."
+	},
 
 	thirdParty: {
 		cardmarket: 408369,

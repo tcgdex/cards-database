@@ -64,6 +64,10 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It shoots positive and negative electricity between the tips of its two antennae and zaps its enemies.",
+	},
+
 	thirdParty: {
 		cardmarket: 273588,
 		tcgplayer: 95955

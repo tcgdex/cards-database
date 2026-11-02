@@ -47,7 +47,7 @@ const card: Card = {
 				es: "Busca en tu baraja 1 carta de Energía Lightning y únela a este Pokémon. Baraja las cartas de tu baraja después. Si has unido Energía de esta manera, cambia este Pokémon por 1 de tus Pokémon en Banca.",
 				it: "Cerca nel tuo mazzo una carta Energia Lightning e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo. Se assegni Energia in questo modo, scambia questo Pokémon con uno della tua panchina.",
 				pt: "Procure em seu baralho um card de Energia Lightning e ligue-o a este Pokémon. Em seguida, embaralhe seus cards. Se você ligou Energia desta forma, troque este Pokémon por 1 dos seus Pokémon no Banco.",
-				de: "Durchsuche dein Deck nach 1 Lightning-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck. Falls du auf diese Weise Energie angelegt hast, tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+				de: "Durchsuche dein Deck nach 1 {L}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck. Falls du auf diese Weise Energie angelegt hast, tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
 			},
 
 		},

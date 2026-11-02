@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Misdreavus",
 		fr: "Feuforêve",
+		de: "Traunfugil"
 	},
 
 	stage: "Stage1",
@@ -43,7 +44,7 @@ const card: Card = {
 			effect: {
 				en: "Count the number of your Pokémon that have any damage counters on them. Put that many damage counters on the Defending Pokémon.",
 				fr: "Comptabilisez le nombre de vos Pokémon possédant des marqueurs de dégât. Placez autant de marqueurs de dégât sur le Pokémon Défenseur.",
-				de: "Zähle die anzahl deiner Pokémon, auf denen Schadensmarken liegen. Lege die gleiche Anzahl Schadensmarken auf das Verteidigende Pokémon."
+				de: "Zähle die Anzahl deiner Pokémon, auf denen Schadensmarken liegen. Lege die gleiche Anzahl Schadensmarken auf das Verteidigende Pokémon."
 			},
 
 		},
@@ -83,6 +84,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "Its cries sound like incantations. Those hearing it are tormented by headaches and hallucinations.",
+		de: "Seine Rufe klingen wie Beschwörungen. Die, die sie hören, kriegen Kopfschmerzen und Halluzinationen."
+	},
 
 	thirdParty: {
 		cardmarket: 277509,

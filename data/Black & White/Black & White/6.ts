@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Servine",
 		fr: "Lianaja",
+		de: "Efoserp"
 	},
 
 	stage: "Stage2",
@@ -64,10 +65,12 @@ const card: Card = {
 			name: {
 				en: "Leaf Tornado",
 				fr: "Phytomixeur",
+				de: "Grasmixer"
 			},
 			effect: {
 				en: "Move as many Grass Energy attached to your Pokémon to your other Pokémon in any way you like.",
 				fr: "Déplacez autant d’Énergies Grass attachées à vos Pokémon que vous voulez vers vos autres Pokémon, de la manière que vous voulez.",
+				de: "Verschiebe beliebig viele an deine Pokémon angelegten {G}-Energien nach Belieben auf deine anderen Pokémon."
 			},
 			damage: 60,
 
@@ -90,10 +93,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279743,
-		tcgplayer: 89070
-	}
+	description: {
+		en: "They raise their heads to intimidate opponents but only give it their all when fighting a powerful opponent.",
+		de: "Versetzt Gegner in Ehrfurcht, indem es den Kopf weit in die Höhe streckt. Zeigt nur starken Gegnern seine wahre Macht."
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 279744,
+				tcgplayer: 89070
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 279744,
+				tcgplayer: 89070
+			}
+		},
+	],
 }
 
 export default card

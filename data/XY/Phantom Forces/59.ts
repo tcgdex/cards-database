@@ -66,7 +66,7 @@ const card: Card = {
 				es: "Descarta 1 Energía Metal unida a este Pokémon.",
 				it: "Scarta un'Energia Metal assegnata a questo Pokémon.",
 				pt: "Descarte uma Energia Metal ligada a este Pokémon.",
-				de: "Lege 1 an dieses Pokémon angelegte Metal-Energie auf deinen Ablagestapel."
+				de: "Lege 1 an dieses Pokémon angelegte {M}-Energie auf deinen Ablagestapel."
 			},
 			damage: 90,
 
@@ -88,6 +88,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "After nesting in bramble bushes, the wings of its chicks grow hard from scratches by thorns.",
+		de: "Die dornigen Zweige seines Nests bewirken, dass die Flügel seiner Jungen fest und hart werden."
+	},
 
 	thirdParty: {
 		cardmarket: 281865,

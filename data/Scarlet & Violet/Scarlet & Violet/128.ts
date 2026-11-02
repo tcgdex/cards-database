@@ -73,8 +73,18 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		holo: false
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
+	description: {
+		en: "It sharpens its swordlike tail on hard rocks. It hides in tall grass and strikes unwary prey with venomous fangs.",
+		de: "Es schärft den klingenartigen Schwanz an Steinen. Im Dickicht versteckt nähert es sich ahnungsloser Beute und greift diese mit seinen Giftzähnen an."
 	},
 
 	thirdParty: {

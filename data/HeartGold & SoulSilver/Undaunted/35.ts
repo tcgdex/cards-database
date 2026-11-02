@@ -4,7 +4,7 @@ import Set from '../Undaunted'
 const card: Card = {
 	name: {
 		en: "Sableye",
-		fr: "Tenefix",
+		fr: "Ténéfix",
 		de: "Zobiris"
 	},
 
@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		302,
-	],
+	dexId: [302],
 
 	hp: 60,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -72,22 +70,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It dwells in the darkness of caves. It uses its sharp claws to dig up gems to nourish itself."
+		en: "It dwells in the darkness of caves. It uses its sharp claws to dig up gems to nourish itself.",
+		de: "Es haust in düsteren Höhlen, wo es mit seinen spitzen Klauen Edelsteine ausgräbt und verspeist."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279288,
+				tcgplayer: 88854
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279288,
+				tcgplayer: 88854
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279288,
-		tcgplayer: 88854
-	}
 }
 
 export default card

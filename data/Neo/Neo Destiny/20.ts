@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Slowpoke",
-		fr: "Ramoloss"
+		fr: "Ramoloss",
+		de: "Flegmon"
 	},
 
 	stage: "Stage1",
@@ -73,23 +74,31 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
-		fr: "À chaque fois qu'il baille, le Kokiyas qu'il porte sur la tête projette une enzyme qui le rend encore plus intelligent."
+		en: "Each time it yawns, the Shellder on its head releases an enzyme that makes it grow even smarter.",
+		fr: "À chaque fois qu'il baille, le Kokiyas qu'il porte sur la tête projette une enzyme qui le rend encore plus intelligent.",
+		de: "Immer wenn es gähnt, gibt das Muschas auf seinem Kopf ein Enzym frei, das es sofort klüger macht."
 	},
 
-	thirdParty: {
-		cardmarket: 274672,
-		tcgplayer: 84656
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274672,
+				tcgplayer: 84656
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274672,
+				tcgplayer: 84656
+			}
 		}
 	]
 }

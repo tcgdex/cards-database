@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Noriko Hotta",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		417,
-	],
+	dexId: [417],
 
 	hp: 60,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -36,7 +34,7 @@ const card: Card = {
 			effect: {
 				en: "Once during your turn, when you put Pachirisu from your hand onto your Bench, you may attach up to 2 Lightning Energy cards from your hand to Pachirisu.",
 				fr: "Une seule fois pendant votre tour, lorsque vous placez Pachirisu de votre main sur votre Banc, vous pouvez lui attacher 2 cartes Énergie Lightning.",
-				de: "Einmal während deines Zuges kannst du, wenn du Pachirisu von deiner Hand auf deine Bank legst, bis zu 2 -Energiekarten von deiner Hand an Pachirisu anlegen."
+				de: "Einmal während deines Zuges kannst du, wenn du Pachirisu von deiner Hand auf deine Bank legst, bis zu 2 {L}-Energiekarten von deiner Hand an Pachirisu anlegen."
 			},
 		},
 	],
@@ -65,23 +63,39 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-20"
 		},
 	],
-
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279661,
-		tcgplayer: 87904
-	}
+	description: {
+		en: "It's one of the kinds of Pokémon with electric cheek pouches. It shoots charges from its tail.",
+		de: "Seine Backentaschen produzieren Elektrizität. Den so gesammelten Strom gibt es über den Schweif ab."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87904,
+				cardmarket: 279661
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87904,
+				cardmarket: 279661
+			},
+		},
+	],
+
 }
 
 export default card

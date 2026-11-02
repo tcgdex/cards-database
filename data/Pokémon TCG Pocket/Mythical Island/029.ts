@@ -22,7 +22,9 @@ const card: Card = {
 	types: ["Lightning"],
 
 	evolveFrom: {
-		en: "Joltik"
+		en: "Joltik",
+		fr: "Statitik",
+		de: "Wattzapf"
 	},
 
 	description: {
@@ -30,7 +32,7 @@ const card: Card = {
 		fr: "Il attaque en projetant les poils de son abdomen\nchargés en électricité. La victime reste alors\nparalysée pendant trois jours et trois nuits.",
 		es: "Ataca lanzando hilos electrificados por el\nabdomen, que inmovilizan por completo al\nenemigo durante tres días y tres noches.",
 		it: "Attacca lanciando peli carichi di elettricità dall'addome.\nChi viene colpito rimane paralizzato per tre giorni interi.",
-		de: "Es schießt elektrisch geladene Haare von seinem\nAbdomen. Wer getroffen wird, ist drei Tage und\nNächte am ganzen Körper gelähmt.",
+		de: "Es schießt elektrisch geladene Haare von seinem Abdomen. Wer getroffen wird, ist drei Tage und Nächte am ganzen Körper gelähmt.",
 		'pt-br': "Para atacar, lança pelos eletrificados do abdômen. Os oponentes que forem\natingidos por estes pelos poderão enfrentar três dias e três noites de paralisia.",
 		ko: "전기를 띤 배의 털을 날려서\n공격한다. 털에 찔리면\n삼 일 밤낮으로 전신이 마비된다."
 	},

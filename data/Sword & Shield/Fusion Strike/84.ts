@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 40,
 	types: ["Water"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Yuka Morii",
 
 	description: {
-		en: "It eats snow that piles up on the ground. The more snow it eats, the bigger and more impressive the spikes on its back grow."
+		en: "It eats snow that piles up on the ground. The more snow it eats, the bigger and more impressive the spikes on its back grow.",
+		de: "Es frisst den Schnee, der sich am Boden angesammelt hat. Je mehr es frisst, desto größer werden die Stacheln auf seinem Rücken."
 	},
 
 	attacks: [{
@@ -49,17 +56,30 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582218,
-		tcgplayer: 253238
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582218,
+				tcgplayer: 253238
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['snowflake'],
+			thirdParty: {
+				cardmarket: 740470
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582218,
+				tcgplayer: 253238
+			}
+		},
+	],
 }
 
 export default card

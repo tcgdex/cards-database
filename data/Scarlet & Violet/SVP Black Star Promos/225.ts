@@ -3,12 +3,13 @@ import Set from "../SVP Black Star Promos"
 
 const card: Card = {
 	set: Set,
+	cameoDexIds: [995],
 
 	name: {
 		en: "Pikachu",
 		fr: "Pikachu"
 	},
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Lightning"],
@@ -44,12 +45,20 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
-			stamp: ["worlds-2025"]
+			stamp: ["worlds-2025"],
+			thirdParty: {
+				cardmarket: 832224,
+				tcgplayer: 648631
+			},
 		},
 		{
 			type: "reverse",
 			foil: "league",
-			stamp: ["winner"]
+			stamp: ["winner"],
+			thirdParty: {
+				cardmarket: 838393,
+				tcgplayer: 649940
+			},
 		},
 	]
 }

@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Magneton"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Lightning"],
@@ -65,9 +65,33 @@ const card: Card = {
 		damage: 40
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
-	illustrator: "Shinya Mizuno"
+	illustrator: "Shinya Mizuno",
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 793743,
+				tcgplayer: 594385
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 799713,
+				tcgplayer: 607015
+			},
+		}
+	],
 }
 
 export default card

@@ -47,23 +47,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Polishing Bronzor to a shine makes its surface reflect the truth, according to common lore. Be that as it may, Bronzor hates being polished."
+		en: "Polishing Bronzor to a shine makes its surface reflect the truth, according to common lore. Be that as it may, Bronzor hates being polished.",
+		de: "Es heißt, wenn man es poliert, spiegelt sich die Wahrheit in ihm wider. Bronzel mag es jedoch überhaupt nicht, poliert zu werden."
 	},
 
-	thirdParty: {
-		cardmarket: 545586,
-		tcgplayer: 234188
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545586,
+				tcgplayer: 234188
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545586,
+				tcgplayer: 234188
+			}
+		},
+	],
 }
 
 export default card

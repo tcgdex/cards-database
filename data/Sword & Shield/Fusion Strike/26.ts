@@ -20,6 +20,12 @@ const card: Card = {
 	types: ["Grass"],
 	stage: "Basic",
 	suffix: "V",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "aky CG Works",
@@ -61,17 +67,16 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582095,
-		tcgplayer: 253120
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 582095,
+				tcgplayer: 253120
+			}
+		},
+	],
 }
 
 export default card

@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Son mauvais comportement lui a valu d'être enchaîné\nà une Clé de Voûte par un mystérieux sortilège.",
 		es: "Por sus constantes fechorías se le acabó uniendo\na una Piedra Espíritu con un misterioso hechizo.",
 		it: "A causa del suo comportamento molesto\nè stato imprigionato in una Roccianima\ncon un misterioso incantesimo.",
-		de: "Aufgrund seiner ständigen Untaten wurde es mit\nmysteriösen Künsten an einen Spiritkern gebunden.",
+		de: "Aufgrund seiner ständigen Untaten wurde es mit mysteriösen Künsten an einen Spiritkern gebunden.",
 		'pt-br': "Sua constante malvadeza e seus delitos causaram\nsua ligação a uma pedra por um feitiço misterioso.",
 		ko: "항상 나쁜 짓만 하고 있었기에\n신비한 술법에 의해 본모습을\n쐐기돌에 속박당했다."
 	},

@@ -22,21 +22,34 @@ const card: Card = {
 		es: "Si el Pokémon al que está unida esta carta queda Fuera de Combate por el daño de un ataque de los Pokémon de tu rival, descarta 1 carta aleatoria de la mano de tu rival.",
 		it: "Se il Pokémon a cui è assegnata questa carta viene messo KO dai danni inflitti da un attacco di un Pokémon del tuo avversario, scarta una carta a caso dalla mano del tuo avversario.",
 		pt: "Se o Pokémon ao qual esta carta está ligada for Nocauteado pelo dano de um ataque dos Pokémon do seu oponente, descarte uma carta aleatória da mão do seu oponente.",
-		de: "Wenn das Pokémon, an das diese Karte angelegt ist, durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel."
+		de: "Wenn das Pokémon, an das diese Karte angelegt ist, durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, lege 1 zufällige Karte aus der Hand deines Gegners auf seinen Ablagestapel. Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt."
 	},
 
 	trainerType: "Tool",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740702,
+				tcgplayer: 523842,
+				cardtrader: 265260
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740702,
+				tcgplayer: 523842,
+				cardtrader: 265260
+			}
+		},
+	],
 
 	illustrator: "AYUMI ODASHIMA",
 
-	thirdParty: {
-		cardmarket: 740702
-	}
+	
 }
 
 export default card

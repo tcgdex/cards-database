@@ -88,6 +88,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The ultrasonic waves it generates by rubbing its two wings together cause severe headaches.",
+		de: "Die Schallwellen, die es durch eine hohe Flügelschlagfrequenz erzeugt, verursachen heftige Kopfschmerzen."
+	},
+
 	thirdParty: {
 		cardmarket: 281739,
 		tcgplayer: 92255

@@ -62,13 +62,23 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275426,
+				tcgplayer: 86309
+			}
 		},
-	]
-
+	],
 }
 
 export default card

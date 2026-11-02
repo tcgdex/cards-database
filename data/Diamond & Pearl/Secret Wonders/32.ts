@@ -4,7 +4,7 @@ import Set from '../Secret Wonders'
 const card: Card = {
 	name: {
 		en: "Minun",
-		fr: "Negapi",
+		fr: "Négapi",
 		de: "Minun"
 	},
 
@@ -76,6 +76,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It cheers on friends. If its friends are losing, its body lets off more and more sparks.",
+	},
 
 	thirdParty: {
 		cardmarket: 277785,

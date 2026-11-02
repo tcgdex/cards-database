@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Pierce",
 				fr: "Transpercement",
+				de: "Durchbohren"
 			},
 
 			damage: 20,
@@ -60,10 +61,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 280035,
-		tcgplayer: 85426
-	}
+	description: {
+		en: "When threatened, it attacks by shooting a barrage of spikes, which gives it a chance to escape by rolling away.",
+		de: "Fühlt es sich bedroht, wehrt es sich, indem es eine großzügige Salve Dornen abfeuert."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280036,
+				tcgplayer: 85426
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280036,
+				tcgplayer: 85426
+			}
+		},
+	],
 }
 
 export default card

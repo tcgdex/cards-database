@@ -44,19 +44,34 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
+	description: {
+		en: "It absorbs electricity from telephone poles. It shorts out its body to create crackling noises.",
+		de: "Es holt sich Energie aus Telegrafenmasten. Wenn es diese entlädt, hört man ein lautes Prasseln."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740736,
+				tcgplayer: 523874,
+				cardtrader: 265388
+			}
+		},
+	],
 
 	illustrator: "OKACHEKE",
 
-	thirdParty: {
-		cardmarket: 740736
-	}
+	
 }
 
 export default card

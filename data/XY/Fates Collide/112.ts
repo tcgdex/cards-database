@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Lanza 2 monedas. Por cada cara, descarta las 2 primeras cartas de la baraja de tu rival.",
 		it: "Lancia due volte una moneta. Ogni volta che esce testa, scarta le prime due carte del mazzo del tuo avversario.",
 		pt: "Jogue 2 moedas. Para cada cara, descarte 2 cards de cima do baralho do seu oponente.",
-		de: "Wirf 2 Münzen. Lege pro \"Kopf\" 2 Karten vom Deck deines Gegners auf seinen Ablagestapel."
+		de: "Wirf 2 Münzen. Lege pro „Kopf“ 2 Karten vom Deck deines Gegners auf seinen Ablagestapel. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Lickitung δ",
 		fr: "Excelangue δ",
-		de: "Schlurp"
+		de: "Schlurp δ"
 	},
 
 	illustrator: "Masakazu Fukuda",

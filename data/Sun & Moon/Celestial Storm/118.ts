@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Whismur",
 		fr: "Chuchmur",
+		de: "Flurmel"
 	},
 
 	stage: "Stage1",
@@ -69,6 +70,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "The shock waves from its cries can tip over trucks. It stamps its feet to power up.",
+		de: "Die Schockwellen, die durch sein Rufen entstehen, können einen LKW umkippen."
+	},
 
 	thirdParty: {
 		cardmarket: 361357,

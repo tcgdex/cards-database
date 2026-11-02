@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "chibi",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -66,6 +66,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It is thought that Uxie, Mesprit, and Azelf all came from the same egg.",
+	},
 
 	thirdParty: {
 		cardmarket: 291583

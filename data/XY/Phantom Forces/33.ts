@@ -100,6 +100,11 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It flies so silently through the dark on its four wings that it may not be noticed even when nearby.",
+		de: "Mit seinen vier Flügeln fliegt es so geräuschlos durch die Nacht, dass man es nicht bemerkt."
+	},
+
 	thirdParty: {
 		cardmarket: 281839,
 		tcgplayer: 94166

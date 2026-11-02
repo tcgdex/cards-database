@@ -65,18 +65,47 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 715535,
+				tcgplayer: 497471,
+				cardtrader: 248676
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 785699
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715535,
+				tcgplayer: 497471,
+				cardtrader: 248676
+			}
+		},
+	],
 
 	illustrator: "Shin Nagasawa",
 
-	thirdParty: {
-		cardmarket: 715535
-	}
+	description: {
+		en: "This Pokémon blasts cryogenic air out from its mouth. This air can instantly freeze even liquid-hot lava.",
+		de: "Aus seinem Maul stößt es unfassbare Kälte aus, die sogar glühendes Magma augenblicklich gefrieren lässt."
+	},
 }
 
 export default card

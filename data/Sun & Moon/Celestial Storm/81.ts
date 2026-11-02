@@ -91,6 +91,11 @@ const card: Card = {
 
 	retreat: 4,
 
+	description: {
+		en: "This legendary Pokémon is said to represent the land. It went to sleep after dueling Kyogre.",
+		de: "Dieses Legendäre Pokémon soll das Land verkörpern. Es ist in einen Schlaf gefallen, nachdem es mit Kyogre gekämpft hat."
+	},
+
 	thirdParty: {
 		cardmarket: 361326,
 		tcgplayer: 170903

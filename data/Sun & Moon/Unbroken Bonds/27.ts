@@ -87,6 +87,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "If you try too hard to get close to it, it won't open up to you. Even if you do grow close, giving it too much affection is still a no-no.",
+		de: "Gegenüber Menschen, die zu aufdringlich sind, verschließt es sich. Übermäßiger Körperkontakt ist für Flamiau selbst bei guten Freunden tabu."
+	},
+
 	thirdParty: {
 		cardmarket: 372318,
 		tcgplayer: 189073

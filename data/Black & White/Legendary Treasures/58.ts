@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power.",
+	},
+
 	thirdParty: {
 		cardmarket: 281209,
 		tcgplayer: 87520

@@ -92,6 +92,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It mimics the cries of other Pokémon to trick them into thinking it's one of them. This way they won't attack it.",
+		de: "Es versucht Attacken zu entgehen, indem es den Ruf des Gegners nachahmt und einen Artgenossen mimt."
+	},
+
 	thirdParty: {
 		cardmarket: 372450,
 		tcgplayer: 189264

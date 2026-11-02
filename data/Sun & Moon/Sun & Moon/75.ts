@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Sandygast",
 		fr: "Bacabouh",
+		de: "Sankabuh"
 	},
 
 	stage: "Stage1",
@@ -92,6 +93,11 @@ const card: Card = {
 	],
 
 	retreat: 4,
+
+	description: {
+		en: "Buried beneath the castle are masses of dried-up bones from those whose vitality it has drained.",
+		de: "Unter seiner Sandburg liegen zahlreiche Knochen qualvoll Verstorbener, denen die Lebenskraft ausgesaugt wurde."
+	},
 
 	thirdParty: {
 		cardmarket: 295386,

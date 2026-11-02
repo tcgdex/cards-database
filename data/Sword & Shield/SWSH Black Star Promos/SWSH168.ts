@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Oricorio"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Fire"],
@@ -64,16 +64,28 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
 	description: {
 		en: "This Oricorio has drunk red nectar. If its Trainer gives the wrong order, this passionate Pokémon becomes fiercely angry."
 	},
-
-	thirdParty: {
-		cardmarket: 580165
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 580165,
+				tcgplayer: 253404
+			}
+		},
+	],
 }
 
 export default card

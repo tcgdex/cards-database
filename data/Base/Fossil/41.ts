@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Sandshrew",
-		fr: "Sabelette"
+		fr: "Sabelette",
+		de: "Sandan"
 	},
 
 	stage: "Stage1",
@@ -58,7 +59,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
-				de: "Wirf drei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze 'Kopf' zeigt 20 Schadenspunkte zu."
+				de: "Wirf drei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 20 Schadenspunkte zu."
 			},
 			damage: "20x",
 
@@ -78,31 +79,41 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Il se roule en boule hérissée de piques s'il est menacé. Il peut ainsi s'enfuir ou attaquer."
+		en: "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
+		fr: "Il se roule en boule hérissée de piques s'il est menacé. Il peut ainsi s'enfuir ou attaquer.",
+		de: "Verwandelt sich bei Bedrohung in eine Stachelkugel. Kann in dieser Form zum Angriff oder zur Flucht rollen."
 	},
 
-	thirdParty: {
-		cardmarket: 273902,
-		tcgplayer: 44443
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273902,
+				tcgplayer: 44443
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 273902,
+				tcgplayer: 44443
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			thirdParty: {
+				cardmarket: 273902,
+				tcgplayer: 44443
+			}
 		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright"
-		}
-	]
+	],
 }
 
 export default card

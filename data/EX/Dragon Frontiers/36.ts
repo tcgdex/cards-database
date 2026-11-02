@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Quilava δ",
 		fr: "Feurisson δ",
-		de: "Igelavar"
+		de: "Igelavar δ"
 	},
 
 	illustrator: "Midori Harada",

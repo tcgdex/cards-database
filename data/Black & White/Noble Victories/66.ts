@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Rock Throw",
 				fr: "Jet-Pierres",
+				de: "Steinwurf"
 			},
 
 			damage: 20,
@@ -49,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Acrobatics",
 				fr: "Acrobatie",
+				de: "Akrobatik"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 20 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 20 dégâts supplémentaires pour chaque côté face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 20,
 
@@ -68,10 +71,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280189,
-		tcgplayer: 83607
-	}
+	description: {
+		en: "Said to be an ancestor of bird Pokémon, they were unable to fly and moved about by hopping from one branch to another.",
+		de: "Man nennt es den Urvater der Vogel-Pokémon. Da es nicht fliegen kann, bewegt es sich hüpfend von Ast zu Ast."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 280189,
+				tcgplayer: 83607
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 280189,
+				tcgplayer: 83607
+			}
+		},
+	],
 }
 
 export default card

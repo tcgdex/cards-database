@@ -51,7 +51,7 @@ const card: Card = {
 			effect: {
 				en: "Search your deck for a Basic Pokémon named Hoppip and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
 				fr: "Cherchez un Pokémon de base nommé Granivol dans votre deck et placez-le sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)",
-				de: "Durchsuche dein Deck nach einer Basis-Pokémon-Karte mi dem Namen Hoppspross und lege sie auf deine Bank. Mische dein Deck danach. (Du kannst diesen Angriff nicht verwenden, wenn deine Bank voll ist."
+				de: "Durchsuche dein Deck nach einer Basis-Pokémon-Karte mit dem Namen Hoppspross und lege sie auf deine Bank. Mische dein Deck danach. (Du kannst diesen Angriff nicht verwenden, wenn deine Bank voll ist.)"
 			},
 
 		},
@@ -72,21 +72,27 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Afin de ne pas être emportés par le vent, ils se regroupent. Toutefois, ils apprécient une légère brise."
+		en: "To keep from being blown away by the wind, they gather in clusters. They do enjoy gentle breezes, though.",
+		fr: "Afin de ne pas être emportés par le vent, ils se regroupent. Toutefois, ils apprécient une légère brise.",
+		de: "Um nicht vom Wind weggeblasen zu werden, sammeln sie sich in Scharen. Sie wissen eine leichte Brise jedoch durchaus zu schätzen."
 	},
 
-	thirdParty: {
-		cardmarket: 274461,
-		tcgplayer: 86177
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274461,
+				tcgplayer: 86177
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274461,
+				tcgplayer: 86177
+			}
 		}
 	]
 }

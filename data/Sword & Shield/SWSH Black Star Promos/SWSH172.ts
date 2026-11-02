@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Tepig"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 80,
 	types: ["Fire"],
@@ -48,16 +48,28 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 
 	description: {
 		en: "It loves to eat roasted berries, but sometimes it gets too excited and burns them to a crisp."
 	},
-
-	thirdParty: {
-		cardmarket: 583199
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 583199,
+				tcgplayer: 253408
+			}
+		},
+	],
 }
 
 export default card

@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 50,
 	types: ["Grass"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Miki Tanaka",
 
 	description: {
-		en: "Dewpider normally lives underwater. When it comes onto land in search of food, it takes water with it in the form of a bubble on its head."
+		en: "Dewpider normally lives underwater. When it comes onto land in search of food, it takes water with it in the form of a bubble on its head.",
+		de: "Es verlässt das Wasser nur selten. Wenn es auf Futtersuche an Land kommt, hüllt es seinen Kopf in eine Wasserblase."
 	},
 
 	attacks: [{
@@ -42,17 +49,23 @@ const card: Card = {
 		damage: 20
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582067,
-		tcgplayer: 253102
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582067,
+				tcgplayer: 253102
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582067,
+				tcgplayer: 253102
+			}
+		},
+	],
 }
 
 export default card

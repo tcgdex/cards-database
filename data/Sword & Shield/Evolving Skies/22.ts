@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Litleo",
@@ -49,16 +43,29 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This hot-blooded Pokémon is filled with curiosity. When it gets angry or starts fighting, its short mane gets hot."
+		en: "This hot-blooded Pokémon is filled with curiosity. When it gets angry or starts fighting, its short mane gets hot.",
+		de: "Ein sehr aktives und neugieriges Pokémon. Bei Kampfbeginn und wenn es wütend ist, wird seine Mähne heiß."
 	},
 
 	dexId: [667],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574046,
-		tcgplayer: 246838
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574046,
+				tcgplayer: 246838
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574046,
+				tcgplayer: 246838
+			}
+		},
+	],
 }
 
 export default card

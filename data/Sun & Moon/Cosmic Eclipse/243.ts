@@ -86,6 +86,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its thin, balloon-like body is inflated by horribly toxic gases. It reeks when it is nearby.",
+		de: "Sein dünner, ballonartiger Körper ist mit schrecklichem Giftgas gefüllt. Es verbreitet einen heftigen Gestank, wenn es in der Nähe ist."
+	},
+
 	thirdParty: {
 		cardmarket: 398544,
 		tcgplayer: 201354

@@ -66,6 +66,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It scans its surroundings by raising its ears out of the grass. Its toxic horn is for protection.",
+	},
+
 	variants: [
 		{
 			type: "normal",

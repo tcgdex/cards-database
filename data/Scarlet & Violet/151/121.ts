@@ -65,18 +65,42 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "Starmie swims by spinning its body at high speed. As this Pokémon cruises through the ocean, it absorbs tiny plankton.",
+		de: "Starmie bewegt sich im Wasser fort, indem es seinen Körper mit hoher Geschwindigkeit rotieren lässt. Unterwegs absorbiert es winziges Plankton."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733716,
+				tcgplayer: 516684,
+				cardtrader: 261622
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733716,
+				tcgplayer: 516684,
+				cardtrader: 261622
+			}
+		},
+	],
 
 	illustrator: "Arai Kiriko",
 
-	thirdParty: {
-		cardmarket: 733716
-	}
+	
 }
 
 export default card

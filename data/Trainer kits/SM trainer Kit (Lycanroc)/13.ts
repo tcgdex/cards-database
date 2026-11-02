@@ -14,10 +14,13 @@ const card: Card = {
 		de: "Dartignis"
 	},
 
+	illustrator: "kawayoo",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 70,
-	types: ["Colorless"],
+	types: [
+		"Colorless"
+	],
 
 	evolveFrom: {
 		en: "Fletchling",
@@ -28,6 +31,33 @@ const card: Card = {
 		de: "Dartiri"
 	},
 
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				en: "Flap",
+				de: "Flattern"
+			},
+			damage: 20
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Razor Wind",
+				de: "Klingensturm"
+			},
+			effect: {
+				en: "Flip a coin. If tails, this attack does nothing.",
+				de: "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+			},
+			damage: 40
+		},
+	],
 	stage: "Stage1",
 	retreat: 1,
 
@@ -41,9 +71,16 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	thirdParty: {
-		tcgplayer: 152833
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297244,
+				tcgplayer: 152833
+			}
+		},
+	],
+
 }
 
 export default card

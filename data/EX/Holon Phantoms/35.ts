@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Aerodactyl δ",
 		fr: "Ptera δ",
-		de: "Aerodactyl"
+		de: "Aerodactyl δ"
 	},
 
 	illustrator: "Mitsuhiro Arita",
@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Mysterious Fossil",
-		fr: "Mystérieux fossile"
+		fr: "Mystérieux fossile",
+		de: "Geheimnis-Fossil"
 	},
 
 	stage: "Stage1",

@@ -84,23 +84,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm."
+		en: "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm.",
+		de: "Man berichtet, es sei der Wächter der Meere und man habe es im Herzen eines tosenden Sturmes gesehen."
 	},
 
-	thirdParty: {
-		cardmarket: 483579,
-		tcgplayer: 219340
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483579,
+				tcgplayer: 219340
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483579,
+				tcgplayer: 219340
+			}
+		},
+	],
 }
 
 export default card

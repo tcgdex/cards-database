@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [25],
 
 	dexId: [
 		361,
@@ -62,6 +63,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It feeds mainly on ice and snow. It's only able to survive in a limited number of places in the warm Alola region.",
+		de: "Es ernährt sich hauptsächlich von Eis und Schnee. Im warmen Alola kann es daher nur an wenigen Orten überleben."
+	},
 
 	thirdParty: {
 		cardmarket: 407884,

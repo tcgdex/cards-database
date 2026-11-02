@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Maschock"
 	},
 
+	illustrator: "Mitsuhiro Arita",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 100,
@@ -61,16 +62,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674100,
-		tcgplayer: 283973
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674100,
+				tcgplayer: 283973
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674100,
+				tcgplayer: 283973
+			}
+		},
+	],
 }
 
 export default card

@@ -59,23 +59,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It bounces around on its tail to keep its heart pumping. It carries a pearl from Clamperl on its head."
+		en: "It bounces around on its tail to keep its heart pumping. It carries a pearl from Clamperl on its head.",
+		de: "Seine Hüpfbewegungen bringen sein Herz zum Schlagen. Es trägt eine Perle von Perlu auf dem Kopf."
 	},
 
-	thirdParty: {
-		cardmarket: 545386,
-		tcgplayer: 234221
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545386,
+				tcgplayer: 234221
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545386,
+				tcgplayer: 234221
+			}
+		},
+	],
 }
 
 export default card

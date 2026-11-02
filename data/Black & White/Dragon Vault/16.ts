@@ -75,10 +75,19 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 281016,
-		tcgplayer: 86034
-	}
+	description: {
+		en: "They are kind but can be relentless when defending territory. They challenge foes with tusks that can cut steel.",
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281016,
+				tcgplayer: 86034
+			}
+		},
+	],
 }
 
 export default card

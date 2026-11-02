@@ -24,6 +24,16 @@ const card: Card = {
 		'zh-cn': "從自己的棄牌區選擇寶可夢卡與基本能量卡合計最多5張，在給對手看過後加入手牌。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803255,
+				tcgplayer: 602566,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "H"
 }

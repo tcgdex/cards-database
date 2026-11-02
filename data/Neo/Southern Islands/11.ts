@@ -10,6 +10,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [129],
 
 	dexId: [
 		183,
@@ -29,15 +30,20 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275641,
-		tcgplayer: 46468
+
+	description: {
+		en: "This Pokémon's fur repels water like a duck's feathers, allowing it to stay dry and fluffy even in water.",
 	},
 
 	variants: [
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275641,
+				tcgplayer: 46468
+			}
 		}
 	]
 }

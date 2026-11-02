@@ -34,7 +34,7 @@ const card: Card = {
 				es: "Llama",
 				it: "Fiammata",
 				pt: "Chama",
-				de: "Flackern"
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -51,7 +51,7 @@ const card: Card = {
 				es: "Placaje",
 				it: "Azione",
 				pt: "Investida",
-				de: "Tackle"
+				de: "Flackern"
 			},
 
 			damage: 20,
@@ -77,7 +77,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power."
+		en: "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power.",
+		de: "Erhöht es durch Rennen seine Körpertemperatur, strömt Feuer-Energie durch seinen Körper. Dann kann es seine wahre Kraft entfesseln."
 	},
 
 	dexId: [813],

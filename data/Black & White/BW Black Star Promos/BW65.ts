@@ -50,6 +50,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "When it wavers its big, round eyes, it begins singing a lullaby that makes everyone drowsy.",
+	},
 }
 
 export default card

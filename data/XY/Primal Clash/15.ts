@@ -62,6 +62,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It spouts poison spores from the top of its head. These spores cause pain all over if inhaled.",
+	},
+
 	thirdParty: {
 		cardmarket: 273546,
 		tcgplayer: 95899

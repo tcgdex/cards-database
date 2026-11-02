@@ -65,18 +65,50 @@ const card: Card = {
 		damage: 110
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "People believe this Pokémon formed when two Vanillish stuck together. Its body temperature is roughly 21 degrees Fahrenheit.",
+		de: "Seine Körpertemperatur beträgt circa -6 ºC. Angeblich ist es aus der Verschmelzung von zwei Gelatroppo hervorgegangen."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740525,
+				tcgplayer: 523654,
+				cardtrader: 265127
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			stamp: ['snowflake'],
+			thirdParty: {
+				cardmarket: 785466
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740525,
+				tcgplayer: 523654,
+				cardtrader: 265127
+			}
+		},
+	],
 
 	illustrator: "Nelnal",
 
-	thirdParty: {
-		cardmarket: 740525
-	}
+	
 }
 
 export default card

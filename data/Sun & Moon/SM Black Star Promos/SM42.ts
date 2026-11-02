@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Cosmog"
 	},
 	illustrator: "Megumi Mizutani",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -61,6 +61,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Its body is gaseous and frail. It slowly grows as it collects dust from the atmosphere.",
+		de: "Sein Körper besteht aus flüchtigem Gas. Es wächst durch das Sammeln von Staub aus der Luft."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299578,
+				tcgplayer: 139100
+			}
+		}
+	],
 }
 
 export default card

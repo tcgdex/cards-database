@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Ayaka Yoshida",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		484,
-	],
+	dexId: [484],
 
 	hp: 100,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -51,15 +49,26 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 3,
+
+	description: {
+		en: "Its total control over the boundaries of space enable it to transport itself to faraway places or even other dimensions.",
+		de: "Es kann frei das Gefüge des Raums manipulieren und so an entlegene Orte oder Dimensionen reisen."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87912,
+				cardmarket: 279662
+			},
 		},
 	],
 
-	retreat: 3,
-
-	thirdParty: {
-		cardmarket: 279662
-	}
 }
 
 export default card

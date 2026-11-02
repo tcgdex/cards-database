@@ -4,7 +4,7 @@ import Set from '../Unseen Forces'
 const card: Card = {
 	name: {
 		en: "Tyrogue",
-		fr: "Debugant",
+		fr: "Débugant",
 		de: "Rabauz"
 	},
 
@@ -71,20 +71,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276679,
-		tcgplayer: 90129
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 90129,
+				cardmarket: 276679
+			},
 		},
 		{
-			type: "normal",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 90129,
+				cardmarket: 276679
+			},
 		}
-	]
+	],
 }
 
 export default card

@@ -50,12 +50,6 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "VMAX",
 	illustrator: "PLANETA Tsuji",
@@ -71,10 +65,16 @@ const card: Card = {
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 546621,
-		tcgplayer: 234083
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 546621,
+				tcgplayer: 234083
+			}
+		},
+	],
 }
 
 export default card

@@ -74,18 +74,42 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Using its horn, it bores holes in riverbed boulders, making nests to prevent its eggs from washing away.",
+		de: "Es laicht in Löchern, die es mit seinem Horn in Felsen des Flussbettes gebohrt hat, damit seine Eier nicht vom Wasser fortgespült werden."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733714,
+				tcgplayer: 516682,
+				cardtrader: 261217
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733714,
+				tcgplayer: 516682,
+				cardtrader: 261217
+			}
+		},
+	],
 
 	illustrator: "SIE NANAHARA",
 
-	thirdParty: {
-		cardmarket: 733714
-	}
+	
 }
 
 export default card

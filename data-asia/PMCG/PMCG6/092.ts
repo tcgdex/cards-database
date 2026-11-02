@@ -4,8 +4,9 @@ import Set from "../PMCG6"
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ロケットの地雷原ジム",
+		ja: "ロケット団の爆発ジム",
 	},
+	illustrator: "Keiji Kinebuchi",
 
 	rarity: "Uncommon",
 	category: "Trainer",
@@ -13,6 +14,9 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575383
+			},
 		},
 	],
 };

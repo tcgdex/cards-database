@@ -22,22 +22,25 @@ const card: Card = {
 		es: "El Pokémon Básico al que esté unida esta carta obtiene 50 PS más.",
 		it: "Il Pokémon Base a cui è assegnata questa carta ha 50 PS in più.",
 		pt: "O Pokémon Básico ao qual esta carta está ligada recebe 50 PS a mais.",
-		de: "Das Basis-Pokémon, an das diese Karte angelegt ist, erhält +50 KP."
+		de: "Das Basis-Pokémon, an das diese Karte angelegt ist, erhält +50 KP. Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt."
 	},
 
 	trainerType: "Tool",
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo",
+			foil: "gold",
+			thirdParty: {
+				cardmarket: 786029,
+				tcgplayer: 567491
+			}
+		},
+	],
 
 	illustrator: "Toyste Beach",
 
-	thirdParty: {
-		cardmarket: 786029
-	}
 }
 
 export default card

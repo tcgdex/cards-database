@@ -60,22 +60,46 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "Ancient people believed that the pattern on Bronzor's back contained a mysterious power.",
+		fr: "On croyait autrefois que les motifs qui ornent son dos renfermaient une puissance mystique.",
+		de: "Früher glaubten die Menschen, dem Muster auf seinem Rücken wohne eine mysteriöse Kraft inne."
+	},
+
+	illustrator: "OKUBO",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857646,
+				tcgplayer: 662138,
+				cardtrader: 356857
+			}
 		},
 		{
-			type: "reverse"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857646,
-		tcgplayer: 662138
-	}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857646,
+				tcgplayer: 662138,
+				cardtrader: 356857
+			}
+		},
+	],	
 }
 
 export default card

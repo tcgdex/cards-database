@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Quagsire δ",
 		fr: "Maraiste δ",
-		de: "Morlord"
+		de: "Morlord δ"
 	},
 
 	illustrator: "Sachiko Adachi",

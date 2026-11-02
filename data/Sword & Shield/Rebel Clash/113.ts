@@ -85,23 +85,30 @@ const card: Card = {
 	types: ["Darkness"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "This Pokémon consumes particles that contaminate the air. Instead of leaving droppings, it expels clean air."
+		en: "This Pokémon consumes particles that contaminate the air. Instead of leaving droppings, it expels clean air.",
+		de: "Es saugt Schmutzpartikel aus der Atmosphäre und scheidet sie dann anstelle von Exkrementen in Form von sauberer Luft wieder aus."
 	},
 
-	thirdParty: {
-		cardmarket: 457973,
-		tcgplayer: 213205
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 457973,
+				tcgplayer: 213205
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457973,
+				tcgplayer: 213205
+			}
+		},
+	],
 }
 
 export default card

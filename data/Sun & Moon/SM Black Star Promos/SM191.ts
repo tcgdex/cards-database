@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "sui",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -60,7 +60,7 @@ const card: Card = {
 				es: "Dúo Milagroso GX",
 				it: "Duo Miracoloso GX",
 				pt: "Duo Milagroso GX",
-				de: "Wunderduo GX"
+				de: "Wunderduo-GX"
 			},
 			effect: {
 				en: "If this Pokémon has at least 1 extra Energy attached to it (in addition to this attack’s cost), heal all damage from all of your Pokémon. (You can’t use more than 1 GX attack in a game.)",
@@ -82,7 +82,17 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2
+	retreat: 2,
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 397954,
+				tcgplayer: 197856
+			}
+		}
+	],
 }
 
 export default card

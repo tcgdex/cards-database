@@ -76,7 +76,9 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		fr: "Sa peau est très épaisse et sa charge peut détruire un immeuble. Dommage qu'il soit stupide."
+		en: "Its body is clad in a thick hide, and its tackles topple buildings. Unfortunately, it is not smart.",
+		fr: "Sa peau est très épaisse et sa charge peut détruire un immeuble. Dommage qu'il soit stupide.",
+		de: "Sein Körper ist von einer dicken Haut umgeben und es kann wackelige Gebäude zum Einsturz bringen."
 	},
 
 	thirdParty: {

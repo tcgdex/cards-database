@@ -4,6 +4,7 @@ import Set from "../White Flare"
 const card: Card = {
 	dexId: [503],
 	set: Set,
+	cameoDexIds: [278],
 
 	name: {
 		en: "Samurott",
@@ -84,9 +85,15 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836108
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836108,
+				tcgplayer: 642219
+			}
+		},
+	],
 }
 
 export default card

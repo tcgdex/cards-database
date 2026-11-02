@@ -58,7 +58,7 @@ const card: Card = {
 				es: "Lanza 1 moneda. Si sale cara, este ataque hace 40 puntos de daño más.",
 				it: "Lancia una moneta. Se esce testa, questo attacco infligge 40 danni in più.",
 				pt: "Jogue uma moeda. Se sair cara, este ataque causará 40 de danos adicionais.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 40 weitere Schadenspunkte zu."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 40 weitere Schadenspunkte zu."
 			},
 			damage: "80+",
 
@@ -97,6 +97,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "Its roar in battle shakes the ground like a tremor–or like an earthquake has struck.",
+		de: "Sein Grollen, das es während des Kampfs ausstößt, erschüttert den Boden ganz wie bei einem Erdbeben."
+	},
 
 	thirdParty: {
 		cardmarket: 289903,

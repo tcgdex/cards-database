@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Tortunator"
 	},
 	illustrator: "TOKIYA",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -46,7 +46,7 @@ const card: Card = {
 				es: "Une 1 carta de Energía Fire de tu pila de descartes a este Pokémon.",
 				it: "Assegna a questo Pokémon una carta Energia Fire dalla tua pila degli scarti.",
 				pt: "Ligue um card de Energia Fire da sua pilha de descarte a este Pokémon.",
-				de: "Nimm 1 Fire-Energiekarte von deinem Ablagestapel und lege sie an dieses Pokémon an."
+				de: "Lege 1 {R}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 			},
 			damage: 30,
 
@@ -81,6 +81,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "The shell on its back is chemically unstable and explodes violently if struck. The hole in its stomach is its weak point.",
+		de: "Sein Rückenpanzer ist explosiv, man sollte ihm also niemals auf den Rücken klopfen. Das Loch in seinem Bauch ist seine Schwachstelle."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297865,
+				tcgplayer: 131294
+			}
+		}
+	],
 }
 
 export default card

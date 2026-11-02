@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Wolwerock"
 	},
 	illustrator: "Shin Nagasawa",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Rockruff",
 		fr: "Rocabot",
+		de: "Wuffels"
 	},
 	stage: "Stage1",
 
@@ -84,6 +85,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Bathed in the setting sun of evening, Lycanroc has undergone a special kind of evolution. An intense fighting spirit underlies its calmness.",
+		de: "Diese besondere Entwicklung vollzog es durch ein Bad in der Abendsonne. Es wirkt zwar ruhig, aber in ihm schlummert ein großer Kampfgeist."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 321165,
+				tcgplayer: 162604
+			}
+		}
+	],
 }
 
 export default card

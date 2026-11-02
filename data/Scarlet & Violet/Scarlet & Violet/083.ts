@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Drowzee",
-		fr: "Soporifik"
+		fr: "Soporifik",
+		de: "Traumato"
 	},
 
 	stage: "Stage1",
@@ -61,14 +62,36 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Toshinao Aoki",
+
+	description: {
+		en: "Always holding a pendulum that it swings at a steady rhythm, it causes drowsiness in anyone nearby.",
+		de: "Es hält immer ein Pendel, welches es in einem gleichmäßigen Rhythmus bewegt. Dies verursacht bei jedem in seiner Nähe Müdigkeit."
+	},
 
 	thirdParty: {
         cardmarket: 702379,

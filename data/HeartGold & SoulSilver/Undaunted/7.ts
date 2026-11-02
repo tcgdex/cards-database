@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Kent Kanetsuna/Direc. Shinji Higuchi",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		212,
-	],
+	dexId: [212],
 
 	hp: 90,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	evolveFrom: {
 		en: "Scyther",
 		fr: "Insecateur",
+		de: "Sichlor"
 	},
 
 	stage: "Stage1",
@@ -79,22 +78,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its wings are not used for flying. They are flapped at high speed to adjust its body temperature."
+		en: "Its wings are not used for flying. They are flapped at high speed to adjust its body temperature.",
+		de: "Es benutzt seine Flügel nicht zum fliegen, sondern regelt durch emsiges Schlagen die Körpertemperatur."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279260,
+				tcgplayer: 88963
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279260,
+				tcgplayer: 88963
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279260,
-		tcgplayer: 88963
-	}
 }
 
 export default card

@@ -7,6 +7,7 @@ const card: Card = {
 		ja: "パラセクト",
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	dexId: [47],
@@ -39,6 +40,9 @@ const card: Card = {
 	variants : [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 576635
+			},
 		},
 	],
 };

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Popplio",
 		fr: "Otaquin",
+		de: "Robball"
 	},
 
 	stage: "Stage1",
@@ -86,6 +87,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "A skillful dancer, it creates a sequence of water balloons as it dances, and briskly bombards it enemies.",
+		de: "Dieser begnadete Tänzer erzeugt beim Tanzen eine Wasserblase nach der anderen und greift damit seine Feinde an."
+	},
 
 	thirdParty: {
 		cardmarket: 295350,

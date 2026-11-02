@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Paras",
 		fr: "Paras",
+		it: "Paras",
 		de: "Paras"
 	},
 
@@ -34,6 +35,7 @@ const card: Card = {
 			name: {
 				en: "Scratch",
 				fr: "Griffe",
+				it: "Graffio",
 				de: "Kratzer"
 			},
 
@@ -48,11 +50,13 @@ const card: Card = {
 			name: {
 				en: "Spore",
 				fr: "Spore",
+				it: "Spore",
 				de: "Pilzspore"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
+				it: "Il Pokémon Difensore è Addormentato.",
 				de: "Das verteidigende Pokémon ist jetzt schlafend."
 			},
 
@@ -65,24 +69,33 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Les champignons sur son dos se nourrissent des nutriments de leur hôte insectoïde."
+		en: "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.",
+		fr: "Les champignons sur son dos se nourrissent des nutriments de leur hôte insectoïde.",
+		it: "Scava il terreno per succhiare liquidi dalle radici. I funghi sul suo dorso crescono assorbendo nutrimento dal bruco ospite.",
+		de: "Buddelt sich ein, um an Baumwurzeln zu saugen. Die Pilze auf seinem Rücken wachsen, weil sie dem Käferwirt Nährstoffe entziehen."
 	},
 
-	thirdParty: {
-		cardmarket: 273856,
-		tcgplayer: 45162
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273856,
+				tcgplayer: 45162
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
-		}
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273856,
+				tcgplayer: 45162
+			}
+		},
 	],
 }
 

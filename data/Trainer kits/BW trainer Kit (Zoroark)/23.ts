@@ -18,7 +18,9 @@ const card: Card = {
 	rarity: "None",
 	category: "Pokemon",
 	hp: 60,
-	types: ["Darkness"],
+	types: [
+		"Darkness"
+	],
 	stage: "Basic",
 
 	attacks: [{
@@ -28,11 +30,13 @@ const card: Card = {
 		],
 		name: {
 			en: "Lunge",
-			fr: "Coup Rapide"
+			fr: "Coup Rapide",
+			de: "Ausfall"
 		},
 		effect: {
 			en: "Flip a coin. If tails, this attack does nothing.",
-			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien."
+			fr: "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 		},
 		damage: 30
 	}],
@@ -48,10 +52,21 @@ const card: Card = {
 	}],
 
 	description: {
-		en: "To protect themselves from danger, they hide their true identities by transforming into people and Pokémon."
+		en: "To protect themselves from danger, they hide their true identities by transforming into people and Pokémon.",
+		de: "Es tarnt sich als Mensch oder als andere Pokémon. Es schützt sich vor Gefahren, indem es seine wahre Gestalt geheim hält."
 	},
 
 	retreat: 1,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 280078,
+				tcgplayer: 98711
+			}
+		},
+	],
+
 }
 
 export default card

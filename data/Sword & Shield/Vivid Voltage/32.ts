@@ -17,6 +17,7 @@ const card: Card = {
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [320],
 	hp: 200,
 
 	types: [
@@ -93,12 +94,6 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -106,10 +101,22 @@ const card: Card = {
 		en: "It can sometimes knock out opponents with the shock created by breaching and crashing its big body onto the water."
 	},
 
-	thirdParty: {
-		cardmarket: 511580,
-		tcgplayer: 226411
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 511580,
+				tcgplayer: 226411
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511580,
+				tcgplayer: 226411
+			}
+		},
+	],
 }
 
 export default card

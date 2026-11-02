@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Loudred"
+		en: "Loudred",
+		fr: "Ramboum"
 	},
 
 	illustrator: "MAHOU",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Whismur"
+		en: "Whismur",
+		fr: "Chuchmur"
 	},
 
 	description: {
@@ -28,7 +30,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Hyper Voice"
+			en: "Hyper Voice",
+			fr: "Mégaphone"
 		},
 
 		damage: 40,

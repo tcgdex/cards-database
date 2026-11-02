@@ -65,18 +65,55 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "This Pokémon's pincers, which contain steel, can crush any hard object they get ahold of into bits.",
+		de: "Scherox’ Scheren bestehen zum Teil aus Stahl, wodurch es mit ihnen jedes noch so harte Objekt zerkleinern kann, das es zu fassen bekommt."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 725221,
+				tcgplayer: 509919,
+				cardtrader: 255826
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'galaxy',
+			thirdParty: {
+				cardmarket: 858722
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725221,
+				tcgplayer: 509919,
+				cardtrader: 255826
+			}
+		},
+	],
 
 	illustrator: "otumami",
 
-	thirdParty: {
-		cardmarket: 725221
-	}
+	
 }
 
 export default card

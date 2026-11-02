@@ -80,6 +80,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "With its Herculean powers, it can easily throw around an object that is 100 times its own weight.",
+		de: "Mit seiner herkulischen Kraft kann es Objekte, die hundertmal sein Körpergewicht haben, mühelos umwerfen."
+	},
+
 	thirdParty: {
 		cardmarket: 365611,
 		tcgplayer: 178817

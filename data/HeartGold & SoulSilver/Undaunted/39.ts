@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		176,
-	],
+	dexId: [176],
 
 	hp: 80,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Togepi",
 		fr: "Togepi",
+		de: "Togepi"
 	},
 
 	stage: "Stage1",
@@ -58,9 +57,9 @@ const card: Card = {
 				de: "Fliegen"
 			},
 			effect: {
-				en: "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of attacks, including damage, done to Togetic during your opponent’s next turn.",
+				en: "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of attacks, including damage done to Togetic during your opponent's next turn.",
 				fr: "Lancez une pièce. Si c’est pile, cette attaque ne fait rien. Si c’est face, évitez tous les effets d’attaques (y compris les dégâts) infligés à Togetic pendant le prochain tour de votre adversaire.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Togetic zugefügt werden."
+				de: "Wirf eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Togetic zugefügt werden."
 			},
 			damage: 30,
 
@@ -84,22 +83,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It grows dispirited if it is not with kind people. It can float in midair without moving its wings."
+		en: "It grows dispirited if it is not with kind people. It can float in midair without moving its wings.",
+		de: "Es wird entmutigt, wenn es unter unfreundlichen Menschen ist. Es kann ohne Flügel niedrig schweben."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279292,
+				tcgplayer: 89944
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279292,
+				tcgplayer: 89944
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279292,
-		tcgplayer: 89944
-	}
 }
 
 export default card

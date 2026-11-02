@@ -67,9 +67,13 @@ const card: Card = {
 			value: "+10"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Il dort 18 heures par jour. Même éveillé, il ne prend pas la peine de se lever pour se téléporter."
+		en: "It sleeps for 18 hours a day. Even when awake, it teleports itself while remaining seated.",
+		fr: "Il dort 18 heures par jour. Même éveillé, il ne prend pas la peine de se lever pour se téléporter.",
+		de: "18 Stunden am Tag schläft es. Und wenn es wach ist, teleportiert es sich, während es sitzen bleibt."
 	},
 
 	thirdParty: {

@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Machamp"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Fighting"],
@@ -76,16 +76,32 @@ const card: Card = {
 		damage: "100+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
 
 	description: {
 		en: "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles."
 	},
-
-	thirdParty: {
-		cardmarket: 505885
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 665986,
+				tcgplayer: 285251
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"]
+		},
+	],
 }
 
 export default card

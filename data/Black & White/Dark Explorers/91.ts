@@ -15,6 +15,9 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Trainer",
 	set: Set,
+
+	cameoDexIds: [498],
+
 	trainerType: "Supporter",
 
 	effect: {
@@ -23,13 +26,25 @@ const card: Card = {
 		es: "Roba 3 cartas.",
 		it: "Pesca tre carte.",
 		pt: "Compre 3 cards.",
-		de: "Ziehe 3 Karten."
+		de: "Ziehe 3 Karten. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
-	thirdParty: {
-		cardmarket: 280419,
-		tcgplayer: 84249
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280419,
+				tcgplayer: 84249
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280419,
+				tcgplayer: 84249
+			}
+		},
+	],
 }
 
 export default card

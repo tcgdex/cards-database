@@ -74,18 +74,42 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "Very rarely, a sudden mutation can result in two small Koffing twins becoming conjoined as a Weezing.",
+		de: "Sehr selten führt eine plötzliche Mutation eines Zwillings-Smogon zu einer Verbindung zu Smogmog."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733705,
+				tcgplayer: 516680,
+				cardtrader: 261243
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733705,
+				tcgplayer: 516680,
+				cardtrader: 261243
+			}
+		},
+	],
 
 	illustrator: "Shibuzoh.",
 
-	thirdParty: {
-		cardmarket: 733705
-	}
+	
 }
 
 export default card

@@ -8,13 +8,17 @@ const card: Card = {
 	},
 
 	illustrator: "kawayoo",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
 	dexId: [
 		9,
 	],
+
+
+
+	cameoDexIds: [130, 134],
 
 	hp: 180,
 

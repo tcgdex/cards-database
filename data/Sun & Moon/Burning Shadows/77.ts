@@ -64,10 +64,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 299479,
-		tcgplayer: 138563
-	}
+	description: {
+		en: "The mud stuck to Mudbray's hooves enhances its grip and its powerful running gait.",
+		de: "Der ganze Schlamm an seinen Füßen sorgt für die nötige Bodenhaftung, die es für seinen kraftvollen Lauf braucht."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299479,
+				tcgplayer: 138563
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299479,
+				tcgplayer: 138563
+			}
+		},
+	],
 }
 
 export default card

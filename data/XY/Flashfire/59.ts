@@ -98,6 +98,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It pulls up its shed skin to protect itself while it kicks. The bigger the crest, the more respected it is.",
+		de: "Es wehrt Angriffe mit seiner alten Haut ab und kontert mit Tritten. Sein Ego entspricht der Größe seines Kamms."
+	},
+
 	thirdParty: {
 		cardmarket: 281542,
 		tcgplayer: 91196

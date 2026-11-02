@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		350,
-	],
+	dexId: [350],
 
 	hp: 100,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
@@ -42,7 +40,7 @@ const card: Card = {
 				en: "Once during your turn, when you play Milotic from your hand to evolve 1 of your Pokémon, you may remove all damage counters from all of your Pokémon and your opponent's Pokémon (excluding Pokémon-ex).",
 				fr: "Une seule fois lors de votre tour, lorsque vous jouez Milobellus de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez retirer à vos Pokémon et à ceux de votre adversaire tous leurs marqueurs de dégât (Pokémon-ex exclus).",
 				de: "Once during your turn, when your play Milotic from your hand to evolve 1 of your Pokémon, you may remove all damage counters from all of your Pokémon and your opponent's Pokémon (excluding Pokémon-ex)."
-			},
+			}
 		},
 	],
 
@@ -93,23 +91,30 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276086,
-		tcgplayer: 87452
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 87452,
+				cardmarket: 276086
+			}
 		},
 		{
-			type: "holo",
-			foil: "energy"
+			type: "reverse",
+			foil: 'energy',
+			thirdParty: {
+				tcgplayer: 87452,
+				cardmarket: 276086
+			}
 		},
 		{
-			type: "holo",
-			stamp: ["jeremy-maron"]
-		}
+			type: "normal",
+			stamp: ['jeremy-maron'],
+			thirdParty: {
+				tcgplayer: 477555,
+				cardmarket: 276086
+			}
+		},
 	]
 }
 

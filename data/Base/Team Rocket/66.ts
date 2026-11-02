@@ -31,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Trickery",
 				fr: "Ruse",
-				de: "Trickery"
+				de: "Hinterlist"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may switch 1 of your Prizes with the top card of your deck. This power can't be used if Rattata is Asleep, Confused, or Paralyzed.",
 				fr: "Une fois pendant votre tour, (avant votre attaque), vous pouvez échanger 1 de vos récompenses avec la carte du sommet de votre deck. Ce pouvoir ne pant ête utilisé si Rattata est Endosmi, Confus ou Paralysé.",
-				de: "Once during your turn (before your attack), you may switch 1 of your Prizes with the top card of your deck. This power can't be used if Rattata is Asleep, Confused, or Paralyzed."
+				de: "Einmal während deines Zuges (vor deinem Angriff) darfst du einen deiner Preise mit der obersten Karte deines Decks austauschen. Diese Fähigkeit kann nicht gespielt werden, falls Rattfratz schläft, verwirrt oder gelähmt ist."
 			},
 		},
 	],
@@ -49,12 +49,12 @@ const card: Card = {
 			name: {
 				en: "Quick Attack",
 				fr: "Vive-attaque",
-				de: "Quick Attack"
+				de: "Ruckzuckhieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage; if tails, this attack does 10 damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires ; si c'est pile, certe attaque inflige 1o dégâts.",
-				de: "Flip a coin. If heads, this attack doese plus 10 more damage; if tails, this attack does 10 damage"
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu; bei „Zahl“ fügt dieser Angriff 10 Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -76,23 +76,29 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Ses plats favoris sont les noix, les châtaignes, le fromage et le lait."
+		en: "Loves to eat walnuts, chestnuts, cheese, and milk.",
+		fr: "Ses plats favoris sont les noix, les châtaignes, le fromage et le lait.",
+		de: "Es frisst gerne Walnüsse, Kastanien, Käse und Milch."
 	},
 
-	thirdParty: {
-		cardmarket: 274119,
-		tcgplayer: 88611
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274119,
+				tcgplayer: 88611
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
-		}
-	]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274119,
+				tcgplayer: 88611
+			}
+		},
+	],
 }
 
 export default card

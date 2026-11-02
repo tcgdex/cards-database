@@ -48,18 +48,41 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751598,
+				tcgplayer: 534422,
+				cardtrader: 274244
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751598,
+				tcgplayer: 534422,
+				cardtrader: 274244
+			}
+		},
+	],
 
 	illustrator: "sowsow",
 
-	thirdParty: {
-		cardmarket: 751598
-	}
+	description: {
+		en: "It protects itself with its durable skin. It's thought that this Pokémon will evolve once its skin has completely stretched out.",
+		de: "Es hat besonders robuste Haut, die seinen Körper schützt. Es heißt, wenn sich die Haut nicht weiter dehnen lässt, steht die Entwicklung bevor."
+	},
+
 }
 
 export default card

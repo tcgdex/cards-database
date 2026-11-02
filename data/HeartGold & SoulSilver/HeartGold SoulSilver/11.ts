@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Sumiyoshi Kizuki",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		213,
-	],
+	dexId: [213],
 
 	hp: 60,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -29,13 +27,15 @@ const card: Card = {
 		{
 			type: "Poke-BODY",
 			name: {
+				en: "Shell Barricade",
 				fr: "Coquille barricade",
 				de: "Panzersperre"
 			},
 			effect: {
+				en: "As long as Shuckle is on your Bench, prevent all damage done to Shuckle by attacks (both yours and your opponent's).",
 				fr: "Tant que Caratroc est sur le Banc, prévenez tous les dégâts infligés à Caratroc par des attaques (les vôtres et celles de votre adversaire).",
 				de: "Solange sich Pottrott auf deiner Bank befindet, verhindere allen Schaden, der Pottrott durch Angriffe (deine oder die deines Gegners) zugefügt würde."
-			},
+			}
 		},
 	],
 
@@ -53,7 +53,7 @@ const card: Card = {
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Das Verteidigende Pokémon ist jetzt vergifet."
+				de: "Das Verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 30,
 
@@ -70,22 +70,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "The berries it stores in its vase-like shell decompose and become a gooey liquid."
+		en: "The berries it stores in its vase-like shell decompose and become a gooey liquid.",
+		de: "Die Beeren, die es in seinem Inneren lagert, gären und daraus entsteht ein dickflüssiger Saft."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 89192,
+				cardmarket: 278983
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89192,
+				cardmarket: 278983
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278983,
-		tcgplayer: 89192
-	}
 }
 
 export default card

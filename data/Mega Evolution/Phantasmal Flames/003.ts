@@ -14,6 +14,16 @@ const card: Card = {
 		pt: "Vileplume"
 	},
 
+	evolveFrom: {
+		en: "Gloom",
+		fr: "Ortide",
+		es: "Gloom",
+		'es-mx': "Gloom",
+		de: "Duflor",
+		it: "Gloom",
+		pt: "Gloom",
+	},
+
 	rarity: "Rare",
 	category: "Pokemon",
 
@@ -72,22 +82,48 @@ const card: Card = {
 		damage: "60+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "The bud bursts into bloom with a bang. It then starts scattering allergenic, poisonous pollen.",
+		fr: "Son bourgeon éclot en détonant. Il se met ensuite à disperser du pollen empoisonné qui provoque des allergies.",
+		de: "Seine Knospe öffnet sich mit einem Knall. Anschließend beginnt es, seine allergenen, giftigen Pollen zu verteilen."
+	},
+
+	illustrator: "Shibuzoh.",
 	variants: [
 		{
-			type: "holo"
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857578,
+				tcgplayer: 662238,
+				cardtrader: 356787
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857578,
+				tcgplayer: 662238,
+				cardtrader: 356787
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 884287,
+				tcgplayer: 684043
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857578,
-		tcgplayer: 662238
-	}
 }
 
 export default card

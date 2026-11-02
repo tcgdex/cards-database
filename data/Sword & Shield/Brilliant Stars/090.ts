@@ -4,6 +4,7 @@ import Set from "../Brilliant Stars"
 const card: Card = {
 	dexId: [509],
 	set: Set,
+	cameoDexIds: [35],
 
 	name: {
 		en: "Purrloin",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Felilou"
 	},
 
+	illustrator: "Narumi Sato",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -44,20 +46,37 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It steals things from people just to amuse itself with their frustration. A rivalry exists between this Pokémon and Nickit.",
+		de: "Es bestiehlt liebend gerne Leute, um sich an ihrer Frustration zu erfreuen. Mit Kleptifux verbindet es eine tiefe Rivalität."
 	},
 
-	thirdParty: {
-		cardmarket: 608540,
-		tcgplayer: 263807
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608540,
+				tcgplayer: 263807
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608540,
+				tcgplayer: 263807
+			}
+		},
+	],
 }
 
 export default card

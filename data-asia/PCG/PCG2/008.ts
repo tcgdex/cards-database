@@ -21,7 +21,7 @@ const card: Card = {
 				ja: "おしゃべり",
 			},
 			effect: {
-				ja: "Beautiflyの残りのHPが40以下である限り、BeautiflyはPokã©Monに40個のダメージを与えます（脱力感と抵抗を適用する前）。",
+				ja: "Beautiflyの残りのHPが40以下である限り、BeautiflyはPokéMonに40個のダメージを与えます（脱力感と抵抗を適用する前）。",
 			},
 		}],
 

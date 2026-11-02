@@ -82,12 +82,6 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
@@ -95,10 +89,22 @@ const card: Card = {
 		en: "This Pokémon is feared. When its gemstone eyes begin to glow with a sinister shine, it's believed that Sableye will steal people's spirits away."
 	},
 
-	thirdParty: {
-		cardmarket: 511945,
-		tcgplayer: 226557
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511945,
+				tcgplayer: 226557
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511945,
+				tcgplayer: 226557
+			}
+		},
+	],
 }
 
 export default card

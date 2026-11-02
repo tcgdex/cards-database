@@ -64,18 +64,39 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It walks carefully to prevent its egg from breaking. However, it is extremely fast at running away.",
+		de: "Chaneira bewegt sich behutsam, damit sein Ei nicht zerbricht. Es kann jedoch sehr schnell davonlaufen."
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769307,
+				tcgplayer: 550177
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769307,
+				tcgplayer: 550177
+			}
+		},
+	],
 
 	illustrator: "HYOGONOSUKE",
 
-	thirdParty: {
-		cardmarket: 769307
-	}
 }
 
 export default card

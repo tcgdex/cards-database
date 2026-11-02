@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Ledian"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Grass"],
@@ -74,9 +74,36 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "H",
-	illustrator: "Natsumi Yoshida"
+	illustrator: "Natsumi Yoshida",
+	description: {
+		en: "When the stars flicker in the night sky, it flutters about, scattering a glowing powder.",
+	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 785838,
+				tcgplayer: 576970
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 785839,
+				tcgplayer: 580334
+			},
+		}
+	],
 }
 
 export default card

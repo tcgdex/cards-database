@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Unidentified Fossil",
 		fr: "Fossile Inconnu",
+		de: "Unbekanntes Fossil"
 	},
 
 	stage: "Stage1",
@@ -77,6 +78,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "In rock layers where Cranidos fossils are found, the fossilized trunks of trees snapped in two are also often found.",
+		de: "In den Erdschichten, in denen Fossilien von Koknodon entdeckt werden, finden sich auch Überreste abgebrochener Bäume."
+	},
 
 	thirdParty: {
 		cardmarket: 315992,

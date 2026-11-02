@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 110,
 	types: ["Grass"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "Anesaki Dynamic",
 
 	description: {
-		en: "Once the vines on Zarude's body tear off, they become nutrients in the soil. This helps the plants of the forest grow."
+		en: "Once the vines on Zarude's body tear off, they become nutrients in the soil. This helps the plants of the forest grow.",
+		de: "Reißen die an seinem Körper wachsenden Ranken ab, werden sie zu Nährstoffen für den Boden, was den Pflanzen im Wald zum Wachstum verhilft."
 	},
 
 	attacks: [{
@@ -64,17 +71,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582098,
-		tcgplayer: 253122
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582098,
+				tcgplayer: 253122
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582098,
+				tcgplayer: 253122
+			}
+		},
+	],
 }
 
 export default card

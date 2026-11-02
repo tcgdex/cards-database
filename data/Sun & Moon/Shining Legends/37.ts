@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Ekans",
 		fr: "Abo",
+		de: "Rettan"
 	},
 
 	stage: "Stage1",
@@ -91,6 +92,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "The pattern on its belly appears to be a frightening face. Weak foes will flee just at the sight of the pattern.",
+		de: "Das Muster auf seinem Bauch ähnelt einer Fratze. Schwache Gegner nehmen bereits beim Anblick Reißaus."
+	},
 
 	thirdParty: {
 		cardmarket: 302175,

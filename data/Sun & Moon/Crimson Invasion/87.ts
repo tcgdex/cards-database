@@ -57,6 +57,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "They use their large ears to dig burrows. They will dig the whole night through.",
+		de: "Mit seinen großen Ohren schaufelt es sich einen Bau. Es kann die ganze Nacht ohne Pause durchschaufeln."
+	},
+
 	thirdParty: {
 		cardmarket: 311934,
 		tcgplayer: 149112

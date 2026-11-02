@@ -34,7 +34,8 @@ const card: Card = {
 	illustrator: "otumami",
 
 	description: {
-		en: "Deep seas are their habitat. According to tradition, when Huntail wash up onshore, something unfortunate will happen."
+		en: "Deep seas are their habitat. According to tradition, when Huntail wash up onshore, something unfortunate will happen.",
+		de: "Es lebt in der Tiefsee. Einer Überlieferung zufolge geschieht etwas Unheilvolles, wenn ein Aalabyss am Strand auftaucht."
 	},
 
 	abilities: [{
@@ -79,17 +80,23 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582200,
-		tcgplayer: 253209
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582200,
+				tcgplayer: 253209
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582200,
+				tcgplayer: 253209
+			}
+		},
+	],
 }
 
 export default card

@@ -87,12 +87,6 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
@@ -100,10 +94,22 @@ const card: Card = {
 		en: "The shock waves from its cries can tip over trucks. It stamps its feet to power up."
 	},
 
-	thirdParty: {
-		cardmarket: 512390,
-		tcgplayer: 226592
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 512390,
+				tcgplayer: 226592
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 512390,
+				tcgplayer: 226592
+			}
+		},
+	],
 }
 
 export default card

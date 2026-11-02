@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		218,
-	],
+	dexId: [218],
 
 	hp: 50,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -33,7 +31,7 @@ const card: Card = {
 			name: {
 				en: "Ram",
 				fr: "Charge",
-				de: "Ram"
+				de: "Ramme"
 			},
 
 			damage: 10,
@@ -47,12 +45,12 @@ const card: Card = {
 			name: {
 				en: "Luring Flame",
 				fr: "Flamme attrayante",
-				de: "Luring Flame"
+				de: "Verlockende Flamme"
 			},
 			effect: {
 				en: "Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. The new Defending Pokémon is now Burned.",
 				fr: "Échangez un des Pokémon du Banc de votre adversaire avec le Pokémon Défenseur. Votre adversaire choisit le Pokémon Défenseur à échanger. Le nouveau Pokémon Défenseur est maintenant Brûlé.",
-				de: "Switch 1 of your opponent's Benched Pokémon with 1 of the Defending Pokémon. Your opponent chooses the Defending Pokémon to switch. The new Defending Pokémon is now Burned."
+				de: "Tausche 1 Verteidigendes Pokémon mit 1 der Pokémon auf der Bank deines Gegners aus. Dein Gegner wählt aus, welches Verteidigende Pokémon getauscht wird. Das neue Verteidigende Pokémon ist jetzt verbrannt."
 			},
 
 		},
@@ -61,17 +59,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89340,
+				cardmarket: 275949
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89340,
+				cardmarket: 275949
+			},
 		},
 	],
 
-
-	retreat: 2,
-
-	thirdParty: {
-		tcgplayer: 89340,
-		cardmarket: 275949
-	}
 }
 
 export default card

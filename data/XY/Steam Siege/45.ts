@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [32],
 
 	dexId: [
 		34,
@@ -95,6 +96,11 @@ const card: Card = {
 	],
 
 	retreat: 4,
+
+	description: {
+		en: "One swing of its mighty tail can snap a telephone pole as if it were a matchstick.",
+		de: "Ein Schlag mit seinem gewaltigen Schweif kann einen Telegrafenmast knicken wie ein Streichholz."
+	},
 
 	thirdParty: {
 		cardmarket: 291621,

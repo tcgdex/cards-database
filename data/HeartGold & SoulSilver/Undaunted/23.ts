@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		416,
-	],
+	dexId: [416],
 
 	hp: 100,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Combee",
 		fr: "Apitrini",
+		de: "Wadribie"
 	},
 
 	stage: "Stage1",
@@ -41,8 +40,8 @@ const card: Card = {
 			effect: {
 				en: "Prevent all damage done to your Benched Grass Pokémon by attacks.",
 				fr: "Prévenez tous les dégâts infligés par des attaques aux Pokémon Grass de votre Banc.",
-				de: "Verhindere allen Schaden, der -Pokémon auf deiner Bank durch Angriffe zugefügt wird."
-			},
+				de: "Verhindere allen Schaden, der {G}-Pokémon auf deiner Bank durch Angriffe zugefügt wird."
+			}
 		},
 	],
 
@@ -59,7 +58,7 @@ const card: Card = {
 				de: "Stürmische Brise"
 			},
 			effect: {
-				en: "During your next turn, Vespiquen’s Retreat Cost is 0.",
+				en: "During your next turn, Vespiquen's Retreat Cost is 0.",
 				fr: "Pendant votre prochain tour, le Coût de retraite d’Apireine est de 0.",
 				de: "Die Rückzugskosten für Honweisel betragen in deinem nächsten Zug 0."
 			},
@@ -78,22 +77,27 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		en: "It raises grubs in the holes in its body. It secretes pheromones to control Combee."
+		en: "It raises grubs in the holes in its body. It secretes pheromones to control Combee.",
+		de: "In dem Loch in seinem Bauch zieht es seine Kinder groß. WADRIBIE kontrolliert es mittels Pheromonen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279276,
+				tcgplayer: 90329
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279276,
+				tcgplayer: 90329
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279276,
-		tcgplayer: 90329
-	}
 }
 
 export default card

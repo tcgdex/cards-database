@@ -21,6 +21,22 @@ const card: Card = {
 	},
 
 	energyType: "Special",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 746570,
+				tcgplayer: 567589,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577415,
+			},
+		},
+	],
+
 	regulationMark: "G"
 }
 

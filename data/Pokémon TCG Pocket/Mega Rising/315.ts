@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dodrio"
+		en: "Dodrio",
+		fr: "Dodrio"
 	},
 
 	illustrator: "Souichirou Gunjima",
@@ -17,18 +18,21 @@ const card: Card = {
 	types: ["Colorless"],
 
 	evolveFrom: {
-		en: "Doduo"
+		en: "Doduo",
+		fr: "Doduo"
 	},
 
 	description: {
-		en: "An enemy that takes its eyes off any of the\nthree heads—even for a second—will get\npecked severely."
+		en: "An enemy that takes its eyes off any of the\nthree heads—even for a second—will get\npecked severely.",
+		fr: "Un ennemi ne faisant pas attention à l'une\\ndes trois têtes pendant une seconde se fait picorer."
 	},
 
 	stage: "Stage1",
 
 	attacks: [{
 		name: {
-			en: "Drill Peck"
+			en: "Drill Peck",
+			fr: "Bec Vrille"
 		},
 
 		damage: 40,

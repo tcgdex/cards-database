@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		58,
-	],
+	dexId: [58],
 
 	hp: 70,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -37,8 +35,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for a Fire Energy card and attach it to Growlithe. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck une carte Énergie Fire et attachez-la à Caninos. Ensuite, mélangez votre deck.",
-				de: "Durchsuche dein Deck nach 1 -Energiekarte und lege sie an Fukano an. Mische dein Deck danach."
+				fr: "Cherchez dans votre deck une carte Énergie {R} et attachez-la à Caninos. Ensuite, mélangez votre deck.",
+				de: "Durchsuche dein Deck nach 1 {R}-Energiekarte und lege sie an Fukano an. Mische dein Deck danach."
 			},
 
 		},
@@ -69,22 +67,30 @@ const card: Card = {
 			value: "+20"
 		},
 	],
-
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 278637,
-		tcgplayer: 85958
+	description: {
+		en: "A Pokémon with a loyal nature. It will remain motionless until it is given an order by its Trainer.",
+		de: "Ein loyales Pokémon. Es wird erst dann aktiv, wenn sein Trainer ihm Anweisungen gegeben hat."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278637,
+				tcgplayer: 85958
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278637,
+				tcgplayer: 85958
+			}
+		},
+	],
+
 }
 
 export default card

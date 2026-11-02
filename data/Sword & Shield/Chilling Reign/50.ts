@@ -50,23 +50,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate."
+		en: "Its mane shines when it discharges electricity. They use the frequency and rhythm of these flashes to communicate.",
+		de: "Um mit Artgenossen zu kommunizieren, nutzt es das Aufblitzen seiner Mähne beim Entladen von Strom als Morsecode."
 	},
 
-	thirdParty: {
-		cardmarket: 567130,
-		tcgplayer: 241707
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567130,
+				tcgplayer: 241707
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567130,
+				tcgplayer: 241707
+			}
+		},
+	],
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Sniebel"
 	},
 
+	illustrator: "Mizue",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -48,20 +49,37 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Its sturdy, curved claws are ideal for traversing precipitous cliffs. From the tips of these claws drips a venom that infiltrates the nerves of any prey caught in Sneasel's grasp.",
+		de: "Seine robusten Krallen eignen sich ideal dazu, steile Felswände zu erklimmen. Von den Spitzen tropft Gift, welches die Nerven seiner Beute lähmt."
 	},
 
-	thirdParty: {
-		cardmarket: 658720,
-		tcgplayer: 272293
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658720,
+				tcgplayer: 272293
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658720,
+				tcgplayer: 272293
+			}
+		},
+	],
 }
 
 export default card

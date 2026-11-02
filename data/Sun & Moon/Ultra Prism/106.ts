@@ -78,6 +78,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When it senses danger, it perks up its ears. On cold nights, it sleeps with its head tucked into its fur.",
+		de: "Nimmt es Gefahr wahr, richtet es seine Ohren auf. In kalten Nächten vergräbt es den Kopf in seinem Fell."
+	},
+
 	thirdParty: {
 		cardmarket: 316032,
 		tcgplayer: 157723

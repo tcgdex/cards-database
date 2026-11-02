@@ -96,6 +96,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers a jolt of electricity.",
+		de: "Es vergräbt sich im Morast am Meeresboden. Wird es von seiner Beute gestreift, lähmt es sie mit Strom."
+	},
+
 	thirdParty: {
 		cardmarket: 286302,
 		tcgplayer: 107175

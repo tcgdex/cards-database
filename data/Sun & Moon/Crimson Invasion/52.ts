@@ -79,6 +79,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "When it thinks of its deceased mother, it weeps loudly. Mandibuzz that hear its cries will attack it from the air.",
+		de: "Denkt es an seine verstorbene Mutter, weint es laut. Hört dies ein Grypheldis, nutzt dieses die Gelegenheit, um es aus der Luft anzugreifen."
+	},
+
 	thirdParty: {
 		cardmarket: 311902,
 		tcgplayer: 149075

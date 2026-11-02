@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		158,
-	],
+	dexId: [158],
 
 	hp: 60,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -40,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin for each Water Energy attached to Totodile. This attack does 30 damage plus 20 more damage for each heads.",
 				fr: "Lancez une pièce pour chaque Énergie Water attachée à Kaiminus. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque côté face.",
-				de: "Wirf eine Münze für jede an Karnimani angelegte -Energie. Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf eine Münze für jede an Karnimani angelegte {W}-Energie. Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "30+",
 
@@ -50,16 +48,33 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+	description: {
+		en: "It is small but rough and tough. It won't hesitate to take a bite out of anything that moves.",
+		de: "Es ist klein, aber zäh und stark. Es zögert nicht, jeden anzugreifen, wenn dieser ihm zu nahe kommt."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90003,
+				cardmarket: 279717
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90003,
+				cardmarket: 279717
+			},
 		},
 	],
 
-	retreat: 2,
-
-	thirdParty: {
-		cardmarket: 279717,
-		tcgplayer: 90003
-	}
 }
 
 export default card

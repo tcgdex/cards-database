@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Galarian Zigzagoon",
-		fr: "Zigzaton de Galar"
+		fr: "Zigzaton de Galar",
+		de: "Galar-Zigzachs"
 	},
 
 	attacks: [
@@ -75,7 +76,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "It uses its long tongue to taunt opponents. Once the opposition is enraged, this Pokémon hurls itself at the opponent, tackling them forcefully."
+		en: "It uses its long tongue to taunt opponents. Once the opposition is enraged, this Pokémon hurls itself at the opponent, tackling them forcefully.",
+		de: "Mit seiner langen Zunge provoziert es seine Beute, bis diese vor Wut kocht. Danach rammt es sie mit voller Wucht."
 	},
 
 	thirdParty: {

@@ -1,56 +1,59 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "洛奇亞VSTAR"
+		ja: "イーブイ",
+		'zh-tw': "洛奇亞VSTAR",
 	},
 
-	illustrator: "PLANETA Igarashi",
+	illustrator: "OKACHEKE",
 	category: "Pokemon",
-	hp: 280,
+	hp: 60,
 	types: ["Colorless"],
-	stage: "VMAX",
 
-	abilities: [{
-		type: "Ability",
+	description: {
+		ja: "不安定な 遺伝子の おかげで さまざまな 進化の 可能性を 秘めている 特殊な ポケモン。",
+	},
 
-		name: {
-			'zh-tw': "聚合星星"
+	stage: "Basic",
+
+	attacks: [
+		{
+			name: {
+				ja: "じゅんびする",
+				'zh-tw': "風暴俯衝",
+			},
+			cost: ["Colorless"],
+			effect: {
+				ja: "自分の手札から基本エネルギーを1枚選び、このポケモンにつける。",
+				'zh-tw': "若希望，將場上的競技場卡丟棄。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "在自己的回合時可使用。從自己的棄牌區選擇最多2張【無】寶可夢卡（「擁有規則的寶可夢」除外），放置於備戰區。[對戰中，己方只可使用1次【VSTAR】力量。]"
-		}
-	}],
-
-	attacks: [{
-		name: {
-			'zh-tw': "風暴俯衝"
+		{
+			name: { ja: "かみつく" },
+			damage: 30,
+			cost: ["Colorless", "Colorless", "Colorless"],
 		},
+	],
 
-		effect: {
-			'zh-tw': "若希望，將場上的競技場卡丟棄。"
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 597404,
+			},
 		},
+	],
 
-		damage: 220,
-		cost: ["Colorless", "Colorless", "Colorless", "Colorless"]
-	}],
+	retreat: 1,
+	regulationMark: "E",
+	rarity: "Promo",
+	dexId: [133],
+};
 
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
-
-	retreat: 2,
-	regulationMark: "F"
-}
-
-export default card
+export default card;

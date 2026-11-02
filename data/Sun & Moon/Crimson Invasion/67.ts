@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Lairon",
 		fr: "Galegon",
+		de: "Stollrak"
 	},
 
 	stage: "Stage2",
@@ -102,6 +103,11 @@ const card: Card = {
 	],
 
 	retreat: 4,
+
+	description: {
+		en: "It claims an entire mountain as its own. The more wounds it has, the more it has battled, so don't take it lightly.",
+		de: "Ihre Reviere erstrecken sich über ganze Gebirge. Stolloss, die mit Narben übersät sind, sollte man besser meiden."
+	},
 
 	thirdParty: {
 		cardmarket: 311915,

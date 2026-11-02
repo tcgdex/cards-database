@@ -37,6 +37,7 @@ const card: Card = {
 			name: {
 				en: "Hammer In",
 				fr: "Enfoncer",
+				de: "Einhämmern"
 			},
 
 			damage: 20,
@@ -53,10 +54,27 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 280242,
-		tcgplayer: 84721
-	}
+	description: {
+		en: "Darumaka's droppings are hot, so people used to put them in their clothes to keep themselves warm.",
+		de: "Früher nutzte man die heißen Ausscheidungen von Flampion, um sich den Körper zu wärmen."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280242,
+				tcgplayer: 84721
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280242,
+				tcgplayer: 84721
+			}
+		},
+	],
 }
 
 export default card

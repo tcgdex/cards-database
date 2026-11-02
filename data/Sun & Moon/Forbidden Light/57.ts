@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [105],
 
 	dexId: [
 		104,
@@ -63,6 +64,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "The skull it wears on its head is that of its dead mother. According to some, it will evolve when it comes to terms with the pain of her death.",
+		de: "Der Schädel auf seinem Kopf gehörte seiner verstorbenen Mutter. Überwindet es diesen Verlust, setzt angeblich die Entwicklung ein."
+	},
 
 	thirdParty: {
 		cardmarket: 355575,

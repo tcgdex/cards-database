@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Salamence δ",
 		fr: "Drattak δ",
-		de: "Brutalanda"
+		de: "Brutalanda δ"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -44,7 +44,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your discard pile for a Fire Energy card and attach it to 1 of your Pokémon.",
-				fr: "Cherchez dans votre pile de défausse une carte Énergie  et attachez-la à 1 de vos Pokémon.",
+				fr: "Cherchez dans votre pile de défausse une carte Énergie {R} et attachez-la à 1 de vos Pokémon.",
 				de: "Durchsuche deinen Ablagestapel nach einer -Energiekarte und lege sie an 1 deiner Pokémon an."
 			},
 			damage: 30,
@@ -64,7 +64,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Metal Energy card attached to Salamence.",
-				fr: "Défaussez une carte Énergie  attachée à Drattak.",
+				fr: "Défaussez une carte Énergie {M} attachée à Drattak.",
 				de: "Lege 1 an Brutalanda angelegte -Energiekarte auf deinen Ablagestapel."
 			},
 			damage: 100,

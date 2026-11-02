@@ -74,18 +74,46 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715567,
+				tcgplayer: 497507,
+				cardtrader: 248719
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715567,
+				tcgplayer: 497507,
+				cardtrader: 248719
+			}
+		},
+	],
 
 	illustrator: "Shiburingaru",
 
-	thirdParty: {
-		cardmarket: 715567
-	}
+	description: {
+		en: "Gothitelle unleashes psychic energy and shows opponents dreams of the universe's end. These dreams are apparently ethereal and beautiful.",
+		de: "Es entfesselt Psycho-Kräfte und lässt Gegner so vom Ende des Universums träumen. Man sagt, diese Träume seien ätherisch und wunderschön."
+	},
 }
 
 export default card

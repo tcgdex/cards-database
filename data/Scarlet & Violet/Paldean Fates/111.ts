@@ -66,19 +66,33 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751650,
+				tcgplayer: 534485,
+				cardtrader: 274295
+			}
+		},
+	],
 
 	illustrator: "Hitoshi Ariga",
 
-	thirdParty: {
-		cardmarket: 751650
-	}
+	description: {
+		en: "People call this kind of Tauros the Blaze Breed due to the hot air it snorts from its nostrils. Its three tails are intertwined.",
+		de: "Diese Form heißt „Flammenvariante“, da sie beim Schnauben heiße Luft aus der Nase ausstößt. Die drei Schweife sind miteinander verflochten."
+	},
+
 }
 
 export default card

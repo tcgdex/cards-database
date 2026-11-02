@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		343,
-	],
+	dexId: [343],
 
 	hp: 50,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Night Attack",
 				fr: "Attaque nocturne",
-				de: "Night Attack"
+				de: "Nachtangriff"
 			},
 			effect: {
 				en: "Put 1 damage counter on 1 of your opponent's Pokémon.",
 				fr: "Placez 1 marqueur de dégât sur 1 des Pokémon de votre adversaire.",
-				de: "Put 1 damage counter on 1 of your opponent's Pokémon."
+				de: "Lege 1 Schadensmarke auf 1 gegnerisches Pokémon."
 			},
 
 		},
@@ -50,7 +48,7 @@ const card: Card = {
 			name: {
 				en: "Spinning Attack",
 				fr: "Attaque tournante",
-				de: "Spinning Attack"
+				de: "Rundumangriff"
 			},
 
 			damage: 20,
@@ -65,22 +63,27 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276038,
-		tcgplayer: 89823
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275838,
+				tcgplayer: 89823
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275838,
+				tcgplayer: 89823
+			}
+		},
+	],
+
 }
 
 export default card

@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 80,
 	types: ["Water"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "HYOGONOSUKE",
 
 	description: {
-		en: "The small spikes covering its body developed from scales. They inject a toxin that causes fainting."
+		en: "The small spikes covering its body developed from scales. They inject a toxin that causes fainting.",
+		de: "Die kleinen Stacheln an seinem Körper sind aus Schuppen entstanden. Damit injiziert es Gift, das zu Ohnmacht führt."
 	},
 
 	attacks: [{
@@ -62,17 +69,23 @@ const card: Card = {
 		damage: 30
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582194,
-		tcgplayer: 253192
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582194,
+				tcgplayer: 253192
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582194,
+				tcgplayer: 253192
+			}
+		},
+	],
 }
 
 export default card

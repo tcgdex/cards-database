@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		246,
-	],
+	dexId: [246],
 
 	hp: 60,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -72,27 +70,32 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It is born deep underground. It can’t emerge until it has entirely consumed the soil around it."
+		en: "It is born deep underground. It can’t emerge until it has entirely consumed the soil around it.",
+		de: "Es wird tief unter der Erde geboren und kann erst an die Oberfläche, wenn es diese aufgefressen hat."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86645,
+				cardmarket: 279207
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86645,
+				cardmarket: 279207
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["snowflake"],
-			languages: ["de"]
+			languages: ["de"],
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279206,
-		tcgplayer: 86645
-	}
 }
 
 export default card

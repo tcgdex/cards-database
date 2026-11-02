@@ -93,23 +93,30 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "At the end of its life-span, Melmetal will rust and fall apart. The small shards left behind will eventually be reborn as Meltan."
+		en: "At the end of its life-span, Melmetal will rust and fall apart. The small shards left behind will eventually be reborn as Meltan.",
+		de: "Geht sein Leben dem Ende zu, rostet sein Körper und fällt auseinander. Kurz darauf erwachen die verbliebenen Fragmente als Meltan zum Leben."
 	},
 
-	thirdParty: {
-		cardmarket: 483529,
-		tcgplayer: 219392
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483529,
+				tcgplayer: 219392
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483529,
+				tcgplayer: 219392
+			}
+		},
+	],
 }
 
 export default card

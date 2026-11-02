@@ -2,6 +2,8 @@ import { Card } from "../../../interfaces"
 import Set from "../SV1V"
 
 const card: Card = {
+	rarity: "Ultra Rare",
+	regulationMark: "G",
 	set: Set,
 
 	name: {
@@ -14,6 +16,17 @@ const card: Card = {
 	effect: {
 		ja: "このカードを使ったら、自分の番は終わる。\n\n自分の手札をすべて山札にもどして切る。その後、山札を8枚引く。"
 	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardtrader: 235674,
+				cardmarket: 693172,
+				tcgplayer: 568323,
+			},
+		},
+	],
 
 	trainerType: "Supporter"
 }

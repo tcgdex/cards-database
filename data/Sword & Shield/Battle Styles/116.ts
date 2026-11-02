@@ -71,23 +71,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "To make itself appear intimidatingly beefy, it tightly cinches its waist with its twin tails."
+		en: "To make itself appear intimidatingly beefy, it tightly cinches its waist with its twin tails.",
+		de: "Damit es bedrohlicher und größer aussieht, umschlingt es seine Taille fest mit seinem Schwanz."
 	},
 
-	thirdParty: {
-		cardmarket: 545681,
-		tcgplayer: 234158
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545681,
+				tcgplayer: 234158
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545681,
+				tcgplayer: 234158
+			}
+		},
+	],
 }
 
 export default card

@@ -5,12 +5,14 @@ const card: Card = {
 	name: {
 		en: "Ekans",
 		fr: "Abo",
+		de: "Rettan"
 	},
 
 	illustrator: "Masakazu Fukuda",
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [144],
 
 	dexId: [
 		23,
@@ -33,6 +35,7 @@ const card: Card = {
 			name: {
 				en: "Tail Whap",
 				fr: "Queue Battoir",
+				de: "Schweifvertrimmer"
 			},
 
 			damage: 30,
@@ -48,6 +51,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "By dislocating its jaw, it can swallow prey larger than itself. After a meal, it curls up and rests.",
+		de: "Es hängt seinen Kiefer aus und verschlingt so selbst größere Beute am Stück. Danach rollt es sich zusammen und ruht sich aus."
+	},
 
 	thirdParty: {
 		cardmarket: 394767,

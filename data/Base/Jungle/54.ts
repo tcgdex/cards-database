@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Jigglypuff",
 		fr: "Rondoudou",
+		it: "Jigglypuff",
 		de: "Pummeluff"
 	},
 
@@ -33,12 +34,14 @@ const card: Card = {
 			name: {
 				en: "Lullaby",
 				fr: "Comptine",
+				it: "Ninna nanna",
 				de: "Wiegenlied"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Asleep.",
 				fr: "Le Pokémon Défenseur est maintenant Endormi.",
-				de: "das verteidigende Pokémon ist jetzt gelähmt."
+				it: "Il Pokémon Difensore è Addormentato.",
+				de: "Das verteidigende Pokémon ist jetzt schlafend."
 			},
 
 		},
@@ -50,6 +53,7 @@ const card: Card = {
 			name: {
 				en: "Pound",
 				fr: "Écras'face",
+				it: "Libbra",
 				de: "Pfund"
 			},
 
@@ -71,24 +75,33 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Quand ses yeux s'illuminent, il chante une mystérieuse berceuse."
+		en: "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+		fr: "Quand ses yeux s'illuminent, il chante une mystérieuse berceuse.",
+		it: "Quando i suoi enormi occhi si illuminano, canta una misteriosa ninna nanna che \"addormenta\" i suoi nemici.",
+		de: "Wenn seine riesigen Augen aufleuchten, singt es eine gewaltige Melodei, die seine Feinde auf eine geheimnisvolle sanfte Weise in den Schlaf versetzt."
 	},
 
-	thirdParty: {
-		cardmarket: 273851,
-		tcgplayer: 45157
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 273851,
+				tcgplayer: 45157
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
-		}
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273851,
+				tcgplayer: 45157
+			}
+		},
 	],
 }
 

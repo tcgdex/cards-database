@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S7D"
+import { Card } from "../../../interfaces";
+import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "冷水猿"
+		ja: "ヒヤッキー",
+		'zh-tw': "冷水猿",
 	},
 
 	illustrator: "Shin Nagasawa",
@@ -14,42 +14,60 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		'zh-tw': "喜歡水質乾淨的地方。頭上儲存的水如果減少，就會從尾巴吸取水來補給。"
+		ja: "水が きれいな 場所を 好む。 頭に ためこんだ 水が減ると 尻尾から 吸いあげて 補給。",
+		'zh-tw': "喜歡水質乾淨的地方。頭上儲存的水如果減少，就會從尾巴吸取水來補給。",
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "水之波動"
+	attacks: [
+		{
+			name: {
+				ja: "みずのはどう",
+				'zh-tw': "水之波動",
+			},
+			damage: 20,
+			cost: ["Water"],
+			effect: {
+				ja: "相手のバトルポケモンをねむりにする。",
+				'zh-tw': "將對手的戰鬥寶可夢【睡眠】。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "將對手的戰鬥寶可夢【睡眠】。"
+		{
+			name: {
+				ja: "ずぶぬれサーカス",
+				'zh-tw': "濕透雜耍",
+			},
+			damage: "60×",
+			cost: ["Colorless", "Colorless"],
+			effect: {
+				ja: "相手の手札を見て、その中にあるサポートの枚数×60ダメージ。",
+				'zh-tw': "查看對手的手牌，造成其中支援者卡的張數×60點傷害。",
+			},
 		},
+	],
 
-		damage: 20,
-		cost: ["Water"]
-	}, {
-		name: {
-			'zh-tw': "濕透雜耍"
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 571588,
+				tcgplayer: 569329,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "查看對手的手牌，造成其中支援者卡的張數×60點傷害。"
-		},
-
-		damage: "60×",
-		cost: ["Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
+	evolveFrom: {
+		ja: "ヒヤップ",
+	},
 
 	retreat: 1,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Common",
+	dexId: [516],
+};
 
-export default card
+export default card;

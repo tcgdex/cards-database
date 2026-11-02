@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Rockruff",
 		fr: "Rocabot",
+		de: "Wuffels"
 	},
 
 	suffix: "GX",
@@ -112,10 +113,16 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299553,
-		tcgplayer: 138640
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "rainbow",
+			thirdParty: {
+				cardmarket: 299553,
+				tcgplayer: 138640
+			}
+		},
+	],
 }
 
 export default card

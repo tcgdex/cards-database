@@ -74,19 +74,33 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751705,
+				tcgplayer: 534699,
+				cardtrader: 274351
+			}
+		},
+	],
 
 	illustrator: "Yuu Nishida",
 
-	thirdParty: {
-		cardmarket: 751705
-	}
+	description: {
+		en: "This Pokémon will attack groups of Pawniard and Bisharp, gathering metal from them in order to create a large and sturdy hammer.",
+		de: "Es überfällt Gruppen von Gladiantri und Caesurio, um Metall zu sammeln, das es zum Herstellen seines großen, robusten Hammers benötigt."
+	},
+
 }
 
 export default card

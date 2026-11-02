@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Metal"],
@@ -82,18 +82,18 @@ const card: Card = {
 	stage: "Basic",
 	dexId: [888],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 465529
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 491179,
+				tcgplayer: 220313
+			}
+		},
+	],
 }
 
 export default card

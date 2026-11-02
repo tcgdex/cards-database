@@ -38,22 +38,40 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	description: {
+		en: "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.",
+		fr: "Il enveloppe ses proies dans le nuage de gaz que forme son corps et les empoisonne à travers leur peau afin de les affaiblir petit à petit.",
+		de: "Es hüllt seine Beute in seinen Gaskörper ein und schwächt sie, indem es sie nach und nach über die Haut vergiftet."
+	},
+
+	illustrator: "Saboteri",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857629,
+				tcgplayer: 660495,
+				cardtrader: 356837
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857629,
+				tcgplayer: 660495,
+				cardtrader: 356837
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857629,
-		tcgplayer: 660495
-	}
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Camaub"
 	},
 
+	illustrator: "Shibuzoh.",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 80,
@@ -57,19 +58,46 @@ const card: Card = {
 		damage: "50+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
+
+	description: {
+		en: "The magma in its body reaches 2,200 degrees Fahrenheit. Its hump gets smaller when it uses Fire-type moves.",
+		de: "In seinem Körper fließt 1 200 °C heißes Magma. Nach Einsatz einer Feuer-Attacke schrumpft sein Höcker."
 	},
 
-	thirdParty: {
-		cardmarket: 665657,
-		tcgplayer: 276947
-	}
+
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 665657,
+				tcgplayer: 276947
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665657,
+				tcgplayer: 276947
+			}
+		},
+		{
+			type: 'reverse',
+			subtype: 'peelable-ditto',
+			thirdParty: {
+				tcgplayer: 277791
+			}
+		},
+	],
 }
 
 export default card

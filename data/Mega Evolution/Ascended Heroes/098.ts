@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Taiga Kasai",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [897],
 	hp: 120,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -59,13 +60,52 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675910,
-		cardmarket: 869709
-	}
+	description: {
+		en: "It probes its surroundings with all its senses save one—it doesn’t use its sense of sight. Spectrier’s kicks are said to separate soul from body.",
+		fr: "Il se sert de tous ses sens pour se repérer, sauf celui de la vue. Un coup de ses sabots suffirait à séparer l'âme du corps de sa cible.",
+		de: "Um sein Umfeld zu erkunden, nutzt es all seine Sinne – bis auf den Sehsinn. Wer von Phantoross getreten wird, verliert angeblich seine Seele."
+	},
+
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 869709,
+			tcgplayer: 675910
+		}
+	},
+	{
+		type: "reverse",
+		foil: "duskball",
+		thirdParty: {
+			cardmarket: 870292,
+			tcgplayer: 676930
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870291,
+			tcgplayer: 677070
+		}
+	},
+],
 }
 
 export default card

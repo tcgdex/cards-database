@@ -4,6 +4,7 @@ import Set from '../Sun & Moon'
 const card: Card = {
 	name: {
 		en: "Fighting Energy",
+		de: "Kampf-Energie"
 	},
 
 	illustrator: undefined,

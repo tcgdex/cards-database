@@ -4,6 +4,8 @@ import Set from "../Ascended Heroes"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [779],
+
 	name: {
 		en: "Surfer",
 		fr: "Surfeur",
@@ -23,7 +25,7 @@ const card: Card = {
 		fr: "Échangez votre Pokémon Actif contre l'un de vos Pokémon de Banc. Dans ce cas, piochez des cartes jusqu'à en avoir 5 en main.",
 		es: "Cambia tu Pokémon Activo por uno de tus Pokémon en Banca. Si lo haces, roba cartas hasta que tengas 5 cartas en tu mano.",
 		'es-mx': "Cambia tu Pokémon Activo por 1 de tus Pokémon en Banca. Si lo haces, roba cartas hasta que tengas 5 cartas en tu mano.",
-		de: "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus. Wenn du das machst, ziehe so lange Karten, bis du 5 Karten auf deiner Hand hast.",
+		de: "Tausche dein Aktives Pokémon gegen 1 Pokémon auf deiner Bank aus. Wenn du das machst, ziehe so lange Karten, bis du 5 Karten auf deiner Hand hast. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen.",
 		it: "Scambia il tuo Pokémon attivo con uno della tua panchina. Se lo fai, pesca fino ad avere cinque carte in mano.",
 		pt: "Troque o seu Pokémon Ativo por 1 dos seus Pokémon no Banco. Se fizer isto, compre cartas até ter 5 cartas na sua mão."
 	},
@@ -31,10 +33,22 @@ const card: Card = {
 	trainerType: "Supporter",
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 676012,
-		cardmarket: 869811
-	}
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869811,
+			tcgplayer: 676012
+		}
+	},
+	{
+		type: "reverse",
+		thirdParty: {
+			cardmarket: 869811,
+			tcgplayer: 676012
+		}
+	},
+],
 }
 
 export default card

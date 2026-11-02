@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Vaporeon VMAX"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 320,
 	types: ["Water"],
@@ -74,12 +74,31 @@ const card: Card = {
 		damage: "100+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
-
-	thirdParty: {
-		cardmarket: 583207
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 583207,
+				tcgplayer: 253417
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 605844,
+				tcgplayer: 257708
+			}
+		},
+	],
 }
 
 export default card

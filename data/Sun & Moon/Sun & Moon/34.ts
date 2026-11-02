@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Shellder",
 		fr: "Kokiyas",
+		de: "Muschas"
 	},
 
 	stage: "Stage1",
@@ -93,6 +94,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "Its hard shell cannot be shattered—not even by a bomb. The contents of the shell remain unknown.",
+		de: "Seine Schale ist so hart, dass nicht einmal eine Bombe sie zerschmettern kann. Bis heute weiß niemand, wie das Innere seiner Schale aussieht."
+	},
 
 	thirdParty: {
 		cardmarket: 295344,

@@ -90,6 +90,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "The forelegs are webbed, helping to make it an adept swimmer. It can be seen swimming elegantly in lakes, etc.",
+		de: "Seine Vorderbeine besitzen Schwimmhäute, um es perfekt ans Wasser anzupassen. Daher schwimmt es elegant in Flüssen."
+	},
+
 	thirdParty: {
 		cardmarket: 288192,
 		tcgplayer: 111520

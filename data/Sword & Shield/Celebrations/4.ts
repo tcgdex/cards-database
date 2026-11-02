@@ -4,12 +4,6 @@ import Set from '../Celebrations'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Palkia",
@@ -81,15 +75,21 @@ const card: Card = {
 	regulationMark: "E",
 
 	description: {
-		en: "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology."
+		en: "It has the ability to distort space. It is described as a deity in Sinnoh-region mythology.",
+		de: "Es hat die Macht, den Raum zu krümmen. In den Mythen von Sinnoh erscheint es als Gottheit."
 	},
 
 	dexId: [484],
 
-	thirdParty: {
-		cardmarket: 576749,
-		tcgplayer: 250302
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 576749,
+				tcgplayer: 250302
+			}
+		},
+	],
 }
 
 export default card

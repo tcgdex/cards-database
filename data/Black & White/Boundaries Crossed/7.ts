@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
+				de: "Schlitzer"
 			},
 
 			damage: 10,
@@ -49,6 +50,7 @@ const card: Card = {
 			name: {
 				en: "Sharp Scythe",
 				fr: "Faucille Acérée",
+				de: "Scharfe Sense"
 			},
 
 			damage: 20,
@@ -65,10 +67,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280594,
-		tcgplayer: 89006
-	}
+	description: {
+		en: "The sharp scythes on its forearms become increasingly sharp by cutting through hard objects.",
+		de: "Die scharfen Sensen an den Unterarmen werden durch das Schneiden harter Objekte noch schärfer."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280594,
+				tcgplayer: 89006
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280594,
+				tcgplayer: 89006
+			}
+		},
+	],
 }
 
 export default card

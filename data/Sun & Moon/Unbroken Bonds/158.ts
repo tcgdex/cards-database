@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [25, 255],
 
 	dexId: [
 		143,
@@ -86,6 +87,11 @@ const card: Card = {
 	],
 
 	retreat: 4,
+
+	description: {
+		en: "It doesn't do anything other than eat and sleep. When prompted to make a serious effort, though, it apparently displays awesome power.",
+		de: "Wenn es nicht gerade frisst, dann schläft es. Macht es aber einmal Ernst, ist Schluss mit lustig."
+	},
 
 	thirdParty: {
 		cardmarket: 372446,

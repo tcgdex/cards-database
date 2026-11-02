@@ -9,18 +9,16 @@ const card: Card = {
 	},
 
 	illustrator: "Yuri Umemura",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		383,
-	],
+	dexId: [383],
 
 	hp: 100,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -41,7 +39,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, discard the top 4 cards of your opponent's deck. If tails, discard the top 4 cards of your deck.",
 				fr: "Lancez une pièce. Si c’est face, défaussez les 4 premières cartes du deck de votre adversaire. Si c’est pile, défaussez les 4 premières cartes de votre deck.",
-				de: "Wirf eine Münze. Bei \"Kopf\" lege die obersten 4 Karten vom Deck deines Gegners auf seinen Ablagestapel. Bei \"Zahl\" lege die obersten 4 Karten von deinem Deck auf deinen Ablagestapel."
+				de: "Wirf eine Münze. Bei „Kopf“ lege die obersten 4 Karten vom Deck deines Gegners auf seinen Ablagestapel. Bei „Zahl“ lege die obersten 4 Karten von deinem Deck auf deinen Ablagestapel."
 			},
 			damage: 80,
 
@@ -51,15 +49,26 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 4,
+
+	description: {
+		en: "Said to have expanded the lands by evaporating water with raging heat. It battled titanically with Kyogre.",
+		de: "Sein Feuer erschuf einst das Land. Es und KYOGRE lieferten sich einen langen Kampf."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85926,
+				cardmarket: 279649
+			},
 		},
 	],
 
-	retreat: 4,
-
-	thirdParty: {
-		cardmarket: 279649
-	}
 }
 
 export default card

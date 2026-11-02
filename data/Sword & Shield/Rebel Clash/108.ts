@@ -36,7 +36,7 @@ const card: Card = {
 				es: "Une 1 carta de Energía Fighting de tu pila de descartes a este Pokémon.",
 				it: "Assegna a questo Pokémon una carta Energia Fighting dalla tua pila degli scarti.",
 				pt: "Ligue 1 carta de Energia Fighting da sua pilha de descarte a este Pokémon.",
-				de: "Lege 1 Fighting-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
+				de: "Lege 1 {F}-Energiekarte aus deinem Ablagestapel an dieses Pokémon an."
 			},
 			damage: 30,
 
@@ -80,20 +80,19 @@ const card: Card = {
 	types: ["Fighting"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 457953,
-		tcgplayer: 213198
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 457953,
+				tcgplayer: 213198
+			}
+		},
+	],
 }
 
 export default card

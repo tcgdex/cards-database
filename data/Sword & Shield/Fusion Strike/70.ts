@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 80,
 	types: ["Water"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Souichirou Gunjima",
 
 	description: {
-		en: "Known for their violence, these Pokémon have the most fights with schools of red-striped Basculin."
+		en: "Known for their violence, these Pokémon have the most fights with schools of red-striped Basculin.",
+		de: "Sie sind für ihre brutale Natur bekannt. Besonders häufig kriegen sie sich mit ganzen Schwärmen von rot gestreiften Exemplaren in die Haare."
 	},
 
 	attacks: [{
@@ -51,17 +58,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582204,
-		tcgplayer: 253215
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582204,
+				tcgplayer: 253215
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582204,
+				tcgplayer: 253215
+			}
+		},
+	],
 }
 
 export default card

@@ -56,21 +56,27 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Son corps est si léger qu'il doit s'accrocher fermement au sol avec ses pattes pour éviter d'être emporté par le vent."
+		en: "Its body is so light, it must grip the ground firmly with its feet to keep from being blown away.",
+		fr: "Son corps est si léger qu'il doit s'accrocher fermement au sol avec ses pattes pour éviter d'être emporté par le vent.",
+		de: "Sein Körper ist so leicht, dass es sich mit seinen Füßen am Boden festkrallen muss, um nicht davongeweht zu werden."
 	},
 
-	thirdParty: {
-		cardmarket: 274566,
-		tcgplayer: 86176
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274566,
+				tcgplayer: 86176
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274566,
+				tcgplayer: 86176
+			}
 		}
 	]
 }

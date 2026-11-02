@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Scraggy",
-		fr: "Baggiguane"
+		fr: "Baggiguane",
+		de: "Zurrokex"
 	},
 
 	attacks: [
@@ -99,7 +100,8 @@ const card: Card = {
 	stage: "Stage1",
 
 	description: {
-		en: "As halfhearted as this Pokémon's kicks may seem, they pack enough power to shatter Conkeldurr's concrete pillars."
+		en: "As halfhearted as this Pokémon's kicks may seem, they pack enough power to shatter Conkeldurr's concrete pillars.",
+		de: "Selbst seine halbherzigen Tritte sind stark genug, um die Betonpfeiler eines Meistagrif zu zertrümmern."
 	},
 
 	thirdParty: {

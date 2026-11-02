@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Shiftry",
@@ -87,16 +81,29 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It lives quietly in the deep forest. It is said to create chilly winter winds with the fans it holds."
+		en: "It lives quietly in the deep forest. It is said to create chilly winter winds with the fans it holds.",
+		de: "Es lebt in den einsamen Tiefen der Wälder. Man sagt, wenn es seine großen Fächer schwingt, jagen eisige Windböen über das Land."
 	},
 
 	dexId: [275],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574145,
-		tcgplayer: 246894
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574145,
+				tcgplayer: 246894
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574145,
+				tcgplayer: 246894
+			}
+		},
+	],
 }
 
 export default card

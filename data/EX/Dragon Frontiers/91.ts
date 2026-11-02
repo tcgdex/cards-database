@@ -5,9 +5,10 @@ const card: Card = {
 	name: {
 		en: "Dragonite ex δ",
 		fr: "Dracolosse ex δ",
-		de: "Dragoran ex"
+		de: "Dragoran-ex δ"
 	},
 
+	suffix: "ex",
 	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",

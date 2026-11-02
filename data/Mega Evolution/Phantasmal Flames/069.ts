@@ -72,22 +72,40 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "The core on its chest absorbs energy emanating from the lands of the Galar region. This energy is what allows Eternatus to stay active.",
+		fr: "Il devient actif en absorbant l'énergie qui émerge du sol de Galar grâce au noyau situé sur sa poitrine.",
+		de: "Indem der Kern in seinem Brustkorb die Energie absorbiert, die aus dem Boden der Galar-Region strömt, wird es aktiv."
+	},
+
+	illustrator: "akagi",
 	variants: [
 		{
-			type: "normal"
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857644,
+				tcgplayer: 660406,
+				cardtrader: 356855
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857644,
+				tcgplayer: 660406,
+				cardtrader: 356855
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857644,
-		tcgplayer: 660406
-	}
 }
 
 export default card

@@ -8,10 +8,14 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Trainer",
 	set: Set,
 	trainerType: "Item",
+
+	effect: {
+		en: "Flip a coin until you get tails. For each heads, draw a card. You may play as many Item cards as you like during your turn (before your attack).",
+	},
 
 	thirdParty: {
 		cardmarket: 554217

@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Nirgendwo-Sauger"
 	},
 
+	illustrator: "Amelicart",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -22,23 +23,31 @@ const card: Card = {
 		es: "Puedes usar esta carta solo si pones otra carta de tu mano en la Zona Perdida.\nElige 1 Herramienta Pokémon unida a cualquier Pokémon, o cualquier carta de Estadio en juego, y ponla en la Zona Perdida.",
 		it: "Puoi usare questa carta solo se metti un'altra carta che hai in mano nell'area perduta.\nScegli una carta Oggetto Pokémon assegnata a qualsiasi Pokémon, o una carta Stadio qualsiasi in gioco, e mettila nell'area perduta.",
 		pt: "Você só pode usar esta carta se colocar outra carta da sua mão na Zona Perdida.\nEscolha uma Ferramenta Pokémon ligada a qualquer Pokémon, ou qualquer Estádio em jogo, e coloque na Zona Perdida.",
-		de: "Du kannst diese Karte nur verwenden, wenn du eine andere Karte aus deiner Hand ins Nirgendwo legst.\nWähle 1 Pokémon-Ausrüstung, die an ein beliebiges Pokémon angelegt ist, oder 1 beliebige Stadionkarte im Spiel und lege sie ins Nirgendwo."
+		de: "Du kannst diese Karte nur verwenden, wenn du eine andere Karte aus deiner Hand ins Nirgendwo legst. Wähle 1 Pokémon-Ausrüstung, die an ein beliebiges Pokémon angelegt ist, oder 1 beliebige Stadionkarte im Spiel und lege sie ins Nirgendwo. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691854,
-		tcgplayer: 478188
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691854,
+				tcgplayer: 478188
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691854,
+				tcgplayer: 478188
+			}
+		},
+	],
 }
 
 export default card

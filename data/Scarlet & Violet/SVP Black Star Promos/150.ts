@@ -4,6 +4,8 @@ import Set from "../SVP Black Star Promos"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [25, 26, 54, 103, 226, 779, 915, 931, 964, 1000],
+
 	name: {
 		en: "Paradise Resort",
 		fr: "Hôtel \" Au paradis des Pokémon \"",
@@ -13,7 +15,7 @@ const card: Card = {
 		de: "Paradies Resort"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Trainer",
 
 	effect: {
@@ -27,7 +29,45 @@ const card: Card = {
 
 	trainerType: "Stadium",
 	regulationMark: "H",
-	illustrator: "Naoki Saito"
+	illustrator: "Naoki Saito",
+	variants: [
+		{
+			type: "normal",
+			stamp: ["worlds-2024"],
+			thirdParty: {
+				cardmarket: 783445,
+				tcgplayer: 578146
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2024","staff"],
+			thirdParty: {
+				cardmarket: 783446,
+				tcgplayer: 583726
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2024","top-thirty-two"]
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2024","top-sixteen"]
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2024","top-eight"]
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2024","semi-finalist"]
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2024","finalist"]
+		},
+	]
 }
 
 export default card

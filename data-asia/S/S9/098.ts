@@ -17,6 +17,16 @@ const card: Card = {
 		ja: "おたがいのプレイヤーがベンチに出せるポケモンの数は、4匹になる。［ベンチの数を変更する効果は、少ない数が優先される。］\n\n（このカードが場に出たとき、ベンチが5匹以上いるプレイヤーは、4匹になるまでトラッシュする。トラッシュするのは、このカードの持ち主から。）"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 605949,
+				tcgplayer: 569726,
+			},
+		},
+	],
+
 	trainerType: "Stadium",
 	regulationMark: "F",
 	rarity: "Uncommon"

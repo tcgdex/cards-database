@@ -86,6 +86,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "These Pokémon were once near extinction due to poaching. Following protective regulations, there is now an overabundance of them.",
+		de: "Es wäre einst durch übermäßiges Fischen fast ausgestorben. Durch ein strenges Abkommen zum Artenschutz gibt es nun fast zu viele."
+	},
+
 	thirdParty: {
 		cardmarket: 365695,
 		tcgplayer: 178863

@@ -53,23 +53,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "They live in groups. The one with the longest, thickest, and most-scarred horns is the boss of the herd."
+		en: "They live in groups. The one with the longest, thickest, and most-scarred horns is the boss of the herd.",
+		de: "Sie leben in Herden. Ihr Anführer ist das Tauros mit den kräftigsten und längsten Hörnern sowie den meisten Kampfspuren darauf."
 	},
 
-	thirdParty: {
-		cardmarket: 483549,
-		tcgplayer: 219329
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483549,
+				tcgplayer: 219329
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483549,
+				tcgplayer: 219329
+			}
+		},
+	],
 }
 
 export default card

@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Charmander"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 60,
 	types: ["Fire"],
@@ -44,16 +44,28 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
 	description: {
 		en: "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail."
 	},
-
-	thirdParty: {
-		cardmarket: 547031
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 664338,
+				tcgplayer: 275829
+			}
+		},
+	],
 }
 
 export default card

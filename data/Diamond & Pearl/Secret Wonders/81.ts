@@ -75,6 +75,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They can swarm any foe that invades their territory. Their sharp fangs can tear out boat hulls.",
+	},
+
 	thirdParty: {
 		cardmarket: 277834,
 		tcgplayer: 84114

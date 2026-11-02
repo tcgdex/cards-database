@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Mareanie",
 		fr: "Vorastérie",
+		de: "Garstella"
 	},
 
 	stage: "Stage1",
@@ -91,6 +92,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "Toxapex crawls along the ocean floor on its 12 legs. It leaves a trail of Corsola bits scattered in its wake.",
+		de: "Kriecht mit seinen zwölf Beinen über den Meeresboden. Es hinterlässt oft etliche Überreste von Corasonn."
+	},
 
 	thirdParty: {
 		cardmarket: 295374,

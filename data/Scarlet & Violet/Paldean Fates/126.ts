@@ -57,19 +57,33 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751665,
+				tcgplayer: 534517,
+				cardtrader: 274310
+			}
+		},
+	],
 
 	illustrator: "Shigenori Negishi",
 
-	thirdParty: {
-		cardmarket: 751665
-	}
+	description: {
+		en: "This Pokémon is a glutton, but it's bad at getting food. It teams up with a Tatsugiri to catch prey.",
+		de: "Es ist zwar ein Vielfraß, doch die Jagd liegt ihm nicht. Deshalb schließt es sich mit Nigiragi zusammen, um Beute zu fangen."
+	},
+
 }
 
 export default card

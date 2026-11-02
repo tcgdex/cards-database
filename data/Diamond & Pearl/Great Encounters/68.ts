@@ -67,6 +67,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It claws if displeased and purrs when affectionate. Its fickleness is very popular among some.",
+		de: "Es schlägt mit Krallen zu oder schnurrt, je nachdem, ob es gerade wütend oder zutraulich ist."
+	},
+
 	thirdParty: {
 		cardmarket: 277970,
 		tcgplayer: 85759

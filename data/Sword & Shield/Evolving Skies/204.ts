@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Leafeon VMAX",
@@ -42,12 +36,14 @@ const card: Card = {
 
 		name: {
 			en: "Grass Knot",
-			fr: "Nœud Herbe"
+			fr: "Nœud Herbe",
+			de: "Strauchler"
 		},
 
 		effect: {
 			en: "This attack does 60 damage for each Colorless in your opponent's Active Pokémon's Retreat Cost.",
-			fr: "Cette attaque inflige 60 dégâts pour chaque  dans le Coût de Retraite du Pokémon Actif de votre adversaire."
+			fr: "Cette attaque inflige 60 dégâts pour chaque  dans le Coût de Retraite du Pokémon Actif de votre adversaire.",
+			de: "Diese Attacke fügt für jedes {C} in den Rückzugskosten des Aktiven Pokémon deines Gegners 60 Schadenspunkte zu."
 		},
 
 		damage: "60×"
@@ -56,12 +52,14 @@ const card: Card = {
 
 		name: {
 			en: "Max Leaf",
-			fr: "Feuillomax"
+			fr: "Feuillomax",
+			de: "Dyna-Blatt"
 		},
 
 		effect: {
 			en: "Heal 30 damage from this Pokémon.",
-			fr: "Soignez 30 dégâts de ce Pokémon."
+			fr: "Soignez 30 dégâts de ce Pokémon.",
+			de: "Heile 30 Schadenspunkte bei diesem Pokémon."
 		},
 
 		damage: 170
@@ -75,10 +73,16 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574262,
-		tcgplayer: 246693
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 574262,
+				tcgplayer: 246693
+			}
+		},
+	],
 }
 
 export default card

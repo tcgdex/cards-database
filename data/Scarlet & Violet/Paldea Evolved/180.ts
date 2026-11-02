@@ -22,21 +22,34 @@ const card: Card = {
 		es: "Roba 2 cartas. Si tienes un Estadio en juego, roba 2 cartas más.",
 		it: "Pesca due carte. Se hai in gioco una carta Stadio, pesca altre due carte.",
 		pt: "Compre 2 cartas. Se você tiver um Estádio em jogo, compre 2 cartas a mais.",
-		de: "Ziehe 2 Karten. Wenn du eine Stadionkarte im Spiel hast, ziehe 2 Karten mehr."
+		de: "Ziehe 2 Karten. Wenn du eine Stadionkarte im Spiel hast, ziehe 2 Karten mehr. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715655,
+				tcgplayer: 497552,
+				cardtrader: 248831
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715655,
+				tcgplayer: 497552,
+				cardtrader: 248831
+			}
+		},
+	],
 
 	illustrator: "Ryuta Fuse",
 
-	thirdParty: {
-		cardmarket: 715655
-	}
+	
 }
 
 export default card

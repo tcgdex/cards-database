@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage2",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 0,
 	regulationMark: "E",
 	illustrator: "nagimiso",
 
 	description: {
-		en: "If it carries a Charjabug to use as a spare battery, a flying Vikavolt can rapidly fire high-powered beams of electricity."
+		en: "If it carries a Charjabug to use as a spare battery, a flying Vikavolt can rapidly fire high-powered beams of electricity.",
+		de: "Wenn es ein Akkup als Reservebatterie trägt, kann es im Flug eine Salve aus extrem starken Elextrostrahlen abfeuern."
 	},
 
 	attacks: [{
@@ -72,17 +79,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582494,
-		tcgplayer: 253257
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582494,
+				tcgplayer: 253257
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582494,
+				tcgplayer: 253257
+			}
+		},
+	],
 }
 
 export default card

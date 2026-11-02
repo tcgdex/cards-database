@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Minccino",
 		fr: "Chinchidou",
+		de: "Picochilla"
 	},
 
 	stage: "Stage1",
@@ -65,10 +66,12 @@ const card: Card = {
 			name: {
 				en: "Echoed Voice",
 				fr: "Écho",
+				de: "Widerhall"
 			},
 			effect: {
 				en: "During your next turn, this Pokémon's Echoed Voice attack does 50 more damage (before applying Weakness and Resistance).",
 				fr: "Pendant votre prochain tour, l'attaque Écho de ce Pokémon inflige 50 dégâts supplémentaires (avant application de la Faiblesse et de la Résistance).",
+				de: "Während deines nächsten Zuges fügt die Attacke Widerhall dieses Pokémon 50 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 			damage: 50,
 
@@ -84,10 +87,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 280310,
-		tcgplayer: 84319
-	}
+	description: {
+		en: "Their white fur is coated in a special oil that makes it easy for them to deflect attacks.",
+		de: "Sein weißer Flaum ist mit einem speziellen Öl überzogen. Gegnerische Angriffe gleten daran einfach ab."
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280310,
+				tcgplayer: 84319
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280310,
+				tcgplayer: 84319
+			}
+		},
+	],
 }
 
 export default card

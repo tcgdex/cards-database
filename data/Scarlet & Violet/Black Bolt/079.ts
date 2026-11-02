@@ -21,7 +21,7 @@ const card: Card = {
 	effect: {
 		en: "The Retreat Cost of the Pokémon this card is attached to is {C}{C} less.",
 		fr: "Le Coût de Retraite du Pokémon auquel cette carte est attachée est diminué de {C}{C}.",
-		de: "Die Rückzugskosten des Pokémon, an das diese Karte angelegt ist, verringern sich um {C}{C}.",
+		de: "Die Rückzugskosten des Pokémon, an das diese Karte angelegt ist, verringern sich um {C} {C}. Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt.",
 		it: "Il costo di ritirata del Pokémon a cui è assegnata questa carta è ridotto di {C}{C}.",
 		pt: "O custo de Recuo do Pokémon ao qual esta carta está ligada é {C}{C} a menos.",
 		es: "El Coste de Retirada del Pokémon al que esté unida esta carta es de {C}{C} menos.",
@@ -30,10 +30,71 @@ const card: Card = {
 
 	trainerType: "Tool",
 	regulationMark: "I",
-
-	thirdParty: {
-		cardmarket: 836066
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836066,
+				tcgplayer: 642531
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836066,
+				tcgplayer: 642531
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836470,
+				tcgplayer: 642771
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			stamp: ["player-rewards-program"],
+			thirdParty: {
+				cardmarket: 864407,
+				tcgplayer: 675552
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			stamp: ["great-ball-league"],
+			thirdParty: {
+				cardmarket: 855028,
+				tcgplayer: 696170
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["gym-challenge"],
+			thirdParty: {
+				tcgplayer: 714875
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["liao-fu-guan"],
+			thirdParty: {
+				cardmarket: 884311,
+				tcgplayer: 690279
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["jose-cruz-galindo-resendiz"],
+			thirdParty: {
+				cardmarket: 884410,
+				tcgplayer: 690510
+			}
+		},
+	]
 }
 
 export default card

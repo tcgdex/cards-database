@@ -74,18 +74,42 @@ const card: Card = {
 		damage: 160
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Oinkologne is proud of its fine, glossy skin. It emits a concentrated scent from the tip of its tail.",
+		de: "Seine glatte, glänzende Haut ist sein ganzer Stolz. Über die Spitze seines Schwanzes setzt es einen konzentrierten Duft frei."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725263,
+				tcgplayer: 509769,
+				cardtrader: 256079
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725263,
+				tcgplayer: 509769,
+				cardtrader: 256079
+			}
+		},
+	],
 
 	illustrator: "Pani Kobayashi",
 
-	thirdParty: {
-		cardmarket: 725263
-	}
+	
 }
 
 export default card

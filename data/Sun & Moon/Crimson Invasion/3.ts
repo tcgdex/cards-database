@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Kakuna",
 		fr: "Coconfort",
+		de: "Kokuna"
 	},
 
 	stage: "Stage2",
@@ -83,6 +84,11 @@ const card: Card = {
 	],
 
 	retreat: 0,
+
+	description: {
+		en: "May appear in a swarm. Flies at violent speeds, all the while stabbing with the toxic stinger on its rear.",
+		de: "Dieses Pokémon verfügt über drei Giftstachel. Es kann seine Gegner damit wiederholt stechen."
+	},
 
 	thirdParty: {
 		cardmarket: 311853,

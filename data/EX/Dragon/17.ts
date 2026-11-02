@@ -4,7 +4,7 @@ import Set from '../Dragon'
 const card: Card = {
 	name: {
 		en: "Magneton",
-		fr: "Magneton",
+		fr: "Magnéton",
 		de: "Magneton"
 	},
 
@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		82,
-	],
+	dexId: [82],
 
 	hp: 70,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
 		en: "Magnemite",
-		fr: "Magnéti"
+		fr: "Magnéti",
+		de: "Magnetilo"
 	},
 
 	stage: "Stage1",
@@ -62,7 +61,7 @@ const card: Card = {
 				fr: "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées à tous vos Pokémon (Magneton inclus).",
 				de: "Fügt für jede Energie, die an allen deinen Pokémon angelegt ist, 10 Schadenspunkte zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 	],
@@ -70,24 +69,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Metal",
 			value: "-30"
 		},
 	],
-
-
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 87100,
-		cardmarket: 275894
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87100,
+				cardmarket: 275894
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87100,
+				cardmarket: 275894
+			},
+		},
+	],
+
 }
 
 export default card

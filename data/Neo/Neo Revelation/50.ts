@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, choose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. Don't apply Weakness and Resistance.",
 				fr: "Lancez une pièce. Si c'est face, choisissez 1 des Pokémon de votre adversaire. Cette attaque inflige 20 dégâts à ce Pokémon. N'appliquez ni la Faiblesse, ni la Résistance.",
-				de: "Wirf eine Münze. Wähle bei 'Kopf' ein Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 20 Schadenspunkte zu. Wende Schwäche und Resistenz nicht an."
+				de: "Wirf eine Münze. Wähle bei „Kopf“ ein Pokémon deines Gegners. Dieser Angriff fügt diesem Pokémon 20 Schadenspunkte zu. Wende Schwäche und Resistenz nicht an."
 			},
 
 		},
@@ -52,21 +52,27 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Il sait particulièrement bien viser. L'eau qu'il projette peut frapper une proie en mouvement à plus de 100 mètres."
+		en: "It has superb accuracy. The water it shoots out can strike even moving prey from more than 300 feet.",
+		fr: "Il sait particulièrement bien viser. L'eau qu'il projette peut frapper une proie en mouvement à plus de 100 mètres.",
+		de: "Seine Zielgenauigkeit ist legendär. Das Wasser, dass es verschießt, kann selbst sich bewegende Ziele aus über 90 Meter Entfernung treffen."
 	},
 
-	thirdParty: {
-		cardmarket: 274636,
-		tcgplayer: 88692
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274636,
+				tcgplayer: 88692
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274636,
+				tcgplayer: 88692
+			}
 		}
 	]
 }

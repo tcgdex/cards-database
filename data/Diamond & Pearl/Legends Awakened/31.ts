@@ -76,7 +76,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		fr: "On raconte qu'une fois tous les mille ans, il a la capacité d'exaucer tous les vœux durant une semaine."
+		en: "It is said to have the ability to grant any wish for just one week every thousand years.",
+		fr: "On raconte qu'une fois tous les mille ans, il a la capacité d'exaucer tous les vœux durant une semaine.",
+		de: "Man sagt, es kann alle tausend Jahre für eine Woche jeden Wunsch erfüllen."
 	},
 
 	thirdParty: {

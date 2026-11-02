@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Hisui-Lektrobal V"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Pokemon",
 	hp: 210,
@@ -37,7 +38,7 @@ const card: Card = {
 			es: "Este ataque hace 100 puntos de daño por cada Condición Especial que afecte a este Pokémon.",
 			it: "Questo attacco infligge 100 danni per ogni condizione speciale che influenza questo Pokémon.",
 			pt: "Este ataque causa 100 pontos de dano para cada Condição Especial afetando este Pokémon.",
-			de: "Diese Attacke fügt für jeden Speziellen Zustand, von dem dieses Pokémon betroffen ist, 100 Schadenspunkte zu."
+			de: "Diese Attacke fügt für jeden Speziellen Zustand, von dem diesem Pokémon betroffen ist, 100 Schadenspunkte zu."
 		},
 
 		damage: "100×"
@@ -68,16 +69,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 670823,
-		tcgplayer: 284110
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 670823,
+				tcgplayer: 284110
+			}
+		},
+	],
 }
 
 export default card

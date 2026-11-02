@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Il vit dans la couche d'ozone, au-dessus\ndes nuages. Il est invisible depuis le sol.",
 		es: "Vive en la capa de ozono sobre las nubes\ny no puede ser visto desde el suelo.",
 		it: "Vive nello strato di ozono oltre le nuvole\ne non può essere avvistato da terra.",
-		de: "Es lebt in der Ozonschicht hoch über den Wolken\nund kann vom Boden aus nicht gesehen werden.",
+		de: "Es lebt in der Ozonschicht hoch über den Wolken und kann vom Boden aus nicht gesehen werden.",
 		'pt-br': "Ele vive na camada de ozônio muito acima das nuvens\ne não pode ser visto do solo.",
 		ko: "구름보다 아득히 먼 위의 오존층에\n서식하고 있기 때문에 지상에서\n모습을 볼 수 없다."
 	},

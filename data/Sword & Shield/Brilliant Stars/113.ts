@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Shardrago"
 	},
 
+	illustrator: "Ryo Ueda",
 	rarity: "Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -60,17 +61,28 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Druddigon are vicious and cunning. They take up residence in nests dug out by other Pokémon, treating the stolen nests as their own lairs.",
+		de: "Shardrago ist grausam und gerissen. Es nimmt die selbstgegrabenen Höhlen anderer Pokémon ein, um sie zu seinem Unterschlupf zu machen."
 	},
 
-	thirdParty: {
-		cardmarket: 608659,
-		tcgplayer: 263834
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608659,
+				tcgplayer: 263834
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608659,
+				tcgplayer: 263834
+			}
+		},
+	],
 }
 
 export default card

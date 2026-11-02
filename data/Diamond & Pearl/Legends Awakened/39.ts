@@ -80,7 +80,9 @@ const card: Card = {
 	retreat: 4,
 
 	description: {
-		fr: "Son corps invulnérable fut forgé par la pression souterraine durant des dizaines de milliers d'années."
+		en: "Tempered by pressure underground over tens of thousands of years, its body cannot be scratched.",
+		fr: "Son corps invulnérable fut forgé par la pression souterraine durant des dizaines de milliers d'années.",
+		de: "Im Laufe der Jahrtausende, die es unterirdisch lebte, wurde sein Körper durch Druck u. Wärme hart."
 	},
 
 	thirdParty: {

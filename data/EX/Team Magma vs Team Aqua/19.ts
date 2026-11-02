@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		323,
-	],
+	dexId: [323],
 
 	hp: 80,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Stage1",
@@ -31,13 +29,13 @@ const card: Card = {
 			name: {
 				en: "Overheat",
 				fr: "Surchauffe",
-				de: "Overheat"
+				de: "Überhitzen"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may search your discard pile for a basic Energy card and attach it to Team Magma's Camerupt. Put 2 damage counters on Team Mamga's Camerupt. This power can't be used if Team Magma's Camerupt is affected by a Special Condition.",
 				fr: "Une seule fois lors de votre tour (avant votre attaque), vous pouvez chercher dans votre pile de défausse une carte Énergie de base et l'attacher à Camerupt de Team Magma. Placez 2 marqueurs de dégât sur Camerupt de Team Magma. Ce pouvoir ne peut pas être utilisé si Camerupt de Team Magma est affecté par un État Spécial.",
-				de: "Once during your turn (before your attack), you may search your discard pile for a basic Energy card and attach it to Team Magma's Camerupt. Put 2 damage counters on Team Magma's Camerupt. This power can't be used if Team Magma's Camerupt is affected by a Special Condition."
-			},
+				de: "Während deines Zuges (vor deinem Angriff) kannst du ein Mal deinen Ablagestapel nach einer Basis-Energiekarte durchsuchen und sie an Team Magmas Camerupt anlegen. Lege 2 Schadensmarken auf Team Magmas Camerupt. Diese Poké-Power kann nicht verwendet werden, falls Team Magmas Camerupt von einem Speziellen Zustand betroffen ist."
+			}
 		},
 	],
 
@@ -51,12 +49,12 @@ const card: Card = {
 			name: {
 				en: "Flame Ball",
 				fr: "Boule de feu",
-				de: "Flame Ball"
+				de: "Brennender Ball"
 			},
 			effect: {
 				en: "You may move a Fire Energy card attached to Team Magma's Camerupt to 1 of your Benched Pokémon.",
 				fr: "Vous pouvez déplacer une carte Énergie  attachée à Camerupt de Team Magma sur 1 des Pokémon de votre Banc.",
-				de: "You may move a  Energy card attached to Team Magma's Camerupt to 1 of your Benched Pokémon."
+				de: "Du kannst eine an Team Magmas Camerupt angelegte {R}-Energiekarte an ein Pokémon auf deiner Bank anlegen."
 			},
 			damage: 50,
 
@@ -70,26 +68,35 @@ const card: Card = {
 		},
 	],
 
-	
+
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275996,
-		tcgplayer: 89824
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275796,
+				tcgplayer: 89824
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275796,
+				tcgplayer: 89824
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["tsuguyoshi-yamato"]
+			stamp: ["tsuguyoshi-yamato"],
+			thirdParty: {
+				cardmarket: 871831,
+				tcgplayer: 477449
+			}
 		}
-	]
+	],
+
 }
 
 export default card

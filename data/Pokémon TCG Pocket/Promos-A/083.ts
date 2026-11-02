@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Stufful",
-		es: "Stufful"
+		es: "Stufful",
+		de: "Velursi"
 	},
 
 	illustrator: "Kanako Eo",
@@ -19,7 +20,8 @@ const card: Card = {
 
 	description: {
 		en: "Its fluffy fur is a delight to pet, but carelessly reaching out\nto touch this Pokémon could result in painful retaliation.",
-		es: "Su suave pelaje invita a acariciarlo, pero quien cometa\nsemejante temeridad recibirá un severo escarmiento."
+		es: "Su suave pelaje invita a acariciarlo, pero quien cometa\nsemejante temeridad recibirá un severo escarmiento.",
+		de: "Sein Pelz ist wunderbar flauschig. Wagt man es jedoch, diesen zu berühren, setzt es sich ohne Rücksicht auf Verluste zur Wehr."
 	},
 
 	stage: "Basic",
@@ -27,7 +29,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Ram",
-			es: "Apisonar"
+			es: "Apisonar",
+			de: "Ramme"
 		},
 
 		damage: 40,

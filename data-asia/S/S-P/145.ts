@@ -1,47 +1,67 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "卡比獸"
+		ja: "ミロカロス",
+		'zh-tw': "卡比獸",
 	},
 
-	illustrator: "Tika Matsuno",
+	illustrator: "Fuzichoco",
 	category: "Pokemon",
-	hp: 150,
-	types: ["Colorless"],
+	hp: 120,
+	types: ["Water"],
 
 	description: {
-		'zh-tw': "每天不吃下４００公斤的食物絕不會善罷甘休。吃飽了就會開始睡覺。"
+		ja: "もっとも 美しい ポケモンとも 呼ばれ 多くの 芸術家に インスピレーションを 与えてきた。",
+		'zh-tw': "每天不吃下４００公斤的食物絕不會善罷甘休。吃飽了就會開始睡覺。",
 	},
 
-	stage: "Basic",
+	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "滾動衝撞"
+	abilities: [
+		{
+			type: "Ability",
+			name: { ja: "ブライトヒール" },
+			effect: {
+				ja: "自分の番に1回使える。自分のポケモン全員のHPを、それぞれ「20」回復する。",
+			},
 		},
+	],
 
-		damage: 80,
-		cost: ["Colorless", "Colorless", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "重磅衝擊"
+	attacks: [
+		{
+			name: {
+				ja: "なみのり",
+				'zh-tw': "滾動衝撞",
+			},
+			damage: 80,
+			cost: ["Water", "Colorless", "Colorless"],
 		},
+	],
 
-		damage: 130,
-		cost: ["Colorless", "Colorless", "Colorless", "Colorless"]
-	}],
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 525405,
+				tcgplayer: 597344,
+			},
+		},
+	],
 
-	retreat: 4,
-	regulationMark: "D"
-}
+	evolveFrom: {
+		ja: "ヒンバス",
+	},
 
-export default card
+	retreat: 2,
+	regulationMark: "D",
+	rarity: "Promo",
+	dexId: [350],
+};
+
+export default card;

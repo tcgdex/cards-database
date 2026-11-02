@@ -35,18 +35,42 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "These Pokémon have sharp fangs and powerful jaws. Sailors avoid Carvanha dens at all costs.",
+		de: "Es verfügt über äußerst spitze Zähne und kräftige Kiefer. Seefahrer meiden die Lebensräume von Kanivanha um jeden Preis."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725126,
+				tcgplayer: 509763,
+				cardtrader: 255606
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725126,
+				tcgplayer: 509763,
+				cardtrader: 255606
+			}
+		},
+	],
 
 	illustrator: "Jerky",
 
-	thirdParty: {
-		cardmarket: 725126
-	}
+	
 }
 
 export default card

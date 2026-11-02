@@ -44,18 +44,40 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715589,
+				tcgplayer: 497529,
+				cardtrader: 248760
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715589,
+				tcgplayer: 497529,
+				cardtrader: 248760
+			}
+		},
+	],
 
 	illustrator: "kawayoo",
 
-	thirdParty: {
-		cardmarket: 715589
-	}
+	description: {
+		en: "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.",
+		de: "Bläst es seine Giftbeutel auf, ertönt ein unheimliches Geräusch. Wenn Gegner dadurch zurückschrecken, vergiftet es sie."
+	},
 }
 
 export default card

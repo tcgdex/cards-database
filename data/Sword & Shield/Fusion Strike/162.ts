@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 50,
 	types: ["Darkness"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "NC Empire",
 
 	description: {
-		en: "With its sturdy jaws and fangs, it can easily chomp wooden boats to splinters. It fights with Basculin over food."
+		en: "With its sturdy jaws and fangs, it can easily chomp wooden boats to splinters. It fights with Basculin over food.",
+		de: "Mit seinem robusten Kiefer und starken Zähnen zerbeißt es mühelos Holzboote. Es streitet mit Barschuft um Futter."
 	},
 
 	attacks: [{
@@ -42,17 +49,23 @@ const card: Card = {
 		damage: 10
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582790,
-		tcgplayer: 253376
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582790,
+				tcgplayer: 253376
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582790,
+				tcgplayer: 253376
+			}
+		},
+	],
 }
 
 export default card

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Glameow",
 		fr: "Chaglam",
+		de: "Charmian"
 	},
 
 	stage: "Stage1",
@@ -92,6 +93,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "To make itself appear intimidatingly beefy, it tightly cinches its waist with its twin tails.",
+		de: "Damit es bedrohlicher und größer aussieht, umschlingt es seine Taille fest mit seinem Schwanz."
+	},
 
 	thirdParty: {
 		cardmarket: 316035,

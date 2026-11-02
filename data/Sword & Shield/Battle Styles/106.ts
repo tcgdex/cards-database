@@ -65,23 +65,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "The two swords employ a strategy of rapidly alternating between offense and defense to bring down their prey."
+		en: "The two swords employ a strategy of rapidly alternating between offense and defense to bring down their prey.",
+		de: "Seine zwei Schwerter wechseln sich in einer hektischen Aufeinanderfolge von Angriff und Verteidigung ab, um seine Beute zu erlegen."
 	},
 
-	thirdParty: {
-		cardmarket: 545611,
-		tcgplayer: 234196
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545611,
+				tcgplayer: 234196
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545611,
+				tcgplayer: 234196
+			}
+		},
+	],
 }
 
 export default card

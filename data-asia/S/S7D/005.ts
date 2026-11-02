@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S7D"
+import { Card } from "../../../interfaces";
+import Set from "../S7D";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "冷水猴"
+		ja: "ヒヤップ",
+		'zh-tw': "冷水猴",
 	},
 
 	illustrator: "Sekio",
@@ -14,31 +14,44 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
-		'zh-tw': "頭上的毛髮叢裡儲藏的水充滿營養。如果拿來灌溉，植物就會茁壯成長。"
+		ja: "頭の ふさに ためた 水は 栄養 たっぷり。 植物に かけると 大きく 育つのだ。",
+		'zh-tw': "頭上的毛髮叢裡儲藏的水充滿營養。如果拿來灌溉，植物就會茁壯成長。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "猛地一動"
+	attacks: [
+		{
+			name: {
+				ja: "ぐいっとする",
+				'zh-tw': "猛地一動",
+			},
+			damage: 10,
+			cost: ["Water"],
+			effect: {
+				ja: "相手の手札を見る。",
+				'zh-tw': "查看對手的手牌。",
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "查看對手的手牌。"
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 571587,
+				tcgplayer: 569328,
+			},
 		},
-
-		damage: 10,
-		cost: ["Water"]
-	}],
-
-	weaknesses: [{
-		type: "Lightning",
-		value: "×2"
-	}],
+	],
 
 	retreat: 1,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Common",
+	dexId: [515],
+};
 
-export default card
+export default card;

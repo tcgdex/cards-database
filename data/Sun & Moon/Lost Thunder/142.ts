@@ -70,6 +70,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It uses its tail to absorb electricity from power plants or from outlets in houses, and then it fires the electricity from its whiskers.",
+		de: "Mit seinem Schwanz zapft es Kraftwerke sowie Steckdosen in Häusern an, um Strom zu tanken, den es über seine Schnurrhaare wieder entlädt."
+	},
+
 	thirdParty: {
 		cardmarket: 365722,
 		tcgplayer: 178961

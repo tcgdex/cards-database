@@ -81,7 +81,7 @@ const card: Card = {
 				es: "Pasada de Ataque GX",
 				it: "Mitragliare GX",
 				pt: "Bombardear GX",
-				de: "Beharken GX"
+				de: "Beharken-GX"
 			},
 			effect: {
 				en: "Switch this Pokémon with 1 of your Benched Pokémon. (You can’t use more than 1 GX attack in a game.)",

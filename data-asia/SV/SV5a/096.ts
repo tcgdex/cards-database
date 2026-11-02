@@ -15,7 +15,17 @@ const card: Card = {
 		ja: "このカードは、ポケモンについているかぎり、すべてのタイプのエネルギー1個ぶんとしてはたらく。\n\nこのカードをつけているポケモンに、このカード以外の特殊エネルギーがついているなら、エネルギー1個ぶんとしてはたらく。"
 	},
 
-	energyType: "Special"
+	energyType: "Special",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 761556,
+				tcgplayer: 566151,
+			},
+		},
+	],
 }
 
 export default card

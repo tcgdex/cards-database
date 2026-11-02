@@ -4,7 +4,8 @@ import Set from '../POP Series 7'
 const card: Card = {
 	name: {
 		en: "Burmy Plant Cloak",
-		fr: "Burmy Plant Cloak"
+		fr: "Cheniti Cape Plante",
+		de: "Burmy Pflanzenumhang"
 	},
 
 	illustrator: "Kouki Saitou",
@@ -12,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		412,
-	],
+	dexId: [412],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -29,11 +28,13 @@ const card: Card = {
 			type: "Poke-POWER",
 			name: {
 				en: "Wear Cloak",
-				fr: "Cape"
+				fr: "Cape",
+				de: "Umhang tragen"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), if Burmy Plant Cloak is your Active Pokémon, you may search your discard pile for a basic Grass Energy card and attach it to Burmy Plant Cloak.",
-				fr: "Une seule fois lors de votre tour (avant votre attaque), si Cheniti Cape Plante est votre Pokémon Actif, vous pouvez choisir dans votre pile de défausse une carte Énergie de base  et l'attacher à Cheniti Cape Plante."
+				fr: "Une seule fois lors de votre tour (avant votre attaque), si Cheniti Cape Plante est votre Pokémon Actif, vous pouvez choisir dans votre pile de défausse une carte Énergie de base  et l'attacher à Cheniti Cape Plante.",
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du, wenn Burmy Pflanzenumhang dein Aktives Pokémon ist, deinen Ablagestapel nach einer {G}-Basis-Energiekarte durchsuchen und an Burmy Pflanzenumhang anlegen."
 			},
 		},
 	],
@@ -45,11 +46,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Plant Cloak Tackle",
-				fr: "Charge cape plante"
+				fr: "Charge cape plante",
+				de: "Pflanzenumhang Tackle"
 			},
 			effect: {
 				en: "If Burmy Plant Cloak has any Grass Energy attached to it, this attack does 10 damage plus 10 more damage.",
-				fr: "Si Cheniti Cape Plante possède de l'Énergie , cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+				fr: "Si Cheniti Cape Plante possède de l'Énergie , cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				de: "Wenn an Burmy Pflanzenumhang mindestens 1 {G}-Energie angelegt ist, fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -62,24 +65,23 @@ const card: Card = {
 			value: "+10"
 		},
 	],
-
 	description: {
-		en: "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves."
+		en: "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.",
+		de: "Um sich vor dem eisigen Winterwind zu schützen, legt es sich unter einen Umhang aus Ästen und Laub."
 	},
 
 	retreat: 1,
 
-	variants: {
-		normal: true,
-		reverse: false,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84050,
+				cardmarket: 278043
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278043,
-		tcgplayer: 84050
-	}
 }
 
 export default card

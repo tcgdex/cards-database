@@ -14,9 +14,11 @@ const card: Card = {
 		pt: "Mega Diancie ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Narano",
 	rarity: "Special illustration rare",
 	category: "Pokemon",
+	dexId: [719],
 	hp: 270,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -71,13 +73,24 @@ const card: Card = {
 		damage: "120×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 676094,
-		cardmarket: 869893
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869893,
+				tcgplayer: 676094
+			}
+		}
+	],
 }
 
 export default card

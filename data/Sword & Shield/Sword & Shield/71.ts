@@ -77,7 +77,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It launches electrified fur from its abdomen as its means of attack. Opponents hit by the fur could be in for three full days and nights of paralysis."
+		en: "It launches electrified fur from its abdomen as its means of attack. Opponents hit by the fur could be in for three full days and nights of paralysis.",
+		de: "Es schießt elektrisch geladene Haare von seinem Abdomen. Wer getroffen wird, ist drei Tage und Nächte am ganzen Körper gelähmt."
 	},
 
 	dexId: [596],

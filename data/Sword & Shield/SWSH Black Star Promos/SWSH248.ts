@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Kleavor V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Fighting"],
@@ -58,12 +58,23 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
-
-	thirdParty: {
-		cardmarket: 660941
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 660941,
+				tcgplayer: 273938
+			}
+		},
+	],
 }
 
 export default card

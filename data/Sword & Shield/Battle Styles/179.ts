@@ -62,18 +62,13 @@ const card: Card = {
 
 	retreat: 2,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 	illustrator: "PLANETA Mochizuki",
 
 	description: {
-		en: "Identifiable by its eerie howls, people a long time ago thought it was the grim reaper and feared it."
+		en: "Identifiable by its eerie howls, people a long time ago thought it was the grim reaper and feared it.",
+		de: "Sein unheimliches Heulen ist unverkennbar. Früher wurde es von den Menschen als Bote des Todes gefürchtet."
 	},
 
 	evolveFrom: {
@@ -87,10 +82,16 @@ const card: Card = {
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 546686,
-		tcgplayer: 234104
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 546686,
+				tcgplayer: 234104
+			}
+		},
+	],
 }
 
 export default card

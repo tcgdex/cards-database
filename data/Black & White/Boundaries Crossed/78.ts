@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Rollout",
 				fr: "Roulade",
+				de: "Walzer"
 			},
 
 			damage: 10,
@@ -50,6 +51,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
+				de: "Schlitzer"
 			},
 
 			damage: 40,
@@ -73,10 +75,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 280665,
-		tcgplayer: 88927
-	}
+	description: {
+		en: "It digs deep burrows to live in. When in danger, it rolls up its body to withstand attacks.",
+		de: "Fristet sein Leben in selbst gegrabenen Löchern. Bei Gefahr rollt es sich zusammen und sitzt den Angriff aus."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280665,
+				tcgplayer: 88927
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280665,
+				tcgplayer: 88927
+			}
+		},
+	],
 }
 
 export default card

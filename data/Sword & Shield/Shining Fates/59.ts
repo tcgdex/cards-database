@@ -23,23 +23,29 @@ const card: Card = {
 		es: "Roba 2 cartas. Si alguno de tus Pokémon quedó Fuera de Combate durante el último turno de tu rival, roba 2 cartas más.",
 		it: "Pesca due carte. Se uno qualsiasi dei tuoi Pokémon è stato messo KO durante l'ultimo turno del tuo avversario, pesca altre due carte.",
 		pt: "Compre 2 cartas. Se algum dos seus Pokémon tiver sido Nocauteado durante o último turno do seu oponente, compre 2 cartas a mais.",
-		de: "Ziehe 2 Karten. Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde, ziehe 2 Karten mehr."
+		de: "Ziehe 2 Karten. Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde, ziehe 2 Karten mehr. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 539318,
-		tcgplayer: 232536
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539318,
+				tcgplayer: 232536
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539318,
+				tcgplayer: 232536
+			}
+		},
+	],
 }
 
 export default card

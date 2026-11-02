@@ -4,19 +4,17 @@ import Set from '../HGSS Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Minun",
-		fr: "Negapi"
+		fr: "Négapi"
 	},
 	illustrator: "Kouki Saitou",
-	rarity: "Common",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
-	dexId: [
-		312,
-	],
+	dexId: [312],
 	hp: 60,
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -49,7 +47,7 @@ const card: Card = {
 				en: "If Plusle is on your Bench, this attack does 10 damage plus 20 more damage.",
 				fr: "Si Posipi se trouve sur votre Banc, cette attaque inflige 10 dégâts plus 20 dégâts supplémentaires."
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],
@@ -65,12 +63,23 @@ const card: Card = {
 			value: "-20"
 		},
 	],
+	retreat: 1,
+
+
+	description: {
+		en: "Exposure to electricity from Minun and Plusle promotes blood circulation and relaxes muscles."
+	},
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 275596,
+				tcgplayer: 87492
+			}
+		},
+	],
+
 }
 
 export default card

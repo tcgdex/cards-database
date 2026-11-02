@@ -13,6 +13,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [25],
+
 	effect: {
 		fr: "Choisissez un Pokémon dans votre main, montrez-le à votre opposant et placez-le sur le dessus de votre deck. Dans ce cas, cherchez un Pokémon dans votre deck, montrez-le à votre adversaire, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
 		en: "Choose 1 Pokémon in your hand, show it to your opponent, and put it on top of your deck. If you do, search your deck for a Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
@@ -21,32 +23,50 @@ const card: Card = {
 
 	trainerType: "Item",
 
+	hp: 0,
+
+	retreat: 0,
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88220,
+				cardmarket: 279070
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88220,
+				cardmarket: 279070
+			}
 		},
 		{
 			type: "reverse",
-			stamp: ["player-rewards-program"]
+			foil: 'league',
+			thirdParty: {
+				tcgplayer: 123184,
+				cardmarket: 450103
+			}
 		},
 		{
 			type: "normal",
-			stamp : ["yuta-komatsuda"],
+			stamp: ["yuta-komatsuda"],
+			thirdParty: {
+				tcgplayer: 480096,
+				cardmarket: 868807
+			}
 		},
 		{
 			type: "normal",
-			stamp : ["yuka-furusawa"],
+			stamp: ["yuka-furusawa"],
+			thirdParty: {
+				tcgplayer: 480097,
+				cardmarket: 868808
+			}
 		},
 	],
 
-	hp: 0,
-
-	thirdParty: {
-		cardmarket: 279070
-	}
 }
 
 export default card

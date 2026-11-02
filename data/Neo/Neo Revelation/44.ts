@@ -33,7 +33,7 @@ const card: Card = {
 			name: {
 				en: "Knuckle Punch",
 				fr: "Coud'phalange",
-				de: "Knochenhieb"
+				de: "Knöchelhieb"
 			},
 
 			damage: 20,
@@ -47,23 +47,31 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Il s'aide de ses bras pour gravir les pentes des montagnes les plus raides. Il fait tourner ses poings s'il est en colère."
+		en: "It uses its arms to steadily climb steep mountain paths. It swings its fists around if angered.",
+		fr: "Il s'aide de ses bras pour gravir les pentes des montagnes les plus raides. Il fait tourner ses poings s'il est en colère.",
+		de: "Es verwendet seine Arme, um unaufhaltsam selbst steile Bergpfade zu erklimmen. Wenn es geärgert wird, schwingt es seine Fäuste herum."
 	},
 
-	thirdParty: {
-		cardmarket: 274630,
-		tcgplayer: 85683
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274630,
+				tcgplayer: 85683
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274630,
+				tcgplayer: 85683
+			}
 		}
 	]
 }

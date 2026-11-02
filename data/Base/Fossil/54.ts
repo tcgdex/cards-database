@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt."
 			},
 
 		},
@@ -54,7 +54,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to Shellder during your opponent's next turn. (Any other effects of attacks still happen.)",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Kokiyas pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)",
-				de: "Wirf eine Münze. Bei 'Kopf' verhindere allen Schaden, der Muschas während des nächsten Zuges deines gegners zugefügt wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
+				de: "Wirf eine Münze. Bei „Kopf“ verhindere allen Schaden, der Muschas während des nächsten Zuges deines Gegners zugefügt wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
 			},
 
 		},
@@ -66,31 +66,41 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Protégé par une carapace très résistante, il est vulnérable quand celle-ci s'ouvre."
+		en: "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.",
+		fr: "Protégé par une carapace très résistante, il est vulnérable quand celle-ci s'ouvre.",
+		de: "Seine harte Schale weist jeden Angriff ab. Es ist nur dann verwundbar, wenn seine Schale offen ist."
 	},
 
-	thirdParty: {
-		cardmarket: 273915,
-		tcgplayer: 44456
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273915,
+				tcgplayer: 44456
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 273915,
+				tcgplayer: 44456
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			thirdParty: {
+				cardmarket: 273915,
+				tcgplayer: 44456
+			}
 		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright"
-		}
-	]
+	],
 }
 
 export default card

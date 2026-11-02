@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Sealeo",
 		fr: "Phogleur",
+		de: "Seejong"
 	},
 
 	stage: "Stage2",
@@ -93,6 +94,11 @@ const card: Card = {
 	],
 
 	retreat: 4,
+
+	description: {
+		en: "It shatters ice with its big tusks. Its thick blubber repels not only the cold, but also enemy attacks.",
+		de: "Mit seinen Stoßzähnen bricht es durch Eis. Eine Speckschicht schützt es vor Kälte und Angriffen."
+	},
 
 	thirdParty: {
 		cardmarket: 407909,

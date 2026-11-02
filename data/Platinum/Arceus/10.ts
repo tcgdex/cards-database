@@ -8,22 +8,21 @@ const card: Card = {
 	},
 
 	illustrator: "Masakazu Fukuda",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		465,
-	],
+	dexId: [465],
 	
 	hp: 110,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Tangela",
+		de: "Tangela"
 	},
 
 	stage: "Stage1",
@@ -81,22 +80,33 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 278882,
-		tcgplayer: 89753
+	description: {
+		en: "Its arms are made of plants that bind themselves to things. They grow back right away if cut.",
+		de: "Seine Arme bestehen aus Ranken, die sich an Dinge klammern und nach dem Abschneiden sofort nachwachsen."
 	},
 
-	variants: [
-		{
-			type: "holo"
+	variants: [		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 89753,
+				cardmarket: 278882
+			}
 		},
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 125056
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 278882,
+				tcgplayer: 89753
+			}
 		},
-	]
+	],
+
 }
 
 export default card

@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Snubbull",
-		fr: "Snubbull"
+		fr: "Snubbull",
+		de: "Snubbull"
 	},
 
 	stage: "Stage1",
@@ -79,23 +80,31 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 2,
+
 
 	description: {
-		fr: "Il est timide et effarouché. Si on l'attaque, it flails about parer son attaquant."
+		en: "It is actually timid and easily spooked. If attacked, it flails about to fend off its attacker.",
+		fr: "Il est timide et effarouché. Si on l'attaque, it flails about parer son attaquant.",
+		de: "Es ist eigentlich furchtsam und lässt sich leicht erschrecken. Wenn es angegriffen wird, schlägt es wild um sich, um den Angreifer abzuwehren."
 	},
 
-	thirdParty: {
-		cardmarket: 274437,
-		tcgplayer: 85861
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274437,
+				tcgplayer: 85861
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274437,
+				tcgplayer: 85861
+			}
 		}
 	]
 }

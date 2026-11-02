@@ -21,7 +21,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Buizel",
-		fr: "Mustébouée"
+		fr: "Mustébouée",
+		de: "Bamelin"
 	},
 
 	stage: "Stage1",
@@ -50,14 +51,30 @@ const card: Card = {
 		damage: "50+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "Gemi",
+
+	description: {
+		en: "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives.",
+		de: "Mit gefüllter Schwimmblase kann es Menschen auf seinem Rücken tragen. Lässt es Luft aus ihr heraus, taucht es unter."
+	},
 
 	thirdParty: {
         cardmarket: 702342,

@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Fire Energy",
+		en: "Fire Energy"
 	},
 
 	illustrator: "Keiji Kinebuchi",
@@ -13,19 +13,24 @@ const card: Card = {
 	stage: "Basic",
 	energyType: "Normal",
 
-	thirdParty: {
-		cardmarket: 274396,
-		tcgplayer: 85455
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85455,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85455,
+				cardmarket: 274396
+			}
 		},
+	],
+	types: [
+		"Fire"
 	]
 }
 

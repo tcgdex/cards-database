@@ -13,23 +13,30 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [132, 202],
+
 	effect: {
+		en: "Flip a coin until you get tails. For each heads, return an Energy card attached to your opponent's Active Pokémon to your opponent's hand. If the Pokémon has fewer attached Energy cards than that, return all of them to your opponent's hand. Your turn is over now (you don't get to attack).",
 		fr: "Lancez une pièce jusqu'à obtenir pile. Pour chaque face, renvoyez une carte Énergie attachée au Pokémon Actif de votre adversaire dans sa main. Si le Pokémon a moins de cartes Énergie, renvoyez-les toutes dans sa main. Votre tour est terminé (vous ne pouvez pas attaquer).",
-		de: "Flip a coin until you get tails. For each heads, return an Energy card attached to your opponent's Active Pokémon to your opponent's hand. If the Pokémon has fewer attached Energy cards than that, return all of them to your opponent's hand. Your turn is over now (you don't get to attack)."
+		de: "Wirf eine Münze, bis „Zahl“ fällt. Bringe für jedes Mal „Kopf“ eine an das aktive Pokémon deines Gegners angelegte Energiekarte auf dessen Hand zurück. Wenn an dieses Pokémon weniger Energiekarten angelegt sind, bringe sie alle auf die Hand deines Gegners zurück. Dein Zug ist damit vorbei (du erhältst in diesem Zug keinen Angriff)."
 	},
 
-	thirdParty: {
-		cardmarket: 274748,
-		tcgplayer: 89898
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274748,
+				tcgplayer: 89898
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274748,
+				tcgplayer: 89898
+			}
 		}
 	]
 }

@@ -72,23 +72,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
 	description: {
-		en: "Once ingested into this Pokémon's body, even the hardest object will melt into nothing."
+		en: "Once ingested into this Pokémon's body, even the hardest object will melt into nothing.",
+		de: "Selbst die härtesten Objekte werden zersetzt, wenn der Körper sie erst aufgenommen hat."
 	},
 
-	thirdParty: {
-		cardmarket: 544911,
-		tcgplayer: 234038
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 544911,
+				tcgplayer: 234038
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 544911,
+				tcgplayer: 234038
+			}
+		},
+	],
 }
 
 export default card

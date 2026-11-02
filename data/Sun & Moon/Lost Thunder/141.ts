@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Kirlia",
 		fr: "Kirlia",
+		de: "Kirlia"
 	},
 
 	stage: "Stage2",
@@ -98,6 +99,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It has the power to predict the future. Its power peaks when it is protecting its Trainer.",
+		de: "Es kann die Zukunft vorhersagen. Beschützt es seinen Trainer, erreicht seine Kraft den Höhepunkt."
+	},
 
 	thirdParty: {
 		cardmarket: 365778,

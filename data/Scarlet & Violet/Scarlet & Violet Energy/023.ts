@@ -15,6 +15,22 @@ const card: Card = {
     category: "Energy",
     set: Set,
     energyType: "Normal",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836255,
+				tcgplayer: 645303
+			}
+		},
+		{
+			type: "reverse",
+			foil: "tinsel",
+			thirdParty: {
+				cardmarket: 836978
+			}
+		}
+	]
 
 
 }

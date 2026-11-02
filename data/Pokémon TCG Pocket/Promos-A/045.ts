@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Il ne se déplace que d'un centimètre\npar an, mais s'il se sent menacé, il virevolte\net s'enfonce dans le sol en un instant.",
 		es: "Solo se desplaza un centímetro al año, pero,\nsi se siente amenazado, gira sobre sí mismo\ny se hunde bajo tierra en un abrir y cerrar de ojos.",
 		it: "Si sposta di 1 cm all'anno, ma quando si trova in difficoltà\nruota su se stesso e in un attimo si nasconde sottoterra.",
-		de: "Es bewegt sich nur 1 cm pro Jahr, aber in\nNotlagen bohrt es sich mit seinem Körper\nblitzschnell in den Boden.",
+		de: "Es bewegt sich nur 1 cm pro Jahr, aber in Notlagen bohrt es sich mit seinem Körper blitzschnell in den Boden.",
 		'pt-br': "Este Pokémon move-se 3 centímetros por ano,\nmas quando está em uma enrascada, gira e perfura o solo\nem questão de segundos.",
 		ko: "1년에 1cm밖에 움직이지 않지만\n위기에 처하면 회전하여\n순식간에 땅속으로 파고든다."
 	},

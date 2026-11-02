@@ -2,6 +2,9 @@ import { Card } from "../../../interfaces"
 import Set from "../SV1V"
 
 const card: Card = {
+	regulationMark: "G",
+	rarity: "Illustration rare",
+	evolveFrom: { ja: "カプサイジ" },
 	set: Set,
 
 	name: {
@@ -50,6 +53,17 @@ const card: Card = {
 		type: "Fire",
 		value: "×2"
 	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardtrader: 235659,
+				cardmarket: 693156,
+				tcgplayer: 568307,
+			},
+		},
+	],
 
 	retreat: 1
 }

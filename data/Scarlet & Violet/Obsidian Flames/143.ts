@@ -57,18 +57,48 @@ const card: Card = {
 		damage: 90
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed.",
+		de: "Sein riesiger Kiefer hat sich aus stählernen Hörnern entwickelt. Mit ihm beißt es seine Gegner."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725223,
+				tcgplayer: 509922,
+				cardtrader: 255828
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725223,
+				tcgplayer: 509922,
+				cardtrader: 255828
+			}
+		},
+	],
 
 	illustrator: "sowsow",
 
-	thirdParty: {
-		cardmarket: 725223
-	}
+	
 }
 
 export default card

@@ -19,12 +19,25 @@ const card: Card = {
 	hp: 90,
 	types: ["Colorless"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Taira Akitsu",
 
 	description: {
-		en: "It always strikes a pose before going for its finishing move. Sometimes opponents take advantage of that time to counterattack."
+		en: "It always strikes a pose before going for its finishing move. Sometimes opponents take advantage of that time to counterattack.",
+		de: "Bevor es seinem Gegner mit einer Spezialtechnik ein Ende setzt, posiert es stets. Diesen Moment nutzt so mancher für einen Gegenangriff."
 	},
 
 	attacks: [{
@@ -51,17 +64,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582952,
-		tcgplayer: 253315
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582952,
+				tcgplayer: 253315
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582952,
+				tcgplayer: 253315
+			}
+		},
+	],
 }
 
 export default card

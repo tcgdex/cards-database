@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "Teeziro",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Fire"],
@@ -59,15 +59,28 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "I",
 
+	weaknesses: [{
+		type: "Water",
+		value: "x2"
+	}],
+
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 859029,
+				tcgplayer: 666538
+			}
 		},
 		{
 			type: "holo",
-			stamp: ["pokemon-center"]
-		}
-	]
+			stamp: ["pokemon-center"],
+			thirdParty: {
+				cardmarket: 859031,
+				tcgplayer: 665053
+			}
+		},
+	],
 }
 
 export default card

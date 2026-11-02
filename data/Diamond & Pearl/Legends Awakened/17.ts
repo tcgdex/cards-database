@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Yanma",
 		fr: "Yanma",
+		de: "Yanma"
 	},
 
 	stage: "Stage1",
@@ -83,7 +84,9 @@ const card: Card = {
 	],
 
 	description: {
-		fr: "Les ondes de choc qu'il génère en battant des ailes infligent de graves blessures internes."
+		en: "By churning its wings, it creates shock waves that inflict critical internal injuries to foes.",
+		fr: "Les ondes de choc qu'il génère en battant des ailes infligent de graves blessures internes.",
+		de: "Durch die Bewegung seiner Flügel entstehen Schockwellen, die dem Gegner innere Verletzungen zufügen."
 	},
 
 	thirdParty: {

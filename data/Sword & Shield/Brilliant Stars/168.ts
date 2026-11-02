@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Cherens Obhut"
 	},
 
+	illustrator: "Ryuta Fuse",
 	rarity: "Ultra Rare",
 	category: "Trainer",
 
@@ -22,23 +23,22 @@ const card: Card = {
 		es: "Pon 1 de tus Pokémon Colorless que tenga algún contador de daño y todas las cartas unidas a él en tu mano.",
 		it: "Riprendi in mano uno dei tuoi Pokémon Colorless che ha dei segnalini danno e tutte le carte a esso assegnate.",
 		pt: "Coloque 1 dos seus Pokémon Colorless que tiver algum contador de dano nele e todas as cartas ligadas a ele na sua mão.",
-		de: "Nimm 1 deiner Colorless-Pokémon, auf dem mindestens 1 Schadensmarke liegt, und alle angelegten Karten auf deine Hand."
+		de: "Nimm 1 deiner {C}-Pokémon, auf dem mindestens 1 Schadensmarke liegt, und alle an es angelegten Karten auf deine Hand. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608714,
-		tcgplayer: 263887
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608714,
+				tcgplayer: 263887
+			}
+		},
+	],
 }
 
 export default card

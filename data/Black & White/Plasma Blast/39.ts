@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Mumble",
 				fr: "Murmure",
+				de: "Grummeln"
 			},
 
 			damage: 10,
@@ -49,10 +50,12 @@ const card: Card = {
 			name: {
 				en: "Focused Wish",
 				fr: "Vœu Fervent",
+				de: "Gezielter Wunsch"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 10,
 
@@ -67,6 +70,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "This Pokémon appears before people and Pokémon who are having nightmares and eats those dreams.",
+		de: "Es erscheint vor schlafenden Menschen und Pokémon und frisst ihre Alpträume."
+	},
 
 	thirdParty: {
 		cardmarket: 281060,

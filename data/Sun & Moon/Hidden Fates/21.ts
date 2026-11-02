@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Voltorb",
 		fr: "Voltorbe",
+		de: "Voltobal"
 	},
 
 	illustrator: "SATOSHI NAKAI",
@@ -32,6 +33,7 @@ const card: Card = {
 			name: {
 				en: "Lightning Ball",
 				fr: "Boule Éclair",
+				de: "Kugelblitz"
 			},
 
 			damage: 20,
@@ -54,6 +56,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It was discovered when Poké Balls were introduced. It is said that there is some connection.",
+		de: "Es wurde entdeckt, als man Pokébälle einführte. Es scheint, als gäbe es da einen Zusammenhang."
+	},
 
 	thirdParty: {
 		cardmarket: 394642,

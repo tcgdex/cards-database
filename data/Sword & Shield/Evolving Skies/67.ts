@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Sableye",
@@ -83,16 +77,29 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It feeds on gemstone crystals. In darkness, its eyes sparkle with the glitter of jewels."
+		en: "It feeds on gemstone crystals. In darkness, its eyes sparkle with the glitter of jewels.",
+		de: "Es ernährt sich von Edelsteinen. Im Dunkeln funkeln seine beiden Augen wie Juwelen."
 	},
 
 	dexId: [302],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574115,
-		tcgplayer: 246842
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574115,
+				tcgplayer: 246842
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574115,
+				tcgplayer: 246842
+			}
+		},
+	],
 }
 
 export default card

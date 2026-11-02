@@ -86,6 +86,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They attack in groups, covering themselves in steel armor to protect themselves from Heatmor.",
+		de: "Ein eiserner Panzer umgibt seinen Leib. Angriffe von Furnifraß, seinem Feind, schlägt es in der Gruppe zurück."
+	},
+
 	thirdParty: {
 		cardmarket: 288184,
 		tcgplayer: 111512

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Hakamo-o",
 		fr: "Écaïd",
+		de: "Mediras"
 	},
 
 	stage: "Stage2",
@@ -93,6 +94,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "When it spots enemies, it threatens them by jingling the scales on its tail. Weak opponents will crack and flee in panic.",
+		de: "Wenn es einen Gegner sieht, rasselt es drohend mit seinen Schwanzschuppen. Schwache Gegner verlieren dadurch die Fassung und fliehen."
+	},
 
 	thirdParty: {
 		cardmarket: 311924,

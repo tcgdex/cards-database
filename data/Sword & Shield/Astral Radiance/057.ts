@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Togekiss"
 	},
 
+	illustrator: "sui",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 130,
@@ -67,20 +68,37 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "These Pokémon are never seen anywhere near conflict or turmoil. In recent times, they've hardly been seen at all.",
+		de: "Es zeigt sich nie an Orten, wo Streit und Zwietracht herrschen. In letzter Zeit wird es kaum noch gesehen."
 	},
 
-	thirdParty: {
-		cardmarket: 658623,
-		tcgplayer: 272258
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658623,
+				tcgplayer: 272258
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658623,
+				tcgplayer: 272258
+			}
+		},
+	],
 }
 
 export default card

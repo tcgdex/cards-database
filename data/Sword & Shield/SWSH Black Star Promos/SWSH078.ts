@@ -14,7 +14,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 180,
 	types: ["Grass"],
@@ -72,19 +72,26 @@ const card: Card = {
 	stage: "Basic",
 	dexId: [826],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
-	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 522970
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 522970,
+				tcgplayer: 227025
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 522980,
+				tcgplayer: 227026
+			}
+		},
+	],
+	suffix: "V"
 }
 
 export default card

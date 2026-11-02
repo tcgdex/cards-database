@@ -4,7 +4,13 @@ import Set from "../Paldean Wonders";
 const card: Card = {
   set: Set,
   name: {
-    en: "Cetoddle",
+		en: "Cetoddle",
+		fr: "Piétacé",
+		de: "Flaniwal",
+		it: "Cetoddle",
+		es: "Cetoddle",
+		pt: "Cetoddle",
+		'es-mx': "Cetoddle"
   },
   illustrator: "Sekio",
   rarity: "One Diamond",
@@ -19,7 +25,12 @@ const card: Card = {
   attacks: [
     {
       name: {
+        fr: "Missile Stalactite",
         en: "Icicle Missile",
+        es: "Misil Carámbano",
+        it: "Missilghiaccio",
+        pt: "Míssil Gélido",
+        de: "Eiszapfenrakete"
       },
       damage: 60,
       cost: ["Water", "Water", "Colorless"],

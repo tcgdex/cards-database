@@ -45,7 +45,7 @@ const card: Card = {
 				es: "Cada uno de tus Pokémon que tenga alguna Energía Lightning unida a él no tiene ningún Coste de Retirada.",
 				it: "I tuoi Pokémon in gioco che hanno delle Energie Lightning assegnate non hanno costo di ritirata.",
 				pt: "Cada um dos seus Pokémon que tiver alguma Energia Lightning ligada a ele não terá custo de Recuo.",
-				de: "Jedes deiner Pokémon, an das mindestens 1 Lightning-Energie angelegt ist, hat keine Rückzugskosten."
+				de: "Jedes deiner Pokémon, an das mindestens 1 {L}-Energie angelegt ist, hat keine Rückzugskosten."
 			},
 		},
 	],
@@ -86,7 +86,7 @@ const card: Card = {
 				es: "Pleno Voltaje GX",
 				it: "Alta Tensione-GX",
 				pt: "Voltagem Máxima GX",
-				de: "Volle Voltzahl GX"
+				de: "Volle Voltzahl-GX"
 			},
 			effect: {
 				en: "Attach 5 basic Energy cards from your discard pile to your Pokémon in any way you like. (You can’t use more than 1 GX attack in a game.)",

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Meowth"
+		en: "Meowth",
+		fr: "Miaouss"
 	},
 
 	illustrator: "Taiga Kasai",
@@ -17,21 +18,24 @@ const card: Card = {
 	types: ["Colorless"],
 
 	description: {
-		en: "All it does is sleep during the daytime. At night,\nit patrols its territory with its eyes aglow."
+		en: "All it does is sleep during the daytime. At night,\nit patrols its territory with its eyes aglow.",
+		fr: "Il passe ses journées à dormir. La nuit venue,\\nil patrouille sur son territoire, les yeux brillants."
 	},
 
 	stage: "Basic",
 
 	attacks: [{
 		name: {
-			en: "Pay Day"
+			en: "Pay Day",
+			fr: "Jackpot"
 		},
 
 		damage: 10,
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Draw a card."
+			en: "Draw a card.",
+			fr: "Piochez une carte."
 		}
 	}],
 

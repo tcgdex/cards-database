@@ -22,7 +22,7 @@ const card: Card = {
 		es: "El Pokémon Activo de tu rival pasa a estar Envenenado. Lanza una moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Dormido también.",
 		it: "Il Pokémon attivo del tuo avversario viene avvelenato. Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene anche addormentato.",
 		pt: "O Pokémon Ativo do seu oponente agora está Envenenado. Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente também ficará Adormecido.",
-		de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Wirf 1 Münze. Bei „Kopf“ schläft das Aktive Pokémon jetzt auch noch."
+		de: "Das Aktive Pokémon deines Gegners ist jetzt vergiftet. Wirf 1 Münze. Bei „Kopf“ schläft das Aktive Pokémon jetzt auch noch. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

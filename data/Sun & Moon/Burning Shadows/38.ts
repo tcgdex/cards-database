@@ -87,10 +87,27 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 299443,
-		tcgplayer: 138518
-	}
+	description: {
+		en: "When it unleashes its psychic power from the protuberance on its head, the grating sound of grinding teeth echoes through the area.",
+		de: "Wenn es über den Fortsatz an seinem Kopf Psycho-Kräfte freisetzt, ertönt in seiner Umgebung ein unangenehmes Zähneknirschen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299443,
+				tcgplayer: 138518
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299443,
+				tcgplayer: 138518
+			}
+		},
+	],
 }
 
 export default card

@@ -90,10 +90,27 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 299485,
-		tcgplayer: 138571
-	}
+	description: {
+		en: "A Grimer, which had been brought in to solve a problem with garbage, developed over time into this form.",
+		de: "Sleima, die zur Lösung der Abfallproblematik aus anderen Regionen nach Alola gebracht wurden, entwickelten sich eines Tages zu dieser Form."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299485,
+				tcgplayer: 138571
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299485,
+				tcgplayer: 138571
+			}
+		},
+	],
 }
 
 export default card

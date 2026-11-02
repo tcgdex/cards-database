@@ -9,19 +9,17 @@ const card: Card = {
 	},
 
 	illustrator: "Ken Ikuji",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		251,
-	],
+	dexId: [251],
 
 	hp: 70,
 
 	types: [
 		"Grass",
-		"Darkness",
+		"Darkness"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Attach up to 1 Grass or Darkness Energy card from your hand to your Pokémon.",
-				fr: "Attachez à votre Pokémon jusqu'à 1 carte Énergie  ou  de votre main.",
+				fr: "Attachez à votre Pokémon jusqu'à 1 carte Énergie {G} ou {D} de votre main.",
 				de: "Attack up to 1  or  Energy card from your hand to your Pokémon."
 			},
 
@@ -73,19 +71,22 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276078,
-		tcgplayer: 84571
-	},
-
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 84571,
+				cardmarket: 276078
+			}
 		},
 		{
-			type: "holo",
-			foil: "energy"
-		}
+			type: "reverse",
+			foil: 'energy',
+			thirdParty: {
+				tcgplayer: 84571,
+				cardmarket: 276078
+			}
+		},
 	]
 }
 

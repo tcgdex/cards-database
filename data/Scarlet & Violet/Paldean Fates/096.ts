@@ -44,19 +44,33 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751635,
+				tcgplayer: 534465,
+				cardtrader: 274280
+			}
+		},
+	],
 
 	illustrator: "Saya Tsuruta",
 
-	thirdParty: {
-		cardmarket: 751635
-	}
+	description: {
+		en: "This Pokémon is blown across vast distances by the wind. It is unclear where the Hoppip of Paldea originally came from.",
+		de: "Dieses Pokémon lässt sich vom Wind treiben und legt so weite Strecken zurück. Woher die Hoppspross aus Paldea stammen, ist ungewiss."
+	},
+
 }
 
 export default card

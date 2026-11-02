@@ -66,19 +66,33 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751677,
+				tcgplayer: 534538,
+				cardtrader: 274321
+			}
+		},
+	],
 
 	illustrator: "saino misaki",
 
-	thirdParty: {
-		cardmarket: 751677
-	}
+	description: {
+		en: "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
+		de: "Mitunter kann man beobachten, wie zwei Pachirisu ihre Backentaschen aneinanderreiben, um gespeicherte Elektrizität zu teilen."
+	},
+
 }
 
 export default card

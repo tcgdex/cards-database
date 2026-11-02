@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Skiploom",
 		fr: "Floravol",
+		de: "Hubelupf"
 	},
 
 	stage: "Stage2",
@@ -63,10 +64,12 @@ const card: Card = {
 			name: {
 				en: "Acrobatics",
 				fr: "Acrobatie",
+				de: "Akrobatik"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 more damage for each heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
+				de: "Wirf 2 Münzen. Dieser Angriff fügt 30 weitere Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: 20,
 
@@ -89,10 +92,27 @@ const card: Card = {
 
 	retreat: 0,
 
-	thirdParty: {
-		cardmarket: 280442,
-		tcgplayer: 86368
-	}
+	description: {
+		en: "Blown by the seasonal winds, it circles the globe, scattering cotton spores as it goes.",
+		de: "Es lässt sich von den Winden um den Globus tragen und verteilt auf seinem Flug Baumwollsamen."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280442,
+				tcgplayer: 86368
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280442,
+				tcgplayer: 86368
+			}
+		},
+	],
 }
 
 export default card

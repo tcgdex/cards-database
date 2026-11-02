@@ -10,6 +10,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [587],
 
 	dexId: [
 		213,
@@ -61,6 +62,10 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "The berries stored in its vaselike shell eventually become a thick, pulpy juice.",
+	},
 
 	thirdParty: {
 		cardmarket: 281154,

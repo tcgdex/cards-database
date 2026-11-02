@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -51,6 +51,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Thought to be one of the first Pokémon to live in harmony with humans, it has a placid disposition.",
+	},
 
 	thirdParty: {
 		cardmarket: 281336

@@ -52,18 +52,39 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	variants: {
-		holo: false
+	description: {
+		en: "By gathering their tails together, they collectively generate powerful electricity from their claws.",
+		de: "Verbindet es seinen Schweif mit dem eines Artgenossen, können seine Krallen noch heftigere Stromstöße austeilen."
 	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769241,
+				tcgplayer: 550111
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769241,
+				tcgplayer: 550111
+			}
+		},
+	],
 
 	illustrator: "Takumi Wada",
 
-	thirdParty: {
-		cardmarket: 769241
-	}
 }
 
 export default card

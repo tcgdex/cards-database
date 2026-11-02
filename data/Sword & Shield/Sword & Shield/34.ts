@@ -49,7 +49,7 @@ const card: Card = {
 				es: "Una vez durante tu turno, cuando este Pokémon se mueve de tu Banca al Puesto Activo, puedes unirle hasta 2 cartas de Energía Fire de tu pila de descartes.",
 				it: "Una sola volta durante il tuo turno, quando questo Pokémon si sposta dalla tua panchina in posizione attiva, puoi assegnargli fino a due carte Energia Fire dalla tua pila degli scarti.",
 				pt: "Uma vez durante o seu turno, quando este Pokémon for movido do seu Banco para o Campo Ativo, você poderá ligar até 2 cartas de Energia Fire da sua pilha de descarte a ele.",
-				de: "Einmal während deines Zuges, wenn dieses Pokémon von deiner Bank in die Aktive Position wechselt, kannst du bis zu 2 Fire-Energiekarten aus deinem Ablagestapel an es anlegen."
+				de: "Einmal während deines Zuges, wenn dieses Pokémon von deiner Bank in die Aktive Position wechselt, kannst du bis zu 2 {R}-Energiekarten aus deinem Ablagestapel an es anlegen."
 			},
 		},
 	],
@@ -100,7 +100,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It's skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot."
+		en: "It's skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot.",
+		de: "Jubel für besonders gelungene Spielzüge schüren seinen Enthusiasmus. Spielt es aber zu sehr für die Publikumswirkung, geht dies oft nach hinten los."
 	},
 
 	dexId: [815],

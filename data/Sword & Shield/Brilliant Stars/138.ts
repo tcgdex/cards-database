@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Cynthias Ehrgeiz"
 	},
 
+	illustrator: "Megumi Mizutani",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -22,23 +23,29 @@ const card: Card = {
 		es: "Roba cartas hasta que tengas 5 cartas en tu mano. Si alguno de tus Pokémon quedó Fuera de Combate durante el último turno de tu rival, roba cartas hasta que tengas 8 cartas en tu mano en vez de 5.",
 		it: "Pesca fino ad avere cinque carte in mano. Se uno qualsiasi dei tuoi Pokémon è stato messo KO durante l'ultimo turno del tuo avversario, invece pesca fino ad avere otto carte in mano.",
 		pt: "Compre cartas até ter 5 cartas na sua mão. Se algum dos seus Pokémon tiver sido Nocauteado durante o último turno do seu oponente, compre cartas até ter 8 cartas na sua mão ao invés de 5.",
-		de: "Ziehe so lange Karten, bis du 5 Karten auf deiner Hand hast. Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde, ziehe stattdessen so lange Karten, bis du 8 Karten auf deiner Hand hast."
+		de: "Ziehe so lange Karten, bis du 5 Karten auf deiner Hand hast. Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners kampfunfähig wurde, ziehe stattdessen so lange Karten, bis du 8 Karten auf deiner Hand hast. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608684,
-		tcgplayer: 263860
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608684,
+				tcgplayer: 263860
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608684,
+				tcgplayer: 263860
+			}
+		},
+	],
 }
 
 export default card

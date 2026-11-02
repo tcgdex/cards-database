@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Staravia",
 		fr: "Étourvol",
+		de: "Staravia"
 	},
 
 	stage: "Stage2",
@@ -101,6 +102,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "The muscles in its wings and legs are strong. It can easily fly while gripping a small Pokémon.",
+		de: "Die Muskeln in seinen Flügeln und Beinen sind stark. Es kann im Flug sogar ein anderes Pokémon tragen."
+	},
 
 	thirdParty: {
 		cardmarket: 311930,

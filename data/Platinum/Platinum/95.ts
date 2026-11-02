@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		287,
-	],
+	dexId: [287],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -33,14 +31,14 @@ const card: Card = {
 			name: {
 				en: "Flail",
 				fr: "Fléau",
-				de: "Flail"
+				de: "Dreschflegel"
 			},
 			effect: {
 				en: "Does 10 damage times the number of damage counters on Slakoth.",
 				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégât sur Parecool.",
-				de: "Does 10 damage times the number of damage counters on Slakoth."
+				de: "Dieser Angriff fügt 10 Schadenspunkte für jede Schadensmarke auf Bummelz zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 		{
@@ -51,12 +49,12 @@ const card: Card = {
 			name: {
 				en: "Slack Off",
 				fr: "Paresse",
-				de: "Slack Off"
+				de: "Tagedieb"
 			},
 			effect: {
 				en: "Remove all damage counters from Slakoth. Slakoth can't attack during your next turn.",
 				fr: "Retirez à Parecool tous ses marqueurs de dégât. Parecool ne peut pas attaquer lors de votre prochain tour.",
-				de: "Remove all damage counters from Slakoth. Slakoth can't attack during your next turn."
+				de: "Entferne alle Schadensmarken von Bummelz. Bummelz kann in deinem nächsten Zug nicht angreifen."
 			},
 
 		},
@@ -71,19 +69,28 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278516,
-		tcgplayer: 89299
+	description: {
+		en: "It spends nearly all its time in a day sprawled out. Just seeing it makes one drowsy.",
+		de: "Es verbringt fast den ganzen Tag mit Faulenzen und Schlafen. Selbst sein Anblick macht bereits müde."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 89299,
+				cardmarket: 278516
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278516,
+				tcgplayer: 89299
+			}
 		}
-	]
+	],
+
 }
 
 export default card

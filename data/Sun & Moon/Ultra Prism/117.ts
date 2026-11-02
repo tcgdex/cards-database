@@ -89,6 +89,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "This Pokémon is friendly to people and loves children most of all. It comes from deep in the mountains to play with children it likes in town.",
+		de: "Es ist sehr freundlich und liebt Kinder. Häufig kommt es aus den Bergen herab in die Städte, um mit seinen kleinen Freunden zu spielen."
+	},
+
 	thirdParty: {
 		cardmarket: 316043,
 		tcgplayer: 157734

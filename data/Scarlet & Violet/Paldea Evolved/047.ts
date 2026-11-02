@@ -64,18 +64,40 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715521,
+				tcgplayer: 497458,
+				cardtrader: 248637
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715521,
+				tcgplayer: 497458,
+				cardtrader: 248637
+			}
+		},
+	],
 
 	illustrator: "ryoma uratsuka",
 
-	thirdParty: {
-		cardmarket: 715521
-	}
+	description: {
+		en: "Its heart-shaped body makes it popular. In some places, you would give a Luvdisc to someone you love.",
+		de: "Seine Herzform macht es sehr beliebt. In einigen Gegenden besteht noch heute der Brauch, einer Person, die man liebt, ein Liebiskus zu schenken."
+	},
 }
 
 export default card

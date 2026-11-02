@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Piloswine",
 		fr: "Chochignon",
+		de: "Keifel"
 	},
 
 	stage: "Stage2",
@@ -45,7 +46,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin until you get tails. This attack does 30 damage times the number of heads or you may start again. Each time you start again, put 2 damage counters on Mamoswine. (If Mamoswine would be Knocked Out, you can't start again.)",
 				fr: "Lancez une pièce jusqu'à ce que vous obteniez pile. Cette attaque inflige 30 dégâts multipliés par le nombre de faces ou vous pouvez recommencer depuis le début. Chaque fois que vous recommencez, placez 2 marqueurs de dégât sur Mammochon. (Si Mammochon est mis K.O, vous ne pouvez pas recommencer.)",
-				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis \"Zahl\" kommt. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl \"Kopf\" zu oder du kannst eine neue Münzwurfserie beginnen. Für jede Münzwurfserie, die du neu beginnst, lege 2 Schadensmarken auf Mamutel. (Du darfst nicht erneut werfen, wenn Mamutel dadurch kampfunfähig würde.)"
+				de: "Wirf so lange 1 Münze, bis zum ersten Mal das Ergebnis „Zahl“ kommt. Dieser Angriff fügt 30 Schadenspunkte mal der Anzahl „Kopf“ zu oder du kannst eine neue Münzwurfserie beginnen. Für jede Münzwurfserie, die du neu beginnst, lege 2 Schadensmarken auf Mamutel. (Du darfst nicht erneut werfen, wenn Mamutel dadurch kampfunfähig würde.)"
 			},
 			damage: "30x",
 

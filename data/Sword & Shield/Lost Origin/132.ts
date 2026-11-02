@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Viscora"
 	},
 
+	illustrator: "Oswaldo KATO",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 60,
@@ -51,16 +52,23 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "F",
 
-	variants: {
-		"normal": true,
-		"reverse": true,
-		"holo": false
-	},
 
-	thirdParty: {
-		cardmarket: 674144,
-		tcgplayer: 284053
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 674144,
+				tcgplayer: 284053
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674144,
+				tcgplayer: 284053
+			}
+		},
+	],
 }
 
 export default card

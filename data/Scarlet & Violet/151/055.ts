@@ -63,18 +63,42 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "When it swims at full speed using its long, webbed limbs, its forehead somehow begins to glow.",
+		de: "Wenn es mit den Schwimmflossen an seinen langen Gliedmaßen schnell durchs Wasser schwimmt, beginnt seine Stirn zu glühen."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733650,
+				tcgplayer: 516232,
+				cardtrader: 261180
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733650,
+				tcgplayer: 516232,
+				cardtrader: 261180
+			}
+		},
+	],
 
 	illustrator: "Taira Akitsu",
 
-	thirdParty: {
-		cardmarket: 733639
-	}
+	
 }
 
 export default card

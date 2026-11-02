@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Elemental Badge",
@@ -29,17 +23,29 @@ const card: Card = {
 		es: "Si el Pokémon V al que está unida esta carta tiene \"Vaporeon\", \"Jolteon\" o \"Flareon\" en su nombre, sus ataques cuestan Colorless menos.",
 		it: "Se il Pokémon-V a cui è assegnata questa carta ha \"Vaporeon\", \"Jolteon\" o \"Flareon\" nel nome, il costo dei suoi attacchi è ridotto di Colorless.",
 		pt: "Se o Pokémon V ao qual esta carta está ligada tiver \"Vaporeon\", \"Jolteon\" ou \"Flareon\" em seu nome, seus ataques custarão Colorless a menos.",
-		de: "Wenn bei dem Pokémon-V, an das diese Karte angelegt ist, \"Aquana\", \"Blitza\" oder \"Flamara\" zum Namen gehört, verringern sich die Kosten seiner Attacken um Colorless."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Wenn bei dem Pokémon-V, an das diese Karte angelegt ist, „Aquana“, „Blitza“ oder „Flamara“ zum Namen gehört, verringern sich die Kosten seiner Attacken um {C}. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",
 	illustrator: "Studio Bora Inc.",
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574205,
-		tcgplayer: 246772
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574205,
+				tcgplayer: 246772
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574205,
+				tcgplayer: 246772
+			}
+		},
+	],
 }
 
 export default card

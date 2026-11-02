@@ -37,12 +37,12 @@ const card: Card = {
 			name: {
 				en: "Alert",
 				fr: "Alerte",
-				de: "Alarmruf"
+				de: "Honig"
 			},
 			effect: {
 				en: "Draw a card. Then, you may switch Combee with 1 of your Benched Pokémon.",
 				fr: "Piochez une carte. Ensuite, vous pouvez échanger Apitrini avec 1 des Pokémon de votre Banc.",
-				de: "Ziehe 1 Karte. Danach kannst du Wadribie gegen 1 Pokémon auf deiner Bank austauschen."
+				de: "Einmal während deines Zuges kannst du, wenn du Wadribie von deiner Hand auf deine Bank legst, deinen Ablagestapel nach 1 Basis-Pokémon durchsuchen und auf deiner Bank legen."
 			},
 
 		},

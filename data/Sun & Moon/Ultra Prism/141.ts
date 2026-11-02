@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Eevee",
 		fr: "Évoli",
+		de: "Evoli"
 	},
 
 	suffix: "GX",
@@ -93,7 +94,7 @@ const card: Card = {
 				es: "Lanza Polar GX",
 				it: "Lancia Polare-GX",
 				pt: "Lança Polar GX",
-				de: "Polarspeer GX"
+				de: "Polarspeer-GX"
 			},
 			effect: {
 				en: "This attack does 50 damage for each damage counter on your opponent’s Active Pokémon. (You can’t use more than 1 GX attack in a game.)",

@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Bergmite"
+		en: "Bergmite",
+		fr: "Grelaçon"
 	},
 
 	illustrator: "Miki Tanaka",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Icicle"
+			en: "Icicle",
+			fr: "Concrétion Glacée"
 		},
 
 		damage: 30,

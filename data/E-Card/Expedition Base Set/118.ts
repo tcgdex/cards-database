@@ -11,16 +11,16 @@ const card: Card = {
 	illustrator: "Tomokazu Komiya",
 	rarity: "Common",
 	category: "Pokemon",
+	trainerType: "Stadium",
 	set: Set,
+	cameoDexIds: [61],
 
-	dexId: [
-		129,
-	],
+	dexId: [129],
 
 	hp: 30,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -33,14 +33,14 @@ const card: Card = {
 			name: {
 				en: "Flail",
 				fr: "Fléau",
-				de: "Flail"
+				de: "Dreschflegel"
 			},
 			effect: {
 				en: "This attack does 10 damage times the number of damage counters on Magikarp.",
 				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Magicarpe.",
-				de: "This attack does 10 damage times the number of damage counters on Magikarp."
+				de: "Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl an Schadensmarken auf Karpador zu."
 			},
-			damage: "10x",
+			damage: "10×",
 
 		},
 	],
@@ -48,23 +48,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Lightning",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 274993,
-		tcgplayer: 87024
-	},
 
-	variants:[
+	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 87024,
+				cardmarket: 274993
+			},
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				tcgplayer: 87024,
+				cardmarket: 274993
+			},
+		},
+	],
 }
 
 export default card

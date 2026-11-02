@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 70,
 	types: ["Lightning"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Mina Nakai",
 
 	description: {
-		en: "The sun powers this Pokémon's electricity generation. Interruption of that process stresses Helioptile to the point of weakness."
+		en: "The sun powers this Pokémon's electricity generation. Interruption of that process stresses Helioptile to the point of weakness.",
+		de: "Es kann aus Sonnenlicht Elektrizität erzeugen. Unterbricht man es jedoch bei diesem Prozess, verliert es vor lauter Stress all seine Kraft."
 	},
 
 	attacks: [{
@@ -55,17 +62,23 @@ const card: Card = {
 		damage: 20
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582491,
-		tcgplayer: 253254
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582491,
+				tcgplayer: 253254
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582491,
+				tcgplayer: 253254
+			}
+		},
+	],
 }
 
 export default card

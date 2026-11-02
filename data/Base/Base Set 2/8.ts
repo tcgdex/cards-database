@@ -56,15 +56,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 273931,
-		tcgplayer: 42496
+
+	description: {
+		en: "While seeming to do nothing, it fires punches in lightning-fast volleys that are impossible to see.",
 	},
+
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 273931,
+				tcgplayer: 42496
+			}
 		}
 	]
 }

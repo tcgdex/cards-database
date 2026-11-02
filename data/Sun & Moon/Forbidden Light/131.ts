@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Descarta hasta 2 cartas de Ultraente de tu mano. Roba 3 cartas por cada carta que hayas descartado de esta manera.",
 		it: "Scarta fino a due carte Ultracreatura dalla tua mano. Pesca tre carte per ogni carta che hai scartato in questo modo.",
 		pt: "Descarte até 2 cartas de Ultracriatura da sua mão. Compre 3 cartas para cada carta descartada desta forma.",
-		de: "Lege bis zu 2 Ultrabestien aus deiner Hand auf deinen Ablagestapel. Ziehe 3 Karten für jede auf diese Weise auf deinen Ablagestapel gelegte Karte."
+		de: "Lege bis zu 2 Ultrabestien-Karten aus deiner Hand auf deinen Ablagestapel. Ziehe 3 Karten für jede auf diese Weise auf deinen Ablagestapel gelegte Karte. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

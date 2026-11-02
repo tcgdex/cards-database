@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Snorlax",
 		fr: "Ronflex",
+		de: "Relaxo"
 	},
 
 	illustrator: "Akira Komayama",
@@ -35,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Incredible Snore",
 				fr: "Ronflement Incroyable",
+				de: "Lautes Schnarchen"
 			},
 
 			damage: 100,
@@ -50,6 +52,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "It doesn't do anything other than eat and sleep. When prompted to make a serious effort, though, it apparently displays awesome power.",
+		de: "Wenn es nicht gerade frisst, dann schläft es. Macht es aber einmal Ernst, ist Schluss mit lustig."
+	},
 
 	thirdParty: {
 		cardmarket: 396652,

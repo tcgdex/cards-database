@@ -9,23 +9,22 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		184,
-	],
+	dexId: [184],
 
 	hp: 90,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Marill",
 		fr: "Marill",
+		de: "Marill"
 	},
 
 	stage: "Stage1",
@@ -59,7 +58,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c’est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 60,
 
@@ -76,22 +75,27 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "When it plays in water, it rolls up its elongated ears to prevent their insides from getting wet."
+		en: "When it plays in water, it rolls up its elongated ears to prevent their insides from getting wet.",
+		de: "Spielt es im Wasser, rollt es seine langen Ohren zusammen, um zu verhindern, dass Wasser eindringt."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 83685,
+				cardmarket: 278974
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 83685,
+				cardmarket: 278974
+			}
+		},
 	],
 
-	thirdParty: {
-		cardmarket: 278974,
-		tcgplayer: 83685
-	}
 }
 
 export default card

@@ -62,6 +62,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "As a result of headaches so fierce they cause it to cry, it sometimes uses psychokinesis without meaning to.",
+		de: "Es weint oft, da es immer unter Kopfschmerzen leidet und seine Psycho-Kräfte von Zeit zu Zeit gegen seinen Willen ausgelöst werden."
+	},
+
 	thirdParty: {
 		cardmarket: 295338,
 		tcgplayer: 126899

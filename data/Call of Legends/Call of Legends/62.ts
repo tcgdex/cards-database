@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		126,
-	],
+	dexId: [126],
 
 	hp: 70,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	stage: "Basic",
@@ -58,14 +56,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		en: "It dislikes cold places, so it blows scorching flames to make the environment suitable for itself.",
+		de: "Es hasst kalte Orte. Um es für sich angenehmer zu gestalten, erwärmt es seine Umgebung mit seinem Atem."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87052,
+				cardmarket: 279705
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87052,
+				cardmarket: 279705
+			},
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279705,
-		tcgplayer: 87052
-	}
 }
 
 export default card

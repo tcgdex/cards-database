@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		430,
-	],
+	dexId: [430],
 
 	hp: 90,
 
 	types: [
-		"Darkness",
+		"Darkness"
 	],
 
 	evolveFrom: {
 		en: "Murkrow",
-		fr: "Cornebre",
+		fr: "Cornèbre",
+		de: "Kramurx"
 	},
 
 	stage: "Stage1",
@@ -44,7 +43,7 @@ const card: Card = {
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Pokémon Défenseur avec l’un des Pokémon de son Banc.",
-				de: "Der Gegner tauscht das Verteidigende Pokémon mit einem Pokémon auf seiner Bank aus."
+				de: "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 			damage: 20,
 
@@ -60,7 +59,7 @@ const card: Card = {
 				de: "Aus heiterem Himmel"
 			},
 			effect: {
-				en: "Choose 1 of your opponent’s Pokémon that has any damage counters on it. This attack does 50 damage to that Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)",
+				en: "Choose 1 of your opponent's Pokémon that has any damage counters on it. This attack does 50 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Choisissez l’un des Pokémon de votre adversaire ayant des marqueurs de dégât. Cette attaque inflige 50 dégâts à ce Pokémon. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
 				de: "Wähle 1 Pokémon deines Gegners, auf dem bereits mindestens 1 Schadensmarke liegt. Dieser Angriff fügt dem gewählten Pokémon 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
 			},
@@ -85,22 +84,27 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It is merciless by nature. It is said that it never forgives the mistakes of its Murkrow followers."
+		en: "It is merciless by nature. It is said that it never forgives the mistakes of its Murkrow followers.",
+		de: "KRAMSHEF kennt kein Erbarmen. Einem untergebenen KRAMURX wird es niemals einen Fehler verzeihen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279268,
+				tcgplayer: 86161
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279268,
+				tcgplayer: 86161
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279268,
-		tcgplayer: 86161
-	}
 }
 
 export default card

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		133,
-	],
+	dexId: [133],
 
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Signs of Evolution",
 				fr: "Signes d'Évolution",
-				de: "Signs of Evolution"
+				de: "Spuren der Evolution"
 			},
 			effect: {
 				en: "Search your deck for up to 3 cards that evolve from Eevee, show them to your opponent, and put them into your hand. Shuffle your deck afterward.",
 				fr: "Choisissez dans votre deck jusqu'à trois cartes qui évoluent d'Evoli, montrez-les à votre adversaire et placez-les dans votre main. Ensuite, mélangez votre deck.",
-				de: "Search your deck for up to 3 cards that evolve from Eevee, show them to your opponent, and put them into your hand. Shuffle your deck afterward."
+				de: "Durchsuche dein Deck nach bis zu 3 Karten, die sich aus Evoli entwickeln, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach."
 			},
 
 		},
@@ -49,12 +47,12 @@ const card: Card = {
 			name: {
 				en: "Quick Attack",
 				fr: "Vive-attaque",
-				de: "Quick Attack"
+				de: "Ruckzuchieb"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage.",
 				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts.",
-				de: "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -71,23 +69,31 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275840,
-		tcgplayer: 85073
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275840,
+				tcgplayer: 85073
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275840,
+				tcgplayer: 85073
+			}
 		},
 		{
 			type: "normal",
-			subtype: "no-e-reader"
+			subtype: "no-e-reader",
+			thirdParty: {
+				tcgplayer: 125144
+			}
 		}
-	]
+	],
+
 }
 
 export default card

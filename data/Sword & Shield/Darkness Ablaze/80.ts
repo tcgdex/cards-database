@@ -92,23 +92,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Its flickering spores lure in prey and put them to sleep. Once this Pokémon has its prey snoozing, it drains their vitality with its fingertips."
+		en: "Its flickering spores lure in prey and put them to sleep. Once this Pokémon has its prey snoozing, it drains their vitality with its fingertips.",
+		de: "Mit blinkenden Sporen lullt es seine Beute in den Schlaf und saugt ihr dann über seine Fingerspitzen die Lebenskraft aus."
 	},
 
-	thirdParty: {
-		cardmarket: 483279,
-		tcgplayer: 219465
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483279,
+				tcgplayer: 219465
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483279,
+				tcgplayer: 219465
+			}
+		},
+	],
 }
 
 export default card

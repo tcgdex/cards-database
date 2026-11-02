@@ -4,6 +4,8 @@ import Set from "../Temporal Forces"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [1007],
+
 	name: {
 		en: "Explorer's Guidance",
 		fr: "Guide d'Exploration",
@@ -30,15 +32,16 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760830,
+				tcgplayer: 542921
+			}
+		},
 	],
 
 	illustrator: "Hideki Ishikawa",
 
-	thirdParty: {
-		cardmarket: 760830
-	}
 }
 
 export default card

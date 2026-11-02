@@ -18,7 +18,8 @@ const card: Card = {
 	types: ["Darkness"],
 
 	evolveFrom: {
-		en: "Nidoran♂"
+		en: "Nidoran♂",
+		fr: "Nidoran♂"
 	},
 
 	description: {

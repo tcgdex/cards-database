@@ -23,7 +23,9 @@ const card: Card = {
 	types: ["Water"],
 
 	evolveFrom: {
-		en: "Snover"
+		en: "Snover",
+		fr: "Blizzi",
+		de: "Shnebedeck"
 	},
 
 	description: {
@@ -31,7 +33,7 @@ const card: Card = {
 		fr: "Il vit paisiblement dans les massifs où s'amoncellent les neiges\néternelles, et il déclenche des blizzards pour se cacher.",
 		es: "Vive en paz en cordilleras de nieves eternas.\nGenera ventiscas para ocultarse.",
 		it: "Vive nella pace delle cime montuose tra le nevi\nperenni. Si nasconde scatenando bufere di neve.",
-		de: "Es führt ein ruhiges Leben im Gebirge, wo\newiger Schnee liegt, und löst Blizzards aus,\num sich zu verstecken.",
+		de: "Es führt ein ruhiges Leben im Gebirge, wo ewiger Schnee liegt, und löst Blizzards aus, um sich zu verstecken.",
 		'pt-br': "Leva uma vida tranquila em montanhas que estão\npermanentemente cobertas de neve. Ele se esconde\nprovocando nevascas.",
 		ko: "만년설이 쌓인 산맥에서 조용히 지낸다.\n블리자드를 발생시켜 모습을 감춘다."
 	},

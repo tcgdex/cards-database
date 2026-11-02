@@ -1,40 +1,31 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "雪童子"
+		ja: "基本超エネルギー",
+		'zh-tw': "雪童子",
 	},
 
-	illustrator: "otumami",
-	category: "Pokemon",
-	hp: 60,
-	types: ["Water"],
+	illustrator: "",
+	category: "Energy",
+	energyType: "Normal",
 
-	description: {
-		'zh-tw': "只能在寒冷的土地上生存。即使在零下１００度的環境下也能充滿活力地到處蹦蹦跳跳。"
+	effect: {
+		ja: "&copy;Pokémon/Nintendo/Creatures/GAME FREAK ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの商標です。 このホームページに掲載された画像その他の内容の無断転載はお断りします。",
 	},
 
-	stage: "Basic",
-
-	attacks: [{
-		name: {
-			'zh-tw': "頭錘"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 649806,
+			},
 		},
+	],
 
-		damage: 30,
-		cost: ["Water", "Colorless"]
-	}],
+	rarity: "Promo",
+};
 
-	weaknesses: [{
-		type: "Metal",
-		value: "×2"
-	}],
-
-	retreat: 1,
-	regulationMark: "E"
-}
-
-export default card
+export default card;

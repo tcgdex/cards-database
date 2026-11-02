@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Heatran VMAX"
 	},
 
+	illustrator: "N-DESIGN Inc.",
 	rarity: "Holo Rare VMAX",
 	category: "Pokemon",
 	hp: 330,
@@ -76,20 +77,25 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 658529,
-		tcgplayer: 272226
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658529,
+				tcgplayer: 272226
+			}
+		},
+	],
 }
 
 export default card

@@ -74,18 +74,48 @@ const card: Card = {
 		damage: 50
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Its spikes are harder than steel. This Pokémon crawls across rock walls by stabbing the spikes on its feelers into the stone.",
+		de: "Seine Dornen sind härter als Stahl. Es bewegt sich fort, indem es seine dornengespickten Schlingen in Felswänden verhakt und sich vorwärtszieht."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740665,
+				tcgplayer: 523805,
+				cardtrader: 265230
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740665,
+				tcgplayer: 523805,
+				cardtrader: 265230
+			}
+		},
+	],
 
 	illustrator: "SATOSHI NAKAI",
 
-	thirdParty: {
-		cardmarket: 740665
-	}
+	
 }
 
 export default card

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Sandile",
 		fr: "Mascaïman",
+		de: "Ganovil"
 	},
 
 	stage: "Stage1",
@@ -93,6 +94,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "They move in groups of a few individuals. A female is often the leader of the group, and the males will gather food.",
+		de: "Es bildet mit mehreren Artgenossen ein Rudel. Meistens führen Weibchen die Gruppe an und Männchen müssen Nahrung beschaffen."
+	},
 
 	thirdParty: {
 		cardmarket: 295395,

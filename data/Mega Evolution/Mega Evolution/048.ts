@@ -48,26 +48,38 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 851119,
+				tcgplayer: 654387
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 851119,
+				tcgplayer: 654387
+			}
 		},
 		{
 			type: "holo",
-			foil: "cosmos"
-		}
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 867790,
+			}
+		},
 	],
-
-	thirdParty: {
-		tcgplayer: 654387,
-		cardmarket: 851119
-	}
 }
 
 export default card

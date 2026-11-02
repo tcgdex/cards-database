@@ -22,15 +22,20 @@ const card: Card = {
 		es: "Roba 3 cartas.",
 		it: "Pesca tre carte.",
 		pt: "Compre 3 cards.",
-		de: "Ziehe 3 Karten."
+		de: "Ziehe 3 Karten. Du kannst während deines Zuges (vor deinem Angriff) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 
-	thirdParty: {
-		cardmarket: 280735,
-		tcgplayer: 84250
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280735,
+				tcgplayer: 84250
+			}
+		},
+	],
 }
 
 export default card

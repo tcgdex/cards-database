@@ -4,6 +4,7 @@ import Set from "../Paradox Rift"
 const card: Card = {
 	dexId: [474],
 	set: Set,
+	cameoDexIds: [25, 137, 233],
 
 	name: {
 		en: "Porygon-Z",
@@ -74,19 +75,34 @@ const card: Card = {
 		damage: "40×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
+	description: {
+		en: "Some say an additional program made this Pokémon evolve, but even academics can't agree on whether Porygon-Z is really an evolution.",
+		de: "Es heißt, es habe sich durch eine neue Software entwickelt, doch Wissenschaftler sind sich nicht einig, ob Porygon-Z wirklich eine Entwicklung ist."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740757,
+				tcgplayer: 523895,
+				cardtrader: 265506
+			}
+		},
+	],
 
 	illustrator: "GOSSAN",
 
-	thirdParty: {
-		cardmarket: 740757
-	}
+	
 }
 
 export default card

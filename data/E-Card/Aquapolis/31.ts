@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		78,
-	],
+	dexId: [78],
 
 	hp: 70,
 
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
 		en: "Ponyta",
-		fr: "Ponyta"
+		fr: "Ponyta",
+		de: "Ponita"
 	},
 
 	stage: "Stage1",
@@ -39,12 +38,12 @@ const card: Card = {
 			name: {
 				en: "Agility",
 				fr: "Hâte",
-				de: "Agility"
+				de: "Agilität"
 			},
 			effect: {
 				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Rapidash.",
 				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Galopa.",
-				de: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Rapidash."
+				de: "Wirf eine Münze. Verhindere bei „Kopf“ während des nächsten Zuges deines Gegners alle Effekte von Angriffen (einschließlich Schaden), die Gallopa zugefügt werden."
 			},
 			damage: 10,
 
@@ -58,12 +57,12 @@ const card: Card = {
 			name: {
 				en: "Gallop",
 				fr: "Galop",
-				de: "Gallop"
+				de: "Galoppieren"
 			},
 			effect: {
-				en: "Flip a coin. If heads, discard a Energy card attached to Rapidash, and this attack does 30 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, défaussez-vous d'une carte Énergie  attachée à Galopa et cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
-				de: "Flip a coin. If heads, discard a  Energy card attached to Rapidash and this attack does 30 damage plus 20 more damage."
+				en: "Flip a coin. If heads, discard a Fire Energy card attached to Rapidash and this attack does 30 damage plus 20 more damage.",
+				fr: "Lancez une pièce. Si c'est face, défaussez-vous d'une carte Énergie {R} attachée à Galopa et cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
+				de: "Wirf eine Münze. Lege bei „Kopf“ eine an Gallopa angelegte {R}-Energiekarte auf deinen Ablagestapel und dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "30+",
 
@@ -73,23 +72,26 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Water",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 275103,
-		tcgplayer: 88577
-	},
-
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 88577,
+				cardmarket: 275103
+			}
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 88577,
+				cardmarket: 275103
+			}
+		},
+	],
+	retreat: 0
 }
 
 export default card

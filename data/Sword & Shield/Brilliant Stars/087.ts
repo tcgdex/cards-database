@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Snibunna"
 	},
 
+	illustrator: "Hasuno",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 90,
@@ -65,20 +66,37 @@ const card: Card = {
 		damage: 100
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "They attack their quarry in packs. Prey as large as Mamoswine easily fall to the teamwork of a group of Weavile.",
+		de: "Sie jagen ihre Beute in Gruppen. Im Team erledigen sie selbst große Ziele wie Mamutel mit Leichtigkeit."
 	},
 
-	thirdParty: {
-		cardmarket: 608537,
-		tcgplayer: 263803
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608537,
+				tcgplayer: 263803
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608537,
+				tcgplayer: 263803
+			}
+		},
+	],
 }
 
 export default card

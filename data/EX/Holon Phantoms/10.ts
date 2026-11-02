@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Kingdra δ",
 		fr: "Hyporoi δ",
-		de: "Seedraking"
+		de: "Seedraking δ"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -26,7 +26,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Seadra",
-		fr: "Hypocéan"
+		fr: "Hypocéan",
+		de: "Seemon"
 	},
 
 	stage: "Stage2",

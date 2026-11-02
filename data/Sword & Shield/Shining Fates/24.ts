@@ -64,23 +64,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon."
+		en: "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon.",
+		de: "Es besitzt die wundersame Fähigkeit, das Herz eines jeden anderen Pokémon anzurühren."
 	},
 
-	thirdParty: {
-		cardmarket: 539143,
-		tcgplayer: 232424
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539143,
+				tcgplayer: 232424
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539143,
+				tcgplayer: 232424
+			}
+		},
+	],
 }
 
 export default card

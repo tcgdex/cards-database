@@ -73,23 +73,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It traps enemies with its suction-cupped tentacles, then smashes them with its rock-hard head."
+		en: "It traps enemies with its suction-cupped tentacles, then smashes them with its rock-hard head.",
+		de: "Es umschlingt Beute mit seinen Tentakeln und verpasst ihr dann eine beherzte Kopfnuss mit seinem steinharten Schädel."
 	},
 
-	thirdParty: {
-		cardmarket: 527640,
-		tcgplayer: 234172
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 527640,
+				tcgplayer: 234172
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 527640,
+				tcgplayer: 234172
+			}
+		},
+	],
 }
 
 export default card

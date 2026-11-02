@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Si el Pokémon Fighting al que esté unida esta carta tiene todos sus PS y fuese a quedar Fuera de Combate por el daño de un ataque del rival, ese Pokémon no queda Fuera de Combate y sus PS restantes pasan a ser 10. Después, descarta esta carta.",
 		it: "Se il Pokémon Fighting a cui è assegnata questa carta ha tutti i PS e sta per essere messo KO dal danno di un attacco dell'avversario, non viene messo KO e i suoi PS rimanenti diventano 10. Poi, scarta questa carta.",
 		pt: "Se o Pokémon Fighting ao qual este card está ligado possuir PS cheio e estiver prestes a ser Nocauteado por danos causados por um ataque do oponente, ele não será Nocauteado e seu PS restante se tornará 10. Em seguida descarte este card.",
-		de: "Wenn das Fighting-Pokémon, an das diese Karte angelegt ist, volle KP hat und durch Schaden eines gegnerischen Angriffs kampfunfähig würde, wird dieses Pokémon nicht kampfunfähig und behält stattdessen 10 KP. Lege diese Karte anschließend auf deinen Ablagestapel."
+		de: "Wenn das {F}-Pokémon, an das diese Karte angelegt ist, volle KP hat und durch Schaden eines gegnerischen Angriffs kampfunfähig würde, wird dieses Pokémon nicht kampfunfähig und behält stattdessen 10 KP. Lege diese Karte anschließend auf deinen Ablagestapel. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

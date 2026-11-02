@@ -17,6 +17,16 @@ const card: Card = {
 		ja: "自分のポケモン全員のHPを、それぞれ「20」回復する。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 605939,
+				tcgplayer: 569716,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "F",
 	rarity: "Uncommon"

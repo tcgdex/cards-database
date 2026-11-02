@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Latias δ",
 		fr: "Latias δ",
-		de: "Latias"
+		de: "Latias δ"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -36,7 +36,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If you have Latios or Latios ex in play, the attack cost of Latias's Extra Crush is now Lightning Metal Colorless.",
-				fr: "Si vous avez un Latios ou un Latios ex en jeu, le Coût de l'attaque Extra broyage de Latias est maintenant .",
+				fr: "Si vous avez un Latios ou un Latios ex en jeu, le Coût de l'attaque Extra broyage de Latias est maintenant {L}{M}{C}.",
 				de: "Wenn du Latios oder Latios ex im Spiel hast, kostet Latias Extra Zerschmettern nur noch   ."
 			},
 		},

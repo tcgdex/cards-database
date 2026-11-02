@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Lilligant",
@@ -67,16 +61,29 @@ const card: Card = {
 	},
 
 	description: {
-		en: "It's well liked by other Pokémon because of its beauty. The flower on its head needs constant care, or it will soon wither and rot."
+		en: "It's well liked by other Pokémon because of its beauty. The flower on its head needs constant care, or it will soon wither and rot.",
+		de: "Es ist aufgrund seiner Schönheit bei anderen Pokémon beliebt. Die Blume an seinem Kopf verwelkt sofort, wenn man sie nicht pflegt."
 	},
 
 	dexId: [549],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574034,
-		tcgplayer: 246824
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574034,
+				tcgplayer: 246824
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574034,
+				tcgplayer: 246824
+			}
+		},
+	],
 }
 
 export default card

@@ -69,6 +69,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It has a weakness for shiny things. It's been known to sneak into the nests of Gabite—noted collectors of jewels—in search of treasure.",
+		de: "Es hat eine Schwäche für glitzernde Objekte. Hin und wieder schleicht es sich, in Erwartung schillernder Schätze, ins Nest von Knarksel."
+	},
+
 	thirdParty: {
 		cardmarket: 388432,
 		tcgplayer: 195094

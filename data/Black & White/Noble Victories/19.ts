@@ -36,10 +36,12 @@ const card: Card = {
 			name: {
 				en: "Ember",
 				fr: "Flammèche",
+				de: "Glut"
 			},
 			effect: {
 				en: "Flip a coin. If tails, discard an Energy attached to this Pokémon.",
 				fr: "Lancez une pièce. Si c'est pile, défaussez une Énergie attachée à ce Pokémon.",
+				de: "Wirf 1 Münze. Lege bei „Zahl“ 1 an dieses Pokémon angelegte Energie auf deinen Ablagestapel."
 			},
 			damage: 20,
 
@@ -55,10 +57,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 280142,
-		tcgplayer: 86627
-	}
+	description: {
+		en: "This Pokémon was believed to have been born from the sun. When it evolves, its entire body is engulfed in flames.",
+		de: "Bislang vermutet man, es sei ein Produkt der Sonne. Bei der Entwicklung ist sein ganzer Körper in Flammen gehüllt."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280142,
+				tcgplayer: 86627
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280142,
+				tcgplayer: 86627
+			}
+		},
+	],
 }
 
 export default card

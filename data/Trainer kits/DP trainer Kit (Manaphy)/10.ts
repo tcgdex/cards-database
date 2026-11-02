@@ -15,7 +15,19 @@ const card: Card = {
 	effect: {
 		en: "Search your deck for a basic Energy card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
 		fr: "Choisissez dans votre deck une carte Énergie de base, montrez-la à votre adversaire et placez-la dans votre main. Ensuite, mélangez votre deck."
-	}
+	},
+	trainerType: "Item",
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278028,
+				tcgplayer: 85246
+			}
+		},
+	],
+
 }
 
 export default card

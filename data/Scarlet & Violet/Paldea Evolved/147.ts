@@ -64,18 +64,46 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715622,
+				tcgplayer: 497662,
+				cardtrader: 248799
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715622,
+				tcgplayer: 497662,
+				cardtrader: 248799
+			}
+		},
+	],
 
 	illustrator: "Sekio",
 
-	thirdParty: {
-		cardmarket: 715622
-	}
+	description: {
+		en: "It gathers things up in an apron made from shed feathers added to the Pokémon's chest feathers, then drops those things from high places for fun.",
+		de: "Zum Spaß füllt es seine Schürze aus Brustgefieder und ausgefallenen Federn mit allerlei Dingen, nur um diese von hoch oben wieder fallen zu lassen."
+	},
 }
 
 export default card

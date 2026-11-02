@@ -85,6 +85,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It burrows through the ground at a shallow depth. It leaves raised earth in its wake, making it easy to spot.",
+		de: "Es gräbt sich in geringer Tiefe durch den Erdboden, dadurch hinterlässt es durchwühlte Erde und ist somit leicht zu finden."
+	},
+
 	thirdParty: {
 		cardmarket: 293409,
 		tcgplayer: 124068

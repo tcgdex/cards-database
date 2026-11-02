@@ -86,23 +86,30 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Because they scatter germs everywhere, they've long been targeted for extermination, leading to a steep decline in their population."
+		en: "Because they scatter germs everywhere, they've long been targeted for extermination, leading to a steep decline in their population.",
+		de: "Da es Krankheitskeime verbreitet, hat man lange versucht, es auszurotten. Heute sieht man es daher nur noch selten."
 	},
 
-	thirdParty: {
-		cardmarket: 483384,
-		tcgplayer: 219402
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483384,
+				tcgplayer: 219402
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483384,
+				tcgplayer: 219402
+			}
+		},
+	],
 }
 
 export default card

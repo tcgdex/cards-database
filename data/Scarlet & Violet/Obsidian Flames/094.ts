@@ -4,6 +4,7 @@ import Set from "../Obsidian Flames"
 const card: Card = {
 	dexId: [343],
 	set: Set,
+	cameoDexIds: [722],
 
 	name: {
 		fr: "Balbuto",
@@ -44,18 +45,48 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It was discovered in ancient ruins. While moving, it constantly spins. It stands on one foot even when asleep.",
+		de: "Es wurde in antiken Ruinen entdeckt. Wenn es sich bewegt, dreht es sich. Auch im Schlaf steht es auf einem Bein."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725174,
+				tcgplayer: 509876,
+				cardtrader: 255779
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725174,
+				tcgplayer: 509876,
+				cardtrader: 255779
+			}
+		},
+	],
 
 	illustrator: "Scav",
 
-	thirdParty: {
-		cardmarket: 725174
-	}
+	
 }
 
 export default card

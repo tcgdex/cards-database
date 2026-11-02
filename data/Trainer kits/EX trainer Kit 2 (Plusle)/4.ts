@@ -7,7 +7,8 @@ const card: Card = {
 
 	name: {
 		en: "Meowth",
-		fr: "Miaouss"
+		fr: "Miaouss",
+		de: "Mauzi"
 	},
 
 	illustrator: "Masakazu Fukuda",
@@ -17,7 +18,7 @@ const card: Card = {
 	hp: 50,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	attacks: [{
@@ -26,11 +27,13 @@ const card: Card = {
 		],
 		name: {
 			en: "Collect",
-			fr: "Collectionner"
+			fr: "Collectionner",
+			de: "Sammeln"
 		},
 		effect: {
 			en: "Draw a card.",
-			fr: "Piochez une carte."
+			fr: "Piochez une carte.",
+			de: "Ziehe 1 Karte."
 		}
 	}, {
 		cost: [
@@ -39,7 +42,8 @@ const card: Card = {
 		],
 		name: {
 			en: "Cat Kick",
-			fr: "Coup d'patte"
+			fr: "Coup d'patte",
+			de: "Katzenkick"
 		},
 		damage: 20
 	}],
@@ -47,15 +51,21 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "2x"
 		},
 	],
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 87319
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277187,
+				tcgplayer: 87319
+			}
+		},
+	],
+
 }
 
 export default card

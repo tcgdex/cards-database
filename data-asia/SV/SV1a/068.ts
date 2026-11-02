@@ -22,6 +22,16 @@ const card: Card = {
 		id: "Ambil 2 kartu dari atas Deck sendiri. Jika ada Stadium sendiri di Arena, ambil lagi 2 kartu tambahan."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 701122,
+				tcgplayer: 568191,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "G"
 }

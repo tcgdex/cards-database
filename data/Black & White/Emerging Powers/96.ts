@@ -22,15 +22,27 @@ const card: Card = {
 		es: "Puedes jugar tantas cartas de Objeto como quieras durante tu turno (antes de tu ataque).",
 		it: "Puoi giocare tutte le carte Strumento che vuoi durante il tuo turno, prima di attaccare.",
 		pt: "Jogue uma moeda. Se sair cara, coloque um card da sua pilha de descarte em cima do seu baralho.",
-		de: "Wirf 1 Münze. Lege bei „Kopf“ 1 Karte von deinem Ablagestapel auf dein Deck."
+		de: "Wirf 1 Münze. Lege bei „Kopf“ 1 Karte von deinem Ablagestapel auf dein Deck. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
 
-	thirdParty: {
-		cardmarket: 280061,
-		tcgplayer: 88653
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280061,
+				tcgplayer: 88653
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280061,
+				tcgplayer: 88653
+			}
+		},
+	],
 }
 
 export default card

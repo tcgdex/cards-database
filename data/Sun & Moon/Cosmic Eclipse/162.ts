@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Jangmo-o",
 		fr: "Bébécaille",
+		de: "Miniras"
 	},
 
 	stage: "Stage1",
@@ -83,6 +84,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It makes noise by clanging its scales together. When the rhythm has reached its peak, Hakamo-o attacks.",
+		de: "Es lässt seine Schuppen erklingen, indem es sie aneinanderschlägt. Wenn der Rhythmus seinen Höhepunkt erreicht, geht es zum Angriff über."
+	},
 
 	thirdParty: {
 		cardmarket: 408439,

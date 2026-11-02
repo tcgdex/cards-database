@@ -4,6 +4,7 @@ import Set from "../Stellar Crown"
 const card: Card = {
 	dexId: [1],
 	set: Set,
+	cameoDexIds: [16],
 
 	name: {
 		en: "Bulbasaur",
@@ -44,19 +45,27 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 785997,
+				tcgplayer: 567418
+			}
+		},
+	],
 
 	illustrator: "Orca",
 
-	thirdParty: {
-		cardmarket: 785997
-	}
 }
 
 export default card

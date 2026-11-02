@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		273,
-	],
+	dexId: [273],
 
 	hp: 40,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -31,14 +29,14 @@ const card: Card = {
 				"Grass",
 			],
 			name: {
-				en: "Suprise Attack",
+				en: "Surprise Attack",
 				fr: "Attaque Surprise",
-				de: "Überaschungsangriff"
+				de: "Überraschungsangriff"
 			},
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf eine Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkung."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -55,19 +53,24 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275853,
-		tcgplayer: 89036
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275853,
+				tcgplayer: 89036
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275853,
+				tcgplayer: 89036
+			}
 		},
-	]
+	],
+
 }
 
 export default card

@@ -94,23 +94,37 @@ const card: Card = {
 	regulationMark: "D",
 	retreat: 0,
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
 	description: {
-		en: "When it isn't battling, it keeps Dreepy in the holes on its horns. Once a fight starts, it launches the Dreepy like supersonic missiles."
+		en: "When it isn't battling, it keeps Dreepy in the holes on its horns. Once a fight starts, it launches the Dreepy like supersonic missiles.",
+		de: "Es transportiert Grolldra in den Löchern an seinen Hörnern. Kommt es zum Kampf, schießt es diese mit Mach-Geschwindigkeit ab."
 	},
 
-	thirdParty: {
-		cardmarket: 456498,
-		tcgplayer: 213177
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 457873,
+				tcgplayer: 213177
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['set-logo'],
+			thirdParty: {
+				cardmarket: 709526
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457873,
+				tcgplayer: 213177
+			}
+		},
+	],
 }
 
 export default card

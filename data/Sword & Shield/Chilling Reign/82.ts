@@ -51,23 +51,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It's said that this Pokémon was formed when an ancient clay tablet was drawn to a vengeful spirit."
+		en: "It's said that this Pokémon was formed when an ancient clay tablet was drawn to a vengeful spirit.",
+		de: "Es heißt, dieses Pokémon sei entstanden, als eine verbitterte Seele Besitz von einer uralten Tontafel ergriff."
 	},
 
-	thirdParty: {
-		cardmarket: 567190,
-		tcgplayer: 241749
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567190,
+				tcgplayer: 241749
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567190,
+				tcgplayer: 241749
+			}
+		},
+	],
 }
 
 export default card

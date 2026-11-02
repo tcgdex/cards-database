@@ -73,23 +73,30 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
 	description: {
-		en: "It has mastered fast and powerful fighting moves. It grows a beard of fire."
+		en: "It has mastered fast and powerful fighting moves. It grows a beard of fire.",
+		de: "Es trägt einen Backenbart aus Feuer und beherrscht Kampftechniken, die ebenso wuchtig wie schnell sind."
 	},
 
-	thirdParty: {
-		cardmarket: 527635,
-		tcgplayer: 234128
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 527635,
+				tcgplayer: 234128
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 527635,
+				tcgplayer: 234128
+			}
+		},
+	],
 }
 
 export default card

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Buizel",
 		fr: "Mustébouée",
+		de: "Bamelin"
 	},
 
 	stage: "Stage1",
@@ -85,6 +86,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It floats using its well-developed flotation sac. It assists in the rescues of drowning people.",
+		de: "Es treibt mithilfe einer Art Rettungsring auf dem Wasser und hilft dem, der zu ertrinken droht."
+	},
 
 	thirdParty: {
 		cardmarket: 302161,

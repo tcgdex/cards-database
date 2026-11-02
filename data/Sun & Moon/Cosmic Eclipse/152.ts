@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Floette",
 		fr: "Floette",
+		de: "Floette"
 	},
 
 	stage: "Stage2",
@@ -97,6 +98,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It controls the flowers it grows. The petal blizzards that Florges triggers are overwhelming in their beauty and power.",
+		de: "Es kontrolliert selbst gezüchtete Blumen. Die Blütenwirbel, die es erzeugt, sind überwältigend schön und stark."
+	},
 
 	thirdParty: {
 		cardmarket: 408404,

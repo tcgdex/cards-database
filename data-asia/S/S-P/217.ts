@@ -1,55 +1,52 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "未知圖騰V"
+		ja: "ヤジロン",
+		'zh-tw': "未知圖騰V",
 	},
 
-	illustrator: "PLANETA Mochizuki",
+	illustrator: "Nagomi Nijo",
 	category: "Pokemon",
-	hp: 180,
-	types: ["Psychic"],
+	hp: 60,
+	types: ["Fighting"],
+
+	description: {
+		ja: "古代 遺跡で 発見された。 回転 しながら 移動。 夜 眠る ときも 一本足だ。",
+	},
+
 	stage: "Basic",
-	suffix: "V",
 
-	attacks: [{
-		name: {
-			'zh-tw': "奇異刻印"
+	attacks: [
+		{
+			name: {
+				ja: "ひらてうち",
+				'zh-tw': "奇異刻印",
+			},
+			damage: 20,
+			cost: ["Colorless", "Colorless"],
 		},
+	],
 
-		effect: {
-			'zh-tw': "將對手的戰鬥寶可夢【混亂】。"
+	weaknesses: [{ type: "Grass", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 574585,
+				tcgplayer: 597401,
+			},
 		},
-
-		damage: 30,
-		cost: ["Psychic"]
-	}, {
-		name: {
-			'zh-tw': "勝利象徵"
-		},
-
-		effect: {
-			'zh-tw': "使用這個招式時，若自己剩餘獎賞卡的張數為1張，則這場對戰己方獲勝。"
-		},
-
-		cost: ["Colorless", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Darkness",
-		value: "×2"
-	}],
-
-	resistances: [{
-		type: "Fighting",
-		value: "-30"
-	}],
+	],
 
 	retreat: 1,
-	regulationMark: "F"
-}
+	regulationMark: "E",
+	rarity: "Promo",
+	dexId: [343],
+};
 
-export default card
+export default card;

@@ -65,6 +65,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "The scalchop on its stomach is made from the same elements as claws. It detaches the scalchop for use as a blade.",
+	},
 }
 
 export default card

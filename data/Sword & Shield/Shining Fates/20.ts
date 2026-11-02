@@ -42,23 +42,30 @@ const card: Card = {
 	regulationMark: "E",
 	retreat: 0,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees."
+		en: "It makes its nest in the shade of corals. If it senses danger, it spits murky ink and flees.",
+		de: "Im Schatten von Korallen legt es sein Nest an. Bei Gefahr versprüht es Tinte und flieht."
 	},
 
-	thirdParty: {
-		cardmarket: 539123,
-		tcgplayer: 232409
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539123,
+				tcgplayer: 232409
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539123,
+				tcgplayer: 232409
+			}
+		},
+	],
 }
 
 export default card

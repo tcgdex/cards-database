@@ -8,22 +8,21 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		414,
-	],
+	dexId: [414],
 
 	hp: 90,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Burmy",
+		de: "Burmy"
 	},
 
 	stage: "Stage1",
@@ -50,7 +49,7 @@ const card: Card = {
 				de: "Energieförderung"
 			},
 			effect: {
-				en: "Search your discard pile for a basic Energy card and attach it to 1 of your Benched Pokémon.",
+				en: "Seach your discard pile for a basic Energy card and attach it to 1 of your Benched Pokémon.",
 				de: "Durchsuche deinen Ablagestapel nach 1 Basis-Energiekarte und lege sie an 1 Pokémon auf deiner Bank an."
 			},
 			damage: 30,
@@ -72,19 +71,29 @@ const card: Card = {
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 278878,
-		tcgplayer: 87583
+	description: {
+		en: "While it loves floral honey, it won't gather any itself. Instead, it plots to steal some from Combee.",
+		de: "Es liebt Honig, sammelt ihn aber nicht, sondern stiehlt den Honig, der von WADRIBIE gesammelt wurde."
 	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87583,
+				cardmarket: 278878
+			}
 		},
 		{
 			type: "reverse",
-		}
-	]
+			thirdParty: {
+				cardmarket: 278878,
+				tcgplayer: 87583
+			}
+		},
+	],
+
+	retreat: 0
 }
 
 export default card

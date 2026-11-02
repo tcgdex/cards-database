@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Framestore",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Charmeleon",
-		fr: "Reptincel"
+		fr: "Reptincel",
+		de: "Glutexo"
 	},
 
 	suffix: "GX",
@@ -52,7 +53,7 @@ const card: Card = {
 				es: "Descarta las 8 primeras cartas de tu baraja. Si entre esas cartas hay cartas de Energía Fire, únelas a este Pokémon.",
 				it: "Scarta le prime otto carte del tuo mazzo. Se fra queste ci sono delle carte Energia Fire, assegnale a questo Pokémon.",
 				pt: "Descarte as 8 primeiras cartas do seu baralho. Se houver cartas de Energia Fire entre elas, ligue-as a este Pokémon.",
-				de: "Lege die obersten 8 Karten von deinem Deck auf deinen Ablagestapel. Wenn unter jenen Karten Fire-Energiekarten sind, lege sie an dieses Pokémon an."
+				de: "Lege die obersten 8 Karten von deinem Deck auf deinen Ablagestapel. Wenn unter jenen Karten {R}-Energiekarten sind, lege sie an dieses Pokémon an."
 			},
 
 		},
@@ -90,7 +91,7 @@ const card: Card = {
 				es: "Llamas Espantosas GX",
 				it: "Fiamma Terribile GX",
 				pt: "Chamas Pavorosas GX",
-				de: "Furchtbare Flammen GX"
+				de: "Furchtbare Flammen-GX"
 			},
 			effect: {
 				en: "Discard an Energy from each of your opponent’s Pokémon. (You can’t use more than 1 GX attack in a game.)",
@@ -112,7 +113,17 @@ const card: Card = {
 		},
 	],
 
-	retreat: 4
+	retreat: 4,
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 368856,
+				tcgplayer: 185253
+			}
+		}
+	],
 }
 
 export default card

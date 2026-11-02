@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Tauboss V"
 	},
 
+	illustrator: "Saki Hayashiro",
 	rarity: "Holo Rare V",
 	category: "Pokemon",
 	hp: 210,
@@ -70,16 +71,16 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": false,
-		"holo": true
-	},
 
-	thirdParty: {
-		cardmarket: 674147,
-		tcgplayer: 284060
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674147,
+				tcgplayer: 284060
+			}
+		},
+	],
 }
 
 export default card

@@ -8,13 +8,9 @@ const card: Card = {
 	name: {
 		en: "Sinistea",
 		fr: "Théffroi",
-		es: "Sinistea",
-		it: "Sinistea",
-		pt: "Sinistea",
-		de: "Fatalitee"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 30,
 	types: ["Psychic"],
@@ -26,27 +22,45 @@ const card: Card = {
 		name: {
 			en: "Cold Tea",
 			fr: "Thé Froid",
-			es: "Té Frío",
-			it: "Tè Freddo",
-			pt: "Chá Frio",
-			de: "Kalter Tee"
 		},
 
 		effect: {
 			en: "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
 			fr: "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
-			es: "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
-			it: "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
-			pt: "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
-			de: "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
 		},
 
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
-	illustrator: "kurumitsu"
+	illustrator: "kurumitsu",
+	description: {
+		en: "The soul of someone who died alone possessed some leftover tea. This Pokémon appears in hotels and houses.",
+		fr: "Ce Pokémon naît quand l'âme d'une personne esseulée prend possession des restes de thé noir. Il apparaît dans les hôtels et les maisons.",
+	},
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 729206,
+				tcgplayer: 526638
+			},
+		}
+	],
 }
 
 export default card

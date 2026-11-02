@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 40,
 	types: ["Lightning"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Yuka Morii",
 
 	description: {
-		en: "One alone can emit only a trickle of electricity, so a group of them gathers to unleash a powerful electric shock."
+		en: "One alone can emit only a trickle of electricity, so a group of them gathers to unleash a powerful electric shock.",
+		de: "Alleine erzeugen sie nur geringe Mengen an Elektrizität, aber im Schwarm können sie mächtige Stromsalven abfeuern."
 	},
 
 	attacks: [{
@@ -62,17 +69,23 @@ const card: Card = {
 		damage: 20
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582488,
-		tcgplayer: 253251
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582488,
+				tcgplayer: 253251
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582488,
+				tcgplayer: 253251
+			}
+		},
+	],
 }
 
 export default card

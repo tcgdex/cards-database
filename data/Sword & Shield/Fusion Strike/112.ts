@@ -19,12 +19,25 @@ const card: Card = {
 	hp: 100,
 	types: ["Psychic"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Shigenori Negishi",
 
 	description: {
-		en: "Its strange cries sound like human language. There are some musicians who compose songs for Jynx to sing."
+		en: "Its strange cries sound like human language. There are some musicians who compose songs for Jynx to sing.",
+		de: "Sein sonderbarer Ruf klingt fast wie die Sprache der Menschen. Manche Musiker schreiben sogar eigens Lieder, damit Rossana sie singen kann."
 	},
 
 	attacks: [{
@@ -71,17 +84,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582604,
-		tcgplayer: 253273
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582604,
+				tcgplayer: 253273
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582604,
+				tcgplayer: 253273
+			}
+		},
+	],
 }
 
 export default card

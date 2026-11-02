@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		318,
-	],
+	dexId: [318],
 
 	hp: 40,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "If Carvanha is your Active Pokémon and is damaged by an opponent's attack (even if Carvanha is Knocked Out), put 1 damage counter on the Attacking Pokémon.",
 				fr: "Si Carvanha est votre Pokémon Actif et que l'attaque de votre adversaire lui inflige des dégâts (même si Carvanha est mis K.O), placez un marqueur de dégât sur le Pokémon Attaquant.",
 				de: "Wenn Kanivanha dein Aktives Pokémon ist und durch einen gegnerischen Angriff Schaden erhält (auch wenn Kanivanha dadurch kampfunfähig wird), legst du 1 Schadensmarke auf das Angreifende Pokémon."
-			},
+			}
 		},
 	],
 
@@ -71,19 +69,24 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275699,
-		tcgplayer: 84111
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 275699,
+				tcgplayer: 84111
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275699,
+				tcgplayer: 84111
+			}
 		},
-	]
+	],
+
 }
 
 export default card

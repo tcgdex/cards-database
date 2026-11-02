@@ -9,23 +9,23 @@ const card: Card = {
 	},
 
 	illustrator: "Tomokazu Komiya",
-	rarity: "Rare",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [270, 271],
 
-	dexId: [
-		272,
-	],
+	dexId: [272],
 
 	hp: 90,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Lombre",
-		fr: "Lombre"
+		fr: "Lombre",
+		de: "Lombrero"
 	},
 
 	stage: "Stage2",
@@ -42,7 +42,7 @@ const card: Card = {
 				en: "At any time between turns, remove 1 damage counter from Ludicolo.",
 				fr: "N'importe quand entre deux tours, retirez un marqueur de dégât à Ludicolo.",
 				de: "Entferne zu einem beliebigen Zeitpunkt zwischen zwei Zügen 1 Schadensmarke von Kappalores."
-			},
+			}
 		},
 	],
 
@@ -60,8 +60,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Does 50 damage plus 10 more damage for each Water Energy attached to Ludicolo but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
-				fr: "Inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Ludicolo qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
-				de: "Dieser Angriff fügt 50 Schadenspunkte plus 10 weitere Schadenspunkte for jede an Kappalores angelegte -Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 20 Schadenspunkte hinzufügen."
+				fr: "Inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque Énergie {W} attachée à Ludicolo qui n'a pas été utilisée pour payer le coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
+				de: "Dieser Angriff fügt 50 Schadenspunkte plus 10 weitere Schadenspunkte für jede an Kappalores angelegte {W}-Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich so nicht mehr als 20 Schadenspunkte hinzufügen."
 			},
 			damage: "50+",
 
@@ -78,19 +78,24 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275784,
-		tcgplayer: 86895
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				cardmarket: 275784,
+				tcgplayer: 86895
+			}
 		},
 		{
 			type: "reverse",
+			thirdParty: {
+				cardmarket: 275784,
+				tcgplayer: 86895
+			}
 		},
-	]
+	],
+
 }
 
 export default card

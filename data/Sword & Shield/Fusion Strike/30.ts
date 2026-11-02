@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "kirisAki",
 
 	description: {
-		en: "Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse."
+		en: "Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse.",
+		de: "Dieses Pokémon ist intelligent, aber rachsüchtig. Wer zum Spaß einen seiner Schweife ergreift, kann sich einen tausendjährigen Fluch einhandeln."
 	},
 
 	attacks: [{
@@ -52,17 +59,23 @@ const card: Card = {
 		damage: 70
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582164,
-		tcgplayer: 253126
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582164,
+				tcgplayer: 253126
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582164,
+				tcgplayer: 253126
+			}
+		},
+	],
 }
 
 export default card

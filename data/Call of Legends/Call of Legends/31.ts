@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		227,
-	],
+	dexId: [227],
 
 	hp: 80,
 
 	types: [
-		"Metal",
+		"Metal"
 	],
 
 	stage: "Basic",
@@ -38,7 +36,7 @@ const card: Card = {
 			effect: {
 				en: "Search your deck for a Metal Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
 				fr: "Cherchez une carte Énergie  dans votre deck et attachez-la à l'un de vos Pokémon. Mélangez ensuite votre deck.",
-				de: "Durchsuche dein Deck nach einer -Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach einer {M}-Energiekarte und lege sie an 1 deiner Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -62,21 +60,40 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fire",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Psychic",
 			value: "-20"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 279674,
-		tcgplayer: 89243
-	}
+
+	description: {
+		en: "After nesting in bramble bushes, the wings of its chicks grow hard from scratches by thorns.",
+		de: "Die dornigen Zweige seines Nests bewirken, dass die Flügel seiner Jungen fest und hart werden."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89243,
+				cardmarket: 279674
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89243,
+				cardmarket: 279674
+			},
+		},
+	],
+
 }
 
 export default card

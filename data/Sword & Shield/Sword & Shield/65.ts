@@ -42,7 +42,7 @@ const card: Card = {
 				es: "Busca en tu baraja 1 carta de Energía Lightning y únela a este Pokémon. Después, baraja las cartas de tu baraja.",
 				it: "Cerca nel tuo mazzo una carta Energia Lightning e assegnala a questo Pokémon. Poi rimischia le carte del tuo mazzo.",
 				pt: "Procure por 1 carta de Energia Lightning no seu baralho e ligue-a a este Pokémon. Em seguida, embaralhe o seu baralho.",
-				de: "Durchsuche dein Deck nach 1 Lightning-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
+				de: "Durchsuche dein Deck nach 1 {L}-Energiekarte und lege sie an dieses Pokémon an. Mische anschließend dein Deck."
 			},
 
 		},
@@ -83,7 +83,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy."
+		en: "Pikachu that can generate powerful electricity have cheek sacs that are extra soft and super stretchy.",
+		de: "Je stärker die Elektrizität ist, die Pikachu produziert, desto weicher und elastischer sind seine Backentaschen."
 	},
 
 	dexId: [25],

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Feelinara"
 	},
 
+	illustrator: "Atsushi Furusawa",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 120,
@@ -68,25 +69,45 @@ const card: Card = {
 			es: "Si el Pokémon Activo de tu rival es un Pokémon Dragon, este ataque hace 90 puntos de daño más.",
 			it: "Se il Pokémon attivo del tuo avversario è un Pokémon Dragon, questo attacco infligge 90 danni in più.",
 			pt: "Se o Pokémon Ativo do seu oponente for um Pokémon Dragon, este ataque causará 90 pontos de dano a mais.",
-			de: "Wenn das Aktive Pokémon deines Gegners ein Dragon-Pokémon ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
+			de: "Wenn das Aktive Pokémon deines Gegners ein {N}-Pokémon ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
 		},
 
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		"normal": false,
-		"reverse": true,
-		"holo": true
+
+	description: {
+		en: "By releasing enmity-erasing waves from its ribbonlike feelers, Sylveon stops any conflict.",
+		de: "Mit seinen bandförmigen Fühlern sendet es Wellen aus, die feindselige Gefühle verklingen lassen. So legt es Streitereien bei."
 	},
 
-	thirdParty: {
-		cardmarket: 664575,
-		tcgplayer: 276976
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 665665,
+				tcgplayer: 276976
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 665665,
+				tcgplayer: 276976
+			}
+		},
+	],
 }
 
 export default card

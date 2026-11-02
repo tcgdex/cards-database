@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "kirisAki",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 	hp: 90,
@@ -89,18 +89,25 @@ const card: Card = {
 
 	dexId: [873],
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
 
-	thirdParty: {
-		cardmarket: 437159
-	}
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 437159,
+				tcgplayer: 208262
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				tcgplayer: 208263
+			}
+		},
+	],
 }
 
 export default card

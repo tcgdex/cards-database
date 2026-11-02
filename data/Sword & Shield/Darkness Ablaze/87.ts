@@ -86,23 +86,30 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "Even sealed in its shell, it can move freely. Hard and fast, it has outstanding destructive power."
+		en: "Even sealed in its shell, it can move freely. Hard and fast, it has outstanding destructive power.",
+		de: "Trotz seiner harten Schale kann es sich frei bewegen. Es ist flink und äußerst zerstörerisch."
 	},
 
-	thirdParty: {
-		cardmarket: 483314,
-		tcgplayer: 219476
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483314,
+				tcgplayer: 219476
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483314,
+				tcgplayer: 219476
+			}
+		},
+	],
 }
 
 export default card

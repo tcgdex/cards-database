@@ -48,14 +48,30 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "reverse"
+		},
+		{
+			type: "normal"
+		}
+	],
 
 	illustrator: "kantaro",
+
+	description: {
+		en: "Its well-developed jaw and fangs are strong enough to crunch through boulders, and its thick fat makes for an excellent defense.",
+		de: "Kiefer und Fangzähne dieses Pokémon sind gut entwickelt und stark genug, Felsen zu zerbeißen. Seine dicke Fettschicht bietet optimalen Schutz."
+	},
 
 	thirdParty: {
         cardmarket: 702430,

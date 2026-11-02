@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [746, 771],
 
 	dexId: [
 		781,
@@ -78,6 +79,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It wraps its prey in green seaweed and sucks away their vitality. It only likes to go after big prey like Wailord.",
+		de: "Es wickelt grünes Seegras um seine Beute und saugt ihr die Energie aus. Auf seinem Speiseplan stehen nur große Pokémon wie Wailord."
+	},
 
 	thirdParty: {
 		cardmarket: 387932,

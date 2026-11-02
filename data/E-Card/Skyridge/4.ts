@@ -12,14 +12,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		144,
-	],
+	dexId: [144],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -48,7 +46,7 @@ const card: Card = {
 				de: "Einfrieren"
 			},
 			effect: {
-				en: "If there are any Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Articuno.",
+				en: "If there are any Water Energy cards in your discard pile, flip a coin. If heads, attach 1 of them to Articuno.",
 				de: "Wenn mindestens eine  -Energiekarte in deinem Ablegestapel ist, wirf eine Münze. Lege bei \"Kopf\" eine davon an Arktos an."
 			},
 			damage: 10,
@@ -77,30 +75,34 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Metal",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Fighting",
 			value: "-30"
 		},
 	],
+	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275258,
-		tcgplayer: 83645
-	},
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 83645,
+				cardmarket: 275258
+			},
 		},
 		{
 			type: 'reverse',
-		}
-	]
+			thirdParty: {
+				tcgplayer: 83645,
+				cardmarket: 275258
+			},
+		},
+	],
 }
 
 export default card

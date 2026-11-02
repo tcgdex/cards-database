@@ -69,6 +69,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Staring at its antlers creates an odd sensation as if one were being drawn into their centers.",
+	},
+
 	thirdParty: {
 		cardmarket: 277866,
 		tcgplayer: 89504

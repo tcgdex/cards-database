@@ -66,19 +66,42 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "It is possible that the creature listed as Brute Bonnet in a certain book could actually be this Pokémon.",
+		de: "Es ist gut möglich, dass es sich hierbei um jene Kreatur handelt, die in einem gewissen Buch unter dem Namen Wutpilz auftaucht."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 748125,
+				tcgplayer: 523799,
+				cardtrader: 265241
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740660,
+				tcgplayer: 523799,
+				cardtrader: 265241
+			}
+		},
+	],
 
 	illustrator: "Anesaki Dynamic",
 
-	thirdParty: {
-		cardmarket: 740660
-	}
+	
 }
 
 export default card

@@ -15,6 +15,16 @@ const card: Card = {
 		ja: "このカードをつけているポケモンは、にげるためのエネルギーが1個ぶん少なくなる。そのポケモンの残りHPが「30」以下なら、にげるためのエネルギーは、すべてなくなる。"
 	},
 
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 761555,
+				tcgplayer: 566150,
+			},
+		},
+	],
+
 	trainerType: "Tool"
 }
 

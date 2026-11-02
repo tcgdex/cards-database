@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "sowsow",
 
 	description: {
-		en: "Its digestive processes convert the leaves it eats into electricity. An electric sac in its belly stores the electricity for later use."
+		en: "Its digestive processes convert the leaves it eats into electricity. An electric sac in its belly stores the electricity for later use.",
+		de: "Gefressenes Laub verwandelt es während der Verdauung in elektrische Energie, die in einem Strombeutel in seinem Magen gespeichert wird."
 	},
 
 	attacks: [{
@@ -65,17 +72,23 @@ const card: Card = {
 		damage: 60
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582493,
-		tcgplayer: 253256
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582493,
+				tcgplayer: 253256
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582493,
+				tcgplayer: 253256
+			}
+		},
+	],
 }
 
 export default card

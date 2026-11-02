@@ -62,6 +62,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It bounces around on its tail to keep its heart pumping. It carries a pearl from Clamperl on its head.",
+		de: "Seine Hüpfbewegungen bringen sein Herz zum Schlagen. Es trägt eine Perle von Perlu auf dem Kopf."
+	},
+
 	thirdParty: {
 		cardmarket: 361304,
 		tcgplayer: 170880

@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Lotad",
@@ -69,16 +63,29 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "Its leaf grew too large for it to live on land. That is how it began to live floating in the water."
+		en: "Its leaf grew too large for it to live on land. That is how it began to live floating in the water.",
+		de: "Da sein Blatt zu groß und schwer für das Leben an Land geworden ist, lebt es nun im Wasser schwimmend."
 	},
 
 	dexId: [270],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574056,
-		tcgplayer: 246829
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574056,
+				tcgplayer: 246829
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574056,
+				tcgplayer: 246829
+			}
+		},
+	],
 }
 
 export default card

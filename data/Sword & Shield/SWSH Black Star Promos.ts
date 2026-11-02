@@ -16,7 +16,7 @@ const swshp: Set = {
 	serie: serie,
 
 	cardCount: {
-		official: 107
+		official: 307
 	},
 
 	releaseDate: "2019-11-15",

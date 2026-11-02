@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Regigigas"
 	},
 
-	rarity: "Rare",
+	illustrator: "Ryuta Fuse",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 150,
 	types: ["Colorless"],
@@ -60,7 +61,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+
+	description: {
+		en: "It is said to have made Pokémon that look like itself from a special ice mountain, rocks, and magma.",
+		de: "Man sagt, es habe Pokémon aus einem Eisberg, Felsen und Magma nach seinem Abbild geschaffen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 449128,
+				tcgplayer: 211626
+			}
+		}
+	],
 }
 
 export default card

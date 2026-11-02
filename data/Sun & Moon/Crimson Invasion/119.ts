@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Type: Null",
 		fr: "Type:0",
+		de: "Typ:Null"
 	},
 
 	suffix: "GX",
@@ -93,7 +94,7 @@ const card: Card = {
 				es: "Rebelarse GX",
 				it: "Ribelle-GX",
 				pt: "Rebelde GX",
-				de: "Rebellieren GX"
+				de: "Rebellieren-GX"
 			},
 			effect: {
 				en: "This attack does 50 damage for each of your opponent’s Benched Pokémon. (You can’t use more than 1 GX attack in a game.)",

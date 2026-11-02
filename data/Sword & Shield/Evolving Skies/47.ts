@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Eiscue",
@@ -70,16 +64,29 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "This Pokémon keeps its heat-sensitive head cool with ice. It fishes for its food, dangling its single hair into the sea to lure in prey."
+		en: "This Pokémon keeps its heat-sensitive head cool with ice. It fishes for its food, dangling its single hair into the sea to lure in prey.",
+		de: "Es kühlt sein Gesicht ständig mit Eis, da dieses Hitze nicht gut verträgt. Das Haar auf dem Kopf hängt es ins Meer und angelt sich damit Beute."
 	},
 
 	dexId: [875],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574071,
-		tcgplayer: 246876
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574071,
+				tcgplayer: 246876
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574071,
+				tcgplayer: 246876
+			}
+		},
+	],
 }
 
 export default card

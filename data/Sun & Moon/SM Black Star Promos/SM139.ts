@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Brutalanda GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Shelgon",
 		fr: "Drackhaus",
+		de: "Draschel"
 	},
 	stage: "Stage2",
 	suffix: "GX",
@@ -88,7 +89,7 @@ const card: Card = {
 				es: "Jet de Fuego GX",
 				it: "Getto di Fiamma GX",
 				pt: "Jato de Chamas GX",
-				de: "Flammenstrahl GX"
+				de: "Flammenstrahl-GX"
 			},
 			effect: {
 				en: "This attack does 120 damage to 1 of your opponent’s Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.) (You can’t use more than 1 GX attack in a game.)",
@@ -110,8 +111,15 @@ const card: Card = {
 
 	retreat: 2,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 366056,
+				tcgplayer: 180529
+			}
+		}
+	],
 }
 
 export default card

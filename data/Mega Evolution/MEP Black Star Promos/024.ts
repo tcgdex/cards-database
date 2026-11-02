@@ -13,8 +13,9 @@ const card: Card = {
 		pt: "Oricorio ex"
 	},
 
+	suffix: "ex",
 	illustrator: "Shinji Kanda",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 190,
 	types: ["Fire"],
@@ -61,11 +62,20 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "I",
 
+	weaknesses: [{
+		type: "Water",
+		value: "x2"
+	}],
+
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 859036,
+				tcgplayer: 664010
+			}
+		},
+	],
 }
 
 export default card

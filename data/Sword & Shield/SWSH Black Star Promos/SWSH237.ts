@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Hisuian Typhlosion V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 210,
 	types: ["Psychic"],
@@ -63,12 +63,29 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
-
-	thirdParty: {
-		cardmarket: 650947
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 650947,
+				tcgplayer: 275167
+			}
+		},
+	],
 }
 
 export default card

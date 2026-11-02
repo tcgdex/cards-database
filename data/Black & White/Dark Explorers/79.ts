@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Pawniard",
-		fr: "Scalpion"
+		fr: "Scalpion",
+		de: "Gladiantri"
 	},
 
 	stage: "Stage1",
@@ -41,11 +42,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Aerial Ace",
-				fr: "Aéropique"
+				fr: "Aéropique",
+				de: "Aero-Ass"
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				de: "Wirf 1 Münze. Bei „Kopf“ fügt dieser Angriff 20 weitere Schadenspunkte zu."
 			},
 			damage: 20,
 
@@ -58,7 +61,8 @@ const card: Card = {
 			],
 			name: {
 				en: "Metal Claw",
-				fr: "Griffe Acier"
+				fr: "Griffe Acier",
+				de: "Metallklaue"
 			},
 
 			damage: 80,
@@ -82,10 +86,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 280400,
-		tcgplayer: 83845
-	}
+	description: {
+		en: "Bisharp pursues prey in the company of a large group of Pawniard. Then Bisharp finishes off the prey.",
+		de: "Es rückt seinen Opfern mit einer Schar von Gladiantri im Gefolge auf den Pelz. Den letzten Hieb übernimmt es selbst."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280407,
+				tcgplayer: 83845
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280407,
+				tcgplayer: 83845
+			}
+		},
+	],
 }
 
 export default card

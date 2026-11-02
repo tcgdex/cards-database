@@ -10,6 +10,7 @@ const card: Card = {
 	category: "Pokemon",
 
 	set: Set,
+	cameoDexIds: [133],
 	dexId: [
 		143,
 	],
@@ -61,12 +62,22 @@ const card: Card = {
 			value: "-30"
 		},
 	],
+	retreat: 4,
+
+
+	description: {
+		en: "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful.",
+	},
 
 	variants: [
 		{
 			type: "normal",
-		}
-	]
+			thirdParty: {
+				cardmarket: 275468,
+				tcgplayer: 89385
+			}
+		},
+	],
 }
 
 export default card

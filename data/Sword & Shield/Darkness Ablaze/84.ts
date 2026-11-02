@@ -52,23 +52,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "If a Diglett digs through a field, it leaves the soil perfectly tilled and ideal for planting crops."
+		en: "If a Diglett digs through a field, it leaves the soil perfectly tilled and ideal for planting crops.",
+		de: "Bewegt sich ein Digda unterirdisch fort, pflügt es dabei den Erdboden gleich mit und bereitet so den Anbau von Feldfrüchten vor."
 	},
 
-	thirdParty: {
-		cardmarket: 483299,
-		tcgplayer: 219471
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483299,
+				tcgplayer: 219471
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483299,
+				tcgplayer: 219471
+			}
+		},
+	],
 }
 
 export default card

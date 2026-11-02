@@ -1,54 +1,33 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV-P"
+import { Card } from "../../../interfaces";
+import Set from "../SV-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "洛托姆"
+		ja: "ふしぎなアメ",
+		'zh-tw': "洛托姆",
 	},
 
-	illustrator: "Kouki Saitou",
-	category: "Pokemon",
-	hp: 80,
-	types: ["Lightning"],
+	illustrator: "Studio Bora Inc.",
+	category: "Trainer",
 
-	description: {
-		'zh-tw': "被當作驅動 特殊馬達的動力源， 而被長期研究的寶可夢。"
+	effect: {
+		ja: "自分のたねポケモン1匹から進化する1進化の上の2進化ポケモンを、手札から1枚選び、そのたねポケモンにのせて進化させる。[最初の自分の番と、この番出したばかりのたねポケモンには使えない。]",
 	},
 
-	stage: "Basic",
-
-	attacks: [{
-		name: {
-			'zh-tw': "廢品搜尋"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 699713,
+				tcgplayer: 587773,
+			},
 		},
+	],
 
-		effect: {
-			'zh-tw': "從自己的棄牌區選擇1張物品卡，在給對手看過後加入手牌。"
-		},
+	trainerType: "Item",
+	regulationMark: "G",
+	rarity: "Promo",
+};
 
-		cost: ["Colorless"]
-	}, {
-		name: {
-			'zh-tw': "電擊"
-		},
-
-		effect: {
-			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。"
-		},
-
-		damage: 20,
-		cost: ["Lightning"]
-	}],
-
-	weaknesses: [{
-		type: "Fighting",
-		value: "×2"
-	}],
-
-	retreat: 1,
-	regulationMark: "G"
-}
-
-export default card
+export default card;

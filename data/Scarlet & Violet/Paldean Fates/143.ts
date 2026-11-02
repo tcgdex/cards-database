@@ -65,19 +65,33 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751682,
+				tcgplayer: 534579,
+				cardtrader: 274326
+			}
+		},
+	],
 
 	illustrator: "Mizue",
 
-	thirdParty: {
-		cardmarket: 751682
-	}
+	description: {
+		en: "Pawmo uses a unique fighting technique in which it uses its forepaws to strike foes and zap them with electricity from its paw pads simultaneously.",
+		de: "Es nutzt eine besondere Kampftechnik, bei der es mit den Vorderpfoten zuschlägt und zeitgleich Elektroschocks aus den Pfotenballen schießt."
+	},
+
 }
 
 export default card

@@ -63,6 +63,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They will cooperate to steal eggs from the nests of bird Pokémon, but fights break out to determine which one gets to eat the eggs.",
+		de: "Sie bilden ein Team, um gemeinsam Eier aus den Nestern von Vogel-Pokémon zu klauen. Dann streiten sie sich darüber, wer sie fressen darf."
+	},
+
 	thirdParty: {
 		cardmarket: 407864,
 		tcgplayer: 201219

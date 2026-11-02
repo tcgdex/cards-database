@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		331,
-	],
+	dexId: [331],
 
 	hp: 50,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	stage: "Basic",
@@ -33,12 +31,12 @@ const card: Card = {
 			name: {
 				en: "Sneaky Attack",
 				fr: "Coup Bas",
-				de: "Sneaky Attack"
+				de: "Hinterhältiger Angriff"
 			},
 			effect: {
 				en: "If Cacnea has any Darkness Energy attached to it, this attack does 10 damage plus 10 more damage.",
 				fr: "Si Cacnea possède de l'Énergie Darkness, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
-				de: "If Cacnea has any  Energy attached to it, this attack does 10 damage plus 10 more damage."
+				de: "Wenn an Tuska mindestens 1 {D}-Energie angelegt ist, fügt dieser Angriff 10 Schadenspunkte plus 10 weitere Schadenspunkte zu."
 			},
 			damage: "10+",
 
@@ -50,12 +48,12 @@ const card: Card = {
 			name: {
 				en: "Shoot Needle",
 				fr: "Coup de dard",
-				de: "Shoot Needle"
+				de: "Stachelschuss"
 			},
 			effect: {
 				en: "Flip 2 coins. For each heads, choose 1 of your opponent's Pokémon and this attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) (You can choose the same Pokémon more than once, but you can't do more than 10 damage to that Pokémon in this way.)",
 				fr: "Lancez 2 pièces. Pour chaque face, choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 10 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) (Vous pouvez choisir le même Pokémon plus d'une fois mais vous ne pouvez pas lui infliger plus de 10 dégâts de cette façon).",
-				de: "Flip 2 coins. For each heads, choose 1 of your opponent's Pokémon and this attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) (You can choose the same Pokémon more than once, but you can't do more than 10 damage to that Pokémon in this way.)"
+				de: "Wirf 2 Münzen. Wähle für jedes Mal, wenn die Münze „Kopf“ gezeigt hat, 1 gegnerisches Pokémon und dieser Angriff fügt dem gewählten Pokémon 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) (Du kannst das gleiche Pokémon mehrmals wählen, aber dem gewählten Pokémon können auf diese Weise nicht mehr als 10 Schadenspunkte zugefügt werden.)"
 			},
 
 		},
@@ -77,19 +75,28 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278488,
-		tcgplayer: 84076
+	description: {
+		en: "By storing water in its body, this desert dweller can survive 30 days without water.",
+		de: "Dieser Wüstenbewohner speichert Wasser in seinem Körper. So kann er 30 Tage ohne Wasser überleben."
 	},
 
-	variants:[
+	variants: [
 		{
-			type:"normal"
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 84076,
+				cardmarket: 278488
+			}
 		},
 		{
-			type:"reverse"
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278488,
+				tcgplayer: 84076
+			}
 		}
-	]
+	],
+
 }
 
 export default card

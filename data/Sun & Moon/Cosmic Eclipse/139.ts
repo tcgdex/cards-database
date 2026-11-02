@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Onix",
 		fr: "Onix",
+		de: "Onix"
 	},
 
 	stage: "Stage1",
@@ -101,6 +102,11 @@ const card: Card = {
 	],
 
 	retreat: 4,
+
+	description: {
+		en: "Tempered underground under high pressure and heat, its body is harder than any metal.",
+		de: "Hoher Druck und hohe Temperaturen haben seinen Körper härter als Stahl werden lassen."
+	},
 
 	thirdParty: {
 		cardmarket: 398559,

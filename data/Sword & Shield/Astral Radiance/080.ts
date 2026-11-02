@@ -4,6 +4,7 @@ import Set from "../Astral Radiance"
 const card: Card = {
 	dexId: [450],
 	set: Set,
+	cameoDexIds: [557],
 
 	name: {
 		en: "Hippowdon",
@@ -14,6 +15,7 @@ const card: Card = {
 		de: "Hippoterus"
 	},
 
+	illustrator: "Kyoko Umemoto",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 150,
@@ -67,20 +69,37 @@ const card: Card = {
 		damage: 180
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 4,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "Stones can get stuck in the ports on their bodies. Dwebble help dislodge such stones, so Hippowdon look after these Pokémon.",
+		de: "Manchmal bleiben in den Öffnungen in seinem Körper Steine stecken. Lithomith entfernen diese Steine, deswegen genießen sie seinen Schutz."
 	},
 
-	thirdParty: {
-		cardmarket: 658688,
-		tcgplayer: 272281
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 658688,
+				tcgplayer: 272281
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658688,
+				tcgplayer: 272281
+			}
+		},
+	],
 }
 
 export default card

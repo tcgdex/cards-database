@@ -77,7 +77,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "As it digs, it swallows sand and stores it in its neck pouch. The pouch can hold more than 17 pounds of sand."
+		en: "As it digs, it swallows sand and stores it in its neck pouch. The pouch can hold more than 17 pounds of sand.",
+		de: "Den Sand, den es beim Graben von Löchern verzehrt, speichert es in einem Beutel in seinem Hals. Dieser kann bis zu 8 kg Sand aufnehmen."
 	},
 
 	dexId: [843],

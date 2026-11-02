@@ -19,12 +19,25 @@ const card: Card = {
 	hp: 80,
 	types: ["Psychic"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "KIYOTAKA OSHIYAMA",
 
 	description: {
-		en: "If you build sand mounds when you're playing, destroy them before you go home, or they may get possessed and become Sandygast."
+		en: "If you build sand mounds when you're playing, destroy them before you go home, or they may get possessed and become Sandygast.",
+		de: "Lässt man beim Spielen gebaute Sandhaufen zurück, kann es vorkommen, dass sich eine Seele dort einnistet und ein Sankabuh entsteht."
 	},
 
 	attacks: [{
@@ -55,17 +68,23 @@ const card: Card = {
 		damage: 30
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582655,
-		tcgplayer: 253311
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582655,
+				tcgplayer: 253311
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582655,
+				tcgplayer: 253311
+			}
+		},
+	],
 }
 
 export default card

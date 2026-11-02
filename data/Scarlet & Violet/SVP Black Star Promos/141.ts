@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Noctuh"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 100,
 	types: ["Colorless"],
@@ -65,9 +65,41 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
-	illustrator: "Tetsu Kayama"
+	illustrator: "Tetsu Kayama",
+	description: {
+		en: "Its extremely soft wings make no sound in flight. It silently sneaks up on prey without being detected.",
+	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 785850,
+				tcgplayer: 578811
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["pokemon-center"],
+			thirdParty: {
+				cardmarket: 788037,
+				tcgplayer: 578812
+			},
+		}
+	],
 }
 
 export default card

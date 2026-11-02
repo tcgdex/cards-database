@@ -94,6 +94,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It is said to have the ability to grant any wish for just one week every thousand years.",
+		de: "Man sagt, es kann alle 1 000 Jahre für eine Woche jeden Wunsch erfüllen."
+	},
+
 	thirdParty: {
 		cardmarket: 359573
 	}

@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cualquier daño infligido al Pokémon al que esté unida esta carta por ataques de los Pokémon de tu rival que tengan alguna Energía Especial unida a ellos se reduce en 40 (después de aplicar Debilidad y Resistencia).",
 		it: "I danni inflitti al Pokémon a cui è assegnata questa carta da attacchi di Pokémon dell'avversario che abbiano Energie speciali assegnate sono ridotti di 40, dopo aver applicato debolezza e resistenza.",
 		pt: "Qualquer dano causado ao Pokémon ao qual este card está ligado por ataques feitos por um Pokémon do seu oponente que possua uma Energia Especial ligada a ele será reduzido em 40 (após a aplicação de Fraqueza e Resistência).",
-		de: "Schaden, der dem Pokémon, an das diese Karte angelegt ist, durch gegnerische Pokémon, an denen Spezial-Energie angelegt ist, zugefügt wird, wird um 40 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+		de: "Lege 1 Pokémon-Ausrüstung an 1 deiner Pokémon an, an das noch keine Pokémon-Ausrüstung angelegt ist. Schaden, der dem Pokémon, an das diese Karte angelegt ist, durch gegnerische Pokémon, an denen Spezial-Energie angelegt ist, zugefügt wird, wird um 40 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden). Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Tool",

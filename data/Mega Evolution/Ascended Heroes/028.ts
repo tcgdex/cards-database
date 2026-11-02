@@ -14,9 +14,20 @@ const card: Card = {
 		pt: "Camerupt"
 	},
 
+	evolveFrom: {
+		en: "Numel",
+		fr: "Chamallot",
+		es: "Numel",
+		'es-mx': "Numel",
+		de: "Camaub",
+		it: "Numel",
+		pt: "Numel",
+	},
+
 	illustrator: "Minahamu",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [323],
 	hp: 140,
 	types: ["Fire"],
 	stage: "Stage1",
@@ -71,13 +82,46 @@ const card: Card = {
 		damage: 170
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "I",
 
-	thirdParty: {
-		tcgplayer: 675840,
-		cardmarket: 869639
-	}
+	description: {
+		en: "The volcanoes on its back have a major eruption every 10 years--or whenever it becomes really angry.",
+		fr: "Les volcans sur son dos entrent en éruption tous les dix ans ou chaque fois qu'il se met en colère.",
+		de: "Alle zehn Jahre kommt es zu einer großen Eruption der Vulkanhöcker auf seinem Rücken. Sie brechen auch aus, wenn es sehr wütend ist."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869639,
+			tcgplayer: 675840
+		}
+	},
+	{
+		type: "reverse",
+		foil: "quickball",
+		thirdParty: {
+			cardmarket: 870182,
+			tcgplayer: 676875
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870181,
+			tcgplayer: 677015
+		}
+	},
+],
 }
 
 export default card

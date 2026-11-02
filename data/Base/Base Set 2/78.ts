@@ -43,15 +43,21 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 274001,
-		tcgplayer: 42530
+
+	description: {
+		en: "Loves to build its muscles. It trains in all styles of martial arts to become even stronger.",
 	},
+
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274001,
+				tcgplayer: 42530
+			}
 		}
 	]
 }

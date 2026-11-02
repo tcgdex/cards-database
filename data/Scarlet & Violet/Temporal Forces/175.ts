@@ -4,6 +4,7 @@ import Set from "../Temporal Forces"
 const card: Card = {
 	dexId: [750],
 	set: Set,
+	cameoDexIds: [749],
 
 	name: {
 		en: "Mudsdale",
@@ -72,20 +73,31 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "H",
 
+	description: {
+		en: "This Pokémon has been treasured not just for its physical labor but also because it produces high-quality mud used for making pottery.",
+	},
+
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760805,
+				tcgplayer: 542896
+			}
+		},
 	],
 
 	illustrator: "MINAMINAMI Take",
 
-	thirdParty: {
-		cardmarket: 760805
-	}
 }
 
 export default card

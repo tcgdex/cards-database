@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		34,
-	],
+	dexId: [34],
 
 	hp: 130,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Nidorino",
 		fr: "Nidorino",
+		de: "Nidorino"
 	},
 
 	stage: "Stage2",
@@ -36,13 +35,13 @@ const card: Card = {
 			name: {
 				en: "Territoriality",
 				fr: "Territorialité",
-				de: "Rasierverhalten"
+				de: "Revierverhalten"
 			},
 			effect: {
 				en: "If your Active Pokémon is damaged by an opponent's attack (even if that Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon. You can't put more than 2 damage counters in this way.",
 				fr: "Si l'attaque de votre adversaire inflige des dégâts à votre Pokémon Actif (même si ce Pokémon est mis K.O), placez 2 marqueurs de dégât sur le Pokémon Attaquant. Vous ne pouvez pas placer plus de 2 marqueurs de dégât de cette façon.",
 				de: "Wenn dein Aktives Pokémon durch einen gegnerischen Angriff Schaden erhält (auch wenn dieses Pokémon dadurch kampfunfähig wird), lege 2 Schadensmarken auf das Angreifende Pokémon. Du kannst auf diese Weise nicht mehr als 2 Schadensmarken verteilen."
-			},
+			}
 		},
 	],
 
@@ -81,7 +80,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. If both of them are tails, this attack does nothing.",
 				fr: "Lancez 2 pièces. Si ce sont des piles, cette attaque est sans effet.",
-				de: "Wirf 2 Münzen. Wenn beide \"Zahl\" zeigen, hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 2 Münzen. Wenn beide „Zahl“ zeigen, hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 100,
 
@@ -94,29 +93,31 @@ const card: Card = {
 			value: "+30"
 		},
 	],
-
 	resistances: [
 		{
 			type: "Lightning",
 			value: "-20"
 		},
 	],
-
 	retreat: 2,
-
-	thirdParty: {
-		cardmarket: 278603,
-		tcgplayer: 87698
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278603,
+				tcgplayer: 87698
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278603,
+				tcgplayer: 87698
+			}
+		},
+	],
+
 }
 
 export default card

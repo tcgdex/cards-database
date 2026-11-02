@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		354,
-	],
+	dexId: [354],
 
 	hp: 80,
 
 	types: [
-		"Psychic",
+		"Psychic"
 	],
 
 	evolveFrom: {
 		en: "Shuppet",
 		fr: "Polichombr",
+		de: "Shuppet"
 	},
 
 	stage: "Stage1",
@@ -41,9 +40,9 @@ const card: Card = {
 				de: "Nirgendwo-Zertrümmerer"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose 1 Energy card attached to 1 of your opponent’s Pokémon and put it in the Lost Zone.",
+				en: "Flip a coin. If heads, choose 1 Energy card attached to 1 of your opponent's Pokémon and put it in the Lost Zone.",
 				fr: "Lancez une pièce. Si c’est face, choisissez une carte Énergie attachée à l’un des Pokémon de votre adversaire et placez-la dans la Zone Perdue.",
-				de: "Wirf eine Münze. Wähle bei \"Kopf\" 1 an 1 Pokémon deines Gegners angelegte Energiekarte und lege sie ins Nirgendwo."
+				de: "Wirf eine Münze. Wähle bei „Kopf“ 1 an 1 Pokémon deines Gegners angelegte Energiekarte und lege sie ins Nirgendwo."
 			},
 
 		},
@@ -59,7 +58,7 @@ const card: Card = {
 				de: "Rückkopplung"
 			},
 			effect: {
-				en: "Count the number of cards in your opponent’s hand. Put that many damage counters on the Defending Pokémon.",
+				en: "Count the number of cards in your opponent's hand. Put that many damage counters on the Defending Pokémon.",
 				fr: "Comptez le nombre de cartes dans la main de votre adversaire. Placez un nombre équivalent de marqueurs de dégât sur le Pokémon Défenseur.",
 				de: "Zähle die Anzahl der Handkarten deines Gegners. Lege ebenso viele Schadensmarken auf das Verteidigende Pokémon."
 			},
@@ -84,20 +83,27 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "This Pokémon developed from an abandoned doll that amassed a grudge. It is seen in dark alleys."
+		en: "This Pokémon developed from an abandoned doll that amassed a grudge. It is seen in dark alleys.",
+		de: "Eine weggeworfene Puppe, die nun ganz von Hass durchdrungen ist. Man findet es in dunklen Gassen."
 	},
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83724,
+				cardmarket: 279544
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279544,
+				tcgplayer: 83724
+			}
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 279544,
-		tcgplayer: 83724
-	}
 }
 
 export default card

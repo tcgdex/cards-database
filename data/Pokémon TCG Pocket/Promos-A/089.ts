@@ -6,7 +6,8 @@ const card: Card = {
 
 	name: {
 		en: "Audino",
-		es: "Audino"
+		es: "Audino",
+		de: "Ohrdoch"
 	},
 
 	illustrator: "MAHOU",
@@ -19,7 +20,8 @@ const card: Card = {
 
 	description: {
 		en: "This Pokémon has a kind heart. By touching with its feelers,\nAudino can gauge other creatures' feelings and physical conditions.",
-		es: "Un Pokémon gentil que es capaz de comprender\nlos sentimientos y averiguar el estado de salud\nde todo aquel que toque con sus antenas."
+		es: "Un Pokémon gentil que es capaz de comprender\nlos sentimientos y averiguar el estado de salud\nde todo aquel que toque con sus antenas.",
+		de: "Berührt dieses herzensgute Pokémon jemanden mit seinen Fühlern, kann es dessen körperliche Verfassung und Gemütszustand ertasten."
 	},
 
 	stage: "Basic",
@@ -27,7 +29,8 @@ const card: Card = {
 	attacks: [{
 		name: {
 			en: "Drain Slap",
-			es: "Absorbebofetón"
+			es: "Absorbebofetón",
+			de: "Watschensauger"
 		},
 
 		damage: 40,
@@ -35,7 +38,8 @@ const card: Card = {
 
 		effect: {
 			en: "Heal 10 damage from this Pokémon.",
-			es: "Cura 10 puntos de daño a este Pokémon."
+			es: "Cura 10 puntos de daño a este Pokémon.",
+			de: "Heile 10 Schadenspunkte bei diesem Pokémon."
 		}
 	}],
 

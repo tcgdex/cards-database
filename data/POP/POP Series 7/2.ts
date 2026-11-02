@@ -4,7 +4,8 @@ import Set from '../POP Series 7'
 const card: Card = {
 	name: {
 		en: "Gallade",
-		fr: "Gallade"
+		fr: "Gallame",
+		de: "Galagladi"
 	},
 
 	illustrator: "Daisuke Ito",
@@ -12,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		475,
-	],
+	dexId: [475],
 
 	hp: 130,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	evolveFrom: {
 		en: "Kirlia",
-		fr: "Kirlia"
+		fr: "Kirlia",
+		de: "Kirlia"
 	},
 
 	stage: "Stage2",
@@ -37,11 +37,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Sonic Blade",
-				fr: "Lame sonique"
+				fr: "Lame sonique",
+				de: "Schallklinge"
 			},
 			effect: {
 				en: "Put damage counters on the Defending Pokémon until it is 50 HP away from being Knocked Out. If you do, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
-				fr: "Placez des marqueurs de dégât sur le Pokémon Défenseur jusqu'à ce qu'il soit à 50 PV d'être mis K.O. Votre adversaire échange alors le Pokémon Défenseur avec 1 des Pokémon de son Banc."
+				fr: "Placez des marqueurs de dégât sur le Pokémon Défenseur jusqu'à ce qu'il soit à 50 PV d'être mis K.O. Votre adversaire échange alors le Pokémon Défenseur avec 1 des Pokémon de son Banc.",
+				de: "Lege so viele Schadensmarken auf das Verteidigende Pokémon, dass es nur noch 50 Schadenspunkte davon entfernt ist, kampfunfähig zu sein. Wenn du das machst, tauscht dein Gegner das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
 			},
 
 		},
@@ -53,11 +55,13 @@ const card: Card = {
 			],
 			name: {
 				en: "Psychic Cut",
-				fr: "Coupe Psycho"
+				fr: "Coupe Psycho",
+				de: "Psychoklinge"
 			},
 			effect: {
 				en: "You may choose as many of your face-down Prize cards as you like and put them face up. If you do, this attack does 60 damage plus 20 more damage for each Prize card you chose. (These cards remain face up for the rest of the game.)",
-				fr: "Vous pouvez choisir autant de cartes Récompense se trouvant face cachée que vous le voulez et les retourner. Cette attaque inflige alors 60 dégâts plus 20 dégâts supplémentaires pour chaque carte Récompense choisie. (Ces cartes restent retournées pour le reste de la partie)."
+				fr: "Vous pouvez choisir autant de cartes Récompense se trouvant face cachée que vous le voulez et les retourner. Cette attaque inflige alors 60 dégâts plus 20 dégâts supplémentaires pour chaque carte Récompense choisie. (Ces cartes restent retournées pour le reste de la partie).",
+				de: "Du kannst beliebig viele deiner verdeckten Preise wählen und aufdecken. Wenn du das machst, fügt dieser Angriff 60 Schadenspunkte plus 20 weitere Schadenspunkte für jeden so gewählten Preis zu. (Die gewählten Preise werden nicht wieder verdeckt.)"
 			},
 			damage: "60+",
 
@@ -70,24 +74,46 @@ const card: Card = {
 			value: "+30"
 		},
 	],
-
 	description: {
-		en: "A master of courtesy and swordsmanship, it fights using extending swords on it elbows."
+		en: "A master of courtesy and swordsmanship, it fights using extending swords on it elbows.",
+		de: "Es kämpft, indem es die Schwerter an seinen Ellbogen verlängert. Es ist ein Meister des Kampfes."
 	},
 
 	retreat: 2,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85605,
+				cardmarket: 278034
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85605,
+				cardmarket: 278034
+			},
+		},
+		{
+			type: "normal",
+			stamp: ['jason-klaczynski'],
+			thirdParty: {
+				tcgplayer: 479786,
+				cardmarket: 869283
+			},
+		},
+		{
+			type: "normal",
+			stamp: ['michael-pramawat'],
+			thirdParty: {
+				tcgplayer: 480045,
+				cardmarket: 868672
+			},
+		},
+	],
 
-	thirdParty: {
-		cardmarket: 278034,
-		tcgplayer: 85605
-	}
 }
 
 export default card

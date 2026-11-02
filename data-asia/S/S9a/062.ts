@@ -17,6 +17,23 @@ const card: Card = {
 		ja: "自分のポケモンを1匹選ぶ。ウラが出るまでコインを投げ、オモテの数×40ダメージぶん、そのポケモンのHPを回復する。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 609830,
+				tcgplayer: 570632,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				tcgplayer: 577640,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "F",
 	rarity: "Uncommon"

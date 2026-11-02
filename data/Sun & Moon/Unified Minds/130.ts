@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Murkrow",
 		fr: "Cornèbre",
+		de: "Kramurx"
 	},
 
 	stage: "Stage1",
@@ -89,6 +90,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It will absolutely not forgive failure from or betrayal by its goons. It has no choice in this if it wants to maintain the order of the flock.",
+		de: "Für Untergebene, die versagen oder es verraten, hat es keine Gnade übrig. Das ist nötig, um die Disziplin in der Gruppe aufrechtzuerhalten."
+	},
 
 	thirdParty: {
 		cardmarket: 388447,

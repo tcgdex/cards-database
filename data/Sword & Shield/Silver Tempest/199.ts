@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Icognito VSTAR"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 250,
@@ -71,24 +72,36 @@ const card: Card = {
 			es: "Mientras este Pokémon esté en juego, obtiene una habilidad que tiene el siguiente efecto: \"La Debilidad de cada uno de los Pokémon en juego de tu rival pasa a ser Psychic. (La cantidad de Debilidad no cambia)\". (Nopuedes usar más de 1 Poder V-ASTRO en una partida).",
 			it: "Finché questo Pokémon rimane in gioco, possiede un'abilità che ha l'effetto: \"La debolezza di ciascun Pokémon in gioco del tuo avversario diventa Psychic. Quanto è debole non cambia\". Non puoi usare più di un Potere V ASTRO a partita.",
 			pt: "Até este Pokémon sair de jogo, ele ganhará uma Habilidade com o efeito \"A Fraqueza de cada um dos Pokémon do seu oponente em jogo será Psychic (a quantidade de Fraqueza não muda).\"(você não pode usar mais de 1 Poder V-ASTRO por partida).",
-			de: "Bis dieses Pokémon das Spiel verlässt, erhält es eine Fähigkeit mit dem Effekt \"Die Schwäche jedes Pokémon deines Gegners im Spiel ist jetzt Psychic. (Die Höhe der Schwäche ändert sich nicht.)\" (Du kannst pro Spiel nur 1 VSTAR-Power einsetzen.)"
+			de: "Bis dieses Pokémon das Spiel verlässt, erhält es eine Fähigkeit mit dem Effekt „Die Schwäche jedes Pokémon deines Gegners im Spiel ist jetzt {P}. (Die Höhe der Schwäche ändert sich nicht.)“ (Du kannst pro Spiel nur 1 VSTAR-Power einsetzen.)"
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 682247,
-		tcgplayer: 451989
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'rainbow',
+			thirdParty: {
+				cardmarket: 682247,
+				tcgplayer: 451989
+			}
+		},
+	],
 }
 
 export default card

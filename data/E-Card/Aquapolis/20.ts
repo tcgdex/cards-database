@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		171,
-	],
+	dexId: [171],
 
 	hp: 80,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	evolveFrom: {
 		en: "Chinchou",
-		fr: "Loupio"
+		fr: "Loupio",
+		de: "Lampi"
 	},
 
 	stage: "Stage1",
@@ -56,9 +55,9 @@ const card: Card = {
 				de: "Stromübertragung"
 			},
 			effect: {
-				en: "Discard all Energy cards attached to Lanturn. Flip a number of coins equal to the number of Energy cards you discarded. This attack does 30 damage plus 40 more damage for each heads.",
-				fr: "Défaussez-vous de toutes les cartes Énergie  attachées à Lanturn. Lancez un nombre de pièces égal au nombre de cartes Énergie  que vous avez défaussé. Cette attaque inflige 30 dégâts plus 40 dégâts supplémentaires pour chaque face.",
-				de: "Lege alle an Lanturn angelegten -Energiekarten auf deinen Ablagestapel. Wirf eine Anzahl Münzen gleich der Anzahl so abgelegter -Energiekarten. Dieser Angriff fügt 30 Schadenspunkte plus 40 weitere Schadenspunkte pro geworfenem 'Kopf' zu."
+				en: "Discard all Lightning Energy cards attached to Lanturn. Flip a number of coins equal to the number of Lightning Energy cards you discarded. This attack does 30 damage plus 40 more damage for each heads.",
+				fr: "Défaussez-vous de toutes les cartes Énergie {L} attachées à Lanturn. Lancez un nombre de pièces égal au nombre de cartes Énergie {L} que vous avez défaussé. Cette attaque inflige 30 dégâts plus 40 dégâts supplémentaires pour chaque face.",
+				de: "Lege alle an Lanturn angelegten {L}-Energiekarten auf deinen Ablagestapel. Wirf eine Anzahl Münzen gleich der Anzahl so abgelegter {L}-Energiekarten. Dieser Angriff fügt 30 Schadenspunkte plus 40 weitere Schadenspunkte pro geworfenem „Kopf“ zu."
 			},
 			damage: "30+",
 
@@ -68,22 +67,27 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Grass",
-			value: "×2"
+			value: "x2"
 		},
 	],
+	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 275055,
-		tcgplayer: 86600
-	},
 
 	variants: [
 		{
 			type: 'normal',
+			thirdParty: {
+				tcgplayer: 86600,
+				cardmarket: 275055
+			}
 		},
 		{
 			type: 'reverse',
-		}
+			thirdParty: {
+				tcgplayer: 86600,
+				cardmarket: 275055
+			}
+		},
 	]
 }
 

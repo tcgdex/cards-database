@@ -92,23 +92,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "They use shells they've stolen from Shelmet to arm and protect themselves. They're very popular Pokémon in the Galar region."
+		en: "They use shells they've stolen from Shelmet to arm and protect themselves. They're very popular Pokémon in the Galar region.",
+		de: "In der Galar-Region ist es besonders beliebt. Es stiehlt die Muschel eines Schnuthelms und vollendet damit seine Ganzkörperrüstung."
 	},
 
-	thirdParty: {
-		cardmarket: 483499,
-		tcgplayer: 219383
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483499,
+				tcgplayer: 219383
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483499,
+				tcgplayer: 219383
+			}
+		},
+	],
 }
 
 export default card

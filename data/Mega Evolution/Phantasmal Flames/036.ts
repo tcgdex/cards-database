@@ -13,7 +13,16 @@ const card: Card = {
 		it: "Mismagius-ex",
 		pt: "Mismagius ex"
 	},
+	evolveFrom: {
+		en: "Misdreavus",
+		de: "Traunfugil",
+		es: "Misdreavus",
+		fr: "Feuforêve",
+		it: "Misdreavus",
+		pt: "Misdreavus",
+	},
 
+	suffix: "ex",
 	rarity: "Double rare",
 	category: "Pokemon",
 
@@ -72,19 +81,32 @@ const card: Card = {
 		damage: 150
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
+	illustrator: "5ban Graphics",
 	variants: [
 		{
-			type: "holo"
-		}
-	],
-
-	thirdParty: {
-		cardmarket: 857611,
-		tcgplayer: 662199
-	}
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857611,
+				tcgplayer: 662199,
+				cardtrader: 356819
+			}
+		},
+	],	
 }
 
 export default card

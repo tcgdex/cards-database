@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 110,
 	types: ["Grass"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "0313",
 
 	description: {
-		en: "Once each year, this Pokémon scatters its seeds. They're jam-packed with nutrients, making them a precious food source out in the desert."
+		en: "Once each year, this Pokémon scatters its seeds. They're jam-packed with nutrients, making them a precious food source out in the desert.",
+		de: "Es verstreut ein Mal im Jahr Samen, die jede Menge Nährstoffe enthalten und in der Wüste als kostbares Nahrungsmittel gelten."
 	},
 
 	attacks: [{
@@ -64,17 +71,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582040,
-		tcgplayer: 253086
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582040,
+				tcgplayer: 253086
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582040,
+				tcgplayer: 253086
+			}
+		},
+	],
 }
 
 export default card

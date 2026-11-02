@@ -104,6 +104,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It sends a soothing aura from its ribbonlike feelers to calm fights.",
+		de: "Seinen bandförmigen Fühlern lässt es beruhigende Wellen entströmen, die das Ende von Kämpfen herbeiführen."
+	},
+
 	thirdParty: {
 		cardmarket: 281736,
 		tcgplayer: 92250

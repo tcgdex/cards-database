@@ -87,6 +87,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It has a compassionate personality, but if it is angered, it will completely destroy its surroundings with its intense breath.",
+		de: "Es hat ein freundliches Wesen, aber wenn es zur Weißglut gebracht wird, zerstört es mit einem heftigen Hauch die gesamte Umgebung."
+	},
+
 	thirdParty: {
 		cardmarket: 297551,
 		tcgplayer: 131013

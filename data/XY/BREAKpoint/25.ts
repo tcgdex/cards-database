@@ -56,6 +56,11 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "It appears in large numbers by seashores. At night, its central core flashes with a red light.",
+		de: "Es taucht in großer Anzahl an Ufern auf. Nachts leuchtet der Kern in seiner Mitte rot auf."
+	},
+
 	thirdParty: {
 		cardmarket: 288200,
 		tcgplayer: 111528

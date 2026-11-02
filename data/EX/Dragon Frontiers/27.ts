@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Croconaw δ",
 		fr: "Crocrodil δ",
-		de: "Tyracroc"
+		de: "Tyracroc δ"
 	},
 
 	illustrator: "Yuka Morii",

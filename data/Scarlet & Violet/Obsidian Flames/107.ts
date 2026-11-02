@@ -55,18 +55,42 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "It hunts without twitching a muscle by pulling in its prey with powerful magnetism. But sometimes it pulls natural enemies in close.",
+		de: "Es jagt bewegungslos, indem es Beute mit seinem starken Magnetfeld zu sich heranzieht. Manchmal sind jedoch auch Fressfeinde dabei."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725187,
+				tcgplayer: 509795,
+				cardtrader: 255792
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725187,
+				tcgplayer: 509795,
+				cardtrader: 255792
+			}
+		},
+	],
 
 	illustrator: "Nobuhiro Imagawa",
 
-	thirdParty: {
-		cardmarket: 725187
-	}
+	
 }
 
 export default card

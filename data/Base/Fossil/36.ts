@@ -25,7 +25,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Graveler",
-		fr: "Gravalanch"
+		fr: "Gravalanch",
+		de: "Georok"
 	},
 
 	stage: "Stage2",
@@ -62,7 +63,7 @@ const card: Card = {
 			effect: {
 				en: "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Golem does 100 damage to itself.",
 				fr: "Inflige 20 dégâts à chacun des Pokémon du Banc de chaque joueur. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.) Grolem s'inflige 100 dégâts.",
-				de: "Fügt jeden Pokémon auf der bank eines jeden Spielers 20 Schadenspunkte zu. (Schwäche und resistenz für Pokémon auf der bank nicht anwenden.) Geowaz fügt sich selbst 100 Schadenspunkte zu."
+				de: "Fügt jedem Pokémon auf der Bank eines jeden Spielers 20 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.) Geowaz fügt sich selbst 100 Schadenspunkte zu."
 			},
 			damage: 100,
 
@@ -75,31 +76,41 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 4,
+
 
 	description: {
-		fr: "Son corps de pierre est indestructible. Il peut supporter des explosions de dynamite."
+		en: "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage.",
+		fr: "Son corps de pierre est indestructible. Il peut supporter des explosions de dynamite.",
+		de: "Sein felsenartiger Körper ist steinhart. Es hält sogar problemlos Dynamit-Explosionen stand."
 	},
 
-	thirdParty: {
-		cardmarket: 273897,
-		tcgplayer: 44438
-	},
 
 	variants: [
 		{
 			type: "normal",
-			foil: "galaxy"
+			subtype: "1999-2000-copyright",
+			thirdParty: {
+				cardmarket: 273897,
+				tcgplayer: 44438
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 273897,
+				tcgplayer: 44438
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["1st-edition"],
-			foil: "galaxy"
+			thirdParty: {
+				cardmarket: 273897,
+				tcgplayer: 44438
+			}
 		},
-		{
-			type: "normal",
-			subtype: "1999-2000-copyright"
-		}
-	]
+	],
 }
 
 export default card

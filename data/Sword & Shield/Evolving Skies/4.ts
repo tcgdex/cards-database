@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Jumpluff",
@@ -80,16 +74,29 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Even in the fiercest wind, it can control its fluff to make its way to any place in the world it wants."
+		en: "Even in the fiercest wind, it can control its fluff to make its way to any place in the world it wants.",
+		de: "Auch im stärksten Wind kann es kontrollieren, wo seine Saat auf dem Erdball niedergehen soll."
 	},
 
 	dexId: [189],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574028,
-		tcgplayer: 246817
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 574028,
+				tcgplayer: 246817
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574028,
+				tcgplayer: 246817
+			}
+		},
+	],
 }
 
 export default card

@@ -69,23 +69,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "When this Pokémon is in good health, its snot becomes thicker and stickier. It will smear its snot on anyone it doesn't like."
+		en: "When this Pokémon is in good health, its snot becomes thicker and stickier. It will smear its snot on anyone it doesn't like.",
+		de: "Fühlt es sich wohl, erhöht sich die Klebrigkeit seines Nasenschleims. Wer es verärgert, wird damit angeschmiert."
 	},
 
-	thirdParty: {
-		cardmarket: 483074,
-		tcgplayer: 219358
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483074,
+				tcgplayer: 219358
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483074,
+				tcgplayer: 219358
+			}
+		},
+	],
 }
 
 export default card

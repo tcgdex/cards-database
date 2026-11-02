@@ -69,6 +69,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying.",
+		de: "Auf der Suche nach Käfer-Pokémon fliegen Schwärme von ihnen durchs Land. Ihr Ruf erzeugt großen Lärm."
+	},
+
 	thirdParty: {
 		cardmarket: 286371,
 		tcgplayer: 107244

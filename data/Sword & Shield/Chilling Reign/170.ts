@@ -4,6 +4,7 @@ import Set from '../Chilling Reign'
 const card: Card = {
 	dexId: [144],
 	set: Set,
+	cameoDexIds: [170, 627],
 
 	name: {
 		fr: "Artikodin de Galar V",
@@ -78,20 +79,19 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 567278,
-		tcgplayer: 241719
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567278,
+				tcgplayer: 241719
+			}
+		},
+	],
 }
 
 export default card

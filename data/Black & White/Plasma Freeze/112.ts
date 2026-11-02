@@ -34,7 +34,7 @@ const card: Card = {
 				es: "Plumón Reluciente",
 				it: "Splendipiume",
 				pt: "Desabrilhantar",
-				de: "Strahlender Schild"
+				de: "Daunenschimmer"
 			},
 			effect: {
 				en: "Prevent all effects of attacks, including damage, done to this Pokémon by your opponent’s Pokémon with Abilities.",
@@ -42,7 +42,7 @@ const card: Card = {
 				es: "Evita todos los efectos de los ataques, incluido el daño, infligidos a este Pokémon por los Pokémon con habilidades de tu rival.",
 				it: "Previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon dai Pokémon con abilità del tuo avversario.",
 				pt: "Impede todos os efeitos de ataques, inclusive danos, causados neste Pokémon pelo Pokémon do seu oponente com Habilidades.",
-				de: "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon durch gegnerische Pokémon mit Fähigkeiten zugefügt werden."
+				de: "Verhindere alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon durch gegnerische Pokémon, die Fähigkeiten besitzen, zugefügt werden."
 			},
 		},
 	],
@@ -56,10 +56,12 @@ const card: Card = {
 			name: {
 				en: "Barrier Break",
 				fr: "Brise Barrière",
+				de: "Barrierebrecher"
 			},
 			effect: {
 				en: "This attack's damage isn't affected by Weakness, Resistance, or any other effects on the Defending Pokémon.",
 				fr: "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance ou tout autre effet en action sur le Pokémon Défenseur.",
+				de: "Der Schaden dieses Angriffs wird durch Schwäche, Resistenz oder alle anderen Effekte auf dem Verteidigenden Pokémon nicht verändert."
 			},
 			damage: 70,
 

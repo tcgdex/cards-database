@@ -86,23 +86,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "The bug is mostly dead, with the mushroom on its back having become the main body. If the mushroom comes off, the bug stops moving."
+		en: "The bug is mostly dead, with the mushroom on its back having become the main body. If the mushroom comes off, the bug stops moving.",
+		de: "Der Pilz auf seinem Rücken ist sein wichtigstes Körperteil. Der Rest ist quasi leblos und kann sich ohne den Pilz nicht bewegen."
 	},
 
-	thirdParty: {
-		cardmarket: 482894,
-		tcgplayer: 219068
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 482894,
+				tcgplayer: 219068
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 482894,
+				tcgplayer: 219068
+			}
+		},
+	],
 }
 
 export default card

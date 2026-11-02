@@ -71,6 +71,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its eyes can see 360 degrees without moving its head. It won't miss prey—even those behind it.",
+		de: "Mit seinen Augen hat es einen Blickwinkel von 360 Grad. Es sieht sogar Beute, die sich hinter ihm befindet."
+	},
+
 	thirdParty: {
 		cardmarket: 281804,
 		tcgplayer: 94136

@@ -55,14 +55,30 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
-	},
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
 
 	illustrator: "KIYOTAKA OSHIYAMA",
+
+	description: {
+		en: "It moves while constantly hovering. It discharges electromagnetic waves and so on from the units at its sides.",
+		de: "Es bewegt sich schwebend. Seine Magnete an den Seiten senden unter anderem elektromagnetische Wellen aus."
+	},
 
 	thirdParty: {
         cardmarket: 702359,

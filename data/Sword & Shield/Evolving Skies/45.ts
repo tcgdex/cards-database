@@ -4,12 +4,6 @@ import Set from '../Evolving Skies'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Avalugg",
@@ -79,16 +73,29 @@ const card: Card = {
 	},
 
 	description: {
-		en: "As Avalugg moves about during the day, the cracks in its body deepen. The Pokémon's body returns to a pristine state overnight."
+		en: "As Avalugg moves about during the day, the cracks in its body deepen. The Pokémon's body returns to a pristine state overnight.",
+		de: "Die Risse auf seinem Körper werden im Zuge seiner täglichen Aktivitäten tiefer. Ihm genügt jedoch eine Nacht, um sie wieder zu schließen."
 	},
 
 	dexId: [713],
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 574069,
-		tcgplayer: 246870
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574069,
+				tcgplayer: 246870
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574069,
+				tcgplayer: 246870
+			}
+		},
+	],
 }
 
 export default card

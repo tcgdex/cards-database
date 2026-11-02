@@ -24,7 +24,7 @@ const card: Card = {
 	],
 
 	evolveFrom: {
-		en: "Nidoran ♀",
+		en: "Nidoran♀",
 		fr: "Nidoran"
 	},
 
@@ -70,27 +70,34 @@ const card: Card = {
 		},
 	],
 
-	
-	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276216,
-		tcgplayer: 87735
-	},
+	retreat: 1,
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276216,
+				tcgplayer: 87735
+			},
 		},
 		{
-			type: "holo",
-			foil: "energy"
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 276216,
+				tcgplayer: 87735
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["jeremy-maron"]
-		}
-	]
+			stamp: ["jeremy-maron"],
+			thirdParty: {
+				cardmarket: 871515,
+				tcgplayer: 477559
+			},
+		},
+	],
 }
 
 export default card

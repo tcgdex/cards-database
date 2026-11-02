@@ -4,6 +4,8 @@ import Set from "../Surging Sparks"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [695],
+
 	name: {
 		en: "Clemont's Quick Wit",
 		fr: "Esprit Vif de Lem",
@@ -22,7 +24,7 @@ const card: Card = {
 		es: "Cura 60 puntos de daño a cada uno de tus Pokémon {L}.",
 		it: "Cura ciascuno dei tuoi Pokémon {L} da 60 danni.",
 		pt: "Cure 60 pontos de dano de cada um dos seus Pokémon {L}.",
-		de: "Heile 60 Schadenspunkte bei jedem deiner {L}-Pokémon."
+		de: "Heile 60 Schadenspunkte bei jedem deiner {L}-Pokémon. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
@@ -30,15 +32,16 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 794602,
+				tcgplayer: 589901
+			}
+		},
 	],
 
 	illustrator: "Naoki Saito",
 
-	thirdParty: {
-		cardmarket: 794602
-	}
 }
 
 export default card

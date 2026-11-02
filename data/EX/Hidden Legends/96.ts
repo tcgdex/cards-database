@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Ninetales ex",
 		fr: "Feunard ex",
-		de: "Vulnona ex"
+		de: "Vulnona-ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -13,14 +13,13 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		38,
-	],
+	dexId: [38],
 
 	hp: 90,
 
+	stage: "Stage1",
 	types: [
-		"Fire",
+		"Fire"
 	],
 
 	evolveFrom: {
@@ -28,7 +27,7 @@ const card: Card = {
 		fr: "Goupix"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
@@ -61,7 +60,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Discard a Fire Energy attached to Ninetales ex.",
-				fr: "Défaussez une Énergie  attachée à Feunard ex.",
+				fr: "Défaussez une Énergie {R} attachée à Feunard ex.",
 				de: "Discard a  Energy card attached to Ninetales ex."
 			},
 			damage: 100,
@@ -76,18 +75,18 @@ const card: Card = {
 		},
 	],
 
-	
-	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276170,
-		tcgplayer: 87782
-	},
+	retreat: 1,
 
 	variants: [
 		{
 			type: "holo",
-		}
+			foil: 'cracked-ice',
+			thirdParty: {
+				tcgplayer: 87782,
+				cardmarket: 276170
+			}
+		},
 	]
 }
 

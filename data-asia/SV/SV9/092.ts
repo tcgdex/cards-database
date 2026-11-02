@@ -20,6 +20,16 @@ const card: Card = {
 		'zh-cn': "附有這張卡的「赫普的寶可夢」，使用招式所需的能量減少1個【無】能量，那隻寶可夢使用的招式，對對手的戰鬥寶可夢造成的傷害「+30」點。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 807679,
+				tcgplayer: 614943,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "I"
 }

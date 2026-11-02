@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Gladiantri"
 	},
 
+	illustrator: "Yuka Morii",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -35,20 +36,45 @@ const card: Card = {
 		damage: 20
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It uses river stones to maintain the cutting edges of the blades covering its body. These sharpened blades allow it to bring down opponents.",
+		de: "Es treibt Gegner mit seinen scharfen Klingen in die Ecke. Diese schärft es an den Felsen eines Flussbettes."
 	},
 
-	thirdParty: {
-		cardmarket: 691809,
-		tcgplayer: 478230
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691810,
+				tcgplayer: 478230
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691810,
+				tcgplayer: 478230
+			}
+		},
+	],
 }
 
 export default card

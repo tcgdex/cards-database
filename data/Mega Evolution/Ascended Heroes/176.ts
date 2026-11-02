@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "Scav",
 	rarity: "Uncommon",
 	category: "Pokemon",
+	dexId: [780],
 	hp: 130,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -61,13 +62,46 @@ const card: Card = {
 		damage: 120
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 675988,
-		cardmarket: 869787
-	}
+	description: {
+		en: "It has a compassionate personality, but if it is angered, it completely destroys its surroundings with its intense breath.",
+		fr: "C'est une bonne pâte de nature, mais si par malheur il s'énerve, il détruit tout ce qui l'entoure de son souffle puissant.",
+		de: "Es hat ein freundliches Wesen, aber wenn es zur Weißglut gebracht wird, zerstört es mit einem heftigen Hauch die gesamte Umgebung."
+	},
+
+	variants: [
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 869787,
+			tcgplayer: 675988
+		}
+	},
+	{
+		type: "reverse",
+		foil: "friendball",
+		thirdParty: {
+			cardmarket: 870410,
+			tcgplayer: 676989
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870409,
+			tcgplayer: 677129
+		}
+	},
+],
 }
 
 export default card

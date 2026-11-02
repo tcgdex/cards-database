@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		45,
-	],
+	dexId: [45],
 
 	hp: 120,
 
 	types: [
-		"Grass",
+		"Grass"
 	],
 
 	evolveFrom: {
 		en: "Gloom",
 		fr: "Ortide",
+		de: "Duflor"
 	},
 
 	stage: "Stage2",
@@ -39,10 +38,10 @@ const card: Card = {
 				de: "Allergieblume"
 			},
 			effect: {
-				en: "Each player can’t play any Trainer cards from his or her hand.",
+				en: "Each player can't play any Trainer cards from his or her hand.",
 				fr: "Aucun joueur ne peut jouer de carte Dresseur de sa main.",
 				de: "Kein Spieler darf Trainerkarten von seiner Hand spielen."
-			},
+			}
 		},
 	],
 
@@ -61,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 50 damage plus 20 more damage. If tails, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c’est face, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires. Si c’est pile, le Pokémon Défenseur est maintenant Confus.",
-				de: "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu. Bei \"Zahl\" ist das Verteidigende Pokémon jetzt verwirrt."
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 50 Schadenspunkte plus 20 weitere Schadenspunkte zu. Bei „Zahl“ ist das Verteidigende Pokémon jetzt verwirrt."
 			},
 			damage: "50+",
 
@@ -78,26 +77,34 @@ const card: Card = {
 	retreat: 2,
 
 	description: {
-		en: "It has the world’s largest petals. With every step, the petals shake out heavy clouds of toxic pollen."
+		en: "It has the world’s largest petals. With every step, the petals shake out heavy clouds of toxic pollen.",
+		de: "Es besitzt die größten Blätter der Welt. Bei jedem Schritt streut es Giftpollen zu Boden."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279277,
+				tcgplayer: 90381
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279277,
+				tcgplayer: 90381
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["ross-cawthorn"]
+			stamp: ["ross-cawthorn"],
+			thirdParty: {
+				tcgplayer: 480517
+			}
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279277,
-		tcgplayer: 90381
-	}
 }
 
 export default card

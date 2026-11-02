@@ -71,6 +71,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "It undertakes photosynthesis with its body, making oxygen. The leaf on its head wilts if it is thirsty.",
+		de: "Sein Körper lebt von der Photosynthese, die Sauerstoff freisetzt. Ist es durstig welkt sein Blatt."
+	},
+
 	thirdParty: {
 		cardmarket: 278126,
 		tcgplayer: 90073

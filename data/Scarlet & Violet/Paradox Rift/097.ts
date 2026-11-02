@@ -74,18 +74,42 @@ const card: Card = {
 		damage: "50+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Delivered at blinding speeds, kicks from this Pokémon can shatter massive boulders into tiny pieces.",
+		de: "Seine mit atemberaubender Geschwindigkeit ausgeführten Tritte können selbst riesige Felsen in winzige Stücke zerschmettern."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740609,
+				tcgplayer: 523767,
+				cardtrader: 265195
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740609,
+				tcgplayer: 523767,
+				cardtrader: 265195
+			}
+		},
+	],
 
 	illustrator: "Mousho",
 
-	thirdParty: {
-		cardmarket: 740609
-	}
+	
 }
 
 export default card

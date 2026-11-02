@@ -38,21 +38,31 @@ const card: Card = {
 		damage: 10
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "I",
 
 	variants: [
 		{
-			type: 'normal'
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825895,
+				tcgplayer: 630805
+			}
 		},
 		{
-			type: 'reverse'
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825895,
+				tcgplayer: 630805
+			}
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 825895
-	}
 }
 
 export default card

@@ -17,6 +17,7 @@ const card: Card = {
 	illustrator: "kodama",
 	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [1015],
 	hp: 110,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -71,13 +72,52 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
-	thirdParty: {
-		tcgplayer: 675911,
-		cardmarket: 869710
-	}
+	description: {
+		en: "Munkidori keeps itself somewhere safe while it toys with its foes, using psychokinesis to induce intense dizziness.",
+		fr: "Il se met en lieu sûr et il joue avec ses adversaires en provoquant chez eux de terribles vertiges grâce à ses pouvoirs psychiques.",
+		de: "Es spielt mit seinen Feinden, indem es von einem sicheren Ort aus telekinetische Energie ausstrahlt, die starken Schwindel verursacht."
+	},
+
+	variants: [
+	{
+		type: "holo",
+		thirdParty: {
+			cardmarket: 869710,
+			tcgplayer: 675911
+		}
+	},
+	{
+		type: "reverse",
+		foil: "duskball",
+		thirdParty: {
+			cardmarket: 870294,
+			tcgplayer: 676931
+		}
+	},
+	{
+		type: "reverse",
+		foil: "energy",
+		thirdParty: {
+			cardmarket: 870293,
+			tcgplayer: 677071
+		}
+	},
+],
 }
 
 export default card

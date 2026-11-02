@@ -21,6 +21,22 @@ const card: Card = {
 		id: "Pokémon yang mengenakan kartu ini dapat menggunakan serangan yang tertulis pada kartu ini. [Pemain tetap membutuhkan Energi untuk menggunakan serangan tersebut.] Kartu ini yang dikenakan pada Pokémon dibuang ke Trash pada akhir giliran sendiri."
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 746552,
+				tcgplayer: 567571,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577401,
+			},
+		},
+	],
+
 	trainerType: "Tool",
 	regulationMark: "G"
 }

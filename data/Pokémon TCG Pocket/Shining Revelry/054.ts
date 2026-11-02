@@ -23,7 +23,9 @@ const card: Card = {
 	types: ["Metal"],
 
 	evolveFrom: {
-		en: "Tinkatuff"
+		en: "Tinkatuff",
+		fr: "Forgella",
+		de: "Tafforgita"
 	},
 
 	stage: "Stage2",

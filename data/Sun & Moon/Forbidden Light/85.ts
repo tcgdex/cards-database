@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Flabébé",
 		fr: "Flabébé",
+		de: "Flabébé"
 	},
 
 	stage: "Stage1",
@@ -73,6 +74,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "When the flowers of a well-tended flower bed bloom, it appears and celebrates with an elegant dance.",
+		de: "Wenn die Blumen auf einem liebevoll gepflegten Blumenbeet blühen, erscheint es und feiert den Anblick mit einem eleganten Tanz."
+	},
 
 	thirdParty: {
 		cardmarket: 355599,

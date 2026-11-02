@@ -42,23 +42,34 @@ const card: Card = {
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
 	variants: [
-		{
-			type: "normal"
-		},
-		{
-			type: "reverse"
+	{
+		type: "normal",
+		thirdParty: {
+			cardmarket: 794307,
+			tcgplayer: 589943
 		}
-	],
+	},
+	{
+		type: "reverse",
+		thirdParty: {
+			cardmarket: 794307,
+			tcgplayer: 589943
+		}
+	},
+],
 
 	illustrator: "Kedamahadaitai Yawarakai",
 
-	thirdParty: {
-		cardmarket: 794307
-	}
 }
 
 export default card

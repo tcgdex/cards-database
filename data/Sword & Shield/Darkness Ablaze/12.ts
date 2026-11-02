@@ -61,23 +61,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage1",
 
 	description: {
-		en: "It throws one knifelike feather after another at its enemies, and each one precisely strikes a weak point. These feathers are known as blade quills."
+		en: "It throws one knifelike feather after another at its enemies, and each one precisely strikes a weak point. These feathers are known as blade quills.",
+		de: "Es bombardiert seine Feinde mit messerscharfen Federn, die man „Flügelklingen“ nennt, und trifft mit jedem Wurf zielsicher ihre Schwachstellen."
 	},
 
-	thirdParty: {
-		cardmarket: 482934,
-		tcgplayer: 219092
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 482934,
+				tcgplayer: 219092
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 482934,
+				tcgplayer: 219092
+			}
+		},
+	],
 }
 
 export default card

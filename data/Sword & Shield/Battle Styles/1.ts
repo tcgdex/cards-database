@@ -51,23 +51,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "Its bud looks like a human face. Because of the bud, it is rumored to be a type of legendary mandrake plant."
+		en: "Its bud looks like a human face. Because of the bud, it is rumored to be a type of legendary mandrake plant.",
+		de: "Seine Knospe ähnelt einem Menschengesicht. Man sagt, dass es mit der legendären Mandragora verwandt ist."
 	},
 
-	thirdParty: {
-		cardmarket: 544901,
-		tcgplayer: 234035
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 544901,
+				tcgplayer: 234035
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 544901,
+				tcgplayer: 234035
+			}
+		},
+	],
 }
 
 export default card

@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Siberio"
 	},
 
+	illustrator: "Rianti Hidayat",
 	rarity: "Uncommon",
 	category: "Pokemon",
 	hp: 140,
@@ -67,20 +68,37 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "It swims through frigid seas, searching for prey. From its frozen breath, it forms icy fangs that are harder than steel.",
+		de: "Die Reißzähne, die es aus gefrorenem Atem erzeugt hat, sind härter als Stahl. Es schwimmt auf der Suche nach Futter durch die Eismeere."
 	},
 
-	thirdParty: {
-		cardmarket: 608493,
-		tcgplayer: 263743
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 608493,
+				tcgplayer: 263743
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 608493,
+				tcgplayer: 263743
+			}
+		},
+	],
 }
 
 export default card

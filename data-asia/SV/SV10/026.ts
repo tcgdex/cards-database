@@ -1,13 +1,12 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV10"
+import { Card } from "../../../interfaces";
+import Set from "../SV10";
 
 const card: Card = {
 	set: Set,
-
 	name: {
+		ja: "ユキカブリ",
 		'zh-tw': "雪笠怪",
 		'zh-cn': "雪笠怪",
-		ja: "ユキカブリ"
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -16,42 +15,51 @@ const card: Card = {
 	types: ["Water"],
 
 	description: {
+		ja: "寒い 季節は 山の ふもとまで 降りてくるが 春に なると 雪が 残る 山頂に 戻っていく。",
 		'zh-tw': "在寒冷的季節裡會 移動到山腳下，一到春天就會 返回積雪尚存的山頂。",
 		'zh-cn': "在寒冷的季節裡會 移動到山腳下，一到春天就會 返回積雪尚存的山頂。",
-		ja: "寒い 季節は 山の ふもとまで 降りてくるが 春に なると 雪が 残る 山頂に 戻っていく。"
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "打擊",
-			'zh-cn': "打擊",
-			ja: "なぐる"
+	attacks: [
+		{
+			name: {
+				ja: "なぐる",
+				'zh-tw': "打擊",
+				'zh-cn': "打擊",
+			},
+			damage: 20,
+			cost: ["Colorless", "Colorless"],
 		},
-
-		damage: 20,
-		cost: ["Colorless", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "冰柱",
-			'zh-cn': "冰柱",
-			ja: "つらら"
+		{
+			name: {
+				ja: "つらら",
+				'zh-tw': "冰柱",
+				'zh-cn': "冰柱",
+			},
+			damage: 50,
+			cost: ["Water", "Colorless", "Colorless"],
 		},
+	],
 
-		damage: 50,
-		cost: ["Water", "Colorless", "Colorless"]
-	}],
+	weaknesses: [{ type: "Metal", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Metal",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 821858,
+				tcgplayer: 628667,
+			},
+		},
+	],
 
 	retreat: 3,
 	regulationMark: "I",
 	rarity: "Common",
-	dexId: [459]
-}
+	dexId: [459],
+};
 
-export default card
+export default card;

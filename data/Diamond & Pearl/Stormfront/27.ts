@@ -4,7 +4,7 @@ import Set from '../Stormfront'
 const card: Card = {
 	name: {
 		en: "Staraptor",
-		fr: "Etouraptor",
+		fr: "Étouraptor",
 		de: "Staraptor"
 	},
 
@@ -26,6 +26,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Staravia",
 		fr: "Etourvol",
+		de: "Staravia"
 	},
 
 	stage: "Stage2",
@@ -36,7 +37,7 @@ const card: Card = {
 			name: {
 				en: "Protect Wing",
 				fr: "Aile protectrice",
-				de: "Stützende Schwinge"
+				de: "Schützende Schwinge"
 			},
 			effect: {
 				en: "As long as Staraptor is your Active Pokémon, any damage done by attacks from your opponent's Stage 2 Evolved Pokémon is reduced by 20 (after applying Weakness and Resistance).",
@@ -59,7 +60,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, put 1 of your opponent's Benched Pokémon and all cards attached to it on top of your opponent's deck. Your opponent shuffles his or her deck afterward.",
 				fr: "Lancez une pièce. Si c'est face, placez 1 des Pokémon de Banc de votre adversaire ainsi que toutes les cartes qui lui sont attachées au dessus de son deck. Ensuite, votre adversaire mélange son deck.",
-				de: "Wirf 1 Münze. Bei \"Kopf\" wähle 1 Pokémon von der Bank deines Gegners. Dein Gegner legt das gewählte Pokémon und alle daran angelegten Karten auf sein Deck zurück. Danach mischt er sein Deck."
+				de: "Wirf 1 Münze. Bei „Kopf“ wähle 1 Pokémon von der Bank deines Gegners. Dein Gegner legt das gewählte Pokémon und alle daran angelegten Karten auf sein Deck zurück. Danach mischt er sein Deck."
 			},
 
 		},

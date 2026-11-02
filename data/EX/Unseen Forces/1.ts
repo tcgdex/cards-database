@@ -60,7 +60,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "You may discard all Lightning Energy attached to Ampharos. If you do, the Defending Pokémon is now Burned and Confused.",
-				fr: "Vous pouvez défausser toutes les Énergies  attachées à Pharamp. Le Pokémon Défenseur est alors Brûlé et Confus.",
+				fr: "Vous pouvez défausser toutes les Énergies {L} attachées à Pharamp. Le Pokémon Défenseur est alors Brûlé et Confus.",
 				de: "You may discard all  Energy cards attached to Ampharos. If you do, the Defending Pokémon is now Burned and Confused."
 			},
 			damage: 50,
@@ -85,20 +85,24 @@ const card: Card = {
 	
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 276647,
-		tcgplayer: 83540
-	},
 
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 83540,
+				cardmarket: 276647
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 83540,
+				cardmarket: 276647
+			},
 		}
-	]
+	],
 }
 
 export default card

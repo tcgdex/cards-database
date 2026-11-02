@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Abendmähne-Necrozma GX"
 	},
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -83,7 +83,7 @@ const card: Card = {
 				es: "Eclipse de Sol GX",
 				it: "Eclissi di Sole GX",
 				pt: "Eclipse do Sol GX",
-				de: "Solarfinsternis GX"
+				de: "Solarfinsternis-GX"
 			},
 			effect: {
 				en: "You can use this attack only if you have more Prize cards remaining than your opponent. (You can’t use more than 1 GX attack in a game.)",
@@ -111,8 +111,15 @@ const card: Card = {
 	],
 	retreat: 3,
 
-
-
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 321164,
+				tcgplayer: 162461
+			}
+		}
+	],
 }
 
 export default card

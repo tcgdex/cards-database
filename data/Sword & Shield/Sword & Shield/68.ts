@@ -83,7 +83,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its antennae, which evolved from a fin, have both positive and negative charges flowing through them."
+		en: "Its antennae, which evolved from a fin, have both positive and negative charges flowing through them.",
+		de: "Seine Antennen haben sich aus Flossen entwickelt und sind sowohl positiv als auch negativ geladen."
 	},
 
 	dexId: [170],

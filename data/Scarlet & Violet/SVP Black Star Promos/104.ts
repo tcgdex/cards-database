@@ -14,7 +14,7 @@ const card: Card = {
 		de: "Melmetal-ex"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 300,
 	types: ["Metal"],
@@ -72,9 +72,31 @@ const card: Card = {
 		damage: "90+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 4,
 	regulationMark: "G",
-	illustrator: "PLANETA Igarashi"
+	suffix: "ex",
+	illustrator: "PLANETA Igarashi",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 764547,
+				tcgplayer: 546755
+			},
+		}
+	],
 }
 
 export default card

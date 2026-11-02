@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Amigento"
 	},
 	illustrator: "Mitsuhiro Arita",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Type: Null",
 		fr: "Type:0",
+		de: "Typ:Null"
 	},
 	stage: "Stage1",
 
@@ -89,6 +90,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Although its name was Type: Null at first, the boy who evolved it into this form gave it the name by which it is now known.",
+		de: "Seinen Namen hat es von dem Jungen erhalten, der es Typ:Null zum ersten Mal ermöglichte, sich zu entwickeln."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 312549,
+				tcgplayer: 152606
+			}
+		}
+	],
 }
 
 export default card

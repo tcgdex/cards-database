@@ -44,20 +44,55 @@ const card: Card = {
 		damage: "10×"
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: true,
+	description: {
+		en: "Pawniard will fearlessly challenge even powerful foes. In a pinch, it will cling to opponents and pierce them with the blades all over its body.",
+		de: "Furchtlos stellt es sich selbst starken Gegnern. Im Ernstfall hält es sich an ihnen fest und sticht mit den vielen Klingen an seinem Körper zu."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725228,
+				tcgplayer: 509935,
+				cardtrader: 255833
+			}
+		},
+		{
+			type: 'normal',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 781859
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725228,
+				tcgplayer: 509935,
+				cardtrader: 255833
+			}
+		},
+	],
 
 	illustrator: "Hitoshi Ariga",
 
-	thirdParty: {
-		cardmarket: 781859
-	}
+	
 }
 
 export default card

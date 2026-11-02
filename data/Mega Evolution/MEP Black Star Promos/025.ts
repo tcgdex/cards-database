@@ -13,9 +13,9 @@ const card: Card = {
 		pt: "Mega Kangaskhan ex"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 300,
 	types: ["Colorless"],
@@ -71,15 +71,28 @@ const card: Card = {
 	retreat: 3,
 	regulationMark: "I",
 
+	weaknesses: [{
+		type: "Fighting",
+		value: "x2"
+	}],
+
 	variants: [
 		{
-			type: "holo"
-		},
-		{
 			type: "holo",
-			size: "jumbo"
-		}
-	]
+			thirdParty: {
+				cardmarket: 859037,
+				tcgplayer: 668509
+			}
+		},
+        {
+        	type: 'lenticular',
+        	size: 'jumbo',
+        	thirdParty: {
+        		cardmarket: 859039,
+        		tcgplayer: 668511
+        	}
+        },
+	],
 }
 
 export default card

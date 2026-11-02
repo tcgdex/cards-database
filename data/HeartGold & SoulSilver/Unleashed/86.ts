@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		171,
-	],
+	dexId: [171],
 
 	hp: 110,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	evolveFrom: {
 		en: "Chinchou",
 		fr: "Loupio",
+		de: "Lampi"
 	},
 
 	stage: "Stage1",
@@ -34,15 +33,15 @@ const card: Card = {
 		{
 			type: "Poke-POWER",
 			name: {
-				en: "Submerge",
+				en: "Underwater Dive",
 				fr: "Submerger",
 				de: "Tauchgang"
 			},
 			effect: {
-				en: "Once during your turn (before your attack), you may use this power. Lanturn’s type is Water until the end of your turn. This power can’t be used if Lanturn is affected by a Special Condition.",
+				en: "Once during your turn (before your attack), you may use this power. Lanturn's type is Water until the end of your turn. This power can't be used if Lanturn is affected by a Special Condition.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez utiliser ce pouvoir. Lanturn devient un Pokémon de type Water jusqu’à la fin de votre tour. Ce pouvoir ne peut pas être utilisé si Lanturn est affecté par un État Spécial.",
-				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du diese Poké-Power verwenden. Lanturns Type ist  biz zum Ende des Zuges. Diese Poké-Power kann nicht benutzt werden, wenn Lanturn von einem Speziellen Zustand betroffen ist."
-			},
+				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du diese Poké-Power verwenden. Lanturns Type ist {W} biz zum Ende des Zuges. Diese Poké-Power kann nicht benutzt werden, wenn Lanturn von einem Speziellen Zustand betroffen ist."
+			}
 		},
 	],
 
@@ -80,14 +79,14 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 279174,
+				tcgplayer: 86611
+			}
 		},
 	],
 
-	thirdParty: {
-		cardmarket: 279174,
-		tcgplayer: 86611
-	}
 }
 
 export default card

@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Alola-Sandamer"
 	},
 	illustrator: "TOKIYA",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Sandshrew",
 		fr: "Sabelette d’Alola",
+		de: "Alola-Sandan"
 	},
 	stage: "Stage1",
 
@@ -87,6 +88,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Fleeing a volcanic eruption, it settled on a snowy mountain. As it races through the snowfields, it sends up a spray of snow.",
+		de: "Auf der Flucht vor Vulkanausbrüchen hat es sich auf verschneiten Bergen angesiedelt. Rast es durch den Schnee, wirbelt es Flocken auf."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297618,
+				tcgplayer: 131091
+			}
+		}
+	],
 }
 
 export default card

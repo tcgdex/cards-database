@@ -88,6 +88,11 @@ const card: Card = {
 
 	retreat: 2,
 
+	description: {
+		en: "The pumpkin body is inhabited by a spirit trapped in this world. As the sun sets, it becomes restless and active.",
+		de: "Es entsteht aus der Vereinigung einer in der Welt der Lebenden gefangenen Seele mit einem Kürbis. Es wird erst nach Sonnenuntergang aktiv."
+	},
+
 	thirdParty: {
 		cardmarket: 281850,
 		tcgplayer: 94502

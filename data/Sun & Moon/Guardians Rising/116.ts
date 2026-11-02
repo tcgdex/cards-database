@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Los ataques del rival hacen 30 puntos de daño menos a los Pokémon Grass Básicos y los Pokémon Lightning Básicos (tanto tuyos como de tu rival) (después de aplicar Debilidad y Resistencia).",
 		it: "I Pokémon Base Grass e i Pokémon Base Lightning, sia tuoi che del tuo avversario, subiscono 30 danni in meno dagli attacchi dell’avversario dopo aver applicato debolezza e resistenza.",
 		pt: "Os Pokémon Grass Básicos e os Pokémon Lightning Básicos (seus e do seu oponente) recebem 30 pontos de dano a menos de ataques do oponente (após a aplicação de Fraqueza e Resistência).",
-		de: "Grass-Basis-Pokémon und Lightning-Basis-Pokémon (deine und die deines Gegners) werden durch Attacken des Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden)."
+		de: "{G}-Basis-Pokémon und {L}-Basis-Pokémon (deine und die deines Gegners) werden durch Attacken des Gegners 30 Schadenspunkte weniger zugefügt (nachdem Schwäche und Resistenz verrechnet wurden). Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

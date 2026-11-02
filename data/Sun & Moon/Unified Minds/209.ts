@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Mueve hasta 2 Energías de 1 de tus Pokémon de equipo de RELEVOS a otro de tus Pokémon.",
 		it: "Sposta fino a due Energie da uno dei tuoi Pokémon ALLEATI a un altro dei tuoi Pokémon.",
 		pt: "Mova até 2 Energias de 1 dos seus Pokémon ALIADOS para outro Pokémon seu.",
-		de: "Verschiebe bis zu 2 Energien von 1 deiner TAG TEAM Pokémon auf 1 anderes deiner Pokémon."
+		de: "Verschiebe bis zu 2 Energien von 1 deiner TAG TEAM Pokémon auf 1 anderes deiner Pokémon. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

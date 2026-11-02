@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cada Pokémon de Fase 2 en juego (tanto tuyos como de tu rival) tiene 30 PS menos.",
 		it: "Ciascun Pokémon di Fase 2 in gioco, sia tuo che del tuo avversario, ha 30 PS in meno.",
 		pt: "Cada Pokémon Estágio 2 em jogo (seus e do seu oponente) recebe 30 PS a menos.",
-		de: "Jedes Phase-2-Pokémon im Spiel (deine und die deines Gegners) erhält -30 KP."
+		de: "Jedes Phase-2-Pokémon im Spiel (deine und die deines Gegners) erhält -30 KP. Du kannst während deines Zuges nur 1 Stadionkarte spielen. Lege sie neben die Aktive Position, und lege sie auf den Ablagestapel, wenn eine andere Stadionkarte ins Spiel gebracht wird. Eine Stadionkarte mit demselben Namen kann nicht gespielt werden."
 	},
 
 	trainerType: "Stadium",
@@ -30,27 +30,23 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794550,
+				tcgplayer: 589961
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794550,
+				tcgplayer: 589961
+			}
 		},
-		{
-			type: "holo",
-			stamp: ["gym-challenge"]
-		},
-		{
-			type: "holo",
-			stamp: ["player-rewards-program"],
-			foil: "cosmos"
-		}
 	],
 
 	illustrator: "AYUMI ODASHIMA",
 
-	thirdParty: {
-		cardmarket: 794550
-	}
 }
 
 export default card

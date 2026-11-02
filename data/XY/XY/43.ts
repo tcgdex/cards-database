@@ -105,6 +105,11 @@ const card: Card = {
 
 	retreat: 0,
 
+	description: {
+		en: "When its electricity builds, its muscles are stimulated, and it becomes more aggressive than usual.",
+		de: "Wenn es sich auflädt, zucken seine Muskeln und es wird aggressiver und kampflustiger."
+	},
+
 	thirdParty: {
 		cardmarket: 281380,
 		tcgplayer: 88523

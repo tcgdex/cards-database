@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Swablu"
+		en: "Swablu",
+		fr: "Tylton"
 	},
 
 	illustrator: "Kanako Eo",
@@ -24,13 +25,15 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Sing"
+			en: "Sing",
+			fr: "Berceuse"
 		},
 
 		cost: ["Colorless"],
 
 		effect: {
-			en: "Your opponent's Active Pokémon is now Asleep."
+			en: "Your opponent's Active Pokémon is now Asleep.",
+			fr: "Le Pokémon Actif de votre adversaire est maintenant Endormi."
 		}
 	}],
 

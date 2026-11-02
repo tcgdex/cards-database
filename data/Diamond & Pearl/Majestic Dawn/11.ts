@@ -44,12 +44,12 @@ const card: Card = {
 			name: {
 				en: "Zone Shift",
 				fr: "Changement de zone",
-				de: 'Zonenwechsel'
+				de: "Weiß-Orb"
 			},
 			effect: {
 				en: "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
 				fr: "Votre adversaire échange le Défenseur Pokémon avec 1 de ses Pokémon de Banc.",
-				de: 'Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus. '
+				de: "Wenn ein Aktives Pokémon eine Schwäche gegen {W}-Pokémon hat, fügen Palkias Angriffe diesem Pokémon 20 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
 			},
 
 		},
@@ -63,7 +63,7 @@ const card: Card = {
 			name: {
 				en: "Pearl Blast",
 				fr: "Explosion perle",
-				de: 'Perlschuss'
+				de: "Zonenwechsel"
 			},
 			effect: {
 				en: "You may return an Energy card attached to Palkia to your hand. If you do, choose an Energy card attached to the Defending Pokémon and return it to your opponent's hand.",

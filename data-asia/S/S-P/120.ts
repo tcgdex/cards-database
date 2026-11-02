@@ -1,47 +1,32 @@
-import { Card } from "../../../interfaces"
-import Set from "../S-P"
+import { Card } from "../../../interfaces";
+import Set from "../S-P";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "隆隆石"
+		ja: "ローズ",
+		'zh-tw': "隆隆石",
 	},
 
-	illustrator: "AKIRA EGAWA",
-	category: "Pokemon",
-	hp: 110,
-	types: ["Fighting"],
+	illustrator: "Yusuke Ohmura",
+	category: "Trainer",
 
-	description: {
-		'zh-tw': "藉著從山崖上滾落來移動。如果不小心掉進河裡，就會在最後掙扎時來個大爆炸。"
+	effect: {
+		ja: "自分のトラッシュから基本エネルギーを2枚まで選び、自分の「ポケモンVMAX」1匹につける。その後、自分の手札をすべてトラッシュする。",
 	},
 
-	stage: "Stage1",
-
-	attacks: [{
-		name: {
-			'zh-tw': "撞擊"
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 597321,
+			},
 		},
+	],
 
-		damage: 30,
-		cost: ["Fighting"]
-	}, {
-		name: {
-			'zh-tw': "岩石粉碎"
-		},
+	trainerType: "Supporter",
+	regulationMark: "D",
+	rarity: "Promo",
+};
 
-		damage: 70,
-		cost: ["Fighting", "Colorless", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Grass",
-		value: "×2"
-	}],
-
-	retreat: 4,
-	regulationMark: "E"
-}
-
-export default card
+export default card;

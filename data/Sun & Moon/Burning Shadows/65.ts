@@ -75,10 +75,27 @@ const card: Card = {
 
 	retreat: 3,
 
-	thirdParty: {
-		cardmarket: 299468,
-		tcgplayer: 138551
-	}
+	description: {
+		en: "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging Tackles.",
+		de: "Stark, aber nicht allzu klug, kann dieses Pokémon sogar Hochhäuser mit seinem Tackle-Angriff zum Einsturz bringen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299468,
+				tcgplayer: 138551
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299468,
+				tcgplayer: 138551
+			}
+		},
+	],
 }
 
 export default card

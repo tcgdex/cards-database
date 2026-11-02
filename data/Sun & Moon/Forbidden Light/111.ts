@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Las cartas de Herramienta Pokémon en juego (tanto tuyas como de tu rival) no tienen efecto.",
 		it: "Le carte Oggetto Pokémon in gioco, sia tue che del tuo avversario, non hanno effetto.",
 		pt: "Cartas de Ferramenta Pokémon em jogo (suas e do seu oponente) não têm efeito.",
-		de: "Pokémon-Ausrüstungen im Spiel (deine und die deines Gegners) haben keinen Effekt."
+		de: "Pokémon-Ausrüstungen im Spiel (deine und die deines Gegners) haben keinen Effekt. Diese Karte bleibt im Spiel, wenn du sie spielst. Lege diese Karte ab, sobald eine weitere Stadionkarte ins Spiel kommt. Wenn eine andere Karte mit dem gleichen Namen im Spiel ist, kannst du diese Karte nicht spielen."
 	},
 
 	trainerType: "Stadium",

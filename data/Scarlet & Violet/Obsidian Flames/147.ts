@@ -43,18 +43,48 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "Known as the Drill King, this Pokémon can tunnel through the terrain at speeds of over 90 mph.",
+		de: "Es wird auch der „Bohrkönig“ genannt. Bei seinen Bohrmanövern im Erdreich erreicht es eine Spitzengeschwindigkeit von 150 km/h."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725227,
+				tcgplayer: 509934,
+				cardtrader: 255832
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725227,
+				tcgplayer: 509934,
+				cardtrader: 255832
+			}
+		},
+	],
 
 	illustrator: "kawayoo",
 
-	thirdParty: {
-		cardmarket: 725227
-	}
+	
 }
 
 export default card

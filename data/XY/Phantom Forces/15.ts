@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Common",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [116, 366],
 
 	dexId: [
 		158,
@@ -47,7 +48,7 @@ const card: Card = {
 				es: "Lanza 3 monedas. Este ataque hace 10 puntos de daño por cada cara.",
 				it: "Lancia tre volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
 				pt: "Jogue 3 moedas. Esse ataque causa 10 de danos vezes o número de caras.",
-				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+				de: "Wirf 3 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl „Kopf“ zu."
 			},
 			damage: "10×",
 
@@ -62,6 +63,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "It is small but rough and tough. It won't hesitate to take a bite out of anything that moves.",
+		de: "Es ist klein, aber zäh und stark. Es zögert nicht, jeden anzugreifen, wenn dieser ihm zu nahe kommt."
+	},
 
 	thirdParty: {
 		cardmarket: 281818,

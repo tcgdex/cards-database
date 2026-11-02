@@ -4,6 +4,7 @@ import Set from '../Chilling Reign'
 const card: Card = {
 	dexId: [257],
 	set: Set,
+	cameoDexIds: [335, 816, 817, 818],
 
 	name: {
 		en: "Blaziken VMAX",
@@ -72,12 +73,6 @@ const card: Card = {
 
 	retreat: 2,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "VMAX",
 	illustrator: "Shigenori Negishi",
@@ -93,10 +88,15 @@ const card: Card = {
 
 	regulationMark: "E",
 
-	thirdParty: {
-		cardmarket: 567309,
-		tcgplayer: 241673
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 567309,
+				tcgplayer: 241673
+			}
+		},
+	],
 }
 
 export default card

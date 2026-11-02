@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Freunde aus Sinnoh"
 	},
 
+	illustrator: "Ryuta Fuse",
 	rarity: "Uncommon",
 	category: "Trainer",
 
@@ -22,23 +23,31 @@ const card: Card = {
 		es: "Roba 3 cartas.",
 		it: "Pesca tre carte.",
 		pt: "Compre 3 cartas.",
-		de: "Ziehe 3 Karten."
+		de: "Ziehe 3 Karten. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691850,
-		tcgplayer: 478182
-	}
+	
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 691850,
+				tcgplayer: 478182
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691850,
+				tcgplayer: 478182
+			}
+		},
+	],
 }
 
 export default card

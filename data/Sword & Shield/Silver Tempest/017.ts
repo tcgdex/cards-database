@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Vulpix"
 	},
 
+	illustrator: "ryoma uratsuka",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
@@ -44,20 +45,37 @@ const card: Card = {
 		damage: "10+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
+
+	description: {
+		en: "While young, it has six gorgeous tails. When it grows, several new tails are sprouted.",
+		de: "In seiner Jugend hat es sechs hinreißende Schweife. Während es wächst, kommen noch weitere neue Schweife hinzu."
 	},
 
-	thirdParty: {
-		cardmarket: 682058,
-		tcgplayer: 451646
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682058,
+				tcgplayer: 451646
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682058,
+				tcgplayer: 451646
+			}
+		},
+	],
 }
 
 export default card

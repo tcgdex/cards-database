@@ -4,23 +4,21 @@ import Set from '../Rising Rivals'
 const card: Card = {
 	name: {
 		en: "Froslass GL",
-		fr: "Momartik  Niv. 44",
+		fr: "Momartik GL Niv. 44",
 		de: "Frosdeje GL"
 	},
 
 	illustrator: "Atsuko Nishida",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		478,
-	],
+	dexId: [478],
 
 	hp: 70,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -65,25 +63,28 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Metal",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
-
-	thirdParty: {
-		cardmarket: 278580,
-		tcgplayer: 85575
-	},
 
 	variants: [
 		{
-			type: "holo"
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278574,
+				tcgplayer: 85575
+			}
 		},
 		{
-			type: "reverse"
-		}
-	]
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278574,
+				tcgplayer: 85575
+			}
+		},
+	],
+
 }
 
 export default card

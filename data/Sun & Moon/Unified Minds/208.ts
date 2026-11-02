@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Lanza 2 monedas. Por cada cara, busca en tu baraja 1 carta de Estadio, enséñala y ponla en tu mano. Después, baraja las cartas de tu baraja.",
 		it: "Lancia due volte una moneta. Ogni volta che esce testa, cerca nel tuo mazzo una carta Stadio, mostrala e aggiungila alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
 		pt: "Jogue 2 moedas. Para cada cara, procure por 1 carta de Estádio no seu baralho, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
-		de: "Wirf 2 Münzen. Durchsuche pro Kopf dein Deck nach 1 Stadionkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		de: "Wirf 2 Münzen. Durchsuche pro Kopf dein Deck nach 1 Stadionkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck. Du kannst während deines Zuges (bevor du angreifst) beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",

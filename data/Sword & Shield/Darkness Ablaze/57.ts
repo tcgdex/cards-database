@@ -85,23 +85,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
 	description: {
-		en: "Its tail shines bright and strong. It has been prized since long ago as a beacon for sailors."
+		en: "Its tail shines bright and strong. It has been prized since long ago as a beacon for sailors.",
+		de: "Seine Schweifspitze strahlt ein starkes, helles Licht aus. Auf See gilt dieses Leuchten von alters her als bedeutender Wegweiser."
 	},
 
-	thirdParty: {
-		cardmarket: 483159,
-		tcgplayer: 219403
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483159,
+				tcgplayer: 219403
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483159,
+				tcgplayer: 219403
+			}
+		},
+	],
 }
 
 export default card

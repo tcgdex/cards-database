@@ -38,7 +38,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
-				de: "Wirf 1 Münze. Bei 'Zahl' hat dieser Angriff keine Auswirkungen."
+				de: "Wirf 1 Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 30,
 
@@ -55,7 +55,9 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		fr: "Son aura s'intensifie pour prévenir son entourage quand il a peur ou qu'il est triste."
+		en: "The aura that emanates from its body intensifies to alert others if it is afraid or sad.",
+		fr: "Son aura s'intensifie pour prévenir son entourage quand il a peur ou qu'il est triste.",
+		de: "Die Aura, die dieses PKMN umgibt, verstärkt sich, wenn es zeigen will, dass es ängstlich oder traurig ist."
 	},
 
 	thirdParty: {

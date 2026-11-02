@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Cura 60 puntos de daño a tu Pokémon {N} Activo.",
 		it: "Cura il tuo Pokémon attivo {N} da 60 danni.",
 		pt: "Cure 60 pontos de dano do seu Pokémon {N} Ativo.",
-		de: "Heile 60 Schadenspunkte bei deinem Aktiven {N}-Pokémon."
+		de: "Heile 60 Schadenspunkte bei deinem Aktiven {N}-Pokémon. Du kannst während deines Zuges beliebig viele Itemkarten spielen."
 	},
 
 	trainerType: "Item",
@@ -30,18 +30,23 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794545,
+				tcgplayer: 589920
+			}
 		},
 		{
-			type: "reverse"
-		}
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794545,
+				tcgplayer: 589920
+			}
+		},
 	],
 
 	illustrator: "AYUMI ODASHIMA",
 
-	thirdParty: {
-		cardmarket: 794545
-	}
 }
 
 export default card

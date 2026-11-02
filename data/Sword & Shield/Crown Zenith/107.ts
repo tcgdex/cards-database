@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Ditto"
 	},
 
+	illustrator: "KIYOTAKA OSHIYAMA",
 	rarity: "Holo Rare",
 	category: "Pokemon",
 	hp: 70,
@@ -38,24 +39,43 @@ const card: Card = {
 			es: "Este Pokémon puede usar los ataques de cualquier Pokémon Básico en tu pila de descartes, excepto de los Pokémon con un recuadro de regla (Pokémon V, Pokémon-GX, etc. tienen recuadros de regla). (Sigues necesitando la Energía necesaria para usar cada ataque).",
 			it: "Questo Pokémon può usare gli attacchi di qualsiasi Pokémon Base nella tua pila degli scarti, a eccezione di quelli che hanno una regola speciale. I Pokémon-V, i Pokémon-GX, ecc. hanno regole speciali. Devi comunque avere l'Energia necessaria per usare quegli attacchi.",
 			pt: "Este Pokémon pode usar os ataques de qualquer Pokémon Básico na sua pilha de descarte, exceto por Pokémon que tenham uma Caixa de Regras (Pokémon V, Pokémon-GX, etc. têm Caixas de Regras). (Você ainda precisa da Energia necessária para usar cada ataque.)",
-			de: "Dieses Pokémon kann die Attacken 1 beliebigen Basis-Pokémon in deinem Ablagestapel, außer Pokémon, die ein Regelfeld haben (Pokémon V, Pokémon-GXusw. haben Regelfelder), einsetzen. (Du benötigst jedoch die jeweils für die Attacke notwendige Energie.)"
+			de: "Dieses Pokémon kann die Attacken 1 beliebigen Basis-Pokémon in deinem Ablagestapel, außer Pokémon, die ein Regelfeld haben (Pokémon-V, Pokémon-GX usw. haben Regelfelder), einsetzen. (Du benötigst jedoch die jeweils für die Attacke notwendige Energie.)"
 		}
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "F",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
+
+	description: {
+		en: "It can reconstitute its entire cellular structure to change into what it sees, but it returns to normal when it relaxes.",
+		de: "Es modifiziert seine Zellstruktur, um sich in alles zu verwandeln, was es sieht. Im entspannten Zustand nimmt es wieder seine Ausgangsform an."
 	},
 
-	thirdParty: {
-		cardmarket: 691826,
-		tcgplayer: 478117
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691826,
+				tcgplayer: 478117
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691826,
+				tcgplayer: 478117
+			}
+		},
+	],
 }
 
 export default card

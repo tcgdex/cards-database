@@ -4,12 +4,6 @@ import Set from '../Celebrations'
 const card: Card = {
 	set: Set,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
 	name: {
 		en: "Ho-Oh",
@@ -84,15 +78,21 @@ const card: Card = {
 	regulationMark: "E",
 
 	description: {
-		en: "It will reveal itself before a pure-hearted Trainer by shining its bright, rainbow-colored wings."
+		en: "It will reveal itself before a pure-hearted Trainer by shining its bright, rainbow-colored wings.",
+		de: "Es wird sich dem Trainer offenbaren, der reinen Herzens ist, und ihm seine bunten Schwingen zeigen."
 	},
 
 	dexId: [250],
 
-	thirdParty: {
-		cardmarket: 576746,
-		tcgplayer: 250300
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 576746,
+				tcgplayer: 250300
+			}
+		},
+	],
 }
 
 export default card

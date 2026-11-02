@@ -16,15 +16,14 @@ const card: Card = {
 		en: "Shuffle your hand into your deck. Then, draw 7 cards. You can’t play any more Trainer cards this turn."
 	},
 
-	thirdParty: {
-		cardmarket: 275413,
-		tcgplayer: 88387
-	},
-
 	variants: [
 		{
 			type: "reverse",
-			foil: "cosmos"
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 275413,
+				tcgplayer: 88387
+			},
 		},
 	]
 }

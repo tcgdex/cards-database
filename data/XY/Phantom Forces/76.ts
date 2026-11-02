@@ -89,6 +89,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It drives away opponents by excreting a sticky liquid that can dissolve anything. Its eyes devolved, so it can't see anything.",
+		de: "Es verjagt Gegner durch Absonderung eines alles zersetzenden Schleims. Die zurückgebildeten Augäpfel des Pokémon gewähren ihm keine Sicht."
+	},
+
 	thirdParty: {
 		cardmarket: 281882,
 		tcgplayer: 94644

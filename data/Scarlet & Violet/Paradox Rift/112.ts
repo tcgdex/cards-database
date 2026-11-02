@@ -65,18 +65,48 @@ const card: Card = {
 		damage: 130
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 0,
 	regulationMark: "G",
 
-	variants: {
-		holo: false
+	description: {
+		en: "This Pokémon flaps its four wings skillfully. Crobat can fly through cramped caves without needing to slow down.",
+		de: "Seine vier Flügel können unabhängig voneinander schlagen. So vermag es auch in engen Höhlen ohne Geschwindigkeitsverlust umherzufliegen."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 740630,
+				tcgplayer: 523786,
+				cardtrader: 265225
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740630,
+				tcgplayer: 523786,
+				cardtrader: 265225
+			}
+		},
+	],
 
 	illustrator: "Uta",
 
-	thirdParty: {
-		cardmarket: 740630
-	}
+	
 }
 
 export default card

@@ -8,7 +8,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -74,6 +74,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "The male with the largest mane of fire is the leader of the pride.",
+	},
 
 	thirdParty: {
 		cardmarket: 281313

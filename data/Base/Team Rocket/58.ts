@@ -48,13 +48,13 @@ const card: Card = {
 			name: {
 				en: "Poison Gas",
 				fr: "Gaz toxik",
-				de: "Poison Gas"
+				de: "Giftwolke"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné.",
-				de: "Flip a coin. if heads, the Defending Pokémon is now Poisoned."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt vergiftet."
 			},
 
 			damage: 20
@@ -67,25 +67,33 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Découvert en premier lieu dans une usine d'armement, on trouve ce Pokémon presque partout."
+		en: "First discovered in a weapons factory, this Pokémon can now be found almost anywhere.",
+		fr: "Découvert en premier lieu dans une usine d'armement, on trouve ce Pokémon presque partout.",
+		de: "Zuerst in einer Waffenfabrik entdeckt, ist dieses Pokémon jetzt fast überall zu finden."
 	},
 
-	thirdParty: {
-		cardmarket: 274111,
-		tcgplayer: 86491
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				cardmarket: 274111,
+				tcgplayer: 86491
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
-		}
-	]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274111,
+				tcgplayer: 86491
+			}
+		},
+	],
 }
 
 export default card

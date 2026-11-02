@@ -30,9 +30,30 @@ const card: Card = {
 	energyType: "Normal",
 	regulationMark: "I",
 
-	thirdParty: {
-		cardmarket: 836062
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 836062,
+				tcgplayer: 642201
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 836062,
+				tcgplayer: 642201
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836647,
+				tcgplayer: 644832
+			}
+		},
+	],
 }
 
 export default card

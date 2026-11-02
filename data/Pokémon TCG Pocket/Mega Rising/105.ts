@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Dusknoir"
+		en: "Dusknoir",
+		fr: "Noctunoir"
 	},
 
 	illustrator: "nagimiso",
@@ -17,7 +18,8 @@ const card: Card = {
 	types: ["Psychic"],
 
 	evolveFrom: {
-		en: "Dusclops"
+		en: "Dusclops",
+		fr: "Téraclope"
 	},
 
 	description: {
@@ -30,17 +32,20 @@ const card: Card = {
 		type: "Ability",
 
 		name: {
-			en: "Fade into Darkness"
+			en: "Fade into Darkness",
+			fr: "Disparition Ténébreuse"
 		},
 
 		effect: {
-			en: "When this Pokémon is Knocked Out, flip a coin. If heads, your opponent can't get any points for it."
+			en: "When this Pokémon is Knocked Out, flip a coin. If heads, your opponent can't get any points for it.",
+			fr: "Lorsque ce Pokémon est mis K.O., lancez une pièce. Si c'est face, votre adversaire n'obtiendra aucun point."
 		}
 	}],
 
 	attacks: [{
 		name: {
-			en: "Hammer In"
+			en: "Hammer In",
+			fr: "Enfoncement"
 		},
 
 		damage: 80,

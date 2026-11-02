@@ -3,7 +3,7 @@ import Set from '../Gym Challenge'
 
 const card: Card = {
 	name: {
-		en: "Blaine's Mankey",
+		en: "Blaine's Mankey"
 	},
 
 	illustrator: "Atsuko Nishida",
@@ -11,14 +11,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		56,
-	],
+	dexId: [56],
 
 	hp: 40,
 
 	types: [
-		"Fighting",
+		"Fighting"
 	],
 
 	stage: "Basic",
@@ -29,10 +27,10 @@ const card: Card = {
 				"Colorless",
 			],
 			name: {
-				en: "Pranks",
+				en: "Pranks"
 			},
 			effect: {
-				en: "Flip a coin. If heads, choose a card from your opponent's discard pile and put it on top of his or her deck.",
+				en: "Flip a coin. If heads, choose a card from your opponent's discard pile and put it on top of his or her deck."
 			},
 
 		},
@@ -41,12 +39,12 @@ const card: Card = {
 				"Fighting",
 			],
 			name: {
-				en: "Fury Swipes",
+				en: "Fury Swipes"
 			},
 			effect: {
-				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
+				en: "Flip 3 coins. This attack does 10 damage times the number of heads."
 			},
-			damage: 10,
+			damage: "10x",
 
 		},
 	],
@@ -54,24 +52,26 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Psychic",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
-	thirdParty: {
-		cardmarket: 274331,
-		tcgplayer: 83874
-	},
-
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83874,
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83874,
+				cardmarket: 274331
+			}
 		},
-	]
+	],
+	retreat: 0
 }
 
 export default card

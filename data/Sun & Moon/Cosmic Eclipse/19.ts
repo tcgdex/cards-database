@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Rowlet",
 		fr: "Brindibou",
+		de: "Bauz"
 	},
 
 	stage: "Stage1",
@@ -84,6 +85,11 @@ const card: Card = {
 	],
 
 	retreat: 1,
+
+	description: {
+		en: "This narcissistic Pokémon is a clean freak. If you don't groom it diligently, it will stop listening to you.",
+		de: "Es gibt sich affektiert und legt großen Wert auf Sauberkeit. Wenn man es nicht ordentlich pflegt, widersetzt es sich manchmal sogar Befehlen."
+	},
 
 	thirdParty: {
 		cardmarket: 407749,

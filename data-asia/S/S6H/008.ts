@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S6H"
+import { Card } from "../../../interfaces";
+import Set from "../S6H";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "甜舞妮"
+		ja: "アママイコ",
+		'zh-tw': "甜舞妮",
 	},
 
 	illustrator: "Tomokazu Komiya",
@@ -14,31 +14,52 @@ const card: Card = {
 	types: ["Grass"],
 
 	description: {
-		'zh-tw': "會用頭部的果蒂擊打飛來啄食自己的藍鴉，並且對牠使出猛烈的踢擊。"
+		ja: "突いてくる アオガラスには 頭の ヘタで 殴りつけてから 鋭い 蹴り技を おみまいする。",
+		'zh-tw': "會用頭部的果蒂擊打飛來啄食自己的藍鴉，並且對牠使出猛烈的踢擊。",
 	},
 
 	stage: "Stage1",
 
-	attacks: [{
-		name: {
-			'zh-tw': "戲法舞步"
+	attacks: [
+		{
+			name: {
+				ja: "はねる",
+				'zh-tw': "戲法舞步",
+			},
+			damage: 20,
+			cost: ["Colorless"],
 		},
-
-		effect: {
-			'zh-tw': "若希望，選擇1個對手的戰鬥寶可夢身上附加的能量，改附於對手的備戰寶可夢身上。"
+		{
+			name: { ja: "ふみつけ" },
+			damage: "50+",
+			cost: ["Grass", "Colorless", "Colorless"],
+			effect: {
+				ja: "コインを1回投げオモテなら、30ダメージ追加。",
+			},
 		},
+	],
 
-		damage: 30,
-		cost: ["Colorless"]
-	}],
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Fire",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 560424,
+				tcgplayer: 569140,
+			},
+		},
+	],
+
+	evolveFrom: {
+		ja: "アマカジ",
+	},
 
 	retreat: 1,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Common",
+	dexId: [762],
+};
 
-export default card
+export default card;

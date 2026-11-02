@@ -36,6 +36,7 @@ const card: Card = {
 			name: {
 				en: "Tackle",
 				fr: "Charge",
+				de: "Tackle"
 			},
 
 			damage: 10,
@@ -52,10 +53,27 @@ const card: Card = {
 
 	retreat: 0,
 
-	thirdParty: {
-		cardmarket: 280161,
-		tcgplayer: 90094
-	}
+	description: {
+		en: "While one alone doesn't have much power, a chain of many Tynamo can be as powerful as lightning.",
+		de: "Allein erzeugt es nur wenig Strom, doch tritt es geschlossen im Schwarm auf, gleicht seine Kraft der eines Blitzes."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280162,
+				tcgplayer: 90094
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280162,
+				tcgplayer: 90094
+			}
+		},
+	],
 }
 
 export default card

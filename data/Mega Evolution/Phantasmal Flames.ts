@@ -10,7 +10,7 @@ const set: Set = {
 		es: "Fuegos Fantasmales",
 		'es-mx': "Llamaradas Fantasmales",
 		fr: "Flammes Fantasmagoriques",
-		it: "Flamme Spettrali",
+		it: "Fiamme Spettrali",
 		pt: "Fogo Fantasmagórico"
 	},
 

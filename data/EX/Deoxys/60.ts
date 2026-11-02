@@ -37,7 +37,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for a Lightning Energy card and attach it to Electrike. Shuffle your deck afterward.",
-				fr: "Cherchez dans votre deck 1 carte Énergie  et attachez-la à Dynavolt. Ensuite, mélangez votre deck.",
+				fr: "Cherchez dans votre deck 1 carte Énergie {L} et attachez-la à Dynavolt. Ensuite, mélangez votre deck.",
 				de: "Search your deck for a  Energy card and attach it to Electrike. Shuffle your deck afterward."
 			},
 
@@ -72,24 +72,33 @@ const card: Card = {
 
 	retreat: 1,
 
-	thirdParty: {
-		tcgplayer: 85133,
-		cardmarket: 276463
-	},
 
 	variants: [
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 85133,
+				cardmarket: 276463
+			},
 		},
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 85133,
+				cardmarket: 276463
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["jason-klaczynski"]
-		}
-	]
+			stamp: ["jason-klaczynski"],
+			thirdParty: {
+				tcgplayer: 477612,
+				cardmarket: 869533
+			},
+		},
+	],
+
 }
 
 export default card

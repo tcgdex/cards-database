@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Electabuzz ex",
 		fr: "Elektek ex",
-		de: "Elektek ex"
+		de: "Elektek-ex"
 	},
 
 	illustrator: "Hikaru Koike",
@@ -13,17 +13,16 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		125,
-	],
+	dexId: [125],
 
 	hp: 90,
 
+	stage: "Basic",
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
-	suffix: "EX",
+	suffix: "ex",
 
 	attacks: [
 		{
@@ -38,7 +37,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
-				de: "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon gelähmt."
+				de: "Wirf eine Münze. Bei „Kopf“ ist das Verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
 
@@ -56,7 +55,8 @@ const card: Card = {
 			},
 			effect: {
 				en: "Flip a coin. If heads, this attack does 40 damage plus 20 more damage.",
-				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts."
+				fr: "Lancez une pièce. Si c'est face, cette attaque inflige 60 dégâts.",
+				de: "Wirf eine Münze. Bei „Kopf“ fügt dieser Angriff 40 Schadenspunkte plus 20 weitere Schadenspunkte zu."
 			},
 			damage: "40+",
 
@@ -80,18 +80,14 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 275745,
-		tcgplayer: 85120
-	},
-
 	variants: [
 		{
-			type: "normal",
-		},
-		{
-			type: "reverse",
-		},
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85120,
+				cardmarket: 275745
+			}
+		}
 	]
 }
 

@@ -54,23 +54,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area."
+		en: "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area.",
+		de: "Schlägt es schnell mit den Flügeln, erzeugt es Schockwellen, durch die sogar Fenster zerbersten."
 	},
 
-	thirdParty: {
-		cardmarket: 539028,
-		tcgplayer: 232348
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539028,
+				tcgplayer: 232348
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539028,
+				tcgplayer: 232348
+			}
+		},
+	],
 }
 
 export default card

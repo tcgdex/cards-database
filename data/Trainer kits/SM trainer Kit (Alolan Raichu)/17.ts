@@ -17,7 +17,9 @@ const card: Card = {
 	rarity: "None",
 	category: "Pokemon",
 	hp: 110,
-	types: ["Lightning"],
+	types: [
+		"Lightning"
+	],
 
 	evolveFrom: {
 		en: "Pikachu",
@@ -33,25 +35,29 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 
 	description: {
-		en: "It only evolves to this form in the Alola region. According to researchers, its diet is one of the causes of this change."
+		en: "It only evolves to this form in the Alola region. According to researchers, its diet is one of the causes of this change.",
+		de: "Es entwickelt sich nur in Alola zu dieser Form. Forscher behaupten, dass einer der Gründe dafür das dortige Futter sei."
 	},
 
 	attacks: [{
 		name: {
 			en: "Quick Attack",
-			fr: "Vive-Attaque"
+			fr: "Vive-Attaque",
+			de: "Ruckzuckhieb"
 		},
 
 		damage: "10+",
 
 		effect: {
 			en: "Flip a coin. If heads, this attack does 30 more damage.",
-			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires."
+			fr: "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts supplémentaires.",
+			de: "Wirf 1 Münze. Bei Kopf fügt diese Attacke 30 Schadenspunkte mehr zu."
 		}
 	}, {
 		name: {
 			en: "Electric Surfer",
-			fr: "Surfeur Électrique"
+			fr: "Surfeur Électrique",
+			de: "Elektrosurfer"
 		},
 
 		damage: 70
@@ -67,9 +73,16 @@ const card: Card = {
 		value: "-20"
 	}],
 
-	thirdParty: {
-		tcgplayer: 152872
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297248,
+				tcgplayer: 152872
+			}
+		},
+	],
+
 }
 
 export default card

@@ -10,6 +10,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [177],
 
 	dexId: [
 		626,
@@ -64,6 +65,10 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "Their fluffy fur absorbs damage, even if they strike foes with a fierce headbutt.",
+	},
 
 	thirdParty: {
 		cardmarket: 281258,

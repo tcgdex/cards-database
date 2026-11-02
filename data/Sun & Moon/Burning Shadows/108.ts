@@ -89,10 +89,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 299509,
-		tcgplayer: 138604
-	}
+	description: {
+		en: "They charge wildly and headbutt everything. Their headbutts have enough destructive force to derail a train.",
+		de: "Rammt seine Gegner ohne Rücksicht auf Verluste mit dem Kopf und vermag damit sogar Züge zum Entgleisen zu bringen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299509,
+				tcgplayer: 138604
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299509,
+				tcgplayer: 138604
+			}
+		},
+	],
 }
 
 export default card

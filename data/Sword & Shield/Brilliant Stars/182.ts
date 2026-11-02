@@ -14,6 +14,7 @@ const card: Card = {
 		de: "Galar-Zapdos V"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	hp: 200,
@@ -39,7 +40,7 @@ const card: Card = {
 			es: "Los ataques de este Pokémon cuestan Colorless menos por cada uno de los Pokémon V en juego de tu rival.",
 			it: "Il costo degli attacchi di questo Pokémon è ridotto di Colorless per ogni Pokémon-V in gioco del tuo avversario.",
 			pt: "Os ataques deste Pokémon custam Colorless a menos para cada Pokémon V do seu oponente em jogo.",
-			de: "Die Kosten der Attacken dieses Pokémon verringern sich für jedes Pokémon-V deines Gegners im Spiel um Colorless."
+			de: "Die Kosten der Attacken dieses Pokémon verringern sich für jedes Pokémon-V deines Gegners im Spiel um {C}."
 		}
 	}],
 
@@ -67,20 +68,26 @@ const card: Card = {
 		damage: 170
 	}],
 
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 608728,
-		tcgplayer: 263902
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 608728,
+				tcgplayer: 263902
+			}
+		},
+	],
 }
 
 export default card

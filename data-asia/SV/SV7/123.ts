@@ -19,6 +19,16 @@ const card: Card = {
 		ja: "自分の山札から、それぞれちがうタイプの基本エネルギーを2枚まで選び、相手に見せて、どちらか1枚を手札に加え、残りのエネルギーを自分のポケモンにつける。そして山札を切る。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 779137,
+				tcgplayer: 567978,
+			},
+		},
+	],
+
 	trainerType: "Supporter",
 	regulationMark: "H",
 	rarity: "None"

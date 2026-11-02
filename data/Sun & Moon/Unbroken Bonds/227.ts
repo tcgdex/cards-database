@@ -28,7 +28,8 @@ const card: Card = {
 
 	evolveFrom: {
 		en: "Meowth",
-		fr: "Miaouss"
+		fr: "Miaouss",
+		de: "Mauzi"
 	},
 
 	stage: "Stage1",
@@ -88,7 +89,7 @@ const card: Card = {
 			es: "Tajo Cambiante GX",
 			it: "Sferzata Inversa GX",
 			pt: "Contra-arranhar GX",
-			de: "Rückschnitt GX"
+			de: "Rückschnitt-GX"
 		},
 
 		damage: 150,

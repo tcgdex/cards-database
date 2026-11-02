@@ -89,10 +89,27 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		cardmarket: 299446,
-		tcgplayer: 138524
-	}
+	description: {
+		en: "Half of all sudden blackouts are caused by Electabuzz gathering at electric power plants and gobbling up electricity.",
+		de: "Für die Hälfte aller plötzlichen Stromausfälle sind Elektek verantwortlich. Sie belagern gerne Kraftwerke und zapfen ihnen Strom ab."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 299446,
+				tcgplayer: 138524
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 299446,
+				tcgplayer: 138524
+			}
+		},
+	],
 }
 
 export default card

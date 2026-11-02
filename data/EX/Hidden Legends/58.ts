@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		366,
-	],
+	dexId: [366],
 
 	hp: 40,
 
 	types: [
-		"Water",
+		"Water"
 	],
 
 	stage: "Basic",
@@ -37,7 +35,7 @@ const card: Card = {
 				en: "Any damage done to Clamperl by attacks is reduced by 10 (after applying Weakness and Resistance).",
 				fr: "Tous dégâts infligés à Coquiperl par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
 				de: "Any damage done to Clamperl by attacks is reduced by 10 (after applying Weakness and Resistance)."
-			},
+			}
 		},
 	],
 
@@ -72,18 +70,21 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276132,
-		tcgplayer: 84323
-	},
-
 	variants: [
 		{
 			type: "normal",
-		}, {
-			type: "holo",
-			foil: "energy"
-		}
+			thirdParty: {
+				tcgplayer: 84323,
+				cardmarket: 276132
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84323,
+				cardmarket: 276132
+			}
+		},
 	]
 }
 

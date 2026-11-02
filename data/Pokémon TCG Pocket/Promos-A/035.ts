@@ -27,7 +27,7 @@ const card: Card = {
 		fr: "Il s'expose à la lumière du soleil pour que\nson corps l'assimile par photosynthèse.\nSa carapace est composée de terre durcie.",
 		es: "Al bañarlo los rayos de sol, realiza la fotosíntesis con todo\nel cuerpo. Su caparazón está formado por tierra endurecida.",
 		it: "Si espone ai raggi solari ed esegue la fotosintesi con\ntutto il corpo. La sua corazza è fatta di terra rassodata.",
-		de: "Es badet im Sonnenlicht und betreibt dabei mit\ndem ganzen Körper Fotosynthese. Sein Panzer\nbesteht aus hartem Lehm.",
+		de: "Es badet im Sonnenlicht und betreibt dabei mit dem ganzen Körper Fotosynthese. Sein Panzer besteht aus hartem Lehm.",
 		'pt-br': "Usa o corpo todo para fazer fotossíntese ao se expor\nà luz do sol. Seu casco é feito de solo endurecido.",
 		ko: "태양의 빛을 쬐어\n전신으로 광합성을 한다.\n등껍질은 흙이 딱딱해진 것이다."
 	},

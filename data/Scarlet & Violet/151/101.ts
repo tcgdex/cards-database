@@ -65,18 +65,42 @@ const card: Card = {
 		damage: 70
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false
+	description: {
+		en: "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
+		de: "Je mehr elektrische Energie es speichert, desto schneller ist es. Allerdings steigt dabei auch das Risiko, dass es explodiert."
 	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733696,
+				tcgplayer: 516670,
+				cardtrader: 261229
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733696,
+				tcgplayer: 516670,
+				cardtrader: 261229
+			}
+		},
+	],
 
 	illustrator: "nagimiso",
 
-	thirdParty: {
-		cardmarket: 733696
-	}
+	
 }
 
 export default card

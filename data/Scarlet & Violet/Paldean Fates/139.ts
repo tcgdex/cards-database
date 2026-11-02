@@ -66,19 +66,33 @@ const card: Card = {
 		damage: 140
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751678,
+				tcgplayer: 534540,
+				cardtrader: 274322
+			}
+		},
+	],
 
 	illustrator: "Shin Nagasawa",
 
-	thirdParty: {
-		cardmarket: 751678
-	}
+	description: {
+		en: "As it flies around, it shoots lightning all over the place and causes forest fires. It is therefore disliked.",
+		de: "Es ist bei den Leuten verhasst, weil es auf seinen Rundflügen immer wieder Blitze erzeugt, die Waldbrände verursachen."
+	},
+
 }
 
 export default card

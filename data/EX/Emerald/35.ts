@@ -87,20 +87,35 @@ const card: Card = {
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 86841,
+				cardmarket: 276546
+			},
 		},
 		{
-			type: "holo",
-			stamp: ["set-logo"]
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 86841,
+				cardmarket: 276546
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["regional-championships"]
+			stamp: ["regional-championships"],
+			thirdParty: {
+				cardmarket: 449698
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["state-championships"]
+			stamp: ["state-championships"],
+			thirdParty: {
+				tcgplayer: 247287,
+				cardmarket: 449703
+			},
 		}
-	]
+	],
 }
 
 export default card

@@ -13,19 +13,18 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		372,
-	],
+	dexId: [372],
 
 	hp: 70,
 
 	types: [
-		"Colorless",
+		"Colorless"
 	],
 
 	evolveFrom: {
 		en: "Bagon",
-		fr: "Draby"
+		fr: "Draby",
+		de: "Kindwurm"
 	},
 
 	stage: "Stage1",
@@ -39,12 +38,12 @@ const card: Card = {
 			name: {
 				en: "Granite Head",
 				fr: "Tête de granit",
-				de: "Granite Head"
+				de: "Granitkopf"
 			},
 			effect: {
 				en: "Damage done to Shelgon by an opponent's attack is reduced by 10 (after applying Weakness and Resistance) during your opponent's next turn.",
 				fr: "Les dégâts infligés à Drackhaus par une attaque de votre adversaire sont réduits de 10 lors du prochain tour de votre adversaire (après application de la Faiblesse et de la Résistance).",
-				de: "Damage done to Shelgon by an opponent's attack is reduced by 10 (after applying Weakness and Resistance) during your opponent's next turn."
+				de: "Im nächsten Zug deines Gegners wird Schaden, der Draschel durch generische Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
 			},
 			damage: 20,
 
@@ -58,7 +57,7 @@ const card: Card = {
 			name: {
 				en: "Flare",
 				fr: "Enflammer",
-				de: "Flare"
+				de: "Flackern"
 			},
 
 			damage: 40,
@@ -69,10 +68,23 @@ const card: Card = {
 
 	retreat: 2,
 
-	thirdParty: {
-		tcgplayer: 89124,
-		cardmarket: 275919
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89124,
+				cardmarket: 275919
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89124,
+				cardmarket: 275919
+			},
+		},
+	],
+
 }
 
 export default card

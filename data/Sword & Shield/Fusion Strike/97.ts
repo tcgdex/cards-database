@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage2",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "OKACHEKE",
 
 	description: {
-		en: "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean."
+		en: "They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.",
+		de: "Es schleppt sich mithilfe seiner Arme an Land, schnappt nach seiner Beute und zerrt sie augenblicklich ins Meer."
 	},
 
 	attacks: [{
@@ -83,17 +90,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582490,
-		tcgplayer: 253253
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582490,
+				tcgplayer: 253253
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582490,
+				tcgplayer: 253253
+			}
+		},
+	],
 }
 
 export default card

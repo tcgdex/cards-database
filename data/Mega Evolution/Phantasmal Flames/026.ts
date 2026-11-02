@@ -48,34 +48,65 @@ const card: Card = {
 		damage: "30+"
 	}],
 
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "I",
 
+	description: {
+		en: "Said to be the embodiment of north winds, it can instantly purify filthy, murky water.",
+		fr: "Il serait la réincarnation du vent du nord. Il peut purifier instantanément les eaux polluées.",
+		de: "Man sagt, es sei die Wiedergeburt des Nordwindes. Es kann verschmutztes Wasser im Nu reinigen."
+	},
+
+	illustrator: "Takeshi Nakamura",
 	variants: [
 		{
-			type: "holo"
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 857601,
+				tcgplayer: 662229,
+				cardtrader: 356809
+			}
 		},
 		{
-			type: "holo",
-			foil: "cosmos"
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857601,
+				tcgplayer: 662229,
+				cardtrader: 356809
+			}
 		},
 		{
-			type: "reverse"
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 867791,
+				tcgplayer: 670788
+			}
 		},
 		{
-			type: "holo",
-			stamp: ["eb-games"]
+			type: 'holo',
+			stamp: ['eb-games'],
+			thirdParty: {
+				cardmarket: 858506,
+				tcgplayer: 671234
+			}
 		},
 		{
-			type: "holo",
-			stamp: ["gamestop"]
-		}
+			type: 'holo',
+			foil: 'cosmos',
+			stamp: ['gamestop'],
+			thirdParty: {
+				cardmarket: 858505,
+				tcgplayer: 666533
+			}
+		},
 	],
-
-	thirdParty: {
-		cardmarket: 857601,
-		tcgplayer: 662229
-	}
 }
 
 export default card

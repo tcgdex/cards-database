@@ -88,23 +88,30 @@ const card: Card = {
 	types: ["Fire"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
 	description: {
-		en: "This Pokémon haunts dilapidated mansions. It sways its arms to hypnotize opponents with the ominous dancing of its flames."
+		en: "This Pokémon haunts dilapidated mansions. It sways its arms to hypnotize opponents with the ominous dancing of its flames.",
+		de: "Dieses Pokémon bewohnt gerne alte Anwesen. Es hypnotisiert seine Opfer, indem es die Flammen an seinen Armen auf unheimliche Weise schwenkt."
 	},
 
-	thirdParty: {
-		cardmarket: 457623,
-		tcgplayer: 213109
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 457623,
+				tcgplayer: 213109
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457623,
+				tcgplayer: 213109
+			}
+		},
+	],
 }
 
 export default card

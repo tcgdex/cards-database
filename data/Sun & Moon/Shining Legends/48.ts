@@ -87,6 +87,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "Its cute act is a ruse. When victims let down their guard, they find their items taken. It attacks with sharp claws.",
+		de: "Es lenkt die Menschen durch sein süßes Verhalten ab, um sie zu bestehlen. Ist es wütend, kratzt es gern mal."
+	},
+
 	thirdParty: {
 		cardmarket: 302186,
 		tcgplayer: 146710

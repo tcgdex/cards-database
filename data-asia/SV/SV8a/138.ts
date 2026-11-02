@@ -24,6 +24,22 @@ const card: Card = {
 		'zh-cn': "選擇1個對手的場上寶可夢身上附加的特殊能量，將其丟棄。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803251,
+				tcgplayer: 602558,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602559,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "H"
 }

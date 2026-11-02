@@ -77,6 +77,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When BURMY evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.",
+	},
+
 	thirdParty: {
 		cardmarket: 277794,
 		tcgplayer: 90640

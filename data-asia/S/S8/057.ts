@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../S8"
+import { Card } from "../../../interfaces";
+import Set from "../S8";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "螺釘地鼠"
+		ja: "モグリュー",
+		'zh-tw': "螺釘地鼠",
 	},
 
 	illustrator: "tetsuya koizumi",
@@ -14,27 +14,40 @@ const card: Card = {
 	types: ["Fighting"],
 
 	description: {
-		'zh-tw': "會用爪子在地底挖掘前進。一些農民因為擔心牠會因此糟蹋蔬菜而討厭牠。"
+		ja: "ツメで 地中を 掘り進むので 育てた 野菜が 傷むと 農業関係者は 嫌う。",
+		'zh-tw': "會用爪子在地底挖掘前進。一些農民因為擔心牠會因此糟蹋蔬菜而討厭牠。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "抓"
+	attacks: [
+		{
+			name: {
+				ja: "ひっかく",
+				'zh-tw': "抓",
+			},
+			damage: 20,
+			cost: ["Colorless"],
 		},
+	],
 
-		damage: 20,
-		cost: ["Colorless"]
-	}],
+	weaknesses: [{ type: "Grass", value: "x2" }],
+	resistances: [],
 
-	weaknesses: [{
-		type: "Grass",
-		value: "×2"
-	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 575612,
+				tcgplayer: 569558,
+			},
+		},
+	],
 
 	retreat: 2,
-	regulationMark: "E"
-}
+	regulationMark: "E",
+	rarity: "Common",
+	dexId: [529],
+};
 
-export default card
+export default card;

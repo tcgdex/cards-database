@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 60,
 	types: ["Water"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Miki Tanaka",
 
 	description: {
-		en: "After it's eaten its fill, its movements become extremely sluggish. That's when Cramorant swallows it up."
+		en: "After it's eaten its fill, its movements become extremely sluggish. That's when Cramorant swallows it up.",
+		de: "Seine Bewegungsfreiheit ist stark eingeschränkt, wenn es vollgefressen ist. So wird es zu leichter Beute für Urgl, das es im Ganzen verschlingt."
 	},
 
 	attacks: [{
@@ -42,17 +49,23 @@ const card: Card = {
 		damage: 10
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582216,
-		tcgplayer: 253236
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582216,
+				tcgplayer: 253236
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582216,
+				tcgplayer: 253236
+			}
+		},
+	],
 }
 
 export default card

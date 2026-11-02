@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Oricorio"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 90,
 	types: ["Psychic"],
@@ -55,16 +55,34 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 
 	description: {
 		en: "This Oricorio has sipped purple nectar. Some dancers use its graceful, elegant dancing as inspiration."
 	},
-
-	thirdParty: {
-		cardmarket: 580165
-	}
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 659062,
+				tcgplayer: 273585
+			}
+		},
+	],
 }
 
 export default card

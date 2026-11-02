@@ -29,12 +29,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 3,
 	regulationMark: "E",
 	illustrator: "Eri Yamaki",
 
 	description: {
-		en: "Its body is as hot as lava and is always billowing. Flames will occasionally burst from its shell."
+		en: "Its body is as hot as lava and is always billowing. Flames will occasionally burst from its shell.",
+		de: "Sein Körper ist heißer als Lava und wogt stets. Manchmal schießen Flammen aus seinem Haus."
 	},
 
 	attacks: [{
@@ -74,17 +81,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582169,
-		tcgplayer: 253132
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582169,
+				tcgplayer: 253132
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582169,
+				tcgplayer: 253132
+			}
+		},
+	],
 }
 
 export default card

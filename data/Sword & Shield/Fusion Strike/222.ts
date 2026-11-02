@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 70,
 	types: ["Colorless"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Yukiko Baba",
 
 	description: {
-		en: "If its fleece grows too long, Wooloo won't be able to move. Cloth made with the wool of this Pokémon is surprisingly strong."
+		en: "If its fleece grows too long, Wooloo won't be able to move. Cloth made with the wool of this Pokémon is surprisingly strong.",
+		de: "Werden seine Haare zu lang, kann es sich nicht mehr bewegen. Der aus Wollys Wolle gewobene Stoff ist unglaublich robust."
 	},
 
 	attacks: [{
@@ -51,17 +58,30 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582957,
-		tcgplayer: 253323
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582958,
+				tcgplayer: 253323
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'cosmos',
+			thirdParty: {
+				cardmarket: 878475
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582958,
+				tcgplayer: 253323
+			}
+		},
+	],
 }
 
 export default card

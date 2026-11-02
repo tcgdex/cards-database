@@ -4,6 +4,7 @@ import Set from "../Fusion Strike"
 const card: Card = {
 	dexId: [752],
 	set: Set,
+	cameoDexIds: [769],
 
 	name: {
 		en: "Araquanid",
@@ -29,12 +30,19 @@ const card: Card = {
 	},
 
 	stage: "Stage1",
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "E",
 	illustrator: "KIYOTAKA OSHIYAMA",
 
 	description: {
-		en: "It acts as a caretaker for Dewpider, putting them inside its bubble and letting them eat any leftover food."
+		en: "It acts as a caretaker for Dewpider, putting them inside its bubble and letting them eat any leftover food.",
+		de: "Es lässt Araqua in der Wasserblase um seinen Kopf Platz nehmen und kümmert sich um es, indem es ihm Futterreste überlässt."
 	},
 
 	attacks: [{
@@ -74,17 +82,23 @@ const card: Card = {
 		}
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582072,
-		tcgplayer: 253105
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582072,
+				tcgplayer: 253105
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582072,
+				tcgplayer: 253105
+			}
+		},
+	],
 }
 
 export default card

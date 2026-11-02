@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Dewpider",
 		fr: "Araqua",
+		de: "Araqua"
 	},
 
 	stage: "Stage1",
@@ -86,6 +87,11 @@ const card: Card = {
 	],
 
 	retreat: 2,
+
+	description: {
+		en: "It usually passes its time in the water. When its belly is full, it stores its subdued prey in the water bubble on its head.",
+		de: "Es verlässt das Wasser nur sehr selten. Wenn es satt ist, bewahrt es erledigte Beute in der Wasserblase auf seinem Kopf auf."
+	},
 
 	thirdParty: {
 		cardmarket: 407974,

@@ -14,7 +14,7 @@ const card: Card = {
 		en: "Charizard VSTAR"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Fire"],
@@ -77,12 +77,23 @@ const card: Card = {
 		damage: 320
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "F",
-
-	thirdParty: {
-		cardmarket: 674370
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 674370,
+				tcgplayer: 285396
+			}
+		},
+	],
 }
 
 export default card

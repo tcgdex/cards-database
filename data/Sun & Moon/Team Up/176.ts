@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Mira la primera carta de tu baraja y elige 1 opción:\n\n• Descarta las cartas de tu mano y roba 5 cartas.\n• Descarta las cartas de tu mano y roba 5 cartas de la parte inferior de tu baraja.",
 		it: "Guarda la prima carta del tuo mazzo e poi scegli:\n\n• Scarta le carte che hai in mano e pesca cinque carte. \n• Scarta le carte che hai in mano e pesca cinque carte in fondo al tuo mazzo.",
 		pt: "Olhe a primeira carta do seu baralho e escolha 1:\n\n• Descarte a sua mão e compre 5 cartas.\n• Descarte a sua mão e compre as 5 últimas cartas do seu baralho.",
-		de: "Schau dir die oberste Karte deines Decks an und wähle 1 aus:\n\n• Lege deine Handkarten auf deinen Ablagestapel und ziehe 5 Karten.\n• Lege deine Handkarten auf deinen Ablagestapel und ziehe 5 Karten von unten aus deinem Deck."
+		de: "Schau dir die oberste Karte deines Decks an und wähle 1 aus: Lege deine Handkarten auf deinen Ablagestapel und ziehe 5 Karten. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen. Lege deine Handkarten auf deinen Ablagestapel und ziehe 5 Karten von unten aus deinem Deck."
 	},
 
 	trainerType: "Supporter",

@@ -68,7 +68,7 @@ const card: Card = {
 				es: "Luz de la Protectora GX",
 				it: "Luce Protettrice GX",
 				pt: "Luz da Protetora GX",
-				de: "Licht der Beschützerin GX"
+				de: "Licht der Beschützerin-GX"
 			},
 			effect: {
 				en: "If you played Lillie’s Full Force from your hand during this turn, prevent all effects of attacks, including damage, done to each of your Pokémon during your opponent’s next turn. (You can’t use more than 1 GX attack in a game.)",
@@ -77,21 +77,6 @@ const card: Card = {
 				it: "Se hai giocato Lylia alla Massima Potenza dalla tua mano durante questo turno, previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti ai tuoi Pokémon durante il prossimo turno del tuo avversario. Non puoi usare più di un attacco GX a partita.",
 				pt: "Se você jogou Força Total da Lílian da sua mão durante esta vez de jogar, prevenirá todos os efeitos de ataques, incluindo dano, causados a cada um dos seus Pokémon durante a próxima vez de jogar do seu oponente (você não pode usar mais de 1 ataque GX por partida).",
 				de: "Wenn du Lillys ganze Kraft während dieses Zuges aus deiner Hand gespielt hast, verhindere während des nächsten Zuges deines Gegners alle Effekte von Attacken, einschließlich Schaden, die jedem deiner Pokémon zugefügt werden. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
-			},
-			damage: 200,
-
-		},
-		{
-			cost: [
-				"Psychic",
-				"Psychic",
-				"Colorless",
-			],
-			name: {
-				fr: "Lumière de la Protectrice-GX",
-			},
-			effect: {
-				fr: "Si vous avez joué Pleine Puissance de Lilie de votre main pendant ce tour, évitez tous les effets d’attaques, y compris les dégâts, infligés à chacun de vos Pokémon pendant le prochain tour de votre adversaire. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
 			},
 			damage: 200,
 

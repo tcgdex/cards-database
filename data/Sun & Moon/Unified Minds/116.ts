@@ -56,6 +56,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "It knows how people and Pokémon feel by looking at their auras. It doesn't approach dangerous opponents.",
+		de: "Durch Wellen, die Aura genannt werden, kann es die Gefühle von Menschen und Pokémon lesen. Von bedrohlichen Gegnern hält es sich fern."
+	},
+
 	thirdParty: {
 		cardmarket: 388372,
 		tcgplayer: 195070

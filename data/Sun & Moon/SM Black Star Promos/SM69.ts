@@ -4,7 +4,7 @@ import Set from '../SM Black Star Promos'
 const card: Card = {
 	name: {
 		en: "Buzzwole GX",
-		fr: "Câblifère GX",
+		fr: "Mouscoto GX",
 		es: "Buzzwole GX",
 		it: "Buzzwole GX",
 		pt: "Buzzwole GX",
@@ -12,7 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
 
@@ -89,7 +89,7 @@ const card: Card = {
 				es: "Expansión GX",
 				it: "Expansio GX",
 				pt: "Expansão GX",
-				de: "Expander GX"
+				de: "Expander-GX"
 			},
 			effect: {
 				en: "This attack does 40 damage for each of your remaining Prize cards. (You can’t use more than 1 GX attack in a game.)",
@@ -111,7 +111,17 @@ const card: Card = {
 		},
 	],
 
-	retreat: 2
+	retreat: 2,
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 312554,
+				tcgplayer: 149384
+			}
+		}
+	],
 }
 
 export default card

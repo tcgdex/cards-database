@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Masskito"
 	},
 
-	rarity: "Rare",
+	illustrator: "Kouki Saitou",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Grass"],
@@ -70,7 +71,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 2
+	retreat: 2,
+
+	description: {
+		en: "Although it's alien to this world and a danger here, it's apparently a common organism in the world where it normally lives.",
+		de: "In dieser Welt wirkt es gefährlich und fremdartig, doch in seiner ursprünglichen Welt ist es ein ganz gewöhnliches Lebewesen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 412269,
+				tcgplayer: 201940
+			}
+		}
+	],
 }
 
 export default card

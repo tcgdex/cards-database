@@ -11,12 +11,12 @@ const card: Card = {
 		de: "Kapu-Fala"
 	},
 	illustrator: "You Iribi",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
 	dexId: [
-		785,
+		786,
 	],
 	hp: 110,
 	types: [
@@ -85,6 +85,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "This guardian deity of Akala is guilelessly cruel. The fragrant aroma of flowers is the source of its energy.",
+		de: "Der arglose, doch unbarmherzige Schutzpatron von Akala. Seine Energie zieht es aus dem lieblichen Duft von Blumen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 300306,
+				tcgplayer: 173399
+			}
+		}
+	],
 }
 
 export default card

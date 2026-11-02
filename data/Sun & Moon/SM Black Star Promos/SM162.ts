@@ -11,13 +11,16 @@ const card: Card = {
 		de: "Pikachu"
 	},
 	illustrator: "Saya Tsuruta",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
 	dexId: [
 		25,
 	],
+
+	cameoDexIds: [778],
+
 	hp: 60,
 	types: [
 		"Lightning",
@@ -90,6 +93,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "It's in its nature to store electricity. It feels stressed now and then if it's unable to fully discharge the electricity.",
+		de: "Es liegt in seiner Natur, konstant Elektrizität in sich anzustauen. Kann es diese nicht regelmäßig entladen, löst dies Stress aus."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 367365,
+				tcgplayer: 184483
+			}
+		}
+	],
 }
 
 export default card

@@ -4,6 +4,7 @@ import Set from "../Twilight Masquerade"
 const card: Card = {
 	dexId: [113],
 	set: Set,
+	cameoDexIds: [54, 69, 132, 143, 242],
 
 	name: {
 		en: "Chansey",
@@ -64,19 +65,32 @@ const card: Card = {
 		damage: 80
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 2,
 	regulationMark: "H",
 
-	variants: {
-		reverse: false,
-		normal: false
+	description: {
+		en: "It walks carefully to prevent its egg from breaking. However, it is extremely fast at running away.",
+		de: "Chaneira bewegt sich behutsam, damit sein Ei nicht zerbricht. Es kann jedoch sehr schnell davonlaufen."
 	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 769361,
+				tcgplayer: 550231
+			}
+		},
+	],
 
 	illustrator: "Toshinao Aoki",
 
-	thirdParty: {
-		cardmarket: 769361
-	}
 }
 
 export default card

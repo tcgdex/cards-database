@@ -7,12 +7,23 @@ const card: Card = {
 		ja: "メンテナンス",
 	},
 
+	illustrator: "Keiji Kinebuchi",
 	rarity: "Uncommon",
 	category: "Trainer",
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575649
+			},
+		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577076
+			},
 		},
 	],
 };

@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		25,
-	],
+	dexId: [25],
 
 	hp: 40,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -52,7 +50,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, Pikachu does 10 damage to itself.",
 				fr: "Lancez une pièce. Si c'est pile, Pikachu s'inflige 10 dégâts.",
-				de: "Wirf eine Münze. Bei \"Zahl\" fügt Pikachu sich selbst 10 Schadenspunkte zu."
+				de: "Wirf eine Münze. Bei „Zahl“ fügt Pikachu sich selbst 10 Schadenspunkte zu."
 			},
 			damage: 30,
 
@@ -62,22 +60,26 @@ const card: Card = {
 	weaknesses: [
 		{
 			type: "Fighting",
-			value: "×2"
+			value: "x2"
 		},
 	],
-
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 278686,
-		tcgplayer: 88091
+	description: {
+		en: "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs.",
+		de: "Es hat kleine Backentaschen, die mit Elektrizität gefüllt sind. Bei Gefahr entlädt es sie."
 	},
 
 	variants: [
 		{
-			type: "holo"
-		}
-	]
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278686,
+				tcgplayer: 88091
+			}
+		},
+	],
+
 }
 
 export default card

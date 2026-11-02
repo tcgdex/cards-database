@@ -7,12 +7,23 @@ const card: Card = {
 		ja: "詐欺師オーク教授",
 	},
 
+	illustrator: "Ken Sugimori",
 	rarity: "Rare",
 	category: "Trainer",
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 575625
+			},
+		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577052
+			},
 		},
 	],
 };

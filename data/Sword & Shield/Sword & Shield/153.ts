@@ -78,7 +78,8 @@ const card: Card = {
 	},
 
 	description: {
-		en: "Its curly fleece is such an effective cushion that this Pokémon could fall off a cliff and stand right back up at the bottom, unharmed."
+		en: "Its curly fleece is such an effective cushion that this Pokémon could fall off a cliff and stand right back up at the bottom, unharmed.",
+		de: "Sein stark gelocktes Fell hat eine sehr polsternde Wirkung. Selbst eine Klippe hinunterzufallen macht ihm nichts aus."
 	},
 
 	dexId: [831],

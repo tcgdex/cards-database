@@ -13,6 +13,7 @@ const card: Card = {
 		de: "Kate"
 	},
 
+	illustrator: "Souichirou Gunjima",
 	rarity: "Holo Rare",
 	category: "Trainer",
 
@@ -22,23 +23,31 @@ const card: Card = {
 		es: "Pon hasta 4 cartas de Pokémon Water y de Energía Water, en cualquier combinación, de tu pila de descartes en tu mano.",
 		it: "Prendi fino a quattro Pokémon Water e carte Energia Water in qualsiasi combinazione dalla tua pila degli scarti e aggiungili alle carte che hai in mano.",
 		pt: "Coloque até 4 cartas de Pokémon Water e de Energia Water da sua pilha de descarte na sua mão em qualquer combinação.",
-		de: "Nimm eine beliebige Kombination aus bis zu 4 Water-Pokémon und Water-Energiekarten aus deinem Ablagestapel auf deine Hand."
+		de: "Nimm eine beliebige Kombination aus bis zu 4 {W}-Pokémon und {W}-Energiekarten aus deinem Ablagestapel auf deine Hand. Du kannst während deines Zuges nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 691855,
-		tcgplayer: 478190
-	}
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 691855,
+				tcgplayer: 478190
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 691855,
+				tcgplayer: 478190
+			}
+		},
+	],
 }
 
 export default card

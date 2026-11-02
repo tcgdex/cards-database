@@ -68,7 +68,9 @@ const card: Card = {
 	retreat: 3,
 
 	description: {
-		fr: "Il provoque des secousses sismiques en creusant. Il peut atteindre les 80 km/h."
+		en: "When it travels underground, it causes rumbling and tremors. It can move at 50 mph.",
+		fr: "Il provoque des secousses sismiques en creusant. Il peut atteindre les 80 km/h.",
+		de: "Wenn es sich unter dem Boden mit bis zu 80 km/h bewegt, verursacht es Erschütterungen."
 	},
 
 	thirdParty: {

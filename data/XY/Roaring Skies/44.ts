@@ -96,6 +96,10 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "They say that it will appear before kindhearted, caring people and shower them with happiness.",
+	},
+
 	thirdParty: {
 		cardmarket: 282712,
 		tcgplayer: 98080

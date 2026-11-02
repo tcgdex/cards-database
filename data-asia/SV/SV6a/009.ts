@@ -1,11 +1,11 @@
-import { Card } from "../../../interfaces"
-import Set from "../SV6a"
+import { Card } from "../../../interfaces";
+import Set from "../SV6a";
 
 const card: Card = {
 	set: Set,
-
 	name: {
-		'zh-tw': "鐵毒蛾"
+		ja: "テツノドクガ",
+		'zh-tw': "鐵毒蛾",
 	},
 
 	illustrator: "Shinji Kanda",
@@ -14,43 +14,56 @@ const card: Card = {
 	types: ["Fire"],
 
 	description: {
-		'zh-tw': "無捕獲紀錄。資料不足。 其特徵與古書裡 所記載的物體一致。"
+		ja: "捕獲例は ゼロ。 データ不足。 古い 書物に 記された 物体と 特徴が 一致。",
+		'zh-tw': "無捕獲紀錄。資料不足。 其特徵與古書裡 所記載的物體一致。",
 	},
 
 	stage: "Basic",
 
-	attacks: [{
-		name: {
-			'zh-tw': "吸納"
+	attacks: [
+		{
+			name: {
+				ja: "きゅういん",
+				'zh-tw': "吸納",
+			},
+			damage: 30,
+			cost: ["Colorless", "Colorless"],
+			effect: {
+				ja: "相手のバトルポケモンに与えたダメージぶん、このポケモンのHPを回復する。",
+				'zh-tw': "將這隻寶可夢恢復對對手的戰鬥寶可夢造成的傷害相同數值的HP。",
+			},
 		},
-
-		effect: {
-			'zh-tw': "將這隻寶可夢恢復對對手的戰鬥寶可夢造成的傷害相同數值的HP。"
+		{
+			name: {
+				ja: "ワイルドリジェクター",
+				'zh-tw': "瘋狂拒絕",
+			},
+			damage: 120,
+			cost: ["Fire", "Fire", "Colorless"],
+			effect: {
+				ja: "次の相手の番、このポケモンは「古代」のポケモンからワザのダメージを受けない。",
+				'zh-tw': "在下個對手的回合，這隻寶可夢不會受到「古代」寶可夢招式的傷害。",
+			},
 		},
+	],
 
-		damage: 30,
-		cost: ["Colorless", "Colorless"]
-	}, {
-		name: {
-			'zh-tw': "瘋狂拒絕"
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 773758,
+				tcgplayer: 566260,
+			},
 		},
-
-		effect: {
-			'zh-tw': "在下個對手的回合，這隻寶可夢不會受到「古代」寶可夢招式的傷害。"
-		},
-
-		damage: 120,
-		cost: ["Fire", "Fire", "Colorless"]
-	}],
-
-	weaknesses: [{
-		type: "Water",
-		value: "×2"
-	}],
+	],
 
 	retreat: 2,
 	regulationMark: "H",
-	rarity: "Uncommon"
-}
+	rarity: "Uncommon",
+	dexId: [994],
+};
 
-export default card
+export default card;

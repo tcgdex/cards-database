@@ -78,6 +78,11 @@ const card: Card = {
 
 	retreat: 1,
 
+	description: {
+		en: "When the sun rises, Fomantis spreads its four leaves and bathes in the sunlight. The tip of its head has a pleasant aroma.",
+		de: "Scheint die Sonne, streckt es seine vier Blätter von sich und badet im Licht. Von seiner Kopfspitze geht ein angenehmer Duft aus."
+	},
+
 	thirdParty: {
 		cardmarket: 387907,
 		tcgplayer: 194931

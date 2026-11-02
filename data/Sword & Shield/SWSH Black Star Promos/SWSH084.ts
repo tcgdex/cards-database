@@ -16,7 +16,7 @@ const card: Card = {
 		it: "Eldegoss V"
 	},
 
-	rarity: "None",
+	rarity: "Promo",
 	dexId: [830],
 	hp: 180,
 	types: ["Grass"],
@@ -74,19 +74,26 @@ const card: Card = {
 
 	retreat: 1,
 
-	variants: {
-		normal: false,
-		reverse: false,
-		holo: true,
-		firstEdition: false
-	},
-
 	regulationMark: "D",
-	suffix: "V",
 
-	thirdParty: {
-		cardmarket: 540641
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 540641,
+				tcgplayer: 232481
+			}
+		},
+		{
+			type: "holo",
+			size: "jumbo",
+			thirdParty: {
+				cardmarket: 610515,
+				tcgplayer: 251623
+			}
+		},
+	],
+	suffix: "V"
 }
 
 export default card

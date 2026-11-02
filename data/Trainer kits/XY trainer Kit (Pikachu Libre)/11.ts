@@ -23,13 +23,15 @@ const card: Card = {
 	illustrator: "Akira Komayama",
 
 	description: {
-		en: "It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches."
+		en: "It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches.",
+		de: "In seinem Fell speichert es statische Elektrizität für spätere Entladungen. Braut sich ein Sturm zusammen, entlädt es Funken."
 	},
 
 	attacks: [{
 		name: {
 			en: "Bite",
-			fr: "Morsure"
+			fr: "Morsure",
+			de: "Biss"
 		},
 
 		damage: 10

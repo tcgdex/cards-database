@@ -5,7 +5,8 @@ const card: Card = {
 	set: Set,
 
 	name: {
-		en: "Whismur"
+		en: "Whismur",
+		fr: "Chuchmur"
 	},
 
 	illustrator: "Tika Matsuno",
@@ -24,7 +25,8 @@ const card: Card = {
 
 	attacks: [{
 		name: {
-			en: "Pound"
+			en: "Pound",
+			fr: "Écras'Face"
 		},
 
 		damage: 20,

@@ -14,10 +14,40 @@ const card: Card = {
 		de: "Traumato"
 	},
 
+	illustrator: "Suwama Chiaki",
 	rarity: "Common",
 	category: "Pokemon",
 	hp: 70,
-	types: ["Psychic"],
+	types: [
+		"Psychic"
+	],
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+			],
+			name: {
+				en: "Psychic Boom",
+				de: "Psychoknall"
+			},
+			effect: {
+				en: "This attack does 10 damage times the amount of Energy attached to your opponent's Active Pokémon.",
+				de: "Diese Attacke fügt 10 Schadenspunkte mal der Anzahl der an das Aktive Pokémon deines Gegners angelegten Energien zu."
+			},
+			damage: "10×"
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				en: "Headbutt",
+				de: "Kopfnuss"
+			},
+			damage: 20
+		},
+	],
 	stage: "Basic",
 	retreat: 2,
 
@@ -26,9 +56,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	thirdParty: {
-		tcgplayer: 152875
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 297256,
+				tcgplayer: 152875
+			}
+		},
+	],
+
 }
 
 export default card

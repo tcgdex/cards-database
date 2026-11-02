@@ -88,6 +88,11 @@ const card: Card = {
 
 	retreat: 3,
 
+	description: {
+		en: "It gets into territorial disputes with Vikavolt. For some reason, it apparently gets along well with Heracross in Alola.",
+		de: "Es liefert sich Revierkämpfe mit Donarion. Aus noch unbekannten Gründen versteht es sich in Alola ausgesprochen gut mit Skaraborn."
+	},
+
 	thirdParty: {
 		cardmarket: 368942,
 		tcgplayer: 183780

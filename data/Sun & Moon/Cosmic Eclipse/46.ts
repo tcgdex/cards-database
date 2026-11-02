@@ -15,6 +15,7 @@ const card: Card = {
 	rarity: "Rare",
 	category: "Pokemon",
 	set: Set,
+	cameoDexIds: [278],
 
 	dexId: [
 		321,
@@ -29,6 +30,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Wailmer",
 		fr: "Wailmer",
+		de: "Wailmer"
 	},
 
 	stage: "Stage1",
@@ -81,6 +83,11 @@ const card: Card = {
 	],
 
 	retreat: 4,
+
+	description: {
+		en: "They eat so many fish Pokémon that when Wailord become too numerous, fishermen have to chase them off.",
+		de: "Sie verzehren Unmengen an Fisch-Pokémon, weshalb sie von Fischern vertrieben werden, wenn sie sich zu stark vermehren."
+	},
 
 	thirdParty: {
 		cardmarket: 407879,

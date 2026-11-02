@@ -35,19 +35,33 @@ const card: Card = {
 		damage: 60
 	}],
 
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "G",
 
-	variants: {
-		normal: false,
-		reverse: false
-	},
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751653,
+				tcgplayer: 534496,
+				cardtrader: 274298
+			}
+		},
+	],
 
 	illustrator: "Masakazu Fukuda",
 
-	thirdParty: {
-		cardmarket: 751653
-	}
+	description: {
+		en: "Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.",
+		de: "Ein verbranntes Stück Holzkohle ist als Pokémon zum Leben erwacht. Es fordert selbst starke Gegner heraus und hat einen feurigen Kampfgeist."
+	},
+
 }
 
 export default card

@@ -29,6 +29,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Snorunt",
 		fr: "Stalgamin",
+		de: "Schneppke"
 	},
 
 	stage: "Stage1",
@@ -92,6 +93,11 @@ const card: Card = {
 	],
 
 	retreat: 3,
+
+	description: {
+		en: "It freezes its prey and chews them whole. However, it prefers to eat Pokémon like Vanillite that are already frozen.",
+		de: "Es friert seine Beute ein und verschlingt sie im Ganzen. Am liebsten frisst es von vornherein gefrorene Pokémon wie Gelatini."
+	},
 
 	thirdParty: {
 		cardmarket: 407889,

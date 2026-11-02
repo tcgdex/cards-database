@@ -33,12 +33,12 @@ const card: Card = {
 			name: {
 				en: "Smokescreen",
 				fr: "Brouillard",
-				de: "Smokescreen"
+				de: "Rauchwolke"
 			},
 			effect: {
 				en: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
 				fr: "Si le Pokémon Défenseur essaie d'attaquer pendant le prochain tour de votre adversaire, votre adversaire lance une pièce. Si c'est pile, cette attaque ne fait rien.",
-				de: "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+				de: "Wenn das verteidigende Pokémon versucht, während des nächsten Zuges deines Gegners anzugreifen, wirft dein Gegner eine Münze. Bei „Zahl“ hat dieser Angriff keine Auswirkungen."
 			},
 			damage: 10,
 
@@ -51,23 +51,31 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Il est très timide et il est souvent sur la défensive. Quand il se sent menacé, il se protège avec les flammes de son dos."
+		en: "It is very meek and constantly crouches in a defensive posture. When threatened, it protects itself with the flame on its back.",
+		fr: "Il est très timide et il est souvent sur la défensive. Quand il se sent menacé, il se protège avec les flammes de son dos.",
+		de: "Es ist sehr schwächlich und ist dauernd in einer defensiven Haltung. Wenn es bedroht wird, schützt es sich mit der Flamme auf seinem Rücken."
 	},
 
-	thirdParty: {
-		cardmarket: 274713,
-		tcgplayer: 84546
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274713,
+				tcgplayer: 84546
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274713,
+				tcgplayer: 84546
+			}
 		}
 	]
 }

@@ -4,6 +4,7 @@ import Set from "../Temporal Forces"
 const card: Card = {
 	dexId: [92],
 	set: Set,
+	cameoDexIds: [52, 93, 94],
 
 	name: {
 		en: "Gastly",
@@ -55,20 +56,31 @@ const card: Card = {
 		damage: 30
 	}],
 
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "H",
 
+	description: {
+		en: "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.",
+	},
+
 	variants: [
 		{
-			type: "holo"
-		}
+			type: "holo",
+			thirdParty: {
+				cardmarket: 760807,
+				tcgplayer: 542898
+			}
+		},
 	],
 
 	illustrator: "Mousho",
 
-	thirdParty: {
-		cardmarket: 760807
-	}
 }
 
 export default card

@@ -33,7 +33,7 @@ const card: Card = {
 			name: {
 				en: "Headbutt",
 				fr: "Coup d'boule",
-				de: "Headbutt"
+				de: "Kopfnuss"
 			},
 
 			damage: 10,
@@ -47,23 +47,31 @@ const card: Card = {
 			value: "×2"
 		},
 	],
+	retreat: 1,
+
 
 	description: {
-		fr: "Sa douce laine capture l'air ambiant, ce qui lui permet de rester frais en été et chaud en hiver."
+		en: "Its soft wool coat captures air, allowing it to remain cool during the summer and warm in the winter.",
+		fr: "Sa douce laine capture l'air ambiant, ce qui lui permet de rester frais en été et chaud en hiver.",
+		de: "Seine weiche Wolle filtert die Luft und hält es so während des Sommers kühl und im Winter warm."
 	},
 
-	thirdParty: {
-		cardmarket: 274727,
-		tcgplayer: 87194
-	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274727,
+				tcgplayer: 87194
+			}
 		},
 		{
 			type: "normal",
-			stamp: ["1st-edition"]
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274727,
+				tcgplayer: 87194
+			}
 		}
 	]
 }

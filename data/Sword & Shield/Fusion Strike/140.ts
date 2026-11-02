@@ -19,12 +19,19 @@ const card: Card = {
 	hp: 70,
 	types: ["Fighting"],
 	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
 	retreat: 1,
 	regulationMark: "E",
 	illustrator: "Misa Tsutsui",
 
 	description: {
-		en: "It flies straight at its target's face, then clamps down on the startled victim to inject poison."
+		en: "It flies straight at its target's face, then clamps down on the startled victim to inject poison.",
+		de: "Es fliegt direkt auf das Gesicht seiner Feinde zu und injiziert ihnen eine Überdosis Gift."
 	},
 
 	attacks: [{
@@ -62,17 +69,23 @@ const card: Card = {
 		damage: 30
 	}],
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 582752,
-		tcgplayer: 253348
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 582752,
+				tcgplayer: 253348
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 582752,
+				tcgplayer: 253348
+			}
+		},
+	],
 }
 
 export default card

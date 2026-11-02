@@ -22,7 +22,7 @@ const card: Card = {
 		es: "Pon 2 cartas de Partidario y de Estadio, en cualquier combinación, de tu pila de descartes en tu mano.",
 		it: "Prendi due carte Aiuto o Stadio in qualsiasi combinazione dalla tua pila degli scarti e aggiungile a quelle che hai in mano.",
 		pt: "Coloque 2 cartas de Apoiador e de Estádio da sua pilha de descarte na sua mão em qualquer combinação.",
-		de: "Nimm eine beliebige Kombination aus 2 Unterstützer- und Stadionkarten aus deinem Ablagestapel auf deine Hand."
+		de: "Nimm eine beliebige Kombination aus 2 Unterstützer- und Stadionkarten aus deinem Ablagestapel auf deine Hand. Du kannst während deines Zuges (bevor du angreifst) nur 1 Unterstützerkarte spielen."
 	},
 
 	trainerType: "Supporter",

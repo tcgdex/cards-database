@@ -24,6 +24,16 @@ const card: Card = {
 		'zh-cn': "從自己的牌庫選擇最多5張「寶可夢道具」卡，在給對手看過後加入手牌。並且重洗牌庫。"
 	},
 
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803259,
+				tcgplayer: 602573,
+			},
+		},
+	],
+
 	trainerType: "Item",
 	regulationMark: "H"
 }

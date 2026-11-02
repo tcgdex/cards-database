@@ -5,7 +5,7 @@ const card: Card = {
 	name: {
 		en: "Altaria ex",
 		fr: "Altaria ex",
-		de: "Altaria ex"
+		de: "Altaria-ex"
 	},
 
 	illustrator: "Ryo Ueda",
@@ -28,7 +28,7 @@ const card: Card = {
 		fr: "Tylton"
 	},
 
-	suffix: "EX",
+	suffix: "ex",
 
 	abilities: [
 		{
@@ -92,8 +92,12 @@ const card: Card = {
 	variants: [
 		{
 			type: "holo",
+			thirdParty: {
+				tcgplayer: 83524,
+				cardmarket: 276601
+			},
 		},
-	]
+	],
 }
 
 export default card

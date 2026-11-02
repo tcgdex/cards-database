@@ -58,23 +58,30 @@ const card: Card = {
 	retreat: 2,
 	regulationMark: "D",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It protects itself with flame. Long years ago, people believed Larvesta had a nest on the sun."
+		en: "It protects itself with flame. Long years ago, people believed Larvesta had a nest on the sun.",
+		de: "Es schützt sich mithilfe von Flammen. Früher glaubte man, dass sich sein Nest in der Sonne selbst befände."
 	},
 
-	thirdParty: {
-		cardmarket: 483019,
-		tcgplayer: 219242
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 483019,
+				tcgplayer: 219242
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 483019,
+				tcgplayer: 219242
+			}
+		},
+	],
 }
 
 export default card

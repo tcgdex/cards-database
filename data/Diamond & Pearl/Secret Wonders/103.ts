@@ -64,6 +64,10 @@ const card: Card = {
 		},
 	],
 
+	description: {
+		en: "Cautious in the extreme, its hardy vitality lets it live in any kind of environment.",
+	},
+
 	thirdParty: {
 		cardmarket: 277856,
 		tcgplayer: 88618

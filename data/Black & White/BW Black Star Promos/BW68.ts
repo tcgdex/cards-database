@@ -14,6 +14,9 @@ const card: Card = {
 	dexId: [
 		648,
 	],
+
+	cameoDexIds: [501, 559],
+
 	hp: 80,
 	types: [
 		"Psychic",
@@ -63,6 +66,10 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Its melodies are sung with a special vocalization method that can control the feelings of those who hear it.",
+	},
 }
 
 export default card

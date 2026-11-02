@@ -14,7 +14,8 @@ const card: Card = {
 		de: "Muramura"
 	},
 
-	rarity: "Rare",
+	illustrator: "Hiroki Asanuma",
+	rarity: "Promo",
 	category: "Pokemon",
 	hp: 120,
 	types: ["Fighting"],
@@ -70,7 +71,22 @@ const card: Card = {
 		value: "×2"
 	}],
 
-	retreat: 4
+	retreat: 4,
+
+	description: {
+		en: "It appeared from an Ultra Wormhole. Each one appears to be made up of many life-forms stacked one on top of each other.",
+		de: "Diese Kreatur kam durch eine Ultrapforte. Sie besteht anscheinend aus mehreren aufeinandergestapelten Wesen."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 371773,
+				tcgplayer: 189012
+			}
+		}
+	],
 }
 
 export default card

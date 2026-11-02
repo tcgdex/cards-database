@@ -93,23 +93,30 @@ const card: Card = {
 	types: ["Lightning"],
 	regulationMark: "D",
 
-	variants: {
-		normal: false,
-		reverse: true,
-		holo: true,
-		firstEdition: false
-	},
 
 	stage: "Stage2",
 
 	description: {
-		en: "It builds up electricity in its abdomen, focuses it through its jaws, and then fires the electricity off in concentrated beams."
+		en: "It builds up electricity in its abdomen, focuses it through its jaws, and then fires the electricity off in concentrated beams.",
+		de: "In seinem Bauch erzeugt es Elektrizität, die es in seinem großen Kiefer sammelt und dann als Hochleistungsstrahlen abfeuern kann."
 	},
 
-	thirdParty: {
-		cardmarket: 457763,
-		tcgplayer: 213149
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 457763,
+				tcgplayer: 213149
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457763,
+				tcgplayer: 213149
+			}
+		},
+	],
 }
 
 export default card

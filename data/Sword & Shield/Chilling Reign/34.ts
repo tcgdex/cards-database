@@ -26,7 +26,8 @@ const card: Card = {
 
 	description: {
 		en: "This is Castform's form when caught in a hailstorm. Its whole body is chilled, and its skin is partially frozen!",
-		fr: 'Morphéo adopte cette apparence quand\n il est frappé par la grèle. Tout son corps est froid et sa peau est légèrement givrée.'
+		fr: 'Morphéo adopte cette apparence quand\n il est frappé par la grèle. Tout son corps est froid et sa peau est légèrement givrée.',
+		de: "Diese Gestalt nimmt Formeo an, wenn es von Hagel getroffen wird. Sein Körper ist so kalt, dass seine Haut leicht gefriert."
 	},
 
 	abilities: [{
@@ -86,17 +87,23 @@ const card: Card = {
 	retreat: 0,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
-	thirdParty: {
-		cardmarket: 567114,
-		tcgplayer: 241687
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 567114,
+				tcgplayer: 241687
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 567114,
+				tcgplayer: 241687
+			}
+		},
+	],
 }
 
 export default card

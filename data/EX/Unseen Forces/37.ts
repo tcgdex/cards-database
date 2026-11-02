@@ -37,7 +37,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "Search your deck for a Water or Fighting Pokémon (excluding Pokémon-ex), show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
-				fr: "Choisissez dans votre deck un Pokémon  ou  (Pokémon-ex exclus), montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck.",
+				fr: "Choisissez dans votre deck un Pokémon {W} ou {F} (Pokémon-ex exclus), montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck.",
 				de: "Search your deck for a  or  Pokémon (excluding Pokémon-ex), show it to your opponent, any put it into your hand. Shuffle your deck afterward."
 			},
 
@@ -70,24 +70,32 @@ const card: Card = {
 	
 	retreat: 1,
 
-	thirdParty: {
-		cardmarket: 276683,
-		tcgplayer: 84440
-	},
 
 	variants: [
 		{
 			type: "normal",
+			thirdParty: {
+				tcgplayer: 84440,
+				cardmarket: 276683
+			},
+		},
+		{
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 84440,
+				cardmarket: 276683
+			},
 		},
 		{
 			type: "normal",
-			stamp: ["set-logo"]
-		},
-		{
-			type: "normal",
-			stamp: ["akira-miyazaki"]
+			stamp: ["akira-miyazaki"],
+			thirdParty: {
+				tcgplayer: 479529,
+				cardmarket: 869360
+			},
 		}
-	]
+	],
 }
 
 export default card

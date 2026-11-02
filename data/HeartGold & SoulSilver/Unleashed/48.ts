@@ -13,14 +13,12 @@ const card: Card = {
 	category: "Pokemon",
 	set: Set,
 
-	dexId: [
-		170,
-	],
+	dexId: [170],
 
 	hp: 60,
 
 	types: [
-		"Lightning",
+		"Lightning"
 	],
 
 	stage: "Basic",
@@ -65,27 +63,32 @@ const card: Card = {
 	retreat: 1,
 
 	description: {
-		en: "It shoots positive and negative electricity between the tips of its two antennae and zaps its enemies."
+		en: "It shoots positive and negative electricity between the tips of its two antennae and zaps its enemies.",
+		de: "Es verschießt negative und positive Elektronen zwischen seinen Antennen, um seine Feinde zu erlegen."
 	},
 
 	variants: [
 		{
-			type: "normal"
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84310,
+				cardmarket: 279204
+			}
 		},
 		{
-			type: "reverse"
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 84310,
+				cardmarket: 279204
+			}
 		},
 		{
 			type: "normal",
 			stamp: ["snowflake"],
-			languages: ["de"]
+			languages: ["de"],
 		}
 	],
 
-	thirdParty: {
-		cardmarket: 279204,
-		tcgplayer: 84310
-	}
 }
 
 export default card

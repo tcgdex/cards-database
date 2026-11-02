@@ -59,7 +59,7 @@ const card: Card = {
 			},
 			effect: {
 				en: "If Slowking has a Water Energy card attached to it, this attack does 20 damage plus 20 more damage. If Slowking has a Psychic Energy card attached to it, discard a Special Energy card attached to the Defending Pokémon, if any.",
-				fr: "Si Roigada possède une carte Énergie , cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires. Si Roigada possède une carte Énergie , défaussez une carte Énergie spéciale attachée au Pokémon Défenseur, s'il en a.",
+				fr: "Si Roigada possède une carte Énergie {W}, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires. Si Roigada possède une carte Énergie {P}, défaussez une carte Énergie spéciale attachée au Pokémon Défenseur, s'il en a.",
 				de: "Wenn an Laschoking eine -Energiekarte angelegt ist, fügt dieser Angriff 20 Schadenspunkte plus 20 weitere Schadenspunkte zu. Wenn an Laschoking eine -Energiekarte angelegt ist, lege eine an dem Verteidigenden Pokémon angelegte Spezialenergiekarte auf den Ablagestapel."
 			},
 			damage: "20+",

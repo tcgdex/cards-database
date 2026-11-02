@@ -64,23 +64,30 @@ const card: Card = {
 	retreat: 1,
 	regulationMark: "E",
 
-	variants: {
-		normal: true,
-		reverse: true,
-		holo: false,
-		firstEdition: false
-	},
 
 	stage: "Basic",
 
 	description: {
-		en: "It has the power to travel across time, but it is said to appear only in peaceful times."
+		en: "It has the power to travel across time, but it is said to appear only in peaceful times.",
+		de: "Es kann durch die Zeit reisen, aber es erscheint nur zu friedlichen Zeiten."
 	},
 
-	thirdParty: {
-		cardmarket: 539038,
-		tcgplayer: 232352
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539038,
+				tcgplayer: 232352
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539038,
+				tcgplayer: 232352
+			}
+		},
+	],
 }
 
 export default card

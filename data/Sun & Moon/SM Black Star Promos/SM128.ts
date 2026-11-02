@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Alola Vulnona"
 	},
 	illustrator: "kirisAki",
-	rarity: "Rare",
+	rarity: "Promo",
 	category: "Pokemon",
 
 	set: Set,
@@ -25,6 +25,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Alolan Vulpix",
 		fr: "Goupix d’Alola",
+		de: "Alola-Vulpix"
 	},
 	stage: "Stage1",
 
@@ -89,6 +90,21 @@ const card: Card = {
 
 
 
+
+	description: {
+		en: "Possessing a calm demeanor, this Pokémon was revered as a deity incarnate before it was identified as a regional variant of Ninetales.",
+		de: "Ein sanftmütiges Pokémon, das als Gottheit verehrt wurde, bis man herausfand, dass es sich um eine Regionalform Vulnonas handelt."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 358429,
+				tcgplayer: 168245
+			}
+		}
+	],
 }
 
 export default card
