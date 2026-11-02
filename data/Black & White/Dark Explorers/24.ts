@@ -91,10 +91,22 @@ const card: Card = {
 		de: "Ein begriffsstutziges Pokémon. Beißt das Muschas am Schweif zu, scheint es Intelligenz zu gewinnen."
 	},
 
-	thirdParty: {
-		cardmarket: 280352,
-		tcgplayer: 89309
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280352,
+				tcgplayer: 89309
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280352,
+				tcgplayer: 89309
+			}
+		},
+	],
 }
 
 export default card

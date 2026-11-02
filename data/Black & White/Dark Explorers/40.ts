@@ -78,10 +78,22 @@ const card: Card = {
 		de: "Es feuert Freunde an. Sind diese im Begriff zu verlieren, gibt sein Körper immer mehr Funken ab."
 	},
 
-	thirdParty: {
-		cardmarket: 280368,
-		tcgplayer: 87493
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280368,
+				tcgplayer: 87493
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280368,
+				tcgplayer: 87493
+			}
+		},
+	],
 }
 
 export default card

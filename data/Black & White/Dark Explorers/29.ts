@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Würde jemand seine Ehre verletzen, so würde es mit Flügeln angreifen, die Eis zerschneiden können."
 	},
 
-	thirdParty: {
-		cardmarket: 280357,
-		tcgplayer: 85201
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280357,
+				tcgplayer: 85201
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280357,
+				tcgplayer: 85201
+			}
+		},
+	],
 }
 
 export default card

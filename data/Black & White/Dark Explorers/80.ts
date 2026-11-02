@@ -80,10 +80,22 @@ const card: Card = {
 		de: "Ein freundliches Pokémon, das seine nahrhaften Eier mit verletzten Pokémon und Menschen teilt."
 	},
 
-	thirdParty: {
-		cardmarket: 280408,
-		tcgplayer: 84178
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280408,
+				tcgplayer: 84178
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280408,
+				tcgplayer: 84178
+			}
+		},
+	],
 }
 
 export default card

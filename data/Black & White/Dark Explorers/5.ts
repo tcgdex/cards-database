@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Klammert sich an Bäume in Sümpfen. Lockt Beute mit seinem süßlichen Speichel an und schluckt sie dann."
 	},
 
-	thirdParty: {
-		cardmarket: 280333,
-		tcgplayer: 84106
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280333,
+				tcgplayer: 84106
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280333,
+				tcgplayer: 84106
+			}
+		},
+	],
 }
 
 export default card

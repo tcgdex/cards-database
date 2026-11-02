@@ -26,10 +26,22 @@ const card: Card = {
 		de: "Wähle 1 deiner Basis-Pokémon im Spiel. Wenn du eine Phase-2-Karte auf der Hand hast, die sich aus diesem Pokémon entwickelt, lege sie auf das Basis-Pokémon. (Das zählt als Entwickeln des gewählten Pokémon.) Du kannst diese Karte nicht während deines ersten Zuges oder für ein Basis-Pokémon, das in diesem Zug ins Spiel gebracht wurde, verwenden. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
-	thirdParty: {
-		cardmarket: 280428,
-		tcgplayer: 88596
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280428,
+				tcgplayer: 88596
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280428,
+				tcgplayer: 88596
+			}
+		},
+	],
 }
 
 export default card

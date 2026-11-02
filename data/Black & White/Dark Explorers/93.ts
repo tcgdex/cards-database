@@ -26,10 +26,22 @@ const card: Card = {
 		de: "Lege 1 {D}-Basis-Energiekarte von deinem Ablagestapel an 1 {D}-Pokémon auf deiner Bank an. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
-	thirdParty: {
-		cardmarket: 280421,
-		tcgplayer: 84636
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280421,
+				tcgplayer: 84636
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280421,
+				tcgplayer: 84636
+			}
+		},
+	],
 }
 
 export default card

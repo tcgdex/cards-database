@@ -62,10 +62,22 @@ const card: Card = {
 		de: "Es besitzt ein Organ, mit dem es im Notfall Elektrizität erzeugen kann. Es tritt stets in Schwärmen auf."
 	},
 
-	thirdParty: {
-		cardmarket: 280372,
-		tcgplayer: 90096
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280373,
+				tcgplayer: 90096
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280373,
+				tcgplayer: 90096
+			}
+		},
+	],
 }
 
 export default card

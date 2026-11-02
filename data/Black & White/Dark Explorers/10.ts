@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Bei Gefahr zieht es sich zum Schutz in seine Muschel zurück und schießt eine klebrige Flüssigkeit aus dem Spalt."
 	},
 
-	thirdParty: {
-		cardmarket: 280338,
-		tcgplayer: 89147
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280338,
+				tcgplayer: 89147
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280338,
+				tcgplayer: 89147
+			}
+		},
+	],
 }
 
 export default card

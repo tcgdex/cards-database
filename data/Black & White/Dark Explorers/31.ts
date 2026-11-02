@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Bei Gefahr alarmiert es Artgenossen durch ein schrilles Warnsignal, das es mit seinen Wangen erzeugt."
 	},
 
-	thirdParty: {
-		cardmarket: 280359,
-		tcgplayer: 90089
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280359,
+				tcgplayer: 90089
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280359,
+				tcgplayer: 90089
+			}
+		},
+	],
 }
 
 export default card

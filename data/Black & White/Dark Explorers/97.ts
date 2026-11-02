@@ -29,10 +29,22 @@ const card: Card = {
 		de: "Schau dir die untersten 7 Karten deines Decks an. Falls du dort ein Aerodactyl findest, kannst du es deinem Gegner zeigen und auf deine Bank legen. Mische die anderen Karten anschließend in dein Deck. Du kannst während deines Zuges (vor deinem Angriff) beliebig viele Itemkarten spielen."
 	},
 
-	thirdParty: {
-		cardmarket: 280425,
-		tcgplayer: 87850
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280425,
+				tcgplayer: 87850
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280425,
+				tcgplayer: 87850
+			}
+		},
+	],
 }
 
 export default card

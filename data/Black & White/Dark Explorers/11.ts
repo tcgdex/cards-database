@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Da es ohne Flüssigkeit an Kraft verliert, schützt es sich mit mehreren dünnen Hautschichten vor dem Austrocknen."
 	},
 
-	thirdParty: {
-		cardmarket: 280339,
-		tcgplayer: 83460
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280339,
+				tcgplayer: 83460
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280339,
+				tcgplayer: 83460
+			}
+		},
+	],
 }
 
 export default card

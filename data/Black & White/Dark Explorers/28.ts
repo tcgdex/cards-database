@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Jedes Pliprin geht davon aus, dass es das wichtigste ist. Daher können sie keine Gruppen bilden."
 	},
 
-	thirdParty: {
-		cardmarket: 280356,
-		tcgplayer: 88372
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280356,
+				tcgplayer: 88372
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280356,
+				tcgplayer: 88372
+			}
+		},
+	],
 }
 
 export default card

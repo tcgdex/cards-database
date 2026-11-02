@@ -87,10 +87,29 @@ const card: Card = {
 		de: "Eingeatmete Luft wird in einem Flammensack in seinem Körper auf ca. 1 700 Grad erhitzt."
 	},
 
-	thirdParty: {
-		cardmarket: 280340,
-		tcgplayer: 85500
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280340,
+				tcgplayer: 85500
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['regional-championships'],
+			thirdParty: {
+				cardmarket: 449548
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280340,
+				tcgplayer: 85500
+			}
+		},
+	],
 }
 
 export default card

@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Schüttelt sich glühenden Staub aus seinen sechs Flügeln und verwandelt das Umfeld in ein einziges Meer aus Flammen."
 	},
 
-	thirdParty: {
-		cardmarket: 280350,
-		tcgplayer: 90404
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280350,
+				tcgplayer: 90404
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280350,
+				tcgplayer: 90404
+			}
+		},
+	],
 }
 
 export default card

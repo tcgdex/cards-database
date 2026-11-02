@@ -97,10 +97,22 @@ const card: Card = {
 		de: "Seine zu Stahl weiterentwickelten Bohrer kriegen selbst Eisenplatten klein. Im Tunnelbau ist es ein absolutes Ass."
 	},
 
-	thirdParty: {
-		cardmarket: 280384,
-		tcgplayer: 85339
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280385,
+				tcgplayer: 85339
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280385,
+				tcgplayer: 85339
+			}
+		},
+	],
 }
 
 export default card

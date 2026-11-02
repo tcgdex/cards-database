@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Sein verworrener Bau liegt 100 Meter tief unter der Erde. Gelegentlich gräbt es auch U-Bahn-Schächte an."
 	},
 
-	thirdParty: {
-		cardmarket: 280384,
-		tcgplayer: 85338
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280384,
+				tcgplayer: 85338
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280384,
+				tcgplayer: 85338
+			}
+		},
+	],
 }
 
 export default card
