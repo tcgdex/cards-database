@@ -11,7 +11,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "次の相手の番、自分のポケモン全員が、相手のポケモンから受けるワザのダメージは「-30」される。（新しく場に出したポケモンもふくむ。）",
+		ja: "次の相手の番、自分の{M}ポケモン全員が、相手のポケモンから受けるワザのダメージは「-30」される。（新しく場に出したポケモンもふくむ。）",
 	},
 
 	variants: [
@@ -19,6 +19,8 @@ const card: Card = {
 			type: "holo",
 			thirdParty: {
 				cardmarket: 888647,
+				cardtrader: 391508,
+				tcgplayer: 694996,
 			},
 		},
 	],

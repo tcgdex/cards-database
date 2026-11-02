@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 130,
 	types: ["Darkness"],
 
+	description: {
+		ja: "群れを つくり 密林で 暮らす。 とても 攻撃的で 森にすむ ポケモンたちから 恐れられている。"
+	},
+
 	stage: "Basic",
 
 	attacks: [
@@ -28,12 +32,12 @@ const card: Card = {
 			damage: "100+",
 			cost: ["Darkness", "Darkness", "Darkness"],
 			effect: {
-				ja: "自分のベンチポケモンに「シャドー[D]エネルギー」がついているなら、70ダメージ追加。",
+				ja: "自分のベンチポケモンに「シャドー{D}エネルギー」がついているなら、70ダメージ追加。",
 			},
 		},
 	],
 
-	weaknesses: [{ type: "Grass", value: "x2" }],
+	weaknesses: [{ type: "Grass", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -41,6 +45,8 @@ const card: Card = {
 			type: "holo",
 			thirdParty: {
 				cardmarket: 888635,
+				cardtrader: 391496,
+				tcgplayer: 695004,
 			},
 		},
 	],

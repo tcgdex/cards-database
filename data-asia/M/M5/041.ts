@@ -26,7 +26,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Psychic", value: "x2" }],
+	weaknesses: [{ type: "Psychic", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -34,6 +34,8 @@ const card: Card = {
 			type: "normal",
 			thirdParty: {
 				cardmarket: 888286,
+				cardtrader: 391431,
+				tcgplayer: 695084,
 			},
 		},
 	],

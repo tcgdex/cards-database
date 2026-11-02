@@ -11,7 +11,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいのバトルポケモン（[D]ポケモンをのぞく）を、それぞれこんらんにする。",
+		ja: "おたがいのバトルポケモン（{D}ポケモンをのぞく）を、それぞれこんらんにする。",
 	},
 
 	variants: [
@@ -19,6 +19,8 @@ const card: Card = {
 			type: "holo",
 			thirdParty: {
 				cardmarket: 888650,
+				cardtrader: 391511,
+				tcgplayer: 695007,
 			},
 		},
 	],

@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 160,
 	types: ["Metal"],
 
+	description: {
+		ja: "群れで 暮らす トリデプスたちは 敵に 襲われると 横に 並び 硬い 顔で 攻撃を 防ぐ。"
+	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -32,7 +36,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Fire", value: "x2" }],
+	weaknesses: [{ type: "Fire", value: "×2" }],
 	resistances: [{ type: "Grass", value: "-30" }],
 
 	variants: [
@@ -40,6 +44,8 @@ const card: Card = {
 			type: "holo",
 			thirdParty: {
 				cardmarket: 888636,
+				cardtrader: 391497,
+				tcgplayer: 695027,
 			},
 		},
 	],
