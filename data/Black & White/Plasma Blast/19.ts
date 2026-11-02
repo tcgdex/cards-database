@@ -85,10 +85,22 @@ const card: Card = {
 		de: "Es verkriecht sich gerne in Löchern, von wo aus es Gegner mit Tinte beschießt. Es bevorzugt Felsspalten und Vasen."
 	},
 
-	thirdParty: {
-		cardmarket: 281040,
-		tcgplayer: 87835
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281040,
+				tcgplayer: 87835
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281040,
+				tcgplayer: 87835
+			}
+		},
+	],
 }
 
 export default card

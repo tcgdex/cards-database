@@ -89,10 +89,22 @@ const card: Card = {
 		de: "Eine uralte Kultur erschuf es als Hüter der Pokémon und Menschen. Es wird mit einer rätselhaften Energie betrieben."
 	},
 
-	thirdParty: {
-		cardmarket: 281067,
-		tcgplayer: 85838
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281067,
+				tcgplayer: 85838
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281067,
+				tcgplayer: 85838
+			}
+		},
+	],
 }
 
 export default card

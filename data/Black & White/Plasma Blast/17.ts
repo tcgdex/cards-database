@@ -78,10 +78,22 @@ const card: Card = {
 		de: "Ein schlaues Pokémon, das die Sprache der Menschen versteht und ihnen liebend gern seine Fährdienste anbietet."
 	},
 
-	thirdParty: {
-		cardmarket: 281038,
-		tcgplayer: 86624
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281038,
+				tcgplayer: 86624
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281038,
+				tcgplayer: 86624
+			}
+		},
+	],
 }
 
 export default card

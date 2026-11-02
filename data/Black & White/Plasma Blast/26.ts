@@ -84,10 +84,22 @@ const card: Card = {
 		de: "Sie erscheinen beim Blühen der Schneeblumen und verschwinden wieder, sobald diese verblüht sind."
 	},
 
-	thirdParty: {
-		cardmarket: 281047,
-		tcgplayer: 83442
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281047,
+				tcgplayer: 83442
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281047,
+				tcgplayer: 83442
+			}
+		},
+	],
 }
 
 export default card

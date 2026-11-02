@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Es erwischt Gegner mit harten Schlägen seiner kräftigen Arme und hackt mit enormer Geschwindigkeit."
 	},
 
-	thirdParty: {
-		cardmarket: 281070,
-		tcgplayer: 86970
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281071,
+				tcgplayer: 86970
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281071,
+				tcgplayer: 86970
+			}
+		},
+	],
 }
 
 export default card

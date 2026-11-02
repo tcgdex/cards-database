@@ -61,10 +61,22 @@ const card: Card = {
 		de: "Scheinbar reitet es auf dem Wasser. Es lockt seine Beute mit einem süßen Duft an."
 	},
 
-	thirdParty: {
-		cardmarket: 281022,
-		tcgplayer: 89652
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281022,
+				tcgplayer: 89652
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281022,
+				tcgplayer: 89652
+			}
+		},
+	],
 }
 
 export default card
