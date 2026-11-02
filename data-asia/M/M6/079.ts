@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 140,
 	types: ["Fire"],
 
+	description: {
+		ja: "火山の 火口に 棲む。 １つの 火山には ひとつがいの ブーバーンしかいないと いわれる。"
+	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -19,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "バディブースト" },
 			effect: {
-				ja: "自分の番に1回使える。自分の手札から「基本[R]エネルギー」と「基本[L]エネルギー」をそれぞれ1枚まで選び、自分の「エレキブル」または「ブーバーン」に好きなようにつける。",
+				ja: "自分の番に1回使える。自分の手札から「基本{R}エネルギー」と「基本{L}エネルギー」をそれぞれ1枚まで選び、自分の「エレキブル」または「ブーバーン」に好きなようにつける。",
 			},
 		},
 	],
@@ -32,7 +36,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Water", value: "x2" }],
+	weaknesses: [{ type: "Water", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -41,6 +45,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900104,
 				tcgplayer: 709232,
+				cardtrader: 403162,
 			},
 		},
 	],
@@ -51,7 +56,7 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Illustration rare",
 	dexId: [467],
 };
 

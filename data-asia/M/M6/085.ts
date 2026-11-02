@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 60,
 	types: ["Darkness"],
 
+	description: {
+		ja: "光の 点滅で 襲ってきた 敵の 戦意を なくしてしまう。 その 隙に 姿を くらますのだ。"
+	},
+
 	stage: "Basic",
 
 	attacks: [
@@ -25,7 +29,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Grass", value: "x2" }],
+	weaknesses: [{ type: "Grass", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -34,13 +38,14 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900111,
 				tcgplayer: 709238,
+				cardtrader: 403168,
 			},
 		},
 	],
 
 	retreat: 1,
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Illustration rare",
 	dexId: [686],
 };
 

@@ -7,7 +7,7 @@ const card: Card = {
 		ja: "メガレックウザex",
 	},
 
-	illustrator: "Kozuki Minami",
+	illustrator: "Kazuki Minami",
 	category: "Pokemon",
 	hp: 280,
 	types: ["Colorless"],
@@ -30,12 +30,12 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Fire", "Lightning", "Colorless"],
 			effect: {
-				ja: "自分のポケモン全員についている[R]と[L]エネルギーの数×50ダメージ。",
+				ja: "自分のポケモン全員についている{R}と{L}エネルギーの数×50ダメージ。",
 			},
 		},
 	],
 
-	weaknesses: [{ type: "Lightning", value: "x2" }],
+	weaknesses: [{ type: "Lightning", value: "×2" }],
 	resistances: [{ type: "Fighting", value: "-30" }],
 
 	variants: [
@@ -44,13 +44,14 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900143,
 				tcgplayer: 709264,
+				cardtrader: 403028,
 			},
 		},
 	],
 
 	retreat: 2,
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Special illustration rare",
 	dexId: [384],
 
 	suffix: "EX",

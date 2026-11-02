@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 80,
 	types: ["Lightning"],
 
+	description: {
+		ja: "藻屑が 触っただけで 驚き 放電してしまうほど 臆病。 唇は 電気を 通さない。"
+	},
+
 	stage: "Basic",
 
 	attacks: [
@@ -25,7 +29,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Fighting", value: "x2" }],
+	weaknesses: [{ type: "Fighting", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -34,13 +38,14 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900108,
 				tcgplayer: 709235,
+				cardtrader: 403165,
 			},
 		},
 	],
 
 	retreat: 1,
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Illustration rare",
 	dexId: [871],
 };
 

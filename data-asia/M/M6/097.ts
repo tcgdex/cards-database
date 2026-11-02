@@ -11,7 +11,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の山札から「基本[R]エネルギー」と「基本[L]エネルギー」を1枚ずつ選び、相手に見せて、手札に加える。そして山札を切る。",
+		ja: "自分の山札から「基本{R}エネルギー」と「基本{L}エネルギー」を1枚ずつ選び、相手に見せて、手札に加える。そして山札を切る。",
 	},
 
 	variants: [
@@ -20,13 +20,14 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900130,
 				tcgplayer: 709250,
+				cardtrader: 403180,
 			},
 		},
 	],
 
 	trainerType: "Item",
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Ultra Rare",
 };
 
 export default card;
