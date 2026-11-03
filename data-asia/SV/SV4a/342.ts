@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hideki Ishikawa",
+	rarity: "Ultra Rare",
 	category: "Trainer",
 
 	effect: {
@@ -25,6 +26,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747696,
 				tcgplayer: 567742,
+				cardtrader: 270339,
 			},
 		},
 	],

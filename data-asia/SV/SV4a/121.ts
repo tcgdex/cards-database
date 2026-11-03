@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Nagomi Nijo",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [302],
 	hp: 70,
@@ -69,10 +70,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746503,
 				tcgplayer: 567522,
+				cardtrader: 269745,
 			},
 		},
 	],

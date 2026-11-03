@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Sekio",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [45],
 	hp: 140,
 	types: ["Grass"],
+
+	evolveFrom: {
+		ja: "クサイハナ"
+	},
 
 	description: {
 		ja: "花びらが 大きいほど たくさん 花粉を 出すが 頭が 重たくて 疲れてしまうという。",
@@ -64,10 +69,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746205,
 				tcgplayer: 567350,
+				cardtrader: 269636,
 			},
 		},
 	],

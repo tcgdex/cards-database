@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [40],
 	hp: 110,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "プリン"
+	},
 
 	description: {
 		ja: "キメ細やかな 毛皮の 持ち主。 怒らせると どんどん ふくらみ のしかかってくるので 注意。",
@@ -63,6 +68,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747606,
 				tcgplayer: 567653,
+				cardtrader: 270271,
 			},
 		},
 	],

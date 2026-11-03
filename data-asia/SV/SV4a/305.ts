@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [17],
 	hp: 80,
 	types: ["Colorless"],
+
+	evolveFrom: {
+		ja: "ポッポ"
+	},
 
 	description: {
 		ja: "広い 縄張りを 持っており 侵入する 邪魔者は 徹底的に つつかれてしまう。",
@@ -52,6 +57,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747659,
 				tcgplayer: 567706,
+				cardtrader: 270373,
 			},
 		},
 	],

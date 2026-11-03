@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "kawayoo",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [984],
 	hp: 250,
 	types: ["Fighting"],
 	stage: "Basic",
@@ -68,6 +69,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746494,
 				tcgplayer: 567513,
+				cardtrader: 269727,
 			},
 		},
 	],

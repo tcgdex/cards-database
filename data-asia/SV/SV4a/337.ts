@@ -11,7 +11,9 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA Mochizuki",
+	rarity: "Shiny Ultra Rare",
 	category: "Pokemon",
+	dexId: [931],
 	hp: 160,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -67,6 +69,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747691,
 				tcgplayer: 567737,
+				cardtrader: 270345,
 			},
 		},
 	],

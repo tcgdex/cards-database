@@ -14,8 +14,14 @@ const card: Card = {
 	illustrator: "Mitsuhiro Arita",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [65],
 	hp: 310,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "ユンゲラー"
+	},
+
 	stage: "Stage2",
 	suffix: "EX",
 
@@ -73,6 +79,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746457,
 				tcgplayer: 567464,
+				cardtrader: 269651,
 			},
 		},
 	],

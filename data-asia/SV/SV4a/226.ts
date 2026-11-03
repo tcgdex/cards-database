@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Misa Tsutsui",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [960],
 	hp: 50,
@@ -53,6 +54,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747580,
 				tcgplayer: 567627,
+				cardtrader: 270227,
 			},
 		},
 	],

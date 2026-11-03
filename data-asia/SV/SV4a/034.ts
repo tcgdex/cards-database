@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "AKIRA EGAWA",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [936],
 	hp: 130,
 	types: ["Fire"],
+
+	evolveFrom: {
+		ja: "カルボウ"
+	},
 
 	description: {
 		ja: "多くの 武勲を 立てた 戦士の 鎧によって 進化した 姿。 忠誠心の 厚い ポケモン。",
@@ -37,7 +42,7 @@ const card: Card = {
 		},
 
 		effect: {
-			ja: "自分の番に何回でも使える。自分のベンチポケモンについているエネルギーを1個選び、バトルポケモンにつけ替える。",
+			ja: "自分の番に何回でも使える。自分のベンチポケモンについている{R}エネルギーを1個選び、バトルポケモンにつけ替える。",
 			'zh-tw': "在自己的回合時，可不限次數使用。選擇1個自己的備戰寶可夢身上附加的【火】能量，改附於戰鬥寶可夢身上。",
 			th: "ใช้กี่ครั้งก็ได้ในเทิร์นฝ่ายเรา เลือกพลังงาน[ไฟ]ที่ติดอยู่กับโปเกมอนบนเบนช์ฝ่ายเรา 1 ลูก ย้ายไปติดกับโปเกมอนบนตำแหน่งต่อสู้",
 			id: "Dapat digunakan berkali-kali pada giliran sendiri. Pilih 1 Energi {Api} yang dikenakan pada Pokémon Cadangan sendiri, lalu pindahkan ke Pokémon Bertarung."
@@ -71,10 +76,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746236,
 				tcgplayer: 567395,
+				cardtrader: 269621,
 			},
 		},
 	],

@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "kawayoo",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [281],
 	hp: 90,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "ラルトス"
+	},
 
 	description: {
 		ja: "サイコパワーを 操り まわりの 空間を ねじ曲げることで 未来を 見通すことができる。",
@@ -73,6 +78,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746463,
 				tcgplayer: 567475,
+				cardtrader: 269709,
 			},
 		},
 		{

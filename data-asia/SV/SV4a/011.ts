@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Ryuta Fuse",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [460],
 	hp: 150,
 	types: ["Grass"],
+
+	evolveFrom: {
+		ja: "ユキカブリ"
+	},
 
 	description: {
 		ja: "万年雪が 積もる 山脈で 静かに 暮らす。 ブリザードを 発生させて 姿を 隠す。",
@@ -64,10 +69,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746213,
 				tcgplayer: 567361,
+				cardtrader: 269641,
 			},
 		},
 	],

@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Masakazu Fukuda",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [279],
 	hp: 120,
 	types: ["Colorless"],
+
+	evolveFrom: {
+		ja: "キャモメ"
+	},
 
 	description: {
 		ja: "くちばしに 小さな ポケモンを 入れて 飛ぶ 空の 配達屋。 海に 浮かんで 羽を 休める。",
@@ -68,6 +73,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747666,
 				tcgplayer: 567713,
+				cardtrader: 270378,
 			},
 		},
 	],

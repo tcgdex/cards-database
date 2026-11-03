@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Masakazu Fukuda",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [935],
 	hp: 70,
@@ -47,6 +48,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747571,
 				tcgplayer: 567618,
+				cardtrader: 270208,
 			},
 		},
 	],

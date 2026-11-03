@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "OKACHEKE",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [909],
 	hp: 80,
@@ -47,6 +48,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747569,
 				tcgplayer: 567616,
+				cardtrader: 270210,
 			},
 		},
 	],

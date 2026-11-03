@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Sekio",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [44],
 	hp: 70,
 	types: ["Grass"],
+
+	evolveFrom: {
+		ja: "ナゾノクサ"
+	},
 
 	description: {
 		ja: "よだれのように 見える 甘い蜜。 とても ねばねば しており 触れると いつまでも まとわりつく。",
@@ -68,6 +73,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746204,
 				tcgplayer: 567349,
+				cardtrader: 269632,
 			},
 		},
 		{

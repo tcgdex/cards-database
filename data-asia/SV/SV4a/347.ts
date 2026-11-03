@@ -11,7 +11,9 @@ const card: Card = {
 	},
 
 	illustrator: "USGMEN",
+	rarity: "Special illustration rare",
 	category: "Pokemon",
+	dexId: [151],
 	hp: 180,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -65,6 +67,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747701,
 				tcgplayer: 567746,
+				cardtrader: 270352,
 			},
 		},
 	],

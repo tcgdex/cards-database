@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "GIDORA",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [933],
 	hp: 100,
 	types: ["Fighting"],
+
+	evolveFrom: {
+		ja: "コジオ"
+	},
 
 	description: {
 		ja: "塩を 噴き出して 獲物に 浴びせ 塩漬けにしてしまう。 体内の 水分を 奪ってしまうのだ。",
@@ -57,6 +62,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746490,
 				tcgplayer: 567509,
+				cardtrader: 269736,
 			},
 		},
 		{

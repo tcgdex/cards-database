@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "GOSSAN",
+	rarity: "None",
 	category: "Trainer",
 
 	effect: {
@@ -27,6 +28,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746557,
 				tcgplayer: 567576,
+				cardtrader: 269760,
 			},
 		},
 		{

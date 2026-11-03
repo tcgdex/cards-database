@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [983],
 	hp: 170,
 	types: ["Darkness"],
+
+	evolveFrom: {
+		ja: "キリキザン"
+	},
 
 	description: {
 		ja: "ドドゲザンに 進化できるのは 大軍勢の 頂点に 立った １匹の キリキザンだけなのだ。",
@@ -63,6 +68,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747648,
 				tcgplayer: 567696,
+				cardtrader: 270279,
 			},
 		},
 	],

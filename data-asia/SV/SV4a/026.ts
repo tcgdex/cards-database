@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Tonji Matsuno",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [5],
 	hp: 90,
 	types: ["Fire"],
+
+	evolveFrom: {
+		ja: "ヒトカゲ"
+	},
 
 	description: {
 		ja: "戦いで 気持ちが たかぶると 灼熱の 炎を 吹きながら あたりを 燃やしてまわる。",
@@ -68,6 +73,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746228,
 				tcgplayer: 567382,
+				cardtrader: 269617,
 			},
 		},
 		{

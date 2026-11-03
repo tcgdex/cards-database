@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Kyoko Umemoto",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [961],
 	hp: 90,
 	types: ["Water"],
+
+	evolveFrom: {
+		ja: "ウミディグダ"
+	},
 
 	description: {
 		ja: "見かけによらず 気性が 荒い。 長い 体で 獲物を 締め上げ 巣穴に 引きずりこむぞ。",
@@ -61,6 +66,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747581,
 				tcgplayer: 567628,
+				cardtrader: 270226,
 			},
 		},
 	],

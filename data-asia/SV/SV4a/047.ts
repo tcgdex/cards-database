@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "nagimiso",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [964],
 	hp: 150,
 	types: ["Water"],
+
+	evolveFrom: {
+		ja: "ナミイルカ"
+	},
 
 	description: {
 		ja: "太古の 遺伝子が 覚醒。 片ヒレで クルーズ船を 軽々 持ち上げる 怪力の 持ち主。",
@@ -71,10 +76,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746415,
 				tcgplayer: 567413,
+				cardtrader: 269689,
 			},
 		},
 	],

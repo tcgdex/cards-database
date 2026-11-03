@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [204],
 	hp: 70,
@@ -50,6 +51,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746210,
 				tcgplayer: 567357,
+				cardtrader: 269629,
 			},
 		},
 		{

@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ryuta Fuse",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [244],
 	hp: 130,
@@ -52,7 +53,7 @@ const card: Card = {
 		damage: "60+",
 
 		effect: {
-			ja: "このポケモンについているエネルギーの数×20ダメージ追加。",
+			ja: "このポケモンについている{R}エネルギーの数×20ダメージ追加。",
 			'zh-tw': "增加這隻寶可夢身上附加的【火】能量的數量×20點傷害。",
 			id: "Kerusakan yang diberikan bertambah sejumlah 20 untuk tiap Energi {Api} yang dikenakan pada Pokémon ini."
 		}
@@ -69,6 +70,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747567,
 				tcgplayer: 567614,
+				cardtrader: 270212,
 			},
 		},
 	],

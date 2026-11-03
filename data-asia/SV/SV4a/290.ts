@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [461],
 	hp: 110,
 	types: ["Darkness"],
+
+	evolveFrom: {
+		ja: "ニューラ"
+	},
 
 	description: {
 		ja: "進化して さらに ずる賢くなり ツメで 石に サインをつけて コミュニケーションを はかっている。",
@@ -63,6 +68,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747644,
 				tcgplayer: 567691,
+				cardtrader: 270316,
 			},
 		},
 	],

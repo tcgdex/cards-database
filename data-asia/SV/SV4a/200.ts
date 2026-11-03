@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Hitoshi Ariga",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [460],
 	hp: 150,
 	types: ["Grass"],
+
+	evolveFrom: {
+		ja: "ユキカブリ"
+	},
 
 	description: {
 		ja: "万年雪が 積もる 山脈で 静かに 暮らす。 ブリザードを 発生させて 姿を 隠す。",
@@ -63,6 +68,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747554,
 				tcgplayer: 567601,
+				cardtrader: 270193,
 			},
 		},
 	],

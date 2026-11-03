@@ -11,9 +11,16 @@ const card: Card = {
 	},
 
 	illustrator: "takuyoa",
+	rarity: "Shiny Ultra Rare",
 	category: "Pokemon",
+	dexId: [18],
 	hp: 280,
 	types: ["Colorless"],
+
+	evolveFrom: {
+		ja: "ピジョン"
+	},
+
 	stage: "Stage2",
 	suffix: "EX",
 
@@ -67,6 +74,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747689,
 				tcgplayer: 567735,
+				cardtrader: 270344,
 			},
 		},
 	],

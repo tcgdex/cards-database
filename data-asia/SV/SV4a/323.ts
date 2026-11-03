@@ -11,9 +11,16 @@ const card: Card = {
 	},
 
 	illustrator: "takuyoa",
+	rarity: "Shiny Ultra Rare",
 	category: "Pokemon",
+	dexId: [956],
 	hp: 260,
 	types: ["Grass"],
+
+	evolveFrom: {
+		ja: "ヒラヒナ"
+	},
+
 	stage: "Stage1",
 	suffix: "EX",
 
@@ -27,7 +34,7 @@ const card: Card = {
 		},
 
 		effect: {
-			ja: "このポケモンがバトル場にいるかぎり、相手のバトルポケモンは、ワザを使うためのエネルギーが、エネルギー1個ぶん多くなる。",
+			ja: "このポケモンがバトル場にいるかぎり、相手のバトルポケモンは、ワザを使うためのエネルギーが、{C}エネルギー1個ぶん多くなる。",
 			'zh-tw': "只要這隻寶可夢在戰鬥場上，對手的戰鬥寶可夢使用招式所需的能量增加1個【無】能量。",
 			id: "Selama Pokémon ini ada di Arena Bertarung, Energi yang dibutuhkan oleh Pokémon Bertarung lawan untuk menggunakan serangan bertambah 1 Energi {Bening}."
 		}
@@ -62,6 +69,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747677,
 				tcgplayer: 567723,
+				cardtrader: 270327,
 			},
 		},
 	],

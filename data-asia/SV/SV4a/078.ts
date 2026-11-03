@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Teeziro",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [177],
 	hp: 50,
@@ -62,6 +63,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746460,
 				tcgplayer: 567469,
+				cardtrader: 269648,
 			},
 		},
 		{

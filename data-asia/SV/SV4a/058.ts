@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "nagimiso",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [101],
 	hp: 90,
 	types: ["Lightning"],
+
+	evolveFrom: {
+		ja: "ビリリダマ"
+	},
 
 	description: {
 		ja: "電気エネルギーを 溜めこむほど 高速で 動けるようになるが そのぶん 爆発 しやすい。",
@@ -64,10 +69,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746440,
 				tcgplayer: 567437,
+				cardtrader: 269659,
 			},
 		},
 	],

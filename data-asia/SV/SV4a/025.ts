@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "GIDORA",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [4],
 	hp: 70,
@@ -66,6 +67,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746227,
 				tcgplayer: 567381,
+				cardtrader: 269611,
 			},
 		},
 		{

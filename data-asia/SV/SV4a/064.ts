@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "AKIRA EGAWA",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [848],
 	hp: 70,
@@ -57,6 +58,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746446,
 				tcgplayer: 567446,
+				cardtrader: 269668,
 			},
 		},
 		{

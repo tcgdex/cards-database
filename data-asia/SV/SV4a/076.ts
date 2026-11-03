@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "aky CG Works",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [151],
 	hp: 180,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -71,6 +72,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746458,
 				tcgplayer: 567466,
+				cardtrader: 269653,
 			},
 		},
 	],

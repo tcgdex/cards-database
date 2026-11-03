@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "GOSSAN",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [212],
 	hp: 140,
 	types: ["Metal"],
+
+	evolveFrom: {
+		ja: "ストライク"
+	},
 
 	description: {
 		ja: "鋼鉄を 含んでいる ハサミで 捕らえたものは どんなに 硬くても コナゴナに 砕く。",
@@ -68,6 +73,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747653,
 				tcgplayer: 567700,
+				cardtrader: 270290,
 			},
 		},
 	],

@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Aya Kusube",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [442],
 	hp: 60,
@@ -76,10 +77,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746468,
 				tcgplayer: 567483,
+				cardtrader: 269686,
 			},
 		},
 	],

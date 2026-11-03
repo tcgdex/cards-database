@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "aspara",
+	rarity: "Special illustration rare",
 	category: "Trainer",
 
 	effect: {
@@ -25,6 +26,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747707,
 				tcgplayer: 567751,
+				cardtrader: 270354,
 			},
 		},
 	],

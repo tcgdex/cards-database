@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "nagimiso",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [935],
 	hp: 70,
@@ -50,6 +51,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746235,
 				tcgplayer: 567393,
+				cardtrader: 269625,
 			},
 		},
 		{

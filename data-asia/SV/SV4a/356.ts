@@ -9,7 +9,9 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA Yamashita",
+	rarity: "Secret Rare",
 	category: "Pokemon",
+	dexId: [1004],
 	hp: 190,
 	types: ["Fire"],
 	stage: "Basic",
@@ -35,7 +37,7 @@ const card: Card = {
 		damage: 100,
 
 		effect: {
-			ja: "自分のベンチポケモンを3匹まで選び、山札から「基本エネルギー」を1枚ずつつける。そして山札を切る。"
+			ja: "自分のベンチポケモンを3匹まで選び、山札から「基本{R}エネルギー」を1枚ずつつける。そして山札を切る。"
 		}
 	}],
 
@@ -44,12 +46,14 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	regulationMark: "G",
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747710,
 				tcgplayer: 567753,
+				cardtrader: 270351,
 			},
 		},
 	],

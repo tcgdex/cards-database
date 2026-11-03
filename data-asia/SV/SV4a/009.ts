@@ -14,8 +14,14 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [205],
 	hp: 270,
 	types: ["Grass"],
+
+	evolveFrom: {
+		ja: "クヌギダマ"
+	},
+
 	stage: "Stage1",
 	suffix: "EX",
 
@@ -30,7 +36,7 @@ const card: Card = {
 		},
 
 		effect: {
-			ja: "自分の番に1回使えて、使ったなら、このポケモンをきぜつさせる。自分の山札から「基本エネルギー」を5枚まで選び、自分のポケモンに好きなようにつける。そして山札を切る。",
+			ja: "自分の番に1回使えて、使ったなら、このポケモンをきぜつさせる。自分の山札から「基本{G}エネルギー」を5枚まで選び、自分のポケモンに好きなようにつける。そして山札を切る。",
 			'zh-tw': "在自己的回合時可使用1次，若使用，則將這隻寶可夢【昏厥】。從自己的牌庫選擇最多5張「基本【草】能量」卡，以任意方式附於自己的寶可夢身上。並且重洗牌庫。",
 			th: "ใช้ได้ 1 ครั้งในเทิร์นฝ่ายเรา เมื่อใช้แล้ว จะทำให้โปเกมอนนี้[หมดสภาพ] เลือกการ์ด [พลังงานพื้นฐาน[หญ้า]] ได้สูงสุด 5 ใบจากสำรับการ์ดฝ่ายเรา ติดที่โปเกมอนฝ่ายเราตามชอบ แล้วสับสำรับการ์ด",
 			id: "Dapat digunakan 1 kali pada giliran sendiri. Pokémon ini KO jika menggunakan Ability ini. Pilih paling banyak 5 lembar Energi Dasar {Daun} dari Deck sendiri, lalu kenakan sesukanya pada Pokémon sendiri. Kemudian, kocok Deck."
@@ -68,6 +74,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746211,
 				tcgplayer: 567359,
+				cardtrader: 269642,
 			},
 		},
 	],

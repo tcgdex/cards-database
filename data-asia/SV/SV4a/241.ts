@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Souichirou Gunjima",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [404],
 	hp: 90,
 	types: ["Lightning"],
+
+	evolveFrom: {
+		ja: "コリンク"
+	},
 
 	description: {
 		ja: "鋭い ツメの 先には 強い 電気が 流れており ほんの少し かするだけで 敵を 気絶させる。",
@@ -57,6 +62,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747595,
 				tcgplayer: 567642,
+				cardtrader: 270244,
 			},
 		},
 	],

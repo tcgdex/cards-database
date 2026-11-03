@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Narumi Sato",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [79],
 	hp: 70,
@@ -66,6 +67,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746404,
 				tcgplayer: 567398,
+				cardtrader: 269615,
 			},
 		},
 		{

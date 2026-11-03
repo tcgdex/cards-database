@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Anesaki Dynamic",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [983],
 	hp: 170,
 	types: ["Darkness"],
+
+	evolveFrom: {
+		ja: "キリキザン"
+	},
 
 	description: {
 		ja: "ドドゲザンに 進化できるのは 大軍勢の 頂点に 立った １匹の キリキザンだけなのだ。",
@@ -64,10 +69,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746506,
 				tcgplayer: 567525,
+				cardtrader: 269738,
 			},
 		},
 	],

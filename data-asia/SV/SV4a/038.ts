@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Arai Kiriko",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [120],
 	hp: 60,
@@ -57,6 +58,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746406,
 				tcgplayer: 567401,
+				cardtrader: 269608,
 			},
 		},
 		{

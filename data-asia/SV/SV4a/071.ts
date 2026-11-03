@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [1008],
 	hp: 220,
 	types: ["Lightning"],
 	stage: "Basic",
@@ -30,7 +31,7 @@ const card: Card = {
 		},
 
 		effect: {
-			ja: "自分の番に1回使える。自分の山札からタイプのたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
+			ja: "自分の番に1回使える。自分の山札から{L}タイプのたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
 			'zh-tw': "在自己的回合時可使用1次。從自己的牌庫選擇最多2張【雷】屬性的【基礎】寶可夢卡，放置於備戰區。並且重洗牌庫。",
 			th: "ใช้ได้ 1 ครั้งในเทิร์นฝ่ายเรา เลือกการ์ดโปเกมอน[พื้นฐาน]ประเภท[สายฟ้า]ได้สูงสุด 2 ใบจากสำรับการ์ดฝ่ายเรา วางบนเบนช์ แล้วสับสำรับการ์ด",
 			id: "Dapat digunakan 1 kali pada giliran sendiri. Pilih paling banyak 2 lembar Pokémon Basic tipe {Listrik} dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
@@ -68,6 +69,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746453,
 				tcgplayer: 567459,
+				cardtrader: 269661,
 			},
 		},
 	],

@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Anesaki Dynamic",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [959],
 	hp: 140,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "ナカヌチャン"
+	},
 
 	description: {
 		ja: "知能が 高く とても 豪快。 ハンマーで 岩を 殴り飛ばして 空飛ぶ アーマーガアを 狙う。",
@@ -71,10 +76,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746478,
 				tcgplayer: 567497,
+				cardtrader: 269695,
 			},
 		},
 	],

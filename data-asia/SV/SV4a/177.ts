@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "kirisAki",
+	rarity: "None",
 	category: "Trainer",
 
 	effect: {
@@ -23,10 +24,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746559,
 				tcgplayer: 567578,
+				cardtrader: 269756,
 			},
 		},
 	],

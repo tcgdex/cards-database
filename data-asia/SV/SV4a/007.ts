@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Naoyo Kimura",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [189],
 	hp: 90,
 	types: ["Grass"],
+
+	evolveFrom: {
+		ja: "ポポッコ"
+	},
 
 	description: {
 		ja: "季節風に 乗り 旅をする。 綿胞子が 尽きるとき 旅と ワタッコの 一生は 終わる。",
@@ -71,10 +76,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746209,
 				tcgplayer: 567355,
+				cardtrader: 269633,
 			},
 		},
 	],

@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Scav",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [945],
 	hp: 90,
 	types: ["Darkness"],
+
+	evolveFrom: {
+		ja: "シルシュルー"
+	},
 
 	description: {
 		ja: "エサによって 色が 変化する 毒の 唾液を 指に 塗して 森の 木々に 模様を 描く。",
@@ -67,6 +72,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747652,
 				tcgplayer: 567699,
+				cardtrader: 270288,
 			},
 		},
 	],

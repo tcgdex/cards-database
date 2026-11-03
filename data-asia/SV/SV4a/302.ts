@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Nelnal",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [714],
 	hp: 70,
@@ -42,6 +43,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747656,
 				tcgplayer: 567703,
+				cardtrader: 270367,
 			},
 		},
 	],

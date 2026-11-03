@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Taira Akitsu",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [425],
 	hp: 70,
@@ -73,6 +74,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746465,
 				tcgplayer: 567479,
+				cardtrader: 269705,
 			},
 		},
 		{

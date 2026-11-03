@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Sanosuke Sakuma",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [819],
 	hp: 60,
@@ -63,6 +64,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747667,
 				tcgplayer: 567714,
+				cardtrader: 270371,
 			},
 		},
 	],

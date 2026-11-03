@@ -11,9 +11,16 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA Tsuji",
+	rarity: "Shiny Ultra Rare",
 	category: "Pokemon",
+	dexId: [65],
 	hp: 310,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "ユンゲラー"
+	},
+
 	stage: "Stage2",
 	suffix: "EX",
 
@@ -67,6 +74,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747680,
 				tcgplayer: 567726,
+				cardtrader: 270333,
 			},
 		},
 	],

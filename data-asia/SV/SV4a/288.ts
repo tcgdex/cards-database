@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hitoshi Ariga",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [198],
 	hp: 60,
@@ -74,6 +75,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747642,
 				tcgplayer: 567689,
+				cardtrader: 270320,
 			},
 		},
 	],

@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [820],
 	hp: 120,
 	types: ["Colorless"],
+
+	evolveFrom: {
+		ja: "ホシガリス"
+	},
 
 	description: {
 		ja: "体の 約２倍の 長さの 尻尾で 木から 落とした 木の実を ごっそり 包んで 持ち去るぞ。",
@@ -63,6 +68,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747668,
 				tcgplayer: 567715,
+				cardtrader: 270381,
 			},
 		},
 	],

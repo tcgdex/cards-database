@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "GIDORA",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [849],
 	hp: 140,
 	types: ["Lightning"],
+
+	evolveFrom: {
+		ja: "エレズン"
+	},
 
 	description: {
 		ja: "どんな 相手にも 動じず 気だるげに ケンカを売る スタイルに 憧れる 若者も 多い。",
@@ -67,6 +72,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747600,
 				tcgplayer: 567647,
+				cardtrader: 270275,
 			},
 		},
 	],

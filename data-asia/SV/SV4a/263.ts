@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "MAHOU",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [442],
 	hp: 60,
@@ -74,6 +75,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747617,
 				tcgplayer: 567664,
+				cardtrader: 270261,
 			},
 		},
 	],

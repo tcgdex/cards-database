@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "REND",
+	rarity: "Illustration rare",
 	category: "Pokemon",
 	dexId: [921],
 	hp: 60,
@@ -57,6 +58,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747694,
 				tcgplayer: 567740,
+				cardtrader: 270346,
 			},
 		},
 	],

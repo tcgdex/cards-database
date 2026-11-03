@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "sowsow",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [624],
 	hp: 70,
@@ -61,6 +62,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746504,
 				tcgplayer: 567523,
+				cardtrader: 269743,
 			},
 		},
 		{

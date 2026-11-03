@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "GOSSAN",
+	rarity: "Ultra Rare",
 	category: "Trainer",
 
 	effect: {
@@ -25,6 +26,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747698,
 				tcgplayer: 567743,
+				cardtrader: 270360,
 			},
 		},
 	],

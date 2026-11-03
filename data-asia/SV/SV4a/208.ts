@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [952],
 	hp: 110,
 	types: ["Grass"],
+
+	evolveFrom: {
+		ja: "カプサイジ"
+	},
 
 	description: {
 		ja: "レッドヘッドは 辛み成分を 炎エネルギーに 変え 激辛の 火炎放射を まき散らす。",
@@ -34,7 +39,7 @@ const card: Card = {
 		},
 
 		effect: {
-			ja: "このポケモンは、場にいるかぎりとの2つのタイプになる。",
+			ja: "このポケモンは、場にいるかぎり{G}と{R}の2つのタイプになる。",
 			'zh-tw': "只要這隻寶可夢在場上，改為【草】與【火】2種屬性。",
 			id: "Selama Pokémon ini ada di Arena, Pokémon ini menjadi 2 tipe yaitu {Daun} dan {Api}."
 		}
@@ -69,6 +74,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747562,
 				tcgplayer: 567609,
+				cardtrader: 270182,
 			},
 		},
 	],

@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Naoki Saito",
+	rarity: "Ultra Rare",
 	category: "Trainer",
 
 	effect: {
@@ -25,6 +26,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747700,
 				tcgplayer: 567745,
+				cardtrader: 270363,
 			},
 		},
 	],

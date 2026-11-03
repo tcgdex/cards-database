@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [959],
 	hp: 140,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "ナカヌチャン"
+	},
 
 	description: {
 		ja: "知能が 高く とても 豪快。 ハンマーで 岩を 殴り飛ばして 空飛ぶ アーマーガアを 狙う。",
@@ -69,6 +74,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747627,
 				tcgplayer: 567674,
+				cardtrader: 270240,
 			},
 		},
 	],

@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Oswaldo KATO",
+	rarity: "None",
 	category: "Trainer",
 
 	effect: {
@@ -27,6 +28,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746567,
 				tcgplayer: 567586,
+				cardtrader: 269799,
 			},
 		},
 		{

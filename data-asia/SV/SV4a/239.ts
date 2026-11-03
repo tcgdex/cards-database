@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Masakazu Fukuda",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [101],
 	hp: 90,
 	types: ["Lightning"],
+
+	evolveFrom: {
+		ja: "ビリリダマ"
+	},
 
 	description: {
 		ja: "電気エネルギーを 溜めこむほど 高速で 動けるようになるが そのぶん 爆発 しやすい。",
@@ -63,6 +68,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747593,
 				tcgplayer: 567640,
+				cardtrader: 270215,
 			},
 		},
 	],

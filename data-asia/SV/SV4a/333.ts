@@ -11,7 +11,9 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
+	rarity: "Shiny Ultra Rare",
 	category: "Pokemon",
+	dexId: [990],
 	hp: 220,
 	types: ["Metal"],
 	stage: "Basic",
@@ -51,6 +53,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747687,
 				tcgplayer: 567733,
+				cardtrader: 270340,
 			},
 		},
 	],

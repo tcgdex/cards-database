@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ryuta Fuse",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [948],
 	hp: 50,
@@ -53,6 +54,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747560,
 				tcgplayer: 567607,
+				cardtrader: 270184,
 			},
 		},
 	],

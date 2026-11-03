@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "kantaro",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [405],
 	hp: 150,
 	types: ["Lightning"],
+
+	evolveFrom: {
+		ja: "ルクシオ"
+	},
 
 	description: {
 		ja: "壁の向こうも 見える 力で 逃げた 獲物を 追いつめるほかにも 迷子の 子どもを 捜したりする。",
@@ -69,6 +74,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747596,
 				tcgplayer: 567643,
+				cardtrader: 270285,
 			},
 		},
 	],

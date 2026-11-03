@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Haru Akasaka",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [741],
 	hp: 90,
@@ -64,10 +65,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746231,
 				tcgplayer: 567387,
+				cardtrader: 269623,
 			},
 		},
 	],

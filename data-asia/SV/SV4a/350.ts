@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "hanabushi",
+	rarity: "Special illustration rare",
 	category: "Trainer",
 
 	effect: {
@@ -25,6 +26,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747704,
 				tcgplayer: 567749,
+				cardtrader: 270357,
 			},
 		},
 	],

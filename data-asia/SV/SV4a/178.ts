@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Cona Nitanda",
+	rarity: "None",
 	category: "Trainer",
 
 	effect: {
@@ -27,6 +28,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746560,
 				tcgplayer: 567579,
+				cardtrader: 269757,
 			},
 		},
 		{

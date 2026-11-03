@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Souichirou Gunjima",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [625],
 	hp: 120,
 	types: ["Darkness"],
+
+	evolveFrom: {
+		ja: "コマタナ"
+	},
 
 	description: {
 		ja: "コマタナを 率いて 群れを 成す。 縄張りを 賭けて 争い 負けた 群れは 吸収されていくのだ。",
@@ -63,6 +68,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747647,
 				tcgplayer: 567695,
+				cardtrader: 270301,
 			},
 		},
 	],

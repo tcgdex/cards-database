@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Scav",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [204],
 	hp: 70,
@@ -47,6 +48,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747552,
 				tcgplayer: 567599,
+				cardtrader: 270198,
 			},
 		},
 	],

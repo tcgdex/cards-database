@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "inose yukie",
+	rarity: "None",
 	category: "Trainer",
 
 	effect: {
@@ -27,6 +28,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746550,
 				tcgplayer: 567569,
+				cardtrader: 269769,
 			},
 		},
 		{

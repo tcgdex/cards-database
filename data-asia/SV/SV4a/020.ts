@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "GIDORA",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [951],
 	hp: 70,
@@ -37,7 +38,7 @@ const card: Card = {
 		},
 
 		effect: {
-			ja: "自分の山札から「基本エネルギー」を1枚選び、このポケモンにつける。そして山札を切る。",
+			ja: "自分の山札から「基本{R}エネルギー」を1枚選び、このポケモンにつける。そして山札を切る。",
 			'zh-tw': "從自己的牌庫選擇1張「基本【火】能量」卡，附於這隻寶可夢身上。並且重洗牌庫。",
 			th: "เลือกการ์ด [พลังงานพื้นฐาน[ไฟ]] 1 ใบจากสำรับการ์ดฝ่ายเรา ติดที่โปเกมอนนี้ แล้วสับสำรับการ์ด",
 			id: "Pilih 1 lembar Energi Dasar {Api} dari Deck sendiri, lalu kenakan pada Pokémon ini. Kemudian, kocok Deck."
@@ -66,6 +67,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746222,
 				tcgplayer: 567373,
+				cardtrader: 269631,
 			},
 		},
 		{

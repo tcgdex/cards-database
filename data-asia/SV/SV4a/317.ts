@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Lee HyunJung",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [924],
 	hp: 30,
@@ -61,6 +62,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747671,
 				tcgplayer: 567717,
+				cardtrader: 270382,
 			},
 		},
 	],

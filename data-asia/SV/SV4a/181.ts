@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "NC Empire",
+	rarity: "None",
 	category: "Trainer",
 
 	effect: {
@@ -23,10 +24,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746563,
 				tcgplayer: 567582,
+				cardtrader: 269794,
 			},
 		},
 	],

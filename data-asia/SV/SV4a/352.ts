@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Taiga Kayama",
+	rarity: "Special illustration rare",
 	category: "Trainer",
 
 	effect: {
@@ -25,6 +26,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747706,
 				tcgplayer: 567750,
+				cardtrader: 270355,
 			},
 		},
 	],

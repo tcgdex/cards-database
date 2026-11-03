@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [1001],
 	hp: 230,
 	types: ["Grass"],
 	stage: "Basic",
@@ -59,6 +60,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746226,
 				tcgplayer: 567379,
+				cardtrader: 269619,
 			},
 		},
 	],

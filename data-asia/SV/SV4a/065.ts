@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Anesaki Dynamic",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [849],
 	hp: 140,
 	types: ["Lightning"],
+
+	evolveFrom: {
+		ja: "エレズン"
+	},
 
 	description: {
 		ja: "どんな 相手にも 動じず 気だるげに ケンカを売る スタイルに 憧れる 若者も 多い。",
@@ -69,10 +74,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746447,
 				tcgplayer: 567450,
+				cardtrader: 269664,
 			},
 		},
 	],
