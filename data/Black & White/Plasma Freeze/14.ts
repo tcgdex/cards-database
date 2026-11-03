@@ -75,10 +75,22 @@ const card: Card = {
 		de: "Seine Flamme entzündet sich erst, wenn es einem Menschen oder einem Pokémon die Lebensenergie absaugt."
 	},
 
-	thirdParty: {
-		cardmarket: 280892,
-		tcgplayer: 86813
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280892,
+				tcgplayer: 86813
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280892,
+				tcgplayer: 86813
+			}
+		},
+	],
 }
 
 export default card

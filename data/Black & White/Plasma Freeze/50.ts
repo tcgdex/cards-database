@@ -75,10 +75,22 @@ const card: Card = {
 		de: "Ihre Zellen sind magnetisch geladen. Sie sondern über ihre Körper Magnetkräfte ab, um miteinander zu kommunizieren."
 	},
 
-	thirdParty: {
-		cardmarket: 280928,
-		tcgplayer: 83793
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280928,
+				tcgplayer: 83793
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280928,
+				tcgplayer: 83793
+			}
+		},
+	],
 }
 
 export default card

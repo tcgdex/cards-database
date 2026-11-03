@@ -81,10 +81,22 @@ const card: Card = {
 		de: "Ein überraschend brutales Pokémon. Seine langen Nagezähne sind äußerst stark und durchbrechen selbst Beton."
 	},
 
-	thirdParty: {
-		cardmarket: 280966,
-		tcgplayer: 88608
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280966,
+				tcgplayer: 88608
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280966,
+				tcgplayer: 88608
+			}
+		},
+	],
 }
 
 export default card

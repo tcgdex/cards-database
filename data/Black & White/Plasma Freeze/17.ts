@@ -84,10 +84,22 @@ const card: Card = {
 		de: "Ein Legendäres Pokémon mit der Macht, die Welt mit seinen Flammen einzuäschern. Hilft allen, die nach Wirklichkeit streben."
 	},
 
-	thirdParty: {
-		cardmarket: 280895,
-		tcgplayer: 88708
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280895,
+				tcgplayer: 88708
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280895,
+				tcgplayer: 88708
+			}
+		},
+	],
 }
 
 export default card

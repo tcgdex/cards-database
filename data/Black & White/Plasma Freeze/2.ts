@@ -67,10 +67,22 @@ const card: Card = {
 		de: "Während es auf seine Entwicklung wartet, versteckt es sich unter Blättern und zwischen Ästen."
 	},
 
-	thirdParty: {
-		cardmarket: 280880,
-		tcgplayer: 86416
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280880,
+				tcgplayer: 86416
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280880,
+				tcgplayer: 86416
+			}
+		},
+	],
 }
 
 export default card

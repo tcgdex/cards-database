@@ -91,10 +91,22 @@ const card: Card = {
 		de: "Ein kaltblütiges Pokémon, das Gegner zunächst mit einer Schar von Gladiantri lähmt und dann zweiteilt."
 	},
 
-	thirdParty: {
-		cardmarket: 280951,
-		tcgplayer: 83849
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280952,
+				tcgplayer: 83849
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280952,
+				tcgplayer: 83849
+			}
+		},
+	],
 }
 
 export default card

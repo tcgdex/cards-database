@@ -66,10 +66,22 @@ const card: Card = {
 		de: "Selbst wenn sie verletzt sind, greifen sie ihren Gegner unbeirrt in der Gruppe an, indem sie ihre Klingen in ihn hineinrammen."
 	},
 
-	thirdParty: {
-		cardmarket: 280949,
-		tcgplayer: 87971
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280950,
+				tcgplayer: 87971
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280950,
+				tcgplayer: 87971
+			}
+		},
+	],
 }
 
 export default card
