@@ -16,6 +16,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [880, 881, 882, 883],
+
 	effect: {
 		en: "Play this card as if it were a 70-HP Basic Colorless Pokémon. At any time during your turn, you may discard this card from play.\n\nThis card can't be affected by any Special Conditions, and it can't retreat.",
 		fr: "Jouez cette carte comme si c'était un Pokémon Colorless de base avec 70 PV. N'importe quand pendant votre tour, vous pouvez défausser cette carte du jeu.\n\nCette carte ne peut être affectée par aucun État Spécial, et elle ne peut pas battre en retraite.",

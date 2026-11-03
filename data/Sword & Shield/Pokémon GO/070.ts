@@ -4,6 +4,8 @@ import Set from "../Pokémon GO"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [145],
+
 	name: {
 		en: "Spark",
 		fr: "Capitaine d'équipe Spark",
