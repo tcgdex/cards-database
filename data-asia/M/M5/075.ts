@@ -11,7 +11,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードを使ったなら、自分の番は終わる。自分の山札から「基本[W]エネルギー」を4枚まで選び、自分のポケモン1匹につける。そして山札を切る。",
+		ja: "このカードを使ったなら、自分の番は終わる。自分の山札から「基本{W}エネルギー」を4枚まで選び、自分のポケモン1匹につける。そして山札を切る。",
 	},
 
 	variants: [
@@ -19,6 +19,8 @@ const card: Card = {
 			type: "normal",
 			thirdParty: {
 				cardmarket: 888347,
+				cardtrader: 391465,
+				tcgplayer: 695047,
 			},
 		},
 	],

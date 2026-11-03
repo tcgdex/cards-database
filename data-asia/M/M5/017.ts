@@ -26,7 +26,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Lightning", value: "x2" }],
+	weaknesses: [{ type: "Lightning", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -34,6 +34,8 @@ const card: Card = {
 			type: "normal",
 			thirdParty: {
 				cardmarket: 888255,
+				cardtrader: 391407,
+				tcgplayer: 695067,
 			},
 		},
 	],

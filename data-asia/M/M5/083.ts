@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 140,
 	types: ["Fire"],
 
+	description: {
+		ja: "エスパーと 炎の エネルギーで 強化された 鎧を まとう。 灼熱の 火の玉を 放つ。"
+	},
+
 	stage: "Stage1",
 
 	attacks: [
@@ -20,12 +24,12 @@ const card: Card = {
 			damage: "40+",
 			cost: ["Fire"],
 			effect: {
-				ja: "[R]エネルギーがついている自分のベンチポケモンの数×40ダメージ追加。",
+				ja: "{R}エネルギーがついている自分のベンチポケモンの数×40ダメージ追加。",
 			},
 		},
 	],
 
-	weaknesses: [{ type: "Water", value: "x2" }],
+	weaknesses: [{ type: "Water", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -33,6 +37,8 @@ const card: Card = {
 			type: "holo",
 			thirdParty: {
 				cardmarket: 888628,
+				cardtrader: 391489,
+				tcgplayer: 695063,
 			},
 		},
 	],

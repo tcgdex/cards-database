@@ -1,31 +1,43 @@
-import { Card } from "../../../interfaces";
-import Set from "../M5";
+import { Card } from '../../../interfaces'
+import Set from '../M5'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "古びたずがいの化石",
+		ja: '古びたずがいの化石'
 	},
 
-	illustrator: "AYUMI ODASHIMA",
-	category: "Trainer",
+	illustrator: 'AYUMI ODASHIMA',
+	category: 'Trainer',
+
+	abilities: [
+		{
+			type: 'Ability',
+			name: { ja: "ずがいのトゲ" },
+			effect: {
+				ja: "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを3個のせる。"
+			}
+		}
+	],
 
 	effect: {
-		ja: "このカードは、HP60の[C]タイプのたねポケモンとして、場に出せる。このカードは、特殊状態にならず、にげられない。自分の番の中でなら、場に出ているこのカードをトラッシュできる。 Ability: ずがいのトゲ このポケモンが、バトル場で相手のポケモンからワザのダメージを受けたとき、ワザを使ったポケモンにダメカンを3個のせる。グッズは、自分の番に何枚でも使える。",
+		ja: 'このカードは、HP60の{C}タイプのたねポケモンとして、場に出せる。このカードは、特殊状態にならず、にげられない。自分の番の中でなら、場に出ているこのカードをトラッシュできる。'
 	},
 
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 888343,
-			},
-		},
+				tcgplayer: 695019,
+				cardtrader: 391461
+			}
+		}
 	],
 
-	trainerType: "Item",
-	regulationMark: "J",
-	rarity: "Common",
-};
+	trainerType: 'Item',
+	regulationMark: 'J',
+	rarity: 'Common'
+}
 
-export default card;
+export default card

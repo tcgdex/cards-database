@@ -32,12 +32,12 @@ const card: Card = {
 			damage: "100+",
 			cost: ["Darkness", "Darkness", "Darkness"],
 			effect: {
-				ja: "自分のベンチポケモンに「シャドー[D]エネルギー」がついているなら、70ダメージ追加。",
+				ja: "自分のベンチポケモンに「シャドー{D}エネルギー」がついているなら、70ダメージ追加。",
 			},
 		},
 	],
 
-	weaknesses: [{ type: "Grass", value: "x2" }],
+	weaknesses: [{ type: "Grass", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -45,6 +45,8 @@ const card: Card = {
 			type: "normal",
 			thirdParty: {
 				cardmarket: 888310,
+				cardtrader: 391444,
+				tcgplayer: 695003,
 			},
 		},
 	],

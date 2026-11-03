@@ -7,10 +7,14 @@ const card: Card = {
 		ja: "ヤドラン",
 	},
 
-	illustrator: "Mekayu",
+	illustrator: "Mékayu",
 	category: "Pokemon",
 	hp: 130,
 	types: ["Psychic"],
+
+	description: {
+		ja: "くっついている シェルダーは 尻尾から にじみでる うま味が 欲しくて ずっと 離れない。"
+	},
 
 	stage: "Stage1",
 
@@ -30,7 +34,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Darkness", value: "x2" }],
+	weaknesses: [{ type: "Darkness", value: "×2" }],
 	resistances: [{ type: "Fighting", value: "-30" }],
 
 	variants: [
@@ -38,6 +42,8 @@ const card: Card = {
 			type: "holo",
 			thirdParty: {
 				cardmarket: 888632,
+				cardtrader: 391493,
+				tcgplayer: 695014,
 			},
 		},
 	],

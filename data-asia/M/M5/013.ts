@@ -23,12 +23,12 @@ const card: Card = {
 			name: { ja: "ハイドロショット" },
 			cost: ["Colorless", "Colorless", "Colorless"],
 			effect: {
-				ja: "相手のポケモン1匹に、このポケモンについている[W]エネルギーの数×30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				ja: "相手のポケモン1匹に、このポケモンについている{W}エネルギーの数×30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			},
 		},
 	],
 
-	weaknesses: [{ type: "Lightning", value: "x2" }],
+	weaknesses: [{ type: "Lightning", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -36,6 +36,8 @@ const card: Card = {
 			type: "normal",
 			thirdParty: {
 				cardmarket: 888250,
+				cardtrader: 391403,
+				tcgplayer: 695066,
 			},
 		},
 	],
