@@ -3,12 +3,12 @@ import Set from '../Ancient Origins'
 
 const card: Card = {
 	name: {
-		en: "M Tyranitar EX",
-		fr: "M-Tyranocif EX",
-		es: "M-Tyranitar EX",
-		it: "M Tyranitar EX",
-		pt: "M-Tyranitar EX",
-		de: "M-Despotar EX"
+		en: "M Tyranitar-EX",
+		fr: "M-Tyranocif-EX",
+		es: "M-Tyranitar-EX",
+		it: "M Tyranitar-EX",
+		pt: "M-Tyranitar-EX",
+		de: "M-Despotar-EX"
 	},
 
 	illustrator: "5ban Graphics",

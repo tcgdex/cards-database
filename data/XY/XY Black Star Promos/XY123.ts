@@ -3,8 +3,8 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
-		en: "Venusaur EX",
-		fr: "Florizarre EX",
+		en: "Venusaur-EX",
+		fr: "Florizarre-EX",
 	},
 
 	illustrator: "Naoki Saito",
