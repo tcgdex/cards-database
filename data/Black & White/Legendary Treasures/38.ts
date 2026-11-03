@@ -58,10 +58,22 @@ const card: Card = {
 		en: "Scalchop techniques differ from one Dewott to another. It never neglects maintaining its scalchops.",
 	},
 
-	thirdParty: {
-		cardmarket: 281189,
-		tcgplayer: 84796
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281189,
+				tcgplayer: 84796
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281189,
+				tcgplayer: 84796
+			}
+		},
+	],
 }
 
 export default card

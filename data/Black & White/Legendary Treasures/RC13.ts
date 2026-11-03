@@ -58,9 +58,14 @@ const card: Card = {
 		en: "Their cute act is a ruse. They trick people and steal their valuables just to see the looks on their faces.",
 	},
 
-	thirdParty: {
-		cardmarket: 281137
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281137
+			}
+		},
+	],
 }
 
 export default card

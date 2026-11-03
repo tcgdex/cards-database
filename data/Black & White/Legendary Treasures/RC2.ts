@@ -69,9 +69,22 @@ const card: Card = {
 		en: "When it gets dirty, its leaves can't be used in photosynthesis, so it always keeps itself clean.",
 	},
 
-	thirdParty: {
-		cardmarket: 281129
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281129,
+				tcgplayer: 89079
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281129,
+				tcgplayer: 89079
+			}
+		},
+	],
 }
 
 export default card

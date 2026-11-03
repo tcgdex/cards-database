@@ -75,10 +75,22 @@ const card: Card = {
 		en: "A legendary bird Pokémon. It can create blizzards by freezing moisture in the air.",
 	},
 
-	thirdParty: {
-		cardmarket: 281183,
-		tcgplayer: 83653
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281183,
+				tcgplayer: 83653
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281183,
+				tcgplayer: 83653
+			}
+		},
+	],
 }
 
 export default card

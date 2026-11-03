@@ -64,9 +64,14 @@ const card: Card = {
 		en: "It occasionally uses an electric shock to recharge a fellow Pikachu that is in a weakened state.",
 	},
 
-	thirdParty: {
-		cardmarket: 281142
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281142
+			}
+		},
+	],
 }
 
 export default card

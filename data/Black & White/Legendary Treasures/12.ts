@@ -70,10 +70,22 @@ const card: Card = {
 		en: "Upon finding a small Pokémon, it weaves clothing for it from leaves, using the cutters on its arms and sticky silk.",
 	},
 
-	thirdParty: {
-		cardmarket: 281163,
-		tcgplayer: 86689
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281163,
+				tcgplayer: 86689
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281163,
+				tcgplayer: 86689
+			}
+		},
+	],
 }
 
 export default card

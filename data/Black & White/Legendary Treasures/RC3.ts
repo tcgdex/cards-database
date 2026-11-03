@@ -68,9 +68,22 @@ const card: Card = {
 		en: "It only gives its all against strong opponents who are not fazed by the glare from Serperior's noble eyes.",
 	},
 
-	thirdParty: {
-		cardmarket: 281151
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281151,
+				tcgplayer: 89074
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281151,
+				tcgplayer: 89074
+			}
+		},
+	],
 }
 
 export default card

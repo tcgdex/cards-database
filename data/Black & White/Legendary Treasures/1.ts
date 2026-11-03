@@ -72,10 +72,22 @@ const card: Card = {
 		en: "Many writhing vines cover it, so its true identity remains unknown. The blue vines grow its whole life long.",
 	},
 
-	thirdParty: {
-		cardmarket: 281152,
-		tcgplayer: 89750
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281152,
+				tcgplayer: 89750
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281152,
+				tcgplayer: 89750
+			}
+		},
+	],
 }
 
 export default card

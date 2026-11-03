@@ -63,10 +63,29 @@ const card: Card = {
 		en: "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely.",
 	},
 
-	thirdParty: {
-		cardmarket: 281168,
-		tcgplayer: 84219
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281168,
+				tcgplayer: 84219
+			}
+		},
+		{
+			type: 'normal',
+			stamp: ['build-a-bear'],
+			thirdParty: {
+				cardmarket: 886890
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281168,
+				tcgplayer: 84219
+			}
+		},
+	],
 }
 
 export default card

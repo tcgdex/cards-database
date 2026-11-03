@@ -67,9 +67,22 @@ const card: Card = {
 		en: "It glides on its outstretched membrane while shocking foes with the electricity stored in the pouches on its cheeks.",
 	},
 
-	thirdParty: {
-		cardmarket: 281147
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281147,
+				tcgplayer: 85192
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281147,
+				tcgplayer: 85192
+			}
+		},
+	],
 }
 
 export default card

@@ -71,10 +71,22 @@ const card: Card = {
 		en: "If anyone were to hurt its pride, it would slash them with wings that can cleave through an ice floe.",
 	},
 
-	thirdParty: {
-		cardmarket: 281186,
-		tcgplayer: 85204
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281186,
+				tcgplayer: 85204
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281186,
+				tcgplayer: 85204
+			}
+		},
+	],
 }
 
 export default card

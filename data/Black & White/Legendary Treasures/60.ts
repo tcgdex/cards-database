@@ -70,10 +70,22 @@ const card: Card = {
 		en: "If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.",
 	},
 
-	thirdParty: {
-		cardmarket: 281144,
-		tcgplayer: 86471
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281211,
+				tcgplayer: 86471
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281211,
+				tcgplayer: 86471
+			}
+		},
+	],
 }
 
 export default card

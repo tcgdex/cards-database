@@ -63,10 +63,22 @@ const card: Card = {
 		en: "Because their bodies are enveloped in a special liquid, they are fine in any environment, no matter how severe.",
 	},
 
-	thirdParty: {
-		cardmarket: 281224,
-		tcgplayer: 89424
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281225,
+				tcgplayer: 89424
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281225,
+				tcgplayer: 89424
+			}
+		},
+	],
 }
 
 export default card

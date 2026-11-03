@@ -51,10 +51,22 @@ const card: Card = {
 		en: "Since this Pokémon makes its own clothes out of leaves, it is a popular mascot for fashion designers.",
 	},
 
-	thirdParty: {
-		cardmarket: 281160,
-		tcgplayer: 89094
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281161,
+				tcgplayer: 89094
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281161,
+				tcgplayer: 89094
+			}
+		},
+	],
 }
 
 export default card

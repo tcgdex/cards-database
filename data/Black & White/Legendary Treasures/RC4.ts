@@ -67,9 +67,14 @@ const card: Card = {
 		en: "Extremely loyal to its Trainer, it will bark at those who approach the Trainer unexpectedly and run them out of town.",
 	},
 
-	thirdParty: {
-		cardmarket: 281146
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281146
+			}
+		},
+	],
 }
 
 export default card

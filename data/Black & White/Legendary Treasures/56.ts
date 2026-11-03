@@ -70,10 +70,22 @@ const card: Card = {
 		en: "This odd Pokémon can see both the past and the future. It eyes the sun's movement all day.",
 	},
 
-	thirdParty: {
-		cardmarket: 281207,
-		tcgplayer: 90667
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281207,
+				tcgplayer: 90667
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281207,
+				tcgplayer: 90667
+			}
+		},
+	],
 }
 
 export default card
