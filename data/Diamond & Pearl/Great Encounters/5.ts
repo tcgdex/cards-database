@@ -9,7 +9,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hironobu Yoshida",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
