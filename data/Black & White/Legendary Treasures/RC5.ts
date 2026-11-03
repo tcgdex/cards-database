@@ -62,9 +62,14 @@ const card: Card = {
 		en: "A fire burns inside, so it feels very warm to hug. It launches fireballs of 1,800 degrees F.",
 	},
 
-	thirdParty: {
-		cardmarket: 281145
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281145
+			}
+		},
+	],
 }
 
 export default card

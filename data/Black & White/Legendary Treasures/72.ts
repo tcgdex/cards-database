@@ -70,10 +70,22 @@ const card: Card = {
 		en: "Starry skies thousands of light-years away are visible in the space distorted by their intense psychic power.",
 	},
 
-	thirdParty: {
-		cardmarket: 281223,
-		tcgplayer: 85854
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281223,
+				tcgplayer: 85854
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281223,
+				tcgplayer: 85854
+			}
+		},
+	],
 }
 
 export default card

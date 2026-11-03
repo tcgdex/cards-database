@@ -69,10 +69,22 @@ const card: Card = {
 		en: "It lives in the water and on land. It uses its long, sticky tongue to capture prey.",
 	},
 
-	thirdParty: {
-		cardmarket: 281192,
-		tcgplayer: 87926
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281192,
+				tcgplayer: 87926
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281192,
+				tcgplayer: 87926
+			}
+		},
+	],
 }
 
 export default card

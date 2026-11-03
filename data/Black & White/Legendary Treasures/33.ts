@@ -54,10 +54,22 @@ const card: Card = {
 		en: "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.",
 	},
 
-	thirdParty: {
-		cardmarket: 281141,
-		tcgplayer: 88153
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281184,
+				tcgplayer: 88153
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281184,
+				tcgplayer: 88153
+			}
+		},
+	],
 }
 
 export default card

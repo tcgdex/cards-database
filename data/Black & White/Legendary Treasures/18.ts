@@ -70,10 +70,22 @@ const card: Card = {
 		en: "In the rocky mountains where Charmeleon live, their fiery tails shine at night like stars.",
 	},
 
-	thirdParty: {
-		cardmarket: 281169,
-		tcgplayer: 84235
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281169,
+				tcgplayer: 84235
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281169,
+				tcgplayer: 84235
+			}
+		},
+	],
 }
 
 export default card

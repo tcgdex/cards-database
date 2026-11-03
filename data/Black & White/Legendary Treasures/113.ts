@@ -16,10 +16,22 @@ const card: Card = {
 		en: "Double Colorless Energy provides ColorlessColorless Energy."
 	},
 
-	thirdParty: {
-		cardmarket: 281264,
-		tcgplayer: 84885
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281264,
+				tcgplayer: 84885
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281264,
+				tcgplayer: 84885
+			}
+		},
+	],
 }
 
 export default card

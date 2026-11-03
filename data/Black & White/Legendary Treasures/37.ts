@@ -53,10 +53,22 @@ const card: Card = {
 		en: "The scalchop on its stomach is made from the same elements as claws. It detaches the scalchop for use as a blade.",
 	},
 
-	thirdParty: {
-		cardmarket: 281188,
-		tcgplayer: 87896
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281188,
+				tcgplayer: 87896
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281188,
+				tcgplayer: 87896
+			}
+		},
+	],
 }
 
 export default card

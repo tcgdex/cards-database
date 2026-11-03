@@ -68,10 +68,22 @@ const card: Card = {
 		en: "It loves sparkly things. It seeks treasures in caves and hoards the loot in its nest.",
 	},
 
-	thirdParty: {
-		cardmarket: 281246,
-		tcgplayer: 85602
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281246,
+				tcgplayer: 85602
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281246,
+				tcgplayer: 85602
+			}
+		},
+	],
 }
 
 export default card

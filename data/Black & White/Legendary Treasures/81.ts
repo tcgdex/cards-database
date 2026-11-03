@@ -71,10 +71,22 @@ const card: Card = {
 		en: "When trying to protect someone, it extends its elbows as if they were swords and fights savagely.",
 	},
 
-	thirdParty: {
-		cardmarket: 281232,
-		tcgplayer: 85607
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281232,
+				tcgplayer: 85607
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281232,
+				tcgplayer: 85607
+			}
+		},
+	],
 }
 
 export default card

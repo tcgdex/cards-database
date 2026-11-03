@@ -54,9 +54,14 @@ const card: Card = {
 		en: "Using the feelers on its ears, it can tell how someone is feeling or when an egg might hatch.",
 	},
 
-	thirdParty: {
-		cardmarket: 281140
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281140
+			}
+		},
+	],
 }
 
 export default card

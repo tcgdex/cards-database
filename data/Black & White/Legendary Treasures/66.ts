@@ -66,10 +66,22 @@ const card: Card = {
 		en: "The guardians of an ancient city, they use their psychic power to attack enemies that invade their territory.",
 	},
 
-	thirdParty: {
-		cardmarket: 281217,
-		tcgplayer: 89209
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281217,
+				tcgplayer: 89209
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281217,
+				tcgplayer: 89209
+			}
+		},
+	],
 }
 
 export default card

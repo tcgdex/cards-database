@@ -70,10 +70,22 @@ const card: Card = {
 		en: "It changes into the forms of others to surprise them. Apparently, it often transforms into a silent child.",
 	},
 
-	thirdParty: {
-		cardmarket: 281240,
-		tcgplayer: 90763
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281240,
+				tcgplayer: 90763
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281240,
+				tcgplayer: 90763
+			}
+		},
+	],
 }
 
 export default card

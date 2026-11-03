@@ -53,10 +53,22 @@ const card: Card = {
 		en: "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.",
 	},
 
-	thirdParty: {
-		cardmarket: 281213,
-		tcgplayer: 84481
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281213,
+				tcgplayer: 84481
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281213,
+				tcgplayer: 84481
+			}
+		},
+	],
 }
 
 export default card

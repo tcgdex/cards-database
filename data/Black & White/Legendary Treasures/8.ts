@@ -76,10 +76,22 @@ const card: Card = {
 		en: "They raise their heads to intimidate opponents but only give it their all when fighting a powerful opponent.",
 	},
 
-	thirdParty: {
-		cardmarket: 281151,
-		tcgplayer: 89074
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281159,
+				tcgplayer: 89074
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281159,
+				tcgplayer: 89074
+			}
+		},
+	],
 }
 
 export default card

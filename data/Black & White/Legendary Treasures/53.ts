@@ -67,10 +67,22 @@ const card: Card = {
 		en: "A Pokémon created by recombining Mew's genes. It's said to have the most savage heart among Pokémon.",
 	},
 
-	thirdParty: {
-		cardmarket: 281204,
-		tcgplayer: 87424
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281204,
+				tcgplayer: 87424
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281204,
+				tcgplayer: 87424
+			}
+		},
+	],
 }
 
 export default card

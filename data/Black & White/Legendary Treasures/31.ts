@@ -72,10 +72,22 @@ const card: Card = {
 		en: "Once it begins to rampage, a Gyarados will burn everything down, even in a harsh storm.",
 	},
 
-	thirdParty: {
-		cardmarket: 281182,
-		tcgplayer: 86001
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281182,
+				tcgplayer: 86001
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281182,
+				tcgplayer: 86001
+			}
+		},
+	],
 }
 
 export default card

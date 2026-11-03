@@ -73,10 +73,22 @@ const card: Card = {
 		en: "It shakes its tail vigorously when it emits ultrasonic waves strong enough to reduce concrete to rubble.",
 	},
 
-	thirdParty: {
-		cardmarket: 281216,
-		tcgplayer: 89727
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281216,
+				tcgplayer: 89727
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281216,
+				tcgplayer: 89727
+			}
+		},
+	],
 }
 
 export default card

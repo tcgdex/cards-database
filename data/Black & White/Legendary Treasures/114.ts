@@ -68,10 +68,16 @@ const card: Card = {
 		en: "This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it.",
 	},
 
-	thirdParty: {
-		cardmarket: 281179,
-		tcgplayer: 88711
-	}
+	variants: [
+		{
+			type: 'holo',
+			foil: 'gold',
+			thirdParty: {
+				cardmarket: 281265,
+				tcgplayer: 88711
+			}
+		},
+	],
 }
 
 export default card

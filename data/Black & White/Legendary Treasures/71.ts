@@ -70,10 +70,22 @@ const card: Card = {
 		en: "They use hypnosis to control people and Pokémon. Tales of Gothorita leading people astray are told in every corner.",
 	},
 
-	thirdParty: {
-		cardmarket: 281222,
-		tcgplayer: 85859
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281222,
+				tcgplayer: 85859
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281222,
+				tcgplayer: 85859
+			}
+		},
+	],
 }
 
 export default card

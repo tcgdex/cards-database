@@ -76,10 +76,22 @@ const card: Card = {
 		en: "It has a body and heart of steel. Its glare is sufficient to make even an unruly Pokémon obey it.",
 	},
 
-	thirdParty: {
-		cardmarket: 281242,
-		tcgplayer: 84380
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281242,
+				tcgplayer: 84380
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281242,
+				tcgplayer: 84380
+			}
+		},
+	],
 }
 
 export default card
