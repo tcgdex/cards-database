@@ -26,10 +26,10 @@ const card: Card = {
 		}
 	],
 
-	weaknesses: [{ type: 'Fire', value: "×2" }],
+	weaknesses: [{ type: 'Fire', value: '×2' }],
 	resistances: [],
 
-	regulationMark: "A",
+	regulationMark: 'A',
 	variants: [
 		{
 			type: 'normal',
