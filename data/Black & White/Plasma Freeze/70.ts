@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Ein äußerst grausames Pokémon. Es greift jeden, der ihm unter die Augen kommt, mit seinen scharfen Reißzähnen an."
 	},
 
-	thirdParty: {
-		cardmarket: 280948,
-		tcgplayer: 86546
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280948,
+				tcgplayer: 86546
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280948,
+				tcgplayer: 86546
+			}
+		},
+	],
 }
 
 export default card

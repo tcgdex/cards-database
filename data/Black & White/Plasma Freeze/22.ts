@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Es ist sehr unbekümmert und stört sich nicht daran, wenn es während des Schwimmens an etwas stößt."
 	},
 
-	thirdParty: {
-		cardmarket: 280900,
-		tcgplayer: 88474
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280900,
+				tcgplayer: 88474
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280900,
+				tcgplayer: 88474
+			}
+		},
+	],
 }
 
 export default card

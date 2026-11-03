@@ -91,10 +91,22 @@ const card: Card = {
 		de: "Seine zwei Köpfe sind sich spinnefeind. Beide versuchen, über Fresswettbewerbe die Oberhand zu gewinnen."
 	},
 
-	thirdParty: {
-		cardmarket: 280955,
-		tcgplayer: 90782
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280955,
+				tcgplayer: 90782
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280955,
+				tcgplayer: 90782
+			}
+		},
+	],
 }
 
 export default card

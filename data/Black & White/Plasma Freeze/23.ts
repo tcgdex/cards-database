@@ -92,10 +92,29 @@ const card: Card = {
 		de: "Wenn es seine Körpertemperatur senkt, erstarren die Haare seines Fells zu Eis und dienen ihm als nadelartige Geschosse."
 	},
 
-	thirdParty: {
-		cardmarket: 280901,
-		tcgplayer: 85749
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280901,
+				tcgplayer: 85749
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['regional-championships'],
+			thirdParty: {
+				cardmarket: 449148
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280901,
+				tcgplayer: 85749
+			}
+		},
+	],
 }
 
 export default card

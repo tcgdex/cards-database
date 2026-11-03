@@ -84,10 +84,22 @@ const card: Card = {
 		de: "Es lebt zu Wasser und zu Lande. Mit seiner langen, klebrigen Zunge raubt es Gegnern die Bewegungsfreiheit."
 	},
 
-	thirdParty: {
-		cardmarket: 280903,
-		tcgplayer: 87925
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280903,
+				tcgplayer: 87925
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280903,
+				tcgplayer: 87925
+			}
+		},
+	],
 }
 
 export default card

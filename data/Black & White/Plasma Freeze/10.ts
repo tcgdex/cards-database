@@ -93,10 +93,22 @@ const card: Card = {
 		de: "Ein nachtaktives Pokémon, das Beute sucht, die durch die Tageshitze der Wüste bereits erschöpft ist."
 	},
 
-	thirdParty: {
-		cardmarket: 280888,
-		tcgplayer: 84082
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280888,
+				tcgplayer: 84082
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280888,
+				tcgplayer: 84082
+			}
+		},
+	],
 }
 
 export default card

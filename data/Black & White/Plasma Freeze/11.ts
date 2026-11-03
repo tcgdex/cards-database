@@ -94,10 +94,22 @@ const card: Card = {
 		de: "Da seine Zellstruktur der von Pflanzen gleicht, kann sein Körper Photosynthese betreiben und saubere Luft erzeugen."
 	},
 
-	thirdParty: {
-		cardmarket: 280889,
-		tcgplayer: 86683
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280889,
+				tcgplayer: 86683
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280889,
+				tcgplayer: 86683
+			}
+		},
+	],
 }
 
 export default card

@@ -73,10 +73,22 @@ const card: Card = {
 		de: "Es entsteht aus den Seelen von längst begrabenen Menschen und kann sich immer noch an deren Vergangenheit erinnern."
 	},
 
-	thirdParty: {
-		cardmarket: 280932,
-		tcgplayer: 90679
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280933,
+				tcgplayer: 90679
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280933,
+				tcgplayer: 90679
+			}
+		},
+	],
 }
 
 export default card
