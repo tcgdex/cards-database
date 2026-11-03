@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Jedes Mal, wenn es frischen Müll in sich aufsaugt, erzeugt es völlig neue Formen von Giftgasen und Toxinen."
 	},
 
-	thirdParty: {
-		cardmarket: 280806,
-		tcgplayer: 85619
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280806,
+				tcgplayer: 85619
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280806,
+				tcgplayer: 85619
+			}
+		},
+	],
 }
 
 export default card

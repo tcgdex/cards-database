@@ -70,10 +70,22 @@ const card: Card = {
 		de: "Die Gehirne der beiden Köpfe kommunizieren ihre Gefühle über Telepathie."
 	},
 
-	thirdParty: {
-		cardmarket: 280839,
-		tcgplayer: 84866
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280839,
+				tcgplayer: 84866
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280839,
+				tcgplayer: 84866
+			}
+		},
+	],
 }
 
 export default card

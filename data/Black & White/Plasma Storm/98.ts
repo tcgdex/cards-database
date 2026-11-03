@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Ihr Gehör erfasst das Geräusch einer fallenden Nadel noch aus einem Kilometer Entfernung. Sie bevorzugen ruhige Orte."
 	},
 
-	thirdParty: {
-		cardmarket: 280838,
-		tcgplayer: 84349
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280838,
+				tcgplayer: 84349
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280838,
+				tcgplayer: 84349
+			}
+		},
+	],
 }
 
 export default card

@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Besteht aus kleinen und großen Rädern. Kehrt ein kleines Rad, das es abgefeuert hat, nicht zurück, wird es brenzlig."
 	},
 
-	thirdParty: {
-		cardmarket: 280829,
-		tcgplayer: 86477
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280829,
+				tcgplayer: 86477
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280829,
+				tcgplayer: 86477
+			}
+		},
+	],
 }
 
 export default card

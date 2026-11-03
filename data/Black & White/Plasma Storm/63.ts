@@ -75,10 +75,22 @@ const card: Card = {
 		de: "Eine Mülltüte, der Industrieabfälle und chemische Reaktionen neues Leben eingehaucht haben."
 	},
 
-	thirdParty: {
-		cardmarket: 280803,
-		tcgplayer: 90067
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280803,
+				tcgplayer: 90067
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280803,
+				tcgplayer: 90067
+			}
+		},
+	],
 }
 
 export default card

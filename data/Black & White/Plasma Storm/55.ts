@@ -99,10 +99,22 @@ const card: Card = {
 		de: "Dank seiner 4 Flügel kann es sich seiner Beute noch schneller und leiser nähern, ohne dabei bemerkt zu werden."
 	},
 
-	thirdParty: {
-		cardmarket: 280795,
-		tcgplayer: 84491
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280795,
+				tcgplayer: 84491
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280795,
+				tcgplayer: 84491
+			}
+		},
+	],
 }
 
 export default card

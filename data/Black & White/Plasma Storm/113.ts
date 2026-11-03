@@ -84,10 +84,22 @@ const card: Card = {
 		de: "Es kann mit einer körpereigenen Substanz seine Augen und seinen Torso aufleuchten lassen, um Gegner zu erschrecken."
 	},
 
-	thirdParty: {
-		cardmarket: 280852,
-		tcgplayer: 90499
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280853,
+				tcgplayer: 90499
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280853,
+				tcgplayer: 90499
+			}
+		},
+	],
 }
 
 export default card

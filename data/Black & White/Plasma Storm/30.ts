@@ -84,10 +84,22 @@ const card: Card = {
 		de: "Es hat ein spitzbübisches Wesen. Sieht es einen Angler, zieht es an der Angelschnur, um ihn zu ärgern."
 	},
 
-	thirdParty: {
-		cardmarket: 280770,
-		tcgplayer: 86821
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280770,
+				tcgplayer: 86821
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280770,
+				tcgplayer: 86821
+			}
+		},
+	],
 }
 
 export default card

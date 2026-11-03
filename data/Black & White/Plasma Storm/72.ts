@@ -95,10 +95,22 @@ const card: Card = {
 		de: "Wenn es angreift, rollt es sich zusammen und auf den Gegner zu. Es kann Häuser zum Einsturz bringen."
 	},
 
-	thirdParty: {
-		cardmarket: 280812,
-		tcgplayer: 84880
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280812,
+				tcgplayer: 84880
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280812,
+				tcgplayer: 84880
+			}
+		},
+	],
 }
 
 export default card

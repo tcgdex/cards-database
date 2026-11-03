@@ -80,10 +80,22 @@ const card: Card = {
 		de: "Über den Schweif aufgesaugte Luft wird in eine Feuerzunge verwandelt, um damit Fermicula zu schmelzen und zu fressen."
 	},
 
-	thirdParty: {
-		cardmarket: 280763,
-		tcgplayer: 86046
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280763,
+				tcgplayer: 86046
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280763,
+				tcgplayer: 86046
+			}
+		},
+	],
 }
 
 export default card

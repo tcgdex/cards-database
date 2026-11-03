@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Entwickelt sich Dodu, teilt sich einer der Köpfe in zwei. Es kann sich mit 60 km/h fortbewegen."
 	},
 
-	thirdParty: {
-		cardmarket: 280840,
-		tcgplayer: 84855
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280840,
+				tcgplayer: 84855
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280840,
+				tcgplayer: 84855
+			}
+		},
+	],
 }
 
 export default card

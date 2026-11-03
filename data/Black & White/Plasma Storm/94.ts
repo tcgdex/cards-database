@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Es jagt in schmalen, von Stalobor und Onix gegrabenen Schächten nach Beute und spießt sie mit spitzen Klauen auf."
 	},
 
-	thirdParty: {
-		cardmarket: 280834,
-		tcgplayer: 84982
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280834,
+				tcgplayer: 84982
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280834,
+				tcgplayer: 84982
+			}
+		},
+	],
 }
 
 export default card
