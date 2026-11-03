@@ -56,10 +56,22 @@ const card: Card = {
 		en: "Its constant mischief and misdeeds resulted in it being bound to an Odd Keystone by a mysterious spell.",
 	},
 
-	thirdParty: {
-		cardmarket: 281238,
-		tcgplayer: 89468
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281238,
+				tcgplayer: 89468
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281238,
+				tcgplayer: 89468
+			}
+		},
+	],
 }
 
 export default card

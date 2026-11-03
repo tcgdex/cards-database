@@ -70,10 +70,22 @@ const card: Card = {
 		en: "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power.",
 	},
 
-	thirdParty: {
-		cardmarket: 281209,
-		tcgplayer: 87520
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281209,
+				tcgplayer: 87520
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281209,
+				tcgplayer: 87520
+			}
+		},
+	],
 }
 
 export default card

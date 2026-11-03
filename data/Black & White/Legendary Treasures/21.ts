@@ -58,10 +58,22 @@ const card: Card = {
 		en: "Each of its nine tails is imbued with supernatural power, and it can live for a thousand years.",
 	},
 
-	thirdParty: {
-		cardmarket: 281172,
-		tcgplayer: 87780
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281172,
+				tcgplayer: 87780
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281172,
+				tcgplayer: 87780
+			}
+		},
+	],
 }
 
 export default card

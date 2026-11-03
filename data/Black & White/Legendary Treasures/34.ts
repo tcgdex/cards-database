@@ -57,10 +57,22 @@ const card: Card = {
 		en: "Because every Prinplup considers itself to be the most important, they can never form a group.",
 	},
 
-	thirdParty: {
-		cardmarket: 281185,
-		tcgplayer: 88373
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281185,
+				tcgplayer: 88373
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281185,
+				tcgplayer: 88373
+			}
+		},
+	],
 }
 
 export default card

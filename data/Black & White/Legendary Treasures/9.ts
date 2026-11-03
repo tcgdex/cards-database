@@ -53,10 +53,22 @@ const card: Card = {
 		en: "Leavanny dress it in clothes they made for it when it hatched. It hides its head in its hood while it is sleeping.",
 	},
 
-	thirdParty: {
-		cardmarket: 281160,
-		tcgplayer: 89093
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281160,
+				tcgplayer: 89093
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281160,
+				tcgplayer: 89093
+			}
+		},
+	],
 }
 
 export default card

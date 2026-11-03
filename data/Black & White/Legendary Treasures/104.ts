@@ -63,10 +63,22 @@ const card: Card = {
 		en: "These Pokémon prefer a tidy habitat. They are always sweeping and dusting, using their tails as brooms.",
 	},
 
-	thirdParty: {
-		cardmarket: 281128,
-		tcgplayer: 87478
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281255,
+				tcgplayer: 87478
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281255,
+				tcgplayer: 87478
+			}
+		},
+	],
 }
 
 export default card

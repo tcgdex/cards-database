@@ -61,10 +61,22 @@ const card: Card = {
 		en: "For some reason, it likes to land on people's heads softly and act like it's a hat.",
 	},
 
-	thirdParty: {
-		cardmarket: 281254,
-		tcgplayer: 89663
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281254,
+				tcgplayer: 89663
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281254,
+				tcgplayer: 89663
+			}
+		},
+	],
 }
 
 export default card

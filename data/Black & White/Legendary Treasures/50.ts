@@ -66,10 +66,22 @@ const card: Card = {
 		en: "The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.",
 	},
 
-	thirdParty: {
-		cardmarket: 281201,
-		tcgplayer: 89905
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281201,
+				tcgplayer: 89905
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281201,
+				tcgplayer: 89905
+			}
+		},
+	],
 }
 
 export default card

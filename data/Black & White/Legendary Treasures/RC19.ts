@@ -71,9 +71,22 @@ const card: Card = {
 		en: "Cinccino's body is coated in a special oil that helps it deflect attacks, such as punches.",
 	},
 
-	thirdParty: {
-		cardmarket: 281127
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281127,
+				tcgplayer: 84320
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281127,
+				tcgplayer: 84320
+			}
+		},
+	],
 }
 
 export default card

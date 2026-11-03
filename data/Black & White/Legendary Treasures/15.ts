@@ -72,10 +72,22 @@ const card: Card = {
 		en: "Its head sprouts horns as sharp as blades. Using whirlwind-like movements, it confounds and swiftly cuts opponents.",
 	},
 
-	thirdParty: {
-		cardmarket: 281166,
-		tcgplayer: 90391
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281166,
+				tcgplayer: 90391
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281166,
+				tcgplayer: 90391
+			}
+		},
+	],
 }
 
 export default card

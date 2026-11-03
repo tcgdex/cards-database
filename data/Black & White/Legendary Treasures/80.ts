@@ -69,10 +69,22 @@ const card: Card = {
 		en: "A well-trained one can sense auras to identify and take in the feelings of creatures over half a mile away.",
 	},
 
-	thirdParty: {
-		cardmarket: 281231,
-		tcgplayer: 86886
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281231,
+				tcgplayer: 86886
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281231,
+				tcgplayer: 86886
+			}
+		},
+	],
 }
 
 export default card

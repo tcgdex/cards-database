@@ -65,10 +65,22 @@ const card: Card = {
 		en: "It drifts in warm seas. It always returns to where it was born, no matter how far it may have drifted.",
 	},
 
-	thirdParty: {
-		cardmarket: 281187,
-		tcgplayer: 88009
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281187,
+				tcgplayer: 88009
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281187,
+				tcgplayer: 88009
+			}
+		},
+	],
 }
 
 export default card

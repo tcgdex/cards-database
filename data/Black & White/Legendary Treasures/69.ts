@@ -65,10 +65,22 @@ const card: Card = {
 		en: "Their ribbonlike feelers increase their psychic power. They are always staring at something.",
 	},
 
-	thirdParty: {
-		cardmarket: 281220,
-		tcgplayer: 85849
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281220,
+				tcgplayer: 85849
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281220,
+				tcgplayer: 85849
+			}
+		},
+	],
 }
 
 export default card

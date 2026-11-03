@@ -70,10 +70,22 @@ const card: Card = {
 		en: "When its boulder is broken in battles for territory, it feels unsure and begins to weaken.",
 	},
 
-	thirdParty: {
-		cardmarket: 281165,
-		tcgplayer: 84511
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281165,
+				tcgplayer: 84511
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281165,
+				tcgplayer: 84511
+			}
+		},
+	],
 }
 
 export default card

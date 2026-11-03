@@ -52,9 +52,22 @@ const card: Card = {
 		en: "Minccino greet each other by grooming one another thoroughly with their tails.",
 	},
 
-	thirdParty: {
-		cardmarket: 281128
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281128,
+				tcgplayer: 87478
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281128,
+				tcgplayer: 87478
+			}
+		},
+	],
 }
 
 export default card

@@ -63,10 +63,22 @@ const card: Card = {
 		en: "It cheers on friends. If its friends are losing, its body lets off more and more sparks.",
 	},
 
-	thirdParty: {
-		cardmarket: 281199,
-		tcgplayer: 87494
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281199,
+				tcgplayer: 87494
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281199,
+				tcgplayer: 87494
+			}
+		},
+	],
 }
 
 export default card

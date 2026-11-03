@@ -16,10 +16,29 @@ const card: Card = {
 		en: "Draw cards until you have 6 cards in your hand."
 	},
 
-	thirdParty: {
-		cardmarket: 281260,
-		tcgplayer: 83815
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281260,
+				tcgplayer: 83815
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['player-rewards-program'],
+			thirdParty: {
+				cardmarket: 371593
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281260,
+				tcgplayer: 83815
+			}
+		},
+	],
 }
 
 export default card

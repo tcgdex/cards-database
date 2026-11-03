@@ -68,9 +68,22 @@ const card: Card = {
 		en: "This legendary Pokémon can scorch the world with fire. It helps those who want to build a world of truth.",
 	},
 
-	thirdParty: {
-		cardmarket: 281139
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281139,
+				tcgplayer: 88709
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281139,
+				tcgplayer: 88709
+			}
+		},
+	],
 }
 
 export default card
