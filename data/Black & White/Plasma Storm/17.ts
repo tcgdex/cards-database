@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Es verwendet einzigartige Attacken mit dem Feuer an seinen Händen und Füßen. Stellt sich jedem Gegner."
 	},
 
-	thirdParty: {
-		cardmarket: 280757,
-		tcgplayer: 86278
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280757,
+				tcgplayer: 86278
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280757,
+				tcgplayer: 86278
+			}
+		},
+	],
 }
 
 export default card

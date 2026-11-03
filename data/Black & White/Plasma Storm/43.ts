@@ -58,10 +58,22 @@ const card: Card = {
 		de: "Die seitlichen Module halten es in der Luft, indem sie mit elektromagnetischen Wellen die Schwerkraft überlisten."
 	},
 
-	thirdParty: {
-		cardmarket: 280782,
-		tcgplayer: 87087
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280783,
+				tcgplayer: 87087
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280783,
+				tcgplayer: 87087
+			}
+		},
+	],
 }
 
 export default card

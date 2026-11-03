@@ -89,10 +89,22 @@ const card: Card = {
 		de: "Sein Heulen hört man in 10 km Entfernung. Es gibt alle Arten von Geräuschen von sich."
 	},
 
-	thirdParty: {
-		cardmarket: 280847,
-		tcgplayer: 85374
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280847,
+				tcgplayer: 85374
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280847,
+				tcgplayer: 85374
+			}
+		},
+	],
 }
 
 export default card

@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Gelegentlich erzeugen sie so starke Magnetfelder, dass sie sich gegenseitig anziehen und einander immobilisieren."
 	},
 
-	thirdParty: {
-		cardmarket: 280786,
-		tcgplayer: 87120
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280786,
+				tcgplayer: 87120
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280786,
+				tcgplayer: 87120
+			}
+		},
+	],
 }
 
 export default card
