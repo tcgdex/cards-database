@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Mizue",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [969],
 	hp: 40,
@@ -55,6 +56,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746492,
 				tcgplayer: 567511,
+				cardtrader: 269744,
 			},
 		},
 		{

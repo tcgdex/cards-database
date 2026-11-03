@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Ryuta Fuse",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [57],
 	hp: 90,
 	types: ["Fighting"],
+
+	evolveFrom: {
+		ja: "マンキー"
+	},
 
 	description: {
 		ja: "ある研究者の 学説では モンスターボールの 中でも オコリザルは 怒っているらしい。",
@@ -57,6 +62,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746483,
 				tcgplayer: 567502,
+				cardtrader: 269721,
 			},
 		},
 		{

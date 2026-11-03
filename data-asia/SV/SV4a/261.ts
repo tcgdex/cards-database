@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "otumami",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [426],
 	hp: 110,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "フワンテ"
+	},
 
 	description: {
 		ja: "体の 中で ガスを 作ったり 吐き出したり することで 空を 飛ぶ 高さを 調節する。",
@@ -66,6 +71,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747615,
 				tcgplayer: 567662,
+				cardtrader: 270243,
 			},
 		},
 	],

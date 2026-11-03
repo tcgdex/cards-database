@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Naoyo Kimura",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [26],
 	hp: 120,
 	types: ["Lightning"],
+
+	evolveFrom: {
+		ja: "ピカチュウ"
+	},
 
 	description: {
 		ja: "尻尾が アースの 役目をはたして 電気を 地面に 逃がすので 自分自身は しびれたりしない。",
@@ -37,7 +42,7 @@ const card: Card = {
 		},
 
 		effect: {
-			ja: "自分のポケモンが、相手のポケモンからワザのダメージを受けてきぜつするたび、1回使える。きぜつしたポケモンについているエネルギーを1枚選び、このポケモンにつけ替える。",
+			ja: "自分のポケモンが、相手のポケモンからワザのダメージを受けてきぜつするたび、1回使える。きぜつしたポケモンについている{L}エネルギーを1枚選び、このポケモンにつけ替える。",
 			'zh-tw': "每次當自己的寶可夢受到對手的寶可夢招式的傷害而【昏厥】時，可使用1次。選擇1張【昏厥】的寶可夢身上附加的【雷】能量卡，改附於這隻寶可夢身上。",
 			th: "ทุกครั้งที่โปเกมอนฝ่ายเรา ได้รับแดเมจของท่าต่อสู้จากโปเกมอนฝ่ายตรงข้ามและ[หมดสภาพ] ใช้ได้ 1 ครั้ง เลือกการ์ดพลังงาน[สายฟ้า]ที่ติดอยู่กับโปเกมอนที่[หมดสภาพ] 1 ใบ ย้ายมาติดกับโปเกมอนนี้",
 			id: "Dapat digunakan 1 kali tiap kali Pokémon sendiri KO karena menerima kerusakan akibat serangan dari Pokémon lawan. Pilih 1 lembar Energi {Listrik} yang dikenakan pada Pokémon yang KO tersebut, lalu pindahkan ke Pokémon ini."
@@ -71,10 +76,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746438,
 				tcgplayer: 567430,
+				cardtrader: 269679,
 			},
 		},
 	],

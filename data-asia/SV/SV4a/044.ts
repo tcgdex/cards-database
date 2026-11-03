@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [960],
 	hp: 50,
@@ -57,6 +58,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746412,
 				tcgplayer: 567410,
+				cardtrader: 269671,
 			},
 		},
 		{

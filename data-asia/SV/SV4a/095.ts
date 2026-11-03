@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "sowsow",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [958],
 	hp: 90,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "カヌチャン"
+	},
 
 	description: {
 		ja: "大きくて 頑丈な ハンマーを 作るために キリキザンの 群れを 襲って 金属を 集める。",
@@ -75,6 +80,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746477,
 				tcgplayer: 567496,
+				cardtrader: 269688,
 			},
 		},
 		{

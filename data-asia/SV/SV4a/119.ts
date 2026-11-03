@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [215],
 	hp: 70,
@@ -50,6 +51,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746501,
 				tcgplayer: 567520,
+				cardtrader: 269724,
 			},
 		},
 		{

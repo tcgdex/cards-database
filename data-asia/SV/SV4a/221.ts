@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Nisota Niso",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [120],
 	hp: 60,
@@ -53,6 +54,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747575,
 				tcgplayer: 567622,
+				cardtrader: 270229,
 			},
 		},
 	],

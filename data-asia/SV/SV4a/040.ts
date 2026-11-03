@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Oswaldo KATO",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [128],
 	hp: 130,
@@ -73,6 +74,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746408,
 				tcgplayer: 567403,
+				cardtrader: 269605,
 			},
 		},
 		{

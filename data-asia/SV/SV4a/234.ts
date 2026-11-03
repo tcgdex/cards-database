@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [997],
 	hp: 90,
 	types: ["Water"],
+
+	evolveFrom: {
+		ja: "セビエ"
+	},
 
 	description: {
 		ja: "まわりの 空気を 凍らせて 氷のマスクで 顔を 守り 背びれを 氷の剣に 変える。",
@@ -57,6 +62,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747588,
 				tcgplayer: 567635,
+				cardtrader: 270220,
 			},
 		},
 	],

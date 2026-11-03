@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "nagimiso",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [85],
 	hp: 100,
 	types: ["Colorless"],
+
+	evolveFrom: {
+		ja: "ドードー"
+	},
 
 	description: {
 		ja: "めったに 見つからない 珍種。 ３つの 頭は 喜び 悲しみ 怒りの 感情を 表す。",
@@ -74,6 +79,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747662,
 				tcgplayer: 567709,
+				cardtrader: 270370,
 			},
 		},
 	],

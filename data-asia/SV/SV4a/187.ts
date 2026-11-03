@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "AYUMI ODASHIMA",
+	rarity: "None",
 	category: "Trainer",
 
 	effect: {
@@ -27,6 +28,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746569,
 				tcgplayer: 567588,
+				cardtrader: 269790,
 			},
 		},
 		{

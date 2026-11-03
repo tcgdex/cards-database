@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Tetsu Kayama",
+	rarity: "Illustration rare",
 	category: "Pokemon",
 	dexId: [961],
 	hp: 90,
 	types: ["Water"],
+
+	evolveFrom: {
+		ja: "ウミディグダ"
+	},
 
 	description: {
 		ja: "見かけによらず 気性が 荒い。 長い 体で 獲物を 締め上げ 巣穴に 引きずりこむぞ。",
@@ -61,6 +66,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747692,
 				tcgplayer: 567738,
+				cardtrader: 270341,
 			},
 		},
 	],

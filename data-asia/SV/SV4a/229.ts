@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [964],
 	hp: 150,
 	types: ["Water"],
+
+	evolveFrom: {
+		ja: "ナミイルカ"
+	},
 
 	description: {
 		ja: "太古の 遺伝子が 覚醒。 片ヒレで クルーズ船を 軽々 持ち上げる 怪力の 持ち主。",
@@ -69,6 +74,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747583,
 				tcgplayer: 567630,
+				cardtrader: 270221,
 			},
 		},
 	],

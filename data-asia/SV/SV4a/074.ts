@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [64],
 	hp: 80,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "ケーシィ"
+	},
 
 	description: {
 		ja: "念力の 威力は 絶大。 進化に 備えて 額の 星に サイコパワーを 蓄えている。",
@@ -62,6 +67,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746456,
 				tcgplayer: 567463,
+				cardtrader: 269656,
 			},
 		},
 		{

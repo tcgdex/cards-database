@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "GOSSAN",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [966],
 	hp: 140,
 	types: ["Metal"],
+
+	evolveFrom: {
+		ja: "ブロロン"
+	},
 
 	description: {
 		ja: "毒素と 岩の 成分を 混ぜた ガスを ８つに 増えた シリンダーで 爆発させ エネルギーを 作る。",
@@ -74,6 +79,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747655,
 				tcgplayer: 567702,
+				cardtrader: 270366,
 			},
 		},
 	],

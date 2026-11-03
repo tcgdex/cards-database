@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "OKACHEKE",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [25],
 	hp: 70,
@@ -66,6 +67,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746437,
 				tcgplayer: 567428,
+				cardtrader: 269667,
 			},
 		},
 		{

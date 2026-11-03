@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Yukiko Baba",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [187],
 	hp: 50,
@@ -57,6 +58,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746207,
 				tcgplayer: 567352,
+				cardtrader: 269643,
 			},
 		},
 		{

@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Mizue",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [922],
 	hp: 90,
 	types: ["Lightning"],
+
+	evolveFrom: {
+		ja: "パモ"
+	},
 
 	description: {
 		ja: "手のひらで 打撃を 加えつつ 肉球で 電撃を 浴びせる 独特の 格闘技を 使う。",
@@ -63,6 +68,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747602,
 				tcgplayer: 567649,
+				cardtrader: 270277,
 			},
 		},
 	],

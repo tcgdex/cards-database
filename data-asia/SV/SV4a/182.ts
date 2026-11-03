@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "yuu",
+	rarity: "None",
 	category: "Trainer",
 
 	effect: {
@@ -27,6 +28,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746564,
 				tcgplayer: 567583,
+				cardtrader: 269795,
 			},
 		},
 		{

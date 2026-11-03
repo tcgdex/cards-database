@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Souichirou Gunjima",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [701],
 	hp: 70,
@@ -63,6 +64,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747636,
 				tcgplayer: 567683,
+				cardtrader: 270324,
 			},
 		},
 	],

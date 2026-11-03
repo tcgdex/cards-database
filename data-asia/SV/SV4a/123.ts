@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Hideki Ishikawa",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [625],
 	hp: 120,
 	types: ["Darkness"],
+
+	evolveFrom: {
+		ja: "コマタナ"
+	},
 
 	description: {
 		ja: "コマタナを 率いて 群れを 成す。 縄張りを 賭けて 争い 負けた 群れは 吸収されていくのだ。",
@@ -68,6 +73,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746505,
 				tcgplayer: 567524,
+				cardtrader: 269714,
 			},
 		},
 		{

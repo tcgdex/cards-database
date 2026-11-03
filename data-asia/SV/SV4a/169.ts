@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Toyste Beach",
+	rarity: "None",
 	category: "Trainer",
 
 	effect: {
@@ -27,6 +28,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746551,
 				tcgplayer: 567570,
+				cardtrader: 269764,
 			},
 		},
 		{

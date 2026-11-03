@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [63],
 	hp: 50,
@@ -52,6 +53,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747607,
 				tcgplayer: 567654,
+				cardtrader: 270267,
 			},
 		},
 	],

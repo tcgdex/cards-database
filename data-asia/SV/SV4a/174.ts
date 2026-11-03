@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Sanosuke Sakuma",
+	rarity: "None",
 	category: "Trainer",
 
 	effect: {
@@ -27,6 +28,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746556,
 				tcgplayer: 567575,
+				cardtrader: 269761,
 			},
 		},
 		{

@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Nurikabe",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [448],
 	hp: 130,
 	types: ["Fighting"],
+
+	evolveFrom: {
+		ja: "リオル"
+	},
 
 	description: {
 		ja: "波動を キャッチすることで 見えない 相手の 姿でも 見えると 言われている。",
@@ -39,7 +44,7 @@ const card: Card = {
 		damage: "30+",
 
 		effect: {
-			ja: "前の相手の番に、ワザのダメージで、自分のポケモンがきぜつしていたなら、120ダメージ追加。",
+			ja: "前の相手の番に、ワザのダメージで、自分の{F}ポケモンがきぜつしていたなら、120ダメージ追加。",
 			'zh-tw': "在上個對手的回合，若自己的【鬥】寶可夢因招式的傷害而【昏厥】了，則增加120點傷害。",
 			th: "ในเทิร์นก่อนของฝ่ายตรงข้าม ถ้าโปเกมอน[ต่อสู้]ฝ่ายเรา[หมดสภาพ] ด้วยแดเมจของท่าต่อสู้ การโจมตีนี้จะเพิ่มแดเมจอีก 120",
 			id: "Jika pada giliran lawan sebelumnya, ada Pokémon {Petarung} sendiri yang KO karena kerusakan akibat serangan, kerusakan yang diberikan bertambah sejumlah 120."
@@ -75,6 +80,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746487,
 				tcgplayer: 567506,
+				cardtrader: 269742,
 			},
 		},
 		{

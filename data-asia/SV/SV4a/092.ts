@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Oswaldo KATO",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [954],
 	hp: 70,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "シガロコ"
+	},
 
 	description: {
 		ja: "玉を 支える 体は ほとんど 動かないため 本体は 玉の中にいると 考えられている。",
@@ -74,10 +79,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746474,
 				tcgplayer: 567493,
+				cardtrader: 269696,
 			},
 		},
 	],

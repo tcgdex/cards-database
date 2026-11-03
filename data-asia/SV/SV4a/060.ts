@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Narumi Sato",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [404],
 	hp: 90,
 	types: ["Lightning"],
+
+	evolveFrom: {
+		ja: "コリンク"
+	},
 
 	description: {
 		ja: "鋭い ツメの 先には 強い 電気が 流れており ほんの少し かするだけで 敵を 気絶させる。",
@@ -61,6 +66,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746442,
 				tcgplayer: 567440,
+				cardtrader: 269677,
 			},
 		},
 		{

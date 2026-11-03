@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Nisota Niso",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [941],
 	hp: 120,
 	types: ["Lightning"],
+
+	evolveFrom: {
+		ja: "カイデン"
+	},
 
 	description: {
 		ja: "のど袋を ふくらませて 電気を 増幅させる。 風に 乗って １日で ７００キロを 飛行する。",
@@ -66,6 +71,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747605,
 				tcgplayer: 567652,
+				cardtrader: 270272,
 			},
 		},
 	],

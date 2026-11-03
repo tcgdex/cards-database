@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [934],
 	hp: 180,
 	types: ["Fighting"],
+
+	evolveFrom: {
+		ja: "ジオヅム"
+	},
 
 	description: {
 		ja: "指先を 擦りあわせて 塩を ケガした ポケモンに 振りかけると ひどい 傷も たちまち 治る。",
@@ -69,6 +74,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747639,
 				tcgplayer: 567686,
+				cardtrader: 270284,
 			},
 		},
 	],

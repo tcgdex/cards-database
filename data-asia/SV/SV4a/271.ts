@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "yuu",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [957],
 	hp: 60,
@@ -61,6 +62,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747625,
 				tcgplayer: 567672,
+				cardtrader: 270251,
 			},
 		},
 	],

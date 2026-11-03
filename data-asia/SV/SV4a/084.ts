@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Yuu Nishida",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [426],
 	hp: 110,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "フワンテ"
+	},
 
 	description: {
 		ja: "体の 中で ガスを 作ったり 吐き出したり することで 空を 飛ぶ 高さを 調節する。",
@@ -71,6 +76,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746466,
 				tcgplayer: 567480,
+				cardtrader: 269702,
 			},
 		},
 		{

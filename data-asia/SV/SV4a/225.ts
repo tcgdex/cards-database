@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Atsushi Furusawa",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [913],
 	hp: 90,
 	types: ["Water"],
+
+	evolveFrom: {
+		ja: "クワッス"
+	},
 
 	description: {
 		ja: "ひたすらに 浅瀬を 走り込んで 足腰を 鍛え 仲間同士で 足技の 華麗さを 競いあう。",
@@ -57,6 +62,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747579,
 				tcgplayer: 567626,
+				cardtrader: 270228,
 			},
 		},
 	],

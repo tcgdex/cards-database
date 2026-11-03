@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Arai Kiriko",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [121],
 	hp: 90,
 	types: ["Water"],
+
+	evolveFrom: {
+		ja: "ヒトデマン"
+	},
 
 	description: {
 		ja: "体を 高速で 回転させ 海を 泳ぎながら 小さな プランクトンを 吸収する。",
@@ -64,10 +69,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746407,
 				tcgplayer: 567402,
+				cardtrader: 269607,
 			},
 		},
 	],

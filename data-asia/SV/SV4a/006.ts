@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Yoriyuki Ikegami",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [188],
 	hp: 70,
 	types: ["Grass"],
+
+	evolveFrom: {
+		ja: "ハネッコ"
+	},
 
 	description: {
 		ja: "ポポッコの マニアは 頭の 花から 漂う 香りで どこで 生まれたか わかるらしい。",
@@ -75,6 +80,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746208,
 				tcgplayer: 567354,
+				cardtrader: 269635,
 			},
 		},
 		{

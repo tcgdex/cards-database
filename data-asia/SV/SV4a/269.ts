@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Nelnal",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [954],
 	hp: 70,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "シガロコ"
+	},
 
 	description: {
 		ja: "玉を 支える 体は ほとんど 動かないため 本体は 玉の中にいると 考えられている。",
@@ -72,6 +77,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747623,
 				tcgplayer: 567670,
+				cardtrader: 270246,
 			},
 		},
 	],

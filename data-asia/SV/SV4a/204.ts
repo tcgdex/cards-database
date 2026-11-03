@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "saino misaki",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [929],
 	hp: 90,
 	types: ["Grass"],
+
+	evolveFrom: {
+		ja: "ミニーブ"
+	},
 
 	description: {
 		ja: "フレッシュな 香りの 美味しい オイルを 分けてくれる。 古くから 人間と 共存してきた。",
@@ -63,6 +68,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747558,
 				tcgplayer: 567605,
+				cardtrader: 270186,
 			},
 		},
 	],

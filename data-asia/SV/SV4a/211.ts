@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [5],
 	hp: 90,
 	types: ["Fire"],
+
+	evolveFrom: {
+		ja: "ヒトカゲ"
+	},
 
 	description: {
 		ja: "戦いで 気持ちが たかぶると 灼熱の 炎を 吹きながら あたりを 燃やしてまわる。",
@@ -63,6 +68,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747565,
 				tcgplayer: 567612,
+				cardtrader: 270197,
 			},
 		},
 	],

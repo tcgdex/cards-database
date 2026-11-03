@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "kurumitsu",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [921],
 	hp: 60,
@@ -57,6 +58,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747601,
 				tcgplayer: 567648,
+				cardtrader: 270278,
 			},
 		},
 	],

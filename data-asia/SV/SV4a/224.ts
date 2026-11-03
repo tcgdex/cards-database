@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "GIDORA",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [912],
 	hp: 70,
@@ -53,6 +54,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747578,
 				tcgplayer: 567625,
+				cardtrader: 270230,
 			},
 		},
 	],

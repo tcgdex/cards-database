@@ -11,9 +11,16 @@ const card: Card = {
 	},
 
 	illustrator: "Saki Hayashiro",
+	rarity: "Shiny Ultra Rare",
 	category: "Pokemon",
+	dexId: [40],
 	hp: 250,
 	types: ["Colorless"],
+
+	evolveFrom: {
+		ja: "プリン"
+	},
+
 	stage: "Stage1",
 	suffix: "EX",
 
@@ -62,6 +69,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747690,
 				tcgplayer: 567736,
+				cardtrader: 270343,
 			},
 		},
 	],

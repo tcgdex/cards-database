@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kyoko Umemoto",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [955],
 	hp: 30,
@@ -58,6 +59,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747624,
 				tcgplayer: 567671,
+				cardtrader: 270249,
 			},
 		},
 	],

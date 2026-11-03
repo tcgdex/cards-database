@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Tika Matsuno",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [280],
 	hp: 70,
@@ -55,6 +56,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746462,
 				tcgplayer: 567473,
+				cardtrader: 269652,
 			},
 		},
 		{

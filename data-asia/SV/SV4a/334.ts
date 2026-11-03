@@ -11,9 +11,16 @@ const card: Card = {
 	},
 
 	illustrator: "Eske Yoshinob",
+	rarity: "Shiny Ultra Rare",
 	category: "Pokemon",
+	dexId: [715],
 	hp: 260,
 	types: ["Dragon"],
+
+	evolveFrom: {
+		ja: "オンバット"
+	},
+
 	stage: "Stage1",
 	suffix: "EX",
 
@@ -57,6 +64,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747688,
 				tcgplayer: 567734,
+				cardtrader: 270342,
 			},
 		},
 	],

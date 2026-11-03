@@ -14,8 +14,14 @@ const card: Card = {
 	illustrator: "PLANETA Mochizuki",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [980],
 	hp: 280,
 	types: ["Darkness"],
+
+	evolveFrom: {
+		ja: "パルデア ウパー"
+	},
+
 	stage: "Stage1",
 	suffix: "EX",
 
@@ -68,6 +74,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746499,
 				tcgplayer: 567518,
+				cardtrader: 269723,
 			},
 		},
 	],

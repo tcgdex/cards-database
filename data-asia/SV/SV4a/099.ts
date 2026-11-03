@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "OKUBO",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [999],
 	hp: 50,
@@ -71,6 +72,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746481,
 				tcgplayer: 567500,
+				cardtrader: 269681,
 			},
 		},
 		{

@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Hitoshi Ariga",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [943],
 	hp: 130,
 	types: ["Darkness"],
+
+	evolveFrom: {
+		ja: "オラチフ"
+	},
 
 	description: {
 		ja: "子どもと 遊ぶことが 大好き。 普段は 温厚だが 家族を 守るとき 形相が 変わる。",
@@ -69,6 +74,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747650,
 				tcgplayer: 567698,
+				cardtrader: 270295,
 			},
 		},
 	],

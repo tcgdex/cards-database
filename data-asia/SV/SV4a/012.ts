@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Megumi Mizutani",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [906],
 	hp: 60,
@@ -66,6 +67,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746214,
 				tcgplayer: 567362,
+				cardtrader: 269626,
 			},
 		},
 		{

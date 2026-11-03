@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Ryuta Fuse",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [281],
 	hp: 90,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "ラルトス"
+	},
 
 	description: {
 		ja: "サイコパワーを 操り まわりの 空間を ねじ曲げることで 未来を 見通すことができる。",
@@ -68,6 +73,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747613,
 				tcgplayer: 567660,
+				cardtrader: 270248,
 			},
 		},
 	],

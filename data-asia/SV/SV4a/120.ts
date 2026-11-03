@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "saino misaki",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [461],
 	hp: 110,
 	types: ["Darkness"],
+
+	evolveFrom: {
+		ja: "ニューラ"
+	},
 
 	description: {
 		ja: "進化して さらに ずる賢くなり ツメで 石に サインをつけて コミュニケーションを はかっている。",
@@ -64,10 +69,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746502,
 				tcgplayer: 567521,
+				cardtrader: 269739,
 			},
 		},
 	],

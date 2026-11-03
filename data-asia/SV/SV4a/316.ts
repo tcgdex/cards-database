@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Misa Tsutsui",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [916],
 	hp: 130,
 	types: ["Colorless"],
+
+	evolveFrom: {
+		ja: "グルトン"
+	},
 
 	description: {
 		ja: "花のような 香りを 振りまく。 筋肉が 発達した 脚は 軽く ５メートルを 飛び越える。",
@@ -67,6 +72,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747670,
 				tcgplayer: 577564,
+				cardtrader: 270380,
 			},
 		},
 	],

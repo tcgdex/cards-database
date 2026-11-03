@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Souichirou Gunjima",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [80],
 	hp: 100,
 	types: ["Water"],
+
+	evolveFrom: {
+		ja: "ヤドン"
+	},
 
 	description: {
 		ja: "激しい 戦いで 尻尾に 噛みついた シェルダーが 外れると もとの ヤドンに 戻ってしまう。",
@@ -69,6 +74,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747574,
 				tcgplayer: 567621,
+				cardtrader: 270195,
 			},
 		},
 	],

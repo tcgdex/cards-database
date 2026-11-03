@@ -11,9 +11,16 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
+	rarity: "Shiny Ultra Rare",
 	category: "Pokemon",
+	dexId: [914],
 	hp: 320,
 	types: ["Water"],
+
+	evolveFrom: {
+		ja: "ウェルカモ"
+	},
+
 	stage: "Stage2",
 	suffix: "EX",
 
@@ -62,6 +69,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747679,
 				tcgplayer: 567725,
+				cardtrader: 270319,
 			},
 		},
 	],

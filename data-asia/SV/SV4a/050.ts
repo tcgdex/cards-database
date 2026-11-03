@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "OKACHEKE",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [978],
 	hp: 70,
@@ -37,7 +38,7 @@ const card: Card = {
 		},
 
 		effect: {
-			ja: "自分の山札から「基本エネルギー」を2枚まで選び、自分のたねポケモン1匹につける。そして山札を切る。",
+			ja: "自分の山札から「基本{W}エネルギー」を2枚まで選び、自分のたねポケモン1匹につける。そして山札を切る。",
 			'zh-tw': "從自己的牌庫選擇最多2張「基本【水】能量」卡，附於自己的1隻【基礎】寶可夢身上。並且重洗牌庫。",
 			th: "เลือกการ์ด [พลังงานพื้นฐาน[น้ำ]] ได้สูงสุด 2 ใบจากสำรับการ์ดฝ่ายเรา ติดที่โปเกมอน[พื้นฐาน]ฝ่ายเรา 1 ตัว แล้วสับสำรับการ์ด",
 			id: "Pilih paling banyak 2 lembar Energi Dasar {Air} dari Deck sendiri, lalu kenakan pada 1 Pokémon Basic sendiri. Kemudian, kocok Deck."
@@ -73,6 +74,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746418,
 				tcgplayer: 567419,
+				cardtrader: 269685,
 			},
 		},
 		{

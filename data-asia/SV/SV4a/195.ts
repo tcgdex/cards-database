@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Saya Tsuruta",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [187],
 	hp: 50,
@@ -53,6 +54,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747549,
 				tcgplayer: 567596,
+				cardtrader: 270202,
 			},
 		},
 	],

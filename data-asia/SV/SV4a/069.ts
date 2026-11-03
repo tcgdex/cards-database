@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shibuzoh.",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [940],
 	hp: 60,
@@ -73,6 +74,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746451,
 				tcgplayer: 567456,
+				cardtrader: 269657,
 			},
 		},
 		{

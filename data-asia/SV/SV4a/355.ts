@@ -9,7 +9,9 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
+	rarity: "Secret Rare",
 	category: "Pokemon",
+	dexId: [1001],
 	hp: 230,
 	types: ["Grass"],
 	stage: "Basic",
@@ -40,12 +42,14 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	regulationMark: "G",
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747709,
 				tcgplayer: 567752,
+				cardtrader: 270348,
 			},
 		},
 	],

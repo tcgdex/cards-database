@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shigenori Negishi",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [143],
 	hp: 150,
@@ -69,6 +70,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747664,
 				tcgplayer: 567711,
+				cardtrader: 270376,
 			},
 		},
 	],

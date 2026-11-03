@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Hideki Ishikawa",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [910],
 	hp: 110,
 	types: ["Fire"],
+
+	evolveFrom: {
+		ja: "ホゲータ"
+	},
 
 	description: {
 		ja: "炎エネルギーと 有り余る 生命力が 交じり 頭上に タマゴ型の 火玉が 現れた。",
@@ -57,6 +62,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747570,
 				tcgplayer: 567617,
+				cardtrader: 270209,
 			},
 		},
 	],

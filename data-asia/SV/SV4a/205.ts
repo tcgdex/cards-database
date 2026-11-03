@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Hideki Ishikawa",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [930],
 	hp: 150,
 	types: ["Grass"],
+
+	evolveFrom: {
+		ja: "オリーニョ"
+	},
 
 	description: {
 		ja: "穏やかで とても 慈悲深い。 栄養豊富な 美味しい オイルを 弱った ポケモンに 分け与える。",
@@ -63,6 +68,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747559,
 				tcgplayer: 567606,
+				cardtrader: 270185,
 			},
 		},
 	],

@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Akira Komayama",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [741],
 	hp: 90,
@@ -63,6 +64,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747568,
 				tcgplayer: 567615,
+				cardtrader: 270211,
 			},
 		},
 	],

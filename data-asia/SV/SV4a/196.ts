@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Mizue",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [188],
 	hp: 70,
 	types: ["Grass"],
+
+	evolveFrom: {
+		ja: "ハネッコ"
+	},
 
 	description: {
 		ja: "ポポッコの マニアは 頭の 花から 漂う 香りで どこで 生まれたか わかるらしい。",
@@ -69,6 +74,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747550,
 				tcgplayer: 567597,
+				cardtrader: 270201,
 			},
 		},
 	],

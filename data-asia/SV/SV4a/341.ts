@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
+	rarity: "Illustration rare",
 	category: "Pokemon",
 	dexId: [778],
 	hp: 70,
@@ -67,6 +68,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747695,
 				tcgplayer: 567741,
+				cardtrader: 270347,
 			},
 		},
 	],

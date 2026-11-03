@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Mina Nakai",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [929],
 	hp: 90,
 	types: ["Grass"],
+
+	evolveFrom: {
+		ja: "ミニーブ"
+	},
 
 	description: {
 		ja: "フレッシュな 香りの 美味しい オイルを 分けてくれる。 古くから 人間と 共存してきた。",
@@ -68,6 +73,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746218,
 				tcgplayer: 567367,
+				cardtrader: 269618,
 			},
 		},
 		{

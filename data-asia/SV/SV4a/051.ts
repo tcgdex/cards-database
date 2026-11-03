@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "rika",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [996],
 	hp: 70,
@@ -66,6 +67,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746427,
 				tcgplayer: 567422,
+				cardtrader: 269684,
 			},
 		},
 		{

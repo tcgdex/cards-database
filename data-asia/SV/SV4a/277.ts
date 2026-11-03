@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Scav",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [57],
 	hp: 90,
 	types: ["Fighting"],
+
+	evolveFrom: {
+		ja: "マンキー"
+	},
 
 	description: {
 		ja: "ある研究者の 学説では モンスターボールの 中でも オコリザルは 怒っているらしい。",
@@ -35,6 +40,7 @@ const card: Card = {
 		},
 
 		name: {
+			ja: "あばれパンチ",
 			'zh-tw': "暴亂拳",
 			id: "Pukulan Mengamuk"
 		}
@@ -51,6 +57,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747631,
 				tcgplayer: 567678,
+				cardtrader: 270234,
 			},
 		},
 	],

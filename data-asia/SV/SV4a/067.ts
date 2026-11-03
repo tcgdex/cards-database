@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Saya Tsuruta",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [922],
 	hp: 90,
 	types: ["Lightning"],
+
+	evolveFrom: {
+		ja: "パモ"
+	},
 
 	description: {
 		ja: "手のひらで 打撃を 加えつつ 肉球で 電撃を 浴びせる 独特の 格闘技を 使う。",
@@ -68,6 +73,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746449,
 				tcgplayer: 567453,
+				cardtrader: 269646,
 			},
 		},
 		{

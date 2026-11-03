@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "otumami",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [43],
 	hp: 60,
@@ -47,6 +48,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747545,
 				tcgplayer: 567592,
+				cardtrader: 270205,
 			},
 		},
 	],

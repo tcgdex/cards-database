@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "GOSSAN",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [642],
 	hp: 110,
@@ -71,10 +72,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746445,
 				tcgplayer: 567445,
+				cardtrader: 269654,
 			},
 		},
 	],

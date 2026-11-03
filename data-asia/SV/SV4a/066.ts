@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "kantaro",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [921],
 	hp: 60,
@@ -61,6 +62,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746448,
 				tcgplayer: 567451,
+				cardtrader: 269666,
 			},
 		},
 		{

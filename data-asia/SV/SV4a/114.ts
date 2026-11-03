@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "aky CG Works",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [1007],
 	hp: 230,
 	types: ["Fighting"],
 	stage: "Basic",
@@ -30,7 +31,7 @@ const card: Card = {
 		},
 
 		effect: {
-			ja: "自分の番に1回使えて、使ったなら、番は終わる。自分のトラッシュから「基本エネルギー」を2枚まで選び、自分のタイプのたねポケモンに好きなようにつける。",
+			ja: "自分の番に1回使えて、使ったなら、番は終わる。自分のトラッシュから「基本{F}エネルギー」を2枚まで選び、自分の{F}タイプのたねポケモンに好きなようにつける。",
 			'zh-tw': "在自己的回合時可使用1次，若使用，則回合結束。從自己的棄牌區選擇最多2張「基本【鬥】能量」卡，以任意方式附於自己的【鬥】屬性的【基礎】寶可夢身上。",
 			th: "ใช้ได้ 1 ครั้งในเทิร์นฝ่ายเรา เมื่อใช้แล้ว จะจบเทิร์นฝ่ายเรา เลือกการ์ด [พลังงานพื้นฐาน[ต่อสู้]] ได้สูงสุด 2 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา ติดที่โปเกมอน[พื้นฐาน]ประเภท[ต่อสู้]ฝ่ายเราตามชอบ",
 			id: "Dapat digunakan 1 kali pada giliran sendiri. Giliran akan selesai jika menggunakan Ability ini. Pilih paling banyak 2 lembar Energi Dasar {Petarung} dari Trash sendiri, lalu kenakan sesukanya pada Pokémon Basic tipe {Petarung} sendiri."
@@ -68,6 +69,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746496,
 				tcgplayer: 567515,
+				cardtrader: 269730,
 			},
 		},
 	],

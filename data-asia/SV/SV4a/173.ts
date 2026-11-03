@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "hncl",
+	rarity: "None",
 	category: "Trainer",
 
 	effect: {
@@ -27,6 +28,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746555,
 				tcgplayer: 567574,
+				cardtrader: 269762,
 			},
 		},
 		{

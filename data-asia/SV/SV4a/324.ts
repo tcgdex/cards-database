@@ -11,9 +11,16 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
+	rarity: "Shiny Ultra Rare",
 	category: "Pokemon",
+	dexId: [911],
 	hp: 340,
 	types: ["Fire"],
+
+	evolveFrom: {
+		ja: "アチゲータ"
+	},
+
 	stage: "Stage2",
 	suffix: "EX",
 
@@ -62,6 +69,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747678,
 				tcgplayer: 567724,
+				cardtrader: 270326,
 			},
 		},
 	],

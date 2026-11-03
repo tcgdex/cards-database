@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hitoshi Ariga",
+	rarity: "None",
 	category: "Trainer",
 
 	effect: {
@@ -27,6 +28,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746554,
 				tcgplayer: 567573,
+				cardtrader: 269768,
 			},
 		},
 		{

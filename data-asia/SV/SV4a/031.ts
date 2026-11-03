@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Hitoshi Ariga",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [910],
 	hp: 110,
 	types: ["Fire"],
+
+	evolveFrom: {
+		ja: "ホゲータ"
+	},
 
 	description: {
 		ja: "炎エネルギーと 有り余る 生命力が 交じり 頭上に タマゴ型の 火玉が 現れた。",
@@ -61,6 +66,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746233,
 				tcgplayer: 567389,
+				cardtrader: 269604,
 			},
 		},
 		{

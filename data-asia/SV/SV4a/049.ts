@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Souichirou Gunjima",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [977],
 	hp: 160,
@@ -64,10 +65,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746417,
 				tcgplayer: 567417,
+				cardtrader: 269678,
 			},
 		},
 	],

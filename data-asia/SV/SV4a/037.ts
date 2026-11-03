@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Shinji Kanda",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [80],
 	hp: 100,
 	types: ["Water"],
+
+	evolveFrom: {
+		ja: "ヤドン"
+	},
 
 	description: {
 		ja: "激しい 戦いで 尻尾に 噛みついた シェルダーが 外れると もとの ヤドンに 戻ってしまう。",
@@ -71,10 +76,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746405,
 				tcgplayer: 567399,
+				cardtrader: 269609,
 			},
 		},
 	],

@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [1004],
 	hp: 190,
 	types: ["Fire"],
 	stage: "Basic",
@@ -48,7 +49,7 @@ const card: Card = {
 		damage: 100,
 
 		effect: {
-			ja: "自分のベンチポケモンを3匹まで選び、山札から「基本エネルギー」を1枚ずつつける。そして山札を切る。",
+			ja: "自分のベンチポケモンを3匹まで選び、山札から「基本{R}エネルギー」を1枚ずつつける。そして山札を切る。",
 			'zh-tw': "選擇最多3隻自己的備戰寶可夢，從牌庫附給那些寶可夢各1張「基本【火】能量」卡。並且重洗牌庫。",
 			th: "เลือกโปเกมอนบนเบนช์ฝ่ายเราได้สูงสุด 3 ตัว นำการ์ด [พลังงานพื้นฐาน[ไฟ]] จากสำรับการ์ดมาติดตัวละ 1 ใบ แล้วสับสำรับการ์ด",
 			id: "Pilih paling banyak 3 Pokémon Cadangan sendiri, lalu kenakan Energi Dasar {Api} masing-masing 1 lembar dari Deck pada Pokémon tersebut. Kemudian, kocok Deck."
@@ -66,6 +67,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746237,
 				tcgplayer: 567396,
+				cardtrader: 269613,
 			},
 		},
 	],

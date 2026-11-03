@@ -14,8 +14,14 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [914],
 	hp: 320,
 	types: ["Water"],
+
+	evolveFrom: {
+		ja: "ウェルカモ"
+	},
+
 	stage: "Stage2",
 	suffix: "EX",
 
@@ -68,6 +74,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746411,
 				tcgplayer: 567408,
+				cardtrader: 269680,
 			},
 		},
 	],

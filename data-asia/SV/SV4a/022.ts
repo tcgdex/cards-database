@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Anesaki Dynamic",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [953],
 	hp: 50,
@@ -57,6 +58,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746224,
 				tcgplayer: 567375,
+				cardtrader: 269622,
 			},
 		},
 		{

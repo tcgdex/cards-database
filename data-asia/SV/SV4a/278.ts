@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Hitoshi Ariga",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [979],
 	hp: 140,
 	types: ["Fighting"],
+
+	evolveFrom: {
+		ja: "オコリザル"
+	},
 
 	description: {
 		ja: "心に 秘めた 怒りのパワーを こぶしに 込めて 叩きつけると 相手を 骨の髄から 砕く。",
@@ -69,6 +74,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747632,
 				tcgplayer: 567679,
+				cardtrader: 270235,
 			},
 		},
 	],

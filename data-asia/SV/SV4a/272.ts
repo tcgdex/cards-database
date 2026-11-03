@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Yuu Nishida",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [958],
 	hp: 90,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "カヌチャン"
+	},
 
 	description: {
 		ja: "大きくて 頑丈な ハンマーを 作るために キリキザンの 群れを 襲って 金属を 集める。",
@@ -69,6 +74,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747626,
 				tcgplayer: 567673,
+				cardtrader: 270250,
 			},
 		},
 	],

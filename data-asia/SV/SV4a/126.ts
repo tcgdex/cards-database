@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "KIYOTAKA OSHIYAMA",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [943],
 	hp: 130,
 	types: ["Darkness"],
+
+	evolveFrom: {
+		ja: "オラチフ"
+	},
 
 	description: {
 		ja: "子どもと 遊ぶことが 大好き。 普段は 温厚だが 家族を 守るとき 形相が 変わる。",
@@ -75,6 +80,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 746508,
 				tcgplayer: 567527,
+				cardtrader: 269733,
 			},
 		},
 		{

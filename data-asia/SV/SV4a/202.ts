@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "GIDORA",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [907],
 	hp: 90,
 	types: ["Grass"],
+
+	evolveFrom: {
+		ja: "ニャオハ"
+	},
 
 	description: {
 		ja: "長い 体毛の下に 隠した ツタを 器用に 操り 硬い つぼみを 敵に 叩きつける。",
@@ -63,6 +68,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747556,
 				tcgplayer: 567603,
+				cardtrader: 270191,
 			},
 		},
 	],

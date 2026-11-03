@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Ryota Murayama",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [937],
 	hp: 140,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "カルボウ"
+	},
 
 	description: {
 		ja: "両腕の 炎の剣は 志半ばで 力つきた 剣士の 怨念で 燃え上がる。",
@@ -76,10 +81,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746473,
 				tcgplayer: 567492,
+				cardtrader: 269697,
 			},
 		},
 	],

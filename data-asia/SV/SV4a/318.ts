@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Shigenori Negishi",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [925],
 	hp: 70,
 	types: ["Colorless"],
+
+	evolveFrom: {
+		ja: "ワッカネズミ"
+	},
 
 	description: {
 		ja: "大きな ２匹が 子どもたちを 守りながら 戦う。 強い 相手には 全員で 立ち向かう。",
@@ -63,6 +68,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747672,
 				tcgplayer: 567718,
+				cardtrader: 270383,
 			},
 		},
 	],

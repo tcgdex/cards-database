@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Anesaki Dynamic",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [976],
 	hp: 130,
@@ -50,7 +51,7 @@ const card: Card = {
 		damage: 120,
 
 		effect: {
-			ja: "このワザは、自分の手札が1枚もないなら、エネルギー1個で使える。",
+			ja: "このワザは、自分の手札が1枚もないなら、{W}エネルギー1個で使える。",
 			'zh-tw': "若自己1張手牌都沒有，則這個招式只需要1個【水】能量即可使用。",
 			th: "ท่าต่อสู้นี้ ถ้าบนมือฝ่ายเราไม่มีการ์ดเลยแม้แต่ 1 ใบ สามารถใช้ได้ด้วยพลังงาน[น้ำ] 1 ลูก",
 			id: "Jika Kartu Pegangan sendiri tidak tersisa 1 lembar pun, serangan ini dapat digunakan dengan 1 Energi {Air}."
@@ -64,10 +65,11 @@ const card: Card = {
 
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746416,
 				tcgplayer: 567415,
+				cardtrader: 269690,
 			},
 		},
 	],

@@ -11,9 +11,16 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
+	rarity: "Shiny Ultra Rare",
 	category: "Pokemon",
+	dexId: [970],
 	hp: 270,
 	types: ["Fighting"],
+
+	evolveFrom: {
+		ja: "キラーメ"
+	},
+
 	stage: "Stage1",
 	suffix: "EX",
 
@@ -62,6 +69,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747683,
 				tcgplayer: 567729,
+				cardtrader: 270334,
 			},
 		},
 	],

@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "GOSSAN",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [128],
 	hp: 130,
@@ -67,6 +68,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747577,
 				tcgplayer: 567624,
+				cardtrader: 270231,
 			},
 		},
 	],

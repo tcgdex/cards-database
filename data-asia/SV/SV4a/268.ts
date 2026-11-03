@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [937],
 	hp: 140,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "カルボウ"
+	},
 
 	description: {
 		ja: "両腕の 炎の剣は 志半ばで 力つきた 剣士の 怨念で 燃え上がる。",
@@ -74,6 +79,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747622,
 				tcgplayer: 567669,
+				cardtrader: 270254,
 			},
 		},
 	],
