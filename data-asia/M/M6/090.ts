@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "30×",
 			cost: ["Colorless", "Colorless"],
 			effect: {
-				ja: "自分のトラッシュにある「基本[R]エネルギー」をすべて相手に見せて、その枚数×30ダメージ。その後、見せたエネルギーを山札にもどして切る。",
+				ja: "自分のトラッシュにある「基本{R}エネルギー」をすべて相手に見せて、その枚数×30ダメージ。その後、見せたエネルギーを山札にもどして切る。",
 			},
 		},
 		{
@@ -33,7 +33,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Water", value: "x2" }],
+	weaknesses: [{ type: "Water", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -42,13 +42,14 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900116,
 				tcgplayer: 709243,
+				cardtrader: 403173,
 			},
 		},
 	],
 
 	retreat: 1,
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Ultra Rare",
 	dexId: [479],
 
 	suffix: "EX",

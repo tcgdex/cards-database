@@ -12,7 +12,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		ja: "このカードは、ポケモンについているかぎり、[G]エネルギー1個ぶんとしてはたらく。このカードをつけている[G]ポケモンは、最大HPが「＋20」される。",
+		ja: "このカードは、ポケモンについているかぎり、{G}エネルギー1個ぶんとしてはたらく。このカードをつけている{G}ポケモンは、最大HPが「＋20」される。",
 	},
 
 	variants: [
@@ -21,12 +21,13 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900137,
 				tcgplayer: 709257,
+				cardtrader: 403187,
 			},
 		},
 	],
 
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Ultra Rare",
 };
 
 export default card;

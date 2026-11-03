@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 80,
 	types: ["Fire"],
 
+	description: {
+		ja: "人懐こく 誠実な 性格。 敵には ほえて かみつき 追い払おうとする。"
+	},
+
 	stage: "Basic",
 
 	attacks: [
@@ -29,7 +33,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Water", value: "x2" }],
+	weaknesses: [{ type: "Water", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -38,13 +42,14 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900101,
 				tcgplayer: 709231,
+				cardtrader: 403161,
 			},
 		},
 	],
 
 	retreat: 2,
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Illustration rare",
 	dexId: [58],
 };
 

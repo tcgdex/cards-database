@@ -32,7 +32,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Lightning", value: "x2" }],
+	weaknesses: [{ type: "Lightning", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -41,13 +41,14 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900117,
 				tcgplayer: 709244,
+				cardtrader: 403174,
 			},
 		},
 	],
 
 	retreat: 3,
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Ultra Rare",
 	dexId: [746],
 
 	suffix: "EX",

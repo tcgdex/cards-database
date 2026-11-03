@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "バディブースト" },
 			effect: {
-				ja: "自分の番に1回使える。自分の手札から「基本[R]エネルギー」と「基本[L]エネルギー」をそれぞれ1枚まで選び、自分の「エレキブル」または「ブーバーン」に好きなようにつける。",
+				ja: "自分の番に1回使える。自分の手札から「基本{R}エネルギー」と「基本{L}エネルギー」をそれぞれ1枚まで選び、自分の「エレキブル」または「ブーバーン」に好きなようにつける。",
 			},
 		},
 	],
@@ -36,7 +36,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Water", value: "x2" }],
+	weaknesses: [{ type: "Water", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -45,6 +45,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 899861,
 				tcgplayer: 709169,
+				cardtrader: 403041,
 			},
 		},
 	],

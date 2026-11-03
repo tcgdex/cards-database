@@ -4,14 +4,14 @@ import Set from "../M6";
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "とくちゅうチョッキ",
+		ja: "ポケモンキャッチャー",
 	},
 
 	illustrator: "Studio Bora Inc.",
 	category: "Trainer",
 
 	effect: {
-		ja: "このカードをつけているポケモン（「メガシンカex」をのぞく）が、相手の「メガシンカex」から受けるワザのダメージは「-60」される。",
+		ja: "コインを1回投げオモテなら、相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
 	},
 
 	variants: [
@@ -20,13 +20,14 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900131,
 				tcgplayer: 709251,
+				cardtrader: 403181,
 			},
 		},
 	],
 
-	trainerType: "Tool",
+	trainerType: "Item",
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Ultra Rare",
 };
 
 export default card;

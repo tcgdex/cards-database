@@ -19,7 +19,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "エキサイトダイブ" },
 			effect: {
-				ja: "自分の番に、このカードが手札にあり、自分の場に[C]タイプの「メガシンカex」がいるなら、1回使える。このカードをベンチに出す。",
+				ja: "自分の番に、このカードが手札にあり、自分の場に{C}タイプの「メガシンカex」がいるなら、1回使える。このカードをベンチに出す。",
 			},
 		},
 	],
@@ -35,7 +35,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Lightning", value: "x2" }],
+	weaknesses: [{ type: "Lightning", value: "×2" }],
 	resistances: [{ type: "Fighting", value: "-30" }],
 
 	variants: [
@@ -44,6 +44,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900129,
 				tcgplayer: 709249,
+				cardtrader: 403179,
 			},
 		},
 	],
@@ -54,7 +55,7 @@ const card: Card = {
 
 	retreat: 0,
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Ultra Rare",
 	dexId: [663],
 
 	suffix: "EX",

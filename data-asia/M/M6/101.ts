@@ -20,13 +20,14 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900134,
 				tcgplayer: 709254,
+				cardtrader: 403184,
 			},
 		},
 	],
 
 	trainerType: "Supporter",
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Ultra Rare",
 };
 
 export default card;
