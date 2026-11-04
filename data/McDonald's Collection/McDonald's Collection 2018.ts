@@ -5,6 +5,7 @@ const s2018sm: Set = {
 	id: "2018sm",
 
 	name: {
+		de: "McDonald's Kollektion 2018",
 		en: "McDonald's Collection 2018",
 		it: "McDonald's Collection 2018"
 	},
