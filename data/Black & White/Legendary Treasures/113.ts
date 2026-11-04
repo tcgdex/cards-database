@@ -3,6 +3,7 @@ import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
+		de: "Doppel-Farblos-Energie",
 		en: "Double Colorless Energy",
 	},
 
