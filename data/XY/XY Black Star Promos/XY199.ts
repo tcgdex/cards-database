@@ -3,6 +3,7 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
+		de: "Camperupts Geistesbund",
 		en: "Camerupt Spirit Link",
 		fr: "Lien Spirituel Camérupt"
 	},

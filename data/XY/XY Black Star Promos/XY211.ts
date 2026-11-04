@@ -3,6 +3,7 @@ import Set from '../XY Black Star Promos'
 
 const card: Card = {
 	name: {
+		de: "Lucarios Geistesbund",
 		en: "Lucario Spirit Link",
 		fr: "Lien Spirituel Lucario"
 	},
