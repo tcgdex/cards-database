@@ -17,7 +17,7 @@ const card: Card = {
 	illustrator: "Studio Bora Inc.",
 	rarity: "Ultra Rare",
 	category: "Trainer",
-	trainerType: "Entrenador",
+	trainerType: "Item",
 
 	thirdParty: {
 		cardmarket: 918968

@@ -17,7 +17,7 @@ const card: Card = {
 	illustrator: "AYUMI ODASHIMA",
 	rarity: "Common",
 	category: "Trainer",
-	trainerType: "Entrenador",
+	trainerType: "Item",
 
 	thirdParty: {
 		tcgplayer: 726554
