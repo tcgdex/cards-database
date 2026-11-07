@@ -30,6 +30,13 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 903004
 			}
+		},
+		{
+			type: "holo",
+			stamp: ["game-on"],
+			thirdParty: {
+				cardmarket: 914431
+			}
 		}
 	],
 }
