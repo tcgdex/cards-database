@@ -9,7 +9,6 @@ export default class ClusterUtils {
 	public static sendAndReceive<T extends object>(cmd: Command, type: string): Promise<Command<T>> {
 		return new Promise((res) => {
 			const fn = (command: Command) => {
-				console.log('master sent', command)
 				// ignore message that are not of the correct type
 				if (command.type !== type) {
 					return
@@ -31,7 +30,6 @@ export default class ClusterUtils {
 	}
 
 	public static broadcard(command: Command) {
-		console.log(cluster.workers)
 		for (const worker of Object.values(cluster.workers!)) {
 			worker?.send(command)
 		}

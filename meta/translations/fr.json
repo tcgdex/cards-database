@@ -17,7 +17,7 @@
 		"Special": "Spécial"
 	},
 	"rarity": {
-		"ACE SPEC Rare": "HIGH-TECG rare",
+		"ACE SPEC Rare": "HIGH-TECH rare",
 		"Amazing Rare": "Magnifique",
 		"Classic Collection": "Collection Classique",
 		"Common": "Commune",
@@ -57,6 +57,7 @@
 		"Three Shiny": "Trois Chromatiques",
 		"Black White Rare": "Rare Noir Blanc",
 		"Mega Hyper Rare": "Méga Hyper Rare",
+		"Mega Attack Rare": "Mega Attack Rare",
 		"Promo": "Promo"
 	},
 	"stage": {
@@ -239,6 +240,7 @@
 		"master-ball-league": "ligue-master-ball",
 		"ultra-ball-league": "ligue-ultra-ball",
 		"poke-ball-league": "ligue-poke-ball",
+		"great-ball-league": "ligue-great-ball",
 		"asia-promo": "asia-promo",
 		"judge": "juge",
 		"international-championship-europe": "championnat-international-europe",
@@ -256,6 +258,7 @@
 		"rain-city": "rain-city",
 		"tournament-collection": "tournament-collection",
 		"worlds-2024": "worlds-2024",
+		"worlds-2022": "worlds-2022",
 		"worlds-2023": "worlds-2023",
 		"asia-2023-24": "asia-2023-24",
 		"thank-you": "thank-you",
@@ -269,7 +272,17 @@
 		"jesse-parker": "jesse-parker",
 		"gabriel-fernandez": "gabriel-fernandez",
 		"shao-tong-yen": "shao-tong-yen",
-		"sakuya-ota": "sakuya-ota"
+		"liao-fu-guan": "liao-fu-guan",
+		"jose-cruz-galindo-resendiz": "Jose Cruz Galindo-Resendiz",
+		"sakuya-ota": "sakuya-ota",
+		"poketour-99": "PokeTour 1999",
+		"fossil-museum": "Fossil Museum",
+		"4th-place": "4e place",
+		"3rd-place": "3e place",
+		"2nd-place": "2e place",
+		"1st-place": "1re place",
+		"toys-r-us": "Toys R Us",
+		"build-a-bear": "Build a Bear"
 	},
 	"variantSubtype": {
 		"shadowless": "sans ombre",
@@ -290,7 +303,7 @@
 		"no-e-reader": "Sans e-Reader",
 		"rarity-error": "Erreur de rareté",
 		"cosmos": "cosmos",
-		"blue border": "bordure bleue",
+		"blue-border": "bordure bleue",
 		"glossy": "brillante",
 		"shadowless-red-cheek": "Sans ombre aux joues rouges",
 		"2019-copyright": "Copyright 2019",

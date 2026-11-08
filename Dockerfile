@@ -14,17 +14,21 @@ ADD --chown=bun:bun package.json bun.lock ./
 ADD --chown=bun:bun server/package.json server/bun.lock ./server/
 
 # install dependencies
-RUN bun install --frozen-lockfile
+RUN bun install --frozen-lockfile && \
+	cd server && \
+	bun install --frozen-lockfile
 
 # Add project files
 ADD --chown=bun:bun . .
 
 # build
-RUN bun scripts/compiler/all.ts
-
-# Install productions packages
 RUN cd server && \
-	bun install --frozen-install --production
+	bun run compile
+
+# remove dev dependencies (bun do not yet support "prune")
+RUN cd server && \
+	rm -rf node_modules && \
+	bun install --frozen-lockfile --production
 
 # go to another VM
 FROM docker.io/oven/bun:1-alpine AS prod

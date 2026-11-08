@@ -58,6 +58,7 @@
 		"Three Shiny": "Un Chromatique",
 		"Black White Rare": "Rara Bianco e Nero",
 		"Mega Hyper Rare": "Mega Iper Raro",
+		"Mega Attack Rare": "Mega Attack Rare",
 		"Promo": "Promo"
 	},
 	"stage": {
@@ -240,6 +241,7 @@
 		"master-ball-league": "lega-master-ball",
 		"ultra-ball-league": "lega-ultra-ball",
 		"poke-ball-league": "lega-poke-ball",
+		"great-ball-league": "lega-great-ball",
 		"asia-promo": "asia-promo",
 		"judge": "giudice",
 		"international-championship-europe": "campionato-internazionale-europa",
@@ -257,6 +259,7 @@
 		"rain-city": "rain-city",
 		"tournament-collection": "tournament-collection",
 		"worlds-2024": "worlds-2024",
+		"worlds-2022": "worlds-2022",
 		"worlds-2023": "worlds-2023",
 		"asia-2023-24": "asia-2023-24",
 		"thank-you": "thank-you",
@@ -270,7 +273,17 @@
 		"jesse-parker": "jesse-parker",
 		"gabriel-fernandez": "gabriel-fernandez",
 		"shao-tong-yen": "shao-tong-yen",
-		"sakuya-ota": "sakuya-ota"
+		"liao-fu-guan": "liao-fu-guan",
+		"jose-cruz-galindo-resendiz": "Jose Cruz Galindo-Resendiz",
+		"sakuya-ota": "sakuya-ota",
+		"poketour-99": "PokeTour 1999",
+		"fossil-museum": "Fossil Museum",
+		"4th-place": "4th posto",
+		"3rd-place": "3rd posto",
+		"2nd-place": "2nd posto",
+		"1st-place": "1st posto",
+		"toys-r-us": "Toys R Us",
+		"build-a-bear": "Build a Bear"
 	},
 	"variantSubtype": {
 		"shadowless": "senza ombra",
