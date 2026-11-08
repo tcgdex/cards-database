@@ -1,0 +1,114 @@
+import { Card } from "models/database/card"
+import Set from "../Surging Sparks"
+
+const card: Card = {
+	dexId: [911],
+	set: Set,
+
+	name: {
+		'en-us': "Skeledirge",
+		'fr-fr': "Flâmigator",
+		'es-es': "Skeledirge",
+		'it-it': "Skeledirge",
+		'pt-br': "Skeledirge",
+		'de-de': "Skelokrok"
+	},
+
+	rarity: "Rare",
+	category: "Pokemon",
+	hp: 180,
+	types: ["Fire"],
+	evolveFrom: {
+		'en-us': "Crocalor",
+		'fr-fr': "Crocogril",
+		'es-es': "Crocalor",
+		'it-it': "Crocalor",
+		'pt-br': "Crocalor",
+		'de-de': "Lokroko"
+	},
+	stage: "Stage2",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'en-us': "Unaware",
+			'fr-fr': "Inconscient",
+			'es-es': "Ignorante",
+			'it-it': "Imprudenza",
+			'pt-br': "Ignorante",
+			'de-de': "Unkenntnis"
+		},
+
+		effect: {
+			'en-us': "Prevent all effects of attacks used by your opponent's Pokémon done to this Pokémon. (Damage is not an effect.)",
+			'fr-fr': "Évitez tous les effets infligés à ce Pokémon provenant des attaques utilisées par les Pokémon de votre adversaire. (Les dégâts ne sont pas un effet.)",
+			'es-es': "Se evitan todos los efectos de los ataques usados por los Pokémon de tu rival e infligidos a este Pokémon. (El daño no es un efecto).",
+			'it-it': "Previeni tutti gli effetti inflitti a questo Pokémon dagli attacchi usati dai Pokémon del tuo avversario. I danni non sono un effetto.",
+			'pt-br': "Previna todos os efeitos de ataques usados pelos Pokémon do seu oponente causados a este Pokémon. (Dano não é um efeito.)",
+			'de-de': "Verhindere alle Effekte der von Pokémon deines Gegners eingesetzten Attacken, die diesem Pokémon zugefügt werden. (Schaden ist kein Effekt.)"
+		}
+	}],
+
+	attacks: [{
+		cost: ["Fire", "Colorless"],
+
+		name: {
+			'en-us': "Torcherto",
+			'fr-fr': "Torcherto",
+			'es-es': "Serenata Incendiaria",
+			'it-it': "Concerto Infuocato",
+			'pt-br': "Repertocha",
+			'de-de': "Schmorchester"
+		},
+
+		effect: {
+			'en-us': "This attack does 20 more damage for each Benched Pokémon (both yours and your opponent's).",
+			'fr-fr': "Cette attaque inflige 20 dégâts supplémentaires pour chaque Pokémon de Banc (les vôtres et ceux de votre adversaire).",
+			'es-es': "Este ataque hace 20 puntos de daño más por cada Pokémon en Banca (tanto tuyos como de tu rival).",
+			'it-it': "Questo attacco infligge 20 danni in più per ogni Pokémon in panchina, sia tuo che del tuo avversario.",
+			'pt-br': "Este ataque causa 20 pontos de dano a mais para cada Pokémon no Banco (seus e do seu oponente).",
+			'de-de': "Diese Attacke fügt für jedes Pokémon auf der Bank (deiner und der deines Gegners) 20 Schadenspunkte mehr zu."
+		},
+
+		damage: "60+"
+	}],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
+	retreat: 3,
+	regulationMark: "H",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 833332,
+				tcgplayer: 590053
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 833332,
+				tcgplayer: 590053
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 794290,
+			}
+		},
+	],
+
+	illustrator: "akagi",
+	
+}
+
+export default card

@@ -1,0 +1,94 @@
+import { Card } from 'models/database/card'
+import Set from '../Neo Discovery'
+
+const card: Card = {
+	name: {
+		'en-us': "Unown [A]",
+		'fr-fr': "Zarbi A",
+		'de-de': "Icognito A"
+	},
+
+	illustrator: "CR CG gangs",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		201,
+	],
+
+	hp: 40,
+
+	types: [
+		"Psychic",
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Pokemon Power",
+			name: {
+				'en-us': "Anger",
+				'fr-fr': "[Anger]",
+				'de-de': "Anger"
+			},
+			effect: {
+				'en-us': "Whenever 1 of your Pokémon with Unown in its name uses its Hidden Power attack, that attack does 10 more damage for each damage counter on Unown A. If you have more than 1 Unown A in play, use only 1 Anger for each attack.",
+				'fr-fr': "Quand 1 de vos Pokémon Zarbi utilise son attaque Puissance cachée, cette attaque inflige 10 dégâts supplémentaires par marqueur de dégâts placé sur Zarbi [A]. Si vous avez plus d' 1 Zarbi [A] en jeu, n'utilisez que 1 [Anger] par attaque.",
+				'de-de': "Immer wenn eines deiner Pokémon, das Icognito in seinem Namen hat, seinen Angriff Kraftreserve verwednet, fügt dieser Angriff pro Schadensmarke auf Icognito A 10 weitere Schadenspunkte zu. Wenn du mehr Icognito A im Spiel hast, kannst du nur einmal Anger bei jedem Angriff verwenden."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+			],
+			name: {
+				'en-us': "Hidden Power",
+				'fr-fr': "Puissance cachée",
+				'de-de': "Kraftreserve"
+			},
+
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
+		'fr-fr': "Ils ressemblent à des hiéroglyphes inscrits sur d'antiques tablettes. On prétend qu'ils sont de la même origine."
+	},
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274525,
+				tcgplayer: 90196
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274525,
+				tcgplayer: 90196
+			}
+		}
+	]
+}
+
+export default card

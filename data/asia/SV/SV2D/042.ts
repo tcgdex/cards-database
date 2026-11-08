@@ -1,0 +1,73 @@
+import { Card } from "models/database/card"
+import Set from "../SV2D"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "マケンカニ",
+		'zh-tw': "好勝蟹",
+		'th-th': "มาเค็นคานิ",
+		'id-id': "Crabrawler"
+	},
+
+	illustrator: "Nagomi Nijo",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [739],
+	hp: 90,
+	types: ["Fighting"],
+
+	description: {
+		'ja-jp': "木を 殴りつけ 木の実を 落として 食べる。 トレーニングしつつ エサも 採れて 一石二鳥 なのだ。",
+		'zh-tw': "會擊落樹上的樹果來吃。訓練和覓食都能同時達成， 簡直可以說是一舉兩得。",
+		'th-th': "ต่อยต้นไม้ให้ผลไม้หล่นลงมาแล้วเก็บกิน ได้ฝึกต่อยทั้งยังได้อาหาร เรียกว่ายิงปืนนัดเดียวได้นกสองตัวเลยล่ะ",
+		'id-id': "Crabrawler dapat mengambil makanan sekaligus berlatih dengan memukul-mukul pohon dan memakan buah beri yang jatuh."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Fighting", "Colorless"],
+
+		name: {
+			'ja-jp': "げんこつ",
+			'zh-tw': "拳骨",
+			'th-th': "กำปั้น",
+			'id-id': "Kepalan Tinju"
+		},
+
+		damage: 30
+	}, {
+		cost: ["Fighting", "Fighting", "Colorless"],
+
+		name: {
+			'ja-jp': "マグナムパンチ",
+			'zh-tw': "增量拳",
+			'th-th': "แมกนัมพันช์",
+			'id-id': "Magnum Punch"
+		},
+
+		damage: 60
+	}],
+
+	weaknesses: [{
+		type: "Psychic",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 705346,
+				tcgplayer: 565904,
+			},
+		},
+	],
+
+	retreat: 3,
+	regulationMark: "G",
+}
+
+export default card

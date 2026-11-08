@@ -1,0 +1,62 @@
+import { Card } from "models/database/card"
+import Set from "../S9a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'zh-tw': "泥泥鰍",
+		'ja-jp': "ドジョッチ"
+	},
+
+	illustrator: "Mizue",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Water"],
+
+	description: {
+		'zh-tw': "以水質混濁的沼澤為居所，藏身於濁水之中躲避天敵的視線。 體表的黏液使得牠很難用手抓住。",
+		'ja-jp': "水 濁りし 沼地を 棲み処とす。 視界 悪く 天敵より 姿を隠す。 体表の粘液により 手掴み 難儀なり。"
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		name: {
+			'zh-tw': "潑水",
+			'ja-jp': "みずかけ"
+		},
+
+		damage: 40,
+		cost: ["Water", "Colorless", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Lightning",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 609730,
+				tcgplayer: 570590,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				tcgplayer: 577615,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "F",
+	rarity: "Common",
+	dexId: [339],
+}
+
+export default card

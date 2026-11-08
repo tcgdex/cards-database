@@ -1,0 +1,106 @@
+import { Card } from 'models/database/card'
+import Set from '../HeartGold SoulSilver'
+
+const card: Card = {
+	name: {
+		'en-us': "Gyarados",
+		'fr-fr': "Léviator",
+		'de-de': "Garados"
+	},
+
+	illustrator: "Wataru Kawahara",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [130],
+
+	hp: 130,
+
+	types: [
+		"Water"
+	],
+
+	evolveFrom: {
+		'en-us': "Magikarp",
+		'fr-fr': "Magicarpe"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Thrash",
+				'fr-fr': "Mania",
+				'de-de': "Fuchtler"
+			},
+			effect: {
+				'en-us': "If heads, this attack does 30 damage plus 20 more damage. If tails, Gyarados does 20 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c’est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires. Si c’est pile, Léviator s’inflige 20 dégâts.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu. Bei \"Zahl\" fügt Garados sich selbst 20 Schadenspunkte zu."
+			},
+			damage: "30+",
+
+		},
+		{
+			cost: [
+				"Water",
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Heavy Storm",
+				'fr-fr': "Grosse tempête",
+				'de-de': "Schwerer Sturm"
+			},
+
+			damage: 70,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+
+	retreat: 3,
+
+	description: {
+		'en-us': "They say that during past strife, Gyarados would appear and leave blazing ruins in its wake."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278976,
+				tcgplayer: 85995
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279095,
+				tcgplayer: 85995
+			}
+		},
+	],
+
+}
+
+export default card

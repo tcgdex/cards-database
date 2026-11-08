@@ -1,0 +1,72 @@
+import { Card } from 'models/database/card'
+import Set from '../Pokémon Rumble'
+
+const card: Card = {
+	name: {
+		'en-us': "Skuntank"
+	},
+
+	illustrator: undefined,
+	rarity: "None",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [435],
+
+	hp: 90,
+
+	types: [
+		"Darkness"
+	],
+
+	evolveFrom: {
+		'en-us': "Stunky"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Darkness",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Rage"
+			},
+			effect: {
+				'en-us': "Does 20 damage plus 10 more damage for each damage counter on Skuntank."
+			},
+			damage: "20+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "x2"
+		},
+	],
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-20"
+		},
+	],
+	retreat: 2,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278854,
+				tcgplayer: 89281
+			},
+		}
+	]
+}
+
+export default card

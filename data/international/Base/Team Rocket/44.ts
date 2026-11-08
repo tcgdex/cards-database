@@ -1,0 +1,100 @@
+import { Card } from 'models/database/card'
+import Set from '../Team Rocket'
+
+const card: Card = {
+	name: {
+		'en-us': "Dark Rapidash",
+		'fr-fr': "Galopa obscur",
+		'de-de': "Dunkles Gallopa"
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		78,
+	],
+
+	hp: 60,
+
+	types: [
+		"Fire",
+	],
+
+	evolveFrom: {
+		'en-us': "Ponyta",
+		'fr-fr': "Ponyta"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Rear Kick",
+				'fr-fr': "Ruade",
+				'de-de': "Rear Kick"
+			},
+
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Fire",
+				"Fire",
+			],
+			name: {
+				'en-us': "Flame Pillar",
+				'fr-fr': "Colonne de flammes",
+				'de-de': "Flame Pillar"
+			},
+			effect: {
+				'en-us': "You may discard 1 Energy card attached to Dark Rapidash when you use this attack. If you do and if your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Vous pouvez défausser 1 carte Énergie  attachée à Galopa obscur lorsque vous utilisez cette attaque. Dans ce cas, et si votre adversaire a au moins 1 Pokémon sur son Banc, choisissez l'un d'eux et cette attaque lui inflige 10 dégâts. (N'appliquez pas la Faiblesse et la Résistance au Pokémon du Banc).",
+				'de-de': "You may discard 1  Energy card attached to Dark Rapidash when you use this attack. If you do and if your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and resistance for benched Pokémon.)"
+			},
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+
+	description: {
+		'en-us': "A wild, uncontrollable Pokémon. When running, it looks like a comet streaking through the sky.",
+		'fr-fr': "C'est un Pokémon sauvage et indomptable. Lorsqu'il galope, on dirait une comète traversant les cieux."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274097,
+				tcgplayer: 84648
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274097,
+				tcgplayer: 84648
+			}
+		}
+	]
+}
+
+export default card

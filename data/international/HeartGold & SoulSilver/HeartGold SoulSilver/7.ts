@@ -1,0 +1,105 @@
+import { Card } from 'models/database/card'
+import Set from '../HeartGold SoulSilver'
+
+const card: Card = {
+	name: {
+		'en-us': "Ninetales",
+		'fr-fr': "Feunard",
+		'de-de': "Vulnona"
+	},
+
+	illustrator: "TOKIYA",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [38],
+
+	hp: 90,
+
+	types: [
+		"Fire"
+	],
+
+	evolveFrom: {
+		'en-us': "Vulpix",
+		'fr-fr': "Goupix"
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				'en-us': "Roast Reveal",
+				'fr-fr': "Rôtir",
+				'de-de': "Bratblick"
+			},
+			effect: {
+				'en-us': "Once during your turn (before your attack), you may discard a Fire Energy card from your hand. If you do, draw 3 cards. This power can't be used if Ninetales is affected by a Special Condition.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez vous défausser d’une carte Énergie Fire. Dans ce cas, piochez 3 cartes. Ce pouvoir ne peut pas être utilisé si Feunard est affecté par un État spécial.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 -Energiekarte aus deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, ziehe 3 Karten. Diese Poké-Power kann nicht benutzt werden, wenn Vulnona von einem Speziellen Zustand betroffen ist."
+			}
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Fire",
+				"Fire",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Will-o'-the-wisp",
+				'fr-fr': "Feu follet",
+				'de-de': "Irrlicht"
+			},
+
+			damage: 60,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Its nine beautiful tails are filled with a wondrous energy that could keep it alive for 1,000 years."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 87774,
+				cardmarket: 278979
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87774,
+				cardmarket: 278979
+			}
+		},
+		{
+			type: "holo",
+			foil: "cracked-ice",
+			thirdParty: {
+				tcgplayer: 264837,
+				cardmarket: 278979
+			}
+		},
+	],
+
+}
+
+export default card

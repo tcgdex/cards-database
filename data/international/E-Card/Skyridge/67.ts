@@ -1,0 +1,62 @@
+import { Card } from 'models/database/card'
+import Set from '../Skyridge'
+
+const card: Card = {
+	name: {
+		'en-us': "Igglybuff",
+		'de-de': "Fluffeluff"
+	},
+
+	illustrator: "Keiko Fukuyama",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [174],
+
+	hp: 30,
+
+	types: [
+		"Colorless"
+	],
+
+	stage: "Baby",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Energy Heal",
+				'de-de': "Energieauffrischung"
+			},
+			effect: {
+				'en-us': "Choose 1 of your Pokémon with an Energy card attached to it. Remove 1 damage counter from that Pokémon.",
+				'de-de': "Wähle 1 deiner Pokémon, an das mindestens eine Energiekarte angelegt ist. Entferne 1 Schadensmarke von deinem Pokémon."
+			},
+
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 86258,
+				cardmarket: 275325
+			},
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				tcgplayer: 86258,
+				cardmarket: 275325
+			},
+		},
+	],
+}
+
+export default card

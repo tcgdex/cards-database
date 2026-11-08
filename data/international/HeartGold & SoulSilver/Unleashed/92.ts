@@ -1,0 +1,78 @@
+import { Card } from 'models/database/card'
+import Set from '../Unleashed'
+
+const card: Card = {
+	name: {
+		'en-us': "Raikou & Suicune LEGEND",
+		'fr-fr': "Raikou & Suicune LÉGENDE (haut)",
+		'de-de': "Raikou & Suicune LEGENDE"
+	},
+
+	illustrator: "Shinji Higuchi + Noriko Takaya",
+	rarity: "LEGEND",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [243],
+	hp: 160,
+
+	types: [
+		"Lightning",
+		"Water"
+	],
+
+	suffix: "Legend",
+	stage: "Basic",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 88539,
+				cardmarket: 279248
+			}
+		},
+	],
+	attacks: [{
+		name: {
+			'en-us': "Thunderbolt Spear",
+			'de-de': "Blitzspeer"
+		},
+
+		damage: 150,
+
+		effect: {
+			'en-us': "Raikou & Suicune LEGEND does 50 damage to itself and don't apply Weakness to this damage.",
+			'de-de': "Raikou & Suicune-LEGENDE fügt sich selbst 50 Schadenspunkte zu; wende dabei Schwäche nicht an."
+		},
+
+		cost: ["Lightning", "Lightning", "Colorless"]
+	}, {
+		name: {
+			'en-us': "Aurora Gain",
+			'de-de': "Aurora-Verstärkung"
+		},
+
+		damage: 50,
+
+		effect: {
+			'en-us': "Remove 5 damage counters from Raikou & Suicune LEGEND.",
+			'de-de': "Entferne 5 Schadensmarken von Raikou & Suicune-LEGENDE."
+		},
+
+		cost: ["Water", "Colorless", "Colorless"]
+	}],
+}
+
+export default card

@@ -1,0 +1,29 @@
+import { Card } from "models/database/card"
+import Set from "../M1S"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "なみのりビーチ"
+	},
+	illustrator: "AYUMI ODASHIMA",
+	category: "Trainer",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840621,
+				tcgplayer: 647254,
+			},
+		},
+	],
+
+	trainerType: "Item",
+	effect: {
+		'ja-jp': "おたがいのプレイヤーは、自分の番ごとに1回、自分のバトル場の水ポケモンを、ベンチの水ポケモンと入れ替えてよい。",
+	},
+	regulationMark: "I",
+	rarity: "Uncommon"
+}
+
+export default card

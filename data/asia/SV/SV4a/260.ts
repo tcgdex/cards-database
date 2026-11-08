@@ -1,0 +1,79 @@
+import { Card } from "models/database/card"
+import Set from "../SV4a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "フワンテ",
+		'zh-tw': "飄飄球",
+		'id-id': "Drifloon"
+	},
+
+	illustrator: "Kyoko Umemoto",
+	category: "Pokemon",
+	dexId: [425],
+	hp: 70,
+	types: ["Psychic"],
+
+	description: {
+		'ja-jp': "風船と 間違えて フワンテを 持っていた 小さな 子どもが 消えてしまうことが あるという。",
+		'zh-tw': "據說有些因為誤認成氣球，而把牠拿在手上的小孩， 會就此消失無蹤。",
+		'id-id': "Dikabarkan ada kejadian menghilangnya anak kecil yang menyangka Drifloon sebagai balonnya dan membawanya pergi."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "かぜおこし",
+			'zh-tw': "起風",
+			'id-id': "Hembusan Angin"
+		},
+
+		damage: 10
+	}, {
+		cost: ["Psychic", "Psychic"],
+
+		name: {
+			'ja-jp': "バルーンボム",
+			'zh-tw': "氣球爆破",
+			'id-id': "Balloon Bomb"
+		},
+
+		damage: "30×",
+
+		effect: {
+			'ja-jp': "このポケモンにのっているダメカンの数×30ダメージ。",
+			'zh-tw': "造成這隻寶可夢身上放置的傷害指示物的數量×30點傷害。",
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 30 untuk tiap Token Kerusakan yang dimiliki Pokémon ini."
+		}
+	}],
+
+	weaknesses: [{
+		type: "Darkness",
+		value: "×2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "-30"
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 747614,
+				tcgplayer: 567661,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "G"
+}
+
+export default card

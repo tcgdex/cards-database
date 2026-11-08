@@ -1,0 +1,76 @@
+import { Card } from 'models/database/card'
+import Set from '../Southern Islands'
+
+const card: Card = {
+	name: {
+		'en-us': "Raticate",
+	},
+
+	illustrator: "Keiko Fukuyama",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		20,
+	],
+
+	hp: 60,
+
+	types: [
+		"Colorless",
+	],
+
+	evolveFrom: {
+		'en-us': "Rattata",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Sharp Teeth",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, this attack does 10 damage plus 30 more damage; if tails, this attack does 10 damage.",
+			},
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-30"
+		},
+	],
+
+	description: {
+		'en-us': "This Pokémon sometimes hunts for food in rivers, swimming using the small webs between the toes on its rear legs.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275636,
+				tcgplayer: 46480
+			}
+		}
+	]
+}
+
+export default card

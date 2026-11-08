@@ -1,0 +1,78 @@
+import { Card } from 'models/database/card'
+import Set from '../Nintendo Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Pikachu",
+	},
+	illustrator: "Kouki Saitou",
+	rarity: "Common",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		25,
+	],
+	hp: 50,
+	types: [
+		"Lightning",
+	],
+
+	stage: "Basic",
+
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Agility",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Pikachu during your opponent's next turn.",
+			},
+
+		},
+		{
+			cost: [
+				"Lightning",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Thundershock",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+			},
+			damage: 20,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				tcgplayer: 88067
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['10th-anniversary'],
+			thirdParty: {
+				tcgplayer: 187219
+			}
+		}
+	]
+
+}
+
+export default card

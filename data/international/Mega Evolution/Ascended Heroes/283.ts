@@ -1,0 +1,96 @@
+import { Card } from "models/database/card"
+import Set from "../Ascended Heroes"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Mega Hawlucha ex",
+		'fr-fr': "Méga-Brutalibré-ex",
+		'es-es': "Mega-Hawlucha ex",
+		'es-mx': "Mega-Hawlucha ex",
+		'de-de': "Mega-Resladero-ex",
+		'it-it': "Mega Hawlucha-ex",
+		'pt-br': "Mega Hawlucha ex"
+	},
+
+	suffix: "ex",
+	illustrator: "AKIRA EGAWA",
+	rarity: "Special illustration rare",
+	category: "Pokemon",
+	dexId: [701],
+	hp: 250,
+	types: ["Fighting"],
+	stage: "Basic",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'en-us': "Tenacious Body",
+			'fr-fr': "Corps Tenace",
+			'es-es': "Cuerpo Tenaz",
+			'es-mx': "Cuerpo Tenaz",
+			'de-de': "Hartnäckiger Körper",
+			'it-it': "Corpo Tenace",
+			'pt-br': "Corpo Tenaz"
+		},
+
+		effect: {
+			'en-us': "If this Pokémon would be Knocked Out by damage from an attack, flip a coin. If heads, this Pokémon is not Knocked Out, and its remaining HP becomes 10.",
+			'fr-fr': "Si ce Pokémon doit être mis K.O. par les dégâts d'une attaque, lancez une pièce. Si c'est face, ce Pokémon n'est pas mis K.O. et il lui reste 10 PV.",
+			'es-es': "Si este Pokémon fuese a quedar Fuera de Combate por el daño de un ataque, lanza 1 moneda. Si sale cara, este Pokémon no queda Fuera de Combate y sus PS restantes pasan a ser 10.",
+			'es-mx': "Si este Pokémon quedaría Fuera de Combate por el daño de un ataque, lanza 1 moneda. Si sale cara, este Pokémon no queda Fuera de Combate y ahora le quedan 10 PS.",
+			'de-de': "Wenn dieses Pokémon durch Schaden einer Attacke kampfunfähig würde, wirf 1 Münze. Bei Kopf wird dieses Pokémon nicht kampfunfähig und seine verbleibenden KP sind gleich 10.",
+			'it-it': "Se questo Pokémon sta per essere messo KO dai danni inflitti da un attacco, lancia una moneta. Se esce testa, questo Pokémon non viene messo KO e i suoi PS rimanenti diventano 10.",
+			'pt-br': "Se este Pokémon estiver prestes a ser Nocauteado pelo dano de um ataque, jogue uma moeda. Se sair cara, este Pokémon não será Nocauteado e o PS restante dele será 10."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Fighting", "Fighting", "Colorless"],
+
+		name: {
+			'en-us': "Somersault Dive",
+			'fr-fr': "Plongée Culbute",
+			'es-es': "Picado y Voltereta",
+			'es-mx': "Descenso Giratorio",
+			'de-de': "Saltosturzflug",
+			'it-it': "Capriolpicchiata",
+			'pt-br': "Salto Mortal"
+		},
+
+		effect: {
+			'en-us': "If a Stadium is in play, this attack does 140 more damage. Then, discard that Stadium.",
+			'fr-fr': "Si un Stade est en jeu, cette attaque inflige 140 dégâts supplémentaires. Ensuite, défaussez ce Stade.",
+			'es-es': "Si hay un Estadio en juego, este ataque hace 140 puntos de daño más. Después, descarta ese Estadio.",
+			'es-mx': "Si hay un Estadio en juego, este ataque hace 140 puntos de daño más. Después, descarta ese Estadio.",
+			'de-de': "Wenn ein Stadion im Spiel ist, fügt diese Attacke 140 Schadenspunkte mehr zu. Lege anschließend jenes Stadion auf den Ablagestapel.",
+			'it-it': "Se c'è una carta Stadio in gioco, questo attacco infligge 140 danni in più. Poi scarta quella carta Stadio.",
+			'pt-br': "Se um Estádio estiver em jogo, este ataque causará 140 pontos de dano a mais. Em seguida, descarte aquele Estádio."
+		},
+
+		damage: "120+"
+	}],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+	regulationMark: "I",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 869894,
+				tcgplayer: 676095
+			}
+		}
+	],
+}
+
+export default card

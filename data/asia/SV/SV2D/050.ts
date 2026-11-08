@@ -1,0 +1,62 @@
+import { Card } from "models/database/card"
+import Set from "../SV2D"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "ニューラ",
+		'zh-tw': "狃拉",
+		'th-th': "นิวลา",
+		'id-id': "Sneasel"
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [215],
+	hp: 70,
+	types: ["Darkness"],
+
+	description: {
+		'ja-jp': "自分が 目立たないよう 暗闇に まぎれて 獲物に 襲いかかる とても ずる賢い ポケモン。",
+		'zh-tw': "會潛藏在黑暗中使自己變得不起眼，然後伺機襲擊獵物， 是非常狡詐的寶可夢。",
+		'th-th': "ล่าเหยื่อโดยพรางตัวในความมืดเพื่อไม่ให้เห็นตัวได้โดยง่าย เป็นโปเกมอนที่เจ้าเล่ห์มาก",
+		'id-id': "Sneasel adalah Pokémon yang sangat licik. Agar tidak terlihat mencolok, Pokémon ini bersembunyi di dalam kegelapan, kemudian menyerang mangsanya."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Darkness"],
+
+		name: {
+			'ja-jp': "ツメをたてる",
+			'zh-tw': "豎爪",
+			'th-th': "กางกรงเล็บ",
+			'id-id': "Memasang Cakar"
+		},
+
+		damage: 20
+	}],
+
+	weaknesses: [{
+		type: "Grass",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 705354,
+				tcgplayer: 565912,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "G",
+}
+
+export default card

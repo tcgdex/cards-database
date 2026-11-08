@@ -1,0 +1,100 @@
+import { Card } from 'models/database/card'
+import Set from '../Neo Destiny'
+
+const card: Card = {
+	name: {
+		'en-us': "Dark Typhlosion",
+		'fr-fr': "Typhlosion obscur",
+		'de-de': "Dunkles Tornupto"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		157,
+	],
+
+	hp: 80,
+
+	types: [
+		"Fire",
+	],
+
+	evolveFrom: {
+		'en-us': "Quilava",
+		'fr-fr': "Feurisson obscur"
+	},
+
+	stage: "Stage2",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Claw Swipe",
+				'fr-fr': "Combo-serres",
+				'de-de': "Klauenschlag"
+			},
+
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Fire",
+			],
+			name: {
+				'en-us': "Rushing Flames",
+				'fr-fr': "Vague de flammes",
+				'de-de': "Brausende Flammen"
+			},
+			effect: {
+				'en-us': "You may discard any number of Energy cards attached to your Pokémon. Flip a coin for each Energy card discarded in this way. This attack does 40 damage times the number of heads.",
+				'fr-fr': "Vous pouvez vous défausser de n'importe quel nombre de cartes Énergie  attachées à votre Pokémon. Lancez une pièce pour chaque carte Énergie  défaussée de cette manière. Cette attaque fait 40 dégâts multipliés par le nombre de faces.",
+				'de-de': "Du kannst eine beliebige Anzahl an dein Pokémon angelegte -Energiekarten auf deinen Ablagestapel legen. Wirf für jede -Energiekarte, die du auf diese Weise auf deinen Ablagestapel gelegt hast, eine Münze. Dieser angriff fügt 40 Schadenspunkte mal der Anzahl 'Kopf' zu."
+			},
+			damage: "40x",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "When it's in combat, the air around it shimmers and warps from the intense heat it produces.",
+		'fr-fr': "Quand il se bat, l'air autour de lui scintille et semble s'enflammer à cause de l'intense chaleur émanant de lui."
+	},
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274662,
+				tcgplayer: 84659
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274662,
+				tcgplayer: 84659
+			}
+		}
+	]
+}
+
+export default card

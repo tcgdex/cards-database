@@ -1,0 +1,42 @@
+import { Card } from "models/database/card";
+import Set from "../S12a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ツツジ",
+		'zh-tw': "杜娟",
+		'th-th': "สึสึจิ",
+	},
+
+	illustrator: "Megumi Mizutani",
+	category: "Trainer",
+
+	effect: {
+		'ja-jp': "このカードは、相手のサイドの残り枚数が3枚以下のときにしか使えない。おたがいのプレイヤーは、それぞれ手札をすべて山札にもどして切る。その後、自分は6枚、相手は2枚、山札を引く。",
+		'zh-tw': "這張卡只可在對手剩餘獎賞卡的張數為3張以下時使用。 雙方玩家各將手牌全部放回牌庫並重洗。然後，從牌庫抽卡，自己抽出6張，對手抽出2張。",
+		'th-th': "การ์ดนี้ จะใช้ได้แค่ตอนที่จำนวนการ์ดรางวัลที่เหลือของฝ่ายตรงข้ามมีน้อยกว่าหรือเท่ากับ 3 ใบ ผู้เล่นทั้งสองฝ่าย นำการ์ดบนมือแต่ละฝ่ายทั้งหมดใส่กลับไปในสำรับการ์ดแล้วสับ หลังจากนั้น ฝ่ายเราจั่วการ์ด 6 ใบ และฝ่ายตรงข้ามจั่วการ์ด 2 ใบจากสำรับการ์ด",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 687719,
+				tcgplayer: 571695,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577512,
+			},
+		},
+	],
+
+	trainerType: "Supporter",
+	regulationMark: "F",
+	rarity: "None",
+};
+
+export default card;

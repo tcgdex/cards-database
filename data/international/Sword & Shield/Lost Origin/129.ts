@@ -1,0 +1,84 @@
+import { Card } from "models/database/card"
+import Set from "../Lost Origin"
+
+const card: Card = {
+	dexId: [863],
+	set: Set,
+
+	name: {
+		'en-us': "Galarian Perrserker V",
+		'fr-fr': "Berserkatt de Galar V",
+		'es-es': "Perrserker de Galar V",
+		'it-it': "Perrserker di Galar V",
+		'pt-br': "Perrserker de Galar V",
+		'de-de': "Galar-Mauzinger V"
+	},
+
+	illustrator: "PLANETA Yamashita",
+	rarity: "Holo Rare V",
+	category: "Pokemon",
+	hp: 200,
+	types: ["Metal"],
+	stage: "Basic",
+	suffix: "V",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'en-us': "Feelin' Fine",
+			'fr-fr': "Mode Cool",
+			'es-es': "Buen Rollito",
+			'it-it': "Tuttobene",
+			'pt-br': "Sensação Boa",
+			'de-de': "Wohl fühlen"
+		},
+
+		effect: {
+			'en-us': "Draw 3 cards.",
+			'fr-fr': "Piochez 3 cartes.",
+			'es-es': "Roba 3 cartas.",
+			'it-it': "Pesca tre carte.",
+			'pt-br': "Compre 3 cartas.",
+			'de-de': "Ziehe 3 Karten."
+		}
+	}, {
+		cost: ["Metal", "Colorless"],
+
+		name: {
+			'en-us': "Treasure Rush",
+			'fr-fr': "Ruée au Trésor",
+			'es-es': "Embestida Tesoro",
+			'it-it': "Sfrecciatesoro",
+			'pt-br': "Corrida ao Tesouro",
+			'de-de': "Schatzhatz"
+		},
+
+		effect: {
+			'en-us': "This attack does 20 damage for each card in your hand.",
+			'fr-fr': "Cette attaque inflige 20 dégâts pour chaque carte dans votre main.",
+			'es-es': "Este ataque hace 20 puntos de daño por cada carta en tu mano.",
+			'it-it': "Questo attacco infligge 20 danni per ogni carta nella tua mano.",
+			'pt-br': "Este ataque causa 20 pontos de dano para cada carta na sua mão.",
+			'de-de': "Diese Attacke fügt für jede Karte auf deiner Hand 20 Schadenspunkte zu."
+		},
+
+		damage: "20×"
+	}],
+
+	retreat: 2,
+	regulationMark: "F",
+
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674142,
+				tcgplayer: 284047
+			}
+		},
+	],
+}
+
+export default card

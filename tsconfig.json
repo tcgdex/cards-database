@@ -1,5 +1,5 @@
 {
-	"include": ["data", "server/compiler", "interfaces.d.ts"],
+	"include": ["data", "meta", "compiler", "interfaces.d.ts"],
 	"compilerOptions": {
 		"lib": ["ESNext"],
 		"target": "ESNext",
@@ -19,5 +19,16 @@
 		// disabled because it would produce too much errors
 		"verbatimModuleSyntax": false,
 		"noEmit": true,
+
+		// add aliases so it becomes easier to manage transforms
+		"paths": {
+			"data/*": [
+				"./data/*"
+			],
+
+			"models/*": [
+				"./meta/models/*"
+			]
+		}
 	}
 }

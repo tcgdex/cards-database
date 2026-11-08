@@ -1,0 +1,92 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set 2'
+
+const card: Card = {
+	name: {
+		'en-us': "Beedrill",
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		15,
+	],
+
+	hp: 80,
+
+	types: [
+		"Grass",
+	],
+
+	evolveFrom: {
+		'en-us': "Kakuna",
+	},
+
+	stage: "Stage2",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Twineedle",
+			},
+			effect: {
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads.",
+			},
+			damage: 30,
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Grass",
+				"Grass",
+			],
+			name: {
+				'en-us': "Poison Sting",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30"
+		},
+	],
+
+	description: {
+		'en-us': "Flies at high speed and attacks using the large, venomous stingers on its forelegs and tail.",
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 273944,
+				tcgplayer: 42466
+			}
+		}
+	]
+}
+
+export default card

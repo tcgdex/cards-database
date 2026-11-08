@@ -1,0 +1,102 @@
+import { Card } from 'models/database/card'
+import Set from '../Dragon'
+
+const card: Card = {
+	name: {
+		'en-us': "Golem",
+		'fr-fr': "Grolem",
+		'de-de': "Geowaz"
+	},
+
+	illustrator: "Hisao Nakamura",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [76],
+
+	hp: 120,
+
+	types: [
+		"Fighting"
+	],
+
+	evolveFrom: {
+		'en-us': "Graveler",
+		'fr-fr': "Gravalanch"
+	},
+
+	stage: "Stage2",
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Rock Vengeance",
+				'fr-fr': "Grosse vengeance",
+				'de-de': "Rock Vengeance"
+			},
+			effect: {
+				'en-us': "Does 20 damage plus 10 more damage for each damage counter on all of your Active Pokémon.",
+				'fr-fr': "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur vos Pokémon Actifs.",
+				'de-de': "Does 20 damage plus 10 more damage for each each damage counter on all of your Active Pokémon."
+			},
+			damage: "20+",
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Rock Slide",
+				'fr-fr': "Éboulement",
+				'de-de': "Rock Slide"
+			},
+			effect: {
+				'en-us': "Does 20 damage to 2 of your opponent's Benched Pokémon (1 if there is only 1). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 20 dégâts à deux des Pokémon du banc de votre adversaire (ou un s'il n'y en a qu'un). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc).",
+				'de-de': "Does 20 damage to 2 of your opponent's Benched Pokémon (1 if there is only 1). (Don't apply Weakness and resistance for Benched Pokémon.)"
+			},
+			damage: 60,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "x2"
+		},
+	],
+	retreat: 4,
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85826,
+				cardmarket: 275882
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85826,
+				cardmarket: 275882
+			},
+		},
+	],
+
+}
+
+export default card

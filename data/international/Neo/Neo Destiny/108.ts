@@ -1,0 +1,104 @@
+import { Card } from 'models/database/card'
+import Set from '../Neo Destiny'
+
+const card: Card = {
+	name: {
+		'en-us': "Shining Kabutops",
+		'fr-fr': "Kabutops brillant",
+		'de-de': "Schimmerndes Kabutops"
+	},
+
+	illustrator: "Hironobu Yoshida",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		141,
+	],
+
+	hp: 80,
+
+	types: [
+		"Fighting",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Lightning",
+			],
+			name: {
+				'en-us': "Lightning Cut",
+				'fr-fr': "Coupe éclair",
+				'de-de': "Blitzschnitt"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, this attack does 30 damage plus 10 more damage and does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) If tails, this attack does 30 damage and Shining Kabutops does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires et inflige 10 dégâts à chaque Pokémon du Banc de votre adversaire. (N'appliquez ni la Faiblesse, ni la Résistance aux Pokémon du Banc.) Si c'est pile, cette attaque inflige 30 dégâts et Kabutops brillant s'inflige 10 dégâts.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 30 Schadenspunkte plus 10 weitere Schadenpunkte zu und außerdem jedem Pokémon auf der Bank deines gegners 10 Schadenspunkte. (Wende Schwäche und resistenz bei Pokémon auf der Bank nicht an.) Bei 'Zahl' fügt dieser Angriff 30 Schadenpunkte zu, und Schimmerndes Kabutops fügt sich selbst 10 Schadenspunkte zu."
+			},
+			damage: "30+",
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Water",
+				"Water",
+			],
+			name: {
+				'en-us': "Water Slash",
+				'fr-fr': "Tranche O",
+				'de-de': "Wasserschlitzer"
+			},
+			effect: {
+				'en-us': "Does 50 damage plus 10 more damage for each Energy attached to Shining Kabutops but not used to pay for this attack's Energy cost. Don't apply Resistance.",
+				'fr-fr': "Inflige 50 dégâts plus 10 dégâts supplémentaires pour chaque Énergie  attachée à Kabutops brillant mais non utilisée pour payer le coût d'Énergie de cette attaque. N'appliquez pas la Résistance.",
+				'de-de': "Fügt 40 Schadenspunkte plus 10 weitere Schadenpunkte für jede an Schimmerndes Kabutops angelegte -Energie, die nicht zum Zahlen der Angriffskosten verwendet wird, zu. Wende Resistenz nicht an."
+			},
+			damage: "50+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		'en-us': "This ancient Pokémon uses its razor-sharp claws to cut open its prey and gain access to its blood.",
+		'fr-fr': "Ce Pokémon antique utilise ses griffes acérées pour trancher ses proies et récupérer leur sang."
+	},
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274760,
+				tcgplayer: 89165
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274760,
+				tcgplayer: 89165
+			}
+		}
+	]
+}
+
+export default card

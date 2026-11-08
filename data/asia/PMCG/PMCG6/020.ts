@@ -1,0 +1,49 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG6"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "サカキのニドクイン",
+	},
+	illustrator: "Ken Sugimori",
+
+	rarity: "Rare",
+	category: "Pokemon",
+	dexId: [31],
+	hp: 100,
+	types: ["Grass"],
+	stage: "Stage2",
+
+	attacks: [
+		{
+			cost: ["Grass", "Grass", "Colorless"],
+			name: {
+				'ja-jp': "メガキック",
+			},
+			damage: 40,
+		},
+		{
+			cost: ["Grass", "Grass", "Colorless", "Colorless"],
+			name: {
+				'ja-jp': "ラリアットが大好きです",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は50のダメージと、少なくとも1つのジョバンニがベンチにいっぱいになっている場合、さらに50のダメージを与えます。尾の場合、この攻撃は何もしません。",
+			},
+		},
+	],
+
+	retreat: 3,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575348
+			},
+		},
+	],
+};
+
+export default card

@@ -1,0 +1,111 @@
+import { Card } from 'models/database/card'
+import Set from '../Cosmic Eclipse'
+
+const card: Card = {
+	name: {
+		'en-us': "Florges",
+		'fr-fr': "Florges",
+		'es-es': "Florges",
+		'it-it': "Florges",
+		'pt-br': "Florges",
+		'de-de': "Florges"
+	},
+
+	illustrator: "Akira Komayama",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		671,
+	],
+
+	hp: 130,
+
+	types: [
+		"Fairy",
+	],
+
+	evolveFrom: {
+		'en-us': "Floette",
+		'fr-fr': "Floette",
+	},
+
+	stage: "Stage2",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'en-us': "Flower Picking",
+				'fr-fr': "Cueillette de Fleurs",
+				'es-es': "Recogida de Flores",
+				'it-it': "Raccolta di Fiori",
+				'pt-br': "Colhendo Flores",
+				'de-de': "Blumenpflücken"
+			},
+			effect: {
+				'en-us': "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may choose 2 random cards from your opponent’s hand. Your opponent reveals those cards and shuffles them into their deck.",
+				'fr-fr': "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l’un de vos Pokémon pendant votre tour, vous pouvez choisir 2 cartes au hasard dans la main de votre adversaire. Votre adversaire montre ces cartes et les mélange avec son deck.",
+				'es-es': "Cuando juegues este Pokémon de tu mano para hacer evolucionar a 1 de tus Pokémon durante tu turno, puedes elegir 2 cartas aleatorias de la mano de tu rival. Tu rival enseña esas cartas, las pone en su baraja y las baraja todas.",
+				'it-it': "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi scegliere due carte a caso dalla mano del tuo avversario. Il tuo avversario mostra quelle carte e le rimischia nel suo mazzo.",
+				'pt-br': "Quando você joga este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante a sua vez de jogar, você pode escolher 2 cartas aleatórias da mão do seu oponente. Seu oponente revela aquelas cartas e as embaralha no próprio baralho.",
+				'de-de': "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du 2 zufällige Karten aus der Hand deines Gegners wählen. Dein Gegner zeigt dir jene Karten und mischt sie in sein Deck."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Fairy",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Petal Dance",
+				'fr-fr': "Danse-Fleur",
+				'es-es': "Danza Pétalo",
+				'it-it': "Petalodanza",
+				'pt-br': "Dança das Pétalas",
+				'de-de': "Blättertanz"
+			},
+			effect: {
+				'en-us': "Flip 3 coins. This attack does 60 damage for each heads. This Pokémon is now Confused.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 60 dégâts pour chaque côté face. Ce Pokémon est maintenant Confus.",
+				'es-es': "Lanza 3 monedas. Este ataque hace 60 puntos de daño por cada cara. Este Pokémon pasa a estar Confundido.",
+				'it-it': "Lancia tre volte una moneta. Questo attacco infligge 60 danni ogni volta che esce testa. Questo Pokémon viene confuso.",
+				'pt-br': "Jogue 3 moedas. Este ataque causa 60 pontos de dano para cada cara. Este Pokémon agora está Confuso.",
+				'de-de': "Wirf 3 Münzen. Diese Attacke fügt 60 Schadenspunkte pro Kopf zu. Dieses Pokémon ist jetzt verwirrt."
+			},
+			damage: "60×",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Darkness",
+			value: "-20"
+		},
+	],
+
+	retreat: 2,
+
+	description: {
+		'en-us': "It controls the flowers it grows. The petal blizzards that Florges triggers are overwhelming in their beauty and power.",
+	},
+
+	thirdParty: {
+		cardmarket: 408404,
+		tcgplayer: 201646
+	}
+}
+
+export default card

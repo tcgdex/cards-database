@@ -1,0 +1,76 @@
+import { Card } from 'models/database/card'
+import Set from '../Unified Minds'
+
+const card: Card = {
+	name: {
+		'en-us': "Drifloon",
+		'fr-fr': "Baudrive",
+		'es-es': "Drifloon",
+		'it-it': "Drifloon",
+		'pt-br': "Drifloon",
+		'de-de': "Driftlon"
+	},
+
+	illustrator: "ryoma uratsuka",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		425,
+	],
+
+	hp: 70,
+
+	types: [
+		"Psychic",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Ram",
+				'fr-fr': "Collision",
+				'es-es': "Apisonar",
+				'it-it': "Carica",
+				'pt-br': "Aríete",
+				'de-de': "Ramme"
+			},
+
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Its round body is stuffed with souls and expands each time it leads someone away.",
+	},
+
+	thirdParty: {
+		cardmarket: 388207,
+		tcgplayer: 195010
+	}
+}
+
+export default card

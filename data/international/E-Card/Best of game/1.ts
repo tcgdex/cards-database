@@ -1,0 +1,88 @@
+import { Card } from 'models/database/card'
+import Set from '../Best of game'
+
+const card: Card = {
+	dexId: [125],
+	set: Set,
+
+	name: {
+		'en-us': "Electabuzz"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "None",
+	category: "Pokemon",
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		'en-us': "Normally found near power plants, it can wander away and cause major blackouts in cities."
+	},
+
+	hp: 70,
+	types: ["Lightning"],
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Lightning"],
+
+		name: {
+			'en-us': "Thundershock"
+		},
+
+		damage: 10,
+
+		effect: {
+			'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+		}
+	}, {
+		cost: ["Lightning", "Colorless"],
+
+		name: {
+			'en-us': "Thunderpunch"
+		},
+
+		damage: "30+",
+
+		effect: {
+			'en-us': "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, the attack does 30 damage and Electabuzz does 10 damage to itself."
+		}
+	}],
+
+	variants: [
+		{
+			type: "reverse",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 275411,
+				tcgplayer: 85106
+			},
+		},
+		{
+			type: "reverse",
+			foil: "cosmos",
+			stamp: ["winner"],
+			thirdParty: {
+				tcgplayer: 167078
+			},
+		},
+		{
+			type: "reverse",
+			foil: "cosmos",
+			stamp: ["winner"],
+			size: "jumbo",
+			thirdParty: {
+				tcgplayer: 211445
+			},
+		}
+	]
+}
+
+export default card

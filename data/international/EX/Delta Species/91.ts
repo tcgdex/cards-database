@@ -1,0 +1,47 @@
+import { Card } from 'models/database/card'
+import Set from '../Delta Species'
+
+const card: Card = {
+	name: {
+		'en-us': "Holon Farmer",
+		'fr-fr': "Fermier Holon",
+		'de-de': "Holon-Bauer"
+	},
+
+	illustrator: "Kouki Saitou",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+	trainerType: "Supporter",
+
+	effect: {
+		'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Discard a card from your hand. If you can't discard a card from your hand, you can't play this card. Search your discard pile for 3 basic Energy cards and any combination of 3 Basic Pokémon or Evolution cards, show them to your opponent, and put them on top of your deck. Shuffle your deck afterward.",
+		'fr-fr': "Défaussez une carte de votre main. Si vous ne pouvez pas défausser de carte de votre main, vous ne pouvez pas jouer cette carte.",
+		'de-de': "Discard a card from your hand. If you can't discard a card from your hand, you can't play this card.\nSearch your discard pile for 3 basic Energy cards and any combination of 3 Basic Pokémon or Evolution cards, show them to your opponent, and put them on top of your deck. Shuffle your deck afterward.",
+	},
+
+	thirdParty: {
+		cardmarket: 276854,
+		tcgplayer: 86142
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		},
+		{
+			type: "normal",
+			stamp: ["miska-saari"]
+		},
+		{
+			type: "normal",
+			stamp: ["akira-miyazaki"]
+		},
+	]
+}
+
+export default card

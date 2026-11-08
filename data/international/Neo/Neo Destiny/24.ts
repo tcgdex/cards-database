@@ -1,0 +1,110 @@
+import { Card } from 'models/database/card'
+import Set from '../Neo Destiny'
+
+const card: Card = {
+	name: {
+		'en-us': "Light Ledian",
+		'fr-fr': "Coxyclaque lumineux",
+		'de-de': "Helles Ledian"
+	},
+
+	illustrator: "Tomokazu Komiya",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		166,
+	],
+
+	hp: 70,
+
+	types: [
+		"Grass",
+	],
+
+	evolveFrom: {
+		'en-us': "Ledyba",
+		'fr-fr': "Coxy"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+			],
+			name: {
+				'en-us': "Flash Touch",
+				'fr-fr': "Contact flash",
+				'de-de': "Blitzberührung"
+			},
+			effect: {
+				'en-us': "If you have any Benched Pokémon, switch 1 of them with Light Ledian. As long as that Pokémon is your Active Pokémon, it can't become Asleep, Confused, Paralyzed, or Poisoned. (All other effects of attacks, Pokémon Powers, and Trainer cards still happen.)",
+				'fr-fr': "Si vous avez des Pokémon sur votre Banc, échangez l'un d'eux contre Coxyclaque lumineux. Tant que ce Pokémon est votre Pokémon Actif, il ne peut pas devenir Endormi, Confus, Paralysé ou Empoisonné. (Tous les autres effets d'attaques, Pouvoir Pokémon et cartes Dresseur sont toujours actifs.)",
+				'de-de': "Falls du mindestens ein Pokémon auf deiner Bank hast, tausche eines von diesen mit Helles Ledian. Solange dieses Pokémon dein Aktives Pokémon ist, kann es nicht schlafen, verwirrt, gelähmt oder vergiftet sein. (Alle anderen Effekte von Angriffen, Pokémon-Powers und Trainerkarten finden immer noch statt.)"
+			},
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Comet Punch",
+				'fr-fr': "Poing comète",
+				'de-de': "Kometenhieb"
+			},
+			effect: {
+				'en-us': "Flip 4 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 4 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				'de-de': "Wirf 4 Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl 'Kopf' zu."
+			},
+			damage: "20x",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30"
+		},
+	],
+
+	description: {
+		'en-us': "The number of spots on its back increase or decrease depending on the number of stars visible in the night sky.",
+		'fr-fr': "Le nombre de taches sur son dos augmente ou diminue en fonction du nombre d'étoiles visibles dans le ciel nocturne."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274676,
+				tcgplayer: 86743
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274676,
+				tcgplayer: 86743
+			}
+		}
+	]
+}
+
+export default card

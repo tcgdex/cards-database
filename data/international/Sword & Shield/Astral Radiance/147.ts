@@ -1,0 +1,51 @@
+import { Card } from "models/database/card"
+import Set from "../Astral Radiance"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Irida",
+		'fr-fr': "Nacchara",
+		'es-es': "Nákara",
+		'it-it': "Perula",
+		'pt-br': "Irida",
+		'de-de': "Perla"
+	},
+
+	illustrator: "kirisAki",
+	rarity: "Holo Rare",
+	category: "Trainer",
+
+	effect: {
+		'en-us': "Search your deck for a Water Pokémon and an Item card, reveal them, and put them into your hand. Then, shuffle your deck.",
+		'fr-fr': "Cherchez dans votre deck un Pokémon Water et une carte Objet, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+		'es-es': "Busca en tu baraja 1 carta de Pokémon Water y 1 carta de Objeto, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
+		'it-it': "Cerca nel tuo mazzo un Pokémon Water e una carta Strumento, mostrali e aggiungili alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+		'pt-br': "Procure por 1 Pokémon Water e 1 carta de Item no seu baralho, revele-os e coloque-os na sua mão. Em seguida, embaralhe o seu baralho.",
+		'de-de': "Durchsuche dein Deck nach 1 Water-Pokémon und 1 Itemkarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+	},
+
+	trainerType: "Supporter",
+	regulationMark: "F",
+
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658808,
+				tcgplayer: 272399
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658808,
+				tcgplayer: 272399
+			}
+		},
+	],
+}
+
+export default card

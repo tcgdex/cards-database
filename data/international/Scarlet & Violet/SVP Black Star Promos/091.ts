@@ -1,0 +1,95 @@
+import { Card } from "models/database/card"
+import Set from "../SVP Black Star Promos"
+
+const card: Card = {
+	dexId: [1007],
+	set: Set,
+
+	name: {
+		'en-us': "Koraidon",
+		'fr-fr': "Koraidon",
+		'es-es': "Koraidon",
+		'it-it': "Koraidon",
+		'pt-br': "Koraidon",
+		'de-de': "Koraidon"
+	},
+
+	rarity: "Promo",
+	category: "Pokemon",
+	hp: 140,
+	types: ["Dragon"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Fighting", "Colorless"],
+
+		name: {
+			'en-us': "Primordial Beatdown",
+			'fr-fr': "Dérouillée Primitive",
+			'es-es': "Golpe Primitivo",
+			'it-it': "Batosta Primordiale",
+			'pt-br': "Abater Primordial",
+			'de-de': "Urzeitlicher Niederprügler"
+		},
+
+		effect: {
+			'en-us': "This attack does 30 damage for each of your Ancient Pokémon in play.",
+			'fr-fr': "Cette attaque inflige 30 dégâts pour chacun de vos Pokémon Temps passé en jeu.",
+			'es-es': "Este ataque hace 30 puntos de daño por cada uno de tus Pokémon del pasado en juego.",
+			'it-it': "Questo attacco infligge 30 danni per ogni tuo Pokémon Tempo Passato in gioco.",
+			'pt-br': "Este ataque causa 30 pontos de dano para cada um dos seus Pokémon Ancestrais em jogo.",
+			'de-de': "Diese Attacke fügt für jedes deiner Pokémon aus der Vergangenheit im Spiel 30 Schadenspunkte zu."
+		},
+
+		damage: "30×"
+	}, {
+		cost: ["Fire", "Fighting", "Colorless"],
+
+		name: {
+			'en-us': "Shred",
+			'fr-fr': "Déchiquetage",
+			'es-es': "Hacer Trizas",
+			'it-it': "Tritatutto",
+			'pt-br': "Triturar",
+			'de-de': "Zerfetzer"
+		},
+
+		effect: {
+			'en-us': "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
+			'fr-fr': "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
+			'es-es': "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
+			'it-it': "I danni di questo attacco non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario.",
+			'pt-br': "O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente.",
+			'de-de': "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
+		},
+
+		damage: 130
+	}],
+
+	retreat: 2,
+	regulationMark: "H",
+	illustrator: "Anesaki Dynamic",
+	description: {
+		'en-us': "This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists.",
+	},
+	variants: [
+		{
+			type: "holo",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 760233,
+				tcgplayer: 543952
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["set-logo", "staff"],
+			thirdParty: {
+				cardmarket: 761137,
+				tcgplayer: 548308
+			},
+		}
+	],
+}
+
+export default card

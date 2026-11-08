@@ -1,0 +1,51 @@
+import { Card } from 'models/database/card'
+import Set from '../Rising Rivals'
+
+const card: Card = {
+	name: {
+		'en-us': "SP Energy",
+		'fr-fr': "Énergie SP",
+		'de-de': "SP-Energie"
+	},
+
+	illustrator: "Kent Kanetsuna",
+	rarity: "Uncommon",
+	category: "Energy",
+	set: Set,
+
+	effect: {
+		'en-us': "SP Energy provides Colorless Energy. If the Pokémon SP Energy is attached to is a Pokémon SP, SP Energy provides every type of Energy buy provides only 1 Energy at a time. (Doesn't count as a basic Energy card.)",
+		'fr-fr': "Énergie SP fournit de l'Énergie Colorless. Si le Pokémon auquel Énergie SP est attachée est un Pokémon SP, Énergie SP fournit tous les types d'Énergie mais fournit 1 Énergie à la fois. (Elle ne compte pas comme carte Énergie de base).",
+		'de-de': "SP-Energie liefert -Energie. Solange das Pokémon, an dem SP-Energie angelegt ist, ein Pokémon SP ist, zählt SP-Energie als jeder beliebige Energietyp, spendet aber immer nur eine Energie auf einmal. (Zählt nicht als Basis-Energiekarte.)"
+	},
+
+	energyType: "Special",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278675,
+				tcgplayer: 89433
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278675,
+				tcgplayer: 89433
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["tsubasa-nakamura"],
+			thirdParty: {
+				cardmarket: 869040,
+				tcgplayer: 479954
+			}
+		}
+	],
+
+}
+
+export default card

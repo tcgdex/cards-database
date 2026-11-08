@@ -1,0 +1,87 @@
+import { Card } from "models/database/card"
+import Set from "../SV2P"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "マリルリ",
+		'zh-tw': "瑪力露麗",
+		'th-th': "มาริลลิ",
+		'id-id': "Azumarill"
+	},
+
+	illustrator: "En Morikura",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	dexId: [184],
+	hp: 120,
+	types: ["Water"],
+
+	description: {
+		'ja-jp': "長い 耳は 優れた センサー。 水の中の 音を 聞き分けて なにが 動いているのか わかる。",
+		'zh-tw': "長長的耳朵是靈敏的感應器。能夠藉著聆聽水中的聲音 來分辨出是什麼在動。",
+		'th-th': "หูยาว ๆ เป็นเซนเซอร์ชั้นเยี่ยม สามารถแยกแยะเสียงในน้ำและระบุได้ว่าอะไรกำลังเคลื่อนไหว",
+		'id-id': "Telinga panjang Azumarill adalah sensor yang luar biasa. Dengan mendengar suara di dalam air, Pokémon ini mengetahui apa yang bergerak di situ."
+	},
+
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Water", "Colorless"],
+
+		name: {
+			'ja-jp': "バブルドレイン",
+			'zh-tw': "泡沫吸取",
+			'th-th': "บับเบิลเดรน",
+			'id-id': "Bubble Drain"
+		},
+
+		damage: 50,
+
+		effect: {
+			'ja-jp': "このポケモンのHPを「30」回復する。",
+			'zh-tw': "將這隻寶可夢恢復「30」HP。",
+			'th-th': "ฟื้นฟู HP ของโปเกมอนนี้ [30]",
+			'id-id': "Pulihkan HP Pokémon ini sejumlah 30."
+		}
+	}, {
+		cost: ["Water", "Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "たたきつける",
+			'zh-tw': "摔打",
+			'th-th': "ฟาดผัวะ",
+			'id-id': "Membanting"
+		},
+
+		damage: "100×",
+
+		effect: {
+			'ja-jp': "コインを2回投げ、オモテの数×100ダメージ。",
+			'zh-tw': "擲2次硬幣，造成正面出現的次數×100點傷害。",
+			'th-th': "ทอยเหรียญ 2 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x100",
+			'id-id': "Lempar koin 2 kali. Serangan ini memberikan kerusakan sejumlah 100 untuk tiap lemparan dengan hasil sisi depan."
+		}
+	}],
+
+	weaknesses: [{
+		type: "Lightning",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 705250,
+				tcgplayer: 567774,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "G",
+}
+
+export default card

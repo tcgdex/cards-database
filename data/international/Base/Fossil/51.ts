@@ -1,0 +1,101 @@
+import { Card } from 'models/database/card'
+import Set from '../Fossil'
+
+const card: Card = {
+	name: {
+		'en-us': "Krabby",
+		'fr-fr': "Krabby",
+		'de-de': "Krabby"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		98,
+	],
+
+	hp: 50,
+
+	types: [
+		"Water",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+			],
+			name: {
+				'en-us': "Call for Family",
+				'fr-fr': "Appel à la famille",
+				'de-de': "Familienruf"
+			},
+			effect: {
+				'en-us': "Search your deck for a Basic Pokémon named Krabby and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)",
+				'fr-fr': "Cherchez dans votre deck un Pokémon de base appelé Krabby et placez-le sur votre Banc. Mélangez ensuite votre deck. (Vous ne pouvez pas utiliser cette attaque si votre Banc est plein.)",
+				'de-de': "Suche in deinem deck nach einer Basis-Pokémon-Karte mit dme namen Krabby und lege sie auf deine bank. Mische dein Deck danach. (Du kannst diesen Angriff nicht einsetzen, wenn deine bank voll ist.)"
+			},
+
+		},
+		{
+			cost: [
+				"Water",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Irongrip",
+				'fr-fr': "Poigne de fer",
+				'de-de': "Eiserner Griff"
+			},
+
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		'en-us': "Its pincers are not only powerful weapons, they are used for balance when walking sideways.",
+		'fr-fr': "Ses pinces ne sont pas seulenent de puissante armes, elles lui servent à conserver son équilibre quand il narche de travers."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273912,
+				tcgplayer: 44453
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273912,
+				tcgplayer: 44453
+			}
+		},
+		{
+			type: "normal",
+			subtype: "1999-2000-copyright"
+		}
+	]
+}
+
+export default card

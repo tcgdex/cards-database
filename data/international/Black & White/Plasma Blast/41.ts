@@ -1,0 +1,96 @@
+import { Card } from 'models/database/card'
+import Set from '../Plasma Blast'
+
+const card: Card = {
+	name: {
+		'en-us': "Sigilyph",
+		'fr-fr': "Cryptéro",
+		'es-es': "Sigilyph",
+		'it-it': "Sigilyph",
+		'pt-br': "Sigilyph",
+		'de-de': "Symvolara"
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		561,
+	],
+
+	hp: 90,
+
+	types: [
+		"Psychic",
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'en-us': "Toolbox",
+				'fr-fr': "Boîte à Outils",
+				'es-es': "Caja de Herramientas",
+				'it-it': "Portaoggetti",
+				'pt-br': "Caixa de Ferramentas",
+				'de-de': "Ausrüstungskiste"
+			},
+			effect: {
+				'en-us': "This Pokémon may have up to 4 Pokémon Tool cards attached to it. (If this Pokémon loses this Ability, discard Pokémon Tool cards attached to this Pokémon until only 1 Pokémon Tool card remains.)",
+				'fr-fr': "Jusqu’à 4 cartes Outil Pokémon peuvent être attachées à ce Pokémon. (Si ce Pokémon perd cette capacité spéciale, défaussez des cartes Outil Pokémon attachées à ce Pokémon jusqu’à ce qu’il ne lui reste qu’une seule carte Outil Pokémon.)",
+				'es-es': "Este Pokémon puede tener hasta 4 cartas de Herramienta Pokémon unidas a él. (Si este Pokémon pierde esta habilidad, descarta cartas de Herramienta Pokémon unidas a este Pokémon hasta que solo quede 1 carta de Herramienta Pokémon.)",
+				'it-it': "Questo Pokémon può avere fino a quattro carte Oggetto Pokémon assegnate (se perde questa abilità, scarta le carte Oggetto Pokémon assegnategli finché ne resta solo una).",
+				'pt-br': "Este Pokémon pode possuir até 4 cards de Ferramenta Pokémon ligados a ele. (Se este Pokémon perder esta Habilidade, descarte cards de Ferramenta Pokémon ligados a este Pokémon até que sobre apenas 1 card de Ferramente Pokémon.)",
+				'de-de': "An dieses Pokémon können bis zu 4 Pokémon-Ausrüstungen angelegt sein. (Wenn dieses Pokémon diese Fähigkeit verliert, lege so lang Pokémon-Ausrüstungen, die an dieses Pokémon angelegt sind, auf deinen Ablagestapel, bis 1 Pokémon-Ausrüstung übrig bleibt.)"
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Cutting Wind",
+				'fr-fr': "Vent Glacial",
+			},
+
+			damage: 70,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "The guardians of an ancient city, they always fly the same route while keeping watch for invaders.",
+	},
+
+	thirdParty: {
+		cardmarket: 281062,
+		tcgplayer: 89208
+	}
+}
+
+export default card

@@ -1,0 +1,99 @@
+import { Card } from "models/database/card"
+import Set from "../Stellar Crown"
+
+const card: Card = {
+	dexId: [976],
+	set: Set,
+
+	name: {
+		'en-us': "Veluza",
+		'fr-fr': "Délestin",
+		'es-es': "Veluza",
+		'it-it': "Veluza",
+		'pt-br': "Veluza",
+		'de-de': "Agiluza"
+	},
+
+	rarity: "Uncommon",
+	category: "Pokemon",
+	hp: 130,
+	types: ["Water"],
+	stage: "Basic",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'en-us': "Food Prep",
+			'fr-fr': "Préparation de Repas",
+			'es-es': "Preparar la Comida",
+			'it-it': "Preparacibo",
+			'pt-br': "Preparação de Marmitas",
+			'de-de': "Zubereitung"
+		},
+
+		effect: {
+			'en-us': "Attacks used by this Pokémon cost {C} less for each Kofu card in your discard pile.",
+			'fr-fr': "Les attaques utilisées par ce Pokémon coûtent {C} de moins pour chaque carte Kombu dans votre pile de défausse.",
+			'es-es': "Los ataques usados por este Pokémon cuestan {C} menos por cada carta de Fuco en tu pila de descartes.",
+			'it-it': "Il costo degli attacchi usati da questo Pokémon è ridotto di {C} per ogni carta Algaro nella tua pila degli scarti.",
+			'pt-br': "Os ataques usados por este Pokémon custam {C} a menos para cada carta Álgaro na sua pilha de descarte.",
+			'de-de': "Die Kosten der von diesem Pokémon eingesetzten Attacken verringern sich für jede Kombu-Karte in deinem Ablagestapel um {C}."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+
+		name: {
+			'en-us': "Sonic Edge",
+			'fr-fr': "Tranchant Sonique",
+			'es-es': "Tajo Sónico",
+			'it-it': "Muro del Suono",
+			'pt-br': "Gume Sônico",
+			'de-de': "Schallkante"
+		},
+
+		effect: {
+			'en-us': "This attack's damage isn't affected by any effects on your opponent's Active Pokémon.",
+			'fr-fr': "Les dégâts de cette attaque ne sont affectés par aucun effet en action sur le Pokémon Actif de votre adversaire.",
+			'es-es': "El daño de este ataque no se ve afectado por ningún efecto en el Pokémon Activo de tu rival.",
+			'it-it': "I danni di questo attacco non sono influenzati da alcun effetto presente sul Pokémon attivo del tuo avversario.",
+			'pt-br': "O dano deste ataque não é afetado por quaisquer efeitos no Pokémon Ativo do seu oponente.",
+			'de-de': "Der Schaden dieser Attacke wird durch Effekte auf dem Aktiven Pokémon deines Gegners nicht verändert."
+		},
+
+		damage: 110
+	}],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	retreat: 2,
+	regulationMark: "H",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 785899,
+				tcgplayer: 567271
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 785899,
+				tcgplayer: 567271
+			}
+		},
+	],
+
+	illustrator: "GOTO minori",
+
+}
+
+export default card

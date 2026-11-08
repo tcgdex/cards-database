@@ -1,0 +1,80 @@
+import { Card } from 'models/database/card'
+import Set from '../XY Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Regigigas",
+		'fr-fr': "Regigigas",
+	},
+
+	illustrator: "Shin Nagasawa",
+	rarity: "Promo",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		486,
+	],
+
+	hp: 130,
+
+	types: [
+		"Colorless",
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'en-us': "Earthen Awakening",
+				'fr-fr': "Réveil Terrestre",
+			},
+			effect: {
+				'en-us': "Whenever you attach an Energy card from your hand to this Pokémon, heal 20 damage from it.",
+				'fr-fr': "Chaque fois que vous attachez une carte Énergie de votre main à ce Pokémon, soignez 20 dégâts à ce Pokémon.",
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Gigas Punch",
+				'fr-fr': "Coup d'Poing Giga"
+			},
+			effect: {
+				'en-us': "Flip 2 coins. If both of them are tails, this attack does nothing.",
+				'fr-fr': "Lancez 2 pièces. Si vous obtenez 2 côtés pile, cette attaque ne fait rien."
+			},
+			damage: 100,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	retreat: 4,
+
+	description: {
+		'en-us': "There is an enduring legend that states this Pokémon towed continents with ropes.",
+	},
+
+	thirdParty: {
+		cardmarket: 289805
+	}
+}
+
+export default card

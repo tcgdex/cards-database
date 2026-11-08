@@ -1,0 +1,38 @@
+import { Card } from 'models/database/card'
+import Set from '../Skyridge'
+
+const card: Card = {
+	name: {
+		'en-us': "Lure Ball",
+		'de-de': "Köder Ball"
+	},
+
+	illustrator: "Katsura Tabata",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'en-us': "Flip 3 coins. For each heads, choose an Evolution card from your discard pile, show it to your opponent, and put it into your hand.",
+		'de-de': "Wirf 3 Münzen. Bei jedem \"Kopf\" wähle eine Entwicklungskarte aus deinem Ablagestapel, zeige sie deinem Gegner und nimm sie auf deine Hand."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 86931,
+				cardmarket: 275386
+			},
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				tcgplayer: 86931,
+				cardmarket: 275386
+			},
+		},
+	],
+}
+
+export default card

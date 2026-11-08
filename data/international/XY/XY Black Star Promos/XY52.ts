@@ -1,0 +1,82 @@
+import { Card } from 'models/database/card'
+import Set from '../XY Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Groudon",
+		'fr-fr': "Groudon",
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Promo",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		383,
+	],
+
+	hp: 130,
+
+	types: [
+		"Fighting",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Rock Smash",
+				'fr-fr': "Éclate-Roc",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+			},
+			damage: "20+",
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Break Ground",
+				'fr-fr': "Destructerre"
+			},
+			effect: {
+				'en-us': "This attack does 10 damage to each of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Cette attaque inflige 10 dégâts à chacun de vos Pokémon de Banc. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)"
+			},
+			damage: 100,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+	retreat: 4,
+
+	description: {
+		'en-us': "This legendary Pokémon is said to represent the land. It went to sleep after dueling Kyogre.",
+	},
+
+	thirdParty: {
+		cardmarket: 289705
+	}
+}
+
+export default card

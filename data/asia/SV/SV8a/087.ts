@@ -1,0 +1,106 @@
+import { Card } from "models/database/card"
+import Set from "../SV8a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "チヲハウハネ",
+		'id-id': "Slither Wing",
+		'th-th': "ปีกไล้พสุธา",
+		'zh-tw': "爬地翅",
+		'zh-cn': "爬地翅"
+	},
+
+	illustrator: "Shinji Kanda",
+	rarity: "None",
+	category: "Pokemon",
+	dexId: [988],
+	hp: 140,
+	types: ["Fighting"],
+
+	description: {
+		'ja-jp': "古い 本で チヲハウハネと 紹介されている 生物に 似た点が ある 謎のポケモン。",
+		'id-id': "Pokémon misterius yang memiliki kemiripan dengan makhluk hidup bernama Slither Wing yang diperkenalkan dalam sebuah buku kuno.",
+		'th-th': "โปเกมอนปริศนาที่มีบางจุดคล้ายคลึงกับสิ่งมีชีวิตที่ถูกเรียกว่าปีกไล้พสุธาในหนังสือเก่าแก่",
+		'zh-tw': "與古老書籍裡介紹的一種 叫做爬地翅的生物有著 相似點的神秘寶可夢。",
+		'zh-cn': "與古老書籍裡介紹的一種 叫做爬地翅的生物有著 相似點的神秘寶可夢。"
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Fighting", "Colorless"],
+
+		name: {
+			'ja-jp': "てつつぶし",
+			'id-id': "Pelumat Besi",
+			'th-th': "บดเหล็ก",
+			'zh-tw': "鐵碎",
+			'zh-cn': "鐵碎"
+		},
+
+		damage: "20+",
+
+		effect: {
+			'ja-jp': "相手の場に「未来」のポケモンがいるなら、120ダメージ追加。",
+			'id-id': "Jika ada Pokémon Futur di Arena lawan, kerusakan yang diberikan bertambah sejumlah 120.",
+			'th-th': "ถ้าบนกระดานฝ่ายตรงข้ามมีโปเกมอน [อนาคต] อยู่ การโจมตีนี้จะเพิ่มแดเมจอีก 120",
+			'zh-tw': "若對手的場上有「未來」寶可夢，則增加120點傷害。",
+			'zh-cn': "若對手的場上有「未來」寶可夢，則增加120點傷害。"
+		}
+	}, {
+		cost: ["Fighting", "Fighting", "Colorless"],
+
+		name: {
+			'ja-jp': "スマッシュウイング",
+			'id-id': "Smash Wing",
+			'th-th': "สแมชวิง",
+			'zh-tw': "粉碎之翼",
+			'zh-cn': "粉碎之翼"
+		},
+
+		damage: 130,
+
+		effect: {
+			'ja-jp': "このポケモンについているエネルギーを2個選び、トラッシュする。",
+			'id-id': "Pilih 2 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash.",
+			'th-th': "เลือกพลังงานที่ติดอยู่กับโปเกมอนนี้ 2 ลูก ทิ้งที่ตำแหน่งทิ้งการ์ด",
+			'zh-tw': "選擇2個這隻寶可夢身上附加的能量，將其丟棄。",
+			'zh-cn': "選擇2個這隻寶可夢身上附加的能量，將其丟棄。"
+		}
+	}],
+
+	weaknesses: [{
+		type: "Psychic",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 803200,
+				tcgplayer: 602470,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				tcgplayer: 604567,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 602471,
+			},
+		},
+	],
+
+	retreat: 3,
+	regulationMark: "H"
+}
+
+export default card

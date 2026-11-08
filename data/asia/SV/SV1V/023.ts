@@ -1,0 +1,62 @@
+import { Card } from "models/database/card"
+import Set from "../SV1V"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "アルクジラ",
+		'zh-tw': "走鯨",
+		'th-th': "อารุคุจิระ",
+		'id-id': "Cetoddle"
+	},
+
+	illustrator: "Shin Nagasawa",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [974],
+	hp: 80,
+	types: ["Water"],
+
+	description: {
+		'ja-jp': "寒冷地で ５匹ほどの 群れを 作って 暮らす。 雪や 氷に 含まれる ミネラルが 大好き。",
+		'zh-tw': "在寒冷地帶會組成約５隻規模的群體來生活。 喜歡雪或冰所含的礦物質。",
+		'th-th': "อาศัยอยู่เป็นฝูงประมาณ 5 ตัวในบริเวณที่มีอากาศหนาวเหน็บ ชอบแร่ธาตุที่มีอยู่ในหิมะและน้ำแข็งเป็นอย่างมาก",
+		'id-id': "Cetoddle hidup dan membentuk kelompok dengan jumlah sekitar 5 ekor di daerah yang dingin. Pokémon ini sangat menyukai mineral yang terkandung pada salju dan es."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "たいあたり",
+			'zh-tw': "撞擊",
+			'th-th': "พุ่งเข้าชน",
+			'id-id': "Serudukan"
+		},
+
+		damage: 30
+	}],
+
+	weaknesses: [{
+		type: "Metal",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 693098,
+				tcgplayer: 568249,
+			},
+		},
+	],
+
+	retreat: 2,
+	regulationMark: "G"
+}
+
+export default card

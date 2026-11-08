@@ -1,0 +1,116 @@
+import { Card } from 'models/database/card'
+import Set from '../Sword & Shield'
+
+const card: Card = {
+	name: {
+		'en-us': "Boltund",
+		'fr-fr': "Fulgudog",
+		'es-es': "Boltund",
+		'it-it': "Boltund",
+		'pt-br': "Boltund",
+		'de-de': "Bellektro"
+	},
+
+	illustrator: "Misa Tsutsui",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	set: Set,
+	hp: 130,
+
+	types: [
+		"Lightning",
+	],
+
+	evolveFrom: {
+		'en-us': "Yamper",
+		'fr-fr': "Voltoutou",
+		'es-es': "Yamper",
+		'it-it': "Yamper",
+		'pt-br': "Yamper",
+		'de-de': "Voldi"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Big Bite",
+				'fr-fr': "Grosse Morsure",
+				'es-es': "Gran Mordisco",
+				'it-it': "Grande Morso",
+				'pt-br': "Mordidona",
+				'de-de': "Mächtiger Biss"
+			},
+			effect: {
+				'en-us': "During your opponent's next turn, the Defending Pokémon can't retreat.",
+				'fr-fr': "Pendant le prochain tour de votre adversaire, le Pokémon Défenseur ne peut pas battre en retraite.",
+				'es-es': "Durante el próximo turno de tu rival, el Pokémon Defensor no puede retirarse.",
+				'it-it': "Durante il prossimo turno del tuo avversario, il Pokémon difensore non può ritirarsi.",
+				'pt-br': "Durante o próximo turno do seu oponente, o Pokémon Defensor não poderá recuar.",
+				'de-de': "Während des nächsten Zuges deines Gegners kann sich das Verteidigende Pokémon nicht zurückziehen."
+			},
+			damage: 50,
+
+		},
+		{
+			cost: [
+				"Lightning",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Fighting Fangs",
+				'fr-fr': "Crocs Combatifs",
+				'es-es': "Colmillos Luchadores",
+				'it-it': "Zanne Combattenti",
+				'pt-br': "Caninos de Luta",
+				'de-de': "Kämpfende Reißzähne"
+			},
+			effect: {
+				'en-us': "If your opponent's Active Pokémon is a Pokémon V or Pokémon-GX, this attack does 90 more damage.",
+				'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon-V ou un Pokémon-GX, cette attaque inflige 90 dégâts supplémentaires.",
+				'es-es': "Si el Pokémon Activo de tu rival es un Pokémon V o un Pokémon-GX, este ataque hace 90 puntos de daño más.",
+				'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon-V o un Pokémon-GX, questo attacco infligge 90 danni in più.",
+				'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon V ou um Pokémon-GX, este ataque causará 90 pontos de dano a mais.",
+				'de-de': "Wenn das Aktive Pokémon deines Gegners ein Pokémon-V oder Pokémon-GX ist, fügt diese Attacke 90 Schadenspunkte mehr zu."
+			},
+			damage: "90+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "D",
+
+	variants: {
+		normal: false,
+		reverse: true,
+		holo: true,
+		firstEdition: false
+	},
+
+	description: {
+		'en-us': "This Pokémon generates electricity and channels it into its legs to keep them going strong. Boltund can run nonstop for three full days."
+	},
+
+	dexId: [836],
+
+	thirdParty: {
+		cardmarket: 436504,
+		tcgplayer: 208373
+	}
+}
+
+export default card

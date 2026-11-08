@@ -1,0 +1,44 @@
+import { Card } from 'models/database/card'
+import Set from '../Deoxys'
+
+const card: Card = {
+	name: {
+		'en-us': "Master Ball",
+		'fr-fr': "Master Ball",
+		'de-de': "Meisterball"
+	},
+
+	illustrator: "Keiji Kinebuchi",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+	trainerType: "Item",
+
+	effect: {
+		'en-us': "Look at the top 7 cards from your deck. Choose a Basic Pokémon or Evolution card from those cards, show it to your opponent, and put it into your hand. Put the other 6 cards back on top of your deck. Shuffle your deck afterward.",
+		'fr-fr': "Regardez les 7 cartes du dessus de votre deck. Parmi ces cartes, vous pouvez choisir une carte Pokémon de base ou une carte Évolution. Montrez-la à votre adversaire et ajoutez-la à votre main. Mélangez le reste à votre deck.",
+		'de-de': "Look at 7 cards from the top of your deck. You may choose a Basic Pokémon or Evolution card from those cards, show it yout opponent, and put it into your hand. Shuffle the rest into your deck."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87253,
+				cardmarket: 276491
+			},
+		},
+		{
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 87253,
+				cardmarket: 276491
+			},
+		},
+	],
+
+}
+
+export default card

@@ -1,0 +1,66 @@
+import { Card } from 'models/database/card'
+import Set from '../Noble Victories'
+
+const card: Card = {
+	name: {
+		'en-us': "Frillish",
+		'fr-fr': "Viskuse",
+		'es-es': "Frillish",
+		'it-it': "Frillish",
+		'pt-br': "Frillish",
+		'de-de': "Quabbel"
+	},
+
+	illustrator: "Naoyo Kimura",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		592,
+	],
+
+	hp: 80,
+
+	types: [
+		"Water",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Rain Splash",
+				'fr-fr': "Pluie Éclaboussante",
+			},
+
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	retreat: 2,
+
+	description: {
+		'en-us': "With its thin, veil-like arms wrapped around the body of its opponent, it sinks to the ocean floor.",
+	},
+
+	thirdParty: {
+		cardmarket: 280153,
+		tcgplayer: 85563
+	}
+}
+
+export default card

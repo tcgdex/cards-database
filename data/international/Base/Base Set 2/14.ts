@@ -1,0 +1,90 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set 2'
+
+const card: Card = {
+	name: {
+		'en-us': "Pidgeot",
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		18,
+	],
+
+	hp: 80,
+
+	types: [
+		"Colorless",
+	],
+
+	evolveFrom: {
+		'en-us': "Pidgeotto",
+	},
+
+	stage: "Stage2",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Wing Attack",
+			},
+
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Hurricane",
+			},
+			effect: {
+				'en-us': "Unless this attack Knocks Out the Defending Pokémon, return the Defending Pokémon and all cards attached to it to your opponent's hand.",
+			},
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30"
+		},
+	],
+
+	description: {
+		'en-us': "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.",
+	},
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 273937,
+				tcgplayer: 42458
+			}
+		}
+	]
+}
+
+export default card

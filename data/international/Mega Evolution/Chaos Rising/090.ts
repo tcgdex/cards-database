@@ -1,0 +1,103 @@
+import { Card } from "models/database/card"
+import Set from "../Chaos Rising"
+
+const card: Card = {
+	set: Set,
+
+	description: {
+		'en-us': "The tail's tip shines brightly and can be seen from far away. It acts as a beacon for lost people.",
+	},
+
+
+	name: {
+		'en-us': "Ampharos",
+		'fr-fr': "Pharamp",
+		'es-es': "Ampharos",
+		'es-mx': "Ampharos",
+		'de-de': "Ampharos",
+		'it-it': "Ampharos",
+		'pt-br': "Ampharos"
+	},
+
+	illustrator: "saino misaki",
+	rarity: "Illustration rare",
+	category: "Pokemon",
+	dexId: [181],
+	hp: 160,
+	types: ["Lightning"],
+
+	evolveFrom: {
+		'en-us': "Flaaffy"
+	},
+
+	stage: "Stage2",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'en-us': "Synchro Pulse",
+			'fr-fr': "Pulsation Synchronisée",
+			'es-es': "Pulso Sincronizado",
+			'es-mx': "Sincropulso",
+			'de-de': "Synchropuls",
+			'it-it': "Impulso Sincronizzato",
+			'pt-br': "Pulso Sincronizado"
+		},
+
+		effect: {
+			'en-us': "If you have the same number of cards in your hand as your opponent, attacks used by this Pokémon do 80 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+			'fr-fr': "Si vous avez le même nombre de cartes dans votre main que votre adversaire, les attaques utilisées par ce Pokémon infligent 80 dégâts supplémentaires au Pokémon Actif de votre adversaire (avant application de la Faiblesse et de la Résistance).",
+			'es-es': "Si tienes la misma cantidad de cartas en tu mano que tu rival, los ataques usados por este Pokémon hacen 80 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
+			'es-mx': "Si tienes la misma cantidad de cartas en tu mano que tu rival, los ataques usados por este Pokémon hacen 80 puntos de daño más al Pokémon Activo de tu rival (antes de aplicar Debilidad y Resistencia).",
+			'de-de': "Wenn du genauso viele Karten auf der Hand hast wie dein Gegner, fügen die von diesem Pokémon eingesetzten Attacken dem Aktiven Pokémon deines Gegners 80 Schadenspunkte mehr zu (bevor Schwäche und Resistenz verrechnet werden).",
+			'it-it': "Se hai lo stesso numero di carte in mano del tuo avversario, gli attacchi usati da questo Pokémon infliggono 80 danni in più al Pokémon attivo del tuo avversario, prima di aver applicato debolezza e resistenza.",
+			'pt-br': "Se você tiver o mesmo número de cartas na sua mão que seu oponente, os ataques usados por este Pokémon causarão 80 pontos de dano a mais ao Pokémon Ativo do seu oponente (antes de aplicar Fraqueza e Resistência)."
+		}
+	}],
+
+	attacks: [{
+		name: {
+			'en-us': "Flashing Bolt",
+			'fr-fr': "Éclair Aveuglant",
+			'es-es': "Rayo Destellante",
+			'es-mx': "Rayo Destellante",
+			'de-de': "Leuchtblitz",
+			'it-it': "Bolide Abbagliante",
+			'pt-br': "Raio Piscante"
+		},
+
+		cost: ["Lightning", "Colorless"],
+		damage: 140,
+
+		effect: {
+			'en-us': "During your next turn, this Pokémon can't use Flashing Bolt.",
+			'fr-fr': "Pendant votre prochain tour, ce Pokémon ne peut pas utiliser Éclair Aveuglant.",
+			'es-es': "Durante tu próximo turno, este Pokémon no puede usar Rayo Destellante.",
+			'es-mx': "Durante tu próximo turno, este Pokémon no puede usar Rayo Destellante.",
+			'de-de': "Während deines nächsten Zuges kann dieses Pokémon Leuchtblitz nicht einsetzen.",
+			'it-it': "Durante il tuo prossimo turno, questo Pokémon non può usare Bolide Abbagliante.",
+			'pt-br': "Durante o seu próximo turno, este Pokémon não poderá usar Raio Piscante."
+		}
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "×2"
+	}],
+
+	retreat: 2,
+	regulationMark: "J",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 886482,
+				tcgplayer: 693446
+			}
+		},
+	],
+}
+
+export default card

@@ -1,0 +1,32 @@
+import { Card } from "models/database/card"
+import Set from "../SV9"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "アイリスの闘志"
+	},
+
+	illustrator: "yuu",
+	rarity: "None",
+	category: "Trainer",
+
+	effect: {
+		'ja-jp': "このカードは、自分の手札を1枚トラッシュしなければ使えない。\n\n自分の手札が6枚になるように、山札を引く。"
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 807708,
+				tcgplayer: 614997,
+			},
+		},
+	],
+
+	trainerType: "Supporter"
+}
+
+export default card

@@ -1,0 +1,99 @@
+import { Card } from 'models/database/card'
+import Set from '../Team Rocket Returns'
+
+const card: Card = {
+	name: {
+		'en-us': "Piloswine",
+		'de-de': "Keifel"
+	},
+
+	illustrator: "Tomokazu Komiya",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		221,
+	],
+
+	hp: 100,
+
+	types: [
+		"Fighting",
+	],
+
+	evolveFrom: {
+		'en-us': "Swinub",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Sheer Cold",
+				'de-de': "Sheer Cold"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, each Defending Pokémon can't attack during your opponent's next turn.",
+				'de-de': "Flip a coin. If heads, each Defending Pokémon can't attack during you opponent's next turn."
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Tonnage",
+				'de-de': "Tonnage"
+			},
+			effect: {
+				'en-us': "You may do 60 damage plus 40 more damage. If you do, Piloswine does 30 damage to itself.",
+				'de-de': "You may do 60 damage plus 40 more damage. If you do, Piloswine does 30 damage to itself."
+			},
+			damage: "60+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+	
+	retreat: 2,
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 276305,
+				tcgplayer: 88117
+			},
+		},
+		{
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				cardmarket: 276305,
+				tcgplayer: 88117
+			},
+		},
+	],
+
+}
+
+export default card

@@ -1,0 +1,90 @@
+import { Card } from 'models/database/card'
+import Set from '../Unleashed'
+
+const card: Card = {
+	name: {
+		'en-us': "Weedle",
+		'fr-fr': "Aspicot",
+		'de-de': "Hornliu"
+	},
+
+	illustrator: "Kyoko Umemoto",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [13],
+
+	hp: 40,
+
+	types: [
+		"Grass"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Speed Evolution",
+				'fr-fr': "Évolution rapide",
+				'de-de': "Tempo-Evolution"
+			},
+			effect: {
+				'en-us': "Search your deck for a card that evolves from Weedle and put it onto Weedle. (This counts as evolving Weedle.) Shuffle your deck afterward.",
+				'fr-fr': "Cherchez une carte Évolution d’Aspicot dans votre deck et placez-la sur Aspicot (cela équivaut à faire évoluer Aspicot). Mélangez ensuite votre deck.",
+				'de-de': "Durchsuche dein Deck nach einer Karte, die aus Hornliu entsteht, und lege sie auf Hornliu. (Dies zählt als Entwickeln von Hornliu.) Mische anschließend dein Deck."
+			},
+
+		},
+		{
+			cost: [
+				"Grass",
+			],
+			name: {
+				'en-us': "Sting",
+				'fr-fr': "Dard",
+				'de-de': "Stachel"
+			},
+
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Its poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90546,
+				cardmarket: 279225
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 90546,
+				cardmarket: 279225
+			}
+		},
+	],
+
+}
+
+export default card

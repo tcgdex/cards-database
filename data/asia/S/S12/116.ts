@@ -1,0 +1,64 @@
+import { Card } from "models/database/card"
+import Set from "../S12"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "アンノーンVSTAR"
+	},
+
+	illustrator: "PLANETA Mochizuki",
+	category: "Pokemon",
+	hp: 250,
+	types: ["Psychic"],
+	stage: "VMAX",
+
+	attacks: [{
+		cost: ["Psychic"],
+
+		name: {
+			'ja-jp': "トライパワー"
+		},
+
+		damage: "70×",
+
+		effect: {
+			'ja-jp': "コインを3回投げ、オモテの数×70ダメージ。"
+		}
+	}, {
+		cost: ["Colorless", "Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "スターサイファー"
+		},
+
+		effect: {
+			'ja-jp': "このポケモンは、場をはなれるまで「相手の場のポケモン全員の弱点は、すべてタイプになる。」という効果の特性を持つ。［弱点は「×2」で計算する。］［対戦中、自分はVSTARパワーを1回しか使えない。］"
+		}
+	}],
+
+	weaknesses: [{
+		type: "Darkness",
+		value: "×2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "－30"
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 680850,
+				tcgplayer: 570174,
+			},
+		},
+	],
+
+	retreat: 1,
+}
+
+export default card

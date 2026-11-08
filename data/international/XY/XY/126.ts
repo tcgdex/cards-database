@@ -1,0 +1,36 @@
+import { Card } from 'models/database/card'
+import Set from '../XY'
+
+const card: Card = {
+	name: {
+		'en-us': "Shadow Circle",
+		'fr-fr': "Cercle des Ombres",
+		'es-es': "Círculo Sombrío",
+		'it-it': "Cerchiodombra",
+		'pt-br': "Círculo das Sombras",
+		'de-de': "Schattenkreis"
+	},
+
+	illustrator: "Ryo Ueda",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'fr-fr': "Chacun des Pokémon auquel de l'Énergie Darkness est attachée (les vôtres et ceux de votre adversaire) n'a pas de Faiblesse.",
+		'en-us': "Each Pokémon that has any Darkness Energy attached to it (both yours and your opponent's) has no Weakness.",
+		'es-es': "Los Pokémon que tengan alguna Energía Darkness unida a ellos (tanto tuyos como de tu rival) no tienen ninguna Debilidad.",
+		'it-it': "I Pokémon che hanno delle Energie Darkness assegnate, sia tuoi che del tuo avversario, non hanno debolezza.",
+		'pt-br': "Qualquer Pokémon que possuir alguma Energia Darkness ligada a ele (seu e do seu oponente) não terá Fraqueza.",
+		'de-de': "Jedes Pokémon (deine und die deines Gegners), an das Darkness-Energie angelegt ist, hat keine Schwäche."
+	},
+
+	trainerType: "Stadium",
+
+	thirdParty: {
+		cardmarket: 281463,
+		tcgplayer: 89095
+	}
+}
+
+export default card

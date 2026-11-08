@@ -1,0 +1,86 @@
+import { Card } from 'models/database/card'
+import Set from '../HGSS Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Lugia",
+		'fr-fr': "Lugia"
+	},
+	illustrator: "Takashi Yamaguchi",
+	rarity: "Promo",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [249],
+	hp: 90,
+	types: [
+		"Water"
+	],
+
+	stage: "Basic",
+
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+			],
+			name: {
+				'en-us': "Wave Splash",
+				'fr-fr': "Grosse vague"
+			},
+
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Aeroblast",
+				'fr-fr': "Aeroblast"
+			},
+			effect: {
+				'en-us': "Flip 2 coins. This attack does 50 damage plus 20 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires pour chaque face."
+			},
+			damage: "50+",
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		'en-us': "It is said that it quietly spends its time deep at the bottom of the sea because its powers are too strong."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 275611,
+				tcgplayer: 86909
+			}
+		},
+	],
+
+}
+
+export default card

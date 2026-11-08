@@ -1,0 +1,60 @@
+import { Card } from "models/database/card"
+import Set from "../Wisdom of Sea and Sky"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Unown",
+		'fr-fr': "Zarbi"
+	},
+
+	illustrator: "OKUBO",
+	rarity: "Three Diamond",
+	category: "Pokemon",
+
+	dexId: [201],
+	hp: 60,
+	types: ["Psychic"],
+
+	description: {
+		'en-us': "Its flat, thin body is always stuck on walls. Its shape\nappears to have some meaning.",
+		'fr-fr': "Son corps plat et fin est toujours collé aux murs. On pense que sa forme a une signification."
+	},
+
+	stage: "Basic",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'en-us': "GUARD",
+			'fr-fr': "POWER"
+		},
+
+		effect: {
+			'en-us': "This Ability works if you have any Unown in play with an Ability other than . All of your Pokémon take −10 damage from attacks from your opponent's Pokémon.",
+			'fr-fr': "Ce talent s'active si vous avez une carte Zarbi en jeu avec un talent autre que Power. Les attaques de vos Pokémon infligent + 10 dégâts au Pokémon Actif de votre adversaire."
+		}
+	}],
+
+	attacks: [{
+		name: {
+			'en-us': "Hidden Power",
+			'fr-fr': "Puissance Cachée"
+		},
+
+		damage: 20,
+		cost: ["Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Darkness",
+		value: "+20"
+	}],
+
+	retreat: 1,
+	boosters: ["ho-oh"]
+}
+
+export default card

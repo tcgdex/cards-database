@@ -1,0 +1,35 @@
+import { Set } from 'models/database/set'
+import serie from '../Diamond & Pearl'
+
+const dp4: Set = {
+	id: "dp4",
+
+	name: {
+		'en-us': "Great Encounters",
+		'fr-fr': "Duels au Sommets",
+		'es-es': "Grandes Encuentros",
+		'de-de': "Epische Begegnungen",
+		'it-it': "Incontri Leggendari"
+	},
+
+	serie: serie,
+	tcgOnline: "GE",
+
+	cardCount: {
+		official: 106
+	},
+
+	releaseDate: "2008-02-01",
+
+	abbreviations: {
+		official: "GE",
+		'fr-fr': "DAS"
+	},
+
+	thirdParty: {
+		cardmarket: 1558,
+		tcgplayer: 1405
+	}
+}
+
+export default dp4

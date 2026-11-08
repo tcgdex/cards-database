@@ -1,0 +1,60 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG1"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ウィンディ",
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	dexId: [59],
+	hp: 100,
+	types: ["Fire"],
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: ["Fire", "Fire", "Colorless"],
+			name: {
+				'ja-jp': "火炎放射器",
+			},
+			effect: {
+				'ja-jp': "アルカニンに取り付けられた1つの消防エネルギーカードを廃棄すると、この攻撃は何もしません。",
+			},
+			damage: 50,
+		},
+		{
+			cost: ["Fire", "Fire", "Colorless", "Colorless"],
+			name: {
+				'ja-jp': "降ろす",
+			},
+			effect: {
+				'ja-jp': "アルカニンはそれ自体に30のダメージを与えます。",
+			},
+			damage: 80,
+		},
+	],
+
+	retreat: 3,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575633
+			},
+		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577060
+			},
+		}
+	],
+};
+
+export default card

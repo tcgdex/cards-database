@@ -1,0 +1,90 @@
+import { Card } from 'models/database/card'
+import Set from '../Legendary Collection'
+
+const card: Card = {
+	name: {
+		'en-us': "Spearow"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [21],
+
+	hp: 50,
+
+	types: [
+		"Colorless"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Peck"
+			},
+
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Mirror Move"
+			},
+			effect: {
+				'en-us': "If Spearow was attacked last turn, do the final result of that attack on Spearow to the Defending Pokémon."
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30"
+		},
+	],
+
+	description: {
+		'en-us': "Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne."
+	},
+
+	variants: [
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274859,
+				tcgplayer: 89437
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89437,
+				cardmarket: 274859
+			}
+		}
+	],
+
+	retreat: 0
+}
+
+export default card

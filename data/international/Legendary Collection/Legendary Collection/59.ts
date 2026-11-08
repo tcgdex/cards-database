@@ -1,0 +1,92 @@
+import { Card } from 'models/database/card'
+import Set from '../Legendary Collection'
+
+const card: Card = {
+	name: {
+		'en-us': "Primeape"
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [57],
+
+	hp: 70,
+
+	types: [
+		"Fighting"
+	],
+
+	evolveFrom: {
+		'en-us': "Mankey"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+			],
+			name: {
+				'en-us': "Fury Swipes"
+			},
+			effect: {
+				'en-us': "Flip 3 coins. This attack does 20 damage times the number of heads."
+			},
+			damage: "20×",
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Tantrum"
+			},
+			effect: {
+				'en-us': "Flip a coin. If tails, Primeape is now Confused (after doing damage)."
+			},
+			damage: 50,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "Always furious and tenacious to boot. It will not abandon chasing its quarry until its quarry is caught."
+	},
+
+	variants: [
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274824,
+				tcgplayer: 88361
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88361,
+				cardmarket: 274824
+			}
+		}
+	],
+
+}
+
+export default card

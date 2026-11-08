@@ -1,0 +1,60 @@
+import { Card } from "models/database/card"
+import Set from "../S9a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "ヒスイ ジュナイパーV"
+	},
+
+	illustrator: "5ban Graphics",
+	category: "Pokemon",
+	hp: 220,
+	types: ["Fighting"],
+	stage: "Basic",
+	suffix: "V",
+
+	attacks: [{
+		cost: ["Fighting"],
+
+		name: {
+			'ja-jp': "やまがり"
+		},
+
+		effect: {
+			'ja-jp': "自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。"
+		}
+	}, {
+		cost: ["Fighting", "Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "きんせつしゃげき"
+		},
+
+		damage: 100,
+
+		effect: {
+			'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。"
+		}
+	}],
+
+	weaknesses: [{
+		type: "Psychic",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 609845,
+				tcgplayer: 570647,
+			},
+		},
+	],
+
+	retreat: 2
+}
+
+export default card

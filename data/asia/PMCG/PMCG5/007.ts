@@ -1,0 +1,52 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG5"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "エリカのフシギダネ",
+	},
+	illustrator: "Ken Sugimori",
+
+	rarity: "Uncommon",
+	category: "Pokemon",
+	dexId: [1],
+	hp: 50,
+	types: ["Grass"],
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: ["Grass"],
+			name: {
+				'ja-jp': "睡眠の種",
+			},
+			effect: {
+				'ja-jp': "防御ポケモンは今眠っています。",
+			},
+			damage: 10,
+		},
+		{
+			cost: ["Grass", "Grass"],
+			name: {
+				'ja-jp': "用事が走る",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。頭の場合は、デッキを検索してトレーナーカードを検索できます。それを相手に見せて、あなたの手に入れてください。その後、デッキをシャッフルします。",
+			},
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 576778
+			},
+		},
+	],
+};
+
+export default card

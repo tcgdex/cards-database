@@ -1,0 +1,93 @@
+import { Card } from 'models/database/card'
+import Set from '../Noble Victories'
+
+const card: Card = {
+	name: {
+		'en-us': "Stunfisk",
+		'fr-fr': "Limonde",
+		'es-es': "Stunfisk",
+		'it-it': "Stunfisk",
+		'pt-br': "Stunfisk",
+		'de-de': "Flunschlik"
+	},
+
+	illustrator: "Midori Harada",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		618,
+	],
+
+	hp: 90,
+
+	types: [
+		"Fighting",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Lightning",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Trickle",
+				'fr-fr': "Goutte à Goutte",
+			},
+			effect: {
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+			},
+			damage: 30,
+
+		},
+		{
+			cost: [
+				"Lightning",
+				"Lightning",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Thundershock",
+				'fr-fr': "Éclair",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+			},
+			damage: 50,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Lightning",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers a volt of electricity.",
+	},
+
+	thirdParty: {
+		cardmarket: 280165,
+		tcgplayer: 89580
+	}
+}
+
+export default card

@@ -1,0 +1,83 @@
+import { Card } from 'models/database/card'
+import Set from '../Nintendo Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Typhlosion",
+	},
+	illustrator: "Hajime Kusajima",
+	rarity: "Common",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		157,
+	],
+	hp: 110,
+	types: [
+		"Fire",
+	],
+	evolveFrom: {
+		'en-us': "Quilava",
+	},
+	stage: "Stage2",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Burning Aura",
+			},
+			effect: {
+				'en-us': "As long as Typhlosion is your Active Pokémon, put 1 damage counter on each Active Pokémon (both yours and your opponent's) between turns.",
+			},
+		},
+	],
+	attacks: [
+		{
+			cost: [
+				"Fire",
+			],
+			name: {
+				'en-us': "Flickering Flames",
+			},
+			effect: {
+				'en-us': "The Defending Pokémon is now Asleep.",
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Fire",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Rage",
+			},
+			effect: {
+				'en-us': "Does 50 damage plus 10 more damage for each damage counter on Typhlosion.",
+			},
+			damage: 50,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				tcgplayer: 90104
+			}
+		}
+	]
+}
+
+export default card

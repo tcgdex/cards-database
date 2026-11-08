@@ -1,0 +1,79 @@
+import { Card } from 'models/database/card'
+import Set from '../Legendary Treasures'
+
+const card: Card = {
+	name: {
+		'en-us': "Altaria",
+	},
+
+	illustrator: "Atsuko Nishida",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		334,
+	],
+
+	hp: 80,
+
+	types: [
+		"Dragon",
+	],
+
+	evolveFrom: {
+		'en-us': "Swablu",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Speed Dive",
+			},
+
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Water",
+				"Metal",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Cleave",
+			},
+			effect: {
+				'en-us': "Flip 2 coins. If both of them are heads, discard all Energy attached to the Defending Pokémon.",
+			},
+			damage: 40,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Dragon",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "On sunny days, it flies freely through the sky and blends into the clouds. It sings in a beautiful soprano.",
+	},
+
+	thirdParty: {
+		cardmarket: 281243,
+		tcgplayer: 83522
+	}
+}
+
+export default card

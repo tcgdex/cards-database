@@ -1,0 +1,60 @@
+import { Card } from "models/database/card"
+import Set from "../SV9"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "オオタチ"
+	},
+
+	illustrator: "REND",
+	rarity: "None",
+	category: "Pokemon",
+	dexId: [162],
+	hp: 120,
+	types: ["Colorless"],
+
+	description: {
+		'ja-jp': "細長い 巣穴で 子育て。 子供が 育つと 巣穴の 外で 独り立ちの 準備を させる。"
+	},
+
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'ja-jp': "ひっかく"
+		},
+
+		damage: 40
+	}, {
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "ジェットヘッド"
+		},
+
+		damage: 70
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 807697,
+				tcgplayer: 614986,
+			},
+		},
+	],
+
+	retreat: 1,
+}
+
+export default card

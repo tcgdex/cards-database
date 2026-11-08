@@ -1,0 +1,95 @@
+import { Card } from 'models/database/card'
+import Set from '../Call of Legends'
+
+const card: Card = {
+	name: {
+		'en-us': "Relicanth",
+		'fr-fr': "Relicanth",
+		'de-de': "Relicanth"
+	},
+
+	illustrator: "Wataru Kawahara",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [369],
+
+	hp: 80,
+
+	types: [
+		"Water"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Prehistoric Wisdom",
+				'fr-fr': "Sagesse préhistorique",
+				'de-de': "Prähistorische Weisheit"
+			},
+			effect: {
+				'en-us': "Choose a card from your hand and put it in the Lost Zone. Then, draw 3 cards.",
+				'fr-fr': "Choisissez une carte de votre main et placez-la dans la Zone Perdue. Ensuite, piochez 3 cartes.",
+				'de-de': "Wähle 1 Karte von deiner Hand und lege sie ins Nirgendwo. Ziehe anschließend 3 Karten."
+			},
+
+		},
+		{
+			cost: [
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Granite Head",
+				'fr-fr': "Tête de granit",
+				'de-de': "Granitkopf"
+			},
+			effect: {
+				'en-us': "During your opponent's next turn, any damage done to Relicanth by attacks is reduced by 30 (after applying Weakness and Resistance).",
+				'fr-fr': "Pendant le tour suivant de votre adversaire, les dégâts infligés par des attaques à Relicanth sont réduits de 30 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Während des nächsten Zuges deines Gegners, wird Schaden, der Relicanth durch Angriffe zugefügt wird, um 30 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+			},
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+	description: {
+		'en-us': "Discovered by chance during deep-sea explorations, it has not changed since ancient times.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88690,
+				cardmarket: 279712
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88690,
+				cardmarket: 279712
+			},
+		},
+	],
+
+}
+
+export default card

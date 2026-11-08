@@ -1,0 +1,84 @@
+import { Card } from "models/database/card"
+import Set from "../SV4M"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "バケッチャ",
+		'zh-tw': "南瓜精",
+		'th-th': "บาเค็จจะ",
+		'ko-kr': "호바귀"
+	},
+
+	illustrator: "saino misaki",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [710],
+	hp: 60,
+	types: ["Psychic"],
+
+	description: {
+		'ja-jp': "かぼちゃの 穴から 照らしている 光は 見た 人や ポケモンを 催眠状態にして 操る。",
+		'zh-tw': "南瓜的洞裡發出的光會催眠並控制看到牠的人和寶可夢。",
+		'th-th': "แสงที่ส่องออกมาจากรูของฟักทองสามารถสะกดจิตและควบคุมมนุษย์หรือโปเกมอนที่มองแสงนั้น",
+		'ko-kr': "호박의 구멍에서 나오는 빛을 본 사람과 포켓몬을 최면상태로 만들어 조종한다."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Psychic"],
+
+		name: {
+			'ja-jp': "タネばくだん",
+			'zh-tw': "種子炸彈",
+			'th-th': "ระเบิดเมล็ดพืช",
+			'ko-kr': "씨폭탄"
+		},
+
+		damage: 10
+	}, {
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "とつげき",
+			'zh-tw': "突擊",
+			'th-th': "ประจัญบาน",
+			'ko-kr': "돌격"
+		},
+
+		damage: 40,
+
+		effect: {
+			'ja-jp': "このポケモンにも20ダメージ。",
+			'zh-tw': "這隻寶可夢也受到20點傷害。",
+			'th-th': "โปเกมอนนี้ก็จะได้รับแดเมจ 20 ด้วย"
+		}
+	}],
+
+	weaknesses: [{
+		type: "Darkness",
+		value: "×2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "-30"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 741856,
+				tcgplayer: 565989,
+			},
+		},
+	],
+
+	retreat: 2,
+	regulationMark: "G",
+}
+
+export default card

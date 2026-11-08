@@ -1,0 +1,92 @@
+import { Card } from "models/database/card";
+import Set from "../SV2a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ピジョット",
+		'zh-tw': "大比鳥",
+		'th-th': "พีเจียต",
+		'id-id': "Pidgeot",
+	},
+
+	illustrator: "Oswaldo KATO",
+	category: "Pokemon",
+	hp: 130,
+	types: ["Colorless"],
+
+	description: {
+		'ja-jp': "美しい 羽を 広げて 相手を 威嚇する。 マッハ２で 空を 飛び回る。",
+		'zh-tw': "會展開美麗的翅膀威嚇對手。 能以２馬赫的速度在空中四處飛行。",
+		'th-th': "กางปีกอันสวยงามออกเพื่อข่มขวัญศัตรู บินไปมาบนท้องฟ้าด้วยความเร็วเสียง 2 มัค",
+		'id-id': "Pidgeot mengintimidasi lawannya dengan melebarkan sayapnya yang indah. Pokémon ini terbang mengelilingi langit dengan kecepatan 2 Mach.",
+	},
+
+	stage: "Stage2",
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "はばたく",
+				'zh-tw': "羽擊",
+				'th-th': "ตีปีก",
+				'id-id': "Mengepak",
+			},
+			damage: 40,
+			cost: ["Colorless"],
+		},
+		{
+			name: {
+				'ja-jp': "そらをとぶ",
+				'zh-tw': "飛翔",
+				'th-th': "บินขึ้น",
+				'id-id': "Terbang",
+			},
+			damage: 150,
+			cost: ["Colorless", "Colorless", "Colorless"],
+			effect: {
+				'ja-jp': "コインを1回投げウラなら、このワザは失敗。オモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
+				'zh-tw': "擲1次硬幣若為反面，則這個招式失敗。若為正面，則在下個對手的回合，這隻寶可夢不會受到招式的傷害與效果的影響。",
+				'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกก้อย ท่าต่อสู้นี้จะล้มเหลว ถ้าออกหัว เทิร์นถัดไปของฝ่ายตรงข้าม โปเกมอนนี้จะไม่ได้รับแดเมจและเอฟเฟกต์ของท่าต่อสู้",
+				'id-id': "Lempar koin 1 kali. Jika hasilnya sisi belakang, serangan ini gagal. Jika hasilnya sisi depan, pada giliran lawan berikutnya, Pokémon ini tidak menerima kerusakan dan efek akibat serangan.",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 719460,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 837258,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 837259,
+			},
+		},
+	],
+
+	evolveFrom: {
+		'ja-jp': "ピジョン",
+	},
+
+	retreat: 0,
+	regulationMark: "G",
+	rarity: "Uncommon",
+	dexId: [18],
+};
+
+export default card;

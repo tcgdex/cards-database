@@ -1,0 +1,81 @@
+import { Card } from "models/database/card"
+import Set from "../SV5a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "アリアドス",
+		'zh-tw': "阿利多斯",
+		'th-th': "อาริอาโดส"
+	},
+
+	illustrator: "Anesaki Dynamic",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	dexId: [168],
+	hp: 90,
+	types: ["Grass"],
+
+	description: {
+		'ja-jp': "決まった 場所に 巣を作らず あたりが 暗くなってから エサを 探し求め うろつく。",
+		'zh-tw': "不會在固定的地方築巢，會在周圍都暗下來之後， 才開始四處尋找食物。",
+		'th-th': "ไม่สร้างรังในสถานที่ที่ตายตัว หลังจากที่บริเวณโดยรอบเริ่มมืด จะวนไปวนมาตามหาอาหาร"
+	},
+
+	stage: "Stage1",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'ja-jp': "ビッグネット",
+			'zh-tw': "大網",
+			'th-th': "บิ๊กเน็ต"
+		},
+
+		effect: {
+			'ja-jp': "このポケモンがいるかぎり、相手のバトル場の進化ポケモンのにげるためのエネルギーは、1個ぶん多くなる。",
+			'zh-tw': "只要這隻寶可夢在場上，對手的戰鬥場的進化寶可夢【撤退】所需的能量增加1個。",
+			'th-th': "ตราบใดที่โปเกมอนนี้ยังอยู่ พลังงานสำหรับ[หนี]ของโปเกมอนวิวัฒนาการบนตำแหน่งต่อสู้ฝ่ายตรงข้าม จะเพิ่มขึ้น 1 ลูก"
+		}
+	}],
+
+	attacks: [{
+		cost: ["Grass"],
+
+		name: {
+			'ja-jp': "いとがらめ",
+			'zh-tw': "線帶纏繞",
+			'th-th': "ชักใยพัน"
+		},
+
+		damage: "10+",
+
+		effect: {
+			'ja-jp': "相手のバトルポケモンのにげるためのエネルギーの数×30ダメージ追加。",
+			'zh-tw': "增加對手的戰鬥寶可夢【撤退】所需的能量的數量×30點傷害。",
+			'th-th': "แดเมจจะเพิ่มตามจำนวนพลังงานสำหรับ[หนี]ของโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม x30"
+		}
+	}],
+
+	weaknesses: [{
+		type: "Fire",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 761465,
+				tcgplayer: 566060,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "H",
+}
+
+export default card

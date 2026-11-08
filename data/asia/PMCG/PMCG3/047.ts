@@ -1,0 +1,24 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG3"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "リサイクル",
+	},
+
+	illustrator: "Ryo Ueda",
+	rarity: "Common",
+	category: "Trainer",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575674
+			},
+		},
+	],
+};
+
+export default card

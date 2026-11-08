@@ -1,0 +1,111 @@
+import { Card } from 'models/database/card'
+import Set from '../Phantom Forces'
+
+const card: Card = {
+	name: {
+		'en-us': "Fearow",
+		'fr-fr': "Rapasdepic",
+		'es-es': "Fearow",
+		'it-it': "Fearow",
+		'pt-br': "Fearow",
+		'de-de': "Ibitak"
+	},
+
+	illustrator: "Shin Nagasawa",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		22,
+	],
+
+	hp: 90,
+
+	types: [
+		"Colorless",
+	],
+
+	evolveFrom: {
+		'en-us': "Spearow",
+		'fr-fr': "Piafabec",
+		'es-es': "Spearow",
+		'it-it': "Spearow",
+		'pt-br': "Spearow",
+		'de-de': "Habitak"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Fly",
+				'fr-fr': "Vol",
+				'es-es': "Vuelo",
+				'it-it': "Volo",
+				'pt-br': "Voar",
+				'de-de': "Fliegen"
+			},
+			effect: {
+				'en-us': "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien. Si c'est face, évitez tous les effets d'attaques, y compris les dégâts, infligés à ce Pokémon pendant le prochain tour de votre adversaire.",
+				'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada. Si sale cara, evita todos los efectos de los ataques, incluido el daño, infligidos a este Pokémon durante el próximo turno de tu rival.",
+				'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto. Se esce testa, previeni tutti gli effetti degli attacchi, inclusi i danni, inflitti a questo Pokémon durante il prossimo turno del tuo avversario.",
+				'pt-br': "Jogue uma moeda. Se sair coroa, esse ataque não fará nada. Se sair cara, impedirá todos os efeitos dos ataques a este Pokémon, inclusive danos, durante a próxima vez de jogar do seu oponente.",
+				'de-de': "Wirf 1 Münze. Bei \"Zahl\" hat dieser Angriff keine Auswirkungen. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die diesem Pokémon zugefügt werden."
+			},
+			damage: 40,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Drill Peck",
+				'fr-fr': "Bec Vrille",
+				'es-es': "Pico Taladro",
+				'it-it': "Perforbecco",
+				'pt-br': "Bico Broca",
+				'de-de': "Bohrschnabel"
+			},
+
+			damage: 60,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "With its huge and magnificent wings, it can keep aloft without ever having to land or rest.",
+	},
+
+	thirdParty: {
+		cardmarket: 281885,
+		tcgplayer: 94647
+	}
+}
+
+export default card

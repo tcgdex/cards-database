@@ -1,0 +1,86 @@
+import { Card } from 'models/database/card'
+import Set from '../Gym Challenge'
+
+const card: Card = {
+	name: {
+		'en-us': "Sabrina's Golduck"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [55],
+
+	hp: 70,
+
+	types: [
+		"Water"
+	],
+
+	evolveFrom: {
+		'en-us': "Psyduck"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+				"Psychic",
+			],
+			name: {
+				'en-us': "Damage Shift"
+			},
+			effect: {
+				'en-us': "Move 1 damage counter from each of your Pokémon that has any on it to the Defending Pokémon. (Don't apply Weakness and Resistance.)"
+			},
+
+		},
+		{
+			cost: [
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Water Spray"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 20 more damage; if tails, this attack does 20 damage."
+			},
+			damage: "20+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88876,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88876,
+				cardmarket: 274298
+			}
+		},
+	],
+}
+
+export default card

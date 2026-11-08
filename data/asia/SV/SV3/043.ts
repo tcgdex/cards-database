@@ -1,0 +1,73 @@
+import { Card } from "models/database/card"
+import Set from "../SV3"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "トゲピー",
+		'zh-tw': "波克比",
+		'th-th': "โทเกปี"
+	},
+
+	illustrator: "Natsumi Yoshida",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [175],
+	hp: 50,
+	types: ["Psychic"],
+
+	description: {
+		'ja-jp': "幸運の シンボル。 殻の 中には 幸せが たくさん つまっている という。",
+		'zh-tw': "好運的象徵。據說在牠的殼裡裝著滿滿的幸福。",
+		'th-th': "เป็นสัญลักษณ์นำโชค ว่ากันว่าในเปลือกของมันมีความสุขอัดอยู่เต็มเปี่ยม"
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'ja-jp': "あまえごえ",
+			'zh-tw': "撒嬌聲",
+			'th-th': "เสียงอ้อน"
+		},
+
+		effect: {
+			'ja-jp': "相手の手札からオモテを見ないで1枚選び、そのカードのオモテを見て、相手の山札にもどして切る。",
+			'zh-tw': "在不看正面的情況下，從對手的手牌選擇1張，查看那張卡的正面後放回對手的牌庫並重洗。",
+			'th-th': "เลือกการ์ด 1 ใบจากบนมือฝ่ายตรงข้ามโดยไม่ดูหน้าการ์ด หลังจากดูหน้าการ์ดนั้นแล้ว ใส่กลับไปในสำรับการ์ดฝ่ายตรงข้ามแล้วสับ"
+		}
+	}, {
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "ころがりタックル",
+			'zh-tw': "滾動衝撞",
+			'th-th': "กลิ้งโจมตี"
+		},
+
+		damage: 20
+	}],
+
+	weaknesses: [{
+		type: "Metal",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 723984,
+				tcgplayer: 566997,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "G",
+}
+
+export default card

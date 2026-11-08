@@ -1,0 +1,106 @@
+import { Card } from 'models/database/card'
+import Set from '../Legends Awakened'
+
+const card: Card = {
+	name: {
+		'en-us': "Swellow",
+		'fr-fr': "Heledelle",
+		'de-de': "Schwalboss"
+	},
+
+	illustrator: "Suwama Chiaki",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		277,
+	],
+
+	hp: 80,
+
+	types: [
+		"Colorless",
+	],
+
+	evolveFrom: {
+		'en-us': "Taillow",
+		'fr-fr': "Schwalbini",
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Big Wing",
+				'fr-fr': "Grande aile",
+				'de-de': "Große Schwingen"
+			},
+			effect: {
+				'en-us': "If Swellow has no Energy attached to it, Swellow's Retreat Cost is 0.",
+				'fr-fr': "Si Heledelle ne possède pas d'Énergie, son Coût de retraite est de 0.",
+				'de-de': "Wenn an Schwalboss keine Energie angelegt ist, hat Schwalboss Rückzugskosten 0."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Mach Descent",
+				'fr-fr': "Mach-attaque",
+				'de-de': "Tempo-Sinkflug"
+			},
+			effect: {
+				'en-us': "If Swellow was on your Bench this turn, this attack's base damage is 60 instead of 30.",
+				'fr-fr': "Si Heledelle se trouve sur votre Banc lors de ce tour, les dégâts de base de cette attaque sont de 60 au lieu de 30.",
+				'de-de': "Wenn Schwalboss in diesem Zug auf deiner Bank war, beträgt der Grundschaden dieses Angriffs 60 Schadenspunkte."
+			},
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "+20"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "It circles the sky in search of prey. When it spots one, it dive steeply to catch the prey.",
+		'fr-fr': "Il vole en cercle en quête d'une proie. Dès qu'il l'a repérée, il fond sur elle en un éclair."
+	},
+
+	thirdParty: {
+		cardmarket: 278222,
+		tcgplayer: 89694
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
+}
+
+export default card

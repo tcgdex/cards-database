@@ -1,0 +1,85 @@
+import { Card } from "models/database/card"
+import Set from "../Space-Time Smackdown"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Regirock",
+		'fr-fr': "Regirock",
+		'es-es': "Regirock",
+		'it-it': "Regirock",
+		'de-de': "Regirock",
+		'pt-br': "Regirock",
+		'ko-kr': "레지락"
+	},
+
+	illustrator: "Tomokazu Komiya",
+	rarity: "Two Diamond",
+	category: "Pokemon",
+
+	dexId: [377],
+	hp: 120,
+	types: ["Fighting"],
+
+	description: {
+		'en-us': "Every bit of Regirock's body is made of stone. As parts of its body erode, this Pokémon sticks rocks to itself to repair what's been lost.",
+		'fr-fr': "Il est entièrement composé de pierre. Si jamais une partie\nde son corps s'effrite, il la répare en y collant des rochers.",
+		'es-es': "Todo su cuerpo está hecho de roca. Si alguna\nparte se erosiona, la recompone con más rocas.",
+		'it-it': "Le varie parti del suo corpo sono costituite\nda rocce. Nel caso in cui si sgretoli, può\nricomporre il suo organismo con nuove pietre.",
+		'de-de': "Sein Körper besteht vollständig aus Steinen.\nWenn Teile davon abbröckeln, ersetzt Regirock\ndiese einfach durch neue Steine.",
+		'pt-br': "Cada parte do corpo de Regirock é feito de rocha.\nÀ medida que partes do seu corpo erodem, este Pokémon\nfixa pedras em si mesmo para consertar os pedaços que perdeu.",
+		'ko-kr': "몸의 모든 부분이 바위로 되어 있다.\n몸이 깎이더라도\n스스로 바위를 붙여서 치료한다."
+	},
+
+	stage: "Basic",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'en-us': "Exoskeleton",
+			'fr-fr': "Exosquelette",
+			'es-es': "Exoesqueleto",
+			'it-it': "Esoscheletro",
+			'de-de': "Exoskelett",
+			'pt-br': "Exoesqueleto",
+			'ko-kr': "딱딱한몸"
+		},
+
+		effect: {
+			'en-us': "This Pokémon takes −20 damage from attacks.",
+			'fr-fr': "Ce Pokémon subit − 20 dégâts provenant des attaques.",
+			'es-es': "Los ataques hacen -20 puntos de daño a este Pokémon.",
+			'it-it': "Questo Pokémon subisce -20 danni dagli attacchi.",
+			'de-de': "Diesem Pokémon werden durch Attacken − 20 Schadenspunkte zugefügt.",
+			'pt-br': "Este Pokémon recebe −20 pontos de dano de ataques.",
+			'ko-kr': "이 포켓몬이 받는 기술의 데미지를 -20한다."
+		}
+	}],
+
+	attacks: [{
+		name: {
+			'en-us': "Boulder Crush",
+			'fr-fr': "Rocher Écrasant",
+			'es-es': "Alud de Rocas",
+			'it-it': "Macignata",
+			'de-de': "Felsenquetscher",
+			'pt-br': "Rocha Esmagadora",
+			'ko-kr': "록스매시"
+		},
+
+		damage: 100,
+		cost: ["Fighting", "Fighting", "Fighting", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Grass",
+		value: "+20"
+	}],
+
+	retreat: 3,
+	boosters: ["dialga", "palkia"]
+}
+
+export default card

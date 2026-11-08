@@ -1,0 +1,84 @@
+import { Card } from "models/database/card"
+import Set from "../SV4K"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "ラティオス",
+		'zh-tw': "拉帝歐斯",
+		'th-th': "ลาทิโอส",
+		'ko-kr': "라티오스"
+	},
+
+	illustrator: "chibi",
+	rarity: "Rare",
+	category: "Pokemon",
+	dexId: [381],
+	hp: 110,
+	types: ["Psychic"],
+
+	description: {
+		'ja-jp': "高い 知能を 持ち 人間の 言葉を 理解する。 争いを 嫌う 優しい ポケモンだ。",
+		'zh-tw': "擁有很高的智慧，能理解人類的語言。 是厭惡爭鬥的溫柔寶可夢。",
+		'th-th': "มีสติปัญญาสูงและเข้าใจภาษามนุษย์ เป็นโปเกมอนใจดีที่เกลียดการต่อสู้",
+		'ko-kr': "높은 지능을 가졌기 때문에 인간의 말을 이해한다. 다툼을 싫어하는 상냥한 포켓몬이다."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'ja-jp': "かっくう",
+			'zh-tw': "滑翔",
+			'th-th': "ถลาลม",
+			'ko-kr': "활공"
+		},
+
+		damage: 20
+	}, {
+		cost: ["Psychic", "Psychic", "Colorless"],
+
+		name: {
+			'ja-jp': "ラスターパージ",
+			'zh-tw': "潔淨光芒",
+			'th-th': "ลัสเตอร์เพิร์จ",
+			'ko-kr': "러스터퍼지"
+		},
+
+		damage: 180,
+
+		effect: {
+			'ja-jp': "このポケモンについているエネルギーを3個選び、トラッシュする。",
+			'zh-tw': "選擇3個這隻寶可夢身上附加的能量，將其丟棄。",
+			'th-th': "เลือกพลังงานที่ติดอยู่กับโปเกมอนนี้ 3 ลูก ทิ้งที่ตำแหน่งทิ้งการ์ด"
+		}
+	}],
+
+	weaknesses: [{
+		type: "Darkness",
+		value: "×2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "-30"
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 741340,
+				tcgplayer: 565782,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "G",
+}
+
+export default card

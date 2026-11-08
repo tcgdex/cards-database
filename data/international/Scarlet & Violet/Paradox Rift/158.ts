@@ -1,0 +1,117 @@
+import { Card } from "models/database/card"
+import Set from "../Paradox Rift"
+
+const card: Card = {
+	dexId: [993],
+	set: Set,
+
+	name: {
+		'en-us': "Iron Jugulis",
+		'fr-fr': "Têtes-de-Fer",
+		'es-es': "Ferrocuello",
+		'it-it': "Colloferreo",
+		'pt-br': "Jugulares Férreas",
+		'de-de': "Eisenhals"
+	},
+
+	rarity: "Rare",
+	category: "Pokemon",
+	hp: 130,
+	types: ["Colorless"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless", "Colorless", "Colorless"],
+
+		name: {
+			'en-us': "Homing Headbutt",
+			'fr-fr': "Coup d'Boule Autoguidé",
+			'es-es': "Cabezazo Teledirigido",
+			'it-it': "Cozzata Mirata",
+			'pt-br': "Cabeçada Teleguiada",
+			'de-de': "Heimsuchende Kopfnuss"
+		},
+
+		effect: {
+			'en-us': "This attack does 50 damage to 3 of your opponent's Pokémon that have any damage counters on them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Cette attaque inflige 50 dégâts à 3 des Pokémon de votre adversaire ayant au moins un marqueur de dégâts. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			'es-es': "Este ataque hace 50 puntos de daño a 3 de los Pokémon de tu rival que tengan algún contador de daño sobre ellos. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			'it-it': "Questo attacco infligge 50 danni a tre dei Pokémon del tuo avversario che hanno dei segnalini danno. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			'pt-br': "Este ataque causa 50 pontos de dano a 3 dos Pokémon do seu oponente que têm algum contador de dano neles. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)",
+			'de-de': "Diese Attacke fügt 3 Pokémon deines Gegners, auf denen mindestens 1 Schadensmarke liegt, 50 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+		}
+	}, {
+		cost: ["Colorless", "Colorless", "Colorless", "Colorless", "Colorless"],
+
+		name: {
+			'en-us': "Baryon Beam",
+			'fr-fr': "Rayon Baryonique",
+			'es-es': "Rayo Bariónico",
+			'it-it': "Raggio Barionico",
+			'pt-br': "Feixe de Bárion",
+			'de-de': "Baryonenstrahl"
+		},
+
+		effect: {
+			'en-us': "If this Pokémon has a Future Booster Energy Capsule attached, this attack can be used for {C}{C}{C}.",
+			'fr-fr': "Si Capsule Énergie Booster Temps Futur est attachée à ce Pokémon, cette attaque peut être utilisée pour {C}{C}{C}.",
+			'es-es': "Si este Pokémon tiene un Tanque de Energía Potenciadora del Futuro unido, este ataque se puede usar por {C}{C}{C}.",
+			'it-it': "Se questo Pokémon ha una Capsula energetica Tempo Futuro assegnata, il costo di questo attacco è {C}{C}{C}.",
+			'pt-br': "Se este Pokémon tiver uma Cápsula Energética de Melhoria Futurista ligada a ele, este ataque poderá ser usado por {C}{C}{C}.",
+			'de-de': "Wenn an dieses Pokémon 1 Energiekapsel aus der Zukunft angelegt ist, kann diese Attacke für {C}{C}{C} eingesetzt werden."
+		},
+
+		damage: 150
+	}],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
+	retreat: 2,
+	regulationMark: "G",
+
+	description: {
+		'en-us': "It's possible that Iron Jugulis, an object described in an old book, may actually be this Pokémon.",
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740698,
+				tcgplayer: 523839,
+				cardtrader: 265267
+			}
+		},
+		{
+			type: 'holo',
+			foil: 'galaxy',
+			thirdParty: {
+				cardmarket: 750081
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 740698,
+				tcgplayer: 523839,
+				cardtrader: 265267
+			}
+		},
+	],
+
+	illustrator: "Souichirou Gunjima",
+
+	
+}
+
+export default card

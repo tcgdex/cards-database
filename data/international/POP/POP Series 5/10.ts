@@ -1,0 +1,73 @@
+import { Card } from 'models/database/card'
+import Set from '../POP Series 5'
+
+const card: Card = {
+	name: {
+		'en-us': "Charmander δ",
+		'fr-fr': "Charmander δ"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [4],
+
+	hp: 50,
+
+	types: [
+		"Lightning"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Scratch",
+				'fr-fr': "Griffe"
+			},
+
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Lightning",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Bite",
+				'fr-fr': "Morsure"
+			},
+
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84221,
+				cardmarket: 277492
+			},
+		},
+	],
+
+}
+
+export default card

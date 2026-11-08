@@ -1,0 +1,78 @@
+import { Card } from "models/database/card"
+import Set from "../SV3"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "デルビル",
+		'zh-tw': "戴魯比",
+		'th-th': "เดลวิล"
+	},
+
+	illustrator: "KYUPIYAMA",
+	category: "Pokemon",
+	dexId: [228],
+	hp: 50,
+	types: ["Darkness"],
+
+	description: {
+		'ja-jp': "様々な 鳴き声を 使い分け 仲間と コミュニケーションしながら 狩りを おこなう 賢さを持つ。",
+		'zh-tw': "擁有在狩獵的時候能使用各式各樣的叫聲 來與夥伴溝通的智慧。",
+		'th-th': "ฉลาด จะใช้เสียงร้องต่าง ๆ เพื่อสื่อสารกับฝูงระหว่างการล่า"
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Darkness"],
+
+		name: {
+			'ja-jp': "むれのれんけい",
+			'zh-tw': "群聚聯合",
+			'th-th': "ทีมเวิร์กของฝูง"
+		},
+
+		effect: {
+			'ja-jp': "自分のベンチの「デルビル」全員に、山札から「基本エネルギー」を1枚ずつつける。そして山札を切る。",
+			'zh-tw': "從牌庫附給自己的備戰區所有「戴魯比」各1張「基本【惡】能量」卡。並且重洗牌庫。",
+			'th-th': "นำการ์ด [พลังงานพื้นฐาน[ความมืด]] จากสำรับการ์ดมาติดที่ [เดลวิล] บนเบนช์ฝ่ายเราทุกตัว ตัวละ 1 ใบ แล้วสับสำรับการ์ด"
+		}
+	}, {
+		cost: ["Darkness", "Colorless"],
+
+		name: {
+			'ja-jp': "きあいのキバ",
+			'zh-tw': "真氣之牙",
+			'th-th': "เขี้ยวฮึดสู้"
+		},
+
+		damage: 30,
+
+		effect: {
+			'ja-jp': "コインを1回投げウラなら、このワザは失敗。",
+			'zh-tw': "擲1次硬幣若為反面，則這個招式失敗。",
+			'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกก้อย ท่าต่อสู้นี้จะล้มเหลว"
+		}
+	}],
+
+	weaknesses: [{
+		type: "Grass",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 724971,
+				tcgplayer: 567069,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "G",
+}
+
+export default card

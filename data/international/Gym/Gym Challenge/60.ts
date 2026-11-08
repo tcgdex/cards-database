@@ -1,0 +1,67 @@
+import { Card } from 'models/database/card'
+import Set from '../Gym Challenge'
+
+const card: Card = {
+	name: {
+		'en-us': "Blaine's Charmander"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [4],
+
+	hp: 50,
+
+	types: [
+		"Fire"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Fire",
+			],
+			name: {
+				'en-us': "Fire Tail Slap"
+			},
+			effect: {
+				'en-us': "Use this attack only if there are any Fire Energy cards attached to Blaine's Charmander. Flip a coin. If tails, discard 1 of those cards."
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83863,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83863,
+				cardmarket: 274328
+			}
+		},
+	],
+}
+
+export default card

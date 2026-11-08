@@ -1,0 +1,123 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set'
+
+const card: Card = {
+	name: {
+		'en-us': "Metapod",
+		'fr-fr': "Chrysacier",
+		'de-de': "Safcon",
+		'it-it': "Metapod"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		11,
+	],
+
+	hp: 70,
+
+	types: [
+		"Grass",
+	],
+
+	evolveFrom: {
+		'en-us': "Caterpie",
+		'fr-fr': "Chenipan",
+		'it-it': "Caterpie"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Stiffen",
+				'fr-fr': "Armure",
+				'de-de': "Verhärten",
+				'it-it': "Indurimento"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, prevent all damage done to Metapod during your opponent's next turn. (Any other effects of attacks still happen.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Chrysacier pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)",
+				'de-de': "Während des nächsten Zuges deines Gegners wird Schaden, der diesem Pokémon durch Angriffe zugefügt wird, um 40 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden).",
+				'it-it': "Lancia una moneta. Se esce testa, previeni tutti i danni inflitti a Metapod durante il prossimo turno del tuo avversario. (Tutti gli altri effetti degli attacchi restano validi)",
+			},
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Grass",
+			],
+			name: {
+				'en-us': "Stun Spore",
+				'fr-fr': "Para-spore",
+				'de-de': "Stachelspore",
+				'it-it': "Paralizzante"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Aktive Pokémon deines Gegners jetzt paralysiert.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		'en-us': "It is vulnerable to attack because its shell is soft, exposing its weak and tender body.",
+		'fr-fr': "Il est vulnérable aux attaques tant que sa carapace fragile expose son corps tendre et mou.",
+		'it-it': "È vulnerabile agli attacchi a causa del suo guscio morbido, che non protegge il suo corpo debole e molle. LIV 21 N.11"
+	},
+
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273749,
+				tcgplayer: 42398
+			},
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107051
+			},
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107051
+			},
+		},
+		{
+			type: "normal",
+			subtype: "1999-2000-copyright",
+		}
+	],
+}
+
+export default card

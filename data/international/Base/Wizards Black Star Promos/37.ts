@@ -1,0 +1,87 @@
+import { Card } from 'models/database/card'
+import Set from '../Wizards Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Hitmontop",
+		'fr-fr': "Kapoera"
+	},
+
+	illustrator: "Atsuko Nishida",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		237,
+	],
+
+	hp: 60,
+
+	types: [
+		"Fighting",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+			],
+			name: {
+				'en-us': "Repeating Kick",
+				'fr-fr': "Coup de pied rafale"
+			},
+			effect: {
+				'en-us': "Flip a coin until you get tails. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu'à obtenir pile. Cette attaque inflige 20 dégâts multipliés par le nombre de faces."
+			},
+			damage: "20×",
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Rapid Spin",
+				'fr-fr': "Tour Rapide"
+			},
+			effect: {
+				'en-us': "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with his or her Active Pokémon, then, if you have any Benched Pokémon, you switch 1 of them with your Active Pokémon. (Do the damage before switching the Pokémon.)",
+				'fr-fr': "Si votre adversaire a des Pokémon sur son Banc, il choisit l'un d'eux et l'échange avec son Pokémon Actif, ensuite, si vous avez des Pokémon sur votre banc, vous choisissez l'un d'eux et vous l'échangez avec votre Pokémon Actif. (Infligez les dégâts avant d'échanger les Pokémon)."
+			},
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "It launches kicks while spinning. If it spins at high speed, it may bore its way into the ground.",
+		'fr-fr': "Il lance des coups de pieds tournant. S'il tournoie assez vite, il peut s'enfoncer dans le sol."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86112
+			},
+		}
+	]
+}
+
+export default card

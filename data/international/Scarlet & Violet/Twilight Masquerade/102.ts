@@ -1,0 +1,102 @@
+import { Card } from "models/database/card"
+import Set from "../Twilight Masquerade"
+
+const card: Card = {
+	dexId: [476],
+	set: Set,
+
+	name: {
+		'en-us': "Probopass",
+		'fr-fr': "Tarinorme",
+		'es-es': "Probopass",
+		'it-it': "Probopass",
+		'pt-br': "Probopass",
+		'de-de': "Voluminas"
+	},
+
+	rarity: "Uncommon",
+	category: "Pokemon",
+	hp: 140,
+	types: ["Fighting"],
+	evolveFrom: {
+		'en-us': "Nosepass",
+		'fr-fr': "Tarinor",
+		'es-es': "Nosepass",
+		'it-it': "Nosepass",
+		'pt-br': "Nosepass",
+		'de-de': "Nasgnet"
+	},
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Colorless", "Colorless", "Colorless"],
+
+		name: {
+			'en-us': "Assault Laser",
+			'fr-fr': "Laser d'Assaut",
+			'es-es': "Láser de Asalto",
+			'it-it': "Laserassalto",
+			'pt-br': "Laser de Ataque",
+			'de-de': "Offensiv-Laser"
+		},
+
+		effect: {
+			'en-us': "If your opponent's Active Pokémon has a Pokémon Tool attached, this attack does 80 more damage.",
+			'fr-fr': "Si un Outil Pokémon est attaché au Pokémon Actif de votre adversaire, cette attaque inflige 80 dégâts supplémentaires.",
+			'es-es': "Si el Pokémon Activo de tu rival tiene una Herramienta Pokémon unida, este ataque hace 80 puntos de daño más.",
+			'it-it': "Se il Pokémon attivo del tuo avversario ha una carta Oggetto Pokémon assegnata, questo attacco infligge 80 danni in più.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente tiver uma Ferramenta Pokémon ligada a ele, este ataque causará 80 pontos de dano a mais.",
+			'de-de': "Wenn an das Aktive Pokémon deines Gegners eine Pokémon-Ausrüstung angelegt ist, fügt diese Attacke 80 Schadenspunkte mehr zu."
+		},
+
+		damage: "80+"
+	}, {
+		cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
+
+		name: {
+			'en-us': "Land Crush",
+			'fr-fr': "Écras'Terre",
+			'es-es': "Aterrizaje",
+			'it-it': "Schiacciaterra",
+			'pt-br': "Aperto de Terra",
+			'de-de': "Schollenbrecher"
+		},
+
+		damage: 120
+	}],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
+	retreat: 3,
+	regulationMark: "H",
+
+	description: {
+		'en-us': "Probopass radiates such a powerful magnetic field that nearby electrical appliances are rendered useless while it's around.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769276,
+				tcgplayer: 550146
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769276,
+				tcgplayer: 550146
+			}
+		},
+	],
+
+	illustrator: "OKUBO",
+
+}
+
+export default card

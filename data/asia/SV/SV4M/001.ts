@@ -1,0 +1,69 @@
+import { Card } from "models/database/card"
+import Set from "../SV4M"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "アメタマ",
+		'zh-tw': "溜溜糖球",
+		'th-th': "อาเมทามะ",
+		'ko-kr': "비구술"
+	},
+
+	illustrator: "Yoriyuki Ikegami",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [283],
+	hp: 50,
+	types: ["Grass"],
+
+	description: {
+		'ja-jp': "頭の 先から 水飴に 似た 甘い 匂いの 液体を 出す。 水草の 多い 池に 棲む。",
+		'zh-tw': "從頭頂分泌出的液體有著如同麥芽糖般的甜味。住在有大量水草的池塘裡。",
+		'th-th': "ส่วนยอดของหัวจะมีของเหลวกลิ่นหอมหวานราวน้ำเชื่อมไหลออกมา อาศัยอยู่ในบ่อที่มี พืชน้ำมากมาย",
+		'ko-kr': "머리 앞쪽에서 물엿과 비슷한 달콤한 냄새의 액체를 내보낸다. 수초가 많은 연못에 산다."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Grass"],
+
+		name: {
+			'ja-jp': "トリプルスピン",
+			'zh-tw': "三重旋轉",
+			'th-th': "ทริปเปิลสปิน",
+			'ko-kr': "트리플스핀"
+		},
+
+		damage: "10×",
+
+		effect: {
+			'ja-jp': "コインを3回投げ、オモテの数×10ダメージ。",
+			'zh-tw': "擲3次硬幣，造成正面出現的次數×10點傷害。",
+			'th-th': "ทอยเหรียญ 3 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x10",
+			'ko-kr': "동전을 3번 던져서 앞면이 나온 수 × 10데미지를 준다."
+		}
+	}],
+
+	weaknesses: [{
+		type: "Fire",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 741809,
+				tcgplayer: 565961,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "G",
+}
+
+export default card

@@ -1,0 +1,30 @@
+import { Card } from 'models/database/card'
+import Set from '../Double Crisis'
+
+const card: Card = {
+	name: {
+		'en-us': "Team Aqua's Great Ball",
+		'fr-fr': "Super Ball de la Team Aqua",
+		'pt-br': "Grande Bola da Equipe Aqua",
+	},
+
+	illustrator: "Toyste Beach",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'fr-fr': "Cherchez un Pokémon de base de la Team Aqua et une carte Énergie {W} de base dans votre deck, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+		'en-us': "Search your deck for a Basic Team Aqua Pokémon and a basic {W} Energy card, reveal them, and put them into your hand. Shuffle your deck afterward.",
+		'pt-br': "Procure no seu baralho um Pokémon da Equipe Aqua Básico e um card de Energia {W} básica, revele-os e coloque-os em sua mão. Em seguida, embaralhe seus cards.",
+	},
+
+	trainerType: "Item",
+
+	thirdParty: {
+		cardmarket: 282538,
+		tcgplayer: 97073
+	}
+}
+
+export default card

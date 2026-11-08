@@ -1,0 +1,98 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set'
+
+const card: Card = {
+	name: {
+		'en-us': "Koffing",
+		'fr-fr': "Smogo",
+		'de-de': "Smogon",
+		'it-it': "Koffing"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		109,
+	],
+
+	hp: 50,
+
+	types: [
+		"Grass",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+				"Grass",
+			],
+			name: {
+				'en-us': "Foul Gas",
+				'fr-fr': "Gaz infect",
+				'de-de': "Fäulnisgas",
+				'it-it': "Gas puzzolente"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned; if tails, it is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Empoisonné ; si c'est pile, il est maintenant Confus.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon vergiftet; bei 'Zahl' verwirrt.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon Difensore è Avvelenato; se esce croce, è Confuso."
+			},
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning.",
+		'fr-fr': "Son corps, constitué de gaz toxiques et instables, peut exploser soudainement.",
+		'it-it': "Il suo corpo contiene vari tipi di gas tossici ed è per questo che spesso esplode senza alcun preavviso. LIV 13 N.109",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273746,
+				tcgplayer: 42395
+			},
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107048
+			},
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107048
+			},
+		},
+		{
+			type: "normal",
+			subtype: "1999-2000-copyright",
+		}
+	],
+}
+
+export default card

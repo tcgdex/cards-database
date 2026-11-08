@@ -1,0 +1,93 @@
+import { Card } from 'models/database/card'
+import Set from '../Rising Rivals'
+
+const card: Card = {
+	name: {
+		'en-us': "Drapion E4",
+		'fr-fr': "Drascore  Niv. 53",
+		'de-de': "Piondragi 4"
+	},
+	illustrator: "Kouki Saitou",
+	rarity: "Rare",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [452],
+	hp: 100,
+	types: [
+		"Darkness"
+	],
+
+	stage: "Basic",
+
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Body Slam",
+				'fr-fr': "Plaquage",
+				'de-de': "Bodyslam"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Psychic",
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Mega Impact",
+				'fr-fr': "Méga impact",
+				'de-de': "Mega Einschlag"
+			},
+
+			damage: 70,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "x2"
+		},
+	],
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-20"
+		},
+	],
+	retreat: 3,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278591,
+				tcgplayer: 84925
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278591,
+				tcgplayer: 84925
+			}
+		},
+	],
+
+}
+
+export default card

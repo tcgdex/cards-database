@@ -1,0 +1,87 @@
+import { Card } from 'models/database/card'
+import Set from '../Arceus'
+
+const card: Card = {
+	name: {
+		'en-us': "Charmander",
+		'de-de': "Glumanda"
+	},
+
+	illustrator: "Suwama Chiaki",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [4],
+	
+	hp: 60,
+
+	types: [
+		"Fire"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Call for Friends",
+				'de-de': "Freundesruf"
+			},
+			effect: {
+				'en-us': "Search your deck for a Fire Basic Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+				'de-de': "Durchsuche dein Deck nach 1 -Basis-Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische dein Deck danach."
+			},
+
+		},
+		{
+			cost: [
+				"Fire",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Steady Firebreathing",
+				'de-de': "Stetiger Feuerhauch"
+			},
+
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "+10"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "The fire on the tip of its tail is a measure of its life. If healthy, its tail burns intensely."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84217,
+				cardmarket: 278931
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278931,
+				tcgplayer: 84217
+			}
+		},
+	],
+
+}
+
+export default card

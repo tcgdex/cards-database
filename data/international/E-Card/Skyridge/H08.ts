@@ -1,0 +1,91 @@
+import { Card } from 'models/database/card'
+import Set from '../Skyridge'
+
+const card: Card = {
+	name: {
+		'en-us': "Forretress",
+		'de-de': "Forstellka"
+	},
+
+	illustrator: "Midori Harada",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [205],
+
+	hp: 70,
+
+	types: [
+		"Metal"
+	],
+
+	evolveFrom: {
+		'en-us': "Pineco",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Spinning Blow",
+				'de-de': "Rundumschlag"
+			},
+			effect: {
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads. If both coins are heads, switch Forretress with 1 of your Benched Pokémon.",
+				'de-de': "Wirf zwei Münzen. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl \"Kopf\" zu. Zeigen beide Münzen \"Kopf\", tausche Forstellka mit 1 der Pokémon auf deiner Bank aus."
+			},
+			damage: "20×",
+
+		},
+		{
+			cost: [
+				"Metal",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Scatterbomb",
+				'de-de': "Streubombe"
+			},
+			effect: {
+				'en-us': "Flip 2 coins. For each heads, do 10 damage to each of your opponent's Benched Pokémon. For each tails, do 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'de-de': "Wirf 2 Münzen. Füge für jeden geworfenen \"Kopf\" jedem Pokémon auf der generischen Bank 10 Schadenspunkte zu. Füge für jede geworfene \"Zahl\" jedem Pokémon auf deiner eigenen Bank 10 Schadenspunkte zu. (Wende keine Schwäche oder Resistenz bei Pokémon auf der Bank an.)"
+			},
+			damage: 40,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "x2"
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30"
+		},
+	],
+	retreat: 2,
+
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				tcgplayer: 85543,
+				cardmarket: 275267
+			},
+		},
+	],
+}
+
+export default card

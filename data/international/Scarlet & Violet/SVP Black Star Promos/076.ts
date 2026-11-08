@@ -1,0 +1,81 @@
+import { Card } from "models/database/card"
+import Set from "../SVP Black Star Promos"
+
+const card: Card = {
+	dexId: [906],
+	set: Set,
+
+	name: {
+		'en-us': "Sprigatito",
+		'fr-fr': "Poussacha",
+		'es-es': "Sprigatito",
+		'it-it': "Sprigatito",
+		'pt-br': "Sprigatito",
+		'de-de': "Felori"
+	},
+
+	rarity: "Promo",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Grass"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Grass"],
+
+		name: {
+			'en-us': "Gather Sunlight",
+			'fr-fr': "Collecte Solaire",
+			'es-es': "Síntesis Solar",
+			'it-it': "Radunasole",
+			'pt-br': "Banho de Sol",
+			'de-de': "Sonnenlicht sammeln"
+		},
+
+		effect: {
+			'en-us': "Search your deck for up to 2 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck jusqu'à 2 cartes Énergie de base, montrez-les, puis ajoutez-les à votre main. Mélangez ensuite votre deck.",
+			'es-es': "Busca en tu baraja hasta 2 cartas de Energía Básica, enséñalas y ponlas en tu mano. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo fino a due carte Energia base, mostrale e aggiungile alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por até 2 cartas de Energia Básica no seu baralho, revele-as e coloque-as na sua mão. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach bis zu 2 Basis-Energiekarten, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		}
+	}, {
+		cost: ["Grass"],
+
+		name: {
+			'en-us': "Seed Bomb",
+			'fr-fr': "Canon Graine",
+			'es-es': "Bomba Germen",
+			'it-it': "Semebomba",
+			'pt-br': "Bomba de Sementes",
+			'de-de': "Samenbomben"
+		},
+
+		damage: 10
+	}],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+	regulationMark: "G",
+	illustrator: "kurumitsu",
+	description: {
+		'en-us': "Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out.",
+	},
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 751801,
+				tcgplayer: 537971
+			},
+		}
+	],
+}
+
+export default card

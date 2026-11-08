@@ -1,0 +1,61 @@
+import { Card } from "models/database/card";
+import Set from "../SV6";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "エモンガ",
+		'zh-tw': "電飛鼠",
+		'th-th': "เอมอนกา",
+	},
+
+	illustrator: "Shimaris Yukichi",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Lightning"],
+
+	description: {
+		'ja-jp': "電気を ほとばしらせながら 空を 舞うように 飛ぶ。 可愛いが やっかいなのだ。",
+		'zh-tw': "會一邊放電一邊像是 在空中跳舞般地飛行。 雖然可愛，但很難纏。",
+		'th-th': "บินราวกับร่ายรำอยู่บนท้องฟ้าพลางปล่อยไฟฟ้าพุ่งทะลักออกมาด้วย ถึงแม้ว่าจะน่ารักแต่ก็สร้างปัญหาไม่น้อย",
+	},
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "スカイウェーブ",
+				'zh-tw': "天空波",
+				'th-th': "สกายเวฟ",
+			},
+			damage: 10,
+			cost: ["Colorless"],
+			effect: {
+				'ja-jp': "おたがいのベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'zh-tw': "雙方的所有備戰寶可夢也各受到10點傷害。 [在備戰區不計算弱點・抵抗力。]",
+				'th-th': "โปเกมอนบนเบนช์ของทั้งสองฝ่ายทุกตัว ก็จะได้รับแดเมจตัวละ 10 ด้วย {โปเกมอนบนเบนช์จะไม่นำจุดอ่อนและความต้านทานมาคิด}",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 767135,
+				tcgplayer: 568032,
+			},
+		},
+	],
+
+	retreat: 0,
+	regulationMark: "H",
+	rarity: "Common",
+	dexId: [587],
+};
+
+export default card;

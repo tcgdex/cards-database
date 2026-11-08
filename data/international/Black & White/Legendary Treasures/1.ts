@@ -1,0 +1,81 @@
+import { Card } from 'models/database/card'
+import Set from '../Legendary Treasures'
+
+const card: Card = {
+	name: {
+		'en-us': "Tangela",
+	},
+
+	illustrator: "kirisAki",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		114,
+	],
+
+	hp: 70,
+
+	types: [
+		"Grass",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+			],
+			name: {
+				'en-us': "Beat",
+			},
+
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Flog",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Water",
+			value: "-20"
+		},
+	],
+
+	retreat: 2,
+
+	description: {
+		'en-us': "Many writhing vines cover it, so its true identity remains unknown. The blue vines grow its whole life long.",
+	},
+
+	thirdParty: {
+		cardmarket: 281152,
+		tcgplayer: 89750
+	}
+}
+
+export default card

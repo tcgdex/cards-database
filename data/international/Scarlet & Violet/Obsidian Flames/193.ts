@@ -1,0 +1,55 @@
+import { Card } from "models/database/card"
+import Set from "../Obsidian Flames"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'fr-fr': "Popi",
+		'en-us': "Poppy",
+		'es-es': "Pola",
+		'it-it': "Verina",
+		'pt-br': "Poppy",
+		'de-de': "Poppy"
+	},
+
+	rarity: "Uncommon",
+	category: "Trainer",
+
+	effect: {
+		'fr-fr': "Déplacez jusqu'à 2 Énergies de l'un de vos Pokémon vers un autre de vos Pokémon.",
+		'en-us': "Move up to 2 Energy from 1 of your Pokémon to another of your Pokémon.",
+		'es-es': "Mueve hasta 2 Energías de uno de tus Pokémon a otro de tus Pokémon.",
+		'it-it': "Sposta fino a due Energie da uno dei tuoi Pokémon a un altro.",
+		'pt-br': "Mova até 2 Energias de 1 dos seus Pokémon para outro Pokémon seu.",
+		'de-de': "Verschiebe bis zu 2 Energien von 1 deiner Pokémon auf 1 anderes deiner Pokémon."
+	},
+
+	trainerType: "Supporter",
+	regulationMark: "G",
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725273,
+				tcgplayer: 509785,
+				cardtrader: 256089
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725273,
+				tcgplayer: 509785,
+				cardtrader: 256089
+			}
+		},
+	],
+
+	illustrator: "yuu",
+
+	
+}
+
+export default card

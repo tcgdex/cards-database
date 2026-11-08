@@ -1,0 +1,98 @@
+import { Card } from 'models/database/card'
+import Set from '../Hidden Legends'
+
+const card: Card = {
+	name: {
+		'en-us': "Walrein",
+		'fr-fr': "Kaimorse",
+		'de-de': "Walraisa"
+	},
+
+	illustrator: "Atsuko Nishida",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [365],
+
+	hp: 120,
+
+	types: [
+		"Water"
+	],
+
+	evolveFrom: {
+		'en-us': "Sealeo",
+		'fr-fr': "Phogleur"
+	},
+
+	stage: "Stage2",
+
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				'en-us': "Crush Draw",
+				'fr-fr': "Pioche écrasante",
+				'de-de': "Crush Draw"
+			},
+			effect: {
+				'en-us': "Once during your turn (before your attack), you may reveal the top card of your deck. If that card is a basic Energy card, attach it to 1 of your Pokémon. If not, put the card back on your deck. This power can't be used if Walrein is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez retourner la carte du dessus de votre deck. Si cette carte est une carte Énergie de base, attachez-la à 1 de vos Pokémon. Sinon, replacez la carte sur votre deck. Ce pouvoir ne peut pas être utilisé si Kaimorse est affecté par un État Spécial.",
+				'de-de': "Once during your turn (before your attack), you may reveal the top card of your deck. If that card is a basic Energy card, attach it to 1 of your Pokémon. If not, put the card back on your deck. This power can't be used if Walrein is affected by a Special Condition."
+			}
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Water",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Sheer Cold",
+				'fr-fr': "Glaciation",
+				'de-de': "Sheer Cold"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, each Defending Pokémon can't attack during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, chaque Pokémon Défenseur ne peut pas attaquer lors du prochain tour de votre adversaire.",
+				'de-de': "Flip a coin. If heads, each Defending Pokémon can't attack during your opponent's next turn."
+			},
+			damage: 50,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2"
+		},
+	],
+
+	
+	retreat: 3,
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 90466,
+				cardmarket: 276089
+			}
+		},
+		{
+			type: "reverse",
+			foil: 'energy',
+			thirdParty: {
+				tcgplayer: 90466,
+				cardmarket: 276089
+			}
+		},
+	]
+}
+
+export default card

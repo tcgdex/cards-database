@@ -1,0 +1,49 @@
+import { Card } from "models/database/card";
+import Set from "../SM8b";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ユキカブリ",
+	},
+
+	illustrator: "match",
+	category: "Pokemon",
+	hp: 80,
+	types: ["Water"],
+
+	description: {
+		'ja-jp': "春になると アイスキャンディーの ような 食感の 木の実が お腹の まわりに 生る。",
+	},
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			name: { ja: "こおりのつぶて" },
+			damage: "20+",
+			cost: ["Water", "Colorless"],
+			effect: {
+				'ja-jp': "相手のバトルポケモンが[闘]ポケモンなら、40ダメージ追加。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Metal", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 550611,
+			},
+		},
+	],
+
+	retreat: 3,
+	rarity: "None",
+	dexId: [459],
+};
+
+export default card;

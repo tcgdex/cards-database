@@ -1,0 +1,94 @@
+import { Card } from 'models/database/card'
+import Set from '../Rising Rivals'
+
+const card: Card = {
+	name: {
+		'en-us': "Machamp GL",
+		'fr-fr': "Mackogneur  Niv. 64",
+		'de-de': "Machomei GL"
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [68],
+
+	hp: 100,
+
+	types: [
+		"Fighting"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Cross-Cut",
+				'fr-fr': "Coupe transversale",
+				'de-de': "Überkreuzzerschneider"
+			},
+			effect: {
+				'en-us': "If the Defending Pokémon is an Evolved Pokémon, this attack does 30 damage plus 20 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon Évolué, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wenn das Verteidigende Pokémon ein entwickeltes Pokémon ist, fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+			},
+			damage: "30+",
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Brush Off",
+				'fr-fr': "Lancer",
+				'de-de': "Wegbürsten"
+			},
+			effect: {
+				'en-us': "Put the Defending Pokémon and all cards attached to it on top of your opponent's deck. Your opponent shuffles his or her deck afterward. (If your opponent doesn't have any Benched Pokémon, this attack does nothing.)",
+				'fr-fr': "Placez le Pokémon Défenseur ainsi que toutes les cartes qui lui sont attachées au dessus du deck de votre adversaire. Celui-ci mélange ensuite son deck. (Si votre adversaire ne possède pas de Pokémon de Banc, cette attaque est sans effet).",
+				'de-de': "Lege das Verteidigende Pokémon und alle Karten, die an es angelegt sind, auf das Deck deines Gegners. Dein Gegner mischt danach sein Deck. (Dieser Angriff hat keine Auswirkungen, wenn dein Gegner keine Pokémon auf seiner Bank hat.)"
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "x2"
+		},
+	],
+	retreat: 3,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278620,
+				tcgplayer: 86972
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278620,
+				tcgplayer: 86972
+			}
+		},
+	],
+
+}
+
+export default card

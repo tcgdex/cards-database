@@ -1,0 +1,93 @@
+import { Card } from 'models/database/card'
+import Set from '../Arceus'
+
+const card: Card = {
+	name: {
+		'en-us': "Pichu",
+		'de-de': "Pichu"
+	},
+
+	illustrator: "Kanako Eo",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [172],
+	
+	hp: 50,
+
+	types: [
+		"Lightning"
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				'en-us': "Baby Evolution",
+				'de-de': "Baby Evolution"
+			},
+			effect: {
+				'en-us': "Once during your turn (before your attack), you may put Pikachu from your hand onto Pichu (this counts as evolving Pichu) and remove all damage counters from Pichu.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du Pikachu von deiner Hand auf Pichu legen (das zählt als Entwickeln von Pichu). Entferne alle Schadensmarken von Pichu."
+			}
+		},
+	],
+
+	attacks: [
+		{
+
+			name: {
+				'en-us': "Baby Steps",
+				'de-de': "Babyschritte"
+			},
+			effect: {
+				'en-us': "Look at the top 5 cards of your deck, choose 1 of them, and put it into your hand. Shuffle the other cards back into your deck.",
+				'de-de': "Schau dir die obersten 5 Karten deines Decks an, wähle 1 von ihnen und nimm sie auf die Hand. Mische die anderen Karten in dein Deck zurück."
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "+10"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Metal",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "The electric sacs in its cheeks are small. If even a little electricity leaks, it becomes shocked."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88021,
+				cardmarket: 278897
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278897,
+				tcgplayer: 88021
+			}
+		},
+	],
+
+}
+
+export default card

@@ -1,0 +1,64 @@
+import { Card } from "models/database/card";
+import Set from "../SM12a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "カメール",
+	},
+
+	illustrator: "Hiroki Asanuma",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Water"],
+
+	description: {
+		'ja-jp': "ポカンと 頭を たたかれるとき 甲羅に 引っこんで 避ける。でも ちょっとだけ 尻尾が 出ているよ。",
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: { ja: "かたいこうら" },
+			effect: {
+				'ja-jp': "このポケモンが受けるワザのダメージは「-20」される。",
+			},
+		},
+	],
+
+	attacks: [
+		{
+			name: { ja: "アクアスラッシュ" },
+			damage: 60,
+			cost: ["Water", "Water"],
+			effect: {
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Grass", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 543541,
+			},
+		},
+	],
+
+	evolveFrom: {
+		'ja-jp': "ゼニガメ",
+	},
+
+	retreat: 2,
+	regulationMark: "C",
+	rarity: "None",
+	dexId: [8],
+};
+
+export default card;

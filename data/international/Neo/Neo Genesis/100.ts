@@ -1,0 +1,42 @@
+import { Card } from 'models/database/card'
+import Set from '../Neo Genesis'
+
+const card: Card = {
+	name: {
+		'en-us': "Double Gust",
+		'fr-fr': "Double rafale",
+		'de-de': "Doppelter Windhauch"
+	},
+
+	illustrator: "Tomokazu Komiya",
+	rarity: "Common",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'en-us': "If you have any Benched Pokémon, your opponent chooses 1 of them and switches it with your Active Pokémon. Then, if your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon.",
+		'fr-fr': "Si vous avez un ou plusieurs Pokémon sur votre Banc, votre adversaire choisit l'un d'eux et l'échange avec votre Pokémon Actif. Ensuite, si votre adversaire a un ou plusieurs Pokémon sur son Banc, choisissez l'un d'eux et échangez-le avec son Pokémon Actif.",
+		'de-de': "If you have any Benched Pokémon, your opponent chooses 1 of them and switches it with your Active Pokémon. Then, if your opponent has any Benched Pokémon, choose 1 of them and switch it with his or her Active Pokémon."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274500,
+				tcgplayer: 84891
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274500,
+				tcgplayer: 84891
+			}
+		}
+	]
+}
+
+export default card

@@ -1,0 +1,72 @@
+import { Card } from 'models/database/card'
+import Set from '../Dragon'
+
+const card: Card = {
+	name: {
+		'en-us': "Nincada",
+		'fr-fr': "Ningale",
+		'de-de': "Nincada"
+	},
+
+	illustrator: "Hajime Kusajima",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [290],
+
+	hp: 50,
+
+	types: [
+		"Grass"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			name: {
+				'en-us': "Leech Life",
+				'fr-fr': "Vampirisme",
+				'de-de': "Blutsauger"
+			},
+
+			effect: {
+				'en-us': "After your attack, remove from Nincada the number of damage counters equal to the damage you did to the Defending Pokémon. If Nincada has fewer damage counters than that, remove all of them.",
+				'fr-fr': "Après votre attaque, retirez à Ningale autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur. Si Ningale a moins de marqueurs de dégât que de dégâts infligés, retirez-les lui tous.",
+				'de-de': "Nach dem Kampf entferne pro 10 Schadenspunkte, die Nincada dem Verteidigenden Pokémon zugefügt hat, 1 Schadensmarke von Nincada. Falls zu wenig Schadensmarken vorhanden sind, entferne alle."
+			},
+
+			cost: ["Grass"],
+			damage: 10,
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87758,
+				cardmarket: 275945
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87758,
+				cardmarket: 275945
+			},
+		},
+	],
+
+}
+
+export default card

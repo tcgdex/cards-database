@@ -1,0 +1,86 @@
+import { Card } from 'models/database/card'
+import Set from '../Dragon'
+
+const card: Card = {
+	name: {
+		'en-us': "Shelgon",
+		'fr-fr': "Drackhaus",
+		'de-de': "Draschel"
+	},
+
+	illustrator: "Yuka Morii",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [372],
+
+	hp: 70,
+
+	types: [
+		"Colorless"
+	],
+
+	evolveFrom: {
+		'en-us': "Bagon",
+		'fr-fr': "Draby"
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Energy Guard",
+				'fr-fr': "Conservateur d'énergie",
+				'de-de': "Energiewächter"
+			},
+			effect: {
+				'en-us': "As long as Shelgon has any basic Energy cards attached to it, damage done to Shelgon by an opponent's attack is reduced by 10 (after applying Weakness and Resistance).",
+				'fr-fr': "Tant que Drackhaus possède des cartes Énergie de base, les dégâts qui lui sont infligés par une attaque de votre adversaire sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Solange mindestens 1 Basis-Energiekarte an Draschel angelegt ist, wird jeder Schaden, der Draschel durch gegnerische Angriffe zugefügt wird, um 10 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurde)."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'de-de': "Walzer"
+			},
+
+			damage: 20,
+
+		},
+	],
+
+
+	retreat: 2,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89123,
+				cardmarket: 275918
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89123,
+				cardmarket: 275918
+			},
+		},
+	],
+
+}
+
+export default card

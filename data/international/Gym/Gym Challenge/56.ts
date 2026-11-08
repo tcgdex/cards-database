@@ -1,0 +1,84 @@
+import { Card } from 'models/database/card'
+import Set from '../Gym Challenge'
+
+const card: Card = {
+	name: {
+		'en-us': "Sabrina's Hypno"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [97],
+
+	hp: 70,
+
+	types: [
+		"Psychic"
+	],
+
+	evolveFrom: {
+		'en-us': "Drowzee"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+			],
+			name: {
+				'en-us': "Invigorate"
+			},
+			effect: {
+				'en-us': "Choose 1 Basic Pokémon in any player's discard pile. Put it onto that player's Bench. Put a number of damage counters on that Pokémon equal to half its HP (rounded down to the nearest 10). (You can't put a Pokémon on a Bench that's full.)"
+			},
+
+		},
+		{
+			cost: [
+				"Psychic",
+				"Psychic",
+			],
+			name: {
+				'en-us': "Pendulum Curse"
+			},
+			effect: {
+				'en-us': "Flip a number of coins equal to the number of damage counters on the Defending Pokémon. This attack does 20 damage times the number of heads."
+			},
+			damage: "20x",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88879,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88879,
+				cardmarket: 274324
+			}
+		},
+	],
+}
+
+export default card

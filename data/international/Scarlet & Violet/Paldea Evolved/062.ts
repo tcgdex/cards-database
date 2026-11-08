@@ -1,0 +1,101 @@
+import { Card } from "models/database/card"
+import Set from "../Paldea Evolved"
+
+const card: Card = {
+	dexId: [25],
+	set: Set,
+
+	name: {
+		'fr-fr': "Pikachu",
+		'en-us': "Pikachu",
+		'es-es': "Pikachu",
+		'it-it': "Pikachu",
+		'pt-br': "Pikachu",
+		'de-de': "Pikachu"
+	},
+
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Lightning"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'fr-fr': "Rugissement",
+			'en-us': "Growl",
+			'es-es': "Gruñido",
+			'it-it': "Ruggito",
+			'pt-br': "Rosnadura",
+			'de-de': "Heuler"
+		},
+
+		effect: {
+			'fr-fr': "Pendant le prochain tour de votre adversaire, les attaques du Pokémon Défenseur infligent 20 dégâts de moins (avant application de la Faiblesse et de la Résistance).",
+			'en-us': "During your opponent's next turn, the Defending Pokémon's attacks do 20 less damage (before applying Weakness and Resistance).",
+			'es-es': "Durante el próximo turno de tu rival, los ataques del Pokémon Defensor hacen 20 puntos de daño menos (antes de aplicar Debilidad y Resistencia).",
+			'it-it': "Durante il prossimo turno del tuo avversario, gli attacchi del Pokémon difensore infliggono 20 danni in meno, prima di aver applicato debolezza e resistenza.",
+			'pt-br': "Durante o próximo turno do seu oponente, os ataques do Pokémon Defensor causarão 20 pontos de dano a menos (antes de aplicar Fraqueza e Resistência).",
+			'de-de': "Während des nächsten Zuges deines Gegners fügen die Attacken des Verteidigenden Pokémon 20 Schadenspunkte weniger zu (bevor Schwäche und Resistenz verrechnet werden)."
+		}
+	}, {
+		cost: ["Lightning", "Colorless"],
+
+		name: {
+			'fr-fr': "Pik'Éclair",
+			'en-us': "Pika Bolt",
+			'es-es': "Rayo Pika",
+			'it-it': "Pikafulmine",
+			'pt-br': "Relâmpagochu",
+			'de-de': "Pikaschuss"
+		},
+
+		damage: 30
+	}],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+	regulationMark: "G",
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715537,
+				tcgplayer: 497473,
+				cardtrader: 248672
+			}
+		},
+		{
+			type: 'normal',
+			size: 'jumbo',
+			stamp: ['rain-city'],
+			thirdParty: {
+				cardmarket: 793388
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715537,
+				tcgplayer: 497473,
+				cardtrader: 248672
+			}
+		},
+	],
+
+	illustrator: "OKACHEKE",
+
+	description: {
+		'en-us': "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
+	},
+}
+
+export default card

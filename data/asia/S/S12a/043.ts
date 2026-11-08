@@ -1,0 +1,75 @@
+import { Card } from "models/database/card";
+import Set from "../S12a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "エレズン",
+		'zh-tw': "毒電嬰",
+		'th-th': "เอเลซัน",
+	},
+
+	illustrator: "kodama",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Lightning"],
+
+	description: {
+		'ja-jp': "毒素を 化学変化 させて 電気を 出す。 電力は 弱いが ビリビリと 痺れる。",
+		'zh-tw': "透過讓自身的毒素產生化學反應來發電。電力 雖然弱，卻能造成麻痺。",
+		'th-th': "เอาสารพิษมาเปลี่ยนแปลงทางเคมีเพื่อผลิตไฟฟ้า พลังงานไฟฟ้านั้นอ่อนแต่ก็ทำให้รู้สึกชาได้",
+	},
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "なきごえ",
+				'zh-tw': "叫聲",
+				'th-th': "คำราม",
+			},
+			cost: ["Colorless"],
+			effect: {
+				'ja-jp': "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-30」される。",
+				'zh-tw': "在下個對手的回合，受到這個招式的寶可夢使用招式的傷害「-30」點。",
+				'th-th': "เทิร์นถัดไปของฝ่ายตรงข้าม แดเมจของท่าต่อสู้ที่โปเกมอนที่ได้รับท่าต่อสู้นี้ใช้ จะถูก [-30]",
+			},
+		},
+		{
+			name: {
+				'ja-jp': "プチボルト",
+				'zh-tw': "小伏特",
+				'th-th': "โวลต์ต่ำ",
+			},
+			damage: 10,
+			cost: ["Lightning"],
+		},
+	],
+
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 687523,
+				tcgplayer: 571581,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577455,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "E",
+	rarity: "None",
+	dexId: [848],
+};
+
+export default card;

@@ -1,0 +1,77 @@
+import { Card } from 'models/database/card'
+import Set from '../Legendary Treasures'
+
+const card: Card = {
+	name: {
+		'en-us': "Reshiram",
+	},
+
+	illustrator: "Aya Kusube",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		643,
+	],
+
+	hp: 130,
+
+	types: [
+		"Fire",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Outrage",
+			},
+			effect: {
+				'en-us': "Does 10 more damage for each damage counter on this Pokémon.",
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Fire",
+				"Fire",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Blue Flare",
+			},
+			effect: {
+				'en-us': "Discard 2 Fire Energy attached to this Pokémon.",
+			},
+			damage: 120,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+
+	retreat: 2,
+
+	description: {
+		'en-us': "This Pokémon appears in legends. It sends flames into the air from its tail, burning up everything around it.",
+	},
+
+	thirdParty: {
+		cardmarket: 281139,
+		tcgplayer: 88709
+	}
+}
+
+export default card

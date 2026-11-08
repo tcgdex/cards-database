@@ -1,0 +1,83 @@
+import { Card } from 'models/database/card'
+import Set from '../Gym Heroes'
+
+const card: Card = {
+	name: {
+		'en-us': "Brock's Zubat"
+	},
+
+	illustrator: "Atsuko Nishida",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [41],
+
+	hp: 40,
+
+	types: [
+		"Grass"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Wing Attack"
+			},
+
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Poison Fang"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "x2"
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30"
+		},
+	],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83989,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83989,
+				cardmarket: 274151
+			}
+		}
+	],
+	retreat: 0
+}
+
+export default card
+

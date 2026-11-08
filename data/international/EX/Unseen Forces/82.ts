@@ -1,0 +1,51 @@
+import { Card } from 'models/database/card'
+import Set from '../Unseen Forces'
+
+const card: Card = {
+	name: {
+		'en-us': "Energy Removal 2",
+		'fr-fr': "Suppression d'Énergie 2",
+		'de-de': "Energy Removal 2*"
+	},
+
+	illustrator: "Keiji Kinebuchi",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+	trainerType: "Item",
+
+	effect: {
+		'en-us': "Flip a coin. If heads, choose 1 Energy card attached to 1 of your opponent's Pokémon and discard it.",
+		'fr-fr': "Lancez une pièce. Si c'est face, choisissez 1 carte Énergie attachée à 1 des Pokémon de votre adversaire et défaussez-la.",
+		'de-de': "Flip a coin. If heads, choose 1 Energy card attached to 1 of your opponent's Pokémon and discard it."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85223,
+				cardmarket: 276728
+			},
+		},
+		{
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 85223,
+				cardmarket: 276728
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["miska-saari"],
+			thirdParty: {
+				tcgplayer: 477613,
+				cardmarket: 869589
+			},
+		}
+	],
+}
+
+export default card

@@ -1,0 +1,35 @@
+import { Card } from 'models/database/card'
+import Set from '../Gym Challenge'
+
+const card: Card = {
+	name: {
+		'en-us': "Blaine's Quiz #3"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'en-us': "Put a Basic or Evolution card from your hand face down in front of you and tell your opponent the name of an attack of that card. Your opponent guesses the name of that card. Flip the card over. If your opponent guessed right, he or she draws 3 cards. If your opponent guessed wrong, you draw 3 cards. Either way, return the card to your hand."
+	},
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83881,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83881,
+				cardmarket: 274380
+			}
+		},
+	],
+}
+
+export default card

@@ -1,0 +1,86 @@
+import { Card } from 'models/database/card'
+import Set from '../Skyridge'
+
+const card: Card = {
+	name: {
+		'en-us': "Seel",
+		'de-de': "Jurob"
+	},
+
+	illustrator: "Yukiko Baba",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [86],
+
+	hp: 50,
+
+	types: [
+		"Water"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Double Headbutt",
+				'de-de': "Doppelte Kopfnuss"
+			},
+			effect: {
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl 'Kopf' zu."
+			},
+			damage: "10×",
+
+		},
+		{
+			cost: [
+				"Water",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Ice Beam",
+				'de-de': "Eisstrahl"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' ist das verteidigende Pokémon jetzt gelähmt."
+			},
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 89051,
+				cardmarket: 275353
+			},
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				tcgplayer: 89051,
+				cardmarket: 275353
+			},
+		},
+	],
+}
+
+export default card

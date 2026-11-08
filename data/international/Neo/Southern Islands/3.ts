@@ -1,0 +1,83 @@
+import { Card } from 'models/database/card'
+import Set from '../Southern Islands'
+
+const card: Card = {
+	name: {
+		'en-us': "Onix",
+	},
+
+	illustrator: "Keiko Fukuyama",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		95,
+	],
+
+	hp: 90,
+
+	types: [
+		"Fighting",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Slam",
+			},
+			effect: {
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Fighting",
+				"Fighting",
+			],
+			name: {
+				'en-us': "Body Slam",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+			},
+			damage: 40,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+	retreat: 3,
+
+
+	description: {
+		'en-us': "This Pokémon burrows through the earth at high speed, looking for food. The tunnels it digs are used by Diglett as nests.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275633,
+				tcgplayer: 46477
+			}
+		}
+	]
+}
+
+export default card

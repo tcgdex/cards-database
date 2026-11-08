@@ -1,0 +1,90 @@
+import { Card } from 'models/database/card'
+import Set from '../Hidden Fates'
+
+const card: Card = {
+	name: {
+		'en-us': "Weezing",
+		'fr-fr': "Smogogo",
+	},
+
+	illustrator: "Hideki Ishikawa",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		110,
+	],
+
+	hp: 120,
+
+	types: [
+		"Psychic",
+	],
+
+	evolveFrom: {
+		'en-us': "Koffing",
+		'fr-fr': "Smogo",
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'en-us': "Surrender Now",
+				'fr-fr': "Rendez-Vous Tous"
+			},
+			effect: {
+				'en-us': "Once during your turn, if this Pokémon is discarded with the effect of Jessie & James, you may have your opponent discard a card from their hand. (They discard that card after the effect of Jessie & James.)",
+				'fr-fr': "Une seule fois pendant votre tour, si ce Pokémon est défaussé du fait de l'effet de la carte Jessie et James, vous pouvez demander à votre adversaire de défausser une carte de sa main. (Cette carte est défaussée après l'effet de Jessie et James.)"
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Tackle",
+				'fr-fr': "Rendez-Vous Tous",
+			},
+			damage: 40,
+
+		},
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'fr-fr': "Charge",
+			},
+
+			damage: 40,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+
+	retreat: 3,
+
+	description: {
+		'en-us': "If one of the twin Koffing inflates, the other one deflates. It constantly mixes its poisonous gases.",
+	},
+
+	thirdParty: {
+		cardmarket: 381228,
+		tcgplayer: 197673
+	}
+}
+
+export default card

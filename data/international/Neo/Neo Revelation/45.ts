@@ -1,0 +1,81 @@
+import { Card } from 'models/database/card'
+import Set from '../Neo Revelation'
+
+const card: Card = {
+	name: {
+		'en-us': "Goldeen",
+		'fr-fr': "Poissirène",
+		'de-de': "Goldini"
+	},
+
+	illustrator: "Yuka Morii",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		118,
+	],
+
+	hp: 40,
+
+	types: [
+		"Water",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Fin Smack",
+				'fr-fr': "Coud'nageoire",
+				'de-de': "Fin Smack"
+			},
+			effect: {
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				'de-de': "Flip 2 coins. This attack does 10 damage times the number of heads."
+			},
+			damage: "10x",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	description: {
+		'en-us': "Its dorsal, pectoral and tail fins wave elegantly in the water. That is why it is known as the water dancer.",
+		'fr-fr': "Ses nageoires dorsales, pectorales et sa queue s'agitent élégamment dans l'eau. C'est pour cette raison qu'on le surnomme le danseur aquatique."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274631,
+				tcgplayer: 85801
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274631,
+				tcgplayer: 85801
+			}
+		}
+	]
+}
+
+export default card
+

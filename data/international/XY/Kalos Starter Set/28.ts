@@ -1,0 +1,77 @@
+import { Card } from 'models/database/card'
+import Set from '../Kalos Starter Set'
+
+const card: Card = {
+	name: {
+		'en-us': "Skitty",
+		'fr-fr': "Skitty",
+		'es-es': "Skitty",
+		'it-it': "Skitty",
+		'pt-br': "Skitty",
+		'de-de': "Eneco"
+	},
+
+	illustrator: "Shin Nagasawa",
+	rarity: "None",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		300,
+	],
+
+	hp: 60,
+
+	types: [
+		"Colorless",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Jump On",
+				'fr-fr': "Saut",
+				'es-es': "Asaltar",
+				'it-it': "Salta Su",
+				'pt-br': "Pular em Cima",
+				'de-de': "Draufspringen"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+				'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+				'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+				'pt-br': "Jogue uma moeda. Se sair cara, este ataque causará 20 de danos adicionais.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 20 weitere Schadenspunkte zu."
+			},
+			damage: "20+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "It can't stop itself from chasing moving things, and it runs in a circle, chasing its own tail.",
+	},
+
+	thirdParty: {
+		cardmarket: 281294,
+		tcgplayer: 89272
+	}
+}
+
+export default card

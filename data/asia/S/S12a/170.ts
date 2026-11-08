@@ -1,0 +1,42 @@
+import { Card } from "models/database/card";
+import Set from "../S12a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "マグマの滝壺",
+		'zh-tw': "熔岩的瀑布深潭",
+		'th-th': "แอ่งน้ำตกแม็กมา",
+	},
+
+	illustrator: "ORBITALLINK Inc.",
+	category: "Trainer",
+
+	effect: {
+		'ja-jp': "おたがいのプレイヤーは、自分の番ごとに1回、自分のトラッシュから[R]エネルギーを1枚選び、自分のベンチの[R]ポケモンにつけてよい。その場合、つけたポケモンにダメカンを2個のせる。",
+		'zh-tw': "雙方玩家在每個自己的回合時，可使用1次，可從自己的棄牌區選擇1張【火】能量卡，附於自己的備戰區的【火】寶可夢身上。這個情況下，在附上那張卡的寶可夢身上放置2個傷害指示物。",
+		'th-th': "ผู้เล่นทั้งสองฝ่าย ในแต่ละเทิร์นของตัวเองทำได้ 1 ครั้ง เลือกการ์ดพลังงาน[ไฟ] 1 ใบจากตำแหน่งทิ้งการ์ดฝ่ายตัวเอง ติดที่โปเกมอน[ไฟ]บนเบนช์ฝ่ายตัวเองก็ได้ เมื่อทำเช่นนั้นแล้ว วางตัวนับแดเมจ 2 ตัวบนโปเกมอนที่ติดการ์ดนั้น",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 687732,
+				tcgplayer: 571708,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577523,
+			},
+		},
+	],
+
+	trainerType: "Stadium",
+	regulationMark: "F",
+	rarity: "None",
+};
+
+export default card;

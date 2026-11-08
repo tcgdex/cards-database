@@ -1,0 +1,81 @@
+import { Card } from 'models/database/card'
+import Set from '../McDonald\'s Collection 2014'
+
+const card: Card = {
+	dexId: [
+		25,
+	],
+	set: Set,
+	illustrator: "MAHOU",
+	description: {
+		'en-us': "It raises its tail to check its surroundings. The tail is sometimes struck by lightning in this pose.",
+	},
+	name: {
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+	},
+	rarity: "None",
+	category: "Pokemon",
+	hp: 60,
+	types: [
+		"Lightning",
+	],
+	stage: "Basic",
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Nuzzle",
+				'fr-fr': "Frotte-Frimousse",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			},
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-Attaque",
+			},
+			damage: "20+",
+			effect: {
+				'en-us': "Flip a coin. If heads, this attack does 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts supplémentaires.",
+			},
+		},
+	],
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+	resistances: [
+		{
+			type: "Metal",
+			value: "-20"
+		}
+	],
+	retreat: 1,
+	variants: [
+		{
+			type: 'holo',
+			stamp: ["mcdonalds"],
+
+			thirdParty: {
+				cardmarket: 281657,
+				tcgplayer: 110410
+			}
+		}
+	]
+}
+
+export default card
+

@@ -1,5 +1,7 @@
 import { SupportedLanguages } from '@tcgdex/sdk'
 
+export type Version = 'full' | 'brief'
+
 export interface Pagination {
 	page: number
 	count: number

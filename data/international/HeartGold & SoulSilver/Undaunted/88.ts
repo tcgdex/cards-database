@@ -1,0 +1,92 @@
+import { Card } from 'models/database/card'
+import Set from '../Undaunted'
+
+const card: Card = {
+	name: {
+		'en-us': "Kyogre & Groudon LEGEND",
+		'fr-fr': "Kyogre & Groudon LÉGENDE",
+		'de-de': "Kyogre & Groudon LEGENDE"
+	},
+
+	illustrator: "Shinji Higuchi + Sachiko Eba",
+	rarity: "LEGEND",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [382, 383],
+	types: [
+		"Water",
+		"Fighting"
+	],
+
+	suffix: "Legend",
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Mega Tidal Wave",
+				'fr-fr': "Méga raz-de-marée",
+				'de-de': 'Mega-Flutwelle'
+			},
+			effect: {
+				'en-us': "Discard the top 5 cards from your opponent's deck. This attack does 30 damage times the number of Energy cards you discarded to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Défaussez les 5 cartes du dessus du deck de votre adversaire. Cette attaque inflige 30 dégâts, multipliés par le nombre de cartes Énergie que vous avez défaussées, à chacun des Pokémon qui se trouve sur le Banc de votre adversaire. (N’appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+				'de-de': 'Lege die obersten 5 Karten vom Deck deines Gegners auf seinen Ablagestapel. Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners 30 Schadenspunkte mal der Anzahl der Energiekarten zu, die du auf diese Weise auf den Ablagestapel gelegt hast. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)  '
+			},
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Massive Eruption",
+				'fr-fr': "Éruption massive",
+				'de-de': 'Gewaltige Eruption'
+			},
+			effect: {
+				'en-us': "Discard the top 5 cards from your deck. This attack does 100 damage times the number of Energy cards you discarded.",
+				'fr-fr': "Défaussez les 5 cartes du dessus de votre deck. Cette attaque inflige 100 dégâts multipliés par le nombre de cartes Énergie que vous avez défaussées.",
+				'de-de': 'Lege die obersten drei Karten deines Decks auf deinen Ablagestapel. Dieser Angriff fügt 100 Schadenspunkte mal der Anzahl abgelegter Energiekarten zu.  '
+			},
+			damage: "100×",
+
+		}
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+	retreat: 3,
+	stage: "Basic",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 86553,
+				tcgplayer: 86553,
+			}
+		},
+	],
+	hp: 150,
+}
+
+export default card

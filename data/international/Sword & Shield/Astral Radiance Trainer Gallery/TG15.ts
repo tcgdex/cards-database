@@ -1,0 +1,101 @@
+import { Card } from "models/database/card"
+import Set from "../Astral Radiance Trainer Gallery"
+
+const card: Card = {
+	dexId: [898],
+	set: Set,
+
+	name: {
+		'en-us': "Ice Rider Calyrex VMAX",
+		'fr-fr': "Sylveroy Cavalier du Froid VMAX",
+		'es-es': "Calyrex Jinete Glacial VMAX",
+		'it-it': "Calyrex Cavaliere Glaciale VMAX",
+		'pt-br': "Calyrex Cavaleiro Glacial VMAX",
+		'de-de': "Schimmelreiter-Coronospa VMAX"
+	},
+
+	illustrator: "Hitoshi Ariga",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
+	hp: 320,
+	types: ["Water"],
+
+	evolveFrom: {
+		'en-us': "Ice Rider Calyrex V",
+		'fr-fr': "Sylveroy Cavalier du Froid-V",
+		'es-es': "Calyrex Jinete Glacial V",
+		'it-it': "Calyrex Cavaliere Glaciale-V",
+		'pt-br': "Calyrex Cavaleiro Glacial V",
+		'de-de': "Schimmelreiter-Coronospa-V"
+	},
+
+	stage: "VMAX",
+
+	attacks: [{
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			'en-us': "Ride of the High King",
+			'fr-fr': "Chevauchée Impériale",
+			'es-es': "Paseo del Emperador",
+			'it-it': "Cavalcata dell'Imperatore",
+			'pt-br': "Montaria do Rei Supremo",
+			'de-de': "Ritt des Kaisers"
+		},
+
+		effect: {
+			'en-us': "This attack does 30 more damage for each of your opponent's Benched Pokémon.",
+			'fr-fr': "Cette attaque inflige 30 dégâts supplémentaires pour chacun des Pokémon de Banc de votre adversaire.",
+			'es-es': "Este ataque hace 30 puntos de daño más por cada uno de los Pokémon en Banca de tu rival.",
+			'it-it': "Questo attacco infligge 30 danni in più per ogni Pokémon nella panchina del tuo avversario.",
+			'pt-br': "Este ataque causa 30 pontos de dano a mais para cada Pokémon no Banco do seu oponente.",
+			'de-de': "Diese Attacke fügt für jedes Pokémon auf der Bank deines Gegners 30 Schadenspunkte mehr zu."
+		},
+
+		damage: "10+"
+	}, {
+		cost: ["Water", "Water"],
+
+		name: {
+			'en-us': "Max Lance",
+			'fr-fr': "Lançomax",
+			'es-es': "Maxilanza",
+			'it-it': "Dynalancia",
+			'pt-br': "Lança Longa Max",
+			'de-de': "Dyna-Lanze"
+		},
+
+		effect: {
+			'en-us': "You may discard up to 2 Energy from this Pokémon. If you do, this attack does 120 more damage for each card you discarded in this way.",
+			'fr-fr': "Vous pouvez défausser jusqu'à 2 Énergies de ce Pokémon. Dans ce cas, cette attaque inflige 120 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
+			'es-es': "Puedes descartar hasta 2 Energías de este Pokémon. Si lo haces, este ataque hace 120 puntos de daño más por cada carta que hayas descartado de esta manera.",
+			'it-it': "Puoi scartare fino a due Energie da questo Pokémon. Se lo fai, questo attacco infligge 120 danni in più per ogni carta che hai scartato in questo modo.",
+			'pt-br': "Você pode descartar até 2 Energias deste Pokémon. Se fizer isto, este ataque causará 120 pontos de dano a mais para cada carta descartada desta forma.",
+			'de-de': "Du kannst bis zu 2 Energien von diesem Pokémon auf deinen Ablagestapel legen. Wenn du das machst, fügt diese Attacke für jede auf diese Weise abgelegte Karte 120 Schadenspunkte mehr zu."
+		},
+
+		damage: "10+"
+	}],
+
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
+	retreat: 2,
+	regulationMark: "E",
+
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658892,
+				tcgplayer: 272486
+			}
+		},
+	],
+}
+
+export default card

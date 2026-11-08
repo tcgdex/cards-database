@@ -1,0 +1,82 @@
+import { Card } from 'models/database/card'
+import Set from '../Undaunted'
+
+const card: Card = {
+	name: {
+		'en-us': "Houndour",
+		'fr-fr': "Malosse",
+		'de-de': "Hunduster"
+	},
+
+	illustrator: "kawayoo",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [228],
+
+	hp: 50,
+
+	types: [
+		"Darkness"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Darkness",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Sharp Fang",
+				'fr-fr': "Croc aiguisé",
+				'de-de': "Scharfe Fänge"
+			},
+
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "It uses different kinds of cries for communicating with others of its kind and for pursuing its prey."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 279306,
+				tcgplayer: 86230
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279306,
+				tcgplayer: 86230
+			}
+		}
+	],
+
+}
+
+export default card

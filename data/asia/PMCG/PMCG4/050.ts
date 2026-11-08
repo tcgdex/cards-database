@@ -1,0 +1,51 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG4"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ポリゴン",
+	},
+
+	illustrator: "Keiji Kinebuchi",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [137],
+	hp: 40,
+	types: ["Colorless"],
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				'ja-jp': "変換1",
+			},
+			effect: {
+				'ja-jp': "防御するポケモンが弱点を持っている場合、それを無色の以外の選択の種類に変更することができます。 （いずれかのポケモンがこの効果を終了するかのいずれかのベンチを作成します。）",
+			},
+		},
+		{
+			cost: ["Colorless", "Colorless", "Colorless"],
+			name: {
+				'ja-jp': "PSYBEAM",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+			},
+			damage: 20,
+		},
+	],
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575775
+			},
+		},
+	],
+};
+
+export default card

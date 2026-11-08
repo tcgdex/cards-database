@@ -1,0 +1,60 @@
+import { Card } from 'models/database/card'
+import Set from '../Triumphant'
+
+const card: Card = {
+	name: {
+		'en-us': "Twins",
+		'fr-fr': "Jumelles",
+		'de-de': "Zwillinge"
+	},
+
+	illustrator: "Kanako Eo",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'fr-fr': "Vous pouvez utiliser cette carte uniquement s’il vous reste plus de cartes Récompense que votre adversaire. Cherchez 2 cartes dans votre deck et ajoutez-les à votre main. Mélangez ensuite votre deck.",
+		'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. You may use this card only if you have more Prize cards left than your opponent. Search your deck for any 2 cards and put them into your hand. Shuffle your deck afterward.",
+		'de-de': "Du darfst diese Karte nur spielen, wenn du mehr Preise übrig hast als dein Gegner. Durchsuche dein Deck nach 2 Karten und nimm sie auf deine Hand. Mische anschließend dein Deck."
+	},
+
+	trainerType: "Supporter",
+
+	hp: 0,
+
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90086,
+				cardmarket: 279619
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279619,
+				tcgplayer: 90086
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['ross-cawthorn'],
+			thirdParty: {
+				tcgplayer: 480511
+			}
+		},
+		{
+			type: "normal",
+			stamp: ['david-cohen'],
+			thirdParty: {
+				tcgplayer: 480512
+			}
+		},
+	],
+
+}
+
+export default card

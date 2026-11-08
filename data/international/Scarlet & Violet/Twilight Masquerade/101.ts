@@ -1,0 +1,81 @@
+import { Card } from "models/database/card"
+import Set from "../Twilight Masquerade"
+
+const card: Card = {
+	dexId: [299],
+	set: Set,
+
+	name: {
+		'en-us': "Nosepass",
+		'fr-fr': "Tarinor",
+		'es-es': "Nosepass",
+		'it-it': "Nosepass",
+		'pt-br': "Nosepass",
+		'de-de': "Nasgnet"
+	},
+
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 80,
+	types: ["Fighting"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless", "Colorless", "Colorless"],
+
+		name: {
+			'en-us': "Power Rush",
+			'fr-fr': "Ruée Puissante",
+			'es-es': "Envite Poderoso",
+			'it-it': "Assalto Potente",
+			'pt-br': "Arremetida Poderosa",
+			'de-de': "Power-Ansturm"
+		},
+
+		effect: {
+			'en-us': "Flip a coin. If tails, during your next turn, this Pokémon can't attack.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, pendant votre prochain tour, ce Pokémon ne peut pas attaquer.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, este Pokémon no puede atacar durante tu próximo turno.",
+			'it-it': "Lancia una moneta. Se esce croce, durante il tuo prossimo turno, questo Pokémon non può attaccare.",
+			'pt-br': "Jogue uma moeda. Se sair coroa, durante o seu próximo turno, este Pokémon não poderá atacar.",
+			'de-de': "Wirf 1 Münze. Bei Zahl kann dieses Pokémon während deines nächsten Zuges nicht angreifen."
+		},
+
+		damage: 60
+	}],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
+	retreat: 3,
+	regulationMark: "H",
+
+	description: {
+		'en-us': "When endangered, it may protect itself by increasing its magnetism and drawing nearby iron objects to its body.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 769275,
+				tcgplayer: 550145
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 769275,
+				tcgplayer: 550145
+			}
+		},
+	],
+
+	illustrator: "AKIRA EGAWA",
+
+}
+
+export default card

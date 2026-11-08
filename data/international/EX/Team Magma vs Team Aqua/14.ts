@@ -1,0 +1,96 @@
+import { Card } from 'models/database/card'
+import Set from '../Team Magma vs Team Aqua'
+
+const card: Card = {
+	name: {
+		'en-us': "Team Aqua's Crawdaunt",
+		'fr-fr': "Colhomard de Team Aqua",
+		'de-de': "Team Aquas Krebutack"
+	},
+
+	illustrator: "Nakaoka",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [342],
+
+	hp: 80,
+
+	types: [
+		"Water"
+	],
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Poison Reaction",
+				'fr-fr': "Allergie poison",
+				'de-de': "Poison Reaction"
+			},
+			effect: {
+				'en-us': "If the Defending Pokémon is Poisoned, this attack does 20 damage plus 20 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est Empoisonné, cette attaque inflige 20 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "If the Defending Pokémon is Poisoned, this attack does 20 damage plus 20 more damage."
+			},
+			damage: "20+",
+
+		},
+		{
+			cost: [
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Double Claw",
+				'fr-fr': "Double-griffe",
+				'de-de': "Double Claw"
+			},
+			effect: {
+				'en-us': "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires multipliés par le nombre de faces.",
+				'de-de': "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads."
+			},
+			damage: "30+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275791,
+				tcgplayer: 89784
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 275791,
+				tcgplayer: 89784
+			}
+		},
+	],
+
+}
+
+export default card

@@ -1,0 +1,53 @@
+import { Card } from "models/database/card"
+import Set from "../Perfect Order"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Hole-Digging Shovel",
+		'fr-fr': "Pelle à Creuser des Trous",
+		'es-es': "Pala Cavahoyos",
+		'es-mx': "Pala Cavahoyos",
+		'de-de': "Buddelschaufel",
+		'it-it': "Pala Scavabuche",
+		'pt-br': "Pá de Cavar"
+	},
+
+	illustrator: "Toyste Beach",
+	rarity: "Common",
+	category: "Trainer",
+
+	effect: {
+		'en-us': "Discard the top 2 cards of your deck.",
+		'fr-fr': "Défaussez les 2 cartes du dessus de votre deck.",
+		'es-es': "Descarta las 2 primeras cartas de tu baraja.",
+		'es-mx': "Descarta las primeras 2 cartas de tu mazo.",
+		'de-de': "Lege die obersten 2 Karten deines Decks auf deinen Ablagestapel.",
+		'it-it': "Scarta le prime due carte del tuo mazzo.",
+		'pt-br': "Descarte as 2 cartas de cima do seu baralho."
+	},
+
+	trainerType: "Item",
+	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 684330,
+				cardmarket: 877490
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 684330,
+				cardmarket: 877490
+			}
+		}
+	],
+
+}
+
+export default card

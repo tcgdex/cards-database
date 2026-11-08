@@ -1,0 +1,63 @@
+import { Card } from "models/database/card"
+import Set from "../SV3"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "ポッポ",
+		'zh-tw': "波波",
+		'th-th': "ป็อปโปะ"
+	},
+
+	illustrator: "Jerky",
+	category: "Pokemon",
+	dexId: [16],
+	hp: 60,
+	types: ["Colorless"],
+
+	description: {
+		'ja-jp': "戦いを 好まない おとなしい 性格だが 下手に 手を 出すと 強烈に 反撃されるぞ。",
+		'zh-tw': "雖然性情溫和不愛戰鬥，但要是隨意對牠出手的話， 就會受到牠強烈的反擊。",
+		'th-th': "มีนิสัยสงบเสงี่ยม ไม่ชอบต่อสู้ แต่ถ้าเผลอไปหาเรื่องมันเข้าล่ะก็ จะถูกโต้กลับอย่างรุนแรงเอานะ"
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'ja-jp': "かぜおこし",
+			'zh-tw': "起風",
+			'th-th': "เรียกลม"
+		},
+
+		damage: 20
+	}],
+
+	weaknesses: [{
+		type: "Lightning",
+		value: "×2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "-30"
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 724974,
+				tcgplayer: 567072,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "G",
+}
+
+export default card

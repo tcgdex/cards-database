@@ -1,0 +1,52 @@
+import { Card } from "models/database/card"
+import Set from "../Surging Sparks"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Meddling Memo",
+		'fr-fr': "Note d'Ingérence",
+		'es-es': "Nota de Intromisión",
+		'it-it': "Nota di Intromissione",
+		'pt-br': "Memorando Intrometido",
+		'de-de': "Einmischende Notiz"
+	},
+
+	rarity: "Uncommon",
+	category: "Trainer",
+
+	effect: {
+		'en-us': "Your opponent counts the cards in their hand, shuffles those cards, and puts them on the bottom of their deck. If they do, they draw that many cards.",
+		'fr-fr': "Votre adversaire compte les cartes dans sa main, les mélange, puis les place en dessous de son deck. Dans ce cas, il pioche ce même nombre de cartes.",
+		'es-es': "Tu rival cuenta las cartas de su mano, baraja esas cartas y las pone en la parte inferior de su baraja. Si lo hace, tu rival roba esa misma cantidad de cartas.",
+		'it-it': "Il tuo avversario conta le carte che ha in mano, rimischia quelle carte e le mette in fondo al suo mazzo. Se lo fa, il tuo avversario pesca lo stesso numero di carte.",
+		'pt-br': "Seu oponente conta as cartas na mão dele, embaralha aquelas cartas e as coloca como as cartas de baixo do baralho dele. Se ele fizer isto, ele comprará aquele mesmo número de cartas.",
+		'de-de': "Dein Gegner zählt die Karten auf seiner Hand, mischt jene Karten und legt sie unter sein Deck. Wenn er das macht, zieht er genauso viele Karten."
+	},
+
+	trainerType: "Item",
+	regulationMark: "H",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794554,
+				tcgplayer: 589999
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794554,
+				tcgplayer: 589999
+			}
+		},
+	],
+
+	illustrator: "Ayaka Yoshida",
+
+}
+
+export default card

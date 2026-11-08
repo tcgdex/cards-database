@@ -1,0 +1,80 @@
+import { Card } from 'models/database/card'
+import Set from '../Gym Heroes'
+
+const card: Card = {
+	name: {
+		'en-us': "Brock's Onix"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [95],
+
+	hp: 100,
+
+	types: [
+		"Fighting"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Bellow"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			},
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Rock Throw"
+			},
+
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "x2"
+		},
+	],
+	retreat: 3,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83975,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83975,
+				cardmarket: 274151
+			}
+		}
+	],
+}
+
+export default card
+

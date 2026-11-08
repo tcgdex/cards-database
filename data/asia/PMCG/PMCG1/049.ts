@@ -1,0 +1,61 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG1"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "フーディン",
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [65],
+	hp: 80,
+	types: ["Psychic"],
+	stage: "Stage2",
+
+	abilities: [
+		{
+			type: "Pokemon Power",
+			name: {
+				'ja-jp': "ダメージスワップ",
+			},
+			effect: {
+				'ja-jp': "ターン<em>（攻撃の前）</em>中に好きなように、ポクモンをノックアウトしない限り、1ダメージカウンター1から別のダメージカウンターを移動できます。アラカザムが特別な状態の影響を受けている場合、この力は使用できません。",
+			},
+		}],
+
+	attacks: [
+		{
+			cost: ["Psychic", "Psychic", "Psychic"],
+			name: {
+				'ja-jp': "レイを混乱させます",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+			},
+			damage: 30,
+		},
+	],
+
+	retreat: 3,
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 575601
+			},
+		},
+		{
+			type: "holo",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577028
+			}
+		}
+	],
+};
+
+export default card

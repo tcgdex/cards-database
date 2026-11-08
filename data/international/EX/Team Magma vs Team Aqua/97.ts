@@ -1,0 +1,85 @@
+import { Card } from 'models/database/card'
+import Set from '../Team Magma vs Team Aqua'
+
+const card: Card = {
+	name: {
+		'en-us': "Jirachi",
+		'fr-fr': "Jirachi",
+		'de-de': "Jirachi"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [385],
+
+	hp: 50,
+
+	types: [
+		"Psychic"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+			],
+			name: {
+				'en-us': "Hypnoblast",
+				'fr-fr': "Hypnosion",
+				'de-de': "Hypnoblast"
+			},
+			effect: {
+				'en-us': "The Defending Pokémon is now Asleep.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "The Defending Pokémon is now Asleep."
+			},
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Swift",
+				'fr-fr': "Météores",
+				'de-de': "Swift"
+			},
+			effect: {
+				'en-us': "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies or any other effects on the Defending Pokémon.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse, la Résistance, les Poké-Powers, les Poké-Bodies ou tout autre effet sur le Pokémon Défenseur.",
+				'de-de': "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies or any other effects on the Defending Pokémon."
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86324,
+				cardmarket: 276074
+			}
+		}
+	]
+}
+
+export default card

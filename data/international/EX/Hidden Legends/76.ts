@@ -1,0 +1,74 @@
+import { Card } from 'models/database/card'
+import Set from '../Hidden Legends'
+
+const card: Card = {
+	name: {
+		'en-us': "Surskit",
+		'fr-fr': "Arakdo",
+		'de-de': "Gehweiher"
+	},
+
+	illustrator: "Toshinao Aoki",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [283],
+
+	hp: 50,
+
+	types: [
+		"Grass"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Splash About",
+				'fr-fr': "Grosse trempette",
+				'de-de': "Splash About"
+			},
+			effect: {
+				'en-us': "If Surskit has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus 10 more damage.",
+				'fr-fr': "Si Arakdo possède moins d'Énergies que le Pokémon Défenseur, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "If Surskit has less Energy attached to it than the Defedning Pokémon, this attack does 10 damage plus 10 more damage."
+			},
+			damage: "10+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89646,
+				cardmarket: 276150
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 89646,
+				cardmarket: 276150
+			}
+		},
+	]
+}
+
+export default card

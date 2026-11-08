@@ -1,0 +1,106 @@
+import { Card } from 'models/database/card'
+import Set from '../Neo Genesis'
+
+const card: Card = {
+	name: {
+		'en-us': "Typhlosion",
+		'fr-fr': "Typhlosion",
+		'de-de': "Tornupto"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		157,
+	],
+
+	hp: 100,
+
+	types: [
+		"Fire",
+	],
+
+	evolveFrom: {
+		'en-us': "Quilava",
+		'fr-fr': "Feurisson"
+	},
+
+	stage: "Stage2",
+
+	abilities: [
+		{
+			type: "Pokemon Power",
+			name: {
+				'en-us': "Fire Boost",
+				'fr-fr': "Attise feu",
+				'de-de': "Fire Boost"
+			},
+			effect: {
+				'en-us': "When you play Typhlosion from your hand, you may flip a coin. If heads, search your deck for up to 4 Fire Energy cards and attach them to Typhlosion. Shuffle your deck afterward.",
+				'fr-fr': "Lorsque vous jouez Typhlosion depuis votre main, vous pouvez lancer une pièce. Si c'est face, cherchez jusqu'à 4 cartes Énergie  et attachez-les à Typhlosion. Mélangez ensuite votre deck.",
+				'de-de': "When you play Typhlosion from your hand, you may flip a coin. If heads, search your deck for up to 4 @fire Energy cards and attach them to Typhlosion. Shuffle your deck afterward."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Fire",
+				"Fire",
+				"Fire",
+				"Fire",
+			],
+			name: {
+				'en-us': "Flame Wheel",
+				'fr-fr': "Roue de flammes",
+				'de-de': "Flame Wheel"
+			},
+			effect: {
+				'en-us': "Discard 3 Energy cards attached to Typhlosion in order to use this attack. Do 20 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Défaussez 3 cartes Énergie  attachées à Typhlosion afin de pouvoir utiliser cette attaque. Inflige 20 dégâts à chaque Pokémon du Banc (le vôtre et celui de votre adversaire). (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.)",
+				'de-de': "Discard 3  Energy cards attached to Typhlosion in order to use this attack. Do 20 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			},
+			damage: 80,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		'en-us': "It has a secret, devastating move. It rubs its blazing fur together to cause huge explosions.",
+		'fr-fr': "Il possède une botte secrète dévastatrice. Il frotte sa fourrure de flamme pour provoquer de gigantesques explosions."
+	},
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274417,
+				tcgplayer: 90099
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274417,
+				tcgplayer: 90099
+			}
+		}
+	]
+}
+
+export default card

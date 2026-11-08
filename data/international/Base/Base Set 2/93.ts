@@ -1,0 +1,80 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set 2'
+
+const card: Card = {
+	name: {
+		'en-us': "Squirtle",
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		7,
+	],
+
+	hp: 40,
+
+	types: [
+		"Water",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+			],
+			name: {
+				'en-us': "Bubble",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+			},
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Water",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Withdraw",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, prevent all damage done to Squirtle during your opponent's next turn. (Any other effects of attacks still happen.)",
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "After birth, its back swells and hardens into a shell. It powerfully sprays foam from its mouth.",
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274016,
+				tcgplayer: 42544
+			}
+		}
+	]
+}
+
+export default card

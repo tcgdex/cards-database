@@ -1,0 +1,77 @@
+import { Card } from 'models/database/card'
+import Set from '../Gym Heroes'
+
+const card: Card = {
+	name: {
+		'en-us': "Lt. Surge's Raticate"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [20],
+
+	hp: 70,
+
+	types: [
+		"Colorless"
+	],
+
+	evolveFrom: {
+		'en-us': "Rattata"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Super Fang"
+			},
+			effect: {
+				'en-us': "Does damage to the Defending Pokémon equal to half the Defending Pokémon's remaining HP (rounded up to the nearest 10)."
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "x2"
+		},
+	],
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-30"
+		},
+	],
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86863,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86863,
+				cardmarket: 274187
+			}
+		}
+	],
+}
+
+export default card
+

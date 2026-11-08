@@ -1,0 +1,47 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG1"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ミニリュウ",
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	dexId: [147],
+	hp: 40,
+	types: ["Colorless"],
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				'ja-jp': "ポンド",
+			},
+			damage: 10,
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575637
+			}
+		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577064
+			},
+		}
+	],
+};
+
+export default card

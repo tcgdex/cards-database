@@ -1,0 +1,30 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set 2'
+
+const card: Card = {
+	name: {
+		'en-us': "Item Finder",
+	},
+
+	illustrator: "Keiji Kinebuchi",
+	rarity: "Rare",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'en-us': "Discard 2 of the other cards from your hand in order to put a Trainer card from your discard pile into your hand.",
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274026,
+				tcgplayer: 42553
+			}
+		}
+	]
+}
+
+export default card

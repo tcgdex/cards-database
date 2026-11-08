@@ -1,0 +1,53 @@
+import { Card } from "models/database/card"
+import Set from "../Extradimensional Crisis"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Guzzlord ex",
+		'fr-fr': "Engloutyran-ex"
+	},
+
+	illustrator: "Nurikabe",
+	rarity: "Two Star",
+	category: "Pokemon",
+
+	dexId: [799],
+	hp: 170,
+	types: ["Darkness"],
+	stage: "Basic",
+	suffix: "EX",
+
+	attacks: [{
+		name: {
+			'en-us': "Grindcore",
+			'fr-fr': "Grindcore"
+		},
+
+		damage: 30,
+		cost: ["Colorless", "Colorless"],
+
+		effect: {
+			'en-us': "Flip a coin until you get tails. For each heads, discard a random Energy from your opponent's Active Pokémon.",
+			'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez pile. Pour chaque côté face, défaussez au hasard une Énergie du Pokémon Actif de votre adversaire."
+		}
+	}, {
+		name: {
+			'en-us': "Tyrannical Hole",
+			'fr-fr': "Trou Tyrannique"
+		},
+
+		damage: 120,
+		cost: ["Darkness", "Darkness", "Darkness", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Grass",
+		value: "+20"
+	}],
+
+	retreat: 4
+}
+
+export default card

@@ -1,0 +1,96 @@
+import { Card } from 'models/database/card'
+import Set from '../Arceus'
+
+const card: Card = {
+	name: {
+		'en-us': "Wormadam Plant Cloak",
+		'de-de': "Burmadame Pflanzenumhang"
+	},
+
+	illustrator: "Kouki Saitou",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [413],
+	
+	hp: 80,
+
+	types: [
+		"Grass"
+	],
+
+	evolveFrom: {
+		'en-us': "Burmy Plant Cloak"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+			],
+			name: {
+				'en-us': "Magical Needle",
+				'de-de': "Zaubernadel"
+			},
+			effect: {
+				'en-us': "Remove 2 damage counters from 1 of your Benched Pokémon.",
+				'de-de': "Entferne 2 Schadensmarken von 1 Pokémon auf deiner Bank."
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Cloak Scale",
+				'de-de': "Umhang-Schuppe"
+			},
+			effect: {
+				'en-us': "If you have Wormadam Sandy Cloak in play, the Defending Pokémon is now Burned, Confused, and Poisoned.",
+				'de-de': "Wenn du Burmadame Sandumhang im Spiel hast, ist das Verteidigende Pokémon jetzt verbrannt, verwirrt und vergiftet."
+			},
+			damage: 50,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "+20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "When evolving, its body takes in surrounding materials. As a result, there are many body variations."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90641,
+				cardmarket: 278921
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278921,
+				tcgplayer: 90641
+			}
+		},
+	],
+
+}
+
+export default card

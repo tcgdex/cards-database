@@ -1,0 +1,105 @@
+import { Card } from 'models/database/card'
+import Set from '../Neo Destiny'
+
+const card: Card = {
+	name: {
+		'en-us': "Light Dragonite",
+		'fr-fr': "Dracolosse lumineux",
+		'de-de': "Helles Dragoran"
+	},
+
+	illustrator: "Atsuko Nishida",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		149,
+	],
+
+	hp: 100,
+
+	types: [
+		"Colorless",
+	],
+
+	evolveFrom: {
+		'en-us': "Dragonair",
+		'fr-fr': "Draco lumineux"
+	},
+
+	stage: "Stage2",
+
+	abilities: [
+		{
+			type: "Pokemon Power",
+			name: {
+				'en-us': "Miraculous Wind",
+				'fr-fr': "Vent miraculeux",
+				'de-de': "Miraculous Wind"
+			},
+			effect: {
+				'en-us': "As long as Light Dragonite is your Active Pokémon, each Special Energy card provides Colorless Energy instead of its usual type and its other effects stop working. This power stops working while Light Dragonite is Asleep, Confused, or Paralyzed.",
+				'fr-fr': "Tant que Dracolosse lumineux est votre Pokémon Actif, toutes les cartes Énergie spéciale fournissent de l'Énergie  au lieu de leur type d'Énergie habituel et leurs autres effets cessent de fonctionner. Ce pouvoir cesse de fonctionner si Dracolosse lumineux est Endormi, Confus ou Paralysé.",
+				'de-de': "As long as Light Dragonite is your Active Pokémon, each Special Energy card provides  Energy instead of its usual type and its other effects stop working. This power stops working while Light Dragonite is Asleep, Confused, or Paralyzed."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Light Wave",
+				'fr-fr': "Vague lumineuse",
+				'de-de': "Light Wave"
+			},
+			effect: {
+				'en-us': "During your opponent's next turn, prevent all effects of attacks that are not damage done to this Pokémon.",
+				'fr-fr': "Prévenez tous les effets d'attaques, excepté les dégâts, infligés lors d'attaques contre Dracolosse lumineux pendant le prochain tour de votre adversaire.",
+				'de-de': "Prevent all effects of attacks, other than damge, done to Light Dragonite during your opponent's next turn."
+			},
+			damage: 40,
+
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30"
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		'en-us': "It is said to fly constantly over the sea, looking for people in need of aid.",
+		'fr-fr': "On raconte qu'il vole constamment au-dessus des mers, à la recherche de personnes ayant besoin d'aide."
+	},
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274666,
+				tcgplayer: 86738
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274666,
+				tcgplayer: 86738
+			}
+		}
+	]
+}
+
+export default card

@@ -1,0 +1,84 @@
+import { Card } from "models/database/card"
+import Set from "../151"
+
+const card: Card = {
+	dexId: [56],
+	set: Set,
+
+	name: {
+		'fr-fr': "Férosinge",
+		'en-us': "Mankey",
+		'es-es': "Mankey",
+		'it-it': "Mankey",
+		'pt-br': "Mankey",
+		'de-de': "Menki"
+	},
+
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Fighting"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Fighting"],
+
+		name: {
+			'fr-fr': "Mania",
+			'en-us': "Thrash",
+			'es-es': "Saña",
+			'it-it': "Colpo",
+			'pt-br': "Castigar",
+			'de-de': "Fuchtler"
+		},
+
+		effect: {
+			'fr-fr': "Lancez une pièce. Si c'est pile, ce Pokémon s'inflige aussi 20 dégâts. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+			'en-us': "Flip a coin. If tails, this Pokémon also does 20 damage to itself. If heads, this attack does 20 more damage.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, este Pokémon también se hace 20 puntos de daño a sí mismo. Si sale cara, este ataque hace 20 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce croce, questo Pokémon infligge anche 20 danni a se stesso. Se esce testa, questo attacco infligge 20 danni in più.",
+			'pt-br': "Jogue uma moeda. Se sair coroa, este Pokémon também causará 20 pontos de dano a si mesmo. Se sair cara, este ataque causará 20 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Zahl fügt dieses Pokémon auch sich selbst 20 Schadenspunkte zu. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
+		},
+
+		damage: "20+"
+	}],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+	regulationMark: "G",
+
+	description: {
+		'en-us': "It lives in groups in the treetops. If it loses sight of its group, it becomes infuriated by its loneliness.",
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 733651,
+				tcgplayer: 516242,
+				cardtrader: 261132
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 733651,
+				tcgplayer: 516242,
+				cardtrader: 261132
+			}
+		},
+	],
+
+	illustrator: "Mina Nakai",
+
+	
+}
+
+export default card

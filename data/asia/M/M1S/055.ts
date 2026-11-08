@@ -1,0 +1,50 @@
+import { Card } from "models/database/card"
+import Set from "../M1S"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ヌイコグマ"
+	},
+	illustrator: "Shibuzoh.",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Colorless"],
+	description: {
+		'ja-jp': "前脚をじたばた振って身を守る様が可愛らしいが大木をへし折る威力だ。"
+	},
+	stage: "Basic",
+	attacks: [{
+		name: {
+			'ja-jp': "なぐる"
+		},
+		damage: 10,
+		cost: ["Colorless"]
+	}, {
+		name: {
+			'ja-jp': "はねまわる"
+		},
+		damage: 20,
+		cost: ["Colorless", "Colorless"]
+	}],
+	weaknesses: [{
+		type: "Fighting",
+		value: "×2"
+	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840614,
+				tcgplayer: 647291,
+			},
+		},
+	],
+
+	retreat: 2,
+	regulationMark: "I",
+	rarity: "Common",
+	dexId: [759]
+}
+
+export default card

@@ -1,0 +1,85 @@
+import { Card } from 'models/database/card'
+import Set from '../Plasma Freeze'
+
+const card: Card = {
+	name: {
+		'en-us': "Onix",
+		'fr-fr': "Onix",
+		'es-es': "Onix",
+		'it-it': "Onix",
+		'pt-br': "Onix",
+		'de-de': "Onix"
+	},
+
+	illustrator: "Toyste Beach",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		95,
+	],
+
+	hp: 100,
+
+	types: [
+		"Fighting",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+			},
+
+			damage: 30,
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Swing Around",
+				'fr-fr': "Balançoire",
+			},
+			effect: {
+				'en-us': "Flip 2 coins. This attack does 60 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 60 dégâts multipliés par le nombre de côtés face.",
+			},
+			damage: 60,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+	retreat: 3,
+
+	description: {
+		'en-us': "Opening its large mouth, it ingests massive amounts of soil and creates long tunnels.",
+	},
+
+	thirdParty: {
+		cardmarket: 280939,
+		tcgplayer: 87886
+	}
+}
+
+export default card

@@ -1,0 +1,112 @@
+import { Card } from 'models/database/card'
+import Set from '../Neo Revelation'
+
+const card: Card = {
+	name: {
+		'en-us': "Magneton",
+		'fr-fr': "Magneton",
+		'de-de': "Magneton"
+	},
+
+	illustrator: undefined,
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		82,
+	],
+
+	hp: 80,
+
+	types: [
+		"Metal",
+	],
+
+	evolveFrom: {
+		'en-us': "Magnemite",
+		'fr-fr': "Magnéti"
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Pokemon Power",
+			name: {
+				'en-us': "Electromagnetic Power",
+				'fr-fr': "Pouvoir électromagnétique",
+				'de-de': "Electromagnetic Power"
+			},
+			effect: {
+				'en-us': "As often as you like during your turn (before your attack), you may take 1 Energy card attached to 1 of your Magnemites, Magnetons, or Dark Magnetons and attach it to a different 1 of your Magnemites, Magnetons, or Dark Magnetons. This power can't be used if Magneton is Asleep, Confused, or Paralyzed.",
+				'fr-fr': "Aussi souvent que vous le souhaitez pendant votre tour (avant votre attaque), vous pouvez prendre 1 carte Énergie attachée à l'un de vos Magneti, Magneton ou Magneton Obscur et l'attacher à 1 Magneti, Magneton ou Magneton Obscur différent. Ce pouvoir ne peut être utilisé si Magneton est Endormi, Confus ou Paralysé.",
+				'de-de': "As often as you like during your turn (before your attack), you may take 1 Energy card attached to 1 of your Magnemites, Magnetons, or Dark Magnetons and attach it to a different 1 of your Magnemites, Magnetons, or Dark Magnetons. This Power can't be used if Magneton is Asleep, Confused, or Paralyzed."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Lightning",
+				"Lightning",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Plasma",
+				'fr-fr': "Plasma",
+				'de-de': "Plasma"
+			},
+			effect: {
+				'en-us': "If there are any Energy cards in your discard pile, attach 1 of them to Magneton.",
+				'fr-fr': "S'il y a des cartes Énergie  dans votre pile de défausse, attachez-en une à Magneton.",
+				'de-de': "If there are any  Energy cards in your discard pile, attach 1 of them to Magneton."
+			},
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30"
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		'en-us': "Three Magnemites are linked by a strong magnetic force. Earaches will occur if you get too close.",
+		'fr-fr': "Trois Magneti sont reliés par une puissante force magnétique. Vous risquez d'avoir mal aux oreilles si vous approchez de trop près."
+	},
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 274596,
+				tcgplayer: 87092
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274596,
+				tcgplayer: 87092
+			}
+		}
+	]
+}
+
+export default card

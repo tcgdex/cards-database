@@ -1,0 +1,43 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG4"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ミニリュウ",
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [147],
+	hp: 40,
+	types: ["Colorless"],
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				'ja-jp': "包む",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは麻痺しています。",
+			},
+			damage: 10,
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575718
+			},
+		},
+	],
+};
+
+export default card

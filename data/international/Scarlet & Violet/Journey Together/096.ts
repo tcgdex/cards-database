@@ -1,0 +1,78 @@
+import { Card } from "models/database/card"
+import Set from "../Journey Together"
+
+const card: Card = {
+	dexId: [509],
+	set: Set,
+
+	name: {
+		'en-us': "N's Purrloin",
+		'fr-fr': "Chacripan de N",
+		'es-es': "Purrloin de N",
+		'de-de': "Ns Felilou",
+		'it-it': "Purrloin di N",
+		'pt-br': "Purrloin do N",
+		'es-mx': "Purrloin de N"
+	},
+
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Darkness"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Darkness", "Colorless"],
+
+		name: {
+			'en-us': "Thieving Swipe",
+			'fr-fr': "Chat-Pardeur",
+			'es-es': "Zarpazo Ladrón",
+			'de-de': "Stibitzen",
+			'it-it': "Sgraffignacolpo",
+			'pt-br': "Gatunar",
+			'es-mx': "Zarpazo Ladrón"
+		},
+
+		effect: {
+			'en-us': "Your opponent reveals their hand, and you choose a card you find there and put it on the bottom of their deck.",
+			'fr-fr': "Votre adversaire montre sa main. Choisissez-y une carte, puis placez-la en dessous de son deck.",
+			'es-es': "Tu rival enseña las cartas de su mano. Elige 1 carta que encuentres entre ellas y ponla en la parte inferior de su baraja.",
+			'de-de': "Dein Gegner zeigt dir seine Handkarten und du wählst 1 Karte, die du dort findest, und legst sie unter sein Deck.",
+			'it-it': "Il tuo avversario mostra le carte che ha in mano, e tu ne scegli una e la metti in fondo al suo mazzo.",
+			'pt-br': "Seu oponente revela a mão dele, e você escolhe uma carta que encontrar lá e a coloca como a carta de baixo do baralho dele.",
+			'es-mx': "Tu rival muestra las cartas de su mano. Elige 1 carta que encuentres entre ellas y ponla en la parte inferior de su mazo."
+		},
+
+		damage: 30
+	}],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+	regulationMark: "I",
+	illustrator: "Keisin",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 817248,
+				tcgplayer: 623523
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 817248,
+				tcgplayer: 623523
+			}
+		},
+	],
+}
+
+export default card

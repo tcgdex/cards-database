@@ -1,0 +1,68 @@
+import { Card } from 'models/database/card'
+import Set from '../Deoxys'
+
+const card: Card = {
+	name: {
+		'en-us': "Heal Energy",
+		'fr-fr': "Énergie guérisseuse",
+		'de-de': "Heilungs-Energie"
+	},
+
+	illustrator: "Takumi Akabane",
+	rarity: "Uncommon",
+	category: "Energy",
+	set: Set,
+	energyType: "Special",
+
+	effect: {
+		'en-us': "Heal Energy provides Colorless Energy. When you attach this card from your hand to 1 of your Pokémon, remove 1 damage counter and all Special Conditions from that Pokémon. If Heal Energy is attached to Pokémon-ex, Heal Energy has no effect other than providing Energy.",
+		'de-de': "Heal Energy provides  Energy. When you attach this card from your hand to 1 of your Pokémon, remove 1 damage counter and all Special Conditions from that Pokémon. If heals Energy is attached to Pokémon-ex, Heal Energy has no effect other than providing Energy.",
+		'fr-fr': "Énergie guérisseuse fournit une Énergie Incolore. Lorsque vous l'attachez de votre main à 1 de vos Pokémon, retirez à ce Pokémon 1 marqueur de dégât et tous ses États Spéciaux. Si Énergie guérisseuse est attachée à un Pokémon-ex, elle n'a pas d'autre effet que de fournir de l'Énergie.",
+	},
+
+
+	variants: [
+		{
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 86037,
+				cardmarket: 276497
+			},
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86037,
+				cardmarket: 276497
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["takashi-yoneda"],
+			thirdParty: {
+				tcgplayer: 477529,
+				cardmarket: 871585
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["michael-gonzalez"],
+			thirdParty: {
+				tcgplayer: 477530,
+				cardmarket: 871584
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["jeremy-maron"],
+			thirdParty: {
+				tcgplayer: 477532,
+				cardmarket: 871583
+			},
+		},
+	],
+
+}
+
+export default card

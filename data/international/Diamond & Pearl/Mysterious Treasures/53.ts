@@ -1,0 +1,103 @@
+import { Card } from 'models/database/card'
+import Set from '../Mysterious Treasures'
+
+const card: Card = {
+	name: {
+		'en-us': "Lairon",
+		'fr-fr': "Galegon",
+		'de-de': "Stollrak"
+	},
+
+	illustrator: "Midori Harada",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		305,
+	],
+
+	hp: 80,
+
+	types: [
+		"Metal",
+	],
+
+	evolveFrom: {
+		'en-us': "Aron",
+		'fr-fr': "Galekid"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Metal",
+			],
+			name: {
+				'en-us': "Mend",
+				'fr-fr': "Réparation",
+				'de-de': "Reparieren"
+			},
+			effect: {
+				'en-us': "Search your discard pile for a Metal Energy card and attach it to Lairon. If you do, remove 2 damage counters from Lairon.",
+				'fr-fr': "Choisissez dans votre pile de défausse une carte Énergie Metal et attachez-la à Galegon. Retirez-lui alors 2 marqueurs de dégât.",
+				'de-de': "Durchsuche deinen Ablagestapel nach 1 -Energiekarte und lege sie an Stollrak an. Wenn du das machst, entferne 2 Schadensmarken von Stollrak."
+			},
+
+		},
+		{
+			cost: [
+				"Metal",
+				"Metal",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Confront",
+				'fr-fr': "Confrontation",
+				'de-de': "Konfrontieren"
+			},
+
+			damage: 50,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "+20"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-20"
+		},
+	],
+	retreat: 3,
+
+
+	description: {
+		'en-us': "For food, it digs up iron ore. It smashes its steely body against others to fight over territory.",
+		'fr-fr': "Il se nourrit du minéral de fer qu'il fore. Il défend son territoire en chargeant avec son corps d'acier."
+	},
+
+	thirdParty: {
+		cardmarket: 277682,
+		tcgplayer: 86580
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
+}
+
+export default card

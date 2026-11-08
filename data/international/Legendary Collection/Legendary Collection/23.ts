@@ -1,0 +1,88 @@
+import { Card } from 'models/database/card'
+import Set from '../Legendary Collection'
+
+const card: Card = {
+	name: {
+		'en-us': "Exeggutor"
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [103],
+
+	hp: 80,
+
+	types: [
+		"Grass"
+	],
+
+	evolveFrom: {
+		'en-us': "Exeggcute"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+			],
+			name: {
+				'en-us': "Teleport"
+			},
+			effect: {
+				'en-us': "Switch Exeggutor with 1 of your Benched Pokémon."
+			},
+
+		},
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Big Eggsplosion"
+			},
+			effect: {
+				'en-us': "Flip a number of coins equal to the number of Energy attached to Exeggutor. This attack does 20 damage times the number of heads."
+			},
+			damage: "20×",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+	retreat: 3,
+
+
+	description: {
+		'en-us': "Legend has it that on rare occasions, one of its heads will drop off and continue on as an Exeggcute."
+	},
+
+	variants: [
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274788,
+				tcgplayer: 85357
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85357,
+				cardmarket: 274788
+			}
+		}
+	],
+
+}
+
+export default card

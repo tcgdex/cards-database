@@ -1,0 +1,70 @@
+import { Card } from 'models/database/card'
+import Set from '../Lost Thunder'
+
+const card: Card = {
+	name: {
+		'en-us': "Cyndaquil",
+		'fr-fr': "Héricendre",
+		'es-es': "Cyndaquil",
+		'it-it': "Cyndaquil",
+		'pt-br': "Cyndaquil",
+		'de-de': "Feurigel"
+	},
+
+	illustrator: "kirisAki",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		155,
+	],
+
+	hp: 70,
+
+	types: [
+		"Fire",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncement",
+				'es-es': "Martillear",
+				'it-it': "Martello",
+				'pt-br': "Martelada",
+				'de-de': "Einhämmern"
+			},
+
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "It has a timid nature. If it is startled, the flames on its back burn more vigorously.",
+	},
+
+	thirdParty: {
+		cardmarket: 365679,
+		tcgplayer: 178843
+	}
+}
+
+export default card

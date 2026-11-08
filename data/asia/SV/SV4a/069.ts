@@ -1,0 +1,90 @@
+import { Card } from "models/database/card"
+import Set from "../SV4a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "カイデン",
+		'zh-tw': "電海燕",
+		'th-th': "ไคเด็น",
+		'id-id': "Wattrel"
+	},
+
+	illustrator: "Shibuzoh.",
+	category: "Pokemon",
+	dexId: [940],
+	hp: 60,
+	types: ["Lightning"],
+
+	description: {
+		'ja-jp': "翼の 骨は 風を 受けると 電気を 作る。 海に 飛び込み 獲物を 感電させて 捕らえる。",
+		'zh-tw': "當翅膀的骨頭受到風吹時，就能製造出電力。會衝進 海裡讓獵物觸電後將其捕獲。",
+		'th-th': "กระดูกที่ปีกจะผลิตกระแสไฟฟ้าเมื่อได้รับลม จะดำดิ่งลงสู่ทะเลเพื่อจับเหยื่อด้วยการช็อตด้วยไฟฟ้า",
+		'id-id': "Kerangka sayap Wattrel menciptakan listrik jika menerima angin. Pokémon ini terjun ke laut, menyetrum mangsa, dan menangkapnya."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'ja-jp': "つつく",
+			'zh-tw': "啄",
+			'th-th': "จิก",
+			'id-id': "Mematuk"
+		},
+
+		damage: 10
+	}, {
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "だんけつのつばさ",
+			'zh-tw': "團結之翼",
+			'th-th': "ปีกสามัคคี",
+			'id-id': "Sayap Bersatu Padu"
+		},
+
+		damage: "20×",
+
+		effect: {
+			'ja-jp': "自分のトラッシュにある、ワザ「だんけつのつばさ」を持つポケモンの枚数×20ダメージ。",
+			'zh-tw': "造成自己的棄牌區的，持有「團結之翼」招式的寶可夢卡的張數×20點傷害。",
+			'th-th': "แดเมจจะเท่ากับจำนวนการ์ดโปเกมอนที่มีท่าต่อสู้ [ปีกสามัคคี] ที่อยู่บนตำแหน่งทิ้งการ์ดฝ่ายเรา x20",
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap lembar Pokémon yang memiliki serangan Sayap Bersatu Padu yang ada di Trash sendiri."
+		}
+	}],
+
+	weaknesses: [{
+		type: "Lightning",
+		value: "×2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "-30"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 746451,
+				tcgplayer: 567456,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577333,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "G"
+}
+
+export default card

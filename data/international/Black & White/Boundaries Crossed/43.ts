@@ -1,0 +1,98 @@
+import { Card } from 'models/database/card'
+import Set from '../Boundaries Crossed'
+
+const card: Card = {
+	name: {
+		'en-us': "Swanna",
+		'fr-fr': "Lakmécygne",
+		'es-es': "Swanna",
+		'it-it': "Swanna",
+		'pt-br': "Swanna",
+		'de-de': "Swaroness"
+	},
+
+	illustrator: "Suwama Chiaki",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		581,
+	],
+
+	hp: 90,
+
+	types: [
+		"Water",
+	],
+
+	evolveFrom: {
+		'en-us': "Ducklett",
+		'fr-fr': "Couaneton",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Aerial Ace",
+				'fr-fr': "Aéropique",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Defog",
+				'fr-fr': "Anti-Brume",
+			},
+			effect: {
+				'en-us': "You may discard any Stadium card in play. If you do, this attack does 40 more damage.",
+				'fr-fr': "Vous pouvez défausser une carte Stade en jeu. Dans ce cas, cette attaque inflige 40 dégâts supplémentaires.",
+			},
+			damage: 60,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Despite their elegant appearance, they can flap their wings strongly and fly for thousands of miles.",
+	},
+
+	thirdParty: {
+		cardmarket: 280630,
+		tcgplayer: 89687
+	}
+}
+
+export default card

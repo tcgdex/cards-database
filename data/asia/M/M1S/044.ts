@@ -1,0 +1,51 @@
+import { Card } from "models/database/card"
+import Set from "../M1S"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "バネブー"
+	},
+	illustrator: "toi8",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Psychic"],
+	description: {
+		'ja-jp': "跳ねていないと死んでしまう。頭に乗せている真珠がサイコパワーを増幅させるのだ。"
+	},
+	stage: "Basic",
+	attacks: [{
+		name: {
+			'ja-jp': "トリプルスピン"
+		},
+		damage: "10×",
+		effect: {
+			'ja-jp': "コインを3回投げ、オモテの数×10ダメージ。"
+		},
+		cost: ["Psychic"]
+	}],
+	weaknesses: [{
+		type: "Darkness",
+		value: "×2"
+	}],
+	resistances: [{
+		type: "Fighting",
+		value: "-30"
+	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840603,
+				tcgplayer: 647284,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "I",
+	rarity: "Common",
+	dexId: [325]
+}
+
+export default card

@@ -1,0 +1,78 @@
+import { Card } from 'models/database/card'
+import Set from '../Legendary Treasures'
+
+const card: Card = {
+	name: {
+		'en-us': "Lucario",
+	},
+
+	illustrator: "MAHOU",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		448,
+	],
+
+	hp: 100,
+
+	types: [
+		"Fighting",
+	],
+
+	evolveFrom: {
+		'en-us': "Riolu",
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'en-us': "Reflexive Retaliation",
+			},
+			effect: {
+				'en-us': "If this Pokémon is your Active Pokémon and is damaged by an opponent’s attack (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon.",
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+			],
+			name: {
+				'en-us': "Aura Sphere",
+			},
+			effect: {
+				'en-us': "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			},
+			damage: 50,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "A well-trained one can sense auras to identify and take in the feelings of creatures over half a mile away.",
+	},
+
+	thirdParty: {
+		cardmarket: 281231,
+		tcgplayer: 86886
+	}
+}
+
+export default card

@@ -1,0 +1,105 @@
+import { Card } from 'models/database/card'
+import Set from '../POP Series 4'
+
+const card: Card = {
+	name: {
+		'en-us': "Flygon",
+		'fr-fr': "Libegon"
+	},
+
+	illustrator: "Hisao Nakamura",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [330],
+
+	hp: 120,
+
+	types: [
+		"Fighting"
+	],
+
+	evolveFrom: {
+		'en-us': "Vibrava",
+		'fr-fr': "Vibraninf"
+	},
+
+	stage: "Stage2",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Levitate",
+				'fr-fr': "Lévitation"
+			},
+			effect: {
+				'en-us': "As long as Flygon has any Energy attached to it, the Retreat Cost for Flygon is 0.",
+				'fr-fr': "Tant que Libegon possède de l'Énergie, son Coût de retraite est de 0."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Bite",
+				'fr-fr': "Morsure"
+			},
+
+			damage: 30,
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Sand Pit",
+				'fr-fr': "Bac à sable"
+			},
+			effect: {
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite lors du prochain tour de votre adversaire."
+			},
+			damage: 70,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85524,
+				cardmarket: 277468
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85524,
+				cardmarket: 277468
+			},
+		},
+	],
+
+}
+
+export default card

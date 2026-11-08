@@ -1,0 +1,34 @@
+import { Card } from "models/database/card"
+import Set from "../S12"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'zh-tw': "工人",
+		'ja-jp': "さぎょういん"
+	},
+
+	illustrator: "Yuu Nishida",
+	category: "Trainer",
+
+	effect: {
+		'zh-tw': "從自己的牌庫抽出3張卡。將場上的競技場卡丟棄。",
+		'ja-jp': "自分の山札を3枚引く。場に出ているスタジアムをトラッシュする。"
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 680845,
+				tcgplayer: 570169,
+			},
+		},
+	],
+
+	trainerType: "Supporter",
+	regulationMark: "F"
+}
+
+export default card

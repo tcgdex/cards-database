@@ -1,0 +1,90 @@
+import { Card } from 'models/database/card'
+import Set from '../Battle Styles'
+
+const card: Card = {
+	dexId: [417],
+	set: Set,
+
+	name: {
+		'en-us': "Pachirisu",
+		'fr-fr': "Pachirisu",
+		'es-es': "Pachirisu",
+		'it-it': "Pachirisu",
+		'pt-br': "Pachirisu",
+		'de-de': "Pachirisu"
+	},
+
+	illustrator: "Naoyo Kimura",
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Lightning"],
+
+	attacks: [{
+		name: {
+			'en-us': "Find a Friend",
+			'fr-fr': "Trouver un Ami",
+			'es-es': "Encontrar un Amigo",
+			'it-it': "Trovamico",
+			'pt-br': "Encontre um Amigo",
+			'de-de': "Freunde finden"
+		},
+
+		effect: {
+			'en-us': "Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+			'fr-fr': "Cherchez dans votre deck un Pokémon, montrez-le, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+			'es-es': "Busca en tu baraja 1 Pokémon, enséñalo y ponlo en tu mano. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo un Pokémon, mostralo e aggiungilo alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por 1 Pokémon no seu baralho, revele-o e coloque-o na sua mão. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach 1 Pokémon, zeige es deinem Gegner und nimm es auf deine Hand. Mische anschließend dein Deck."
+		},
+
+		cost: ["Colorless"]
+	}, {
+		name: {
+			'en-us': "Gnaw",
+			'fr-fr': "Ronge",
+			'es-es': "Roer",
+			'it-it': "Rosicchiamento",
+			'pt-br': "Roída",
+			'de-de': "Nagen"
+		},
+
+		damage: 30,
+		cost: ["Colorless", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "×2"
+	}],
+
+	retreat: 1,
+	regulationMark: "E",
+
+
+	stage: "Basic",
+
+	description: {
+		'en-us': "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 545356,
+				tcgplayer: 234203
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 545356,
+				tcgplayer: 234203
+			}
+		},
+	],
+}
+
+export default card

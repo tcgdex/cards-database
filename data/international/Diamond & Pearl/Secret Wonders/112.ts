@@ -1,0 +1,91 @@
+import { Card } from 'models/database/card'
+import Set from '../Secret Wonders'
+
+const card: Card = {
+	name: {
+		'en-us': "Squirtle",
+		'fr-fr': "Carapuce",
+		'de-de': "Schiggy"
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		7,
+	],
+
+	hp: 50,
+
+	types: [
+		"Water",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+
+			name: {
+				'en-us': "Bubble",
+				'fr-fr': "Écume",
+				'de-de': "Blubber"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+			},
+
+		},
+		{
+			cost: [
+				"Water",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Aqua Tail",
+				'fr-fr': "Hydroqueue",
+				'de-de': "Nassschweif"
+			},
+			effect: {
+				'en-us': "Flip a coin for each Water Energy attached to Squirtle. This attack does 20 damage plus 10 more damage for each heads.",
+				'fr-fr': "Lancez une pièce pour chaque Énergie Water attachée à Carapuce. Cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque face.",
+				'de-de': "Wirf 1 Münze für jede an Schiggy angelegte -Energie. Dieser Angriff fügt 20 Schadenspunkte plus 10 Schadenspunkte mal der Anzahl \"Kopf\" zu."
+			},
+			damage: "20+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "+10"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "It shelters itself in its shell, then strikes back with spouts of water at every opportunity.",
+	},
+
+	thirdParty: {
+		cardmarket: 277865,
+		tcgplayer: 89494
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
+}
+
+export default card

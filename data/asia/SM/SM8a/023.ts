@@ -1,0 +1,59 @@
+import { Card } from "models/database/card";
+import Set from "../SM8a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "アブソル",
+	},
+
+	illustrator: "nagimiso",
+	category: "Pokemon",
+	hp: 100,
+	types: ["Darkness"],
+
+	description: {
+		'ja-jp': "災いを もたらすと いわれるが 実際には おだやかな 性質。 災害の 危機を 人に 伝える。",
+	},
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: { ja: "あくのはき" },
+			effect: {
+				'ja-jp': "このポケモンがいるかぎり、相手のバトル場のたねポケモンのにげるためのエネルギーは、1個ぶん多くなる。",
+			},
+		},
+	],
+
+	attacks: [
+		{
+			name: { ja: "シャドーシーカー" },
+			damage: "30+",
+			cost: ["Darkness", "Colorless", "Colorless"],
+			effect: {
+				'ja-jp': "相手のバトルポケモンのにげるためのエネルギーの数x30ダメージ追加。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [{ type: "Psychic", value: "-20" }],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 558597,
+			},
+		},
+	],
+
+	retreat: 1,
+	rarity: "Rare",
+	dexId: [359],
+};
+
+export default card;

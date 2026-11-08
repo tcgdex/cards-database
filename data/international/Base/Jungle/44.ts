@@ -1,0 +1,105 @@
+import { Card } from 'models/database/card'
+import Set from '../Jungle'
+
+const card: Card = {
+	name: {
+		'en-us': "Rapidash",
+		'fr-fr': "Galopa",
+		'de-de': "Gallopa"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		78,
+	],
+
+	hp: 70,
+
+	types: [
+		"Fire",
+	],
+
+	evolveFrom: {
+		'en-us': "Ponyta",
+		'fr-fr': "Ponyta"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Stomp",
+				'fr-fr': "Écrasement",
+				'de-de': "Stampfer"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts plus 10 dégâts supplémentaires ; si c'est pile, cette attaque inflige 20 dégâts.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' fügt dieser Angriff 20 Schadenspunkte plus 10 weitere Schadenspunkte zu; bei 'Zahl' fügt dieser Angriff 20 Schadenspunkte zu."
+			},
+			damage: "20+",
+
+		},
+		{
+			cost: [
+				"Fire",
+				"Fire",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Agility",
+				'fr-fr': "Hâte",
+				'de-de': "Agilität"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Rapidash.",
+				'fr-fr': "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets d'attaques, y compris les dégâts, infligés à Galopa.",
+				'de-de': "Wirf eine Münze. Bei 'Kopf' verhindere während des nächsten gegnerischen Zuges als Auswirkung von Angriffen auf Gallopa (einschließlich der Schadenspunkte)."
+			},
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+
+	description: {
+		'en-us': "Very competitive, this Pokémon will chase anything that moves fast in the hopes of racing it.",
+		'fr-fr': "Doté d'un esprit de compétition, il poursuit toute créature rapide pour faire la course."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 273841,
+				tcgplayer: 45147
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 273841,
+				tcgplayer: 45147
+			}
+		}
+	],
+}
+
+export default card

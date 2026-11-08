@@ -1,0 +1,71 @@
+import { Card } from 'models/database/card'
+import Set from '../XY Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Trevenant",
+		'fr-fr': "Desséliande"
+	},
+
+	illustrator: "Midori Harada",
+	rarity: "Promo",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		709,
+	],
+
+	hp: 110,
+
+	types: [
+		"Psychic",
+	],
+
+	evolveFrom: {
+		'en-us': "Phantump",
+		'fr-fr': "Brocélôme"
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'en-us': "Nervous Seed",
+				'fr-fr': "Graine Angoisse"
+			},
+			effect: {
+				'en-us': "As long as this Pokémon is your Active Pokémon, your opponent's Basic Pokémon's attacks cost Colorless more.",
+				'fr-fr': "Tant que ce Pokémon est votre Pokémon Actif, les attaques des Pokémon de base de votre adversaire coûtent  de plus."
+			},
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+
+	retreat: 3,
+
+	description: {
+		'en-us': "Using its roots as a nervous system, it controls the trees in the forest. It's kind to the Pokémon that reside in its body.",
+	},
+
+	thirdParty: {
+		cardmarket: 552809
+	}
+}
+
+export default card

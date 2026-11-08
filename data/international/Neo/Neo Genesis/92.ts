@@ -1,0 +1,42 @@
+import { Card } from 'models/database/card'
+import Set from '../Neo Genesis'
+
+const card: Card = {
+	name: {
+		'en-us': "Card-Flip Game",
+		'fr-fr': "Jeu de chance",
+		'de-de': "Ratespiel"
+	},
+
+	illustrator: undefined,
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'en-us': "Choose 1 of your opponent's face-down Prizes. Guess whether it is an Energy card, a Trainer card, or a Pokémon (Basic or Evolution) card. Flip the card face up (and leave it face up). If you guessed right, draw 2 cards.",
+		'fr-fr': "Choisissez 1 des récompenses de votre adversaire qui est face cachée. Devinez si c'est une carte Énergie, une carte Dresseur ou une carte Pokémon (de base ou Évolution). Retournez la carte (et laissez-la découverte). Si vous avez deviné juste, piochez 2 cartes.",
+		'de-de': "Choose 1 of your opponent's face-down Prizes. Guess wheter it is an Energy card, a Trainer card, or a Pokémon (Basic or Evolution) card. Flip the card face up (and leave it face up). If you guessed right, draw 2 cards."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274492,
+				tcgplayer: 84098
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274492,
+				tcgplayer: 84098
+			}
+		}
+	]
+}
+
+export default card

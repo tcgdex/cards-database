@@ -1,0 +1,86 @@
+import { Card } from 'models/database/card'
+import Set from '../Gym Challenge'
+
+const card: Card = {
+	name: {
+		'en-us': "Erika's Venusaur"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [3],
+
+	hp: 90,
+
+	types: [
+		"Grass"
+	],
+
+	evolveFrom: {
+		'en-us': "Ivysaur"
+	},
+
+	stage: "Stage2",
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+			],
+			name: {
+				'en-us': "Growth"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, you may attach up to 2 Grass Energy cards from your hand to Erika's Venusaur."
+			},
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Grass",
+				"Grass",
+				"Grass",
+			],
+			name: {
+				'en-us': "Wide Solarbeam"
+			},
+			effect: {
+				'en-us': "If your opponent has any Benched Pokémon, choose 2 of them (or 1 if he or she only has 1). This attack does 20 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85307,
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85307,
+				cardmarket: 274272
+			}
+		},
+	],
+}
+
+export default card

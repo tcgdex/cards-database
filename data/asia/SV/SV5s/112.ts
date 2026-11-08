@@ -1,0 +1,50 @@
+import { Card } from "models/database/card"
+import Set from "../SV5s"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'id-id': "Skitty"
+	},
+
+	illustrator: "Atsuko Nishida",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Colorless"],
+
+	description: {
+		'id-id': "Skitty mengejar begitu saja sesuatu yang bergerak. Ia mengejar ekornya sendiri dan berputar-putar di tempat yang sama."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		name: {
+			'id-id': "Memanggil Teman"
+		},
+
+		effect: {
+			'id-id': "Pilih 1 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
+		},
+
+		cost: ["Colorless"]
+	}, {
+		name: {
+			'id-id': "Serudukan"
+		},
+
+		damage: 20,
+		cost: ["Colorless", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "×2"
+	}],
+
+	retreat: 1,
+	regulationMark: "H"
+}
+
+export default card

@@ -1,0 +1,61 @@
+import { Card } from 'models/database/card'
+import Set from '../Hidden Fates'
+
+const card: Card = {
+	name: {
+		'en-us': "Psyduck",
+		'fr-fr': "Psykokwak",
+	},
+
+	illustrator: "nagimiso",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		54,
+	],
+
+	hp: 60,
+
+	types: [
+		"Water",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+			],
+			name: {
+				'en-us': "Headache",
+				'fr-fr': "Migraine",
+			},
+
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Using psychokinesis gives it a headache, so it normally passes the time spacing out and doing as little as possible.",
+	},
+
+	thirdParty: {
+		cardmarket: 394772,
+		tcgplayer: 197653
+	}
+}
+
+export default card

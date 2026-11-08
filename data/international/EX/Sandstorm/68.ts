@@ -1,0 +1,81 @@
+import { Card } from 'models/database/card'
+import Set from '../Sandstorm'
+
+const card: Card = {
+	name: {
+		'en-us': "Marill",
+		'fr-fr': "Marill",
+		'de-de': "Marill"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [183],
+
+	hp: 50,
+
+	types: [
+		"Water"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Double Bubble",
+				'fr-fr': "Double bulle",
+				'de-de': "Doppel Seifenblase"
+			},
+			effect: {
+				'en-us': "Flip 2 coins. This attack does 10 damage times the number of heads. If either of the coins is heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez deux pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de face. Dès que c'est face, le Pokémon Défenseur est Paralysé.",
+				'de-de': "Wirf 2 Münzen. Dieser Angriff fügt 10 Schadenspunkte mal der Anzahl 'Kopf' zu. Wenn mindestens eine der Münzen 'Kopf' zeigt, ist das Verteidigende Pokémon jetzt gelähmt."
+			},
+			damage: "10×",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275845,
+				tcgplayer: 87214
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 275845,
+				tcgplayer: 87214
+			}
+		},
+		{
+			type: "normal",
+			subtype: 'missing-retreat-cost',
+		},
+	],
+
+}
+
+export default card

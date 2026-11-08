@@ -1,0 +1,123 @@
+import { Card } from 'models/database/card'
+import Set from '../Platinum'
+
+const card: Card = {
+	name: {
+		'en-us': "Dialga G",
+		'fr-fr': "Dialga ",
+		'de-de': "Dialga G"
+	},
+
+	illustrator: "Yusuke Ishikawa",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [483],
+
+	hp: 100,
+
+	types: [
+		"Metal"
+	],
+
+	stage: "Basic",
+	suffix: "SP",
+
+	attacks: [
+		{
+			cost: [
+				"Metal",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Deafen",
+				'fr-fr': "Rendre sourd",
+				'de-de': "Deafen"
+			},
+			effect: {
+				'en-us': "Your opponent can't play any Trainer cards or Stadium cards from his or her hand during your opponent's next turn.",
+				'fr-fr': "Votre adversaire ne peut pas jouer de cartes Dresseur ou Stade de sa main lors de son prochain tour.",
+				'de-de': "Your opponent can't play any Trainer cards or Stadium cards from his or her hand during your opponent's next turn."
+			},
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Metal",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Second Strike",
+				'fr-fr': "Deuxième coup",
+				'de-de': "Second Strike"
+			},
+			effect: {
+				'en-us': "If the Defending Pokémon already has 2 or more damage counters on it, this attack does 50 damage plus 20 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur possède déjà au moins 2 marqueurs de dégât, cette attaque inflige 50 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "If the Defending Pokémon already has 2 or more damage counters on it, this attack does 50 damage plus 20 more damage."
+			},
+			damage: "50+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-20"
+		},
+	],
+
+	retreat: 2,
+
+	variants: [		{
+			type:"holo",
+			thirdParty: {
+				tcgplayer: 84810,
+				cardmarket: 278428
+			}
+		},
+		{
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278428,
+				tcgplayer: 84810
+			}
+		},
+		{
+			type:"reverse",
+			foil: "league",
+			thirdParty: {
+				cardmarket: 278428,
+				tcgplayer: 178008
+			}
+		},
+		{
+			type:"holo",
+			stamp: ["tsubasa-nakamura"],
+			thirdParty: {
+				tcgplayer: 479894
+			}
+		},
+		{
+			type:"holo",
+			stamp: ["yuta-komatsuda"],
+			thirdParty: {
+				tcgplayer: 480026
+			}
+		},
+	],
+
+}
+
+export default card

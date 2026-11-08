@@ -1,0 +1,109 @@
+import { Card } from "models/database/card"
+import Set from "../Paldea Evolved"
+
+const card: Card = {
+	dexId: [429],
+	set: Set,
+
+	name: {
+		'fr-fr': "Magirêve",
+		'en-us': "Mismagius",
+		'es-es': "Mismagius",
+		'it-it': "Mismagius",
+		'pt-br': "Mismagius",
+		'de-de': "Traunmagil"
+	},
+
+	rarity: "Uncommon",
+	category: "Pokemon",
+	hp: 90,
+	types: ["Psychic"],
+	evolveFrom: {
+		'fr-fr': "Feuforêve",
+		'en-us': "Misdreavus",
+		'es-es': "Misdreavus",
+		'it-it': "Misdreavus",
+		'pt-br': "Misdreavus",
+		'de-de': "Traunfugil"
+	},
+	stage: "Stage1",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'fr-fr': "Pichenette Magique",
+			'en-us': "Magical Flick",
+			'es-es': "Chasquido Mágico",
+			'it-it': "Colpetto da Stregone",
+			'pt-br': "Pitada Mágica",
+			'de-de': "Magischer Schnipser"
+		},
+
+		effect: {
+			'fr-fr': "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon pendant votre tour, vous pouvez déplacer une Énergie attachée au Pokémon Actif de votre adversaire vers l'un de ses Pokémon de Banc.",
+			'en-us': "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may move an Energy from your opponent's Active Pokémon to 1 of their Benched Pokémon.",
+			'es-es': "Cuando juegas este Pokémon de tu mano para hacer evolucionar a uno de tus Pokémon durante tu turno, puedes mover 1 Energía del Pokémon Activo de tu rival a uno de sus Pokémon en Banca.",
+			'it-it': "Quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon durante il tuo turno, puoi spostare un'Energia dal Pokémon attivo del tuo avversario a uno dei suoi Pokémon in panchina.",
+			'pt-br': "Quando você jogar este Pokémon da sua mão para evoluir 1 dos seus Pokémon durante o seu turno, você poderá mover uma Energia do Pokémon Ativo do seu oponente para 1 dos Pokémon no Banco dele.",
+			'de-de': "Wenn du dieses Pokémon aus deiner Hand spielst, um 1 deiner Pokémon während deines Zuges zu entwickeln, kannst du 1 Energie vom Aktiven Pokémon deines Gegners auf 1 Pokémon auf seiner Bank verschieben."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Psychic", "Colorless"],
+
+		name: {
+			'fr-fr': "Sphère Psy",
+			'en-us': "Psychic Sphere",
+			'es-es': "Esfera Psíquica",
+			'it-it': "Psicosfera",
+			'pt-br': "Esfera Psíquica",
+			'de-de': "Psychosphäre"
+		},
+
+		damage: 60
+	}],
+
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
+	retreat: 1,
+	regulationMark: "G",
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 715563,
+				tcgplayer: 497502,
+				cardtrader: 248715
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 715563,
+				tcgplayer: 497502,
+				cardtrader: 248715
+			}
+		},
+	],
+
+	illustrator: "Atsushi Furusawa",
+
+	description: {
+		'en-us': "Its cry sounds like an incantation. It is said the cry may rarely be imbued with happiness-giving power.",
+	},
+}
+
+export default card

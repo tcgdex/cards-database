@@ -1,0 +1,71 @@
+import { Card } from 'models/database/card'
+import Set from '../Majestic Dawn'
+
+const card: Card = {
+	name: {
+		'en-us': "Warp Point",
+		'fr-fr': "Point d'échange",
+		'de-de': "Wurmloch"
+	},
+
+	illustrator: "Ryo Ueda",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'en-us': "Your opponent switches 1 of his or her Defending Pokémon with 1 of his or her Benched Pokémon, if any. You switch 1 of your Active Pokémon with 1 of your Benched Pokémon, if any.",
+		'fr-fr': "Votre adversaire échange 1 de ses Pokémon Défenseurs avec 1 des Pokémon de son Banc, s'il en a. Vous échangez 1 de vos Pokémon Actifs avec 1 de vos Pokémon de Banc, si vous en avez.",
+		'de-de': "Dein Gegner tauscht 1 seiner Verteidigenden Pokémon gegen 1 Pokémon auf seiner Bank aus. Du tauschst 1 deiner Aktiven Pokémon gegen 1 Pokémon auf deiner Bank aus."
+	},
+
+	trainerType: "Item",
+
+	thirdParty: {
+		cardmarket: 278137,
+		tcgplayer: 90482
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		},
+		{
+			type: "holo",
+			foil: "league"
+		},
+		{
+			type: "normal",
+			stamp: ["paul-atanassov"]
+		},
+		{
+			type: "normal",
+			stamp: ["dylan-lefavour"]
+		},
+		{
+			type: "normal",
+			stamp: ["jason-klaczynski"]
+		},
+		{
+			type: "normal",
+			stamp: ["stephen-silvestro"]
+		},
+		{
+			type: "normal",
+			stamp: ["jason-martinez"]
+		},
+		{
+			type: "normal",
+			stamp: ["michael-pramawat"]
+		},
+		{
+			type: "normal",
+			stamp: ["yuka-furusawa"]
+		}
+	]
+}
+
+export default card

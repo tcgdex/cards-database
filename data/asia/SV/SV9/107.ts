@@ -1,0 +1,68 @@
+import { Card } from "models/database/card"
+import Set from "../SV9"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "ルガルガン"
+	},
+
+	illustrator: "GIDORA",
+	rarity: "None",
+	category: "Pokemon",
+	dexId: [745],
+	hp: 120,
+	types: ["Fighting"],
+
+	description: {
+		'ja-jp': "鋭い ツメや キバで 獲物を 襲う。 信頼する トレーナーの 指示には 忠実に 従う。"
+	},
+
+	stage: "Stage1",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'ja-jp': "とげをまとう"
+		},
+
+		effect: {
+			'ja-jp': "自分の番に、このカードを手札から出して進化させたとき、1回使える。自分のトラッシュから「スパイクエネルギー」を2枚まで選び、このポケモンにつける。"
+		}
+	}],
+
+	attacks: [{
+		cost: ["Colorless", "Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "クラッチファング"
+		},
+
+		damage: "40＋",
+
+		effect: {
+			'ja-jp': "相手のバトルポケモンにのっているダメカンの数×40ダメージ追加。"
+		}
+	}],
+
+	weaknesses: [{
+		type: "Grass",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 807694,
+				tcgplayer: 614983,
+			},
+		},
+	],
+
+	retreat: 2,
+}
+
+export default card

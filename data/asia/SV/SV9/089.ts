@@ -1,0 +1,37 @@
+import { Card } from "models/database/card"
+import Set from "../SV9"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "Nのポイントアップ",
+		'zh-tw': "N的ＰＰ提升劑",
+		'zh-cn': "N的ＰＰ提升劑"
+	},
+
+	illustrator: "Toyste Beach",
+	rarity: "Uncommon",
+	category: "Trainer",
+
+	effect: {
+		'ja-jp': "自分のトラッシュから基本エネルギーを1枚選び、ベンチの「Nのポケモン」につける。",
+		'zh-tw': "從自己的棄牌區選擇1張基本能量卡，附於備戰區的「N的寶可夢」身上。",
+		'zh-cn': "從自己的棄牌區選擇1張基本能量卡，附於備戰區的「N的寶可夢」身上。"
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 807676,
+				tcgplayer: 614940,
+			},
+		},
+	],
+
+	trainerType: "Item",
+	regulationMark: "I"
+}
+
+export default card

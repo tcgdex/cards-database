@@ -1,0 +1,71 @@
+import { Card } from "models/database/card"
+import Set from "../SVP Black Star Promos"
+
+const card: Card = {
+	dexId: [7],
+	set: Set,
+
+	name: {
+		'en-us': "Squirtle",
+		'fr-fr': "Carapuce",
+		'es-es': "Squirtle",
+		'it-it': "Squirtle",
+		'pt-br': "Squirtle",
+		'de-de': "Schiggy"
+	},
+
+	rarity: "Promo",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Water"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Water", "Water"],
+
+		name: {
+			'en-us': "Bubble",
+			'fr-fr': "Écume",
+			'es-es': "Burbuja",
+			'it-it': "Bolla",
+			'pt-br': "Bolha",
+			'de-de': "Blubber"
+		},
+
+		effect: {
+			'en-us': "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+			'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Actif de votre adversaire est maintenant Paralysé.",
+			'es-es': "Lanza 1 moneda. Si sale cara, el Pokémon Activo de tu rival pasa a estar Paralizado.",
+			'it-it': "Lancia una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.",
+			'pt-br': "Jogue uma moeda. Se sair cara, o Pokémon Ativo do seu oponente agora estará Paralisado.",
+			'de-de': "Wirf 1 Münze. Bei Kopf ist das Aktive Pokémon deines Gegners jetzt paralysiert."
+		},
+
+		damage: 20
+	}],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	retreat: 2,
+	regulationMark: "G",
+	illustrator: "Gemi",
+	description: {
+		'en-us': "When it feels threatened, it draws its limbs inside its shell and sprays water from its mouth.",
+	},
+	variants: [
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 720946,
+				tcgplayer: 517273
+			},
+		}
+	],
+}
+
+export default card

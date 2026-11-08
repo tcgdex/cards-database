@@ -1,0 +1,99 @@
+import { Card } from "models/database/card"
+import Set from "../Brilliant Stars Trainer Gallery"
+
+const card: Card = {
+	dexId: [892],
+	set: Set,
+
+	name: {
+		'en-us': "Rapid Strike Urshifu VMAX",
+		'fr-fr': "Shifours Mille Poings VMAX",
+		'es-es': "Urshifu Golpe Fluido VMAX",
+		'it-it': "Urshifu Pluricolpo VMAX",
+		'pt-br': "Urshifu Golpe Fluido VMAX",
+		'de-de': "Fließender-Angriff-Wulaosu VMAX"
+	},
+
+	illustrator: "PLANETA Tsuji",
+	rarity: "Secret Rare",
+	category: "Pokemon",
+	hp: 330,
+	types: ["Fighting"],
+
+	evolveFrom: {
+		'en-us': "Rapid Strike Urshifu V",
+		'fr-fr': "Shifours Mille Poings-V",
+		'es-es': "Urshifu Golpe Fluido V",
+		'it-it': "Urshifu Pluricolpo-V",
+		'pt-br': "Urshifu Golpe Fluido V",
+		'de-de': "Fließender-Angriff-Wulaosu-V"
+	},
+
+	stage: "VMAX",
+
+	attacks: [{
+		cost: ["Fighting"],
+
+		name: {
+			'en-us': "Gale Thrust",
+			'fr-fr': "Coup d'Bourrasque",
+			'es-es': "Impulso Vendaval",
+			'it-it': "Raffica di Stoccate",
+			'pt-br': "Propulsão de Tempestade",
+			'de-de': "Orkanstoß"
+		},
+
+		effect: {
+			'en-us': "If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 120 more damage.",
+			'fr-fr': "Si ce Pokémon a été déplacé de votre Banc vers le Poste Actif pendant ce tour, cette attaque inflige 120 dégâts supplémentaires.",
+			'es-es': "Si este Pokémon se ha movido de tu Banca al Puesto Activo en este turno, este ataque hace 120 puntos de daño más.",
+			'it-it': "Se questo Pokémon si è spostato dalla tua panchina in posizione attiva nel turno in corso, questo attacco infligge 120 danni in più.",
+			'pt-br': "Se este Pokémon foi movido do seu Banco para o Campo Ativo durante este turno, este ataque causará 120 pontos de dano a mais.",
+			'de-de': "Wenn dieses Pokémon während dieses Zuges von deiner Bank in die Aktive Position gewechselt ist, fügt diese Attacke 120 Schadenspunkte mehr zu."
+		},
+
+		damage: "30+"
+	}, {
+		cost: ["Fighting", "Fighting", "Colorless"],
+
+		name: {
+			'en-us': "G-Max Rapid Flow",
+			'fr-fr': "Multicoup G-Max",
+			'es-es': "Gigagolpe Fluido",
+			'it-it': "Gigaflusso Rapido",
+			'pt-br': "Fluxo Veloz G-Max",
+			'de-de': "Giga-Turbofluss"
+		},
+
+		effect: {
+			'en-us': "Discard all Energy from this Pokémon. This attack does 120 damage to 2 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Défaussez toute l'Énergie de ce Pokémon. Cette attaque inflige 120 dégâts à 2 des Pokémon de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			'es-es': "Descarta todas las Energías de este Pokémon. Este ataque hace 120 puntos de daño a 2 de los Pokémon de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			'it-it': "Scarta tutte le Energie da questo Pokémon. Questo attacco infligge 120 danni a due dei Pokémon del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			'pt-br': "Descarte todas as Energias deste Pokémon. Este ataque causa 120 pontos de dano a 2 dos Pokémon do seu oponente (não aplique Fraqueza e Resistência aos Pokémon no Banco).",
+			'de-de': "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel. Diese Attacke fügt 2 Pokémon deines Gegners 120 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+		}
+	}],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2",
+		},
+	],
+	retreat: 2,
+	regulationMark: "E",
+
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 608762,
+				tcgplayer: 264234
+			}
+		},
+	],
+}
+
+export default card

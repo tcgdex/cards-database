@@ -1,0 +1,44 @@
+import { Card } from 'models/database/card'
+import Set from '../Ruby & Sapphire'
+
+const card: Card = {
+	name: {
+		'en-us': "Energy Removal 2",
+		'fr-fr': "Suppression d'énergie 2",
+		'de-de': "Energie-Absauger 2"
+	},
+
+	illustrator: "Keiji Kinebuchi",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+	trainerType: "Item",
+
+	effect: {
+		'en-us': "Flip a coin. If heads, choose 1 Energy card attached to 1 of your opponent's Pokémon and discard it.",
+		'fr-fr': "Lancez une pièce. Si c'est face, choisissez une carte Énergie attachée à un des Pokémon de votre adversaire et défaussez-la.",
+		'de-de': "Wirf eine Münze. Wähle bei 'Kopf' 1 Energiekarte, die an ein Pokémon deines Gegners angelegt ist, und lege sie auf seinen Ablagestapel."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275728,
+				tcgplayer: 85220
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 275728,
+				tcgplayer: 85220
+			}
+		},
+	],
+
+	retreat: 0
+}
+
+export default card

@@ -1,0 +1,80 @@
+import { Card } from "models/database/card"
+import Set from "../Celestial Guardians"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Lunala ex",
+		'fr-fr': "Lunala-ex",
+		'es-es': "Lunala ex",
+		'it-it': "Lunala-ex",
+		'de-de': "Lunala-ex",
+		'pt-br': "Lunala ex",
+		'ko-kr': "루나아라 ex"
+	},
+
+	illustrator: "PLANETA CG Works",
+	rarity: "Four Diamond",
+	category: "Pokemon",
+
+	dexId: [792],
+	hp: 180,
+	types: ["Psychic"],
+
+	evolveFrom: {
+		'en-us': "Cosmoem"
+	},
+
+	stage: "Stage2",
+	suffix: "EX",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'en-us': "Psychic Connect",
+			'fr-fr': "Connexion Psy",
+			'es-es': "Conexión Psíquica",
+			'it-it': "Connessione Psichica",
+			'de-de': "Psychoverbindung",
+			'pt-br': "Conexão Psíquica",
+			'ko-kr': "사이코커넥트"
+		},
+
+		effect: {
+			'en-us': "Once during your turn, you may move all {P} Energy from 1 of your Benched {P} Pokémon to your Active Pokémon.",
+			'fr-fr': "Une fois pendant votre tour, vous pouvez déplacer toute l'Énergie {P} de l'un de vos Pokémon {P} de Banc vers votre Pokémon Actif.",
+			'es-es': "Una vez durante tu turno, puedes mover todas las Energías {P} de 1 de tus Pokémon {P} en Banca a tu Pokémon Activo.",
+			'it-it': "Una sola volta durante il tuo turno, puoi spostare tutte le Energie {P} da uno dei tuoi Pokémon {P} in panchina al tuo Pokémon attivo.",
+			'de-de': "Einmal während deines Zuges kannst du alle {P}-Energien von 1 {P}-Pokémon auf deiner Bank auf dein Aktives Pokémon verschieben.",
+			'pt-br': "Uma vez durante o seu turno, você pode mover todas as Energias {P} de 1 dos seus Pokémon {P} no Banco para o seu Pokémon Ativo.",
+			'ko-kr': "자신의 차례에 1번 사용할 수 있다. 자신의 벤치의 {P}포켓몬 1마리로부터 {P}에너지를 모두 배틀 포켓몬에게 바꿔 붙인다."
+		}
+	}],
+
+	attacks: [{
+		name: {
+			'en-us': "Lunar Blast",
+			'fr-fr': "Explosion Lunaire",
+			'es-es': "Explosión Lunar",
+			'it-it': "Furia Lunare",
+			'de-de': "Mondsturm",
+			'pt-br': "Detonação Lunar",
+			'ko-kr': "루나블라스트"
+		},
+
+		damage: 100,
+		cost: ["Psychic", "Colorless", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Darkness",
+		value: "+20"
+	}],
+
+	retreat: 1,
+	boosters: ["lunala"]
+}
+
+export default card

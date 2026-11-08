@@ -1,0 +1,120 @@
+import { Card } from 'models/database/card'
+import Set from '../Expedition Base Set'
+
+const card: Card = {
+	name: {
+		'en-us': "Professor Elm's Training Method",
+		'fr-fr': "Méthode d'entraînement du professeur Orme",
+		'de-de': "Professor Linds Trainingsmethoden"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Trainer",
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Crystal Type",
+			},
+			effect: {
+				'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Search your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+			},
+		},
+	],
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "x2"
+		},
+	],
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Water",
+				"Lightning",
+			],
+			name: {
+				'en-us': "Aquabomb",
+			},
+			effect: {
+				'en-us': "Kindra does 10 damage to itself. (Don't apply Weakness or Resistance when Kingdra damages itself with this attack.)",
+			},
+			damage: 40,
+		},
+		{
+			cost: [
+				"Psychic",
+				"Psychic",
+				"Lightning",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Dual Burn",
+			},
+			effect: {
+				'en-us': "Flip 2 coins. For each tails, discard 1 Energy card attached to Kingdra.",
+			},
+			damage: 60,
+		},
+	],
+	stage: "Stage2",
+	types: [
+		"Colorless"
+	],
+	hp: 110,
+	dexId: [230],
+	trainerType: "Supporter",
+	set: Set,
+
+	effect: {
+		'en-us': "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card. Search your deck for an Evolution card, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+		'fr-fr': "Cherchez une carte Évolution dans votre deck, montrez-la à votre adversaire et ajoutez-la à votre main. Mélangez ensuite votre deck.",
+		'de-de': "Durchsuche dein Deck nach einer Entwicklungskarte, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische dein Deck danach.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88389,
+				cardmarket: 275023
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88389,
+				cardmarket: 275023
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["chris-fulop"],
+			thirdParty: {
+				cardmarket: 871843,
+				tcgplayer: 477418,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["kevin-nguyen"],
+			thirdParty: {
+				cardmarket: 871844,
+				tcgplayer: 477420,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["reed-weichler"],
+			thirdParty: {
+				cardmarket: 871845,
+				tcgplayer: 477419,
+			},
+		}
+	],
+	retreat: 3,
+}
+
+export default card

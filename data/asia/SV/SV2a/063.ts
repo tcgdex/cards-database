@@ -1,0 +1,72 @@
+import { Card } from "models/database/card";
+import Set from "../SV2a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ケーシィ",
+		'zh-tw': "凱西",
+		'th-th': "เคซี",
+		'id-id': "Abra",
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	category: "Pokemon",
+	hp: 50,
+	types: ["Psychic"],
+
+	description: {
+		'ja-jp': "眠ったまま テレポート できる。 眠りが 深いほど 離れた 場所に 移動する という。",
+		'zh-tw': "就算在睡夢中也能使用瞬間移動。據說當牠睡得越熟， 瞬間移動的距離就會越遠。",
+		'th-th': "สามารถเทเลพอร์ทได้ระหว่างที่หลับอยู่ ว่ากันว่ายิ่งหลับลึกก็จะยิ่งเคลื่อนตัวไปยังสถานที่ห่างไกลมากขึ้น",
+		'id-id': "Abra dapat melakukan teleportasi sambil tidur. Dikatakan bahwa makin nyenyak tidurnya, makin jauh pula jarak teleportasinya.",
+	},
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "サイコショット",
+				'zh-tw': "精神射擊",
+				'th-th': "ไซโคช็อต",
+				'id-id': "Psyshot",
+			},
+			damage: 20,
+			cost: ["Psychic"],
+		},
+	],
+
+	weaknesses: [{ type: "Darkness", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 719505,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 837344,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 837345,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "G",
+	rarity: "Common",
+	dexId: [63],
+};
+
+export default card;

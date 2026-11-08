@@ -1,0 +1,50 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG6"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "キョウのポッポ",
+	},
+	illustrator: "Ken Sugimori",
+
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [16],
+	hp: 50,
+	types: ["Colorless"],
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				'ja-jp': "ペック",
+			},
+			damage: 10,
+		},
+		{
+			cost: ["Colorless", "Colorless", "Colorless"],
+			name: {
+				'ja-jp': "砂attack",
+			},
+			effect: {
+				'ja-jp': "防衛ポケモンが相手の次のターン中に攻撃を試みた場合、対戦相手はコインをひっくり返します。尾の場合、その攻撃は何もしません。",
+			},
+			damage: 20,
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575314
+			},
+		},
+	],
+};
+
+export default card

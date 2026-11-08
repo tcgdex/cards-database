@@ -1,0 +1,50 @@
+import { Card } from "models/database/card";
+import Set from "../MC";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ビクティニ",
+	},
+
+	illustrator: "Natsumi Yoshida",
+	category: "Pokemon",
+	hp: 80,
+	types: ["Fire"],
+
+	description: {
+		'ja-jp': "勝利を もたらす ポケモン。 ビクティニを 連れた トレーナーは どんな 勝負にも 勝てるという。",
+	},
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			name: { ja: "Vフォース" },
+			damage: 120,
+			cost: ["Fire", "Fire"],
+			effect: {
+				'ja-jp': "自分のベンチポケモンが4匹以下なら、このワザは失敗。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 863403,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "I",
+	rarity: "None",
+	dexId: [494],
+};
+
+export default card;

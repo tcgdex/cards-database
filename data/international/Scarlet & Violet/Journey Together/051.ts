@@ -1,0 +1,72 @@
+import { Card } from "models/database/card"
+import Set from "../Journey Together"
+
+const card: Card = {
+	dexId: [785],
+	set: Set,
+
+	name: {
+		'en-us': "Tapu Koko ex",
+		'fr-fr': "Tokorico-ex",
+		'es-es': "Tapu Koko ex",
+		'de-de': "Kapu-Riki-ex",
+		'it-it': "Tapu Koko-ex",
+		'pt-br': "Tapu Koko ex",
+		'es-mx': "Tapu Koko ex"
+	},
+
+	rarity: "Double rare",
+	category: "Pokemon",
+	hp: 200,
+	types: ["Lightning"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Lightning", "Colorless"],
+
+		name: {
+			'en-us': "Linked Lightning",
+			'fr-fr': "Éclairs Liés",
+			'es-es': "Relámpago Encadenado",
+			'de-de': "Verbundener Blitz",
+			'it-it': "Fulmine Combinato",
+			'pt-br': "Raios Reunidos",
+			'es-mx': "Relámpago en Cadena"
+		},
+
+		effect: {
+			'en-us': "This attack does 20 more damage for each of your Benched Pokémon.",
+			'fr-fr': "Cette attaque inflige 20 dégâts supplémentaires pour chacun de vos Pokémon de Banc.",
+			'es-es': "Este ataque hace 20 puntos de daño más por cada uno de tus Pokémon en Banca.",
+			'de-de': "Diese Attacke fügt für jedes Pokémon auf deiner Bank 20 Schadenspunkte mehr zu.",
+			'it-it': "Questo attacco infligge 20 danni in più per ogni Pokémon nella tua panchina.",
+			'pt-br': "Este ataque causa 20 pontos de dano a mais para cada um dos seus Pokémon no Banco.",
+			'es-mx': "Este ataque hace 20 puntos de daño más por cada uno de tus Pokémon en Banca."
+		},
+
+		damage: "60+"
+	}],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
+	retreat: 0,
+	regulationMark: "H",
+	suffix: "ex",
+	illustrator: "PLANETA Igarashi",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817203,
+				tcgplayer: 623478
+			}
+		},
+	],
+}
+
+export default card

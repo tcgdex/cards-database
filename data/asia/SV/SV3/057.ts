@@ -1,0 +1,73 @@
+import { Card } from "models/database/card"
+import Set from "../SV3"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "ノズパス",
+		'zh-tw': "朝北鼻",
+		'th-th': "โนซพาส"
+	},
+
+	illustrator: "Nobuhiro Imagawa",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [299],
+	hp: 90,
+	types: ["Fighting"],
+
+	description: {
+		'ja-jp': "強力な 磁力で 獲物を 引き寄せ 動かず 狩りを するが 天敵を 引き寄せることもある。",
+		'zh-tw': "牠會動也不動地用強大的磁力把獵物吸過來獵捕，但有時也會把天敵吸來。",
+		'th-th': "จะล่าเหยื่อแบบไม่ต้องขยับตัว โดยใช้พลังแม่เหล็กแรงกล้าดึงตัวเหยื่อเข้าหา แต่บางครั้งก็ดึงเอาศัตรูเข้ามาเหมือนกัน"
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'ja-jp': "てつあつめ",
+			'zh-tw': "集鐵",
+			'th-th': "สะสมเหล็ก"
+		},
+
+		effect: {
+			'ja-jp': "自分のトラッシュから「基本エネルギー」を2枚まで選び、相手に見せて、手札に加える。",
+			'zh-tw': "從自己的棄牌區選擇最多2張「基本【鋼】能量」卡，在給對手看過後加入手牌。",
+			'th-th': "เลือกการ์ด [พลังงานพื้นฐาน[โลหะ]] ได้สูงสุด 2 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู นำขึ้นมือ"
+		}
+	}, {
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "ころがりタックル",
+			'zh-tw': "滾動衝撞",
+			'th-th': "กลิ้งโจมตี"
+		},
+
+		damage: 30
+	}],
+
+	weaknesses: [{
+		type: "Grass",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 724004,
+				tcgplayer: 567011,
+			},
+		},
+	],
+
+	retreat: 3,
+	regulationMark: "G",
+}
+
+export default card

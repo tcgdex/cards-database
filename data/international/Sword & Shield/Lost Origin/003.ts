@@ -1,0 +1,102 @@
+import { Card } from "models/database/card"
+import Set from "../Lost Origin"
+
+const card: Card = {
+	dexId: [45],
+	set: Set,
+
+	name: {
+		'en-us': "Vileplume",
+		'fr-fr': "Rafflesia",
+		'es-es': "Vileplume",
+		'it-it': "Vileplume",
+		'pt-br': "Vileplume",
+		'de-de': "Giflor"
+	},
+
+	illustrator: "Jiro Sasumo",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	hp: 150,
+	types: ["Grass"],
+
+	evolveFrom: {
+		'en-us': "Gloom",
+		'fr-fr': "Ortide",
+		'es-es': "Gloom",
+		'it-it': "Gloom",
+		'pt-br': "Gloom",
+		'de-de': "Duflor"
+	},
+
+	stage: "Stage2",
+
+	attacks: [{
+		cost: ["Grass", "Colorless"],
+
+		name: {
+			'en-us': "Mega Drain",
+			'fr-fr': "Méga-Sangsue",
+			'es-es': "Megaagotar",
+			'it-it': "Megassorbimento",
+			'pt-br': "Megadreno",
+			'de-de': "Megasauger"
+		},
+
+		effect: {
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
+		},
+
+		damage: 50
+	}, {
+		cost: ["Grass", "Colorless", "Colorless"],
+
+		name: {
+			'en-us': "Allergy Storm",
+			'fr-fr': "Tempête Allergène",
+			'es-es': "Tormenta Alergénica",
+			'it-it': "Allergitempesta",
+			'pt-br': "Tempestade Alérgica",
+			'de-de': "Allergiesturm"
+		},
+
+		effect: {
+			'en-us': "Flip a coin. If heads, during your opponent's next turn, they can't play any Supporter cards from their hand. If tails, during your opponent's next turn, they can't play any Item cards from their hand.",
+			'fr-fr': "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, il ne peut pas jouer de cartes Supporter de sa main. Si c'est pile, pendant le prochain tour de votre adversaire, il ne peut pas jouer de cartes Objet de sa main.",
+			'es-es': "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, este no puede jugar ninguna carta de Partidario de su mano. Si sale cruz, durante el próximo turno de tu rival, este no puede jugar ninguna carta de Objeto de su mano.",
+			'it-it': "Lancia una moneta. Se esce testa, durante il suo prossimo turno, il tuo avversario non può giocare le carte Aiuto che ha in mano. Se esce croce, durante il suo prossimo turno, il tuo avversario non può giocare le carte Strumento che ha in mano.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, durante o próximo turno do seu oponente, ele(a) não poderá jogar nenhuma carta de Apoiador da própria mão. Se sair coroa, durante o próximo turno do seu oponente, ele(a) não poderá jogar nenhuma carta de Item da própria mão.",
+			'de-de': "Wirf 1 Münze. Bei Kopf kann dein Gegner während seines nächsten Zuges keine Unterstützerkarten aus seiner Hand spielen. Bei Zahl kann dein Gegner während seines nächsten Zuges keine Itemkarten aus seiner Hand spielen."
+		},
+
+		damage: 90
+	}],
+
+	retreat: 2,
+	regulationMark: "F",
+
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 674015,
+				tcgplayer: 283865
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 674015,
+				tcgplayer: 283865
+			}
+		},
+	],
+}
+
+export default card

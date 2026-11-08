@@ -1,0 +1,64 @@
+import { Card } from 'models/database/card'
+import Set from '../Generations'
+
+const card: Card = {
+	name: {
+		'en-us': "Paras",
+		'fr-fr': "Paras",
+	},
+
+	illustrator: "Aya Kusube",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		46,
+	],
+
+	hp: 60,
+
+	types: [
+		"Grass",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Blot",
+				'fr-fr': "Pâté",
+			},
+			effect: {
+				'en-us': "Heal 10 damage from this Pokémon.",
+				'fr-fr': "Soignez 10 dégâts à ce Pokémon.",
+			},
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Burrows under the ground to gnaw on tree roots. The mushrooms on its back absorb most of the nutrition.",
+	},
+
+	thirdParty: {
+		cardmarket: 288448,
+		tcgplayer: 113664
+	}
+}
+
+export default card

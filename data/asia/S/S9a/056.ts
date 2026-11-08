@@ -1,0 +1,85 @@
+import { Card } from "models/database/card"
+import Set from "../S9a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'zh-tw': "貓頭夜鷹",
+		'ja-jp': "ヨルノズク"
+	},
+
+	illustrator: "Nisota Niso",
+	category: "Pokemon",
+	hp: 100,
+	types: ["Colorless"],
+
+	description: {
+		'zh-tw': "雙眼有著特殊的構造，只要有些微的光線，即使在黑暗中 也能看得像白天一樣清楚。",
+		'ja-jp': "特殊な つくりの 両目は わずかな 光さえ あれば 暗闇でも 昼のように 見える。"
+	},
+
+	stage: "Stage1",
+
+	attacks: [{
+		name: {
+			'zh-tw': "靜默之翼",
+			'ja-jp': "サイレントウイング"
+		},
+
+		effect: {
+			'zh-tw': "查看對手的手牌。",
+			'ja-jp': "相手の手札を見る。"
+		},
+
+		damage: 50,
+		cost: ["Colorless", "Colorless"]
+	}, {
+		name: {
+			'zh-tw': "空氣斬",
+			'ja-jp': "エアスラッシュ"
+		},
+
+		effect: {
+			'zh-tw': "選擇1個這隻寶可夢身上附加的能量，將其丟棄。",
+			'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。"
+		},
+
+		damage: 120,
+		cost: ["Colorless", "Colorless", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Lightning",
+		value: "×2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "－30"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 609824,
+				tcgplayer: 570626,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				tcgplayer: 577635,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "F",
+	rarity: "Uncommon",
+	dexId: [164],
+}
+
+export default card

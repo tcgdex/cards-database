@@ -1,0 +1,57 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG1"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "カメール",
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	dexId: [8],
+	hp: 70,
+	types: ["Water"],
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: ["Water", "Colorless"],
+			name: {
+				'ja-jp': "撤回する",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。ヘッドの場合、対戦相手の次のターン中に、攻撃によってこのポケモンに与えられたすべてのダメージを防ぎます。",
+			},
+
+		},
+		{
+			cost: ["Water", "Colorless", "Colorless"],
+			name: {
+				'ja-jp': "噛む",
+			},
+			damage: 40,
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575662
+			},
+		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577089
+			}
+		}
+	],
+};
+
+export default card

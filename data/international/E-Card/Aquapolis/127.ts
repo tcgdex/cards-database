@@ -1,0 +1,59 @@
+import { Card } from 'models/database/card'
+import Set from '../Aquapolis'
+
+const card: Card = {
+	name: {
+		'en-us': "Lightning Cube 01",
+		'fr-fr': "Cube électrik 01",
+		'de-de': "Elektro-Würfel 01"
+	},
+
+	illustrator: undefined,
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'en-us': "Attach this card to 1 of your Lightning Pokémon in play. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Lightning Cube 01.",
+		'fr-fr': "Attachez cette carte à l'un de vos Pokémon {L} en jeu. Ce Pokémon peut utiliser l'attaque de cette carte à la place de la sienne. À la fin de votre tour, défaussez-vous de Cube électrik 01.",
+		'de-de': "Lege diese Karte an 1 deiner {L}-Pokémon im Spiel an. Dieses Pokémon kann den Angriff dieser Karte anstatt seiner eigenen verwenden. Lege am Ende deines Zuges Elektro-Würfel 01 auf deinen Ablagestapel."
+	},
+
+	attacks: [
+		{
+			name: {
+				'en-us': "Discharge",
+				'de-de': "Discharge",
+				'fr-fr': "Décharge"
+			},
+			damage: "40×",
+			effect: {
+				'en-us': "Discard all Lightning Energy cards attached to this Pokémon. Then, flip a number of coins equal to the number of Energy cards discarded that way. This attack does 40 damage times the number of heads.",
+				'de-de': "Discard all {L}-Energy cards attached to this Pokémon. Then, flip a number of coins equal to the number of Energy cards discarded that way. This attack does 40 damage times the number of heads.",
+				'fr-fr': "Défaussez-vous de toutes les cartes Énergie {L} attachées à ce Pokémon. Lancez ensuite un nombre de pièces égal au nombre de cartes Énergie que vous avez défaussé de cette manière. Cette attaque fait 40 dégâts multipliés par le nombre de faces."
+			},
+			cost: [
+				"Lightning",
+			]
+		},
+	],
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 86754,
+				cardmarket: 275203
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				tcgplayer: 86754,
+				cardmarket: 275203
+			}
+		},
+	]
+}
+
+export default card

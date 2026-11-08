@@ -1,0 +1,39 @@
+import { Card } from 'models/database/card'
+import Set from '../Dragon Frontiers'
+
+const card: Card = {
+	name: {
+		'en-us': "Holon Energy GL",
+		'fr-fr': "Énergie Holon GL",
+		'de-de': "Holon-Energie PE"
+	},
+
+	illustrator: "Takumi Akabane",
+	rarity: "Rare",
+	category: "Energy",
+	set: Set,
+	energyType: "Special",
+
+	effect: {
+		'en-us': "Holon Energy GL provides Colorless Energy. If the Pokémon that Holon Energy GL is attached to also has a basic Grass Energy card attached to it, that Pokémon can't be affected by any Special Conditions. If the Pokémon that Holon Energy GL is attached to also has a basic Lightning Energy card attached to it, damage done to that Pokémon by attacks from your opponent's Pokémon-ex is reduced by 10. Ignore these effects if Holon Energy GL is attached to Pokémon-ex.",
+		'de-de': "Holon-Energie PE spendet -Energie.\nWenn an dem Pokémon, an dem Holon-Energie PE angelegt ist, auch eine -Basis-Energiekarte angelegt ist, kann dieses Pokémon nicht von Speziellen Zuständen betroffen werden. Wenn an dem Pokémon, an dem Holon-Energie PE angelegt ist, auch eine -Basis-Energiekarte angelegt ist, werden die Schadenspunkte, die diesem Pokémon durch Angriffe gegnerischer Pokémon zugefügt werden, um 10 Schadenspunkte reduziert. Ignoriere diese Effekte, wenn Holon-Energie PE an ein Pokémon-ex angelegt ist.",
+		'fr-fr': "Si le Pokémon auquel Énergie Holon GL est attachée possède également une carte Énergie de base Plante, il ne peut pas être affecté par des États Spéciaux. Si le Pokémon auquel Énergie Holon GL est attachée possède également une carte Énergie de base Électrique, les dégâts infligés par l'attaque du Pokémon-ex de votre adversaire sont réduits de 10. Ignorez ces effets si Énergie Holon GL est attachée à un Pokémon-ex.",
+	},
+
+	thirdParty: {
+		cardmarket: 277290,
+		tcgplayer: 86139
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		}
+	]
+}
+
+export default card

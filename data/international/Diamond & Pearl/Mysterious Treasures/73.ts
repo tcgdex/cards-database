@@ -1,0 +1,73 @@
+import { Card } from 'models/database/card'
+import Set from '../Mysterious Treasures'
+
+const card: Card = {
+	name: {
+		'en-us': "Bidoof",
+		'fr-fr': "Keunotor",
+		'de-de': "Bidiza"
+	},
+
+	illustrator: "Yusuke Ohmura",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		399,
+	],
+
+	hp: 60,
+
+	types: [
+		"Colorless",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
+			},
+
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "+10"
+		},
+	],
+	retreat: 2,
+
+
+	thirdParty: {
+		cardmarket: 277702,
+		tcgplayer: 83825
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		},
+		{
+			type: "normal",
+			stamp: ["countdown-calendar"]
+		}
+	]
+}
+
+export default card

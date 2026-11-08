@@ -1,0 +1,106 @@
+import { Card } from 'models/database/card'
+import Set from '../Fossil'
+
+const card: Card = {
+	name: {
+		'en-us': "Articuno",
+		'fr-fr': "Artikodin",
+		'de-de': "Arktos"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		144,
+	],
+
+	hp: 70,
+
+	types: [
+		"Water",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Water",
+				"Water",
+			],
+			name: {
+				'en-us': "Freeze Dry",
+				'fr-fr': "Blocage glacial",
+				'de-de': "Gefriertrocknung"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon jetzt gelähmt."
+			},
+			damage: 30,
+
+		},
+		{
+			cost: [
+				"Water",
+				"Water",
+				"Water",
+				"Water",
+			],
+			name: {
+				'en-us': "Blizzard",
+				'fr-fr': "Blizzard",
+				'de-de': "Blizzard"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. If tails, this attack does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 10 dégâts à chacun des Pokémon du Banc de votre adversaire. Si c'est pile, cette attaque inflige 10 dégâts à chacun des Pokémon de votre Banc. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon qui sont sur un Banc.)",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" fügt dieser Angriff jedem gegnerischen Pokémon auf der Bank 10 Schadenspunkte zu. Bei \"Zahl\" fügt dieser Angriff jedem deiner eigenen Pokémon auf der Bank 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht verwenden.)"
+			},
+			damage: 50,
+
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30"
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		'en-us': "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.",
+		'fr-fr': "Le légendaire oiseau des glaces. On dit qu'il apparaît aux gens perdus dans les sommets."
+	},
+
+
+	variants: [
+		{
+			type: "holo",
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273863,
+				tcgplayer: 106518
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"],
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273863,
+				tcgplayer: 106518
+			}
+		},
+	]
+}
+
+export default card

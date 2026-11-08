@@ -1,0 +1,81 @@
+import { Card } from "models/database/card";
+import Set from "../SV8";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ラウドボーン",
+		'zh-tw': "骨紋巨聲鱷",
+		'zh-cn': "骨紋巨聲鱷",
+	},
+
+	illustrator: "akagi",
+	category: "Pokemon",
+	hp: 180,
+	types: ["Fire"],
+
+	description: {
+		'ja-jp': "優しい 歌声は 聴いた者の 魂を 癒す。 ３０００度の 炎で 敵を 焼き尽くす。",
+		'zh-tw': "溫柔的歌聲能療癒聽者的靈魂。 會使用３０００度的火焰 將敵人燒成灰燼。",
+		'zh-cn': "溫柔的歌聲能療癒聽者的靈魂。 會使用３０００度的火焰 將敵人燒成灰燼。",
+	},
+
+	stage: "Stage2",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'ja-jp': "てんねん",
+				'zh-tw': "純樸",
+				'zh-cn': "純樸",
+			},
+			effect: {
+				'ja-jp': "このポケモンは、相手のポケモンが使うワザの効果を受けない。",
+				'zh-tw': "這隻寶可夢不會受到對手的寶可夢使用招式的效果的影響。",
+				'zh-cn': "這隻寶可夢不會受到對手的寶可夢使用招式的效果的影響。",
+			},
+		},
+	],
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "フレアリサイタル",
+				'zh-tw': "閃焰獨唱會",
+				'zh-cn': "閃焰獨唱會",
+			},
+			damage: "60+",
+			cost: ["Fire", "Colorless"],
+			effect: {
+				'ja-jp': "おたがいのベンチポケモンの数×20ダメージ追加。",
+				'zh-tw': "增加雙方的備戰寶可夢的數量×20點傷害。",
+				'zh-cn': "增加雙方的備戰寶可夢的數量×20點傷害。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 793453,
+				tcgplayer: 587599,
+			},
+		},
+	],
+
+	evolveFrom: {
+		'ja-jp': "アチゲータ",
+	},
+
+	retreat: 3,
+	regulationMark: "H",
+	rarity: "Rare",
+	dexId: [911],
+};
+
+export default card;

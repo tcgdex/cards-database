@@ -1,0 +1,107 @@
+import { Card } from 'models/database/card'
+import Set from '../Diamond & Pearl'
+
+const card: Card = {
+	name: {
+		'en-us': "Rhyperior",
+		'fr-fr': "Rhinastoc",
+		'de-de': "Rihornior"
+	},
+
+	illustrator: "Nakaoka",
+	rarity: "Rare Holo",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		464,
+	],
+
+	hp: 140,
+
+	types: [
+		"Fighting",
+	],
+
+	evolveFrom: {
+		'en-us': "Rhydon",
+		'fr-fr': "Rhinoféros",
+	},
+
+	stage: "Stage2",
+
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				'en-us': "Earth Fissure",
+				'fr-fr': "Fissure terrestre",
+				'de-de': "Erdspalte"
+			},
+			effect: {
+				'en-us': "Once during your turn, when you play Rhyperior from your hand to evolve 1 of your Pokémon, you may discard the top 3 cards from your opponent's deck.",
+				'fr-fr': "Une seule fois lors de votre tour, lorsque vous jouez Rhinastoc de votre main pour faire évoluer 1 de vos Pokémon, vous pouvez défausser les 3 cartes du dessus du deck de votre adversaire.",
+				'de-de': "Einmal während deines Zuges, wenn du Rihornior von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du die obersten 3 Karten vom Deck deines Gegners auf seinen Ablagestapel legen."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Rock Wrecker",
+				'fr-fr': "Roc-Boulet",
+				'de-de': "Felswerfer"
+			},
+			effect: {
+				'en-us': "This attack's damage isn't affected by Weakness or Resistance. Rhyperior can't attack during your next turn.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Faiblesse et la Résistance. Rhinastoc ne pourra pas attaquer lors de votre prochain tour.",
+				'de-de': "Der Schaden dieses Angriffs wird durch die Schwäche und Resistenz des Verteidigenden Pokémon nicht verändert. Rihornior kann in deinem nächsten Zug nicht angreifen."
+			},
+			damage: 80,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "+30"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Lightning",
+			value: "-20"
+		},
+	],
+
+	retreat: 4,
+
+	description: {
+		'en-us': "It puts rocks in holes in its palms and uses its muscles to shoot them. Geodude are shot at rare times.",
+		'fr-fr': "Il bande ses muscles pour projeter des pierres ou des Racaillou depuis le creux de ses paumes."
+	},
+
+	thirdParty: {
+		cardmarket: 277511,
+		tcgplayer: 88745
+	},
+
+	variants: [
+		{
+			type: "holo",
+		},
+		{
+			type: "reverse"
+		}
+	]
+}
+
+export default card

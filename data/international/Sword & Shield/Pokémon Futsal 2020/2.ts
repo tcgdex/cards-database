@@ -1,0 +1,57 @@
+import { Card } from 'models/database/card'
+import Set from '../Pokémon Futsal 2020'
+
+const card: Card = {
+	dexId: [133],
+	set: Set,
+
+	name: {
+		'en-us': "Eevee on the Ball"
+	},
+
+	illustrator: "Illus. & Direc. The Pokémon Company Art Team",
+	rarity: "None",
+	category: "Pokemon",
+
+	description: {
+		'en-us': "It has the ability to alter the composition of its body to suit its surrounding environment."
+	},
+
+	hp: 60,
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'en-us': "Make the Assist"
+		},
+
+		effect: {
+			'en-us': "Attach a basic Energy card from your hand to 1 of your Benched Pokémon."
+		}
+	}, {
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			'en-us': "Tackle"
+		},
+
+		damage: 20
+	}],
+
+	regulationMark: "D",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 506935,
+				tcgplayer: 223760
+			}
+		},
+	],
+}
+
+export default card

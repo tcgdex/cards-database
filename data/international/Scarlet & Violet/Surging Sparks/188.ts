@@ -1,0 +1,74 @@
+import { Card } from "models/database/card"
+import Set from "../Surging Sparks"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Technical Machine: Fluorite",
+		'fr-fr': "Capsule Technique : Fluorine",
+		'es-es': "Máquina Técnica: Fluorita",
+		'it-it': "Macchinario Tecnico: Fluorite",
+		'pt-br': "Máquina Técnica: Fluorita",
+		'de-de': "Technische Maschine: Fluorit"
+	},
+
+	rarity: "Uncommon",
+	category: "Trainer",
+
+	attacks: [{
+		cost: ["Grass", "Water", "Psychic"],
+
+		name: {
+			'en-us': "Fluorite",
+			'fr-fr': "Fluorine",
+			'es-es': "Fluorita",
+			'it-it': "Fluorite",
+			'pt-br': "Fluorita",
+			'de-de': "Fluorit"
+		},
+
+		effect: {
+			'en-us': "Discard all Energy from this Pokémon, and heal all damage from each of your Tera Pokémon.",
+			'fr-fr': "Défaussez toutes les Énergies attachées à ce Pokémon, puis soignez tous les dégâts de chacun de vos Pokémon Téracristal.",
+			'es-es': "Descarta todas las Energías de este Pokémon y cura todos los puntos de daño a cada uno de tus Pokémon Teracristal.",
+			'it-it': "Scarta tutte le Energie da questo Pokémon e cura ciascuno dei tuoi Pokémon Teracristal da tutti i danni.",
+			'pt-br': "Descarte todas as Energias deste Pokémon e cure todo o dano de cada um dos seus Pokémon Tera.",
+			'de-de': "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel und heile allen Schaden bei jedem deiner Terakristall-Pokémon."
+		}
+	}],
+
+	effect: {
+		'en-us': "The Pokémon this card is attached to can use the attack on this card. (You still need the necessary Energy to use this attack.) If this card is attached to 1 of your Pokémon, discard it at the end of your turn.",
+		'fr-fr': "Le Pokémon auquel cette carte est attachée peut utiliser l'attaque sur cette carte. (Vous avez toujours besoin des Énergies nécessaires pour utiliser cette attaque.) Si cette carte est attachée à l'un de vos Pokémon, défaussez-la à la fin de votre tour.",
+		'es-es': "El Pokémon al que esté unida esta carta puede usar el ataque de esta carta. (Sigues necesitando las Energías necesarias para usar este ataque). Si esta carta está unida a uno de tus Pokémon, descártala al final de tu turno.",
+		'it-it': "Il Pokémon a cui è assegnata questa carta può usare l'attacco di questa carta. Devi comunque avere l'Energia necessaria per usare questo attacco. Se questa carta è assegnata a uno dei tuoi Pokémon, scartala alla fine del tuo turno.",
+		'pt-br': "O Pokémon ao qual esta carta está ligada pode usar o ataque desta carta. (Você ainda precisa da Energia necessária para usar este ataque.) Se esta carta estiver ligada a 1 dos seus Pokémon, descarte-a no final do seu turno.",
+		'de-de': "Das Pokémon, an das diese Karte angelegt ist, kann die Attacke auf dieser Karte einsetzen. (Du benötigst jedoch die für diese Attacke notwendige Energie.) Wenn diese Karte an 1 deiner Pokémon angelegt ist, lege sie am Ende deines Zuges auf deinen Ablagestapel."
+	},
+
+	trainerType: "Tool",
+	regulationMark: "H",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794561,
+				tcgplayer: 590075
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794561,
+				tcgplayer: 590075
+			}
+		},
+	],
+
+	illustrator: "Studio Bora Inc.",
+
+}
+
+export default card

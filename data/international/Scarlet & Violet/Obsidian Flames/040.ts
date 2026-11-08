@@ -1,0 +1,97 @@
+import { Card } from "models/database/card"
+import Set from "../Obsidian Flames"
+
+const card: Card = {
+	dexId: [636],
+	set: Set,
+
+	name: {
+		'fr-fr': "Pyronille",
+		'en-us': "Larvesta",
+		'es-es': "Larvesta",
+		'it-it': "Larvesta",
+		'pt-br': "Larvesta",
+		'de-de': "Ignivor"
+	},
+
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 80,
+	types: ["Fire"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Fire"],
+
+		name: {
+			'fr-fr': "Flamboiement",
+			'en-us': "Flare",
+			'es-es': "Llama",
+			'it-it': "Fiammata",
+			'pt-br': "Chama",
+			'de-de': "Flackern"
+		},
+
+		damage: 10
+	}, {
+		cost: ["Fire", "Colorless"],
+
+		name: {
+			'fr-fr': "Bélier",
+			'en-us': "Take Down",
+			'es-es': "Derribo",
+			'it-it': "Riduttore",
+			'pt-br': "Desmantelar",
+			'de-de': "Bodycheck"
+		},
+
+		effect: {
+			'fr-fr': "Ce Pokémon s'inflige aussi 10 dégâts.",
+			'en-us': "This Pokémon also does 10 damage to itself.",
+			'es-es': "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 10 danni a se stesso.",
+			'pt-br': "Este Pokémon também causa 10 pontos de dano a si mesmo.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu."
+		},
+
+		damage: 40
+	}],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2",
+		},
+	],
+	retreat: 2,
+	regulationMark: "G",
+
+	description: {
+		'en-us': "This Pokémon was called the Larva That Stole the Sun. The fire Larvesta spouts from its horns can cut right through a sheet of iron.",
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725120,
+				tcgplayer: 509746,
+				cardtrader: 255600
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725120,
+				tcgplayer: 509746,
+				cardtrader: 255600
+			}
+		},
+	],
+
+	illustrator: "Yuka Morii",
+
+	
+}
+
+export default card

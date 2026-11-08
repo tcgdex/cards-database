@@ -1,0 +1,94 @@
+import { Card } from "models/database/card"
+import Set from "../Journey Together"
+
+const card: Card = {
+	dexId: [35],
+	set: Set,
+
+	name: {
+		'en-us': "Lillie's Clefairy ex",
+		'fr-fr': "Mélofée-ex de Lilie",
+		'es-es': "Clefairy ex de Lylia",
+		'de-de': "Lillys Piepi-ex",
+		'it-it': "Clefairy-ex di Lylia",
+		'pt-br': "Clefairy ex da Lílian",
+		'es-mx': "Clefairy ex de Lillie"
+	},
+
+	rarity: "Ultra Rare",
+	category: "Pokemon",
+	hp: 190,
+	types: ["Psychic"],
+	stage: "Basic",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'en-us': "Fairy Zone",
+			'fr-fr': 'Zone Féérique',
+			'es-es': "Zona Feérica",
+			'de-de': "Feenzone",
+			'it-it': "Area Folletto",
+			'pt-br': "Zona de Fadas",
+			'es-mx': "Zona Feérica"
+		},
+
+		effect: {
+			'en-us': "The Weakness of each of your opponent's {N} Pokémon in play is now {P}. (Apply Weakness as ×2.)",
+			'fr-fr': "La Faiblesse de chacun des Pokémon {N} en jeu de votre adversaire est maintenant de type {P}. (Appliquez une Faiblesse de ×2.)",
+			'es-es': "La Debilidad de cada uno de los Pokémon {N} en juego de tu rival pasa a ser {P}. (Aplica una Debilidad de × 2).",
+			'de-de': "Die Schwäche jedes {N}-Pokémon deines Gegners im Spiel ist jetzt {P}. (Verrechne Schwäche als ×2.)",
+			'it-it': "La debolezza di ciascuno dei Pokémon {N} in gioco del tuo avversario diventa {P}. La debolezza è ×2.",
+			'pt-br': "A Fraqueza de cada um dos Pokémon {N} do seu oponente em jogo agora é {P}. (Aplique Fraqueza de ×2.)",
+			'es-mx': "La Debilidad de cada uno de los Pokémon Dragon en juego de tu rival ahora es Psychic. (Aplica Debilidad de × 2)."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Psychic", "Colorless"],
+
+		name: {
+			'en-us': "Full Moon Rondo",
+			'fr-fr': "Rondo Pleine Lune",
+			'es-es': "Rondó Luna Llena",
+			'de-de': "Vollmondrondo",
+			'it-it': "Rondò Luna Piena",
+			'pt-br': "Cântico da Lua Cheia"
+		},
+
+		effect: {
+			'en-us': "This attack does 20 more damage for each Benched Pokémon (both yours and your opponent's).",
+			'fr-fr': "Cette attaque inflige 20 dégâts supplémentaires pour chaque Pokémon de Banc (les vôtres et ceux de votre adversaire).",
+			'es-es': "Este ataque hace 20 puntos de daño más por cada Pokémon en Banca (tanto tuyos como de tu rival).",
+			'de-de': "Diese Attacke fügt für jedes Pokémon auf der Bank (deiner und der deines Gegners) 20 Schadenspunkte mehr zu.",
+			'it-it': "Questo attacco infligge 20 danni in più per ogni Pokémon in panchina, sia tuo che del tuo avversario.",
+			'pt-br': "Este ataque causa 20 pontos de dano a mais para cada Pokémon no Banco (seus e do seu oponente)."
+		},
+
+		damage: "20+"
+	}],
+
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+	regulationMark: "I",
+	suffix: "ex",
+	illustrator: "5ban Graphics",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 817326,
+				tcgplayer: 623600
+			}
+		},
+	],
+}
+
+export default card

@@ -1,0 +1,37 @@
+import { Card } from "models/database/card"
+import Set from "../S12"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'zh-tw': "森林封印石",
+		'th-th': "หินปิดผนึกพงไพร",
+		'ja-jp': "森の封印石"
+	},
+
+	illustrator: "AYUMI ODASHIMA",
+	category: "Trainer",
+
+	effect: {
+		'zh-tw': "寶可夢道具卡，附於自己的寶可夢使用。1隻寶可夢只可附上1張寶可夢道具卡，並且保持附加狀態。",
+		'th-th': "การ์ดไอเท็มติดโปเกมอน ใช้ติดโปเกมอนฝ่ายเรา 1 ตัวติดได้ 1 ใบ และติดไปตลอด",
+		'ja-jp': "ポケモンのどうぐは、自分のポケモンにつけて使う。ポケモン1匹につき1枚だけつけられ、つけたままにする。"
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 680231,
+				tcgplayer: 570150,
+			},
+		},
+	],
+
+	trainerType: "Tool",
+	regulationMark: "F",
+	rarity: "Rare"
+}
+
+export default card

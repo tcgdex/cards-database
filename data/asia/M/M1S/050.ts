@@ -1,0 +1,49 @@
+import { Card } from "models/database/card"
+import Set from "../M1S"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ラティオス"
+	},
+	illustrator: "Uninori",
+	category: "Pokemon",
+	hp: 130,
+	types: ["Dragon"],
+	description: {
+		'ja-jp': "高い知能を持ち人間の言葉を理解する。争いを嫌う優しいポケモンだ。"
+	},
+	stage: "Basic",
+	abilities: [{
+		type: "Ability",
+		name: {
+			'ja-jp': "ラスターアシスト"
+		},
+		effect: {
+			'ja-jp': "自分の番に、自分の「メガラティアスex」がベンチからバトル場に出たとき、1回使える。自分のベンチポケモンについているエネルギーを好きなだけ選び、バトルポケモンにつけ替える。"
+		}
+	}],
+	attacks: [{
+		name: {
+			'ja-jp': "ドラゴンクロー"
+		},
+		damage: 130,
+		cost: ["Water", "Psychic", "Colorless"]
+	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840609,
+				tcgplayer: 647218,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "I",
+	rarity: "Uncommon",
+	dexId: [381]
+}
+
+export default card

@@ -1,0 +1,111 @@
+import { Card } from "models/database/card"
+import Set from "../Destined Rivals"
+
+const card: Card = {
+	dexId: [949],
+	set: Set,
+
+	name: {
+		'en-us': "Arven's Toedscruel",
+		'fr-fr': "Terracruel de Pepper",
+		'de-de': "Peppers Tenterra",
+		'it-it': "Toedscruel di Pepe",
+		'es-es': "Toedscruel de Damián",
+		'pt-br': "Toedscruel do Arven",
+		'es-mx': "Toedscruel de Damián"
+	},
+
+
+	illustrator: "Yuya Oka",
+
+	rarity: "Uncommon",
+	category: "Pokemon",
+	hp: 140,
+	types: ["Fighting"],
+	evolveFrom: {
+		'en-us': "Arven's Toedscool",
+		'fr-fr': "Terracool de Pepper",
+		'de-de': "Peppers Tentagra",
+		'it-it': "Toedscool di Pepe",
+		'es-es': "Toedscool de Damián",
+		'pt-br': "Toedscool do Arven",
+		'es-mx': "Toedscool de Damián"
+	},
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'en-us': "Pull",
+			'fr-fr': "Tirer",
+			'de-de': "Ziehen",
+			'it-it': "Tira",
+			'es-es': "Tirar",
+			'pt-br': "Puxar",
+			'es-mx': "Jalar"
+		},
+
+		effect: {
+			'en-us': "Switch in 1 of your opponent's Benched Pokémon to the Active Spot.",
+			'fr-fr': "Envoyez l'un des Pokémon de Banc de votre adversaire sur le Poste Actif.",
+			'de-de': "Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein.",
+			'it-it': "Sostituisci uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon in posizione attiva.",
+			'es-es': "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo.",
+			'pt-br': "Mande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo.",
+			'es-mx': "Cambia 1 de los Pokémon en Banca de tu rival por el Pokémon que esté en el Puesto Activo."
+		}
+	}, {
+		cost: ["Colorless", "Colorless", "Colorless"],
+
+		name: {
+			'en-us': "Reckless Charge",
+			'fr-fr': "Attaque Imprudente",
+			'de-de': "Waghalsiger Sturmangriff",
+			'it-it': "Carica Avventata",
+			'es-es': "Carga Descuidada",
+			'pt-br': "Carga Indomável",
+			'es-mx': "Carga Temeraria"
+		},
+
+		effect: {
+			'en-us': "This Pokémon also does 30 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 30 dégâts.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 30 Schadenspunkte zu.",
+			'it-it': "Questo Pokémon infligge anche 30 danni a se stesso.",
+			'es-es': "Este Pokémon también se hace 30 puntos de daño a sí mismo.",
+			'pt-br': "Este Pokémon também causa 30 pontos de dano a si mesmo.",
+			'es-mx': "Este Pokémon también se hace 30 puntos de daño a sí mismo."
+		},
+
+		damage: 120
+	}],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
+	retreat: 2,
+	regulationMark: "I",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 825984,
+				tcgplayer: 632918
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 825984,
+				tcgplayer: 632918
+			}
+		},
+	],
+}
+
+export default card

@@ -1,0 +1,51 @@
+import { Card } from "models/database/card";
+import Set from "../SV2a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "たべのこし",
+		'zh-tw': "吃剩的東西",
+		'th-th': "อาหารเหลือ",
+		'id-id': "Sisa Makanan",
+	},
+
+	illustrator: "Studio Bora Inc.",
+	category: "Trainer",
+
+	effect: {
+		'ja-jp': "自分の番の終わりに、このカードをつけているポケモンがバトル場にいるなら、そのポケモンのHPを「20」回復する。",
+		'zh-tw': "在自己的回合結束時，將附有這張卡的戰鬥寶可夢恢復「20」HP。",
+		'th-th': "เมื่อจบเทิร์นฝ่ายเรา ถ้าโปเกมอนที่ติดการ์ดนี้อยู่อยู่บนตำแหน่งต่อสู้ จะฟื้นฟู HP ของโปเกมอนนั้น [20]",
+		'id-id': "Pada akhir giliran sendiri, jika Pokémon yang mengenakan kartu ini ada di Arena Bertarung, pulihkan HP Pokémon tersebut sejumlah 20.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 719613,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 837540,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 837541,
+			},
+		},
+	],
+
+	trainerType: "Tool",
+	regulationMark: "G",
+	rarity: "Uncommon",
+};
+
+export default card;

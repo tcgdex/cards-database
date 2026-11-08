@@ -1,0 +1,120 @@
+import { Card } from "models/database/card"
+import Set from "../Stellar Crown"
+
+const card: Card = {
+	dexId: [601],
+	set: Set,
+
+	name: {
+		'en-us': "Klinklang",
+		'fr-fr': "Cliticlic",
+		'es-es': "Klinklang",
+		'it-it': "Klinklang",
+		'pt-br': "Klinklang",
+		'de-de': "Klikdiklak"
+	},
+
+	rarity: "Rare",
+	category: "Pokemon",
+	hp: 140,
+	types: ["Metal"],
+	evolveFrom: {
+		'en-us': "Klang",
+		'fr-fr': "Clic",
+		'es-es': "Klang",
+		'it-it': "Klang",
+		'pt-br': "Klang",
+		'de-de': "Kliklak"
+	},
+	stage: "Stage2",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'en-us': "Emergency Rotation",
+			'fr-fr': "Rotation d'Urgence",
+			'es-es': "Rotación de Emergencia",
+			'it-it': "Rotazione di Emergenza",
+			'pt-br': "Rotação Emergencial",
+			'de-de': "Notfallrotation"
+		},
+
+		effect: {
+			'en-us': "Once during your turn, if this Pokémon is in your hand and your opponent has any Stage 2 Pokémon in play, you may put this Pokémon onto your Bench.",
+			'fr-fr': "Une fois pendant votre tour, si ce Pokémon est dans votre main et que votre adversaire a au moins un Pokémon de Niveau 2 en jeu, vous pouvez placer ce Pokémon sur votre Banc.",
+			'es-es': "Una vez durante tu turno, si este Pokémon está en tu mano y tu rival tiene algún Pokémon de Fase 2 en juego, puedes poner este Pokémon en tu Banca.",
+			'it-it': "Una sola volta durante il tuo turno, se hai questo Pokémon in mano e il tuo avversario ha dei Pokémon di Fase 2 in gioco, puoi mettere questo Pokémon nella tua panchina.",
+			'pt-br': "Uma vez durante o seu turno, se este Pokémon estiver na sua mão e seu oponente tiver algum Pokémon Estágio 2 em jogo, você poderá colocar este Pokémon no seu Banco.",
+			'de-de': "Einmal während deines Zuges, wenn dieses Pokémon auf deiner Hand ist und dein Gegner mindestens 1 Phase-2-Pokémon im Spiel hat, kannst du dieses Pokémon auf deine Bank legen."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			'en-us': "Hyper Ray",
+			'fr-fr': "Hyper Rayon",
+			'es-es': "Hiperdescarga",
+			'it-it': "Granraggio",
+			'pt-br': "Hiperfeixe",
+			'de-de': "Hyperlicht"
+		},
+
+		effect: {
+			'en-us': "Discard all Energy from this Pokémon.",
+			'fr-fr': "Défaussez toutes les Énergies de ce Pokémon.",
+			'es-es': "Descarta todas las Energías de este Pokémon.",
+			'it-it': "Scarta tutte le Energie da questo Pokémon.",
+			'pt-br': "Descarte todas as Energias deste Pokémon.",
+			'de-de': "Lege alle Energien von diesem Pokémon auf deinen Ablagestapel."
+		},
+
+		damage: 130
+	}],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Grass",
+			value: "-30",
+		},
+	],
+	retreat: 3,
+	regulationMark: "H",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 785955,
+				tcgplayer: 567327
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 785955,
+				tcgplayer: 567327
+			}
+		},
+		{
+			type: "holo",
+			foil: "cosmos",
+			thirdParty: {
+				cardmarket: 819401,
+			}
+		},
+	],
+
+	illustrator: "Tonji Matsuno",
+
+}
+
+export default card

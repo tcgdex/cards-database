@@ -1,0 +1,97 @@
+import { Card } from 'models/database/card'
+import Set from '../Boundaries Crossed'
+
+const card: Card = {
+	name: {
+		'en-us': "Bellossom",
+		'fr-fr': "Joliflor",
+		'es-es': "Bellossom",
+		'it-it': "Bellossom",
+		'pt-br': "Bellossom",
+		'de-de': "Blubella"
+	},
+
+	illustrator: "Mizue",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		182,
+	],
+
+	hp: 110,
+
+	types: [
+		"Grass",
+	],
+
+	evolveFrom: {
+		'en-us': "Gloom",
+		'fr-fr': "Ortide",
+	},
+
+	stage: "Stage2",
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+			],
+			name: {
+				'en-us': "Grass Knot",
+				'fr-fr': "Nœud Herbe",
+			},
+			effect: {
+				'en-us': "Does 20 more damage for each Colorless in the Defending Pokémon's Retreat Cost.",
+				'fr-fr': "Inflige 20 dégâts supplémentaires pour chaque Colorless dans le coût de Retraite du Pokémon Défenseur.",
+			},
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Petal Dance",
+				'fr-fr': "Danse-Fleur",
+			},
+			effect: {
+				'en-us': "Flip 3 coins. This attack does 50 damage times the number of heads. This Pokémon is now Confused.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 50 dégâts multipliés par le nombre de côtés face. Ce Pokémon est maintenant Confus.",
+			},
+			damage: 50,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Water",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "When the heavy rainfall season ends, it is drawn out by warm sunlight to dance in the open.",
+	},
+
+	thirdParty: {
+		cardmarket: 280591,
+		tcgplayer: 83802
+	}
+}
+
+export default card

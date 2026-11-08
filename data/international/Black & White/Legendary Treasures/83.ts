@@ -1,0 +1,82 @@
+import { Card } from 'models/database/card'
+import Set from '../Legendary Treasures'
+
+const card: Card = {
+	name: {
+		'en-us': "Stunfisk",
+	},
+
+	illustrator: "Yuka Morii",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		618,
+	],
+
+	hp: 100,
+
+	types: [
+		"Fighting",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+			],
+			name: {
+				'en-us': "Muddy Water",
+			},
+			effect: {
+				'en-us': "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Rumble",
+			},
+			effect: {
+				'en-us': "The Defending Pokémon can't retreat during your opponent's next turn.",
+			},
+			damage: 40,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Lightning",
+			value: "-20"
+		},
+	],
+
+	retreat: 3,
+
+	description: {
+		'en-us': "It conceals itself in the mud of the seashore. Then it waits. When prey touch it, it delivers a jolt of electricity.",
+	},
+
+	thirdParty: {
+		cardmarket: 281136,
+		tcgplayer: 89582
+	}
+}
+
+export default card

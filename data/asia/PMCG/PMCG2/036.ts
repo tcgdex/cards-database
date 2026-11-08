@@ -1,0 +1,43 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG2"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ニャース",
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [52],
+	hp: 50,
+	types: ["Colorless"],
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				'ja-jp': "給料日",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。頭の場合は、カードを描きます。",
+			},
+			damage: 10,
+		},
+	],
+
+	retreat: 1,
+
+	variants : [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 576628
+			},
+		},
+	],
+};
+
+export default card

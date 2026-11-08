@@ -1,0 +1,44 @@
+import { Card } from 'models/database/card'
+import Set from '../Deoxys'
+
+const card: Card = {
+	name: {
+		'en-us': "Energy Charge",
+		'fr-fr': "Recharge de puissance",
+		'de-de': "Energieaufladung"
+	},
+
+	illustrator: "Keiji Kinebuchi",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+	energyType: "Special",
+
+	effect: {
+		'en-us': "Flip a coin. If heads, search your discard pile for 2 Energy cards (1 if there is only 1), show them to your opponent, and shuffle them into your deck.",
+		'fr-fr': "Lancez une pièce. Si c'est face, cherchez dans votre pile de défausse 2 cartes Énergie (ou 1 s'il n'y en a qu'1), montrez-les à votre adversaire et mélangez-les à votre deck.",
+		'de-de': "Wirf eine Münze. Mische bei 'Kopf' 2 Energiekarten aus deinem Ablagestapel in dein Deck (1, wenn du nur 1 hast)."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85211,
+				cardmarket: 276489
+			},
+		},
+		{
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 85211,
+				cardmarket: 276489
+			},
+		},
+	],
+
+}
+
+export default card

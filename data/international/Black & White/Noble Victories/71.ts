@@ -1,0 +1,76 @@
+import { Card } from 'models/database/card'
+import Set from '../Noble Victories'
+
+const card: Card = {
+	name: {
+		'en-us': "Golett",
+		'fr-fr': "Gringolem",
+		'es-es': "Golett",
+		'it-it': "Golett",
+		'pt-br': "Golett",
+		'de-de': "Golbit"
+	},
+
+	illustrator: "Masakazu Fukuda",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		622,
+	],
+
+	hp: 80,
+
+	types: [
+		"Fighting",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Dynamic Punch",
+				'fr-fr': "Dynamopoing",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage and the Defending Pokémon is now Confused.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires et le Pokémon Défenseur est maintenant Confus.",
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Lightning",
+			value: "-20"
+		},
+	],
+
+	retreat: 3,
+
+	description: {
+		'en-us': "These Pokémon are thought to have been created by the science of an ancient and mysterious civilization.",
+	},
+
+	thirdParty: {
+		cardmarket: 280194,
+		tcgplayer: 85832
+	}
+}
+
+export default card

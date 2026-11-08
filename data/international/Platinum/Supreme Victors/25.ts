@@ -1,0 +1,101 @@
+import { Card } from 'models/database/card'
+import Set from '../Supreme Victors'
+
+const card: Card = {
+	name: {
+		'en-us': "Dodrio",
+		'fr-fr': "Dodrio",
+		'de-de': "Dodri"
+	},
+
+	illustrator: "Kouki Saitou",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [85],
+
+	hp: 80,
+
+	types: [
+		"Colorless"
+	],
+
+	evolveFrom: {
+		'en-us': "Doduo",
+		'fr-fr': "Doduo"
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				'en-us': "Echo Draw",
+				'fr-fr': "Pioche renvoi",
+				'de-de': "Echo-Zug"
+			},
+			effect: {
+				'en-us': "Once during your turn (before your attack), you may draw a card. This power can't be used if Dodrio is affected by a Special Condition.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), vous pouvez piocher une carte. Ce pouvoir ne peut pas être utilisé si Dodrio est affecté par un État Spécial.",
+				'de-de': "Einmal während deines Zuges (vor deinem Angriff) kannst du 1 Karte ziehen. Diese Poké-Power kann nicht benutzt werden, wenn Dodri von einem Speziellen Zustand betroffen ist."
+			}
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Drill Peck",
+				'fr-fr': "Bec vrille",
+				'de-de': "Bohrschnabel"
+			},
+
+			damage: 50,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "+20"
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+	description: {
+		'en-us': "When Doduo evolves into this odd breed, one of its heads splits into two. It runs at nearly 40 mph."
+	},
+
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278716,
+				tcgplayer: 84853,
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278716,
+				tcgplayer: 84853
+			}
+		},
+	],
+
+}
+
+export default card

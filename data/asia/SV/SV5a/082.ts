@@ -1,0 +1,65 @@
+import { Card } from "models/database/card"
+import Set from "../SV5a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "サケブシッポex"
+	},
+
+	illustrator: "PLANETA Hiiragi",
+	category: "Pokemon",
+	hp: 190,
+	types: ["Psychic"],
+	stage: "Basic",
+	suffix: "EX",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'ja-jp': "ぜっきょう"
+		},
+
+		effect: {
+			'ja-jp': "このワザは、後攻プレイヤーの最初の番にだけ使える。次の相手の番、相手は手札からサポートを出して使えない。"
+		}
+	}, {
+		cost: ["Psychic", "Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "かみくだく"
+		},
+
+		damage: 120,
+
+		effect: {
+			'ja-jp': "相手のバトルポケモンについているエネルギーを1個選び、トラッシュする。"
+		}
+	}],
+
+	weaknesses: [{
+		type: "Darkness",
+		value: "×2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "－30"
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 761542,
+				tcgplayer: 566137,
+			},
+		},
+	],
+
+	retreat: 1
+}
+
+export default card

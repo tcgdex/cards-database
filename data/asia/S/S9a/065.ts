@@ -1,0 +1,42 @@
+import { Card } from "models/database/card"
+import Set from "../S9a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'zh-tw': "杜娟",
+		'ja-jp': "ツツジ"
+	},
+
+	illustrator: "Megumi Mizutani",
+	category: "Trainer",
+
+	effect: {
+		'zh-tw': "這張卡只可在對手剩餘獎賞卡的張數為3張以下時使用。雙方玩家各將手牌全部放回牌庫並重洗。然後，從牌庫抽卡，自己抽出6張，對手抽出2張。",
+		'ja-jp': "このカードは、相手のサイドの残り枚数が3枚以下のときにしか使えない。\n\nおたがいのプレイヤーは、それぞれ手札をすべて山札にもどして切る。その後、自分は6枚、相手は2枚、山札を引く。"
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 609833,
+				tcgplayer: 570635,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				tcgplayer: 577643,
+			},
+		},
+	],
+
+	trainerType: "Supporter",
+	regulationMark: "F",
+	rarity: "Uncommon"
+}
+
+export default card

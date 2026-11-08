@@ -1,0 +1,60 @@
+import { Card } from "models/database/card"
+import Set from "../M1S"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "メガサーナイトex"
+	},
+	illustrator: "Raita Kazama",
+	category: "Pokemon",
+	hp: 360,
+	types: ["Psychic"],
+	stage: "Stage2",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 840646,
+				tcgplayer: 647206,
+			},
+		},
+	],
+
+	evolveFrom: {
+		'ja-jp': "キルリア"
+	},
+	attacks: [{
+		name: {
+			'ja-jp': "あふれるねがい"
+		},
+		effect: {
+			'ja-jp': "自分のベンチポケモン全員に、山札から「基本超エネルギー」を1枚ずつつける。そして山札を切る。"
+		},
+		cost: ["Psychic"]
+	}, {
+		name: {
+			'ja-jp': "メガシンフォニア"
+		},
+		damage: "50×",
+		effect: {
+			'ja-jp': "自分のポケモン全員についている超エネルギーの数×50ダメージ。"
+		},
+		cost: ["Psychic"]
+	}],
+	weaknesses: [{
+		type: "Darkness",
+		value: "×2"
+	}],
+	resistances: [{
+		type: "Fighting",
+		value: "-30"
+	}],
+	retreat: 2,
+	regulationMark: "I",
+	rarity: "Special illustration rare",
+	suffix: "EX",
+	dexId: [282]
+}
+
+export default card

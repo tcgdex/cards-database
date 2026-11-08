@@ -1,0 +1,91 @@
+import { Card } from 'models/database/card'
+import Set from '../Legendary Collection'
+
+const card: Card = {
+	name: {
+		'en-us': "Rapidash"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [78],
+
+	hp: 70,
+
+	types: [
+		"Fire"
+	],
+
+	evolveFrom: {
+		'en-us': "Ponyta"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Stomp"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 10 more damage; if tails, this attack does 20 damage."
+			},
+			damage: "20+",
+
+		},
+		{
+			cost: [
+				"Fire",
+				"Fire",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Agility"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Rapidash."
+			},
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+
+	description: {
+		'en-us': "Very competitive, this Pokémon will chase anything that moves fast in the hope of racing it."
+	},
+
+	variants: [
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274825,
+				tcgplayer: 88579
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88579,
+				cardmarket: 274825
+			}
+		}
+	],
+
+	retreat: 0
+}
+
+export default card

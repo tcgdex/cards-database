@@ -1,0 +1,42 @@
+import { Card } from "models/database/card";
+import Set from "../S12a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "霧の水晶",
+		'zh-tw': "霧之水晶",
+		'th-th': "คริสตัลหมอก",
+	},
+
+	illustrator: "sadaji",
+	category: "Trainer",
+
+	effect: {
+		'ja-jp': "自分の山札から[超]タイプのたねポケモンまたは[超]エネルギーを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
+		'zh-tw': "從自己的牌庫選擇1張【超】屬性的【基礎】寶可夢卡或者【超】能量卡，在給對手看過後加入手牌。並且重洗牌庫。",
+		'th-th': "เลือกโปเกมอน [พื้นฐาน] ประเภท [พลังจิต] หรือการ์ดพลังงาน [พลังจิต] 1 ใบจากสำรับการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู นำขึ้นมือ แล้วสับสำรับการ์ด",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 687696,
+				tcgplayer: 571672,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577492,
+			},
+		},
+	],
+
+	trainerType: "Item",
+	regulationMark: "E",
+	rarity: "None",
+};
+
+export default card;

@@ -1,0 +1,54 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG6"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "カツラのロコン",
+	},
+	illustrator: "Ken Sugimori",
+
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [37],
+	hp: 40,
+	types: ["Fire"],
+	stage: "Basic",
+
+	abilities: [
+		{
+			name: {
+				'ja-jp': "自然の癒し",
+			},
+			type: "Pokemon Power",
+			effect: {
+				'ja-jp': "ターン中に（攻撃の前）</em> </em>、BlaineのVulpixから1つのダメージカウンターを削除できます。 BlaineのVulpixが眠っている、混乱し、麻痺している場合、このパワーは使用できません。",
+			},
+		}],
+
+	attacks: [
+		{
+			cost: ["Fire", "Colorless", "Colorless"],
+			name: {
+				'ja-jp': "テールファン",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。",
+			},
+			damage: 20,
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575305
+			},
+		},
+	],
+};
+
+export default card

@@ -1,0 +1,111 @@
+import { Card } from "models/database/card"
+import Set from "../Surging Sparks"
+
+const card: Card = {
+	dexId: [956],
+	set: Set,
+
+	name: {
+		'en-us': "Espathra",
+		'fr-fr': "Cléopsytra",
+		'es-es': "Espathra",
+		'it-it': "Espathra",
+		'pt-br': "Espathra",
+		'de-de': "Psiopatra"
+	},
+
+	rarity: "Uncommon",
+	category: "Pokemon",
+	hp: 120,
+	types: ["Psychic"],
+	evolveFrom: {
+		'en-us': "Flittle",
+		'fr-fr': "Flotillon",
+		'es-es': "Flittle",
+		'it-it': "Flittle",
+		'pt-br': "Flittle",
+		'de-de': "Flattutu"
+	},
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'en-us': "Mystical Eyes",
+			'fr-fr': "Yeux Mystiques",
+			'es-es': "Ojos Místicos",
+			'it-it': "Occhi Mistici",
+			'pt-br': "Olhos Místicos",
+			'de-de': "Mystische Augen"
+		},
+
+		effect: {
+			'en-us': "Devolve 1 of your opponent's evolved Pokémon by putting the highest Stage Evolution card on it into your opponent's hand.",
+			'fr-fr': "Faites dés-évoluer l'un des Pokémon évolués de votre adversaire en plaçant dans la main de votre adversaire la carte Évolution la plus élevée placée sur celui-ci.",
+			'es-es': "Haz involucionar a 1 de los Pokémon evolucionados de tu rival poniendo la carta de Evolución de fase más alta que tenga sobre él en la mano de tu rival.",
+			'it-it': "Annulla l'evoluzione di uno dei Pokémon evoluti del tuo avversario prendendo la carta Evoluzione di fase più alta presente su di esso e aggiungendola alle carte nella mano del tuo avversario.",
+			'pt-br': "Reverta a evolução de 1 dos Pokémon evoluídos do seu oponente colocando a carta de Evolução de Estágio mais alto sobre ele na mão do seu oponente.",
+			'de-de': "Rückentwickle 1 entwickeltes Pokémon deines Gegners, indem du deinem Gegner die Karte mit der höchsten Entwicklungsphase auf die Hand gibst."
+		}
+	}, {
+		cost: ["Psychic", "Colorless"],
+
+		name: {
+			'en-us': "Spiral Drain",
+			'fr-fr': "Spirale Épuisante",
+			'es-es': "Drenaje Espiral",
+			'it-it': "Assorbimento Spirale",
+			'pt-br': "Dreno Espiral",
+			'de-de': "Spiralsauger"
+		},
+
+		effect: {
+			'en-us': "Heal 30 damage from this Pokémon.",
+			'fr-fr': "Soignez 30 dégâts de ce Pokémon.",
+			'es-es': "Cura 30 puntos de daño a este Pokémon.",
+			'it-it': "Cura questo Pokémon da 30 danni.",
+			'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+			'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
+		},
+
+		damage: 60
+	}],
+
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
+	retreat: 1,
+	regulationMark: "H",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 794405,
+				tcgplayer: 589935
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 794405,
+				tcgplayer: 589935
+			}
+		},
+	],
+
+	illustrator: "Anesaki Dynamic",
+
+}
+
+export default card

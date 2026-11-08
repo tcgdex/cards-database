@@ -1,0 +1,83 @@
+import { Card } from 'models/database/card'
+import Set from '../DP trainer Kit (Lucario)'
+
+const card: Card = {
+	dexId: [67],
+	set: Set,
+
+	name: {
+		'en-us': "Machoke",
+		'fr-fr': "Machopeur"
+	},
+
+	illustrator: "Kouki Saitou",
+	rarity: "None",
+	category: "Pokemon",
+	stage: "Stage1",
+
+	hp: 80,
+
+	types: [
+		"Fighting"
+	],
+
+	evolveFrom: {
+		'en-us': "Machop",
+		'fr-fr': "Machoc"
+	},
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Karate Chop",
+				'fr-fr': "Poing-Karaté"
+			},
+			effect: {
+				'en-us': "Does 40 damage minus 10 damage for each damage counter on Machoke.",
+				'fr-fr': "Inflige 40 dégâts moins 10 dégâts pour chaque marqueur de dégât sur Machopeur."
+			},
+			damage: "40-"
+		},
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Seismic Toss",
+				'fr-fr': "Frappe Atlas"
+			},
+			damage: "60"
+		}
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "+20"
+		},
+	],
+
+	description: {
+		'en-us': "MACHOKE's boundless power is very dangerous, so it wears a belt that suppresses its energy."
+	},
+
+	retreat: 2,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278016,
+				tcgplayer: 86982
+			}
+		},
+	],
+
+}
+
+export default card

@@ -1,0 +1,82 @@
+import { Card } from 'models/database/card'
+import Set from '../Rising Rivals'
+
+const card: Card = {
+	name: {
+		'en-us': "Floatzel GL LV.X",
+		'fr-fr': "Mustéflott  Niv. X",
+		'de-de': "Bojelin GL"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Rare Holo LV.X",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [419],
+
+	hp: 100,
+
+	types: [
+		"Water"
+	],
+
+	stage: "LEVEL-UP",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Water Rescue",
+				'fr-fr': "Sauvetage nautique",
+				'de-de': "Wasserbergung"
+			},
+			effect: {
+				'en-us': "Whenever any of your Water Pokémon (excluding any Floatzel GL) is Knocked Out by damage from your opponent's attack, you may put that Pokémon and all cards that were attached to it from your discard pile into your hand.",
+				'fr-fr': "Lorsque que n'importe lequel de vos Pokémon Water (tous les Mustéflott  mis K.O par les dégâts d'une attaque de votre adversaire exclus), vous pouvez placer ce Pokémon ainsi que toutes les cartes qui lui sont attachées de votre pile de défausse à votre main.",
+				'de-de': "Jedes Mal, wenn 1 deiner -Pokémon (außer allen Bojelin GL) durch einen Angriff deines Gegners kampfunfähig wird, kannst du dieses Pokémon und alle Karten, die an es angelegt waren, aus deinem Ablagestapel auf deine Hand nehmen."
+			}
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Water",
+			],
+			name: {
+				'en-us': "Energy Cyclone",
+				'fr-fr': "Énergie Tourbillon",
+				'de-de': "Energie-Zyklon"
+			},
+			effect: {
+				'en-us': "Choose as many Energy cards from your hand as you like and show them to your opponent. This attack does 20 damage times the number of Energy cards you chose. Put those Energy cards on top of your deck. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez autant de cartes Énergie de votre main que vous le voulez et montrez-les à votre adversaire. Cette attaque inflige 20 dégâts multipliés par le nombre de cartes Énergie que vous avez choisit. Placez ces cartes Énergie au dessus de votre deck. Ensuite, mélangez votre deck.",
+				'de-de': "Wähle beliebig viele Energiekarten von deiner Hand und zeige sie deinem Gegner. Dieser Angriff fügt 20 Schadenspunkte mal der Anzahl der gewählten Energiekarten zu. Lege diese Energiekarten auf dein Deck. Mische dein Deck danach."
+			},
+			damage: "20x",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "x2"
+		},
+	],
+	retreat: 0,
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278678,
+				tcgplayer: 85518
+			}
+		},
+	],
+
+}
+
+export default card

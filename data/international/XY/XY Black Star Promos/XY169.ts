@@ -1,0 +1,25 @@
+import { Card } from 'models/database/card'
+import Set from '../XY Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Garchomp Spirit Link",
+		'fr-fr': "Lien Spirituel Carchacrok"
+	},
+
+	illustrator: "5ban Graphics",
+	rarity: "Promo",
+	category: "Trainer",
+	set: Set,
+	trainerType: "Tool",
+
+	effect: {
+		'en-us': "Attach a Pokémon Tool to 1 of your Pokémon that doesn't already have a Pokémon Tool attached to it. Your turn does not end if the Pokémon this card is attached to becomes M Garchomp-EX. You may play as many Item cards as you like during your turn (before your attack).",
+	},
+
+	thirdParty: {
+		cardmarket: 295160
+	}
+}
+
+export default card

@@ -1,0 +1,34 @@
+import { Card } from "models/database/card";
+import Set from "../S11";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ネジキ",
+		'zh-tw': "捩木",
+	},
+
+	illustrator: "Hideki Ishikawa",
+	category: "Trainer",
+
+	effect: {
+		'ja-jp': "自分のトラッシュからたねポケモンを1枚選び、自分の場のたねポケモン1匹と入れ替える（ついているカード・ダメカン・特殊状態・効果などは、すべて引きつぐ）。入れ替えたポケモンはトラッシュする。",
+		'zh-tw': "從自己的棄牌區選擇1張【基礎】寶可夢卡，與自己的場上的1隻【基礎】寶可夢互換（所附加的卡・傷害指示物・特殊狀態・效果等全部保留）。將換下的寶可夢丟棄。",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 667972,
+				tcgplayer: 570028,
+			},
+		},
+	],
+
+	trainerType: "Supporter",
+	regulationMark: "F",
+	rarity: "Uncommon",
+};
+
+export default card;

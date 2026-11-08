@@ -1,0 +1,55 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set'
+
+const card: Card = {
+	name: {
+		'en-us': "Pokémon Flute",
+		'fr-fr': "Flûte Pokémon",
+		'de-de': "Pokémon-Flöte",
+		'it-it': "Poké Flauto"
+	},
+
+	illustrator: "Keiji Kinebuchi",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'en-us': "Choose 1 Basic Pokémon card from your opponent's discard pile and put it onto his or her Bench. (You can't play Pokémon Flute if your opponent's Bench is full.)",
+		'fr-fr': "Choisissez 1 carte Pokémon de base dans la pile de défausse de votre adversaire et placez-la sur son Banc. (Vous ne pouvez pas jouer Flûte Pokémon si le Banc de votre adversaire est plein).",
+		'de-de': "Wähle eine Basis-Pokémon-Karte vom Ablagestapel Deines Gegners und platziere sie auf seiner Bank. (Du kannst Pokémon-Flöte nicht spielen, falls die Bank Deines Gegners voll ist.)",
+		'it-it': "Scegli un Pokémon Base dalla pila degli scarti del tuo avversario e mettilo nella sua Panchina. (Se la Panchina del tuo avversario è già completa, non puoi giocare Poké Flauto.)",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273781,
+				tcgplayer: 108647
+			},
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107083
+			},
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107083
+			},
+		},
+		{
+			type: "normal",
+			subtype: "1999-2000-copyright",
+		}
+	],
+}
+
+export default card

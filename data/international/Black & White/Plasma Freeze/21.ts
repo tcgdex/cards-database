@@ -1,0 +1,69 @@
+import { Card } from 'models/database/card'
+import Set from '../Plasma Freeze'
+
+const card: Card = {
+	name: {
+		'en-us': "Wooper",
+		'fr-fr': "Axoloto",
+		'es-es': "Wooper",
+		'it-it': "Wooper",
+		'pt-br': "Wooper",
+		'de-de': "Felino"
+	},
+
+	illustrator: "sui",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		194,
+	],
+
+	hp: 70,
+
+	types: [
+		"Water",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Slam",
+				'fr-fr': "Souplesse",
+			},
+			effect: {
+				'en-us': "Flip 2 coins. This attack does 20 damage times the number of heads.",
+				'fr-fr': "Lancez 2 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de côtés face.",
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+	retreat: 2,
+
+	description: {
+		'en-us': "When walking on land, it covers its body with a poisonous film that keeps its skin from dehydrating.",
+	},
+
+	thirdParty: {
+		cardmarket: 280899,
+		tcgplayer: 90638
+	}
+}
+
+export default card

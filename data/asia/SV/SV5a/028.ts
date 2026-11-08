@@ -1,0 +1,73 @@
+import { Card } from "models/database/card"
+import Set from "../SV5a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "エリキテル",
+		'zh-tw': "傘電蜥",
+		'th-th': "เอลิคิเทล"
+	},
+
+	illustrator: "Taiga Kayama",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [694],
+	hp: 60,
+	types: ["Lightning"],
+
+	description: {
+		'ja-jp': "頭の ひだを 広げ 太陽の 光で 発電すると パワフルな 電気技を 出せるようになる。",
+		'zh-tw': "當牠張開頭部的褶邊用太陽光發電，就能使出 威力強大的電屬性招式。",
+		'th-th': "เมื่อกางแผ่นที่หัวแล้วผลิตไฟฟ้าจากแสงอาทิตย์จะสามารถปล่อยท่าไฟฟ้าที่รุนแรงได้"
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'ja-jp': "もってくる",
+			'zh-tw': "呼喚",
+			'th-th': "รวบรวม"
+		},
+
+		effect: {
+			'ja-jp': "自分の山札を1枚引く。",
+			'zh-tw': "從自己的牌庫抽出1張卡。",
+			'th-th': "จั่วการ์ด 1 ใบจากสำรับการ์ดฝ่ายเรา"
+		}
+	}, {
+		cost: ["Lightning"],
+
+		name: {
+			'ja-jp': "バチバチ",
+			'zh-tw': "劈哩啪啦",
+			'th-th': "ประกายไฟ"
+		},
+
+		damage: 10
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 761488,
+				tcgplayer: 566083,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "H",
+}
+
+export default card

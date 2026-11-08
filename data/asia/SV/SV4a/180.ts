@@ -1,0 +1,44 @@
+import { Card } from "models/database/card"
+import Set from "../SV4a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "ペパー",
+		'zh-tw': "派帕",
+		'th-th': "เปปเปอร์",
+		'id-id': "Arvin"
+	},
+
+	illustrator: "GIDORA",
+	category: "Trainer",
+
+	effect: {
+		'ja-jp': "自分の山札から「グッズ」と「ポケモンのどうぐ」を1枚ずつ選び、相手に見せて、手札に加える。そして山札を切る。",
+		'zh-tw': "從自己的牌庫選擇「物品」卡與「寶可夢道具」卡各1張，在給對手看過後加入手牌。並且重洗牌庫。",
+		'th-th': "เลือกการ์ด [ไอเท็ม] และ การ์ด [ไอเท็มติดโปเกมอน] อย่างละ 1 ใบจากสำรับการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู นำขึ้นมือ แล้วสับสำรับการ์ด",
+		'id-id': "Pilih Item dan Pokémon Tool masing-masing 1 lembar dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 746562,
+				tcgplayer: 567581,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577408,
+			},
+		},
+	],
+
+	trainerType: "Supporter",
+	regulationMark: "G"
+}
+
+export default card

@@ -1,0 +1,98 @@
+import { Card } from 'models/database/card'
+import Set from '../Noble Victories'
+
+const card: Card = {
+	name: {
+		'en-us': "Carracosta",
+		'fr-fr': "Mégapagos",
+		'es-es': "Carracosta",
+		'it-it': "Carracosta",
+		'pt-br': "Carracosta",
+		'de-de': "Karippas"
+	},
+
+	illustrator: "match",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		565,
+	],
+
+	hp: 140,
+
+	types: [
+		"Water",
+	],
+
+	evolveFrom: {
+		'en-us': "Tirtouga",
+		'fr-fr': "Carapagos",
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'en-us': "Solid Rock",
+				'fr-fr': "Solide Roc",
+				'es-es': "Roca Sólida",
+				'it-it': "Solidroccia",
+				'pt-br': "Rocha Sólida",
+				'de-de': "Felskern"
+			},
+			effect: {
+				'en-us': "If any damage is done to this Pokémon by attacks, flip a coin. If heads, reduce that damage by 50 (after applying Weakness and Resistance).",
+				'fr-fr': "Si des dégâts sont infligés à ce Pokémon par des attaques, lancez une pièce. Si c’est face, les dégâts sont réduits de 50 (après application de la Faiblesse et de la Résistance).",
+				'es-es': "Si se inflige cualquier daño a este Pokémon por ataques, lanza una moneda. Si sale cara, reduce ese daño en 50 (después de aplicar Debilidad y Resistencia).",
+				'it-it': "Se questo Pokémon subisce danni da attacchi, lancia una moneta. Se esce testa, i danni sono ridotti di 50, dopo aver applicato debolezza e resistenza.",
+				'pt-br': "Se qualquer dano for causado a este Pokémon por ataques, jogue uma moeda. Se sair cara, reduza os danos em 50 (após aplicar Fraqueza e Resistência).",
+				'de-de': "Wirf 1 Münze, wenn diesem Pokémon durch Angriffe Schaden zugefügt wird. Bei „Kopf“ wird der Schaden um 50 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Crunch",
+				'fr-fr': "Mâchouille",
+			},
+			effect: {
+				'en-us': "Discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Défaussez une Énergie attachée au Pokémon Défenseur.",
+			},
+			damage: 80,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+	retreat: 4,
+
+	description: {
+		'en-us': "They can live both in the ocean and on land. A slap from one of them is enough to open a hole in the bottom of a tanker.",
+	},
+
+	thirdParty: {
+		cardmarket: 280149,
+		tcgplayer: 84109
+	}
+}
+
+export default card

@@ -1,0 +1,71 @@
+import { Card } from "models/database/card";
+import Set from "../S12a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "パンプジン",
+		'zh-tw': "南瓜怪人",
+		'th-th': "พัมพ์จิน",
+	},
+
+	illustrator: "Megumi Higuchi",
+	category: "Pokemon",
+	hp: 120,
+	types: ["Psychic"],
+
+	description: {
+		'ja-jp': "新月の 夜 玄関の ドアを パンプジンが ノックする。 開けた 人を あの世へ 連れて行くのだ。",
+		'zh-tw': "南瓜怪人會在朔月的夜裡去別人家門口敲門。開了門的人 會被牠帶往另一個世界。",
+		'th-th': "พัมพ์จินจะมาเคาะประตูบ้านในคืนพระจันทร์ข้างขึ้น ใครที่เปิดประตูจะถูกพาไปยังโลกหลังความตาย",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "ひゃっきやこう",
+				'zh-tw': "百鬼夜行",
+				'th-th': "ขบวนร้อยอสูร",
+			},
+			damage: "60×",
+			cost: ["Colorless", "Colorless"],
+			effect: {
+				'ja-jp': "自分の山札を上から6枚オモテにする。その中にある[超]ポケモンの数×60ダメージ。オモテにした[超]ポケモンは山札にもどして切る。残りのカードはトラッシュする。",
+				'zh-tw': "將自己的牌庫上方6張卡翻到正面。造成其中的【超】寶可夢的數量×60點傷害。將翻到正面的【超】寶可夢放回牌庫並重洗。將剩餘卡丟棄。",
+				'th-th': "หงายการ์ด 6 ใบจากด้านบนของสำรับการ์ดฝ่ายเรา แดเมจจะเท่ากับจำนวนการ์ดโปเกมอน [พลังจิต] ที่อยู่ในนั้น x60 นำการ์ดโปเกมอน [พลังจิต] ที่หงายไว้ใส่กลับไปในสำรับการ์ดแล้วสับ ทิ้งการ์ดที่เหลือที่ตำแหน่งทิ้งการ์ด",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Darkness", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 687542,
+				tcgplayer: 571600,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577464,
+			},
+		},
+	],
+
+	evolveFrom: {
+		'ja-jp': "バケッチャ",
+	},
+
+	retreat: 2,
+	regulationMark: "E",
+	rarity: "None",
+	dexId: [711],
+};
+
+export default card;

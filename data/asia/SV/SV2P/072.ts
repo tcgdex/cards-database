@@ -1,0 +1,55 @@
+import { Card } from "models/database/card"
+import Set from "../SV2P"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "アノクサ"
+	},
+
+	illustrator: "sowsow",
+	category: "Pokemon",
+	dexId: [946],
+	hp: 50,
+	types: ["Grass"],
+
+	description: {
+		'ja-jp': "成仏できない 魂が 風に 吹かれているうち 枯草を 巻き込んで ポケモンになった。"
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Grass"],
+
+		name: {
+			'ja-jp': "ちょっとすいとる"
+		},
+
+		damage: 10,
+
+		effect: {
+			'ja-jp': "このポケモンのHPを「10」回復する。"
+		}
+	}],
+
+	weaknesses: [{
+		type: "Fire",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 707639,
+				tcgplayer: 567829,
+			},
+		},
+	],
+
+	retreat: 1
+}
+
+export default card

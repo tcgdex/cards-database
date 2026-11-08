@@ -1,0 +1,56 @@
+import { Card } from "models/database/card"
+import Set from "../Celestial Guardians"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Jangmo-o",
+		'fr-fr': "Bébécaille",
+		'es-es': "Jangmo-o",
+		'it-it': "Jangmo-o",
+		'de-de': "Miniras",
+		'pt-br': "Jangmo-o",
+		'ko-kr': "짜랑꼬"
+	},
+
+	illustrator: "Naoki Saito",
+	rarity: "One Diamond",
+	category: "Pokemon",
+
+	dexId: [782],
+	hp: 60,
+	types: ["Dragon"],
+
+	description: {
+		'en-us': "They learn to fight by smashing their head scales together. The dueling strengthens both their skills and their spirits.",
+		'fr-fr': "Il apprend à se battre en entrechoquant l'écaille\nqu'il a sur la tête avec celle de ses congénères,\nce qui renforce sa technique et son esprit.",
+		'es-es': "Aprende a luchar haciendo chocar la escama de\nsu cabeza con la de sus congéneres. Así fortalece\ntanto la mente como sus movimientos.",
+		'it-it': "Impara a lottare facendo cozzare la squama che\nha sulla testa con quella dei suoi simili. In questo\nmodo affina le sue mosse e tempra il suo spirito.",
+		'de-de': "Durch Aneinanderschlagen ihrer Kopfschuppen\nbringen sie einander das Kämpfen bei. Dadurch\nverbessern sich ihre Attacken und ihre Stimmung.",
+		'pt-br': "Aprendem a lutar ao bater as escamas\nde suas cabeças. O duelo fortalece\ntanto suas habilidades quanto seu espírito.",
+		'ko-kr': "머리의 비늘을 동료끼리\n부딪히며 싸우는 법을 배운다.\n이를 통해 기술과 정신을 단련한다."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		name: {
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'Boule",
+			'es-es': "Golpe Cabeza",
+			'it-it': "Bottintesta",
+			'de-de': "Kopfnuss",
+			'pt-br': "Cabeçada",
+			'ko-kr': "박치기"
+		},
+
+		damage: 20,
+		cost: ["Colorless"]
+	}],
+
+	retreat: 1,
+	boosters: ["lunala"]
+}
+
+export default card

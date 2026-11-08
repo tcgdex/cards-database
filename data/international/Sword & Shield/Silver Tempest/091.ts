@@ -1,0 +1,80 @@
+import { Card } from "models/database/card"
+import Set from "../Silver Tempest"
+
+const card: Card = {
+	dexId: [231],
+	set: Set,
+
+	name: {
+		'en-us': "Phanpy",
+		'fr-fr': "Phanpy",
+		'es-es': "Phanpy",
+		'it-it': "Phanpy",
+		'pt-br': "Phanpy",
+		'de-de': "Phanpy"
+	},
+
+	illustrator: "Naoyo Kimura",
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 80,
+	types: ["Fighting"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Fighting"],
+
+		name: {
+			'en-us': "Knock Away",
+			'fr-fr': "Asticotage",
+			'es-es': "Derribar",
+			'it-it': "Scaraventa",
+			'pt-br': "Jogar Longe",
+			'de-de': "Zurückschlagen"
+		},
+
+		effect: {
+			'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+			'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+			'es-es': "Lanza 1 moneda. Si sale cara, este ataque hace 20 puntos de daño más.",
+			'it-it': "Lancia una moneta. Se esce testa, questo attacco infligge 20 danni in più.",
+			'pt-br': "Jogue 1 moeda. Se sair cara, este ataque causará 20 pontos de dano a mais.",
+			'de-de': "Wirf 1 Münze. Bei Kopf fügt diese Attacke 20 Schadenspunkte mehr zu."
+		},
+
+		damage: "10+"
+	}],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
+	retreat: 2,
+	regulationMark: "F",
+
+
+	description: {
+		'en-us': "It is strong despite its compact size. It can easily pick up and carry an adult human on its back.",
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 682138,
+				tcgplayer: 451745
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 682138,
+				tcgplayer: 451745
+			}
+		},
+	],
+}
+
+export default card

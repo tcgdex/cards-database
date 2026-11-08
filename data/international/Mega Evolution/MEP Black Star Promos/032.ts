@@ -1,0 +1,102 @@
+import { Card } from "models/database/card"
+import Set from "../MEP Black Star Promos"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Mega Gardevoir ex",
+		'fr-fr': "Méga-Gardevoir-ex",
+		'de-de': "Mega-Guardevoir-ex",
+		'it-it': "Mega Gardevoir-ex",
+		'es-es': "Mega-Gardevoir ex",
+		'pt-br': "Mega Gardevoir ex"
+	},
+
+	suffix: "ex",
+	illustrator: "Saboteri",
+	rarity: "Promo",
+	category: "Pokemon",
+	hp: 360,
+	types: ["Psychic"],
+	stage: "Stage2",
+	dexId: [282],
+
+	evolveFrom: {
+		'en-us': "Kirlia",
+		'fr-fr': "Kirlia",
+		'de-de': "Kirlia",
+		'it-it': "Kirlia",
+		'es-es': "Kirlia",
+		'pt-br': "Kirlia"
+	},
+
+	attacks: [{
+		cost: ["Psychic"],
+
+		name: {
+			'en-us': "Overflowing Wishes",
+			'fr-fr': "Vœux Débordants",
+			'de-de': "Überquellende Wünsche",
+			'it-it': "Desideri Straripanti",
+			'es-es': "Deseos Desbordantes",
+			'pt-br': "Desejos Transbordantes"
+		},
+
+		effect: {
+			'en-us': "For each of your Benched Pokémon, search your deck for a Basic {P} Energy card and attach it to that Pokémon. Then, shuffle your deck.",
+			'fr-fr': "Pour chacun de vos Pokémon de Banc, cherchez dans votre deck une carte Énergie {P} de base, puis attachez-la à ce Pokémon-là. Mélangez ensuite votre deck.",
+			'de-de': "Durchsuche für jedes Pokémon auf deiner Bank dein Deck nach 1 Basis-{P}-Energiekarte und lege sie an jenes Pokémon an. Mische anschließend dein Deck.",
+			'it-it': "Cerca nel tuo mazzo una carta Energia base {P} per ciascuno dei Pokémon nella tua panchina e assegnala a quel Pokémon. Poi rimischia il tuo mazzo.",
+			'es-es': "Para cada uno de tus Pokémon en Banca, busca en tu baraja 1 carta de Energía {P} Básica y únela a ese Pokémon. Después, baraja las cartas de tu baraja.",
+			'pt-br': "Para cada um dos seus Pokémon no Banco, procure por uma carta de Energia {P} Básica no seu baralho e ligue-a àquele Pokémon. Em seguida, embaralhe o seu baralho."
+		}
+	}, {
+		cost: ["Psychic"],
+
+		name: {
+			'en-us': "Mega Symphonia",
+			'fr-fr': "Méga Symphonie",
+			'de-de': "Mega-Symphonia",
+			'it-it': "Megasinfonia",
+			'es-es': "Megasinfonía",
+			'pt-br': "Megassinfonia"
+		},
+
+		effect: {
+			'en-us': "This attack does 50 damage for each {P} Energy attached to all of your Pokémon.",
+			'fr-fr': "Cette attaque inflige 50 dégâts pour chaque Énergie {P} attachée à tous vos Pokémon.",
+			'de-de': "Diese Attacke fügt für jede an alle deine Pokémon angelegte {P}-Energie 50 Schadenspunkte zu.",
+			'it-it': "Questo attacco infligge 50 danni per ogni Energia {P} assegnata ai tuoi Pokémon.",
+			'es-es': "Este ataque hace 50 puntos de daño por cada Energía {P} unida a cada uno de tus Pokémon.",
+			'pt-br': "Este ataque causa 50 pontos de dano para cada Energia {P} ligada a todos os seus Pokémon."
+		},
+
+		damage: "50×"
+	}],
+
+	retreat: 2,
+	regulationMark: "I",
+
+	weaknesses: [{
+		type: "Darkness",
+		value: "x2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "-30"
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 873708,
+				tcgplayer: 685510
+			}
+		},
+	],
+}
+
+export default card

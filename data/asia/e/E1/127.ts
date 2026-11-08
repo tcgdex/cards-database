@@ -1,0 +1,54 @@
+import { Card } from "models/database/card"
+import Set from "../E1"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "タイラニター",
+	},
+
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [248],
+	hp: 120,
+	types: ["Darkness"],
+	stage: "Stage2",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'ja-jp': "暗いオーラ",
+			},
+			effect: {
+				'ja-jp': "Tyranitarに取り付けられたすべてのエネルギーは、通常のタイプではなくDarkness Energyです。",
+			},
+		}],
+
+	attacks: [
+		{
+			cost: ["Darkness", "Darkness", "Darkness", "Darkness"],
+			name: {
+				'ja-jp': "スタンプ",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は50ダメージに加えて10ダメージを与え、相手のベンチポケモンのそれぞれに10ダメージを与えます。 （ベンチポケモンに衰弱と抵抗を適用しないでください。）",
+			},
+		},
+	],
+
+	retreat: 4,
+
+	variants: [
+		{
+			type: "holo",
+			stamp: ["1st edition"],
+		},
+		{
+			type: "holo",
+			subtype: "unlimited",
+		},
+	],
+};
+
+export default card

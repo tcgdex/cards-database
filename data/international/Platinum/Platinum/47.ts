@@ -1,0 +1,138 @@
+import { Card } from 'models/database/card'
+import Set from '../Platinum'
+
+const card: Card = {
+	name: {
+		'en-us': "Crobat G",
+		'fr-fr': "Nostenfert ",
+		'de-de': "Iksbat G"
+	},
+
+	illustrator: "Makoto Imai",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [169],
+
+	hp: 80,
+
+	types: [
+		"Psychic"
+	],
+
+	stage: "Basic",
+	suffix: "SP",
+
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				'en-us': "Flash Bite",
+				'fr-fr': "Morsure flash",
+				'de-de': "Flash Bite"
+			},
+			effect: {
+				'en-us': "Once during your turn, when you put Crobat G from your hand onto your Bench, you may put 1 damage counter on 1 of your opponent's Pokémon.",
+				'fr-fr': "Une seule fois lors de votre tour, lorsque vous placez Nostenfert  de votre main sur votre Banc, vous pouvez placer 1 marqueur de dégât sur 1 des Pokémon de votre adversaire.",
+				'de-de': "One during your turn, when you put Crobat G from your hand onto your Bench, you may put 1 damage counter on 1 of your opponent's Pokémon."
+			}
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Toxic Fang",
+				'fr-fr': "Croc toxik",
+				'de-de': "Toxic Fang"
+			},
+			effect: {
+				'en-us': "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns.",
+				'fr-fr': "Le Pokémon Défenseur est maintenant Empoisonné. Placez 2 marqueurs de dégât au lieu d'1 sur le Pokémon Défenseur entre deux tours.",
+				'de-de': "The Defending pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns."
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+
+	variants: [		{
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 84494,
+				cardmarket: 278468
+			}
+		},
+		{
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278468,
+				tcgplayer: 84494
+			}
+		},
+		{
+			type:"normal",
+			stamp: ["tsubasa-nakamura"],
+			thirdParty: {
+				tcgplayer: 479874
+			}
+		},
+		{
+			type:"normal",
+			stamp: ["stephen-silvestro"],
+			thirdParty: {
+				tcgplayer: 479875
+			}
+		},
+		{
+			type:"normal",
+			stamp: ["jason-martinez"],
+			thirdParty: {
+				tcgplayer: 479876
+			}
+		},
+		{
+			type:"normal",
+			stamp: ["mychael-bryan"],
+			thirdParty: {
+				tcgplayer: 480020
+			}
+		},
+		{
+			type:"normal",
+			stamp: ["yuta-komatsuda"],
+			thirdParty: {
+				tcgplayer: 480021
+			}
+		},
+		{
+			type:"normal",
+			stamp: ["yuka-furusawa"],
+			thirdParty: {
+				tcgplayer: 480022
+			}
+		}
+	],
+
+	retreat: 0
+}
+
+export default card

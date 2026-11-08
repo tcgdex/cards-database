@@ -1,0 +1,85 @@
+import { Card } from 'models/database/card'
+import Set from '../Hidden Fates'
+
+const card: Card = {
+	name: {
+		'en-us': "Zapdos",
+		'fr-fr': "Électhor",
+	},
+
+	illustrator: "Shin Nagasawa",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		145,
+	],
+
+	hp: 120,
+
+	types: [
+		"Lightning",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Hurricane Call",
+				'fr-fr': "Appel à l’Ouragan",
+			},
+			effect: {
+				'en-us': "Flip 4 coins. For each heads, search your deck for a Lightning Energy card and attach it to 1 of your Pokémon-GX or Pokémon-EX. Then, shuffle your deck.",
+				'fr-fr': "Lancez 4 pièces. Pour chaque côté face, cherchez une carte Énergie Lightning dans votre deck et attachez-la à l’un de vos Pokémon-GX ou Pokémon-EX. Mélangez ensuite votre deck.",
+			},
+
+		},
+		{
+			cost: [
+				"Lightning",
+				"Lightning",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Sky-High Claws",
+				'fr-fr': "Griffes Gratte-Ciel",
+			},
+
+			damage: 100,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+
+	retreat: 2,
+
+	description: {
+		'en-us': "A legendary bird Pokémon that is said to appear from clouds while dropping enormous lightning bolts.",
+	},
+
+	thirdParty: {
+		cardmarket: 394747,
+		tcgplayer: 197668
+	}
+}
+
+export default card

@@ -1,0 +1,105 @@
+import { Card } from 'models/database/card'
+import Set from '../Supreme Victors'
+
+const card: Card = {
+	name: {
+		'en-us': "Articuno",
+		'fr-fr': "Artikodin",
+		'de-de': "Arktos"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [144],
+
+	hp: 100,
+
+	types: [
+		"Water"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Sharp Beak",
+				'fr-fr': "Bec aiguisé",
+				'de-de': "Scharfschnabel"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, this attack does 30 damage plus 10 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 10 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 10 weitere Schadenspunkte zu."
+			},
+			damage: "30+",
+
+		},
+		{
+			cost: [
+				"Water",
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Ice Beam",
+				'fr-fr': "Laser glace",
+				'de-de': "Eisstrahl"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" ist das Verteidigende Pokémon jetzt gelähmt."
+			},
+			damage: 50,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "+30"
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+	retreat: 2,
+
+	description: {
+		'en-us': "A legendary bird Pokémon. It can create blizzards by freezing moisture in the air."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278707,
+				tcgplayer: 83650,
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278707,
+				tcgplayer: 83650
+			}
+		},
+	],
+
+}
+
+export default card

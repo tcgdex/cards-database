@@ -1,0 +1,70 @@
+import { Card } from "models/database/card"
+import Set from "../SV9"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "オンバット",
+		'zh-tw': "嗡蝠",
+		'zh-cn': "嗡蝠"
+	},
+
+	illustrator: "Tomokazu Komiya",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [714],
+	hp: 60,
+	types: ["Colorless"],
+
+	description: {
+		'ja-jp': "大きな 耳から 超音波を 出して エサの 果物を 探す。 カジッチュを エサと 間違える。",
+		'zh-tw': "從大大的耳朵發出超音波， 尋找水果來填飽肚子。 會把啃果蟲誤認成食物。",
+		'zh-cn': "從大大的耳朵發出超音波， 尋找水果來填飽肚子。 會把啃果蟲誤認成食物。"
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'ja-jp': "クイックドロー",
+			'zh-tw': "快速抽出",
+			'zh-cn': "快速抽出"
+		},
+
+		damage: 10,
+
+		effect: {
+			'ja-jp': "自分の山札を1枚引く。",
+			'zh-tw': "從自己的牌庫抽出1張卡。",
+			'zh-cn': "從自己的牌庫抽出1張卡。"
+		}
+	}],
+
+	weaknesses: [{
+		type: "Lightning",
+		value: "×2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "-30"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 807667,
+				tcgplayer: 614931,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "I",
+}
+
+export default card

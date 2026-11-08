@@ -1,0 +1,39 @@
+import { Card } from "models/database/card"
+import Set from "../SV2D"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "ナンジャモ",
+		'zh-tw': "奇樹",
+		'th-th': "นันจาโม",
+		'id-id': "Mistika"
+	},
+
+	illustrator: "Sanosuke Sakuma",
+	rarity: "Uncommon",
+	category: "Trainer",
+
+	effect: {
+		'ja-jp': "おたがいのプレイヤーは、それぞれ自分の手札をすべてウラにして切り、山札の下にもどす。その後、それぞれ自分のサイドの残り枚数ぶん、山札を引く。",
+		'zh-tw': "雙方玩家各將自己的手牌全部翻回反面並重洗，放回牌庫下方。然後，各從牌庫抽出與自己剩餘獎賞卡的張數相同數量的卡。",
+		'th-th': "ผู้เล่นทั้งสองฝ่าย แต่ละฝ่ายสับการ์ดบนมือฝ่ายตัวเองทั้งหมดโดยไม่ดูหน้าการ์ด ใส่กลับไปด้านล่างของสำรับการ์ด หลังจากนั้น แต่ละฝ่ายจั่วการ์ดจากสำรับการ์ด ตามจำนวนการ์ดรางวัลที่เหลือของฝ่ายตัวเอง",
+		'id-id': "Kedua pemain masing-masing mengocok semua Kartu Pegangan sendiri dengan sisi depan menghadap ke bawah, lalu mengembalikannya ke bawah Deck. Setelah itu, kedua pemain masing-masing mengambil kartu dari atas Deck untuk tiap lembar sisa Kartu Point sendiri."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 705373,
+				tcgplayer: 565931,
+			},
+		},
+	],
+
+	trainerType: "Supporter",
+	regulationMark: "G"
+}
+
+export default card

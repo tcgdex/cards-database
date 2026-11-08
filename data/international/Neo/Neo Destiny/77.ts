@@ -1,0 +1,79 @@
+import { Card } from 'models/database/card'
+import Set from '../Neo Destiny'
+
+const card: Card = {
+	name: {
+		'en-us': "Pineco",
+		'fr-fr': "Pomdepik",
+		'de-de': "Tannza"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		204,
+	],
+
+	hp: 40,
+
+	types: [
+		"Grass",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
+			},
+
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+	retreat: 2,
+
+
+	description: {
+		'en-us': "It waits suspended from tree branches for insects to fly into its mouth, often not moving for hours at a time.",
+		'fr-fr': "Il attend, suspendu à des branches d'arbre que des insectes volent dans sa gueule. Souvent, il reste immobile pendant des heures."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274729,
+				tcgplayer: 88123
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274729,
+				tcgplayer: 88123
+			}
+		}
+	]
+}
+
+export default card

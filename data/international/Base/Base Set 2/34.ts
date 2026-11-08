@@ -1,0 +1,93 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set 2'
+
+const card: Card = {
+	name: {
+		'en-us': "Butterfree",
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		12,
+	],
+
+	hp: 70,
+
+	types: [
+		"Grass",
+	],
+
+	evolveFrom: {
+		'en-us': "Metapod",
+	},
+
+	stage: "Stage2",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Whirlwind",
+			},
+			effect: {
+				'en-us': "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Grass",
+				"Grass",
+				"Grass",
+			],
+			name: {
+				'en-us': "Mega Drain",
+			},
+			effect: {
+				'en-us': "Remove a number of damage counters from Butterfree equal to half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10).",
+			},
+			damage: 40,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30"
+		},
+	],
+
+	description: {
+		'en-us': "In battle, it flaps its wings at high speed to release highly toxic dust into the air.",
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 273957,
+				tcgplayer: 42473
+			}
+		}
+	]
+}
+
+export default card

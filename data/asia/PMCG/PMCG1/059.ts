@@ -1,0 +1,50 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG1"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ポッポ",
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [16],
+	hp: 40,
+	types: ["Colorless"],
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				'ja-jp': "旋風",
+			},
+			effect: {
+				'ja-jp': "対戦相手は、ベンチ付きポケモンの1つで防御ポケモンを切り替えます。 （ポケモンを切り替える前にダメージを与えます。）",
+			},
+			damage: 10,
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575586
+			}
+		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577013
+			}
+		}
+	],
+};
+
+export default card

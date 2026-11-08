@@ -1,0 +1,65 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set 2'
+
+const card: Card = {
+	name: {
+		'en-us': "Dratini",
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		147,
+	],
+
+	hp: 40,
+
+	types: [
+		"Colorless",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Pound",
+			},
+
+			damage: 10,
+
+		},
+	],
+
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-30"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "Long considered a mythical Pokémon until recently, when a small colony was found living underwater.",
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 273961,
+				tcgplayer: 42477
+			}
+		}
+	]
+}
+
+export default card

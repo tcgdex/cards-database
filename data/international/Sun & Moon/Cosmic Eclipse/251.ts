@@ -1,0 +1,99 @@
+import { Card } from 'models/database/card'
+import Set from '../Cosmic Eclipse'
+
+const card: Card = {
+	name: {
+		'en-us': "Charizard & Braixen GX",
+		'fr-fr': "Dracaufeu et Roussil GX",
+		'es-es': "Charizard y Braixen GX",
+		'it-it': "Charizard e Braixen GX",
+		'pt-br': "Charizard e Braixen GX",
+		'de-de': "Glurak & Rutena GX"
+	},
+
+	illustrator: "5ban Graphics",
+	rarity: "Secret Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		6,
+		654
+	],
+
+	hp: 270,
+
+	types: [
+		"Fire",
+	],
+
+	stage: "Basic",
+	suffix: "TAG TEAM-GX",
+
+	attacks: [
+		{
+			cost: [
+				"Fire",
+				"Fire",
+				"Fire",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Brilliant Flare",
+				'fr-fr': "Flamboiement Brillant",
+				'es-es': "Llamarada Brillante",
+				'it-it': "Fiammata Brillante",
+				'pt-br': "Chama Cintilante",
+				'de-de': "Prächtige Flamme"
+			},
+			effect: {
+				'en-us': "You may search your deck for up to 3 cards and put them into your hand. Then, shuffle your deck.",
+				'fr-fr': "Vous pouvez chercher jusqu’à 3 cartes dans votre deck et les ajouter à votre main. Mélangez ensuite votre deck.",
+				'es-es': "Puedes buscar en tu baraja hasta 3 cartas y ponerlas en tu mano. Después, baraja las cartas de tu baraja.",
+				'it-it': "Puoi cercare nel tuo mazzo fino a tre carte e aggiungerle alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+				'pt-br': "Você pode procurar por até 3 cartas no seu baralho e colocá-las na sua mão. Em seguida, embaralhe o seu baralho.",
+				'de-de': "Du kannst dein Deck nach bis zu 3 Karten durchsuchen und sie auf deine Hand nehmen. Mische anschließend dein Deck."
+			},
+			damage: 180,
+
+		},
+		{
+			cost: [
+				"Fire",
+			],
+			name: {
+				'en-us': "Crimson Flame Pillar GX",
+				'fr-fr': "Colonne de Flamme Écarlate GX",
+				'es-es': "Pilar de Llamas Carmesís GX",
+				'it-it': "Scia di Fuoco Rosso GX",
+				'pt-br': "Coluna de Chamas Carmim GX",
+				'de-de': "Feuerrote Flammensäule GX"
+			},
+			effect: {
+				'en-us': "Attach 5 basic Energy cards from your discard pile to your Pokémon in any way you like. If this Pokémon has at least 1 extra Energy attached to it (in addition to this attack’s cost), your opponent’s Active Pokémon is now Burned and Confused. (You can’t use more than 1 GX attack in a game.)",
+				'fr-fr': "Attachez 5 cartes Énergie de base de votre pile de défausse à vos Pokémon, de la manière que vous voulez. Si au moins une Énergie supplémentaire est attachée à ce Pokémon (en plus du coût de cette attaque), le Pokémon Actif de votre adversaire est maintenant Brûlé et Confus. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'es-es': "Une 5 cartas de Energía Básica de tu pila de descartes a tus Pokémon de la manera que desees. Si este Pokémon tiene por lo menos 1 Energía adicional unida a él (además de las del coste de este ataque), el Pokémon Activo de tu rival pasa a estar Confundido y Quemado. (No puedes usar más de 1 ataque GX en una partida).",
+				'it-it': "Assegna a piacimento ai tuoi Pokémon cinque carte Energia base dalla tua pila degli scarti. Se questo Pokémon ha almeno un’Energia extra assegnata, in aggiunta a quelle del costo di questo attacco, il Pokémon attivo del tuo avversario viene bruciato e confuso. Non puoi usare più di un attacco GX a partita.",
+				'pt-br': "Ligue 5 cartas de Energia básica da sua pilha de descarte aos seus Pokémon como desejar. Se este Pokémon tiver pelo menos 1 Energia adicional ligada a ele (além do custo deste ataque), o Pokémon Ativo do seu oponente será Confundido e Queimado (você não pode usar mais de 1 ataque GX por partida).",
+				'de-de': "Lege 5 Basis-Energiekarten aus deinem Ablagestapel beliebig an deine Pokémon an. Wenn an dieses Pokémon mindestens 1 extra Energie angelegt ist (zusätzlich zu den Kosten dieser Attacke), ist das Aktive Pokémon deines Gegners jetzt verbrannt und verwirrt. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+
+	retreat: 3,
+
+	thirdParty: {
+		cardmarket: 410584,
+		tcgplayer: 201611
+	}
+}
+
+export default card

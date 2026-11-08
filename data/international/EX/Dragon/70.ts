@@ -1,0 +1,86 @@
+import { Card } from 'models/database/card'
+import Set from '../Dragon'
+
+const card: Card = {
+	name: {
+		'en-us': "Numel",
+		'fr-fr': "Chamallot",
+		'de-de': "Camaub"
+	},
+
+	illustrator: "Naoyo Kimura",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [322],
+
+	hp: 50,
+
+	types: [
+		"Fire"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Rollout",
+				'fr-fr': "Roulade",
+				'de-de': "Walzer"
+			},
+
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Fire",
+			],
+			name: {
+				'en-us': "Kindle",
+				'fr-fr': "Enflammer",
+				'de-de': "Anzünden"
+			},
+			effect: {
+				'en-us': "Discard a Fire Energy card attached to Numel and then discard an Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Défaussez une carte Énergie  attachée à Chamallot puis une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Lege 1 -Energiekarte von Camaub auf deinen Ablagestapel und lege danach eine Energiekarte vom Verteidigenden Pokémon auf den Ablagestapel deines Gegners."
+			},
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87807,
+				cardmarket: 275947
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 87807,
+				cardmarket: 275947
+			},
+		},
+	],
+
+}
+
+export default card

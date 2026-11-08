@@ -1,0 +1,79 @@
+import { Card } from 'models/database/card'
+import Set from '../Team Rocket'
+
+const card: Card = {
+	name: {
+		'en-us': "Squirtle",
+		'fr-fr': "Carapuce",
+		'de-de': "Schiggy"
+	},
+
+	illustrator: "Atsuko Nishida",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		7,
+	],
+
+	hp: 50,
+
+	types: [
+		"Water",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Shell Attack",
+				'fr-fr': "Carap'attaque",
+				'de-de': "Panzerangriff"
+			},
+
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "Cute Pokémon that charms people with its innocent eyes. Loves swimming all day long.",
+		'fr-fr': "Ce mignon Pokémon charme les gens avec ses yeux innocents. Il passe ses journées à nager"
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274121,
+				tcgplayer: 89484
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				cardmarket: 274121,
+				tcgplayer: 89484
+			}
+		}
+	]
+}
+
+export default card

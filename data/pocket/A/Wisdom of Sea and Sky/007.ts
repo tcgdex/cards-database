@@ -1,0 +1,46 @@
+import { Card } from "models/database/card"
+import Set from "../Wisdom of Sea and Sky"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Pinsir",
+		'fr-fr': "Scarabrute"
+	},
+
+	illustrator: "Toshinao Aoki",
+	rarity: "One Diamond",
+	category: "Pokemon",
+
+	dexId: [127],
+	hp: 90,
+	types: ["Grass"],
+
+	description: {
+		'en-us': "These Pokémon judge one another based on\npincers. Thicker, more impressive pincers make\nfor more popularity with the opposite gender.",
+		'fr-fr': "Ses cornes déterminent son rang au sein du groupe. Plus elles sont imposantes, plus les membres du sexe opposé l'apprécient."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		name: {
+			'en-us': "Guillotine",
+			'fr-fr': "Guillotine"
+		},
+
+		damage: 70,
+		cost: ["Grass", "Grass", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
+	retreat: 2,
+	boosters: ["lugia"]
+}
+
+export default card

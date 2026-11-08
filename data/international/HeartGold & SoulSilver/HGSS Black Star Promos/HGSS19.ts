@@ -1,0 +1,73 @@
+import { Card } from 'models/database/card'
+import Set from '../HGSS Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Raikou",
+		'fr-fr': "Raikou"
+	},
+	illustrator: "Noriko Hotta",
+	rarity: "Promo",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [243],
+	hp: 80,
+	types: [
+		"Lightning"
+	],
+
+	stage: "Basic",
+
+
+	attacks: [
+		{
+			cost: [
+				"Lightning",
+				"Lightning",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Zap Cannon",
+				'fr-fr': "Elecanon"
+			},
+			effect: {
+				'en-us': "During your next turn, Raikou can't use Zap Cannon.",
+				'fr-fr': "Lors de votre prochain tour, Raikou ne pourra pas utiliser Elecanon."
+			},
+			damage: 70,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+	resistances: [
+		{
+			type: "Metal",
+			value: "-20"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "The rain clouds it carries let it fire thunderbolts at will. They say that it descended with lightning."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 275595,
+				tcgplayer: 88535
+			}
+		},
+	],
+
+}
+
+export default card

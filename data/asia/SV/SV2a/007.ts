@@ -1,0 +1,87 @@
+import { Card } from "models/database/card";
+import Set from "../SV2a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ゼニガメ",
+		'zh-tw': "傑尼龜",
+		'th-th': "เซนิกาเมะ",
+		'id-id': "Squirtle",
+	},
+
+	illustrator: "kantaro",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Water"],
+
+	description: {
+		'ja-jp': "危なくなると 甲羅に 手足を 引っこめて 身を 守りながら 口から 水を 吹き出している。",
+		'zh-tw': "當牠遇到危險的時候，會將四肢收回甲殼裡保護自己， 同時從嘴裡噴出水來。",
+		'th-th': "เมื่อภัยอันตรายเข้าใกล้จะหดแขนขาเข้าในกระดองและฉีดน้ำออกมาจากปากไปพลางปกป้องตัวไปพลาง",
+		'id-id': "Pada kondisi bahaya, Squirtle memasukkan tangan dan kakinya ke dalam tempurung dan menyemprotkan air dari mulutnya sambil melindungi diri.",
+	},
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "からにこもる",
+				'zh-tw': "縮入殼中",
+				'th-th': "หดกำบัง",
+				'id-id': "Berperam Dalam Cangkang",
+			},
+			cost: ["Water"],
+			effect: {
+				'ja-jp': "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージを受けない。",
+				'zh-tw': "擲1次硬幣若為正面，則在下個對手的回合，這隻寶可夢不會受到招式的傷害。",
+				'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกหัว เทิร์นถัดไปของฝ่ายตรงข้าม โปเกมอนนี้จะไม่ได้รับแดเมจของท่าต่อสู้",
+				'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, pada giliran lawan berikutnya, Pokémon ini tidak menerima kerusakan akibat serangan.",
+			},
+		},
+		{
+			name: {
+				'ja-jp': "ロケットずつき",
+				'zh-tw': "火箭頭錘",
+				'th-th': "พุ่งหัวจรวด",
+				'id-id': "Tandukan Kepala Roket",
+			},
+			damage: 20,
+			cost: ["Water", "Water"],
+		},
+	],
+
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 719449,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 837238,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 837239,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "G",
+	rarity: "Common",
+	dexId: [7],
+};
+
+export default card;

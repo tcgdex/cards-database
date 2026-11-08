@@ -1,0 +1,32 @@
+import { Card } from "models/database/card";
+import Set from "../S-P";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "基本悪エネルギー",
+		'zh-tw': "皮卡丘&捷克羅姆GX",
+	},
+
+	illustrator: "",
+	category: "Energy",
+	energyType: "Normal",
+
+	effect: {
+		'ja-jp': "&copy;Pokémon/Nintendo/Creatures/GAME FREAK ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの商標です。 このホームページに掲載された画像その他の内容の無断転載はお断りします。",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 468299,
+				tcgplayer: 649784,
+			},
+		},
+	],
+
+	rarity: "Promo",
+};
+
+export default card;

@@ -1,0 +1,100 @@
+import { Card } from "models/database/card";
+import Set from "../SV2a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "マタドガス",
+		'zh-tw': "雙彈瓦斯",
+		'th-th': "มาตาโดกัซ",
+		'id-id': "Weezing",
+	},
+
+	illustrator: "Shibuzoh.",
+	category: "Pokemon",
+	hp: 110,
+	types: ["Darkness"],
+
+	description: {
+		'ja-jp': "ごくまれに 突然変異で 双子の 小さい ドガースが 連結したまま 出ることがある。",
+		'zh-tw': "有時會因為非常罕見的突變， 出現２個連在一起的 雙胞胎小瓦斯彈。",
+		'th-th': "มีบ้างที่โดกาซคู่แฝดตัวเล็ก ๆ จะเชื่อมตัวต่อกันออกมาทั้งอย่างนั้น เนื่องจากกระบวนการเปลี่ยนแปลงทางธรรมชาติที่เกิดขึ้นไม่บ่อยนัก",
+		'id-id': "Walau langka, kadang terjadi mutasi sehingga Koffing kecil kembar muncul dalam keadaan tetap menyatu.",
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'ja-jp': "もろともボム",
+				'zh-tw': "齊爆炸彈",
+				'th-th': "บอมบ์พร้อมกันไป",
+				'id-id': "Bom Kena Bersama",
+			},
+			effect: {
+				'ja-jp': "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けてきぜつしたとき、自分はコインを1回投げる。オモテなら、ワザを使ったポケモンをきぜつさせる。",
+				'zh-tw': "這隻寶可夢在戰鬥場上受到對手的寶可夢招式的傷害而【昏厥】時，自己擲1次硬幣。若為正面，則將使用招式的寶可夢【昏厥】。",
+				'th-th': "เมื่อโปเกมอนนี้ อยู่บนตำแหน่งต่อสู้และได้รับแดเมจของท่าต่อสู้จากโปเกมอนฝ่ายตรงข้ามและ[หมดสภาพ]แล้ว ฝ่ายเราทอยเหรียญ 1 ครั้ง ถ้าออกหัว จะทำให้โปเกมอนที่ใช้ท่าต่อสู้[หมดสภาพ]",
+				'id-id': "Saat Pokémon ini ada di Arena Bertarung dan KO karena menerima kerusakan akibat serangan dari Pokémon lawan, pemain melempar koin 1 kali. Jika hasilnya sisi depan, Pokémon yang telah menggunakan serangan KO.",
+			},
+		},
+	],
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "スピンガス",
+				'zh-tw': "旋轉瓦斯",
+				'th-th': "สปินก๊าซ",
+				'id-id': "Spin Gas",
+			},
+			damage: 50,
+			cost: ["Colorless", "Colorless"],
+			effect: {
+				'ja-jp': "相手のベンチポケモン全員にも、それぞれ10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				'zh-tw': "對手的所有備戰寶可夢也各受到10點傷害。 [在備戰區不計算弱點・抵抗力。]",
+				'th-th': "โปเกมอนบนเบนช์ฝ่ายตรงข้ามทุกตัว ก็จะได้รับแดเมจตัวละ 10 ด้วย {โปเกมอนบนเบนช์จะไม่นำจุดอ่อนและความต้านทานมาคิด}",
+				'id-id': "Serangan ini juga memberikan kerusakan masing-masing sejumlah 10 kepada semua Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 719563,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 837448,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 837449,
+			},
+		},
+	],
+
+	evolveFrom: {
+		'ja-jp': "ドガース",
+	},
+
+	retreat: 2,
+	regulationMark: "G",
+	rarity: "Rare",
+	dexId: [110],
+};
+
+export default card;

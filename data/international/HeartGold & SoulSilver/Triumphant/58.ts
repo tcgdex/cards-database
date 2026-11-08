@@ -1,0 +1,98 @@
+import { Card } from 'models/database/card'
+import Set from '../Triumphant'
+
+const card: Card = {
+	name: {
+		'en-us': "Bronzor",
+		'fr-fr': "Archéomire",
+		'de-de': "Bronzel"
+	},
+
+	illustrator: "Yuka Morii",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [436],
+
+	hp: 60,
+
+	types: [
+		"Metal"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Iron Defense",
+				'fr-fr': "Mur de fer",
+				'de-de': "Eisenabwehr"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, prevent all effects of attacks, including damage, done to Bronzor during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c’est face, prévenez tous les effets d’attaques (y compris les dégâts) infligés à Archéomire durant le prochain tour de votre adversaire.",
+				'de-de': "Wirf eine Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte von Angriffen, einschließlich Schaden, die Bronzel zugefügt werden."
+			},
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
+			},
+
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Ancient people believed that the pattern on Bronzor’s back contained a mysterious power."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84006,
+				cardmarket: 279588
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 279588,
+				tcgplayer: 84006
+			}
+		},
+	],
+
+}
+
+export default card

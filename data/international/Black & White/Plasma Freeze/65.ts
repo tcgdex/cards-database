@@ -1,0 +1,76 @@
+import { Card } from 'models/database/card'
+import Set from '../Plasma Freeze'
+
+const card: Card = {
+	name: {
+		'en-us': "Sneasel",
+		'fr-fr': "Farfuret",
+		'es-es': "Sneasel",
+		'it-it': "Sneasel",
+		'pt-br': "Sneasel",
+		'de-de': "Sniebel"
+	},
+
+	illustrator: "Sumiyoshi Kizuki",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		215,
+	],
+
+	hp: 70,
+
+	types: [
+		"Darkness",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Darkness",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Quick Attack",
+				'fr-fr': "Vive-Attaque",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, this attack does 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts supplémentaires.",
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "A smart and sneaky Pokémon, it makes its opponents flinch by suddenly showing the claws hidden in its paws.",
+	},
+
+	thirdParty: {
+		cardmarket: 280943,
+		tcgplayer: 89373
+	}
+}
+
+export default card

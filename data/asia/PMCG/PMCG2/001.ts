@@ -1,0 +1,53 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG2"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ニドラン♀",
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [29],
+	hp: 60,
+	types: ["Grass"],
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: ["Grass"],
+			name: {
+				'ja-jp': "フューリースワイプ",
+			},
+			effect: {
+				'ja-jp': "3コインをフリップします。この攻撃は、ヘッド数の10倍のダメージを与えます。",
+			},
+
+		},
+		{
+			cost: ["Grass", "Grass"],
+			name: {
+				'ja-jp': "家族を呼びます",
+			},
+			effect: {
+				'ja-jp': "Nidoranという名前の基本的なポケモンをデッキを検索しますか？またはニドラン？そして、それをあなたのベンチに置きます。その後、デッキをシャッフルします。 （ベンチがいっぱいの場合、この攻撃を使用できません。）",
+			},
+
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 576631
+			},
+		},
+	],
+};
+
+export default card

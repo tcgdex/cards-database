@@ -1,0 +1,83 @@
+import { Card } from 'models/database/card'
+import Set from '../Rebel Clash'
+
+const card: Card = {
+	dexId: [840],
+
+	name: {
+		'en-us': "Applin",
+		'fr-fr': "Verpom",
+		'es-es': "Applin",
+		'it-it': "Applin",
+		'pt-br': "Applin",
+		'de-de': "Knapfel"
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Withdraw",
+				'fr-fr': "Repli",
+				'es-es': "Refugio",
+				'it-it': "Ritirata",
+				'pt-br': "Retirada",
+				'de-de': "Panzerschutz"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all damage done to this Pokémon by attacks.",
+				'fr-fr': "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, évitez tous les dégâts infligés à ce Pokémon par des attaques.",
+				'es-es': "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, evita todo el daño infligido a este Pokémon por ataques.",
+				'it-it': "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario, previeni tutti i danni inflitti a questo Pokémon da qualsiasi attacco.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, durante o próximo turno do seu oponente, previna todo o dano causado a este Pokémon por ataques.",
+				'de-de': "Wirf 1 Münze. Verhindere bei Kopf während des nächsten Zuges deines Gegners allen Schaden, der diesem Pokémon durch Attacken zugefügt wird."
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+	hp: 40,
+	types: ["Grass"],
+	regulationMark: "D",
+
+
+	stage: "Basic",
+
+	description: {
+		'en-us': "It spends its entire life inside an apple. It hides from its natural enemies, bird Pokémon, by pretending it's just an apple and nothing more."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 457563,
+				tcgplayer: 213094
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 457563,
+				tcgplayer: 213094
+			}
+		},
+	],
+}
+
+export default card

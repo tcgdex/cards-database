@@ -1,0 +1,53 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG3"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "オムスター",
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	dexId: [139],
+	hp: 70,
+	types: ["Water"],
+	stage: "Stage2",
+
+	attacks: [
+		{
+			cost: ["Water", "Colorless"],
+			name: {
+				'ja-jp': "ウォーターガン",
+			},
+			effect: {
+				'ja-jp': "20ダメージに加えて、Omastarに付着した各水エネルギーに対してさらに10ダメージを与えますが、この攻撃のエネルギーコストの支払いには使用されません。この方法で20以上のダメージを追加することはできません。",
+			},
+
+		},
+		{
+			cost: ["Water", "Water"],
+			name: {
+				'ja-jp': "スパイクキャノン",
+			},
+			effect: {
+				'ja-jp': "2つのコインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。",
+			},
+
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575705
+			},
+		},
+	],
+};
+
+export default card

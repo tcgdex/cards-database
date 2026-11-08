@@ -1,0 +1,77 @@
+import { Card } from "models/database/card"
+import Set from "../SV4K"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "カルボウ",
+		'zh-tw': "炭小侍",
+		'th-th': "คาร์โบ",
+		'ko-kr': "카르본"
+	},
+
+	illustrator: "Mizue",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [935],
+	hp: 80,
+	types: ["Fire"],
+
+	description: {
+		'ja-jp': "焼けた 木炭に 命が 宿り ポケモンになった。 燃える 闘志で 強敵にも 戦いを 挑む。",
+		'zh-tw': "生命寄宿在燃燒的木炭上變成了寶可夢。即使敵人再強， 也會以燃燒的鬥志迎面而戰。",
+		'th-th': "เป็นโปเกมอนที่เกิดจากถ่านไม้ที่ลุกไหม้ มีจิตวิญญาณการต่อสู้ที่เร่าร้อน กล้าเผชิญหน้าแม้กับศัตรูที่แข็งแกร่ง",
+		'ko-kr': "불탄 숯에 영혼이 깃들어서 포켓몬이 되었다. 타오르는 투지로 강한 상대에게도 싸움을 건다."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'ja-jp': "とうしをもやす",
+			'zh-tw': "燃燒鬥志",
+			'th-th': "จุดไฟนักสู้",
+			'ko-kr': "투지를 불태우기"
+		},
+
+		effect: {
+			'ja-jp': "自分の山札から「基本エネルギー」を1枚選び、このポケモンにつける。そして山札を切る。",
+			'zh-tw': "從自己的牌庫選擇1張「基本【火】能量」卡，附於這隻寶可夢身上。並且重洗牌庫。",
+			'th-th': "เลือกการ์ด [พลังงานพื้นฐาน[ไฟ]] 1 ใบจากสำรับการ์ดฝ่ายเรา ติดที่โปเกมอนนี้ แล้วสับสำรับการ์ด",
+			'ko-kr': "자신의 덱에서 「기본 (불꽃) 에너지」를 1장 선택해서 이 포켓몬에게 붙인다. 그리고 덱을 섞는다."
+		}
+	}, {
+		cost: ["Fire", "Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "げんこつ",
+			'zh-tw': "拳骨",
+			'th-th': "กำปั้น"
+		},
+
+		damage: 50
+	}],
+
+	weaknesses: [{
+		type: "Water",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 741260,
+				tcgplayer: 565769,
+			},
+		},
+	],
+
+	retreat: 2,
+	regulationMark: "G"
+}
+
+export default card

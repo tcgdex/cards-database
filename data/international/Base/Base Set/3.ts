@@ -1,0 +1,127 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set'
+
+const card: Card = {
+	name: {
+		'en-us': "Chansey",
+		'fr-fr': "Leveinard",
+		'de-de': "Chaneira",
+		'it-it': "Chansey"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		113,
+	],
+
+	hp: 120,
+
+	types: [
+		"Colorless",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Scrunch",
+				'fr-fr': "Compresse",
+				'de-de': "Zähneknirschen",
+				'it-it': "Schiacciamento"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, prevent all damage done to Chansey during your opponent's next turn. (Any other effects of attacks still happen.)",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Leveinard pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" kannst Du den Schaden, der Chaneira während des nächsten Zuges zugefügt wird, verhindern. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)",
+				'it-it': "Lancia una moneta. Se esce testa, previeni tutti i danni inflitti a Chansey durante il prossimo turno del tuo avversario. (Tutti gli altri effetti degli attacchi restano validi.) "
+			},
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Double-edge",
+				'fr-fr': "Damoclès",
+				'de-de': "Austeiler",
+				'it-it': "Sdoppiatore"
+			},
+			effect: {
+				'en-us': "Chansey does 80 damage to itself.",
+				'fr-fr': "Leveinard s'inflige 80 points de dégâts.",
+				'de-de': "Chaneira fügt sich selbst 80 Schadenspunkte zu.",
+				'it-it': "Chansey si infligge 80 danni a se stesso."
+			},
+			damage: 80,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-30"
+		},
+	],
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "holo",
+			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273698,
+				tcgplayer: 42371
+			}
+		},
+		{
+			type: "holo",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 106998
+			}
+		},
+		{
+			type: "holo",
+			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 106998
+			}
+		},
+		{
+			type: "holo",
+			subtype: "1999-2000-copyright",
+		}
+	],
+
+
+	description: {
+		'en-us': "A rare and elusive Pokémon that is said to bring happiness to those who manage to catch it.",
+		'fr-fr': "Un Pokémon rare et difficile à capturer qui porte chance et bien-être à son possesseur.",
+		'it-it': "Pokémon raro ed elusivo; di lui si dice che porti felicità a coloro che riescono ad acchiapparlo. LIV 55 N.113"
+	},
+}
+
+export default card

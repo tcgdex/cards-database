@@ -1,0 +1,29 @@
+import { Card } from "models/database/card"
+import Set from "../M1S"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ミステリーガーデン"
+	},
+	illustrator: "AYUMI ODASHIMA",
+	category: "Trainer",
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 840645,
+				tcgplayer: 647225,
+			},
+		},
+	],
+
+	trainerType: "Stadium",
+	effect: {
+		'ja-jp': "おたがいのプレイヤーは、自分の番ごとに1回、手札からエネルギーカードを1枚トラッシュするなら、自分の手札の枚数が、自分の場の超エネルギーポケモンの数と同じ枚数になるように山札を引いてもよい。"
+	},
+	regulationMark: "I",
+	rarity: "Secret Rare"
+}
+
+export default card

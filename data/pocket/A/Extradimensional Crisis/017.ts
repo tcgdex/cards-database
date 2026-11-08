@@ -1,0 +1,49 @@
+import { Card } from "models/database/card"
+import Set from "../Extradimensional Crisis"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Zebstrika",
+		'fr-fr': "Zéblitz"
+	},
+
+	illustrator: "Hajime Kusajima",
+	rarity: "One Diamond",
+	category: "Pokemon",
+
+	dexId: [523],
+	hp: 90,
+	types: ["Lightning"],
+
+	evolveFrom: {
+		'en-us': "Blitzle"
+	},
+
+	description: {
+		'en-us': "When this ill-tempered Pokémon runs wild, it\nshoots lightning from its mane in all directions.",
+		'fr-fr': "De caractère violent, il envoie avec sa crinière des arcs électriques de tous les côtés lorsqu'il se sent provoqué."
+	},
+
+	stage: "Stage1",
+
+	attacks: [{
+		name: {
+			'en-us': "Head Bolt",
+			'fr-fr': "Éclair Frontal"
+		},
+
+		damage: 70,
+		cost: ["Lightning", "Lightning"]
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
+	retreat: 1
+}
+
+export default card

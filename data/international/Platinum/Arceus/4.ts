@@ -1,0 +1,96 @@
+import { Card } from 'models/database/card'
+import Set from '../Arceus'
+
+const card: Card = {
+	name: {
+		'en-us': "Kabutops",
+		'de-de': "Kabutops"
+	},
+
+	illustrator: "Hajime Kusajima",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [141],
+	
+	hp: 130,
+
+	types: [
+		"Fighting"
+	],
+
+	evolveFrom: {
+		'en-us': "Kabuto"
+	},
+
+	stage: "Stage2",
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+			],
+			name: {
+				'en-us': "Primal Scythe",
+				'de-de': "Urzeitsense"
+			},
+			effect: {
+				'en-us': "You may discard Helix Fossil, Dome Fossil, or Old Amber from your hand. If you do, this attack does 20 damage plus 50 more damage.",
+				'de-de': "Du kannst 1 Helixfossil-, Domfossil- oder Altbernstein-Karte von deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, fügt dieser Angriff 20 Schadenspunkte plus 50 weitere Schadenspunkte zu."
+			},
+			damage: "20+",
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Rock Slide",
+				'de-de': "Steinhagel"
+			},
+			effect: {
+				'en-us': "Does 10 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'de-de': "Dieser Angriff fügt 2 Pokémon auf der Bank deines Gegners 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+			},
+			damage: 60,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "+30"
+		},
+	],
+
+	retreat: 2,
+
+	description: {
+		'en-us': "It is thought that this Pokémon came onto land because its prey adapted to life on land."
+	},
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86400,
+				cardmarket: 278876
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278876,
+				tcgplayer: 86400
+			}
+		},
+	],
+
+}
+
+export default card

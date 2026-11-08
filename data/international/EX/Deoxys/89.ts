@@ -1,0 +1,44 @@
+import { Card } from 'models/database/card'
+import Set from '../Deoxys'
+
+const card: Card = {
+	name: {
+		'en-us': "Meteor Falls",
+		'fr-fr': "Site météore",
+		'de-de': "Meteorfälle"
+	},
+
+	illustrator: "Ryo Ueda",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+	trainerType: "Stadium",
+
+	effect: {
+		'en-us': "This card stays in play when you play it. Discard this card if another Stadium card comes into play. Each player's Active Evolved Pokémon (excluding Pokémon-ex) can use any attack from its Basic Pokémon or its Stage 1 Evolution card. (You still have to pay for that attack's Energy cost.)",
+		'fr-fr': "Cette carte reste en jeu lorsque vous la jouez. Défaussez -la si une autre carte Stade est mise en jeu.",
+		'de-de': "Each player's Active Evolved Pokémon (excluding Pokémon-ex) can use any attack from its Basic Pokémon or its Stage 1 Evolution card. (You still have to pay for that attack's Energy cost.)",
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87392,
+				cardmarket: 276492
+			},
+		},
+		{
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 87392,
+				cardmarket: 276492
+			},
+		},
+	],
+
+}
+
+export default card

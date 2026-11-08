@@ -1,0 +1,50 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG2"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "サイホーン",
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [111],
+	hp: 70,
+	types: ["Fighting"],
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				'ja-jp': "Leer",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。頭の場合、防衛ポケモンは相手の次のターン中に攻撃することはできません。 （いずれかのポケモンがこの効果を終了するかのいずれかのベンチを作成します。）",
+			},
+
+		},
+		{
+			cost: ["Fighting", "Colorless", "Colorless"],
+			name: {
+				'ja-jp': "ホーン攻撃",
+			},
+			damage: 30,
+		},
+	],
+
+	retreat: 3,
+
+	variants : [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 576644
+			},
+		},
+	],
+};
+
+export default card

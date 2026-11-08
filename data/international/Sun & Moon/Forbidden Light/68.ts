@@ -1,0 +1,98 @@
+import { Card } from 'models/database/card'
+import Set from '../Forbidden Light'
+
+const card: Card = {
+	name: {
+		'en-us': "Tyrunt",
+		'fr-fr': "Ptyranidur",
+		'es-es': "Tyrunt",
+		'it-it': "Tyrunt",
+		'pt-br': "Tyrunt",
+		'de-de': "Balgoras"
+	},
+
+	illustrator: "SATOSHI NAKAI",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		696,
+	],
+
+	hp: 90,
+
+	types: [
+		"Fighting",
+	],
+
+	evolveFrom: {
+		'en-us': "Unidentified Fossil",
+		'fr-fr': "Fossile Inconnu",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+			],
+			name: {
+				'en-us': "Crunch",
+				'fr-fr': "Mâchouille",
+				'es-es': "Triturar",
+				'it-it': "Sgranocchio",
+				'pt-br': "Mastigada",
+				'de-de': "Knirscher"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, discard an Energy from your opponent’s Active Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c’est face, défaussez une Énergie du Pokémon Actif de votre adversaire.",
+				'es-es': "Lanza 1 moneda. Si sale cara, descarta 1 Energía del Pokémon Activo de tu rival.",
+				'it-it': "Lancia una moneta. Se esce testa, scarta un’Energia assegnata al Pokémon attivo del tuo avversario.",
+				'pt-br': "Jogue 1 moeda. Se sair cara, descarte 1 Energia do Pokémon Ativo do seu oponente.",
+				'de-de': "Wirf 1 Münze. Lege bei Kopf 1 Energie vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel."
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Hammer In",
+				'fr-fr': "Enfoncement",
+				'es-es': "Martillear",
+				'it-it': "Martello",
+				'pt-br': "Martelada",
+				'de-de': "Einhämmern"
+			},
+
+			damage: 40,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+	retreat: 2,
+
+	description: {
+		'en-us': "Its immense jaws have enough destructive force that it can chew up an automobile. It lived 100 million years ago.",
+	},
+
+	thirdParty: {
+		cardmarket: 355586,
+		tcgplayer: 165720
+	}
+}
+
+export default card

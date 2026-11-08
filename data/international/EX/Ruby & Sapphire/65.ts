@@ -1,0 +1,83 @@
+import { Card } from 'models/database/card'
+import Set from '../Ruby & Sapphire'
+
+const card: Card = {
+	name: {
+		'en-us': "Poochyena",
+		'fr-fr': "Medhyena",
+		'de-de': "Fiffyen"
+	},
+
+	illustrator: "Naoyo Kimura",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [261],
+
+	hp: 50,
+
+	types: [
+		"Darkness"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Darkness",
+			],
+			name: {
+				'en-us': "Shadow Bind",
+				'fr-fr': "Étreinte d'ombre",
+				'de-de': "Shadow Bind"
+			},
+			effect: {
+				'en-us': "The Defending Pokémon can't retreat until the end of your opponent's next turn.",
+				'fr-fr': "Le Pokémon Défenseur ne peut pas battre en retraite tant que le prochain tour de votre adversaire n'est pas terminé.",
+				'de-de': "The Defending Pokémon can't retreat until the end of your opponent's next turn."
+			},
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-30"
+		},
+	],
+
+
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275713,
+				tcgplayer: 88295
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 275713,
+				tcgplayer: 88295
+			}
+		},
+	],
+
+}
+
+export default card

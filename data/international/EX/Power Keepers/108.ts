@@ -1,0 +1,31 @@
+import { Card } from 'models/database/card'
+import Set from '../Power Keepers'
+
+const card: Card = {
+	name: {
+		'en-us': "Fighting Energy",
+		'fr-fr': "Énergie Combat",
+		'de-de': "Kampfenergie"
+	},
+
+	illustrator: undefined,
+	rarity: "Rare",
+	category: "Energy",
+	set: Set,
+	stage: "Basic",
+	energyType: "Normal",
+
+	thirdParty: {
+		cardmarket: 277414,
+		tcgplayer: 85441
+	},
+
+	variants: [
+		{
+			type: "holo"
+		}
+	]
+}
+
+export default card
+

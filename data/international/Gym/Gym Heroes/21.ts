@@ -1,0 +1,84 @@
+import { Card } from 'models/database/card'
+import Set from '../Gym Heroes'
+
+const card: Card = {
+	name: {
+		'en-us': "Brock's Onix"
+	},
+
+	illustrator: "Benimaru Itoh",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [95],
+
+	hp: 70,
+
+	types: [
+		"Fighting"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+			],
+			name: {
+				'en-us': "Bind"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Fighting",
+			],
+			name: {
+				'en-us': "Tunneling"
+			},
+			effect: {
+				'en-us': "If your opponent has any Benched Pokémon, choose up to 2 of them. This attack does 20 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.) Brock's Onix can't attack during your next turn."
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83974,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83974,
+				cardmarket: 274157
+			}
+		}
+	],
+}
+
+export default card
+

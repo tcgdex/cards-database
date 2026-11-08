@@ -1,0 +1,47 @@
+import { Card } from "models/database/card"
+import Set from "../151"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'fr-fr': "Transfert de Léo",
+		'en-us': "Bill's Transfer",
+		'es-es': "Transferencia de Bill",
+		'it-it': "Trasferimento di Bill",
+		'pt-br': "Transferência do Bill",
+		'de-de': "Bills Transfer"
+	},
+
+	rarity: "Ultra Rare",
+	category: "Trainer",
+
+	effect: {
+		'fr-fr': "Regardez les 8 cartes du dessus de votre deck. Vous pouvez montrer le nombre voulu de Pokémon que vous y trouvez, puis les ajouter à votre main. Mélangez les autres cartes avec votre deck.",
+		'en-us': "Look at the top 8 cards of your deck. You may reveal any number of Pokémon you find there and put them into your hand. Shuffle the other cards back into your deck.",
+		'es-es': "Mira las 8 primeras cartas de tu baraja. Puedes enseñar cualquier cantidad de Pokémon que encuentres entre ellas y ponerlos en tu mano. Pon el resto de las cartas de nuevo en tu baraja y barájalas todas.",
+		'it-it': "Guarda le prime otto carte del tuo mazzo. Puoi mostrare un numero qualsiasi di Pokémon presenti tra esse e aggiungerli alle carte che hai in mano. Poi rimischia le altre carte nel tuo mazzo.",
+		'pt-br': "Olhe as 8 cartas de cima do seu baralho. Você pode revelar qualquer número de Pokémon que encontrar lá e colocá-los na sua mão. Embaralhe as outras cartas de volta no seu baralho.",
+		'de-de': "Schau dir die obersten 8 Karten deines Decks an. Du kannst beliebig viele Pokémon, die du dort findest, deinem Gegner zeigen und auf deine Hand nehmen. Mische die anderen Karten zurück in dein Deck."
+	},
+
+	trainerType: "Supporter",
+	regulationMark: "G",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 733789,
+				tcgplayer: 517041,
+				cardtrader: 261285
+			}
+		},
+	],
+
+	illustrator: "GIDORA",
+
+	
+}
+
+export default card

@@ -1,0 +1,79 @@
+import { Card } from "models/database/card"
+import Set from "../SV2D"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "デカヌチャンex",
+		'zh-tw': "巨鍛匠ex",
+		'th-th': "เดคานุจังex",
+		'id-id': "Tinkaton ex"
+	},
+
+	illustrator: "takuyoa",
+	rarity: "Double rare",
+	category: "Pokemon",
+	hp: 300,
+	types: ["Psychic"],
+	stage: "Stage2",
+	suffix: "EX",
+
+	attacks: [{
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "ビッグハンマー",
+			'zh-tw': "大錘",
+			'th-th': "บิ๊กแฮมเมอร์",
+			'id-id': "Big Hammer"
+		},
+
+		damage: "30×",
+
+		effect: {
+			'ja-jp': "自分の手札の枚数×30ダメージ。",
+			'zh-tw': "造成自己的手牌的張數×30點傷害。",
+			'th-th': "แดเมจจะเท่ากับจำนวนการ์ดบนมือฝ่ายเรา x30",
+			'id-id': "Serangan ini memberikan kerusakan sejumlah 30 untuk tiap lembar Kartu Pegangan sendiri."
+		}
+	}, {
+		cost: ["Psychic", "Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "ふんさいプレス",
+			'zh-tw': "粉碎壓制",
+			'th-th': "บดอัด",
+			'id-id': "Tekanan Demolisi"
+		},
+
+		damage: 140,
+
+		effect: {
+			'ja-jp': "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
+			'zh-tw': "這個招式的傷害不計算對手的戰鬥寶可夢身上的附加效果。",
+			'th-th': "แดเมจของท่าต่อสู้นี้ จะไม่นำเอฟเฟกต์ที่มีผลอยู่กับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามมาคิด",
+			'id-id': "Kerusakan akibat serangan ini tidak terpengaruh oleh efek yang sedang dialami Pokémon Bertarung lawan."
+		}
+	}],
+
+	weaknesses: [{
+		type: "Metal",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 705339,
+				tcgplayer: 565897,
+			},
+		},
+	],
+
+	retreat: 2,
+	regulationMark: "G"
+}
+
+export default card

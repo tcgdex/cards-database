@@ -1,0 +1,81 @@
+import { Card } from "models/database/card";
+import Set from "../SV2a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "フシギバナex",
+		'zh-tw': "妙蛙花ex",
+		'th-th': "ฟุชิกิบานะex",
+		'id-id': "Venusaur ex",
+	},
+
+	illustrator: "Yoriyuki Ikegami",
+	category: "Pokemon",
+	hp: 340,
+	types: ["Grass"],
+
+	stage: "Stage2",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'ja-jp': "やすらぎのはな",
+				'zh-tw': "平和之花",
+				'th-th': "ดอกไม้สงบใจ",
+				'id-id': "Bunga Ketenangan",
+			},
+			effect: {
+				'ja-jp': "このポケモンがバトル場にいるなら、自分の番に1回使える。自分のポケモン1匹のHPを「60」回復する。",
+				'zh-tw': "若這隻寶可夢在戰鬥場上，則在自己的回合時可使用1次。將自己的1隻寶可夢恢復「60」HP。",
+				'th-th': "ถ้าโปเกมอนนี้อยู่บนตำแหน่งต่อสู้ ใช้ได้ 1 ครั้งในเทิร์นฝ่ายเรา ฟื้นฟู HP ของโปเกมอนฝ่ายเรา 1 ตัว [60]",
+				'id-id': "Dapat digunakan 1 kali pada giliran sendiri jika Pokémon ini ada di Arena Bertarung. Pulihkan HP 1 Pokémon sendiri sejumlah 60.",
+			},
+		},
+	],
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "もうどくウィップ",
+				'zh-tw': "劇毒鞭打",
+				'th-th': "แส้พิษร้ายแรง",
+				'id-id': "Cambuk Racun Ekstrem",
+			},
+			damage: 150,
+			cost: ["Grass", "Grass", "Colorless"],
+			effect: {
+				'ja-jp': "相手のバトルポケモンをどくとこんらんにする。",
+				'zh-tw': "將對手的戰鬥寶可夢【中毒】與【混亂】。",
+				'th-th': "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[พิษ]และ[สับสน]",
+				'id-id': "Ubah kondisi Pokémon Bertarung lawan menjadi Racun dan Pusing.",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 719653,
+			},
+		},
+	],
+
+	evolveFrom: {
+		'ja-jp': "フシギソウ",
+	},
+
+	retreat: 4,
+	regulationMark: "G",
+	rarity: "Special illustration rare",
+	dexId: [3],
+
+	suffix: "EX",
+};
+
+export default card;

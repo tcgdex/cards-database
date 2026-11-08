@@ -1,0 +1,43 @@
+import { Card } from 'models/database/card'
+import Set from '../Supreme Victors'
+
+const card: Card = {
+	name: {
+		'en-us': "Night Teleporter",
+		'fr-fr': "Télétransporteur nocturne",
+		'de-de': "Nachtteleporter"
+	},
+
+	illustrator: "Ryota Saito",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'en-us': "Flip a coin. If heads, put all cards in your hand on top of your deck. Then, search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.",
+		'fr-fr': "Lancez une pièce. Si c'est face, placez toutes les cartes de votre main au-dessus de votre deck, puis choisissez 1 carte dans votre deck et placez-la dans votre main. Ensuite, mélangez votre deck.",
+		'de-de': "Wirf 1 Münze. Bei \"Kopf\" lege alle deine Handkarten auf dein Deck. Danach durchsuche dein Deck nach 1 beliebigen Karte und nimm sie auf die Hand. Mische dein Deck danach."
+	},
+
+	trainerType: "Item",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87754,
+				cardmarket: 278829
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278829,
+				tcgplayer: 87754
+			}
+		},
+	],
+
+}
+
+export default card

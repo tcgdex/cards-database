@@ -1,0 +1,100 @@
+import { Card } from 'models/database/card'
+import Set from '../FireRed & LeafGreen'
+
+const card: Card = {
+	name: {
+		'en-us': "Wigglytuff",
+		'fr-fr': "Grodoudou",
+		'de-de': "Knuddeluff"
+	},
+
+	illustrator: "Kyoko Umemoto",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		40,
+	],
+
+	hp: 80,
+
+	types: [
+		"Colorless",
+	],
+
+	evolveFrom: {
+		'en-us': "Jigglypuff",
+		'fr-fr': "Rondoudou"
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Poke-POWER",
+			name: {
+				'en-us': "Assistance",
+				'fr-fr': "Assistance",
+				'de-de': "Assistance"
+			},
+			effect: {
+				'en-us': "Once during your turn (before your attack), if Wigglytuff is on your Bench, you may choose 1 of your Active Pokémon and remove 1 Special Condition from it.",
+				'fr-fr': "Une seule fois lors de votre tour (avant votre attaque), si Grodoudou est sur votre Banc, vous pouvez choisir 1 de vos Pokémon Actifs et lui retirer 1 État Spécial.",
+				'de-de': "Once during your turn (before your attack), if Wigglytuff is on your Bench, you may choose 1 of your Active Pokémon and remove 1 Special Condition from it."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Expand",
+				'fr-fr': "Pousstoidla",
+				'de-de': "Expand"
+			},
+			effect: {
+				'en-us': "During your opponent's next turn, any damage done to Wigglytuff by attacks is reduced by 10 (after applying Weakness and Resistance).",
+				'fr-fr': "Lors du prochain tour de votre adversaire, les dégâts infligés à Grodoudou par des attaques sont réduits de 10 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "During your opponent's next turn, any damage done to Wigglytuff by attacks is reduced by 10 (after applying Weakness and Resistance)."
+			},
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 276228,
+				tcgplayer: 90596
+			},
+		},
+		{
+			type: "reverse",
+			foil: "energy",
+			thirdParty: {
+				cardmarket: 276228,
+				tcgplayer: 90596
+			},
+		},
+	],
+}
+
+export default card

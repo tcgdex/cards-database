@@ -1,0 +1,62 @@
+import { Card } from "models/database/card"
+import Set from "../S9"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "ネオラントV"
+	},
+
+	illustrator: "takuyoa",
+	category: "Pokemon",
+	hp: 170,
+	types: ["Water"],
+	stage: "Basic",
+	suffix: "V",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'ja-jp': "ルミナスサイン"
+		},
+
+		effect: {
+			'ja-jp': "自分の番に、このカードを手札からベンチに出したとき、1回使える。自分の山札からサポートを1枚選び、相手に見せて、手札に加える。そして山札を切る。"
+		}
+	}],
+
+	attacks: [{
+		cost: ["Water", "Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "アクアリターン"
+		},
+
+		damage: 120,
+
+		effect: {
+			'ja-jp': "このポケモンと、ついているすべてのカードを、自分の山札にもどして切る。"
+		}
+	}],
+
+	weaknesses: [{
+		type: "Lightning",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 606269,
+				tcgplayer: 569732,
+			},
+		},
+	],
+
+	retreat: 1
+}
+
+export default card

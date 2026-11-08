@@ -1,0 +1,34 @@
+import { Card } from 'models/database/card'
+import Set from '../XY trainer Kit (Bisharp)'
+
+const card: Card = {
+	dexId: [504],
+	set: Set,
+
+	name: {
+		'en-us': "Patrat",
+		'fr-fr': "Ratentif",
+		'es-es': "Patrat",
+		'it-it': "Patrat",
+		'pt-br': "Patrat",
+		'de-de': "Nagelotz"
+	},
+
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Colorless"],
+	stage: "Basic",
+	retreat: 1,
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "×2"
+	}],
+
+	thirdParty: {
+		tcgplayer: 98166
+	}
+}
+
+export default card

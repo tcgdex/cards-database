@@ -1,0 +1,90 @@
+import { Card } from "models/database/card"
+import Set from "../Celestial Guardians"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Solgaleo ex",
+		'fr-fr': "Solgaleo-ex",
+		'es-es': "Solgaleo ex",
+		'it-it': "Solgaleo-ex",
+		'de-de': "Solgaleo-ex",
+		'pt-br': "Solgaleo ex",
+		'ko-kr': "솔가레오 ex"
+	},
+
+	illustrator: "AKIRA EGAWA",
+	rarity: "Two Star",
+	category: "Pokemon",
+
+	dexId: [791],
+	hp: 180,
+	types: ["Metal"],
+
+	evolveFrom: {
+		'en-us': "Cosmoem"
+	},
+
+	stage: "Stage2",
+	suffix: "EX",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'en-us': "Rising Road",
+			'fr-fr': "Ascension Solaire",
+			'es-es': "Camino Ascendente",
+			'it-it': "Ascesa Rapida",
+			'de-de': "Aufstiegspfad",
+			'pt-br': "Via Ascendente",
+			'ko-kr': "라이징 로드"
+		},
+
+		effect: {
+			'en-us': "Once during your turn, if this Pokémon is on your Bench, you may switch it with your Active Pokémon.",
+			'fr-fr': "Une fois pendant votre tour, si ce Pokémon est sur votre Banc, vous pouvez l'échanger avec votre Pokémon Actif.",
+			'es-es': "Una vez durante tu turno, si este Pokémon está en tu Banca, puedes cambiarlo por tu Pokémon Activo.",
+			'it-it': "Una sola volta durante il tuo turno, se questo Pokémon è nella tua panchina, puoi scambiarlo con il tuo Pokémon attivo.",
+			'de-de': "Einmal während deines Zuges, wenn sich dieses Pokémon auf deiner Bank befindet, kannst du es gegen dein Aktives Pokémon austauschen.",
+			'pt-br': "Uma vez durante o seu turno, se este Pokémon estiver no seu Banco, você poderá trocá-lo pelo seu Pokémon Ativo.",
+			'ko-kr': "이 포켓몬이 벤치에 있다면 자신의 차례에 1번 사용할 수 있다. 이 포켓몬을 배틀 포켓몬과 교체한다."
+		}
+	}],
+
+	attacks: [{
+		name: {
+			'en-us': "Sol Breaker",
+			'fr-fr': "Brèche Solaire",
+			'es-es': "Brecha Solar",
+			'it-it': "Schianto Solare",
+			'de-de': "Solarbrecher",
+			'pt-br': "Quebra-sol",
+			'ko-kr': "솔브레이크"
+		},
+
+		damage: 120,
+		cost: ["Metal", "Metal"],
+
+		effect: {
+			'en-us': "This Pokémon also does 10 damage to itself.",
+			'fr-fr': "Ce Pokémon s'inflige aussi 10 dégâts.",
+			'es-es': "Este Pokémon también se hace 10 puntos de daño a sí mismo.",
+			'it-it': "Questo Pokémon infligge anche 10 danni a se stesso.",
+			'de-de': "Dieses Pokémon fügt auch sich selbst 10 Schadenspunkte zu.",
+			'pt-br': "Este Pokémon também causa 10 pontos de dano a si mesmo.",
+			'ko-kr': "이 포켓몬에게도 10데미지를 준다."
+		}
+	}],
+
+	weaknesses: [{
+		type: "Fire",
+		value: "+20"
+	}],
+
+	retreat: 2,
+	boosters: ["solgaleo"]
+}
+
+export default card

@@ -1,0 +1,100 @@
+import { Card } from 'models/database/card'
+import Set from '../Legends Awakened'
+
+const card: Card = {
+	name: {
+		'en-us': "Anorith",
+		'fr-fr': "Anorith",
+		'de-de': "Anorith"
+	},
+
+	illustrator: "Kouki Saitou",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		347,
+	],
+
+	hp: 80,
+
+	types: [
+		"Fighting",
+	],
+
+	evolveFrom: {
+		'en-us': "Claw Fossil",
+		'fr-fr': "Klauenfossil",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Guard Claw",
+				'fr-fr': "Griffe de garde",
+				'de-de': "Abwehrklaue"
+			},
+			effect: {
+				'en-us': "During your opponent's next turn, any damage done to Anorith by attacks is reduced by 20 (after applying Weakness and Resistance).",
+				'fr-fr': "Lors du prochain tour de votre adversaire, tous dégâts infligés à Anorith par des attaques sont réduits de 20 (après application de la Faiblesse et de la Résistance).",
+				'de-de': "Während des nächsten Zuges deines Gegners wird Schaden, der Anorith durch Angriffe zugefügt wird, um 20 Schadenspunkte reduziert (nachdem Schwäche und Resistenz verrechnet wurden)."
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Colorless",
+			],
+			name: {
+				'en-us': "X-Scissor",
+				'fr-fr': "Plaie-Croix",
+				'de-de': "Kreuzschere"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, this attack does 30 damage plus 20 more damage.",
+				'fr-fr': "Lancez une pièce. Si c'est face, cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" fügt dieser Angriff 30 Schadenspunkte plus 20 weitere Schadenspunkte zu."
+			},
+			damage: "30+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "+20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "A Pokémon ancestor that was reanimated from a fossil. It lived in the sea and hunted with claws.",
+		'fr-fr': "Un ancêtre Pokémon réanimé à partir d'un fossile. Il vivait en mer et chassait avec ses pinces."
+	},
+
+	thirdParty: {
+		cardmarket: 278195,
+		tcgplayer: 83561
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
+}
+
+export default card

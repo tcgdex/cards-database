@@ -1,0 +1,105 @@
+import { Card } from 'models/database/card'
+import Set from '../Unbroken Bonds'
+
+const card: Card = {
+	name: {
+		'en-us': "Vileplume",
+		'fr-fr': "Rafflesia",
+		'es-es': "Vileplume",
+		'it-it': "Vileplume",
+		'pt-br': "Vileplume",
+		'de-de': "Giflor"
+	},
+
+	illustrator: "Suwama Chiaki",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		45,
+	],
+
+	hp: 140,
+
+	types: [
+		"Grass",
+	],
+
+	evolveFrom: {
+		'en-us': "Gloom",
+		'fr-fr': "Ortide",
+	},
+
+	stage: "Stage2",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'en-us': "Varied Pollen",
+				'fr-fr': "Pollens Variés",
+				'es-es': "Polen Variado",
+				'it-it': "Multipolline",
+				'pt-br': "Pólen Variado",
+				'de-de': "Vielseitiger Pollen"
+			},
+			effect: {
+				'en-us': "Once during your turn (before your attack), you may flip a coin. If heads, choose Asleep, Burned, Confused, or Poisoned. Your opponent’s Active Pokémon is now affected by that Special Condition.",
+				'fr-fr': "Une seule fois pendant votre tour (avant votre attaque), vous pouvez lancer une pièce. Si c’est face, choisissez entre Brûlé, Confus, Empoisonné ou Endormi. Le Pokémon Actif de votre adversaire est maintenant affecté par cet État Spécial.",
+				'es-es': "Una vez durante tu turno (antes de tu ataque), puedes lanzar 1 moneda. Si sale cara, elige entre Confundido, Dormido, Envenenado o Quemado. El Pokémon Activo de tu rival pasa a estar afectado por esa Condición Especial.",
+				'it-it': "Una sola volta durante il tuo turno, prima di attaccare, puoi lanciare una moneta. Se esce testa, scegli tra addormentato, bruciato, confuso e avvelenato. Il Pokémon attivo del tuo avversario è influenzato da quella condizione speciale.",
+				'pt-br': "Uma vez durante a sua vez de jogar (antes de atacar), você pode jogar 1 moeda. Se sair cara, escolha entre Adormecido, Confuso, Envenenado e Queimado. O Pokémon Ativo do seu oponente agora está afetado por aquela Condição Especial.",
+				'de-de': "Einmal während deines Zuges (bevor du angreifst) kannst du 1 Münze werfen. Wähle bei Kopf Schlaf, Verbrennung, Vergiftung oder Verwirrung. Das Aktive Pokémon deines Gegners ist jetzt von jenem Speziellen Zustand betroffen."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+				"Grass",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Giant Bloom",
+				'fr-fr': "Pousse Géante",
+				'es-es': "Floración Gigante",
+				'it-it': "Gigafioritura",
+				'pt-br': "Florescimento Gigante",
+				'de-de': "Riesenblüte"
+			},
+			effect: {
+				'en-us': "Heal 30 damage from this Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon.",
+				'es-es': "Cura 30 puntos de daño a este Pokémon.",
+				'it-it': "Cura questo Pokémon da 30 danni.",
+				'pt-br': "Cure 30 pontos de dano deste Pokémon.",
+				'de-de': "Heile 30 Schadenspunkte bei diesem Pokémon."
+			},
+			damage: 90,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	retreat: 3,
+
+	description: {
+		'en-us': "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.",
+	},
+
+	thirdParty: {
+		cardmarket: 372301,
+		tcgplayer: 189046
+	}
+}
+
+export default card

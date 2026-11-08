@@ -1,0 +1,99 @@
+import { Card } from 'models/database/card'
+import Set from '../Shining Fates'
+
+const card: Card = {
+	dexId: [133],
+	set: Set,
+
+	name: {
+		'fr-fr': "Évoli",
+		'en-us': "Eevee",
+		'es-es': "Eevee",
+		'it-it': "Eevee",
+		'pt-br': "Eevee",
+		'de-de': "Evoli"
+	},
+
+	illustrator: "so-taro",
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Colorless"],
+
+	attacks: [{
+		name: {
+			'fr-fr': "Signes d'Évolution",
+			'en-us': "Signs of Evolution",
+			'es-es': "Indicios de Evolución",
+			'it-it': "Evolvisegni",
+			'pt-br': "Sinais de Evolução",
+			'de-de': "Spuren der Evolution"
+		},
+
+		effect: {
+			'fr-fr': "Cherchez dans votre deck une carte Évolution d'Évoli, montrez-la, puis ajoutez-la à votre main. Mélangez ensuite votre deck.",
+			'en-us': "Search your deck for a card that evolves from Eevee, reveal it, and put it into your hand. Then, shuffle your deck.",
+			'es-es': "Busca en tu baraja 1 carta que evolucione de Eevee, enséñala y ponla en tu mano. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo una carta che si evolve da Eevee, mostrala e aggiungila alle carte che hai in mano. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por 1 carta no seu baralho que evolua de Eevee, revele-a e coloque-a na sua mão. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach 1 Karte, die sich aus Evoli entwickelt, zeige sie deinem Gegner und nimm sie auf deine Hand. Mische anschließend dein Deck."
+		},
+
+		cost: ["Colorless"]
+	}, {
+		name: {
+			'fr-fr': "Coup Déchaîné",
+			'en-us': "Wild Kick",
+			'es-es': "Patada Salvaje",
+			'it-it': "Calcio Selvaggio",
+			'pt-br': "Chute sem Pontaria",
+			'de-de': "Stürmischer Kick"
+		},
+
+		effect: {
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+			'pt-br': "Jogue 1 moeda. Se sair coroa, este ataque não fará nada.",
+			'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+		},
+
+		damage: 30,
+		cost: ["Colorless", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "×2"
+	}],
+
+	retreat: 1,
+	regulationMark: "D",
+
+
+	stage: "Basic",
+
+	description: {
+		'en-us': "It has the ability to alter the composition of its body to suit its surrounding environment."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539283,
+				tcgplayer: 232528
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539283,
+				tcgplayer: 232528
+			}
+		},
+	],
+}
+
+export default card

@@ -1,0 +1,42 @@
+import { Card } from 'models/database/card'
+import Set from '../Hidden Legends'
+
+const card: Card = {
+	name: {
+		'en-us': "Life Herb",
+		'fr-fr': "Herbe sauveuse",
+		'de-de': "Lebenskräuter"
+	},
+
+	illustrator: "Ryo Ueda",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+	trainerType: "Item",
+
+	effect: {
+		'en-us': "Flip a coin. If heads, choose 1 of your Pokémon (excluding Pokémon-ex). Remove all Special Conditions and 6 damage counters from that Pokémon (all if there are less than 6).",
+		'fr-fr': "Lancez une pièce. Si c'est face, choisissez 1 de vos Pokémon (Pokémon-ex exclus). Retirez à ce Pokémon tous ses États Spéciaux et 6 marqueurs de dégât (retirez-les lui tous s'il en a moins de 6).",
+		'de-de': "Flip a coin. If heads, choose 1 of your Pokémon (excluding Pokémon-ex). Remove all Special Conditions and 6 damage counters from that Pokémon (all if there are less than 6)."
+	},
+
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86730,
+				cardmarket: 276164
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 86730,
+				cardmarket: 276164
+			}
+		},
+	]
+}
+
+export default card

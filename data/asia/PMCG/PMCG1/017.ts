@@ -1,0 +1,57 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG1"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "リザード",
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	dexId: [5],
+	hp: 80,
+	types: ["Fire"],
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: ["Colorless", "Colorless", "Colorless"],
+			name: {
+				'ja-jp': "スラッシュ",
+			},
+			damage: 30,
+		},
+		{
+			cost: ["Fire", "Fire", "Colorless"],
+			name: {
+				'ja-jp': "火炎放射器",
+			},
+			effect: {
+				'ja-jp': "このポケモンから火エネルギーを捨ててください。",
+			},
+			damage: 50,
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575634
+			},
+		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577061
+			},
+		}
+	],
+};
+
+export default card

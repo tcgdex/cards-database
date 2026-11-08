@@ -1,0 +1,78 @@
+import { Card } from "models/database/card";
+import Set from "../SV6";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ヤバソチャ",
+		'zh-tw': "來悲粗茶",
+		'th-th': "ยาบาโซฉะ",
+	},
+
+	illustrator: "Kouki Saitou",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Grass"],
+
+	description: {
+		'ja-jp': "民家の 床下や 棚の奥など 冷暗所を 好む。 日没後 獲物を 探して 徘徊する。",
+		'zh-tw': "喜歡待在民宅的地板下或 架子深處等陰涼的地方。 日落後會四處徘徊尋找獵物。",
+		'th-th': "ชอบสถานที่เย็น ๆ มืด ๆ อย่างใต้พื้นบ้านหรือตามซอกมุมชั้นวางของ หลังพระอาทิตย์ตกจะไปตระเวนหาอาหาร",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "のろいのしずく",
+				'zh-tw': "詛咒水滴",
+				'th-th': "หยาดหยดแห่งคำสาป",
+			},
+			cost: ["Grass"],
+			effect: {
+				'ja-jp': "ダメカン4個を、相手のポケモンに好きなようにのせる。",
+				'zh-tw': "將4個傷害指示物以任意方式放置於對手的寶可夢身上。",
+				'th-th': "วางตัวนับแดเมจ 4 ตัว บนโปเกมอนฝ่ายตรงข้ามตามชอบ",
+			},
+		},
+		{
+			name: {
+				'ja-jp': "ぶちまけちゃ",
+				'zh-tw': "傾瀉茶",
+				'th-th': "คว่ำชาทิ้ง",
+			},
+			damage: "70×",
+			cost: ["Grass"],
+			effect: {
+				'ja-jp': "自分の場のポケモンについている[G]エネルギーを3枚までトラッシュし、その枚数×70ダメージ。",
+				'zh-tw': "將最多3張自己的場上寶可夢身上附加的【草】能量卡丟棄，造成其張數×70點傷害。",
+				'th-th': "ทิ้งการ์ดพลังงาน[หญ้า]ที่ติดอยู่กับโปเกมอนบนกระดานฝ่ายเราได้สูงสุด 3 ใบที่ตำแหน่งทิ้งการ์ด แดเมจจะเท่ากับจำนวนการ์ดนั้น x70",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Fire", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 766984,
+				tcgplayer: 568004,
+			},
+		},
+	],
+
+	evolveFrom: {
+		'ja-jp': "チャデス",
+	},
+
+	retreat: 1,
+	regulationMark: "H",
+	rarity: "Rare",
+	dexId: [1013],
+};
+
+export default card;

@@ -1,0 +1,96 @@
+import { Card } from 'models/database/card'
+import Set from '../Black & White'
+
+const card: Card = {
+	name: {
+		'en-us': "Mandibuzz",
+		'fr-fr': "Vaututrice",
+		'es-es': "Mandibuzz",
+		'it-it': "Mandibuzz",
+		'pt-br': "Mandibuzz",
+		'de-de': "Grypheldis"
+	},
+
+	illustrator: "Kouki Saitou",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		630,
+	],
+
+	hp: 90,
+
+	types: [
+		"Darkness",
+	],
+
+	evolveFrom: {
+		'en-us': "Vullaby",
+		'fr-fr': "Vostourno",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Darkness",
+			],
+			name: {
+				'en-us': "Blindside",
+				'fr-fr': "Angle Mort",
+			},
+			effect: {
+				'en-us': "Does 50 damage to 1 of your opponent's Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 50 dégâts à 1 des Pokémon de votre adversaire ayant au moins 1 marqueur de dégâts. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			},
+
+		},
+		{
+			cost: [
+				"Darkness",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Punishment",
+				'fr-fr': "Punition",
+			},
+			effect: {
+				'en-us': "If the Defending Pokémon is a Stage 2 Pokémon, this attack does 60 more damage.",
+				'fr-fr': "Si le Pokémon Défenseur est un Pokémon de Niveau 2, cette attaque inflige 60 dégâts supplémentaires.",
+			},
+			damage: 40,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "It makes a nest out of bones it finds. It grabs weakened prey in its talons and hauls it to its nest of bones.",
+	},
+
+	thirdParty: {
+		cardmarket: 279811,
+		tcgplayer: 87150
+	}
+}
+
+export default card

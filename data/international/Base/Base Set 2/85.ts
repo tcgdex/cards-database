@@ -1,0 +1,79 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set 2'
+
+const card: Card = {
+	name: {
+		'en-us': "Paras",
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		46,
+	],
+
+	hp: 40,
+
+	types: [
+		"Grass",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Scratch",
+			},
+
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Grass",
+			],
+			name: {
+				'en-us': "Spore",
+			},
+			effect: {
+				'en-us': "The Defending Pokémon is now Asleep.",
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host.",
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274008,
+				tcgplayer: 42536
+			}
+		}
+	]
+}
+
+export default card

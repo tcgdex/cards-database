@@ -1,0 +1,105 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set'
+
+const card: Card = {
+	name: {
+		'en-us': "Pidgey",
+		'fr-fr': "Roucool",
+		'de-de': "Taubsi",
+		'it-it': "Pidgey"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		16,
+	],
+
+	hp: 40,
+
+	types: [
+		"Colorless",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Whirlwind",
+				'fr-fr': "Cyclone",
+				'de-de': "Wirbelwind",
+				'it-it': "Turbine"
+			},
+			effect: {
+				'en-us': "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",
+				'fr-fr': "Si votre adversaire a au moins un Pokémon sur le Banc, il ou elle choisit l'1 d'eux et l'échange avec le Pokémon Défenseur. (Appliquez les dégâts avant d'échanger les Pokémon.)",
+				'de-de': "Falls Dein gegner irgendwelche Pokémon auf der Bank hat, muss er eines von ihnen wählen und mit dem verteidigenden Pokémon austauschen. (Fühe die Schadenspunkte vor dem Auswechseln des Pokémon zu.)",
+				'it-it': "Se il tuo avversario ha dei Pokémon in Panchina, deve sceglierne uno e scambiarlo con il Pokémon Difensore. (Infliggi il danno prima di scambiare il Pokémon.)",
+			},
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.",
+		'fr-fr': "Il est souvent vu dans les forêts. Il brasse l'air de ses ailes près du sol pour projeter du sable.",
+		'it-it': "È una presenza comune nelle foreste e nei boschi. Sbatte le ali quando è a terra per alzare sabbia accecante. LIV 8 N.16"
+	},
+
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273752,
+				tcgplayer: 42401
+			},
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107054
+			},
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107054
+			},
+		},
+		{
+			type: "normal",
+			subtype: "1999-2000-copyright",
+		}
+	],
+}
+
+export default card

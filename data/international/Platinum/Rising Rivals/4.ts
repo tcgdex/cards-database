@@ -1,0 +1,88 @@
+import { Card } from 'models/database/card'
+import Set from '../Rising Rivals'
+
+const card: Card = {
+	name: {
+		'en-us': "Floatzel GL",
+		'fr-fr': "Mustéflott  Niv. 37",
+		'de-de': "Bojelin GL"
+	},
+
+	illustrator: "Midori Harada",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [419],
+
+	hp: 80,
+
+	types: [
+		"Water"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+
+			name: {
+				'en-us': "Incite",
+				'fr-fr': "Inciter",
+				'de-de': "Anspornen"
+			},
+			effect: {
+				'en-us': "Search your discard pile for up to 2 Supporter cards, show them to your opponent, and put them into your hand.",
+				'fr-fr': "Choisissez dans votre pile de défausse jusqu'à 2 cartes Supporter, montrez-les à votre adversaire et placez-les dans votre main.",
+				'de-de': "Durchsuche deinen Ablagestapel nach bis zu 2 Unterstützerkarten, zeige sie deinem Gegner und nimm sie auf die Hand."
+			},
+
+		},
+		{
+			cost: [
+				"Water",
+				"Water",
+			],
+			name: {
+				'en-us': "Giant Wave",
+				'fr-fr': "Vague géante",
+				'de-de': "Riesenwelle"
+			},
+			effect: {
+				'en-us': "Floatzel GL can't use Giant Wave during your next turn.",
+				'fr-fr': "Mustéflott  ne peut pas utiliser Vague géante lors de votre prochain tour.",
+				'de-de': "Bojelin GL kann Riesenwelle in deinem nächsten Zug nicht einsetzen."
+			},
+			damage: 50,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 278571,
+				tcgplayer: 85517
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278571,
+				tcgplayer: 85517
+			}
+		},
+	],
+
+}
+
+export default card

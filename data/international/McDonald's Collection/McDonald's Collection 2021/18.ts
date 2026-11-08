@@ -1,0 +1,81 @@
+import { Card } from 'models/database/card'
+import Set from '../McDonald\'s Collection 2021'
+
+const card: Card = {
+	name: {
+		'en-us': "Totodile",
+		'fr-fr': "Kaiminus",
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "None",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		158,
+	],
+
+	hp: 60,
+
+	types: [
+		"Water",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+			],
+			name: {
+				'en-us': "Fury Strikes",
+				'fr-fr': "Attaques Furieuses",
+			},
+			effect: {
+				'en-us': "Flip 3 coins. This attack does 10 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de côtés face.",
+			},
+			damage: "10×",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "It is small but rough and tough. It won’t hesitate to take a bite out of anything that moves."
+	},
+
+    variants: [
+          {
+            type: 'normal',
+			stamp: ["25th-celebration"],
+
+			thirdParty: {
+				cardmarket: 538948,
+				tcgplayer: 232332
+			}
+          },
+          {
+            type: 'holo',
+			stamp: ["25th-celebration"],
+
+			thirdParty: {
+				cardmarket: 538953,
+				tcgplayer: 232332
+			}
+          }
+        ]
+}
+
+export default card
+

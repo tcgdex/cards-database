@@ -1,0 +1,75 @@
+import { Card } from "models/database/card";
+import Set from "../S12a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "アルセウスVSTAR",
+		'zh-tw': "阿爾宙斯VSTAR",
+		'th-th': "อาร์เซอุสVSTAR",
+	},
+
+	illustrator: "5ban Graphics",
+	category: "Pokemon",
+	hp: 280,
+	types: ["Colorless"],
+
+	stage: "VSTAR",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'ja-jp': "スターバース",
+				'zh-tw': "星星誕生",
+				'th-th': "สตาร์เบิร์ท",
+			},
+			effect: {
+				'ja-jp': "自分の番に使える。自分の山札から好きなカードを2枚まで選び、手札に加える。そして山札を切る。［対戦中、自分はVSTARパワーを1回しか使えない。］",
+				'zh-tw': "在自己的回合時可使用。從自己的牌庫任意選擇最多2張卡加入手牌。並且重洗牌庫。[對戰中，己方只可使用1次【VSTAR】力量。]",
+				'th-th': "ใช้ได้ในเทิร์นฝ่ายเรา เลือกการ์ดที่ชอบได้สูงสุด 2 ใบจากสำรับการ์ดฝ่ายเรา นำขึ้นมือ แล้วสับสำรับการ์ด [ในระหว่างการแบตเทิล ฝ่ายเราใช้พลัง【VSTAR】ได้ 1 ครั้งเท่านั้น]",
+			},
+		},
+	],
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "トリニティノヴァ",
+				'zh-tw': "三重新星",
+				'th-th': "ทรินิตี้โนวา",
+			},
+			damage: 200,
+			cost: ["Colorless", "Colorless", "Colorless"],
+			effect: {
+				'ja-jp': "自分の山札から基本エネルギーを3枚まで選び、自分の「ポケモンV」に好きなようにつける。そして山札を切る。",
+				'zh-tw': "從自己的牌庫選擇最多3張基本能量卡，以任意方式附於自己的「寶可夢【V】」身上。並且重洗牌庫。",
+				'th-th': "เลือกการ์ดพลังงานพื้นฐานได้สูงสุด 3 ใบจากสำรับการ์ดฝ่ายเรา ติดที่ [โปเกมอน【V】] ฝ่ายเราตามชอบ แล้วสับสำรับการ์ด",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Fighting", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 687689,
+				tcgplayer: 571665,
+			},
+		},
+	],
+
+	evolveFrom: {
+		'ja-jp': "アルセウスV",
+	},
+
+	retreat: 2,
+	regulationMark: "F",
+	rarity: "Triple Rare",
+	dexId: [493],
+};
+
+export default card;

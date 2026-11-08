@@ -1,0 +1,46 @@
+import { Card } from 'models/database/card'
+import Set from '../HeartGold SoulSilver'
+
+const card: Card = {
+	name: {
+		'en-us': "Poké Ball",
+		'fr-fr': "Poké Ball",
+		'de-de': "Pokéball"
+	},
+
+	illustrator: "Hideaki Hakozaki",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+
+	effect: {
+		'fr-fr': "Lancez une pièce. Si c’est face, cherchez un Pokémon dans votre deck, montrez-le à votre adversaire, puis ajoutez-le à votre main. Mélangez ensuite votre deck.",
+		'en-us': "Flip a coin. If heads, search your deck for a Pokémon, show it to your opponent, and put it into your hand. Shuffle your deck afterward.",
+		'de-de': "Wirf eine Münze. Durchsuche bei \"Kopf\" dein Deck nach 1 Pokémon-Karte, zeige sie deinem Gegner und nimm sie auf die Hand. Mische anschließend dein Deck."
+	},
+
+	trainerType: "Item",
+
+	hp: 0,
+
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88189,
+				cardmarket: 279067
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 88189,
+				cardmarket: 279067
+			}
+		},
+	],
+
+}
+
+export default card

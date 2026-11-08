@@ -1,0 +1,82 @@
+import { Card } from 'models/database/card'
+import Set from '../Legendary Treasures'
+
+const card: Card = {
+	name: {
+		'en-us': "Swoobat",
+	},
+
+	illustrator: "Masakazu Fukuda",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		528,
+	],
+
+	hp: 80,
+
+	types: [
+		"Psychic",
+	],
+
+	evolveFrom: {
+		'en-us': "Woobat",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Energy Gift",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, search your deck for 2 Psychic Energy cards and attach them to your Pokémon in any way you like. Shuffle your deck afterward.",
+			},
+
+		},
+		{
+			cost: [
+				"Psychic",
+			],
+			name: {
+				'en-us': "Heart Stamp",
+			},
+
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "It shakes its tail vigorously when it emits ultrasonic waves strong enough to reduce concrete to rubble.",
+	},
+
+	thirdParty: {
+		cardmarket: 281216,
+		tcgplayer: 89727
+	}
+}
+
+export default card

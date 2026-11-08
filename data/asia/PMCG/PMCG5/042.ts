@@ -1,0 +1,52 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG5"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "マチスのサンダース",
+	},
+	illustrator: "Ken Sugimori",
+
+	rarity: "Rare",
+	category: "Pokemon",
+	dexId: [135],
+	hp: 70,
+	types: ["Lightning"],
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: ["Lightning", "Colorless"],
+			name: {
+				'ja-jp': "高電圧",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。頭の場合、対戦相手は次のターン中にトレーナーカードをプレイできません。",
+			},
+			damage: 20,
+		},
+		{
+			cost: ["Lightning", "Lightning", "Lightning"],
+			name: {
+				'ja-jp': "サンダーフレア",
+			},
+			effect: {
+				'ja-jp': "30のダメージと10ダメージの数のダメージ数は、SurgeのJolteon中tのカウンターを行い、コインをひっくり返します。テールの場合、SurgeのJolteon中tはそれ自体に30のダメージを与えます。",
+			},
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 576803
+			},
+		},
+	],
+};
+
+export default card

@@ -1,0 +1,96 @@
+import { Card } from "models/database/card"
+import Set from "../Paradox Rift"
+
+const card: Card = {
+	dexId: [383],
+	set: Set,
+
+	name: {
+		'en-us': "Groudon",
+		'fr-fr': "Groudon",
+		'es-es': "Groudon",
+		'it-it': "Groudon",
+		'pt-br': "Groudon",
+		'de-de': "Groudon"
+	},
+
+	rarity: "Illustration rare",
+	category: "Pokemon",
+	hp: 130,
+	types: ["Fighting"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'en-us': "Swelling Power",
+			'fr-fr': "Puissance Grandissante",
+			'es-es': "Poder Desbordante",
+			'it-it': "Potere Amplificato",
+			'pt-br': "Poder Crescente",
+			'de-de': "Anschwellende Kraft"
+		},
+
+		effect: {
+			'en-us': "Attach a Basic {F} Energy card from your hand to 1 of your Pokémon.",
+			'fr-fr': "Attachez une carte Énergie {F} de base de votre main à l'un de vos Pokémon.",
+			'es-es': "Une 1 carta de Energía {F} Básica de tu mano a uno de tus Pokémon.",
+			'it-it': "Assegna a uno dei tuoi Pokémon una carta Energia base {F} dalla tua mano.",
+			'pt-br': "Ligue uma carta de Energia {F} Básica da sua mão a 1 dos seus Pokémon.",
+			'de-de': "Lege 1 Basis-{F}-Energiekarte aus deiner Hand an 1 deiner Pokémon an."
+		}
+	}, {
+		cost: ["Fighting", "Fighting", "Colorless"],
+
+		name: {
+			'en-us': "Magma Purge",
+			'fr-fr': "Nettoyage Magma",
+			'es-es': "Purga Magma",
+			'it-it': "Magmarimozione",
+			'pt-br': "Expurgação Magmática",
+			'de-de': "Magma-Auswurf"
+		},
+
+		effect: {
+			'en-us': "Discard up to 4 Energy from your Pokémon. This attack does 60 damage for each card you discarded in this way.",
+			'fr-fr': "Défaussez jusqu'à 4 Énergies de vos Pokémon. Cette attaque inflige 60 dégâts pour chaque carte défaussée de cette façon.",
+			'es-es': "Descarta hasta 4 Energías de tus Pokémon. Este ataque hace 60 puntos de daño por cada carta que hayas descartado de esta manera.",
+			'it-it': "Scarta fino a quattro Energie dai tuoi Pokémon. Questo attacco infligge 60 danni per ogni carta che hai scartato in questo modo.",
+			'pt-br': "Descarte até 4 Energias dos seus Pokémon. Este ataque causa 60 pontos de dano para cada carta descartada desta forma.",
+			'de-de': "Lege bis zu 4 Energien von deinen Pokémon auf deinen Ablagestapel. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 60 Schadenspunkte zu."
+		},
+
+		damage: "60×"
+	}],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2",
+		},
+	],
+	retreat: 3,
+	regulationMark: "G",
+
+	description: {
+		'en-us': "This legendary Pokémon is said to represent the land. It went to sleep after dueling Kyogre.",
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 740742,
+				tcgplayer: 523880,
+				cardtrader: 265525
+			}
+		},
+	],
+
+	illustrator: "Nurikabe",
+
+	
+}
+
+export default card

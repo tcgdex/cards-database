@@ -1,0 +1,52 @@
+import { Card } from 'models/database/card'
+import Set from '../Team Magma vs Team Aqua'
+
+const card: Card = {
+	name: {
+		'en-us': "Team Magma Ball",
+		'fr-fr': "Boule de Team Magma",
+		'de-de': "Team Magma Ball"
+	},
+
+	illustrator: "Ryo Ueda",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+	trainerType: "Item",
+
+	effect: {
+		'en-us': "Flip a coin. If heads, search your deck for a Pokémon that has Team Magma in its name, show it to your opponent, and put it into your hand. If tails, search your deck for a Basic Pokémon that has Team Magma in its name, show it to your opponent and put it into your hand. Shuffle your deck afterward.",
+		'fr-fr': "Lancez une pièce. Si c'est face, cherchez dans votre deck un Pokémon dont le nom comporte Team Magma, montrez-le à votre adversaire et placez-le dans votre main. Si c'est pile, cherchez dans votre deck un Pokémon de base dont le nom comporte Team Magma, montrez-le à votre adversaire et placez-le dans votre main. Ensuite, mélangez votre deck.",
+		'de-de': "Wirf I Münze. Durchsuche bei Kopf dein Deck nach einem Pokémon, das \"Magma's\" im Namen hat. Durchsuche bei Zahl dein Deck nach einem Basispokémon, das \"Magma's\" im Namen hat. Mische dein Deck danach."
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 275857,
+				tcgplayer: 89812
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 275857,
+				tcgplayer: 89812
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["tsuguyoshi-yamato"],
+			thirdParty: {
+				cardmarket: 871875,
+				tcgplayer: 477446
+			}
+		}
+	],
+
+	retreat: 0
+}
+
+export default card

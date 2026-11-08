@@ -1,0 +1,86 @@
+import { Card } from 'models/database/card'
+import Set from '../Dragon Frontiers'
+
+const card: Card = {
+	name: {
+		'en-us': "Jynx δ",
+		'fr-fr': "Lippoutou δ",
+		'de-de': "Rossana"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		124,
+	],
+
+	hp: 60,
+
+	types: [
+		"Fire",
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Stages of Evolution",
+				'fr-fr': "Niveaux d'Évolution",
+				'de-de': "Stufen der Evolution"
+			},
+			effect: {
+				'en-us': "As long as Jynx is an Evolved Pokémon, you pay Colorless less to retreat your Fire and Psychic Pokémon.",
+				'fr-fr': "Tant que Lippoutou est un Pokémon Évolué, vous payez 1  de moins pour faire battre en retraite vos Pokémon  et .",
+				'de-de': "Solange Rossana ein entwickeltes Pokémon ist, kostet dich der Rückzug von deinen - und -Pokémon  weniger"
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Fire",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Fire Punch",
+				'fr-fr': "Poing de feu",
+				'de-de': "Feuerschlag"
+			},
+
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+
+
+	retreat: 1,
+
+	thirdParty: {
+		cardmarket: 277222
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		}
+	]
+}
+
+export default card

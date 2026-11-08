@@ -1,0 +1,96 @@
+import { Card } from "models/database/card"
+import Set from "../Paldean Fates"
+
+const card: Card = {
+	dexId: [101],
+	set: Set,
+
+	name: {
+		'en-us': "Electrode",
+		'fr-fr': "Électrode",
+		'es-es': "Electrode",
+		'it-it': "Electrode",
+		'pt-br': "Electrode",
+		'de-de': "Lektrobal"
+	},
+
+	rarity: "Shiny rare",
+	category: "Pokemon",
+	hp: 90,
+	types: ["Lightning"],
+	evolveFrom: {
+		'en-us': "Voltorb",
+		'fr-fr': "Voltorbe",
+		'es-es': "Voltorb",
+		'it-it': "Voltorb",
+		'pt-br': "Voltorb",
+		'de-de': "Voltobal"
+	},
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Lightning"],
+
+		name: {
+			'en-us': "Bang Boom Chain",
+			'fr-fr': "Bim Boum en Chaîne",
+			'es-es': "Cadena Bum Bum",
+			'it-it': "Bum Bang a Catena",
+			'pt-br': "Corrente Estrondosa",
+			'de-de': "Bumm-Bumm-Kette"
+		},
+
+		effect: {
+			'en-us': "Before doing damage, you may discard any number of Pokémon Tools from your Pokémon. This attack does 40 more damage for each card you discarded in this way.",
+			'fr-fr': "Avant d'infliger des dégâts, vous pouvez défausser le nombre voulu de cartes Outil Pokémon de vos Pokémon. Cette attaque inflige 40 dégâts supplémentaires pour chaque carte défaussée de cette façon.",
+			'es-es': "Antes de infligir daño, puedes descartar cualquier cantidad de Herramientas Pokémon de tus Pokémon. Este ataque hace 40 puntos de daño más por cada carta que hayas descartado de esta manera.",
+			'it-it': "Prima di infliggere danni, puoi scartare un numero qualsiasi di carte Oggetto Pokémon dai tuoi Pokémon. Questo attacco infligge 40 danni in più per ogni carta che hai scartato in questo modo.",
+			'pt-br': "Antes de causar dano, você poderá descartar qualquer número de Ferramentas Pokémon dos seus Pokémon. Este ataque causa 40 pontos de dano a mais para cada carta descartada desta forma.",
+			'de-de': "Bevor du Schaden zufügst, kannst du beliebig viele Pokémon-Ausrüstungen von deinen Pokémon auf deinen Ablagestapel legen. Diese Attacke fügt für jede auf diese Weise abgelegte Karte 40 Schadenspunkte mehr zu."
+		},
+
+		damage: "20+"
+	}, {
+		cost: ["Lightning", "Colorless"],
+
+		name: {
+			'en-us': "Electro Ball",
+			'fr-fr': "Boule Élek",
+			'es-es': "Bola Voltio",
+			'it-it': "Energisfera",
+			'pt-br': "Bola Elétrica",
+			'de-de': "Elektroball"
+		},
+
+		damage: 70
+	}],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+	regulationMark: "G",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751673,
+				tcgplayer: 534527,
+				cardtrader: 274317
+			}
+		},
+	],
+
+	illustrator: "Masakazu Fukuda",
+
+	description: {
+		'en-us': "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
+	},
+
+}
+
+export default card

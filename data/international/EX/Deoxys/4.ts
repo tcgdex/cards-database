@@ -1,0 +1,107 @@
+import { Card } from 'models/database/card'
+import Set from '../Deoxys'
+
+const card: Card = {
+	name: {
+		'en-us': "Camerupt",
+		'fr-fr': "Camerupt",
+		'de-de': "Camerupt"
+	},
+
+	illustrator: "Tomokazu Komiya",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		323,
+	],
+
+	hp: 90,
+
+	types: [
+		"Fire",
+	],
+
+	evolveFrom: {
+		'en-us': "Numel",
+		'fr-fr': "Chamallot"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Back Burner",
+				'fr-fr': "Brûle-dos",
+				'de-de': "Back Burner"
+			},
+			effect: {
+				'en-us': "Search your discard pile for up to 2 basic Energy cards and attach them to your Pokémon in any way you like.",
+				'fr-fr': "Cherchez dans votre pile de défausse jusqu'à 2 cartes Énergie de base et attachez-les à votre ou vos Pokémon de la façon que vous voulez.",
+				'de-de': "Search your discard pile for up 2 basic Energy cards and attach them to your Pokémon in any way you like."
+			},
+
+		},
+		{
+			cost: [
+				"Fire",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Split Bomb",
+				'fr-fr': "Bombe fendante",
+				'de-de': "Split Bomb"
+			},
+			effect: {
+				'en-us': "Choose 2 of your opponent's Pokémon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 2 des Pokémon de votre adversaire. Cette attaque leur inflige 30 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc).",
+				'de-de': "Choose 2 of your opponent's Pokémon. This attack does 30 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+
+
+	retreat: 2,
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 97749,
+				cardmarket: 276407
+			},
+		},
+		{
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 97749,
+				cardmarket: 276407
+			},
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84089,
+			},
+		},
+	],
+
+}
+
+export default card

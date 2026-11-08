@@ -1,0 +1,56 @@
+import { Card } from "models/database/card"
+import Set from "../Mega Rising"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Indeedee ex"
+	},
+
+	illustrator: "PLANETA CG Works",
+	rarity: "Four Diamond",
+	category: "Pokemon",
+
+	dexId: [876],
+	hp: 130,
+	types: ["Psychic"],
+	stage: "Basic",
+	suffix: "EX",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'en-us': "Watch Over"
+		},
+
+		effect: {
+			'en-us': "Once during your turn, you may heal 20 damage from your Active Pokémon."
+		}
+	}],
+
+	attacks: [{
+		name: {
+			'en-us': "Psychic"
+		},
+
+		damage: 30,
+		cost: ["Psychic", "Psychic"],
+
+		effect: {
+			'en-us': "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon."
+		}
+	}],
+
+	weaknesses: [{
+		type: "Darkness",
+		value: "+20"
+	}],
+
+	retreat: 1,
+
+	boosters: ["mega-altaria"]
+}
+
+export default card

@@ -1,0 +1,80 @@
+import { Card } from "models/database/card"
+import Set from "../SV2P"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "アマカジ",
+		'zh-tw': "甜竹竹",
+		'th-th': "อมาคาจิ",
+		'id-id': "Bounsweet"
+	},
+
+	illustrator: "Kurata So",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [761],
+	hp: 60,
+	types: ["Grass"],
+
+	description: {
+		'ja-jp': "果物を 煮詰めたような 甘い 汗を かくため 甘味の 少ない 昔は とても 重宝された。",
+		'zh-tw': "汗水帶著像是經過熬煮的水果甜味，在過去甜食尚少 的時代相當受到人們珍視。",
+		'th-th': "เพราะเหงื่อหวานราวกับน้ำผลไม้ที่เคี่ยว เลยมีค่ามากในอดีตที่ขนมยังมีน้อย",
+		'id-id': "Bounsweet sangat bermanfaat pada zaman dahulu ketika pemanis masih sedikit karena ia mengeluarkan keringat manis yang rasanya seperti buah yang dimasak."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Grass"],
+
+		name: {
+			'ja-jp': "ふむ",
+			'zh-tw': "踩",
+			'th-th': "เหยียบ",
+			'id-id': "Menginjak"
+		},
+
+		damage: 10
+	}, {
+		cost: ["Grass", "Grass"],
+
+		name: {
+			'ja-jp': "とつげき",
+			'zh-tw': "突擊",
+			'th-th': "ประจัญบาน",
+			'id-id': "Menyerang"
+		},
+
+		damage: 30,
+
+		effect: {
+			'ja-jp': "このポケモンにも10ダメージ。",
+			'zh-tw': "這隻寶可夢也受到10點傷害。",
+			'th-th': "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย",
+			'id-id': "Pokémon ini juga menerima kerusakan sejumlah 10."
+		}
+	}],
+
+	weaknesses: [{
+		type: "Fire",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 705240,
+				tcgplayer: 567764,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "G",
+}
+
+export default card

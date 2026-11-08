@@ -1,58 +1,61 @@
-import type { Serie as SDKSerie, SerieResume, SupportedLanguages } from '@tcgdex/sdk'
+import type { Serie as SDKSerie, SupportedLanguages } from '@tcgdex/sdk'
 import { executeQuery, type Query } from '../../libs/QueryEngine/filter'
 
-import de from '../../../generated/de/series.json'
-import en from '../../../generated/en/series.json'
-import es from '../../../generated/es/series.json'
-import esmx from '../../../generated/es-mx/series.json'
-import fr from '../../../generated/fr/series.json'
-import id from '../../../generated/id/series.json'
-import it from '../../../generated/it/series.json'
-import ja from '../../../generated/ja/series.json'
-import ko from '../../../generated/ko/series.json'
-import nl from '../../../generated/nl/series.json'
-import pl from '../../../generated/pl/series.json'
-import ptbr from '../../../generated/pt-br/series.json'
-import ptpt from '../../../generated/pt-pt/series.json'
-import pt from '../../../generated/pt/series.json'
-import ru from '../../../generated/ru/series.json'
-import th from '../../../generated/th/series.json'
-import zhcn from '../../../generated/zh-cn/series.json'
-import zhtw from '../../../generated/zh-tw/series.json'
+import dataTMP from '../../../generated/series.json'
+import { CompiledSerie } from '../../../../scripts/compiler/interfaces'
+import { objectKeys } from '@dzeio/object-util'
+import { Version } from '../../interfaces'
+import { loadSet } from './Set'
+import type { Serie, SerieResume, SetResume } from '../../api'
 
-const series = {
-	en: en,
-	fr: fr,
-	es: es,
-	'es-mx': esmx,
-	it: it,
-	pt: pt,
-	'pt-br': ptbr,
-	'pt-pt': ptpt,
-	de: de,
-	nl: nl,
-	pl: pl,
-	ru: ru,
-	ja: ja,
-	ko: ko,
-	'zh-tw': zhtw,
-	id: id,
-	th: th,
-	'zh-cn': zhcn,
-} as const
+// Compile data subsets
+const list: Record<string, CompiledSerie> = {}
+const langLists: Record<string, Array<CompiledSerie>> = {}
 
-type MappedSerie = any // (typeof en)[number]
+const data = dataTMP as Array<CompiledSerie>
 
-export async function getAllSeries(lang: SupportedLanguages): Promise<Array<SDKSerie>> {
-	return Promise.all((series[lang] as Array<MappedSerie>).map(transformSerie))
+data.forEach((it) => {
+	list[it.id.toLowerCase()] = it
+	objectKeys(it.name).forEach((lang) => {
+		langLists[lang] ??= []
+		langLists[lang].push(it)
+	})
+})
+
+export async function getAllSeries(lang: SupportedLanguages, version: Version = 'full'): Promise<Array<Serie>> {
+	return (await Promise.all((langLists[lang]).map((it) => loadSerie(it.id, lang, version))))
+		.filter((it) => !!it)
 }
 
-async function transformSerie(serie: MappedSerie): Promise<SDKSerie> {
-	return serie
-}
-
-export async function findSeries(lang: SupportedLanguages, query: Query<SDKSerie>) {
+export async function findSeries(lang: SupportedLanguages, query: Query<Serie>) {
 	return executeQuery(await getAllSeries(lang), query).data
+}
+
+
+export async function loadSerie(id: string, lang: SupportedLanguages, version?: Version): Promise<Serie | undefined>
+export async function loadSerie(id: string, lang: SupportedLanguages, version: 'brief'): Promise<SerieResume | undefined>
+export async function loadSerie(id: string, lang: SupportedLanguages, version: Version = 'full'): Promise<Serie | SerieResume | undefined> {
+	const serie = langLists[lang].find((it) => it.id.toLowerCase() === id.toLowerCase())
+	if (!serie) {
+		return undefined
+	}
+	const brief = {
+		id: serie.id,
+		name: serie.name[lang]!
+	} satisfies SerieResume
+	if (version === 'brief') {
+		return brief
+	}
+	return {
+		...serie,
+		...brief,
+		// @ts-expect-error
+		firstSet: await loadSet(serie.firstSet, lang, 'brief'),
+		// @ts-expect-error
+		lastSet: await loadSet(serie.lastSet, lang, 'brief'),
+		// @ts-expect-error
+		sets: await Promise.all(serie.sets.map<SetResume>((it) => loadSet(it, lang, 'brief')))
+	} satisfies Serie
 }
 
 export async function findOneSerie(lang: SupportedLanguages, query: Query<SDKSerie>) {
@@ -63,7 +66,7 @@ export async function findOneSerie(lang: SupportedLanguages, query: Query<SDKSer
 	return res[0]
 }
 
-export function serieToBrief(set: SDKSerie): SerieResume {
+export function serieToBrief(set: Serie): SerieResume {
 	return {
 		id: set.id,
 		name: set.name,

@@ -1,0 +1,92 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set'
+
+const card: Card = {
+	name: {
+		'en-us': "Staryu",
+		'fr-fr': "Stari",
+		'de-de': "Sterndu",
+		'it-it': "Staryu"
+	},
+
+	illustrator: "Keiji Kinebuchi",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		120,
+	],
+
+	hp: 40,
+
+	types: [
+		"Water",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+			],
+			name: {
+				'en-us': "Slap",
+				'fr-fr': "Gifle",
+				'de-de': "Hieb",
+				'it-it': "Sberla"
+			},
+
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "An enigmatic Pokémon that can effortlessly regenerate any appendage it loses in battle.",
+		'fr-fr': "Un Pokémon bien curieux qui peut régénérer ses appendices sectionnés lors d'un combat.",
+		'it-it': "Pokémon enigmatico che può rigenerare senza sforzo qualsiasi parte del corpo persa in combattimento. LIV 15 N.120"
+	},
+
+	variants: [
+		{
+			type: "normal",
+			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273760,
+				tcgplayer: 42410
+			},
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107062
+			},
+		},
+		{
+			type: "normal",
+			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107062
+			},
+		},
+		{
+			type: "normal",
+			subtype: "1999-2000-copyright",
+		}
+	],
+}
+
+export default card

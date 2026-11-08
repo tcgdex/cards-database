@@ -1,0 +1,69 @@
+import { Card } from "models/database/card"
+import Set from "../SV4M"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "エレズン",
+		'zh-tw': "毒電嬰",
+		'th-th': "เอเลซัน",
+		'ko-kr': "일레즌"
+	},
+
+	illustrator: "Yuka Morii",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [848],
+	hp: 70,
+	types: ["Lightning"],
+
+	description: {
+		'ja-jp': "わがままで とても 甘えん坊。 体内の ２つの 袋に 毒と 電気を それぞれ 溜める。",
+		'zh-tw': "任性且非常愛撒嬌。體內的兩個囊袋分別儲存著毒和電。",
+		'th-th': "เอาแต่ใจและขี้อ้อนมาก ภายในร่างกายมีถุง 2 ถุง เป็นถุงสำหรับสะสมพิษและไฟฟ้าอย่างละถุง",
+		'ko-kr': "제멋대로에 엄청난 응석꾸러기다. 체내에 있는 2개의 주머니에 독과 전기를 나눠서 비축하고 있다."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Lightning", "Lightning"],
+
+		name: {
+			'ja-jp': "きまぐれタックル",
+			'zh-tw': "胡思亂撞",
+			'th-th': "โจมตีแปรปรวน",
+			'ko-kr': "변덕 태클"
+		},
+
+		damage: 60,
+
+		effect: {
+			'ja-jp': "コインを1回投げウラなら、このワザは失敗。",
+			'zh-tw': "擲1次硬幣若為反面，則這個招式失敗。",
+			'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกก้อย ท่าต่อสู้นี้จะล้มเหลว",
+			'ko-kr': "동전을 1번 던져서 뒷면이 나오면 이 기술은 실패한다."
+		}
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 741853,
+				tcgplayer: 565986,
+			},
+		},
+	],
+
+	retreat: 2,
+	regulationMark: "G"
+}
+
+export default card

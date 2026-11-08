@@ -1,0 +1,64 @@
+import { Card } from "models/database/card"
+import Set from "../SVP Black Star Promos"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu",
+		'pt-br': "Pikachu",
+	},
+
+
+	illustrator: "Atsushi Furusawa",
+
+	rarity: "Promo",
+	category: "Pokemon",
+
+	dexId: [25],
+	hp: 50,
+	types: ["Lightning"],
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: ["Lightning", "Lightning", "Colorless"],
+
+			name: {
+				'en-us': "Scrappy Spark",
+				'fr-fr': "Étincelle Querelleuse",
+				'pt-br': "Faísca Obstinada"
+			},
+
+			effect: {
+				'en-us': "Flip a coin until you get tails. This attack does 30 more damage for each heads.",
+				'fr-fr': "Lancez une pièce jusqu'à obtenir un côté pile. Cette attaque inflige 30 dégâts supplémentaires pour chaque côté face.",
+				'pt-br': "Jogue uma moeda até que saia coroa. Este ataque causará 30 pontos de dano a mais para cada cara."
+			},
+
+			damage: "30+"
+		}
+	],
+
+	retreat: 1,
+	regulationMark: "H",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 784938
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["worlds-2024"],
+			thirdParty: {
+				cardmarket: 780209,
+				tcgplayer: 562088
+			},
+		}
+	],
+}
+
+export default card

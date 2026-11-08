@@ -1,0 +1,55 @@
+import { Card } from "models/database/card"
+import Set from "../Fantastical Parade"
+
+const card: Card = {
+	set: Set,
+
+	dexId: [196],
+
+	name: {
+		'en-us': "Espeon ex"
+	},
+
+	illustrator: "PLANETA CG Works",
+	rarity: "Two Shiny",
+	category: "Pokemon",
+	hp: 140,
+	types: ["Psychic"],
+
+	evolveFrom: {
+		'en-us': "Eevee"
+	},
+
+	stage: "Stage1",
+	suffix: "EX",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'en-us': "Psychic Healing"
+		},
+
+		effect: {
+			'en-us': "Once during your turn, if this Pokémon is in the Active Spot, you may heal 30 damage from 1 of your Pokémon."
+		}
+	}],
+
+	attacks: [{
+		name: {
+			'en-us': "Super Psy Bolt"
+		},
+
+		damage: 80,
+		cost: ["Psychic", "Psychic"]
+	}],
+
+	weaknesses: [{
+		type: "Darkness",
+		value: "+20"
+	}],
+
+	retreat: 1
+}
+
+export default card

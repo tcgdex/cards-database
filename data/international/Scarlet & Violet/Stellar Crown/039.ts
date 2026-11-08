@@ -1,0 +1,68 @@
+import { Card } from "models/database/card"
+import Set from "../Stellar Crown"
+
+const card: Card = {
+	dexId: [656],
+	set: Set,
+
+	name: {
+		'en-us': "Froakie",
+		'fr-fr': "Grenousse",
+		'es-es': "Froakie",
+		'it-it': "Froakie",
+		'pt-br': "Froakie",
+		'de-de': "Froxy"
+	},
+
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Water"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Water", "Colorless"],
+
+		name: {
+			'en-us': "Rain Splash",
+			'fr-fr': "Pluie Éclaboussante",
+			'es-es': "Golpe de Lluvia",
+			'it-it': "Spruzzapioggia",
+			'pt-br': "Chuva Borrifante",
+			'de-de': "Regenplatscher"
+		},
+
+		damage: 20
+	}],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+	regulationMark: "H",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 785893,
+				tcgplayer: 567265
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 785893,
+				tcgplayer: 567265
+			}
+		},
+	],
+
+	illustrator: "MINAMINAMI Take",
+
+}
+
+export default card

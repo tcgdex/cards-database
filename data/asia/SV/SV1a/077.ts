@@ -1,0 +1,65 @@
+import { Card } from "models/database/card"
+import Set from "../SV1a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "カエンジシ"
+	},
+
+	illustrator: "Po-Suzuki",
+	category: "Pokemon",
+	dexId: [668],
+	hp: 120,
+	types: ["Fire"],
+
+	description: {
+		'ja-jp': "群れの メスが 協力して 獲物を 仕留める。 メスたちの おかげで 群れが 飢えないのだ。"
+	},
+
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Fire"],
+
+		name: {
+			'ja-jp': "こがす"
+		},
+
+		effect: {
+			'ja-jp': "相手のバトルポケモンをやけどにする。"
+		}
+	}, {
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "かけぬける"
+		},
+
+		damage: 60,
+
+		effect: {
+			'ja-jp': "相手のベンチポケモン1匹にも、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
+		}
+	}],
+
+	weaknesses: [{
+		type: "Water",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 701533,
+				tcgplayer: 568200,
+			},
+		},
+	],
+
+	retreat: 2,
+}
+
+export default card

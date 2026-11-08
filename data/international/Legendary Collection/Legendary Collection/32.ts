@@ -1,0 +1,91 @@
+import { Card } from 'models/database/card'
+import Set from '../Legendary Collection'
+
+const card: Card = {
+	name: {
+		'en-us': "Nidoqueen"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [31],
+
+	hp: 90,
+
+	types: [
+		"Grass"
+	],
+
+	evolveFrom: {
+		'en-us': "Nidorina"
+	},
+
+	stage: "Stage2",
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Boyfriends"
+			},
+			effect: {
+				'en-us': "Does 20 damage plus 20 more damage for each Nidoking you have in play."
+			},
+			damage: "20+",
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Grass",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Mega Punch"
+			},
+
+			damage: 50,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+	retreat: 3,
+
+
+	description: {
+		'en-us': "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves."
+	},
+
+	variants: [
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 274797,
+				tcgplayer: 87706
+			}
+		},
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87706,
+				cardmarket: 274797
+			}
+		}
+	],
+
+}
+
+export default card

@@ -1,0 +1,40 @@
+import { Card } from 'models/database/card'
+import Set from '../Delta Species'
+
+const card: Card = {
+	name: {
+		'en-us': "Master Ball",
+		'fr-fr': "Master Ball",
+		'de-de': "Meisterball"
+	},
+
+	illustrator: "Keiji Kinebuchi",
+	rarity: "Uncommon",
+	category: "Trainer",
+	set: Set,
+	trainerType: "Item",
+
+	effect: {
+		'en-us': "Look at the top 7 cards from your deck. Choose a Basic Pokémon or Evolution card from those cards, show it to your opponent, and put it into your hand. Put the other 6 cards back on top of your deck. Shuffle your deck afterward.",
+		'fr-fr': "Regardez les 7 cartes du dessus de votre deck. Choisissez un Pokémon de base ou une carte Évolution, montrez-le (ou la) à votre adversaire et placez-le (ou la) dans votre main. Replacez les 6 autres cartes au dessus de votre deck. Ensuite, mélangez votre deck.",
+		'de-de': "Look at the top 7 cards from your deck. Choose a Basic Pokémon or Evolution card from those cards, show it to your opponent, and put it into your hand. Put the other 6 cards back on top of your deck. Shuffle your deck afterward."
+	},
+
+	thirdParty: {
+		cardmarket: 276862,
+		tcgplayer: 87254
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "normal",
+			stamp: ["set-logo"]
+		}
+	]
+}
+
+export default card
+

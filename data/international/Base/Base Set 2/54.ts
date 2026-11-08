@@ -1,0 +1,87 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set 2'
+
+const card: Card = {
+	name: {
+		'en-us': "Nidorino",
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		33,
+	],
+
+	hp: 60,
+
+	types: [
+		"Grass",
+	],
+
+	evolveFrom: {
+		'en-us': "Nidoran♂",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Double Kick",
+			},
+			effect: {
+				'en-us': "Flip 2 coins. This attack does 30 damage times the number of heads.",
+			},
+			damage: 30,
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Grass",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Horn Drill",
+			},
+
+			damage: 50,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "An aggressive Pokémon that is quick to attack. The horn on its head secretes a powerful venom.",
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 273977,
+				tcgplayer: 42517
+			}
+		}
+	]
+}
+
+export default card

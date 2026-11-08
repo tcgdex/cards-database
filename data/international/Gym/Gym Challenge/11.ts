@@ -1,0 +1,88 @@
+import { Card } from 'models/database/card'
+import Set from '../Gym Challenge'
+
+const card: Card = {
+	name: {
+		'en-us': "Lt. Surge's Raichu"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [26],
+
+	hp: 80,
+
+	types: [
+		"Lightning"
+	],
+
+	evolveFrom: {
+		'en-us': "Pikachu"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Lightning",
+				"Lightning",
+			],
+			name: {
+				'en-us': "Kerzap"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, this attack does 20 damage plus 30 more damage to the Defending Pokémon and discard all Lightning Energy cards attached to Lt. Surge's Raichu. If tails, this attack does 20 damage."
+			},
+			damage: "20+",
+
+		},
+		{
+			cost: [
+				"Lightning",
+				"Lightning",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Thundertackle"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, Lt. Surge's Raichu does 20 damage to itself."
+			},
+			damage: 40,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 86861,
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 86861,
+				cardmarket: 274279
+			}
+		},
+	],
+}
+
+export default card

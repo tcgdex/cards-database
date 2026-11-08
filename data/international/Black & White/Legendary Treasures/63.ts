@@ -1,0 +1,80 @@
+import { Card } from 'models/database/card'
+import Set from '../Legendary Treasures'
+
+const card: Card = {
+	name: {
+		'en-us': "Toxicroak",
+	},
+
+	illustrator: "Naoki Saito",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		454,
+	],
+
+	hp: 90,
+
+	types: [
+		"Psychic",
+	],
+
+	evolveFrom: {
+		'en-us': "Croagunk",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Revenge",
+			},
+			effect: {
+				'en-us': "If any of your Pokémon were Knocked Out by damage from an opponent's attack during his or her last turn, this attack does 70 more damage.",
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Psychic",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Poison Jab",
+			},
+			effect: {
+				'en-us': "The Defending Pokémon is now Poisoned.",
+			},
+			damage: 60,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "The croaking that Toxicroak produces before a battle is for churning the poison it has stored in its poison sac.",
+	},
+
+	thirdParty: {
+		cardmarket: 281214,
+		tcgplayer: 90011
+	}
+}
+
+export default card

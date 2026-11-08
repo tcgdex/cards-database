@@ -1,0 +1,95 @@
+import { Card } from "models/database/card"
+import Set from "../White Flare"
+
+const card: Card = {
+	dexId: [639],
+	set: Set,
+
+	name: {
+		'en-us': "Terrakion",
+		'fr-fr': "Terrakium",
+		'de-de': "Terrakium",
+		'it-it': "Terrakion",
+		'pt-br': "Terrakion",
+		'es-es': "Terrakion",
+		'es-mx': "Terrakion"
+	},
+
+	illustrator: "Tonji Matsuno",
+	rarity: "Rare",
+	category: "Pokemon",
+	hp: 140,
+	types: ["Fighting"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Fighting", "Colorless"],
+
+		name: {
+			'en-us': "Retaliate",
+			'fr-fr': "Vengeance",
+			'de-de': "Heimzahlung",
+			'it-it': "Nemesi",
+			'pt-br': "Retaliação",
+			'es-es': "Represalia",
+			'es-mx': "Represalia"
+		},
+
+		effect: {
+			'en-us': "If any of your Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 80 more damage.",
+			'fr-fr': "Si au moins l'un de vos Pokémon a été mis K.O. par les dégâts d'une attaque pendant le dernier tour de votre adversaire, cette attaque inflige 80 dégâts supplémentaires.",
+			'de-de': "Wenn mindestens 1 deiner Pokémon während des letzten Zuges deines Gegners durch Schaden einer Attacke kampfunfähig wurde, fügt diese Attacke 80 Schadenspunkte mehr zu.",
+			'it-it': "Se uno qualsiasi dei tuoi Pokémon è stato messo KO dai danni inflitti da un attacco durante l'ultimo turno del tuo avversario, questo attacco infligge 80 danni in più.",
+			'pt-br': "Se algum dos seus Pokémon tiver sido Nocauteado pelo dano de um ataque durante o último turno do seu oponente, este ataque causará 80 pontos de dano a mais.",
+			'es-es': "Si alguno de tus Pokémon quedó Fuera de Combate por el daño de un ataque durante el último turno de tu rival, este ataque hace 80 puntos de daño más.",
+			'es-mx': "Si alguno de tus Pokémon quedó Fuera de Combate por el daño de un ataque durante el último turno de tu rival, este ataque hace 80 puntos de daño más."
+		},
+
+		damage: "50+"
+	}, {
+		cost: ["Fighting", "Fighting", "Colorless"],
+
+		name: {
+			'en-us': "Land Crush",
+			'fr-fr': "Écras'Terre",
+			'de-de': "Schollenbrecher",
+			'it-it': "Schiacciaterra",
+			'pt-br': "Aperto de Terra",
+			'es-es': "Aterrizaje",
+			'es-mx': "Aplastamiento Terrestre"
+		},
+
+		damage: 100
+	}],
+
+	retreat: 3,
+	regulationMark: "I",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 836001,
+				tcgplayer: 642166
+			}
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 836591,
+				tcgplayer: 642408
+			}
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 836592,
+				tcgplayer: 642336
+			}
+		},
+	],
+}
+
+export default card

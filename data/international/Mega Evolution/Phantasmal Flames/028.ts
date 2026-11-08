@@ -1,0 +1,107 @@
+import { Card } from "models/database/card"
+import Set from "../Phantasmal Flames"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Prinplup",
+		'fr-fr': "Prinplouf",
+		'es-es': "Prinplup",
+		'es-mx': "Prinplup",
+		'de-de': "Pliprin",
+		'it-it': "Prinplup",
+		'pt-br': "Prinplup"
+	},
+
+	evolveFrom: {
+		'en-us': "Piplup",
+		'fr-fr': "Tiplouf",
+		'es-es': "Piplup",
+		'es-mx': "Piplup",
+		'de-de': "Plinfa",
+		'it-it': "Piplup",
+		'pt-br': "Piplup",
+	},
+
+	rarity: "Common",
+	category: "Pokemon",
+
+	dexId: [394],
+	hp: 100,
+	types: ["Water"],
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'en-us': "Peck",
+			'fr-fr': "Picpic",
+			'es-es': "Picotazo",
+			'es-mx': "Picotazo",
+			'de-de': "Pikser",
+			'it-it': "Beccata",
+			'pt-br': "Bicada"
+		},
+
+		damage: 20
+	}, {
+		cost: ["Colorless", "Colorless", "Colorless"],
+
+		name: {
+			'en-us': "Targeted Dive",
+			'fr-fr': "Plongée Visée",
+			'es-es': "Picado Dirigido",
+			'es-mx': "Buceo Preciso",
+			'de-de': "Gezielter Taucher",
+			'it-it': "Tuffo Mirato",
+			'pt-br': "Mergulho na Mira"
+		},
+
+		effect: {
+			'en-us': "This attack does 70 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+			'fr-fr': "Cette attaque inflige 70 dégâts à l'un des Pokémon de Banc de votre adversaire. (N'appliquez ni la Faiblesse ni la Résistance aux Pokémon de Banc.)",
+			'es-es': "Este ataque hace 70 puntos de daño a uno de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			'es-mx': "Este ataque hace 70 puntos de daño a 1 de los Pokémon en Banca de tu rival. (No apliques Debilidad y Resistencia a los Pokémon en Banca).",
+			'de-de': "Diese Attacke fügt 1 Pokémon auf der Bank deines Gegners 70 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)",
+			'it-it': "Questo attacco infligge 70 danni a uno dei Pokémon nella panchina del tuo avversario. Non applicare debolezza e resistenza ai Pokémon in panchina.",
+			'pt-br': "Este ataque causa 70 pontos de dano a 1 dos Pokémon no Banco do seu oponente. (Não aplique Fraqueza e Resistência aos Pokémon no Banco.)"
+		}
+	}],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	retreat: 2,
+	regulationMark: "I",
+
+	description: {
+		'en-us': "It lives a solitary life. Its wings deliver wicked blows that can snap even the thickest of trees in half with a single hit.",
+	},
+
+	illustrator: "Atsuya Uki",
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 857603,
+				tcgplayer: 662216,
+				cardtrader: 356811
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 857603,
+				tcgplayer: 662216,
+				cardtrader: 356811
+			}
+		},
+	],
+}
+
+export default card

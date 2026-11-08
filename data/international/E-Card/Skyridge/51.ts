@@ -1,0 +1,83 @@
+import { Card } from 'models/database/card'
+import Set from '../Skyridge'
+
+const card: Card = {
+	name: {
+		'en-us': "Ditto",
+		'de-de': "Ditto"
+	},
+
+	illustrator: "Tomokazu Komiya",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [132],
+
+	hp: 50,
+
+	types: [
+		"Colorless"
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Prismatic Body",
+				'de-de': "Prismatischer Körper"
+			},
+			effect: {
+				'en-us': "Each basic Energy card attached to Ditto provides every type of Energy but provides only 1 Energy at a time.",
+				'de-de': "Jede an Ditto angelegte Basis-Energiekarte erzeugt jeden Energietyp, aber nur 1 Energie auf einmal."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Copy",
+				'de-de': "Kopie"
+			},
+			effect: {
+				'en-us': "Choose 1 of the Defending Pokémon's attacks. Copy copies that attack. This attack does nothing if Ditto doesn't have the Energy necessary to use that attack. (You must still do anything else required in order to use that attack.)",
+				'de-de': "Wähle 1 der Angriffe des verteidigenden Pokémon. Kopie kopiert diesen Angriff. Dieser Angriff hat keine Auswirkungen, wenn an Ditto nicht die für diesen Angriff benötigte Energie angelegt ist. (Du musst immer noch alles tun, was verlangt wird, um diesen Angriff durchzuführen.)"
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 84830,
+				cardmarket: 275309
+			},
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				tcgplayer: 84830,
+				cardmarket: 275309
+			},
+		},
+	],
+}
+
+export default card

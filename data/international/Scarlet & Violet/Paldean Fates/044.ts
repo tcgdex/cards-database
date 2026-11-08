@@ -1,0 +1,100 @@
+import { Card } from "models/database/card"
+import Set from "../Paldean Fates"
+
+const card: Card = {
+	dexId: [999],
+	set: Set,
+
+	name: {
+		'en-us': "Gimmighoul",
+		'fr-fr': "Mordudor",
+		'es-es': "Gimmighoul",
+		'it-it': "Gimmighoul",
+		'pt-br': "Gimmighoul",
+		'de-de': "Gierspenst"
+	},
+
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 50,
+	types: ["Psychic"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'en-us': "Chest-ouflage",
+			'fr-fr': "Coffrouflage",
+			'es-es': "Encofrarse",
+			'it-it': "Camufforziere",
+			'pt-br': "Baú-muflagem",
+			'de-de': "Truhentarnung"
+		},
+
+		effect: {
+			'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon.",
+			'fr-fr': "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, évitez tous les dégâts et les effets d'attaques infligés à ce Pokémon.",
+			'es-es': "Lanza 1 moneda. Si sale cara, durante el próximo turno de tu rival, se evitan todo el daño y todos los efectos de los ataques infligidos a este Pokémon.",
+			'it-it': "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario, previeni sia i danni che gli effetti degli attacchi inflitti a questo Pokémon.",
+			'pt-br': "Jogue uma moeda. Se sair cara, durante o próximo turno do seu oponente, previna todo o dano e os efeitos de ataques causados a este Pokémon.",
+			'de-de': "Wirf 1 Münze. Verhindere bei Kopf während des nächsten Zuges deines Gegners allen Schaden durch und alle Effekte von Attacken, die diesem Pokémon zugefügt werden."
+		}
+	}, {
+		cost: ["Colorless"],
+
+		name: {
+			'en-us': "Ram",
+			'fr-fr': "Collision",
+			'es-es': "Apisonar",
+			'it-it': "Carica",
+			'pt-br': "Aríete",
+			'de-de': "Ramme"
+		},
+
+		damage: 10
+	}],
+
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
+	retreat: 1,
+	regulationMark: "G",
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 751581,
+				tcgplayer: 534191,
+				cardtrader: 274228
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 751581,
+				tcgplayer: 534191,
+				cardtrader: 274228
+			}
+		},
+	],
+
+	illustrator: "OKUBO",
+
+	description: {
+		'en-us': "This Pokémon was born inside a treasure chest about 1,500 years ago. It sucks the life-force out of scoundrels who try to steal the treasure.",
+	},
+
+}
+
+export default card

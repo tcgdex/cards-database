@@ -1,0 +1,53 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG2"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ブースター",
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [136],
+	hp: 70,
+	types: ["Fire"],
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: ["Colorless", "Colorless"],
+			name: {
+				'ja-jp': "クイック攻撃",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。頭の場合、この攻撃は10ダメージに加えて20ダメージを与えます。尾の場合、この攻撃は10ダメージを与えます。",
+			},
+
+		},
+		{
+			cost: ["Fire", "Fire", "Colorless", "Colorless"],
+			name: {
+				'ja-jp': "火炎放射器",
+			},
+			effect: {
+				'ja-jp': "Flareonに取り付けられた1つのファイアエネルギーカードを廃棄すると、この攻撃は何もしません。",
+			},
+			damage: 60,
+		},
+	],
+
+	retreat: 1,
+
+	variants : [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 576619
+			},
+		},
+	],
+};
+
+export default card

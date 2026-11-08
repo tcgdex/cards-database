@@ -1,0 +1,93 @@
+import { Card } from 'models/database/card'
+import Set from '../XY Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Tyranitar",
+		'fr-fr': "Tyranocif"
+	},
+
+	illustrator: "Satoshi Shirai",
+	rarity: "Promo",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		248,
+	],
+
+	hp: 160,
+
+	types: [
+		"Darkness",
+	],
+
+	evolveFrom: {
+		'en-us': "Pupitar",
+		'fr-fr': "Ymphect"
+	},
+
+	stage: "Stage2",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'en-us': "Raging Roar",
+				'fr-fr': "Rugissement Enragé"
+			},
+			effect: {
+				'en-us': "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may attach 1 Darkness Energy from your discard pile to this Pokémon for each Prize card your opponent has taken.",
+				'fr-fr': "Lorsque vous jouez ce Pokémon de votre main pour faire évoluer l'un de vos Pokémon, vous pouvez attacher 1 Énergie  de votre pile de défausse à ce Pokémon pour chaque carte Récompense que votre adversaire a récupérée."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Darkness",
+				"Darkness",
+				"Darkness",
+				"Darkness",
+				"Darkness",
+			],
+			name: {
+				'en-us': "Dark Mountain",
+				'fr-fr': "Montagne Obscure"
+			},
+			effect: {
+				'en-us': "Discard the top 2 cards of your deck. This attack does 50 more damage for each Supporter card discarded in this way.",
+				'fr-fr': "Défaussez les 2 cartes du dessus de votre deck. Cette attaque inflige 50 dégâts supplémentaires pour chaque carte Supporter défaussée de cette façon."
+			},
+			damage: "150+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-20"
+		},
+	],
+
+	retreat: 4,
+
+	description: {
+		'en-us': "If it rampages, it knocks down mountains and buries rivers. Maps must be redrawn afterward.",
+	},
+
+	thirdParty: {
+		cardmarket: 554153
+	}
+}
+
+export default card

@@ -1,0 +1,50 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG6"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ナツメのコダック",
+	},
+	illustrator: "Ken Sugimori",
+
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [54],
+	hp: 50,
+	types: ["Water"],
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: ["Colorless"],
+			name: {
+				'ja-jp': "傷",
+			},
+			damage: 10,
+		},
+		{
+			cost: ["Psychic"],
+			name: {
+				'ja-jp': "ランダムなesp",
+			},
+			effect: {
+				'ja-jp': "コインをひっくり返します。頭の場合、防御ポケモンは混乱しています。尾の場合、この攻撃には損傷がなく、サブリナのPsyduckは混乱しています。",
+			},
+			damage: 20,
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575323
+			},
+		},
+	],
+};
+
+export default card

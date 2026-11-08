@@ -1,0 +1,54 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG1"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "エビワラー",
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [107],
+	hp: 70,
+	types: ["Fighting"],
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: ["Fighting"],
+			name: {
+				'ja-jp': "ジャブ",
+			},
+			damage: 20,
+		},
+		{
+			cost: ["Fighting", "Fighting", "Colorless"],
+			name: {
+				'ja-jp': "特別なパンチ",
+			},
+			damage: 40,
+		},
+	],
+
+	retreat: 2,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575607
+			}
+		},
+		{
+			type: "normal",
+			subtype: "no-rarity",
+			thirdParty: {
+				tcgplayer: 577034
+			}
+		}
+	],
+};
+
+export default card

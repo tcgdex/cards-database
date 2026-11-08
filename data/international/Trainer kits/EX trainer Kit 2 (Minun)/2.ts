@@ -1,0 +1,64 @@
+import { Card } from 'models/database/card'
+import Set from '../EX trainer Kit 2 (Minun).ts'
+
+const card: Card = {
+	dexId: [4],
+	set: Set,
+
+	name: {
+		'en-us': "Charmander",
+		'fr-fr': "Salamèche"
+	},
+
+	illustrator: "Midori Harada",
+	rarity: "None",
+	category: "Pokemon",
+	stage: "Basic",
+
+	hp: 50,
+
+	types: [
+		"Fire"
+	],
+
+	attacks: [{
+		cost: [
+			"Colorless",
+		],
+		name: {
+			'en-us': "Headbutt",
+			'fr-fr': "Coup d'boule"
+		},
+		damage: 10
+	}, {
+		cost: [
+			"Colorless",
+			"Colorless"
+		],
+		name: {
+			'en-us': "Slash",
+			'fr-fr': "Tranche"
+		},
+		damage: 20
+	}],
+
+	weaknesses: [
+		{
+			type: "Water",
+		},
+	],
+
+	retreat: 1,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 277195,
+				tcgplayer: 84212
+			}
+		},
+	],
+
+}
+
+export default card

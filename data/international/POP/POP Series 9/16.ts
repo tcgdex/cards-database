@@ -1,0 +1,85 @@
+import { Card } from 'models/database/card'
+import Set from '../POP Series 9'
+
+const card: Card = {
+	name: {
+		'en-us': "Piplup",
+		'fr-fr': "Tiplouf"
+	},
+
+	illustrator: "Midori Harada",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [393],
+
+	hp: 50,
+
+	types: [
+		"Water"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+			],
+			name: {
+				'en-us': "Water Sport",
+				'fr-fr': "Tourniquet"
+			},
+			effect: {
+				'en-us': "If Piplup has less Energy attached to it than the Defending Pokémon, this attack does 10 damage plus more 10 more damage.",
+				'fr-fr': "Si Tiplouf possède moins d'Énergies que le Pokémon Défenseur, cette attaque inflige 10 dégâts plus 10 dégâts supplémentaires."
+			},
+			damage: "10+",
+
+		},
+		{
+			cost: [
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Wavelet",
+				'fr-fr': "Vaguelette"
+			},
+			effect: {
+				'en-us': "If you have Buizel in play, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Si vous avez Mustébouée en jeu, cette attaque inflige 10 dégâts à chacun des Pokémon de Banc de votre adversaire. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)"
+			},
+			damage: 40,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "+10"
+		},
+	],
+	description: {
+		'en-us': "It lives along shores in northern countries. A skilled swimmer, it dives for over 10 minutes to hunt.",
+		'fr-fr': "Il vit sur les côtes des régions nordiques. C'est un nageur doué, qui peut plonger durant 10 minutes."
+	},
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88150,
+				cardmarket: 278567
+			},
+		},
+	],
+
+}
+
+export default card

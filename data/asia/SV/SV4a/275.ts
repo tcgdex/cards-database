@@ -1,0 +1,69 @@
+import { Card } from "models/database/card"
+import Set from "../SV4a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "ハカドッグ",
+		'zh-tw': "墓揚犬",
+		'id-id': "Houndstone"
+	},
+
+	illustrator: "Shin Nagasawa",
+	category: "Pokemon",
+	dexId: [972],
+	hp: 140,
+	types: ["Psychic"],
+
+	description: {
+		'ja-jp': "大切に 弔われた ポケモンが 生まれ変わった 姿。 頭の 突起を 触られるのは 嫌い。",
+		'zh-tw': "受到深摯悼念的寶可夢轉生而成的樣子。 不喜歡被摸到頭上的突起物。",
+		'id-id': "Wujud reinkarnasi Pokémon yang dimakamkan dengan kasih sayang. Houndstone tidak suka jika tonjolan kepalanya disentuh."
+	},
+
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Psychic", "Psychic"],
+
+		name: {
+			'ja-jp': "おはかまいり",
+			'zh-tw': "掃墓",
+			'id-id': "Berkabung"
+		},
+
+		damage: "80+",
+
+		effect: {
+			'ja-jp': "自分のトラッシュにあるポケモンの枚数×10ダメージ追加。",
+			'zh-tw': "增加自己的棄牌區的【超】寶可夢卡的張數×10點傷害。",
+			'id-id': "Kerusakan yang diberikan bertambah sejumlah 10 untuk tiap lembar Pokémon {Psychic} yang ada di Trash sendiri."
+		}
+	}],
+
+	weaknesses: [{
+		type: "Darkness",
+		value: "×2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "-30"
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 747629,
+				tcgplayer: 567676,
+			},
+		},
+	],
+
+	retreat: 3,
+	regulationMark: "G"
+}
+
+export default card

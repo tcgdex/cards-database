@@ -1,0 +1,68 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set 2'
+
+const card: Card = {
+	name: {
+		'en-us': "Vulpix",
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		37,
+	],
+
+	hp: 50,
+
+	types: [
+		"Fire",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Fire",
+				"Fire",
+			],
+			name: {
+				'en-us': "Confuse Ray",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Confused.",
+			},
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "At the time of birth, it has just one tail. Its tail splits from the tip as it grows older.",
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 274022,
+				tcgplayer: 42550
+			}
+		}
+	]
+}
+
+export default card

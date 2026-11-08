@@ -1,0 +1,53 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG4"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ラフレシア",
+	},
+
+	illustrator: "Kagemaru Himeno",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	dexId: [45],
+	hp: 60,
+	types: ["Grass"],
+	stage: "Stage2",
+
+	abilities: [
+		{
+			type: "Pokemon Power",
+			name: {
+				'ja-jp': "花粉症",
+			},
+			effect: {
+				'ja-jp': "トレーナーカードを再生できません。このパワーは、暗いvileplumeが眠っている、混乱し、麻痺している間に機能しなくなります。",
+			},
+		}],
+
+	attacks: [
+		{
+			cost: ["Grass", "Grass", "Grass"],
+			name: {
+				'ja-jp': "花びらの旋風",
+			},
+			effect: {
+				'ja-jp': "3コインをフリップします。この攻撃は、ヘッド数の30回のダメージ時間を実行します。 2つ以上の頭を手に入れると、ダークビレプルームが混乱しています（ダメージを受けた後）。",
+			},
+		},
+	],
+
+	retreat: 2,
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 575753
+			},
+		},
+	],
+};
+
+export default card

@@ -1,0 +1,76 @@
+import { Card } from 'models/database/card'
+import Set from '../Gym Heroes'
+
+const card: Card = {
+	name: {
+		'en-us': "Brock's Mankey"
+	},
+
+	illustrator: "Atsuko Nishida",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [56],
+
+	hp: 40,
+
+	types: [
+		"Fighting"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Taunt"
+			},
+			effect: {
+				'en-us': "If your opponent has any Benched Pokémon, choose 1 of them and switch it with the Defending Pokémon."
+			},
+
+		},
+		{
+			cost: [
+				"Fighting",
+			],
+			name: {
+				'en-us': "Light Kick"
+			},
+
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "x2"
+		},
+	],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83971,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83971,
+				cardmarket: 274203
+			}
+		}
+	],
+	retreat: 0
+}
+
+export default card
+

@@ -1,0 +1,92 @@
+import { Card } from 'models/database/card'
+import Set from '../Fossil'
+
+const card: Card = {
+	name: {
+		'en-us': "Raichu",
+		'fr-fr': "Raichu",
+		'de-de': "Raichu"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		26,
+	],
+
+	hp: 90,
+
+	types: [
+		"Lightning",
+	],
+
+	evolveFrom: {
+		'en-us': "Pikachu",
+		'fr-fr': "Pikachu"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Lightning",
+				"Lightning",
+				"Lightning",
+				"Lightning",
+			],
+			name: {
+				'en-us': "Gigashock",
+				'fr-fr': "Éléctrochok",
+				'de-de': "Gigaschock"
+			},
+			effect: {
+				'en-us': "Choose 3 of your opponent's Benched Pokémon and this attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.) If your opponent has fewer than 3 Benched Pokémon, do the damage to each of them.",
+				'fr-fr': "Choisissez 3 Pokémon du Banc de votre adversaire et cette attaque inflige 10 dégâts à chacun d'eux. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.) Si votre adversaire a moins de 3 Pokémon, infligez les dégâts à chacun d'eux.",
+				'de-de': "Wähle 3 Pokémon auf der Bank deines Gegners. Dieser Angriff fügt jedem von ihnen 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.) Falls dein Gegner weniger als 3 Pokémon auf seiner Bank hat, teile die Schadenspunkte an jedes von ihnen aus."
+			},
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "Its long tail serves as a ground to protect itself from its own high-voltage power.",
+		'fr-fr': "Il doit garder sa queue en contact avec le sol pour éviter toute électrocution."
+	},
+
+
+	variants: [
+		{
+			type: "holo",
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273875,
+				tcgplayer: 44423
+			}
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"],
+			foil: "galaxy",
+			thirdParty: {
+				cardmarket: 273875,
+				tcgplayer: 44423
+			}
+		},
+	]
+}
+
+export default card

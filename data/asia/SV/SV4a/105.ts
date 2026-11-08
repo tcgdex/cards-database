@@ -1,0 +1,92 @@
+import { Card } from "models/database/card"
+import Set from "../SV4a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "ルカリオ",
+		'zh-tw': "路卡利歐",
+		'th-th': "ลูคาริโอ",
+		'id-id': "Lucario"
+	},
+
+	illustrator: "Nurikabe",
+	category: "Pokemon",
+	dexId: [448],
+	hp: 130,
+	types: ["Fighting"],
+
+	description: {
+		'ja-jp': "波動を キャッチすることで 見えない 相手の 姿でも 見えると 言われている。",
+		'zh-tw': "只要透過捕捉波導，據說就能夠看見原本 看不見身影的對手。",
+		'th-th': "ว่ากันว่าสามารถมองเห็นอีกฝ่ายที่ซ่อนตัวอยู่ได้จากการจับคลื่นพลัง",
+		'id-id': "Dikatakan bahwa Lucario dapat melihat sosok lawan yang tak kasat mata dengan mendeteksi gelombang aura."
+	},
+
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Fighting"],
+
+		name: {
+			'ja-jp': "アベンジナックル",
+			'zh-tw': "復仇關節",
+			'th-th': "อเวนจ์นักเคิล",
+			'id-id': "Avenge Knuckle"
+		},
+
+		damage: "30+",
+
+		effect: {
+			'ja-jp': "前の相手の番に、ワザのダメージで、自分のポケモンがきぜつしていたなら、120ダメージ追加。",
+			'zh-tw': "在上個對手的回合，若自己的【鬥】寶可夢因招式的傷害而【昏厥】了，則增加120點傷害。",
+			'th-th': "ในเทิร์นก่อนของฝ่ายตรงข้าม ถ้าโปเกมอน[ต่อสู้]ฝ่ายเรา[หมดสภาพ] ด้วยแดเมจของท่าต่อสู้ การโจมตีนี้จะเพิ่มแดเมจอีก 120",
+			'id-id': "Jika pada giliran lawan sebelumnya, ada Pokémon {Petarung} sendiri yang KO karena kerusakan akibat serangan, kerusakan yang diberikan bertambah sejumlah 120."
+		}
+	}, {
+		cost: ["Fighting", "Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "かそくづき",
+			'zh-tw': "加速突刺",
+			'th-th': "เร่งความเร็วพุ่งชน",
+			'id-id': "Tusukan Akselerasi"
+		},
+
+		damage: 120,
+
+		effect: {
+			'ja-jp': "次の自分の番、このポケモンは「かそくづき」が使えない。",
+			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用「加速突刺」。",
+			'th-th': "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ [เร่งความเร็วพุ่งชน] ไม่ได้",
+			'id-id': "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan Tusukan Akselerasi."
+		}
+	}],
+
+	weaknesses: [{
+		type: "Psychic",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 746487,
+				tcgplayer: 567506,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577356,
+			},
+		},
+	],
+
+	retreat: 2,
+	regulationMark: "G"
+}
+
+export default card

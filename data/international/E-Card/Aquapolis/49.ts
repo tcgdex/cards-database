@@ -1,0 +1,95 @@
+import { Card } from 'models/database/card'
+import Set from '../Aquapolis'
+
+const card: Card = {
+	name: {
+		'en-us': "Gloom",
+		'fr-fr': "Ortide",
+		'de-de': "Duflor"
+	},
+
+	illustrator: "Kyoko Umemoto",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [44],
+
+	hp: 70,
+
+	types: [
+		"Grass"
+	],
+
+	evolveFrom: {
+		'en-us': "Oddish",
+		'fr-fr': "Mystherbe"
+	},
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Enervating Pollen",
+				'fr-fr': "Pollen irritant",
+				'de-de': "Schwächender Pollen"
+			},
+			effect: {
+				'en-us': "As long as Gloom is in play, Resistance on each player's Active Pokémon only reduces damage by 10.",
+				'fr-fr': "Tant que Ortide est en jeu, la Résistance du Pokémon Actif de chaque joueur ne réduit les dégâts que de 10.",
+				'de-de': "Solange Duflor im Spiel ist, reduziert die Resistenz der Aktiven Pokémon beider Spieler Schaden nur um 10."
+			}
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Sleep Sap",
+				'fr-fr': "Sève dodo",
+				'de-de': "Schlafsaft"
+			},
+			effect: {
+				'en-us': "Both the Defending Pokémon and Gloom are now Asleep (after doing damage).",
+				'fr-fr': "Le Pokémon Défenseur et Ortide sont maintenant Endormis (après avoir infligé les dégâts).",
+				'de-de': "Sowohl das Verteidigende Pokémon als auch Duflor schlafen jetzt (nachdem der Schaden zugefügt wurde)."
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "x2"
+		},
+	],
+	retreat: 2,
+
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 85780,
+				cardmarket: 275121
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				tcgplayer: 85780,
+				cardmarket: 275121
+			}
+		},
+	]
+}
+
+export default card

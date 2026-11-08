@@ -1,0 +1,69 @@
+import { Card } from "models/database/card";
+import Set from "../SV6";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "チリーン",
+		'zh-tw': "風鈴鈴",
+		'th-th': "ชิรีน",
+	},
+
+	illustrator: "Mousho",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Psychic"],
+
+	description: {
+		'ja-jp': "鳴き声は 体の 空洞で 響き合って きれいな 音色になり 敵を驚かせ 追いはらう。",
+		'zh-tw': "叫聲會在身體的空洞裡 迴盪出美麗的音色， 趕走被嚇到的敵人。",
+		'th-th': "เสียงร้องก้องกังวานภายในร่างที่กลวงเกิดเป็นเสียงที่ไพเราะ ทำให้ศัตรูตกใจและไล่มันออกไป",
+	},
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "ハイパーボイス",
+				'zh-tw': "巨聲",
+				'th-th': "ไฮเปอร์วอยซ์",
+			},
+			damage: 20,
+			cost: ["Psychic"],
+		},
+		{
+			name: {
+				'ja-jp': "おかえりチャイム",
+				'zh-tw': "回家鐘聲",
+				'th-th': "เสียงกระดิ่งต้อนรับกลับ",
+			},
+			cost: ["Colorless", "Colorless"],
+			effect: {
+				'ja-jp': "自分のベンチポケモンを1匹選び、そのポケモンと、ついているすべてのカードを、山札にもどして切る。",
+				'zh-tw': "選擇1隻自己的備戰寶可夢，將那隻寶可夢與附加的卡全部放回牌庫並重洗。",
+				'th-th': "เลือกโปเกมอนบนเบนช์ฝ่ายเรา 1 ตัว นำโปเกมอนนั้น และการ์ดทั้งหมดที่ติดอยู่ ใส่กลับไปในสำรับการ์ดแล้วสับ",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Darkness", value: "x2" }],
+	resistances: [{ type: "Fighting", value: "-30" }],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 767143,
+				tcgplayer: 568040,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "H",
+	rarity: "Common",
+	dexId: [358],
+};
+
+export default card;

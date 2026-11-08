@@ -1,0 +1,102 @@
+import { Card } from "models/database/card"
+import Set from "../Astral Radiance"
+
+const card: Card = {
+	dexId: [486],
+	set: Set,
+
+	name: {
+		'en-us': "Regigigas",
+		'fr-fr': "Regigigas",
+		'es-es': "Regigigas",
+		'it-it': "Regigigas",
+		'pt-br': "Regigigas",
+		'de-de': "Regigigas"
+	},
+
+	illustrator: "Yuya Oka",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	hp: 150,
+	types: ["Colorless"],
+	stage: "Basic",
+
+	abilities: [{
+		type: "Ability",
+
+		name: {
+			'en-us': "Ancient Wisdom",
+			'fr-fr': "Sagesse Ancienne",
+			'es-es': "Sabiduría Ancestral",
+			'it-it': "Saggezza Antica",
+			'pt-br': "Sabedoria Ancestral",
+			'de-de': "Uralte Weisheit"
+		},
+
+		effect: {
+			'en-us': "Once during your turn, if you have Regirock, Regice, Registeel, Regieleki, and Regidrago in play, you may attach up to 3 Energy cards from your discard pile to 1 of your Pokémon.",
+			'fr-fr': "Une seule fois pendant votre tour, si vous avez Regirock, Regice, Registeel, Regieleki et Regidrago en jeu, vous pouvez attacher jusqu'à 3 cartes Énergie de votre pile de défausse à l'un de vos Pokémon.",
+			'es-es': "Una vez durante tu turno, si tienes a Regirock, Regice, Registeel, Regieleki y Regidrago en juego, puedes unir hasta 3 cartas de Energía de tu pila de descartes a 1 de tus Pokémon.",
+			'it-it': "Una sola volta durante il tuo turno, se hai Regirock, Regice, Registeel, Regieleki e Regidrago in gioco, puoi assegnare a uno dei tuoi Pokémon fino a tre carte Energia dalla tua pila degli scarti.",
+			'pt-br': "Uma vez durante o seu turno, se você tiver Regirock, Regice, Registeel, Regieleki e Regidrago em jogo, você poderá ligar até 3 cartas de Energia da sua pilha de descarte a 1 dos seus Pokémon.",
+			'de-de': "Einmal während deines Zuges, wenn du Regirock, Regice, Registeel, Regieleki und Regidrago im Spiel hast, kannst du bis zu 3 Energiekarten aus deinem Ablagestapel an 1 deiner Pokémon anlegen."
+		}
+	}],
+
+	attacks: [{
+		cost: ["Colorless", "Colorless", "Colorless", "Colorless", "Colorless"],
+
+		name: {
+			'en-us': "Gigaton Break",
+			'fr-fr': "Brèche Gigatonne",
+			'es-es': "Impacto Gigatón",
+			'it-it': "Sfondamento Gigatonico",
+			'pt-br': "Destruição Gigatônica",
+			'de-de': "Gigatonnen-Brecher"
+		},
+
+		effect: {
+			'en-us': "If your opponent's Active Pokémon is a Pokémon VMAX, this attack does 150 more damage.",
+			'fr-fr': "Si le Pokémon Actif de votre adversaire est un Pokémon-VMAX, cette attaque inflige 150 dégâts supplémentaires.",
+			'es-es': "Si el Pokémon Activo de tu rival es un Pokémon VMAX, este ataque hace 150 puntos de daño más.",
+			'it-it': "Se il Pokémon attivo del tuo avversario è un Pokémon-VMAX, questo attacco infligge 150 danni in più.",
+			'pt-br': "Se o Pokémon Ativo do seu oponente for um Pokémon VMAX, este ataque causará 150 pontos de dano a mais.",
+			'de-de': "Wenn das Aktive Pokémon deines Gegners ein Pokémon-VMAX ist, fügt diese Attacke 150 Schadenspunkte mehr zu."
+		},
+
+		damage: "150+"
+	}],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
+	retreat: 4,
+	regulationMark: "F",
+
+
+	description: {
+		'en-us': "There is an enduring legend that states this Pokémon towed continents with ropes.",
+	},
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 658791,
+				tcgplayer: 272371
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 658791,
+				tcgplayer: 272371
+			}
+		},
+	],
+}
+
+export default card

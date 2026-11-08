@@ -1,0 +1,88 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set 2'
+
+const card: Card = {
+	name: {
+		'en-us': "Nidoking",
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		34,
+	],
+
+	hp: 90,
+
+	types: [
+		"Grass",
+	],
+
+	evolveFrom: {
+		'en-us': "Nidorino",
+	},
+
+	stage: "Stage2",
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Thrash",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage and Nidoking does 10 damage to itself.",
+			},
+			damage: 30,
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Grass",
+				"Grass",
+			],
+			name: {
+				'en-us': "Toxic",
+			},
+			effect: {
+				'en-us': "The Defending Pokémon is now Poisoned. It now takes 20 Poison damage instead of 10 after each player's turn (even if it was already Poisoned).",
+			},
+			damage: 40,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+	retreat: 3,
+
+
+	description: {
+		'en-us': "Uses its powerful tail in battle to smash, constrict, then break its prey's bones.",
+	},
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 273934,
+				tcgplayer: 42448
+			}
+		}
+	]
+}
+
+export default card

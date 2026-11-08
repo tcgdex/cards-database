@@ -1,0 +1,82 @@
+import { Card } from "models/database/card"
+import Set from "../Stellar Crown"
+
+const card: Card = {
+	dexId: [661],
+	set: Set,
+
+	name: {
+		'en-us': "Fletchling",
+		'fr-fr': "Passerouge",
+		'es-es': "Fletchling",
+		'it-it': "Fletchling",
+		'pt-br': "Fletchling",
+		'de-de': "Dartiri"
+	},
+
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Colorless"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'en-us': "Send Back",
+			'fr-fr': "Renvoyer",
+			'es-es': "Retornar",
+			'it-it': "Mandaindietro",
+			'pt-br': "Mandar Embora",
+			'de-de': "Zurückschicken"
+		},
+
+		effect: {
+			'en-us': "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+			'fr-fr': "Envoyez le Pokémon Actif de l'adversaire sur le Banc. (Votre adversaire choisit le nouveau Pokémon Actif.)",
+			'es-es': "Mueve el Pokémon Activo de tu rival a la Banca. (Tu rival elige el nuevo Pokémon Activo).",
+			'it-it': "Sposta il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.",
+			'pt-br': "Mande o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.)",
+			'de-de': "Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.)"
+		},
+
+		damage: 10
+	}],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
+	retreat: 1,
+	regulationMark: "H",
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 785975,
+				tcgplayer: 567348
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 785975,
+				tcgplayer: 567348
+			}
+		},
+	],
+	illustrator: "Teeziro",
+
+}
+
+export default card

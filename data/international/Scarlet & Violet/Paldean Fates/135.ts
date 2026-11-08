@@ -1,0 +1,75 @@
+import { Card } from "models/database/card"
+import Set from "../Paldean Fates"
+
+const card: Card = {
+	dexId: [403],
+	set: Set,
+
+	name: {
+		'en-us': "Shinx",
+		'fr-fr': "Lixy",
+		'es-es': "Shinx",
+		'it-it': "Shinx",
+		'pt-br': "Shinx",
+		'de-de': "Sheinux"
+	},
+
+	rarity: "Shiny rare",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Lightning"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Lightning"],
+
+		name: {
+			'en-us': "Wild Kick",
+			'fr-fr': "Coup Déchaîné",
+			'es-es': "Patada Salvaje",
+			'it-it': "Calcio Selvaggio",
+			'pt-br': "Chute sem Pontaria",
+			'de-de': "Stürmischer Kick"
+		},
+
+		effect: {
+			'en-us': "Flip a coin. If tails, this attack does nothing.",
+			'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque ne fait rien.",
+			'es-es': "Lanza 1 moneda. Si sale cruz, este ataque no hace nada.",
+			'it-it': "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
+			'pt-br': "Jogue uma moeda. Se sair coroa, este ataque não fará nada.",
+			'de-de': "Wirf 1 Münze. Bei Zahl hat diese Attacke keine Auswirkungen."
+		},
+
+		damage: 30
+	}],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2",
+		},
+	],
+	retreat: 1,
+	regulationMark: "G",
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 751674,
+				tcgplayer: 534528,
+				cardtrader: 274318
+			}
+		},
+	],
+
+	illustrator: "Saya Tsuruta",
+
+	description: {
+		'en-us': "The extension and contraction of its muscles generates electricity. It glows when in trouble.",
+	},
+
+}
+
+export default card

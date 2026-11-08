@@ -1,0 +1,97 @@
+import { Card } from 'models/database/card'
+import Set from '../Rising Rivals'
+
+const card: Card = {
+	name: {
+		'en-us': "Turtwig GL",
+		'fr-fr': "Tortipouss  Niv. 20",
+		'de-de': "Chelast GL"
+	},
+
+	illustrator: "Kanako Eo",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [387],
+
+	hp: 90,
+
+	types: [
+		"Grass"
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Overgrow",
+				'fr-fr': "Engrais",
+				'de-de': "Notdünger"
+			},
+			effect: {
+				'en-us': "As long as Turtwig GL's remaining HP is 60 or less, each of Turtwig GL's attacks does 30 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Tant qu'il ne reste à Tortipouss  qu'un maximum de 60 PV, chacune de ses attaques inflige 30 dégâts supplémentaires au Pokémon Actif (avant application de la Faiblesse et de la Résistance).",
+				'de-de': "Solange Chelast GL 60 oder weniger verbliebene KP hat, fügen alle Angriffe von Chelast GL den Aktiven Pokémon 30 weitere Schadenspunkte zu (bevor Schwäche und Resistenz verrechnet werden)."
+			}
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Giga Drain",
+				'fr-fr': "Giga-sangsue",
+				'de-de': "Gigasauger"
+			},
+			effect: {
+				'en-us': "After your attack, remove from Turtwig GL the number of damage counters equal to the damage you did to the Defending Pokémon.",
+				'fr-fr': "Après votre attaque, retirez à Tortipouss  autant de marqueurs de dégât que vous avez infligé de dégâts au Pokémon Défenseur.",
+				'de-de': "Entferne nach deinem Angriff Schadensmarken von Chelast GL entsprechend der Höhe der Schadenspunkte, die dem Verteidigenden Pokémon durch diesen Angriff zugefügt wurden."
+			},
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "x2"
+		},
+	],
+	resistances: [
+		{
+			type: "Water",
+			value: "-20"
+		},
+	],
+	retreat: 3,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278659,
+				tcgplayer: 90082
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278659,
+				tcgplayer: 90082
+			}
+		},
+	],
+
+}
+
+export default card

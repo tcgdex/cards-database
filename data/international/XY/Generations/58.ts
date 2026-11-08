@@ -1,0 +1,81 @@
+import { Card } from 'models/database/card'
+import Set from '../Generations'
+
+const card: Card = {
+	name: {
+		'en-us': "Snorlax",
+		'fr-fr': "Ronflex",
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		143,
+	],
+
+	hp: 130,
+
+	types: [
+		"Colorless",
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'en-us': "Stir and Snooze",
+				'fr-fr': "Sommeil Lourd",
+			},
+			effect: {
+				'en-us': "If this Pokémon is Asleep, flip 2 coins instead of 1 between turns. If either of them is tails, this Pokémon is still Asleep.",
+				'fr-fr': "Si ce Pokémon est Endormi, lancez 2 pièces au lieu d'une entre chaque tour. Si vous obtenez au moins un côté pile, ce Pokémon reste Endormi.",
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Sleepy Press",
+				'fr-fr': "Pression Torpide",
+			},
+			effect: {
+				'en-us': "Heal 20 damage from this Pokémon. This Pokémon is now Asleep.",
+				'fr-fr': "Soignez 20 dégâts à ce Pokémon. Ce Pokémon est maintenant Endormi.",
+			},
+			damage: 120,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	retreat: 4,
+
+	description: {
+		'en-us': "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
+	},
+
+	thirdParty: {
+		cardmarket: 288496,
+		tcgplayer: 113716
+	}
+}
+
+export default card

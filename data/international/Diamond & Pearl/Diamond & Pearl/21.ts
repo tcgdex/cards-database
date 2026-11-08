@@ -1,0 +1,103 @@
+import { Card } from 'models/database/card'
+import Set from '../Diamond & Pearl'
+
+const card: Card = {
+	name: {
+		'en-us': "Carnivine",
+		'fr-fr': "Vortente",
+		'de-de': "Venuflibis"
+	},
+
+	illustrator: "Kouki Saitou",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		455,
+	],
+
+	hp: 70,
+
+	types: [
+		"Grass",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Swallow Up",
+				'fr-fr': "Engloutir",
+				'de-de': "Runterschlucken"
+			},
+			effect: {
+				'en-us': "Before doing damage, count the remaining HP of the Defending Pokémon and Carnivine. If the Defending Pokémon has fewer remaining HP than Carnivine's, this attack does 60 damage instead.",
+				'fr-fr': "Avant d'infliger des dégâts, comptabilisez les PV restants du Pokémon Défenseur et de Vortente. Si le Pokémon Défenseur possède moins de PV que Vortente, cette attaque inflige 60 dégâts.",
+				'de-de': "Bevor der Schaden zugefügt wird, vergleiche die verbliebenen KP von dem Verteidigenden Pokémon und Venuflibis. Wenn das Verteidigende Pokémon weniger verbliebene KP hat als Venuflibis, fügt dieser Angriff 60 Schadenspunkte zu."
+			},
+			damage: 30,
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Grass",
+			],
+			name: {
+				'en-us': "Wring Out",
+				'fr-fr': "Essorage",
+				'de-de': "Auswringen"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy card attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé et défaussez alors une carte Énergie attachée au Pokémon Défenseur.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" lege eine Energiekarte, die am Verteidigenden Pokémon angelegt ist, auf den Ablagestapel deines Gegners und das Verteidigende Pokémon ist jetzt gelähmt."
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "+20"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Water",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey.",
+		'fr-fr': "Il attire sa proie avec sa salive odorante avant de la croquer. Il lui faut une journée pour l'avaler."
+	},
+
+	thirdParty: {
+		cardmarket: 277520,
+		tcgplayer: 84099
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse"
+		}
+	]
+}
+
+export default card

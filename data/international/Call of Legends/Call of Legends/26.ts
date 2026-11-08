@@ -1,0 +1,104 @@
+import { Card } from 'models/database/card'
+import Set from '../Call of Legends'
+
+const card: Card = {
+	name: {
+		'en-us': "Granbull",
+		'fr-fr': "Granbull",
+		'de-de': "Granbull"
+	},
+
+	illustrator: "Mizue",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [210],
+
+	hp: 90,
+
+	types: [
+		"Colorless"
+	],
+
+	evolveFrom: {
+		'en-us': "Snubbull",
+		'fr-fr': "Snubbull"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Timid Tackle",
+				'fr-fr': "Charge timide",
+				'de-de': "Scheutackle"
+			},
+			effect: {
+				'en-us': "Granbull does 20 damage to itself. Switch Granbull with 1 of your Benched Pokémon.",
+				'fr-fr': "Granbull s'inflige 20 dégâts. Échangez Granbull avec l'un des Pokémon de votre Banc.",
+				'de-de': "Granbull fügt sich selbst 20 Schadenspunkte zu. Tausche Granbull gegen 1 Pokémon auf deiner Bank aus."
+			},
+			damage: 50,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Chomp",
+				'fr-fr': "Mâche",
+				'de-de': "Champ"
+			},
+			effect: {
+				'en-us': "Does 40 damage plus 10 more damage for each damage counter on Granbull.",
+				'fr-fr': "Inflige 40 dégâts plus 10 dégâts supplémentaires pour chaque marqueur de dégât sur Granbull.",
+				'de-de': "Dieser Angriff fügt 40 Schadenspunkte plus 10 weitere Schadenspunkte für jede Schadensmarke auf Granbull zu."
+			},
+			damage: "40+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "x2"
+		},
+	],
+	retreat: 3,
+
+
+	description: {
+		'en-us': "Because its fangs are too heavy, it always keeps its head tilted down. However, its bite is powerful.",
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 85866,
+				cardmarket: 279669
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 85866,
+				cardmarket: 279669
+			},
+		},
+	],
+
+}
+
+export default card

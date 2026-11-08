@@ -1,0 +1,74 @@
+import { Card } from 'models/database/card'
+import Set from '../BW Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Terrakion",
+		'fr-fr': "Terrakium",
+	},
+	illustrator: "5ban Graphics",
+	rarity: "Common",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [
+		639,
+	],
+	hp: 130,
+	types: [
+		"Fighting",
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'en-us': "Justified",
+				'fr-fr': "Cœur Noble",
+			},
+			effect: {
+				'en-us': "Each of this Pokémon's attacks does 50 more damage to Darkness Pokémon (before applying Weakness and Resistance).",
+				'fr-fr': "Chaque attaque de ce Pokémon inflige 50 dégâts supplémentaires aux Pokémon Darkness (avant application de la Faiblesse et de la Résistance).",
+			},
+		},
+	],
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+				"Fighting",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Crushing Blow",
+				'fr-fr': "Coup Écrasant",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon.",
+				'fr-fr': "Lancez une pièce. Si c'est face, défaussez une Énergie attachée au Pokémon Défenseur.",
+			},
+			damage: 80,
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+	retreat: 4,
+
+
+
+
+	description: {
+		'en-us': "This Pokémon came to the defense of Pokémon that had lost their homes in a war among humans.",
+	},
+}
+
+export default card

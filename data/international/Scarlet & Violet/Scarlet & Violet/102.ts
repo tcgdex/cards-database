@@ -1,0 +1,80 @@
+import { Card } from "models/database/card"
+import Set from "../Scarlet & Violet"
+
+const card: Card = {
+	dexId: [955],
+	set: Set,
+
+	name: {
+		'en-us': "Flittle",
+		'fr-fr': "Flotillon",
+		'es-es': "Flittle",
+		'it-it': "Flittle",
+		'pt-br': "Flittle",
+		'de-de': "Flattutu"
+	},
+
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 40,
+	types: ["Psychic"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Psychic"],
+
+		name: {
+			'en-us': "Dash Off",
+			'fr-fr': "Déguerpissement",
+			'es-es': "Salir Volando",
+			'it-it': "Affrettarsi",
+			'pt-br': "Corridela",
+			'de-de': "Wegflitzen"
+		},
+
+		effect: {
+			'en-us': "Switch this Pokémon with 1 of your Benched Pokémon.",
+			'fr-fr': "Échangez ce Pokémon contre l'un de vos Pokémon de Banc.",
+			'es-es': "Cambia este Pokémon por uno de tus Pokémon en Banca.",
+			'it-it': "Scambia questo Pokémon con uno della tua panchina.",
+			'pt-br': "Troque este Pokémon por 1 dos seus Pokémon no Banco.",
+			'de-de': "Tausche dieses Pokémon gegen 1 Pokémon auf deiner Bank aus."
+		},
+
+		damage: 10
+	}],
+
+	retreat: 1,
+	regulationMark: "G",
+	illustrator: "Pani Kobayashi",
+
+	weaknesses: [{
+		type: "Darkness",
+		value: "×2"
+	}],
+
+	resistances: [{
+		type: "Fighting",
+		value: "-30"
+	}],
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	],
+
+	description: {
+		'en-us': "Flittle's toes levitate about half an inch above the ground because of the psychic power emitted from the frills on the Pokémon's belly.",
+	},
+
+	thirdParty: {
+        cardmarket: 702398,
+        tcgplayer: 487976
+    }
+}
+
+export default card

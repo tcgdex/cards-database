@@ -1,0 +1,117 @@
+import { Card } from 'models/database/card'
+import Set from '../Lost Thunder'
+
+const card: Card = {
+	name: {
+		'en-us': "Blacephalon GX",
+		'fr-fr': "Pierroteknik GX",
+		'es-es': "Blacephalon GX",
+		'it-it': "Blacephalon GX",
+		'pt-br': "Blacephalon GX",
+		'de-de': "Kopplosio GX"
+	},
+
+	illustrator: "5ban Graphics",
+	rarity: "Ultra Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		806,
+	],
+
+	hp: 180,
+
+	types: [
+		"Fire",
+	],
+
+	suffix: "GX",
+
+	attacks: [
+		{
+			cost: [
+				"Fire",
+			],
+			name: {
+				'en-us': "Bursting Burn",
+				'fr-fr': "Brûlure Explosante",
+				'es-es': "Quemadura Explosiva",
+				'it-it': "Botto Ustionante",
+				'pt-br': "Queimadura Explosiva",
+				'de-de': "Berstender Brand"
+			},
+			effect: {
+				'en-us': "Your opponent’s Active Pokémon is now Burned and Confused.",
+				'fr-fr': "Le Pokémon Actif de votre adversaire est maintenant Brûlé et Confus.",
+				'es-es': "El Pokémon Activo de tu rival pasa a estar Confundido y Quemado.",
+				'it-it': "Il Pokémon attivo del tuo avversario viene bruciato e confuso.",
+				'pt-br': "O Pokémon Ativo do seu oponente agora está Confuso e Queimado.",
+				'de-de': "Das Aktive Pokémon deines Gegners ist jetzt verbrannt und verwirrt."
+			},
+
+		},
+		{
+			cost: [
+				"Fire",
+				"Fire",
+			],
+			name: {
+				'en-us': "Mind Blown",
+				'fr-fr': "Caboche-Kaboum",
+				'es-es': "Cabeza Sorpresa",
+				'it-it': "Sbalorditesta",
+				'pt-br': "Explosão Mental",
+				'de-de': "Knallkopf"
+			},
+			effect: {
+				'en-us': "Put any amount of Fire Energy attached to your Pokémon in the Lost Zone. This attack does 50 damage for each card put in the Lost Zone in this way.",
+				'fr-fr': "Placez autant d’Énergies Fire attachées à vos Pokémon que vous voulez dans la Zone Perdue. Cette attaque inflige 50 dégâts pour chaque carte placée dans la Zone Perdue de cette façon.",
+				'es-es': "Pon cualquier cantidad de Energías Fire unidas a tus Pokémon en la Zona Perdida. Este ataque hace 50 puntos de daño por cada carta puesta en la Zona Perdida de esta manera.",
+				'it-it': "Prendi tutte le Energie Fire che vuoi assegnate ai tuoi Pokémon e mettile nell’area perduta. Questo attacco infligge 50 danni per ogni carta che hai messo nell’area perduta in questo modo.",
+				'pt-br': "Coloque qualquer quantidade de Energia Fire ligada aos seus Pokémon na Zona Perdida. Este ataque causa 50 pontos de dano para cada carta colocada na Zona Perdida desta forma.",
+				'de-de': "Lege beliebig viele der an deine Pokémon angelegten Fire-Energien ins Nirgendwo. Diese Attacke fügt 50 Schadenspunkte mal der Anzahl der auf diese Weise ins Nirgendwo gelegten Karten zu."
+			},
+			damage: "50×",
+
+		},
+		{
+			cost: [
+				"Fire",
+			],
+			name: {
+				'en-us': "Burst GX",
+				'fr-fr': "Détonation GX",
+				'es-es': "Explosivo GX",
+				'it-it': "Fragor-GX",
+				'pt-br': "Ruptura Explosiva GX",
+				'de-de': "Detonation GX"
+			},
+			effect: {
+				'en-us': "Discard 1 of your Prize cards. If it’s an Energy card, attach it to 1 of your Pokémon. (You can’t use more than 1 GX attack in a game.)",
+				'fr-fr': "Défaussez une de vos cartes Récompense. Si c’est une carte Énergie, attachez-la à l’un de vos Pokémon. (Vous ne pouvez utiliser qu’une attaque GX par partie.)",
+				'es-es': "Descarta 1 de tus cartas de Premio. Si es una carta de Energía, únela a 1 de tus Pokémon. (No puedes usar más de 1 ataque GX en una partida).",
+				'it-it': "Scarta una delle tue carte Premio. Se è una carta Energia, assegnala a uno dei tuoi Pokémon. Non puoi usare più di un attacco GX a partita.",
+				'pt-br': "Descarte 1 das suas cartas de Prêmio. Se for uma carta de Energia, ligue-a a 1 dos seus Pokémon (você não pode usar mais de 1 ataque GX por partida).",
+				'de-de': "Lege 1 deiner Preiskarten auf deinen Ablagestapel. Wenn es eine Energiekarte ist, lege sie an 1 deiner Pokémon an. (Du kannst pro Spiel nur 1 GX-Attacke einsetzen.)"
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "×2"
+		},
+	],
+
+	retreat: 2,
+
+	thirdParty: {
+		cardmarket: 365832,
+		tcgplayer: 178858
+	}
+}
+
+export default card

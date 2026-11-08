@@ -1,0 +1,61 @@
+import { Card } from "models/database/card";
+import Set from "../MC";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "キョジオーン",
+	},
+
+	illustrator: "danciao",
+	category: "Pokemon",
+	hp: 180,
+	types: ["Fighting"],
+
+	description: {
+		'ja-jp': "指先を 擦りあわせて 塩を ケガした ポケモンに 振りかけると ひどい 傷も たちまち 治る。",
+	},
+
+	stage: "Stage2",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: { ja: "ちからのしお" },
+			effect: {
+				'ja-jp': "このポケモンがいるかぎり、自分の[F]ポケモンが使うワザの、相手のバトルポケモンへのダメージは「+30」される。",
+			},
+		},
+	],
+
+	attacks: [
+		{
+			name: { ja: "ぶちかます" },
+			damage: 130,
+			cost: ["Fighting", "Fighting", "Colorless"],
+		},
+	],
+
+	weaknesses: [{ type: "Grass", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 863720,
+			},
+		},
+	],
+
+	evolveFrom: {
+		'ja-jp': "ジオヅム",
+	},
+
+	retreat: 4,
+	regulationMark: "I",
+	rarity: "None",
+	dexId: [934],
+};
+
+export default card;

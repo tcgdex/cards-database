@@ -1,0 +1,107 @@
+import { Card } from 'models/database/card'
+import Set from '../Ruby & Sapphire'
+
+const card: Card = {
+	name: {
+		'en-us': "Manectric",
+		'fr-fr': "Elecsprint",
+		'de-de': "Voltenso"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [310],
+
+	hp: 70,
+
+	types: [
+		"Lightning"
+	],
+
+	evolveFrom: {
+		'en-us': "Electrike",
+		'fr-fr': "Dynavolt"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Attract Current",
+				'fr-fr': "Courant électrique",
+				'de-de': "Attract Current"
+			},
+			effect: {
+				'en-us': "Search your deck for a Lightning Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward.",
+				'fr-fr': "Choisissez dans votre deck une carte Énergie  et attachez-la à un de vos Pokémon. Mélangez ensuite votre deck.",
+				'de-de': "Search your deck for a  Energy card amd attach it to 1 of your Pokémon. Shuffle your deck afterward."
+			},
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Lightning",
+				"Lightning",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Thunder Jolt",
+				'fr-fr': "Secousse tonnerre",
+				'de-de': "Thunder Jolt"
+			},
+			effect: {
+				'en-us': "Flip a coin. If tails, Manectric does 10 damage to itself.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, Elecsprint s'inflige 10 dégâts.",
+				'de-de': "Flip a coin. If tails, Manectric does 10 damage to itself."
+			},
+			damage: 50,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Metal",
+			value: "-30"
+		},
+	],
+
+
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 275657,
+				tcgplayer: 87153
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 275657,
+				tcgplayer: 87153
+			}
+		},
+	],
+
+}
+
+export default card

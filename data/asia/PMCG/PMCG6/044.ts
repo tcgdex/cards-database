@@ -1,0 +1,43 @@
+import { Card } from "models/database/card"
+import Set from "../PMCG6"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ナツメのヤドン",
+	},
+	illustrator: "Ken Sugimori",
+
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [79],
+	hp: 50,
+	types: ["Psychic"],
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: ["Psychic", "Colorless"],
+			name: {
+				'ja-jp': "怠zyな攻撃",
+			},
+			effect: {
+				'ja-jp': "SabrinaのSlowPokeは今眠っています（ダメージを与えた後）。",
+			},
+			damage: 30,
+		},
+	],
+
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 575324
+			},
+		},
+	],
+};
+
+export default card

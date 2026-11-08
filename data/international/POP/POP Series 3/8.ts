@@ -1,0 +1,79 @@
+import { Card } from 'models/database/card'
+import Set from '../POP Series 3'
+
+const card: Card = {
+	name: {
+		'en-us': "Donphan",
+		'fr-fr': "Donphan"
+	},
+
+	illustrator: "Tomoaki Imakuni",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [232],
+
+	hp: 80,
+
+	types: [
+		"Fighting"
+	],
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Sniff Out",
+				'fr-fr': "Flairer"
+			},
+			effect: {
+				'en-us': "Put any 1 card from your discard pile into your hand.",
+				'fr-fr': "Placez n'importe quelle carte de votre pile de défausse dans votre main."
+			},
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Fury Attack",
+				'fr-fr': "Furie"
+			},
+			effect: {
+				'en-us': "Flip 3 coins. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez 3 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face."
+			},
+			damage: "30×",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84874,
+				cardmarket: 277456
+			},
+		},
+	],
+
+}
+
+export default card

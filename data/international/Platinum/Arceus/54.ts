@@ -1,0 +1,95 @@
+import { Card } from 'models/database/card'
+import Set from '../Arceus'
+
+const card: Card = {
+	name: {
+		'en-us': "Bronzor",
+		'de-de': "Bronzel"
+	},
+
+	illustrator: "Masakazu Fukuda",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [436],
+	
+	hp: 60,
+
+	types: [
+		"Metal"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Metal",
+			],
+			name: {
+				'en-us': "Hypnosis",
+				'de-de': "Hypnose"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'de-de': "Wirf 1 Münze. Bei \"Kopf\" schläft das Verteidigende Pokémon jetzt."
+			},
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Spinning Attack",
+				'de-de': "Rundumangriff"
+			},
+
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "+10"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-20"
+		},
+	],
+
+	retreat: 2,
+
+	description: {
+		'en-us': "There are researchers who believe this Pokémon reflected like a mirror in the distant past."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84005,
+				cardmarket: 278906
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278906,
+				tcgplayer: 84005
+			}
+		},
+	],
+
+}
+
+export default card

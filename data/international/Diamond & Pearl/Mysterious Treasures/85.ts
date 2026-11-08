@@ -1,0 +1,77 @@
+import { Card } from 'models/database/card'
+import Set from '../Mysterious Treasures'
+
+const card: Card = {
+	name: {
+		'en-us': "Gible",
+		'fr-fr': "Griknot",
+		'de-de': "Kaumalat"
+	},
+
+	illustrator: "Hiroki Fuchino",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		443,
+	],
+
+	hp: 50,
+
+	types: [
+		"Colorless",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Push Down",
+				'fr-fr': "Renverser",
+				'de-de': "Runterdrücken"
+			},
+			effect: {
+				'en-us': "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon.",
+				'fr-fr': "Votre adversaire échange le Pokémon Défenseur avec 1 de ses Pokémon de Banc.",
+				'de-de': "Dein Gegner tauscht das Verteidigende Pokémon gegen 1 Pokémon auf seiner Bank aus."
+			},
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Colorless",
+			value: "+10"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "It nests in small, horizontal holes in cave walls. It pounces to catch prey that stray too close.",
+		'fr-fr': "Il niche dans les petits trous horizontaux des murs des grottes. Il bondit pour saisir sa proie."
+	},
+
+	thirdParty: {
+		cardmarket: 277714,
+		tcgplayer: 85698
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
+}
+
+export default card

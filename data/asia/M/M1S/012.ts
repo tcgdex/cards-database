@@ -1,0 +1,50 @@
+import { Card } from "models/database/card"
+import Set from "../M1S"
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ヤクデ"
+	},
+	illustrator: "GIDORA",
+	category: "Pokemon",
+	hp: 80,
+	types: ["Fire"],
+	description: {
+		'ja-jp': "発熱した体で獲物を締め上げる。こんがり焼けたら むしゃむしゃ いただくのだ。"
+	},
+	stage: "Basic",
+	attacks: [{
+		name: {
+			'ja-jp': "ぶつかる"
+		},
+		damage: 10,
+		cost: ["Fire"]
+	}, {
+		name: {
+			'ja-jp': "かえん"
+		},
+		damage: 50,
+		cost: ["Fire", "Fire", "Colorless"]
+	}],
+	weaknesses: [{
+		type: "Water",
+		value: "×2"
+	}],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 840558,
+				tcgplayer: 647266,
+			},
+		},
+	],
+
+	retreat: 2,
+	regulationMark: "I",
+	rarity: "Common",
+	dexId: [850]
+}
+
+export default card

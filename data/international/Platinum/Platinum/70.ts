@@ -1,0 +1,88 @@
+import { Card } from 'models/database/card'
+import Set from '../Platinum'
+
+const card: Card = {
+	name: {
+		'en-us': "Chimchar",
+		'fr-fr': "Ouisticram",
+		'de-de': "Panflam"
+	},
+
+	illustrator: "Kouki Saitou",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [390],
+
+	hp: 50,
+
+	types: [
+		"Fire"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Bite",
+				'fr-fr': "Morsure",
+				'de-de': "Bite"
+			},
+
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Fire",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Fire Punch",
+				'fr-fr': "Poing de feu",
+				'de-de': "Fire Punch"
+			},
+
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "+10"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "It is very agile. Before going to sleep, it extinguishes the flame on its tail to prevent fires."
+	},
+
+	variants: [
+		{
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 84288,
+				cardmarket: 278491
+			}
+		},
+		{
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278491,
+				tcgplayer: 84288
+			}
+		}
+	],
+
+}
+
+export default card

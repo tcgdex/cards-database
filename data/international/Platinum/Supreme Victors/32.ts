@@ -1,0 +1,93 @@
+import { Card } from 'models/database/card'
+import Set from '../Supreme Victors'
+
+const card: Card = {
+	name: {
+		'en-us': "Lunatone",
+		'fr-fr': "Seleroc",
+		'de-de': "Lunastein"
+	},
+
+	illustrator: "Naoyo Kimura",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [337],
+
+	hp: 70,
+
+	types: [
+		"Psychic"
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Marvel Eyes",
+				'fr-fr': "Yeux merveilleux",
+				'de-de': "Mirakelaugen"
+			},
+			effect: {
+				'en-us': "If you have Solrock in play, prevent all effects of attacks, including damage, done to any of your Lunatone or Solrock by your opponent's Pokémon LV.X.",
+				'fr-fr': "Si vous avez Solaroc en jeu, prévenez tous les effets d'attaques, dégâts inclus, infligés à vos Seleroc ou Solaroc par les Pokémon NIV.X de votre adversaire.",
+				'de-de': "Wenn du Sonnfel im Spiel hast, verhindere alle Effekte von Angriffen, einschließlich Schaden, die deinen Lunastein und Sonnfel im Spiel von gegnerischen Pokémon LV.X zugefügt würden."
+			}
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Gravity Wave",
+				'fr-fr': "Vague pesante",
+				'de-de': "Schwerkraftwelle"
+			},
+			effect: {
+				'en-us': "Does 30 damage to each of your opponent's Benched Pokémon that doesn't have a Retreat Cost. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Inflige 30 dégâts à chacun des Pokémon de Banc de votre adversaire qui ne possède pas de Coût de retraite. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Dieser Angriff fügt jedem Pokémon auf der Bank deines Gegners, das Rückzugskosten 0 hat, 30 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.)"
+			},
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "+20"
+		},
+	],
+	description: {
+		'en-us': "Because it turns active on nights of the full moon, it is said to have some link to the lunar phases."
+	},
+
+	retreat: 0,
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 86927,
+				cardmarket: 278723
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278723,
+				tcgplayer: 86927
+			}
+		},
+	],
+
+}
+
+export default card

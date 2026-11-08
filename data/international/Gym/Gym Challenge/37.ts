@@ -1,0 +1,88 @@
+import { Card } from 'models/database/card'
+import Set from '../Gym Challenge'
+
+const card: Card = {
+	name: {
+		'en-us': "Brock's Vulpix"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [37],
+
+	hp: 50,
+
+	types: [
+		"Fire"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Hypnotic Gaze"
+			},
+			effect: {
+				'en-us': "The Defending Pokémon is now Asleep."
+			},
+
+		},
+		{
+			cost: [
+				"Fire",
+				"Fire",
+			],
+			name: {
+				'en-us': "Fire Ring"
+			},
+			effect: {
+				'en-us': "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83986,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83986,
+				cardmarket: 274305
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["wotc"],
+			thirdParty: {
+				tcgplayer: 83986,
+				cardmarket: 274305
+			}
+		}
+	],
+}
+
+export default card

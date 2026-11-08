@@ -1,0 +1,109 @@
+import { Card } from "models/database/card"
+import Set from "../Obsidian Flames"
+
+const card: Card = {
+	dexId: [326],
+	set: Set,
+
+	name: {
+		'fr-fr': "Groret",
+		'en-us': "Grumpig",
+		'es-es': "Grumpig",
+		'it-it': "Grumpig",
+		'pt-br': "Grumpig",
+		'de-de': "Groink"
+	},
+
+	rarity: "Uncommon",
+	category: "Pokemon",
+	hp: 120,
+	types: ["Psychic"],
+	evolveFrom: {
+		'fr-fr': "Spoink",
+		'en-us': "Spoink",
+		'es-es': "Spoink",
+		'it-it': "Spoink",
+		'pt-br': "Spoink",
+		'de-de': "Spoink"
+	},
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Psychic"],
+
+		name: {
+			'fr-fr': "Pas Puissants",
+			'en-us': "Powerful Steps",
+			'es-es': "Pasos Poderosos",
+			'it-it': "Energipassi",
+			'pt-br': "Passos Poderosos",
+			'de-de': "Mächtige Schritte"
+		},
+
+		effect: {
+			'fr-fr': "Cherchez dans votre deck jusqu'à 2 cartes Énergie de base, puis attachez-les à vos Pokémon comme il vous plaît. Mélangez ensuite votre deck.",
+			'en-us': "Search your deck for up to 2 Basic Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.",
+			'es-es': "Busca en tu baraja hasta 2 cartas de Energía Básica y únelas a tus Pokémon de la manera que desees. Después, baraja las cartas de tu baraja.",
+			'it-it': "Cerca nel tuo mazzo fino a due carte Energia base e assegnale ai tuoi Pokémon nel modo che preferisci. Poi rimischia le carte del tuo mazzo.",
+			'pt-br': "Procure por até 2 cartas de Energia Básica no seu baralho e ligue-as aos seus Pokémon como desejar. Em seguida, embaralhe o seu baralho.",
+			'de-de': "Durchsuche dein Deck nach bis zu 2 Basis-Energiekarten und lege sie beliebig an deine Pokémon an. Mische anschließend dein Deck."
+		}
+	}, {
+		cost: ["Psychic", "Colorless", "Colorless"],
+
+		name: {
+			'fr-fr': "Psykoud'Boul",
+			'en-us': "Zen Headbutt",
+			'es-es': "Cabezazo Zen",
+			'it-it': "Cozzata Zen",
+			'pt-br': "Cabeçada Zen",
+			'de-de': "Zen-Kopfstoß"
+		},
+
+		damage: 100
+	}],
+
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
+	retreat: 1,
+	regulationMark: "G",
+
+	description: {
+		'en-us': "It can perform odd dance steps to influence foes. Its style of dancing became hugely popular overseas.",
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 725171,
+				tcgplayer: 509867,
+				cardtrader: 255776
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 725171,
+				tcgplayer: 509867,
+				cardtrader: 255776
+			}
+		},
+	],
+
+	illustrator: "Scav",
+
+	
+}
+
+export default card

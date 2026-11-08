@@ -1,0 +1,72 @@
+import { Card } from "models/database/card";
+import Set from "../SV6";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "イルカマンex",
+		'zh-tw': "海豚俠ex",
+	},
+
+	illustrator: "PLANETA Mochizuki",
+	category: "Pokemon",
+	hp: 340,
+	types: ["Water"],
+
+	stage: "Stage1",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'ja-jp': "マイティソウル",
+				'zh-tw': "全能靈魂",
+			},
+			effect: {
+				'ja-jp': "このカードは、「イルカマン」の特性「マイティチェンジ」の効果によってしか場に出せない。",
+				'zh-tw': "這張卡只可依據「海豚俠」的特性「全能變身」的效果放置於場上。",
+			},
+		},
+	],
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "ギガインパクト",
+				'zh-tw': "終極衝擊",
+			},
+			damage: 250,
+			cost: ["Water"],
+			effect: {
+				'ja-jp': "次の自分の番、このポケモンはワザが使えない。",
+				'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Lightning", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 767550,
+				tcgplayer: 568106,
+			},
+		},
+	],
+
+	evolveFrom: {
+		'ja-jp': "ナミイルカ",
+	},
+
+	retreat: 2,
+	regulationMark: "H",
+	rarity: "Ultra Rare",
+	dexId: [964],
+
+	suffix: "EX",
+};
+
+export default card;

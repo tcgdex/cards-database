@@ -1,0 +1,62 @@
+import { Card } from "models/database/card";
+import Set from "../S12a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ゾロア",
+		'zh-tw': "索羅亞",
+		'th-th': "โซรัว",
+	},
+
+	illustrator: "ryoma uratsuka",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Darkness"],
+
+	description: {
+		'ja-jp': "普段 おしゃべりな 子どもが 無口に なった ときは ゾロアが 入れ替わって いるかも しれないよ。",
+		'zh-tw': "平常很愛說話的孩子如果突然變得很沉默， 就有可能是索羅亞假扮的。",
+		'th-th': "เวลาที่เด็กช่างพูดเกิดเงียบขึ้นมา อาจเป็นเพราะโซรัวมาสลับตัวอยู่ก็เป็นได้",
+	},
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "うしろげり",
+				'zh-tw': "後踢",
+				'th-th': "เตะกลับหลัง",
+			},
+			damage: 30,
+			cost: ["Colorless", "Colorless"],
+		},
+	],
+
+	weaknesses: [{ type: "Grass", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 687652,
+				tcgplayer: 571628,
+			},
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 577475,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "E",
+	rarity: "None",
+	dexId: [570],
+};
+
+export default card;

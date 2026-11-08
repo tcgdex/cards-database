@@ -1,0 +1,76 @@
+import { Card } from 'models/database/card'
+import Set from '../Skyridge'
+
+const card: Card = {
+	name: {
+		'en-us': "Diglett",
+		'de-de': "Digda"
+	},
+
+	illustrator: "Tomokazu Komiya",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [50],
+
+	hp: 40,
+
+	types: [
+		"Fighting"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Fighting",
+			],
+			name: {
+				'en-us': "Burrow",
+				'de-de': "Tunnelbau"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, prevent all damage done by attacks to Diglett during your opponent's next turn. (Any other effects of attacks still happen.)",
+				'de-de': "Wirf eine Münze. Verhindere bei \"Kopf\" allen Schaden, der Digda während des nächsten Zugs deines Gegners durch Angriffe zugefügt wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
+			},
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "x2"
+		},
+	],
+	resistances: [
+		{
+			type: "Lightning",
+			value: "-30"
+		},
+	],
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				tcgplayer: 84818,
+				cardmarket: 275308
+			},
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				tcgplayer: 84818,
+				cardmarket: 275308
+			},
+		},
+	],
+}
+
+export default card

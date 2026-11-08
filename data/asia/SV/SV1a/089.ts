@@ -1,0 +1,60 @@
+import { Card } from "models/database/card"
+import Set from "../SV1a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "デデンネex"
+	},
+
+	illustrator: "aky CG Works",
+	category: "Pokemon",
+	hp: 170,
+	types: ["Psychic"],
+	stage: "Basic",
+	suffix: "EX",
+
+	attacks: [{
+		cost: ["Psychic", "Psychic"],
+
+		name: {
+			'ja-jp': "テールスワップ"
+		},
+
+		effect: {
+			'ja-jp': "自分のベンチポケモンを1匹選び、選んだポケモンにのっているダメカンをすべて、相手のバトルポケモンにのせ替える。"
+		}
+	}, {
+		cost: ["Psychic", "Psychic", "Psychic"],
+
+		name: {
+			'ja-jp': "ワンダーショット"
+		},
+
+		damage: 170,
+
+		effect: {
+			'ja-jp': "このポケモンについているエネルギーを1個選び、トラッシュする。"
+		}
+	}],
+
+	weaknesses: [{
+		type: "Metal",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 701549,
+				tcgplayer: 568212,
+			},
+		},
+	],
+
+	retreat: 1,
+}
+
+export default card

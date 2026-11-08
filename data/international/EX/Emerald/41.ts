@@ -1,0 +1,108 @@
+import { Card } from 'models/database/card'
+import Set from '../Emerald'
+
+const card: Card = {
+	name: {
+		'en-us': "Swellow",
+		'fr-fr': "Heledelle",
+		'de-de': "Schwalboss"
+	},
+
+	illustrator: "Naoyo Kimura",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		277,
+	],
+
+	hp: 70,
+
+	types: [
+		"Colorless",
+	],
+
+	evolveFrom: {
+		'en-us': "Taillow",
+		'fr-fr': "Nirondelle"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Peck",
+				'fr-fr': "Picpic",
+				'de-de': "Peck"
+			},
+
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Skill Dive",
+				'fr-fr': "Plongeon contrôlé",
+				'de-de': "Skill Dive"
+			},
+			effect: {
+				'en-us': "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+				'fr-fr': "Choisissez 1 des Pokémon de votre adversaire. Cette attaque lui inflige 40 dégâts. (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.)",
+				'de-de': "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30"
+		},
+	],
+
+	
+	retreat: 0,
+
+	thirdParty: {
+		cardmarket: 276552,
+		tcgplayer: 89692
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 89692,
+				cardmarket: 276552
+			},
+		},
+		{
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 89692,
+				cardmarket: 276552
+			},
+		}
+	],
+}
+
+export default card

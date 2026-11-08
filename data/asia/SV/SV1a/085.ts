@@ -1,0 +1,61 @@
+import { Card } from "models/database/card"
+import Set from "../SV1a"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "パルデア ウパー"
+	},
+
+	illustrator: "Miki Tanaka",
+	category: "Pokemon",
+	dexId: [194],
+	hp: 60,
+	types: ["Darkness"],
+
+	description: {
+		'ja-jp': "縄張り争いに 敗れて 陸で 暮らすうちに 毒の 粘膜で 体を 保護するように 変わった。"
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless"],
+
+		name: {
+			'ja-jp': "すみかをさがす"
+		},
+
+		effect: {
+			'ja-jp': "自分の山札からスタジアムを1枚選び、相手に見せて、手札に加える。そして山札を切る。"
+		}
+	}, {
+		cost: ["Darkness"],
+
+		name: {
+			'ja-jp': "ぶつかる"
+		},
+
+		damage: 10
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 701544,
+				tcgplayer: 568208,
+			},
+		},
+	],
+
+	retreat: 2
+}
+
+export default card

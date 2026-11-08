@@ -1,0 +1,79 @@
+import { Card } from 'models/database/card'
+import Set from '../Shining Fates'
+
+const card: Card = {
+	dexId: [403],
+	set: Set,
+
+	name: {
+		'fr-fr': "Lixy",
+		'en-us': "Shinx",
+		'es-es': "Shinx",
+		'it-it': "Shinx",
+		'pt-br': "Shinx",
+		'de-de': "Sheinux"
+	},
+
+	illustrator: "Uta",
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Lightning"],
+
+	attacks: [{
+		name: {
+			'fr-fr': "Sous Pression",
+			'en-us': "Under Pressure",
+			'es-es': "Bajo Presión",
+			'it-it': "Sotto Pressione",
+			'pt-br': "Sob Pressão",
+			'de-de': "Unter Druck"
+		},
+
+		effect: {
+			'fr-fr': "S'il reste 3 cartes Récompense ou moins à votre adversaire, cette attaque inflige 50 dégâts supplémentaires.",
+			'en-us': "If your opponent has 3 or fewer Prize cards remaining, this attack does 50 more damage.",
+			'es-es': "Si a tu rival le quedan 3 o menos cartas de Premio, este ataque hace 50 puntos de daño más.",
+			'it-it': "Se il tuo avversario ha tre o meno carte Premio rimanenti, questo attacco infligge 50 danni in più.",
+			'pt-br': "Se o seu oponente tiver 3 ou menos cartas de Prêmio restantes, este ataque causará 50 pontos de dano a mais.",
+			'de-de': "Wenn dein Gegner 3 oder weniger verbleibende Preiskarten hat, fügt diese Attacke 50 Schadenspunkte mehr zu."
+		},
+
+		damage: "10+",
+		cost: ["Lightning"]
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "×2"
+	}],
+
+	retreat: 1,
+	regulationMark: "D",
+
+
+	stage: "Basic",
+
+	description: {
+		'en-us': "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 539178,
+				tcgplayer: 232455
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 539178,
+				tcgplayer: 232455
+			}
+		},
+	],
+}
+
+export default card

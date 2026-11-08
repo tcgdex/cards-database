@@ -1,0 +1,92 @@
+import { Card } from 'models/database/card'
+import Set from '../Rising Rivals'
+
+const card: Card = {
+	name: {
+		'en-us': "Vespiquen E4",
+		'fr-fr': "Apireine  Niv. 50",
+		'de-de': "Honweisel 4"
+	},
+	illustrator: "Kouki Saitou",
+	rarity: "Rare",
+	category: "Pokemon",
+
+	set: Set,
+	dexId: [416],
+	hp: 80,
+	types: [
+		"Grass"
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Poke-BODY",
+			name: {
+				'en-us': "Royal Gain",
+				'fr-fr': "Gain royal",
+				'de-de': "Königlicher Vorteil"
+			},
+			effect: {
+				'en-us': "When you attach a Grass Energy card from your hand to Vespiquen E4, remove 1 damage counter from Vespiquen E4.",
+				'fr-fr': "Lorsque vous attachez une carte Énergie Grass à Apireine , retirez-lui 1 marqueur de dégât.",
+				'de-de': "Wenn du 1 -Energiekarte von deiner Hand an Honweisel 4 anlegst, entferne 1 Schadensmarke von Honweisel 4."
+			}
+		},
+	],
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Leaf Needle",
+				'fr-fr': "Feuille-aiguille",
+				'de-de': "Nadelblätter"
+			},
+			effect: {
+				'en-us': "Flip a coin for each Grass Energy attached to Vespiquen E4. This attack does 30 damage plus 20 more damage for each heads.",
+				'fr-fr': "Lancez une pièce pour chaque Énergie Grass attachée à Apireine . Cette attaque inflige 30 dégâts plus 20 dégâts supplémentaires pour chaque face.",
+				'de-de': "Wirf 1 Münze für jede an Honweisel 4 angelegte -Energie. Dieser Angriff fügt 30 Schadenspunkte plus 20 weitere Schadenspunkte mal der Anzahl \"Kopf\" zu."
+			},
+			damage: "30+",
+
+		},
+	],
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "x2"
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278609,
+				tcgplayer: 90331
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278609,
+				tcgplayer: 90331
+			}
+		},
+	],
+
+}
+
+export default card

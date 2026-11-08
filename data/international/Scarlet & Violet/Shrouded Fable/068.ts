@@ -1,0 +1,89 @@
+import { Card } from "models/database/card"
+import Set from "../Shrouded Fable"
+
+const card: Card = {
+	dexId: [355],
+	set: Set,
+
+	name: {
+		'en-us': "Duskull",
+		'fr-fr': "Skelénox",
+		'es-es': "Duskull",
+		'it-it': "Duskull",
+		'pt-br': "Duskull",
+		'de-de': "Zwirrlicht"
+	},
+
+	rarity: "Illustration rare",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Psychic"],
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Psychic"],
+
+		name: {
+			'en-us': "Come and Get You",
+			'fr-fr': "Viens me Chercher",
+			'es-es': "Voy a por Ti",
+			'it-it': "Passo a Prenderti",
+			'pt-br': "Vim te Buscar",
+			'de-de': "Ich krieg dich"
+		},
+
+		effect: {
+			'en-us': "Put up to 3 Duskull from your discard pile onto your Bench.",
+			'fr-fr': "Placez jusqu'à 3 Skelénox de votre pile de défausse sur votre Banc.",
+			'es-es': "Pon hasta 3 Duskull de tu pila de descartes en tu Banca.",
+			'it-it': "Prendi fino a tre Duskull dalla tua pila degli scarti e mettili nella tua panchina.",
+			'pt-br': "Coloque até 3 Duskull da sua pilha de descarte no seu Banco.",
+			'de-de': "Lege bis zu 3 Zwirrlicht aus deinem Ablagestapel auf deine Bank."
+		}
+	}, {
+		cost: ["Psychic", "Psychic"],
+
+		name: {
+			'en-us': "Mumble",
+			'fr-fr': "Murmure",
+			'es-es': "Farfullar",
+			'it-it': "Borbottio",
+			'pt-br': "Resmungo",
+			'de-de': "Grummeln"
+		},
+
+		damage: 30
+	}],
+
+	weaknesses: [
+		{
+			type: "Darkness",
+			value: "×2",
+		},
+	],
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-30",
+		},
+	],
+	retreat: 1,
+	regulationMark: "H",
+
+
+	illustrator: "James Turner",
+
+	
+
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 780963,
+				tcgplayer: 560379
+			}
+		},
+	],
+}
+
+export default card

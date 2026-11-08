@@ -1,0 +1,69 @@
+import { Card } from "models/database/card";
+import Set from "../SV5K";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "ウガツホムラex",
+		'zh-tw': "破空焰ex",
+		'th-th': "เพลิงทะลวงex",
+		'ko-kr': "꿰뚫는화염 ex",
+	},
+
+	illustrator: "Teeziro",
+	category: "Pokemon",
+	hp: 230,
+	types: ["Fire"],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "ヒートブラスト",
+				'zh-tw': "高溫爆破",
+				'th-th': "ฮีทบลาสต์",
+				'ko-kr': "히트블라스트",
+			},
+			damage: 60,
+			cost: ["Fire", "Colorless"],
+		},
+		{
+			name: {
+				'ja-jp': "れっかばくしん",
+				'zh-tw': "烈火爆進",
+				'th-th': "ไฟลุกบุกทะลวง",
+				'ko-kr': "열화맥진",
+			},
+			damage: 260,
+			cost: ["Fire", "Fire", "Colorless"],
+			effect: {
+				'ja-jp': "このワザを使ったなら、このポケモンは、バトル場をはなれるまで「れっかばくしん」が使えない。",
+				'zh-tw': "若使用了這個招式，則這隻寶可夢離開戰鬥場前無法使用「烈火爆進」。",
+				'th-th': "ถ้าใช้ท่าต่อสู้นี้แล้ว โปเกมอนนี้ จะใช้ [ไฟลุกบุกทะลวง] ไม่ได้จนกว่าจะออกจากตำแหน่งต่อสู้",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Water", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 752874,
+				tcgplayer: 568427,
+			},
+		},
+	],
+
+	retreat: 2,
+	regulationMark: "H",
+	rarity: "Special illustration rare",
+	dexId: [1020],
+
+	suffix: "EX",
+};
+
+export default card;

@@ -1,0 +1,96 @@
+import { Card } from 'models/database/card'
+import Set from '../Emerald'
+
+const card: Card = {
+	name: {
+		'en-us': "Treecko",
+		'fr-fr': "Arcko",
+		'de-de': "Geckarbor"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		252,
+	],
+
+	hp: 50,
+
+	types: [
+		"Grass",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+			],
+			name: {
+				'en-us': "Tail Smash",
+				'fr-fr': "Éclate-queue",
+				'de-de': "Tail Smash"
+			},
+			effect: {
+				'en-us': "Flip a coin. If tails, this attack does nothing.",
+				'fr-fr': "Lancez une pièce. Si c'est pile, cette attaque est sans effet.",
+				'de-de': "Flip a coin. If tails, this attack does nothing."
+			},
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Water",
+			value: "-30"
+		},
+	],
+
+	
+	retreat: 1,
+
+	thirdParty: {
+		tcgplayer: 90037,
+		cardmarket: 276581
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 90037,
+				cardmarket: 276581
+			},
+		},
+		{
+			type: "reverse",
+			stamp: ["set-logo"],
+			thirdParty: {
+				tcgplayer: 90037,
+				cardmarket: 276581
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["gen-con"],
+			thirdParty: {
+				tcgplayer: 213010,
+			},
+		},
+	],
+}
+
+export default card

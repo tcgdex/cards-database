@@ -1,0 +1,33 @@
+import { Set } from 'models/database/set'
+import serie from '../SV'
+
+const set: Set = {
+	id: 'SV2a',
+
+	name: {
+		'ja-jp': 'ポケモンカード151',
+		'ko-kr': '포켓몬 카드 151',
+		'zh-tw': '寶可夢卡牌151',
+		'id-id': 'Kartu Pokémon 151',
+		'th-th': 'โปเกมอนการ์ด 151'
+	},
+
+	serie: serie,
+
+	cardCount: {
+		official: 165
+	},
+
+	releaseDate: {
+		'ja-jp': '2023-06-16',
+		'zh-tw': '2023-06-30',
+		'id-id': '2023-07-28',
+		'th-th': '2023-07-28'
+	},
+
+	thirdParty: {
+		cardmarket: 5328
+	}
+}
+
+export default set

@@ -1,0 +1,92 @@
+import { Card } from 'models/database/card'
+import Set from '../POP Series 4'
+
+const card: Card = {
+	name: {
+		'en-us': "Combusken",
+		'fr-fr': "Galifeu"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [256],
+
+	hp: 70,
+
+	types: [
+		"Fire"
+	],
+
+	evolveFrom: {
+		'en-us': "Torchic",
+		'fr-fr': "Poussifeu"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Fire",
+			],
+			name: {
+				'en-us': "Smokescreen",
+				'fr-fr': "Brouillard"
+			},
+			effect: {
+				'en-us': "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing.",
+				'fr-fr': "Si le Pokémon Défenseur essaye d'attaquer lors du prochain tour de votre adversaire, celui-ci lance une pièce. Si c'est pile, cette attaque est sans effet."
+			},
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Fire",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Sky Uppercut",
+				'fr-fr': "Stratopercut"
+			},
+			effect: {
+				'en-us': "This attack's damage isn't affected by Resistance.",
+				'fr-fr': "Les dégâts de cette attaque ne sont pas affectés par la Résistance."
+			},
+			damage: 40,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 84409,
+				cardmarket: 277471
+			},
+		},
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 84409,
+				cardmarket: 277471
+			},
+		},
+	],
+
+}
+
+export default card

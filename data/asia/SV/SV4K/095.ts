@@ -1,0 +1,26 @@
+import { Card } from "models/database/card"
+import Set from "../SV4K"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "基本悪エネルギー",
+		'ko-kr': "기본 악 에너지"
+	},
+
+	category: "Energy",
+	energyType: "Normal",
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 741525,
+				tcgplayer: 565850,
+			},
+		},
+	],
+}
+
+export default card

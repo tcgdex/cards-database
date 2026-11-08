@@ -1,0 +1,97 @@
+import { Card } from 'models/database/card'
+import Set from '../POP Series 8'
+
+const card: Card = {
+	name: {
+		'en-us': "Carnivine",
+	},
+
+	illustrator: "Kouki Saitou",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		455,
+	],
+
+	hp: 70,
+
+	types: [
+		"Grass",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Swallow Up",
+			},
+			effect: {
+				'en-us': "Before doing damage, count the remaining HP of the Defending Pokémon and Carnivine. If the Defending Pokémon has fewer remaining HP than Carnivine’s, this attack does 60 damage instead.",
+			},
+			damage: 30,
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Grass",
+			],
+			name: {
+				'en-us': "Wring Out",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed and discard an Energy card attached to the Defending Pokémon.",
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "+20"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Water",
+			value: "-20"
+		},
+	],
+
+	description: {
+		'en-us': "It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey."
+	},
+
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278408,
+				tcgplayer: 84100
+			}
+		},
+		{
+			type: "reverse",
+			foil: "cracked-ice",
+			thirdParty: {
+				cardmarket: 278408,
+				tcgplayer: 84100
+			}
+		},
+	],
+}
+
+export default card

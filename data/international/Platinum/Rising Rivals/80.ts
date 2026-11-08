@@ -1,0 +1,88 @@
+import { Card } from 'models/database/card'
+import Set from '../Rising Rivals'
+
+const card: Card = {
+	name: {
+		'en-us': "Shellos West Sea",
+		'fr-fr': "Sancoki Mer Occident Niv. 27",
+		'de-de': "Schalellos Westliches Meer"
+	},
+
+	illustrator: "Miki Tanaka",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [422],
+
+	hp: 70,
+
+	types: [
+		"Water"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+
+			name: {
+				'en-us': "Healing Sea",
+				'fr-fr': "Mer guérisseuse",
+				'de-de': "Heilendes Meer"
+			},
+			effect: {
+				'en-us': "Flip 2 coins. Choose 1 of your Pokémon. For each heads, remove 1 damage counter from that Pokémon.",
+				'fr-fr': "Lancez 2 pièces. Choisissez 1 de vos Pokémon. Pour chaque face, retirez-lui 1 marqueur de dégât.",
+				'de-de': "Wirf 2 Münzen. Wähle 1 deiner Pokémon. Entferne pro \"Kopf\" 1 Schadensmarke vom gewählten Pokémon."
+			},
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Mud Shot",
+				'fr-fr': "Tir de boue",
+				'de-de': "Lehmschuss"
+			},
+
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "+20"
+		},
+	],
+	retreat: 2,
+
+	description: {
+		'en-us': "Beware of pushing strongly on its squishy body, as it makes a mysterious purple fluid ooze out."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 278654,
+				tcgplayer: 89145
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278654,
+				tcgplayer: 89145
+			}
+		},
+	],
+
+}
+
+export default card

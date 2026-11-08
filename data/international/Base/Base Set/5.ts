@@ -1,0 +1,123 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set'
+
+const card: Card = {
+	name: {
+		'en-us': "Clefairy",
+		'fr-fr': "Mélofée",
+		'de-de': "Piepi",
+		'it-it': "Clefairy"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		35,
+	],
+
+	hp: 40,
+
+	types: [
+		"Colorless",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Sing",
+				'fr-fr': "Berceuse",
+				'de-de': "Gesang",
+				'it-it': "Canto"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Asleep.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Endormi.",
+				'de-de': "Wirf eine Münze. Bei \"Kopf\" ist das verteidigende Pokémon schlafend.",
+				'it-it': "Lancia una moneta. Se esce testa, il Pokémon Difensore è Addormentato."
+			},
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Metronome",
+				'fr-fr': "Métronome",
+				'de-de': "Metronom",
+				'it-it': "Metronomo"
+			},
+			effect: {
+				'en-us': "Choose 1 of Defending Pokémon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding energy cards. (No matter what type the defender is, Clefairy's type is still Colorless.)",
+				'fr-fr': "Choisissez 1 des attaques du Pokémon Défenseur. Métronome copie cette attaque à l'exception de son coût d'Énergie et de toute autre action requise pour utiliser cette attaque, comme par exemple, défausser des cartes Énergie. (Quel que soit le type du Pokémon Défenseur, Mélofée demeure de type Incolore.)",
+				'de-de': "Wähle einen der Angriffe des verteidigenden Pokémon. Metronom kopiert diesen Angriff, außer seiner Energiekosten und was sonst noch für den Einsatz dieses Angriffs erforderlich ist, wie z.B. das Entfernen von Energiekarten. (Unabhängig vom Typ des Verteidigenden Pokémon ist der Typ der Piepi immer noch farblos.)",
+				'it-it': "Scegli uno degli attacchi del Pokémon difensore. Il Metronomo copia quell'attacco, ad esclusione dei suoi costi di Energia e altre azioni necessarie per portare a termine  quell'attacco, come scartare carte Energia. (Indipendetemente dal tipo di Pokémon Difensore, Clefairy rimane di tipo Incolore.)"
+			},
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Psychic",
+			value: "-30"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "Its magical and cute appeal has many admirers. It is rare and found only in certain areas.",
+		'fr-fr': "Très recherché pour son aura mystique, il est très rare et ne vit que dans des endroits précis.",
+		'it-it': "Grazioso e magico, questo Pokémon è molto ammirato. È raro e si trova solo in determinate località. LIV 14 N.35"
+	},
+
+	variants: [
+		{
+			type: "holo",
+			subtype: "unlimited",
+			thirdParty: {
+				cardmarket: 273700,
+				tcgplayer: 42393
+			}
+		},
+		{
+			type: "holo",
+			subtype: "shadowless",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 107001
+			}
+		},
+		{
+			type: "holo",
+			subtype: "shadowless",
+			thirdParty: {
+				tcgplayer: 107001
+			}
+		},
+		{
+			type: "holo",
+			subtype: "1999-2000-copyright",
+		}
+	]
+}
+
+export default card

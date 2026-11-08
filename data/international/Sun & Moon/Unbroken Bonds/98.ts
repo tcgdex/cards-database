@@ -1,0 +1,100 @@
+import { Card } from 'models/database/card'
+import Set from '../Unbroken Bonds'
+
+const card: Card = {
+	name: {
+		'en-us': "Gligar",
+		'fr-fr': "Scorplane",
+		'es-es': "Gligar",
+		'it-it': "Gligar",
+		'pt-br': "Gligar",
+		'de-de': "Skorgla"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		207,
+	],
+
+	hp: 60,
+
+	types: [
+		"Fighting",
+	],
+
+	stage: "Basic",
+
+	abilities: [
+		{
+			type: "Ability",
+			name: {
+				'en-us': "Free Flight",
+				'fr-fr': "Vol Gratuit",
+				'es-es': "Vuelo Libre",
+				'it-it': "Volo Libero",
+				'pt-br': "Vôo Livre",
+				'de-de': "Freiflug"
+			},
+			effect: {
+				'en-us': "If this Pokémon has no Energy attached to it, it has no Retreat Cost.",
+				'fr-fr': "Si aucune Énergie n’est attachée à ce Pokémon, ce Pokémon n’a pas de coût de Retraite.",
+				'es-es': "Si este Pokémon no tiene ninguna Energía unida a él, este Pokémon no tiene ningún Coste de Retirada.",
+				'it-it': "Se questo Pokémon non ha delle Energie assegnate, non ha costo di ritirata.",
+				'pt-br': "Se este Pokémon não possuir Energia ligada a ele, ele não terá Custo para Recuar.",
+				'de-de': "Wenn an dieses Pokémon keine Energie angelegt ist, hat dieses Pokémon keine Rückzugskosten."
+			},
+		},
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Shinobi Strike",
+				'fr-fr': "Frappe Shinobi",
+				'es-es': "Golpe Shinobi",
+				'it-it': "Attacco Ninja",
+				'pt-br': "Golpe Ninja",
+				'de-de': "Shinobi-Schlag"
+			},
+			effect: {
+				'en-us': "If you played Janine from your hand during this turn, this attack does 90 more damage.",
+				'fr-fr': "Si vous avez joué Jeannine de votre main pendant ce tour, cette attaque inflige 90 dégâts supplémentaires.",
+				'es-es': "Si has jugado 1 carta de Sachiko de tu mano durante este turno, este ataque hace 90 puntos de daño más.",
+				'it-it': "Se hai giocato Nina dalla tua mano durante questo turno, questo attacco infligge 90 danni in più.",
+				'pt-br': "Se você jogou a Janine da sua mão durante esta vez de jogar, este ataque causará 90 pontos de dano a mais.",
+				'de-de': "Wenn du Janina während dieses Zuges aus deiner Hand gespielt hast, fügt diese Attacke 90 Schadenspunkte mehr zu."
+			},
+			damage: "30+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Grass",
+			value: "×2"
+		},
+	],
+
+	retreat: 2,
+
+	description: {
+		'en-us': "It usually clings to cliffs. When it spots its prey, it spreads its wings and glides down to attack.",
+	},
+
+	thirdParty: {
+		cardmarket: 372389,
+		tcgplayer: 189197
+	}
+}
+
+export default card

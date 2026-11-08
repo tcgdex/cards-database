@@ -1,65 +1,34 @@
-import type { Set as SDKSet, SetResume, SupportedLanguages } from '@tcgdex/sdk'
+import type { SupportedLanguages } from '@tcgdex/sdk'
 import { executeQuery, type Query } from '../../libs/QueryEngine/filter'
-import { objectOmit } from '@dzeio/object-util'
+import { objectKeys, objectOmit } from '@dzeio/object-util'
 
-import de from '../../../generated/de/sets.json'
-import en from '../../../generated/en/sets.json'
-import es from '../../../generated/es/sets.json'
-import esmx from '../../../generated/es-mx/sets.json'
-import fr from '../../../generated/fr/sets.json'
-import id from '../../../generated/id/sets.json'
-import it from '../../../generated/it/sets.json'
-import ja from '../../../generated/ja/sets.json'
-import ko from '../../../generated/ko/sets.json'
-import nl from '../../../generated/nl/sets.json'
-import pl from '../../../generated/pl/sets.json'
-import ptbr from '../../../generated/pt-br/sets.json'
-import ptpt from '../../../generated/pt-pt/sets.json'
-import pt from '../../../generated/pt/sets.json'
-import ru from '../../../generated/ru/sets.json'
-import th from '../../../generated/th/sets.json'
-import zhcn from '../../../generated/zh-cn/sets.json'
-import zhtw from '../../../generated/zh-tw/sets.json'
+import dataTMP from '../../../generated/sets.json'
+import { CompiledSet } from '../../../../scripts/compiler/interfaces'
+import { Version } from '../../interfaces'
+import { loadCard } from './Card'
+import { Set as SDKSet, SetResume, CardResume } from '../../api'
+import { loadSerie } from './Serie'
 
-export const sets = {
-	en: en,
-	fr: fr,
-	es: es,
-	'es-mx': esmx,
-	it: it,
-	pt: pt,
-	'pt-br': ptbr,
-	'pt-pt': ptpt,
-	de: de,
-	nl: nl,
-	pl: pl,
-	ru: ru,
-	ja: ja,
-	ko: ko,
-	'zh-tw': zhtw,
-	id: id,
-	th: th,
-	'zh-cn': zhcn,
-} as const
+const data = dataTMP as Array<CompiledSet>
 
-type MappedSet = any // (typeof en)[number]
+// Compile data subsets
+const list: Record<string, CompiledSet> = {}
+export const langLists: Record<string, Array<CompiledSet>> = {}
 
-export async function getAllSets(lang: SupportedLanguages): Promise<Array<SDKSet>> {
-	return Promise.all((sets[lang] as Array<MappedSet>).map(transformSet))
+data.forEach((it) => {
+	list[it.id.toLowerCase()] = it
+	objectKeys(it.name).forEach((lang) => {
+		langLists[lang] ??= []
+		langLists[lang].push(it)
+	})
+})
+
+export async function getAllSets(lang: SupportedLanguages, version: Version = 'full'): Promise<Array<SDKSet>> {
+	return Promise.all((langLists[lang] as Array<CompiledSet>).map((it) => loadSet(it.id, lang, version as 'full') as Promise<SDKSet>))
 }
 
-async function transformSet(set: MappedSet): Promise<SDKSet> {
-	return {
-		...objectOmit(set, 'thirdParty'),
-		// pricing: {
-		// 	cardmarket: await getCardMarketPrice(card),
-		// 	tcgplayer: await getTCGPlayerPrice(card)
-		// }
-	}
-}
-
-export async function findSets(lang: SupportedLanguages, query: Query<SDKSet>) {
-	return executeQuery(await getAllSets(lang), query).data
+export async function findSets(lang: SupportedLanguages, query: Query<SDKSet>, version: Version = 'full') {
+	return executeQuery(await getAllSets(lang, version), query).data
 }
 
 export async function findOneSet(lang: SupportedLanguages, query: Query<SDKSet>) {
@@ -68,6 +37,39 @@ export async function findOneSet(lang: SupportedLanguages, query: Query<SDKSet>)
 		return undefined
 	}
 	return res[0]
+}
+
+export async function loadSet(id: string, lang: SupportedLanguages, version: 'full'): Promise<SDKSet | undefined>
+export async function loadSet(id: string, lang: SupportedLanguages, version: 'brief'): Promise<SetResume | undefined>
+export async function loadSet(id: string, lang: SupportedLanguages, version: Version = 'full'): Promise<SDKSet | SetResume | undefined> {
+	const set = langLists[lang].find((it) => it.id.toLowerCase() === id.toLowerCase())
+	if (!set) {
+		return undefined
+	}
+	const brief = {
+		id: set.id,
+		name: set.name[lang]!,
+		logo: set.logo?.[lang],
+		symbol: set.symbol,
+		cardCount: {
+			total: set.cards.length,
+			official: set.cardCount.official
+		}
+	} satisfies SetResume
+	if (version === 'brief') {
+		return brief
+	}
+	return {
+		...objectOmit(set, 'thirdParty'),
+		...brief,
+		releaseDate: set.releaseDate[lang]!,
+		cards: await Promise.all(set.cards.map((it) => loadCard(lang, it, 'brief') as Promise<CardResume>)),
+		serie: (await loadSerie(set.serie, lang, 'brief'))!,
+		boosters: set.boosters?.map((it) => ({
+			id: it.id,
+			name: it.name[lang]!
+		}))
+	} satisfies SDKSet
 }
 
 export function setToBrief(set: SDKSet): SetResume {

@@ -1,0 +1,62 @@
+import { Card } from "models/database/card"
+import Set from "../SV1V"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "エレズン",
+		'zh-tw': "毒電嬰",
+		'th-th': "เอเลซัน",
+		'id-id': "Toxel"
+	},
+
+	illustrator: "Yuu Nishida",
+	rarity: "Common",
+	category: "Pokemon",
+	dexId: [848],
+	hp: 70,
+	types: ["Lightning"],
+
+	description: {
+		'ja-jp': "わがままで とても 甘えん坊。 体内の ２つの 袋に 毒と 電気を それぞれ 溜める。",
+		'zh-tw': "任性且非常愛撒嬌。體內的兩個囊袋 分別儲存著毒和電。",
+		'th-th': "เอาแต่ใจและขี้อ้อนมาก ภายในร่างกายมีถุง 2 ถุง เป็นถุงสำหรับสะสมพิษและไฟฟ้าอย่างละถุง",
+		'id-id': "Toxel egois dan sangat manja. Pokémon ini menyimpan racun dan listrik secara masing-masing pada 2 kantong yang ada di dalam tubuhnya."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		cost: ["Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "かじる",
+			'zh-tw': "咬",
+			'th-th': "แทะ",
+			'id-id': "Menggerogot"
+		},
+
+		damage: 20
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 693106,
+				tcgplayer: 568257,
+			},
+		},
+	],
+
+	retreat: 2,
+	regulationMark: "G"
+}
+
+export default card

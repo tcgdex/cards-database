@@ -1,0 +1,56 @@
+import { Card } from "models/database/card"
+import Set from "../SV9"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'ja-jp': "ホエルオー"
+	},
+
+	illustrator: "Katsunori Sato",
+	rarity: "None",
+	category: "Pokemon",
+	dexId: [321],
+	hp: 240,
+	types: ["Water"],
+
+	description: {
+		'ja-jp': "とにかく どでかいので 人気。 ホエルオーウォッチングは 各地で 人気の 観光プラン なのだ。"
+	},
+
+	stage: "Stage1",
+
+	attacks: [{
+		cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+
+		name: {
+			'ja-jp': "ハイドロポンプ"
+		},
+
+		damage: "10＋",
+
+		effect: {
+			'ja-jp': "このポケモンについているエネルギーの数×50ダメージ追加。"
+		}
+	}],
+
+	weaknesses: [{
+		type: "Lightning",
+		value: "×2"
+	}],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 807690,
+				tcgplayer: 614979,
+			},
+		},
+	],
+
+	retreat: 4,
+}
+
+export default card

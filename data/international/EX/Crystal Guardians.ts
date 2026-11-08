@@ -1,0 +1,34 @@
+import { Set } from 'models/database/set'
+import serie from '../EX'
+
+const ex14: Set = {
+	id: "ex14",
+
+	name: {
+		'en-us': "Crystal Guardians",
+		'fr-fr': "EX Gardiens de Cristal",
+		'de-de': "EX Crystal Guardians",
+		'it-it': "EX Guardiani dei Cristalli"
+	},
+
+	serie: serie,
+	tcgOnline: "CG",
+
+	cardCount: {
+		official: 100
+	},
+
+	releaseDate: "2006-08-30",
+
+	abbreviations: {
+		official: "CG",
+		'fr-fr': "GDC"
+	},
+
+	thirdParty: {
+		cardmarket: 1552,
+		tcgplayer: 1395
+	}
+}
+
+export default ex14

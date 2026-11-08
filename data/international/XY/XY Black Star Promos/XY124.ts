@@ -1,0 +1,83 @@
+import { Card } from 'models/database/card'
+import Set from '../XY Black Star Promos'
+
+const card: Card = {
+	name: {
+		'en-us': "Pikachu EX",
+		'fr-fr': "Pikachu EX",
+	},
+
+	illustrator: "Megumi Mizutani",
+	rarity: "Promo",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		25,
+	],
+
+	hp: 130,
+
+	types: [
+		"Lightning",
+	],
+
+	suffix: "EX",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Iron Tail",
+				'fr-fr': "Queue de Fer",
+			},
+			effect: {
+				'en-us': "Flip a coin until you get tails. This attack does 30 damage times the number of heads.",
+				'fr-fr': "Lancez une pièce jusqu'à ce que vous obteniez un côté pile. Cette attaque inflige 30 dégâts multipliés par le nombre de côtés face.",
+			},
+			damage: "30×",
+
+		},
+		{
+			cost: [
+				"Lightning",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Overspark",
+				'fr-fr': "Max'Étincelle",
+			},
+			effect: {
+				'en-us': "Discard all Lightning Energy attached to this Pokémon. This attack does 50 damage times the number of Energy cards you discarded.",
+				'fr-fr': "Défaussez toutes les Énergies Lightning attachées à ce Pokémon. Cette attaque inflige 50 dégâts multipliés par le nombre de cartes Énergie que vous avez défaussées.",
+			},
+			damage: "50×",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Metal",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	thirdParty: {
+		cardmarket: 554190
+	}
+}
+
+export default card

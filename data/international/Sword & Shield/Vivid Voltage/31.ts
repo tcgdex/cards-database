@@ -1,0 +1,89 @@
+import { Card } from 'models/database/card'
+import Set from '../Vivid Voltage'
+
+const card: Card = {
+	dexId: [320],
+
+	name: {
+		'en-us': "Wailmer",
+		'fr-fr': "Wailmer",
+		'es-es': "Wailmer",
+		'it-it': "Wailmer",
+		'pt-br': "Wailmer",
+		'de-de': "Wailmer"
+	},
+
+	illustrator: "Yukiko Baba",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+	hp: 100,
+
+	types: [
+		"Water",
+	],
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Hydro Pump",
+				'fr-fr': "Hydrocanon",
+				'es-es': "Hidrobomba",
+				'it-it': "Idropompa",
+				'pt-br': "Jato d'Água",
+				'de-de': "Hydropumpe"
+			},
+			effect: {
+				'en-us': "This attack does 20 more damage for each Water Energy attached to this Pokémon.",
+				'fr-fr': "Cette attaque inflige 20 dégâts supplémentaires pour chaque Énergie Water attachée à ce Pokémon.",
+				'es-es': "Este ataque hace 20 puntos de daño más por cada Energía Water unida a este Pokémon.",
+				'it-it': "Questo attacco infligge 20 danni in più per ogni Energia Water assegnata a questo Pokémon.",
+				'pt-br': "Este ataque causa 20 pontos de dano a mais para cada Energia Water ligada a este Pokémon.",
+				'de-de': "Diese Attacke fügt für jede an dieses Pokémon angelegte Water-Energie 20 Schadenspunkte mehr zu."
+			},
+			damage: "10+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "×2"
+		},
+	],
+
+	retreat: 3,
+	regulationMark: "D",
+
+
+	stage: "Basic",
+
+	description: {
+		'en-us': "It shows off by spraying jets of seawater from the nostrils above its eyes. It eats a solid ton of Wishiwashi every day."
+	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 511575,
+				tcgplayer: 226409
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 511575,
+				tcgplayer: 226409
+			}
+		},
+	],
+}
+
+export default card

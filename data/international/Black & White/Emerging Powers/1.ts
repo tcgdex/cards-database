@@ -1,0 +1,87 @@
+import { Card } from 'models/database/card'
+import Set from '../Emerging Powers'
+
+const card: Card = {
+	name: {
+		'en-us': "Pansage",
+		'fr-fr': "Feuillajou",
+		'es-es': "Pansage",
+		'it-it': "Pansage",
+		'pt-br': "Pansage",
+		'de-de': "Vegimak"
+	},
+
+	illustrator: "Kouki Saitou",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		511,
+	],
+
+	hp: 70,
+
+	types: [
+		"Grass",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Collect",
+				'fr-fr': "Collecte",
+			},
+			effect: {
+				'en-us': "Draw a card.",
+				'fr-fr': "Piochez une carte.",
+			},
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Scratch",
+				'fr-fr': "Griffe",
+			},
+
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Water",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "This Pokémon dwells deep in the forest. Eating a leaf from its head whisks weariness away as if by magic.",
+	},
+
+	thirdParty: {
+		cardmarket: 279966,
+		tcgplayer: 87933
+	}
+}
+
+export default card

@@ -1,0 +1,68 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set 2'
+
+const card: Card = {
+	name: {
+		'en-us': "Bulbasaur",
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		1,
+	],
+
+	hp: 40,
+
+	types: [
+		"Grass",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+				"Grass",
+			],
+			name: {
+				'en-us': "Leech Seed",
+			},
+			effect: {
+				'en-us': "Unless all damage from this attack is prevented, you may remove 1 damage counter from Bulbasaur.",
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "×2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "A strange seed was planted on its back at birth. Thus, a plant sprouted and now grows with this Pokémon.",
+	},
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 273990,
+				tcgplayer: 42486
+			}
+		}
+	]
+}
+
+export default card

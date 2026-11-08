@@ -1,0 +1,89 @@
+import { Card } from 'models/database/card'
+import Set from '../Base Set 2'
+
+const card: Card = {
+	name: {
+		'en-us': "Magneton",
+	},
+
+	illustrator: "Keiji Kinebuchi",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		82,
+	],
+
+	hp: 60,
+
+	types: [
+		"Lightning",
+	],
+
+	evolveFrom: {
+		'en-us': "Magnemite",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Lightning",
+				"Lightning",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Thunder Wave",
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+			},
+			damage: 30,
+
+		},
+		{
+			cost: [
+				"Lightning",
+				"Lightning",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Selfdestruct",
+			},
+			effect: {
+				'en-us': "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magneton does 80 damage to itself.",
+			},
+			damage: 80,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fighting",
+			value: "×2"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "Formed by several Magnemites linked together. It frequently appears when sunspots flare up.",
+	},
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 273932,
+				tcgplayer: 42497
+			}
+		}
+	]
+}
+
+export default card

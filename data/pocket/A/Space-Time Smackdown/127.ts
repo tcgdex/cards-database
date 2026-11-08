@@ -1,0 +1,61 @@
+import { Card } from "models/database/card"
+import Set from "../Space-Time Smackdown"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'en-us': "Porygon",
+		'fr-fr': "Porygon",
+		'es-es': "Porygon",
+		'it-it': "Porygon",
+		'de-de': "Porygon",
+		'pt-br': "Porygon",
+		'ko-kr': "폴리곤"
+	},
+
+	illustrator: "Shin Nagasawa",
+	rarity: "One Diamond",
+	category: "Pokemon",
+
+	dexId: [137],
+	hp: 60,
+	types: ["Colorless"],
+
+	description: {
+		'en-us': "State-of-the-art technology was used to create Porygon. It was the first artificial Pokémon to be created via computer programming.",
+		'fr-fr': "C'est le premier Pokémon au monde à avoir\nété créé à partir de programmes informatiques,\ngrâce à une technologie de pointe.",
+		'es-es': "Se trata del primer Pokémon del mundo\ncreado a partir de códigos de programación\ngracias al uso de tecnología de vanguardia.",
+		'it-it': "È il primo Pokémon della storia a essere\nstato creato tramite programmi, grazie\nall'impiego di tecnologie all'avanguardia.",
+		'de-de': "Es ist weltweit das erste künstliche Pokémon,\ndas dank neuester Technologien mittels\nComputerprogrammen erschaffen wurde.",
+		'pt-br': "Tecnologia de ponta foi usada na criação\nde Porygon. Foi o primeiro Pokémon artificial\ncriado por meio de um programa de computador.",
+		'ko-kr': "최고의 과학 기술을 사용해\n세계에서 처음으로 프로그래밍되어\n만들어진 인공 포켓몬이다."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		name: {
+			'en-us': "Beam",
+			'fr-fr': "Rayon",
+			'es-es': "Transmisión",
+			'it-it': "Raggio",
+			'de-de': "Strahl",
+			'pt-br': "Feixe",
+			'ko-kr': "빔"
+		},
+
+		damage: 20,
+		cost: ["Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Fighting",
+		value: "+20"
+	}],
+
+	retreat: 1,
+	boosters: ["palkia"]
+}
+
+export default card

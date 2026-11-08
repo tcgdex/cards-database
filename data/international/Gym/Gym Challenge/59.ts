@@ -1,0 +1,68 @@
+import { Card } from 'models/database/card'
+import Set from '../Gym Challenge'
+
+const card: Card = {
+	name: {
+		'en-us': "Sabrina's Mr. Mime"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [122],
+
+	hp: 60,
+
+	types: [
+		"Psychic"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Psychic",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Magic Darts"
+			},
+			effect: {
+				'en-us': "Choose 1 of your opponent's Pokémon and flip 3 coins. This attack does 10 damage times the number of heads to that Pokémon. Don't apply Weakness and Resistance for this attack."
+			},
+			damage: 10,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "x2"
+		},
+	],
+	retreat: 1,
+
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 88883,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 88883,
+				cardmarket: 274327
+			}
+		},
+	],
+}
+
+export default card

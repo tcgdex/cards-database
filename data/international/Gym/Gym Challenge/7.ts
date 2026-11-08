@@ -1,0 +1,86 @@
+import { Card } from 'models/database/card'
+import Set from '../Gym Challenge'
+
+const card: Card = {
+	name: {
+		'en-us': "Giovanni's Nidoking"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Holo Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [34],
+
+	hp: 120,
+
+	types: [
+		"Grass"
+	],
+
+	evolveFrom: {
+		'en-us': "Nidorino"
+	},
+
+	stage: "Stage2",
+
+	attacks: [
+		{
+			cost: [
+				"Grass",
+			],
+			name: {
+				'en-us': "Intimidate"
+			},
+			effect: {
+				'en-us': "If the Defending Pokémon's maximum HP is 50 or less, it can't attack Giovanni's Nidoking during your opponent's next turn. (Benching or evolving either Pokémon ends this effect.)"
+			},
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Grass",
+				"Grass",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Tumbling Attack"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, this attack does 40 damage plus 30 more damage; if tails, this attack does 40 damage."
+			},
+			damage: "40+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "x2"
+		},
+	],
+	retreat: 3,
+
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 85718,
+			},
+		},
+		{
+			type: "holo",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 85718,
+				cardmarket: 274275
+			}
+		},
+	],
+}
+
+export default card

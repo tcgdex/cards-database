@@ -1,0 +1,70 @@
+import { Card } from 'models/database/card'
+import Set from '../Evolving Skies'
+
+const card: Card = {
+	set: Set,
+
+
+	name: {
+		'en-us': "Nickit",
+		'fr-fr': "Goupilou",
+		'es-es': "Nickit",
+		'it-it': "Nickit",
+		'pt-br': "Nickit",
+		'de-de': "Kleptifux"
+	},
+
+	rarity: "Common",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Darkness"],
+	stage: "Basic",
+	illustrator: "Hasegawa Saki",
+
+	attacks: [{
+		name: {
+			'en-us': "Tail Whap",
+			'fr-fr': "Queue Battoir",
+			'es-es': "Coletón",
+			'it-it': "Codabotta",
+			'pt-br': "Tail Whap",
+			'de-de': "Schweifvertrimmer"
+		},
+
+		damage: 30,
+		cost: ["Colorless", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Grass",
+		value: "×2"
+	}],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Cunning and cautious, this Pokémon survives by stealing food from others. It erases its tracks with swipes of its tail as it makes off with its plunder."
+	},
+
+	dexId: [827],
+	regulationMark: "E",
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 574152,
+				tcgplayer: 246903
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 574152,
+				tcgplayer: 246903
+			}
+		},
+	],
+}
+
+export default card

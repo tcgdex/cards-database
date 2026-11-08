@@ -1,0 +1,67 @@
+import { Card } from 'models/database/card'
+import Set from '../Gym Heroes'
+
+const card: Card = {
+	name: {
+		'en-us': "Blaine's Ponyta"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [77],
+
+	hp: 40,
+
+	types: [
+		"Fire"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Fire",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Agility"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Blaine's Ponyta."
+			},
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Water",
+			value: "x2"
+		},
+	],
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 83877,
+			},
+		},
+		{
+			type: "normal",
+			stamp: ["1st-edition"],
+			thirdParty: {
+				tcgplayer: 83877,
+				cardmarket: 274199
+			}
+		}
+	],
+	retreat: 0
+}
+
+export default card
+

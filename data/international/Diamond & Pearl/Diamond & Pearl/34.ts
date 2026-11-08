@@ -1,0 +1,107 @@
+import { Card } from 'models/database/card'
+import Set from '../Diamond & Pearl'
+
+const card: Card = {
+	name: {
+		'en-us': "Noctowl",
+		'fr-fr': "Noarfang",
+		'de-de': "Noctuh"
+	},
+
+	illustrator: "Atsuko Nishida",
+	rarity: "Rare",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		164,
+	],
+
+	hp: 90,
+
+	types: [
+		"Colorless",
+	],
+
+	evolveFrom: {
+		'en-us': "Hoothoot",
+		'fr-fr': "Hoothoot",
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "See Beyond",
+				'fr-fr': "Clairvoyant",
+				'de-de': "Weitansicht"
+			},
+			effect: {
+				'en-us': "Choose a card from your hand and put it as a Prize card face up. Then, choose 1 of your face-down Prize cards without looking and put it into your hand. This attack does nothing if all of your Prize cards are face up.",
+				'fr-fr': "Choisissez une carte de votre main et placez-la comme carte Récompense, face retournée. Choisissez alors 1 de vos cartes Récompense se trouvant face cachée et placez-la dans votre main. Cette attaque est sans effet si toutes vos cartes Récompense sont retournées.",
+				'de-de': "Wähle eine Karte von deiner Hand und spiele sie offen als Preis. Wenn du das machst, wähle einen deiner verdeckten Preise, ohne ihn vorher anzusehen, und nimm ihn auf die Hand. Dieser Angriff hat keine Auwirkung, wenn bereits alle deine Preise offen liegen."
+			},
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Extrasensory",
+				'fr-fr': "Extrasenseur",
+				'de-de': "Sondersensor"
+			},
+			effect: {
+				'en-us': "If you have the same number of cards in your hand as your opponent, this attack does 30 damage plus 50 more damage.",
+				'fr-fr': "Si vous avez le même nombre de cartes en main que votre adversaire, cette attaque inflige 30 dégâts plus 50 dégâts supplémentaires.",
+				'de-de': "Wenn du die gleiche anzahl Karten auf der Hand hast wie dein Gegner fügt dieser Angriff 30 Schadenspunkte plus 50 weitere Schadenspunkte zu."
+			},
+			damage: "30+",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "+20"
+		},
+	],
+
+	resistances: [
+		{
+			type: "Fighting",
+			value: "-20"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Its eyes are special. They can pick out objects as long as there is the tiniest amount of light.",
+		'fr-fr': "Ses yeux sont particuliers. La plus petite source de lumière leur permet de distinguer les objets."
+	},
+
+	thirdParty: {
+		cardmarket: 277533,
+		tcgplayer: 87793
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse"
+		}
+	]
+}
+
+export default card

@@ -1,0 +1,90 @@
+import { Card } from 'models/database/card'
+import Set from '../Mysterious Treasures'
+
+const card: Card = {
+	name: {
+		'en-us': "Finneon",
+		'fr-fr': "Ecayon",
+		'de-de': "Finneon"
+	},
+
+	illustrator: "Ken Sugimori",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		456,
+	],
+
+	hp: 50,
+
+	types: [
+		"Water",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+			],
+			name: {
+				'en-us': "Elegant Swim",
+				'fr-fr': "Nage élégante",
+				'de-de': "Elegantes Schwimmen"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Finneon during your opponent's next turn.",
+				'fr-fr': "Lancez une pièce. Si c'est face, prévenez tous les effets d'une attaque, dégâts inclus, infligés à Ecayon lors du prochain tour de votre adversaire.",
+				'de-de': "Wirf 1 Münze. Verhindere bei \"Kopf\" während des nächsten Zuges deines Gegners alle Effekte eines Angriffs, einschließlich Schaden, die Finneon zugefügt werden."
+			},
+
+		},
+		{
+			cost: [
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
+			},
+
+			damage: 20,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "+10"
+		},
+	],
+	retreat: 1,
+
+
+	description: {
+		'en-us': "After long exposure to sunlight, the patterns on its tail fins shine vividly when darkness arrives.",
+		'fr-fr': "Après une longue exposition au soleil, les motifs de ses nageoires caudales luisent à la nuit tombée."
+	},
+
+	thirdParty: {
+		cardmarket: 277712,
+		tcgplayer: 85449
+	},
+
+	variants: [
+		{
+			type: "normal",
+		},
+		{
+			type: "reverse",
+		}
+	]
+}
+
+export default card

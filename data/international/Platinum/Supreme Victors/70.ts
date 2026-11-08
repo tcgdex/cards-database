@@ -1,0 +1,117 @@
+import { Card } from 'models/database/card'
+import Set from '../Supreme Victors'
+
+const card: Card = {
+	name: {
+		'en-us': "Milotic",
+		'fr-fr': "Milobellus",
+		'de-de': "Milotic"
+	},
+
+	illustrator: "Hajime Kusajima",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [350],
+
+	hp: 90,
+
+	types: [
+		"Water"
+	],
+
+	evolveFrom: {
+		'en-us': "Feebas",
+		'fr-fr': "Barpau"
+	},
+
+	stage: "Stage1",
+
+	attacks: [
+		{
+			cost: [
+				"Water",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Cleansing Ring",
+				'fr-fr': "Cercle nettoyant",
+				'de-de': "Reinigungsring"
+			},
+			effect: {
+				'en-us': "You may discard 2 cards from your hand. If you do, remove 4 damage counters from 1 of your Pokémon.",
+				'fr-fr': "Vous pouvez défausser 2 cartes de votre main. Retirez alors à 1 de vos Pokémon 4 marqueurs de dégât.",
+				'de-de': "Du kannst 2 Karten von deiner Hand auf deinen Ablagestapel legen. Wenn du das machst, entferne 4 Schadensmarken von 1 deiner Pokémon."
+			},
+			damage: 20,
+
+		},
+		{
+			cost: [
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Scale Blow",
+				'fr-fr': "Coup d'écaille",
+				'de-de': "Schuppenschlag"
+			},
+			effect: {
+				'en-us': "Does 90 damage minus 10 damage for each card in your hand.",
+				'fr-fr': "Inflige 90 dégâts moins 10 dégâts pour chaque carte se trouvant dans votre main.",
+				'de-de': "Dieser Angriff fügt 90 Schadenspunkte minus 10 Schadenspunkte für jede Karte auf deiner Hand zu."
+			},
+			damage: "90-",
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Lightning",
+			value: "+20"
+		},
+	],
+	retreat: 1,
+
+	description: {
+		'en-us': "Its lovely scales are described as rainbow colored. They change color depending on the viewing angle."
+	},
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 87455,
+				cardmarket: 882910
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				cardmarket: 278689,
+				tcgplayer: 87455
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["pre-release"],
+			thirdParty: {
+				cardmarket: 882910,
+				tcgplayer: 164213
+			}
+		},
+		{
+			type: "normal",
+			stamp: ["pre-release", "staff"],
+			thirdParty: {
+				tcgplayer: 164214
+			}
+		}
+	],
+
+}
+
+export default card

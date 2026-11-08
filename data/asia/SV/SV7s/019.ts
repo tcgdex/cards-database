@@ -1,0 +1,51 @@
+import { Card } from "models/database/card"
+import Set from "../SV7s"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		'th-th': "เดลวิล",
+		'id-id': "Houndour"
+	},
+
+	illustrator: "REND",
+	category: "Pokemon",
+	hp: 70,
+	types: ["Fire"],
+
+	description: {
+		'th-th': "ชนิดของเสียงร้องที่ใช้ตอนสื่อสารกับฝูงกับตอนไล่ต้อนเหยื่อจะแตกต่างกัน",
+		'id-id': "Jenis raungan Houndour ketika berkomunikasi dengan sesamanya atau ketika memburu mangsanya berbeda-beda."
+	},
+
+	stage: "Basic",
+
+	attacks: [{
+		name: {
+			'th-th': "แทะ",
+			'id-id': "Menggerogot"
+		},
+
+		damage: 20,
+		cost: ["Colorless", "Colorless"]
+	}, {
+		name: {
+			'th-th': "เตะกลับหลัง",
+			'id-id': "Tendangan Belakang"
+		},
+
+		damage: 50,
+		cost: ["Fire", "Colorless", "Colorless"]
+	}],
+
+	weaknesses: [{
+		type: "Water",
+		value: "×2"
+	}],
+
+	retreat: 1,
+	regulationMark: "H"
+}
+
+export default card

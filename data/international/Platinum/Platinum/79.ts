@@ -1,0 +1,97 @@
+import { Card } from 'models/database/card'
+import Set from '../Platinum'
+
+const card: Card = {
+	name: {
+		'en-us': "Lapras",
+		'fr-fr': "Lokhlass",
+		'de-de': "Lapras"
+	},
+
+	illustrator: "Mitsuhiro Arita",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [131],
+
+	hp: 80,
+
+	types: [
+		"Water"
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Grind",
+				'fr-fr': "Écrase",
+				'de-de': "Grind"
+			},
+			effect: {
+				'en-us': "Does 10 damage times the amount of Energy attached to Lapras.",
+				'fr-fr': "Inflige 10 dégâts multipliés par le nombre d'Énergies attachées à Lokhlass",
+				'de-de': "Does 10 damage times the amount of Energy attached to Lapras."
+			},
+			damage: "10×",
+
+		},
+		{
+			cost: [
+				"Water",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Ice Beam",
+				'fr-fr': "Laser glace",
+				'de-de': "Ice Beam"
+			},
+			effect: {
+				'en-us': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
+				'fr-fr': "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				'de-de': "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+			},
+			damage: 30,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Metal",
+			value: "+20"
+		},
+	],
+
+	retreat: 2,
+
+	description: {
+		'en-us': "It loves crossing the sea with people and Pokémon on its back. It understands human speech."
+	},
+
+	variants: [
+		{
+			type:"normal",
+			thirdParty: {
+				tcgplayer: 86619,
+				cardmarket: 278500
+			}
+		},
+		{
+			type:"reverse",
+			thirdParty: {
+				cardmarket: 278500,
+				tcgplayer: 86619
+			}
+		}
+	],
+
+}
+
+export default card

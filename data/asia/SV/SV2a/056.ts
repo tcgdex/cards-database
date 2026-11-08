@@ -1,0 +1,78 @@
+import { Card } from "models/database/card";
+import Set from "../SV2a";
+
+const card: Card = {
+	set: Set,
+	name: {
+		'ja-jp': "マンキー",
+		'zh-tw': "猴怪",
+		'th-th': "แมนคี",
+		'id-id': "Mankey",
+	},
+
+	illustrator: "Mina Nakai",
+	category: "Pokemon",
+	hp: 60,
+	types: ["Fighting"],
+
+	description: {
+		'ja-jp': "木の上で 群れをつくって 暮らす。 群れから はぐれた マンキーは 寂しくて すぐに 怒りだす。",
+		'zh-tw': "在樹上群居的寶可夢。和夥伴走散的猴怪會因為 按捺不住寂寞而動不動就生氣。",
+		'th-th': "อาศัยอยู่กันเป็นฝูงบนต้นไม้ แมนคีที่พลัดจากฝูงจะเหงาจนโกรธขึ้นมา",
+		'id-id': "Pokémon ini hidup berkelompok di atas pohon. Mankey yang terpisah dari kawanannya langsung mengamuk karena kesepian.",
+	},
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			name: {
+				'ja-jp': "あばれる",
+				'zh-tw': "大鬧一番",
+				'th-th': "อาละวาด",
+				'id-id': "Pukulan Membabi Buta",
+			},
+			damage: "20+",
+			cost: ["Fighting"],
+			effect: {
+				'ja-jp': "コインを1回投げオモテなら、20ダメージ追加。ウラなら、このポケモンにも20ダメージ。",
+				'zh-tw': "擲1次硬幣若為正面，則增加20點傷害。若為反面，則這隻寶可夢也受到20點傷害。",
+				'th-th': "ทอยเหรียญ 1 ครั้งถ้าออกหัว การโจมตีนี้จะเพิ่มแดเมจอีก 20 ถ้าออกก้อย โปเกมอนนี้ก็จะได้รับแดเมจ 20 ด้วย",
+				'id-id': "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 20. Jika hasilnya sisi belakang, Pokémon ini juga menerima kerusakan sejumlah 20.",
+			},
+		},
+	],
+
+	weaknesses: [{ type: "Psychic", value: "x2" }],
+	resistances: [],
+
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 719498,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "pokeball",
+			thirdParty: {
+				cardmarket: 837329,
+			},
+		},
+		{
+			type: "reverse",
+			foil: "masterball",
+			thirdParty: {
+				cardmarket: 837330,
+			},
+		},
+	],
+
+	retreat: 1,
+	regulationMark: "G",
+	rarity: "Common",
+	dexId: [56],
+};
+
+export default card;

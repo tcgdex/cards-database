@@ -1,0 +1,90 @@
+import { Card } from 'models/database/card'
+import Set from '../Legends Awakened'
+
+const card: Card = {
+	name: {
+		'en-us': "Pineco",
+		'fr-fr': "Pomdepik",
+		'de-de': "Tannza"
+	},
+
+	illustrator: "Masakazu Fukuda",
+	rarity: "Common",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		204,
+	],
+
+	hp: 50,
+
+	types: [
+		"Grass",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Tackle",
+				'fr-fr': "Charge",
+				'de-de': "Tackle"
+			},
+
+			damage: 10,
+
+		},
+		{
+			cost: [
+				"Grass",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Selfdestruct",
+				'fr-fr': "Destruction",
+				'de-de': "Finale"
+			},
+			effect: {
+				'en-us': "This attack does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.) Pineco does 50 damage to itself.",
+				'fr-fr': "Cette attaque inflige 10 dégâts à chacun des Pokémon de Banc (les vôtres et ceux de votre adversaire). (Vous ne pouvez pas appliquer la Faiblesse et la Résistance aux Pokémon de Banc.) Pomdepik s'inflige 50 dégâts.",
+				'de-de': "Dieser Angriff fügt jedem Pokémon auf der Bank (deinen und denen deines Gegners) 10 Schadenspunkte zu. (Wende Schwäche und Resistenz bei Pokémon auf der Bank nicht an.) Tannza fügt sich selbst 50 Schadenspunkte zu."
+			},
+			damage: 40,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Fire",
+			value: "+10"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "It looks just like a pinecone. Its shell protects it from bird Pokémon that peck it by mistake.",
+	},
+
+	thirdParty: {
+		cardmarket: 278262,
+		tcgplayer: 88128
+	},
+
+	variants: [
+		{
+			type: "normal"
+		},
+		{
+			type: "reverse"
+		}
+	]
+}
+
+export default card

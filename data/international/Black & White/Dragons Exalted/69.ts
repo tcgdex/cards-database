@@ -1,0 +1,84 @@
+import { Card } from 'models/database/card'
+import Set from '../Dragons Exalted'
+
+const card: Card = {
+	name: {
+		'en-us': "Sawk",
+		'fr-fr': "Karaclée",
+		'es-es': "Sawk",
+		'it-it': "Sawk",
+		'pt-br': "Sawk",
+		'de-de': "Karadonis"
+	},
+
+	illustrator: "Masakazu Fukuda",
+	rarity: "Uncommon",
+	category: "Pokemon",
+	set: Set,
+
+	dexId: [
+		539,
+	],
+
+	hp: 90,
+
+	types: [
+		"Fighting",
+	],
+
+	stage: "Basic",
+
+	attacks: [
+		{
+			cost: [
+				"Colorless",
+			],
+			name: {
+				'en-us': "Defensive Stance",
+				'fr-fr': "Posture Défensive",
+			},
+			effect: {
+				'en-us': "Heal 30 damage from this Pokémon. Switch this Pokémon with 1 of your Benched Pokémon.",
+				'fr-fr': "Soignez 30 dégâts à ce Pokémon. Échangez ce Pokémon avec 1 de vos Pokémon de Banc.",
+			},
+
+		},
+		{
+			cost: [
+				"Fighting",
+				"Colorless",
+				"Colorless",
+			],
+			name: {
+				'en-us': "Karate Chop",
+				'fr-fr': "Poing-Karaté",
+			},
+			effect: {
+				'en-us': "Does 70 damage minus 10 damage for each damage counter on this Pokémon.",
+				'fr-fr': "Inflige 70 dégâts moins 10 dégâts pour chaque marqueur de dégâts placé sur ce Pokémon.",
+			},
+			damage: 70,
+
+		},
+	],
+
+	weaknesses: [
+		{
+			type: "Psychic",
+			value: "×2"
+		},
+	],
+
+	retreat: 1,
+
+	description: {
+		'en-us': "Tying their belts gets them pumped and makes their punches more destructive. Disturbing their training angers them.",
+	},
+
+	thirdParty: {
+		cardmarket: 280508,
+		tcgplayer: 88939
+	}
+}
+
+export default card
