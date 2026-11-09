@@ -41,27 +41,29 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Fire", "Fire"],
-
 		name: {
 			ja: "バーニングダーク",
 			'zh-tw': "燃燒黑暗",
 			id: "Burning Dark"
 		},
 
-		damage: "180+",
-
 		effect: {
 			ja: "相手がすでにとったサイドの枚数×30ダメージ追加。",
 			'zh-tw': "增加對手已經獲得的獎賞卡的張數×30點傷害。",
 			id: "Kerusakan yang diberikan bertambah sejumlah 30 untuk tiap lembar Kartu Point yang telah diambil lawan."
-		}
+		},
+
+		damage: "180+",
+		cost: ["Fire", "Fire"]
 	}],
 
 	weaknesses: [{
 		type: "Grass",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -72,10 +74,7 @@ const card: Card = {
 				cardtrader: 270336,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -26,15 +26,14 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Psychic", "Colorless"],
-
 		name: {
 			ja: "サイコショット",
 			'zh-tw': "精神射擊",
 			id: "Psyshot"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Psychic", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -47,6 +46,9 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
@@ -56,10 +58,7 @@ const card: Card = {
 				cardtrader: 270265,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

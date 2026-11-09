@@ -46,21 +46,23 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "よだれ",
 			'zh-tw': "口水",
 			id: "Liur"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -71,10 +73,7 @@ const card: Card = {
 				cardtrader: 270192,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

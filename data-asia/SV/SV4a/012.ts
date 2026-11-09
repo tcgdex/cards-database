@@ -28,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Grass"],
-
 		name: {
 			ja: "ひざしをあつめる",
 			'zh-tw': "集光",
@@ -42,10 +40,9 @@ const card: Card = {
 			'zh-tw': "從自己的牌庫選擇最多2張基本能量卡，在給對手看過後加入手牌。並且重洗牌庫。",
 			th: "เลือกการ์ดพลังงานพื้นฐานได้สูงสุด 2 ใบจากสำรับการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู นำขึ้นมือ แล้วสับสำรับการ์ด",
 			id: "Pilih paling banyak 2 lembar Energi Dasar dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
-		}
+		},
+		cost: ["Grass"]
 	}, {
-		cost: ["Grass"],
-
 		name: {
 			ja: "タネばくだん",
 			'zh-tw': "種子炸彈",
@@ -53,13 +50,17 @@ const card: Card = {
 			id: "Bom Benih"
 		},
 
-		damage: 10
+		damage: 10,
+		cost: ["Grass"]
 	}],
 
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -76,10 +77,7 @@ const card: Card = {
 				tcgplayer: 577301,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

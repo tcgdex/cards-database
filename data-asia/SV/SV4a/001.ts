@@ -28,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "はっぱカッター",
 			'zh-tw': "飛葉快刀",
@@ -37,13 +35,17 @@ const card: Card = {
 			id: "Daun Pemotong"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -60,10 +62,7 @@ const card: Card = {
 				tcgplayer: 577294,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

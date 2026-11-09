@@ -26,8 +26,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "ねむる",
 			'zh-tw': "睡覺",
@@ -38,23 +36,26 @@ const card: Card = {
 			ja: "このポケモンをねむりにする。このポケモンのHPを「30」回復する。",
 			'zh-tw': "將這隻寶可夢【睡眠】。將這隻寶可夢恢復「30」HP。",
 			id: "Ubah kondisi Pokémon ini menjadi Tidur. Pulihkan HP Pokémon ini sejumlah 30."
-		}
+		},
+		cost: ["Colorless"]
 	}, {
-		cost: ["Water", "Colorless"],
-
 		name: {
 			ja: "ずつき",
 			'zh-tw': "頭錘",
 			id: "Tandukan Kepala"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Water", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Lightning",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -65,10 +66,7 @@ const card: Card = {
 				cardtrader: 270206,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

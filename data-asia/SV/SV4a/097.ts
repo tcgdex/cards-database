@@ -28,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Psychic"],
-
 		name: {
 			ja: "おはかであそぶ",
 			'zh-tw': "墓地遊玩",
@@ -37,14 +35,15 @@ const card: Card = {
 			id: "Main di Kuburan"
 		},
 
-		damage: "10×",
-
 		effect: {
 			ja: "自分のトラッシュにある{P}ポケモンの枚数×10ダメージ。",
 			'zh-tw': "造成自己的棄牌區的【超】寶可夢卡的張數×10點傷害。",
 			th: "แดเมจจะเท่ากับจำนวนการ์ดโปเกมอน[พลังจิต]ที่อยู่บนตำแหน่งทิ้งการ์ดฝ่ายเรา x10",
 			id: "Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lembar Pokémon {Psychic} yang ada di Trash sendiri."
-		}
+		},
+
+		damage: "10×",
+		cost: ["Psychic"]
 	}],
 
 	weaknesses: [{
@@ -56,6 +55,9 @@ const card: Card = {
 		type: "Fighting",
 		value: "-30"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -72,10 +74,7 @@ const card: Card = {
 				tcgplayer: 577350,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

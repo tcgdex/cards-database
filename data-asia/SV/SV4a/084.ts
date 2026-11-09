@@ -32,8 +32,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "かぜおこし",
 			'zh-tw': "起風",
@@ -41,10 +39,9 @@ const card: Card = {
 			id: "Hembusan Angin"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Colorless", "Colorless"]
 	}, {
-		cost: ["Psychic", "Psychic", "Psychic"],
-
 		name: {
 			ja: "のろいをばらまく",
 			'zh-tw': "散佈詛咒",
@@ -57,7 +54,8 @@ const card: Card = {
 			'zh-tw': "將8個傷害指示物以任意方式放置於對手的寶可夢身上。",
 			th: "วางตัวนับแดเมจ 8 ตัว บนโปเกมอนฝ่ายตรงข้ามตามชอบ",
 			id: "Letakkan sejumlah 8 Token Kerusakan pada Pokémon lawan sesukanya."
-		}
+		},
+		cost: ["Psychic", "Psychic", "Psychic"]
 	}],
 
 	weaknesses: [{
@@ -69,6 +67,9 @@ const card: Card = {
 		type: "Fighting",
 		value: "-30"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -85,10 +86,7 @@ const card: Card = {
 				tcgplayer: 577343,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

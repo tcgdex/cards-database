@@ -41,27 +41,29 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Colorless", "Colorless", "Colorless"],
-
 		name: {
 			ja: "フレンドタックル",
 			'zh-tw': "朋友衝撞",
 			id: "Friend Tackle"
 		},
 
-		damage: "90+",
-
 		effect: {
 			ja: "この番、手札からサポートを出して使っていたなら、90ダメージ追加。",
 			'zh-tw': "在這個回合，若從手牌使出了支援者卡，則增加90點傷害。",
 			id: "Jika pada giliran ini, Supporter telah dimainkan dari Kartu Pegangan, kerusakan yang diberikan bertambah sejumlah 90."
-		}
+		},
+
+		damage: "90+",
+		cost: ["Colorless", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"
 	}],
+
+	retreat: 3,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -72,10 +74,7 @@ const card: Card = {
 				cardtrader: 270343,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

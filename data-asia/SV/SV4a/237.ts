@@ -46,27 +46,29 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Lightning", "Lightning", "Colorless"],
-
 		name: {
 			ja: "かみなり",
 			'zh-tw': "打雷",
 			id: "Guntur"
 		},
 
-		damage: 180,
-
 		effect: {
 			ja: "このポケモンにも50ダメージ。",
 			'zh-tw': "這隻寶可夢也受到50點傷害。",
 			id: "Pokémon ini juga menerima kerusakan sejumlah 50."
-		}
+		},
+
+		damage: 180,
+		cost: ["Lightning", "Lightning", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -77,10 +79,7 @@ const card: Card = {
 				cardtrader: 270200,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -26,37 +26,38 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Fighting"],
-
 		name: {
 			ja: "パンチ",
 			'zh-tw': "出拳",
 			id: "Pukulan"
 		},
 
-		damage: 10
+		damage: 10,
+		cost: ["Fighting"]
 	}, {
-		cost: ["Fighting", "Colorless"],
-
 		name: {
 			ja: "とつげき",
 			'zh-tw': "突擊",
 			id: "Menyerang"
 		},
 
-		damage: 50,
-
 		effect: {
 			ja: "このポケモンにも20ダメージ。",
 			'zh-tw': "這隻寶可夢也受到20點傷害。",
 			id: "Pokémon ini juga menerima kerusakan sejumlah 20."
-		}
+		},
+
+		damage: 50,
+		cost: ["Fighting", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Psychic",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -67,10 +68,7 @@ const card: Card = {
 				cardtrader: 270237,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -26,8 +26,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Water"],
-
 		name: {
 			ja: "したじゅんび",
 			'zh-tw': "預先準備",
@@ -38,29 +36,32 @@ const card: Card = {
 			ja: "自分の山札から「基本{W}エネルギー」を2枚まで選び、自分のたねポケモン1匹につける。そして山札を切る。",
 			'zh-tw': "從自己的牌庫選擇最多2張「基本【水】能量」卡，附於自己的1隻【基礎】寶可夢身上。並且重洗牌庫。",
 			id: "Pilih paling banyak 2 lembar Energi Dasar {Air} dari Deck sendiri, lalu kenakan pada 1 Pokémon Basic sendiri. Kemudian, kocok Deck."
-		}
+		},
+		cost: ["Water"]
 	}, {
-		cost: ["Water"],
-
 		name: {
 			ja: "そりかえる",
 			'zh-tw': "彎曲",
 			id: "Menekuk Balik"
 		},
 
-		damage: 30,
-
 		effect: {
 			ja: "このポケモンと、ついているすべてのカードを、手札にもどす。",
 			'zh-tw': "將這隻寶可夢與附加的卡，全部放回手牌。",
 			id: "Kembalikan Pokémon ini dan semua kartu yang dikenakannya ke Kartu Pegangan."
-		}
+		},
+
+		damage: 30,
+		cost: ["Water"]
 	}],
 
 	weaknesses: [{
 		type: "Lightning",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -71,10 +72,7 @@ const card: Card = {
 				cardtrader: 270224,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

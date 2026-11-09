@@ -26,8 +26,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "ふかす",
 			'zh-tw': "引擎全開",
@@ -38,17 +36,17 @@ const card: Card = {
 			ja: "自分のトラッシュから基本エネルギーを2枚まで選び、相手に見せて、手札に加える。",
 			'zh-tw': "從自己的棄牌區選擇最多2張基本能量卡，在給對手看過後加入手牌。",
 			id: "Pilih paling banyak 2 lembar Energi Dasar dari Trash sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan."
-		}
+		},
+		cost: ["Colorless"]
 	}, {
-		cost: ["Metal", "Colorless"],
-
 		name: {
 			ja: "ずつき",
 			'zh-tw': "頭錘",
 			id: "Tandukan Kepala"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Metal", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -61,6 +59,9 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
@@ -70,10 +71,7 @@ const card: Card = {
 				cardtrader: 270293,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -46,21 +46,20 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Metal", "Colorless", "Colorless", "Colorless"],
-
 		name: {
 			ja: "はねとばす",
 			'zh-tw': "擊飛",
 			id: "Menghempaskan"
 		},
 
-		damage: "90+",
-
 		effect: {
 			ja: "コインを1回投げオモテなら、90ダメージ追加。",
 			'zh-tw': "擲1次硬幣若為正面，則增加90點傷害。",
 			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 90."
-		}
+		},
+
+		damage: "90+",
+		cost: ["Metal", "Colorless", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -73,6 +72,9 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
@@ -82,10 +84,7 @@ const card: Card = {
 				cardtrader: 270366,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

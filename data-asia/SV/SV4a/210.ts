@@ -26,8 +26,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Fire"],
-
 		name: {
 			ja: "まるやけ",
 			'zh-tw': "全部燒光",
@@ -38,23 +36,26 @@ const card: Card = {
 			ja: "場に出ているスタジアムをトラッシュする。",
 			'zh-tw': "將場上的競技場卡丟棄。",
 			id: "Buang Stadium yang ada di Arena ke Trash."
-		}
+		},
+		cost: ["Fire"]
 	}, {
-		cost: ["Fire", "Fire"],
-
 		name: {
 			ja: "ひをはく",
 			'zh-tw': "吐火",
 			id: "Memuntahkan Api"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Fire", "Fire"]
 	}],
 
 	weaknesses: [{
 		type: "Water",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -65,10 +66,7 @@ const card: Card = {
 				cardtrader: 270189,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

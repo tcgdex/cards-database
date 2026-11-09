@@ -32,8 +32,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Darkness"],
-
 		name: {
 			ja: "ダークカッター",
 			'zh-tw': "暗黑利刃",
@@ -41,10 +39,9 @@ const card: Card = {
 			id: "Kegelapan Pemotong"
 		},
 
-		damage: 40
+		damage: 40,
+		cost: ["Darkness"]
 	}, {
-		cost: ["Darkness", "Colorless"],
-
 		name: {
 			ja: "もろはぎり",
 			'zh-tw': "雙刃斬",
@@ -52,20 +49,24 @@ const card: Card = {
 			id: "Sabetan Luka Bersama"
 		},
 
-		damage: 120,
-
 		effect: {
 			ja: "このポケモンにも30ダメージ。",
 			'zh-tw': "這隻寶可夢也受到30點傷害。",
 			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 30 ด้วย",
 			id: "Pokémon ini juga menerima kerusakan sejumlah 30."
-		}
+		},
+
+		damage: 120,
+		cost: ["Darkness", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Grass",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -82,10 +83,7 @@ const card: Card = {
 				tcgplayer: 577364,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -44,8 +44,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Fire", "Fire"],
-
 		name: {
 			ja: "バーニングダーク",
 			'zh-tw': "燃燒黑暗",
@@ -60,13 +58,17 @@ const card: Card = {
 			id: "Kerusakan yang diberikan bertambah sejumlah 30 untuk tiap lembar Kartu Point yang telah diambil lawan."
 		},
 
-		damage: "180+"
+		damage: "180+",
+		cost: ["Fire", "Fire"]
 	}],
 
 	weaknesses: [{
 		type: "Grass",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -77,10 +79,7 @@ const card: Card = {
 				cardtrader: 269719,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

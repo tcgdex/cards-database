@@ -44,8 +44,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Psychic", "Psychic", "Colorless"],
-
 		name: {
 			ja: "ミラクルフォース",
 			'zh-tw': "奇跡之力",
@@ -53,14 +51,15 @@ const card: Card = {
 			id: "Miracle Force"
 		},
 
-		damage: 190,
-
 		effect: {
 			ja: "このポケモンの特殊状態を、すべて回復する。",
 			'zh-tw': "將這隻寶可夢的特殊狀態全部恢復。",
 			th: "รักษาสภาวะผิดปกติทั้งหมดของโปเกมอนนี้",
 			id: "Pulihkan semua Kondisi Khusus yang dialami Pokémon ini."
-		}
+		},
+
+		damage: 190,
+		cost: ["Psychic", "Psychic", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -73,6 +72,9 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
@@ -82,10 +84,7 @@ const card: Card = {
 				cardtrader: 269706,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

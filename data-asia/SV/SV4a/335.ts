@@ -41,21 +41,20 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "ふきすさぶ",
 			'zh-tw': "狂風呼嘯",
 			id: "Angin Menderu"
 		},
 
-		damage: 120,
-
 		effect: {
 			ja: "のぞむなら、場に出ているスタジアムをトラッシュする。",
 			'zh-tw': "若希望，將場上的競技場卡丟棄。",
 			id: "Pemain dapat membuang Stadium yang ada di Arena ke Trash."
-		}
+		},
+
+		damage: 120,
+		cost: ["Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -68,6 +67,9 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 0,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
@@ -77,10 +79,7 @@ const card: Card = {
 				cardtrader: 270344,
 			},
 		},
-	],
-
-	retreat: 0,
-	regulationMark: "G"
+	]
 }
 
 export default card

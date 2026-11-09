@@ -22,6 +22,8 @@ const card: Card = {
 	},
 
 	energyType: "Special",
+
+	regulationMark: "G",
 	variants: [
 		{
 			type: "normal",
@@ -37,9 +39,7 @@ const card: Card = {
 				tcgplayer: 577415,
 			},
 		},
-	],
-
-	regulationMark: "G"
+	]
 }
 
 export default card

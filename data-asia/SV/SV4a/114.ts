@@ -39,8 +39,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Fighting", "Fighting", "Colorless"],
-
 		name: {
 			ja: "ワイルドインパクト",
 			'zh-tw': "瘋狂衝擊",
@@ -48,20 +46,24 @@ const card: Card = {
 			id: "Wild Impact"
 		},
 
-		damage: 220,
-
 		effect: {
 			ja: "次の自分の番、このポケモンはワザが使えない。",
 			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
 			th: "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ท่าต่อสู้ไม่ได้",
 			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
-		}
+		},
+
+		damage: 220,
+		cost: ["Fighting", "Fighting", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Psychic",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -72,10 +74,7 @@ const card: Card = {
 				cardtrader: 269730,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

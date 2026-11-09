@@ -32,8 +32,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Water"],
-
 		name: {
 			ja: "みずでっぽう",
 			'zh-tw': "水槍",
@@ -41,10 +39,9 @@ const card: Card = {
 			id: "Pistol Air"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Water"]
 	}, {
-		cost: ["Water", "Colorless"],
-
 		name: {
 			ja: "スプラッシュ",
 			'zh-tw': "飛濺",
@@ -52,13 +49,17 @@ const card: Card = {
 			id: "Splash"
 		},
 
-		damage: 50
+		damage: 50,
+		cost: ["Water", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Lightning",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -75,10 +76,7 @@ const card: Card = {
 				tcgplayer: 577318,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

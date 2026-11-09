@@ -44,8 +44,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Fighting", "Fighting"],
-
 		name: {
 			ja: "ポイズンジェム",
 			'zh-tw': "猛毒寶石",
@@ -53,20 +51,24 @@ const card: Card = {
 			id: "Poison Gem"
 		},
 
-		damage: 140,
-
 		effect: {
 			ja: "相手のバトルポケモンをどくにする。",
 			'zh-tw': "將對手的戰鬥寶可夢【中毒】。",
 			th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[พิษ]",
 			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Racun."
-		}
+		},
+
+		damage: 140,
+		cost: ["Fighting", "Fighting"]
 	}],
 
 	weaknesses: [{
 		type: "Grass",
 		value: "×2"
 	}],
+
+	retreat: 3,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -77,10 +79,7 @@ const card: Card = {
 				cardtrader: 269734,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

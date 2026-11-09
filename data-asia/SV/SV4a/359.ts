@@ -30,23 +30,24 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Fighting", "Fighting", "Fighting"],
-
 		name: {
 			ja: "ランドスクープ"
 		},
 
-		damage: 150,
-
 		effect: {
 			ja: "相手のベンチポケモン1匹に、ダメカンを2個のせる。"
-		}
+		},
+
+		damage: 150,
+		cost: ["Fighting", "Fighting", "Fighting"]
 	}],
 
 	weaknesses: [{
 		type: "Grass",
 		value: "×2"
 	}],
+
+	retreat: 4,
 
 	regulationMark: "G",
 	variants: [
@@ -58,9 +59,7 @@ const card: Card = {
 				cardtrader: 270329,
 			},
 		},
-	],
-
-	retreat: 4
+	]
 }
 
 export default card

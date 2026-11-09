@@ -39,8 +39,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
-
 		name: {
 			ja: "グレートバッシュ",
 			'zh-tw': "偉大猛擊",
@@ -48,20 +46,24 @@ const card: Card = {
 			id: "Great Bash"
 		},
 
-		damage: 260,
-
 		effect: {
 			ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 			'zh-tw': "這個招式的傷害不計算對手的戰鬥寶可夢身上的附加效果。",
 			th: "แดเมจของท่าต่อสู้นี้ จะไม่นำเอฟเฟกต์ที่มีผลอยู่กับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามมาคิด",
 			id: "Kerusakan akibat serangan ini tidak terpengaruh oleh efek yang sedang dialami Pokémon Bertarung lawan."
-		}
+		},
+
+		damage: 260,
+		cost: ["Fighting", "Colorless", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Psychic",
 		value: "×2"
 	}],
+
+	retreat: 4,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -72,10 +74,7 @@ const card: Card = {
 				cardtrader: 269727,
 			},
 		},
-	],
-
-	retreat: 4,
-	regulationMark: "G"
+	]
 }
 
 export default card

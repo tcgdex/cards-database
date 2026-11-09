@@ -50,8 +50,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "よだれ",
 			'zh-tw': "口水",
@@ -59,13 +57,17 @@ const card: Card = {
 			id: "Liur"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -82,10 +84,7 @@ const card: Card = {
 				tcgplayer: 577295,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

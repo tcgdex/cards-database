@@ -41,27 +41,29 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Grass", "Grass"],
-
 		name: {
 			ja: "ガードプレス",
 			'zh-tw': "防守壓制",
 			id: "Guard Press"
 		},
 
-		damage: 120,
-
 		effect: {
 			ja: "次の相手の番、このポケモンが受けるワザのダメージは「-30」される。",
 			'zh-tw': "在下個對手的回合，這隻寶可夢受到招式的傷害「-30」點。",
 			id: "Pada giliran lawan berikutnya, kerusakan akibat serangan yang diterima Pokémon ini berkurang sejumlah 30."
-		}
+		},
+
+		damage: 120,
+		cost: ["Grass", "Grass"]
 	}],
 
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"
 	}],
+
+	retreat: 3,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -72,10 +74,7 @@ const card: Card = {
 				cardtrader: 270377,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -26,22 +26,24 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Grass", "Darkness", "Colorless"],
-
 		name: {
 			ja: "こうそくドライブ",
 			'zh-tw': "高速猛衝",
 			id: "Berkendara Berkecepatan Tinggi"
 		},
 
-		damage: 100,
-
 		effect: {
 			ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
 			'zh-tw': "擲1次硬幣若為正面，則在下個對手的回合，這隻寶可夢不會受到招式的傷害與效果的影響。",
 			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, pada giliran lawan berikutnya, Pokémon ini tidak menerima kerusakan dan efek akibat serangan."
-		}
+		},
+
+		damage: 100,
+		cost: ["Grass", "Darkness", "Colorless"]
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -53,9 +55,6 @@ const card: Card = {
 			},
 		},
 	],
-
-	retreat: 1,
-	regulationMark: "G",
 }
 
 export default card

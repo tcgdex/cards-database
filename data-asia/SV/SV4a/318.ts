@@ -30,37 +30,38 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "ビンタ",
 			'zh-tw': "巴掌",
 			id: "Menampar"
 		},
 
-		damage: 40
+		damage: 40,
+		cost: ["Colorless"]
 	}, {
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "ファミリーアタック",
 			'zh-tw': "家族攻擊",
 			id: "Family Attack"
 		},
 
-		damage: "70×",
-
 		effect: {
 			ja: "自分の場の「イッカネズミ」の数×70ダメージ。",
 			'zh-tw': "造成自己的場上的「一家鼠」的數量×70點傷害。",
 			id: "Serangan ini memberikan kerusakan sejumlah 70 untuk tiap Maushold di Arena sendiri."
-		}
+		},
+
+		damage: "70×",
+		cost: ["Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -71,10 +72,7 @@ const card: Card = {
 				cardtrader: 270383,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

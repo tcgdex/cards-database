@@ -23,6 +23,8 @@ const card: Card = {
 		id: 'Pokémon yang mengenakan kartu ini dapat menggunakan serangan yang tertulis pada kartu ini. [Pemain tetap membutuhkan Energi untuk menggunakan serangan tersebut.] Kartu ini yang dikenakan pada Pokémon dibuang ke Trash pada akhir giliran sendiri.'
 	},
 
+	trainerType: 'Tool',
+
 	attacks: [
 		{
 			name: {
@@ -37,6 +39,7 @@ const card: Card = {
 			cost: ['Colorless', 'Colorless', 'Colorless']
 		}
 	],
+	regulationMark: 'G',
 
 	variants: [
 		{
@@ -53,10 +56,7 @@ const card: Card = {
 				tcgplayer: 577401
 			}
 		}
-	],
-
-	trainerType: 'Tool',
-	regulationMark: 'G'
+	]
 }
 
 export default card

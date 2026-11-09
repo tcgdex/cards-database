@@ -26,27 +26,29 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Lightning"],
-
 		name: {
 			ja: "けりつける",
 			'zh-tw': "踹",
 			id: "Menyepak"
 		},
 
-		damage: 30,
-
 		effect: {
 			ja: "コインを1回投げウラなら、このワザは失敗。",
 			'zh-tw': "擲1次硬幣若為反面，則這個招式失敗。",
 			id: "Lempar koin 1 kali. Jika hasilnya sisi belakang, serangan ini gagal."
-		}
+		},
+
+		damage: 30,
+		cost: ["Lightning"]
 	}],
 
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -57,10 +59,7 @@ const card: Card = {
 				cardtrader: 270216,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

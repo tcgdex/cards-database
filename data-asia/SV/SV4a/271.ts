@@ -26,8 +26,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "てつクズひろい",
 			'zh-tw': "撿鐵屑",
@@ -38,23 +36,26 @@ const card: Card = {
 			ja: "自分のトラッシュからグッズを1枚選び、相手に見せて、手札に加える。",
 			'zh-tw': "從自己的棄牌區選擇1張物品卡，在給對手看過後加入手牌。",
 			id: "Pilih 1 lembar Item dari Trash sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan."
-		}
+		},
+		cost: ["Colorless"]
 	}, {
-		cost: ["Psychic", "Colorless", "Colorless"],
-
 		name: {
 			ja: "ようせいのかぜ",
 			'zh-tw': "妖精之風",
 			id: "Angin Peri"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Psychic", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Metal",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -65,10 +66,7 @@ const card: Card = {
 				cardtrader: 270251,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -26,8 +26,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Water"],
-
 		name: {
 			ja: "もってくる",
 			'zh-tw': "呼喚",
@@ -38,23 +36,26 @@ const card: Card = {
 			ja: "自分の山札を1枚引く。",
 			'zh-tw': "從自己的牌庫抽出1張卡。",
 			id: "Ambil 1 kartu dari atas Deck sendiri."
-		}
+		},
+		cost: ["Water"]
 	}, {
-		cost: ["Water", "Colorless"],
-
 		name: {
 			ja: "たたく",
 			'zh-tw': "敲擊",
 			id: "Menghantam"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Water", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Metal",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -65,10 +66,7 @@ const card: Card = {
 				cardtrader: 270219,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

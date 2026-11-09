@@ -46,27 +46,29 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Grass", "Colorless", "Colorless"],
-
 		name: {
 			ja: "スパイシーヘッド",
 			'zh-tw': "香料頭擊",
 			id: "Spicy Head"
 		},
 
-		damage: 110,
-
 		effect: {
 			ja: "このワザのダメージは抵抗力を計算しない。",
 			'zh-tw': "這個招式的傷害不計算抵抗力。",
 			id: "Kerusakan akibat serangan ini tidak terpengaruh oleh Resistansi."
-		}
+		},
+
+		damage: 110,
+		cost: ["Grass", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -77,10 +79,7 @@ const card: Card = {
 				cardtrader: 270182,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

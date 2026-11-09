@@ -46,21 +46,23 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Fire", "Fire"],
-
 		name: {
 			ja: "かえん",
 			'zh-tw': "烈焰",
 			id: "Lidah Api"
 		},
 
-		damage: 50
+		damage: 50,
+		cost: ["Fire", "Fire"]
 	}],
 
 	weaknesses: [{
 		type: "Water",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -71,10 +73,7 @@ const card: Card = {
 				cardtrader: 270197,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

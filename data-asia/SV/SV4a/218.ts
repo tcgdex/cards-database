@@ -46,27 +46,29 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Fire", "Fire", "Colorless"],
-
 		name: {
 			ja: "フレイムキャノン",
 			'zh-tw': "火焰加農炮",
 			id: "Flame Cannon"
 		},
 
-		damage: 90,
-
 		effect: {
 			ja: "相手のバトルポケモンをやけどにする。",
 			'zh-tw': "將對手的戰鬥寶可夢【灼傷】。",
 			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Luka Bakar."
-		}
+		},
+
+		damage: 90,
+		cost: ["Fire", "Fire", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Water",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -77,10 +79,7 @@ const card: Card = {
 				cardtrader: 270207,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

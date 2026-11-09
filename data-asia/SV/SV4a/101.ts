@@ -32,8 +32,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Fighting"],
-
 		name: {
 			ja: "あばれパンチ",
 			'zh-tw': "暴亂拳",
@@ -41,20 +39,24 @@ const card: Card = {
 			id: "Pukulan Mengamuk"
 		},
 
-		damage: 70,
-
 		effect: {
 			ja: "このポケモンにも20ダメージ。",
 			'zh-tw': "這隻寶可夢也受到20點傷害。",
 			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 20 ด้วย",
 			id: "Pokémon ini juga menerima kerusakan sejumlah 20."
-		}
+		},
+
+		damage: 70,
+		cost: ["Fighting"]
 	}],
 
 	weaknesses: [{
 		type: "Psychic",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -71,10 +73,7 @@ const card: Card = {
 				tcgplayer: 577353,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

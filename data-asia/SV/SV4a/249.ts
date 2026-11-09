@@ -46,27 +46,29 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Lightning", "Lightning", "Colorless"],
-
 		name: {
 			ja: "エレクトロパウ",
 			'zh-tw': "電子肉球",
 			id: "Electro Paw"
 		},
 
-		damage: 230,
-
 		effect: {
 			ja: "このポケモンについているエネルギーを、すべてトラッシュする。",
 			'zh-tw': "將這隻寶可夢身上附加的能量卡全部丟棄。",
 			id: "Buang semua Energi yang dikenakan pada Pokémon ini ke Trash."
-		}
+		},
+
+		damage: 230,
+		cost: ["Lightning", "Lightning", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"
 	}],
+
+	retreat: 0,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -77,10 +79,7 @@ const card: Card = {
 				cardtrader: 270274,
 			},
 		},
-	],
-
-	retreat: 0,
-	regulationMark: "G"
+	]
 }
 
 export default card

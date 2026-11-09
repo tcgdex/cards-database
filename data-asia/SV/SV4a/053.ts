@@ -50,8 +50,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Water", "Water", "Colorless"],
-
 		name: {
 			ja: "バスターテール",
 			'zh-tw': "光炮尾",
@@ -59,13 +57,17 @@ const card: Card = {
 			id: "Buster Tail"
 		},
 
-		damage: 130
+		damage: 130,
+		cost: ["Water", "Water", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Metal",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -76,10 +78,7 @@ const card: Card = {
 				cardtrader: 269658,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

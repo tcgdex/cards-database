@@ -50,8 +50,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Water", "Colorless"],
-
 		name: {
 			ja: "スピードアタック",
 			'zh-tw': "高速攻擊",
@@ -59,13 +57,17 @@ const card: Card = {
 			id: "Speed Attack"
 		},
 
-		damage: 50
+		damage: 50,
+		cost: ["Water", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Lightning",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -76,10 +78,7 @@ const card: Card = {
 				cardtrader: 269607,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

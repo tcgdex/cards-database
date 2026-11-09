@@ -32,8 +32,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Psychic", "Psychic"],
-
 		name: {
 			ja: "おはかまいり",
 			'zh-tw': "掃墓",
@@ -41,14 +39,15 @@ const card: Card = {
 			id: "Berkabung"
 		},
 
-		damage: "80+",
-
 		effect: {
 			ja: "自分のトラッシュにある{P}ポケモンの枚数×10ダメージ追加。",
 			'zh-tw': "增加自己的棄牌區的【超】寶可夢卡的張數×10點傷害。",
 			th: "แดเมจจะเพิ่มตามจำนวนการ์ดโปเกมอน[พลังจิต]ที่อยู่บนตำแหน่งทิ้งการ์ดฝ่ายเรา x10",
 			id: "Kerusakan yang diberikan bertambah sejumlah 10 untuk tiap lembar Pokémon {Psychic} yang ada di Trash sendiri."
-		}
+		},
+
+		damage: "80+",
+		cost: ["Psychic", "Psychic"]
 	}],
 
 	weaknesses: [{
@@ -61,6 +60,9 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 3,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
@@ -70,10 +72,7 @@ const card: Card = {
 				cardtrader: 269675,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

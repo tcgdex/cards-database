@@ -26,8 +26,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Grass"],
-
 		name: {
 			ja: "えいようそ",
 			'zh-tw': "營養素",
@@ -38,23 +36,26 @@ const card: Card = {
 			ja: "自分のポケモン1匹のHPを「30」回復する。",
 			'zh-tw': "將自己的1隻寶可夢恢復「30」HP。",
 			id: "Pulihkan HP 1 Pokémon sendiri sejumlah 30."
-		}
+		},
+		cost: ["Grass"]
 	}, {
-		cost: ["Grass", "Colorless"],
-
 		name: {
 			ja: "しるをとばす",
 			'zh-tw': "噴汁",
 			id: "Menyemprotkan Getah"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Grass", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -65,10 +66,7 @@ const card: Card = {
 				cardtrader: 270190,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -61,6 +61,9 @@ const card: Card = {
 		}
 	],
 
+	retreat: 0,
+	regulationMark: 'G',
+
 	variants: [
 		{
 			type: 'normal',
@@ -76,10 +79,7 @@ const card: Card = {
 				tcgplayer: 577344
 			}
 		}
-	],
-
-	retreat: 0,
-	regulationMark: 'G'
+	]
 }
 
 export default card

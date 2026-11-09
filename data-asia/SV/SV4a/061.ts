@@ -50,8 +50,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Lightning", "Colorless", "Colorless"],
-
 		name: {
 			ja: "ワイルドボルト",
 			'zh-tw': "瘋狂伏特",
@@ -59,20 +57,24 @@ const card: Card = {
 			id: "Wild Volt"
 		},
 
-		damage: 180,
-
 		effect: {
 			ja: "このポケモンにも20ダメージ。",
 			'zh-tw': "這隻寶可夢也受到20點傷害。",
 			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 20 ด้วย",
 			id: "Pokémon ini juga menerima kerusakan sejumlah 20."
-		}
+		},
+
+		damage: 180,
+		cost: ["Lightning", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -83,10 +85,7 @@ const card: Card = {
 				cardtrader: 269649,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

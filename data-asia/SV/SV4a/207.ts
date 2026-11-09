@@ -26,8 +26,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "からくなる",
 			'zh-tw': "變辣",
@@ -38,23 +36,26 @@ const card: Card = {
 			ja: "自分の山札から「基本{R}エネルギー」を1枚選び、このポケモンにつける。そして山札を切る。",
 			'zh-tw': "從自己的牌庫選擇1張「基本【火】能量」卡，附於這隻寶可夢身上。並且重洗牌庫。",
 			id: "Pilih 1 lembar Energi Dasar {Api} dari Deck sendiri, lalu kenakan pada Pokémon ini. Kemudian, kocok Deck."
-		}
+		},
+		cost: ["Colorless"]
 	}, {
-		cost: ["Grass", "Colorless", "Colorless"],
-
 		name: {
 			ja: "やんちゃげり",
 			'zh-tw': "調皮踢",
 			id: "Tendangan Nakal"
 		},
 
-		damage: 50
+		damage: 50,
+		cost: ["Grass", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -65,10 +66,7 @@ const card: Card = {
 				cardtrader: 270183,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

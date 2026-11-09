@@ -39,8 +39,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Water", "Water"],
-
 		name: {
 			ja: "ヘイルブレード",
 			'zh-tw': "冰雹利刃",
@@ -48,20 +46,24 @@ const card: Card = {
 			id: "Hail Blade"
 		},
 
-		damage: "60×",
-
 		effect: {
 			ja: "自分の場のポケモンについている{W}エネルギーを好きなだけトラッシュし、その枚数×60ダメージ。",
 			'zh-tw': "將自己的場上寶可夢身上附加的任意數量的【水】能量卡丟棄，造成其張數×60點傷害。",
 			th: "ทิ้งพลังงาน[น้ำ]ที่ติดอยู่กับโปเกมอนบนกระดานฝ่ายเราตามจำนวนที่ชอบที่ตำแหน่งทิ้งการ์ด แดเมจจะเท่ากับจำนวนการ์ดนั้น x60",
 			id: "Buang sesukanya Energi {Air} yang dikenakan pada Pokémon di Arena sendiri ke Trash, serangan ini memberikan kerusakan sejumlah 60 untuk tiap lembarnya."
-		}
+		},
+
+		damage: "60×",
+		cost: ["Water", "Water"]
 	}],
 
 	weaknesses: [{
 		type: "Metal",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -72,10 +74,7 @@ const card: Card = {
 				cardtrader: 269670,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

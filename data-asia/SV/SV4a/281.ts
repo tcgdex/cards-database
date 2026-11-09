@@ -30,43 +30,44 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Fighting"],
-
 		name: {
 			ja: "アベンジナックル",
 			'zh-tw': "復仇關節",
 			id: "Avenge Knuckle"
 		},
 
-		damage: "30+",
-
 		effect: {
 			ja: "前の相手の番に、ワザのダメージで、自分の{F}ポケモンがきぜつしていたなら、120ダメージ追加。",
 			'zh-tw': "在上個對手的回合，若自己的【鬥】寶可夢因招式的傷害而【昏厥】了，則增加120點傷害。",
 			id: "Jika pada giliran lawan sebelumnya, ada Pokémon {Petarung} sendiri yang KO karena kerusakan akibat serangan, kerusakan yang diberikan bertambah sejumlah 120."
-		}
-	}, {
-		cost: ["Fighting", "Colorless", "Colorless"],
+		},
 
+		damage: "30+",
+		cost: ["Fighting"]
+	}, {
 		name: {
 			ja: "かそくづき",
 			'zh-tw': "加速突刺",
 			id: "Tusukan Akselerasi"
 		},
 
-		damage: 120,
-
 		effect: {
 			ja: "次の自分の番、このポケモンは「かそくづき」が使えない。",
 			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用「加速突刺」。",
 			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan Tusukan Akselerasi."
-		}
+		},
+
+		damage: 120,
+		cost: ["Fighting", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Psychic",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -77,10 +78,7 @@ const card: Card = {
 				cardtrader: 270325,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

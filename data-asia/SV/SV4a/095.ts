@@ -32,8 +32,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "じゃれつく",
 			'zh-tw': "嬉鬧",
@@ -41,17 +39,16 @@ const card: Card = {
 			id: "Main Kasar"
 		},
 
-		damage: "30+",
-
 		effect: {
 			ja: "コインを1回投げオモテなら、30ダメージ追加。",
 			'zh-tw': "擲1次硬幣若為正面，則增加30點傷害。",
 			th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว การโจมตีนี้จะเพิ่มแดเมจอีก 30",
 			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 30."
-		}
-	}, {
-		cost: ["Psychic", "Colorless", "Colorless"],
+		},
 
+		damage: "30+",
+		cost: ["Colorless", "Colorless"]
+	}, {
 		name: {
 			ja: "ふんさいプレス",
 			'zh-tw': "粉碎壓制",
@@ -59,20 +56,24 @@ const card: Card = {
 			id: "Tekanan Demolisi"
 		},
 
-		damage: 60,
-
 		effect: {
 			ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 			'zh-tw': "這個招式的傷害不計算對手的戰鬥寶可夢身上的附加效果。",
 			th: "แดเมจของท่าต่อสู้นี้ จะไม่นำเอฟเฟกต์ที่มีผลอยู่กับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามมาคิด",
 			id: "Kerusakan akibat serangan ini tidak terpengaruh oleh efek yang sedang dialami Pokémon Bertarung lawan."
-		}
+		},
+
+		damage: 60,
+		cost: ["Psychic", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Metal",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -89,10 +90,7 @@ const card: Card = {
 				tcgplayer: 577349,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

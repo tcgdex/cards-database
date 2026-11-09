@@ -32,8 +32,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Fire"],
-
 		name: {
 			ja: "ひをはく",
 			'zh-tw': "吐火",
@@ -41,10 +39,9 @@ const card: Card = {
 			id: "Memuntahkan Api"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Fire"]
 	}, {
-		cost: ["Fire", "Fire"],
-
 		name: {
 			ja: "ハイパーボイス",
 			'zh-tw': "巨聲",
@@ -52,13 +49,17 @@ const card: Card = {
 			id: "Hyper Voice"
 		},
 
-		damage: 70
+		damage: 70,
+		cost: ["Fire", "Fire"]
 	}],
 
 	weaknesses: [{
 		type: "Water",
 		value: "×2"
 	}],
+
+	retreat: 3,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -75,10 +76,7 @@ const card: Card = {
 				tcgplayer: 577312,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

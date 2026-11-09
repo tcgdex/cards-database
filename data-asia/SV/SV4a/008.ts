@@ -28,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Grass", "Grass"],
-
 		name: {
 			ja: "ころがる",
 			'zh-tw': "滾動",
@@ -37,13 +35,17 @@ const card: Card = {
 			id: "Menggelinding"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Grass", "Grass"]
 	}],
 
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -60,10 +62,7 @@ const card: Card = {
 				tcgplayer: 577299,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -50,8 +50,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Psychic", "Colorless", "Colorless"],
-
 		name: {
 			ja: "とびだしヘッド",
 			'zh-tw': "魯莽頭擊",
@@ -59,13 +57,17 @@ const card: Card = {
 			id: "Sundulan Meloncat"
 		},
 
-		damage: 100
+		damage: 100,
+		cost: ["Psychic", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Metal",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -82,10 +84,7 @@ const card: Card = {
 				tcgplayer: 577346,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

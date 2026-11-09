@@ -28,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Fire"],
-
 		name: {
 			ja: "たいあたり",
 			'zh-tw': "撞擊",
@@ -37,13 +35,17 @@ const card: Card = {
 			id: "Serudukan"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Fire"]
 	}],
 
 	weaknesses: [{
 		type: "Water",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -60,10 +62,7 @@ const card: Card = {
 				tcgplayer: 577311,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -32,8 +32,6 @@ const card: Card = {
 	stage: "Stage2",
 
 	attacks: [{
-		cost: ["Fighting"],
-
 		name: {
 			ja: "ふんどのこぶし",
 			'zh-tw': "憤怒之拳",
@@ -41,17 +39,16 @@ const card: Card = {
 			id: "Tinju Amarah"
 		},
 
-		damage: "70×",
-
 		effect: {
 			ja: "相手がすでにとったサイドの枚数×70ダメージ。",
 			'zh-tw': "造成對手已經獲得的獎賞卡的張數×70點傷害。",
 			th: "แดเมจจะเท่ากับจำนวนการ์ดรางวัลที่ฝ่ายตรงข้ามหยิบไปแล้ว x70",
 			id: "Serangan ini memberikan kerusakan sejumlah 70 untuk tiap lembar Kartu Point yang telah diambil lawan."
-		}
-	}, {
-		cost: ["Fighting", "Fighting"],
+		},
 
+		damage: "70×",
+		cost: ["Fighting"]
+	}, {
 		name: {
 			ja: "ダイナマイトパンチ",
 			'zh-tw': "炸藥拳",
@@ -59,20 +56,24 @@ const card: Card = {
 			id: "Pukulan Dinamit"
 		},
 
-		damage: 170,
-
 		effect: {
 			ja: "このポケモンにも50ダメージ。",
 			'zh-tw': "這隻寶可夢也受到50點傷害。",
 			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 50 ด้วย",
 			id: "Pokémon ini juga menerima kerusakan sejumlah 50."
-		}
+		},
+
+		damage: 170,
+		cost: ["Fighting", "Fighting"]
 	}],
 
 	weaknesses: [{
 		type: "Psychic",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -83,10 +84,7 @@ const card: Card = {
 				cardtrader: 269722,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

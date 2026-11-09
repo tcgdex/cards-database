@@ -32,8 +32,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "ビンタ",
 			'zh-tw': "巴掌",
@@ -41,10 +39,9 @@ const card: Card = {
 			id: "Menampar"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Colorless"]
 	}, {
-		cost: ["Grass", "Colorless"],
-
 		name: {
 			ja: "オイルかけ",
 			'zh-tw': "潑油",
@@ -52,20 +49,24 @@ const card: Card = {
 			id: "Guyuran Minyak"
 		},
 
-		damage: 40,
-
 		effect: {
 			ja: "次の相手の番、このワザを受けたポケモンがワザを使うとき、相手はコインを1回投げる。ウラならそのワザは失敗。",
 			'zh-tw': "在下個對手的回合，受到這個招式的寶可夢使用招式時，對手擲1次硬幣。若為反面，則那個招式失敗。",
 			th: "เทิร์นถัดไปของฝ่ายตรงข้าม เมื่อโปเกมอนที่ได้รับท่าต่อสู้นี้จะใช้ท่าต่อสู้ ฝ่ายตรงข้ามทอยเหรียญ 1 ครั้ง ถ้าออกก้อยท่าต่อสู้นั้นจะล้มเหลว",
 			id: "Pada giliran lawan berikutnya, saat Pokémon yang menerima serangan ini menggunakan serangan, lawan melempar koin 1 kali. Jika hasilnya sisi belakang, serangan tersebut gagal."
-		}
+		},
+
+		damage: 40,
+		cost: ["Grass", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -82,10 +83,7 @@ const card: Card = {
 				tcgplayer: 577304,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -30,31 +30,32 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Lightning"],
-
 		name: {
 			ja: "エレキック",
 			'zh-tw': "電氣踢",
 			id: "Electric Kick"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Lightning"]
 	}, {
-		cost: ["Lightning", "Colorless", "Colorless"],
-
 		name: {
 			ja: "ヘッドボルト",
 			'zh-tw': "伏特頭擊",
 			id: "Head Bolt"
 		},
 
-		damage: 60
+		damage: 60,
+		cost: ["Lightning", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -65,10 +66,7 @@ const card: Card = {
 				cardtrader: 270244,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

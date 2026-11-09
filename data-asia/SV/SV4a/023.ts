@@ -44,8 +44,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Psychic"],
-
 		name: {
 			ja: "サイコボール",
 			'zh-tw': "精神球",
@@ -53,20 +51,24 @@ const card: Card = {
 			id: "Psychoball"
 		},
 
-		damage: "30+",
-
 		effect: {
 			ja: "おたがいのバトルポケモンについているエネルギーの数×30ダメージ追加。",
 			'zh-tw': "增加雙方的戰鬥寶可夢身上附加的能量的數量×30點傷害。",
 			th: "แดเมจจะเพิ่มตามจำนวนพลังงานที่ติดอยู่กับโปเกมอนบนตำแหน่งต่อสู้ของทั้งสองฝ่าย x30",
 			id: "Kerusakan yang diberikan bertambah sejumlah 30 untuk tiap Energi yang dikenakan pada Pokémon Bertarung kedua pemain."
-		}
+		},
+
+		damage: "30+",
+		cost: ["Psychic"]
 	}],
 
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -77,10 +79,7 @@ const card: Card = {
 				cardtrader: 269628,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -42,21 +42,20 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "だんけつのつばさ",
 			'zh-tw': "團結之翼",
 			id: "Sayap Bersatu Padu"
 		},
 
-		damage: "20×",
-
 		effect: {
 			ja: "自分のトラッシュにある、ワザ「だんけつのつばさ」を持つポケモンの枚数×20ダメージ。",
 			'zh-tw': "造成自己的棄牌區的，持有「團結之翼」招式的寶可夢卡的張數×20點傷害。",
 			id: "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap lembar Pokémon yang memiliki serangan Sayap Bersatu Padu yang ada di Trash sendiri."
-		}
+		},
+
+		damage: "20×",
+		cost: ["Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -69,6 +68,9 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
@@ -78,10 +80,7 @@ const card: Card = {
 				cardtrader: 270375,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

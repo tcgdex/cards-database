@@ -26,8 +26,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "きのみさがし",
 			'zh-tw': "搜尋樹果",
@@ -38,23 +36,26 @@ const card: Card = {
 			ja: "自分のトラッシュから基本エネルギーを1枚選び、相手に見せて、手札に加える。",
 			'zh-tw': "從自己的棄牌區選擇1張基本能量卡，在給對手看過後加入手牌。",
 			id: "Pilih 1 lembar Energi Dasar dari Trash sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan."
-		}
+		},
+		cost: ["Colorless"]
 	}, {
-		cost: ["Darkness"],
-
 		name: {
 			ja: "ひっかく",
 			'zh-tw': "抓",
 			id: "Menggaruk"
 		},
 
-		damage: 10
+		damage: 10,
+		cost: ["Darkness"]
 	}],
 
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -65,10 +66,7 @@ const card: Card = {
 				cardtrader: 270287,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

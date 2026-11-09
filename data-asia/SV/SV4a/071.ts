@@ -39,8 +39,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Lightning", "Lightning", "Colorless"],
-
 		name: {
 			ja: "フォトンブラスター",
 			'zh-tw': "光子引爆",
@@ -48,20 +46,24 @@ const card: Card = {
 			id: "Photon Blaster"
 		},
 
-		damage: 220,
-
 		effect: {
 			ja: "次の自分の番、このポケモンはワザが使えない。",
 			'zh-tw': "在下個自己的回合，這隻寶可夢無法使用招式。",
 			th: "เทิร์นถัดไปของฝ่ายเรา โปเกมอนนี้จะใช้ท่าต่อสู้ไม่ได้",
 			id: "Pada giliran sendiri berikutnya, Pokémon ini tidak dapat menggunakan serangan."
-		}
+		},
+
+		damage: 220,
+		cost: ["Lightning", "Lightning", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -72,10 +74,7 @@ const card: Card = {
 				cardtrader: 269661,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

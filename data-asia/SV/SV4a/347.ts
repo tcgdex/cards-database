@@ -36,8 +36,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Colorless", "Colorless", "Colorless"],
-
 		name: {
 			ja: "ゲノムハック",
 			'zh-tw': "基因駭入",
@@ -48,7 +46,8 @@ const card: Card = {
 			ja: "相手のバトルポケモンが持っているワザを1つ選び、このワザとして使う。",
 			'zh-tw': "選擇1個對手的戰鬥寶可夢持有的招式，作為這個招式使用。",
 			id: "Pilih 1 serangan yang dimiliki Pokémon Bertarung lawan, lalu gunakan sebagai serangan ini."
-		}
+		},
+		cost: ["Colorless", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -61,6 +60,9 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 0,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
@@ -70,10 +72,7 @@ const card: Card = {
 				cardtrader: 270352,
 			},
 		},
-	],
-
-	retreat: 0,
-	regulationMark: "G"
+	]
 }
 
 export default card

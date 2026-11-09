@@ -46,15 +46,14 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Colorless", "Colorless", "Colorless"],
-
 		name: {
 			ja: "つばさでうつ",
 			'zh-tw': "翅膀攻擊",
 			id: "Pukulan Sayap"
 		},
 
-		damage: 90
+		damage: 90,
+		cost: ["Colorless", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -67,6 +66,9 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
@@ -76,10 +78,7 @@ const card: Card = {
 				cardtrader: 270378,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

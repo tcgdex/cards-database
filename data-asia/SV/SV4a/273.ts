@@ -46,27 +46,29 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Psychic", "Colorless"],
-
 		name: {
 			ja: "スペシャルハンマー",
 			'zh-tw': "特殊鐵錘",
 			id: "Special Hammer"
 		},
 
-		damage: "90+",
-
 		effect: {
 			ja: "このポケモンに特殊エネルギーがついているなら、90ダメージ追加。",
 			'zh-tw': "若這隻寶可夢身上附有特殊能量卡，則增加90點傷害。",
 			id: "Jika Pokémon ini mengenakan Energi Spesial, kerusakan yang diberikan bertambah sejumlah 90."
-		}
+		},
+
+		damage: "90+",
+		cost: ["Psychic", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Metal",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -77,10 +79,7 @@ const card: Card = {
 				cardtrader: 270240,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -46,21 +46,23 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Psychic", "Colorless", "Colorless"],
-
 		name: {
 			ja: "マジカルショット",
 			'zh-tw': "魔法射擊",
 			id: "Magical Shot"
 		},
 
-		damage: 100
+		damage: 100,
+		cost: ["Psychic", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Metal",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -71,10 +73,7 @@ const card: Card = {
 				cardtrader: 270271,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

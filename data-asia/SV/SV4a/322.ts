@@ -41,27 +41,29 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Grass", "Grass"],
-
 		name: {
 			ja: "コロニーラッシュ",
 			'zh-tw': "菌落猛攻",
 			id: "Colony Rush"
 		},
 
-		damage: "80+",
-
 		effect: {
 			ja: "自分のベンチの{G}エネルギーがついているポケモンの数×40ダメージ追加。",
 			'zh-tw': "增加自己的備戰區身上附有【草】能量卡的寶可夢的數量×40點傷害。",
 			id: "Kerusakan yang diberikan bertambah sejumlah 40 untuk tiap Pokémon yang mengenakan Energi {Daun} di Cadangan sendiri."
-		}
+		},
+
+		damage: "80+",
+		cost: ["Grass", "Grass"]
 	}],
 
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -72,10 +74,7 @@ const card: Card = {
 				cardtrader: 270328,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

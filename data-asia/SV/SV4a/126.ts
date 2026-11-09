@@ -50,8 +50,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Darkness", "Darkness", "Colorless"],
-
 		name: {
 			ja: "ワイルドタックル",
 			'zh-tw': "狂野衝撞",
@@ -59,20 +57,24 @@ const card: Card = {
 			id: "Wild Tackle"
 		},
 
-		damage: 160,
-
 		effect: {
 			ja: "このポケモンにも30ダメージ。",
 			'zh-tw': "這隻寶可夢也受到30點傷害。",
 			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 30 ด้วย",
 			id: "Pokémon ini juga menerima kerusakan sejumlah 30."
-		}
+		},
+
+		damage: 160,
+		cost: ["Darkness", "Darkness", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Grass",
 		value: "×2"
 	}],
+
+	retreat: 3,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -89,10 +91,7 @@ const card: Card = {
 				tcgplayer: 577366,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

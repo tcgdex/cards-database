@@ -26,8 +26,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Grass"],
-
 		name: {
 			ja: "ひざしをあつめる",
 			'zh-tw': "集光",
@@ -38,23 +36,26 @@ const card: Card = {
 			ja: "自分の山札から基本エネルギーを2枚まで選び、相手に見せて、手札に加える。そして山札を切る。",
 			'zh-tw': "從自己的牌庫選擇最多2張基本能量卡，在給對手看過後加入手牌。並且重洗牌庫。",
 			id: "Pilih paling banyak 2 lembar Energi Dasar dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
-		}
+		},
+		cost: ["Grass"]
 	}, {
-		cost: ["Grass"],
-
 		name: {
 			ja: "タネばくだん",
 			'zh-tw': "種子炸彈",
 			id: "Bom Benih"
 		},
 
-		damage: 10
+		damage: 10,
+		cost: ["Grass"]
 	}],
 
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -65,10 +66,7 @@ const card: Card = {
 				cardtrader: 270194,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

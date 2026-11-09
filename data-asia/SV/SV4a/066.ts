@@ -28,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "なぐる",
 			'zh-tw': "打擊",
@@ -37,10 +35,9 @@ const card: Card = {
 			id: "Memukul"
 		},
 
-		damage: 10
+		damage: 10,
+		cost: ["Colorless"]
 	}, {
-		cost: ["Lightning", "Colorless"],
-
 		name: {
 			ja: "エレキック",
 			'zh-tw': "電氣踢",
@@ -48,13 +45,17 @@ const card: Card = {
 			id: "Electric Kick"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Lightning", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -71,10 +72,7 @@ const card: Card = {
 				tcgplayer: 577331,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -21,8 +21,6 @@ const card: Card = {
 	suffix: "EX",
 
 	attacks: [{
-		cost: ["Grass", "Grass", "Colorless"],
-
 		name: {
 			ja: "むさぼるつた",
 			'zh-tw': "追擊蔦",
@@ -35,10 +33,9 @@ const card: Card = {
 			'zh-tw': "對手的1隻備戰寶可夢受到對手已經獲得的獎賞卡的張數×60點傷害。[在備戰區不計算弱點・抵抗力。]",
 			th: "ทำแดเมจกับโปเกมอนบนเบนช์ฝ่ายตรงข้าม 1 ตัว เท่ากับจำนวนการ์ดรางวัลที่ฝ่ายตรงข้ามหยิบไปแล้ว x60 {โปเกมอนบนเบนช์จะไม่นำจุดอ่อนและความต้านทานมาคิด}",
 			id: "Serangan ini memberikan kerusakan sejumlah 60 untuk tiap lembar Kartu Point yang telah diambil lawan kepada 1 Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
-		}
+		},
+		cost: ["Grass", "Grass", "Colorless"]
 	}, {
-		cost: ["Grass", "Grass", "Grass", "Colorless"],
-
 		name: {
 			ja: "フォレストバーン",
 			'zh-tw': "森林灼燒",
@@ -46,13 +43,17 @@ const card: Card = {
 			id: "Forest Burn"
 		},
 
-		damage: 220
+		damage: 220,
+		cost: ["Grass", "Grass", "Grass", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"
 	}],
+
+	retreat: 4,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -63,10 +64,7 @@ const card: Card = {
 				cardtrader: 269619,
 			},
 		},
-	],
-
-	retreat: 4,
-	regulationMark: "G"
+	]
 }
 
 export default card

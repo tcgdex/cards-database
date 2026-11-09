@@ -26,27 +26,29 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Grass"],
-
 		name: {
 			ja: "みだれげり",
 			'zh-tw': "亂踢",
 			id: "Tendangan Tidak Teratur"
 		},
 
-		damage: "10×",
-
 		effect: {
 			ja: "コインを3回投げ、オモテの数×10ダメージ。",
 			'zh-tw': "擲3次硬幣，造成正面出現的次數×10點傷害。",
 			id: "Lempar koin 3 kali. Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lemparan dengan hasil sisi depan."
-		}
+		},
+
+		damage: "10×",
+		cost: ["Grass"]
 	}],
 
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -57,10 +59,7 @@ const card: Card = {
 				cardtrader: 270184,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

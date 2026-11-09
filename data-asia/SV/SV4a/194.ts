@@ -26,37 +26,38 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "こうそくいどう",
 			'zh-tw': "高速移動",
 			id: "Gerakan Cepat"
 		},
 
-		damage: 10,
-
 		effect: {
 			ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
 			'zh-tw': "擲1次硬幣若為正面，則在下個對手的回合，這隻寶可夢不會受到招式的傷害與效果的影響。",
 			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, pada giliran lawan berikutnya, Pokémon ini tidak menerima kerusakan dan efek akibat serangan."
-		}
-	}, {
-		cost: ["Colorless", "Colorless"],
+		},
 
+		damage: 10,
+		cost: ["Colorless"]
+	}, {
 		name: {
 			ja: "いあいぎり",
 			'zh-tw': "居合斬",
 			id: "Potongan Iai"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -67,10 +68,7 @@ const card: Card = {
 				cardtrader: 270203,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

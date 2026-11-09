@@ -30,26 +30,28 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Fighting"],
-		damage: 70,
+		name: {
+			ja: "あばれパンチ",
+			'zh-tw': "暴亂拳",
+			id: "Pukulan Mengamuk"
+		},
 
 		effect: {
 			ja: "このポケモンにも20ダメージ。",
 			'zh-tw': "這隻寶可夢也受到20點傷害。",
 			id: "Pokémon ini juga menerima kerusakan sejumlah 20."
 		},
-
-		name: {
-			ja: "あばれパンチ",
-			'zh-tw': "暴亂拳",
-			id: "Pukulan Mengamuk"
-		}
+		damage: 70,
+		cost: ["Fighting"]
 	}],
 
 	weaknesses: [{
 		type: "Psychic",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -60,10 +62,7 @@ const card: Card = {
 				cardtrader: 270234,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

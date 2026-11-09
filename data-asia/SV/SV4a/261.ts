@@ -30,18 +30,15 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "かぜおこし",
 			'zh-tw': "起風",
 			id: "Hembusan Angin"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Colorless", "Colorless"]
 	}, {
-		cost: ["Psychic", "Psychic", "Psychic"],
-
 		name: {
 			ja: "のろいをばらまく",
 			'zh-tw': "散佈詛咒",
@@ -52,7 +49,8 @@ const card: Card = {
 			ja: "ダメカン8個を、相手のポケモンに好きなようにのせる。",
 			'zh-tw': "將8個傷害指示物以任意方式放置於對手的寶可夢身上。",
 			id: "Letakkan sejumlah 8 Token Kerusakan pada Pokémon lawan sesukanya."
-		}
+		},
+		cost: ["Psychic", "Psychic", "Psychic"]
 	}],
 
 	weaknesses: [{
@@ -65,6 +63,9 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
@@ -74,10 +75,7 @@ const card: Card = {
 				cardtrader: 270243,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

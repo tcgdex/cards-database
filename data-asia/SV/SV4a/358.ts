@@ -30,23 +30,24 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Lightning", "Lightning", "Colorless"],
-
 		name: {
 			ja: "フォトンブラスター"
 		},
 
-		damage: 220,
-
 		effect: {
 			ja: "次の自分の番、このポケモンはワザが使えない。"
-		}
+		},
+
+		damage: 220,
+		cost: ["Lightning", "Lightning", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"
 	}],
+
+	retreat: 1,
 
 	regulationMark: "G",
 	variants: [
@@ -58,9 +59,7 @@ const card: Card = {
 				cardtrader: 270350,
 			},
 		},
-	],
-
-	retreat: 1
+	]
 }
 
 export default card

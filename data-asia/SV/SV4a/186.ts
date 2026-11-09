@@ -22,6 +22,9 @@ const card: Card = {
 		id: "Energi yang dibutuhkan oleh Pokémon Basic di Arena kedua pemain untuk menggunakan serangan masing-masing bertambah 1 Energi {Bening}."
 	},
 
+	trainerType: "Stadium",
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
@@ -37,10 +40,7 @@ const card: Card = {
 				tcgplayer: 577413,
 			},
 		},
-	],
-
-	trainerType: "Stadium",
-	regulationMark: "G"
+	]
 }
 
 export default card

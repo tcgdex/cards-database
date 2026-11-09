@@ -50,8 +50,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Darkness", "Colorless", "Colorless"],
-
 		name: {
 			ja: "ぶったぎり",
 			'zh-tw': "猛斬",
@@ -59,13 +57,17 @@ const card: Card = {
 			id: "Sabetan Membelah"
 		},
 
-		damage: 160
+		damage: 160,
+		cost: ["Darkness", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Grass",
 		value: "×2"
 	}],
+
+	retreat: 3,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -76,10 +78,7 @@ const card: Card = {
 				cardtrader: 269738,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

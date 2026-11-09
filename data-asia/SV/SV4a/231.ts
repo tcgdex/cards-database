@@ -26,37 +26,38 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "いかりちらす",
 			'zh-tw': "洩怒",
 			id: "Kemarahan Menghambur"
 		},
 
-		damage: "50×",
-
 		effect: {
 			ja: "自分のトラッシュにある「シャリタツ」の枚数×50ダメージ。",
 			'zh-tw': "造成自己的棄牌區的「米立龍」的張數×50點傷害。",
 			id: "Serangan ini memberikan kerusakan sejumlah 50 untuk tiap lembar Tatsugiri yang ada di Trash sendiri."
-		}
-	}, {
-		cost: ["Water", "Water", "Colorless", "Colorless"],
+		},
 
+		damage: "50×",
+		cost: ["Colorless", "Colorless"]
+	}, {
 		name: {
 			ja: "ヘビースプラッシュ",
 			'zh-tw': "重磅飛濺",
 			id: "Heavy Splash"
 		},
 
-		damage: 120
+		damage: 120,
+		cost: ["Water", "Water", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Lightning",
 		value: "×2"
 	}],
+
+	retreat: 4,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -67,10 +68,7 @@ const card: Card = {
 				cardtrader: 270223,
 			},
 		},
-	],
-
-	retreat: 4,
-	regulationMark: "G"
+	]
 }
 
 export default card

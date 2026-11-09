@@ -22,6 +22,9 @@ const card: Card = {
 		id: "Kedua pemain 1 kali pada tiap gilirannya sendiri dapat memilih 1 lembar Pokémon Basic (selain Pokémon yang memiliki Peraturan) dari Deck sendiri, lalu memasukkannya ke Cadangan. Kemudian, kocok Deck."
 	},
 
+	trainerType: "Stadium",
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
@@ -37,10 +40,7 @@ const card: Card = {
 				tcgplayer: 577412,
 			},
 		},
-	],
-
-	trainerType: "Stadium",
-	regulationMark: "G"
+	]
 }
 
 export default card

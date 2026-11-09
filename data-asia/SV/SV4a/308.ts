@@ -46,21 +46,20 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "いかりのくちばし",
 			'zh-tw': "憤怒鳥嘴",
 			id: "Paruh Kemarahan"
 		},
 
-		damage: "10+",
-
 		effect: {
 			ja: "このポケモンにのっているダメカンの数×30ダメージ追加。",
 			'zh-tw': "增加這隻寶可夢身上放置的傷害指示物的數量×30點傷害。",
 			id: "Kerusakan yang diberikan bertambah sejumlah 30 untuk tiap Token Kerusakan yang dimiliki Pokémon ini."
-		}
+		},
+
+		damage: "10+",
+		cost: ["Colorless"]
 	}],
 
 	weaknesses: [{
@@ -73,6 +72,9 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
@@ -82,10 +84,7 @@ const card: Card = {
 				cardtrader: 270370,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

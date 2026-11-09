@@ -30,37 +30,38 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "かみつく",
 			'zh-tw': "咬住",
 			id: "Menggigit"
 		},
 
-		damage: 50
+		damage: 50,
+		cost: ["Colorless", "Colorless"]
 	}, {
-		cost: ["Colorless", "Colorless", "Colorless"],
-
 		name: {
 			ja: "きょうかまえば",
 			'zh-tw': "強擊門牙",
 			id: "Gigi Diperkuat"
 		},
 
-		damage: "80+",
-
 		effect: {
 			ja: "このポケモンに「ポケモンのどうぐ」がついているなら、80ダメージ追加。",
 			'zh-tw': "若這隻寶可夢附有「寶可夢道具」卡，則增加80點傷害。",
 			id: "Jika Pokémon ini mengenakan Pokémon Tool, kerusakan yang diberikan bertambah sejumlah 80."
-		}
+		},
+
+		damage: "80+",
+		cost: ["Colorless", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -71,10 +72,7 @@ const card: Card = {
 				cardtrader: 270381,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

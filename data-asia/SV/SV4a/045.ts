@@ -32,8 +32,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Water"],
-
 		name: {
 			ja: "ずつき",
 			'zh-tw': "頭錘",
@@ -41,10 +39,9 @@ const card: Card = {
 			id: "Tandukan Kepala"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Water"]
 	}, {
-		cost: ["Colorless", "Colorless", "Colorless"],
-
 		name: {
 			ja: "うみほりトンネル",
 			'zh-tw': "掘海隧道",
@@ -57,13 +54,17 @@ const card: Card = {
 			'zh-tw': "擲3次硬幣，將對手的牌庫上方與正面出現的次數×3張相同數量的卡丟棄。",
 			th: "ทอยเหรียญ 3 ครั้ง ทิ้งการ์ดจากด้านบนของสำรับการ์ดฝ่ายตรงข้าม ตามจำนวนครั้งที่ออกหัว x3 ใบที่ตำแหน่งทิ้งการ์ด",
 			id: "Lempar koin 3 kali. Buang sejumlah 3 kartu dari atas Deck lawan ke Trash untuk tiap lemparan dengan hasil sisi depan."
-		}
+		},
+		cost: ["Colorless", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Lightning",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -80,10 +81,7 @@ const card: Card = {
 				tcgplayer: 577320,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

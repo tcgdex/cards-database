@@ -46,27 +46,29 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Fighting", "Fighting"],
-
 		name: {
 			ja: "ノックハンマー",
 			'zh-tw': "敲擊之錘",
 			id: "Knock Hammer"
 		},
 
-		damage: 130,
-
 		effect: {
 			ja: "相手の山札を上から1枚トラッシュする。",
 			'zh-tw': "將對手的牌庫上方1張卡丟棄。",
 			id: "Buang 1 kartu dari atas Deck lawan ke Trash."
-		}
+		},
+
+		damage: 130,
+		cost: ["Fighting", "Fighting"]
 	}],
 
 	weaknesses: [{
 		type: "Grass",
 		value: "×2"
 	}],
+
+	retreat: 3,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -77,10 +79,7 @@ const card: Card = {
 				cardtrader: 270284,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -28,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Grass"],
-
 		name: {
 			ja: "えいようそ",
 			'zh-tw': "營養素",
@@ -42,10 +40,9 @@ const card: Card = {
 			'zh-tw': "將自己的1隻寶可夢恢復「30」HP。",
 			th: "ฟื้นฟู HP ของโปเกมอนฝ่ายเรา 1 ตัว [30]",
 			id: "Pulihkan HP 1 Pokémon sendiri sejumlah 30."
-		}
+		},
+		cost: ["Grass"]
 	}, {
-		cost: ["Grass", "Colorless"],
-
 		name: {
 			ja: "しるをとばす",
 			'zh-tw': "噴汁",
@@ -53,13 +50,17 @@ const card: Card = {
 			id: "Menyemprotkan Getah"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Grass", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -76,10 +77,7 @@ const card: Card = {
 				tcgplayer: 577303,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

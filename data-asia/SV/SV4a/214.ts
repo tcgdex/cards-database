@@ -42,21 +42,23 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Fire", "Colorless"],
-
 		name: {
 			ja: "はばたく",
 			'zh-tw': "羽擊",
 			id: "Mengepak"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Fire", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Water",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -67,10 +69,7 @@ const card: Card = {
 				cardtrader: 270211,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

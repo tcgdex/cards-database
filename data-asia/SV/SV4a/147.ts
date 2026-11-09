@@ -50,8 +50,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Colorless", "Colorless", "Colorless"],
-
 		name: {
 			ja: "つばさでうつ",
 			'zh-tw': "翅膀攻擊",
@@ -59,7 +57,8 @@ const card: Card = {
 			id: "Pukulan Sayap"
 		},
 
-		damage: 90
+		damage: 90,
+		cost: ["Colorless", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -71,6 +70,9 @@ const card: Card = {
 		type: "Fighting",
 		value: "-30"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -87,10 +89,7 @@ const card: Card = {
 				tcgplayer: 577379,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

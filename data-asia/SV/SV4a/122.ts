@@ -28,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "ひっかく",
 			'zh-tw': "抓",
@@ -37,10 +35,9 @@ const card: Card = {
 			id: "Menggaruk"
 		},
 
-		damage: 10
+		damage: 10,
+		cost: ["Colorless"]
 	}, {
-		cost: ["Darkness", "Colorless"],
-
 		name: {
 			ja: "つきさす",
 			'zh-tw': "突刺",
@@ -48,13 +45,17 @@ const card: Card = {
 			id: "Melubangi"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Darkness", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Grass",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -71,10 +72,7 @@ const card: Card = {
 				tcgplayer: 577363,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

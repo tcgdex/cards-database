@@ -30,37 +30,35 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "ライフサッカー",
 			'zh-tw': "生命之紗",
 			id: "Life Sucker"
 		},
 
-		damage: 50,
-
 		effect: {
 			ja: "このポケモンのHPを「30」回復する。",
 			'zh-tw': "將這隻寶可夢恢復「30」HP。",
 			id: "Pulihkan HP Pokémon ini sejumlah 30."
-		}
-	}, {
-		cost: ["Psychic", "Colorless", "Colorless"],
+		},
 
+		damage: 50,
+		cost: ["Colorless", "Colorless"]
+	}, {
 		name: {
 			ja: "とうしのたいけん",
 			'zh-tw': "鬥士的巨劍",
 			id: "Pedang Besar Semangat Petarung"
 		},
 
-		damage: "100+",
-
 		effect: {
 			ja: "相手のバトルポケモンが「ポケモンex・V」なら、100ダメージ追加。",
 			'zh-tw': "若對手的戰鬥寶可夢為「寶可夢【ex】・【V】」，則增加100點傷害。",
 			id: "Jika Pokémon Bertarung lawan adalah Pokémon {ex}/{V}, kerusakan yang diberikan bertambah sejumlah 100."
-		}
+		},
+
+		damage: "100+",
+		cost: ["Psychic", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -73,6 +71,9 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
@@ -82,10 +83,7 @@ const card: Card = {
 				cardtrader: 270254,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

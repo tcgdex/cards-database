@@ -26,21 +26,20 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Psychic", "Colorless"],
-
 		name: {
 			ja: "ねんりき",
 			'zh-tw': "念力",
 			id: "Psikokinesis"
 		},
 
-		damage: 20,
-
 		effect: {
 			ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。",
 			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
-		}
+		},
+
+		damage: 20,
+		cost: ["Psychic", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -53,6 +52,9 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
@@ -62,10 +64,7 @@ const card: Card = {
 				cardtrader: 270249,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -46,8 +46,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Lightning", "Lightning"],
-
 		name: {
 			ja: "ギガントボルト",
 			'zh-tw': "巨烈伏特",
@@ -55,20 +53,24 @@ const card: Card = {
 			id: "Gigant Bolt"
 		},
 
-		damage: 140,
-
 		effect: {
 			ja: "このポケモンにも90ダメージ。",
 			'zh-tw': "這隻寶可夢也受到90點傷害。",
 			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 90 ด้วย",
 			id: "Pokémon ini juga menerima kerusakan sejumlah 90."
-		}
+		},
+
+		damage: 140,
+		cost: ["Lightning", "Lightning"]
 	}],
 
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -79,10 +81,7 @@ const card: Card = {
 				cardtrader: 269654,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

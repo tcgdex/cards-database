@@ -50,8 +50,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Psychic", "Colorless", "Colorless"],
-
 		name: {
 			ja: "ちょうねんりき",
 			'zh-tw': "超念力",
@@ -59,7 +57,8 @@ const card: Card = {
 			id: "Psikokinesis Super"
 		},
 
-		damage: 80
+		damage: 80,
+		cost: ["Psychic", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -71,6 +70,9 @@ const card: Card = {
 		type: "Fighting",
 		value: "-30"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -87,10 +89,7 @@ const card: Card = {
 				tcgplayer: 577339,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

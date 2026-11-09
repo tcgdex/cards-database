@@ -20,6 +20,9 @@ const card: Card = {
 		id: "Pilih 1 lembar Pokémon (selain Pokémon yang memiliki Peraturan) dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck. Jumlah Pokémon yang dapat ditambahkan ke Kartu Pegangan bertambah untuk tiap lembar Pelajar Paldea (selain kartu ini) yang ada di Trash sendiri."
 	},
 
+	trainerType: "Supporter",
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
@@ -29,10 +32,7 @@ const card: Card = {
 				cardtrader: 270362,
 			},
 		},
-	],
-
-	trainerType: "Supporter",
-	regulationMark: "G"
+	]
 }
 
 export default card

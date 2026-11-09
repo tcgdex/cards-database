@@ -50,8 +50,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Grass", "Colorless", "Colorless"],
-
 		name: {
 			ja: "ソーラービーム",
 			'zh-tw': "日光束",
@@ -59,13 +57,17 @@ const card: Card = {
 			id: "Solar Beam"
 		},
 
-		damage: 90
+		damage: 90,
+		cost: ["Grass", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -76,10 +78,7 @@ const card: Card = {
 				cardtrader: 269636,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

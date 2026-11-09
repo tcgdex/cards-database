@@ -20,6 +20,9 @@ const card: Card = {
 		id: "Ambil 3 kartu dari atas Deck sendiri."
 	},
 
+	trainerType: "Supporter",
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
@@ -29,10 +32,7 @@ const card: Card = {
 				cardtrader: 270361,
 			},
 		},
-	],
-
-	trainerType: "Supporter",
-	regulationMark: "G"
+	]
 }
 
 export default card

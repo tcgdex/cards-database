@@ -46,27 +46,29 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Water", "Colorless"],
-
 		name: {
 			ja: "バブルドレイン",
 			'zh-tw': "泡沫吸取",
 			id: "Bubble Drain"
 		},
 
-		damage: 60,
-
 		effect: {
 			ja: "このポケモンのHPを「30」回復する。",
 			'zh-tw': "將這隻寶可夢恢復「30」HP。",
 			id: "Pulihkan HP Pokémon ini sejumlah 30."
-		}
+		},
+
+		damage: 60,
+		cost: ["Water", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Lightning",
 		value: "×2"
 	}],
+
+	retreat: 3,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -77,10 +79,7 @@ const card: Card = {
 				cardtrader: 270195,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

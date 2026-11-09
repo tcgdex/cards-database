@@ -26,8 +26,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "なかまをよぶ",
 			'zh-tw': "呼朋引伴",
@@ -38,17 +36,17 @@ const card: Card = {
 			ja: "自分の山札からたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。",
 			'zh-tw': "從自己的牌庫選擇最多2張【基礎】寶可夢卡，放置於備戰區。並且重洗牌庫。",
 			id: "Pilih paling banyak 2 lembar Pokémon Basic dari Deck sendiri, lalu masukkan ke Cadangan. Kemudian, kocok Deck."
-		}
+		},
+		cost: ["Colorless"]
 	}, {
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "たいあたり",
 			'zh-tw': "撞擊",
 			id: "Serudukan"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -61,6 +59,9 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
@@ -70,10 +71,7 @@ const card: Card = {
 				cardtrader: 270368,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -32,8 +32,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Water", "Colorless"],
-
 		name: {
 			ja: "するどいひれ",
 			'zh-tw': "銳利鰭",
@@ -41,10 +39,9 @@ const card: Card = {
 			id: "Sirip Tajam"
 		},
 
-		damage: 40
+		damage: 40,
+		cost: ["Water", "Colorless"]
 	}, {
-		cost: ["Water", "Water", "Colorless"],
-
 		name: {
 			ja: "フロストスマッシュ",
 			'zh-tw': "冰霜粉碎",
@@ -52,13 +49,17 @@ const card: Card = {
 			id: "Frost Smash"
 		},
 
-		damage: 80
+		damage: 80,
+		cost: ["Water", "Water", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Metal",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -75,10 +76,7 @@ const card: Card = {
 				tcgplayer: 577324,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

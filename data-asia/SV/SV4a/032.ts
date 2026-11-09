@@ -26,8 +26,6 @@ const card: Card = {
 	suffix: "EX",
 
 	attacks: [{
-		cost: ["Fire"],
-
 		name: {
 			ja: "かつりょくのうた",
 			'zh-tw': "活力之歌",
@@ -35,17 +33,16 @@ const card: Card = {
 			id: "Lagu Vitalitas"
 		},
 
-		damage: 50,
-
 		effect: {
 			ja: "自分のポケモン全員のHPを、それぞれ「30」回復する。",
 			'zh-tw': "將自己的所有寶可夢各恢復「30」HP。",
 			th: "ฟื้นฟู HP ของโปเกมอนฝ่ายเราทุกตัว ตัวละ [30]",
 			id: "Pulihkan HP semua Pokémon sendiri masing-masing sejumlah 30."
-		}
-	}, {
-		cost: ["Fire", "Fire"],
+		},
 
+		damage: 50,
+		cost: ["Fire"]
+	}, {
 		name: {
 			ja: "バーニングボイス",
 			'zh-tw': "燃燒之聲",
@@ -53,20 +50,24 @@ const card: Card = {
 			id: "Burning Voice"
 		},
 
-		damage: "270-",
-
 		effect: {
 			ja: "このポケモンにのっているダメカンの数×10ダメージぶん、このワザのダメージは小さくなる。",
 			'zh-tw': "減少這隻寶可夢身上放置的傷害指示物的數量×10點傷害。",
 			th: "แดเมจของท่าต่อสู้นี้จะลดลง ตามจำนวนตัวนับแดเมจที่วางอยู่บนโปเกมอนนี้ x10",
 			id: "Kerusakan akibat serangan ini berkurang sejumlah 10 untuk tiap Token Kerusakan yang dimiliki Pokémon ini."
-		}
+		},
+
+		damage: "270-",
+		cost: ["Fire", "Fire"]
 	}],
 
 	weaknesses: [{
 		type: "Water",
 		value: "×2"
 	}],
+
+	retreat: 3,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -77,10 +78,7 @@ const card: Card = {
 				cardtrader: 269612,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -30,31 +30,29 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Psychic", "Colorless"],
-
 		name: {
 			ja: "マジカルショット",
 			'zh-tw': "魔法射擊",
 			id: "Magical Shot"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Psychic", "Colorless"]
 	}, {
-		cost: ["Psychic", "Psychic", "Colorless"],
-
 		name: {
 			ja: "サイコキネシス",
 			'zh-tw': "精神強念",
 			id: "Psikis"
 		},
 
-		damage: "60+",
-
 		effect: {
 			ja: "相手のバトルポケモンについているエネルギーの数×20ダメージ追加。",
 			'zh-tw': "增加對手的戰鬥寶可夢身上附加的能量的數量×20點傷害。",
 			id: "Kerusakan yang diberikan bertambah sejumlah 20 untuk tiap Energi yang dikenakan pada Pokémon Bertarung lawan."
-		}
+		},
+
+		damage: "60+",
+		cost: ["Psychic", "Psychic", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -67,6 +65,9 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
@@ -76,10 +77,7 @@ const card: Card = {
 				cardtrader: 270248,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

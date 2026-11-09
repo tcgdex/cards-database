@@ -26,8 +26,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "なきごえ",
 			'zh-tw': "叫聲",
@@ -38,23 +36,26 @@ const card: Card = {
 			ja: "次の相手の番、このワザを受けたポケモンが使うワザのダメージは「-20」される。",
 			'zh-tw': "在下個對手的回合，受到這個招式的寶可夢使用招式的傷害「-20」點。",
 			id: "Pada giliran lawan berikutnya, kerusakan akibat serangan yang digunakan oleh Pokémon yang menerima serangan ini berkurang sejumlah 20."
-		}
+		},
+		cost: ["Colorless"]
 	}, {
-		cost: ["Lightning", "Colorless"],
-
 		name: {
 			ja: "ピカボルト",
 			'zh-tw': "皮卡伏特",
 			id: "Pika Bolt"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Lightning", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -65,10 +66,7 @@ const card: Card = {
 				cardtrader: 270217,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -26,15 +26,14 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "かぜおこし",
 			'zh-tw': "起風",
 			id: "Hembusan Angin"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -47,6 +46,9 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
@@ -56,10 +58,7 @@ const card: Card = {
 				cardtrader: 270379,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -30,27 +30,29 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Fighting", "Fighting"],
-
 		name: {
 			ja: "しおキャノン",
 			'zh-tw': "鹽加農炮",
 			id: "Meriam Garam"
 		},
 
-		damage: "60×",
-
 		effect: {
 			ja: "コインを3回投げ、オモテの数×60ダメージ。",
 			'zh-tw': "擲3次硬幣，造成正面出現的次數×60點傷害。",
 			id: "Lempar koin 3 kali. Serangan ini memberikan kerusakan sejumlah 60 untuk tiap lemparan dengan hasil sisi depan."
-		}
+		},
+
+		damage: "60×",
+		cost: ["Fighting", "Fighting"]
 	}],
 
 	weaknesses: [{
 		type: "Grass",
 		value: "×2"
 	}],
+
+	retreat: 3,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -61,10 +63,7 @@ const card: Card = {
 				cardtrader: 270322,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -26,8 +26,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "もってくる",
 			'zh-tw': "呼喚",
@@ -38,23 +36,26 @@ const card: Card = {
 			ja: "自分の山札を2枚引く。",
 			'zh-tw': "從自己的牌庫抽出2張卡。",
 			id: "Ambil 2 kartu dari atas Deck sendiri."
-		}
+		},
+		cost: ["Colorless"]
 	}, {
-		cost: ["Colorless", "Colorless", "Colorless"],
-
 		name: {
 			ja: "ひっぱたく",
 			'zh-tw': "重摑",
 			id: "Menepuk"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Colorless", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -65,10 +66,7 @@ const card: Card = {
 				cardtrader: 270382,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

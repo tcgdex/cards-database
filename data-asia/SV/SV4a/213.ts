@@ -42,27 +42,29 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Colorless", "Colorless", "Colorless"],
-
 		name: {
 			ja: "ブレイズボール",
 			'zh-tw': "火炎球",
 			id: "Blaze Ball"
 		},
 
-		damage: "60+",
-
 		effect: {
 			ja: "このポケモンについている{R}エネルギーの数×20ダメージ追加。",
 			'zh-tw': "增加這隻寶可夢身上附加的【火】能量的數量×20點傷害。",
 			id: "Kerusakan yang diberikan bertambah sejumlah 20 untuk tiap Energi {Api} yang dikenakan pada Pokémon ini."
-		}
+		},
+
+		damage: "60+",
+		cost: ["Colorless", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Water",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -73,10 +75,7 @@ const card: Card = {
 				cardtrader: 270212,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

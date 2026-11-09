@@ -26,43 +26,44 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "いかりのつの",
 			'zh-tw': "憤怒之角",
 			id: "Tanduk Kemarahan"
 		},
 
-		damage: "20+",
-
 		effect: {
 			ja: "このポケモンにのっているダメカンの数×10ダメージ追加。",
 			'zh-tw': "增加這隻寶可夢身上放置的傷害指示物的數量×10點傷害。",
 			id: "Kerusakan yang diberikan bertambah sejumlah 10 untuk tiap Token Kerusakan yang dimiliki Pokémon ini."
-		}
-	}, {
-		cost: ["Fire", "Fire", "Colorless"],
+		},
 
+		damage: "20+",
+		cost: ["Colorless", "Colorless"]
+	}, {
 		name: {
 			ja: "ブレイズダッシュ",
 			'zh-tw': "火焰衝刺",
 			id: "Blaze Dash"
 		},
 
-		damage: 120,
-
 		effect: {
 			ja: "このポケモンについているエネルギーを1個選び、トラッシュする。",
 			'zh-tw': "選擇1個這隻寶可夢身上附加的能量，將其丟棄。",
 			id: "Pilih 1 Energi yang dikenakan pada Pokémon ini, lalu buang ke Trash."
-		}
+		},
+
+		damage: 120,
+		cost: ["Fire", "Fire", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Water",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -73,10 +74,7 @@ const card: Card = {
 				cardtrader: 270213,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -26,21 +26,23 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Grass", "Colorless"],
-
 		name: {
 			ja: "どつく",
 			'zh-tw': "推擊",
 			id: "Menohok"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Grass", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"
 	}],
+
+	retreat: 3,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -51,10 +53,7 @@ const card: Card = {
 				cardtrader: 270196,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

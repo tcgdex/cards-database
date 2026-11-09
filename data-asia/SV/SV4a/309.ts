@@ -42,21 +42,23 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "ぺとっ",
 			'zh-tw': "黏",
 			id: "Lekat"
 		},
 
-		damage: 10
+		damage: 10,
+		cost: ["Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -67,10 +69,7 @@ const card: Card = {
 				cardtrader: 270365,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

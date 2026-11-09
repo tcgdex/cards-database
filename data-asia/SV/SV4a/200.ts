@@ -46,21 +46,23 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Grass", "Grass", "Colorless"],
-
 		name: {
 			ja: "マグナムパンチ",
 			'zh-tw': "增量拳",
 			id: "Magnum Punch"
 		},
 
-		damage: 110
+		damage: 110,
+		cost: ["Grass", "Grass", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"
 	}],
+
+	retreat: 3,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -71,10 +73,7 @@ const card: Card = {
 				cardtrader: 270193,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

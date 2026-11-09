@@ -30,23 +30,24 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Fighting", "Fighting", "Colorless"],
-
 		name: {
 			ja: "ワイルドインパクト"
 		},
 
-		damage: 220,
-
 		effect: {
 			ja: "次の自分の番、このポケモンはワザが使えない。"
-		}
+		},
+
+		damage: 220,
+		cost: ["Fighting", "Fighting", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Psychic",
 		value: "×2"
 	}],
+
+	retreat: 2,
 
 	regulationMark: "G",
 	variants: [
@@ -58,9 +59,7 @@ const card: Card = {
 				cardtrader: 270318,
 			},
 		},
-	],
-
-	retreat: 2
+	]
 }
 
 export default card

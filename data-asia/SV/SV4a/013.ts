@@ -32,8 +32,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Grass"],
-
 		name: {
 			ja: "タネばくだん",
 			'zh-tw': "種子炸彈",
@@ -41,10 +39,9 @@ const card: Card = {
 			id: "Bom Benih"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Grass"]
 	}, {
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "マジックウィップ",
 			'zh-tw': "魔法鞭打",
@@ -52,20 +49,24 @@ const card: Card = {
 			id: "Magic Whip"
 		},
 
-		damage: 50,
-
 		effect: {
 			ja: "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
 			'zh-tw': "將對手的戰鬥寶可夢與備戰寶可夢互換。[由對手選擇放置於戰鬥場的寶可夢。]",
 			th: "สลับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามกับโปเกมอนบนเบนช์ {ฝ่ายตรงข้ามเลือกโปเกมอนที่จะวางบนตำแหน่งต่อสู้}",
 			id: "Tukar Pokémon Bertarung lawan dengan Pokémon Cadangan. [Pokémon yang akan dimasukkan ke Arena Bertarung dipilih oleh lawan.]"
-		}
+		},
+
+		damage: 50,
+		cost: ["Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -82,10 +83,7 @@ const card: Card = {
 				tcgplayer: 577302,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

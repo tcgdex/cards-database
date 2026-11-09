@@ -26,31 +26,29 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "かぜおこし",
 			'zh-tw': "起風",
 			id: "Hembusan Angin"
 		},
 
-		damage: 10
+		damage: 10,
+		cost: ["Colorless", "Colorless"]
 	}, {
-		cost: ["Psychic", "Psychic"],
-
 		name: {
 			ja: "バルーンボム",
 			'zh-tw': "氣球爆破",
 			id: "Balloon Bomb"
 		},
 
-		damage: "30×",
-
 		effect: {
 			ja: "このポケモンにのっているダメカンの数×30ダメージ。",
 			'zh-tw': "造成這隻寶可夢身上放置的傷害指示物的數量×30點傷害。",
 			id: "Serangan ini memberikan kerusakan sejumlah 30 untuk tiap Token Kerusakan yang dimiliki Pokémon ini."
-		}
+		},
+
+		damage: "30×",
+		cost: ["Psychic", "Psychic"]
 	}],
 
 	weaknesses: [{
@@ -63,6 +61,9 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
@@ -72,10 +73,7 @@ const card: Card = {
 				cardtrader: 270242,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -28,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "やみのひとみ",
 			'zh-tw': "暗之瞳",
@@ -42,10 +40,9 @@ const card: Card = {
 			'zh-tw': "將對手的戰鬥寶可夢【睡眠】。",
 			th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[หลับ]",
 			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Tidur."
-		}
+		},
+		cost: ["Colorless"]
 	}, {
-		cost: ["Darkness"],
-
 		name: {
 			ja: "アサシンクロー",
 			'zh-tw': "刺殺爪",
@@ -53,20 +50,24 @@ const card: Card = {
 			id: "Assassin Claw"
 		},
 
-		damage: "20+",
-
 		effect: {
 			ja: "相手のバトルポケモンが特殊状態なら、70ダメージ追加。",
 			'zh-tw': "若對手的戰鬥寶可夢處於特殊狀態，則增加70點傷害。",
 			th: "ถ้าโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะผิดปกติ การโจมตีนี้จะเพิ่มแดเมจอีก 70",
 			id: "Jika Pokémon Bertarung lawan mengalami Kondisi Khusus, kerusakan yang diberikan bertambah sejumlah 70."
-		}
+		},
+
+		damage: "20+",
+		cost: ["Darkness"]
 	}],
 
 	weaknesses: [{
 		type: "Grass",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -77,10 +78,7 @@ const card: Card = {
 				cardtrader: 269745,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

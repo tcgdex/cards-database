@@ -26,27 +26,29 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Water"],
-
 		name: {
 			ja: "とつげき",
 			'zh-tw': "突擊",
 			id: "Menyerang"
 		},
 
-		damage: 30,
-
 		effect: {
 			ja: "このポケモンにも10ダメージ。",
 			'zh-tw': "這隻寶可夢也受到10點傷害。",
 			id: "Pokémon ini juga menerima kerusakan sejumlah 10."
-		}
+		},
+
+		damage: 30,
+		cost: ["Water"]
 	}],
 
 	weaknesses: [{
 		type: "Lightning",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -57,10 +59,7 @@ const card: Card = {
 				cardtrader: 270230,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

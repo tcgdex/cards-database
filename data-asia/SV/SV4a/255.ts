@@ -50,6 +50,9 @@ const card: Card = {
 		}
 	],
 
+	retreat: 0,
+	regulationMark: 'G',
+
 	variants: [
 		{
 			type: 'holo',
@@ -59,10 +62,7 @@ const card: Card = {
 				cardtrader: 270269
 			}
 		}
-	],
-
-	retreat: 0,
-	regulationMark: 'G'
+	]
 }
 
 export default card

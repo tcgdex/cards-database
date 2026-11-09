@@ -32,8 +32,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Psychic"],
-
 		name: {
 			ja: "テレポートアタック",
 			'zh-tw': "瞬間移動攻擊",
@@ -41,14 +39,15 @@ const card: Card = {
 			id: "Teleport Attack"
 		},
 
-		damage: 30,
-
 		effect: {
 			ja: "このポケモンをベンチポケモンと入れ替える。",
 			'zh-tw': "將這隻寶可夢與備戰寶可夢互換。",
 			th: "สลับโปเกมอนนี้กับโปเกมอนบนเบนช์",
 			id: "Tukar Pokémon ini dengan Pokémon Cadangan."
-		}
+		},
+
+		damage: 30,
+		cost: ["Psychic"]
 	}],
 
 	weaknesses: [{
@@ -60,6 +59,9 @@ const card: Card = {
 		type: "Fighting",
 		value: "-30"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -76,10 +78,7 @@ const card: Card = {
 				tcgplayer: 577336,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

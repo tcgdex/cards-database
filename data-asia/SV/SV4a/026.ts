@@ -50,8 +50,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Fire", "Fire"],
-
 		name: {
 			ja: "かえん",
 			'zh-tw': "烈焰",
@@ -59,13 +57,17 @@ const card: Card = {
 			id: "Lidah Api"
 		},
 
-		damage: 50
+		damage: 50,
+		cost: ["Fire", "Fire"]
 	}],
 
 	weaknesses: [{
 		type: "Water",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -82,10 +84,7 @@ const card: Card = {
 				tcgplayer: 577309,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

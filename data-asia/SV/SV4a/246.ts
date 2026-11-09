@@ -30,8 +30,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Lightning"],
-
 		name: {
 			ja: "にらみつける",
 			'zh-tw': "瞪眼",
@@ -42,29 +40,32 @@ const card: Card = {
 			ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。",
 			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
-		}
+		},
+		cost: ["Lightning"]
 	}, {
-		cost: ["Lightning", "Colorless"],
-
 		name: {
 			ja: "ミックスラウド",
 			'zh-tw': "混和高聲",
 			id: "Mix Loud"
 		},
 
-		damage: "50+",
-
 		effect: {
 			ja: "自分のベンチポケモンのタイプの数×30ダメージ追加。",
 			'zh-tw': "增加自己的備戰寶可夢的屬性種類的數量×30點傷害。",
 			id: "Kerusakan yang diberikan bertambah sejumlah 30 untuk tiap tipe Pokémon Cadangan sendiri."
-		}
+		},
+
+		damage: "50+",
+		cost: ["Lightning", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -75,10 +76,7 @@ const card: Card = {
 				cardtrader: 270275,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

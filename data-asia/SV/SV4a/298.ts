@@ -30,8 +30,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Darkness"],
-
 		name: {
 			ja: "どくえき",
 			'zh-tw': "毒液",
@@ -42,29 +40,32 @@ const card: Card = {
 			ja: "相手のバトルポケモンをどくにする。",
 			'zh-tw': "將對手的戰鬥寶可夢【中毒】。",
 			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Racun."
-		}
+		},
+		cost: ["Darkness"]
 	}, {
-		cost: ["Darkness"],
-
 		name: {
 			ja: "カラフルグラフィティ",
 			'zh-tw': "鮮豔塗鴉",
 			id: "Colorful Graffiti"
 		},
 
-		damage: "40×",
-
 		effect: {
 			ja: "自分の手札から基本エネルギーを好きなだけトラッシュし、トラッシュした基本エネルギーのタイプの数×40ダメージ。",
 			'zh-tw': "從自己的手牌將任意數量的基本能量卡丟棄，造成丟棄的基本能量卡的屬性種類的數量×40點傷害。",
 			id: "Buang sesukanya Energi Dasar dari Kartu Pegangan sendiri ke Trash, serangan ini memberikan kerusakan sejumlah 40 untuk tiap tipe Energi Dasar yang dibuang ke Trash."
-		}
+		},
+
+		damage: "40×",
+		cost: ["Darkness"]
 	}],
 
 	weaknesses: [{
 		type: "Fighting",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -75,10 +76,7 @@ const card: Card = {
 				cardtrader: 270288,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

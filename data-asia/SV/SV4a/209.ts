@@ -26,27 +26,29 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "たまころがり",
 			'zh-tw': "滾球",
 			id: "Menggelindingkan Bola"
 		},
 
-		damage: "30×",
-
 		effect: {
 			ja: "ウラが出るまでコインを投げ、オモテの数×30ダメージ。",
 			'zh-tw': "擲硬幣直到出現反面，造成正面出現的次數×30點傷害。",
 			id: "Lempar koin hingga hasilnya sisi belakang. Serangan ini memberikan kerusakan sejumlah 30 untuk tiap lemparan dengan hasil sisi depan."
-		}
+		},
+
+		damage: "30×",
+		cost: ["Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -57,10 +59,7 @@ const card: Card = {
 				cardtrader: 270181,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

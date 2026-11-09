@@ -30,23 +30,24 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Water", "Water"],
-
 		name: {
 			ja: "ヘイルブレード"
 		},
 
-		damage: "60×",
-
 		effect: {
 			ja: "自分の場のポケモンについている{W}エネルギーを好きなだけトラッシュし、その枚数×60ダメージ。"
-		}
+		},
+
+		damage: "60×",
+		cost: ["Water", "Water"]
 	}],
 
 	weaknesses: [{
 		type: "Metal",
 		value: "×2"
 	}],
+
+	retreat: 2,
 
 	regulationMark: "G",
 	variants: [
@@ -58,9 +59,7 @@ const card: Card = {
 				cardtrader: 270349,
 			},
 		},
-	],
-
-	retreat: 2
+	]
 }
 
 export default card

@@ -30,15 +30,14 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "はばたく",
 			'zh-tw': "羽擊",
 			id: "Mengepak"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Colorless"]
 	}],
 
 	weaknesses: [{
@@ -51,6 +50,9 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 0,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
@@ -60,10 +62,7 @@ const card: Card = {
 				cardtrader: 270373,
 			},
 		},
-	],
-
-	retreat: 0,
-	regulationMark: "G"
+	]
 }
 
 export default card

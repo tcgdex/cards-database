@@ -46,8 +46,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "ねらいおとす",
 			'zh-tw': "狙落",
@@ -55,20 +53,24 @@ const card: Card = {
 			id: "Bidik dan Jatuhkan"
 		},
 
-		damage: 10,
-
 		effect: {
 			ja: "ダメージを与える前に、相手のバトルポケモンについている「ポケモンのどうぐ」をトラッシュする。",
 			'zh-tw': "在造成傷害前，將對手的戰鬥寶可夢身上附加的「寶可夢道具」卡丟棄。",
 			th: "ก่อนจะทำแดเมจ ทิ้ง [ไอเท็มติดโปเกมอน] ที่ติดอยู่กับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามที่ตำแหน่งทิ้งการ์ด",
 			id: "Sebelum memberikan kerusakan, buang Pokémon Tool yang dikenakan pada Pokémon Bertarung lawan ke Trash."
-		}
+		},
+
+		damage: 10,
+		cost: ["Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Metal",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -79,10 +81,7 @@ const card: Card = {
 				cardtrader: 269700,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -44,8 +44,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "スクラッチネイル",
 			'zh-tw': "抓刮銳爪",
@@ -53,20 +51,24 @@ const card: Card = {
 			id: "Scratch Nail"
 		},
 
-		damage: "100+",
-
 		effect: {
 			ja: "相手のバトルポケモンにダメカンがのっているなら、120ダメージ追加。",
 			'zh-tw': "若對手的戰鬥寶可夢身上放置有傷害指示物，則增加120點傷害。",
 			th: "ถ้าโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามมีตัวนับแดเมจวางอยู่ การโจมตีนี้จะเพิ่มแดเมจอีก 120",
 			id: "Jika Pokémon Bertarung lawan memiliki Token Kerusakan, kerusakan yang diberikan bertambah sejumlah 120."
-		}
+		},
+
+		damage: "100+",
+		cost: ["Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Fire",
 		value: "×2"
 	}],
+
+	retreat: 2,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -77,10 +79,7 @@ const card: Card = {
 				cardtrader: 269638,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

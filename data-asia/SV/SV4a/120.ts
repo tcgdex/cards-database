@@ -50,8 +50,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Darkness", "Colorless"],
-
 		name: {
 			ja: "スラッシュクロー",
 			'zh-tw': "利爪揮砍",
@@ -59,13 +57,17 @@ const card: Card = {
 			id: "Cakar Penebas"
 		},
 
-		damage: 70
+		damage: 70,
+		cost: ["Darkness", "Colorless"]
 	}],
 
 	weaknesses: [{
 		type: "Grass",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -76,10 +78,7 @@ const card: Card = {
 				cardtrader: 269739,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

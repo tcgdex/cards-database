@@ -26,16 +26,18 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Psychic", "Darkness"],
-
 		name: {
 			ja: "かぜおこし",
 			'zh-tw': "起風",
 			id: "Hembusan Angin"
 		},
 
-		damage: 40
+		damage: 40,
+		cost: ["Psychic", "Darkness"]
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -46,10 +48,7 @@ const card: Card = {
 				cardtrader: 270367,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

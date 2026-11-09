@@ -28,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Darkness"],
-
 		name: {
 			ja: "ツメをたてる",
 			'zh-tw': "豎爪",
@@ -37,13 +35,17 @@ const card: Card = {
 			id: "Memasang Cakar"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Darkness"]
 	}],
 
 	weaknesses: [{
 		type: "Grass",
 		value: "×2"
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -60,10 +62,7 @@ const card: Card = {
 				tcgplayer: 577362,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card
