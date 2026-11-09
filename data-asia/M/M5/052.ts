@@ -33,7 +33,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Grass", value: "x2" }],
+	weaknesses: [{ type: "Grass", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -41,6 +41,8 @@ const card: Card = {
 			type: "normal",
 			thirdParty: {
 				cardmarket: 888307,
+				tcgplayer: 695016,
+				cardtrader: 391442,
 			},
 		},
 	],

@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 100,
 	types: ["Fighting"],
 
+	evolveFrom: {
+		ja: "古びたずがいの化石"
+	},
+
 	description: {
 		ja: "ズガイドス同士が 頭を ぶつけあうことで 頑丈な 頭が さらに 鍛えられる。",
 	},
@@ -29,7 +33,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Grass", value: "x2" }],
+	weaknesses: [{ type: "Grass", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -37,6 +41,8 @@ const card: Card = {
 			type: "normal",
 			thirdParty: {
 				cardmarket: 888297,
+				cardtrader: 391432,
+				tcgplayer: 695022,
 			},
 		},
 	],

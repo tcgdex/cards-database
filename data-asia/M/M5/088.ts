@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 140,
 	types: ["Psychic"],
 
+	description: {
+		ja: "海底を 漂う 藻屑が 沈没船の 部品を 取りこんで ゴーストポケモンに 生まれ変わった。"
+	},
+
 	stage: "Basic",
 
 	attacks: [
@@ -25,7 +29,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Darkness", value: "x2" }],
+	weaknesses: [{ type: "Darkness", value: "×2" }],
 	resistances: [{ type: "Fighting", value: "-30" }],
 
 	variants: [
@@ -33,6 +37,8 @@ const card: Card = {
 			type: "holo",
 			thirdParty: {
 				cardmarket: 888633,
+				cardtrader: 391494,
+				tcgplayer: 695039,
 			},
 		},
 	],
