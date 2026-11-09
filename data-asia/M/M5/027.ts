@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "フォトンコード" },
 			effect: {
-				ja: "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けてきぜつしたとき、このポケモンについている「基本[L]エネルギー」を2枚まで選び、ベンチポケモン1匹につけ替える。",
+				ja: "このポケモンが、バトル場で相手のポケモンからワザのダメージを受けてきぜつしたとき、このポケモンについている「基本{L}エネルギー」を2枚まで選び、ベンチポケモン1匹につけ替える。",
 			},
 		},
 	],
@@ -39,7 +39,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Fighting", value: "x2" }],
+	weaknesses: [{ type: "Fighting", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -47,6 +47,8 @@ const card: Card = {
 			type: "normal",
 			thirdParty: {
 				cardmarket: 888270,
+				cardtrader: 391417,
+				tcgplayer: 695079,
 			},
 		},
 	],

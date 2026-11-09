@@ -32,7 +32,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Fighting", value: "x2" }],
+	weaknesses: [{ type: "Fighting", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -41,13 +41,14 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900141,
 				tcgplayer: 709261,
+				cardtrader: 403191,
 			},
 		},
 	],
 
 	retreat: 0,
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Special illustration rare",
 	dexId: [243],
 
 	suffix: "EX",

@@ -30,12 +30,12 @@ const card: Card = {
 			damage: "50×",
 			cost: ["Fire", "Lightning", "Colorless"],
 			effect: {
-				ja: "自分のポケモン全員についている[R]と[L]エネルギーの数×50ダメージ。",
+				ja: "自分のポケモン全員についている{R}と{L}エネルギーの数×50ダメージ。",
 			},
 		},
 	],
 
-	weaknesses: [{ type: "Lightning", value: "x2" }],
+	weaknesses: [{ type: "Lightning", value: "×2" }],
 	resistances: [{ type: "Fighting", value: "-30" }],
 
 	variants: [
@@ -44,6 +44,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 899977,
 				tcgplayer: 709211,
+				cardtrader: 403086,
 			},
 		},
 	],

@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 150,
 	types: ["Colorless"],
 
+	description: {
+		ja: "番いの ドデカバシは クチバシの 温度を 上げて 温めあうので 仲良しの シンボルと されている。"
+	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -35,7 +39,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Lightning", value: "x2" }],
+	weaknesses: [{ type: "Lightning", value: "×2" }],
 	resistances: [{ type: "Fighting", value: "-30" }],
 
 	variants: [
@@ -43,6 +47,8 @@ const card: Card = {
 			type: "holo",
 			thirdParty: {
 				cardmarket: 888637,
+				cardtrader: 391498,
+				tcgplayer: 695098,
 			},
 		},
 	],

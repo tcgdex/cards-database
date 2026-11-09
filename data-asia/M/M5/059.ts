@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 100,
 	types: ["Metal"],
 
+	evolveFrom: {
+		ja: "古びたたての化石"
+	},
+
 	description: {
 		ja: "頑丈な 顔のおかげで 敵は 少なかったと 思われる。 太古の ジャングルに 棲んでいた。",
 	},
@@ -29,7 +33,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Fire", value: "x2" }],
+	weaknesses: [{ type: "Fire", value: "×2" }],
 	resistances: [{ type: "Grass", value: "-30" }],
 
 	variants: [
@@ -37,6 +41,8 @@ const card: Card = {
 			type: "normal",
 			thirdParty: {
 				cardmarket: 888321,
+				cardtrader: 391449,
+				tcgplayer: 695025,
 			},
 		},
 	],

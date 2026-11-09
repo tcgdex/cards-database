@@ -21,6 +21,7 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: "ちょくげきだん" },
+			damage: "10+",
 			cost: ["Colorless"],
 			effect: {
 				ja: "相手のポケモン1匹に、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
@@ -36,7 +37,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Fire", value: "x2" }],
+	weaknesses: [{ type: "Fire", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -45,6 +46,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 899795,
 				tcgplayer: 709161,
+				cardtrader: 403033,
 			},
 		},
 	],
