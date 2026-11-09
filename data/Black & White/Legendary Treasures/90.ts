@@ -78,10 +78,22 @@ const card: Card = {
 		en: "Bonds between these Pokémon are very strong. It protects the safety of its pack by tricking its opponents.",
 	},
 
-	thirdParty: {
-		cardmarket: 281241,
-		tcgplayer: 90755
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281241,
+				tcgplayer: 90755
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281241,
+				tcgplayer: 90755
+			}
+		},
+	],
 }
 
 export default card

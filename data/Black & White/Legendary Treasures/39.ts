@@ -70,10 +70,22 @@ const card: Card = {
 		en: "Part of the armor on its anterior legs becomes a giant sword. Its cry alone is enough to intimidate most enemies.",
 	},
 
-	thirdParty: {
-		cardmarket: 281190,
-		tcgplayer: 88911
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281190,
+				tcgplayer: 88911
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281190,
+				tcgplayer: 88911
+			}
+		},
+	],
 }
 
 export default card

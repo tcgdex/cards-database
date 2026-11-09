@@ -77,10 +77,22 @@ const card: Card = {
 		en: "One of the legendary bird Pokémon. It is said that its appearance indicates the coming of spring.",
 	},
 
-	thirdParty: {
-		cardmarket: 281173,
-		tcgplayer: 87565
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281173,
+				tcgplayer: 87565
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281173,
+				tcgplayer: 87565
+			}
+		},
+	],
 }
 
 export default card

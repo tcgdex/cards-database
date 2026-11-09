@@ -64,10 +64,22 @@ const card: Card = {
 		en: "It cheers on friends with pom-poms made of sparks. It drains power from telephone poles.",
 	},
 
-	thirdParty: {
-		cardmarket: 281198,
-		tcgplayer: 88174
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281198,
+				tcgplayer: 88174
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281198,
+				tcgplayer: 88174
+			}
+		},
+	],
 }
 
 export default card

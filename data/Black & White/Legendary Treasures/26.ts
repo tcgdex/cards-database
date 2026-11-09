@@ -70,10 +70,22 @@ const card: Card = {
 		en: "When its internal fire flares up, its movements grow sharper and faster. When it trouble, it emits smoke.",
 	},
 
-	thirdParty: {
-		cardmarket: 281177,
-		tcgplayer: 88063
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281177,
+				tcgplayer: 88063
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281177,
+				tcgplayer: 88063
+			}
+		},
+	],
 }
 
 export default card

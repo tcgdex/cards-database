@@ -66,10 +66,22 @@ const card: Card = {
 		en: "The melodies sung by Meloetta have the power to make Pokémon that hear them happy or sad.",
 	},
 
-	thirdParty: {
-		cardmarket: 281229,
-		tcgplayer: 87303
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281237,
+				tcgplayer: 87303
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281237,
+				tcgplayer: 87303
+			}
+		},
+	],
 }
 
 export default card

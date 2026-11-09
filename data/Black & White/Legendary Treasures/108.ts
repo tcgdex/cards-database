@@ -73,10 +73,22 @@ const card: Card = {
 		en: "The lower half of its body is wrapped in a cloud of energy. It zooms through the sky at 200 mph.",
 	},
 
-	thirdParty: {
-		cardmarket: 281259,
-		tcgplayer: 89976
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281259,
+				tcgplayer: 89976
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281259,
+				tcgplayer: 89976
+			}
+		},
+	],
 }
 
 export default card

@@ -52,10 +52,22 @@ const card: Card = {
 		en: "A Magikarp living for many years can leap a mountain using Splash. The move remains useless, though.",
 	},
 
-	thirdParty: {
-		cardmarket: 281181,
-		tcgplayer: 87037
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281181,
+				tcgplayer: 87037
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281181,
+				tcgplayer: 87037
+			}
+		},
+	],
 }
 
 export default card

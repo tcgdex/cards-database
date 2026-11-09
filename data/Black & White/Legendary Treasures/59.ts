@@ -53,10 +53,22 @@ const card: Card = {
 		en: "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.",
 	},
 
-	thirdParty: {
-		cardmarket: 281143,
-		tcgplayer: 88566
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281210,
+				tcgplayer: 88566
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281210,
+				tcgplayer: 88566
+			}
+		},
+	],
 }
 
 export default card

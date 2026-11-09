@@ -64,9 +64,22 @@ const card: Card = {
 		en: "Being exposed to sunlight makes its movements swifter. It uses vines more adeptly than its hands.",
 	},
 
-	thirdParty: {
-		cardmarket: 281150
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281150,
+				tcgplayer: 89381
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281150,
+				tcgplayer: 89381
+			}
+		},
+	],
 }
 
 export default card

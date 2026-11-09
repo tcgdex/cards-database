@@ -46,10 +46,22 @@ const card: Card = {
 		en: "It hides in the darkness of caves. Its diet of gems has transformed its eyes into gemstones.",
 	},
 
-	thirdParty: {
-		cardmarket: 281212,
-		tcgplayer: 88856
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281212,
+				tcgplayer: 88856
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281212,
+				tcgplayer: 88856
+			}
+		},
+	],
 }
 
 export default card

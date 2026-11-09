@@ -62,10 +62,22 @@ const card: Card = {
 		en: "It attacks using its huge mouth. While its attacks are powerful, it hurts itself out of clumsiness, too.",
 	},
 
-	thirdParty: {
-		cardmarket: 281245,
-		tcgplayer: 85704
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281245,
+				tcgplayer: 85704
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281245,
+				tcgplayer: 85704
+			}
+		},
+	],
 }
 
 export default card

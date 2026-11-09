@@ -65,10 +65,22 @@ const card: Card = {
 		en: "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
 	},
 
-	thirdParty: {
-		cardmarket: 281174,
-		tcgplayer: 90348
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281174,
+				tcgplayer: 90348
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281174,
+				tcgplayer: 90348
+			}
+		},
+	],
 }
 
 export default card
