@@ -12,7 +12,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		ja: "このカードは、ポケモンについているかぎり、[W]エネルギー1個ぶんとしてはたらく。このカードをつけている[W]ポケモンは、特殊状態にならず、受けている特殊状態は、すべて回復する。",
+		ja: "このカードは、ポケモンについているかぎり、{W}エネルギー1個ぶんとしてはたらく。このカードをつけている{W}ポケモンは、特殊状態にならず、受けている特殊状態は、すべて回復する。",
 	},
 
 	variants: [
@@ -21,12 +21,13 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900139,
 				tcgplayer: 709259,
+				cardtrader: 403189,
 			},
 		},
 	],
 
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Ultra Rare",
 };
 
 export default card;

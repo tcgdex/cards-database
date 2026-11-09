@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 150,
 	types: ["Fighting"],
 
+	description: {
+		ja: "高熱で 水を 蒸発させて 大地を 広げたと 言われている。 カイオーガと 激しく 戦った。"
+	},
+
 	stage: "Basic",
 
 	attacks: [
@@ -30,7 +34,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Grass", value: "x2" }],
+	weaknesses: [{ type: "Grass", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -39,13 +43,14 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900110,
 				tcgplayer: 709237,
+				cardtrader: 403167,
 			},
 		},
 	],
 
 	retreat: 4,
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Illustration rare",
 	dexId: [383],
 };
 

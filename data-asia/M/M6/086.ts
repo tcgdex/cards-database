@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 30,
 	types: ["Colorless"],
 
+	description: {
+		ja: "まるくて 大きな 尻尾には 成長に 必要な 栄養が たっぷりと 詰まっているのだ。"
+	},
+
 	stage: "Basic",
 
 	attacks: [
@@ -24,7 +28,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Fighting", value: "x2" }],
+	weaknesses: [{ type: "Fighting", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -33,13 +37,14 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900112,
 				tcgplayer: 709239,
+				cardtrader: 403169,
 			},
 		},
 	],
 
 	retreat: 0,
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Illustration rare",
 	dexId: [298],
 };
 

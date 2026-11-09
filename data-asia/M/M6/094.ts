@@ -33,7 +33,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Grass", value: "x2" }],
+	weaknesses: [{ type: "Grass", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -42,6 +42,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900127,
 				tcgplayer: 709247,
+				cardtrader: 403177,
 			},
 		},
 	],
@@ -52,7 +53,7 @@ const card: Card = {
 
 	retreat: 2,
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Ultra Rare",
 	dexId: [687],
 
 	suffix: "EX",
