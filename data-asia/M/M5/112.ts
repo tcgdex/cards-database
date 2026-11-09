@@ -20,7 +20,7 @@ const card: Card = {
 			damage: "60×",
 			cost: ["Lightning"],
 			effect: {
-				ja: "このポケモンについている[L]エネルギーの数×60ダメージ。",
+				ja: "このポケモンについている{L}エネルギーの数×60ダメージ。",
 			},
 		},
 		{
@@ -33,7 +33,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Fighting", value: "x2" }],
+	weaknesses: [{ type: "Fighting", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -41,6 +41,8 @@ const card: Card = {
 			type: "holo",
 			thirdParty: {
 				cardmarket: 888657,
+				cardtrader: 391518,
+				tcgplayer: 695051,
 			},
 		},
 	],

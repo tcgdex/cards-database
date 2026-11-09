@@ -35,7 +35,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Darkness", value: "x2" }],
+	weaknesses: [{ type: "Darkness", value: "×2" }],
 	resistances: [{ type: "Fighting", value: "-30" }],
 
 	variants: [
@@ -44,6 +44,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900126,
 				tcgplayer: 709246,
+				cardtrader: 403176,
 			},
 		},
 	],
@@ -54,7 +55,7 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Ultra Rare",
 	dexId: [623],
 
 	suffix: "EX",

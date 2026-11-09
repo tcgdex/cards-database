@@ -24,12 +24,12 @@ const card: Card = {
 			damage: "40+",
 			cost: ["Fire"],
 			effect: {
-				ja: "[R]エネルギーがついている自分のベンチポケモンの数×40ダメージ追加。",
+				ja: "{R}エネルギーがついている自分のベンチポケモンの数×40ダメージ追加。",
 			},
 		},
 	],
 
-	weaknesses: [{ type: "Water", value: "x2" }],
+	weaknesses: [{ type: "Water", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -37,6 +37,8 @@ const card: Card = {
 			type: "holo",
 			thirdParty: {
 				cardmarket: 888248,
+				cardtrader: 391401,
+				tcgplayer: 695062,
 			},
 		},
 	],

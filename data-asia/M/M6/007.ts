@@ -34,7 +34,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Fire", value: "x2" }],
+	weaknesses: [{ type: "Fire", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -43,6 +43,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 899797,
 				tcgplayer: 709163,
+				cardtrader: 403035,
 			},
 		},
 	],

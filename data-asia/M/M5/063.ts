@@ -33,7 +33,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Fire", value: "x2" }],
+	weaknesses: [{ type: "Fire", value: "×2" }],
 	resistances: [{ type: "Grass", value: "-30" }],
 
 	variants: [
@@ -41,6 +41,8 @@ const card: Card = {
 			type: "holo",
 			thirdParty: {
 				cardmarket: 888327,
+				cardtrader: 391453,
+				tcgplayer: 695010,
 			},
 		},
 	],

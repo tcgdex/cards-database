@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 140,
 	types: ["Lightning"],
 
+	description: {
+		ja: "相手に 尻尾の先を 押しつけ 瞬時に ２万ボルト 以上の 高圧 電流を 送りこむ。"
+	},
+
 	stage: "Stage1",
 
 	attacks: [
@@ -33,7 +37,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Fighting", value: "x2" }],
+	weaknesses: [{ type: "Fighting", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -42,6 +46,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900107,
 				tcgplayer: 709234,
+				cardtrader: 403164,
 			},
 		},
 	],
@@ -52,7 +57,7 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Illustration rare",
 	dexId: [466],
 };
 

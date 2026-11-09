@@ -12,7 +12,7 @@ const card: Card = {
 	energyType: "Special",
 
 	effect: {
-		ja: "このカードは、ポケモンについているかぎり、[R]エネルギー1個ぶんとしてはたらく。このカードをつけている[R]ポケモンが使うワザの効果で、このカードがトラッシュされたなら、ワザのダメージや効果のあとに、手札にもどす。",
+		ja: "このカードは、ポケモンについているかぎり、{R}エネルギー1個ぶんとしてはたらく。このカードをつけている{R}ポケモンが使うワザの効果で、このカードがトラッシュされたなら、ワザのダメージや効果のあとに、手札にもどす。",
 	},
 
 	variants: [
@@ -21,12 +21,13 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900138,
 				tcgplayer: 709258,
+				cardtrader: 403188,
 			},
 		},
 	],
 
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Ultra Rare",
 };
 
 export default card;

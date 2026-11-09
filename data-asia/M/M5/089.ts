@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 100,
 	types: ["Darkness"],
 
+	description: {
+		ja: "狙った 獲物は こっそり マーキング。 においを 辿って 油断 したころ 盗みに 来るぞ。"
+	},
+
 	stage: "Stage1",
 
 	attacks: [
@@ -29,7 +33,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Grass", value: "x2" }],
+	weaknesses: [{ type: "Grass", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -37,6 +41,8 @@ const card: Card = {
 			type: "holo",
 			thirdParty: {
 				cardmarket: 888634,
+				cardtrader: 391495,
+				tcgplayer: 695017,
 			},
 		},
 	],
