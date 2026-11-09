@@ -37,7 +37,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Water", value: "x2" }],
+	weaknesses: [{ type: "Water", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -46,6 +46,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 899854,
 				tcgplayer: 709167,
+				cardtrader: 403039,
 			},
 		},
 	],

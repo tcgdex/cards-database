@@ -31,12 +31,12 @@ const card: Card = {
 			damage: 260,
 			cost: ["Lightning", "Lightning"],
 			effect: {
-				ja: "このポケモンに「ボルト[L]エネルギー」がついていないなら、このワザは失敗。",
+				ja: "このポケモンに「ボルト{L}エネルギー」がついていないなら、このワザは失敗。",
 			},
 		},
 	],
 
-	weaknesses: [{ type: "Fighting", value: "x2" }],
+	weaknesses: [{ type: "Fighting", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -44,6 +44,8 @@ const card: Card = {
 			type: "normal",
 			thirdParty: {
 				cardmarket: 888267,
+				cardtrader: 391415,
+				tcgplayer: 695077,
 			},
 		},
 	],

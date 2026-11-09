@@ -11,7 +11,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "自分の番ごとに1回、このカードをつけている[C]ポケモンのワザで自分がコインを投げたとき、そのコインの結果をすべてなくし、はじめからコインを投げなおしてよい。",
+		ja: "自分の番ごとに1回、このカードをつけている{C}ポケモンのワザで自分がコインを投げたとき、そのコインの結果をすべてなくし、はじめからコインを投げなおしてよい。",
 	},
 
 	variants: [
@@ -19,6 +19,8 @@ const card: Card = {
 			type: "normal",
 			thirdParty: {
 				cardmarket: 888346,
+				cardtrader: 391464,
+				tcgplayer: 695105,
 			},
 		},
 	],

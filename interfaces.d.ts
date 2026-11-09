@@ -220,6 +220,7 @@ export interface Card {
 	 * - Rare Holo: https://www.tcgdex.net/database/Platinum/Platinum/1-Ampharos
 	 * - Rare Holo LV.X: https://www.tcgdex.net/database/Platinum/Platinum/122-Dialga-G
 	 * - Rare PRIME: https://www.tcgdex.net/database/HeartGold-&-SoulSilver/HeartGold-SoulSilver/105-Ampharos
+	 * - Rare Shining: https://www.tcgdex.net/database/Sun-&-Moon/Shining-Legends/9-Shining-Genesect
 	 * - Secret Rare: https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/73-Alcremie-VMAX
 	 * - Shiny rare: https://www.tcgdex.net/database/Sword-&-Shield/Shining-Fates/SV001-Rowlet
 	 * - Shiny Ultra Rare: https://www.tcgdex.net/database/Scarlet-&-Violet/Paldean-Fates/213-Toedscruel-ex
@@ -233,7 +234,7 @@ export interface Card {
 			'Double rare' | 'Full Art Trainer' | 'Holo Rare' | 'Holo Rare V' |
 			'Holo Rare VMAX' | 'Holo Rare VSTAR' | 'Hyper rare' | 'Illustration rare' |
 			'LEGEND' | 'None' | 'Radiant Rare' | 'Rare' | 'Rare Holo' | 'Rare Holo LV.X' |
-			'Rare PRIME' | 'Secret Rare' | 'Shiny Ultra Rare' | 'Shiny rare' | 'Shiny rare V' |
+			'Rare PRIME' | 'Rare Shining' | 'Secret Rare' | 'Shiny Ultra Rare' | 'Shiny rare' | 'Shiny rare V' |
 			'Shiny rare VMAX' | 'Special illustration rare' | 'Ultra Rare' | 'Uncommon'
 			// Black White rare
 			| 'Black White Rare'
@@ -242,14 +243,12 @@ export interface Card {
 			| 'Triple Rare'
 			// Japanese Character Rares (since SM11b Dream League)
 			| 'Character Rare' | 'Character Super Rare'
-			// Japanese Futuristic Rare (since M6a 30th Celebration)
+			// Futuristic Rare (30th Celebration)
 			| 'Futuristic Rare'
-			// Japanese RGB Rare — the red/green/blue Mew prints of M6a 30th Celebration
-			| 'RGB Rare'
 			// Pokémon TCG Pocket Rarities
 			| 'One Diamond' | 'Two Diamond' | 'Three Diamond' | 'Four Diamond' | 'One Star' | 'Two Star' | 'Three Star' | 'Crown' | 'One Shiny' | 'Two Shiny'
 			| 'Promo' | 'Prism Star'
-			| 'Pikachu Rare' | 'Futuristic Rare'
+			| 'Pikachu Rare'
 			// the red/green/blue Mew prints of 30th Celebration
 			| 'RGB Rare'
 

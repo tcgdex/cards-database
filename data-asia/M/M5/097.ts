@@ -35,7 +35,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Darkness", value: "x2" }],
+	weaknesses: [{ type: "Darkness", value: "×2" }],
 	resistances: [{ type: "Fighting", value: "-30" }],
 
 	variants: [
@@ -43,6 +43,8 @@ const card: Card = {
 			type: "holo",
 			thirdParty: {
 				cardmarket: 888642,
+				cardtrader: 391503,
+				tcgplayer: 695036,
 			},
 		},
 	],

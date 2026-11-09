@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 120,
 	types: ["Psychic"],
 
+	description: {
+		ja: "海を越えて 飛来したらば 厳しき冬の 終わりを知る。 慈愛が ヒスイの地に 新しき命 芽吹かせるとの 伝承あり。"
+	},
+
 	stage: "Basic",
 
 	abilities: [
@@ -19,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "けしんだんけつ" },
 			effect: {
-				ja: "自分の場に「トルネロス」「ボルトロス」「ランドロス」「ラブトロス」がいるなら、このポケモンはワザを使うための[C]エネルギーが、すべてなくなる。",
+				ja: "自分の場に「トルネロス」「ボルトロス」「ランドロス」「ラブトロス」がいるなら、このポケモンはワザを使うための{C}エネルギーが、すべてなくなる。",
 			},
 		},
 	],
@@ -35,7 +39,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Metal", value: "x2" }],
+	weaknesses: [{ type: "Metal", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -44,13 +48,14 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900109,
 				tcgplayer: 709236,
+				cardtrader: 403166,
 			},
 		},
 	],
 
 	retreat: 1,
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Illustration rare",
 	dexId: [905],
 };
 

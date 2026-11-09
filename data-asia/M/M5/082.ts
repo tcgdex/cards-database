@@ -7,10 +7,14 @@ const card: Card = {
 		ja: "カリキリ",
 	},
 
-	illustrator: "Jiro Sasuno",
+	illustrator: "Jiro Sasumo",
 	category: "Pokemon",
 	hp: 70,
 	types: ["Grass"],
+
+	description: {
+		ja: "落ち着いて 日光浴 できるよう カリキリ専用の フラワーポットを 与える トレーナーも 多い。"
+	},
 
 	stage: "Basic",
 
@@ -25,7 +29,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Fire", value: "x2" }],
+	weaknesses: [{ type: "Fire", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -33,6 +37,8 @@ const card: Card = {
 			type: "holo",
 			thirdParty: {
 				cardmarket: 888627,
+				cardtrader: 391488,
+				tcgplayer: 695055,
 			},
 		},
 	],

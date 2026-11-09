@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 150,
 	types: ["Water"],
 
+	description: {
+		ja: "大雨と 大津波で 海を 広げた 神話の ポケモン。 グラードンと 激しく 戦った。"
+	},
+
 	stage: "Basic",
 
 	attacks: [
@@ -30,7 +34,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Lightning", value: "x2" }],
+	weaknesses: [{ type: "Lightning", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -39,13 +43,14 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900105,
 				tcgplayer: 709233,
+				cardtrader: 403163,
 			},
 		},
 	],
 
 	retreat: 3,
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Illustration rare",
 	dexId: [382],
 };
 
