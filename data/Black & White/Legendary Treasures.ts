@@ -5,6 +5,7 @@ const bw11: Set = {
 	id: "bw11",
 
 	name: {
+		de: "Legendäre Schätze",
 		en: "Legendary Treasures",
 		es: "Tesoros Legendarios",
 		// fr: "Trésors Légendaires", // ONLY PTCGO
