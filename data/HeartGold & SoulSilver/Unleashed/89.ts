@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Ursaring",
 		fr: "Ursaring",
+		es: "Ursaring",
 		de: "Ursaring"
 	},
 
@@ -97,7 +98,7 @@ const card: Card = {
 		{
 			type: "holo",
 			thirdParty: {
-				cardmarket: 279183,
+				cardmarket: 279245,
 				tcgplayer: 90255
 			}
 		},
