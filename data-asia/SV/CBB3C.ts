@@ -4,6 +4,7 @@ import serie from '../SV'
 const set: Set = {
 	id: 'CBB3C',
 	name: {
+		en: 'Gem Pack Vol. 3',
 		'zh-cn': '宝石包Vol.3',
 	},
 

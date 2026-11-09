@@ -4,6 +4,8 @@ import Set from '../Battle Styles'
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [891],
+
 	name: {
 		en: "Tower of Waters",
 		fr: "Tour de l'Eau",
