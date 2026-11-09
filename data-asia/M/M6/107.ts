@@ -33,7 +33,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Fire", value: "x2" }],
+	weaknesses: [{ type: "Fire", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -42,6 +42,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900140,
 				tcgplayer: 709260,
+				cardtrader: 403190,
 			},
 		},
 	],
@@ -52,7 +53,7 @@ const card: Card = {
 
 	retreat: 3,
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Special illustration rare",
 	dexId: [768],
 
 	suffix: "EX",

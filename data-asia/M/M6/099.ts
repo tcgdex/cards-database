@@ -4,28 +4,30 @@ import Set from "../M6";
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポケモンキャッチャー",
+		ja: "とくちゅうチョッキ",
 	},
 
 	illustrator: "Toyste Beach",
 	category: "Trainer",
 
 	effect: {
-		ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+		ja: "このカードをつけているポケモン（「メガシンカex」をのぞく）が、相手の「メガシンカex」から受けるワザのダメージは「-60」される。",
 	},
 
+	regulationMark: "J",
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 900132,
 				tcgplayer: 709252,
+				cardtrader: 403182,
 			},
 		},
 	],
 
-	trainerType: "Item",
-	rarity: "Mega Hyper Rare",
+	trainerType: "Tool",
+	rarity: "Ultra Rare",
 };
 
 export default card;

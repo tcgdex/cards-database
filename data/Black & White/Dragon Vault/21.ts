@@ -3,6 +3,7 @@ import Set from '../Dragon Vault'
 
 const card: Card = {
 	name: {
+		de: "Kyurem",
 		en: "Kyurem",
 		fr: "Kyurem"
 	},

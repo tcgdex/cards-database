@@ -23,7 +23,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "けしんだんけつ" },
 			effect: {
-				ja: "自分の場に「トルネロス」「ボルトロス」「ランドロス」「ラブトロス」がいるなら、このポケモンはワザを使うための[C]エネルギーが、すべてなくなる。",
+				ja: "自分の場に「トルネロス」「ボルトロス」「ランドロス」「ラブトロス」がいるなら、このポケモンはワザを使うための{C}エネルギーが、すべてなくなる。",
 			},
 		},
 	],
@@ -39,7 +39,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Metal", value: "x2" }],
+	weaknesses: [{ type: "Metal", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -48,6 +48,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 899937,
 				tcgplayer: 709188,
+				cardtrader: 403062,
 			},
 		},
 	],

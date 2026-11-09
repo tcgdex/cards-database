@@ -11,7 +11,7 @@ const card: Card = {
 	category: "Trainer",
 
 	effect: {
-		ja: "おたがいの[C]ポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、とられるサイドは1枚少なくなる。",
+		ja: "おたがいの{C}ポケモンが、相手のポケモンからワザのダメージを受けてきぜつしたとき、とられるサイドは1枚少なくなる。",
 	},
 
 	variants: [
@@ -20,6 +20,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900085,
 				tcgplayer: 709227,
+				cardtrader: 403102,
 			},
 		},
 	],

@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 120,
 	types: ["Lightning"],
 
+	description: {
+		ja: "たてがみから 放電している。 頭上に 雷雲を 作り 稲妻を 落として 攻撃する。"
+	},
+
 	stage: "Stage1",
 
 	attacks: [
@@ -33,7 +37,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Fighting", value: "x2" }],
+	weaknesses: [{ type: "Fighting", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -41,6 +45,8 @@ const card: Card = {
 			type: "holo",
 			thirdParty: {
 				cardmarket: 888631,
+				cardtrader: 391492,
+				tcgplayer: 695075,
 			},
 		},
 	],

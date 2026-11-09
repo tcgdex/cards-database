@@ -3,6 +3,7 @@ import Set from '../Legendary Treasures'
 
 const card: Card = {
 	name: {
+		de: "Trasla",
 		en: "Ralts",
 	},
 

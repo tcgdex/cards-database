@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 110,
 	types: ["Grass"],
 
+	description: {
+		ja: "雨に 濡れると 特徴的な 目玉模様の 触角が 重くなり 飛べなくなって しまう。"
+	},
+
 	stage: "Stage1",
 
 	attacks: [
@@ -33,7 +37,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Fire", value: "x2" }],
+	weaknesses: [{ type: "Fire", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -42,6 +46,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900099,
 				tcgplayer: 709230,
+				cardtrader: 403160,
 			},
 		},
 	],
@@ -52,7 +57,7 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Illustration rare",
 	dexId: [284],
 };
 
