@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Hitoshi Ariga',
+	rarity: "Rare Shining",
 	category: 'Pokemon',
+	dexId: [249],
 	hp: 130,
 	types: ['Colorless'],
 
@@ -21,25 +23,28 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'ぎんのつばさ' },
-			damage: '60+',
-			cost: ['Colorless', 'Colorless', 'Colorless'],
 			effect: {
 				ja: '相手のバトルポケモンが特性を持っているなら、60ダメージ追加。'
-			}
+			},
+			damage: '60+',
+			cost: ['Colorless', 'Colorless', 'Colorless']
 		},
 		{
 			name: { ja: 'エアロフォース' },
-			damage: 130,
-			cost: ['Colorless', 'Colorless', 'Colorless', 'Colorless'],
 			effect: {
 				ja: 'このポケモンについているエネルギーを、1個トラッシュする。'
-			}
+			},
+			damage: 130,
+			cost: ['Colorless', 'Colorless', 'Colorless', 'Colorless']
 		}
 	],
 
-	weaknesses: [{ type: 'Lightning', value: 'x2' }],
+	weaknesses: [{ type: 'Lightning', value: "×2" }],
 	resistances: [{ type: 'Fighting', value: '-20' }],
 
+	retreat: 2,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'holo',
@@ -49,11 +54,7 @@ const card: Card = {
 				cardtrader: 142459
 			}
 		}
-	],
-
-	retreat: 2,
-	rarity: 'Shiny Ultra Rare',
-	dexId: [249]
+	]
 }
 
 export default card

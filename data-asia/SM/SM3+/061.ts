@@ -8,12 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: 'Ryo Ueda',
+	rarity: 'Uncommon',
 	category: 'Trainer',
 
 	effect: {
-		ja: '自分の山札を上から7枚見る。その中からポケモンを1枚選び、相手に見せてから、手札に加えてよい。残りのカードは山札にもどし、山札を切る。'
+		ja: "自分の山札を上から7枚見る。その中にあるポケモンを1枚、相手に見せてから、手札に加えてよい。残りのカードは山札にもどして切る。"
 	},
 
+	trainerType: 'Item',
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -23,10 +27,7 @@ const card: Card = {
 				cardtrader: 142462
 			}
 		}
-	],
-
-	trainerType: 'Item',
-	rarity: 'Uncommon'
+	]
 }
 
 export default card

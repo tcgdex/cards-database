@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
+	rarity: "Rare",
 	category: "Pokemon",
+	dexId: [490],
 	hp: 60,
 	types: ["Water"],
 
@@ -23,7 +25,7 @@ const card: Card = {
 			type: "Ability",
 			name: { ja: "しんかいのめぐみ" },
 			effect: {
-				ja: "自分の番に1回使える。[水]エネルギーがついている自分のポケモン1匹のHPを「20」回復する。",
+				ja: "自分の番に1回使える。{W}エネルギーがついている自分のポケモン1匹のHPを「20」回復する。",
 			},
 		},
 	],
@@ -36,9 +38,12 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Grass", value: "x2" }],
+	weaknesses: [{ type: "Grass", value: "×2" }],
 	resistances: [],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: "holo",
@@ -49,10 +54,6 @@ const card: Card = {
 			},
 		},
 	],
-
-	retreat: 1,
-	rarity: "Rare",
-	dexId: [490],
 };
 
 export default card;

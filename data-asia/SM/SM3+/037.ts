@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'DemizuPosuka',
+	rarity: 'Common',
 	category: 'Pokemon',
+	dexId: [23],
 	hp: 70,
 	types: ['Psychic'],
 
@@ -21,17 +23,20 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'どくばり' },
-			damage: 10,
-			cost: ['Colorless'],
 			effect: {
 				ja: 'コインを1回投げオモテなら、相手のバトルポケモンをどくにする。'
-			}
+			},
+			damage: 10,
+			cost: ['Colorless']
 		}
 	],
 
-	weaknesses: [{ type: 'Psychic', value: 'x2' }],
+	weaknesses: [{ type: 'Psychic', value: "×2" }],
 	resistances: [],
 
+	retreat: 2,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -41,11 +46,7 @@ const card: Card = {
 				cardtrader: 142438
 			}
 		}
-	],
-
-	retreat: 2,
-	rarity: 'Common',
-	dexId: [23]
+	]
 }
 
 export default card

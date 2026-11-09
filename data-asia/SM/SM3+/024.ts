@@ -8,9 +8,15 @@ const card: Card = {
 	},
 
 	illustrator: 'Suwama Chiaki',
+	rarity: 'Uncommon',
 	category: 'Pokemon',
+	dexId: [419],
 	hp: 100,
 	types: ['Water'],
+
+	evolveFrom: {
+		ja: 'ブイゼル'
+	},
 
 	description: {
 		ja: '発達した 浮き袋で 浮かぶ。 おぼれた 人を 救助する 手伝いを している ポケモンだ。'
@@ -26,17 +32,20 @@ const card: Card = {
 		},
 		{
 			name: { ja: 'アクアボム' },
-			damage: 120,
-			cost: ['Water', 'Colorless', 'Colorless'],
 			effect: {
 				ja: 'このポケモンにも30ダメージ。'
-			}
+			},
+			damage: 120,
+			cost: ['Water', 'Colorless', 'Colorless']
 		}
 	],
 
-	weaknesses: [{ type: 'Grass', value: 'x2' }],
+	weaknesses: [{ type: 'Grass', value: "×2" }],
 	resistances: [],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -46,15 +55,7 @@ const card: Card = {
 				cardtrader: 142425
 			}
 		}
-	],
-
-	evolveFrom: {
-		ja: 'ブイゼル'
-	},
-
-	retreat: 1,
-	rarity: 'Uncommon',
-	dexId: [419]
+	]
 }
 
 export default card

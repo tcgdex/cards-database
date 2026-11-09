@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Mizue',
+	rarity: 'Common',
 	category: 'Pokemon',
+	dexId: [1],
 	hp: 70,
 	types: ['Grass'],
 
@@ -29,6 +31,8 @@ const card: Card = {
 	weaknesses: [{ type: 'Fire', value: '×2' }],
 	resistances: [],
 
+	retreat: 2,
+
 	regulationMark: 'A',
 	variants: [
 		{
@@ -39,11 +43,7 @@ const card: Card = {
 				cardtrader: 142402
 			}
 		}
-	],
-
-	retreat: 2,
-	rarity: 'Common',
-	dexId: [1]
+	]
 }
 
 export default card

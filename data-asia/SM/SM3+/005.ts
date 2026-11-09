@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'kawayoo',
+	rarity: 'Common',
 	category: 'Pokemon',
+	dexId: [285],
 	hp: 60,
 	types: ['Grass'],
 
@@ -21,16 +23,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'すいとる' },
-			damage: 20,
-			cost: ['Colorless', 'Colorless'],
 			effect: {
 				ja: 'このポケモンのHPを「20」回復する。'
-			}
+			},
+			damage: 20,
+			cost: ['Colorless', 'Colorless']
 		}
 	],
 
 	weaknesses: [{ type: 'Fire', value: "×2" }],
 	resistances: [],
+
+	retreat: 1,
 
 	regulationMark: "A",
 	variants: [
@@ -42,11 +46,7 @@ const card: Card = {
 				cardtrader: 142406
 			}
 		}
-	],
-
-	retreat: 1,
-	rarity: 'Common',
-	dexId: [285]
+	]
 }
 
 export default card

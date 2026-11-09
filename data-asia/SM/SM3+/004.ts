@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Sanosuke Sakuma',
+	rarity: "Rare Shining",
 	category: 'Pokemon',
+	dexId: [251],
 	hp: 70,
 	types: ['Grass'],
 
@@ -39,6 +41,8 @@ const card: Card = {
 	weaknesses: [{ type: 'Fire', value: "×2" }],
 	resistances: [],
 
+	retreat: 1,
+
 	regulationMark: "A",
 	variants: [
 		{
@@ -49,11 +53,7 @@ const card: Card = {
 				cardtrader: 142405
 			}
 		}
-	],
-
-	retreat: 1,
-	rarity: 'Shiny Ultra Rare',
-	dexId: [251]
+	]
 }
 
 export default card

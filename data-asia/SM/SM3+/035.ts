@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'nagimiso',
+	rarity: 'Common',
 	category: 'Pokemon',
+	dexId: [312],
 	hp: 70,
 	types: ['Lightning'],
 
@@ -21,24 +23,27 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'もってくる' },
-			cost: ['Colorless'],
 			effect: {
 				ja: '自分の山札を1枚引く。'
-			}
+			},
+			cost: ['Colorless']
 		},
 		{
 			name: { ja: 'スパーク' },
-			damage: 20,
-			cost: ['Lightning'],
 			effect: {
 				ja: '相手のベンチポケモン1匹にも、20ダメージ。［ベンチは弱点・抵抗力を計算しない。］'
-			}
+			},
+			damage: 20,
+			cost: ['Lightning']
 		}
 	],
 
-	weaknesses: [{ type: 'Fighting', value: 'x2' }],
+	weaknesses: [{ type: 'Fighting', value: "×2" }],
 	resistances: [{ type: 'Metal', value: '-20' }],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -48,11 +53,7 @@ const card: Card = {
 				cardtrader: 142436
 			}
 		}
-	],
-
-	retreat: 1,
-	rarity: 'Common',
-	dexId: [312]
+	]
 }
 
 export default card

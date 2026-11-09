@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Shin Nagasawa',
+	rarity: 'Rare',
 	category: 'Pokemon',
+	dexId: [717],
 	hp: 120,
 	types: ['Darkness'],
 
@@ -21,25 +23,28 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'ひるがえす' },
-			damage: 30,
-			cost: ['Colorless', 'Colorless'],
 			effect: {
 				ja: 'のぞむなら、このポケモンをベンチポケモンと入れ替える。'
-			}
+			},
+			damage: 30,
+			cost: ['Colorless', 'Colorless']
 		},
 		{
 			name: { ja: 'デスウイング' },
-			damage: 90,
-			cost: ['Darkness', 'Colorless', 'Colorless'],
 			effect: {
-				ja: '自分のトラッシュにある[悪]エネルギーを1枚、ベンチポケモンにつける。'
-			}
+				ja: "自分のトラッシュにある{D}エネルギーを1枚、ベンチポケモンにつける。"
+			},
+			damage: 90,
+			cost: ['Darkness', 'Colorless', 'Colorless']
 		}
 	],
 
-	weaknesses: [{ type: 'Lightning', value: 'x2' }],
+	weaknesses: [{ type: 'Lightning', value: "×2" }],
 	resistances: [{ type: 'Fighting', value: '-20' }],
 
+	retreat: 2,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'holo',
@@ -49,11 +54,7 @@ const card: Card = {
 				cardtrader: 142456
 			}
 		}
-	],
-
-	retreat: 2,
-	rarity: 'Rare',
-	dexId: [717]
+	]
 }
 
 export default card

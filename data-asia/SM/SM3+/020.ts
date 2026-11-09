@@ -8,9 +8,15 @@ const card: Card = {
 	},
 
 	illustrator: 'Naoki Saito',
+	rarity: 'Common',
 	category: 'Pokemon',
+	dexId: [159],
 	hp: 90,
 	types: ['Water'],
+
+	evolveFrom: {
+		ja: 'ワニノコ'
+	},
 
 	description: {
 		ja: 'キバは 抜けても 次から 次に 生えてくる。 いつも 口の中には ４８本の キバが そろっている。'
@@ -36,9 +42,12 @@ const card: Card = {
 		}
 	],
 
-	weaknesses: [{ type: 'Grass', value: 'x2' }],
+	weaknesses: [{ type: 'Grass', value: "×2" }],
 	resistances: [],
 
+	retreat: 3,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -48,15 +57,7 @@ const card: Card = {
 				cardtrader: 142421
 			}
 		}
-	],
-
-	evolveFrom: {
-		ja: 'ワニノコ'
-	},
-
-	retreat: 3,
-	rarity: 'Common',
-	dexId: [159]
+	]
 }
 
 export default card

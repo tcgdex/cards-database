@@ -8,12 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: 'Ken Sugimori',
+	rarity: 'Uncommon',
 	category: 'Trainer',
 
 	effect: {
 		ja: 'このカードは、自分の手札を2枚トラッシュしなければ使えない。自分の山札を4枚引く。'
 	},
 
+	trainerType: 'Supporter',
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -23,10 +27,7 @@ const card: Card = {
 				cardtrader: 142470
 			}
 		}
-	],
-
-	trainerType: 'Supporter',
-	rarity: 'Uncommon'
+	]
 }
 
 export default card

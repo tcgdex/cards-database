@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Mitsuhiro Arita',
+	rarity: 'Rare',
 	category: 'Pokemon',
+	dexId: [243],
 	hp: 120,
 	types: ['Lightning'],
 
@@ -21,11 +23,11 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'とどろくらいめい' },
-			damage: 30,
-			cost: ['Lightning'],
 			effect: {
-				ja: '自分のトラッシュにある[雷]エネルギーを1枚、ベンチポケモンにつける。'
-			}
+				ja: "自分のトラッシュにある{L}エネルギーを1枚、ベンチポケモンにつける。"
+			},
+			damage: 30,
+			cost: ['Lightning']
 		},
 		{
 			name: { ja: 'ライトニングボール' },
@@ -34,9 +36,12 @@ const card: Card = {
 		}
 	],
 
-	weaknesses: [{ type: 'Fighting', value: 'x2' }],
+	weaknesses: [{ type: 'Fighting', value: "×2" }],
 	resistances: [{ type: 'Metal', value: '-20' }],
 
+	retreat: 2,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'holo',
@@ -46,11 +51,7 @@ const card: Card = {
 				cardtrader: 142434
 			}
 		}
-	],
-
-	retreat: 2,
-	rarity: 'Rare',
-	dexId: [243]
+	]
 }
 
 export default card

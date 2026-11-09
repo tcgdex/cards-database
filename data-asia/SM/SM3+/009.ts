@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'kawayoo',
+	rarity: 'Rare',
 	category: 'Pokemon',
+	dexId: [640],
 	hp: 110,
 	types: ['Grass'],
 
@@ -21,25 +23,28 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'かぜをまとう' },
-			damage: 30,
-			cost: ['Grass'],
 			effect: {
 				ja: 'のぞむなら、自分の手札にある基本エネルギーを1枚、このポケモンにつける。'
-			}
+			},
+			damage: 30,
+			cost: ['Grass']
 		},
 		{
 			name: { ja: 'ロングスピア' },
-			damage: 90,
-			cost: ['Grass', 'Grass', 'Colorless'],
 			effect: {
 				ja: '相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］'
-			}
+			},
+			damage: 90,
+			cost: ['Grass', 'Grass', 'Colorless']
 		}
 	],
 
-	weaknesses: [{ type: 'Fire', value: 'x2' }],
+	weaknesses: [{ type: 'Fire', value: "×2" }],
 	resistances: [],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'holo',
@@ -49,11 +54,7 @@ const card: Card = {
 				cardtrader: 142410
 			}
 		}
-	],
-
-	retreat: 1,
-	rarity: 'Rare',
-	dexId: [640]
+	]
 }
 
 export default card

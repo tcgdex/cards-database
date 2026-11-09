@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'match',
+	rarity: 'Common',
 	category: 'Pokemon',
+	dexId: [100],
 	hp: 60,
 	types: ['Lightning'],
 
@@ -26,9 +28,12 @@ const card: Card = {
 		}
 	],
 
-	weaknesses: [{ type: 'Fighting', value: 'x2' }],
+	weaknesses: [{ type: 'Fighting', value: "×2" }],
 	resistances: [{ type: 'Metal', value: '-20' }],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -38,11 +43,7 @@ const card: Card = {
 				cardtrader: 142432
 			}
 		}
-	],
-
-	retreat: 1,
-	rarity: 'Common',
-	dexId: [100]
+	]
 }
 
 export default card

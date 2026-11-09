@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'nagimiso',
+	rarity: 'Rare',
 	category: 'Pokemon',
+	dexId: [644],
 	hp: 130,
 	types: ['Lightning'],
 
@@ -21,25 +23,28 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'げきりん' },
-			damage: '20+',
-			cost: ['Colorless', 'Colorless'],
 			effect: {
-				ja: 'このポケモンにのっているダメカンの数x10ダメージ追加。'
-			}
+				ja: "このポケモンにのっているダメカンの数×10ダメージ追加。"
+			},
+			damage: '20+',
+			cost: ['Colorless', 'Colorless']
 		},
 		{
 			name: { ja: 'いかずちのやいば' },
-			damage: 130,
-			cost: ['Lightning', 'Lightning', 'Colorless'],
 			effect: {
 				ja: 'このポケモンについているエネルギーを、2個トラッシュする。'
-			}
+			},
+			damage: 130,
+			cost: ['Lightning', 'Lightning', 'Colorless']
 		}
 	],
 
-	weaknesses: [{ type: 'Fighting', value: 'x2' }],
+	weaknesses: [{ type: 'Fighting', value: "×2" }],
 	resistances: [{ type: 'Metal', value: '-20' }],
 
+	retreat: 3,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'holo',
@@ -49,11 +54,7 @@ const card: Card = {
 				cardtrader: 142437
 			}
 		}
-	],
-
-	retreat: 3,
-	rarity: 'Rare',
-	dexId: [644]
+	]
 }
 
 export default card

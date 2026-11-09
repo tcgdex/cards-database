@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Eske Yoshinob',
+	rarity: 'Rare',
 	category: 'Pokemon',
+	dexId: [484],
 	hp: 130,
 	types: ['Water'],
 
@@ -21,11 +23,11 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'スパイラルドレイン' },
-			damage: 30,
-			cost: ['Colorless', 'Colorless'],
 			effect: {
 				ja: 'このポケモンのHPを「30」回復する。'
-			}
+			},
+			damage: 30,
+			cost: ['Colorless', 'Colorless']
 		},
 		{
 			name: { ja: 'アクアブレード' },
@@ -34,9 +36,12 @@ const card: Card = {
 		}
 	],
 
-	weaknesses: [{ type: 'Grass', value: 'x2' }],
+	weaknesses: [{ type: 'Grass', value: "×2" }],
 	resistances: [],
 
+	retreat: 2,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'holo',
@@ -46,11 +51,7 @@ const card: Card = {
 				cardtrader: 142426
 			}
 		}
-	],
-
-	retreat: 2,
-	rarity: 'Rare',
-	dexId: [484]
+	]
 }
 
 export default card

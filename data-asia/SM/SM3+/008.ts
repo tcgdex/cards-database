@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Mizue',
+	rarity: 'Rare',
 	category: 'Pokemon',
+	dexId: [492],
 	hp: 70,
 	types: ['Grass'],
 
@@ -21,24 +23,27 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'ぱたぱた' },
-			cost: ['Grass'],
 			effect: {
 				ja: '自分の手札をすべて山札にもどして切る。その後、山札を6枚引く。'
-			}
+			},
+			cost: ['Grass']
 		},
 		{
 			name: { ja: 'まきかえす' },
-			damage: '30+',
-			cost: ['Grass', 'Colorless'],
 			effect: {
 				ja: '前の相手の番に、ワザのダメージで、自分のポケモンがきぜつしていたなら、90ダメージ追加。'
-			}
+			},
+			damage: '30+',
+			cost: ['Grass', 'Colorless']
 		}
 	],
 
-	weaknesses: [{ type: 'Fire', value: 'x2' }],
+	weaknesses: [{ type: 'Fire', value: "×2" }],
 	resistances: [],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'holo',
@@ -48,11 +53,7 @@ const card: Card = {
 				cardtrader: 142409
 			}
 		}
-	],
-
-	retreat: 1,
-	rarity: 'Rare',
-	dexId: [492]
+	]
 }
 
 export default card

@@ -8,9 +8,15 @@ const card: Card = {
 	},
 
 	illustrator: 'Kagemaru Himeno',
+	rarity: 'Uncommon',
 	category: 'Pokemon',
+	dexId: [623],
 	hp: 140,
 	types: ['Psychic'],
+
+	evolveFrom: {
+		ja: 'ゴビット'
+	},
 
 	description: {
 		ja: 'ゴルーグを 作った 古代人から 人や ポケモンを 守るように 命令されていると 言われている。'
@@ -21,11 +27,11 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'トリプルスマッシュ' },
-			damage: '10+',
-			cost: ['Psychic', 'Colorless', 'Colorless'],
 			effect: {
-				ja: 'コインを3回投げ、オモテの数x60ダメージ追加。'
-			}
+				ja: "コインを3回投げ、オモテの数×60ダメージ追加。"
+			},
+			damage: '10+',
+			cost: ['Psychic', 'Colorless', 'Colorless']
 		},
 		{
 			name: { ja: 'ゴルーグハンマー' },
@@ -34,9 +40,12 @@ const card: Card = {
 		}
 	],
 
-	weaknesses: [{ type: 'Darkness', value: 'x2' }],
+	weaknesses: [{ type: 'Darkness', value: "×2" }],
 	resistances: [{ type: 'Fighting', value: '-20' }],
 
+	retreat: 4,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -46,15 +55,7 @@ const card: Card = {
 				cardtrader: 142446
 			}
 		}
-	],
-
-	evolveFrom: {
-		ja: 'ゴビット'
-	},
-
-	retreat: 4,
-	rarity: 'Uncommon',
-	dexId: [623]
+	]
 }
 
 export default card

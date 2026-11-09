@@ -8,9 +8,15 @@ const card: Card = {
 	},
 
 	illustrator: 'Mizue',
+	rarity: 'Uncommon',
 	category: 'Pokemon',
+	dexId: [286],
 	hp: 110,
 	types: ['Grass'],
+
+	evolveFrom: {
+		ja: 'キノココ'
+	},
 
 	description: {
 		ja: '短い 腕は パンチを 出すとき グーンと 伸びる。 プロボクサー 顔負けの テクニックを 持つ。'
@@ -21,10 +27,10 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'じゅくすいほうし' },
-			cost: ['Grass'],
 			effect: {
 				ja: '相手のバトルポケモンをねむりにする。このねむりで投げるコインは2回になり、すべてオモテが出ないと回復しない。'
-			}
+			},
+			cost: ['Grass']
 		},
 		{
 			name: { ja: 'マグナムパンチ' },
@@ -36,6 +42,8 @@ const card: Card = {
 	weaknesses: [{ type: 'Fire', value: "×2" }],
 	resistances: [],
 
+	retreat: 2,
+
 	regulationMark: "A",
 	variants: [
 		{
@@ -46,15 +54,7 @@ const card: Card = {
 				cardtrader: 142407
 			}
 		}
-	],
-
-	evolveFrom: {
-		ja: 'キノココ'
-	},
-
-	retreat: 2,
-	rarity: 'Uncommon',
-	dexId: [286]
+	]
 }
 
 export default card

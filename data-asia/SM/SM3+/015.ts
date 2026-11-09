@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'TOKIYA',
+	rarity: 'Rare',
 	category: 'Pokemon',
+	dexId: [643],
 	hp: 130,
 	types: ['Fire'],
 
@@ -21,25 +23,28 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'げきりん' },
-			damage: '20+',
-			cost: ['Colorless', 'Colorless'],
 			effect: {
-				ja: 'このポケモンにのっているダメカンの数x10ダメージ追加。'
-			}
+				ja: "このポケモンにのっているダメカンの数×10ダメージ追加。"
+			},
+			damage: '20+',
+			cost: ['Colorless', 'Colorless']
 		},
 		{
 			name: { ja: 'しゃくねつのいぶき' },
-			damage: 130,
-			cost: ['Fire', 'Fire', 'Colorless'],
 			effect: {
 				ja: '次の自分の番、このポケモンはワザが使えない。'
-			}
+			},
+			damage: 130,
+			cost: ['Fire', 'Fire', 'Colorless']
 		}
 	],
 
-	weaknesses: [{ type: 'Water', value: 'x2' }],
+	weaknesses: [{ type: 'Water', value: "×2" }],
 	resistances: [],
 
+	retreat: 3,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'holo',
@@ -49,11 +54,7 @@ const card: Card = {
 				cardtrader: 142416
 			}
 		}
-	],
-
-	retreat: 3,
-	rarity: 'Rare',
-	dexId: [643]
+	]
 }
 
 export default card

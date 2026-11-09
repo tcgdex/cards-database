@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Tomokazu Komiya',
+	rarity: 'Uncommon',
 	category: 'Pokemon',
+	dexId: [124],
 	hp: 90,
 	types: ['Psychic'],
 
@@ -21,24 +23,27 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'あまえごえ' },
-			cost: ['Psychic'],
 			effect: {
 				ja: '相手の手札からオモテを見ないで1枚選び、そのカードのオモテを見てから、相手の山札にもどして切る。'
-			}
+			},
+			cost: ['Psychic']
 		},
 		{
 			name: { ja: 'モーレツキッス' },
-			damage: 30,
-			cost: ['Colorless', 'Colorless'],
 			effect: {
 				ja: '相手のバトルポケモンをこんらんにする。'
-			}
+			},
+			damage: 30,
+			cost: ['Colorless', 'Colorless']
 		}
 	],
 
-	weaknesses: [{ type: 'Psychic', value: 'x2' }],
+	weaknesses: [{ type: 'Psychic', value: "×2" }],
 	resistances: [],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -48,11 +53,7 @@ const card: Card = {
 				cardtrader: 142440
 			}
 		}
-	],
-
-	retreat: 1,
-	rarity: 'Uncommon',
-	dexId: [124]
+	]
 }
 
 export default card

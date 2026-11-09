@@ -8,12 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: 'Kanako Eo',
+	rarity: 'Uncommon',
 	category: 'Trainer',
 
 	effect: {
 		ja: '自分の山札を2枚引く。その後、自分のバトルポケモンのHPを「20」回復する。'
 	},
 
+	trainerType: 'Supporter',
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -23,10 +27,7 @@ const card: Card = {
 				cardtrader: 142469
 			}
 		}
-	],
-
-	trainerType: 'Supporter',
-	rarity: 'Uncommon'
+	]
 }
 
 export default card

@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Sanosuke Sakuma',
+	rarity: "Rare Shining",
 	category: 'Pokemon',
+	dexId: [151],
 	hp: 30,
 	types: ['Psychic'],
 
@@ -21,10 +23,10 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'でんせつのみちびき' },
-			cost: ['Psychic'],
 			effect: {
 				ja: '自分の山札にあるエネルギーを2枚まで、自分のポケモンに好きなようにつける。そして山札を切る。'
-			}
+			},
+			cost: ['Psychic']
 		},
 		{
 			name: { ja: 'ビーム' },
@@ -33,9 +35,12 @@ const card: Card = {
 		}
 	],
 
-	weaknesses: [{ type: 'Psychic', value: 'x2' }],
+	weaknesses: [{ type: 'Psychic', value: "×2" }],
 	resistances: [],
 
+	retreat: 0,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'holo',
@@ -45,11 +50,7 @@ const card: Card = {
 				cardtrader: 142442
 			}
 		}
-	],
-
-	retreat: 0,
-	rarity: 'Shiny Ultra Rare',
-	dexId: [151]
+	]
 }
 
 export default card

@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'kodama',
+	rarity: 'Rare',
 	category: 'Pokemon',
+	dexId: [647],
 	hp: 110,
 	types: ['Water'],
 
@@ -21,24 +23,27 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'すくいだす' },
-			cost: ['Colorless'],
 			effect: {
-				ja: '自分のトラッシュにある[水]ポケモンを1枚、相手に見せてから、手札に加える。'
-			}
+				ja: "自分のトラッシュにある{W}ポケモンを1枚、相手に見せてから、手札に加える。"
+			},
+			cost: ['Colorless']
 		},
 		{
 			name: { ja: 'かくごのつるぎ' },
-			damage: '20+',
-			cost: ['Water', 'Water'],
 			effect: {
-				ja: '相手のベンチポケモンの数x20ダメージ追加。'
-			}
+				ja: "相手のベンチポケモンの数×20ダメージ追加。"
+			},
+			damage: '20+',
+			cost: ['Water', 'Water']
 		}
 	],
 
-	weaknesses: [{ type: 'Grass', value: 'x2' }],
+	weaknesses: [{ type: 'Grass', value: "×2" }],
 	resistances: [],
 
+	retreat: 2,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'holo',
@@ -48,11 +53,7 @@ const card: Card = {
 				cardtrader: 142428
 			}
 		}
-	],
-
-	retreat: 2,
-	rarity: 'Rare',
-	dexId: [647]
+	]
 }
 
 export default card

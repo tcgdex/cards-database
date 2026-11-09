@@ -8,13 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: '',
+
+	rarity: 'Uncommon',
 	category: 'Energy',
-	energyType: 'Special',
 
 	effect: {
-		ja: 'このカードは、[無]エネルギー2個ぶんとしてはたらく。'
+		ja: "このカードは、{C}エネルギー2個ぶんとしてはたらく。"
 	},
+	energyType: 'Special',
 
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -24,9 +27,7 @@ const card: Card = {
 				cardtrader: 142472
 			}
 		}
-	],
-
-	rarity: 'Uncommon'
+	]
 }
 
 export default card

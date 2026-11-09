@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'TOKIYA',
+	rarity: 'Rare',
 	category: 'Pokemon',
+	dexId: [720],
 	hp: 120,
 	types: ['Darkness'],
 
@@ -36,9 +38,12 @@ const card: Card = {
 		}
 	],
 
-	weaknesses: [{ type: 'Fighting', value: 'x2' }],
+	weaknesses: [{ type: 'Fighting', value: "×2" }],
 	resistances: [{ type: 'Psychic', value: '-20' }],
 
+	retreat: 2,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'holo',
@@ -48,11 +53,7 @@ const card: Card = {
 				cardtrader: 142457
 			}
 		}
-	],
-
-	retreat: 2,
-	rarity: 'Rare',
-	dexId: [720]
+	]
 }
 
 export default card

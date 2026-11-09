@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'kawayoo',
+	rarity: 'Common',
 	category: 'Pokemon',
+	dexId: [636],
 	hp: 80,
 	types: ['Fire'],
 
@@ -26,9 +28,12 @@ const card: Card = {
 		}
 	],
 
-	weaknesses: [{ type: 'Water', value: 'x2' }],
+	weaknesses: [{ type: 'Water', value: "×2" }],
 	resistances: [],
 
+	retreat: 3,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -38,11 +43,7 @@ const card: Card = {
 				cardtrader: 142414
 			}
 		}
-	],
-
-	retreat: 3,
-	rarity: 'Common',
-	dexId: [636]
+	]
 }
 
 export default card

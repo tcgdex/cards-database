@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Mitsuhiro Arita',
+	rarity: 'Common',
 	category: 'Pokemon',
+	dexId: [725],
 	hp: 60,
 	types: ['Fire'],
 
@@ -26,9 +28,12 @@ const card: Card = {
 		}
 	],
 
-	weaknesses: [{ type: 'Water', value: 'x2' }],
+	weaknesses: [{ type: 'Water', value: "×2" }],
 	resistances: [],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -38,11 +43,7 @@ const card: Card = {
 				cardtrader: 142417
 			}
 		}
-	],
-
-	retreat: 1,
-	rarity: 'Common',
-	dexId: [725]
+	]
 }
 
 export default card

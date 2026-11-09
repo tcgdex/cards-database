@@ -8,9 +8,15 @@ const card: Card = {
 	},
 
 	illustrator: 'Eske Yoshinob',
+	rarity: 'Uncommon',
 	category: 'Pokemon',
+	dexId: [3],
 	hp: 160,
 	types: ['Grass'],
+
+	evolveFrom: {
+		ja: 'フシギソウ'
+	},
 
 	description: {
 		ja: '大きな 花びらを 広げ 太陽の 光を 浴びていると 体に 元気が みなぎっていく。'
@@ -39,6 +45,8 @@ const card: Card = {
 	weaknesses: [{ type: 'Fire', value: "×2" }],
 	resistances: [],
 
+	retreat: 4,
+
 	regulationMark: "A",
 	variants: [
 		{
@@ -49,15 +57,7 @@ const card: Card = {
 				cardtrader: 142404
 			}
 		}
-	],
-
-	evolveFrom: {
-		ja: 'フシギソウ'
-	},
-
-	retreat: 4,
-	rarity: 'Uncommon',
-	dexId: [3]
+	]
 }
 
 export default card

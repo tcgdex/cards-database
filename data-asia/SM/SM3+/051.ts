@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Sekio',
+	rarity: 'Common',
 	category: 'Pokemon',
+	dexId: [559],
 	hp: 60,
 	types: ['Darkness'],
 
@@ -21,10 +23,10 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'なかまをよぶ' },
-			cost: ['Darkness'],
 			effect: {
 				ja: '自分の山札にあるたねポケモンを1枚、ベンチに出す。そして山札を切る。'
-			}
+			},
+			cost: ['Darkness']
 		},
 		{
 			name: { ja: 'ずつき' },
@@ -33,9 +35,12 @@ const card: Card = {
 		}
 	],
 
-	weaknesses: [{ type: 'Fighting', value: 'x2' }],
+	weaknesses: [{ type: 'Fighting', value: "×2" }],
 	resistances: [{ type: 'Psychic', value: '-20' }],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -45,11 +50,7 @@ const card: Card = {
 				cardtrader: 142452
 			}
 		}
-	],
-
-	retreat: 1,
-	rarity: 'Common',
-	dexId: [559]
+	]
 }
 
 export default card

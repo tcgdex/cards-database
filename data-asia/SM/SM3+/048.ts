@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Kouki Saitou',
+	rarity: 'Uncommon',
 	category: 'Pokemon',
+	dexId: [442],
 	hp: 60,
 	types: ['Darkness'],
 
@@ -31,16 +33,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'のろいのしずく' },
-			cost: ['Darkness', 'Colorless'],
 			effect: {
 				ja: 'ダメカン3個を、相手のポケモンに好きなようにのせる。'
-			}
+			},
+			cost: ['Darkness', 'Colorless']
 		}
 	],
 
 	weaknesses: [],
 	resistances: [],
 
+	retreat: 2,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -50,11 +55,7 @@ const card: Card = {
 				cardtrader: 142449
 			}
 		}
-	],
-
-	retreat: 2,
-	rarity: 'Uncommon',
-	dexId: [442]
+	]
 }
 
 export default card

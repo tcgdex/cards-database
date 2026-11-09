@@ -8,12 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: 'Ryo Ueda',
+	rarity: 'Uncommon',
 	category: 'Trainer',
 
 	effect: {
 		ja: '自分のバトルポケモンをベンチポケモンと入れ替える。'
 	},
 
+	trainerType: 'Item',
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -23,10 +27,7 @@ const card: Card = {
 				cardtrader: 142466
 			}
 		}
-	],
-
-	trainerType: 'Item',
-	rarity: 'Uncommon'
+	]
 }
 
 export default card

@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Hitoshi Ariga',
+	rarity: "Rare Shining",
 	category: 'Pokemon',
+	dexId: [721],
 	hp: 130,
 	types: ['Water'],
 
@@ -21,24 +23,27 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'デュアルポンプ' },
-			cost: ['Water', 'Water', 'Water'],
 			effect: {
 				ja: '相手のポケモン2匹に、それぞれ50ダメージ。［ベンチは弱点・抵抗力を計算しない。］'
-			}
+			},
+			cost: ['Water', 'Water', 'Water']
 		},
 		{
 			name: { ja: 'グランドスマッシュ' },
-			damage: '50×',
-			cost: ['Colorless', 'Colorless', 'Colorless', 'Colorless'],
 			effect: {
-				ja: 'コインを4回投げ、オモテの数x50ダメージ。'
-			}
+				ja: "コインを4回投げ、オモテの数×50ダメージ。"
+			},
+			damage: '50×',
+			cost: ['Colorless', 'Colorless', 'Colorless', 'Colorless']
 		}
 	],
 
-	weaknesses: [{ type: 'Lightning', value: 'x2' }],
+	weaknesses: [{ type: 'Lightning', value: "×2" }],
 	resistances: [],
 
+	retreat: 3,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'holo',
@@ -48,11 +53,7 @@ const card: Card = {
 				cardtrader: 142429
 			}
 		}
-	],
-
-	retreat: 3,
-	rarity: 'Shiny Ultra Rare',
-	dexId: [721]
+	]
 }
 
 export default card

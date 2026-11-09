@@ -8,9 +8,15 @@ const card: Card = {
 	},
 
 	illustrator: 'kodama',
+	rarity: 'Uncommon',
 	category: 'Pokemon',
+	dexId: [24],
 	hp: 120,
 	types: ['Psychic'],
+
+	evolveFrom: {
+		ja: 'アーボ'
+	},
 
 	description: {
 		ja: 'お腹の 模様が 怖い 顔に 見える。 弱い 敵は その模様を 見ただけで 逃げ出してしまう。'
@@ -31,17 +37,20 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'どくのキバ' },
-			damage: 70,
-			cost: ['Psychic', 'Colorless', 'Colorless'],
 			effect: {
 				ja: '相手のバトルポケモンをどくにする。'
-			}
+			},
+			damage: 70,
+			cost: ['Psychic', 'Colorless', 'Colorless']
 		}
 	],
 
-	weaknesses: [{ type: 'Psychic', value: 'x2' }],
+	weaknesses: [{ type: 'Psychic', value: "×2" }],
 	resistances: [],
 
+	retreat: 3,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -51,15 +60,7 @@ const card: Card = {
 				cardtrader: 142439
 			}
 		}
-	],
-
-	evolveFrom: {
-		ja: 'アーボ'
-	},
-
-	retreat: 3,
-	rarity: 'Uncommon',
-	dexId: [24]
+	]
 }
 
 export default card

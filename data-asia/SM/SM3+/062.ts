@@ -8,12 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: 'Toyste Beach',
+	rarity: 'Uncommon',
 	category: 'Trainer',
 
 	effect: {
 		ja: 'コインを1回投げオモテなら、自分のポケモン1匹と、ついているすべてのカードを、手札にもどす。'
 	},
 
+	trainerType: 'Item',
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -23,10 +27,7 @@ const card: Card = {
 				cardtrader: 142463
 			}
 		}
-	],
-
-	trainerType: 'Item',
-	rarity: 'Uncommon'
+	]
 }
 
 export default card

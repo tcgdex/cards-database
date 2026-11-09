@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Naoyo Kimura',
+	rarity: 'Common',
 	category: 'Pokemon',
+	dexId: [509],
 	hp: 60,
 	types: ['Darkness'],
 
@@ -26,17 +28,20 @@ const card: Card = {
 		},
 		{
 			name: { ja: 'しっぽビンタ' },
-			damage: '20×',
-			cost: ['Darkness', 'Colorless'],
 			effect: {
-				ja: 'コインを2回投げ、オモテの数x20ダメージ。'
-			}
+				ja: "コインを2回投げ、オモテの数×20ダメージ。"
+			},
+			damage: '20×',
+			cost: ['Darkness', 'Colorless']
 		}
 	],
 
-	weaknesses: [{ type: 'Fighting', value: 'x2' }],
+	weaknesses: [{ type: 'Fighting', value: "×2" }],
 	resistances: [{ type: 'Psychic', value: '-20' }],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -46,11 +51,7 @@ const card: Card = {
 				cardtrader: 142450
 			}
 		}
-	],
-
-	retreat: 1,
-	rarity: 'Common',
-	dexId: [509]
+	]
 }
 
 export default card

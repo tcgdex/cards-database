@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Suwama Chiaki',
+	rarity: 'Uncommon',
 	category: 'Pokemon',
+	dexId: [324],
 	hp: 110,
 	types: ['Fire'],
 
@@ -21,25 +23,28 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'こうあつねつ' },
-			damage: 30,
-			cost: ['Colorless', 'Colorless'],
 			effect: {
 				ja: '次の自分の番、このポケモンの「こうあつねつ」のダメージは「+50」される。'
-			}
+			},
+			damage: 30,
+			cost: ['Colorless', 'Colorless']
 		},
 		{
 			name: { ja: 'かえんほうしゃ' },
-			damage: 90,
-			cost: ['Fire', 'Fire', 'Colorless'],
 			effect: {
 				ja: 'このポケモンについているエネルギーを、1個トラッシュする。'
-			}
+			},
+			damage: 90,
+			cost: ['Fire', 'Fire', 'Colorless']
 		}
 	],
 
-	weaknesses: [{ type: 'Water', value: 'x2' }],
+	weaknesses: [{ type: 'Water', value: "×2" }],
 	resistances: [],
 
+	retreat: 3,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -49,11 +54,7 @@ const card: Card = {
 				cardtrader: 142413
 			}
 		}
-	],
-
-	retreat: 3,
-	rarity: 'Uncommon',
-	dexId: [324]
+	]
 }
 
 export default card

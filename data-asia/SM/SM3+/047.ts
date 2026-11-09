@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Naoyo Kimura',
+	rarity: 'Uncommon',
 	category: 'Pokemon',
+	dexId: [618],
 	hp: 110,
 	types: ['Fighting'],
 
@@ -21,11 +23,11 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'でんきショック' },
-			damage: 30,
-			cost: ['Lightning', 'Colorless'],
 			effect: {
 				ja: 'コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。'
-			}
+			},
+			damage: 30,
+			cost: ['Lightning', 'Colorless']
 		},
 		{
 			name: { ja: 'ヘッドボルト' },
@@ -34,9 +36,12 @@ const card: Card = {
 		}
 	],
 
-	weaknesses: [{ type: 'Grass', value: 'x2' }],
+	weaknesses: [{ type: 'Grass', value: "×2" }],
 	resistances: [],
 
+	retreat: 3,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -46,11 +51,7 @@ const card: Card = {
 				cardtrader: 142448
 			}
 		}
-	],
-
-	retreat: 3,
-	rarity: 'Uncommon',
-	dexId: [618]
+	]
 }
 
 export default card

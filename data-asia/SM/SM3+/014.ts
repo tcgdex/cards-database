@@ -8,9 +8,15 @@ const card: Card = {
 	},
 
 	illustrator: 'nagimiso',
+	rarity: 'Uncommon',
 	category: 'Pokemon',
+	dexId: [637],
 	hp: 120,
 	types: ['Fire'],
+
+	evolveFrom: {
+		ja: 'メラルバ'
+	},
 
 	description: {
 		ja: '戦いになると ６枚の 羽から 火の粉の りんぷんを まき散らして あたり 一面を 火の海にする。'
@@ -36,9 +42,12 @@ const card: Card = {
 		}
 	],
 
-	weaknesses: [{ type: 'Water', value: 'x2' }],
+	weaknesses: [{ type: 'Water', value: "×2" }],
 	resistances: [],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -48,15 +57,7 @@ const card: Card = {
 				cardtrader: 142415
 			}
 		}
-	],
-
-	evolveFrom: {
-		ja: 'メラルバ'
-	},
-
-	retreat: 1,
-	rarity: 'Uncommon',
-	dexId: [637]
+	]
 }
 
 export default card

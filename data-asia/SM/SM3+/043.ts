@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Shigenori Negishi',
+	rarity: "Rare Shining",
 	category: 'Pokemon',
+	dexId: [385],
 	hp: 70,
 	types: ['Psychic'],
 
@@ -21,17 +23,20 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'ほしのさだめ' },
-			damage: 10,
-			cost: ['Psychic'],
 			effect: {
 				ja: '相手の進化しているバトルポケモンから、「進化カード」をすべてはがして退化させる。はがしたカードは、相手の手札にもどす。'
-			}
+			},
+			damage: 10,
+			cost: ['Psychic']
 		}
 	],
 
-	weaknesses: [{ type: 'Psychic', value: 'x2' }],
+	weaknesses: [{ type: 'Psychic', value: "×2" }],
 	resistances: [],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'holo',
@@ -41,11 +46,7 @@ const card: Card = {
 				cardtrader: 142444
 			}
 		}
-	],
-
-	retreat: 1,
-	rarity: 'Shiny Ultra Rare',
-	dexId: [385]
+	]
 }
 
 export default card

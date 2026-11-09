@@ -8,12 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: 'Ryo Ueda',
+	rarity: 'Uncommon',
 	category: 'Trainer',
 
 	effect: {
-		ja: 'このカードは、自分の手札を2枚トラッシュしなければ使えない。自分の山札からポケモンを1枚選び、相手に見せてから、手札に加える。そして山札を切る。'
+		ja: "このカードは、自分の手札を2枚トラッシュしなければ使えない。自分の山札にあるポケモンを1枚、相手に見せてから、手札に加える。そして山札を切る。"
 	},
 
+	trainerType: 'Item',
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -23,10 +27,7 @@ const card: Card = {
 				cardtrader: 142465
 			}
 		}
-	],
-
-	trainerType: 'Item',
-	rarity: 'Uncommon'
+	]
 }
 
 export default card

@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'kodama',
+	rarity: 'Common',
 	category: 'Pokemon',
+	dexId: [570],
 	hp: 60,
 	types: ['Darkness'],
 
@@ -31,9 +33,12 @@ const card: Card = {
 		}
 	],
 
-	weaknesses: [{ type: 'Fighting', value: 'x2' }],
+	weaknesses: [{ type: 'Fighting', value: "×2" }],
 	resistances: [{ type: 'Psychic', value: '-20' }],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -43,11 +48,7 @@ const card: Card = {
 				cardtrader: 142454
 			}
 		}
-	],
-
-	retreat: 1,
-	rarity: 'Common',
-	dexId: [570]
+	]
 }
 
 export default card

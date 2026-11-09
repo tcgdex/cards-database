@@ -8,12 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: 'Ken Sugimori',
+	rarity: 'Uncommon',
 	category: 'Trainer',
 
 	effect: {
 		ja: '自分の山札を3枚引く。'
 	},
 
+	trainerType: 'Supporter',
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -23,10 +27,7 @@ const card: Card = {
 				cardtrader: 142468
 			}
 		}
-	],
-
-	trainerType: 'Supporter',
-	rarity: 'Uncommon'
+	]
 }
 
 export default card

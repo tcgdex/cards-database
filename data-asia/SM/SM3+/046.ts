@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Emi Ando',
+	rarity: 'Rare',
 	category: 'Pokemon',
+	dexId: [802],
 	hp: 70,
 	types: ['Psychic'],
 
@@ -31,17 +33,20 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'シャドーパンチ' },
-			damage: 30,
-			cost: ['Psychic', 'Colorless'],
 			effect: {
 				ja: 'このワザのダメージは抵抗力を計算しない。'
-			}
+			},
+			damage: 30,
+			cost: ['Psychic', 'Colorless']
 		}
 	],
 
-	weaknesses: [{ type: 'Darkness', value: 'x2' }],
+	weaknesses: [{ type: 'Darkness', value: "×2" }],
 	resistances: [{ type: 'Fighting', value: '-20' }],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'holo',
@@ -51,11 +56,7 @@ const card: Card = {
 				cardtrader: 142447
 			}
 		}
-	],
-
-	retreat: 1,
-	rarity: 'Rare',
-	dexId: [802]
+	]
 }
 
 export default card

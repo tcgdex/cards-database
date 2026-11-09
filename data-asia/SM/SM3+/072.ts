@@ -8,13 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: '',
+
+	rarity: 'Uncommon',
 	category: 'Energy',
-	energyType: 'Special',
 
 	effect: {
-		ja: 'このカードは、[無]エネルギー1個ぶんとしてはたらく。このカードを手札からバトルポケモンにつけたとき、このカードをつけたポケモンをベンチポケモンと入れ替える。'
+		ja: "このカードは、{C}エネルギー1個ぶんとしてはたらく。このカードを手札からバトルポケモンにつけたとき、このカードをつけたポケモンをベンチポケモンと入れ替える。"
 	},
+	energyType: 'Special',
 
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -24,9 +27,7 @@ const card: Card = {
 				cardtrader: 142473
 			}
 		}
-	],
-
-	rarity: 'Uncommon'
+	]
 }
 
 export default card

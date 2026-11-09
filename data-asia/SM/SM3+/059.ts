@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Kouki Saitou',
+	rarity: "Rare Shining",
 	category: 'Pokemon',
+	dexId: [493],
 	hp: 130,
 	types: ['Colorless'],
 
@@ -31,16 +33,19 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'アルティメットアロー' },
-			cost: ['Colorless', 'Colorless', 'Colorless', 'Colorless'],
 			effect: {
 				ja: '相手のポケモン全員に、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］'
-			}
+			},
+			cost: ['Colorless', 'Colorless', 'Colorless', 'Colorless']
 		}
 	],
 
-	weaknesses: [{ type: 'Fighting', value: 'x2' }],
+	weaknesses: [{ type: 'Fighting', value: "×2" }],
 	resistances: [],
 
+	retreat: 2,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'holo',
@@ -50,11 +55,7 @@ const card: Card = {
 				cardtrader: 142460
 			}
 		}
-	],
-
-	retreat: 2,
-	rarity: 'Shiny Ultra Rare',
-	dexId: [493]
+	]
 }
 
 export default card

@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Naoki Saito',
+	rarity: "Rare Shining",
 	category: 'Pokemon',
+	dexId: [384],
 	hp: 120,
 	types: ['Dragon'],
 
@@ -21,25 +23,28 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'りゅうのはどう' },
-			damage: 40,
-			cost: ['Lightning'],
 			effect: {
 				ja: '自分の山札を上から2枚トラッシュする。'
-			}
+			},
+			damage: 40,
+			cost: ['Lightning']
 		},
 		{
 			name: { ja: 'てんくうのさばき' },
-			damage: 190,
-			cost: ['Fire', 'Lightning', 'Lightning', 'Colorless'],
 			effect: {
 				ja: 'このポケモンについているエネルギーを、3個トラッシュする。'
-			}
+			},
+			damage: 190,
+			cost: ['Fire', 'Lightning', 'Lightning', 'Colorless']
 		}
 	],
 
-	weaknesses: [{ type: 'Fairy', value: 'x2' }],
+	weaknesses: [{ type: 'Fairy', value: "×2" }],
 	resistances: [],
 
+	retreat: 3,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'holo',
@@ -49,11 +54,7 @@ const card: Card = {
 				cardtrader: 142458
 			}
 		}
-	],
-
-	retreat: 3,
-	rarity: 'Shiny Ultra Rare',
-	dexId: [384]
+	]
 }
 
 export default card

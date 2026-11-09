@@ -8,42 +8,53 @@ const card: Card = {
 	},
 
 	illustrator: '5ban Graphics',
+	rarity: 'Double rare',
 	category: 'Pokemon',
+	dexId: [26],
 	hp: 210,
 	types: ['Lightning'],
 
+	evolveFrom: {
+		ja: 'ピカチュウ'
+	},
+
 	stage: 'Stage1',
+
+	suffix: 'GX',
 
 	attacks: [
 		{
 			name: { ja: 'パワフルスパーク' },
-			damage: '20+',
-			cost: ['Colorless', 'Colorless'],
 			effect: {
-				ja: '自分の場のポケモンについている[雷]エネルギーの数x20ダメージ追加。'
-			}
+				ja: "自分の場のポケモンについている{L}エネルギーの数×20ダメージ追加。"
+			},
+			damage: '20+',
+			cost: ['Colorless', 'Colorless']
 		},
 		{
 			name: { ja: 'かみなり' },
-			damage: 160,
-			cost: ['Lightning', 'Lightning', 'Colorless'],
 			effect: {
 				ja: 'このポケモンにも30ダメージ。'
-			}
+			},
+			damage: 160,
+			cost: ['Lightning', 'Lightning', 'Colorless']
 		},
 		{
 			name: { ja: 'ボルテールGX' },
-			damage: 120,
-			cost: ['Lightning', 'Lightning', 'Colorless'],
 			effect: {
 				ja: '相手のバトルポケモンをマヒにする。［対戦中、自分はGXワザを1回しか使えない。］'
-			}
+			},
+			damage: 120,
+			cost: ['Lightning', 'Lightning', 'Colorless']
 		}
 	],
 
-	weaknesses: [{ type: 'Fighting', value: 'x2' }],
+	weaknesses: [{ type: 'Fighting', value: "×2" }],
 	resistances: [{ type: 'Metal', value: '-20' }],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'holo',
@@ -53,17 +64,7 @@ const card: Card = {
 				cardtrader: 142431
 			}
 		}
-	],
-
-	evolveFrom: {
-		ja: 'ピカチュウ'
-	},
-
-	retreat: 1,
-	rarity: 'Double rare',
-	dexId: [26],
-
-	suffix: 'GX'
+	]
 }
 
 export default card

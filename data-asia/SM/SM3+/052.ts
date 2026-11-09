@@ -8,9 +8,15 @@ const card: Card = {
 	},
 
 	illustrator: 'Mitsuhiro Arita',
+	rarity: 'Uncommon',
 	category: 'Pokemon',
+	dexId: [560],
 	hp: 110,
 	types: ['Darkness'],
+
+	evolveFrom: {
+		ja: 'ズルッグ'
+	},
 
 	description: {
 		ja: '脱皮した 皮を ずりあげて ダメージを 減らしつつ キック！ とさかが 大きいほど 偉そうだ。'
@@ -21,11 +27,11 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'デンジャラスヘッド' },
-			damage: '20+',
-			cost: ['Colorless', 'Colorless'],
 			effect: {
 				ja: '相手のバトルポケモンがたねポケモンなら、50ダメージ追加。'
-			}
+			},
+			damage: '20+',
+			cost: ['Colorless', 'Colorless']
 		},
 		{
 			name: { ja: 'ぶちかます' },
@@ -34,9 +40,12 @@ const card: Card = {
 		}
 	],
 
-	weaknesses: [{ type: 'Fighting', value: 'x2' }],
+	weaknesses: [{ type: 'Fighting', value: "×2" }],
 	resistances: [{ type: 'Psychic', value: '-20' }],
 
+	retreat: 2,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -46,15 +55,7 @@ const card: Card = {
 				cardtrader: 142453
 			}
 		}
-	],
-
-	evolveFrom: {
-		ja: 'ズルッグ'
-	},
-
-	retreat: 2,
-	rarity: 'Uncommon',
-	dexId: [560]
+	]
 }
 
 export default card

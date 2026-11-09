@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Kyoko Umemoto',
+	rarity: 'Common',
 	category: 'Pokemon',
+	dexId: [622],
 	hp: 90,
 	types: ['Psychic'],
 
@@ -26,9 +28,12 @@ const card: Card = {
 		}
 	],
 
-	weaknesses: [{ type: 'Darkness', value: 'x2' }],
+	weaknesses: [{ type: 'Darkness', value: "×2" }],
 	resistances: [{ type: 'Fighting', value: '-20' }],
 
+	retreat: 3,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -38,11 +43,7 @@ const card: Card = {
 				cardtrader: 142445
 			}
 		}
-	],
-
-	retreat: 3,
-	rarity: 'Common',
-	dexId: [622]
+	]
 }
 
 export default card

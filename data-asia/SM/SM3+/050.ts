@@ -8,9 +8,15 @@ const card: Card = {
 	},
 
 	illustrator: 'kawayoo',
+	rarity: 'Uncommon',
 	category: 'Pokemon',
+	dexId: [510],
 	hp: 90,
 	types: ['Darkness'],
+
+	evolveFrom: {
+		ja: 'チョロネコ'
+	},
 
 	description: {
 		ja: '美しい スタイルは 全身の 発達した 筋肉の おかげ。 音もたてずに 夜を 駆けぬける。'
@@ -21,11 +27,11 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'いちゃもん' },
-			damage: 30,
-			cost: ['Darkness'],
 			effect: {
 				ja: '相手のバトルポケモンが持っているワザを1つ選ぶ。次の相手の番、このワザを受けたポケモンは、選ばれたワザを使えない。'
-			}
+			},
+			damage: 30,
+			cost: ['Darkness']
 		},
 		{
 			name: { ja: 'きりさく' },
@@ -34,9 +40,12 @@ const card: Card = {
 		}
 	],
 
-	weaknesses: [{ type: 'Fighting', value: 'x2' }],
+	weaknesses: [{ type: 'Fighting', value: "×2" }],
 	resistances: [{ type: 'Psychic', value: '-20' }],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -46,15 +55,7 @@ const card: Card = {
 				cardtrader: 142451
 			}
 		}
-	],
-
-	evolveFrom: {
-		ja: 'チョロネコ'
-	},
-
-	retreat: 1,
-	rarity: 'Uncommon',
-	dexId: [510]
+	]
 }
 
 export default card

@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Hitoshi Ariga',
+	rarity: "Rare Shining",
 	category: 'Pokemon',
+	dexId: [649],
 	hp: 130,
 	types: ['Grass'],
 
@@ -31,16 +33,18 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'ガイブラスター' },
-			damage: '50+',
-			cost: ['Colorless', 'Colorless', 'Colorless'],
 			effect: {
 				ja: "このポケモンについている{G}エネルギーの数×20ダメージ追加。"
-			}
+			},
+			damage: '50+',
+			cost: ['Colorless', 'Colorless', 'Colorless']
 		}
 	],
 
 	weaknesses: [{ type: 'Fire', value: "×2" }],
 	resistances: [],
+
+	retreat: 2,
 
 	regulationMark: "A",
 	variants: [
@@ -52,11 +56,7 @@ const card: Card = {
 				cardtrader: 142411
 			}
 		}
-	],
-
-	retreat: 2,
-	rarity: 'Shiny Ultra Rare',
-	dexId: [649]
+	]
 }
 
 export default card

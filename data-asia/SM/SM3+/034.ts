@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Tomokazu Komiya',
+	rarity: 'Common',
 	category: 'Pokemon',
+	dexId: [311],
 	hp: 70,
 	types: ['Lightning'],
 
@@ -21,17 +23,20 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'タッグブースト' },
-			damage: '10+',
-			cost: ['Lightning'],
 			effect: {
 				ja: '自分のベンチに「マイナン」がいるなら、50ダメージ追加。'
-			}
+			},
+			damage: '10+',
+			cost: ['Lightning']
 		}
 	],
 
-	weaknesses: [{ type: 'Fighting', value: 'x2' }],
+	weaknesses: [{ type: 'Fighting', value: "×2" }],
 	resistances: [{ type: 'Metal', value: '-20' }],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -41,11 +46,7 @@ const card: Card = {
 				cardtrader: 142435
 			}
 		}
-	],
-
-	retreat: 1,
-	rarity: 'Common',
-	dexId: [311]
+	]
 }
 
 export default card

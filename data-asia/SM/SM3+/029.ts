@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Kagemaru Himeno',
+	rarity: 'Common',
 	category: 'Pokemon',
+	dexId: [25],
 	hp: 60,
 	types: ['Lightning'],
 
@@ -21,17 +23,20 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'アイアンテール' },
-			damage: '20×',
-			cost: ['Lightning'],
 			effect: {
-				ja: 'ウラが出るまでコインを投げ、オモテの数x20ダメージ。'
-			}
+				ja: "ウラが出るまでコインを投げ、オモテの数×20ダメージ。"
+			},
+			damage: '20×',
+			cost: ['Lightning']
 		}
 	],
 
-	weaknesses: [{ type: 'Fighting', value: 'x2' }],
+	weaknesses: [{ type: 'Fighting', value: "×2" }],
 	resistances: [{ type: 'Metal', value: '-20' }],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -41,11 +46,7 @@ const card: Card = {
 				cardtrader: 142430
 			}
 		}
-	],
-
-	retreat: 1,
-	rarity: 'Common',
-	dexId: [25]
+	]
 }
 
 export default card

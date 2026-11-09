@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Mitsuhiro Arita',
+	rarity: 'Rare',
 	category: 'Pokemon',
+	dexId: [381],
 	hp: 110,
 	types: ['Psychic'],
 
@@ -21,11 +23,11 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'ブレイクスルー' },
-			damage: 30,
-			cost: ['Colorless', 'Colorless'],
 			effect: {
 				ja: '相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］'
-			}
+			},
+			damage: 30,
+			cost: ['Colorless', 'Colorless']
 		},
 		{
 			name: { ja: 'ラグーンフライト' },
@@ -34,9 +36,12 @@ const card: Card = {
 		}
 	],
 
-	weaknesses: [{ type: 'Psychic', value: 'x2' }],
+	weaknesses: [{ type: 'Psychic', value: "×2" }],
 	resistances: [],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'holo',
@@ -46,11 +51,7 @@ const card: Card = {
 				cardtrader: 142443
 			}
 		}
-	],
-
-	retreat: 1,
-	rarity: 'Rare',
-	dexId: [381]
+	]
 }
 
 export default card

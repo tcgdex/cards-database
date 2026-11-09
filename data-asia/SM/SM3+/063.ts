@@ -8,12 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: 'Toyste Beach',
+	rarity: 'Uncommon',
 	category: 'Trainer',
 
 	effect: {
 		ja: '自分の場のポケモン1匹にのっているダメカンを3個、自分の別のポケモン1匹にのせ替える。'
 	},
 
+	trainerType: 'Item',
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -23,10 +27,7 @@ const card: Card = {
 				cardtrader: 142464
 			}
 		}
-	],
-
-	trainerType: 'Item',
-	rarity: 'Uncommon'
+	]
 }
 
 export default card

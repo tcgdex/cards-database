@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Shin Nagasawa',
+	rarity: 'Common',
 	category: 'Pokemon',
+	dexId: [211],
 	hp: 90,
 	types: ['Water'],
 
@@ -21,24 +23,27 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'どくばり' },
-			cost: ['Colorless'],
 			effect: {
 				ja: '相手のバトルポケモンをどくにする。'
-			}
+			},
+			cost: ['Colorless']
 		},
 		{
 			name: { ja: 'ショックばり' },
-			damage: '20+',
-			cost: ['Water', 'Colorless'],
 			effect: {
 				ja: '相手のバトルポケモンが特殊状態なら、50ダメージ追加。'
-			}
+			},
+			damage: '20+',
+			cost: ['Water', 'Colorless']
 		}
 	],
 
-	weaknesses: [{ type: 'Grass', value: 'x2' }],
+	weaknesses: [{ type: 'Grass', value: "×2" }],
 	resistances: [],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -48,11 +53,7 @@ const card: Card = {
 				cardtrader: 142423
 			}
 		}
-	],
-
-	retreat: 1,
-	rarity: 'Common',
-	dexId: [211]
+	]
 }
 
 export default card

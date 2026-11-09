@@ -8,12 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: 'Ken Sugimori',
+	rarity: 'Uncommon',
 	category: 'Trainer',
 
 	effect: {
 		ja: '自分の手札が6枚になるように、山札を引く。最初の自分の番に使ったなら、8枚になるように引く。'
 	},
 
+	trainerType: 'Supporter',
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -23,10 +27,7 @@ const card: Card = {
 				cardtrader: 142471
 			}
 		}
-	],
-
-	trainerType: 'Supporter',
-	rarity: 'Uncommon'
+	]
 }
 
 export default card

@@ -8,9 +8,15 @@ const card: Card = {
 	},
 
 	illustrator: 'Shin Nagasawa',
+	rarity: 'Common',
 	category: 'Pokemon',
+	dexId: [726],
 	hp: 90,
 	types: ['Fire'],
+
+	evolveFrom: {
+		ja: 'ニャビー'
+	},
 
 	description: {
 		ja: '首の 付け根に 炎の 鈴が ある。 炎が 噴きだすとき リンリンと 高い音が 鳴る。'
@@ -21,10 +27,10 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'いばる' },
-			cost: ['Colorless'],
 			effect: {
 				ja: 'コインを1回投げオモテなら、相手のバトルポケモンについているエネルギーを、1個トラッシュする。'
-			}
+			},
+			cost: ['Colorless']
 		},
 		{
 			name: { ja: 'ほのおのツメ' },
@@ -33,9 +39,12 @@ const card: Card = {
 		}
 	],
 
-	weaknesses: [{ type: 'Water', value: 'x2' }],
+	weaknesses: [{ type: 'Water', value: "×2" }],
 	resistances: [],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -45,15 +54,7 @@ const card: Card = {
 				cardtrader: 142418
 			}
 		}
-	],
-
-	evolveFrom: {
-		ja: 'ニャビー'
-	},
-
-	retreat: 1,
-	rarity: 'Common',
-	dexId: [726]
+	]
 }
 
 export default card

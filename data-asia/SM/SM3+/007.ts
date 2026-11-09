@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'Tomokazu Komiya',
+	rarity: 'Uncommon',
 	category: 'Pokemon',
+	dexId: [455],
 	hp: 100,
 	types: ['Grass'],
 
@@ -21,24 +23,27 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'さそいどく' },
-			cost: ['Grass'],
 			effect: {
 				ja: '相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。その後、新しく出てきたポケモンをどくにする。'
-			}
+			},
+			cost: ['Grass']
 		},
 		{
 			name: { ja: 'かみくだく' },
-			damage: 30,
-			cost: ['Grass', 'Colorless'],
 			effect: {
 				ja: '相手のバトルポケモンについているエネルギーを、1個トラッシュする。'
-			}
+			},
+			damage: 30,
+			cost: ['Grass', 'Colorless']
 		}
 	],
 
-	weaknesses: [{ type: 'Fire', value: 'x2' }],
+	weaknesses: [{ type: 'Fire', value: "×2" }],
 	resistances: [],
 
+	retreat: 2,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -48,11 +53,7 @@ const card: Card = {
 				cardtrader: 142408
 			}
 		}
-	],
-
-	retreat: 2,
-	rarity: 'Uncommon',
-	dexId: [455]
+	]
 }
 
 export default card

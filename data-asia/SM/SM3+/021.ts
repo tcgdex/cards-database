@@ -8,9 +8,15 @@ const card: Card = {
 	},
 
 	illustrator: 'nagimiso',
+	rarity: 'Uncommon',
 	category: 'Pokemon',
+	dexId: [160],
 	hp: 160,
 	types: ['Water'],
+
+	evolveFrom: {
+		ja: 'アリゲイツ'
+	},
 
 	description: {
 		ja: '普段は ゆっくりとした 動きだが 獲物に かみつくときは 目にも 止まらない スピードだ。'
@@ -21,11 +27,11 @@ const card: Card = {
 	attacks: [
 		{
 			name: { ja: 'かみくだく' },
-			damage: 80,
-			cost: ['Water', 'Colorless', 'Colorless'],
 			effect: {
 				ja: '相手のバトルポケモンについているエネルギーを、1個トラッシュする。'
-			}
+			},
+			damage: 80,
+			cost: ['Water', 'Colorless', 'Colorless']
 		},
 		{
 			name: { ja: 'ハイドロスプラッシュ' },
@@ -34,9 +40,12 @@ const card: Card = {
 		}
 	],
 
-	weaknesses: [{ type: 'Grass', value: 'x2' }],
+	weaknesses: [{ type: 'Grass', value: "×2" }],
 	resistances: [],
 
+	retreat: 3,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -46,15 +55,7 @@ const card: Card = {
 				cardtrader: 142422
 			}
 		}
-	],
-
-	evolveFrom: {
-		ja: 'アリゲイツ'
-	},
-
-	retreat: 3,
-	rarity: 'Uncommon',
-	dexId: [160]
+	]
 }
 
 export default card

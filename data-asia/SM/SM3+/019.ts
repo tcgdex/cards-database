@@ -8,7 +8,9 @@ const card: Card = {
 	},
 
 	illustrator: 'TOKIYA',
+	rarity: 'Common',
 	category: 'Pokemon',
+	dexId: [158],
 	hp: 70,
 	types: ['Water'],
 
@@ -31,9 +33,12 @@ const card: Card = {
 		}
 	],
 
-	weaknesses: [{ type: 'Grass', value: 'x2' }],
+	weaknesses: [{ type: 'Grass', value: "×2" }],
 	resistances: [],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -43,11 +48,7 @@ const card: Card = {
 				cardtrader: 142420
 			}
 		}
-	],
-
-	retreat: 1,
-	rarity: 'Common',
-	dexId: [158]
+	]
 }
 
 export default card

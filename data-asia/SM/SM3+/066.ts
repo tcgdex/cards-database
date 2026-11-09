@@ -8,12 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: 'Toyste Beach',
+	rarity: 'Uncommon',
 	category: 'Trainer',
 
 	effect: {
-		ja: '相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。'
+		ja: "コインを1回投げオモテなら、相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。"
 	},
 
+	trainerType: 'Item',
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -23,10 +27,7 @@ const card: Card = {
 				cardtrader: 142467
 			}
 		}
-	],
-
-	trainerType: 'Item',
-	rarity: 'Uncommon'
+	]
 }
 
 export default card

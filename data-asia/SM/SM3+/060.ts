@@ -8,12 +8,16 @@ const card: Card = {
 	},
 
 	illustrator: 'Toyste Beach',
+	rarity: 'Uncommon',
 	category: 'Trainer',
 
 	effect: {
-		ja: '自分のトラッシュから基本エネルギーを2枚選び、相手に見せてから、手札に加える。'
+		ja: "自分のトラッシュにある基本エネルギーを2枚、相手に見せてから、手札に加える。"
 	},
 
+	trainerType: 'Item',
+
+	regulationMark: "A",
 	variants: [
 		{
 			type: 'normal',
@@ -23,10 +27,7 @@ const card: Card = {
 				cardtrader: 142461
 			}
 		}
-	],
-
-	trainerType: 'Item',
-	rarity: 'Uncommon'
+	]
 }
 
 export default card
