@@ -23,12 +23,6 @@ const card: Card = {
 		"Fire",
 	],
 
-	evolveFrom: {
-		en: "Magby",
-		fr: "Magby",
-		de: "Magby"
-	},
-
 	stage: "Basic",
 
 	attacks: [

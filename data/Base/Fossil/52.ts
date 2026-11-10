@@ -23,6 +23,13 @@ const card: Card = {
 		"Water",
 	],
 
+	evolveFrom: {
+		en: "Mysterious Fossil",
+		fr: "Mystérieux Fossile",
+		it: "Fossile Misterioso",
+		de: "Geheimnis-Fossil"
+	},
+
 	stage: "Stage1",
 
 	abilities: [
