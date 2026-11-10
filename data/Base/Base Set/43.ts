@@ -30,7 +30,7 @@ const card: Card = {
 	attacks: [
 		{
 			cost: [
-				"Colorless",
+				"Psychic",
 			],
 			name: {
 				en: "Psyshock",
