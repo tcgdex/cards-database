@@ -55,7 +55,7 @@ const card: Card = {
 				en: "Does 10 damage times number of damage counters on Magikarp.",
 				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Magicarpe.",
 				de: "Fügt 10 Schadenspunkte mal der Anzahl der auf Karpador abgelegten Schadensmarken zu.",
-				it: "Infligge 10 danni moltiplicati per il numero di segnalini danno su Magikarp."
+				it: "Infligge 10 danni moltiplicati per il numero di segnalini danno presenti su Magikarp."
 			},
 			damage: "10x",
 

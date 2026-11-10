@@ -127,7 +127,7 @@ const card: Card = {
 	description: {
 		en: "Flies at high speed and attacks using the large, venomous stingers on its forelegs and tail.",
 		fr: "Il vole à très grande vitesse. Il se bat avec les dards empoisonnés de ses bras.",
-		it: " Vola ad alta velocità e attacca con i grandi pungiglioni velenosi che ha sulle zampe anteriori e sulla coda. LIV 32 N.15",
+		it: "Vola ad alta velocità e attacca con i grandi pungiglioni velenosi che ha sulle zampe anteriori e sulla coda.",
 		de: "Fliegt mit hoher Geschwindigkeit und greift mit den großen, giftigen Stacheln auf Vorderbeinen und Schwanz an."
 	},
 }

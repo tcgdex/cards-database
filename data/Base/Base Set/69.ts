@@ -60,7 +60,7 @@ const card: Card = {
 	description: {
 		en: "Often found in forests, eating leaves. It has a sharp, venomous stinger on its head.",
 		fr: "Il se nourrit de feuilles dans les forêts. L'aiguillon sur son front est empoisonné.",
-		it: "Lo si incontra spesso nei boschi dove si nutre di foglie. Ha sulla testa un pungiglione aguzzo e velenoso. LIV 12 N.13",
+		it: "Lo si incontra spesso nei boschi dove si nutre di foglie. Ha sulla testa un pungiglione aguzzo e velenoso.",
 		de: "Oft in Wäldern zu finden, wo es sich von Blättern ernährt. Es hat einen scharfen, spitzen Stachel auf seinem Kopf."
 	},
 

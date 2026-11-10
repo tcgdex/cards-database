@@ -6,7 +6,7 @@ const card: Card = {
 		en: "Professor Oak",
 		fr: "Professeur Chen",
 		de: "Professor Eich",
-		it: "Professore Oak"
+		it: "Professor Oak"
 
 	},
 

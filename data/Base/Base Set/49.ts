@@ -75,7 +75,7 @@ const card: Card = {
 	description: {
 		en: "Puts enemies to sleep, then eats their dreams. Occasionally gets sick from eating bad dreams.",
 		fr: "Il endort ses ennemis et dévore leurs songes. En mangeant de mauvais rêves, il devient malade.",
-		it: "Addormenta i suoi nemici e poi mangia i loro sogni. A volte si sente male dopo aver mangiato dei brutti sogni. LIV 12 N.96",
+		it: "Addormenta i suoi nemici e poi mangia i loro sogni. A volte si sente male dopo aver mangiato dei brutti sogni.",
 		de: "Versetzt Feinde in Schlaf und frisst dann ihre Träume. Ab und zu wird ihm von schlechten Träumen jedoch übel."
 	},
 

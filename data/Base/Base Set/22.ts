@@ -50,7 +50,7 @@ const card: Card = {
 				en: "If your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",
 				fr: "Si votre adversaire a au moins un Pokémon sur le Banc, il ou elle choisit l'1 d'eux et l'échange avec le Pokémon Défenseur. (Appliquez les dégâts avant d'échanger les Pokémon.)",
 				de: "Falls Dein Gegner irgendwelche Pokémon auf der Bank hat, muss er eines von ihnen wählen und mit dem verteidigenden Pokémon austauschen. (Füge die Schadenspunkte vor dem Auswechseln des Pokémon zu.)",
-				it: "Se il tuo avversario ha dei Pokémon in Panchina, deve scegliere uno e scambiarlo con il Pokémon Difensore. (Infliggi il danno prima di sostituire il Pokémon.)"
+				it: "Se il tuo avversario ha dei Pokémon in Panchina, deve sceglierne uno e scambiarlo con il Pokémon Difensore. (Infliggi il danno prima di sostituire il Pokémon.)"
 			},
 			damage: 20,
 
@@ -128,7 +128,7 @@ const card: Card = {
 	description: {
 		en: "Very protective of its sprawling territory, this Pokémon will fiercely peck at any intruder.",
 		fr: "Il protège son territoire avec ardeur et repousse à coups de bec tout intrus.",
-		it: "Istintivamente protettivo del suo ampio territorio di caccia, questo Pokémon si serve del suo becco appuntito per attaccare con forza qualsiasi nuovo intruso. LIV 36 N.17",
+		it: "Istintivamente protettivo del suo ampio territorio di caccia, questo Pokémon si serve del suo becco appuntito per attaccare con forza qualsiasi intruso.",
 		de: "Sehr auf eigenes Territorium bedacht, vertreibt dieses Pokémon aggressiv jeden Eindringling."
 	}
 }

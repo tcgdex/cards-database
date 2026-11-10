@@ -71,7 +71,7 @@ const card: Card = {
 				en: "The Defending Pokémon is now Poisoned. It now takes 20 Poison damage instead of 10 after each player's turn (even if it was already Poisoned).",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné. Il subit maintenant 20 dégâts Poison au lieu de 10 après le tour de chaque joueur (même s'il était déjà empoisonné).",
 				de: "Das verteidigende Pokémon ist vergiftet. Es erleidet 20 Vergiftungsschadenspunkte anstatt 10 nach dem Zug jedes Spielers (selbst wenn es bereits vergiftet war).",
-				it: "Il Pokémon difensore è avvelenato. Riceve 20 danni Veleno invece di 10 dopo il turno di ciascun giocatore (anche se era già Avvelenato)."
+				it: "Il Pokémon Difensore è Avvelenato. Riceve 20 danni Veleno invece di 10 dopo il turno di ciascun giocatore (anche se era già Avvelenato.)"
 			},
 			damage: 20,
 
@@ -90,7 +90,7 @@ const card: Card = {
 	description: {
 		en: "Uses its powerful tail in battle to smash, constrict, then break its prey's bones.",
 		fr: "Sa queue est une arme redoutable, il s'en sert pour attraper sa proie et lui broyer les os.",
-		it: "In combattimento, usa la sua potente coda per colpire, stritolare e poi spezzare le ossa della sua preda. LIV 48 N.34",
+		it: "In combattimento, usa la sua potente coda per colpire, stritolare e poi spezzare le ossa della sua preda.",
 		de: "Setzt seinen mächtigen Schwanz in der Schlacht ein, um die Knochen seiner Beute zu zerschmettern, einzuschnüren und dann zu brechen."
 	},
 

@@ -72,7 +72,7 @@ const card: Card = {
 				en: "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magneton does 80 damage to itself.",
 				fr: "Inflige 20 dégâts à chaque Pokémon sur le Banc de chaque joueur. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon sur le Banc.) Magneton s'inflige 80 dégâts.",
 				de: "Fügt jedem Pokémon auf der Bank eines Spielers 20 Schadenspunkte zu. (Schwäche und Resistenz nicht auf Pokémon auf der Bank anwenden!) Magneton fügt sich selbst 80 Schadenspunkte zu.",
-				it: "Infligge 20 danni a ogni Pokémon della Panchina di ogni giocatore. (Non applicare Debolezza e Resistenza per i Pokémon in Panchina.) Magneton si infligge 80 danni."
+				it: "Infligge 20 danni a ogni Pokémon nella Panchina di ogni giocatore. (Non applicare Debolezza e Resistenza per i Pokémon in Panchina.) Magneton si infligge 80 danni."
 			},
 			damage: 80,
 
@@ -91,7 +91,7 @@ const card: Card = {
 	description: {
 		en: "Formed by several Magnemites linked together. It frequently appears when sunspots flare up.",
 		fr: "Constitué de Magneti reliés les uns aux autres, il apparaît lorsque le soleil brille.",
-		it: "Composto da diversi Magnemite collegati tra loro. Generalmente visibile quando compaiono le macchie solari. LIV 28 N.82",
+		it: "Composto da diversi Magnemite collegati tra loro. Generalmente visibile quando compaiono le macchie solari.",
 		de: "Aus mehreren miteinander verknüpften Magnetilos entstanden. Erscheint oft, wenn Sonnenflecken auftreten."
 	},
 

@@ -58,7 +58,7 @@ const card: Card = {
 				en: "Discard 1 Energy card attached to Magmar in order to use this attack.",
 				fr: "Défaussez 1 carte Énergie {R} attachée à Magmar pour pouvoir utiliser cette attaque.",
 				de: "Entferne eine auf Magmar abgelegte {R} Energiekarte, um diesen Angriff auszuführen.",
-				it: "Scarta una carta Energia Fuoco assegnata a Magmar per poter usare questo attacco."
+				it: "Scarta una carta Energia {R} assegnata a Magmar per poter usare questo attacco."
 			},
 			damage: 50,
 
@@ -77,7 +77,7 @@ const card: Card = {
 	description: {
 		en: "Its body always burns with an orange glow that enables it to hide perfectly among flames.",
 		fr: "Son corps en fusion brûle d'une flamme orangée, le rendant invisible dans le feu.",
-		it: "La luce arancione che emana dal suo corpo gli permette di mimetizzarsi perfettamente tra le fiamme. LIV 24 N.126",
+		it: "La luce arancione che emana dal suo corpo gli permette di mimetizzarsi perfettamente tra le fiamme.",
 		de: "Sein Körper glüht stets orangefarben, damit es sich perfekt in Flammen verstecken kann."
 	},
 

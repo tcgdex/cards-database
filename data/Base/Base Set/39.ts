@@ -60,7 +60,7 @@ const card: Card = {
 				en: "Change Porygon's Resistance to a type of your choice other than Colorless.",
 				fr: "Changez la Résistance de Porygon pour un type de votre choix, excepté Incolore.",
 				de: "Ändere Porygons Resistenz auf einen Typ Deiner Wahl (außer Farblos).",
-				it: "Cambia la Resistenza di Porygon con un tipo a scelta, ad eccezione di Incolore"
+				it: "Cambia la Resistenza di Porygon con un tipo a scelta, ad eccezione di Incolore."
 			},
 
 		},
@@ -85,7 +85,7 @@ const card: Card = {
 	description: {
 		en: "A Pokémon that consists entirely of programming code. Capable of moving freely in cyberspace.",
 		fr: "Un Pokémon fait de programmes et d'algorithmes. Il peut survivre en milieu virtuel.",
-		it: "Pokémon costituito interamente da codici di programmazione. Capace di muoversi liberamente nel ciberspazio. LIV 12 N.137",
+		it: "Pokémon costituito interamente da codici di programmazione. Capace di muoversi liberamente nel ciberspazio.",
 		de: "Ein Pokémon, das vollständig aus Programmiercodes besteht. Kann sich im Cyberspace frei bewegen."
 	},
 

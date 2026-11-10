@@ -56,7 +56,7 @@ const card: Card = {
 				en: "Discard 1 Energy card attached to Charmander in order to use this attack.",
 				fr: "Défaussez 1 carte Énergie {R} attachée à Salamèche pour pouvoir utiliser cette attaque.",
 				de: "Entferne eine auf Glumanda abgelegte {R} Energiekarte, um diesen Angriff auszuführen.",
-				it: "Scarta una carta Energia Fuoco assegnata a Charmander per poter usare questo attacco.",
+				it: "Scarta una carta Energia {R} assegnata a Charmander per poter usare questo attacco.",
 			},
 			damage: 30,
 

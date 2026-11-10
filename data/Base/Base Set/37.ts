@@ -27,7 +27,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Nidoran♂",
 		fr: "Nidoran",
-		it: "Nidoran♂",
+		it: "Nidoran ♂",
 		de: "Nidoran♂"
 	},
 
@@ -44,7 +44,7 @@ const card: Card = {
 				en: "Double Kick",
 				fr: "Double Pied",
 				de: "Doppelkick",
-				it: "Doppio calcio"
+				it: "Doppiocalcio"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
@@ -86,7 +86,7 @@ const card: Card = {
 	description: {
 		en: "An aggressive Pokémon that is quick to attack. The horn on its head secretes a powerful venom.",
 		fr: "Très agressif, il est prompt à répondre à la violence. La corne sur sa tête est venimeuse.",
-		it: "Pokémon aggressivo che attacca con rapidità. Il corno sulla sua testa secerne un potente veleno. LIV 25 N.33",
+		it: "Pokémon aggressivo che attacca con rapidità. Il corno sulla sua testa secerne un potente veleno.",
 		de: "Ein aggressives Pokémon, das schnell zum Angriff übergeht. Das Horn auf seinem Kopf sondert ein starkes Gift ab."
 	},
 

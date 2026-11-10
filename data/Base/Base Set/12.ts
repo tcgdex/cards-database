@@ -49,7 +49,7 @@ const card: Card = {
 				en: "If your opponent has any Benched Pokémon, choose 1 of them and switch it with the Defending Pokémon.",
 				fr: "Si votre adversaire a des Pokémon sur le Banc, choisissez 1 d'entre eux et échangez-le avec le Pokémon Défenseur.",
 				de: "Falls Dein Gegner irgendwelche Pokémon auf der Bank hat, wähle eines von ihnen und tausche es mit dem verteidigenden Pokémon aus.",
-				it: "Se il tuo avversario ha dei Pokémon in Panchina, scegliene uno e scambialo con il Pokémon Difensore"
+				it: "Se il tuo avversario ha dei Pokémon in Panchina, scegline uno e scambialo con il Pokémon Difensore."
 			},
 
 		},
@@ -70,7 +70,7 @@ const card: Card = {
 				en: "Discard 1 Energy card attached to Ninetales in order to use this attack.",
 				fr: "Défaussez 1 carte Énergie {R} attachée à Feunard pour pouvoir utiliser cette attaque.",
 				de: "Entferne eine auf Vulnona abgelegte {R} Energiekarte, um diesen Angriff auszuführen.",
-				it: "Scarta una carta Energia Fuoco assegnata a Ninetales per poter usare questo attacco."
+				it: "Scarta una carta Energia {R} assegnata a Ninetales per poter usare questo attacco."
 			},
 			damage: 80,
 
@@ -122,7 +122,7 @@ const card: Card = {
 	description: {
 		en: "Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse.",
 		fr: "Très intelligent et rancunier. Attrapez-lui une de ses queues et il vous maudira pour 1000 ans.",
-		it: "Molto intelligente, ma anche molto vendicativo. Chi osa afferrare una delle sue numerose code viene punito con una maledizione che durerà 1.000 anni. LIV 32 N.38",
+		it: "Molto intelligente, ma anche molto vendicativo. Chi osa afferrare una delle sue numerose code viene punito con una maledizione che durerà per 1.000 anni.",
 		de: "Sehr gescheit und sehr rachsüchtig. Das Ergreifen eines seiner Schwänze könnte zu einem tausendjährigen Fluch führen."
 	}
 }

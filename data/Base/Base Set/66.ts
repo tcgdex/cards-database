@@ -82,7 +82,7 @@ const card: Card = {
 	description: {
 		en: "Its whole body is swathed with wide vines that are similar to seaweed. These vines shake as it walks.",
 		fr: "Son corps est recouvert de lianes similaires à des algues. Elles bougent quand il marche.",
-		it: "Il suo corpo è avvolto interamente da larghi rampicanti simili ad alghe, che si agitano quando cammina. LIV 8 N.114",
+		it: "Il suo corpo è avvolto interamente da larghi rampicanti simili ad alghe, che si agitano quando cammina.",
 		de: "Sein ganzer Körper ist von breiten, seetangähnlichen Kletterpflanzen umhüllt."
 
 	},

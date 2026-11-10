@@ -49,7 +49,7 @@ const card: Card = {
 				en: "Discard 1 Energy card to Starmie in order to use this attack. Remove all damage counters from Starmie.",
 				fr: "Défaussez 1 carte Énergie {W} attachée à Staross pour pouvoir utiliser cette attaque. Retirez tous les marqueurs de dégâts sur Staross.",
 				de: "Entferne eine auf Starmie abgelegte {W} Energiekarte, um diesen Angriff auszuführen. Entferne alle Schadensmarken von Starmie.",
-				it: "Scarta una carta Energia Acqua assegnata a Starmie per poter usare questo attacco. Togli tutti i segnalini danno da Starmie.",
+				it: "Scarta una carta Energia {W} assegnata a Starmie per poter usare questo attacco. Togli tutti i segnalini danno da Starmie.",
 			},
 
 		},
@@ -88,7 +88,7 @@ const card: Card = {
 	description: {
 		en: "Its central core glows with the seven colors of the rainbow. Some people value this core as a gem.",
 		fr: "Son cœur brille des couleurs de l'arc-en-ciel. On raconte que c'est une pierre précieuse.",
-		it: "Il suo nucleo centrale brilla  dei sette colori dell'arcobaleno. Valutato da alcuni come una gemma preziosa. LIV 28 N.121",
+		it: "Il suo nucleo centrale brilla dei sette colori dell'arcobaleno. Valutato da alcuni come una gemma preziosa.",
 		de: "Sein Kern glüht in den Regenbogenfarben. Auch als Edelstein geschätzt."
 	},
 

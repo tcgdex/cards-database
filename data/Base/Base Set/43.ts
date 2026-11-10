@@ -42,7 +42,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon gelähmt.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è paralizzato."
+				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
 			},
 			damage: 10,
 

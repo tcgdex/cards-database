@@ -85,7 +85,7 @@ const card: Card = {
 	description: {
 		en: "A legendary bird Pokémon said to appear from clouds while wielding enormous lightning bolts.",
 		fr: "L'oiseau légendaire de la foudre. Il surgit hors des nuages en lançant d'énormes éclairs.",
-		it: "Leggendario uccello Pokémon. Si dice che appaia dalle nuvole brandendo enormi fulmini. LIV 64 N.145",
+		it: "Leggendario uccello Pokémon. Si dice che appaia dalle nuvole brandendo enormi fulmini.",
 		de: "Ein legendäres Vogel-Pokémon, welches der Sage nach aus den Wolken sticht und mit Blitzen um sich wirft."
 	},
 

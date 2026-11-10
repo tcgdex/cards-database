@@ -18,7 +18,7 @@ const card: Card = {
 	effect: {
 		en: "Provides {C}{C} energy.\nDoesn't count as a basic Energy card.",
 		de: "Liefert {C}{C} Energie. Zählt nicht als Basis-Energiekarte.",
-		it: "Fornisce energia Incolore Incolore. Non conta come carta Energia base.",
+		it: "Fornisce energia {C}{C}. Non conta come una carta Energia Base.",
 		fr: "Fournit {C}{C} énergies. Ne compte pas comme une carte Énergie de base.",
 	},
 

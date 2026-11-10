@@ -62,7 +62,7 @@ const card: Card = {
 				en: "Discard 1 Energy card attached to Mewtwo in order to use this attack. During your opponent's next turn, prevent all effects of attacks, including damage, done to Mewtwo.",
 				fr: "Défaussez 1 carte Énergie {P} attachée à Mewtwo pour pouvoir utiliser cette attaque. Pendant le prochain tour de votre adversaire, prévenez tous les effets ou attaques, y compris les dégâts, infligés à Mewtwo.",
 				de: "Entferne eine auf Mewtu abgelegte {P} Energiekarte, um diesen Angriff auszuführen. Verhindere während des nächsten gegnerischen Zugs alle Auswirkungen von Angriffen auf Mewtu (einschließlich der Schadenspunkte).",
-				it: "Scarta una carta Energia Psico assegnata a Mewtwo per poter usare questo attacco. Durante il prossimo turno del tuo avversario, previeni tutti gli effetti degli attacchi inflitti a Mewtwo, compresi i danni."
+				it: "Scarta una carta Energia {P} assegnata a Mewtwo per poter usare questo attacco. Durante il prossimo turno del tuo avversario, previeni tutti gli effetti degli attacchi inflitti a Mewtwo, compresi i danni."
 			},
 
 		},
@@ -80,7 +80,7 @@ const card: Card = {
 	description: {
 		en: "A scientist created this Pokémon after years of horrific gene-splicing and DNA engineering experiments.",
 		fr: "Il est le fruit de nombreuses expériences génétiques horribles et malsaines.",
-		it: "Questo Pokémon è stato creato da uno scienziato pazzo, dopo anni di esperimenti con mutazioni genetiche e manipolazioni di DNA. LIV 53 N.150",
+		it: "Questo Pokémon è stato creato da uno scienziato pazzo, dopo anni di esperimenti con mutazioni genetiche e manipolazioni di DNA.",
 		de: "Ein Wissenschaftler erschuf dieses Pokémon nach Jahren schrecklicher Gensplitting- und DNS-Experimente."
 	},
 

@@ -61,7 +61,7 @@ const card: Card = {
 				en: "Choose 1 of Defending Pokémon's attacks. Metronome copies that attack except for its Energy costs and anything else required in order to use that attack, such as discarding energy cards. (No matter what type the defender is, Clefairy's type is still Colorless.)",
 				fr: "Choisissez 1 des attaques du Pokémon Défenseur. Métronome copie cette attaque à l'exception de son coût d'Énergie et de toute autre action requise pour utiliser cette attaque, comme par exemple, défausser des cartes Énergie. (Quel que soit le type du Pokémon Défenseur, Mélofée demeure de type Incolore.)",
 				de: "Wähle einen der Angriffe des verteidigenden Pokémon. Metronom kopiert diesen Angriff, außer seiner Energiekosten und was sonst noch für den Einsatz dieses Angriffs erforderlich ist, wie z.B. das Entfernen von Energiekarten. (Unabhängig vom Typ des Verteidigenden Pokémon ist der Typ der Piepi immer noch farblos.)",
-				it: "Scegli uno degli attacchi del Pokémon difensore. Il Metronomo copia quell'attacco, ad esclusione dei suoi costi di Energia e altre azioni necessarie per portare a termine  quell'attacco, come scartare carte Energia. (Indipendetemente dal tipo di Pokémon Difensore, Clefairy rimane di tipo Incolore.)"
+				it: "Scegli uno degli attacchi del Pokémon Difensore. Il Metronomo copia quell'attacco, ad esclusione dei suoi costi di Energia e di altre azioni necessarie per portare a termine quell'attacco, come scartare carte Energia. (Indipendentemente dal tipo di Pokémon Difensore, Clefairy rimane di tipo Incolore.)"
 			},
 
 		},
@@ -86,7 +86,7 @@ const card: Card = {
 	description: {
 		en: "Its magical and cute appeal has many admirers. It is rare and found only in certain areas.",
 		fr: "Très recherché pour son aura mystique, il est très rare et ne vit que dans des endroits précis.",
-		it: "Grazioso e magico, questo Pokémon è molto ammirato. È raro e si trova solo in determinate località. LIV 14 N.35",
+		it: "Grazioso e magico, questo Pokémon è molto ammirato. È raro e si trova solo in determinate località.",
 		de: "Piepis magischer und niedlicher Anreiz hat viele Bewunderer. Es ist selten und nur in bestimmten Gebieten aufzufinden."
 	},
 

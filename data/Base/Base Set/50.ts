@@ -60,7 +60,7 @@ const card: Card = {
 				en: "Discard 1 Energy card attached to Gastly in order to use this attack. If a Pokémon Knocks Out Gastly during your opponent's next turn, Knock Out that Pokémon.",
 				fr: "Défaussez 1 carte Énergie {P} attachée à Fantominus pour pouvoir utiliser cette attaque. Si un Pokémon met Fantominus K.O. pendant le prochain tour de votre adversaire, mettez ce Pokémon K.O.",
 				de: "Entferne eine auf Nebulak abgelegte {P} Energiekarte, um diesen Angriff auszuführen. Falls ein Pokémon Nebulak während des nächsten gegnerischen Zugs kampfunfähig macht, mache dieses Pokémon kampfunfähig.",
-				it: "Scarta una carta Energia Psico assegnata a Gastly per usare questo attacco. Se un Pokémon mette K.O. Gastly durante il prossimo turno del tuo avversario, anche quel Pokémon verrà messo K.O."
+				it: "Scarta una carta Energia {P} assegnata a Gastly per poter usare questo attacco. Se un Pokémon mette K.O. Gastly durante il prossimo turno del tuo avversario, anche quel Pokémon verrà messo K.O."
 			},
 
 		},
@@ -76,7 +76,7 @@ const card: Card = {
 	description: {
 		en: "Almost invisible, this gaseous Pokémon cloaks the target and puts it to sleep without notice.",
 		fr: "Ce Pokémon gazeux plonge ses victimes dans un profond sommeil sans qu'elles s'en aperçoivent.",
-		it: "Praticamente invisibile, questo Pokémon gassoso avvolge la sua preda in una nuvola di gas che la fa immediatamente addormentare. LIV 8 N.92",
+		it: "Praticamente invisibile, questo Pokémon gassoso avvolge la sua preda in una nuvola di gas che lo fa immediatamente addormentare.",
 		de: "Fast unsichtbar, umhüllt dieses gasförmige Pokémon sein Ziel und versetzt es ohne Warnung in den Schlaf."
 	},
 

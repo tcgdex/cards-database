@@ -80,7 +80,7 @@ const card: Card = {
 	description: {
 		en: "Uses anti-gravity to stay suspended. Appears without warning and uses attacks like Thunder Wave.",
 		fr: "Il contrôle la gravité pour pouvoir voler. Il attaque avec des Cages-Éclair.",
-		it: "Usa l'antigravità per rimanere sospeso. Appare senza preavviso e usa attacchi come Tuononda. LIV 13 N.81",
+		it: "Usa l'antigravità per rimanere sospeso. Appare senza preavviso e usa attacchi come Tuononda.",
 		de: "Verwendet Anti-Schwerkraft, um zu schweben. Erscheint ohne Warnung und verwendet Angriffe wie Donnerwelle."
 	},
 

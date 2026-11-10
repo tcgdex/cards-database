@@ -72,7 +72,7 @@ const card: Card = {
 				en: "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.",
 				fr: "Si des cartes Énergie sont attachées au Pokémon Défenseur, choisissez 1 d'elle et défaussez-la.",
 				de: "Sind auf dem verteidigenden Pokémon Energiekarten abgelegt, wähle eine von ihnen und entferne sie.",
-				it: "Se il Pokémon Difensore ha delle carte Energie assegnate, scegline una e scartala."
+				it: "Se il Pokémon Difensore ha delle carte Energia assegnate, scegline una e scartala."
 			},
 			damage: 20,
 
@@ -123,7 +123,7 @@ const card: Card = {
 	description: {
 		en: "A mystical Pokémon that exudes a gentle aura. Has the ability to change climate conditions.",
 		fr: "Un Pokémon légendaire plein de charme. Il peut contrôler les variations climatiques.",
-		it: "Pokémon mistico con un'indole gentile. Ha l'abilità di cambiare le condizioni climatiche. LIV 33 N.148",
+		it: "Pokémon mistico con un'indole gentile. Ha l'abilità di cambiare le condizioni climatiche.",
 		de: "Ein mystisches Pokémon, das eine sanfte Aura verbreitet. Hat die Fähigkeit, Klimabedingungen zu verändern."
 	}
 }

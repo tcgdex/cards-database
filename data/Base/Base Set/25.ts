@@ -67,7 +67,7 @@ const card: Card = {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
 				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon gelähmt.",
-				it: "Lancia una moneta. Se esce testa, il Pokémon difensore è Paralizzato."
+				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato."
 			},
 			damage: 30,
 
@@ -117,7 +117,7 @@ const card: Card = {
 	description: {
 		en: "Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters.",
 		fr: "Il emmagasine la chaleur dans son corps. Il peut nager dans l'eau glacée à plus de 8 nœuds.",
-		it: "Conserva energia termica nel suo corpo. Nuota ad una velocità costante di 8 nodi anche in acque estremamente fredde. LIV 42 N.87",
+		it: "Conserva energia termica nel suo corpo. Nuota ad una velocità costante di 8 nodi anche in acque estremamente fredde.",
 		de: "Speichert Thermalenergie in seinem Körper. Schwimmt acht Knoten schnell sogar in empfindlich kalten Gewässern."
 	}
 }

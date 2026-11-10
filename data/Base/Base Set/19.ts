@@ -125,7 +125,7 @@ const card: Card = {
 	description: {
 		en: "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
 		fr: "Un groupe de Taupiqueur. Ils créent des séismes en creusant à plus de 100 km de profondeur.",
-		it: "Terzetto di Diglett che scatena disastrosi terremoti. LIV 36 N.51",
+		it: "Terzetto di Diglett che scatena disastrosi terremoti.",
 		de: "Die Digda-Drillinge lösen gewaltige Erdbeben durch Tunnel von 80 Kilometern Länge aus."
 	}
 }
