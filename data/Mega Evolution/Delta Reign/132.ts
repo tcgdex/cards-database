@@ -17,7 +17,8 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Energy",
-	types: ["Water"]
+	types: ["Water"],
+	regulationMark: "J"
 }
 
 export default card

@@ -43,6 +43,7 @@ const card: Card = {
 	}],
 
 	trainerType: "Tool",
+	regulationMark: "J",
 
 	thirdParty: {
 		tcgplayer: 726553,

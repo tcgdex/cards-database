@@ -18,6 +18,7 @@ const card: Card = {
 	rarity: "Ultra Rare",
 	category: "Trainer",
 	trainerType: "Item",
+	regulationMark: "J",
 
 	thirdParty: {
 		tcgplayer: 726569
