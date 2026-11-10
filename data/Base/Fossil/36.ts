@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Golem",
 		fr: "Grolem",
+		it: "Golem",
 		de: "Geowaz"
 	},
 
@@ -26,6 +27,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Graveler",
 		fr: "Gravalanch",
+		it: "Graveler",
 		de: "Georok"
 	},
 
@@ -42,6 +44,7 @@ const card: Card = {
 			name: {
 				en: "Avalanche",
 				fr: "Avalanche",
+				it: "Valanga",
 				de: "Lawine"
 			},
 
@@ -58,11 +61,13 @@ const card: Card = {
 			name: {
 				en: "Selfdestruct",
 				fr: "Destruction",
+				it: "Autodistruzione",
 				de: "Finale"
 			},
 			effect: {
 				en: "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Golem does 100 damage to itself.",
 				fr: "Inflige 20 dégâts à chacun des Pokémon du Banc de chaque joueur. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.) Grolem s'inflige 100 dégâts.",
+				it: "Infligge 20 danni a ogni Pokémon nella Panchina di entrambi i giocatori (non applicare Debolezza e Resistenza ai Pokémon in Panchina). Golem si infligge 100 danni.",
 				de: "Fügt jedem Pokémon auf der Bank eines jeden Spielers 20 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.) Geowaz fügt sich selbst 100 Schadenspunkte zu."
 			},
 			damage: 100,
@@ -82,6 +87,7 @@ const card: Card = {
 	description: {
 		en: "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage.",
 		fr: "Son corps de pierre est indestructible. Il peut supporter des explosions de dynamite.",
+		it: "Il suo corpo granitico è incredibilmente solido. Può resistere senza alcun problema alla dinamite.",
 		de: "Sein felsenartiger Körper ist steinhart. Es hält sogar problemlos Dynamit-Explosionen stand."
 	},
 

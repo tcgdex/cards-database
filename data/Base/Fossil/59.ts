@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Energy Search",
 		fr: "Recherche d'Énergie",
+		it: "Ricerca di Energia",
 		de: "Energiesuche"
 	},
 
@@ -16,6 +17,7 @@ const card: Card = {
 	effect: {
 		en: "Search your deck for a basic Energy card and put it into your hand. Shuffle your deck afterward.",
 		fr: "Cherchez une carte Énergie de base dans votre deck et placez-la dans votre main. Mélangez ensuite votre deck.",
+		it: "Cerca nel tuo mazzo una carta Energia Base e aggiungila alla tua mano. Quindi rimischia le carte del tuo mazzo.",
 		de: "Suche in deinem Deck nach einer Basis-Energiekarte und nimm sie auf deine Hand. Mische dein Deck danach."
 	},
 

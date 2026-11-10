@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Arbok",
 		fr: "Arbok",
+		it: "Arbok",
 		de: "Arbok"
 	},
 
@@ -26,6 +27,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Ekans",
 		fr: "Abo",
+		it: "Ekans",
 		de: "Rettan"
 	},
 
@@ -39,11 +41,13 @@ const card: Card = {
 			name: {
 				en: "Terror Strike",
 				fr: "Raid terrifiant",
+				it: "Panico",
 				de: "Terrorschlag"
 			},
 			effect: {
 				en: "Flip a coin. If heads and if your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)",
 				fr: "Lancez une pièce. Si c'est face et si votre adversaire a un ou plusieurs Pokémon sur son Banc, il choisit l'un d'eux et l'échange avec son Pokémon Défenseur. (Infligez les dégâts avant d'échanger les Pokémon.)",
+				it: "Lancia una moneta. Se esce testa e il tuo avversario ha dei Pokémon in Panchina, deve sceglierne uno e scambiarlo con il Pokémon Difensore (infliggi il danno prima di sostituire il Pokémon).",
 				de: "Wirf eine Münze. Bei „Kopf“ und falls dein Gegner irgendwelche Pokémon auf der Bank hat, wählt er eines von ihnen und tauscht es mit dem verteidigenden Pokémon aus. (Füge die Schadenspunkte vor dem Auswechseln des Pokémon zu.)"
 			},
 			damage: 10,
@@ -58,11 +62,13 @@ const card: Card = {
 			name: {
 				en: "Poison Fang",
 				fr: "Croc-poison",
+				it: "Dente avvelenato",
 				de: "Giftzahn"
 			},
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 				fr: "Le Pokémon Défenseur est maintenant Empoisonné.",
+				it: "Il Pokémon Difensore è Avvelenato.",
 				de: "Das verteidigende Pokémon ist jetzt vergiftet."
 			},
 			damage: 20,
@@ -82,6 +88,7 @@ const card: Card = {
 	description: {
 		en: "It is rumored that the ferocious warning markings on its belly differ from area to area.",
 		fr: "Les motifs féroces peints sur son corps changent selon son environnement.",
+		it: "Si dice che gli impressionanti segnali di avvertimento posti sul suo ventre cambino a seconda della zona.",
 		de: "Es geht das Gerücht um, dass die wilden Warnzeichnungen auf seinem Unterleib sich von Region zu Region unterscheiden."
 	},
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Recycle",
 		fr: "Recyclage",
+		it: "Riciclo",
 		de: "Wiederverwertung"
 	},
 
@@ -18,6 +19,7 @@ const card: Card = {
 	effect: {
 		en: "Flip a coin. If heads, put a card in your discard pile on top of your deck.",
 		fr: "Lancez une pièce. Si c'est face, déplacez une carte de votre pile de défausse vers le sommet de votre deck.",
+		it: "Lancia una moneta. Se esce testa, prendi una carta dalla tua pila degli scarti e mettila in cima al tuo mazzo.",
 		de: "Wirf eine Münze. Bei „Kopf“ suche eine Karte aus deinem Ablagestapel und lege sie oben auf dein Deck legen."
 	},
 

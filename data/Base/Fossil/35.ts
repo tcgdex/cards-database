@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Golduck",
 		fr: "Akwakwak",
+		it: "Golduck",
 		de: "Entoron"
 	},
 
@@ -26,6 +27,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Psyduck",
 		fr: "Psykokwak",
+		it: "Psyduck",
 		de: "Enton"
 	},
 
@@ -39,11 +41,13 @@ const card: Card = {
 			name: {
 				en: "Psyshock",
 				fr: "Choc psy",
+				it: "Psico Shock",
 				de: "Psyschock"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé.",
+				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato.",
 				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt."
 			},
 			damage: 10,
@@ -58,11 +62,13 @@ const card: Card = {
 			name: {
 				en: "Hyper Beam",
 				fr: "Ultralaser",
+				it: "Iper Raggio",
 				de: "Hyperstrahl"
 			},
 			effect: {
 				en: "If the Defending Pokémon has any Energy cards attached to it, choose 1 of them and discard it.",
 				fr: "Si des cartes Énergies sont attachées au Pokémon, choisissez l'une d'elle et défaussez-la.",
+				it: "Se il Pokémon Difensore ha delle carte Energia assegnate, scegline una e scartala.",
 				de: "Falls das verteidigende Pokémon irgendwelche darauf abgelegten Energiekarten hat, wähle eine von ihnen und entferne sie."
 			},
 			damage: 20,
@@ -82,6 +88,7 @@ const card: Card = {
 	description: {
 		en: "Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa.",
 		fr: "Il nage avec élégance le long des côtes. Il est souvent confondu avec le monstre japonais: Kappa.",
+		it: "Spesso, dalle sponde dei laghi, lo si vede nuotare con agilità. Viene facilmente scambiato per il mostro giapponese Kappa.",
 		de: "Man sieht es oft in Küstengewässern schwimmen. Es wird auch oft mit dem japanischen Monster Kappa verwechselt."
 	},
 

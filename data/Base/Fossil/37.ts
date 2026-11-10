@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Graveler",
 		fr: "Gravalanch",
+		it: "Graveler",
 		de: "Georok"
 	},
 
@@ -26,6 +27,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Geodude",
 		fr: "Racaillou",
+		it: "Geodude",
 		de: "Kleinstein"
 	},
 
@@ -40,11 +42,13 @@ const card: Card = {
 			name: {
 				en: "Harden",
 				fr: "Armure",
+				it: "Rafforzatore",
 				de: "Härtner"
 			},
 			effect: {
 				en: "During your opponent's next turn, whenever 30 or less damage is done to Graveler (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.)",
 				fr: "Pendant le prochain tour de votre adversaire, à chaque fois que 30 dégâts ou moins sont infligés à Gravalanch (après application de la Faiblesse et de la Résistance), prévenez ces dégâts. (Tout autre effet ou attaque est toujours valide.)",
+				it: "Durante il prossimo turno del tuo avversario, ogni volta che Graveler subisce 30 o meno danni (dopo aver applicato Debolezza e resistenza) previeni quel danno (tutti gli altri effetti degli attacchi restano validi).",
 				de: "Immer wenn Georok während des nächsten gegnerischen Zuges 30 oder weniger Schadenspunkte zugefügt werden (nachdem Schwäche und Resistenz abgerechnet wurden), verhindere diesen Schaden. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
 			},
 
@@ -58,6 +62,7 @@ const card: Card = {
 			name: {
 				en: "Rock Throw",
 				fr: "Jet-pierres",
+				it: "Tirasassi",
 				de: "Steinwurf"
 			},
 
@@ -78,6 +83,7 @@ const card: Card = {
 	description: {
 		en: "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.",
 		fr: "Pour se déplacer il dégringole le long des pentes. Il pulvérise tout obstacle sur son passage.",
+		it: "Per muoversi sfrutta le pendenze. Rotola sopra ogni ostacolo senza rallentare o deviare.",
 		de: "Rollt Hänge hinunter, um sich fortzubewegen. Rollt über jedes Hindernis, ohne sich zu verlangsamen oder seine Richtung zu ändern."
 	},
 

@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Zapdos",
 		fr: "Élector",
+		it: "Zapdos",
 		de: "Zapdos"
 	},
 
@@ -36,11 +37,13 @@ const card: Card = {
 			name: {
 				en: "Thunderstorm",
 				fr: "Orage",
+				it: "Tempesta di Fulmini",
 				de: "Gewitter"
 			},
 			effect: {
 				en: "For each of your opponent's Benched Pokémon, flip a coin. If heads, this attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Then, Zapdos does 10 damage times the number of tails to itself.",
 				fr: "Pour chacun des Pokémon du Banc de votre adversaire, lancez une pièce. Si c'est face, cette attaque inflige 20 dégâts au Pokémon concerné. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.) Ensuite, Élector s'inflige 10 dégâts pour chaque pile.",
+				it: "Lancia una moneta per ogni Pokémon che il tuo avversario ha in Panchina. Se esce testa, questo attacco infligge 20 danni a quel Pokémon (non applicare Debolezza e Resistenza ai Pokémon in Panchina). Ogni volta che esce croce, Zapdos si infligge 10 danni.",
 				de: "Wirf eine Münze für jedes Pokémon auf der Bank deines Gegners. Bei „Kopf“ fügt dieser Angriff diesem Pokémon 20 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.) Danach fügt sich Zapdos jedesmal, wenn die Münze „Kopf“ zeigt, selbst 10 Schadenspunkte zu."
 			},
 			damage: 40,
@@ -60,6 +63,7 @@ const card: Card = {
 	description: {
 		en: "A legendary thunderbird Pokémon whose anger is said to cause storms. Some say it has lived above the clouds for thousands of years.",
 		fr: "L'oiseau légendaire de la foudre. Il surgit hors des nuages en lançant d'énormes éclairs.",
+		it: "Leggendario uccello di tuono. Si dice che quando si infuria provochi tempeste di fulmini. Alcuni dicono che sia vissuto al di là delle nuvole per migliaia di anni.",
 		de: "Ein legendäres Donnervogel-Pokémon, dessen Zorn Stürme auslösen soll. Man sagt, dass es schon tausende von Jahren über den Wolken gelebt hat."
 	},
 

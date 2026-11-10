@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Sandslash",
 		fr: "Sablaireau",
+		it: "Sandslash",
 		de: "Sandamer"
 	},
 
@@ -26,6 +27,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Sandshrew",
 		fr: "Sabelette",
+		it: "Sandshrew",
 		de: "Sandan"
 	},
 
@@ -40,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Slash",
 				fr: "Tranche",
+				it: "Lacerazione",
 				de: "Schlitzer"
 			},
 
@@ -54,11 +57,13 @@ const card: Card = {
 			name: {
 				en: "Fury Swipes",
 				fr: "Combo-griffe",
+				it: "Sfuriate",
 				de: "Kratzfurie"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 20 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 20 dégâts multipliés par le nombre de faces.",
+				it: "Lancia 3 volte una moneta. Questo attacco infligge 20 danni ogni volta che esce testa.",
 				de: "Wirf drei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 20 Schadenspunkte zu."
 			},
 			damage: "20x",
@@ -85,6 +90,7 @@ const card: Card = {
 	description: {
 		en: "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape.",
 		fr: "Il se roule en boule hérissée de piques s'il est menacé. Il peut ainsi s'enfuir ou attaquer.",
+		it: "Quando si sente minacciato, si arrotola su se stesso formando una palla spinosa. In questo stato può rotolare per attaccare o fuggire.",
 		de: "Verwandelt sich bei Bedrohung in eine Stachelkugel. Kann in dieser Form zum Angriff oder zur Flucht rollen."
 	},
 

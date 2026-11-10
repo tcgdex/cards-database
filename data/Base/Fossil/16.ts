@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Aerodactyl",
 		fr: "Ptéra",
+		it: "Aerodactyl",
 		de: "Aerodactyl"
 	},
 
@@ -31,11 +32,13 @@ const card: Card = {
 			name: {
 				en: "Prehistoric Power",
 				fr: "Arcane",
+				it: "Potere Preistorico",
 				de: "Urzeit-Power"
 			},
 			effect: {
 				en: "No more Evolution cards can be played. This power stops working while Aerodactyl is Asleep, Confused, or Paralyzed.",
 				fr: "Aucune carte Évolution ne peut être jouée. Ce pouvoir cesse si Ptera est Endormi, Confus ou Paralysé.",
+				it: "Nessun'altra carta Evoluzione può essere giocata. Questo potere non funziona quando Aerodactyl è Addormentato, Confuso o Paralizzato.",
 				de: "Es können keine weiteren Evolutionskarten gespielt werden. Diese Fähigkeit verliert ihre Wirkung, solange Aerodactyl schläft, verwirrt oder gelähmt ist."
 			},
 		},
@@ -51,6 +54,7 @@ const card: Card = {
 			name: {
 				en: "Wing Attack",
 				fr: "Cru-aile",
+				it: "Attacco d'Ala",
 				de: "Flügelschlag"
 			},
 
@@ -78,6 +82,7 @@ const card: Card = {
 	description: {
 		en: "A ferocious prehistoric Pokémon that goes for the enemy's throat with its serrated saw-like fangs.",
 		fr: "Un Pokémon préhistorique qui attaque son ennemi à la gorge avec ses crocs acérés.",
+		it: "Feroce Pokémon preistorico dotato di zanne seghettate, che usa per afferrare alla gola i nemici.",
 		de: "Ein wildes Pokémon aus der Urzeit, das dem Gegner mit seinen sägeartigen Fangzähnen an die Gurgel geht."
 	},
 

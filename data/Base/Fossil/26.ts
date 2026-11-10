@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Magneton",
 		fr: "Magnéton",
+		it: "Magneton",
 		de: "Magneton"
 	},
 
@@ -26,6 +27,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Magnemite",
 		fr: "Magnéti",
+		it: "Magnemite",
 		de: "Magnetilo"
 	},
 
@@ -40,11 +42,13 @@ const card: Card = {
 			name: {
 				en: "Sonicboom",
 				fr: "Sonicboom",
+				it: "Sonicboom",
 				de: "Überschallknall"
 			},
 			effect: {
 				en: "Don't apply Weakness and Resistance for this attack. (Any other effects that would happen after applying Weakness and Resistance still happen.)",
 				fr: "Ne pas appliquer la Faiblesse et la Résistance à cette attaque. (Tout autre effet se produisant après application de la Faiblesse et de la Résistance est toujours valide.)",
+				it: "Non applicare Debolezza e Resistenza durante questo attacco (qualsiasi effetto si sarebbe verificato applicando Debolezza e Resistenza viene applicato ugualmente)",
 				de: "Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
 			},
 			damage: 20,
@@ -60,11 +64,13 @@ const card: Card = {
 			name: {
 				en: "Selfdestruct",
 				fr: "Destruction",
+				it: "Autodistruzione",
 				de: "Finale"
 			},
 			effect: {
 				en: "Does 20 damage to each Pokémon on each player's Bench. (Don't apply Weakness and Resistance for Benched Pokémon.) Magneton does 100 damage to itself.",
 				fr: "Inflige 20 dégâts à chacun des Pokémon du Banc de chaque joueur. (Ne pas appliquer la Faiblesse et la Résistance aux Pokémon du Banc.) Magneton s'inflige 100 dégâts.",
+				it: "Infligge 20 danni a ogni Pokémon nella Panchina di entrambi i giocatori (non applicare Debolezza e Resistenza ai Pokémon in Panchina). Magneton si infligge 100 danni.",
 				de: "Fügt jedem Pokémon auf der Bank eines jeden Spielers 20 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.) Magneton fügt sich selbst 100 Schadenspunkte zu."
 			},
 			damage: 100,
@@ -84,6 +90,7 @@ const card: Card = {
 	description: {
 		en: "Formed by several Magnemites linked together. They frequently appear when sunspots flare up.",
 		fr: "Constitué de Magneti reliés les uns aux autres, il apparaît lorsque le soleil brille.",
+		it: "Composto da diversi Magnemite uniti tra loro. Appare spesso quando divampano le macchie solari.",
 		de: "Entsteht aus mehreren miteinander verbundenen Magnetilos. Sie kommen oft beim Aufflackern von Sonnenflecken zum Vorschein."
 	},
 

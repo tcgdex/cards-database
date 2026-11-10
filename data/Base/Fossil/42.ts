@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Seadra",
 		fr: "Hypocéan",
+		it: "Seadra",
 		de: "Seemon"
 	},
 
@@ -26,6 +27,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Horsea",
 		fr: "Hypotrempe",
+		it: "Horsea",
 		de: "Seeper"
 	},
 
@@ -40,11 +42,13 @@ const card: Card = {
 			name: {
 				en: "Water Gun",
 				fr: "Pistolet à O",
+				it: "Pistolacqua",
 				de: "Aquaknarre"
 			},
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each Energy attached to Seadra but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way.",
 				fr: "Inflige 20 dégâts plus 10 dégâts supplémentaires pour chaque carte Énergie  attachée à Hypocéan en plus du coût en Énergie de cette attaque. Vous ne pouvez pas ajouter plus de 20 dégâts de cette façon.",
+				it: "Infligge 20 danni più altri 10 danni per ogni carta Energia {W} assegnata a Seadra che non viene usata per pagare il costo di energia di questo attacco. Non puoi aggiungere più di 20 danni in questo modo.",
 				de: "Fügt 20 Schadenspunkte plus 10 weitere Schadenspunkte für jede auf Seemon abgelegte {W}-Energie zu, die nicht zum Zahlen der Energiekosten für diesen Angriff verwendet wurde. Es lassen sich nicht mehr als 20 Schadenspunkte auf diese Art und Weise hinzufügen."
 			},
 			damage: "20+",
@@ -59,11 +63,13 @@ const card: Card = {
 			name: {
 				en: "Agility",
 				fr: "Hâte",
+				it: "Agilità",
 				de: "Agilität"
 			},
 			effect: {
 				en: "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Seadra.",
 				fr: "Lancez une pièce. Si c'est face, pendant le prochain tour de votre adversaire, prévenez tous les effets ou attaques, y compris les dégâts, infligés Hypocéan.",
+				it: "Lancia una moneta. Se esce testa, nel prossimo turno del tuo avversario previeni tutti gli effetti degli attacchi inflitti a Seadra, incluso il danno.",
 				de: "Wirf eine Münze. Bei „Kopf“ verhindere während des nächsten gegnerischen Zuges alle Auswirkungen von Angriffen auf Seemon (einschließlich der Schadenspunkte)."
 			},
 			damage: 20,
@@ -83,6 +89,7 @@ const card: Card = {
 	description: {
 		en: "Capable of swimming backward by rapidly flapping its wing-like pectoral fins and stout tail.",
 		fr: "Il peut nager à l'envers en agitant ses petites nageoires pectorales.",
+		it: "È in grado di nuotare all'indietro muovendo rapidamente la robusta coda e le pinne simili ad ali.",
 		de: "Kann rückwärts schwimmen, indem es seine Brustflossen und Schwanz wie Flügel schlägt."
 	},
 

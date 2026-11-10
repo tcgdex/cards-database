@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Moltres",
 		fr: "Sulfura",
+		it: "Moltres",
 		de: "Lavados"
 	},
 
@@ -33,11 +34,13 @@ const card: Card = {
 			name: {
 				en: "Wildfire",
 				fr: "Feu sauvage",
+				it: "Baleno",
 				de: "Lauffeuer"
 			},
 			effect: {
 				en: "You may discard any number of R Energy cards attached to Moltres when you use this attack. If you do, discard that many cards from the top of your opponent's deck.",
 				fr: "Vous pouvez défausser autant de cartes Énergies  attachées à Sulfura que vous le désirez lorsque vous utilisez cette attaque. Défaussez ensuite le même nombre de cartes du sommet du deck de votre adversaire.",
+				it: "Quando usi questo attacco, puoi scartare un qualsiasi numero di carte Energia {R} assegnate a Moltres. Se lo fai scarta altrettante carte dalla cima del mazzo del tuo avversario.",
 				de: "Du kannst beliebig viele {R}-Energiekarten von Lavados entfernen, wenn du diesen Angriff einsetzt. Lege danach die gleiche Anzahl der obersten Karten vom Deck deines Gegners auf den Ablagestapel."
 			},
 
@@ -53,12 +56,14 @@ const card: Card = {
 			name: {
 				en: "Dive Bomb",
 				fr: "Bombardement",
+				it: "Bomba di Profondità",
 				de: "Sturzflugbombardierung"
 			},
 
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 				fr: "Lancez une pièce. Si c'est pile, cette attaque n'inflige aucun dégât.",
+				it: "Lancia una moneta. Se esce croce, questo attacco non ha effetto.",
 				de: "Wirf eine Münze. Bei „Zahl“ fügt dieser Angriff keine Schadenspunkte zu."
 			},
 
@@ -78,6 +83,7 @@ const card: Card = {
 	description: {
 		en: "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames.",
 		fr: "L'oiseau légendaire du feu. Une pluie de flammes surgit à chaque battement de ses ailes.",
+		it: "Conosciuto come il leggendario uccello di fuoco. Ogni battito delle sue ali genera scintillanti vampate di fiamme.",
 		de: "Bekannt als der legendäre Feuervogel. Jeder seiner Flügelschläge erzeugt ein helles Flammenmeer."
 	},
 

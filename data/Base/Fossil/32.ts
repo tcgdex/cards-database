@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Cloyster",
 		fr: "Crustabri",
+		it: "Cloyster",
 		de: "Austos"
 	},
 
@@ -26,6 +27,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Shellder",
 		fr: "Kokiyas",
+		it: "Shellder",
 		de: "Muschas"
 	},
 
@@ -41,12 +43,14 @@ const card: Card = {
 			name: {
 				en: "Clamp",
 				fr: "Claquoir",
+				it: "Morsa",
 				de: "Schnapper"
 			},
 
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Paralyzed. If tails, this attack does nothing (not even damage).",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Paralysé. Si c'est pile, cette attaque n'a aucun effet (pas même les dégâts).",
+				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Paralizzato. Se esce croce, questo attacco non ha effetto (nemmeno il danno).",
 				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt gelähmt. Bei „Zahl“ hat dieser Angriff keine Auswirkungen (und fügt auch keine Schadenspunkte zu)."
 			},
 
@@ -60,11 +64,13 @@ const card: Card = {
 			name: {
 				en: "Spike Cannon",
 				fr: "Picanon",
+				it: "Sparalance",
 				de: "Dornkanone"
 			},
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
 				fr: "Lancez 2 pièces. Cette attaque inflige 30 dégâts multipliés par le nombre de faces.",
+				it: "Lancia 2 volte una moneta. Questo attacco infligge 30 danni ogni volta che esce testa.",
 				de: "Wirf zwei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 30 Schadenspunkte zu."
 			},
 			damage: "30x",
@@ -84,6 +90,7 @@ const card: Card = {
 	description: {
 		en: "When attacked, it launches its horns in quick volleys. Its innards have never been seen.",
 		fr: "Lorsqu'il est attraqué, il projette ses cornes en rapides volées. Personne n'a jamais vu ses entrailles.",
+		it: "Quando viene attaccato, fa volteggiare rapidamente le antenne. La parte interna del corpo non è mai stata vista.",
 		de: "Wenn dieses Pokémon angegriffen wird, wirbelt es geschwind seine Hörner in die Höhe. Niemand hat jemals seine Innereien gesehen."
 	},
 

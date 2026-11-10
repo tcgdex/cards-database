@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Gengar",
 		fr: "Ectoplasma",
+		it: "Gengar",
 		de: "Gengar"
 	},
 
@@ -26,6 +27,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Haunter",
 		fr: "Spectrum",
+		it: "Haunter",
 		de: "Alpollo"
 	},
 
@@ -37,11 +39,13 @@ const card: Card = {
 			name: {
 				en: "Curse",
 				fr: "Malédiction",
+				it: "Maledizione",
 				de: "Fluchen"
 			},
 			effect: {
 				en: "Once during your turn (before your attack), you may move 1 damage counter from 1 of your opponent's Pokémon to another (even if it would Knock Out the other Pokémon). This power can't be used if Gengar is Asleep, Confused, or Paralyzed.",
 				fr: "Une seule fois pendant votre tour (avant votre attaque), vous pouvez déplacer 1 marqueur de dégâts depuis 1 des Pokémon de votre adversaire vers un autre (même si cela met l'autre Pokémon K.O.). Ce pouvoir ne peut être utilisé si Ectoplasma est Endormi, Confus ou Paralysé.",
+				it: "Una sola volta durante il tuo turno (prima del tuo attacco), puoi spostare un segnalino danno da un Pokémon del tuo avversario a un altro (anche se quest'azione potrebbe mettere K.O. quest'ultimo). Questo potere non può essere usato se Gengar è Addormentato, Confuso o Paralizzato.",
 				de: "Einmal während deines Zuges (vor deinem Angriff) kannst du eine Schadensmarke von einem Pokémon deines Gegners auf ein anderes verschieben (selbst wenn du dieses Pokémon damit kampfunfähig machst). Diese Fähigkeit kann nicht eingesetzt werden, falls Gengar schläft, verwirrt oder gelähmt ist."
 			},
 		},
@@ -57,11 +61,13 @@ const card: Card = {
 			name: {
 				en: "Dark Mind",
 				fr: "Sombre-esprit",
+				it: "Pensiero Oscuro",
 				de: "Finsteres Gemüt"
 			},
 			effect: {
 				en: "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)",
 				fr: "Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et cette attaque lui inflige 10 dégâts. (Ne pas appliquer la Résistance et la Faiblesse au Pokémon du Banc.)",
+				it: "Se il tuo avversario ha dei Pokémon in Panchina, scegline uno e questo attacco gli infligge 10 danni (non applicare Debolezza e Resistenza ai Pokémon in Panchina).",
 				de: "Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wähle eines von ihnen. Dieser Angriff fügt ihm 10 Schadenspunkte zu. (Schwäche und Resistenz für Pokémon auf der Bank nicht anwenden.)"
 			},
 			damage: 30,
@@ -81,6 +87,7 @@ const card: Card = {
 	description: {
 		en: "Under a full moon, this Pokémon likes to mimic the shadows of people and laugh at their fright.",
 		fr: "Les nuits de pleine lune, il imite l'ombre des passants et se moque de leur effroi.",
+		it: "Quando c'è la luna piena, questo Pokémon ama imitare le ombre delle persone e ridere del loro spavento.",
 		de: "Bei Vollmond ahmt dieses Pokémon gerne die Schatten von Passanten nach und freut sich über deren Angst."
 	},
 

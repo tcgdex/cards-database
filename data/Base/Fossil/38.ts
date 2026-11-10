@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Kingler",
 		fr: "Krabboss",
+		it: "Kingler",
 		de: "Kingler"
 	},
 
@@ -26,6 +27,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Krabby",
 		fr: "Krabby",
+		it: "Krabby",
 		de: "Krabby"
 	},
 
@@ -39,11 +41,13 @@ const card: Card = {
 			name: {
 				en: "Flail",
 				fr: "Nageoire",
+				it: "Flagello",
 				de: "Dreschflegel"
 			},
 			effect: {
 				en: "Does 10 damage times the number of damage counters on Kingler.",
 				fr: "Inflige 10 dégâts multipliés par le nombre de marqueurs de dégâts sur Krabboss.",
+				it: "Infligge 10 danni per ogni segnalino danno presente su Kingler.",
 				de: "Fügt 10 Schadenspunkte mal die Anzahl der Schadensmarken auf Kingler zu."
 			},
 			damage: "10x",
@@ -58,6 +62,7 @@ const card: Card = {
 			name: {
 				en: "Crabhammer",
 				fr: "Pince-masse",
+				it: "Martellata del granchio",
 				de: "Krabbhammer"
 			},
 
@@ -78,6 +83,7 @@ const card: Card = {
 	description: {
 		en: "The large pincer has 10,000 horsepower of crushing power. However, its huge size makes it unwieldy to use.",
 		fr: "Son énorme pince peut déployer une pression de 1000 Kg. Mais elle est très encombrante.",
+		it: "La sua chela più grande ha una potenza di schiacciamento pari a 10.000 cavalli. La notevole dimensione la rende comunque difficile da usare.",
 		de: "Seine große Schere könnte 10.000 KP Schaden zufügen, wenn sie wegen ihrer Größe nicht so unhandlich wäre."
 	},
 

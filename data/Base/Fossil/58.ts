@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Mr. Fuji",
 		fr: "M. Fuji",
+		it: "Mr. Fuji",
 		de: "Mr. Fuji"
 	},
 
@@ -18,6 +19,7 @@ const card: Card = {
 	effect: {
 		en: "Choose a Pokémon on your Bench. Shuffle it and any cards attached to it into your deck.",
 		fr: "Choisissez un Pokémon de votre Banc. Mélangez-le dans votre deck avec toutes les cartes qui lui sont attachées.",
+		it: "Scegli un Pokémon dalla tua Panchina. Rimischialo nel tuo mazzo insieme a tutte le carte a lui assegnate.",
 		de: "Wähle ein Pokémon auf deiner Bank. Mische es und alle darauf abgelegten Karten in dein Deck."
 	},
 

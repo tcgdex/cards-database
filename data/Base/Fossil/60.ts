@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Gambler",
 		fr: "Joueur",
+		it: "Gioco d'Azzardo",
 		de: "Spieler"
 	},
 
@@ -16,6 +17,7 @@ const card: Card = {
 	effect: {
 		en: "Shuffle your hand into your deck. Flip a coin. If heads, draw 8 cards. If tails, draw 1 card.",
 		fr: "Mélangez votre main dans votre deck. Lancez une pièce. Si c'est face, piochez 8 cartes. Si c'est pile, piochez 1 carte.",
+		it: "Rimischia le carte della tua mano nel tuo mazzo. Lancia una moneta. Se esce testa, pesca 8 carte. Se esce croce, pesca una carta.",
 		de: "Mische deine Hand in dein Deck. Wirf eine Münze. Bei „Kopf“ ziehe acht Karten ziehen. Bei „Zahl“ ziehe eine Karte ziehen."
 	},
 

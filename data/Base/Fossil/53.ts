@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Psyduck",
 		fr: "Psykokwak",
+		it: "Psyduck",
 		de: "Enton"
 	},
 
@@ -33,11 +34,13 @@ const card: Card = {
 			name: {
 				en: "Headache",
 				fr: "Migraine",
+				it: "Emicrania",
 				de: "Kopfweh"
 			},
 			effect: {
 				en: "Your opponent can't play Trainer cards during his or her next turn.",
 				fr: "Votre adversaire ne peut pas jouer de carte Dresseur durant son prochain tour.",
+				it: "Durante il suo prossimo turno il tuo avversario non può giocare carte Addestramento.",
 				de: "Dein Gegner kann während des nächsten Zuges keine Trainerkarten spielen."
 			},
 
@@ -49,11 +52,13 @@ const card: Card = {
 			name: {
 				en: "Fury Swipes",
 				fr: "Combo-griffe",
+				it: "Sfuriate",
 				de: "Kratzfurie"
 			},
 			effect: {
 				en: "Flip 3 coins. This attack does 10 damage times the number of heads.",
 				fr: "Lancez 3 pièces. Cette attaque inflige 10 dégâts multipliés par le nombre de faces.",
+				it: "Lancia 3 volte una moneta. Questo attacco infligge 10 danni ogni volta che esce testa.",
 				de: "Wirf drei Münzen. Dieser Angriff fügt jedesmal, wenn die Münze „Kopf“ zeigt, 10 Schadenspunkte zu."
 			},
 			damage: "10x",
@@ -73,6 +78,7 @@ const card: Card = {
 	description: {
 		en: "While lulling its enemies with its vacant look, this wily Pokémon will use psychokinetic powers.",
 		fr: "Il distrait ses ennemis avec des grimaces débiles et les attaque ensuite avec ses pouvoirs psy.",
+		it: "Mentre con la sua aria distratta abbindola i nemici, questo astuto Pokémon usa su di loro i propri poteri psicocinetici.",
 		de: "Während es seine Gegner mit seinem leeren Blick hypnotisiert, setzt dieses listige Pokémon psychokinetische Kräfte ein."
 	},
 

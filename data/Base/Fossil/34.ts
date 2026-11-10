@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Golbat",
 		fr: "Nosferalto",
+		it: "Golbat",
 		de: "Golbat"
 	},
 
@@ -26,6 +27,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Zubat",
 		fr: "Nosferapti",
+		it: "Zubat",
 		de: "Zubat"
 	},
 
@@ -41,6 +43,7 @@ const card: Card = {
 			name: {
 				en: "Wing Attack",
 				fr: "Cru-aile",
+				it: "Attacco d'Ala",
 				de: "Flügelschlag"
 			},
 
@@ -56,11 +59,13 @@ const card: Card = {
 			name: {
 				en: "Leech Life",
 				fr: "Vampirisme",
+				it: "Sanguisuga",
 				de: "Blutsauger"
 			},
 			effect: {
 				en: "Remove a number of damage counters from Golbat equal to the damage done to the Defending Pokémon (after applying Weakness and Resistance). If Golbat has fewer damage counters than that, remove all of them.",
 				fr: "Retirez de Nosferalto un nombre de marqueurs de dégâts égal au nombre de dégâts infligés au Pokémon Défenseur (après application de la Faiblesse et de la Résistance.) Si le nombre de marqueurs sur Nosferalto est inférieur à ce résultat, retirez-les tous.",
+				it: "Togli a Golbat un numero di segnalini danno pari al danno inflitto al Pokémon Difensore (dopo aver applicato Debolezza e Resistenza). Se Golbat ha meno segnalini danno di quelli che gli verrebbero tolti, toglili tutti.",
 				de: "Entferne von Golbat Schadensmarken in Höhe des Schadens, der dem verteidigenden Pokémon zugefügt wurde (nachdem Schaden und Resistenz abgerechnet wurden). Falls Golbat weniger Schadensmarken als diese Anzahl hat, entferne sie alle."
 			},
 			damage: 20,
@@ -85,6 +90,7 @@ const card: Card = {
 	description: {
 		en: "Once it strikes, it will not stop draining energy from the victim even if it gets too heavy to fly.",
 		fr: "Une fois son adversaire mordu, il absorbera son énergie même s'il devient trop gros pour voler.",
+		it: "Quando colpisce, continua a succhiare energia dalla propria vittima, anche se diventa troppo pesante per volare.",
 		de: "Sobald es zuschlägt, saugt es dann noch weitere Energie aus seinem Opfer, nachdem es zum Fliegen zu schwer geworden ist."
 	},
 

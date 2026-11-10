@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Kabutops",
 		fr: "Kabutops",
+		it: "Kabutops",
 		de: "Kabutops"
 	},
 
@@ -26,6 +27,7 @@ const card: Card = {
 	evolveFrom: {
 		en: "Kabuto",
 		fr: "Kabuto",
+		it: "Kabuto",
 		de: "Kabuto"
 	},
 
@@ -40,6 +42,7 @@ const card: Card = {
 			name: {
 				en: "Sharp Sickle",
 				fr: "Lame-aiguisée",
+				it: "Falce affilata",
 				de: "Scharfe Sichel"
 			},
 
@@ -56,11 +59,13 @@ const card: Card = {
 			name: {
 				en: "Absorb",
 				fr: "Vol-vie",
+				it: "Assorbi",
 				de: "Absorber"
 			},
 			effect: {
 				en: "Remove a number of damage counters from Kabutops equal to half the damage done to Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10). If Kabutops has fewer damage counters than that, remove all of them.",
 				fr: "Retirez de Kabutops un nombre de marqueurs de dégâts égal à la moitié des dégâts infligés au Pokémon Défenseur (après application de la Faiblesse et de la Résistance) (arrondis à la dizaine la plus proche.) Si le nombre de marqueurs sur Kabutops est inférieur à ce résultat, retirez-les tous.",
+				it: "Togli a Kabutops un numero di segnalini danno pari alla metà del danno (arrotondato per eccesso alla decina più vicina) inflitto al Pokémon Difensore (dopo aver applicato Debolezza e Resistenza). Se Kabutops ha meno segnalini danno di quelli che gli verrebbero tolti, toglili tutti.",
 				de: "Entferne von Kabutops Schadensmarken in Höhe der Hälfte des Schadens (auf die nächsten 10 aufgerundet), der dem verteidigenden Pokémon zugefügt wurde (nachdem Schwäche und Resistenz abgerechnet wurden). Falls Kabutops weniger Schadensmarken als diese Anzahl hat, entferne sie alle."
 			},
 			damage: 40,
@@ -80,6 +85,7 @@ const card: Card = {
 	description: {
 		en: "Its sleek shape is perfect for swimming. It slashes prey with its claws and drains the body fluids.",
 		fr: "Sa forme élancée lui permet de nager rapidement. Il lacère sa proie avant d'en absorber la vie.",
+		it: "Il suo corpo affusolato è l'ideale per nuotare. Schiaccia le prede con le proprie chele e ne risucchia i liquidi corporei.",
 		de: "Seine schlanke Figur macht es zu einem perfekten Schwimmer. Es schlitzt Beute mit seinen Klauen auf und saugt ihre Körperflüssigkeiten ab."
 	},
 

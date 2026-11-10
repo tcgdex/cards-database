@@ -5,6 +5,7 @@ const card: Card = {
 	name: {
 		en: "Shellder",
 		fr: "Kokiyas",
+		it: "Shellder",
 		de: "Muschas"
 	},
 
@@ -33,11 +34,13 @@ const card: Card = {
 			name: {
 				en: "Supersonic",
 				fr: "Ultrason",
+				it: "Supersonico",
 				de: "Superschall"
 			},
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused.",
 				fr: "Lancez une pièce. Si c'est face, le Pokémon Défenseur est maintenant Confus.",
+				it: "Lancia una moneta. Se esce testa, il Pokémon Difensore è Confuso.",
 				de: "Wirf eine Münze. Bei „Kopf“ ist das verteidigende Pokémon jetzt verwirrt."
 			},
 
@@ -49,11 +52,13 @@ const card: Card = {
 			name: {
 				en: "Hide in Shell",
 				fr: "Cache-coquille",
+				it: "Nascosto nella Conchiglia",
 				de: "In Muschel verstecken"
 			},
 			effect: {
 				en: "Flip a coin. If heads, prevent all damage done to Shellder during your opponent's next turn. (Any other effects of attacks still happen.)",
 				fr: "Lancez une pièce. Si c'est face, prévenez tous les dégâts infligés à Kokiyas pendant le prochain tour de votre adversaire. (Tout autre effet ou attaque est toujours valide.)",
+				it: "Lancia una moneta. Se esce testa, durante il prossimo turno del tuo avversario previeni tutto il danno inflitto a Shellder (tutti gli altri effetti degli attacchi restano validi).",
 				de: "Wirf eine Münze. Bei „Kopf“ verhindere allen Schaden, der Muschas während des nächsten Zuges deines Gegners zugefügt wird. (Alle anderen Auswirkungen von Angriffen finden immer noch statt.)"
 			},
 
@@ -72,6 +77,7 @@ const card: Card = {
 	description: {
 		en: "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open.",
 		fr: "Protégé par une carapace très résistante, il est vulnérable quand celle-ci s'ouvre.",
+		it: "La sua dura conchiglia respinge qualsiasi tipo di attacco. È vulnerabile solo quando la conchiglia è aperta.",
 		de: "Seine harte Schale weist jeden Angriff ab. Es ist nur dann verwundbar, wenn seine Schale offen ist."
 	},
 
