@@ -26,7 +26,7 @@ const card: Card = {
 				en: "Dedechange",
 			},
 			effect: {
-				en: "When you play this Pokémon from your hand onto your Bench during your turn, you may discard your hand and draw 6 cards. You can’t use more than 1 Dedechange Ability each turn.",
+				en: "When you play this Pokémon from your hand onto your Bench during your turn, you may discard your hand and draw 6 cards. You can't use more than 1 Dedechange Ability each turn.",
 			},
 		},
 	],
@@ -46,7 +46,7 @@ const card: Card = {
 				en: "Tingly Return GX",
 			},
 			effect: {
-				en: "Your opponent’s Active Pokémon is now Paralyzed. Put this Pokémon and all cards attached to it into your hand. (You can’t use more than 1 GX attack in a game.)",
+				en: "Your opponent's Active Pokémon is now Paralyzed. Put this Pokémon and all cards attached to it into your hand. (You can't use more than 1 GX attack in a game.)",
 			},
 			damage: 50,
 		},
