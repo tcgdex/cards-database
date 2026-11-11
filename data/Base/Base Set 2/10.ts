@@ -35,7 +35,7 @@ const card: Card = {
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 		{

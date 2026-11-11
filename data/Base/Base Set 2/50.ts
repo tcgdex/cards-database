@@ -45,7 +45,7 @@ const card: Card = {
 			effect: {
 				en: "Does 10 damage times number of damage counters on Magikarp.",
 			},
-			damage: 10,
+			damage: "10x",
 
 		},
 	],

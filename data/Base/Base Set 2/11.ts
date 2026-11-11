@@ -40,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage and Nidoking does 10 damage to itself.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 		{
@@ -55,7 +55,7 @@ const card: Card = {
 			effect: {
 				en: "The Defending Pokémon is now Poisoned. It now takes 20 Poison damage instead of 10 after each player's turn (even if it was already Poisoned).",
 			},
-			damage: 40,
+			damage: 20,
 
 		},
 	],

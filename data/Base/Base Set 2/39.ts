@@ -50,7 +50,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a number of coins equal to the number of Energy attached to Exeggutor. This attack does 20 damage times the number of heads.",
 			},
-			damage: 20,
+			damage: "20x",
 
 		},
 	],

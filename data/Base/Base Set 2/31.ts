@@ -29,7 +29,7 @@ const card: Card = {
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
 				en: "Shift",
 			},
@@ -51,6 +51,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Confused and Poisoned.",
 			},
+			damage: 10,
 
 		},
 	],

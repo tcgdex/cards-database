@@ -39,7 +39,7 @@ const card: Card = {
 			effect: {
 				en: "Does 20 damage plus 20 more damage for each Nidoking you have in play.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 		{
