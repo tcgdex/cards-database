@@ -40,6 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Does 50 damage minus 10 for each damage counter on Machoke.",
 			},
+			damage: "50-",
 
 		},
 		{
