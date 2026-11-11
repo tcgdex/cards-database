@@ -33,7 +33,7 @@ const card: Card = {
 
 	attacks: [
 		{
-			cost: ["Grass", "Grass", "Colorless", "Colorless"],
+			cost: ["Colorless", "Colorless"],
 			name: {
 				en: "Sonicboom",
 				fr: "Sonicboom",
@@ -44,7 +44,7 @@ const card: Card = {
 				fr: "N'appliquez pas la Faiblesse et la Résistance à cette attaque. (Tous les autres effets ayant lieu après application de la Faiblesse et de la Résistance subsistent.)",
 				de: "Schwäche und Resistenz für diesen Angriff nicht anwenden. (Alle anderen Auswirkungen nach der Anwendung von Schwäche und Resistenz finden immer noch statt.)"
 			},
-			damage: 40,
+			damage: 20,
 
 		},
 		{

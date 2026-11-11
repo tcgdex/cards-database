@@ -65,7 +65,7 @@ const card: Card = {
 				fr: "Si le Pokémon Défenseur a des cartes Énergies de base attachées à lui, choisissez l'une d'elles. Si votre adversaire a des Pokémon sur son Banc, choisissez l'un d'eux et attachez cette carte Énergie sur lui.",
 				de: "Falls auf dem verteidigenden Pokémon irgendwelche Basis-Energiekarten abgelegt sind, wähle eine von ihnen. Falls dein Gegner irgendwelche Pokémon auf der Bank hat, wähle eines von ihnen und lege diese Energiekarte darauf ab."
 			},
-			damage: 20,
+			damage: 30,
 
 		},
 	],

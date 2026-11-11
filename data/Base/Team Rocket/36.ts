@@ -70,7 +70,7 @@ const card: Card = {
 
 	weaknesses: [
 		{
-			type: "Fighting",
+			type: "Fire",
 			value: "×2"
 		},
 	],
