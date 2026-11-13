@@ -29,7 +29,7 @@ const card: Card = {
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
 				en: "Retreat Aid",
 			},
@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on Dodrio.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

@@ -40,7 +40,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 30 damage times the number of heads.",
 			},
-			damage: 30,
+			damage: "30x",
 
 		},
 		{
@@ -55,6 +55,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, the Defending Pokémon is now Poisoned.",
 			},
+			damage: 40,
 
 		},
 	],

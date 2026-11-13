@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "OKACHEKE",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [909],
 	hp: 80,
@@ -25,15 +26,14 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Fire"],
-
 		name: {
 			ja: "たいあたり",
 			'zh-tw': "撞擊",
 			id: "Serudukan"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Fire"]
 	}],
 
 	weaknesses: [{
@@ -41,18 +41,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747569,
 				tcgplayer: 567616,
+				cardtrader: 270210,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "kantaro",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [921],
 	hp: 60,
@@ -27,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "なぐる",
 			'zh-tw': "打擊",
@@ -36,10 +35,9 @@ const card: Card = {
 			id: "Memukul"
 		},
 
-		damage: 10
+		damage: 10,
+		cost: ["Colorless"]
 	}, {
-		cost: ["Lightning", "Colorless"],
-
 		name: {
 			ja: "エレキック",
 			'zh-tw': "電氣踢",
@@ -47,7 +45,8 @@ const card: Card = {
 			id: "Electric Kick"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Lightning", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -55,12 +54,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746448,
 				tcgplayer: 567451,
+				cardtrader: 269666,
 			},
 		},
 		{
@@ -69,10 +72,7 @@ const card: Card = {
 				tcgplayer: 577331,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

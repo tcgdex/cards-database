@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Seine Fußsohlen sind mit kleinen Stacheln bedeckt, so dass es an Wänden und Decken Halt findet."
 	},
 
-	thirdParty: {
-		cardmarket: 280884,
-		tcgplayer: 90043
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280884,
+				tcgplayer: 90043
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280884,
+				tcgplayer: 90043
+			}
+		},
+	],
 }
 
 export default card

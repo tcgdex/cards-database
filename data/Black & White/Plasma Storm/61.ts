@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Will es beschützen, streckt es seine Ellbogen zu etwas Schwertähnlichem und kämpft auf wilde Art."
 	},
 
-	thirdParty: {
-		cardmarket: 280801,
-		tcgplayer: 85606
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280801,
+				tcgplayer: 85606
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280801,
+				tcgplayer: 85606
+			}
+		},
+	],
 }
 
 export default card

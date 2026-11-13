@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Seine Arme bestehen aus einer speziellen Flüssigkeit. Dank seiner Psycho-Kräfte kann es mit ihnen Felsen zerschmettern."
 	},
 
-	thirdParty: {
-		cardmarket: 281065,
-		tcgplayer: 88723
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281065,
+				tcgplayer: 88723
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281065,
+				tcgplayer: 88723
+			}
+		},
+	],
 }
 
 export default card

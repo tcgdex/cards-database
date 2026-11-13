@@ -84,10 +84,22 @@ const card: Card = {
 		de: "Die Haare seines Fells sind so feinfühlig, dass es am Wind ablesen kann, was seine Gegner denken und wie das Wetter wird."
 	},
 
-	thirdParty: {
-		cardmarket: 280926,
-		tcgplayer: 85328
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280926,
+				tcgplayer: 85328
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280926,
+				tcgplayer: 85328
+			}
+		},
+	],
 }
 
 export default card

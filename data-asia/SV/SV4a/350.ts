@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "hanabushi",
+	rarity: "Special illustration rare",
 	category: "Trainer",
 
 	effect: {
@@ -19,18 +20,19 @@ const card: Card = {
 		id: "Kedua pemain masing-masing mengocok semua Kartu Pegangan sendiri dengan sisi depan menghadap ke bawah, lalu mengembalikannya ke bawah Deck. Setelah itu, kedua pemain masing-masing mengambil kartu dari atas Deck untuk tiap lembar sisa Kartu Point sendiri."
 	},
 
+	trainerType: "Supporter",
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747704,
 				tcgplayer: 567749,
+				cardtrader: 270357,
 			},
 		},
-	],
-
-	trainerType: "Supporter",
-	regulationMark: "G"
+	]
 }
 
 export default card

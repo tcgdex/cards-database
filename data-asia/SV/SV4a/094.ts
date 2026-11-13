@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shibuzoh.",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [957],
 	hp: 60,
@@ -27,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "てつクズひろい",
 			'zh-tw': "撿鐵屑",
@@ -41,10 +40,9 @@ const card: Card = {
 			'zh-tw': "從自己的棄牌區選擇1張物品卡，在給對手看過後加入手牌。",
 			th: "เลือกการ์ดไอเท็ม 1 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู นำขึ้นมือ",
 			id: "Pilih 1 lembar Item dari Trash sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan."
-		}
+		},
+		cost: ["Colorless"]
 	}, {
-		cost: ["Psychic", "Colorless", "Colorless"],
-
 		name: {
 			ja: "ようせいのかぜ",
 			'zh-tw': "妖精之風",
@@ -52,7 +50,8 @@ const card: Card = {
 			id: "Angin Peri"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Psychic", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -60,12 +59,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746476,
 				tcgplayer: 567495,
+				cardtrader: 269693,
 			},
 		},
 		{
@@ -74,10 +77,7 @@ const card: Card = {
 				tcgplayer: 577348,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "kawayoo",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [281],
 	hp: 90,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "ラルトス"
+	},
 
 	description: {
 		ja: "サイコパワーを 操り まわりの 空間を ねじ曲げることで 未来を 見通すことができる。",
@@ -27,8 +32,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Psychic", "Colorless"],
-
 		name: {
 			ja: "マジカルショット",
 			'zh-tw': "魔法射擊",
@@ -36,10 +39,9 @@ const card: Card = {
 			id: "Magical Shot"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Psychic", "Colorless"]
 	}, {
-		cost: ["Psychic", "Psychic", "Colorless"],
-
 		name: {
 			ja: "サイコキネシス",
 			'zh-tw': "精神強念",
@@ -47,14 +49,15 @@ const card: Card = {
 			id: "Psikis"
 		},
 
-		damage: "60+",
-
 		effect: {
 			ja: "相手のバトルポケモンについているエネルギーの数×20ダメージ追加。",
 			'zh-tw': "增加對手的戰鬥寶可夢身上附加的能量的數量×20點傷害。",
 			th: "แดเมจจะเพิ่มตามจำนวนพลังงานที่ติดอยู่กับโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม x20",
 			id: "Kerusakan yang diberikan bertambah sejumlah 20 untuk tiap Energi yang dikenakan pada Pokémon Bertarung lawan."
-		}
+		},
+
+		damage: "60+",
+		cost: ["Psychic", "Psychic", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -67,12 +70,16 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746463,
 				tcgplayer: 567475,
+				cardtrader: 269709,
 			},
 		},
 		{
@@ -81,10 +88,7 @@ const card: Card = {
 				tcgplayer: 577341,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

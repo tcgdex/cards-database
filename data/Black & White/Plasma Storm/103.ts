@@ -75,10 +75,22 @@ const card: Card = {
 		de: "Um sein Glück mit anderen zu teilen, fliegt es um die Welt auf der Suche nach gutherzigen Menschen."
 	},
 
-	thirdParty: {
-		cardmarket: 280843,
-		tcgplayer: 89945
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280843,
+				tcgplayer: 89945
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280843,
+				tcgplayer: 89945
+			}
+		},
+	],
 }
 
 export default card

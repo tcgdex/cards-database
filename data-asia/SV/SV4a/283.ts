@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Yuu Nishida",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [932],
 	hp: 70,
@@ -25,8 +26,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Fighting"],
-
 		name: {
 			ja: "しおぬり",
 			'zh-tw': "抹鹽",
@@ -37,17 +36,17 @@ const card: Card = {
 			ja: "自分のポケモン1匹のHPを「20」回復する。",
 			'zh-tw': "將自己的1隻寶可夢恢復「20」HP。",
 			id: "Pulihkan HP 1 Pokémon sendiri sejumlah 20."
-		}
+		},
+		cost: ["Fighting"]
 	}, {
-		cost: ["Fighting", "Fighting"],
-
 		name: {
 			ja: "たいあたり",
 			'zh-tw': "撞擊",
 			id: "Serudukan"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Fighting", "Fighting"]
 	}],
 
 	weaknesses: [{
@@ -55,18 +54,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 3,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747637,
 				tcgplayer: 567684,
+				cardtrader: 270323,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

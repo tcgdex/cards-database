@@ -24,12 +24,12 @@ const card: Card = {
 			damage: "10+",
 			cost: ["Metal"],
 			effect: {
-				ja: "相手のバトルポケモンが[M]ポケモンなら、30ダメージ追加。",
+				ja: "相手のバトルポケモンが{M}ポケモンなら、30ダメージ追加。",
 			},
 		},
 	],
 
-	weaknesses: [{ type: "Fire", value: "x2" }],
+	weaknesses: [{ type: "Fire", value: "×2" }],
 	resistances: [{ type: "Grass", value: "-30" }],
 
 	variants: [
@@ -37,6 +37,8 @@ const card: Card = {
 			type: "normal",
 			thirdParty: {
 				cardmarket: 888324,
+				cardtrader: 391451,
+				tcgplayer: 695093,
 			},
 		},
 	],

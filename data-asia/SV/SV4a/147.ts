@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Nisota Niso",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [279],
 	hp: 120,
 	types: ["Colorless"],
+
+	evolveFrom: {
+		ja: "キャモメ"
+	},
 
 	description: {
 		ja: "くちばしに 小さな ポケモンを 入れて 飛ぶ 空の 配達屋。 海に 浮かんで 羽を 休める。",
@@ -45,8 +50,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Colorless", "Colorless", "Colorless"],
-
 		name: {
 			ja: "つばさでうつ",
 			'zh-tw': "翅膀攻擊",
@@ -54,7 +57,8 @@ const card: Card = {
 			id: "Pukulan Sayap"
 		},
 
-		damage: 90
+		damage: 90,
+		cost: ["Colorless", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -67,12 +71,16 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746529,
 				tcgplayer: 567548,
+				cardtrader: 269789,
 			},
 		},
 		{
@@ -81,10 +89,7 @@ const card: Card = {
 				tcgplayer: 577379,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

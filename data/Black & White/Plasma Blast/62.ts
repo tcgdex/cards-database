@@ -72,10 +72,22 @@ const card: Card = {
 		de: "Es träumt davon, eines Tages fliegen zu können und springt daher jeden Tag von hohen Klippen."
 	},
 
-	thirdParty: {
-		cardmarket: 281083,
-		tcgplayer: 83702
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281083,
+				tcgplayer: 83702
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281083,
+				tcgplayer: 83702
+			}
+		},
+	],
 }
 
 export default card

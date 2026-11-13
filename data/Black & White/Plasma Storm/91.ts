@@ -85,10 +85,22 @@ const card: Card = {
 		de: "Eine ausgeklügelte Rollenverteilung hilft ihnen dabei, ihren natürlichen Feind Furnifraß aus dem Nest zu verjagen."
 	},
 
-	thirdParty: {
-		cardmarket: 280831,
-		tcgplayer: 85022
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280831,
+				tcgplayer: 85022
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280831,
+				tcgplayer: 85022
+			}
+		},
+	],
 }
 
 export default card

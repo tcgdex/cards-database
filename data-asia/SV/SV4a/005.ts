@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Yukiko Baba",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [187],
 	hp: 50,
@@ -27,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Grass"],
-
 		name: {
 			ja: "はねてかわす",
 			'zh-tw': "躍起閃避",
@@ -36,14 +35,15 @@ const card: Card = {
 			id: "Lompat Menghindar"
 		},
 
-		damage: 10,
-
 		effect: {
 			ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
 			'zh-tw': "擲1次硬幣若為正面，則在下個對手的回合，這隻寶可夢不會受到招式的傷害與效果的影響。",
 			th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว เทิร์นถัดไปของฝ่ายตรงข้าม โปเกมอนนี้จะไม่ได้รับแดเมจและเอฟเฟกต์ของท่าต่อสู้",
 			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, pada giliran lawan berikutnya, Pokémon ini tidak menerima kerusakan dan efek akibat serangan."
-		}
+		},
+
+		damage: 10,
+		cost: ["Grass"]
 	}],
 
 	weaknesses: [{
@@ -51,12 +51,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746207,
 				tcgplayer: 567352,
+				cardtrader: 269643,
 			},
 		},
 		{
@@ -65,10 +69,7 @@ const card: Card = {
 				tcgplayer: 577297,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

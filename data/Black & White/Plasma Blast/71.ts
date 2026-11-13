@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Sein Nachwuchs wächst in seinem Beutel heran. Nur wenn es sicher ist, darf das Junge aus dem Beutel."
 	},
 
-	thirdParty: {
-		cardmarket: 281092,
-		tcgplayer: 86424
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281092,
+				tcgplayer: 86424
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281092,
+				tcgplayer: 86424
+			}
+		},
+	],
 }
 
 export default card

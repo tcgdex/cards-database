@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Anesaki Dynamic",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [849],
 	hp: 140,
 	types: ["Lightning"],
+
+	evolveFrom: {
+		ja: "エレズン"
+	},
 
 	description: {
 		ja: "どんな 相手にも 動じず 気だるげに ケンカを売る スタイルに 憧れる 若者も 多い。",
@@ -27,8 +32,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Lightning"],
-
 		name: {
 			ja: "にらみつける",
 			'zh-tw': "瞪眼",
@@ -41,10 +44,9 @@ const card: Card = {
 			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。",
 			th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว จะทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[ชา]",
 			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
-		}
+		},
+		cost: ["Lightning"]
 	}, {
-		cost: ["Lightning", "Colorless"],
-
 		name: {
 			ja: "ミックスラウド",
 			'zh-tw': "混和高聲",
@@ -52,14 +54,15 @@ const card: Card = {
 			id: "Mix Loud"
 		},
 
-		damage: "50+",
-
 		effect: {
 			ja: "自分のベンチポケモンのタイプの数×30ダメージ追加。",
 			'zh-tw': "增加自己的備戰寶可夢的屬性種類的數量×30點傷害。",
 			th: "แดเมจจะเพิ่มตามจำนวนประเภทของโปเกมอนบนเบนช์ฝ่ายเรา x30",
 			id: "Kerusakan yang diberikan bertambah sejumlah 30 untuk tiap tipe Pokémon Cadangan sendiri."
-		}
+		},
+
+		damage: "50+",
+		cost: ["Lightning", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -67,18 +70,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746447,
 				tcgplayer: 567450,
+				cardtrader: 269664,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

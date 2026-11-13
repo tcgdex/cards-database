@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Taira Akitsu",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [459],
 	hp: 90,
@@ -27,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Grass", "Colorless"],
-
 		name: {
 			ja: "どつく",
 			'zh-tw': "推擊",
@@ -36,7 +35,8 @@ const card: Card = {
 			id: "Menohok"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Grass", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -44,12 +44,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 3,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746212,
 				tcgplayer: 567360,
+				cardtrader: 269624,
 			},
 		},
 		{
@@ -58,10 +62,7 @@ const card: Card = {
 				tcgplayer: 577300,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

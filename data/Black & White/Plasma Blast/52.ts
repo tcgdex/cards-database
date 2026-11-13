@@ -78,10 +78,22 @@ const card: Card = {
 		de: "Es lebt zurückgezogen in den Bergen und trainiert Tag und Nacht, um seinen Karateschlag zu perfektionieren."
 	},
 
-	thirdParty: {
-		cardmarket: 281073,
-		tcgplayer: 88940
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281073,
+				tcgplayer: 88940
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281073,
+				tcgplayer: 88940
+			}
+		},
+	],
 }
 
 export default card

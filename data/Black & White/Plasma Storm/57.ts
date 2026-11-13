@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Sein dünner, ballonartiger Körper ist mit schrecklichem Giftgas gefüllt, das riesige Explosionen verursachen kann."
 	},
 
-	thirdParty: {
-		cardmarket: 280796,
-		tcgplayer: 86501
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280797,
+				tcgplayer: 86501
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280797,
+				tcgplayer: 86501
+			}
+		},
+	],
 }
 
 export default card

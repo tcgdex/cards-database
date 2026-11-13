@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "sowsow",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [926],
 	hp: 50,
@@ -25,15 +26,14 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "うしろげり",
 			'zh-tw': "後踢",
 			id: "Tendangan Belakang"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -41,18 +41,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747620,
 				tcgplayer: 567667,
+				cardtrader: 270233,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

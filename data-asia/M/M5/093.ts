@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 140,
 	types: ["Colorless"],
 
+	description: {
+		ja: "本来の 力を 解き放つ 最後の ファクターは 信頼する トレーナーとの 絆 だった。"
+	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -35,7 +39,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Fighting", value: "x2" }],
+	weaknesses: [{ type: "Fighting", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -43,6 +47,8 @@ const card: Card = {
 			type: "holo",
 			thirdParty: {
 				cardmarket: 888638,
+				cardtrader: 391499,
+				tcgplayer: 695101,
 			},
 		},
 	],

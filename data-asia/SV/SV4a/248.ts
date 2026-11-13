@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Mizue",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [922],
 	hp: 90,
 	types: ["Lightning"],
+
+	evolveFrom: {
+		ja: "パモ"
+	},
 
 	description: {
 		ja: "手のひらで 打撃を 加えつつ 肉球で 電撃を 浴びせる 独特の 格闘技を 使う。",
@@ -25,31 +30,29 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Lightning"],
-
 		name: {
 			ja: "でんきショック",
 			'zh-tw': "電擊",
 			id: "Sengatan Listrik"
 		},
 
-		damage: 30,
-
 		effect: {
 			ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。",
 			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
-		}
-	}, {
-		cost: ["Lightning", "Lightning", "Colorless"],
+		},
 
+		damage: 30,
+		cost: ["Lightning"]
+	}, {
 		name: {
 			ja: "ヘッドボルト",
 			'zh-tw': "伏特頭擊",
 			id: "Head Bolt"
 		},
 
-		damage: 70
+		damage: 70,
+		cost: ["Lightning", "Lightning", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -57,18 +60,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747602,
 				tcgplayer: 567649,
+				cardtrader: 270277,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

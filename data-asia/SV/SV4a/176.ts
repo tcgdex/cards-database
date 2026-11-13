@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "kirisAki",
+	rarity: "None",
 	category: "Trainer",
 
 	effect: {
@@ -21,18 +22,19 @@ const card: Card = {
 		id: "Buang semua Kartu Pegangan sendiri ke Trash, lalu ambil 7 kartu dari atas Deck."
 	},
 
+	trainerType: "Supporter",
+	regulationMark: "G",
+
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746558,
 				tcgplayer: 567577,
+				cardtrader: 269759,
 			},
 		},
-	],
-
-	trainerType: "Supporter",
-	regulationMark: "G"
+	]
 }
 
 export default card

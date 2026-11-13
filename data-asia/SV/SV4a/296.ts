@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Hitoshi Ariga",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [943],
 	hp: 130,
 	types: ["Darkness"],
+
+	evolveFrom: {
+		ja: "オラチフ"
+	},
 
 	description: {
 		ja: "子どもと 遊ぶことが 大好き。 普段は 温厚だが 家族を 守るとき 形相が 変わる。",
@@ -41,21 +46,20 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Darkness", "Darkness", "Colorless"],
-
 		name: {
 			ja: "ワイルドタックル",
 			'zh-tw': "狂野衝撞",
 			id: "Wild Tackle"
 		},
 
-		damage: 160,
-
 		effect: {
 			ja: "このポケモンにも30ダメージ。",
 			'zh-tw': "這隻寶可夢也受到30點傷害。",
 			id: "Pokémon ini juga menerima kerusakan sejumlah 30."
-		}
+		},
+
+		damage: 160,
+		cost: ["Darkness", "Darkness", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -63,18 +67,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 3,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747650,
 				tcgplayer: 567698,
+				cardtrader: 270295,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 110,
 	types: ["Colorless"],
 
+	description: {
+		ja: "大空を ゆったりと 飛ぶ。 チルタリスの 美しい ハミングを 聴くと うっとり 夢心地だ。"
+	},
+
 	stage: "Stage1",
 
 	abilities: [
@@ -32,7 +36,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Lightning", value: "x2" }],
+	weaknesses: [{ type: "Lightning", value: "×2" }],
 	resistances: [{ type: "Fighting", value: "-30" }],
 
 	variants: [
@@ -41,6 +45,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900113,
 				tcgplayer: 709240,
+				cardtrader: 403170,
 			},
 		},
 	],
@@ -51,7 +56,7 @@ const card: Card = {
 
 	retreat: 1,
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Illustration rare",
 	dexId: [334],
 };
 

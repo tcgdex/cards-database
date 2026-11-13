@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [204],
 	hp: 70,
@@ -27,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Grass", "Grass"],
-
 		name: {
 			ja: "ころがる",
 			'zh-tw': "滾動",
@@ -36,7 +35,8 @@ const card: Card = {
 			id: "Menggelinding"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Grass", "Grass"]
 	}],
 
 	weaknesses: [{
@@ -44,12 +44,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746210,
 				tcgplayer: 567357,
+				cardtrader: 269629,
 			},
 		},
 		{
@@ -58,10 +62,7 @@ const card: Card = {
 				tcgplayer: 577299,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

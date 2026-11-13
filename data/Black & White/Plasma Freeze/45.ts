@@ -76,10 +76,22 @@ const card: Card = {
 		de: "Diese aus Schlamm entstandenen Pokémon scharen sich an dreckigen Orten, um ihre körpereigenen Bakterien zu kultivieren."
 	},
 
-	thirdParty: {
-		cardmarket: 280923,
-		tcgplayer: 85915
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280923,
+				tcgplayer: 85915
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280923,
+				tcgplayer: 85915
+			}
+		},
+	],
 }
 
 export default card

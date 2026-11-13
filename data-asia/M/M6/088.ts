@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 90,
 	types: ["Colorless"],
 
+	description: {
+		ja: "体の 色を 変えて 景色に 溶けこみ 獲物に 忍び寄る。 お腹の 模様は 消せないのだ。"
+	},
+
 	stage: "Basic",
 
 	attacks: [
@@ -25,7 +29,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Fighting", value: "x2" }],
+	weaknesses: [{ type: "Fighting", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -34,13 +38,14 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 900114,
 				tcgplayer: 709241,
+				cardtrader: 403171,
 			},
 		},
 	],
 
 	retreat: 2,
 	regulationMark: "J",
-	rarity: "Mega Hyper Rare",
+	rarity: "Illustration rare",
 	dexId: [352],
 };
 

@@ -93,10 +93,22 @@ const card: Card = {
 		de: "Dank seiner vier vernetzten Hirne kann es Gegner besser als ein Supercomputer mit komplizierten Formeln analysieren."
 	},
 
-	thirdParty: {
-		cardmarket: 280930,
-		tcgplayer: 87343
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280930,
+				tcgplayer: 87343
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280930,
+				tcgplayer: 87343
+			}
+		},
+	],
 }
 
 export default card

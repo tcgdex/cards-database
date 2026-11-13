@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Atsushi Furusawa",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [913],
 	hp: 90,
 	types: ["Water"],
+
+	evolveFrom: {
+		ja: "クワッス"
+	},
 
 	description: {
 		ja: "ひたすらに 浅瀬を 走り込んで 足腰を 鍛え 仲間同士で 足技の 華麗さを 競いあう。",
@@ -25,25 +30,23 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Water"],
-
 		name: {
 			ja: "みずでっぽう",
 			'zh-tw': "水槍",
 			id: "Pistol Air"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Water"]
 	}, {
-		cost: ["Water", "Colorless"],
-
 		name: {
 			ja: "スプラッシュ",
 			'zh-tw': "飛濺",
 			id: "Splash"
 		},
 
-		damage: 50
+		damage: 50,
+		cost: ["Water", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -51,18 +54,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747579,
 				tcgplayer: 567626,
+				cardtrader: 270228,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

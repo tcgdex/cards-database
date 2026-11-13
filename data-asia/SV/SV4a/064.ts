@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "AKIRA EGAWA",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [848],
 	hp: 70,
@@ -27,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Lightning"],
-
 		name: {
 			ja: "ちょっとつっこむ",
 			'zh-tw': "撞一下",
@@ -36,14 +35,15 @@ const card: Card = {
 			id: "Gasak Sedikit"
 		},
 
-		damage: 30,
-
 		effect: {
 			ja: "このポケモンにも10ダメージ。",
 			'zh-tw': "這隻寶可夢也受到10點傷害。",
 			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 10 ด้วย",
 			id: "Pokémon ini juga menerima kerusakan sejumlah 10."
-		}
+		},
+
+		damage: 30,
+		cost: ["Lightning"]
 	}],
 
 	weaknesses: [{
@@ -51,12 +51,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746446,
 				tcgplayer: 567446,
+				cardtrader: 269668,
 			},
 		},
 		{
@@ -65,10 +69,7 @@ const card: Card = {
 				tcgplayer: 577330,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

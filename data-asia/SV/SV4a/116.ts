@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [194],
 	hp: 60,
@@ -27,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "すみかをさがす",
 			'zh-tw': "尋找巢穴",
@@ -41,10 +40,9 @@ const card: Card = {
 			'zh-tw': "從自己的牌庫選擇1張競技場卡，在給對手看過後加入手牌。並且重洗牌庫。",
 			th: "เลือกการ์ดสเตเดียม 1 ใบจากสำรับการ์ดฝ่ายเรา ให้ฝ่ายตรงข้ามดู นำขึ้นมือ แล้วสับสำรับการ์ด",
 			id: "Pilih 1 lembar Stadium dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
-		}
+		},
+		cost: ["Colorless"]
 	}, {
-		cost: ["Darkness"],
-
 		name: {
 			ja: "ぶつかる",
 			'zh-tw': "衝撞",
@@ -52,7 +50,8 @@ const card: Card = {
 			id: "Menyeruduk"
 		},
 
-		damage: 10
+		damage: 10,
+		cost: ["Darkness"]
 	}],
 
 	weaknesses: [{
@@ -60,12 +59,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746498,
 				tcgplayer: 567517,
+				cardtrader: 269718,
 			},
 		},
 		{
@@ -74,10 +77,7 @@ const card: Card = {
 				tcgplayer: 577360,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

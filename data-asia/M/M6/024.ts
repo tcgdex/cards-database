@@ -32,7 +32,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Fighting", value: "x2" }],
+	weaknesses: [{ type: "Fighting", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -41,6 +41,7 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 899908,
 				tcgplayer: 709286,
+				cardtrader: 403052,
 			},
 		},
 	],

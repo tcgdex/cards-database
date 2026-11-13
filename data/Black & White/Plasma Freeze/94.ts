@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Es kann nach Belieben seine Farbe ändern. Nur das gezackte Muster auf seinem Bauch bleibt gleich."
 	},
 
-	thirdParty: {
-		cardmarket: 280972,
-		tcgplayer: 86432
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280972,
+				tcgplayer: 86432
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280972,
+				tcgplayer: 86432
+			}
+		},
+	],
 }
 
 export default card

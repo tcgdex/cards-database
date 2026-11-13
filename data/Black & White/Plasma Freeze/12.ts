@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Speichert Atemluft in einer Feuerlunge. Dort erhitzt es sie auf 1 700 Grad, um sie als Flammen auszuspucken."
 	},
 
-	thirdParty: {
-		cardmarket: 280890,
-		tcgplayer: 85502
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280890,
+				tcgplayer: 85502
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280890,
+				tcgplayer: 85502
+			}
+		},
+	],
 }
 
 export default card

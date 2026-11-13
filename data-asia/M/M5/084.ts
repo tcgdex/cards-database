@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 70,
 	types: ["Water"],
 
+	description: {
+		ja: "背びれ 胸びれ 尾びれが 優雅に たなびくので 水の踊り子 と呼ばれる。"
+	},
+
 	stage: "Basic",
 
 	attacks: [
@@ -22,7 +26,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Lightning", value: "x2" }],
+	weaknesses: [{ type: "Lightning", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -30,6 +34,8 @@ const card: Card = {
 			type: "holo",
 			thirdParty: {
 				cardmarket: 888629,
+				cardtrader: 391490,
+				tcgplayer: 695065,
 			},
 		},
 	],

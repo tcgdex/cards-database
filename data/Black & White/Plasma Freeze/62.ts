@@ -78,10 +78,22 @@ const card: Card = {
 		de: "Es stärkt seinen Körper, indem es gegen Bäume rennt. In seiner Nähe finden sich viele umgekippte Bäume."
 	},
 
-	thirdParty: {
-		cardmarket: 280940,
-		tcgplayer: 87135
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280940,
+				tcgplayer: 87135
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280940,
+				tcgplayer: 87135
+			}
+		},
+	],
 }
 
 export default card

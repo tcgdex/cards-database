@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Kann aus einem Kilometer Entfernung die Gefühle anderer Wesen erfassen, indem es die Wellen liest, die sie aussenden."
 	},
 
-	thirdParty: {
-		cardmarket: 280817,
-		tcgplayer: 86884
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280818,
+				tcgplayer: 86884
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280818,
+				tcgplayer: 86884
+			}
+		},
+	],
 }
 
 export default card

@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Nisota Niso",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [194],
 	hp: 60,
@@ -25,8 +26,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "すみかをさがす",
 			'zh-tw': "尋找巢穴",
@@ -37,17 +36,17 @@ const card: Card = {
 			ja: "自分の山札からスタジアムを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
 			'zh-tw': "從自己的牌庫選擇1張競技場卡，在給對手看過後加入手牌。並且重洗牌庫。",
 			id: "Pilih 1 lembar Stadium dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
-		}
+		},
+		cost: ["Colorless"]
 	}, {
-		cost: ["Darkness"],
-
 		name: {
 			ja: "ぶつかる",
 			'zh-tw': "衝撞",
 			id: "Menyeruduk"
 		},
 
-		damage: 10
+		damage: 10,
+		cost: ["Darkness"]
 	}],
 
 	weaknesses: [{
@@ -55,18 +54,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747641,
 				tcgplayer: 567688,
+				cardtrader: 270286,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

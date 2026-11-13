@@ -78,10 +78,22 @@ const card: Card = {
 		de: "Um gespeicherte Elektrizität zu teilen, reiben zwei von ihnen ihre Backentaschen aneinander."
 	},
 
-	thirdParty: {
-		cardmarket: 280915,
-		tcgplayer: 87905
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280915,
+				tcgplayer: 87905
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280915,
+				tcgplayer: 87905
+			}
+		},
+	],
 }
 
 export default card

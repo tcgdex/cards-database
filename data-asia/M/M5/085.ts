@@ -12,6 +12,10 @@ const card: Card = {
 	hp: 150,
 	types: ["Water"],
 
+	description: {
+		ja: "歌姫の 異名を 持つ。 月夜の 晩に 群れを 率いて 歌う 姿は 幻想的。"
+	},
+
 	stage: "Stage2",
 
 	abilities: [
@@ -35,7 +39,7 @@ const card: Card = {
 		},
 	],
 
-	weaknesses: [{ type: "Lightning", value: "x2" }],
+	weaknesses: [{ type: "Lightning", value: "×2" }],
 	resistances: [],
 
 	variants: [
@@ -43,6 +47,8 @@ const card: Card = {
 			type: "holo",
 			thirdParty: {
 				cardmarket: 888630,
+				cardtrader: 391491,
+				tcgplayer: 695070,
 			},
 		},
 	],

@@ -34,7 +34,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 			},
-			damage: 10,
+			damage: "10x",
 
 		},
 		{
@@ -49,7 +49,7 @@ const card: Card = {
 			effect: {
 				en: "Does 20 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
 			},
-			damage: 20,
+			damage: "20+",
 
 		},
 	],

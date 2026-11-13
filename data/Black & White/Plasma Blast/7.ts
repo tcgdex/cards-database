@@ -75,10 +75,22 @@ const card: Card = {
 		de: "Hält sich ein Laukaps in seiner Nähe auf und kommen beide mit Strom in Berührung, entwickeln sie sich."
 	},
 
-	thirdParty: {
-		cardmarket: 281028,
-		tcgplayer: 89148
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281028,
+				tcgplayer: 89148
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281028,
+				tcgplayer: 89148
+			}
+		},
+	],
 }
 
 export default card

@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Nisota Niso",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [971],
 	hp: 70,
@@ -25,21 +26,20 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Psychic"],
-
 		name: {
 			ja: "おはかであそぶ",
 			'zh-tw': "墓地遊玩",
 			id: "Main di Kuburan"
 		},
 
-		damage: "10×",
-
 		effect: {
-			ja: "自分のトラッシュにあるポケモンの枚数×10ダメージ。",
+			ja: "自分のトラッシュにある{P}ポケモンの枚数×10ダメージ。",
 			'zh-tw': "造成自己的棄牌區的【超】寶可夢卡的張數×10點傷害。",
 			id: "Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lembar Pokémon {Psychic} yang ada di Trash sendiri."
-		}
+		},
+
+		damage: "10×",
+		cost: ["Psychic"]
 	}],
 
 	weaknesses: [{
@@ -52,18 +52,19 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747628,
 				tcgplayer: 567675,
+				cardtrader: 270241,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Man sagt, es sei vor 50 Jahren aus den Tiefen einer Wüste erschienen, in der zuvor angeblich ein UFO abgestürzt war."
 	},
 
-	thirdParty: {
-		cardmarket: 280808,
-		tcgplayer: 85180
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280809,
+				tcgplayer: 85180
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280809,
+				tcgplayer: 85180
+			}
+		},
+	],
 }
 
 export default card

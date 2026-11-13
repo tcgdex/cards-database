@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Da es ohne Flüssigkeit an Kraft verliert, umgibt es sich mit einer schleimigen Schutzhaut und speit flüssiges Gift."
 	},
 
-	thirdParty: {
-		cardmarket: 281029,
-		tcgplayer: 83461
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281029,
+				tcgplayer: 83461
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281029,
+				tcgplayer: 83461
+			}
+		},
+	],
 }
 
 export default card

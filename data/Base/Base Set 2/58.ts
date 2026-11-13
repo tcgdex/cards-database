@@ -51,6 +51,7 @@ const card: Card = {
 			effect: {
 				en: "Does damage to the Defending Pokémon equal to half the Defending Pokémon's remaining HP (rounded up to the nearest 10).",
 			},
+			damage: "?",
 
 		},
 	],

@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "kodama",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [952],
 	hp: 110,
 	types: ["Grass"],
+
+	evolveFrom: {
+		ja: "カプサイジ"
+	},
 
 	description: {
 		ja: "レッドヘッドは 辛み成分を 炎エネルギーに 変え 激辛の 火炎放射を まき散らす。",
@@ -37,7 +42,7 @@ const card: Card = {
 		},
 
 		effect: {
-			ja: "このポケモンは、場にいるかぎりとの2つのタイプになる。",
+			ja: "このポケモンは、場にいるかぎり{G}と{R}の2つのタイプになる。",
 			'zh-tw': "只要這隻寶可夢在場上，改為【草】與【火】2種屬性。",
 			th: "โปเกมอนนี้ ตราบใดที่ยังอยู่บนกระดาน จะเป็น 2 ประเภทคือ[หญ้า]และ[ไฟ]",
 			id: "Selama Pokémon ini ada di Arena, Pokémon ini menjadi 2 tipe yaitu {Daun} dan {Api}."
@@ -45,8 +50,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Grass", "Colorless", "Colorless"],
-
 		name: {
 			ja: "スパイシーヘッド",
 			'zh-tw': "香料頭擊",
@@ -54,14 +57,15 @@ const card: Card = {
 			id: "Spicy Head"
 		},
 
-		damage: 110,
-
 		effect: {
 			ja: "このワザのダメージは抵抗力を計算しない。",
 			'zh-tw': "這個招式的傷害不計算抵抗力。",
 			th: "แดเมจของท่าต่อสู้นี้จะไม่นำความต้านทานมาคิด",
 			id: "Kerusakan akibat serangan ini tidak terpengaruh oleh Resistansi."
-		}
+		},
+
+		damage: 110,
+		cost: ["Grass", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -69,18 +73,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746223,
 				tcgplayer: 567374,
+				cardtrader: 269630,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

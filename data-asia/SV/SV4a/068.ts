@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "GIDORA",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [923],
 	hp: 130,
 	types: ["Lightning"],
+
+	evolveFrom: {
+		ja: "パモット"
+	},
 
 	description: {
 		ja: "ふわふわの 体毛が バッテリー。 電気自動車と 同じ 量の 電気を 蓄えることができる。",
@@ -37,7 +42,7 @@ const card: Card = {
 		},
 
 		effect: {
-			ja: "自分の番に1回使える。自分の山札から「基本エネルギー」を1枚選び、このポケモンにつける。そして山札を切る。",
+			ja: "自分の番に1回使える。自分の山札から「基本{L}エネルギー」を1枚選び、このポケモンにつける。そして山札を切る。",
 			'zh-tw': "在自己的回合時可使用1次。從自己的牌庫選擇1張「基本【雷】能量」卡，附於這隻寶可夢身上。並且重洗牌庫。",
 			th: "ใช้ได้ 1 ครั้งในเทิร์นฝ่ายเรา เลือกการ์ด [พลังงานพื้นฐาน[สายฟ้า]] 1 ใบจากสำรับการ์ดฝ่ายเรา ติดที่โปเกมอนนี้ แล้วสับสำรับการ์ด",
 			id: "Dapat digunakan 1 kali pada giliran sendiri. Pilih 1 lembar Energi Dasar {Listrik} dari Deck sendiri, lalu kenakan pada Pokémon ini. Kemudian, kocok Deck."
@@ -45,8 +50,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Lightning", "Lightning", "Colorless"],
-
 		name: {
 			ja: "エレクトロパウ",
 			'zh-tw': "電子肉球",
@@ -54,14 +57,15 @@ const card: Card = {
 			id: "Electro Paw"
 		},
 
-		damage: 230,
-
 		effect: {
 			ja: "このポケモンについているエネルギーを、すべてトラッシュする。",
 			'zh-tw': "將這隻寶可夢身上附加的能量卡全部丟棄。",
 			th: "ทิ้งพลังงานที่ติดอยู่กับโปเกมอนนี้ ทั้งหมดที่ตำแหน่งทิ้งการ์ด",
 			id: "Buang semua Energi yang dikenakan pada Pokémon ini ke Trash."
-		}
+		},
+
+		damage: 230,
+		cost: ["Lightning", "Lightning", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -69,18 +73,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 0,
+	regulationMark: "G",
+
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746450,
 				tcgplayer: 567454,
+				cardtrader: 269645,
 			},
 		},
-	],
-
-	retreat: 0,
-	regulationMark: "G"
+	]
 }
 
 export default card

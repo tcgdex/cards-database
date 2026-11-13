@@ -76,10 +76,22 @@ const card: Card = {
 		de: "Fühlt es sich wohl, wird der Schleim, der aus seiner Nase trieft, klebrig, und die Stärke seiner Eis-Attacken nimmt zu."
 	},
 
-	thirdParty: {
-		cardmarket: 280780,
-		tcgplayer: 84526
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280780,
+				tcgplayer: 84526
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280780,
+				tcgplayer: 84526
+			}
+		},
+	],
 }
 
 export default card

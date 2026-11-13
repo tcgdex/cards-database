@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Die Zellen seines Panzers fingen an, sich zu verändern. Er fällt ab, sobald sich das Pokémon entwickelt."
 	},
 
-	thirdParty: {
-		cardmarket: 281084,
-		tcgplayer: 89131
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281084,
+				tcgplayer: 89131
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281084,
+				tcgplayer: 89131
+			}
+		},
+	],
 }
 
 export default card

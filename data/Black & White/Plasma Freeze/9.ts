@@ -68,10 +68,22 @@ const card: Card = {
 		de: "Dieser Wüstenbewohner speichert Wasser in seinem Körper. So kann er 30 Tage ohne Wasser überleben."
 	},
 
-	thirdParty: {
-		cardmarket: 280887,
-		tcgplayer: 84077
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280887,
+				tcgplayer: 84077
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280887,
+				tcgplayer: 84077
+			}
+		},
+	],
 }
 
 export default card
