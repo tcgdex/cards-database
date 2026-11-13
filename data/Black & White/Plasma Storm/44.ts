@@ -81,10 +81,22 @@ const card: Card = {
 		de: "Die vereinten elektromagnetischen Wellen von 3 Magnetilo bringen alles Wasser in der Umgebung zum Verdampfen."
 	},
 
-	thirdParty: {
-		cardmarket: 280784,
-		tcgplayer: 87111
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280784,
+				tcgplayer: 87111
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280784,
+				tcgplayer: 87111
+			}
+		},
+	],
 }
 
 export default card

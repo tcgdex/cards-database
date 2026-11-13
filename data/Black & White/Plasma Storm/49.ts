@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Es kann mit seinem Körper in elektrische Geräte eindringen und dann für Chaos sorgen."
 	},
 
-	thirdParty: {
-		cardmarket: 280789,
-		tcgplayer: 88840
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280789,
+				tcgplayer: 88840
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280789,
+				tcgplayer: 88840
+			}
+		},
+	],
 }
 
 export default card

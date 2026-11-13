@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Errichtet mit elektrisch geladenen Fäden Barrieren, die lähmend wirken und ihm zur Verteidigung und zum Angriff dienen."
 	},
 
-	thirdParty: {
-		cardmarket: 280791,
-		tcgplayer: 85613
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280791,
+				tcgplayer: 85613
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280791,
+				tcgplayer: 85613
+			}
+		},
+	],
 }
 
 export default card

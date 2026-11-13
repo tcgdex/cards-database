@@ -85,10 +85,22 @@ const card: Card = {
 		de: "Es hält sich bevorzugt an finsteren, feuchten Orten auf und knabbert den ganzen Tag an zu Boden gefallenem Laub."
 	},
 
-	thirdParty: {
-		cardmarket: 280749,
-		tcgplayer: 89668
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280749,
+				tcgplayer: 89668
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280749,
+				tcgplayer: 89668
+			}
+		},
+	],
 }
 
 export default card

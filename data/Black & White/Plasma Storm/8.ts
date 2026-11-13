@@ -58,10 +58,22 @@ const card: Card = {
 		de: "Unter Modeschöpfern gilt es als beliebtes Maskottchen, da es sich aus Blättern Kleidchen schneidert."
 	},
 
-	thirdParty: {
-		cardmarket: 280748,
-		tcgplayer: 89092
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280748,
+				tcgplayer: 89092
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280748,
+				tcgplayer: 89092
+			}
+		},
+	],
 }
 
 export default card

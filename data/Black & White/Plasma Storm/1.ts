@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Der Panzer auf seinem Rücken besteht aus Erdreich. Bei gesunden Chelast ist der Panzer feucht."
 	},
 
-	thirdParty: {
-		cardmarket: 280741,
-		tcgplayer: 90081
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280741,
+				tcgplayer: 90081
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280741,
+				tcgplayer: 90081
+			}
+		},
+	],
 }
 
 export default card

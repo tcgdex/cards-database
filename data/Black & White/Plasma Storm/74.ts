@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Da es seine Energie aus Sonnenlicht gewinnt, ist es tagsüber am stärksten. Wenn es sich dreht, leuchtet es."
 	},
 
-	thirdParty: {
-		cardmarket: 280814,
-		tcgplayer: 89431
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280814,
+				tcgplayer: 89431
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280814,
+				tcgplayer: 89431
+			}
+		},
+	],
 }
 
 export default card

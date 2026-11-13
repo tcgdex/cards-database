@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Es rüttelt die Hüte an seinen Armen und lockt Beute mit einem Tanz an. Es hält sich bevorzugt an feuchten Orten auf."
 	},
 
-	thirdParty: {
-		cardmarket: 280753,
-		tcgplayer: 83533
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280753,
+				tcgplayer: 83533
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280753,
+				tcgplayer: 83533
+			}
+		},
+	],
 }
 
 export default card

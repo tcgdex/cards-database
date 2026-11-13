@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Es saugt giftige Abgase aus dem Müll auf, die sich in seinem Körper zu einem noch übleren Gestank vermischen."
 	},
 
-	thirdParty: {
-		cardmarket: 280798,
-		tcgplayer: 90566
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280798,
+				tcgplayer: 90566
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280798,
+				tcgplayer: 90566
+			}
+		},
+	],
 }
 
 export default card

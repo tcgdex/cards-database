@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Es spricht, indem es seine Fingerspitzen leuchten lässt, doch noch konnte der Code dahinter nicht entziffert werden."
 	},
 
-	thirdParty: {
-		cardmarket: 280810,
-		tcgplayer: 83780
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280810,
+				tcgplayer: 83780
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280810,
+				tcgplayer: 83780
+			}
+		},
+	],
 }
 
 export default card

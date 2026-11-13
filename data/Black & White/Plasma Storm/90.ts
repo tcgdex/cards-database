@@ -99,10 +99,22 @@ const card: Card = {
 		de: "Lässt das kleine Rad schnell rotieren und feuert es ab, indem darauf Energie aus seinem roten Kern übertragen wird."
 	},
 
-	thirdParty: {
-		cardmarket: 280830,
-		tcgplayer: 86488
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280830,
+				tcgplayer: 86488
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280830,
+				tcgplayer: 86488
+			}
+		},
+	],
 }
 
 export default card

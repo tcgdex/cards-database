@@ -97,10 +97,22 @@ const card: Card = {
 		de: "Menschen, die unnötigen Streit vermeiden und sich gegenseitig respektieren, ist es wohlgesonnen."
 	},
 
-	thirdParty: {
-		cardmarket: 280844,
-		tcgplayer: 89925
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280844,
+				tcgplayer: 89925
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280844,
+				tcgplayer: 89925
+			}
+		},
+	],
 }
 
 export default card
