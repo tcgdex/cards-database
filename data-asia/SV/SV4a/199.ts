@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Saya Tsuruta",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [459],
 	hp: 90,
@@ -25,15 +26,14 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Grass", "Colorless"],
-
 		name: {
 			ja: "どつく",
 			'zh-tw': "推擊",
 			id: "Menohok"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Grass", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -41,18 +41,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 3,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747553,
 				tcgplayer: 567600,
+				cardtrader: 270196,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

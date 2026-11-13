@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Es setzt Attacken ein, die sich die Zentrifugalkraft zunutze machen, indem es seine Betonpfeiler umherschwingt."
 	},
 
-	thirdParty: {
-		cardmarket: 280821,
-		tcgplayer: 84420
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280821,
+				tcgplayer: 84420
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280821,
+				tcgplayer: 84420
+			}
+		},
+	],
 }
 
 export default card

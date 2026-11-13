@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "0313",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [132],
 	hp: 60,
@@ -41,15 +42,14 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "ぺとっ",
 			'zh-tw': "黏",
 			id: "Lekat"
 		},
 
-		damage: 10
+		damage: 10,
+		cost: ["Colorless"]
 	}],
 
 	weaknesses: [{
@@ -57,18 +57,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747663,
 				tcgplayer: 567710,
+				cardtrader: 270365,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

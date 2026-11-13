@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Naoyo Kimura",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [189],
 	hp: 90,
 	types: ["Grass"],
+
+	evolveFrom: {
+		ja: "ポポッコ"
+	},
 
 	description: {
 		ja: "季節風に 乗り 旅をする。 綿胞子が 尽きるとき 旅と ワタッコの 一生は 終わる。",
@@ -45,8 +50,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Grass"],
-
 		name: {
 			ja: "わたげのかぜ",
 			'zh-tw': "棉絮之風",
@@ -54,14 +57,15 @@ const card: Card = {
 			id: "Angin Bulu Kapas"
 		},
 
-		damage: 60,
-
 		effect: {
 			ja: "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			'zh-tw': "對手的1隻備戰寶可夢也受到30點傷害。[在備戰區不計算弱點・抵抗力。]",
 			th: "โปเกมอนบนเบนช์ฝ่ายตรงข้าม 1 ตัว ก็จะได้รับแดเมจ 30 ด้วย {โปเกมอนบนเบนช์จะไม่นำจุดอ่อนและความต้านทานมาคิด}",
 			id: "Serangan ini juga memberikan kerusakan sejumlah 30 kepada 1 Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
-		}
+		},
+
+		damage: 60,
+		cost: ["Grass"]
 	}],
 
 	weaknesses: [{
@@ -69,18 +73,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746209,
 				tcgplayer: 567355,
+				cardtrader: 269633,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "AYUMI ODASHIMA",
+	rarity: "None",
 	category: "Trainer",
 
 	effect: {
@@ -21,12 +22,16 @@ const card: Card = {
 		id: "Kerusakan akibat serangan yang digunakan oleh Pokémon Stage 1 kedua pemain kepada Pokémon Bertarung lawan bertambah sejumlah 10."
 	},
 
+	trainerType: "Stadium",
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746569,
 				tcgplayer: 567588,
+				cardtrader: 269790,
 			},
 		},
 		{
@@ -35,10 +40,7 @@ const card: Card = {
 				tcgplayer: 577414,
 			},
 		},
-	],
-
-	trainerType: "Stadium",
-	regulationMark: "G"
+	]
 }
 
 export default card

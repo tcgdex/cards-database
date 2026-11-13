@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shigenori Negishi",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [143],
 	hp: 150,
@@ -41,21 +42,20 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Colorless", "Colorless", "Colorless"],
-
 		name: {
 			ja: "バッタンプレス",
 			'zh-tw': "養肥壓制",
 			id: "Tekanan Gedebuk"
 		},
 
-		damage: 130,
-
 		effect: {
 			ja: "このポケモンにも30ダメージ。",
 			'zh-tw': "這隻寶可夢也受到30點傷害。",
 			id: "Pokémon ini juga menerima kerusakan sejumlah 30."
-		}
+		},
+
+		damage: 130,
+		cost: ["Colorless", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -63,18 +63,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 4,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747664,
 				tcgplayer: 567711,
+				cardtrader: 270376,
 			},
 		},
-	],
-
-	retreat: 4,
-	regulationMark: "G"
+	]
 }
 
 export default card

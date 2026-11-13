@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Es wurde aus einem urzeitlichen Fossil reanimiert. Einst schwamm es geschickt durch Untiefen von bis zu 1 000 Metern."
 	},
 
-	thirdParty: {
-		cardmarket: 281048,
-		tcgplayer: 89922
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281048,
+				tcgplayer: 89922
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281048,
+				tcgplayer: 89922
+			}
+		},
+	],
 }
 
 export default card

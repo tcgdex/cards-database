@@ -3,6 +3,7 @@ import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
+		de: "Aquaverteiler",
 		en: "Aqua Diffuser",
 		fr: "Diffuseur Aqua",
 		pt: "Difusor Aqua",

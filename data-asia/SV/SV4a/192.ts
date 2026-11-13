@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "OKACHEKE",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [44],
 	hp: 70,
 	types: ["Grass"],
+
+	evolveFrom: {
+		ja: "ナゾノクサ"
+	},
 
 	description: {
 		ja: "よだれのように 見える 甘い蜜。 とても ねばねば しており 触れると いつまでも まとわりつく。",
@@ -41,15 +46,14 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "よだれ",
 			'zh-tw': "口水",
 			id: "Liur"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -57,18 +61,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747546,
 				tcgplayer: 567593,
+				cardtrader: 270192,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

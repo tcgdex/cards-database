@@ -62,10 +62,22 @@ const card: Card = {
 		de: "Da es selbst keinen Strom erzeugen kann, klettert es auf andere Pokémon, um ihnen elektrostatische Energie abzusaugen."
 	},
 
-	thirdParty: {
-		cardmarket: 280790,
-		tcgplayer: 86358
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280790,
+				tcgplayer: 86358
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280790,
+				tcgplayer: 86358
+			}
+		},
+	],
 }
 
 export default card

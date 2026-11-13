@@ -80,10 +80,22 @@ const card: Card = {
 		de: "Ist es trainiert, spürt es Auren, um Gefühle entfernter Kreaturen zu erkennen und aufzunehmen."
 	},
 
-	thirdParty: {
-		cardmarket: 280817,
-		tcgplayer: 86883
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280817,
+				tcgplayer: 86883
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280817,
+				tcgplayer: 86883
+			}
+		},
+	],
 }
 
 export default card

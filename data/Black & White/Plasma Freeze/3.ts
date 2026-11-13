@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Sein bester Angriff: schnell auf den Gegner zufliegen, mit Giftstacheln zustechen und davonfliegen."
 	},
 
-	thirdParty: {
-		cardmarket: 280881,
-		tcgplayer: 83773
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280881,
+				tcgplayer: 83773
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280881,
+				tcgplayer: 83773
+			}
+		},
+	],
 }
 
 export default card

@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Schlingt sich um Gegner, lähmt sie über die rund gemaserten Flächen an seinem Körper mit Strom und beißt beherzt zu."
 	},
 
-	thirdParty: {
-		cardmarket: 281053,
-		tcgplayer: 85069
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281053,
+				tcgplayer: 85069
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281053,
+				tcgplayer: 85069
+			}
+		},
+	],
 }
 
 export default card

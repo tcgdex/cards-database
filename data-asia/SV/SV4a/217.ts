@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Masakazu Fukuda",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [935],
 	hp: 70,
@@ -25,15 +26,14 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Fire", "Fire", "Colorless"],
-
 		name: {
 			ja: "ヒートブラスト",
 			'zh-tw': "高溫爆破",
 			id: "Heat Blast"
 		},
 
-		damage: 60
+		damage: 60,
+		cost: ["Fire", "Fire", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -41,18 +41,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747571,
 				tcgplayer: 567618,
+				cardtrader: 270208,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

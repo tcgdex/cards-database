@@ -62,10 +62,22 @@ const card: Card = {
 		de: "Im Schatten von Korallen legt es sein Nest an. Bei Gefahr versprüht es Tinte und flieht."
 	},
 
-	thirdParty: {
-		cardmarket: 280896,
-		tcgplayer: 86193
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280896,
+				tcgplayer: 86193
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280896,
+				tcgplayer: 86193
+			}
+		},
+	],
 }
 
 export default card

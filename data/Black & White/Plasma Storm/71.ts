@@ -80,10 +80,22 @@ const card: Card = {
 		de: "Trotz seiner geringen Größe ist es stark. Es kann einen Erwachsenen mühelos auf dem Rücken tragen."
 	},
 
-	thirdParty: {
-		cardmarket: 280811,
-		tcgplayer: 88005
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280811,
+				tcgplayer: 88005
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280811,
+				tcgplayer: 88005
+			}
+		},
+	],
 }
 
 export default card

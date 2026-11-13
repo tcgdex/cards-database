@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [63],
 	hp: 50,
@@ -25,15 +26,14 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Psychic"],
-
 		name: {
 			ja: "サイコショット",
 			'zh-tw': "精神射擊",
 			id: "Psyshot"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Psychic"]
 	}],
 
 	weaknesses: [{
@@ -46,18 +46,19 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747607,
 				tcgplayer: 567654,
+				cardtrader: 270267,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -69,10 +69,22 @@ const card: Card = {
 		de: "Wurde zur Erforschung anderer Planeten weiterentwickelt. Diesem Anspruch wurde es nicht gerecht."
 	},
 
-	thirdParty: {
-		cardmarket: 281094,
-		tcgplayer: 88329
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281094,
+				tcgplayer: 88329
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281094,
+				tcgplayer: 88329
+			}
+		},
+	],
 }
 
 export default card

@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Nelnal",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [714],
 	hp: 70,
@@ -25,16 +26,18 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Psychic", "Darkness"],
-
 		name: {
 			ja: "かぜおこし",
 			'zh-tw': "起風",
 			id: "Hembusan Angin"
 		},
 
-		damage: 40
+		damage: 40,
+		cost: ["Psychic", "Darkness"]
 	}],
+
+	retreat: 1,
+	regulationMark: "G",
 
 	variants: [
 		{
@@ -42,12 +45,10 @@ const card: Card = {
 			thirdParty: {
 				cardmarket: 747656,
 				tcgplayer: 567703,
+				cardtrader: 270367,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

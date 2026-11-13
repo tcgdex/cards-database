@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Misa Tsutsui",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [100],
 	hp: 60,
@@ -25,21 +26,20 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Lightning"],
-
 		name: {
 			ja: "ローリングアタック",
 			'zh-tw': "回轉攻擊",
 			id: "Rolling Attack"
 		},
 
-		damage: "10+",
-
 		effect: {
 			ja: "コインを1回投げオモテなら、20ダメージ追加。",
 			'zh-tw': "擲1次硬幣若為正面，則增加20點傷害。",
 			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 20."
-		}
+		},
+
+		damage: "10+",
+		cost: ["Lightning"]
 	}],
 
 	weaknesses: [{
@@ -47,18 +47,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747592,
 				tcgplayer: 567639,
+				cardtrader: 270214,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

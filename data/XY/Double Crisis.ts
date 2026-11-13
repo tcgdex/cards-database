@@ -5,6 +5,7 @@ const dc1: Set = {
 	id: "dc1",
 
 	name: {
+		de: "Doppeltes Dilemma",
 		en: "Double Crisis",
 		fr: "Double Danger",
 		pt: "Crise Dupla"

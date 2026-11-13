@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Verteilt gerne unvermittelt Kopfnüsse, deren Wucht auch seine Sinne vernebelt. Es ist stolz auf seinen robusten Schädel."
 	},
 
-	thirdParty: {
-		cardmarket: 280825,
-		tcgplayer: 88985
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280825,
+				tcgplayer: 88985
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280825,
+				tcgplayer: 88985
+			}
+		},
+	],
 }
 
 export default card

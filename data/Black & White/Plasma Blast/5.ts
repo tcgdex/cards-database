@@ -87,10 +87,29 @@ const card: Card = {
 		de: "Es nutzt seine großen Blätter als Flügel und verteilt die süßen Früchte, die an seinem Hals wachsen, an Kinder."
 	},
 
-	thirdParty: {
-		cardmarket: 281026,
-		tcgplayer: 90063
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281026,
+				tcgplayer: 90063
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['regional-championships'],
+			thirdParty: {
+				cardmarket: 449213
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281026,
+				tcgplayer: 90063
+			}
+		},
+	],
 }
 
 export default card

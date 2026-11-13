@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Oswaldo KATO",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [954],
 	hp: 70,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "シガロコ"
+	},
 
 	description: {
 		ja: "玉を 支える 体は ほとんど 動かないため 本体は 玉の中にいると 考えられている。",
@@ -27,8 +32,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "さいきのいのり",
 			'zh-tw': "復生祈禱",
@@ -41,10 +44,9 @@ const card: Card = {
 			'zh-tw': "從自己的棄牌區選擇1張寶可夢卡，放置於備戰區。",
 			th: "เลือกการ์ดโปเกมอน 1 ใบจากตำแหน่งทิ้งการ์ดฝ่ายเรา วางบนเบนช์",
 			id: "Pilih 1 lembar Pokémon dari Trash sendiri, lalu masukkan ke Cadangan."
-		}
+		},
+		cost: ["Colorless"]
 	}, {
-		cost: ["Psychic", "Psychic"],
-
 		name: {
 			ja: "サイケこうせん",
 			'zh-tw': "幻象光線",
@@ -52,14 +54,15 @@ const card: Card = {
 			id: "Sinar Psikedelik"
 		},
 
-		damage: 50,
-
 		effect: {
 			ja: "相手のバトルポケモンをこんらんにする。",
 			'zh-tw': "將對手的戰鬥寶可夢【混亂】。",
 			th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[สับสน]",
 			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
-		}
+		},
+
+		damage: 50,
+		cost: ["Psychic", "Psychic"]
 	}],
 
 	weaknesses: [{
@@ -72,18 +75,19 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746474,
 				tcgplayer: 567493,
+				cardtrader: 269696,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

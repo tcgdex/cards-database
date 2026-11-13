@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
+	rarity: "Illustration rare",
 	category: "Pokemon",
 	dexId: [778],
 	hp: 70,
@@ -41,8 +42,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Psychic", "Colorless"],
-
 		name: {
 			ja: "ゴーストアイ",
 			'zh-tw': "幽靈之眼",
@@ -53,7 +52,8 @@ const card: Card = {
 			ja: "相手のバトルポケモンに、ダメカンを7個のせる。",
 			'zh-tw': "在對手的戰鬥寶可夢身上放置7個傷害指示物。",
 			id: "Letakkan 7 Token Kerusakan pada Pokémon Bertarung lawan."
-		}
+		},
+		cost: ["Psychic", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -61,18 +61,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747695,
 				tcgplayer: 567741,
+				cardtrader: 270347,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

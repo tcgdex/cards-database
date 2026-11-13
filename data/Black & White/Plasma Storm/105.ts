@@ -76,10 +76,22 @@ const card: Card = {
 		de: "Normalerweise klingen seine Rufe wie Gemurmel. Hat es aber Angst, ist es so laut wie ein Flugzeug."
 	},
 
-	thirdParty: {
-		cardmarket: 280845,
-		tcgplayer: 90585
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280845,
+				tcgplayer: 90585
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280845,
+				tcgplayer: 90585
+			}
+		},
+	],
 }
 
 export default card

@@ -9,7 +9,9 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
+	rarity: "Secret Rare",
 	category: "Pokemon",
+	dexId: [1008],
 	hp: 220,
 	types: ["Lightning"],
 	stage: "Basic",
@@ -23,22 +25,21 @@ const card: Card = {
 		},
 
 		effect: {
-			ja: "自分の番に1回使える。自分の山札からタイプのたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。"
+			ja: "自分の番に1回使える。自分の山札から{L}タイプのたねポケモンを2枚まで選び、ベンチに出す。そして山札を切る。"
 		}
 	}],
 
 	attacks: [{
-		cost: ["Lightning", "Lightning", "Colorless"],
-
 		name: {
 			ja: "フォトンブラスター"
 		},
 
-		damage: 220,
-
 		effect: {
 			ja: "次の自分の番、このポケモンはワザが使えない。"
-		}
+		},
+
+		damage: 220,
+		cost: ["Lightning", "Lightning", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -46,17 +47,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+
+	regulationMark: "G",
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747712,
 				tcgplayer: 567755,
+				cardtrader: 270350,
 			},
 		},
-	],
-
-	retreat: 1
+	]
 }
 
 export default card

@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Mizue",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [926],
 	hp: 50,
@@ -27,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "うしろげり",
 			'zh-tw': "後踢",
@@ -36,7 +35,8 @@ const card: Card = {
 			id: "Tendangan Belakang"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -44,12 +44,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746471,
 				tcgplayer: 567488,
+				cardtrader: 269683,
 			},
 		},
 		{
@@ -58,10 +62,7 @@ const card: Card = {
 				tcgplayer: 577345,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

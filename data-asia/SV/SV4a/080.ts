@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Tika Matsuno",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [280],
 	hp: 70,
@@ -27,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Psychic", "Colorless"],
-
 		name: {
 			ja: "サイコショット",
 			'zh-tw': "精神射擊",
@@ -36,7 +35,8 @@ const card: Card = {
 			id: "Psyshot"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Psychic", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -49,12 +49,16 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746462,
 				tcgplayer: 567473,
+				cardtrader: 269652,
 			},
 		},
 		{
@@ -63,10 +67,7 @@ const card: Card = {
 				tcgplayer: 577340,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

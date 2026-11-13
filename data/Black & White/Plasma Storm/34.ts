@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Es wird mit einer wundersamen Kraft geboren, die eine Bindung zu jedem anderen Pokémon möglich macht."
 	},
 
-	thirdParty: {
-		cardmarket: 280774,
-		tcgplayer: 87149
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280774,
+				tcgplayer: 87149
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280774,
+				tcgplayer: 87149
+			}
+		},
+	],
 }
 
 export default card

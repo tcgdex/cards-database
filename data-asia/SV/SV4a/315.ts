@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Akira Komayama",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [915],
 	hp: 70,
@@ -25,21 +26,20 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless", "Colorless"],
-
 		name: {
 			ja: "きまぐれタックル",
 			'zh-tw': "胡思亂撞",
 			id: "Serudukan Semaunya"
 		},
 
-		damage: 70,
-
 		effect: {
 			ja: "コインを1回投げウラなら、このワザは失敗。",
 			'zh-tw': "擲1次硬幣若為反面，則這個招式失敗。",
 			id: "Lempar koin 1 kali. Jika hasilnya sisi belakang, serangan ini gagal."
-		}
+		},
+
+		damage: 70,
+		cost: ["Colorless", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -47,18 +47,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747669,
 				tcgplayer: 567716,
+				cardtrader: 270374,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

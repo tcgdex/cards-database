@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Scav",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [204],
 	hp: 70,
@@ -25,15 +26,14 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Grass", "Grass"],
-
 		name: {
 			ja: "ころがる",
 			'zh-tw': "滾動",
 			id: "Menggelinding"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Grass", "Grass"]
 	}],
 
 	weaknesses: [{
@@ -41,18 +41,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747552,
 				tcgplayer: 567599,
+				cardtrader: 270198,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

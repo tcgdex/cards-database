@@ -95,10 +95,22 @@ const card: Card = {
 		de: "Seine Augen sind so gut entwickelt, dass es selbst in tiefster Dunkelheit noch klar sehen kann."
 	},
 
-	thirdParty: {
-		cardmarket: 280970,
-		tcgplayer: 87796
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280970,
+				tcgplayer: 87796
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280970,
+				tcgplayer: 87796
+			}
+		},
+	],
 }
 
 export default card

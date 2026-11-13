@@ -75,10 +75,29 @@ const card: Card = {
 		de: "Es zieht sich in seinen Panzer zurück und greift dann mit Wasserstrahlen seine Gegner an."
 	},
 
-	thirdParty: {
-		cardmarket: 281035,
-		tcgplayer: 89499
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281035,
+				tcgplayer: 89499
+			}
+		},
+		{
+			type: 'holo',
+			stamp: ['build-a-bear'],
+			thirdParty: {
+				cardmarket: 886897
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281035,
+				tcgplayer: 89499
+			}
+		},
+	],
 }
 
 export default card

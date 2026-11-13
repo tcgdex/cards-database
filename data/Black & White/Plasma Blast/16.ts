@@ -93,10 +93,22 @@ const card: Card = {
 		de: "Der Wasserstrahl, der aus den Wasserdüsen schießt, kann sogar Stahlwände durchdringen."
 	},
 
-	thirdParty: {
-		cardmarket: 281037,
-		tcgplayer: 83898
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281037,
+				tcgplayer: 83898
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281037,
+				tcgplayer: 83898
+			}
+		},
+	],
 }
 
 export default card

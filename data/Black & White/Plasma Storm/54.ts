@@ -76,10 +76,22 @@ const card: Card = {
 		de: "Bei Nacht sucht es unermüdlich nach Beute, der es mit seinen scharfen Zähnen große Blutmengen absaugt."
 	},
 
-	thirdParty: {
-		cardmarket: 280794,
-		tcgplayer: 85798
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280794,
+				tcgplayer: 85798
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280794,
+				tcgplayer: 85798
+			}
+		},
+	],
 }
 
 export default card

@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Sein stählerner Körper ist dünner und leichter, als er wirkt und erlaubt eine Fluggeschwindigkeit von bis zu 300 km/h."
 	},
 
-	thirdParty: {
-		cardmarket: 280827,
-		tcgplayer: 89246
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280827,
+				tcgplayer: 89246
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280827,
+				tcgplayer: 89246
+			}
+		},
+	],
 }
 
 export default card

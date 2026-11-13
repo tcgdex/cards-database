@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "DOM",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [178],
 	hp: 100,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "ネイティ"
+	},
 
 	description: {
 		ja: "過去と 未来を 見通せる。 毎日 太陽の 動きを 見続けている 不思議な ポケモン。",
@@ -37,7 +42,7 @@ const card: Card = {
 		},
 
 		effect: {
-			ja: "自分の番に1回使える。自分の手札から「基本エネルギー」を1枚選び、ベンチポケモンにつける。その後、自分の山札を2枚引く。",
+			ja: "自分の番に1回使える。自分の手札から「基本{P}エネルギー」を1枚選び、ベンチポケモンにつける。その後、自分の山札を2枚引く。",
 			'zh-tw': "在自己的回合時可使用1次。從自己的手牌選擇1張「基本【超】能量」卡，附於備戰寶可夢身上。然後，從自己的牌庫抽出2張卡。",
 			th: "ใช้ได้ 1 ครั้งในเทิร์นฝ่ายเรา เลือกการ์ด [พลังงานพื้นฐาน[พลังจิต]] 1 ใบจากบนมือฝ่ายเรา ติดที่โปเกมอนบนเบนช์ หลังจากนั้น จั่วการ์ด 2 ใบจากสำรับการ์ดฝ่ายเรา",
 			id: "Dapat digunakan 1 kali pada giliran sendiri. Pilih 1 lembar Energi Dasar {Psychic} dari Kartu Pegangan sendiri, lalu kenakan pada Pokémon Cadangan. Setelah itu, ambil 2 kartu dari atas Deck sendiri."
@@ -45,8 +50,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Psychic", "Colorless", "Colorless"],
-
 		name: {
 			ja: "ちょうねんりき",
 			'zh-tw': "超念力",
@@ -54,7 +57,8 @@ const card: Card = {
 			id: "Psikokinesis Super"
 		},
 
-		damage: 80
+		damage: 80,
+		cost: ["Psychic", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -67,12 +71,16 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746461,
 				tcgplayer: 567471,
+				cardtrader: 269650,
 			},
 		},
 		{
@@ -81,10 +89,7 @@ const card: Card = {
 				tcgplayer: 577339,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

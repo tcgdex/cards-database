@@ -70,10 +70,22 @@ const card: Card = {
 		de: "Es vergräbt sich im heißen Wüstensand, um nicht auszukühlen, und fristet sein Leben im Verborgenen."
 	},
 
-	thirdParty: {
-		cardmarket: 280946,
-		tcgplayer: 88916
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280946,
+				tcgplayer: 88916
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280946,
+				tcgplayer: 88916
+			}
+		},
+	],
 }
 
 export default card

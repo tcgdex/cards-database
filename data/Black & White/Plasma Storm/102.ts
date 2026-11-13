@@ -61,10 +61,22 @@ const card: Card = {
 		de: "Wandelt die Güte und Freude anderer in Glücksgefühle um, die es in seinem Panzer speichert."
 	},
 
-	thirdParty: {
-		cardmarket: 280842,
-		tcgplayer: 89937
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280842,
+				tcgplayer: 89937
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280842,
+				tcgplayer: 89937
+			}
+		},
+	],
 }
 
 export default card

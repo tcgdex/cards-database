@@ -58,10 +58,22 @@ const card: Card = {
 		de: "Dieses flinke Pokémon löscht vor dem Schlafengehen die Flamme auf seinem Schweif, um Feuer zu verhindern."
 	},
 
-	thirdParty: {
-		cardmarket: 280755,
-		tcgplayer: 84291
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280755,
+				tcgplayer: 84291
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280755,
+				tcgplayer: 84291
+			}
+		},
+	],
 }
 
 export default card
