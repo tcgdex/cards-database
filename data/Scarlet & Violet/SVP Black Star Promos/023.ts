@@ -6,6 +6,7 @@ const card: Card = {
 	set: Set,
 
 	name: {
+		de: "Olini",
 		en: "Smoliv",
 		fr: "Olivini",
 	},
