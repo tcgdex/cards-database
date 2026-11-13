@@ -3,6 +3,9 @@ import Set from "../Brilliant Stars Trainer Gallery"
 
 const card: Card = {
 	dexId: [778],
+
+	cameoDexIds: [94],
+
 	set: Set,
 
 	name: {
