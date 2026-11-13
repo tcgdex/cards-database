@@ -3,6 +3,9 @@ import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
 	set: Set,
+
+	cameoDexIds: [808],
+
 	illustrator: "Yusuke Kozaki",
 	category: "Trainer",
 

@@ -4,6 +4,8 @@ import Set from "../Astral Radiance"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [141, 149],
+
 	name: {
 		en: "Roxanne",
 		fr: "Roxanne",

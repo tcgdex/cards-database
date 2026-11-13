@@ -4,6 +4,8 @@ import Set from "../SWSH Black Star Promos"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [25, 54, 110, 810, 813, 816, 823],
+
 	name: {
 		fr: "Festival des Champions",
 		de: "Festival der Champions",
