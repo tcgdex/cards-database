@@ -20,6 +20,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Trainer",
 	trainerType: "Stadium",
+	regulationMark: "J",
 
 	thirdParty: {
 		tcgplayer: 726786
