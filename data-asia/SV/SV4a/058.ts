@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "nagimiso",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [101],
 	hp: 90,
 	types: ["Lightning"],
+
+	evolveFrom: {
+		ja: "ビリリダマ"
+	},
 
 	description: {
 		ja: "電気エネルギーを 溜めこむほど 高速で 動けるようになるが そのぶん 爆発 しやすい。",
@@ -27,8 +32,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Lightning"],
-
 		name: {
 			ja: "ボムボムチェイン",
 			'zh-tw': "轟轟連鎖",
@@ -36,17 +39,16 @@ const card: Card = {
 			id: "Bomb Bomb Chain"
 		},
 
-		damage: "20+",
-
 		effect: {
 			ja: "ダメージを与える前に、自分の場のポケモンについている「ポケモンのどうぐ」を好きなだけトラッシュし、その枚数×40ダメージ追加。",
 			'zh-tw': "在造成傷害前，將自己的場上寶可夢身上附加的任意數量的「寶可夢道具」卡丟棄，增加其張數×40點傷害。",
 			th: "ก่อนจะทำแดเมจ ทิ้ง [ไอเท็มติดโปเกมอน] ที่ติดอยู่กับโปเกมอนบนกระดานฝ่ายเราที่ตำแหน่งทิ้งการ์ดตามจำนวนที่ชอบ แดเมจจะเพิ่มตามจำนวนการ์ดนั้น x40",
 			id: "Sebelum memberikan kerusakan, buang sesukanya Pokémon Tool yang dikenakan pada Pokémon di Arena sendiri ke Trash, kerusakan yang diberikan bertambah sejumlah 40 untuk tiap lembarnya."
-		}
-	}, {
-		cost: ["Lightning", "Colorless"],
+		},
 
+		damage: "20+",
+		cost: ["Lightning"]
+	}, {
 		name: {
 			ja: "エレキボール",
 			'zh-tw': "電球",
@@ -54,7 +56,8 @@ const card: Card = {
 			id: "Electro Ball"
 		},
 
-		damage: 70
+		damage: 70,
+		cost: ["Lightning", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -62,18 +65,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746440,
 				tcgplayer: 567437,
+				cardtrader: 269659,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

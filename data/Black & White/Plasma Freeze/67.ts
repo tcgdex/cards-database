@@ -89,10 +89,22 @@ const card: Card = {
 		de: "Es steigt von den Bergen herab, um die Menschen vor Unheil zu warnen, das es mit seinem Horn vorhergesehen hat."
 	},
 
-	thirdParty: {
-		cardmarket: 280945,
-		tcgplayer: 83455
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280945,
+				tcgplayer: 83455
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280945,
+				tcgplayer: 83455
+			}
+		},
+	],
 }
 
 export default card

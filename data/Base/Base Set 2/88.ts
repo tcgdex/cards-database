@@ -34,7 +34,7 @@ const card: Card = {
 			effect: {
 				en: "Does 10 damage plus 10 damage for each Energy attached to Poliwag but not used to pay for this attack's Energy cost. Extra Energy after the end don't count.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

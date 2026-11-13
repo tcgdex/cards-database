@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Diese durchtrainierten Muskelprotze sind im Umgang mit Stahlträgern versiert und können damit ganze Häuser abreißen."
 	},
 
-	thirdParty: {
-		cardmarket: 280820,
-		tcgplayer: 85983
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280820,
+				tcgplayer: 85983
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280820,
+				tcgplayer: 85983
+			}
+		},
+	],
 }
 
 export default card

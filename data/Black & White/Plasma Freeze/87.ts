@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Sucht den lieben langen Tag nach Futter. Da seine Nagezähne immer nachwachsen, wetzt es sie an harten Objekten ab."
 	},
 
-	thirdParty: {
-		cardmarket: 280965,
-		tcgplayer: 88623
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280965,
+				tcgplayer: 88623
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280965,
+				tcgplayer: 88623
+			}
+		},
+	],
 }
 
 export default card

@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Lee HyunJung",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [848],
 	hp: 70,
@@ -25,21 +26,20 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Lightning"],
-
 		name: {
 			ja: "ちょっとつっこむ",
 			'zh-tw': "撞一下",
 			id: "Gasak Sedikit"
 		},
 
-		damage: 30,
-
 		effect: {
 			ja: "このポケモンにも10ダメージ。",
 			'zh-tw': "這隻寶可夢也受到10點傷害。",
 			id: "Pokémon ini juga menerima kerusakan sejumlah 10."
-		}
+		},
+
+		damage: 30,
+		cost: ["Lightning"]
 	}],
 
 	weaknesses: [{
@@ -47,18 +47,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747599,
 				tcgplayer: 567646,
+				cardtrader: 270260,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

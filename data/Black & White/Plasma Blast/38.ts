@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Als Tobutz flog, erlangten Menschen die Entschlossenheit. Es war die Geburt der Willenskraft."
 	},
 
-	thirdParty: {
-		cardmarket: 281059,
-		tcgplayer: 83676
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281059,
+				tcgplayer: 83676
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281059,
+				tcgplayer: 83676
+			}
+		},
+	],
 }
 
 export default card

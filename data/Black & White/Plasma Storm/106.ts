@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Die Schockwellen, die durch sein Rufen entstehen, können einen LKW umkippen."
 	},
 
-	thirdParty: {
-		cardmarket: 280846,
-		tcgplayer: 86845
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280846,
+				tcgplayer: 86845
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280846,
+				tcgplayer: 86845
+			}
+		},
+	],
 }
 
 export default card

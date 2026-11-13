@@ -84,10 +84,22 @@ const card: Card = {
 		de: "Es lebt in Höhlen auf dem Meeresgrund. Jedes Mal, wenn es sich bewegt, entsteht ein Strudel."
 	},
 
-	thirdParty: {
-		cardmarket: 280962,
-		tcgplayer: 86449
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280962,
+				tcgplayer: 86449
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280962,
+				tcgplayer: 86449
+			}
+		},
+	],
 }
 
 export default card

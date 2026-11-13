@@ -93,10 +93,22 @@ const card: Card = {
 		de: "Es lebt in seichten Stellen warmer Meere. Bei Ebbe sucht es im Sand nach Beute."
 	},
 
-	thirdParty: {
-		cardmarket: 281025,
-		tcgplayer: 84455
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281025,
+				tcgplayer: 84455
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281025,
+				tcgplayer: 84455
+			}
+		},
+	],
 }
 
 export default card

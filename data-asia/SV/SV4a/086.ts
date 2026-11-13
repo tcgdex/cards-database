@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Aya Kusube",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [442],
 	hp: 60,
@@ -45,8 +46,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "ぱっときえる",
 			'zh-tw': "憑空消失",
@@ -54,14 +53,15 @@ const card: Card = {
 			id: "Menghilang Mendadak"
 		},
 
-		damage: 10,
-
 		effect: {
 			ja: "このポケモンと、ついているすべてのカードを、手札にもどす。",
 			'zh-tw': "將這隻寶可夢與附加的卡，全部放回手牌。",
 			th: "นำโปเกมอนนี้ และการ์ดทั้งหมดที่ติดอยู่ กลับขึ้นมือ",
 			id: "Kembalikan Pokémon ini dan semua kartu yang dikenakannya ke Kartu Pegangan."
-		}
+		},
+
+		damage: 10,
+		cost: ["Colorless"]
 	}],
 
 	weaknesses: [{
@@ -74,18 +74,19 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746468,
 				tcgplayer: 567483,
+				cardtrader: 269686,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

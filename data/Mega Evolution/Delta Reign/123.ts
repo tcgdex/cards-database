@@ -4,6 +4,8 @@ import Set from "../Delta Reign"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [687],
+
 	name: {
 		en: "Mega Malamar ex",
 		fr: "Méga-Sepiatroce‑ex",
@@ -76,10 +78,11 @@ const card: Card = {
 	}],
 
 	retreat: 2,
+	regulationMark: "J",
 
 	thirdParty: {
 		tcgplayer: 728054,
-		cardmarket: 918895
+		cardmarket: 918962
 	}
 }
 

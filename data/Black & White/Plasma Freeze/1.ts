@@ -62,10 +62,22 @@ const card: Card = {
 		de: "Es frisst täglich sein Gewicht in Blättern. Die Nadel auf seinem Kopf dient der Verteidigung."
 	},
 
-	thirdParty: {
-		cardmarket: 280879,
-		tcgplayer: 90547
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280879,
+				tcgplayer: 90547
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280879,
+				tcgplayer: 90547
+			}
+		},
+	],
 }
 
 export default card

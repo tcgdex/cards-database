@@ -59,10 +59,22 @@ const card: Card = {
 		de: "Bekommt es im Kampf gegen Schnuthelm Strom ab, löst dies aus unerklärlichen Gründen seine Entwicklung aus."
 	},
 
-	thirdParty: {
-		cardmarket: 281027,
-		tcgplayer: 86427
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281027,
+				tcgplayer: 86427
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281027,
+				tcgplayer: 86427
+			}
+		},
+	],
 }
 
 export default card

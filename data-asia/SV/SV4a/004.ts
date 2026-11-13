@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [123],
 	hp: 80,
@@ -27,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "こうそくいどう",
 			'zh-tw': "高速移動",
@@ -36,17 +35,16 @@ const card: Card = {
 			id: "Gerakan Cepat"
 		},
 
-		damage: 10,
-
 		effect: {
 			ja: "コインを1回投げオモテなら、次の相手の番、このポケモンはワザのダメージや効果を受けない。",
 			'zh-tw': "擲1次硬幣若為正面，則在下個對手的回合，這隻寶可夢不會受到招式的傷害與效果的影響。",
 			th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว เทิร์นถัดไปของฝ่ายตรงข้าม โปเกมอนนี้จะไม่ได้รับแดเมจและเอฟเฟกต์ของท่าต่อสู้",
 			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, pada giliran lawan berikutnya, Pokémon ini tidak menerima kerusakan dan efek akibat serangan."
-		}
-	}, {
-		cost: ["Colorless", "Colorless"],
+		},
 
+		damage: 10,
+		cost: ["Colorless"]
+	}, {
 		name: {
 			ja: "いあいぎり",
 			'zh-tw': "居合斬",
@@ -54,7 +52,8 @@ const card: Card = {
 			id: "Potongan Iai"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -62,12 +61,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746206,
 				tcgplayer: 567351,
+				cardtrader: 269640,
 			},
 		},
 		{
@@ -76,10 +79,7 @@ const card: Card = {
 				tcgplayer: 577296,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

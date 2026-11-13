@@ -4,6 +4,8 @@ import Set from "../Delta Reign"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [623],
+
 	name: {
 		en: "Mega Golurk ex",
 		fr: "Méga-Golemastoc‑ex",
@@ -82,10 +84,11 @@ const card: Card = {
 	}],
 
 	retreat: 3,
+	regulationMark: "J",
 
 	thirdParty: {
 		tcgplayer: 728053,
-		cardmarket: 918868
+		cardmarket: 918961
 	}
 }
 

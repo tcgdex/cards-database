@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Scav",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [57],
 	hp: 90,
 	types: ["Fighting"],
+
+	evolveFrom: {
+		ja: "マンキー"
+	},
 
 	description: {
 		ja: "ある研究者の 学説では モンスターボールの 中でも オコリザルは 怒っているらしい。",
@@ -25,19 +30,19 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Fighting"],
-		damage: 70,
+		name: {
+			ja: "あばれパンチ",
+			'zh-tw': "暴亂拳",
+			id: "Pukulan Mengamuk"
+		},
 
 		effect: {
 			ja: "このポケモンにも20ダメージ。",
 			'zh-tw': "這隻寶可夢也受到20點傷害。",
 			id: "Pokémon ini juga menerima kerusakan sejumlah 20."
 		},
-
-		name: {
-			'zh-tw': "暴亂拳",
-			id: "Pukulan Mengamuk"
-		}
+		damage: 70,
+		cost: ["Fighting"]
 	}],
 
 	weaknesses: [{
@@ -45,18 +50,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747631,
 				tcgplayer: 567678,
+				cardtrader: 270234,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

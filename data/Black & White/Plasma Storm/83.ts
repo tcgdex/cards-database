@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Lenkt Leute mit seinem süßen Verhalten ab und stiehlt ihnen ihr Hab und Gut, nur um ihren verdutzten Blick zu sehen."
 	},
 
-	thirdParty: {
-		cardmarket: 280822,
-		tcgplayer: 88461
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280823,
+				tcgplayer: 88461
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280823,
+				tcgplayer: 88461
+			}
+		},
+	],
 }
 
 export default card

@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "otumami",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [933],
 	hp: 100,
 	types: ["Fighting"],
+
+	evolveFrom: {
+		ja: "コジオ"
+	},
 
 	description: {
 		ja: "塩を 噴き出して 獲物に 浴びせ 塩漬けにしてしまう。 体内の 水分を 奪ってしまうのだ。",
@@ -25,21 +30,20 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Fighting", "Fighting"],
-
 		name: {
 			ja: "しおキャノン",
 			'zh-tw': "鹽加農炮",
 			id: "Meriam Garam"
 		},
 
-		damage: "60×",
-
 		effect: {
 			ja: "コインを3回投げ、オモテの数×60ダメージ。",
 			'zh-tw': "擲3次硬幣，造成正面出現的次數×60點傷害。",
 			id: "Lempar koin 3 kali. Serangan ini memberikan kerusakan sejumlah 60 untuk tiap lemparan dengan hasil sisi depan."
-		}
+		},
+
+		damage: "60×",
+		cost: ["Fighting", "Fighting"]
 	}],
 
 	weaknesses: [{
@@ -47,18 +51,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 3,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747638,
 				tcgplayer: 567685,
+				cardtrader: 270322,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

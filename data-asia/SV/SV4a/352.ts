@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Taiga Kayama",
+	rarity: "Special illustration rare",
 	category: "Trainer",
 
 	effect: {
@@ -19,18 +20,19 @@ const card: Card = {
 		id: "Lihat Kartu Pegangan lawan, ambil kartu dari atas Deck sendiri sejumlah 2 lembar untuk tiap lembar Supporter yang ada di antaranya."
 	},
 
+	trainerType: "Supporter",
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747706,
 				tcgplayer: 567750,
+				cardtrader: 270355,
 			},
 		},
-	],
-
-	trainerType: "Supporter",
-	regulationMark: "G"
+	]
 }
 
 export default card

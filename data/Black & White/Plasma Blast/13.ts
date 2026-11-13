@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Es erschien während eines harten Winters und rettete Pokémon vor dem Erfrieren. Angeblich eine Verkörperung der Sonne."
 	},
 
-	thirdParty: {
-		cardmarket: 281034,
-		tcgplayer: 90405
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281034,
+				tcgplayer: 90405
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281034,
+				tcgplayer: 90405
+			}
+		},
+	],
 }
 
 export default card

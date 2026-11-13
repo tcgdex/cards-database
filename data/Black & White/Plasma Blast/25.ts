@@ -74,10 +74,22 @@ const card: Card = {
 		de: "Neugierig auf Menschen versammeln sie sich bei Fußspuren, die sie auf verschneiten Bergen finden."
 	},
 
-	thirdParty: {
-		cardmarket: 281046,
-		tcgplayer: 89407
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281046,
+				tcgplayer: 89407
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281046,
+				tcgplayer: 89407
+			}
+		},
+	],
 }
 
 export default card

@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "sowsow",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [4],
 	hp: 70,
@@ -25,8 +26,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Fire"],
-
 		name: {
 			ja: "まるやけ",
 			'zh-tw': "全部燒光",
@@ -37,17 +36,17 @@ const card: Card = {
 			ja: "場に出ているスタジアムをトラッシュする。",
 			'zh-tw': "將場上的競技場卡丟棄。",
 			id: "Buang Stadium yang ada di Arena ke Trash."
-		}
+		},
+		cost: ["Fire"]
 	}, {
-		cost: ["Fire", "Fire"],
-
 		name: {
 			ja: "ひをはく",
 			'zh-tw': "吐火",
 			id: "Memuntahkan Api"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Fire", "Fire"]
 	}],
 
 	weaknesses: [{
@@ -55,18 +54,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747564,
 				tcgplayer: 567611,
+				cardtrader: 270189,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

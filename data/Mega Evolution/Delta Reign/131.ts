@@ -18,10 +18,11 @@ const card: Card = {
 	rarity: "Ultra Rare",
 	category: "Trainer",
 	trainerType: "Supporter",
+	regulationMark: "J",
 
 	thirdParty: {
 		tcgplayer: 726573,
-		cardmarket: 918935
+		cardmarket: 918970
 	}
 }
 

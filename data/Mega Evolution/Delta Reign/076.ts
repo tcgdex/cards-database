@@ -4,6 +4,8 @@ import Set from "../Delta Reign"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [82],
+
 	name: {
 		en: "Cyclizar",
 		fr: "Motorizard",
@@ -60,6 +62,7 @@ const card: Card = {
 	}],
 
 	retreat: 1,
+	regulationMark: "J",
 
 	thirdParty: {
 		tcgplayer: 728044,

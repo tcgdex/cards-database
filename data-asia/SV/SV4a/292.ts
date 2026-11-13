@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Misa Tsutsui",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [624],
 	hp: 70,
@@ -25,25 +26,23 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "ひっかく",
 			'zh-tw': "抓",
 			id: "Menggaruk"
 		},
 
-		damage: 10
+		damage: 10,
+		cost: ["Colorless"]
 	}, {
-		cost: ["Darkness", "Colorless"],
-
 		name: {
 			ja: "つきさす",
 			'zh-tw': "突刺",
 			id: "Melubangi"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Darkness", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -51,18 +50,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747646,
 				tcgplayer: 567694,
+				cardtrader: 270281,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

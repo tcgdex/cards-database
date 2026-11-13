@@ -75,10 +75,22 @@ const card: Card = {
 		de: "Gerüchten zufolge sammeln sich Schneppke unter riesigen Blättern und leben dort friedlich zusammen."
 	},
 
-	thirdParty: {
-		cardmarket: 281042,
-		tcgplayer: 89404
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281042,
+				tcgplayer: 89404
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281042,
+				tcgplayer: 89404
+			}
+		},
+	],
 }
 
 export default card

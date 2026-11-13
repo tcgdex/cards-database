@@ -84,10 +84,22 @@ const card: Card = {
 		de: "Es wurde aufgrund seines Verhaltens verbannt. Aus der Zerrwelt schaut es auf die alte Welt."
 	},
 
-	thirdParty: {
-		cardmarket: 280802,
-		tcgplayer: 85738
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280802,
+				tcgplayer: 85738
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280802,
+				tcgplayer: 85738
+			}
+		},
+	],
 }
 
 export default card

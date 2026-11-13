@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [778],
 	hp: 70,
@@ -45,8 +46,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Psychic", "Colorless"],
-
 		name: {
 			ja: "ゴーストアイ",
 			'zh-tw': "幽靈之眼",
@@ -59,7 +58,8 @@ const card: Card = {
 			'zh-tw': "在對手的戰鬥寶可夢身上放置7個傷害指示物。",
 			th: "วางตัวนับแดเมจ 7 ตัว บนโปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้าม",
 			id: "Letakkan 7 Token Kerusakan pada Pokémon Bertarung lawan."
-		}
+		},
+		cost: ["Psychic", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -67,18 +67,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746470,
 				tcgplayer: 567487,
+				cardtrader: 269701,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

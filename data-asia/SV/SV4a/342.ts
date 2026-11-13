@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hideki Ishikawa",
+	rarity: "Ultra Rare",
 	category: "Trainer",
 
 	effect: {
@@ -19,18 +20,19 @@ const card: Card = {
 		id: "Kedua pemain masing-masing mengocok kembali semua Kartu Pegangan ke Deck. Setelah itu, kedua pemain masing-masing mengambil 4 kartu dari atas Deck."
 	},
 
+	trainerType: "Supporter",
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747696,
 				tcgplayer: 567742,
+				cardtrader: 270339,
 			},
 		},
-	],
-
-	trainerType: "Supporter",
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -85,10 +85,22 @@ const card: Card = {
 		de: "Es kontrolliert die Stärke des Feuers auf seinem Schweif geschickt, um Gegner auf Distanz zu halten."
 	},
 
-	thirdParty: {
-		cardmarket: 280756,
-		tcgplayer: 87573
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280756,
+				tcgplayer: 87573
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280756,
+				tcgplayer: 87573
+			}
+		},
+	],
 }
 
 export default card

@@ -77,10 +77,22 @@ const card: Card = {
 		de: "Es weiß, wo es reinstes Quellwasser finden kann. Trägt andere Pokémon auf seinem Rücken dorthin."
 	},
 
-	thirdParty: {
-		cardmarket: 280742,
-		tcgplayer: 85920
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280742,
+				tcgplayer: 85920
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280742,
+				tcgplayer: 85920
+			}
+		},
+	],
 }
 
 export default card

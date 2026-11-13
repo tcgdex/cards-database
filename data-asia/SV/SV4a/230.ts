@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Nelnal",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [976],
 	hp: 130,
@@ -25,31 +26,29 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Water"],
-
 		name: {
 			ja: "ぶつかる",
 			'zh-tw': "衝撞",
 			id: "Menyeruduk"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Water"]
 	}, {
-		cost: ["Water", "Colorless", "Colorless", "Colorless"],
-
 		name: {
 			ja: "スリムスクリュー",
 			'zh-tw': "纖細螺旋",
 			id: "Slim Screw"
 		},
 
-		damage: 120,
-
 		effect: {
-			ja: "このワザは、自分の手札が1枚もないなら、エネルギー1個で使える。",
+			ja: "このワザは、自分の手札が1枚もないなら、{W}エネルギー1個で使える。",
 			'zh-tw': "若自己1張手牌都沒有，則這個招式只需要1個【水】能量即可使用。",
 			id: "Jika Kartu Pegangan sendiri tidak tersisa 1 lembar pun, serangan ini dapat digunakan dengan 1 Energi {Air}."
-		}
+		},
+
+		damage: 120,
+		cost: ["Water", "Colorless", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -57,18 +56,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747584,
 				tcgplayer: 567631,
+				cardtrader: 270222,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

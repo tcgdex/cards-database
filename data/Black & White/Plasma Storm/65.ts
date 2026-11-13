@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Um an frischen Müll zu kommen, heftet es sich Umweltsündern an die Fersen. Es speit unaufhörlich giftige Gase."
 	},
 
-	thirdParty: {
-		cardmarket: 280803,
-		tcgplayer: 90069
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280805,
+				tcgplayer: 90069
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280805,
+				tcgplayer: 90069
+			}
+		},
+	],
 }
 
 export default card

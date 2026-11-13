@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [215],
 	hp: 70,
@@ -25,15 +26,14 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Darkness"],
-
 		name: {
 			ja: "ツメをたてる",
 			'zh-tw': "豎爪",
 			id: "Memasang Cakar"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Darkness"]
 	}],
 
 	weaknesses: [{
@@ -41,18 +41,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747643,
 				tcgplayer: 567690,
+				cardtrader: 270303,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

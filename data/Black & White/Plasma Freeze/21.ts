@@ -63,10 +63,22 @@ const card: Card = {
 		de: "An Land bedeckt es die Haut mit einer giftigen Schicht, die es vor dem Austrocknen bewahrt."
 	},
 
-	thirdParty: {
-		cardmarket: 280899,
-		tcgplayer: 90638
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280899,
+				tcgplayer: 90638
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280899,
+				tcgplayer: 90638
+			}
+		},
+	],
 }
 
 export default card

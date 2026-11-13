@@ -85,10 +85,22 @@ const card: Card = {
 		de: "Seine zerstörerischen Hauer durchbohren ohne Weiteres dicke Pfeiler aus hartem Stahl."
 	},
 
-	thirdParty: {
-		cardmarket: 281090,
-		tcgplayer: 86036
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281090,
+				tcgplayer: 86036
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281090,
+				tcgplayer: 86036
+			}
+		},
+	],
 }
 
 export default card

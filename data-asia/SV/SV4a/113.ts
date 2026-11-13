@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [1003],
 	hp: 240,
 	types: ["Fighting"],
 	stage: "Basic",
@@ -38,8 +39,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Fighting", "Fighting", "Fighting"],
-
 		name: {
 			ja: "ランドスクープ",
 			'zh-tw': "大地掬弄",
@@ -47,14 +46,15 @@ const card: Card = {
 			id: "Land Scoop"
 		},
 
-		damage: 150,
-
 		effect: {
 			ja: "相手のベンチポケモン1匹に、ダメカンを2個のせる。",
 			'zh-tw': "在對手的1隻備戰寶可夢身上放置2個傷害指示物。",
 			th: "วางตัวนับแดเมจ 2 ตัว บนโปเกมอนบนเบนช์ฝ่ายตรงข้าม 1 ตัว",
 			id: "Letakkan 2 Token Kerusakan pada 1 Pokémon Cadangan lawan."
-		}
+		},
+
+		damage: 150,
+		cost: ["Fighting", "Fighting", "Fighting"]
 	}],
 
 	weaknesses: [{
@@ -62,18 +62,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 4,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 746495,
 				tcgplayer: 567514,
+				cardtrader: 269740,
 			},
 		},
-	],
-
-	retreat: 4,
-	regulationMark: "G"
+	]
 }
 
 export default card

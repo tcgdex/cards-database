@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "kawayoo",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [955],
 	hp: 30,
@@ -27,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Psychic", "Colorless"],
-
 		name: {
 			ja: "ねんりき",
 			'zh-tw': "念力",
@@ -36,14 +35,15 @@ const card: Card = {
 			id: "Psikokinesis"
 		},
 
-		damage: 20,
-
 		effect: {
 			ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。",
 			th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว จะทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[ชา]",
 			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
-		}
+		},
+
+		damage: 20,
+		cost: ["Psychic", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -56,12 +56,16 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746475,
 				tcgplayer: 567494,
+				cardtrader: 269676,
 			},
 		},
 		{
@@ -70,10 +74,7 @@ const card: Card = {
 				tcgplayer: 577347,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Sein Körper ist eine stets identische Anordnung von Einzelteilen, die Energie erzeugen, wenn sie gedreht werden."
 	},
 
-	thirdParty: {
-		cardmarket: 280828,
-		tcgplayer: 86484
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280828,
+				tcgplayer: 86484
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280828,
+				tcgplayer: 86484
+			}
+		},
+	],
 }
 
 export default card

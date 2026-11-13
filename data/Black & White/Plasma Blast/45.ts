@@ -73,10 +73,22 @@ const card: Card = {
 		de: "Es wurde von einer uralten Kultur aus Lehm erschaffen und kann mehrere Jahrtausende in Bewegung bleiben."
 	},
 
-	thirdParty: {
-		cardmarket: 281066,
-		tcgplayer: 85834
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281066,
+				tcgplayer: 85834
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281066,
+				tcgplayer: 85834
+			}
+		},
+	],
 }
 
 export default card

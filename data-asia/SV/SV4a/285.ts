@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [934],
 	hp: 180,
 	types: ["Fighting"],
+
+	evolveFrom: {
+		ja: "ジオヅム"
+	},
 
 	description: {
 		ja: "指先を 擦りあわせて 塩を ケガした ポケモンに 振りかけると ひどい 傷も たちまち 治る。",
@@ -41,21 +46,20 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Fighting", "Fighting"],
-
 		name: {
 			ja: "ノックハンマー",
 			'zh-tw': "敲擊之錘",
 			id: "Knock Hammer"
 		},
 
-		damage: 130,
-
 		effect: {
 			ja: "相手の山札を上から1枚トラッシュする。",
 			'zh-tw': "將對手的牌庫上方1張卡丟棄。",
 			id: "Buang 1 kartu dari atas Deck lawan ke Trash."
-		}
+		},
+
+		damage: 130,
+		cost: ["Fighting", "Fighting"]
 	}],
 
 	weaknesses: [{
@@ -63,18 +67,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 3,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747639,
 				tcgplayer: 567686,
+				cardtrader: 270284,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

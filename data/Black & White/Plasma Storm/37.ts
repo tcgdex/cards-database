@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Es verschluckt Unmengen an Wasser und wandelt es intern in Schneewolken um. Ist es wütend, erzeugt es Schneestürme."
 	},
 
-	thirdParty: {
-		cardmarket: 280777,
-		tcgplayer: 90275
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280777,
+				tcgplayer: 90275
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280777,
+				tcgplayer: 90275
+			}
+		},
+	],
 }
 
 export default card

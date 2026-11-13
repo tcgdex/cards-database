@@ -4,6 +4,8 @@ import Set from "../Delta Reign"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [768],
+
 	name: {
 		en: "Mega Golisopod ex",
 		fr: "Méga-Sarmuraï‑ex",
@@ -76,10 +78,11 @@ const card: Card = {
 	}],
 
 	retreat: 3,
+	regulationMark: "J",
 
 	thirdParty: {
 		tcgplayer: 727588,
-		cardmarket: 918820
+		cardmarket: 918957
 	}
 }
 

@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Seine Zunge ähnelt der eines Menschen. Daher kann es die menschliche Sprache gut nachahmen."
 	},
 
-	thirdParty: {
-		cardmarket: 281098,
-		tcgplayer: 84244
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281098,
+				tcgplayer: 84244
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281098,
+				tcgplayer: 84244
+			}
+		},
+	],
 }
 
 export default card

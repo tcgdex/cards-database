@@ -82,10 +82,11 @@ const card: Card = {
 	}],
 
 	retreat: 3,
+	regulationMark: "J",
 
 	thirdParty: {
 		tcgplayer: 728060,
-		cardmarket: 918868
+		cardmarket: 918981
 	}
 }
 

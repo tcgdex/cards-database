@@ -76,6 +76,7 @@ const card: Card = {
 	}],
 
 	retreat: 4,
+	regulationMark: "J",
 
 	thirdParty: {
 		tcgplayer: 728029,

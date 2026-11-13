@@ -62,10 +62,22 @@ const card: Card = {
 		de: "Ein Pokémon-Trio. Zur Schlafenszeit scharen sie sich zu Hunderten und bilden einen riesigen Bienenstock."
 	},
 
-	thirdParty: {
-		cardmarket: 280744,
-		tcgplayer: 84398
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280744,
+				tcgplayer: 84398
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280744,
+				tcgplayer: 84398
+			}
+		},
+	],
 }
 
 export default card

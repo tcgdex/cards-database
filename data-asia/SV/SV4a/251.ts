@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Nisota Niso",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [941],
 	hp: 120,
 	types: ["Lightning"],
+
+	evolveFrom: {
+		ja: "カイデン"
+	},
 
 	description: {
 		ja: "のど袋を ふくらませて 電気を 増幅させる。 風に 乗って １日で ７００キロを 飛行する。",
@@ -25,8 +30,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "だんけつサンダー",
 			'zh-tw': "團結閃電",
@@ -37,17 +40,17 @@ const card: Card = {
 			ja: "相手のベンチポケモン1匹に、自分のトラッシュにある、ワザ「だんけつのつばさ」を持つポケモンの枚数×10ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			'zh-tw': "對手的1隻備戰寶可夢受到自己的棄牌區的，持有「團結之翼」招式的寶可夢卡的張數×10點傷害。[在備戰區不計算弱點・抵抗力。]",
 			id: "Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lembar Pokémon yang memiliki serangan Sayap Bersatu Padu yang ada di Trash sendiri kepada 1 Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
-		}
+		},
+		cost: ["Colorless"]
 	}, {
-		cost: ["Lightning", "Colorless", "Colorless"],
-
 		name: {
 			ja: "スピードウイング",
 			'zh-tw': "高速之翼",
 			id: "Speed Wing"
 		},
 
-		damage: 90
+		damage: 90,
+		cost: ["Lightning", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -60,18 +63,19 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 0,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747605,
 				tcgplayer: 567652,
+				cardtrader: 270272,
 			},
 		},
-	],
-
-	retreat: 0,
-	regulationMark: "G"
+	]
 }
 
 export default card

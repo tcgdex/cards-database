@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Teeziro",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [177],
 	hp: 50,
@@ -27,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Psychic"],
-
 		name: {
 			ja: "さんれんづき",
 			'zh-tw': "三連撞",
@@ -36,14 +35,15 @@ const card: Card = {
 			id: "Tusukan Tiga Kali"
 		},
 
-		damage: "10×",
-
 		effect: {
 			ja: "コインを3回投げ、オモテの数×10ダメージ。",
 			'zh-tw': "擲3次硬幣，造成正面出現的次數×10點傷害。",
 			th: "ทอยเหรียญ 3 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x10",
 			id: "Lempar koin 3 kali. Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lemparan dengan hasil sisi depan."
-		}
+		},
+
+		damage: "10×",
+		cost: ["Psychic"]
 	}],
 
 	weaknesses: [{
@@ -56,12 +56,16 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746460,
 				tcgplayer: 567469,
+				cardtrader: 269648,
 			},
 		},
 		{
@@ -70,10 +74,7 @@ const card: Card = {
 				tcgplayer: 577338,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -4,6 +4,8 @@ import Set from "../Delta Reign"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [384],
+
 	name: {
 		en: "Mega Rayquaza Cap",
 		fr: "Chapeau Méga‑Rayquaza",
@@ -43,6 +45,7 @@ const card: Card = {
 	}],
 
 	trainerType: "Tool",
+	regulationMark: "J",
 
 	thirdParty: {
 		tcgplayer: 726553,

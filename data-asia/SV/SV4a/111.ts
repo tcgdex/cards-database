@@ -14,8 +14,14 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [970],
 	hp: 270,
 	types: ["Fighting"],
+
+	evolveFrom: {
+		ja: "キラーメ"
+	},
+
 	stage: "Stage1",
 	suffix: "EX",
 
@@ -38,8 +44,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Fighting", "Fighting"],
-
 		name: {
 			ja: "ポイズンジェム",
 			'zh-tw': "猛毒寶石",
@@ -47,14 +51,15 @@ const card: Card = {
 			id: "Poison Gem"
 		},
 
-		damage: 140,
-
 		effect: {
 			ja: "相手のバトルポケモンをどくにする。",
 			'zh-tw': "將對手的戰鬥寶可夢【中毒】。",
 			th: "ทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[พิษ]",
 			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Racun."
-		}
+		},
+
+		damage: 140,
+		cost: ["Fighting", "Fighting"]
 	}],
 
 	weaknesses: [{
@@ -62,18 +67,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 3,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 746493,
 				tcgplayer: 567512,
+				cardtrader: 269734,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

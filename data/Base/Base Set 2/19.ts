@@ -52,7 +52,7 @@ const card: Card = {
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each of your Benched Pokémon.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

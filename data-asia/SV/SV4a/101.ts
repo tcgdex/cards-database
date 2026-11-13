@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Ryuta Fuse",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [57],
 	hp: 90,
 	types: ["Fighting"],
+
+	evolveFrom: {
+		ja: "マンキー"
+	},
 
 	description: {
 		ja: "ある研究者の 学説では モンスターボールの 中でも オコリザルは 怒っているらしい。",
@@ -27,8 +32,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Fighting"],
-
 		name: {
 			ja: "あばれパンチ",
 			'zh-tw': "暴亂拳",
@@ -36,14 +39,15 @@ const card: Card = {
 			id: "Pukulan Mengamuk"
 		},
 
-		damage: 70,
-
 		effect: {
 			ja: "このポケモンにも20ダメージ。",
 			'zh-tw': "這隻寶可夢也受到20點傷害。",
 			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 20 ด้วย",
 			id: "Pokémon ini juga menerima kerusakan sejumlah 20."
-		}
+		},
+
+		damage: 70,
+		cost: ["Fighting"]
 	}],
 
 	weaknesses: [{
@@ -51,12 +55,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746483,
 				tcgplayer: 567502,
+				cardtrader: 269721,
 			},
 		},
 		{
@@ -65,10 +73,7 @@ const card: Card = {
 				tcgplayer: 577353,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card
