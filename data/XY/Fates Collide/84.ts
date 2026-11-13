@@ -3,12 +3,12 @@ import Set from '../Fates Collide'
 
 const card: Card = {
 	name: {
-		en: "Audino EX",
-		fr: "Nanméouïe EX",
-		es: "Audino EX",
-		it: "Audino EX",
-		pt: "Audino EX",
-		de: "Ohrdoch EX"
+		en: "Audino-EX",
+		fr: "Nanméouïe-EX",
+		es: "Audino-EX",
+		it: "Audino-EX",
+		pt: "Audino-EX",
+		de: "Ohrdoch-EX"
 	},
 
 	illustrator: "Ayaka Yoshida",

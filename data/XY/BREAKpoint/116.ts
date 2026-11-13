@@ -3,12 +3,12 @@ import Set from '../BREAKpoint'
 
 const card: Card = {
 	name: {
-		en: "Manaphy EX",
-		fr: "Manaphy EX",
-		es: "Manaphy EX",
-		it: "Manaphy EX",
-		pt: "Manaphy EX",
-		de: "Manaphy EX"
+		en: "Manaphy-EX",
+		fr: "Manaphy-EX",
+		es: "Manaphy-EX",
+		it: "Manaphy-EX",
+		pt: "Manaphy-EX",
+		de: "Manaphy-EX"
 	},
 
 	illustrator: "Ryo Ueda",
