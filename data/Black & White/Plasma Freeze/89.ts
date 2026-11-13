@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Aufgrund einer genetischen Anomalie kann seine Entwicklung viele verschiedene Formen annehmen."
 	},
 
-	thirdParty: {
-		cardmarket: 280967,
-		tcgplayer: 85092
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280967,
+				tcgplayer: 85092
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280967,
+				tcgplayer: 85092
+			}
+		},
+	],
 }
 
 export default card

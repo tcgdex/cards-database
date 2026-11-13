@@ -89,10 +89,22 @@ const card: Card = {
 		de: "Konzentriert es all seine Energie auf seine Beulen, um sie vibrieren zu lassen, erhöht sich die Stärke seiner Hiebe."
 	},
 
-	thirdParty: {
-		cardmarket: 280904,
-		tcgplayer: 89060
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280904,
+				tcgplayer: 89060
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280904,
+				tcgplayer: 89060
+			}
+		},
+	],
 }
 
 export default card

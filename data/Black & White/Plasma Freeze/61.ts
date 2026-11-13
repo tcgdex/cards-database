@@ -80,10 +80,22 @@ const card: Card = {
 		de: "Es gräbt lange Tunnel, indem es sein riesiges Maul öffnet und große Mengen an Erdreich verschluckt."
 	},
 
-	thirdParty: {
-		cardmarket: 280939,
-		tcgplayer: 87886
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280939,
+				tcgplayer: 87886
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280939,
+				tcgplayer: 87886
+			}
+		},
+	],
 }
 
 export default card

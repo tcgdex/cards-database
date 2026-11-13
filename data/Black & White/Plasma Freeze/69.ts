@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Ihre Augen sind von einer dünnen Membran umgeben und können auch nachts sehen. Sie bilden kleine Rudel."
 	},
 
-	thirdParty: {
-		cardmarket: 280947,
-		tcgplayer: 86539
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280947,
+				tcgplayer: 86539
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280947,
+				tcgplayer: 86539
+			}
+		},
+	],
 }
 
 export default card

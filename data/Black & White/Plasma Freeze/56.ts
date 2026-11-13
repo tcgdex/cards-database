@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Grabräuber, die es mit einem echten Sarg verwechseln und ihm zu nahe kommen, hält es im Inneren seines Körpers gefangen."
 	},
 
-	thirdParty: {
-		cardmarket: 280934,
-		tcgplayer: 84387
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280934,
+				tcgplayer: 84387
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280934,
+				tcgplayer: 84387
+			}
+		},
+	],
 }
 
 export default card

@@ -96,10 +96,22 @@ const card: Card = {
 		de: "Ein kaltblütiges Pokémon, das auf alles reagiert, was sich bewegt, indem es mit seinen drei Köpfen danach schnappt."
 	},
 
-	thirdParty: {
-		cardmarket: 280956,
-		tcgplayer: 86244
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280956,
+				tcgplayer: 86244
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280956,
+				tcgplayer: 86244
+			}
+		},
+	],
 }
 
 export default card

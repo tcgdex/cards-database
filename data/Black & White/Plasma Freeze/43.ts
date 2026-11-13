@@ -61,6 +61,23 @@ const card: Card = {
 		en: "It scans its surroundings by raising its ears out of the grass. Its toxic horn is for protection.",
 		de: "Es untersucht die Umgebung, indem es die Ohren spitzt und lauscht. Sein giftiges Horn schützt es."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280921,
+				tcgplayer: 87730
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280921,
+				tcgplayer: 87730
+			}
+		},
+	],
 }
 
 export default card

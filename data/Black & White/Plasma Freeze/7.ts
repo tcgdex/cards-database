@@ -85,10 +85,22 @@ const card: Card = {
 		de: "Es lebt im dichten Dschungel. Es springt von Ast zu Ast, wenn es sich einer Beute nähert."
 	},
 
-	thirdParty: {
-		cardmarket: 280885,
-		tcgplayer: 85945
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280885,
+				tcgplayer: 85945
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280885,
+				tcgplayer: 85945
+			}
+		},
+	],
 }
 
 export default card
