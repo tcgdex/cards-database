@@ -1,5 +1,9 @@
 // Shared helpers for dexId tooling (fix & audit scripts)
 
+import path from 'path'
+import { globSync } from 'glob'
+import { extractFile } from '../utils/ts-extract-utils'
+
 export const CARD_SUFFIXES = [
 	' EX',
 	' ex',
@@ -169,3 +173,40 @@ export function isTagTeamDexComplete(parts: string[], existingDexIds: number[] |
 	return uniqueDexIds.every((dexId) => existingDexIds.includes(dexId))
 }
 
+
+export interface SetIndexEntry {
+	serieDir: string
+	setFile: string
+	setNameEn: string
+	setObject: any
+}
+
+export function buildSetIndex(dataDir: string): Map<string, SetIndexEntry> {
+	const setFiles = globSync('*/*.ts', {
+		cwd: dataDir,
+		absolute: true,
+		ignore: ['*.ts'],
+	})
+
+	const setIndex = new Map<string, SetIndexEntry>()
+
+	for (const setFile of setFiles) {
+		const parsedSet = extractFile(setFile)
+		const setNameEn = parsedSet?.name?.en
+		if (typeof setNameEn !== 'string' || !setNameEn.trim()) {
+			console.log(`[!] Skipping set without name.en: ${setFile}`)
+			continue
+		}
+
+		const relative = path.relative(dataDir, setFile)
+		const [serieDir] = relative.split(path.sep)
+		setIndex.set(setNameEn.toLowerCase().trim(), {
+			serieDir,
+			setFile,
+			setNameEn,
+			setObject: parsedSet,
+		})
+	}
+
+	return setIndex
+}
