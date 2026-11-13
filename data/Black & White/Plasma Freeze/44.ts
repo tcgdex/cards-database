@@ -84,10 +84,22 @@ const card: Card = {
 		de: "Es ist aggressiv und greift seine Gegner mit dem Horn an, welches bei Berührung Gift absondert."
 	},
 
-	thirdParty: {
-		cardmarket: 280922,
-		tcgplayer: 87748
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280922,
+				tcgplayer: 87748
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280922,
+				tcgplayer: 87748
+			}
+		},
+	],
 }
 
 export default card

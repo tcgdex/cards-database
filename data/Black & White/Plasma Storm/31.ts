@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Hört es fröhliche Musik, füllen sich seine Muskeln mit Energie. Es muss dann einfach tanzen."
 	},
 
-	thirdParty: {
-		cardmarket: 280771,
-		tcgplayer: 86901
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280771,
+				tcgplayer: 86901
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280771,
+				tcgplayer: 86901
+			}
+		},
+	],
 }
 
 export default card

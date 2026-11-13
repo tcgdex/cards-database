@@ -61,10 +61,22 @@ const card: Card = {
 		de: "Die spezielle Flüssigkeit, die es umgibt, bietet ihm in jeder noch so gefährlichen Situation Schutz."
 	},
 
-	thirdParty: {
-		cardmarket: 281063,
-		tcgplayer: 89422
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281063,
+				tcgplayer: 89422
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281063,
+				tcgplayer: 89422
+			}
+		},
+	],
 }
 
 export default card

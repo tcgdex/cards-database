@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "chibi",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [447],
 	hp: 70,
@@ -27,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Fighting"],
-
 		name: {
 			ja: "パンチ",
 			'zh-tw': "出拳",
@@ -36,10 +35,9 @@ const card: Card = {
 			id: "Pukulan"
 		},
 
-		damage: 10
+		damage: 10,
+		cost: ["Fighting"]
 	}, {
-		cost: ["Fighting", "Colorless"],
-
 		name: {
 			ja: "とつげき",
 			'zh-tw': "突擊",
@@ -47,14 +45,15 @@ const card: Card = {
 			id: "Menyerang"
 		},
 
-		damage: 50,
-
 		effect: {
 			ja: "このポケモンにも20ダメージ。",
 			'zh-tw': "這隻寶可夢也受到20點傷害。",
 			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 20 ด้วย",
 			id: "Pokémon ini juga menerima kerusakan sejumlah 20."
-		}
+		},
+
+		damage: 50,
+		cost: ["Fighting", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -62,12 +61,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746486,
 				tcgplayer: 567505,
+				cardtrader: 269731,
 			},
 		},
 		{
@@ -76,10 +79,7 @@ const card: Card = {
 				tcgplayer: 577355,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

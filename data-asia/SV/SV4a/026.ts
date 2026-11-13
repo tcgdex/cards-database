@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Tonji Matsuno",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [5],
 	hp: 90,
 	types: ["Fire"],
+
+	evolveFrom: {
+		ja: "ヒトカゲ"
+	},
 
 	description: {
 		ja: "戦いで 気持ちが たかぶると 灼熱の 炎を 吹きながら あたりを 燃やしてまわる。",
@@ -45,8 +50,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Fire", "Fire"],
-
 		name: {
 			ja: "かえん",
 			'zh-tw': "烈焰",
@@ -54,7 +57,8 @@ const card: Card = {
 			id: "Lidah Api"
 		},
 
-		damage: 50
+		damage: 50,
+		cost: ["Fire", "Fire"]
 	}],
 
 	weaknesses: [{
@@ -62,12 +66,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746228,
 				tcgplayer: 567382,
+				cardtrader: 269617,
 			},
 		},
 		{
@@ -76,10 +84,7 @@ const card: Card = {
 				tcgplayer: 577309,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

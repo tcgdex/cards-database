@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Hideki Ishikawa",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [625],
 	hp: 120,
 	types: ["Darkness"],
+
+	evolveFrom: {
+		ja: "コマタナ"
+	},
 
 	description: {
 		ja: "コマタナを 率いて 群れを 成す。 縄張りを 賭けて 争い 負けた 群れは 吸収されていくのだ。",
@@ -27,8 +32,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Darkness"],
-
 		name: {
 			ja: "ダークカッター",
 			'zh-tw': "暗黑利刃",
@@ -36,10 +39,9 @@ const card: Card = {
 			id: "Kegelapan Pemotong"
 		},
 
-		damage: 40
+		damage: 40,
+		cost: ["Darkness"]
 	}, {
-		cost: ["Darkness", "Colorless"],
-
 		name: {
 			ja: "もろはぎり",
 			'zh-tw': "雙刃斬",
@@ -47,14 +49,15 @@ const card: Card = {
 			id: "Sabetan Luka Bersama"
 		},
 
-		damage: 120,
-
 		effect: {
 			ja: "このポケモンにも30ダメージ。",
 			'zh-tw': "這隻寶可夢也受到30點傷害。",
 			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 30 ด้วย",
 			id: "Pokémon ini juga menerima kerusakan sejumlah 30."
-		}
+		},
+
+		damage: 120,
+		cost: ["Darkness", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -62,12 +65,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746505,
 				tcgplayer: 567524,
+				cardtrader: 269714,
 			},
 		},
 		{
@@ -76,10 +83,7 @@ const card: Card = {
 				tcgplayer: 577364,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

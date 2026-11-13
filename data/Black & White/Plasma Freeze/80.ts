@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Auf seinem Kopf befindet sich ein riesiger Kiefer, der aus Hörnern besteht. Er kann Eisen zermalmen."
 	},
 
-	thirdParty: {
-		cardmarket: 280958,
-		tcgplayer: 87265
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280958,
+				tcgplayer: 87265
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280958,
+				tcgplayer: 87265
+			}
+		},
+	],
 }
 
 export default card

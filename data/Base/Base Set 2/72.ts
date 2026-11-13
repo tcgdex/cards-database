@@ -34,7 +34,7 @@ const card: Card = {
 			effect: {
 				en: "Flip 2 coins. This attack does 10 damage times the number of heads.",
 			},
-			damage: 10,
+			damage: "10x",
 
 		},
 	],

@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "kantaro",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [405],
 	hp: 150,
 	types: ["Lightning"],
+
+	evolveFrom: {
+		ja: "ルクシオ"
+	},
 
 	description: {
 		ja: "壁の向こうも 見える 力で 逃げた 獲物を 追いつめるほかにも 迷子の 子どもを 捜したりする。",
@@ -41,21 +46,20 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Lightning", "Colorless", "Colorless"],
-
 		name: {
 			ja: "ワイルドボルト",
 			'zh-tw': "瘋狂伏特",
 			id: "Wild Volt"
 		},
 
-		damage: 180,
-
 		effect: {
 			ja: "このポケモンにも20ダメージ。",
 			'zh-tw': "這隻寶可夢也受到20點傷害。",
 			id: "Pokémon ini juga menerima kerusakan sejumlah 20."
-		}
+		},
+
+		damage: 180,
+		cost: ["Lightning", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -63,18 +67,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747596,
 				tcgplayer: 567643,
+				cardtrader: 270285,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

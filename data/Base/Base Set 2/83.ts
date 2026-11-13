@@ -32,6 +32,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If tails, this attack does nothing.",
 			},
+			damage: 30,
 
 		},
 	],

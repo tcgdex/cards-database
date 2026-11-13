@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Es lenkt die Menschen durch sein süßes Verhalten ab, um sie zu bestehlen. Ist es wütend, kratzt es gern mal."
 	},
 
-	thirdParty: {
-		cardmarket: 280822,
-		tcgplayer: 88460
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280822,
+				tcgplayer: 88460
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280822,
+				tcgplayer: 88460
+			}
+		},
+	],
 }
 
 export default card

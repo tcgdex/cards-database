@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [972],
 	hp: 140,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "ボチ"
+	},
 
 	description: {
 		ja: "大切に 弔われた ポケモンが 生まれ変わった 姿。 頭の 突起を 触られるのは 嫌い。",
@@ -27,8 +32,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Psychic", "Psychic"],
-
 		name: {
 			ja: "おはかまいり",
 			'zh-tw': "掃墓",
@@ -36,14 +39,15 @@ const card: Card = {
 			id: "Berkabung"
 		},
 
-		damage: "80+",
-
 		effect: {
-			ja: "自分のトラッシュにあるポケモンの枚数×10ダメージ追加。",
+			ja: "自分のトラッシュにある{P}ポケモンの枚数×10ダメージ追加。",
 			'zh-tw': "增加自己的棄牌區的【超】寶可夢卡的張數×10點傷害。",
 			th: "แดเมจจะเพิ่มตามจำนวนการ์ดโปเกมอน[พลังจิต]ที่อยู่บนตำแหน่งทิ้งการ์ดฝ่ายเรา x10",
 			id: "Kerusakan yang diberikan bertambah sejumlah 10 untuk tiap lembar Pokémon {Psychic} yang ada di Trash sendiri."
-		}
+		},
+
+		damage: "80+",
+		cost: ["Psychic", "Psychic"]
 	}],
 
 	weaknesses: [{
@@ -56,18 +60,19 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 3,
+	regulationMark: "G",
+
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746480,
 				tcgplayer: 567499,
+				cardtrader: 269675,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

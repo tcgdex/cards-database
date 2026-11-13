@@ -59,10 +59,22 @@ const card: Card = {
 		de: "Sie begegnen jedem Gegner, der in ihr Revier eindringt, im Schwarm. Ihre Zähne durchdringen alles."
 	},
 
-	thirdParty: {
-		cardmarket: 280772,
-		tcgplayer: 84117
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280772,
+				tcgplayer: 84117
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280772,
+				tcgplayer: 84117
+			}
+		},
+	],
 }
 
 export default card

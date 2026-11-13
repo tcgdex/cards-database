@@ -51,6 +51,7 @@ const card: Card = {
 			effect: {
 				en: "You can't this attack unless the Defending Pokémon is Asleep.",
 			},
+			damage: 50,
 
 		},
 	],

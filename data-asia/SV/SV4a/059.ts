@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Oswaldo KATO",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [403],
 	hp: 70,
@@ -27,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Lightning"],
-
 		name: {
 			ja: "けりつける",
 			'zh-tw': "踹",
@@ -36,14 +35,15 @@ const card: Card = {
 			id: "Menyepak"
 		},
 
-		damage: 30,
-
 		effect: {
 			ja: "コインを1回投げウラなら、このワザは失敗。",
 			'zh-tw': "擲1次硬幣若為反面，則這個招式失敗。",
 			th: "ทอยเหรียญ 1 ครั้งถ้าออกก้อย ท่าต่อสู้นี้จะล้มเหลว",
 			id: "Lempar koin 1 kali. Jika hasilnya sisi belakang, serangan ini gagal."
-		}
+		},
+
+		damage: 30,
+		cost: ["Lightning"]
 	}],
 
 	weaknesses: [{
@@ -51,12 +51,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746441,
 				tcgplayer: 567438,
+				cardtrader: 269674,
 			},
 		},
 		{
@@ -65,10 +69,7 @@ const card: Card = {
 				tcgplayer: 577327,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -48,7 +48,7 @@ const card: Card = {
 			effect: {
 				en: "Flip a coin. If heads, this attack does 30 damage plus 10 more damage; if tails, this attack does 30 damage and Electabuzz does 10 damage to itself.",
 			},
-			damage: 30,
+			damage: "30+",
 
 		},
 	],

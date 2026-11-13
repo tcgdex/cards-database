@@ -62,6 +62,23 @@ const card: Card = {
 		en: "While it does not prefer to fight, even one drop of the poison it secretes from its barbs can be fatal.",
 		de: "Es mag keine Kämpfe. Ein einziger Tropfen des Gifts aus seinen Widerhaken hat eine fatale Wirkung."
 	},
+
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280918,
+				tcgplayer: 87721
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280918,
+				tcgplayer: 87721
+			}
+		},
+	],
 }
 
 export default card

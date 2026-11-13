@@ -75,10 +75,22 @@ const card: Card = {
 		de: "Tiefseeforscher fanden dieses seltene Pokémon, das sich in 100 Mio. Jahren nicht verändert hat."
 	},
 
-	thirdParty: {
-		cardmarket: 281045,
-		tcgplayer: 88691
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281045,
+				tcgplayer: 88691
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281045,
+				tcgplayer: 88691
+			}
+		},
+	],
 }
 
 export default card

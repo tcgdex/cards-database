@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [997],
 	hp: 90,
 	types: ["Water"],
+
+	evolveFrom: {
+		ja: "セビエ"
+	},
 
 	description: {
 		ja: "まわりの 空気を 凍らせて 氷のマスクで 顔を 守り 背びれを 氷の剣に 変える。",
@@ -25,25 +30,23 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Water", "Colorless"],
-
 		name: {
 			ja: "するどいひれ",
 			'zh-tw': "銳利鰭",
 			id: "Sirip Tajam"
 		},
 
-		damage: 40
+		damage: 40,
+		cost: ["Water", "Colorless"]
 	}, {
-		cost: ["Water", "Water", "Colorless"],
-
 		name: {
 			ja: "フロストスマッシュ",
 			'zh-tw': "冰霜粉碎",
 			id: "Frost Smash"
 		},
 
-		damage: 80
+		damage: 80,
+		cost: ["Water", "Water", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -51,18 +54,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747588,
 				tcgplayer: 567635,
+				cardtrader: 270220,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Haru Akasaka",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [741],
 	hp: 90,
@@ -45,8 +46,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Fire", "Colorless"],
-
 		name: {
 			ja: "はばたく",
 			'zh-tw': "羽擊",
@@ -54,7 +53,8 @@ const card: Card = {
 			id: "Mengepak"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Fire", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -62,18 +62,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746231,
 				tcgplayer: 567387,
+				cardtrader: 269623,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

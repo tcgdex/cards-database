@@ -79,10 +79,22 @@ const card: Card = {
 		de: "Auch bekannt als „Wegweiser für umherstreifende Geister“. Kinder, die sie halten, verschwinden manchmal."
 	},
 
-	thirdParty: {
-		cardmarket: 281055,
-		tcgplayer: 84963
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281055,
+				tcgplayer: 84963
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281055,
+				tcgplayer: 84963
+			}
+		},
+	],
 }
 
 export default card

@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "yuu",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [280],
 	hp: 70,
@@ -25,15 +26,14 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Psychic", "Colorless"],
-
 		name: {
 			ja: "サイコショット",
 			'zh-tw': "精神射擊",
 			id: "Psyshot"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Psychic", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -46,18 +46,19 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747612,
 				tcgplayer: 567659,
+				cardtrader: 270265,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

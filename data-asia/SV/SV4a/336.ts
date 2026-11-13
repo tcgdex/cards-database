@@ -11,9 +11,16 @@ const card: Card = {
 	},
 
 	illustrator: "Saki Hayashiro",
+	rarity: "Shiny Ultra Rare",
 	category: "Pokemon",
+	dexId: [40],
 	hp: 250,
 	types: ["Colorless"],
+
+	evolveFrom: {
+		ja: "プリン"
+	},
+
 	stage: "Stage1",
 	suffix: "EX",
 
@@ -34,21 +41,20 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Colorless", "Colorless", "Colorless"],
-
 		name: {
 			ja: "フレンドタックル",
 			'zh-tw': "朋友衝撞",
 			id: "Friend Tackle"
 		},
 
-		damage: "90+",
-
 		effect: {
 			ja: "この番、手札からサポートを出して使っていたなら、90ダメージ追加。",
 			'zh-tw': "在這個回合，若從手牌使出了支援者卡，則增加90點傷害。",
 			id: "Jika pada giliran ini, Supporter telah dimainkan dari Kartu Pegangan, kerusakan yang diberikan bertambah sejumlah 90."
-		}
+		},
+
+		damage: "90+",
+		cost: ["Colorless", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -56,18 +62,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 3,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747690,
 				tcgplayer: 567736,
+				cardtrader: 270343,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "aspara",
+	rarity: "Special illustration rare",
 	category: "Trainer",
 
 	effect: {
@@ -19,18 +20,19 @@ const card: Card = {
 		id: "Ambil 3 kartu dari atas Deck sendiri."
 	},
 
+	trainerType: "Supporter",
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747705,
 				tcgplayer: 577566,
+				cardtrader: 270356,
 			},
 		},
-	],
-
-	trainerType: "Supporter",
-	regulationMark: "G"
+	]
 }
 
 export default card

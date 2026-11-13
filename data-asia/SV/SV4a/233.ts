@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Taira Akitsu",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [996],
 	hp: 70,
@@ -25,8 +26,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Water"],
-
 		name: {
 			ja: "もってくる",
 			'zh-tw': "呼喚",
@@ -37,17 +36,17 @@ const card: Card = {
 			ja: "自分の山札を1枚引く。",
 			'zh-tw': "從自己的牌庫抽出1張卡。",
 			id: "Ambil 1 kartu dari atas Deck sendiri."
-		}
+		},
+		cost: ["Water"]
 	}, {
-		cost: ["Water", "Colorless"],
-
 		name: {
 			ja: "たたく",
 			'zh-tw': "敲擊",
 			id: "Menghantam"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Water", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -55,18 +54,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747587,
 				tcgplayer: 567634,
+				cardtrader: 270219,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

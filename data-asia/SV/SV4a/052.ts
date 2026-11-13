@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [997],
 	hp: 90,
 	types: ["Water"],
+
+	evolveFrom: {
+		ja: "セビエ"
+	},
 
 	description: {
 		ja: "まわりの 空気を 凍らせて 氷のマスクで 顔を 守り 背びれを 氷の剣に 変える。",
@@ -27,8 +32,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Water", "Colorless"],
-
 		name: {
 			ja: "するどいひれ",
 			'zh-tw': "銳利鰭",
@@ -36,10 +39,9 @@ const card: Card = {
 			id: "Sirip Tajam"
 		},
 
-		damage: 40
+		damage: 40,
+		cost: ["Water", "Colorless"]
 	}, {
-		cost: ["Water", "Water", "Colorless"],
-
 		name: {
 			ja: "フロストスマッシュ",
 			'zh-tw': "冰霜粉碎",
@@ -47,7 +49,8 @@ const card: Card = {
 			id: "Frost Smash"
 		},
 
-		damage: 80
+		damage: 80,
+		cost: ["Water", "Water", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -55,12 +58,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746428,
 				tcgplayer: 567423,
+				cardtrader: 269669,
 			},
 		},
 		{
@@ -69,10 +76,7 @@ const card: Card = {
 				tcgplayer: 577324,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

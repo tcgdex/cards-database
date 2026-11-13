@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Es transportiert Menschen und Pokémon. Wohin sie fliegen, bestimmt jedoch ganz alleine die Windrichtung."
 	},
 
-	thirdParty: {
-		cardmarket: 281056,
-		tcgplayer: 84951
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281056,
+				tcgplayer: 84951
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281056,
+				tcgplayer: 84951
+			}
+		},
+	],
 }
 
 export default card

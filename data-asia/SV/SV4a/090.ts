@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "You Iribi",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [927],
 	hp: 90,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "パピモッチ"
+	},
 
 	description: {
 		ja: "体から 放つ 良い香りが 小麦の 成長を 助けるため 農村で 大切にされてきた。",
@@ -37,7 +42,7 @@ const card: Card = {
 		},
 
 		effect: {
-			ja: "このポケモンは、相手のポケモンからワザのダメージを受けず、やけどにならない。",
+			ja: "このポケモンは、相手の{R}ポケモンからワザのダメージを受けず、やけどにならない。",
 			'zh-tw': "這隻寶可夢不會受到對手的【火】寶可夢招式的傷害，不會【灼傷】。",
 			th: "โปเกมอนนี้ จะไม่ได้รับแดเมจของท่าต่อสู้จากโปเกมอน[ไฟ]ฝ่ายตรงข้าม และไม่เป็นสภาวะ[ไหม้]",
 			id: "Pokémon ini tidak menerima kerusakan akibat serangan dari Pokémon {Api} lawan dan tidak akan menjadi Luka Bakar."
@@ -45,8 +50,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Psychic", "Colorless", "Colorless"],
-
 		name: {
 			ja: "とびだしヘッド",
 			'zh-tw': "魯莽頭擊",
@@ -54,7 +57,8 @@ const card: Card = {
 			id: "Sundulan Meloncat"
 		},
 
-		damage: 100
+		damage: 100,
+		cost: ["Psychic", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -62,12 +66,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746472,
 				tcgplayer: 567489,
+				cardtrader: 269699,
 			},
 		},
 		{
@@ -76,10 +84,7 @@ const card: Card = {
 				tcgplayer: 577346,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -85,10 +85,22 @@ const card: Card = {
 		de: "Da es nichts sehen kann, rammt und frisst es alles, was ihm auf dem Weg in die Quere kommt."
 	},
 
-	thirdParty: {
-		cardmarket: 280953,
-		tcgplayer: 84731
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280953,
+				tcgplayer: 84731
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280953,
+				tcgplayer: 84731
+			}
+		},
+	],
 }
 
 export default card

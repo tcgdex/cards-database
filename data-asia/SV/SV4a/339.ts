@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "akagi",
+	rarity: "Illustration rare",
 	category: "Pokemon",
 	dexId: [964],
 	hp: 150,
 	types: ["Water"],
+
+	evolveFrom: {
+		ja: "ナミイルカ"
+	},
 
 	description: {
 		ja: "太古の 遺伝子が 覚醒。 片ヒレで クルーズ船を 軽々 持ち上げる 怪力の 持ち主。",
@@ -25,37 +30,35 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Water"],
-
 		name: {
 			ja: "ジェットパンチ",
 			'zh-tw': "噴射拳",
 			id: "Pukulan Jet"
 		},
 
-		damage: 30,
-
 		effect: {
 			ja: "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			'zh-tw': "對手的1隻備戰寶可夢也受到30點傷害。[在備戰區不計算弱點・抵抗力。]",
 			id: "Serangan ini juga memberikan kerusakan sejumlah 30 kepada 1 Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
-		}
-	}, {
-		cost: ["Water", "Water"],
+		},
 
+		damage: 30,
+		cost: ["Water"]
+	}, {
 		name: {
 			ja: "ジャスティスキック",
 			'zh-tw': "正義踢",
 			id: "Justice Kick"
 		},
 
-		damage: 210,
-
 		effect: {
 			ja: "この番、このポケモンがベンチからバトル場に出ていないなら、このワザは失敗。",
 			'zh-tw': "在這個回合，若沒有從備戰區將這隻寶可夢放置於戰鬥場，則這個招式失敗。",
 			id: "Jika pada giliran ini, Pokémon ini tidak masuk dari Cadangan ke Arena Bertarung, serangan ini gagal."
-		}
+		},
+
+		damage: 210,
+		cost: ["Water", "Water"]
 	}],
 
 	weaknesses: [{
@@ -63,18 +66,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747693,
 				tcgplayer: 567739,
+				cardtrader: 270338,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

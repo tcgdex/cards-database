@@ -11,7 +11,9 @@ const card: Card = {
 	},
 
 	illustrator: "PLANETA Mochizuki",
+	rarity: "Shiny Ultra Rare",
 	category: "Pokemon",
+	dexId: [931],
 	hp: 160,
 	types: ["Colorless"],
 	stage: "Basic",
@@ -34,21 +36,20 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "きあいをいれる",
 			'zh-tw': "幹勁十足",
 			id: "Membulatkan Tekad"
 		},
 
-		damage: 20,
-
 		effect: {
 			ja: "自分のトラッシュから基本エネルギーを2枚まで選び、ベンチポケモン1匹につける。",
 			'zh-tw': "從自己的棄牌區選擇最多2張基本能量卡，附於1隻備戰寶可夢身上。",
 			id: "Pilih paling banyak 2 lembar Energi Dasar dari Trash sendiri, lalu kenakan pada 1 Pokémon Cadangan."
-		}
+		},
+
+		damage: 20,
+		cost: ["Colorless"]
 	}],
 
 	weaknesses: [{
@@ -61,18 +62,19 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747691,
 				tcgplayer: 567737,
+				cardtrader: 270345,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

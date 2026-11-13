@@ -4,6 +4,8 @@ import Set from "../Delta Reign"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [82],
+
 	name: {
 		en: "Cyclizar",
 		fr: "Motorizard",

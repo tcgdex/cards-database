@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Kouki Saitou",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [5],
 	hp: 90,
 	types: ["Fire"],
+
+	evolveFrom: {
+		ja: "ヒトカゲ"
+	},
 
 	description: {
 		ja: "戦いで 気持ちが たかぶると 灼熱の 炎を 吹きながら あたりを 燃やしてまわる。",
@@ -41,15 +46,14 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Fire", "Fire"],
-
 		name: {
 			ja: "かえん",
 			'zh-tw': "烈焰",
 			id: "Lidah Api"
 		},
 
-		damage: 50
+		damage: 50,
+		cost: ["Fire", "Fire"]
 	}],
 
 	weaknesses: [{
@@ -57,18 +61,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747565,
 				tcgplayer: 567612,
+				cardtrader: 270197,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

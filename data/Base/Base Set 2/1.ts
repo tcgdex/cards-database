@@ -29,7 +29,7 @@ const card: Card = {
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
 				en: "Damage Swap",
 			},

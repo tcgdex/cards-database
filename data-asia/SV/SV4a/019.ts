@@ -14,8 +14,14 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [949],
 	hp: 270,
 	types: ["Grass"],
+
+	evolveFrom: {
+		ja: "ノノクラゲ"
+	},
+
 	stage: "Stage1",
 	suffix: "EX",
 
@@ -38,8 +44,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Grass", "Grass"],
-
 		name: {
 			ja: "コロニーラッシュ",
 			'zh-tw': "菌落猛攻",
@@ -47,14 +51,15 @@ const card: Card = {
 			id: "Colony Rush"
 		},
 
-		damage: "80+",
-
 		effect: {
-			ja: "自分のベンチのエネルギーがついているポケモンの数×40ダメージ追加。",
+			ja: "自分のベンチの{G}エネルギーがついているポケモンの数×40ダメージ追加。",
 			'zh-tw': "增加自己的備戰區身上附有【草】能量卡的寶可夢的數量×40點傷害。",
 			th: "แดเมจจะเพิ่มตามจำนวนโปเกมอนที่มีพลังงาน[หญ้า]ติดอยู่บนเบนช์ฝ่ายเรา x40",
 			id: "Kerusakan yang diberikan bertambah sejumlah 40 untuk tiap Pokémon yang mengenakan Energi {Daun} di Cadangan sendiri."
-		}
+		},
+
+		damage: "80+",
+		cost: ["Grass", "Grass"]
 	}],
 
 	weaknesses: [{
@@ -62,18 +67,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 746221,
 				tcgplayer: 567371,
+				cardtrader: 269634,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

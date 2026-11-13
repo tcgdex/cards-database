@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Narumi Sato",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [79],
 	hp: 70,
@@ -27,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "ねむる",
 			'zh-tw': "睡覺",
@@ -41,10 +40,9 @@ const card: Card = {
 			'zh-tw': "將這隻寶可夢【睡眠】。將這隻寶可夢恢復「30」HP。",
 			th: "ทำให้โปเกมอนนี้เป็นสภาวะ[หลับ] ฟื้นฟู HP ของโปเกมอนนี้ [30]",
 			id: "Ubah kondisi Pokémon ini menjadi Tidur. Pulihkan HP Pokémon ini sejumlah 30."
-		}
+		},
+		cost: ["Colorless"]
 	}, {
-		cost: ["Water", "Colorless"],
-
 		name: {
 			ja: "ずつき",
 			'zh-tw': "頭錘",
@@ -52,7 +50,8 @@ const card: Card = {
 			id: "Tandukan Kepala"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Water", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -60,12 +59,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746404,
 				tcgplayer: 567398,
+				cardtrader: 269615,
 			},
 		},
 		{
@@ -74,10 +77,7 @@ const card: Card = {
 				tcgplayer: 577314,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

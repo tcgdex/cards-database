@@ -78,10 +78,22 @@ const card: Card = {
 		de: "Ein kultiviertes Pokémon, das Beeren vor dem Verzehr stets anbrät. Es bietet den Menschen gerne seine Hilfe an."
 	},
 
-	thirdParty: {
-		cardmarket: 280759,
-		tcgplayer: 87944
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280759,
+				tcgplayer: 87944
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280759,
+				tcgplayer: 87944
+			}
+		},
+	],
 }
 
 export default card

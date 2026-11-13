@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Selbst mit einer Verletzung greift es immer weiter an. Ziert sich etwas aufgrund der Form seines Kamms."
 	},
 
-	thirdParty: {
-		cardmarket: 280975,
-		tcgplayer: 89510
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280975,
+				tcgplayer: 89510
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280975,
+				tcgplayer: 89510
+			}
+		},
+	],
 }
 
 export default card

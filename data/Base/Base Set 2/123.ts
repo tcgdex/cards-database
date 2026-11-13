@@ -11,6 +11,8 @@ const card: Card = {
 	category: "Trainer",
 	set: Set,
 
+	cameoDexIds: [14, 81],
+
 	effect: {
 		en: "Switch 1 of your Benched Pokémon with your Active Pokémon.",
 	},

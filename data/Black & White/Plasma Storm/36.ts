@@ -65,10 +65,22 @@ const card: Card = {
 		de: "Es produziert Eiskörner, indem es die Luft um sich herum abkühlt, und zieht mit ihnen eine Eisschicht um seinen Gegner."
 	},
 
-	thirdParty: {
-		cardmarket: 280776,
-		tcgplayer: 90266
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280776,
+				tcgplayer: 90266
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280776,
+				tcgplayer: 90266
+			}
+		},
+	],
 }
 
 export default card

@@ -95,10 +95,22 @@ const card: Card = {
 		de: "Es wehrt Angriffe mit seiner alten Haut ab und kontert mit Tritten. Sein Ego entspricht der Größe seines Kamms."
 	},
 
-	thirdParty: {
-		cardmarket: 280826,
-		tcgplayer: 88980
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280826,
+				tcgplayer: 88980
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280826,
+				tcgplayer: 88980
+			}
+		},
+	],
 }
 
 export default card

@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [642],
 	hp: 110,
@@ -41,21 +42,20 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Lightning", "Lightning"],
-
 		name: {
 			ja: "ギガントボルト",
 			'zh-tw': "巨烈伏特",
 			id: "Gigant Bolt"
 		},
 
-		damage: 140,
-
 		effect: {
 			ja: "このポケモンにも90ダメージ。",
 			'zh-tw': "這隻寶可夢也受到90點傷害。",
 			id: "Pokémon ini juga menerima kerusakan sejumlah 90."
-		}
+		},
+
+		damage: 140,
+		cost: ["Lightning", "Lightning"]
 	}],
 
 	weaknesses: [{
@@ -63,18 +63,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747598,
 				tcgplayer: 567645,
+				cardtrader: 270280,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

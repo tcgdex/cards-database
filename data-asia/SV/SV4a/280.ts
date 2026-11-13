@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "sowsow",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [447],
 	hp: 70,
@@ -25,31 +26,29 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Fighting"],
-
 		name: {
 			ja: "パンチ",
 			'zh-tw': "出拳",
 			id: "Pukulan"
 		},
 
-		damage: 10
+		damage: 10,
+		cost: ["Fighting"]
 	}, {
-		cost: ["Fighting", "Colorless"],
-
 		name: {
 			ja: "とつげき",
 			'zh-tw': "突擊",
 			id: "Menyerang"
 		},
 
-		damage: 50,
-
 		effect: {
 			ja: "このポケモンにも20ダメージ。",
 			'zh-tw': "這隻寶可夢也受到20點傷害。",
 			id: "Pokémon ini juga menerima kerusakan sejumlah 20."
-		}
+		},
+
+		damage: 50,
+		cost: ["Fighting", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -57,18 +56,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747634,
 				tcgplayer: 567681,
+				cardtrader: 270237,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

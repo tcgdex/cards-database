@@ -78,10 +78,22 @@ const card: Card = {
 		de: "Es fängt seine Beute mit Ketten aus Eiskristallen und kühlt sie auf eine Temperatur von minus 100 Grad ab."
 	},
 
-	thirdParty: {
-		cardmarket: 280908,
-		tcgplayer: 84515
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280908,
+				tcgplayer: 84515
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280908,
+				tcgplayer: 84515
+			}
+		},
+	],
 }
 
 export default card

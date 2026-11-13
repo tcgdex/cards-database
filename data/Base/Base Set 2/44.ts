@@ -53,7 +53,7 @@ const card: Card = {
 			effect: {
 				en: "The Defending Pokémon is now Poisoned.",
 			},
-			damage: 30,
+			damage: 20,
 
 		},
 	],

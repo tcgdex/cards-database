@@ -84,10 +84,22 @@ const card: Card = {
 		de: "Es baut sich einen Körper aus Stahl auf, indem es Eisenerz verzehrt. Gelegentlich frisst es auch Schienenteile auf."
 	},
 
-	thirdParty: {
-		cardmarket: 281078,
-		tcgplayer: 83641
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281078,
+				tcgplayer: 83641
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281078,
+				tcgplayer: 83641
+			}
+		},
+	],
 }
 
 export default card

@@ -69,10 +69,22 @@ const card: Card = {
 		de: "Der kleine Ball ist nicht nur voller Nährstoffe, sondern auch schmackhaft. Staralili pickt oft danach."
 	},
 
-	thirdParty: {
-		cardmarket: 280746,
-		tcgplayer: 84265
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280746,
+				tcgplayer: 84265
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280746,
+				tcgplayer: 84265
+			}
+		},
+	],
 }
 
 export default card

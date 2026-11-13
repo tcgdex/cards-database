@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Ihr Gestank ist unerträglich. Das starke Gift, aus dem ihr Körper besteht, macht jeder Pflanze in ihrem Weg den Garaus."
 	},
 
-	thirdParty: {
-		cardmarket: 280924,
-		tcgplayer: 87627
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280924,
+				tcgplayer: 87627
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280924,
+				tcgplayer: 87627
+			}
+		},
+	],
 }
 
 export default card
