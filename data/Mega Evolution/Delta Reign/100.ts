@@ -4,6 +4,8 @@ import Set from "../Delta Reign"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [384],
+
 	name: {
 		en: "Mega Rayquaza Cap",
 		fr: "Chapeau Méga‑Rayquaza",

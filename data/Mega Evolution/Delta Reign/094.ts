@@ -4,6 +4,8 @@ import Set from "../Delta Reign"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [126, 631],
+
 	name: {
 		en: "Legendary Pyroduct",
 		fr: "Pyroconduit Légendaire",
