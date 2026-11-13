@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Prallen bei Revierkämpfen die stählernen Körper von zwei Stollrak aufeinander, sprühen buchstäblich die Funken."
 	},
 
-	thirdParty: {
-		cardmarket: 281079,
-		tcgplayer: 86585
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281079,
+				tcgplayer: 86585
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281079,
+				tcgplayer: 86585
+			}
+		},
+	],
 }
 
 export default card

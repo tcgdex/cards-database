@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Ein Schlag mit seinen ausgeprägten Vorderflossen brachte Gegner zu Fall und brach ihre Knochen oder Schale."
 	},
 
-	thirdParty: {
-		cardmarket: 281049,
-		tcgplayer: 84110
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281049,
+				tcgplayer: 84110
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281049,
+				tcgplayer: 84110
+			}
+		},
+	],
 }
 
 export default card

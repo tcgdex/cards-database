@@ -76,10 +76,22 @@ const card: Card = {
 		de: "Es heißt, es sei ein Produkt der Sonne. Wenn es sich entwickelt, hüllt es sich in Flammen, die es aus seinen Hörnern bläst."
 	},
 
-	thirdParty: {
-		cardmarket: 281033,
-		tcgplayer: 86631
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281033,
+				tcgplayer: 86631
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281033,
+				tcgplayer: 86631
+			}
+		},
+	],
 }
 
 export default card

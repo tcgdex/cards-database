@@ -93,10 +93,15 @@ const card: Card = {
 		de: "Dieses sehr seltene Pokémon hat eine andere Farbe als üblich. Es ist schwer zu finden."
 	},
 
-	thirdParty: {
-		cardmarket: 281125,
-		tcgplayer: 85041
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281125,
+				tcgplayer: 85041
+			}
+		},
+	],
 }
 
 export default card

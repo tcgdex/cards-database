@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Es wandert beständig in der Welt herum, um verunreinigtes Wasser zu reinigen. Es zieht mit dem Nordwind."
 	},
 
-	thirdParty: {
-		cardmarket: 281041,
-		tcgplayer: 89607
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281041,
+				tcgplayer: 89607
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281041,
+				tcgplayer: 89607
+			}
+		},
+	],
 }
 
 export default card

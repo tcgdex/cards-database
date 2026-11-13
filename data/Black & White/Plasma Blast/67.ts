@@ -75,10 +75,22 @@ const card: Card = {
 		de: "Ihre Hauer sind noch sehr zerbrechlich, doch jedes neue Paar, das nachwächst, ist etwas robuster als das letzte."
 	},
 
-	thirdParty: {
-		cardmarket: 281088,
-		tcgplayer: 83672
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281088,
+				tcgplayer: 83672
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281088,
+				tcgplayer: 83672
+			}
+		},
+	],
 }
 
 export default card

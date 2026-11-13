@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Trifft es jemanden, der größer ist als es selbst, will es ihn unbedingt werfen. Wird es stärker, wechselt es den Gürtel."
 	},
 
-	thirdParty: {
-		cardmarket: 281072,
-		tcgplayer: 89902
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281072,
+				tcgplayer: 89902
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281072,
+				tcgplayer: 89902
+			}
+		},
+	],
 }
 
 export default card
