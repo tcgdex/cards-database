@@ -61,10 +61,22 @@ const card: Card = {
 		de: "Als Selfe flog, erlangten Menschen die Fähigkeit, Probleme zu lösen. Es war die Geburt des Wissens."
 	},
 
-	thirdParty: {
-		cardmarket: 281057,
-		tcgplayer: 90261
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281057,
+				tcgplayer: 90261
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281057,
+				tcgplayer: 90261
+			}
+		},
+	],
 }
 
 export default card

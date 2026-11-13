@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Shinji Kanda",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [80],
 	hp: 100,
 	types: ["Water"],
+
+	evolveFrom: {
+		ja: "ヤドン"
+	},
 
 	description: {
 		ja: "激しい 戦いで 尻尾に 噛みついた シェルダーが 外れると もとの ヤドンに 戻ってしまう。",
@@ -45,8 +50,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Water", "Colorless"],
-
 		name: {
 			ja: "バブルドレイン",
 			'zh-tw': "泡沫吸取",
@@ -54,14 +57,15 @@ const card: Card = {
 			id: "Bubble Drain"
 		},
 
-		damage: 60,
-
 		effect: {
 			ja: "このポケモンのHPを「30」回復する。",
 			'zh-tw': "將這隻寶可夢恢復「30」HP。",
 			th: "ฟื้นฟู HP ของโปเกมอนนี้ [30]",
 			id: "Pulihkan HP Pokémon ini sejumlah 30."
-		}
+		},
+
+		damage: 60,
+		cost: ["Water", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -69,18 +73,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 3,
+	regulationMark: "G",
+
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746405,
 				tcgplayer: 567399,
+				cardtrader: 269609,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

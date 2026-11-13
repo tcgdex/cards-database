@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Es benötigt keine Augen, da es seine Umgebung im Flug durch das Aussenden von Schallwellen erschließt."
 	},
 
-	thirdParty: {
-		cardmarket: 280792,
-		tcgplayer: 90778
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280793,
+				tcgplayer: 90778
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280793,
+				tcgplayer: 90778
+			}
+		},
+	],
 }
 
 export default card

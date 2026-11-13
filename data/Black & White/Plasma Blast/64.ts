@@ -93,10 +93,22 @@ const card: Card = {
 		de: "Seine Zellstruktur änderte sich, es wuchsen ihm Flügel, da es immer davon träumte, fliegen zu können."
 	},
 
-	thirdParty: {
-		cardmarket: 281085,
-		tcgplayer: 88901
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281085,
+				tcgplayer: 88901
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281085,
+				tcgplayer: 88901
+			}
+		},
+	],
 }
 
 export default card

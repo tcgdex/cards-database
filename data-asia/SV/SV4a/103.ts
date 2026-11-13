@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [128],
 	hp: 130,
@@ -27,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "いかりのつの",
 			'zh-tw': "憤怒之角",
@@ -36,17 +35,16 @@ const card: Card = {
 			id: "Tanduk Kemarahan"
 		},
 
-		damage: "20+",
-
 		effect: {
 			ja: "このポケモンにのっているダメカンの数×10ダメージ追加。",
 			'zh-tw': "增加這隻寶可夢身上放置的傷害指示物的數量×10點傷害。",
 			th: "แดเมจจะเพิ่มตามจำนวนตัวนับแดเมจที่วางอยู่บนโปเกมอนนี้ x10",
 			id: "Kerusakan yang diberikan bertambah sejumlah 10 untuk tiap Token Kerusakan yang dimiliki Pokémon ini."
-		}
-	}, {
-		cost: ["Fighting", "Fighting", "Colorless"],
+		},
 
+		damage: "20+",
+		cost: ["Colorless", "Colorless"]
+	}, {
 		name: {
 			ja: "コンバットタックル",
 			'zh-tw': "鬥戰衝撞",
@@ -54,14 +52,15 @@ const card: Card = {
 			id: "Combat Tackle"
 		},
 
-		damage: 130,
-
 		effect: {
 			ja: "このポケモンにも30ダメージ。",
 			'zh-tw': "這隻寶可夢也受到30點傷害。",
 			th: "โปเกมอนนี้ก็จะได้รับแดเมจ 30 ด้วย",
 			id: "Pokémon ini juga menerima kerusakan sejumlah 30."
-		}
+		},
+
+		damage: 130,
+		cost: ["Fighting", "Fighting", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -69,12 +68,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746485,
 				tcgplayer: 567504,
+				cardtrader: 269732,
 			},
 		},
 		{
@@ -83,10 +86,7 @@ const card: Card = {
 				tcgplayer: 577354,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Hitoshi Ariga",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [910],
 	hp: 110,
 	types: ["Fire"],
+
+	evolveFrom: {
+		ja: "ホゲータ"
+	},
 
 	description: {
 		ja: "炎エネルギーと 有り余る 生命力が 交じり 頭上に タマゴ型の 火玉が 現れた。",
@@ -27,8 +32,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Fire"],
-
 		name: {
 			ja: "ひをはく",
 			'zh-tw': "吐火",
@@ -36,10 +39,9 @@ const card: Card = {
 			id: "Memuntahkan Api"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Fire"]
 	}, {
-		cost: ["Fire", "Fire"],
-
 		name: {
 			ja: "ハイパーボイス",
 			'zh-tw': "巨聲",
@@ -47,7 +49,8 @@ const card: Card = {
 			id: "Hyper Voice"
 		},
 
-		damage: 70
+		damage: 70,
+		cost: ["Fire", "Fire"]
 	}],
 
 	weaknesses: [{
@@ -55,12 +58,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 3,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746233,
 				tcgplayer: 567389,
+				cardtrader: 269604,
 			},
 		},
 		{
@@ -69,10 +76,7 @@ const card: Card = {
 				tcgplayer: 577312,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

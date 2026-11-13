@@ -59,10 +59,22 @@ const card: Card = {
 		de: "Obwohl von kleiner Statur, ist es kräftig genug, mehrere Kleinstein zu hieven und dann zu werfen."
 	},
 
-	thirdParty: {
-		cardmarket: 281068,
-		tcgplayer: 86999
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281068,
+				tcgplayer: 86999
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281068,
+				tcgplayer: 86999
+			}
+		},
+	],
 }
 
 export default card

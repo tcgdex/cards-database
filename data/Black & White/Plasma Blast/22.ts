@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Es verhindert, dass Beute flieht, indem es die Feuchtigkeit in der Luft augenblicklich einfriert."
 	},
 
-	thirdParty: {
-		cardmarket: 281043,
-		tcgplayer: 85757
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281043,
+				tcgplayer: 85757
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281043,
+				tcgplayer: 85757
+			}
+		},
+	],
 }
 
 export default card

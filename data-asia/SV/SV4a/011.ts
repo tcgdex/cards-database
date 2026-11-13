@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Ryuta Fuse",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [460],
 	hp: 150,
 	types: ["Grass"],
+
+	evolveFrom: {
+		ja: "ユキカブリ"
+	},
 
 	description: {
 		ja: "万年雪が 積もる 山脈で 静かに 暮らす。 ブリザードを 発生させて 姿を 隠す。",
@@ -45,8 +50,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Grass", "Grass", "Colorless"],
-
 		name: {
 			ja: "マグナムパンチ",
 			'zh-tw': "增量拳",
@@ -54,7 +57,8 @@ const card: Card = {
 			id: "Magnum Punch"
 		},
 
-		damage: 110
+		damage: 110,
+		cost: ["Grass", "Grass", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -62,18 +66,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 3,
+	regulationMark: "G",
+
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746213,
 				tcgplayer: 567361,
+				cardtrader: 269641,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -56,6 +56,13 @@ const card: Card = {
 				cardmarket: 894885,
 				tcgplayer: 716740
 			}
+		},
+		{
+			type: "holo",
+			stamp: ["game-on"],
+			thirdParty: {
+				cardmarket: 914473
+			}
 		}
 	],
 }

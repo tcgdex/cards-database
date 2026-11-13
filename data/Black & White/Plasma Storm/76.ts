@@ -78,10 +78,22 @@ const card: Card = {
 		de: "Es kommuniziert mit seinen Artgenossen über Wellen, die je nach Gefühlslage eine andere Form annehmen."
 	},
 
-	thirdParty: {
-		cardmarket: 280815,
-		tcgplayer: 88762
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280816,
+				tcgplayer: 88762
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280816,
+				tcgplayer: 88762
+			}
+		},
+	],
 }
 
 export default card

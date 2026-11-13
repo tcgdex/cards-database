@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Shigenori Negishi",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [925],
 	hp: 70,
 	types: ["Colorless"],
+
+	evolveFrom: {
+		ja: "ワッカネズミ"
+	},
 
 	description: {
 		ja: "大きな ２匹が 子どもたちを 守りながら 戦う。 強い 相手には 全員で 立ち向かう。",
@@ -25,31 +30,29 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "ビンタ",
 			'zh-tw': "巴掌",
 			id: "Menampar"
 		},
 
-		damage: 40
+		damage: 40,
+		cost: ["Colorless"]
 	}, {
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "ファミリーアタック",
 			'zh-tw': "家族攻擊",
 			id: "Family Attack"
 		},
 
-		damage: "70×",
-
 		effect: {
 			ja: "自分の場の「イッカネズミ」の数×70ダメージ。",
 			'zh-tw': "造成自己的場上的「一家鼠」的數量×70點傷害。",
 			id: "Serangan ini memberikan kerusakan sejumlah 70 untuk tiap Maushold di Arena sendiri."
-		}
+		},
+
+		damage: "70×",
+		cost: ["Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -57,18 +60,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747672,
 				tcgplayer: 567718,
+				cardtrader: 270383,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

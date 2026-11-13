@@ -81,10 +81,22 @@ const card: Card = {
 		de: "Anscheinend steht die Zunahme seiner Kraft mit den Mondphasen in Verbindung, da es bei Vollmond aktiv wird."
 	},
 
-	thirdParty: {
-		cardmarket: 280813,
-		tcgplayer: 86929
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280813,
+				tcgplayer: 86929
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280813,
+				tcgplayer: 86929
+			}
+		},
+	],
 }
 
 export default card

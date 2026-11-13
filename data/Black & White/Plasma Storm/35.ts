@@ -62,10 +62,22 @@ const card: Card = {
 		de: "Ein Eiszapfen, der durch die Energie der aufgehenden Sonne zum Pokémon wurde. Es speit minus 50 Grad kalten Odem."
 	},
 
-	thirdParty: {
-		cardmarket: 280775,
-		tcgplayer: 90271
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280775,
+				tcgplayer: 90271
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280775,
+				tcgplayer: 90271
+			}
+		},
+	],
 }
 
 export default card

@@ -84,10 +84,22 @@ const card: Card = {
 		de: "Ein Legendäres Pokémon mit der Macht, die Welt durch Donner einzuäschern. Hilft allen, die einer Welt der Wünsche harren."
 	},
 
-	thirdParty: {
-		cardmarket: 280917,
-		tcgplayer: 90736
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280917,
+				tcgplayer: 90736
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280917,
+				tcgplayer: 90736
+			}
+		},
+	],
 }
 
 export default card

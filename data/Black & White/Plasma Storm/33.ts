@@ -91,10 +91,22 @@ const card: Card = {
 		de: "Seine Zähne durchdringen sogar Eisen. Es schwimmt mit 120 km/h und wird „Tyrann des Meeres“ genannt."
 	},
 
-	thirdParty: {
-		cardmarket: 280773,
-		tcgplayer: 89103
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280773,
+				tcgplayer: 89103
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280773,
+				tcgplayer: 89103
+			}
+		},
+	],
 }
 
 export default card

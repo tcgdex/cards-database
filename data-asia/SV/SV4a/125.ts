@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "DOM",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [942],
 	hp: 60,
@@ -27,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Darkness"],
-
 		name: {
 			ja: "おそいかかる",
 			'zh-tw': "伏擊",
@@ -36,14 +35,15 @@ const card: Card = {
 			id: "Menyergap"
 		},
 
-		damage: "10+",
-
 		effect: {
 			ja: "コインを1回投げオモテなら、20ダメージ追加。",
 			'zh-tw': "擲1次硬幣若為正面，則增加20點傷害。",
 			th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว การโจมตีนี้จะเพิ่มแดเมจอีก 20",
 			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, kerusakan yang diberikan bertambah sejumlah 20."
-		}
+		},
+
+		damage: "10+",
+		cost: ["Darkness"]
 	}],
 
 	weaknesses: [{
@@ -51,12 +51,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746507,
 				tcgplayer: 567526,
+				cardtrader: 269715,
 			},
 		},
 		{
@@ -65,10 +69,7 @@ const card: Card = {
 				tcgplayer: 577365,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

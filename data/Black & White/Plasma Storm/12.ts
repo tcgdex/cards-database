@@ -68,10 +68,22 @@ const card: Card = {
 		de: "Es ist gemustert wie ein Pokéball. Es lockt damit andere Pokémon an, um sie dann mit Giftsporen zu besprühen."
 	},
 
-	thirdParty: {
-		cardmarket: 280752,
-		tcgplayer: 85540
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280752,
+				tcgplayer: 85540
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280752,
+				tcgplayer: 85540
+			}
+		},
+	],
 }
 
 export default card

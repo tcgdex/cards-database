@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Es lässt sich vom Wind treiben, wenn es so voller Elektrizität ist, dass es fast explodiert."
 	},
 
-	thirdParty: {
-		cardmarket: 280911,
-		tcgplayer: 85162
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280911,
+				tcgplayer: 85162
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280911,
+				tcgplayer: 85162
+			}
+		},
+	],
 }
 
 export default card

@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Oswaldo KATO",
+	rarity: "None",
 	category: "Trainer",
 
 	effect: {
@@ -21,12 +22,16 @@ const card: Card = {
 		id: "Energi yang dibutuhkan oleh semua Pokémon Basic kedua pemain untuk Mundur masing-masing berkurang 1."
 	},
 
+	trainerType: "Stadium",
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746566,
 				tcgplayer: 567585,
+				cardtrader: 269802,
 			},
 		},
 		{
@@ -35,10 +40,7 @@ const card: Card = {
 				tcgplayer: 577411,
 			},
 		},
-	],
-
-	trainerType: "Stadium",
-	regulationMark: "G"
+	]
 }
 
 export default card

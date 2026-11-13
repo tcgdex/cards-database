@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Es liebt die kalten Meere im Norden und überquert ihre Flächen auf Stegen, die es mit seinem gefrorenen Atem baut."
 	},
 
-	thirdParty: {
-		cardmarket: 280781,
-		tcgplayer: 83754
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280781,
+				tcgplayer: 83754
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280781,
+				tcgplayer: 83754
+			}
+		},
+	],
 }
 
 export default card

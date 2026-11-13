@@ -85,10 +85,22 @@ const card: Card = {
 		de: "Es beherbergt Jung-Pokémon in seinem Rumpf, die es mithilfe von verschiedenen Pheromonen frei herumkommandieren kann."
 	},
 
-	thirdParty: {
-		cardmarket: 280745,
-		tcgplayer: 90330
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280745,
+				tcgplayer: 90330
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280745,
+				tcgplayer: 90330
+			}
+		},
+	],
 }
 
 export default card

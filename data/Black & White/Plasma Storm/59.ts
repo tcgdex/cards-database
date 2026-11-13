@@ -61,10 +61,22 @@ const card: Card = {
 		de: "Es erfasst warme Gefühle von Menschen und Pokémon mit seinen Hörnern und wärmt sich daran auf."
 	},
 
-	thirdParty: {
-		cardmarket: 280799,
-		tcgplayer: 88565
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280799,
+				tcgplayer: 88565
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280799,
+				tcgplayer: 88565
+			}
+		},
+	],
 }
 
 export default card

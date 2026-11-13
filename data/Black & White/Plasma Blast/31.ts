@@ -58,10 +58,22 @@ const card: Card = {
 		de: "Alleine erzeugen sie nur geringe Mengen an Elektrizität, aber im Schwarm können sie mächtige Stromsalven abfeuern."
 	},
 
-	thirdParty: {
-		cardmarket: 281052,
-		tcgplayer: 90097
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281052,
+				tcgplayer: 90097
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281052,
+				tcgplayer: 90097
+			}
+		},
+	],
 }
 
 export default card

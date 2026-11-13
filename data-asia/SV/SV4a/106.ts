@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Yuya Oka",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [701],
 	hp: 70,
@@ -45,8 +46,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Fighting", "Colorless", "Colorless"],
-
 		name: {
 			ja: "つばさでうつ",
 			'zh-tw': "翅膀攻擊",
@@ -54,7 +53,8 @@ const card: Card = {
 			id: "Pukulan Sayap"
 		},
 
-		damage: 70
+		damage: 70,
+		cost: ["Fighting", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -62,18 +62,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746488,
 				tcgplayer: 567507,
+				cardtrader: 269729,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

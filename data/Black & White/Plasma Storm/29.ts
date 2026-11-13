@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Es sieht aus wie eine Wasserpflanze. Es dient den Pokémon, die nicht schwimmen können, als Fähre."
 	},
 
-	thirdParty: {
-		cardmarket: 280769,
-		tcgplayer: 86839
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280769,
+				tcgplayer: 86839
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280769,
+				tcgplayer: 86839
+			}
+		},
+	],
 }
 
 export default card

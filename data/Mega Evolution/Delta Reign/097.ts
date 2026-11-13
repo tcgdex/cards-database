@@ -4,6 +4,8 @@ import Set from "../Delta Reign"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [333, 334, 661, 662],
+
 	name: {
 		en: "Legendary Summit",
 		fr: "Sommet Légendaire",
@@ -21,7 +23,7 @@ const card: Card = {
 
 	thirdParty: {
 		tcgplayer: 726721,
-		cardmarket: 918926
+		cardmarket: 918927
 	}
 }
 

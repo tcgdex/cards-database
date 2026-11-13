@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "sowsow",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [624],
 	hp: 70,
@@ -27,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "ひっかく",
 			'zh-tw': "抓",
@@ -36,10 +35,9 @@ const card: Card = {
 			id: "Menggaruk"
 		},
 
-		damage: 10
+		damage: 10,
+		cost: ["Colorless"]
 	}, {
-		cost: ["Darkness", "Colorless"],
-
 		name: {
 			ja: "つきさす",
 			'zh-tw': "突刺",
@@ -47,7 +45,8 @@ const card: Card = {
 			id: "Melubangi"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Darkness", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -55,12 +54,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746504,
 				tcgplayer: 567523,
+				cardtrader: 269743,
 			},
 		},
 		{
@@ -69,10 +72,7 @@ const card: Card = {
 				tcgplayer: 577363,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

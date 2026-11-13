@@ -9,7 +9,9 @@ const card: Card = {
 	},
 
 	illustrator: "aky CG Works",
+	rarity: "Secret Rare",
 	category: "Pokemon",
+	dexId: [1002],
 	hp: 220,
 	types: ["Water"],
 	stage: "Basic",
@@ -23,22 +25,21 @@ const card: Card = {
 		},
 
 		effect: {
-			ja: "このポケモンがバトル場にいるなら、自分の番に1回使える。自分の山札から「基本エネルギー」を2枚まで選び、相手に見せて、手札に加える。そして山札を切る。"
+			ja: "このポケモンがバトル場にいるなら、自分の番に1回使える。自分の山札から「基本{W}エネルギー」を2枚まで選び、相手に見せて、手札に加える。そして山札を切る。"
 		}
 	}],
 
 	attacks: [{
-		cost: ["Water", "Water"],
-
 		name: {
 			ja: "ヘイルブレード"
 		},
 
-		damage: "60×",
-
 		effect: {
-			ja: "自分の場のポケモンについているエネルギーを好きなだけトラッシュし、その枚数×60ダメージ。"
-		}
+			ja: "自分の場のポケモンについている{W}エネルギーを好きなだけトラッシュし、その枚数×60ダメージ。"
+		},
+
+		damage: "60×",
+		cost: ["Water", "Water"]
 	}],
 
 	weaknesses: [{
@@ -46,17 +47,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+
+	regulationMark: "G",
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747711,
 				tcgplayer: 567754,
+				cardtrader: 270349,
 			},
 		},
-	],
-
-	retreat: 2
+	]
 }
 
 export default card

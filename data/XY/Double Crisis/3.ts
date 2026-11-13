@@ -3,6 +3,7 @@ import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
+		de: "Team Aquas Seemops",
 		en: "Team Aqua's Spheal",
 		fr: "Obalie de la Team Aqua",
 		pt: "Spheal da Equipe Aqua",

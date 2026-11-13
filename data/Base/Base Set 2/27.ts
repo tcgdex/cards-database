@@ -21,15 +21,11 @@ const card: Card = {
 		"Psychic",
 	],
 
-	evolveFrom: {
-		en: "Mime Jr.",
-	},
-
 	stage: "Basic",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
 				en: "Invisible Wall",
 			},
@@ -51,7 +47,7 @@ const card: Card = {
 			effect: {
 				en: "Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon.",
 			},
-			damage: 10,
+			damage: "10+",
 
 		},
 	],

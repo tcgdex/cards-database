@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Hideki Ishikawa",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [930],
 	hp: 150,
 	types: ["Grass"],
+
+	evolveFrom: {
+		ja: "オリーニョ"
+	},
 
 	description: {
 		ja: "穏やかで とても 慈悲深い。 栄養豊富な 美味しい オイルを 弱った ポケモンに 分け与える。",
@@ -41,15 +46,14 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Grass", "Grass", "Colorless"],
-
 		name: {
 			ja: "ソーラービーム",
 			'zh-tw': "日光束",
 			id: "Solar Beam"
 		},
 
-		damage: 150
+		damage: 150,
+		cost: ["Grass", "Grass", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -57,18 +61,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747559,
 				tcgplayer: 567606,
+				cardtrader: 270185,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

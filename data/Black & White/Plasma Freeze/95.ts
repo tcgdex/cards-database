@@ -65,10 +65,22 @@ const card: Card = {
 		de: "Einzeln sind sie schwach. Daher bilden sie Gruppen. Werden diese jedoch zu groß, zanken sie sich."
 	},
 
-	thirdParty: {
-		cardmarket: 280973,
-		tcgplayer: 89526
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280973,
+				tcgplayer: 89526
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280973,
+				tcgplayer: 89526
+			}
+		},
+	],
 }
 
 export default card

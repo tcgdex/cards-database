@@ -95,10 +95,22 @@ const card: Card = {
 		de: "Die Blätter an seinen Armen können dicke Bäume fällen. Im Dschungelkampf gibt es kein stärkeres Pokémon."
 	},
 
-	thirdParty: {
-		cardmarket: 280886,
-		tcgplayer: 88953
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280886,
+				tcgplayer: 88953
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280886,
+				tcgplayer: 88953
+			}
+		},
+	],
 }
 
 export default card

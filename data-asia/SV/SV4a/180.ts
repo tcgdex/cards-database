@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "GIDORA",
+	rarity: "None",
 	category: "Trainer",
 
 	effect: {
@@ -21,12 +22,16 @@ const card: Card = {
 		id: "Pilih Item dan Pokémon Tool masing-masing 1 lembar dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
 	},
 
+	trainerType: "Supporter",
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746562,
 				tcgplayer: 567581,
+				cardtrader: 269755,
 			},
 		},
 		{
@@ -35,10 +40,7 @@ const card: Card = {
 				tcgplayer: 577408,
 			},
 		},
-	],
-
-	trainerType: "Supporter",
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -76,10 +76,22 @@ const card: Card = {
 		de: "Bei Vollmond kommen die Piepi von überall zusammen, um zu tanzen. Das Mondlicht lässt sie in der Luft schweben."
 	},
 
-	thirdParty: {
-		cardmarket: 280837,
-		tcgplayer: 84360
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280837,
+				tcgplayer: 84360
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280837,
+				tcgplayer: 84360
+			}
+		},
+	],
 }
 
 export default card

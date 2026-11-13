@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Siehst du ihm in die Augen, wird es wütend. Rennst du weg, wird es noch wütender. Ärgerst du es..."
 	},
 
-	thirdParty: {
-		cardmarket: 280938,
-		tcgplayer: 88366
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280938,
+				tcgplayer: 88366
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280938,
+				tcgplayer: 88366
+			}
+		},
+	],
 }
 
 export default card

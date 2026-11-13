@@ -89,10 +89,22 @@ const card: Card = {
 		de: "Sein Geruchssinn ist stark genug ausgeprägt, um damit Pilze unter vereisten Erdmassen aufzuspüren."
 	},
 
-	thirdParty: {
-		cardmarket: 280767,
-		tcgplayer: 88121
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280767,
+				tcgplayer: 88121
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280767,
+				tcgplayer: 88121
+			}
+		},
+	],
 }
 
 export default card

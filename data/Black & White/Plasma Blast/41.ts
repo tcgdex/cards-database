@@ -89,10 +89,22 @@ const card: Card = {
 		de: "Vor langer Zeit war es der Wächter einer Stadt. Es fliegt auf der Suche nach Eindringlingen immer dieselbe Route ab."
 	},
 
-	thirdParty: {
-		cardmarket: 281062,
-		tcgplayer: 89208
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281062,
+				tcgplayer: 89208
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281062,
+				tcgplayer: 89208
+			}
+		},
+	],
 }
 
 export default card

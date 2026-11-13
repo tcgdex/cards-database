@@ -21,15 +21,11 @@ const card: Card = {
 		"Colorless",
 	],
 
-	evolveFrom: {
-		en: "Munchlax",
-	},
-
 	stage: "Basic",
 
 	abilities: [
 		{
-			type: "Poke-POWER",
+			type: "Pokemon Power",
 			name: {
 				en: "Thick Skinned",
 			},

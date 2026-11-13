@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "rika",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [996],
 	hp: 70,
@@ -27,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Water"],
-
 		name: {
 			ja: "もってくる",
 			'zh-tw': "呼喚",
@@ -41,10 +40,9 @@ const card: Card = {
 			'zh-tw': "從自己的牌庫抽出1張卡。",
 			th: "จั่วการ์ด 1 ใบจากสำรับการ์ดฝ่ายเรา",
 			id: "Ambil 1 kartu dari atas Deck sendiri."
-		}
+		},
+		cost: ["Water"]
 	}, {
-		cost: ["Water", "Colorless"],
-
 		name: {
 			ja: "たたく",
 			'zh-tw': "敲擊",
@@ -52,7 +50,8 @@ const card: Card = {
 			id: "Menghantam"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Water", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -60,12 +59,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746427,
 				tcgplayer: 567422,
+				cardtrader: 269684,
 			},
 		},
 		{
@@ -74,10 +77,7 @@ const card: Card = {
 				tcgplayer: 577323,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

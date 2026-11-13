@@ -97,10 +97,22 @@ const card: Card = {
 		de: "Manche Pokémon werden auf dem Rücken eines Chelterrar geboren und verbringen ihr ganzes Leben dort."
 	},
 
-	thirdParty: {
-		cardmarket: 280743,
-		tcgplayer: 89988
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280743,
+				tcgplayer: 89988
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280743,
+				tcgplayer: 89988
+			}
+		},
+	],
 }
 
 export default card

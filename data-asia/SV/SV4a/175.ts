@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "GOSSAN",
+	rarity: "None",
 	category: "Trainer",
 
 	effect: {
@@ -21,12 +22,16 @@ const card: Card = {
 		id: "Lihat Kartu Pegangan lawan, ambil kartu dari atas Deck sendiri sejumlah 2 lembar untuk tiap lembar Supporter yang ada di antaranya."
 	},
 
+	trainerType: "Supporter",
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746557,
 				tcgplayer: 567576,
+				cardtrader: 269760,
 			},
 		},
 		{
@@ -35,10 +40,7 @@ const card: Card = {
 				tcgplayer: 577405,
 			},
 		},
-	],
-
-	trainerType: "Supporter",
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -95,10 +95,22 @@ const card: Card = {
 		de: "Eine von einem Schnuthelm gestohlene Muschel dient ihm als Helm. Es greift Gegner mit seinen beiden Lanzen an."
 	},
 
-	thirdParty: {
-		cardmarket: 281082,
-		tcgplayer: 85315
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281082,
+				tcgplayer: 85315
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281082,
+				tcgplayer: 85315
+			}
+		},
+	],
 }
 
 export default card

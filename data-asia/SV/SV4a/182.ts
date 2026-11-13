@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "yuu",
+	rarity: "None",
 	category: "Trainer",
 
 	effect: {
@@ -21,12 +22,16 @@ const card: Card = {
 		id: "Pilih 1 Pokémon Basic di Arena sendiri, lalu kembalikan Pokémon tersebut dan semua kartu yang dikenakannya ke Kartu Pegangan."
 	},
 
+	trainerType: "Supporter",
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746564,
 				tcgplayer: 567583,
+				cardtrader: 269795,
 			},
 		},
 		{
@@ -35,10 +40,7 @@ const card: Card = {
 				tcgplayer: 577409,
 			},
 		},
-	],
-
-	trainerType: "Supporter",
-	regulationMark: "G"
+	]
 }
 
 export default card

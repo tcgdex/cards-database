@@ -68,10 +68,22 @@ const card: Card = {
 		de: "Es sagt präzise die Uhrzeit an. In manchen Regionen verehrt man es zudem als weisen Freund."
 	},
 
-	thirdParty: {
-		cardmarket: 280969,
-		tcgplayer: 86175
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280969,
+				tcgplayer: 86175
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280969,
+				tcgplayer: 86175
+			}
+		},
+	],
 }
 
 export default card

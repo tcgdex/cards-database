@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Freut es sich, erhitzt sich sein Körper und aus seinem Kopf und Schweif sprühen Funken. Es liebt Süßigkeiten."
 	},
 
-	thirdParty: {
-		cardmarket: 280760,
-		tcgplayer: 89229
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280760,
+				tcgplayer: 89229
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280760,
+				tcgplayer: 89229
+			}
+		},
+	],
 }
 
 export default card

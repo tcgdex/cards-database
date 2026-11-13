@@ -75,10 +75,22 @@ const card: Card = {
 		de: "Man nennt es „Illusion-Pokémon“, denn nur wenige haben es gesehen. Nur seine Haut wurde oft gefunden."
 	},
 
-	thirdParty: {
-		cardmarket: 280959,
-		tcgplayer: 84939
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280959,
+				tcgplayer: 84939
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280959,
+				tcgplayer: 84939
+			}
+		},
+	],
 }
 
 export default card

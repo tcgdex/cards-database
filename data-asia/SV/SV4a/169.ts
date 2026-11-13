@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Toyste Beach",
+	rarity: "None",
 	category: "Trainer",
 
 	effect: {
@@ -21,12 +22,16 @@ const card: Card = {
 		id: "HP maksimal Pokémon Basic yang mengenakan kartu ini bertambah sejumlah 50."
 	},
 
+	trainerType: "Tool",
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746551,
 				tcgplayer: 567570,
+				cardtrader: 269764,
 			},
 		},
 		{
@@ -35,10 +40,7 @@ const card: Card = {
 				tcgplayer: 577400,
 			},
 		},
-	],
-
-	trainerType: "Tool",
-	regulationMark: "G"
+	]
 }
 
 export default card

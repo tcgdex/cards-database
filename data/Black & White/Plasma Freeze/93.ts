@@ -76,10 +76,22 @@ const card: Card = {
 		de: "Man sagt, dass Kinder, die Miltanks Milch trinken, zu gesunden Erwachsenen heranwachsen."
 	},
 
-	thirdParty: {
-		cardmarket: 280971,
-		tcgplayer: 87467
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280971,
+				tcgplayer: 87467
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280971,
+				tcgplayer: 87467
+			}
+		},
+	],
 }
 
 export default card

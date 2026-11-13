@@ -70,10 +70,22 @@ const card: Card = {
 		de: "Dass es sich mit großen Gegnern anlegt, ist kein Zeichen von Mut, sondern von Unüberlegtheit. Doch so wird es stärker."
 	},
 
-	thirdParty: {
-		cardmarket: 280855,
-		tcgplayer: 88844
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280855,
+				tcgplayer: 88844
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280855,
+				tcgplayer: 88844
+			}
+		},
+	],
 }
 
 export default card

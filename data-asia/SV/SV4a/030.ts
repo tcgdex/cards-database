@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [909],
 	hp: 80,
@@ -27,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Fire"],
-
 		name: {
 			ja: "たいあたり",
 			'zh-tw': "撞擊",
@@ -36,7 +35,8 @@ const card: Card = {
 			id: "Serudukan"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Fire"]
 	}],
 
 	weaknesses: [{
@@ -44,12 +44,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746232,
 				tcgplayer: 567388,
+				cardtrader: 269627,
 			},
 		},
 		{
@@ -58,10 +62,7 @@ const card: Card = {
 				tcgplayer: 577311,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

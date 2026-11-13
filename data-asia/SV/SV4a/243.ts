@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "saino misaki",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [417],
 	hp: 70,
@@ -41,21 +42,20 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Lightning", "Colorless"],
-
 		name: {
 			ja: "みんなでほうでん",
 			'zh-tw': "一同放電",
 			id: "Pelepasan Listrik Bersama"
 		},
 
-		damage: "10+",
-
 		effect: {
-			ja: "自分のベンチのポケモンの数×20ダメージ追加。このワザのダメージは弱点を計算しない。",
+			ja: "自分のベンチの{L}ポケモンの数×20ダメージ追加。このワザのダメージは弱点を計算しない。",
 			'zh-tw': "增加自己的備戰區的【雷】寶可夢的數量×20點傷害。這個招式的傷害不計算弱點。",
 			id: "Kerusakan yang diberikan bertambah sejumlah 20 untuk tiap Pokémon {Listrik} di Cadangan sendiri. Kerusakan akibat serangan ini tidak terpengaruh oleh Kelemahan."
-		}
+		},
+
+		damage: "10+",
+		cost: ["Lightning", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -63,18 +63,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747597,
 				tcgplayer: 567644,
+				cardtrader: 270282,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

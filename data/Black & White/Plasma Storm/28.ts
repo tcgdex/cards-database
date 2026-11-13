@@ -90,10 +90,22 @@ const card: Card = {
 		de: "Man sagt, als gegen Ende der letzten Eiszeit die Temperaturen wieder stiegen, seien viele Mamutel verschwunden."
 	},
 
-	thirdParty: {
-		cardmarket: 280768,
-		tcgplayer: 87141
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280768,
+				tcgplayer: 87141
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280768,
+				tcgplayer: 87141
+			}
+		},
+	],
 }
 
 export default card

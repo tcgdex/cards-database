@@ -85,10 +85,22 @@ const card: Card = {
 		de: "Formt eine unsichtbare Wand mitten in der Luft, indem es minutiös mit den Fingerspitzen vibriert."
 	},
 
-	thirdParty: {
-		cardmarket: 280925,
-		tcgplayer: 87595
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280925,
+				tcgplayer: 87595
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280925,
+				tcgplayer: 87595
+			}
+		},
+	],
 }
 
 export default card

@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "0313",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [45],
 	hp: 140,
 	types: ["Grass"],
+
+	evolveFrom: {
+		ja: "クサイハナ"
+	},
 
 	description: {
 		ja: "花びらが 大きいほど たくさん 花粉を 出すが 頭が 重たくて 疲れてしまうという。",
@@ -41,15 +46,14 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Grass", "Colorless", "Colorless"],
-
 		name: {
 			ja: "ソーラービーム",
 			'zh-tw': "日光束",
 			id: "Solar Beam"
 		},
 
-		damage: 90
+		damage: 90,
+		cost: ["Grass", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -57,18 +61,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747547,
 				tcgplayer: 567594,
+				cardtrader: 270204,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

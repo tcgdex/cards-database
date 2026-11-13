@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "kurumitsu",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [963],
 	hp: 50,
@@ -25,8 +26,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Water"],
-
 		name: {
 			ja: "ゆうきのしんか",
 			'zh-tw': "勇氣進化",
@@ -37,17 +36,17 @@ const card: Card = {
 			ja: "このポケモンをベンチポケモンと入れ替える。その後、このポケモンから進化するカードを、自分の山札から1枚選び、このポケモンにのせて進化させる。そして山札を切る。",
 			'zh-tw': "將這隻寶可夢與備戰寶可夢互換。然後，從自己的牌庫選擇1張從這隻寶可夢進化而來的卡，放置於這隻寶可夢身上完成進化。並且重洗牌庫。",
 			id: "Tukar Pokémon ini dengan Pokémon Cadangan. Setelah itu, pilih 1 kartu dari Deck sendiri yang merupakan evolusi dari Pokémon ini, lalu letakkan pada Pokémon ini untuk melakukan evolusi. Kemudian, kocok Deck."
-		}
+		},
+		cost: ["Water"]
 	}, {
-		cost: ["Water"],
-
 		name: {
 			ja: "ひれカッター",
 			'zh-tw': "鰭快刀",
 			id: "Sirip Pemotong"
 		},
 
-		damage: 10
+		damage: 10,
+		cost: ["Water"]
 	}],
 
 	weaknesses: [{
@@ -55,18 +54,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747582,
 				tcgplayer: 567629,
+				cardtrader: 270225,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card
