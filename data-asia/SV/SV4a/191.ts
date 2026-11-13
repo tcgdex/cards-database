@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "otumami",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [43],
 	hp: 60,
@@ -25,15 +26,14 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "はっぱカッター",
 			'zh-tw': "飛葉快刀",
 			id: "Daun Pemotong"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -41,18 +41,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747545,
 				tcgplayer: 567592,
+				cardtrader: 270205,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "nagimiso",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [935],
 	hp: 70,
@@ -27,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Fire", "Fire", "Colorless"],
-
 		name: {
 			ja: "ヒートブラスト",
 			'zh-tw': "高溫爆破",
@@ -36,7 +35,8 @@ const card: Card = {
 			id: "Heat Blast"
 		},
 
-		damage: 60
+		damage: 60,
+		cost: ["Fire", "Fire", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -44,12 +44,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746235,
 				tcgplayer: 567393,
+				cardtrader: 269625,
 			},
 		},
 		{
@@ -58,10 +62,7 @@ const card: Card = {
 				tcgplayer: 577313,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

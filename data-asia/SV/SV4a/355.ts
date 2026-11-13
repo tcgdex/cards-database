@@ -9,30 +9,30 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
+	rarity: "Secret Rare",
 	category: "Pokemon",
+	dexId: [1001],
 	hp: 230,
 	types: ["Grass"],
 	stage: "Basic",
 	suffix: "EX",
 
 	attacks: [{
-		cost: ["Grass", "Grass", "Colorless"],
-
 		name: {
 			ja: "むさぼるつた"
 		},
 
 		effect: {
 			ja: "相手のベンチポケモン1匹に、相手がすでにとったサイドの枚数×60ダメージ。［ベンチは弱点・抵抗力を計算しない。］"
-		}
+		},
+		cost: ["Grass", "Grass", "Colorless"]
 	}, {
-		cost: ["Grass", "Grass", "Grass", "Colorless"],
-
 		name: {
 			ja: "フォレストバーン"
 		},
 
-		damage: 220
+		damage: 220,
+		cost: ["Grass", "Grass", "Grass", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -40,17 +40,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 4,
+
+	regulationMark: "G",
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747709,
 				tcgplayer: 567752,
+				cardtrader: 270348,
 			},
 		},
-	],
-
-	retreat: 4
+	]
 }
 
 export default card

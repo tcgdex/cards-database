@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [932],
 	hp: 70,
@@ -27,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Fighting"],
-
 		name: {
 			ja: "しおぬり",
 			'zh-tw': "抹鹽",
@@ -41,10 +40,9 @@ const card: Card = {
 			'zh-tw': "將自己的1隻寶可夢恢復「20」HP。",
 			th: "ฟื้นฟู HP ของโปเกมอนฝ่ายเรา 1 ตัว [20]",
 			id: "Pulihkan HP 1 Pokémon sendiri sejumlah 20."
-		}
+		},
+		cost: ["Fighting"]
 	}, {
-		cost: ["Fighting", "Fighting"],
-
 		name: {
 			ja: "たいあたり",
 			'zh-tw': "撞擊",
@@ -52,7 +50,8 @@ const card: Card = {
 			id: "Serudukan"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Fighting", "Fighting"]
 	}],
 
 	weaknesses: [{
@@ -60,12 +59,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 3,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746489,
 				tcgplayer: 567508,
+				cardtrader: 269735,
 			},
 		},
 		{
@@ -74,10 +77,7 @@ const card: Card = {
 				tcgplayer: 577357,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

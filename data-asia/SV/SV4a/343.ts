@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Sanosuke Sakuma",
+	rarity: "Ultra Rare",
 	category: "Trainer",
 
 	effect: {
@@ -19,18 +20,19 @@ const card: Card = {
 		id: "Ambil 3 kartu dari atas Deck sendiri."
 	},
 
+	trainerType: "Supporter",
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747697,
 				tcgplayer: 577565,
+				cardtrader: 270361,
 			},
 		},
-	],
-
-	trainerType: "Supporter",
-	regulationMark: "G"
+	]
 }
 
 export default card

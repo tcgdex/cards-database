@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [820],
 	hp: 120,
 	types: ["Colorless"],
+
+	evolveFrom: {
+		ja: "ホシガリス"
+	},
 
 	description: {
 		ja: "体の 約２倍の 長さの 尻尾で 木から 落とした 木の実を ごっそり 包んで 持ち去るぞ。",
@@ -25,31 +30,29 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "かみつく",
 			'zh-tw': "咬住",
 			id: "Menggigit"
 		},
 
-		damage: 50
+		damage: 50,
+		cost: ["Colorless", "Colorless"]
 	}, {
-		cost: ["Colorless", "Colorless", "Colorless"],
-
 		name: {
 			ja: "きょうかまえば",
 			'zh-tw': "強擊門牙",
 			id: "Gigi Diperkuat"
 		},
 
-		damage: "80+",
-
 		effect: {
 			ja: "このポケモンに「ポケモンのどうぐ」がついているなら、80ダメージ追加。",
 			'zh-tw': "若這隻寶可夢附有「寶可夢道具」卡，則增加80點傷害。",
 			id: "Jika Pokémon ini mengenakan Pokémon Tool, kerusakan yang diberikan bertambah sejumlah 80."
-		}
+		},
+
+		damage: "80+",
+		cost: ["Colorless", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -57,18 +60,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747668,
 				tcgplayer: 567715,
+				cardtrader: 270381,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

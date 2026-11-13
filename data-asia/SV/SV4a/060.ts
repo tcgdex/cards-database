@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Narumi Sato",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [404],
 	hp: 90,
 	types: ["Lightning"],
+
+	evolveFrom: {
+		ja: "コリンク"
+	},
 
 	description: {
 		ja: "鋭い ツメの 先には 強い 電気が 流れており ほんの少し かするだけで 敵を 気絶させる。",
@@ -27,8 +32,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Lightning"],
-
 		name: {
 			ja: "エレキック",
 			'zh-tw': "電氣踢",
@@ -36,10 +39,9 @@ const card: Card = {
 			id: "Electric Kick"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Lightning"]
 	}, {
-		cost: ["Lightning", "Colorless", "Colorless"],
-
 		name: {
 			ja: "ヘッドボルト",
 			'zh-tw': "伏特頭擊",
@@ -47,7 +49,8 @@ const card: Card = {
 			id: "Head Bolt"
 		},
 
-		damage: 60
+		damage: 60,
+		cost: ["Lightning", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -55,12 +58,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746442,
 				tcgplayer: 567440,
+				cardtrader: 269677,
 			},
 		},
 		{
@@ -69,10 +76,7 @@ const card: Card = {
 				tcgplayer: 577328,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

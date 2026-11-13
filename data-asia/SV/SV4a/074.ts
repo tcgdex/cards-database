@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Mitsuhiro Arita",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [64],
 	hp: 80,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "ケーシィ"
+	},
 
 	description: {
 		ja: "念力の 威力は 絶大。 進化に 備えて 額の 星に サイコパワーを 蓄えている。",
@@ -27,8 +32,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Psychic"],
-
 		name: {
 			ja: "テレポートアタック",
 			'zh-tw': "瞬間移動攻擊",
@@ -36,14 +39,15 @@ const card: Card = {
 			id: "Teleport Attack"
 		},
 
-		damage: 30,
-
 		effect: {
 			ja: "このポケモンをベンチポケモンと入れ替える。",
 			'zh-tw': "將這隻寶可夢與備戰寶可夢互換。",
 			th: "สลับโปเกมอนนี้กับโปเกมอนบนเบนช์",
 			id: "Tukar Pokémon ini dengan Pokémon Cadangan."
-		}
+		},
+
+		damage: 30,
+		cost: ["Psychic"]
 	}],
 
 	weaknesses: [{
@@ -56,12 +60,16 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746456,
 				tcgplayer: 567463,
+				cardtrader: 269656,
 			},
 		},
 		{
@@ -70,10 +78,7 @@ const card: Card = {
 				tcgplayer: 577336,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Saya Tsuruta",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [922],
 	hp: 90,
 	types: ["Lightning"],
+
+	evolveFrom: {
+		ja: "パモ"
+	},
 
 	description: {
 		ja: "手のひらで 打撃を 加えつつ 肉球で 電撃を 浴びせる 独特の 格闘技を 使う。",
@@ -27,8 +32,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Lightning"],
-
 		name: {
 			ja: "でんきショック",
 			'zh-tw': "電擊",
@@ -36,17 +39,16 @@ const card: Card = {
 			id: "Sengatan Listrik"
 		},
 
-		damage: 30,
-
 		effect: {
 			ja: "コインを1回投げオモテなら、相手のバトルポケモンをマヒにする。",
 			'zh-tw': "擲1次硬幣若為正面，則將對手的戰鬥寶可夢【麻痺】。",
 			th: "ทอยเหรียญ 1 ครั้งถ้าออกหัว จะทำให้โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามเป็นสภาวะ[ชา]",
 			id: "Lempar koin 1 kali. Jika hasilnya sisi depan, ubah kondisi Pokémon Bertarung lawan menjadi Lumpuh."
-		}
-	}, {
-		cost: ["Lightning", "Lightning", "Colorless"],
+		},
 
+		damage: 30,
+		cost: ["Lightning"]
+	}, {
 		name: {
 			ja: "ヘッドボルト",
 			'zh-tw': "伏特頭擊",
@@ -54,7 +56,8 @@ const card: Card = {
 			id: "Head Bolt"
 		},
 
-		damage: 70
+		damage: 70,
+		cost: ["Lightning", "Lightning", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -62,12 +65,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746449,
 				tcgplayer: 567453,
+				cardtrader: 269646,
 			},
 		},
 		{
@@ -76,10 +83,7 @@ const card: Card = {
 				tcgplayer: 577332,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

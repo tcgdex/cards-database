@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Sanosuke Sakuma",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [927],
 	hp: 90,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "パピモッチ"
+	},
 
 	description: {
 		ja: "体から 放つ 良い香りが 小麦の 成長を 助けるため 農村で 大切にされてきた。",
@@ -34,22 +39,21 @@ const card: Card = {
 		},
 
 		effect: {
-			ja: "このポケモンは、相手のポケモンからワザのダメージを受けず、やけどにならない。",
+			ja: "このポケモンは、相手の{R}ポケモンからワザのダメージを受けず、やけどにならない。",
 			'zh-tw': "這隻寶可夢不會受到對手的【火】寶可夢招式的傷害，不會【灼傷】。",
 			id: "Pokémon ini tidak menerima kerusakan akibat serangan dari Pokémon {Api} lawan dan tidak akan menjadi Luka Bakar."
 		}
 	}],
 
 	attacks: [{
-		cost: ["Psychic", "Colorless", "Colorless"],
-
 		name: {
 			ja: "とびだしヘッド",
 			'zh-tw': "魯莽頭擊",
 			id: "Sundulan Meloncat"
 		},
 
-		damage: 100
+		damage: 100,
+		cost: ["Psychic", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -57,18 +61,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747621,
 				tcgplayer: 567668,
+				cardtrader: 270239,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

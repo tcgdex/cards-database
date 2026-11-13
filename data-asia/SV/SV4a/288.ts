@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Hitoshi Ariga",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [198],
 	hp: 60,
@@ -25,37 +26,35 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "スピンターン",
 			'zh-tw': "旋轉迴旋",
 			id: "Spin Turn"
 		},
 
-		damage: 10,
-
 		effect: {
 			ja: "このポケモンをベンチポケモンと入れ替える。",
 			'zh-tw': "將這隻寶可夢與備戰寶可夢互換。",
 			id: "Tukar Pokémon ini dengan Pokémon Cadangan."
-		}
-	}, {
-		cost: ["Darkness"],
+		},
 
+		damage: 10,
+		cost: ["Colorless"]
+	}, {
 		name: {
 			ja: "だんけつのつばさ",
 			'zh-tw': "團結之翼",
 			id: "Sayap Bersatu Padu"
 		},
 
-		damage: "20×",
-
 		effect: {
 			ja: "自分のトラッシュにある、ワザ「だんけつのつばさ」を持つポケモンの枚数×20ダメージ。",
 			'zh-tw': "造成自己的棄牌區的，持有「團結之翼」招式的寶可夢卡的張數×20點傷害。",
 			id: "Serangan ini memberikan kerusakan sejumlah 20 untuk tiap lembar Pokémon yang memiliki serangan Sayap Bersatu Padu yang ada di Trash sendiri."
-		}
+		},
+
+		damage: "20×",
+		cost: ["Darkness"]
 	}],
 
 	weaknesses: [{
@@ -68,18 +67,19 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747642,
 				tcgplayer: 567689,
+				cardtrader: 270320,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

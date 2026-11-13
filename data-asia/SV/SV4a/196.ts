@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Mizue",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [188],
 	hp: 70,
 	types: ["Grass"],
+
+	evolveFrom: {
+		ja: "ハネッコ"
+	},
 
 	description: {
 		ja: "ポポッコの マニアは 頭の 花から 漂う 香りで どこで 生まれたか わかるらしい。",
@@ -41,21 +46,20 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Grass"],
-
 		name: {
 			ja: "はなのかぜ",
 			'zh-tw': "花之風",
 			id: "Angin Bunga"
 		},
 
-		damage: 30,
-
 		effect: {
 			ja: "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
 			'zh-tw': "對手的1隻備戰寶可夢也受到30點傷害。[在備戰區不計算弱點・抵抗力。]",
 			id: "Serangan ini juga memberikan kerusakan sejumlah 30 kepada 1 Pokémon Cadangan lawan. [Kelemahan dan Resistansi Pokémon Cadangan tidak mempengaruhi jumlah kerusakan.]"
-		}
+		},
+
+		damage: 30,
+		cost: ["Grass"]
 	}],
 
 	weaknesses: [{
@@ -63,18 +67,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747550,
 				tcgplayer: 567597,
+				cardtrader: 270201,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

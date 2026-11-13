@@ -14,6 +14,7 @@ const card: Card = {
 	illustrator: "aky CG Works",
 	rarity: "Double rare",
 	category: "Pokemon",
+	dexId: [151],
 	hp: 180,
 	types: ["Psychic"],
 	stage: "Basic",
@@ -38,8 +39,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Colorless", "Colorless", "Colorless"],
-
 		name: {
 			ja: "ゲノムハック",
 			'zh-tw': "基因駭入",
@@ -52,7 +51,8 @@ const card: Card = {
 			'zh-tw': "選擇1個對手的戰鬥寶可夢持有的招式，作為這個招式使用。",
 			th: "เลือกท่าต่อสู้ที่โปเกมอนบนตำแหน่งต่อสู้ฝ่ายตรงข้ามมี 1 ท่า ใช้เป็นท่าต่อสู้นี้ได้",
 			id: "Pilih 1 serangan yang dimiliki Pokémon Bertarung lawan, lalu gunakan sebagai serangan ini."
-		}
+		},
+		cost: ["Colorless", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -65,18 +65,19 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 0,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 746458,
 				tcgplayer: 567466,
+				cardtrader: 269653,
 			},
 		},
-	],
-
-	retreat: 0,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -11,22 +11,26 @@ const card: Card = {
 		id: "Energi Terapi[Energi Spesial]"
 	},
 
+	rarity: "None",
 	category: "Energy",
 
 	effect: {
-		ja: "このカードは、ポケモンについているかぎり、エネルギー1個ぶんとしてはたらく。\nこのカードをつけているポケモンはねむり・マヒ・こんらんにならず、受けているねむり・マヒ・こんらんは、すべて回復する。",
+		ja: "このカードは、ポケモンについているかぎり、{C}エネルギー1個ぶんとしてはたらく。このカードをつけているポケモンはねむり・マヒ・こんらんにならず、受けているねむり・マヒ・こんらんは、すべて回復する。",
 		'zh-tw': "只要這張卡附於寶可夢身上，視為提供1個【無】能量。附有這張卡的寶可夢不會【睡眠】・【麻痺】・【混亂】，受到的【睡眠】・【麻痺】・【混亂】全部恢復。",
 		th: "การ์ดนี้ ตราบใดที่ติดอยู่กับโปเกมอน จะทำงานเทียบเท่าพลังงาน[ไร้สี] 1 ลูก โปเกมอนที่ติดการ์ดนี้อยู่ จะไม่เป็นสภาวะ[หลับ]/[ชา]/[สับสน] และจะหายจากสภาวะ[หลับ]/[ชา]/[สับสน] ทั้งหมดที่ได้รับมา",
 		id: "Kartu ini berlaku sebagai 1 Energi {Bening} selama dikenakan pada Pokémon. Pokémon yang mengenakan kartu ini tidak akan menjadi Tidur, Lumpuh, atau Pusing dan jika sedang mengalami kondisi Tidur, Lumpuh, atau Pusing, pulihkan kondisi Tidur, Lumpuh, atau Pusing yang dialami Pokémon tersebut."
 	},
 
 	energyType: "Special",
+
+	regulationMark: "G",
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746570,
 				tcgplayer: 567589,
+				cardtrader: 269801,
 			},
 		},
 		{
@@ -35,9 +39,7 @@ const card: Card = {
 				tcgplayer: 577415,
 			},
 		},
-	],
-
-	regulationMark: "G"
+	]
 }
 
 export default card

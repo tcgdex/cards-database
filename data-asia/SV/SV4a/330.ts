@@ -11,7 +11,9 @@ const card: Card = {
 	},
 
 	illustrator: "5ban Graphics",
+	rarity: "Shiny Ultra Rare",
 	category: "Pokemon",
+	dexId: [984],
 	hp: 250,
 	types: ["Fighting"],
 	stage: "Basic",
@@ -34,21 +36,20 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Fighting", "Colorless", "Colorless", "Colorless"],
-
 		name: {
 			ja: "グレートバッシュ",
 			'zh-tw': "偉大猛擊",
 			id: "Great Bash"
 		},
 
-		damage: 260,
-
 		effect: {
 			ja: "このワザのダメージは、相手のバトルポケモンにかかっている効果を計算しない。",
 			'zh-tw': "這個招式的傷害不計算對手的戰鬥寶可夢身上的附加效果。",
 			id: "Kerusakan akibat serangan ini tidak terpengaruh oleh efek yang sedang dialami Pokémon Bertarung lawan."
-		}
+		},
+
+		damage: 260,
+		cost: ["Fighting", "Colorless", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -56,18 +57,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 4,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747684,
 				tcgplayer: 567730,
+				cardtrader: 270337,
 			},
 		},
-	],
-
-	retreat: 4,
-	regulationMark: "G"
+	]
 }
 
 export default card

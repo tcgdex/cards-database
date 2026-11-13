@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Oswaldo KATO",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [998],
 	hp: 160,
 	types: ["Water"],
+
+	evolveFrom: {
+		ja: "セゴール"
+	},
 
 	description: {
 		ja: "極低温の 冷気を 口から 噴射。 灼熱の マグマでも 瞬時に 凍りつかせてしまう。",
@@ -37,7 +42,7 @@ const card: Card = {
 		},
 
 		effect: {
-			ja: "自分の番に何回でも使える。自分の手札から「基本エネルギー」を1枚選び、自分のポケモンにつける。",
+			ja: "自分の番に何回でも使える。自分の手札から「基本{W}エネルギー」を1枚選び、自分のポケモンにつける。",
 			'zh-tw': "在自己的回合時，可不限次數使用。從自己的手牌選擇1張「基本【水】能量」卡，附於自己的寶可夢身上。",
 			th: "ใช้กี่ครั้งก็ได้ในเทิร์นฝ่ายเรา เลือกการ์ด [พลังงานพื้นฐาน[น้ำ]] 1 ใบจากบนมือฝ่ายเรา ติดที่โปเกมอนฝ่ายเรา",
 			id: "Dapat digunakan berkali-kali pada giliran sendiri. Pilih 1 lembar Energi Dasar {Air} dari Kartu Pegangan sendiri, lalu kenakan pada Pokémon sendiri."
@@ -45,8 +50,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Water", "Water", "Colorless"],
-
 		name: {
 			ja: "バスターテール",
 			'zh-tw': "光炮尾",
@@ -54,7 +57,8 @@ const card: Card = {
 			id: "Buster Tail"
 		},
 
-		damage: 130
+		damage: 130,
+		cost: ["Water", "Water", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -62,18 +66,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746429,
 				tcgplayer: 567425,
+				cardtrader: 269658,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

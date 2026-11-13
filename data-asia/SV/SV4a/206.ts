@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Ryuta Fuse",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [948],
 	hp: 50,
@@ -25,21 +26,20 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Grass"],
-
 		name: {
 			ja: "みだれげり",
 			'zh-tw': "亂踢",
 			id: "Tendangan Tidak Teratur"
 		},
 
-		damage: "10×",
-
 		effect: {
 			ja: "コインを3回投げ、オモテの数×10ダメージ。",
 			'zh-tw': "擲3次硬幣，造成正面出現的次數×10點傷害。",
 			id: "Lempar koin 3 kali. Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lemparan dengan hasil sisi depan."
-		}
+		},
+
+		damage: "10×",
+		cost: ["Grass"]
 	}],
 
 	weaknesses: [{
@@ -47,18 +47,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747560,
 				tcgplayer: 567607,
+				cardtrader: 270184,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card
