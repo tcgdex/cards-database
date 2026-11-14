@@ -77,10 +77,22 @@ const card: Card = {
 	retreat: 4,
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 726517,
-		cardmarket: 918833
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				tcgplayer: 726517,
+				cardmarket: 918833
+			}
+		},
+		{
+			type: "reverse",
+			thirdParty: {
+				tcgplayer: 726517,
+				cardmarket: 918833
+			}
+		}
+	],
 }
 
 export default card

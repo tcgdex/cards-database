@@ -18,6 +18,16 @@ const card: Card = {
 	rarity: "Ultra Rare",
 	category: "Energy",
 	types: ["Fire"],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 918977,
+				tcgplayer: 728059
+			}
+		}
+	],
 	regulationMark: "J"
 }
 

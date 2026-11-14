@@ -18,7 +18,16 @@ const card: Card = {
 	rarity: "Ultra Rare",
 	category: "Energy",
 	types: ["Grass"],
-	regulationMark: "J"
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 918976,
+				tcgplayer: 728058
+			}
+		}
+	],
 }
 
 export default card

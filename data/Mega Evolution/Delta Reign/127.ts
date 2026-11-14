@@ -20,10 +20,15 @@ const card: Card = {
 	trainerType: "Tool",
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 726570,
-		cardmarket: 918966
-	}
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				tcgplayer: 726570,
+				cardmarket: 918966
+			}
+		}
+	],
 }
 
 export default card
