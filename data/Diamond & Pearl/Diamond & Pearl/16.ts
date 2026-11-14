@@ -10,7 +10,7 @@ const card: Card = {
 	},
 
 	illustrator: "Masahiko Ishii",
-	rarity: "Rare Holo",
+	rarity: "Holo Rare",
 	category: "Pokemon",
 	set: Set,
 
