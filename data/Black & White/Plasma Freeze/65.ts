@@ -70,10 +70,22 @@ const card: Card = {
 		de: "Dieses durchtriebene Pokémon lässt seine Gegner zurückschrecken, indem es auf einmal seine langen Krallen ausfährt."
 	},
 
-	thirdParty: {
-		cardmarket: 280943,
-		tcgplayer: 89373
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280943,
+				tcgplayer: 89373
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280943,
+				tcgplayer: 89373
+			}
+		},
+	],
 }
 
 export default card

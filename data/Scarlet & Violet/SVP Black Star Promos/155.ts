@@ -7,6 +7,7 @@ const card: Card = {
 	cameoDexIds: [116],
 
 	name: {
+		de: "Felino",
 		en: "Wooper",
 		fr: "Axoloto",
 	},

@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Begegnet es einem jungen Pokémon, näht es ihm mit den klebrigen Fäden aus seinem Mund ein Kleid aus Blättern."
 	},
 
-	thirdParty: {
-		cardmarket: 280750,
-		tcgplayer: 86688
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280750,
+				tcgplayer: 86688
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280750,
+				tcgplayer: 86688
+			}
+		},
+	],
 }
 
 export default card

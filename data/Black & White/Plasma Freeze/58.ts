@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Ein Schlag mit seinem gewaltigen Schweif kann einen Telegrafenmasten knicken wie ein Streichholz."
 	},
 
-	thirdParty: {
-		cardmarket: 280936,
-		tcgplayer: 87700
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280936,
+				tcgplayer: 87700
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280936,
+				tcgplayer: 87700
+			}
+		},
+	],
 }
 
 export default card

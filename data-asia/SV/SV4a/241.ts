@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Souichirou Gunjima",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [404],
 	hp: 90,
 	types: ["Lightning"],
+
+	evolveFrom: {
+		ja: "コリンク"
+	},
 
 	description: {
 		ja: "鋭い ツメの 先には 強い 電気が 流れており ほんの少し かするだけで 敵を 気絶させる。",
@@ -25,25 +30,23 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Lightning"],
-
 		name: {
 			ja: "エレキック",
 			'zh-tw': "電氣踢",
 			id: "Electric Kick"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Lightning"]
 	}, {
-		cost: ["Lightning", "Colorless", "Colorless"],
-
 		name: {
 			ja: "ヘッドボルト",
 			'zh-tw': "伏特頭擊",
 			id: "Head Bolt"
 		},
 
-		damage: 60
+		damage: 60,
+		cost: ["Lightning", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -51,18 +54,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747595,
 				tcgplayer: 567642,
+				cardtrader: 270244,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

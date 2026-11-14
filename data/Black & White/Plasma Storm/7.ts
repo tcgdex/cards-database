@@ -98,10 +98,22 @@ const card: Card = {
 		de: "Spürt es Sonnenlicht, öffnet es seine Blütenblätter und nimmt die Energie der Sonnenstrahlen auf."
 	},
 
-	thirdParty: {
-		cardmarket: 280747,
-		tcgplayer: 84258
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280747,
+				tcgplayer: 84258
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280747,
+				tcgplayer: 84258
+			}
+		},
+	],
 }
 
 export default card

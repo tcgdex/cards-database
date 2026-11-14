@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Nelnal",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [954],
 	hp: 70,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "シガロコ"
+	},
 
 	description: {
 		ja: "玉を 支える 体は ほとんど 動かないため 本体は 玉の中にいると 考えられている。",
@@ -25,8 +30,6 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "さいきのいのり",
 			'zh-tw': "復生祈禱",
@@ -37,23 +40,23 @@ const card: Card = {
 			ja: "自分のトラッシュからポケモンを1枚選び、ベンチに出す。",
 			'zh-tw': "從自己的棄牌區選擇1張寶可夢卡，放置於備戰區。",
 			id: "Pilih 1 lembar Pokémon dari Trash sendiri, lalu masukkan ke Cadangan."
-		}
+		},
+		cost: ["Colorless"]
 	}, {
-		cost: ["Psychic", "Psychic"],
-
 		name: {
 			ja: "サイケこうせん",
 			'zh-tw': "幻象光線",
 			id: "Sinar Psikedelik"
 		},
 
-		damage: 50,
-
 		effect: {
 			ja: "相手のバトルポケモンをこんらんにする。",
 			'zh-tw': "將對手的戰鬥寶可夢【混亂】。",
 			id: "Ubah kondisi Pokémon Bertarung lawan menjadi Pusing."
-		}
+		},
+
+		damage: 50,
+		cost: ["Psychic", "Psychic"]
 	}],
 
 	weaknesses: [{
@@ -66,18 +69,19 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747623,
 				tcgplayer: 567670,
+				cardtrader: 270246,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

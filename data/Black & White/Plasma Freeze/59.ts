@@ -58,10 +58,22 @@ const card: Card = {
 		de: "Es lebt mit anderen in Baumkronen. Wird eines von ihnen wütend, werden alle anderen auch wütend."
 	},
 
-	thirdParty: {
-		cardmarket: 280937,
-		tcgplayer: 87177
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280937,
+				tcgplayer: 87177
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280937,
+				tcgplayer: 87177
+			}
+		},
+	],
 }
 
 export default card

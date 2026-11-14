@@ -82,10 +82,22 @@ const card: Card = {
 		de: "Als Vesprit flog, lernten Menschen Glück und Trauer des Lebens kennen. Die Geburt der Gefühle."
 	},
 
-	thirdParty: {
-		cardmarket: 281058,
-		tcgplayer: 87333
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 281058,
+				tcgplayer: 87333
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281058,
+				tcgplayer: 87333
+			}
+		},
+	],
 }
 
 export default card

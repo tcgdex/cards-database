@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Selbst aus 100 Metern Entfernung treffen die Wassersalven, die es mit seinem Maul abfeuert, ihr Ziel."
 	},
 
-	thirdParty: {
-		cardmarket: 281039,
-		tcgplayer: 88700
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281039,
+				tcgplayer: 88700
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281039,
+				tcgplayer: 88700
+			}
+		},
+	],
 }
 
 export default card

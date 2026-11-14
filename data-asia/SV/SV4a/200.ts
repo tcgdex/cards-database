@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Hitoshi Ariga",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [460],
 	hp: 150,
 	types: ["Grass"],
+
+	evolveFrom: {
+		ja: "ユキカブリ"
+	},
 
 	description: {
 		ja: "万年雪が 積もる 山脈で 静かに 暮らす。 ブリザードを 発生させて 姿を 隠す。",
@@ -41,15 +46,14 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Grass", "Grass", "Colorless"],
-
 		name: {
 			ja: "マグナムパンチ",
 			'zh-tw': "增量拳",
 			id: "Magnum Punch"
 		},
 
-		damage: 110
+		damage: 110,
+		cost: ["Grass", "Grass", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -57,18 +61,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 3,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747554,
 				tcgplayer: 567601,
+				cardtrader: 270193,
 			},
 		},
-	],
-
-	retreat: 3,
-	regulationMark: "G"
+	]
 }
 
 export default card

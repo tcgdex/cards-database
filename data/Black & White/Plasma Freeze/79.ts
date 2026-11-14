@@ -94,10 +94,22 @@ const card: Card = {
 		de: "Durch all die eisenhaltige Erde, die es verschluckt hat, wurde sein Körper härter als ein Diamant."
 	},
 
-	thirdParty: {
-		cardmarket: 280957,
-		tcgplayer: 89565
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280957,
+				tcgplayer: 89565
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280957,
+				tcgplayer: 89565
+			}
+		},
+	],
 }
 
 export default card

@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Sie sprechen sich miteinander ab, indem sie Muster in Steine ritzen, um ihre Gegner dann gemeinsam einzukreisen."
 	},
 
-	thirdParty: {
-		cardmarket: 280944,
-		tcgplayer: 90535
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280944,
+				tcgplayer: 90535
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280944,
+				tcgplayer: 90535
+			}
+		},
+	],
 }
 
 export default card

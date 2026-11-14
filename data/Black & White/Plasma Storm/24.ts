@@ -58,10 +58,22 @@ const card: Card = {
 		de: "Es zieht sich in seinen Panzer zurück und greift dann mit Wasserstrahlen seine Gegner an."
 	},
 
-	thirdParty: {
-		cardmarket: 280764,
-		tcgplayer: 89498
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280764,
+				tcgplayer: 89498
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280764,
+				tcgplayer: 89498
+			}
+		},
+	],
 }
 
 export default card

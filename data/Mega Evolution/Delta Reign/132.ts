@@ -28,6 +28,7 @@ const card: Card = {
 			}
 		}
 	],
+	regulationMark: "J"
 }
 
 export default card

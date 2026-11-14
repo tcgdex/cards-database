@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "GIDORA",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [907],
 	hp: 90,
 	types: ["Grass"],
+
+	evolveFrom: {
+		ja: "ニャオハ"
+	},
 
 	description: {
 		ja: "長い 体毛の下に 隠した ツタを 器用に 操り 硬い つぼみを 敵に 叩きつける。",
@@ -25,31 +30,29 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Grass"],
-
 		name: {
 			ja: "タネばくだん",
 			'zh-tw': "種子炸彈",
 			id: "Bom Benih"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Grass"]
 	}, {
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "マジックウィップ",
 			'zh-tw': "魔法鞭打",
 			id: "Magic Whip"
 		},
 
-		damage: 50,
-
 		effect: {
 			ja: "相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
 			'zh-tw': "將對手的戰鬥寶可夢與備戰寶可夢互換。[由對手選擇放置於戰鬥場的寶可夢。]",
 			id: "Tukar Pokémon Bertarung lawan dengan Pokémon Cadangan. [Pokémon yang akan dimasukkan ke Arena Bertarung dipilih oleh lawan.]"
-		}
+		},
+
+		damage: 50,
+		cost: ["Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -57,18 +60,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747556,
 				tcgplayer: 567603,
+				cardtrader: 270191,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

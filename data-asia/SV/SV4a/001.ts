@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Sekio",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [43],
 	hp: 60,
@@ -27,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "はっぱカッター",
 			'zh-tw': "飛葉快刀",
@@ -36,7 +35,8 @@ const card: Card = {
 			id: "Daun Pemotong"
 		},
 
-		damage: 20
+		damage: 20,
+		cost: ["Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -44,12 +44,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746203,
 				tcgplayer: 567347,
+				cardtrader: 269620,
 			},
 		},
 		{
@@ -58,10 +62,7 @@ const card: Card = {
 				tcgplayer: 577294,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

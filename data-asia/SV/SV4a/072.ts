@@ -12,10 +12,15 @@ const card: Card = {
 	},
 
 	illustrator: "Hitoshi Ariga",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [40],
 	hp: 110,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "プリン"
+	},
 
 	description: {
 		ja: "キメ細やかな 毛皮の 持ち主。 怒らせると どんどん ふくらみ のしかかってくるので 注意。",
@@ -45,8 +50,6 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Psychic", "Colorless", "Colorless"],
-
 		name: {
 			ja: "マジカルショット",
 			'zh-tw': "魔法射擊",
@@ -54,7 +57,8 @@ const card: Card = {
 			id: "Magical Shot"
 		},
 
-		damage: 100
+		damage: 100,
+		cost: ["Psychic", "Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -62,18 +66,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
-			type: "normal",
+			type: "holo",
 			thirdParty: {
 				cardmarket: 746454,
 				tcgplayer: 567461,
+				cardtrader: 269663,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

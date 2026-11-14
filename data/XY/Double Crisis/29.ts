@@ -3,6 +3,7 @@ import Set from '../Double Crisis'
 
 const card: Card = {
 	name: {
+		de: "Team Magma Verwaltung",
 		en: "Team Magma Admin",
 		fr: "Admin Team Magma",
 		pt: "Admin. da Equipe Magma",

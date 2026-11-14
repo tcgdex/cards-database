@@ -58,10 +58,22 @@ const card: Card = {
 		de: "Ein von Menschen erschaffenes Pokémon, das sich frei im künstlichen Raum bewegen kann."
 	},
 
-	thirdParty: {
-		cardmarket: 281093,
-		tcgplayer: 88314
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281093,
+				tcgplayer: 88314
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281093,
+				tcgplayer: 88314
+			}
+		},
+	],
 }
 
 export default card

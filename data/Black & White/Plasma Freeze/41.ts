@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Bei Gefahr fährt es die Widerhaken am Körper aus. Diese wachsen langsamer als die von Nidorino."
 	},
 
-	thirdParty: {
-		cardmarket: 280919,
-		tcgplayer: 87739
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280919,
+				tcgplayer: 87739
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280919,
+				tcgplayer: 87739
+			}
+		},
+	],
 }
 
 export default card

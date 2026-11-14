@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Erzeugt durch rhythmische Bewegungen Töne, die dem Klang von Maracas ähneln und überraschte Pokémon verjagen."
 	},
 
-	thirdParty: {
-		cardmarket: 280751,
-		tcgplayer: 87191
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280751,
+				tcgplayer: 87191
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280751,
+				tcgplayer: 87191
+			}
+		},
+	],
 }
 
 export default card

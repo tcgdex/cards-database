@@ -4,6 +4,8 @@ import Set from "../Delta Reign"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [226, 940],
+
 	name: {
 		en: "Legendary Trench",
 		fr: "Fosse Légendaire",
@@ -18,6 +20,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Trainer",
 	trainerType: "Stadium",
+	regulationMark: "J",
 
 	variants: [
 		{

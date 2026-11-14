@@ -64,7 +64,9 @@ const card: Card = {
 	}],
 
 	retreat: 2,
+	regulationMark: "J",
 
+<<<<<<< HEAD
 	variants: [
 		{
 			type: "holo",
@@ -74,6 +76,12 @@ const card: Card = {
 			}
 		}
 	],
+=======
+	thirdParty: {
+		tcgplayer: 726559,
+		cardmarket: 918943
+	}
+>>>>>>> cff6522d736af05fd7c398607bb32297f14dc62f
 }
 
 export default card

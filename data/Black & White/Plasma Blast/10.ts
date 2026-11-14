@@ -80,10 +80,22 @@ const card: Card = {
 		de: "Es lebte vor 300 Millionen Jahren. Team Plasma modifizierte es und pflanzte ihm am Rücken eine Kanone ein."
 	},
 
-	thirdParty: {
-		cardmarket: 281031,
-		tcgplayer: 85661
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281031,
+				tcgplayer: 85661
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281031,
+				tcgplayer: 85661
+			}
+		},
+	],
 }
 
 export default card

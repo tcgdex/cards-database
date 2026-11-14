@@ -65,6 +65,7 @@ const card: Card = {
 	}],
 
 	retreat: 3,
+	regulationMark: "J",
 
 	variants: [
 		{

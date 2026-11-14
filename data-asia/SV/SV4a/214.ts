@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Akira Komayama",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [741],
 	hp: 90,
@@ -41,15 +42,14 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Fire", "Colorless"],
-
 		name: {
 			ja: "はばたく",
 			'zh-tw': "羽擊",
 			id: "Mengepak"
 		},
 
-		damage: 30
+		damage: 30,
+		cost: ["Fire", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -57,18 +57,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747568,
 				tcgplayer: 567615,
+				cardtrader: 270211,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

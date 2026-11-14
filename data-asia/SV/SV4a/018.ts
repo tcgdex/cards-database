@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [948],
 	hp: 50,
@@ -27,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Grass"],
-
 		name: {
 			ja: "みだれげり",
 			'zh-tw': "亂踢",
@@ -36,14 +35,15 @@ const card: Card = {
 			id: "Tendangan Tidak Teratur"
 		},
 
-		damage: "10×",
-
 		effect: {
 			ja: "コインを3回投げ、オモテの数×10ダメージ。",
 			'zh-tw': "擲3次硬幣，造成正面出現的次數×10點傷害。",
 			th: "ทอยเหรียญ 3 ครั้ง แดเมจจะเท่ากับจำนวนครั้งที่ออกหัว x10",
 			id: "Lempar koin 3 kali. Serangan ini memberikan kerusakan sejumlah 10 untuk tiap lemparan dengan hasil sisi depan."
-		}
+		},
+
+		damage: "10×",
+		cost: ["Grass"]
 	}],
 
 	weaknesses: [{
@@ -51,12 +51,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746220,
 				tcgplayer: 567370,
+				cardtrader: 269614,
 			},
 		},
 		{
@@ -65,10 +69,7 @@ const card: Card = {
 				tcgplayer: 577305,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

@@ -76,10 +76,22 @@ const card: Card = {
 		de: "Staravia verbergen ihre Schwäche in Gruppen. Sind sie allein, kann man sie an ihren lauten Rufen erkennen."
 	},
 
-	thirdParty: {
-		cardmarket: 280974,
-		tcgplayer: 89518
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280974,
+				tcgplayer: 89518
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280974,
+				tcgplayer: 89518
+			}
+		},
+	],
 }
 
 export default card

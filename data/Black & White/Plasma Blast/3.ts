@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Vor 100 Millionen Jahren lebte dieses Pokémon auf dem Meeresgrund. Die Wissenschaft belebte es neu."
 	},
 
-	thirdParty: {
-		cardmarket: 281024,
-		tcgplayer: 86790
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 281024,
+				tcgplayer: 86790
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 281024,
+				tcgplayer: 86790
+			}
+		},
+	],
 }
 
 export default card

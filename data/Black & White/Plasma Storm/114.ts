@@ -77,10 +77,22 @@ const card: Card = {
 		de: "Es rammt Gegner ungebändigt mit dem Kopf und schleudert selbst Züge, die sein Revier durchkreuzen, hinfort."
 	},
 
-	thirdParty: {
-		cardmarket: 280854,
-		tcgplayer: 83946
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280854,
+				tcgplayer: 83946
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280854,
+				tcgplayer: 83946
+			}
+		},
+	],
 }
 
 export default card

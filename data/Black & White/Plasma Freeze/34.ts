@@ -86,10 +86,22 @@ const card: Card = {
 		de: "Lädt sich sein Körper mit Elektrizität, richten sich alle seine Haare auf und dienen ihm als Geschosse."
 	},
 
-	thirdParty: {
-		cardmarket: 280912,
-		tcgplayer: 86350
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280912,
+				tcgplayer: 86350
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280912,
+				tcgplayer: 86350
+			}
+		},
+	],
 }
 
 export default card

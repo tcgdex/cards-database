@@ -92,10 +92,22 @@ const card: Card = {
 		de: "Seelen, die das Feuer seiner schaurigen Flammen gekostet haben, irren bis ans Ende der Tage ziellos durch diese Welt."
 	},
 
-	thirdParty: {
-		cardmarket: 280894,
-		tcgplayer: 84167
-	}
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 280894,
+				tcgplayer: 84167
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280894,
+				tcgplayer: 84167
+			}
+		},
+	],
 }
 
 export default card

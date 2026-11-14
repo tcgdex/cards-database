@@ -4,6 +4,8 @@ import Set from "../Delta Reign"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [333, 661],
+
 	name: {
 		en: "Legendary Summit",
 		fr: "Sommet Légendaire",
@@ -18,6 +20,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Trainer",
 	trainerType: "Stadium",
+	regulationMark: "J",
 
 	variants: [
 		{

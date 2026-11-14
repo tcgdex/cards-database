@@ -87,10 +87,22 @@ const card: Card = {
 		de: "Es nährt seine Flamme mit den Seelen seiner Opfer. Heutzutage irrt es auf der Suche nach Seelen durch Krankenhäuser."
 	},
 
-	thirdParty: {
-		cardmarket: 280762,
-		tcgplayer: 86589
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280762,
+				tcgplayer: 86589
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280762,
+				tcgplayer: 86589
+			}
+		},
+	],
 }
 
 export default card

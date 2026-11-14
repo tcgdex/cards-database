@@ -11,6 +11,7 @@ const card: Card = {
 	},
 
 	illustrator: "Misa Tsutsui",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [39],
 	hp: 70,
@@ -25,8 +26,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Colorless"],
-
 		name: {
 			ja: "みちびく",
 			'zh-tw': "引路",
@@ -37,23 +36,23 @@ const card: Card = {
 			ja: "自分の山札からサポートを1枚選び、相手に見せて、手札に加える。そして山札を切る。",
 			'zh-tw': "從自己的牌庫選擇1張支援者卡，在給對手看過後加入手牌。並且重洗牌庫。",
 			id: "Pilih 1 lembar Supporter dari Deck sendiri, perlihatkan ke lawan, lalu tambahkan ke Kartu Pegangan. Kemudian, kocok Deck."
-		}
+		},
+		cost: ["Colorless"]
 	}, {
-		cost: ["Colorless", "Colorless"],
-
 		name: {
 			ja: "ふみふみ",
 			'zh-tw': "踏踏",
 			id: "Injak-injak"
 		},
 
-		damage: "20×",
-
 		effect: {
 			ja: "コインを2回投げ、オモテの数×20ダメージ。",
 			'zh-tw': "擲2次硬幣，造成正面出現的次數×20點傷害。",
 			id: "Lempar koin 2 kali. Serangan ini memberikan kerusakan sejumlah 20 untuk tiap lemparan dengan hasil sisi depan."
-		}
+		},
+
+		damage: "20×",
+		cost: ["Colorless", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -61,18 +60,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747660,
 				tcgplayer: 567707,
+				cardtrader: 270364,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

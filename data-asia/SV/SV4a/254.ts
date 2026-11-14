@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Souichirou Gunjima",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [64],
 	hp: 80,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "ケーシィ"
+	},
 
 	description: {
 		ja: "念力の 威力は 絶大。 進化に 備えて 額の 星に サイコパワーを 蓄えている。",
@@ -25,21 +30,20 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Psychic"],
-
 		name: {
 			ja: "テレポートアタック",
 			'zh-tw': "瞬間移動攻擊",
 			id: "Teleport Attack"
 		},
 
-		damage: 30,
-
 		effect: {
 			ja: "このポケモンをベンチポケモンと入れ替える。",
 			'zh-tw': "將這隻寶可夢與備戰寶可夢互換。",
 			id: "Tukar Pokémon ini dengan Pokémon Cadangan."
-		}
+		},
+
+		damage: 30,
+		cost: ["Psychic"]
 	}],
 
 	weaknesses: [{
@@ -52,18 +56,19 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747608,
 				tcgplayer: 567655,
+				cardtrader: 270268,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

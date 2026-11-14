@@ -63,10 +63,22 @@ const card: Card = {
 		de: "Spürt mit seiner Nase im Erdreich Futter auf und gräbt danach. Manchmal stößt es dabei auf heiße Quellen."
 	},
 
-	thirdParty: {
-		cardmarket: 280766,
-		tcgplayer: 89706
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280766,
+				tcgplayer: 89706
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280766,
+				tcgplayer: 89706
+			}
+		},
+	],
 }
 
 export default card

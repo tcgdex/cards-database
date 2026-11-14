@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Shin Nagasawa",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [461],
 	hp: 110,
 	types: ["Darkness"],
+
+	evolveFrom: {
+		ja: "ニューラ"
+	},
 
 	description: {
 		ja: "進化して さらに ずる賢くなり ツメで 石に サインをつけて コミュニケーションを はかっている。",
@@ -41,15 +46,14 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Darkness", "Colorless"],
-
 		name: {
 			ja: "スラッシュクロー",
 			'zh-tw': "利爪揮砍",
 			id: "Cakar Penebas"
 		},
 
-		damage: 70
+		damage: 70,
+		cost: ["Darkness", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -57,18 +61,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 1,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747644,
 				tcgplayer: 567691,
+				cardtrader: 270316,
 			},
 		},
-	],
-
-	retreat: 1,
-	regulationMark: "G"
+	]
 }
 
 export default card

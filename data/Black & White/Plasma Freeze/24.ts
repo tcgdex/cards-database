@@ -62,10 +62,22 @@ const card: Card = {
 		de: "Erzeugt mit seinen Wangen für Menschen unhörbare Schallwellen, um Artgenossen vor Gefahr zu warnen."
 	},
 
-	thirdParty: {
-		cardmarket: 280902,
-		tcgplayer: 90091
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280902,
+				tcgplayer: 90091
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280902,
+				tcgplayer: 90091
+			}
+		},
+	],
 }
 
 export default card

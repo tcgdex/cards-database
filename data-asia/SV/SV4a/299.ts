@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "GOSSAN",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [212],
 	hp: 140,
 	types: ["Metal"],
+
+	evolveFrom: {
+		ja: "ストライク"
+	},
 
 	description: {
 		ja: "鋼鉄を 含んでいる ハサミで 捕らえたものは どんなに 硬くても コナゴナに 砕く。",
@@ -25,31 +30,29 @@ const card: Card = {
 	stage: "Stage1",
 
 	attacks: [{
-		cost: ["Metal"],
-
 		name: {
 			ja: "パニッシュシザー",
 			'zh-tw': "懲罰之剪",
 			id: "Punish Scissor"
 		},
 
-		damage: "10+",
-
 		effect: {
 			ja: "相手の場の特性を持つポケモンの数×50ダメージ追加。",
 			'zh-tw': "增加對手的場上擁有特性的寶可夢的數量×50點傷害。",
 			id: "Kerusakan yang diberikan bertambah sejumlah 50 untuk tiap Pokémon yang memiliki Ability di Arena lawan."
-		}
-	}, {
-		cost: ["Metal", "Metal"],
+		},
 
+		damage: "10+",
+		cost: ["Metal"]
+	}, {
 		name: {
 			ja: "いあいぎり",
 			'zh-tw': "居合斬",
 			id: "Potongan Iai"
 		},
 
-		damage: 70
+		damage: 70,
+		cost: ["Metal", "Metal"]
 	}],
 
 	weaknesses: [{
@@ -62,18 +65,19 @@ const card: Card = {
 		value: "-30"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747653,
 				tcgplayer: 567700,
+				cardtrader: 270290,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

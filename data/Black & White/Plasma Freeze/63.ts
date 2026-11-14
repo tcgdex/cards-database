@@ -88,10 +88,22 @@ const card: Card = {
 		de: "Es liebt das Kräftemessen mit großen Pokémon. Mit seinem Armwurf kann es LKW durch die Luft werfen."
 	},
 
-	thirdParty: {
-		cardmarket: 280941,
-		tcgplayer: 86017
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280941,
+				tcgplayer: 86017
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280941,
+				tcgplayer: 86017
+			}
+		},
+	],
 }
 
 export default card

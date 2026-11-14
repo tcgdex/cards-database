@@ -18,6 +18,7 @@ const card: Card = {
 	rarity: "Uncommon",
 	category: "Trainer",
 	trainerType: "Tool",
+	regulationMark: "J",
 
 	variants: [
 		{

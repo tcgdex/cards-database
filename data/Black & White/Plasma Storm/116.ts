@@ -99,10 +99,22 @@ const card: Card = {
 		de: "Ein tapferer Krieger der Lüfte. Je mehr Narben es vorweisen kann, desto mehr Respekt zollen ihm seine Artgenossen."
 	},
 
-	thirdParty: {
-		cardmarket: 280856,
-		tcgplayer: 83952
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280856,
+				tcgplayer: 83952
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280856,
+				tcgplayer: 83952
+			}
+		},
+	],
 }
 
 export default card

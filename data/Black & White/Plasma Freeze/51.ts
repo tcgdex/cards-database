@@ -83,10 +83,22 @@ const card: Card = {
 		de: "Es besteht aus zwei Tanhel. Dank der Vereinigung ihrer beiden Hirne verfügen sie über gesteigerte Psycho-Kräfte."
 	},
 
-	thirdParty: {
-		cardmarket: 280929,
-		tcgplayer: 87383
-	}
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 280929,
+				tcgplayer: 87383
+			}
+		},
+		{
+			type: 'reverse',
+			thirdParty: {
+				cardmarket: 280929,
+				tcgplayer: 87383
+			}
+		},
+	],
 }
 
 export default card

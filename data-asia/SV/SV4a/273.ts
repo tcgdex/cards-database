@@ -11,10 +11,15 @@ const card: Card = {
 	},
 
 	illustrator: "Kagemaru Himeno",
+	rarity: "Shiny rare",
 	category: "Pokemon",
 	dexId: [959],
 	hp: 140,
 	types: ["Psychic"],
+
+	evolveFrom: {
+		ja: "ナカヌチャン"
+	},
 
 	description: {
 		ja: "知能が 高く とても 豪快。 ハンマーで 岩を 殴り飛ばして 空飛ぶ アーマーガアを 狙う。",
@@ -41,21 +46,20 @@ const card: Card = {
 	}],
 
 	attacks: [{
-		cost: ["Psychic", "Colorless"],
-
 		name: {
 			ja: "スペシャルハンマー",
 			'zh-tw': "特殊鐵錘",
 			id: "Special Hammer"
 		},
 
-		damage: "90+",
-
 		effect: {
 			ja: "このポケモンに特殊エネルギーがついているなら、90ダメージ追加。",
 			'zh-tw': "若這隻寶可夢身上附有特殊能量卡，則增加90點傷害。",
 			id: "Jika Pokémon ini mengenakan Energi Spesial, kerusakan yang diberikan bertambah sejumlah 90."
-		}
+		},
+
+		damage: "90+",
+		cost: ["Psychic", "Colorless"]
 	}],
 
 	weaknesses: [{
@@ -63,18 +67,19 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "holo",
 			thirdParty: {
 				cardmarket: 747627,
 				tcgplayer: 567674,
+				cardtrader: 270240,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card

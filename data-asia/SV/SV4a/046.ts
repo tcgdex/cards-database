@@ -12,6 +12,7 @@ const card: Card = {
 	},
 
 	illustrator: "kodama",
+	rarity: "None",
 	category: "Pokemon",
 	dexId: [963],
 	hp: 50,
@@ -27,8 +28,6 @@ const card: Card = {
 	stage: "Basic",
 
 	attacks: [{
-		cost: ["Water"],
-
 		name: {
 			ja: "ゆうきのしんか",
 			'zh-tw': "勇氣進化",
@@ -41,10 +40,9 @@ const card: Card = {
 			'zh-tw': "將這隻寶可夢與備戰寶可夢互換。然後，從自己的牌庫選擇1張從這隻寶可夢進化而來的卡，放置於這隻寶可夢身上完成進化。並且重洗牌庫。",
 			th: "สลับโปเกมอนนี้กับโปเกมอนบนเบนช์ หลังจากนั้น เลือกการ์ดที่จะวิวัฒนาการจากโปเกมอนนี้ 1 ใบจากสำรับการ์ดฝ่ายเรา วางบนโปเกมอนนี้เพื่อวิวัฒนาการ แล้วสับสำรับการ์ด",
 			id: "Tukar Pokémon ini dengan Pokémon Cadangan. Setelah itu, pilih 1 kartu dari Deck sendiri yang merupakan evolusi dari Pokémon ini, lalu letakkan pada Pokémon ini untuk melakukan evolusi. Kemudian, kocok Deck."
-		}
+		},
+		cost: ["Water"]
 	}, {
-		cost: ["Water"],
-
 		name: {
 			ja: "ひれカッター",
 			'zh-tw': "鰭快刀",
@@ -52,7 +50,8 @@ const card: Card = {
 			id: "Sirip Pemotong"
 		},
 
-		damage: 10
+		damage: 10,
+		cost: ["Water"]
 	}],
 
 	weaknesses: [{
@@ -60,12 +59,16 @@ const card: Card = {
 		value: "×2"
 	}],
 
+	retreat: 2,
+	regulationMark: "G",
+
 	variants: [
 		{
 			type: "normal",
 			thirdParty: {
 				cardmarket: 746414,
 				tcgplayer: 567412,
+				cardtrader: 269673,
 			},
 		},
 		{
@@ -74,10 +77,7 @@ const card: Card = {
 				tcgplayer: 577321,
 			},
 		},
-	],
-
-	retreat: 2,
-	regulationMark: "G"
+	]
 }
 
 export default card
