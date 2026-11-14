@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Dialga EX"
 	},
 
-	illustrator: "Ayaka Yoshida",
+	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	set: Set,
