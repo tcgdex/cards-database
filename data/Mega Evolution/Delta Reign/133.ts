@@ -17,7 +17,17 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Energy",
-	types: ["Grass"]
+	types: ["Grass"],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 918976,
+				tcgplayer: 728058
+			}
+		}
+	],
 }
 
 export default card

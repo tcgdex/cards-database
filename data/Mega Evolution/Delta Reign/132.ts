@@ -17,7 +17,17 @@ const card: Card = {
 	illustrator: "5ban Graphics",
 	rarity: "Ultra Rare",
 	category: "Energy",
-	types: ["Water"]
+	types: ["Water"],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 918974,
+				tcgplayer: 728057
+			}
+		}
+	],
 }
 
 export default card
