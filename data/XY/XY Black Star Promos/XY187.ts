@@ -8,7 +8,7 @@ const card: Card = {
 		fr: "Celebi"
 	},
 
-	illustrator: "Mitsuhiro Arita",
+	illustrator: "Tomokazu Komiya",
 	rarity: "Promo",
 	category: "Pokemon",
 	set: Set,
