@@ -11,8 +11,8 @@ const card: Card = {
 		de: "Durengard EX"
 	},
 
-	illustrator: "Ayaka Yoshida",
-	rarity: "Rare",
+	illustrator: "Ryo Ueda",
+	rarity: "Ultra Rare",
 	category: "Pokemon",
 	set: Set,
 
@@ -96,7 +96,7 @@ const card: Card = {
 	retreat: 3,
 
 	thirdParty: {
-		cardmarket: 281871
+		cardmarket: 311407
 	}
 }
 

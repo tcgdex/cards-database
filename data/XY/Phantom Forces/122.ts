@@ -11,7 +11,7 @@ const card: Card = {
 		de: "Dialga EX"
 	},
 
-	illustrator: "Ayaka Yoshida",
+	illustrator: "5ban Graphics",
 	rarity: "Secret Rare",
 	category: "Pokemon",
 	set: Set,
@@ -100,7 +100,7 @@ const card: Card = {
 	retreat: 2,
 
 	thirdParty: {
-		cardmarket: 281868,
+		cardmarket: 281929,
 		tcgplayer: 94689
 	}
 }
