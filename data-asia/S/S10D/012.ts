@@ -5,15 +5,23 @@ const card: Card = {
 	set: Set,
 
 	name: {
+		ja: "ニョロゾ",
 		'zh-tw': "蚊香君"
 	},
 
 	illustrator: "Scav",
+	rarity: "Common",
 	category: "Pokemon",
+	dexId: [61],
 	hp: 90,
 	types: ["Water"],
 
+	evolveFrom: {
+		ja: "ニョロモ"
+	},
+
 	description: {
+		ja: "お腹の 渦は ずっと 見ていると 眠くなる。 子守唄がわりに 子どもを 寝つかせるのにも 使う。",
 		'zh-tw': "一直盯著牠肚子上的漩渦看，就會想睡覺。牠會利用這花紋 來代替搖籃曲去哄孩子睡覺。"
 	},
 
@@ -21,6 +29,7 @@ const card: Card = {
 
 	attacks: [{
 		name: {
+			ja: "なぐる",
 			'zh-tw': "打擊"
 		},
 
@@ -28,10 +37,12 @@ const card: Card = {
 		cost: ["Colorless", "Colorless"]
 	}, {
 		name: {
+			ja: "ダブルスマッシュ",
 			'zh-tw': "雙重粉碎"
 		},
 
 		effect: {
+			ja: "コインを2回投げ、オモテの数×50ダメージ。",
 			'zh-tw': "擲2次硬幣，造成正面出現的次數×50點傷害。"
 		},
 
@@ -45,7 +56,17 @@ const card: Card = {
 	}],
 
 	retreat: 2,
-	regulationMark: "F"
+	regulationMark: "F",
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 650972,
+				tcgplayer: 569767,
+				cardtrader: 234078,
+			},
+		},
+	]
 }
 
 export default card
