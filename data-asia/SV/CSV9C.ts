@@ -4,6 +4,7 @@ import serie from '../SV'
 const set: Set = {
 	id: 'CSV9C',
 	name: {
+		en: 'Stellar Crystal',
 		'zh-cn': '星彩晶璃',
 	},
 

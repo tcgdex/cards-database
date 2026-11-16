@@ -4,6 +4,7 @@ import serie from '../SV'
 const set: Set = {
 	id: 'CSV7C',
 	name: {
+		en: 'Blade Awakening',
 		'zh-cn': '利刃猛醒',
 	},
 

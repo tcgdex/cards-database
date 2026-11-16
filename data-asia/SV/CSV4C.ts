@@ -4,6 +4,7 @@ import serie from '../SV'
 const set: Set = {
 	id: 'CSV4C',
 	name: {
+		en: 'Bonus Turn',
 		'zh-cn': '嘉奖回合',
 	},
 
