@@ -11,6 +11,8 @@ scripts/pokedexIdFixer/pokemon-species.json
 scripts/pokedexIdFixer/pokemon-mapping.json
 scripts/pokedexIdFixer/fix-preview.txt
 scripts/pokedexIdFixer/fix-log.txt
+scripts/pokedexIdFixer/cameo-fix-preview.txt
+scripts/pokedexIdFixer/cameo-fix-log.txt
 scripts/pokedexIdFixer/audit-report.txt
 docs/
 

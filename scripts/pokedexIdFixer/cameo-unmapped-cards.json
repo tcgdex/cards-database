@@ -1,0 +1,16 @@
+{
+  "howTo": "No open rows. Lt. Yoshida stays in leftUnmapped because it is an Asian-only print with no English file.",
+  "mappings": [],
+  "leftUnmapped": [
+    {
+      "setName": "Great Detective Pikachu",
+      "resolvedSetName": "Detective Pikachu",
+      "localId": "25",
+      "cardName": "Lt. Yoshida",
+      "cameoDexIds": [
+        209
+      ],
+      "reason": "Asian Great Detective Pikachu subset only. The English Detective Pikachu set has cards 1-18 and no Lt. Yoshida file. Do not add a manual mapping."
+    }
+  ]
+}

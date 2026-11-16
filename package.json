@@ -9,7 +9,11 @@
 		"dex:audit:report": "bun scripts/pokedexIdFixer/audit-dex-ids.ts --report",
 		"dex:fix:dry-run": "bun scripts/pokedexIdFixer/fix-dex-ids.ts --dry-run",
 		"dex:fix:apply": "bun scripts/pokedexIdFixer/fix-dex-ids.ts --apply",
-		"dex:lint": "bun scripts/pokedexIdFixer/lint-dex-ids.ts"
+		"dex:lint": "bun scripts/pokedexIdFixer/lint-dex-ids.ts",
+		"cameo:build": "bun scripts/pokedexIdFixer/build-cameo-database.ts",
+		"cameo:fix:dry-run": "bun scripts/pokedexIdFixer/fix-cameo-dexids.ts --dry-run",
+		"cameo:fix:apply": "bun scripts/pokedexIdFixer/fix-cameo-dexids.ts --apply",
+		"cameo:report": "bun scripts/pokedexIdFixer/cameo-report.ts"
 	},
 	"devDependencies": {
 		"@dzeio/object-util": "^1.9.2",
