@@ -3,6 +3,9 @@ import Set from "../Astral Radiance Trainer Gallery"
 
 const card: Card = {
 	dexId: [262],
+
+	cameoDexIds: [100],
+
 	set: Set,
 
 	name: {

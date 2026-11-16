@@ -4,6 +4,8 @@ import Set from "../Crown Zenith"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [6, 25, 39],
+
 	name: {
 		en: "Elesa's Sparkle",
 		fr: "Éclat d'Inezia",

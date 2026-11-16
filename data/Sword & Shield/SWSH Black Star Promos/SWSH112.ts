@@ -23,6 +23,9 @@ const card: Card = {
 
 	rarity: "Promo",
 	dexId: [815],
+
+	cameoDexIds: [813],
+
 	hp: 170,
 	types: ["Fire"],
 

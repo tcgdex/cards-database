@@ -4,6 +4,8 @@ import Set from "../Lost Origin"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [622],
+
 	name: {
 		en: "Collapsed Stadium",
 		fr: "Stade en Ruines",

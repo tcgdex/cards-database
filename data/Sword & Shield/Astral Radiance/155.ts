@@ -4,6 +4,8 @@ import Set from "../Astral Radiance"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [493, 899, 900],
+
 	name: {
 		en: "Temple of Sinnoh",
 		fr: "Temple de Sinnoh",
