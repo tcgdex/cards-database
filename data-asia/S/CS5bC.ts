@@ -4,6 +4,7 @@ import serie from '../S'
 const set: Set = {
 	id: 'CS5bC',
 	name: {
+		en: 'Gallant Galaxy: Brave',
 		'zh-cn': '勇魅群星 勇',
 	},
 
