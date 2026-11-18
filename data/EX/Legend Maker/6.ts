@@ -113,6 +113,9 @@ const card: Card = {
 		{
 			type: "holo",
 			stamp: ["regional-championships"]
+		},
+		{
+			type: "reverse"
 		}
 	]
 }

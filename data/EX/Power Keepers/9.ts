@@ -92,6 +92,9 @@ const card: Card = {
 		},
 		{
 			type: "normal",
+		},
+		{
+			type: "reverse"
 		}
 	]
 }

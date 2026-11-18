@@ -90,6 +90,9 @@ const card: Card = {
 			type: "normal",
 			stamp: ["games-expo"]
 		},
+		{
+			type: "reverse"
+		}
 	]
 }
 

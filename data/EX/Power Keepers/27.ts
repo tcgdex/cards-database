@@ -102,6 +102,9 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["pre-release"]
+		},
+		{
+			type: "reverse"
 		}
 	]
 }

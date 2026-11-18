@@ -48,6 +48,9 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["tristan-robinson"]
+		},
+		{
+			type: "reverse"
 		}
 	]
 }

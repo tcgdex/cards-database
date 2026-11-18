@@ -83,6 +83,9 @@ const card: Card = {
 			type: "normal",
 			stamp: ["city-championships"]
 		},
+		{
+			type: "reverse"
+		}
 	]
 }
 

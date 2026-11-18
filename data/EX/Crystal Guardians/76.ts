@@ -40,6 +40,9 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["jeremy-scharff-kim"]
+		},
+		{
+			type: "reverse"
 		}
 	]
 }

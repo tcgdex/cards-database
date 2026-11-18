@@ -86,7 +86,9 @@ const card: Card = {
 			type: "normal",
 			stamp: ["akira-miyazaki"]
 		},
-
+		{
+			type: "reverse"
+		}
 	]
 }
 

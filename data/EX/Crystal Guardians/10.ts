@@ -87,6 +87,9 @@ const card: Card = {
 		{
 			type: "holo",
 			stamp: ["tristan-robinson"]
+		},
+		{
+			type: "reverse"
 		}
 	]
 }

@@ -76,6 +76,9 @@ const card: Card = {
 			type: "normal",
 			stamp: ["tom-roos"]
 		},
+		{
+			type: "reverse"
+		}
 	]
 }
 

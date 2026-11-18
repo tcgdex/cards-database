@@ -114,6 +114,9 @@ const card: Card = {
 		{
 			type: "holo",
 			stamp: ["gym-challenge"]
+		},
+		{
+			type: "reverse"
 		}
 	]
 }

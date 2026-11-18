@@ -106,6 +106,9 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["miska-saari"]
+		},
+		{
+			type: "reverse"
 		}
 	]
 }

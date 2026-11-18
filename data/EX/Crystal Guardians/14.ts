@@ -104,6 +104,9 @@ const card: Card = {
 			type: "normal",
 			stamp: ["national-championships","staff"]
 		},
+		{
+			type: "reverse"
+		}
 	]
 }
 

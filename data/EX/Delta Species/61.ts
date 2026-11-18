@@ -90,6 +90,9 @@ const card: Card = {
 			type: "normal",
 			stamp: ["origins"]
 		},
+		{
+			type: "reverse"
+		}
 	]
 }
 

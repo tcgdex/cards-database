@@ -78,6 +78,9 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["dylan-lefavour"]
+		},
+		{
+			type: "reverse"
 		}
 	]
 }

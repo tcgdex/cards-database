@@ -100,6 +100,9 @@ const card: Card = {
 		{
 			type: "holo",
 			stamp: ["dylan-lefavour"]
+		},
+		{
+			type: "reverse"
 		}
 	]
 }

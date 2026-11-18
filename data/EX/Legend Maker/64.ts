@@ -88,6 +88,9 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["kraze-club"]
+		},
+		{
+			type: "reverse"
 		}
 	]
 }

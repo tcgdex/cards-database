@@ -101,6 +101,9 @@ const card: Card = {
 		{
 			type: "holo"
 		},
+		{
+			type: "reverse"
+		}
 	]
 }
 

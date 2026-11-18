@@ -96,6 +96,9 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["jun-hasebe"]
+		},
+		{
+			type: "reverse"
 		}
 	]
 }

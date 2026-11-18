@@ -36,6 +36,9 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["jimmy-ballard"]
+		},
+		{
+			type: "reverse"
 		}
 	]
 }

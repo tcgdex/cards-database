@@ -90,6 +90,9 @@ const card: Card = {
 			type: "holo",
 			stamp: ["comic-con"]
 		},
+		{
+			type: "reverse"
+		}
 	]
 }
 

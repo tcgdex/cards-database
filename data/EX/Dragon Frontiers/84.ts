@@ -36,6 +36,9 @@ const card: Card = {
 		{
 			type: "normal",
 			stamp: ["paul-atanassov"]
+		},
+		{
+			type: "reverse"
 		}
 	]
 }
