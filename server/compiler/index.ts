@@ -12,6 +12,10 @@ const LANGS: Array<SupportedLanguages> = [
 const DIST_FOLDER = './generated'
 
 ;(async () => {
+
+	const startDate = new Date()
+	console.log('Starting compilation at', startDate.toLocaleTimeString())
+
 	const paths = (await fs.readdir('./compiler/endpoints')).filter((p) => p.endsWith('.ts'))
 
 	// Prefetch the pictures at the start as it can bug because of bad connection
@@ -70,5 +74,8 @@ const DIST_FOLDER = './generated'
 	for await (const file of await fs.readdir('../meta/definitions')) {
 		await fs.copyFile('../meta/definitions/' + file, './public/v2/' + file)
 	}
+
+	const endDate = new Date()
+	console.log('\nFinished at', endDate.toLocaleTimeString(), 'after', ((endDate.getTime() - startDate.getTime()) / 1000).toFixed(2), 'seconds')
 
 })()
