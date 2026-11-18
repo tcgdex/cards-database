@@ -2,7 +2,7 @@ import { Set } from '../../interfaces'
 import serie from '../SM'
 
 const set: Set = {
-	id: 'AC3a',
+	id: 'AC3b',
 	name: {
 		id: 'Booster Pack Koleksi TAG TEAM Set B',
 	},

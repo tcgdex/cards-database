@@ -5,7 +5,7 @@ const set: Set = {
 	id: 'SVAL',
 	name: {
 		'zh-tw': '起始組合ex 呆火鱷&電龍 ex',
-		id: 'Sprigatito & Lucario ex'
+		id: 'Fuecoco & Ampharos ex'
 	},
 
 	serie: serie,
