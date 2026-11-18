@@ -162,7 +162,7 @@ export async function cardToCardSingle(localId: string, card: Card, lang: Suppor
 
 		trainerType: translate('trainerType', card.trainerType, lang) as any,
 		energyType: translate('energyType', card.energyType, lang) as any,
-		regulationMark: card.regulationMark,
+		regulationMark: card.regulationMark?.toUpperCase(),
 
 		legal: {
 			standard: cardIsLegal('standard', card, localId),
