@@ -89,7 +89,7 @@ const card: Card = {
 	{
 		type: "normal",
 		thirdParty: {
-			cardmarket: 870407,
+			cardmarket: 869786,
 			tcgplayer: 675987
 		}
 	},
@@ -105,7 +105,7 @@ const card: Card = {
 		type: "reverse",
 		foil: "energy",
 		thirdParty: {
-			cardmarket: 870408,
+			cardmarket: 870407,
 			tcgplayer: 677128
 		}
 	},
