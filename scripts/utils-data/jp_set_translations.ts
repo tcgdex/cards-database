@@ -159,7 +159,7 @@ export const jpSetTranslationsMap = new Map<string, string>([
 	['SM4p', 'GX Battle Boost'],
 	['SM4A', 'Beasts from the Ultradimension'],
 	['SM4S', 'Awakened Heroes'],
-	['SM3+', 'Shining Legends'],
+	['SM3p', 'Shining Legends'],
 	['SM3H', 'Did You See The Fighting Rainbow'],
 	['SM3N', 'Light Consuming Darkness'],
 	['SM2p', "Let's Face New Trials"],
