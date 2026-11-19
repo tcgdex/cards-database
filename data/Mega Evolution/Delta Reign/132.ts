@@ -18,6 +18,16 @@ const card: Card = {
 	rarity: "Ultra Rare",
 	category: "Energy",
 	types: ["Water"],
+
+	variants: [
+		{
+			type: "holo",
+			thirdParty: {
+				cardmarket: 918974,
+				tcgplayer: 728057
+			}
+		}
+	],
 	regulationMark: "J"
 }
 

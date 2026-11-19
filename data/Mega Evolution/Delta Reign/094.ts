@@ -22,9 +22,15 @@ const card: Card = {
 	trainerType: "Stadium",
 	regulationMark: "J",
 
-	thirdParty: {
-		tcgplayer: 726550
-	}
+	variants: [
+		{
+			type: "normal",
+			thirdParty: {
+				cardmarket: 918923,
+				tcgplayer: 726550
+			}
+		}
+	],
 }
 
 export default card
