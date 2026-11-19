@@ -26,6 +26,10 @@ const card: Card = {
 		en: "Magmar",
 		fr: "Magmar",
 		es: "Magmar",
+		de: "Magmar",
+		it: "Magmar",
+		pt: "Magmar",
+		'es-mx': "Magmar",
 	},
 
 	abilities: [{

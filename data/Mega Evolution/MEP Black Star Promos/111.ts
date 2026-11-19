@@ -26,6 +26,10 @@ const card: Card = {
 		en: "Surskit",
 		fr: "Arakdo",
 		es: "Surskit",
+		de: "Gehweiher",
+		it: "Surskit",
+		pt: "Surskit",
+		'es-mx': "Surskit",
 	},
 
 	attacks: [{

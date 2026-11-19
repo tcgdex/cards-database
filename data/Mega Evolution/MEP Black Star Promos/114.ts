@@ -26,6 +26,10 @@ const card: Card = {
 		en: "Hakamo-o",
 		fr: "Écaïd",
 		es: "Hakamo-o",
+		de: "Mediras",
+		it: "Hakamo-o",
+		pt: "Hakamo-o",
+		'es-mx': "Hakamo-o",
 	},
 
 	abilities: [{
