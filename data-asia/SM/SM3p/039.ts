@@ -1,56 +1,59 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ルージュラ",
+		ja: 'ルージュラ'
 	},
 
-	illustrator: "Tomokazu Komiya",
-	category: "Pokemon",
+	illustrator: 'Tomokazu Komiya',
+	rarity: 'Uncommon',
+	category: 'Pokemon',
+	dexId: [124],
 	hp: 90,
-	types: ["Psychic"],
+	types: ['Psychic'],
 
 	description: {
-		ja: "腰を 振るように 歩いている。 油断をすると 思わず 釣られて 踊ってしまうという。",
+		ja: '腰を 振るように 歩いている。 油断をすると 思わず 釣られて 踊ってしまうという。'
 	},
 
-	stage: "Basic",
+	stage: 'Basic',
 
 	attacks: [
 		{
-			name: { ja: "あまえごえ" },
-			cost: ["Psychic"],
+			name: { ja: 'あまえごえ' },
 			effect: {
-				ja: "相手の手札からオモテを見ないで1枚選び、そのカードのオモテを見てから、相手の山札にもどして切る。",
+				ja: '相手の手札からオモテを見ないで1枚選び、そのカードのオモテを見てから、相手の山札にもどして切る。'
 			},
+			cost: ['Psychic']
 		},
 		{
-			name: { ja: "モーレツキッス" },
-			damage: 30,
-			cost: ["Colorless", "Colorless"],
+			name: { ja: 'モーレツキッス' },
 			effect: {
-				ja: "相手のバトルポケモンをこんらんにする。",
+				ja: '相手のバトルポケモンをこんらんにする。'
 			},
-		},
+			damage: 30,
+			cost: ['Colorless', 'Colorless']
+		}
 	],
 
-	weaknesses: [{ type: "Psychic", value: "x2" }],
+	weaknesses: [{ type: 'Psychic', value: "×2" }],
 	resistances: [],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 560197,
-			},
-		},
-	],
+				tcgplayer: 573953,
+				cardtrader: 142440
+			}
+		}
+	]
+}
 
-	retreat: 1,
-	rarity: "Uncommon",
-	dexId: [124],
-};
-
-export default card;
+export default card

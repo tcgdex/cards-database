@@ -1,57 +1,60 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ひかるレックウザ",
+		ja: 'ひかるレックウザ'
 	},
 
-	illustrator: "Naoki Saito",
-	category: "Pokemon",
+	illustrator: 'Naoki Saito',
+	rarity: "Rare Shining",
+	category: 'Pokemon',
+	dexId: [384],
 	hp: 120,
-	types: ["Dragon"],
+	types: ['Dragon'],
 
 	description: {
-		ja: "雲より はるか上の オゾン層に 生息しているため 地上から 姿を 見ることは できない。",
+		ja: '雲より はるか上の オゾン層に 生息しているため 地上から 姿を 見ることは できない。'
 	},
 
-	stage: "Basic",
+	stage: 'Basic',
 
 	attacks: [
 		{
-			name: { ja: "りゅうのはどう" },
-			damage: 40,
-			cost: ["Lightning"],
+			name: { ja: 'りゅうのはどう' },
 			effect: {
-				ja: "自分の山札を上から2枚トラッシュする。",
+				ja: '自分の山札を上から2枚トラッシュする。'
 			},
+			damage: 40,
+			cost: ['Lightning']
 		},
 		{
-			name: { ja: "てんくうのさばき" },
-			damage: 190,
-			cost: ["Fire", "Lightning", "Lightning", "Colorless"],
+			name: { ja: 'てんくうのさばき' },
 			effect: {
-				ja: "このポケモンについているエネルギーを、3個トラッシュする。",
+				ja: 'このポケモンについているエネルギーを、3個トラッシュする。'
 			},
-		},
+			damage: 190,
+			cost: ['Fire', 'Lightning', 'Lightning', 'Colorless']
+		}
 	],
 
-	weaknesses: [{ type: "Fairy", value: "x2" }],
+	weaknesses: [{ type: 'Fairy', value: "×2" }],
 	resistances: [],
 
+	retreat: 3,
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 560215,
-			},
-		},
-	],
+				tcgplayer: 573971,
+				cardtrader: 142458
+			}
+		}
+	]
+}
 
-	retreat: 3,
-	rarity: "Shiny Ultra Rare",
-	dexId: [384],
-};
-
-export default card;
+export default card

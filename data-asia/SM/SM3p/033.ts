@@ -1,54 +1,57 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ライコウ",
+		ja: 'ライコウ'
 	},
 
-	illustrator: "Mitsuhiro Arita",
-	category: "Pokemon",
+	illustrator: 'Mitsuhiro Arita',
+	rarity: 'Rare',
+	category: 'Pokemon',
+	dexId: [243],
 	hp: 120,
-	types: ["Lightning"],
+	types: ['Lightning'],
 
 	description: {
-		ja: "雨雲を 背負っているので どんなときでも 雷を 出せる。 雷とともに 落ちてきたという。",
+		ja: '雨雲を 背負っているので どんなときでも 雷を 出せる。 雷とともに 落ちてきたという。'
 	},
 
-	stage: "Basic",
+	stage: 'Basic',
 
 	attacks: [
 		{
-			name: { ja: "とどろくらいめい" },
-			damage: 30,
-			cost: ["Lightning"],
+			name: { ja: 'とどろくらいめい' },
 			effect: {
-				ja: "自分のトラッシュにある[雷]エネルギーを1枚、ベンチポケモンにつける。",
+				ja: "自分のトラッシュにある{L}エネルギーを1枚、ベンチポケモンにつける。"
 			},
+			damage: 30,
+			cost: ['Lightning']
 		},
 		{
-			name: { ja: "ライトニングボール" },
+			name: { ja: 'ライトニングボール' },
 			damage: 90,
-			cost: ["Lightning", "Lightning", "Colorless"],
-		},
+			cost: ['Lightning', 'Lightning', 'Colorless']
+		}
 	],
 
-	weaknesses: [{ type: "Fighting", value: "x2" }],
-	resistances: [{ type: "Metal", value: "-20" }],
-
-	variants: [
-		{
-			type: "holo",
-			thirdParty: {
-				cardmarket: 560191,
-			},
-		},
-	],
+	weaknesses: [{ type: 'Fighting', value: "×2" }],
+	resistances: [{ type: 'Metal', value: '-20' }],
 
 	retreat: 2,
-	rarity: "Rare",
-	dexId: [243],
-};
 
-export default card;
+	regulationMark: "A",
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 560191,
+				tcgplayer: 573947,
+				cardtrader: 142434
+			}
+		}
+	]
+}
+
+export default card

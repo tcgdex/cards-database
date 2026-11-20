@@ -1,46 +1,49 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フシギダネ",
+		ja: 'フシギダネ'
 	},
 
-	illustrator: "Mizue",
-	category: "Pokemon",
+	illustrator: 'Mizue',
+	rarity: 'Common',
+	category: 'Pokemon',
+	dexId: [1],
 	hp: 70,
-	types: ["Grass"],
+	types: ['Grass'],
 
 	description: {
-		ja: "生まれたときから 背中に 不思議な タネが 植えてあって 体と ともに 育つという。",
+		ja: '生まれたときから 背中に 不思議な タネが 植えてあって 体と ともに 育つという。'
 	},
 
-	stage: "Basic",
+	stage: 'Basic',
 
 	attacks: [
 		{
-			name: { ja: "はっぱカッター" },
+			name: { ja: 'はっぱカッター' },
 			damage: 30,
-			cost: ["Grass", "Colorless"],
-		},
+			cost: ['Grass', 'Colorless']
+		}
 	],
 
-	weaknesses: [{ type: "Fire", value: "x2" }],
+	weaknesses: [{ type: 'Fire', value: '×2' }],
 	resistances: [],
 
+	retreat: 2,
+
+	regulationMark: 'A',
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 560159,
-			},
-		},
-	],
+				tcgplayer: 573915,
+				cardtrader: 142402
+			}
+		}
+	]
+}
 
-	retreat: 2,
-	rarity: "Common",
-	dexId: [1],
-};
-
-export default card;
+export default card

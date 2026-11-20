@@ -1,53 +1,56 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ひかるミュウ",
+		ja: 'ひかるミュウ'
 	},
 
-	illustrator: "Sanosuke Sakuma",
-	category: "Pokemon",
+	illustrator: 'Sanosuke Sakuma',
+	rarity: "Rare Shining",
+	category: 'Pokemon',
+	dexId: [151],
 	hp: 30,
-	types: ["Psychic"],
+	types: ['Psychic'],
 
 	description: {
-		ja: "あらゆる 技を 使うため ポケモンの 先祖と 考える 学者が たくさん いる。",
+		ja: 'あらゆる 技を 使うため ポケモンの 先祖と 考える 学者が たくさん いる。'
 	},
 
-	stage: "Basic",
+	stage: 'Basic',
 
 	attacks: [
 		{
-			name: { ja: "でんせつのみちびき" },
-			cost: ["Psychic"],
+			name: { ja: 'でんせつのみちびき' },
 			effect: {
-				ja: "自分の山札にあるエネルギーを2枚まで、自分のポケモンに好きなようにつける。そして山札を切る。",
+				ja: '自分の山札にあるエネルギーを2枚まで、自分のポケモンに好きなようにつける。そして山札を切る。'
 			},
+			cost: ['Psychic']
 		},
 		{
-			name: { ja: "ビーム" },
+			name: { ja: 'ビーム' },
 			damage: 10,
-			cost: ["Psychic"],
-		},
+			cost: ['Psychic']
+		}
 	],
 
-	weaknesses: [{ type: "Psychic", value: "x2" }],
+	weaknesses: [{ type: 'Psychic', value: "×2" }],
 	resistances: [],
 
+	retreat: 0,
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 560199,
-			},
-		},
-	],
+				tcgplayer: 573955,
+				cardtrader: 142442
+			}
+		}
+	]
+}
 
-	retreat: 0,
-	rarity: "Shiny Ultra Rare",
-	dexId: [151],
-};
-
-export default card;
+export default card

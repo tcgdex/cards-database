@@ -1,54 +1,57 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "チョロネコ",
+		ja: 'チョロネコ'
 	},
 
-	illustrator: "Naoyo Kimura",
-	category: "Pokemon",
+	illustrator: 'Naoyo Kimura',
+	rarity: 'Common',
+	category: 'Pokemon',
+	dexId: [509],
 	hp: 60,
-	types: ["Darkness"],
+	types: ['Darkness'],
 
 	description: {
-		ja: "かわいらしい 仕草で 油断させて その すきに 持ち物を 奪う。 怒ると ツメを 立てて 反撃。",
+		ja: 'かわいらしい 仕草で 油断させて その すきに 持ち物を 奪う。 怒ると ツメを 立てて 反撃。'
 	},
 
-	stage: "Basic",
+	stage: 'Basic',
 
 	attacks: [
 		{
-			name: { ja: "ひっかく" },
+			name: { ja: 'ひっかく' },
 			damage: 10,
-			cost: ["Colorless"],
+			cost: ['Colorless']
 		},
 		{
-			name: { ja: "しっぽビンタ" },
-			damage: "20×",
-			cost: ["Darkness", "Colorless"],
+			name: { ja: 'しっぽビンタ' },
 			effect: {
-				ja: "コインを2回投げ、オモテの数x20ダメージ。",
+				ja: "コインを2回投げ、オモテの数×20ダメージ。"
 			},
-		},
+			damage: '20×',
+			cost: ['Darkness', 'Colorless']
+		}
 	],
 
-	weaknesses: [{ type: "Fighting", value: "x2" }],
-	resistances: [{ type: "Psychic", value: "-20" }],
-
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 560207,
-			},
-		},
-	],
+	weaknesses: [{ type: 'Fighting', value: "×2" }],
+	resistances: [{ type: 'Psychic', value: '-20' }],
 
 	retreat: 1,
-	rarity: "Common",
-	dexId: [509],
-};
 
-export default card;
+	regulationMark: "A",
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 560207,
+				tcgplayer: 573963,
+				cardtrader: 142450
+			}
+		}
+	]
+}
+
+export default card

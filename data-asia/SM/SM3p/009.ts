@@ -1,57 +1,60 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ビリジオン",
+		ja: 'ビリジオン'
 	},
 
-	illustrator: "kawayoo",
-	category: "Pokemon",
+	illustrator: 'kawayoo',
+	rarity: 'Rare',
+	category: 'Pokemon',
+	dexId: [640],
 	hp: 110,
-	types: ["Grass"],
+	types: ['Grass'],
 
 	description: {
-		ja: "頭の ツノは 鋭い 刃。 旋風のような 動きで 敵を 翻弄して 素早く 切りつける。",
+		ja: '頭の ツノは 鋭い 刃。 旋風のような 動きで 敵を 翻弄して 素早く 切りつける。'
 	},
 
-	stage: "Basic",
+	stage: 'Basic',
 
 	attacks: [
 		{
-			name: { ja: "かぜをまとう" },
-			damage: 30,
-			cost: ["Grass"],
+			name: { ja: 'かぜをまとう' },
 			effect: {
-				ja: "のぞむなら、自分の手札にある基本エネルギーを1枚、このポケモンにつける。",
+				ja: 'のぞむなら、自分の手札にある基本エネルギーを1枚、このポケモンにつける。'
 			},
+			damage: 30,
+			cost: ['Grass']
 		},
 		{
-			name: { ja: "ロングスピア" },
-			damage: 90,
-			cost: ["Grass", "Grass", "Colorless"],
+			name: { ja: 'ロングスピア' },
 			effect: {
-				ja: "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				ja: '相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］'
 			},
-		},
+			damage: 90,
+			cost: ['Grass', 'Grass', 'Colorless']
+		}
 	],
 
-	weaknesses: [{ type: "Fire", value: "x2" }],
+	weaknesses: [{ type: 'Fire', value: "×2" }],
 	resistances: [],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 560167,
-			},
-		},
-	],
+				tcgplayer: 573923,
+				cardtrader: 142410
+			}
+		}
+	]
+}
 
-	retreat: 1,
-	rarity: "Rare",
-	dexId: [640],
-};
-
-export default card;
+export default card

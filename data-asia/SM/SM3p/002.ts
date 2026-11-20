@@ -1,58 +1,61 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "フシギソウ",
+		ja: 'フシギソウ'
 	},
 
-	illustrator: "Kouki Saitou",
-	category: "Pokemon",
+	illustrator: 'Kouki Saitou',
+	rarity: 'Common',
+	category: 'Pokemon',
+	dexId: [2],
 	hp: 100,
-	types: ["Grass"],
+	types: ['Grass'],
+
+	evolveFrom: {
+		ja: 'フシギダネ'
+	},
 
 	description: {
-		ja: "つぼみが 背中に ついていて 養分を 吸収していくと 大きな 花が 咲くという。",
+		ja: 'つぼみが 背中に ついていて 養分を 吸収していくと 大きな 花が 咲くという。'
 	},
 
-	stage: "Stage1",
+	stage: 'Stage1',
 
 	attacks: [
 		{
-			name: { ja: "はっぱカッター" },
+			name: { ja: 'はっぱカッター' },
 			damage: 30,
-			cost: ["Grass", "Colorless"],
+			cost: ['Grass', 'Colorless']
 		},
 		{
-			name: { ja: "もうどくのムチ" },
-			damage: 50,
-			cost: ["Grass", "Grass", "Colorless", "Colorless"],
+			name: { ja: 'もうどくのムチ' },
 			effect: {
-				ja: "相手のバトルポケモンをどくとこんらんにする。",
+				ja: '相手のバトルポケモンをどくとこんらんにする。'
 			},
-		},
+			damage: 50,
+			cost: ['Grass', 'Grass', 'Colorless', 'Colorless']
+		}
 	],
 
-	weaknesses: [{ type: "Fire", value: "x2" }],
+	weaknesses: [{ type: 'Fire', value: "×2" }],
 	resistances: [],
 
+	retreat: 4,
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 560160,
-			},
-		},
-	],
+				tcgplayer: 573916,
+				cardtrader: 142403
+			}
+		}
+	]
+}
 
-	evolveFrom: {
-		ja: "フシギダネ",
-	},
-
-	retreat: 4,
-	rarity: "Common",
-	dexId: [2],
-};
-
-export default card;
+export default card

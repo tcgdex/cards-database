@@ -1,68 +1,71 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゾロアークGX",
+		ja: 'ゾロアークGX'
 	},
 
-	illustrator: "",
-	category: "Pokemon",
+	illustrator: "5ban Graphics",
+	rarity: "Secret Rare",
+	category: 'Pokemon',
+	dexId: [571],
 	hp: 210,
-	types: ["Darkness"],
+	types: ['Darkness'],
 
-	stage: "Stage1",
+	evolveFrom: {
+		ja: 'ゾロア'
+	},
+
+	stage: 'Stage1',
+
+	suffix: 'GX',
 
 	abilities: [
 		{
-			type: "Ability",
-			name: { ja: "とりひき" },
+			type: 'Ability',
+			name: { ja: 'とりひき' },
 			effect: {
-				ja: "自分の番に1回使える。自分の手札を1枚トラッシュする。その後、山札を2枚引く。",
-			},
-		},
+				ja: '自分の番に1回使える。自分の手札を1枚トラッシュする。その後、山札を2枚引く。'
+			}
+		}
 	],
 
 	attacks: [
 		{
-			name: { ja: "ライオットビート" },
-			damage: "20×",
-			cost: ["Colorless", "Colorless"],
+			name: { ja: 'ライオットビート' },
 			effect: {
-				ja: "自分の場のポケモンの数x20ダメージ。",
+				ja: '自分の場のポケモンの数x20ダメージ。'
 			},
+			damage: '20×',
+			cost: ['Colorless', 'Colorless']
 		},
 		{
-			name: { ja: "トリックスターGX" },
-			cost: ["Darkness", "Darkness"],
+			name: { ja: 'トリックスターGX' },
 			effect: {
-				ja: "相手の場のポケモンが持っているワザを1つ選び、このワザとして使う。［対戦中、自分はGXワザを1回しか使えない。］",
+				ja: '相手の場のポケモンが持っているワザを1つ選び、このワザとして使う。［対戦中、自分はGXワザを1回しか使えない。］'
 			},
-		},
+			cost: ['Darkness', 'Darkness']
+		}
 	],
 
-	weaknesses: [{ type: "Fighting", value: "x2" }],
-	resistances: [{ type: "Psychic", value: "-20" }],
-
-	variants: [
-		{
-			type: "holo",
-			thirdParty: {
-				cardmarket: 560239,
-			},
-		},
-	],
-
-	evolveFrom: {
-		ja: "ゾロア",
-	},
+	weaknesses: [{ type: 'Fighting', value: "×2" }],
+	resistances: [{ type: 'Psychic', value: '-20' }],
 
 	retreat: 2,
-	rarity: "Hyper rare",
-	dexId: [571],
 
-	suffix: "GX",
-};
+	regulationMark: "A",
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 560239,
+				tcgplayer: 573995,
+				cardtrader: 142482
+			}
+		}
+	]
+}
 
-export default card;
+export default card

@@ -1,30 +1,33 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "マーマネ",
+		ja: 'マーマネ'
 	},
 
-	illustrator: "Ken Sugimori",
-	category: "Trainer",
+	illustrator: 'Ken Sugimori',
+	rarity: 'Uncommon',
+	category: 'Trainer',
 
 	effect: {
-		ja: "このカードは、自分の手札を2枚トラッシュしなければ使えない。自分の山札を4枚引く。",
+		ja: 'このカードは、自分の手札を2枚トラッシュしなければ使えない。自分の山札を4枚引く。'
 	},
 
+	trainerType: 'Supporter',
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 560227,
-			},
-		},
-	],
+				tcgplayer: 573983,
+				cardtrader: 142470
+			}
+		}
+	]
+}
 
-	trainerType: "Supporter",
-	rarity: "Uncommon",
-};
-
-export default card;
+export default card

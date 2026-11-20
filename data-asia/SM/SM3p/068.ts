@@ -1,30 +1,33 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポケモンブリーダー",
+		ja: 'ポケモンブリーダー'
 	},
 
-	illustrator: "Kanako Eo",
-	category: "Trainer",
+	illustrator: 'Kanako Eo',
+	rarity: 'Uncommon',
+	category: 'Trainer',
 
 	effect: {
-		ja: "自分の山札を2枚引く。その後、自分のバトルポケモンのHPを「20」回復する。",
+		ja: '自分の山札を2枚引く。その後、自分のバトルポケモンのHPを「20」回復する。'
 	},
 
+	trainerType: 'Supporter',
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 560226,
-			},
-		},
-	],
+				tcgplayer: 573982,
+				cardtrader: 142469
+			}
+		}
+	]
+}
 
-	trainerType: "Supporter",
-	rarity: "Uncommon",
-};
-
-export default card;
+export default card

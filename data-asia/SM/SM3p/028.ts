@@ -1,56 +1,59 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ひかるボルケニオン",
+		ja: 'ひかるボルケニオン'
 	},
 
-	illustrator: "Hitoshi Ariga",
-	category: "Pokemon",
+	illustrator: 'Hitoshi Ariga',
+	rarity: "Rare Shining",
+	category: 'Pokemon',
+	dexId: [721],
 	hp: 130,
-	types: ["Water"],
+	types: ['Water'],
 
 	description: {
-		ja: "水蒸気を 噴き出して 自分の 姿を 濃霧で 隠す。 人の 立ち入らない 山に 住むという。",
+		ja: '水蒸気を 噴き出して 自分の 姿を 濃霧で 隠す。 人の 立ち入らない 山に 住むという。'
 	},
 
-	stage: "Basic",
+	stage: 'Basic',
 
 	attacks: [
 		{
-			name: { ja: "デュアルポンプ" },
-			cost: ["Water", "Water", "Water"],
+			name: { ja: 'デュアルポンプ' },
 			effect: {
-				ja: "相手のポケモン2匹に、それぞれ50ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				ja: '相手のポケモン2匹に、それぞれ50ダメージ。［ベンチは弱点・抵抗力を計算しない。］'
 			},
+			cost: ['Water', 'Water', 'Water']
 		},
 		{
-			name: { ja: "グランドスマッシュ" },
-			damage: "50×",
-			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+			name: { ja: 'グランドスマッシュ' },
 			effect: {
-				ja: "コインを4回投げ、オモテの数x50ダメージ。",
+				ja: "コインを4回投げ、オモテの数×50ダメージ。"
 			},
-		},
+			damage: '50×',
+			cost: ['Colorless', 'Colorless', 'Colorless', 'Colorless']
+		}
 	],
 
-	weaknesses: [{ type: "Lightning", value: "x2" }],
+	weaknesses: [{ type: 'Lightning', value: "×2" }],
 	resistances: [],
 
+	retreat: 3,
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 560186,
-			},
-		},
-	],
+				tcgplayer: 573942,
+				cardtrader: 142429
+			}
+		}
+	]
+}
 
-	retreat: 3,
-	rarity: "Shiny Ultra Rare",
-	dexId: [721],
-};
-
-export default card;
+export default card

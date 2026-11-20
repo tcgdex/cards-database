@@ -1,57 +1,60 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゼクロム",
+		ja: 'ゼクロム'
 	},
 
-	illustrator: "nagimiso",
-	category: "Pokemon",
+	illustrator: 'nagimiso',
+	rarity: 'Rare',
+	category: 'Pokemon',
+	dexId: [644],
 	hp: 130,
-	types: ["Lightning"],
+	types: ['Lightning'],
 
 	description: {
-		ja: "稲妻で 世界を 焼きつくせる 伝説の ポケモン。 理想の 世界を つくる 人を 補佐する。",
+		ja: '稲妻で 世界を 焼きつくせる 伝説の ポケモン。 理想の 世界を つくる 人を 補佐する。'
 	},
 
-	stage: "Basic",
+	stage: 'Basic',
 
 	attacks: [
 		{
-			name: { ja: "げきりん" },
-			damage: "20+",
-			cost: ["Colorless", "Colorless"],
+			name: { ja: 'げきりん' },
 			effect: {
-				ja: "このポケモンにのっているダメカンの数x10ダメージ追加。",
+				ja: "このポケモンにのっているダメカンの数×10ダメージ追加。"
 			},
+			damage: '20+',
+			cost: ['Colorless', 'Colorless']
 		},
 		{
-			name: { ja: "いかずちのやいば" },
+			name: { ja: 'いかずちのやいば' },
+			effect: {
+				ja: 'このポケモンについているエネルギーを、2個トラッシュする。'
+			},
 			damage: 130,
-			cost: ["Lightning", "Lightning", "Colorless"],
-			effect: {
-				ja: "このポケモンについているエネルギーを、2個トラッシュする。",
-			},
-		},
+			cost: ['Lightning', 'Lightning', 'Colorless']
+		}
 	],
 
-	weaknesses: [{ type: "Fighting", value: "x2" }],
-	resistances: [{ type: "Metal", value: "-20" }],
-
-	variants: [
-		{
-			type: "holo",
-			thirdParty: {
-				cardmarket: 560194,
-			},
-		},
-	],
+	weaknesses: [{ type: 'Fighting', value: "×2" }],
+	resistances: [{ type: 'Metal', value: '-20' }],
 
 	retreat: 3,
-	rarity: "Rare",
-	dexId: [644],
-};
 
-export default card;
+	regulationMark: "A",
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 560194,
+				tcgplayer: 573950,
+				cardtrader: 142437
+			}
+		}
+	]
+}
+
+export default card

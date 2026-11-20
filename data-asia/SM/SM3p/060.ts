@@ -1,30 +1,33 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エネルギー回収",
+		ja: 'エネルギー回収'
 	},
 
-	illustrator: "Toyste Beach",
-	category: "Trainer",
+	illustrator: 'Toyste Beach',
+	rarity: 'Uncommon',
+	category: 'Trainer',
 
 	effect: {
-		ja: "自分のトラッシュから基本エネルギーを2枚選び、相手に見せてから、手札に加える。",
+		ja: "自分のトラッシュにある基本エネルギーを2枚、相手に見せてから、手札に加える。"
 	},
 
+	trainerType: 'Item',
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 560218,
-			},
-		},
-	],
+				tcgplayer: 573974,
+				cardtrader: 142461
+			}
+		}
+	]
+}
 
-	trainerType: "Item",
-	rarity: "Uncommon",
-};
-
-export default card;
+export default card
