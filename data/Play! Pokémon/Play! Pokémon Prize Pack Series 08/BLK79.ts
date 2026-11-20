@@ -1,0 +1,41 @@
+import { Card } from "../../../interfaces"
+import Set from "../Play! Pokémon Prize Pack Series 08"
+
+const card: Card = {
+	set: Set,
+
+	name: {
+		en: "Air Balloon",
+		fr: "Ballon",
+		de: "Luftballon",
+		it: "Palloncino",
+		pt: "Balão de Ar",
+		es: "Globo Helio",
+		'es-mx': "Globo con Helio"
+	},
+
+	illustrator: "Studio Bora Inc.",
+	rarity: "Uncommon",
+	category: "Trainer",
+
+	effect: {
+		en: "The Retreat Cost of the Pokémon this card is attached to is {C}{C} less.",
+		fr: "Le Coût de Retraite du Pokémon auquel cette carte est attachée est diminué de {C}{C}.",
+		de: "Die Rückzugskosten des Pokémon, an das diese Karte angelegt ist, verringern sich um {C} {C}. Du kannst während deines Zuges beliebig viele Pokémon-Ausrüstungen an deine Pokémon anlegen. Du kannst an jedes Pokémon nur 1 Pokémon-Ausrüstung anlegen, und sie bleibt angelegt.",
+		it: "Il costo di ritirata del Pokémon a cui è assegnata questa carta è ridotto di {C}{C}.",
+		pt: "O custo de Recuo do Pokémon ao qual esta carta está ligada é {C}{C} a menos.",
+		es: "El Coste de Retirada del Pokémon al que esté unida esta carta es de {C}{C} menos.",
+		'es-mx': "El Costo de Retirada del Pokémon al que esté unida esta carta es de {C}{C} menos."
+	},
+
+	trainerType: "Tool",
+	regulationMark: "I",
+	variants: [
+		{
+			type: "holo",
+			stamp: ["player-rewards-program"],
+		},
+	]
+}
+
+export default card
