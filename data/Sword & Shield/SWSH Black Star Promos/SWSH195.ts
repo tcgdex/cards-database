@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Leafeon VSTAR"
 	},
 
+	illustrator: "5ban Graphics",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 260,
