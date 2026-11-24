@@ -1,54 +1,57 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ラティオス",
+		ja: 'ラティオス'
 	},
 
-	illustrator: "Mitsuhiro Arita",
-	category: "Pokemon",
+	illustrator: 'Mitsuhiro Arita',
+	rarity: 'Rare',
+	category: 'Pokemon',
+	dexId: [381],
 	hp: 110,
-	types: ["Psychic"],
+	types: ['Psychic'],
 
 	description: {
-		ja: "高い 知能を 持つ ポケモン。 腕を 折りたたんで 飛べば ジェット機を 追い越す スピードだ。",
+		ja: '高い 知能を 持つ ポケモン。 腕を 折りたたんで 飛べば ジェット機を 追い越す スピードだ。'
 	},
 
-	stage: "Basic",
+	stage: 'Basic',
 
 	attacks: [
 		{
-			name: { ja: "ブレイクスルー" },
-			damage: 30,
-			cost: ["Colorless", "Colorless"],
+			name: { ja: 'ブレイクスルー' },
 			effect: {
-				ja: "相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				ja: '相手のベンチポケモン1匹にも、30ダメージ。［ベンチは弱点・抵抗力を計算しない。］'
 			},
+			damage: 30,
+			cost: ['Colorless', 'Colorless']
 		},
 		{
-			name: { ja: "ラグーンフライト" },
+			name: { ja: 'ラグーンフライト' },
 			damage: 70,
-			cost: ["Psychic", "Colorless", "Colorless"],
-		},
+			cost: ['Psychic', 'Colorless', 'Colorless']
+		}
 	],
 
-	weaknesses: [{ type: "Psychic", value: "x2" }],
+	weaknesses: [{ type: 'Psychic', value: "×2" }],
 	resistances: [],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 560200,
-			},
-		},
-	],
+				tcgplayer: 573956,
+				cardtrader: 142443
+			}
+		}
+	]
+}
 
-	retreat: 1,
-	rarity: "Rare",
-	dexId: [381],
-};
-
-export default card;
+export default card

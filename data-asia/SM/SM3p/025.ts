@@ -1,54 +1,57 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "パルキア",
+		ja: 'パルキア'
 	},
 
-	illustrator: "Eske Yoshinob",
-	category: "Pokemon",
+	illustrator: 'Eske Yoshinob',
+	rarity: 'Rare',
+	category: 'Pokemon',
+	dexId: [484],
 	hp: 130,
-	types: ["Water"],
+	types: ['Water'],
 
 	description: {
-		ja: "並行して 並ぶ 空間の 狭間に 住むと 言われている。 神話に 登場する ポケモン。",
+		ja: '並行して 並ぶ 空間の 狭間に 住むと 言われている。 神話に 登場する ポケモン。'
 	},
 
-	stage: "Basic",
+	stage: 'Basic',
 
 	attacks: [
 		{
-			name: { ja: "スパイラルドレイン" },
-			damage: 30,
-			cost: ["Colorless", "Colorless"],
+			name: { ja: 'スパイラルドレイン' },
 			effect: {
-				ja: "このポケモンのHPを「30」回復する。",
+				ja: 'このポケモンのHPを「30」回復する。'
 			},
+			damage: 30,
+			cost: ['Colorless', 'Colorless']
 		},
 		{
-			name: { ja: "アクアブレード" },
+			name: { ja: 'アクアブレード' },
 			damage: 100,
-			cost: ["Water", "Water", "Colorless"],
-		},
+			cost: ['Water', 'Water', 'Colorless']
+		}
 	],
 
-	weaknesses: [{ type: "Grass", value: "x2" }],
+	weaknesses: [{ type: 'Grass', value: "×2" }],
 	resistances: [],
 
+	retreat: 2,
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 560183,
-			},
-		},
-	],
+				tcgplayer: 573939,
+				cardtrader: 142426
+			}
+		}
+	]
+}
 
-	retreat: 2,
-	rarity: "Rare",
-	dexId: [484],
-};
-
-export default card;
+export default card

@@ -1,67 +1,70 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ライチュウGX",
+		ja: 'ライチュウGX'
 	},
 
-	illustrator: "",
-	category: "Pokemon",
+	illustrator: "5ban Graphics",
+	rarity: "Secret Rare",
+	category: 'Pokemon',
+	dexId: [26],
 	hp: 210,
-	types: ["Lightning"],
+	types: ['Lightning'],
 
-	stage: "Stage1",
+	evolveFrom: {
+		ja: 'ピカチュウ'
+	},
+
+	stage: 'Stage1',
+
+	suffix: 'GX',
 
 	attacks: [
 		{
-			name: { ja: "パワフルスパーク" },
-			damage: "20+",
-			cost: ["Colorless", "Colorless"],
+			name: { ja: 'パワフルスパーク' },
 			effect: {
-				ja: "自分の場のポケモンについている[雷]エネルギーの数x20ダメージ追加。",
+				ja: "自分の場のポケモンについている{L}エネルギーの数x20ダメージ追加。"
 			},
+			damage: '20+',
+			cost: ['Colorless', 'Colorless']
 		},
 		{
-			name: { ja: "かみなり" },
+			name: { ja: 'かみなり' },
+			effect: {
+				ja: 'このポケモンにも30ダメージ。'
+			},
 			damage: 160,
-			cost: ["Lightning", "Lightning", "Colorless"],
-			effect: {
-				ja: "このポケモンにも30ダメージ。",
-			},
+			cost: ['Lightning', 'Lightning', 'Colorless']
 		},
 		{
-			name: { ja: "ボルテールGX" },
+			name: { ja: 'ボルテールGX' },
+			effect: {
+				ja: '相手のバトルポケモンをマヒにする。［対戦中、自分はGXワザを1回しか使えない。］'
+			},
 			damage: 120,
-			cost: ["Lightning", "Lightning", "Colorless"],
-			effect: {
-				ja: "相手のバトルポケモンをマヒにする。［対戦中、自分はGXワザを1回しか使えない。］",
-			},
-		},
+			cost: ['Lightning', 'Lightning', 'Colorless']
+		}
 	],
 
-	weaknesses: [{ type: "Fighting", value: "x2" }],
-	resistances: [{ type: "Metal", value: "-20" }],
-
-	variants: [
-		{
-			type: "holo",
-			thirdParty: {
-				cardmarket: 560237,
-			},
-		},
-	],
-
-	evolveFrom: {
-		ja: "ピカチュウ",
-	},
+	weaknesses: [{ type: 'Fighting', value: "×2" }],
+	resistances: [{ type: 'Metal', value: '-20' }],
 
 	retreat: 1,
-	rarity: "Hyper rare",
-	dexId: [26],
 
-	suffix: "GX",
-};
+	regulationMark: "A",
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 560237,
+				tcgplayer: 573993,
+				cardtrader: 142480
+			}
+		}
+	]
+}
 
-export default card;
+export default card

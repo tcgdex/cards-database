@@ -1,30 +1,33 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポケモンキャッチャー",
+		ja: 'ポケモンキャッチャー'
 	},
 
-	illustrator: "Toyste Beach",
-	category: "Trainer",
+	illustrator: 'Toyste Beach',
+	rarity: 'Uncommon',
+	category: 'Trainer',
 
 	effect: {
-		ja: "相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。",
+		ja: "コインを1回投げオモテなら、相手のベンチポケモンを1匹選び、バトルポケモンと入れ替える。"
 	},
 
+	trainerType: 'Item',
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 560224,
-			},
-		},
-	],
+				tcgplayer: 573980,
+				cardtrader: 142467
+			}
+		}
+	]
+}
 
-	trainerType: "Item",
-	rarity: "Uncommon",
-};
-
-export default card;
+export default card

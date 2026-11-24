@@ -1,58 +1,61 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ひかるアルセウス",
+		ja: 'ひかるアルセウス'
 	},
 
-	illustrator: "Kouki Saitou",
-	category: "Pokemon",
+	illustrator: 'Kouki Saitou',
+	rarity: "Rare Shining",
+	category: 'Pokemon',
+	dexId: [493],
 	hp: 130,
-	types: ["Colorless"],
+	types: ['Colorless'],
 
 	description: {
-		ja: "タマゴから 姿を 現して 世界の すべてを 生み出したと シンオウ神話に 語られている。",
+		ja: 'タマゴから 姿を 現して 世界の すべてを 生み出したと シンオウ神話に 語られている。'
 	},
 
-	stage: "Basic",
+	stage: 'Basic',
 
 	abilities: [
 		{
-			type: "Ability",
-			name: { ja: "しんわのまもり" },
+			type: 'Ability',
+			name: { ja: 'しんわのまもり' },
 			effect: {
-				ja: "このポケモンがバトル場にいるかぎり、自分のベンチポケモン全員は、相手のワザのダメージを受けない。",
-			},
-		},
+				ja: 'このポケモンがバトル場にいるかぎり、自分のベンチポケモン全員は、相手のワザのダメージを受けない。'
+			}
+		}
 	],
 
 	attacks: [
 		{
-			name: { ja: "アルティメットアロー" },
-			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
+			name: { ja: 'アルティメットアロー' },
 			effect: {
-				ja: "相手のポケモン全員に、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］",
+				ja: '相手のポケモン全員に、それぞれ30ダメージ。［ベンチは弱点・抵抗力を計算しない。］'
 			},
-		},
+			cost: ['Colorless', 'Colorless', 'Colorless', 'Colorless']
+		}
 	],
 
-	weaknesses: [{ type: "Fighting", value: "x2" }],
+	weaknesses: [{ type: 'Fighting', value: "×2" }],
 	resistances: [],
 
+	retreat: 2,
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 560217,
-			},
-		},
-	],
+				tcgplayer: 573973,
+				cardtrader: 142460
+			}
+		}
+	]
+}
 
-	retreat: 2,
-	rarity: "Shiny Ultra Rare",
-	dexId: [493],
-};
-
-export default card;
+export default card

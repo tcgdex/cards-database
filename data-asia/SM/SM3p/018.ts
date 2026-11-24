@@ -1,61 +1,64 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ガオガエン",
+		ja: 'ガオガエン'
 	},
 
-	illustrator: "Emi Ando",
-	category: "Pokemon",
+	illustrator: 'Emi Ando',
+	rarity: 'Uncommon',
+	category: 'Pokemon',
+	dexId: [727],
 	hp: 170,
-	types: ["Fire"],
+	types: ['Fire'],
+
+	evolveFrom: {
+		ja: 'ニャヒート'
+	},
 
 	description: {
-		ja: "粗暴で 身勝手な 性格。 気分が 乗らなければ トレーナーの 命令も 平気で 無視するぞ。",
+		ja: '粗暴で 身勝手な 性格。 気分が 乗らなければ トレーナーの 命令も 平気で 無視するぞ。'
 	},
 
-	stage: "Stage2",
+	stage: 'Stage2',
 
 	attacks: [
 		{
-			name: { ja: "ガッデムパンチ" },
-			damage: "50+",
-			cost: ["Fire", "Colorless"],
+			name: { ja: 'ガッデムパンチ' },
 			effect: {
-				ja: "自分のベンチポケモンにダメカンがのっているなら、80ダメージ追加。",
+				ja: '自分のベンチポケモンにダメカンがのっているなら、80ダメージ追加。'
 			},
+			damage: '50+',
+			cost: ['Fire', 'Colorless']
 		},
 		{
-			name: { ja: "フレアドライブ" },
-			damage: 180,
-			cost: ["Fire", "Fire", "Colorless"],
+			name: { ja: 'フレアドライブ' },
 			effect: {
-				ja: "このポケモンについている[炎]エネルギーを、すべてトラッシュする。",
+				ja: "このポケモンについている{R}エネルギーを、すべてトラッシュする。"
 			},
-		},
+			damage: 180,
+			cost: ['Fire', 'Fire', 'Colorless']
+		}
 	],
 
-	weaknesses: [{ type: "Water", value: "x2" }],
+	weaknesses: [{ type: 'Water', value: "×2" }],
 	resistances: [],
 
+	retreat: 2,
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 560176,
-			},
-		},
-	],
+				tcgplayer: 573932,
+				cardtrader: 142419
+			}
+		}
+	]
+}
 
-	evolveFrom: {
-		ja: "ニャヒート",
-	},
-
-	retreat: 2,
-	rarity: "Uncommon",
-	dexId: [727],
-};
-
-export default card;
+export default card

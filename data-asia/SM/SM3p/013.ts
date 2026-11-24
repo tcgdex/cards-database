@@ -1,46 +1,49 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "メラルバ",
+		ja: 'メラルバ'
 	},
 
-	illustrator: "kawayoo",
-	category: "Pokemon",
+	illustrator: 'kawayoo',
+	rarity: 'Common',
+	category: 'Pokemon',
+	dexId: [636],
 	hp: 80,
-	types: ["Fire"],
+	types: ['Fire'],
 
 	description: {
-		ja: "太陽から 生まれたと いわれる。 進化するとき ツノから 噴き出した 炎で 全身を 包みこむ。",
+		ja: '太陽から 生まれたと いわれる。 進化するとき ツノから 噴き出した 炎で 全身を 包みこむ。'
 	},
 
-	stage: "Basic",
+	stage: 'Basic',
 
 	attacks: [
 		{
-			name: { ja: "ほのお" },
+			name: { ja: 'ほのお' },
 			damage: 30,
-			cost: ["Fire", "Colorless"],
-		},
+			cost: ['Fire', 'Colorless']
+		}
 	],
 
-	weaknesses: [{ type: "Water", value: "x2" }],
+	weaknesses: [{ type: 'Water', value: "×2" }],
 	resistances: [],
 
+	retreat: 3,
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 560171,
-			},
-		},
-	],
+				tcgplayer: 573927,
+				cardtrader: 142414
+			}
+		}
+	]
+}
 
-	retreat: 3,
-	rarity: "Common",
-	dexId: [636],
-};
-
-export default card;
+export default card

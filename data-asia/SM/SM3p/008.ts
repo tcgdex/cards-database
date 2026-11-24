@@ -1,56 +1,59 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "シェイミ",
+		ja: 'シェイミ'
 	},
 
-	illustrator: "Mizue",
-	category: "Pokemon",
+	illustrator: 'Mizue',
+	rarity: 'Rare',
+	category: 'Pokemon',
+	dexId: [492],
 	hp: 70,
-	types: ["Grass"],
+	types: ['Grass'],
 
 	description: {
-		ja: "大気の 毒素を 分解して 荒れた 大地を 一瞬のうちに 花畑にする 力を 持つ。",
+		ja: '大気の 毒素を 分解して 荒れた 大地を 一瞬のうちに 花畑にする 力を 持つ。'
 	},
 
-	stage: "Basic",
+	stage: 'Basic',
 
 	attacks: [
 		{
-			name: { ja: "ぱたぱた" },
-			cost: ["Grass"],
+			name: { ja: 'ぱたぱた' },
 			effect: {
-				ja: "自分の手札をすべて山札にもどして切る。その後、山札を6枚引く。",
+				ja: '自分の手札をすべて山札にもどして切る。その後、山札を6枚引く。'
 			},
+			cost: ['Grass']
 		},
 		{
-			name: { ja: "まきかえす" },
-			damage: "30+",
-			cost: ["Grass", "Colorless"],
+			name: { ja: 'まきかえす' },
 			effect: {
-				ja: "前の相手の番に、ワザのダメージで、自分のポケモンがきぜつしていたなら、90ダメージ追加。",
+				ja: '前の相手の番に、ワザのダメージで、自分のポケモンがきぜつしていたなら、90ダメージ追加。'
 			},
-		},
+			damage: '30+',
+			cost: ['Grass', 'Colorless']
+		}
 	],
 
-	weaknesses: [{ type: "Fire", value: "x2" }],
+	weaknesses: [{ type: 'Fire', value: "×2" }],
 	resistances: [],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 560166,
-			},
-		},
-	],
+				tcgplayer: 573922,
+				cardtrader: 142409
+			}
+		}
+	]
+}
 
-	retreat: 1,
-	rarity: "Rare",
-	dexId: [492],
-};
-
-export default card;
+export default card

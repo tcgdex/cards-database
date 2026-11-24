@@ -1,58 +1,61 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "オーダイル",
+		ja: 'オーダイル'
 	},
 
-	illustrator: "nagimiso",
-	category: "Pokemon",
+	illustrator: 'nagimiso',
+	rarity: 'Uncommon',
+	category: 'Pokemon',
+	dexId: [160],
 	hp: 160,
-	types: ["Water"],
+	types: ['Water'],
+
+	evolveFrom: {
+		ja: 'アリゲイツ'
+	},
 
 	description: {
-		ja: "普段は ゆっくりとした 動きだが 獲物に かみつくときは 目にも 止まらない スピードだ。",
+		ja: '普段は ゆっくりとした 動きだが 獲物に かみつくときは 目にも 止まらない スピードだ。'
 	},
 
-	stage: "Stage2",
+	stage: 'Stage2',
 
 	attacks: [
 		{
-			name: { ja: "かみくだく" },
-			damage: 80,
-			cost: ["Water", "Colorless", "Colorless"],
+			name: { ja: 'かみくだく' },
 			effect: {
-				ja: "相手のバトルポケモンについているエネルギーを、1個トラッシュする。",
+				ja: '相手のバトルポケモンについているエネルギーを、1個トラッシュする。'
 			},
+			damage: 80,
+			cost: ['Water', 'Colorless', 'Colorless']
 		},
 		{
-			name: { ja: "ハイドロスプラッシュ" },
+			name: { ja: 'ハイドロスプラッシュ' },
 			damage: 130,
-			cost: ["Water", "Colorless", "Colorless", "Colorless"],
-		},
+			cost: ['Water', 'Colorless', 'Colorless', 'Colorless']
+		}
 	],
 
-	weaknesses: [{ type: "Grass", value: "x2" }],
+	weaknesses: [{ type: 'Grass', value: "×2" }],
 	resistances: [],
 
+	retreat: 3,
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 560179,
-			},
-		},
-	],
+				tcgplayer: 573935,
+				cardtrader: 142422
+			}
+		}
+	]
+}
 
-	evolveFrom: {
-		ja: "アリゲイツ",
-	},
-
-	retreat: 3,
-	rarity: "Uncommon",
-	dexId: [160],
-};
-
-export default card;
+export default card

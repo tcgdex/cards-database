@@ -1,49 +1,52 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "アーボ",
+		ja: 'アーボ'
 	},
 
-	illustrator: "DemizuPosuka",
-	category: "Pokemon",
+	illustrator: 'DemizuPosuka',
+	rarity: 'Common',
+	category: 'Pokemon',
+	dexId: [23],
 	hp: 70,
-	types: ["Psychic"],
+	types: ['Psychic'],
 
 	description: {
-		ja: "育つほどに どんどん 長くなる。 そして 夜中は 木の枝に グルグルと 絡まって 休む。",
+		ja: '育つほどに どんどん 長くなる。 そして 夜中は 木の枝に グルグルと 絡まって 休む。'
 	},
 
-	stage: "Basic",
+	stage: 'Basic',
 
 	attacks: [
 		{
-			name: { ja: "どくばり" },
-			damage: 10,
-			cost: ["Colorless"],
+			name: { ja: 'どくばり' },
 			effect: {
-				ja: "コインを1回投げオモテなら、相手のバトルポケモンをどくにする。",
+				ja: 'コインを1回投げオモテなら、相手のバトルポケモンをどくにする。'
 			},
-		},
+			damage: 10,
+			cost: ['Colorless']
+		}
 	],
 
-	weaknesses: [{ type: "Psychic", value: "x2" }],
+	weaknesses: [{ type: 'Psychic', value: "×2" }],
 	resistances: [],
 
+	retreat: 2,
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 560195,
-			},
-		},
-	],
+				tcgplayer: 573951,
+				cardtrader: 142438
+			}
+		}
+	]
+}
 
-	retreat: 2,
-	rarity: "Common",
-	dexId: [23],
-};
-
-export default card;
+export default card

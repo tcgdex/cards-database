@@ -1,59 +1,62 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "エンテイGX",
+		ja: 'エンテイGX'
 	},
 
-	illustrator: "5ban Graphics",
-	category: "Pokemon",
+	illustrator: '5ban Graphics',
+	rarity: 'Double rare',
+	category: 'Pokemon',
+	dexId: [244],
 	hp: 180,
-	types: ["Fire"],
+	types: ['Fire'],
 
-	stage: "Basic",
+	stage: 'Basic',
+
+	suffix: 'GX',
 
 	attacks: [
 		{
-			name: { ja: "かえん" },
+			name: { ja: 'かえん' },
 			damage: 50,
-			cost: ["Fire", "Colorless"],
+			cost: ['Fire', 'Colorless']
 		},
 		{
-			name: { ja: "ほのおのキバ" },
+			name: { ja: 'ほのおのキバ' },
+			effect: {
+				ja: '相手のバトルポケモンをやけどにする。'
+			},
 			damage: 100,
-			cost: ["Fire", "Fire", "Colorless"],
-			effect: {
-				ja: "相手のバトルポケモンをやけどにする。",
-			},
+			cost: ['Fire', 'Fire', 'Colorless']
 		},
 		{
-			name: { ja: "ブレイブバーンGX" },
-			cost: ["Fire", "Fire", "Colorless"],
+			name: { ja: 'ブレイブバーンGX' },
 			effect: {
-				ja: "相手のベンチポケモン1匹に、150ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］",
+				ja: '相手のベンチポケモン1匹に、150ダメージ。［ベンチは弱点・抵抗力を計算しない。］［対戦中、自分はGXワザを1回しか使えない。］'
 			},
-		},
+			cost: ['Fire', 'Fire', 'Colorless']
+		}
 	],
 
-	weaknesses: [{ type: "Water", value: "x2" }],
+	weaknesses: [{ type: 'Water', value: "×2" }],
 	resistances: [],
 
+	retreat: 2,
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 560169,
-			},
-		},
-	],
+				tcgplayer: 573925,
+				cardtrader: 142412
+			}
+		}
+	]
+}
 
-	retreat: 2,
-	rarity: "Double rare",
-	dexId: [244],
-
-	suffix: "GX",
-};
-
-export default card;
+export default card

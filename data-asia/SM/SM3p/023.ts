@@ -1,51 +1,54 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ブイゼル",
+		ja: 'ブイゼル'
 	},
 
-	illustrator: "Sekio",
-	category: "Pokemon",
+	illustrator: 'Sekio',
+	rarity: 'Common',
+	category: 'Pokemon',
+	dexId: [418],
 	hp: 60,
-	types: ["Water"],
+	types: ['Water'],
 
 	description: {
-		ja: "２本の 尻尾を スクリューの ように 回して 泳ぐ。 潜る ときは 浮き袋が しぼむ。",
+		ja: '２本の 尻尾を スクリューの ように 回して 泳ぐ。 潜る ときは 浮き袋が しぼむ。'
 	},
 
-	stage: "Basic",
+	stage: 'Basic',
 
 	attacks: [
 		{
-			name: { ja: "ひれカッター" },
+			name: { ja: 'ひれカッター' },
 			damage: 10,
-			cost: ["Colorless"],
+			cost: ['Colorless']
 		},
 		{
-			name: { ja: "みずでっぽう" },
+			name: { ja: 'みずでっぽう' },
 			damage: 40,
-			cost: ["Water", "Colorless", "Colorless"],
-		},
+			cost: ['Water', 'Colorless', 'Colorless']
+		}
 	],
 
-	weaknesses: [{ type: "Grass", value: "x2" }],
+	weaknesses: [{ type: 'Grass', value: "×2" }],
 	resistances: [],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 560181,
-			},
-		},
-	],
+				tcgplayer: 573937,
+				cardtrader: 142424
+			}
+		}
+	]
+}
 
-	retreat: 1,
-	rarity: "Common",
-	dexId: [418],
-};
-
-export default card;
+export default card

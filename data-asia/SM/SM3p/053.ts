@@ -1,51 +1,54 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ゾロア",
+		ja: 'ゾロア'
 	},
 
-	illustrator: "kodama",
-	category: "Pokemon",
+	illustrator: 'kodama',
+	rarity: 'Common',
+	category: 'Pokemon',
+	dexId: [570],
 	hp: 60,
-	types: ["Darkness"],
+	types: ['Darkness'],
 
 	description: {
-		ja: "相手そっくりに 化けているように みせかけ だましたり 驚かして そのすきに 逃げ出すことが 多い。",
+		ja: '相手そっくりに 化けているように みせかけ だましたり 驚かして そのすきに 逃げ出すことが 多い。'
 	},
 
-	stage: "Basic",
+	stage: 'Basic',
 
 	attacks: [
 		{
-			name: { ja: "ふむ" },
+			name: { ja: 'ふむ' },
 			damage: 10,
-			cost: ["Darkness"],
+			cost: ['Darkness']
 		},
 		{
-			name: { ja: "ぶつかる" },
+			name: { ja: 'ぶつかる' },
 			damage: 20,
-			cost: ["Colorless", "Colorless"],
-		},
+			cost: ['Colorless', 'Colorless']
+		}
 	],
 
-	weaknesses: [{ type: "Fighting", value: "x2" }],
-	resistances: [{ type: "Psychic", value: "-20" }],
-
-	variants: [
-		{
-			type: "normal",
-			thirdParty: {
-				cardmarket: 560211,
-			},
-		},
-	],
+	weaknesses: [{ type: 'Fighting', value: "×2" }],
+	resistances: [{ type: 'Psychic', value: '-20' }],
 
 	retreat: 1,
-	rarity: "Common",
-	dexId: [570],
-};
 
-export default card;
+	regulationMark: "A",
+	variants: [
+		{
+			type: 'normal',
+			thirdParty: {
+				cardmarket: 560211,
+				tcgplayer: 573967,
+				cardtrader: 142454
+			}
+		}
+	]
+}
+
+export default card

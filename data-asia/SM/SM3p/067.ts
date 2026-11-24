@@ -1,30 +1,33 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハウ",
+		ja: 'ハウ'
 	},
 
-	illustrator: "Ken Sugimori",
-	category: "Trainer",
+	illustrator: 'Ken Sugimori',
+	rarity: 'Uncommon',
+	category: 'Trainer',
 
 	effect: {
-		ja: "自分の山札を3枚引く。",
+		ja: '自分の山札を3枚引く。'
 	},
 
+	trainerType: 'Supporter',
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 560225,
-			},
-		},
-	],
+				tcgplayer: 573981,
+				cardtrader: 142468
+			}
+		}
+	]
+}
 
-	trainerType: "Supporter",
-	rarity: "Uncommon",
-};
-
-export default card;
+export default card

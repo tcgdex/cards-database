@@ -1,60 +1,63 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ウルガモス",
+		ja: 'ウルガモス'
 	},
 
-	illustrator: "nagimiso",
-	category: "Pokemon",
+	illustrator: 'nagimiso',
+	rarity: 'Uncommon',
+	category: 'Pokemon',
+	dexId: [637],
 	hp: 120,
-	types: ["Fire"],
+	types: ['Fire'],
+
+	evolveFrom: {
+		ja: 'メラルバ'
+	},
 
 	description: {
-		ja: "戦いになると ６枚の 羽から 火の粉の りんぷんを まき散らして あたり 一面を 火の海にする。",
+		ja: '戦いになると ６枚の 羽から 火の粉の りんぷんを まき散らして あたり 一面を 火の海にする。'
 	},
 
-	stage: "Stage1",
+	stage: 'Stage1',
 
 	abilities: [
 		{
-			type: "Ability",
-			name: { ja: "あついせんぷう" },
+			type: 'Ability',
+			name: { ja: 'あついせんぷう' },
 			effect: {
-				ja: "自分の番に1回使える。相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］",
-			},
-		},
+				ja: '自分の番に1回使える。相手のバトルポケモンをベンチポケモンと入れ替える。［バトル場に出すポケモンは相手が選ぶ。］'
+			}
+		}
 	],
 
 	attacks: [
 		{
-			name: { ja: "ヒートブラスト" },
+			name: { ja: 'ヒートブラスト' },
 			damage: 60,
-			cost: ["Fire", "Colorless"],
-		},
+			cost: ['Fire', 'Colorless']
+		}
 	],
 
-	weaknesses: [{ type: "Water", value: "x2" }],
+	weaknesses: [{ type: 'Water', value: "×2" }],
 	resistances: [],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 560172,
-			},
-		},
-	],
+				tcgplayer: 573928,
+				cardtrader: 142415
+			}
+		}
+	]
+}
 
-	evolveFrom: {
-		ja: "メラルバ",
-	},
-
-	retreat: 1,
-	rarity: "Uncommon",
-	dexId: [637],
-};
-
-export default card;
+export default card
