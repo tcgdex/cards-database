@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Giratina V"
 	},
 
+	illustrator: "PLANETA Mochizuki",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 220,

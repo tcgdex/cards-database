@@ -14,6 +14,7 @@ const card: Card = {
 		en: "Lumineon V"
 	},
 
+	illustrator: "PLANETA Tsuji",
 	rarity: "Promo",
 	category: "Pokemon",
 	hp: 170,
