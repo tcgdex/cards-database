@@ -1,0 +1,100 @@
+{
+	"mappings": [
+		{
+			"setName": "Celestial Storm",
+			"localId": "148a",
+			"targetSetName": "Celestial Storm",
+			"targetLocalId": "148"
+		},
+		{
+			"setName": "Forbidden Light",
+			"localId": "102a",
+			"targetSetName": "Forbidden Light",
+			"targetLocalId": "102"
+		},
+		{
+			"setName": "Guardians Rising",
+			"localId": "121a",
+			"targetSetName": "Guardians Rising",
+			"targetLocalId": "121"
+		},
+		{
+			"setName": "Lost Thunder",
+			"localId": "188a",
+			"targetSetName": "Lost Thunder",
+			"targetLocalId": "188"
+		},
+		{
+			"setName": "Team Up",
+			"localId": "152b",
+			"targetSetName": "Team Up",
+			"targetLocalId": "152"
+		},
+		{
+			"setName": "Ultra Prism",
+			"localId": "125a",
+			"targetSetName": "Ultra Prism",
+			"targetLocalId": "125"
+		},
+		{
+			"setName": "Miscellaneous Promos",
+			"localId": "©2001",
+			"targetSetName": "Miscellaneous Promos",
+			"targetLocalId": "2001"
+		},
+		{
+			"setName": "Miscellaneous Promos",
+			"localId": "early '99",
+			"targetSetName": "Miscellaneous Promos",
+			"targetLocalId": "1999E"
+		},
+		{
+			"setName": "Miscellaneous Promos",
+			"localId": "late '99",
+			"targetSetName": "Miscellaneous Promos",
+			"targetLocalId": "1999L"
+		},
+		{
+			"setName": "Miscellaneous Promos",
+			"localId": "©2006",
+			"targetSetName": "Miscellaneous Promos",
+			"targetLocalId": "2006"
+		},
+		{
+			"setName": "Miscellaneous Promos",
+			"localId": "©2007",
+			"targetSetName": "Miscellaneous Promos",
+			"targetLocalId": "2007"
+		},
+		{
+			"setName": "Gem Pack Vol. 1",
+			"localId": "45300",
+			"targetSetName": "Gem Pack Vol. 1",
+			"targetLocalId": "0109"
+		},
+		{
+			"setName": "Gem Pack Vol. 1",
+			"localId": "45421",
+			"targetSetName": "Gem Pack Vol. 1",
+			"targetLocalId": "0509"
+		},
+		{
+			"setName": "Gem Pack Vol. 3",
+			"localId": "45723",
+			"targetSetName": "Gem Pack Vol. 3",
+			"targetLocalId": "0307"
+		},
+		{
+			"setName": "Gem Pack Vol. 4",
+			"localId": "46029",
+			"targetSetName": "Gem Pack Vol. 4",
+			"targetLocalId": "0107"
+		},
+		{
+			"setName": "Gem Pack Vol. 5",
+			"localId": "22 07",
+			"targetSetName": "Gem Pack Vol. 5",
+			"targetLocalId": "2207"
+		}
+	]
+}
