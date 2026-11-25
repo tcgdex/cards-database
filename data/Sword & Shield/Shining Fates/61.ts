@@ -4,6 +4,8 @@ import Set from '../Shining Fates'
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [889],
+
 	name: {
 		fr: "Bouclier Rouillé",
 		en: "Rusted Shield",

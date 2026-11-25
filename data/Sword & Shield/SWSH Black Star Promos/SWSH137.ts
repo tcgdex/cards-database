@@ -3,6 +3,9 @@ import Set from '../SWSH Black Star Promos'
 
 const card: Card = {
 	dexId: [849],
+
+	cameoDexIds: [43],
+
 	set: Set,
 	weaknesses: [
 		{

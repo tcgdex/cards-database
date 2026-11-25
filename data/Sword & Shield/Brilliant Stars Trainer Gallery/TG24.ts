@@ -4,6 +4,8 @@ import Set from "../Brilliant Stars Trainer Gallery"
 const card: Card = {
 	set: Set,
 
+	cameoDexIds: [778],
+
 	name: {
 		en: "Acerola's Premonition",
 		fr: "Prémonition de Margie",
