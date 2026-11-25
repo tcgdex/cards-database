@@ -1,30 +1,33 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ダブル無色エネルギー",
+		ja: 'ダブル無色エネルギー'
 	},
 
-	illustrator: "",
-	category: "Energy",
-	energyType: "Special",
+	illustrator: '',
+
+	rarity: 'Uncommon',
+	category: 'Energy',
 
 	effect: {
-		ja: "このカードは、[無]エネルギー2個ぶんとしてはたらく。",
+		ja: "このカードは、{C}エネルギー2個ぶんとしてはたらく。"
 	},
+	energyType: 'Special',
 
+	regulationMark: "A",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 560229,
-			},
-		},
-	],
+				tcgplayer: 573985,
+				cardtrader: 142472
+			}
+		}
+	]
+}
 
-	rarity: "Uncommon",
-};
-
-export default card;
+export default card

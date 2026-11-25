@@ -1,30 +1,33 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ハイパーボール",
+		ja: 'ハイパーボール'
 	},
 
-	illustrator: "Ryo Ueda",
-	category: "Trainer",
+	illustrator: 'Ryo Ueda',
+	rarity: 'Uncommon',
+	category: 'Trainer',
 
 	effect: {
-		ja: "このカードは、自分の手札を2枚トラッシュしなければ使えない。自分の山札からポケモンを1枚選び、相手に見せてから、手札に加える。そして山札を切る。",
+		ja: "このカードは、自分の手札を2枚トラッシュしなければ使えない。自分の山札にあるポケモンを1枚、相手に見せてから、手札に加える。そして山札を切る。"
 	},
 
+	trainerType: 'Item',
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 560222,
-			},
-		},
-	],
+				tcgplayer: 573978,
+				cardtrader: 142465
+			}
+		}
+	]
+}
 
-	trainerType: "Item",
-	rarity: "Uncommon",
-};
-
-export default card;
+export default card

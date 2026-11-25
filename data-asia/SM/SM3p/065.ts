@@ -1,30 +1,33 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ポケモンいれかえ",
+		ja: 'ポケモンいれかえ'
 	},
 
-	illustrator: "Ryo Ueda",
-	category: "Trainer",
+	illustrator: 'Ryo Ueda',
+	rarity: 'Uncommon',
+	category: 'Trainer',
 
 	effect: {
-		ja: "自分のバトルポケモンをベンチポケモンと入れ替える。",
+		ja: '自分のバトルポケモンをベンチポケモンと入れ替える。'
 	},
 
+	trainerType: 'Item',
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 560223,
-			},
-		},
-	],
+				tcgplayer: 573979,
+				cardtrader: 142466
+			}
+		}
+	]
+}
 
-	trainerType: "Item",
-	rarity: "Uncommon",
-};
-
-export default card;
+export default card

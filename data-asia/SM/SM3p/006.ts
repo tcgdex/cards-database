@@ -1,57 +1,60 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "キノガッサ",
+		ja: 'キノガッサ'
 	},
 
-	illustrator: "Mizue",
-	category: "Pokemon",
+	illustrator: 'Mizue',
+	rarity: 'Uncommon',
+	category: 'Pokemon',
+	dexId: [286],
 	hp: 110,
-	types: ["Grass"],
+	types: ['Grass'],
+
+	evolveFrom: {
+		ja: 'キノココ'
+	},
 
 	description: {
-		ja: "短い 腕は パンチを 出すとき グーンと 伸びる。 プロボクサー 顔負けの テクニックを 持つ。",
+		ja: '短い 腕は パンチを 出すとき グーンと 伸びる。 プロボクサー 顔負けの テクニックを 持つ。'
 	},
 
-	stage: "Stage1",
+	stage: 'Stage1',
 
 	attacks: [
 		{
-			name: { ja: "じゅくすいほうし" },
-			cost: ["Grass"],
+			name: { ja: 'じゅくすいほうし' },
 			effect: {
-				ja: "相手のバトルポケモンをねむりにする。このねむりで投げるコインは2回になり、すべてオモテが出ないと回復しない。",
+				ja: '相手のバトルポケモンをねむりにする。このねむりで投げるコインは2回になり、すべてオモテが出ないと回復しない。'
 			},
+			cost: ['Grass']
 		},
 		{
-			name: { ja: "マグナムパンチ" },
+			name: { ja: 'マグナムパンチ' },
 			damage: 80,
-			cost: ["Colorless", "Colorless", "Colorless"],
-		},
+			cost: ['Colorless', 'Colorless', 'Colorless']
+		}
 	],
 
-	weaknesses: [{ type: "Fire", value: "x2" }],
+	weaknesses: [{ type: 'Fire', value: "×2" }],
 	resistances: [],
 
+	retreat: 2,
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 560164,
-			},
-		},
-	],
+				tcgplayer: 573920,
+				cardtrader: 142407
+			}
+		}
+	]
+}
 
-	evolveFrom: {
-		ja: "キノココ",
-	},
-
-	retreat: 2,
-	rarity: "Uncommon",
-	dexId: [286],
-};
-
-export default card;
+export default card

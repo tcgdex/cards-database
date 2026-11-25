@@ -1,30 +1,33 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "リーリエ",
+		ja: 'リーリエ'
 	},
 
-	illustrator: "Ken Sugimori",
-	category: "Trainer",
+	illustrator: 'Ken Sugimori',
+	rarity: 'Uncommon',
+	category: 'Trainer',
 
 	effect: {
-		ja: "自分の手札が6枚になるように、山札を引く。最初の自分の番に使ったなら、8枚になるように引く。",
+		ja: '自分の手札が6枚になるように、山札を引く。最初の自分の番に使ったなら、8枚になるように引く。'
 	},
 
+	trainerType: 'Supporter',
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "normal",
+			type: 'normal',
 			thirdParty: {
 				cardmarket: 560228,
-			},
-		},
-	],
+				tcgplayer: 573984,
+				cardtrader: 142471
+			}
+		}
+	]
+}
 
-	trainerType: "Supporter",
-	rarity: "Uncommon",
-};
-
-export default card;
+export default card

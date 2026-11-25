@@ -1,57 +1,60 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ひかるルギア",
+		ja: 'ひかるルギア'
 	},
 
-	illustrator: "Hitoshi Ariga",
-	category: "Pokemon",
+	illustrator: 'Hitoshi Ariga',
+	rarity: "Rare Shining",
+	category: 'Pokemon',
+	dexId: [249],
 	hp: 130,
-	types: ["Colorless"],
+	types: ['Colorless'],
 
 	description: {
-		ja: "深い 海溝の 底で 眠る。 ルギアが 羽ばたくと ４０日 嵐が 続くと 言われている。",
+		ja: '深い 海溝の 底で 眠る。 ルギアが 羽ばたくと ４０日 嵐が 続くと 言われている。'
 	},
 
-	stage: "Basic",
+	stage: 'Basic',
 
 	attacks: [
 		{
-			name: { ja: "ぎんのつばさ" },
-			damage: "60+",
-			cost: ["Colorless", "Colorless", "Colorless"],
+			name: { ja: 'ぎんのつばさ' },
 			effect: {
-				ja: "相手のバトルポケモンが特性を持っているなら、60ダメージ追加。",
+				ja: '相手のバトルポケモンが特性を持っているなら、60ダメージ追加。'
 			},
+			damage: '60+',
+			cost: ['Colorless', 'Colorless', 'Colorless']
 		},
 		{
-			name: { ja: "エアロフォース" },
+			name: { ja: 'エアロフォース' },
+			effect: {
+				ja: 'このポケモンについているエネルギーを、1個トラッシュする。'
+			},
 			damage: 130,
-			cost: ["Colorless", "Colorless", "Colorless", "Colorless"],
-			effect: {
-				ja: "このポケモンについているエネルギーを、1個トラッシュする。",
-			},
-		},
+			cost: ['Colorless', 'Colorless', 'Colorless', 'Colorless']
+		}
 	],
 
-	weaknesses: [{ type: "Lightning", value: "x2" }],
-	resistances: [{ type: "Fighting", value: "-20" }],
-
-	variants: [
-		{
-			type: "holo",
-			thirdParty: {
-				cardmarket: 560216,
-			},
-		},
-	],
+	weaknesses: [{ type: 'Lightning', value: "×2" }],
+	resistances: [{ type: 'Fighting', value: '-20' }],
 
 	retreat: 2,
-	rarity: "Shiny Ultra Rare",
-	dexId: [249],
-};
 
-export default card;
+	regulationMark: "A",
+	variants: [
+		{
+			type: 'holo',
+			thirdParty: {
+				cardmarket: 560216,
+				tcgplayer: 573972,
+				cardtrader: 142459
+			}
+		}
+	]
+}
+
+export default card

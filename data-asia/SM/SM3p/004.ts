@@ -1,56 +1,59 @@
-import { Card } from "../../../interfaces";
-import Set from "../SM3p";
+import { Card } from '../../../interfaces'
+import Set from '../SM3p'
 
 const card: Card = {
 	set: Set,
 	name: {
-		ja: "ひかるセレビィ",
+		ja: 'ひかるセレビィ'
 	},
 
-	illustrator: "Sanosuke Sakuma",
-	category: "Pokemon",
+	illustrator: 'Sanosuke Sakuma',
+	rarity: "Rare Shining",
+	category: 'Pokemon',
+	dexId: [251],
 	hp: 70,
-	types: ["Grass"],
+	types: ['Grass'],
 
 	description: {
-		ja: "時間を超えて あちこち さまよう。 セレビィが 姿を 現した 森は 草木が 生い茂るという。",
+		ja: '時間を超えて あちこち さまよう。 セレビィが 姿を 現した 森は 草木が 生い茂るという。'
 	},
 
-	stage: "Basic",
+	stage: 'Basic',
 
 	abilities: [
 		{
-			type: "Ability",
-			name: { ja: "タイムリコール" },
+			type: 'Ability',
+			name: { ja: 'タイムリコール' },
 			effect: {
-				ja: "このポケモンがいるかぎり、自分の進化しているポケモン全員は、進化前に持っていたワザを、すべて使える。［ワザを使うためのエネルギーは必要。］",
-			},
-		},
+				ja: 'このポケモンがいるかぎり、自分の進化しているポケモン全員は、進化前に持っていたワザを、すべて使える。［ワザを使うためのエネルギーは必要。］'
+			}
+		}
 	],
 
 	attacks: [
 		{
-			name: { ja: "リーフステップ" },
+			name: { ja: 'リーフステップ' },
 			damage: 30,
-			cost: ["Grass", "Colorless"],
-		},
+			cost: ['Grass', 'Colorless']
+		}
 	],
 
-	weaknesses: [{ type: "Fire", value: "x2" }],
+	weaknesses: [{ type: 'Fire', value: "×2" }],
 	resistances: [],
 
+	retreat: 1,
+
+	regulationMark: "A",
 	variants: [
 		{
-			type: "holo",
+			type: 'holo',
 			thirdParty: {
 				cardmarket: 560162,
-			},
-		},
-	],
+				tcgplayer: 573918,
+				cardtrader: 142405
+			}
+		}
+	]
+}
 
-	retreat: 1,
-	rarity: "Shiny Ultra Rare",
-	dexId: [251],
-};
-
-export default card;
+export default card
