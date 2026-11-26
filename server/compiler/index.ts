@@ -76,6 +76,8 @@ const ENDPOINTS: Record<string, FileFunction> = {
 		}
 	}
 
+	await fs.copyFile('../data/Pokémon TCG Pocket/packs/vee-vee-eevee-pack.json', `${DIST_FOLDER}/vee-vee-eevee-pack.json`)
+
 	console.log('4. Copying static files to public folder')
 	// Finally copy definitions files to the public folder :D
 	for await (const file of await fs.readdir('../meta/definitions')) {

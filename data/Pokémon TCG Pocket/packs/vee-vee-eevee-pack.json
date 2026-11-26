@@ -1,0 +1,42 @@
+{
+  "id": "vee-vee-eevee-pack",
+  "gameId": "EVP002_0010_00_000",
+  "releaseDate": "2026-11-20",
+  "names": {
+    "en": "Vee Vee! Eevee Pack",
+    "de": "Vui Vui! Evoli-Pack",
+    "es": "Sobre Eevee vii vii",
+    "fr": "Booster Évoli : Voli Voli !",
+    "it": "Busta Eevee Vee Vee!",
+    "pt-br": "Pacote Vee! Vee! Eevee!",
+    "zh-tw": "布伊布伊！伊布卡牌包",
+    "ja": "ブイブイ！イーブイパック",
+    "ko": "브이브이! 이브이 팩"
+  },
+  "image": "https://game.pokemontcgpocket.app/pack/vee-vee-eevee-pack/artwork_front-f3483c52b729901e.webp",
+  "slots": [
+    {
+      "positions": [1, 2, 3],
+      "cardIds": [
+        "A1-206", "A1-207", "A1-208", "A1a-061", "A2-126", "A2a-062",
+        "A3b-055", "A4-134", "B1-184", "B3-129", "B3a-056", "B3b-053", "B4-131"
+      ]
+    },
+    {
+      "positions": [4],
+      "cardIds": [
+        "A1-248", "A1a-072", "A2a-010", "A2a-022", "A3b-009", "A3b-034", "A3b-056",
+        "A3b-070", "A3b-071", "A3b-072", "A3b-073", "A3b-074", "A3b-075", "A3b-076",
+        "A3b-077", "A3b-078", "A4-083", "A4-112", "B1-081", "B3-037", "B3b-073"
+      ]
+    },
+    {
+      "positions": [5],
+      "cardIds": [
+        "A2a-082", "A2a-083", "A2a-091", "A2a-092", "A3b-079", "A3b-081", "A3b-083",
+        "A3b-087", "A3b-089", "A4-190", "A4-193", "A4-205", "A4-208", "B1-257",
+        "B1-276", "B3-182", "B3-196"
+      ]
+    }
+  ]
+}

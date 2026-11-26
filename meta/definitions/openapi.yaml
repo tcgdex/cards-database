@@ -73,6 +73,54 @@ paths:
                 type: object
         "404":
           $ref: "#/components/responses/NotFound"
+  /packs:
+    get:
+      summary: List cross-expansion event packs
+      responses:
+        "200":
+          description: Event pack summaries
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/EventPackResume"
+  /packs/{id}:
+    get:
+      summary: Get an event pack by slug or game ID
+      parameters:
+        - $ref: "#/components/parameters/Id"
+      responses:
+        "200":
+          description: Pack with original card printings and position pools
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: "#/components/schemas/EventPackResume"
+                  - type: object
+                    required: [slots, cards]
+                    properties:
+                      slots:
+                        type: array
+                        items:
+                          type: object
+                          required: [positions, cardIds]
+                          properties:
+                            positions:
+                              type: array
+                              items:
+                                type: integer
+                            cardIds:
+                              type: array
+                              items:
+                                type: string
+                      cards:
+                        type: array
+                        items:
+                          $ref: "#/components/schemas/CardResume"
+        "404":
+          $ref: "#/components/responses/NotFound"
   /sets/{id}:
     get:
       summary: Get a set by exact ID
@@ -119,6 +167,26 @@ components:
           schema:
             type: object
   schemas:
+    EventPackResume:
+      type: object
+      required: [id, gameId, releaseDate, name, image, cardCount, cardsPerPack]
+      properties:
+        id:
+          type: string
+        gameId:
+          type: string
+        releaseDate:
+          type: string
+          format: date
+        name:
+          type: string
+        image:
+          type: string
+          format: uri
+        cardCount:
+          type: integer
+        cardsPerPack:
+          type: integer
     CardResume:
       type: object
       required: [id, localId, name]

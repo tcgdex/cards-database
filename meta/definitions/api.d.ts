@@ -66,6 +66,21 @@ export interface SetResume {
 	};
 }
 
+export interface EventPackResume {
+	id: string
+	gameId: string
+	releaseDate: string
+	name: string
+	image: string
+	cardCount: number
+	cardsPerPack: number
+}
+
+export interface EventPack extends EventPackResume {
+	slots: Array<{ positions: number[]; cardIds: string[] }>
+	cards: CardResume[]
+}
+
 /**
  * /sets/:id
  */

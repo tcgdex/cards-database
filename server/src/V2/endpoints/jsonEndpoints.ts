@@ -5,6 +5,7 @@ import { checkLanguage } from '../../util'
 import { getAllCards, getCardById, toBrief } from '../Components/Card'
 import { findOneSerie } from '../Components/Serie'
 import { findOneSet } from '../Components/Set'
+import { getEventPack, getEventPacks } from '../Components/Pack'
 import { CatalogSearchValidationError, getCardRelations, getCatalogSearchOptions, searchCatalogCards } from '../Components/CardSearch'
 
 type CustomRequest = Request & { DO_NOT_CACHE?: boolean }
@@ -66,6 +67,20 @@ server.get('/:lang/cards/:id', async (req, res) => {
 	const card = await getCardById(lang, id.toLowerCase())
 	if (!card) return sendError(Errors.NOT_FOUND, res)
 	res.json(card)
+})
+
+server.get('/:lang/packs', (req, res) => {
+	const { lang } = req.params
+	if (!checkLanguage(lang)) return sendError(Errors.LANGUAGE_INVALID, res, { lang })
+	res.json(getEventPacks(lang))
+})
+
+server.get('/:lang/packs/:id', (req, res) => {
+	const { lang, id } = req.params
+	if (!checkLanguage(lang)) return sendError(Errors.LANGUAGE_INVALID, res, { lang })
+	const pack = getEventPack(lang, id)
+	if (!pack) return sendError(Errors.NOT_FOUND, res)
+	res.json(pack)
 })
 
 server.get('/:lang/sets/:id', async (req, res) => {
