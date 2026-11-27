@@ -57,7 +57,7 @@ export function cardIsLegal(type: 'standard' | 'expanded', card: Card, localId: 
 		legal.includes.series.includes(card.set.serie.id) ||
 		legal.includes.sets.includes(card.set.id) ||
 		card.energyType === "Normal" ||
-		card.regulationMark && legal.includes.regulationMark.includes(card.regulationMark)
+		card.regulationMark && legal.includes.regulationMark.includes(card.regulationMark.toUpperCase())
 	) {
 		return !(
 			legal.excludes.sets.includes(card.set.id) ||
