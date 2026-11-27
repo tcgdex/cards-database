@@ -22,6 +22,10 @@ export interface Result {
 	marketPrice?: number
 	directLowPrice?: number
 	subTypeName: 'Normal' | 'Reverse Holofoil' | 'Holofoil'
+	/** CardTrader product ID, sourced from TCGTracking. */
+	cardtraderId?: number
+	/** True when the product is a sealed item (booster box, ETB, bundle, etc.). */
+	isSealed?: boolean
 }
 
 export interface TCGPlayerAPI {

@@ -7,6 +7,7 @@ import type { Query } from '../../libs/QueryEngine/filter'
 import { recordToQuery } from '../../libs/QueryEngine/parsers'
 import { betterSorter, checkLanguage, unique } from '../../util'
 import { getAllCards, findOneCard, findCards, toBrief, getCardById } from '../Components/Card'
+import { PRICING_MODES, type PricingMode } from '../../libs/providers/tcgplayer'
 import { findOneSet, findSets, setToBrief } from '../Components/Set'
 import { findOneSerie, findSeries, serieToBrief } from '../Components/Serie'
 
@@ -19,6 +20,15 @@ type CustomRequest = Request & {
 }
 
 const server = express.Router()
+
+/**
+ * Parse the ?pricing query param. Returns undefined (= 'full' default) for
+ * missing or invalid values so callers can rely on the default.
+ */
+function parsePricingMode(raw: unknown): PricingMode | undefined {
+	if (typeof raw !== 'string') return undefined
+	return (PRICING_MODES as ReadonlyArray<string>).includes(raw) ? raw as PricingMode : undefined
+}
 
 const endpointToField: Record<string, keyof SDKCard> = {
 	categories: 'category',
@@ -138,7 +148,7 @@ server
 						'set.name': tmp
 					}]
 				}
-				result = (await findCards(lang, query))
+				result = (await findCards(lang, query, parsePricingMode(req.query.pricing)))
 					.map(toBrief)
 				break
 			}
@@ -224,14 +234,16 @@ server
 
 		let result: unknown
 		switch (endpoint) {
-			case 'cards':
+			case 'cards': {
 				// console.time('card')
-				result = await getCardById(lang, id)
+				const pricingMode = parsePricingMode(req.query.pricing)
+				result = await getCardById(lang, id, pricingMode)
 				if (!result) {
-					result = await findOneCard(lang, { name: id })
+					result = await findOneCard(lang, { name: id }, pricingMode)
 				}
 				// console.timeEnd('card')
 				break
+			}
 
 			case 'sets':
 				result = await findOneSet(lang, { id })
